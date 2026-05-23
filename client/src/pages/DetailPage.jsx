@@ -42,7 +42,7 @@ export default function DetailPage() {
 
   return (
     <article className="detail-page">
-      <div className="detail-media">
+      <div className={`detail-media detail-media-${article.type}`}>
         <img
           src={article.image}
           alt={article.name}

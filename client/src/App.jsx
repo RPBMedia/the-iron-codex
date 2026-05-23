@@ -17,6 +17,7 @@ export default function App() {
           <Route path="/locations" element={<CollectionPage collection="locations" />} />
           <Route path="/people" element={<CollectionPage collection="people" />} />
           <Route path="/characters" element={<Navigate to="/people" replace />} />
+          <Route path="/characters/:id" element={<RedirectCharacter />} />
           <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
           <Route path="/:collection/:id" element={<DetailPage />} />
           <Route path="*" element={<NotFound />} />
@@ -24,6 +25,12 @@ export default function App() {
       </main>
     </div>
   )
+}
+
+function RedirectCharacter() {
+  const id = window.location.pathname.split('/').pop()
+
+  return <Navigate to={`/people/${id}`} replace />
 }
 
 function NotFound() {
