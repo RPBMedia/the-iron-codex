@@ -272,7 +272,7 @@ h2 {
   z-index: -1;
   inset: 0 50% auto 50%;
   width: 100vw;
-  min-height: 460px;
+  min-height: clamp(660px, 62vw, 760px);
   background:
     radial-gradient(circle at 12% 0%, rgba(242, 193, 78, 0.14), transparent 34rem),
     linear-gradient(180deg, #101014 0%, #0b0b0d 100%);
@@ -363,7 +363,7 @@ h2 {
 }
 
 .archive-count {
-  margin: 0 0 16px;
+  margin: 0 0 20px;
   color: var(--silver);
   font-size: 0.92rem;
   font-weight: 760;
