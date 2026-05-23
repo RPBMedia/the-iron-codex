@@ -42,33 +42,44 @@ export default function DetailPage() {
 
   return (
     <article className="detail-page">
-      <div className={`detail-media detail-media-${article.type}`}>
-        <img
-          src={article.image}
-          alt={article.name}
-          onLoad={(event) => {
-            if (shouldUseFallbackImage(event.currentTarget)) {
+      <section className="detail-hero">
+        <div className={`detail-media detail-media-${article.type}`}>
+          <img
+            src={article.image}
+            alt={article.name}
+            onLoad={(event) => {
+              if (shouldUseFallbackImage(event.currentTarget)) {
+                event.currentTarget.classList.add('generated-image')
+                event.currentTarget.src = fallbackImage(article)
+              }
+            }}
+            onError={(event) => {
               event.currentTarget.classList.add('generated-image')
               event.currentTarget.src = fallbackImage(article)
-            }
-          }}
-          onError={(event) => {
-            event.currentTarget.classList.add('generated-image')
-            event.currentTarget.src = fallbackImage(article)
-          }}
-        />
-      </div>
-      <div className="detail-body">
-        <Link className="back-link" to={`/${collection}`}>
-          Back to {collectionLabels[collection] ?? 'archive'}
-        </Link>
-        <p className="eyebrow">{articleTypeLabel(article)}</p>
-        <h1>{article.name}</h1>
-        {article.type === 'character' && <PersonArticle article={article} />}
-        {article.type === 'location' && <LocationArticle article={article} />}
-        {article.type === 'event' && <EventArticle article={article} />}
-        {article.type === 'artifact' && <StandardArticle article={article} />}
-      </div>
+            }}
+          />
+        </div>
+        <div className="detail-body">
+          <Link className="back-link" to={`/${collection}`}>
+            Back to {collectionLabels[collection] ?? 'archive'}
+          </Link>
+          <p className="eyebrow">{articleTypeLabel(article)}</p>
+          <h1>{article.name}</h1>
+          {article.type === 'character' && <PersonHero article={article} />}
+          {article.type === 'location' && <LocationHero article={article} />}
+          {article.type === 'event' && <EventHero article={article} />}
+          {article.type === 'artifact' && <StandardHero article={article} />}
+        </div>
+      </section>
+
+      <section className="detail-content">
+        <div className="detail-content-inner">
+          {article.type === 'character' && <PersonContent article={article} />}
+          {article.type === 'location' && <LocationContent article={article} />}
+          {article.type === 'event' && <EventContent article={article} />}
+          {article.type === 'artifact' && <StandardContent article={article} />}
+        </div>
+      </section>
     </article>
   )
 }
@@ -89,26 +100,32 @@ function articleTypeLabel(article) {
   return article.type
 }
 
-function StandardArticle({ article }) {
+function StandardHero({ article }) {
   return (
-    <>
-      <dl className="fact-strip">
-        <div>
-          <dt>Year</dt>
-          <dd>{article.year}</dd>
-        </div>
-        <div>
-          <dt>Location</dt>
-          <dd>{article.location}</dd>
-        </div>
-      </dl>
-      <p className="standfirst">{article.summary}</p>
-      <p>{article.details}</p>
-    </>
+    <dl className="fact-strip">
+      <div>
+        <dt>Year</dt>
+        <dd>{article.year}</dd>
+      </div>
+      <div>
+        <dt>Location</dt>
+        <dd>{article.location}</dd>
+      </div>
+    </dl>
   )
 }
 
-function EventArticle({ article }) {
+function StandardContent({ article }) {
+  return (
+    <section className="bio-section">
+      <h2>Overview</h2>
+      <p className="standfirst">{article.summary}</p>
+      <p>{article.details}</p>
+    </section>
+  )
+}
+
+function EventHero({ article }) {
   const isBattle = article.eventType === 'Battle'
   const isWar = article.eventType === 'War'
 
@@ -157,17 +174,25 @@ function EventArticle({ article }) {
           </InfoBlock>
         </div>
       )}
+    </div>
+  )
+}
 
+function EventContent({ article }) {
+  const isBattle = article.eventType === 'Battle'
+
+  return (
+    <>
       <p className="standfirst">{article.summary}</p>
 
       <ArticleSection title="Background" paragraphs={article.background} />
       {isBattle && <ArticleSection title="Battle" paragraphs={[article.battle]} />}
       <ArticleSection title="Aftermath" paragraphs={[article.aftermath ?? article.details]} />
-    </div>
+    </>
   )
 }
 
-function LocationArticle({ article }) {
+function LocationHero({ article }) {
   return (
     <div className="location-profile">
       <p className="article-subtitle">
@@ -183,7 +208,13 @@ function LocationArticle({ article }) {
           <dd>{article.locationType === 'Kingdom' ? article.year : renderKingdom(article)}</dd>
         </div>
       </dl>
+    </div>
+  )
+}
 
+function LocationContent({ article }) {
+  return (
+    <>
       <ArticleSection title="Overview" paragraphs={article.overview} />
       <section className="bio-section">
         <h2>Known for</h2>
@@ -193,11 +224,11 @@ function LocationArticle({ article }) {
           ))}
         </ul>
       </section>
-    </div>
+    </>
   )
 }
 
-function PersonArticle({ article }) {
+function PersonHero({ article }) {
   return (
     <div className="person-profile">
       <dl className="fact-strip person-facts">
@@ -214,7 +245,13 @@ function PersonArticle({ article }) {
           <dd>{article.restingPlace}</dd>
         </div>
       </dl>
+    </div>
+  )
+}
 
+function PersonContent({ article }) {
+  return (
+    <>
       <section className="bio-section">
         <h2>Overview</h2>
         {(article.overview ?? [article.details]).map((paragraph) => (
@@ -230,7 +267,7 @@ function PersonArticle({ article }) {
           ))}
         </ul>
       </section>
-    </div>
+    </>
   )
 }
 

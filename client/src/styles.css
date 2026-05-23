@@ -423,27 +423,56 @@ h2 {
 .detail-page {
   position: relative;
   isolation: isolate;
+  color: var(--black);
+}
+
+.detail-hero,
+.detail-content {
   display: grid;
   align-items: start;
   grid-template-columns: minmax(280px, 0.86fr) minmax(320px, 1.14fr);
   gap: clamp(22px, 4vw, 48px);
   width: min(1280px, calc(100% - 32px));
   margin: 0 auto;
-  padding-top: clamp(24px, 6vw, 64px);
-  color: var(--black);
 }
 
-.detail-page::before {
+.detail-hero {
+  position: relative;
+  isolation: isolate;
+  padding-top: clamp(24px, 6vw, 64px);
+  padding-bottom: clamp(28px, 5vw, 56px);
+}
+
+.detail-hero::before {
   position: absolute;
   z-index: -1;
-  inset: 0 50% auto 50%;
+  inset: 0 50% 0 50%;
   width: 100vw;
-  height: clamp(620px, 78vh, 760px);
   background:
     radial-gradient(circle at 16% 0%, rgba(242, 193, 78, 0.1), transparent 32rem),
     linear-gradient(180deg, #101014 0%, #0b0b0d 100%);
   content: "";
   transform: translateX(-50%);
+}
+
+.detail-content {
+  position: relative;
+  isolation: isolate;
+  padding-block: clamp(28px, 5vw, 58px) 72px;
+}
+
+.detail-content::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0 50% 0 50%;
+  width: 100vw;
+  background: var(--sand);
+  content: "";
+  transform: translateX(-50%);
+}
+
+.detail-content-inner {
+  grid-column: 2;
 }
 
 .detail-media {
@@ -622,26 +651,6 @@ h2 {
   background: rgba(255, 250, 240, 0.96);
 }
 
-.person-profile .bio-section:first-of-type,
-.location-profile .bio-section:first-of-type,
-.event-profile .bio-section:first-of-type {
-  overflow: visible;
-}
-
-.person-profile .bio-section:first-of-type::before,
-.location-profile .bio-section:first-of-type::before,
-.event-profile .bio-section:first-of-type::before {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 50%;
-  width: 200vw;
-  height: 200vh;
-  background: var(--sand);
-  content: "";
-  transform: translateX(-50%);
-}
-
 .bio-section > * {
   position: relative;
   z-index: 1;
@@ -750,8 +759,13 @@ h2 {
 
   .card-grid,
   .list-grid,
-  .detail-page {
+  .detail-hero,
+  .detail-content {
     grid-template-columns: 1fr;
+  }
+
+  .detail-content-inner {
+    grid-column: 1;
   }
 
   .event-intel {
