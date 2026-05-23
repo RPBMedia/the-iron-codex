@@ -43,28 +43,15 @@ export default function DetailPage() {
   return (
     <article className="detail-page">
       <section className="detail-hero">
-        <div className={`detail-media detail-media-${article.type}`}>
-          <img
-            src={article.image}
-            alt={article.name}
-            onLoad={(event) => {
-              if (shouldUseFallbackImage(event.currentTarget)) {
-                event.currentTarget.classList.add('generated-image')
-                event.currentTarget.src = fallbackImage(article)
-              }
-            }}
-            onError={(event) => {
-              event.currentTarget.classList.add('generated-image')
-              event.currentTarget.src = fallbackImage(article)
-            }}
-          />
-        </div>
+        <ImageWithCaption article={article} />
         <div className="detail-body">
           <Link className="back-link" to={`/${collection}`}>
             Back to {collectionLabels[collection] ?? 'archive'}
           </Link>
           <p className="eyebrow">{articleTypeLabel(article)}</p>
           <h1>{article.name}</h1>
+          {article.type === 'character' && <PersonSubtitle article={article} />}
+          {article.type === 'character' && <FavoriteAction />}
           {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
           {article.type === 'event' && <EventHero article={article} />}
@@ -84,9 +71,39 @@ export default function DetailPage() {
   )
 }
 
+function ImageWithCaption({ article }) {
+  return (
+    <figure className={`detail-media detail-media-${article.type}`}>
+      <img
+        src={article.image}
+        alt={article.name}
+        onLoad={(event) => {
+          if (shouldUseFallbackImage(event.currentTarget)) {
+            event.currentTarget.classList.add('generated-image')
+            event.currentTarget.src = fallbackImage(article)
+          }
+        }}
+        onError={(event) => {
+          event.currentTarget.classList.add('generated-image')
+          event.currentTarget.src = fallbackImage(article)
+        }}
+      />
+      {article.imageInfo && (
+        <figcaption>
+          <strong>{article.imageInfo.caption}</strong>
+          {article.imageInfo.creator && <span>Creator: {article.imageInfo.creator}</span>}
+          {article.imageInfo.date && <span>Date: {article.imageInfo.date}</span>}
+          {article.imageInfo.source && <span>Source: {article.imageInfo.source}</span>}
+          {article.imageInfo.note && <em>{article.imageInfo.note}</em>}
+        </figcaption>
+      )}
+    </figure>
+  )
+}
+
 function articleTypeLabel(article) {
   if (article.type === 'character') {
-    return article.title ?? 'Person'
+    return 'Historical figure'
   }
 
   if (article.type === 'event') {
@@ -231,43 +248,83 @@ function LocationContent({ article }) {
 function PersonHero({ article }) {
   return (
     <div className="person-profile">
-      <dl className="fact-strip person-facts">
-        <div>
-          <dt>Born</dt>
-          <dd>{article.born ?? 'Unknown'}</dd>
-        </div>
-        <div>
-          <dt>Died</dt>
-          <dd>{formatDeath(article)}</dd>
-        </div>
-        <div>
-          <dt>Resting place</dt>
-          <dd>{article.restingPlace}</dd>
-        </div>
-      </dl>
+      <PersonQuickFacts article={article} />
     </div>
   )
 }
 
 function PersonContent({ article }) {
-  return (
-    <>
-      <section className="bio-section">
-        <h2>Overview</h2>
-        {(article.overview ?? [article.details]).map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
-        ))}
-      </section>
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: article.overview ?? [article.details].filter(Boolean) }]
+  const [overviewSection, ...articleSections] = sections
 
-      <section className="bio-section">
-        <h2>Greatest feats</h2>
-        <ul className="feat-list">
-          {(article.greatestFeats ?? []).map((feat) => (
-            <li key={feat}>{feat}</li>
-          ))}
-        </ul>
-      </section>
-    </>
+  return (
+    <div className="person-archive-grid">
+      <main className="person-main-column">
+        {overviewSection && (
+          <ArticleSection
+            className="overview-section"
+            title={overviewSection.title ?? 'Overview'}
+            paragraphs={overviewSection.paragraphs}
+          />
+        )}
+        <KeyAchievements achievements={article.keyAchievements ?? achievementFallback(article)} />
+        {articleSections.map((section) => (
+          <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} />
+        ))}
+        <HistoricalReliabilityNote note={article.historicalReliability} />
+        <SourcesList sources={article.sources} />
+      </main>
+      <aside className="person-side-rail">
+        <Timeline items={article.timeline} />
+        <RelatedEntries groups={article.relatedEntries} />
+      </aside>
+    </div>
+  )
+}
+
+function PersonSubtitle({ article }) {
+  const roles = article.roles?.length ? article.roles : [article.title].filter(Boolean)
+
+  return (
+    <div className="person-subtitle">
+      {roles.length > 0 && <p>{roles.join(' · ')}</p>}
+      {article.roleNote && <span>{article.roleNote}</span>}
+    </div>
+  )
+}
+
+function FavoriteAction() {
+  return (
+    <div className="article-actions" aria-label="Article actions">
+      <button type="button">Save to My Archive</button>
+      <span>Log in to save this article</span>
+    </div>
+  )
+}
+
+function PersonQuickFacts({ article }) {
+  const facts = [
+    { label: 'Born', value: renderBirth(article) },
+    { label: 'Died', value: renderDeath(article) },
+    { label: 'Resting place', value: article.restingPlace },
+    { label: 'Titles', value: article.roles?.join(', ') },
+    { label: 'Realm / polity', value: article.quickFacts?.realm },
+    { label: 'Dynasty / house', value: article.quickFacts?.dynasty },
+    { label: 'Culture', value: article.quickFacts?.culture },
+    { label: 'Known for', value: article.quickFacts?.knownFor }
+  ].filter((fact) => fact.value)
+
+  return (
+    <dl className="fact-strip person-facts rich-facts">
+      {facts.map((fact) => (
+        <div key={fact.label}>
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
   )
 }
 
@@ -280,15 +337,212 @@ function InfoBlock({ title, children }) {
   )
 }
 
-function ArticleSection({ title, paragraphs }) {
+function ArticleSection({ title, paragraphs, className = '' }) {
   return (
-    <section className="bio-section">
+    <section className={`bio-section ${className}`}>
       <h2>{title}</h2>
       {(paragraphs ?? []).filter(Boolean).map((paragraph) => (
         <p key={paragraph}>{paragraph}</p>
       ))}
     </section>
   )
+}
+
+function KeyAchievements({ achievements }) {
+  if (!achievements?.length) return null
+
+  return (
+    <section className="bio-section key-achievements">
+      <h2>Key achievements</h2>
+      <div className="achievement-list">
+        {achievements.map((achievement) => (
+          <article className="achievement-item" key={achievement.title}>
+            <h3>{achievement.title}</h3>
+            {achievement.description && <p>{achievement.description}</p>}
+            <InlineLinks links={achievement.links} />
+          </article>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function Timeline({ items }) {
+  if (!items?.length) return null
+
+  return (
+    <section className="rail-card timeline-card">
+      <h2>Timeline</h2>
+      <ol>
+        {items.map((item) => (
+          <li key={`${item.date}-${item.title}`}>
+            <time>{item.date}</time>
+            <strong>{item.title}</strong>
+            {item.description && <p>{item.description}</p>}
+            <InlineLinks links={item.links} />
+          </li>
+        ))}
+      </ol>
+    </section>
+  )
+}
+
+function RelatedEntries({ groups }) {
+  const entries = Object.entries(groups ?? {}).filter(([, items]) => items?.length)
+  if (!entries.length) return null
+
+  return (
+    <section className="rail-card related-card">
+      <h2>Related entries</h2>
+      {entries.map(([group, items]) => (
+        <div className="related-group" key={group}>
+          <h3>{formatGroupName(group)}</h3>
+          <ul>
+            {items.map((item) => (
+              <li key={`${item.type}-${item.slug}-${item.title}`}>
+                <EntryLink entry={item}>{item.title}</EntryLink>
+                {item.label && <span>{item.label}</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+  )
+}
+
+function HistoricalReliabilityNote({ note }) {
+  if (!note) return null
+
+  return (
+    <section className="bio-section reliability-note">
+      <h2>Historical reliability</h2>
+      <p>{note}</p>
+    </section>
+  )
+}
+
+function SourcesList({ sources }) {
+  if (!sources?.length) return null
+
+  return (
+    <section className="bio-section sources-list">
+      <h2>Sources / further reading</h2>
+      <ul>
+        {sources.map((source) => (
+          <li key={`${source.title}-${source.author ?? ''}`}>
+            {source.url ? (
+              <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a>
+            ) : (
+              <strong>{source.title}</strong>
+            )}
+            <span>{[source.author, source.type].filter(Boolean).join(' · ')}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+function InlineLinks({ links }) {
+  if (!links?.length) return null
+
+  return (
+    <div className="inline-links">
+      {links.map((link) => (
+        <EntryLink entry={link} key={`${link.type}-${link.slug}-${link.title}`}>{link.title}</EntryLink>
+      ))}
+    </div>
+  )
+}
+
+function EntryLink({ entry, children }) {
+  const route = routeForEntry(entry)
+
+  if (!route) {
+    return <span>{children}</span>
+  }
+
+  return <Link to={route}>{children}</Link>
+}
+
+function LinkedLocationFact({ place }) {
+  if (!place) return 'Unknown'
+
+  if (!place.slug) {
+    return place.name
+  }
+
+  return <Link to={`/locations/${place.slug}`}>{place.name}</Link>
+}
+
+function renderBirth(article) {
+  const birth = article.birth
+
+  if (!birth) {
+    return article.born ?? 'Unknown'
+  }
+
+  return (
+    <>
+      {birth.date ?? 'Unknown'}
+      {birth.place && (
+        <>
+          {' · '}
+          <LinkedLocationFact place={birth.place} />
+        </>
+      )}
+      {birth.note && <small>{birth.note}</small>}
+    </>
+  )
+}
+
+function renderDeath(article) {
+  const death = article.death
+  const fallback = formatDeath(article)
+
+  if (!death) {
+    return fallback
+  }
+
+  return (
+    <>
+      {death.date ?? fallback}
+      {death.place && (
+        <>
+          {' · '}
+          <LinkedLocationFact place={death.place} />
+        </>
+      )}
+      {death.note && <small>{death.note}</small>}
+    </>
+  )
+}
+
+function routeForEntry(entry) {
+  const routeType = {
+    person: 'people',
+    people: 'people',
+    character: 'people',
+    event: 'events',
+    location: 'locations',
+    place: 'locations',
+    kingdom: 'locations',
+    artifact: 'artifacts'
+  }[entry.type]
+
+  return routeType && entry.slug ? `/${routeType}/${entry.slug}` : ''
+}
+
+function formatGroupName(group) {
+  return group
+    .replace(/([A-Z])/g, ' $1')
+    .replace(/s$/, 's')
+    .replace(/^./, (letter) => letter.toUpperCase())
+}
+
+function achievementFallback(article) {
+  return (article.greatestFeats ?? []).map((feat) => ({ title: feat, description: '' }))
 }
 
 function renderEventLocation(article) {

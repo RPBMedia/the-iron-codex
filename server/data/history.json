@@ -256,7 +256,211 @@
         "Expanded Carolingian rule across much of western and central Europe",
         "Sponsored reforms in learning, administration, and church life"
       ],
-      "title": "Holy Roman Emperor"
+      "title": "Holy Roman Emperor",
+      "roles": [
+        "King of the Franks",
+        "King of the Lombards",
+        "Emperor in the West"
+      ],
+      "roleNote": "Often treated as the first Holy Roman Emperor in later tradition, though the formal imperial title developed later.",
+      "birth": {
+        "date": "c. 748",
+        "place": {
+          "name": "Aachen",
+          "slug": "aachen"
+        },
+        "note": "Birthplace uncertain in some traditions; Aachen is used here as a common traditional association."
+      },
+      "death": {
+        "date": "814",
+        "place": {
+          "name": "Aachen",
+          "slug": "aachen"
+        }
+      },
+      "quickFacts": {
+        "realm": "Frankish Kingdom / Carolingian Empire",
+        "dynasty": "Carolingian",
+        "culture": "Frankish",
+        "knownFor": "Imperial coronation, expansion, reform, and learning"
+      },
+      "imageInfo": {
+        "caption": "Portrait of Charlemagne by Albrecht Durer, 1511-1513.",
+        "creator": "Albrecht Durer",
+        "date": "1511-1513",
+        "source": "Germanisches Nationalmuseum / Wikimedia Commons",
+        "note": "A later idealized depiction, not a contemporary likeness."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Charlemagne was the dominant ruler of early medieval western Europe. His reign joined conquest, Christian kingship, court reform, and imperial ambition into a political model that shaped the medieval West for centuries."
+          ]
+        },
+        {
+          "title": "Early life",
+          "paragraphs": [
+            "Charlemagne was born into the Carolingian family, the ruling dynasty that displaced the Merovingians in the Frankish world. His exact birthplace is uncertain, but his upbringing belonged to an aristocratic warrior court tied to royal government and church reform."
+          ]
+        },
+        {
+          "title": "Rise to power",
+          "paragraphs": [
+            "After the death of Pepin the Short in 768, Charlemagne and his brother Carloman inherited Frankish rule. Carloman died in 771, leaving Charlemagne as sole king of the Franks."
+          ]
+        },
+        {
+          "title": "Major campaigns and achievements",
+          "paragraphs": [
+            "Charlemagne conquered the Lombard kingdom in Italy, fought long wars against the Saxons, campaigned in Iberia and central Europe, and expanded Frankish authority across much of western and central Europe."
+          ]
+        },
+        {
+          "title": "Rule and administration",
+          "paragraphs": [
+            "His government relied on royal assemblies, counts, bishops, missi dominici, capitularies, and close ties between the palace and the church. The empire remained personal and aristocratic, but it developed a powerful language of Christian rulership."
+          ]
+        },
+        {
+          "title": "Religion and reform",
+          "paragraphs": [
+            "Charlemagne supported monastic reform, liturgical correction, education, manuscript copying, and the standardization of Latin learning. These reforms helped drive what later scholars call the Carolingian Renaissance."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Later medieval rulers remembered Charlemagne as a model Christian emperor. His empire fragmented after his death, but its political imagination influenced France, Germany, the papacy, and imperial ideology."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Crowned emperor in Rome, 800",
+          "description": "Charlemagne's coronation by Pope Leo III revived the idea of a western emperor and reshaped medieval European politics.",
+          "links": [
+            {
+              "title": "Aachen",
+              "type": "location",
+              "slug": "aachen"
+            },
+            {
+              "title": "Frankish Kingdom",
+              "type": "location",
+              "slug": "frankish-kingdom"
+            }
+          ]
+        },
+        {
+          "title": "Conquered the Lombard kingdom, 774",
+          "description": "His victory in Italy made him king of the Lombards and deepened Frankish involvement in Italian and papal politics."
+        },
+        {
+          "title": "Expanded Carolingian rule",
+          "description": "Charlemagne's campaigns brought large parts of western and central Europe under Frankish authority."
+        },
+        {
+          "title": "Sponsored learning and reform",
+          "description": "His court promoted manuscript copying, Latin education, administrative correction, and religious reform."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 748",
+          "title": "Born",
+          "description": "Birthplace uncertain; Aachen is a traditional association.",
+          "links": [
+            {
+              "title": "Aachen",
+              "type": "location",
+              "slug": "aachen"
+            }
+          ]
+        },
+        {
+          "date": "768",
+          "title": "Becomes King of the Franks",
+          "description": "Inherits rule after the death of Pepin the Short."
+        },
+        {
+          "date": "774",
+          "title": "Conquers the Lombard kingdom",
+          "description": "Takes the Lombard crown in Italy."
+        },
+        {
+          "date": "800",
+          "title": "Crowned emperor in Rome",
+          "description": "Pope Leo III crowns him emperor on Christmas Day."
+        },
+        {
+          "date": "814",
+          "title": "Dies in Aachen",
+          "links": [
+            {
+              "title": "Aachen",
+              "type": "location",
+              "slug": "aachen"
+            }
+          ]
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Alfred the Great",
+            "type": "person",
+            "slug": "alfred-the-great",
+            "label": "Later Anglo-Saxon royal reformer"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Aachen",
+            "type": "location",
+            "slug": "aachen",
+            "label": "Palace and burial place"
+          },
+          {
+            "title": "Frankish Kingdom",
+            "type": "location",
+            "slug": "frankish-kingdom",
+            "label": "Realm"
+          }
+        ],
+        "events": [
+          {
+            "title": "Charlemagne Crowned Emperor",
+            "type": "event",
+            "slug": "charlemagne-crowned",
+            "label": "Imperial coronation of 800"
+          }
+        ]
+      },
+      "historicalReliability": "Charlemagne is well-attested in royal annals, capitularies, letters, and later biographies, but most surviving portraits are centuries later and idealized rather than contemporary likenesses.",
+      "sources": [
+        {
+          "title": "The Life of Charlemagne",
+          "author": "Einhard",
+          "type": "primary source"
+        },
+        {
+          "title": "Royal Frankish Annals",
+          "type": "primary source"
+        },
+        {
+          "title": "Charlemagne",
+          "author": "Encyclopaedia Britannica",
+          "type": "encyclopedia",
+          "url": "https://www.britannica.com/biography/Charlemagne"
+        },
+        {
+          "title": "Emperor Charlemagne portrait",
+          "author": "Germanisches Nationalmuseum / Wikimedia Commons",
+          "type": "museum collection",
+          "url": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Emperor_Charlemagne.jpg"
+        }
+      ]
     },
     {
       "id": "eleanor-of-aquitaine",
@@ -280,7 +484,84 @@
         "Participant in the Second Crusade",
         "Key political force in the Angevin empire"
       ],
-      "title": "Queen of France and England"
+      "title": "Queen of France and England",
+      "roles": [
+        "Duchess of Aquitaine",
+        "Queen of France",
+        "Queen of England"
+      ],
+      "birth": {
+        "date": "c. 1122",
+        "place": {
+          "name": "Poitiers",
+          "slug": "poitiers"
+        },
+        "note": "Some traditions place her birth elsewhere in Aquitaine."
+      },
+      "death": {
+        "date": "1204",
+        "place": {
+          "name": "Fontevraud Abbey",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Aquitaine, France, and England",
+        "dynasty": "House of Poitiers / Ramnulfids",
+        "culture": "Occitan and Angevin court culture",
+        "knownFor": "Aquitaine, crusading, Angevin politics, and court patronage"
+      },
+      "imageInfo": {
+        "caption": "Funerary effigy of Eleanor of Aquitaine at Fontevraud Abbey.",
+        "source": "Library of Congress / Wikimedia Commons",
+        "note": "A tomb effigy rather than a life portrait."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Eleanor inherited Aquitaine, one of the richest and most culturally influential duchies in western Europe. Her marriages to Louis VII of France and Henry II of England placed her at the center of crusading, dynastic rivalry, and Angevin statecraft.",
+            "She remained politically active into old age, supporting her sons, negotiating marriages, and guarding the interests of Aquitaine. Her career shows how land, lineage, and personal authority could make a medieval noblewoman a continental power."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Duchess of Aquitaine in her own right",
+          "description": ""
+        },
+        {
+          "title": "Queen consort of France and later England",
+          "description": ""
+        },
+        {
+          "title": "Participant in the Second Crusade",
+          "description": ""
+        },
+        {
+          "title": "Key political force in the Angevin empire",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1122",
+          "title": "Born",
+          "description": "Some traditions place her birth elsewhere in Aquitaine.",
+          "links": [
+            {
+              "title": "Poitiers",
+              "type": "location",
+              "slug": "poitiers"
+            }
+          ]
+        },
+        {
+          "date": "1204",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "william-the-conqueror",
@@ -304,7 +585,81 @@
         "Ordered the Domesday survey",
         "Built a cross-Channel realm linking Normandy and England"
       ],
-      "title": "Duke of Normandy and King of England"
+      "title": "Duke of Normandy and King of England",
+      "roles": [
+        "Duke of Normandy",
+        "King of England"
+      ],
+      "birth": {
+        "date": "c. 1028",
+        "place": {
+          "name": "Falaise",
+          "slug": "falaise"
+        }
+      },
+      "death": {
+        "date": "1087",
+        "place": {
+          "name": "Rouen",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Normandy and England",
+        "dynasty": "House of Normandy",
+        "culture": "Norman",
+        "knownFor": "The Norman Conquest and Domesday survey"
+      },
+      "imageInfo": {
+        "caption": "Later portrait of William the Conqueror.",
+        "source": "Wikimedia Commons",
+        "note": "A later artistic depiction, not a contemporary likeness."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "William rose from contested ducal succession in Normandy to one of the most consequential kings in medieval Europe. His claim to the English throne led to the invasion of 1066 and the defeat of Harold Godwinson at Hastings.",
+            "Norman rule transformed England through castles, aristocratic replacement, new legal habits, and closer ties to continental politics. The Domesday Book captured the administrative reach of the kingdom William built."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Won the Battle of Hastings in 1066",
+          "description": ""
+        },
+        {
+          "title": "Became king of England after the Norman Conquest",
+          "description": ""
+        },
+        {
+          "title": "Ordered the Domesday survey",
+          "description": ""
+        },
+        {
+          "title": "Built a cross-Channel realm linking Normandy and England",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1028",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Falaise",
+              "type": "location",
+              "slug": "falaise"
+            }
+          ]
+        },
+        {
+          "date": "1087",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "hildegard-of-bingen",
@@ -328,7 +683,83 @@
         "Wrote visionary works including Scivias",
         "Corresponded with leading church and political figures"
       ],
-      "title": "Benedictine Abbess and Composer"
+      "title": "Benedictine Abbess and Composer",
+      "roles": [
+        "Benedictine abbess",
+        "Composer",
+        "Visionary writer"
+      ],
+      "birth": {
+        "date": "1098",
+        "place": {
+          "name": "Bermersheim vor der Hoehe",
+          "slug": "bermersheim-vor-der-hoehe"
+        },
+        "note": "Traditional birthplace."
+      },
+      "death": {
+        "date": "1179",
+        "place": {
+          "name": "Rupertsberg",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Holy Roman Empire",
+        "culture": "Rhineland monastic",
+        "knownFor": "Visionary theology, music, letters, and natural philosophy"
+      },
+      "imageInfo": {
+        "caption": "Medieval depiction of Hildegard receiving a vision.",
+        "source": "Wikimedia Commons",
+        "note": "A manuscript image shaped by devotional and symbolic conventions."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Hildegard of Bingen was a Benedictine abbess whose visions, music, letters, and scientific writing made her one of the most distinctive intellectual figures of the twelfth century. She founded religious communities and corresponded with popes, emperors, and abbots.",
+            "Her work crossed boundaries between theology, medicine, natural philosophy, poetry, and music. Within the structures of monastic life, she built a public voice with remarkable reach."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Founded and led religious communities in the Rhineland",
+          "description": ""
+        },
+        {
+          "title": "Composed influential sacred music",
+          "description": ""
+        },
+        {
+          "title": "Wrote visionary works including Scivias",
+          "description": ""
+        },
+        {
+          "title": "Corresponded with leading church and political figures",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1098",
+          "title": "Born",
+          "description": "Traditional birthplace.",
+          "links": [
+            {
+              "title": "Bermersheim vor der Hoehe",
+              "type": "location",
+              "slug": "bermersheim-vor-der-hoehe"
+            }
+          ]
+        },
+        {
+          "date": "1179",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "saladin",
@@ -352,7 +783,81 @@
         "Captured Jerusalem from the crusader kingdom",
         "Negotiated with Richard the Lionheart during the Third Crusade"
       ],
-      "title": "Ayyubid Sultan"
+      "title": "Ayyubid Sultan",
+      "roles": [
+        "Sultan of Egypt and Syria",
+        "Founder of the Ayyubid dynasty"
+      ],
+      "birth": {
+        "date": "1137 or 1138",
+        "place": {
+          "name": "Tikrit",
+          "slug": "tikrit"
+        }
+      },
+      "death": {
+        "date": "1193",
+        "place": {
+          "name": "Damascus",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Ayyubid Sultanate",
+        "dynasty": "Ayyubid",
+        "culture": "Kurdish and Islamic court culture",
+        "knownFor": "Hattin, Jerusalem, and the Third Crusade"
+      },
+      "imageInfo": {
+        "caption": "Later European depiction of Saladin.",
+        "source": "British Museum / Wikimedia Commons",
+        "note": "A later non-contemporary depiction shaped by European visual conventions."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Saladin was the founder of the Ayyubid dynasty and the most famous Muslim ruler encountered by Latin crusaders. His career united Egypt and Syria under his authority and put intense pressure on the crusader states.",
+            "Although he was not European, he is essential to medieval European history because Latin warfare, diplomacy, and chronicles revolved around his campaigns. His capture of Jerusalem triggered the Third Crusade and shaped crusading memory for centuries."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Founded the Ayyubid dynasty",
+          "description": ""
+        },
+        {
+          "title": "Won the Battle of Hattin in 1187",
+          "description": ""
+        },
+        {
+          "title": "Captured Jerusalem from the crusader kingdom",
+          "description": ""
+        },
+        {
+          "title": "Negotiated with Richard the Lionheart during the Third Crusade",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1137 or 1138",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Tikrit",
+              "type": "location",
+              "slug": "tikrit"
+            }
+          ]
+        },
+        {
+          "date": "1193",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "richard-the-lionheart",
@@ -376,7 +881,84 @@
         "Captured Cyprus in 1191",
         "Negotiated the Treaty of Jaffa with Saladin"
       ],
-      "title": "King of England and Crusader"
+      "title": "King of England and Crusader",
+      "roles": [
+        "King of England",
+        "Duke of Aquitaine",
+        "Crusader commander"
+      ],
+      "birth": {
+        "date": "1157",
+        "place": {
+          "name": "Oxford",
+          "slug": "oxford"
+        },
+        "note": "Born at Beaumont Palace, Oxford."
+      },
+      "death": {
+        "date": "1199",
+        "place": {
+          "name": "Chalus",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Angevin Empire",
+        "dynasty": "House of Plantagenet",
+        "culture": "Angevin and Anglo-Norman",
+        "knownFor": "Third Crusade and warfare in France"
+      },
+      "imageInfo": {
+        "caption": "Later portrait of Richard I.",
+        "source": "Wikimedia Commons",
+        "note": "A later royal image, not a contemporary likeness."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Richard I became famous less as a domestic ruler than as a commander, crusader, and lord of a sprawling Angevin inheritance. He spent much of his reign campaigning in France and the eastern Mediterranean.",
+            "His reputation was forged during the Third Crusade, where he won victories and negotiated with Saladin. His ransom after captivity and his wars in France placed heavy financial demands on England."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "King of England and duke of Aquitaine",
+          "description": ""
+        },
+        {
+          "title": "Won major victories during the Third Crusade",
+          "description": ""
+        },
+        {
+          "title": "Captured Cyprus in 1191",
+          "description": ""
+        },
+        {
+          "title": "Negotiated the Treaty of Jaffa with Saladin",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1157",
+          "title": "Born",
+          "description": "Born at Beaumont Palace, Oxford.",
+          "links": [
+            {
+              "title": "Oxford",
+              "type": "location",
+              "slug": "oxford"
+            }
+          ]
+        },
+        {
+          "date": "1199",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "joan-of-arc",
@@ -400,7 +982,81 @@
         "Became a rallying symbol for the French cause",
         "Posthumously rehabilitated and later canonized"
       ],
-      "title": "French Military Leader and Saint"
+      "title": "French Military Leader and Saint",
+      "roles": [
+        "French military figure",
+        "Visionary",
+        "Saint"
+      ],
+      "birth": {
+        "date": "c. 1412",
+        "place": {
+          "name": "Domremy",
+          "slug": "domremy"
+        }
+      },
+      "death": {
+        "date": "1431",
+        "place": {
+          "name": "Rouen",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Kingdom of France",
+        "culture": "Late medieval French",
+        "knownFor": "Relief of Orleans and support for Charles VII"
+      },
+      "imageInfo": {
+        "caption": "Fifteenth-century miniature associated with Joan of Arc.",
+        "source": "Wikimedia Commons",
+        "note": "A near-period but stylized manuscript depiction."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Joan of Arc emerged from rural northeastern France during the crisis years of the Hundred Years' War. Claiming divine guidance, she persuaded French leaders to let her accompany military forces and became a symbol of renewed confidence.",
+            "Her role in the relief of Orleans and the coronation of Charles VII gave her enormous political value. Captured by Burgundian allies of the English, she was tried, executed, later rehabilitated, and eventually canonized."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Helped lift the siege of Orleans in 1429",
+          "description": ""
+        },
+        {
+          "title": "Supported Charles VII's coronation at Reims",
+          "description": ""
+        },
+        {
+          "title": "Became a rallying symbol for the French cause",
+          "description": ""
+        },
+        {
+          "title": "Posthumously rehabilitated and later canonized",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1412",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Domremy",
+              "type": "location",
+              "slug": "domremy"
+            }
+          ]
+        },
+        {
+          "date": "1431",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "isabella-of-castile",
@@ -424,7 +1080,81 @@
         "Completed the conquest of Granada in 1492",
         "Reshaped Iberian monarchy at the end of the medieval period"
       ],
-      "title": "Queen of Castile"
+      "title": "Queen of Castile",
+      "roles": [
+        "Queen of Castile",
+        "Dynastic partner of Ferdinand II"
+      ],
+      "birth": {
+        "date": "1451",
+        "place": {
+          "name": "Madrigal de las Altas Torres",
+          "slug": "madrigal-de-las-altas-torres"
+        }
+      },
+      "death": {
+        "date": "1504",
+        "place": {
+          "name": "Medina del Campo",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Crown of Castile",
+        "dynasty": "House of Trastamara",
+        "culture": "Castilian",
+        "knownFor": "Granada, dynastic union, and late medieval Iberian monarchy"
+      },
+      "imageInfo": {
+        "caption": "Portrait of Isabella I of Castile.",
+        "source": "Wikimedia Commons",
+        "note": "A later or workshop-associated royal image."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Isabella was born in the final years of the medieval period and became one of Iberia's defining monarchs. Her marriage to Ferdinand of Aragon joined two major crowns in a dynastic partnership while preserving separate institutions.",
+            "Her later reign belongs to the transition toward early modern monarchy, but her roots and many of her political problems were deeply medieval: succession, noble power, religious authority, and war against Granada."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Queen of Castile",
+          "description": ""
+        },
+        {
+          "title": "Dynastic partner in the union of Castile and Aragon",
+          "description": ""
+        },
+        {
+          "title": "Completed the conquest of Granada in 1492",
+          "description": ""
+        },
+        {
+          "title": "Reshaped Iberian monarchy at the end of the medieval period",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1451",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Madrigal de las Altas Torres",
+              "type": "location",
+              "slug": "madrigal-de-las-altas-torres"
+            }
+          ]
+        },
+        {
+          "date": "1504",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "mehmed-ii",
@@ -448,7 +1178,83 @@
         "Made Constantinople the Ottoman imperial capital",
         "Expanded Ottoman power in southeastern Europe and Anatolia"
       ],
-      "title": "Ottoman Sultan and Conqueror"
+      "title": "Ottoman Sultan and Conqueror",
+      "roles": [
+        "Ottoman sultan",
+        "Conqueror of Constantinople"
+      ],
+      "birth": {
+        "date": "1432",
+        "place": {
+          "name": "Edirne",
+          "slug": "edirne"
+        }
+      },
+      "death": {
+        "date": "1481",
+        "place": {
+          "name": "near Gebze",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Ottoman Empire",
+        "dynasty": "House of Osman",
+        "culture": "Ottoman Turkish",
+        "knownFor": "Fall of Constantinople and Ottoman imperial expansion"
+      },
+      "imageInfo": {
+        "caption": "Portrait of Mehmed II by Gentile Bellini.",
+        "creator": "Gentile Bellini",
+        "date": "1480",
+        "source": "National Gallery, London / Wikimedia Commons",
+        "note": "A near-contemporary portrait from Mehmed's courtly diplomatic world."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Mehmed II became sultan as the Ottoman state was expanding into a major imperial power. His conquest of Constantinople in 1453 ended the Byzantine Empire and made the city a new Ottoman capital.",
+            "His rule connected military innovation, urban rebuilding, legal authority, and court culture. For Europe, he became both a feared conqueror and a diplomatic reality no ruler could ignore."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Captured Constantinople in 1453",
+          "description": ""
+        },
+        {
+          "title": "Ended the Byzantine Empire",
+          "description": ""
+        },
+        {
+          "title": "Made Constantinople the Ottoman imperial capital",
+          "description": ""
+        },
+        {
+          "title": "Expanded Ottoman power in southeastern Europe and Anatolia",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1432",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Edirne",
+              "type": "location",
+              "slug": "edirne"
+            }
+          ]
+        },
+        {
+          "date": "1481",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "margaret-i",
@@ -472,7 +1278,84 @@
         "Defeated rival claims to Scandinavian rule",
         "Built one of northern Europe's most ambitious late medieval unions"
       ],
-      "title": "Queen of Denmark, Norway, and Sweden"
+      "title": "Queen of Denmark, Norway, and Sweden",
+      "roles": [
+        "Queen of Denmark",
+        "Queen of Norway",
+        "Queen of Sweden"
+      ],
+      "birth": {
+        "date": "1353",
+        "place": {
+          "name": "Soborg Castle",
+          "slug": "soborg-castle"
+        },
+        "note": "Traditional birthplace."
+      },
+      "death": {
+        "date": "1412",
+        "place": {
+          "name": "Flensburg Fjord",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Kalmar Union",
+        "dynasty": "House of Estridsen / Bjälbo connections",
+        "culture": "Scandinavian royal",
+        "knownFor": "Uniting Denmark, Norway, and Sweden under the Kalmar Union"
+      },
+      "imageInfo": {
+        "caption": "Tomb effigy of Margaret I in Roskilde Cathedral.",
+        "source": "Wikimedia Commons",
+        "note": "A funerary image rather than a life portrait."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Margaret I maneuvered through dynastic crisis, regency politics, and aristocratic negotiation to become the dominant ruler of Scandinavia. Her authority rested on diplomacy as much as formal title.",
+            "The Kalmar Union brought Denmark, Norway, and Sweden under one crown, creating a northern political order that shaped late medieval Scandinavian history."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "United Denmark, Norway, and Sweden under the Kalmar Union",
+          "description": ""
+        },
+        {
+          "title": "Ruled effectively through regency and dynastic strategy",
+          "description": ""
+        },
+        {
+          "title": "Defeated rival claims to Scandinavian rule",
+          "description": ""
+        },
+        {
+          "title": "Built one of northern Europe's most ambitious late medieval unions",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1353",
+          "title": "Born",
+          "description": "Traditional birthplace.",
+          "links": [
+            {
+              "title": "Soborg Castle",
+              "type": "location",
+              "slug": "soborg-castle"
+            }
+          ]
+        },
+        {
+          "date": "1412",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "william-wallace",
@@ -496,7 +1379,83 @@
         "Led resistance during the First War of Scottish Independence",
         "Became an enduring symbol of Scottish independence"
       ],
-      "title": "Guardian of Scotland"
+      "title": "Guardian of Scotland",
+      "roles": [
+        "Guardian of Scotland",
+        "Military leader"
+      ],
+      "birth": {
+        "date": "c. 1270",
+        "place": {
+          "name": "Elderslie",
+          "slug": "elderslie"
+        },
+        "note": "Traditional and disputed; Wallace's early life is poorly documented."
+      },
+      "death": {
+        "date": "1305",
+        "place": {
+          "name": "London",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Kingdom of Scotland",
+        "culture": "Scottish",
+        "knownFor": "Resistance during the First War of Scottish Independence"
+      },
+      "imageInfo": {
+        "caption": "Later depiction of William Wallace.",
+        "source": "Wikimedia Commons",
+        "note": "A later image; no secure contemporary portrait survives."
+      },
+      "historicalReliability": "Wallace is historically attested as a resistance leader, but details of his birth, family background, and early life are uncertain and often shaped by later tradition.",
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "William Wallace became one of the best-known leaders of Scottish resistance to English rule in the late thirteenth century. His background is less securely documented than his military career, but his impact on Scottish political memory was immense.",
+            "After victory at Stirling Bridge, Wallace served as Guardian of Scotland. He was later defeated, captured, taken to London, and executed as a traitor by the English crown."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Won the Battle of Stirling Bridge in 1297",
+          "description": ""
+        },
+        {
+          "title": "Served as Guardian of Scotland",
+          "description": ""
+        },
+        {
+          "title": "Led resistance during the First War of Scottish Independence",
+          "description": ""
+        },
+        {
+          "title": "Became an enduring symbol of Scottish independence",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1270",
+          "title": "Born",
+          "description": "Traditional and disputed; Wallace's early life is poorly documented.",
+          "links": [
+            {
+              "title": "Elderslie",
+              "type": "location",
+              "slug": "elderslie"
+            }
+          ]
+        },
+        {
+          "date": "1305",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "ragnar-lothbrok",
@@ -520,7 +1479,76 @@
         "Linked by tradition to the leaders of the Great Heathen Army",
         "Became one of the most enduring figures of Viking legend"
       ],
-      "title": "Legendary Viking Chieftain"
+      "title": "Legendary Viking Chieftain",
+      "roles": [
+        "Legendary Viking chieftain"
+      ],
+      "roleNote": "Ragnar belongs more to saga tradition than secure documentary history.",
+      "birth": {
+        "date": "Unknown",
+        "place": null,
+        "note": "Legendary figure; no reliable birthplace is known."
+      },
+      "death": {
+        "date": "traditionally 865",
+        "place": {
+          "name": "Northumbria",
+          "slug": null
+        },
+        "note": "Death tradition is legendary."
+      },
+      "quickFacts": {
+        "realm": "Scandinavian saga world",
+        "culture": "Norse legendary tradition",
+        "knownFor": "Saga traditions and legendary Viking raids"
+      },
+      "imageInfo": {
+        "caption": "Later depiction of Ragnar Lothbrok's death.",
+        "source": "Wikimedia Commons",
+        "note": "A legendary subject in later art, not a contemporary likeness."
+      },
+      "historicalReliability": "Ragnar Lothbrok is a legendary figure whose story survives mainly in later sagas and traditions. Some episodes may echo historical Viking activity, but the biography is not securely reconstructable.",
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Ragnar Lothbrok is a saga figure rather than a securely documented monarch. Medieval Scandinavian traditions present him as a heroic raider and ruler whose stories connect Denmark, Sweden, and England.",
+            "His legend mattered because it shaped how later writers understood Viking conquest and dynastic memory. The Great Heathen Army in England was associated in tradition with sons avenging Ragnar's death."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Central hero of Norse legendary sagas",
+          "description": ""
+        },
+        {
+          "title": "Associated with Viking raids in Francia and England",
+          "description": ""
+        },
+        {
+          "title": "Linked by tradition to the leaders of the Great Heathen Army",
+          "description": ""
+        },
+        {
+          "title": "Became one of the most enduring figures of Viking legend",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Unknown",
+          "title": "Born",
+          "description": "Legendary figure; no reliable birthplace is known.",
+          "links": []
+        },
+        {
+          "date": "traditionally 865",
+          "title": "Died",
+          "description": "Death tradition is legendary.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "sigurd-of-norway",
@@ -544,7 +1572,73 @@
         "Fought campaigns along Iberia and in the Mediterranean",
         "Entered Constantinople with a celebrated royal expedition"
       ],
-      "title": "King of Norway and Crusader"
+      "title": "King of Norway and Crusader",
+      "roles": [
+        "King of Norway",
+        "Crusader king"
+      ],
+      "birth": {
+        "date": "c. 1090",
+        "place": null,
+        "note": "No reliable birthplace is used here."
+      },
+      "death": {
+        "date": "1130",
+        "place": {
+          "name": "Oslo",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Kingdom of Norway",
+        "culture": "Norwegian",
+        "knownFor": "The Norwegian Crusade"
+      },
+      "imageInfo": {
+        "caption": "Later historical painting of Sigurd entering Constantinople.",
+        "source": "Wikimedia Commons",
+        "note": "A later artistic depiction, not a contemporary likeness."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Sigurd I Magnusson, often called Sigurd the Crusader, ruled Norway in the early twelfth century. As a young king, he led a Norwegian crusading expedition by sea through the Atlantic and Mediterranean.",
+            "His journey linked Norway to Iberia, Sicily, Constantinople, and Jerusalem. The expedition gave him a reputation as the first European king to personally go on crusade to the Holy Land."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "King of Norway from 1103 to 1130",
+          "description": ""
+        },
+        {
+          "title": "Led the Norwegian Crusade to Jerusalem",
+          "description": ""
+        },
+        {
+          "title": "Fought campaigns along Iberia and in the Mediterranean",
+          "description": ""
+        },
+        {
+          "title": "Entered Constantinople with a celebrated royal expedition",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1090",
+          "title": "Born",
+          "description": "No reliable birthplace is used here.",
+          "links": []
+        },
+        {
+          "date": "1130",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "cnut-the-great",
@@ -568,7 +1662,75 @@
         "Consolidated Danish conquest into stable kingship in England",
         "Used English administration to govern a wide maritime realm"
       ],
-      "title": "North Sea Emperor"
+      "title": "North Sea Emperor",
+      "roles": [
+        "King of England",
+        "King of Denmark",
+        "King of Norway"
+      ],
+      "birth": {
+        "date": "c. 990",
+        "place": null,
+        "note": "Birthplace uncertain; usually treated broadly as Denmark."
+      },
+      "death": {
+        "date": "1035",
+        "place": {
+          "name": "Shaftesbury",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "North Sea Empire",
+        "dynasty": "House of Denmark",
+        "culture": "Danish and Anglo-Scandinavian",
+        "knownFor": "Rule over England, Denmark, and Norway"
+      },
+      "imageInfo": {
+        "caption": "Medieval manuscript depiction associated with Cnut the Great.",
+        "source": "Wikimedia Commons",
+        "note": "A manuscript image rather than a portrait from life."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Cnut the Great built one of the most impressive political unions of the Viking Age. After conquering England, he became king there and later ruled Denmark and Norway, creating a North Sea empire.",
+            "His rule combined Scandinavian military power with English royal administration and Christian kingship. He remains one of the clearest examples of how Viking conquest could become settled monarchy."
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "King of England, Denmark, and Norway",
+          "description": ""
+        },
+        {
+          "title": "Built the North Sea Empire",
+          "description": ""
+        },
+        {
+          "title": "Consolidated Danish conquest into stable kingship in England",
+          "description": ""
+        },
+        {
+          "title": "Used English administration to govern a wide maritime realm",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 990",
+          "title": "Born",
+          "description": "Birthplace uncertain; usually treated broadly as Denmark.",
+          "links": []
+        },
+        {
+          "date": "1035",
+          "title": "Died",
+          "links": []
+        }
+      ]
     },
     {
       "id": "alfred-the-great",
@@ -592,7 +1754,81 @@
         "Developed fortified burhs and defensive reforms",
         "Sponsored learning, translation, and legal reform"
       ],
-      "title": "King of Wessex"
+      "title": "King of Wessex",
+      "roles": [
+        "King of Wessex",
+        "Anglo-Saxon reformer"
+      ],
+      "birth": {
+        "date": "849",
+        "place": {
+          "name": "Wantage",
+          "slug": "wantage"
+        }
+      },
+      "death": {
+        "date": "899",
+        "place": {
+          "name": "Winchester",
+          "slug": null
+        }
+      },
+      "quickFacts": {
+        "realm": "Kingdom of Wessex",
+        "dynasty": "House of Wessex",
+        "culture": "Anglo-Saxon",
+        "knownFor": "Defense against Viking armies and educational reform"
+      },
+      "imageInfo": {
+        "caption": "Later portrait of Alfred the Great.",
+        "source": "Wikimedia Commons",
+        "note": "A later artistic depiction, not a contemporary likeness."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Alfred the Great ruled Wessex during a period when Viking armies threatened to overwhelm the Anglo-Saxon kingdoms. After crisis and retreat, he defeated Guthrum and secured a political settlement that preserved Wessex.",
+            "He strengthened fortifications, reorganized military defense, encouraged law and learning, and helped create the foundations for later English kingship. He is the only English monarch traditionally called 'the Great.'"
+          ]
+        }
+      ],
+      "keyAchievements": [
+        {
+          "title": "Defeated Guthrum at the Battle of Edington in 878",
+          "description": ""
+        },
+        {
+          "title": "Preserved Wessex against Viking conquest",
+          "description": ""
+        },
+        {
+          "title": "Developed fortified burhs and defensive reforms",
+          "description": ""
+        },
+        {
+          "title": "Sponsored learning, translation, and legal reform",
+          "description": ""
+        }
+      ],
+      "timeline": [
+        {
+          "date": "849",
+          "title": "Born",
+          "links": [
+            {
+              "title": "Wantage",
+              "type": "location",
+              "slug": "wantage"
+            }
+          ]
+        },
+        {
+          "date": "899",
+          "title": "Died",
+          "links": []
+        }
+      ]
     }
   ],
   "artifacts": [
@@ -845,6 +2081,238 @@
         "Battle of Agincourt in 1415",
         "Hundred Years' War memory",
         "English longbowmen and muddy battlefield conditions"
+      ]
+    },
+    {
+      "id": "aachen",
+      "type": "location",
+      "locationType": "City",
+      "kingdom": "Frankish Kingdom",
+      "kingdomId": "frankish-kingdom",
+      "name": "Aachen",
+      "year": 765,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aachen_Germany_Imperial-Cathedral-01.jpg",
+      "summary": "A royal and imperial center closely associated with Charlemagne and the Carolingian court.",
+      "overview": [
+        "Aachen became one of the most important royal residences of the Carolingian world.",
+        "Charlemagne developed a palace complex there, and the Palace Chapel later became part of Aachen Cathedral."
+      ],
+      "knownFor": [
+        "Charlemagne's palace complex",
+        "Aachen Cathedral and Palace Chapel",
+        "Imperial coronations and Carolingian memory"
+      ]
+    },
+    {
+      "id": "poitiers",
+      "type": "location",
+      "locationType": "City",
+      "kingdom": "Duchy of Aquitaine",
+      "name": "Poitiers",
+      "year": 507,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Poitiers_-_Notre-Dame-la-Grande_-_Fa%C3%A7ade.jpg",
+      "summary": "A major city of Aquitaine and a center of ducal power in western France.",
+      "overview": [
+        "Poitiers was one of the principal cities of Aquitaine and a place associated with aristocratic and ducal authority.",
+        "Its churches, courts, and position in western France made it important in the politics of the High Middle Ages."
+      ],
+      "knownFor": [
+        "Duchy of Aquitaine",
+        "Romanesque churches",
+        "Association with Eleanor of Aquitaine"
+      ]
+    },
+    {
+      "id": "falaise",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Duchy of Normandy",
+      "name": "Falaise",
+      "year": 1000,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau_de_Falaise_01.jpg",
+      "summary": "A Norman town and castle site traditionally associated with William the Conqueror's birth.",
+      "overview": [
+        "Falaise was a fortified Norman town tied to the ducal family of Normandy.",
+        "Its castle became strongly associated with William the Conqueror and Norman dynastic memory."
+      ],
+      "knownFor": [
+        "Birthplace of William the Conqueror",
+        "Norman ducal castle",
+        "Duchy of Normandy"
+      ]
+    },
+    {
+      "id": "bermersheim-vor-der-hoehe",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Holy Roman Empire",
+      "name": "Bermersheim vor der Hoehe",
+      "year": 800,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bermersheim_vor_der_H%C3%B6he_Rathaus.jpg",
+      "summary": "A Rhineland settlement traditionally associated with Hildegard of Bingen's birth.",
+      "overview": [
+        "Bermersheim vor der Hoehe lies in the Rhineland, the region that shaped Hildegard of Bingen's early life and monastic career.",
+        "The area belonged to the religious and aristocratic landscape of the medieval German kingdom and empire."
+      ],
+      "knownFor": [
+        "Traditional birthplace of Hildegard of Bingen",
+        "Rhineland monastic culture",
+        "Medieval German lands"
+      ]
+    },
+    {
+      "id": "tikrit",
+      "type": "location",
+      "locationType": "City",
+      "kingdom": "Seljuk and Abbasid frontier world",
+      "name": "Tikrit",
+      "year": 600,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tikrit_old_city.jpg",
+      "summary": "A city on the Tigris remembered as the birthplace of Saladin.",
+      "overview": [
+        "Tikrit stood on the Tigris in the broader political world of the medieval Middle East.",
+        "Although outside Europe, it is included here because Saladin's career directly shaped crusading history and medieval European politics."
+      ],
+      "knownFor": [
+        "Birthplace of Saladin",
+        "Tigris river setting",
+        "Connections to Ayyubid memory"
+      ]
+    },
+    {
+      "id": "oxford",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Kingdom of England",
+      "kingdomId": "kingdom-of-england",
+      "name": "Oxford",
+      "year": 900,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oxford_-_panoramio_%281%29.jpg",
+      "summary": "An English town associated with royal residence, learning, and Richard the Lionheart's birth.",
+      "overview": [
+        "Oxford was an important English town in the High Middle Ages and became famous for its schools and university culture.",
+        "The Beaumont Palace at Oxford is associated with the birth of Richard I."
+      ],
+      "knownFor": [
+        "Beaumont Palace",
+        "Medieval schools and university life",
+        "Birthplace of Richard the Lionheart"
+      ]
+    },
+    {
+      "id": "domremy",
+      "type": "location",
+      "locationType": "Village",
+      "kingdom": "Kingdom of France",
+      "name": "Domremy",
+      "year": 1200,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Domremy-la-Pucelle_Basilique_du_Bois-Chenu.jpg",
+      "summary": "The village in northeastern France where Joan of Arc was born.",
+      "overview": [
+        "Domremy was a small village on the frontier zones affected by the Hundred Years' War.",
+        "Its association with Joan of Arc made it one of the most famous birthplaces in late medieval France."
+      ],
+      "knownFor": [
+        "Birthplace of Joan of Arc",
+        "Hundred Years' War frontier memory",
+        "Joan of Arc pilgrimage and commemoration"
+      ]
+    },
+    {
+      "id": "madrigal-de-las-altas-torres",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Kingdom of Castile",
+      "name": "Madrigal de las Altas Torres",
+      "year": 1100,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrigal_de_las_Altas_Torres_-_Muralla.jpg",
+      "summary": "A Castilian town remembered as the birthplace of Isabella I of Castile.",
+      "overview": [
+        "Madrigal de las Altas Torres was a Castilian town with royal associations.",
+        "It is remembered especially for Isabella I, whose reign helped reshape late medieval Iberia."
+      ],
+      "knownFor": [
+        "Birthplace of Isabella I of Castile",
+        "Castilian royal associations",
+        "Late medieval Iberian history"
+      ]
+    },
+    {
+      "id": "edirne",
+      "type": "location",
+      "locationType": "City",
+      "kingdom": "Ottoman Empire",
+      "name": "Edirne",
+      "year": 1360,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edirne_Selimiye_Mosque_02.jpg",
+      "summary": "An Ottoman imperial city and birthplace of Mehmed II.",
+      "overview": [
+        "Edirne, known historically as Adrianople, became a major Ottoman center before the conquest of Constantinople.",
+        "It served as an Ottoman capital and a strategic city in southeastern Europe."
+      ],
+      "knownFor": [
+        "Ottoman imperial capital before Constantinople",
+        "Birthplace of Mehmed II",
+        "Strategic city in the Balkans"
+      ]
+    },
+    {
+      "id": "soborg-castle",
+      "type": "location",
+      "locationType": "Castle",
+      "kingdom": "Kingdom of Denmark",
+      "name": "Soborg Castle",
+      "year": 1100,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B8borg_slotsruin.jpg",
+      "summary": "A Danish castle site traditionally associated with the birth of Margaret I.",
+      "overview": [
+        "Soborg Castle was one of the fortified sites of medieval Denmark.",
+        "It is traditionally associated with Margaret I, the ruler who forged the Kalmar Union."
+      ],
+      "knownFor": [
+        "Traditional birthplace of Margaret I",
+        "Medieval Danish royal landscape",
+        "Castle ruins"
+      ]
+    },
+    {
+      "id": "elderslie",
+      "type": "location",
+      "locationType": "Village",
+      "kingdom": "Kingdom of Scotland",
+      "kingdomId": "kingdom-of-scotland",
+      "name": "Elderslie",
+      "year": 1200,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elderslie_-_geograph.org.uk_-_28716.jpg",
+      "summary": "A Scottish village traditionally linked to William Wallace's birth.",
+      "overview": [
+        "Elderslie is one of the places traditionally associated with William Wallace's origins.",
+        "Because Wallace's early life is poorly documented, the attribution is best treated cautiously."
+      ],
+      "knownFor": [
+        "Traditional birthplace of William Wallace",
+        "Scottish independence memory",
+        "Later Wallace commemoration"
+      ]
+    },
+    {
+      "id": "wantage",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Kingdom of Wessex",
+      "kingdomId": "kingdom-of-wessex",
+      "name": "Wantage",
+      "year": 849,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_the_Great_statue%2C_Wantage.jpg",
+      "summary": "A Wessex town remembered as the birthplace of Alfred the Great.",
+      "overview": [
+        "Wantage lay within the world of Anglo-Saxon Wessex.",
+        "It is closely associated with Alfred the Great, whose career shaped the survival and expansion of Wessex."
+      ],
+      "knownFor": [
+        "Birthplace of Alfred the Great",
+        "Kingdom of Wessex",
+        "Anglo-Saxon royal memory"
       ]
     }
   ]
