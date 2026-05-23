@@ -44,6 +44,10 @@ function ImageWithFallback({ article }) {
 }
 
 function labelFor(article) {
+  if (article.type === 'character') {
+    return article.title ?? 'Person'
+  }
+
   if (article.type === 'event' && article.eventType && article.eventType !== 'Other') {
     return article.eventType
   }
@@ -54,7 +58,6 @@ function labelFor(article) {
 
   return {
     event: 'Event',
-    character: 'Person',
     location: 'Location',
     artifact: 'Artifact'
   }[article.type] ?? 'Article'

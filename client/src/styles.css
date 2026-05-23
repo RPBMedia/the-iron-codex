@@ -230,6 +230,7 @@ h2 {
 }
 
 .page-section {
+  isolation: isolate;
   padding-top: clamp(34px, 7vw, 76px);
 }
 
@@ -286,6 +287,33 @@ h2 {
 
 .list-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.collection-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin: -2px 0 18px;
+}
+
+.sort-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--paper);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.sort-control select {
+  min-width: 210px;
+  border: 1px solid rgba(242, 193, 78, 0.48);
+  border-radius: 6px;
+  padding: 10px 36px 10px 12px;
+  background: #fffaf0;
+  color: var(--black);
+  font: inherit;
+  text-transform: none;
 }
 
 .article-card {
@@ -739,6 +767,24 @@ h2 {
   .content-section,
   .detail-page {
     width: min(100% - 24px, 1180px);
+  }
+
+  .collection-tools {
+    justify-content: stretch;
+  }
+
+  .sort-control,
+  .sort-control select {
+    width: 100%;
+  }
+
+  .sort-control {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .sort-control select {
+    min-width: 0;
   }
 
   .fact-strip {

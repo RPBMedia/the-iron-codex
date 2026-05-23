@@ -75,7 +75,7 @@ export default function DetailPage() {
 
 function articleTypeLabel(article) {
   if (article.type === 'character') {
-    return 'Person'
+    return article.title ?? 'Person'
   }
 
   if (article.type === 'event') {

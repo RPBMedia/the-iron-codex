@@ -29,7 +29,9 @@ const collectionCopy = {
 export default function CollectionPage({ collection }) {
   const [items, setItems] = useState([])
   const [status, setStatus] = useState('loading')
+  const [peopleSort, setPeopleSort] = useState('name')
   const copy = useMemo(() => collectionCopy[collection], [collection])
+  const visibleItems = useMemo(() => sortItems(items, collection, peopleSort), [collection, items, peopleSort])
 
   useEffect(() => {
     setStatus('loading')
@@ -57,12 +59,44 @@ export default function CollectionPage({ collection }) {
         </div>
       )}
       {status === 'ready' && (
-        <div className="list-grid">
-          {items.map((item) => (
-            <ArticleCard article={item} collection={collection} key={item.id} />
-          ))}
-        </div>
+        <>
+          {collection === 'people' && (
+            <div className="collection-tools">
+              <label className="sort-control">
+                <span>Sort by</span>
+                <select value={peopleSort} onChange={(event) => setPeopleSort(event.target.value)}>
+                  <option value="name">Name</option>
+                  <option value="born-asc">Born, oldest first</option>
+                  <option value="born-desc">Born, newest first</option>
+                </select>
+              </label>
+            </div>
+          )}
+          <div className="list-grid">
+            {visibleItems.map((item) => (
+              <ArticleCard article={item} collection={collection} key={item.id} />
+            ))}
+          </div>
+        </>
       )}
     </section>
   )
+}
+
+function sortItems(items, collection, peopleSort) {
+  if (collection !== 'people') {
+    return items
+  }
+
+  const sorted = [...items]
+
+  if (peopleSort === 'born-asc') {
+    return sorted.sort((a, b) => Number(a.born ?? 9999) - Number(b.born ?? 9999) || a.name.localeCompare(b.name))
+  }
+
+  if (peopleSort === 'born-desc') {
+    return sorted.sort((a, b) => Number(b.born ?? -9999) - Number(a.born ?? -9999) || a.name.localeCompare(b.name))
+  }
+
+  return sorted.sort((a, b) => a.name.localeCompare(b.name))
 }

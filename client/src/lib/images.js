@@ -24,20 +24,13 @@ export function fallbackImage(article) {
           <stop offset="0.54" stop-color="#1a1718"/>
           <stop offset="1" stop-color="#3a1118"/>
         </linearGradient>
-        <linearGradient id="steel" x1="0" x2="1">
-          <stop offset="0" stop-color="#8d939f"/>
-          <stop offset="0.5" stop-color="#f4f4f4"/>
-          <stop offset="1" stop-color="#8d939f"/>
-        </linearGradient>
       </defs>
       <rect width="1200" height="760" fill="url(#bg)"/>
       <path d="M0 586 C255 514 405 642 664 564 C875 500 1008 518 1200 442 L1200 760 L0 760 Z" fill="#070708" opacity="0.58"/>
-      <path d="M596 122 L634 122 L654 484 L576 484 Z" fill="url(#steel)"/>
-      <path d="M596 122 L576 484 L615 450 L654 484 L634 122 Z" fill="${accent}" opacity="0.28"/>
-      <rect x="456" y="498" width="318" height="42" rx="2" fill="${accent}"/>
-      <rect x="586" y="532" width="58" height="150" fill="url(#steel)"/>
-      <rect x="522" y="674" width="186" height="34" rx="4" fill="${accent}"/>
-      <circle cx="614" cy="380" r="235" fill="none" stroke="#d7d9dd" stroke-opacity="0.12" stroke-width="2"/>
+      <circle cx="600" cy="356" r="236" fill="none" stroke="#d7d9dd" stroke-opacity="0.14" stroke-width="2"/>
+      <circle cx="600" cy="356" r="158" fill="${accent}" opacity="0.12"/>
+      <path d="M390 505 C480 440 542 430 603 474 C664 430 734 440 810 505" fill="none" stroke="#f5f1e8" stroke-opacity="0.2" stroke-width="14" stroke-linecap="round"/>
+      <path d="M390 548 C480 483 542 473 603 517 C664 473 734 483 810 548" fill="none" stroke="#f2c14e" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
       <text x="80" y="126" fill="#f2c14e" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="0">THE IRON CODEX</text>
       <text x="80" y="640" fill="#f5f1e8" font-family="Inter, Arial, sans-serif" font-size="118" font-weight="900" letter-spacing="0">${escapeSvg(initials)}</text>
     </svg>
@@ -53,7 +46,7 @@ export function shouldUseFallbackImage(imageElement) {
     return false
   }
 
-  return imageElement.naturalWidth < 900 || imageElement.naturalHeight < 520
+  return false
 }
 
 function escapeSvg(value) {
