@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 import Home from './pages/Home.jsx'
 import CollectionPage from './pages/CollectionPage.jsx'
 import DetailPage from './pages/DetailPage.jsx'
+import SearchPage from './pages/SearchPage.jsx'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/characters" element={<Navigate to="/people" replace />} />
           <Route path="/characters/:id" element={<RedirectCharacter />} />
           <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
+          <Route path="/search" element={<SearchPage />} />
           <Route path="/:collection/:id" element={<DetailPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -102,6 +102,7 @@ img {
 nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-end;
   gap: 8px;
 }
@@ -121,6 +122,112 @@ nav a:hover {
   border-color: rgba(242, 193, 78, 0.56);
   background: rgba(242, 193, 78, 0.12);
   color: var(--gold-soft);
+}
+
+.global-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: min(300px, 30vw);
+  min-width: 220px;
+}
+
+.global-search label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.global-search input {
+  width: 100%;
+  border: 1px solid rgba(215, 217, 221, 0.22);
+  border-radius: 999px;
+  padding: 9px 44px 9px 14px;
+  background: rgba(245, 241, 232, 0.08);
+  color: var(--paper);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+.global-search input::placeholder {
+  color: rgba(215, 217, 221, 0.72);
+}
+
+.global-search input:focus {
+  outline: 2px solid rgba(242, 193, 78, 0.72);
+  outline-offset: 2px;
+}
+
+.global-search > button {
+  position: absolute;
+  right: 4px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(242, 193, 78, 0.18);
+  color: transparent;
+  cursor: pointer;
+}
+
+.global-search > button::before {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--gold-soft);
+  content: "⌕";
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.global-search-suggestions {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  width: min(380px, 88vw);
+  overflow: hidden;
+  border: 1px solid rgba(242, 193, 78, 0.28);
+  border-radius: 6px;
+  background: #fffaf0;
+  box-shadow: 0 24px 70px rgba(8, 8, 10, 0.34);
+}
+
+.global-search-suggestions a,
+.global-search-suggestions button {
+  display: grid;
+  gap: 2px;
+  border: 0;
+  border-bottom: 1px solid rgba(141, 147, 159, 0.18);
+  padding: 12px 14px;
+  background: transparent;
+  color: var(--black);
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.global-search-suggestions a:hover,
+.global-search-suggestions a.active,
+.global-search-suggestions button:hover {
+  background: rgba(242, 193, 78, 0.16);
+}
+
+.global-search-suggestions strong {
+  font-size: 0.94rem;
+}
+
+.global-search-suggestions span {
+  color: #8f6b1d;
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 main {
@@ -379,6 +486,76 @@ h2 {
 
 .load-more-button {
   min-width: min(260px, 100%);
+}
+
+.search-results-page::before {
+  min-height: 420px;
+}
+
+.search-summary {
+  margin: 0 0 18px;
+  color: var(--silver);
+  font-weight: 760;
+}
+
+.search-result-groups {
+  display: grid;
+  gap: 24px;
+}
+
+.search-result-group {
+  display: grid;
+  gap: 12px;
+}
+
+.search-result-group h2 {
+  color: #8f6b1d;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.search-result-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.search-result-card {
+  display: grid;
+  gap: 6px;
+  border: 1px solid rgba(141, 147, 159, 0.2);
+  border-radius: 6px;
+  padding: 18px;
+  background: #fffaf0;
+  color: var(--black);
+  text-decoration: none;
+  box-shadow: 0 18px 50px rgba(8, 8, 10, 0.08);
+}
+
+.search-result-card:hover {
+  border-color: rgba(242, 193, 78, 0.48);
+}
+
+.search-result-card span {
+  color: #8f6b1d;
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.search-result-card strong {
+  font-size: 1.25rem;
+}
+
+.search-result-card time {
+  color: #6d717a;
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
+.search-result-card p {
+  margin: 0;
+  color: #3f4249;
 }
 
 .article-card {
@@ -1048,6 +1225,18 @@ figure.detail-media {
     justify-content: flex-start;
   }
 
+  .global-search {
+    order: -1;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .global-search-suggestions {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+
   .hero {
     min-height: 72vh;
     background:
@@ -1062,6 +1251,7 @@ figure.detail-media {
 
   .card-grid,
   .list-grid,
+  .search-result-list,
   .detail-hero,
   .detail-content {
     grid-template-columns: 1fr;
@@ -1148,6 +1338,10 @@ figure.detail-media {
 
   .sort-control select {
     min-width: 0;
+  }
+
+  .global-search {
+    grid-column: 1 / -1;
   }
 
   .fact-strip {

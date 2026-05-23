@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import GlobalSearch from './GlobalSearch.jsx'
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
         </span>
       </a>
       <nav aria-label="Primary navigation">
+        <GlobalSearch />
         <NavLink to="/">Home</NavLink>
         <NavLink to="/events">Events</NavLink>
         <NavLink to="/locations">Locations</NavLink>

@@ -15,6 +15,17 @@ export async function getArticle(collection, id) {
   return request(`/${apiName(collection)}/${id}`)
 }
 
+export async function getSearchCollections() {
+  const [events, people, locations, artifacts] = await Promise.all([
+    getCollection('events'),
+    getCollection('people'),
+    getCollection('locations'),
+    getCollection('artifacts')
+  ])
+
+  return { artifacts, events, locations, people }
+}
+
 function apiName(collection) {
   return apiCollections[collection] ?? collection
 }
