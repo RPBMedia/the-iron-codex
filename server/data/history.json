@@ -1,0 +1,533 @@
+{
+  "events": [
+    {
+      "id": "fall-of-western-rome",
+      "type": "event",
+      "name": "Fall of the Western Roman Empire",
+      "year": 476,
+      "location": "Ravenna, Italy",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Romulus_Augustus_resigns_the_Crown.jpg",
+      "summary": "The deposition of Romulus Augustulus by the Germanic leader Odoacer marked the conventional beginning of medieval Europe.",
+      "details": "In 476, Odoacer removed the teenage emperor Romulus Augustulus and sent the imperial regalia to Constantinople. Western Roman administration did not vanish overnight, but the event became a powerful historical marker: the Latin west was now ruled by successor kingdoms, bishops, local aristocracies, and military leaders who adapted Roman systems to new political realities."
+    },
+    {
+      "id": "battle-of-tours",
+      "type": "event",
+      "name": "Battle of Tours",
+      "year": 732,
+      "location": "Near Tours and Poitiers, Frankish Kingdom",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bataille_de_Poitiers_en_octobre_732.jpeg",
+      "summary": "Frankish forces under Charles Martel defeated an Umayyad raiding army advancing north of the Pyrenees.",
+      "details": "The Battle of Tours helped consolidate Charles Martel's authority among the Franks and became a defining episode in later medieval memory. Its immediate importance lay in Frankish military prestige and frontier control; its long afterlife made it a symbol of Christian resistance in western Europe."
+    },
+    {
+      "id": "charlemagne-crowned",
+      "type": "event",
+      "name": "Charlemagne Crowned Emperor",
+      "year": 800,
+      "location": "Rome, Italy",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlemagne_by_Durer.jpg",
+      "summary": "Pope Leo III crowned Charlemagne emperor, reviving an imperial title in western Europe.",
+      "details": "On Christmas Day in 800, Charlemagne received the imperial crown in Rome. The coronation reshaped relations between kingship, the papacy, and empire, and it gave the Carolingian realm an ideological language that later rulers would adapt into the Holy Roman Empire."
+    },
+    {
+      "id": "treaty-of-verdun",
+      "type": "event",
+      "name": "Treaty of Verdun",
+      "year": 843,
+      "location": "Verdun, Frankish Empire",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Treaty_of_Verdun.svg",
+      "summary": "Charlemagne's grandsons divided the Carolingian Empire into western, middle, and eastern kingdoms.",
+      "details": "The Treaty of Verdun ended a civil war among the heirs of Louis the Pious. Its partition produced political zones that influenced the later development of France, Germany, and contested lands between them. The treaty is one of the key milestones in the breakup of Carolingian unity."
+    },
+    {
+      "id": "battle-of-hastings",
+      "type": "event",
+      "name": "Battle of Hastings",
+      "year": 1066,
+      "location": "Hastings, England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+      "summary": "William of Normandy defeated Harold Godwinson, beginning Norman rule in England.",
+      "details": "The Norman victory at Hastings transformed English law, aristocracy, architecture, language, and landholding. William's conquest tied England more tightly to continental politics and produced one of medieval Europe's most famous visual sources: the Bayeux Tapestry."
+    },
+    {
+      "id": "first-crusade-called",
+      "type": "event",
+      "name": "First Crusade Proclaimed",
+      "year": 1095,
+      "location": "Clermont, France",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Urban_II_at_the_Council_of_Clermont.jpg",
+      "summary": "Pope Urban II called for an armed pilgrimage to the eastern Mediterranean.",
+      "details": "Urban II's speech at Clermont launched a movement that combined penitential devotion, warfare, aristocratic ambition, and pilgrimage. The First Crusade culminated in the capture of Jerusalem in 1099 and reshaped relations among Latin Christendom, Byzantium, and Islamic polities."
+    },
+    {
+      "id": "magna-carta",
+      "type": "event",
+      "name": "Magna Carta Sealed",
+      "year": 1215,
+      "location": "Runnymede, England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+      "summary": "King John accepted a charter limiting royal power under pressure from rebellious barons.",
+      "details": "Magna Carta was born from a political crisis, but its clauses on lawful judgment, inheritance, taxation, and church liberties gained enduring significance. Reissued several times, it became a touchstone for later arguments about law and government."
+    },
+    {
+      "id": "black-death-europe",
+      "type": "event",
+      "name": "Black Death Reaches Europe",
+      "year": 1347,
+      "location": "Mediterranean ports, Europe",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tournai_-_people_burying_the_dead_during_the_Black_Death.jpg",
+      "summary": "A devastating plague pandemic entered Europe and killed a large share of the population.",
+      "details": "The Black Death spread rapidly through trade routes, ports, towns, and countryside. Its demographic shock altered labor markets, religious life, social tensions, urban governance, and memory. Europe after the plague was poorer in people but changed in bargaining power and political imagination."
+    },
+    {
+      "id": "battle-of-agincourt",
+      "type": "event",
+      "name": "Battle of Agincourt",
+      "year": 1415,
+      "location": "Agincourt, France",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
+      "summary": "Henry V's English army defeated a larger French force during the Hundred Years' War.",
+      "details": "Agincourt became famous for disciplined infantry, longbowmen, muddy terrain, and the capture or death of many French nobles. The victory strengthened Henry V's claims in France and entered English political memory as a dramatic example of battlefield reversal."
+    },
+    {
+      "id": "fall-of-constantinople",
+      "type": "event",
+      "name": "Fall of Constantinople",
+      "year": 1453,
+      "location": "Constantinople, Byzantine Empire",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siege_of_Constantinople_1453.jpg",
+      "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire.",
+      "details": "After a determined siege, Ottoman artillery and infantry broke through the city's defenses on 29 May 1453. The conquest ended the Byzantine imperial line, gave the Ottomans a new imperial capital, and is often used as a closing marker for the European Middle Ages."
+    }
+  ],
+  "characters": [
+    {
+      "id": "charlemagne",
+      "type": "character",
+      "name": "Charlemagne",
+      "born": 748,
+      "died": 814,
+      "deathAge": "about 66",
+      "causeOfDeath": "Fever and pleurisy",
+      "restingPlace": "Aachen Cathedral, Aachen",
+      "location": "Frankish Empire",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlemagne_by_Durer.jpg",
+      "summary": "King of the Franks and Lombards, later crowned emperor in Rome.",
+      "overview": [
+        "Charlemagne ruled at the center of one of the most ambitious political projects of the early Middle Ages. He expanded Frankish authority across western and central Europe through conquest, alliance, church reform, and a durable network of counts, bishops, and royal agents.",
+        "His imperial coronation in Rome in 800 gave western Europe a revived language of empire. His court also encouraged scholarship, script reform, and religious education in what historians call the Carolingian Renaissance."
+      ],
+      "greatestFeats": [
+        "King of the Franks and Lombards",
+        "Crowned emperor in Rome in 800",
+        "Expanded Carolingian rule across much of western and central Europe",
+        "Sponsored reforms in learning, administration, and church life"
+      ]
+    },
+    {
+      "id": "eleanor-of-aquitaine",
+      "type": "character",
+      "name": "Eleanor of Aquitaine",
+      "born": 1122,
+      "died": 1204,
+      "deathAge": "about 82",
+      "causeOfDeath": "Natural causes",
+      "restingPlace": "Fontevraud Abbey, France",
+      "location": "Aquitaine, France and England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eleanor_of_Aquitaine.jpg",
+      "summary": "Duchess of Aquitaine, queen of France, queen of England, and one of the most powerful women of the High Middle Ages.",
+      "overview": [
+        "Eleanor inherited Aquitaine, one of the richest and most culturally influential duchies in western Europe. Her marriages to Louis VII of France and Henry II of England placed her at the center of crusading, dynastic rivalry, and Angevin statecraft.",
+        "She remained politically active into old age, supporting her sons, negotiating marriages, and guarding the interests of Aquitaine. Her career shows how land, lineage, and personal authority could make a medieval noblewoman a continental power."
+      ],
+      "greatestFeats": [
+        "Duchess of Aquitaine in her own right",
+        "Queen consort of France and later England",
+        "Participant in the Second Crusade",
+        "Key political force in the Angevin empire"
+      ]
+    },
+    {
+      "id": "william-the-conqueror",
+      "type": "character",
+      "name": "William the Conqueror",
+      "born": 1028,
+      "died": 1087,
+      "deathAge": "about 59",
+      "causeOfDeath": "Complications from an abdominal injury after a riding accident",
+      "restingPlace": "Abbaye aux Hommes, Caen",
+      "location": "Normandy and England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William_I_of_England.jpg",
+      "summary": "Duke of Normandy who conquered England in 1066.",
+      "overview": [
+        "William rose from contested ducal succession in Normandy to one of the most consequential kings in medieval Europe. His claim to the English throne led to the invasion of 1066 and the defeat of Harold Godwinson at Hastings.",
+        "Norman rule transformed England through castles, aristocratic replacement, new legal habits, and closer ties to continental politics. The Domesday Book captured the administrative reach of the kingdom William built."
+      ],
+      "greatestFeats": [
+        "Won the Battle of Hastings in 1066",
+        "Became king of England after the Norman Conquest",
+        "Ordered the Domesday survey",
+        "Built a cross-Channel realm linking Normandy and England"
+      ]
+    },
+    {
+      "id": "hildegard-of-bingen",
+      "type": "character",
+      "name": "Hildegard of Bingen",
+      "born": 1098,
+      "died": 1179,
+      "deathAge": "about 81",
+      "causeOfDeath": "Natural causes",
+      "restingPlace": "Eibingen Abbey, Rudesheim am Rhein",
+      "location": "Rhineland, Holy Roman Empire",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hildegard_von_Bingen.jpg",
+      "summary": "Benedictine abbess, composer, visionary writer, and natural philosopher.",
+      "overview": [
+        "Hildegard of Bingen was a Benedictine abbess whose visions, music, letters, and scientific writing made her one of the most distinctive intellectual figures of the twelfth century. She founded religious communities and corresponded with popes, emperors, and abbots.",
+        "Her work crossed boundaries between theology, medicine, natural philosophy, poetry, and music. Within the structures of monastic life, she built a public voice with remarkable reach."
+      ],
+      "greatestFeats": [
+        "Founded and led religious communities in the Rhineland",
+        "Composed influential sacred music",
+        "Wrote visionary works including Scivias",
+        "Corresponded with leading church and political figures"
+      ]
+    },
+    {
+      "id": "saladin",
+      "type": "character",
+      "name": "Saladin",
+      "born": 1137,
+      "died": 1193,
+      "deathAge": "about 55",
+      "causeOfDeath": "Fever",
+      "restingPlace": "Umayyad Mosque, Damascus",
+      "location": "Egypt, Syria, and the Levant",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saladin_15th-century_manuscript.jpg",
+      "summary": "Ayyubid sultan who captured Jerusalem and opposed the Third Crusade.",
+      "overview": [
+        "Saladin was the founder of the Ayyubid dynasty and the most famous Muslim ruler encountered by Latin crusaders. His career united Egypt and Syria under his authority and put intense pressure on the crusader states.",
+        "Although he was not European, he is essential to medieval European history because Latin warfare, diplomacy, and chronicles revolved around his campaigns. His capture of Jerusalem triggered the Third Crusade and shaped crusading memory for centuries."
+      ],
+      "greatestFeats": [
+        "Founded the Ayyubid dynasty",
+        "Won the Battle of Hattin in 1187",
+        "Captured Jerusalem from the crusader kingdom",
+        "Negotiated with Richard the Lionheart during the Third Crusade"
+      ]
+    },
+    {
+      "id": "richard-the-lionheart",
+      "type": "character",
+      "name": "Richard the Lionheart",
+      "born": 1157,
+      "died": 1199,
+      "deathAge": "41",
+      "causeOfDeath": "Infection from a crossbow wound",
+      "restingPlace": "Fontevraud Abbey, France",
+      "location": "England, Aquitaine, and the eastern Mediterranean",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_I_of_England.jpg",
+      "summary": "King of England and major commander of the Third Crusade.",
+      "overview": [
+        "Richard I became famous less as a domestic ruler than as a commander, crusader, and lord of a sprawling Angevin inheritance. He spent much of his reign campaigning in France and the eastern Mediterranean.",
+        "His reputation was forged during the Third Crusade, where he won victories and negotiated with Saladin. His ransom after captivity and his wars in France placed heavy financial demands on England."
+      ],
+      "greatestFeats": [
+        "King of England and duke of Aquitaine",
+        "Won major victories during the Third Crusade",
+        "Captured Cyprus in 1191",
+        "Negotiated the Treaty of Jaffa with Saladin"
+      ]
+    },
+    {
+      "id": "joan-of-arc",
+      "type": "character",
+      "name": "Joan of Arc",
+      "born": 1412,
+      "died": 1431,
+      "deathAge": "about 19",
+      "causeOfDeath": "Execution by burning",
+      "restingPlace": "No known grave; ashes scattered at Rouen",
+      "location": "France",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joan_of_Arc_miniature_graded.jpg",
+      "summary": "French visionary and military figure of the Hundred Years' War.",
+      "overview": [
+        "Joan of Arc emerged from rural northeastern France during the crisis years of the Hundred Years' War. Claiming divine guidance, she persuaded French leaders to let her accompany military forces and became a symbol of renewed confidence.",
+        "Her role in the relief of Orleans and the coronation of Charles VII gave her enormous political value. Captured by Burgundian allies of the English, she was tried, executed, later rehabilitated, and eventually canonized."
+      ],
+      "greatestFeats": [
+        "Helped lift the siege of Orleans in 1429",
+        "Supported Charles VII's coronation at Reims",
+        "Became a rallying symbol for the French cause",
+        "Posthumously rehabilitated and later canonized"
+      ]
+    },
+    {
+      "id": "isabella-of-castile",
+      "type": "character",
+      "name": "Isabella I of Castile",
+      "born": 1451,
+      "died": 1504,
+      "deathAge": "53",
+      "causeOfDeath": "Illness, likely complications of dropsy",
+      "restingPlace": "Royal Chapel of Granada",
+      "location": "Castile, Iberia",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Isabella_I_of_Castile.jpg",
+      "summary": "Queen of Castile whose early life belongs to the last years of the medieval period.",
+      "overview": [
+        "Isabella was born in the final years of the medieval period and became one of Iberia's defining monarchs. Her marriage to Ferdinand of Aragon joined two major crowns in a dynastic partnership while preserving separate institutions.",
+        "Her later reign belongs to the transition toward early modern monarchy, but her roots and many of her political problems were deeply medieval: succession, noble power, religious authority, and war against Granada."
+      ],
+      "greatestFeats": [
+        "Queen of Castile",
+        "Dynastic partner in the union of Castile and Aragon",
+        "Completed the conquest of Granada in 1492",
+        "Reshaped Iberian monarchy at the end of the medieval period"
+      ]
+    },
+    {
+      "id": "mehmed-ii",
+      "type": "character",
+      "name": "Mehmed II",
+      "born": 1432,
+      "died": 1481,
+      "deathAge": "49",
+      "causeOfDeath": "Illness while campaigning",
+      "restingPlace": "Fatih Mosque, Istanbul",
+      "location": "Ottoman Empire",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentile_Bellini_-_Mehmed_II.jpg",
+      "summary": "Ottoman sultan who conquered Constantinople in 1453.",
+      "overview": [
+        "Mehmed II became sultan as the Ottoman state was expanding into a major imperial power. His conquest of Constantinople in 1453 ended the Byzantine Empire and made the city a new Ottoman capital.",
+        "His rule connected military innovation, urban rebuilding, legal authority, and court culture. For Europe, he became both a feared conqueror and a diplomatic reality no ruler could ignore."
+      ],
+      "greatestFeats": [
+        "Captured Constantinople in 1453",
+        "Ended the Byzantine Empire",
+        "Made Constantinople the Ottoman imperial capital",
+        "Expanded Ottoman power in southeastern Europe and Anatolia"
+      ]
+    },
+    {
+      "id": "margaret-i",
+      "type": "character",
+      "name": "Margaret I of Denmark",
+      "born": 1353,
+      "died": 1412,
+      "deathAge": "59",
+      "causeOfDeath": "Sudden illness, possibly plague",
+      "restingPlace": "Roskilde Cathedral, Denmark",
+      "location": "Denmark, Norway, and Sweden",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret_I_of_Denmark.jpg",
+      "summary": "Ruler who united the Scandinavian kingdoms under the Kalmar Union.",
+      "overview": [
+        "Margaret I maneuvered through dynastic crisis, regency politics, and aristocratic negotiation to become the dominant ruler of Scandinavia. Her authority rested on diplomacy as much as formal title.",
+        "The Kalmar Union brought Denmark, Norway, and Sweden under one crown, creating a northern political order that shaped late medieval Scandinavian history."
+      ],
+      "greatestFeats": [
+        "United Denmark, Norway, and Sweden under the Kalmar Union",
+        "Ruled effectively through regency and dynastic strategy",
+        "Defeated rival claims to Scandinavian rule",
+        "Built one of northern Europe's most ambitious late medieval unions"
+      ]
+    },
+    {
+      "id": "william-wallace",
+      "type": "character",
+      "name": "William Wallace",
+      "born": 1270,
+      "died": 1305,
+      "deathAge": "about 35",
+      "causeOfDeath": "Execution by hanging, drawing, and quartering",
+      "restingPlace": "No known grave; body divided after execution",
+      "location": "Scotland",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Wallace.jpg",
+      "summary": "Scottish knight and resistance leader during the First War of Scottish Independence.",
+      "overview": [
+        "William Wallace became one of the best-known leaders of Scottish resistance to English rule in the late thirteenth century. His background is less securely documented than his military career, but his impact on Scottish political memory was immense.",
+        "After victory at Stirling Bridge, Wallace served as Guardian of Scotland. He was later defeated, captured, taken to London, and executed as a traitor by the English crown."
+      ],
+      "greatestFeats": [
+        "Won the Battle of Stirling Bridge in 1297",
+        "Served as Guardian of Scotland",
+        "Led resistance during the First War of Scottish Independence",
+        "Became an enduring symbol of Scottish independence"
+      ]
+    },
+    {
+      "id": "ragnar-lothbrok",
+      "type": "character",
+      "name": "Ragnar Lothbrok",
+      "born": null,
+      "died": 865,
+      "deathAge": "unknown",
+      "causeOfDeath": "Legend says he was killed in a snake pit by King Aella of Northumbria",
+      "restingPlace": "Unknown",
+      "location": "Scandinavia and Northumbria",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ragnar_Lodbrok_d%C3%B6d.jpg",
+      "summary": "Legendary Viking hero and ruler associated with raids, sagas, and the sons who invaded England.",
+      "overview": [
+        "Ragnar Lothbrok is a saga figure rather than a securely documented monarch. Medieval Scandinavian traditions present him as a heroic raider and ruler whose stories connect Denmark, Sweden, and England.",
+        "His legend mattered because it shaped how later writers understood Viking conquest and dynastic memory. The Great Heathen Army in England was associated in tradition with sons avenging Ragnar's death."
+      ],
+      "greatestFeats": [
+        "Central hero of Norse legendary sagas",
+        "Associated with Viking raids in Francia and England",
+        "Linked by tradition to the leaders of the Great Heathen Army",
+        "Became one of the most enduring figures of Viking legend"
+      ]
+    },
+    {
+      "id": "sigurd-of-norway",
+      "type": "character",
+      "name": "Sigurd of Norway",
+      "born": 1090,
+      "died": 1130,
+      "deathAge": "40",
+      "causeOfDeath": "Illness",
+      "restingPlace": "Hallvard's Cathedral, Oslo",
+      "location": "Norway and the eastern Mediterranean",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigurd_Entering_Constantinople.png",
+      "summary": "Norwegian king known as Sigurd the Crusader, remembered for his expedition to Jerusalem.",
+      "overview": [
+        "Sigurd I Magnusson, often called Sigurd the Crusader, ruled Norway in the early twelfth century. As a young king, he led a Norwegian crusading expedition by sea through the Atlantic and Mediterranean.",
+        "His journey linked Norway to Iberia, Sicily, Constantinople, and Jerusalem. The expedition gave him a reputation as the first European king to personally go on crusade to the Holy Land."
+      ],
+      "greatestFeats": [
+        "King of Norway from 1103 to 1130",
+        "Led the Norwegian Crusade to Jerusalem",
+        "Fought campaigns along Iberia and in the Mediterranean",
+        "Entered Constantinople with a celebrated royal expedition"
+      ]
+    },
+    {
+      "id": "cnut-the-great",
+      "type": "character",
+      "name": "Cnut the Great",
+      "born": 990,
+      "died": 1035,
+      "deathAge": "about 45",
+      "causeOfDeath": "Illness or natural causes",
+      "restingPlace": "Winchester Cathedral, England",
+      "location": "Denmark, England, Norway, and the North Sea",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cnut_the_Great_-_MS_Royal_14_B_V.jpg",
+      "summary": "Danish king who ruled a North Sea empire including England, Denmark, and Norway.",
+      "overview": [
+        "Cnut the Great built one of the most impressive political unions of the Viking Age. After conquering England, he became king there and later ruled Denmark and Norway, creating a North Sea empire.",
+        "His rule combined Scandinavian military power with English royal administration and Christian kingship. He remains one of the clearest examples of how Viking conquest could become settled monarchy."
+      ],
+      "greatestFeats": [
+        "King of England, Denmark, and Norway",
+        "Built the North Sea Empire",
+        "Consolidated Danish conquest into stable kingship in England",
+        "Used English administration to govern a wide maritime realm"
+      ]
+    },
+    {
+      "id": "alfred-the-great",
+      "type": "character",
+      "name": "Alfred the Great",
+      "born": 849,
+      "died": 899,
+      "deathAge": "50",
+      "causeOfDeath": "Unknown illness",
+      "restingPlace": "Hyde Abbey, Winchester; remains now unconfirmed",
+      "location": "Wessex, England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_the_Great_-_Samuel_WoodfordeFXD.jpg",
+      "summary": "King of Wessex who resisted Viking conquest and promoted learning and reform.",
+      "overview": [
+        "Alfred the Great ruled Wessex during a period when Viking armies threatened to overwhelm the Anglo-Saxon kingdoms. After crisis and retreat, he defeated Guthrum and secured a political settlement that preserved Wessex.",
+        "He strengthened fortifications, reorganized military defense, encouraged law and learning, and helped create the foundations for later English kingship. He is the only English monarch traditionally called 'the Great.'"
+      ],
+      "greatestFeats": [
+        "Defeated Guthrum at the Battle of Edington in 878",
+        "Preserved Wessex against Viking conquest",
+        "Developed fortified burhs and defensive reforms",
+        "Sponsored learning, translation, and legal reform"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "bayeux-tapestry",
+      "type": "artifact",
+      "name": "Bayeux Tapestry",
+      "year": 1070,
+      "location": "Normandy, France",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+      "summary": "An embroidered narrative of the Norman Conquest of England.",
+      "details": "The Bayeux Tapestry is one of the richest visual sources for eleventh-century warfare, ships, costume, and political storytelling. It presents the events leading to 1066 from a Norman-friendly perspective."
+    },
+    {
+      "id": "magna-carta-document",
+      "type": "artifact",
+      "name": "Magna Carta",
+      "year": 1215,
+      "location": "England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+      "summary": "A charter of liberties sealed by King John at Runnymede.",
+      "details": "As an artifact, Magna Carta survives in multiple medieval copies and reissues. Its physical presence matters because charters were instruments of government, memory, and negotiated power."
+    },
+    {
+      "id": "book-of-kells",
+      "type": "artifact",
+      "name": "Book of Kells",
+      "year": 800,
+      "location": "Ireland or Iona",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KellsFol032vChristEnthroned.jpg",
+      "summary": "A lavishly illuminated Gospel book from the Insular monastic world.",
+      "details": "The Book of Kells combines Christian scripture with intricate ornament, animal forms, and interlacing designs. It represents the artistic sophistication of early medieval monastic manuscript culture."
+    },
+    {
+      "id": "sutton-hoo-helmet",
+      "type": "artifact",
+      "name": "Sutton Hoo Helmet",
+      "year": 625,
+      "location": "Suffolk, England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sutton_Hoo_helmet_2016.png",
+      "summary": "An ornate Anglo-Saxon helmet from an elite ship burial.",
+      "details": "The Sutton Hoo helmet reveals early medieval craftsmanship, warrior identity, and elite exchange across the North Sea world. Its reconstruction has become an icon of Anglo-Saxon England."
+    },
+    {
+      "id": "lindisfarne-gospels",
+      "type": "artifact",
+      "name": "Lindisfarne Gospels",
+      "year": 715,
+      "location": "Lindisfarne, Northumbria",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LindisfarneFol27rIncipitMatt.jpg",
+      "summary": "An illuminated Gospel book created in the Northumbrian monastic tradition.",
+      "details": "The Lindisfarne Gospels blend Mediterranean, Celtic, Germanic, and Christian visual traditions. The manuscript is a major witness to early medieval religious art and book production."
+    },
+    {
+      "id": "joyeuse",
+      "type": "artifact",
+      "name": "Joyeuse",
+      "year": 1200,
+      "location": "France",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joyeuse_Louvre_MR_fonds.jpg",
+      "summary": "A ceremonial sword associated in legend with Charlemagne.",
+      "details": "The surviving Joyeuse is a composite ceremonial sword used in French coronations. Its legendary link to Charlemagne gave later kings a tangible connection to Carolingian prestige."
+    },
+    {
+      "id": "shroud-of-turin",
+      "type": "artifact",
+      "name": "Shroud of Turin",
+      "year": 1350,
+      "location": "Lirey, France; later Turin, Italy",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shroud_of_Turin_001.jpg",
+      "summary": "A linen cloth venerated by some Christians as the burial shroud of Christ.",
+      "details": "The Shroud is historically documented in late medieval Europe and became an object of devotion, controversy, and pilgrimage. Its medieval history is as important as debates over its origins."
+    },
+    {
+      "id": "codex-gigas",
+      "type": "artifact",
+      "name": "Codex Gigas",
+      "year": 1229,
+      "location": "Bohemia",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Gigas_devil.jpg",
+      "summary": "A huge medieval manuscript famous for its full-page image of the devil.",
+      "details": "The Codex Gigas contains biblical, historical, medical, and penitential texts. Its size and imagery made it one of the most memorable manuscripts of medieval central Europe."
+    }
+  ]
+}
