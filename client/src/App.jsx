@@ -14,6 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<CollectionPage collection="events" />} />
+          <Route path="/locations" element={<CollectionPage collection="locations" />} />
           <Route path="/people" element={<CollectionPage collection="people" />} />
           <Route path="/characters" element={<Navigate to="/people" replace />} />
           <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />

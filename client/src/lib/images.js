@@ -12,6 +12,7 @@ export function fallbackImage(article) {
   const accent = {
     event: '#b1192a',
     character: '#f2c14e',
+    location: '#d7d9dd',
     artifact: '#d7d9dd'
   }[type] ?? '#f2c14e'
 

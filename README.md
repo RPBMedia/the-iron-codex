@@ -6,6 +6,7 @@ A mobile-friendly React and Node.js history app focused on medieval Europe from 
 
 - Random history articles on the home page
 - Chronological medieval events
+- Medieval kingdoms, cities, and towns
 - People profiles with biography sections
 - Historical artifacts
 - Responsive red, gold, black, and silver visual design

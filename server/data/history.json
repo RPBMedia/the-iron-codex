@@ -7,8 +7,14 @@
       "year": 476,
       "location": "Ravenna, Italy",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Romulus_Augustus_resigns_the_Crown.jpg",
-      "summary": "The deposition of Romulus Augustulus by the Germanic leader Odoacer marked the conventional beginning of medieval Europe.",
-      "details": "In 476, Odoacer removed the teenage emperor Romulus Augustulus and sent the imperial regalia to Constantinople. Western Roman administration did not vanish overnight, but the event became a powerful historical marker: the Latin west was now ruled by successor kingdoms, bishops, local aristocracies, and military leaders who adapted Roman systems to new political realities."
+      "summary": "Odoacer deposed Romulus Augustulus, ending imperial rule in the western Roman court.",
+      "details": "In 476, Odoacer removed the teenage emperor Romulus Augustulus and sent the imperial regalia to Constantinople. Western Roman administration did not vanish overnight, but the event became a powerful historical marker: the Latin west was now ruled by successor kingdoms, bishops, local aristocracies, and military leaders who adapted Roman systems to new political realities.",
+      "eventType": "Fall of Kingdom",
+      "background": [
+        "By the fifth century, the western Roman imperial office had become fragile, dependent on military strongmen and negotiated authority with Germanic federate leaders.",
+        "The deposition of Romulus Augustulus did not instantly erase Roman institutions, but it ended the line of western emperors recognized from Italy."
+      ],
+      "aftermath": "Odoacer ruled Italy in the name of the eastern emperor, while western Europe continued to fragment into successor kingdoms that adapted Roman law, taxation, cities, and church structures."
     },
     {
       "id": "battle-of-tours",
@@ -18,7 +24,33 @@
       "location": "Near Tours and Poitiers, Frankish Kingdom",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bataille_de_Poitiers_en_octobre_732.jpeg",
       "summary": "Frankish forces under Charles Martel defeated an Umayyad raiding army advancing north of the Pyrenees.",
-      "details": "The Battle of Tours helped consolidate Charles Martel's authority among the Franks and became a defining episode in later medieval memory. Its immediate importance lay in Frankish military prestige and frontier control; its long afterlife made it a symbol of Christian resistance in western Europe."
+      "details": "The Battle of Tours helped consolidate Charles Martel's authority among the Franks and became a defining episode in later medieval memory. Its immediate importance lay in Frankish military prestige and frontier control; its long afterlife made it a symbol of Christian resistance in western Europe.",
+      "eventType": "Battle",
+      "factions": [
+        "Frankish forces",
+        "Umayyad forces from al-Andalus"
+      ],
+      "leaders": [
+        {
+          "name": "Charles Martel",
+          "faction": "Frankish forces"
+        },
+        {
+          "name": "Abd al-Rahman al-Ghafiqi",
+          "faction": "Umayyad forces from al-Andalus"
+        }
+      ],
+      "eventLocation": {
+        "name": "Tours",
+        "locationId": "tours"
+      },
+      "outcome": "Frankish victory, generally treated as decisive for Charles Martel's authority in the region.",
+      "background": [
+        "Umayyad forces operating from al-Andalus pushed north across the Pyrenees and raided deep into Frankish territory.",
+        "Charles Martel, mayor of the palace and the most powerful figure in the Frankish realm, gathered forces to meet the advance near Tours and Poitiers."
+      ],
+      "battle": "The Frankish army held a strong defensive position and absorbed cavalry attacks. Abd al-Rahman was killed during the fighting, and the Umayyad force withdrew south after the engagement.",
+      "aftermath": "The victory increased Charles Martel's prestige and helped strengthen Carolingian power. Later writers turned the battle into a symbol of western Christian resistance, though historians debate the scale of its immediate strategic impact."
     },
     {
       "id": "charlemagne-crowned",
@@ -28,7 +60,13 @@
       "location": "Rome, Italy",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlemagne_by_Durer.jpg",
       "summary": "Pope Leo III crowned Charlemagne emperor, reviving an imperial title in western Europe.",
-      "details": "On Christmas Day in 800, Charlemagne received the imperial crown in Rome. The coronation reshaped relations between kingship, the papacy, and empire, and it gave the Carolingian realm an ideological language that later rulers would adapt into the Holy Roman Empire."
+      "details": "On Christmas Day in 800, Charlemagne received the imperial crown in Rome. The coronation reshaped relations between kingship, the papacy, and empire, and it gave the Carolingian realm an ideological language that later rulers would adapt into the Holy Roman Empire.",
+      "eventType": "Coronation",
+      "background": [
+        "Charlemagne had already built enormous authority as king of the Franks and Lombards before his Roman coronation.",
+        "The papacy needed protection and legitimacy, while Charlemagne could benefit from a revived imperial title in the Latin west."
+      ],
+      "aftermath": "The coronation reshaped medieval ideas about empire, kingship, and papal authority. It also created a political inheritance later rulers adapted into the Holy Roman Empire."
     },
     {
       "id": "treaty-of-verdun",
@@ -38,7 +76,13 @@
       "location": "Verdun, Frankish Empire",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Treaty_of_Verdun.svg",
       "summary": "Charlemagne's grandsons divided the Carolingian Empire into western, middle, and eastern kingdoms.",
-      "details": "The Treaty of Verdun ended a civil war among the heirs of Louis the Pious. Its partition produced political zones that influenced the later development of France, Germany, and contested lands between them. The treaty is one of the key milestones in the breakup of Carolingian unity."
+      "details": "The Treaty of Verdun ended a civil war among the heirs of Louis the Pious. Its partition produced political zones that influenced the later development of France, Germany, and contested lands between them. The treaty is one of the key milestones in the breakup of Carolingian unity.",
+      "eventType": "Treaty",
+      "background": [
+        "After Louis the Pious died, his sons fought over the Carolingian inheritance.",
+        "The empire Charlemagne had built was too large and politically contested to remain unified under the existing settlement."
+      ],
+      "aftermath": "The treaty divided Carolingian power into western, middle, and eastern zones, influencing the later emergence of France, Germany, and contested lands between them."
     },
     {
       "id": "battle-of-hastings",
@@ -48,7 +92,34 @@
       "location": "Hastings, England",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
       "summary": "William of Normandy defeated Harold Godwinson, beginning Norman rule in England.",
-      "details": "The Norman victory at Hastings transformed English law, aristocracy, architecture, language, and landholding. William's conquest tied England more tightly to continental politics and produced one of medieval Europe's most famous visual sources: the Bayeux Tapestry."
+      "details": "The Norman victory at Hastings transformed English law, aristocracy, architecture, language, and landholding. William's conquest tied England more tightly to continental politics and produced one of medieval Europe's most famous visual sources: the Bayeux Tapestry.",
+      "eventType": "Battle",
+      "factions": [
+        "Norman invaders",
+        "Anglo-Saxon English"
+      ],
+      "leaders": [
+        {
+          "name": "William the Conqueror",
+          "faction": "Norman invaders",
+          "personId": "william-the-conqueror"
+        },
+        {
+          "name": "Harold Godwinson",
+          "faction": "Anglo-Saxon English"
+        }
+      ],
+      "eventLocation": {
+        "name": "Hastings",
+        "locationId": "hastings"
+      },
+      "outcome": "Norman victory, decisive for the conquest of England.",
+      "background": [
+        "The death of Edward the Confessor created a succession crisis in England. Harold Godwinson took the throne, while William of Normandy claimed Edward had promised it to him.",
+        "After defeating a Norwegian invasion in the north, Harold marched south to face William's newly landed Norman army."
+      ],
+      "battle": "The English formed a shield wall on high ground while Norman infantry, archers, and cavalry attacked. After long fighting and feigned retreats, the English line broke and Harold was killed.",
+      "aftermath": "William was crowned king of England, redistributed land to Norman followers, built castles, and reshaped English aristocracy, government, and language."
     },
     {
       "id": "first-crusade-called",
@@ -58,7 +129,13 @@
       "location": "Clermont, France",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Urban_II_at_the_Council_of_Clermont.jpg",
       "summary": "Pope Urban II called for an armed pilgrimage to the eastern Mediterranean.",
-      "details": "Urban II's speech at Clermont launched a movement that combined penitential devotion, warfare, aristocratic ambition, and pilgrimage. The First Crusade culminated in the capture of Jerusalem in 1099 and reshaped relations among Latin Christendom, Byzantium, and Islamic polities."
+      "details": "Urban II's speech at Clermont launched a movement that combined penitential devotion, warfare, aristocratic ambition, and pilgrimage. The First Crusade culminated in the capture of Jerusalem in 1099 and reshaped relations among Latin Christendom, Byzantium, and Islamic polities.",
+      "eventType": "Proclamation",
+      "background": [
+        "Byzantine appeals for western military assistance and papal ambitions for reform created the setting for Urban II's call at Clermont.",
+        "The speech framed armed pilgrimage as a penitential act and redirected aristocratic violence toward the eastern Mediterranean."
+      ],
+      "aftermath": "The First Crusade led to the capture of Jerusalem in 1099 and the creation of Latin crusader states, permanently altering relations among western Europe, Byzantium, and Islamic polities."
     },
     {
       "id": "magna-carta",
@@ -68,7 +145,13 @@
       "location": "Runnymede, England",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
       "summary": "King John accepted a charter limiting royal power under pressure from rebellious barons.",
-      "details": "Magna Carta was born from a political crisis, but its clauses on lawful judgment, inheritance, taxation, and church liberties gained enduring significance. Reissued several times, it became a touchstone for later arguments about law and government."
+      "details": "Magna Carta was born from a political crisis, but its clauses on lawful judgment, inheritance, taxation, and church liberties gained enduring significance. Reissued several times, it became a touchstone for later arguments about law and government.",
+      "eventType": "Other",
+      "background": [
+        "King John's military failures, taxation, and conflict with nobles produced a political crisis in England.",
+        "The charter emerged from pressure by rebellious barons who wanted written limits on royal power."
+      ],
+      "aftermath": "Although annulled quickly, Magna Carta was reissued and became a lasting reference point for lawful judgment, taxation by consent, and political restraint."
     },
     {
       "id": "black-death-europe",
@@ -78,7 +161,13 @@
       "location": "Mediterranean ports, Europe",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tournai_-_people_burying_the_dead_during_the_Black_Death.jpg",
       "summary": "A devastating plague pandemic entered Europe and killed a large share of the population.",
-      "details": "The Black Death spread rapidly through trade routes, ports, towns, and countryside. Its demographic shock altered labor markets, religious life, social tensions, urban governance, and memory. Europe after the plague was poorer in people but changed in bargaining power and political imagination."
+      "details": "The Black Death spread rapidly through trade routes, ports, towns, and countryside. Its demographic shock altered labor markets, religious life, social tensions, urban governance, and memory. Europe after the plague was poorer in people but changed in bargaining power and political imagination.",
+      "eventType": "Other",
+      "background": [
+        "The plague moved through commercial and maritime networks linking the Black Sea, Mediterranean ports, and inland towns.",
+        "Dense urban populations, trade routes, and limited medical knowledge made Europe highly vulnerable to rapid spread."
+      ],
+      "aftermath": "The demographic shock transformed labor relations, religious life, urban governance, and social tensions across Europe."
     },
     {
       "id": "battle-of-agincourt",
@@ -88,7 +177,33 @@
       "location": "Agincourt, France",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
       "summary": "Henry V's English army defeated a larger French force during the Hundred Years' War.",
-      "details": "Agincourt became famous for disciplined infantry, longbowmen, muddy terrain, and the capture or death of many French nobles. The victory strengthened Henry V's claims in France and entered English political memory as a dramatic example of battlefield reversal."
+      "details": "Agincourt became famous for disciplined infantry, longbowmen, muddy terrain, and the capture or death of many French nobles. The victory strengthened Henry V's claims in France and entered English political memory as a dramatic example of battlefield reversal.",
+      "eventType": "Battle",
+      "factions": [
+        "Kingdom of England",
+        "Kingdom of France"
+      ],
+      "leaders": [
+        {
+          "name": "Henry V",
+          "faction": "Kingdom of England"
+        },
+        {
+          "name": "Charles d'Albret",
+          "faction": "Kingdom of France"
+        }
+      ],
+      "eventLocation": {
+        "name": "Agincourt",
+        "locationId": "agincourt"
+      },
+      "outcome": "English victory, tactically decisive though not a final end to the Hundred Years' War.",
+      "background": [
+        "Henry V invaded France to press dynastic and territorial claims during the Hundred Years' War.",
+        "Disease, exhaustion, and a long march left the English army vulnerable before it was intercepted by a much larger French force."
+      ],
+      "battle": "French men-at-arms advanced through deep mud against prepared English positions. English archers and dismounted men-at-arms helped turn the terrain into a trap, causing heavy French losses.",
+      "aftermath": "The victory strengthened Henry V's diplomatic position and contributed to the Treaty of Troyes, but the wider war continued after his death."
     },
     {
       "id": "fall-of-constantinople",
@@ -98,7 +213,24 @@
       "location": "Constantinople, Byzantine Empire",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siege_of_Constantinople_1453.jpg",
       "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire.",
-      "details": "After a determined siege, Ottoman artillery and infantry broke through the city's defenses on 29 May 1453. The conquest ended the Byzantine imperial line, gave the Ottomans a new imperial capital, and is often used as a closing marker for the European Middle Ages."
+      "details": "After a determined siege, Ottoman artillery and infantry broke through the city's defenses on 29 May 1453. The conquest ended the Byzantine imperial line, gave the Ottomans a new imperial capital, and is often used as a closing marker for the European Middle Ages.",
+      "eventType": "Fall of City",
+      "leaders": [
+        {
+          "name": "Mehmed II",
+          "faction": "Ottoman Empire",
+          "personId": "mehmed-ii"
+        },
+        {
+          "name": "Constantine XI Palaiologos",
+          "faction": "Byzantine Empire"
+        }
+      ],
+      "background": [
+        "By the fifteenth century, the Byzantine Empire had been reduced largely to Constantinople and a few remaining territories.",
+        "Mehmed II prepared a major siege with artillery, naval pressure, and a determined claim to imperial legitimacy."
+      ],
+      "aftermath": "The city became the Ottoman capital, the Byzantine Empire ended, and 1453 became one of the conventional markers for the close of the European Middle Ages."
     }
   ],
   "characters": [
@@ -528,6 +660,177 @@
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Gigas_devil.jpg",
       "summary": "A huge medieval manuscript famous for its full-page image of the devil.",
       "details": "The Codex Gigas contains biblical, historical, medical, and penitential texts. Its size and imagery made it one of the most memorable manuscripts of medieval central Europe."
+    }
+  ],
+  "locations": [
+    {
+      "id": "frankish-kingdom",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Frankish Kingdom",
+      "year": 481,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankish_Empire_481_to_814-en.svg",
+      "summary": "A powerful western European kingdom that grew into the Carolingian Empire.",
+      "overview": [
+        "The Frankish Kingdom emerged from the post-Roman world of Gaul and became one of the central powers of early medieval Europe.",
+        "Under the Merovingians and later the Carolingians, Frankish rulers combined military expansion, Christian kingship, aristocratic alliances, and Roman administrative inheritance."
+      ],
+      "knownFor": [
+        "Rise of the Carolingian dynasty",
+        "Rule of Charlemagne",
+        "Major influence on the later histories of France and Germany"
+      ]
+    },
+    {
+      "id": "kingdom-of-england",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Kingdom of England",
+      "year": 927,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_878.svg",
+      "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest.",
+      "overview": [
+        "The Kingdom of England grew from the consolidation of Anglo-Saxon kingdoms under rulers of Wessex and their successors.",
+        "After 1066, Norman rule reshaped landholding, aristocracy, law, castle building, and England's relationship with continental Europe."
+      ],
+      "knownFor": [
+        "Anglo-Saxon unification",
+        "Norman Conquest in 1066",
+        "Magna Carta and common-law traditions"
+      ]
+    },
+    {
+      "id": "kingdom-of-scotland",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Kingdom of Scotland",
+      "year": 843,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scotland_11th_century.svg",
+      "summary": "A northern medieval kingdom shaped by Gaelic, Pictish, Norse, and Anglo-Norman influences.",
+      "overview": [
+        "The medieval Kingdom of Scotland developed through the consolidation of northern peoples, lordships, and royal institutions.",
+        "Its kings navigated pressure from England, Norse-Gaelic regions, powerful nobles, and church reform while building a distinct political identity."
+      ],
+      "knownFor": [
+        "Wars of Scottish Independence",
+        "Figures such as William Wallace and Robert Bruce",
+        "A frontier political culture linking Highlands, Lowlands, and islands"
+      ]
+    },
+    {
+      "id": "byzantine-empire",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Byzantine Empire",
+      "year": 330,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Justinian555AD.png",
+      "summary": "The eastern Roman Empire centered on Constantinople until its fall in 1453.",
+      "overview": [
+        "The Byzantine Empire preserved Roman imperial traditions in the eastern Mediterranean throughout the Middle Ages.",
+        "Its capital, Constantinople, was a center of Orthodox Christianity, diplomacy, trade, military defense, and imperial ceremony."
+      ],
+      "knownFor": [
+        "Capital at Constantinople",
+        "Orthodox Christian culture and imperial ceremony",
+        "Long frontier wars with Persians, Arabs, Bulgars, crusaders, and Ottomans"
+      ]
+    },
+    {
+      "id": "kingdom-of-wessex",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Kingdom of Wessex",
+      "year": 519,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_878.svg",
+      "summary": "An Anglo-Saxon kingdom that became the base for Alfred the Great and later English unification.",
+      "overview": [
+        "Wessex was one of the major Anglo-Saxon kingdoms of early medieval England.",
+        "During the Viking invasions, it survived where other kingdoms fell, becoming the political base from which later rulers expanded authority over England."
+      ],
+      "knownFor": [
+        "Rule of Alfred the Great",
+        "Resistance to Viking armies",
+        "Foundation for later English kingship"
+      ]
+    },
+    {
+      "id": "constantinople",
+      "type": "location",
+      "locationType": "City",
+      "kingdom": "Byzantine Empire",
+      "kingdomId": "byzantine-empire",
+      "name": "Constantinople",
+      "year": 330,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_Constantinople_1422.jpg",
+      "summary": "The fortified imperial city that linked Europe and Asia for more than a millennium.",
+      "overview": [
+        "Constantinople stood at the meeting point of the Mediterranean and Black Sea worlds, protected by water, walls, and imperial prestige.",
+        "It served as the capital of the Byzantine Empire until its capture by the Ottomans in 1453."
+      ],
+      "knownFor": [
+        "The Theodosian Walls",
+        "Hagia Sophia and imperial ceremony",
+        "Fall to Mehmed II in 1453"
+      ]
+    },
+    {
+      "id": "tours",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Frankish Kingdom",
+      "kingdomId": "frankish-kingdom",
+      "name": "Tours",
+      "year": 500,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tours_sur_Loire.jpg",
+      "summary": "A Frankish town remembered for nearby fighting in 732 and the cult of Saint Martin.",
+      "overview": [
+        "Tours was an important religious and urban center in the Frankish world, closely associated with the shrine of Saint Martin.",
+        "The battle remembered as Tours or Poitiers took place in the region and later became a major episode in Frankish memory."
+      ],
+      "knownFor": [
+        "Shrine of Saint Martin",
+        "Battle of Tours region in 732",
+        "Religious importance in early medieval Gaul"
+      ]
+    },
+    {
+      "id": "hastings",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Kingdom of England",
+      "kingdomId": "kingdom-of-england",
+      "name": "Hastings",
+      "year": 928,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Hastings_map.svg",
+      "summary": "An English coastal region associated with the Norman victory of 1066.",
+      "overview": [
+        "Hastings and the nearby battlefield at Senlac became permanently tied to the Norman Conquest.",
+        "The battle fought there in 1066 marked one of the sharpest political breaks in medieval English history."
+      ],
+      "knownFor": [
+        "Battle of Hastings in 1066",
+        "Norman Conquest of England",
+        "Later memory through Battle Abbey and the Bayeux Tapestry"
+      ]
+    },
+    {
+      "id": "agincourt",
+      "type": "location",
+      "locationType": "Town",
+      "kingdom": "Kingdom of France",
+      "name": "Agincourt",
+      "year": 1200,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agincourt_battlefield.jpg",
+      "summary": "A northern French village near the battlefield of Henry V's famous victory.",
+      "overview": [
+        "Agincourt was a small settlement in northern France whose surrounding fields became famous during the Hundred Years' War.",
+        "The muddy terrain and narrow battlefield shaped the English victory over French forces in 1415."
+      ],
+      "knownFor": [
+        "Battle of Agincourt in 1415",
+        "Hundred Years' War memory",
+        "English longbowmen and muddy battlefield conditions"
+      ]
     }
   ]
 }

@@ -9,10 +9,11 @@ export default function ArticleCard({ article, collection }) {
       <ImageWithFallback article={article} />
       <div className="card-content">
         <div className="card-meta">
-          <span>{labelFor(article.type)}</span>
+          <span>{labelFor(article)}</span>
           <span>{formatDate(article)}</span>
         </div>
         <h2>{article.name}</h2>
+        {cardSubtitle(article) && <span className="card-subtitle">{cardSubtitle(article)}</span>}
         <p>{article.summary}</p>
         <span className="read-link">Open article</span>
       </div>
@@ -42,12 +43,21 @@ function ImageWithFallback({ article }) {
   )
 }
 
-function labelFor(type) {
+function labelFor(article) {
+  if (article.type === 'event' && article.eventType && article.eventType !== 'Other') {
+    return article.eventType
+  }
+
+  if (article.type === 'location') {
+    return article.locationType
+  }
+
   return {
     event: 'Event',
     character: 'Person',
+    location: 'Location',
     artifact: 'Artifact'
-  }[type] ?? 'Article'
+  }[article.type] ?? 'Article'
 }
 
 function formatDate(article) {
@@ -55,9 +65,25 @@ function formatDate(article) {
     return `${article.born ?? 'Unknown'}-${article.died ?? 'Unknown'}`
   }
 
+  if (article.locationType) {
+    return article.locationType === 'Kingdom' ? 'Kingdom' : article.kingdom
+  }
+
   return `${article.year}`
 }
 
 function displayCollection(collection) {
   return collection === 'characters' ? 'people' : collection
+}
+
+function cardSubtitle(article) {
+  if (article.type === 'location') {
+    return article.locationType === 'Kingdom' ? 'Kingdom' : article.kingdom
+  }
+
+  if (article.type === 'event' && article.eventType && article.eventType !== 'Other') {
+    return article.eventType
+  }
+
+  return ''
 }

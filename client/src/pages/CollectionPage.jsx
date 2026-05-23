@@ -9,6 +9,11 @@ const collectionCopy = {
     title: 'Events',
     description: 'Important events in medieval Europe, ordered from 476 through 1453.'
   },
+  locations: {
+    eyebrow: 'Places',
+    title: 'Locations',
+    description: 'Medieval kingdoms, cities, and towns that shaped the map of Europe.'
+  },
   people: {
     eyebrow: 'People',
     title: 'People',

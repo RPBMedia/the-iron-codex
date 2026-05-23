@@ -7,12 +7,13 @@ export default function Header() {
         <span className="brand-mark">IC</span>
         <span>
           <strong>The Iron Codex</strong>
-          <small>476-1453</small>
+          <small>The European Middle Ages (476 - 1453)</small>
         </span>
       </a>
       <nav aria-label="Primary navigation">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/events">Events</NavLink>
+        <NavLink to="/locations">Locations</NavLink>
         <NavLink to="/people">People</NavLink>
         <NavLink to="/artifacts">Artifacts</NavLink>
       </nav>

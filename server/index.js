@@ -20,6 +20,7 @@ const data = JSON.parse(
 const collections = {
   events: data.events,
   characters: data.characters,
+  locations: data.locations,
   artifacts: data.artifacts
 }
 

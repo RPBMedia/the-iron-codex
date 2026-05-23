@@ -64,7 +64,6 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  min-width: max-content;
   text-decoration: none;
 }
 
@@ -95,6 +94,7 @@ img {
 .brand small {
   color: var(--silver);
   font-size: 0.76rem;
+  max-width: min(54vw, 360px);
 }
 
 nav {
@@ -342,6 +342,15 @@ h2 {
   font-size: 1.38rem;
 }
 
+.card-subtitle {
+  display: block;
+  margin-top: 6px;
+  color: var(--red);
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .card-content p {
   display: -webkit-box;
   overflow: hidden;
@@ -440,6 +449,17 @@ h2 {
   font-weight: 850;
 }
 
+.fact-strip a,
+.leader-list a {
+  color: var(--red);
+  text-decoration: none;
+}
+
+.fact-strip a:hover,
+.leader-list a:hover {
+  text-decoration: underline;
+}
+
 .standfirst {
   color: #292a30;
   font-size: 1.2rem;
@@ -455,6 +475,68 @@ h2 {
 
 .person-profile {
   margin-top: 4px;
+}
+
+.article-subtitle {
+  margin: 12px 0 0;
+  color: var(--red);
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.event-intel {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 22px 0;
+}
+
+.info-block {
+  min-width: 0;
+  border: 1px solid rgba(141, 147, 159, 0.32);
+  border-radius: 6px;
+  padding: 14px;
+  background: rgba(255, 250, 240, 0.72);
+}
+
+.info-block h2 {
+  margin-bottom: 10px;
+  color: #6d717a;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.info-block p {
+  margin: 0;
+}
+
+.inline-list,
+.leader-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.inline-list li,
+.leader-list li {
+  color: #292a30;
+  font-weight: 760;
+}
+
+.leader-list li {
+  display: grid;
+  gap: 2px;
+}
+
+.leader-list span {
+  color: #6d717a;
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .bio-section {
@@ -568,6 +650,10 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .event-intel {
+    grid-template-columns: 1fr;
+  }
+
   .detail-media img {
     min-height: 280px;
     height: clamp(280px, 54vh, 460px);
@@ -581,7 +667,7 @@ h2 {
 
   nav {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 4px;
   }
 
