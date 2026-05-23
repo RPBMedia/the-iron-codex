@@ -54,8 +54,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 14px clamp(16px, 4vw, 56px);
+  gap: 18px;
+  padding: 14px clamp(16px, 3vw, 48px);
   border-bottom: 1px solid rgba(215, 217, 221, 0.18);
   background: rgba(11, 11, 13, 0.88);
   color: var(--paper);
@@ -70,17 +70,49 @@ img {
 }
 
 .brand-mark {
-  display: grid;
+  position: relative;
+  display: block;
   width: 44px;
   height: 44px;
-  place-items: center;
   border: 1px solid rgba(242, 193, 78, 0.72);
+  background: #0b0b0d;
+  overflow: hidden;
+}
+
+.brand-mark::before,
+.brand-mark::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.brand-mark::before {
   background:
-    linear-gradient(135deg, rgba(177, 25, 42, 0.92), rgba(31, 31, 36, 0.95)),
-    var(--black);
-  color: var(--gold-soft);
-  font-size: 0.88rem;
-  font-weight: 900;
+    linear-gradient(90deg, transparent 0 49%, rgba(242, 193, 78, 0.82) 49% 51%, transparent 51%),
+    linear-gradient(180deg, transparent 0 49%, rgba(242, 193, 78, 0.82) 49% 51%, transparent 51%),
+    linear-gradient(135deg, #182c57 0 50%, #8d1024 50% 100%);
+}
+
+.brand-mark::after {
+  background:
+    radial-gradient(circle at 28% 28%, #f2c14e 0 4px, transparent 4px),
+    radial-gradient(circle at 72% 28%, #f2c14e 0 4px, transparent 4px),
+    radial-gradient(circle at 28% 72%, #f2c14e 0 4px, transparent 4px),
+    radial-gradient(circle at 72% 72%, #f2c14e 0 4px, transparent 4px);
+  opacity: 0.94;
+}
+
+.brand-mark span {
+  position: absolute;
+  inset: 9px 18px;
+  z-index: 1;
+  border-radius: 999px;
+  background: var(--silver);
+  box-shadow:
+    0 0 0 1px rgba(11, 11, 13, 0.72),
+    0 12px 0 var(--silver),
+    0 24px 0 var(--silver);
+  transform: rotate(38deg);
 }
 
 .brand strong,
@@ -104,13 +136,13 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 6px;
 }
 
 nav a {
   border: 1px solid transparent;
   border-radius: 999px;
-  padding: 8px 13px;
+  padding: 8px 11px;
   color: var(--silver);
   font-size: 0.94rem;
   font-weight: 750;
@@ -128,8 +160,8 @@ nav a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  width: min(300px, 30vw);
-  min-width: 220px;
+  width: clamp(320px, 31vw, 520px);
+  min-width: 280px;
 }
 
 .global-search label {

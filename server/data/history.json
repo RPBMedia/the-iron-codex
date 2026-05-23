@@ -547,7 +547,7 @@
         {
           "date": "c. 1122",
           "title": "Born",
-          "description": "Some traditions place her birth elsewhere in Aquitaine.",
+          "description": "Born in Aquitaine, with Poitiers used here as a common association.",
           "links": [
             {
               "title": "Poitiers",
@@ -557,9 +557,34 @@
           ]
         },
         {
+          "date": "1137",
+          "title": "Becomes Duchess of Aquitaine",
+          "description": "Inherits Aquitaine after the death of her father, William X."
+        },
+        {
+          "date": "1137",
+          "title": "Marries Louis VII of France",
+          "description": "Becomes queen consort of France through marriage."
+        },
+        {
+          "date": "1147-1149",
+          "title": "Participates in the Second Crusade",
+          "description": "Travels east with Louis VII during the crusade."
+        },
+        {
+          "date": "1152",
+          "title": "Marries Henry Plantagenet",
+          "description": "After annulment from Louis VII, marries the future Henry II of England."
+        },
+        {
+          "date": "1173-1174",
+          "title": "Supports revolt against Henry II",
+          "description": "Backs her sons in rebellion and is imprisoned afterward."
+        },
+        {
           "date": "1204",
           "title": "Died",
-          "links": []
+          "description": "Dies at Fontevraud Abbey."
         }
       ]
     },
@@ -655,9 +680,41 @@
           ]
         },
         {
+          "date": "1035",
+          "title": "Becomes Duke of Normandy",
+          "description": "Inherits Normandy as a child after Robert I dies."
+        },
+        {
+          "date": "1047",
+          "title": "Secures Normandy after Val-es-Dunes",
+          "description": "Defeats rebel Norman barons with support from King Henry I of France."
+        },
+        {
+          "date": "1066",
+          "title": "Wins the Battle of Hastings",
+          "description": "Defeats Harold Godwinson and opens the Norman conquest of England.",
+          "links": [
+            {
+              "title": "Battle of Hastings",
+              "type": "event",
+              "slug": "battle-of-hastings"
+            }
+          ]
+        },
+        {
+          "date": "1066",
+          "title": "Crowned king of England",
+          "description": "Crowned in Westminster Abbey on Christmas Day."
+        },
+        {
+          "date": "1086",
+          "title": "Orders the Domesday survey",
+          "description": "Commissions a kingdom-wide record of landholding and obligations."
+        },
+        {
           "date": "1087",
           "title": "Died",
-          "links": []
+          "description": "Dies after injury and illness while campaigning in France."
         }
       ]
     },
@@ -745,7 +802,6 @@
         {
           "date": "1098",
           "title": "Born",
-          "description": "Traditional birthplace.",
           "links": [
             {
               "title": "Bermersheim vor der Hoehe",
@@ -755,9 +811,34 @@
           ]
         },
         {
+          "date": "1112",
+          "title": "Enters religious life",
+          "description": "Placed under the care of Jutta at Disibodenberg."
+        },
+        {
+          "date": "1136",
+          "title": "Becomes magistra",
+          "description": "Leads the women's community after Jutta's death."
+        },
+        {
+          "date": "1141",
+          "title": "Begins recording visions",
+          "description": "Starts composing Scivias after visionary experiences."
+        },
+        {
+          "date": "1150",
+          "title": "Founds Rupertsberg community",
+          "description": "Moves her community near Bingen."
+        },
+        {
+          "date": "1165",
+          "title": "Founds Eibingen convent",
+          "description": "Expands her monastic leadership across the Rhine."
+        },
+        {
           "date": "1179",
           "title": "Died",
-          "links": []
+          "description": "Dies at Rupertsberg."
         }
       ]
     },
@@ -853,9 +934,39 @@
           ]
         },
         {
+          "date": "1169",
+          "title": "Becomes vizier of Egypt",
+          "description": "Rises to power under Nur al-Din's authority."
+        },
+        {
+          "date": "1171",
+          "title": "Ends the Fatimid caliphate",
+          "description": "Restores Egypt to Sunni Abbasid allegiance."
+        },
+        {
+          "date": "1174",
+          "title": "Takes Damascus",
+          "description": "Begins consolidating Syria and Egypt under Ayyubid rule."
+        },
+        {
+          "date": "1187",
+          "title": "Wins the Battle of Hattin",
+          "description": "Crushes the crusader field army and opens the way to Jerusalem."
+        },
+        {
+          "date": "1187",
+          "title": "Captures Jerusalem",
+          "description": "Takes the city from the crusader kingdom."
+        },
+        {
+          "date": "1192",
+          "title": "Negotiates with Richard I",
+          "description": "Treaty of Jaffa ends the Third Crusade stalemate."
+        },
+        {
           "date": "1193",
           "title": "Died",
-          "links": []
+          "description": "Dies in Damascus."
         }
       ]
     },
@@ -954,9 +1065,34 @@
           ]
         },
         {
+          "date": "1172",
+          "title": "Invested as Duke of Aquitaine",
+          "description": "Receives authority in Aquitaine from his parents."
+        },
+        {
+          "date": "1189",
+          "title": "Becomes king of England",
+          "description": "Succeeds Henry II."
+        },
+        {
+          "date": "1191",
+          "title": "Captures Cyprus",
+          "description": "Seizes Cyprus during the Third Crusade."
+        },
+        {
+          "date": "1191",
+          "title": "Wins at Arsuf",
+          "description": "Defeats Saladin's forces during the Third Crusade."
+        },
+        {
+          "date": "1192-1194",
+          "title": "Captured and ransomed",
+          "description": "Held by Leopold of Austria and Emperor Henry VI before release."
+        },
+        {
           "date": "1199",
           "title": "Died",
-          "links": []
+          "description": "Dies from an infected crossbow wound after the siege of Chalus."
         }
       ]
     },
@@ -1052,9 +1188,34 @@
           ]
         },
         {
+          "date": "1425",
+          "title": "Reports visionary experiences",
+          "description": "Later testimony associates her mission with saints' voices."
+        },
+        {
+          "date": "1429",
+          "title": "Reaches Chinon",
+          "description": "Persuades the dauphin's circle to let her join the war effort."
+        },
+        {
+          "date": "1429",
+          "title": "Helps lift the siege of Orleans",
+          "description": "Becomes a symbol of French recovery."
+        },
+        {
+          "date": "1429",
+          "title": "Supports coronation at Reims",
+          "description": "Charles VII is crowned with Joan present."
+        },
+        {
+          "date": "1430",
+          "title": "Captured at Compiegne",
+          "description": "Taken by Burgundian forces and transferred to English custody."
+        },
+        {
           "date": "1431",
           "title": "Died",
-          "links": []
+          "description": "Executed at Rouen."
         }
       ]
     },
@@ -1150,9 +1311,34 @@
           ]
         },
         {
+          "date": "1469",
+          "title": "Marries Ferdinand of Aragon",
+          "description": "Creates a dynastic partnership between Castile and Aragon."
+        },
+        {
+          "date": "1474",
+          "title": "Becomes queen of Castile",
+          "description": "Claims the Castilian throne after Henry IV's death."
+        },
+        {
+          "date": "1479",
+          "title": "Secures Castilian succession",
+          "description": "Treaty of Alcacovas helps settle the succession conflict."
+        },
+        {
+          "date": "1492",
+          "title": "Completes conquest of Granada",
+          "description": "Ends the last Muslim-ruled kingdom in Iberia."
+        },
+        {
+          "date": "1492",
+          "title": "Sponsors Columbus voyage",
+          "description": "Backs the Atlantic expedition that reaches the Caribbean."
+        },
+        {
           "date": "1504",
           "title": "Died",
-          "links": []
+          "description": "Dies at Medina del Campo."
         }
       ]
     },
@@ -1250,9 +1436,46 @@
           ]
         },
         {
+          "date": "1444",
+          "title": "First accession as sultan",
+          "description": "Briefly takes the Ottoman throne as a youth."
+        },
+        {
+          "date": "1451",
+          "title": "Returns to the throne",
+          "description": "Becomes sultan again after Murad II's death."
+        },
+        {
+          "date": "1452",
+          "title": "Builds Rumeli Hisari",
+          "description": "Constructs a fortress on the Bosporus to pressure Constantinople."
+        },
+        {
+          "date": "1453",
+          "title": "Conquers Constantinople",
+          "description": "Ends the Byzantine Empire and makes the city an Ottoman capital.",
+          "links": [
+            {
+              "title": "Constantinople",
+              "type": "location",
+              "slug": "constantinople"
+            },
+            {
+              "title": "Fall of Constantinople",
+              "type": "event",
+              "slug": "fall-of-constantinople"
+            }
+          ]
+        },
+        {
+          "date": "1461",
+          "title": "Captures Trebizond",
+          "description": "Ends the last major Byzantine successor state."
+        },
+        {
           "date": "1481",
           "title": "Died",
-          "links": []
+          "description": "Dies while preparing another campaign."
         }
       ]
     },
@@ -1341,7 +1564,7 @@
         {
           "date": "1353",
           "title": "Born",
-          "description": "Traditional birthplace.",
+          "description": "Traditional birthplace at Soborg Castle.",
           "links": [
             {
               "title": "Soborg Castle",
@@ -1351,9 +1574,34 @@
           ]
         },
         {
+          "date": "1363",
+          "title": "Marries Haakon VI of Norway",
+          "description": "Links Danish, Norwegian, and Swedish royal politics."
+        },
+        {
+          "date": "1375",
+          "title": "Secures Danish succession for Olaf",
+          "description": "Her son Olaf is recognized in Denmark."
+        },
+        {
+          "date": "1387",
+          "title": "Rules after Olaf's death",
+          "description": "Acts as dominant ruler in Denmark and Norway."
+        },
+        {
+          "date": "1389",
+          "title": "Defeats Albert of Mecklenburg",
+          "description": "Victory at Falkoping opens the way to Swedish control."
+        },
+        {
+          "date": "1397",
+          "title": "Forms the Kalmar Union",
+          "description": "Unites the Scandinavian crowns under Erik of Pomerania."
+        },
+        {
           "date": "1412",
           "title": "Died",
-          "links": []
+          "description": "Dies during conflict in Schleswig."
         }
       ]
     },
@@ -1441,7 +1689,7 @@
         {
           "date": "c. 1270",
           "title": "Born",
-          "description": "Traditional and disputed; Wallace's early life is poorly documented.",
+          "description": "Traditional and disputed birthplace at Elderslie.",
           "links": [
             {
               "title": "Elderslie",
@@ -1451,9 +1699,34 @@
           ]
         },
         {
+          "date": "1297",
+          "title": "Kills William Heselrig",
+          "description": "Later tradition links Wallace's revolt to the killing of the sheriff of Lanark."
+        },
+        {
+          "date": "1297",
+          "title": "Wins at Stirling Bridge",
+          "description": "Wallace and Andrew Moray defeat an English army."
+        },
+        {
+          "date": "1298",
+          "title": "Defeated at Falkirk",
+          "description": "Edward I defeats Wallace's forces."
+        },
+        {
+          "date": "1298",
+          "title": "Resigns guardianship",
+          "description": "Steps down after Falkirk."
+        },
+        {
+          "date": "1305",
+          "title": "Captured near Glasgow",
+          "description": "Taken by forces loyal to the English crown."
+        },
+        {
           "date": "1305",
           "title": "Died",
-          "links": []
+          "description": "Executed in London."
         }
       ]
     },
@@ -1539,14 +1812,32 @@
         {
           "date": "Unknown",
           "title": "Born",
-          "description": "Legendary figure; no reliable birthplace is known.",
-          "links": []
+          "description": "No reliable birthplace or birth date survives."
+        },
+        {
+          "date": "legendary early life",
+          "title": "Appears in saga tradition",
+          "description": "Later Norse sources frame Ragnar as a heroic Viking ruler."
+        },
+        {
+          "date": "traditionally 845",
+          "title": "Raids Paris",
+          "description": "Some traditions associate Ragnar with the Viking attack on Paris, though identification is debated."
+        },
+        {
+          "date": "legendary",
+          "title": "Associated with Aslaug and warrior sons",
+          "description": "Saga material links him to figures such as Ivar, Bjorn, and Sigurd Snake-in-the-Eye."
         },
         {
           "date": "traditionally 865",
-          "title": "Died",
-          "description": "Death tradition is legendary.",
-          "links": []
+          "title": "Death in Northumbria",
+          "description": "Legend says he was killed in a snake pit by King Aella."
+        },
+        {
+          "date": "865-878",
+          "title": "Remembered through the Great Heathen Army",
+          "description": "Later tradition links his sons to the invasion of England."
         }
       ]
     },
@@ -1630,13 +1921,44 @@
         {
           "date": "c. 1090",
           "title": "Born",
-          "description": "No reliable birthplace is used here.",
-          "links": []
+          "description": "No reliable birthplace is used here."
+        },
+        {
+          "date": "1103",
+          "title": "Becomes king of Norway",
+          "description": "Rules jointly after Magnus Barefoot's death."
+        },
+        {
+          "date": "1107",
+          "title": "Begins the Norwegian Crusade",
+          "description": "Leads a fleet from Norway toward the Mediterranean."
+        },
+        {
+          "date": "1110",
+          "title": "Reaches Jerusalem",
+          "description": "Visits the Holy Land and supports crusader campaigns."
+        },
+        {
+          "date": "1111",
+          "title": "Enters Constantinople",
+          "description": "Arrives at the Byzantine capital with great ceremony.",
+          "links": [
+            {
+              "title": "Constantinople",
+              "type": "location",
+              "slug": "constantinople"
+            }
+          ]
+        },
+        {
+          "date": "1123",
+          "title": "Campaigns in Smaland",
+          "description": "Associated with a campaign sometimes described as a crusade."
         },
         {
           "date": "1130",
           "title": "Died",
-          "links": []
+          "description": "Dies in Norway."
         }
       ]
     },
@@ -1722,13 +2044,37 @@
         {
           "date": "c. 990",
           "title": "Born",
-          "description": "Birthplace uncertain; usually treated broadly as Denmark.",
-          "links": []
+          "description": "Birthplace uncertain; usually treated broadly as Denmark."
+        },
+        {
+          "date": "1013",
+          "title": "Joins invasion of England",
+          "description": "Campaigns with Sweyn Forkbeard."
+        },
+        {
+          "date": "1016",
+          "title": "Becomes king of England",
+          "description": "Secures England after conflict with Edmund Ironside."
+        },
+        {
+          "date": "1018",
+          "title": "Becomes king of Denmark",
+          "description": "Inherits Danish kingship."
+        },
+        {
+          "date": "1027",
+          "title": "Travels to Rome",
+          "description": "Attends the imperial coronation of Conrad II."
+        },
+        {
+          "date": "1028",
+          "title": "Takes Norway",
+          "description": "Extends rule into Norway and builds the North Sea Empire."
         },
         {
           "date": "1035",
           "title": "Died",
-          "links": []
+          "description": "Dies at Shaftesbury."
         }
       ]
     },
@@ -1824,9 +2170,34 @@
           ]
         },
         {
+          "date": "871",
+          "title": "Becomes king of Wessex",
+          "description": "Succeeds during intense Viking pressure."
+        },
+        {
+          "date": "878",
+          "title": "Wins at Edington",
+          "description": "Defeats Guthrum and secures Wessex."
+        },
+        {
+          "date": "878",
+          "title": "Treaty with Guthrum",
+          "description": "Establishes a settlement with the Viking leader."
+        },
+        {
+          "date": "880s",
+          "title": "Builds burh system",
+          "description": "Develops fortified centers and defensive reforms."
+        },
+        {
+          "date": "890s",
+          "title": "Sponsors learning and translation",
+          "description": "Promotes education, law, and Latin learning."
+        },
+        {
           "date": "899",
           "title": "Died",
-          "links": []
+          "description": "Dies after a long reign in Wessex."
         }
       ]
     }

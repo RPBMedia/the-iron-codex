@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="/">
-        <span className="brand-mark">IC</span>
+        <span className="brand-mark" aria-hidden="true">
+          <span></span>
+        </span>
         <span>
           <strong>The Iron Codex</strong>
           <small>The European Middle Ages (476 - 1453)</small>
