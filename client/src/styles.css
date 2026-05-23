@@ -22,6 +22,7 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -29,6 +30,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
   background: #f2eee4;
 }
 
@@ -611,11 +613,38 @@ h2 {
 }
 
 .bio-section {
+  position: relative;
+  isolation: isolate;
   margin-top: 28px;
   border: 1px solid rgba(141, 147, 159, 0.2);
   border-radius: 6px;
   padding: clamp(18px, 3vw, 28px);
   background: rgba(255, 250, 240, 0.96);
+}
+
+.person-profile .bio-section:first-of-type,
+.location-profile .bio-section:first-of-type,
+.event-profile .bio-section:first-of-type {
+  overflow: visible;
+}
+
+.person-profile .bio-section:first-of-type::before,
+.location-profile .bio-section:first-of-type::before,
+.event-profile .bio-section:first-of-type::before {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 50%;
+  width: 200vw;
+  height: 200vh;
+  background: var(--sand);
+  content: "";
+  transform: translateX(-50%);
+}
+
+.bio-section > * {
+  position: relative;
+  z-index: 1;
 }
 
 .bio-section h2 {
