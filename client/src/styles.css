@@ -274,7 +274,7 @@ main {
   background:
     linear-gradient(90deg, rgba(9, 9, 11, 0.96), rgba(9, 9, 11, 0.72), rgba(9, 9, 11, 0.26)),
     linear-gradient(180deg, rgba(177, 25, 42, 0.18), transparent 60%),
-    url("https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg") center / cover;
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg") center / cover;
   color: var(--paper);
 }
 
@@ -516,8 +516,24 @@ h2 {
   font-weight: 760;
 }
 
-.load-more-button {
+.button.secondary.load-more-button {
   min-width: min(260px, 100%);
+  border-color: #b88a22;
+  background: #3a2b12;
+  color: var(--paper);
+  box-shadow: 0 14px 34px rgba(8, 8, 10, 0.18);
+}
+
+.button.secondary.load-more-button:hover:not(:disabled) {
+  border-color: var(--gold);
+  background: #4a3717;
+  color: var(--paper);
+}
+
+.button.secondary.load-more-button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+  transform: none;
 }
 
 .search-results-page::before {
@@ -845,14 +861,19 @@ figure.detail-media {
 }
 
 .article-actions button {
-  border: 1px solid rgba(242, 193, 78, 0.6);
+  border: 1px solid #b88a22;
   border-radius: 6px;
   padding: 10px 14px;
-  background: rgba(242, 193, 78, 0.12);
+  background: #3a2b12;
   color: var(--paper);
   font: inherit;
   font-weight: 900;
   cursor: pointer;
+}
+
+.article-actions button:hover {
+  border-color: var(--gold);
+  background: #4a3717;
 }
 
 .article-actions span {
@@ -1017,6 +1038,21 @@ figure.detail-media {
 
 .bio-section p {
   margin: 0 0 14px;
+}
+
+.article-link {
+  color: #1f5f9e;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(31, 95, 158, 0.38);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.article-link:hover,
+.article-link:focus-visible {
+  color: #123f70;
+  text-decoration-color: currentColor;
 }
 
 .overview-section {
@@ -1274,7 +1310,7 @@ figure.detail-media {
     background:
       linear-gradient(180deg, rgba(9, 9, 11, 0.28), rgba(9, 9, 11, 0.94)),
       linear-gradient(180deg, rgba(177, 25, 42, 0.2), transparent 62%),
-      url("https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg") center / cover;
+      url("https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg") center / cover;
   }
 
   .hero h1 {

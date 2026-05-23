@@ -4,7 +4,7 @@ import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getCollection } from '../lib/api.js'
 
-const batchSize = 6
+const batchSize = 10
 
 const collectionCopy = {
   events: {
@@ -312,14 +312,17 @@ function searchableText(item, collection) {
     item.summary,
     item.details,
     item.eventType,
+    item.conflict,
     item.locationType,
     item.location,
     item.kingdom,
     item.quickFacts?.realm,
     item.quickFacts?.culture,
     item.quickFacts?.knownFor,
+    ...(item.aliases ?? []),
     ...(item.roles ?? []),
     ...(item.knownFor ?? []),
+    ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])]),
     typeLabel(item, collection),
     centuryValue(dateValue(item))
   ]

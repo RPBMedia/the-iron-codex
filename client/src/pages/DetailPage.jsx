@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getArticle } from '../lib/api.js'
+import { entityLinks } from '../lib/entityLinks.js'
 import { fallbackImage, shouldUseFallbackImage } from '../lib/images.js'
 
 const collectionLabels = {
@@ -133,12 +134,25 @@ function StandardHero({ article }) {
 }
 
 function StandardContent({ article }) {
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: [article.summary, article.details].filter(Boolean) }]
+
   return (
-    <section className="bio-section">
-      <h2>Overview</h2>
-      <p className="standfirst">{article.summary}</p>
-      <p>{article.details}</p>
-    </section>
+    <>
+      {sections.map((section, index) => (
+        <ArticleSection
+          key={section.title}
+          className={index === 0 ? 'overview-section' : ''}
+          title={section.title}
+          paragraphs={section.paragraphs}
+          article={article}
+        />
+      ))}
+      <HistoricalReliabilityNote note={article.historicalReliability} />
+      <SourcesList sources={article.sources} />
+      <RelatedEntries groups={article.relatedEntries} />
+    </>
   )
 }
 
@@ -161,6 +175,12 @@ function EventHero({ article }) {
           <dt>Location</dt>
           <dd>{renderEventLocation(article)}</dd>
         </div>
+        {article.conflict && (
+          <div>
+            <dt>Conflict</dt>
+            <dd>{renderLinkedText(article.conflict, article)}</dd>
+          </div>
+        )}
       </dl>
 
       {(isBattle || isWar) && (
@@ -197,14 +217,26 @@ function EventHero({ article }) {
 
 function EventContent({ article }) {
   const isBattle = article.eventType === 'Battle'
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [
+        { title: 'Background', paragraphs: article.background },
+        isBattle ? { title: 'The battle', paragraphs: [article.battle] } : null,
+        { title: 'Aftermath', paragraphs: [article.aftermath ?? article.details] }
+      ].filter(Boolean)
 
   return (
     <>
-      <p className="standfirst">{article.summary}</p>
+      <p className="standfirst">{renderLinkedText(article.summary, article)}</p>
 
-      <ArticleSection title="Background" paragraphs={article.background} />
-      {isBattle && <ArticleSection title="Battle" paragraphs={[article.battle]} />}
-      <ArticleSection title="Aftermath" paragraphs={[article.aftermath ?? article.details]} />
+      {sections.map((section) => (
+        <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
+      ))}
+      {!sections.some((section) => section.title?.toLowerCase().includes('reliability')) && (
+        <HistoricalReliabilityNote note={article.historicalReliability} />
+      )}
+      <SourcesList sources={article.sources} />
+      <RelatedEntries groups={article.relatedEntries} />
     </>
   )
 }
@@ -230,9 +262,21 @@ function LocationHero({ article }) {
 }
 
 function LocationContent({ article }) {
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: article.overview }]
+
   return (
     <>
-      <ArticleSection title="Overview" paragraphs={article.overview} />
+      {sections.map((section, index) => (
+        <ArticleSection
+          key={section.title}
+          className={index === 0 ? 'overview-section' : ''}
+          title={section.title}
+          paragraphs={section.paragraphs}
+          article={article}
+        />
+      ))}
       <section className="bio-section">
         <h2>Known for</h2>
         <ul className="feat-list">
@@ -241,6 +285,9 @@ function LocationContent({ article }) {
           ))}
         </ul>
       </section>
+      <HistoricalReliabilityNote note={article.historicalReliability} />
+      <SourcesList sources={article.sources} />
+      <RelatedEntries groups={article.relatedEntries} />
     </>
   )
 }
@@ -267,12 +314,13 @@ function PersonContent({ article }) {
             className="overview-section"
             title={overviewSection.title ?? 'Overview'}
             paragraphs={overviewSection.paragraphs}
+            article={article}
           />
         )}
-        <KeyAchievements achievements={article.keyAchievements ?? achievementFallback(article)} />
         {articleSections.map((section) => (
-          <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} />
+          <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
         ))}
+        <KeyAchievements achievements={article.keyAchievements ?? achievementFallback(article)} article={article} />
         <HistoricalReliabilityNote note={article.historicalReliability} />
         <SourcesList sources={article.sources} />
       </main>
@@ -337,18 +385,18 @@ function InfoBlock({ title, children }) {
   )
 }
 
-function ArticleSection({ title, paragraphs, className = '' }) {
+function ArticleSection({ title, paragraphs, className = '', article }) {
   return (
     <section className={`bio-section ${className}`}>
       <h2>{title}</h2>
       {(paragraphs ?? []).filter(Boolean).map((paragraph) => (
-        <p key={paragraph}>{paragraph}</p>
+        <p key={paragraph}>{renderLinkedText(paragraph, article)}</p>
       ))}
     </section>
   )
 }
 
-function KeyAchievements({ achievements }) {
+function KeyAchievements({ achievements, article }) {
   if (!achievements?.length) return null
 
   return (
@@ -358,7 +406,7 @@ function KeyAchievements({ achievements }) {
         {achievements.map((achievement) => (
           <article className="achievement-item" key={achievement.title}>
             <h3>{achievement.title}</h3>
-            {achievement.description && <p>{achievement.description}</p>}
+            {achievement.description && <p>{renderLinkedText(achievement.description, article)}</p>}
             <InlineLinks links={achievement.links} />
           </article>
         ))}
@@ -378,7 +426,7 @@ function Timeline({ items }) {
           <li key={`${item.date}-${item.title}`}>
             <time>{item.date}</time>
             <strong>{item.title}</strong>
-            {item.description && <p>{item.description}</p>}
+            {item.description && <p>{renderLinkedText(item.description)}</p>}
             <InlineLinks links={item.links} />
           </li>
         ))}
@@ -456,6 +504,82 @@ function InlineLinks({ links }) {
   )
 }
 
+function renderLinkedText(text, article) {
+  if (!text || typeof text !== 'string') return text
+
+  const matches = findEntityMatches(text, article)
+
+  if (!matches.length) {
+    return text
+  }
+
+  const nodes = []
+  let cursor = 0
+
+  matches.forEach((match) => {
+    if (match.index > cursor) {
+      nodes.push(text.slice(cursor, match.index))
+    }
+
+    nodes.push(
+      <Link className="article-link" to={routeForEntry(match.entry)} key={`${match.index}-${match.term}`}>
+        {text.slice(match.index, match.index + match.term.length)}
+      </Link>
+    )
+    cursor = match.index + match.term.length
+  })
+
+  if (cursor < text.length) {
+    nodes.push(text.slice(cursor))
+  }
+
+  return nodes
+}
+
+function findEntityMatches(text, article) {
+  const currentEntry = currentEntryKey(article)
+  const candidates = entityLinks
+    .flatMap((entry) => [entry.label, ...(entry.aliases ?? [])].map((term) => ({ entry, term })))
+    .filter(({ entry }) => `${entry.type}-${entry.slug}` !== currentEntry)
+    .filter(({ term }) => term && text.toLowerCase().includes(term.toLowerCase()))
+    .sort((a, b) => b.term.length - a.term.length)
+
+  const occupied = []
+  const usedEntries = new Set()
+  const matches = []
+
+  candidates.forEach(({ entry, term }) => {
+    if (usedEntries.has(`${entry.type}-${entry.slug}`)) return
+
+    const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegExp(term)})(?=$|[^A-Za-z0-9])`, 'i')
+    const match = text.match(pattern)
+
+    if (!match || match.index === undefined) return
+
+    const index = match.index + match[1].length
+    const end = index + match[2].length
+    const overlaps = occupied.some(([start, existingEnd]) => index < existingEnd && end > start)
+
+    if (overlaps) return
+
+    occupied.push([index, end])
+    usedEntries.add(`${entry.type}-${entry.slug}`)
+    matches.push({ entry, term: match[2], index })
+  })
+
+  return matches.sort((a, b) => a.index - b.index)
+}
+
+function currentEntryKey(article) {
+  if (!article?.id) return ''
+
+  return `${article.type === 'character' ? 'person' : article.type}-${article.id}`
+}
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function EntryLink({ entry, children }) {
   const route = routeForEntry(entry)
 
@@ -528,7 +652,10 @@ function routeForEntry(entry) {
     location: 'locations',
     place: 'locations',
     kingdom: 'locations',
-    artifact: 'artifacts'
+    polity: 'locations',
+    artifact: 'artifacts',
+    document: 'artifacts',
+    concept: 'artifacts'
   }[entry.type]
 
   return routeType && entry.slug ? `/${routeType}/${entry.slug}` : ''
