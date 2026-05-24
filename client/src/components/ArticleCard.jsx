@@ -1,23 +1,33 @@
 import { Link } from 'react-router-dom'
+import FavoriteButton from './FavoriteButton.jsx'
 import { fallbackImage, shouldUseFallbackImage } from '../lib/images.js'
 
-export default function ArticleCard({ article, collection }) {
+export default function ArticleCard({ article, collection, onFavoriteChanged }) {
   const targetCollection = displayCollection(collection ?? article.collection ?? `${article.type}s`)
+  const articleWithIdentity = {
+    ...article,
+    articleType: targetCollection,
+    articleId: article.id,
+    articleUrl: `/${targetCollection}/${article.id}`
+  }
 
   return (
-    <Link className="article-card" to={`/${targetCollection}/${article.id}`}>
-      <ImageWithFallback article={article} />
-      <div className="card-content">
-        <div className="card-meta">
-          <span>{labelFor(article)}</span>
-          <span>{formatDate(article)}</span>
+    <article className="article-card">
+      <FavoriteButton article={articleWithIdentity} onChanged={(isFavorited) => onFavoriteChanged?.(articleWithIdentity, isFavorited)} />
+      <Link className="article-card-link" to={`/${targetCollection}/${article.id}`}>
+        <ImageWithFallback article={article} />
+        <div className="card-content">
+          <div className="card-meta">
+            <span>{labelFor(article)}</span>
+            <span>{formatDate(article)}</span>
+          </div>
+          <h2>{article.name}</h2>
+          {cardSubtitle(article) && <span className="card-subtitle">{cardSubtitle(article)}</span>}
+          <p>{article.summary}</p>
+          <span className="read-link">Open article</span>
         </div>
-        <h2>{article.name}</h2>
-        {cardSubtitle(article) && <span className="card-subtitle">{cardSubtitle(article)}</span>}
-        <p>{article.summary}</p>
-        <span className="read-link">Open article</span>
-      </div>
-    </Link>
+      </Link>
+    </article>
   )
 }
 

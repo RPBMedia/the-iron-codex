@@ -5,27 +5,37 @@ import Home from './pages/Home.jsx'
 import CollectionPage from './pages/CollectionPage.jsx'
 import DetailPage from './pages/DetailPage.jsx'
 import SearchPage from './pages/SearchPage.jsx'
+import AuthCallback from './pages/AuthCallback.jsx'
+import AuthPage from './pages/AuthPage.jsx'
+import FavoritesPage from './pages/FavoritesPage.jsx'
+import { AuthProvider } from './lib/auth.jsx'
 
 export default function App() {
   return (
-    <div className="app-shell">
-      <ScrollToTop />
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<CollectionPage collection="events" />} />
-          <Route path="/locations" element={<CollectionPage collection="locations" />} />
-          <Route path="/people" element={<CollectionPage collection="people" />} />
-          <Route path="/characters" element={<Navigate to="/people" replace />} />
-          <Route path="/characters/:id" element={<RedirectCharacter />} />
-          <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/:collection/:id" element={<DetailPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </main>
-    </div>
+    <AuthProvider>
+      <div className="app-shell">
+        <ScrollToTop />
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/events" element={<CollectionPage collection="events" />} />
+            <Route path="/locations" element={<CollectionPage collection="locations" />} />
+            <Route path="/people" element={<CollectionPage collection="people" />} />
+            <Route path="/characters" element={<Navigate to="/people" replace />} />
+            <Route path="/characters/:id" element={<RedirectCharacter />} />
+            <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
+            <Route path="/search" element={<SearchPage />} />
+            <Route path="/login" element={<AuthPage mode="login" />} />
+            <Route path="/signup" element={<AuthPage mode="signup" />} />
+            <Route path="/auth/callback" element={<AuthCallback />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/:collection/:id" element={<DetailPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+      </div>
+    </AuthProvider>
   )
 }
 

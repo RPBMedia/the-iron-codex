@@ -26,15 +26,64 @@ export async function getSearchCollections() {
   return { artifacts, events, locations, people }
 }
 
+export async function getAuthState() {
+  return request('/auth/me')
+}
+
+export async function signUpWithPassword(email, password) {
+  return request('/auth/signup', {
+    method: 'POST',
+    body: JSON.stringify({ email, password })
+  })
+}
+
+export async function signInWithPassword(email, password) {
+  return request('/auth/login', {
+    method: 'POST',
+    body: JSON.stringify({ email, password })
+  })
+}
+
+export async function logout() {
+  return request('/auth/logout', { method: 'POST' })
+}
+
+export async function getFavorites() {
+  return request('/favorites')
+}
+
+export async function getFavoriteIds() {
+  return request('/favorites/ids')
+}
+
+export async function addFavorite(articleType, articleId) {
+  return request('/favorites', {
+    method: 'POST',
+    body: JSON.stringify({ articleType, articleId })
+  })
+}
+
+export async function removeFavorite(articleType, articleId) {
+  return request(`/favorites/${articleType}/${articleId}`, { method: 'DELETE' })
+}
+
 function apiName(collection) {
   return apiCollections[collection] ?? collection
 }
 
-async function request(path) {
-  const response = await fetch(`${apiBase}${path}`)
+async function request(path, options = {}) {
+  const response = await fetch(`${apiBase}${path}`, {
+    credentials: 'include',
+    headers: {
+      'Content-Type': 'application/json',
+      ...(options.headers ?? {})
+    },
+    ...options
+  })
 
   if (!response.ok) {
-    throw new Error(`Request failed: ${response.status}`)
+    const payload = await response.json().catch(() => null)
+    throw new Error(payload?.message ?? `Request failed: ${response.status}`)
   }
 
   return response.json()

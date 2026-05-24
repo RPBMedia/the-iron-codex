@@ -3,4 +3,5 @@ dist/
 .DS_Store
 .env
 .env.local
+server/data/users.json
 npm-debug.log*

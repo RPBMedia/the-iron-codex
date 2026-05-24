@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getArticle } from '../lib/api.js'
 import { entityLinks } from '../lib/entityLinks.js'
@@ -41,6 +42,13 @@ export default function DetailPage() {
     )
   }
 
+  const articleWithIdentity = {
+    ...article,
+    articleId: article.id,
+    articleType: collection === 'characters' ? 'people' : collection,
+    collection: collection === 'characters' ? 'people' : collection
+  }
+
   return (
     <article className="detail-page">
       <section className="detail-hero">
@@ -52,7 +60,7 @@ export default function DetailPage() {
           <p className="eyebrow">{articleTypeLabel(article)}</p>
           <h1>{article.name}</h1>
           {article.type === 'character' && <PersonSubtitle article={article} />}
-          {article.type === 'character' && <FavoriteAction />}
+          <FavoriteAction article={articleWithIdentity} />
           {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
           {article.type === 'event' && <EventHero article={article} />}
@@ -343,11 +351,10 @@ function PersonSubtitle({ article }) {
   )
 }
 
-function FavoriteAction() {
+function FavoriteAction({ article }) {
   return (
     <div className="article-actions" aria-label="Article actions">
-      <button type="button">Save to My Archive</button>
-      <span>Log in to save this article</span>
+      <FavoriteButton article={article} variant="detail" />
     </div>
   )
 }

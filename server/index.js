@@ -1,16 +1,61 @@
 import express from 'express'
 import cors from 'cors'
-import { readFile } from 'node:fs/promises'
+import { existsSync, readFileSync } from 'node:fs'
+import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
+import { promisify } from 'node:util'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const projectRoot = path.join(__dirname, '..')
+
+loadEnvFile(path.join(projectRoot, '.env'))
+loadEnvFile(path.join(__dirname, '.env'))
+
 const app = express()
 const port = process.env.PORT || 4000
 const clientDist = path.join(__dirname, '..', 'client', 'dist')
+const usersFile = process.env.AUTH_USERS_FILE || path.join(__dirname, 'data', 'users.json')
+const scrypt = promisify(scryptCallback)
+const sessionCookieName = 'ironcodex_session'
+const sessionMaxAgeSeconds = 60 * 60 * 24 * 7
+const authBaseUrl = process.env.AUTH_BASE_URL || `http://localhost:${port}`
+const sessionSecret = process.env.AUTH_SESSION_SECRET || randomBytes(32).toString('hex')
 
-app.use(cors())
+if (!process.env.AUTH_SESSION_SECRET && process.env.NODE_ENV === 'production') {
+  throw new Error('AUTH_SESSION_SECRET is required in production')
+}
+
+function loadEnvFile(filePath) {
+  if (!existsSync(filePath)) return
+
+  const lines = readFileSync(filePath, 'utf-8').split(/\r?\n/)
+
+  for (const line of lines) {
+    const trimmed = line.trim()
+
+    if (!trimmed || trimmed.startsWith('#')) continue
+
+    const separatorIndex = trimmed.indexOf('=')
+    if (separatorIndex === -1) continue
+
+    const key = trimmed.slice(0, separatorIndex).trim()
+    let value = trimmed.slice(separatorIndex + 1).trim()
+
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1)
+    }
+
+    process.env[key] = process.env[key] ?? value
+  }
+}
+
+app.use(cors({ credentials: true, origin: process.env.CORS_ORIGIN || true }))
 app.use(express.json())
 
 const data = JSON.parse(
@@ -32,13 +77,600 @@ const flattenArticles = () =>
 const sortChronologically = (items) =>
   [...items].sort((a, b) => (a.year ?? a.born ?? 0) - (b.year ?? b.born ?? 0))
 
+const publicCollectionName = (collection) => collection === 'characters' ? 'people' : collection
+
+const apiCollectionName = (collection) => collection === 'people' ? 'characters' : collection
+
+const publicUser = (user) => ({
+  id: user.id,
+  email: user.email,
+  displayName: user.displayName,
+  avatar: user.avatar,
+  providers: user.providers ?? [],
+  createdAt: user.createdAt
+})
+
+const normalizeEmail = (email) => String(email ?? '').trim().toLowerCase()
+
+const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+
+function validatePassword(password) {
+  if (typeof password !== 'string' || password.length < 10) {
+    return 'Password must be at least 10 characters.'
+  }
+
+  if (!/[a-z]/.test(password) || !/[A-Z]/.test(password) || !/\d/.test(password)) {
+    return 'Password must include uppercase, lowercase, and a number.'
+  }
+
+  return null
+}
+
+async function readUsers() {
+  try {
+    const users = JSON.parse(await readFile(usersFile, 'utf-8'))
+    return Array.isArray(users) ? users : []
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return []
+    }
+
+    throw error
+  }
+}
+
+async function writeUsers(users) {
+  await writeFile(usersFile, JSON.stringify(users, null, 2) + '\n')
+}
+
+async function hashPassword(password) {
+  const salt = randomBytes(16).toString('hex')
+  const hash = await scrypt(password, salt, 64)
+
+  return { salt, hash: Buffer.from(hash).toString('hex') }
+}
+
+async function verifyPassword(password, user) {
+  if (!user.passwordHash || !user.passwordSalt) return false
+
+  const candidate = await scrypt(password, user.passwordSalt, 64)
+  const stored = Buffer.from(user.passwordHash, 'hex')
+
+  if (stored.length !== candidate.length) return false
+
+  return timingSafeEqual(stored, candidate)
+}
+
+function base64Url(input) {
+  return Buffer.from(input).toString('base64url')
+}
+
+function signPayload(payload) {
+  const body = base64Url(JSON.stringify(payload))
+  const signature = createHmac('sha256', sessionSecret).update(body).digest('base64url')
+
+  return `${body}.${signature}`
+}
+
+function verifySessionToken(token) {
+  const [body, signature] = String(token ?? '').split('.')
+
+  if (!body || !signature) return null
+
+  const expected = createHmac('sha256', sessionSecret).update(body).digest('base64url')
+  const signatureBuffer = Buffer.from(signature)
+  const expectedBuffer = Buffer.from(expected)
+
+  if (signatureBuffer.length !== expectedBuffer.length || !timingSafeEqual(signatureBuffer, expectedBuffer)) {
+    return null
+  }
+
+  const payload = JSON.parse(Buffer.from(body, 'base64url').toString('utf-8'))
+
+  if (!payload.sub || Date.now() > payload.exp) return null
+
+  return payload
+}
+
+function parseCookies(req) {
+  return Object.fromEntries(
+    String(req.headers.cookie ?? '')
+      .split(';')
+      .map((cookie) => cookie.trim())
+      .filter(Boolean)
+      .map((cookie) => {
+        const [name, ...value] = cookie.split('=')
+        return [name, decodeURIComponent(value.join('='))]
+      })
+  )
+}
+
+function sessionCookie(token) {
+  const secure = process.env.NODE_ENV === 'production' ? '; Secure' : ''
+
+  return `${sessionCookieName}=${encodeURIComponent(token)}; HttpOnly; SameSite=Lax; Path=/; Max-Age=${sessionMaxAgeSeconds}${secure}`
+}
+
+function clearSessionCookie() {
+  const secure = process.env.NODE_ENV === 'production' ? '; Secure' : ''
+
+  return `${sessionCookieName}=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0${secure}`
+}
+
+function setSession(res, user) {
+  const token = signPayload({
+    sub: user.id,
+    email: user.email,
+    exp: Date.now() + sessionMaxAgeSeconds * 1000
+  })
+
+  res.setHeader('Set-Cookie', sessionCookie(token))
+}
+
+async function currentUser(req) {
+  const token = parseCookies(req)[sessionCookieName]
+  const session = verifySessionToken(token)
+
+  if (!session) return null
+
+  const users = await readUsers()
+  return users.find((user) => user.id === session.sub) ?? null
+}
+
+async function requireUser(req, res, next) {
+  const user = await currentUser(req)
+
+  if (!user) {
+    return res.status(401).json({ message: 'Log in to access this section.' })
+  }
+
+  req.user = user
+  next()
+}
+
+function articlePreviewFromFavorite(favorite) {
+  const collection = collections[apiCollectionName(favorite.articleType ?? favorite.collection)]
+  const article = collection?.find((item) => item.id === (favorite.articleId ?? favorite.id))
+
+  if (!article) return null
+
+  const publicCollection = publicCollectionName(favorite.articleType ?? favorite.collection)
+
+  return {
+    favoriteId: favorite.id,
+    id: article.id,
+    articleId: article.id,
+    title: article.name,
+    type: article.type ?? article.eventType ?? article.locationType ?? publicCollection,
+    articleType: publicCollection,
+    collection: publicCollection,
+    description: article.summary ?? article.details,
+    date: article.year ?? article.born,
+    image: article.image,
+    url: `/${publicCollection}/${article.id}`,
+    createdAt: favorite.createdAt
+  }
+}
+
+function articleIdentity(article) {
+  return {
+    articleId: article.id,
+    articleType: publicCollectionName(article.collection)
+  }
+}
+
+function articleUrl(article) {
+  const identity = articleIdentity(article)
+
+  return `/${identity.articleType}/${identity.articleId}`
+}
+
+function articleCard(article) {
+  const identity = articleIdentity(article)
+
+  return {
+    ...article,
+    collection: identity.articleType,
+    articleId: identity.articleId,
+    articleType: identity.articleType,
+    articleUrl: articleUrl(article)
+  }
+}
+
+function findArticle(articleType, articleId) {
+  const collectionName = apiCollectionName(articleType)
+  const article = collections[collectionName]?.find((item) => item.id === articleId)
+
+  return article ? articleCard({ ...article, collection: collectionName }) : null
+}
+
+function favoriteKey(favorite) {
+  return `${favorite.articleType}:${favorite.articleId}`
+}
+
+function articleKey(article) {
+  const identity = articleIdentity(article)
+
+  return `${identity.articleType}:${identity.articleId}`
+}
+
+function seededShuffle(items, seed) {
+  let state = [...seed].reduce((value, char) => value + char.charCodeAt(0), 0) || 1
+
+  return [...items].sort(() => {
+    state = (state * 1664525 + 1013904223) % 4294967296
+    return state / 4294967296 - 0.5
+  })
+}
+
+function todaysSeed(suffix = '') {
+  return `${new Date().toISOString().slice(0, 10)}:${suffix}`
+}
+
+function takeUnique(items, count, used = new Set()) {
+  const picked = []
+
+  for (const item of items) {
+    const key = articleKey(item)
+    if (used.has(key)) continue
+    picked.push(articleCard(item))
+    used.add(key)
+    if (picked.length === count) break
+  }
+
+  return picked
+}
+
+function discoverySections() {
+  const all = flattenArticles()
+  const used = new Set()
+  const archive = takeUnique(seededShuffle(all, todaysSeed('all')), 3, used)
+  const people = takeUnique(seededShuffle(data.characters.map((item) => ({ ...item, collection: 'characters' })), todaysSeed('people')), 3, used)
+  const placesAndRelics = takeUnique(
+    seededShuffle(
+      [
+        ...data.locations.map((item) => ({ ...item, collection: 'locations' })),
+        ...data.artifacts.map((item) => ({ ...item, collection: 'artifacts' }))
+      ],
+      todaysSeed('places-relics')
+    ),
+    3,
+    used
+  )
+
+  return [
+    { id: 'archive', eyebrow: 'Discovery', title: 'From the Archive', articles: archive },
+    { id: 'people', eyebrow: 'Figures', title: 'People of the Age', articles: people },
+    { id: 'places-relics', eyebrow: 'Places and relics', title: 'Places and Relics', articles: placesAndRelics }
+  ].filter((section) => section.articles.length)
+}
+
+function searchableTerms(article) {
+  return [
+    article.name,
+    article.type,
+    article.title,
+    article.eventType,
+    article.locationType,
+    article.location,
+    article.kingdom,
+    article.conflict,
+    article.summary,
+    article.details,
+    article.quickFacts?.realm,
+    article.quickFacts?.culture,
+    article.quickFacts?.knownFor,
+    ...(article.aliases ?? []),
+    ...(article.roles ?? []),
+    ...(article.factions ?? []),
+    ...(article.knownFor ?? []),
+    ...(article.leaders ?? []).flatMap((leader) => [leader.name, leader.faction]),
+    ...(article.relatedEntries ? Object.values(article.relatedEntries).flatMap((items) => items.map((item) => item.title)) : [])
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+}
+
+function recommendSectionsFor(user) {
+  const favoritePreviews = (user.favorites ?? []).map(articlePreviewFromFavorite).filter(Boolean)
+  if (!favoritePreviews.length) return []
+
+  const favoriteKeys = new Set(favoritePreviews.map((favorite) => `${favorite.articleType}:${favorite.articleId}`))
+  const favoriteArticles = favoritePreviews
+    .map((favorite) => findArticle(favorite.articleType, favorite.articleId))
+    .filter(Boolean)
+  const favoriteTerms = new Set(
+    favoriteArticles
+      .flatMap((article) => searchableTerms(article).split(/\W+/))
+      .filter((term) => term.length > 3)
+  )
+  const linkedTitles = new Set(
+    favoriteArticles.flatMap((article) =>
+      article.relatedEntries ? Object.values(article.relatedEntries).flatMap((items) => items.map((item) => item.title.toLowerCase())) : []
+    )
+  )
+
+  const scored = flattenArticles()
+    .map(articleCard)
+    .filter((article) => !favoriteKeys.has(`${article.articleType}:${article.articleId}`))
+    .map((article) => {
+      const terms = searchableTerms(article)
+      let score = 0
+
+      if (linkedTitles.has(article.name.toLowerCase())) score += 20
+      for (const term of favoriteTerms) {
+        if (terms.includes(term)) score += 1
+      }
+      if (favoriteArticles.some((favorite) => favorite.articleType !== article.articleType)) score += 2
+
+      return { article, score }
+    })
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((item) => item.article)
+
+  if (!scored.length) return []
+
+  const used = new Set()
+  return [
+    { id: 'recommended', eyebrow: 'From your archive trail', title: 'Recommended for you', articles: takeUnique(scored, 3, used) },
+    {
+      id: 'recommended-people',
+      eyebrow: 'Related figures',
+      title: 'Related People',
+      articles: takeUnique(scored.filter((article) => article.articleType === 'people'), 3, used)
+    },
+    {
+      id: 'recommended-context',
+      eyebrow: 'Connected entries',
+      title: 'Events, Places, and Relics',
+      articles: takeUnique(scored.filter((article) => article.articleType !== 'people'), 3, used)
+    }
+  ].filter((section) => section.articles.length)
+}
+
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', scope: 'Medieval Europe, 476-1453' })
 })
 
-app.get('/api/home', (_req, res) => {
-  const shuffled = flattenArticles().sort(() => Math.random() - 0.5)
-  res.json(shuffled.slice(0, 3))
+app.get('/api/auth/me', async (req, res) => {
+  const user = await currentUser(req)
+  res.json({ authenticated: Boolean(user), user: user ? publicUser(user) : null })
+})
+
+app.get('/api/favorites/ids', requireUser, (req, res) => {
+  res.json({
+    favorites: (req.user.favorites ?? []).map((favorite) => ({
+      articleId: favorite.articleId,
+      articleType: favorite.articleType,
+      key: favoriteKey(favorite)
+    }))
+  })
+})
+
+app.post('/api/favorites', requireUser, async (req, res) => {
+  const articleType = publicCollectionName(req.body.articleType)
+  const articleId = String(req.body.articleId ?? '')
+  const article = findArticle(articleType, articleId)
+
+  if (!article) {
+    return res.status(404).json({ message: 'Article not found.' })
+  }
+
+  const users = await readUsers()
+  const user = users.find((candidate) => candidate.id === req.user.id)
+  user.favorites = user.favorites ?? []
+
+  const existing = user.favorites.find((favorite) => favorite.articleType === articleType && favorite.articleId === articleId)
+  if (existing) {
+    return res.status(200).json({ favorite: articlePreviewFromFavorite(existing), alreadyExists: true })
+  }
+
+  const favorite = {
+    id: randomBytes(12).toString('hex'),
+    userId: user.id,
+    articleId,
+    articleType,
+    articleTitle: article.name,
+    articleUrl: article.articleUrl,
+    createdAt: new Date().toISOString()
+  }
+
+  user.favorites.push(favorite)
+  await writeUsers(users)
+  res.status(201).json({ favorite: articlePreviewFromFavorite(favorite) })
+})
+
+app.delete('/api/favorites/:articleType/:articleId', requireUser, async (req, res) => {
+  const articleType = publicCollectionName(req.params.articleType)
+  const articleId = req.params.articleId
+  const users = await readUsers()
+  const user = users.find((candidate) => candidate.id === req.user.id)
+  const before = user.favorites?.length ?? 0
+
+  user.favorites = (user.favorites ?? []).filter(
+    (favorite) => !(favorite.articleType === articleType && favorite.articleId === articleId)
+  )
+
+  if (user.favorites.length === before) {
+    return res.status(404).json({ message: 'Favorite not found.' })
+  }
+
+  await writeUsers(users)
+  res.json({ removed: true, articleType, articleId })
+})
+
+app.post('/api/auth/signup', async (req, res) => {
+  const email = normalizeEmail(req.body.email)
+  const password = req.body.password
+
+  if (!isValidEmail(email)) {
+    return res.status(400).json({ message: 'Enter a valid email address.' })
+  }
+
+  const passwordError = validatePassword(password)
+  if (passwordError) {
+    return res.status(400).json({ message: passwordError })
+  }
+
+  const users = await readUsers()
+  if (users.some((user) => user.email === email)) {
+    return res.status(409).json({ message: 'An account already exists for this email.' })
+  }
+
+  const passwordRecord = await hashPassword(password)
+  const user = {
+    id: randomBytes(16).toString('hex'),
+    email,
+    passwordHash: passwordRecord.hash,
+    passwordSalt: passwordRecord.salt,
+    providers: ['password'],
+    favorites: [],
+    createdAt: new Date().toISOString()
+  }
+
+  users.push(user)
+  await writeUsers(users)
+  setSession(res, user)
+  res.status(201).json({ authenticated: true, user: publicUser(user) })
+})
+
+app.post('/api/auth/login', async (req, res) => {
+  const email = normalizeEmail(req.body.email)
+  const password = req.body.password
+
+  if (!isValidEmail(email) || typeof password !== 'string') {
+    return res.status(400).json({ message: 'Enter your email and password.' })
+  }
+
+  const users = await readUsers()
+  const user = users.find((candidate) => candidate.email === email)
+
+  if (!user || !(await verifyPassword(password, user))) {
+    return res.status(401).json({ message: 'Incorrect email or password.' })
+  }
+
+  setSession(res, user)
+  res.json({ authenticated: true, user: publicUser(user) })
+})
+
+app.post('/api/auth/logout', (_req, res) => {
+  res.setHeader('Set-Cookie', clearSessionCookie())
+  res.json({ authenticated: false, user: null })
+})
+
+app.get('/api/auth/google', (req, res) => {
+  if (!process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) {
+    return res.redirect('/auth/callback?error=google_not_configured')
+  }
+
+  const redirectUri = new URL('/api/auth/google/callback', authBaseUrl).toString()
+  const state = signPayload({
+    sub: 'google-oauth-state',
+    returnTo: typeof req.query.returnTo === 'string' ? req.query.returnTo : '/favorites',
+    exp: Date.now() + 10 * 60 * 1000
+  })
+  const params = new URLSearchParams({
+    client_id: process.env.GOOGLE_CLIENT_ID,
+    redirect_uri: redirectUri,
+    response_type: 'code',
+    scope: 'openid email profile',
+    state,
+    prompt: 'select_account'
+  })
+
+  res.redirect(`https://accounts.google.com/o/oauth2/v2/auth?${params.toString()}`)
+})
+
+app.get('/api/auth/google/callback', async (req, res) => {
+  const state = verifySessionToken(req.query.state)
+  const code = req.query.code
+
+  if (!state || typeof code !== 'string') {
+    return res.redirect('/auth/callback?error=google_failed')
+  }
+
+  try {
+    const redirectUri = new URL('/api/auth/google/callback', authBaseUrl).toString()
+    const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        code,
+        client_id: process.env.GOOGLE_CLIENT_ID,
+        client_secret: process.env.GOOGLE_CLIENT_SECRET,
+        redirect_uri: redirectUri,
+        grant_type: 'authorization_code'
+      })
+    })
+
+    if (!tokenResponse.ok) {
+      throw new Error('Google token exchange failed')
+    }
+
+    const tokens = await tokenResponse.json()
+    const profileResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+      headers: { Authorization: `Bearer ${tokens.access_token}` }
+    })
+
+    if (!profileResponse.ok) {
+      throw new Error('Google profile lookup failed')
+    }
+
+    const profile = await profileResponse.json()
+    const email = normalizeEmail(profile.email)
+
+    if (!isValidEmail(email) || profile.email_verified === false) {
+      return res.redirect('/auth/callback?error=google_email_unverified')
+    }
+
+    const users = await readUsers()
+    let user = users.find((candidate) => candidate.email === email)
+
+    if (!user) {
+      user = {
+        id: randomBytes(16).toString('hex'),
+        email,
+        displayName: profile.name,
+        avatar: profile.picture,
+        providers: ['google'],
+        googleSub: profile.sub,
+        favorites: [],
+        createdAt: new Date().toISOString()
+      }
+      users.push(user)
+    } else {
+      user.googleSub = user.googleSub ?? profile.sub
+      user.displayName = user.displayName ?? profile.name
+      user.avatar = user.avatar ?? profile.picture
+      user.providers = Array.from(new Set([...(user.providers ?? []), 'google']))
+    }
+
+    await writeUsers(users)
+    setSession(res, user)
+    res.redirect(`/auth/callback?returnTo=${encodeURIComponent(state.returnTo ?? '/favorites')}`)
+  } catch {
+    res.redirect('/auth/callback?error=google_failed')
+  }
+})
+
+app.get('/api/favorites', requireUser, (req, res) => {
+  const favorites = (req.user.favorites ?? []).map(articlePreviewFromFavorite).filter(Boolean)
+  res.json({ favorites })
+})
+
+app.get('/api/home', async (req, res) => {
+  const user = await currentUser(req)
+  const discovery = discoverySections()
+  const recommendations = user ? recommendSectionsFor(user) : []
+
+  res.json({
+    articles: discovery[0]?.articles ?? [],
+    sections: recommendations.length ? recommendations : discovery,
+    recommendationMode: Boolean(recommendations.length),
+    hasFavorites: Boolean(user?.favorites?.length)
+  })
 })
 
 app.get('/api/:collection', (req, res) => {
