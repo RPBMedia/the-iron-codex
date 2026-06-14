@@ -228,6 +228,53 @@ async function requireUser(req, res, next) {
   next()
 }
 
+const eventSortDates = {
+  'fall-of-western-rome': { year: 476, month: 9, day: 4 },
+  'battle-of-tours': { year: 732, month: 10, day: 10 },
+  'charlemagne-crowned': { year: 800, month: 12, day: 25 },
+  'treaty-of-verdun': { year: 843, month: 8, day: 1 },
+  'battle-of-stamford-bridge': { year: 1066, month: 9, day: 25 },
+  'norman-conquest': { year: 1066, month: 9, day: 28 },
+  'battle-of-hastings': { year: 1066, month: 10, day: 14 },
+  'battle-of-manzikert': { year: 1071, month: 8, day: 26 },
+  'first-crusade-called': { year: 1095, month: 11, day: 27 },
+  'battle-of-legnano': { year: 1176, month: 5, day: 29 },
+  'third-crusade': { year: 1189 },
+  'battle-of-las-navas-de-tolosa': { year: 1212, month: 7, day: 16 },
+  'battle-of-bouvines': { year: 1214, month: 7, day: 27 },
+  'magna-carta': { year: 1215, month: 6, day: 15 },
+  'battle-of-bannockburn': { year: 1314, month: 6, day: 23 },
+  'hundred-years-war': { year: 1337 },
+  'battle-of-crecy': { year: 1346, month: 8, day: 26 },
+  'black-death-europe': { year: 1347 },
+  'battle-of-poitiers': { year: 1356, month: 9, day: 19 },
+  'battle-of-kosovo': { year: 1389, month: 6, day: 15 },
+  'battle-of-grunwald': { year: 1410, month: 7, day: 15 },
+  'battle-of-agincourt': { year: 1415, month: 10, day: 25 },
+  'fall-of-constantinople': { year: 1453, month: 5, day: 29 }
+}
+
+function numericYear(value) {
+  const match = String(value ?? '').match(/\d{3,4}/)
+  return match ? Number(match[0]) : null
+}
+
+function chronologicalSortKey(article, publicCollection) {
+  if (publicCollection === 'people') {
+    return article.born ?? numericYear(article.birth?.date)
+  }
+
+  if (publicCollection === 'events') {
+    const dateParts = eventSortDates[article.id] ?? { year: article.year }
+
+    return dateParts.year
+      ? dateParts.year * 10000 + (dateParts.month ?? 0) * 100 + (dateParts.day ?? 0)
+      : null
+  }
+
+  return article.year ?? article.born ?? numericYear(article.date ?? article.founded ?? article.established)
+}
+
 function articlePreviewFromFavorite(favorite) {
   const collection = collections[apiCollectionName(favorite.articleType ?? favorite.collection)]
   const article = collection?.find((item) => item.id === (favorite.articleId ?? favorite.id))
@@ -235,6 +282,7 @@ function articlePreviewFromFavorite(favorite) {
   if (!article) return null
 
   const publicCollection = publicCollectionName(favorite.articleType ?? favorite.collection)
+  const dateSortKey = chronologicalSortKey(article, publicCollection)
 
   return {
     favoriteId: favorite.id,
@@ -246,6 +294,7 @@ function articlePreviewFromFavorite(favorite) {
     collection: publicCollection,
     description: article.summary ?? article.details,
     date: article.year ?? article.born,
+    dateSortKey,
     image: article.image,
     url: `/${publicCollection}/${article.id}`,
     createdAt: favorite.createdAt

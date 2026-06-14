@@ -165,8 +165,8 @@ function StandardContent({ article }) {
 }
 
 function EventHero({ article }) {
-  const isBattle = article.eventType === 'Battle'
-  const isWar = article.eventType === 'War'
+  const participants = normalizedParticipants(article)
+  const hasEventIntel = participants.length > 0 || article.outcome
 
   return (
     <div className="event-profile">
@@ -191,36 +191,89 @@ function EventHero({ article }) {
         )}
       </dl>
 
-      {(isBattle || isWar) && (
+      {hasEventIntel && (
         <div className="event-intel">
           <InfoBlock title="Factions">
-            <ul className="inline-list">
-              {(article.factions ?? []).map((faction) => (
-                <li key={faction}>{faction}</li>
+            <div className="event-side-grid">
+              {participants.map((participant) => (
+                <section className="event-side-card" key={participant.side}>
+                  <h3>{participant.side}</h3>
+                  <div className="entity-chip-list">
+                    {participant.factions.map((faction) => (
+                      <EntryLink entry={faction} key={`${faction.type}-${faction.slug}-${faction.name}`}>
+                        {faction.name ?? faction.title}
+                      </EntryLink>
+                    ))}
+                  </div>
+                </section>
               ))}
-            </ul>
+            </div>
           </InfoBlock>
           <InfoBlock title="Leaders">
-            <ul className="leader-list">
-              {(article.leaders ?? []).map((leader) => (
-                <li key={`${leader.faction}-${leader.name}`}>
-                  <span>{leader.faction}</span>
-                  {leader.personId ? (
-                    <Link to={`/people/${leader.personId}`}>{leader.name}</Link>
+            <div className="event-side-grid">
+              {participants.map((participant) => (
+                <section className="event-leader-group" key={`${participant.side}-leaders`}>
+                  <h3>{participant.side}</h3>
+                  {participant.leaders?.length ? (
+                    <ul className="leader-list">
+                      {participant.leaders.map((leader) => (
+                        <li key={`${participant.side}-${leader.slug ?? leader.name}`}>
+                          <EntryLink entry={leader}>{leader.name ?? leader.title}</EntryLink>
+                        </li>
+                      ))}
+                    </ul>
                   ) : (
-                    <strong>{leader.name}</strong>
+                    <p className="event-uncertain-note">No single named commander is securely represented.</p>
                   )}
-                </li>
+                </section>
               ))}
-            </ul>
+            </div>
           </InfoBlock>
-          <InfoBlock title="Outcome">
-            <p>{article.outcome}</p>
-          </InfoBlock>
+          {article.outcome && (
+            <InfoBlock title="Outcome">
+              <p>{renderLinkedText(article.outcome, article)}</p>
+              {article.outcomeDetail && <p>{renderLinkedText(article.outcomeDetail, article)}</p>}
+            </InfoBlock>
+          )}
         </div>
       )}
     </div>
   )
+}
+
+function normalizedParticipants(article) {
+  if (article.participants?.length) {
+    return article.participants.map((participant) => ({
+      side: participant.side ?? participant.name,
+      factions: (participant.factions ?? []).map(normalizedEntry),
+      leaders: (participant.leaders ?? []).map(normalizedEntry)
+    }))
+  }
+
+  const factions = article.factions ?? []
+  const leaders = article.leaders ?? []
+
+  return factions.map((faction) => ({
+    side: typeof faction === 'string' ? faction : faction.name,
+    factions: [normalizedEntry(faction)],
+    leaders: leaders
+      .filter((leader) => leader.faction === (typeof faction === 'string' ? faction : faction.name))
+      .map(normalizedEntry)
+  }))
+}
+
+function normalizedEntry(entry) {
+  if (typeof entry === 'string') {
+    return { name: entry, title: entry, type: 'location' }
+  }
+
+  return {
+    ...entry,
+    name: entry.name ?? entry.title,
+    title: entry.title ?? entry.name,
+    type: entry.type ?? (entry.personId ? 'person' : 'location'),
+    slug: entry.slug ?? entry.personId ?? entry.locationId
+  }
 }
 
 function EventContent({ article }) {
@@ -485,17 +538,43 @@ function SourcesList({ sources }) {
       <h2>Sources / further reading</h2>
       <ul>
         {sources.map((source) => (
-          <li key={`${source.title}-${source.author ?? ''}`}>
-            {source.url ? (
-              <a href={source.url} target="_blank" rel="noreferrer">{source.title}</a>
-            ) : (
-              <strong>{source.title}</strong>
-            )}
-            <span>{[source.author, source.type].filter(Boolean).join(' · ')}</span>
+          <li key={`${source.title}-${source.author ?? source.authorOrInstitution ?? ''}-${source.url ?? ''}`}>
+            <SourceTitle source={source} />
+            <SourceMeta source={source} />
           </li>
         ))}
       </ul>
     </section>
+  )
+}
+
+function SourceTitle({ source }) {
+  if (!source.url) {
+    return <strong>{source.title}</strong>
+  }
+
+  if (source.url.startsWith('/')) {
+    return <Link className="source-link" to={source.url}>{source.title}</Link>
+  }
+
+  return (
+    <a className="source-link" href={source.url} target="_blank" rel="noopener noreferrer">
+      {source.title}
+    </a>
+  )
+}
+
+function SourceMeta({ source }) {
+  const institution = source.authorOrInstitution ?? source.author
+  const details = [institution, source.type, source.accessed && `accessed ${source.accessed}`].filter(Boolean)
+
+  if (!details.length && !source.note) return null
+
+  return (
+    <>
+      {details.length > 0 && <span>{details.join(' · ')}</span>}
+      {source.note && <em>{source.note}</em>}
+    </>
   )
 }
 
