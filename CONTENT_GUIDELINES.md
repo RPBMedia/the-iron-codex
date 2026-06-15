@@ -11,8 +11,10 @@ IronCodex articles should read like serious historical archive entries, not reus
 - Use phrases such as "probably", "possibly", "traditionally", "according to later tradition", "medieval sources claim", "modern historians treat this cautiously", or "the chronology is uncertain" when the evidence requires it.
 - No placeholder images. Every article image must be real, relevant, and attributed.
 - Image captions must explain whether an image is contemporary, later, symbolic, reconstructed, romanticized, or a modern photograph.
+- Person articles must use the strongest historically appropriate main image reasonably available, especially for major figures.
 - Sources and further reading should be concrete and linkable wherever possible.
 - Person timelines must contain at least five events.
+- Every person timeline entry must have a unique, specific description.
 - Key achievements must include descriptions, not only titles.
 - Internal links should connect major people, events, polities, locations, artifacts, documents, and institutions.
 - New linked entities should become real articles with useful content, not placeholder pages.
@@ -76,6 +78,40 @@ Bad:
 Good:
 
 > Harald Hardrada was killed at the Battle of Stamford Bridge in 1066. Later tradition says he was struck in the throat by an arrow, though the precise wound is less secure than the battle itself.
+
+## Timeline Quality
+
+Every person timeline must contain at least five real events, ordered chronologically. Each event needs a unique description that explains what happened and why it mattered. Do not reuse the same sentence across multiple entries, and do not generate fallback prose for missing timeline content.
+
+Timeline descriptions should use named people, places, conflicts, institutions, causes, and consequences when the evidence allows. Avoid self-linking the subject's own name repeatedly in their own timeline. For poorly documented figures, use real contextual events carefully and mark uncertainty with words such as "probably", "traditionally", "possibly", or "the chronology is uncertain".
+
+Forbidden timeline filler includes phrases such as "appears in a major phase of the reign", "plays an important role", "becomes significant", "this event marks an important moment", and "marks a documented or traditionally reported stage". If a timeline entry lacks enough information, research or rewrite it; do not pad it with template language.
+
+Bad:
+
+> Harald Hardrada appears in a major phase of the reign.
+
+Good:
+
+> Harald fought at Stiklestad in 1030, survived the defeat, and entered exile. The battle shaped his early career and eventually led him toward service in Kievan Rus' and Byzantium.
+
+## Person Image Quality
+
+Every person article needs a strong, historically grounded main image. Choose the image that best balances historical relevance, visual clarity, recognizability, reuse rights, and archival seriousness. For major figures, do not settle for the first coin, seal, or weak associated object if a stronger manuscript depiction, later public-domain portrait, monument, tomb effigy, or historically connected artwork is available.
+
+Coins, seals, and artifacts are valuable evidence, but use them thoughtfully. They can be excellent for source-poor rulers, early medieval kings, or figures without portrait traditions. For flagship figures, they often work better as supplementary section images than as the hero image.
+
+Supplementary images may be added inside person article sections when they support the text: a battle image near a death section, a cathedral or palace in a reign section, a tomb or monument in a legacy section, or a coin where royal authority and administration are discussed. Do not force extra images into every article. Extra images should improve understanding, not decorate the page.
+
+All person images must be real, relevant, and attributed. AI-generated historical portraits, generic medieval-looking art, broken thumbnails, placeholders, and unrelated fantasy imagery are forbidden. Captions must be honest about context: later paintings are not life portraits, modern statues are commemorative, manuscript images may be centuries later, and coins usually represent authority rather than likeness.
+
+Bad:
+
+> Harald Hardrada uses only a coin as the main image, even though a stronger public-domain depiction of Stamford Bridge is available.
+
+Good:
+
+> Harald Hardrada uses a later public-domain Stamford Bridge painting as the hero image, clearly captioned as non-contemporary, while the coin moves into the ruling section as supporting numismatic evidence.
 
 ## Ambiguous Alias Linking
 

@@ -1192,6 +1192,20 @@ figure.detail-media {
   color: var(--paper);
 }
 
+.detail-media figcaption a {
+  color: var(--gold-soft);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(246, 198, 75, 0.45);
+  text-underline-offset: 0.16em;
+}
+
+.detail-media figcaption a:hover,
+.detail-media figcaption a:focus-visible {
+  color: var(--paper);
+  text-decoration-color: currentColor;
+}
+
 .detail-media figcaption em {
   color: var(--gold-soft);
   font-style: normal;
@@ -1483,6 +1497,64 @@ figure.detail-media {
 
 .bio-section p {
   margin: 0 0 14px;
+}
+
+.section-figure {
+  float: right;
+  width: min(340px, 42%);
+  margin: 4px 0 18px 24px;
+  overflow: hidden;
+  border: 1px solid rgba(143, 107, 29, 0.22);
+  border-radius: 6px;
+  background: rgba(20, 20, 22, 0.96);
+  box-shadow: 0 18px 45px rgba(8, 8, 10, 0.18);
+}
+
+.section-figure img {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(0.96) contrast(1.04);
+}
+
+.section-figure figcaption {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  color: var(--silver);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.section-figure figcaption strong {
+  color: var(--paper);
+}
+
+.section-figure figcaption a {
+  color: var(--gold-soft);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(246, 198, 75, 0.45);
+  text-underline-offset: 0.16em;
+}
+
+.section-figure figcaption a:hover,
+.section-figure figcaption a:focus-visible {
+  color: var(--paper);
+  text-decoration-color: currentColor;
+}
+
+.section-figure figcaption em {
+  color: var(--gold-soft);
+  font-style: normal;
+}
+
+.bio-section::after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 .article-link {
@@ -2078,6 +2150,16 @@ figure.detail-media {
   .detail-media img {
     min-height: 280px;
     height: clamp(280px, 54vh, 460px);
+  }
+
+  .section-figure {
+    float: none;
+    width: 100%;
+    margin: 14px 0 18px;
+  }
+
+  .section-figure img {
+    max-height: 360px;
   }
 }
 

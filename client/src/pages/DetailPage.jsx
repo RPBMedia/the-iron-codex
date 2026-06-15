@@ -102,7 +102,13 @@ function ImageWithCaption({ article }) {
           <strong>{article.imageInfo.caption}</strong>
           {article.imageInfo.creator && <span>Creator: {article.imageInfo.creator}</span>}
           {article.imageInfo.date && <span>Date: {article.imageInfo.date}</span>}
-          {article.imageInfo.source && <span>Source: {article.imageInfo.source}</span>}
+          {article.imageInfo.source && (
+            article.imageInfo.sourceUrl ? (
+              <a href={article.imageInfo.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {article.imageInfo.source}</a>
+            ) : (
+              <span>Source: {article.imageInfo.source}</span>
+            )
+          )}
           {article.imageInfo.note && <em>{article.imageInfo.note}</em>}
         </figcaption>
       )}
@@ -446,13 +452,72 @@ function InfoBlock({ title, children }) {
 }
 
 function ArticleSection({ title, paragraphs, className = '', article }) {
+  const sectionImages = sectionImagesFor(article, title)
+
   return (
     <section className={`bio-section ${className}`}>
       <h2>{title}</h2>
-      {(paragraphs ?? []).filter(Boolean).map((paragraph) => (
-        <p key={paragraph}>{renderLinkedText(paragraph, article)}</p>
+      {(paragraphs ?? []).filter(Boolean).map((paragraph, index) => (
+        <FragmentWithImages
+          imageInsertIndex={index}
+          images={sectionImages}
+          key={paragraph}
+          paragraph={paragraph}
+          article={article}
+        />
+      ))}
+      {!(paragraphs ?? []).filter(Boolean).length && sectionImages.map((image) => (
+        <SectionImage image={image} key={`${image.src}-${image.caption}`} />
       ))}
     </section>
+  )
+}
+
+function FragmentWithImages({ article, imageInsertIndex, images, paragraph }) {
+  const shouldInsertImages = imageInsertIndex === 0 && images.length > 0
+
+  return (
+    <>
+      <p>{renderLinkedText(paragraph, article)}</p>
+      {shouldInsertImages && images.map((image) => (
+        <SectionImage image={image} key={`${image.src}-${image.caption}`} />
+      ))}
+    </>
+  )
+}
+
+function sectionImagesFor(article, title) {
+  if (!article?.sectionImages?.length || !title) return []
+
+  return article.sectionImages.filter((image) => normalizedSectionTitle(image.section) === normalizedSectionTitle(title))
+}
+
+function normalizedSectionTitle(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+}
+
+function SectionImage({ image }) {
+  return (
+    <figure className="section-figure">
+      <img src={image.src} alt={image.alt ?? image.caption} loading="lazy" />
+      <figcaption>
+        <strong>{image.caption}</strong>
+        {image.creator && <span>Creator: {image.creator}</span>}
+        {image.date && <span>Date: {image.date}</span>}
+        {image.source && (
+          image.sourceUrl ? (
+            <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {image.source}</a>
+          ) : (
+            <span>Source: {image.source}</span>
+          )
+        )}
+        {image.note && <em>{image.note}</em>}
+      </figcaption>
+    </figure>
   )
 }
 

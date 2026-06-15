@@ -4161,7 +4161,8 @@
               "type": "location",
               "slug": "aachen"
             }
-          ]
+          ],
+          "description": "Charlemagne died at Aachen in 814, leaving the imperial title and a vast Carolingian realm to his son Louis the Pious."
         }
       ],
       "relatedEntries": {
@@ -4226,6 +4227,19 @@
       "aliases": [
         "Charles the Great",
         "Carolus Magnus"
+      ],
+      "sectionImages": [
+        {
+          "section": "As emperor in the West",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Aachen_Germany_Imperial-Cathedral-01.jpg",
+          "alt": "Aachen Cathedral and Palatine Chapel",
+          "caption": "Aachen Cathedral and the Palatine Chapel, the architectural heart of Charlemagne's imperial court.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph of medieval fabric",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aachen_Germany_Imperial-Cathedral-01.jpg",
+          "note": "Modern photograph of a surviving Carolingian and medieval site, used to support the imperial court context."
+        }
       ]
     },
     {
@@ -4501,7 +4515,8 @@
               "type": "location",
               "slug": "falaise"
             }
-          ]
+          ],
+          "description": "William was born at Falaise as the illegitimate son of Duke Robert I of Normandy, a background that shaped his contested early rule."
         },
         {
           "date": "1035",
@@ -4544,7 +4559,20 @@
       "aliases": [
         "William I"
       ],
-      "historicalReliability": "William the Conqueror is well documented by Norman, English, and ecclesiastical sources, but narrative accounts of motives, battlefield detail, and character often reflect political viewpoints after 1066."
+      "historicalReliability": "William the Conqueror is well documented by Norman, English, and ecclesiastical sources, but narrative accounts of motives, battlefield detail, and character often reflect political viewpoints after 1066.",
+      "sectionImages": [
+        {
+          "section": "As duke of Normandy and king of England",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+          "alt": "Bayeux Tapestry scene showing the death of Harold",
+          "caption": "Scene from the Bayeux Tapestry showing the death of Harold Godwinson during the Norman Conquest narrative.",
+          "creator": "Unknown embroiderers, probably late 11th century",
+          "date": "Late 11th century",
+          "source": "Bayeux Museum / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg",
+          "note": "Near-contemporary Norman visual narrative; politically charged rather than neutral reportage."
+        }
+      ]
     },
     {
       "id": "hildegard-of-bingen",
@@ -4664,7 +4692,8 @@
               "type": "location",
               "slug": "bermersheim-vor-der-hoehe"
             }
-          ]
+          ],
+          "description": "Hildegard was born in the Rhineland in 1098 and was offered to religious life as a child, entering the monastic world that shaped her writing and authority."
         },
         {
           "date": "1112",
@@ -4817,7 +4846,8 @@
               "type": "location",
               "slug": "tikrit"
             }
-          ]
+          ],
+          "description": "Saladin was born in Tikrit into a Kurdish military family serving in the politics of the Zengid and Abbasid world."
         },
         {
           "date": "1169",
@@ -4856,7 +4886,20 @@
         }
       ],
       "aliases": [],
-      "historicalReliability": "Saladin is well attested in Arabic, Latin, and later historical traditions, though both crusader and Islamic sources could shape his image to serve moral, religious, or political arguments."
+      "historicalReliability": "Saladin is well attested in Arabic, Latin, and later historical traditions, though both crusader and Islamic sources could shape his image to serve moral, religious, or political arguments.",
+      "sectionImages": [
+        {
+          "section": "As sultan of Egypt and Syria",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem-2013-Temple_Mount-Dome_of_the_Rock-Detail_01.jpg",
+          "alt": "Dome of the Rock in Jerusalem",
+          "caption": "The Dome of the Rock in Jerusalem, a central monument in the city Saladin recovered in 1187.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Temple_Mount-Dome_of_the_Rock-Detail_01.jpg",
+          "note": "Modern photograph of a major Islamic monument in Jerusalem, used to support the political and religious context of Saladin's rule."
+        }
+      ]
     },
     {
       "id": "richard-the-lionheart",
@@ -5133,7 +5176,8 @@
               "type": "location",
               "slug": "domremy"
             }
-          ]
+          ],
+          "description": "Joan was born at Domremy in a frontier village touched by the violence and loyalties of the Hundred Years’ War."
         },
         {
           "date": "1425",
@@ -5167,7 +5211,20 @@
         }
       ],
       "aliases": [],
-      "historicalReliability": "Joan of Arc is exceptionally well documented for a medieval figure because of trial and rehabilitation records, though later national, religious, and political memory has repeatedly reinterpreted her life."
+      "historicalReliability": "Joan of Arc is exceptionally well documented for a medieval figure because of trial and rehabilitation records, though later national, religious, and political memory has repeatedly reinterpreted her life.",
+      "sectionImages": [
+        {
+          "section": "Death",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rouen_Cathedral_as_seen_from_Gros_Horloge_140215_4.jpg",
+          "alt": "Rouen Cathedral",
+          "caption": "Rouen, the Norman city where Joan of Arc was tried and executed in 1431.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rouen_Cathedral_as_seen_from_Gros_Horloge_140215_4.jpg",
+          "note": "Modern photograph of the cityscape rather than an image of the execution itself; used to ground the death section geographically."
+        }
+      ]
     },
     {
       "id": "isabella-of-castile",
@@ -5286,7 +5343,8 @@
               "type": "location",
               "slug": "madrigal-de-las-altas-torres"
             }
-          ]
+          ],
+          "description": "Isabella was born at Madrigal de las Altas Torres into the Trastámara dynasty, far from the throne but close enough to become central to Castilian succession politics."
         },
         {
           "date": "1469",
@@ -5443,7 +5501,8 @@
               "type": "location",
               "slug": "edirne"
             }
-          ]
+          ],
+          "description": "Mehmed was born at Edirne, an Ottoman capital in Europe, into the dynasty that was pressing against Byzantine Constantinople and the Balkans."
         },
         {
           "date": "1444",
@@ -5492,7 +5551,20 @@
         "Mehmed the Conqueror",
         "Fatih Sultan Mehmed"
       ],
-      "historicalReliability": "Mehmed II is well documented in Ottoman, Byzantine, Venetian, and other contemporary or near-contemporary sources, though later imperial and European memory often cast him in symbolic roles."
+      "historicalReliability": "Mehmed II is well documented in Ottoman, Byzantine, Venetian, and other contemporary or near-contemporary sources, though later imperial and European memory often cast him in symbolic roles.",
+      "sectionImages": [
+        {
+          "section": "As sultan of the Ottoman Empire",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Benjamin-Constant-The_Entry_of_Mahomet_II_into_Constantinople-1876.jpg",
+          "alt": "The Entry of Mehmed II into Constantinople",
+          "caption": "Benjamin-Constant, The Entry of Mehmed II into Constantinople.",
+          "creator": "Jean-Joseph Benjamin-Constant",
+          "date": "1876",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benjamin-Constant-The_Entry_of_Mahomet_II_into_Constantinople-1876.jpg",
+          "note": "Later romanticized painting, not an eyewitness image; useful for the later visual memory of the 1453 conquest."
+        }
+      ]
     },
     {
       "id": "margaret-i",
@@ -5652,7 +5724,20 @@
         "Margaret of Denmark",
         "Margaret of the Kalmar Union"
       ],
-      "historicalReliability": "Margaret I is well attested in late medieval Scandinavian politics, though later national histories often interpret her union project through competing Danish, Swedish, and Norwegian lenses."
+      "historicalReliability": "Margaret I is well attested in late medieval Scandinavian politics, though later national histories often interpret her union project through competing Danish, Swedish, and Norwegian lenses.",
+      "sectionImages": [
+        {
+          "section": "Legacy",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Roskilde_Cathedral_01.jpg",
+          "alt": "Roskilde Cathedral",
+          "caption": "Roskilde Cathedral, the royal burial church where Margaret I is commemorated.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roskilde_Cathedral_01.jpg",
+          "note": "Modern photograph of the burial church, used to support the article's legacy and commemoration section."
+        }
+      ]
     },
     {
       "id": "william-wallace",
@@ -6368,7 +6453,8 @@
               "type": "location",
               "slug": "wantage"
             }
-          ]
+          ],
+          "description": "Alfred was born into the West Saxon royal house at a time when Wessex was one of several Anglo-Saxon kingdoms facing growing Viking pressure."
         },
         {
           "date": "871",
@@ -6402,7 +6488,20 @@
         }
       ],
       "aliases": [],
-      "historicalReliability": "Alfred the Great is well attested for an early medieval ruler, especially through the Anglo-Saxon Chronicle and associated texts, but later English memory made him a national exemplar in ways that go beyond contemporary evidence."
+      "historicalReliability": "Alfred the Great is well attested for an early medieval ruler, especially through the Anglo-Saxon Chronicle and associated texts, but later English memory made him a national exemplar in ways that go beyond contemporary evidence.",
+      "sectionImages": [
+        {
+          "section": "As king of Wessex",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/WinCath30Je6-4836wiki.jpg/3840px-WinCath30Je6-4836wiki.jpg",
+          "alt": "Winchester Cathedral",
+          "caption": "Winchester Cathedral, later medieval successor to the royal and ecclesiastical landscape of Alfred's Wessex.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:WinCath30Je6-4836wiki.jpg",
+          "note": "Modern photograph of a major Winchester church site connected to the longer memory of Wessex and English kingship."
+        }
+      ]
     },
     {
       "id": "sweyn-forkbeard",
@@ -6698,12 +6797,12 @@
         {
           "date": "c. 804",
           "title": "Appears in Frankish sources",
-          "description": "Appears in Frankish sources marks a documented or traditionally reported stage in Godfred of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Frankish annals present Godfred as a powerful Danish ruler on Charlemagne’s northern frontier, making him one of the earliest Danish kings visible in contemporary written sources."
         },
         {
           "date": "808",
           "title": "Southern frontier pressure",
-          "description": "Southern frontier pressure marks a documented or traditionally reported stage in Godfred of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Godfred’s pressure around the southern Danish frontier belongs to the world of Hedeby, the Danevirke, and Carolingian-Danish rivalry rather than later centralized Danish statehood."
         },
         {
           "date": "810",
@@ -6711,9 +6810,9 @@
           "description": "Reportedly killed by one of his own followers in 810; his death opened the succession that brought Hemming to power."
         },
         {
-          "date": "c. 810",
-          "title": "Dies",
-          "description": "He died in 810, reportedly killed by one of his own followers. His death opened succession politics that brought Hemming to power."
+          "date": "after 810",
+          "title": "Succession aftermath",
+          "description": "After Godfred’s killing, Danish leadership passed into a contested succession environment in which Hemming sought peace with the Franks."
         }
       ],
       "relatedEntries": {
@@ -6852,12 +6951,12 @@
         {
           "date": "810",
           "title": "Succeeds Godfred",
-          "description": "Succeeds Godfred marks a documented or traditionally reported stage in Hemming of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Hemming succeeded after Godfred’s death in 810, taking power during a delicate moment in Danish-Frankish relations."
         },
         {
           "date": "811",
           "title": "Peace with the Franks",
-          "description": "Peace with the Franks marks a documented or traditionally reported stage in Hemming of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The 811 peace with the Carolingian Empire stabilized the frontier after Godfred’s confrontation with Charlemagne’s world, though Hemming’s reign remained brief."
         },
         {
           "date": "812",
@@ -6865,9 +6964,9 @@
           "description": "Died around 812 after a brief reign marked by peace with the Carolingian Empire."
         },
         {
-          "date": "c. 812",
-          "title": "Dies",
-          "description": "Hemming died around 812. The brevity of his reign and the limited evidence make many details uncertain."
+          "date": "after 812",
+          "title": "Aftermath and memory",
+          "description": "Hemming’s brief reign is remembered chiefly through the 811 treaty; after his death, Danish succession again becomes difficult to follow in the Frankish record."
         }
       ],
       "relatedEntries": {
@@ -7007,27 +7106,22 @@
         {
           "date": "813",
           "title": "Co-ruler in Danish succession struggles",
-          "description": "Co-ruler in Danish succession struggles marks a documented or traditionally reported stage in Horik I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Horik appears among claimants from Godfred’s line during the violent succession struggles that followed the death of the early Danish king."
         },
         {
           "date": "c. 828",
           "title": "Emerges as dominant king",
-          "description": "Emerges as dominant king marks a documented or traditionally reported stage in Horik I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "By the late 820s, Horik had outlasted rivals and became the main Danish ruler known to Frankish and ecclesiastical observers."
         },
         {
           "date": "845",
           "title": "Danish Viking activity strikes Hamburg",
-          "description": "Danish Viking activity strikes Hamburg marks a documented or traditionally reported stage in Horik I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The raid on Hamburg in 845 belongs to the wider Danish Viking pressure on Frankish and ecclesiastical centers during Horik’s reign."
         },
         {
           "date": "854",
           "title": "Killed in internal conflict",
           "description": "Killed in 854 during internal Danish conflict after decades of rivalry, diplomacy, and Viking activity connected to the Frankish world."
-        },
-        {
-          "date": "c. 854",
-          "title": "Dies",
-          "description": "Horik I was killed in 854 during internal conflict in Denmark. His death shows how unstable early Danish kingship could be."
         }
       ],
       "relatedEntries": {
@@ -7167,22 +7261,22 @@
         {
           "date": "854",
           "title": "Comes to power after Horik I",
-          "description": "Comes to power after Horik I marks a documented or traditionally reported stage in Horik II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Horik II emerged after the internal conflict that killed Horik I and many rival members of the Danish royal family."
         },
         {
           "date": "850s",
           "title": "Deals with Christian mission activity",
-          "description": "Deals with Christian mission activity marks a documented or traditionally reported stage in Horik II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Horik II is remembered in connection with Ansgar’s mission, when Christian worship gained limited protection within a still largely non-Christian Danish world."
         },
         {
           "date": "after 864",
           "title": "Later reign becomes obscure",
-          "description": "Later reign becomes obscure marks a documented or traditionally reported stage in Horik II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "After the missionary notices, Horik II fades from the sources, showing how fragmentary early Danish royal chronology remains."
         },
         {
           "date": "by 873",
           "title": "Likely dead or displaced",
-          "description": "Likely dead or displaced marks a documented or traditionally reported stage in Horik II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "By the 870s Horik II was probably dead or no longer ruling; the source record no longer presents him as an active Danish king."
         },
         {
           "date": "c. 870",
@@ -7323,32 +7417,27 @@
         {
           "date": "900",
           "title": "Born",
-          "description": "Gorm the Old is born, according to the approximate chronology used by modern historians."
+          "description": "Gorm the Old was born around 900, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "before 900",
-          "title": "Born",
-          "description": "Gorm the Old was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Gorm the Old's birth chronology is approximate; the before 900 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "c. 936",
           "title": "Rules at Jelling",
-          "description": "Rules at Jelling marks a documented or traditionally reported stage in Gorm the Old's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Gorm’s rule is centered in the Jelling tradition, where royal monuments linked his dynasty to a developing Danish kingship."
         },
         {
           "date": "c. 950",
           "title": "Jelling royal monuments develop",
-          "description": "Jelling royal monuments develop marks a documented or traditionally reported stage in Gorm the Old's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The Jelling monuments associated with Gorm and his family became a public statement of dynasty, memory, and royal authority in Denmark."
         },
         {
           "date": "c. 958",
           "title": "Death",
           "description": "Died around the mid-tenth century; his burial and dynastic memory are closely tied to Jelling and Harald Bluetooth’s royal monuments."
-        },
-        {
-          "date": "c. 958",
-          "title": "Dies",
-          "description": "Gorm died around 958 or slightly later. His burial and memory are tied to Jelling and the dynasty that Harald Bluetooth promoted."
         }
       ],
       "relatedEntries": {
@@ -7482,32 +7571,27 @@
         {
           "date": "910",
           "title": "Born",
-          "description": "Harald Bluetooth is born, according to the approximate chronology used by modern historians."
+          "description": "Harald Bluetooth was born around 910, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "c. 910",
-          "title": "Born",
-          "description": "Harald Bluetooth was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Harald Bluetooth's birth chronology is approximate; the c. 910 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "c. 958",
           "title": "Succeeds Gorm",
-          "description": "Succeeds Gorm marks a documented or traditionally reported stage in Harald Bluetooth's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Harald succeeded Gorm the Old and expanded the Jelling dynasty’s authority in Denmark and parts of Norway."
         },
         {
           "date": "c. 965",
           "title": "Christian royal ideology at Jelling",
-          "description": "Christian royal ideology at Jelling marks a documented or traditionally reported stage in Harald Bluetooth's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Harald’s great Jelling stone proclaimed conversion and royal power, presenting Christianity as part of a new public language of Danish kingship."
         },
         {
           "date": "c. 987",
           "title": "Death",
           "description": "Died around 987, probably after conflict with his son Sweyn Forkbeard; later tradition places his final phase away from the Danish royal center."
-        },
-        {
-          "date": "c. 987",
-          "title": "Dies",
-          "description": "Harald died around 987, probably after conflict with his son Sweyn Forkbeard. Details are shaped by later tradition."
         }
       ],
       "relatedEntries": {
@@ -7645,32 +7729,27 @@
         {
           "date": "c. 1018",
           "title": "Born",
-          "description": "Harthacnut is born, according to the approximate chronology used by modern historians."
+          "description": "Harthacnut was born around c. 1018, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1018",
-          "title": "Born",
-          "description": "Harthacnut was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Harthacnut's birth chronology is approximate; the 1018 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1035",
           "title": "Becomes king of Denmark",
-          "description": "Becomes king of Denmark marks a documented or traditionally reported stage in Harthacnut's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Harthacnut inherited Denmark after Cnut’s death, but English succession politics delayed his ability to claim the English throne."
         },
         {
           "date": "1040",
           "title": "Becomes king of England",
-          "description": "Becomes king of England marks a documented or traditionally reported stage in Harthacnut's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "After Harold Harefoot died, Harthacnut crossed to England and united the English and Danish crowns for a short, unstable reign."
         },
         {
           "date": "1042",
           "title": "Dies suddenly",
           "description": "Died suddenly at a wedding feast at Lambeth in 1042; his death ended direct Danish royal rule in England and opened the way for Edward the Confessor."
-        },
-        {
-          "date": "1042",
-          "title": "Dies",
-          "description": "Harthacnut died suddenly in 1042 at a wedding feast. His death ended direct Danish royal rule in England."
         }
       ],
       "relatedEntries": {
@@ -7807,32 +7886,27 @@
         {
           "date": "c. 1024",
           "title": "Born",
-          "description": "Magnus the Good is born, according to the approximate chronology used by modern historians."
+          "description": "Magnus the Good was born around c. 1024, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1024",
-          "title": "Born",
-          "description": "Magnus the Good was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Magnus the Good's birth chronology is approximate; the 1024 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1035",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Magnus the Good's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus returned from exile and became king of Norway after Cnut’s North Sea order weakened, restoring Olaf Haraldsson’s line."
         },
         {
           "date": "1042",
           "title": "Becomes king of Denmark",
-          "description": "Becomes king of Denmark marks a documented or traditionally reported stage in Magnus the Good's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus gained Denmark after Harthacnut’s death, briefly joining Norwegian and Danish kingship before renewed rivalry with Sweyn Estridsson."
         },
         {
           "date": "1047",
           "title": "Death",
           "description": "Died in Denmark in 1047 while campaigning; his death left Harald Hardrada in Norway and Sweyn Estridsson to secure Denmark."
-        },
-        {
-          "date": "1047",
-          "title": "Dies",
-          "description": "Magnus died in 1047. His death allowed Harald Hardrada to rule Norway and Sweyn Estridsson to secure Denmark."
         }
       ],
       "relatedEntries": {
@@ -7965,17 +8039,17 @@
         {
           "date": "c. 1019",
           "title": "Born",
-          "description": "Sweyn II Estridsson is born, according to the approximate chronology used by modern historians."
+          "description": "Sweyn II Estridsson was born around c. 1019, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1047",
           "title": "Becomes king of Denmark",
-          "description": "Becomes king of Denmark marks a documented or traditionally reported stage in Sweyn II Estridsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sweyn Estridsson secured Denmark after years of rivalry with Magnus the Good and became the founder of a long Danish royal line."
         },
         {
           "date": "1060s",
           "title": "Consolidates royal power",
-          "description": "Consolidates royal power marks a documented or traditionally reported stage in Sweyn II Estridsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "In the 1060s Sweyn worked with church organization and royal kinship politics to stabilize Denmark after the age of North Sea empire."
         },
         {
           "date": "1076",
@@ -7983,9 +8057,9 @@
           "description": "Died in 1076 after restoring Estridsen rule in Denmark; his sons and descendants shaped Danish succession for generations."
         },
         {
-          "date": "1076",
-          "title": "Dies",
-          "description": "Sweyn died in 1076. His many sons and descendants shaped Danish politics for generations."
+          "date": "after 1076",
+          "title": "Aftermath and memory",
+          "description": "Sweyn’s many sons supplied later Danish kings, making his line central to Danish monarchy long after his own failed attempts to recover England."
         }
       ],
       "relatedEntries": {
@@ -8121,32 +8195,27 @@
         {
           "date": "c. 1131",
           "title": "Born",
-          "description": "Valdemar I of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Valdemar I of Denmark was born around c. 1131, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1131",
-          "title": "Born",
-          "description": "Valdemar I of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Valdemar I of Denmark's birth chronology is approximate; the 1131 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1157",
           "title": "Wins power after civil war",
-          "description": "Wins power after civil war marks a documented or traditionally reported stage in Valdemar I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar emerged from Denmark’s civil wars after the Battle of Grathe Heath in 1157, ending rival claims and beginning a stronger Valdemarian monarchy."
         },
         {
           "date": "1160s",
           "title": "Campaigns in the Baltic",
-          "description": "Campaigns in the Baltic marks a documented or traditionally reported stage in Valdemar I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar’s Baltic campaigns, often associated with Absalon, extended Danish power toward Wendish and southern Baltic targets."
         },
         {
           "date": "1182",
           "title": "Death",
           "description": "Died at Vordingborg in 1182 and was succeeded by his son Cnut VI, preserving the Valdemar dynasty’s gains."
-        },
-        {
-          "date": "1182",
-          "title": "Dies",
-          "description": "Valdemar died in 1182 and was succeeded by Cnut VI."
         }
       ],
       "relatedEntries": {
@@ -8279,17 +8348,17 @@
         {
           "date": "c. 1163",
           "title": "Born",
-          "description": "Cnut VI of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Cnut VI of Denmark was born around c. 1163, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1182",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Cnut VI of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Cnut VI succeeded Valdemar I and inherited a monarchy strengthened by Valdemarian rule and Baltic expansion."
         },
         {
           "date": "1180s",
           "title": "Rejects imperial overlordship",
-          "description": "Rejects imperial overlordship marks a documented or traditionally reported stage in Cnut VI of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Cnut VI refused to perform homage to Frederick Barbarossa, asserting Danish royal independence from imperial overlordship."
         },
         {
           "date": "1202",
@@ -8297,9 +8366,9 @@
           "description": "Died in 1202 without surviving children; his brother Valdemar II succeeded him and extended Danish ambitions in the Baltic."
         },
         {
-          "date": "1202",
-          "title": "Dies",
-          "description": "Cnut died in 1202 without children, and his brother Valdemar II succeeded him."
+          "date": "after 1202",
+          "title": "Aftermath and memory",
+          "description": "Cnut’s childless death passed the throne to Valdemar II, whose Baltic ambitions built on the Valdemarian monarchy Cnut had inherited."
         }
       ],
       "relatedEntries": {
@@ -8436,22 +8505,22 @@
         {
           "date": "c. 1170",
           "title": "Born",
-          "description": "Valdemar II of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Valdemar II of Denmark was born around c. 1170, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1170",
-          "title": "Born",
-          "description": "Valdemar II of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Valdemar II of Denmark's birth chronology is approximate; the 1170 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1202",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Valdemar II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar II inherited the Valdemarian monarchy and pushed Danish influence across the Baltic before reversals later in his reign."
         },
         {
           "date": "1219",
           "title": "Campaign in Estonia",
-          "description": "Campaign in Estonia marks a documented or traditionally reported stage in Valdemar II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar’s Estonian campaign became central to Danish Baltic memory, later tied to traditions about the Dannebrog and royal crusading power."
         },
         {
           "date": "1227",
@@ -8462,11 +8531,6 @@
           "date": "1241",
           "title": "Death",
           "description": "Died at Vordingborg in 1241; his death followed the issuing of the Law of Jutland and left a contested royal inheritance."
-        },
-        {
-          "date": "1241",
-          "title": "Dies",
-          "description": "Valdemar died in 1241. His later reign is associated with legal compilation and royal memory."
         }
       ],
       "relatedEntries": {
@@ -8603,22 +8667,22 @@
         {
           "date": "c. 1216",
           "title": "Born",
-          "description": "Eric IV of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Eric IV of Denmark was born around c. 1216, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1241",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Eric IV of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric IV became king after Valdemar II, inheriting a kingdom where royal taxation and aristocratic resistance were increasingly explosive."
         },
         {
           "date": "1240s",
           "title": "Conflict with nobles and brothers",
-          "description": "Conflict with nobles and brothers marks a documented or traditionally reported stage in Eric IV of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric’s reign was marked by taxation disputes and dynastic conflict, especially with powerful brothers and aristocratic opponents."
         },
         {
           "date": "1250",
           "title": "Murdered",
-          "description": "Murdered marks a documented or traditionally reported stage in Eric IV of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric was killed in 1250 after conflict with his brother Abel, turning royal family rivalry into a succession crisis."
         },
         {
           "date": "1250",
@@ -8759,32 +8823,27 @@
         {
           "date": "c. 1219",
           "title": "Born",
-          "description": "Christopher I of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Christopher I of Denmark was born around c. 1219, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1219",
-          "title": "Born",
-          "description": "Christopher I of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Christopher I of Denmark's birth chronology is approximate; the 1219 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1252",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Christopher I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christopher I came to the throne after Abel’s death, continuing the unstable succession politics of mid-thirteenth-century Denmark."
         },
         {
           "date": "1250s",
           "title": "Conflict with Archbishop Jakob Erlandsen",
-          "description": "Conflict with Archbishop Jakob Erlandsen marks a documented or traditionally reported stage in Christopher I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christopher’s struggle with Archbishop Jakob Erlandsen exposed a major clash between royal authority and ecclesiastical privilege in Denmark."
         },
         {
           "date": "1259",
           "title": "Death",
           "description": "Died at Ribe in 1259 amid conflict with Archbishop Jakob Erlandsen; later stories alleged poisoning, but certainty is difficult."
-        },
-        {
-          "date": "1259",
-          "title": "Dies",
-          "description": "Christopher died in 1259. Later stories accused enemies of poisoning him, but certainty is difficult."
         }
       ],
       "relatedEntries": {
@@ -8921,27 +8980,27 @@
         {
           "date": "c. 1249",
           "title": "Born",
-          "description": "Eric V of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Eric V of Denmark was born around c. 1249, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1249",
-          "title": "Born",
-          "description": "Eric V of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Eric V of Denmark's birth chronology is approximate; the 1249 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1259",
           "title": "Becomes king as a child",
-          "description": "Becomes king as a child marks a documented or traditionally reported stage in Eric V of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric V became king as a minor, leaving Danish politics vulnerable to aristocratic pressure and regency politics."
         },
         {
           "date": "1282",
           "title": "Royal charter limits power",
-          "description": "Royal charter limits power marks a documented or traditionally reported stage in Eric V of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The 1282 charter forced limits on royal action and became a major statement of aristocratic constraint on Danish kingship."
         },
         {
           "date": "1286",
           "title": "Murdered",
-          "description": "Murdered marks a documented or traditionally reported stage in Eric V of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric was murdered at Finderup in 1286, a killing that deepened noble-royal conflict and became one of medieval Denmark’s most famous political crimes."
         },
         {
           "date": "1286",
@@ -9082,37 +9141,32 @@
         {
           "date": "c. 1276",
           "title": "Born",
-          "description": "Christopher II of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Christopher II of Denmark was born around c. 1276, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1276",
-          "title": "Born",
-          "description": "Christopher II of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Christopher II of Denmark's birth chronology is approximate; the 1276 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1320",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Christopher II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christopher II became king amid deep aristocratic pressure, with royal authority already weakened by charters and pledged lands."
         },
         {
           "date": "1326",
           "title": "Deposed",
-          "description": "Deposed marks a documented or traditionally reported stage in Christopher II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christopher was deposed in 1326 after conflict with magnates, showing how far Danish monarchy had been constrained by noble power."
         },
         {
           "date": "1329",
           "title": "Restored",
-          "description": "Restored marks a documented or traditionally reported stage in Christopher II of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "His restoration in 1329 did not fully repair royal authority; Denmark remained politically fragmented and financially weakened."
         },
         {
           "date": "1332",
           "title": "Death",
           "description": "Died at Nykobing Falster in 1332 after a reign weakened by aristocratic power and mortgaged royal authority; Denmark then entered a severe royal crisis."
-        },
-        {
-          "date": "1332",
-          "title": "Dies",
-          "description": "Christopher died in 1332. Denmark then entered an interregnum-like crisis before Valdemar IV restored royal power."
         }
       ],
       "relatedEntries": {
@@ -9249,17 +9303,17 @@
         {
           "date": "c. 1320",
           "title": "Born",
-          "description": "Valdemar IV Atterdag is born, according to the approximate chronology used by modern historians."
+          "description": "Valdemar IV Atterdag was born around c. 1320, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1340",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Valdemar IV Atterdag's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar IV took the throne in a fractured Denmark and began rebuilding royal authority after years of pledged lands and weak kingship."
         },
         {
           "date": "1361",
           "title": "Captures Visby",
-          "description": "Captures Visby marks a documented or traditionally reported stage in Valdemar IV Atterdag's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar’s conquest of Visby in 1361 showed revived Danish military power but provoked wider Baltic and Hanseatic resistance."
         },
         {
           "date": "1375",
@@ -9267,9 +9321,9 @@
           "description": "Died at Gurre Castle in 1375; the succession opened the way for Margaret I’s political rise."
         },
         {
-          "date": "1375",
-          "title": "Dies",
-          "description": "Valdemar died in 1375. His succession opened the way for Margaret I’s rise."
+          "date": "after 1375",
+          "title": "Aftermath and memory",
+          "description": "Valdemar’s recovery of Danish royal power made possible Margaret I’s later union politics, even though his own male line failed."
         }
       ],
       "relatedEntries": {
@@ -9410,32 +9464,27 @@
         {
           "date": "c. 1382",
           "title": "Born",
-          "description": "Eric of Pomerania is born, according to the approximate chronology used by modern historians."
+          "description": "Eric of Pomerania was born around c. 1382, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1397",
           "title": "Crowned in Kalmar Union context",
-          "description": "Crowned in Kalmar Union context marks a documented or traditionally reported stage in Eric of Pomerania's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric was crowned in 1397 within the Kalmar Union settlement, designed to bind Denmark, Norway, and Sweden under one monarchy."
         },
         {
           "date": "1412",
           "title": "Rules after Margaret’s death",
-          "description": "Died at Rugenwalde in Pomerania in 1459 after losing the Scandinavian crowns and living as a Pomeranian duke."
+          "description": "After Margaret I died in 1412, Eric ruled without her political authority and increasingly faced resistance over war, taxation, and union government."
         },
         {
           "date": "1439",
           "title": "Deposed in Denmark and Sweden",
-          "description": "Deposed in Denmark and Sweden marks a documented or traditionally reported stage in Eric of Pomerania's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric was deposed in Denmark and Sweden in 1439 after conflicts with councils and nobles made his union rule untenable."
         },
         {
           "date": "1459",
           "title": "Death",
-          "description": "Died at Rugenwalde in Pomerania in 1459 after losing the Scandinavian crowns and living as a Pomeranian duke."
-        },
-        {
-          "date": "1459",
-          "title": "Dies",
-          "description": "Eric died in 1459 in Pomerania after losing the Scandinavian crowns."
+          "description": "Eric died at Rugenwalde in Pomerania in 1459 after losing the Scandinavian crowns and living as a Pomeranian duke."
         }
       ],
       "relatedEntries": {
@@ -9573,37 +9622,32 @@
         {
           "date": "c. 1416",
           "title": "Born",
-          "description": "Christopher of Bavaria is born, according to the approximate chronology used by modern historians."
+          "description": "Christopher of Bavaria was born around c. 1416, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1416",
-          "title": "Born",
-          "description": "Christopher of Bavaria was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Christopher of Bavaria's birth chronology is approximate; the 1416 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1440",
           "title": "Becomes king of Denmark",
-          "description": "Becomes king of Denmark marks a documented or traditionally reported stage in Christopher of Bavaria's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christopher was chosen as king of Denmark after Eric of Pomerania’s fall, offering the councils a more manageable union monarch."
         },
         {
           "date": "1441",
           "title": "Becomes king of Sweden",
-          "description": "Becomes king of Sweden marks a documented or traditionally reported stage in Christopher of Bavaria's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Swedish recognition in 1441 extended Christopher’s rule across the Kalmar Union after negotiation with the realm’s political elites."
         },
         {
           "date": "1442",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Christopher of Bavaria's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Norway accepted Christopher in 1442, completing his rule over the three kingdoms of the union."
         },
         {
           "date": "1448",
           "title": "Death",
           "description": "Died suddenly at Helsingborg in 1448 without an heir, reopening the succession politics of the Kalmar Union."
-        },
-        {
-          "date": "1448",
-          "title": "Dies",
-          "description": "Christopher died suddenly in 1448, leaving no heir and reopening Scandinavian succession politics."
         }
       ],
       "relatedEntries": {
@@ -9742,37 +9786,32 @@
         {
           "date": "c. 1426",
           "title": "Born",
-          "description": "Christian I of Denmark is born, according to the approximate chronology used by modern historians."
+          "description": "Christian I of Denmark was born around c. 1426, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1426",
-          "title": "Born",
-          "description": "Christian I of Denmark was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Christian I of Denmark's birth chronology is approximate; the 1426 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1448",
           "title": "Elected king of Denmark",
-          "description": "Elected king of Denmark marks a documented or traditionally reported stage in Christian I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christian I was elected king of Denmark in 1448, founding the Oldenburg dynasty that would dominate Danish monarchy for centuries."
         },
         {
           "date": "1450",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Christian I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christian’s Norwegian kingship in 1450 was tied to union agreements that bound Norway closely to the Danish crown."
         },
         {
           "date": "1457",
           "title": "Recognized as king of Sweden",
-          "description": "Recognized as king of Sweden marks a documented or traditionally reported stage in Christian I of Denmark's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Christian was recognized in Sweden in 1457, though Swedish support for union monarchy remained politically fragile."
         },
         {
           "date": "1481",
           "title": "Death",
           "description": "Died at Copenhagen Castle in 1481 after establishing the Oldenburg dynasty in Denmark and Norway."
-        },
-        {
-          "date": "1481",
-          "title": "Dies",
-          "description": "Christian died in 1481. His dynasty continued to dominate Danish and Norwegian monarchy."
         }
       ],
       "relatedEntries": {
@@ -9908,7 +9947,7 @@
         {
           "date": "850",
           "title": "Born",
-          "description": "Harald Fairhair is born, according to the approximate chronology used by modern historians."
+          "description": "Harald Fairhair was born around 850, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "c. 850",
@@ -9918,12 +9957,12 @@
         {
           "date": "c. 872",
           "title": "Traditional unification after Hafrsfjord",
-          "description": "Traditional unification after Hafrsfjord marks a documented or traditionally reported stage in Harald Fairhair's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Saga tradition links Harald’s victory at Hafrsfjord to the unification of Norway, though the scale and chronology are debated."
         },
         {
           "date": "c. 900",
           "title": "Royal authority remembered in western Norway",
-          "description": "Royal authority remembered in western Norway marks a documented or traditionally reported stage in Harald Fairhair's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Later memory placed Harald’s authority especially in western Norway, where royal ancestry and regional lordship were woven into unification traditions."
         },
         {
           "date": "c. 932",
@@ -10070,7 +10109,7 @@
         {
           "date": "895",
           "title": "Born",
-          "description": "Eric Bloodaxe is born, according to the approximate chronology used by modern historians."
+          "description": "Eric Bloodaxe was born around 895, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "c. 895",
@@ -10080,22 +10119,17 @@
         {
           "date": "c. 930",
           "title": "Emerges in Norwegian succession",
-          "description": "Emerges in Norwegian succession marks a documented or traditionally reported stage in Eric Bloodaxe's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric appears in traditions of Norwegian succession after Harald Fairhair, remembered as a violent claimant among rival royal sons."
         },
         {
           "date": "c. 947",
           "title": "Rules at York",
-          "description": "Rules at York marks a documented or traditionally reported stage in Eric Bloodaxe's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric’s rule at York placed him in the Norse-Gaelic and Anglo-Scandinavian politics of Northumbria rather than only Norwegian kingship."
         },
         {
           "date": "954",
           "title": "Death",
           "description": "Traditionally killed around 954 at Stainmore in northern England after losing power in York."
-        },
-        {
-          "date": "c. 954",
-          "title": "Dies",
-          "description": "Eric died around 954, traditionally in conflict in northern England. Details remain debated."
         }
       ],
       "relatedEntries": {
@@ -10232,32 +10266,27 @@
         {
           "date": "920",
           "title": "Born",
-          "description": "Haakon the Good is born, according to the approximate chronology used by modern historians."
+          "description": "Haakon the Good was born around 920, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "c. 920",
-          "title": "Born",
-          "description": "Haakon the Good was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Haakon the Good's birth chronology is approximate; the c. 920 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "c. 934",
           "title": "Returns to Norway",
-          "description": "Returns to Norway marks a documented or traditionally reported stage in Haakon the Good's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon returned from upbringing in England and challenged Eric Bloodaxe, bringing an Anglo-Christian political background into Norwegian rule."
         },
         {
           "date": "950s",
           "title": "Attempts Christian influence",
-          "description": "Attempts Christian influence marks a documented or traditionally reported stage in Haakon the Good's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon’s attempts to encourage Christianity met resistance from Norwegian elites attached to older cult and assembly traditions."
         },
         {
           "date": "c. 961",
           "title": "Death after battle",
           "description": "Died from wounds after the Battle of Fitjar, according to saga tradition, and was remembered as a Christianizing king who still had to govern a pagan elite."
-        },
-        {
-          "date": "c. 961",
-          "title": "Dies",
-          "description": "Haakon died after battle around 961. Saga accounts shape the details of his final years."
         }
       ],
       "relatedEntries": {
@@ -10398,32 +10427,27 @@
         {
           "date": "960",
           "title": "Born",
-          "description": "Olaf Tryggvason is born, according to the approximate chronology used by modern historians."
+          "description": "Olaf Tryggvason was born around 960, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "960s",
-          "title": "Born",
-          "description": "Olaf Tryggvason was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Olaf Tryggvason's birth chronology is approximate; the 960s label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "995",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Olaf Tryggvason's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olaf Tryggvason seized power in Norway after a career shaped by raiding, exile, and alliances across the North Sea world."
         },
         {
           "date": "late 990s",
           "title": "Promotes Christianity",
-          "description": "Promotes Christianity marks a documented or traditionally reported stage in Olaf Tryggvason's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olaf’s reign is remembered for forceful Christianization efforts, though saga accounts often sharpen the drama of conversion."
         },
         {
           "date": "1000",
           "title": "Dies at Svolder",
           "description": "Died or disappeared after defeat at the Battle of Svolder in 1000; saga narratives dramatize his final leap or disappearance."
-        },
-        {
-          "date": "1000",
-          "title": "Dies",
-          "description": "Olaf died in 1000 at the Battle of Svolder, though saga accounts dramatize the event."
         }
       ],
       "relatedEntries": {
@@ -10567,22 +10591,22 @@
         {
           "date": "995",
           "title": "Born",
-          "description": "Olaf II Haraldsson is born, according to the approximate chronology used by modern historians."
+          "description": "Olaf II Haraldsson was born around 995, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "c. 995",
-          "title": "Born",
-          "description": "Olaf II Haraldsson was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Olaf II Haraldsson's birth chronology is approximate; the c. 995 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1015",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Olaf II Haraldsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olaf returned to Norway and claimed kingship, combining royal consolidation with an aggressive Christian political program."
         },
         {
           "date": "1028",
           "title": "Driven into exile",
-          "description": "Driven into exile marks a documented or traditionally reported stage in Olaf II Haraldsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Opposition from Norwegian elites and Cnut the Great’s power forced Olaf into exile in 1028."
         },
         {
           "date": "1030",
@@ -10592,12 +10616,7 @@
         {
           "date": "1031",
           "title": "Cult develops at Nidaros",
-          "description": "Cult develops at Nidaros marks a documented or traditionally reported stage in Olaf II Haraldsson's career, interpreted cautiously where the medieval evidence is thin."
-        },
-        {
-          "date": "1030",
-          "title": "Dies",
-          "description": "Olaf died in 1030 at the Battle of Stiklestad. His body and cult were associated with Nidaros."
+          "description": "After Olaf’s death, his shrine at Nidaros became the center of a royal saint cult that reshaped Norwegian kingship."
         }
       ],
       "relatedEntries": {
@@ -10626,6 +10645,19 @@
           "type": "historical overview",
           "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/"
         }
+      ],
+      "sectionImages": [
+        {
+          "section": "Death",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Stiklestad_church.jpg",
+          "alt": "Stiklestad church",
+          "caption": "Stiklestad church landscape associated with Olaf II Haraldsson's death and later cult.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "Modern photograph",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stiklestad_church.jpg",
+          "note": "Modern photograph of the commemorative landscape, used because Olaf's death and cult are tied to Stiklestad."
+        }
       ]
     },
     {
@@ -10642,7 +10674,7 @@
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Norway",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Harold-III-Coin.png",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arbo_-_Battle_of_Stamford_Bridge_(1870).jpg",
       "summary": "Harald Hardrada was king of Norway whose career stretched from Byzantium to Stamford Bridge, where he died invading England in 1066.",
       "title": "king of Norway and claimant in England",
       "roles": [
@@ -10676,11 +10708,12 @@
         "knownFor": "last great Viking-age royal expedition to England"
       },
       "imageInfo": {
-        "caption": "Coin of Harald Hardrada.",
-        "creator": "Unknown moneyer",
-        "date": "11th century",
+        "caption": "Peter Nicolai Arbo, Battle of Stamford Bridge, showing Harald Hardrada in later historical imagination.",
+        "creator": "Peter Nicolai Arbo",
+        "date": "1870",
         "source": "Wikimedia Commons",
-        "note": "Coin from royal context, not a portrait."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arbo_-_Battle_of_Stamford_Bridge_(1870).jpg",
+        "note": "Later nineteenth-century historical painting, not a contemporary portrait; selected because it directly represents Harald's defining final battle."
       },
       "overview": [
         "Harald Hardrada was king of Norway whose career stretched from Byzantium to Stamford Bridge, where he died invading England in 1066. The profile is anchored by concrete turning points: 1030 — Fights at Stiklestad as a youth; 1046 — Becomes co-king of Norway; 1066 — Invades England.",
@@ -10741,35 +10774,88 @@
         {
           "date": "c. 1015",
           "title": "Born",
-          "description": "Born into the Norwegian royal world; the exact birthplace is not securely recorded."
+          "description": "Harald was born into Norway’s royal and aristocratic world, traditionally linked to the Hardrada line. His exact birthplace is uncertain.",
+          "links": [
+            {
+              "title": "Kingdom of Norway",
+              "type": "location",
+              "slug": "kingdom-of-norway"
+            }
+          ]
         },
         {
           "date": "1030",
-          "title": "Fights at Stiklestad",
-          "description": "Fights for Olaf II Haraldsson at Stiklestad and survives the defeat that sends him into exile.",
+          "title": "Fights at Stiklestad as a youth",
+          "description": "Harald fought in support of Olaf Haraldsson at Stiklestad. The defeat forced him into exile and became a turning point in his early life.",
           "links": [
             {
-              "name": "Battle of Stiklestad",
+              "title": "Battle of Stiklestad",
               "type": "event",
               "slug": "battle-of-stiklestad"
             }
           ]
         },
         {
-          "date": "1030s-1040s",
-          "title": "Serves abroad",
-          "description": "Builds wealth and military reputation in eastern and Byzantine service, later remembered through Varangian Guard tradition."
+          "date": "1030s",
+          "title": "Enters exile in the east",
+          "description": "After Stiklestad, Harald spent years abroad, moving through the world of Kievan Rus’ and building military experience far from Norway."
         },
         {
-          "date": "1046-1047",
-          "title": "Takes power in Norway",
-          "description": "Returns to Scandinavia, shares power with Magnus the Good, and becomes sole king after Magnus dies."
+          "date": "1030s-1040s",
+          "title": "Serves in the Varangian Guard",
+          "description": "Harald served in Byzantine imperial service, where later tradition associates him with campaigns and wealth gained in the eastern Mediterranean.",
+          "links": [
+            {
+              "title": "Byzantine Empire",
+              "type": "location",
+              "slug": "byzantine-empire"
+            }
+          ]
+        },
+        {
+          "date": "1046",
+          "title": "Becomes co-king of Norway",
+          "description": "Harald returned to Scandinavia and reached a power-sharing arrangement with Magnus the Good, bringing exile wealth and military reputation into Norwegian politics.",
+          "links": [
+            {
+              "title": "Magnus the Good",
+              "type": "character",
+              "slug": "magnus-the-good"
+            },
+            {
+              "title": "Kingdom of Norway",
+              "type": "location",
+              "slug": "kingdom-of-norway"
+            }
+          ]
+        },
+        {
+          "date": "1047",
+          "title": "Becomes sole king of Norway",
+          "description": "After Magnus the Good died, Harald became sole king of Norway and ruled as one of the most forceful Scandinavian monarchs of the eleventh century.",
+          "links": [
+            {
+              "title": "Magnus the Good",
+              "type": "character",
+              "slug": "magnus-the-good"
+            },
+            {
+              "title": "Kingdom of Norway",
+              "type": "location",
+              "slug": "kingdom-of-norway"
+            }
+          ]
         },
         {
           "date": "1066",
           "title": "Invades England",
-          "description": "Allies with Tostig Godwinson and lands in northern England to press a claim to the throne.",
+          "description": "Harald launched an invasion of England in alliance with Tostig Godwinson, pressing a claim during the succession crisis after Edward the Confessor’s death.",
           "links": [
+            {
+              "title": "Tostig Godwinson",
+              "type": "character",
+              "slug": "tostig-godwinson"
+            },
             {
               "title": "Kingdom of England",
               "type": "location",
@@ -10780,17 +10866,34 @@
         {
           "date": "1066",
           "title": "Wins at Fulford",
-          "description": "Defeats northern English forces near York before Harold Godwinson arrives from the south."
+          "description": "Harald and Tostig defeated northern English forces near York at the Battle of Fulford, opening the way toward York before Harold Godwinson’s rapid march north.",
+          "links": [
+            {
+              "title": "Tostig Godwinson",
+              "type": "character",
+              "slug": "tostig-godwinson"
+            },
+            {
+              "title": "Harold Godwinson",
+              "type": "character",
+              "slug": "harold-godwinson"
+            }
+          ]
         },
         {
           "date": "1066",
-          "title": "Killed at Stamford Bridge",
-          "description": "Dies during the Battle of Stamford Bridge, ending the Norwegian campaign in England.",
+          "title": "Dies at Stamford Bridge",
+          "description": "Harald was killed at the Battle of Stamford Bridge, ending his English campaign and marking one of the last great Viking royal invasions of England.",
           "links": [
             {
-              "name": "Battle of Stamford Bridge",
+              "title": "Battle of Stamford Bridge",
               "type": "event",
               "slug": "battle-of-stamford-bridge"
+            },
+            {
+              "title": "Kingdom of England",
+              "type": "location",
+              "slug": "kingdom-of-england"
             }
           ]
         }
@@ -10820,6 +10923,19 @@
           "author": "National Museum of Denmark",
           "type": "historical overview",
           "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/"
+        }
+      ],
+      "sectionImages": [
+        {
+          "section": "As king of Norway and claimant in England",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Harold-III-Coin.png",
+          "alt": "Coin of Harald Hardrada",
+          "caption": "Coin of Harald Hardrada, useful evidence for royal authority and representation from his reign rather than a portrait from life.",
+          "creator": "Norwegian royal mint",
+          "date": "11th century",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harold-III-Coin.png",
+          "note": "Historically relevant numismatic evidence; moved from the hero image into the article body where its evidentiary value is clearer."
         }
       ]
     },
@@ -10929,32 +11045,27 @@
         {
           "date": "c. 1073",
           "title": "Born",
-          "description": "Magnus Barefoot is born, according to the approximate chronology used by modern historians."
+          "description": "Magnus Barefoot was born around c. 1073, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1073",
-          "title": "Born",
-          "description": "Magnus Barefoot was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Magnus Barefoot's birth chronology is approximate; the 1073 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1093",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Magnus Barefoot's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus Barefoot took power in Norway and pursued a warrior-kingship focused on the Irish Sea and western islands."
         },
         {
           "date": "1098",
           "title": "Campaigns in the west",
-          "description": "Campaigns in the west marks a documented or traditionally reported stage in Magnus Barefoot's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus campaigned in the Hebrides, Man, and Irish Sea zone, reviving Norwegian claims over the western seaboard."
         },
         {
           "date": "1103",
           "title": "Dies in Ireland",
           "description": "Killed in 1103 during campaigning in Ireland, probably in Ulster, while pursuing Norwegian power around the Irish Sea."
-        },
-        {
-          "date": "1103",
-          "title": "Dies",
-          "description": "Magnus died in 1103 during campaigning in Ireland."
         }
       ],
       "relatedEntries": {
@@ -11091,17 +11202,17 @@
         {
           "date": "c. 1088",
           "title": "Born",
-          "description": "Øystein I of Norway is born, according to the approximate chronology used by modern historians."
+          "description": "Øystein I of Norway was born around c. 1088, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1103",
           "title": "Becomes co-king",
-          "description": "Becomes co-king marks a documented or traditionally reported stage in Øystein I of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Øystein became co-king with his brothers, ruling Norway through shared royal authority after Magnus Barefoot’s death."
         },
         {
           "date": "1107",
           "title": "Rules while Sigurd departs",
-          "description": "Rules while Sigurd departs marks a documented or traditionally reported stage in Øystein I of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "While Sigurd went on crusade, Øystein governed at home and was later remembered for peaceful administration and building projects."
         },
         {
           "date": "1123",
@@ -11109,9 +11220,9 @@
           "description": "Died at Hustad in 1123 before his brother Sigurd, ending the cooperative phase of their shared Norwegian kingship."
         },
         {
-          "date": "1123",
-          "title": "Dies",
-          "description": "Øystein died in 1123, before Sigurd."
+          "date": "after 1123",
+          "title": "Aftermath and memory",
+          "description": "Later Norwegian tradition contrasted Øystein’s domestic building and governance with Sigurd’s crusading fame, preserving him as the peaceful brother-king."
         }
       ],
       "relatedEntries": {
@@ -11247,7 +11358,7 @@
         {
           "date": "c. 1150",
           "title": "Born",
-          "description": "Sverre Sigurdsson is born, according to the approximate chronology used by modern historians."
+          "description": "Sverre Sigurdsson was born around c. 1150, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "c. 1150",
@@ -11257,22 +11368,17 @@
         {
           "date": "1177",
           "title": "Joins Birkebeiner cause",
-          "description": "Joins Birkebeiner cause marks a documented or traditionally reported stage in Sverre Sigurdsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverre joined the Birkebeiner faction and transformed it from a rebel movement into a serious royal challenge."
         },
         {
           "date": "1184",
           "title": "Wins at Fimreite",
-          "description": "Wins at Fimreite marks a documented or traditionally reported stage in Sverre Sigurdsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverre’s victory at Fimreite in 1184 killed Magnus Erlingsson and made him the dominant claimant in Norway’s civil wars."
         },
         {
           "date": "1202",
           "title": "Death",
           "description": "Died in Bergen in 1202 after decades of civil war; the Bagler conflict continued, but his line survived."
-        },
-        {
-          "date": "1202",
-          "title": "Dies",
-          "description": "Sverre died in 1202. Civil conflict continued after him, but his dynasty survived."
         }
       ],
       "relatedEntries": {
@@ -11408,37 +11514,32 @@
         {
           "date": "c. 1204",
           "title": "Born",
-          "description": "Haakon IV Haakonsson is born, according to the approximate chronology used by modern historians."
+          "description": "Haakon IV Haakonsson was born around c. 1204, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1204",
-          "title": "Born",
-          "description": "Haakon IV Haakonsson was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Haakon IV Haakonsson's birth chronology is approximate; the 1204 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1217",
           "title": "Recognized as king",
-          "description": "Recognized as king marks a documented or traditionally reported stage in Haakon IV Haakonsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon IV was recognized during the final phase of Norway’s civil wars, gradually turning contested legitimacy into stable kingship."
         },
         {
           "date": "1247",
           "title": "Coronation confirms legitimacy",
-          "description": "Coronation confirms legitimacy marks a documented or traditionally reported stage in Haakon IV Haakonsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The 1247 coronation gave Haakon papal and ecclesiastical recognition, strengthening the monarchy after generations of civil conflict."
         },
         {
           "date": "1262",
           "title": "Iceland submits to Norway",
-          "description": "Iceland submits to Norway marks a documented or traditionally reported stage in Haakon IV Haakonsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Iceland’s submission in 1262 extended Norwegian royal authority across the North Atlantic world."
         },
         {
           "date": "1263",
           "title": "Death in Orkney",
           "description": "Died in Kirkwall, Orkney, in 1263 after the western campaign that followed the Battle of Largs."
-        },
-        {
-          "date": "1263",
-          "title": "Dies",
-          "description": "Haakon died in 1263 in Orkney after campaigning in the west."
         }
       ],
       "relatedEntries": {
@@ -11575,32 +11676,27 @@
         {
           "date": "c. 1238",
           "title": "Born",
-          "description": "Magnus VI Lawmender is born, according to the approximate chronology used by modern historians."
+          "description": "Magnus VI Lawmender was born around c. 1238, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1238",
-          "title": "Born",
-          "description": "Magnus VI Lawmender was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Magnus VI Lawmender's birth chronology is approximate; the 1238 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1263",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Magnus VI Lawmender's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus VI inherited a strengthened Norwegian monarchy from Haakon IV and turned his reign toward law and administration."
         },
         {
           "date": "1274",
           "title": "Landslov law code",
-          "description": "Landslov law code marks a documented or traditionally reported stage in Magnus VI Lawmender's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The Landslov of 1274 created a kingdom-wide law code, giving Magnus his byname Lawmender and reshaping Norwegian legal government."
         },
         {
           "date": "1280",
           "title": "Death",
           "description": "Died in Bergen in 1280 after a reign remembered for law reform and consolidation of Norwegian royal government."
-        },
-        {
-          "date": "1280",
-          "title": "Dies",
-          "description": "Magnus died in 1280 and was succeeded by Eric II."
         }
       ],
       "relatedEntries": {
@@ -11736,32 +11832,27 @@
         {
           "date": "c. 1268",
           "title": "Born",
-          "description": "Eric II of Norway is born, according to the approximate chronology used by modern historians."
+          "description": "Eric II of Norway was born around c. 1268, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1268",
-          "title": "Born",
-          "description": "Eric II of Norway was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Eric II of Norway's birth chronology is approximate; the 1268 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1280",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Eric II of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric II became king as a young ruler after Magnus VI, inheriting a monarchy shaped by the new national law code."
         },
         {
           "date": "1280s",
           "title": "Scottish dynastic connections",
-          "description": "Scottish dynastic connections marks a documented or traditionally reported stage in Eric II of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric’s marriage ties connected Norway to Scottish succession politics through his daughter Margaret, the Maid of Norway."
         },
         {
           "date": "1299",
           "title": "Death",
           "description": "Died in Bergen in 1299 without a surviving legitimate son, so his brother Haakon V inherited Norway."
-        },
-        {
-          "date": "1299",
-          "title": "Dies",
-          "description": "Eric died in 1299 without a surviving legitimate son, and his brother Haakon V succeeded him."
         }
       ],
       "relatedEntries": {
@@ -11897,32 +11988,27 @@
         {
           "date": "c. 1270",
           "title": "Born",
-          "description": "Haakon V Magnusson is born, according to the approximate chronology used by modern historians."
+          "description": "Haakon V Magnusson was born around c. 1270, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
         },
         {
           "date": "1270",
-          "title": "Born",
-          "description": "Haakon V Magnusson was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Haakon V Magnusson's birth chronology is approximate; the 1270 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1299",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Haakon V Magnusson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon V became king after Eric II and concentrated authority around royal administration, castles, and succession planning."
         },
         {
           "date": "c. 1300",
           "title": "Oslo and Akershus gain royal importance",
-          "description": "Oslo and Akershus gain royal importance marks a documented or traditionally reported stage in Haakon V Magnusson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon’s reign strengthened Oslo’s royal role and the strategic importance of Akershus in Norwegian kingship."
         },
         {
           "date": "1319",
           "title": "Death",
           "description": "Died at Tonsberg in 1319 without a male heir; Norway passed into union with Sweden under Magnus Eriksson."
-        },
-        {
-          "date": "1319",
-          "title": "Dies",
-          "description": "Haakon died in 1319, leaving no male heir. Norway passed into union with Sweden under Magnus Eriksson."
         }
       ],
       "relatedEntries": {
@@ -12059,37 +12145,32 @@
         {
           "date": "c. 1340",
           "title": "Born",
-          "description": "Haakon VI of Norway is born, according to the approximate chronology used by modern historians."
+          "description": "Haakon VI of Norway was born around c. 1340, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1340",
-          "title": "Born",
-          "description": "Haakon VI of Norway was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Haakon VI of Norway's birth chronology is approximate; the 1340 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1343",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Haakon VI of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon VI became king of Norway while still a child, under the shadow of his father Magnus Eriksson’s wider Scandinavian politics."
         },
         {
           "date": "1362",
           "title": "Elected king of Sweden",
-          "description": "Elected king of Sweden marks a documented or traditionally reported stage in Haakon VI of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon’s election in Sweden reflected attempts to manage Swedish opposition to Magnus Eriksson, though his Swedish rule was short-lived."
         },
         {
           "date": "1363",
           "title": "Marries Margaret",
-          "description": "Marries Margaret marks a documented or traditionally reported stage in Haakon VI of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Haakon’s marriage to Margaret of Denmark linked Norwegian succession to Danish politics and helped create the later Kalmar Union context."
         },
         {
           "date": "1380",
           "title": "Death",
           "description": "Died in Oslo in 1380, leaving Olaf IV as heir and Margaret I as the decisive political actor in Norway and Denmark."
-        },
-        {
-          "date": "1380",
-          "title": "Dies",
-          "description": "Haakon died in 1380, leaving Olaf IV as heir and Margaret as a decisive political actor."
         }
       ],
       "relatedEntries": {
@@ -12227,32 +12308,27 @@
         {
           "date": "c. 1370",
           "title": "Born",
-          "description": "Olaf IV of Norway is born, according to the approximate chronology used by modern historians."
+          "description": "Olaf IV of Norway was born around c. 1370, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Denmark."
         },
         {
           "date": "1370",
-          "title": "Born",
-          "description": "Olaf IV of Norway was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Olaf IV of Norway's birth chronology is approximate; the 1370 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1376",
           "title": "Becomes king of Denmark",
-          "description": "Becomes king of Denmark marks a documented or traditionally reported stage in Olaf IV of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olaf became king of Denmark through his mother Margaret’s dynastic position, giving her a crucial role in Danish government."
         },
         {
           "date": "1380",
           "title": "Becomes king of Norway",
-          "description": "Becomes king of Norway marks a documented or traditionally reported stage in Olaf IV of Norway's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olaf inherited Norway from Haakon VI in 1380, briefly uniting the Danish and Norwegian crowns under a child king."
         },
         {
           "date": "1387",
           "title": "Death",
           "description": "Died suddenly at Falsterbo in 1387, creating a succession crisis that Margaret I navigated toward Scandinavian union."
-        },
-        {
-          "date": "1387",
-          "title": "Dies",
-          "description": "Olaf died suddenly in 1387. His death created a succession crisis that Margaret navigated with extraordinary skill."
         }
       ],
       "relatedEntries": {
@@ -12384,32 +12460,27 @@
         {
           "date": "945",
           "title": "Born",
-          "description": "Eric the Victorious is born, according to the approximate chronology used by modern historians."
+          "description": "Eric the Victorious was born around 945, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 945",
-          "title": "Born",
-          "description": "Eric the Victorious was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Eric the Victorious's birth chronology is approximate; the c. 945 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "c. 970",
           "title": "Emerges as ruler",
-          "description": "Emerges as ruler marks a documented or traditionally reported stage in Eric the Victorious's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric appears as an early Swedish ruler in a period where royal authority was still regional and source evidence is limited."
         },
         {
           "date": "late 900s",
           "title": "Associated with Swedish consolidation",
-          "description": "Associated with Swedish consolidation marks a documented or traditionally reported stage in Eric the Victorious's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Later memory associated Eric with Swedish consolidation around the Mälaren region, though details remain difficult to separate from tradition."
         },
         {
           "date": "c. 995",
           "title": "Death",
           "description": "Died around 995; the details are uncertain because his reign is known through sparse and later material."
-        },
-        {
-          "date": "c. 995",
-          "title": "Dies",
-          "description": "Eric died around 995. The details are uncertain and partly dependent on later tradition."
         }
       ],
       "relatedEntries": {
@@ -12541,32 +12612,27 @@
         {
           "date": "980",
           "title": "Born",
-          "description": "Olof Skötkonung is born, according to the approximate chronology used by modern historians."
+          "description": "Olof Skötkonung was born around 980, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 980",
-          "title": "Born",
-          "description": "Olof Skötkonung was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Olof Skötkonung's birth chronology is approximate; the c. 980 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "c. 995",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Olof Skötkonung's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olof Skötkonung ruled as one of the first Swedish kings visible through both written tradition and coinage."
         },
         {
           "date": "c. 995-1020",
           "title": "Coinage at Sigtuna",
-          "description": "Coinage at Sigtuna marks a documented or traditionally reported stage in Olof Skötkonung's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Olof’s coinage at Sigtuna linked Swedish kingship to Christian and European monetary models."
         },
         {
           "date": "c. 1022",
           "title": "Death",
           "description": "Died around 1022 after promoting Christian kingship and coinage; the exact place and cause are not securely recorded."
-        },
-        {
-          "date": "1022",
-          "title": "Dies",
-          "description": "Olof died around 1022. His successors continued a still-fragile Christian royal tradition."
         }
       ],
       "relatedEntries": {
@@ -12699,32 +12765,27 @@
         {
           "date": "c. 1008",
           "title": "Born",
-          "description": "Anund Jacob is born, according to the approximate chronology used by modern historians."
+          "description": "Anund Jacob was born around c. 1008, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1008 or 1010",
-          "title": "Born",
-          "description": "Anund Jacob was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Anund Jacob's birth chronology is approximate; the 1008 or 1010 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1022",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Anund Jacob's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Anund Jacob succeeded Olof Skötkonung and ruled during a period of Scandinavian rivalry with Cnut’s North Sea power."
         },
         {
           "date": "1030s",
           "title": "Rules during Scandinavian power shifts",
-          "description": "Rules during Scandinavian power shifts marks a documented or traditionally reported stage in Anund Jacob's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Anund’s reign unfolded amid Danish, Norwegian, and English power shifts after Cnut’s rise and the changing politics of the Baltic."
         },
         {
           "date": "c. 1050",
           "title": "Death",
           "description": "Died around 1050; the succession passed to Emund the Old within a still-developing Swedish monarchy."
-        },
-        {
-          "date": "1050",
-          "title": "Dies",
-          "description": "Anund Jacob died around 1050. The succession passed to Emund the Old."
         }
       ],
       "relatedEntries": {
@@ -12856,32 +12917,27 @@
         {
           "date": "c. 1000",
           "title": "Born",
-          "description": "Emund the Old is born, according to the approximate chronology used by modern historians."
+          "description": "Emund the Old was born around c. 1000, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 1000",
           "title": "Approximate birth context",
-          "description": "Approximate birth context marks a documented or traditionally reported stage in Emund the Old's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Emund’s early life is poorly documented, but he belonged to the late Viking Age world of Swedish royal and Christian change."
         },
         {
           "date": "c. 1050",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Emund the Old's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Emund became king late in the old dynasty’s history, ruling during a period of uncertain succession and church organization."
         },
         {
           "date": "1050s",
           "title": "Ecclesiastical tensions",
-          "description": "Ecclesiastical tensions marks a documented or traditionally reported stage in Emund the Old's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Emund’s reign is associated with tensions over bishops and church alignment as Sweden’s Christian institutions developed."
         },
         {
           "date": "c. 1060",
           "title": "Death",
           "description": "Died around 1060; Stenkil succeeded him as Swedish kingship remained contested between dynastic and regional interests."
-        },
-        {
-          "date": "1060",
-          "title": "Dies",
-          "description": "Emund died around 1060. Stenkil succeeded him."
         }
       ],
       "relatedEntries": {
@@ -13013,32 +13069,27 @@
         {
           "date": "c. 1028",
           "title": "Born",
-          "description": "Stenkil is born, according to the approximate chronology used by modern historians."
+          "description": "Stenkil was born around c. 1028, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 1028",
           "title": "Approximate birth",
-          "description": "Approximate birth marks a documented or traditionally reported stage in Stenkil's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Stenkil’s birth details are uncertain, but later tradition links him to the transition from older Swedish royal lines to the Stenkil dynasty."
         },
         {
           "date": "c. 1060",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Stenkil's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Stenkil became king after Emund, opening a new dynastic phase in Swedish politics."
         },
         {
           "date": "1060s",
           "title": "Christian royal policy",
-          "description": "Christian royal policy marks a documented or traditionally reported stage in Stenkil's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Stenkil is remembered as a Christian ruler whose reign still had to navigate regional resistance and older religious traditions."
         },
         {
           "date": "c. 1066",
           "title": "Death",
           "description": "Died around 1066; his death was followed by renewed instability in Swedish kingship."
-        },
-        {
-          "date": "1066",
-          "title": "Dies",
-          "description": "Stenkil died around 1066. His death led to renewed instability."
         }
       ],
       "relatedEntries": {
@@ -13170,17 +13221,17 @@
         {
           "date": "c. 1050",
           "title": "Born",
-          "description": "Inge the Elder is born, according to the approximate chronology used by modern historians."
+          "description": "Inge the Elder was born around c. 1050, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 1080",
           "title": "Rules in Sweden",
-          "description": "Rules in Sweden marks a documented or traditionally reported stage in Inge the Elder's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Inge ruled amid dynastic rivalry and the uneven Christianization of Sweden, with power contested between regions and claimants."
         },
         {
           "date": "late 1000s",
           "title": "Christian-pagan conflict in tradition",
-          "description": "Christian-pagan conflict in tradition marks a documented or traditionally reported stage in Inge the Elder's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Later tradition remembered Inge in conflict over pagan sacrifice at Uppsala, though the details are shaped by medieval Christian storytelling."
         },
         {
           "date": "c. 1110",
@@ -13188,9 +13239,9 @@
           "description": "Died around 1105-1110 after helping strengthen Christian royal legitimacy in Sweden; the exact place and circumstances are uncertain."
         },
         {
-          "date": "1110",
-          "title": "Dies",
-          "description": "Inge died around 1105-1110. His reign helped establish Christian royal legitimacy."
+          "date": "after 1110",
+          "title": "Aftermath and memory",
+          "description": "Inge’s memory remained tied to the victory of Christian kingship in Sweden, though the stories about pagan opposition at Uppsala are filtered through later Christian tradition."
         }
       ],
       "relatedEntries": {
@@ -13326,22 +13377,22 @@
         {
           "date": "c. 1100",
           "title": "Born",
-          "description": "Sverker I of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Sverker I of Sweden was born around c. 1100, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 1132",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Sverker I of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverker I became king in a period of competing Swedish dynasties and regional power bases."
         },
         {
           "date": "1140s",
           "title": "Church patronage develops",
-          "description": "Church patronage develops marks a documented or traditionally reported stage in Sverker I of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverker’s reign is associated with monastic and church patronage, especially as Cistercian influence grew in Sweden."
         },
         {
           "date": "1156",
           "title": "Murdered",
-          "description": "Murdered marks a documented or traditionally reported stage in Sverker I of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverker was murdered around Christmas in 1156, a violent end that reflected the instability of twelfth-century Swedish kingship."
         },
         {
           "date": "1156",
@@ -13484,17 +13535,17 @@
         {
           "date": "c. 1125",
           "title": "Born",
-          "description": "Eric IX of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Eric IX of Sweden was born around c. 1125, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "c. 1156",
           "title": "Rules as king",
-          "description": "Rules as king marks a documented or traditionally reported stage in Eric IX of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Eric IX ruled in mid-twelfth-century Sweden and later became the focus of a royal saintly cult."
         },
         {
           "date": "traditionally 1150s",
           "title": "Mission or crusade traditions",
-          "description": "Mission or crusade traditions marks a documented or traditionally reported stage in Eric IX of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Later tradition connected Eric with a Finnish crusade and missionary activity, but the historical details are difficult to verify."
         },
         {
           "date": "1160",
@@ -13502,9 +13553,9 @@
           "description": "Killed in 1160, traditionally at Uppsala after Mass; his cult later became central to Swedish royal sanctity."
         },
         {
-          "date": "1160",
-          "title": "Dies",
-          "description": "Eric was killed in 1160, traditionally at Uppsala. His cult later became central to Swedish royal identity."
+          "date": "after 1160",
+          "title": "Aftermath and memory",
+          "description": "Eric’s posthumous cult made him a royal saint and symbol of Swedish kingship, even where the details of his reign and alleged crusade remain uncertain."
         }
       ],
       "relatedEntries": {
@@ -13636,32 +13687,27 @@
         {
           "date": "c. 1150",
           "title": "Born",
-          "description": "Knut Eriksson is born, according to the approximate chronology used by modern historians."
+          "description": "Knut Eriksson was born around c. 1150, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "before 1150",
-          "title": "Born",
-          "description": "Knut Eriksson was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Knut Eriksson's birth chronology is approximate; the before 1150 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1167",
           "title": "Rival king after killing Karl Sverkersson",
-          "description": "Rival king after killing Karl Sverkersson marks a documented or traditionally reported stage in Knut Eriksson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Knut became a rival claimant after killing Karl Sverkersson, continuing the struggle between Erik and Sverker dynastic factions."
         },
         {
           "date": "1173",
           "title": "Recognized more widely",
-          "description": "Recognized more widely marks a documented or traditionally reported stage in Knut Eriksson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "By the 1170s Knut’s position had strengthened, allowing him to rule more securely after years of dynastic conflict."
         },
         {
           "date": "1195/96",
           "title": "Death",
           "description": "Died in 1195 or 1196 after a long reign; his sons later renewed the succession struggle with the Sverker line."
-        },
-        {
-          "date": "1196",
-          "title": "Dies",
-          "description": "Knut died in 1195 or 1196. His sons later became part of renewed succession struggle."
         }
       ],
       "relatedEntries": {
@@ -13802,32 +13848,27 @@
         {
           "date": "c. 1167",
           "title": "Born",
-          "description": "Sverker II of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Sverker II of Sweden was born around c. 1167, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "before 1167",
-          "title": "Born",
-          "description": "Sverker II of Sweden was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Sverker II of Sweden's birth chronology is approximate; the before 1167 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1195/96",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Sverker II of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverker II became king as the Sverker line returned to power in a kingdom still divided by dynastic rivalry."
         },
         {
           "date": "1208",
           "title": "Defeated at Lena",
-          "description": "Defeated at Lena marks a documented or traditionally reported stage in Sverker II of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Sverker’s defeat at Lena in 1208 weakened his cause and elevated the Erik line’s challenge."
         },
         {
           "date": "1210",
           "title": "Killed at Gestilren",
           "description": "Killed at the Battle of Gestilren in 1210 during dynastic conflict with the Erik line."
-        },
-        {
-          "date": "1210",
-          "title": "Dies",
-          "description": "Sverker died in 1210 at the Battle of Gestilren."
         }
       ],
       "relatedEntries": {
@@ -13964,17 +14005,17 @@
         {
           "date": "c. 1180",
           "title": "Born",
-          "description": "Erik Knutsson is born, according to the approximate chronology used by modern historians."
+          "description": "Erik Knutsson was born around c. 1180, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1208",
           "title": "Wins at Lena",
-          "description": "Wins at Lena marks a documented or traditionally reported stage in Erik Knutsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Erik Knutsson defeated Sverker II’s forces at Lena, a key victory in Sweden’s dynastic wars."
         },
         {
           "date": "1210",
           "title": "Secures rule after Gestilren",
-          "description": "Secures rule after Gestilren marks a documented or traditionally reported stage in Erik Knutsson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "After Gestilren in 1210, Erik secured kingship more firmly and became the first Swedish king known to have been crowned."
         },
         {
           "date": "1216",
@@ -13982,9 +14023,9 @@
           "description": "Died in 1216 at Nas Castle, leaving a young heir and prolonging Swedish dynastic instability."
         },
         {
-          "date": "1216",
-          "title": "Dies",
-          "description": "Erik died in 1216, leaving a young heir and continued instability."
+          "date": "after 1216",
+          "title": "Aftermath and memory",
+          "description": "Erik’s reign helped stabilize the Erik dynasty after decades of conflict with the Sverker line, and his crowned kingship became part of Sweden’s developing royal ceremony."
         }
       ],
       "relatedEntries": {
@@ -14121,17 +14162,17 @@
         {
           "date": "c. 1210",
           "title": "Born",
-          "description": "Birger Jarl is born, according to the approximate chronology used by modern historians."
+          "description": "Birger Jarl was born around c. 1210, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Jarl of Sweden / Regent / de facto ruler."
         },
         {
           "date": "1248",
           "title": "Becomes jarl",
-          "description": "Becomes jarl marks a documented or traditionally reported stage in Birger Jarl's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Birger became jarl, the highest aristocratic office in Sweden, and used that position to dominate royal government."
         },
         {
           "date": "1250",
           "title": "His son becomes king",
-          "description": "His son becomes king marks a documented or traditionally reported stage in Birger Jarl's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "When Birger’s son Valdemar became king in 1250, Birger effectively governed Sweden through family power and regency authority."
         },
         {
           "date": "1266",
@@ -14139,9 +14180,9 @@
           "description": "Died in 1266 after decades as Sweden’s dominant jarl; his descendants shaped royal power through the Folkung/Bjälbo line."
         },
         {
-          "date": "1266",
-          "title": "Dies",
-          "description": "Birger died in 1266. His descendants dominated Swedish kingship."
+          "date": "after 1266",
+          "title": "Aftermath and memory",
+          "description": "Birger’s sons and descendants carried his power into the Folkung/Bjälbo royal line, making his jarlship foundational for later medieval Swedish monarchy."
         }
       ],
       "relatedEntries": {
@@ -14277,37 +14318,32 @@
         {
           "date": "c. 1239",
           "title": "Born",
-          "description": "Valdemar of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Valdemar of Sweden was born around c. 1239, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1239",
-          "title": "Born",
-          "description": "Valdemar of Sweden was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Valdemar of Sweden's birth chronology is approximate; the 1239 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1250",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Valdemar of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar became king as a child after the extinction of the Erik line, while his father Birger Jarl held real political power."
         },
         {
           "date": "1266",
           "title": "Rules after Birger’s death",
-          "description": "Died in 1302 after deposition and confinement, a victim of the dynastic struggle that brought his brother Magnus III to power."
+          "description": "After Birger Jarl died in 1266, Valdemar had to rule without his father’s authority and soon faced pressure from his brothers."
         },
         {
           "date": "1275",
           "title": "Deposed",
-          "description": "Deposed marks a documented or traditionally reported stage in Valdemar of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Valdemar was defeated and deposed by his brother Magnus after the Battle of Hova, ending his effective kingship."
         },
         {
           "date": "1302",
           "title": "Death",
-          "description": "Died in 1302 after deposition and confinement, a victim of the dynastic struggle that brought his brother Magnus III to power."
-        },
-        {
-          "date": "1302",
-          "title": "Dies",
-          "description": "Valdemar was deposed in 1275 and died in 1302."
+          "description": "Valdemar died in 1302 after deposition and confinement, a victim of the dynastic struggle that brought Magnus III to power."
         }
       ],
       "relatedEntries": {
@@ -14444,17 +14480,17 @@
         {
           "date": "c. 1240",
           "title": "Born",
-          "description": "Magnus III of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Magnus III of Sweden was born around c. 1240, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1275",
           "title": "Wins power at Hova",
-          "description": "Wins power at Hova marks a documented or traditionally reported stage in Magnus III of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus defeated his brother Valdemar at Hova in 1275, using aristocratic support to seize the Swedish throne."
         },
         {
           "date": "1280",
           "title": "Ordinance of Alsnö",
-          "description": "Ordinance of Alsnö marks a documented or traditionally reported stage in Magnus III of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "The Ordinance of Alsnö is associated with privileges for mounted military service, helping define Sweden’s medieval nobility."
         },
         {
           "date": "1290",
@@ -14462,9 +14498,9 @@
           "description": "Died in 1290 after strengthening royal authority and aristocratic privilege; his sons’ rivalries later destabilized Sweden."
         },
         {
-          "date": "1290",
-          "title": "Dies",
-          "description": "Magnus died in 1290. His sons’ rivalries later destabilized Sweden."
+          "date": "after 1290",
+          "title": "Aftermath and memory",
+          "description": "Magnus’s reign was remembered for aristocratic privilege and royal order, especially through the Alsnö tradition and the consolidation of noble mounted service."
         }
       ],
       "relatedEntries": {
@@ -14600,32 +14636,27 @@
         {
           "date": "c. 1280",
           "title": "Born",
-          "description": "Birger Magnusson is born, according to the approximate chronology used by modern historians."
+          "description": "Birger Magnusson was born around c. 1280, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1290",
           "title": "Becomes king",
-          "description": "Becomes king marks a documented or traditionally reported stage in Birger Magnusson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Birger became king after Magnus III, but his reign was overshadowed by rivalry with his brothers Erik and Valdemar."
         },
         {
           "date": "1317",
           "title": "Nyköping Banquet",
-          "description": "Nyköping Banquet marks a documented or traditionally reported stage in Birger Magnusson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "At the Nyköping Banquet, Birger imprisoned his brothers; their deaths triggered outrage and destroyed his political position."
         },
         {
           "date": "1318",
           "title": "Deposed",
-          "description": "Deposed marks a documented or traditionally reported stage in Birger Magnusson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Birger was driven from power after the backlash to Nyköping, ending his rule and forcing him into exile."
         },
         {
           "date": "after 1321",
           "title": "Death in exile",
           "description": "Died in exile in Denmark after deposition, following the political disaster of the Nyköping Banquet and civil conflict."
-        },
-        {
-          "date": "1321",
-          "title": "Dies",
-          "description": "Birger was deposed in 1318 and died in exile after 1321."
         }
       ],
       "relatedEntries": {
@@ -14763,37 +14794,32 @@
         {
           "date": "c. 1316",
           "title": "Born",
-          "description": "Magnus Eriksson is born, according to the approximate chronology used by modern historians."
+          "description": "Magnus Eriksson was born around c. 1316, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1316",
-          "title": "Born",
-          "description": "Magnus Eriksson was born; the date is approximate where the sources require caution."
+          "title": "Birth chronology",
+          "description": "Magnus Eriksson's birth chronology is approximate; the 1316 label reflects the range used for this article rather than a precisely documented birthday."
         },
         {
           "date": "1319",
           "title": "Becomes king of Sweden and Norway",
-          "description": "Becomes king of Sweden and Norway marks a documented or traditionally reported stage in Magnus Eriksson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus inherited both Sweden and Norway as a child, creating a personal union shaped by regency politics."
         },
         {
           "date": "1332",
           "title": "Acquires Scania",
-          "description": "Acquires Scania marks a documented or traditionally reported stage in Magnus Eriksson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Magnus acquired Scania from Denmark, briefly expanding Swedish royal power in the southern Baltic region."
         },
         {
           "date": "1364",
           "title": "Deposed in Sweden",
-          "description": "Deposed in Sweden marks a documented or traditionally reported stage in Magnus Eriksson's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Swedish opposition brought Albert of Mecklenburg to power in 1364, ending Magnus’s effective rule in Sweden."
         },
         {
           "date": "1374",
           "title": "Death",
           "description": "Died in 1374, traditionally by drowning off Bømlo in Norway, after losing effective power in both Sweden and Norway."
-        },
-        {
-          "date": "1374",
-          "title": "Dies",
-          "description": "Magnus died in 1374, traditionally by drowning in Norway."
         }
       ],
       "relatedEntries": {
@@ -14930,17 +14956,17 @@
         {
           "date": "c. 1338",
           "title": "Born",
-          "description": "Albert of Mecklenburg is born, according to the approximate chronology used by modern historians."
+          "description": "Albert of Mecklenburg was born around c. 1338, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden."
         },
         {
           "date": "1364",
           "title": "Becomes king of Sweden",
-          "description": "Becomes king of Sweden marks a documented or traditionally reported stage in Albert of Mecklenburg's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Albert became king with support from Swedish nobles opposed to Magnus Eriksson, bringing Mecklenburg interests into Swedish politics."
         },
         {
           "date": "1389",
           "title": "Defeated at Åsle and captured",
-          "description": "Defeated at Åsle and captured marks a documented or traditionally reported stage in Albert of Mecklenburg's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Albert was defeated and captured by Margaret I at Åsle in 1389, opening the way for her control over Sweden."
         },
         {
           "date": "1412",
@@ -14948,9 +14974,9 @@
           "description": "Died in Mecklenburg in 1412 after losing the Swedish crown to the forces supporting Margaret I."
         },
         {
-          "date": "1412",
-          "title": "Dies",
-          "description": "Albert died in 1412 after losing Sweden and returning to Mecklenburg politics."
+          "date": "after 1412",
+          "title": "Aftermath and memory",
+          "description": "Albert’s defeat allowed Margaret I to dominate Sweden and helped shift Scandinavian politics toward the Kalmar Union."
         }
       ],
       "relatedEntries": {
@@ -15088,32 +15114,27 @@
         {
           "date": "c. 1408",
           "title": "Born",
-          "description": "Charles VIII of Sweden is born, according to the approximate chronology used by modern historians."
+          "description": "Charles VIII of Sweden was born around c. 1408, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Sweden / Kingdom of Norway."
         },
         {
           "date": "1448",
           "title": "Becomes king of Sweden",
-          "description": "Becomes king of Sweden marks a documented or traditionally reported stage in Charles VIII of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Charles VIII became king during Sweden’s recurring resistance to Kalmar Union rule."
         },
         {
           "date": "1449",
           "title": "Claims Norway",
-          "description": "Claims Norway marks a documented or traditionally reported stage in Charles VIII of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Charles briefly claimed Norway in 1449, challenging Danish-led union politics after Christopher of Bavaria’s death."
         },
         {
           "date": "1464",
           "title": "Returns to power",
-          "description": "Returns to power marks a documented or traditionally reported stage in Charles VIII of Sweden's career, interpreted cautiously where the medieval evidence is thin."
+          "description": "Charles returned to the Swedish throne in 1464, one of several restorations in a career marked by exile and factional politics."
         },
         {
           "date": "1470",
           "title": "Death",
           "description": "Died in Stockholm in 1470 after his final return to Swedish kingship, leaving the anti-union struggle unresolved."
-        },
-        {
-          "date": "1470",
-          "title": "Dies",
-          "description": "Charles died in 1470 after his final return to Swedish kingship."
         }
       ],
       "relatedEntries": {
@@ -17741,7 +17762,7 @@
       "deathAge": "55",
       "restingPlace": "Dunfermline Abbey",
       "location": "Kingdom of Scotland",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Medieval_coin%2C_Penny_of_Robert_the_Bruce_%28FindID_961323-1097387%29_Cropped.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MK18541_Bannockburn_Robert_the_Bruce.jpg",
       "summary": "Robert the Bruce was king of Scots and the central ruler in Scotland’s successful struggle for renewed independence.",
       "details": "Robert the Bruce was king of Scots and the central ruler in Scotland’s successful struggle for renewed independence.",
       "title": "king of Scots",
@@ -17771,11 +17792,12 @@
         "knownFor": "Scottish victory at Bannockburn"
       },
       "imageInfo": {
-        "caption": "Image associated with Robert the Bruce.",
-        "creator": "Unknown or public-domain source",
-        "date": "medieval or later public-domain image",
+        "caption": "Equestrian statue of Robert the Bruce at Bannockburn, photographed by Martin Kraft.",
+        "creator": "Martin Kraft (photograph); statue by Pilkington Jackson",
+        "date": "2014 photograph of a 1964 monument",
         "source": "Wikimedia Commons",
-        "note": "Used as a historical depiction, seal, coin, manuscript image, tomb, or associated artwork; not necessarily a contemporary portrait."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MK18541_Bannockburn_Robert_the_Bruce.jpg",
+        "note": "Modern commemorative monument, not a contemporary portrait; selected as a stronger visual anchor for a major ruler than a coin."
       },
       "overview": [
         "Robert the Bruce was king of Scots and the central ruler in Scotland’s successful struggle for renewed independence."
@@ -17886,6 +17908,19 @@
           "author": "Wikimedia Commons",
           "type": "image source",
           "url": "https://commons.wikimedia.org/wiki/File:Medieval_coin%2C_Penny_of_Robert_the_Bruce_(FindID_961323-1097387)_Cropped.jpg"
+        }
+      ],
+      "sectionImages": [
+        {
+          "section": "As king of Scots",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Medieval_coin%2C_Penny_of_Robert_the_Bruce_%28FindID_961323-1097387%29_Cropped.jpg",
+          "alt": "Penny of Robert the Bruce",
+          "caption": "Penny of Robert the Bruce, showing royal authority through coinage rather than a likeness.",
+          "creator": "Scottish royal mint",
+          "date": "Early 14th century",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medieval_coin,_Penny_of_Robert_the_Bruce_(FindID_961323-1097387)_Cropped.jpg",
+          "note": "Numismatic evidence from the reign; useful as supporting material rather than the primary visual identity of the article."
         }
       ]
     },

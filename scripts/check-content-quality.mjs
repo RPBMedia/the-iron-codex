@@ -23,6 +23,21 @@ const suspiciousPatterns = [
   /appears in a major phase of the reign/i
 ]
 
+const suspiciousTimelinePatterns = [
+  ...suspiciousPatterns,
+  /appears in a major phase/i,
+  /is involved in important events/i,
+  /becomes significant/i,
+  /shapes medieval history/i,
+  /continues to influence events/i,
+  /this event marks an important moment/i,
+  /the ruler'?s reign continues/i,
+  /the person is associated with this period/i,
+  /marks a documented or traditionally reported stage/i,
+  /according to the approximate chronology/i,
+  /interpreted cautiously where the medieval evidence is thin/i
+]
+
 const findings = []
 
 function labelFor(item) {
@@ -61,6 +76,68 @@ for (const [collection, entries] of Object.entries(data)) {
 
   for (const entry of entries) {
     walk(entry, '', { collection, article: labelFor(entry) })
+
+    if (collection === 'characters') {
+      validatePersonTimeline(entry)
+    }
+  }
+}
+
+function validatePersonTimeline(person) {
+  const timeline = person.timeline ?? []
+
+  if (timeline.length < 5) {
+    findings.push({
+      collection: 'characters',
+      article: labelFor(person),
+      path: 'timeline',
+      pattern: 'minimum timeline length',
+      snippet: `Person timeline has ${timeline.length} event(s); expected at least 5.`
+    })
+  }
+
+  const descriptions = new Map()
+
+  timeline.forEach((item, index) => {
+    const path = `timeline[${index}]`
+    const description = String(item.description ?? '').trim()
+
+    if (!description) {
+      findings.push({
+        collection: 'characters',
+        article: labelFor(person),
+        path,
+        pattern: 'missing timeline description',
+        snippet: `${item.date ?? 'undated'} — ${item.title ?? 'untitled'}`
+      })
+      return
+    }
+
+    const match = suspiciousTimelinePatterns.find((pattern) => pattern.test(description))
+
+    if (match) {
+      findings.push({
+        collection: 'characters',
+        article: labelFor(person),
+        path: `${path}.description`,
+        pattern: match.source,
+        snippet: description.slice(0, 220)
+      })
+    }
+
+    descriptions.set(description, [...(descriptions.get(description) ?? []), index])
+  })
+
+  for (const [description, indexes] of descriptions) {
+    if (indexes.length > 1) {
+      findings.push({
+        collection: 'characters',
+        article: labelFor(person),
+        path: `timeline[${indexes.join(',')}].description`,
+        pattern: 'duplicate timeline description',
+        snippet: description.slice(0, 220)
+      })
+    }
   }
 }
 
