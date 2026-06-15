@@ -203,3 +203,45 @@ export const entityLinks = [
   { label: "Oslo", type: "location", slug: "oslo" },
   { label: "Rome", type: "location", slug: "rome" }
 ]
+
+export const ambiguousEntityAliases = [
+  {
+    terms: ["Battle of Poitiers", "Tours-Poitiers"],
+    possibleTargets: [
+      {
+        title: "Battle of Tours",
+        label: "Battle of Tours",
+        type: "event",
+        slug: "battle-of-tours",
+        date: "732",
+        contextHints: [
+          "732",
+          "Charles Martel",
+          "Umayyad",
+          "al-Andalus",
+          "Tours",
+          "Franks",
+          "Abd al-Rahman al-Ghafiqi",
+          "Tours-Poitiers"
+        ]
+      },
+      {
+        title: "Battle of Poitiers",
+        label: "Battle of Poitiers",
+        type: "event",
+        slug: "battle-of-poitiers",
+        date: "1356",
+        contextHints: [
+          "1356",
+          "Hundred Years",
+          "Edward, the Black Prince",
+          "Black Prince",
+          "John II",
+          "Anglo-Gascon",
+          "English",
+          "French"
+        ]
+      }
+    ]
+  }
+]

@@ -8,7 +8,8 @@ const primaryNavigation = [
   { label: 'Events', to: '/events' },
   { label: 'Locations', to: '/locations' },
   { label: 'People', to: '/people' },
-  { label: 'Artifacts', to: '/artifacts' }
+  { label: 'Artifacts', to: '/artifacts' },
+  { label: 'Index', to: '/index' }
 ]
 
 export default function Header() {

@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getArticle } from '../lib/api.js'
-import { entityLinks } from '../lib/entityLinks.js'
+import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
 import { fallbackImage, shouldUseFallbackImage } from '../lib/images.js'
 
 const collectionLabels = {
@@ -607,11 +607,16 @@ function renderLinkedText(text, article) {
       nodes.push(text.slice(cursor, match.index))
     }
 
-    nodes.push(
-      <Link className="article-link" to={routeForEntry(match.entry)} key={`${match.index}-${match.term}`}>
-        {text.slice(match.index, match.index + match.term.length)}
-      </Link>
-    )
+    if (match.entry) {
+      nodes.push(
+        <Link className="article-link" to={routeForEntry(match.entry)} key={`${match.index}-${match.term}`}>
+          {text.slice(match.index, match.index + match.term.length)}
+        </Link>
+      )
+    } else {
+      nodes.push(text.slice(match.index, match.index + match.term.length))
+    }
+
     cursor = match.index + match.term.length
   })
 
@@ -624,18 +629,28 @@ function renderLinkedText(text, article) {
 
 function findEntityMatches(text, article) {
   const currentEntry = currentEntryKey(article)
+  const overrides = findLinkOverrideMatches(text, article, currentEntry)
+  const occupied = overrides.map((match) => [match.index, match.index + match.term.length])
   const candidates = entityLinks
     .flatMap((entry) => [entry.label, ...(entry.aliases ?? [])].map((term) => ({ entry, term })))
     .filter(({ entry }) => `${entry.type}-${entry.slug}` !== currentEntry)
     .filter(({ term }) => term && text.toLowerCase().includes(term.toLowerCase()))
     .sort((a, b) => b.term.length - a.term.length)
 
-  const occupied = []
   const usedEntries = new Set()
-  const matches = []
+  const matches = overrides.filter((match) => match.entry)
 
-  candidates.forEach(({ entry, term }) => {
-    if (usedEntries.has(`${entry.type}-${entry.slug}`)) return
+  matches.forEach((match) => usedEntries.add(`${match.entry.type}-${match.entry.slug}`))
+
+  candidates.forEach(({ entry: originalEntry, term }) => {
+    let entry = originalEntry
+    const resolvedEntry = resolveAmbiguousAlias(term, text, article, currentEntry)
+
+    if (resolvedEntry === null) return
+    if (resolvedEntry) entry = resolvedEntry
+
+    const entryKey = `${entry.type}-${entry.slug}`
+    if (entryKey === currentEntry || usedEntries.has(entryKey)) return
 
     const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegExp(term)})(?=$|[^A-Za-z0-9])`, 'i')
     const match = text.match(pattern)
@@ -649,11 +664,76 @@ function findEntityMatches(text, article) {
     if (overlaps) return
 
     occupied.push([index, end])
-    usedEntries.add(`${entry.type}-${entry.slug}`)
+    usedEntries.add(entryKey)
     matches.push({ entry, term: match[2], index })
   })
 
   return matches.sort((a, b) => a.index - b.index)
+}
+
+function findLinkOverrideMatches(text, article, currentEntry) {
+  const overrides = (article?.linkOverrides ?? [])
+    .filter((override) => override.term && text.toLowerCase().includes(override.term.toLowerCase()))
+    .sort((a, b) => b.term.length - a.term.length)
+
+  const occupied = []
+  const matches = []
+
+  overrides.forEach((override) => {
+    const pattern = new RegExp(`(^|[^A-Za-z0-9])(${escapeRegExp(override.term)})(?=$|[^A-Za-z0-9])`, 'i')
+    const match = text.match(pattern)
+
+    if (!match || match.index === undefined) return
+
+    const index = match.index + match[1].length
+    const end = index + match[2].length
+    const overlaps = occupied.some(([start, existingEnd]) => index < existingEnd && end > start)
+
+    if (overlaps) return
+
+    occupied.push([index, end])
+
+    if (override.target && `${override.target.type}-${override.target.slug}` !== currentEntry) {
+      matches.push({ entry: override.target, term: match[2], index })
+      return
+    }
+
+    matches.push({ entry: null, term: match[2], index })
+  })
+
+  return matches
+}
+
+function resolveAmbiguousAlias(term, text, article, currentEntry) {
+  const ambiguousAlias = ambiguousEntityAliases.find((alias) =>
+    alias.terms.some((aliasTerm) => aliasTerm.toLowerCase() === term.toLowerCase())
+  )
+
+  if (!ambiguousAlias) return undefined
+
+  const context = text.toLowerCase()
+  const scoredTargets = ambiguousAlias.possibleTargets
+    .map((target) => ({
+      ...target,
+      score: (target.contextHints ?? []).filter((hint) => context.includes(hint.toLowerCase())).length
+    }))
+    .sort((a, b) => b.score - a.score)
+
+  const currentTarget = scoredTargets.find((target) => `${target.type}-${target.slug}` === currentEntry)
+
+  if (currentTarget && currentTarget.score > 0) {
+    return null
+  }
+
+  if (!scoredTargets.length || scoredTargets[0].score === 0) {
+    return null
+  }
+
+  if (scoredTargets[1] && scoredTargets[1].score === scoredTargets[0].score) {
+    return null
+  }
+
+  return scoredTargets[0]
 }
 
 function currentEntryKey(article) {
@@ -718,12 +798,19 @@ function renderDeath(article) {
   return (
     <>
       {death.date ?? fallback}
+      {death.event && (
+        <>
+          {' · '}
+          <EntryLink entry={death.event}>{death.event.name ?? death.event.title}</EntryLink>
+        </>
+      )}
       {death.place && (
         <>
           {' · '}
           <LinkedLocationFact place={death.place} />
         </>
       )}
+      {death.circumstance && <small>{renderLinkedText(death.circumstance, article)}</small>}
       {death.note && <small>{death.note}</small>}
     </>
   )

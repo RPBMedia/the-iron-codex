@@ -87,12 +87,16 @@ export default function FavoritesPage() {
           <div className="favorites-list">
             {sortedFavorites.map((favorite) => (
               <article className="favorite-item" key={`${favorite.collection}-${favorite.id}`}>
+                <Link
+                  className="favorite-card-link"
+                  to={favorite.url}
+                  aria-label={`Open article: ${favorite.title}`}
+                />
                 <img src={favorite.image} alt="" loading="lazy" />
                 <div>
                   <span>{favorite.type}{favorite.date ? ` · ${favorite.date}` : ''}</span>
                   <h2>{favorite.title}</h2>
                   <p>{favorite.description}</p>
-                  <Link to={favorite.url}>Open article</Link>
                 </div>
                 <FavoriteButton
                   article={favorite}

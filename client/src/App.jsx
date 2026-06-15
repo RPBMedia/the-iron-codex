@@ -8,6 +8,7 @@ import SearchPage from './pages/SearchPage.jsx'
 import AuthCallback from './pages/AuthCallback.jsx'
 import AuthPage from './pages/AuthPage.jsx'
 import FavoritesPage from './pages/FavoritesPage.jsx'
+import IndexPage from './pages/IndexPage.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
             <Route path="/characters" element={<Navigate to="/people" replace />} />
             <Route path="/characters/:id" element={<RedirectCharacter />} />
             <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
+            <Route path="/index" element={<IndexPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/login" element={<AuthPage mode="login" />} />
             <Route path="/signup" element={<AuthPage mode="signup" />} />
