@@ -20,17 +20,29 @@ const suspiciousPatterns = [
   /mattered historically/i,
   /surviving evidence must often be read/i,
   /was central to .* historical importance/i,
-  /appears in a major phase of the reign/i
+  /appears in .*major.*phase.*reign/i,
+  /is central to .* place in medieval history/i,
+  /career connects directly/i,
+  /included in IronCodex because/i,
+  /appears in IronCodex/i,
+  /serving as a generic map point/i,
+  /Death details are summarized cautiously/i,
+  /Birth details are not securely preserved/i,
+  /the article keeps .* cautious/i,
+  /where medieval sources disagree/i
 ]
 
 const suspiciousTimelinePatterns = [
   ...suspiciousPatterns,
-  /appears in a major phase/i,
+  /appears in .*major.*phase/i,
+  /major.*phase.*reign/i,
   /is involved in important events/i,
   /becomes significant/i,
   /shapes medieval history/i,
   /continues to influence events/i,
+  /continues to influence/i,
   /this event marks an important moment/i,
+  /important moment/i,
   /the ruler'?s reign continues/i,
   /the person is associated with this period/i,
   /marks a documented or traditionally reported stage/i,

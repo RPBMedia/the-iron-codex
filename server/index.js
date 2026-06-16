@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, statSync } from 'node:fs'
 import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -58,19 +58,34 @@ function loadEnvFile(filePath) {
 app.use(cors({ credentials: true, origin: process.env.CORS_ORIGIN || true }))
 app.use(express.json())
 
-const data = JSON.parse(
-  await readFile(path.join(__dirname, 'data', 'history.json'), 'utf-8')
-)
+const historyDataPath = path.join(__dirname, 'data', 'history.json')
+let cachedHistoryData = null
+let cachedHistoryMtimeMs = 0
 
-const collections = {
-  events: data.events,
-  characters: data.characters,
-  locations: data.locations,
-  artifacts: data.artifacts
+function historyData() {
+  const stats = statSync(historyDataPath)
+
+  if (!cachedHistoryData || stats.mtimeMs !== cachedHistoryMtimeMs) {
+    cachedHistoryData = JSON.parse(readFileSync(historyDataPath, 'utf-8'))
+    cachedHistoryMtimeMs = stats.mtimeMs
+  }
+
+  return cachedHistoryData
+}
+
+function collections() {
+  const data = historyData()
+
+  return {
+    events: data.events,
+    characters: data.characters,
+    locations: data.locations,
+    artifacts: data.artifacts
+  }
 }
 
 const flattenArticles = () =>
-  Object.entries(collections).flatMap(([collection, items]) =>
+  Object.entries(collections()).flatMap(([collection, items]) =>
     items.map((item) => ({ ...item, collection }))
   )
 
@@ -276,7 +291,7 @@ function chronologicalSortKey(article, publicCollection) {
 }
 
 function articlePreviewFromFavorite(favorite) {
-  const collection = collections[apiCollectionName(favorite.articleType ?? favorite.collection)]
+  const collection = collections()[apiCollectionName(favorite.articleType ?? favorite.collection)]
   const article = collection?.find((item) => item.id === (favorite.articleId ?? favorite.id))
 
   if (!article) return null
@@ -328,7 +343,7 @@ function articleCard(article) {
 
 function findArticle(articleType, articleId) {
   const collectionName = apiCollectionName(articleType)
-  const article = collections[collectionName]?.find((item) => item.id === articleId)
+  const article = collections()[collectionName]?.find((item) => item.id === articleId)
 
   return article ? articleCard({ ...article, collection: collectionName }) : null
 }
@@ -371,6 +386,7 @@ function takeUnique(items, count, used = new Set()) {
 }
 
 function discoverySections() {
+  const data = historyData()
   const all = flattenArticles()
   const used = new Set()
   const archive = takeUnique(seededShuffle(all, todaysSeed('all')), 3, used)
@@ -723,7 +739,7 @@ app.get('/api/home', async (req, res) => {
 })
 
 app.get('/api/:collection', (req, res) => {
-  const items = collections[req.params.collection]
+  const items = collections()[req.params.collection]
 
   if (!items) {
     return res.status(404).json({ message: 'Collection not found' })
@@ -733,7 +749,7 @@ app.get('/api/:collection', (req, res) => {
 })
 
 app.get('/api/:collection/:id', (req, res) => {
-  const items = collections[req.params.collection]
+  const items = collections()[req.params.collection]
 
   if (!items) {
     return res.status(404).json({ message: 'Collection not found' })
@@ -754,6 +770,10 @@ app.use((_req, res) => {
   res.sendFile(path.join(clientDist, 'index.html'))
 })
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
   console.log(`Medieval History API running on http://localhost:${port}`)
+})
+
+server.on('error', (error) => {
+  console.error('Medieval History API failed to start:', error)
 })

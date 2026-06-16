@@ -543,11 +543,21 @@ function KeyAchievements({ achievements, article }) {
 function Timeline({ items }) {
   if (!items?.length) return null
 
+  const normalizedItems = items.map((item) => {
+    const description = typeof item.description === 'string' ? item.description.trim() : ''
+
+    if (!description && import.meta.env.DEV) {
+      console.warn('Timeline entry is missing a description:', item)
+    }
+
+    return { ...item, description }
+  })
+
   return (
     <section className="rail-card timeline-card">
       <h2>Timeline</h2>
       <ol>
-        {items.map((item) => (
+        {normalizedItems.map((item) => (
           <li key={`${item.date}-${item.title}`}>
             <time>{item.date}</time>
             <strong>{item.title}</strong>

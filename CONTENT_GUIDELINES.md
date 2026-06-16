@@ -65,6 +65,22 @@ Good:
 
 > Harald Bluetooth strengthened Danish kingship through the Jelling dynasty, promoted Christianity as royal ideology, and left the Jelling stones as a public statement of family power, conversion, and rule over Denmark and Norway.
 
+## Article Depth
+
+Major articles must be substantial. A major ruler, battle, kingdom, artifact, document, or institution should never rely on one-sentence sections or a surface summary. The article body must explain causes, named actors, places, conflicts, consequences, uncertainty, and legacy in terms specific to that subject.
+
+People articles need a meaningful overview, concrete birth and early-life context where known, a detailed main role or reign section, a death section with known circumstances, and a legacy section that distinguishes later memory from secure history. Events and battles need background, factions or forces, the course of events, aftermath, historical significance, and source caution where numbers or accounts are disputed. Kingdoms, locations, artifacts, documents, and institutions need sections that explain origin, function, context, change over time, and legacy.
+
+Bad:
+
+> Robert the Bruce was king of Scots and the central ruler in Scotland's successful struggle for renewed independence.
+
+Better:
+
+> Robert the Bruce became king of Scots in 1306 after a violent struggle for the throne, including the killing of John Comyn at Dumfries and a hurried coronation at Scone. After early defeats, he rebuilt his position through mobile warfare, attacks on English-held strongholds, and the defeat of Scottish rivals. His victory at Bannockburn in 1314 transformed his kingship, though diplomatic recognition of Scottish independence took years more.
+
+Do not preserve thin prose just because it is technically accurate. If a subject is major, enrich it until a historically curious reader can understand why it matters and how it connects to the rest of IronCodex.
+
 ## Biographical Facts
 
 Never replace known biographical facts with vague safety language. If a person's death is tied to a known battle, execution, assassination, illness, accident, campaign, or captivity, state that event clearly and mark only the uncertain detail as uncertain. Every person Born card must include the birth date or approximate date plus a linked birthplace when known. If the birthplace is unknown, say "Birthplace unknown"; if disputed, say "Birthplace uncertain" and name the leading traditions only when useful.
@@ -83,17 +99,19 @@ Good:
 
 Every person timeline must contain at least five real events, ordered chronologically. Each event needs a unique description that explains what happened and why it mattered. Do not reuse the same sentence across multiple entries, and do not generate fallback prose for missing timeline content.
 
+Timeline descriptions must never be invented from vague fallback text. If a description is missing, the renderer should not create a historical-sounding sentence; missing timeline descriptions are content bugs that must be fixed in the data.
+
 Timeline descriptions should use named people, places, conflicts, institutions, causes, and consequences when the evidence allows. Avoid self-linking the subject's own name repeatedly in their own timeline. For poorly documented figures, use real contextual events carefully and mark uncertainty with words such as "probably", "traditionally", "possibly", or "the chronology is uncertain".
 
-Forbidden timeline filler includes phrases such as "appears in a major phase of the reign", "plays an important role", "becomes significant", "this event marks an important moment", and "marks a documented or traditionally reported stage". If a timeline entry lacks enough information, research or rewrite it; do not pad it with template language.
+Forbidden timeline filler includes generic major-phase wording, "plays an important role", "becomes significant", "this event marks an important moment", and "marks a documented or traditionally reported stage". If a timeline entry lacks enough information, research or rewrite it; do not pad it with template language.
 
 Bad:
 
-> Harald Hardrada appears in a major phase of the reign.
+> Harald Hardrada receives a generic major-phase fallback sentence.
 
 Good:
 
-> Harald fought at Stiklestad in 1030, survived the defeat, and entered exile. The battle shaped his early career and eventually led him toward service in Kievan Rus' and Byzantium.
+> Harald fought in support of Olaf Haraldsson at Stiklestad. The defeat forced him into exile and became the turning point that sent him east.
 
 ## Person Image Quality
 
@@ -112,6 +130,16 @@ Bad:
 Good:
 
 > Harald Hardrada uses a later public-domain Stamford Bridge painting as the hero image, clearly captioned as non-contemporary, while the coin moves into the ruling section as supporting numismatic evidence.
+
+## Crusades Content
+
+Crusades-related people must be treated as historical actors, not heroes, villains, or faction mascots. Articles should explain religious motivations, political ambition, dynastic strategy, logistics, diplomacy, violence, conquest, institutional interests, and internal rivalries on all sides.
+
+Do not duplicate people under alternate names. Check existing names, aliases, regnal numbers, titles, and spellings before adding a Crusades figure. Examples: Richard the Lionheart and Richard I are one person; Frederick I Barbarossa and Frederick Barbarossa are one person; Hugh de Payns and Hugues de Payens are one person; Baldwin I of Jerusalem and Baldwin I, Latin Emperor are different people and must remain distinct.
+
+Every Crusades person still needs the full person standard: substantial overview, concrete early-life context where known, a specific main-role section, concrete death circumstances, a meaningful legacy section, at least five unique timeline entries, key achievements with descriptions, real attributed imagery, and linkable sources. Military-order figures require institutional context, not just title lists.
+
+Use careful language for contested crusading memory. Later Latin, Byzantine, Arabic, Armenian, Syriac, and modern national traditions often frame the same person differently; explain the evidence rather than flattening reputations into simple praise or condemnation.
 
 ## Ambiguous Alias Linking
 
