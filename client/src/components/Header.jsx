@@ -9,6 +9,7 @@ const primaryNavigation = [
   { label: 'Locations', to: '/locations' },
   { label: 'People', to: '/people' },
   { label: 'Artifacts', to: '/artifacts' },
+  { label: 'Weapons & Armor', to: '/weapons-armor' },
   { label: 'Index', to: '/index' }
 ]
 

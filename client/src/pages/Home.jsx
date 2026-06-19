@@ -47,7 +47,7 @@ export default function Home() {
         {status === 'ready' && isAuthenticated && !homeData.hasFavorites && (
           <div className="empty-state compact home-archive-prompt">
             <h2>Start building your archive</h2>
-            <p>Favorite people, battles, places, and artifacts to shape your own recommendations.</p>
+            <p>Favorite people, battles, places, artifacts, and arms to shape your own recommendations.</p>
           </div>
         )}
         {status === 'ready' && homeData.sections?.map((section) => (

@@ -13,7 +13,8 @@ export function fallbackImage(article) {
     event: '#b1192a',
     character: '#f2c14e',
     location: '#d7d9dd',
-    artifact: '#d7d9dd'
+    artifact: '#d7d9dd',
+    weaponArmor: '#f2c14e'
   }[type] ?? '#f2c14e'
 
   const svg = `

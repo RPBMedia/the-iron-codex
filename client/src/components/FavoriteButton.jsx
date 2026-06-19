@@ -75,5 +75,7 @@ function FavoriteIcon() {
 }
 
 function displayCollection(collection) {
-  return collection === 'characters' ? 'people' : collection
+  if (collection === 'characters') return 'people'
+  if (collection === 'weaponsArmor') return 'weapons-armor'
+  return collection
 }

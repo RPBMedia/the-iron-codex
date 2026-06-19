@@ -1,6 +1,7 @@
 const apiBase = '/api'
 const apiCollections = {
-  people: 'characters'
+  people: 'characters',
+  'weapons-armor': 'weaponsArmor'
 }
 
 export async function getHomeArticles() {
@@ -16,14 +17,15 @@ export async function getArticle(collection, id) {
 }
 
 export async function getSearchCollections() {
-  const [events, people, locations, artifacts] = await Promise.all([
+  const [events, people, locations, artifacts, weaponsArmor] = await Promise.all([
     getCollection('events'),
     getCollection('people'),
     getCollection('locations'),
-    getCollection('artifacts')
+    getCollection('artifacts'),
+    getCollection('weapons-armor')
   ])
 
-  return { artifacts, events, locations, people }
+  return { artifacts, events, locations, people, weaponsArmor }
 }
 
 export async function getAuthState() {

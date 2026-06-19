@@ -149,6 +149,18 @@ Every Crusades person still needs the full person standard: substantial overview
 
 Use careful language for contested crusading memory. Later Latin, Byzantine, Arabic, Armenian, Syriac, and modern national traditions often frame the same person differently; explain the evidence rather than flattening reputations into simple praise or condemnation.
 
+## Weapons & Armor Content
+
+Weapons & Armor is a distinct archive section for medieval European weapons, armor, shields, helmets, and famous surviving arms or armor objects. Do not bury these entries under Artifacts unless a temporary compatibility route is required. Remove military units, guard corps, and institutions from Artifacts rather than misclassifying them as objects.
+
+General weapon entries must explain design and construction, use in warfare, historical development, regional variations, famous examples or users, and legacy. General armor entries must explain construction, protection, battlefield role, development, regional variation, surviving examples, and legacy. Avoid shallow lines such as "the weapon was important" or "armor protected soldiers"; name the material, period, tactical role, and historical setting.
+
+Famous weapons and armor need a different standard. Distinguish the surviving object from legend, literary tradition, ceremonial memory, and later restoration. Joyeuse should be described as a French coronation sword associated with Charlemagne in royal memory, while the surviving composite object must not be treated as a secure personal weapon of Charlemagne. The Sutton Hoo Helmet should be handled as early medieval Anglo-Saxon armor from a ship-burial context, with the owner identified as uncertain.
+
+Late fifteenth-century entries such as sallets and Gothic plate may be included when their late medieval context is clear. Do not let the section drift into ancient, Renaissance, early modern, non-European, fantasy, or game-style equipment.
+
+Every Weapons & Armor article needs at least one real, relevant, renderable image with caption, source, source URL, and reliability note where needed. Wikimedia Commons file pages and museum object pages are source URLs, not render image `src` values. Use surviving museum objects when possible; use manuscript depictions or clearly labeled reconstructions only when they are historically anchored.
+
 ## Ambiguous Alias Linking
 
 Some medieval names are reused, shifted by later tradition, or attached to different events in different languages. Treat these aliases carefully.

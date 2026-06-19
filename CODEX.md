@@ -28,3 +28,12 @@ These instructions apply to future Codex work on IronCodex.
 - Keep source/citation URLs separate from render URLs; Wikimedia Commons file pages belong in `sourceUrl`, not in `image` or `sectionImages[].src`.
 - Validate section images as well as hero/card images before completing content-heavy tasks.
 - Do not fix broken images with placeholders, unrelated medieval art, or AI-generated portraits.
+
+## Weapons & Armor
+
+- The Weapons & Armor archive is for medieval European weapons, armor, shields, helmets, and famous specific arms or armor objects.
+- Do not add ancient, non-European, fantasy, or clearly early modern material unless the article explicitly explains a late medieval European context.
+- General weapon and armor articles must explain design, construction, battlefield use, historical development, regional variation, and legacy with concrete details.
+- Famous weapons and armor must distinguish legend, ceremonial memory, and material history. Joyeuse belongs here as a coronation sword with a Charlemagne tradition; the surviving sword should not be presented as a securely verified personal weapon of Charlemagne.
+- Artifacts that are primarily weapons or armor belong in Weapons & Armor rather than Artifacts. Military units or institutions, such as the Varangian Guard, should not be listed as artifacts.
+- Every Weapons & Armor entry needs a real renderable image, source metadata, and historically honest captioning.

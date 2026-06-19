@@ -80,7 +80,8 @@ function collections() {
     events: data.events,
     characters: data.characters,
     locations: data.locations,
-    artifacts: data.artifacts
+    artifacts: data.artifacts,
+    weaponsArmor: data.weaponsArmor ?? []
   }
 }
 
@@ -92,9 +93,22 @@ const flattenArticles = () =>
 const sortChronologically = (items) =>
   [...items].sort((a, b) => (a.year ?? a.born ?? 0) - (b.year ?? b.born ?? 0))
 
-const publicCollectionName = (collection) => collection === 'characters' ? 'people' : collection
+const publicCollectionName = (collection) => {
+  if (collection === 'characters') return 'people'
+  if (collection === 'weaponsArmor') return 'weapons-armor'
+  return collection
+}
 
-const apiCollectionName = (collection) => collection === 'people' ? 'characters' : collection
+const apiCollectionName = (collection) => {
+  if (collection === 'people') return 'characters'
+  if (collection === 'weapons-armor') return 'weaponsArmor'
+  return collection
+}
+
+const movedArtifactArticles = {
+  joyeuse: 'weaponsArmor',
+  'sutton-hoo-helmet': 'weaponsArmor'
+}
 
 const publicUser = (user) => ({
   id: user.id,
@@ -291,12 +305,15 @@ function chronologicalSortKey(article, publicCollection) {
 }
 
 function articlePreviewFromFavorite(favorite) {
-  const collection = collections()[apiCollectionName(favorite.articleType ?? favorite.collection)]
-  const article = collection?.find((item) => item.id === (favorite.articleId ?? favorite.id))
+  const requestedCollection = apiCollectionName(favorite.articleType ?? favorite.collection)
+  const articleId = favorite.articleId ?? favorite.id
+  const collectionName = articleForCollection(requestedCollection, articleId)
+  const collection = collections()[collectionName]
+  const article = collection?.find((item) => item.id === articleId)
 
   if (!article) return null
 
-  const publicCollection = publicCollectionName(favorite.articleType ?? favorite.collection)
+  const publicCollection = publicCollectionName(collectionName)
   const dateSortKey = chronologicalSortKey(article, publicCollection)
 
   return {
@@ -342,10 +359,19 @@ function articleCard(article) {
 }
 
 function findArticle(articleType, articleId) {
-  const collectionName = apiCollectionName(articleType)
+  const requestedCollection = apiCollectionName(articleType)
+  const collectionName = articleForCollection(requestedCollection, articleId)
   const article = collections()[collectionName]?.find((item) => item.id === articleId)
 
   return article ? articleCard({ ...article, collection: collectionName }) : null
+}
+
+function articleForCollection(collectionName, articleId) {
+  if (collectionName === 'artifacts' && movedArtifactArticles[articleId]) {
+    return movedArtifactArticles[articleId]
+  }
+
+  return collectionName
 }
 
 function favoriteKey(favorite) {
@@ -395,7 +421,8 @@ function discoverySections() {
     seededShuffle(
       [
         ...data.locations.map((item) => ({ ...item, collection: 'locations' })),
-        ...data.artifacts.map((item) => ({ ...item, collection: 'artifacts' }))
+        ...data.artifacts.map((item) => ({ ...item, collection: 'artifacts' })),
+        ...(data.weaponsArmor ?? []).map((item) => ({ ...item, collection: 'weaponsArmor' }))
       ],
       todaysSeed('places-relics')
     ),
@@ -406,7 +433,7 @@ function discoverySections() {
   return [
     { id: 'archive', eyebrow: 'Discovery', title: 'From the Archive', articles: archive },
     { id: 'people', eyebrow: 'Figures', title: 'People of the Age', articles: people },
-    { id: 'places-relics', eyebrow: 'Places and relics', title: 'Places and Relics', articles: placesAndRelics }
+    { id: 'places-relics', eyebrow: 'Places, relics, and arms', title: 'Places, Relics, and Arms', articles: placesAndRelics }
   ].filter((section) => section.articles.length)
 }
 
@@ -420,6 +447,11 @@ function searchableTerms(article) {
     article.location,
     article.kingdom,
     article.conflict,
+    article.weaponArmorType,
+    article.period,
+    article.region,
+    article.material,
+    article.battlefieldRole,
     article.summary,
     article.details,
     article.quickFacts?.realm,
@@ -489,7 +521,7 @@ function recommendSectionsFor(user) {
     {
       id: 'recommended-context',
       eyebrow: 'Connected entries',
-      title: 'Events, Places, and Relics',
+      title: 'Events, Places, Relics, and Arms',
       articles: takeUnique(scored.filter((article) => article.articleType !== 'people'), 3, used)
     }
   ].filter((section) => section.articles.length)
@@ -739,17 +771,20 @@ app.get('/api/home', async (req, res) => {
 })
 
 app.get('/api/:collection', (req, res) => {
-  const items = collections()[req.params.collection]
+  const collectionName = apiCollectionName(req.params.collection)
+  const items = collections()[collectionName]
 
   if (!items) {
     return res.status(404).json({ message: 'Collection not found' })
   }
 
-  res.json(req.params.collection === 'events' ? sortChronologically(items) : items)
+  res.json(collectionName === 'events' ? sortChronologically(items) : items)
 })
 
 app.get('/api/:collection/:id', (req, res) => {
-  const items = collections()[req.params.collection]
+  const requestedCollection = apiCollectionName(req.params.collection)
+  const collectionName = articleForCollection(requestedCollection, req.params.id)
+  const items = collections()[collectionName]
 
   if (!items) {
     return res.status(404).json({ message: 'Collection not found' })

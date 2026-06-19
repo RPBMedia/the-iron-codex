@@ -15,7 +15,8 @@ export function buildSearchIndex(collections) {
     ...collections.people.map((item) => normalizePerson(item)),
     ...collections.events.map((item) => normalizeEvent(item)),
     ...collections.locations.map((item) => normalizeLocation(item)),
-    ...collections.artifacts.map((item) => normalizeArtifact(item))
+    ...collections.artifacts.map((item) => normalizeArtifact(item)),
+    ...(collections.weaponsArmor ?? []).map((item) => normalizeWeaponArmor(item))
   ]
 }
 
@@ -238,6 +239,39 @@ function normalizeArtifact(item) {
   }
 }
 
+function normalizeWeaponArmor(item) {
+  return {
+    id: item.id,
+    title: item.name,
+    type: 'weaponArmor',
+    typeLabel: item.weaponArmorType ?? 'Weapons & Armor',
+    slug: item.id,
+    url: `/weapons-armor/${item.id}`,
+    description: item.summary,
+    dateLabel: item.period ?? String(item.year ?? ''),
+    aliases: item.aliases ?? [],
+    tags: [item.weaponArmorType, item.period, item.region, item.material, item.battlefieldRole, ...(item.knownFor ?? [])].filter(Boolean),
+    years: compactYears([item.year]),
+    timelineYears: [],
+    related: relatedText(item.relatedEntries),
+    searchableText: normalize([
+      item.name,
+      item.id,
+      item.summary,
+      item.details,
+      item.weaponArmorType,
+      item.period,
+      item.region,
+      item.material,
+      item.battlefieldRole,
+      ...(item.aliases ?? []),
+      ...(item.knownFor ?? []),
+      ...relatedText(item.relatedEntries),
+      ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])])
+    ])
+  }
+}
+
 function typePriority(entry, queryYear) {
   if (!queryYear) return 0
 
@@ -248,6 +282,7 @@ function typePriority(entry, queryYear) {
     kingdom: 20,
     location: 15,
     document: 10,
+    weaponArmor: 8,
     artifact: 5
   }[entry.type] ?? 0
 }

@@ -3,8 +3,8 @@ import { Link, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getGlobalSearchIndex, searchArchive } from '../lib/search.js'
 
-const defaultGroupOrder = ['person', 'event', 'battle', 'kingdom', 'location', 'document', 'artifact']
-const yearGroupOrder = ['battle', 'event', 'person', 'kingdom', 'location', 'document', 'artifact']
+const defaultGroupOrder = ['person', 'event', 'battle', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
+const yearGroupOrder = ['battle', 'event', 'person', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
 
 export default function SearchPage() {
   const [searchParams] = useSearchParams()
@@ -112,6 +112,7 @@ function groupLabel(type) {
     event: 'Events',
     kingdom: 'Kingdoms and Polities',
     location: 'Locations',
-    person: 'People'
+    person: 'People',
+    weaponArmor: 'Weapons & Armor'
   }[type] ?? 'Results'
 }

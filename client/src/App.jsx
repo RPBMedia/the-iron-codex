@@ -26,6 +26,9 @@ export default function App() {
             <Route path="/characters" element={<Navigate to="/people" replace />} />
             <Route path="/characters/:id" element={<RedirectCharacter />} />
             <Route path="/artifacts" element={<CollectionPage collection="artifacts" />} />
+            <Route path="/artifacts/joyeuse" element={<Navigate to="/weapons-armor/joyeuse" replace />} />
+            <Route path="/artifacts/sutton-hoo-helmet" element={<Navigate to="/weapons-armor/sutton-hoo-helmet" replace />} />
+            <Route path="/weapons-armor" element={<CollectionPage collection="weapons-armor" />} />
             <Route path="/index" element={<IndexPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/login" element={<AuthPage mode="login" />} />

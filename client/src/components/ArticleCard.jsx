@@ -66,10 +66,15 @@ function labelFor(article) {
     return article.locationType
   }
 
+  if (article.type === 'weaponArmor') {
+    return article.weaponArmorType ?? 'Weapons & Armor'
+  }
+
   return {
     event: 'Event',
     location: 'Location',
-    artifact: 'Artifact'
+    artifact: 'Artifact',
+    weaponArmor: 'Weapons & Armor'
   }[article.type] ?? 'Article'
 }
 
@@ -82,11 +87,17 @@ function formatDate(article) {
     return article.locationType === 'Kingdom' ? 'Kingdom' : article.kingdom
   }
 
+  if (article.type === 'weaponArmor') {
+    return article.period ?? article.year ?? ''
+  }
+
   return `${article.year}`
 }
 
 function displayCollection(collection) {
-  return collection === 'characters' ? 'people' : collection
+  if (collection === 'characters') return 'people'
+  if (collection === 'weaponsArmor') return 'weapons-armor'
+  return collection
 }
 
 function cardSubtitle(article) {
@@ -96,6 +107,10 @@ function cardSubtitle(article) {
 
   if (article.type === 'event' && article.eventType && article.eventType !== 'Other') {
     return article.eventType
+  }
+
+  if (article.type === 'weaponArmor') {
+    return [article.material, article.region].filter(Boolean).join(' · ')
   }
 
   return ''

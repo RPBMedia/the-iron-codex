@@ -10,7 +10,8 @@ const collectionLabels = {
   events: 'Events',
   locations: 'Locations',
   people: 'People',
-  artifacts: 'Artifacts'
+  artifacts: 'Artifacts',
+  'weapons-armor': 'Weapons & Armor'
 }
 
 export default function DetailPage() {
@@ -64,7 +65,7 @@ export default function DetailPage() {
           {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
           {article.type === 'event' && <EventHero article={article} />}
-          {article.type === 'artifact' && <StandardHero article={article} />}
+          {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
         </div>
       </section>
 
@@ -73,7 +74,7 @@ export default function DetailPage() {
           {article.type === 'character' && <PersonContent article={article} />}
           {article.type === 'location' && <LocationContent article={article} />}
           {article.type === 'event' && <EventContent article={article} />}
-          {article.type === 'artifact' && <StandardContent article={article} />}
+          {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardContent article={article} />}
         </div>
       </section>
     </article>
@@ -129,10 +130,35 @@ function articleTypeLabel(article) {
     return article.locationType
   }
 
+  if (article.type === 'weaponArmor') {
+    return article.weaponArmorType ?? 'Weapons & Armor'
+  }
+
   return article.type
 }
 
 function StandardHero({ article }) {
+  if (article.type === 'weaponArmor') {
+    const facts = [
+      { label: 'Category', value: article.weaponArmorType },
+      { label: 'Period', value: article.period },
+      { label: 'Region', value: article.region },
+      { label: 'Material', value: article.material },
+      { label: 'Role', value: article.battlefieldRole }
+    ].filter((fact) => fact.value)
+
+    return (
+      <dl className="fact-strip rich-facts">
+        {facts.map((fact) => (
+          <div key={fact.label}>
+            <dt>{fact.label}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+    )
+  }
+
   return (
     <dl className="fact-strip">
       <div>
@@ -932,7 +958,13 @@ function routeForEntry(entry) {
     polity: 'locations',
     artifact: 'artifacts',
     document: 'artifacts',
-    concept: 'artifacts'
+    weaponArmor: 'weapons-armor',
+    weapon: 'weapons-armor',
+    armor: 'weapons-armor',
+    shield: 'weapons-armor',
+    helmet: 'weapons-armor',
+    famousWeapon: 'weapons-armor',
+    famousArmor: 'weapons-armor'
   }[entry.type]
 
   return routeType && entry.slug ? `/${routeType}/${entry.slug}` : ''

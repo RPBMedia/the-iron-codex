@@ -8,7 +8,8 @@ const indexGroups = [
   { key: 'battles', title: 'Battles', collection: 'events' },
   { key: 'events', title: 'Events', collection: 'events' },
   { key: 'locations', title: 'Locations', collection: 'locations' },
-  { key: 'artifacts', title: 'Artifacts', collection: 'artifacts' }
+  { key: 'artifacts', title: 'Artifacts', collection: 'artifacts' },
+  { key: 'weaponsArmor', title: 'Weapons & Armor', collection: 'weapons-armor' }
 ]
 
 export default function IndexPage() {
@@ -120,7 +121,8 @@ function buildIndexGroups(collections, query) {
       'events'
     ),
     locations: normalizeEntries(collections.locations, 'locations'),
-    artifacts: normalizeEntries(collections.artifacts, 'artifacts')
+    artifacts: normalizeEntries(collections.artifacts, 'artifacts'),
+    weaponsArmor: normalizeEntries(collections.weaponsArmor, 'weapons-armor')
   }
 
   return indexGroups.map((group) => {
@@ -151,6 +153,10 @@ function normalizeEntries(items = [], collection) {
         item.eventType,
         item.locationType,
         item.title,
+        item.weaponArmorType,
+        item.period,
+        item.region,
+        item.material,
         item.location,
         item.kingdom,
         ...(item.aliases ?? []),
@@ -205,6 +211,10 @@ function entryMeta(item, collection) {
 
   if (collection === 'locations') {
     return item.locationType
+  }
+
+  if (collection === 'weapons-armor') {
+    return [item.weaponArmorType, item.period].filter(Boolean).join(' · ')
   }
 
   return item.title ?? item.type

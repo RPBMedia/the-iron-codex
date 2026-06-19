@@ -25,7 +25,12 @@ const collectionCopy = {
   artifacts: {
     eyebrow: 'Objects',
     title: 'Artifacts',
-    description: 'Relics, manuscripts, weapons, documents, and material culture from the medieval period.'
+    description: 'Relics, manuscripts, documents, and material culture from the medieval period.'
+  },
+  'weapons-armor': {
+    eyebrow: 'Arms and armor',
+    title: 'Weapons & Armor',
+    description: 'European medieval weapons, armor, shields, helmets, and famous surviving arms.'
   }
 }
 
@@ -303,6 +308,29 @@ function getFilterConfigs(items, collection) {
     })
   }
 
+  if (collection === 'weapons-armor') {
+    configs.push({
+      key: 'type',
+      label: 'Type',
+      getValue: (item) => item.weaponArmorType,
+      options: uniqueOptions(items.map((item) => item.weaponArmorType).filter(Boolean))
+    })
+
+    configs.push({
+      key: 'period',
+      label: 'Period',
+      getValue: (item) => item.period,
+      options: uniqueOptions(items.map((item) => item.period).filter(Boolean))
+    })
+
+    configs.push({
+      key: 'region',
+      label: 'Region',
+      getValue: (item) => item.region,
+      options: uniqueOptions(items.map((item) => item.region).filter(Boolean))
+    })
+  }
+
   return configs.filter((config) => config.options.length > 0)
 }
 
@@ -316,6 +344,11 @@ function searchableText(item, collection) {
     item.locationType,
     item.location,
     item.kingdom,
+    item.weaponArmorType,
+    item.period,
+    item.region,
+    item.material,
+    item.battlefieldRole,
     item.quickFacts?.realm,
     item.quickFacts?.culture,
     item.quickFacts?.knownFor,
@@ -350,7 +383,7 @@ function centuryValue(year) {
 }
 
 function typeLabel(item, collection) {
-  return item.eventType ?? item.locationType ?? item.title ?? collection
+  return item.eventType ?? item.locationType ?? item.weaponArmorType ?? item.title ?? collection
 }
 
 function uniqueOptions(values) {
