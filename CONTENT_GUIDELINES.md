@@ -131,6 +131,14 @@ Good:
 
 > Harald Hardrada uses a later public-domain Stamford Bridge painting as the hero image, clearly captioned as non-contemporary, while the coin moves into the ruling section as supporting numismatic evidence.
 
+## Image Rendering Integrity
+
+Every image `src` must resolve to actual image content. Do not use a Wikimedia Commons file page, museum object page, encyclopedia article, or source/citation page as an image `src`. Those URLs belong in `sourceUrl` or source entries. Render fields such as `image`, `thumbnail`, `heroImage`, `mainImage`, `sectionImages[].src`, and gallery image `src` values must point to a direct image URL, a stable resolver such as Commons `Special:FilePath`, or a valid local asset.
+
+Section images must be audited with the same care as hero images. A caption appearing below a broken image box is a content bug, not an acceptable fallback. Broken image boxes must never appear in production, and missing images must not be papered over with placeholders, generic medieval decoration, or AI-generated replacements.
+
+When fixing image data, preserve both halves of the record: use a renderable image URL for display, and keep the exact source or metadata page in `sourceUrl` and the article source list. Run `npm run check:images` after image-heavy edits, and use the remote mode when verifying externally hosted images.
+
 ## Crusades Content
 
 Crusades-related people must be treated as historical actors, not heroes, villains, or faction mascots. Articles should explain religious motivations, political ambition, dynastic strategy, logistics, diplomacy, violence, conquest, institutional interests, and internal rivalries on all sides.

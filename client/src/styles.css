@@ -1551,6 +1551,14 @@ figure.detail-media {
   font-style: normal;
 }
 
+.section-figure-unavailable {
+  background: rgba(20, 20, 22, 0.9);
+}
+
+.section-figure-unavailable figcaption {
+  border-left: 3px solid rgba(246, 198, 75, 0.55);
+}
+
 .bio-section::after {
   display: block;
   clear: both;

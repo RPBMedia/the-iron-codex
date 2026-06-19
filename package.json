@@ -9,6 +9,7 @@
     "dev:client": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
     "check:content-quality": "node scripts/check-content-quality.mjs",
+    "check:images": "node scripts/check-images.mjs",
     "start": "npm start --prefix server"
   }
 }

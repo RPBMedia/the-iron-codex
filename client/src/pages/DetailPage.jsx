@@ -501,9 +501,38 @@ function normalizedSectionTitle(value) {
 }
 
 function SectionImage({ image }) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed) {
+    if (import.meta.env.DEV) {
+      console.warn(`Section image failed to load: ${image?.src}`)
+    }
+
+    return (
+      <figure className="section-figure section-figure-unavailable">
+        <figcaption>
+          <strong>{image.caption}</strong>
+          {image.source && (
+            image.sourceUrl ? (
+              <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {image.source}</a>
+            ) : (
+              <span>Source: {image.source}</span>
+            )
+          )}
+          <em>Image temporarily unavailable.</em>
+        </figcaption>
+      </figure>
+    )
+  }
+
   return (
     <figure className="section-figure">
-      <img src={image.src} alt={image.alt ?? image.caption} loading="lazy" />
+      <img
+        src={image.src}
+        alt={image.alt ?? image.caption}
+        loading="lazy"
+        onError={() => setFailed(true)}
+      />
       <figcaption>
         <strong>{image.caption}</strong>
         {image.creator && <span>Creator: {image.creator}</span>}
