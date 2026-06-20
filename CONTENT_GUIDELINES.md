@@ -139,6 +139,8 @@ Section images must be audited with the same care as hero images. A caption appe
 
 When fixing image data, preserve both halves of the record: use a renderable image URL for display, and keep the exact source or metadata page in `sourceUrl` and the article source list. Run `npm run check:images` after image-heavy edits, and use the remote mode when verifying externally hosted images.
 
+Initials cards, generic IronCodex cards, logo cards, blank cards, and polished fallback graphics are forbidden as article images. A Weapons & Armor article for Battle Axe must use a real axe image, museum object, manuscript depiction, or historically associated visual source, not a generated “BA” card. If no suitable image exists, mark the article incomplete and fix the source data instead of disguising the problem in the UI.
+
 ## Crusades Content
 
 Crusades-related people must be treated as historical actors, not heroes, villains, or faction mascots. Articles should explain religious motivations, political ambition, dynastic strategy, logistics, diplomacy, violence, conquest, institutional interests, and internal rivalries on all sides.

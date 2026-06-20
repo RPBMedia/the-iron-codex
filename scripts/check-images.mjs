@@ -13,15 +13,22 @@ const warnings = []
 const remoteCache = new Map()
 
 const renderFields = ['image', 'thumbnail', 'imageUrl', 'imageSrc', 'mainImage', 'heroImage']
-const placeholderPattern = /placeholder|placehold|dummy|example\.com|blank-image|missing-image/i
+const primaryImageFields = ['image', 'thumbnail', 'imageUrl', 'imageSrc', 'mainImage', 'heroImage', 'cardImage']
+const placeholderPattern = /placeholder|placehold|dummy|example\.com|blank-image|missing-image|fallback|initials|avatar|default-image|generic-logo/i
 const commonsFilePagePattern = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/i
 const sourcePageAsImagePattern = /\/wiki\/File:/i
+const generatedPlaceholderPattern = /THE IRON CODEX|<svg|data:image\/svg\+xml|initials/i
 
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue
 
   entries.forEach((entry, index) => {
     const article = entry.name || entry.title || entry.id || `${collection}[${index}]`
+    const primaryImageField = primaryImageFields.find((field) => stringValue(entry[field]))
+
+    if (!primaryImageField) {
+      addFinding(collection, article, 'image', 'article is missing a primary render image')
+    }
 
     for (const field of renderFields) {
       if (entry[field] !== undefined) {
@@ -95,6 +102,10 @@ function validateImageReference({ collection, article, field, src, metadata, art
 
   if (placeholderPattern.test(trimmedSrc)) {
     addFinding(collection, article, field, 'placeholder-like image src', trimmedSrc)
+  }
+
+  if (generatedPlaceholderPattern.test(trimmedSrc)) {
+    addFinding(collection, article, field, 'generated placeholder or initials image used as render image src', trimmedSrc)
   }
 
   if (commonsFilePagePattern.test(trimmedSrc) || sourcePageAsImagePattern.test(trimmedSrc)) {

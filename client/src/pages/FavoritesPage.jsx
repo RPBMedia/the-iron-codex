@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { getFavorites } from '../lib/api.js'
 import { useAuth } from '../lib/auth.jsx'
 import FavoriteButton from '../components/FavoriteButton.jsx'
+import { reportArticleImageFailure } from '../lib/images.js'
 
 const titleCollator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true })
 
@@ -92,7 +93,7 @@ export default function FavoritesPage() {
                   to={favorite.url}
                   aria-label={`Open article: ${favorite.title}`}
                 />
-                <img src={favorite.image} alt="" loading="lazy" />
+                <FavoriteImage favorite={favorite} />
                 <div>
                   <span>{favorite.type}{favorite.date ? ` · ${favorite.date}` : ''}</span>
                   <h2>{favorite.title}</h2>
@@ -112,5 +113,29 @@ export default function FavoritesPage() {
         )}
       </div>
     </section>
+  )
+}
+
+function FavoriteImage({ favorite }) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed || !favorite.image) {
+    return (
+      <div className="favorite-image-error" role="img" aria-label={`Image unavailable for ${favorite.title}`}>
+        <span>Image unavailable</span>
+      </div>
+    )
+  }
+
+  return (
+    <img
+      src={favorite.image}
+      alt=""
+      loading="lazy"
+      onError={(event) => {
+        reportArticleImageFailure(favorite, 'favorite image', event.currentTarget.currentSrc || event.currentTarget.src)
+        setFailed(true)
+      }}
+    />
   )
 }

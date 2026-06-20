@@ -936,12 +936,19 @@ h2 {
   transition: transform 220ms ease;
 }
 
-.image-frame img.generated-image {
-  object-fit: contain;
-}
-
 .article-card:hover .image-frame img {
   transform: scale(1.035);
+}
+
+.image-frame-error {
+  display: grid;
+  place-items: center;
+  background: #171719;
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .favorite-control {
@@ -1172,11 +1179,6 @@ figure.detail-media {
   object-position: center;
 }
 
-.detail-media img.generated-image {
-  background: var(--black);
-  object-fit: contain;
-}
-
 .detail-media figcaption {
   display: grid;
   gap: 4px;
@@ -1186,6 +1188,19 @@ figure.detail-media {
   color: var(--silver);
   font-size: 0.82rem;
   line-height: 1.35;
+}
+
+.detail-image-error {
+  display: grid;
+  min-height: clamp(340px, 61vh, 720px);
+  place-items: center;
+  border: 1px solid rgba(215, 217, 221, 0.14);
+  background: #171719;
+  color: var(--gold-soft);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .detail-media figcaption strong {
@@ -1982,11 +1997,26 @@ figure.detail-media {
   outline-offset: 4px;
 }
 
-.favorite-item img {
+.favorite-item img,
+.favorite-image-error {
   width: 100%;
   aspect-ratio: 4 / 3;
   border-radius: 4px;
+}
+
+.favorite-item img {
   object-fit: cover;
+}
+
+.favorite-image-error {
+  display: grid;
+  place-items: center;
+  background: #171719;
+  color: var(--gold-soft);
+  font-size: 0.68rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .favorite-item span {

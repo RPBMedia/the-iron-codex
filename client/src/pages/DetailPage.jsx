@@ -4,7 +4,7 @@ import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getArticle } from '../lib/api.js'
 import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
-import { fallbackImage, shouldUseFallbackImage } from '../lib/images.js'
+import { reportArticleImageFailure } from '../lib/images.js'
 
 const collectionLabels = {
   events: 'Events',
@@ -82,22 +82,24 @@ export default function DetailPage() {
 }
 
 function ImageWithCaption({ article }) {
+  const [failed, setFailed] = useState(false)
+
   return (
     <figure className={`detail-media detail-media-${article.type}`}>
-      <img
-        src={article.image}
-        alt={article.name}
-        onLoad={(event) => {
-          if (shouldUseFallbackImage(event.currentTarget)) {
-            event.currentTarget.classList.add('generated-image')
-            event.currentTarget.src = fallbackImage(article)
-          }
-        }}
-        onError={(event) => {
-          event.currentTarget.classList.add('generated-image')
-          event.currentTarget.src = fallbackImage(article)
-        }}
-      />
+      {failed || !article.image ? (
+        <div className="detail-image-error" role="img" aria-label={`Image unavailable for ${article.name}`}>
+          <span>Image unavailable</span>
+        </div>
+      ) : (
+        <img
+          src={article.image}
+          alt={article.name}
+          onError={(event) => {
+            reportArticleImageFailure(article, 'image', event.currentTarget.currentSrc || event.currentTarget.src)
+            setFailed(true)
+          }}
+        />
+      )}
       {article.imageInfo && (
         <figcaption>
           <strong>{article.imageInfo.caption}</strong>

@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import FavoriteButton from './FavoriteButton.jsx'
-import { fallbackImage, shouldUseFallbackImage } from '../lib/images.js'
+import { reportArticleImageFailure } from '../lib/images.js'
 
 export default function ArticleCard({ article, collection, onFavoriteChanged }) {
   const targetCollection = displayCollection(collection ?? article.collection ?? `${article.type}s`)
@@ -32,21 +33,25 @@ export default function ArticleCard({ article, collection, onFavoriteChanged }) 
 }
 
 function ImageWithFallback({ article }) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed || !article.image) {
+    return (
+      <div className="image-frame image-frame-error" role="img" aria-label={`Image unavailable for ${article.name}`}>
+        <span>Image unavailable</span>
+      </div>
+    )
+  }
+
   return (
     <div className="image-frame">
       <img
         src={article.image}
         alt={article.name}
         loading="lazy"
-        onLoad={(event) => {
-          if (shouldUseFallbackImage(event.currentTarget)) {
-            event.currentTarget.classList.add('generated-image')
-            event.currentTarget.src = fallbackImage(article)
-          }
-        }}
         onError={(event) => {
-          event.currentTarget.classList.add('generated-image')
-          event.currentTarget.src = fallbackImage(article)
+          reportArticleImageFailure(article, 'image', event.currentTarget.currentSrc || event.currentTarget.src)
+          setFailed(true)
         }}
       />
     </div>

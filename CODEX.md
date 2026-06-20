@@ -28,6 +28,10 @@ These instructions apply to future Codex work on IronCodex.
 - Keep source/citation URLs separate from render URLs; Wikimedia Commons file pages belong in `sourceUrl`, not in `image` or `sectionImages[].src`.
 - Validate section images as well as hero/card images before completing content-heavy tasks.
 - Do not fix broken images with placeholders, unrelated medieval art, or AI-generated portraits.
+- No real article may intentionally use initials cards, generic IronCodex cards, logo cards, blank cards, or polished fallback graphics as a primary image.
+- If no exact image exists, use the best historically associated real image, such as a manuscript depiction, museum object, monument, map, seal, coin, battlefield, castle, tomb, or surviving artifact.
+- If no suitable image can be found, flag the article as incomplete instead of silently accepting a placeholder.
+- Runtime image fallbacks may only be defensive error states; they must not look like finished article imagery.
 
 ## Weapons & Armor
 
