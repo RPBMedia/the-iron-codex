@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getSearchCollections } from '../lib/api.js'
+import { useArchiveScrollRestoration } from '../lib/archive.js'
 
 const indexGroups = [
   { key: 'people', title: 'People', collection: 'people' },
@@ -16,6 +17,8 @@ export default function IndexPage() {
   const [collections, setCollections] = useState(null)
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
+
+  useArchiveScrollRestoration({ ready: status === 'ready' })
 
   useEffect(() => {
     setStatus('loading')

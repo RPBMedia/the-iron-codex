@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import FavoriteButton from './FavoriteButton.jsx'
 import { reportArticleImageFailure } from '../lib/images.js'
 
 export default function ArticleCard({ article, collection, onFavoriteChanged }) {
+  const location = useLocation()
   const targetCollection = displayCollection(collection ?? article.collection ?? `${article.type}s`)
   const articleWithIdentity = {
     ...article,
@@ -11,11 +12,14 @@ export default function ArticleCard({ article, collection, onFavoriteChanged }) 
     articleId: article.id,
     articleUrl: `/${targetCollection}/${article.id}`
   }
+  // Remember which archive (and its filters) we came from so the detail page's
+  // "Back to ..." link can return here via history and restore scroll/loaded state.
+  const fromArchive = `${location.pathname}${location.search}`
 
   return (
     <article className="article-card">
       <FavoriteButton article={articleWithIdentity} onChanged={(isFavorited) => onFavoriteChanged?.(articleWithIdentity, isFavorited)} />
-      <Link className="article-card-link" to={`/${targetCollection}/${article.id}`}>
+      <Link className="article-card-link" to={`/${targetCollection}/${article.id}`} state={{ from: fromArchive }}>
         <ImageWithFallback article={article} />
         <div className="card-content">
           <div className="card-meta">

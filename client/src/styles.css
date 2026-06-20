@@ -1179,6 +1179,19 @@ figure.detail-media {
   object-position: center;
 }
 
+/*
+ * Weapons & Armor full-object render mode.
+ * The main image must always show the entire weapon or armor piece, never a
+ * crop. Use object-fit: contain so tall swords, long polearms, and wide shields
+ * render in full against a neutral backdrop instead of being cut off.
+ */
+.detail-media-weaponArmor img {
+  background: #111116;
+  object-fit: contain;
+  object-position: center;
+  padding: 10px;
+}
+
 .detail-media figcaption {
   display: grid;
   gap: 4px;
@@ -1235,6 +1248,22 @@ figure.detail-media {
   display: inline-block;
   margin-bottom: 22px;
   text-decoration: none;
+}
+
+/* "Back to ..." rendered as a button (history-aware back) must match the link. */
+button.back-link {
+  appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: var(--gold-soft);
+  cursor: pointer;
+}
+
+button.back-link:hover,
+button.back-link:focus-visible {
+  text-decoration: underline;
 }
 
 .detail-body h1 {

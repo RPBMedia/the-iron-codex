@@ -19,6 +19,19 @@ const commonsFilePagePattern = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/
 const sourcePageAsImagePattern = /\/wiki\/File:/i
 const generatedPlaceholderPattern = /THE IRON CODEX|<svg|data:image\/svg\+xml|initials/i
 
+// Weapons & Armor permanent rule: the MAIN image must show the full, unmistakable
+// object — never a manuscript page, tapestry scene, texture/detail crop, fragment,
+// statue, or effigy. These tokens in the main-image filename or caption flag a
+// likely violation. Entries that genuinely have no full-object photograph (e.g. a
+// garment with no surviving example) may be added to the reviewed-fallback
+// allowlist below once a human has confirmed it is the best honest option.
+const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
+const weaponsArmorFullObjectFallbackAllowlist = new Set([
+  // id: reason — no surviving object or clean photographic example exists on Commons
+  'surcoat', // contemporary tomb effigy; no medieval European surcoat survives intact
+  'buckler' // MS I.33 depiction; no clear photograph of a surviving plain medieval buckler found on Commons
+])
+
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue
 
@@ -41,6 +54,10 @@ for (const [collection, entries] of Object.entries(data)) {
           articleSources: entry.sources
         })
       }
+    }
+
+    if (collection === 'weaponsArmor' && primaryImageField) {
+      validateWeaponsArmorFullObject(article, entry)
     }
 
     ;(entry.sectionImages ?? []).forEach((image, imageIndex) => {
@@ -123,6 +140,33 @@ function validateImageReference({ collection, article, field, src, metadata, art
   if (checkRemote && isRemoteUrl(trimmedSrc)) {
     remoteCache.set(trimmedSrc, remoteCache.get(trimmedSrc) ?? [])
     remoteCache.get(trimmedSrc).push({ collection, article, field })
+  }
+}
+
+function validateWeaponsArmorFullObject(article, entry) {
+  if (weaponsArmorFullObjectFallbackAllowlist.has(entry.id)) return
+
+  const decodedFilename = decodeImageFilename(entry.image)
+  const caption = stringValue(entry.imageInfo?.caption) ? entry.imageInfo.caption : ''
+
+  if (weaponsArmorNonObjectPattern.test(decodedFilename) || weaponsArmorNonObjectPattern.test(caption)) {
+    addFinding(
+      'weaponsArmor',
+      article,
+      'image',
+      'main image may not show the full object (looks like a manuscript page, tapestry, detail/texture, fragment, statue, or effigy). Replace with a clear full-object photo, or add the id to weaponsArmorFullObjectFallbackAllowlist with a reviewed reason.',
+      entry.image
+    )
+  }
+}
+
+function decodeImageFilename(src) {
+  if (typeof src !== 'string') return ''
+  const tail = src.split('/').pop() ?? src
+  try {
+    return decodeURIComponent(tail)
+  } catch {
+    return tail
   }
 }
 

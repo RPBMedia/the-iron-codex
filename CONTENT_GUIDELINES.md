@@ -155,13 +155,76 @@ Use careful language for contested crusading memory. Later Latin, Byzantine, Ara
 
 Weapons & Armor is a distinct archive section for medieval European weapons, armor, shields, helmets, and famous surviving arms or armor objects. Do not bury these entries under Artifacts unless a temporary compatibility route is required. Remove military units, guard corps, and institutions from Artifacts rather than misclassifying them as objects.
 
-General weapon entries must explain design and construction, use in warfare, historical development, regional variations, famous examples or users, and legacy. General armor entries must explain construction, protection, battlefield role, development, regional variation, surviving examples, and legacy. Avoid shallow lines such as "the weapon was important" or "armor protected soldiers"; name the material, period, tactical role, and historical setting.
+### General Weapon Articles
 
-Famous weapons and armor need a different standard. Distinguish the surviving object from legend, literary tradition, ceremonial memory, and later restoration. Joyeuse should be described as a French coronation sword associated with Charlemagne in royal memory, while the surviving composite object must not be treated as a secure personal weapon of Charlemagne. The Sutton Hoo Helmet should be handled as early medieval Anglo-Saxon armor from a ship-burial context, with the owner identified as uncertain.
+Every general weapon article must answer all of the following, with named evidence where it exists:
 
-Late fifteenth-century entries such as sallets and Gothic plate may be included when their late medieval context is clear. Do not let the section drift into ancient, Renaissance, early modern, non-European, fantasy, or game-style equipment.
+- **What is it made of?** Name the materials: steel, iron, wood, leather, bone, horn.
+- **How was it used in battle?** Name the formation, role, and opponent type. "Effective weapon" is not sufficient. Say: "The poleaxe was used by dismounted men-at-arms to attack plate-armored opponents at the joints and visor."
+- **What were its strengths?** Be specific: reach, armor penetration, versatility, weight, ease of manufacture, cost.
+- **What were its weaknesses?** What armor, tactic, terrain, or conditions negated it?
+- **How did it change over the medieval period?** When did it appear, what caused its evolution, when did it fade?
+- **Where did it vary by region?** Name the regional forms: German, French, English, Italian, Scandinavian, Byzantine, etc.
+- **What named battles, armies, or combatants used it?** At least one named battle and one historical context.
+- **What survived into museum collections?** Name at least one institution or object.
+
+Avoid these prohibited phrasings:
+- "was used in medieval battles"
+- "was effective against opponents"
+- "played an important role in medieval warfare"
+- "was used by both knights and infantry"
+- "was a versatile weapon"
+- "protected soldiers in battle"
+
+Replace with specific historical statements.
+
+### General Armor Articles
+
+Every general armor article must answer all of the following:
+
+- **What is it made from and how?** Name the construction technique: hammered plate, riveted mail rings, textile padding, boiled leather, hardened iron.
+- **What attacks did it resist?** Name the threat types: sword cuts, arrow penetration, lance impact, pollaxe blow, crossbow bolt.
+- **What were its limitations?** Heat, weight, restricted movement, vulnerability at gaps, cost of production, access by rank.
+- **How did it develop across the medieval period?** When did it appear? What tactical pressure drove its development?
+- **What regional forms existed?** German Gothic plate, Italian Milanese plate, English harness forms, Scandinavian mail traditions.
+- **What surviving examples exist?** Name the institution: Royal Armouries, MET, Kunsthistorisches Museum, Gotlands Museum.
+- **What came after it?** How did it influence later armor design or give way to new protection types?
+
+### Battlefield Role Field
+
+Every `weaponsArmor` article must have a populated `battlefieldRole` field. This should be a one- to two-sentence summary of the weapon's or armor's tactical function in historical use, naming the type of engagement, opponent, or formation where relevant. It must not be a generic statement.
+
+Bad: `"battlefieldRole": "Used in medieval warfare."`
+
+Good: `"battlefieldRole": "Primary cavalry shock weapon from the 11th to 15th centuries, couched under the arm at full charge to concentrate a destrier's momentum into a single armored point. Effective at breaking infantry formations and unseating mounted opponents."`
+
+### Famous Object Articles
+
+Articles for specific named surviving weapons or armor (Joyeuse, Sutton Hoo Helmet, Ulfberht swords) have a separate standard:
+
+- Lead with the surviving physical object: institution, collection, dimensions, date range, construction.
+- Distinguish the object's physical history from its legendary, literary, or ceremonial history. These are separate things.
+- Do not attribute legendary provenance as historical fact. Joyeuse is a composite coronation sword associated with Charlemagne in French royal memory; the blade date and Charlemagne attribution are both uncertain.
+- For the Sutton Hoo Helmet: owner is unidentified; Rædwald is a hypothesis, not a fact.
+- For Ulfberht swords: the inscription and steel quality are archaeological facts; Ulfberht as a single craftsman is a hypothesis.
+- Cite the accession record or museum catalog when known.
+
+### Scope Limits
+
+Weapons & Armor articles must fit within the medieval European scope (roughly 500–1500 CE, Western and Northern European focus). The section must not drift into:
+- Ancient weapons or classical armor (pre-500 CE general articles)
+- Renaissance or early modern equipment (post-1500 CE general articles)
+- Non-European weapons (Ottoman, Mongol, Chinese, Japanese, etc.) as primary subjects
+- Fantasy or game-derived equipment
+- Military organizations, institutions, or corps (those belong in Artifacts or elsewhere)
+
+Late medieval entries (sallets, Gothic plate, hand-and-a-half swords) are appropriate when their late 15th-century context is explicitly stated.
+
+### Images
 
 Every Weapons & Armor article needs at least one real, relevant, renderable image with caption, source, source URL, and reliability note where needed. Wikimedia Commons file pages and museum object pages are source URLs, not render image `src` values. Use surviving museum objects when possible; use manuscript depictions or clearly labeled reconstructions only when they are historically anchored.
+
+Prioritize: museum objects on white backgrounds, manuscript depictions of the weapon in use, tomb effigies showing armor, and tapestry scenes (Bayeux Tapestry) where relevant. Avoid: generic medieval illustrations without clear connection to the specific article subject, AI-generated reconstructions, and fantasy-derived artwork.
 
 ## Ambiguous Alias Linking
 

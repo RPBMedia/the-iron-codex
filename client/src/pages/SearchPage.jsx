@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getGlobalSearchIndex, searchArchive } from '../lib/search.js'
+import { useArchiveScrollRestoration } from '../lib/archive.js'
 
 const defaultGroupOrder = ['person', 'event', 'battle', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
 const yearGroupOrder = ['battle', 'event', 'person', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
@@ -13,6 +14,8 @@ export default function SearchPage() {
   const query = searchParams.get('q') ?? ''
   const results = useMemo(() => searchArchive(index, query, 100), [index, query])
   const groupedResults = useMemo(() => groupResults(results, query), [query, results])
+
+  useArchiveScrollRestoration({ ready: status === 'ready' })
 
   useEffect(() => {
     setStatus('loading')

@@ -4,6 +4,7 @@ import { getFavorites } from '../lib/api.js'
 import { useAuth } from '../lib/auth.jsx'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import { reportArticleImageFailure } from '../lib/images.js'
+import { useArchiveScrollRestoration } from '../lib/archive.js'
 
 const titleCollator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true })
 
@@ -14,6 +15,8 @@ export default function FavoritesPage() {
   const [error, setError] = useState('')
   const [isFetching, setIsFetching] = useState(false)
   const location = useLocation()
+
+  useArchiveScrollRestoration({ ready: isAuthenticated && !isFetching })
 
   useEffect(() => {
     if (!isAuthenticated) return

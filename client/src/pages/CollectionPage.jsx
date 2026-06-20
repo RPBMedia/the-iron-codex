@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { useLocation, useSearchParams } from 'react-router-dom'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getCollection } from '../lib/api.js'
+import { ARCHIVE_PAGE_SIZE, readArchiveEntryState, useArchiveScrollRestoration } from '../lib/archive.js'
 
-const batchSize = 10
+const batchSize = ARCHIVE_PAGE_SIZE
 
 const collectionCopy = {
   events: {
@@ -35,11 +36,23 @@ const collectionCopy = {
 }
 
 export default function CollectionPage({ collection }) {
+  const location = useLocation()
   const [items, setItems] = useState([])
   const [status, setStatus] = useState('loading')
-  const [visibleCount, setVisibleCount] = useState(batchSize)
+  // Restore the previously loaded item count when returning to this history entry.
+  const [visibleCount, setVisibleCount] = useState(
+    () => readArchiveEntryState(location)?.visibleCount ?? batchSize
+  )
   const [isLoadingMore, setIsLoadingMore] = useState(false)
   const [searchParams, setSearchParams] = useSearchParams()
+  const visibleCountRef = useRef(visibleCount)
+  visibleCountRef.current = visibleCount
+
+  // Persist scroll position + loaded count for this entry; restore once the list is ready.
+  useArchiveScrollRestoration({
+    ready: status === 'ready',
+    getState: () => ({ visibleCount: visibleCountRef.current })
+  })
   const copy = useMemo(() => collectionCopy[collection], [collection])
   const archiveState = useMemo(() => readArchiveState(searchParams, collection), [collection, searchParams])
   const filterConfigs = useMemo(() => getFilterConfigs(items, collection), [collection, items])
@@ -54,6 +67,10 @@ export default function CollectionPage({ collection }) {
   )
   const visibleItems = useMemo(() => sortedItems.slice(0, visibleCount), [sortedItems, visibleCount])
   const hasMore = visibleItems.length < sortedItems.length
+  // Signature of the active query. Paging resets only when this actually changes,
+  // not on mount — so a restored count survives, and StrictMode's double-invoke is safe.
+  const filterSignature = `${collection}|${archiveState.search}|${archiveState.sort}|${JSON.stringify(archiveState.filters)}`
+  const previousSignature = useRef(filterSignature)
 
   useEffect(() => {
     setStatus('loading')
@@ -66,8 +83,10 @@ export default function CollectionPage({ collection }) {
   }, [collection])
 
   useEffect(() => {
+    if (previousSignature.current === filterSignature) return
+    previousSignature.current = filterSignature
     setVisibleCount(batchSize)
-  }, [archiveState.search, archiveState.sort, archiveState.filters, collection])
+  }, [filterSignature])
 
   function updateQuery(updates) {
     setSearchParams((currentParams) => {

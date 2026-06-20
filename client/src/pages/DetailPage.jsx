@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useLocation, useParams } from 'react-router-dom'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getArticle } from '../lib/api.js'
@@ -16,6 +16,8 @@ const collectionLabels = {
 
 export default function DetailPage() {
   const { collection, id } = useParams()
+  const navigate = useNavigate()
+  const routerLocation = useLocation()
   const [article, setArticle] = useState(null)
   const [status, setStatus] = useState('loading')
 
@@ -55,9 +57,7 @@ export default function DetailPage() {
       <section className="detail-hero">
         <ImageWithCaption article={article} />
         <div className="detail-body">
-          <Link className="back-link" to={`/${collection}`}>
-            Back to {collectionLabels[collection] ?? 'archive'}
-          </Link>
+          <BackToArchiveLink collection={collection} routerLocation={routerLocation} navigate={navigate} />
           <p className="eyebrow">{articleTypeLabel(article)}</p>
           <h1>{article.name}</h1>
           {article.type === 'character' && <PersonSubtitle article={article} />}
@@ -78,6 +78,28 @@ export default function DetailPage() {
         </div>
       </section>
     </article>
+  )
+}
+
+function BackToArchiveLink({ collection, routerLocation, navigate }) {
+  const label = collectionLabels[collection] ?? 'archive'
+  const from = routerLocation.state?.from
+  // If we arrived here from this collection's archive list, go back through
+  // history so the list restores its scroll position and loaded item count.
+  const cameFromArchive = typeof from === 'string' && from.startsWith(`/${collection}`)
+
+  if (cameFromArchive) {
+    return (
+      <button type="button" className="back-link back-link-button" onClick={() => navigate(-1)}>
+        Back to {label}
+      </button>
+    )
+  }
+
+  return (
+    <Link className="back-link" to={`/${collection}`}>
+      Back to {label}
+    </Link>
   )
 }
 
