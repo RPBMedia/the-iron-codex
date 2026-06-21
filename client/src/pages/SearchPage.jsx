@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getGlobalSearchIndex, searchArchive } from '../lib/search.js'
-import { useArchiveScrollRestoration } from '../lib/archive.js'
+import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
 
 const defaultGroupOrder = ['person', 'event', 'battle', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
 const yearGroupOrder = ['battle', 'event', 'person', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
 
 export default function SearchPage() {
+  const location = useLocation()
   const [searchParams] = useSearchParams()
   const [index, setIndex] = useState([])
   const [status, setStatus] = useState('loading')
@@ -15,7 +16,7 @@ export default function SearchPage() {
   const results = useMemo(() => searchArchive(index, query, 100), [index, query])
   const groupedResults = useMemo(() => groupResults(results, query), [query, results])
 
-  useArchiveScrollRestoration({ ready: status === 'ready' })
+  useArchiveStateRestoration({ ready: status === 'ready' })
 
   useEffect(() => {
     setStatus('loading')
@@ -69,7 +70,13 @@ export default function SearchPage() {
                   <h2>{groupLabel(type)}</h2>
                   <div className="search-result-list">
                     {entries.map((entry) => (
-                      <Link className="search-result-card" to={entry.url} key={`${entry.type}-${entry.slug}`}>
+                      <Link
+                        className="search-result-card"
+                        to={entry.url}
+                        key={`${entry.type}-${entry.slug}`}
+                        data-archive-item={`${entry.type}:${entry.slug}`}
+                        onClick={() => rememberArchiveAnchor(location, `${entry.type}:${entry.slug}`)}
+                      >
                         <span>{entry.typeLabel}</span>
                         <strong>{entry.title}</strong>
                         {entry.dateLabel && <time>{entry.dateLabel}</time>}

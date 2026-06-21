@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getSearchCollections } from '../lib/api.js'
-import { useArchiveScrollRestoration } from '../lib/archive.js'
+import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
 
 const indexGroups = [
   { key: 'people', title: 'People', collection: 'people' },
@@ -18,7 +18,7 @@ export default function IndexPage() {
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
 
-  useArchiveScrollRestoration({ ready: status === 'ready' })
+  useArchiveStateRestoration({ ready: status === 'ready' })
 
   useEffect(() => {
     setStatus('loading')
@@ -77,6 +77,8 @@ export default function IndexPage() {
 }
 
 function IndexGroup({ group }) {
+  const location = useLocation()
+
   return (
     <section className="index-group" aria-labelledby={`index-${group.key}`}>
       <div className="index-group-heading">
@@ -91,8 +93,12 @@ function IndexGroup({ group }) {
               <h3>{letterGroup.letter}</h3>
               <ul>
                 {letterGroup.entries.map((entry) => (
-                  <li key={`${entry.collection}-${entry.id}`}>
-                    <Link className="article-link" to={`/${entry.collection}/${entry.id}`}>
+                  <li key={`${entry.collection}-${entry.id}`} data-archive-item={`${entry.collection}:${entry.id}`}>
+                    <Link
+                      className="article-link"
+                      to={`/${entry.collection}/${entry.id}`}
+                      onClick={() => rememberArchiveAnchor(location, `${entry.collection}:${entry.id}`)}
+                    >
                       {entry.name}
                     </Link>
                     {entry.meta && <span>{entry.meta}</span>}

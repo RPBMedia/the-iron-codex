@@ -38,16 +38,29 @@ Every time a change is made to IronCodex — data (`server/data/history.json`), 
 - `AUTH_BASE_URL` stays `http://localhost:4000` (the browser-facing client origin) so Google OAuth callbacks proxy through to the backend and the registered redirect URI stays valid. Do not move the client off 4000.
 - After a data-only edit, still restart the backend so `history.json` is reloaded cleanly, then confirm the client serves the new data.
 
+## Git Commit & Push Policy (MANDATORY)
+
+Whenever new entries are added to the codex **or** a full audit/review pass is conducted (content, images, or otherwise), then — in addition to automatically restarting the server and client — **always** make a full commit and push to GitHub `main`.
+
+- **Always commit and push.** Never leave codex additions or audit work uncommitted.
+- **Account / identity:** commit and push as **RPBMedia** (`user.name = RPBMedia`, `user.email = rui.palma.baiao@gmail.com`), pushing over SSH (`git@github.com:RPBMedia/the-iron-codex.git`).
+- **Branch:** push to `main` (`git push origin main`).
+- **Scope:** stage everything relevant to the change (`git add -A`), write a clear commit message describing the entries added or the audit performed, and push immediately.
+- This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
+- Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
+
 ## Archive List UX Rules (Scroll Restoration + Page Size)
 
 These apply to every archive/list page (People, Events, Locations, Artifacts, Weapons & Armor, Index, Favorites, Search) — not just one section.
 
 - **Load 20 items at a time.** The lazy-load / "Load more" batch size is the shared constant `ARCHIVE_PAGE_SIZE` in `client/src/lib/archive.js` (currently `20`). Never reintroduce a hardcoded `10` (or any per-page value) — import the constant.
-- **Preserve list position on back navigation.** When a user opens an article from a list and returns (browser Back, forward, or an in-app "Back to ..." link), the list must restore its **scroll position and loaded item count**, plus its filters/search/sort (those live in the URL query string). Do not force the archive to the top or reset the loaded count on return.
-  - Scroll/loaded-state restoration is handled by `useArchiveScrollRestoration(...)` in `client/src/lib/archive.js`, keyed by `location.key` (per history entry) in `sessionStorage`. `CollectionPage` also restores `visibleCount`; Index/Favorites/Search restore scroll only.
-  - `ScrollToTop` only scrolls to top on PUSH/REPLACE navigations, never on POP (back/forward). `main.jsx` sets `history.scrollRestoration = 'manual'` so our logic owns scroll.
-  - In-app "Back to ..." links use `navigate(-1)` when the user arrived from that archive (passed via `state.from` from `ArticleCard`), so they trigger the same restoration as the browser Back button; otherwise they fall back to the plain archive route.
-- **Keep card dimensions stable** so restored scroll isn't thrown off by late-loading images. Archive cards use a fixed `aspect-ratio` on `.image-frame`; preserve that.
+- **Never reset an archive to the top on back navigation.** When a user opens an article from a list and returns (browser Back, forward, or an in-app "Back to ..." link), the list must restore its **scroll position, loaded item count, search, filters, and sort** — the previously clicked item should be visible where it was. Do not force the archive to the top or reset the loaded count on return. (Filters/search/sort live in the URL query string; scroll + loaded count live in `sessionStorage`.)
+- **Restore the loaded count BEFORE restoring scroll.** With lazy loading, scroll restoration must account for items loaded beyond the first batch: if the clicked item was #70 but only 20 render on mount, scrolling immediately fails because the page is too short. Seed the visible-item count from saved state first (so the DOM is tall enough), then restore scroll once the list is `ready`.
+  - All of this lives in **`client/src/lib/archive.js`** → `useArchiveStateRestoration({ ready, getSnapshot })`, keyed by `location.key` (per history entry) in `sessionStorage`. `CollectionPage` seeds `visibleCount` from `readArchiveEntryState(...)` and passes it back via `getSnapshot`; Index/Favorites/Search restore scroll only.
+  - `ScrollToTop` only scrolls to top on PUSH/REPLACE navigations, never on POP. `main.jsx` sets `history.scrollRestoration = 'manual'` so our logic owns scroll. Restore uses `behavior: 'instant'` to bypass `html { scroll-behavior: smooth }`.
+  - In-app "Back to ..." links use `navigate(-1)` when the user arrived from that archive (passed via `state.from` from `ArticleCard`), so they trigger the same restoration as the browser Back button; otherwise they fall back to the plain archive route (top).
+- **Do not save scroll until restoration is complete.** The restoration hook captures the saved state once at mount and blocks all `sessionStorage` writes until it has finished restoring (`restorationComplete`). This is critical: without it, React **StrictMode**'s mount→unmount→remount cycle (and the loading phase) fires the save path while the page is still at `scrollY = 0`, overwriting the good saved position with 0 — which makes back-navigation always land at the top. This was the original root-cause bug; do not reintroduce an unconditional save in an effect cleanup.
+- **Keep card dimensions stable** so restored scroll isn't thrown off by late-loading images. Archive cards reserve image space via `aspect-ratio` on `.image-frame`; preserve that (do not use placeholder article images, but it is fine to reserve layout space).
 - Do not over-persist: archive state is per-history-entry in `sessionStorage` and naturally expires with the session — don't move it to `localStorage` or keep it indefinitely (stale-content risk).
 
 (Note: there is no "Orders & Institutions" archive route in the current app; if one is added, it must follow these same rules.)

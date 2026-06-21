@@ -4,7 +4,7 @@ import { getFavorites } from '../lib/api.js'
 import { useAuth } from '../lib/auth.jsx'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import { reportArticleImageFailure } from '../lib/images.js'
-import { useArchiveScrollRestoration } from '../lib/archive.js'
+import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
 
 const titleCollator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true })
 
@@ -16,7 +16,7 @@ export default function FavoritesPage() {
   const [isFetching, setIsFetching] = useState(false)
   const location = useLocation()
 
-  useArchiveScrollRestoration({ ready: isAuthenticated && !isFetching })
+  useArchiveStateRestoration({ ready: isAuthenticated && !isFetching })
 
   useEffect(() => {
     if (!isAuthenticated) return
@@ -90,11 +90,16 @@ export default function FavoritesPage() {
         {favorites.length > 0 && (
           <div className="favorites-list">
             {sortedFavorites.map((favorite) => (
-              <article className="favorite-item" key={`${favorite.collection}-${favorite.id}`}>
+              <article
+                className="favorite-item"
+                key={`${favorite.collection}-${favorite.id}`}
+                data-archive-item={`${favorite.collection}:${favorite.id}`}
+              >
                 <Link
                   className="favorite-card-link"
                   to={favorite.url}
                   aria-label={`Open article: ${favorite.title}`}
+                  onClick={() => rememberArchiveAnchor(location, `${favorite.collection}:${favorite.id}`)}
                 />
                 <FavoriteImage favorite={favorite} />
                 <div>

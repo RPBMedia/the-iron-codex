@@ -22,7 +22,11 @@
 }
 
 html {
-  overflow-x: hidden;
+  /* `overflow-x: clip` prevents horizontal scrollbars WITHOUT turning the body
+     into a scroll container. Plain `overflow-x: hidden` forces overflow-y to
+     compute to `auto`, which makes the <body> the scroller (body.scrollTop) and
+     leaves window.scrollY stuck at 0 in Chrome — which broke scroll restoration. */
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
@@ -30,7 +34,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
   background: #f2eee4;
 }
 

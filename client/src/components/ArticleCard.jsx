@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import FavoriteButton from './FavoriteButton.jsx'
 import { reportArticleImageFailure } from '../lib/images.js'
+import { rememberArchiveAnchor } from '../lib/archive.js'
 
 export default function ArticleCard({ article, collection, onFavoriteChanged }) {
   const location = useLocation()
@@ -17,9 +18,14 @@ export default function ArticleCard({ article, collection, onFavoriteChanged }) 
   const fromArchive = `${location.pathname}${location.search}`
 
   return (
-    <article className="article-card">
+    <article className="article-card" data-archive-item={article.id}>
       <FavoriteButton article={articleWithIdentity} onChanged={(isFavorited) => onFavoriteChanged?.(articleWithIdentity, isFavorited)} />
-      <Link className="article-card-link" to={`/${targetCollection}/${article.id}`} state={{ from: fromArchive }}>
+      <Link
+        className="article-card-link"
+        to={`/${targetCollection}/${article.id}`}
+        state={{ from: fromArchive }}
+        onClick={() => rememberArchiveAnchor(location, article.id)}
+      >
         <ImageWithFallback article={article} />
         <div className="card-content">
           <div className="card-meta">

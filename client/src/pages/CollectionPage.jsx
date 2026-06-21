@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useLocation, useSearchParams } from 'react-router-dom'
+import { useLocation, useNavigationType, useSearchParams } from 'react-router-dom'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getCollection } from '../lib/api.js'
-import { ARCHIVE_PAGE_SIZE, readArchiveEntryState, useArchiveScrollRestoration } from '../lib/archive.js'
+import { ARCHIVE_PAGE_SIZE, getRestorableSnapshot, useArchiveStateRestoration } from '../lib/archive.js'
 
 const batchSize = ARCHIVE_PAGE_SIZE
 
@@ -37,21 +37,22 @@ const collectionCopy = {
 
 export default function CollectionPage({ collection }) {
   const location = useLocation()
+  const navigationType = useNavigationType()
   const [items, setItems] = useState([])
   const [status, setStatus] = useState('loading')
-  // Restore the previously loaded item count when returning to this history entry.
+  // When returning to this archive (browser back/forward), restore the previously
+  // loaded item count so the DOM is tall enough before scroll is restored.
   const [visibleCount, setVisibleCount] = useState(
-    () => readArchiveEntryState(location)?.visibleCount ?? batchSize
+    () => getRestorableSnapshot(location, navigationType)?.visibleCount ?? batchSize
   )
   const [isLoadingMore, setIsLoadingMore] = useState(false)
   const [searchParams, setSearchParams] = useSearchParams()
-  const visibleCountRef = useRef(visibleCount)
-  visibleCountRef.current = visibleCount
 
-  // Persist scroll position + loaded count for this entry; restore once the list is ready.
-  useArchiveScrollRestoration({
+  // Persist the loaded count (so the DOM is tall enough on return) and restore the
+  // clicked item into view once the list is ready.
+  useArchiveStateRestoration({
     ready: status === 'ready',
-    getState: () => ({ visibleCount: visibleCountRef.current })
+    snapshot: { visibleCount }
   })
   const copy = useMemo(() => collectionCopy[collection], [collection])
   const archiveState = useMemo(() => readArchiveState(searchParams, collection), [collection, searchParams])
