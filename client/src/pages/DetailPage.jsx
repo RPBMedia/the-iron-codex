@@ -213,7 +213,6 @@ function StandardContent({ article }) {
           article={article}
         />
       ))}
-      <HistoricalReliabilityNote note={article.historicalReliability} />
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
@@ -349,9 +348,6 @@ function EventContent({ article }) {
       {sections.map((section) => (
         <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
       ))}
-      {!sections.some((section) => section.title?.toLowerCase().includes('reliability')) && (
-        <HistoricalReliabilityNote note={article.historicalReliability} />
-      )}
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
@@ -402,7 +398,6 @@ function LocationContent({ article }) {
           ))}
         </ul>
       </section>
-      <HistoricalReliabilityNote note={article.historicalReliability} />
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
@@ -438,7 +433,6 @@ function PersonContent({ article }) {
           <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
         ))}
         <KeyAchievements achievements={article.keyAchievements ?? achievementFallback(article)} article={article} />
-        <HistoricalReliabilityNote note={article.historicalReliability} />
         <SourcesList sources={article.sources} />
       </main>
       <aside className="person-side-rail">
@@ -669,17 +663,6 @@ function RelatedEntries({ groups }) {
           </ul>
         </div>
       ))}
-    </section>
-  )
-}
-
-function HistoricalReliabilityNote({ note }) {
-  if (!note) return null
-
-  return (
-    <section className="bio-section reliability-note">
-      <h2>Historical reliability</h2>
-      <p>{note}</p>
     </section>
   )
 }

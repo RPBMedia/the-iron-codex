@@ -3,6 +3,22 @@ import fs from 'node:fs'
 const dataPath = new URL('../server/data/history.json', import.meta.url)
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 
+// Hard failure: historicalReliability field must not exist
+const hardFailings = []
+for (const [collection, entries] of Object.entries(data)) {
+  if (!Array.isArray(entries)) continue
+  for (const entry of entries) {
+    if ('historicalReliability' in entry) {
+      hardFailings.push(`${collection}/${entry.id || entry.slug || entry.name || 'unknown'}: has forbidden 'historicalReliability' field`)
+    }
+  }
+}
+if (hardFailings.length) {
+  console.error(`HARD FAILURE: ${hardFailings.length} article(s) still have the removed 'historicalReliability' field:`)
+  hardFailings.forEach(f => console.error(' -', f))
+  process.exit(1)
+}
+
 const suspiciousPatterns = [
   /developed in the context of regional medieval politics/i,
   /was shaped by lordship/i,
@@ -19,17 +35,34 @@ const suspiciousPatterns = [
   /this artifact was meaningful/i,
   /mattered historically/i,
   /surviving evidence must often be read/i,
+  /surviving examples and manuscript images must be read together/i,
   /was central to .* historical importance/i,
   /appears in .*major.*phase.*reign/i,
   /is central to .* place in medieval history/i,
   /career connects directly/i,
   /included in IronCodex because/i,
   /appears in IronCodex/i,
+  /IronCodex role is to make linked biographical facts/i,
   /serving as a generic map point/i,
   /Death details are summarized cautiously/i,
   /Birth details are not securely preserved/i,
   /the article keeps .* cautious/i,
-  /where medieval sources disagree/i
+  /where medieval sources disagree/i,
+  // Location template phrases
+  /geography shaped movement, defense, worship, trade, or politics/i,
+  /medieval history of .+ is tied to regional power and to the people or events listed in its archive connections/i,
+  /medieval power was local as well as royal: courts, shrines, markets, bridges, fortifications/i,
+  /events connected to .+ should be read through the wider archive rather than in isolation/i,
+  /IronCodex marks that uncertainty in connected people and event pages/i,
+  /The legacy of .+ survives through monuments, ruins, maps, manuscripts, local memory/i,
+  /its importance may have changed over time, especially after conquest, dynastic change/i,
+  /for places such as towns, cathedrals, castles, and battlefields, the surrounding roads/i,
+  // Weapon/armor filler phrases
+  /weapon categories are modern conveniences applied to objects that varied/i,
+  /armor terminology varies between museum catalogues, modern typologies/i,
+  /involved rulers, commanders, clerics, nobles/i,
+  // Generic filler — only match when "details are uncertain" is the whole sentence/paragraph
+  /^(the )?details are uncertain\.?\s*$/i,
 ]
 
 const suspiciousTimelinePatterns = [

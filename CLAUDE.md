@@ -49,6 +49,54 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
+## Content Depth and No-Filler Rules (ALL Article Types)
+
+These rules apply to every article in the archive. Run `npm run check:content-quality` after any content change to enforce them.
+
+### No Generic Sections
+
+Every section of every article must pass this test: **"Could this paragraph be copied to a different article with only the title changed?"** If yes, it is filler and must be rewritten with specific facts or removed entirely.
+
+Forbidden patterns:
+- "played an important role"
+- "became significant"
+- "must be read together"
+- "geography shaped movement, defense, worship, trade, or politics"
+- "medieval power was local as well as royal"
+- "the legacy of [Name] survives through monuments, ruins, maps, manuscripts, local memory"
+- "events connected to [Name] should be read through the wider archive"
+- "IronCodex role is to make linked biographical facts navigable"
+- "involved rulers, commanders, clerics, nobles" (events Key Figures filler)
+- "details are uncertain" as a standalone paragraph
+- "weapon categories are modern conveniences applied to objects that varied"
+
+### No Historical Reliability Sections
+
+**The `historicalReliability` field is permanently removed from the archive.** Do not add it back. If uncertainty about sources is genuinely important to understanding an article, express it in specific prose within the relevant content section (e.g., "The only account of this battle comes from Froissart, written decades later and relying on hearsay from combatants he never met.").
+
+The `HistoricalReliabilityNote` component has been removed from `DetailPage.jsx`. Do not re-add it.
+
+### Weapons & Armor: Dane Axe as the Reference Example
+
+**Bad** (old IronCodex content — what to avoid):
+
+> *Design and construction:* The blade of the Dane axe featured a broad, flaring cutting edge...
+> *historicalReliability:* "Weapon categories are modern conveniences applied to objects that varied by workshop, region, and date; surviving examples and manuscript images must be read together."
+
+**Good** (what to write instead):
+
+> *Design and construction:* The Dane axe head is distinguished by its dramatically flared lower cutting edge, which could reach 25–30 cm or more on large examples. The socket was typically offset below the center of the blade, shifting weight forward for heavy blows. Surviving heads in the Petersen Type M and Type L categories share this profile, though construction details vary. The label "Dane axe" is a modern collector's and museum term rather than a medieval designation — Norse sources use *breiðøx* (broad axe). Surviving axe heads from this period vary considerably in blade width, curve, and socket construction, so the term covers a range of related but not identical objects rather than a single standardized weapon type.
+
+### Minimum Content Standards by Article Type
+
+**Weapons & Armor:** design/construction specifics, named battles where used, named users, museum objects.
+**People:** birth/death with known context, specific roles and decisions, named conflicts or actions, outcome of their influence.
+**Events:** named participants, specific dates and locations, cause and specific outcome.
+**Battles:** commander names on each side, engagement specifics, outcome and consequences.
+**Locations:** what happened there specifically, who was connected, when.
+**Kingdoms:** rulers, extent, formation and collapse.
+**Artifacts/Documents:** physical description, authorship/maker, current location if surviving.
+
 ## Archive List UX Rules (Scroll Restoration + Page Size)
 
 These apply to every archive/list page (People, Events, Locations, Artifacts, Weapons & Armor, Index, Favorites, Search) — not just one section.
@@ -221,7 +269,6 @@ Every `weaponsArmor` article must populate:
 - `id`, `name`, `type:"weaponArmor"`, `weaponArmorType`, `year`, `period`, `region`, `material`, `battlefieldRole`, `image`, `summary`, `details`
 - `contentSections` — minimum 5 sections, each with at least 3 substantial paragraphs
 - `imageInfo` — `caption`, `creator`, `date`, `source`, `sourceUrl`, `note`
-- `historicalReliability` — `level` and `note`
 - `knownFor` — minimum 3 bullet strings
 - `relatedEntries` — minimum 5 total links across events, people, weapons/armor
 - `sources` — minimum 3 entries
