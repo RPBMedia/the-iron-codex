@@ -2,6 +2,51 @@
 
 These rules apply to all future work on IronCodex.
 
+## Non-Negotiable Article Quality Rules
+
+These three standards are absolute and apply to **every** article of every type (People, Events, Battles, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts) and to every surface where articles appear (detail pages, archive cards, homepage cards, recommendation cards, favorite cards, index links, related-entry cards, search results, mobile views). They are enforced by `npm run check:images` and `npm run check:content-quality`, which are hard-failing.
+
+### 1. Every article must have a real, relevant, high-quality image
+
+- Every article must have at least one real, relevant, high-quality image.
+- **No article may render "Image unavailable" in production.** The "Image unavailable" UI state is a development-time defensive marker only — it must never be the resting state of a finished article. If it appears, the article's image URL is broken or missing and the article is **incomplete**.
+- No article may use a placeholder image, initials card, generic IronCodex fallback card, broken image, blank image block, or decorative filler image as its article image.
+- Every archive card, detail page, recommendation card, and favorite card (where cards use images) must show a valid image.
+- Images must be relevant to the subject, not merely "vaguely medieval."
+- Images must be high quality, readable, and not badly cropped, cut off, stretched, distorted, or obscured by captions.
+- Main detail-page images must not be hidden or aggressively cropped. For Weapons & Armor and Artifacts, the **whole object** must be visible (use `object-fit: contain`, never `cover`, on those detail mains).
+- For locations: use a real photo, historical site, monument, map, manuscript depiction, landscape, castle, church, or battlefield image relevant to that specific place.
+- For people with no contemporary portrait: use a manuscript depiction, statue, tomb, seal, coin, or later artwork, with an **honest caption** that says it is later or symbolic.
+- Modern reconstructions or replicas are allowed when they are the clearest representation, but the caption must say so.
+- No AI-generated historical images unless explicitly requested and clearly labeled — never as fake historical evidence.
+- **Image URLs must actually resolve.** A well-formed URL is not enough; broken Wikimedia `Special:FilePath/...` links (wrong filename) render as "Image unavailable." Verify the exact Commons filename via the Commons search API (`action=query&list=search&srnamespace=6`) before using it. Run `npm run check:images --remote` to catch 404s.
+- Every image needs: `src`/path, caption, creator/artist/photographer (if known), date (if known), source/collection, source URL, license/public-domain note (where available), and a reliability/context note where appropriate.
+
+### 2. No article section may contain vague, generic, or placeholder-like filler
+
+- No section may be vague, fluffy, padded, shallow, interchangeable, or "content-shaped fog."
+- **Specificity test:** could this section be copied into another article with only the name changed? If yes, it fails — rewrite or remove it. (Enforced: the content checker hard-fails on any paragraph reused verbatim across two or more articles.)
+- No standalone "Historical reliability" or "source note" sections. If uncertainty matters, state *exactly what is uncertain* inside the relevant section (Overview, Birth, Death, Legacy, etc.).
+- No cautious-sounding-but-empty filler ("source traditions differ," "details are uncertain," "its legacy continued").
+- Every section must contain subject-specific substance: named people, named places, dates, battles, events, institutions, physical details, causes, consequences, uses, limitations, or specifically-stated source uncertainty.
+- Content may be factual, or legendary/traditional when clearly presented as such — but never empty padding.
+
+### 3. Image quality and cropping
+
+- Every image must load, be high resolution, be relevant, and not be a placeholder, broken link, or misleading crop.
+- Fix cropping at the layout level (component/CSS); replace the source image only if the image itself is poor.
+- Reserve image space with CSS `aspect-ratio` / skeletons during loading — never with a permanent "Image unavailable" block on a finished article.
+
+### Bad / Good examples
+
+**Image — Bad:** A Rogaland location card renders a large "IMAGE UNAVAILABLE" block because its image URL (`Special:FilePath/Hafrsfjord_Bru.jpg`) 404s.
+
+**Image — Good:** Rogaland uses a real, resolving Commons image relevant to the place — the *Sverd i fjell* ("Swords in Rock") monument at Hafrsfjord, commemorating Harald Fairhair's unification of Norway — with caption, creator, source, source URL, and a context note.
+
+**Content — Bad:** "The region was important in medieval politics and shaped later history."
+
+**Content — Good:** "Rogaland's coastal position made it part of the maritime world of western Norway, where local power, sailing routes, assembly traditions, and later saga memory intersected with stories about Harald Fairhair and the Battle of Hafrsfjord."
+
 ## Dev Server Restart Procedure (MANDATORY after every change)
 
 Every time a change is made to IronCodex — data (`server/data/history.json`), backend, client code, styles, or config — the dev server **and** client must be restarted properly so the running app reflects the change. Do not assume hot-reload covered it; restart both, cleanly, every time.

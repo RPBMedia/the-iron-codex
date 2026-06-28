@@ -116,6 +116,13 @@ function walk(value, path, context) {
   }
 }
 
+// Hard failure: no standalone "Historical reliability" / "source note" content section
+const reliabilitySectionRe = /historical reliability|source note/i
+
+// Cross-article duplicate paragraph detection: a paragraph reused verbatim across
+// 2+ different articles is templated filler and fails the specificity test.
+const paragraphArticles = new Map() // normalized text -> Set(articleKey)
+
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue
 
@@ -125,6 +132,37 @@ for (const [collection, entries] of Object.entries(data)) {
     if (collection === 'characters') {
       validatePersonTimeline(entry)
     }
+
+    const articleKey = `${collection}/${entry.id || entry.slug || labelFor(entry)}`
+    for (const section of (entry.contentSections ?? [])) {
+      if (reliabilitySectionRe.test(section.title || '')) {
+        findings.push({
+          collection,
+          article: labelFor(entry),
+          path: `contentSections "${section.title}"`,
+          pattern: 'standalone Historical reliability / source note section (forbidden)',
+          snippet: (section.paragraphs?.[0] ?? '').slice(0, 160)
+        })
+      }
+      for (const paragraph of (section.paragraphs ?? [])) {
+        const text = (paragraph || '').trim()
+        if (text.length < 40) continue
+        if (!paragraphArticles.has(text)) paragraphArticles.set(text, new Set())
+        paragraphArticles.get(text).add(articleKey)
+      }
+    }
+  }
+}
+
+for (const [text, articles] of paragraphArticles) {
+  if (articles.size > 1) {
+    findings.push({
+      collection: 'multiple',
+      article: [...articles].join(', '),
+      path: 'contentSections.paragraphs',
+      pattern: 'paragraph reused verbatim across multiple articles (templated filler)',
+      snippet: text.slice(0, 160)
+    })
   }
 }
 

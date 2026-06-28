@@ -18,6 +18,9 @@ const placeholderPattern = /placeholder|placehold|dummy|example\.com|blank-image
 const commonsFilePagePattern = /^https:\/\/commons\.wikimedia\.org\/wiki\/File:/i
 const sourcePageAsImagePattern = /\/wiki\/File:/i
 const generatedPlaceholderPattern = /THE IRON CODEX|<svg|data:image\/svg\+xml|initials/i
+// Placeholder-flavoured metadata values: text that pretends to be metadata but
+// describes nothing specific. e.g. date "modern photograph, map, or historical image".
+const placeholderMetadataPattern = /^(modern photograph, map, or historical image|real representative image used for the linked medieval place|representative image|n\/?a|tbd|placeholder|various)\.?$/i
 
 // Weapons & Armor permanent rule: the MAIN image must show the full, unmistakable
 // object — never a manuscript page, tapestry scene, texture/detail crop, fragment,
@@ -209,6 +212,13 @@ function validateMetadata(collection, article, field, metadata, articleSources) 
 
   if (!stringValue(metadata.sourceUrl) && !hasSourceUrlInSources(metadata) && !hasImageSourceUrl(articleSources)) {
     addFinding(collection, article, field, 'missing source URL metadata')
+  }
+
+  for (const key of ['date', 'note', 'creator']) {
+    const value = stringValue(metadata[key]) ? metadata[key].trim() : ''
+    if (value && placeholderMetadataPattern.test(value)) {
+      addFinding(collection, article, field, `placeholder-like image metadata in "${key}" ("${value}")`)
+    }
   }
 }
 

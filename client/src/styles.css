@@ -1184,6 +1184,16 @@ figure.detail-media {
 }
 
 /*
+ * Artifacts are objects (crowns, relics, reliquaries, manuscripts). Like Weapons
+ * & Armor, the main image should show the whole item, not an aggressive crop.
+ */
+.detail-media-artifact img {
+  background: #111116;
+  object-fit: contain;
+  object-position: center;
+}
+
+/*
  * Weapons & Armor full-object render mode.
  * The main image must always show the entire weapon or armor piece, never a
  * crop. Use object-fit: contain so tall swords, long polearms, and wide shields
