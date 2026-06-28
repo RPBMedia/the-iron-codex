@@ -49,6 +49,19 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
+## Early Rus' / Varangian-Linked Figures
+
+These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, Vladimir I, or any other figure whose narrative depends heavily on the Primary Chronicle or other late medieval Rus' source traditions.
+
+- **The Primary Chronicle is a twelfth-century compilation.** It records events from the ninth and tenth centuries through a combination of earlier written records, oral tradition, and retrospective monastic narrative shaping. Treat its accounts as historically important but not as straightforward documentary fact.
+- **Do not present chronicle traditions as certain fact.** Phrases like "Rurik arrived in 862" are chronicle tradition, not verified history. Write: "The Primary Chronicle dates Rurik's arrival to 862" or "traditionally placed in 862."
+- **Do not use modern-national framing.** Early Rus' history belongs to the shared medieval heritage of Russia, Ukraine, and Belarus — and is politically contested in all three contexts. Write "the Rus' lands," "early Rus'," "Kievan Rus'," "the Rurikid tradition." Do not frame early Rus' figures as "founders of Russia" or "founders of Ukraine" without qualification.
+- **Do not invent birthplaces or death places.** If a birthplace is not given in sources, write "Birthplace unknown." If a death place is uncertain, say so. Chronicle chronology is not the same as a confirmed date.
+- **Legendary death stories belong in the Death section, clearly identified as legend.** Oleg's snake-from-the-skull story, for example, is identified in the Death section as a literary tradition parallel to Norse saga convention.
+- **Identify Norse name equivalents carefully.** Oleg = Helgi, Olga = Helga, Igor = Ingvar — these equivalences are noted in aliases and discussed in Birth sections where relevant, but should not be presented as definitive biographical facts.
+- **Highlight independent corroboration when it exists.** The 941 attack on Constantinople is corroborated by Liutprand of Cremona; the 957 embassy of Olga is corroborated by Constantine VII. These points of external verification should be made explicit.
+- **No standalone Historical reliability sections.** Uncertainty about sources belongs inside the relevant content section (Overview, Birth, Death, etc.) as specific prose.
+
 ## Content Depth and No-Filler Rules (ALL Article Types)
 
 These rules apply to every article in the archive. Run `npm run check:content-quality` after any content change to enforce them.
