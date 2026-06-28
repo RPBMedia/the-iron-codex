@@ -107,6 +107,21 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 - **Highlight independent corroboration when it exists.** The 941 attack on Constantinople is corroborated by Liutprand of Cremona; the 957 embassy of Olga is corroborated by Constantine VII. These points of external verification should be made explicit.
 - **No standalone Historical reliability sections.** Uncertainty about sources belongs inside the relevant content section (Overview, Birth, Death, etc.) as specific prose.
 
+## Character and Personality Sections for People
+
+Every Person (character) article must include a **Character and Personality** section. This rule applies **only** to People — never add it to events, battles, locations, kingdoms/polities, artifacts, weapons & armor, orders, documents, concepts, or any other type. It is enforced by `npm run check:content-quality`, which hard-fails if any character lacks the section, if the section is empty or a single vague sentence, or if it uses modern clinical language.
+
+- **Placement:** inside `contentSections`, immediately after "Birth and early life" (the renderer shows `contentSections` in order, so no component change is needed).
+- **Purpose:** explain how the person was described, remembered, or characterised by medieval sources, chronicles, sagas, hagiographies, hostile accounts, admirers, later tradition, or modern historians — their temperament, reputation, leadership style, virtues, and flaws.
+- **Be source-aware.** Make clear where each impression comes from: "Saga tradition presents him as…", "Monastic writers remembered her as…", "Hostile French accounts portrayed him as…", "Modern historians are more cautious about…". Internal links auto-generate from entity names mentioned in the prose, so naming battles, places, and people naturally cross-links them.
+- **Legendary or poorly documented figures:** say so explicitly. For Ragnar, Rurik, and early saga figures, describe how the *legend or chronicle tradition* characterises them rather than inventing a real personality. For figures with scant evidence (many early Danish/Swedish kings), explain what the record allows and what it does not, specifically — do not fake confidence.
+- **Do not** invent personality traits, psychoanalyse beyond the evidence, use modern clinical diagnoses (narcissistic, psychopathic, bipolar, traumatised, autistic, paranoid, etc.), flatten people into pure hero/villain, or write generic filler. No standalone "Historical reliability" sections.
+- **Length:** 2–4 substantial paragraphs for major figures; shorter but still specific for obscure ones. No single-sentence or sub-200-character sections.
+
+**Bad:** "He was a strong leader with a complex personality. Sources describe him as respected by allies and feared by enemies."
+
+**Good:** "William the Conqueror's character was remembered through severity and command. Norman sources emphasised legitimacy and discipline, while English memory preserved the violence of conquest, dispossession, and the Harrying of the North. His personality should not be reduced to cruelty alone: he was also politically patient, careful with claims of law, and relentless once opposition hardened."
+
 ## Content Depth and No-Filler Rules (ALL Article Types)
 
 These rules apply to every article in the archive. Run `npm run check:content-quality` after any content change to enforce them.

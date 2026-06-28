@@ -119,6 +119,38 @@ function walk(value, path, context) {
 // Hard failure: no standalone "Historical reliability" / "source note" content section
 const reliabilitySectionRe = /historical reliability|source note/i
 
+// Hard failure: every Person (character) article must have a substantial, source-aware
+// "Character and Personality" section. Applies ONLY to characters.
+const CHARACTER_SECTION_TITLE = 'Character and Personality'
+const clinicalTermsRe = /\b(narcissist(ic)?|psychopath(ic)?|sociopath(ic)?|bipolar|traumati[sz]ed|clinically depressed|autistic|schizophren\w*|paranoid|manic)\b/i
+
+function validateCharacterPersonality(entry, label) {
+  const section = (entry.contentSections ?? []).find(s => s.title === CHARACTER_SECTION_TITLE)
+  if (!section) {
+    findings.push({
+      collection: 'characters',
+      article: label,
+      path: `contentSections "${CHARACTER_SECTION_TITLE}"`,
+      pattern: 'missing required Character and Personality section',
+      snippet: ''
+    })
+    return
+  }
+  const paragraphs = (section.paragraphs ?? []).filter(p => typeof p === 'string' && p.trim())
+  const text = paragraphs.join(' ').trim()
+  if (!text) {
+    findings.push({ collection: 'characters', article: label, path: CHARACTER_SECTION_TITLE, pattern: 'empty Character and Personality section', snippet: '' })
+    return
+  }
+  const sentenceCount = (text.match(/[.!?]/g) ?? []).length
+  if (sentenceCount < 2 || text.length < 200) {
+    findings.push({ collection: 'characters', article: label, path: CHARACTER_SECTION_TITLE, pattern: 'Character and Personality section too short / single-sentence', snippet: text.slice(0, 160) })
+  }
+  if (clinicalTermsRe.test(text)) {
+    findings.push({ collection: 'characters', article: label, path: CHARACTER_SECTION_TITLE, pattern: 'modern clinical/diagnostic language in Character and Personality section', snippet: text.slice(0, 160) })
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -131,6 +163,7 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'characters') {
       validatePersonTimeline(entry)
+      validateCharacterPersonality(entry, labelFor(entry))
     }
 
     const articleKey = `${collection}/${entry.id || entry.slug || labelFor(entry)}`
