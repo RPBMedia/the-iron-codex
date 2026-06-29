@@ -116,6 +116,39 @@ function walk(value, path, context) {
   }
 }
 
+// Hard failure: every article must have >= 3 valid, non-duplicate, non-self related entries.
+const relTypeToCollection = {
+  person: 'characters', people: 'characters', character: 'characters', event: 'events',
+  location: 'locations', place: 'locations', kingdom: 'locations', polity: 'locations',
+  artifact: 'artifacts', document: 'artifacts', weaponArmor: 'weaponsArmor', weapon: 'weaponsArmor',
+  armor: 'weaponsArmor', shield: 'weaponsArmor', helmet: 'weaponsArmor', famousWeapon: 'weaponsArmor', famousArmor: 'weaponsArmor'
+}
+const idsByCollection = {}
+for (const [col, arr] of Object.entries(data)) {
+  if (Array.isArray(arr)) idsByCollection[col] = new Set(arr.map(a => a.id))
+}
+
+function validateRelatedEntries(collection, entry, label) {
+  const items = Object.values(entry.relatedEntries || {}).flatMap(v => Array.isArray(v) ? v : [])
+  const seen = new Set()
+  let valid = 0
+  for (const it of items) {
+    const tcol = relTypeToCollection[it?.type]
+    const p = `relatedEntries -> ${it?.type}:${it?.slug}`
+    if (!tcol) { findings.push({ collection, article: label, path: p, pattern: 'related entry has invalid/unknown type', snippet: it?.title ?? '' }); continue }
+    if (!it.slug) { findings.push({ collection, article: label, path: p, pattern: 'related entry missing slug', snippet: it?.title ?? '' }); continue }
+    if (tcol === collection && it.slug === entry.id) { findings.push({ collection, article: label, path: p, pattern: 'related entry self-link', snippet: it.title ?? '' }); continue }
+    if (!idsByCollection[tcol]?.has(it.slug)) { findings.push({ collection, article: label, path: p, pattern: 'related entry points to a missing article', snippet: it.title ?? '' }); continue }
+    const key = `${tcol}:${it.slug}`
+    if (seen.has(key)) { findings.push({ collection, article: label, path: p, pattern: 'duplicate related entry', snippet: it.title ?? '' }); continue }
+    seen.add(key)
+    valid++
+  }
+  if (valid < 3) {
+    findings.push({ collection, article: label, path: 'relatedEntries', pattern: `fewer than 3 valid related entries (has ${valid})`, snippet: '' })
+  }
+}
+
 // Hard failure: no standalone "Historical reliability" / "source note" content section
 const reliabilitySectionRe = /historical reliability|source note/i
 
@@ -165,6 +198,8 @@ for (const [collection, entries] of Object.entries(data)) {
       validatePersonTimeline(entry)
       validateCharacterPersonality(entry, labelFor(entry))
     }
+
+    validateRelatedEntries(collection, entry, labelFor(entry))
 
     const articleKey = `${collection}/${entry.id || entry.slug || labelFor(entry)}`
     for (const section of (entry.contentSections ?? [])) {

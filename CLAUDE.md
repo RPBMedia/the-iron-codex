@@ -107,6 +107,30 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 - **Highlight independent corroboration when it exists.** The 941 attack on Constantinople is corroborated by Liutprand of Cremona; the 957 embassy of Olga is corroborated by Constantine VII. These points of external verification should be made explicit.
 - **No standalone Historical reliability sections.** Uncertainty about sources belongs inside the relevant content section (Overview, Birth, Death, etc.) as specific prose.
 
+## Related Articles Rules
+
+Every article of every type must have a **Related entries** section (`relatedEntries`) with **at least 3** historically meaningful, working links. Enforced by `npm run check:content-quality`, which hard-fails on fewer than 3 valid entries, broken slugs, self-links, duplicates, or invalid types.
+
+- **Minimum 3; major articles should usually have 4–6** (major figures, wars, kingdoms, key weapons, institutions). Don't pad past what is meaningful.
+- Related entries must be **real, existing Codex articles** — the `slug` must match an `id` in the collection its `type` maps to (`person`→characters, `event`→events, `location`/`kingdom`/`polity`→locations, `artifact`/`document`→artifacts, `weaponArmor`→weaponsArmor).
+- Each must be **historically explainable**. No self-links, no duplicates, no broken links, no random category neighbours ("both are medieval"), no generic filler.
+- **Data shape:** `relatedEntries` is an object grouped by type (`people`, `events`, `locations`, `artifacts`, `weaponsArmor`); each item is `{ title, type, slug, label? }`. The optional `label` is a short relationship reason and renders under the link. Keep labels short and specific (e.g. "Died in this engagement", "Birthplace", "Realm"); omit the label rather than write generic filler.
+- **Bad related entries are worse than missing ones.**
+
+Relationship logic by type:
+- **People** → kingdoms/realms they ruled or served, battles/events they fought in, institutions/orders, birth/death/burial locations, rivals, allies, family, predecessors, successors; weapons/artifacts only if strongly relevant.
+- **Battles** → commanders, combatant factions/polities, the larger war, the battlefield location, consequences.
+- **Events/wars** → major people, major battles, participating polities, key locations, documents.
+- **Kingdoms/polities** → rulers, rival/allied realms, major wars/battles, capital/major locations, institutions, successor/predecessor states.
+- **Locations** → people born/died/ruled/fought there, events/battles there, the containing realm, institutions/artifacts tied to the place.
+- **Artifacts/documents** → creator/owner, origin/current location, the event or period represented, associated people and institutions.
+- **Orders & Institutions** → founders, members, polities served or opposed, wars/battles, headquarters, related equipment.
+- **Weapons & Armor** → similar and same-period equipment, battles where it mattered, users, tactics, counters/complements.
+
+Example — **Harald Hardrada**. Good: Kingdom of Norway (realm), Battle of Stamford Bridge (died there), Byzantine Empire (Varangian service), Tostig Godwinson (ally), Kingdom of England (invaded). Bad: a longsword (not discussed in the article), Kingdom of France (no specific relationship), or anything linked only because it is "medieval".
+
+When building related entries at scale, derive them from the **documented structured data already in each article** — timeline links, birth/death place & event, realm, location `kingdomId`/`kingdom`, event `participants` — and from reciprocal references. These are real relationships, not category neighbours. Curate the residual by hand; never auto-fill weak category matches to reach the minimum.
+
 ## Character and Personality Sections for People
 
 Every Person (character) article must include a **Character and Personality** section. This rule applies **only** to People — never add it to events, battles, locations, kingdoms/polities, artifacts, weapons & armor, orders, documents, concepts, or any other type. It is enforced by `npm run check:content-quality`, which hard-fails if any character lacks the section, if the section is empty or a single vague sentence, or if it uses modern clinical language.
