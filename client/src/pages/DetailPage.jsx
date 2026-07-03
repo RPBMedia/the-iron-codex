@@ -444,6 +444,41 @@ function PersonHero({ article }) {
   return (
     <div className="person-profile">
       <PersonQuickFacts article={article} />
+      <RulerSuccession article={article} />
+    </div>
+  )
+}
+
+function RulerSuccession({ article }) {
+  const succession = article.succession
+
+  if (!article.isRuler || !succession) return null
+
+  return (
+    <div className="succession-block">
+      <dl className="fact-strip succession-strip">
+        <SuccessionCard label="Predecessor" entry={succession.predecessor} />
+        <SuccessionCard label="Successor" entry={succession.successor} />
+      </dl>
+      {succession.note && <p className="succession-office-note">{succession.note}</p>}
+    </div>
+  )
+}
+
+function SuccessionCard({ label, entry }) {
+  if (!entry) return null
+
+  return (
+    <div className="succession-card">
+      <dt>{label}</dt>
+      <dd>
+        {entry.personSlug ? (
+          <Link className="succession-link" to={`/people/${entry.personSlug}`}>{entry.displayName}</Link>
+        ) : (
+          <span className="succession-name">{entry.displayName}</span>
+        )}
+        {entry.note && <small className="succession-note">{entry.note}</small>}
+      </dd>
     </div>
   )
 }

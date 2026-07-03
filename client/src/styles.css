@@ -1451,6 +1451,47 @@ button.back-link:focus-visible {
   margin: 0;
 }
 
+.succession-block {
+  margin-top: 12px;
+}
+
+.succession-strip {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.succession-card dd {
+  display: grid;
+  gap: 3px;
+}
+
+.succession-link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.succession-name {
+  font-weight: 700;
+}
+
+.succession-note {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  color: var(--silver-dim, #8d939f);
+}
+
+.succession-office-note {
+  margin: 8px 2px 0;
+  font-size: 0.76rem;
+  color: var(--silver-dim, #8d939f);
+}
+
+@media (max-width: 560px) {
+  .succession-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
 .battle-continuity h2 {
   color: #8c1d18;
 }
