@@ -214,6 +214,26 @@ Every Person (character) article must include a **Character and Personality** se
 
 **Good:** "William the Conqueror's character was remembered through severity and command. Norman sources emphasised legitimacy and discipline, while English memory preserved the violence of conquest, dispossession, and the Harrying of the North. His personality should not be reduced to cruelty alone: he was also politically patient, careful with claims of law, and relentless once opposition hardened."
 
+## No Buzzword-List Prose
+
+Sections must **explain**, not list. A paragraph that strings together historical-sounding nouns without teaching how anything worked is filler, even when it sounds academic. Enforced by `npm run check:content-quality`, which flags any section containing a long comma-separated list of generic medieval nouns when the whole section has no concrete anchors (fewer than two named people/places and no date).
+
+- Do not write sections that merely list historical categories ("monasteries, towns, castles, nobles, merchants, peasants…").
+- Do not use lists of nouns as a substitute for explanation.
+- Every section must teach concrete, subject-specific information: named people, places, laws, institutions, practices, dates, conflicts, and consequences.
+- "Culture and society" sections must explain **how** society worked — who held power, how land and law functioned, how people lived — not merely name social groups.
+- Avoid empty complexity words ("was complex", "was diverse", "shaped by many forces", "varied by region and period") unless immediately followed by specific detail.
+- **Specificity test:** would a reader learn something about *this* subject they would not learn from a generic article about medieval Europe? If no, rewrite it.
+- Missing content must be researched or flagged — never padded with generic prose. There are no fallback prose generators; do not add any.
+
+**Bad** (Holy Roman Empire, "Culture and society"):
+
+> "The empire contained cathedral cities, monasteries, knightly lordships, merchant towns, mining regions, Alpine passes, Slavic borderlands, and Italian communes. Imperial law, charters, seals, diets, and coronation rituals helped hold together a polity that was politically fragmented but symbolically powerful."
+
+**Good:**
+
+> "The Holy Roman Empire was never a centralised kingdom like France or England; authority was layered and negotiated. Bishops were among the most powerful figures because many ruled territories as well as souls — the prince-archbishops of Cologne, Mainz, and Trier were also three of the seven electors who chose the emperor. Free imperial cities such as Lübeck and Nuremberg used charters to guard their self-government, and the Lombard League of northern Italian communes defeated Frederick I Barbarossa at Legnano in 1176 to protect their liberties. Diets, elections, and coronation ritual were not decoration but the working machinery through which rulers, princes, bishops, and cities negotiated taxation, war, and legitimacy."
+
 ## Content Depth and No-Filler Rules (ALL Article Types)
 
 These rules apply to every article in the archive. Run `npm run check:content-quality` after any content change to enforce them.

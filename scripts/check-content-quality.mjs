@@ -149,6 +149,66 @@ function validateRelatedEntries(collection, entry, label) {
   }
 }
 
+// Hard failure: buzzword-list prose. A section fails if it contains a paragraph
+// that is a long comma-separated list of generic medieval nouns AND the whole
+// section lacks concrete anchors (fewer than 2 named entities and no date).
+const buzzGenericNouns = [
+  'cathedral cities', 'monasteries', 'lordships', 'merchant towns', 'mining regions', 'borderlands',
+  'communes', 'castles', 'churches', 'nobles', 'nobility', 'merchants', 'peasants', 'clergy', 'clerics',
+  'towns', 'roads', 'trade', 'warfare', 'religion', 'agriculture', 'charters', 'seals', 'rituals',
+  'institutions', 'warriors', 'knights', 'abbeys', 'bishoprics', 'duchies', 'counties', 'assemblies',
+  'guilds', 'markets', 'kingdoms', 'rulers', 'commanders', 'shrines', 'bridges', 'fortifications',
+  'courts', 'dynasties', 'languages', 'pilgrimage', 'manuscripts', 'coinage', 'tolls', 'rents', 'tithes',
+  'literacy', 'aristocracies', 'cities', 'settlements', 'monks', 'priests', 'lords', 'vassals', 'serfs', 'soldiers'
+]
+const buzzProperStop = new Set(['The', 'A', 'An', 'In', 'It', 'He', 'She', 'They', 'His', 'Her', 'Their', 'This',
+  'That', 'These', 'Those', 'German', 'Latin', 'Italian', 'Czech', 'French', 'English', 'European', 'Christian',
+  'Catholic', 'Roman', 'Imperial', 'Slavic', 'Alpine', 'Baltic', 'Where', 'When', 'While', 'Although', 'After',
+  'Before', 'During', 'Both', 'Many', 'Some', 'Most', 'Its', 'Such', 'But', 'And', 'For', 'By', 'As', 'At',
+  'Medieval', 'Church', 'Kingdom', 'Empire', 'Norman', 'Scandinavian', 'Viking'])
+function buzzMaxCommaRun(text) {
+  let max = 0
+  for (const sentence of text.split(/(?<=[.!?])\s+/)) {
+    const commas = (sentence.match(/,/g) || []).length
+    if (commas >= 3) max = Math.max(max, commas + (/,?\s+and\s+/.test(sentence) ? 2 : 1))
+  }
+  return max
+}
+function buzzGenericCount(lower) {
+  let n = 0
+  for (const g of buzzGenericNouns) { const m = lower.match(new RegExp(`\\b${g}\\b`, 'g')); if (m) n += m.length }
+  return n
+}
+function buzzNamedEntities(text) {
+  const set = new Set()
+  for (const sentence of text.split(/(?<=[.!?])\s+/)) {
+    sentence.split(/\s+/).forEach((tok, i) => {
+      if (i === 0) return
+      const w = tok.replace(/[^A-Za-zÀ-ÿ'-]/g, '')
+      if (/^[A-ZÀ-Þ][a-zà-ÿ]{2,}/.test(w) && !buzzProperStop.has(w)) set.add(w)
+    })
+  }
+  return set.size
+}
+function validateSectionProse(collection, entry, label) {
+  for (const section of (entry.contentSections ?? [])) {
+    const paras = (section.paragraphs ?? []).filter(p => typeof p === 'string' && p.trim())
+    if (!paras.length) continue
+    const whole = paras.join(' ')
+    const anchored = buzzNamedEntities(whole) >= 2 || /\b\d{3,4}\b/.test(whole)
+    if (anchored) continue
+    const listHeavy = paras.some(p => buzzMaxCommaRun(p) >= 5 && buzzGenericCount(p.toLowerCase()) >= 4)
+    if (listHeavy) {
+      findings.push({
+        collection, article: label,
+        path: `contentSections "${section.title}"`,
+        pattern: 'buzzword-list prose: comma-separated list of generic nouns with no concrete anchors (named people/places/dates)',
+        snippet: (paras.find(p => buzzMaxCommaRun(p) >= 5) ?? '').slice(0, 160)
+      })
+    }
+  }
+}
+
 // Hard failure: no standalone "Historical reliability" / "source note" content section
 const reliabilitySectionRe = /historical reliability|source note/i
 
@@ -325,6 +385,7 @@ for (const [collection, entries] of Object.entries(data)) {
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))
+    validateSectionProse(collection, entry, labelFor(entry))
 
     const articleKey = `${collection}/${entry.id || entry.slug || labelFor(entry)}`
     for (const section of (entry.contentSections ?? [])) {
