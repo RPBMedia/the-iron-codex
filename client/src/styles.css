@@ -1441,6 +1441,91 @@ button.back-link:focus-visible {
   margin: 0;
 }
 
+.battle-continuity h2 {
+  color: #8c1d18;
+}
+
+.battle-continuity-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(140, 29, 24, 0.28);
+  border-radius: 6px;
+  padding: 12px;
+  background: rgba(255, 253, 248, 0.85);
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.battle-continuity-card:hover,
+.battle-continuity-card:focus-visible {
+  border-color: rgba(140, 29, 24, 0.6);
+  background: rgba(255, 250, 240, 1);
+}
+
+.battle-continuity-thumb {
+  flex: 0 0 64px;
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(141, 147, 159, 0.32);
+}
+
+.battle-continuity-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.battle-continuity-body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.battle-continuity-title {
+  font-weight: 700;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.battle-continuity-year {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #8c6d1f;
+}
+
+.battle-continuity-meta {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #6d717a;
+}
+
+.battle-continuity-reason {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #3f434c;
+}
+
+.battle-continuity-arrow {
+  margin-left: auto;
+  flex: 0 0 auto;
+  font-size: 1.1rem;
+  color: #8c1d18;
+}
+
+@media (max-width: 560px) {
+  .battle-continuity-thumb {
+    display: none;
+  }
+}
+
 .event-side-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));

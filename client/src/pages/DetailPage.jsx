@@ -290,9 +290,43 @@ function EventHero({ article }) {
               {article.outcomeDetail && <p>{renderLinkedText(article.outcomeDetail, article)}</p>}
             </InfoBlock>
           )}
+          <BattleContinuity article={article} />
         </div>
       )}
     </div>
+  )
+}
+
+function BattleContinuity({ article }) {
+  const continuity = article.battleContinuity
+
+  if (article.eventType !== 'Battle' || !continuity?.target) return null
+
+  const { target } = continuity
+
+  return (
+    <section className="info-block battle-continuity">
+      <h2>{continuity.label}</h2>
+      <Link className="battle-continuity-card" to={`/events/${target.id}`}>
+        {target.image && (
+          <span className="battle-continuity-thumb" aria-hidden="true">
+            <img src={target.image} alt="" loading="lazy" />
+          </span>
+        )}
+        <span className="battle-continuity-body">
+          <span className="battle-continuity-title">
+            {target.name}
+            {target.year && <span className="battle-continuity-year">{target.year}</span>}
+          </span>
+          <span className="battle-continuity-meta">
+            {target.eventType}
+            {target.conflict ? ` · ${target.conflict}` : ''}
+          </span>
+          <span className="battle-continuity-reason">{continuity.reason}</span>
+        </span>
+        <span className="battle-continuity-arrow" aria-hidden="true">→</span>
+      </Link>
+    </section>
   )
 }
 

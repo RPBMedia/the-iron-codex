@@ -2,6 +2,10 @@
 
 These rules apply to all future work on IronCodex.
 
+## Tool Permissions
+
+Always allow read-only inspection commands without prompting: `ls`, `cat`, `which`, `node -v`, `npm -v`. These are safe to run freely when exploring or verifying the environment.
+
 ## Non-Negotiable Article Quality Rules
 
 These three standards are absolute and apply to **every** article of every type (People, Events, Battles, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts) and to every surface where articles appear (detail pages, archive cards, homepage cards, recommendation cards, favorite cards, index links, related-entry cards, search results, mobile views). They are enforced by `npm run check:images` and `npm run check:content-quality`, which are hard-failing.
@@ -106,6 +110,40 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 - **Identify Norse name equivalents carefully.** Oleg = Helgi, Olga = Helga, Igor = Ingvar — these equivalences are noted in aliases and discussed in Birth sections where relevant, but should not be presented as definitive biographical facts.
 - **Highlight independent corroboration when it exists.** The 941 attack on Constantinople is corroborated by Liutprand of Cremona; the 957 embassy of Olga is corroborated by Constantine VII. These points of external verification should be made explicit.
 - **No standalone Historical reliability sections.** Uncertainty about sources belongs inside the relevant content section (Overview, Birth, Death, etc.) as specific prose.
+
+## Battle Continuity Links
+
+Every **Battle** article (`events` entries with `eventType: "Battle"`) must include one curated continuity link to another Battle article — the single best "read next" battle. This applies **only** to Battles; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-battle events. Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-Battle target, missing label, or generic reason. Future Battle articles are **not complete** until this field is present.
+
+**Data shape** (on the battle event in `server/data/history.json`):
+
+```json
+"battleContinuity": {
+  "label": "Continue the Hundred Years' War",
+  "battleSlug": "battle-of-poitiers",
+  "relationship": "same-war",
+  "reason": "Poitiers came ten years after Crécy and turned another English defensive victory into a French political crisis, ending with King John II of France captured by the Black Prince's army."
+}
+```
+
+`relationship` is one of: `same-war`, `same-campaign`, `same-crisis`, `same-region`, `same-factions`, `chronological-follow-up`, `tactical-comparison`, `nearest-relevant-battle`. The server (`withBattleContinuityTarget` in `server/index.js`) resolves the target's name/year/image at serve time — store only the slug, label, relationship, and reason. The UI block (`BattleContinuity` in `DetailPage.jsx`) renders directly under the Outcome card.
+
+**Selection priority (use the strongest available):**
+1. Same war/conflict — prefer the next major battle chronologically in that war.
+2. Same campaign or immediate crisis (e.g. the 1066 succession sequence).
+3. Same region and close timeframe.
+4. Shared factions or rival polities (e.g. another Byzantine or Anglo-French battle).
+5. Tactical or historical comparison (e.g. another longbow-centred or knightly-crisis battle).
+6. Chronologically nearest historically reasonable battle — a last resort, never a lazy default.
+
+**Rules:**
+- The target must be a real, existing Battle article; never the current article itself; never a random pick ("both are battles" / "both are famous" is not a relationship).
+- The reason must be specific and historically meaningful — named people, wars, dates, or consequences. Generic text ("another important battle", "a battle from the same period") fails validation.
+- Battle continuity is separate from Related Articles: Related Articles may hold several links; continuity is exactly one curated next step. Do not duplicate the Related list.
+- Disambiguate carefully: Battle of Tours (732, also called Tours-Poitiers) is not the Battle of Poitiers (1356). Wrong links are worse than missing links.
+- If the historically ideal target does not exist in the Codex, pick the next best existing battle. Only create a missing battle if it merits a full-quality article on its own; never a shallow placeholder.
+
+**Examples.** Good: Crécy → Poitiers 1356 ("another major Hundred Years' War battle and English victory, ten years later"); Stamford Bridge → Hastings ("fought weeks later in the same 1066 succession crisis"); Fulford → Stamford Bridge ("five days apart in the same invasion"). Bad: Crécy → Manzikert (both merely famous); Stamford Bridge → Agincourt (a stronger 1066 link exists).
 
 ## Related Articles Rules
 

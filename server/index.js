@@ -796,8 +796,37 @@ app.get('/api/:collection/:id', (req, res) => {
     return res.status(404).json({ message: 'Article not found' })
   }
 
-  res.json(article)
+  res.json(withBattleContinuityTarget(article))
 })
+
+// Battles store only the continuity target's slug; resolve the target battle's
+// display data here so the client can render the block without a second fetch.
+function withBattleContinuityTarget(article) {
+  if (article.eventType !== 'Battle' || !article.battleContinuity?.battleSlug) {
+    return article
+  }
+
+  const target = collections().events.find(
+    (event) => event.id === article.battleContinuity.battleSlug && event.eventType === 'Battle'
+  )
+
+  if (!target) return article
+
+  return {
+    ...article,
+    battleContinuity: {
+      ...article.battleContinuity,
+      target: {
+        id: target.id,
+        name: target.name,
+        year: target.year,
+        eventType: target.eventType,
+        conflict: target.conflict ?? null,
+        image: target.image ?? null
+      }
+    }
+  }
+}
 
 app.use(express.static(clientDist))
 

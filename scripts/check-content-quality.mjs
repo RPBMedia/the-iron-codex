@@ -184,6 +184,53 @@ function validateCharacterPersonality(entry, label) {
   }
 }
 
+// Hard failure: every Battle article must carry a curated battleContinuity link
+// to another real Battle article, with a specific label and reason.
+// See CLAUDE.md "Battle Continuity Links".
+const battleIds = new Set((data.events ?? []).filter(e => e.eventType === 'Battle').map(e => e.id))
+const genericContinuityReasonRe = /^(another (important|famous|major|great)? ?(medieval )?battle\.?|a battle from the same period\.?|this battle is related\.?|read another battle\.?)$/i
+const validContinuityRelationships = new Set([
+  'same-war', 'same-campaign', 'same-crisis', 'same-region',
+  'same-factions', 'chronological-follow-up', 'tactical-comparison', 'nearest-relevant-battle'
+])
+
+function validateBattleContinuity(entry, label) {
+  if (entry.eventType !== 'Battle') {
+    if (entry.battleContinuity) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: 'battleContinuity on a non-Battle article (battles only)', snippet: '' })
+    }
+    return
+  }
+
+  const c = entry.battleContinuity
+  if (!c) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: 'Battle article missing battleContinuity', snippet: '' })
+    return
+  }
+  if (!c.battleSlug) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target slug missing', snippet: '' })
+  } else {
+    if (c.battleSlug === entry.id) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target is the article itself', snippet: c.battleSlug })
+    }
+    if (!battleIds.has(c.battleSlug)) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target is missing or not a Battle article', snippet: c.battleSlug })
+    }
+  }
+  if (!c.label || !c.label.trim()) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity.label', pattern: 'continuity label missing', snippet: '' })
+  }
+  const reason = (c.reason ?? '').trim()
+  if (!reason) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity.reason', pattern: 'continuity reason missing', snippet: '' })
+  } else if (reason.length < 80 || genericContinuityReasonRe.test(reason)) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity.reason', pattern: 'continuity reason too short or generic filler', snippet: reason.slice(0, 160) })
+  }
+  if (c.relationship && !validContinuityRelationships.has(c.relationship)) {
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity.relationship', pattern: `unknown continuity relationship type "${c.relationship}"`, snippet: '' })
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -197,6 +244,10 @@ for (const [collection, entries] of Object.entries(data)) {
     if (collection === 'characters') {
       validatePersonTimeline(entry)
       validateCharacterPersonality(entry, labelFor(entry))
+    }
+
+    if (collection === 'events') {
+      validateBattleContinuity(entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))
