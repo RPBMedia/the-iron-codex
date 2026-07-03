@@ -248,6 +248,31 @@ These apply to every archive/list page (People, Events, Locations, Artifacts, We
 
 (Note: there is no "Orders & Institutions" archive route in the current app; if one is added, it must follow these same rules.)
 
+## Image Caption and Layout Rules
+
+Captions, legends, source boxes, and metadata panels must **never** cover, crop, obscure, or cut into images — on any article type, in any image context (detail heroes, section figures, maps, object photos). Any article image visibly cut by its caption is a production bug.
+
+**Root cause history (do not reintroduce):** `.detail-media img` once used a fixed height (`clamp(340px, 61vh, 720px)`) with `object-fit: cover; object-position: center top`. Any image taller than the box — maps above all (e.g. the Duchy of Aquitaine's `France_1154-en.svg`) — had its bottom cropped inside the img box, and the black figcaption below read as "the caption is covering the map." A dimension audit (`node scripts/audit-image-crops.mjs`) found ~300 of 384 archive images were losing >15% of their content to this crop. The same bug existed in `.section-figure img` (`max-height` + `cover`).
+
+**Rules:**
+- Detail-page main images and section figures render **in full**: `height: auto` + `max-height` + `object-fit: contain` on a dark backdrop. Never `object-fit: cover`, never a fixed height, never a top-anchored crop for detail/section images.
+- The caption/source block always sits **below** the image as a separate block in normal flow. No absolutely-positioned captions over article images; overlay captions are not used for article content.
+- Maps must be shown complete — legends, borders, labels, and lower edges included. Same for weapons, armor, artifacts, documents, seals, coins, manuscripts, and portraits: the caption must never hide part of the subject.
+- Mild `object-fit: cover` cropping is allowed **only** for small decorative thumbnails (archive cards' `.image-frame`, favorites thumbs, continuity thumbs, avatars) where the subject stays recognisable and card layout stability matters.
+- If a *source image* is already badly cropped, replace the image. If the *layout* crops it, fix the CSS — never paper over a layout bug with a different image.
+- Media query overrides must follow the same pattern (`height: auto; max-height: ...`) — never reintroduce fixed heights on mobile.
+
+**Manual QA checklist for image layout changes** (no visual test infra exists):
+- [ ] Duchy of Aquitaine (`/locations/aquitaine`) — full map visible incl. bottom legend; caption below
+- [ ] A tall portrait person page and a wide panorama location page — no side/bottom cropping
+- [ ] A Weapons & Armor page and an Artifact page — whole object visible
+- [ ] A battle/event page with a manuscript image — image complete above its caption
+- [ ] Mobile width (<560px) — image still complete; caption below; no fixed-height clipping
+- [ ] Archive/related/favorites cards still look stable (cover crop there is intentional)
+
+**Bad:** a Duchy of Aquitaine map whose lower third — including the legend — disappears behind the black caption/source box.
+**Good:** the map renders complete on the dark backdrop, and the caption/source metadata sits below it without touching any labels, borders, or legend.
+
 ## Image Requirements For All Articles
 
 - Every article must have a real, relevant, good-quality image.

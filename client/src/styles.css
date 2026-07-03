@@ -1169,11 +1169,21 @@ figure.detail-media {
   margin: 0;
 }
 
+/*
+ * Detail-page main images must always render in full. A caption/source box
+ * sits below the image as a separate block; it must never appear to cut the
+ * image. The old fixed-height `object-fit: cover` crop chopped the bottom off
+ * tall images (maps especially — e.g. the Duchy of Aquitaine map), which read
+ * as "the black caption box is covering the image". Height adapts to the
+ * image; max-height letterboxes oversized images on the dark backdrop.
+ */
 .detail-media img {
   width: 100%;
-  height: clamp(340px, 61vh, 720px);
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
+  max-height: clamp(340px, 61vh, 720px);
+  object-fit: contain;
+  object-position: center;
+  background: #111116;
   filter: saturate(0.94) contrast(1.06);
 }
 
@@ -1653,12 +1663,15 @@ button.back-link:focus-visible {
   box-shadow: 0 18px 45px rgba(8, 8, 10, 0.18);
 }
 
+/* Section images render in full; the caption flows below. No cover crops. */
 .section-figure img {
   display: block;
   width: 100%;
+  height: auto;
   max-height: 320px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  background: rgba(20, 20, 22, 0.96);
   filter: saturate(0.96) contrast(1.04);
 }
 
@@ -2314,8 +2327,8 @@ button.back-link:focus-visible {
   }
 
   .detail-media img {
-    min-height: 280px;
-    height: clamp(280px, 54vh, 460px);
+    height: auto;
+    max-height: clamp(280px, 54vh, 460px);
   }
 
   .section-figure {
