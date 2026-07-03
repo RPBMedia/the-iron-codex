@@ -184,27 +184,35 @@ function validateCharacterPersonality(entry, label) {
   }
 }
 
-// Hard failure: every Battle article must carry a curated battleContinuity link
-// to another real Battle article, with a specific label and reason.
+// Hard failure: every military event (Battle or Siege) must carry a curated
+// battleContinuity link to another real military event, with a specific label
+// and reason, and the link should move FORWARD through the same conflict when
+// a later military event in that conflict exists.
 // See CLAUDE.md "Battle Continuity Links".
-const battleIds = new Set((data.events ?? []).filter(e => e.eventType === 'Battle').map(e => e.id))
+const MILITARY_EVENT_TYPES = new Set(['Battle', 'Siege'])
+const militaryEvents = (data.events ?? []).filter(e => MILITARY_EVENT_TYPES.has(e.eventType))
+const militaryEventById = new Map(militaryEvents.map(e => [e.id, e]))
 const genericContinuityReasonRe = /^(another (important|famous|major|great)? ?(medieval )?battle\.?|a battle from the same period\.?|this battle is related\.?|read another battle\.?)$/i
 const validContinuityRelationships = new Set([
   'same-war', 'same-campaign', 'same-crisis', 'same-region',
-  'same-factions', 'chronological-follow-up', 'tactical-comparison', 'nearest-relevant-battle'
+  'same-factions', 'chronological-follow-up', 'tactical-comparison',
+  'nearest-relevant-battle', 'earlier-context'
 ])
+// Named regressions that must never come back: Agincourt looping backward to
+// Crécy while later Hundred Years' War military events exist in the archive.
+const forbiddenContinuityPairs = [['battle-of-agincourt', 'battle-of-crecy']]
 
 function validateBattleContinuity(entry, label) {
-  if (entry.eventType !== 'Battle') {
+  if (!MILITARY_EVENT_TYPES.has(entry.eventType)) {
     if (entry.battleContinuity) {
-      findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: 'battleContinuity on a non-Battle article (battles only)', snippet: '' })
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: 'battleContinuity on a non-military-event article (battles/sieges only)', snippet: '' })
     }
     return
   }
 
   const c = entry.battleContinuity
   if (!c) {
-    findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: 'Battle article missing battleContinuity', snippet: '' })
+    findings.push({ collection: 'events', article: label, path: 'battleContinuity', pattern: `${entry.eventType} article missing battleContinuity`, snippet: '' })
     return
   }
   if (!c.battleSlug) {
@@ -213,8 +221,8 @@ function validateBattleContinuity(entry, label) {
     if (c.battleSlug === entry.id) {
       findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target is the article itself', snippet: c.battleSlug })
     }
-    if (!battleIds.has(c.battleSlug)) {
-      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target is missing or not a Battle article', snippet: c.battleSlug })
+    if (!militaryEventById.has(c.battleSlug)) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: 'continuity target is missing or not a Battle/Siege article', snippet: c.battleSlug })
     }
   }
   if (!c.label || !c.label.trim()) {
@@ -228,6 +236,27 @@ function validateBattleContinuity(entry, label) {
   }
   if (c.relationship && !validContinuityRelationships.has(c.relationship)) {
     findings.push({ collection: 'events', article: label, path: 'battleContinuity.relationship', pattern: `unknown continuity relationship type "${c.relationship}"`, snippet: '' })
+  }
+
+  for (const [from, to] of forbiddenContinuityPairs) {
+    if (entry.id === from && c.battleSlug === to) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: `forbidden backward continuity link ${from} -> ${to}`, snippet: '' })
+    }
+  }
+
+  // Direction rules: continuity should move forward through the same conflict
+  // when a later military event in that conflict exists in the archive.
+  const target = militaryEventById.get(c.battleSlug)
+  if (target?.year && entry.year && target.year < entry.year) {
+    const laterInConflict = entry.conflict && militaryEvents.some(
+      (e) => e.id !== entry.id && e.conflict === entry.conflict && e.year > entry.year
+    )
+    if (laterInConflict) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.battleSlug', pattern: `continuity points backward (${target.year} < ${entry.year}) while a later ${entry.conflict} military event exists`, snippet: c.battleSlug })
+    }
+    if (/\bnext\b/i.test(`${c.label ?? ''} ${reason}`)) {
+      findings.push({ collection: 'events', article: label, path: 'battleContinuity.label', pattern: 'backward continuity link labelled as "next"', snippet: c.label ?? '' })
+    }
   }
 }
 

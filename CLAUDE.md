@@ -113,37 +113,42 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 
 ## Battle Continuity Links
 
-Every **Battle** article (`events` entries with `eventType: "Battle"`) must include one curated continuity link to another Battle article — the single best "read next" battle. This applies **only** to Battles; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-battle events. Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-Battle target, missing label, or generic reason. Future Battle articles are **not complete** until this field is present.
+Every **military event** article (`events` entries with `eventType: "Battle"` or `"Siege"`) must include one curated continuity link to another military event article — the single best "read next" step. This applies **only** to Battles and Sieges; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-military events (a War overview is not a valid target). Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-military target, missing label, generic reason, backward links where a later same-conflict option exists, backward links labelled "next", and the specific regression `battle-of-agincourt -> battle-of-crecy`. Future Battle/Siege articles are **not complete** until this field is present.
 
-**Data shape** (on the battle event in `server/data/history.json`):
+**Continuity must move FORWARD whenever possible.** The link guides the reader onward through the war, campaign, or military sequence — not back to an earlier famous battle. Earlier battles belong in Related Articles; the continuity slot is the road ahead.
+
+**Data shape** (on the event in `server/data/history.json`):
 
 ```json
 "battleContinuity": {
-  "label": "Continue the Hundred Years' War",
-  "battleSlug": "battle-of-poitiers",
-  "relationship": "same-war",
-  "reason": "Poitiers came ten years after Crécy and turned another English defensive victory into a French political crisis, ending with King John II of France captured by the Black Prince's army."
+  "label": "Continue Henry V's campaign",
+  "battleSlug": "siege-of-rouen",
+  "relationship": "same-campaign",
+  "reason": "Agincourt made Henry V's reputation, but the conquest came on his return in 1417: the six-month siege of Rouen starved Normandy's capital into surrender and led directly to the Treaty of Troyes."
 }
 ```
 
-`relationship` is one of: `same-war`, `same-campaign`, `same-crisis`, `same-region`, `same-factions`, `chronological-follow-up`, `tactical-comparison`, `nearest-relevant-battle`. The server (`withBattleContinuityTarget` in `server/index.js`) resolves the target's name/year/image at serve time — store only the slug, label, relationship, and reason. The UI block (`BattleContinuity` in `DetailPage.jsx`) renders directly under the Outcome card.
+`relationship` is one of: `same-war`, `same-campaign`, `same-crisis`, `same-region`, `same-factions`, `chronological-follow-up`, `tactical-comparison`, `nearest-relevant-battle`, `earlier-context`. The server (`withBattleContinuityTarget` in `server/index.js`) resolves the target's name/year/image at serve time — store only the slug, label, relationship, and reason. The UI block (`BattleContinuity` in `DetailPage.jsx`) renders directly under the Outcome card on Battle and Siege pages.
 
 **Selection priority (use the strongest available):**
-1. Same war/conflict — prefer the next major battle chronologically in that war.
-2. Same campaign or immediate crisis (e.g. the 1066 succession sequence).
-3. Same region and close timeframe.
-4. Shared factions or rival polities (e.g. another Byzantine or Anglo-French battle).
-5. Tactical or historical comparison (e.g. another longbow-centred or knightly-crisis battle).
-6. Chronologically nearest historically reasonable battle — a last resort, never a lazy default.
+1. Next major battle/siege/military event **later** in the same war or conflict.
+2. Next major military event in the same campaign or immediate crisis (e.g. the 1066 sequence).
+3. Next major military event involving the same faction, commander, or region.
+4. Only if nothing later is relevant: the closest **previous** major battle in the same conflict, with `relationship: "earlier-context"` and a label that reads as context ("Return to the war's earlier phase"), never as "next".
+5. A battle in the same region/timeframe with an explicit reason — a last resort, never a lazy default.
 
 **Rules:**
-- The target must be a real, existing Battle article; never the current article itself; never a random pick ("both are battles" / "both are famous" is not a relationship).
-- The reason must be specific and historically meaningful — named people, wars, dates, or consequences. Generic text ("another important battle", "a battle from the same period") fails validation.
-- Battle continuity is separate from Related Articles: Related Articles may hold several links; continuity is exactly one curated next step. Do not duplicate the Related list.
-- Disambiguate carefully: Battle of Tours (732, also called Tours-Poitiers) is not the Battle of Poitiers (1356). Wrong links are worse than missing links.
-- If the historically ideal target does not exist in the Codex, pick the next best existing battle. Only create a missing battle if it merits a full-quality article on its own; never a shallow placeholder.
+- The target must be a real, existing Battle or Siege article; never the current article itself; never a random pick ("both are battles" / "both are famous" is not a relationship).
+- Do not send readers backward when a later relevant military event exists or should be added. If the ideal later event is missing and historically major (e.g. the post-Agincourt Hundred Years' War chain), add it as a **full-quality article** — never a stub — or pick the best existing later event.
+- Backward links (`earlier-context`) must never use "next" in the label or reason.
+- The reason must be specific and historically meaningful — named people, wars, dates, or consequences. Generic text fails validation.
+- Battle continuity is separate from Related Articles: Related Articles may hold several links (including earlier battles); continuity is exactly one curated next step.
+- Disambiguate carefully: Battle of Tours (732, "Tours-Poitiers") is not the Battle of Poitiers (1356). Wrong links are worse than missing links.
 
-**Examples.** Good: Crécy → Poitiers 1356 ("another major Hundred Years' War battle and English victory, ten years later"); Stamford Bridge → Hastings ("fought weeks later in the same 1066 succession crisis"); Fulford → Stamford Bridge ("five days apart in the same invasion"). Bad: Crécy → Manzikert (both merely famous); Stamford Bridge → Agincourt (a stronger 1066 link exists).
+**The Hundred Years' War chain (reference example):**
+Crécy → Poitiers 1356 → Agincourt → Siege of Rouen → Verneuil → Siege of Orléans → Patay → Formigny → Castillon → (earlier-context) Crécy.
+
+**Examples.** Good: Agincourt → Siege of Rouen ("Rouen continued Henry V's post-Agincourt conquest of Normandy and led to the Treaty of Troyes"); Siege of Orléans → Patay ("Patay followed the lifting of the siege and destroyed the English field army"); Stamford Bridge → Hastings ("weeks later in the same 1066 succession crisis"). Bad: Agincourt → Crécy as continuity (backward; Crécy is Related-Articles material there); Crécy → Manzikert (both merely famous); labelling Castillon → Crécy as "next battle" (it is earlier context).
 
 ## Related Articles Rules
 

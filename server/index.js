@@ -280,7 +280,13 @@ const eventSortDates = {
   'battle-of-kosovo': { year: 1389, month: 6, day: 15 },
   'battle-of-grunwald': { year: 1410, month: 7, day: 15 },
   'battle-of-agincourt': { year: 1415, month: 10, day: 25 },
-  'fall-of-constantinople': { year: 1453, month: 5, day: 29 }
+  'siege-of-rouen': { year: 1419, month: 1, day: 19 },
+  'battle-of-verneuil': { year: 1424, month: 8, day: 17 },
+  'siege-of-orleans': { year: 1429, month: 5, day: 8 },
+  'battle-of-patay': { year: 1429, month: 6, day: 18 },
+  'battle-of-formigny': { year: 1450, month: 4, day: 15 },
+  'fall-of-constantinople': { year: 1453, month: 5, day: 29 },
+  'battle-of-castillon': { year: 1453, month: 7, day: 17 }
 }
 
 function numericYear(value) {
@@ -799,15 +805,18 @@ app.get('/api/:collection/:id', (req, res) => {
   res.json(withBattleContinuityTarget(article))
 })
 
-// Battles store only the continuity target's slug; resolve the target battle's
-// display data here so the client can render the block without a second fetch.
+// Military events (battles and sieges) store only the continuity target's
+// slug; resolve the target's display data here so the client can render the
+// block without a second fetch.
+const MILITARY_EVENT_TYPES = new Set(['Battle', 'Siege'])
+
 function withBattleContinuityTarget(article) {
-  if (article.eventType !== 'Battle' || !article.battleContinuity?.battleSlug) {
+  if (!MILITARY_EVENT_TYPES.has(article.eventType) || !article.battleContinuity?.battleSlug) {
     return article
   }
 
   const target = collections().events.find(
-    (event) => event.id === article.battleContinuity.battleSlug && event.eventType === 'Battle'
+    (event) => event.id === article.battleContinuity.battleSlug && MILITARY_EVENT_TYPES.has(event.eventType)
   )
 
   if (!target) return article

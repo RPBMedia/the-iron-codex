@@ -297,10 +297,12 @@ function EventHero({ article }) {
   )
 }
 
+const MILITARY_EVENT_TYPES = ['Battle', 'Siege']
+
 function BattleContinuity({ article }) {
   const continuity = article.battleContinuity
 
-  if (article.eventType !== 'Battle' || !continuity?.target) return null
+  if (!MILITARY_EVENT_TYPES.includes(article.eventType) || !continuity?.target) return null
 
   const { target } = continuity
 
@@ -1023,7 +1025,7 @@ function achievementFallback(article) {
 }
 
 function renderEventLocation(article) {
-  if (article.eventType === 'Battle' && article.eventLocation?.locationId) {
+  if (MILITARY_EVENT_TYPES.includes(article.eventType) && article.eventLocation?.locationId) {
     return <Link to={`/locations/${article.eventLocation.locationId}`}>{article.eventLocation.name}</Link>
   }
 
