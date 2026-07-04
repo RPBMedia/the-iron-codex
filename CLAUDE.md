@@ -214,25 +214,117 @@ Every Person (character) article must include a **Character and Personality** se
 
 **Good:** "William the Conqueror's character was remembered through severity and command. Norman sources emphasised legitimacy and discipline, while English memory preserved the violence of conquest, dispossession, and the Harrying of the North. His personality should not be reduced to cruelty alone: he was also politically patient, careful with claims of law, and relentless once opposition hardened."
 
-## No Buzzword-List Prose
+## No Fluff, No Buzzword Filler, No Placeholder Prose
 
-Sections must **explain**, not list. A paragraph that strings together historical-sounding nouns without teaching how anything worked is filler, even when it sounds academic. Enforced by `npm run check:content-quality`, which flags any section containing a long comma-separated list of generic medieval nouns when the whole section has no concrete anchors (fewer than two named people/places and no date).
+This is a permanent, non-negotiable standard for **every** article section of **every** type. IronCodex has repeatedly produced content that sounds historical but teaches nothing — buzzword lists, vague academic padding, cautious-sounding filler, and generic sections that could belong to any medieval article. This must never appear in the archive again. It is enforced by `npm run check:content-quality` (hard-failing).
 
-- Do not write sections that merely list historical categories ("monasteries, towns, castles, nobles, merchants, peasants…").
-- Do not use lists of nouns as a substitute for explanation.
-- Every section must teach concrete, subject-specific information: named people, places, laws, institutions, practices, dates, conflicts, and consequences.
-- "Culture and society" sections must explain **how** society worked — who held power, how land and law functioned, how people lived — not merely name social groups.
-- Avoid empty complexity words ("was complex", "was diverse", "shaped by many forces", "varied by region and period") unless immediately followed by specific detail.
-- **Specificity test:** would a reader learn something about *this* subject they would not learn from a generic article about medieval Europe? If no, rewrite it.
-- Missing content must be researched or flagged — never padded with generic prose. There are no fallback prose generators; do not add any.
+### Core rules
 
-**Bad** (Holy Roman Empire, "Culture and society"):
+- IronCodex must never contain generic filler prose.
+- No section may be written just to occupy space.
+- No section may contain vague academic-sounding language that does not teach concrete history.
+- No section may consist mainly of lists of historical nouns.
+- No section may say something that could apply equally to many medieval articles.
+- No section may use "complexity," "importance," "influence," "society," "politics," or "legacy" as a substitute for actual explanation.
+- No standalone "Historical reliability" sections are allowed. No generic disclaimers.
+- No cautious-sounding prose may be used to hide missing research.
+- No fallback prose may be generated when article data is missing. Missing content must be researched, written properly, or flagged as incomplete — never padded.
+- If a section does not teach the reader something specific about the article's subject, it must not be rendered.
+- Every article section must contain concrete, subject-specific historical substance.
+- Every claim about uncertainty must say **exactly** what is uncertain and why.
+- Legendary material is allowed only when clearly identified as legend, saga, chronicle tradition, later memory, or disputed tradition.
+- Every article should be informative, historically grounded, engaging, and readable. **Professional does not mean bland** — the writing should be vivid, clear, and useful.
 
-> "The empire contained cathedral cities, monasteries, knightly lordships, merchant towns, mining regions, Alpine passes, Slavic borderlands, and Italian communes. Imperial law, charters, seals, diets, and coronation rituals helped hold together a polity that was politically fragmented but symbolically powerful."
+### The Specificity Test
 
-**Good:**
+Every section must pass this test:
 
-> "The Holy Roman Empire was never a centralised kingdom like France or England; authority was layered and negotiated. Bishops were among the most powerful figures because many ruled territories as well as souls — the prince-archbishops of Cologne, Mainz, and Trier were also three of the seven electors who chose the emperor. Free imperial cities such as Lübeck and Nuremberg used charters to guard their self-government, and the Lombard League of northern Italian communes defeated Frederick I Barbarossa at Legnano in 1176 to protect their liberties. Diets, elections, and coronation ritual were not decoration but the working machinery through which rulers, princes, bishops, and cities negotiated taxation, war, and legitimacy."
+> **"Could this section be copied into another article with only the names changed?"**
+
+If yes, the section fails and must be rewritten or removed.
+
+### Concrete Detail Requirement
+
+Every section must include subject-specific detail — and must **explain** it, not merely list it:
+
+- named people, named places, named battles, named events, named institutions
+- dates or date ranges
+- laws, charters, treaties, reforms, rituals, offices, or practices
+- physical descriptions
+- causes and consequences
+- political, military, religious, social, economic, or cultural mechanisms (how they actually worked)
+- source traditions or legends, when relevant
+- what changed over time, and why the subject mattered in its own specific context
+
+### No Buzzword Lists
+
+A comma-separated list of historical nouns is not historical explanation. Instead of naming groups or institutions, explain how they actually functioned. (Enforced: the checker flags any section that contains a long comma-separated list of generic medieval nouns when the whole section has no concrete anchors — fewer than two named people/places and no date.)
+
+**Bad** (Holy Roman Empire): "The empire contained cathedral cities, monasteries, knightly lordships, merchant towns, mining regions, Alpine passes, Slavic borderlands, and Italian communes. Imperial law, charters, seals, diets, and coronation rituals helped hold together a polity that was politically fragmented but symbolically powerful."
+
+**Good:** "In the Holy Roman Empire, bishops could act as territorial princes as well as church leaders, especially in major sees such as Mainz, Cologne, and Trier. Free imperial cities such as Lübeck, Nuremberg, and Augsburg used charters and privileges to protect urban autonomy, while princes, bishops, and city representatives negotiated authority through diets, elections, legal privileges, and imperial confirmations. The empire's culture was therefore not held together by uniform administration, but by layered rights, local liberties, Latin literacy, court ritual, and constant negotiation between emperor and estates."
+
+### Rules by article type
+
+- **People** — must contain real biography: decisions, conflicts, relationships, rule, personality, death circumstances, and legacy. Do not write "he was important" or "she was influential" without explaining concrete actions and consequences.
+- **Events & battles** — must explain causes, named actors, chronology, what happened, consequences, and significance. Do not write "many actors were involved" or "the event shaped medieval society" as standalone content.
+- **Kingdoms / polities / locations** — must explain how authority worked, who held power, which institutions mattered, what conflicts shaped them, which regions were important, and how society functioned. Do not list nobles, clergy, towns, castles, and peasants without explaining their actual role.
+- **Weapons & Armor** — must explain design, construction, use, effectiveness, limitations, historical examples, users, regional context, and relation to other equipment. Do not write "this weapon was used in medieval warfare" as meaningful content.
+- **Orders & Institutions** — must explain foundation, structure, membership, authority, function, conflicts, influence, and transformation. Do not write "this institution played an important role" without explaining exactly how.
+- **Artifacts / documents** — must explain physical description, origin, dating, use, ownership, provenance, current location, and historical meaning. Do not write "this object is significant" without explaining why.
+
+### Banned / Red-Flag Phrases
+
+These are red flags. They are not forbidden in every possible use, but if they appear **without immediate concrete explanation**, the content fails and must be rewritten:
+
+- played an important role
+- became significant
+- shaped politics and society
+- varied by region and period
+- was important in medieval Europe
+- developed in the context of regional politics
+- involved many actors
+- interests did not always align
+- later memory shaped the subject
+- details are uncertain
+- the article keeps wording cautious
+- control of land and routes mattered
+- society included nobles, clergy, merchants, and peasants
+- law, charters, seals, and rituals helped hold it together
+- source traditions differ
+- modern categories are conveniences
+- appears in a major phase
+- provided protection in battle
+- effective in combat
+- used by soldiers in medieval Europe
+
+### Bad vs. Good examples
+
+**Bad:** "Robert the Bruce was king of Scots and played an important role in Scotland's struggle for independence."
+
+**Good:** "Robert the Bruce became king of Scots in 1306 after the killing of John Comyn at Dumfries and a hurried coronation at Scone. His early reign nearly collapsed under English pressure and Scottish opposition, but he rebuilt power through mobile warfare, attacks on English-held strongholds, and the defeat of rival factions. Bannockburn in 1314 transformed his authority, though diplomatic recognition of Scottish independence came only later."
+
+**Bad:** "The longbow was an important weapon used in medieval warfare."
+
+**Good:** "The English longbow was most famous in the armies of the Hundred Years' War, especially at Crécy and Agincourt. Its value came from trained archers firing in mass, not from the bow as a magical armor-piercing device. It was especially dangerous against horses, exposed troops, and formations under missile pressure, though claims about reliably punching through high-quality plate armor need careful qualification."
+
+**Bad:** "The Hanseatic League shaped trade and society in northern Europe."
+
+**Good:** "The Hanseatic League linked merchant communities around the Baltic and North Sea through privileges, shared legal habits, convoy protection, and urban diplomacy. Lübeck became its leading city, while kontors in places such as Bergen, London, Bruges, and Novgorod allowed merchants to organize trade in fish, furs, wax, grain, timber, cloth, and metal. Its power came less from being a state than from coordinated city interests and commercial privileges."
+
+### Validation expectation
+
+`npm run check:content-quality` should flag (and, where implemented, hard-fail on):
+
+- generic filler phrases and banned red-flag phrases
+- one-sentence shallow sections for major articles
+- prose repeated verbatim across articles
+- buzzword lists (comma-separated generic nouns with no concrete anchors)
+- standalone "Historical reliability" / "source note" sections
+- sections with no named people, places, dates, institutions, or concrete mechanisms
+- placeholder timeline text
+- missing images and placeholder images
+- vague or broken related-article entries
 
 ## Content Depth and No-Filler Rules (ALL Article Types)
 
