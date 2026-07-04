@@ -393,8 +393,61 @@ function validateRulerSuccession(entry, label) {
       if (!characterIds.has(ref.personSlug)) {
         findings.push({ collection: 'characters', article: label, path: `succession.${side}.personSlug`, pattern: `${side} links to a missing Person article`, snippet: ref.personSlug })
       }
-    } else if ((ref.status === 'none' || ref.status === 'office-ended' || ref.status === 'unknown') && !ref.note) {
-      findings.push({ collection: 'characters', article: label, path: `succession.${side}.note`, pattern: `${side} with status "${ref.status}" requires an explanatory note`, snippet: '' })
+    } else if (ref.status === 'none' || ref.status === 'office-ended' || ref.status === 'unknown') {
+      if (!ref.note) findings.push({ collection: 'characters', article: label, path: `succession.${side}.note`, pattern: `${side} with status "${ref.status}" requires an explanatory note`, snippet: '' })
+    } else {
+      // A named person with no article link (the {displayName, note} endpoint
+      // pattern) is allowed, but MUST carry a note identifying the person, so no
+      // named predecessor/successor is ever bare, unexplained text.
+      if (!ref.note || !ref.note.trim()) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}`, pattern: `named ${side} "${ref.displayName}" is unlinked and has no note (link a Person article or add an explanatory note)`, snippet: ref.displayName ?? '' })
+      }
+    }
+  }
+}
+
+// Hard failure: battle/siege leaders must not carry broken links. If a leader has
+// a slug/personId it must resolve to a real Person article (never a non-person or
+// self-link). Plus the explicit required leader links the task mandates.
+function validateBattleLeaders(entry, label) {
+  if (!MILITARY_EVENT_TYPES.has(entry.eventType) && entry.id !== 'fall-of-constantinople') return
+  const checkSlug = (nm, slug, type) => {
+    if (!slug) return
+    if (slug === entry.id) findings.push({ collection: 'events', article: label, path: 'leaders', pattern: `leader "${nm}" self-links to the event`, snippet: slug })
+    else if (!characterIds.has(slug)) findings.push({ collection: 'events', article: label, path: 'leaders', pattern: `leader "${nm}" links to a missing Person article`, snippet: slug })
+    else if (type && type !== 'person') findings.push({ collection: 'events', article: label, path: 'leaders', pattern: `leader "${nm}" links to a non-Person article (type ${type})`, snippet: slug })
+  }
+  for (const part of entry.participants || []) for (const l of part.leaders || []) checkSlug(l.name || l.title, l.slug, l.type)
+  for (const l of entry.leaders || []) checkSlug(l.name, l.personId, 'person')
+}
+
+// Explicit required links the audit task mandates (hard failures).
+const REQUIRED_LEADER_LINKS = [['battle-of-aljubarrota', 'john-i-of-castile'], ['battle-of-aljubarrota', 'nuno-alvares-pereira']]
+const REQUIRED_SUCCESSION_LINKS = [
+  // [rulerId, side, expected personSlug OR "status:none"]
+  ['afonso-i-of-portugal', 'predecessor', 'status:none'],
+  ['afonso-i-of-portugal', 'successor', 'sancho-i-of-portugal'],
+  ['philip-vi-of-france', 'predecessor', 'charles-iv-of-france'],
+  ['philip-vi-of-france', 'successor', 'john-ii-of-france'],
+  ['william-the-conqueror', 'predecessor', 'harold-godwinson'],
+  ['saladin', 'successor', 'al-adil-i']
+]
+function validateRequiredLinks() {
+  const evById = new Map(data.events.map(e => [e.id, e]))
+  const chById = new Map(data.characters.map(c => [c.id, c]))
+  for (const [eid, slug] of REQUIRED_LEADER_LINKS) {
+    const e = evById.get(eid)
+    const linked = e && (e.participants || []).some(p => (p.leaders || []).some(l => l.slug === slug))
+    if (!linked) findings.push({ collection: 'events', article: eid, path: 'leaders', pattern: `required leader link missing: ${eid} must link ${slug}`, snippet: slug })
+  }
+  for (const [cid, side, expected] of REQUIRED_SUCCESSION_LINKS) {
+    const c = chById.get(cid)
+    const ref = c?.succession?.[side]
+    if (expected.startsWith('status:')) {
+      const st = expected.split(':')[1]
+      if (!ref || ref.status !== st) findings.push({ collection: 'characters', article: cid, path: `succession.${side}`, pattern: `required: ${cid} ${side} must be status "${st}"`, snippet: ref?.status ?? '' })
+    } else if (!ref || ref.personSlug !== expected) {
+      findings.push({ collection: 'characters', article: cid, path: `succession.${side}`, pattern: `required succession link missing: ${cid} ${side} must link ${expected}`, snippet: ref?.personSlug ?? ref?.displayName ?? '' })
     }
   }
 }
@@ -469,6 +522,7 @@ for (const [collection, entries] of Object.entries(data)) {
     if (collection === 'events') {
       validateBattleContinuity(entry, labelFor(entry))
       validateBattleStrength(entry, labelFor(entry))
+      validateBattleLeaders(entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))
@@ -494,6 +548,8 @@ for (const [collection, entries] of Object.entries(data)) {
     }
   }
 }
+
+validateRequiredLinks()
 
 for (const [text, articles] of paragraphArticles) {
   if (articles.size > 1) {

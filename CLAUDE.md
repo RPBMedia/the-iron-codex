@@ -136,6 +136,40 @@ Entry variants: `{ personSlug, displayName, note? }` links to a real Person arti
 - Linked predecessors/successors must resolve to full Person articles; if one is needed and missing, create it at full IronCodex quality (image, personality section, timeline ≥5, related entries ≥3, sources) — never a stub. Unlinked named entries are for people outside the archive's needed set (chain endpoints, obscure interlopers), always with a note.
 - For chronicle-tradition rulers (early Rus'), succession language follows the Early Rus' rules: "by the chronicle account", never presented as documentary fact.
 
+## Battle Leader Article Rules
+
+Every named leader in every **Battle / Siege / Military-event** article should link to a full Person article. A named historical commander must never appear as bare, unexplained text. Enforced by `npm run check:content-quality`: a leader with a `slug`/`personId` must resolve to a real Person article (never a missing article, a non-Person, or a self-link), and specific required leader links (e.g. Battle of Aljubarrota → John I of Castile and Nuno Álvares Pereira) are hard-checked.
+
+**Data shape** — link leaders as objects inside each `participants[].leaders` entry (and, for legacy fields, `leaders[].personId`):
+
+```json
+"leaders": [{ "name": "John I of Castile", "title": "John I of Castile", "type": "person", "slug": "john-i-of-castile" }]
+```
+
+**Rules:**
+- If a named leader has no Person article and is genuinely part of the archive's needed set (an on-page battle commander), **create a full-quality Person article** — image, detailed sections, Character and Personality, timeline (≥5), related entries (≥3), succession box if a ruler, sources — never a stub or placeholder.
+- Major battle leaders should also appear in the battle's **Related entries**, and be linked on their **first meaningful mention** in the battle body (the auto-linker handles this once the article exists and is registered — run `node scripts/gen-entity-links.mjs`).
+- **Disambiguate same-name rulers** carefully (John I of Portugal ≠ John I of Castile; Philip IV ≠ Philip VI; the several Edwards, Charleses, Magnuses, Olafs, Murads, Bayezids). A wrong link is worse than none.
+- A leader may be left **unlinked** only when genuinely anonymous, collective, or a historically unstable identity — and, for out-of-scope named commanders not yet given an article, the `{ name }`-only form is tolerated as a chain endpoint (like the succession `{ displayName }` convention), never a broken link.
+- A Battle article is **not complete** until its principal named leaders are linked to Person articles.
+
+## Ruler Succession Link Rules
+
+Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succession Boxes"). Every **named** predecessor or successor must either link to a full Person article **or**, if no article exists yet, carry an explanatory **note** — a named person must never be bare text. Enforced by `npm run check:content-quality`: linked `personSlug`s must resolve (no missing/self/non-person links); a named entry with no link and no note hard-fails; `none`/`office-ended`/`unknown` states require a note; and specific required pairs are hard-checked (Afonso I → None as first king / Sancho I; Philip VI → Charles IV / John II; William the Conqueror → Harold Godwinson / William II; Saladin → al-Adil I).
+
+**Rules:**
+- Prefer a **linked** Person article for every named predecessor/successor; create the article at full quality when the person is part of the archive's needed set. The `{ displayName, note }` form (no link) is valid only for chain endpoints and out-of-scope people, and **always** carries a note identifying them.
+- Succession follows the **office/title** shown, even across dynasties (William the Conqueror ← Harold Godwinson; Philip VI ← Charles IV). Only true first holders get `status: "none"` with a note.
+- If there is no successor, say why (office ended, dynasty ended, succession unknown) via a `status` + note.
+- **Do not invent clean succession where history was messy.** For disputed, shared, or fragmented succession, name it and link the primary/identifiable heir with a note (e.g. **Saladin** → al-Adil I, with a note that his sons first divided the Ayyubid lands before al-Adil reunited them). If a ruler held several offices, state which office the boxes refer to via `succession.office`/`note`.
+- A ruler article is **not complete** until predecessor and successor are accurate, linked where an article exists, and noted where not.
+
+### New Battle article checklist (leaders)
+List every faction leader; verify each named leader has a Person article (create full-quality ones where missing and in scope); link leaders in `participants[].leaders`; link them in the body on first mention; add principal leaders to Related entries; run `node scripts/gen-entity-links.mjs` and `npm run check:content-quality`.
+
+### New ruler Person article checklist (succession)
+Identify the primary ruling office; add predecessor and successor entries; **link** every named predecessor/successor to a Person article (creating full-quality ones where in scope) or add a `{ displayName, note }` endpoint with an explanatory note; handle none/unknown/disputed/fragmented succession explicitly; run `npm run check:content-quality`.
+
 ## People-to-Battle Linking Rules
 
 Every Person article must be checked for the battles, sieges, campaigns, conquests, invasions, revolts, and military events the person is historically tied to, and those events must be **linked** from the article. This applies to **every existing Person article and every new one added in the future** — a new Person article is **not complete** until this check has been done. Enforced by `npm run check:content-quality`, which hard-fails when a person listed as a commander/participant of a Battle/Siege article omits that battle from related entries, and on a fixed set of required marquee pairs.
