@@ -111,6 +111,31 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 - **Highlight independent corroboration when it exists.** The 941 attack on Constantinople is corroborated by Liutprand of Cremona; the 957 embassy of Olga is corroborated by Constantine VII. These points of external verification should be made explicit.
 - **No standalone Historical reliability sections.** Uncertainty about sources belongs inside the relevant content section (Overview, Birth, Death, etc.) as specific prose.
 
+## Ruler Succession Boxes
+
+Every Person article about a **ruler** (kings, queens regnant, emperors, sultans, grand princes/dukes who ruled polities, elected rulers where succession is meaningful) must carry `isRuler: true` and a `succession` object, rendered as **Predecessor** and **Successor** cards beneath the quick-fact strip (`RulerSuccession` in `DetailPage.jsx`). Non-rulers (commanders, saints, writers, consorts who did not rule, order members, popes in this first pass) must NOT have the boxes. Enforced by `npm run check:content-quality`: hard-fails on a ruler missing succession, succession on a non-ruler, broken/self personSlug links, missing display names, and none/unknown/office-ended states without an explanatory note.
+
+**Data shape** (on the character in `server/data/history.json`):
+
+```json
+"isRuler": true,
+"succession": {
+  "office": "King of Norway",
+  "note": "optional — which office the succession refers to, for multi-crown rulers",
+  "predecessor": { "personSlug": "magnus-the-good", "displayName": "Magnus the Good", "note": "His nephew and co-king" },
+  "successor": { "personSlug": "magnus-ii-of-norway", "displayName": "Magnus II of Norway", "note": "Olaf III became co-king on returning from Stamford Bridge" }
+}
+```
+
+Entry variants: `{ personSlug, displayName, note? }` links to a real Person article; `{ displayName, note }` names a real historical person for whom no Codex article exists (never a broken link); `{ status: "none" | "office-ended" | "unknown", displayName, note }` for first holders, ended offices, or genuinely unrecorded succession — the note is mandatory and must be historically specific ("None as King of Portugal — first king of the Portuguese dynasty"), never lazy.
+
+**Rules:**
+- Succession follows the ruler's **primary office** (the one in the article's title/facts); multi-crown rulers state which office via the top-level `note` (e.g. Cnut: "Succession shown for the English kingship").
+- The predecessor is the previous holder of the office **even from another dynasty** (Philip VI ← Charles IV; William the Conqueror ← Harold Godwinson). Only true first holders get "None as [title]".
+- No fake neatness: disputed successions, co-rulers, interregna, and regencies are stated in notes (Robert the Bruce ← John Balliol "after a decade of interregnum"; Harald Hardrada → Magnus II with the Olaf III co-rule note).
+- Linked predecessors/successors must resolve to full Person articles; if one is needed and missing, create it at full IronCodex quality (image, personality section, timeline ≥5, related entries ≥3, sources) — never a stub. Unlinked named entries are for people outside the archive's needed set (chain endpoints, obscure interlopers), always with a note.
+- For chronicle-tradition rulers (early Rus'), succession language follows the Early Rus' rules: "by the chronicle account", never presented as documentary fact.
+
 ## Battle Continuity Links
 
 Every **military event** article (`events` entries with `eventType: "Battle"` or `"Siege"`) must include one curated continuity link to another military event article — the single best "read next" step. This applies **only** to Battles and Sieges; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-military events (a War overview is not a valid target). Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-military target, missing label, generic reason, backward links where a later same-conflict option exists, backward links labelled "next", and the specific regression `battle-of-agincourt -> battle-of-crecy`. Future Battle/Siege articles are **not complete** until this field is present.

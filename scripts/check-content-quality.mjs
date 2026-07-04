@@ -260,6 +260,50 @@ function validateBattleContinuity(entry, label) {
   }
 }
 
+// Hard failure: ruler succession boxes. Every character with isRuler: true must
+// carry a succession object with predecessor and successor entries; linked slugs
+// must resolve to real Person articles and never self-link; entries with no link
+// must carry a displayName (and, for none/office-ended states, a note).
+// See CLAUDE.md "Ruler Succession Boxes".
+const characterIds = new Set((data.characters ?? []).map(c => c.id))
+
+function validateRulerSuccession(entry, label) {
+  if (!entry.isRuler) {
+    if (entry.succession) {
+      findings.push({ collection: 'characters', article: label, path: 'succession', pattern: 'succession data on a non-ruler article (set isRuler or remove)', snippet: '' })
+    }
+    return
+  }
+  const s = entry.succession
+  if (!s) {
+    findings.push({ collection: 'characters', article: label, path: 'succession', pattern: 'ruler article missing succession data', snippet: '' })
+    return
+  }
+  if (!s.office || !s.office.trim()) {
+    findings.push({ collection: 'characters', article: label, path: 'succession.office', pattern: 'succession office missing', snippet: '' })
+  }
+  for (const side of ['predecessor', 'successor']) {
+    const ref = s[side]
+    if (!ref) {
+      findings.push({ collection: 'characters', article: label, path: `succession.${side}`, pattern: `ruler missing ${side} entry`, snippet: '' })
+      continue
+    }
+    if (!ref.displayName || !ref.displayName.trim()) {
+      findings.push({ collection: 'characters', article: label, path: `succession.${side}.displayName`, pattern: `${side} missing display name`, snippet: '' })
+    }
+    if (ref.personSlug) {
+      if (ref.personSlug === entry.id) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}.personSlug`, pattern: `${side} self-link`, snippet: ref.personSlug })
+      }
+      if (!characterIds.has(ref.personSlug)) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}.personSlug`, pattern: `${side} links to a missing Person article`, snippet: ref.personSlug })
+      }
+    } else if ((ref.status === 'none' || ref.status === 'office-ended' || ref.status === 'unknown') && !ref.note) {
+      findings.push({ collection: 'characters', article: label, path: `succession.${side}.note`, pattern: `${side} with status "${ref.status}" requires an explanatory note`, snippet: '' })
+    }
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -273,6 +317,7 @@ for (const [collection, entries] of Object.entries(data)) {
     if (collection === 'characters') {
       validatePersonTimeline(entry)
       validateCharacterPersonality(entry, labelFor(entry))
+      validateRulerSuccession(entry, labelFor(entry))
     }
 
     if (collection === 'events') {
