@@ -1,7 +1,9 @@
-// AUTO-GENERATED from server/data/history.json by scripts/gen-entity-links.mjs.
-// Do not edit by hand: run `node scripts/gen-entity-links.mjs` after adding or
-// renaming articles. Curated aliases from the previous file are preserved and
-// merged. This list drives the body/timeline auto-linker in DetailPage.jsx.
+// entityLinks AUTO-GENERATED from server/data/history.json by
+// scripts/gen-entity-links.mjs. Do not edit the entityLinks array by hand: run
+// `node scripts/gen-entity-links.mjs` after adding or renaming articles. Curated
+// aliases from the previous file are preserved and merged. This drives the
+// body/timeline auto-linker in DetailPage.jsx. The hand-maintained
+// ambiguousEntityAliases export below is preserved across regenerations.
 export const entityLinks = [
   { label: "Abd al-Rahman al-Ghafiqi", aliases: ["Abdul Rahman Al Ghafiqi"], type: "person", slug: "abd-al-rahman-al-ghafiqi" },
   { label: "Adhemar of Le Puy", aliases: ["Adhemar de Monteil"], type: "person", slug: "adhemar-of-le-puy" },
@@ -439,4 +441,46 @@ export const entityLinks = [
   { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
   { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
   { label: "War Hammer", aliases: ["Horseman’s hammer"], type: "weaponArmor", slug: "war-hammer" },
+]
+
+export const ambiguousEntityAliases = [
+  {
+    terms: ["Battle of Poitiers", "Tours-Poitiers"],
+    possibleTargets: [
+      {
+        title: "Battle of Tours",
+        label: "Battle of Tours",
+        type: "event",
+        slug: "battle-of-tours",
+        date: "732",
+        contextHints: [
+          "732",
+          "Charles Martel",
+          "Umayyad",
+          "al-Andalus",
+          "Tours",
+          "Franks",
+          "Abd al-Rahman al-Ghafiqi",
+          "Tours-Poitiers"
+        ]
+      },
+      {
+        title: "Battle of Poitiers",
+        label: "Battle of Poitiers",
+        type: "event",
+        slug: "battle-of-poitiers",
+        date: "1356",
+        contextHints: [
+          "1356",
+          "Hundred Years",
+          "Edward, the Black Prince",
+          "Black Prince",
+          "John II",
+          "Anglo-Gascon",
+          "English",
+          "French"
+        ]
+      }
+    ]
+  }
 ]

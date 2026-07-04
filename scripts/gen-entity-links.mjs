@@ -78,13 +78,23 @@ const lines = entries.map(e => {
   return `  { label: "${esc(e.label)}"${aliasStr}, type: "${e.type}", slug: "${e.slug}" },`
 })
 
-const header = `// AUTO-GENERATED from server/data/history.json by scripts/gen-entity-links.mjs.
-// Do not edit by hand: run \`node scripts/gen-entity-links.mjs\` after adding or
-// renaming articles. Curated aliases from the previous file are preserved and
-// merged. This list drives the body/timeline auto-linker in DetailPage.jsx.
+const header = `// entityLinks AUTO-GENERATED from server/data/history.json by
+// scripts/gen-entity-links.mjs. Do not edit the entityLinks array by hand: run
+// \`node scripts/gen-entity-links.mjs\` after adding or renaming articles. Curated
+// aliases from the previous file are preserved and merged. This drives the
+// body/timeline auto-linker in DetailPage.jsx. The hand-maintained
+// ambiguousEntityAliases export below is preserved across regenerations.
 `
 
-fs.writeFileSync(outPath, `${header}export const entityLinks = [\n${lines.join('\n')}\n]\n`)
+// Preserve the hand-maintained ambiguousEntityAliases export (disambiguation for
+// same-name battles like Tours vs Poitiers). Extract it from the existing file;
+// DetailPage.jsx imports it, so it must never be dropped.
+const ambigMatch = existing.match(/export const ambiguousEntityAliases[\s\S]*$/)
+const ambiguousBlock = ambigMatch
+  ? ambigMatch[0].trimEnd() + '\n'
+  : 'export const ambiguousEntityAliases = []\n'
+
+fs.writeFileSync(outPath, `${header}export const entityLinks = [\n${lines.join('\n')}\n]\n\n${ambiguousBlock}`)
 console.log(`Wrote ${entries.length} entityLinks (was ~${Object.keys(curated).length} curated).`)
 const byType = {}
 for (const e of entries) byType[e.type] = (byType[e.type] || 0) + 1
