@@ -320,6 +320,41 @@ function validateBattleContinuity(entry, label) {
   }
 }
 
+// Hard failure: army size / estimated strength on Battle & Siege articles.
+// Every listed faction/side must carry strength with a display value and a
+// confidence; uncertain confidences require an explanatory note.
+// See CLAUDE.md "Battle Army Size / Force Strength Rules".
+const STRENGTH_CONFIDENCE = new Set(['confirmed', 'estimated', 'debated', 'chronicle-claim', 'unknown'])
+const NOTE_REQUIRED_CONFIDENCE = new Set(['debated', 'chronicle-claim', 'unknown'])
+function validateBattleStrength(entry, label) {
+  if (!MILITARY_EVENT_TYPES.has(entry.eventType)) return
+  const sides = entry.participants ?? []
+  if (sides.length < 2) {
+    findings.push({ collection: 'events', article: label, path: 'participants', pattern: `${entry.eventType} article must list at least two sides/factions with strength`, snippet: `${sides.length} side(s)` })
+  }
+  for (const part of sides) {
+    const st = part.strength
+    const where = `participants "${part.side}".strength`
+    if (!st || !st.display || !String(st.display).trim()) {
+      findings.push({ collection: 'events', article: label, path: where, pattern: 'faction/side missing army-size (estimated strength) data', snippet: part.side ?? '' })
+      continue
+    }
+    if (!st.confidence || !STRENGTH_CONFIDENCE.has(st.confidence)) {
+      findings.push({ collection: 'events', article: label, path: where, pattern: `strength confidence missing or invalid (use ${[...STRENGTH_CONFIDENCE].join('/')})`, snippet: String(st.confidence ?? '') })
+    }
+    if (NOTE_REQUIRED_CONFIDENCE.has(st.confidence) && !(st.note && st.note.trim())) {
+      findings.push({ collection: 'events', article: label, path: where, pattern: `strength marked "${st.confidence}" requires an explanatory note`, snippet: st.display })
+    }
+    // Discourage false precision: a bare exact number with no range/qualifier.
+    if (/^\s*[\d.,]+\s*$/.test(String(st.display)) && st.confidence !== 'confirmed') {
+      findings.push({ collection: 'events', article: label, path: where, pattern: 'exact army-size number without a range or "confirmed" confidence (avoid false precision)', snippet: st.display })
+    }
+  }
+  if (sides.length && !(entry.sources ?? []).length) {
+    findings.push({ collection: 'events', article: label, path: 'sources', pattern: 'Battle/Siege article with factions must have sources supporting the army-size estimates', snippet: '' })
+  }
+}
+
 // Hard failure: ruler succession boxes. Every character with isRuler: true must
 // carry a succession object with predecessor and successor entries; linked slugs
 // must resolve to real Person articles and never self-link; entries with no link
@@ -433,6 +468,7 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'events') {
       validateBattleContinuity(entry, labelFor(entry))
+      validateBattleStrength(entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))

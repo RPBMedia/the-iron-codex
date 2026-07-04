@@ -206,6 +206,49 @@ Crécy → Poitiers 1356 → Agincourt → Siege of Rouen → Verneuil → Siege
 
 **Examples.** Good: Agincourt → Siege of Rouen ("Rouen continued Henry V's post-Agincourt conquest of Normandy and led to the Treaty of Troyes"); Siege of Orléans → Patay ("Patay followed the lifting of the siege and destroyed the English field army"); Stamford Bridge → Hastings ("weeks later in the same 1066 succession crisis"). Bad: Agincourt → Crécy as continuity (backward; Crécy is Related-Articles material there); Crécy → Manzikert (both merely famous); labelling Castillon → Crécy as "next battle" (it is earlier context).
 
+## Battle Army Size / Force Strength Rules
+
+Every **Battle** and **Siege** article must show the army size / estimated force strength for **every** faction/side it lists. Understanding a battle means knowing not just who fought and who led, but how large each force was — or, honestly, that the size is uncertain. Enforced by `npm run check:content-quality`: it hard-fails when a Battle/Siege side lacks strength data, when the confidence value is missing/invalid, when a `debated`/`chronicle-claim`/`unknown` strength has no explanatory note, on a bare exact number without `confirmed` confidence (false precision), and on fewer than two sides or missing sources.
+
+**Data shape** — `strength` on each entry of the `participants` array (per side/army):
+
+```json
+"participants": [
+  {
+    "side": "English army",
+    "factions": [{ "name": "Kingdom of England", "type": "location", "slug": "kingdom-of-england" }],
+    "leaders": [{ "name": "Henry V", "type": "person", "slug": "henry-v-of-england" }],
+    "strength": {
+      "display": "c. 6,000–9,000",
+      "confidence": "estimated",
+      "note": "Depleted and exhausted after the siege of Harfleur.",
+      "min": 6000, "max": 9000
+    }
+  }
+]
+```
+
+- `display` (required): a human-readable estimate — a **range**, not false precision.
+- `confidence` (required): `confirmed` | `estimated` | `debated` | `chronicle-claim` | `unknown`.
+- `note`: required for `debated`, `chronicle-claim`, and `unknown`; briefly say *why* it's uncertain.
+- `min`/`max`: optional numeric bounds.
+- The UI renders this under each faction card in the Factions area as **"Estimated strength"** (`event-strength` in `DetailPage.jsx` / `styles.css`).
+
+**Rules:**
+- Use **ranges**, never invented exact numbers ("c. 7,000–15,000", not "12,000 exactly").
+- If a figure is genuinely unrecoverable, use `display: "Unknown; …"`, `confidence: "unknown"`, and a note explaining why (e.g. "No reliable figures survive; chronicle numbers are fantastical").
+- Distinguish **chronicle claims** from **modern estimates**: mark inflated medieval totals as `chronicle-claim` and give the modern estimate ("Chronicle claims 100,000+; modern estimates far lower").
+- Do **not** repeat nationalist or legendary army-size myths as fact (Agincourt, Crécy, Hattin, Grunwald, Las Navas, Manzikert, Aljubarrota especially).
+- Sieges use side names like "besieging force" / "garrison and citizens", with garrison and (where meaningful) civilian estimates.
+- If force size shapes how the battle is understood, discuss it in the article body (Background/Battle/Outcome), not only the fact cards.
+- Add sources/further reading that support the estimates (reputable encyclopedias, museums/battlefield trusts, academic summaries — never fan/game wikis or AI guesses).
+- **A Battle/Siege article is not complete until every side has strength data.**
+
+**Examples.** Agincourt: English `c. 6,000–9,000` (estimated); French `c. 12,000–25,000` (debated — "medieval accounts exaggerate the French advantage"). Hastings: both `c. 7,000–8,000`, debated ("roughly matched, so William did not win by numbers"). Aljubarrota: Portuguese `c. 6,000–7,000`; Castilian `c. 20,000–30,000` (debated — "the key point is the Castilian numerical advantage"). Unknown case: `display: "Unknown; no reliable figures survive"`, `confidence: "unknown"`, with a note.
+
+### New Battle/Siege article checklist (army size)
+Before marking a new Battle/Siege article complete: add `strength` for **every** side; use ranges and the right `confidence`; add an uncertainty `note` for debated/chronicle/unknown; support the estimates with sources; integrate the force balance into the narrative where it matters; run `npm run check:content-quality`.
+
 ## Related Articles Rules
 
 Every article of every type must have a **Related entries** section (`relatedEntries`) with **at least 3** historically meaningful, working links. Enforced by `npm run check:content-quality`, which hard-fails on fewer than 3 valid entries, broken slugs, self-links, duplicates, or invalid types.

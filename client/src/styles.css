@@ -1640,6 +1640,39 @@ button.back-link:focus-visible {
   font-weight: 760;
 }
 
+/* Per-side army size / estimated strength shown inside each faction card. */
+.event-strength {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(143, 107, 29, 0.28);
+}
+
+.event-strength-label {
+  display: block;
+  color: #6d717a;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.event-strength-value {
+  display: block;
+  margin-top: 2px;
+  color: #4a3a12;
+  font-size: 0.98rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.event-strength-note {
+  margin: 5px 0 0;
+  color: #555964;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 .inline-list,
 .leader-list {
   display: grid;

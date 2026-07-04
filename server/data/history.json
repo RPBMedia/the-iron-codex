@@ -282,7 +282,12 @@
               "type": "person",
               "slug": "charles-martel"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; perhaps 15,000–30,000",
+            "confidence": "debated",
+            "note": "No reliable figures survive; the chronicle numbers are fantastical and modern estimates are speculative."
+          }
         },
         {
           "side": "Umayyad forces from al-Andalus",
@@ -307,7 +312,12 @@
               "type": "person",
               "slug": "abd-al-rahman-al-ghafiqi"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; a large raiding army, not the vast host of legend",
+            "confidence": "debated",
+            "note": "Arabic and Latin sources give no usable totals; the force was probably far smaller than later tradition claimed."
+          }
         }
       ],
       "linkOverrides": [
@@ -751,7 +761,12 @@
               "type": "person",
               "slug": "william-the-conqueror"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–8,000",
+            "confidence": "estimated",
+            "note": "Reconstructed from later sources and battlefield logistics rather than records; the exact size is uncertain."
+          }
         },
         {
           "side": "English army",
@@ -770,7 +785,12 @@
               "type": "person",
               "slug": "harold-godwinson"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–8,000",
+            "confidence": "debated",
+            "note": "Debated; the two armies were probably roughly matched, so William did not win through simple numerical superiority."
+          }
         }
       ],
       "battleContinuity": {
@@ -1305,7 +1325,14 @@
               "type": "person",
               "slug": "henry-v-of-england"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 6,000–9,000",
+            "confidence": "estimated",
+            "note": "Depleted and exhausted after the siege of Harfleur and a long march.",
+            "min": 6000,
+            "max": 9000
+          }
         },
         {
           "side": "French army",
@@ -1324,7 +1351,14 @@
               "type": "person",
               "slug": "charles-d-albret"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 12,000–25,000",
+            "confidence": "debated",
+            "note": "Modern estimates vary widely; medieval accounts exaggerate the French advantage, but the English were significantly outnumbered.",
+            "min": 12000,
+            "max": 25000
+          }
         }
       ],
       "battleContinuity": {
@@ -1450,7 +1484,12 @@
               "type": "person",
               "slug": "mehmed-ii"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 50,000–80,000 (chronicle claims up to 200,000+ are inflated)",
+            "confidence": "chronicle-claim",
+            "note": "A very large besieging army with heavy cannon; the highest medieval figures are exaggerated, but the Ottomans hugely outnumbered the defenders."
+          }
         },
         {
           "side": "Byzantine defenders",
@@ -1469,7 +1508,12 @@
               "type": "person",
               "slug": "constantine-xi-palaiologos"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–10,000, including a small foreign contingent",
+            "confidence": "estimated",
+            "note": "A tiny garrison, including Genoese and Venetian volunteers, defending walls far too long for its numbers."
+          }
         }
       ],
       "factions": [
@@ -2295,7 +2339,12 @@
               "type": "person",
               "slug": "romanos-iv-diogenes"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; perhaps 20,000–40,000",
+            "confidence": "debated",
+            "note": "Figures are debated; much of the army did not engage or defected, which mattered more than the raw total."
+          }
         },
         {
           "side": "Seljuk army",
@@ -2314,7 +2363,12 @@
               "type": "person",
               "slug": "alp-arslan"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; perhaps 20,000–30,000",
+            "confidence": "debated",
+            "note": "A mobile, largely mounted force; exact numbers are not recoverable from the sources."
+          }
         }
       ],
       "battleContinuity": {
@@ -2498,7 +2552,12 @@
               "type": "person",
               "slug": "harold-godwinson"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; likely several thousand",
+            "confidence": "debated",
+            "note": "Harold Godwinson force-marched a substantial army north; the sources do not allow a confident total."
+          }
         },
         {
           "side": "Norwegian invasion force",
@@ -2523,7 +2582,12 @@
               "type": "person",
               "slug": "tostig-godwinson"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; likely several thousand",
+            "confidence": "debated",
+            "note": "A large part of the Norwegian force was caught away from the ships without armour; exact numbers are uncertain."
+          }
         }
       ],
       "battleContinuity": {
@@ -2709,7 +2773,12 @@
               "type": "person",
               "slug": "philip-ii-of-france"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–9,000",
+            "confidence": "estimated",
+            "note": "The two hosts were roughly matched in size; the battle turned on cohesion, not numbers."
+          }
         },
         {
           "side": "Coalition army",
@@ -2746,7 +2815,12 @@
               "type": "person",
               "slug": "ferdinand-of-flanders"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 8,000–9,000",
+            "confidence": "estimated",
+            "note": "The imperial-Flemish-English coalition was similar in size to Philip II's army; figures are estimates."
+          }
         }
       ],
       "battleContinuity": {
@@ -2926,7 +3000,12 @@
               "type": "person",
               "slug": "guido-da-landriano"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; several thousand, mostly communal militia and cavalry",
+            "confidence": "debated",
+            "note": "The league fielded the larger force, including the Milanese militia and the Company of Death; totals are not recorded."
+          }
         },
         {
           "side": "Imperial army",
@@ -2945,7 +3024,12 @@
               "type": "person",
               "slug": "frederick-i-barbarossa"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; a smaller cavalry force, perhaps a few thousand",
+            "confidence": "debated",
+            "note": "Frederick I Barbarossa fought with a limited body of knights, having outrun his main strength."
+          }
         }
       ],
       "battleContinuity": {
@@ -3138,7 +3222,12 @@
               "type": "person",
               "slug": "alfonso-viii-of-castile"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 12,000–20,000",
+            "confidence": "debated",
+            "note": "The allied army of Castile, Aragon, and Navarre; modern estimates, not chronicle figures."
+          }
         },
         {
           "side": "Almohad army",
@@ -3157,7 +3246,12 @@
               "type": "person",
               "slug": "muhammad-al-nasir"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Chronicle claims are fantastical (100,000+); modern estimates far lower",
+            "confidence": "chronicle-claim",
+            "note": "The Almohad host was larger than the Christian army, but the enormous medieval totals are not credible; modern estimates run to perhaps 20,000–30,000."
+          }
         }
       ],
       "battleContinuity": {
@@ -3336,7 +3430,12 @@
               "type": "person",
               "slug": "robert-the-bruce"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 5,000–8,000",
+            "confidence": "estimated",
+            "note": "Robert the Bruce's smaller army fought from prepared, boggy ground that neutralised English numbers."
+          }
         },
         {
           "side": "English army",
@@ -3355,7 +3454,12 @@
               "type": "person",
               "slug": "edward-ii-of-england"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 15,000–20,000 (debated)",
+            "confidence": "debated",
+            "note": "The English were the larger force, but medieval claims are inflated and modern estimates vary."
+          }
         }
       ],
       "battleContinuity": {
@@ -3535,7 +3639,14 @@
               "type": "person",
               "slug": "edward-iii-of-england"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–15,000",
+            "confidence": "estimated",
+            "note": "Built around massed longbowmen and dismounted men-at-arms in a strong defensive position.",
+            "min": 7000,
+            "max": 15000
+          }
         },
         {
           "side": "French army",
@@ -3554,7 +3665,14 @@
               "type": "person",
               "slug": "philip-vi-of-france"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 20,000–30,000 (debated)",
+            "confidence": "debated",
+            "note": "The French army was larger, but some chronicle numbers are likely inflated; modern estimates vary widely.",
+            "min": 20000,
+            "max": 30000
+          }
         }
       ],
       "battleContinuity": {
@@ -3740,7 +3858,12 @@
               "type": "person",
               "slug": "edward-the-black-prince"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 6,000–10,000",
+            "confidence": "estimated",
+            "note": "Edward the Black Prince's outnumbered force fought a defensive action from broken, hedged ground."
+          }
         },
         {
           "side": "French army",
@@ -3759,7 +3882,12 @@
               "type": "person",
               "slug": "john-ii-of-france"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 11,000–16,000 (debated)",
+            "confidence": "debated",
+            "note": "Larger than the Anglo-Gascon force; exact figures are disputed and chronicle numbers unreliable."
+          }
         }
       ],
       "battleContinuity": {
@@ -3932,7 +4060,12 @@
               "type": "person",
               "slug": "prince-lazar"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; perhaps 12,000–25,000",
+            "confidence": "debated",
+            "note": "The coalition under Prince Lazar was smaller than the Ottoman army; no reliable totals survive."
+          }
         },
         {
           "side": "Ottoman army",
@@ -3951,7 +4084,12 @@
               "type": "person",
               "slug": "murad-i"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; perhaps 27,000–40,000",
+            "confidence": "debated",
+            "note": "Larger than the Balkan coalition; figures are modern estimates, as the sources give none reliable."
+          }
         }
       ],
       "battleContinuity": {
@@ -4148,7 +4286,12 @@
               "type": "person",
               "slug": "vytautas"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 20,000–30,000 (debated)",
+            "confidence": "debated",
+            "note": "One of the largest battles of medieval Europe; the allied army was the larger, but all totals are heavily debated."
+          }
         },
         {
           "side": "Teutonic Order army",
@@ -4167,7 +4310,12 @@
               "type": "person",
               "slug": "ulrich-von-jungingen"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 15,000–20,000 (debated)",
+            "confidence": "debated",
+            "note": "The order's army was smaller and was destroyed; medieval figures are inflated and modern estimates vary."
+          }
         }
       ],
       "battleContinuity": {
@@ -4221,10 +4369,11 @@
       ],
       "participants": [
         {
-          "side": "Olaf Tryggvason",
+          "side": "Olaf Tryggvason's fleet",
           "factions": [
             {
               "name": "Kingdom of Norway",
+              "title": "Kingdom of Norway",
               "type": "location",
               "slug": "kingdom-of-norway"
             }
@@ -4232,10 +4381,56 @@
           "leaders": [
             {
               "name": "Olaf Tryggvason",
+              "title": "Olaf Tryggvason",
               "type": "person",
               "slug": "olaf-tryggvason"
             }
-          ]
+          ],
+          "strength": {
+            "display": "A small fleet — saga tradition gives 11 ships, led by the Long Serpent",
+            "confidence": "chronicle-claim",
+            "note": "Saga ship-counts are traditional, not documentary; Olaf was heavily outnumbered and his fleet destroyed."
+          }
+        },
+        {
+          "side": "Allied coalition fleet",
+          "factions": [
+            {
+              "name": "Kingdom of Denmark",
+              "title": "Kingdom of Denmark",
+              "type": "location",
+              "slug": "kingdom-of-denmark"
+            },
+            {
+              "name": "Kingdom of Sweden",
+              "title": "Kingdom of Sweden",
+              "type": "location",
+              "slug": "kingdom-of-sweden"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Sweyn Forkbeard",
+              "title": "Sweyn Forkbeard",
+              "type": "person",
+              "slug": "sweyn-forkbeard"
+            },
+            {
+              "name": "Olof Skötkonung",
+              "title": "Olof Skötkonung",
+              "type": "person",
+              "slug": "olof-skotkonung"
+            },
+            {
+              "name": "Eric Hákonarson",
+              "title": "Eric Hákonarson"
+            }
+          ],
+          "strength": {
+            "display": "A much larger fleet — saga tradition gives many dozens of ships",
+            "confidence": "chronicle-claim",
+            "note": "The Danish–Swedish–Norwegian coalition vastly outnumbered Olaf; precise numbers belong to saga tradition."
+          }
         }
       ],
       "outcome": "Result preserved in medieval narrative tradition; details vary by source.",
@@ -4336,10 +4531,11 @@
       ],
       "participants": [
         {
-          "side": "Olaf’s supporters",
+          "side": "Olaf II Haraldsson's supporters",
           "factions": [
             {
               "name": "Kingdom of Norway",
+              "title": "Kingdom of Norway",
               "type": "location",
               "slug": "kingdom-of-norway"
             }
@@ -4347,10 +4543,33 @@
           "leaders": [
             {
               "name": "Olaf II Haraldsson",
+              "title": "Olaf II Haraldsson",
               "type": "person",
               "slug": "olaf-ii-haraldsson"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; a modest force, perhaps a few thousand",
+            "confidence": "debated",
+            "note": "Olaf returned from exile with a small army; no reliable figures survive."
+          }
+        },
+        {
+          "side": "Peasant and magnate army",
+          "factions": [
+            {
+              "name": "Kingdom of Norway",
+              "title": "Kingdom of Norway",
+              "type": "location",
+              "slug": "kingdom-of-norway"
+            }
+          ],
+          "leaders": [],
+          "strength": {
+            "display": "Unknown; larger than Olaf's force per saga tradition",
+            "confidence": "debated",
+            "note": "The army of Norwegian farmers and magnates opposed to Olaf, aligned with Cnut the Great, had no single royal commander."
+          }
         }
       ],
       "outcome": "Result preserved in medieval narrative tradition; details vary by source.",
@@ -4459,6 +4678,7 @@
           "factions": [
             {
               "name": "Kingdom of Sweden",
+              "title": "Kingdom of Sweden",
               "type": "location",
               "slug": "kingdom-of-sweden"
             }
@@ -4466,10 +4686,40 @@
           "leaders": [
             {
               "name": "Erik Knutsson",
+              "title": "Erik Knutsson",
               "type": "person",
               "slug": "erik-knutsson"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; no reliable figures survive",
+            "confidence": "unknown",
+            "note": "This early-13th-century Swedish dynastic battle is barely documented; no army sizes are recorded."
+          }
+        },
+        {
+          "side": "Sverker line",
+          "factions": [
+            {
+              "name": "Kingdom of Sweden",
+              "title": "Kingdom of Sweden",
+              "type": "location",
+              "slug": "kingdom-of-sweden"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Sverker II of Sweden",
+              "title": "Sverker II of Sweden",
+              "type": "person",
+              "slug": "sverker-ii-of-sweden"
+            }
+          ],
+          "strength": {
+            "display": "Unknown; no reliable figures survive",
+            "confidence": "unknown",
+            "note": "Sverker II was killed here; the sources give no usable numbers for either side."
+          }
         }
       ],
       "outcome": "Result preserved in medieval narrative tradition; details vary by source.",
@@ -4942,7 +5192,65 @@
         "battleSlug": "battle-of-stamford-bridge",
         "relationship": "same-campaign",
         "reason": "Fulford gave Harald Hardrada and Tostig Godwinson control of the approach to York, but within five days Harold Godwinson's army arrived from the south and destroyed the Norwegian force at Stamford Bridge."
-      }
+      },
+      "participants": [
+        {
+          "side": "Norwegian invasion force",
+          "factions": [
+            {
+              "name": "Kingdom of Norway",
+              "title": "Kingdom of Norway",
+              "type": "location",
+              "slug": "kingdom-of-norway"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Harald Hardrada",
+              "title": "Harald Hardrada",
+              "type": "person",
+              "slug": "harald-hardrada"
+            },
+            {
+              "name": "Tostig Godwinson",
+              "title": "Tostig Godwinson",
+              "type": "person",
+              "slug": "tostig-godwinson"
+            }
+          ],
+          "strength": {
+            "display": "Unknown; likely several thousand",
+            "confidence": "debated",
+            "note": "Part of the large invasion fleet that Harald Hardrada led to Yorkshire in 1066."
+          }
+        },
+        {
+          "side": "Northern English army",
+          "factions": [
+            {
+              "name": "Kingdom of England",
+              "title": "Kingdom of England",
+              "type": "location",
+              "slug": "kingdom-of-england"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Edwin of Mercia",
+              "title": "Edwin of Mercia"
+            },
+            {
+              "name": "Morcar of Northumbria",
+              "title": "Morcar of Northumbria"
+            }
+          ],
+          "strength": {
+            "display": "Unknown; likely several thousand",
+            "confidence": "debated",
+            "note": "The levies of the northern earls Edwin and Morcar, defeated before Harold Godwinson could arrive."
+          }
+        }
+      ]
     },
     {
       "id": "siege-of-rouen",
@@ -5000,7 +5308,12 @@
               "type": "person",
               "slug": "henry-v-of-england"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Unknown; a substantial besieging army under Henry V",
+            "confidence": "estimated",
+            "note": "Large enough to blockade Normandy's capital through a six-month siege; no exact figure is recorded."
+          }
         },
         {
           "side": "Rouen garrison and citizens",
@@ -5017,7 +5330,12 @@
               "name": "Guy le Bouteiller",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Garrison of a few thousand; a large civilian population swollen by refugees",
+            "confidence": "debated",
+            "note": "The defence collapsed through starvation rather than assault; the number of non-combatants who died is uncertain but very high."
+          }
         }
       ],
       "contentSections": [
@@ -5199,7 +5517,12 @@
               "name": "John, Duke of Bedford",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 8,000–9,000",
+            "confidence": "estimated",
+            "note": "The English won a hard defensive victory sometimes called \"a second Agincourt\"."
+          }
         },
         {
           "side": "Franco-Scottish army",
@@ -5220,7 +5543,12 @@
               "name": "Archibald Douglas, 4th Earl of Douglas",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 14,000–16,000 (debated)",
+            "confidence": "debated",
+            "note": "The larger Franco-Scottish army was shattered; the Scottish contingent was almost annihilated. Figures are estimates."
+          }
         }
       ],
       "contentSections": [
@@ -5399,7 +5727,12 @@
               "name": "Jean, the Bastard of Orléans (Dunois)",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "A garrison of a few thousand, reinforced by Joan of Arc's relief force",
+            "confidence": "estimated",
+            "note": "The defenders and relief troops together outnumbered the thin English siege lines by the time the siege was lifted."
+          }
         },
         {
           "side": "English army",
@@ -5420,7 +5753,12 @@
               "name": "William de la Pole, Earl of Suffolk",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 4,000–5,000",
+            "confidence": "estimated",
+            "note": "Too few to fully invest the city, the English held a ring of forts that could be broken piecemeal."
+          }
         }
       ],
       "contentSections": [
@@ -5605,7 +5943,12 @@
               "name": "Poton de Xaintrailles",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Several thousand; a fast-moving vanguard led the attack",
+            "confidence": "estimated",
+            "note": "A French cavalry vanguard caught the English before they could complete their defensive position."
+          }
         },
         {
           "side": "English army",
@@ -5626,7 +5969,12 @@
               "name": "Sir John Fastolf",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 3,000–5,000",
+            "confidence": "estimated",
+            "note": "The English field army was destroyed before its archers could deploy their stakes; exact numbers are uncertain."
+          }
         }
       ],
       "contentSections": [
@@ -5793,7 +6141,12 @@
               "name": "Arthur de Richemont, Constable of France",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 3,000–5,000 (reinforced during the battle)",
+            "confidence": "estimated",
+            "note": "A Breton force arriving on the flank turned the battle; the French were roughly matched with, then outnumbered, the English."
+          }
         },
         {
           "side": "English army",
@@ -5810,7 +6163,12 @@
               "name": "Sir Thomas Kyriell",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 4,000",
+            "confidence": "estimated",
+            "note": "One of the last English field armies in Normandy; it was largely destroyed. Figures are estimates."
+          }
         }
       ],
       "contentSections": [
@@ -5973,7 +6331,12 @@
               "name": "Jean Bureau, Master of Artillery",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 7,000–10,000, with a strong artillery park",
+            "confidence": "estimated",
+            "note": "The French fought from a fortified artillery camp whose guns broke the English assault."
+          }
         },
         {
           "side": "Anglo-Gascon army",
@@ -5990,7 +6353,12 @@
               "name": "John Talbot, Earl of Shrewsbury",
               "type": "person"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 5,000–6,000 under John Talbot",
+            "confidence": "estimated",
+            "note": "Talbot attacked the entrenched French camp and was killed; the defeat ended the Hundred Years' War. Figures are estimates."
+          }
         }
       ],
       "contentSections": [
@@ -6275,7 +6643,14 @@
               "name": "Nuno Álvares Pereira",
               "title": "Nuno Álvares Pereira"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 6,000–7,000",
+            "confidence": "estimated",
+            "note": "The smaller Portuguese army, stiffened by English longbowmen, fought from a prepared defensive hill.",
+            "min": 6000,
+            "max": 7000
+          }
         },
         {
           "side": "Castilian army",
@@ -6292,7 +6667,14 @@
               "name": "John I of Castile",
               "title": "John I of Castile"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 20,000–30,000 (debated)",
+            "confidence": "debated",
+            "note": "Numbers vary by source; the key point is the Castilian numerical advantage, which the terrain neutralised.",
+            "min": 20000,
+            "max": 30000
+          }
         }
       ],
       "battleContinuity": {
@@ -6485,7 +6867,12 @@
               "type": "person",
               "slug": "saladin"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 30,000–40,000 (debated)",
+            "confidence": "debated",
+            "note": "Saladin fielded the larger army and controlled the water sources, which decided the battle as much as numbers."
+          }
         },
         {
           "side": "Crusader army",
@@ -6510,7 +6897,12 @@
               "type": "person",
               "slug": "raymond-iii-of-tripoli"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 15,000–20,000, including perhaps 1,200 knights",
+            "confidence": "estimated",
+            "note": "Nearly the whole field strength of the Kingdom of Jerusalem, destroyed in a single day."
+          }
         }
       ],
       "battleContinuity": {
@@ -6692,7 +7084,12 @@
               "type": "person",
               "slug": "richard-the-lionheart"
             }
-          ]
+          ],
+          "strength": {
+            "display": "c. 20,000 (debated)",
+            "confidence": "debated",
+            "note": "Richard the Lionheart held a disciplined column on the march; exact figures are uncertain."
+          }
         },
         {
           "side": "Ayyubid army",
@@ -6711,7 +7108,12 @@
               "type": "person",
               "slug": "saladin"
             }
-          ]
+          ],
+          "strength": {
+            "display": "Larger than the crusader force; figures uncertain",
+            "confidence": "debated",
+            "note": "Saladin's mobile army relied on harassment and numbers, but no reliable total survives."
+          }
         }
       ],
       "battleContinuity": {
@@ -10282,6 +10684,14 @@
             "type": "person",
             "slug": "cnut-the-great",
             "label": "Son and successor in England"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Svolder",
+            "type": "event",
+            "slug": "battle-of-svolder",
+            "label": "Commander"
           }
         ]
       },
@@ -17752,6 +18162,14 @@
             "type": "person",
             "slug": "anund-jacob",
             "label": "Ruler of Kingdom of Sweden"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Svolder",
+            "type": "event",
+            "slug": "battle-of-svolder",
+            "label": "Commander"
           }
         ]
       },

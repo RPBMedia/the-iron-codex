@@ -260,6 +260,15 @@ function EventHero({ article }) {
                       </EntryLink>
                     ))}
                   </div>
+                  {participant.strength?.display && (
+                    <div className="event-strength">
+                      <span className="event-strength-label">Estimated strength</span>
+                      <span className="event-strength-value">{participant.strength.display}</span>
+                      {participant.strength.note && (
+                        <p className="event-strength-note">{participant.strength.note}</p>
+                      )}
+                    </div>
+                  )}
                 </section>
               ))}
             </div>
@@ -337,7 +346,8 @@ function normalizedParticipants(article) {
     return article.participants.map((participant) => ({
       side: participant.side ?? participant.name,
       factions: (participant.factions ?? []).map(normalizedEntry),
-      leaders: (participant.leaders ?? []).map(normalizedEntry)
+      leaders: (participant.leaders ?? []).map(normalizedEntry),
+      strength: participant.strength ?? null
     }))
   }
 
