@@ -364,6 +364,56 @@ function validateRulerSuccession(entry, label) {
   }
 }
 
+// Hard failure: People-to-Battle linking. If a Person is a commander/participant
+// of a Battle or Siege article, that battle must appear in the person's related
+// entries. Plus explicit required pairs for the archive's marquee figures.
+// See CLAUDE.md "People-to-Battle Linking Rules".
+const personBattles = new Map() // personSlug -> Set(eventId) they led/fought in
+function addPB(pid, eid) { if (!pid) return; if (!personBattles.has(pid)) personBattles.set(pid, new Set()); personBattles.get(pid).add(eid) }
+for (const e of militaryEvents) {
+  for (const l of e.leaders || []) addPB(l.personId, e.id)
+  for (const p of e.participants || []) for (const l of p.leaders || []) addPB(l.slug, e.id)
+  for (const it of Object.values(e.relatedEntries || {}).flat()) {
+    if (it.type === 'person' && it.slug && /commander|fought|led|killed in this/i.test(it.label || '')) addPB(it.slug, e.id)
+  }
+}
+// Explicit required pairs (event may be a war/fall, not only Battle/Siege).
+const REQUIRED_PERSON_BATTLE = [
+  ['john-i-of-portugal', 'battle-of-aljubarrota'],
+  ['harald-hardrada', 'battle-of-stamford-bridge'], ['harald-hardrada', 'battle-of-stiklestad'],
+  ['robert-the-bruce', 'battle-of-bannockburn'],
+  ['henry-v-of-england', 'battle-of-agincourt'],
+  ['william-the-conqueror', 'battle-of-hastings'],
+  ['joan-of-arc', 'siege-of-orleans'],
+  ['saladin', 'battle-of-hattin'],
+  ['richard-the-lionheart', 'battle-of-arsuf'],
+  ['edward-iii-of-england', 'battle-of-crecy'],
+  ['philip-vi-of-france', 'battle-of-crecy'],
+  ['mehmed-ii', 'fall-of-constantinople']
+]
+const eventIds = new Set((data.events ?? []).map(e => e.id))
+function relatedSlugs(entry) {
+  return new Set(Object.values(entry.relatedEntries || {}).flat().filter(x => x && x.slug).map(x => x.slug))
+}
+function validatePersonBattles(entry, label) {
+  const rel = relatedSlugs(entry)
+  // (a) participant in a battle/siege article -> must be in related entries
+  for (const eid of personBattles.get(entry.id) || []) {
+    if (!rel.has(eid)) {
+      findings.push({ collection: 'characters', article: label, path: 'relatedEntries', pattern: `commander/participant of ${eid} but the battle is not in related entries`, snippet: eid })
+    }
+  }
+  // (b) explicit required pairs
+  for (const [pid, eid] of REQUIRED_PERSON_BATTLE) {
+    if (entry.id !== pid) continue
+    if (!eventIds.has(eid)) {
+      findings.push({ collection: 'characters', article: label, path: 'relatedEntries', pattern: `required battle article ${eid} is missing from the archive`, snippet: eid })
+    } else if (!rel.has(eid)) {
+      findings.push({ collection: 'characters', article: label, path: 'relatedEntries', pattern: `required people-to-battle link missing: ${pid} -> ${eid}`, snippet: eid })
+    }
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -378,6 +428,7 @@ for (const [collection, entries] of Object.entries(data)) {
       validatePersonTimeline(entry)
       validateCharacterPersonality(entry, labelFor(entry))
       validateRulerSuccession(entry, labelFor(entry))
+      validatePersonBattles(entry, labelFor(entry))
     }
 
     if (collection === 'events') {

@@ -136,6 +136,37 @@ Entry variants: `{ personSlug, displayName, note? }` links to a real Person arti
 - Linked predecessors/successors must resolve to full Person articles; if one is needed and missing, create it at full IronCodex quality (image, personality section, timeline ≥5, related entries ≥3, sources) — never a stub. Unlinked named entries are for people outside the archive's needed set (chain endpoints, obscure interlopers), always with a note.
 - For chronicle-tradition rulers (early Rus'), succession language follows the Early Rus' rules: "by the chronicle account", never presented as documentary fact.
 
+## People-to-Battle Linking Rules
+
+Every Person article must be checked for the battles, sieges, campaigns, conquests, invasions, revolts, and military events the person is historically tied to, and those events must be **linked** from the article. This applies to **every existing Person article and every new one added in the future** — a new Person article is **not complete** until this check has been done. Enforced by `npm run check:content-quality`, which hard-fails when a person listed as a commander/participant of a Battle/Siege article omits that battle from related entries, and on a fixed set of required marquee pairs.
+
+**A military event must be linked if the person** fought in it, commanded in it, died/was captured/wounded there, won or lost it, became famous because of it, had their rule or reputation transformed by it, or is repeatedly connected to it in the article text.
+
+**The link must appear in three places, where applicable:**
+1. **Related entries** — the battle/siege/military event is listed as a related article (this is the hard-validated placement).
+2. **Timeline** — the timeline entry describing the event carries a `links` entry to the event article (timeline titles are plain; put the link in `links` and/or the description).
+3. **Main article body** — the event is linked on its **first meaningful mention**. Body/timeline-description linking is automatic via the auto-linker (`entityLinks`), so writing the full name ("Battle of Aljubarrota", "Siege of Orléans") links it. Regenerate the link table with `node scripts/gen-entity-links.mjs` after adding or renaming articles.
+
+**Rules:**
+- Do not mention a battle in plain text if that battle has an article — link it.
+- If a defining battle/siege is missing, create a **full-quality** article (image, sections, factions, leaders, outcome, related entries ≥3, `battleContinuity`, sources) — never a shallow placeholder — or explicitly document why it was not created.
+- Timeline battle entries must use unique, meaningful descriptions and link the event.
+- Related entries must include defining battles for rulers, commanders, crusaders, rebels, warrior figures, military saints, and politically significant leaders (this is **in addition to** the minimum-3 related-entries rule).
+- Link the **first** meaningful mention only; do not over-link the same battle in every paragraph.
+- **Disambiguate carefully. Wrong battle links are worse than no link.** Battle sites often exist as both a Location and an Event article (Crécy, Stiklestad, Bannockburn); `gen-entity-links.mjs` only auto-aliases a short battle name ("Arsuf", "Hattin", "Aljubarrota") when it does not collide with a location/person, so for colliding names use the full "Battle of X" form in prose to link the battle rather than the place.
+
+**Examples (all hard-validated in related entries):** John I of Portugal → Battle of Aljubarrota; Harald Hardrada → Battle of Stamford Bridge and Battle of Stiklestad; Robert the Bruce → Battle of Bannockburn; Henry V → Battle of Agincourt; William the Conqueror → Battle of Hastings; Joan of Arc → Siege of Orléans; Saladin → Battle of Hattin; Richard the Lionheart → Battle of Arsuf; Edward III → Battle of Crécy; Philip VI → Battle of Crécy; Mehmed II → Fall of Constantinople.
+
+### New Person article checklist (military links)
+
+Before marking a new Person article complete:
+- identify the major battles/sieges/campaigns/military events connected to the person;
+- create any missing full-quality military-event article (never a stub), or document the omission;
+- add those events to **Related entries**;
+- link them in the **Timeline** (`links`);
+- ensure the **main body** names them in full so the auto-linker links the first mention;
+- run `node scripts/gen-entity-links.mjs` and `npm run check:content-quality`.
+
 ## Battle Continuity Links
 
 Every **military event** article (`events` entries with `eventType: "Battle"` or `"Siege"`) must include one curated continuity link to another military event article — the single best "read next" step. This applies **only** to Battles and Sieges; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-military events (a War overview is not a valid target). Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-military target, missing label, generic reason, backward links where a later same-conflict option exists, backward links labelled "next", and the specific regression `battle-of-agincourt -> battle-of-crecy`. Future Battle/Siege articles are **not complete** until this field is present.

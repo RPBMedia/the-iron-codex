@@ -6102,6 +6102,624 @@
         "relationship": "earlier-context",
         "reason": "Castillon closed the war that Crécy had opened in 1346. To follow the whole arc — from the longbow's first great victory to the artillery that ended English France — return to where the fighting began."
       }
+    },
+    {
+      "id": "battle-of-aljubarrota",
+      "type": "event",
+      "name": "Battle of Aljubarrota",
+      "year": 1385,
+      "location": "Aljubarrota, Portugal",
+      "eventType": "Battle",
+      "conflict": "1383–1385 Portuguese Interregnum",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Batalha_de_Aljubarrota_02.jpg",
+      "summary": "A Portuguese army under John of Aviz and Nuno Álvares Pereira destroyed a much larger Castilian invasion in 1385, securing Portugal's independence and the House of Aviz.",
+      "details": "Fought on 14 August 1385, Aljubarrota ended the succession crisis that followed the death of Ferdinand I. Using a strong defensive position, dismounted men-at-arms, and English longbowmen, the Portuguese shattered the Castilian host and confirmed John of Aviz as King John I.",
+      "factions": [
+        "Kingdom of Portugal",
+        "Kingdom of Castile"
+      ],
+      "leaders": [
+        {
+          "name": "John I of Portugal",
+          "faction": "Portuguese army",
+          "personId": "john-i-of-portugal"
+        },
+        {
+          "name": "Nuno Álvares Pereira",
+          "faction": "Portuguese army"
+        },
+        {
+          "name": "John I of Castile",
+          "faction": "Castilian army"
+        }
+      ],
+      "eventLocation": {
+        "name": "Aljubarrota"
+      },
+      "outcome": "Decisive Portuguese victory; independence from Castile secured and the House of Aviz confirmed on the throne.",
+      "background": [
+        "When Ferdinand I of Portugal died in 1383 leaving only a daughter married to John I of Castile, the prospect of Portugal passing to the Castilian crown provoked a national crisis known as the 1383–1385 Interregnum.",
+        "John of Aviz, illegitimate son of Peter I and Master of the Order of Aviz, emerged as leader of the resistance. In 1385 the Cortes of Coimbra acclaimed him king as John I, and John I of Castile invaded to enforce his own claim."
+      ],
+      "battle": "The Portuguese took a strong defensive position on a hill near Aljubarrota, their men-at-arms dismounted and flanked by archers, including English longbowmen sent under the Anglo-Portuguese partnership. The Castilian vanguard attacked uphill in a constricted front and was cut down; when the main body followed it was thrown into the same killing ground and broken. The constable Nuno Álvares Pereira commanded the Portuguese line while the king held the reserve.",
+      "aftermath": "The Castilian army was destroyed and John I of Castile fled. The victory secured Portuguese independence for two centuries and confirmed the House of Aviz. John I founded the Monastery of Batalha (\"Battle\") in thanksgiving, and sealed the Treaty of Windsor with England the following year.",
+      "imageInfo": {
+        "caption": "The Battle of Aljubarrota depicted in Jean de Wavrin's Chronique d'Angleterre (c. 1479–1480).",
+        "creator": "Jean de Wavrin, Chronique d'Angleterre",
+        "date": "15th century (c. 1479–1480)",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batalha_de_Aljubarrota_02.jpg",
+        "license": "Public domain",
+        "note": "A near-period manuscript miniature, stylised rather than a literal battlefield record."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Battle of Aljubarrota was fought on 14 August 1385 between the Kingdom of Portugal, led by the newly acclaimed John I and his constable Nuno Álvares Pereira, and a much larger invading army of the Kingdom of Castile under John I of Castile. It was the decisive engagement of the 1383–1385 Interregnum, the succession crisis that followed the death of Ferdinand I.",
+            "The outnumbered Portuguese won a crushing victory using a prepared defensive position, dismounted men-at-arms, and English longbowmen. The result secured Portuguese independence from Castile and confirmed the House of Aviz on the throne, shaping the kingdom that would soon launch the Age of Discovery."
+          ]
+        },
+        {
+          "title": "Background",
+          "paragraphs": [
+            "Ferdinand I, the last king of the House of Burgundy, died in 1383 leaving only a daughter, Beatrice, married to John I of Castile. The prospect that Portugal would be absorbed into the Castilian crown provoked widespread resistance, and the regency of the queen mother Leonor Teles was distrusted.",
+            "John of Aviz, an illegitimate son of Peter I and Master of the Order of Aviz, led the opposition, and in 1385 the Cortes of Coimbra acclaimed him King John I. John I of Castile invaded Portugal to enforce his own claim, and the two armies met near the village of Aljubarrota."
+          ]
+        },
+        {
+          "title": "Forces and commanders",
+          "paragraphs": [
+            "The Portuguese army was significantly smaller but well positioned and disciplined, commanded in the field by the constable Nuno Álvares Pereira, one of the ablest generals of the age, while the king held the reserve. It included a contingent of English longbowmen, reflecting the growing Anglo-Portuguese partnership.",
+            "The Castilian army was larger and included French allied men-at-arms and crossbowmen. Its size gave it confidence, but the narrow, prepared battlefield chosen by the Portuguese neutralised that advantage."
+          ]
+        },
+        {
+          "title": "The battle",
+          "paragraphs": [
+            "The Portuguese occupied a hill with their flanks protected, men-at-arms dismounted in the centre and archers on the wings, and dug ditches and pits to break up a mounted charge. The Castilian vanguard, attacking uphill into a constricted front, was shot down and driven back onto the advancing main body.",
+            "As the main Castilian host pressed forward it lost cohesion in the same killing ground, exposed to the longbowmen and unable to bring its numbers to bear. The Portuguese line under Nuno Álvares held and then counterattacked, turning the Castilian confusion into a rout."
+          ]
+        },
+        {
+          "title": "Aftermath",
+          "paragraphs": [
+            "The Castilian army was destroyed and John I of Castile fled the field. Portuguese independence was secured, and John I's throne and the House of Aviz were confirmed beyond challenge.",
+            "In thanksgiving John I founded the Monastery of Batalha — literally \"Battle\" — one of the masterpieces of Portuguese Gothic architecture, and in 1386 he sealed the Treaty of Windsor with England, the oldest active alliance in the world."
+          ]
+        },
+        {
+          "title": "Historical significance",
+          "paragraphs": [
+            "Aljubarrota is the founding military event of the House of Aviz and one of the decisive battles of Portuguese history: it preserved the kingdom's independence at the moment it was most in danger of Castilian absorption.",
+            "It also demonstrated, like the contemporary battles of the Hundred Years' War, the power of a prepared defensive position combining dismounted men-at-arms and massed archery against a larger force of mounted and heavy troops."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Battle of Aljubarrota",
+          "author": "Encyclopaedia Britannica",
+          "type": "encyclopedia",
+          "url": "https://www.britannica.com/event/Battle-of-Aljubarrota"
+        },
+        {
+          "title": "Battle of Aljubarrota",
+          "author": "World History Encyclopedia",
+          "type": "reference article",
+          "url": "https://www.worldhistory.org/"
+        },
+        {
+          "title": "Aljubarrota miniature, Chronique d'Angleterre",
+          "author": "Wikimedia Commons",
+          "type": "manuscript image",
+          "url": "https://commons.wikimedia.org/wiki/File:Batalha_de_Aljubarrota_02.jpg"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "John I of Portugal",
+            "type": "person",
+            "slug": "john-i-of-portugal",
+            "label": "Victor; founder of the House of Aviz"
+          },
+          {
+            "title": "Ferdinand I of Portugal",
+            "type": "person",
+            "slug": "ferdinand-i-of-portugal",
+            "label": "His death began the succession crisis"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of Portugal",
+            "type": "location",
+            "slug": "kingdom-of-portugal",
+            "label": "The realm whose independence was secured"
+          },
+          {
+            "title": "Kingdom of Castile",
+            "type": "location",
+            "slug": "kingdom-of-castile",
+            "label": "The defeated invader"
+          },
+          {
+            "title": "Kingdom of England",
+            "type": "location",
+            "slug": "kingdom-of-england",
+            "label": "Ally whose longbowmen fought here"
+          }
+        ],
+        "events": []
+      },
+      "participants": [
+        {
+          "side": "Portuguese army",
+          "factions": [
+            {
+              "name": "Kingdom of Portugal",
+              "title": "Kingdom of Portugal",
+              "type": "location",
+              "slug": "kingdom-of-portugal"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "John I of Portugal",
+              "title": "John I of Portugal",
+              "type": "person",
+              "slug": "john-i-of-portugal"
+            },
+            {
+              "name": "Nuno Álvares Pereira",
+              "title": "Nuno Álvares Pereira"
+            }
+          ]
+        },
+        {
+          "side": "Castilian army",
+          "factions": [
+            {
+              "name": "Kingdom of Castile",
+              "title": "Kingdom of Castile",
+              "type": "location",
+              "slug": "kingdom-of-castile"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "John I of Castile",
+              "title": "John I of Castile"
+            }
+          ]
+        }
+      ],
+      "battleContinuity": {
+        "label": "Iberia's earlier decisive battle",
+        "battleSlug": "battle-of-las-navas-de-tolosa",
+        "relationship": "earlier-context",
+        "reason": "Aljubarrota secured Portugal's independence from Castile, but the Iberian kingdoms that fought it were themselves shaped by the Reconquista — whose decisive Christian victory came at Las Navas de Tolosa in 1212, breaking Almohad power and fixing the peninsula's balance of Christian crowns."
+      }
+    },
+    {
+      "id": "battle-of-hattin",
+      "type": "event",
+      "name": "Battle of Hattin",
+      "year": 1187,
+      "location": "Horns of Hattin, near Tiberias",
+      "eventType": "Battle",
+      "conflict": "Crusades",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Saladin_Guy.jpg",
+      "summary": "Saladin destroyed the army of the Kingdom of Jerusalem at Hattin in 1187, opening the way to his recapture of Jerusalem and triggering the Third Crusade.",
+      "details": "On 4 July 1187 Saladin lured the crusader field army into waterless country near the Horns of Hattin, surrounded and broke it, and captured King Guy of Lusignan and the relic of the True Cross. The disaster left the Kingdom of Jerusalem defenceless.",
+      "factions": [
+        "Ayyubid Sultanate",
+        "Kingdom of Jerusalem"
+      ],
+      "leaders": [
+        {
+          "name": "Saladin",
+          "faction": "Ayyubid army",
+          "personId": "saladin"
+        },
+        {
+          "name": "Guy of Lusignan",
+          "faction": "Crusader army",
+          "personId": "guy-of-lusignan"
+        },
+        {
+          "name": "Raymond III of Tripoli",
+          "faction": "Crusader army",
+          "personId": "raymond-iii-of-tripoli"
+        }
+      ],
+      "eventLocation": {
+        "name": "Horns of Hattin"
+      },
+      "outcome": "Decisive Ayyubid victory; the crusader field army destroyed, its king captured, and Jerusalem left open to conquest.",
+      "background": [
+        "By 1187 Saladin had united Egypt and Muslim Syria and was pressing the Kingdom of Jerusalem hard. Provocations by Reynald of Châtillon, who raided Muslim caravans and pilgrim routes in defiance of truces, gave Saladin both cause and justification for a decisive campaign.",
+        "When Saladin besieged Tiberias, the crusader leadership was divided: Raymond III of Tripoli urged caution, but King Guy of Lusignan was persuaded by the hawkish faction to march the whole field army across dry country to relieve the town."
+      ],
+      "battle": "Saladin's forces harassed the thirsty crusader column and cut it off from water. Near the twin hills called the Horns of Hattin the army was surrounded; smoke from grass fires and constant arrow fire wore it down. The infantry broke for water and was destroyed, and the encircled knights, exhausted and parched, were overwhelmed after desperate charges failed to reach Saladin.",
+      "aftermath": "King Guy of Lusignan was captured along with most of the surviving nobility and the relic of the True Cross. Saladin executed Reynald of Châtillon and the captured Templars and Hospitallers but spared Guy. With the field army gone, the fortified towns of the kingdom fell one after another, and Jerusalem itself surrendered in October 1187.",
+      "imageInfo": {
+        "caption": "Saladin and the captured King Guy of Lusignan after Hattin, in a 13th-century manuscript by Matthew Paris.",
+        "creator": "Matthew Paris",
+        "date": "13th century",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saladin_Guy.jpg",
+        "license": "Public domain",
+        "note": "A near-contemporary Latin manuscript depiction of the battle's outcome, not a literal battlefield record."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Battle of Hattin was fought on 4 July 1187 between the army of the Ayyubid sultan Saladin and the field army of the Kingdom of Jerusalem under King Guy of Lusignan. It was the most catastrophic defeat in the history of the crusader states.",
+            "Saladin drew the crusaders into waterless country near the Horns of Hattin, surrounded and destroyed their army, and captured the king and the relic of the True Cross. The victory left the kingdom defenceless and led directly to Saladin's recapture of Jerusalem and to the calling of the Third Crusade."
+          ]
+        },
+        {
+          "title": "Background",
+          "paragraphs": [
+            "By the 1180s Saladin had united Egypt and Muslim Syria and framed the war against the crusader states as a jihad to recover Jerusalem. Repeated truce-breaking raids by Reynald of Châtillon against Muslim caravans and the pilgrim routes gave him both motive and justification for an all-out campaign.",
+            "In 1187 Saladin besieged Tiberias to draw out the crusader army. The kingdom's leaders were divided: Raymond III of Tripoli argued against marching across dry country in high summer, but the faction led by Reynald and the Templar master persuaded King Guy of Lusignan to advance and relieve the town."
+          ]
+        },
+        {
+          "title": "Forces and commanders",
+          "paragraphs": [
+            "Saladin commanded a large, well-supplied army with strong cavalry and horse-archers, and crucially held the wells and springs of the region. His discipline and control of water and terrain shaped the whole battle.",
+            "Guy of Lusignan led nearly the entire military strength of the kingdom — knights, sergeants, and infantry, including the Templars and Hospitallers. Committing this single army to a march through arid country was a gamble that left nothing in reserve if it failed."
+          ]
+        },
+        {
+          "title": "The battle",
+          "paragraphs": [
+            "As the crusaders marched toward Tiberias, Saladin's horsemen harassed the column and cut it off from water, forcing it to halt overnight in a waterless place. The next day, tormented by thirst and by fires the Muslims lit in the dry grass, the crusaders struggled toward the springs near the Horns of Hattin.",
+            "Saladin surrounded the army. The demoralised infantry broke away toward water and was cut to pieces, leaving the knights isolated. Despite desperate charges — Raymond III of Tripoli cut his way out with a few followers — the encircled and exhausted cavalry could not break Saladin's lines and was overwhelmed on the hillside."
+          ]
+        },
+        {
+          "title": "Aftermath",
+          "paragraphs": [
+            "Saladin captured King Guy of Lusignan, most of the surviving nobles, and the relic of the True Cross. He spared the king but executed Reynald of Châtillon with his own hand and had the captured Templars and Hospitallers put to death as irreconcilable enemies.",
+            "With the kingdom's army destroyed, its fortresses and towns fell in quick succession, and Jerusalem surrendered to Saladin in October 1187 after negotiation with Balian of Ibelin. The loss of the holy city stunned Latin Christendom and prompted the launching of the Third Crusade."
+          ]
+        },
+        {
+          "title": "Historical significance",
+          "paragraphs": [
+            "Hattin was the decisive battle of Saladin's career and the greatest disaster ever suffered by the crusader states, reducing the Kingdom of Jerusalem in weeks from a functioning realm to a few coastal enclaves.",
+            "It is a classic study of a commander using thirst, terrain, and control of water to destroy a stronger-looking enemy, and its consequence — the fall of Jerusalem — reshaped the crusading movement for the next century."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Battle of Ḥaṭṭīn",
+          "author": "Encyclopaedia Britannica",
+          "type": "encyclopedia",
+          "url": "https://www.britannica.com/event/Battle-of-Hattin"
+        },
+        {
+          "title": "Battle of Hattin",
+          "author": "World History Encyclopedia",
+          "type": "reference article",
+          "url": "https://www.worldhistory.org/Battle_of_Hattin/"
+        },
+        {
+          "title": "Saladin and Guy of Lusignan, Matthew Paris",
+          "author": "Wikimedia Commons",
+          "type": "manuscript image",
+          "url": "https://commons.wikimedia.org/wiki/File:Saladin_Guy.jpg"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Saladin",
+            "type": "person",
+            "slug": "saladin",
+            "label": "Victorious Ayyubid sultan"
+          },
+          {
+            "title": "Guy of Lusignan",
+            "type": "person",
+            "slug": "guy-of-lusignan",
+            "label": "Crusader king, captured in the battle"
+          },
+          {
+            "title": "Raymond III of Tripoli",
+            "type": "person",
+            "slug": "raymond-iii-of-tripoli",
+            "label": "Warned against the march; cut his way out"
+          },
+          {
+            "title": "Reynald of Châtillon",
+            "type": "person",
+            "slug": "reynald-of-chatillon",
+            "label": "Executed by Saladin after the battle"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of Jerusalem",
+            "type": "location",
+            "slug": "kingdom-of-jerusalem",
+            "label": "The realm whose army was destroyed"
+          },
+          {
+            "title": "Ayyubid Sultanate",
+            "type": "location",
+            "slug": "ayyubid-sultanate",
+            "label": "Saladin's realm"
+          }
+        ],
+        "events": [
+          {
+            "title": "Third Crusade",
+            "type": "event",
+            "slug": "third-crusade",
+            "label": "Launched in response to the loss of Jerusalem"
+          }
+        ]
+      },
+      "participants": [
+        {
+          "side": "Ayyubid army",
+          "factions": [
+            {
+              "name": "Ayyubid Sultanate",
+              "title": "Ayyubid Sultanate",
+              "type": "location",
+              "slug": "ayyubid-sultanate"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Saladin",
+              "title": "Saladin",
+              "type": "person",
+              "slug": "saladin"
+            }
+          ]
+        },
+        {
+          "side": "Crusader army",
+          "factions": [
+            {
+              "name": "Kingdom of Jerusalem",
+              "title": "Kingdom of Jerusalem",
+              "type": "location",
+              "slug": "kingdom-of-jerusalem"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Guy of Lusignan",
+              "title": "Guy of Lusignan",
+              "type": "person",
+              "slug": "guy-of-lusignan"
+            },
+            {
+              "name": "Raymond III of Tripoli",
+              "title": "Raymond III of Tripoli",
+              "type": "person",
+              "slug": "raymond-iii-of-tripoli"
+            }
+          ]
+        }
+      ],
+      "battleContinuity": {
+        "label": "The crusaders strike back",
+        "battleSlug": "battle-of-arsuf",
+        "relationship": "same-factions",
+        "reason": "The catastrophe at Hattin and the loss of Jerusalem triggered the Third Crusade; its first great field victory came in 1191 at Arsuf, where Richard the Lionheart broke Saladin's attempt to destroy the crusader march down the coast."
+      }
+    },
+    {
+      "id": "battle-of-arsuf",
+      "type": "event",
+      "name": "Battle of Arsuf",
+      "year": 1191,
+      "location": "Arsuf, near Jaffa",
+      "eventType": "Battle",
+      "conflict": "Third Crusade",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Schlacht_von_Arsuf.jpg",
+      "summary": "Richard the Lionheart defeated Saladin at Arsuf in 1191, the first major field victory of the Third Crusade and proof that Saladin could be beaten in open battle.",
+      "details": "On 7 September 1191 Richard I held his marching column together under constant harassment, then unleashed a disciplined charge that routed Saladin's army near Arsuf, restoring crusader morale after the disaster of Hattin.",
+      "factions": [
+        "Third Crusade",
+        "Ayyubid Sultanate"
+      ],
+      "leaders": [
+        {
+          "name": "Richard the Lionheart",
+          "faction": "Crusader army",
+          "personId": "richard-the-lionheart"
+        },
+        {
+          "name": "Saladin",
+          "faction": "Ayyubid army",
+          "personId": "saladin"
+        }
+      ],
+      "eventLocation": {
+        "name": "Arsuf"
+      },
+      "outcome": "Crusader victory; Saladin's field army driven off and the myth of his invincibility broken, though Jerusalem was not retaken.",
+      "background": [
+        "After the fall of Acre in 1191, Richard the Lionheart led the army of the Third Crusade south along the coast toward Jaffa, aiming eventually at Jerusalem. Saladin shadowed the march, seeking to wear the crusaders down with heat, thirst, and constant harassment.",
+        "Richard imposed rigid discipline on the march, keeping his infantry and crossbowmen on the seaward-protected flank as a shield for the knights, and forbidding any charge until he gave the order."
+      ],
+      "battle": "Near Arsuf, Saladin committed his whole army to break the column, pressing hardest against the rearguard of Hospitallers. Under mounting casualties the Hospitallers charged before Richard's signal; rather than let the attack fail piecemeal, Richard threw his whole force into a coordinated charge that caught Saladin's army off balance and drove it from the field.",
+      "aftermath": "Saladin's army withdrew in disorder, having failed to stop the crusader march. Arsuf restored crusader confidence and secured the coast, allowing Richard to take Jaffa, but he judged Jerusalem impossible to hold and the crusade ended in 1192 with the Treaty of Jaffa rather than the city's recapture.",
+      "imageInfo": {
+        "caption": "The Battle of Arsuf, painted by Éloi Firmin Féron (1839).",
+        "creator": "Éloi Firmin Féron",
+        "date": "19th century (1839)",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Arsuf.jpg",
+        "license": "Public domain",
+        "note": "A 19th-century history painting, a later romanticised depiction rather than a contemporary record."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Battle of Arsuf was fought on 7 September 1191 between the army of the Third Crusade under Richard the Lionheart and the forces of the Ayyubid sultan Saladin, on the coastal march from Acre toward Jaffa. It was the first great field victory of the Third Crusade.",
+            "By holding his harassed column together and then launching a disciplined, coordinated charge, Richard drove Saladin's army from the field. Arsuf broke the aura of invincibility Saladin had gained at Hattin and secured the coast, even though the crusade ultimately failed to recover Jerusalem."
+          ]
+        },
+        {
+          "title": "Background",
+          "paragraphs": [
+            "After the crusaders retook Acre in 1191, Richard the Lionheart led the army of the Third Crusade south along the Mediterranean coast toward Jaffa, intending to advance on Jerusalem. Saladin, still dominant since his victory at Hattin four years earlier, shadowed the march to wear the crusaders down.",
+            "Richard enforced strict march discipline: the fleet supplied the army along the shore, infantry and crossbowmen guarded the exposed inland flank, and the knights were forbidden to charge until the king judged the moment right."
+          ]
+        },
+        {
+          "title": "Forces and commanders",
+          "paragraphs": [
+            "Richard commanded a mixed crusader army of English, French, and other contingents, with the Templars and Hospitallers forming the vanguard and rearguard. His control over this fractious force, and his refusal to be provoked into a premature charge, were decisive.",
+            "Saladin fielded a fast, aggressive army of horse-archers and light cavalry suited to harassment, counting on heat, thirst, and constant missile fire to break the crusader column before it could bring its heavy cavalry to bear."
+          ]
+        },
+        {
+          "title": "The battle",
+          "paragraphs": [
+            "As the column passed the woods near Arsuf, Saladin committed his whole army, concentrating on the rearguard of Hospitallers, who suffered badly under the arrow storm while forbidden to break ranks. Their master repeatedly begged Richard for permission to charge.",
+            "When two Hospitaller knights finally charged without orders and the rest surged after them, Richard chose to convert the unplanned attack into a general assault, launching his whole line in a coordinated charge. The sudden weight of armoured cavalry caught Saladin's troops in the open and routed them; Richard held his men in hand to prevent a scattered pursuit and a counterattack."
+          ]
+        },
+        {
+          "title": "Aftermath",
+          "paragraphs": [
+            "Saladin's army withdrew, having failed to stop the crusader march or inflict a decisive blow. The victory secured the coastal road and allowed Richard to occupy Jaffa and refortify it as a base.",
+            "Arsuf restored crusader morale after the long shadow of Hattin, but it did not open Jerusalem: Richard twice advanced toward the city and twice judged it impossible to take and hold. The Third Crusade ended in 1192 with the Treaty of Jaffa, which left Jerusalem in Saladin's hands but guaranteed Christian pilgrimage."
+          ]
+        },
+        {
+          "title": "Historical significance",
+          "paragraphs": [
+            "Arsuf is remembered as the battle that proved Saladin could be beaten in the open, and as a showcase of Richard the Lionheart's generalship: his mastery of march discipline, combined arms, and timing over impatience.",
+            "Its limits are as instructive as its success. A brilliant tactical victory could restore the crusaders' position on the coast without achieving the campaign's true objective, underlining how hard it was to translate battlefield wins into the recapture of Jerusalem."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Battle of Arsūf",
+          "author": "Encyclopaedia Britannica",
+          "type": "encyclopedia",
+          "url": "https://www.britannica.com/event/Battle-of-Arsuf"
+        },
+        {
+          "title": "Battle of Arsuf",
+          "author": "World History Encyclopedia",
+          "type": "reference article",
+          "url": "https://www.worldhistory.org/"
+        },
+        {
+          "title": "The Battle of Arsuf by Éloi Firmin Féron",
+          "author": "Wikimedia Commons",
+          "type": "painting",
+          "url": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Arsuf.jpg"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Richard the Lionheart",
+            "type": "person",
+            "slug": "richard-the-lionheart",
+            "label": "Victorious crusader commander"
+          },
+          {
+            "title": "Saladin",
+            "type": "person",
+            "slug": "saladin",
+            "label": "Ayyubid sultan, defeated in the open"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Crusader States",
+            "type": "location",
+            "slug": "crusader-states",
+            "label": "The Latin territories the crusade fought to restore"
+          },
+          {
+            "title": "Ayyubid Sultanate",
+            "type": "location",
+            "slug": "ayyubid-sultanate",
+            "label": "Saladin's realm"
+          }
+        ],
+        "events": [
+          {
+            "title": "Third Crusade",
+            "type": "event",
+            "slug": "third-crusade",
+            "label": "The campaign this victory belonged to"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin",
+            "label": "The 1187 disaster that had summoned the crusade"
+          }
+        ]
+      },
+      "participants": [
+        {
+          "side": "Crusader army",
+          "factions": [
+            {
+              "name": "Crusader States",
+              "title": "Crusader States",
+              "type": "location",
+              "slug": "crusader-states"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Richard the Lionheart",
+              "title": "Richard the Lionheart",
+              "type": "person",
+              "slug": "richard-the-lionheart"
+            }
+          ]
+        },
+        {
+          "side": "Ayyubid army",
+          "factions": [
+            {
+              "name": "Ayyubid Sultanate",
+              "title": "Ayyubid Sultanate",
+              "type": "location",
+              "slug": "ayyubid-sultanate"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Saladin",
+              "title": "Saladin",
+              "type": "person",
+              "slug": "saladin"
+            }
+          ]
+        }
+      ],
+      "battleContinuity": {
+        "label": "The catastrophe that summoned the crusade",
+        "battleSlug": "battle-of-hattin",
+        "relationship": "earlier-context",
+        "reason": "Arsuf was the Third Crusade's answer to disaster: the crusade existed only because Saladin had annihilated the Kingdom of Jerusalem's army at the Battle of Hattin in 1187 and taken the holy city, the calamity that Richard the Lionheart had come east to reverse."
+      }
     }
   ],
   "characters": [
@@ -6750,6 +7368,11 @@
               "title": "Battle of Hastings",
               "type": "event",
               "slug": "battle-of-hastings"
+            },
+            {
+              "title": "Norman Conquest of England",
+              "type": "event",
+              "slug": "norman-conquest"
             }
           ]
         },
@@ -7184,7 +7807,14 @@
         {
           "date": "1187",
           "title": "Wins the Battle of Hattin",
-          "description": "Crushes the crusader field army and opens the way to Jerusalem."
+          "description": "Crushes the crusader field army and opens the way to Jerusalem.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         },
         {
           "date": "1187",
@@ -7194,7 +7824,14 @@
         {
           "date": "1192",
           "title": "Negotiates with Richard I",
-          "description": "Treaty of Jaffa ends the Third Crusade stalemate."
+          "description": "Treaty of Jaffa ends the Third Crusade stalemate.",
+          "links": [
+            {
+              "title": "Third Crusade",
+              "type": "event",
+              "slug": "third-crusade"
+            }
+          ]
         },
         {
           "date": "1193",
@@ -7243,6 +7880,18 @@
             "type": "event",
             "slug": "third-crusade",
             "label": "Fought in this engagement"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin",
+            "label": "Commander"
+          },
+          {
+            "title": "Battle of Arsuf",
+            "type": "event",
+            "slug": "battle-of-arsuf",
+            "label": "Commander"
           }
         ],
         "people": [
@@ -7416,12 +8065,31 @@
         {
           "date": "1191",
           "title": "Captures Cyprus",
-          "description": "Seizes Cyprus during the Third Crusade."
+          "description": "Seizes Cyprus during the Third Crusade.",
+          "links": [
+            {
+              "title": "Third Crusade",
+              "type": "event",
+              "slug": "third-crusade"
+            }
+          ]
         },
         {
           "date": "1191",
           "title": "Wins at Arsuf",
-          "description": "Defeats Saladin's forces during the Third Crusade."
+          "description": "Defeats Saladin's forces during the Third Crusade.",
+          "links": [
+            {
+              "title": "Third Crusade",
+              "type": "event",
+              "slug": "third-crusade"
+            },
+            {
+              "title": "Battle of Arsuf",
+              "type": "event",
+              "slug": "battle-of-arsuf"
+            }
+          ]
         },
         {
           "date": "1192-1194",
@@ -7458,6 +8126,12 @@
             "type": "event",
             "slug": "third-crusade",
             "label": "Fought in this engagement"
+          },
+          {
+            "title": "Battle of Arsuf",
+            "type": "event",
+            "slug": "battle-of-arsuf",
+            "label": "Commander"
           }
         ],
         "people": [
@@ -7509,7 +8183,8 @@
       "summary": "French visionary and military figure of the Hundred Years' War.",
       "overview": [
         "Joan of Arc was a French visionary and military figure whose intervention during the Hundred Years War helped revive the Valois cause at a moment of severe crisis. Claiming guidance from saints, she encouraged the relief of Orleans and supported the coronation of Charles VII at Reims.",
-        "Born around 1412 at Domremy, Joan was captured, tried by an English-backed church court, and burned at Rouen in 1431. Her conviction was later overturned, and she became a powerful symbol of faith, resistance, national memory, and the contested politics of sanctity."
+        "Born around 1412 at Domremy, Joan was captured, tried by an English-backed church court, and burned at Rouen in 1431. Her conviction was later overturned, and she became a powerful symbol of faith, resistance, national memory, and the contested politics of sanctity.",
+        "Joan's military fame rests on a few decisive months in 1429: she helped lift the Siege of Orléans, which had come to symbolise French collapse in the Hundred Years' War, and days later shared in the crushing victory at the Battle of Patay, before leading Charles VII to his coronation at Reims."
       ],
       "greatestFeats": [
         "Helped lift the siege of Orleans in 1429",
@@ -7554,7 +8229,8 @@
           "title": "Overview",
           "paragraphs": [
             "Joan of Arc was a French visionary and military figure whose intervention during the Hundred Years War helped revive the Valois cause at a moment of severe crisis. Claiming guidance from saints, she encouraged the relief of Orleans and supported the coronation of Charles VII at Reims.",
-            "Born around 1412 at Domremy, Joan was captured, tried by an English-backed church court, and burned at Rouen in 1431. Her conviction was later overturned, and she became a powerful symbol of faith, resistance, national memory, and the contested politics of sanctity."
+            "Born around 1412 at Domremy, Joan was captured, tried by an English-backed church court, and burned at Rouen in 1431. Her conviction was later overturned, and she became a powerful symbol of faith, resistance, national memory, and the contested politics of sanctity.",
+            "Joan's military fame rests on a few decisive months in 1429: she helped lift the Siege of Orléans, which had come to symbolise French collapse in the Hundred Years' War, and days later shared in the crushing victory at the Battle of Patay, before leading Charles VII to his coronation at Reims."
           ]
         },
         {
@@ -7636,8 +8312,27 @@
         },
         {
           "date": "1429",
+          "title": "Victory at Patay",
+          "description": "Days after the relief of Orléans, the French destroyed the retreating English field army at the Battle of Patay, reversing years of English dominance.",
+          "links": [
+            {
+              "title": "Battle of Patay",
+              "type": "event",
+              "slug": "battle-of-patay"
+            }
+          ]
+        },
+        {
+          "date": "1429",
           "title": "Helps lift the siege of Orleans",
-          "description": "Becomes a symbol of French recovery."
+          "description": "Becomes a symbol of French recovery.",
+          "links": [
+            {
+              "title": "Siege of Orléans",
+              "type": "event",
+              "slug": "siege-of-orleans"
+            }
+          ]
         },
         {
           "date": "1429",
@@ -7696,6 +8391,26 @@
             "type": "person",
             "slug": "charles-d-albret",
             "label": "Ruler of Kingdom of France"
+          }
+        ],
+        "events": [
+          {
+            "title": "Siege of Orléans",
+            "type": "event",
+            "slug": "siege-of-orleans",
+            "label": "Commander at the siege"
+          },
+          {
+            "title": "Battle of Patay",
+            "type": "event",
+            "slug": "battle-of-patay",
+            "label": "Her victory days after Orléans"
+          },
+          {
+            "title": "Hundred Years' War",
+            "type": "event",
+            "slug": "hundred-years-war",
+            "label": "The war her campaign turned"
           }
         ]
       }
@@ -8571,6 +9286,11 @@
             "title": "Battle of Bannockburn",
             "type": "event",
             "slug": "battle-of-bannockburn"
+          },
+          {
+            "title": "Wars of Scottish Independence",
+            "type": "event",
+            "slug": "wars-of-scottish-independence"
           }
         ]
       }
@@ -14235,7 +14955,14 @@
         {
           "date": "1000",
           "title": "Dies at Svolder",
-          "description": "Died or disappeared after defeat at the Battle of Svolder in 1000; saga narratives dramatize his final leap or disappearance."
+          "description": "Died or disappeared after defeat at the Battle of Svolder in 1000; saga narratives dramatize his final leap or disappearance.",
+          "links": [
+            {
+              "title": "Battle of Svolder",
+              "type": "event",
+              "slug": "battle-of-svolder"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -14444,7 +15171,14 @@
         {
           "date": "1030",
           "title": "Dies at Stiklestad",
-          "description": "Killed at the Battle of Stiklestad in 1030; his death became the foundation of Saint Olaf’s royal cult at Nidaros."
+          "description": "Killed at the Battle of Stiklestad in 1030; his death became the foundation of Saint Olaf’s royal cult at Nidaros.",
+          "links": [
+            {
+              "title": "Battle of Stiklestad",
+              "type": "event",
+              "slug": "battle-of-stiklestad"
+            }
+          ]
         },
         {
           "date": "1031",
@@ -14594,7 +15328,7 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "Harald Hardrada was king of Norway and one of the most wide-ranging rulers of the eleventh-century Scandinavian world. After fighting as a young man at Stiklestad, he spent years in exile and Byzantine service before returning north to become co-king and then sole ruler of Norway.",
+            "Harald Hardrada was king of Norway and one of the most wide-ranging rulers of the eleventh-century Scandinavian world. After fighting as a young man at the Battle of Stiklestad, he spent years in exile and Byzantine service before returning north to become co-king and then sole ruler of Norway.",
             "His final campaign was the 1066 invasion of England alongside Tostig Godwinson. Harald won at Fulford but was surprised and killed by Harold Godwinson at the Battle of Stamford Bridge. His death collapsed the Norwegian bid for England and is often treated as one of the last great Viking invasions of the kingdom."
           ]
         },
@@ -14688,6 +15422,11 @@
               "title": "Kievan Rus’",
               "type": "location",
               "slug": "kievan-rus"
+            },
+            {
+              "title": "Battle of Stiklestad",
+              "type": "event",
+              "slug": "battle-of-stiklestad"
             }
           ]
         },
@@ -14811,6 +15550,22 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "Died in this engagement"
+          },
+          {
+            "title": "Battle of Fulford",
+            "type": "event",
+            "slug": "battle-of-fulford",
+            "label": "Commander"
+          },
+          {
+            "title": "Battle of Hastings",
+            "type": "event",
+            "slug": "battle-of-hastings"
+          },
+          {
+            "title": "Battle of Stiklestad",
+            "type": "event",
+            "slug": "battle-of-stiklestad"
           }
         ],
         "locations": [
@@ -18479,7 +19234,14 @@
         {
           "date": "1210",
           "title": "Killed at Gestilren",
-          "description": "Killed at the Battle of Gestilren in 1210 during dynastic conflict with the Erik line."
+          "description": "Killed at the Battle of Gestilren in 1210 during dynastic conflict with the Erik line.",
+          "links": [
+            {
+              "title": "Battle of Gestilren",
+              "type": "event",
+              "slug": "battle-of-gestilren"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -18672,7 +19434,14 @@
         {
           "date": "1210",
           "title": "Secures rule after Gestilren",
-          "description": "After Gestilren in 1210, Erik secured kingship more firmly and became the first Swedish king known to have been crowned."
+          "description": "After Gestilren in 1210, Erik secured kingship more firmly and became the first Swedish king known to have been crowned.",
+          "links": [
+            {
+              "title": "Battle of Gestilren",
+              "type": "event",
+              "slug": "battle-of-gestilren"
+            }
+          ]
         },
         {
           "date": "1216",
@@ -20635,12 +21404,26 @@
         {
           "date": "1066",
           "title": "Wins at Stamford Bridge",
-          "description": "Defeats Harald Hardrada and Tostig Godwinson."
+          "description": "Defeats Harald Hardrada and Tostig Godwinson.",
+          "links": [
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
         },
         {
           "date": "1066",
           "title": "Dies at Hastings",
-          "description": "Killed fighting William of Normandy."
+          "description": "Killed fighting William of Normandy.",
+          "links": [
+            {
+              "title": "Battle of Hastings",
+              "type": "event",
+              "slug": "battle-of-hastings"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -20841,12 +21624,26 @@
         {
           "date": "1415",
           "title": "Invades France",
-          "description": "Launches the campaign that leads to Agincourt."
+          "description": "Launches the campaign that leads to Agincourt.",
+          "links": [
+            {
+              "title": "Battle of Agincourt",
+              "type": "event",
+              "slug": "battle-of-agincourt"
+            }
+          ]
         },
         {
           "date": "1415",
           "title": "Wins at Agincourt",
-          "description": "Defeats French forces in a famous English victory."
+          "description": "Defeats French forces in a famous English victory.",
+          "links": [
+            {
+              "title": "Battle of Agincourt",
+              "type": "event",
+              "slug": "battle-of-agincourt"
+            }
+          ]
         },
         {
           "date": "1420",
@@ -20892,6 +21689,12 @@
             "type": "event",
             "slug": "hundred-years-war",
             "label": "Fought in this engagement"
+          },
+          {
+            "title": "Siege of Rouen",
+            "type": "event",
+            "slug": "siege-of-rouen",
+            "label": "Commander at the siege"
           }
         ],
         "people": [
@@ -21063,7 +21866,14 @@
         {
           "date": "1415",
           "title": "Commands at Agincourt",
-          "description": "Fights as a principal French commander."
+          "description": "Fights as a principal French commander.",
+          "links": [
+            {
+              "title": "Battle of Agincourt",
+              "type": "event",
+              "slug": "battle-of-agincourt"
+            }
+          ]
         },
         {
           "date": "1415",
@@ -21451,12 +22261,26 @@
         {
           "date": "1071",
           "title": "Campaigns east",
-          "description": "Leads an army toward Manzikert."
+          "description": "Leads an army toward Manzikert.",
+          "links": [
+            {
+              "title": "Battle of Manzikert",
+              "type": "event",
+              "slug": "battle-of-manzikert"
+            }
+          ]
         },
         {
           "date": "1071",
           "title": "Captured at Manzikert",
-          "description": "Defeated by Alp Arslan."
+          "description": "Defeated by Alp Arslan.",
+          "links": [
+            {
+              "title": "Battle of Manzikert",
+              "type": "event",
+              "slug": "battle-of-manzikert"
+            }
+          ]
         },
         {
           "date": "1072",
@@ -21658,7 +22482,14 @@
         {
           "date": "1071",
           "title": "Wins at Manzikert",
-          "description": "Captures Byzantine emperor Romanos IV."
+          "description": "Captures Byzantine emperor Romanos IV.",
+          "links": [
+            {
+              "title": "Battle of Manzikert",
+              "type": "event",
+              "slug": "battle-of-manzikert"
+            }
+          ]
         },
         {
           "date": "1072",
@@ -21854,7 +22685,14 @@
         {
           "date": "1066",
           "title": "Dies at Stamford Bridge",
-          "description": "Killed in battle."
+          "description": "Killed in battle.",
+          "links": [
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -21864,6 +22702,12 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "Died in this engagement"
+          },
+          {
+            "title": "Battle of Fulford",
+            "type": "event",
+            "slug": "battle-of-fulford",
+            "label": "Commander"
           }
         ],
         "locations": [
@@ -22062,7 +22906,14 @@
         {
           "date": "1214",
           "title": "Wins at Bouvines",
-          "description": "Defeats a coalition of enemies."
+          "description": "Defeats a coalition of enemies.",
+          "links": [
+            {
+              "title": "Battle of Bouvines",
+              "type": "event",
+              "slug": "battle-of-bouvines"
+            }
+          ]
         },
         {
           "date": "1223",
@@ -22268,7 +23119,14 @@
         {
           "date": "1214",
           "title": "Defeated at Bouvines",
-          "description": "Loses to Philip II of France."
+          "description": "Loses to Philip II of France.",
+          "links": [
+            {
+              "title": "Battle of Bouvines",
+              "type": "event",
+              "slug": "battle-of-bouvines"
+            }
+          ]
         },
         {
           "date": "1218",
@@ -22460,7 +23318,14 @@
         {
           "date": "1214",
           "title": "Fights at Bouvines",
-          "description": "Joins the coalition against Philip II."
+          "description": "Joins the coalition against Philip II.",
+          "links": [
+            {
+              "title": "Battle of Bouvines",
+              "type": "event",
+              "slug": "battle-of-bouvines"
+            }
+          ]
         },
         {
           "date": "1214",
@@ -22665,12 +23530,26 @@
         {
           "date": "1176",
           "title": "Defeated at Legnano",
-          "description": "Loses to the Lombard League."
+          "description": "Loses to the Lombard League.",
+          "links": [
+            {
+              "title": "Battle of Legnano",
+              "type": "event",
+              "slug": "battle-of-legnano"
+            }
+          ]
         },
         {
           "date": "1190",
           "title": "Dies on crusade",
-          "description": "Drowns during the Third Crusade."
+          "description": "Drowns during the Third Crusade.",
+          "links": [
+            {
+              "title": "Third Crusade",
+              "type": "event",
+              "slug": "third-crusade"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -22862,7 +23741,14 @@
         {
           "date": "1176",
           "title": "Battle of Legnano",
-          "description": "Traditionally associated with League command."
+          "description": "Traditionally associated with League command.",
+          "links": [
+            {
+              "title": "Battle of Legnano",
+              "type": "event",
+              "slug": "battle-of-legnano"
+            }
+          ]
         },
         {
           "date": "1183",
@@ -22872,7 +23758,14 @@
         {
           "date": "after 1176",
           "title": "Later life uncertain",
-          "description": "Details after Legnano are poorly documented."
+          "description": "Details after Legnano are poorly documented.",
+          "links": [
+            {
+              "title": "Battle of Legnano",
+              "type": "event",
+              "slug": "battle-of-legnano"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -23041,7 +23934,14 @@
         {
           "date": "1212",
           "title": "Wins at Las Navas de Tolosa",
-          "description": "Leads the Christian coalition."
+          "description": "Leads the Christian coalition.",
+          "links": [
+            {
+              "title": "Battle of Las Navas de Tolosa",
+              "type": "event",
+              "slug": "battle-of-las-navas-de-tolosa"
+            }
+          ]
         },
         {
           "date": "1214",
@@ -23783,7 +24683,14 @@
         {
           "date": "1314",
           "title": "Defeated at Bannockburn",
-          "description": "Loses to Robert the Bruce."
+          "description": "Loses to Robert the Bruce.",
+          "links": [
+            {
+              "title": "Battle of Bannockburn",
+              "type": "event",
+              "slug": "battle-of-bannockburn"
+            }
+          ]
         },
         {
           "date": "1327",
@@ -23817,6 +24724,12 @@
             "type": "event",
             "slug": "battle-of-bannockburn",
             "label": "Fought in this engagement"
+          },
+          {
+            "title": "Wars of Scottish Independence",
+            "type": "event",
+            "slug": "wars-of-scottish-independence",
+            "label": "Central figure in the war"
           }
         ],
         "people": [
@@ -23923,7 +24836,7 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War. His reign combined military victories at Crécy and Calais, a chivalric court culture around the Order of the Garter, and heavy taxation that tied war-making to parliament and political consent."
+            "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War. His reign combined military victories at the Battle of Crécy and the capture of Calais, a chivalric court culture around the Order of the Garter, and heavy taxation that tied war-making to parliament and political consent."
           ]
         },
         {
@@ -23993,7 +24906,14 @@
         {
           "date": "1346",
           "title": "Wins at Crecy",
-          "description": "Defeats Philip VI’s army."
+          "description": "Defeats Philip VI’s army.",
+          "links": [
+            {
+              "title": "Battle of Crécy",
+              "type": "event",
+              "slug": "battle-of-crecy"
+            }
+          ]
         },
         {
           "date": "1377",
@@ -24615,7 +25535,14 @@
         {
           "date": "1389",
           "title": "Fights at Kosovo",
-          "description": "Commands coalition forces."
+          "description": "Commands coalition forces.",
+          "links": [
+            {
+              "title": "Battle of Kosovo",
+              "type": "event",
+              "slug": "battle-of-kosovo"
+            }
+          ]
         },
         {
           "date": "1389",
@@ -24813,7 +25740,14 @@
         {
           "date": "1389",
           "title": "Fights at Kosovo",
-          "description": "Leads Ottoman forces."
+          "description": "Leads Ottoman forces.",
+          "links": [
+            {
+              "title": "Battle of Kosovo",
+              "type": "event",
+              "slug": "battle-of-kosovo"
+            }
+          ]
         },
         {
           "date": "1389",
@@ -25018,7 +25952,14 @@
         {
           "date": "1410",
           "title": "Wins at Grunwald",
-          "description": "Defeats the Teutonic Order."
+          "description": "Defeats the Teutonic Order.",
+          "links": [
+            {
+              "title": "Battle of Grunwald",
+              "type": "event",
+              "slug": "battle-of-grunwald"
+            }
+          ]
         },
         {
           "date": "1434",
@@ -25206,7 +26147,14 @@
         {
           "date": "1410",
           "title": "Wins at Grunwald",
-          "description": "Commands Lithuanian forces."
+          "description": "Commands Lithuanian forces.",
+          "links": [
+            {
+              "title": "Battle of Grunwald",
+              "type": "event",
+              "slug": "battle-of-grunwald"
+            }
+          ]
         },
         {
           "date": "1430",
@@ -25402,7 +26350,14 @@
         {
           "date": "1410",
           "title": "Fights at Grunwald",
-          "description": "Commands the Order’s army."
+          "description": "Commands the Order’s army.",
+          "links": [
+            {
+              "title": "Battle of Grunwald",
+              "type": "event",
+              "slug": "battle-of-grunwald"
+            }
+          ]
         },
         {
           "date": "1410",
@@ -25586,7 +26541,14 @@
         {
           "date": "1346",
           "title": "Defeated at Crecy",
-          "description": "French army loses heavily."
+          "description": "French army loses heavily.",
+          "links": [
+            {
+              "title": "Battle of Crécy",
+              "type": "event",
+              "slug": "battle-of-crecy"
+            }
+          ]
         },
         {
           "date": "1350",
@@ -25741,7 +26703,7 @@
         {
           "title": "Character and Personality",
           "paragraphs": [
-            "Edward I of England is remembered as a hard, imposing, and relentless king — \"the Hammer of the Scots,\" as a later inscription on his tomb proclaimed — and the sources present a ruler of formidable will, physical stature, and legal-minded ambition. Contemporaries respected and feared him: a lawgiver who reshaped English statute and administration, a crusader in his youth, and a conqueror who subdued Wales and pursued the subjugation of Scotland with grim determination.",
+            "Edward I of England is remembered as a hard, imposing, and relentless king — \"the Hammer of the Scots,\" as a later inscription on his tomb proclaimed — and the sources present a ruler of formidable will, physical stature, and legal-minded ambition. Contemporaries respected and feared him: a lawgiver who reshaped English statute and administration, a crusader in his youth, and a conqueror who subdued Wales and pursued the subjugation of Scotland in the Wars of Scottish Independence in the Wars of Scottish Independence with grim determination.",
             "His personality combined genuine concern for law and royal rights with a capacity for harshness that the sources do not conceal — the brutal execution of William Wallace, the heavy hand in Scotland and Wales, and the expulsion of the Jews from England in 1290. He could be vengeful and unyielding once opposed, and his temper was remembered as fearsome.",
             "The portrait is broadly consistent across admiring and critical sources: a powerful, intelligent, and ruthless ruler who strengthened the English state and crushed resistance without mercy. He is remembered as one of England's most effective and most severe medieval kings — a builder of law and a breaker of enemies in equal measure."
           ]
@@ -25847,13 +26809,25 @@
               "title": "Kingdom of Scotland",
               "type": "location",
               "slug": "kingdom-of-scotland"
+            },
+            {
+              "title": "Wars of Scottish Independence",
+              "type": "event",
+              "slug": "wars-of-scottish-independence"
             }
           ]
         },
         {
           "date": "1307",
           "title": "Dies on Scottish campaign",
-          "description": "Edward died near the border at Burgh by Sands, leaving the war in Scotland unresolved."
+          "description": "Edward died near the border at Burgh by Sands, leaving the war in Scotland unresolved.",
+          "links": [
+            {
+              "title": "Wars of Scottish Independence",
+              "type": "event",
+              "slug": "wars-of-scottish-independence"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -26263,7 +27237,19 @@
         {
           "date": "1066",
           "title": "Dies at Westminster",
-          "description": "Edward died without a direct heir, opening the succession crisis that led to Stamford Bridge and Hastings."
+          "description": "Edward died without a direct heir, opening the succession crisis that led to Stamford Bridge and Hastings.",
+          "links": [
+            {
+              "title": "Battle of Hastings",
+              "type": "event",
+              "slug": "battle-of-hastings"
+            },
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -26278,6 +27264,11 @@
             "title": "Battle of Stamford Bridge",
             "type": "event",
             "slug": "battle-of-stamford-bridge"
+          },
+          {
+            "title": "Battle of Hastings",
+            "type": "event",
+            "slug": "battle-of-hastings"
           }
         ],
         "locations": [
@@ -28337,6 +29328,11 @@
             "title": "First Crusade Proclaimed",
             "type": "event",
             "slug": "first-crusade-called"
+          },
+          {
+            "title": "Battle of Manzikert",
+            "type": "event",
+            "slug": "battle-of-manzikert"
           }
         ],
         "locations": [
@@ -31234,7 +32230,14 @@
         {
           "date": "1185",
           "title": "Dies",
-          "description": "Baldwin’s death accelerated the political instability before Hattin."
+          "description": "Baldwin’s death accelerated the political instability before Hattin.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -31256,6 +32259,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -31430,7 +32438,14 @@
         {
           "date": "1187",
           "title": "Defeated at Hattin",
-          "description": "His army’s destruction opened the way for Saladin to take Jerusalem."
+          "description": "His army’s destruction opened the way for Saladin to take Jerusalem.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         },
         {
           "date": "1194",
@@ -31457,6 +32472,12 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin",
+            "label": "Commander"
           }
         ],
         "people": [
@@ -31659,6 +32680,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -31833,7 +32859,14 @@
         {
           "date": "1187",
           "title": "Caught in Hattin crisis",
-          "description": "His advice and position became controversial before the disaster."
+          "description": "His advice and position became controversial before the disaster.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         },
         {
           "date": "1187",
@@ -31860,6 +32893,12 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin",
+            "label": "Commander"
           }
         ],
         "people": [
@@ -32038,7 +33077,14 @@
         {
           "date": "1187",
           "title": "Executed after Hattin",
-          "description": "Saladin had Reynald killed after the crusader defeat."
+          "description": "Saladin had Reynald killed after the crusader defeat.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -32060,6 +33106,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -32216,7 +33267,14 @@
         {
           "date": "1187",
           "title": "Survives Hattin aftermath",
-          "description": "Balian escaped the immediate destruction of the field army."
+          "description": "Balian escaped the immediate destruction of the field army.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         },
         {
           "date": "1187",
@@ -32248,6 +33306,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -32404,7 +33467,14 @@
         {
           "date": "1187",
           "title": "Defends Tyre",
-          "description": "The successful defense preserved a Latin foothold after Hattin."
+          "description": "The successful defense preserved a Latin foothold after Hattin.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
         },
         {
           "date": "1192",
@@ -32436,6 +33506,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -32601,7 +33676,14 @@
         {
           "date": "1190",
           "title": "Joins the Third Crusade",
-          "description": "He traveled east with major western forces."
+          "description": "He traveled east with major western forces.",
+          "links": [
+            {
+              "title": "Third Crusade",
+              "type": "event",
+              "slug": "third-crusade"
+            }
+          ]
         },
         {
           "date": "1192",
@@ -32638,6 +33720,11 @@
             "title": "Third Crusade",
             "type": "event",
             "slug": "third-crusade"
+          },
+          {
+            "title": "Battle of Hattin",
+            "type": "event",
+            "slug": "battle-of-hattin"
           }
         ],
         "people": [
@@ -37910,7 +38997,14 @@
         {
           "date": "27 July 1214",
           "title": "Bouvines",
-          "description": "Philip II destroys John's coalition; the reconquest project dies with it."
+          "description": "Philip II destroys John's coalition; the reconquest project dies with it.",
+          "links": [
+            {
+              "title": "Battle of Bouvines",
+              "type": "event",
+              "slug": "battle-of-bouvines"
+            }
+          ]
         },
         {
           "date": "15 June 1215",
@@ -38737,7 +39831,14 @@
         {
           "date": "August 1453",
           "title": "Mental collapse",
-          "description": "Falls into a seventeen-month stupor on news of Castillon; York becomes Protector."
+          "description": "Falls into a seventeen-month stupor on news of Castillon; York becomes Protector.",
+          "links": [
+            {
+              "title": "Battle of Castillon",
+              "type": "event",
+              "slug": "battle-of-castillon"
+            }
+          ]
         },
         {
           "date": "March 1461",
@@ -39119,7 +40220,14 @@
         {
           "date": "2 July 1214",
           "title": "La Roche-aux-Moines",
-          "description": "Routs King John's army in Anjou while his father wins Bouvines in the north."
+          "description": "Routs King John's army in Anjou while his father wins Bouvines in the north.",
+          "links": [
+            {
+              "title": "Battle of Bouvines",
+              "type": "event",
+              "slug": "battle-of-bouvines"
+            }
+          ]
         },
         {
           "date": "1216–1217",
@@ -40112,7 +41220,14 @@
         {
           "date": "25 September 1066",
           "title": "Stamford Bridge",
-          "description": "His father is killed; Magnus's regency becomes the kingdom's continuity."
+          "description": "His father is killed; Magnus's regency becomes the kingdom's continuity.",
+          "links": [
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
         },
         {
           "date": "1067",
@@ -40286,7 +41401,14 @@
         {
           "date": "25 September 1066",
           "title": "Survives Stamford Bridge",
-          "description": "At the ships with the reserve; granted quarter to take the survivors home."
+          "description": "At the ships with the reserve; granted quarter to take the survivors home.",
+          "links": [
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
         },
         {
           "date": "1067–1069",
@@ -40343,6 +41465,11 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "The catastrophe he survived at sixteen"
+          },
+          {
+            "title": "Battle of Hastings",
+            "type": "event",
+            "slug": "battle-of-hastings"
           }
         ]
       },
@@ -41033,7 +42160,14 @@
         {
           "date": "1071–1072",
           "title": "The Doukas coup",
-          "description": "After Manzikert his faction repudiates the treaty and blinds Romanos; Michael rules alone in name."
+          "description": "After Manzikert his faction repudiates the treaty and blinds Romanos; Michael rules alone in name.",
+          "links": [
+            {
+              "title": "Battle of Manzikert",
+              "type": "event",
+              "slug": "battle-of-manzikert"
+            }
+          ]
         },
         {
           "date": "1074–1076",
@@ -42163,7 +43297,14 @@
         {
           "date": "15 June 1389",
           "title": "Proclaimed at Kosovo",
-          "description": "Takes the throne on the battlefield; his brother Yakub is strangled."
+          "description": "Takes the throne on the battlefield; his brother Yakub is strangled.",
+          "links": [
+            {
+              "title": "Battle of Kosovo",
+              "type": "event",
+              "slug": "battle-of-kosovo"
+            }
+          ]
         },
         {
           "date": "1390–1392",
@@ -44681,7 +45822,14 @@
         {
           "date": "late 1314",
           "title": "Dies in Picardy",
-          "description": "Dies at Hélicourt in the year of Bannockburn, the claim passing nominally to his son."
+          "description": "Dies at Hélicourt in the year of Bannockburn, the claim passing nominally to his son.",
+          "links": [
+            {
+              "title": "Battle of Bannockburn",
+              "type": "event",
+              "slug": "battle-of-bannockburn"
+            }
+          ]
         }
       ],
       "relatedEntries": {
@@ -47246,6 +48394,11 @@
               "title": "Kingdom of Castile",
               "type": "location",
               "slug": "kingdom-of-castile"
+            },
+            {
+              "title": "Battle of Aljubarrota",
+              "type": "event",
+              "slug": "battle-of-aljubarrota"
             }
           ]
         },
@@ -47322,7 +48475,14 @@
             "label": "His son and successor"
           }
         ],
-        "events": []
+        "events": [
+          {
+            "title": "Battle of Aljubarrota",
+            "type": "event",
+            "slug": "battle-of-aljubarrota",
+            "label": "Commander"
+          }
+        ]
       },
       "sources": [
         {
