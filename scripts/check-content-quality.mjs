@@ -470,7 +470,30 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['isabella-i-of-jerusalem', 'successor', 'maria-of-montferrat'],
   ['maria-of-montferrat', 'predecessor', 'amalric-ii-of-lusignan'],
   ['maria-of-montferrat', 'successor', 'john-of-brienne'],
-  ['john-of-brienne', 'predecessor', 'maria-of-montferrat']
+  ['john-of-brienne', 'predecessor', 'maria-of-montferrat'],
+  // Capetian–Valois main line of France (continuous Hugh Capet -> Charles VII).
+  ['hugh-capet', 'successor', 'robert-ii-of-france'],
+  ['robert-ii-of-france', 'predecessor', 'hugh-capet'],
+  ['robert-ii-of-france', 'successor', 'henry-i-of-france'],
+  ['henry-i-of-france', 'predecessor', 'robert-ii-of-france'],
+  ['henry-i-of-france', 'successor', 'philip-i-of-france'],
+  ['philip-i-of-france', 'predecessor', 'henry-i-of-france'],
+  ['philip-i-of-france', 'successor', 'louis-vi-of-france'],
+  ['louis-vi-of-france', 'predecessor', 'philip-i-of-france'],
+  ['philip-iii-of-france', 'successor', 'philip-iv-of-france'],
+  ['philip-iv-of-france', 'predecessor', 'philip-iii-of-france'],
+  ['philip-iv-of-france', 'successor', 'louis-x-of-france'],
+  ['louis-x-of-france', 'predecessor', 'philip-iv-of-france'],
+  ['louis-x-of-france', 'successor', 'philip-v-of-france'],
+  ['philip-v-of-france', 'predecessor', 'louis-x-of-france'],
+  ['philip-v-of-france', 'successor', 'charles-iv-of-france'],
+  ['charles-iv-of-france', 'predecessor', 'philip-v-of-france'],
+  ['charles-v-of-france', 'successor', 'charles-vi-of-france'],
+  ['charles-vi-of-france', 'predecessor', 'charles-v-of-france'],
+  ['charles-vi-of-france', 'successor', 'charles-vii-of-france'],
+  ['charles-vii-of-france', 'predecessor', 'charles-vi-of-france'],
+  // Chain stops cleanly at the 1453 boundary: Louis XI (r. 1461) is outside scope.
+  ['charles-vii-of-france', 'successor', 'status:outside-scope']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
