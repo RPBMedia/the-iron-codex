@@ -457,7 +457,20 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['henry-iii-of-castile', 'successor', 'john-ii-of-castile'],
   ['john-ii-of-castile', 'predecessor', 'henry-iii-of-castile'],
   // The chain stops cleanly at the 1453 boundary: Henry IV (r. 1454) is outside scope.
-  ['john-ii-of-castile', 'successor', 'status:outside-scope']
+  ['john-ii-of-castile', 'successor', 'status:outside-scope'],
+  // Kingdom of Jerusalem succession web (fully closed — every end resolves).
+  ['baldwin-iv-of-jerusalem', 'successor', 'baldwin-v-of-jerusalem'],
+  ['baldwin-v-of-jerusalem', 'predecessor', 'baldwin-iv-of-jerusalem'],
+  ['baldwin-v-of-jerusalem', 'successor', 'sibylla-of-jerusalem'],
+  ['guy-of-lusignan', 'predecessor', 'baldwin-v-of-jerusalem'],
+  ['sibylla-of-jerusalem', 'predecessor', 'baldwin-v-of-jerusalem'],
+  ['henry-ii-of-champagne', 'successor', 'amalric-ii-of-lusignan'],
+  ['amalric-ii-of-lusignan', 'predecessor', 'henry-ii-of-champagne'],
+  ['amalric-ii-of-lusignan', 'successor', 'maria-of-montferrat'],
+  ['isabella-i-of-jerusalem', 'successor', 'maria-of-montferrat'],
+  ['maria-of-montferrat', 'predecessor', 'amalric-ii-of-lusignan'],
+  ['maria-of-montferrat', 'successor', 'john-of-brienne'],
+  ['john-of-brienne', 'predecessor', 'maria-of-montferrat']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
