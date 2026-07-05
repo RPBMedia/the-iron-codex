@@ -570,7 +570,16 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['john-ii-komnenos', 'successor', 'manuel-i-komnenos'],
   ['manuel-i-komnenos', 'predecessor', 'john-ii-komnenos'],
   ['john-viii-palaiologos', 'predecessor', 'manuel-ii-palaiologos'],
-  ['manuel-ii-palaiologos', 'successor', 'john-viii-palaiologos']
+  ['manuel-ii-palaiologos', 'successor', 'john-viii-palaiologos'],
+  // 9th-century House of Wessex (Egbert -> Æthelred I; Beorhtric above is noted).
+  ['egbert-of-wessex', 'successor', 'aethelwulf-of-wessex'],
+  ['aethelwulf-of-wessex', 'predecessor', 'egbert-of-wessex'],
+  ['aethelwulf-of-wessex', 'successor', 'aethelbald-of-wessex'],
+  ['aethelbald-of-wessex', 'predecessor', 'aethelwulf-of-wessex'],
+  ['aethelbald-of-wessex', 'successor', 'aethelberht-of-wessex'],
+  ['aethelberht-of-wessex', 'predecessor', 'aethelbald-of-wessex'],
+  ['aethelberht-of-wessex', 'successor', 'aethelred-i-of-wessex'],
+  ['aethelred-i-of-wessex', 'predecessor', 'aethelberht-of-wessex']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
