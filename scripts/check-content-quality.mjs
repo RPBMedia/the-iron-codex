@@ -587,7 +587,24 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['aethelbald-of-wessex', 'successor', 'aethelberht-of-wessex'],
   ['aethelberht-of-wessex', 'predecessor', 'aethelbald-of-wessex'],
   ['aethelberht-of-wessex', 'successor', 'aethelred-i-of-wessex'],
-  ['aethelred-i-of-wessex', 'predecessor', 'aethelberht-of-wessex']
+  ['aethelred-i-of-wessex', 'predecessor', 'aethelberht-of-wessex'],
+  // Swedish civil-war era: Stenkil tail and the Sverker-Erik alternation.
+  ['inge-the-elder', 'successor', 'philip-halstensson'],
+  ['philip-halstensson', 'predecessor', 'inge-the-elder'],
+  ['philip-halstensson', 'successor', 'inge-the-younger'],
+  ['inge-the-younger', 'predecessor', 'philip-halstensson'],
+  ['inge-the-younger', 'successor', 'sverker-i-of-sweden'],
+  ['sverker-i-of-sweden', 'predecessor', 'inge-the-younger'],
+  ['charles-vii-sverkersson', 'successor', 'knut-eriksson'],
+  ['knut-eriksson', 'predecessor', 'charles-vii-sverkersson'],
+  ['erik-knutsson', 'successor', 'john-i-sverkersson'],
+  ['john-i-sverkersson', 'predecessor', 'erik-knutsson'],
+  ['john-i-sverkersson', 'successor', 'eric-xi-eriksson'],
+  ['eric-xi-eriksson', 'predecessor', 'john-i-sverkersson'],
+  ['eric-xi-eriksson', 'successor', 'valdemar-of-sweden'],
+  ['valdemar-of-sweden', 'predecessor', 'eric-xi-eriksson'],
+  ['ulf-fase', 'successor', 'birger-jarl'],
+  ['birger-jarl', 'predecessor', 'ulf-fase']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
