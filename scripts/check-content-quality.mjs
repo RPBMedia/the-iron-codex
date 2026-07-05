@@ -493,7 +493,16 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['charles-vi-of-france', 'successor', 'charles-vii-of-france'],
   ['charles-vii-of-france', 'predecessor', 'charles-vi-of-france'],
   // Chain stops cleanly at the 1453 boundary: Louis XI (r. 1461) is outside scope.
-  ['charles-vii-of-france', 'successor', 'status:outside-scope']
+  ['charles-vii-of-france', 'successor', 'status:outside-scope'],
+  // Scandinavia — the two clean-close articles (both neighbours already exist).
+  ['eric-iv-of-denmark', 'successor', 'abel-of-denmark'],
+  ['abel-of-denmark', 'predecessor', 'eric-iv-of-denmark'],
+  ['abel-of-denmark', 'successor', 'christopher-i-of-denmark'],
+  ['christopher-i-of-denmark', 'predecessor', 'abel-of-denmark'],
+  ['harald-greycloak', 'successor', 'jarl-hakon-sigurdsson'],
+  ['jarl-hakon-sigurdsson', 'predecessor', 'harald-greycloak'],
+  ['jarl-hakon-sigurdsson', 'successor', 'olaf-tryggvason'],
+  ['olaf-tryggvason', 'predecessor', 'jarl-hakon-sigurdsson']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))

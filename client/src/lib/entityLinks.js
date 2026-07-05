@@ -6,6 +6,7 @@
 // ambiguousEntityAliases export below is preserved across regenerations.
 export const entityLinks = [
   { label: "Abd al-Rahman al-Ghafiqi", aliases: ["Abdul Rahman Al Ghafiqi"], type: "person", slug: "abd-al-rahman-al-ghafiqi" },
+  { label: "Abel of Denmark", aliases: ["Abel Valdemarsen","Abel of Schleswig"], type: "person", slug: "abel-of-denmark" },
   { label: "Adhemar of Le Puy", aliases: ["Adhemar de Monteil"], type: "person", slug: "adhemar-of-le-puy" },
   { label: "Æthelred I of Wessex", aliases: ["Aethelred I","Ethelred I"], type: "person", slug: "aethelred-i-of-wessex" },
   { label: "Afonso I of Portugal", aliases: ["Afonso Henriques","Afonso the Conqueror","Afonso o Conquistador"], type: "person", slug: "afonso-i-of-portugal" },
@@ -129,6 +130,7 @@ export const entityLinks = [
   { label: "Isabella I of Jerusalem", aliases: ["Isabelle of Jerusalem"], type: "person", slug: "isabella-i-of-jerusalem" },
   { label: "Jacques de Molay", aliases: ["James of Molay"], type: "person", slug: "jacques-de-molay" },
   { label: "Jadwiga of Poland", aliases: ["Hedwig of Anjou","Saint Jadwiga"], type: "person", slug: "jadwiga-of-poland" },
+  { label: "Jarl Håkon Sigurdsson", aliases: ["Haakon Sigurdsson","Håkon the Powerful","Hákon jarl","Earl Haakon of Lade"], type: "person", slug: "jarl-hakon-sigurdsson" },
   { label: "Jean de Joinville", aliases: ["John of Joinville"], type: "person", slug: "jean-de-joinville" },
   { label: "Joan of Arc", type: "person", slug: "joan-of-arc" },
   { label: "John Balliol", aliases: ["Toom Tabard","John de Balliol"], type: "person", slug: "john-balliol" },
