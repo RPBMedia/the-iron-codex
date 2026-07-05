@@ -502,7 +502,16 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['harald-greycloak', 'successor', 'jarl-hakon-sigurdsson'],
   ['jarl-hakon-sigurdsson', 'predecessor', 'harald-greycloak'],
   ['jarl-hakon-sigurdsson', 'successor', 'olaf-tryggvason'],
-  ['olaf-tryggvason', 'predecessor', 'jarl-hakon-sigurdsson']
+  ['olaf-tryggvason', 'predecessor', 'jarl-hakon-sigurdsson'],
+  // Norwegian civil-war era (Magnus V -> Sverre -> Håkon III -> Inge II -> Haakon IV).
+  ['magnus-v-erlingsson', 'successor', 'sverre-sigurdsson'],
+  ['sverre-sigurdsson', 'predecessor', 'magnus-v-erlingsson'],
+  ['sverre-sigurdsson', 'successor', 'hakon-iii-sverresson'],
+  ['hakon-iii-sverresson', 'predecessor', 'sverre-sigurdsson'],
+  ['hakon-iii-sverresson', 'successor', 'inge-ii-bardsson'],
+  ['inge-ii-bardsson', 'predecessor', 'hakon-iii-sverresson'],
+  ['inge-ii-bardsson', 'successor', 'haakon-iv-haakonsson'],
+  ['haakon-iv-haakonsson', 'predecessor', 'inge-ii-bardsson']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
