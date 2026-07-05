@@ -554,7 +554,15 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['henry-i-of-england', 'successor', 'stephen-of-england'],
   ['stephen-of-england', 'predecessor', 'henry-i-of-england'],
   ['stephen-of-england', 'successor', 'henry-ii-of-england'],
-  ['henry-ii-of-england', 'predecessor', 'stephen-of-england']
+  ['henry-ii-of-england', 'predecessor', 'stephen-of-england'],
+  // Early Ottoman sultans (Osman I founder -> Orhan; Bayezid I -> Mehmed I -> Murad II).
+  ['osman-i', 'predecessor', 'status:none'],
+  ['osman-i', 'successor', 'orhan'],
+  ['orhan', 'predecessor', 'osman-i'],
+  ['bayezid-i', 'successor', 'mehmed-i'],
+  ['mehmed-i', 'predecessor', 'bayezid-i'],
+  ['mehmed-i', 'successor', 'murad-ii'],
+  ['murad-ii', 'predecessor', 'mehmed-i']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
