@@ -571,6 +571,14 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['manuel-i-komnenos', 'predecessor', 'john-ii-komnenos'],
   ['john-viii-palaiologos', 'predecessor', 'manuel-ii-palaiologos'],
   ['manuel-ii-palaiologos', 'successor', 'john-viii-palaiologos'],
+  // Crusader states linked to their existing anchors (open-side neighbours are
+  // noted boundaries: Constance of Antioch, Pons of Tripoli, Yolanda of Flanders).
+  ['bohemond-i-of-antioch', 'successor', 'bohemond-ii-of-antioch'],
+  ['bohemond-ii-of-antioch', 'predecessor', 'bohemond-i-of-antioch'],
+  ['raymond-iii-of-tripoli', 'predecessor', 'raymond-ii-of-tripoli'],
+  ['raymond-ii-of-tripoli', 'successor', 'raymond-iii-of-tripoli'],
+  ['henry-of-flanders', 'successor', 'peter-of-courtenay'],
+  ['peter-of-courtenay', 'predecessor', 'henry-of-flanders'],
   // 9th-century House of Wessex (Egbert -> Æthelred I; Beorhtric above is noted).
   ['egbert-of-wessex', 'successor', 'aethelwulf-of-wessex'],
   ['aethelwulf-of-wessex', 'predecessor', 'egbert-of-wessex'],
