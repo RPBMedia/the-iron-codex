@@ -530,7 +530,31 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['eric-iii-of-denmark', 'successor', 'sweyn-iii-of-denmark'],
   ['sweyn-iii-of-denmark', 'predecessor', 'eric-iii-of-denmark'],
   ['sweyn-iii-of-denmark', 'successor', 'valdemar-i-of-denmark'],
-  ['valdemar-i-of-denmark', 'predecessor', 'sweyn-iii-of-denmark']
+  ['valdemar-i-of-denmark', 'predecessor', 'sweyn-iii-of-denmark'],
+  // English 10th-century House of Wessex (Edward the Elder -> Edmund Ironside).
+  ['edward-the-elder', 'successor', 'aethelstan'],
+  ['aethelstan', 'predecessor', 'edward-the-elder'],
+  ['aethelstan', 'successor', 'edmund-i-of-england'],
+  ['edmund-i-of-england', 'predecessor', 'aethelstan'],
+  ['edmund-i-of-england', 'successor', 'eadred-of-england'],
+  ['eadred-of-england', 'predecessor', 'edmund-i-of-england'],
+  ['eadred-of-england', 'successor', 'eadwig-of-england'],
+  ['eadwig-of-england', 'predecessor', 'eadred-of-england'],
+  ['eadwig-of-england', 'successor', 'edgar-the-peaceful'],
+  ['edgar-the-peaceful', 'predecessor', 'eadwig-of-england'],
+  ['edgar-the-peaceful', 'successor', 'edward-the-martyr'],
+  ['edward-the-martyr', 'predecessor', 'edgar-the-peaceful'],
+  ['edward-the-martyr', 'successor', 'aethelred-the-unready'],
+  ['aethelred-the-unready', 'predecessor', 'edward-the-martyr'],
+  ['aethelred-the-unready', 'successor', 'edmund-ironside'],
+  ['edmund-ironside', 'predecessor', 'aethelred-the-unready'],
+  // English Norman "Anarchy" (William II -> Henry II).
+  ['william-ii-of-england', 'successor', 'henry-i-of-england'],
+  ['henry-i-of-england', 'predecessor', 'william-ii-of-england'],
+  ['henry-i-of-england', 'successor', 'stephen-of-england'],
+  ['stephen-of-england', 'predecessor', 'henry-i-of-england'],
+  ['stephen-of-england', 'successor', 'henry-ii-of-england'],
+  ['henry-ii-of-england', 'predecessor', 'stephen-of-england']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
