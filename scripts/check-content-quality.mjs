@@ -562,7 +562,15 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['bayezid-i', 'successor', 'mehmed-i'],
   ['mehmed-i', 'predecessor', 'bayezid-i'],
   ['mehmed-i', 'successor', 'murad-ii'],
-  ['murad-ii', 'predecessor', 'mehmed-i']
+  ['murad-ii', 'predecessor', 'mehmed-i'],
+  // Byzantine emperors linked to their existing anchors (open-side neighbours are
+  // intentional noted boundaries: Michael VI, Alexios II, John V Palaiologos).
+  ['constantine-x-doukas', 'predecessor', 'isaac-i-komnenos'],
+  ['isaac-i-komnenos', 'successor', 'constantine-x-doukas'],
+  ['john-ii-komnenos', 'successor', 'manuel-i-komnenos'],
+  ['manuel-i-komnenos', 'predecessor', 'john-ii-komnenos'],
+  ['john-viii-palaiologos', 'predecessor', 'manuel-ii-palaiologos'],
+  ['manuel-ii-palaiologos', 'successor', 'john-viii-palaiologos']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
