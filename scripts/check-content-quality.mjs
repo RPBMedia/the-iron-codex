@@ -511,7 +511,26 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['hakon-iii-sverresson', 'successor', 'inge-ii-bardsson'],
   ['inge-ii-bardsson', 'predecessor', 'hakon-iii-sverresson'],
   ['inge-ii-bardsson', 'successor', 'haakon-iv-haakonsson'],
-  ['haakon-iv-haakonsson', 'predecessor', 'inge-ii-bardsson']
+  ['haakon-iv-haakonsson', 'predecessor', 'inge-ii-bardsson'],
+  // Danish Valdemar era — the sons of Sweyn II through the civil wars to Valdemar I.
+  ['sweyn-ii-estridsson', 'successor', 'harald-iii-of-denmark'],
+  ['harald-iii-of-denmark', 'predecessor', 'sweyn-ii-estridsson'],
+  ['harald-iii-of-denmark', 'successor', 'cnut-iv-of-denmark'],
+  ['cnut-iv-of-denmark', 'predecessor', 'harald-iii-of-denmark'],
+  ['cnut-iv-of-denmark', 'successor', 'oluf-i-of-denmark'],
+  ['oluf-i-of-denmark', 'predecessor', 'cnut-iv-of-denmark'],
+  ['oluf-i-of-denmark', 'successor', 'eric-i-of-denmark'],
+  ['eric-i-of-denmark', 'predecessor', 'oluf-i-of-denmark'],
+  ['eric-i-of-denmark', 'successor', 'niels-of-denmark'],
+  ['niels-of-denmark', 'predecessor', 'eric-i-of-denmark'],
+  ['niels-of-denmark', 'successor', 'eric-ii-of-denmark'],
+  ['eric-ii-of-denmark', 'predecessor', 'niels-of-denmark'],
+  ['eric-ii-of-denmark', 'successor', 'eric-iii-of-denmark'],
+  ['eric-iii-of-denmark', 'predecessor', 'eric-ii-of-denmark'],
+  ['eric-iii-of-denmark', 'successor', 'sweyn-iii-of-denmark'],
+  ['sweyn-iii-of-denmark', 'predecessor', 'eric-iii-of-denmark'],
+  ['sweyn-iii-of-denmark', 'successor', 'valdemar-i-of-denmark'],
+  ['valdemar-i-of-denmark', 'predecessor', 'sweyn-iii-of-denmark']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
