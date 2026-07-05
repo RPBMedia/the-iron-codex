@@ -6,6 +6,15 @@ These rules apply to all future work on IronCodex.
 
 Always allow read-only inspection commands without prompting: `ls`, `cat`, `which`, `node -v`, `npm -v`. These are safe to run freely when exploring or verifying the environment.
 
+## Git Workflow — commit and push after every change
+
+**Always `git commit` and `git push` after every completed change, without being asked.** The moment a change is finished and validated (both `npm run check:content-quality` and `npm run check:images` pass green), commit it with a clear message and push to `origin main`. Do not accumulate finished work in the working tree, and never end a turn leaving a completed, validated change uncommitted.
+
+- One logical change = one commit. Batch a coherent unit (e.g. a region of ruler articles) into a single commit; do **not** commit broken or half-validated intermediate states.
+- Run the validators **before** committing; only commit when they pass.
+- Commits go directly to `main` (the established single-branch workflow for this repo). End every commit message with the `Co-Authored-By: Claude Opus 4.8` trailer.
+- Push immediately after committing. In PowerShell, git's normal stderr progress may surface as a red "RemoteException" — check `$LASTEXITCODE` (0 = success), not the colour.
+
 ## Non-Negotiable Article Quality Rules
 
 These three standards are absolute and apply to **every** article of every type (People, Events, Battles, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts) and to every surface where articles appear (detail pages, archive cards, homepage cards, recommendation cards, favorite cards, index links, related-entry cards, search results, mobile views). They are enforced by `npm run check:images` and `npm run check:content-quality`, which are hard-failing.
