@@ -475,8 +475,19 @@ function RulerSuccession({ article }) {
   )
 }
 
+const SUCCESSION_STATUS_LABELS = {
+  'outside-scope': 'Outside the Codex era',
+  unknown: 'Unknown',
+  disputed: 'Disputed succession',
+  fragmented: 'Fragmented succession',
+  'office-ended': 'Office ended',
+  none: null,
+}
+
 function SuccessionCard({ label, entry }) {
   if (!entry) return null
+
+  const statusLabel = entry.status ? SUCCESSION_STATUS_LABELS[entry.status] : null
 
   return (
     <div className="succession-card">
@@ -485,8 +496,9 @@ function SuccessionCard({ label, entry }) {
         {entry.personSlug ? (
           <Link className="succession-link" to={`/people/${entry.personSlug}`}>{entry.displayName}</Link>
         ) : (
-          <span className="succession-name">{entry.displayName}</span>
+          <span className="succession-name">{entry.displayName || (entry.status === 'none' ? '—' : 'Unknown')}</span>
         )}
+        {statusLabel && <span className="succession-status-tag">{statusLabel}</span>}
         {entry.note && <small className="succession-note">{entry.note}</small>}
       </dd>
     </div>

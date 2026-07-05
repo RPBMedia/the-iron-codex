@@ -1474,6 +1474,20 @@ button.back-link:focus-visible {
   font-weight: 700;
 }
 
+.succession-status-tag {
+  justify-self: start;
+  margin-top: 2px;
+  padding: 1px 8px;
+  border: 1px solid var(--gold-dim, #6b5a2e);
+  border-radius: 999px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--gold, #c9a84c);
+  background: rgba(201, 168, 76, 0.08);
+}
+
 .succession-note {
   font-size: 0.74rem;
   line-height: 1.35;

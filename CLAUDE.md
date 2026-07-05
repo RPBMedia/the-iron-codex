@@ -127,7 +127,7 @@ Every Person article about a **ruler** (kings, queens regnant, emperors, sultans
 }
 ```
 
-Entry variants: `{ personSlug, displayName, note? }` links to a real Person article; `{ displayName, note }` names a real historical person for whom no Codex article exists (never a broken link); `{ status: "none" | "office-ended" | "unknown", displayName, note }` for first holders, ended offices, or genuinely unrecorded succession — the note is mandatory and must be historically specific ("None as King of Portugal — first king of the Portuguese dynasty"), never lazy.
+Entry variants: `{ personSlug, displayName, note? }` links to a real Person article; `{ displayName, note }` names a real historical person for whom no Codex article exists (never a broken link); `{ status, displayName, note }` for non-linked states. Valid `status` values: `"none"` (first holder), `"office-ended"` (office lapsed), `"unknown"` (no securely recorded ruler), `"outside-scope"` (a real ruler outside the 476–1453 medieval window — keep `displayName` and explain in the note), `"disputed"`/`"fragmented"` (contested or partitioned succession — name the claimant(s) in `displayName`). The note is mandatory for every status and must be historically specific ("None as King of Portugal — first king of the Portuguese dynasty"), never lazy. The renderer shows a small status tag ("Outside the Codex era", "Unknown", "Disputed succession", …) beside the name.
 
 **Rules:**
 - Succession follows the ruler's **primary office** (the one in the article's title/facts); multi-crown rulers state which office via the top-level `note` (e.g. Cnut: "Succession shown for the English kingship").
@@ -155,20 +155,26 @@ Every named leader in every **Battle / Siege / Military-event** article should l
 
 ## Ruler Succession Link Rules
 
-Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succession Boxes"). Every **named** predecessor or successor must either link to a full Person article **or**, if no article exists yet, carry an explanatory **note** — a named person must never be bare text. Enforced by `npm run check:content-quality`: linked `personSlug`s must resolve (no missing/self/non-person links); a named entry with no link and no note hard-fails; `none`/`office-ended`/`unknown` states require a note; and specific required pairs are hard-checked (Afonso I → None as first king / Sancho I; Philip VI → Charles IV / John II; William the Conqueror → Harold Godwinson / William II; Saladin → al-Adil I).
+Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succession Boxes"). Every **named, in-scope** predecessor or successor must link to a full Person article; out-of-scope or non-person endpoints carry a `status` + explanatory **note**. A named person must never be bare text. Enforced by `npm run check:content-quality`: linked `personSlug`s must resolve (no missing/self/non-person links); a named entry with no link and no note hard-fails; every `status` value must be valid and carry a note; `outside-scope`/`disputed`/`fragmented` must also keep a `displayName`; and specific required pairs are hard-checked (Afonso I → None as first king / Sancho I; Philip VI → Charles IV / John II; William the Conqueror → Harold Godwinson / William II; Saladin → al-Adil I; and the Castilian Trastámara chain: Peter of Castile → Henry II → John I → Henry III → John II, with John II → Henry IV marked `outside-scope`).
+
+**IronCodex scope — 476 to 1453 (the European Middle Ages):**
+- A ruler whose **relevant reign begins after 1453**, or who belongs **before 476**, is **outside scope**. Do not create an article for them, and do not chain succession into ancient or early-modern history. Mark that endpoint `{ status: "outside-scope", displayName, note }`, naming the ruler and giving the reason ("Reigned from 1481, after IronCodex's 1453 medieval cutoff").
+- A named predecessor/successor **inside** 476–1453 is in-scope and **must** be created as a full Person article and linked — not left as bare text.
+
+**Iterative chaining rule:** creating a missing in-scope predecessor/successor produces a **new ruler page, which must itself be audited** for its own predecessor and successor. Continue the chain outward until each end reaches one of: an already-linked ruler, a true first office-holder (`status: "none"`), an unknown/disputed succession (`status`), or a ruler outside the 476–1453 boundary (`status: "outside-scope"`). The Castilian worked example runs Peter of Castile → Henry II → John I → Henry III → John II and stops at Henry IV (r. 1454, outside scope).
 
 **Rules:**
-- Prefer a **linked** Person article for every named predecessor/successor; create the article at full quality when the person is part of the archive's needed set. The `{ displayName, note }` form (no link) is valid only for chain endpoints and out-of-scope people, and **always** carries a note identifying them.
-- Succession follows the **office/title** shown, even across dynasties (William the Conqueror ← Harold Godwinson; Philip VI ← Charles IV). Only true first holders get `status: "none"` with a note.
-- If there is no successor, say why (office ended, dynasty ended, succession unknown) via a `status` + note.
+- Prefer a **linked** Person article for every named predecessor/successor; create the article at full quality when the person is in scope. The `{ displayName, note }` form (no link) is a **transitional backlog state** for an in-scope person not yet given an article — acceptable to keep the build green, but the goal is always to link it.
+- Succession follows the **office/title** shown, even across dynasties (William the Conqueror ← Harold Godwinson; Philip VI ← Charles IV; Henry II of Castile ← Peter of Castile though he founded the Trastámara line). Only true first holders get `status: "none"` with a note.
+- If there is no successor, say why (office ended, dynasty ended, succession unknown, outside the medieval window) via a `status` + note.
 - **Do not invent clean succession where history was messy.** For disputed, shared, or fragmented succession, name it and link the primary/identifiable heir with a note (e.g. **Saladin** → al-Adil I, with a note that his sons first divided the Ayyubid lands before al-Adil reunited them). If a ruler held several offices, state which office the boxes refer to via `succession.office`/`note`.
-- A ruler article is **not complete** until predecessor and successor are accurate, linked where an article exists, and noted where not.
+- A ruler article is **not complete** until predecessor and successor are accurate, in-scope names are linked to real Person articles, and out-of-scope/non-person endpoints carry a status + note.
 
 ### New Battle article checklist (leaders)
 List every faction leader; verify each named leader has a Person article (create full-quality ones where missing and in scope); link leaders in `participants[].leaders`; link them in the body on first mention; add principal leaders to Related entries; run `node scripts/gen-entity-links.mjs` and `npm run check:content-quality`.
 
 ### New ruler Person article checklist (succession)
-Identify the primary ruling office; add predecessor and successor entries; **link** every named predecessor/successor to a Person article (creating full-quality ones where in scope) or add a `{ displayName, note }` endpoint with an explanatory note; handle none/unknown/disputed/fragmented succession explicitly; run `npm run check:content-quality`.
+Identify the primary ruling office; add predecessor and successor entries; for each named predecessor/successor, decide **scope** (476–1453): if **in scope**, create a full-quality Person article and **link** it — then audit *that* new page's own predecessor/successor (iterative chaining) until every end reaches a linked ruler, a first holder, an unknown/disputed state, or the 476–1453 boundary; if **out of scope**, mark `{ status: "outside-scope", displayName, note }` explaining why. Handle none/unknown/disputed/fragmented explicitly with a status + note. Regenerate links (`node scripts/gen-entity-links.mjs`) and run `npm run check:content-quality`.
 
 ## People-to-Battle Linking Rules
 

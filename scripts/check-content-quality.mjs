@@ -362,6 +362,13 @@ function validateBattleStrength(entry, label) {
 // See CLAUDE.md "Ruler Succession Boxes".
 const characterIds = new Set((data.characters ?? []).map(c => c.id))
 
+// Valid non-person succession states. "none" = first holder of the office;
+// "office-ended" = the office lapsed; "unknown" = no securely recorded ruler;
+// "outside-scope" = a real ruler outside IronCodex's 476–1453 medieval window;
+// "disputed"/"fragmented" = contested or partitioned succession. See CLAUDE.md
+// "Ruler Succession Link Rules".
+const SUCCESSION_STATUSES = new Set(['none', 'office-ended', 'unknown', 'outside-scope', 'disputed', 'fragmented'])
+
 function validateRulerSuccession(entry, label) {
   if (!entry.isRuler) {
     if (entry.succession) {
@@ -393,8 +400,17 @@ function validateRulerSuccession(entry, label) {
       if (!characterIds.has(ref.personSlug)) {
         findings.push({ collection: 'characters', article: label, path: `succession.${side}.personSlug`, pattern: `${side} links to a missing Person article`, snippet: ref.personSlug })
       }
-    } else if (ref.status === 'none' || ref.status === 'office-ended' || ref.status === 'unknown') {
-      if (!ref.note) findings.push({ collection: 'characters', article: label, path: `succession.${side}.note`, pattern: `${side} with status "${ref.status}" requires an explanatory note`, snippet: '' })
+    } else if (ref.status) {
+      if (!SUCCESSION_STATUSES.has(ref.status)) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}.status`, pattern: `${side} has unknown status "${ref.status}" (use ${[...SUCCESSION_STATUSES].join('/')})`, snippet: ref.status })
+      }
+      if (!ref.note || !ref.note.trim()) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}.note`, pattern: `${side} with status "${ref.status}" requires an explanatory note`, snippet: '' })
+      }
+      // Outside-scope / disputed / fragmented must still name the ruler(s) they refer to.
+      if ((ref.status === 'outside-scope' || ref.status === 'disputed' || ref.status === 'fragmented') && (!ref.displayName || !ref.displayName.trim())) {
+        findings.push({ collection: 'characters', article: label, path: `succession.${side}.displayName`, pattern: `${side} with status "${ref.status}" must name the ruler(s) it refers to`, snippet: '' })
+      }
     } else {
       // A named person with no article link (the {displayName, note} endpoint
       // pattern) is allowed, but MUST carry a note identifying the person, so no
@@ -430,7 +446,18 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['philip-vi-of-france', 'predecessor', 'charles-iv-of-france'],
   ['philip-vi-of-france', 'successor', 'john-ii-of-france'],
   ['william-the-conqueror', 'predecessor', 'harold-godwinson'],
-  ['saladin', 'successor', 'al-adil-i']
+  ['saladin', 'successor', 'al-adil-i'],
+  // Castilian Trastámara chain around John I of Castile (the audit's worked example).
+  ['john-i-of-castile', 'predecessor', 'henry-ii-of-castile'],
+  ['john-i-of-castile', 'successor', 'henry-iii-of-castile'],
+  ['peter-of-castile', 'successor', 'henry-ii-of-castile'],
+  ['henry-ii-of-castile', 'predecessor', 'peter-of-castile'],
+  ['henry-ii-of-castile', 'successor', 'john-i-of-castile'],
+  ['henry-iii-of-castile', 'predecessor', 'john-i-of-castile'],
+  ['henry-iii-of-castile', 'successor', 'john-ii-of-castile'],
+  ['john-ii-of-castile', 'predecessor', 'henry-iii-of-castile'],
+  // The chain stops cleanly at the 1453 boundary: Henry IV (r. 1454) is outside scope.
+  ['john-ii-of-castile', 'successor', 'status:outside-scope']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
