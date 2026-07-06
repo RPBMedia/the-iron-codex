@@ -604,7 +604,16 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['eric-xi-eriksson', 'successor', 'valdemar-of-sweden'],
   ['valdemar-of-sweden', 'predecessor', 'eric-xi-eriksson'],
   ['ulf-fase', 'successor', 'birger-jarl'],
-  ['birger-jarl', 'predecessor', 'ulf-fase']
+  ['birger-jarl', 'predecessor', 'ulf-fase'],
+  // Ayyubid & Mamluk (linked to anchors; open-side neighbours are noted boundaries).
+  ['nur-ad-din', 'successor', 'as-salih-ismail'],
+  ['as-salih-ismail', 'predecessor', 'nur-ad-din'],
+  ['al-kamil', 'successor', 'al-adil-ii'],
+  ['al-adil-ii', 'predecessor', 'al-kamil'],
+  ['qutuz', 'predecessor', 'al-mansur-ali'],
+  ['al-mansur-ali', 'successor', 'qutuz'],
+  ['baybars', 'successor', 'baraka-khan'],
+  ['baraka-khan', 'predecessor', 'baybars']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
