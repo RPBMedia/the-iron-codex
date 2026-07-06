@@ -624,7 +624,24 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['alfonso-viii-of-castile', 'successor', 'henry-i-of-castile'],
   ['henry-i-of-castile', 'predecessor', 'alfonso-viii-of-castile'],
   ['peter-of-castile', 'predecessor', 'alfonso-xi-of-castile'],
-  ['alfonso-xi-of-castile', 'successor', 'peter-of-castile']
+  ['alfonso-xi-of-castile', 'successor', 'peter-of-castile'],
+  // Hungarian & East European (linked to anchors; open-side neighbours noted).
+  ['andrew-ii-of-hungary', 'predecessor', 'emeric-of-hungary'],
+  ['emeric-of-hungary', 'successor', 'andrew-ii-of-hungary'],
+  ['andrew-ii-of-hungary', 'successor', 'bela-iv-of-hungary'],
+  ['bela-iv-of-hungary', 'predecessor', 'andrew-ii-of-hungary'],
+  ['wladyslaw-ii-jagiello', 'successor', 'wladyslaw-iii-of-poland'],
+  ['wladyslaw-iii-of-poland', 'predecessor', 'wladyslaw-ii-jagiello'],
+  ['vytautas', 'predecessor', 'skirgaila'],
+  ['skirgaila', 'successor', 'vytautas'],
+  ['vytautas', 'successor', 'svitrigaila'],
+  ['svitrigaila', 'predecessor', 'vytautas'],
+  ['jadwiga-of-poland', 'predecessor', 'louis-i-of-hungary'],
+  ['louis-i-of-hungary', 'successor', 'jadwiga-of-poland'],
+  ['prince-lazar', 'successor', 'stefan-lazarevic'],
+  ['stefan-lazarevic', 'predecessor', 'prince-lazar'],
+  ['sviatoslav-i-of-kiev', 'successor', 'yaropolk-i-of-kiev'],
+  ['yaropolk-i-of-kiev', 'predecessor', 'sviatoslav-i-of-kiev']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
