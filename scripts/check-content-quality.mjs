@@ -613,7 +613,18 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['qutuz', 'predecessor', 'al-mansur-ali'],
   ['al-mansur-ali', 'successor', 'qutuz'],
   ['baybars', 'successor', 'baraka-khan'],
-  ['baraka-khan', 'predecessor', 'baybars']
+  ['baraka-khan', 'predecessor', 'baybars'],
+  // Scottish & Iberian singles (linked to anchors).
+  ['david-ii-of-scotland', 'successor', 'robert-ii-of-scotland'],
+  ['robert-ii-of-scotland', 'predecessor', 'david-ii-of-scotland'],
+  ['john-balliol', 'predecessor', 'margaret-maid-of-norway'],
+  ['margaret-maid-of-norway', 'successor', 'john-balliol'],
+  ['alfonso-viii-of-castile', 'predecessor', 'sancho-iii-of-castile'],
+  ['sancho-iii-of-castile', 'successor', 'alfonso-viii-of-castile'],
+  ['alfonso-viii-of-castile', 'successor', 'henry-i-of-castile'],
+  ['henry-i-of-castile', 'predecessor', 'alfonso-viii-of-castile'],
+  ['peter-of-castile', 'predecessor', 'alfonso-xi-of-castile'],
+  ['alfonso-xi-of-castile', 'successor', 'peter-of-castile']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
