@@ -641,7 +641,16 @@ const REQUIRED_SUCCESSION_LINKS = [
   ['prince-lazar', 'successor', 'stefan-lazarevic'],
   ['stefan-lazarevic', 'predecessor', 'prince-lazar'],
   ['sviatoslav-i-of-kiev', 'successor', 'yaropolk-i-of-kiev'],
-  ['yaropolk-i-of-kiev', 'predecessor', 'sviatoslav-i-of-kiev']
+  ['yaropolk-i-of-kiev', 'predecessor', 'sviatoslav-i-of-kiev'],
+  // Carolingian & early Frankish (linked to anchors; open-side neighbours noted).
+  ['charles-martel', 'predecessor', 'pepin-of-herstal'],
+  ['pepin-of-herstal', 'successor', 'charles-martel'],
+  ['pepin-the-short', 'predecessor', 'childeric-iii'],
+  ['childeric-iii', 'successor', 'pepin-the-short'],
+  ['louis-the-pious', 'successor', 'lothair-i'],
+  ['lothair-i', 'predecessor', 'louis-the-pious'],
+  ['hugh-capet', 'predecessor', 'louis-v-of-france'],
+  ['louis-v-of-france', 'successor', 'hugh-capet']
 ]
 function validateRequiredLinks() {
   const evById = new Map(data.events.map(e => [e.id, e]))
