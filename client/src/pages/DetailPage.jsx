@@ -444,6 +444,8 @@ function LocationContent({ article }) {
           ))}
         </ul>
       </section>
+      {/* Kingdom/polity articles carry a medieval timeline like people do. */}
+      <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
