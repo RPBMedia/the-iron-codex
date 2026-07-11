@@ -3,6 +3,69 @@ import fs from 'node:fs'
 const dataPath = new URL('../server/data/history.json', import.meta.url)
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 
+// ── Battle-reference linking (see CLAUDE.md "Battle Reference Linking Rules") ──
+// Parse entityLinks so we can tell which "Battle of X" / "Siege of X" phrases the
+// client auto-linker will resolve. A phrase that names an EXISTING battle article
+// but fails to resolve is a real linking regression (hard fail). A phrase that
+// names a battle with NO article must be on the triaged backlog allowlist,
+// otherwise it fails loudly so someone decides create-vs-document.
+const entityLinksSrc = fs.readFileSync(new URL('../client/src/lib/entityLinks.js', import.meta.url), 'utf8')
+const linkableTerms = new Set()
+const linkEntryRe = /\{\s*label:\s*"((?:[^"\\]|\\.)*)"\s*(?:,\s*aliases:\s*\[([^\]]*)\])?\s*,\s*type:\s*"([^"]*)"\s*,\s*slug:\s*"([^"]*)"\s*\}/g
+let _le
+while ((_le = linkEntryRe.exec(entityLinksSrc))) {
+  const label = _le[1].replace(/\\"/g, '"')
+  const aliases = (_le[2] || '').split(',').map(s => s.trim().replace(/^"|"$/g, '').replace(/\\"/g, '"')).filter(Boolean)
+  for (const t of [label, ...aliases]) linkableTerms.add(t.toLowerCase())
+}
+const battleArticleNames = new Set(
+  (data.events ?? []).filter(e => ['Battle', 'Siege'].includes(e.eventType)).map(e => (e.name || '').toLowerCase())
+)
+// Battles referenced in prose that do not yet have their own article. Each is a
+// tracked decision (create a full article later, or leave documented). Adding a
+// NEW unlinked battle reference not on this list fails the check.
+const BATTLE_BACKLOG = new Set([
+  'battle of aclea', 'battle of adrianople', 'battle of ain jalut', 'battle of alfarrobeira',
+  'battle of ankara', 'battle of ashdown', 'battle of atoleiros', 'battle of ellandun',
+  'battle of ellendun', 'battle of ethandun', 'battle of falköping', 'battle of fimreite',
+  'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
+  'battle of hova', 'battle of la higueruela', 'battle of largs', 'battle of lincoln',
+  'battle of montiel', 'battle of nájera', 'battle of río salado', 'battle of salado',
+  'battle of shrewsbury', 'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
+  'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
+  'battle of visby', 'siege of acre',
+  // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
+  'battle of ars', 'battle of largs.', 'battle of visby finds', 'battle of visby find',
+])
+// Name particles that may sit BETWEEN capitalised name-words (not swallow the
+// following common word): "Las Navas de Tolosa", "Río Salado". A capitalised
+// word must follow the particle, so trailing "the/of" are not captured.
+const battlePhraseRe = /\b(?:Battle|Siege) of [A-ZÀ-Þ][\wÀ-ÿ'’-]*(?:[ -](?:(?:of|de|del|la|le|aux|sur|da|dos) )?[A-ZÀ-Þ][\wÀ-ÿ'’-]*)*/g
+function battlePhraseResolves(phrase) {
+  const p = phrase.toLowerCase()
+  if (linkableTerms.has(p)) return true
+  for (const term of linkableTerms) {
+    if (term.length < 5) continue
+    const re = new RegExp(`(^|[^a-z0-9])${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[^a-z0-9])`, 'i')
+    if (re.test(phrase)) return true
+  }
+  return false
+}
+function validateBattleLinking(text, label, path, findings) {
+  let mm
+  battlePhraseRe.lastIndex = 0
+  while ((mm = battlePhraseRe.exec(text))) {
+    const phrase = mm[0].replace(/[.,;:]$/, '').trim()
+    if (battlePhraseResolves(phrase)) continue
+    const key = phrase.toLowerCase()
+    if (battleArticleNames.has(key)) {
+      findings.push({ collection: 'links', article: label, path, pattern: `battle reference "${phrase}" has an article but does not auto-link (linking regression)`, snippet: phrase })
+    } else if (!BATTLE_BACKLOG.has(key)) {
+      findings.push({ collection: 'links', article: label, path, pattern: `unlinked battle reference "${phrase}" — create a full Battle article or add to the documented backlog`, snippet: phrase })
+    }
+  }
+}
+
 // Hard failure: historicalReliability field must not exist
 const hardFailings = []
 for (const [collection, entries] of Object.entries(data)) {
@@ -101,6 +164,7 @@ function walk(value, path, context) {
         snippet: value.slice(0, 220)
       })
     }
+    validateBattleLinking(value, context.article, path, findings)
     return
   }
 
@@ -722,6 +786,49 @@ function validatePersonBattles(entry, label) {
   }
 }
 
+// Hard failure: kingdom/polity article standards. Every location whose
+// locationType marks it as a political entity must read as an anchor article:
+// enough substantive sections, a Major-rulers-style section (unless the polity
+// has no rulers to list, e.g. a league), and a detailed timeline.
+// See CLAUDE.md "Kingdom and Polity Article Standards".
+const POLITY_TYPES = new Set([
+  'Kingdom', 'Empire', 'Duchy', 'County', 'Caliphate', 'Sultanate', 'Principality',
+  'Polity', 'Polities', 'Grand duchy', 'League', 'Military order', 'Imperial realm', 'Region / duchy'
+])
+// Polities where a "Major rulers" section is structurally inapplicable
+// (collective/confederate entities with no ruler line of their own).
+const POLITY_NO_RULERS_OK = new Set(['lombard-league', 'north-sea-empire', 'crusader-states'])
+const MAJOR_POLITY_TYPES = new Set(['Kingdom', 'Empire', 'Caliphate'])
+const rulersSectionRe = /major (rulers|figures)|the states in brief/i
+
+function validatePolityStandards(entry, label) {
+  if (!POLITY_TYPES.has(entry.locationType)) return
+  const sections = entry.contentSections ?? []
+  const minSections = MAJOR_POLITY_TYPES.has(entry.locationType) ? 6 : 4
+  if (sections.length < minSections) {
+    findings.push({ collection: 'locations', article: label, path: 'contentSections', pattern: `polity article has ${sections.length} sections (minimum ${minSections})`, snippet: '' })
+  }
+  for (const s of sections) {
+    const text = (s.paragraphs ?? []).join(' ')
+    if (text.trim().length < 200) {
+      findings.push({ collection: 'locations', article: label, path: `contentSections "${s.title}"`, pattern: 'polity section too thin (<200 chars)', snippet: text.slice(0, 120) })
+    }
+  }
+  if (!POLITY_NO_RULERS_OK.has(entry.id) && !sections.some((s) => rulersSectionRe.test(s.title ?? ''))) {
+    findings.push({ collection: 'locations', article: label, path: 'contentSections', pattern: 'polity article missing a Major rulers section', snippet: '' })
+  }
+  const tl = entry.timeline ?? []
+  const minTimeline = MAJOR_POLITY_TYPES.has(entry.locationType) ? 8 : 5
+  if (tl.length < minTimeline) {
+    findings.push({ collection: 'locations', article: label, path: 'timeline', pattern: `polity timeline has ${tl.length} entries (minimum ${minTimeline})`, snippet: '' })
+  }
+  for (const item of tl) {
+    if (!item.description || !String(item.description).trim()) {
+      findings.push({ collection: 'locations', article: label, path: `timeline "${item.title}"`, pattern: 'polity timeline entry missing description', snippet: item.date ?? '' })
+    }
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -743,6 +850,10 @@ for (const [collection, entries] of Object.entries(data)) {
       validateBattleContinuity(entry, labelFor(entry))
       validateBattleStrength(entry, labelFor(entry))
       validateBattleLeaders(entry, labelFor(entry))
+    }
+
+    if (collection === 'locations') {
+      validatePolityStandards(entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))

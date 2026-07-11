@@ -107,6 +107,25 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
+## Kingdom and Polity Article Standards
+
+Kingdom/polity articles (locations typed Kingdom, Empire, Duchy, County, Caliphate, Sultanate, Principality, Polity, Grand duchy, League, Military order, Imperial realm) must be detailed **anchor articles**, not stubs. Enforced by `npm run check:content-quality` (`validatePolityStandards`): hard-fails on too few sections (6 for Kingdom/Empire/Caliphate, 4 for others), any section under 200 characters, a missing Major-rulers-style section (except collective polities allowlisted in `POLITY_NO_RULERS_OK`), and a timeline under 8 entries (5 for smaller polities) or with missing descriptions.
+
+Rules:
+
+- Every polity article must explain origins, political development, major rulers, wars/battles, culture/society, economy/trade where applicable, timeline, and legacy — with named rulers, dates, battles, laws, treaties, institutions, and cities throughout.
+- Use period sections (Background and origins; Early/High/Late Middle Ages) **only where historically applicable**: no fake period sections for polities that did not exist in that period; pre-kingdom history belongs under Background and origins.
+- The **Major rulers** section lists the most important rulers with dates and a concrete note each; every ruler name written in prose auto-links via `entityLinks` — write names exactly as the target article's label or alias. If a listed ruler has no Person article, either create a full one or reconsider the listing (current known gaps: Aragonese and Navarrese rulers).
+- Major battles, sieges, treaties, and wars must be named so the auto-linker resolves them; central missing events get full articles, never stubs.
+- Timelines are unique and specific ("1143 — Treaty of Zamora: Alfonso VII recognises..."), never placeholder ("appears in a major phase of medieval politics").
+- No filler: "the kingdom was shaped by warfare, religion, and politics", buzzword lists, and template prose fail the checker.
+- Every polity article needs a real, high-quality image with full caption metadata and at least 3 (major kingdoms 4–6) historically meaningful related entries.
+- Polity timelines render on the location page via the `Timeline` component in `LocationContent` (DetailPage.jsx).
+
+**Bad:** "The Kingdom of Portugal emerged from the County of Portugal and became a durable western Iberian monarchy."
+
+**Good:** "The Kingdom of Portugal emerged from the County of Portugal after Afonso Henriques defeated his mother Teresa's faction at São Mamede in 1128, asserted independence from León, and built legitimacy through frontier warfare and diplomacy. The Treaty of Zamora in 1143 strengthened his royal status, while papal recognition through Manifestis Probatum in 1179 gave the new kingdom a firmer place in Latin Christendom."
+
 ## Early Rus' / Varangian-Linked Figures
 
 These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, Vladimir I, or any other figure whose narrative depends heavily on the Primary Chronicle or other late medieval Rus' source traditions.
@@ -215,6 +234,24 @@ Before marking a new Person article complete:
 - link them in the **Timeline** (`links`);
 - ensure the **main body** names them in full so the auto-linker links the first mention;
 - run `node scripts/gen-entity-links.mjs` and `npm run check:content-quality`.
+
+## Battle Reference Linking Rules
+
+Every named battle mentioned anywhere in the Codex must link to its Battle article — body text, timelines, summaries, related-entry reasons, Character-and-Personality sections, kingdom/polity articles, people articles, and all other content. Linking is automatic: the client auto-linker (`renderLinkedText`/`findEntityMatches` in `DetailPage.jsx`, driven by `client/src/lib/entityLinks.js`) resolves any "Battle of X" / "Siege of X" phrase whose name matches a battle article's label or alias. After adding or renaming any article, run `node scripts/gen-entity-links.mjs` so the linker sees it.
+
+Enforced by `npm run check:content-quality` (`validateBattleLinking`): it scans all prose for battle phrases and **hard-fails** when a phrase names a battle that HAS an article but does not auto-link (a linking regression), or when it names a battle with NO article that is not on the tracked backlog (`BATTLE_BACKLOG`). Reproduce the full picture with `node scripts/audit-battle-links.mjs`.
+
+Rules:
+- No major battle name may remain plain text. If a battle is important enough to be mentioned and has no article, create a full Battle article; do not create stubs.
+- A Battle/Siege article must include: image with full metadata, date/year, location, conflict, factions and leaders (linked where the person/polity article exists), result/outcome, background, battle narrative, aftermath, significance, `battleContinuity`, at least 3 related articles, and sources. Army sizes only when responsibly known — use a `strength` object with a `confidence` of `confirmed`/`estimated`/`debated`/`chronicle-claim`/`unknown` and a note for the uncertain ones; never invent precise figures.
+- Disambiguate carefully: Battle of Tours / Poitiers (732) is not the Battle of Poitiers (1356); "Siege of Lisbon" (1147) is the military event, not the modern city; handle legendary material (Ourique, Hafrsfjord) as tradition, not fact. Never link a battle reference to the wrong article because the name is similar.
+- Timelines must link battle names too (they flow through the same auto-linker).
+- Battles referenced in prose but not yet given their own article are tracked in `BATTLE_BACKLOG` in the checker — a documented decision list, not a licence to leave major battles unwritten. Adding a NEW unlinked battle reference to something not on the backlog fails the check, forcing a create-or-document decision.
+
+**Bad:** "Afonso defeated his mother's forces at the Battle of São Mamede" where the battle name is plain text.
+**Good:** the same sentence where "Battle of São Mamede" auto-links to the full Battle article.
+**Bad:** linking Battle of Poitiers (732) to Battle of Poitiers (1356).
+**Good:** separate articles — Battle of Tours (732) and Battle of Poitiers (1356) — each linked to the right one.
 
 ## Battle Continuity Links
 

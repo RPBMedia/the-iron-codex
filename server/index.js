@@ -259,6 +259,13 @@ async function requireUser(req, res, next) {
 
 const eventSortDates = {
   'fall-of-western-rome': { year: 476, month: 9, day: 4 },
+  'battle-of-hafrsfjord': { year: 872, month: 1, day: 1 },
+  'battle-of-edington': { year: 878, month: 5, day: 12 },
+  'battle-of-brunanburh': { year: 937, month: 10, day: 1 },
+  'battle-of-mohi': { year: 1241, month: 4, day: 11 },
+  'battle-of-stirling-bridge': { year: 1297, month: 9, day: 11 },
+  'battle-of-nicopolis': { year: 1396, month: 9, day: 25 },
+  'battle-of-varna': { year: 1444, month: 11, day: 10 },
   'battle-of-tours': { year: 732, month: 10, day: 10 },
   'charlemagne-crowned': { year: 800, month: 12, day: 25 },
   'treaty-of-verdun': { year: 843, month: 8, day: 1 },
