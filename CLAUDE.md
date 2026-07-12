@@ -550,6 +550,26 @@ These apply to every archive/list page (People, Events, Locations, Artifacts, We
 
 (Note: there is no "Orders & Institutions" archive route in the current app; if one is added, it must follow these same rules.)
 
+## Major Figure Image Enrichment
+
+Major ruler/leader/person pages should usually have **more than one image**: a strong main image plus one or two `sectionImages` supporting specific article sections. This is an **editorial standard, not a mechanical rule** — it does not apply to every person in the Codex. It applies to major medieval rulers, conquerors, crusade leaders, Viking-age figures, kingdom founders, and major political actors (the curated list lives in `MAJOR_FIGURES` / `VERY_MAJOR_FIGURES` in `scripts/check-images.mjs`, which warns — without hard-failing — when a listed figure has fewer than 2 total images, or a very major figure fewer than 3). The bulk enrichment is applied idempotently by `scripts/add-major-figure-section-images.mjs`.
+
+Rules:
+- Additional images must support a **specific section** of the article (`sectionImages[].section` must match a `contentSections` title; the renderer inserts the figure after that section's first paragraph via `ArticleSection`/`SectionImage` in `DetailPage.jsx`, styled by `.section-figure`).
+- Images must never be decorative filler, "vaguely medieval" stock, placeholders, broken/unavailable files, or AI-generated fake historical portraits.
+- Every image needs accurate metadata: `src` (a renderable `Special:FilePath` URL or local asset), `caption`, `creator`, `date`, `source`, `sourceUrl` (the Commons file page), and an honest context `note` explaining what the image is and how reliable it is.
+- Later depictions, statues, tombs, coins, seals, maps, monuments, and associated places are acceptable when contemporary portraits do not exist — but the caption/note must say exactly what the image is ("19th-century history painting", "modern statue", "17th-century dynastic imagining"), never implying a later image is a portrait from life.
+- Verify every file against the Commons API (existence, dimensions, license) before shipping; do not overload articles — 1 main + 1–2 section images is the ceiling for now.
+- Main and section images must render cleanly on desktop and mobile; captions sit below the image and must never cut into it (see "Image Caption and Layout Rules").
+- Where an image relates to another article (a battle, siege, polity), write the full entity name in the nearby section prose so the auto-linker resolves it — no dead links.
+
+Examples:
+- **Harald Hardrada** — images connected to Norway (coinage), Byzantine/Varangian service, and Stamford Bridge where possible (his main image is already the Arbo Stamford Bridge painting, so section images complement it).
+- **Afonso I of Portugal** — Guimarães castle, São Mamede, Lisbon, or early Portuguese monarchy imagery (tomb at Santa Cruz, Coimbra).
+- **Cnut the Great** — North Sea Empire map, manuscript depiction, or coin/seal imagery.
+- **Charlemagne** — imperial/coronation/Aachen imagery.
+- **Joan of Arc** — Orléans, trial, Rouen, or later devotional imagery with careful captions stating what is 19th-century national memory.
+
 ## Image Caption and Layout Rules
 
 Captions, legends, source boxes, and metadata panels must **never** cover, crop, obscure, or cut into images — on any article type, in any image context (detail heroes, section figures, maps, object photos). Any article image visibly cut by its caption is a production bug.

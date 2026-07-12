@@ -87,6 +87,35 @@ for (const [collection, entries] of Object.entries(data)) {
   })
 }
 
+// Major Figure Image Enrichment (see CLAUDE.md): selected major figures should
+// have more than one image (main + section images). Warning only — this is an
+// editorial standard for listed major figures, not a hard rule for every person.
+const MAJOR_FIGURES = new Set([
+  'charlemagne', 'charles-martel', 'alfred-the-great', 'aethelstan', 'cnut-the-great',
+  'harald-fairhair', 'harald-hardrada', 'sweyn-forkbeard', 'harald-bluetooth',
+  'william-the-conqueror', 'harold-godwinson', 'henry-ii-of-england', 'henry-v-of-england',
+  'edward-i-of-england', 'edward-iii-of-england', 'richard-the-lionheart', 'saladin',
+  'joan-of-arc', 'afonso-i-of-portugal', 'john-i-of-portugal', 'robert-the-bruce',
+  'william-wallace', 'mehmed-ii', 'philip-ii-of-france', 'philip-iv-of-france',
+  'philip-vi-of-france', 'isabella-of-castile', 'eleanor-of-aquitaine', 'margaret-i',
+  'rurik', 'oleg-of-novgorod', 'igor-of-kiev', 'frederick-i-barbarossa',
+  'louis-ix-of-france', 'godfrey-of-bouillon', 'constantine-xi-palaiologos'
+])
+const VERY_MAJOR_FIGURES = new Set([
+  'charlemagne', 'william-the-conqueror', 'alfred-the-great', 'saladin',
+  'richard-the-lionheart', 'joan-of-arc', 'mehmed-ii', 'harald-hardrada',
+  'cnut-the-great', 'afonso-i-of-portugal', 'robert-the-bruce'
+])
+for (const person of data.characters ?? []) {
+  if (!MAJOR_FIGURES.has(person.id)) continue
+  const total = (stringValue(person.image) ? 1 : 0) + (person.sectionImages?.length ?? 0)
+  if (total < 2) {
+    warnings.push(`characters/${person.id}: major figure has only ${total} image(s) — should have a main image plus at least one section image`)
+  } else if (VERY_MAJOR_FIGURES.has(person.id) && total < 3) {
+    warnings.push(`characters/${person.id}: very major figure has ${total} images — should usually have two section images where good sources exist`)
+  }
+}
+
 if (checkRemote) {
   await validateRemoteImages()
 }
