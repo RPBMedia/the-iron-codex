@@ -73,9 +73,11 @@ const enrichment = {
     img('As king of Norway and claimant in England', 'Harold-III-Coin.png',
       'A silver penny of Harald Hardrada, struck in Norway with the triquetra symbol — coinage was part of his drive to build a stronger Norwegian kingship.',
       { creator: 'Drawing by C. I. Schive', date: '1046–1066 (coin)', note: 'A 19th-century engraved drawing of a genuine coin type of Harald’s reign; his minting drew on what he had learned of Byzantine state finance.' }),
-    img('Legacy', 'Harald Hardrada window in Kirkwall Cathedral geograph 2068881.jpg',
-      'Harald Hardrada in a modern stained-glass window in St Magnus Cathedral, Kirkwall, Orkney — where his fleet gathered before the 1066 invasion of England.',
-      { creator: 'Photograph by Colin Smith', date: 'Modern window', note: 'A modern commemorative depiction in the Norse earldom of Orkney, part of Harald’s enduring legend as “the last great Viking” — not a likeness from life.' })
+    // The Kirkwall window is the article's MAIN image (owner's choice); the Arbo
+    // Stamford Bridge painting sits in the Death section instead.
+    img('Death', 'Arbo - Battle of Stamford Bridge (1870).jpg',
+      'Peter Nicolai Arbo, Battle of Stamford Bridge, showing Harald Hardrada in later historical imagination.',
+      { creator: 'Peter Nicolai Arbo', date: '1870', note: 'Later nineteenth-century historical painting, not a contemporary portrait; selected because it directly represents Harald’s defining final battle.' })
   ],
   'william-the-conqueror': [
     img('As duke of Normandy and king of England', 'Bayeux Tapestry scene57 Harold death.jpg',
