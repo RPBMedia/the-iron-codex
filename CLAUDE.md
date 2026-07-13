@@ -164,22 +164,28 @@ Entry variants: `{ personSlug, displayName, note? }` links to a real Person arti
 - Linked predecessors/successors must resolve to full Person articles; if one is needed and missing, create it at full IronCodex quality (image, personality section, timeline ≥5, related entries ≥3, sources) — never a stub. Unlinked named entries are for people outside the archive's needed set (chain endpoints, obscure interlopers), always with a note.
 - For chronicle-tradition rulers (early Rus'), succession language follows the Early Rus' rules: "by the chronicle account", never presented as documentary fact.
 
-## Battle Leader Article Rules
+## Battle Leader and Commander Linking Rules
 
-Every named leader in every **Battle / Siege / Military-event** article should link to a full Person article. A named historical commander must never appear as bare, unexplained text. Enforced by `npm run check:content-quality`: a leader with a `slug`/`personId` must resolve to a real Person article (never a missing article, a non-Person, or a self-link), and specific required leader links (e.g. Battle of Aljubarrota → John I of Castile and Nuno Álvares Pereira) are hard-checked.
+Every named leader or commander in every **Battle / Siege / Military-event** article must link to a full Person article — on **every surface where the name appears**: faction cards, leader cards, infoboxes, body text, timelines, and related-entry references. A named historical commander must never appear as bare, unexplained text. Enforced by `npm run check:content-quality`: a leader with a `slug`/`personId` must resolve to a real Person article (never a missing article, a non-Person, or a self-link), specific required leader links are hard-checked (e.g. Battle of Aljubarrota → John I of Castile and Nuno Álvares Pereira; Battle of Edington → Guthrum; Patay and Castillon → John Talbot; Varna → John Hunyadi; Stirling Bridge → Andrew Moray; Mohi → Subutai), and the commander→battle reciprocity rule requires every linked battle leader to carry that battle in their own related entries.
 
-**Data shape** — link leaders as objects inside each `participants[].leaders` entry (and, for legacy fields, `leaders[].personId`):
+**Data shape** — link leaders as objects inside each `participants[].leaders` entry (and, for legacy fields, `leaders[].personId`). Update **both** shapes when a battle carries both:
 
 ```json
 "leaders": [{ "name": "John I of Castile", "title": "John I of Castile", "type": "person", "slug": "john-i-of-castile" }]
 ```
 
 **Rules:**
-- If a named leader has no Person article and is genuinely part of the archive's needed set (an on-page battle commander), **create a full-quality Person article** — image, detailed sections, Character and Personality, timeline (≥5), related entries (≥3), succession box if a ruler, sources — never a stub or placeholder.
+- If a named leader has no Person article and is genuinely part of the archive's needed set (an on-page battle commander), **create a full-quality Person article** — image, detailed sections, Character and Personality, timeline (≥5), related entries (≥3, including the battle itself — the reciprocity rule), succession box if a ruler, sources — never a stub or placeholder. Central missing leaders get full articles; there is no acceptable placeholder tier.
+- **No dead plain text for major commanders.** A principal commander rendered as an unlinked name on a faction card or in the battle narrative is a defect, not a styling choice.
 - Major battle leaders should also appear in the battle's **Related entries**, and be linked on their **first meaningful mention** in the battle body (the auto-linker handles this once the article exists and is registered — run `node scripts/gen-entity-links.mjs`).
-- **Disambiguate same-name rulers** carefully (John I of Portugal ≠ John I of Castile; Philip IV ≠ Philip VI; the several Edwards, Charleses, Magnuses, Olafs, Murads, Bayezids). A wrong link is worse than none.
-- A leader may be left **unlinked** only when genuinely anonymous, collective, or a historically unstable identity — and, for out-of-scope named commanders not yet given an article, the `{ name }`-only form is tolerated as a chain endpoint (like the succession `{ displayName }` convention), never a broken link.
+- **Unknown commanders are marked honestly as unknown**, never invented and never left looking like a missing link. Follow the established convention: "Almoravid commanders (unnamed in reliable sources)" at Ourique, "The qadi of Lisbon (name not recorded)" at the Siege of Lisbon.
+- **One canonical slug per person, with variant names as aliases** — never a second article for a name variant ("Anlaf" is an alias of Olaf Guthfrithson, "Hunyadi János" of John Hunyadi). Write leader names consistently with the canonical article's label or a registered alias so the auto-linker resolves them.
+- **Disambiguate same-name rulers** carefully (John I of Portugal ≠ John I of Castile; Philip IV ≠ Philip VI; the several Edwards, Charleses, Magnuses, Olafs, Murads, Bayezids; Æthelstan the English king ≠ Æthelstan as Guthrum's baptismal name — the latter is guarded in `ambiguousEntityAliases`). **A wrong link is worse than a missing link.**
+- A leader may be left **unlinked** only when genuinely anonymous, collective, or a historically unstable identity — and, for named commanders not yet given an article, the `{ name }`-only form is tolerated **only as a tracked backlog state** (like the succession `{ displayName }` convention), never a broken link. The backlog is a documented decision list kept in the implementation summaries/audits (currently: John de Warenne, Buchan and Douglas at Verneuil, the Orléans siege commanders, La Hire and Xaintrailles, the Formigny commanders, Jean Bureau, Edwin and Morcar at Fulford, Eiríkr Hákonarson, Guy le Bouteiller, Hervey de Glanvill, Fernando Pérez de Traba, Kjotve the Rich) — each entry is a create-or-document decision, not a licence to leave majors unlinked.
 - A Battle article is **not complete** until its principal named leaders are linked to Person articles.
+
+**Bad:** the Battle of Edington lists "Guthrum" as plain text with no article — the defeated commander of the defining battle is a dead name.
+**Good:** Edington links a full Guthrum article (image, personality, timeline, succession as King of East Anglia), and the Guthrum article links back to Edington, Alfred the Great, and the Wessex/East Anglia world — the canonical example of this rule.
 
 ## Ruler Succession Link Rules
 

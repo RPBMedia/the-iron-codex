@@ -502,7 +502,21 @@ function validateBattleLeaders(entry, label) {
 }
 
 // Explicit required links the audit task mandates (hard failures).
-const REQUIRED_LEADER_LINKS = [['battle-of-aljubarrota', 'john-i-of-castile'], ['battle-of-aljubarrota', 'nuno-alvares-pereira']]
+const REQUIRED_LEADER_LINKS = [
+  ['battle-of-aljubarrota', 'john-i-of-castile'], ['battle-of-aljubarrota', 'nuno-alvares-pereira'],
+  ['battle-of-edington', 'guthrum'],
+  ['battle-of-patay', 'john-talbot'],
+  ['battle-of-castillon', 'john-talbot'],
+  ['battle-of-varna', 'john-hunyadi'],
+  ['battle-of-stirling-bridge', 'andrew-moray'],
+  ['battle-of-mohi', 'subutai'],
+  ['battle-of-mohi', 'batu-khan'],
+  ['battle-of-nicopolis', 'sigismund-of-luxembourg'],
+  ['battle-of-nicopolis', 'john-the-fearless'],
+  ['battle-of-brunanburh', 'olaf-guthfrithson'],
+  ['battle-of-brunanburh', 'constantine-ii-of-scotland'],
+  ['battle-of-verneuil', 'john-duke-of-bedford']
+]
 const REQUIRED_SUCCESSION_LINKS = [
   // [rulerId, side, expected personSlug OR "status:none"]
   ['afonso-i-of-portugal', 'predecessor', 'status:none'],

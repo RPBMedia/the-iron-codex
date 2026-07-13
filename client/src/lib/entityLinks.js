@@ -32,6 +32,7 @@ export const entityLinks = [
   { label: "Amalric I of Jerusalem", aliases: ["Amaury I"], type: "person", slug: "amalric-i-of-jerusalem" },
   { label: "Amalric II of Lusignan", aliases: ["Aimery of Cyprus","Aimery of Lusignan","Amalric II","Amaury de Lusignan"], type: "person", slug: "amalric-ii-of-lusignan" },
   { label: "Andrew II of Hungary", aliases: ["Andrew of Hungary"], type: "person", slug: "andrew-ii-of-hungary" },
+  { label: "Andrew Moray", aliases: ["Andrew de Moray","Andrew Murray"], type: "person", slug: "andrew-moray" },
   { label: "Anna Komnene", aliases: ["Anna Comnena"], type: "person", slug: "anna-komnene" },
   { label: "Anund Jacob", aliases: ["Anund Jakob","James"], type: "person", slug: "anund-jacob" },
   { label: "As-Salih Ismail", aliases: ["as-Salih Ismail al-Malik","al-Salih Ismail"], type: "person", slug: "as-salih-ismail" },
@@ -43,6 +44,7 @@ export const entityLinks = [
   { label: "Baldwin V of Jerusalem", aliases: ["Baldwin V","Baudouin V","Baldwin the Child"], type: "person", slug: "baldwin-v-of-jerusalem" },
   { label: "Balian of Ibelin", aliases: ["Balian d’Ibelin"], type: "person", slug: "balian-of-ibelin" },
   { label: "Baraka Khan", aliases: ["al-Said Barakah","al-Malik al-Said Barakah Khan","Baraka Qan"], type: "person", slug: "baraka-khan" },
+  { label: "Batu Khan", aliases: ["Batu","Sain Khan"], type: "person", slug: "batu-khan" },
   { label: "Baybars", aliases: ["al-Malik al-Zahir Baybars"], type: "person", slug: "baybars" },
   { label: "Bayezid I", aliases: ["Bayezid the Thunderbolt","Yıldırım Bayezid"], type: "person", slug: "bayezid-i" },
   { label: "Bayezid II", aliases: ["Bayezid the Just","Sofu Bayezid"], type: "person", slug: "bayezid-ii" },
@@ -73,6 +75,7 @@ export const entityLinks = [
   { label: "Cnut VI of Denmark", aliases: ["Canute VI","Knud VI"], type: "person", slug: "cnut-vi-of-denmark" },
   { label: "Conrad III of Germany", aliases: ["Conrad III"], type: "person", slug: "conrad-iii-of-germany" },
   { label: "Conrad of Montferrat", aliases: ["Conrad I of Jerusalem"], type: "person", slug: "conrad-of-montferrat" },
+  { label: "Constantine II of Scotland", aliases: ["Causantín mac Áeda","Constantine II"], type: "person", slug: "constantine-ii-of-scotland" },
   { label: "Constantine X Doukas", aliases: ["Konstantinos X Doukas"], type: "person", slug: "constantine-x-doukas" },
   { label: "Constantine XI Palaiologos", aliases: ["Constantine XI","Constantine Dragases"], type: "person", slug: "constantine-xi-palaiologos" },
   { label: "David II of Scotland", aliases: ["David Bruce"], type: "person", slug: "david-ii-of-scotland" },
@@ -118,6 +121,7 @@ export const entityLinks = [
   { label: "Godfrey of Bouillon", aliases: ["Godfrey de Bouillon","Advocate of the Holy Sepulchre"], type: "person", slug: "godfrey-of-bouillon" },
   { label: "Gorm the Old", aliases: ["Gorm the Languid"], type: "person", slug: "gorm-the-old" },
   { label: "Guido da Landriano", aliases: ["Guido da Landriano of Milan"], type: "person", slug: "guido-da-landriano" },
+  { label: "Guthrum", aliases: ["Guthrum the Old"], type: "person", slug: "guthrum" },
   { label: "Guy of Lusignan", aliases: ["Guy de Lusignan"], type: "person", slug: "guy-of-lusignan" },
   { label: "Haakon IV Haakonsson", aliases: ["Haakon the Old"], type: "person", slug: "haakon-iv-haakonsson" },
   { label: "Haakon the Good", aliases: ["Haakon Haraldsson","Aðalsteinsfóstri"], type: "person", slug: "haakon-the-good" },
@@ -169,6 +173,7 @@ export const entityLinks = [
   { label: "Joan of Arc", type: "person", slug: "joan-of-arc" },
   { label: "John Balliol", aliases: ["Toom Tabard","John de Balliol"], type: "person", slug: "john-balliol" },
   { label: "John Comyn", aliases: ["John Comyn of Badenoch","Red Comyn"], type: "person", slug: "john-comyn" },
+  { label: "John Hunyadi", aliases: ["Hunyadi János","Hunyadi","the White Knight"], type: "person", slug: "john-hunyadi" },
   { label: "John I of Castile", aliases: ["Juan I of Castile","Juan I de Castilla"], type: "person", slug: "john-i-of-castile" },
   { label: "John I of Portugal", aliases: ["João I","John of Aviz","John of Good Memory","João de Boa Memória"], type: "person", slug: "john-i-of-portugal" },
   { label: "John I Sverkersson", aliases: ["Johan Sverkersson","John I of Sweden"], type: "person", slug: "john-i-sverkersson" },
@@ -178,7 +183,10 @@ export const entityLinks = [
   { label: "John II of Portugal", aliases: ["João II","the Perfect Prince","o Príncipe Perfeito"], type: "person", slug: "john-ii-of-portugal" },
   { label: "John of Brienne", aliases: ["Jean de Brienne"], type: "person", slug: "john-of-brienne" },
   { label: "John of England", aliases: ["John Lackland","Jean sans Terre"], type: "person", slug: "john-of-england" },
+  { label: "John Talbot, Earl of Shrewsbury", aliases: ["John Talbot","Talbot"], type: "person", slug: "john-talbot" },
+  { label: "John the Fearless", aliases: ["John of Nevers","Jean sans Peur"], type: "person", slug: "john-the-fearless" },
   { label: "John VIII Palaiologos", aliases: ["Ioannes VIII"], type: "person", slug: "john-viii-palaiologos" },
+  { label: "John, Duke of Bedford", aliases: ["John of Lancaster","Duke of Bedford"], type: "person", slug: "john-duke-of-bedford" },
   { label: "Kerbogha", aliases: ["Kerbogha of Mosul"], type: "person", slug: "kerbogha" },
   { label: "Kilij Arslan I", aliases: ["Kilij Arslan","Kilij Arslan I of Rum"], type: "person", slug: "kilij-arslan-i" },
   { label: "Knut Eriksson", aliases: ["Canute I of Sweden"], type: "person", slug: "knut-eriksson" },
@@ -215,6 +223,7 @@ export const entityLinks = [
   { label: "Nikephoros III Botaneiates", aliases: ["Nicephorus III"], type: "person", slug: "nikephoros-iii-botaneiates" },
   { label: "Nuno Álvares Pereira", aliases: ["the Holy Constable","o Santo Condestável","Saint Nuno of Saint Mary","São Nuno de Santa Maria"], type: "person", slug: "nuno-alvares-pereira" },
   { label: "Nur ad-Din", aliases: ["Nur al-Din Mahmud","Nur ad-Din Zengi"], type: "person", slug: "nur-ad-din" },
+  { label: "Olaf Guthfrithson", aliases: ["Anlaf","Anlaf Guthfrithsson","Olaf Guthfrithsson","Amlaíb mac Gofraid"], type: "person", slug: "olaf-guthfrithson" },
   { label: "Olaf II Haraldsson", aliases: ["Saint Olaf","Olaf the Holy","Olaf Haraldsson"], type: "person", slug: "olaf-ii-haraldsson" },
   { label: "Olaf III of Norway", aliases: ["Olaf Kyrre","Olaf the Peaceful"], type: "person", slug: "olaf-iii-of-norway" },
   { label: "Olaf IV of Norway", aliases: ["Olaf II of Denmark","Oluf II"], type: "person", slug: "olaf-iv-of-norway" },
@@ -263,11 +272,13 @@ export const entityLinks = [
   { label: "Sancho III of Castile", aliases: ["Sancho III the Desired","Sancho el Deseado"], type: "person", slug: "sancho-iii-of-castile" },
   { label: "Shirkuh", aliases: ["Asad ad-Din Shirkuh"], type: "person", slug: "shirkuh" },
   { label: "Sibylla of Jerusalem", aliases: ["Sibylla","Queen of Jerusalem","Sibylla, Queen of Jerusalem"], type: "person", slug: "sibylla-of-jerusalem" },
+  { label: "Sigismund of Luxembourg", aliases: ["Sigismund of Hungary","Emperor Sigismund"], type: "person", slug: "sigismund-of-luxembourg" },
   { label: "Sigurd the Crusader", aliases: ["Sigurd of Norway","Sigurd Jorsalfar"], type: "person", slug: "sigurd-of-norway" },
   { label: "Skirgaila", aliases: ["Ivan (baptismal name)"], type: "person", slug: "skirgaila" },
   { label: "Stefan Lazarević", aliases: ["Stephen Lazarević","Stefan the Tall"], type: "person", slug: "stefan-lazarevic" },
   { label: "Stenkil", aliases: ["Steinkell"], type: "person", slug: "stenkil" },
   { label: "Stephen of England", aliases: ["Stephen of Blois","King Stephen"], type: "person", slug: "stephen-of-england" },
+  { label: "Subutai", aliases: ["Sübötei","Subotai","Subedei"], type: "person", slug: "subutai" },
   { label: "Sverker I of Sweden", aliases: ["Sverker the Elder"], type: "person", slug: "sverker-i-of-sweden" },
   { label: "Sverker II of Sweden", aliases: ["Sverker the Younger"], type: "person", slug: "sverker-ii-of-sweden" },
   { label: "Sverre Sigurdsson", aliases: ["Sverre of Norway"], type: "person", slug: "sverre-sigurdsson" },
@@ -538,6 +549,66 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // "Æthelstan" is both the English king (Brunanburh, 937) and the baptismal
+    // name Guthrum took at Aller in 878. In Guthrum/Wedmore contexts the bare
+    // name must never link the English king; it resolves to Guthrum instead
+    // (or, on Guthrum's own page, to no link at all).
+    terms: ["Æthelstan", "Athelstan"],
+    possibleTargets: [
+      {
+        title: "Æthelstan",
+        label: "Æthelstan",
+        type: "person",
+        slug: "aethelstan",
+        date: "894–939",
+        contextHints: [
+          "Brunanburh",
+          "937",
+          "927",
+          "Edward the Elder",
+          "grandson of Alfred",
+          "King of the English",
+          "first King of the English",
+          "Eamont",
+          "Sihtric",
+          "took York",
+          "invaded Alba",
+          "Olaf Guthfrithson",
+          "Constantine II",
+          "grandson",
+          "reconquest",
+          "924",
+          "939",
+          "half-brother",
+          "raised in England",
+          "son of Edward"
+        ]
+      },
+      {
+        title: "Guthrum",
+        label: "Guthrum",
+        type: "person",
+        slug: "guthrum",
+        date: "d. c. 890",
+        contextHints: [
+          "Guthrum",
+          "baptism",
+          "baptised",
+          "baptismal",
+          "Wedmore",
+          "godfather",
+          "Aller",
+          "Chippenham",
+          "Edington",
+          "East Anglia",
+          "878",
+          "moneyer",
+          "Danelaw"
+        ]
+      }
+    ]
+  },
   {
     terms: ["Battle of Poitiers", "Tours-Poitiers"],
     possibleTargets: [
