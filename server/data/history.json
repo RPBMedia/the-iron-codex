@@ -9521,7 +9521,14 @@
           "displayName": "Louis the Pious",
           "note": "His only surviving legitimate son, crowned co-emperor in 813"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "epithet",
+          "note": "Carolus Magnus — the epithet fused into his very name."
+        }
+      ]
     },
     {
       "id": "eleanor-of-aquitaine",
@@ -10018,7 +10025,14 @@
           "displayName": "William II Rufus",
           "note": "His second surviving son; Robert Curthose received Normandy"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Conqueror",
+          "type": "later epithet",
+          "note": "The standard retrospective epithet; contemporaries knew him as William the Bastard."
+        }
+      ]
     },
     {
       "id": "hildegard-of-bingen",
@@ -10755,6 +10769,13 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Richard_I_effigy.jpg",
           "note": "One of the earliest royal effigies in Europe, carved close to his lifetime — idealised royal imagery rather than a true portrait."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Lionheart",
+          "type": "translated byname",
+          "note": "English rendering of the French Cœur de Lion, used in his own lifetime."
         }
       ]
     },
@@ -11498,7 +11519,14 @@
           "displayName": "Bayezid II",
           "note": "His son, over the rival claim of his brother Cem"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Conqueror (Fatih)",
+          "type": "translated byname",
+          "note": "Turkish Fatih."
+        }
+      ]
     },
     {
       "id": "margaret-i",
@@ -12124,7 +12152,7 @@
       "name": "Sigurd the Crusader",
       "born": 1090,
       "died": 1130,
-      "deathAge": "40",
+      "deathAge": "about 40",
       "causeOfDeath": "Illness",
       "restingPlace": "Hallvard's Cathedral, Oslo",
       "location": "Norway and the eastern Mediterranean",
@@ -12327,7 +12355,14 @@
           "displayName": "Magnus IV and Harald Gille",
           "note": "Norway passed to the rival kings Magnus IV and Harald Gille, whose contested succession opened a century of Norwegian civil war."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Crusader",
+          "type": "translated byname",
+          "note": "Old Norse Jórsalafari, 'Jerusalem-farer'."
+        }
+      ]
     },
     {
       "id": "cnut-the-great",
@@ -12557,6 +12592,13 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_medieval_coin%2C_penny_of_Cnut_(FindID_780380).jpg",
           "note": "Contemporary evidence from Cnut’s own reign: he kept and exploited the sophisticated English coinage system rather than replacing it."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "later epithet",
+          "note": "From later Scandinavian and English tradition — Old Norse Knútr inn ríki."
         }
       ]
     },
@@ -12794,7 +12836,14 @@
           "personSlug": "edward-the-elder",
           "displayName": "Edward the Elder"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "later epithet",
+          "note": "No contemporary source calls him 'the Great'; the epithet was popularised in the 16th century."
+        }
+      ]
     },
     {
       "id": "sweyn-forkbeard",
@@ -13026,6 +13075,12 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambridgemsee359f4edmundkillingsweyn.jpg",
           "note": "A 12th-century English monastic legend, hostile to Sweyn — it records how the conquered remembered the conqueror, not how he actually died in February 1014."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Forkbeard",
+          "type": "translated byname"
         }
       ]
     },
@@ -13999,7 +14054,13 @@
           "displayName": "Harald Bluetooth",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Old",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "harald-bluetooth",
@@ -14206,6 +14267,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jelling_stone.jpg",
           "note": "Harald’s own monument in his own words — the “birth certificate of Denmark,” contemporary evidence of his rule and conversion."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Bluetooth",
+          "type": "translated byname",
+          "note": "Danish Blåtand, a later byname of uncertain origin."
+        }
       ]
     },
     {
@@ -14218,7 +14286,7 @@
       ],
       "born": 1018,
       "died": 1042,
-      "deathAge": "unknown",
+      "deathAge": "about 24",
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Denmark",
@@ -14599,7 +14667,13 @@
           "displayName": "Harald Hardrada",
           "note": "His uncle and co-king from 1046; Denmark passed instead to Sweyn Estridsson"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Good",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "sweyn-ii-estridsson",
@@ -14796,7 +14870,7 @@
       ],
       "born": 1131,
       "died": 1182,
-      "deathAge": "unknown",
+      "deathAge": "about 51",
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Denmark",
@@ -14980,7 +15054,13 @@
           "displayName": "Cnut VI",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "cnut-vi-of-denmark",
@@ -15366,7 +15446,14 @@
           "displayName": "Eric IV Ploughpenny",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Victorious",
+          "type": "translated byname",
+          "note": "Danish Sejr."
+        }
+      ]
     },
     {
       "id": "eric-iv-of-denmark",
@@ -15562,7 +15649,14 @@
           "displayName": "Abel of Denmark",
           "note": "His brother, elected king after Eric's murder — a killing widely blamed on Abel."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Ploughpenny",
+          "type": "hostile epithet",
+          "note": "From his unpopular plough tax."
+        }
+      ]
     },
     {
       "id": "christopher-i-of-denmark",
@@ -15958,7 +16052,14 @@
           "displayName": "Eric VI Menved",
           "note": "His son, crowned after Eric V's murder at Finderup in 1286"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Klipping",
+          "type": "byname",
+          "note": "From the clipped coinage of his reign."
+        }
+      ]
     },
     {
       "id": "christopher-ii-of-denmark",
@@ -16354,7 +16455,14 @@
           "displayName": "Olaf IV",
           "note": "His daughter Margaret's son, elected as a child"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Atterdag",
+          "type": "byname",
+          "note": "Danish byname of debated meaning — traditionally 'day again'/'new dawn'."
+        }
+      ]
     },
     {
       "id": "eric-of-pomerania",
@@ -17178,6 +17286,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haraldshaugen.jpg",
           "note": "A 19th-century national monument marking the saga tradition of Harald’s unification of Norway — evidence of his later importance to Norwegian identity, not of ninth-century events."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Fairhair",
+          "type": "legendary epithet",
+          "note": "Saga byname (Old Norse Hárfagri); rests on much later saga tradition."
+        }
       ]
     },
     {
@@ -17375,7 +17490,14 @@
           "displayName": "Haakon the Good",
           "note": "His half-brother, raised in England at Æthelstan's court, who drove him out"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Bloodaxe",
+          "type": "legendary epithet",
+          "note": "Saga byname (Old Norse Blóðøx); rests on later saga tradition."
+        }
+      ]
     },
     {
       "id": "haakon-the-good",
@@ -17570,7 +17692,13 @@
           "displayName": "Harald Greycloak",
           "note": "Eric's son, who took the coastal kingdom with Danish backing after Haakon's death at Fitjar"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Good",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "olaf-tryggvason",
@@ -18021,7 +18149,13 @@
           "displayName": "Cnut the Great",
           "note": "Whose invasion drove Olaf out in 1028; Olaf died at Stiklestad attempting to return"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Saint Olaf",
+          "type": "religious epithet"
+        }
+      ]
     },
     {
       "id": "harald-hardrada",
@@ -18033,7 +18167,7 @@
       ],
       "born": 1015,
       "died": 1066,
-      "deathAge": "unknown",
+      "deathAge": "about 51",
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Norway",
@@ -18409,7 +18543,14 @@
           "displayName": "Magnus II of Norway",
           "note": "His elder son; Olaf III Kyrre became co-king on returning from Stamford Bridge"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Hardrada",
+          "type": "byname",
+          "note": "Old Norse harðráði — 'hard ruler', 'stern in counsel'; from saga tradition."
+        }
+      ]
     },
     {
       "id": "magnus-barefoot",
@@ -18605,7 +18746,14 @@
           "displayName": "Sigurd the Crusader",
           "note": "Jointly with his brothers Øystein I and Olaf Magnusson"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Barefoot",
+          "type": "translated byname",
+          "note": "Old Norse berfœttr; saga tradition links it to his adopting Gaelic dress."
+        }
+      ]
     },
     {
       "id": "oystein-i-of-norway",
@@ -19007,7 +19155,7 @@
       ],
       "born": 1204,
       "died": 1263,
-      "deathAge": "unknown",
+      "deathAge": "about 59",
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Norway",
@@ -19196,7 +19344,13 @@
           "displayName": "Magnus VI Lawmender",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Old",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "magnus-vi-lawmender",
@@ -19391,7 +19545,14 @@
           "personSlug": "eric-ii-of-norway",
           "displayName": "Eric II of Norway"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Lawmender",
+          "type": "translated byname",
+          "note": "Norwegian Lagabøte, from his law reforms."
+        }
+      ]
     },
     {
       "id": "eric-ii-of-norway",
@@ -20370,7 +20531,14 @@
           "displayName": "Olof Skötkonung",
           "note": "His son, the first Swedish king baptised in office"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Victorious",
+          "type": "legendary epithet",
+          "note": "Swedish Segersäll, from later saga tradition."
+        }
+      ]
     },
     {
       "id": "olof-skotkonung",
@@ -20563,7 +20731,14 @@
           "displayName": "Anund Jacob",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Skötkonung",
+          "type": "byname",
+          "note": "Byname of uncertain meaning; left untranslated."
+        }
+      ]
     },
     {
       "id": "anund-jacob",
@@ -20934,7 +21109,13 @@
           "displayName": "Stenkil",
           "note": "His son-in-law, first of a new house; the old Uppsala line ended with Emund"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Old",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "stenkil",
@@ -21696,7 +21877,13 @@
           "displayName": "Magnus Henriksson",
           "note": "Magnus Henriksson killed St Eric in 1160 and usurped the throne; he was in turn overthrown and killed by Charles VII Sverkersson in 1161."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Saint Erik",
+          "type": "religious epithet"
+        }
+      ]
     },
     {
       "id": "knut-eriksson",
@@ -22905,7 +23092,14 @@
           "displayName": "Birger Magnusson",
           "note": "His son, under Torgils Knutsson's regency"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Ladulås",
+          "type": "byname",
+          "note": "'Barnlock' — traditionally from protecting peasants against lodging demands."
+        }
+      ]
     },
     {
       "id": "birger-magnusson",
@@ -23716,7 +23910,7 @@
       ],
       "born": 688,
       "died": 741,
-      "deathAge": "53",
+      "deathAge": "about 53",
       "restingPlace": "Basilica of Saint-Denis",
       "location": "Frankish Kingdom",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Charles_Martel_divise_le_royaume_entre_P%C3%A9pin_et_Carloman.jpg",
@@ -23903,6 +24097,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steuben_-_Bataille_de_Poitiers.png",
           "note": "A Romantic-era history painting, over a thousand years after the battle — it shows the legend of Tours, not the eighth-century reality."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Hammer (Martel)",
+          "type": "later epithet",
+          "note": "First attested in ninth-century sources after his death; he ruled as mayor of the palace, never as king."
+        }
       ]
     },
     {
@@ -24088,7 +24289,7 @@
       ],
       "born": 1022,
       "died": 1066,
-      "deathAge": "44",
+      "deathAge": "about 44",
       "restingPlace": "Traditionally Waltham Abbey, disputed",
       "location": "Kingdom of England",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bayeux_tapestry_stitches_detail..jpg",
@@ -24576,7 +24777,7 @@
       ],
       "born": 1368,
       "died": 1415,
-      "deathAge": "47",
+      "deathAge": "about 47",
       "restingPlace": "Unknown",
       "location": "Kingdom of France",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Armorial_de_Gilles_Le_Bouvier_-_BNF_Fr._4985_f111v_-_Charles_d%27Albret.jpg",
@@ -24993,7 +25194,7 @@
       ],
       "born": 1030,
       "died": 1072,
-      "deathAge": "42",
+      "deathAge": "about 42",
       "restingPlace": "Unknown",
       "location": "Byzantine Empire",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Romanus_IV_coin_crop.png",
@@ -25403,7 +25604,7 @@
       ],
       "born": 1026,
       "died": 1066,
-      "deathAge": "40",
+      "deathAge": "about 40",
       "restingPlace": "Unknown",
       "location": "Kingdom of England",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cambridge%2C_University_Library%2C_MS_Ee.3.59%2C_fol._24v.png",
@@ -25846,6 +26047,13 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg",
           "note": "A 19th-century Galerie des Batailles painting — Bouvines as French national memory, six centuries after Philip’s decisive victory."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Augustus",
+          "type": "epithet",
+          "note": "Coined by his chronicler Rigord."
         }
       ]
     },
@@ -26493,6 +26701,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cappenberger_Kopf-WUS02772.jpg",
           "note": "A genuine masterpiece of Barbarossa’s own time and circle; whether it is truly a likeness of the emperor is debated, but it is the closest thing to one that survives."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Barbarossa",
+          "type": "translated byname",
+          "note": "'Redbeard' — the Italian byname from his campaigns in Lombardy."
+        }
       ]
     },
     {
@@ -26870,7 +27085,13 @@
           "displayName": "Henry I of Castile",
           "note": "His son, the boy-king killed by a falling tile."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Noble",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "muhammad-al-nasir",
@@ -28090,7 +28311,14 @@
           "displayName": "Reverted to the French crown",
           "note": "He surrendered the principality in 1372 as his health and the English position in France collapsed"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Black Prince",
+          "type": "posthumous epithet",
+          "note": "First recorded in the 16th century; contemporaries knew him as Edward of Woodstock."
+        }
+      ]
     },
     {
       "id": "john-ii-of-france",
@@ -28298,7 +28526,14 @@
           "displayName": "Charles V of France",
           "note": "Regent during his father's English captivity after Poitiers"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Good",
+          "type": "translated byname",
+          "note": "Le Bon — closer to 'brave' than 'good'."
+        }
+      ]
     },
     {
       "id": "prince-lazar",
@@ -28309,7 +28544,7 @@
       ],
       "born": 1329,
       "died": 1389,
-      "deathAge": "60",
+      "deathAge": "about 60",
       "restingPlace": "Ravanica Monastery",
       "location": "Principality of Serbia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Prince_Lazar_%28Ravanica_Monastery%29.jpg",
@@ -28514,7 +28749,7 @@
       ],
       "born": 1326,
       "died": 1389,
-      "deathAge": "63",
+      "deathAge": "about 63",
       "restingPlace": "Bursa and Kosovo tomb tradition",
       "location": "Ottoman Empire",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fol._254a._The_murder_of_Sultan_Murad_I%2C_Iskender-name_by_Ahmedi%2C_late_15th_century_%28National_Library_of_Russia%2C_C133%29.jpg",
@@ -28729,7 +28964,7 @@
       ],
       "born": 1352,
       "died": 1434,
-      "deathAge": "82",
+      "deathAge": "about 82",
       "restingPlace": "Wawel Cathedral",
       "location": "Kingdom of Poland and Grand Duchy of Lithuania",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Jogaila_%28W%C5%82adys%C5%82aw_II%29.jpg",
@@ -28926,7 +29161,7 @@
       ],
       "born": 1350,
       "died": 1430,
-      "deathAge": "80",
+      "deathAge": "about 80",
       "restingPlace": "Vilnius Cathedral, traditionally",
       "location": "Grand Duchy of Lithuania",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Seal_of_Vytautas_the_Great.jpg",
@@ -29117,7 +29352,13 @@
           "displayName": "Švitrigaila",
           "note": "Jogaila's brother, elected grand duke on Vytautas's death."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "ulrich-von-jungingen",
@@ -29128,7 +29369,7 @@
       ],
       "born": 1360,
       "died": 1410,
-      "deathAge": "50",
+      "deathAge": "about 50",
       "restingPlace": "Malbork Castle chapel, traditionally",
       "location": "Teutonic Order",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Arms_of_the_house_of_Jungingen_as_Grand_Master_of_the_Teutonic_Order.svg",
@@ -29822,6 +30063,18 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caernarfon_Castle_from_the_air.jpg",
           "note": "A surviving building of Edward’s own reign; its imperial styling, echoing the walls of Constantinople, was deliberate political theatre in stone."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Longshanks",
+          "type": "byname",
+          "note": "Referring to his unusual height."
+        },
+        {
+          "name": "Hammer of the Scots",
+          "type": "later epithet",
+          "note": "From the 16th-century inscription on his tomb at Westminster — Scottorum malleus — not contemporary usage."
+        }
       ]
     },
     {
@@ -29834,7 +30087,7 @@
       ],
       "born": 1274,
       "died": 1306,
-      "deathAge": "c. 32",
+      "deathAge": "about 32",
       "restingPlace": "Unknown",
       "location": "Kingdom of Scotland",
       "image": "https://s0.geograph.org.uk/geophotos/05/08/25/5082564_fecf20e1.jpg",
@@ -30024,7 +30277,7 @@
       ],
       "born": 1003,
       "died": 1066,
-      "deathAge": "c. 62",
+      "deathAge": "about 62",
       "causeOfDeath": "Died at Westminster in January 1066 after illness; his childless death opened the English succession crisis.",
       "restingPlace": "Westminster Abbey",
       "location": "Kingdom of England",
@@ -30252,7 +30505,13 @@
           "displayName": "Harold Godwinson",
           "note": "Elected by the witan; the disputed succession of 1066 followed"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Confessor",
+          "type": "religious epithet"
+        }
+      ]
     },
     {
       "id": "pope-urban-ii",
@@ -33396,7 +33655,14 @@
           "displayName": "Al-Kamil",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Saphadin",
+          "type": "translated byname",
+          "note": "The Frankish rendering of his honorific Sayf al-Din."
+        }
+      ]
     },
     {
       "id": "al-kamil",
@@ -35048,7 +35314,7 @@
       ],
       "born": 1161,
       "died": 1185,
-      "deathAge": "unknown",
+      "deathAge": "about 24",
       "causeOfDeath": "Baldwin died in 1185, leaving a contested succession that soon passed through Baldwin V, Sibylla, and Guy of Lusignan.",
       "restingPlace": "Unknown",
       "location": "Kingdom of Jerusalem",
@@ -35251,7 +35517,13 @@
           "displayName": "Baldwin V of Jerusalem",
           "note": "His nephew, crowned co-king as a child to secure the succession."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Leper",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "guy-of-lusignan",
@@ -37465,7 +37737,7 @@
       ],
       "born": 1194,
       "died": 1250,
-      "deathAge": "unknown",
+      "deathAge": "55",
       "causeOfDeath": "Frederick died in 1250 in southern Italy, leaving Hohenstaufen power contested by papal and Angevin enemies.",
       "restingPlace": "Unknown",
       "location": "Holy Roman Empire and Kingdom of Sicily",
@@ -37640,7 +37912,14 @@
           "displayName": "Conrad IV",
           "note": "His son, never crowned emperor; the Great Interregnum followed"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Stupor Mundi",
+          "type": "later epithet",
+          "note": "'Wonder of the World' — later admiring Latin epithet."
+        }
+      ]
     },
     {
       "id": "louis-ix-of-france",
@@ -37651,7 +37930,7 @@
       ],
       "born": 1214,
       "died": 1270,
-      "deathAge": "unknown",
+      "deathAge": "about 56",
       "causeOfDeath": "Louis died of disease near Tunis in 1270 during the Eighth Crusade. His body and relics became central to Capetian sacred kingship.",
       "restingPlace": "Unknown",
       "location": "Kingdom of France",
@@ -37853,6 +38132,12 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Capilla%2C_Par%C3%ADs%2C_Francia%2C_2022-11-01%2C_DD_80-82_HDR.jpg",
           "note": "Louis’s own building, consecrated the year he left on crusade — the fullest surviving expression of his sacral kingship."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Saint Louis",
+          "type": "religious epithet"
         }
       ]
     },
@@ -39120,7 +39405,7 @@
       ],
       "born": 1243,
       "died": 1314,
-      "deathAge": "unknown",
+      "deathAge": "about 70",
       "causeOfDeath": "Jacques was burned in Paris in 1314 after retracting confessions, making his death one of the most famous executions of the late medieval military orders.",
       "restingPlace": "Unknown",
       "location": "Military orders of the Crusades",
@@ -40024,6 +40309,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Russian_konung_Oleg_by_Vasnetsov_1.jpg",
           "note": "A 19th-century illustration of the Primary Chronicle’s famous legend (the serpent in the horse’s skull), itself written down some two centuries after Oleg — literary tradition, not history."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Wise",
+          "type": "legendary epithet",
+          "note": "The Primary Chronicle's veshchy, 'the seer'; chronicle tradition, not documented fact."
+        }
       ]
     },
     {
@@ -40037,7 +40329,7 @@
       ],
       "born": 877,
       "died": 945,
-      "deathAge": "c. 68 (traditional chronology; uncertain)",
+      "deathAge": "about 68",
       "causeOfDeath": "Killed by the Drevlians during tribute collection",
       "restingPlace": "Near Iskorosten (Korosten), Drevlian territory (traditional)",
       "location": "Kiev/Kyiv, Kievan Rus'",
@@ -40062,7 +40354,8 @@
           "name": "Drevlian territory; traditionally Iskorosten (modern Korosten, Ukraine)",
           "slug": "iskorosten"
         },
-        "circumstance": "Killed by the Drevlians during a second tributary demand in 945. After dismissing most of his druzhina, Igor returned to the Drevlians for additional tribute; their prince Mal led the killing. The manner of death is described with different details in different sources — some accounts specify that he was bound between bent trees."
+        "circumstance": "Killed by the Drevlians during a second tributary demand in 945. After dismissing most of his druzhina, Igor returned to the Drevlians for additional tribute; their prince Mal led the killing. The manner of death is described with different details in different sources — some accounts specify that he was bound between bent trees.",
+        "note": "Age at death follows the Primary Chronicle's traditional chronology, which is uncertain."
       },
       "quickFacts": {
         "realm": "Kievan Rus'",
@@ -40388,7 +40681,7 @@
       ],
       "born": 890,
       "died": 969,
-      "deathAge": "c. 79 (traditional chronology; uncertain)",
+      "deathAge": "about 79",
       "causeOfDeath": "Natural causes",
       "restingPlace": "Kyiv; relics later translated to the Church of the Tithes",
       "location": "Kiev/Kyiv, Kievan Rus'",
@@ -40413,7 +40706,8 @@
           "name": "Kyiv",
           "slug": "kievan-rus"
         },
-        "circumstance": "Died in Kyiv in 969. She had converted to Christianity in Constantinople around 957 and spent her final years as a Christian ruler in a court that remained predominantly pagan under her son Sviatoslav."
+        "circumstance": "Died in Kyiv in 969. She had converted to Christianity in Constantinople around 957 and spent her final years as a Christian ruler in a court that remained predominantly pagan under her son Sviatoslav.",
+        "note": "Age at death follows the Primary Chronicle's traditional chronology, which is uncertain."
       },
       "quickFacts": {
         "realm": "Kievan Rus'",
@@ -40674,7 +40968,14 @@
           "displayName": "Sviatoslav I",
           "note": "Her son, who took full power as he came of age"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Wise",
+          "type": "legendary epithet",
+          "note": "Chronicle epithet from later Rus' tradition, not contemporary usage."
+        }
+      ]
     },
     {
       "id": "aethelred-i-of-wessex",
@@ -41050,6 +41351,12 @@
           "type": "book",
           "note": "The standard modern collection on the reign."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Elder",
+          "type": "later epithet"
+        }
       ]
     },
     {
@@ -41245,6 +41552,12 @@
           "type": "primary source",
           "note": "The fullest near-contemporary narrative of the 1016 campaign."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Ironside",
+          "type": "byname"
+        }
       ]
     },
     {
@@ -41433,6 +41746,12 @@
           "author": "Anonymous, 11th century",
           "type": "primary source",
           "note": "Hostile contemporary account written for Emma of Normandy; essential and partisan."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Harefoot",
+          "type": "byname"
         }
       ]
     },
@@ -41634,6 +41953,13 @@
           "author": "Frank Barlow",
           "type": "book",
           "note": "The standard modern biography."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Rufus",
+          "type": "byname",
+          "note": "Contemporary byname, probably from his ruddy complexion."
         }
       ]
     },
@@ -42076,6 +42402,13 @@
           "type": "book",
           "note": "A leading modern account of the reign and its records."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Lackland",
+          "type": "hostile epithet",
+          "note": "Contemporary — coined for the landless youngest son of Henry II."
+        }
       ]
     },
     {
@@ -42495,7 +42828,7 @@
       ],
       "born": 1367,
       "died": 1413,
-      "deathAge": "45",
+      "deathAge": "about 45",
       "causeOfDeath": "Died after years of a disfiguring chronic illness contemporaries called leprosy",
       "restingPlace": "Canterbury Cathedral",
       "location": "Kingdom of England",
@@ -43104,6 +43437,12 @@
           "type": "primary source",
           "note": "Contemporary biography by the king's minister and friend."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Fat",
+          "type": "byname"
+        }
       ]
     },
     {
@@ -43311,6 +43650,12 @@
           "type": "book",
           "note": "Covers Louis VIII's campaigns and short reign in dynastic context."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Lion",
+          "type": "epithet"
+        }
       ]
     },
     {
@@ -43498,6 +43843,12 @@
           "author": "Jim Bradbury",
           "type": "book",
           "note": "Standard dynastic survey covering the reign."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Bold",
+          "type": "epithet"
         }
       ]
     },
@@ -43700,6 +44051,12 @@
           "author": "Jonathan Sumption",
           "type": "book",
           "note": "Opens with Saint-Sardos and the 1328 succession."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Fair",
+          "type": "byname"
         }
       ]
     },
@@ -43913,6 +44270,12 @@
           "type": "book",
           "note": "The fullest modern narrative of the 1369–1380 recovery."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Wise",
+          "type": "epithet"
+        }
       ]
     },
     {
@@ -44102,6 +44465,13 @@
           "author": "Snorri Sturluson",
           "type": "primary source",
           "note": "Thirteenth-century saga compilation; tradition, not documentary record."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Greycloak",
+          "type": "translated byname",
+          "note": "Old Norse Gráfeldr; from saga tradition."
         }
       ]
     },
@@ -44495,6 +44865,13 @@
           "type": "primary source",
           "note": "Brief saga of the long peace, written c. 1230."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Kyrre",
+          "type": "byname",
+          "note": "'The Peaceful' — Old Norse kyrre."
+        }
       ]
     },
     {
@@ -44859,6 +45236,12 @@
           "author": "Danish academic survey tradition",
           "type": "book",
           "note": "Standard national-history treatment of the Menved era."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "Menved",
+          "type": "byname"
         }
       ]
     },
@@ -45245,6 +45628,13 @@
           "type": "primary source",
           "note": "Contemporary account, sharply hostile to the regime."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Parapinakes",
+          "type": "hostile epithet",
+          "note": "'Minus a quarter' — from the currency debasement famine of his reign."
+        }
       ]
     },
     {
@@ -45622,6 +46012,13 @@
           "author": "Choniates; Kinnamos",
           "type": "primary source",
           "note": "The principal Greek narratives of the reign."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Good",
+          "type": "translated byname",
+          "note": "Greek Kaloïōannēs."
         }
       ]
     },
@@ -46404,6 +46801,13 @@
           "type": "book",
           "note": "Covers the reign, Nicopolis, and Ankara."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Thunderbolt",
+          "type": "translated byname",
+          "note": "Turkish Yıldırım — contemporary."
+        }
       ]
     },
     {
@@ -46793,6 +47197,12 @@
           "author": "Halil İnalcık",
           "type": "book",
           "note": "Standard treatment of the consolidation era."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Just",
+          "type": "translated byname"
         }
       ]
     },
@@ -47369,6 +47779,12 @@
           "type": "primary source",
           "note": "The dynasty's own account of the 751 revolution."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Short",
+          "type": "later epithet"
+        }
       ]
     },
     {
@@ -47564,6 +47980,12 @@
           "author": "Thegan; the Astronomer",
           "type": "primary source",
           "note": "The two contemporary biographies of the emperor."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Pious",
+          "type": "epithet"
         }
       ]
     },
@@ -48923,6 +49345,13 @@
           "type": "book",
           "note": "The classic study framing Balliol's reign and the wars that followed."
         }
+      ],
+      "epithets": [
+        {
+          "name": "Toom Tabard",
+          "type": "hostile epithet",
+          "note": "Scots for 'empty coat', after his ritual humiliation in 1296."
+        }
       ]
     },
     {
@@ -49415,6 +49844,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BAmulo_de_Dom_Afonso_Henriques%2C_Fundador_de_Portugal_-_Igreja_de_Santa_Cruz_-_Coimbra_-_Portugal_(4357253400).jpg",
           "note": "Afonso was buried at Santa Cruz in 1185; the present ornate tomb is a Manueline replacement of c. 1520 — royal memory magnified by a later, richer Portugal."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Conqueror",
+          "type": "epithet",
+          "note": "O Conquistador — from his conquests from Ourique to Lisbon."
+        }
       ]
     },
     {
@@ -49651,7 +50087,14 @@
           "displayName": "Afonso II",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Populator",
+          "type": "translated byname",
+          "note": "Portuguese O Povoador."
+        }
+      ]
     },
     {
       "id": "afonso-ii-of-portugal",
@@ -49894,7 +50337,13 @@
           "displayName": "Sancho II",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Fat",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "sancho-ii-of-portugal",
@@ -50139,7 +50588,18 @@
           "displayName": "Afonso III",
           "note": "His younger brother, who displaced him after the papal deposition of 1245"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Pious",
+          "type": "epithet"
+        },
+        {
+          "name": "Capelo",
+          "type": "byname",
+          "note": "'The Hooded'."
+        }
+      ]
     },
     {
       "id": "afonso-iii-of-portugal",
@@ -50394,7 +50854,14 @@
           "displayName": "Denis (Dinis I)",
           "note": "His son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Boulonnais",
+          "type": "byname",
+          "note": "From his time as count of Boulogne."
+        }
+      ]
     },
     {
       "id": "denis-of-portugal",
@@ -50634,7 +51101,17 @@
           "displayName": "Afonso IV",
           "note": "His son, with whom he had earlier fought a civil war"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Farmer King",
+          "type": "epithet"
+        },
+        {
+          "name": "the Poet King",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "afonso-iv-of-portugal",
@@ -50862,7 +51339,13 @@
           "displayName": "Peter I",
           "note": "His son, who had risen in revolt over the killing of Inês de Castro"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Brave",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "peter-i-of-portugal",
@@ -51092,7 +51575,18 @@
           "displayName": "Ferdinand I",
           "note": "His legitimate son"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Just",
+          "type": "epithet"
+        },
+        {
+          "name": "the Cruel",
+          "type": "hostile epithet",
+          "note": "Portuguese tradition split along partisan lines between 'the Just' and 'the Cruel'."
+        }
+      ]
     },
     {
       "id": "ferdinand-i-of-portugal",
@@ -51328,7 +51822,17 @@
           "displayName": "John I",
           "note": "After the 1383–1385 Interregnum: the crown was disputed between Ferdinand's daughter Beatrice (and her husband John I of Castile) and John of Aviz, who prevailed in 1385"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Handsome",
+          "type": "epithet"
+        },
+        {
+          "name": "the Inconstant",
+          "type": "hostile epithet"
+        }
+      ]
     },
     {
       "id": "john-i-of-portugal",
@@ -51610,6 +52114,12 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batalha_September_2021-2.jpg",
           "note": "John’s own votive foundation and burial place — the architectural monument of the Avis dynasty’s victory and legitimacy."
         }
+      ],
+      "epithets": [
+        {
+          "name": "of Good Memory",
+          "type": "posthumous epithet"
+        }
       ]
     },
     {
@@ -51832,7 +52342,13 @@
           "displayName": "Afonso V",
           "note": "His young son, whose minority began under a contested regency"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Eloquent",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "afonso-v-of-portugal",
@@ -52071,7 +52587,14 @@
           "displayName": "John II",
           "note": "His son, whom he had made co-king in 1477"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the African",
+          "type": "later epithet",
+          "note": "From his Moroccan campaigns."
+        }
+      ]
     },
     {
       "id": "john-ii-of-portugal",
@@ -52304,7 +52827,13 @@
           "displayName": "Manuel I",
           "note": "Manuel I reigned from 1495, beyond IronCodex's 1453 medieval cutoff."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Perfect Prince",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "john-i-of-castile",
@@ -53039,7 +53568,19 @@
           "displayName": "Henry II of Castile",
           "note": "His illegitimate half-brother, who killed him at Montiel and took the throne, founding the Trastámara dynasty."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Cruel",
+          "type": "hostile epithet",
+          "note": "From victorious Trastámara propaganda."
+        },
+        {
+          "name": "the Just",
+          "type": "epithet",
+          "note": "El Justiciero — the name his supporters used."
+        }
+      ]
     },
     {
       "id": "henry-ii-of-castile",
@@ -53265,7 +53806,14 @@
           "displayName": "John I of Castile",
           "note": "His son, the second Trastámara king."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "of the Mercies",
+          "type": "epithet",
+          "note": "From his lavish grants to supporters."
+        }
+      ]
     },
     {
       "id": "henry-iii-of-castile",
@@ -53497,7 +54045,14 @@
           "displayName": "John II of Castile",
           "note": "His son, who succeeded as an infant in 1406."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Sufferer",
+          "type": "byname",
+          "note": "El Doliente — from his chronic ill health."
+        }
+      ]
     },
     {
       "id": "john-ii-of-castile",
@@ -53968,7 +54523,13 @@
           "displayName": "Sibylla of Jerusalem",
           "note": "His mother, who took the throne with her husband Guy of Lusignan after the boy's death."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Child",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "amalric-ii-of-lusignan",
@@ -54930,7 +55491,13 @@
           "displayName": "Henry I of France",
           "note": "His son, who succeeded after the strife over the succession among Robert's sons."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Pious",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "henry-i-of-france",
@@ -55388,7 +55955,13 @@
           "displayName": "Louis VI of France",
           "note": "His son, who as king would greatly strengthen royal authority."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Amorous",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "philip-iv-of-france",
@@ -55624,6 +56197,13 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Templars_on_Stake.jpg",
           "note": "A later medieval miniature of the suppression of 1307–1314; small in scale, but a genuine medieval image of how the Templars’ end was remembered."
         }
+      ],
+      "epithets": [
+        {
+          "name": "the Fair",
+          "type": "byname",
+          "note": "Le Bel — from his appearance, not his justice."
+        }
       ]
     },
     {
@@ -55848,7 +56428,13 @@
           "displayName": "Philip V of France",
           "note": "His brother, who took the throne after the five-day life of Louis's posthumous son John I \"the Posthumous\"."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Quarrelsome",
+          "type": "hostile epithet"
+        }
+      ]
     },
     {
       "id": "philip-v-of-france",
@@ -56073,7 +56659,13 @@
           "displayName": "Charles IV of France",
           "note": "His younger brother, the last of Philip IV's sons to reign."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Tall",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "charles-vi-of-france",
@@ -56327,7 +56919,19 @@
           "displayName": "Charles VII of France",
           "note": "His son, disinherited by the Treaty of Troyes but eventually king as Charles VII."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Beloved",
+          "type": "epithet",
+          "note": "Contemporary usage."
+        },
+        {
+          "name": "the Mad",
+          "type": "later epithet",
+          "note": "Later epithet referring to his recurring illness."
+        }
+      ]
     },
     {
       "id": "charles-vii-of-france",
@@ -56581,7 +57185,17 @@
           "displayName": "Louis XI of France",
           "note": "His son, who began his reign in 1461 — after IronCodex's 1453 medieval cutoff — and belongs to the transition to the early-modern French state."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Victorious",
+          "type": "epithet"
+        },
+        {
+          "name": "the Well-Served",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "abel-of-denmark",
@@ -57029,7 +57643,14 @@
           "displayName": "Olaf Tryggvason",
           "note": "Who took the throne as king in 995 as Håkon was killed in the revolt against him."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Powerful",
+          "type": "epithet",
+          "note": "Old Norse inn ríki; from saga tradition."
+        }
+      ]
     },
     {
       "id": "magnus-v-erlingsson",
@@ -57927,7 +58548,14 @@
           "displayName": "Cnut IV of Denmark",
           "note": "His forceful brother, the future saint, whom the magnates had earlier passed over for Harald."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Hen",
+          "type": "byname",
+          "note": "Meaning debated — possibly 'whetstone'."
+        }
+      ]
     },
     {
       "id": "cnut-iv-of-denmark",
@@ -58172,7 +58800,13 @@
           "displayName": "Oluf I of Denmark",
           "note": "His brother, released from captivity in Flanders to take the throne after Canute's murder."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Holy",
+          "type": "religious epithet"
+        }
+      ]
     },
     {
       "id": "oluf-i-of-denmark",
@@ -58383,7 +59017,14 @@
           "displayName": "Eric I of Denmark",
           "note": "His brother \"the Evergood\", whose reign was remembered as the return of plenty."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Hunger",
+          "type": "hostile epithet",
+          "note": "From the famines of his reign."
+        }
+      ]
     },
     {
       "id": "eric-i-of-denmark",
@@ -58614,7 +59255,13 @@
           "displayName": "Niels of Denmark",
           "note": "His brother, the last and longest-reigning of the sons of Sweyn."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Evergood",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "niels-of-denmark",
@@ -59045,7 +59692,14 @@
           "displayName": "Eric III of Denmark",
           "note": "His nephew \"the Lamb\", who succeeded on Eric II's murder."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Emune",
+          "type": "byname",
+          "note": "'The Memorable'."
+        }
+      ]
     },
     {
       "id": "eric-iii-of-denmark",
@@ -59257,7 +59911,13 @@
           "displayName": "Sweyn III of Denmark",
           "note": "His abdication in 1146 split the realm between the rival kings Sweyn III and Canute V, opening the war of the three kings."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Lamb",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "sweyn-iii-of-denmark",
@@ -59480,7 +60140,14 @@
           "displayName": "Valdemar I of Denmark",
           "note": "Who escaped the Bloodfeast of Roskilde, defeated and killed Sweyn at Grathe Heath, and reunited Denmark. (Their co-rival Canute V was murdered at Roskilde in 1157.)"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Grathe",
+          "type": "posthumous epithet",
+          "note": "From Grathe Heath, where he was defeated and killed."
+        }
+      ]
     },
     {
       "id": "aethelstan",
@@ -59730,6 +60397,12 @@
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Tomb_of_Athelstan_in_Malmesbury_Abbey.jpg",
           "note": "The effigy is a 15th-century memorial, not a contemporary likeness; the burial at Malmesbury, away from the Wessex dynastic church at Winchester, was Æthelstan’s own deliberate choice."
+        }
+      ],
+      "epithets": [
+        {
+          "name": "the Glorious",
+          "type": "later epithet"
         }
       ]
     },
@@ -60373,7 +61046,13 @@
           "displayName": "Edgar the Peaceful",
           "note": "His younger brother, already king of Mercia after the division of 957, who reunited the realm."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "All-Fair",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "edgar-the-peaceful",
@@ -60593,7 +61272,13 @@
           "displayName": "Edward the Martyr",
           "note": "His elder son, whose disputed succession and murder would trouble the realm."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Peaceful",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "edward-the-martyr",
@@ -60803,7 +61488,13 @@
           "displayName": "Æthelred the Unready",
           "note": "His half-brother, the sole beneficiary of his murder, who took the throne in 978."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Martyr",
+          "type": "religious epithet"
+        }
+      ]
     },
     {
       "id": "aethelred-the-unready",
@@ -61032,7 +61723,14 @@
           "displayName": "Edmund Ironside",
           "note": "His son, who fought on against Cnut. (Sweyn Forkbeard had briefly conquered England as king in 1013–1014.)"
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Unready",
+          "type": "hostile epithet",
+          "note": "Old English Unræd, 'ill-counselled' — a hostile pun on his name coined after his death; not 'unprepared'."
+        }
+      ]
     },
     {
       "id": "henry-i-of-england",
@@ -61270,7 +61968,13 @@
           "displayName": "Stephen of England",
           "note": "His nephew, who took the crown over Henry's designated heir, his daughter the Empress Matilda, opening the Anarchy."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "Beauclerc",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "stephen-of-england",
@@ -65184,7 +65888,13 @@
           "displayName": "Valdemar of Sweden",
           "note": "The son of Birger Jarl, who took the throne on Eric's death, founding the Bjälbo dynasty."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Lisp and Lame",
+          "type": "later epithet"
+        }
+      ]
     },
     {
       "id": "ulf-fase",
@@ -66869,7 +67579,13 @@
           "displayName": "Alfonso VIII of Castile",
           "note": "His infant son, whose long minority became a violent contest for the regency."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Desired",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "henry-i-of-castile",
@@ -67279,7 +67995,13 @@
           "displayName": "Peter of Castile",
           "note": "His legitimate son, \"the Cruel\", whose reign was consumed by war with Alfonso's illegitimate Trastámara sons."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Avenger",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "emeric-of-hungary",
@@ -67941,7 +68663,14 @@
           "displayName": "Casimir IV Jagiellon",
           "note": "His younger brother, who took the Polish throne after the three-year interregnum that followed Władysław's death at Varna."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "of Varna",
+          "type": "posthumous epithet",
+          "note": "Polish Warneńczyk — from the battle where he fell."
+        }
+      ]
     },
     {
       "id": "skirgaila",
@@ -68589,7 +69318,13 @@
           "displayName": "Jadwiga of Poland",
           "note": "His younger daughter, crowned \"king\" of Poland, whose marriage to Jogaila founded the Jagiellonian dynasty."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Great",
+          "type": "epithet"
+        }
+      ]
     },
     {
       "id": "stefan-lazarevic",
@@ -68819,7 +69554,13 @@
           "displayName": "Đurađ Branković",
           "note": "His nephew, whom Stefan named heir and who ruled the despotate until the Ottoman conquest neared."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Tall",
+          "type": "byname"
+        }
+      ]
     },
     {
       "id": "yaropolk-i-of-kiev",
@@ -69865,7 +70606,14 @@
           "displayName": "Hugh Capet",
           "note": "Elected king by the magnates after Louis died childless, founding the Capetian dynasty and ending Carolingian rule in France."
         }
-      }
+      },
+      "epithets": [
+        {
+          "name": "the Do-Nothing",
+          "type": "hostile epithet",
+          "note": "Le Fainéant — a later hostile label for his brief, powerless reign."
+        }
+      ]
     },
     {
       "id": "henry-count-of-portugal",

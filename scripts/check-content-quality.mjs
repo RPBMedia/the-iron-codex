@@ -486,6 +486,112 @@ function validateRulerSuccession(entry, label) {
   }
 }
 
+// Hard failure: curated nicknames/epithets and age-at-death sanity.
+// `epithets`, when present, must be a non-empty array of typed entries with
+// short notes; names must be nicknames, never formal titles or dynasty names.
+// `deathAge` must be a normalized value ("N", "about N", "probably over N",
+// or contain "unknown") with no false precision against the birth/death dates.
+// See CLAUDE.md "Ruler Nicknames, Epithets, and Age at Death".
+const EPITHET_TYPES = new Set([
+  'byname', 'epithet', 'later epithet', 'translated byname', 'hostile epithet',
+  'legendary epithet', 'posthumous epithet', 'religious epithet', 'honorific', 'uncertain'
+])
+const EPITHET_TITLE_RE = /^(king|queen|emperor|sultan|duke|count|prince|lord|earl) of /i
+// Dynasty/family names are not nicknames — a small trap set of the likeliest offenders.
+const EPITHET_DYNASTY_TRAPS = new Set([
+  'palaiologos', 'komnenos', 'doukas', 'angelos', 'plantagenet', 'capet', 'jagiełło',
+  'jagiello', 'trastámara', 'trastamara', 'valois', 'habsburg', 'rurikid', 'bonde', 'de brus'
+])
+// Real child monarchs whose curated age is legitimately under 10.
+const CHILD_RULER_AGES_OK = new Set(['baldwin-v-of-jerusalem', 'margaret-maid-of-norway'])
+
+function validateEpithetsAndAge(entry, label) {
+  if ('epithets' in entry) {
+    const eps = entry.epithets
+    if (!Array.isArray(eps) || !eps.length) {
+      findings.push({ collection: 'characters', article: label, path: 'epithets', pattern: 'epithets must be a non-empty array when present (remove the field instead of leaving it empty)', snippet: '' })
+    } else {
+      const seen = new Set()
+      eps.forEach((ep, i) => {
+        const p = `epithets[${i}]`
+        if (!ep || typeof ep.name !== 'string' || !ep.name.trim()) {
+          findings.push({ collection: 'characters', article: label, path: p, pattern: 'epithet missing a non-empty string name', snippet: JSON.stringify(ep ?? null).slice(0, 120) })
+          return
+        }
+        const name = ep.name.trim()
+        if (!EPITHET_TYPES.has(ep.type)) {
+          findings.push({ collection: 'characters', article: label, path: `${p}.type`, pattern: `epithet type missing or invalid (use ${[...EPITHET_TYPES].join('/')})`, snippet: String(ep.type ?? '') })
+        }
+        if (ep.note !== undefined && (typeof ep.note !== 'string' || !ep.note.trim())) {
+          findings.push({ collection: 'characters', article: label, path: `${p}.note`, pattern: 'epithet note must be a non-empty string when present', snippet: name })
+        }
+        if (typeof ep.note === 'string' && ep.note.length > 200) {
+          findings.push({ collection: 'characters', article: label, path: `${p}.note`, pattern: `epithet note too long (${ep.note.length} chars; max 200)`, snippet: ep.note.slice(0, 120) })
+        }
+        const key = name.toLowerCase()
+        if (seen.has(key)) {
+          findings.push({ collection: 'characters', article: label, path: p, pattern: 'duplicate epithet name (case-insensitive)', snippet: name })
+        }
+        seen.add(key)
+        if (EPITHET_TITLE_RE.test(name)) {
+          findings.push({ collection: 'characters', article: label, path: p, pattern: 'epithet looks like a formal title, not a nickname', snippet: name })
+        }
+        if (EPITHET_DYNASTY_TRAPS.has(key)) {
+          findings.push({ collection: 'characters', article: label, path: p, pattern: 'epithet is a dynasty/family name, not a nickname', snippet: name })
+        }
+      })
+    }
+  }
+
+  if (entry.deathAge === undefined || entry.deathAge === null) return
+  const v = String(entry.deathAge).trim()
+  if (/unknown/i.test(v)) return // "unknown" (and variants) render nothing and are exempt
+  const m = v.match(/^(about |probably over )?(\d{1,3})$/)
+  if (!m) {
+    findings.push({ collection: 'characters', article: label, path: 'deathAge', pattern: 'deathAge not in a normalized form ("N", "about N", "probably over N", or a value containing "unknown")', snippet: v })
+    return
+  }
+  const age = Number(m[2])
+  if ((age < 10 && !CHILD_RULER_AGES_OK.has(entry.id)) || age > 100) {
+    findings.push({ collection: 'characters', article: label, path: 'deathAge', pattern: `implausible deathAge ${age} (allowed 10–100 unless a documented child monarch)`, snippet: v })
+  }
+  const birthDate = String(entry.birth?.date ?? '').trim()
+  if (!m[1] && /^(c\.|circa|unknown)/i.test(birthDate)) {
+    findings.push({ collection: 'characters', article: label, path: 'deathAge', pattern: `exact deathAge "${v}" with approximate/unknown birth date "${birthDate}" (false precision — use "about N")`, snippet: v })
+  }
+  const deathDate = String(entry.death?.date ?? '').trim()
+  if (!deathDate || /^unknown/i.test(deathDate)) {
+    findings.push({ collection: 'characters', article: label, path: 'deathAge', pattern: `numeric deathAge "${v}" but death date is unknown`, snippet: deathDate })
+  }
+}
+
+// Hard-checked curated epithets (the feature's canonical examples) and the two
+// canonical no-epithet articles (family/dynasty names are not nicknames).
+const REQUIRED_EPITHETS = [
+  ['edward-i-of-england', 'Longshanks'],
+  ['richard-the-lionheart', 'the Lionheart'],
+  ['william-the-conqueror', 'the Conqueror'],
+  ['alfred-the-great', 'the Great'],
+  ['cnut-the-great', 'the Great'],
+  ['harald-fairhair', 'Fairhair'],
+  ['harald-hardrada', 'Hardrada'],
+  ['charles-martel', 'the Hammer (Martel)']
+]
+const FORBIDDEN_EPITHETS = ['robert-the-bruce', 'constantine-xi-palaiologos']
+
+function validateRequiredEpithets() {
+  const chById = new Map(data.characters.map(c => [c.id, c]))
+  for (const [cid, name] of REQUIRED_EPITHETS) {
+    const c = chById.get(cid)
+    const has = (c?.epithets ?? []).some(ep => (ep?.name ?? '').trim().toLowerCase() === name.toLowerCase())
+    if (!has) findings.push({ collection: 'characters', article: cid, path: 'epithets', pattern: `required epithet missing: ${cid} must carry "${name}"`, snippet: '' })
+  }
+  for (const cid of FORBIDDEN_EPITHETS) {
+    const c = chById.get(cid)
+    if (c && 'epithets' in c) findings.push({ collection: 'characters', article: cid, path: 'epithets', pattern: `forbidden epithets field on ${cid} (family/dynasty names are not nicknames — this article must have no Nicknames card)`, snippet: '' })
+  }
+}
+
 // Hard failure: battle/siege leaders must not carry broken links. If a leader has
 // a slug/personId it must resolve to a real Person article (never a non-person or
 // self-link). Plus the explicit required leader links the task mandates.
@@ -858,6 +964,7 @@ for (const [collection, entries] of Object.entries(data)) {
       validateCharacterPersonality(entry, labelFor(entry))
       validateRulerSuccession(entry, labelFor(entry))
       validatePersonBattles(entry, labelFor(entry))
+      validateEpithetsAndAge(entry, labelFor(entry))
     }
 
     if (collection === 'events') {
@@ -895,6 +1002,7 @@ for (const [collection, entries] of Object.entries(data)) {
 }
 
 validateRequiredLinks()
+validateRequiredEpithets()
 
 for (const [text, articles] of paragraphArticles) {
   if (articles.size > 1) {

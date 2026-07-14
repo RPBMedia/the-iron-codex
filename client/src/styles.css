@@ -1389,6 +1389,23 @@ button.back-link:focus-visible {
   line-height: 1.35;
 }
 
+.fact-nicknames {
+  display: grid;
+  gap: 8px;
+}
+
+.fact-nickname-name {
+  display: block;
+}
+
+.fact-nickname small {
+  margin-top: 2px;
+}
+
+.death-age-aside {
+  font-weight: 400;
+}
+
 .fact-strip a,
 .leader-list a {
   color: #8f6b1d;

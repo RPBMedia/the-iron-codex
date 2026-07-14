@@ -563,6 +563,7 @@ function PersonQuickFacts({ article }) {
     { label: 'Died', value: renderDeath(article) },
     { label: 'Resting place', value: article.restingPlace },
     { label: 'Titles', value: article.roles?.join(', ') },
+    { label: 'Nicknames', value: renderEpithets(article) },
     { label: 'Realm / polity', value: article.quickFacts?.realm },
     { label: 'Dynasty / house', value: article.quickFacts?.dynasty },
     { label: 'Culture', value: article.quickFacts?.culture },
@@ -1022,6 +1023,7 @@ function renderBirth(article) {
 function renderDeath(article) {
   const death = article.death
   const fallback = formatDeath(article)
+  const age = normalizeDeathAge(article.deathAge)
 
   if (!death) {
     return fallback
@@ -1044,7 +1046,59 @@ function renderDeath(article) {
       )}
       {death.circumstance && <small>{renderLinkedText(death.circumstance, article)}</small>}
       {death.note && <small>{death.note}</small>}
+      {age && (
+        <small className="death-age">
+          {age.display}
+          {age.aside && <span className="death-age-aside"> — {age.aside}</span>}
+        </small>
+      )}
     </>
+  )
+}
+
+// Normalizes the curated deathAge string into a renderable "Aged ..." line.
+// "68" -> "Aged 68"; "about 66" / "c. 62" -> "Aged about 66/62"; "probably
+// over 70" -> "Aged probably over 70". Any value containing "unknown" renders
+// nothing. A trailing parenthetical ("c. 68 (traditional chronology; uncertain)")
+// becomes secondary text after an em dash. Never computed from the numeric
+// `born` field — saga births are stored as pseudo-precise numbers.
+function normalizeDeathAge(deathAge) {
+  const raw = String(deathAge ?? '').trim()
+
+  if (!raw || /unknown/i.test(raw)) return null
+
+  const parenMatch = raw.match(/^([^(]*?)\s*\(([^)]*)\)\s*$/)
+  const main = (parenMatch ? parenMatch[1] : raw).trim()
+  const aside = parenMatch ? parenMatch[2].trim() : ''
+
+  let match
+  if ((match = main.match(/^(\d{1,3})$/))) {
+    return { display: `Aged ${match[1]}`, aside }
+  }
+  if ((match = main.match(/^(?:about|c\.|circa)\s*(\d{1,3})$/i))) {
+    return { display: `Aged about ${match[1]}`, aside }
+  }
+  if ((match = main.match(/^probably over\s*(\d{1,3})$/i))) {
+    return { display: `Aged probably over ${match[1]}`, aside }
+  }
+
+  return null
+}
+
+// Renders the curated epithets field as the Nicknames fact card content.
+// Returns null when the article has no epithets, so the card never renders empty.
+function renderEpithets(article) {
+  if (!article.epithets?.length) return null
+
+  return (
+    <div className="fact-nicknames">
+      {article.epithets.map((epithet) => (
+        <div className="fact-nickname" key={epithet.name}>
+          <span className="fact-nickname-name">{epithet.name}</span>
+          {epithet.note && <small>{epithet.note}</small>}
+        </div>
+      ))}
+    </div>
   )
 }
 
@@ -1101,7 +1155,9 @@ function renderKingdom(article) {
 
 function formatDeath(article) {
   const year = article.died ?? 'Unknown'
-  const age = article.deathAge ? `, age ${article.deathAge}` : ''
+  // Only meaningful, normalized ages appear — never ", age unknown".
+  const normalizedAge = normalizeDeathAge(article.deathAge)
+  const age = normalizedAge ? `, ${normalizedAge.display.charAt(0).toLowerCase()}${normalizedAge.display.slice(1)}` : ''
   const cause = article.causeOfDeath ? `, ${article.causeOfDeath}` : ''
 
   return `${year}${age}${cause}`

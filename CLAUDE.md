@@ -210,6 +210,37 @@ List every faction leader; verify each named leader has a Person article (create
 ### New ruler Person article checklist (succession)
 Identify the primary ruling office; add predecessor and successor entries; for each named predecessor/successor, decide **scope** (476–1453): if **in scope**, create a full-quality Person article and **link** it — then audit *that* new page's own predecessor/successor (iterative chaining) until every end reaches a linked ruler, a first holder, an unknown/disputed state, or the 476–1453 boundary; if **out of scope**, mark `{ status: "outside-scope", displayName, note }` explaining why. Handle none/unknown/disputed/fragmented explicitly with a status + note. Regenerate links (`node scripts/gen-entity-links.mjs`) and run `npm run check:content-quality`.
 
+## Ruler Nicknames, Epithets, and Age at Death
+
+Person articles may carry a curated `epithets` field, rendered as a **Nicknames** card in `PersonQuickFacts` (DetailPage.jsx), and a curated `deathAge` field, rendered as an "Aged …" line on the Died card (`renderDeath`/`normalizeDeathAge`). Both are enforced by `npm run check:content-quality` (`validateEpithetsAndAge` + `validateRequiredEpithets`, hard-failing).
+
+**Data shape** (on the character in `server/data/history.json`):
+
+```json
+"epithets": [
+  { "name": "Longshanks", "type": "byname", "note": "Referring to his unusual height." },
+  { "name": "Hammer of the Scots", "type": "later epithet", "note": "From the 16th-century tomb inscription — Scottorum malleus — not contemporary usage." }
+]
+```
+
+Allowed `type` values: `byname` | `epithet` | `later epithet` | `translated byname` | `hostile epithet` | `legendary epithet` | `posthumous epithet` | `religious epithet` | `honorific` | `uncertain`. Notes are fact-card scale (aim <160 chars; validator hard-caps at 200).
+
+**Nickname rules:**
+- The Nicknames card may show **only historically established** nicknames, bynames, and epithets. Never invent one, and never add modern fan labels.
+- Titles, dynasty/house names, disambiguators, and patronymics are **not** nicknames. **Robert the Bruce** ("the Bruce" = the family name de Brus) and **Constantine XI Palaiologos** (dynasty name) are the canonical no-card examples — the validator hard-fails if either ever gains an `epithets` field. There is no forced card: most rulers have none.
+- Multiple epithets are allowed (Edward I: Longshanks + Hammer of the Scots; contested pairs like Peter of Castile's "the Cruel" / "the Just" carry both, each typed).
+- Later, hostile, legendary, translated, and uncertain epithets must be **typed** accordingly and, where the label alone would mislead, carry a short note saying where the name comes from ("First attested in ninth-century sources after his death…").
+- `aliases` stays as the search/auto-linker field; it mixes spelling variants and patronymics and is **not** machine-separable into nicknames — epithets are always curated by hand into the new field.
+- Validator rules: `epithets` must be a non-empty array of `{ name, type, note? }` with a valid type; no case-insensitive duplicate names per person; note ≤ 200 chars; names must not look like formal titles (`/^(king|queen|emperor|sultan|duke|count|prince|lord|earl) of /i`) or match the dynasty trap set (Palaiologos, Komnenos, Doukas, Plantagenet, Capet, Jagiełło, Trastámara, Valois, Habsburg, Bonde, …); the curated `REQUIRED_EPITHETS` list (Edward I → Longshanks, Richard I → the Lionheart, William I → the Conqueror, Alfred → the Great, Cnut → the Great, Harald Fairhair → Fairhair, Harald Hardrada → Hardrada, Charles Martel → the Hammer (Martel)) is hard-checked.
+
+**Age at death rules:**
+- The Died card shows age **only** when it is responsibly calculable, from the curated `deathAge` string — never computed from the numeric `born` field (saga and chronicle births are stored as pseudo-precise numbers).
+- Normalized `deathAge` forms: `"68"` (exact — allowed only when `birth.date` is not "c."/"circa"/"Unknown"), `"about 66"` (year-level or approximate dates), `"probably over 70"`, or any value containing `"unknown"` (renders nothing).
+- Rendering: `"68"` → "Aged 68"; `"about 66"` → "Aged about 66"; `"probably over 70"` → "Aged probably over 70"; a parenthetical qualifier renders as smaller secondary text after an em dash. No age line when birth or death is unknown — and never ", age unknown" (the old `formatDeath` hazard, fixed).
+- Validator rules: non-"unknown" `deathAge` must match the normalized forms; numeric part 10–100 (documented child monarchs Baldwin V and Margaret, Maid of Norway are the only exceptions); an exact plain number requires a non-circa `birth.date`; any numeric age requires a known `death.date`.
+- Reference examples: Edward I (Longshanks, Hammer of the Scots) aged 68; Richard I (the Lionheart) aged 41; William I (the Conqueror) aged about 59; Alfred the Great aged 50; Harald Hardrada aged about 51; Afonso I of Portugal aged about 76.
+- ~70 rulers still carry `deathAge: "unknown"` pending per-ruler review — that is the documented backlog; do **not** blanket-fill them from `born`.
+
 ## People-to-Battle Linking Rules
 
 Every Person article must be checked for the battles, sieges, campaigns, conquests, invasions, revolts, and military events the person is historically tied to, and those events must be **linked** from the article. This applies to **every existing Person article and every new one added in the future** — a new Person article is **not complete** until this check has been done. Enforced by `npm run check:content-quality`, which hard-fails when a person listed as a commander/participant of a Battle/Siege article omits that battle from related entries, and on a fixed set of required marquee pairs.
