@@ -854,10 +854,17 @@ app.use((_req, res) => {
   res.sendFile(path.join(clientDist, 'index.html'))
 })
 
-const server = app.listen(port, () => {
-  console.log(`Medieval History API running on http://localhost:${port}`)
-})
+// On Vercel (and any serverless host) the platform invokes the exported app
+// directly — we must NOT bind a port. Only start a listener for local/native
+// runs where VERCEL is unset.
+if (!process.env.VERCEL) {
+  const server = app.listen(port, () => {
+    console.log(`Medieval History API running on http://localhost:${port}`)
+  })
 
-server.on('error', (error) => {
-  console.error('Medieval History API failed to start:', error)
-})
+  server.on('error', (error) => {
+    console.error('Medieval History API failed to start:', error)
+  })
+}
+
+export default app

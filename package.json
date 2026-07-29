@@ -2,6 +2,7 @@
   "name": "medieval-history-app",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "A mobile-friendly medieval European history app built with React and Node.js.",
   "scripts": {
     "install:all": "npm install --prefix server && npm install --prefix client",
@@ -11,5 +12,12 @@
     "check:content-quality": "node scripts/check-content-quality.mjs",
     "check:images": "node scripts/check-images.mjs",
     "start": "npm start --prefix server"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }
