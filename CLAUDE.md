@@ -801,3 +801,29 @@ Every `weaponsArmor` article must populate:
 - Use duplicate images across multiple articles
 - Set `image.src` to a Wikimedia file page URL
 - Add a W&A article that omits `battlefieldRole`
+
+## Medieval Location Image Rules
+
+IronCodex is a medieval-history archive. Location and city articles must visually represent the place as it existed, appeared, or was understood during the Middle Ages — never a generic modern depiction. Enforced by `npm run check:images` (`validateMedievalLocationImage`): a location primary image hard-fails if it is a known banned modern-cityscape file, or if its caption/metadata describes a generic modern cityscape (contains "skyline", "cityscape", "modern city view", "modern city panorama", "town panorama", "downtown", "modern montage", "aerial view of the city", etc.). A `medievalLocationImageAllowlist` holds reviewed exceptions (e.g. a natural-landscape Region). An advisory warning fires when a City/Town main image is a modern photo naming no medieval subject.
+
+Rules:
+
+- Location, city, kingdom, polity, duchy, county, empire, sultanate, principality, and region articles must not use generic modern city images as main images.
+- Main images for medieval locations should visually represent the medieval place, medieval urban fabric, medieval political geography, or surviving medieval structures.
+- Generic modern skylines, aerial city photos, streets, tourist views, roads, cars, modern buildings, and contemporary panoramas are not acceptable as main images.
+- A modern photograph is acceptable only when the medieval subject is clearly the focus, such as a castle, citadel, cathedral, mosque, wall, gate, old quarter, ruin, bridge, battlefield, palace, or medieval monument.
+- If no medieval depiction exists, prefer a surviving medieval structure, archaeological remain, old city feature, or historically relevant map. A contemporary object minted/made in the place (e.g. a medieval coin) is an honest last resort when no medieval view survives (see Tikrit).
+- Captions must honestly explain what the image shows and whether it is modern, later, reconstructed, or medieval.
+- Do not imply that a modern photo shows the city as it looked in the Middle Ages.
+- Damascus must not use a generic modern city image; it should use a medieval-relevant image such as the Damascus Citadel (Ayyubid-era), the Umayyad Mosque, medieval walls/gates, a map, or a historical depiction.
+- Image source metadata must include caption, creator if known, date if known, source/collection, source URL, license/public-domain note, and context note.
+- Captions and source boxes must never cut into or cover images.
+
+**Bad:** Damascus article uses a modern skyline or contemporary city panorama (e.g. the Mount Qasioun night view) as the main image.
+**Good:** Damascus article uses the Damascus Citadel, the Umayyad Mosque, a medieval map of Syria, a medieval manuscript depiction, or another clearly medieval-associated image, with an honest caption.
+
+**Bad:** A Kingdom of France page uses a modern Paris skyline.
+**Good:** A Kingdom of France page uses a medieval map, royal manuscript image, coronation image, Saint-Denis, a royal seal, or a medieval city/fortification image.
+
+**Bad:** A city article uses a modern street scene because it is geographically accurate.
+**Good:** A city article uses a medieval gate, wall, old quarter, cathedral, mosque, castle, citadel, or historical map.

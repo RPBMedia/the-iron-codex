@@ -35,6 +35,51 @@ const weaponsArmorFullObjectFallbackAllowlist = new Set([
   'buckler' // MS I.33 depiction; no clear photograph of a surviving plain medieval buckler found on Commons
 ])
 
+// --- Medieval location image guard (see CLAUDE.md "Medieval Location Image Rules") ---
+// Location/city/polity MAIN images must depict the medieval place or surviving
+// medieval fabric — never a generic modern skyline, aerial, or cityscape.
+const urbanLocationTypes = new Set(['city', 'town'])
+// Reviewed exceptions where a modern/landscape image is acceptable (not an urban cityscape).
+const medievalLocationImageAllowlist = new Set([
+  'flensburg-fjord' // natural fjord landscape (death-place of Margaret I); not an urban cityscape
+])
+// Known modern-cityscape files removed from location articles — must never return.
+const bannedModernLocationImagePattern =
+  /Damascus_from_qasioun|Winchester_Montage|Oxford_-_panoramio|Selimiye_Mosque_and_The_Statue|Gebze_manzarasi|1036893699710410/i
+// Strong phrases that, in a location MAIN image's caption/metadata, betray a
+// generic modern city view. These hard-fail REGARDLESS of other wording — the
+// article is always about a medieval place, so a stray "medieval" in the note
+// must not excuse a "skyline"/"cityscape" caption.
+const modernCityscapePattern =
+  /(modern city view|modern city panorama|modern photograph of the city|modern skyline|\bskyline\b|\bcityscape\b|modern montage|modern photographic montage|town panorama|modern townscape|contemporary cityscape|\bdowntown\b|aerial view of (the )?(modern )?(city|downtown))/i
+// Keywords proving a (possibly modern) photo is focused on a medieval subject.
+const medievalSubjectPattern =
+  /(mosque|cathedral|church|basilica|chapel|citadel|castle|fortress|\bfort\b|\bwalls?\b|\bgate\b|\btower\b|\bkeep\b|abbey|monaster|minster|priory|cloister|\bruins?\b|\btomb\b|palace|bridge|manuscript|\bmap\b|medieval|gothic|romanesque|norman|byzantine|umayyad|abbasid|ayyubid|seljuk|mamluk|old town|old city|\bquarter\b|monument|effigy|\bhall\b|\bcoin\b|dirham|\bseal\b|engraving|fresco|mosaic)/i
+
+function validateMedievalLocationImage(article, entry, primaryImageField) {
+  if (medievalLocationImageAllowlist.has(entry.id)) return
+  const src = stringValue(entry[primaryImageField]) || ''
+  const info = entry.imageInfo || {}
+  const text = [info.caption, info.note, info.date].map(stringValue).join(' ')
+  const type = String(entry.locationType || '').toLowerCase()
+
+  if (bannedModernLocationImagePattern.test(decodeImageFilename(src)) || bannedModernLocationImagePattern.test(src)) {
+    addFinding('locations', article, primaryImageField,
+      'main image is a known modern-cityscape file banned for medieval location articles (see CLAUDE.md Medieval Location Image Rules). Use a medieval monument, surviving fabric, manuscript, or historical map.', src)
+    return
+  }
+  if (modernCityscapePattern.test(text)) {
+    addFinding('locations', article, primaryImageField,
+      'main image caption/metadata describes a generic modern cityscape (skyline/aerial/panorama) — not allowed as a medieval location main image (see CLAUDE.md Medieval Location Image Rules). Use a medieval monument, surviving fabric, manuscript, or historical map.', src)
+    return
+  }
+  // Advisory: an urban location whose main image is a modern photo naming no
+  // medieval subject is suspicious even if it doesn't self-describe as a skyline.
+  if (urbanLocationTypes.has(type) && /\bmodern\b/i.test(text) && !medievalSubjectPattern.test(text)) {
+    warnings.push(`locations/${entry.id}: City/Town main image looks like a modern photo with no medieval subject named in the caption — verify it depicts medieval fabric (see CLAUDE.md).`)
+  }
+}
+
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue
 
@@ -61,6 +106,10 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'weaponsArmor' && primaryImageField) {
       validateWeaponsArmorFullObject(article, entry)
+    }
+
+    if (collection === 'locations' && primaryImageField) {
+      validateMedievalLocationImage(article, entry, primaryImageField)
     }
 
     ;(entry.sectionImages ?? []).forEach((image, imageIndex) => {
