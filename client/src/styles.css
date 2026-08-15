@@ -2548,3 +2548,166 @@ button.back-link:focus-visible {
     width: 100%;
   }
 }
+
+/* ---- House family tree ------------------------------------------------- */
+.house-tree-caption {
+  color: #686d76;
+  font-size: 0.92rem;
+  margin: 0 0 4px;
+}
+
+.house-tree {
+  overflow-x: auto;
+  padding: 6px 4px 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.house-tree ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 28px 0 0;
+  list-style: none;
+}
+
+.house-tree > ul {
+  padding-top: 6px;
+}
+
+.house-tree li {
+  list-style: none;
+  position: relative;
+  padding: 28px 12px 0;
+  text-align: center;
+}
+
+/* Connectors: a horizontal rule linking siblings + vertical risers. */
+.house-tree li::before,
+.house-tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 28px;
+  border-top: 1.5px solid rgba(141, 147, 159, 0.5);
+}
+
+.house-tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 1.5px solid rgba(141, 147, 159, 0.5);
+}
+
+.house-tree li:only-child::before,
+.house-tree li:only-child::after {
+  display: none;
+}
+
+.house-tree li:only-child {
+  padding-top: 28px;
+}
+
+.house-tree li:first-child::before,
+.house-tree li:last-child::after {
+  border: 0 none;
+}
+
+.house-tree li:last-child::before {
+  border-right: 1.5px solid rgba(141, 147, 159, 0.5);
+  border-radius: 0 6px 0 0;
+}
+
+.house-tree li:first-child::after {
+  border-radius: 6px 0 0 0;
+}
+
+.house-tree ul ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 28px;
+  border-left: 1.5px solid rgba(141, 147, 159, 0.5);
+}
+
+.house-tree .tree-node {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.house-tree .tree-person {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 118px;
+  max-width: 172px;
+  padding: 8px 10px;
+  border: 1px solid rgba(215, 217, 221, 0.7);
+  border-radius: 6px;
+  background: rgba(245, 241, 232, 0.95);
+  text-align: center;
+  text-decoration: none;
+}
+
+.house-tree .tree-person-main {
+  border-left: 3px solid var(--red);
+}
+
+.house-tree .tree-person-spouse {
+  background: rgba(245, 241, 232, 0.55);
+  border-style: dashed;
+}
+
+a.tree-person:hover {
+  border-color: var(--gold);
+}
+
+.tree-person-name {
+  font-weight: 850;
+  font-size: 0.9rem;
+  color: var(--black);
+}
+
+a.tree-person .tree-person-name {
+  color: #8f6b1d;
+}
+
+a.tree-person:hover .tree-person-name {
+  text-decoration: underline;
+}
+
+.tree-person-note {
+  font-size: 0.72rem;
+  color: #6d717a;
+}
+
+.tree-marriage {
+  align-self: center;
+  color: var(--silver-dim);
+  font-size: 0.95rem;
+}
+
+.tree-branch {
+  margin: 6px 0 0;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+@media (max-width: 640px) {
+  .house-tree .tree-person {
+    min-width: 98px;
+    max-width: 140px;
+    padding: 6px 8px;
+  }
+
+  .tree-person-name {
+    font-size: 0.82rem;
+  }
+}

@@ -501,16 +501,25 @@ function HouseContent({ article }) {
     ? article.contentSections
     : [{ title: 'Overview', paragraphs: [article.overview, article.summary].filter(Boolean) }]
 
+  // The family tree renders immediately after the "Origins" section (or, if
+  // there is no such section, after the first one).
+  const originsIndex = Math.max(
+    0,
+    sections.findIndex((section) => /origin/i.test(section.title ?? ''))
+  )
+
   return (
     <>
       {sections.map((section, index) => (
-        <ArticleSection
-          key={section.title}
-          className={index === 0 ? 'overview-section' : ''}
-          title={section.title}
-          paragraphs={section.paragraphs}
-          article={article}
-        />
+        <div key={section.title}>
+          <ArticleSection
+            className={index === 0 ? 'overview-section' : ''}
+            title={section.title}
+            paragraphs={section.paragraphs}
+            article={article}
+          />
+          {index === originsIndex && <HouseTree article={article} />}
+        </div>
       ))}
       <HouseMembers members={article.notableMembers} />
       <HouseCadetBranches branches={article.cadetBranches} article={article} />
@@ -519,6 +528,68 @@ function HouseContent({ article }) {
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
+}
+
+function shortHouseName(article) {
+  return (article.name ?? '').replace(/^House of\s+/i, '').trim() || article.name
+}
+
+function HouseTree({ article }) {
+  const tree = article.familyTree
+  if (!tree?.root) return null
+
+  const heading = tree.title ?? `${shortHouseName(article)} family tree`
+
+  return (
+    <section className="bio-section house-tree-section">
+      <h2>{heading}</h2>
+      {tree.caption && <p className="house-tree-caption">{tree.caption}</p>}
+      <div className="house-tree" role="group" aria-label={heading}>
+        <ul>
+          <HouseTreeNode node={tree.root} />
+        </ul>
+      </div>
+    </section>
+  )
+}
+
+function HouseTreeNode({ node }) {
+  return (
+    <li>
+      <div className="tree-node">
+        <HouseTreePerson person={node} variant="main" />
+        {node.spouse && (
+          <>
+            <span className="tree-marriage" title="married" aria-label="married">⚭</span>
+            <HouseTreePerson person={node.spouse} variant="spouse" />
+          </>
+        )}
+      </div>
+      {node.branch && <p className="tree-branch">{node.branch}</p>}
+      {node.children?.length > 0 && (
+        <ul>
+          {node.children.map((child, index) => (
+            <HouseTreeNode key={child.personSlug ?? child.name ?? index} node={child} />
+          ))}
+        </ul>
+      )}
+    </li>
+  )
+}
+
+function HouseTreePerson({ person, variant }) {
+  const inner = (
+    <>
+      <span className="tree-person-name">{person.name}</span>
+      {person.note && <span className="tree-person-note">{person.note}</span>}
+    </>
+  )
+
+  if (person.personSlug) {
+    return <Link className={`tree-person tree-person-${variant}`} to={`/people/${person.personSlug}`}>{inner}</Link>
+  }
+
+  return <span className={`tree-person tree-person-${variant}`}>{inner}</span>
 }
 
 function HouseMembers({ members }) {

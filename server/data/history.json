@@ -97441,6 +97441,157 @@
           "note": "Descended from Edmund of Langley, Duke of York; held the crown as Edward IV and Richard III during the Wars of the Roses."
         }
       ],
+      "familyTree": {
+        "caption": "The royal line of descent, from Geoffrey of Anjou and Empress Matilda through the reigning kings to the Lancastrian and Yorkist branches. Spouses are shown beside each ruler; ⚭ marks a marriage.",
+        "root": {
+          "name": "Geoffrey of Anjou",
+          "note": "Count of Anjou (d. 1151)",
+          "spouse": {
+            "name": "Empress Matilda",
+            "personSlug": "empress-matilda",
+            "note": "Heir of Henry I"
+          },
+          "children": [
+            {
+              "name": "Henry II",
+              "personSlug": "henry-ii-of-england",
+              "note": "r. 1154–1189",
+              "spouse": {
+                "name": "Eleanor of Aquitaine",
+                "personSlug": "eleanor-of-aquitaine"
+              },
+              "children": [
+                {
+                  "name": "Richard the Lionheart",
+                  "personSlug": "richard-the-lionheart",
+                  "note": "r. 1189–1199",
+                  "spouse": {
+                    "name": "Berengaria of Navarre"
+                  },
+                  "branch": "No surviving issue"
+                },
+                {
+                  "name": "John",
+                  "personSlug": "john-of-england",
+                  "note": "r. 1199–1216",
+                  "spouse": {
+                    "name": "Isabella of Angoulême"
+                  },
+                  "children": [
+                    {
+                      "name": "Henry III",
+                      "personSlug": "henry-iii-of-england",
+                      "note": "r. 1216–1272",
+                      "spouse": {
+                        "name": "Eleanor of Provence"
+                      },
+                      "children": [
+                        {
+                          "name": "Edward I",
+                          "personSlug": "edward-i-of-england",
+                          "note": "r. 1272–1307",
+                          "spouse": {
+                            "name": "Eleanor of Castile"
+                          },
+                          "children": [
+                            {
+                              "name": "Edward II",
+                              "personSlug": "edward-ii-of-england",
+                              "note": "r. 1307–1327",
+                              "spouse": {
+                                "name": "Isabella of France"
+                              },
+                              "children": [
+                                {
+                                  "name": "Edward III",
+                                  "personSlug": "edward-iii-of-england",
+                                  "note": "r. 1327–1377",
+                                  "spouse": {
+                                    "name": "Philippa of Hainault"
+                                  },
+                                  "children": [
+                                    {
+                                      "name": "Edward the Black Prince",
+                                      "personSlug": "edward-the-black-prince",
+                                      "note": "d. 1376, never king",
+                                      "spouse": {
+                                        "name": "Joan of Kent"
+                                      },
+                                      "children": [
+                                        {
+                                          "name": "Richard II",
+                                          "personSlug": "richard-ii-of-england",
+                                          "note": "r. 1377–1399, deposed",
+                                          "spouse": {
+                                            "name": "Anne of Bohemia"
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "John of Gaunt",
+                                      "note": "Duke of Lancaster",
+                                      "spouse": {
+                                        "name": "Blanche of Lancaster"
+                                      },
+                                      "branch": "House of Lancaster",
+                                      "children": [
+                                        {
+                                          "name": "Henry IV",
+                                          "personSlug": "henry-iv-of-england",
+                                          "note": "r. 1399–1413",
+                                          "spouse": {
+                                            "name": "Mary de Bohun"
+                                          },
+                                          "children": [
+                                            {
+                                              "name": "Henry V",
+                                              "personSlug": "henry-v-of-england",
+                                              "note": "r. 1413–1422",
+                                              "spouse": {
+                                                "name": "Catherine of Valois"
+                                              },
+                                              "children": [
+                                                {
+                                                  "name": "Henry VI",
+                                                  "personSlug": "henry-vi-of-england",
+                                                  "note": "r. 1422–1461, 1470–71",
+                                                  "spouse": {
+                                                    "name": "Margaret of Anjou"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Edmund of Langley",
+                                      "note": "Duke of York",
+                                      "branch": "House of York",
+                                      "children": [
+                                        {
+                                          "name": "Yorkist kings",
+                                          "note": "Edward IV & Richard III (to 1485)"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
       "contentSections": [
         {
           "title": "Origins",
