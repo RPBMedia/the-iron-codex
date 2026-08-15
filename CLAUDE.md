@@ -126,6 +126,18 @@ Rules:
 
 **Good:** "The Kingdom of Portugal emerged from the County of Portugal after Afonso Henriques defeated his mother Teresa's faction at São Mamede in 1128, asserted independence from León, and built legitimacy through frontier warfare and diplomacy. The Treaty of Zamora in 1143 strengthened his royal status, while papal recognition through Manifestis Probatum in 1179 gave the new kingdom a firmer place in Latin Christendom."
 
+### House family tree layout rules
+
+The `HouseTree` component (`HouseTree`/`HouseTreeNode`/`HouseTreePerson` in `DetailPage.jsx`, styled by the `.house-tree` block in `client/src/styles.css`) renders a house's `familyTree` as a nested genealogy. Its layout must obey these permanent rules:
+
+- House family trees must not create unnecessary horizontal overflow.
+- Horizontal scrolling is acceptable only when the visible tree genuinely exceeds the viewport.
+- The tree must not reserve oversized invisible canvas space; connector lines must not expand the page width.
+- Page-level horizontal scrolling is not acceptable.
+- On mobile, prefer a vertical/stacked dynastic sequence layout over a huge horizontal tree.
+- Do not fix overflow by hiding or cutting off content; do not remove people, spouses, cadet branches, or connectors to solve layout issues.
+- Family tree layouts must be tested on desktop and mobile, including Chrome on Windows when possible.
+
 ## Early Rus' / Varangian-Linked Figures
 
 These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, Vladimir I, or any other figure whose narrative depends heavily on the Primary Chronicle or other late medieval Rus' source traditions.

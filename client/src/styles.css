@@ -1155,6 +1155,13 @@ h2 {
 
 .detail-content-inner {
   grid-column: 1 / -1;
+  /*
+   * Grid/flex items default to min-width: auto, so a wide descendant's
+   * intrinsic (min-content) width propagates up and stretches this item —
+   * and the page — even past a nested overflow-x scroll container. min-width: 0
+   * lets scrollable descendants (the house family tree) keep their own scroll.
+   */
+  min-width: 0;
 }
 
 .detail-media {
@@ -2558,7 +2565,9 @@ button.back-link:focus-visible {
 
 .house-tree {
   overflow-x: auto;
+  max-width: 100%;
   padding: 6px 4px 8px;
+  box-sizing: border-box;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -2571,7 +2580,17 @@ button.back-link:focus-visible {
   list-style: none;
 }
 
+/*
+ * Size the root generation to its real content (max-content) and centre it with
+ * auto margins instead of justify-content on the scroll container. When the tree
+ * fits, it sits centred with no phantom scroll width; when it is genuinely wider
+ * than the panel, the auto margins collapse to 0 so the scrollbar exposes only
+ * real content and the leftmost cards stay reachable (justify-content: center
+ * would hide the left overflow).
+ */
 .house-tree > ul {
+  width: max-content;
+  margin-inline: auto;
   padding-top: 6px;
 }
 
@@ -2643,6 +2662,7 @@ button.back-link:focus-visible {
   display: inline-flex;
   flex-direction: column;
   gap: 2px;
+  box-sizing: border-box;
   min-width: 118px;
   max-width: 172px;
   padding: 8px 10px;
@@ -2700,10 +2720,106 @@ a.tree-person:hover .tree-person-name {
   color: var(--red);
 }
 
+/* Medium screens: tighten the generation/sibling gaps so the tree fits the
+   content column before falling back to horizontal scrolling. */
+@media (max-width: 900px) {
+  .house-tree ul {
+    padding-top: 22px;
+  }
+
+  .house-tree li {
+    padding: 22px 6px 0;
+  }
+
+  .house-tree li:only-child {
+    padding-top: 22px;
+  }
+
+  .house-tree li::before,
+  .house-tree li::after,
+  .house-tree ul ul::before {
+    height: 22px;
+  }
+}
+
+/* Mobile: a deep horizontal genealogy is unreadable on a narrow screen, so the
+   tree becomes a vertical, indented dynastic sequence. Every person, spouse,
+   marriage sign, cadet-branch label, and connector is preserved. */
 @media (max-width: 640px) {
+  .house-tree > ul {
+    width: auto;
+    margin: 0;
+    padding: 4px 0 0 4px;
+  }
+
+  .house-tree ul {
+    display: block;
+    padding: 0 0 0 20px;
+  }
+
+  .house-tree li {
+    padding: 12px 0 0 18px;
+    text-align: left;
+  }
+
+  .house-tree li:only-child {
+    padding-top: 12px;
+  }
+
+  /* Reset every desktop org-chart connector variant to a blank box, then draw
+     the vertical spine down each child's left edge. */
+  .house-tree li::before,
+  .house-tree li::after,
+  .house-tree li:only-child::before,
+  .house-tree li:only-child::after,
+  .house-tree li:first-child::before,
+  .house-tree li:first-child::after,
+  .house-tree li:last-child::before,
+  .house-tree li:last-child::after {
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    right: auto;
+    width: 0;
+    height: 100%;
+    border: 0;
+    border-left: 1.5px solid rgba(141, 147, 159, 0.5);
+    border-radius: 0;
+  }
+
+  /* The ::after of every variant is the horizontal tick into the node. */
+  .house-tree li::after,
+  .house-tree li:only-child::after,
+  .house-tree li:first-child::after,
+  .house-tree li:last-child::after {
+    top: 26px;
+    height: 0;
+    width: 14px;
+    border-left: 0;
+    border-top: 1.5px solid rgba(141, 147, 159, 0.5);
+  }
+
+  /* Last/only child: the vertical spine stops at the tick, not below it. */
+  .house-tree li:last-child::before,
+  .house-tree li:only-child::before {
+    height: 26px;
+  }
+
+  /* The root has no parent, so it shows no connector. */
+  .house-tree > ul > li:only-child::before,
+  .house-tree > ul > li:only-child::after {
+    display: none;
+  }
+
+  /* The parent-to-children spine is replaced by each child's own left line. */
+  .house-tree ul ul::before {
+    display: none;
+  }
+
   .house-tree .tree-person {
-    min-width: 98px;
-    max-width: 140px;
+    min-width: 92px;
+    max-width: 150px;
     padding: 6px 8px;
   }
 
