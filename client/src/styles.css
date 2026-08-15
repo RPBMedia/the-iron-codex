@@ -2597,7 +2597,7 @@ button.back-link:focus-visible {
 .house-tree li {
   list-style: none;
   position: relative;
-  padding: 28px 12px 0;
+  padding: 28px 6px 0;
   text-align: center;
 }
 
@@ -2655,17 +2655,17 @@ button.back-link:focus-visible {
 .house-tree .tree-node {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
 }
 
 .house-tree .tree-person {
   display: inline-flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
   box-sizing: border-box;
-  min-width: 118px;
-  max-width: 172px;
-  padding: 8px 10px;
+  min-width: 82px;
+  max-width: 124px;
+  padding: 5px 7px;
   border: 1px solid rgba(215, 217, 221, 0.7);
   border-radius: 6px;
   background: rgba(245, 241, 232, 0.95);
@@ -2688,7 +2688,8 @@ a.tree-person:hover {
 
 .tree-person-name {
   font-weight: 850;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  line-height: 1.2;
   color: var(--black);
 }
 
@@ -2701,14 +2702,15 @@ a.tree-person:hover .tree-person-name {
 }
 
 .tree-person-note {
-  font-size: 0.72rem;
+  font-size: 0.66rem;
+  line-height: 1.2;
   color: #6d717a;
 }
 
 .tree-marriage {
   align-self: center;
   color: var(--silver-dim);
-  font-size: 0.95rem;
+  font-size: 0.8rem;
 }
 
 .tree-branch {
