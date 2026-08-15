@@ -10,6 +10,7 @@ const collectionLabels = {
   events: 'Events',
   locations: 'Locations',
   people: 'People',
+  houses: 'Houses',
   artifacts: 'Artifacts',
   'weapons-armor': 'Weapons & Armor'
 }
@@ -65,6 +66,7 @@ export default function DetailPage() {
           {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
           {article.type === 'event' && <EventHero article={article} />}
+          {article.type === 'house' && <HouseHero article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
         </div>
       </section>
@@ -74,6 +76,7 @@ export default function DetailPage() {
           {article.type === 'character' && <PersonContent article={article} />}
           {article.type === 'location' && <LocationContent article={article} />}
           {article.type === 'event' && <EventContent article={article} />}
+          {article.type === 'house' && <HouseContent article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardContent article={article} />}
         </div>
       </section>
@@ -156,6 +159,10 @@ function articleTypeLabel(article) {
 
   if (article.type === 'weaponArmor') {
     return article.weaponArmorType ?? 'Weapons & Armor'
+  }
+
+  if (article.type === 'house') {
+    return 'Dynasty'
   }
 
   return article.type
@@ -449,6 +456,108 @@ function LocationContent({ article }) {
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
+  )
+}
+
+function HouseHero({ article }) {
+  const primarySeat = article.seats?.[0]
+  const facts = [
+    { label: 'Founded', value: article.reignSpan ?? (article.originYear ? `${article.originYear}` : null) },
+    { label: 'Origin', value: article.originPlace },
+    { label: 'Region', value: article.region },
+    {
+      label: 'Principal seat',
+      value: primarySeat
+        ? <EntryLink entry={{ type: 'location', slug: primarySeat.slug, title: primarySeat.name }}>{primarySeat.name}</EntryLink>
+        : null
+    },
+    { label: 'Arms', value: article.arms }
+  ].filter((fact) => fact.value)
+
+  return (
+    <div className="house-profile">
+      {article.founder && (
+        <p className="article-subtitle">
+          Founded by{' '}
+          {article.founder.personSlug
+            ? <EntryLink entry={{ type: 'person', slug: article.founder.personSlug, title: article.founder.displayName }}>{article.founder.displayName}</EntryLink>
+            : article.founder.displayName}
+        </p>
+      )}
+      <dl className="fact-strip rich-facts">
+        {facts.map((fact) => (
+          <div key={fact.label}>
+            <dt>{fact.label}</dt>
+            <dd>{fact.value}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  )
+}
+
+function HouseContent({ article }) {
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: [article.overview, article.summary].filter(Boolean) }]
+
+  return (
+    <>
+      {sections.map((section, index) => (
+        <ArticleSection
+          key={section.title}
+          className={index === 0 ? 'overview-section' : ''}
+          title={section.title}
+          paragraphs={section.paragraphs}
+          article={article}
+        />
+      ))}
+      <HouseMembers members={article.notableMembers} />
+      <HouseCadetBranches branches={article.cadetBranches} article={article} />
+      <Timeline items={article.timeline} />
+      <SourcesList sources={article.sources} />
+      <RelatedEntries groups={article.relatedEntries} />
+    </>
+  )
+}
+
+function HouseMembers({ members }) {
+  if (!members?.length) return null
+
+  return (
+    <section className="bio-section house-members">
+      <h2>Notable members</h2>
+      <ul className="feat-list">
+        {members.map((member) => (
+          <li key={member.personSlug ?? member.displayName}>
+            {member.personSlug
+              ? <EntryLink entry={{ type: 'person', slug: member.personSlug, title: member.displayName }}>{member.displayName}</EntryLink>
+              : <strong>{member.displayName}</strong>}
+            {member.note && <span> — {member.note}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+function HouseCadetBranches({ branches, article }) {
+  if (!branches?.length) return null
+
+  return (
+    <section className="bio-section house-cadets">
+      <h2>Cadet branches</h2>
+      <ul className="feat-list">
+        {branches.map((branch) => (
+          <li key={branch.houseSlug ?? branch.name}>
+            {branch.houseSlug
+              ? <EntryLink entry={{ type: 'house', slug: branch.houseSlug, title: branch.name }}>{branch.name}</EntryLink>
+              : <strong>{branch.name}</strong>}
+            {branch.note && <span> — {renderLinkedText(branch.note, article)}</span>}
+          </li>
+        ))}
+      </ul>
+    </section>
   )
 }
 
@@ -1120,7 +1229,9 @@ function routeForEntry(entry) {
     shield: 'weapons-armor',
     helmet: 'weapons-armor',
     famousWeapon: 'weapons-armor',
-    famousArmor: 'weapons-armor'
+    famousArmor: 'weapons-armor',
+    house: 'houses',
+    dynasty: 'houses'
   }[entry.type]
 
   return routeType && entry.slug ? `/${routeType}/${entry.slug}` : ''

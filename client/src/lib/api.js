@@ -17,15 +17,16 @@ export async function getArticle(collection, id) {
 }
 
 export async function getSearchCollections() {
-  const [events, people, locations, artifacts, weaponsArmor] = await Promise.all([
+  const [events, people, locations, artifacts, weaponsArmor, houses] = await Promise.all([
     getCollection('events'),
     getCollection('people'),
     getCollection('locations'),
     getCollection('artifacts'),
-    getCollection('weapons-armor')
+    getCollection('weapons-armor'),
+    getCollection('houses')
   ])
 
-  return { artifacts, events, locations, people, weaponsArmor }
+  return { artifacts, events, locations, people, weaponsArmor, houses }
 }
 
 export async function getAuthState() {

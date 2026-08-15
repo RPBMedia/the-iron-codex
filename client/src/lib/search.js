@@ -16,7 +16,8 @@ export function buildSearchIndex(collections) {
     ...collections.events.map((item) => normalizeEvent(item)),
     ...collections.locations.map((item) => normalizeLocation(item)),
     ...collections.artifacts.map((item) => normalizeArtifact(item)),
-    ...(collections.weaponsArmor ?? []).map((item) => normalizeWeaponArmor(item))
+    ...(collections.weaponsArmor ?? []).map((item) => normalizeWeaponArmor(item)),
+    ...(collections.houses ?? []).map((item) => normalizeHouse(item))
   ]
 }
 
@@ -266,6 +267,38 @@ function normalizeWeaponArmor(item) {
       item.battlefieldRole,
       ...(item.aliases ?? []),
       ...(item.knownFor ?? []),
+      ...relatedText(item.relatedEntries),
+      ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])])
+    ])
+  }
+}
+
+function normalizeHouse(item) {
+  return {
+    id: item.id,
+    title: item.name,
+    type: 'house',
+    typeLabel: 'Dynasty',
+    slug: item.id,
+    url: `/houses/${item.id}`,
+    description: item.summary,
+    dateLabel: item.reignSpan ?? String(item.originYear ?? ''),
+    aliases: item.aliases ?? [],
+    tags: [item.region, item.originPlace, ...(item.notableMembers ?? []).map((m) => m.displayName), ...(item.cadetBranches ?? []).map((b) => b.name)].filter(Boolean),
+    years: compactYears([item.originYear, item.endYear]),
+    timelineYears: (item.timeline ?? []).map((entry) => entry.year).filter(Boolean),
+    related: relatedText(item.relatedEntries),
+    searchableText: normalize([
+      item.name,
+      item.id,
+      item.summary,
+      item.overview,
+      item.region,
+      item.originPlace,
+      item.arms,
+      ...(item.aliases ?? []),
+      ...(item.notableMembers ?? []).map((m) => m.displayName),
+      ...(item.cadetBranches ?? []).map((b) => b.name),
       ...relatedText(item.relatedEntries),
       ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])])
     ])

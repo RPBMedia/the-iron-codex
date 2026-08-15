@@ -81,7 +81,8 @@ function collections() {
     characters: data.characters,
     locations: data.locations,
     artifacts: data.artifacts,
-    weaponsArmor: data.weaponsArmor ?? []
+    weaponsArmor: data.weaponsArmor ?? [],
+    houses: data.houses ?? []
   }
 }
 

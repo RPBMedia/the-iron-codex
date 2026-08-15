@@ -185,7 +185,8 @@ const relTypeToCollection = {
   person: 'characters', people: 'characters', character: 'characters', event: 'events',
   location: 'locations', place: 'locations', kingdom: 'locations', polity: 'locations',
   artifact: 'artifacts', document: 'artifacts', weaponArmor: 'weaponsArmor', weapon: 'weaponsArmor',
-  armor: 'weaponsArmor', shield: 'weaponsArmor', helmet: 'weaponsArmor', famousWeapon: 'weaponsArmor', famousArmor: 'weaponsArmor'
+  armor: 'weaponsArmor', shield: 'weaponsArmor', helmet: 'weaponsArmor', famousWeapon: 'weaponsArmor', famousArmor: 'weaponsArmor',
+  house: 'houses', dynasty: 'houses'
 }
 const idsByCollection = {}
 for (const [col, arr] of Object.entries(data)) {

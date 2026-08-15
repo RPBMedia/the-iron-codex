@@ -58,6 +58,9 @@ const entries = []
 for (const [col, arr] of Object.entries(data)) {
   if (!Array.isArray(arr)) continue
   const type = collectionToType[col]
+  // Skip collections without a known auto-link type (e.g. houses, whose
+  // bidirectional name-linking is handled in a later milestone).
+  if (!type) continue
   for (const a of arr) {
     const label = a.name || a.title
     if (!label || !a.id) continue

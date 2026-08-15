@@ -32,6 +32,11 @@ const collectionCopy = {
     eyebrow: 'Arms and armor',
     title: 'Weapons & Armor',
     description: 'European medieval weapons, armor, shields, helmets, and famous surviving arms.'
+  },
+  houses: {
+    eyebrow: 'Dynasties',
+    title: 'Houses',
+    description: 'The ruling dynasties and noble lineages that held the crowns and lands of medieval Europe.'
   }
 }
 
@@ -351,6 +356,15 @@ function getFilterConfigs(items, collection) {
     })
   }
 
+  if (collection === 'houses') {
+    configs.push({
+      key: 'region',
+      label: 'Region',
+      getValue: (item) => item.region,
+      options: uniqueOptions(items.map((item) => item.region).filter(Boolean))
+    })
+  }
+
   return configs.filter((config) => config.options.length > 0)
 }
 
@@ -384,7 +398,7 @@ function searchableText(item, collection) {
 }
 
 function dateValue(item, descending = false) {
-  const value = Number(item.year ?? item.born ?? item.birth?.date?.match(/\d+/)?.[0])
+  const value = Number(item.year ?? item.originYear ?? item.born ?? item.birth?.date?.match(/\d+/)?.[0])
 
   if (Number.isFinite(value)) {
     return value
