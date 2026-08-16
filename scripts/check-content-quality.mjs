@@ -1075,6 +1075,57 @@ function validatePersonTimeline(person) {
   }
 }
 
+// ---- House <-> Person bidirectional link integrity ----
+// Guards the reverse-navigation feature: House->Person links must resolve, House
+// keys must be unambiguous, and the reported Henry I -> House of Normandy
+// back-link must stay resolvable.
+{
+  const houses = data.houses ?? []
+  const charById = new Map((data.characters ?? []).map((c) => [c.id, c]))
+  const normDyn = (v) => String(v ?? '').trim().toLowerCase().replace(/^the\s+/, '')
+  const AMBIGUOUS = new Set(['house of anjou', 'angevins', 'angevin dynasty', 'anjou'])
+
+  // Safe house name/alias -> house id, flagging cross-house collisions.
+  const houseKey = new Map()
+  for (const h of houses) {
+    for (const label of [h.name, ...(h.aliases ?? [])]) {
+      const k = normDyn(label)
+      if (!k || AMBIGUOUS.has(k)) continue
+      if (houseKey.has(k) && houseKey.get(k) !== h.id) {
+        findings.push({ collection: 'houses', article: h.name, path: `alias "${label}"`, pattern: `ambiguous House key "${k}" collides with ${houseKey.get(k)}`, snippet: '' })
+      } else {
+        houseKey.set(k, h.id)
+      }
+    }
+  }
+
+  // House -> Person: every member / family-tree / founder personSlug must resolve.
+  for (const h of houses) {
+    const slugs = new Set()
+    for (const m of h.notableMembers ?? []) if (m.personSlug) slugs.add(m.personSlug)
+    if (h.founder?.personSlug) slugs.add(h.founder.personSlug)
+    ;(function walk(n) {
+      if (!n) return
+      if (n.personSlug) slugs.add(n.personSlug)
+      if (n.spouse?.personSlug) slugs.add(n.spouse.personSlug)
+      ;(n.children ?? []).forEach(walk)
+    })(h.familyTree?.root)
+    for (const slug of slugs) {
+      if (!charById.has(slug)) {
+        findings.push({ collection: 'houses', article: h.name, path: `personSlug ${slug}`, pattern: 'House links to a missing Person article', snippet: slug })
+      }
+    }
+  }
+
+  // Regression guard for the reported bug: Henry I must resolve to House of Normandy.
+  if (charById.has('henry-i-of-england') && houses.some((h) => h.id === 'house-of-normandy')) {
+    const hi = charById.get('henry-i-of-england')
+    if (houseKey.get(normDyn(hi.quickFacts?.dynasty)) !== 'house-of-normandy') {
+      findings.push({ collection: 'characters', article: 'Henry I of England', path: 'quickFacts.dynasty', pattern: 'must resolve to House of Normandy for the Dynasty/House back-link', snippet: String(hi.quickFacts?.dynasty) })
+    }
+  }
+}
+
 if (findings.length) {
   console.error(`Content quality check found ${findings.length} suspicious phrase(s):`)
   for (const finding of findings) {

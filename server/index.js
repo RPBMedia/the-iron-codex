@@ -814,7 +814,7 @@ app.get('/api/:collection/:id', (req, res) => {
     return res.status(404).json({ message: 'Article not found' })
   }
 
-  res.json(withBattleContinuityTarget(article))
+  res.json(withDynastyHouse(withBattleContinuityTarget(article)))
 })
 
 // Military events (battles and sieges) store only the continuity target's
@@ -847,6 +847,38 @@ function withBattleContinuityTarget(article) {
       }
     }
   }
+}
+
+// Ambiguous dynasty labels that must NOT auto-resolve to a House. "House of
+// Anjou"/"Angevins" is claimed by both the Plantagenets and the distinct
+// Capetian House of Anjou (Naples/Hungary/Poland), so linking on it would merge
+// separate dynasties. We resolve only on unambiguous exact matches.
+const AMBIGUOUS_DYNASTY_KEYS = new Set(['house of anjou', 'angevins', 'angevin dynasty', 'anjou'])
+
+const normalizeDynastyKey = (value) =>
+  String(value ?? '').trim().toLowerCase().replace(/^the\s+/, '')
+
+// Fresh each call (the houses list is tiny): normalized house name + safe
+// aliases -> { slug, name }.
+function dynastyHouseMap() {
+  const map = new Map()
+  for (const house of collections().houses) {
+    for (const label of [house.name, ...(house.aliases ?? [])]) {
+      const key = normalizeDynastyKey(label)
+      if (!key || AMBIGUOUS_DYNASTY_KEYS.has(key)) continue
+      if (!map.has(key)) map.set(key, { slug: house.id, name: house.name })
+    }
+  }
+  return map
+}
+
+// Attach the resolved House to a Person's Dynasty/House field so the client can
+// render it as a link back to the House article (bidirectional navigation).
+function withDynastyHouse(article) {
+  if (article.type !== 'character' || !article.quickFacts?.dynasty) return article
+  const house = dynastyHouseMap().get(normalizeDynastyKey(article.quickFacts.dynasty))
+  if (!house) return article
+  return { ...article, dynastyHouse: house }
 }
 
 app.use(express.static(clientDist))

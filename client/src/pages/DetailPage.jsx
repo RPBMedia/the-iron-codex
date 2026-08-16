@@ -737,6 +737,18 @@ function FavoriteAction({ article }) {
   )
 }
 
+// The Dynasty/House fact links back to the House article when the server has
+// resolved one (bidirectional House <-> Person navigation); otherwise it stays
+// as plain text (cadet-branch labels, or houses with no article yet).
+function renderDynastyHouse(article) {
+  const dynasty = article.quickFacts?.dynasty
+  if (!dynasty) return null
+  if (article.dynastyHouse?.slug) {
+    return <Link to={`/houses/${article.dynastyHouse.slug}`}>{dynasty}</Link>
+  }
+  return dynasty
+}
+
 function PersonQuickFacts({ article }) {
   const facts = [
     { label: 'Born', value: renderBirth(article) },
@@ -745,7 +757,7 @@ function PersonQuickFacts({ article }) {
     { label: 'Titles', value: article.roles?.join(', ') },
     { label: 'Nicknames', value: renderEpithets(article) },
     { label: 'Realm / polity', value: article.quickFacts?.realm },
-    { label: 'Dynasty / house', value: article.quickFacts?.dynasty },
+    { label: 'Dynasty / house', value: renderDynastyHouse(article) },
     { label: 'Culture', value: article.quickFacts?.culture },
     { label: 'Known for', value: article.quickFacts?.knownFor }
   ].filter((fact) => fact.value)

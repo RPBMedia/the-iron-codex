@@ -138,6 +138,24 @@ The `HouseTree` component (`HouseTree`/`HouseTreeNode`/`HouseTreePerson` in `Det
 - Do not fix overflow by hiding or cutting off content; do not remove people, spouses, cadet branches, or connectors to solve layout issues.
 - Family tree layouts must be tested on desktop and mobile, including Chrome on Windows when possible.
 
+### House and Person Bidirectional Linking Rules
+
+Navigation between House articles and the people in them must work **both ways**. A Person's `quickFacts.dynasty` (the "Dynasty / house" fact card) is resolved to its House article server-side (`withDynastyHouse` in `server/index.js`, attaching `dynastyHouse: { slug, name }`) and rendered as a link by `renderDynastyHouse` in `DetailPage.jsx`. Enforced by `npm run check:content-quality` (House->Person slug integrity, House-key ambiguity, and a Henry I -> House of Normandy regression guard).
+
+- Every Person article with a `quickFacts.dynasty` value must link to the corresponding House article **when that House article exists**.
+- Every ruler listed in a House page's family tree, dynastic sequence, or notable-members list must link to their Person article (via `personSlug`), and those slugs must resolve.
+- Navigation must work both ways: House -> Person and Person -> House. If a House page links to a ruler, that ruler's Dynasty/House card should link back to the same House unless there is a historically documented reason not to.
+- **Resolve on exact, unambiguous matches only** — normalized equality against the House `name` or a House alias. Never substring/loose matching.
+- **Do not merge historically distinct houses through careless aliasing.** "House of Anjou" / "Angevins" is claimed by both the Plantagenets and the distinct Capetian House of Anjou (Naples/Hungary/Poland), so those labels are denylisted (`AMBIGUOUS_DYNASTY_KEYS`) and never auto-resolve. "Capetian House of Anjou" and "House of Anjou-Rethel" must NOT link to House of Plantagenet.
+- Do not link a Dynasty/House value to a missing House route. If no House article exists yet (e.g. cadet-branch labels like "House of Lancaster"/"House of Blois", or dynasties not yet built), leave the value as plain text and treat the House as a future candidate.
+- Use canonical House slugs consistently (`House of Normandy` -> `house-of-normandy`, `House of Wessex` -> `house-of-wessex`, `House of Plantagenet` -> `house-of-plantagenet`, etc.). Do not create duplicate House pages for spelling variants; add the variant as a House `alias` instead (and never an ambiguous one).
+- Broken House <-> Person navigation is a production bug.
+
+**Good:** House of Normandy links to Henry I, and Henry I's Dynasty/House card links back to House of Normandy.
+**Bad:** House of Normandy links to Henry I, but Henry I's Dynasty/House field is plain text.
+**Good:** a Capetian ruler with `dynasty: "House of Capet"` links to the House of Capet article once it exists.
+**Bad:** `jadwiga-of-poland` ("Capetian House of Anjou") linking to House of Plantagenet because both share the "House of Anjou" label.
+
 ## Early Rus' / Varangian-Linked Figures
 
 These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, Vladimir I, or any other figure whose narrative depends heavily on the Primary Chronicle or other late medieval Rus' source traditions.
