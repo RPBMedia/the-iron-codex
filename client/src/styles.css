@@ -2829,3 +2829,23 @@ a.tree-person:hover .tree-person-name {
     font-size: 0.82rem;
   }
 }
+
+/* ---- House pages: media column + coat-of-arms image ---- */
+.detail-media-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+/* The arms image sits beneath the main image at the same width; arms are
+   designed for a light ground, so give the figure a paper background and a
+   contained height so tall/narrow blazons don't dominate the column. */
+.detail-media-arms img {
+  object-fit: contain;
+  height: auto;
+  max-height: 340px;
+  width: 100%;
+  background: var(--paper);
+  padding: 14px;
+}

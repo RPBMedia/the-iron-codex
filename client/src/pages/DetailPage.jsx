@@ -56,7 +56,10 @@ export default function DetailPage() {
   return (
     <article className="detail-page">
       <section className="detail-hero">
-        <ImageWithCaption article={article} />
+        <div className="detail-media-col">
+          <ImageWithCaption article={article} />
+          {article.type === 'house' && <HouseArmsImage article={article} />}
+        </div>
         <div className="detail-body">
           <BackToArchiveLink collection={collection} routerLocation={routerLocation} navigate={navigate} />
           <p className="eyebrow">{articleTypeLabel(article)}</p>
@@ -459,10 +462,42 @@ function LocationContent({ article }) {
   )
 }
 
+// A second image beneath the main one on House pages: the dynasty's coat of
+// arms, when it had heraldic arms (many eastern/early houses did not).
+function HouseArmsImage({ article }) {
+  const [failed, setFailed] = useState(false)
+  if (!article.armsImage || failed) return null
+  const info = article.armsImageInfo
+
+  return (
+    <figure className="detail-media detail-media-house detail-media-arms">
+      <img
+        src={article.armsImage}
+        alt={`Coat of arms of the ${article.name}`}
+        onError={(event) => {
+          reportArticleImageFailure(article, 'armsImage', event.currentTarget.currentSrc || event.currentTarget.src)
+          setFailed(true)
+        }}
+      />
+      {info && (
+        <figcaption>
+          <strong>{info.caption}</strong>
+          {info.source && (
+            info.sourceUrl
+              ? <a href={info.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {info.source}</a>
+              : <span>Source: {info.source}</span>
+          )}
+          {info.note && <em>{info.note}</em>}
+        </figcaption>
+      )}
+    </figure>
+  )
+}
+
 function HouseHero({ article }) {
   const primarySeat = article.seats?.[0]
   const facts = [
-    { label: 'Founded', value: article.reignSpan ?? (article.originYear ? `${article.originYear}` : null) },
+    { label: 'Period', value: article.reignSpan ?? (article.originYear ? `${article.originYear}` : null) },
     { label: 'Origin', value: article.originPlace },
     { label: 'Region', value: article.region },
     {
