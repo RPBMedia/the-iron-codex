@@ -309,6 +309,7 @@ export const entityLinks = [
   { label: "Battle of Agincourt", type: "event", slug: "battle-of-agincourt" },
   { label: "Battle of Aljubarrota", aliases: ["Aljubarrota"], type: "event", slug: "battle-of-aljubarrota" },
   { label: "Battle of Arsuf", aliases: ["Arsuf"], type: "event", slug: "battle-of-arsuf" },
+  { label: "Battle of Atoleiros", aliases: ["Atoleiros"], type: "event", slug: "battle-of-atoleiros" },
   { label: "Battle of Bannockburn", type: "event", slug: "battle-of-bannockburn" },
   { label: "Battle of Bouvines", type: "event", slug: "battle-of-bouvines" },
   { label: "Battle of Brunanburh", aliases: ["Brunanburh"], type: "event", slug: "battle-of-brunanburh" },

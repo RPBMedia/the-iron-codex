@@ -6737,6 +6737,226 @@
       }
     },
     {
+      "id": "battle-of-atoleiros",
+      "type": "event",
+      "name": "Battle of Atoleiros",
+      "year": 1384,
+      "location": "Atoleiros, near Fronteira, Alentejo, Portugal",
+      "eventType": "Battle",
+      "conflict": "1383–1385 Portuguese Interregnum",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Battle_of_Atoleiros_-_Hist%C3%B3ria_de_Portugal%2C_popular_e_ilustrada.jpg",
+      "summary": "Nuno Álvares Pereira, fighting for the Master of Aviz, used a dismounted defensive square to break a larger Castilian force at Atoleiros in 1384 — the first major battle of Portugal's succession crisis.",
+      "details": "On 6 April 1384 the young Nuno Álvares Pereira met a Castilian expedition near Fronteira in the Alentejo. Outnumbered about three to one, he dismounted his men-at-arms into a spear-hedged square that the Castilian cavalry could not break; by the chronicle of Fernão Lopes the Portuguese lost not a single man, and the tactic foreshadowed the victory at Aljubarrota.",
+      "factions": [
+        "Kingdom of Portugal",
+        "Kingdom of Castile"
+      ],
+      "leaders": [
+        {
+          "name": "Nuno Álvares Pereira",
+          "faction": "Portuguese army",
+          "personId": "nuno-alvares-pereira"
+        },
+        {
+          "name": "Fernando Sánchez de Tovar",
+          "faction": "Castilian army"
+        },
+        {
+          "name": "Pedro Álvares Pereira",
+          "faction": "Castilian army"
+        }
+      ],
+      "eventLocation": {
+        "name": "Atoleiros"
+      },
+      "outcome": "Decisive Portuguese victory; the Castilian cavalry was broken against Nuno Álvares Pereira's infantry square, and the Aviz cause in the Alentejo was strengthened.",
+      "background": [
+        "Ferdinand I of Portugal died in October 1383 leaving only a daughter, Beatrice, married to John I of Castile. By the Treaty of Salvaterra the crown was to pass to Beatrice, raising the prospect that Portugal would be absorbed into Castile under the regency of the widowed queen Leonor Teles and her favourite, João Fernandes Andeiro.",
+        "Andeiro's killing in December 1383 and the acclamation of John, Master of Aviz, as regedor e defensor do reino split the kingdom: much of the higher nobility and the Castilian crown backed Beatrice, while Lisbon and the popular and mercantile classes rallied to Aviz. In the Alentejo, along the Castilian frontier, the young Nuno Álvares Pereira took up the Aviz cause and moved to intercept a Castilian punitive column."
+      ],
+      "battle": "Rather than meet the mounted Castilians in the open, Nuno Álvares dismounted his men-at-arms and drew them into a tight square, its front and flanks hedged with grounded lances and stiffened by crossbowmen — a defensive formation of English inspiration, drawn from the tactics of the Hundred Years' War. The infantry held their ground and waited to be charged. The Castilian cavalry attacked the stationary square repeatedly, but the horses would not press home against the wall of spear-points, and each charge broke up under crossbow fire and recoiled in disorder. Unable to break the formation and taking mounting losses, the Castilian force gave way and abandoned the field.",
+      "aftermath": "By the account of Fernão Lopes the victory cost the Portuguese not a single life while the Castilians suffered heavily — a claim whose exact truth is impossible to test but which conveys how one-sided the engagement was. The Castilian noble Pero González de Sevilla was among the dead. Atoleiros was the first battlefield triumph of Nuno Álvares Pereira and hardened the Aviz cause across the Alentejo. Its wider strategic effect was limited — John I of Castile pressed on to besiege Lisbon later in 1384, where plague rather than battle forced his retreat — but its example proved decisive for the war to come.",
+      "imageInfo": {
+        "caption": "The Battle of Atoleiros, illustrated by Alfredo Roque Gameiro for the História de Portugal, Popular e Ilustrada (c. 1899).",
+        "creator": "Alfredo Roque Gameiro",
+        "date": "c. 1899",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Atoleiros_-_Hist%C3%B3ria_de_Portugal,_popular_e_ilustrada.jpg",
+        "license": "Public domain",
+        "note": "A late-19th-century history illustration, not a contemporary depiction — it imagines the 1384 clash of cavalry and infantry rather than recording it."
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Battle of Atoleiros was fought on 6 April 1384 near Fronteira in the Alentejo, between a Portuguese force under Nuno Álvares Pereira, fighting for John, Master of Aviz, and a larger Castilian expedition supporting the claim of Beatrice of Portugal and her husband John I of Castile. It was the first major battle of the 1383–1385 succession crisis.",
+            "Outnumbered roughly three to one, Nuno Álvares dismounted his men-at-arms and formed them into a defensive square hedged with lances, breaking the Castilian cavalry charges. According to the chronicler Fernão Lopes the Portuguese lost not a single man; the victory launched Nuno Álvares's career and rehearsed the tactics that would win the decisive Battle of Aljubarrota fifteen months later."
+          ]
+        },
+        {
+          "title": "Background",
+          "paragraphs": [
+            "When Ferdinand I died in 1383 with no son, the Treaty of Salvaterra pointed the succession toward his daughter Beatrice and, through her marriage, toward John I of Castile — in effect the end of an independent Portuguese crown. The regency of the queen mother Leonor Teles was widely distrusted, and the prospect of Castilian rule provoked a national crisis remembered as the 1383–1385 Interregnum.",
+            "The killing of the queen's favourite João Fernandes Andeiro in December 1383 brought John, Master of Aviz — an illegitimate son of Peter I — to the head of the resistance as regedor e defensor do reino. The kingdom divided between supporters of Beatrice, backed by Castile, and the Aviz party centred on Lisbon. In the Alentejo, close to the frontier, Nuno Álvares Pereira raised troops for Aviz and marched to confront a Castilian raiding force."
+          ]
+        },
+        {
+          "title": "Forces and commanders",
+          "paragraphs": [
+            "The Portuguese army was small: Fernão Lopes gives about 1,400 men — roughly 1,000 foot, 300 horse and 100 crossbowmen. Nuno Álvares Pereira, then about twenty-four and not yet Constable of Portugal, commanded in person, and his decision to fight on the defensive rather than trade cavalry charges shaped the whole engagement.",
+            "The Castilian side was several times larger, with a heavy preponderance of cavalry, and was led by experienced captains including the admiral Fernando Sánchez de Tovar together with pro-Castilian Portuguese nobles. Among them was Pedro Álvares Pereira, Prior of the Order of the Hospital and Nuno's own half-brother, so that Atoleiros set brother against brother — a division that ran through many noble families in the succession war."
+          ]
+        },
+        {
+          "title": "The battle",
+          "paragraphs": [
+            "Nuno Álvares refused to meet the mounted Castilians in the open. Instead he dismounted his men-at-arms and packed them into a tight square, its front and sides hedged with grounded lances and its ranks stiffened by crossbowmen — a defensive method of English inspiration, taken from the tactics that had beaten French cavalry in the Hundred Years' War. The Portuguese then stood still and let the enemy come to them.",
+            "The Castilian horse charged the stationary formation again and again, but the animals balked at the hedge of spear-points, and each attack dissolved under crossbow bolts and fell back in confusion. The square never broke. As casualties mounted and no opening appeared, the Castilian force lost cohesion and quit the field, leaving the Portuguese in possession of the ground."
+          ]
+        },
+        {
+          "title": "Aftermath",
+          "paragraphs": [
+            "By Fernão Lopes's account the Portuguese suffered no fatalities while the Castilians lost heavily, the noble Pero González de Sevilla among the dead. Whatever the precise figures, the result was emphatically one-sided, and it made Nuno Álvares Pereira a figure of the first rank in the Aviz cause.",
+            "The strategic gains were modest in the short term: John I of Castile continued his campaign and laid siege to Lisbon later in 1384, only to be driven off by plague in his camp rather than by force of arms. But Atoleiros had shown how the war could be won, and within the year Nuno Álvares was Constable of Portugal and the chief soldier of the new regime."
+          ]
+        },
+        {
+          "title": "Historical significance",
+          "paragraphs": [
+            "Atoleiros matters less for its size than for what it demonstrated: a disciplined body of dismounted men-at-arms and crossbowmen, in a prepared defensive formation, could defeat a much larger force of heavy cavalry. It was the proving ground for the method Nuno Álvares would use on a far greater scale at the Battle of Aljubarrota on 14 August 1385, where the same dismounted, spear-and-missile defence destroyed John I of Castile's main invasion.",
+            "For the House of Aviz the battle was early evidence that the succession war could be decided on the battlefield and not only in the Cortes. Echoing English victories such as the Battle of Crécy and anticipating Aljubarrota, Atoleiros marks the moment Portugal's revolution of 1383–1385 found the winning military method that would secure its independence."
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Battle of Atoleiros",
+          "author": "Encyclopaedia Britannica",
+          "type": "encyclopedia",
+          "url": "https://www.britannica.com/topic/Battle-of-Atoleiros"
+        },
+        {
+          "title": "Battle of Atoleiros",
+          "author": "Wikipedia",
+          "type": "reference article",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Atoleiros"
+        },
+        {
+          "title": "Battle of Atoleiros illustration, História de Portugal, Popular e Ilustrada",
+          "author": "Alfredo Roque Gameiro (Wikimedia Commons)",
+          "type": "history illustration",
+          "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Atoleiros_-_Hist%C3%B3ria_de_Portugal,_popular_e_ilustrada.jpg"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Nuno Álvares Pereira",
+            "type": "person",
+            "slug": "nuno-alvares-pereira",
+            "label": "The victor, in his first major battle"
+          },
+          {
+            "title": "John I of Portugal",
+            "type": "person",
+            "slug": "john-i-of-portugal",
+            "label": "The Master of Aviz, whose cause the victory advanced"
+          },
+          {
+            "title": "John I of Castile",
+            "type": "person",
+            "slug": "john-i-of-castile",
+            "label": "Whose expedition and claim were defeated"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of Portugal",
+            "type": "location",
+            "slug": "kingdom-of-portugal",
+            "label": "The realm the Aviz party defended"
+          },
+          {
+            "title": "Kingdom of Castile",
+            "type": "location",
+            "slug": "kingdom-of-castile",
+            "label": "The invading power"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Aljubarrota",
+            "type": "event",
+            "slug": "battle-of-aljubarrota",
+            "label": "The decisive victory Atoleiros foreshadowed"
+          }
+        ]
+      },
+      "participants": [
+        {
+          "side": "Portuguese army",
+          "factions": [
+            {
+              "name": "Kingdom of Portugal",
+              "title": "Kingdom of Portugal",
+              "type": "location",
+              "slug": "kingdom-of-portugal"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Nuno Álvares Pereira",
+              "title": "Nuno Álvares Pereira",
+              "slug": "nuno-alvares-pereira",
+              "type": "person"
+            }
+          ],
+          "strength": {
+            "display": "c. 1,400",
+            "confidence": "chronicle-claim",
+            "note": "Fernão Lopes's chronicle gives roughly 1,000 foot, 300 horse and 100 crossbowmen; the essential point is that the Portuguese were heavily outnumbered.",
+            "min": 1400,
+            "max": 1400
+          }
+        },
+        {
+          "side": "Castilian army",
+          "factions": [
+            {
+              "name": "Kingdom of Castile",
+              "title": "Kingdom of Castile",
+              "type": "location",
+              "slug": "kingdom-of-castile"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Fernando Sánchez de Tovar",
+              "title": "Fernando Sánchez de Tovar"
+            },
+            {
+              "name": "Pedro Álvares Pereira",
+              "title": "Pedro Álvares Pereira"
+            }
+          ],
+          "strength": {
+            "display": "c. 5,000 (debated)",
+            "confidence": "chronicle-claim",
+            "note": "Fernão Lopes gives about 5,000 (some 3,000 foot and 2,000 horse); the figure is uncertain, but the Castilians clearly held a large numerical and cavalry advantage.",
+            "min": 5000,
+            "max": 5000
+          }
+        }
+      ],
+      "battleContinuity": {
+        "label": "Continue to Aljubarrota",
+        "battleSlug": "battle-of-aljubarrota",
+        "relationship": "same-war",
+        "reason": "Atoleiros proved Nuno Álvares Pereira's dismounted defensive square in April 1384; fifteen months later, on 14 August 1385, he used the same prepared-position tactics on a far larger scale at Aljubarrota to destroy John I of Castile's main invasion and confirm the House of Aviz on the throne."
+      }
+    },
+    {
       "id": "battle-of-hattin",
       "type": "event",
       "name": "Battle of Hattin",
@@ -53288,6 +53508,12 @@
       ],
       "relatedEntries": {
         "events": [
+          {
+            "title": "Battle of Atoleiros",
+            "type": "event",
+            "slug": "battle-of-atoleiros",
+            "label": "His first major victory, in 1384"
+          },
           {
             "title": "Battle of Aljubarrota",
             "type": "event",
