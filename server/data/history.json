@@ -95203,8 +95203,10 @@
         "note": "A clean modern reproduction shown to display the full arming-sword form; it is a replica, not a medieval original."
       },
       "knownFor": [
-        "Arming Sword formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "The standard one-handed knightly sword of the high Middle Ages, carried with a shield.",
+        "A cruciform hilt and a double-edged blade that shifted from broad cutting to tapering thrusting forms as armour improved.",
+        "The everyday sidearm of the mounted knight, worn even when the lance or another weapon led the fight.",
+        "The direct ancestor of the two-handed longsword."
       ],
       "relatedEntries": {
         "people": [
@@ -95263,7 +95265,44 @@
           "type": "museum collection",
           "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 1000–1400"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 90–100 cm"
+          },
+          {
+            "label": "Blade length",
+            "value": "c. 70–80 cm"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1.0–1.5 kg"
+          },
+          {
+            "label": "Grip",
+            "value": "One-handed"
+          },
+          {
+            "label": "Blade",
+            "value": "Double-edged; broad cutting to tapering thrusting types"
+          },
+          {
+            "label": "Used with",
+            "value": "A shield (heater, kite, or buckler)"
+          },
+          {
+            "label": "Typical users",
+            "value": "Knights and men-at-arms"
+          }
+        ]
+      }
     },
     {
       "id": "bascinet",
@@ -95453,8 +95492,10 @@
         "note": "A complete surviving late-medieval war axe; the compact head and haft are shown in full, not as a loose axe-head."
       },
       "knownFor": [
-        "Battle Axe formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "A cheap, widely available weapon that concentrated force into a narrow edge.",
+        "Effective at cutting and at defeating mail and light armour for its low cost.",
+        "Carried one-handed with a shield across the whole medieval period.",
+        "A family running from the Frankish throwing francisca to the later horseman’s axe."
       ],
       "relatedEntries": {
         "locations": [
@@ -95501,7 +95542,44 @@
           "type": "museum collection",
           "url": "https://en.natmus.dk/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "Throughout the Middle Ages"
+          },
+          {
+            "label": "Haft length",
+            "value": "c. 0.6–1.0 m"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1.0–1.5 kg"
+          },
+          {
+            "label": "Grip",
+            "value": "One-handed (with a shield)"
+          },
+          {
+            "label": "Head",
+            "value": "Compact cutting bit; sometimes a rear spike"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Hooking, chopping, armour-splitting blows"
+          },
+          {
+            "label": "Typical users",
+            "value": "Infantry of every rank"
+          },
+          {
+            "label": "Role",
+            "value": "Cheap, effective sidearm"
+          }
+        ]
+      }
     },
     {
       "id": "bill-billhook",
@@ -96295,8 +96373,10 @@
         "note": "The broad thin cutting head and long haft of the two-handed Danish axe are shown complete."
       },
       "knownFor": [
-        "Dane Axe formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "A long two-handed axe with a broad, thin, dramatically flared cutting edge.",
+        "Reach and cleaving power enough to split shields and bite through mail.",
+        "The signature weapon of the Anglo-Danish housecarls, the elite of the late Viking age.",
+        "A weapon that traded the shield hand for sheer two-handed hitting power."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -96355,7 +96435,44 @@
           "type": "primary source",
           "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 10th–12th century"
+          },
+          {
+            "label": "Haft length",
+            "value": "c. 1.2–1.7 m"
+          },
+          {
+            "label": "Head edge",
+            "value": "c. 20–30 cm, broad and thin"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1–2 kg"
+          },
+          {
+            "label": "Grip",
+            "value": "Two-handed (no shield)"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Cleaving cuts; shield- and limb-splitting blows"
+          },
+          {
+            "label": "Typical users",
+            "value": "Housecarls and elite infantry"
+          },
+          {
+            "label": "Role",
+            "value": "Shock infantry weapon"
+          }
+        ]
+      }
     },
     {
       "id": "falchion",
@@ -96906,8 +97023,10 @@
         "note": "Surviving polearm showing the three-function head; the form was perfected by Swiss and German infantry."
       },
       "knownFor": [
-        "Halberd formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "A polearm combining an axe blade, a top spike, and a rear hook or beak on one head.",
+        "Versatility: it could chop, thrust, and hook a rider from the saddle.",
+        "The signature weapon of the Swiss and South-German infantry of the 14th–16th centuries.",
+        "A weapon that let foot soldiers both stop a charge and break into it."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -96959,7 +97078,44 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 14th–16th century"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 1.5–2 m"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 2.5–3.5 kg"
+          },
+          {
+            "label": "Head",
+            "value": "Axe blade + top spike + rear hook/beak"
+          },
+          {
+            "label": "Grip",
+            "value": "Two-handed"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Chop, thrust, and hook/pull down horsemen"
+          },
+          {
+            "label": "Typical users",
+            "value": "Swiss and German infantry"
+          },
+          {
+            "label": "Role",
+            "value": "Versatile infantry polearm"
+          }
+        ]
+      }
     },
     {
       "id": "hauberk",
@@ -97863,8 +98019,10 @@
         "note": "Shown in full length to convey the reach of the couched cavalry lance, not as a manuscript scene."
       },
       "knownFor": [
-        "Lance formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "The shock weapon of the mounted knight, couched tight under the arm for the charge.",
+        "A weapon that delivered the combined momentum of horse and rider to a single point.",
+        "Fitted over time with a vamplate to guard the hand and a lance-rest (arrêt) to brace the shaft.",
+        "The defining arm of the heavy cavalry charge, distinct from its blunted tournament forms."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -97923,7 +98081,44 @@
           "type": "primary source",
           "url": "https://digi.ub.uni-heidelberg.de/diglit/cpg848"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 11th–15th century"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 2.5–4 m"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 2–3 kg"
+          },
+          {
+            "label": "Shaft",
+            "value": "Ash, tapering; later with a hand-guard (vamplate)"
+          },
+          {
+            "label": "Grip",
+            "value": "Couched one-handed on horseback"
+          },
+          {
+            "label": "Primary action",
+            "value": "The charge — a single braced thrust at speed"
+          },
+          {
+            "label": "Typical users",
+            "value": "Knights and heavy cavalry"
+          },
+          {
+            "label": "Role",
+            "value": "Mounted shock weapon"
+          }
+        ]
+      }
     },
     {
       "id": "longbow",
@@ -99211,8 +99406,10 @@
         "note": "Side view so the shape of the axe blade and the hammer/spike head are clearly readable; the langets running down the haft protected it from being cut."
       },
       "knownFor": [
-        "Poleaxe formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "The dismounted knight’s weapon of choice against plate armour.",
+        "A head pairing a hammer or axe with a top spike and rear fangs for percussion and puncture.",
+        "Steel langets down the haft to stop the shaft being cut through.",
+        "A favourite weapon of the judicial duel fought on foot in armour."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -99262,7 +99459,44 @@
           "type": "museum collection",
           "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 14th–16th century"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 1.5–2 m"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 2–3 kg"
+          },
+          {
+            "label": "Head",
+            "value": "Hammer or axe + top spike + rear fangs"
+          },
+          {
+            "label": "Grip",
+            "value": "Two-handed; haft reinforced with langets"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Percussive blows and thrusts into armour gaps"
+          },
+          {
+            "label": "Typical users",
+            "value": "Dismounted men-at-arms"
+          },
+          {
+            "label": "Role",
+            "value": "Knightly anti-plate weapon"
+          }
+        ]
+      }
     },
     {
       "id": "sallet",
@@ -99694,8 +99928,10 @@
         "note": "Clean museum spear with its head, lugs, and socket on the start of the haft; the wings stopped the blade over-penetrating."
       },
       "knownFor": [
-        "Spear formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "The most common weapon of the Middle Ages — cheap, easy to make, and easy to learn.",
+        "Long reach that let the front rank strike before shorter weapons could answer.",
+        "The backbone of the shield wall and the anti-cavalry schiltron.",
+        "A weapon carried by everyone from levied peasants to mounted nobles."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -99752,7 +99988,44 @@
           "type": "museum collection",
           "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "Throughout the Middle Ages"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 1.8–3 m"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1–2 kg"
+          },
+          {
+            "label": "Head",
+            "value": "Leaf- or lozenge-shaped steel point"
+          },
+          {
+            "label": "Grip",
+            "value": "One or two hands"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Thrusting; formation fighting"
+          },
+          {
+            "label": "Typical users",
+            "value": "Infantry of every kind"
+          },
+          {
+            "label": "Role",
+            "value": "The primary infantry weapon"
+          }
+        ]
+      }
     },
     {
       "id": "surcoat",
@@ -100166,8 +100439,10 @@
         "note": "A clean modern reproduction shown to make the full sword clearly readable; it is a replica, not a medieval original."
       },
       "knownFor": [
-        "Viking Sword formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "A broad, double-edged cutting blade with a wide central fuller to lighten it.",
+        "Pattern-welded construction in earlier examples, and the famous imported Frankish blades signed +VLFBERHT+.",
+        "A high-status object, often richly hilted, named, and buried with its owner.",
+        "The prestige weapon of the Norse warrior, used alongside a round shield."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -100226,7 +100501,44 @@
           "type": "museum collection",
           "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/weapons/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 8th–11th century"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 90–100 cm"
+          },
+          {
+            "label": "Blade length",
+            "value": "c. 70–80 cm"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1.0–1.4 kg"
+          },
+          {
+            "label": "Grip",
+            "value": "One-handed"
+          },
+          {
+            "label": "Blade",
+            "value": "Broad, fullered, double-edged; rounded cutting point"
+          },
+          {
+            "label": "Construction",
+            "value": "Pattern-welded, or imported crucible-steel blades"
+          },
+          {
+            "label": "Typical users",
+            "value": "Norse and Frankish warriors"
+          }
+        ]
+      }
     },
     {
       "id": "war-bow",
@@ -100420,8 +100732,10 @@
         "note": "Surviving museum object; the beak punched through plate where a blade would skate off."
       },
       "knownFor": [
-        "War Hammer formed part of the equipment of medieval European fighters in a specific tactical setting rather than as a fantasy archetype.",
-        "Its construction and use changed with armor, social status, training, and battlefield conditions."
+        "A concussive weapon built to defeat plate armour that resisted the edge.",
+        "A hammer face to stun through the steel and a rear beak to punch or find gaps.",
+        "Made in short one-handed horseman’s forms and longer two-handed foot forms.",
+        "A specialist arm of the late-medieval armoured battlefield."
       ],
       "relatedEntries": {
         "weaponsArmor": [
@@ -100473,7 +100787,44 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 14th–16th century"
+          },
+          {
+            "label": "Overall length",
+            "value": "c. 0.5–1.0 m (foot forms longer)"
+          },
+          {
+            "label": "Typical weight",
+            "value": "c. 1.0–1.5 kg"
+          },
+          {
+            "label": "Head",
+            "value": "Hammer face + rear spike/beak"
+          },
+          {
+            "label": "Grip",
+            "value": "One- or two-handed"
+          },
+          {
+            "label": "Primary actions",
+            "value": "Concussion through plate; spike into gaps"
+          },
+          {
+            "label": "Typical users",
+            "value": "Men-at-arms, mounted and on foot"
+          },
+          {
+            "label": "Role",
+            "value": "Armour-defeating percussion weapon"
+          }
+        ]
+      }
     }
   ],
   "houses": [
