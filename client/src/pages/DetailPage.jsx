@@ -207,22 +207,171 @@ function StandardHero({ article }) {
   )
 }
 
+// ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ----
+function KnownForBlock({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Known for</h2>
+      <ul className="wa-knownfor">{items.map((f, i) => <li key={i}>{f}</li>)}</ul>
+    </section>
+  )
+}
+
+function WeaponSpecs({ specs }) {
+  if (!specs?.rows?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Specifications</h2>
+      <dl className="wa-specs">
+        {specs.rows.map((r) => (
+          <div key={r.label}><dt>{r.label}</dt><dd>{r.value}</dd></div>
+        ))}
+      </dl>
+      {specs.note && <p className="wa-note">{specs.note}</p>}
+    </section>
+  )
+}
+
+function WeaponTable({ title, note, columns, rows }) {
+  if (!rows?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>{title}</h2>
+      <div className="wa-table-wrap">
+        <table className="wa-table">
+          <thead><tr>{columns.map((c, i) => <th key={i}>{c}</th>)}</tr></thead>
+          <tbody>{rows.map((cells, i) => (
+            <tr key={i}>{cells.map((cell, j) => <td key={j}>{cell}</td>)}</tr>
+          ))}</tbody>
+        </table>
+      </div>
+      {note && <p className="wa-note">{note}</p>}
+    </section>
+  )
+}
+
+function CombatModes({ modes }) {
+  if (!modes?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>How it was fought</h2>
+      <div className="wa-cards">
+        {modes.map((m) => (
+          <div key={m.title} className={`wa-card${m.highlight ? ' wa-card-hl' : ''}`}>
+            <h3>{m.title}</h3><p>{m.body}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function SurvivingExamples({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Surviving examples</h2>
+      <div className="wa-cards">
+        {items.map((it) => (
+          <div key={it.name + it.collection} className="wa-card wa-object">
+            <h3>{it.name}</h3>
+            <p className="wa-object-meta">{[it.date, it.origin].filter(Boolean).join(' · ')}</p>
+            <dl className="wa-object-specs">
+              {it.overall && <div><dt>Overall</dt><dd>{it.overall}</dd></div>}
+              {it.blade && <div><dt>Blade</dt><dd>{it.blade}</dd></div>}
+              {it.weight && <div><dt>Weight</dt><dd>{it.weight}</dd></div>}
+            </dl>
+            <p className="wa-object-coll">
+              {it.sourceUrl ? <a href={it.sourceUrl} target="_blank" rel="noreferrer">{it.collection}</a> : it.collection}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function MythList({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Myths &amp; misconceptions</h2>
+      <ul className="wa-myths">
+        {items.map((m, i) => (
+          <li key={i}>
+            <span className="wa-myth-claim">{m.claim}</span>
+            <span className="wa-myth-real">{m.reality}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+function WeaponArmorExtras({ article }) {
+  const cmp = article.comparison
+  return (
+    <>
+      {article.combatModes && <CombatModes modes={article.combatModes} />}
+      {article.oakeshottTypes?.rows?.length ? (
+        <WeaponTable
+          title="Blade typology (Oakeshott)"
+          note={article.oakeshottTypes.note}
+          columns={['Type', 'What its geometry favoured']}
+          rows={article.oakeshottTypes.rows.map((r) => [r.type, r.favors])}
+        />
+      ) : null}
+      {article.timeline?.length ? <Timeline items={article.timeline} /> : null}
+      {cmp?.rows?.length ? (
+        <WeaponTable
+          title={cmp.title}
+          columns={['', cmp.leftLabel, cmp.rightLabel]}
+          rows={cmp.rows.map((r) => [r.feature, r.left, r.right])}
+        />
+      ) : null}
+      {article.survivingExamples && <SurvivingExamples items={article.survivingExamples} />}
+      {article.myths && <MythList items={article.myths} />}
+    </>
+  )
+}
+
 function StandardContent({ article }) {
   const sections = article.contentSections?.length
     ? article.contentSections
     : [{ title: 'Overview', paragraphs: [article.summary, article.details].filter(Boolean) }]
+  const isWA = article.type === 'weaponArmor'
 
   return (
     <>
-      {sections.map((section, index) => (
-        <ArticleSection
-          key={section.title}
-          className={index === 0 ? 'overview-section' : ''}
-          title={section.title}
-          paragraphs={section.paragraphs}
-          article={article}
-        />
-      ))}
+      {isWA ? (
+        <>
+          {sections[0] && (
+            <ArticleSection
+              className="overview-section"
+              title={sections[0].title}
+              paragraphs={sections[0].paragraphs}
+              article={article}
+            />
+          )}
+          <KnownForBlock items={article.knownFor} />
+          {article.specs && <WeaponSpecs specs={article.specs} />}
+          {sections.slice(1).map((section) => (
+            <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
+          ))}
+          <WeaponArmorExtras article={article} />
+        </>
+      ) : (
+        sections.map((section, index) => (
+          <ArticleSection
+            key={section.title}
+            className={index === 0 ? 'overview-section' : ''}
+            title={section.title}
+            paragraphs={section.paragraphs}
+            article={article}
+          />
+        ))
+      )}
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
