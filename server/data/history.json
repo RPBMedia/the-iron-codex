@@ -95426,7 +95426,36 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "14th–early 15th century"
+          },
+          {
+            "label": "Material",
+            "value": "Steel"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 2–3 kg"
+          },
+          {
+            "label": "Protects",
+            "value": "Skull, face, and (via the aventail) the neck"
+          },
+          {
+            "label": "Features",
+            "value": "Pointed skull; mail aventail; often a pointed visor"
+          },
+          {
+            "label": "Worn by",
+            "value": "Knights and men-at-arms"
+          }
+        ]
+      }
     },
     {
       "id": "battle-axe",
@@ -95855,7 +95884,36 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 14th–16th century"
+          },
+          {
+            "label": "Material",
+            "value": "Small steel plates riveted inside a cloth garment"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 8–10 kg"
+          },
+          {
+            "label": "Protects",
+            "value": "The torso, while staying flexible"
+          },
+          {
+            "label": "Construction",
+            "value": "Plates riveted to fabric (rivet-heads show outside)"
+          },
+          {
+            "label": "Typical users",
+            "value": "Men-at-arms and better-equipped infantry"
+          }
+        ]
+      }
     },
     {
       "id": "buckler",
@@ -95972,7 +96030,36 @@
           "type": "museum collection",
           "url": "https://wallacelive.wallacecollection.org/eMP/eMuseumPlus"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "13th–16th century"
+          },
+          {
+            "label": "Material",
+            "value": "Steel (sometimes wood)"
+          },
+          {
+            "label": "Size",
+            "value": "Small round, c. 20–35 cm across"
+          },
+          {
+            "label": "Held",
+            "value": "In the fist behind a central boss"
+          },
+          {
+            "label": "Used for",
+            "value": "Parrying and binding, paired with a one-handed sword"
+          },
+          {
+            "label": "Context",
+            "value": "Both the battlefield and civilian self-defence"
+          }
+        ]
+      }
     },
     {
       "id": "coat-of-plates",
@@ -96859,7 +96946,36 @@
           "type": "museum collection",
           "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "c. 12th–15th century"
+          },
+          {
+            "label": "Material",
+            "value": "Quilted layers of linen or wool"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 3–5 kg"
+          },
+          {
+            "label": "Protects against",
+            "value": "Cuts, blunt trauma, and some arrows"
+          },
+          {
+            "label": "Worn",
+            "value": "Alone by common infantry, or under mail/plate"
+          },
+          {
+            "label": "Cost",
+            "value": "Cheap and widely affordable"
+          }
+        ]
+      }
     },
     {
       "id": "gothic-plate-armor",
@@ -97104,8 +97220,43 @@
           "author": "Deutsches Historisches Museum, Berlin",
           "type": "museum collection",
           "url": "https://www.dhm.de/en/"
+        },
+        {
+          "title": "Arms and Armour collection",
+          "author": "Royal Armouries, Leeds",
+          "type": "museum collection",
+          "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "Late 12th–14th century"
+          },
+          {
+            "label": "Material",
+            "value": "Riveted steel plates"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 2.5–4 kg"
+          },
+          {
+            "label": "Protects",
+            "value": "The entire head, fully enclosed"
+          },
+          {
+            "label": "Weak against",
+            "value": "Poor vision and ventilation; heavy on the neck"
+          },
+          {
+            "label": "Worn over",
+            "value": "A mail coif or a close-fitting cervelliere"
+          }
+        ]
+      }
     },
     {
       "id": "halberd",
@@ -97381,8 +97532,43 @@
           "author": "Bayeux Museum",
           "type": "primary source",
           "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/"
+        },
+        {
+          "title": "Arms and Armor department",
+          "author": "Metropolitan Museum of Art",
+          "type": "museum collection",
+          "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "11th–14th century"
+          },
+          {
+            "label": "Material",
+            "value": "Riveted mail"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 10–12 kg"
+          },
+          {
+            "label": "Covers",
+            "value": "Torso, arms, and thighs (a long mail shirt)"
+          },
+          {
+            "label": "Protects against",
+            "value": "Cutting blows above all"
+          },
+          {
+            "label": "Worn over",
+            "value": "A padded gambeson"
+          }
+        ]
+      }
     },
     {
       "id": "heater-shield",
@@ -97506,7 +97692,36 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "13th–14th century"
+          },
+          {
+            "label": "Material",
+            "value": "Wood faced with leather/gesso, painted"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 2–3 kg"
+          },
+          {
+            "label": "Shape",
+            "value": "Rounded top, tapering to a point"
+          },
+          {
+            "label": "Carried",
+            "value": "On the forearm by straps (enarmes)"
+          },
+          {
+            "label": "Also",
+            "value": "A prime surface for heraldry"
+          }
+        ]
+      }
     },
     {
       "id": "hounskull-bascinet",
@@ -98139,6 +98354,12 @@
           "author": "Bayeux Museum",
           "type": "primary source",
           "url": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/discover-the-bayeux-tapestry/explore-online/"
+        },
+        {
+          "title": "Arms and Armour collection",
+          "author": "Royal Armouries, Leeds",
+          "type": "museum collection",
+          "url": "https://royalarmouries.org/collection/"
         }
       ]
     },
@@ -99120,7 +99341,40 @@
           "type": "museum collection",
           "url": "https://wallacelive.wallacecollection.org/eMP/eMuseumPlus"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "Antiquity to the 16th century"
+          },
+          {
+            "label": "Material",
+            "value": "Riveted iron or steel rings"
+          },
+          {
+            "label": "Weight (shirt)",
+            "value": "c. 9–12 kg"
+          },
+          {
+            "label": "Protects against",
+            "value": "Cuts and slashes very well"
+          },
+          {
+            "label": "Weak against",
+            "value": "Concussion, fine points, and heavy thrusts"
+          },
+          {
+            "label": "Construction",
+            "value": "Interlinked 4-in-1 riveted rings"
+          },
+          {
+            "label": "Worn over",
+            "value": "A padded garment (gambeson/aketon)"
+          }
+        ]
+      }
     },
     {
       "id": "mail-coif",
@@ -99605,7 +99859,40 @@
           "type": "museum collection",
           "url": "https://royalarmouries.org/collection/"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "Late 14th–16th century"
+          },
+          {
+            "label": "Material",
+            "value": "Hardened steel plates"
+          },
+          {
+            "label": "Weight (full harness)",
+            "value": "c. 20–25 kg, spread over the body"
+          },
+          {
+            "label": "Protects against",
+            "value": "Cuts, most thrusts, and many arrows"
+          },
+          {
+            "label": "Weak against",
+            "value": "Concussion, and thrusts into the gaps"
+          },
+          {
+            "label": "Construction",
+            "value": "Articulated lames riveted and strapped"
+          },
+          {
+            "label": "Worn over",
+            "value": "An arming doublet and mail voiders"
+          }
+        ]
+      }
     },
     {
       "id": "poleaxe",
@@ -99885,7 +100172,36 @@
           "type": "museum collection",
           "url": "https://www.metmuseum.org/art/collection/search?department=4"
         }
-      ]
+      ],
+      "specs": {
+        "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+        "rows": [
+          {
+            "label": "Period",
+            "value": "15th century"
+          },
+          {
+            "label": "Material",
+            "value": "Steel"
+          },
+          {
+            "label": "Weight",
+            "value": "c. 2–3 kg"
+          },
+          {
+            "label": "Protects",
+            "value": "Skull and neck; the face with a paired bevor"
+          },
+          {
+            "label": "Features",
+            "value": "Swept rear tail; German long-tailed and Italian forms"
+          },
+          {
+            "label": "Worn by",
+            "value": "Late-medieval knights and infantry"
+          }
+        ]
+      }
     },
     {
       "id": "seax",
@@ -100672,6 +100988,12 @@
           "author": "Germanisches Nationalmuseum, Nuremberg",
           "type": "museum collection",
           "url": "https://www.gnm.de/en/"
+        },
+        {
+          "title": "Viking-age swords (collection)",
+          "author": "Metropolitan Museum of Art, Arms and Armor",
+          "type": "museum collection",
+          "url": "https://www.metmuseum.org/art/collection/search?department=4&q=viking%20sword"
         }
       ]
     },
