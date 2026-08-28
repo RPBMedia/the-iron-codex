@@ -251,8 +251,14 @@ function OakeshottTypes({ data }) {
       <h2>Blade typology (Oakeshott)</h2>
       {data.diagram?.img && (
         <figure className="wa-type-figure">
-          <img src={data.diagram.img} alt="Chart of Oakeshott sword-blade types" loading="lazy" />
-          {data.diagram.caption && <figcaption>{data.diagram.caption}</figcaption>}
+          <a href={data.diagram.img} target="_blank" rel="noreferrer" title="Open full size">
+            <img src={data.diagram.img} alt="Chart of Oakeshott sword-blade types" loading="lazy" />
+          </a>
+          {data.diagram.caption && (
+            <figcaption>
+              {data.diagram.caption} <span className="wa-zoom-hint">— click to enlarge</span>
+            </figcaption>
+          )}
         </figure>
       )}
       <div className="wa-cards wa-type-cards">
