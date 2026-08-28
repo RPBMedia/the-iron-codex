@@ -2887,3 +2887,22 @@ a.tree-person:hover .tree-person-name {
 .wa-myths li { display: grid; gap: 0.2rem; padding: 0.7rem 0.9rem; border-left: 3px solid rgba(196,150,74,0.6); background: rgba(128,128,128,0.05); border-radius: 0 8px 8px 0; }
 .wa-myth-claim { font-weight: 600; text-decoration: line-through; opacity: 0.72; }
 .wa-myth-real { line-height: 1.5; }
+
+/* ---- W&A block refinements (review round 1) ---- */
+.wa-block h2 { margin-top: 0; margin-bottom: 1.15rem; }
+
+/* Specifications as grouped cards (<=3 specs each), stacked label/value */
+.wa-spec-card dl { margin: 0; }
+.wa-spec-item { display: flex; flex-direction: column; gap: 2px; padding: 0.5rem 0; border-bottom: 1px solid rgba(128,128,128,0.15); }
+.wa-spec-item:last-child { border-bottom: none; padding-bottom: 0; }
+.wa-spec-item:first-child { padding-top: 0; }
+.wa-spec-item dt { opacity: 0.6; font-size: 0.8rem; }
+.wa-spec-item dd { margin: 0; font-weight: 600; }
+
+/* Oakeshott type cards with a blade image */
+.wa-type-card { display: flex; flex-direction: column; }
+.wa-type-img { width: 100%; height: 130px; object-fit: contain; background: rgba(128,128,128,0.08); border-radius: 8px; margin-bottom: 0.6rem; }
+
+.wa-type-figure { margin: 0 0 1.15rem; text-align: center; }
+.wa-type-figure img { width: 100%; max-width: 640px; height: auto; background: #fff; border-radius: 10px; padding: 0.6rem; box-sizing: border-box; }
+.wa-type-figure figcaption { font-size: 0.82rem; opacity: 0.7; margin-top: 0.45rem; }

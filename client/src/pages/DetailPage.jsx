@@ -220,15 +220,53 @@ function KnownForBlock({ items }) {
 
 function WeaponSpecs({ specs }) {
   if (!specs?.rows?.length) return null
+  const groups = []
+  for (let i = 0; i < specs.rows.length; i += 3) groups.push(specs.rows.slice(i, i + 3))
   return (
     <section className="article-section wa-block">
       <h2>Specifications</h2>
-      <dl className="wa-specs">
-        {specs.rows.map((r) => (
-          <div key={r.label}><dt>{r.label}</dt><dd>{r.value}</dd></div>
+      <div className="wa-cards wa-spec-cards">
+        {groups.map((g, i) => (
+          <div key={i} className="wa-card wa-spec-card">
+            <dl>
+              {g.map((r) => (
+                <div key={r.label} className="wa-spec-item">
+                  <dt>{r.label}</dt>
+                  <dd>{r.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         ))}
-      </dl>
+      </div>
       {specs.note && <p className="wa-note">{specs.note}</p>}
+    </section>
+  )
+}
+
+function OakeshottTypes({ data }) {
+  if (!data?.rows?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Blade typology (Oakeshott)</h2>
+      {data.diagram?.img && (
+        <figure className="wa-type-figure">
+          <img src={data.diagram.img} alt="Chart of Oakeshott sword-blade types" loading="lazy" />
+          {data.diagram.caption && <figcaption>{data.diagram.caption}</figcaption>}
+        </figure>
+      )}
+      <div className="wa-cards wa-type-cards">
+        {data.rows.map((r) => (
+          <div key={r.type} className="wa-card wa-type-card">
+            {r.img && (
+              <img className="wa-type-img" src={r.img} alt={`Oakeshott type ${r.type} blade`} loading="lazy" />
+            )}
+            <h3>{r.type}</h3>
+            <p>{r.favors}</p>
+          </div>
+        ))}
+      </div>
+      {data.note && <p className="wa-note">{data.note}</p>}
     </section>
   )
 }
@@ -314,14 +352,7 @@ function WeaponArmorExtras({ article }) {
   return (
     <>
       {article.combatModes && <CombatModes modes={article.combatModes} />}
-      {article.oakeshottTypes?.rows?.length ? (
-        <WeaponTable
-          title="Blade typology (Oakeshott)"
-          note={article.oakeshottTypes.note}
-          columns={['Type', 'What its geometry favoured']}
-          rows={article.oakeshottTypes.rows.map((r) => [r.type, r.favors])}
-        />
-      ) : null}
+      {article.oakeshottTypes && <OakeshottTypes data={article.oakeshottTypes} />}
       {article.timeline?.length ? <Timeline items={article.timeline} /> : null}
       {cmp?.rows?.length ? (
         <WeaponTable

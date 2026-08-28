@@ -53,6 +53,10 @@ ls.specs = {
 
 ls.oakeshottTypes = {
   note: 'Ewart Oakeshott\'s 20th-century typology sorts medieval blades by geometry. Medieval warriors never used these numbers — they are a modern analytical tool.',
+  diagram: {
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Oakeshott%20types.png',
+    caption: 'Oakeshott\'s classification of medieval sword blades by form — the longsword families (types XIII, XV, XVII and XVIII) sit among them.'
+  },
   rows: [
     { type: 'XIIIa', favors: 'Long, broad, near-parallel cutting blade — the earlier "war sword" (grans espées de guerre); powerful shearing cuts.' },
     { type: 'XVa', favors: 'Narrow, stiff, sharply tapered diamond section — thrust-oriented, for maille and armour gaps.' },
