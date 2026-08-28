@@ -878,3 +878,15 @@ Rules:
 
 **Bad:** A city article uses a modern street scene because it is geographically accurate.
 **Good:** A city article uses a medieval gate, wall, old quarter, cathedral, mosque, castle, citadel, or historical map.
+
+## Historical Expansion Integrity (battles, wars, rulers, dynasties, locations)
+
+Whenever historical battles, sieges, wars, campaigns, rulers, dynasties/houses, or locations are added or expanded (e.g. a themed collection like the Reconquista or the Mongol invasions), these rules are permanent and non-negotiable:
+
+1. **Search first, never blind-create.** Before adding any entry, search the whole archive for the subject by name, alternate spellings, transliterations, regnal names, and existing ids. If it already exists, reuse and improve it — do not create a duplicate.
+2. **Aliases resolve to the canonical article.** Add alternate/regional/translated names (e.g. Sagrajas/az-Zallaqah, Boabdil/Muhammad XII, Kyiv/Kiev) as `aliases` on the one canonical entry so the auto-linker resolves them there — never a second article to support a name variant. Avoid alias collisions (the same alias on two different entries); `gen-entity-links.mjs` will refuse to auto-link a short name that collides, so use the full "Battle of X" form in prose for battle/location name clashes.
+3. **Every significant linked entity links or gets a page.** A named commander, ruler, dynasty, faction, or location referenced by a new entry must either resolve to an existing article or receive a proper new full-quality one (never a stub). Don't leave a major linked subject as dead plain text.
+4. **Relationships are bidirectional.** Battle↔commander, ruler↔house, ruler↔battle, location↔event, house↔member must all be navigable both ways (`relatedEntries`, `leaders`/`participants`, `notableMembers`, succession `personSlug`). If A lists B, B should list A where applicable.
+5. **Audit before "done".** After a batch, run `node scripts/gen-entity-links.mjs`, then `check:content-quality` and `check:images`, and verify: no duplicate ids, no broken/self related-entry slugs, no orphaned new pages (each is referenced by at least one other), correct forward continuity for battles, and no alias collisions introduced. Only commit when all pass.
+
+Scope note: the Codex era is 476–1453, but a themed conclusion may extend just past it where the archive already contains the relevant figures (e.g. the fall of Granada in 1492, with Isabella I already present) — mark post-1453 succession endpoints `outside-scope`/`office-ended` with notes rather than chaining into the early-modern period.
