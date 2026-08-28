@@ -822,6 +822,27 @@ Every `weaponsArmor` article must populate:
 - `relatedEntries` — minimum 5 total links across events, people, weapons/armor
 - `sources` — minimum 3 entries
 
+### Structured, scannable article model (2026 upgrade — the Longsword benchmark)
+
+W&A articles are not walls of prose. Beyond the required `contentSections`, major entries carry **optional structured fields** rendered as scannable blocks by the W&A branch of `StandardContent` in `DetailPage.jsx` (styled by the `.wa-*` classes in `styles.css`). The **Longsword** article is the reference implementation.
+
+Available structured fields (all optional; render only when present):
+- `specs`: `{ note, rows: [{ label, value }] }` → **Specifications** card grid (rows auto-grouped ≤3 per card, stacked label-over-value). Use **honest ranges**, not false precision, plus the variance `note`. Adapt the fields to the subject: a sword shows length/blade/weight/grip; **armour shows protection / construction / weight / limitations**, not a weapon template; a garment (surcoat) shows cloth/function.
+- `combatModes`: `[{ title, body, highlight? }]` → "How it was fought" cards (`highlight: true` draws a callout, e.g. half-swording).
+- `oakeshottTypes` (or any typed table): `{ note, diagram?: { img, caption }, rows: [{ type, favors }] }` → a figure (click-to-enlarge) plus type cards.
+- `comparison`: `{ title, leftLabel, rightLabel, rows: [{ feature, left, right }] }` → a two-column comparison table (e.g. Longsword vs. Arming sword).
+- `survivingExamples`: `[{ name, date, origin, overall, blade, weight, collection, sourceUrl }]` → museum object-cards. Figures must be **real, verified museum objects** (e.g. Met Arms & Armor via its public API) — never fabricated accession numbers or dimensions.
+- `myths`: `[{ claim, reality }]` → a myths-and-misconceptions callout list.
+- `timeline`: reuses the standard `Timeline` component for a compact development progression.
+- `knownFor`: now rendered as its own block; replace the old generic template ("used in a specific tactical setting rather than as a fantasy archetype", "construction and use changed with armor…") with **subject-specific facts**.
+
+Readability standard (non-negotiable for W&A):
+- **No walls of text.** Prefer short paragraphs, specs cards, tables, object-cards, and callouts. A reader should be able to skim in two minutes or explore in fifteen.
+- **Adapt structure to the subject** — a shield page is not a sword page; a helmet page emphasises protection/vision/construction; a famous object emphasises provenance and the surviving-vs-legendary distinction.
+- **Major entries get deeper treatment than minor ones.** Do not mechanically clone the Longsword's full block set onto every entry.
+- Modern classifications (Oakeshott numbers, "longsword") are **modern tools** — never presented as medieval terminology.
+- Sourcing must lean on **museums and scholarship** (Met, Royal Armouries, Wallace, Oakeshott, Wiktenauer for the fencing traditions), not primarily Wikipedia.
+
 ### Do Not
 
 - Leave any `contentSections` paragraph as a single sentence
