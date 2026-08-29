@@ -582,6 +582,7 @@ export const entityLinks = [
   { label: "War Hammer", aliases: ["Horseman’s hammer"], type: "weaponArmor", slug: "war-hammer" },
   { label: "Knights Hospitaller", aliases: ["The Knights Hospitaller","Hospitallers","The Hospitallers","Order of St John","Order of Saint John","Order of the Hospital","Knights of St John","Knights of Saint John","Order of St John of Jerusalem","Order of Malta","Knights of Malta"], type: "order", slug: "knights-hospitaller" },
   { label: "Knights Templar", aliases: ["The Knights Templar","Templars","The Templars","Order of the Temple","Poor Fellow-Soldiers of Christ","Poor Fellow-Soldiers of Christ and of the Temple of Solomon","Order of the Poor Knights of the Temple","Knights of the Temple"], type: "order", slug: "knights-templar" },
+  { label: "Order of Saint Lazarus", aliases: ["The Order of Saint Lazarus","Order of St Lazarus","Order of Saint Lazarus of Jerusalem","Order of St Lazarus of Jerusalem","Knights of Saint Lazarus","Lazarites","Leper Knights"], type: "order", slug: "order-of-saint-lazarus" },
   { label: "Teutonic Order", aliases: ["Teutonic Knights","The Teutonic Order","The Teutonic Knights","Order of the Teutonic Knights","Order of the German House of Saint Mary in Jerusalem","German Order","Deutscher Orden"], type: "order", slug: "teutonic-order" },
 ]
 
