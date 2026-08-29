@@ -581,6 +581,7 @@ export const entityLinks = [
   { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
   { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
   { label: "War Hammer", aliases: ["Horseman’s hammer"], type: "weaponArmor", slug: "war-hammer" },
+  { label: "Knights Templar", aliases: ["The Knights Templar","Templars","The Templars","Order of the Temple","Poor Fellow-Soldiers of Christ","Poor Fellow-Soldiers of Christ and of the Temple of Solomon","Order of the Poor Knights of the Temple","Knights of the Temple"], type: "order", slug: "knights-templar" },
 ]
 
 export const ambiguousEntityAliases = [

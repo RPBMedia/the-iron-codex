@@ -89,12 +89,17 @@ function labelFor(article) {
     return 'Dynasty'
   }
 
+  if (article.type === 'order') {
+    return 'Military order'
+  }
+
   return {
     event: 'Event',
     location: 'Location',
     artifact: 'Artifact',
     weaponArmor: 'Weapons & Armor',
-    house: 'Dynasty'
+    house: 'Dynasty',
+    order: 'Military order'
   }[article.type] ?? 'Article'
 }
 
@@ -113,6 +118,10 @@ function formatDate(article) {
 
   if (article.type === 'house') {
     return article.reignSpan ?? `${article.originYear ?? ''}`
+  }
+
+  if (article.type === 'order') {
+    return article.founded ?? `${article.originYear ?? ''}`
   }
 
   return `${article.year}`

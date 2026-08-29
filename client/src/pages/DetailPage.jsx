@@ -12,7 +12,8 @@ const collectionLabels = {
   people: 'People',
   houses: 'Houses',
   artifacts: 'Artifacts',
-  'weapons-armor': 'Weapons & Armor'
+  'weapons-armor': 'Weapons & Armor',
+  orders: 'Military Orders'
 }
 
 export default function DetailPage() {
@@ -71,6 +72,7 @@ export default function DetailPage() {
           {article.type === 'event' && <EventHero article={article} />}
           {article.type === 'house' && <HouseHero article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
+          {article.type === 'order' && <OrderHero article={article} />}
         </div>
       </section>
 
@@ -81,6 +83,7 @@ export default function DetailPage() {
           {article.type === 'event' && <EventContent article={article} />}
           {article.type === 'house' && <HouseContent article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardContent article={article} />}
+          {article.type === 'order' && <OrderContent article={article} />}
         </div>
       </section>
     </article>
@@ -166,6 +169,10 @@ function articleTypeLabel(article) {
 
   if (article.type === 'house') {
     return 'Dynasty'
+  }
+
+  if (article.type === 'order') {
+    return 'Military religious order'
   }
 
   return article.type
@@ -409,6 +416,140 @@ function StandardContent({ article }) {
           />
         ))
       )}
+      <SourcesList sources={article.sources} />
+      <RelatedEntries groups={article.relatedEntries} />
+    </>
+  )
+}
+
+// ---- Military religious order (structured, scannable) ----
+function OrderHero({ article }) {
+  const facts = [
+    { label: 'Founded', value: article.founded },
+    { label: 'Recognized', value: article.recognized },
+    { label: 'Dissolved', value: article.dissolved },
+    { label: 'Headquarters', value: article.headquarters },
+    { label: 'Allegiance', value: article.allegiance },
+    { label: 'Habit', value: article.habit }
+  ].filter((fact) => fact.value)
+
+  if (!facts.length) return null
+
+  return (
+    <dl className="fact-strip rich-facts">
+      {facts.map((fact) => (
+        <div key={fact.label}>
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))}
+    </dl>
+  )
+}
+
+function OrderKeyStats({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>At a glance</h2>
+      <div className="wa-cards wa-spec-cards">
+        <div className="wa-card wa-spec-card">
+          <dl>
+            {items.map((r) => (
+              <div key={r.label} className="wa-spec-item">
+                <dt>{r.label}</dt>
+                <dd>{r.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function GrandMasterTable({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Grand Masters</h2>
+      <div className="wa-table-wrap">
+        <table className="wa-table">
+          <thead><tr><th>Grand Master</th><th>Term</th><th>Note</th></tr></thead>
+          <tbody>
+            {items.map((m, i) => (
+              <tr key={`${m.name}-${i}`}>
+                <td>{m.slug ? <Link to={`/people/${m.slug}`}>{m.name}</Link> : m.name}</td>
+                <td>{m.term}</td>
+                <td>{m.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+function OrderBattles({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Major battles</h2>
+      <div className="wa-cards">
+        {items.map((b, i) => (
+          <div key={`${b.name}-${i}`} className="wa-card wa-object">
+            <h3>{b.slug ? <Link to={`/events/${b.slug}`}>{b.name}</Link> : b.name}</h3>
+            <p className="wa-object-meta">{[b.date, b.opponent].filter(Boolean).join(' · ')}</p>
+            {b.role && <p>{b.role}</p>}
+            {b.outcome && <p className="wa-object-coll">{b.outcome}</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function OrderStrongholds({ items }) {
+  if (!items?.length) return null
+  return (
+    <section className="article-section wa-block">
+      <h2>Headquarters &amp; strongholds</h2>
+      <div className="wa-cards">
+        {items.map((s, i) => (
+          <div key={`${s.name}-${i}`} className="wa-card">
+            <h3>{s.slug ? <Link to={`/locations/${s.slug}`}>{s.name}</Link> : s.name}</h3>
+            {s.period && <p className="wa-object-meta">{s.period}</p>}
+            {s.note && <p>{s.note}</p>}
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+function OrderContent({ article }) {
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: [article.summary].filter(Boolean) }]
+
+  return (
+    <>
+      <ArticleSection
+        className="overview-section"
+        title={sections[0].title}
+        paragraphs={sections[0].paragraphs}
+        article={article}
+      />
+      <OrderKeyStats items={article.keyStats} />
+      {sections.slice(1).map((section) => (
+        <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
+      ))}
+      <GrandMasterTable items={article.grandMasters} />
+      <OrderBattles items={article.battles} />
+      <OrderStrongholds items={article.strongholds} />
+      {article.timeline?.length ? <Timeline items={article.timeline} /> : null}
+      {article.myths && <MythList items={article.myths} />}
       <SourcesList sources={article.sources} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
@@ -1535,7 +1676,8 @@ function routeForEntry(entry) {
     famousWeapon: 'weapons-armor',
     famousArmor: 'weapons-armor',
     house: 'houses',
-    dynasty: 'houses'
+    dynasty: 'houses',
+    order: 'orders'
   }[entry.type]
 
   return routeType && entry.slug ? `/${routeType}/${entry.slug}` : ''

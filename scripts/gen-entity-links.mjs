@@ -13,7 +13,7 @@ const data = JSON.parse(fs.readFileSync(path.join(__dirname, '../server/data/his
 const outPath = path.join(__dirname, '../client/src/lib/entityLinks.js')
 const existing = fs.readFileSync(outPath, 'utf8')
 
-const collectionToType = { characters: 'person', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor' }
+const collectionToType = { characters: 'person', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', orders: 'order' }
 
 // Parse existing curated aliases: { slug -> [aliases] }
 const curated = {}
@@ -73,7 +73,7 @@ for (const [col, arr] of Object.entries(data)) {
 }
 
 // Stable order: by type, then label
-const typeOrder = { person: 0, event: 1, location: 2, artifact: 3, weaponArmor: 4 }
+const typeOrder = { person: 0, event: 1, location: 2, artifact: 3, weaponArmor: 4, order: 5 }
 entries.sort((x, y) => (typeOrder[x.type] - typeOrder[y.type]) || x.label.localeCompare(y.label))
 
 const lines = entries.map(e => {

@@ -37,6 +37,11 @@ const collectionCopy = {
     eyebrow: 'Dynasties',
     title: 'Houses',
     description: 'The ruling dynasties and noble lineages that held the crowns and lands of medieval Europe.'
+  },
+  orders: {
+    eyebrow: 'Military religious orders',
+    title: 'Military Orders',
+    description: 'The warrior-monk brotherhoods — Templars, Hospitallers, Teutonic Knights, and their kin — that fought the Crusades and the Reconquista.'
   }
 }
 
