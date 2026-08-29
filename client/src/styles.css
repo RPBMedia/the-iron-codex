@@ -2852,6 +2852,9 @@ a.tree-person:hover .tree-person-name {
 
 /* ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ---- */
 .wa-block { margin-top: 2rem; }
+/* Timeline card sits inline in the main content flow (orders, weapons/armor) —
+   give it the same top rhythm as a wa-block so it isn't glued to the block above. */
+.detail-content-inner > .timeline-card { margin-top: 2rem; }
 .wa-note { font-size: 0.85rem; opacity: 0.7; margin-top: 0.6rem; font-style: italic; }
 
 .wa-knownfor { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; }

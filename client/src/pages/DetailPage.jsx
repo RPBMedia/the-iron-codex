@@ -60,6 +60,7 @@ export default function DetailPage() {
         <div className="detail-media-col">
           <ImageWithCaption article={article} />
           {article.type === 'house' && <HouseArmsImage article={article} />}
+          {article.type === 'order' && <OrderSigilImage article={article} />}
         </div>
         <div className="detail-body">
           <BackToArchiveLink collection={collection} routerLocation={routerLocation} navigate={navigate} />
@@ -423,6 +424,36 @@ function StandardContent({ article }) {
 }
 
 // ---- Military religious order (structured, scannable) ----
+function OrderSigilImage({ article }) {
+  const [failed, setFailed] = useState(false)
+  if (!article.sigilImage || failed) return null
+  const info = article.sigilImageInfo
+
+  return (
+    <figure className="detail-media detail-media-order detail-media-arms">
+      <img
+        src={article.sigilImage}
+        alt={`Seal of the ${article.name}`}
+        onError={(event) => {
+          reportArticleImageFailure(article, 'sigilImage', event.currentTarget.currentSrc || event.currentTarget.src)
+          setFailed(true)
+        }}
+      />
+      {info && (
+        <figcaption>
+          <strong>{info.caption}</strong>
+          {info.source && (
+            info.sourceUrl
+              ? <a href={info.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {info.source}</a>
+              : <span>Source: {info.source}</span>
+          )}
+          {info.note && <em>{info.note}</em>}
+        </figcaption>
+      )}
+    </figure>
+  )
+}
+
 function OrderHero({ article }) {
   const facts = [
     { label: 'Founded', value: article.founded },

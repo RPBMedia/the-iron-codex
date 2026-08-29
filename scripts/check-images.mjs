@@ -123,6 +123,19 @@ for (const [collection, entries] of Object.entries(data)) {
       })
     })
 
+    // Military orders carry a sigil/seal image below the primary render image
+    // (analogous to a House's coat of arms); validate it with its own metadata.
+    if (entry.sigilImage !== undefined) {
+      validateImageReference({
+        collection,
+        article,
+        field: 'sigilImage',
+        src: entry.sigilImage,
+        metadata: entry.sigilImageInfo,
+        articleSources: entry.sources
+      })
+    }
+
     ;(entry.galleryImages ?? []).forEach((image, imageIndex) => {
       validateImageReference({
         collection,
