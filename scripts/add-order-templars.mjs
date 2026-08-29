@@ -15,6 +15,7 @@ const fp = (file) =>
 const per = (slug, title, label) => ({ title, type: 'person', slug, label })
 const evt = (slug, title, label) => ({ title, type: 'event', slug, label })
 const loc = (slug, title, label) => ({ title, type: 'location', slug, label })
+const ord = (slug, title, label) => ({ title, type: 'order', slug, label })
 
 const templars = {
   id: 'knights-templar',
@@ -230,6 +231,9 @@ const templars = {
     locations: [
       loc('kingdom-of-jerusalem', 'Kingdom of Jerusalem', 'The Crusader state they defended'),
       loc('teutonic-order', 'Teutonic Order', 'A sister military order')
+    ],
+    orders: [
+      ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order and rival, which inherited Templar estates')
     ]
   }
 }

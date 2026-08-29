@@ -581,6 +581,7 @@ export const entityLinks = [
   { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
   { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
   { label: "War Hammer", aliases: ["Horseman’s hammer"], type: "weaponArmor", slug: "war-hammer" },
+  { label: "Knights Hospitaller", aliases: ["The Knights Hospitaller","Hospitallers","The Hospitallers","Order of St John","Order of Saint John","Order of the Hospital","Knights of St John","Knights of Saint John","Order of St John of Jerusalem","Order of Malta","Knights of Malta"], type: "order", slug: "knights-hospitaller" },
   { label: "Knights Templar", aliases: ["The Knights Templar","Templars","The Templars","Order of the Temple","Poor Fellow-Soldiers of Christ","Poor Fellow-Soldiers of Christ and of the Temple of Solomon","Order of the Poor Knights of the Temple","Knights of the Temple"], type: "order", slug: "knights-templar" },
 ]
 

@@ -459,6 +459,7 @@ function OrderHero({ article }) {
     { label: 'Founded', value: article.founded },
     { label: 'Recognized', value: article.recognized },
     { label: 'Dissolved', value: article.dissolved },
+    { label: 'Status', value: article.dissolved ? null : article.status },
     { label: 'Headquarters', value: article.headquarters },
     { label: 'Allegiance', value: article.allegiance },
     { label: 'Habit', value: article.habit }
