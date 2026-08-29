@@ -464,7 +464,7 @@ function OrderHero({ article }) {
     { label: 'Habit', value: article.habit }
   ].filter((fact) => fact.value)
 
-  if (!facts.length) return null
+  if (!facts.length && !article.purpose) return null
 
   return (
     <dl className="fact-strip rich-facts">
@@ -474,6 +474,12 @@ function OrderHero({ article }) {
           <dd>{fact.value}</dd>
         </div>
       ))}
+      {article.purpose && (
+        <div className="order-purpose">
+          <dt>Purpose</dt>
+          <dd>{article.purpose}</dd>
+        </div>
+      )}
     </dl>
   )
 }

@@ -1396,6 +1396,18 @@ button.back-link:focus-visible {
   line-height: 1.35;
 }
 
+/* Purpose card in an order's fact strip: spans the full row and reads as prose
+   rather than a short bold value. */
+.fact-strip .order-purpose {
+  grid-column: 1 / -1;
+}
+
+.fact-strip .order-purpose dd {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 0.92rem;
+}
+
 .fact-nicknames {
   display: grid;
   gap: 8px;
