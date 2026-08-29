@@ -33,12 +33,12 @@ const hospitallers = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Krak_des_Chevaliers_01.jpg',
     note: 'Held by the order from 1142 until it fell to Baybars in 1271.'
   },
-  sigilImage: fp('Seal of Hospitallers.jpg'),
+  sigilImage: fp('Bandiera del Sovrano Militare Ordine di Malta.svg'),
   sigilImageInfo: {
-    caption: 'The seal of the Order of the Hospital of St John of Jerusalem.',
+    caption: 'The white cross of the Order of St John on its red field.',
     source: 'Wikimedia Commons',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Seal_of_Hospitallers.jpg',
-    note: 'The order’s emblem was a plain white cross; the eight-pointed “Maltese” form came later.'
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Bandiera_del_Sovrano_Militare_Ordine_di_Malta.svg',
+    note: 'The medieval order used a plain white cross; the eight-pointed “Maltese” form came later.'
   },
   summary:
     'The Order of St John of Jerusalem began as a hospital for sick and poor pilgrims and became a military order rivalled only by the Templars — nurses and knights at once. Unlike the Templars, it survived the fall of the Holy Land, reinventing itself as the sovereign naval power of Rhodes and later Malta, and it endures today as the Sovereign Military Order of Malta.',

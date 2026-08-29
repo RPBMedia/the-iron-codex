@@ -29,12 +29,12 @@ const lazarus = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Raising_of_Lazarus_(f._11r).jpg',
     note: 'The order honoured the leprous Lazarus of the Gospel parable as the patron of lepers.'
   },
-  sigilImage: fp('Saint Lazarus Arms.jpg'),
+  sigilImage: fp('Cross of Saint Lazarus.svg'),
   sigilImageInfo: {
-    caption: 'Arms of the Order of Saint Lazarus — a green cross.',
+    caption: 'The green cross of the Order of Saint Lazarus.',
     source: 'Wikimedia Commons',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Saint_Lazarus_Arms.jpg',
-    note: 'The green cross distinguished the Lazarites from the red-cross Templars and white-cross Hospitallers.'
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Cross_of_Saint_Lazarus.svg',
+    note: 'The green cross set the Lazarites apart from the red-cross Templars and white-cross Hospitallers.'
   },
   summary:
     'The Order of Saint Lazarus grew from a leper hospital outside the walls of Jerusalem into the strangest of the military orders: a brotherhood that cared for lepers and received leprous knights from the Templars and Hospitallers into its own ranks. Small and often overlooked, it fought and bled in the Crusader states, then survived in the West as a hospitaller order long after the Holy Land was lost.',

@@ -36,12 +36,12 @@ const templars = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Templari_Paris.jpg',
     note: 'The white mantle with the red cross was the order’s battlefield sign.'
   },
-  sigilImage: fp('Seal of Templars.jpg'),
+  sigilImage: fp('Cross of the Knights Templar.svg'),
   sigilImageInfo: {
-    caption: 'The seal of the Knights Templar — two knights sharing a single horse.',
+    caption: 'The red cross of the Knights Templar.',
     source: 'Wikimedia Commons',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Seal_of_Templars.jpg',
-    note: 'The two-riders device was read as a sign of the brothers’ poverty and brotherhood.'
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Cross_of_the_Knights_Templar.svg',
+    note: 'A red cross on a white mantle marked the brothers as men ready for martyrdom.'
   },
   summary:
     'The Poor Fellow-Soldiers of Christ and of the Temple of Solomon — founded in Jerusalem around 1119 to protect pilgrims — grew into the most famous of the military religious orders: an elite standing army of warrior-monks, a pan-European banking network, and, after 1307, the victims of the most notorious heresy trial of the Middle Ages.',

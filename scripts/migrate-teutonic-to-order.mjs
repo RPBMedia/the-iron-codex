@@ -41,12 +41,12 @@ const teutonic = {
     sourceUrl: 'https://commons.wikimedia.org/wiki/File:Castillo_de_Malbork,_Polonia,_2013-05-19,_DD_13.jpg',
     note: 'The largest brick castle in the world; the Grand Masters’ seat from 1309.'
   },
-  sigilImage: fp('Siegel Grossmeister Deutschritterorden.jpg'),
+  sigilImage: fp('Insignia Germany Order Teutonic.svg'),
   sigilImageInfo: {
-    caption: 'The seal of the Grand Master of the Teutonic Order.',
+    caption: 'The black cross of the Teutonic Order.',
     source: 'Wikimedia Commons',
-    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Siegel_Grossmeister_Deutschritterorden.jpg',
-    note: 'The order’s sign was a black cross on a white mantle.'
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Insignia_Germany_Order_Teutonic.svg',
+    note: 'A black cross on a white mantle was the order’s sign.'
   },
   summary: prev.summary,
 

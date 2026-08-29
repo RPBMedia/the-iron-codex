@@ -2862,6 +2862,15 @@ a.tree-person:hover .tree-person-name {
   padding: 14px;
 }
 
+/* Order sigils are clean heraldic cross emblems (red/black/green crosses, or a
+   white cross on red). Force a constant light tile and generous padding so the
+   emblem reads the same in light and dark themes and never sits edge-to-edge. */
+.detail-media-order img {
+  background: #f7f3ea;
+  padding: clamp(20px, 6%, 40px);
+  max-height: 300px;
+}
+
 /* ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ---- */
 .wa-block { margin-top: 2rem; }
 /* Timeline card sits inline in the main content flow (orders, weapons/armor) —
