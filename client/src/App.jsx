@@ -31,6 +31,7 @@ export default function App() {
             <Route path="/weapons-armor" element={<CollectionPage collection="weapons-armor" />} />
             <Route path="/houses" element={<CollectionPage collection="houses" />} />
             <Route path="/orders" element={<CollectionPage collection="orders" />} />
+            <Route path="/locations/teutonic-order" element={<Navigate to="/orders/teutonic-order" replace />} />
             <Route path="/index" element={<IndexPage />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/login" element={<AuthPage mode="login" />} />

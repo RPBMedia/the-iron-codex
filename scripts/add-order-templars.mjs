@@ -229,11 +229,11 @@ const templars = {
       evt('battle-of-las-navas-de-tolosa', 'Battle of Las Navas de Tolosa', '1212 — crusading in Iberia')
     ],
     locations: [
-      loc('kingdom-of-jerusalem', 'Kingdom of Jerusalem', 'The Crusader state they defended'),
-      loc('teutonic-order', 'Teutonic Order', 'A sister military order')
+      loc('kingdom-of-jerusalem', 'Kingdom of Jerusalem', 'The Crusader state they defended')
     ],
     orders: [
-      ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order and rival, which inherited Templar estates')
+      ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order and rival, which inherited Templar estates'),
+      ord('teutonic-order', 'Teutonic Order', 'The German order of the Baltic crusades')
     ]
   }
 }
