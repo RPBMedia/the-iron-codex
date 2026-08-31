@@ -66,7 +66,22 @@ export default function Header() {
     <header className="site-header">
       <Link className="brand" to="/">
         <span className="brand-mark" aria-hidden="true">
-          <span></span>
+          <svg className="brand-helm" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 22 Q17 16 24 16 L40 16 Q47 16 47 22 L46 40 Q45 49 32 50 Q19 49 18 40 Z" fill="#3d434c" stroke="#20242a" strokeWidth="1.6" />
+            <path d="M23 17 Q18.5 18 18.5 23 L19.5 40 Q20 47 25.5 49.5 Q21.5 43 21.5 33 Z" fill="#565d68" opacity="0.5" />
+            <path d="M41 17 Q45.5 18 45.5 23 L44.5 40 Q44 47 38.5 49.5 Q42.5 43 42.5 33 Z" fill="#2b303a" opacity="0.45" />
+            <rect x="18.5" y="23" width="27" height="3.2" rx="1" fill="#4b515b" />
+            <rect x="29.6" y="16.5" width="4.8" height="28" rx="1.2" fill="#4b515b" />
+            <path d="M20.6 28 h8.1 v3.3 h-8.1 z M35.3 28 h8.1 v3.3 h-8.1 z" fill="#111419" />
+            <circle cx="32" cy="20" r="1.05" fill="#f2c14e" />
+            <circle cx="32" cy="41.5" r="1.05" fill="#f2c14e" />
+            <circle cx="22.6" cy="24.6" r="1" fill="#f2c14e" />
+            <circle cx="41.4" cy="24.6" r="1" fill="#f2c14e" />
+            <g fill="#14181d">
+              <circle cx="25.5" cy="38.6" r="1.05" /><circle cx="25.5" cy="42.4" r="1.05" /><circle cx="23.2" cy="40.5" r="1.05" /><circle cx="27.8" cy="40.5" r="1.05" />
+              <circle cx="38.5" cy="38.6" r="1.05" /><circle cx="38.5" cy="42.4" r="1.05" /><circle cx="36.2" cy="40.5" r="1.05" /><circle cx="40.8" cy="40.5" r="1.05" />
+            </g>
+          </svg>
         </span>
         <span>
           <strong>The Iron Codex</strong>

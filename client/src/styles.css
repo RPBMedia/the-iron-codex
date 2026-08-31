@@ -76,49 +76,21 @@ img {
 }
 
 .brand-mark {
-  position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border: 1px solid rgba(242, 193, 78, 0.72);
   background: #0b0b0d;
+  border-radius: 7px;
   overflow: hidden;
 }
 
-.brand-mark::before,
-.brand-mark::after {
-  position: absolute;
-  inset: 0;
-  content: "";
-}
-
-.brand-mark::before {
-  background:
-    linear-gradient(90deg, transparent 0 49%, rgba(242, 193, 78, 0.82) 49% 51%, transparent 51%),
-    linear-gradient(180deg, transparent 0 49%, rgba(242, 193, 78, 0.82) 49% 51%, transparent 51%),
-    linear-gradient(135deg, #182c57 0 50%, #8d1024 50% 100%);
-}
-
-.brand-mark::after {
-  background:
-    radial-gradient(circle at 28% 28%, #f2c14e 0 4px, transparent 4px),
-    radial-gradient(circle at 72% 28%, #f2c14e 0 4px, transparent 4px),
-    radial-gradient(circle at 28% 72%, #f2c14e 0 4px, transparent 4px),
-    radial-gradient(circle at 72% 72%, #f2c14e 0 4px, transparent 4px);
-  opacity: 0.94;
-}
-
-.brand-mark span {
-  position: absolute;
-  inset: 9px 18px;
-  z-index: 1;
-  border-radius: 999px;
-  background: var(--silver);
-  box-shadow:
-    0 0 0 1px rgba(11, 11, 13, 0.72),
-    0 12px 0 var(--silver),
-    0 24px 0 var(--silver);
-  transform: rotate(38deg);
+.brand-helm {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .brand strong,
