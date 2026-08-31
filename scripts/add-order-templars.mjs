@@ -140,7 +140,7 @@ const templars = {
   // ---- 23 Grand Masters (complete series) ----
   grandMasters: [
     { name: 'Hugh de Payns', slug: 'hugh-de-payns', term: 'c. 1119–1136', note: 'Founder and first Grand Master.' },
-    { name: 'Robert de Craon', term: '1136–1149', note: 'Secured the great papal privileges.' },
+    { name: 'Robert de Craon', slug: 'robert-de-craon', term: '1136–1149', note: 'Secured the great papal privileges.' },
     { name: 'Everard des Barres', term: '1149–1152', note: 'Resigned to become a Cistercian monk.' },
     { name: 'Bernard de Tremelay', term: '1152–1153', note: 'Killed storming Ascalon.' },
     { name: 'André de Montbard', term: '1153–1156', note: 'An uncle of Bernard of Clairvaux.' },
@@ -159,7 +159,7 @@ const templars = {
     { name: 'Guillaume de Sonnac', term: '1247–1250', note: 'Mortally wounded at Mansurah.' },
     { name: 'Renaud de Vichiers', term: '1250–1256', note: 'Close ally of Louis IX of France.' },
     { name: 'Thomas Bérard', term: '1256–1273', note: 'Held the order together as the East contracted.' },
-    { name: 'Guillaume de Beaujeu', term: '1273–1291', note: 'Died defending Acre in its final siege.' },
+    { name: 'Guillaume de Beaujeu', slug: 'guillaume-de-beaujeu', term: '1273–1291', note: 'Died defending Acre in its final siege.' },
     { name: 'Thibaud Gaudin', term: '1291–1292', note: 'Evacuated the order to Cyprus.' },
     { name: 'Jacques de Molay', slug: 'jacques-de-molay', term: '1292–1314', note: 'Last Grand Master; burned as a heretic in 1314.' }
   ],
