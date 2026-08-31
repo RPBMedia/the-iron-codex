@@ -4,8 +4,8 @@ import LoadingState from '../components/LoadingState.jsx'
 import { getGlobalSearchIndex, searchArchive } from '../lib/search.js'
 import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
 
-const defaultGroupOrder = ['person', 'event', 'battle', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
-const yearGroupOrder = ['battle', 'event', 'person', 'kingdom', 'location', 'weaponArmor', 'document', 'artifact']
+const defaultGroupOrder = ['person', 'event', 'battle', 'order', 'kingdom', 'location', 'house', 'weaponArmor', 'document', 'artifact']
+const yearGroupOrder = ['battle', 'event', 'order', 'person', 'kingdom', 'location', 'house', 'weaponArmor', 'document', 'artifact']
 
 export default function SearchPage() {
   const location = useLocation()
@@ -123,6 +123,8 @@ function groupLabel(type) {
     kingdom: 'Kingdoms and Polities',
     location: 'Locations',
     person: 'People',
+    house: 'Houses',
+    order: 'Military Orders',
     weaponArmor: 'Weapons & Armor'
   }[type] ?? 'Results'
 }

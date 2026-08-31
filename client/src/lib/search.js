@@ -17,7 +17,8 @@ export function buildSearchIndex(collections) {
     ...collections.locations.map((item) => normalizeLocation(item)),
     ...collections.artifacts.map((item) => normalizeArtifact(item)),
     ...(collections.weaponsArmor ?? []).map((item) => normalizeWeaponArmor(item)),
-    ...(collections.houses ?? []).map((item) => normalizeHouse(item))
+    ...(collections.houses ?? []).map((item) => normalizeHouse(item)),
+    ...(collections.orders ?? []).map((item) => normalizeOrder(item))
   ]
 }
 
@@ -299,6 +300,45 @@ function normalizeHouse(item) {
       ...(item.aliases ?? []),
       ...(item.notableMembers ?? []).map((m) => m.displayName),
       ...(item.cadetBranches ?? []).map((b) => b.name),
+      ...relatedText(item.relatedEntries),
+      ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])])
+    ])
+  }
+}
+
+function normalizeOrder(item) {
+  const grandMasters = (item.grandMasters ?? []).map((m) => m.name)
+  const battles = (item.battles ?? []).map((b) => b.name)
+  const strongholds = (item.strongholds ?? []).map((s) => s.name)
+  const timelineYears = compactYears((item.timeline ?? []).map((entry) => yearFromText(entry.date)))
+
+  return {
+    id: item.id,
+    title: item.name,
+    type: 'order',
+    typeLabel: 'Military order',
+    slug: item.id,
+    url: `/orders/${item.id}`,
+    description: item.summary,
+    dateLabel: item.founded ?? String(item.originYear ?? ''),
+    aliases: item.aliases ?? [],
+    tags: [item.habit, item.allegiance, item.patron, item.headquarters, ...grandMasters].filter(Boolean),
+    years: compactYears([item.originYear]),
+    timelineYears,
+    related: [...grandMasters, ...battles, ...relatedText(item.relatedEntries)].filter(Boolean),
+    searchableText: normalize([
+      item.name,
+      item.id,
+      item.summary,
+      item.purpose,
+      item.habit,
+      item.allegiance,
+      item.headquarters,
+      item.patron,
+      ...(item.aliases ?? []),
+      ...grandMasters,
+      ...battles,
+      ...strongholds,
       ...relatedText(item.relatedEntries),
       ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])])
     ])
