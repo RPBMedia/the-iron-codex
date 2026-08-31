@@ -351,6 +351,7 @@ export const entityLinks = [
   { label: "Battle of Kosovo", aliases: ["Kosovo"], type: "event", slug: "battle-of-kosovo" },
   { label: "Battle of Las Navas de Tolosa", type: "event", slug: "battle-of-las-navas-de-tolosa" },
   { label: "Battle of Legnano", type: "event", slug: "battle-of-legnano" },
+  { label: "Battle of Legnica", aliases: ["Battle of Liegnitz","Battle of Wahlstatt","Legnica"], type: "event", slug: "battle-of-legnica" },
   { label: "Battle of Manzikert", type: "event", slug: "battle-of-manzikert" },
   { label: "Battle of Mohi", type: "event", slug: "battle-of-mohi" },
   { label: "Battle of Nicopolis", aliases: ["Nicopolis"], type: "event", slug: "battle-of-nicopolis" },
