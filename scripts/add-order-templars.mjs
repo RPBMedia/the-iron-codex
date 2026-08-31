@@ -235,7 +235,8 @@ const templars = {
       ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order and rival, which inherited Templar estates'),
       ord('teutonic-order', 'Teutonic Order', 'The German order of the Baltic crusades'),
       ord('order-of-christ', 'Order of Christ', 'The order’s Portuguese heir, which kept Tomar'),
-      ord('order-of-montesa', 'Order of Montesa', 'The order’s heir in the Crown of Aragon')
+      ord('order-of-montesa', 'Order of Montesa', 'The order’s heir in the Crown of Aragon'),
+      ord('order-of-montjoy', 'Order of Montjoy', 'A small order absorbed into the Temple in 1188')
     ]
   }
 }

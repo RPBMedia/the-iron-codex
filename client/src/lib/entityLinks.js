@@ -590,8 +590,11 @@ export const entityLinks = [
   { label: "Order of Christ", aliases: ["The Order of Christ","Military Order of Christ","Order of the Knights of Christ","Ordem de Cristo","Order of Christ (Portugal)"], type: "order", slug: "order-of-christ" },
   { label: "Order of Dobrzyń", aliases: ["The Order of Dobrzyń","Order of Dobrin","Brothers of Dobrzyń","Knights of Dobrzyń","Fratres Militiae Christi de Dobrin","Prussian Knights"], type: "order", slug: "order-of-dobrzyn" },
   { label: "Order of Montesa", aliases: ["The Order of Montesa","Knights of Montesa","Orde de Montesa","Orden de Montesa","Order of Saint Mary of Montesa"], type: "order", slug: "order-of-montesa" },
+  { label: "Order of Montjoy", aliases: ["The Order of Montjoy","Order of Montegaudio","Order of Mountjoy","Orden de Montegaudio","Knights of Montjoy","Order of the Holy Redeemer of Montjoy"], type: "order", slug: "order-of-montjoy" },
   { label: "Order of Saint Lazarus", aliases: ["The Order of Saint Lazarus","Order of St Lazarus","Order of Saint Lazarus of Jerusalem","Order of St Lazarus of Jerusalem","Knights of Saint Lazarus","Lazarites","Leper Knights"], type: "order", slug: "order-of-saint-lazarus" },
+  { label: "Order of San Jorge de Alfama", aliases: ["The Order of San Jorge de Alfama","Order of Saint George of Alfama","Order of Sant Jordi d’Alfama","Orde de Sant Jordi d’Alfama","Knights of St George of Alfama"], type: "order", slug: "order-of-san-jorge-de-alfama" },
   { label: "Order of Santiago", aliases: ["The Order of Santiago","Order of St James","Order of Saint James of the Sword","Order of Santiago de Compostela","Knights of Santiago","Orden de Santiago"], type: "order", slug: "order-of-santiago" },
+  { label: "Order of St Thomas of Acre", aliases: ["The Order of St Thomas of Acre","Order of Saint Thomas of Acre","Order of St Thomas of Canterbury","Knights of St Thomas","Order of St Thomas the Martyr"], type: "order", slug: "order-of-st-thomas-of-acre" },
   { label: "Teutonic Order", aliases: ["Teutonic Knights","The Teutonic Order","The Teutonic Knights","Order of the Teutonic Knights","Order of the German House of Saint Mary in Jerusalem","German Order","Deutscher Orden"], type: "order", slug: "teutonic-order" },
 ]
 

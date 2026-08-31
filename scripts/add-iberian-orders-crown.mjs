@@ -226,7 +226,8 @@ const montesa = {
       ord('knights-templar', 'Knights Templar', 'Whose Valencian lands it inherited'),
       ord('knights-hospitaller', 'Knights Hospitaller', 'The rival heir the crown wished to avoid'),
       ord('order-of-calatrava', 'Order of Calatrava', 'Its Cistercian rule-giver'),
-      ord('order-of-christ', 'Order of Christ', 'The Portuguese heir of the Templars')
+      ord('order-of-christ', 'Order of Christ', 'The Portuguese heir of the Templars'),
+      ord('order-of-san-jorge-de-alfama', 'Order of San Jorge de Alfama', 'The small order Montesa absorbed in 1400')
     ]
   }
 }

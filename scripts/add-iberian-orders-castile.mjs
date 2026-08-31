@@ -260,7 +260,8 @@ const calatrava = {
       ord('order-of-alcantara', 'Order of Alcántara', 'Daughter-order in León'),
       ord('order-of-aviz', 'Order of Aviz', 'Daughter-order in Portugal'),
       ord('order-of-montesa', 'Order of Montesa', 'Daughter-order in Valencia'),
-      ord('knights-templar', 'Knights Templar', 'Held Calatrava before the order')
+      ord('knights-templar', 'Knights Templar', 'Held Calatrava before the order'),
+      ord('order-of-montjoy', 'Order of Montjoy', 'Whose Iberian remnant Calatrava absorbed')
     ]
   }
 }
