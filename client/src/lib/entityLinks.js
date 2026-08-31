@@ -486,6 +486,7 @@ export const entityLinks = [
   { label: "Mecklenburg", type: "location", slug: "mecklenburg" },
   { label: "Medina del Campo", type: "location", slug: "medina-del-campo" },
   { label: "Melrose Abbey", type: "location", slug: "melrose-abbey" },
+  { label: "Mongol Empire", aliases: ["The Mongol Empire","Yeke Mongol Ulus","Great Mongol State"], type: "location", slug: "mongol-empire" },
   { label: "Monmouth", type: "location", slug: "monmouth" },
   { label: "Nas Castle", type: "location", slug: "nas-castle" },
   { label: "Nogent-le-Roi", type: "location", slug: "nogent-le-roi" },
