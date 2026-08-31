@@ -148,7 +148,7 @@ const templars = {
     { name: 'Philippe de Milly', term: '1169–1171', note: 'A great baron of Outremer before joining.' },
     { name: 'Odo de St Amand', term: '1171–1179', note: 'Died a prisoner of Saladin.' },
     { name: 'Arnold of Torroja', term: '1179–1184', note: 'Died on a diplomatic mission to Europe.' },
-    { name: 'Gérard de Ridefort', term: '1185–1189', note: 'Led the order into the disaster at Hattin.' },
+    { name: 'Gérard de Ridefort', slug: 'gerard-de-ridefort', term: '1185–1189', note: 'Led the order into the disaster at Hattin.' },
     { name: 'Robert de Sablé', term: '1191–1193', note: 'Bought and briefly governed Cyprus.' },
     { name: 'Gilbert Érail', term: '1193–1200', note: 'Rebuilt strength after the Third Crusade.' },
     { name: 'Philippe de Plessis', term: '1201–1209', note: 'Held a fragile truce with the Ayyubids.' },

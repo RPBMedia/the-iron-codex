@@ -297,7 +297,7 @@ const christ = {
   grandMasters: [
     { name: 'Gil Martins', term: '1319–1321', note: 'First master, transferred from the Order of Aviz.' },
     { name: 'Lopo Dias de Sousa', term: '1373–1417', note: 'Master through the crisis of 1383–85.' },
-    { name: 'Prince Henry the Navigator', term: '1420–1460', note: 'Governor who turned the order to Atlantic exploration.' },
+    { name: 'Prince Henry the Navigator', slug: 'henry-the-navigator', term: '1420–1460', note: 'Governor who turned the order to Atlantic exploration.' },
     { name: 'Prince Fernando', term: '1460–1470', note: 'Royal prince and administrator of the order.' },
     { name: 'Manuel, Duke of Beja', term: 'from 1484', note: 'Later King Manuel I; the order’s cross became the mark of empire.' }
   ],

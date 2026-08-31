@@ -180,7 +180,7 @@ const livonianOrder = {
     { name: 'Andreas von Felben', term: '1240–1241', note: 'Master at the time of the Battle on the Ice.' },
     { name: 'Anno von Sangerhausen', term: '1253–1256', note: 'Later Grand Master of the whole order.' },
     { name: 'Konrad von Mandern', term: '1263–1266', note: 'Rebuilt the order after Durbe.' },
-    { name: 'Wolter von Plettenberg', term: '1494–1535', note: 'The greatest master; beat Muscovy at Smolino and secured a long peace.' },
+    { name: 'Wolter von Plettenberg', slug: 'wolter-von-plettenberg', term: '1494–1535', note: 'The greatest master; beat Muscovy at Smolino and secured a long peace.' },
     { name: 'Hermann von Brüggenei', term: '1535–1549', note: 'Presided over a Livonia turning Protestant.' },
     { name: 'Gotthard Kettler', term: '1559–1561', note: 'Last master; secularised the order as Duke of Courland.' }
   ],
