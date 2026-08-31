@@ -159,7 +159,10 @@ const teutonic = {
     ],
     orders: [
       ord('knights-templar', 'Knights Templar', 'The senior international order'),
-      ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order of St John')
+      ord('knights-hospitaller', 'Knights Hospitaller', 'Sister order of St John'),
+      ord('livonian-order', 'Livonian Order', 'Its autonomous Livonian branch'),
+      ord('livonian-brothers-of-the-sword', 'Livonian Brothers of the Sword', 'Merged into it in 1237'),
+      ord('order-of-dobrzyn', 'Order of Dobrzyń', 'Absorbed into it c. 1235')
     ]
   }
 }
