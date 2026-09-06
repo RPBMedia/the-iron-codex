@@ -145,6 +145,21 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       allowlist.
       Rewrite runs in 7 category batches: shields (5), helmets (7), body armour
       (8), swords/daggers (6), hafted/pole (9), missile (4), named artifacts (3).
+      - [x] **Batch 1 — shields** (2026-09-06). `shield` 1,103→7,040 · `buckler`
+            1,028→6,036 · `heater-shield` 1,010→5,937 · `pavise` 1,009→5,360 ·
+            `kite-shield` 1,071→5,112. Each now has the 7 mandated topics, 21
+            paragraphs, zero thin sections, and named anchors: Hastings, Crécy,
+            Poitiers, Agincourt, the Visby grave pits, the Gokstad ship burial,
+            MS I.33, the Seedorf shield, Konrad von Thüringen's shield, the Black
+            Prince's achievements at Canterbury. All five now exceed the Longsword
+            benchmark of 4,698 chars.
+      - [ ] Batch 2 — helmets (7): `bascinet`, `great-helm`, `hounskull-bascinet`,
+            `kettle-hat`, `mail-coif`, `nasal-helmet`, `sallet`
+      - [ ] Batch 3 — body armour (8) · Batch 4 — swords/daggers (6)
+      - [ ] Batch 5 — hafted/pole (9) · Batch 6 — missile (4)
+      - [ ] Batch 7 — named artifacts (3): needs the unique-object structure
+            (provenance, measurements, conservation, scholarly disputes)
+      - [ ] THEN `validateWeaponsArmorDepth` — after all batches, never before.
 - [ ] M6 — Classification, index, relationship repairs
 - [ ] M7 — Validation + manual visual QA
 - [ ] M8 — Coverage-gap analysis (**analysis only**)
