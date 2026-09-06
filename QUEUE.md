@@ -128,8 +128,23 @@ of the coverage-gap list — do not create proposed new subjects without it.**
 
       **Not verified in a browser** (no local dev servers). Gates run: production
       build, `check:images`, `check:content-quality`. Needs visual QA on live.
-- [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
-      section templates**; only Longsword has the rich fields
+- [ ] **M5 — Editorial audit + rewrite** ← IN PROGRESS. Audit delivered:
+      `WEAPONS_ARMOR_EDITORIAL_AUDIT.md`.
+      **The archive fails its own documented standard in 40 of 42 articles.**
+      CLAUDE.md requires 5+ sections of 3+ substantial paragraphs, seven mandated
+      topics, and at least one named battle/person/museum object per article. The
+      reality is a median of ~1,150 characters — about 190 words for a whole
+      article — one paragraph per section, and an average of ONE date and ONE
+      named entity per article. Ratings: 1 exemplary (`longsword`), 1 strong
+      (`war-bow`, researched but structurally thin), 11 uneven, 29 weak.
+      **The checker missed it because every rule is a presence test** (banned
+      phrases, duplicate paragraphs, buzzword lists). Nothing tests for absence,
+      so six one-sentence sections with no dates pass cleanly. A
+      `validateWeaponsArmorDepth` rule must be added **after** the rewrite, not
+      before, or it fails the build — same sequencing lesson as the image
+      allowlist.
+      Rewrite runs in 7 category batches: shields (5), helmets (7), body armour
+      (8), swords/daggers (6), hafted/pole (9), missile (4), named artifacts (3).
 - [ ] M6 — Classification, index, relationship repairs
 - [ ] M7 — Validation + manual visual QA
 - [ ] M8 — Coverage-gap analysis (**analysis only**)
