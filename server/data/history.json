@@ -101325,7 +101325,7 @@
       "region": "Scandinavia and England",
       "material": "Iron or steel axe head on a long wooden haft",
       "battlefieldRole": "Two-handed cutting weapon for elite infantry",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dane%20Axe.JPG",
+      "image": "/dane-axe-wulflund.jpg",
       "summary": "The Dane axe was a long-hafted axe associated with late Viking Age and Anglo-Danish elite warriors, including housecarls in eleventh-century England.",
       "details": "A trained axe-man could strike around shields, threaten horses, and deliver powerful blows against mail and helmets. At Hastings, English axe-bearing housecarls formed part of Harold Godwinson’s elite infantry.",
       "contentSections": [
@@ -101369,12 +101369,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "A Dane axe, the long-hafted two-handed Scandinavian battle axe, shown in full.",
-        "creator": "Photograph of axe",
-        "date": "Viking to early medieval form",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dane%20Axe.JPG",
-        "note": "The broad thin cutting head and long haft of the two-handed Danish axe are shown complete."
+        "caption": "Modern forged reproduction of a Dane axe, shown complete: the broad flaring bearded head and the full two-handed haft running to the butt — the long shaft being the feature that defines the type.",
+        "creator": "Wulflund (Czech forge) — maker and product photograph",
+        "date": "modern reproduction of a 10th–12th century form",
+        "source": "Wulflund, reproduced with credit",
+        "sourceUrl": "https://www.wulflund.com/dane-axe-viking-sharp-replica",
+        "note": "A reproduction, not an excavated axe. Its stated dimensions — 122 cm overall, a 20 cm head with a 24 cm edge, plain and forged with a welded edge — sit within the range of surviving Danish axes, and the plain head is right: the decorated knotwork heads sold by some makers are modern styling, not a medieval norm. It is used because museums photograph axe heads rather than whole axes, so no free-licensed photograph shows the complete weapon. Photograph used with maker credit and a link to the source page."
       },
       "knownFor": [
         "A long two-handed axe with a broad, thin, dramatically flared cutting edge.",
@@ -101476,7 +101476,20 @@
             "value": "Shock infantry weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dane%20Axe.JPG",
+          "alt": "A Dane axe, the long-hafted two-handed Scandinavian battle axe, shown in full.",
+          "caption": "The head alone, showing the thin, broadly flared blade and the pronounced beard at its lower edge.",
+          "creator": "Photograph of axe",
+          "date": "Viking to early medieval form",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dane%20Axe.JPG",
+          "note": "A detail view, which is how surviving axes are almost always photographed — the thin blade and wide edge are what archaeologists classify on, and the wooden haft rarely survives at all."
+        }
+      ]
     },
     {
       "id": "falchion",

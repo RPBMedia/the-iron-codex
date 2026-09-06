@@ -817,6 +817,37 @@ fantastical reproduction.
 Never quietly accept a poor principal image because a better one is hard to find.
 Record the unresolved case explicitly in the audit.
 
+### Maker and retailer photographs (owner decision, 2026-09-06) — ARCHIVE-WIDE
+
+Photographs from reputable makers and specialist retailers of historical
+reproductions (Albion, Wulflund, Darksword, Owen Bush, Grimfrost, Irongate and
+similar) **may be used across the whole archive**, not only Weapons & Armor. They
+are frequently the only source that shows a complete object well lit and in
+serviceable condition — museums photograph fragments and heads, and free-licence
+collections are thin for whole weapons.
+
+Rules for using them:
+
+- **Judge the object, not the seller.** An accurate reproduction is legitimate
+  evidence for a *type*; a museum provenance is not required. What disqualifies an
+  item is inaccuracy: fantasy decoration, invented forms, anachronistic
+  construction, sport-safety geometry (HMB kit), or "medieval style" merchandise.
+  Check stated dimensions and proportions against surviving examples, and prefer a
+  **plain** head or blade over decorative knotwork, which is usually modern styling.
+- **Self-host, never hotlink.** Download into `client/public/` and reference the
+  local path (`/dane-axe-wulflund.jpg`). Retailer URLs change and their CDNs may
+  block, which would leave an article with a broken principal image.
+- **Credit the maker and link the source page** in `creator` and `sourceUrl`, and
+  say in the caption's first sentence that it is a modern reproduction.
+- **Prefer clean single-object shots.** Reject marketing composites with inset
+  close-ups overlaid on the object, price or logo overlays, and busy staging.
+- **Ask permission where practical.** Small makers commonly grant it for an
+  educational archive that credits them and links back; a granted permission
+  should be recorded in the image `note`.
+- Order of preference is unchanged otherwise: a well-preserved original that reads
+  clearly, then a museum-grade reconstruction, then a reputable maker's
+  reproduction, then — only when all of those fail — an AI illustration.
+
 ### AI-generated images: authorised last resort only (owner decision, 2026-09-06)
 
 The archive owner has authorised AI-generated illustrations for Weapons & Armor

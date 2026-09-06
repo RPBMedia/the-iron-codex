@@ -71,7 +71,15 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (7 of ~20 done; batches 1, 1b, 2, 3, 4).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (8 of ~20 done; batches 1–5).
+      Batch 5: `dane-axe` — complete forged reproduction from Wulflund (122 cm,
+      20 cm head, plain welded edge), self-hosted and credited. **Maker/retailer
+      photographs are now permitted archive-wide** (CLAUDE.md) — this unblocks
+      most of the remaining polearms.
+      New search tools that work: **Openverse** (`api.openverse.org`, keyless,
+      searches Flickr + Wikimedia + museums together) and checking the **en-wiki
+      article's own images**, which surface Commons files that category listings
+      miss.
       Batch 4: `ulfberht-swords` — complete sword (pommel to point) from the
       Germanisches Nationalmuseum, inv. FG 2187, replacing a hilt close-up. Named
       artifact, so the corroded condition stays and a replica would be wrong; the
@@ -80,8 +88,6 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       **Confirmed dead ends so far (searched Commons categories + intitle +
       full-text, Met, Cleveland CC0 — candidates for AI illustration):**
       - `gambeson` — DONE via AI (batch 3).
-      - `dane-axe` — Category:Dane axes is heads-only; "Kirvis2009a" is two heads
-        on a fur with no hafts at all.
       - `lance` — the one full-length candidate (Walters armour with lance) runs
         off the top of frame and is B&W.
       - `coat-of-plates` — Met's example is surviving plates on linen, still a
