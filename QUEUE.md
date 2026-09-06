@@ -71,7 +71,7 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (11 of ~20; batches 1–7).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (12 of ~20; batches 1–8).
       Batch 7: `heater-shield` (Konrad von Thüringen shield too degraded for a
       generic type — demoted to secondary) and `kite-shield` (was a reenactment
       snapshot with a dog in frame). Both now Wulflund reproductions: plywood
@@ -90,12 +90,12 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       `coat-of-plates` — only fragmentary finds; the one reconstruction is HMB
       sport kit.
 
-      **Open question for the owner:** `gambeson` currently uses the approved AI
-      illustration, decided when retailers were not yet permitted. Wulflund does
-      sell photographed gambesons (e.g. "Quilted doublet, medieval gambeson"), so
-      a real photograph is now obtainable. CLAUDE.md says AI images are placeholders
-      to be replaced when a real photograph is found — but the owner approved this
-      one specifically. Not swapped unilaterally; owner to decide.
+      **Resolved 2026-09-06:** owner ruled that a real photograph ALWAYS takes
+      precedence and AI is last resort only. `gambeson` swapped to a Wulflund
+      photograph, the `aiGenerated` flag dropped and the AI file deleted.
+      **The archive now contains zero AI images.** CLAUDE.md states the rule
+      applies retroactively: whenever a new source opens up, re-check every
+      article still flagged `aiGenerated` and replace what can be photographed.
       Batch 6: `buckler` — the FORMAT FAIL the brief named. Wulflund reproduction
       photographed front and rear (plywood, textile face, rawhide rim, riveted
       steel boss, 30 cm); MS I.33 moved to the battlefield-role section, where it
@@ -136,7 +136,7 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       **Confirmed dead ends (searched Commons categories + intitle + full-text,
       en-wiki article images, Openverse, Met, Cleveland, and maker/retailer sites
       — candidates for AI illustration):**
-      - `gambeson` — DONE via AI (batch 3).
+      - `gambeson` — RESOLVED with a REAL photograph (batch 8); AI image removed.
       - `lance` — the one full-length candidate (Walters armour with lance) runs
         off the top of frame and is B&W.
       - `coat-of-plates` — Met's example is surviving plates on linen, still a

@@ -915,9 +915,20 @@ not like an illustration of a scene containing the object. Match that framing fo
 any future AI image; if a generated candidate has background, setting or people
 in it, regenerate rather than accept it.
 
-If a suitable real photograph is found later, replace the AI image and drop the
-flag. These are placeholders of last resort, tracked for replacement — not a
-permanent tier of the archive.
+**A real photograph ALWAYS takes precedence over an AI illustration — without
+exception.** AI generation is the last resort and nothing else. The moment a
+suitable photograph of an original or a reproduction can be sourced, the AI image
+**must** be replaced and the `aiGenerated` flag dropped; this is not a judgement
+call and does not depend on which image looks better. An AI illustration is a
+placeholder held only while no photograph exists, never a permanent tier of the
+archive.
+
+This applies retroactively: when a new image source becomes available — a maker
+permitted, a museum opening its collection, a new search tool — re-check every
+article still carrying `aiGenerated` and replace what can now be photographed.
+The gambeson is the worked example: it used an AI illustration while retailer
+photography was disallowed, and was swapped for a maker's photograph the same day
+that restriction was lifted.
 
 ### Captions Must Be Honest and Specific
 
