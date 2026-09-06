@@ -79,6 +79,17 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       unpainted blanks, which shows construction well; captions state that both
       types normally carried painted heraldry.
 
+      **Re-pass done 2026-09-06 with retailers permitted — NO new wins.**
+      Wulflund has no coat-of-plates product at all; halberds are "delivered
+      without wooden pole for cheaper and easier shipping" so their photos are
+      head-only; the Viking spear's "40 cm total length" is the head, and its
+      photographs show a head on moss. The polearm problem is a supply-chain fact,
+      not a search failure.
+
+      **Prompts written: `WEAPONS_ARMOR_AI_PROMPTS.md`** — one per subject, each
+      pinned to a period and region with explicit anachronism exclusions, plus a
+      shared block for framing, finish and "no decoration".
+
       **AI ILLUSTRATION LIST (final) — 8 subjects.** All sources exhausted:
       Commons (categories, intitle, full-text), en-wiki article images, Openverse
       (Flickr + Wikimedia + museums), Met, Cleveland CC0, and the maker/retailer
