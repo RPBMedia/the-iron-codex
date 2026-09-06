@@ -124,6 +124,21 @@ image does not support:
 reproduction but captioned "A full English longbow" with no mention that it is
 modern, which the first-sentence rule now forbids.
 
+**Why the existing guard missed all this.** `check-images.mjs` already had a
+Weapons & Armor full-object guard — but it only regex-matches *filenames and
+captions* for words like "manuscript", "detail", "effigy". It cannot see a
+cropped haft, a corroded surface, a display case or a half-armour, so 20 failures
+passed it cleanly. It did catch `surcoat` and `buckler`, and both were then
+**allowlisted** in `weaponsArmorFullObjectFallbackAllowlist` with the reason that
+no better image existed on Commons. The 2026-09-06 standard **overrides both
+exceptions**: a verified reconstruction now outranks artwork, which is exactly the
+option those allowlist reasons never considered.
+
+**M3 must delete `surcoat` and `buckler` from
+`weaponsArmorFullObjectFallbackAllowlist`** — but only in the same commit that
+replaces their images, since removing them first would hard-fail `check:images`
+and block the commit.
+
 **Known sourcing risk for M3.** The new standard prefers museum-grade
 reconstructions and reputable reproductions, but freely-licensed photographs of
 those are scarce: most pristine reproduction photography is commercial retailer

@@ -107,127 +107,6 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
-## Weapons & Armor: Full-Artifact Principal Image Rule (MANDATORY)
-
-Every article under Weapons & Armor must have a **principal image in which the
-entire subject artifact is visible within the frame**. For a weapon this means the
-complete weapon from one physical extremity to the other. For armor, shields and
-helmets the complete object must be visible without materially cropped edges.
-
-A photograph showing only a blade, head, hilt, haft section, shield boss, helmet
-detail or fragment **does not satisfy this rule** — unless the article is itself
-specifically about that component or fragment, in which case the complete
-component is the artifact.
-
-Requirements:
-
-- **The artifact must be complete in the source image.** CSS cannot recover pixels
-  that were never photographed. A full-object image is the only fix for a cropped
-  source.
-- **The rendered component must preserve the whole object.** Never clip the
-  principal image with `object-fit: cover`, fixed heights, fixed aspect-ratio
-  boxes, `overflow: hidden` or responsive cropping. Use `object-fit: contain` (or
-  the project's equivalent) on Weapons & Armor detail mains.
-- Desktop **and** mobile must both show the complete object; never make a reader
-  scroll inside an image frame to see the rest of the artifact.
-- Reasonable surrounding negative space is fine; the object must still be large
-  enough to identify. Do not stretch or distort to fill a container.
-- Captions must describe **what the image actually shows**. A caption may never
-  claim the whole object is visible when it is not — a false caption is a harder
-  failure than a bad image, because it defeats review.
-- Full image metadata is required: caption, creator, date, source, source URL,
-  licence, and honest alt text.
-- Prefer a historical original when it survives complete and its silhouette reads
-  clearly. A **clearly labelled** modern reproduction or scholarly reconstruction
-  is acceptable when it communicates the complete form better, and is required to
-  be labelled as such — a replica must never be attributed to a medieval maker or
-  implied to be an original.
-- No decorative fantasy art as documentary evidence. No placeholders.
-- Detail shots (inscriptions, bosses, hilts, construction) remain welcome as
-  **secondary** images but can never serve as the principal image.
-
-### Authenticity and condition (generic types vs named artifacts)
-
-Showing the complete artifact is **necessary but not sufficient**. The principal
-image must also communicate how the object plausibly looked when complete,
-functional and serviceable in its own period.
-
-**Generic equipment-type articles** (Arming Sword, Halberd, Buckler, Great Helm,
-Mail Hauberk, Gambeson, Plate Armor, …) explain a *form*, not one object. Their
-principal image must not be a heavily corroded, broken, flattened, discoloured or
-excavated object merely because it is genuinely medieval. Degradation hides the
-original silhouette, materials and function — the very things the article exists
-to explain. Such photographs stay in the article as **secondary evidence**.
-
-Preference order for a generic type's principal image:
-
-1. A complete, exceptionally well-preserved original whose form is still legible
-2. A museum-grade or academically informed reconstruction
-3. A high-quality reproduction from a reputable maker, based on identifiable
-   originals or an established typology
-4. A staged photograph of a complete reconstructed ensemble (for armor systems)
-5. A complete original with moderate wear — only when nothing stronger is
-   responsibly available
-
-**The principal image must be a photograph of a physical object.** Manuscript
-illuminations, frescoes, paintings, drawings, engravings, diagrams, sculpture,
-digital and AI imagery are **secondary** evidence — excellent for showing the
-object worn, carried or used, never a substitute for photographing the thing.
-Also excluded as principal: severely corroded finds, weapons missing hafts,
-swords missing grips/guards/pommels, extreme close-ups, head-only shots,
-obscured display-case photographs, fantasy or film props, decorative "medieval
-style" merchandise, and reconstructions with speculative embellishment.
-
-The photograph must show true proportions without perspective distortion,
-lighting that reveals silhouette and construction, an unobscured background, no
-hands/costume/scenery covering the object, no heavy filtering, and honest colour
-and material appearance. A neutral museum, workshop or studio photograph is
-preferred over a living-history photograph.
-
-**Unique named-artifact articles** (Sutton Hoo Helmet, Joyeuse, Ulfberht Swords,
-Gjermundbu Helmet, …) are the exception: the historical object *is* the subject,
-so its present museum condition — worn, corroded, reassembled — is the correct
-principal image, and **must not be replaced by a modern replica**. The caption
-must state what is original, what is restored or reconstructed, present
-condition, collection, dating, and any serious dispute over attribution or
-assembly. A responsible reconstruction may appear as a *secondary* image. For a
-grouped label such as the Ulfberht swords, use a genuine representative example
-and say that the label covers many surviving blades.
-
-**Reconstruction accuracy.** Never call a reconstruction "100% historically
-accurate", and never repeat a seller's "battle-ready", "authentic" or "museum
-quality" marketing as evidence. Use evidence-based phrasing instead — "museum-grade
-reconstruction", "reproduction based on a documented example", "reconstruction
-following an established typology". Before accepting one as principal, check
-dimensions, proportions, plausible weight, materials, blade or plate geometry,
-hilt/haft/suspension, construction technique, surface finish, absence of
-anachronism and fantasy decoration, and the maker's credibility. Where
-documentation is thin, describe it honestly as a representative modern
-reproduction rather than asserting fidelity.
-
-**Caption rule for reconstructions:** if the principal image shows a modern
-reconstruction or reproduction, the **first sentence** must say so. A reader must
-never have to open the attribution field to discover the object is modern.
-Forbidden: "A medieval buckler", "An authentic halberd", "A real knightly sword"
-for a modern object.
-
-**Audit statuses** (in addition to PASS / SOURCE FAIL / RENDERING FAIL /
-SUBJECT MISMATCH / ATTRIBUTION FAIL): **CONDITION FAIL** (too degraded to convey
-original form, for a generic type), **FORMAT FAIL** (artwork or non-photographic),
-**RECONSTRUCTION QUALITY FAIL** (pristine but dubious, anachronistic or
-fantastical), **UNIQUE-ARTIFACT EXCEPTION**, **DOCUMENTATION REVIEW** (credible
-but basis unverified). An image must pass every applicable criterion: a complete
-but severely degraded object fails for a generic type, and so does a pristine but
-fantastical reproduction.
-
-Never quietly accept a poor principal image because a better one is hard to find.
-Record the unresolved case explicitly in the audit.
-
-For a complete harness the principal image should show the full assembled harness
-or a full-body mannequin view. An archaeological fragment may serve as principal
-only where no responsible alternative exists, and that exception must be recorded
-in the audit rather than silently accepted.
-
 ## Kingdom and Polity Article Standards
 
 Kingdom/polity articles (locations typed Kingdom, Empire, Duchy, County, Caliphate, Sultanate, Principality, Polity, Grand duchy, League, Military order, Imperial realm) must be detailed **anchor articles**, not stubs. Enforced by `npm run check:content-quality` (`validatePolityStandards`): hard-fails on too few sections (6 for Kingdom/Empire/Caliphate, 4 for others), any section under 200 characters, a missing Major-rulers-style section (except collective polities allowlisted in `POLITY_NO_RULERS_OK`), and a timeline under 8 entries (5 for smaller polities) or with missing descriptions.
@@ -852,6 +731,86 @@ The single most important Weapons & Armor image rule: **the main image must clea
 If no acceptable full-object image can be found, **mark the entry incomplete** (or add the id to `weaponsArmorFullObjectFallbackAllowlist` in `scripts/check-images.mjs` with a reviewed reason) rather than shipping a misleading or partial main image.
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
+
+### Authenticity, condition, and format (2026-09-06 standard)
+
+Extends the full-object rule above — read both together; where they differ, this subsection governs.
+
+
+Showing the complete artifact is **necessary but not sufficient**. The principal
+image must also communicate how the object plausibly looked when complete,
+functional and serviceable in its own period.
+
+**Generic equipment-type articles** (Arming Sword, Halberd, Buckler, Great Helm,
+Mail Hauberk, Gambeson, Plate Armor, …) explain a *form*, not one object. Their
+principal image must not be a heavily corroded, broken, flattened, discoloured or
+excavated object merely because it is genuinely medieval. Degradation hides the
+original silhouette, materials and function — the very things the article exists
+to explain. Such photographs stay in the article as **secondary evidence**.
+
+Preference order for a generic type's principal image:
+
+1. A complete, exceptionally well-preserved original whose form is still legible
+2. A museum-grade or academically informed reconstruction
+3. A high-quality reproduction from a reputable maker, based on identifiable
+   originals or an established typology
+4. A staged photograph of a complete reconstructed ensemble (for armor systems)
+5. A complete original with moderate wear — only when nothing stronger is
+   responsibly available
+
+**The principal image must be a photograph of a physical object.** Manuscript
+illuminations, frescoes, paintings, drawings, engravings, diagrams, sculpture,
+digital and AI imagery are **secondary** evidence — excellent for showing the
+object worn, carried or used, never a substitute for photographing the thing.
+Also excluded as principal: severely corroded finds, weapons missing hafts,
+swords missing grips/guards/pommels, extreme close-ups, head-only shots,
+obscured display-case photographs, fantasy or film props, decorative "medieval
+style" merchandise, and reconstructions with speculative embellishment.
+
+The photograph must show true proportions without perspective distortion,
+lighting that reveals silhouette and construction, an unobscured background, no
+hands/costume/scenery covering the object, no heavy filtering, and honest colour
+and material appearance. A neutral museum, workshop or studio photograph is
+preferred over a living-history photograph.
+
+**Unique named-artifact articles** (Sutton Hoo Helmet, Joyeuse, Ulfberht Swords,
+Gjermundbu Helmet, …) are the exception: the historical object *is* the subject,
+so its present museum condition — worn, corroded, reassembled — is the correct
+principal image, and **must not be replaced by a modern replica**. The caption
+must state what is original, what is restored or reconstructed, present
+condition, collection, dating, and any serious dispute over attribution or
+assembly. A responsible reconstruction may appear as a *secondary* image. For a
+grouped label such as the Ulfberht swords, use a genuine representative example
+and say that the label covers many surviving blades.
+
+**Reconstruction accuracy.** Never call a reconstruction "100% historically
+accurate", and never repeat a seller's "battle-ready", "authentic" or "museum
+quality" marketing as evidence. Use evidence-based phrasing instead — "museum-grade
+reconstruction", "reproduction based on a documented example", "reconstruction
+following an established typology". Before accepting one as principal, check
+dimensions, proportions, plausible weight, materials, blade or plate geometry,
+hilt/haft/suspension, construction technique, surface finish, absence of
+anachronism and fantasy decoration, and the maker's credibility. Where
+documentation is thin, describe it honestly as a representative modern
+reproduction rather than asserting fidelity.
+
+**Caption rule for reconstructions:** if the principal image shows a modern
+reconstruction or reproduction, the **first sentence** must say so. A reader must
+never have to open the attribution field to discover the object is modern.
+Forbidden: "A medieval buckler", "An authentic halberd", "A real knightly sword"
+for a modern object.
+
+**Audit statuses** (in addition to PASS / SOURCE FAIL / RENDERING FAIL /
+SUBJECT MISMATCH / ATTRIBUTION FAIL): **CONDITION FAIL** (too degraded to convey
+original form, for a generic type), **FORMAT FAIL** (artwork or non-photographic),
+**RECONSTRUCTION QUALITY FAIL** (pristine but dubious, anachronistic or
+fantastical), **UNIQUE-ARTIFACT EXCEPTION**, **DOCUMENTATION REVIEW** (credible
+but basis unverified). An image must pass every applicable criterion: a complete
+but severely degraded object fails for a generic type, and so does a pristine but
+fantastical reproduction.
+
+Never quietly accept a poor principal image because a better one is hard to find.
+Record the unresolved case explicitly in the audit.
 
 ### Captions Must Be Honest and Specific
 
