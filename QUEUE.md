@@ -85,8 +85,26 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       artifact, so the corroded condition stays and a replica would be wrong; the
       inscription close-up moves to Description where it is the better image.
 
-      **Confirmed dead ends so far (searched Commons categories + intitle +
-      full-text, Met, Cleveland CC0 — candidates for AI illustration):**
+      **Polearms: why retailers did NOT unblock them.** Searched Commons, en-wiki
+      article images, Openverse (Flickr + Wikimedia + museums), Met, Cleveland,
+      Wulflund, Museum Replicas, Cold Steel and Kult of Athena. Two structural
+      reasons, both independent of how hard one looks:
+      1. **Makers ship European polearm HEADS without shafts** (shipping
+         dimensions — Wulflund says so explicitly), so their photography is of
+         heads, exactly like the museums'.
+      2. **The assembled European polearms that do exist are blackened.** Cold
+         Steel's Man-at-Arms winged spear — the main full-length option, sold via
+         several retailers — has a black-coated head. A medieval spearhead was
+         bright steel, so a blackened one misrepresents the object's appearance,
+         which is the whole point of the condition rule. Its own photographs also
+         carry a Cold Steel logo watermark.
+      Kult of Athena's assembled spears are non-European (Greek dory, Maasai,
+      assegai, Han Chinese). The Dane axe worked only because Wulflund happens to
+      photograph an assembled axe with a plain bright head.
+
+      **Confirmed dead ends (searched Commons categories + intitle + full-text,
+      en-wiki article images, Openverse, Met, Cleveland, and maker/retailer sites
+      — candidates for AI illustration):**
       - `gambeson` — DONE via AI (batch 3).
       - `lance` — the one full-length candidate (Walters armour with lance) runs
         off the top of frame and is B&W.
