@@ -93,8 +93,17 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       corrected both; the prompt now states the layering directionally, since
       "back" and "belly" are counter-intuitive terms.
 
-      `surcoat` is the only remaining entry in
-      `weaponsArmorFullObjectFallbackAllowlist` — a tomb effigy, still unresolved.
+      **`surcoat` resolved 2026-09-06** — was a stone tomb effigy (a sculpture of
+      a knight, not a photograph of a garment). Now a reproduction Templar surcoat
+      from Battle-Merchant: sleeveless, split front and back for riding, belted,
+      with the genuine red cross pattée. The effigy moves to historical
+      development, where it is the stronger evidence — contemporary, and showing
+      the garment worn over mail, which no reproduction can attest.
+
+      **`weaponsArmorFullObjectFallbackAllowlist` is now EMPTY.** Every Weapons &
+      Armor article has a compliant principal image; no article needs an
+      exception. An empty allowlist is the goal state — add an id back only with a
+      written, reviewed reason.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields

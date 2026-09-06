@@ -105925,7 +105925,7 @@
       "region": "Western Europe and the Crusader states",
       "material": "Textile garment worn over armor",
       "battlefieldRole": "Identification, display, and protection from sun or weather",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eberbach%20Eberhard%20I%201311.jpg",
+      "image": "/surcoat-battlemerchant.jpg",
       "summary": "The surcoat was a textile garment worn over armor, strongly associated with heraldry, crusading imagery, and knightly display.",
       "details": "A surcoat was not armor in the same sense as mail or plate, but it protected metal from sun and weather, reduced heat, and helped identify fighters in visually crowded battles.",
       "contentSections": [
@@ -105968,12 +105968,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "A knight wearing a surcoat over mail, on the standing tomb effigy of Eberhard (d. 1311).",
-        "creator": "Anonymous sculptor",
-        "date": "early 14th century (effigy)",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eberbach%20Eberhard%20I%201311.jpg",
-        "note": "Contemporary tomb effigy clearly showing a surcoat worn over mail; no surviving medieval European surcoat or clean reconstruction photograph was available on Commons."
+        "caption": "Modern reproduction of a knightly surcoat, shown complete and worn: a sleeveless outer garment reaching below the knee, split at the front and back so the wearer could sit a horse, belted at the waist, and bearing the red cross pattée of the Knights Templar on natural cloth.",
+        "creator": "Battle-Merchant — maker and product photograph",
+        "date": "modern reproduction of a 12th–13th century form",
+        "source": "Battle-Merchant, reproduced with credit",
+        "sourceUrl": "https://www.battlemerchant.com/en/medieval-tabard-templar-natural-coloured/red",
+        "note": "A reproduction, not a surviving garment — medieval surcoats survive only in fragments, which is why this article previously used a tomb effigy. The cut is the historical one: sleeveless, long, split front and back for riding, worn over mail and belted. The red cross pattée is the genuine device of the Templars rather than an invented design. Its cloth is modern cotton where the originals were linen or wool, so the claim made here is about cut and heraldic use, not fabric. Photograph used with maker credit and a link."
       },
       "knownFor": [
         "Surcoat shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -106056,7 +106056,20 @@
             "value": "A garment, not armour; later gave way to the tighter jupon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Historical development",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eberbach%20Eberhard%20I%201311.jpg",
+          "alt": "A knight wearing a surcoat over mail, on the standing tomb effigy of Eberhard (d. 1311).",
+          "caption": "The standing tomb effigy of Eberhard (d. 1311), carved with the surcoat worn over mail — belted, split, and falling to mid-calf.",
+          "creator": "Anonymous sculptor",
+          "date": "early 14th century (effigy)",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eberbach%20Eberhard%20I%201311.jpg",
+          "note": "Sculpture rather than a photograph of a garment, which is why it no longer leads the article — but as contemporary evidence it is stronger than any reproduction. Effigies and manuscript images are most of what is known about how surcoats were cut and worn, since the textiles themselves have not survived."
+        }
+      ]
     },
     {
       "id": "sutton-hoo-helmet",

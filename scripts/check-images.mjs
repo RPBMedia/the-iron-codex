@@ -31,12 +31,13 @@ const placeholderMetadataPattern = /^(modern photograph, map, or historical imag
 const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
 const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
 const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
-const weaponsArmorFullObjectFallbackAllowlist = new Set([
-  // id: reason — no surviving object or clean photographic example exists on Commons
-  'surcoat' // contemporary tomb effigy; no medieval European surcoat survives intact
-  // 'buckler' removed 2026-09-06: now uses a photographed reproduction (front and
-  // rear views); MS I.33 moved to the battlefield-role section as secondary evidence.
-])
+// EMPTY as of 2026-09-06 — every Weapons & Armor article now has a compliant
+// principal image, so no article needs an exception. Removed: 'buckler' (now a
+// photographed reproduction, front and rear; MS I.33 demoted to the
+// battlefield-role section) and 'surcoat' (now a photographed reproduction; the
+// tomb effigy demoted to historical development). Add an id here ONLY with a
+// reviewed, written reason — an empty allowlist is the goal state.
+const weaponsArmorFullObjectFallbackAllowlist = new Set([])
 
 // --- Medieval location image guard (see CLAUDE.md "Medieval Location Image Rules") ---
 // Location/city/polity MAIN images must depict the medieval place or surviving
