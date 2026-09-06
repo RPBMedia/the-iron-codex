@@ -2109,8 +2109,49 @@ button.back-link:focus-visible {
   content: "";
 }
 
+/*
+ * Google sign-in button.
+ *
+ * Previously this reused `.button.secondary`, which rendered grey and read as a
+ * disabled control. Google's identity guidelines specify a light button: white
+ * ground, neutral grey border, near-black label, and the four-colour G mark at
+ * the leading edge. Following them makes the control recognisable as the standard
+ * Google flow rather than looking broken.
+ */
 .auth-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   width: 100%;
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1px solid #747775;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1f1f1f;
+  font-family: inherit;
+  font-size: 0.98rem;
+  font-weight: 800;
+  text-decoration: none;
+  transition: background 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.auth-google svg {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 19px;
+}
+
+.auth-google:hover {
+  background: #f7f8f8;
+  border-color: #5f6368;
+  box-shadow: 0 1px 3px rgba(11, 11, 13, 0.16);
+}
+
+.auth-google:focus-visible {
+  outline: 3px solid rgba(66, 133, 244, 0.55);
+  outline-offset: 2px;
 }
 
 .auth-switch a {

@@ -263,6 +263,27 @@ with the owner if any of those bullets mattered specifically._
 
 ## Blocked on the user
 
+- **Google sign-in is not configured in the deployed environment.** This is NOT a
+  code defect — `server/index.js` redirects to `?error=google_not_configured`
+  when `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` are absent, which is correct
+  behaviour. To enable it:
+  1. Google Cloud Console → APIs & Services → Credentials → **Create OAuth client
+     ID** → type **Web application**.
+  2. Add the **authorised redirect URI** — it must match exactly:
+     `https://<your-domain>/api/auth/google/callback`
+     (and `http://localhost:4000/api/auth/google/callback` for local work).
+  3. Set in the deployment environment: `GOOGLE_CLIENT_ID`,
+     `GOOGLE_CLIENT_SECRET`, and **`AUTH_BASE_URL`** = the site's public origin.
+     `AUTH_BASE_URL` matters: the server builds the redirect URI from it, so if it
+     is unset it defaults to `http://localhost:4000` and Google rejects the
+     callback as a mismatch.
+  4. `AUTH_SESSION_SECRET` is already required in production; confirm it is set.
+  5. Redeploy — environment variables do not apply to an existing deployment.
+
+  Documented in `.env.example` and `README.md`; the button styling is fixed
+  independently (see git log).
+
+
 - **Track B M9 approval gate** — not yet reached.
 
 ## Per-machine local setup
