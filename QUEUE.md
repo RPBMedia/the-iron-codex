@@ -104,7 +104,30 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       Armor article has a compliant principal image; no article needs an
       exception. An empty allowlist is the goal state — add an id back only with a
       written, reviewed reason.
-- [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
+- [x] **M4 — Shared rendering** (2026-09-06). Two fixes, both shared rather than
+      per-article.
+      1. **Image lightbox** — clicking any article image opens it full-screen,
+         alone, centred; close via the cross at its top-right, the backdrop or
+         Escape. The full-object rule letterboxes images so long objects render
+         small, and there was previously no way to look closer: the lance was a
+         thin line in a narrow column. One `ZoomableImage` component wired into
+         the main image, section figures and the typology diagram (which had used
+         a `target="_blank"` anchor to a raw file).
+      2. **Object cards contain instead of crop.** `.image-frame` crops to 16:10
+         with `object-fit: cover` — correct for portraits and battlefields, wrong
+         for objects. The M3 images include a 3:1 lance and 2:3 polearms, which
+         cropped to 16:10 show a band of bare shaft **with no head at all**.
+         `weaponArmor` and `artifact` cards now use `contain` on a neutral ground,
+         matching the detail page, with the bottom vignette dropped since it reads
+         as damage on a letterboxed object. Applied to archive/home cards and to
+         favourites, which had the same 4:3 crop.
+
+      Detail mains were already correct (`.detail-media-weaponArmor` has used
+      `contain` since an earlier pass). Remaining `cover` uses are the 24px account
+      avatar and the 64px battle-continuity thumb — both too small to mislead.
+
+      **Not verified in a browser** (no local dev servers). Gates run: production
+      build, `check:images`, `check:content-quality`. Needs visual QA on live.
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields
 - [ ] M6 — Classification, index, relationship repairs

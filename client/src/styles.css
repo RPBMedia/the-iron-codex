@@ -3005,3 +3005,34 @@ a.tree-person:hover .tree-person-name {
     background: rgba(12, 12, 16, 0.85);
   }
 }
+
+/* ---------------------------------------------------------------------------
+ * Object cards: contain, never crop
+ *
+ * Cards normally crop to 16:10 with object-fit: cover, which is right for
+ * portraits, battlefields and buildings. It is wrong for objects. The Weapons &
+ * Armor images added in the full-object pass include a 3:1 lance and 2:3
+ * polearms; cropped to 16:10 those show a band of bare shaft with no head at
+ * all, which misrepresents the object instead of previewing it.
+ *
+ * Objects are therefore contained in the card frame, matching how they render on
+ * the detail page. The bottom vignette is dropped for them too: it darkens the
+ * lower edge of a letterboxed object and reads as damage to the image.
+ * ------------------------------------------------------------------------ */
+
+.image-frame-object img {
+  object-fit: contain;
+  padding: 10px;
+  background: #111116;
+  filter: none;
+}
+
+.image-frame-object::before {
+  display: none;
+}
+
+.favorite-item img.favorite-image-object {
+  object-fit: contain;
+  padding: 8px;
+  background: #111116;
+}

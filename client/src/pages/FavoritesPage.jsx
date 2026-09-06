@@ -135,8 +135,12 @@ function FavoriteImage({ favorite }) {
     )
   }
 
+  // Same reasoning as the archive cards: object articles are contained, not cropped.
+  const isObject = favorite.collection === 'weapons-armor' || favorite.collection === 'artifacts'
+
   return (
     <img
+      className={isObject ? 'favorite-image-object' : undefined}
       src={favorite.image}
       alt=""
       loading="lazy"

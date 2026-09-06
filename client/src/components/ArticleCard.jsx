@@ -45,16 +45,23 @@ export default function ArticleCard({ article, collection, onFavoriteChanged }) 
 function ImageWithFallback({ article }) {
   const [failed, setFailed] = useState(false)
 
+  const isObjectFallback = article.type === 'weaponArmor' || article.type === 'artifact'
+
   if (failed || !article.image) {
     return (
-      <div className="image-frame image-frame-error" role="img" aria-label={`Image unavailable for ${article.name}`}>
+      <div className={`image-frame image-frame-error${isObjectFallback ? ' image-frame-object' : ''}`} role="img" aria-label={`Image unavailable for ${article.name}`}>
         <span>Image unavailable</span>
       </div>
     )
   }
 
+  // Objects (weapons, armour, artifacts) must not be centre-cropped in cards: a
+  // long polearm or a wide lance cropped to 16:10 shows a band of bare shaft with
+  // no head, which misrepresents the object rather than previewing it.
+  const isObject = article.type === 'weaponArmor' || article.type === 'artifact'
+
   return (
-    <div className="image-frame">
+    <div className={`image-frame${isObject ? ' image-frame-object' : ''}`}>
       <img
         src={article.image}
         alt={article.name}
