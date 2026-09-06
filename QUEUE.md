@@ -71,7 +71,13 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (3 of ~20 done, batch 1).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (5 of ~20 done; batches 1, 1b, 2).
+      Batch 2: `plate-armor` (full Gothic harness, Brussels — fixes the
+      half-armour SOURCE FAIL and its false "head to foot" caption; half-armour
+      demoted to secondary) and `pavise` (Met colour studio photograph replacing a
+      B&W catalogue shot). Rejected on inspection: "Gothic armor.jpg" is a printed
+      woodcut (**second mislabelled Commons file this milestone**);
+      "Tarcze rycerskie.jpg" is a reenactment fair with children and tents.
       Demote strong museum/manuscript images to secondary rather than deleting.
       - [x] `sutton-hoo-helmet` — original reassembled helmet replaces the British
             Museum replica (named-artifact rule); replica demoted to Description;

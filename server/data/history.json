@@ -104649,7 +104649,7 @@
       "region": "Europe",
       "material": "Large wooden shield with painted or textile facing",
       "battlefieldRole": "Large shield for crossbowmen, siege troops, and infantry cover",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archer's%20Shield%20(Pavise)%20MET%20253988.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Infantry_Shield_(Pavise)_(IA_mma_infantry_shield_pavise_23333).jpg",
       "summary": "The pavise was a large shield used to protect crossbowmen and other troops, especially during reloading or siege operations.",
       "details": "The pavise created portable cover against arrows, bolts, and stones. It was especially useful for crossbowmen, whose reloading could take longer than shooting a bow.",
       "contentSections": [
@@ -104692,12 +104692,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "A painted pavise, a large standing shield used by crossbowmen, Metropolitan Museum of Art.",
-        "source": "Metropolitan Museum of Art / Wikimedia Commons",
-        "creator": "European shield-painter",
-        "date": "15th century (object)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Archer's%20Shield%20(Pavise)%20MET%20253988.jpg",
-        "note": "Surviving museum object; the tall convex form sheltered a crossbowman while reloading."
+        "caption": "A fifteenth-century pavise, the large standing shield used by crossbowmen and other foot soldiers in central Europe: the full curved body, the raised central spine that stiffened it, and the painted decoration with a heraldic device near the top.",
+        "creator": "Collection photograph, Metropolitan Museum of Art",
+        "date": "photograph undated; shield 15th century",
+        "source": "Metropolitan Museum of Art — via the Internet Archive and Wikimedia Commons",
+        "note": "Shields of this type were often fitted with a prop so that a crossbowman could shelter behind them while spanning his weapon. The paint has faded and abraded, but the profile, the spine and the decorative scheme all remain legible, which a heavily worn example would not show. Public domain.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infantry_Shield_(Pavise)_(IA_mma_infantry_shield_pavise_23333).jpg"
       },
       "knownFor": [
         "Pavise shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -104803,7 +104803,7 @@
       "region": "Western and Central Europe",
       "material": "Shaped steel plates with straps, rivets, mail, and textile foundations",
       "battlefieldRole": "Articulated full-body protection for elites and men-at-arms",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KHM%20Wien%20S%20XVI%20-%20Jousting%20armour%20of%20John%20the%20Constant%2C%20c.%201497-1505%2C%20front.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2016-08-24_D3_4131_Q_3_O_BD_K1_Musee_de_l_armee_KLM_MRA_K2_Armure_K3_K4.jpg",
       "summary": "Plate armor was an articulated system of shaped metal defenses that gave late medieval elites strong protection while preserving mobility.",
       "details": "Plate deflected cuts and resisted many missiles and thrusts, but it had gaps at joints, visor, hands, and underarms. Combat against plate often relied on impact weapons, grappling, half-swording, and dagger work.",
       "contentSections": [
@@ -104846,12 +104846,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "A complete late-medieval plate harness (c. 1497-1505), shown head to foot, Kunsthistorisches Museum, Vienna.",
-        "creator": "European armourer",
-        "date": "c. 1497-1505 (object)",
-        "source": "Kunsthistorisches Museum, Vienna / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:KHM%20Wien%20S%20XVI%20-%20Jousting%20armour%20of%20John%20the%20Constant%2C%20c.%201497-1505%2C%20front.jpg",
-        "note": "A full articulated plate harness shown complete, conveying the head-to-toe steel defence of the late 15th century."
+        "caption": "A complete late-medieval harness of Gothic style, shown from head to foot: sallet and bevor, fluted breastplate, articulated tassets, full arm defence with gauntlet, and cuisses, greaves and sabatons covering the legs.",
+        "creator": "Photograph by Iod1889",
+        "date": "photographed 2016; harness of the later 15th century",
+        "source": "Royal Museum of the Armed Forces and of Military History, Brussels — via Wikimedia Commons",
+        "note": "Displayed in a case alongside other pieces, so helmets and swords are visible around it, but the harness itself is unobstructed and complete — which the article needs, because plate armour worked as a system of overlapping defences rather than as separate pieces. The style points to the later fifteenth century; the photograph’s record does not give an accession number, so no closer date is claimed here. Licensed CC BY-SA 4.0.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-08-24_D3_4131_Q_3_O_BD_K1_Musee_de_l_armee_KLM_MRA_K2_Armure_K3_K4.jpg"
       },
       "knownFor": [
         "Plate Armor shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -104945,7 +104945,20 @@
             "value": "An arming doublet and mail voiders"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and surviving pieces",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/KHM%20Wien%20S%20XVI%20-%20Jousting%20armour%20of%20John%20the%20Constant%2C%20c.%201497-1505%2C%20front.jpg",
+          "alt": "A complete late-medieval plate harness (c. 1497-1505), shown head to foot, Kunsthistorisches Museum, Vienna.",
+          "caption": "A complete late-medieval plate harness (c. 1497-1505), shown head to foot, Kunsthistorisches Museum, Vienna.",
+          "creator": "European armourer",
+          "date": "c. 1497-1505 (object)",
+          "source": "Kunsthistorisches Museum, Vienna / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:KHM%20Wien%20S%20XVI%20-%20Jousting%20armour%20of%20John%20the%20Constant%2C%20c.%201497-1505%2C%20front.jpg",
+          "note": "A half-armour — helmet, cuirass, pauldrons and tassets without leg defences. Armours were often assembled and displayed this way, and the distinction between a half-armour and a full harness mattered for both cost and mobility."
+        }
+      ]
     },
     {
       "id": "poleaxe",
