@@ -855,6 +855,15 @@ Standard caption pattern:
 > [typology / period / regional basis] and should not be read as evidence for any
 > individual surviving artifact."
 
+**Quality bar for AI illustrations (owner reference, 2026-09-06).** The gambeson
+illustration is the standard to match: the complete object isolated on a plain
+white ground, lit like a museum or catalogue product photograph, shown at a
+natural angle with no scene, no figure, no hands, no props and no dramatic
+styling. It should look like the object was photographed against seamless white —
+not like an illustration of a scene containing the object. Match that framing for
+any future AI image; if a generated candidate has background, setting or people
+in it, regenerate rather than accept it.
+
 If a suitable real photograph is found later, replace the AI image and drop the
 flag. These are placeholders of last resort, tracked for replacement — not a
 permanent tier of the archive.

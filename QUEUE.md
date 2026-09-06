@@ -71,7 +71,20 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (5 of ~20 done; batches 1, 1b, 2).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (6 of ~20 done; batches 1, 1b, 2, 3).
+      Batch 3: `gambeson` — **first AI illustration**, owner-supplied and
+      authorised after the search was exhausted (Commons category/intitle/
+      full-text, Met, Cleveland CC0 — all returned manuscript art, line drawings
+      or 17th-century buff coats). Flagged `aiGenerated`, disclosed in the
+      caption's first sentence, limitations stated (lighter and more finely
+      tailored than a thick battlefield gambeson; quilting more regular than
+      hand work). The old museum photograph is kept as a secondary image.
+      **The gambeson image is the quality bar for any future AI illustration** —
+      complete object on plain white, catalogue lighting, no scene or figure.
+      Rejected this batch: Met "Coat of Plates, or Brigandine" (surviving plates
+      on linen — still a fragmentary find, fails condition for a generic type);
+      "Early 14th Century HMB armour" (full-contact sport kit, not a historical
+      reconstruction).
       Batch 2: `plate-armor` (full Gothic harness, Brussels — fixes the
       half-armour SOURCE FAIL and its false "head to foot" caption; half-armour
       demoted to secondary) and `pavise` (Met colour studio photograph replacing a
