@@ -139,6 +139,28 @@ option those allowlist reasons never considered.
 replaces their images, since removing them first would hard-fail `check:images`
 and block the commit.
 
+**M3 sourcing findings (2026-09-06 run).** Workflow proven; three lessons:
+
+1. **Museums photograph polearm HEADS, not whole polearms.** The Met shot each
+   polearm from several angles — `Bill MET 14.25.140 001/004`, `Pollaxe MET
+   14.25.302 002/003`, `Halberd MET 14.25.29 003` — and *every* frame is a head
+   detail. The archive did not pick badly from a good set; the good set does not
+   exist. Searching sibling frames by accession number is still the first move for
+   any Met object, it just does not solve polearms.
+2. **Aspect ratio is the best full-length filter** (a whole halberd is r<0.35 or
+   r>2.6), but it surfaces drawings: `Hallebarde, DDER690` turned out to be an ink
+   design sketch — FORMAT FAIL. Always fetch and look.
+3. **The realistic route for polearms is tier 3–4 of the standard**: a clean
+   reproduction or a living-history photograph showing the whole weapon, clearly
+   labelled as modern. `kite-shield` was rejected for staging (a dog and bystanders
+   in frame), *not* for being reenactment — good living-history photography is
+   explicitly permitted and is plentiful for full-length polearms.
+
+Useful queries: Commons `intitle:"<Type> MET"` for Met objects; category listing
+beats full-text search; Met's `search?q=…&departmentId=4` returns 0 (API quirk) —
+drop the department filter and filter `department === "Arms and Armor"`
+client-side.
+
 **Known sourcing risk for M3.** The new standard prefers museum-grade
 reconstructions and reputable reproductions, but freely-licensed photographs of
 those are scarce: most pristine reproduction photography is commercial retailer
