@@ -812,6 +812,48 @@ fantastical reproduction.
 Never quietly accept a poor principal image because a better one is hard to find.
 Record the unresolved case explicitly in the audit.
 
+### AI-generated images: authorised last resort only (owner decision, 2026-09-06)
+
+The archive owner has authorised AI-generated illustrations for Weapons & Armor
+**only** where no suitably licensed photograph of a surviving example or a
+reconstruction can be sourced after a genuine search. This is a narrow exception
+to the "no AI as historical evidence" rule, not a shortcut.
+
+Conditions — all mandatory, enforced by `npm run check:images`
+(`validateAiGeneratedImage`):
+
+- **Last resort, documented.** Only after searching Commons (categories and
+  `intitle:` patterns), museum open-access collections (Met CC0, Royal Armouries,
+  Wallace, Rijksmuseum), and reputable reproduction/living-history photography.
+  Record in the audit what was searched before giving up.
+- **Flagged in data:** `imageInfo.aiGenerated: true`. Without the flag the image is
+  invisible to auditing, so a caption that discloses AI while the flag is missing
+  is itself a hard failure.
+- **Disclosed in the FIRST sentence** of the caption, which must begin
+  `"AI-generated illustration ..."`. A reader must never have to open the
+  attribution to learn the image is not a photograph.
+- **The reason must be recorded** in the caption or note, in the form "no suitably
+  licensed photograph of ... could be sourced".
+- **Never for a named-artifact article** (`weaponArmorType` "Famous weapon" /
+  "Famous armor"). Sutton Hoo, Joyeuse and the Ulfberht swords exist and are
+  photographed; an invented image would misrepresent a real object.
+- **Never presented as evidence for an individual artifact.** The illustration
+  shows a *type*, informed by an established typology or period corpus — say which.
+- `creator` records the model used; `date` the year generated; `source` names who
+  generated it for the Codex. Do not fabricate a museum or photographer.
+
+Standard caption pattern:
+
+> "AI-generated illustration of a [type], not a photograph of a surviving object.
+> Produced for The Iron Codex because no suitably licensed photograph of a
+> complete [type] — original or reconstruction — could be sourced. It follows
+> [typology / period / regional basis] and should not be read as evidence for any
+> individual surviving artifact."
+
+If a suitable real photograph is found later, replace the AI image and drop the
+flag. These are placeholders of last resort, tracked for replacement — not a
+permanent tier of the archive.
+
 ### Captions Must Be Honest and Specific
 
 Every caption states plainly what the user is looking at. Good: "Modern reconstruction of a Viking sword based on 10th-century finds." / "Surviving late-medieval brigandine, photographed in a museum collection." Bad: "Weapon detail." / "Image of armor." / "Scene from the Codex Manesse showing knights with lances" (as a main image for *lance*).

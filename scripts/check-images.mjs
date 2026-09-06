@@ -29,6 +29,8 @@ const placeholderMetadataPattern = /^(modern photograph, map, or historical imag
 // garment with no surviving example) may be added to the reviewed-fallback
 // allowlist below once a human has confirmed it is the best honest option.
 const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
+const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
+const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
 const weaponsArmorFullObjectFallbackAllowlist = new Set([
   // id: reason — no surviving object or clean photographic example exists on Commons
   'surcoat', // contemporary tomb effigy; no medieval European surcoat survives intact
@@ -237,7 +239,49 @@ function validateImageReference({ collection, article, field, src, metadata, art
   }
 }
 
+// --- AI-generated last-resort images (see CLAUDE.md) -------------------------
+// Authorised by the archive owner ONLY where no suitably licensed photograph of a
+// surviving example or reconstruction can be sourced. Must be flagged in data and
+// disclosed in the FIRST sentence of the caption, so a reader can never mistake it
+// for photographic evidence. Never permitted for named-artifact articles.
+
+function validateAiGeneratedImage(article, entry) {
+  const ai = entry.imageInfo?.aiGenerated === true
+  const caption = stringValue(entry.imageInfo?.caption) ? entry.imageInfo.caption : ''
+
+  if (!ai) {
+    // Guard the reverse case too: a caption that discloses AI without the flag
+    // would be invisible to this check and to any future audit.
+    if (AI_DISCLOSURE_PREFIX.test(caption)) {
+      addFinding('weaponsArmor', article, 'imageInfo.aiGenerated',
+        'caption discloses an AI-generated image but imageInfo.aiGenerated is not true — set the flag so the image is auditable.',
+        caption.slice(0, 120))
+    }
+    return
+  }
+
+  if (NAMED_ARTIFACT_TYPES.has(entry.weaponArmorType)) {
+    addFinding('weaponsArmor', article, 'image',
+      'AI-generated principal image is never allowed for a named-artifact article — the object exists and is photographed; an invented image would misrepresent it.',
+      entry.image)
+  }
+  if (!AI_DISCLOSURE_PREFIX.test(caption)) {
+    addFinding('weaponsArmor', article, 'imageInfo.caption',
+      'AI-generated image must disclose itself in the FIRST sentence: caption must begin "AI-generated illustration ...".',
+      caption.slice(0, 120))
+  }
+  if (!/no suitably licensed/i.test(`${caption} ${stringValue(entry.imageInfo?.note) ? entry.imageInfo.note : ''}`)) {
+    addFinding('weaponsArmor', article, 'imageInfo.note',
+      'AI-generated image must record WHY it was needed ("no suitably licensed photograph of ... could be sourced").',
+      '')
+  }
+}
+
 function validateWeaponsArmorFullObject(article, entry) {
+  validateAiGeneratedImage(article, entry)
+  // An AI illustration is a deliberate, disclosed last resort — the non-object
+  // keyword guard below is about mislabelled photographs, so skip it here.
+  if (entry.imageInfo?.aiGenerated === true) return
   if (weaponsArmorFullObjectFallbackAllowlist.has(entry.id)) return
 
   const decodedFilename = decodeImageFilename(entry.image)
