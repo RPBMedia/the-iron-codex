@@ -829,11 +829,31 @@ collections are thin for whole weapons.
 Rules for using them:
 
 - **Judge the object, not the seller.** An accurate reproduction is legitimate
-  evidence for a *type*; a museum provenance is not required. What disqualifies an
-  item is inaccuracy: fantasy decoration, invented forms, anachronistic
-  construction, sport-safety geometry (HMB kit), or "medieval style" merchandise.
-  Check stated dimensions and proportions against surviving examples, and prefer a
-  **plain** head or blade over decorative knotwork, which is usually modern styling.
+  evidence for a *type*; a museum provenance is not required. **The object must be
+  historically accurate — reject anything carrying modern decoration added for
+  visual appeal.** Also reject invented forms, anachronistic construction,
+  sport-safety geometry (HMB kit) and "medieval style" merchandise. Check stated
+  dimensions and proportions against surviving examples.
+
+  The test is **attestation, not absence of ornament.** Medieval arms were often
+  decorated: the Mammen axe is silver-inlaid, Ulfberht blades carry iron letter
+  inlay, the Kornburg great helm is gilded, Viking hilts are inlaid with copper
+  alloy and silver. Decoration is acceptable when that treatment is attested for
+  the type and period and the reproduction follows a documented original. It is
+  rejected when it is a modern maker's flourish — generic knotwork, dragon or wolf
+  motifs applied to a form that does not carry them archaeologically, etched
+  runes, blackened "battle-worn" finishes, oversized bearded profiles. Darksword's
+  "Chieftain" Dane axe is the worked example of a reject: the wolf-and-knotwork
+  head is sales styling with no archaeological basis, so the plain Wulflund
+  reproduction was used instead.
+
+  Where a reproduction follows a specific named original, say so in the caption
+  ("reproduction of the Mammen axe"); where it follows a general type, say that
+  instead and do not imply a specific provenance. Never repeat a maker's
+  "historically accurate" or "museum quality" marketing as if it were evidence —
+  no reproduction is accurate in every respect (modern steel, modern grinding,
+  modern adhesives are normal), so the claim we make is about **form, proportion
+  and decoration**, not about the object being indistinguishable from a medieval one.
 - **Self-host, never hotlink.** Download into `client/public/` and reference the
   local path (`/dane-axe-wulflund.jpg`). Retailer URLs change and their CDNs may
   block, which would leave an article with a broken principal image.
