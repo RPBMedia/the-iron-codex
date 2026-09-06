@@ -263,7 +263,22 @@ with the owner if any of those bullets mattered specifically._
 
 ## Blocked on the user
 
-- **Google sign-in is not configured in the deployed environment.** This is NOT a
+- **Google sign-in: `AUTH_BASE_URL` is still not reaching the Vercel runtime.**
+  Verified live 2026-09-06: `/api/auth/google` returns a 302 to Google carrying a
+  correct `client_id` but `redirect_uri=http://localhost:4000/...`, which Google
+  rejects as a mismatch. Response was a fresh cache MISS, so this is not stale
+  caching. `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` ARE reaching the runtime.
+  **Check that `AUTH_BASE_URL` is set for the _Production_ environment** (not only
+  Preview/Development) and that the name has no typo, then redeploy. The apex
+  308-redirects to www, so the value is `https://www.theironcodex.org` and the
+  Google Console redirect URI must be
+  `https://www.theironcodex.org/api/auth/google/callback`.
+  Mitigated in code: the server now derives the origin from the request when
+  `AUTH_BASE_URL` is absent instead of falling back to localhost, so sign-in works
+  even if the variable never lands. Setting it is still preferred.
+
+- ~~Google sign-in is not configured~~ (resolved: credentials now present). Kept
+  for the setup steps. This was NOT a
   code defect — `server/index.js` redirects to `?error=google_not_configured`
   when `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET` are absent, which is correct
   behaviour. To enable it:

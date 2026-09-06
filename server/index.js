@@ -22,6 +22,33 @@ const scrypt = promisify(scryptCallback)
 const sessionCookieName = 'ironcodex_session'
 const sessionMaxAgeSeconds = 60 * 60 * 24 * 7
 const authBaseUrl = process.env.AUTH_BASE_URL || `http://localhost:${port}`
+
+/**
+ * The public origin used to build OAuth redirect URIs.
+ *
+ * AUTH_BASE_URL is preferred and should always be set in a deployment. When it is
+ * missing, fall back to the origin the request actually arrived on rather than to
+ * localhost: a serverless deployment without the variable would otherwise send
+ * Google a `redirect_uri` of http://localhost:4000, which Google rejects as a
+ * mismatch — a failure that looks like broken OAuth rather than missing config.
+ *
+ * The two Google routes must derive this identically, because the token exchange
+ * only succeeds when the `redirect_uri` sent at each step matches exactly.
+ *
+ * Deriving from the request means trusting a forwarded header, which is safe
+ * enough here for two reasons: the platform sets it, and Google independently
+ * rejects any redirect_uri that is not on the registered allowlist, so a spoofed
+ * host cannot redirect a real sign-in anywhere. AUTH_BASE_URL remains the
+ * authoritative source when present.
+ */
+function resolveAuthBaseUrl(req) {
+  if (process.env.AUTH_BASE_URL) return process.env.AUTH_BASE_URL
+  const first = (value) => String(value ?? '').split(',')[0].trim()
+  const host = first(req?.headers?.['x-forwarded-host']) || first(req?.headers?.host)
+  if (!host) return authBaseUrl
+  const proto = first(req?.headers?.['x-forwarded-proto']) || req?.protocol || 'https'
+  return `${proto}://${host}`
+}
 const sessionSecret = process.env.AUTH_SESSION_SECRET || randomBytes(32).toString('hex')
 
 if (!process.env.AUTH_SESSION_SECRET && process.env.NODE_ENV === 'production') {
@@ -681,7 +708,7 @@ app.get('/api/auth/google', (req, res) => {
     return res.redirect('/auth/callback?error=google_not_configured')
   }
 
-  const redirectUri = new URL('/api/auth/google/callback', authBaseUrl).toString()
+  const redirectUri = new URL('/api/auth/google/callback', resolveAuthBaseUrl(req)).toString()
   const state = signPayload({
     sub: 'google-oauth-state',
     returnTo: typeof req.query.returnTo === 'string' ? req.query.returnTo : '/favorites',
@@ -708,7 +735,7 @@ app.get('/api/auth/google/callback', async (req, res) => {
   }
 
   try {
-    const redirectUri = new URL('/api/auth/google/callback', authBaseUrl).toString()
+    const redirectUri = new URL('/api/auth/google/callback', resolveAuthBaseUrl(req)).toString()
     const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
