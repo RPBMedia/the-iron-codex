@@ -110,10 +110,11 @@ of the coverage-gap list — do not create proposed new subjects without it.**
   `gothic-plate-armor` (verify it is genuinely Gothic and not a composite),
   `seax` (pairs a pristine reproduction with a corroded original — defensible),
   `mail-armor` (missing `date`).
-- **Clean PASS (13):** `arming-sword`, `longsword`, `viking-sword`, `mace`,
+- **Clean PASS (10):** `arming-sword`, `longsword`, `viking-sword`, `mace`,
   `war-hammer`, `longbow`*, `hounskull-bascinet`, `kettle-hat`, `sallet`,
-  `mail-coif`, `heater`-class helmets as noted, `mail-armor`* (metadata aside),
-  `poleaxe`-class none. (* caption defect, see below.)
+  `mail-coif`. (* `longbow` is image-compliant but has a caption defect, below.)
+
+Counts reconcile: 7 + 2 + 2 + 8 + 1 + 3 + 9 review + 10 pass = 42.
 
 **Caption defects to fix with the images.** Six captions assert something the
 image does not support:
