@@ -460,6 +460,7 @@ export const entityLinks = [
   { label: "Kingdom of Denmark", aliases: ["Denmark"], type: "location", slug: "kingdom-of-denmark" },
   { label: "Kingdom of England", aliases: ["England"], type: "location", slug: "kingdom-of-england" },
   { label: "Kingdom of France", aliases: ["France"], type: "location", slug: "kingdom-of-france" },
+  { label: "Kingdom of Hungary", aliases: ["Regnum Hungariae","Magyar kingdom"], type: "location", slug: "kingdom-of-hungary" },
   { label: "Kingdom of Jerusalem", type: "location", slug: "kingdom-of-jerusalem" },
   { label: "Kingdom of León", type: "location", slug: "kingdom-of-leon" },
   { label: "Kingdom of Navarre", aliases: ["Navarre"], type: "location", slug: "kingdom-of-navarre" },
