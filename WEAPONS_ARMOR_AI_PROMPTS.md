@@ -113,17 +113,45 @@ Frame: wide landscape.
 Avoid: Roman pilum proportions with a heavy pyramidal head and wide wooden body;
 leaf-shaped blades (that is a thrusting spear).
 
-## 7. `war-bow` — English longbow
+## 7. `war-bow` — English longbow — **v2, REGENERATE**
 
-> An English war bow (longbow), 15th century, shown complete and vertical,
-> unstrung or lightly strung. A single stave of yew about 1.9 metres long, D-shaped
-> in cross-section with the pale sapwood on the back and darker heartwood on the
-> belly, tapering evenly towards both tips, with simple horn nocks at each end. If
-> strung, a plain twisted linen or hemp string.
+**v1 was rejected on review (2026-09-06) for two construction errors:** the pale
+sapwood and dark heartwood were **inverted** (sapwood rendered on the belly, next
+to the string, instead of on the back), and the stave carried a **carved swelled
+grip** at the centre. Both are named explicitly below so they cannot recur.
 
-Frame: tall portrait, bow vertical, both tips inside the frame.
-Avoid: recurve or reflex limbs; arrow shelves, grips, sights or risers; laminated
-or dyed modern bows; carved or painted decoration.
+> An English war bow (longbow), 15th century, photographed complete and vertical,
+> lightly strung. A single tapered stave of yew about 1.9 metres long, D-shaped in
+> cross-section.
+>
+> **Wood layering — this is the critical detail.** The bow is cut from one stave so
+> that a narrow continuous strip of pale cream sapwood lies along the **BACK** of
+> the bow — the outer face, the side that curves AWAY from the string — while the
+> darker orange-brown heartwood forms the **BELLY**, the inner face that the string
+> sits nearest. Pale wood on the outside of the curve, dark wood on the inside of
+> the curve. Never the reverse.
+>
+> **No handle of any kind.** The stave tapers smoothly and continuously from the
+> centre towards both tips; the archer grips the bare middle of the bow. There must
+> be no shaped grip, no swelling or bulge at the centre, no leather or cord
+> wrapping, no arrow shelf, no cut-out window, no riser and no sight.
+>
+> Simple pale horn nocks at each tip, grooved for the string. A plain twisted
+> linen or hemp string, undyed. No varnish gloss, no laminations or glue lines, no
+> maker's marks, stamps or decoration anywhere on the stave.
+>
+> Photographed as a museum catalogue product shot: the complete bow isolated on a
+> plain seamless white background, even soft studio lighting, no shadows beyond a
+> faint contact shadow, no scene, no setting, no figure, no hands, no props, no
+> text, no watermark, no border. Both tips inside the frame with a small margin —
+> nothing cropped at any edge. Natural proportions, no perspective distortion,
+> photorealistic, sharp focus throughout.
+>
+> Historical scope: England, 15th century. Not a modern recurve, flatbow or
+> laminated target bow; not Asian, Ottoman or composite; no reflex or deflex limb
+> shaping.
+
+Frame: tall portrait, bow vertical.
 
 ## 8. `coat-of-plates` — 14th-century plated body defence
 
