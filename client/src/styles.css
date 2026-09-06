@@ -2905,3 +2905,103 @@ a.tree-person:hover .tree-person-name {
 .wa-type-figure img { max-width: 960px; cursor: zoom-in; }
 .wa-type-figure a { display: inline-block; }
 .wa-zoom-hint { opacity: 0.65; }
+
+/* ---------------------------------------------------------------------------
+ * Image lightbox
+ *
+ * Article images are letterboxed so the whole object is always visible, which
+ * is right but renders long objects (a lance, a halberd, a war bow) very small.
+ * Clicking any article image opens it full-screen, alone and without caption or
+ * metadata, so it can be inspected at the largest size the viewport allows.
+ * Close with the cross at the image's top-right, the backdrop, or Escape.
+ * ------------------------------------------------------------------------ */
+
+.zoomable-image {
+  cursor: zoom-in;
+}
+
+.zoomable-image:focus-visible {
+  outline: 2px solid var(--gold, #c9a227);
+  outline-offset: 3px;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: clamp(16px, 4vw, 48px);
+  background: rgba(8, 8, 10, 0.9);
+  backdrop-filter: blur(3px);
+  animation: lightbox-fade 140ms ease-out;
+}
+
+@keyframes lightbox-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.image-lightbox-frame {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  line-height: 0;
+}
+
+/* Fit the whole object to the viewport without ever upscaling past the source. */
+.image-lightbox-img {
+  display: block;
+  max-width: min(96vw, 1800px);
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background: #111116;
+  border-radius: 3px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.6);
+}
+
+.image-lightbox-close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid rgba(215, 217, 221, 0.35);
+  border-radius: 50%;
+  background: #16161b;
+  color: #f2f2ef;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, transform 140ms ease;
+}
+
+.image-lightbox-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.image-lightbox-close:hover,
+.image-lightbox-close:focus-visible {
+  background: #24242c;
+  border-color: rgba(215, 217, 221, 0.7);
+  transform: scale(1.06);
+}
+
+.image-lightbox-close:focus-visible {
+  outline: 2px solid var(--gold, #c9a227);
+  outline-offset: 2px;
+}
+
+/* On narrow screens the cross would sit off-screen outside the frame, so bring
+   it inside the image instead. */
+@media (max-width: 640px) {
+  .image-lightbox-close {
+    top: 8px;
+    right: 8px;
+    background: rgba(12, 12, 16, 0.85);
+  }
+}

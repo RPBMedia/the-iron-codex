@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useLocation, useParams } from 'react-router-dom'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
+import ZoomableImage from '../components/ZoomableImage.jsx'
 import { getArticle } from '../lib/api.js'
 import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
 import { reportArticleImageFailure } from '../lib/images.js'
@@ -123,9 +124,9 @@ function ImageWithCaption({ article }) {
           <span>Image unavailable</span>
         </div>
       ) : (
-        <img
+        <ZoomableImage
           src={article.image}
-          alt={article.name}
+          alt={article.imageInfo?.caption || article.name}
           onError={(event) => {
             reportArticleImageFailure(article, 'image', event.currentTarget.currentSrc || event.currentTarget.src)
             setFailed(true)
@@ -259,9 +260,11 @@ function OakeshottTypes({ data }) {
       <h2>Blade typology (Oakeshott)</h2>
       {data.diagram?.img && (
         <figure className="wa-type-figure">
-          <a href={data.diagram.img} target="_blank" rel="noreferrer" title="Open full size">
-            <img src={data.diagram.img} alt="Chart of Oakeshott sword-blade types" loading="lazy" />
-          </a>
+          <ZoomableImage
+            src={data.diagram.img}
+            alt="Chart of Oakeshott sword-blade types"
+            loading="lazy"
+          />
           {data.diagram.caption && (
             <figcaption>
               {data.diagram.caption} <span className="wa-zoom-hint">— click to enlarge</span>
@@ -1259,7 +1262,7 @@ function SectionImage({ image }) {
 
   return (
     <figure className="section-figure">
-      <img
+      <ZoomableImage
         src={image.src}
         alt={image.alt ?? image.caption}
         loading="lazy"
