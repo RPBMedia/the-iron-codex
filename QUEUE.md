@@ -89,9 +89,18 @@ of the coverage-gap list — do not create proposed new subjects without it.**
         `sutton-hoo-helmet` reverted — the replica reads better than the
         fragmentary original, so the replica leads and the original is the
         secondary image (CLAUDE.md's named-artifact clause amended to match).
-        `great-helm` replaced again: the Kornburg helm was a pure side view, so
-        the principal is now a three-quarter view showing front and side, with
-        Kornburg kept as a secondary for its surviving gilding.
+        `great-helm` took three passes and is a useful precedent: Kornburg was a
+        pure side view; the Berlin three-quarter view had the right angle but a
+        pitted, corroded surface. **Condition outranks angle for a generic type** —
+        a worn original leads only for a named artifact. Principal is now a clean
+        reproduction, front-on; Kornburg is the single secondary.
+
+**Lesson for the rest of M3:** most surviving medieval originals are too corroded
+to lead a generic-type article, so expect the answer to be a **clean reproduction
+(tier 2–3)** far more often than a surviving original (tier 1). Search
+`Category:Medieval helmet replicas`, `Category:Replicas of armour`,
+`Category:Replica shields`, `Category:Replicas of mail armour`,
+`Category:Replicas of plate armour` early rather than late.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields
