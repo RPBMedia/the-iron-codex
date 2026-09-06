@@ -100703,7 +100703,7 @@
       "region": "Europe",
       "material": "Wood, iron, or steel with central grip",
       "battlefieldRole": "Small hand shield for personal defense and swordplay",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ms%20i33%205r%20detail.jpg",
+      "image": "/buckler-front-wulflund.jpg",
       "summary": "The buckler was a small hand-held shield used with swords, knives, and other sidearms.",
       "details": "Its small size did not cover the whole body, but it protected the weapon hand and line of attack. Skill mattered because the buckler had to move with the fight.",
       "contentSections": [
@@ -100746,12 +100746,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "A buckler in use, from MS I.33 (c. 1300), the earliest surviving European sword-and-buckler fencing manual.",
-        "creator": "Anonymous medieval illuminator",
-        "date": "c. 1300",
-        "source": "Royal Armouries Ms. I.33 / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ms%20i33%205r%20detail.jpg",
-        "note": "Period depiction of the buckler; no clear photograph of a surviving plain medieval buckler was available on Commons, so the definitive historical source is used."
+        "caption": "Modern reproduction of a medieval buckler, seen from the front: a small round shield about 30 cm across, its face bound at the rim with rawhide and pierced at the centre by a riveted steel boss that covers the hand.",
+        "creator": "Wulflund (Czech workshop) — maker and product photograph",
+        "date": "modern reproduction of a 13th–14th century form",
+        "source": "Wulflund, reproduced with credit",
+        "sourceUrl": "https://www.wulflund.com/armour/shields/battle-ready-shileds/buckler-living-history-authencity-battle-ready.html/",
+        "note": "A reproduction, not a surviving buckler. Built as the medieval ones were: beech plywood faced with textile, a rawhide-bound edge, and a separate steel boss riveted over a central hole so the fist sits inside it. At 30 cm it falls within the 15–45 cm range of surviving examples. Used because the article previously led with a manuscript illustration, which shows the buckler in use but not the object. Photograph used with maker credit and a link."
       },
       "knownFor": [
         "Buckler shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -100834,7 +100834,31 @@
             "value": "Both the battlefield and civilian self-defence"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Design and construction",
+          "src": "/buckler-rear-wulflund.jpg",
+          "alt": "The reverse of a reproduction buckler, showing the wooden back and the horizontal grip bar spanning the boss cavity.",
+          "caption": "The same buckler from behind: the hollow of the boss forms the space for the fist, and a single horizontal bar riveted across it is the only grip.",
+          "creator": "Wulflund (Czech workshop) — maker and product photograph",
+          "date": "modern reproduction of a 13th–14th century form",
+          "source": "Wulflund, reproduced with credit",
+          "sourceUrl": "https://www.wulflund.com/armour/shields/battle-ready-shileds/buckler-living-history-authencity-battle-ready.html/",
+          "note": "The rear view explains how the weapon was held and why it was so mobile: nothing straps it to the arm, so it is punched and thrust out from the fist rather than carried on it."
+        },
+        {
+          "section": "Protection and battlefield role",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ms%20i33%205r%20detail.jpg",
+          "alt": "A buckler in use, from MS I.33 (c. 1300), the earliest surviving European sword-and-buckler fencing manual.",
+          "caption": "Sword and buckler in use, from MS I.33 (c. 1300) — the earliest surviving European fencing manual, which teaches the buckler as an active weapon covering the sword hand rather than a passive guard.",
+          "creator": "Anonymous medieval illuminator",
+          "date": "c. 1300",
+          "source": "Royal Armouries Ms. I.33 / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ms%20i33%205r%20detail.jpg",
+          "note": "Artwork rather than an object photograph, which is why it is no longer the principal image — but it is the best evidence for how the buckler was actually used, and no photograph of a surviving shield can show that."
+        }
+      ]
     },
     {
       "id": "coat-of-plates",

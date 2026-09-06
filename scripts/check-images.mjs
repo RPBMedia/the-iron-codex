@@ -33,8 +33,9 @@ const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
 const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
 const weaponsArmorFullObjectFallbackAllowlist = new Set([
   // id: reason — no surviving object or clean photographic example exists on Commons
-  'surcoat', // contemporary tomb effigy; no medieval European surcoat survives intact
-  'buckler' // MS I.33 depiction; no clear photograph of a surviving plain medieval buckler found on Commons
+  'surcoat' // contemporary tomb effigy; no medieval European surcoat survives intact
+  // 'buckler' removed 2026-09-06: now uses a photographed reproduction (front and
+  // rear views); MS I.33 moved to the battlefield-role section as secondary evidence.
 ])
 
 // --- Medieval location image guard (see CLAUDE.md "Medieval Location Image Rules") ---

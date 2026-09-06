@@ -71,7 +71,14 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (8 of ~20 done; batches 1–5).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (9 of ~20 done; batches 1–6).
+      Batch 6: `buckler` — the FORMAT FAIL the brief named. Wulflund reproduction
+      photographed front and rear (plywood, textile face, rawhide rim, riveted
+      steel boss, 30 cm); MS I.33 moved to the battlefield-role section, where it
+      is the best evidence for *use*. `buckler` removed from
+      `weaponsArmorFullObjectFallbackAllowlist` in the same commit, as planned.
+      Rejected first: all four Lord of Battles buckler photos carry a brand
+      watermark; Talhoffer/"antiqued" and blackened bucklers fail the finish rule.
       Batch 5: `dane-axe` — complete forged reproduction from Wulflund (122 cm,
       20 cm head, plain welded edge), self-hosted and credited. **Maker/retailer
       photographs are now permitted archive-wide** (CLAUDE.md) — this unblocks
@@ -113,7 +120,8 @@ of the coverage-gap list — do not create proposed new subjects without it.**
         kit, which the standard excludes.
       - `bill`, `poleaxe`, `spear`, `halberd` — museums photograph heads only
         (every Met sibling frame checked); no full-length free-licensed photo found.
-      - `war-bow`, `javelin-throwing-spear`, `buckler` — nothing usable yet.
+      - `war-bow`, `javelin-throwing-spear` — nothing usable yet.
+      - `buckler` — RESOLVED (batch 6) via a Wulflund reproduction, front and rear.
       Batch 3: `gambeson` — **first AI illustration**, owner-supplied and
       authorised after the search was exhausted (Commons category/intitle/
       full-text, Met, Cleveland CC0 — all returned manuscript art, line drawings
