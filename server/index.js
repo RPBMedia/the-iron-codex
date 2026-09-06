@@ -178,7 +178,24 @@ async function readUsers() {
 }
 
 async function writeUsers(users) {
-  await writeFile(usersFile, JSON.stringify(users, null, 2) + '\n')
+  try {
+    await writeFile(usersFile, JSON.stringify(users, null, 2) + '\n')
+  } catch (error) {
+    // Serverless platforms mount the deployment read-only, so writing the user
+    // store inside the bundle fails with EROFS/EACCES. Surface that clearly: it
+    // is a deployment-architecture problem, not a transient write error, and it
+    // breaks every account-creating path (signup AND Google sign-in) identically.
+    if (error?.code === 'EROFS' || error?.code === 'EACCES') {
+      const message =
+        `User store is not writable at ${usersFile} (${error.code}). ` +
+        'On a read-only/serverless filesystem this path can never be written. ' +
+        'Set AUTH_USERS_FILE to a writable location, or move the user store to a database.'
+      console.error('[auth]', message)
+      throw new Error(message)
+    }
+    console.error('[auth] failed to write the user store:', error)
+    throw error
+  }
 }
 
 async function hashPassword(password) {
@@ -793,7 +810,11 @@ app.get('/api/auth/google/callback', async (req, res) => {
     await writeUsers(users)
     setSession(res, user)
     res.redirect(`/auth/callback?returnTo=${encodeURIComponent(state.returnTo ?? '/favorites')}`)
-  } catch {
+  } catch (error) {
+    // Previously a bare `catch {}`, which turned every distinct failure - token
+    // exchange, profile lookup, unwritable user store - into the same opaque
+    // "could not be completed" screen with nothing in the logs to diagnose from.
+    console.error('[auth] Google sign-in failed:', error)
     res.redirect('/auth/callback?error=google_failed')
   }
 })

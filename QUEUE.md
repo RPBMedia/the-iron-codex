@@ -293,7 +293,35 @@ with the owner if any of those bullets mattered specifically._
 
 ## Blocked on the user
 
-- **Google sign-in: `AUTH_BASE_URL` is still not reaching the Vercel runtime.**
+- **CRITICAL — account creation has never worked in production. Needs a
+  storage decision from the owner.** Diagnosed 2026-09-06.
+  Google sign-in now reaches Google, returns, and fails at the *last* step. The
+  cause is not OAuth: `writeUsers()` writes `server/data/users.json` **inside the
+  deployment bundle**, and Vercel mounts that filesystem read-only. Proven
+  independently — `POST /api/auth/signup` returns **HTTP 500** on the live site,
+  the same write path with no Google involved. Two further facts confirm it:
+  `users.json` is not committed, so every deploy would start empty regardless,
+  and each serverless instance would hold its own copy even if writes succeeded.
+  **A store outside the bundle is required.** Options, owner's call:
+  1. **Vercel Blob** — smallest change; keeps the current read-all/write-all
+     shape behind a one-file adapter. Fastest route to working sign-in.
+  2. **Vercel KV (Upstash Redis)** — similar effort, better suited to per-user
+     records than a single JSON blob.
+  3. **Supabase Postgres** — most work now, but the owner already runs Supabase
+     on CareerForger, and Track C's analytics will want a real database anyway.
+  Recommendation: Blob or KV to restore sign-in today; Supabase if we would
+  rather do it once. Interim mitigation only: `AUTH_USERS_FILE=/tmp/users.json`
+  makes writes succeed but the data is per-instance and erased constantly — a
+  diagnostic, not a fix.
+  Shipped meanwhile: the storage failure now logs a specific, actionable message
+  instead of a generic crash, and the Google callback's bare `catch {}` — which
+  turned every distinct failure into the same opaque screen — now logs the real
+  error.
+
+- ~~Google sign-in: `AUTH_BASE_URL` not reaching the runtime~~ RESOLVED. Verified
+  live: the redirect now carries
+  `redirect_uri=https://www.theironcodex.org/api/auth/google/callback`, and Google
+  returns no `redirect_uri_mismatch`, so the Console registration matches.
   Verified live 2026-09-06: `/api/auth/google` returns a 302 to Google carrying a
   correct `client_id` but `redirect_uri=http://localhost:4000/...`, which Google
   rejects as a mismatch. Response was a fresh cache MISS, so this is not stale
