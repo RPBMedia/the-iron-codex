@@ -146,6 +146,83 @@ Requirements:
 - Detail shots (inscriptions, bosses, hilts, construction) remain welcome as
   **secondary** images but can never serve as the principal image.
 
+### Authenticity and condition (generic types vs named artifacts)
+
+Showing the complete artifact is **necessary but not sufficient**. The principal
+image must also communicate how the object plausibly looked when complete,
+functional and serviceable in its own period.
+
+**Generic equipment-type articles** (Arming Sword, Halberd, Buckler, Great Helm,
+Mail Hauberk, Gambeson, Plate Armor, …) explain a *form*, not one object. Their
+principal image must not be a heavily corroded, broken, flattened, discoloured or
+excavated object merely because it is genuinely medieval. Degradation hides the
+original silhouette, materials and function — the very things the article exists
+to explain. Such photographs stay in the article as **secondary evidence**.
+
+Preference order for a generic type's principal image:
+
+1. A complete, exceptionally well-preserved original whose form is still legible
+2. A museum-grade or academically informed reconstruction
+3. A high-quality reproduction from a reputable maker, based on identifiable
+   originals or an established typology
+4. A staged photograph of a complete reconstructed ensemble (for armor systems)
+5. A complete original with moderate wear — only when nothing stronger is
+   responsibly available
+
+**The principal image must be a photograph of a physical object.** Manuscript
+illuminations, frescoes, paintings, drawings, engravings, diagrams, sculpture,
+digital and AI imagery are **secondary** evidence — excellent for showing the
+object worn, carried or used, never a substitute for photographing the thing.
+Also excluded as principal: severely corroded finds, weapons missing hafts,
+swords missing grips/guards/pommels, extreme close-ups, head-only shots,
+obscured display-case photographs, fantasy or film props, decorative "medieval
+style" merchandise, and reconstructions with speculative embellishment.
+
+The photograph must show true proportions without perspective distortion,
+lighting that reveals silhouette and construction, an unobscured background, no
+hands/costume/scenery covering the object, no heavy filtering, and honest colour
+and material appearance. A neutral museum, workshop or studio photograph is
+preferred over a living-history photograph.
+
+**Unique named-artifact articles** (Sutton Hoo Helmet, Joyeuse, Ulfberht Swords,
+Gjermundbu Helmet, …) are the exception: the historical object *is* the subject,
+so its present museum condition — worn, corroded, reassembled — is the correct
+principal image, and **must not be replaced by a modern replica**. The caption
+must state what is original, what is restored or reconstructed, present
+condition, collection, dating, and any serious dispute over attribution or
+assembly. A responsible reconstruction may appear as a *secondary* image. For a
+grouped label such as the Ulfberht swords, use a genuine representative example
+and say that the label covers many surviving blades.
+
+**Reconstruction accuracy.** Never call a reconstruction "100% historically
+accurate", and never repeat a seller's "battle-ready", "authentic" or "museum
+quality" marketing as evidence. Use evidence-based phrasing instead — "museum-grade
+reconstruction", "reproduction based on a documented example", "reconstruction
+following an established typology". Before accepting one as principal, check
+dimensions, proportions, plausible weight, materials, blade or plate geometry,
+hilt/haft/suspension, construction technique, surface finish, absence of
+anachronism and fantasy decoration, and the maker's credibility. Where
+documentation is thin, describe it honestly as a representative modern
+reproduction rather than asserting fidelity.
+
+**Caption rule for reconstructions:** if the principal image shows a modern
+reconstruction or reproduction, the **first sentence** must say so. A reader must
+never have to open the attribution field to discover the object is modern.
+Forbidden: "A medieval buckler", "An authentic halberd", "A real knightly sword"
+for a modern object.
+
+**Audit statuses** (in addition to PASS / SOURCE FAIL / RENDERING FAIL /
+SUBJECT MISMATCH / ATTRIBUTION FAIL): **CONDITION FAIL** (too degraded to convey
+original form, for a generic type), **FORMAT FAIL** (artwork or non-photographic),
+**RECONSTRUCTION QUALITY FAIL** (pristine but dubious, anachronistic or
+fantastical), **UNIQUE-ARTIFACT EXCEPTION**, **DOCUMENTATION REVIEW** (credible
+but basis unverified). An image must pass every applicable criterion: a complete
+but severely degraded object fails for a generic type, and so does a pristine but
+fantastical reproduction.
+
+Never quietly accept a poor principal image because a better one is hard to find.
+Record the unresolved case explicitly in the audit.
+
 For a complete harness the principal image should show the full assembled harness
 or a full-body mannequin view. An archaeological fragment may serve as principal
 only where no responsible alternative exists, and that exception must be recorded

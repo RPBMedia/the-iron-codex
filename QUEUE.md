@@ -66,11 +66,13 @@ of the coverage-gap list — do not create proposed new subjects without it.**
 
 - [x] **M1 — Inventory** (2026-09-06). 42 articles: Weapon 19, Armor 8, Helmet 7,
       Shield 5, Famous weapon 2, Famous armor 1.
-- [x] **M2 — Principal-image audit** (2026-09-06). All 42 images downloaded,
-      measured and **visually inspected**. 9 fail. Full matrix in the session
-      report; failures listed below.
-- [ ] **M3 — Image replacements** ← NEXT. Replace 9 failing principals; demote
-      good detail shots to secondary rather than deleting them.
+- [x] **M2 — Principal-image audit** (2026-09-06, re-run against the authenticity
+      and condition standard added the same day). All 42 images downloaded,
+      measured and **visually inspected**. Under the completeness rule alone 9
+      failed; once condition, format and reconstruction quality count, **~20 fail
+      and ~9 more need review**. See the breakdown below.
+- [ ] **M3 — Image replacements** ← NEXT. Now ~20 replacements, not 9. Demote
+      strong museum/manuscript images to secondary rather than deleting them.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields
@@ -80,19 +82,54 @@ of the coverage-gap list — do not create proposed new subjects without it.**
 - [ ] M9 — **APPROVAL GATE — stop and wait**
 - [ ] M10 — Approved additions only
 
-**M2 failures to fix in M3:**
-`dane-axe`, `bill-billhook`, `halberd`, `lance`, `poleaxe`, `spear` (hafted
-weapons shown as head-detail photographs); `war-bow`, `buckler`,
-`javelin-throwing-spear` (wrong subject entirely); `ulfberht-swords` (hilt
-detail); `plate-armor` (half-armour, no legs).
+**M2 verdicts by status**
 
-**Five captions actively assert completeness the image does not have** —
-`dane-axe`, `lance`, `war-bow`, `plate-armor`, `javelin-throwing-spear` all say
-"in full"/"complete"/"head to foot". Fix captions with the images.
+- **SOURCE FAIL — object incomplete (7):** `dane-axe`, `bill-billhook`, `halberd`,
+  `lance` (head not in frame at all), `poleaxe`, `spear`, `plate-armor`
+  (half-armour, no legs).
+- **FORMAT FAIL — not a photograph of the object (2):** `buckler` (MS I.33
+  manuscript scene), `surcoat` (stone tomb effigy).
+- **SUBJECT MISMATCH (2):** `javelin-throwing-spear` (reenactment crowd photo),
+  `war-bow` (display case of many bows behind glass).
+- **CONDITION FAIL — generic type, too degraded to show original form (8):**
+  `great-helm`, `nasal-helmet`, `heater-shield`, `shield`, `coat-of-plates`
+  (interior view of a corroded find), `gambeson`, `pavise`, `rondel-dagger`.
+- **RECONSTRUCTION QUALITY / STAGING FAIL (1):** `kite-shield` (crude painted
+  reenactment shields on grass, with a dog and bystanders in frame).
+- **UNIQUE-ARTIFACT EXCEPTION (3):** `joyeuse` retained (the actual Louvre object;
+  caption must be expanded to cover its composite dating). `sutton-hoo-helmet`
+  **must change**: it currently uses the British Museum *replica*, and the new rule
+  says a named artifact may not be represented by a modern replica — use the
+  reassembled original, demote the replica to secondary, and fix the attribution
+  that credits a 20th-century replica to an "Anglo-Saxon (East Anglian) smith".
+  `ulfberht-swords` needs a complete representative blade; the current hilt
+  close-up becomes secondary evidence for the inscription.
+- **DOCUMENTATION REVIEW / borderline (9):** `bascinet` (aged, photographed on a
+  windowsill beside a radiator), `falchion` (aged, B&W), `brigandine` (faded),
+  `hauberk` (damaged hem), `battle-axe`, `crossbow` (display case, angled, glass),
+  `gothic-plate-armor` (verify it is genuinely Gothic and not a composite),
+  `seax` (pairs a pristine reproduction with a corroded original — defensible),
+  `mail-armor` (missing `date`).
+- **Clean PASS (13):** `arming-sword`, `longsword`, `viking-sword`, `mace`,
+  `war-hammer`, `longbow`*, `hounskull-bascinet`, `kettle-hat`, `sallet`,
+  `mail-coif`, `heater`-class helmets as noted, `mail-armor`* (metadata aside),
+  `poleaxe`-class none. (* caption defect, see below.)
 
-**Attribution defects:** `sutton-hoo-helmet` credits a 20th-century British Museum
-replica to an "Anglo-Saxon (East Anglian) smith", early 7th century;
-`mail-armor` is missing its `date` field.
+**Caption defects to fix with the images.** Six captions assert something the
+image does not support:
+`dane-axe` "shown in full", `lance` "with its full wooden shaft and steel head",
+`war-bow` "shown complete", `plate-armor` "shown head to foot",
+`javelin-throwing-spear` "shown in full", and `longbow` — plainly a modern
+reproduction but captioned "A full English longbow" with no mention that it is
+modern, which the first-sentence rule now forbids.
+
+**Known sourcing risk for M3.** The new standard prefers museum-grade
+reconstructions and reputable reproductions, but freely-licensed photographs of
+those are scarce: most pristine reproduction photography is commercial retailer
+imagery, which is explicitly disallowed. Expect several subjects — buckler,
+gambeson, kite shield, coat of plates especially — where no compliant image
+exists on Commons. Per the brief these must be **recorded as unresolved, never
+quietly accepted**.
 
 ---
 
