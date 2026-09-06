@@ -71,8 +71,20 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← NEXT. Now ~20 replacements, not 9. Demote
-      strong museum/manuscript images to secondary rather than deleting them.
+- [ ] **M3 — Image replacements** ← IN PROGRESS (3 of ~20 done, batch 1).
+      Demote strong museum/manuscript images to secondary rather than deleting.
+      - [x] `sutton-hoo-helmet` — original reassembled helmet replaces the British
+            Museum replica (named-artifact rule); replica demoted to Description;
+            attribution corrected (it credited the replica to an Anglo-Saxon smith).
+      - [x] `great-helm` — Kornburg helm (Germanisches Nationalmuseum) replaces a
+            corroded helm shot with a visitor in frame.
+      - [x] `nasal-helmet` — clean Norman-style replica, disclosed in the caption's
+            first sentence; excavated helm demoted to secondary.
+      - Rejected on inspection: `Pembridge Helm, Great helm, before 1375.JPG` is
+        **mislabelled on Commons** — the object is a 16th-century morion, not a
+        great helm. Never trust a Commons filename.
+      - `rondel-dagger`: Higgins Armory example is complete but framed with two
+        large wall labels dominating the shot — still looking.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields
