@@ -71,140 +71,30 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (12 of ~20; batches 1–8).
-      Batch 7: `heater-shield` (Konrad von Thüringen shield too degraded for a
-      generic type — demoted to secondary) and `kite-shield` (was a reenactment
-      snapshot with a dog in frame). Both now Wulflund reproductions: plywood
-      core, canvas face, rawhide-bound rim, clean and unwatermarked. Both are
-      unpainted blanks, which shows construction well; captions state that both
-      types normally carried painted heraldry.
+- [x] **M3 — Image replacements COMPLETE** (2026-09-06, batches 1–9).
+      20 principal images replaced. 12 with real photographs (museum, Commons or
+      maker), 8 with AI illustrations after every photographic source was
+      exhausted. Every previous image was demoted to a secondary section image
+      rather than deleted — the Met head shots, the Marburg shield, MS I.33, the
+      Mary Rose bows and the Sutton Hoo original are all still in their articles,
+      in the sections where they are the better evidence.
 
-      **Re-pass done 2026-09-06 with retailers permitted — NO new wins.**
-      Wulflund has no coat-of-plates product at all; halberds are "delivered
-      without wooden pole for cheaper and easier shipping" so their photos are
-      head-only; the Viking spear's "40 cm total length" is the head, and its
-      photographs show a head on moss. The polearm problem is a supply-chain fact,
-      not a search failure.
+      **The 8 AI illustrations** (`spear`, `bill-billhook`, `poleaxe`, `halberd`,
+      `lance`, `javelin-throwing-spear`, `war-bow`, `coat-of-plates`) are all
+      flagged `aiGenerated`, disclose themselves in the caption's first sentence,
+      and record why — verified programmatically, enforced by `check:images`.
+      **They are placeholders**: per CLAUDE.md a real photograph always takes
+      precedence, so re-check them whenever a new source opens up. Prompts are in
+      `WEAPONS_ARMOR_AI_PROMPTS.md`.
 
-      **Prompts written: `WEAPONS_ARMOR_AI_PROMPTS.md`** — one per subject, each
-      pinned to a period and region with explicit anachronism exclusions, plus a
-      shared block for framing, finish and "no decoration".
+      **Review caught one failure before it shipped:** war-bow v1 had the yew
+      sapwood and heartwood inverted (pale sapwood on the belly instead of the
+      back) and a carved grip swelling, which an English warbow does not have. v2
+      corrected both; the prompt now states the layering directionally, since
+      "back" and "belly" are counter-intuitive terms.
 
-      **AI ILLUSTRATION LIST (final) — 8 subjects.** All sources exhausted:
-      Commons (categories, intitle, full-text), en-wiki article images, Openverse
-      (Flickr + Wikimedia + museums), Met, Cleveland CC0, and the maker/retailer
-      sites Wulflund, Museum Replicas, Cold Steel and Kult of Athena.
-      `spear`, `bill`, `poleaxe`, `halberd`, `lance` — makers ship heads without
-      shafts; assembled European examples are blackened and watermarked.
-      `war-bow` — only the Mary Rose display case.
-      `javelin-throwing-spear` — same shaft problem.
-      `coat-of-plates` — only fragmentary finds; the one reconstruction is HMB
-      sport kit.
-
-      **Resolved 2026-09-06:** owner ruled that a real photograph ALWAYS takes
-      precedence and AI is last resort only. `gambeson` swapped to a Wulflund
-      photograph, the `aiGenerated` flag dropped and the AI file deleted.
-      **The archive now contains zero AI images.** CLAUDE.md states the rule
-      applies retroactively: whenever a new source opens up, re-check every
-      article still flagged `aiGenerated` and replace what can be photographed.
-      Batch 6: `buckler` — the FORMAT FAIL the brief named. Wulflund reproduction
-      photographed front and rear (plywood, textile face, rawhide rim, riveted
-      steel boss, 30 cm); MS I.33 moved to the battlefield-role section, where it
-      is the best evidence for *use*. `buckler` removed from
-      `weaponsArmorFullObjectFallbackAllowlist` in the same commit, as planned.
-      Rejected first: all four Lord of Battles buckler photos carry a brand
-      watermark; Talhoffer/"antiqued" and blackened bucklers fail the finish rule.
-      Batch 5: `dane-axe` — complete forged reproduction from Wulflund (122 cm,
-      20 cm head, plain welded edge), self-hosted and credited. **Maker/retailer
-      photographs are now permitted archive-wide** (CLAUDE.md) — this unblocks
-      most of the remaining polearms.
-      New search tools that work: **Openverse** (`api.openverse.org`, keyless,
-      searches Flickr + Wikimedia + museums together) and checking the **en-wiki
-      article's own images**, which surface Commons files that category listings
-      miss.
-      Batch 4: `ulfberht-swords` — complete sword (pommel to point) from the
-      Germanisches Nationalmuseum, inv. FG 2187, replacing a hilt close-up. Named
-      artifact, so the corroded condition stays and a replica would be wrong; the
-      inscription close-up moves to Description where it is the better image.
-
-      **Polearms: why retailers did NOT unblock them.** Searched Commons, en-wiki
-      article images, Openverse (Flickr + Wikimedia + museums), Met, Cleveland,
-      Wulflund, Museum Replicas, Cold Steel and Kult of Athena. Two structural
-      reasons, both independent of how hard one looks:
-      1. **Makers ship European polearm HEADS without shafts** (shipping
-         dimensions — Wulflund says so explicitly), so their photography is of
-         heads, exactly like the museums'.
-      2. **The assembled European polearms that do exist are blackened.** Cold
-         Steel's Man-at-Arms winged spear — the main full-length option, sold via
-         several retailers — has a black-coated head. A medieval spearhead was
-         bright steel, so a blackened one misrepresents the object's appearance,
-         which is the whole point of the condition rule. Its own photographs also
-         carry a Cold Steel logo watermark.
-      Kult of Athena's assembled spears are non-European (Greek dory, Maasai,
-      assegai, Han Chinese). The Dane axe worked only because Wulflund happens to
-      photograph an assembled axe with a plain bright head.
-
-      **Confirmed dead ends (searched Commons categories + intitle + full-text,
-      en-wiki article images, Openverse, Met, Cleveland, and maker/retailer sites
-      — candidates for AI illustration):**
-      - `gambeson` — RESOLVED with a REAL photograph (batch 8); AI image removed.
-      - `lance` — the one full-length candidate (Walters armour with lance) runs
-        off the top of frame and is B&W.
-      - `coat-of-plates` — Met's example is surviving plates on linen, still a
-        fragmentary find; "Early 14th Century HMB armour" is full-contact sport
-        kit, which the standard excludes.
-      - `bill`, `poleaxe`, `spear`, `halberd` — museums photograph heads only
-        (every Met sibling frame checked); no full-length free-licensed photo found.
-      - `war-bow`, `javelin-throwing-spear` — nothing usable yet.
-      - `buckler` — RESOLVED (batch 6) via a Wulflund reproduction, front and rear.
-      Batch 3: `gambeson` — **first AI illustration**, owner-supplied and
-      authorised after the search was exhausted (Commons category/intitle/
-      full-text, Met, Cleveland CC0 — all returned manuscript art, line drawings
-      or 17th-century buff coats). Flagged `aiGenerated`, disclosed in the
-      caption's first sentence, limitations stated (lighter and more finely
-      tailored than a thick battlefield gambeson; quilting more regular than
-      hand work). The old museum photograph is kept as a secondary image.
-      **The gambeson image is the quality bar for any future AI illustration** —
-      complete object on plain white, catalogue lighting, no scene or figure.
-      Rejected this batch: Met "Coat of Plates, or Brigandine" (surviving plates
-      on linen — still a fragmentary find, fails condition for a generic type);
-      "Early 14th Century HMB armour" (full-contact sport kit, not a historical
-      reconstruction).
-      Batch 2: `plate-armor` (full Gothic harness, Brussels — fixes the
-      half-armour SOURCE FAIL and its false "head to foot" caption; half-armour
-      demoted to secondary) and `pavise` (Met colour studio photograph replacing a
-      B&W catalogue shot). Rejected on inspection: "Gothic armor.jpg" is a printed
-      woodcut (**second mislabelled Commons file this milestone**);
-      "Tarcze rycerskie.jpg" is a reenactment fair with children and tents.
-      Demote strong museum/manuscript images to secondary rather than deleting.
-      - [x] `sutton-hoo-helmet` — original reassembled helmet replaces the British
-            Museum replica (named-artifact rule); replica demoted to Description;
-            attribution corrected (it credited the replica to an Anglo-Saxon smith).
-      - [x] `great-helm` — Kornburg helm (Germanisches Nationalmuseum) replaces a
-            corroded helm shot with a visitor in frame.
-      - [x] `nasal-helmet` — clean Norman-style replica, disclosed in the caption's
-            first sentence; excavated helm demoted to secondary.
-      - Rejected on inspection: `Pembridge Helm, Great helm, before 1375.JPG` is
-        **mislabelled on Commons** — the object is a 16th-century morion, not a
-        great helm. Never trust a Commons filename.
-      - `rondel-dagger`: Higgins Armory example is complete but framed with two
-        large wall labels dominating the shot — still looking.
-      - **Owner review of batch 1 (2026-09-06):** `nasal-helmet` approved.
-        `sutton-hoo-helmet` reverted — the replica reads better than the
-        fragmentary original, so the replica leads and the original is the
-        secondary image (CLAUDE.md's named-artifact clause amended to match).
-        `great-helm` took three passes and is a useful precedent: Kornburg was a
-        pure side view; the Berlin three-quarter view had the right angle but a
-        pitted, corroded surface. **Condition outranks angle for a generic type** —
-        a worn original leads only for a named artifact. Principal is now a clean
-        reproduction, front-on; Kornburg is the single secondary.
-
-**Lesson for the rest of M3:** most surviving medieval originals are too corroded
-to lead a generic-type article, so expect the answer to be a **clean reproduction
-(tier 2–3)** far more often than a surviving original (tier 1). Search
-`Category:Medieval helmet replicas`, `Category:Replicas of armour`,
-`Category:Replica shields`, `Category:Replicas of mail armour`,
-`Category:Replicas of plate armour` early rather than late.
+      `surcoat` is the only remaining entry in
+      `weaponsArmorFullObjectFallbackAllowlist` — a tomb effigy, still unresolved.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields

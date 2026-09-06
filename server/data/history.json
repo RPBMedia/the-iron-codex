@@ -100399,7 +100399,7 @@
       "region": "England and Western Europe",
       "material": "Iron or steel hooked blade on a wooden shaft",
       "battlefieldRole": "Infantry polearm for cutting, hooking, and formation fighting",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20MET%2014.25.140%20001dec2014.jpg",
+      "image": "/bill-billhook-ai.png",
       "summary": "The bill was a hooked polearm especially associated with English infantry, adapted from cutting tools into battlefield equipment.",
       "details": "Billmen fought in infantry formations alongside archers and other troops. The hook made the weapon useful in rough close combat where a simple thrusting spear was less flexible.",
       "contentSections": [
@@ -100442,12 +100442,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "An English bill, the hooked infantry polearm, in the Metropolitan Museum of Art.",
-        "creator": "European polearm smith",
-        "date": "15th-16th century (object)",
-        "source": "Metropolitan Museum of Art / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill%20MET%2014.25.140%20001dec2014.jpg",
-        "note": "Surviving museum object showing the full blade, hook, and spike of the military bill on its head."
+        "caption": "AI-generated illustration of an English bill of the 15th century, shown complete: the curved concave blade descended from the agricultural billhook, a forward spike above it and a rear spike behind, socketed onto an ash haft with iron langets riveted down the shaft.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced. The bill was a converted farm tool, and the hook is the point of it: it could cut, thrust, and pull a rider from the saddle. The langets running down the haft are functional, protecting the shaft from being cut through. It follows the general English type rather than one identified original."
       },
       "knownFor": [
         "A polearm evolved from the farmer’s billhook, with a hooked cutting blade.",
@@ -100540,7 +100541,20 @@
             "value": "Versatile infantry polearm"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20MET%2014.25.140%20001dec2014.jpg",
+          "alt": "An English bill, the hooked infantry polearm, in the Metropolitan Museum of Art.",
+          "caption": "An English bill, the hooked infantry polearm, in the Metropolitan Museum of Art.",
+          "creator": "European polearm smith",
+          "date": "15th-16th century (object)",
+          "source": "Metropolitan Museum of Art / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill%20MET%2014.25.140%20001dec2014.jpg",
+          "note": "The head of a surviving bill in the Metropolitan Museum of Art. The hook, forward spike and rear spike read far more clearly here than at full length — which is why the photograph is kept."
+        }
+      ]
     },
     {
       "id": "brigandine",
@@ -100873,7 +100887,7 @@
       "region": "Europe",
       "material": "Metal plates riveted inside textile or leather cover",
       "battlefieldRole": "Torso reinforcement over mail or padding",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
+      "image": "/coat-of-plates-ai.png",
       "summary": "The coat of plates used larger internal plates to reinforce the torso before fully shaped breastplates became common.",
       "details": "The coat of plates strengthened the chest and abdomen against thrusts and impact while preserving some flexibility. It was often worn over mail and padding.",
       "contentSections": [
@@ -100916,12 +100930,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "Inside view of a coat of plates / early brigandine (Italian, c. 1470), showing the iron plates riveted to the fabric, Royal Armouries, Leeds.",
-        "creator": "Italian armourer",
-        "date": "c. 1470 (object)",
-        "source": "Royal Armouries, Leeds / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
-        "note": "Surviving torso defence shown opened to reveal the full arrangement of riveted plates that define the coat of plates."
+        "caption": "AI-generated illustration of a 14th-century coat of plates, shown as it would sit on the body: iron plates riveted inside a linen cover, their rivet heads showing in rows across the outer face, fastened with leather straps and buckles at the shoulders and sides.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of a complete example could be sourced — what survives, above all from the Wisby grave pits of 1361, is corroded plates whose textile covering has rotted away entirely, so no surviving example can show the garment as it was worn. The hidden plates are the defining feature and separate it from a brigandine, where the plates are smaller and more numerous, and from lamellar, where they are laced on the outside. It follows the Wisby type rather than one identified find."
       },
       "knownFor": [
         "Coat of Plates shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -101006,7 +101021,20 @@
             "value": "Well known from the Wisby (Visby) battle finds"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and surviving pieces",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
+          "alt": "Inside view of a coat of plates / early brigandine (Italian, c. 1470), showing the iron plates riveted to the fabric, Royal Armouries, Leeds.",
+          "caption": "Inside view of a coat of plates / early brigandine (Italian, c. 1470), showing the iron plates riveted to the fabric, Royal Armouries, Leeds.",
+          "creator": "Italian armourer",
+          "date": "c. 1470 (object)",
+          "source": "Royal Armouries, Leeds / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
+          "note": "The interior of a surviving coat of plates, showing the iron plates riveted to their fabric backing — the construction the outer cover concealed, and effectively all that survives of these garments."
+        }
+      ]
     },
     {
       "id": "crossbow",
@@ -102171,7 +102199,7 @@
       "region": "Swiss and German-speaking Europe",
       "material": "Steel axe-spike-hook head on long wooden shaft",
       "battlefieldRole": "Infantry polearm for cutting, thrusting, and hooking",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
+      "image": "/halberd-ai.png",
       "summary": "The halberd was a late medieval polearm combining an axe blade, thrusting spike, and hook-like rear projection.",
       "details": "Infantry used halberds in dense formations and close engagements, especially in regions where foot soldiers challenged mounted elites. The weapon’s reach and versatility suited disciplined urban and Swiss infantry.",
       "contentSections": [
@@ -102214,12 +102242,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "A halberd combining axe blade, top spike, and rear hook on a long haft, Auckland War Memorial Museum.",
-        "source": "Auckland War Memorial Museum / Wikimedia Commons",
-        "creator": "European polearm smith",
-        "date": "Late medieval form",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
-        "note": "Surviving polearm showing the three-function head; the form was perfected by Swiss and German infantry."
+        "caption": "AI-generated illustration of a Swiss or south German halberd of the 15th century, shown complete: an axe blade with a concave edge, a pointed rear fluke, and a long spike rising above both, forged as one head and riveted to an ash haft by iron langets.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced; Wulflund, one of the few makers producing them, states plainly that halberds are \"delivered without wooden pole for cheaper and easier shipping\". The three elements do three jobs — spike to thrust, blade to cut, fluke to hook a rider down. It follows the plain fighting type, not the pierced and etched ceremonial halberds of the 16th and 17th centuries."
       },
       "knownFor": [
         "A polearm combining an axe blade, a top spike, and a rear hook or beak on one head.",
@@ -102314,7 +102343,20 @@
             "value": "Versatile infantry polearm"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
+          "alt": "A halberd combining axe blade, top spike, and rear hook on a long haft, Auckland War Memorial Museum.",
+          "caption": "A halberd combining axe blade, top spike, and rear hook on a long haft, Auckland War Memorial Museum.",
+          "creator": "European polearm smith",
+          "date": "Late medieval form",
+          "source": "Auckland War Memorial Museum / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
+          "note": "A surviving halberd head in the Auckland War Memorial Museum, showing how the axe blade, spike and rear hook are forged together as a single unit."
+        }
+      ]
     },
     {
       "id": "hauberk",
@@ -102803,7 +102845,7 @@
       "region": "Europe",
       "material": "Light wooden shaft with iron head",
       "battlefieldRole": "Thrown missile weapon for skirmishing and opening attacks",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Reenactor%20with%20ango.jpg",
+      "image": "/javelin-throwing-spear-ai.png",
       "summary": "Javelins and throwing spears gave medieval fighters a short-range missile option before close combat.",
       "details": "Skirmishers, mounted raiders, and infantry could throw spears to disorder opponents, wound horses, or create openings before a melee. In some regions, thrown spears remained part of aristocratic and retinue warfare.",
       "contentSections": [
@@ -102846,12 +102888,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "A reconstructed angon, the barbed Frankish throwing spear, shown in full by a reenactor.",
-        "creator": "Modern reconstruction (reenactment)",
-        "date": "reconstruction of early medieval form",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reenactor%20with%20ango.jpg",
-        "note": "Modern reconstruction shown to display the full shaft and long barbed head of the angon throwing spear."
+        "caption": "AI-generated illustration of an early medieval throwing spear of the angon type, about 500–900, shown complete: a small barbed head on a long thin iron shank, socketed onto a slender wooden shaft, altogether lighter than a thrusting spear.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced. The long iron shank is the diagnostic feature — it let the head bury itself and made the weapon hard to pull free from a shield, weighing it down. Distinct from the Roman pilum, which used a heavier head on a thicker body. It follows the Frankish type described by Agathias rather than one identified find."
       },
       "knownFor": [
         "A light spear made to be thrown before closing to hand-to-hand range.",
@@ -102946,7 +102989,20 @@
             "value": "Light throwing weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Reenactor%20with%20ango.jpg",
+          "alt": "A reconstructed angon, the barbed Frankish throwing spear, shown in full by a reenactor.",
+          "caption": "A reconstructed angon, the barbed Frankish throwing spear, shown in full by a reenactor.",
+          "creator": "Modern reconstruction (reenactment)",
+          "date": "reconstruction of early medieval form",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reenactor%20with%20ango.jpg",
+          "note": "Reconstructed throwing spears carried at a living-history event, showing their length and lightness relative to a fighting spear."
+        }
+      ]
     },
     {
       "id": "joyeuse",
@@ -103401,7 +103457,7 @@
       "region": "Western Europe",
       "material": "Wooden shaft with iron or steel head",
       "battlefieldRole": "Cavalry shock weapon",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lance%20MET%20DP212894.jpg",
+      "image": "/lance-ai.png",
       "summary": "The lance was the primary shock weapon of medieval heavy cavalry, used from horseback to deliver reach, momentum, and formation pressure.",
       "details": "A couched lance charge could break exposed infantry or enemy cavalry under the right conditions, but its success depended on discipline, terrain, horse quality, and support from other troops. Knights also used lances overarm or underarm in earlier depictions.",
       "contentSections": [
@@ -103444,12 +103500,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "A cavalry lance with its full wooden shaft and steel head, Metropolitan Museum of Art.",
-        "creator": "European armourer",
-        "date": "late medieval / early modern (object)",
-        "source": "Metropolitan Museum of Art / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lance%20MET%20DP212894.jpg",
-        "note": "Shown in full length to convey the reach of the couched cavalry lance, not as a manuscript scene."
+        "caption": "AI-generated illustration of a medieval European cavalry lance of about 1300–1450, shown complete: a long ash shaft thickest at the grip and tapering towards both ends, a small lozenge-section head, and a conical steel vamplate shielding the hand.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced. The proportions carry the argument: almost all the weapon is shaft, and the small head concentrates the momentum of horse and rider into a single point. The vamplate sits forward of the grip to protect the hand on impact. It follows the general war-lance form rather than a tournament lance, which used blunt crown-shaped coronels instead."
       },
       "knownFor": [
         "The shock weapon of the mounted knight, couched tight under the arm for the charge.",
@@ -103551,7 +103608,20 @@
             "value": "Mounted shock weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lance%20MET%20DP212894.jpg",
+          "alt": "A cavalry lance with its full wooden shaft and steel head, Metropolitan Museum of Art.",
+          "caption": "A cavalry lance with its full wooden shaft and steel head, Metropolitan Museum of Art.",
+          "creator": "European armourer",
+          "date": "late medieval / early modern (object)",
+          "source": "Metropolitan Museum of Art / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lance%20MET%20DP212894.jpg",
+          "note": "A surviving lance in the Metropolitan Museum of Art, photographed as a section rather than at full length — a reminder of how unwieldy the complete object is to display or photograph."
+        }
+      ]
     },
     {
       "id": "longbow",
@@ -105049,7 +105119,7 @@
       "region": "Western Europe",
       "material": "Steel hammer, axe, spike, and langets on wooden shaft",
       "battlefieldRole": "Armored foot combat weapon for knights and men-at-arms",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pollaxe%20MET%2014.25.302%20001jan2015.jpg",
+      "image": "/poleaxe-ai.png",
       "summary": "The poleaxe was a specialized late medieval weapon for armored foot combat, combining reach, impact, hooks, and thrusting points.",
       "details": "Knights and men-at-arms used poleaxes in duels, tournaments, and battlefield fighting on foot. Techniques included thrusting, hooking, hammering, shaft strikes, and grappling transitions.",
       "contentSections": [
@@ -105092,12 +105162,13 @@
         }
       ],
       "imageInfo": {
-        "source": "Metropolitan Museum of Art / Wikimedia Commons",
-        "creator": "European armourer",
-        "date": "15th century (object)",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollaxe%20MET%2014.25.302%20001jan2015.jpg",
-        "caption": "A poleaxe seen from the side, showing the crescent axe blade, top spike, and rear hammer in profile, Metropolitan Museum of Art.",
-        "note": "Side view so the shape of the axe blade and the hammer/spike head are clearly readable; the langets running down the haft protected it from being cut."
+        "caption": "AI-generated illustration of a knightly poleaxe of about 1400–1480, shown complete: a crescent axe blade opposed by a squared hammer face, a long spike above, iron langets down the haft, and a rondel disc guarding the hands.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced. The combination is deliberate — the hammer for concussion against plate, the spike for thrusting into gaps, the axe for lighter targets — and the rondel protected the hands in the close fighting the weapon was built for. It follows the general 15th-century type rather than one identified original."
       },
       "knownFor": [
         "The dismounted knight’s weapon of choice against plate armour.",
@@ -105190,7 +105261,20 @@
             "value": "Knightly anti-plate weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pollaxe%20MET%2014.25.302%20001jan2015.jpg",
+          "alt": "A poleaxe seen from the side, showing the crescent axe blade, top spike, and rear hammer in profile, Metropolitan Museum of Art.",
+          "caption": "A poleaxe seen from the side, showing the crescent axe blade, top spike, and rear hammer in profile, Metropolitan Museum of Art.",
+          "creator": "European armourer",
+          "date": "15th century (object)",
+          "source": "Metropolitan Museum of Art / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pollaxe%20MET%2014.25.302%20001jan2015.jpg",
+          "note": "A surviving poleaxe head in the Metropolitan Museum of Art, seen from the side so the axe blade, top spike and rear hammer read in profile."
+        }
+      ]
     },
     {
       "id": "sallet",
@@ -105664,7 +105748,7 @@
       "region": "Europe",
       "material": "Wooden shaft with iron or steel head",
       "battlefieldRole": "Common infantry and cavalry weapon",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wing%20Spear%20(Fluegellanze)%20MET%2014.25.12%20001nov2014.jpg",
+      "image": "/spear-ai.png",
       "summary": "The spear was one of the most common weapons of medieval Europe because it was cheaper than a sword, useful in formation, and adaptable to infantry or cavalry.",
       "details": "Infantry used spears to hold ground, resist cavalry, or fight in local levies. Mounted warriors also used spears and lighter lances before specialized cavalry equipment became dominant.",
       "contentSections": [
@@ -105707,12 +105791,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "A winged spear (Fluegellanze), a European medieval spear with lugs at the base of the blade, Metropolitan Museum of Art.",
-        "creator": "European smith",
-        "date": "15th-16th century (object)",
-        "source": "Metropolitan Museum of Art / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wing%20Spear%20(Fluegellanze)%20MET%2014.25.12%20001nov2014.jpg",
-        "note": "Clean museum spear with its head, lugs, and socket on the start of the haft; the wings stopped the blade over-penetrating."
+        "caption": "AI-generated illustration of a European winged spear (Flügellanze) of about 1000–1200, shown complete: a leaf-shaped double-edged blade on a socket, two short lugs projecting where blade meets socket, and a plain ash shaft ending in an iron ferrule.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced — museums and makers alike photograph spearheads rather than mounted spears, since a two-metre shaft fits neither a studio frame nor a shipping parcel. The lugs are the diagnostic feature: they stopped the blade driving too deep and could catch an opponent's weapon or shield. It follows the general Carolingian-to-high-medieval type rather than reproducing one identified original."
       },
       "knownFor": [
         "The most common weapon of the Middle Ages — cheap, easy to make, and easy to learn.",
@@ -105812,7 +105897,20 @@
             "value": "The primary infantry weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Wing%20Spear%20(Fluegellanze)%20MET%2014.25.12%20001nov2014.jpg",
+          "alt": "A winged spear (Fluegellanze), a European medieval spear with lugs at the base of the blade, Metropolitan Museum of Art.",
+          "caption": "A winged spear (Fluegellanze), a European medieval spear with lugs at the base of the blade, Metropolitan Museum of Art.",
+          "creator": "European smith",
+          "date": "15th-16th century (object)",
+          "source": "Metropolitan Museum of Art / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wing%20Spear%20(Fluegellanze)%20MET%2014.25.12%20001nov2014.jpg",
+          "note": "A surviving winged spearhead in the Metropolitan Museum of Art, photographed alone as such finds almost always are — the iron head survives burial, the wooden shaft does not."
+        }
+      ]
     },
     {
       "id": "surcoat",
@@ -106408,7 +106506,7 @@
       "region": "Europe",
       "material": "Wooden bow with strong draw weight",
       "battlefieldRole": "High-powered military bow",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bow%20and%20Arrows%2C%20Mary%20Rose%20-%2055130505608.jpg",
+      "image": "/war-bow-ai.png",
       "summary": "War bow is a practical umbrella term for powerful bows used in medieval warfare, including but not limited to the English longbow.",
       "details": "War bows could disrupt formations, wound horses, and force adversaries to advance under sustained missile pressure. Their effectiveness depended on trained manpower, massive arrow supply, tactical integration with dismounted men-at-arms, and favorable terrain.",
       "contentSections": [
@@ -106455,12 +106553,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "A war bow and arrows recovered from the Tudor warship Mary Rose (sank 1545), shown complete.",
-        "creator": "English bowyer",
-        "date": "early 16th century (object)",
-        "source": "The Mary Rose Trust / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bow%20and%20Arrows%2C%20Mary%20Rose%20-%2055130505608.jpg",
-        "note": "Surviving heavy war bows from the Mary Rose; the full self-wood stave and arrows are shown together."
+        "caption": "AI-generated illustration of an English war bow of the 15th century, shown complete and strung: a single tapered yew stave with pale sapwood along the back and darker heartwood on the belly, horn nocks at both tips, and no handle — the archer gripped the bare middle of the stave.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced — the surviving war bows are the Mary Rose staves, which are displayed massed in a case rather than individually. The two-tone wood is not decoration but construction: yew sapwood resists tension on the back of the bow while the heartwood resists compression on the belly, so the stave is cut to place each where it works. It follows the Mary Rose proportions rather than reproducing an individual bow."
       },
       "knownFor": [
         "The heavy military bow, distinct from the lighter bows used for hunting.",
@@ -106560,7 +106659,20 @@
             "value": "Heavy military missile weapon"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and examples",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bow%20and%20Arrows%2C%20Mary%20Rose%20-%2055130505608.jpg",
+          "alt": "A war bow and arrows recovered from the Tudor warship Mary Rose (sank 1545), shown complete.",
+          "caption": "A war bow and arrows recovered from the Tudor warship Mary Rose (sank 1545), shown complete.",
+          "creator": "English bowyer",
+          "date": "early 16th century (object)",
+          "source": "The Mary Rose Trust / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bow%20and%20Arrows%2C%20Mary%20Rose%20-%2055130505608.jpg",
+          "note": "War bows recovered from the Mary Rose, which sank in 1545 — by far the largest surviving group of English war bows, and the evidence behind almost everything known about their dimensions and draw weights."
+        }
+      ]
     },
     {
       "id": "war-hammer",
