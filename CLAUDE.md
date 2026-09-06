@@ -107,6 +107,50 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
+## Weapons & Armor: Full-Artifact Principal Image Rule (MANDATORY)
+
+Every article under Weapons & Armor must have a **principal image in which the
+entire subject artifact is visible within the frame**. For a weapon this means the
+complete weapon from one physical extremity to the other. For armor, shields and
+helmets the complete object must be visible without materially cropped edges.
+
+A photograph showing only a blade, head, hilt, haft section, shield boss, helmet
+detail or fragment **does not satisfy this rule** — unless the article is itself
+specifically about that component or fragment, in which case the complete
+component is the artifact.
+
+Requirements:
+
+- **The artifact must be complete in the source image.** CSS cannot recover pixels
+  that were never photographed. A full-object image is the only fix for a cropped
+  source.
+- **The rendered component must preserve the whole object.** Never clip the
+  principal image with `object-fit: cover`, fixed heights, fixed aspect-ratio
+  boxes, `overflow: hidden` or responsive cropping. Use `object-fit: contain` (or
+  the project's equivalent) on Weapons & Armor detail mains.
+- Desktop **and** mobile must both show the complete object; never make a reader
+  scroll inside an image frame to see the rest of the artifact.
+- Reasonable surrounding negative space is fine; the object must still be large
+  enough to identify. Do not stretch or distort to fill a container.
+- Captions must describe **what the image actually shows**. A caption may never
+  claim the whole object is visible when it is not — a false caption is a harder
+  failure than a bad image, because it defeats review.
+- Full image metadata is required: caption, creator, date, source, source URL,
+  licence, and honest alt text.
+- Prefer a historical original when it survives complete and its silhouette reads
+  clearly. A **clearly labelled** modern reproduction or scholarly reconstruction
+  is acceptable when it communicates the complete form better, and is required to
+  be labelled as such — a replica must never be attributed to a medieval maker or
+  implied to be an original.
+- No decorative fantasy art as documentary evidence. No placeholders.
+- Detail shots (inscriptions, bosses, hilts, construction) remain welcome as
+  **secondary** images but can never serve as the principal image.
+
+For a complete harness the principal image should show the full assembled harness
+or a full-body mannequin view. An archaeological fragment may serve as principal
+only where no responsible alternative exists, and that exception must be recorded
+in the audit rather than silently accepted.
+
 ## Kingdom and Polity Article Standards
 
 Kingdom/polity articles (locations typed Kingdom, Empire, Duchy, County, Caliphate, Sultanate, Principality, Polity, Grand duchy, League, Military order, Imperial realm) must be detailed **anchor articles**, not stubs. Enforced by `npm run check:content-quality` (`validatePolityStandards`): hard-fails on too few sections (6 for Kingdom/Empire/Caliphate, 4 for others), any section under 200 characters, a missing Major-rulers-style section (except collective polities allowlisted in `POLITY_NO_RULERS_OK`), and a timeline under 8 entries (5 for smaller polities) or with missing descriptions.
