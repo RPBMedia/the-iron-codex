@@ -102484,7 +102484,7 @@
       "region": "Western Europe",
       "material": "Wood, leather, gesso, textile, and paint",
       "battlefieldRole": "Compact shield for mounted and foot combat; heraldic display",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Schild%20konradvonth%C3%BCringen%20marburg.JPG",
+      "image": "/heater-shield-wulflund.jpg",
       "summary": "The heater shield was a compact high medieval shield shape closely tied to heraldry and knightly identity.",
       "details": "The heater shield protected less of the body than a kite shield but was easier to carry with improving armor. It worked well for mounted combat, tournaments, and display.",
       "contentSections": [
@@ -102527,12 +102527,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "The shield of Konrad von Thuringen (d. 1240), one of the oldest surviving heater shields, Elisabethkirche, Marburg.",
-        "creator": "German shield-maker",
-        "date": "c. 1230-1240 (object)",
-        "source": "Elisabethkirche, Marburg / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schild%20konradvonth%C3%BCringen%20marburg.JPG",
-        "note": "A genuine surviving heater shield; the flat-topped triangular form is shown complete rather than as a manuscript drawing."
+        "caption": "Modern reproduction of a heater shield of about 1250–1350, shown complete: the flat top and curved sides tapering to a point, a canvas-faced plywood body, and a rawhide binding stitched around the whole rim.",
+        "creator": "Wulflund (Czech workshop) — maker and product photograph",
+        "date": "modern reproduction of a c. 1250–1350 form",
+        "source": "Wulflund, reproduced with credit",
+        "sourceUrl": "https://www.wulflund.com/medieval-heater-shield-1250-1350-living-history",
+        "note": "A reproduction, 60 × 60 cm, built as medieval shields were: a plywood core faced with canvas and edged with rawhide, which both protected the rim and held the layers together. It is left unpainted, so the construction reads clearly — but shields of this type were normally painted with their bearer's arms, and the plain face should not be taken as the usual appearance. Photograph used with maker credit and a link."
       },
       "knownFor": [
         "Heater Shield shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -102622,7 +102622,20 @@
             "value": "A prime surface for heraldry"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and surviving pieces",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schild%20konradvonth%C3%BCringen%20marburg.JPG",
+          "alt": "The shield of Konrad von Thuringen (d. 1240), one of the oldest surviving heater shields, Elisabethkirche, Marburg.",
+          "caption": "The shield of Konrad von Thuringen (d. 1240), one of the oldest surviving heater shields, Elisabethkirche, Marburg.",
+          "creator": "German shield-maker",
+          "date": "c. 1230-1240 (object)",
+          "source": "Elisabethkirche, Marburg / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schild%20konradvonth%C3%BCringen%20marburg.JPG",
+          "note": "The shield of Konrad von Thüringen (d. 1240), one of the oldest surviving heater shields, in the Elisabethkirche at Marburg. Centuries of degradation have left the painted lion barely legible, which is why it sits here rather than at the top of the article — but as a survival it is far rarer than any reproduction."
+        }
+      ]
     },
     {
       "id": "hounskull-bascinet",
@@ -103211,7 +103224,7 @@
       "region": "Western Europe",
       "material": "Wood with leather or textile facing",
       "battlefieldRole": "Large shield for mounted and infantry fighters",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ShieldsLHist.JPG",
+      "image": "/kite-shield-wulflund.jpg",
       "summary": "The kite shield was a long, tapering shield strongly associated with eleventh- and twelfth-century cavalry and infantry.",
       "details": "The shield gave broad coverage before full leg armor became common. It could be used in mounted charges, infantry shield walls, and close fighting.",
       "contentSections": [
@@ -103254,12 +103267,12 @@
         }
       ],
       "imageInfo": {
-        "caption": "Modern reconstructions of medieval kite shields (with a round shield at left), showing the full elongated almond shape.",
-        "creator": "Modern reconstruction (reenactment)",
-        "date": "reconstruction of 11th-12th century forms",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShieldsLHist.JPG",
-        "note": "Reenactment reconstructions shown to display the full kite shield shape; these are clearly modern replicas, not originals."
+        "caption": "Modern reproduction of an early-medieval kite shield, shown flat and complete: the rounded top and long tapering body that protected a horseman's left side from shoulder to knee.",
+        "creator": "Wulflund (Czech workshop) — maker and product photograph",
+        "date": "modern reproduction of an 11th–12th century form",
+        "source": "Wulflund, reproduced with credit",
+        "sourceUrl": "https://www.wulflund.com/almond-shield-early-middle-ages-wooden-base",
+        "note": "A reproduction of the almond or kite form, 125 cm tall, made from bent plywood — the curve across the body is the point, since it wrapped around the rider rather than sitting flat. Shown as an unpainted blank; kite shields in the Bayeux Tapestry and elsewhere carry painted devices, so the plain face is a maker's starting point, not the finished appearance. Photograph used with maker credit and a link."
       },
       "knownFor": [
         "Kite Shield shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -103361,7 +103374,20 @@
             "value": "The rare 13th-c. Seedorf shield"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Regional variations and surviving pieces",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/ShieldsLHist.JPG",
+          "alt": "Modern reconstructions of medieval kite shields (with a round shield at left), showing the full elongated almond shape.",
+          "caption": "Modern reconstructions of medieval kite shields (with a round shield at left), showing the full elongated almond shape.",
+          "creator": "Modern reconstruction (reenactment)",
+          "date": "reconstruction of 11th-12th century forms",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ShieldsLHist.JPG",
+          "note": "Painted reproductions in use at a living-history event, showing the range of devices these shields carried and how they look in the hand rather than laid flat."
+        }
+      ]
     },
     {
       "id": "lance",

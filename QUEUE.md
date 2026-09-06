@@ -71,7 +71,31 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       measured and **visually inspected**. Under the completeness rule alone 9
       failed; once condition, format and reconstruction quality count, **~20 fail
       and ~9 more need review**. See the breakdown below.
-- [ ] **M3 — Image replacements** ← IN PROGRESS (9 of ~20 done; batches 1–6).
+- [ ] **M3 — Image replacements** ← IN PROGRESS (11 of ~20; batches 1–7).
+      Batch 7: `heater-shield` (Konrad von Thüringen shield too degraded for a
+      generic type — demoted to secondary) and `kite-shield` (was a reenactment
+      snapshot with a dog in frame). Both now Wulflund reproductions: plywood
+      core, canvas face, rawhide-bound rim, clean and unwatermarked. Both are
+      unpainted blanks, which shows construction well; captions state that both
+      types normally carried painted heraldry.
+
+      **AI ILLUSTRATION LIST (final) — 8 subjects.** All sources exhausted:
+      Commons (categories, intitle, full-text), en-wiki article images, Openverse
+      (Flickr + Wikimedia + museums), Met, Cleveland CC0, and the maker/retailer
+      sites Wulflund, Museum Replicas, Cold Steel and Kult of Athena.
+      `spear`, `bill`, `poleaxe`, `halberd`, `lance` — makers ship heads without
+      shafts; assembled European examples are blackened and watermarked.
+      `war-bow` — only the Mary Rose display case.
+      `javelin-throwing-spear` — same shaft problem.
+      `coat-of-plates` — only fragmentary finds; the one reconstruction is HMB
+      sport kit.
+
+      **Open question for the owner:** `gambeson` currently uses the approved AI
+      illustration, decided when retailers were not yet permitted. Wulflund does
+      sell photographed gambesons (e.g. "Quilted doublet, medieval gambeson"), so
+      a real photograph is now obtainable. CLAUDE.md says AI images are placeholders
+      to be replaced when a real photograph is found — but the owner approved this
+      one specifically. Not swapped unilaterally; owner to decide.
       Batch 6: `buckler` — the FORMAT FAIL the brief named. Wulflund reproduction
       photographed front and rear (plywood, textile face, rawhide rim, riveted
       steel boss, 30 cm); MS I.33 moved to the battlefield-role section, where it
