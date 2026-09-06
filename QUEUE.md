@@ -85,6 +85,13 @@ of the coverage-gap list — do not create proposed new subjects without it.**
         great helm. Never trust a Commons filename.
       - `rondel-dagger`: Higgins Armory example is complete but framed with two
         large wall labels dominating the shot — still looking.
+      - **Owner review of batch 1 (2026-09-06):** `nasal-helmet` approved.
+        `sutton-hoo-helmet` reverted — the replica reads better than the
+        fragmentary original, so the replica leads and the original is the
+        secondary image (CLAUDE.md's named-artifact clause amended to match).
+        `great-helm` replaced again: the Kornburg helm was a pure side view, so
+        the principal is now a three-quarter view showing front and side, with
+        Kornburg kept as a secondary for its surviving gilding.
 - [ ] M4 — Shared rendering/responsive fix (`object-fit: contain` on W&A mains)
 - [ ] M5 — Editorial audit: **38 of 42 articles are built from just two rigid
       section templates**; only Longsword has the rich fields
@@ -180,6 +187,42 @@ imagery, which is explicitly disallowed. Expect several subjects — buckler,
 gambeson, kite shield, coat of plates especially — where no compliant image
 exists on Commons. Per the brief these must be **recorded as unresolved, never
 quietly accepted**.
+
+### TRACK C — SEO, analytics and private admin dashboard
+
+Brief received 2026-09-06. **Priority: BELOW Tracks A and B** (owner instruction:
+Weapons & Armor and the Byzantine expansion stay top priority). Not started.
+
+15 milestones: SEO audit → technical SEO (sitemap, robots, canonicals, metadata
+templates, JSON-LD, breadcrumbs, social) → internal linking and curated landing
+pages → performance/crawlability → Search Console + Bing prep → analytics
+provider evaluation → privacy-safe event model → private "Insights & Analytics"
+page → **server-side** admin authorization → conditional header control between
+menu and search → paid-marketing proposal → organic promotion plan → tests →
+validation/QA → **M15 approval gate**.
+
+Hard constraints to carry into the work:
+
+- **No spend, no campaign activation, no billing change** without explicit
+  approval. M15 is a full stop.
+- **Not AdSense.** AdSense is publisher monetisation — it sells ad space *on* the
+  site, it does not buy traffic *for* it. Acquisition channels are Google Ads,
+  Microsoft Advertising, Reddit, etc. No third-party ads on the Codex unless
+  monetisation is separately requested.
+- **Admin authorization must be server-side.** Sole admin is the verified account
+  for rui.palma.baiao@gmail.com. A hidden header button is a usability choice, not
+  a security boundary. Never ship that address in a public client bundle.
+- **Analytics starts empty.** No implying historical traffic exists; the dashboard
+  needs a real empty state, and no fake production numbers.
+- Architecture to establish first: this is a **Vite SPA + Express API**, not
+  Next.js — so "server-rendered metadata", sitemap generation and noindex all need
+  solutions appropriate to that stack. Do not assume framework features that
+  aren't there.
+
+_Note: a few lines of the pasted brief arrived garbled ("Meta descriptionlade",
+"Server-rendered content availabilityFox", "Internal links/antlr", and a stray
+sentence inside the Canonical URL bullet). Intent is clear from context; confirm
+with the owner if any of those bullets mattered specifically._
 
 ---
 

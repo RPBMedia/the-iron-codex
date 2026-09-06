@@ -775,8 +775,13 @@ preferred over a living-history photograph.
 
 **Unique named-artifact articles** (Sutton Hoo Helmet, Joyeuse, Ulfberht Swords,
 Gjermundbu Helmet, …) are the exception: the historical object *is* the subject,
-so its present museum condition — worn, corroded, reassembled — is the correct
-principal image, and **must not be replaced by a modern replica**. The caption
+so its present museum condition — worn, corroded, reassembled — is normally the
+correct principal image. **Exception (owner decision, 2026-09-06):** where the
+surviving object is so fragmentary that its form cannot be read, a clearly
+labelled replica may lead *provided the original appears as a secondary image in
+the same article*, so the reader always sees what actually survives. Sutton Hoo
+is the worked example: the British Museum replica leads, the reassembled original
+follows under Description. A replica may never be attributed to a medieval maker. The caption
 must state what is original, what is restored or reconstructed, present
 condition, collection, dating, and any serious dispute over attribution or
 assembly. A responsible reconstruction may appear as a *secondary* image. For a
