@@ -592,6 +592,15 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **Other stub articles probably exist.** Constantinople was rewritten 2026-09-07
+  after the owner noticed it had 3 sections and ~1,380 characters — thinner than
+  every siege article written about it. It is unlikely to be the only one: the
+  archive has grown by ~90 articles in a day, all written to the current standard,
+  against a base written to an older one. **Worth an audit**: list every article
+  under ~2,000 characters of prose or with no timeline, ranked by how often it is
+  linked from elsewhere. The most-linked stubs are the ones that damage the reader
+  most, exactly as Constantinople did.
+
 - **The 81 unlinked succession endpoints are now Track A M8b**, above — a proper
   milestone rather than a loose note, at the owner's instruction (2026-09-07).
 

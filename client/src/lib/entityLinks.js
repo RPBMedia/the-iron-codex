@@ -482,7 +482,7 @@ export const entityLinks = [
   { label: "Carolingian Empire", type: "location", slug: "carolingian-empire" },
   { label: "Chalus", type: "location", slug: "chalus" },
   { label: "Chateau de Vincennes", type: "location", slug: "chateau-de-vincennes" },
-  { label: "Constantinople", aliases: ["Byzantium"], type: "location", slug: "constantinople" },
+  { label: "Constantinople", aliases: ["Byzantium","New Rome","Konstantinoupolis","Tsargrad","The Queen of Cities","Istanbul"], type: "location", slug: "constantinople" },
   { label: "Copenhagen", type: "location", slug: "copenhagen" },
   { label: "County of Flanders", aliases: ["Flanders"], type: "location", slug: "county-of-flanders" },
   { label: "Covadonga", type: "location", slug: "covadonga" },

@@ -79,6 +79,9 @@ export default function SearchPage() {
                       >
                         <span>{entry.typeLabel}</span>
                         <strong>{entry.title}</strong>
+                        {entry.matchedAlias && (
+                          <em className="search-result-alias">also known as {entry.matchedAlias}</em>
+                        )}
                         {entry.dateLabel && <time>{entry.dateLabel}</time>}
                         {entry.description && <p>{entry.description}</p>}
                       </Link>

@@ -34,7 +34,7 @@ export function searchArchive(index, query, limit = 50) {
   return index
     .map((entry) => {
       const match = scoreEntry(entry, normalizedQuery, queryYear)
-      return { ...entry, matchKind: match.kind, score: match.score }
+      return { ...entry, matchKind: match.kind, score: match.score, matchedAlias: match.alias }
     })
     .filter((entry) => entry.score > 0)
     .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
@@ -59,6 +59,12 @@ export function shouldNavigateDirectly(results, query) {
 
 function scoreEntry(entry, query, queryYear) {
   const exactTitle = normalize(entry.title) === query
+  // Keep the alias that matched, not just whether one did: a result whose title
+  // is "Constantinople" for a search of "Byzantium" has to be able to say so, or
+  // it reads as the search having ignored the query.
+  const matchedAlias =
+    entry.aliases.find((alias) => normalize(alias) === query) ??
+    entry.aliases.find((alias) => normalize(alias).includes(query))
   const exactAlias = entry.aliases.some((alias) => normalize(alias) === query)
   const exactSlug = normalize(entry.slug) === query
   const titleIncludes = normalize(entry.title).includes(query)
@@ -70,12 +76,13 @@ function scoreEntry(entry, query, queryYear) {
   const timelineMatches = queryYear ? entry.timelineYears.includes(queryYear) : false
 
   if (exactTitle) {
-    entry.matchKind = 'exact'
+    // NB: do not assign to `entry` here. The index is cached for the session, so
+    // mutating an entry leaks state from one search into the next.
     return { kind: 'exact', score: 1000 + typePriority(entry, queryYear) }
   }
 
   if (exactAlias) {
-    return { kind: 'exact', score: 920 + typePriority(entry, queryYear) }
+    return { kind: 'exact', score: 920 + typePriority(entry, queryYear), alias: matchedAlias }
   }
 
   if (exactSlug) {
@@ -91,7 +98,11 @@ function scoreEntry(entry, query, queryYear) {
   }
 
   if (titleIncludes || aliasIncludes) {
-    return { kind: 'partial', score: 620 + typePriority(entry, queryYear) }
+    return {
+      kind: 'partial',
+      score: 620 + typePriority(entry, queryYear),
+      alias: titleIncludes ? undefined : matchedAlias
+    }
   }
 
   if (tagIncludes) {
@@ -214,6 +225,7 @@ function normalizeLocation(item) {
       item.summary,
       item.locationType,
       item.kingdom,
+      ...(item.aliases ?? []),
       ...(item.overview ?? []),
       ...(item.knownFor ?? [])
     ])

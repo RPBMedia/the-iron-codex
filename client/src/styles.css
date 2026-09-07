@@ -751,6 +751,15 @@ h2 {
   font-size: 1.25rem;
 }
 
+/* Says why a result matched when the query was an alias rather than the title —
+   a card headed "Constantinople" for a search of "Byzantium" otherwise reads as
+   the search having ignored the query. */
+.search-result-alias {
+  color: #6d717a;
+  font-size: 0.86rem;
+  font-style: italic;
+}
+
 .search-result-card time {
   color: #6d717a;
   font-size: 0.82rem;
