@@ -1057,6 +1057,42 @@ and a five-line note about stated dimensions and why the image was chosen.
 **Good:** "Modern reproduction of a Dane axe." then "Source: Wulflund, reproduced
 with credit."
 
+### Firearms and other transitional technology (2026-09-07)
+
+Gunpowder weapons sit on the edge of the Codex era and are the easiest subject in
+the archive to get wrong, because the mature version of each is famous and the
+transitional version is not. The Arquebus article is the reference implementation.
+
+- **Keep the forms distinct.** Hand cannon, early serpentine gun, transitional
+  arquebus, mature matchlock arquebus, and musket are five different things. Never
+  write as though they are one weapon under different names.
+- **Never project a mature mechanism backward.** A shaped shoulder stock, a side
+  priming pan and a sprung serpentine on a lock plate belong to the later fifteenth
+  century. Writing them into 1400 — or into the siege of 1453 — is the single
+  commonest error in popular accounts of early firearms.
+- **No false invention dates.** These weapons accumulate features over decades in
+  different places. Write "emerged gradually during the fifteenth century", and say
+  what a specific dated source actually shows (a serpentine in a manuscript of
+  about 1411 shows the idea existed, not that it was common).
+- **State the terminology problem rather than resolving it.** Arquebus, hackbut,
+  hakenbüchse, haquebut and arcabuz overlap and shift by region and decade, and
+  period inventories use one word for weapons decades apart in sophistication.
+  Where a term has a real technical meaning — hakenbüchse, the hook that takes
+  recoil into a parapet — explain it instead of treating it as a synonym.
+- **Images must match the article's period.** A flintlock, a wheel lock, a rear
+  sight, a trigger guard or a bayonet on an article about a fifteenth-century gun
+  is a hard fail. Check the *stock shape* too: a pronounced curved shoulder butt is
+  late-fifteenth-century at the earliest, and a caption must not describe such a
+  weapon as though it predates about 1450.
+- **Do not overstate battlefield effect.** Firearms did not sweep away bows and
+  crossbows, and did not make armour obsolete — armour was proofed and thickened
+  and stayed in use for roughly two more centuries. The real argument for firearms
+  is training cost, not performance, and it should be made in those terms.
+- **Keep it scannable.** These articles carry more comparison than narrative:
+  prefer specs blocks, comparison tables, a compact timeline and a myths list over
+  extended prose. `comparison` accepts an array where a subject needs more than one
+  table — the arquebus needs two, against the hand cannon and against the musket.
+
 ### Captions Must Be Honest and Specific
 
 Every caption states plainly what the user is looking at. Good: "Modern reconstruction of a Viking sword based on 10th-century finds." / "Surviving late-medieval brigandine, photographed in a museum collection." Bad: "Weapon detail." / "Image of armor." / "Scene from the Codex Manesse showing knights with lances" (as a main image for *lance*).

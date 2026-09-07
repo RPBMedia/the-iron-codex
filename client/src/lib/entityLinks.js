@@ -556,6 +556,7 @@ export const entityLinks = [
   { label: "Royal Frankish Annals", type: "artifact", slug: "royal-frankish-annals" },
   { label: "Shroud of Turin", type: "artifact", slug: "shroud-of-turin" },
   { label: "Arming Sword", aliases: ["Knightly sword","Single-handed sword"], type: "weaponArmor", slug: "arming-sword" },
+  { label: "Arquebus", aliases: ["harquebus","hackbut","hakenbüchse","haquebut","arcabuz"], type: "weaponArmor", slug: "arquebus" },
   { label: "Bascinet", aliases: ["Basinet"], type: "weaponArmor", slug: "bascinet" },
   { label: "Battle Axe", aliases: ["War axe"], type: "weaponArmor", slug: "battle-axe" },
   { label: "Bill / Billhook", aliases: ["Billhook","English bill"], type: "weaponArmor", slug: "bill-billhook" },

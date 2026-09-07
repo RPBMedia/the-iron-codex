@@ -381,19 +381,24 @@ function MythList({ items }) {
 }
 
 function WeaponArmorExtras({ article }) {
-  const cmp = article.comparison
+  // `comparison` accepts either a single table or an array of them. Most articles
+  // need one; the arquebus needs two, because the reader's question is genuinely
+  // twofold — how it differed from the hand cannon it grew out of, and from the
+  // musket it is constantly confused with.
+  const comparisons = [article.comparison].flat().filter((c) => c?.rows?.length)
   return (
     <>
       {article.combatModes && <CombatModes modes={article.combatModes} />}
       {article.oakeshottTypes && <OakeshottTypes data={article.oakeshottTypes} />}
       {article.timeline?.length ? <Timeline items={article.timeline} /> : null}
-      {cmp?.rows?.length ? (
+      {comparisons.map((cmp, index) => (
         <WeaponTable
+          key={cmp.title ?? index}
           title={cmp.title}
           columns={['', cmp.leftLabel, cmp.rightLabel]}
           rows={cmp.rows.map((r) => [r.feature, r.left, r.right])}
         />
-      ) : null}
+      ))}
       {article.survivingExamples && <SurvivingExamples items={article.survivingExamples} />}
       {article.myths && <MythList items={article.myths} />}
     </>
