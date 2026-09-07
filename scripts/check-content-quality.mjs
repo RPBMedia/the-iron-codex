@@ -927,7 +927,10 @@ const POLITY_TYPES = new Set([
   // Frontier and successor emirates. Added with the Emirate of Melitene (Track A
   // M6/M7); the Emirate of Crete follows in M8. Lighter tier deliberately: these
   // are small polities known mostly through the chronicles of their enemies.
-  'Emirate'
+  'Emirate',
+  // Byzantine successor states of the thirteenth century. Added with the
+  // Despotate of Epirus (Track A M12); the Despotate of the Morea would reuse it.
+  'Despotate'
 ])
 // Polities where a "Major rulers" section is structurally inapplicable
 // (collective/confederate entities with no ruler line of their own).

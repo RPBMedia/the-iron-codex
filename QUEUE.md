@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M11 and M8b shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M12 and M8b shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -314,8 +314,26 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       rejected by the continuity validator, correctly, since it is `Fall of City`
       rather than Battle or Siege. **Re-point it at the sack of 1204 when M13
       lands**, which is the event that actually undid what Manuel built.
-- [ ] M12 — Pelagonia 1259 + recovery of Constantinople 1261; Empire of Nicaea,
-      Latin Empire, Epirus, Achaea, Sicily; Michael VIII
+- [x] **M12 — Pelagonia 1259 and the recovery of Constantinople** (2026-09-07).
+      Eight articles: the battle, the recovery, **Michael VIII Palaiologos** — named
+      in the original Track A audit as the most conspicuous missing person — and the
+      five states that carved up the Byzantine world after 1204: the Empire of
+      Nicaea, the Latin Empire, the Despotate of Epirus, the Principality of Achaea
+      and the Kingdom of Sicily.
+      `locationType: "Despotate"` is new, added to `POLITY_TYPES` for Epirus; the
+      Despotate of the Morea would reuse it.
+      **The recovery of 1261 is typed `Fall of City`, not Battle or Siege**, because
+      that is what it was — eight hundred men walked in through a postern while the
+      Latin fleet was away, and there was no fighting. Typing it honestly also keeps
+      it clear of the strength validator, which would otherwise demand army sizes
+      for an operation that had none worth naming.
+      The polity validator caught three thin articles on the first run (Nicaea and
+      Sicily short a section, the Latin Empire short a timeline entry) and all three
+      were filled rather than trimmed — the Empire/Kingdom tier is 6 sections and 8
+      timeline entries and it was right to insist.
+      **Pelagonia's continuity points at Kosovo 1389. Re-point it at Bapheus 1302
+      when M13 lands** — the first Ottoman victory over a Byzantine army, and the
+      real sequel to everything Michael VIII rebuilt.
 - [ ] M13 — Contrast defeats: Yarmouk 636, Myriokephalon 1176, Sack of
       Constantinople 1204, Bapheus 1302
 - [ ] M14 — PRD/index integration, cross-links, final validation
