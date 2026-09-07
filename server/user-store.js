@@ -6,10 +6,15 @@
  * every write failed with EROFS and account creation was impossible in
  * production — by password signup and by Google sign-in alike.
  *
- * This module puts a small seam in front of storage. When SUPABASE_URL and
- * SUPABASE_SERVICE_ROLE_KEY are present it talks to Supabase over PostgREST;
- * otherwise it falls back to the original file store, so local development and
- * any non-serverless deployment keep working unchanged.
+ * This module puts a small seam in front of storage and picks a backend from the
+ * environment, in order:
+ *
+ *   1. Upstash Redis  — UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN
+ *   2. Supabase       — SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY
+ *   3. The JSON file  — local development only; cannot work on a read-only host
+ *
+ * Both remote backends are plain HTTP, so no driver dependency is added and both
+ * work from a serverless function without connection pooling.
  *
  * The four operations here replace a read-all/mutate/write-all pattern. That
  * pattern was tolerable against a single file and would be indefensible against a
@@ -33,6 +38,51 @@ export const usingSupabase = Boolean(SUPABASE_URL && SUPABASE_KEY)
 // another app's tables without colliding — set SUPABASE_USERS_TABLE to something
 // namespaced like `ironcodex_users` when sharing a project.
 const TABLE = process.env.SUPABASE_USERS_TABLE || 'users'
+
+const UPSTASH_URL = process.env.UPSTASH_REDIS_REST_URL?.replace(/\/+$/, '')
+const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN
+export const usingUpstash = Boolean(UPSTASH_URL && UPSTASH_TOKEN)
+
+/**
+ * Key layout:
+ *   user:<id>          -> the account, as JSON
+ *   user:email:<email> -> the id, so a login can find an account by address
+ *
+ * The email key is an index, not a copy: it holds only the id, so an account is
+ * never stored twice and the two can never disagree about anything but existence.
+ */
+const userKey = (id) => `user:${id}`
+const emailKey = (email) => `user:email:${email}`
+
+/** Run one or more Redis commands through the Upstash REST endpoint. */
+async function redis(commands) {
+  const pipeline = Array.isArray(commands[0])
+  const response = await fetch(`${UPSTASH_URL}${pipeline ? '/pipeline' : ''}`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${UPSTASH_TOKEN}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(commands)
+  })
+  if (!response.ok) {
+    const detail = await response.text().catch(() => '')
+    throw new Error(`Upstash command failed: ${response.status} ${detail.slice(0, 300)}`)
+  }
+  const body = await response.json()
+  if (pipeline) return body.map((entry) => entry.result)
+  if (body.error) throw new Error(`Upstash error: ${body.error}`)
+  return body.result
+}
+
+const parseUser = (raw) => {
+  if (!raw) return null
+  try {
+    return typeof raw === 'string' ? JSON.parse(raw) : raw
+  } catch {
+    return null
+  }
+}
 
 /** Row (snake_case, as stored) -> user object (camelCase, as the app expects). */
 function fromRow(row) {
@@ -117,6 +167,9 @@ async function writeFileUsers(users) {
 
 export async function findUserById(id) {
   if (!id) return null
+  if (usingUpstash) {
+    return parseUser(await redis(['GET', userKey(id)]))
+  }
   if (usingSupabase) {
     const rows = await supabase(`${TABLE}?id=eq.${encodeURIComponent(id)}&limit=1`)
     return fromRow(rows?.[0])
@@ -127,6 +180,10 @@ export async function findUserById(id) {
 
 export async function findUserByEmail(email) {
   if (!email) return null
+  if (usingUpstash) {
+    const id = await redis(['GET', emailKey(email)])
+    return id ? findUserById(id) : null
+  }
   if (usingSupabase) {
     const rows = await supabase(`${TABLE}?email=eq.${encodeURIComponent(email)}&limit=1`)
     return fromRow(rows?.[0])
@@ -136,6 +193,15 @@ export async function findUserByEmail(email) {
 }
 
 export async function createUser(user) {
+  if (usingUpstash) {
+    // Write the account and its email index together, so a crash between the two
+    // cannot leave an address pointing at nothing.
+    await redis([
+      ['SET', userKey(user.id), JSON.stringify(user)],
+      ['SET', emailKey(user.email), user.id]
+    ])
+    return user
+  }
   if (usingSupabase) {
     const rows = await supabase(TABLE, {
       method: 'POST',
@@ -152,6 +218,13 @@ export async function createUser(user) {
 
 /** Patch one account. Only the supplied fields are written. */
 export async function updateUser(id, patch) {
+  if (usingUpstash) {
+    const existing = await findUserById(id)
+    if (!existing) return null
+    const updated = { ...existing, ...patch }
+    await redis(['SET', userKey(id), JSON.stringify(updated)])
+    return updated
+  }
   if (usingSupabase) {
     const rows = await supabase(`${TABLE}?id=eq.${encodeURIComponent(id)}`, {
       method: 'PATCH',
