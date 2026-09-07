@@ -1428,8 +1428,13 @@ button.back-link:focus-visible {
 /* Nicknames card. `.fact-strip div` gives every nested div the card treatment,
    which stacked three boxes inside each other here: the fact card, the list
    wrapper, and each nickname. The wrapper is a layout grid and nothing else, so
-   it is stripped back; each nickname keeps a single box inside the card. */
-.fact-nicknames {
+   it is stripped back; each nickname keeps a single box inside the card.
+
+   The wrapper reset MUST be `.fact-strip .fact-nicknames` and not
+   `.fact-nicknames`: `.fact-strip div` is specificity (0,1,1) and a lone class is
+   (0,1,0), so a bare class loses and the middle box survives. Two classes give
+   (0,2,0) and win. */
+.fact-strip .fact-nicknames {
   display: grid;
   gap: 8px;
   border: 0;
