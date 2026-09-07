@@ -919,7 +919,11 @@ function validatePersonBattles(entry, label) {
 // See CLAUDE.md "Kingdom and Polity Article Standards".
 const POLITY_TYPES = new Set([
   'Kingdom', 'Empire', 'Duchy', 'County', 'Caliphate', 'Sultanate', 'Principality',
-  'Polity', 'Polities', 'Grand duchy', 'League', 'Military order', 'Imperial realm', 'Region / duchy'
+  'Polity', 'Polities', 'Grand duchy', 'League', 'Military order', 'Imperial realm', 'Region / duchy',
+  // Steppe polities. Added with the Avar Khaganate (Track A M5); the Khazar and
+  // Turkic khaganates will use it too. Held at the lighter tier because most
+  // khaganates left no written record of their own to build a long article from.
+  'Khaganate'
 ])
 // Polities where a "Major rulers" section is structurally inapplicable
 // (collective/confederate entities with no ruler line of their own).

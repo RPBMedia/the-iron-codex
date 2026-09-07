@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07_
+_Last updated: 2026-09-07 (Track A M5 shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -128,8 +128,24 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Source shift recorded in the articles: from M4 onward there is no Procopius.
       Theophanes writes two centuries later, George of Pisidia is panegyric verse,
       and the Armenian and Syriac chronicles have their own agendas.
-- [ ] **M5 — Siege of Constantinople 626**; Avar Khaganate ← NEXT
-- [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama
+- [x] **M5 — Siege of Constantinople 626** (2026-09-07). The siege and the Avar
+      Khaganate as a full anchor realm — 2 articles.
+      `locationType: "Khaganate"` is new and was added to `POLITY_TYPES` in
+      `check-content-quality.mjs` at the lighter tier (the Khazar and Turkic
+      khaganates will reuse it); the article is written to the Empire bar anyway.
+      **SERGIUS AND BONUS DEFERRED** — the patriarch and the patrician who
+      actually ran the defence. No image of either exists in any form; Sergius's
+      own Wikipedia article carries none and Commons has nothing. Named in prose
+      without a link, same as Vitiges (M3) and Shahrbaraz (M4). The Avar khagan is
+      not a deferral: no surviving source records his name.
+      Source note, running opposite to M4's: the evidence here is unusually good
+      — Chronicon Paschale within a couple of decades, Theodore Synkellos present,
+      George of Pisidia — but all three are Constantinopolitan and credit the
+      Virgin, so the chronology is secure and the interpretation is uniform.
+      Continuity points forward to Nineveh 627. **When M6 lands, consider whether
+      717–718 is the better next step from 626** — same walls, same method, and
+      the two sieges are usually read together.
+- [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama ← NEXT
 - [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V, Michael III, Petronas
 - [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II
 - [ ] M9 — Eastern conquests (Aleppo, Cyprus, Cilicia, Antioch); Tzimiskes, Bourtzes, Sayf al-Dawla
@@ -218,7 +234,10 @@ of the coverage-gap list — do not create proposed new subjects without it.**
 
       **Not verified in a browser** (no local dev servers). Gates run: production
       build, `check:images`, `check:content-quality`. Needs visual QA on live.
-- [ ] **M5 — Editorial audit + rewrite** ← IN PROGRESS. Audit delivered:
+- [ ] **M5 — Editorial audit + rewrite** — **PARKED (owner, 2026-09-07): not
+      being worked for now.** Batches 1 and 2 shipped; batches 3–7 and the
+      `validateWeaponsArmorDepth` rule are on hold, not cancelled. Everything
+      below is preserved so it can be resumed from `main` alone. Audit delivered:
       `WEAPONS_ARMOR_EDITORIAL_AUDIT.md`.
       **The archive fails its own documented standard in 40 of 42 articles.**
       CLAUDE.md requires 5+ sections of 3+ substantial paragraphs, seven mandated
@@ -465,6 +484,11 @@ Nothing secret is required for this repo; content lives in
 
 ## Parked / backlog
 
+- **Track B M5 — the W&A editorial rewrite** (owner, 2026-09-07). Batches 3–7 and
+  the depth validator, held in place under Track B above with the shipped work and
+  the sequencing lesson intact. The 40-of-42 depth failure it was fixing is still
+  real and still unfixed; this is a scheduling decision, not a verdict on the
+  audit.
 - `longbow` vs `war-bow` overlap: `war-bow`'s own summary calls itself "an
   umbrella term ... including but not limited to the English longbow". Resolve in
   Track B M6 (merge, or restructure as parent/child).
