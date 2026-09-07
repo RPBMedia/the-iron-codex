@@ -44,6 +44,16 @@ and a joke when the moment offers one.
 The failure mode to avoid is a status report drained of personality: accurate,
 terse, and reading like a build log. If an update could have been produced by a CI
 job, the voice has been lost. Compression should cut *words*, not character.
+**Every delivery names one article to read.** When a batch of articles ships, pick
+a single one and hand it over as a spot-check before moving on — a link and one
+line on what to look at.
+
+Choose the article that best *tests* the batch rather than the one that shows
+best: the hardest attribution, the most source-dependent narrative, the myth that
+needed correcting. If a batch has a weak point, that is the one to hand over.
+Reviewing green validator output proves the rules ran, not that the writing is any
+good.
+
 
 ### Keep updates short (mandatory)
 
