@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5 and M6 shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M7 shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -163,10 +163,31 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Tervel handled per the agreed correction: the Bulgar intervention of 718 is
       credited to Tervel *or* Kormesiy and the article says the sources do not
       settle it.
-- [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V,
-      Michael III, Petronas ← NEXT. Constantine V is already owed a succession
-      link from Leo III's article.
-- [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II
+- [x] **M7 — Akroinon 740 and Lalakaon 863** (2026-09-07). Seven articles: both
+      battles, the Abbasid Caliphate and the Emirate of Melitene as anchor realms,
+      and Constantine V, Michael III and Petronas.
+      The milestone's argument: these two battles bracket the turn. In 740 the
+      empire survives a raid; in 863 it destroys the emirate doing the raiding,
+      and afterwards Byzantium attacks and the caliphate defends. The Abbasid and
+      Melitene articles carry the other half of the explanation — the anarchy at
+      Samarra meant the frontier emirate fought 863 with nothing behind it.
+      `locationType: "Emirate"` is new, added to `POLITY_TYPES` at the lighter
+      tier; **the Emirate of Crete reuses it in M8.**
+      Both agreed corrections applied: **Malik ibn Shu'ayb** (not "al-Malik ibn
+      Shu'ayb", which is a mis-parse) at Akroinon, and **Nasar is absent from
+      Lalakaon** — the article says explicitly that he belongs to the naval
+      campaigns of the 880s, since the error is common enough to be worth naming.
+      **Lalakaon's continuity points at Manzikert for want of anything nearer, as
+      Tricamarum and Nineveh did. Re-point it at Crete 960–961 when M8 lands.**
+      Constantine V's succession links back to Leo III, closing the debt from M6.
+      Leo IV, Theophilos and Basil I are named as succession endpoints without
+      articles — all three are in-scope and are candidates for a later milestone.
+      Epithets used for the first time in Track A, both hostile and both typed as
+      such: Constantine V's **Kopronymos** and Michael III's **the Drunkard**.
+      Michael III's article is built around the fact that the histories of his
+      reign were written for the dynasty founded by his murderer.
+- [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II ← NEXT.
+      Reuses `locationType: "Emirate"`; re-point Lalakaon's continuity here.
 - [ ] M9 — Eastern conquests (Aleppo, Cyprus, Cilicia, Antioch); Tzimiskes, Bourtzes, Sayf al-Dawla
 - [ ] M10 — Kleidion 1014; First Bulgarian Empire; Basil II, Samuel
 - [ ] M11 — Levounion 1091, Beroia 1122, Sirmium 1167; Pechenegs, Cumans

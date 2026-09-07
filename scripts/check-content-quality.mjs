@@ -923,7 +923,11 @@ const POLITY_TYPES = new Set([
   // Steppe polities. Added with the Avar Khaganate (Track A M5); the Khazar and
   // Turkic khaganates will use it too. Held at the lighter tier because most
   // khaganates left no written record of their own to build a long article from.
-  'Khaganate'
+  'Khaganate',
+  // Frontier and successor emirates. Added with the Emirate of Melitene (Track A
+  // M6/M7); the Emirate of Crete follows in M8. Lighter tier deliberately: these
+  // are small polities known mostly through the chronicles of their enemies.
+  'Emirate'
 ])
 // Polities where a "Major rulers" section is structurally inapplicable
 // (collective/confederate entities with no ruler line of their own).
