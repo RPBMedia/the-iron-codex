@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M9 shipped; M8b added; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M10 and M8b shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -205,28 +205,32 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       the Ottoman–Venetian one of 1648–1669.
       John Tzimiskes is a succession endpoint on Nikephoros II and is **owed an
       article in M9**, where he is already scheduled.
-- [ ] **M8b — Dynastic completion: the emperors the battles never reached.**
-      Added 2026-09-07 at the owner's instruction, after the Isaurian dynasty page
-      showed two of five rulers linked. Track A's milestones are organised around
-      battles, so an emperor gets an article when he commands one; these never do,
-      and the archive carries **81 succession endpoints naming a real person with
-      no article**. CLAUDE.md's chaining rule already says the unlinked
-      `{displayName, note}` form is transitional and owed.
-      In priority order, with the reason each earns a page:
-      1. **Irene** — first woman to rule the empire in her own name; restored the
-         icons at Nicaea II in 787; blinded her own son to keep the throne.
-      2. **Theophilos** — last iconoclast emperor; watched al-Mu'tasim sack
-         Amorion, his own dynasty's home city, in 838.
-      3. **Basil I** — murdered Michael III and founded the Macedonian dynasty.
-         **Do this one with M10**, which needs the Macedonian house anyway.
-      4. **Constantine VII** — the scholar-emperor; *De Administrando Imperio* and
-         the *Book of Ceremonies* are sources the archive already leans on.
-      5. Leo IV, Constantine VI, Constans II, Constantine IV, Justinian II — the
-         Heraclian and Isaurian remainder, which completes both house pages.
-      Each must be a full ruler article (image, Character and Personality,
-      timeline ≥5, succession box, related entries ≥3), and each new page must
-      itself be audited for its own predecessor and successor per the iterative
-      chaining rule. Expect the chain to reach Nikephoros I, Leo V and Michael I.
+- [x] **M8b — Dynastic completion** (2026-09-07). **Thirteen ruler articles**:
+      Justin I, Justin II, Phocas, Constans II, Constantine IV, Justinian II,
+      Theodosius III, Leo IV, Constantine VI, Irene of Athens, Theophilos,
+      Basil I, Constantine VII.
+      **What it closed.** `link-stale-succession-endpoints.mjs` then linked eight
+      endpoints automatically — Justinian I's predecessor and successor,
+      Heraclius's predecessor, Leo III's predecessor, Constantine V's successor,
+      Michael III's predecessor and successor, and Romanos II's predecessor. The
+      **Heraclian and Isaurian houses are now fully linked** (4/4 and 5/5); the
+      Amorian gains Theophilos, the Macedonian gains Basil I and Constantine VII.
+      **It also forced a sixth house.** Justin I and Justin II joined Justinian I
+      as `dynasty: "Justinian dynasty"`, which tripped
+      `validateDynastyHouseCoverage` — so `justinian-dynasty` was written too,
+      518–602, ending with the murder of Maurice. That rule has now caught a real
+      gap twice in one day, both times the moment it opened.
+      **STILL DEFERRED:** Constantine III and Heraklonas (641), whose reigns lasted
+      months and of whom no image exists in any form. Leo VI is a different case —
+      he has images and deserves an article, but is not yet a succession endpoint,
+      so he was not swept in.
+      **THE CHAIN GREW, as CLAUDE.md says it will.** Unlinked named endpoints went
+      from 81 to 86: these thirteen articles closed eight and opened new ones at
+      Anastasius I, Tiberius II, Maurice, Philippikos Bardanes, Anastasius II,
+      Nikephoros I, Michael II, Leo VI and Alexander. That is the iterative
+      chaining rule behaving correctly, not a regression — **the next pass should
+      take Maurice and Nikephoros I first**, since both are named in this
+      milestone's articles as the hinge of a catastrophe.
 - [x] **M9 — The eastern conquests, 962–969** (2026-09-07). Nine articles: the
       sack of Aleppo, the conquests of Cilicia and Cyprus, the fall of Antioch,
       the Hamdanid Emirate of Aleppo, the city of **Antioch**, and John Tzimiskes,
