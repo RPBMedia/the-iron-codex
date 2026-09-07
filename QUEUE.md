@@ -12,7 +12,77 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-06_
+_Last updated: 2026-09-07_
+
+---
+
+## TRACK D — Weapons & Armor: unique surviving artifacts
+
+**Queued 2026-09-07. Starts when the W&A tier work is finished** — Tier 3 has one
+article left (military flail, awaiting an image).
+
+**The problem.** Weapons & Armor is now strong on generic *types* (56 articles)
+and thin on historically unique *objects*. Only three exist: the Sutton Hoo
+helmet, Joyeuse and the Ulfberht group. The goal is to make the section read as a
+curated armoury of the most important surviving medieval objects, not only a
+taxonomy. **William Wallace's Sword is the headline omission.**
+
+**Do first — internal audit, before creating anything:**
+1. Unique artifacts already present (search ids, names, aliases, alternate
+   spellings and museum names — no duplicates).
+2. Important unique artifacts missing.
+3. Existing entries that are misclassified, weakly sourced, or not linked to
+   their generic type.
+
+**Priority artifacts** (13, in the owner's order):
+William Wallace's Sword · Gjermundbu Helmet · Coppergate Helmet · Helmet of
+St. Wenceslas · Imperial Sword (Reichsschwert) · Sword of St. Maurice (Turin) ·
+Szczerbiec · Great Helm of Albert von Prankh · Pembridge Helm · Churburg Armour
+No. 13 · Avant Armour · Black Prince funeral achievements · Henry V funeral
+achievements.
+
+Do not confuse the Reichsschwert with the Sword of St. Maurice — they are separate
+objects and the brief flags this explicitly.
+
+**Second wave, only where genuinely distinctive and well documented:** provenanced
+Ulfberht swords, Castillon swords, crossbows, named Royal Armouries harnesses,
+Churburg components, tournament helms, Byzantine finds, Mamluk and Islamic swords,
+Iberian royal swords, provenanced pavises, polearms, early firearms. **Do not flood
+the archive with ordinary museum examples merely because photographs exist.**
+
+**Structure — NOT the generic-type template.** Overview · Date and provenance ·
+Construction · Historical context · Attribution and reliability (only where needed)
+· Surviving object today · Significance · Related articles. Short sections
+throughout.
+
+**The hard rule: never flatten uncertainty.** Every article must separate secure
+provenance, scholarly reconstruction, traditional attribution, legendary
+attribution, later restoration, composite assembly and replacement parts — and put
+the caveat *where the reader needs it*, not in a disclaimer at the bottom. Wallace's
+Sword, the Wenceslas helmet and the funeral achievements need this most: the
+Wallace sword must NOT be presented as unquestionably his battlefield weapon, and a
+funerary achievement must not be presented as confirmed battlefield equipment.
+Handled well this raises credibility rather than weakening the article.
+
+**Images:** real museum photography of the actual object, in preference order
+museum → institutional → Commons → scholarly reconstruction. **No AI images where
+the surviving object exists and is photographed.** Composite, restored or partial
+objects must say so in the caption. Note this cuts against recent practice for good
+reason: these are specific objects, not types, so the "no complete photograph
+exists" argument does not apply.
+
+**Cross-linking is essential and bidirectional.** Every artifact links to its
+generic type (Gjermundbu → spangenhelm/viking helmet, Prankh → great helm, Avant →
+plate armour, Churburg → plate armour), and major generic articles gain a
+**"Notable surviving examples"** section linking back.
+
+**Also:** audit how unique artifacts appear in the W&A index — they should be
+discoverable without being confused with generic categories, but do not redesign
+the page. And update `CLAUDE.md` so W&A is formally two layers (generic types /
+unique artifacts), each audited separately.
+
+**Report at the end:** added · already present · skipped · deferred to second wave
+· any attribution or provenance issues needing special caution.
 
 ---
 
