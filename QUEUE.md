@@ -261,7 +261,25 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       of Antioch on Commons is a **stereoscopic negative pair** — the same view
       twice with the negative border — which no amount of good provenance makes
       usable as a primary image.
-- [ ] M10 — Kleidion 1014; First Bulgarian Empire; Basil II, Samuel
+- [x] **M10 — Kleidion 1014** (2026-09-07). The battle, the First Bulgarian Empire,
+      Basil II, Samuel of Bulgaria and the **Macedonian dynasty** as a House.
+      The house was mandatory, not optional: Romanos II (M8) and Basil II make two
+      Macedonian rulers, which trips `validateDynastyHouseCoverage` — the rule
+      added at the owner's instruction the same day, firing on the very next
+      milestone. Basil I, Leo VI and Constantine VII are named in it pending their
+      articles in the M8b backfill.
+      **Both agreed corrections applied and they govern the battle article.** The
+      blinding is **Skylitzes writing about 1070**, fifty-five years later and not
+      in the near-contemporary sources; the article reports it as what a later
+      chronicler wrote. And **Bulgaria did not fall in 1014** — it fought on under
+      Gabriel Radomir and Ivan Vladislav until the annexation of 1018.
+      "Boulgaroktonos" gets the same treatment: recorded as a later epithet,
+      appearing about 150 years after Basil's death.
+      **IMAGE CATCH.** Commons's "Samuil of bolgaria reconstruction.jpg", which is
+      the English Wikipedia lead image for Samuel, shows a forensic bust whose
+      museum card is legible in the photograph and reads **Яромир Пшемыслович** —
+      Jaromír of the Přemyslids, a Bohemian duke. Not used. Samuel leads with his
+      fortress at Ohrid instead.
 - [ ] M11 — Levounion 1091, Beroia 1122, Sirmium 1167; Pechenegs, Cumans
 - [ ] M12 — Pelagonia 1259 + recovery of Constantinople 1261; Empire of Nicaea,
       Latin Empire, Epirus, Achaea, Sicily; Michael VIII
