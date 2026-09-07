@@ -331,13 +331,18 @@ nav {
   font-weight: 900;
 }
 
+/* Span the full width of the search bar.
+   This used to be a fixed 380px panel pinned with `right: 0`, so on a wide search
+   bar the results sat in a narrow column against the right-hand end and the
+   pointer had to travel across the field to reach them. Anchoring both edges to
+   the form makes the list start where the typing starts. */
 .global-search-suggestions {
   position: absolute;
   z-index: 20;
   top: calc(100% + 8px);
+  left: 0;
   right: 0;
   display: grid;
-  width: min(380px, 88vw);
   overflow: hidden;
   border: 1px solid rgba(242, 193, 78, 0.28);
   border-radius: 6px;
@@ -2422,11 +2427,8 @@ button.back-link:focus-visible {
     width: auto;
   }
 
-  .global-search-suggestions {
-    right: auto;
-    left: 0;
-    width: 100%;
-  }
+  /* The base rule now anchors both edges to the form, so the narrow-viewport
+     override that used to be needed here is gone. */
 
   .hero {
     min-height: 72vh;
