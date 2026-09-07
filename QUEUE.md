@@ -12,77 +12,48 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (**TRACK A COMPLETE — all 14 milestones shipped.** Track B M5 parked by the owner; Track D ready to start)_
+_Last updated: 2026-09-07 (**Track A COMPLETE — 14/14. Track D CLOSED** as already delivered. Track B M5 parked by the owner. Remaining: content polish, two owner decisions, Track C SEO — none blocking.)_
 
 ---
 
-## TRACK D — Weapons & Armor: unique surviving artifacts
+## TRACK D — Weapons & Armor: unique surviving artifacts — CLOSED
 
-**Queued 2026-09-07. READY TO START — the W&A tier work is complete** (Tiers 1–3
-all shipped, 57 articles).
+**Closed by the owner, 2026-09-07, as substantially already delivered.**
 
-**The problem.** Weapons & Armor is now strong on generic *types* (57 articles)
-and thin on historically unique *objects*. Only three exist: the Sutton Hoo
-helmet, Joyeuse and the Ulfberht group. The goal is to make the section read as a
-curated armoury of the most important surviving medieval objects, not only a
-taxonomy. **William Wallace's Sword is the headline omission.**
+The audit this track opens with was finally run, and it found the work done:
+**12 of the 13 priority artifacts already exist**, not the three the brief
+assumed. The section now holds **15 named artifacts** against 59 generic types.
 
-**Do first — internal audit, before creating anything:**
-1. Unique artifacts already present (search ids, names, aliases, alternate
-   spellings and museum names — no duplicates).
-2. Important unique artifacts missing.
-3. Existing entries that are misclassified, weakly sourced, or not linked to
-   their generic type.
+| Priority artifact | Status |
+| --- | --- |
+| William Wallace's Sword (the brief's "headline omission") | `wallace-sword` |
+| Gjermundbu Helmet | `gjermundbu-helmet` |
+| Coppergate Helmet | `coppergate-helmet` |
+| Helmet of St. Wenceslas | `st-wenceslas-helmet` |
+| Imperial Sword (Reichsschwert) | `reichsschwert` |
+| **Sword of St. Maurice (Turin)** | **NOT BUILT — the only gap** |
+| Szczerbiec | `szczerbiec` |
+| Great Helm of Albert von Prankh | `prankh-great-helm` |
+| Pembridge Helm | `pembridge-helm` |
+| Churburg Armour No. 13 | `churburg-armour` |
+| Avant Armour | `avant-armour` |
+| Black Prince funeral achievements | `black-prince-achievements` |
+| Henry V funeral achievements | `henry-v-achievements` |
 
-**Priority artifacts** (13, in the owner's order):
-William Wallace's Sword · Gjermundbu Helmet · Coppergate Helmet · Helmet of
-St. Wenceslas · Imperial Sword (Reichsschwert) · Sword of St. Maurice (Turin) ·
-Szczerbiec · Great Helm of Albert von Prankh · Pembridge Helm · Churburg Armour
-No. 13 · Avant Armour · Black Prince funeral achievements · Henry V funeral
-achievements.
+The track's other deliverables are also done: every named artifact cross-links to
+its generic type and back, **27 of 59** generic articles carry a "Notable
+surviving examples" section (27 rather than 59 is correct — most generic types
+have no famous named survivor), and CLAUDE.md formalises the two layers with
+`NAMED_ARTIFACT_TYPES` keying both validators.
 
-Do not confuse the Reichsschwert with the Sword of St. Maurice — they are separate
-objects and the brief flags this explicitly.
+**The one carried forward** is in "Open — small, ready to run" below: the Sword of
+St. Maurice, which is worth writing mainly because the brief flagged it as the
+object people confuse with the Reichsschwert, and the Reichsschwert exists.
 
-**Second wave, only where genuinely distinctive and well documented:** provenanced
-Ulfberht swords, Castillon swords, crossbows, named Royal Armouries harnesses,
-Churburg components, tournament helms, Byzantine finds, Mamluk and Islamic swords,
-Iberian royal swords, provenanced pavises, polearms, early firearms. **Do not flood
-the archive with ordinary museum examples merely because photographs exist.**
-
-**Structure — NOT the generic-type template.** Overview · Date and provenance ·
-Construction · Historical context · Attribution and reliability (only where needed)
-· Surviving object today · Significance · Related articles. Short sections
-throughout.
-
-**The hard rule: never flatten uncertainty.** Every article must separate secure
-provenance, scholarly reconstruction, traditional attribution, legendary
-attribution, later restoration, composite assembly and replacement parts — and put
-the caveat *where the reader needs it*, not in a disclaimer at the bottom. Wallace's
-Sword, the Wenceslas helmet and the funeral achievements need this most: the
-Wallace sword must NOT be presented as unquestionably his battlefield weapon, and a
-funerary achievement must not be presented as confirmed battlefield equipment.
-Handled well this raises credibility rather than weakening the article.
-
-**Images:** real museum photography of the actual object, in preference order
-museum → institutional → Commons → scholarly reconstruction. **No AI images where
-the surviving object exists and is photographed.** Composite, restored or partial
-objects must say so in the caption. Note this cuts against recent practice for good
-reason: these are specific objects, not types, so the "no complete photograph
-exists" argument does not apply.
-
-**Cross-linking is essential and bidirectional.** Every artifact links to its
-generic type (Gjermundbu → spangenhelm/viking helmet, Prankh → great helm, Avant →
-plate armour, Churburg → plate armour), and major generic articles gain a
-**"Notable surviving examples"** section linking back.
-
-**Also:** audit how unique artifacts appear in the W&A index — they should be
-discoverable without being confused with generic categories, but do not redesign
-the page. And update `CLAUDE.md` so W&A is formally two layers (generic types /
-unique artifacts), each audited separately.
-
-**Report at the end:** added · already present · skipped · deferred to second wave
-· any attribution or provenance issues needing special caution.
+**The lesson, and it is why this track sat "READY TO START" for a day:** the brief
+was written from an assumption about coverage and never re-checked before being
+queued. A track that opens with "do the internal audit first" should have that
+audit run *before* it is scheduled, not after.
 
 ---
 
@@ -670,6 +641,14 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **Sword of St. Maurice (Turin)** — the single unbuilt item from the closed
+  Track D. Worth writing because the brief explicitly warns it is confused with
+  the **Reichsschwert**, which the archive already has: they are two separate
+  objects, and having one without the other is exactly the situation that breeds
+  the confusion. Follow the named-artifact structure and the attribution-honesty
+  rule — the Turin sword's association with St Maurice is traditional, not
+  documented. One article.
+
 - **The stub backlog: 233 articles under 2,000 characters, 139 with no timeline.**
   Measured by `scripts/audit-stubs.mjs` (new 2026-09-07), which ranks by inbound
   links first — a stub nobody links to is a gap, a stub sixty articles point at is
@@ -737,56 +716,6 @@ with the owner if any of those bullets mattered specifically._
   all.** These belong with the stub-rewrite batches above; the popes in particular
   are now reachable from the Templars, the Teutonic Order and Bernard of
   Clairvaux, so readers will actually arrive at them.
-
-- **AI-image disclosure — done 2026-09-07, and the gate now covers everything.**
-  The owner's rule: every AI-generated image must say so **in its caption**, and
-  for people in fixed words — "AI generated image used due to lack of real
-  historical depictions of `<name>`". The audit found **24 AI images**: 22 in
-  Weapons & Armor, all already disclosing correctly, and **2 people —
-  `harald-fairhair` and `eric-bloodaxe` — disclosing nowhere the reader looks.**
-  They recorded "AI-generated" in `creator` and `note`, which sit below the fold
-  of the attribution block; the caption, which renders in bold directly under the
-  image, said only "a modern digital illustration". Both captions now lead with
-  the mandated sentence and both carry `aiGenerated: true`, which neither had.
-  **The real fix was to the validator**: `validateAiGeneratedImage` in
-  `check-images.mjs` was only ever called for `weaponsArmor`, so every AI image
-  outside that one collection was unchecked — which is why the two people slipped
-  through. It now runs over all collections, primary and section images alike, and
-  fails in both directions: a caption missing the disclosure, and an image whose
-  caption or `creator` says "AI-generated" while the flag is unset. Both directions
-  were negative-tested before shipping, not assumed.
-
-- **Other stub articles probably exist.** Constantinople was rewritten 2026-09-07
-  after the owner noticed it had 3 sections and ~1,380 characters — thinner than
-  every siege article written about it. It is unlikely to be the only one: the
-  archive has grown by ~90 articles in a day, all written to the current standard,
-  against a base written to an older one. **Worth an audit**: list every article
-  under ~2,000 characters of prose or with no timeline, ranked by how often it is
-  linked from elsewhere. The most-linked stubs are the ones that damage the reader
-  most, exactly as Constantinople did.
-
-- **The 81 unlinked succession endpoints are now Track A M8b**, above — a proper
-  milestone rather than a loose note, at the owner's instruction (2026-09-07).
-
-- **The Macedonian dynasty needs a House article when M10 lands.** Basil I, Leo VI
-  and Basil II have no articles yet, so the house would have nobody to link and
-  was deliberately not created with the other three on 2026-09-07. **M10 brings
-  Basil II** — create `macedonian-dynasty` in the same milestone, and note that
-  Basil I already appears as a succession endpoint on Michael III and as his
-  murderer throughout the Amorian material. Once two of them exist the new
-  `validateDynastyHouseCoverage` rule will hard-fail until the house is written.
-
-- **33 unlinked commanders elsewhere in the archive still carry no explanation.**
-  Found 2026-09-07 by the audit built into
-  `scripts/annotate-unlinked-commanders.mjs`, which lists them on every run. The
-  Track A ones are done; the rest are mostly the documented backlog in CLAUDE.md
-  (Warenne, Buchan and Douglas, the Orléans commanders, La Hire and Xaintrailles,
-  Jean Bureau, Edwin and Morcar, Eiríkr Hákonarson, Guy le Bouteiller, Hervey de
-  Glanvill, Fernando Pérez de Traba, Kjotve the Rich) plus the Mongol-invasion
-  commanders. Each needs one line saying whether it is "no article yet" or "no
-  image survives" — add to the `NOTES` map and re-run. **Not urgent, but it is
-  the difference between a stated decision and an apparent oversight**, which is
-  exactly what the owner caught on the 717–718 siege.
 
 ## Blocked on the user
 
