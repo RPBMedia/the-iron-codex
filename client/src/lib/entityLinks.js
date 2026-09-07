@@ -587,6 +587,7 @@ export const entityLinks = [
   { label: "Mail Coif", aliases: ["Chainmail coif"], type: "weaponArmor", slug: "mail-coif" },
   { label: "Nasal Helmet", aliases: ["Nasal helm"], type: "weaponArmor", slug: "nasal-helmet" },
   { label: "Pavise", aliases: ["Pavise shield"], type: "weaponArmor", slug: "pavise" },
+  { label: "Pike", aliases: ["long pike","Langspiess"], type: "weaponArmor", slug: "pike" },
   { label: "Plate Armor", aliases: ["Plate harness","Full plate armor"], type: "weaponArmor", slug: "plate-armor" },
   { label: "Poleaxe", aliases: ["Pollaxe"], type: "weaponArmor", slug: "poleaxe" },
   { label: "Sallet", aliases: ["Salade"], type: "weaponArmor", slug: "sallet" },

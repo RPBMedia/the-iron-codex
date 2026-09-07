@@ -788,6 +788,46 @@ If no acceptable full-object image can be found, **mark the entry incomplete** (
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
 
+### The principal image must show the weapon AS IT WAS USED (owner rule, 2026-09-07)
+
+**This is a hard rule and it overrides everything below it.**
+
+The principal image must show the reader what the weapon or armour **looked like
+when it was in service** — complete, assembled, and in its working configuration.
+
+**An incomplete museum artifact is a hard no, across the whole archive.** It does
+not matter that the surviving fragment is genuine, well photographed, or the most
+important example known. If the object on display is missing the parts that made
+it a weapon, it must not be the principal image.
+
+Worked examples of the failure, both caught by the owner:
+
+- A **bombard barrel sitting on blocks in a gallery**. A bombard was strapped into
+  a heavy timber bed; a bare tube on museum plinths shows a component, not a gun.
+- A **hand cannon barrel with no tiller**. The wooden stock always rots and the
+  bronze never does, so nearly every surviving handgonne is a bare tube — which is
+  exactly why a bare tube is the wrong choice, not an acceptable one.
+
+The same reasoning rules out a sword blade without its hilt, a polearm head
+without its haft, a mail fragment, or a helmet missing its visor and cheek pieces.
+
+**How to satisfy it**, in order of preference:
+
+1. A complete original still in its working configuration (barrel in its bed,
+   barrel on its tiller, head on its haft)
+2. A museum-grade reconstruction or a reputable maker's reproduction of the
+   complete weapon, with the caption's first sentence saying it is modern
+3. An AI illustration of the complete weapon, under the AI rules below
+
+Note where this leads: for whole categories of equipment — polearms, guns, pikes —
+the complete object simply is not photographed anywhere, because museums hold and
+photograph the metal that survived. Reaching option 2 or 3 for those is the normal
+outcome and not a failure of searching. **Record the search in the audit, then use
+a reproduction or an illustration.** Do not fall back on the fragment.
+
+The surviving fragment is still valuable and should usually stay in the article as
+a **section image**, captioned to say what actually survives.
+
 ### Authenticity, condition, and format (2026-09-06 standard)
 
 Extends the full-object rule above — read both together; where they differ, this subsection governs.

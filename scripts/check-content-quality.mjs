@@ -963,6 +963,7 @@ const WA_ALLOWED_TYPES = new Set([
 ])
 const WA_MIN_KNOWN_FOR = 3
 const WA_MIN_RELATED = 5
+const WA_MIN_SPEC_ROWS = 4
 const WA_KNOWN_FOR_TEMPLATE = /balanced cost, mobility, visibility|changed as weapons, horse warfare|fantasy archetype|construction and use changed with armor|specific tactical setting/i
 const WA_MIN_SECTIONS = 6
 const WA_MIN_PARAGRAPHS_PER_SECTION = 3
@@ -1018,6 +1019,22 @@ function validateWeaponsArmorDepth(entry, label) {
   // interchangeable template bullets about balancing "cost, mobility, visibility,
   // and resistance to weapons" — which on the surcoat, a garment that stops
   // nothing, was not merely generic but wrong.
+  // Specifications are required on EVERY Weapons & Armor article (owner rule,
+  // 2026-09-07). The block was optional in the structured-article model and six
+  // articles shipped without it — the three named artifacts and the three new
+  // gunpowder and siege entries — which left readers with no quick answer to how
+  // long, how heavy, what period. It is the first thing most people look for.
+  const specRows = entry.specs?.rows
+  if (!Array.isArray(specRows) || specRows.length < WA_MIN_SPEC_ROWS) {
+    push('specs', `weapons & armor article needs a specs block with at least ${WA_MIN_SPEC_ROWS} rows (has ${specRows?.length ?? 0})`)
+  } else {
+    for (const row of specRows) {
+      if (!row?.label || !row?.value) {
+        push('specs', 'specs row is missing a label or a value', JSON.stringify(row).slice(0, 100))
+      }
+    }
+  }
+
   // CLAUDE.md sets a higher bar for Weapons & Armor than the archive-wide minimum
   // of three: a piece of equipment should connect to similar and same-period kit,
   // the battles where it mattered, its users, and its counters. The generic
