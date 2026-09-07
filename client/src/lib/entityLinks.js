@@ -558,6 +558,7 @@ export const entityLinks = [
   { label: "Armet", aliases: ["closed helmet"], type: "weaponArmor", slug: "armet" },
   { label: "Arming Sword", aliases: ["Knightly sword","Single-handed sword"], type: "weaponArmor", slug: "arming-sword" },
   { label: "Arquebus", aliases: ["harquebus","hackbut","hakenbüchse","haquebut","arcabuz"], type: "weaponArmor", slug: "arquebus" },
+  { label: "Barbute", aliases: ["barbuta","celata alla veneziana"], type: "weaponArmor", slug: "barbute" },
   { label: "Barding", aliases: ["horse armour","horse armor","trapper","caparison","shaffron","chanfron"], type: "weaponArmor", slug: "barding" },
   { label: "Bascinet", aliases: ["Basinet"], type: "weaponArmor", slug: "bascinet" },
   { label: "Battle Axe", aliases: ["War axe"], type: "weaponArmor", slug: "battle-axe" },
