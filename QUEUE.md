@@ -628,6 +628,24 @@ with the owner if any of those bullets mattered specifically._
   need looking at one by one: some carry crude busts and pass, some carry a cross
   and a legend and do not.
 
+- **AI-image disclosure — done 2026-09-07, and the gate now covers everything.**
+  The owner's rule: every AI-generated image must say so **in its caption**, and
+  for people in fixed words — "AI generated image used due to lack of real
+  historical depictions of `<name>`". The audit found **24 AI images**: 22 in
+  Weapons & Armor, all already disclosing correctly, and **2 people —
+  `harald-fairhair` and `eric-bloodaxe` — disclosing nowhere the reader looks.**
+  They recorded "AI-generated" in `creator` and `note`, which sit below the fold
+  of the attribution block; the caption, which renders in bold directly under the
+  image, said only "a modern digital illustration". Both captions now lead with
+  the mandated sentence and both carry `aiGenerated: true`, which neither had.
+  **The real fix was to the validator**: `validateAiGeneratedImage` in
+  `check-images.mjs` was only ever called for `weaponsArmor`, so every AI image
+  outside that one collection was unchecked — which is why the two people slipped
+  through. It now runs over all collections, primary and section images alike, and
+  fails in both directions: a caption missing the disclosure, and an image whose
+  caption or `creator` says "AI-generated" while the flag is unset. Both directions
+  were negative-tested before shipping, not assumed.
+
 - **Other stub articles probably exist.** Constantinople was rewritten 2026-09-07
   after the owner noticed it had 3 sections and ~1,380 characters — thinner than
   every siege article written about it. It is unlikely to be the only one: the

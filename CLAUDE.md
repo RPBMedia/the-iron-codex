@@ -107,7 +107,29 @@ These three standards are absolute and apply to **every** article of every type 
 - For locations: use a real photo, historical site, monument, map, manuscript depiction, landscape, castle, church, or battlefield image relevant to that specific place.
 - For people with no contemporary portrait: use a manuscript depiction, statue, tomb, seal, coin, or later artwork, with an **honest caption** that says it is later or symbolic.
 - **A person's main image must depict the person (owner rule, 2026-09-07).** This is the first question to ask of a biography's primary image, before date, licence or resolution: *does this show a human being?* A coin qualifies **only when it carries a portrait bust** — the Byzantine solidi used for Heraclius, Leo III, Irene, Justin I, Constans II and the rest all show the ruler's face, conventional rather than a likeness but unmistakably a person. A coin bearing **only an inscription, a sword, a cross or a monogram depicts the office or the name, not the man**, and must never lead a biography; it belongs in a section image where it is the real evidence for a reign. Found on **Eric Bloodaxe**, whose article led with a penny reading ERIC REX around a sword — no portrait of any kind. The same test rules out a map, a battlefield photograph or a building as a person's primary image, however apt they are further down the page.
-- **When no depiction exists at all, a modern illustration is permitted for people** (owner decision, 2026-09-07) — including an AI-generated one supplied by the owner. Follow the established convention set by `harald-fairhair`: the file lives in `client/public/` and is referenced as `/<Name>.png`; `creator` reads "AI-generated digital artwork (artist unattributed)"; `date` is "modern"; `source` is "Local project asset, supplied by the site owner"; and the `note` states plainly that it is a modern symbolic depiction and **not** a historical portrait, contemporary likeness or manuscript source, and that no authentic image of the person survives. The caption must make the same point in its own words. Search Commons properly first — the category, both Wikipedia language editions, and any illustrated-edition series by filename — and record in the commit what was searched before falling back.
+- **When no depiction exists at all, a modern illustration is permitted for people** (owner decision, 2026-09-07) — including an AI-generated one supplied by the owner. Follow the established convention set by `harald-fairhair`: the file lives in `client/public/` and is referenced as `/<Name>.png`; `creator` reads "AI-generated digital artwork (artist unattributed)"; `date` is "modern"; `source` is "Local project asset, supplied by the site owner"; and the `note` states plainly that it is a modern symbolic depiction and **not** a historical portrait, contemporary likeness or manuscript source, and that no authentic image of the person survives; `aiGenerated` is `true`; and the **caption leads with the fixed disclosure sentence** given in the rule below. Search Commons properly first — the category, both Wikipedia language editions, and any illustrated-edition series by filename — and record in the commit what was searched before falling back.
+- **Every AI-generated image must disclose itself in its own caption (owner rule,
+  2026-09-07).** Not in `creator`, not in `note`, not in a licence line — in the
+  **caption**, which is the only image metadata a reader reliably sees, and in its
+  **first sentence**, before any description. Recording it further down is what the
+  Harald Fairhair and Eric Bloodaxe images did, and it failed the test: a reader
+  looking at the page was told nothing. **For a person the wording is fixed:**
+
+  > `AI generated image used due to lack of real historical depictions of <name>.`
+
+  Any description of the image follows that sentence, never precedes it. **For
+  objects** (Weapons & Armor) the existing convention stands: the caption begins
+  `"AI-generated illustration of a …"` and the caption or note also records *why*
+  it was needed ("no suitably licensed photograph … could be sourced"). In both
+  cases `imageInfo.aiGenerated` must be `true` — without that flag the image is
+  invisible to auditing.
+
+  **This applies to every AI image in the archive, in every collection, primary
+  and section alike** — enforced by `validateAiGeneratedImage` in
+  `scripts/check-images.mjs`, which now runs over all collections rather than
+  Weapons & Armor only. The check is two-way: it also hard-fails an image whose
+  caption or `creator` says "AI-generated" while the flag is unset, so the
+  disclosure cannot be quietly dropped by clearing a boolean.
 - **Where owner-supplied images live (2026-09-07).** `client/assets/` is the
   originals folder and **is not served** — Vite serves `client/public/` only, and
   `check-images` resolves local `/…` paths against `client/public` and
@@ -1206,6 +1228,11 @@ The archive owner has authorised AI-generated illustrations for Weapons & Armor
 **only** where no suitably licensed photograph of a surviving example or a
 reconstruction can be sourced after a genuine search. This is a narrow exception
 to the "no AI as historical evidence" rule, not a shortcut.
+
+The conditions below are written for objects. **People take the same conditions
+with a different fixed caption sentence** — see the image-standards rule
+"Every AI-generated image must disclose itself in its own caption" above. The
+validator applies to every collection, not to Weapons & Armor alone.
 
 Conditions — all mandatory, enforced by `npm run check:images`
 (`validateAiGeneratedImage`):

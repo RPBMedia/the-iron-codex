@@ -29,7 +29,13 @@ const placeholderMetadataPattern = /^(modern photograph, map, or historical imag
 // garment with no surviving example) may be added to the reviewed-fallback
 // allowlist below once a human has confirmed it is the best honest option.
 const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
-const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
+// An AI image must disclose itself in the caption's FIRST words. Two accepted
+// openings: objects say "AI-generated illustration of a …", people say
+// "AI-generated image used due to lack of real historical depictions of …"
+// (owner rule, 2026-09-07). Both are matched here so the check covers the whole
+// archive rather than Weapons & Armor alone.
+const AI_DISCLOSURE_PREFIX = /^AI[- ]generated (illustration|image)\b/i
+const AI_PERSON_DISCLOSURE = /^AI[- ]generated image used due to lack of real historical depictions of\b/i
 const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
 
 // ---------------------------------------------------------------------------
@@ -135,6 +141,12 @@ for (const [collection, entries] of Object.entries(data)) {
         })
       }
     }
+
+    // AI disclosure applies archive-wide, not only to Weapons & Armor.
+    if (entry.imageInfo) validateAiGeneratedImage(article, entry, collection)
+    ;(entry.sectionImages ?? []).forEach((section, i) =>
+      validateAiGeneratedImage(article, entry, collection, section, `sectionImages[${i}]`)
+    )
 
     if (collection === 'weaponsArmor' && primaryImageField) {
       validateWeaponsArmorFullObject(article, entry)
@@ -277,40 +289,56 @@ function validateImageReference({ collection, article, field, src, metadata, art
 // disclosed in the FIRST sentence of the caption, so a reader can never mistake it
 // for photographic evidence. Never permitted for named-artifact articles.
 
-function validateAiGeneratedImage(article, entry) {
-  const ai = entry.imageInfo?.aiGenerated === true
-  const caption = stringValue(entry.imageInfo?.caption) ? entry.imageInfo.caption : ''
+function validateAiGeneratedImage(article, entry, collection = 'weaponsArmor', info = entry.imageInfo, field = 'imageInfo') {
+  const ai = info?.aiGenerated === true
+  const caption = stringValue(info?.caption) ? info.caption : ''
+  const note = stringValue(info?.note) ? info.note : ''
+  const creator = stringValue(info?.creator) ? info.creator : ''
+  const isPerson = collection === 'characters'
 
   if (!ai) {
-    // Guard the reverse case too: a caption that discloses AI without the flag
-    // would be invisible to this check and to any future audit.
-    if (AI_DISCLOSURE_PREFIX.test(caption)) {
-      addFinding('weaponsArmor', article, 'imageInfo.aiGenerated',
-        'caption discloses an AI-generated image but imageInfo.aiGenerated is not true — set the flag so the image is auditable.',
+    // Guard the reverse case too: an image that is AI-generated but unflagged is
+    // invisible to this check and to any future audit. Catch it from the caption
+    // AND from the creator field, which is where the people images declared it.
+    if (AI_DISCLOSURE_PREFIX.test(caption) || /\bAI[- ]generated\b/i.test(creator)) {
+      addFinding(collection, article, `${field}.aiGenerated`,
+        'image is AI-generated but imageInfo.aiGenerated is not true — set the flag so the image is auditable.',
         caption.slice(0, 120))
     }
     return
   }
 
   if (NAMED_ARTIFACT_TYPES.has(entry.weaponArmorType)) {
-    addFinding('weaponsArmor', article, 'image',
+    addFinding(collection, article, 'image',
       'AI-generated principal image is never allowed for a named-artifact article — the object exists and is photographed; an invented image would misrepresent it.',
       entry.image)
   }
+
+  if (isPerson) {
+    // People take the owner's exact wording, so a reader meets the disclosure and
+    // the reason in the same breath, before anything else in the caption.
+    if (!AI_PERSON_DISCLOSURE.test(caption)) {
+      addFinding(collection, article, `${field}.caption`,
+        'AI-generated image of a person must begin: "AI-generated image used due to lack of real historical depictions of <name>".',
+        caption.slice(0, 120))
+    }
+    return
+  }
+
   if (!AI_DISCLOSURE_PREFIX.test(caption)) {
-    addFinding('weaponsArmor', article, 'imageInfo.caption',
+    addFinding(collection, article, `${field}.caption`,
       'AI-generated image must disclose itself in the FIRST sentence: caption must begin "AI-generated illustration ...".',
       caption.slice(0, 120))
   }
-  if (!/no suitably licensed/i.test(`${caption} ${stringValue(entry.imageInfo?.note) ? entry.imageInfo.note : ''}`)) {
-    addFinding('weaponsArmor', article, 'imageInfo.note',
+  if (!/no suitably licensed/i.test(`${caption} ${note}`)) {
+    addFinding(collection, article, `${field}.note`,
       'AI-generated image must record WHY it was needed ("no suitably licensed photograph of ... could be sourced").',
       '')
   }
 }
 
 function validateWeaponsArmorFullObject(article, entry) {
-  validateAiGeneratedImage(article, entry)
+  // AI disclosure is checked archive-wide at the call site above; not repeated here.
   // An AI illustration is a deliberate, disclosed last resort — the non-object
   // keyword guard below is about mislabelled photographs, so skip it here.
   if (entry.imageInfo?.aiGenerated === true) return
