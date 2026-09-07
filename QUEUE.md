@@ -108,9 +108,17 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Note for M3: Tricamarum's battleContinuity points at Manzikert only because
       the archive holds no Byzantine battle between 534 and 1071. **Re-point it at
       the first Gothic War battle when M3 lands.**
-- [ ] **M3 — Gothic War** + Siege of Rome 537–538, Taginae, Mons Lactarius;
-      Ostrogothic Kingdom; Narses, Totila, Vitiges, Teias ← NEXT
-- [ ] M4 — Nineveh 627; Sasanian Empire; Heraclius, Khosrow II, Shahrbaraz
+- [x] **M3 — Gothic War** (2026-09-07). Gothic War, Siege of Rome 537–538,
+      Taginae, Mons Lactarius, Ostrogothic Kingdom, Narses, Totila, Teias —
+      8 articles. Tricamarum's continuity re-pointed off Manzikert onto the Siege
+      of Rome, so the chain now runs Ad Decimum → Tricamarum → Rome → Taginae →
+      Mons Lactarius.
+      **VITIGES DEFERRED** — no image of him exists in any form (no coin, no later
+      depiction, nothing on Commons), so he cannot have an article. The Siege of
+      Rome names him as the Gothic commander without a link, per the archive's
+      convention for a named commander awaiting an article. Revisit if an image
+      surfaces.
+- [ ] **M4 — Nineveh 627**; Sasanian Empire; Heraclius, Khosrow II, Shahrbaraz ← NEXT
 - [ ] M5 — Siege of Constantinople 626; Avar Khaganate
 - [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama
 - [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V, Michael III, Petronas
