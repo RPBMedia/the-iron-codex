@@ -1,5 +1,10 @@
 -- The Iron Codex — user store (run once in the Supabase SQL editor).
 --
+-- SHARING AN EXISTING PROJECT: if you are running this inside a Supabase project
+-- that already serves another app, rename the table here to `ironcodex_users`
+-- (replace all four occurrences below) and set SUPABASE_USERS_TABLE to the same
+-- value in the environment. Nothing else changes.
+--
 -- Replaces the JSON file that lived inside the deployment bundle, which could
 -- never be written on a serverless host. Column names are snake_case and mapped
 -- to the app's camelCase in server/user-store.js.

@@ -29,7 +29,10 @@ const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/+$/, '')
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
 export const usingSupabase = Boolean(SUPABASE_URL && SUPABASE_KEY)
 
-const TABLE = 'users'
+// Configurable so the store can live in an EXISTING Supabase project alongside
+// another app's tables without colliding — set SUPABASE_USERS_TABLE to something
+// namespaced like `ironcodex_users` when sharing a project.
+const TABLE = process.env.SUPABASE_USERS_TABLE || 'users'
 
 /** Row (snake_case, as stored) -> user object (camelCase, as the app expects). */
 function fromRow(row) {
