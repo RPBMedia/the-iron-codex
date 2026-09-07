@@ -31,11 +31,26 @@ const placeholderMetadataPattern = /^(modern photograph, map, or historical imag
 const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
 const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
 const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
-// Caption length limits — see validateCaptionLength. Declared here with the other
-// module constants because the validators run during module execution, so a const
-// declared beside its function would still be in the temporal dead zone.
+
+// ---------------------------------------------------------------------------
+// EVERY module-level const a validator touches MUST be declared up here.
+//
+// This file runs its validation loop at module top level, not inside a main().
+// Function declarations hoist, so a validator defined below the loop is callable
+// from it — but a `const` declared below the loop is still in the temporal dead
+// zone when the loop calls into it, and you get "Cannot access X before
+// initialization" pointing at a line that looks perfectly ordinary.
+//
+// This has now cost three debugging rounds. Put the constant here, not next to
+// the function that uses it.
+// ---------------------------------------------------------------------------
+
+// Caption length limits — see validateCaptionLength.
 const CAPTION_MAX_SENTENCES = 2
 const CAPTION_MAX_CHARS = 240
+
+// Primary image src -> the article using it; see validateWeaponsArmorImageUnique.
+const weaponsArmorPrimaryImages = new Map()
 // EMPTY as of 2026-09-06 — every Weapons & Armor article now has a compliant
 // principal image, so no article needs an exception. Removed: 'buckler' (now a
 // photographed reproduction, front and rear; MS I.33 demoted to the
@@ -115,6 +130,8 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'weaponsArmor' && primaryImageField) {
       validateWeaponsArmorFullObject(article, entry)
+      validateWeaponsArmorImageUnique(article, entry, primaryImageField)
+      validateWeaponsArmorImageMetadata(article, entry)
     }
 
     if (collection === 'locations' && primaryImageField) {
@@ -312,6 +329,47 @@ function decodeImageFilename(src) {
     return decodeURIComponent(tail)
   } catch {
     return tail
+  }
+}
+
+/**
+ * Weapons & Armor images must be unique to their article.
+ *
+ * The per-article image checklist in CLAUDE.md requires it, and the reason is
+ * editorial rather than technical: two articles showing the same photograph is a
+ * tell that one of them was never given a properly sourced image of its own
+ * subject. Nothing else in the pipeline would notice.
+ *
+ * Scoped to Weapons & Armor, where the checklist applies. Elsewhere sharing an
+ * image can be legitimate — a battle and its commander may reasonably use the same
+ * manuscript scene.
+ */
+function validateWeaponsArmorImageUnique(article, entry, primaryImageField) {
+  const src = String(entry[primaryImageField] ?? '').trim()
+  if (!src) return
+  const previous = weaponsArmorPrimaryImages.get(src)
+  if (previous) {
+    addFinding('weaponsArmor', article, primaryImageField, `primary image is already used by "${previous}" — every W&A article needs its own`)
+    return
+  }
+  weaponsArmorPrimaryImages.set(src, article)
+}
+
+/**
+ * The schema section of CLAUDE.md requires caption, creator, date, source,
+ * sourceUrl and note on every Weapons & Armor imageInfo. The generic metadata
+ * check only enforces caption, source and a resolvable source URL, because those
+ * are what the archive-wide rule demands — creator, date and note are the
+ * provenance record, and they matter more here now that they are no longer
+ * rendered and so cannot be spotted by eye.
+ */
+function validateWeaponsArmorImageMetadata(article, entry) {
+  const info = entry.imageInfo
+  if (!info) return
+  for (const key of ['creator', 'date', 'note']) {
+    if (!stringValue(info[key])) {
+      addFinding('weaponsArmor', article, `imageInfo.${key}`, `weapons & armor imageInfo is missing "${key}"`)
+    }
   }
 }
 

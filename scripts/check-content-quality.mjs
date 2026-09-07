@@ -962,6 +962,7 @@ const WA_ALLOWED_TYPES = new Set([
   'Weapon', 'Armor', 'Helmet', 'Shield', 'Garment', 'Famous weapon', 'Famous armor'
 ])
 const WA_MIN_KNOWN_FOR = 3
+const WA_MIN_RELATED = 5
 const WA_KNOWN_FOR_TEMPLATE = /balanced cost, mobility, visibility|changed as weapons, horse warfare|fantasy archetype|construction and use changed with armor|specific tactical setting/i
 const WA_MIN_SECTIONS = 6
 const WA_MIN_PARAGRAPHS_PER_SECTION = 3
@@ -1017,6 +1018,15 @@ function validateWeaponsArmorDepth(entry, label) {
   // interchangeable template bullets about balancing "cost, mobility, visibility,
   // and resistance to weapons" — which on the surcoat, a garment that stops
   // nothing, was not merely generic but wrong.
+  // CLAUDE.md sets a higher bar for Weapons & Armor than the archive-wide minimum
+  // of three: a piece of equipment should connect to similar and same-period kit,
+  // the battles where it mattered, its users, and its counters. The generic
+  // validateRelatedEntries checks the links resolve; this checks there are enough.
+  const related = Object.values(entry.relatedEntries ?? {}).flat().length
+  if (related < WA_MIN_RELATED) {
+    push('relatedEntries', `weapons & armor article has ${related} related entries (minimum ${WA_MIN_RELATED})`)
+  }
+
   const bullets = entry.knownFor ?? []
   if (bullets.length < WA_MIN_KNOWN_FOR) {
     push('knownFor', `knownFor has ${bullets.length} bullet(s) (minimum ${WA_MIN_KNOWN_FOR})`)

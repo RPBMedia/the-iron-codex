@@ -100399,6 +100399,20 @@
             "title": "Mail Armor",
             "type": "weaponArmor",
             "slug": "mail-armor"
+          },
+          {
+            "title": "Viking Sword",
+            "type": "weaponArmor",
+            "slug": "viking-sword",
+            "label": "The costly weapon the axe stood in for"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Bannockburn",
+            "type": "event",
+            "slug": "battle-of-bannockburn",
+            "label": "Robert the Bruce killed Henry de Bohun with an axe here"
           }
         ]
       },
@@ -102086,6 +102100,12 @@
             "title": "Plate Armor",
             "type": "weaponArmor",
             "slug": "plate-armor"
+          },
+          {
+            "title": "Coat of Plates",
+            "type": "weaponArmor",
+            "slug": "coat-of-plates",
+            "label": "Worn over the padded garment"
           }
         ]
       },
@@ -103570,6 +103590,18 @@
             "title": "Arming Sword",
             "type": "weaponArmor",
             "slug": "arming-sword"
+          },
+          {
+            "title": "Ulfberht Swords",
+            "type": "weaponArmor",
+            "slug": "ulfberht-swords",
+            "label": "Frankish blades of the era its pommel belongs to"
+          },
+          {
+            "title": "Viking Sword",
+            "type": "weaponArmor",
+            "slug": "viking-sword",
+            "label": "The northern European tradition its pommel form comes from"
           }
         ]
       },
@@ -104998,7 +105030,8 @@
         "creator": "Unknown maker or photographer",
         "source": "Walters Art Museum / Wikimedia Commons",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italian_-_Mail_-_Walters_51575.jpg",
-        "note": "Surviving mail; ring pattern and construction vary by date and region."
+        "note": "Surviving mail; ring pattern and construction vary by date and region.",
+        "date": "15th century (object)"
       },
       "knownFor": [
         "Four-in-one riveted rings, so a blow is spread across the surrounding fabric rather than concentrated where it landed.",
