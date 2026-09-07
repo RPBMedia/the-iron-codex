@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5 shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5 and M6 shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -145,8 +145,27 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Continuity points forward to Nineveh 627. **When M6 lands, consider whether
       717–718 is the better next step from 626** — same walls, same method, and
       the two sieges are usually read together.
-- [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama ← NEXT
-- [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V, Michael III, Petronas
+- [x] **M6 — Siege of Constantinople 717–718** (2026-09-07). The siege and Leo III
+      — 2 articles.
+      **MASLAMA IBN ABD AL-MALIK DEFERRED**, and this one needs an owner decision
+      rather than filing: he commanded the entire expedition and no image of him
+      exists in any form — no portrait, no coin (never caliph), and his own
+      Wikipedia article leads with the Manasses miniature used here for the siege.
+      See "Blocked on the user" below: this is the **fourth consecutive deferral**
+      and all four are non-Latin, non-Byzantine.
+      **626's continuity was deliberately NOT re-pointed here.** The selection
+      rule puts "next major event later in the same war" first, and for 626 that
+      is Nineveh. The two sieges are paired in related entries instead, both ways.
+      Source note, the mirror of M5's: for 626 there was nothing from the other
+      side; here al-Tabari and the Arabic compilers give a full account that
+      disagrees with Theophanes on the negotiations, the sequence and the scale.
+      Both agree on the cause — fire, hunger and winter, not assault.
+      Tervel handled per the agreed correction: the Bulgar intervention of 718 is
+      credited to Tervel *or* Kormesiy and the article says the sources do not
+      settle it.
+- [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V,
+      Michael III, Petronas ← NEXT. Constantine V is already owed a succession
+      link from Leo III's article.
 - [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II
 - [ ] M9 — Eastern conquests (Aleppo, Cyprus, Cilicia, Antioch); Tzimiskes, Bourtzes, Sayf al-Dawla
 - [ ] M10 — Kleidion 1014; First Bulgarian Empire; Basil II, Samuel
@@ -411,6 +430,30 @@ with the owner if any of those bullets mattered specifically._
 
 ## Blocked on the user
 
+- **DECISION NEEDED — the image rule is systematically deferring non-Christian
+  and non-European commanders.** Raised 2026-09-07 after M6. Four consecutive
+  Track A milestones have deferred a major figure for having no image in any
+  form: **Vitiges** (M3, Ostrogothic king), **Shahrbaraz** (M4, Persian general
+  and briefly shah), **Sergius and Bonus** (M5, the two men who actually ran the
+  626 defence), and now **Maslama ibn Abd al-Malik** (M6), who commanded the
+  largest attack on Constantinople before 1453.
+  This is not bad luck. Portraits, coins, seals and manuscript depictions survive
+  overwhelmingly for Christian European rulers, so a rule requiring an image of
+  the person silently filters the archive toward one side of every frontier it
+  covers. The rule itself is sound and should not be dropped — the alternative is
+  initials cards and fabrications.
+  **Three options, owner's call:**
+  1. **Keep as is.** Consistent, and the deferrals are documented in prose and in
+     this file. Accepts that Maslama has no page.
+  2. **Allow a documented associated monument or place** as the primary image for
+     such figures, captioned to say exactly what it is and that it is not a
+     likeness (for Maslama: the Juma Mosque at Derbent, a city he took in 714).
+     Narrow, honest, and it unblocks roughly this whole category.
+  3. **Allow a "no likeness survives" article type** with a map or a contemporary
+     object of the person's realm instead. Widest, and the one most likely to
+     drift.
+  Recommendation: **option 2**, restricted to figures with a securely documented
+  place association and never for anyone whose likeness does survive.
 - **CRITICAL — account creation has never worked in production. Needs a
   storage decision from the owner.** Diagnosed 2026-09-06.
   Google sign-in now reaches Google, returns, and fails at the *last* step. The
