@@ -108474,14 +108474,15 @@
       "region": "Europe, especially the Empire and Bohemia",
       "material": "Cast bronze or forged iron barrel on a wooden tiller",
       "battlefieldRole": "Personal gunpowder weapon for infantry and defenders",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tannenbergb%C3%BCchse%20Germanisches%20Nationalmuseum.jpg",
+      "image": "/hand-cannon-ai.png",
       "imageInfo": {
-        "caption": "The Tannenberg gun, the oldest surviving European firearm, recovered from a castle destroyed in 1399 and now in the Germanisches Nationalmuseum.",
-        "creator": "Unknown German founder; photograph via Wikimedia Commons",
-        "date": "before 1399 (object); photograph 2011",
-        "source": "Germanisches Nationalmuseum, Nuremberg / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tannenbergb%C3%BCchse_Germanisches_Nationalmuseum.jpg",
-        "note": "The original cast bronze barrel, complete, with its touch hole visible. The wooden tiller it was mounted on has not survived, as is normal for this weapon — the wood rots and the barrel does not. Licensed CC BY-SA 4.0."
+        "caption": "AI-generated illustration of a European hand cannon of about 1400, shown complete: a short bronze barrel banded to a plain wooden tiller.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph of a complete hand cannon could be sourced: the wooden tiller always rots and the metal never does, so every surviving example — on Wikimedia Commons, at the Metropolitan Museum, at Cleveland, and from reproduction makers — is a bare barrel. It follows the general European form of about 1380 to 1420 and is not evidence for any individual surviving weapon."
       },
       "summary": "The hand cannon was the first personal firearm: a short barrel on a wooden shaft, fired by touching a hot wire or a match to a hole in the top.",
       "details": "Crude, slow and inaccurate, it nonetheless did the one thing that mattered — it made a soldier dangerous after a fortnight of training rather than a decade, which is why it displaced both the crossbow and the war bow.",
@@ -108654,7 +108655,19 @@
             "value": "Personal firearm"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Famous examples or users",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tannenbergb%C3%BCchse%20Germanisches%20Nationalmuseum.jpg",
+          "caption": "The Tannenberg gun, the oldest surviving European firearm, from a castle destroyed in 1399 and now in the Germanisches Nationalmuseum.",
+          "creator": "Unknown German founder; photograph via Wikimedia Commons",
+          "date": "before 1399 (object); photograph 2011",
+          "source": "Germanisches Nationalmuseum, Nuremberg / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tannenbergb%C3%BCchse_Germanisches_Nationalmuseum.jpg",
+          "note": "What actually survives: the cast bronze barrel with its touch hole, the wooden tiller long since rotted away. Shown here as evidence for the object rather than as a picture of the weapon in service."
+        }
+      ]
     },
     {
       "id": "pike",
