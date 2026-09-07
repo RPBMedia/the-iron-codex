@@ -428,6 +428,20 @@ with the owner if any of those bullets mattered specifically._
 
 ---
 
+## Open — small, ready to run
+
+- **33 unlinked commanders elsewhere in the archive still carry no explanation.**
+  Found 2026-09-07 by the audit built into
+  `scripts/annotate-unlinked-commanders.mjs`, which lists them on every run. The
+  Track A ones are done; the rest are mostly the documented backlog in CLAUDE.md
+  (Warenne, Buchan and Douglas, the Orléans commanders, La Hire and Xaintrailles,
+  Jean Bureau, Edwin and Morcar, Eiríkr Hákonarson, Guy le Bouteiller, Hervey de
+  Glanvill, Fernando Pérez de Traba, Kjotve the Rich) plus the Mongol-invasion
+  commanders. Each needs one line saying whether it is "no article yet" or "no
+  image survives" — add to the `NOTES` map and re-run. **Not urgent, but it is
+  the difference between a stated decision and an apparent oversight**, which is
+  exactly what the owner caught on the 717–718 siege.
+
 ## Blocked on the user
 
 - **DECISION NEEDED — the image rule is systematically deferring non-Christian

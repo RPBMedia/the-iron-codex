@@ -672,6 +672,13 @@ function EventHero({ article }) {
                       {participant.leaders.map((leader) => (
                         <li key={`${participant.side}-${leader.slug ?? leader.name}`}>
                           <EntryLink entry={leader}>{leader.name ?? leader.title}</EntryLink>
+                          {/* A commander with no article must say why, or an
+                              unlinked name reads as an oversight rather than a
+                              decision — the same reason succession boxes carry a
+                              status and army sizes carry a confidence note. */}
+                          {!leader.slug && leader.note && (
+                            <p className="event-uncertain-note">{leader.note}</p>
+                          )}
                         </li>
                       ))}
                     </ul>
