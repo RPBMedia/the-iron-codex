@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M12 and M8b shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A COMPLETE through M13; only M14 integration remains. Track B M5 parked by the owner)_
 
 ---
 
@@ -334,8 +334,48 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       **Pelagonia's continuity points at Kosovo 1389. Re-point it at Bapheus 1302
       when M13 lands** — the first Ottoman victory over a Byzantine army, and the
       real sequel to everything Michael VIII rebuilt.
-- [ ] M13 — Contrast defeats: Yarmouk 636, Myriokephalon 1176, Sack of
-      Constantinople 1204, Bapheus 1302
+- [x] **M13 — Contrast defeats** (2026-09-07). Nine articles: **Yarmouk 636**,
+      **Myriokephalon 1176**, the **Fourth Crusade**, the **siege and sack of
+      Constantinople 1204** and **Bapheus 1302**, plus the four actors the archive
+      lacked — the **Rashidun Caliphate**, the **Sultanate of Rum**, **Khalid ibn
+      al-Walid** and **Kilij Arslan II**.
+      **The 1204 sack is typed `Siege`, not `Fall of City`**, and deliberately:
+      it *was* decided by fighting men off a wall — two assaults on the sea walls,
+      on 9 and 12 April. That is the honest type and it also makes the article a
+      legal continuity target, which `fall-of-constantinople` is not. This is the
+      problem that blocked the Sirmium re-point in M11, solved rather than worked
+      around.
+      **All three queued continuity re-points applied**: Nineveh → Yarmouk (off
+      Manzikert), Sirmium → the 1204 sack (off Kosovo), Pelagonia → Bapheus (off
+      Kosovo).
+      **KHALID IBN AL-WALID BREAKS THE DEFERRAL PATTERN.** Six Track A commanders
+      have been deferred for want of any image, and every one was non-Latin. Khalid
+      clears the bar on a 1935 line drawing from an illustrated Arabic history —
+      later artwork, which CLAUDE.md permits for people with no contemporary
+      portrait. The lesson for the open decision below: the deferral list is a fact
+      about what Commons holds and about how hard the search was, not about who
+      mattered. Two of the six may be recoverable the same way.
+      **Kilij Arslan II has a CONTEMPORARY depiction** — a mina'i tile from the
+      Alâeddin Palace at Konya showing him enthroned, made in his own reign. Rare
+      enough in this part of the archive to be worth recording. His coinage was
+      considered and rejected: the surviving copper is too corroded to read.
+      **Two fixes to `kilij-arslan-i` that M13 forced.** Its primary image was a
+      locator map of the Sultanate of Rum — the "certain failure" from the
+      person-image audit below — and that map is now the primary image of the
+      `sultanate-of-rum` article created here, where it belongs. He takes an 1872
+      Katzler engraving instead, which depicts him. His `quickFacts.dynasty` also
+      read "Not dynastic", which is simply wrong; he was a Seljuk, son of Suleiman
+      ibn Qutalmish, and the value silenced his Dynasty card because it sits in the
+      validator's `NOT_A_DYNASTY` set.
+      **Image work worth recording, since two of three were caught only by looking:**
+      the Delacroix exists on Commons at 4608×3456 — a photograph of the painting
+      *hanging in the Louvre*, frame, wall, neighbouring canvases and visitors
+      included; the clean 2223×1820 reproduction is the one to use, and bigger was
+      worse. The best Rashidun conquest map has an Arabic-only legend, so it is a
+      section image with the phases explained and the English map leads. The only
+      Commons files purporting to be portraits of Kilij Arslan I are three uploads
+      from one account described as "potre" and "history", undated and
+      unattributed — unusable whatever licence is claimed on them.
 - [ ] M14 — PRD/index integration, cross-links, final validation
 
 **Historical corrections already agreed** (apply when writing): Nasar belongs to
@@ -621,12 +661,33 @@ with the owner if any of those bullets mattered specifically._
   `al-adil-ii`, `al-mansur-ali`, `baraka-khan`, `yusuf-ibn-tashfin`,
   `muhammad-al-nasir`. Likely passes: the seals of `vytautas`, `jadwiga-of-poland`,
   `robert-ii-of-scotland`, `john-balliol` and `wladyslaw-iii-of-poland`, which show
-  enthroned or equestrian figures. **Certain failure: `kilij-arslan-i`**, whose
-  primary image is a *locator map* of the Sultanate of Rum — not a person at all.
+  enthroned or equestrian figures. **`kilij-arslan-i` — the certain failure, whose
+  primary image was a *locator map* — was FIXED in M13** (2026-09-07): it now uses
+  an 1872 Katzler engraving that depicts him, and the map became the primary image
+  of the new `sultanate-of-rum` article, which is where it belonged. **The method
+  that fixed it is the method for the rest**: when no contemporary depiction exists,
+  a later illustration that shows the person beats a map, a coin or a building, and
+  CLAUDE.md already permits it provided the caption is honest about what it is.
+  Khalid ibn al-Walid was resolved the same way in the same milestone, on a 1935
+  drawing. Try that before deferring any of the six above.
   The Scandinavian pennies (`sweyn-forkbeard`, `magnus-the-good`, `olof-skotkonung`,
   `anund-jacob`, `guthrum`, `olaf-guthfrithson`, and the Danish and Swedish series)
   need looking at one by one: some carry crude busts and pass, some carry a cross
   and a legend and do not.
+
+- **The image rule's systematic exclusion of non-Latin commanders has a partial
+  answer, found in M13** (2026-09-07). Six Track A commanders were deferred for
+  want of any image, and all six were non-Latin — the pattern flagged for the owner
+  under "Blocked on the user" below. **Khalid ibn al-Walid, who would have been the
+  seventh, was not deferred**, because a 1935 line drawing from an illustrated
+  Arabic history depicts him and CLAUDE.md permits later artwork with an honest
+  caption. Nothing about the rule needed changing; what needed changing was how far
+  the search went. **Before the owner's decision is even needed, re-search the six**
+  (Vitiges, Shahrbaraz, Sergius, Bonus, Maslama, Kontostephanos) in later and
+  non-European illustrated traditions — nineteenth- and twentieth-century book
+  illustration, Ottoman and Persian manuscript painting, national-museum
+  commissions — rather than in Commons categories alone. Two or three may be
+  recoverable. That shrinks the decision below rather than answering it.
 
 - **AI-image disclosure — done 2026-09-07, and the gate now covers everything.**
   The owner's rule: every AI-generated image must say so **in its caption**, and
