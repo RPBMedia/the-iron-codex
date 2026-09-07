@@ -940,6 +940,29 @@ const rulersSectionRe = /major (rulers|figures)|the states in brief/i
  * a form, so they take 7 sections rather than the 8 topics a generic type needs.
  */
 const WA_NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
+
+/**
+ * The closed set of Weapons & Armor categories.
+ *
+ * `weaponArmorType` is not decoration: it drives the archive filter, the card and
+ * search labels, the Category fact, and — in both validators — whether an article
+ * is treated as a named artifact, which governs the AI-image ban and the article
+ * structure required. A typo or an invented value silently creates a one-item
+ * filter category and can switch a guard off, so the set is closed and checked.
+ *
+ * "Helmet" means a RIGID head defence. Mail head protection is Armor: the mail
+ * coif was typed Helmet for the life of the archive because a name-matching regex
+ * in add-weapons-armor-data.mjs caught the word "coif", and nobody reviewed it.
+ *
+ * "Garment" covers textile worn WITH armour that is not itself armour — the
+ * surcoat identifies its wearer and sheds rain, and stops no weapon at all.
+ * Filing it under Armor contradicted the article, which says so in as many words.
+ */
+const WA_ALLOWED_TYPES = new Set([
+  'Weapon', 'Armor', 'Helmet', 'Shield', 'Garment', 'Famous weapon', 'Famous armor'
+])
+const WA_MIN_KNOWN_FOR = 3
+const WA_KNOWN_FOR_TEMPLATE = /balanced cost, mobility, visibility|changed as weapons, horse warfare|fantasy archetype|construction and use changed with armor|specific tactical setting/i
 const WA_MIN_SECTIONS = 6
 const WA_MIN_PARAGRAPHS_PER_SECTION = 3
 const WA_MIN_SECTION_CHARS = 300
@@ -949,6 +972,15 @@ function validateWeaponsArmorDepth(entry, label) {
   const sections = entry.contentSections ?? []
   const push = (path, pattern, snippet = '') =>
     findings.push({ collection: 'weaponsArmor', article: label, path, pattern, snippet })
+
+  if (!entry.weaponArmorType) {
+    push('weaponArmorType', 'weapons & armor article has no weaponArmorType')
+  } else if (!WA_ALLOWED_TYPES.has(entry.weaponArmorType)) {
+    push(
+      'weaponArmorType',
+      `unknown weaponArmorType "${entry.weaponArmorType}" — allowed: ${[...WA_ALLOWED_TYPES].join(', ')}`
+    )
+  }
 
   if (sections.length < WA_MIN_SECTIONS) {
     push('contentSections', `weapons & armor article has ${sections.length} sections (minimum ${WA_MIN_SECTIONS})`)
@@ -978,6 +1010,21 @@ function validateWeaponsArmorDepth(entry, label) {
 
   if (total < WA_MIN_TOTAL_CHARS) {
     push('contentSections', `weapons & armor article body is ${total} chars (minimum ${WA_MIN_TOTAL_CHARS})`)
+  }
+
+  // knownFor renders as its own block and is the first thing many readers take in,
+  // so it must carry subject-specific facts. Twenty-three articles shipped with two
+  // interchangeable template bullets about balancing "cost, mobility, visibility,
+  // and resistance to weapons" — which on the surcoat, a garment that stops
+  // nothing, was not merely generic but wrong.
+  const bullets = entry.knownFor ?? []
+  if (bullets.length < WA_MIN_KNOWN_FOR) {
+    push('knownFor', `knownFor has ${bullets.length} bullet(s) (minimum ${WA_MIN_KNOWN_FOR})`)
+  }
+  for (const bullet of bullets) {
+    if (WA_KNOWN_FOR_TEMPLATE.test(bullet)) {
+      push('knownFor', 'templated knownFor bullet — replace with a subject-specific fact', bullet.slice(0, 120))
+    }
   }
 
   // A generic type article explains a form; a named artifact explains an object,

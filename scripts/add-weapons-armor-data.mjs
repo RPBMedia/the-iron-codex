@@ -164,7 +164,13 @@ function armor({
     id,
     name,
     aliases,
-    weaponArmorType: /shield|buckler|pavise/i.test(name) ? 'Shield' : /helm|helmet|bascinet|sallet|coif/i.test(name) ? 'Helmet' : 'Armor',
+    // Guessed from the name, so ALWAYS review the result — this line typed the
+    // mail coif as a Helmet for the life of the archive, because "coif" matched
+    // the helmet pattern. A mail coif is a hood worn UNDER a helmet, not one.
+    // "Helmet" here means a rigid head defence; mail head protection is Armor.
+    weaponArmorType: /shield|buckler|pavise/i.test(name)
+      ? 'Shield'
+      : /helm|helmet|bascinet|sallet|kettle.?hat/i.test(name) ? 'Helmet' : 'Armor',
     year,
     period,
     region,
