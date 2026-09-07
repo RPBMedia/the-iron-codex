@@ -1102,6 +1102,30 @@ function validateWeaponsArmorDepth(entry, label) {
  * names them. The reverse is not required, because a person article may reasonably
  * mention equipment generally without the type article listing every user.
  */
+/**
+ * Period labels say "Middle Ages", never "medieval".
+ *
+ * The archive had grown both conventions at once, which is invisible in the data
+ * and glaring on an index page where two cards sit side by side — "LATE MIDDLE
+ * AGES" next to "HIGH TO LATE MEDIEVAL". Forty-four values were normalised on
+ * 2026-09-07; this stops them drifting apart again.
+ *
+ * Only the `period` field is checked. "Medieval" remains perfectly good English
+ * in prose, and the article bodies use it freely.
+ */
+function validatePeriodLabel(collection, entry, label) {
+  if (typeof entry.period !== 'string' || !entry.period) return
+  if (/\bmedieval\b/i.test(entry.period)) {
+    findings.push({
+      collection,
+      article: label,
+      path: 'period',
+      pattern: `period label uses "medieval" ("${entry.period}") — write it as "Middle Ages" with an Early/High/Late prefix`,
+      snippet: ''
+    })
+  }
+}
+
 function validatePersonObjectReciprocity(collection, entry, label) {
   const people = entry.relatedEntries?.people ?? []
   for (const link of people) {
@@ -1181,6 +1205,8 @@ for (const [collection, entries] of Object.entries(data)) {
     if (collection === 'weaponsArmor') {
       validateWeaponsArmorDepth(entry, labelFor(entry))
     }
+
+    validatePeriodLabel(collection, entry, labelFor(entry))
 
     if (collection === 'weaponsArmor' || collection === 'artifacts') {
       validatePersonObjectReciprocity(collection, entry, labelFor(entry))
