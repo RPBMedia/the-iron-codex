@@ -57,7 +57,15 @@ const weaponsArmorPrimaryImages = new Map()
 // battlefield-role section) and 'surcoat' (now a photographed reproduction; the
 // tomb effigy demoted to historical development). Add an id here ONLY with a
 // reviewed, written reason — an empty allowlist is the goal state.
-const weaponsArmorFullObjectFallbackAllowlist = new Set([])
+const weaponsArmorFullObjectFallbackAllowlist = new Set([
+  // The article is about a GROUP of objects — helm, jupon, shield, gauntlets and
+  // scabbard hanging together at Canterbury — so the image correctly shows the
+  // whole display rather than one isolated item. The guard fires only on the word
+  // "cropped" in the filename, which here means the photograph was tightened onto
+  // the case, the opposite of the problem the rule exists to catch. Reviewed
+  // 2026-09-07.
+  'black-prince-achievements'
+])
 
 // --- Medieval location image guard (see CLAUDE.md "Medieval Location Image Rules") ---
 // Location/city/polity MAIN images must depict the medieval place or surviving
