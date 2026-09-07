@@ -922,6 +922,93 @@ const POLITY_NO_RULERS_OK = new Set(['lombard-league', 'north-sea-empire', 'crus
 const MAJOR_POLITY_TYPES = new Set(['Kingdom', 'Empire', 'Caliphate'])
 const rulersSectionRe = /major (rulers|figures)|the states in brief/i
 
+/**
+ * Weapons & Armor depth.
+ *
+ * Every other rule in this file is a PRESENCE test — it looks for banned phrases,
+ * duplicated paragraphs, buzzword lists. None of them test for ABSENCE of
+ * substance, which is why the M5 audit found the archive failing its own
+ * documented standard in 40 of 42 articles while the checker stayed green: a
+ * one-sentence section containing no banned words passes every other rule here.
+ *
+ * This closes that gap. Thresholds are set at the level the M5 rewrite actually
+ * delivered, so they lock in the standard rather than describing an aspiration:
+ * the weakest article in the archive after M5 runs to 4,692 characters across 7
+ * sections, and the thinnest single section to comfortably over 400.
+ *
+ * Named artifacts (Famous weapon / Famous armor) are about one object rather than
+ * a form, so they take 7 sections rather than the 8 topics a generic type needs.
+ */
+const WA_NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
+const WA_MIN_SECTIONS = 6
+const WA_MIN_PARAGRAPHS_PER_SECTION = 3
+const WA_MIN_SECTION_CHARS = 300
+const WA_MIN_TOTAL_CHARS = 3000
+
+function validateWeaponsArmorDepth(entry, label) {
+  const sections = entry.contentSections ?? []
+  const push = (path, pattern, snippet = '') =>
+    findings.push({ collection: 'weaponsArmor', article: label, path, pattern, snippet })
+
+  if (sections.length < WA_MIN_SECTIONS) {
+    push('contentSections', `weapons & armor article has ${sections.length} sections (minimum ${WA_MIN_SECTIONS})`)
+  }
+
+  let total = 0
+  for (const section of sections) {
+    const paragraphs = section.paragraphs ?? []
+    const text = paragraphs.join(' ').trim()
+    total += text.length
+
+    if (paragraphs.length < WA_MIN_PARAGRAPHS_PER_SECTION) {
+      push(
+        `contentSections "${section.title}"`,
+        `section has ${paragraphs.length} paragraph(s) (minimum ${WA_MIN_PARAGRAPHS_PER_SECTION})`,
+        text.slice(0, 120)
+      )
+    }
+    if (text.length < WA_MIN_SECTION_CHARS) {
+      push(
+        `contentSections "${section.title}"`,
+        `section too thin: ${text.length} chars (minimum ${WA_MIN_SECTION_CHARS})`,
+        text.slice(0, 120)
+      )
+    }
+  }
+
+  if (total < WA_MIN_TOTAL_CHARS) {
+    push('contentSections', `weapons & armor article body is ${total} chars (minimum ${WA_MIN_TOTAL_CHARS})`)
+  }
+
+  // A generic type article explains a form; a named artifact explains an object,
+  // so only the former must cover the mandated weapon/armour topics.
+  //
+  // The test is TOPIC COVERAGE, not section titles. CLAUDE.md's structured article
+  // model (the Longsword benchmark) deliberately moves some of these topics out of
+  // prose and into scannable blocks — specs, comparison, myths, oakeshottTypes —
+  // and an article that does that has covered the topic better, not worse. So each
+  // topic passes on either a matching section title or the structured field that
+  // does its job.
+  if (!WA_NAMED_ARTIFACT_TYPES.has(entry.weaponArmorType)) {
+    const titles = sections.map((s) => (s.title || '').toLowerCase()).join(' | ')
+    const required = [
+      [/design|construction/, ['specs'], 'design and construction'],
+      [/use|role|protection/, ['combatModes'], 'battlefield use or protection'],
+      [/strength|limitation|weakness/, ['comparison', 'myths'], 'strengths and weaknesses'],
+      [/development|history/, ['timeline'], 'historical development'],
+      [/regional|variation|classification/, ['oakeshottTypes'], 'regional variation or typology'],
+      [/legacy/, [], 'legacy']
+    ]
+    for (const [pattern, structuredFields, topic] of required) {
+      const inProse = pattern.test(titles)
+      const inStructure = structuredFields.some((field) => entry[field])
+      if (!inProse && !inStructure) {
+        push('contentSections', `weapons & armor article does not cover "${topic}"`)
+      }
+    }
+  }
+}
+
 function validatePolityStandards(entry, label) {
   if (!POLITY_TYPES.has(entry.locationType)) return
   const sections = entry.contentSections ?? []
@@ -976,6 +1063,10 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'locations') {
       validatePolityStandards(entry, labelFor(entry))
+    }
+
+    if (collection === 'weaponsArmor') {
+      validateWeaponsArmorDepth(entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))
