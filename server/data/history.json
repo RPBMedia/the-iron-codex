@@ -815,7 +815,7 @@
       "year": 1095,
       "location": "Clermont, France",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Urban_II_at_the_Council_of_Clermont.jpg",
-      "summary": "Pope Urban II called for an armed pilgrimage to the eastern Mediterranean.",
+      "summary": "At Clermont in November 1095 Urban II called on the knighthood of western Europe to march to the aid of the eastern Christians and recover Jerusalem — and got a far larger response than he had asked for.",
       "details": "Urban II's speech at Clermont launched a movement that combined penitential devotion, warfare, aristocratic ambition, and pilgrimage. The First Crusade culminated in the capture of Jerusalem in 1099 and reshaped relations among Latin Christendom, Byzantium, and Islamic polities.",
       "eventType": "Proclamation",
       "background": [
@@ -827,38 +827,41 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "Pope Urban II called for an armed pilgrimage to the eastern Mediterranean."
+            "On 27 November 1095, at the end of a church council at Clermont in the Auvergne, Pope Urban II preached a sermon in an open field outside the city to a crowd too large for the cathedral.",
+            "He called on the knights of the west to stop fighting each other and go to the aid of the eastern Christians, and to recover Jerusalem. He offered those who went the remission of penance for their sins.",
+            "The response exceeded anything he had planned for. Within four years an army had crossed Anatolia, taken Antioch and stormed Jerusalem — and the framework of holy war Urban improvised at Clermont shaped European politics for the next two centuries."
           ]
         },
         {
           "title": "Background",
           "paragraphs": [
-            "Byzantine appeals for western military assistance and papal ambitions for reform created the setting for Urban II's call at Clermont.",
-            "The speech framed armed pilgrimage as a penitential act and redirected aristocratic violence toward the eastern Mediterranean."
+            "The immediate cause was a request from Constantinople. The Byzantine emperor Alexios I, rebuilding after the loss of Anatolia to the Seljuk Turks, sent envoys to a council at Piacenza in March 1095 asking for western mercenaries.",
+            "That is what he asked for and it is not what he got. Urban converted a request for troops into an armed pilgrimage under papal authority — a different thing entirely, with its own leadership, its own objectives and no obligation to serve a Greek emperor.",
+            "The papacy had its own reasons. Urban was in the middle of the Investiture Controversy with the German emperor, had a rival pope in Rome, and led a reform movement that had been trying for decades to direct aristocratic violence outward. A war fought at the pope's call, by an army that answered to a papal legate, answered several problems at once."
           ]
         },
         {
-          "title": "Main events",
+          "title": "The sermon and what it said",
           "paragraphs": [
-            "Urban II's speech at Clermont launched a movement that combined penitential devotion, warfare, aristocratic ambition, and pilgrimage. The First Crusade culminated in the capture of Jerusalem in 1099 and reshaped relations among Latin Christendom, Byzantium, and Islamic polities."
+            "Five accounts of the sermon survive and no two agree. All of them were written after Jerusalem had fallen in 1099, by men shaping a speech to fit an outcome they already knew, and one of the five was not present.",
+            "What the versions share is a call to aid the eastern Christians, an account of atrocities against pilgrims, an appeal to knightly honour, and the offer of an indulgence. The cry \"Deus vult\" — God wills it — is reported as the crowd's response, and may well be the one detail everyone remembered accurately.",
+            "What is genuinely uncertain is how central Jerusalem was to what Urban actually said, as opposed to what the chroniclers put in his mouth once the city had been taken. Historians have argued the point for a century, and the archive states it as unresolved rather than picking a side."
           ]
         },
         {
-          "title": "Key figures",
+          "title": "The response",
           "paragraphs": [
-            "Pope Urban II (initiator at Clermont), Alexios I Komnenos (Byzantine emperor whose appeal helped prompt the call), Godfrey of Bouillon, Raymond IV of Toulouse, Bohemond I of Antioch, and Robert Curthose among the leading crusade commanders."
+            "Urban expected a disciplined force of knights departing the following August. What happened first was the People's Crusade: tens of thousands of poor pilgrims under preachers including Peter the Hermit, who left months early, massacred Jewish communities in the Rhineland on the way, and were destroyed by the Turks in Anatolia within weeks of crossing.",
+            "The pogroms of 1096 are the first mass violence against European Jewry of this kind, and they were carried out against the explicit instruction of local bishops, several of whom tried to shelter the communities and failed.",
+            "The princes' armies left in August 1096 as planned, under Raymond of Toulouse, Godfrey of Bouillon, Bohemond of Taranto and others — no king among them, and no single commander. They reached Constantinople, quarrelled with Alexios over oaths, crossed into Anatolia, took Antioch after an eight-month siege, and stormed Jerusalem on 15 July 1099."
           ]
         },
         {
-          "title": "Consequences",
+          "title": "Significance",
           "paragraphs": [
-            "The First Crusade led to the capture of Jerusalem in 1099 and the creation of Latin crusader states, permanently altering relations among western Europe, Byzantium, and Islamic polities."
-          ]
-        },
-        {
-          "title": "Historical significance",
-          "paragraphs": [
-            "First Crusade Proclaimed matters because it reveals how medieval authority was made through conflict, ritual, writing, negotiation, and memory."
+            "Clermont created the crusade as an institution: a war with a papal indulgence attached, fought by volunteers who took a vow, with legal protections for their property while away. Every later crusade — to the Holy Land, against the Albigensians, in Iberia, in the Baltic — works within the framework improvised here.",
+            "It also permanently altered the relationship between eastern and western Christendom. Alexios asked for mercenaries and received an independent armed movement that founded its own states in territory he regarded as imperial; the mutual grievance that produced runs directly to the sack of Constantinople in 1204.",
+            "And the indulgence had consequences the reformers did not intend. The idea that an act could remit penance, and later that it could be extended and eventually purchased, is one of the threads that leads to the Reformation four centuries later."
           ]
         }
       ],
@@ -922,7 +925,56 @@
             "slug": "baldwin-ii-of-jerusalem"
           }
         ]
-      }
+      },
+      "timeline": [
+        {
+          "date": "1071",
+          "title": "Manzikert",
+          "description": "The Byzantine defeat opens Anatolia to the Seljuk Turks and begins the crisis Alexios inherits.",
+          "links": [
+            {
+              "title": "Battle of Manzikert",
+              "type": "event",
+              "slug": "battle-of-manzikert"
+            }
+          ]
+        },
+        {
+          "date": "March 1095",
+          "title": "The appeal from Constantinople",
+          "description": "Alexios I's envoys ask the Council of Piacenza for western mercenaries."
+        },
+        {
+          "date": "27 November 1095",
+          "title": "The sermon at Clermont",
+          "description": "Urban II calls for an armed pilgrimage and offers the remission of penance."
+        },
+        {
+          "date": "Spring 1096",
+          "title": "The People's Crusade",
+          "description": "Tens of thousands leave early under popular preachers, months before the appointed date."
+        },
+        {
+          "date": "1096",
+          "title": "The Rhineland massacres",
+          "description": "Jewish communities are attacked and destroyed, against the efforts of local bishops."
+        },
+        {
+          "date": "August 1096",
+          "title": "The princes depart",
+          "description": "The main armies leave under Raymond of Toulouse, Godfrey of Bouillon and Bohemond of Taranto."
+        },
+        {
+          "date": "June 1098",
+          "title": "Antioch taken",
+          "description": "The crusade takes the city after an eight-month siege and is then besieged inside it."
+        },
+        {
+          "date": "15 July 1099",
+          "title": "Jerusalem stormed",
+          "description": "The city is taken and its population massacred; the crusader states are founded."
+        }
+      ]
     },
     {
       "id": "magna-carta",
@@ -1582,7 +1634,7 @@
       "year": 1189,
       "location": "Eastern Mediterranean",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siege_of_Acre.jpg",
-      "summary": "A major crusading expedition launched after Saladin captured Jerusalem in 1187.",
+      "summary": "The Third Crusade (1189–1192) was western Europe's answer to Saladin's capture of Jerusalem: three kings set out, one drowned, one went home, and the third failed to take the city and settled for access to it.",
       "details": "The Third Crusade brought rulers including Richard the Lionheart into conflict and negotiation with Saladin. It did not retake Jerusalem, but it preserved a reduced crusader presence on the coast and shaped later crusading memory.",
       "factions": [
         "Kingdom of England",
@@ -1623,39 +1675,57 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "A major crusading expedition launched after Saladin captured Jerusalem in 1187."
+            "Saladin destroyed the army of the kingdom of Jerusalem at Hattin in July 1187 and took the city itself in October. Within two years almost every Latin possession in the Holy Land had fallen except Tyre.",
+            "The response was the largest crusading effort yet mounted: the German emperor Frederick Barbarossa, Philip II of France and Richard I of England all took the cross, in what was intended to be a decisive reconquest.",
+            "It was not. Barbarossa drowned in Anatolia before reaching Syria, Philip went home after the fall of Acre, and Richard — who won every battle he fought — twice advanced within sight of Jerusalem and twice turned back. The crusade ended in 1192 with a treaty that left the city in Muslim hands and the coast in Christian ones."
           ]
         },
         {
           "title": "Background",
           "paragraphs": [
-            "Saladin’s victory at Hattin and capture of Jerusalem in 1187 shocked Latin Christendom and prompted a major new crusade.",
-            "The campaign drew rulers and nobles from across Europe into the eastern Mediterranean, where military success depended on siege warfare, naval logistics, diplomacy, and fragile alliances."
+            "The kingdom of Jerusalem had been living on borrowed time for a generation, and the succession crisis after the death of the leper king Baldwin IV brought it to a head. Guy of Lusignan took an army into waterless country in July 1187 and lost it at the Horns of Hattin.",
+            "The True Cross was captured with the army. Jerusalem, defended by a garrison of the men Hattin had not killed, surrendered on terms in October, and Saladin permitted the Christian population to ransom itself rather than sacking the city — a deliberate contrast with the crusader conquest of 1099 that western writers found difficult to explain.",
+            "News of the fall reportedly killed Pope Urban III, and the crusade was preached across Europe. England and France raised the Saladin tithe, a general tax on movable property, which was resented in exactly the way general taxes are."
           ]
         },
         {
-          "title": "Main events",
+          "title": "The three kings",
           "paragraphs": [
-            "The Third Crusade brought rulers including Richard the Lionheart into conflict and negotiation with Saladin. It did not retake Jerusalem, but it preserved a reduced crusader presence on the coast and shaped later crusading memory."
+            "Frederick Barbarossa left in 1189 with the largest army of the three, marched overland through Hungary and Anatolia, beat the Seljuks at Iconium — and drowned crossing a river in Cilicia in June 1190. Most of his army turned round and went home.",
+            "Richard I and Philip II travelled by sea. Richard took Cyprus from its Byzantine ruler on the way, which was not part of the plan and turned out to be the crusade's most durable acquisition — it remained a Latin kingdom for four centuries.",
+            "The two kings loathed each other. Philip left for France within weeks of Acre falling, having secured what he needed, and spent the following years attacking Richard's continental possessions while Richard was still on crusade."
           ]
         },
         {
-          "title": "Key figures",
+          "title": "Acre and Arsuf",
           "paragraphs": [
-            "The Third Crusade was defined above all by the contest between Richard the Lionheart, king of England, and Saladin, sultan of Egypt and Syria, whose mixture of hard fighting, mutual respect, and patient diplomacy shaped its course and its legend. Richard's victory at Arsuf and his recapture of the coastal cities could not be converted into the retaking of Jerusalem, and the two settled the Treaty of Jaffa in 1192.",
-            "They were not alone. Philip II of France joined the crusade but, after helping to take Acre in 1191, returned home to pursue his rivalry with Richard in France. The Emperor Frederick I Barbarossa led a vast German army overland but drowned crossing the Saleph River in 1190, and his force largely dissolved before reaching the Holy Land. In the crusader camp, Conrad of Montferrat, defender of Tyre, was elected king of Jerusalem only to be assassinated days later, leaving the rump kingdom to Henry II of Champagne."
+            "Guy of Lusignan had begun besieging Acre in 1189 with a force too small for the task, and the siege became the crusade's centre of gravity: a Christian army besieging a city while itself besieged by Saladin's field army outside.",
+            "It lasted two years, killed enormous numbers on both sides through disease and starvation, and ended in July 1191 when the city surrendered shortly after the kings arrived. Richard then had some two thousand seven hundred prisoners executed when the surrender terms were not met on time — an act his own admirers found hard to defend.",
+            "Marching south along the coast, he beat Saladin at Arsuf in September 1191 in a battle that demonstrated what disciplined crusader cavalry could do when it did not charge too early. He took Jaffa, and the road to Jerusalem was open."
           ]
         },
         {
-          "title": "Consequences",
+          "title": "Why Jerusalem was not taken",
           "paragraphs": [
-            "The Treaty of Jaffa left Jerusalem under Muslim rule but allowed Christian pilgrimage. The crusade strengthened the fame of both Richard the Lionheart and Saladin."
+            "Richard advanced towards Jerusalem twice, in early 1192 and again that summer, and turned back both times without attempting a siege. It is the decision the crusade is judged on and it was almost certainly correct.",
+            "The military argument was that taking the city was possible and holding it was not: Saladin's field army was intact, the crusaders' supply line from the coast was long and exposed, and most of the army intended to go home once the city was taken, leaving a garrison too small to keep it.",
+            "The political argument was that Philip II was attacking his lands in France and his brother John was intriguing in England. Both were true. The tradition that Richard refused to look at the city he could not take is a later embellishment, and a good one."
           ]
         },
         {
-          "title": "Historical significance",
+          "title": "The treaty and after",
           "paragraphs": [
-            "Third Crusade matters because it reveals how medieval authority was made through conflict, ritual, writing, negotiation, and memory."
+            "The Treaty of Jaffa in September 1192 ended the crusade. Saladin kept Jerusalem; the Latins kept the coast from Tyre to Jaffa; and Christian pilgrims were guaranteed access to the holy places.",
+            "Richard sailed home and was shipwrecked, captured by the duke of Austria — whose banner he had thrown down at Acre — and handed to the German emperor, who held him for a ransom that took a special tax in England to raise.",
+            "Saladin died in Damascus in March 1193, six months after the treaty, having spent his last years exhausted and his treasury empty."
+          ]
+        },
+        {
+          "title": "Significance",
+          "paragraphs": [
+            "The crusade failed in its stated objective and succeeded in almost everything else: it recovered the coast, secured the kingdom of Jerusalem for another century, and took Cyprus.",
+            "It also established the reputations that outlived it. Richard's military competence and Saladin's reputation for magnanimity both date substantially from these three years, and both were built by writers on the other side as much as their own.",
+            "And it exhausted the model. The Fourth Crusade, launched a decade later, never reached the Holy Land at all — it sacked Constantinople instead, which did more damage to eastern Christendom than any Muslim victory."
           ]
         }
       ],
@@ -1797,7 +1867,83 @@
             "label": "Combatant faction"
           }
         ]
-      }
+      },
+      "timeline": [
+        {
+          "date": "July 1187",
+          "title": "Hattin",
+          "description": "Saladin destroys the army of the kingdom of Jerusalem and captures the True Cross.",
+          "links": [
+            {
+              "title": "Battle of Hattin",
+              "type": "event",
+              "slug": "battle-of-hattin"
+            }
+          ]
+        },
+        {
+          "date": "October 1187",
+          "title": "Jerusalem surrenders",
+          "description": "The city capitulates on terms; the Christian population is permitted to ransom itself."
+        },
+        {
+          "date": "1189",
+          "title": "The siege of Acre begins",
+          "description": "Guy of Lusignan invests the city with a force too small to take it."
+        },
+        {
+          "date": "June 1190",
+          "title": "Barbarossa drowns",
+          "description": "The German emperor dies crossing a river in Cilicia and most of his army goes home."
+        },
+        {
+          "date": "May 1191",
+          "title": "Richard takes Cyprus",
+          "description": "An unplanned conquest that becomes the crusade's most durable acquisition."
+        },
+        {
+          "date": "July 1191",
+          "title": "Acre falls",
+          "description": "The city surrenders after two years; Philip II leaves for France within weeks."
+        },
+        {
+          "date": "August 1191",
+          "title": "The prisoners executed",
+          "description": "Richard has some 2,700 prisoners killed when the surrender terms are not met on time."
+        },
+        {
+          "date": "September 1191",
+          "title": "Arsuf",
+          "description": "Richard defeats Saladin in the field on the march south to Jaffa.",
+          "links": [
+            {
+              "title": "Battle of Arsuf",
+              "type": "event",
+              "slug": "battle-of-arsuf"
+            }
+          ]
+        },
+        {
+          "date": "1192",
+          "title": "Two advances on Jerusalem",
+          "description": "Richard comes within reach of the city twice and turns back both times without a siege."
+        },
+        {
+          "date": "September 1192",
+          "title": "The Treaty of Jaffa",
+          "description": "Saladin keeps Jerusalem, the Latins keep the coast, and pilgrims are guaranteed access."
+        },
+        {
+          "date": "December 1192",
+          "title": "Richard captured",
+          "description": "Shipwrecked on the way home, he is taken by the duke of Austria and held for ransom."
+        },
+        {
+          "date": "March 1193",
+          "title": "Death of Saladin",
+          "description": "He dies at Damascus six months after the treaty, his treasury empty."
+        }
+      ]
     },
     {
       "id": "hundred-years-war",
@@ -2456,43 +2602,49 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "The Battle of Stamford Bridge was fought in September 1066 between Harold Godwinson’s English army and a Norwegian invasion force led by Harald Hardrada and Tostig Godwinson. Harold won a decisive victory.",
-            "The battle ended the Norwegian bid for the English throne, but it exhausted Harold’s army just before William the Conqueror landed in the south."
+            "On 25 September 1066 Harold Godwinson destroyed a Norwegian invasion army at Stamford Bridge, seven miles east of York, killing its king, Harald Hardrada, and his own brother Tostig.",
+            "It was a complete victory won by a forced march of about two hundred miles in four days, and it arrived as a total surprise: the Norwegians were encamped without most of their armour, having taken hostages from York two days earlier.",
+            "Nineteen days later Harold was dead at Hastings, sixty miles from the south coast, having marched his army the length of England twice in three weeks. Stamford Bridge is therefore both one of the most impressive feats of arms in English history and a substantial part of the reason the English lost the country."
           ]
         },
         {
           "title": "Background",
           "paragraphs": [
-            "After Edward the Confessor died, several rulers claimed or contested the English throne. Harald Hardrada invaded northern England with Tostig Godwinson, Harold’s exiled brother.",
-            "The Norwegians defeated northern English forces at Fulford and moved near Stamford Bridge, expecting submission rather than the sudden arrival of Harold’s main army."
+            "The death of Edward the Confessor in January 1066 left three serious claimants: Harold Godwinson, crowned immediately; William of Normandy, who claimed a promise; and Harald Hardrada of Norway, whose claim ran through an agreement between earlier kings and who had spent his life fighting for thrones.",
+            "Hardrada was joined by Tostig Godwinson, Harold's own brother, exiled from the earldom of Northumbria the previous year after a rising against him.",
+            "They landed in September with something over three hundred ships, took York, and beat the northern earls Edwin and Morcar at Fulford on 20 September. Harold was on the south coast waiting for William, and the news reached him within days."
           ]
         },
         {
-          "title": "Forces and commanders",
+          "title": "The march",
           "paragraphs": [
-            "The English force was a royal army that had marched rapidly north. It probably included housecarls and local levies, but exact numbers are uncertain.",
-            "The Norwegian army was experienced and formidable, but part of it may have been away from the immediate battlefield or not fully armored when Harold arrived."
+            "Harold moved north immediately with his housecarls and whatever levies could keep up, covering the distance from London to Yorkshire in about four days.",
+            "The Norwegians knew nothing of it. They had arranged to receive hostages from the Yorkshire nobility at Stamford Bridge on 25 September, and had left roughly a third of their force with the ships at Riccall, some miles away.",
+            "It was a warm day and they had left most of their mail behind. The first the Norwegian army knew of an English army was seeing the dust of one approaching."
           ]
         },
         {
           "title": "The battle",
           "paragraphs": [
-            "Harold’s surprise arrival gave the English a major advantage. The fighting centered around the crossing and then broadened into a hard infantry battle.",
-            "Harald Hardrada was killed, reportedly by an arrow to the throat, and Tostig also died. Reinforcements from the Norwegian ships arrived too late to reverse the disaster."
+            "The fighting was hard despite the surprise. The Norwegians formed a shield wall on the far bank and were driven back; Hardrada was killed by an arrow through the throat while fighting in the front rank, and Tostig died later in the day.",
+            "The story everyone knows — a single Norse axeman holding the bridge alone against the English army until a man in a barrel speared him from beneath — appears only in a manuscript of the Anglo-Saxon Chronicle written some decades afterwards, and not in the earliest versions. It is a very good story and it is not contemporary evidence.",
+            "The reinforcements from the ships arrived late and exhausted and were destroyed in their turn. The Norwegian survivors needed twenty-four ships to sail home out of the three hundred or more that had come."
           ]
         },
         {
           "title": "Aftermath",
           "paragraphs": [
-            "The Norwegian invasion collapsed, and survivors were allowed to return home in a small number of ships. Harold had won a major victory but had to turn south almost immediately.",
-            "The forced march from Stamford Bridge to Hastings became one of the defining pressures of the 1066 crisis."
+            "Harold accepted the surrender of Hardrada's son and let him go, which was a mark of a decisive victory rather than of generosity.",
+            "Three days later he learned that William had landed at Pevensey on 28 September — the wind that had pinned the Norman fleet in port all summer had finally turned, at the exact moment the English army was two hundred and fifty miles away.",
+            "Harold marched south, gathered what forces he could, and fought at Hastings on 14 October with an army that had marched the length of the country twice and had left many of its best men on the field in Yorkshire."
           ]
         },
         {
-          "title": "Historical significance",
+          "title": "Significance",
           "paragraphs": [
-            "Stamford Bridge is often treated as the end of the great Viking age of attacks on England, though Scandinavian influence did not simply vanish.",
-            "The battle’s larger importance lies in how it shaped the timing and exhaustion of Harold’s response to the Norman Conquest."
+            "Stamford Bridge ended the Scandinavian claim to England, which had been live since Cnut and had produced two dynasties. It is a genuine end point: no Norwegian king ever came so close again.",
+            "It also decided Hastings, though not in the way the victors would have wanted. An army that had not marched to Yorkshire and back, and had not lost men at Stamford Bridge, would have met William fresh and in greater numbers.",
+            "Hardrada is often called the last Viking, which is a neat phrase for a man who had served in the Varangian Guard at Constantinople, fought in Sicily and Palestine, ruled Norway for twenty years and died invading England. He is in this archive precisely because his career runs through most of it."
           ]
         }
       ],
@@ -2619,7 +2771,58 @@
         "battleSlug": "battle-of-hastings",
         "relationship": "same-crisis",
         "reason": "Stamford Bridge ended Harald Hardrada's invasion, but Harold Godwinson immediately had to march south to face William of Normandy at Hastings, where the same succession crisis was decided within three weeks."
-      }
+      },
+      "timeline": [
+        {
+          "date": "January 1066",
+          "title": "Edward the Confessor dies",
+          "description": "Harold Godwinson is crowned; William of Normandy and Harald Hardrada both claim the throne."
+        },
+        {
+          "date": "September 1066",
+          "title": "The Norwegians land",
+          "description": "Hardrada and Tostig arrive with over three hundred ships and take York."
+        },
+        {
+          "date": "20 September 1066",
+          "title": "Fulford",
+          "description": "The northern earls Edwin and Morcar are defeated outside York.",
+          "links": [
+            {
+              "title": "Battle of Fulford",
+              "type": "event",
+              "slug": "battle-of-fulford"
+            }
+          ]
+        },
+        {
+          "date": "c. 21–24 September 1066",
+          "title": "The forced march",
+          "description": "Harold covers roughly two hundred miles from the south coast in about four days."
+        },
+        {
+          "date": "25 September 1066",
+          "title": "Stamford Bridge",
+          "description": "The Norwegian army is destroyed; Hardrada is killed by an arrow and Tostig falls later in the day."
+        },
+        {
+          "date": "28 September 1066",
+          "title": "William lands at Pevensey",
+          "description": "The Norman fleet crosses three days after the battle, with the English army in Yorkshire."
+        },
+        {
+          "date": "14 October 1066",
+          "title": "Hastings",
+          "description": "Harold fights and dies with an army that has marched the length of England twice in three weeks.",
+          "links": [
+            {
+              "title": "Battle of Hastings",
+              "type": "event",
+              "slug": "battle-of-hastings"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "battle-of-bouvines",
@@ -4556,31 +4759,41 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "The Battle of Stiklestad was fought in 1030 when Olaf II Haraldsson attempted to return to power in Norway. He was killed in the battle, and his posthumous cult transformed him into Saint Olaf."
+            "On 29 July 1030 Olaf II Haraldsson, attempting to recover the Norwegian throne he had lost to Cnut the Great, was defeated and killed at Stiklestad in Trøndelag by an army of Norwegian magnates and farmers.",
+            "It was a defeat so complete that it should have ended his cause, and instead it created a saint. Within a year miracles were being reported at his grave, within twelve months he had been declared holy by the local bishop, and within a generation Norway was Christian in a way his reign had failed to make it.",
+            "Olaf became the eternal king of Norway, the country's patron saint, and the focus of a cult that reached from Iceland to Constantinople — where his half-brother Harald Hardrada, who fought here as a boy of fifteen, later served in the Varangian Guard."
           ]
         },
         {
           "title": "Background",
           "paragraphs": [
-            "Olaf had been driven from Norway amid opposition from powerful local elites and the wider North Sea politics of Cnut the Great. His return was both a political and religious moment in later memory."
+            "Olaf had ruled Norway from about 1015, imposing Christianity and royal authority on a country used to neither, and doing it with a directness that made enemies of exactly the regional magnates whose support he needed.",
+            "Cnut the Great, ruling England and Denmark, funded that opposition. In 1028 he arrived with a fleet, Olaf's support evaporated, and the king fled into exile among the Rus' at Kiev.",
+            "He returned in 1030 with a small force, gathering what support he could as he came south-west through Sweden into Trøndelag — the heartland of the old aristocracy and of resistance to him."
           ]
         },
         {
           "title": "The battle",
           "paragraphs": [
-            "The battle pitted Olaf and his supporters against Norwegian opponents aligned against his return. The exact tactical details are filtered through later saintly and saga traditions."
+            "The armies met at Stiklestad on 29 July. The force opposing Olaf was substantially larger and drawn from the local magnates and the farmers they led, and the sagas name three men as delivering his death wounds.",
+            "Everything vivid about the battle comes from Snorri Sturluson and the other saga writers of the twelfth and thirteenth centuries, writing two hundred years later about a saint. Their accounts are literature and hagiography before they are reporting.",
+            "One detail is worth naming as a caution: the sagas describe the sun darkening as Olaf fell, and a solar eclipse did occur in 1030 — but on 31 August, a month after the battle, and not visible as described in Norway. It is the clearest available demonstration of how the account was shaped after the fact."
           ]
         },
         {
-          "title": "Aftermath",
+          "title": "The cult",
           "paragraphs": [
-            "Olaf’s death did not end his influence. Reports of sanctity and miracles quickly developed, and Nidaros became the center of his cult."
+            "Olaf's body was buried in secret at Nidaros, and within a year reports of miracles and of the incorruption of the body had begun. Bishop Grimkell declared him holy on 3 August 1031.",
+            "The political effect was immediate and entirely against the victors. Cnut's son Svein ruled Norway badly and was driven out by 1035, and Olaf's son Magnus the Good was brought back from exile and made king — restored by the same magnates who had killed his father five years earlier.",
+            "Nidaros, modern Trondheim, became the greatest pilgrimage site in northern Europe, and the cathedral built over the grave is still Norway's national church. Churches to St Olaf were founded across Scandinavia, in the British Isles, in the Baltic and in Constantinople."
           ]
         },
         {
-          "title": "Historical significance",
+          "title": "Significance",
           "paragraphs": [
-            "Stiklestad became one of the defining events in Norwegian medieval memory, linking kingship, Christianity, martyrdom, and national tradition."
+            "Stiklestad is the clearest case in this archive of a battle whose military result was reversed entirely by what people made of it afterwards. Olaf lost, and Olaf won.",
+            "It also completed the Christianisation of Norway more effectively than his reign had. A martyred royal saint gave the new religion a national focus that missionary work had failed to supply, and the conversion stopped being something imposed from outside.",
+            "And it sent Harald Hardrada into exile. He fled the field at fifteen, went east to the Rus' and then to Constantinople, served in the Varangian Guard, came back rich, took the Norwegian throne, and died invading England at Stamford Bridge in 1066 — which is where this archive picks him up again."
           ]
         }
       ],
@@ -4683,7 +4896,51 @@
         "battleSlug": "battle-of-stamford-bridge",
         "relationship": "chronological-follow-up",
         "reason": "Harald Hardrada fought at Stiklestad beside his half-brother Olaf II and survived the defeat; thirty-six years later his own invasion of England ended when Harold Godwinson defeated and killed him at Stamford Bridge."
-      }
+      },
+      "timeline": [
+        {
+          "date": "c. 1015",
+          "title": "Olaf takes the throne",
+          "description": "He begins imposing Christianity and royal authority on a country resistant to both."
+        },
+        {
+          "date": "1028",
+          "title": "Cnut invades",
+          "description": "Backed by Cnut's money, the magnates abandon Olaf and he flees into exile among the Rus'."
+        },
+        {
+          "date": "1030",
+          "title": "The return",
+          "description": "Olaf comes back through Sweden with a small force, gathering support as he goes."
+        },
+        {
+          "date": "29 July 1030",
+          "title": "Stiklestad",
+          "description": "Olaf is defeated and killed by an army of magnates and farmers; his half-brother Harald, aged fifteen, escapes."
+        },
+        {
+          "date": "3 August 1031",
+          "title": "Declared a saint",
+          "description": "Bishop Grimkell proclaims Olaf holy a year after the battle, on reports of miracles at the grave."
+        },
+        {
+          "date": "1035",
+          "title": "Magnus restored",
+          "description": "Olaf's son is brought back from exile and made king by the men who killed his father."
+        },
+        {
+          "date": "1066",
+          "title": "Stamford Bridge",
+          "description": "Harald Hardrada, who fled this field at fifteen, dies invading England.",
+          "links": [
+            {
+              "title": "Battle of Stamford Bridge",
+              "type": "event",
+              "slug": "battle-of-stamford-bridge"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "battle-of-gestilren",
@@ -25291,8 +25548,8 @@
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Norway",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Eric_Bloodaxe_silver_penny%3B_struck_952-954_AD_%28obverse%29.jpg/1280px-Eric_Bloodaxe_silver_penny%3B_struck_952-954_AD_%28obverse%29.jpg",
-      "summary": "Eric Bloodaxe was Norwegian ruler and Northumbrian king remembered through saga tradition and contemporary coinage at York.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eirik%20Blod%C3%B8ks%20with%20Gunhild%2C%20Egil%20Skallagrimsson%20standing.jpg",
+      "summary": "Eric Bloodaxe was a tenth-century Norwegian king and the last independent ruler of Viking York, whose career is known mostly through Icelandic sagas written three centuries after his death.",
       "title": "king of Norway and Northumbria",
       "roles": [
         "King of Norway",
@@ -25320,57 +25577,72 @@
         "knownFor": "Norwegian kingship and York coinage"
       },
       "imageInfo": {
-        "caption": "Silver penny associated with Eric Bloodaxe at York.",
-        "creator": "Unknown moneyer",
-        "date": "c. 952-954",
+        "caption": "Eirik Bloodaxe enthroned with his queen Gunnhild, with the poet Egil Skallagrímsson standing before them, drawn by Christian Krohg.",
+        "creator": "Christian Krohg",
+        "date": "c. 1899",
         "source": "Wikimedia Commons",
-        "note": "Coin from Eric’s Northumbrian kingship, more contemporary than saga portraits."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eirik_Blod%C3%B8ks_with_Gunhild,_Egil_Skallagrimsson_standing.jpg",
+        "note": "A nineteenth-century illustration for an edition of the Heimskringla, not a likeness — nobody knows what Eirik looked like, and no depiction of him made in his lifetime exists. It shows the scene from Egil's saga in which the poet composes his way out of a death sentence at Eirik's court in York. The only image of the man available anywhere, and a small one."
       },
       "overview": [
-        "Eric Bloodaxe was Norwegian ruler and Northumbrian king remembered through saga tradition and contemporary coinage at York. The profile is anchored by concrete turning points: c. 895 — Traditionally born; c. 930 — Emerges in Norwegian succession; c. 947 — Rules at York.",
-        "He died in around 954, and his reign belongs to the wider story of Scandinavian state formation, Christianization, dynastic conflict, and northern Europe’s ties to England, the Baltic, and the Empire."
+        "He ruled Norway briefly in the 930s, was driven out, and twice held the kingdom of York before being killed at Stainmore in 954.",
+        "His byname and most of his story come from saga tradition, and the reliable evidence for him amounts to a handful of coins, some brief chronicle notices, and a great deal of literature."
       ],
       "contentSections": [
         {
           "title": "Overview",
           "paragraphs": [
-            "Eric Bloodaxe was Norwegian ruler and Northumbrian king remembered through saga tradition and contemporary coinage at York. The profile is anchored by concrete turning points: c. 895 — Traditionally born; c. 930 — Emerges in Norwegian succession; c. 947 — Rules at York.",
-            "He died in around 954, and his reign belongs to the wider story of Scandinavian state formation, Christianization, dynastic conflict, and northern Europe’s ties to England, the Baltic, and the Empire."
+            "Eric Bloodaxe was a son of Harald Fairhair, the king credited with unifying Norway, and he is one of those figures whose fame rests almost entirely on how good the stories about him are.",
+            "The verifiable outline is short: he ruled part or all of Norway for a few years around 930, was displaced by his half-brother Håkon the Good, appears in England in the 940s, held the kingdom of York twice in the late 940s and early 950s, and was killed at Stainmore in 954.",
+            "Everything vivid — the byname, the fratricides, the sorceress queen, the poem that saved a man's life — comes from Icelandic sagas written between two and three hundred years afterwards, and the article separates the two as it goes."
           ]
         },
         {
           "title": "Birth and early life",
           "paragraphs": [
-            "Eric Bloodaxe was born 895. His family background is usually placed in Fairhair dynasty, though early Scandinavian genealogy can be uncertain and politically shaped.",
-            "Eric Bloodaxe's early life belonged to the medieval Scandinavian world, where kinship, sea routes, church contacts, assemblies, and armed followings shaped the opportunities available to a ruler."
+            "He was born early in the tenth century, a son of Harald Fairhair, and the sagas make him the favourite among a large number of sons — Harald is said to have had many, by several women, which is itself part of the problem the succession created.",
+            "The saga tradition has him raised as a warrior and sent raiding young, to the Baltic, to Frisia, to Scotland and Ireland, before his father made him overking above his brothers.",
+            "He married Gunnhild, who in the sagas is a figure of enormous and sinister power — a queen with a reputation for sorcery, blamed for much of what he did and outliving him by decades. How much of her is a real political actor and how much is a literary type is unrecoverable, and the sagas are hostile to her in ways that say more about their authors than about her."
           ]
         },
         {
           "title": "Character and Personality",
           "paragraphs": [
-            "Eric Bloodaxe carries one of the most fearsome bynames in Norse tradition, and the saga literature lives up to it, presenting him as a violent and ruthless figure whose nickname was explained by the killing of several of his own brothers in the struggle for power. In the sagas he is overshadowed by his formidable and reputedly cruel wife Gunnhild, and the pair are cast as harsh, grasping rulers whose unpopularity drove him from Norway.",
-            "His later career as a Viking king of Northumbria, ending in his death at Stainmore around 954, made him a figure of both Norse and English memory. The tradition is hostile and dramatic, shaped by storytellers who relished a brutal protagonist, so the specific atrocities attributed to him belong to saga colouring rather than secure fact.",
-            "What the byname and the consistent direction of the tradition convey is a reputation for violence and ambition extreme even by the standards of the age — a king remembered as bloody-handed and overbearing. The literary Eric is vivid precisely because he is drawn as a villain; the historical man behind the legend is far harder to see."
+            "The sagas give him a consistent character — violent, effective, badly advised — and it is worth being clear that this is a literary portrait built by Icelanders writing under Norwegian kings descended from his rivals.",
+            "The byname itself is the clearest case. Blóðøx, \"bloody axe\", is explained in the sagas as earned by killing several of his own brothers to secure the succession, and it may equally have been earned as a raider, or applied long after his death by people who knew the stories rather than the man. It does not appear in any contemporary source.",
+            "The one scene everyone remembers is from Egil's saga: Egil Skallagrímsson, Eirik's enemy, is captured at York and composes a praise-poem for him overnight — the Höfuðlausn, the \"head-ransom\" — and is released for it. It is a wonderful story about the power of poetry, told by poets, about a king who was safely dead."
           ]
         },
         {
-          "title": "As king of Norway and claimant in England",
+          "title": "King in Norway",
           "paragraphs": [
-            "Eric Bloodaxe was remembered as a son of Harald Fairhair and a fierce claimant in Norway. His historically firmer footprint appears in Northumbria, where coins were issued in his name at York.",
-            "As King of Norway, King of Northumbria, Eric Bloodaxe had to turn dynastic claim into workable authority through alliances, military pressure, church support, and acceptance by regional elites."
+            "Harald Fairhair set him over his brothers as overking, probably around 930, and he did not hold it. The sagas say he killed several brothers; what is clear is that his rule was resented and his support narrow.",
+            "His half-brother Håkon, who had been fostered at the English court of Æthelstan, returned to Norway with English backing and took the country with the support of the magnates. Eirik left, apparently without a serious fight.",
+            "This is the pattern of Norwegian politics in the century after Harald: a kingdom that could be taken by whoever the regional aristocracy preferred, and lost the same way. It is the same dynamic that killed Olaf II at Stiklestad a century later."
           ]
         },
         {
-          "title": "Death",
+          "title": "King at York",
           "paragraphs": [
-            "Traditionally killed around 954 at Stainmore in northern England after losing power in York."
+            "He appears in England in the 940s, and the Anglo-Saxon Chronicle records the Northumbrians accepting a king called Eric — twice, in 947–948 and again in 952–954, with the West Saxon king Eadred expelling him in between.",
+            "York in this period was the last independent Scandinavian kingdom in England, ruled alternately by Norse kings from Dublin and by adventurers like Eirik, and its acceptance of him was a political calculation by the Northumbrian magnates and the archbishop of York rather than an act of conquest.",
+            "The coins are the hard evidence. Pennies struck at York read ERIC REX around a sword, which tells us he ruled there, that he minted in his own name, and — since the coin carries no portrait — nothing whatever about him as a person."
+          ]
+        },
+        {
+          "title": "Death at Stainmore",
+          "paragraphs": [
+            "In 954 the Northumbrians expelled him for the second time, and he was killed at Stainmore, on the pass over the Pennines between Yorkshire and Cumbria, in circumstances the sources do not agree on.",
+            "The fullest account is late and describes a betrayal by a man named Maccus and an ambush, with Eirik dying alongside his son and several other kings. The Anglo-Saxon Chronicle simply says he was killed.",
+            "What is not in doubt is the consequence: Northumbria was absorbed into the kingdom of England and never again had a king of its own. The Rey Cross on Stainmore, a Norse-style stone traditionally associated with the site, is the only physical marker of any of it."
           ]
         },
         {
           "title": "Legacy",
           "paragraphs": [
-            "He links Norwegian royal saga memory with the political world of Viking York.",
-            "Later saga, saintly, or national traditions often amplified Eric Bloodaxe's reputation, so the article separates near-contemporary evidence from later memory where possible."
+            "His death is a genuine end point. The independent Scandinavian kingdom of York went with him, and England north of the Humber became part of a single English realm.",
+            "His literary afterlife is enormous by comparison with the two paragraphs of secure fact. The Eiríksmál, a poem composed for Gunnhild after his death, imagines Odin preparing Valhalla to receive him — one of the finest surviving pieces of Norse court poetry, and propaganda commissioned by his widow.",
+            "He also stands in this archive as a caution about evidence. Eirik is famous, and almost everything that makes him famous was written by people two or three centuries later, in another country, about a dynasty they had reason to disparage. The coins say he was king; the sagas say everything else."
           ]
         }
       ],
@@ -25390,29 +25662,39 @@
       ],
       "timeline": [
         {
-          "date": "895",
+          "date": "c. 895–905",
           "title": "Born",
-          "description": "Eric Bloodaxe was born around 895, but the birthplace is not securely recorded. The date is approximate, but it places the early life in the setting of Kingdom of Norway."
-        },
-        {
-          "date": "c. 895",
-          "title": "Traditionally born",
-          "description": "Eric Bloodaxe's birth date or birthplace is not securely recorded."
+          "description": "Born a son of Harald Fairhair; the year is not recorded."
         },
         {
           "date": "c. 930",
-          "title": "Emerges in Norwegian succession",
-          "description": "Eric appears in traditions of Norwegian succession after Harald Fairhair, remembered as a violent claimant among rival royal sons."
+          "title": "Overking in Norway",
+          "description": "Harald sets him above his brothers; the sagas say he secured it by killing several of them."
         },
         {
-          "date": "c. 947",
-          "title": "Rules at York",
-          "description": "Eric’s rule at York placed him in the Norse-Gaelic and Anglo-Scandinavian politics of Northumbria rather than only Norwegian kingship."
+          "date": "c. 934",
+          "title": "Driven out",
+          "description": "His half-brother Håkon the Good returns from the English court with backing and takes Norway."
+        },
+        {
+          "date": "947–948",
+          "title": "King at York",
+          "description": "The Anglo-Saxon Chronicle records the Northumbrians accepting him as king; Eadred expels him."
+        },
+        {
+          "date": "952–954",
+          "title": "King at York again",
+          "description": "He returns to York and strikes pennies reading ERIC REX around a sword."
         },
         {
           "date": "954",
-          "title": "Death",
-          "description": "Traditionally killed around 954 at Stainmore in northern England after losing power in York."
+          "title": "Killed at Stainmore",
+          "description": "Expelled a second time and killed on the Pennine pass; Northumbria is absorbed into England."
+        },
+        {
+          "date": "after 954",
+          "title": "The Eiríksmál",
+          "description": "A poem commissioned by his widow Gunnhild imagines Odin preparing Valhalla to receive him."
         }
       ],
       "relatedEntries": {
@@ -25479,6 +25761,18 @@
           "name": "Bloodaxe",
           "type": "legendary epithet",
           "note": "Saga byname (Old Norse Blóðøx); rests on later saga tradition."
+        }
+      ],
+      "sectionImages": [
+        {
+          "section": "King at York",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Bloodaxe%20silver%20penny%3B%20struck%20952-954%20AD%20(obverse).jpg",
+          "caption": "A silver penny struck for Eric at York between 952 and 954, reading ERIC REX around a sword.",
+          "creator": "Northumbrian moneyer, York",
+          "date": "c. 952–954",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eric_Bloodaxe_silver_penny;_struck_952-954_AD_(obverse).jpg",
+          "note": "The hardest evidence that exists for his reign, and the reason it is here rather than at the top of the article: the coin carries his name, his title and a sword, and no portrait. It proves he ruled at York and shows nothing of the man."
         }
       ]
     },
@@ -104174,14 +104468,16 @@
       "kingdom": "Umayyad Caliphate",
       "year": "711",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Al-Andalus732.svg/960px-Al-Andalus732.svg.png",
-      "summary": "Muslim-ruled Iberia, a major political and cultural region of the medieval western Mediterranean.",
+      "summary": "Al-Andalus was Muslim-ruled Iberia, from the conquest of 711 to the fall of Granada in 1492 — for three centuries the wealthiest and most learned society in western Europe.",
       "overview": [
         "Muslim-ruled Iberia, a major political and cultural region of the medieval western Mediterranean."
       ],
       "knownFor": [
-        "al-Andalus in medieval history",
-        "Regional power and warfare",
-        "Connected to battle narratives in IronCodex"
+        "Conquered from the Visigothic kingdom in 711 and held, in shrinking form, until 1492.",
+        "The Caliphate of Córdoba, proclaimed in 929, was the richest state in western Europe.",
+        "Its scholars transmitted Aristotle, Greek medicine and Indian mathematics into Latin Europe.",
+        "Fragmented into the taifa kingdoms after 1031 and was twice rescued by North African empires.",
+        "Reduced to the Emirate of Granada after Las Navas de Tolosa in 1212."
       ],
       "imageInfo": {
         "caption": "Map of al-Andalus and surrounding powers around 732.",
@@ -104195,29 +104491,84 @@
         {
           "title": "Overview",
           "paragraphs": [
-            "Muslim-ruled Iberia, a major political and cultural region of the medieval western Mediterranean.",
-            "al-Andalus matters historically through al-Andalus in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+            "Al-Andalus is the name Arabic sources give to the parts of the Iberian peninsula under Muslim rule, from the conquest that began in 711 to the surrender of Granada in 1492 — seven hundred and eighty-one years, though the territory at the end was a fraction of the territory at the start.",
+            "For roughly its first three centuries it was the most economically advanced and intellectually productive society in western Europe. Córdoba in the tenth century had paved and lit streets, running water, hospitals and a library said to hold hundreds of thousands of volumes, at a time when the largest cities of Latin Christendom held a few thousand people.",
+            "It is also the region this archive returns to most often, because the Reconquista, the Almoravids, the Almohads, the military orders and half the Iberian kingdoms are all defined against it."
+          ]
+        },
+        {
+          "title": "The conquest",
+          "paragraphs": [
+            "In 711 a force under Tariq ibn Ziyad crossed from North Africa and destroyed the Visigothic king Roderic at the Guadalete. The Visigothic kingdom collapsed with a speed that has been argued about ever since — it had been weakened by succession disputes, and substantial parts of its nobility came to terms rather than fight.",
+            "Within a decade almost the whole peninsula was under Muslim control, and raiding parties had crossed the Pyrenees into Frankish Gaul. The advance north was checked near Tours in 732, and the frontier settled along the Duero and the Ebro.",
+            "What remained Christian was the mountainous north — Asturias, and later León, Navarre, Aragon and the Catalan counties. The Battle of Covadonga, traditionally dated to 722, is where later Christian tradition placed the beginning of the Reconquista, though it was a small engagement enlarged by hindsight."
+          ]
+        },
+        {
+          "title": "Emirate and caliphate",
+          "paragraphs": [
+            "When the Abbasids destroyed the Umayyad dynasty in Syria in 750, one prince escaped: Abd al-Rahman I reached Iberia in 756 and made himself emir of Córdoba, founding a state independent of Baghdad in fact if not in theory.",
+            "His descendants ruled for two and a half centuries. In 929 Abd al-Rahman III took the title of caliph outright, in direct challenge to both Baghdad and the Fatimids of Egypt, and built the palace-city of Madinat al-Zahra outside Córdoba as its expression.",
+            "The tenth-century caliphate is the high point. Christian kings in the north paid tribute, embassies came from Constantinople and the German emperors, and the state ran on a professional army, a gold coinage and an agricultural system transformed by irrigation techniques and crops — citrus, rice, sugar cane, cotton — brought from the eastern Islamic world."
+          ]
+        },
+        {
+          "title": "Learning",
+          "paragraphs": [
+            "Al-Andalus is the principal route by which Greek philosophy and science reached Latin Europe, and this is not a small claim about a cultural ornament — it is most of the intellectual history of the twelfth century.",
+            "Ibn Rushd, known in Latin as Averroes, wrote the commentaries on Aristotle that shaped scholastic philosophy for three centuries; Maimonides, born in Córdoba, is the central figure of medieval Jewish thought; al-Zahrawi's surgical encyclopaedia was used in European medicine into the eighteenth century.",
+            "The transmission ran largely through Toledo after its capture in 1085, where Arabic and Hebrew texts were translated into Latin by teams of Christian, Jewish and Muslim scholars. The convenient word for the coexistence that made this possible is convivencia, and it should be used carefully: the relationship between the three communities ranged from genuine collaboration to legal subordination to episodes of massacre, and it varied by century and by ruler."
+          ]
+        },
+        {
+          "title": "The taifas",
+          "paragraphs": [
+            "The caliphate destroyed itself. A succession crisis after 1009 became a civil war, and in 1031 the caliphate was formally abolished, leaving perhaps thirty independent principalities — the taifa kingdoms — at Seville, Zaragoza, Toledo, Granada, Badajoz and elsewhere.",
+            "They were militarily feeble and culturally brilliant: the taifa courts competed in poetry and patronage while paying protection money, the parias, to the Christian kings in the north. That tribute is what funded the expansion of León-Castile, and it is the mechanism by which the balance of the peninsula reversed.",
+            "It was also unsustainable. When Alfonso VI took Toledo in 1085 — the old Visigothic capital, and a shock to the whole Muslim world — the taifa rulers appealed to North Africa for help."
+          ]
+        },
+        {
+          "title": "Almoravids and Almohads",
+          "paragraphs": [
+            "The Almoravids came from Morocco in 1086, beat Alfonso VI at Sagrajas, and then annexed the taifa kingdoms they had come to rescue. The Almohads replaced them from the 1140s and did the same thing again, defeating Castile heavily at Alarcos in 1195.",
+            "Both were reforming Berber movements from the Maghreb, and both regarded the Andalusi elite as decadent. The intellectual life of al-Andalus continued under them — Averroes served the Almohad caliphs — but the political independence of Muslim Iberia did not survive its rescuers.",
+            "The reversal came at Las Navas de Tolosa in 1212, where a coalition of Castile, Aragon and Navarre destroyed the Almohad army. Within forty years Córdoba, Seville and Valencia had all fallen."
+          ]
+        },
+        {
+          "title": "Granada and the end",
+          "paragraphs": [
+            "What survived was the Emirate of Granada, founded in 1238 under the Nasrid dynasty, holding the mountainous south-east and surviving as a tributary of Castile for two and a half centuries.",
+            "It was small, rich, and skilled at playing Castile's internal divisions against each other, and it built the Alhambra — the most complete surviving palace complex of the Islamic middle ages anywhere.",
+            "The union of Castile and Aragon under Isabella and Ferdinand ended it. Granada surrendered on 2 January 1492, and the terms guaranteeing Muslim religious practice were abandoned within a decade; expulsions and forced conversions followed for both Muslims and Jews."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "The material legacy is visible from Córdoba to Granada — the Great Mosque, the Giralda, the Alhambra, and the irrigation systems of Valencia and Murcia still in use.",
+            "The linguistic legacy is in Spanish, which carries several thousand words of Arabic origin, and in the technical vocabulary of European mathematics and astronomy: algebra, algorithm, zenith, azimuth, cipher.",
+            "The intellectual legacy is the largest and the least visible. The Aristotle that European universities argued over from the thirteenth century arrived through Arabic translation and Andalusi commentary, and the scholastic method that shaped western thought was built on it."
           ]
         }
       ],
       "sources": [
         {
-          "title": "Wikimedia Commons image record",
-          "author": "Wikimedia Commons",
-          "type": "image metadata",
-          "url": "https://commons.wikimedia.org/wiki/File:Al-Andalus732.svg"
+          "title": "Ibn Khaldun, Muqaddimah",
+          "url": "https://en.wikipedia.org/wiki/Muqaddimah",
+          "type": "primary source"
         },
         {
-          "title": "Encyclopaedia Britannica: al-Andalus",
-          "author": "Encyclopaedia Britannica",
-          "type": "reference work",
-          "url": "https://www.britannica.com/place/Al-Andalus"
+          "title": "Al-Andalus",
+          "url": "https://en.wikipedia.org/wiki/Al-Andalus",
+          "type": "encyclopedia"
         },
         {
-          "title": "World History Encyclopedia: Middle Ages",
-          "author": "World History Encyclopedia",
-          "type": "modern history",
-          "url": "https://www.worldhistory.org/Middle_Ages/"
+          "title": "The Metropolitan Museum of Art — Islamic art collection",
+          "url": "https://www.metmuseum.org/about-the-met/collection-areas/islamic-art",
+          "type": "museum collection",
+          "institution": "The Metropolitan Museum of Art"
         }
       ],
       "relatedEntries": {
@@ -104263,7 +104614,102 @@
             "label": "Christian adversary in the Reconquista"
           }
         ]
-      }
+      },
+      "aliases": [
+        "Muslim Iberia",
+        "Moorish Spain",
+        "Andalus"
+      ],
+      "timeline": [
+        {
+          "date": "711",
+          "title": "The conquest begins",
+          "description": "Tariq ibn Ziyad crosses from North Africa and destroys the Visigothic king Roderic at the Guadalete."
+        },
+        {
+          "date": "732",
+          "title": "Checked in Gaul",
+          "description": "The northward advance is stopped near Tours; the frontier settles in northern Iberia.",
+          "links": [
+            {
+              "title": "Battle of Tours",
+              "type": "event",
+              "slug": "battle-of-tours"
+            }
+          ]
+        },
+        {
+          "date": "756",
+          "title": "The emirate of Córdoba",
+          "description": "Abd al-Rahman I, the surviving Umayyad prince, establishes a state independent of Baghdad."
+        },
+        {
+          "date": "929",
+          "title": "The caliphate proclaimed",
+          "description": "Abd al-Rahman III takes the title of caliph and builds Madinat al-Zahra."
+        },
+        {
+          "date": "1031",
+          "title": "The caliphate abolished",
+          "description": "Civil war ends the Umayyad state; some thirty taifa kingdoms replace it."
+        },
+        {
+          "date": "1085",
+          "title": "Toledo falls",
+          "description": "Alfonso VI takes the old Visigothic capital, and the taifa rulers appeal to North Africa."
+        },
+        {
+          "date": "1086",
+          "title": "The Almoravids arrive",
+          "description": "Alfonso VI is beaten at Sagrajas; the rescuers then annex the kingdoms they came to save.",
+          "links": [
+            {
+              "title": "Battle of Sagrajas",
+              "type": "event",
+              "slug": "battle-of-sagrajas"
+            }
+          ]
+        },
+        {
+          "date": "1195",
+          "title": "Alarcos",
+          "description": "The Almohads defeat Castile heavily and the Christian advance stalls for a generation.",
+          "links": [
+            {
+              "title": "Battle of Alarcos",
+              "type": "event",
+              "slug": "battle-of-alarcos"
+            }
+          ]
+        },
+        {
+          "date": "1212",
+          "title": "Las Navas de Tolosa",
+          "description": "A Christian coalition destroys the Almohad army; the balance of the peninsula turns for good.",
+          "links": [
+            {
+              "title": "Battle of Las Navas de Tolosa",
+              "type": "event",
+              "slug": "battle-of-las-navas-de-tolosa"
+            }
+          ]
+        },
+        {
+          "date": "1236–1248",
+          "title": "Córdoba and Seville fall",
+          "description": "The great cities of the Guadalquivir pass to Castile within twelve years."
+        },
+        {
+          "date": "1238",
+          "title": "The Emirate of Granada",
+          "description": "The Nasrid dynasty establishes the last Muslim state in Iberia, as a tributary of Castile."
+        },
+        {
+          "date": "1492",
+          "title": "Granada surrenders",
+          "description": "The last emir gives up the city on 2 January; expulsions and forced conversions follow within a decade."
+        }
+      ]
     },
     {
       "id": "umayyad-caliphate",

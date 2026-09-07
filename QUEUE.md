@@ -592,6 +592,42 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **The stub backlog: 233 articles under 2,000 characters, 139 with no timeline.**
+  Measured by `scripts/audit-stubs.mjs` (new 2026-09-07), which ranks by inbound
+  links first — a stub nobody links to is a gap, a stub sixty articles point at is
+  a broken promise. Median article is 2,963 chars; these are the older base
+  standard showing against the current one.
+  **Batch 1 done** (2026-09-07): `third-crusade` 1,846→5,036, `al-andalus`
+  242→6,305 (the worst in the archive, and the anchor of the whole Reconquista
+  corpus), `battle-of-stamford-bridge` 1,871→4,018, `first-crusade-called`
+  1,182→4,069, `battle-of-stiklestad` 845→3,572. All five gained timelines.
+  **Batch 2 candidates**, by the same ranking: `battle-of-las-navas-de-tolosa`,
+  `battle-of-kosovo`, `battle-of-bannockburn`, `battle-of-bouvines`,
+  `battle-of-grunwald`, `wars-of-scottish-independence`, `battle-of-crecy`,
+  `battle-of-legnano`, `rouen`, `battle-of-svolder`, `charlemagne-crowned`.
+  Re-run `node scripts/audit-stubs.mjs` for the current list.
+
+- **AUDIT OWED — person articles whose main image does not depict a person.**
+  Eric Bloodaxe led with a coin showing ERIC REX and a sword and no portrait
+  (fixed 2026-09-07, and the rule is now in CLAUDE.md). **Nothing has checked
+  whether others do the same.** Coins carrying a portrait bust are fine — the
+  Byzantine solidi all show a face — so this cannot be automated on the filename
+  alone and needs eyes on each candidate.
+  **The candidate list is 33 characters** (primary-image filenames matching
+  `coin|penny|denier|dinar|seal|map|charter`). Two verdicts already in:
+  `theodosius-iii` **passes** — its solidus shows a crowned facing bust, as every
+  Byzantine coin in the M8b batch does — and `eric-bloodaxe` failed and is fixed.
+  Likely failures, the coinage being text-only by religious convention: `qutuz`,
+  `al-adil-ii`, `al-mansur-ali`, `baraka-khan`, `yusuf-ibn-tashfin`,
+  `muhammad-al-nasir`. Likely passes: the seals of `vytautas`, `jadwiga-of-poland`,
+  `robert-ii-of-scotland`, `john-balliol` and `wladyslaw-iii-of-poland`, which show
+  enthroned or equestrian figures. **Certain failure: `kilij-arslan-i`**, whose
+  primary image is a *locator map* of the Sultanate of Rum — not a person at all.
+  The Scandinavian pennies (`sweyn-forkbeard`, `magnus-the-good`, `olof-skotkonung`,
+  `anund-jacob`, `guthrum`, `olaf-guthfrithson`, and the Danish and Swedish series)
+  need looking at one by one: some carry crude busts and pass, some carry a cross
+  and a legend and do not.
+
 - **Other stub articles probably exist.** Constantinople was rewritten 2026-09-07
   after the owner noticed it had 3 sections and ~1,380 characters — thinner than
   every siege article written about it. It is unlikely to be the only one: the
