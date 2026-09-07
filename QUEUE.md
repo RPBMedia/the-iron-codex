@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M10 and M8b shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M11 and M8b shipped; Track B M5 parked by the owner)_
 
 ---
 
@@ -296,7 +296,24 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       museum card is legible in the photograph and reads **Яромир Пшемыслович** —
       Jaromír of the Přemyslids, a Bohemian duke. Not used. Samuel leads with his
       fortress at Ohrid instead.
-- [ ] M11 — Levounion 1091, Beroia 1122, Sirmium 1167; Pechenegs, Cumans
+- [x] **M11 — The steppe frontier** (2026-09-07). Levounion 1091, Beroia 1122,
+      Sirmium 1167, and the Pechenegs and Cumans as anchor polities — 5 articles.
+      **The agreed correction is in the summary, not a footnote: Manuel I was NOT
+      present at Sirmium.** Andronikos Kontostephanos commanded and won it, and the
+      article has a section called "Who won it" saying so, because the victory is
+      routinely filed under the emperor's name.
+      **KONTOSTEPHANOS DEFERRED** — no image of him exists in any form. That is the
+      **sixth** such deferral in Track A and it is the sharpest one yet, since he is
+      the man the correction exists to credit. See the open decision below.
+      The milestone's shape: two steppe peoples reach the Danube, one is destroyed
+      in a morning at Levounion and finished at Beroia, and the other — which
+      helped destroy the first — outlives the empire that hired it and ends up
+      supplying the Mamluk sultans of Egypt. The Cumans article therefore runs
+      forward to Kalka and Baibars rather than stopping in 1200.
+      **Sirmium's continuity points at Kosovo 1389** — `fall-of-constantinople` was
+      rejected by the continuity validator, correctly, since it is `Fall of City`
+      rather than Battle or Siege. **Re-point it at the sack of 1204 when M13
+      lands**, which is the event that actually undid what Manuel built.
 - [ ] M12 — Pelagonia 1259 + recovery of Constantinople 1261; Empire of Nicaea,
       Latin Empire, Epirus, Achaea, Sicily; Michael VIII
 - [ ] M13 — Contrast defeats: Yarmouk 636, Myriokephalon 1176, Sack of
