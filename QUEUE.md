@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M8 shipped; M8b added; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M9 shipped; M8b added; Track B M5 parked by the owner)_
 
 ---
 
@@ -227,7 +227,40 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       timeline ≥5, succession box, related entries ≥3), and each new page must
       itself be audited for its own predecessor and successor per the iterative
       chaining rule. Expect the chain to reach Nikephoros I, Leo V and Michael I.
-- [ ] M9 — Eastern conquests (Aleppo, Cyprus, Cilicia, Antioch); Tzimiskes, Bourtzes, Sayf al-Dawla
+- [x] **M9 — The eastern conquests, 962–969** (2026-09-07). Nine articles: the
+      sack of Aleppo, the conquests of Cilicia and Cyprus, the fall of Antioch,
+      the Hamdanid Emirate of Aleppo, the city of **Antioch**, and John Tzimiskes,
+      Michael Bourtzes and Sayf al-Dawla.
+      Both agreed corrections applied. **Antioch was taken by Michael Bourtzes and
+      Peter the Stratopedarch against Nikephoros's express orders** — he had
+      forbidden a storm, wanting the city intact — and Bourtzes was dismissed for
+      winning, then joined the conspiracy that murdered him nine weeks later. M8
+      told the end of that story before M9 told the beginning. And **Cyprus was
+      taken by Niketas Chalkoutzes, not by Nikephoros personally**, which the
+      article says outright because popular accounts get it wrong.
+      Cilicia and Cyprus are `eventType: "War"` — campaigns, not engagements,
+      which also avoids inventing strength figures for two-year operations.
+      **Chandax's continuity re-pointed onto Aleppo** rather than Antioch as M8
+      suggested: Aleppo is nearer and forward, which the selection rule prefers.
+      The chain now runs Lalakaon → Chandax → Aleppo → Antioch → Manzikert.
+      **`antioch` was not in the plan and the gate demanded it.** The phrase
+      "Siege of Antioch" could not resolve, because unlike Constantinople the city
+      had no article — the archive had been calling it the greatest prize of the
+      reconquest since M7 with nothing to send a reader to. Now a full City
+      article covering Seleucid foundation to Baibars's destruction in 1268.
+      The M8b succession validator also fired correctly on Nikephoros II, whose
+      successor entry named John Tzimiskes before this milestone created him.
+      **IMAGE CAVEAT — the weakest in the batch, flagged not buried.** The only two
+      images on Commons naming Michael Bourtzes are the Skylitzes miniature of
+      Antioch (used for the siege) and a 19th-century costume plate from the NYPL
+      Vinkhuijzen collection. His article uses the plate under the "later artwork,
+      honestly captioned" rule, and the caption says plainly it is a costume study
+      and not a likeness. **If the owner would rather defer him, the article can be
+      pulled and the Antioch material already carries his story.**
+      Also rejected on inspection: every Matson Collection photograph of the walls
+      of Antioch on Commons is a **stereoscopic negative pair** — the same view
+      twice with the negative border — which no amount of good provenance makes
+      usable as a primary image.
 - [ ] M10 — Kleidion 1014; First Bulgarian Empire; Basil II, Samuel
 - [ ] M11 — Levounion 1091, Beroia 1122, Sirmium 1167; Pechenegs, Cumans
 - [ ] M12 — Pelagonia 1259 + recovery of Constantinople 1261; Empire of Nicaea,
