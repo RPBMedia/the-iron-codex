@@ -571,6 +571,7 @@ export const entityLinks = [
   { label: "Dane Axe", aliases: ["Danish axe","Two-handed axe"], type: "weaponArmor", slug: "dane-axe" },
   { label: "Falchion", aliases: ["Single-edged sword"], type: "weaponArmor", slug: "falchion" },
   { label: "Gambeson", aliases: ["Padded jack","Aketon"], type: "weaponArmor", slug: "gambeson" },
+  { label: "Gauntlet", aliases: ["hourglass gauntlet","mitten gauntlet","plate gloves"], type: "weaponArmor", slug: "gauntlet" },
   { label: "Gothic Plate Armor", aliases: ["Gothic armor"], type: "weaponArmor", slug: "gothic-plate-armor" },
   { label: "Great Helm", aliases: ["Great helmet","Pot helm"], type: "weaponArmor", slug: "great-helm" },
   { label: "Halberd", aliases: ["Halbert"], type: "weaponArmor", slug: "halberd" },
