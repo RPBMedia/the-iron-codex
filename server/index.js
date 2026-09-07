@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import { existsSync, readFileSync, statSync } from 'node:fs'
-import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase } from './user-store.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
 import { promisify } from 'node:util'
@@ -164,39 +164,8 @@ function validatePassword(password) {
   return null
 }
 
-async function readUsers() {
-  try {
-    const users = JSON.parse(await readFile(usersFile, 'utf-8'))
-    return Array.isArray(users) ? users : []
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return []
-    }
-
-    throw error
-  }
-}
-
-async function writeUsers(users) {
-  try {
-    await writeFile(usersFile, JSON.stringify(users, null, 2) + '\n')
-  } catch (error) {
-    // Serverless platforms mount the deployment read-only, so writing the user
-    // store inside the bundle fails with EROFS/EACCES. Surface that clearly: it
-    // is a deployment-architecture problem, not a transient write error, and it
-    // breaks every account-creating path (signup AND Google sign-in) identically.
-    if (error?.code === 'EROFS' || error?.code === 'EACCES') {
-      const message =
-        `User store is not writable at ${usersFile} (${error.code}). ` +
-        'On a read-only/serverless filesystem this path can never be written. ' +
-        'Set AUTH_USERS_FILE to a writable location, or move the user store to a database.'
-      console.error('[auth]', message)
-      throw new Error(message)
-    }
-    console.error('[auth] failed to write the user store:', error)
-    throw error
-  }
-}
+// User storage lives in ./user-store.js — see the note there on why the
+// original in-bundle JSON file could never work on a serverless host.
 
 async function hashPassword(password) {
   const salt = randomBytes(16).toString('hex')
@@ -288,8 +257,7 @@ async function currentUser(req) {
 
   if (!session) return null
 
-  const users = await readUsers()
-  return users.find((user) => user.id === session.sub) ?? null
+  return findUserById(session.sub)
 }
 
 async function requireUser(req, res, next) {
@@ -618,8 +586,8 @@ app.post('/api/favorites', requireUser, async (req, res) => {
     return res.status(404).json({ message: 'Article not found.' })
   }
 
-  const users = await readUsers()
-  const user = users.find((candidate) => candidate.id === req.user.id)
+  const user = await findUserById(req.user.id)
+  if (!user) return res.status(401).json({ message: 'Log in to access this section.' })
   user.favorites = user.favorites ?? []
 
   const existing = user.favorites.find((favorite) => favorite.articleType === articleType && favorite.articleId === articleId)
@@ -638,15 +606,15 @@ app.post('/api/favorites', requireUser, async (req, res) => {
   }
 
   user.favorites.push(favorite)
-  await writeUsers(users)
+  await updateUser(user.id, { favorites: user.favorites })
   res.status(201).json({ favorite: articlePreviewFromFavorite(favorite) })
 })
 
 app.delete('/api/favorites/:articleType/:articleId', requireUser, async (req, res) => {
   const articleType = publicCollectionName(req.params.articleType)
   const articleId = req.params.articleId
-  const users = await readUsers()
-  const user = users.find((candidate) => candidate.id === req.user.id)
+  const user = await findUserById(req.user.id)
+  if (!user) return res.status(401).json({ message: 'Log in to access this section.' })
   const before = user.favorites?.length ?? 0
 
   user.favorites = (user.favorites ?? []).filter(
@@ -657,7 +625,7 @@ app.delete('/api/favorites/:articleType/:articleId', requireUser, async (req, re
     return res.status(404).json({ message: 'Favorite not found.' })
   }
 
-  await writeUsers(users)
+  await updateUser(user.id, { favorites: user.favorites })
   res.json({ removed: true, articleType, articleId })
 })
 
@@ -674,8 +642,7 @@ app.post('/api/auth/signup', async (req, res) => {
     return res.status(400).json({ message: passwordError })
   }
 
-  const users = await readUsers()
-  if (users.some((user) => user.email === email)) {
+  if (await findUserByEmail(email)) {
     return res.status(409).json({ message: 'An account already exists for this email.' })
   }
 
@@ -690,8 +657,7 @@ app.post('/api/auth/signup', async (req, res) => {
     createdAt: new Date().toISOString()
   }
 
-  users.push(user)
-  await writeUsers(users)
+  await createUser(user)
   setSession(res, user)
   res.status(201).json({ authenticated: true, user: publicUser(user) })
 })
@@ -704,8 +670,7 @@ app.post('/api/auth/login', async (req, res) => {
     return res.status(400).json({ message: 'Enter your email and password.' })
   }
 
-  const users = await readUsers()
-  const user = users.find((candidate) => candidate.email === email)
+  const user = await findUserByEmail(email)
 
   if (!user || !(await verifyPassword(password, user))) {
     return res.status(401).json({ message: 'Incorrect email or password.' })
@@ -785,10 +750,11 @@ app.get('/api/auth/google/callback', async (req, res) => {
       return res.redirect('/auth/callback?error=google_email_unverified')
     }
 
-    const users = await readUsers()
-    let user = users.find((candidate) => candidate.email === email)
+    let user = await findUserByEmail(email)
+    let isNewUser = false
 
     if (!user) {
+      isNewUser = true
       user = {
         id: randomBytes(16).toString('hex'),
         email,
@@ -799,7 +765,6 @@ app.get('/api/auth/google/callback', async (req, res) => {
         favorites: [],
         createdAt: new Date().toISOString()
       }
-      users.push(user)
     } else {
       user.googleSub = user.googleSub ?? profile.sub
       user.displayName = user.displayName ?? profile.name
@@ -807,7 +772,17 @@ app.get('/api/auth/google/callback', async (req, res) => {
       user.providers = Array.from(new Set([...(user.providers ?? []), 'google']))
     }
 
-    await writeUsers(users)
+    if (isNewUser) {
+      await createUser(user)
+    } else {
+      await updateUser(user.id, {
+        googleSub: user.googleSub,
+        displayName: user.displayName,
+        avatar: user.avatar,
+        providers: user.providers
+      })
+    }
+
     setSession(res, user)
     res.redirect(`/auth/callback?returnTo=${encodeURIComponent(state.returnTo ?? '/favorites')}`)
   } catch (error) {
