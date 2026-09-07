@@ -105612,7 +105612,7 @@
       "region": "Central and Western Europe",
       "material": "Steel helmet, often with tail and visor",
       "battlefieldRole": "Late medieval head protection for infantry and men-at-arms",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coventry%20Sallet%20HAGAM%20noBG.jpg",
+      "image": "/sallet-ai.png",
       "summary": "The sallet was a late medieval helmet with a swept-back tail and, in many forms, a visor or bevor pairing.",
       "details": "The helmet deflected downward blows and gave good head and neck coverage while preserving mobility. Open forms were popular with infantry, while visored examples served armored elites.",
       "contentSections": [
@@ -105674,12 +105674,13 @@
         }
       ],
       "imageInfo": {
-        "caption": "The Coventry Sallet, an English war helmet of about 1460, shown from the front three-quarter so the brow, the face opening and the swept tail are all visible at once.",
-        "creator": "English armourer; photograph by the Herbert Art Gallery and Museum, Coventry (background removed for Wikimedia Commons)",
-        "date": "c. 1460 (object); photograph 2008",
-        "source": "Herbert Art Gallery and Museum, Coventry / Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coventry_Sallet_HAGAM_noBG.jpg",
-        "note": "An original surviving helmet, not a reconstruction, and one of the few English sallets to survive largely complete. Photographed against a plain ground; the dark brown surface is age patina, and the form of the piece is unaltered. Licensed CC BY-SA 4.0."
+        "caption": "AI-generated illustration of a German sallet of the later 15th century, shown from the front three-quarter: a one-piece skull drawn out over the neck into a swept tail, a horizontal vision slit above the brow, and the flared lower edge that carried a blow away from the shoulders.",
+        "creator": "AI-generated for The Iron Codex",
+        "date": "generated 2026",
+        "source": "The Iron Codex (AI illustration)",
+        "sourceUrl": "",
+        "aiGenerated": true,
+        "note": "Not a photograph of an object. It is used because no suitably licensed photograph showing a complete sallet from the front could be sourced: museums photograph this helmet in strict profile almost without exception, since the tail is its diagnostic feature, and the Metropolitan, Wallace, Walters, Kunsthistorisches, Higgins, Nelson-Atkins and Cleveland sets are all side views. A profile hides the brow, the vision slit and the face opening — the parts of the design the article explains. It follows the general German type of the 1470s and 1480s and is not evidence for any individual surviving helmet; for real objects see the two photographs below."
       },
       "knownFor": [
         "Sallet shows how medieval protection balanced cost, mobility, visibility, and resistance to weapons.",
@@ -105773,8 +105774,18 @@
       "sectionImages": [
         {
           "section": "Design and construction",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Coventry%20Sallet%20HAGAM%20noBG.jpg",
+          "caption": "The Coventry Sallet, an English war helmet of about 1460 and one of the few to survive largely complete, in the same three-quarter view.",
+          "creator": "English armourer; photograph by the Herbert Art Gallery and Museum, Coventry (background removed for Wikimedia Commons)",
+          "date": "c. 1460 (object); photograph 2008",
+          "source": "Herbert Art Gallery and Museum, Coventry / Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coventry_Sallet_HAGAM_noBG.jpg",
+          "note": "A real surviving object, included so the article carries photographic evidence alongside the illustration above. The dark brown surface is age patina; the form is unaltered. Licensed CC BY-SA 4.0."
+        },
+        {
+          "section": "Regional variation and surviving examples",
           "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau%20de%20Castelnaud%20-%20Schaller.jpg",
-          "caption": "The same form in strict profile, at the Château de Castelnaud: the tail sweeps back over the neck in one continuous curve from the skull, the feature that separates a sallet from every other late-medieval helmet.",
+          "caption": "The same form in strict profile, at the Chateau de Castelnaud: the tail sweeps back over the neck in one continuous curve from the skull, the feature that separates a sallet from every other late-medieval helmet.",
           "creator": "German or Italian armourer",
           "date": "late 15th century (object)",
           "source": "Musee de Castelnaud / Wikimedia Commons",
