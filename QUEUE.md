@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A M5–M7 shipped; Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (Track A M5–M8 shipped; M8b added; Track B M5 parked by the owner)_
 
 ---
 
@@ -186,8 +186,47 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       such: Constantine V's **Kopronymos** and Michael III's **the Drunkard**.
       Michael III's article is built around the fact that the histories of his
       reign were written for the dynasty founded by his murderer.
-- [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II ← NEXT.
-      Reuses `locationType: "Emirate"`; re-point Lalakaon's continuity here.
+- [x] **M8 — Crete 960–961** (2026-09-07). The siege of Chandax, the Emirate of
+      Crete, Nikephoros II Phokas and Romanos II — 4 articles.
+      Where the recovery stops being defensive: Byzantium had failed to retake
+      Crete in 843, 866, 911 and 949, and the difference in 961 was an army
+      supplied through a winter siege instead of withdrawn before one.
+      **Lalakaon's continuity re-pointed off Manzikert onto Chandax**, as promised
+      in M7 — 863 broke the raiding emirate on land, 961 the one at sea.
+      `locationType: "Emirate"` reused from Melitene exactly as planned.
+      **Chandax's own continuity points at Manzikert for want of anything nearer.
+      Re-point it at Antioch when M9 lands.**
+      Image near-miss worth keeping: the obvious Romanos II coin on Commons has a
+      file name and a description that disagree about *which* Romanos it shows, so
+      the article uses the Dumbarton Oaks solidus dated inside his sole reign
+      instead. A biography must not lead with a contested identification.
+      Alias gotcha: "Siege of Candia" was rejected as an alias — it trips the
+      battle-link gate as an unresolvable phrase, and the famous Siege of Candia is
+      the Ottoman–Venetian one of 1648–1669.
+      John Tzimiskes is a succession endpoint on Nikephoros II and is **owed an
+      article in M9**, where he is already scheduled.
+- [ ] **M8b — Dynastic completion: the emperors the battles never reached.**
+      Added 2026-09-07 at the owner's instruction, after the Isaurian dynasty page
+      showed two of five rulers linked. Track A's milestones are organised around
+      battles, so an emperor gets an article when he commands one; these never do,
+      and the archive carries **81 succession endpoints naming a real person with
+      no article**. CLAUDE.md's chaining rule already says the unlinked
+      `{displayName, note}` form is transitional and owed.
+      In priority order, with the reason each earns a page:
+      1. **Irene** — first woman to rule the empire in her own name; restored the
+         icons at Nicaea II in 787; blinded her own son to keep the throne.
+      2. **Theophilos** — last iconoclast emperor; watched al-Mu'tasim sack
+         Amorion, his own dynasty's home city, in 838.
+      3. **Basil I** — murdered Michael III and founded the Macedonian dynasty.
+         **Do this one with M10**, which needs the Macedonian house anyway.
+      4. **Constantine VII** — the scholar-emperor; *De Administrando Imperio* and
+         the *Book of Ceremonies* are sources the archive already leans on.
+      5. Leo IV, Constantine VI, Constans II, Constantine IV, Justinian II — the
+         Heraclian and Isaurian remainder, which completes both house pages.
+      Each must be a full ruler article (image, Character and Personality,
+      timeline ≥5, succession box, related entries ≥3), and each new page must
+      itself be audited for its own predecessor and successor per the iterative
+      chaining rule. Expect the chain to reach Nikephoros I, Leo V and Michael I.
 - [ ] M9 — Eastern conquests (Aleppo, Cyprus, Cilicia, Antioch); Tzimiskes, Bourtzes, Sayf al-Dawla
 - [ ] M10 — Kleidion 1014; First Bulgarian Empire; Basil II, Samuel
 - [ ] M11 — Levounion 1091, Beroia 1122, Sirmium 1167; Pechenegs, Cumans
@@ -451,25 +490,8 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
-- **81 succession endpoints name a real person with no article.** Audited
-  2026-09-07 after the owner asked why the Isaurian dynasty page links only two of
-  its five rulers. The answer is that Track A's milestones are organised around
-  **battles**, so an emperor gets an article when he commands one — Leo III and
-  Constantine V both fought at Akroinon, while Leo IV, Constantine VI and Irene
-  never appear in a battle the plan covers. The house articles simply made the
-  debt visible.
-  CLAUDE.md's iterative-chaining rule already says the unlinked
-  `{displayName, note}` form is "a transitional backlog state ... the goal is
-  always to link it", so these are owed, not optional. Highest-value first:
-  **Irene** (first woman to rule the empire in her own name, restored the icons at
-  Nicaea II in 787, blinded her own son), then **Theophilos** (last iconoclast
-  emperor, watched the Abbasids sack his dynasty's home city), then **Basil I**
-  (murdered Michael III and founded the Macedonian dynasty — and M10 needs the
-  Macedonian house anyway), then Leo IV, Constantine VI, Constans II,
-  Constantine IV, Justinian II.
-  Suggested handling: a **dynasty-completion milestone** after M8, rather than
-  smuggling three or four emperors into each battle milestone where they do not
-  belong.
+- **The 81 unlinked succession endpoints are now Track A M8b**, above — a proper
+  milestone rather than a loose note, at the owner's instruction (2026-09-07).
 
 - **The Macedonian dynasty needs a House article when M10 lands.** Basil I, Leo VI
   and Basil II have no articles yet, so the house would have nobody to link and
