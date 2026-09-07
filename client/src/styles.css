@@ -213,16 +213,27 @@ nav {
   box-shadow: 0 24px 80px rgba(4, 4, 6, 0.54);
 
   /* The menu must scroll inside itself.
-     It had no height limit, so on a phone the lower entries fell below the fold
-     and dragging on them scrolled the PAGE instead — the bottom of the menu was
-     unreachable. Bounding it to the viewport and giving it its own scroll fixes
-     that; overscroll-behavior stops the gesture chaining to the page when the
-     menu reaches its end. `dvh` rather than `vh` so the mobile browser's
-     collapsing address bar does not leave the menu taller than the screen. */
-  max-height: calc(100dvh - 96px);
+     It had no height limit at all, so on a phone the lower entries fell below the
+     fold and dragging on them scrolled the PAGE instead.
+
+     The height available to it is the viewport MINUS the header it hangs from.
+     `100%` here resolves against the menu's containing block — the sticky header's
+     padding box — so this measures the header rather than assuming it. That
+     matters because the header wraps to two rows on a phone and is roughly 128px
+     there against about 74px on desktop; a fixed guess left the last item below
+     the screen edge, visible only while dragging and snapping back on release.
+
+     The 22px covers the 10px top offset plus a little breathing room, and `dvh`
+     rather than `vh` keeps it correct while a mobile browser's toolbars collapse.
+     overscroll-behavior stops the scroll chaining to the page at either end. */
+  max-height: calc(100vh - 100% - 22px);
+  max-height: calc(100dvh - 100% - 22px);
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  /* Extra room under the final entry so the last tap target is never flush
+     against the scroll edge — the difference between "visible" and "tappable". */
+  padding-bottom: 24px;
 }
 
 .nav-menu-group {
@@ -2564,7 +2575,10 @@ button.back-link:focus-visible {
   .nav-menu {
     right: 12px;
     left: 12px;
-    padding: 14px;
+    /* Not the `padding` shorthand: it would reset the base rule's
+       padding-bottom, which is what keeps the last entry tappable rather than
+       merely visible — and this is the breakpoint where that matters most. */
+    padding: 14px 14px 24px;
   }
 
   .hero {
