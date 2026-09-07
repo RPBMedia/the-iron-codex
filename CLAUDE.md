@@ -359,6 +359,28 @@ Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succe
 ### New Battle article checklist (leaders)
 List every faction leader; verify each named leader has a Person article (create full-quality ones where missing and in scope); link leaders in `participants[].leaders`; link them in the body on first mention; add principal leaders to Related entries; run `node scripts/gen-entity-links.mjs` and `npm run check:content-quality`.
 
+#### An endpoint that gains an article must gain its link (2026-09-07)
+
+The unlinked `{ displayName, note }` form is a **transitional** state, and the
+transition has to actually happen: **when a succession endpoint's person is later
+given an article, the endpoint must be updated to carry the `personSlug` in the
+same commit.** Enforced by `npm run check:content-quality`, which hard-fails on an
+endpoint whose `displayName` matches an existing article's name or alias while
+still unlinked. `scripts/link-stale-succession-endpoints.mjs` fixes them in bulk.
+
+Found on **Leo III**, whose successor entry still read "Constantine V" as plain
+text after the milestone that created Constantine V. Nothing was watching for the
+moment the article appeared, so the debt simply sat there.
+
+**The exception set is the important part.** Matching on name alone is unsafe:
+"Philip the Bold" is John the Fearless's father, the Duke of Burgundy who died in
+1404, and it is *also* a registered alias of Philip III of France, who died in
+1285. Auto-linking would wire two men two centuries apart. Such names are listed
+in `AMBIGUOUS_SUCCESSION_NAMES` in both the script and the checker, with the
+reason, exactly as `ambiguousEntityAliases` and `AMBIGUOUS_DYNASTY_KEYS` are
+handled elsewhere. **A wrong link is worse than a missing link** — when a name is
+ambiguous, denylist it rather than resolving it.
+
 ### New ruler Person article checklist (succession)
 Identify the primary ruling office; add predecessor and successor entries; for each named predecessor/successor, decide **scope** (476–1453): if **in scope**, create a full-quality Person article and **link** it — then audit *that* new page's own predecessor/successor (iterative chaining) until every end reaches a linked ruler, a first holder, an unknown/disputed state, or the 476–1453 boundary; if **out of scope**, mark `{ status: "outside-scope", displayName, note }` explaining why. Handle none/unknown/disputed/fragmented explicitly with a status + note. Regenerate links (`node scripts/gen-entity-links.mjs`) and run `npm run check:content-quality`.
 

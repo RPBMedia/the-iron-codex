@@ -451,6 +451,26 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **81 succession endpoints name a real person with no article.** Audited
+  2026-09-07 after the owner asked why the Isaurian dynasty page links only two of
+  its five rulers. The answer is that Track A's milestones are organised around
+  **battles**, so an emperor gets an article when he commands one — Leo III and
+  Constantine V both fought at Akroinon, while Leo IV, Constantine VI and Irene
+  never appear in a battle the plan covers. The house articles simply made the
+  debt visible.
+  CLAUDE.md's iterative-chaining rule already says the unlinked
+  `{displayName, note}` form is "a transitional backlog state ... the goal is
+  always to link it", so these are owed, not optional. Highest-value first:
+  **Irene** (first woman to rule the empire in her own name, restored the icons at
+  Nicaea II in 787, blinded her own son), then **Theophilos** (last iconoclast
+  emperor, watched the Abbasids sack his dynasty's home city), then **Basil I**
+  (murdered Michael III and founded the Macedonian dynasty — and M10 needs the
+  Macedonian house anyway), then Leo IV, Constantine VI, Constans II,
+  Constantine IV, Justinian II.
+  Suggested handling: a **dynasty-completion milestone** after M8, rather than
+  smuggling three or four emperors into each battle milestone where they do not
+  belong.
+
 - **The Macedonian dynasty needs a House article when M10 lands.** Basil I, Leo VI
   and Basil II have no articles yet, so the house would have nobody to link and
   was deliberately not created with the other three on 2026-09-07. **M10 brings

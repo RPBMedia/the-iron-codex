@@ -1389,6 +1389,44 @@ function validatePersonTimeline(person) {
     })
   }
 
+  // Hard failure: a succession endpoint that NAMES a person who now has an
+  // article, but is still plain text. CLAUDE.md treats the unlinked
+  // {displayName, note} form as a transitional backlog state whose goal is always
+  // to be linked, and nothing was watching for the moment the article appeared.
+  // Found when Leo III's successor still read "Constantine V" as text after M7
+  // created him.
+  //
+  // AMBIGUOUS_SUCCESSION_NAMES is the safety valve, and it is not hypothetical:
+  // "Philip the Bold" names John the Fearless's father, the Duke of Burgundy who
+  // died in 1404, and also resolves by alias to Philip III of France, who died in
+  // 1285. A wrong link is worse than a missing one.
+  const AMBIGUOUS_SUCCESSION_NAMES = new Set(['philip the bold'])
+  const personByName = new Map()
+  for (const c of data.characters ?? []) {
+    for (const n of [c.name, ...(c.aliases ?? [])]) {
+      const k = normDyn(n)
+      if (k && !personByName.has(k)) personByName.set(k, c.id)
+    }
+  }
+  for (const c of data.characters ?? []) {
+    for (const key of ['predecessor', 'successor']) {
+      const entry = c.succession?.[key]
+      if (!entry || entry.personSlug || entry.status) continue
+      const k = normDyn(entry.displayName)
+      if (!k || AMBIGUOUS_SUCCESSION_NAMES.has(k)) continue
+      const id = personByName.get(k)
+      if (id && id !== c.id) {
+        findings.push({
+          collection: 'characters',
+          article: labelFor(c),
+          path: `succession.${key}`,
+          pattern: `succession endpoint "${entry.displayName}" now has an article (${id}) but is still unlinked — add personSlug (see CLAUDE.md)`,
+          snippet: id
+        })
+      }
+    }
+  }
+
   // Regression guard for the reported bug: Henry I must resolve to House of Normandy.
   if (charById.has('henry-i-of-england') && houses.some((h) => h.id === 'house-of-normandy')) {
     const hi = charById.get('henry-i-of-england')
