@@ -583,6 +583,7 @@ export const entityLinks = [
   { label: "Joyeuse", aliases: ["Sword of Charlemagne","French coronation sword"], type: "weaponArmor", slug: "joyeuse" },
   { label: "Kettle Hat / Kettle Helm", aliases: ["Kettle helm","Chapel-de-fer"], type: "weaponArmor", slug: "kettle-hat" },
   { label: "Kite Shield", aliases: ["Kite-shaped shield"], type: "weaponArmor", slug: "kite-shield" },
+  { label: "Lamellar and Scale Armor", aliases: ["lamellar","lamellar armour","scale armour","scale armor","klivanion","klibanion"], type: "weaponArmor", slug: "lamellar-armor" },
   { label: "Lance", aliases: ["Knightly lance"], type: "weaponArmor", slug: "lance" },
   { label: "Longbow", aliases: ["English longbow"], type: "weaponArmor", slug: "longbow" },
   { label: "Longsword", aliases: ["Hand-and-a-half sword","Bastard sword"], type: "weaponArmor", slug: "longsword" },
