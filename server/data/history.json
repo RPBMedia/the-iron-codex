@@ -12269,6 +12269,14 @@
             "type": "weaponArmor",
             "slug": "joyeuse"
           }
+        ],
+        "artifacts": [
+          {
+            "title": "Royal Frankish Annals",
+            "type": "artifact",
+            "slug": "royal-frankish-annals",
+            "label": "The reign they chronicle"
+          }
         ]
       },
       "sources": [
@@ -12827,6 +12835,26 @@
             "title": "Arming Sword",
             "type": "weaponArmor",
             "slug": "arming-sword"
+          },
+          {
+            "title": "Kite Shield",
+            "type": "weaponArmor",
+            "slug": "kite-shield",
+            "label": "Carried by his cavalry at Hastings"
+          },
+          {
+            "title": "Lance",
+            "type": "weaponArmor",
+            "slug": "lance",
+            "label": "The couched charge his riders delivered"
+          }
+        ],
+        "artifacts": [
+          {
+            "title": "Bayeux Tapestry",
+            "type": "artifact",
+            "slug": "bayeux-tapestry",
+            "label": "Its subject and its victor"
           }
         ]
       },
@@ -14330,6 +14358,20 @@
             "slug": "murad-i",
             "label": "Ruler of Ottoman Empire"
           }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "Bombard",
+            "type": "weaponArmor",
+            "slug": "bombard",
+            "label": "Commissioned the great guns that broke the Theodosian Walls"
+          },
+          {
+            "title": "Arquebus",
+            "type": "weaponArmor",
+            "slug": "arquebus",
+            "label": "Gunpowder small arms in his army at the siege of 1453"
+          }
         ]
       },
       "isRuler": true,
@@ -14777,6 +14819,14 @@
             "type": "event",
             "slug": "battle-of-stirling-bridge",
             "label": "His great victory, 1297"
+          }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "William Wallace's Sword",
+            "type": "weaponArmor",
+            "slug": "wallace-sword",
+            "label": "The sword kept and displayed as his"
           }
         ]
       },
@@ -21316,6 +21366,14 @@
             "type": "person",
             "slug": "tostig-godwinson"
           }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "Viking Sword",
+            "type": "weaponArmor",
+            "slug": "viking-sword",
+            "label": "The sword of his Norse world"
+          }
         ]
       },
       "sources": [
@@ -27299,6 +27357,22 @@
             "slug": "hastings",
             "label": "Place of death"
           }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "Dane Axe",
+            "type": "weaponArmor",
+            "slug": "dane-axe",
+            "label": "The two-handed axe of his housecarls at Hastings"
+          }
+        ],
+        "artifacts": [
+          {
+            "title": "Bayeux Tapestry",
+            "type": "artifact",
+            "slug": "bayeux-tapestry",
+            "label": "Its defeated protagonist"
+          }
         ]
       },
       "sources": [
@@ -30443,6 +30517,14 @@
             "type": "person",
             "slug": "john-comyn"
           }
+        ],
+        "artifacts": [
+          {
+            "title": "Declaration of Arbroath",
+            "type": "artifact",
+            "slug": "declaration-of-arbroath",
+            "label": "The king it was written to defend"
+          }
         ]
       },
       "sources": [
@@ -32866,6 +32948,14 @@
             "title": "John Comyn",
             "type": "person",
             "slug": "john-comyn"
+          }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "Trebuchet",
+            "type": "weaponArmor",
+            "slug": "trebuchet",
+            "label": "Built Warwolf at Stirling in 1304"
           }
         ]
       },
@@ -40550,6 +40640,14 @@
             "type": "person",
             "slug": "pope-urban-ii",
             "label": "Ruler of Papacy"
+          }
+        ],
+        "artifacts": [
+          {
+            "title": "Magna Carta",
+            "type": "artifact",
+            "slug": "magna-carta-document",
+            "label": "Annulled it in 1215"
           }
         ]
       },
@@ -113198,7 +113296,7 @@
         "Prankh helm",
         "Pranckh helm"
       ],
-      "year": 1350,
+      "year": 1340,
       "period": "High Middle Ages",
       "region": "Styria, Holy Roman Empire",
       "material": "Iron, with a crest of gilded and silvered material",
@@ -113217,45 +113315,45 @@
         "rows": [
           {
             "label": "Date",
-            "value": "c. mid-14th century"
+            "value": "c. 1330–1350"
           },
           {
             "label": "Region",
             "value": "Styria, in the Holy Roman Empire"
           },
           {
-            "label": "Helm",
-            "value": "Iron, of the fully enclosing great-helm form"
+            "label": "Construction",
+            "value": "Two front plates, two neck plates and a pierced top plate"
+          },
+          {
+            "label": "Reinforced",
+            "value": "Additional plates over the face, lined with felt"
           },
           {
             "label": "Crest",
-            "value": "A pair of horns rising from a fanned base, gilded and silvered"
+            "value": "Two horns rising from a fanned base"
           },
           {
-            "label": "Exceptional because",
-            "value": "The crest survives with the helm"
+            "label": "Hung at",
+            "value": "The church at Seckau, beneath two Prankh funerary shields"
           },
           {
-            "label": "Context",
-            "value": "A funerary achievement, hung above a tomb"
+            "label": "To Vienna",
+            "value": "Taken down 1877; given to the imperial collections 1878"
           },
           {
             "label": "Collection",
-            "value": "Kunsthistorisches Museum, Vienna"
-          },
-          {
-            "label": "Family",
-            "value": "The Prankh (Pranckh) family of Styria"
+            "value": "Kunsthistorisches Museum, Vienna (B 74)"
           }
         ]
       },
       "summary": "A mid-fourteenth-century great helm surviving with its heraldic crest — one of the very few medieval crests to come down to us at all.",
       "details": "Crests were made of light perishable materials and almost none survive. This one does, which turns a rare object into a uniquely informative one.",
       "knownFor": [
-        "One of the very few medieval helms to survive with its crest attached.",
-        "The crest is a pair of horns on a fanned, gilded base — heraldry as an actual object.",
-        "A funerary achievement, hung above a tomb rather than recovered from a battlefield.",
-        "The clearest surviving evidence for what a crested helm actually looked like."
+        "One of the very few medieval helms to survive with its crest.",
+        "Albert von Prankh’s seal of 1353 carries the same two-horned crest, tying the object to the man.",
+        "Hung for centuries in the church at Seckau, beneath two Prankh funerary shields.",
+        "Felt-lined reinforces over the face — tournament equipment rather than battlefield."
       ],
       "contentSections": [
         {
@@ -113269,9 +113367,9 @@
         {
           "title": "Date and provenance",
           "paragraphs": [
-            "The helm is generally dated to the middle decades of the fourteenth century, and is connected to Albert von Prankh, of a Styrian family within the Holy Roman Empire.",
-            "It comes from a church, not from a battlefield or a grave. It belongs to the tradition of the funerary achievement: the arms and equipment of a dead man hung above his tomb as a permanent display of who he had been.",
-            "That context is why it survived. Objects hung high in a church are kept, dusted and left alone for centuries, whereas anything in ordinary use is repaired, altered or worn out."
+            "The helm is dated to roughly 1330 to 1350 and is associated with Albert von Prankh, of a Styrian family within the Holy Roman Empire.",
+            "The link between man and object is better founded than tradition. Albert’s seal survives on a document of 1353 and shows two horns with combs closely matching the crest on this helm — independent evidence tying the heraldry to the person.",
+            "It comes from a church rather than a battlefield or a grave. It hung for centuries high on the wall of the southern aisle at Seckau in Styria, beneath two Prankh funerary shields, and was taken down in 1877 and presented to the imperial collections in Vienna the following year."
           ]
         },
         {
@@ -113285,17 +113383,17 @@
         {
           "title": "Attribution and reliability",
           "paragraphs": [
-            "The association with the Prankh family is secure in a way that many famous-object attributions are not: the object comes with a known family, a known region and a funerary context that explains its survival.",
-            "What should not be assumed is that this is battlefield equipment. A funerary achievement may be a man's actual harness, or may be made for the tomb, and the two possibilities are not always separable.",
-            "Crests in particular raise the question. A crest was worn in the tournament and in ceremonial display far more than in war, so a surviving crested helm is evidence for heraldic culture first and for battlefield practice second."
+            "The association with Albert von Prankh is unusually well founded for an object of this kind: a known family, a known church, a documented removal in 1877, and a seal of 1353 whose crest matches the one on the helm.",
+            "What is less certain is the relationship between the helm and any fighting he did. The reinforcing plates over the face, lined with felt, point to the hastilude — the tournament melee — rather than to war, and the helm carries cuts on every side.",
+            "Albert himself is barely recoverable. He is known essentially through that seal and through this helm, and there is not enough surviving record to write a life. This archive therefore names him without linking to a biography it cannot responsibly write, rather than manufacturing a thin one to satisfy a cross-link."
           ]
         },
         {
           "title": "Historical context",
           "paragraphs": [
-            "The great helm existed because the closed face solved one problem and created another: a man in a helm could not be recognised, so he had to be identified by display.",
-            "Crest, shield and surcoat carried the same arms for that reason, and the crested helm sits at the top of that system, held above the head where it could be seen furthest.",
-            "By the middle of the fourteenth century the great helm was already being displaced in war by the bascinet, and its survival into this period is bound up with the tournament and with ceremony rather than with the battlefield."
+            "The great helm existed because a closed face solved one problem and created another: a man inside one could not be recognised, so he had to be identified by display. Crest, shield and surcoat carried the same arms for that reason.",
+            "This helm was probably not battlefield equipment. Its felt-lined face reinforces belong to the hastilude, the mock battle in which knights fought in teams with lance, sword and mace, and the marks on it are consistent with that.",
+            "The date fits. By the middle of the fourteenth century the great helm was already giving way to the bascinet in war, and its continued life belonged to the tournament and to ceremony."
           ]
         },
         {

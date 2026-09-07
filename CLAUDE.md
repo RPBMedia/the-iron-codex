@@ -788,6 +788,37 @@ If no acceptable full-object image can be found, **mark the entry incomplete** (
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
 
+### Person ↔ object links must be bidirectional (owner rule, 2026-09-07)
+
+**If an object article links to a person, that person's article MUST link back.**
+Enforced by `npm run check:content-quality` (`validatePersonObjectReciprocity`),
+which hard-fails on a one-way link.
+
+This applies to every object collection — `weaponsArmor` and `artifacts` — and to
+every kind of connection: a weapon or armour associated with someone, a document
+they issued or annulled, a relic, a regalia object, anything named for them.
+
+An audit on 2026-09-07 found **13 one-way links**, so this is a systemic failure
+mode rather than an oversight: William Wallace's Sword linked to Wallace while his
+article said nothing about it, and the same held for the Bayeux Tapestry and both
+William the Conqueror and Harold Godwinson, Magna Carta and Innocent III, the Royal
+Frankish Annals and Charlemagne, and the Declaration of Arbroath and Robert the
+Bruce. A reader arriving from the person's side could not find the object at all.
+
+**Where the person has no article, that is a reason to create one** — a
+historically significant object tied to a named individual is exactly the case
+that justifies a new Person page, and it should be created at full quality.
+
+**The one exception is insufficient evidence, and it must be documented.** Some
+object-owners are recoverable only as a name: Albert von Prankh is known through
+his seal of 1353 and the helm itself, and Oshere is known only from the inscription
+on the Coppergate helmet. Neither supports the biography, timeline and Character
+and Personality section a Person article requires, and inventing one would breach
+the no-filler rule. In that case **name the person in the object article without
+linking, and say in the article why no biography exists** — the same convention the
+archive already uses for unlinked battle leaders and succession endpoints. Do not
+create a thin Person page to satisfy a cross-link.
+
 ### Scope: medieval Europe, 476–1453 (owner rule, restated 2026-09-07)
 
 **Every object in Weapons & Armor must be European and medieval.** This governs the

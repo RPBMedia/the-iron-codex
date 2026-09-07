@@ -3,6 +3,11 @@ import fs from 'node:fs'
 const dataPath = new URL('../server/data/history.json', import.meta.url)
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 
+// Person lookup for validatePersonObjectReciprocity. Declared beside `data` at
+// module top because the validators run during module execution — a const placed
+// next to its own function would still be in the temporal dead zone.
+const allCharacters = new Map((data.characters ?? []).map((c) => [c.id, c]))
+
 // ── Battle-reference linking (see CLAUDE.md "Battle Reference Linking Rules") ──
 // Parse entityLinks so we can tell which "Battle of X" / "Siege of X" phrases the
 // client auto-linker will resolve. A phrase that names an EXISTING battle article
@@ -1083,6 +1088,40 @@ function validateWeaponsArmorDepth(entry, label) {
   }
 }
 
+/**
+ * Person <-> object links must run both ways.
+ *
+ * An object article that links a person while the person's article says nothing
+ * about the object is a half-built connection: a reader arriving from the person's
+ * side cannot find the object at all. An audit on 2026-09-07 found thirteen of
+ * these, including William Wallace's Sword, the Bayeux Tapestry against both
+ * William the Conqueror and Harold Godwinson, and Magna Carta against Innocent III
+ * — a systemic failure mode rather than a slip, hence a check rather than a fix.
+ *
+ * Deliberately one-directional: it requires the PERSON to link back when the OBJECT
+ * names them. The reverse is not required, because a person article may reasonably
+ * mention equipment generally without the type article listing every user.
+ */
+function validatePersonObjectReciprocity(collection, entry, label) {
+  const people = entry.relatedEntries?.people ?? []
+  for (const link of people) {
+    const person = allCharacters.get(link.slug)
+    if (!person) continue // the generic related-entry validator reports broken slugs
+    const linksBack = Object.values(person.relatedEntries ?? {})
+      .flat()
+      .some((r) => r?.slug === entry.id)
+    if (!linksBack) {
+      findings.push({
+        collection,
+        article: label,
+        path: `relatedEntries.people "${link.slug}"`,
+        pattern: `one-way person link: ${labelFor(person)} does not link back to this object — person/object links must be bidirectional`,
+        snippet: ''
+      })
+    }
+  }
+}
+
 function validatePolityStandards(entry, label) {
   if (!POLITY_TYPES.has(entry.locationType)) return
   const sections = entry.contentSections ?? []
@@ -1141,6 +1180,10 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'weaponsArmor') {
       validateWeaponsArmorDepth(entry, labelFor(entry))
+    }
+
+    if (collection === 'weaponsArmor' || collection === 'artifacts') {
+      validatePersonObjectReciprocity(collection, entry, labelFor(entry))
     }
 
     validateRelatedEntries(collection, entry, labelFor(entry))
