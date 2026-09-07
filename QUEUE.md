@@ -641,6 +641,19 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **Auth storage hardening — small, and it makes "is sign-in stable?" answerable
+  in one request.** The user store falls back through Upstash → Supabase → a local
+  JSON file. That ordering is right for development and silent in production: if
+  the Upstash variables were ever absent or misnamed in the Production
+  environment, the store would quietly select the file backend and fail on the
+  first write, which is exactly the original outage wearing a different hat.
+  Two changes: (1) **refuse the file backend when `NODE_ENV=production`** and log
+  which backend was selected at startup, so a misconfiguration fails loudly and
+  immediately instead of at the first user's signup; (2) a **read-only
+  `/api/health` endpoint** reporting the active backend and whether a round-trip
+  to it succeeds — no account data, no secrets. Turns stability from a thing to be
+  believed into a thing to be checked.
+
 - **Sword of St. Maurice (Turin)** — the single unbuilt item from the closed
   Track D. Worth writing because the brief explicitly warns it is confused with
   the **Reichsschwert**, which the archive already has: they are two separate
@@ -743,30 +756,23 @@ with the owner if any of those bullets mattered specifically._
      drift.
   Recommendation: **option 2**, restricted to figures with a securely documented
   place association and never for anyone whose likeness does survive.
-- **CRITICAL — account creation has never worked in production. Needs a
-  storage decision from the owner.** Diagnosed 2026-09-06.
-  Google sign-in now reaches Google, returns, and fails at the *last* step. The
-  cause is not OAuth: `writeUsers()` writes `server/data/users.json` **inside the
-  deployment bundle**, and Vercel mounts that filesystem read-only. Proven
-  independently — `POST /api/auth/signup` returns **HTTP 500** on the live site,
-  the same write path with no Google involved. Two further facts confirm it:
-  `users.json` is not committed, so every deploy would start empty regardless,
-  and each serverless instance would hold its own copy even if writes succeeded.
-  **A store outside the bundle is required.** Options, owner's call:
-  1. **Vercel Blob** — smallest change; keeps the current read-all/write-all
-     shape behind a one-file adapter. Fastest route to working sign-in.
-  2. **Vercel KV (Upstash Redis)** — similar effort, better suited to per-user
-     records than a single JSON blob.
-  3. **Supabase Postgres** — most work now, but the owner already runs Supabase
-     on CareerForger, and Track C's analytics will want a real database anyway.
-  Recommendation: Blob or KV to restore sign-in today; Supabase if we would
-  rather do it once. Interim mitigation only: `AUTH_USERS_FILE=/tmp/users.json`
-  makes writes succeed but the data is per-instance and erased constantly — a
-  diagnostic, not a fix.
-  Shipped meanwhile: the storage failure now logs a specific, actionable message
-  instead of a generic crash, and the Google callback's bare `catch {}` — which
-  turned every distinct failure into the same opaque screen — now logs the real
-  error.
+- ~~**CRITICAL — account creation has never worked in production**~~ **RESOLVED.**
+  The owner confirmed a successful Google sign-in on the live site (2026-09-07),
+  and the code confirms it: `server/user-store.js` is now a storage seam that
+  selects a backend from the environment — **Upstash Redis** first
+  (`UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN`), then Supabase, then the
+  JSON file for local development only. **Upstash is the backend in use.**
+  It also replaced the read-all/mutate/write-all pattern with four targeted
+  operations, so toggling one favourite no longer rewrites every account. Key
+  layout is `user:<id>` for the account and `user:email:<email>` as an index
+  holding only the id, so the two cannot disagree about anything but existence.
+  **This entry sat here stale and was reported to the owner as open work.** The
+  lesson is the same one Track D taught on the same day: a queue entry describing
+  a defect is a claim with an expiry date, and it must be re-verified against the
+  code before being repeated, not just re-read.
+  **One residual fragility, not a bug:** if both remote backends' variables ever
+  went missing in Production, the store would fall back to the JSON file and fail
+  on write with no loud signal. See the hardening item under "Open" below.
 
 - ~~Google sign-in: `AUTH_BASE_URL` not reaching the runtime~~ RESOLVED. Verified
   live: the redirect now carries
