@@ -25,7 +25,9 @@ html {
   /* `overflow-x: clip` prevents horizontal scrollbars WITHOUT turning the body
      into a scroll container. Plain `overflow-x: hidden` forces overflow-y to
      compute to `auto`, which makes the <body> the scroller (body.scrollTop) and
-     leaves window.scrollY stuck at 0 in Chrome — which broke scroll restoration. */
+     leaves window.scrollY stuck at 0 in Chrome — which broke scroll restoration.
+     It is set on html AND body: body alone still leaves the document
+     horizontally scrollable in some engines. */
   overflow-x: clip;
   scroll-behavior: smooth;
 }
@@ -209,6 +211,18 @@ nav {
   padding: 16px;
   background: rgba(13, 13, 16, 0.98);
   box-shadow: 0 24px 80px rgba(4, 4, 6, 0.54);
+
+  /* The menu must scroll inside itself.
+     It had no height limit, so on a phone the lower entries fell below the fold
+     and dragging on them scrolled the PAGE instead — the bottom of the menu was
+     unreachable. Bounding it to the viewport and giving it its own scroll fixes
+     that; overscroll-behavior stops the gesture chaining to the page when the
+     menu reaches its end. `dvh` rather than `vh` so the mobile browser's
+     collapsing address bar does not leave the menu taller than the screen. */
+  max-height: calc(100dvh - 96px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav-menu-group {
@@ -1612,7 +1626,7 @@ button.back-link:focus-visible {
 
 .event-side-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr));
   gap: 10px;
 }
 
@@ -2517,6 +2531,36 @@ button.back-link:focus-visible {
     padding: 9px 11px;
   }
 
+  /* On the narrowest phones the header's two columns could together demand more
+     than the viewport: `.header-actions` carries `min-width: max-content`, which
+     refuses to shrink, and the brand subtitle claims 48vw. Releasing the actions'
+     minimum and letting the brand text ellipsis lets the row fit whatever space
+     there is instead of pushing content off the right edge. */
+  .header-actions {
+    min-width: 0;
+  }
+
+  /* `.brand` is `flex: 0 0 auto` and its title is an inline <strong>, so neither
+     could shrink or ellipsis. Allowing both means the title gives way rather than
+     the row growing past the screen. */
+  .brand {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .brand > span {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .brand strong {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
   .nav-menu {
     right: 12px;
     left: 12px;
@@ -2903,7 +2947,7 @@ a.tree-person:hover .tree-person-name {
 .wa-knownfor li { position: relative; padding-left: 1.25rem; line-height: 1.5; }
 .wa-knownfor li::before { content: "▪"; position: absolute; left: 0; opacity: 0.6; }
 
-.wa-specs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.5rem 1.5rem; margin: 0; }
+.wa-specs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 0.5rem 1.5rem; margin: 0; }
 .wa-specs > div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(128,128,128,0.18); }
 .wa-specs dt { opacity: 0.7; font-size: 0.85rem; }
 .wa-specs dd { margin: 0; text-align: right; font-weight: 600; }
@@ -2914,7 +2958,7 @@ a.tree-person:hover .tree-person-name {
 .wa-table th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; }
 .wa-table td:first-child { font-weight: 600; white-space: nowrap; }
 
-.wa-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.9rem; }
+.wa-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 0.9rem; }
 .wa-card { border: 1px solid rgba(128,128,128,0.22); border-radius: 12px; padding: 0.9rem 1rem; background: rgba(128,128,128,0.05); }
 .wa-card h3 { margin: 0 0 0.35rem; font-size: 1rem; }
 .wa-card p { margin: 0; line-height: 1.5; font-size: 0.92rem; }
