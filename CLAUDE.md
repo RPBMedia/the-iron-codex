@@ -798,6 +798,49 @@ If no acceptable full-object image can be found, **mark the entry incomplete** (
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
 
+### Weapons & Armor has TWO layers (owner rule, 2026-09-07)
+
+The collection contains two different kinds of article, and they are written,
+audited and illustrated differently. **Every future W&A audit must check both
+layers separately** — a sweep that only counts articles will miss that one layer is
+starving while the other is fat.
+
+**1. Generic types** — longsword, sallet, plate armour, pike, hand cannon. These
+explain a *form*. They take the mandated topic structure (design, use, strengths,
+development, regional variation, examples, legacy), and where no licensed
+photograph of a complete example exists they may use a clearly flagged AI
+illustration under the last-resort rules.
+
+**2. Unique historical artifacts** — the Sutton Hoo helmet, Joyeuse, William
+Wallace's Sword, the Gjermundbu helmet, Szczerbiec, the Avant armour. These explain
+one *object*. They take a different structure: Overview, Date and provenance,
+Construction, Historical context, Attribution and reliability, The surviving object
+today, Significance.
+
+Rules specific to the artifact layer:
+
+- **Real photographs only. Never an AI image.** A generated picture of a generic
+  type illustrates a form; a generated picture of a named artifact fabricates a
+  specific object that exists and can be photographed, and presents the fabrication
+  as that object. `validateAiGeneratedImage` blocks AI on `Famous weapon` and
+  `Famous armor` for this reason. If no licensed photograph can be found, **defer
+  the article** — do not substitute, and do not illustrate one object with a
+  photograph of another. The Churburg article is the worked example: no photograph
+  of harness No. 13 could be licensed, so the article was written about the armoury
+  and illustrated with harness S18, captioned as S18.
+- **Separate evidence from tradition, where the reader meets the claim.** Secure
+  provenance, scholarly reconstruction, traditional attribution, legendary
+  attribution, later restoration, composite assembly and replacement parts are
+  different things and must not be flattened. Put the caveat in its own section or
+  beside the claim — never in a disclaimer at the bottom. Wallace's Sword must not
+  read as his battlefield weapon; a funerary achievement is not confirmed
+  battlefield equipment; Henry V's helm is not demonstrably the Agincourt helm.
+- **Major generic articles link to their notable surviving examples**, and every
+  artifact links back to its generic type. The cross-linking runs both ways.
+- **Do not create an artifact article for an ordinary museum piece.** The bar is
+  strong provenance, a famous find, regalia, or genuine importance to scholarship —
+  not merely that a photograph happens to exist.
+
 ### Person ↔ object links must be bidirectional (owner rule, 2026-09-07)
 
 **If an object article links to a person, that person's article MUST link back.**
