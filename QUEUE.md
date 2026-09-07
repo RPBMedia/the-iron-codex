@@ -18,10 +18,10 @@ _Last updated: 2026-09-07_
 
 ## TRACK D — Weapons & Armor: unique surviving artifacts
 
-**Queued 2026-09-07. Starts when the W&A tier work is finished** — Tier 3 has one
-article left (military flail, awaiting an image).
+**Queued 2026-09-07. READY TO START — the W&A tier work is complete** (Tiers 1–3
+all shipped, 57 articles).
 
-**The problem.** Weapons & Armor is now strong on generic *types* (56 articles)
+**The problem.** Weapons & Armor is now strong on generic *types* (57 articles)
 and thin on historically unique *objects*. Only three exist: the Sutton Hoo
 helmet, Joyeuse and the Ulfberht group. The goal is to make the section read as a
 curated armoury of the most important surviving medieval objects, not only a
