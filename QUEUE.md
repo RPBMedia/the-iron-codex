@@ -118,8 +118,17 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Rome names him as the Gothic commander without a link, per the archive's
       convention for a named commander awaiting an article. Revisit if an image
       surfaces.
-- [ ] **M4 — Nineveh 627**; Sasanian Empire; Heraclius, Khosrow II, Shahrbaraz ← NEXT
-- [ ] M5 — Siege of Constantinople 626; Avar Khaganate
+- [x] **M4 — Nineveh 627** (2026-09-07). Battle of Nineveh, Sasanian Empire,
+      Heraclius, Khosrow II — 4 articles.
+      **SHAHRBARAZ DEFERRED** — no image exists in any form, not even a coin,
+      despite his briefly taking the throne in 630. Named in prose without a link.
+      Note: Nineveh's continuity points at Manzikert for want of anything nearer.
+      **Re-point it at Yarmouk 636 when M13 lands** — that is the battle that
+      actually undid what Nineveh won.
+      Source shift recorded in the articles: from M4 onward there is no Procopius.
+      Theophanes writes two centuries later, George of Pisidia is panegyric verse,
+      and the Armenian and Syriac chronicles have their own agendas.
+- [ ] **M5 — Siege of Constantinople 626**; Avar Khaganate ← NEXT
 - [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama
 - [ ] M7 — Akroinon 740, Lalakaon 863; Abbasids, Melitene; Constantine V, Michael III, Petronas
 - [ ] M8 — Crete 960–961; Emirate of Crete; Nikephoros II, Romanos II
