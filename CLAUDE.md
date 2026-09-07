@@ -227,6 +227,52 @@ Navigation between House articles and the people in them must work **both ways**
 - Use canonical House slugs consistently (`House of Normandy` -> `house-of-normandy`, `House of Wessex` -> `house-of-wessex`, `House of Plantagenet` -> `house-of-plantagenet`, etc.). Do not create duplicate House pages for spelling variants; add the variant as a House `alias` instead (and never an ambiguous one).
 - Broken House <-> Person navigation is a production bug.
 
+#### Two rulers of a dynasty means the dynasty gets an article (owner rule, 2026-09-07)
+
+**If two or more ruler articles share the same `quickFacts.dynasty` value and no
+House article exists for it, the House article must be created.** Enforced by
+`npm run check:content-quality` (`validateDynastyHouseCoverage`), which hard-fails
+and names the rulers left with a dead dynasty label.
+
+The rule exists because the "don't link to a missing House route" rule above,
+applied on its own, silently accumulates dead ends. It was found on **Michael III**,
+whose Dynasty/House card read as plain text: the archive held `house-of-komnenos`,
+`house-of-doukas` and `house-of-palaiologos` — every Byzantine house it had was
+*late* — while the Byzantine expansion was busy adding emperors of the seventh to
+ninth centuries. House<->Person navigation worked for the empire's last four
+centuries and not for its middle ones. Two rulers is the threshold because at two
+the dynasty is demonstrably a *line* rather than an individual, and a reader who
+lands on either of them has somewhere to go.
+
+Applying it:
+
+- **The threshold is a floor, not a ceiling.** A dynasty with a single ruler in
+  the archive may still deserve a House article on its own merits — the Heraclian
+  and Amorian houses were both created with one member each, because the dynasty
+  matters and more members are coming.
+- **Create the House properly or not at all.** Full article: image with complete
+  metadata, `founder`, `notableMembers`, `familyTree`, `timeline`, `contentSections`,
+  `relatedEntries`, `sources`. A stub House is worse than a plain-text label,
+  because it converts an honest gap into a link that disappoints.
+- **`quickFacts.dynasty` must match the House `name` or an alias exactly.**
+  Resolution is normalized equality, never substring, so "Isaurian dynasty" on the
+  person and `Isaurian dynasty` (or a registered alias) on the House.
+- **Members with no article are named, not linked.** `notableMembers` and
+  `familyTree` nodes take `displayName` alone where the person has no article;
+  only `personSlug` entries must resolve. A House does not wait for its whole
+  membership to exist.
+- **Not every dynasty label is a dynasty.** Values like "Not dynastic", "None
+  recorded", an order's name, or a descriptive phrase are excluded by the
+  validator and must not be turned into House articles to satisfy it.
+- **Naming follows the sources.** Family-name dynasties take "House of X"
+  (Komnenos, Doukas, Palaiologos, Heraclius). Dynasties known by a region or an
+  epithet keep the name the scholarship uses — "Isaurian dynasty", "Amorian
+  dynasty" — with the alternatives as aliases. Do not invent a family name to fit
+  a template.
+- **Byzantine and other non-heraldic houses state the absence.** These dynasties
+  bore no Western coat of arms; the `arms` field says so in a sentence and the
+  article leads with a coin, a mosaic or a monument. Never invent a shield.
+
 **Good:** House of Normandy links to Henry I, and Henry I's Dynasty/House card links back to House of Normandy.
 **Bad:** House of Normandy links to Henry I, but Henry I's Dynasty/House field is plain text.
 **Good:** a Capetian ruler with `dynasty: "House of Capet"` links to the House of Capet article once it exists.

@@ -1359,6 +1359,36 @@ function validatePersonTimeline(person) {
     }
   }
 
+  // Hard failure: dynasty coverage. Two or more RULERS sharing a dynasty value
+  // with no House article means a dead Dynasty/House card on every one of them.
+  // See CLAUDE.md "Two rulers of a dynasty means the dynasty gets an article".
+  //
+  // Deliberately counts rulers only. Non-ruler characters carry all sorts of
+  // things in this field — an order's name, a service relationship, a descriptive
+  // phrase — and turning those into House articles is the failure mode this rule
+  // must not cause.
+  const NOT_A_DYNASTY = /^(not dynastic|none|none recorded|unknown|n\/a|—|-)$/i
+  const rulersByDynasty = new Map()
+  for (const c of data.characters ?? []) {
+    if (!c.isRuler) continue
+    const raw = String(c.quickFacts?.dynasty ?? '').trim()
+    if (!raw || NOT_A_DYNASTY.test(raw)) continue
+    const key = normDyn(raw)
+    if (!key || AMBIGUOUS.has(key)) continue
+    if (!rulersByDynasty.has(key)) rulersByDynasty.set(key, { label: raw, rulers: [] })
+    rulersByDynasty.get(key).rulers.push(c.id)
+  }
+  for (const [key, { label, rulers }] of rulersByDynasty) {
+    if (rulers.length < 2 || houseKey.has(key)) continue
+    findings.push({
+      collection: 'houses',
+      article: label,
+      path: 'quickFacts.dynasty',
+      pattern: `${rulers.length} rulers share the dynasty "${label}" but no House article exists — create one (see CLAUDE.md)`,
+      snippet: rulers.join(', ')
+    })
+  }
+
   // Regression guard for the reported bug: Henry I must resolve to House of Normandy.
   if (charById.has('henry-i-of-england') && houses.some((h) => h.id === 'house-of-normandy')) {
     const hi = charById.get('henry-i-of-england')

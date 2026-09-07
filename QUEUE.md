@@ -451,6 +451,14 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **The Macedonian dynasty needs a House article when M10 lands.** Basil I, Leo VI
+  and Basil II have no articles yet, so the house would have nobody to link and
+  was deliberately not created with the other three on 2026-09-07. **M10 brings
+  Basil II** — create `macedonian-dynasty` in the same milestone, and note that
+  Basil I already appears as a succession endpoint on Michael III and as his
+  murderer throughout the Amorian material. Once two of them exist the new
+  `validateDynastyHouseCoverage` rule will hard-fail until the house is written.
+
 - **33 unlinked commanders elsewhere in the archive still carry no explanation.**
   Found 2026-09-07 by the audit built into
   `scripts/annotate-unlinked-commanders.mjs`, which lists them on every run. The
