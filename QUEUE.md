@@ -103,10 +103,13 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
 - [x] **M1 — Foundations** (2026-09-04, `adc0694`). `byzantine-empire` retyped
       Kingdom→Empire; `kingdom-of-hungary` created as a full anchor polity (it was
       an orphaned faction string on `battle-of-mohi`).
-- [ ] **M2 — Vandalic War** + Ad Decimum, Tricamarum; Vandal Kingdom; Justinian I,
-      Belisarius, Gelimer. ← NEXT
-- [ ] M3 — Gothic War + Siege of Rome 537–538, Taginae, Mons Lactarius;
-      Ostrogothic Kingdom; Narses, Totila, Vitiges, Teias
+- [x] **M2 — Vandalic War** (2026-09-07). Vandalic War, Ad Decimum, Tricamarum,
+      Vandal Kingdom, Justinian I, Belisarius, Gelimer — 7 articles.
+      Note for M3: Tricamarum's battleContinuity points at Manzikert only because
+      the archive holds no Byzantine battle between 534 and 1071. **Re-point it at
+      the first Gothic War battle when M3 lands.**
+- [ ] **M3 — Gothic War** + Siege of Rome 537–538, Taginae, Mons Lactarius;
+      Ostrogothic Kingdom; Narses, Totila, Vitiges, Teias ← NEXT
 - [ ] M4 — Nineveh 627; Sasanian Empire; Heraclius, Khosrow II, Shahrbaraz
 - [ ] M5 — Siege of Constantinople 626; Avar Khaganate
 - [ ] M6 — Siege of Constantinople 717–718; Leo III, Maslama

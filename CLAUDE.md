@@ -798,6 +798,44 @@ If no acceptable full-object image can be found, **mark the entry incomplete** (
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
 
+### THE FIRST QUESTION: is the whole object in the frame? (owner rule, 2026-09-07)
+
+Before judging an image on date, licence, quality, background or anything else,
+ask one question and answer it honestly:
+
+> **Can the reader see the entire object, end to end, in this picture?**
+
+If the answer is no, the image is rejected. There is no second stage to the test
+and no argument that overrides it.
+
+**This applies to unique named artifacts exactly as it does to generic types.** The
+Imperial Sword shipped with a photograph showing part of the scabbard and part of
+the blade, and the reasoning that let it through was "the scabbard's imperial
+figures are the key feature". That is precisely the shape of the mistake: a genuine
+observation about what is interesting on an object, used to excuse an image that
+does not show the object. **Importance of a detail is never a reason to lead with
+the detail.** Put it in a section image and find something that shows the whole
+thing.
+
+The automated guard (`weaponsArmorNonObjectPattern`) only catches filenames and
+captions that admit to being crops — "detail", "cropped", "fragment". A tightly
+cropped photograph with an innocent filename sails straight through it, so **this
+check is human and cannot be delegated to the validator.**
+
+Ranked responses when no full-object photograph exists, best first:
+
+1. A different photograph of the same object that shows all of it
+2. A documentary plate or scholarly illustration of the actual object, captioned as
+   such — acceptable for a named artifact where the alternative is a partial view
+3. For a generic type only, a reproduction or an AI illustration under the existing
+   rules
+4. Defer the article
+
+Related failure worth naming: **condition is part of legibility.** A shield that is
+monochrome, battered and barely readable fails the reader even if it is genuine and
+complete. Where a better-preserved example of the same type exists, use it and keep
+the worn one as a section image.
+
 ### Weapons & Armor has TWO layers (owner rule, 2026-09-07)
 
 The collection contains two different kinds of article, and they are written,
