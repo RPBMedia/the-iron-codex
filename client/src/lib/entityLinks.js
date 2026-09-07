@@ -591,6 +591,7 @@ export const entityLinks = [
   { label: "Pike", aliases: ["long pike","Langspiess"], type: "weaponArmor", slug: "pike" },
   { label: "Plate Armor", aliases: ["Plate harness","Full plate armor"], type: "weaponArmor", slug: "plate-armor" },
   { label: "Poleaxe", aliases: ["Pollaxe"], type: "weaponArmor", slug: "poleaxe" },
+  { label: "Round Shield", aliases: ["Viking shield","Viking round shield","lime-wood shield"], type: "weaponArmor", slug: "round-shield" },
   { label: "Sallet", aliases: ["Salade"], type: "weaponArmor", slug: "sallet" },
   { label: "Seax", aliases: ["Scramasax"], type: "weaponArmor", slug: "seax" },
   { label: "Shield", aliases: ["Medieval shield"], type: "weaponArmor", slug: "shield" },
