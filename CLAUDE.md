@@ -788,6 +788,29 @@ If no acceptable full-object image can be found, **mark the entry incomplete** (
 
 **Finding good images on Wikimedia Commons:** the multi-word full-text search is unreliable; prefer (a) Commons **category** members (`generator=categorymembers` on `Category:<Type>`, e.g. `Category:Bascinets`, `Category:Longswords`, `Category:Gambeson`), (b) `intitle:` filename searches, (c) Wikipedia article lead/`prop=images` for the subject, and (d) CirrusSearch `-exclusion` terms to cut noise. Verify the right category name first via a Category-namespace search (`list=search&srnamespace=14`).
 
+### Scope: medieval Europe, 476–1453 (owner rule, restated 2026-09-07)
+
+**Every object in Weapons & Armor must be European and medieval.** This governs the
+article subject AND the image, and it is checked before anything else.
+
+Two failure modes, both caught by the owner:
+
+- **Wrong region.** A museum search for a term returns whatever the museum holds
+  under that word. Searching "gorget" in the Metropolitan's collection returns
+  Japanese pieces of the seventeenth and eighteenth centuries; searching "lamellar"
+  returns Chinese and Central Asian armour. These are not candidates and must not
+  be weighed as if they were.
+- **Wrong date.** Large museum series skew late, and a big group under the right
+  name is not evidence of the right period. The Met's entire armet series is
+  sixteenth century; its gauntlet holdings at Cadolzburg are seventeenth; the
+  complete barded horses in Cleveland and the Met are sixteenth; a Nuremberg leg
+  harness that came up first in search is sixteenth. **Always read the object date
+  from the file metadata before accepting an image.**
+
+Where a subject genuinely matures after 1453 — the plate gorget, the full plate
+bard, the mature arquebus — say so in the article and show the in-period form. Do
+not quietly illustrate a medieval article with an early modern object.
+
 ### The principal image must show the weapon AS IT WAS USED (owner rule, 2026-09-07)
 
 **This is a hard rule and it overrides everything below it.**
