@@ -923,6 +923,18 @@
             "title": "Baldwin II of Jerusalem",
             "type": "person",
             "slug": "baldwin-ii-of-jerusalem"
+          },
+          {
+            "title": "Fulcher of Chartres",
+            "type": "person",
+            "slug": "fulcher-of-chartres",
+            "label": "Who went on the crusade and wrote one of the fullest accounts of it"
+          },
+          {
+            "title": "Kerbogha",
+            "type": "person",
+            "slug": "kerbogha",
+            "label": "Atabeg of Mosul, whose relief army was beaten outside Antioch in 1098"
           }
         ]
       },
@@ -1865,6 +1877,14 @@
             "type": "location",
             "slug": "kingdom-of-france",
             "label": "Combatant faction"
+          }
+        ],
+        "orders": [
+          {
+            "title": "Order of St Thomas of Acre",
+            "type": "order",
+            "slug": "order-of-st-thomas-of-acre",
+            "label": "Founded during this crusade to bury and care for English crusaders"
           }
         ]
       },
@@ -4681,7 +4701,8 @@
             },
             {
               "name": "Eric Hákonarson",
-              "title": "Eric Hákonarson"
+              "title": "Eric Hákonarson",
+              "note": "No article yet: Jarl of Lade and one of the victors here, who went on to govern Norway for the Danish kings and Northumbria for Cnut."
             }
           ],
           "strength": {
@@ -5560,11 +5581,13 @@
           "leaders": [
             {
               "name": "Edwin of Mercia",
-              "title": "Edwin of Mercia"
+              "title": "Edwin of Mercia",
+              "note": "No article yet: earl of Mercia, whose defeat here with his brother left Harold Godwinson to meet two invasions in three weeks."
             },
             {
               "name": "Morcar of Northumbria",
-              "title": "Morcar of Northumbria"
+              "title": "Morcar of Northumbria",
+              "note": "No article yet: earl of Northumbria, beaten here five days before Stamford Bridge."
             }
           ],
           "strength": {
@@ -5651,7 +5674,8 @@
           "leaders": [
             {
               "name": "Guy le Bouteiller",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the Burgundian captain who commanded the defence through the starvation winter of 1418–19 and afterwards entered English service."
             }
           ],
           "strength": {
@@ -5862,11 +5886,13 @@
           "leaders": [
             {
               "name": "John Stewart, Earl of Buchan",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: constable of France and commander of the Scottish army in French service, killed in the battle."
             },
             {
               "name": "Archibald Douglas, 4th Earl of Douglas",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: duke of Touraine, killed here alongside Buchan; the defeat effectively ended the Scottish expeditionary army in France."
             }
           ],
           "strength": {
@@ -6050,7 +6076,8 @@
             },
             {
               "name": "Jean, the Bastard of Orléans (Dunois)",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the defender of Orléans and one of the ablest French commanders of the war, later count of Dunois."
             }
           ],
           "strength": {
@@ -6072,11 +6099,13 @@
           "leaders": [
             {
               "name": "Thomas Montagu, Earl of Salisbury",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the English commander who began the siege and was mortally wounded by a cannon shot in its first weeks."
             },
             {
               "name": "William de la Pole, Earl of Suffolk",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: took over the siege after Salisbury died, and was captured at Jargeau soon after it was raised."
             }
           ],
           "strength": {
@@ -6263,11 +6292,13 @@
           "leaders": [
             {
               "name": "La Hire (Étienne de Vignolles)",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: one of the two captains whose vanguard caught the English archers before their stakes were planted."
             },
             {
               "name": "Poton de Xaintrailles",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the other, later marshal of France."
             }
           ],
           "strength": {
@@ -6294,7 +6325,8 @@
             },
             {
               "name": "Sir John Fastolf",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the English commander who escaped the rout and was stripped of the Garter for it, later restored."
             }
           ],
           "strength": {
@@ -6462,11 +6494,13 @@
           "leaders": [
             {
               "name": "Jean de Bourbon, Count of Clermont",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: commanded the French force that engaged first and held until Richemont arrived."
             },
             {
               "name": "Arthur de Richemont, Constable of France",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: constable of France, whose arrival on the flank decided the battle and effectively ended English Normandy."
             }
           ],
           "strength": {
@@ -6488,7 +6522,8 @@
           "leaders": [
             {
               "name": "Sir Thomas Kyriell",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the English commander, captured here with most of his army."
             }
           ],
           "strength": {
@@ -6657,7 +6692,8 @@
           "leaders": [
             {
               "name": "Jean Bureau, Master of Artillery",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the artillery officer whose entrenched gun park won the battle and the war, and the reason Castillon is treated as the end of the medieval military age."
             }
           ],
           "strength": {
@@ -7228,11 +7264,13 @@
           "leaders": [
             {
               "name": "Fernando Sánchez de Tovar",
-              "title": "Fernando Sánchez de Tovar"
+              "title": "Fernando Sánchez de Tovar",
+              "note": "No article yet: commanded the Castilian force defeated here by a dismounted Portuguese square."
             },
             {
               "name": "Pedro Álvares Pereira",
-              "title": "Pedro Álvares Pereira"
+              "title": "Pedro Álvares Pereira",
+              "note": "No article yet: master of the Order of Christ in Castilian service, and brother of the Portuguese commander Nuno Álvares Pereira, against whom he fought."
             }
           ],
           "strength": {
@@ -7777,7 +7815,8 @@
             },
             {
               "name": "Fernando Pérez de Traba",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the Galician count who was Teresa of León's partner and the effective ruler she governed with, against whom the Portuguese barons rebelled."
             }
           ]
         }
@@ -7946,7 +7985,8 @@
           "leaders": [
             {
               "name": "Almoravid field commanders",
-              "type": "person"
+              "type": "person",
+              "note": "Not a gap in this archive: no source reliably names the Almoravid commanders at Ourique. The traditional account of five Moorish kings is a later Portuguese legend, not a record."
             }
           ]
         }
@@ -8215,7 +8255,8 @@
             },
             {
               "name": "Hervey de Glanvill",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: leader of the East Anglian contingent, and the speaker of the address that held the crusader fleet together when it nearly broke up."
             }
           ]
         },
@@ -8237,7 +8278,8 @@
           "leaders": [
             {
               "name": "The qadi of Lisbon (name not recorded)",
-              "type": "person"
+              "type": "person",
+              "note": "Not a gap in this archive: the Anglo-Norman account of the siege records his speech to the besiegers at length but never gives his name."
             }
           ]
         }
@@ -8422,7 +8464,8 @@
           "leaders": [
             {
               "name": "John de Warenne, Earl of Surrey",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet: the English commander, who let half his army cross a narrow bridge before the other half could follow."
             }
           ]
         }
@@ -9030,7 +9073,8 @@
           "leaders": [
             {
               "name": "Kjotve the Rich",
-              "type": "person"
+              "type": "person",
+              "note": "No article yet, and unlikely ever to have one: a petty king of Agder named in skaldic verse as leading the coalition against Harald Fairhair. Almost nothing else about him is recoverable."
             }
           ]
         }
@@ -9951,7 +9995,8 @@
           "leaders": [
             {
               "name": "al-Qama",
-              "title": "Umayyad commander"
+              "title": "Umayyad commander",
+              "note": "No article yet: the Umayyad commander defeated here, known only from Asturian chronicles written a century and a half later to magnify the victory."
             }
           ],
           "strength": {
@@ -11428,7 +11473,8 @@
           "leaders": [
             {
               "name": "Yuri Igorevich of Ryazan",
-              "title": "Prince of Ryazan"
+              "title": "Prince of Ryazan",
+              "note": "No article yet: prince of Ryazan, killed when the city fell after five days — the first Rus city taken in the invasion."
             }
           ],
           "strength": {
@@ -11630,7 +11676,8 @@
           "leaders": [
             {
               "name": "Prince Vsevolod Yurievich",
-              "title": "Son of the grand prince"
+              "title": "Son of the grand prince",
+              "note": "No article yet: son of Yuri II, left to hold the capital while his father raised an army in the north, and killed when it fell."
             }
           ],
           "strength": {
@@ -11816,7 +11863,8 @@
           "leaders": [
             {
               "name": "Yuri II of Vladimir",
-              "title": "Grand Prince of Vladimir"
+              "title": "Grand Prince of Vladimir",
+              "note": "No article yet: grand prince of Vladimir, caught assembling his army and killed here with it."
             }
           ],
           "strength": {
@@ -11838,7 +11886,8 @@
           "leaders": [
             {
               "name": "Burundai",
-              "title": "Mongol general"
+              "title": "Mongol general",
+              "note": "No article yet: the Mongol general who found and destroyed Yuri's army, and who commanded again in the Rus campaigns twenty years later."
             },
             {
               "name": "Batu Khan",
@@ -12016,7 +12065,8 @@
           "leaders": [
             {
               "name": "Voivode Dmytro",
-              "title": "Commander of Kyiv’s defence"
+              "title": "Commander of Kyiv’s defence",
+              "note": "No article yet: commanded the defence of Kyiv for Danylo of Galicia, and was spared by Batu for the courage of it."
             }
           ],
           "strength": {
@@ -12227,7 +12277,8 @@
           "leaders": [
             {
               "name": "Henry II the Pious",
-              "title": "Duke of Silesia"
+              "title": "Duke of Silesia",
+              "note": "No article yet: duke of Silesia, killed here leading the Polish and German coalition; his head was carried to Legnica on a spear."
             }
           ],
           "strength": {
@@ -12249,11 +12300,13 @@
           "leaders": [
             {
               "name": "Baidar",
-              "title": "Mongol prince"
+              "title": "Mongol prince",
+              "note": "No article yet: grandson of Genghis Khan, and one of the two commanders of the Mongol force that entered Poland."
             },
             {
               "name": "Kadan",
-              "title": "Mongol prince"
+              "title": "Mongol prince",
+              "note": "No article yet: son of Ögedei, who commanded with Baidar in Poland and then rejoined the main army in Hungary."
             }
           ],
           "strength": {
@@ -18456,6 +18509,14 @@
             "slug": "latin-empire",
             "label": "What replaced the empire for fifty-seven years"
           }
+        ],
+        "artifacts": [
+          {
+            "title": "Shroud of Turin",
+            "type": "artifact",
+            "slug": "shroud-of-turin",
+            "label": "Connected to the relics lost in the sack by one contested line of argument"
+          }
         ]
       },
       "sources": [
@@ -20545,6 +20606,12 @@
             "type": "person",
             "slug": "charles-d-albret",
             "label": "Ruler of Kingdom of France"
+          },
+          {
+            "title": "Christine de Pizan",
+            "type": "person",
+            "slug": "christine-de-pizan",
+            "label": "Who wrote the Ditié de Jehanne d'Arc in 1429, the only contemporary poem about her"
           }
         ],
         "events": [
@@ -22096,6 +22163,12 @@
             "type": "location",
             "slug": "shaftesbury",
             "label": "Place of death"
+          },
+          {
+            "title": "Winchester Cathedral",
+            "type": "location",
+            "slug": "winchester-cathedral",
+            "label": "Where he was buried, among the kings of Wessex he had displaced"
           }
         ],
         "people": [
@@ -22376,6 +22449,12 @@
             "title": "Charlemagne",
             "type": "person",
             "slug": "charlemagne"
+          },
+          {
+            "title": "Ragnar Lothbrok",
+            "type": "person",
+            "slug": "ragnar-lothbrok",
+            "label": "The saga figure to whom tradition attributes the leaders of the Great Heathen Army"
           }
         ],
         "events": [
@@ -23766,6 +23845,12 @@
             "type": "location",
             "slug": "kingdom-of-denmark",
             "label": "Realm"
+          },
+          {
+            "title": "Roskilde",
+            "type": "location",
+            "slug": "roskilde",
+            "label": "The Danish royal and episcopal centre, and the burial place of its kings"
           }
         ],
         "people": [
@@ -44429,6 +44514,14 @@
             "type": "event",
             "slug": "first-crusade-called"
           }
+        ],
+        "people": [
+          {
+            "title": "Pope Eugenius III",
+            "type": "person",
+            "slug": "pope-eugenius-iii",
+            "label": "His former pupil, for whom he preached the Second Crusade"
+          }
         ]
       },
       "sources": [
@@ -47805,6 +47898,12 @@
             "type": "person",
             "slug": "philip-ii-of-france",
             "label": "Ruler of Kingdom of France"
+          },
+          {
+            "title": "Jean de Joinville",
+            "type": "person",
+            "slug": "jean-de-joinville",
+            "label": "His companion on crusade, and the author of the Life that shaped his memory"
           }
         ]
       },
@@ -80966,6 +81065,12 @@
             "type": "person",
             "slug": "alfred-the-great",
             "label": "His great adversary and godfather"
+          },
+          {
+            "title": "Ragnar Lothbrok",
+            "type": "person",
+            "slug": "ragnar-lothbrok",
+            "label": "The legendary figure whose reputed sons led the army Guthrum rose in"
           }
         ],
         "events": [
@@ -86650,6 +86755,12 @@
             "title": "Jacques de Molay",
             "type": "person",
             "slug": "jacques-de-molay"
+          },
+          {
+            "title": "Pope John XXII",
+            "type": "person",
+            "slug": "pope-john-xxii",
+            "label": "His successor at Avignon, who inherited the aftermath of the suppression"
           }
         ],
         "locations": [
@@ -87690,12 +87801,12 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Justin I",
-          "note": "His uncle, who raised him and adopted him; Justinian was effectively governing before Justin died in 527. No article yet in this archive.",
+          "note": "His uncle, who raised him and adopted him; Justinian was effectively governing before Justin died in 527.",
           "personSlug": "justin-i"
         },
         "successor": {
           "displayName": "Justin II",
-          "note": "His nephew, who inherited an empire far larger and far more exhausted than the one Justinian had received. No article yet in this archive.",
+          "note": "His nephew, who inherited an empire far larger and far more exhausted than the one Justinian had received.",
           "personSlug": "justin-ii"
         }
       },
@@ -89117,7 +89228,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Phocas",
-          "note": "A usurper who had murdered the emperor Maurice in 602; Heraclius overthrew and executed him in 610. No article yet in this archive.",
+          "note": "A usurper who had murdered the emperor Maurice in 602; Heraclius overthrew and executed him in 610.",
           "personSlug": "phocas"
         },
         "successor": {
@@ -89630,12 +89741,12 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Theodosius III",
-          "note": "A reluctant emperor raised by a mutiny, who abdicated in March 717 and became a monk rather than fight Leo with an Umayyad army approaching. No article yet in this archive.",
+          "note": "A reluctant emperor raised by a mutiny, who abdicated in March 717 and became a monk rather than fight Leo with an Umayyad army approaching.",
           "personSlug": "theodosius-iii"
         },
         "successor": {
           "displayName": "Constantine V",
-          "note": "His son, crowned co-emperor as a child and sole emperor from 741; he continued and hardened his father's religious policy. Article planned for Track A M7.",
+          "note": "His son, crowned co-emperor as a child and sole emperor from 741; he continued and hardened his father's religious policy.",
           "personSlug": "constantine-v"
         }
       },
@@ -89918,7 +90029,7 @@
         },
         "successor": {
           "displayName": "Leo IV",
-          "note": "His son, called \"the Khazar\" from his mother's descent, who reigned five years and relaxed the persecution of monks. No article yet in this archive.",
+          "note": "His son, called \"the Khazar\" from his mother's descent, who reigned five years and relaxed the persecution of monks.",
           "personSlug": "leo-iv"
         }
       },
@@ -90150,12 +90261,12 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Theophilos",
-          "note": "His father, the last iconoclast emperor, who died in 842 leaving him a child under the regency of his mother Theodora. No article yet in this archive.",
+          "note": "His father, the last iconoclast emperor, who died in 842 leaving him a child under the regency of his mother Theodora.",
           "personSlug": "theophilos"
         },
         "successor": {
           "displayName": "Basil I",
-          "note": "His co-emperor, who had him murdered in 867 and founded the Macedonian dynasty. No article yet in this archive.",
+          "note": "His co-emperor, who had him murdered in 867 and founded the Macedonian dynasty.",
           "personSlug": "basil-i"
         }
       },
@@ -90612,7 +90723,7 @@
         },
         "successor": {
           "displayName": "John I Tzimiskes",
-          "note": "His fellow general and the man who murdered him, who then ruled until 976 and continued his eastern conquests. Article planned for Track A M9.",
+          "note": "His fellow general and the man who murdered him, who then ruled until 976 and continued his eastern conquests.",
           "personSlug": "john-i-tzimiskes"
         }
       },
@@ -91106,7 +91217,7 @@
         },
         "successor": {
           "displayName": "Basil II",
-          "note": "Son of Romanos II, who had been a nominal co-emperor throughout and took power in his own right in 976. Article planned for Track A M10.",
+          "note": "Son of Romanos II, who had been a nominal co-emperor throughout and took power in his own right in 976.",
           "personSlug": "basil-ii"
         }
       },
@@ -92288,7 +92399,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Anastasius I",
-          "note": "A capable administrator who died in 518 aged nearly ninety, leaving a full treasury and no designated heir. No article yet in this archive.",
+          "note": "A capable administrator who died in 518 aged nearly ninety, leaving a full treasury and no designated heir.",
           "personSlug": "anastasius-i"
         },
         "successor": {
@@ -92481,7 +92592,7 @@
         },
         "successor": {
           "displayName": "Tiberius II Constantine",
-          "note": "Commander of the excubitors, adopted as Caesar in 574 during a lucid interval and left to govern; he reigned until 582. No article yet in this archive.",
+          "note": "Commander of the excubitors, adopted as Caesar in 574 during a lucid interval and left to govern; he reigned until 582.",
           "personSlug": "tiberius-ii-constantine"
         }
       },
@@ -92661,7 +92772,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Maurice",
-          "note": "A capable emperor of twenty years whom Phocas had murdered with five of his sons in 602; the murder gave Khosrow II his pretext for war. No article yet in this archive.",
+          "note": "A capable emperor of twenty years whom Phocas had murdered with five of his sons in 602; the murder gave Khosrow II his pretext for war.",
           "personSlug": "maurice"
         },
         "successor": {
@@ -93479,7 +93590,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Anastasius II",
-          "note": "Deposed by the mutinous Opsikian troops in 715; he later attempted a return with Bulgar help and was executed in 719. No article yet in this archive.",
+          "note": "Deposed by the mutinous Opsikian troops in 715; he later attempted a return with Bulgar help and was executed in 719.",
           "personSlug": "anastasius-ii"
         },
         "successor": {
@@ -94090,7 +94201,7 @@
         },
         "successor": {
           "displayName": "Nikephoros I",
-          "note": "Her finance minister, who deposed her in a palace coup in October 802 and reigned until Krum of Bulgaria destroyed him and his army in 811. No article yet in this archive.",
+          "note": "Her finance minister, who deposed her in a palace coup in October 802 and reigned until Krum of Bulgaria destroyed him and his army in 811.",
           "personSlug": "nikephoros-i"
         }
       },
@@ -94311,7 +94422,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Michael II",
-          "note": "His father, called the Amorian and the Stammerer, who took the throne in 820 by having Leo V murdered in the palace chapel. No article yet in this archive.",
+          "note": "His father, called the Amorian and the Stammerer, who took the throne in 820 by having Leo V murdered in the palace chapel.",
           "personSlug": "michael-ii"
         },
         "successor": {
@@ -94518,7 +94629,7 @@
         },
         "successor": {
           "displayName": "Leo VI the Wise",
-          "note": "His son — or possibly Michael III's, since Leo's mother had been Michael's mistress before Basil married her. He completed the Basilika and married four times to get an heir. No article yet in this archive.",
+          "note": "His son — or possibly Michael III's, since Leo's mother had been Michael's mistress before Basil married her. He completed the Basilika and married four times to get an heir.",
           "personSlug": "leo-vi"
         }
       },
@@ -94723,7 +94834,7 @@
         "office": "Emperor of the Romans",
         "predecessor": {
           "displayName": "Alexander",
-          "note": "His uncle, brother of Leo VI, whose thirteen-month reign in 912–913 was destructive enough that his death was widely welcomed. No article yet in this archive.",
+          "note": "His uncle, brother of Leo VI, whose thirteen-month reign in 912–913 was destructive enough that his death was widely welcomed.",
           "personSlug": "alexander"
         },
         "successor": {
@@ -99066,6 +99177,12 @@
             "type": "event",
             "slug": "recovery-of-constantinople",
             "label": "Where the empire was restored in 1261 after fifty-seven years"
+          },
+          {
+            "title": "Fall of the Western Roman Empire",
+            "type": "event",
+            "slug": "fall-of-western-rome",
+            "label": "The western half ends in 476; this archive follows the half that did not"
           }
         ]
       },
@@ -105163,6 +105280,14 @@
             "type": "event",
             "slug": "third-crusade",
             "label": "The kingdom's rebuilding"
+          }
+        ],
+        "orders": [
+          {
+            "title": "Order of Saint Lazarus",
+            "type": "order",
+            "slug": "order-of-saint-lazarus",
+            "label": "Founded outside the walls of Jerusalem, and the strangest of the military orders"
           }
         ]
       },
@@ -117496,6 +117621,12 @@
             "type": "event",
             "slug": "battle-of-taginae",
             "label": "Where its army was destroyed"
+          },
+          {
+            "title": "Fall of the Western Roman Empire",
+            "type": "event",
+            "slug": "fall-of-western-rome",
+            "label": "The deposition of 476 that left Italy to be ruled by its generals"
           }
         ],
         "locations": [
@@ -137427,6 +137558,12 @@
             "type": "location",
             "slug": "kingdom-of-england",
             "label": "The realm the house created"
+          },
+          {
+            "title": "Winchester Cathedral",
+            "type": "location",
+            "slug": "winchester-cathedral",
+            "label": "The dynasty's burial church and the old capital of its kingdom"
           }
         ]
       },
@@ -139289,6 +139426,12 @@
             "type": "location",
             "slug": "kingdom-of-denmark",
             "label": "The realm they ruled"
+          },
+          {
+            "title": "Roskilde",
+            "type": "location",
+            "slug": "roskilde",
+            "label": "Where the dynasty's kings were buried"
           }
         ]
       },
@@ -153484,6 +153627,12 @@
             "type": "person",
             "slug": "guy-of-lusignan",
             "label": "King of Jerusalem at Hattin"
+          },
+          {
+            "title": "Pope Clement V",
+            "type": "person",
+            "slug": "pope-clement-v",
+            "label": "Who suppressed the order at the Council of Vienne in 1312"
           }
         ],
         "events": [
@@ -154077,6 +154226,12 @@
             "type": "person",
             "slug": "guy-of-lusignan",
             "label": "King of Jerusalem at Hattin"
+          },
+          {
+            "title": "Gerard Thom",
+            "type": "person",
+            "slug": "gerard-thom",
+            "label": "The founder, who ran the Jerusalem hospital before the order was a military one"
           }
         ],
         "events": [
@@ -154107,6 +154262,12 @@
             "type": "order",
             "slug": "knights-templar",
             "label": "Sister order and rival"
+          },
+          {
+            "title": "Order of Saint Lazarus",
+            "type": "order",
+            "slug": "order-of-saint-lazarus",
+            "label": "The leper brotherhood that grew out of the same hospital tradition"
           }
         ]
       }
@@ -154601,6 +154762,12 @@
             "type": "person",
             "slug": "frederick-ii-holy-roman-emperor",
             "label": "Imperial patron of the Golden Bull of Rimini"
+          },
+          {
+            "title": "Pope Gregory IX",
+            "type": "person",
+            "slug": "pope-gregory-ix",
+            "label": "Who authorised the order's crusade in Prussia"
           }
         ],
         "locations": [

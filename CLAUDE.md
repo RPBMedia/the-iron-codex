@@ -262,6 +262,45 @@ Navigation between House articles and the people in them must work **both ways**
 - Use canonical House slugs consistently (`House of Normandy` -> `house-of-normandy`, `House of Wessex` -> `house-of-wessex`, `House of Plantagenet` -> `house-of-plantagenet`, etc.). Do not create duplicate House pages for spelling variants; add the variant as a House `alias` instead (and never an ambiguous one).
 - Broken House <-> Person navigation is a production bug.
 
+#### When an article appears, everything that pointed at its absence must change (2026-09-07)
+
+Two hard-failing checks in `check-content-quality.mjs` enforce this, and they are
+the same oversight caught one field apart:
+
+- **The succession endpoint must gain its `personSlug`** when the named person is
+  written. Found when Leo III's successor still read "Constantine V" as plain text
+  after M7 created him.
+- **The succession `note` must stop saying the article does not exist.** Found in
+  the M14 integration audit on **18 endpoints**, several still advertising the
+  milestone that had already delivered them ("Article planned for Track A M7",
+  printed under a working link to Constantine V). This one matters because
+  `DetailPage` renders the succession note **unconditionally** — unlike a
+  commander note, which the renderer suppresses when there is a link — so the
+  reader sees the link and the denial together.
+
+The general rule: **a note that records a gap is a temporary object with an
+expiry date.** When writing one, write it so that deleting the last sentence
+leaves a note that still reads correctly — a one-line characterisation of the
+person, then the status. That is why the 18 were repairable mechanically.
+
+#### Every event that shares a year with another event needs a sort date (2026-09-07)
+
+The events index sorts chronologically off `eventSortDates` in `server/index.js`,
+a hand-maintained day-precision map. An event **not** in that map falls back to
+`{ year }`, and the sort key `year * 10000 + month * 100 + day` turns that into
+**1 January** — so it sorts ahead of every dated event of the same year, whenever
+it actually happened.
+
+Found in the M14 audit with the map at 43 entries and the archive at 93 events:
+Myriokephalon (17 September 1176) was sorting before Legnano (29 May 1176), and
+the three Vandalic War events of 533 were tied in whatever order the array gave.
+
+Enforced by `check-content-quality.mjs`: **if two or more events share a `year`,
+every one of them must have an `eventSortDates` entry.** An event alone in its
+year needs no entry — it sorts correctly regardless, and adding fifty entries
+nobody reads would make the map harder to maintain rather than safer. So: when
+adding an event, check whether the archive already holds one from that year.
+
 #### Two rulers of a dynasty means the dynasty gets an article (owner rule, 2026-09-07)
 
 **If two or more ruler articles share the same `quickFacts.dynasty` value and no

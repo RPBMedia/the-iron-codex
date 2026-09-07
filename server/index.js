@@ -311,7 +311,17 @@ const eventSortDates = {
   'battle-of-patay': { year: 1429, month: 6, day: 18 },
   'battle-of-formigny': { year: 1450, month: 4, day: 15 },
   'fall-of-constantinople': { year: 1453, month: 5, day: 29 },
-  'battle-of-castillon': { year: 1453, month: 7, day: 17 }
+  'battle-of-castillon': { year: 1453, month: 7, day: 17 },
+  // Added by M14 integration: these share a year with another event, and an
+  // event missing from this map sorts to 1 January and jumps the queue.
+  'vandalic-war': { year: 533, month: 6, day: 21 }, // the fleet sails from Constantinople; the war runs to March 534
+  'battle-of-ad-decimum': { year: 533, month: 9, day: 13 },
+  'battle-of-tricamarum': { year: 533, month: 12, day: 15 },
+  'battle-of-fulford': { year: 1066, month: 9, day: 20 },
+  'battle-of-myriokephalon': { year: 1176, month: 9, day: 17 },
+  'siege-of-vladimir': { year: 1238, month: 2, day: 7 }, // the day the city fell; the assault began on the 3rd
+  'battle-of-the-sit-river': { year: 1238, month: 3, day: 4 },
+  'battle-of-legnica': { year: 1241, month: 4, day: 9 }
 }
 
 function numericYear(value) {

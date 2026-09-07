@@ -1362,6 +1362,45 @@ function validatePersonTimeline(person) {
     }
   }
 
+  // Hard failure: chronological sort dates for events that share a year.
+  //
+  // The events index sorts off `eventSortDates` in server/index.js, a
+  // hand-written day-precision map. An event NOT in that map falls back to
+  // `{ year }`, and the sort key is `year * 10000 + month * 100 + day` — so a
+  // missing entry becomes 1 January and sorts before every dated event that
+  // year, whenever it actually happened.
+  //
+  // Found in the M14 integration audit with the map at 43 entries and the
+  // archive at 93 events: Myriokephalon (17 September 1176) was sorting before
+  // Legnano (29 May 1176), and the three Vandalic War events of 533 were tied at
+  // 5330000 in whatever order the array gave them.
+  //
+  // The rule is only about events that can collide. An event alone in its year
+  // sorts correctly with no entry at all, and demanding a date for all ninety
+  // would make the map harder to maintain rather than safer.
+  const serverSrc = fs.readFileSync(new URL('../server/index.js', import.meta.url), 'utf8')
+  const sortBlock = serverSrc.match(/const eventSortDates = \{([\s\S]*?)\n\}/)?.[1] ?? ''
+  const datedEvents = new Set([...sortBlock.matchAll(/'([^']+)':/g)].map((m) => m[1]))
+  const eventsByYear = new Map()
+  for (const e of data.events ?? []) {
+    if (e.year == null) continue
+    if (!eventsByYear.has(e.year)) eventsByYear.set(e.year, [])
+    eventsByYear.get(e.year).push(e)
+  }
+  for (const [year, group] of eventsByYear) {
+    if (group.length < 2) continue
+    for (const e of group) {
+      if (datedEvents.has(e.id)) continue
+      findings.push({
+        collection: 'events',
+        article: e.name ?? e.id,
+        path: 'eventSortDates (server/index.js)',
+        pattern: `${group.length} events share the year ${year} and this one has no sort date — it will sort to 1 January and jump ahead of them. Add a { year, month, day } entry to eventSortDates.`,
+        snippet: group.map((x) => x.id).join(', ')
+      })
+    }
+  }
+
   // Hard failure: dynasty coverage. Two or more RULERS sharing a dynasty value
   // with no House article means a dead Dynasty/House card on every one of them.
   // See CLAUDE.md "Two rulers of a dynasty means the dynasty gets an article".
@@ -1403,6 +1442,30 @@ function validatePersonTimeline(person) {
   // "Philip the Bold" names John the Fearless's father, the Duke of Burgundy who
   // died in 1404, and also resolves by alias to Philip III of France, who died in
   // 1285. A wrong link is worse than a missing one.
+  // Hard failure: a LINKED succession endpoint whose note still says the article
+  // does not exist. The twin of the check below, one field to the left.
+  //
+  // The succession note renders unconditionally in DetailPage — unlike a
+  // commander note, which the renderer hides when there is a link — so a stale
+  // note prints "No article yet in this archive" directly beneath a working link
+  // to that article. Found on 18 endpoints in the M14 integration audit, several
+  // still advertising the milestone that had already delivered them.
+  const STALE_SUCCESSION_NOTE = /no article yet|article planned|no article in this archive/i
+  for (const c of data.characters ?? []) {
+    for (const key of ['predecessor', 'successor']) {
+      const entry = c.succession?.[key]
+      if (!entry?.personSlug || !entry.note) continue
+      if (!STALE_SUCCESSION_NOTE.test(entry.note)) continue
+      findings.push({
+        collection: 'characters',
+        article: c.name ?? c.id,
+        path: `succession.${key}.note`,
+        pattern: `${key} links to ${entry.personSlug} but the note still says the article does not exist — the note renders under the link, so a reader sees both at once.`,
+        snippet: entry.note.slice(0, 120)
+      })
+    }
+  }
+
   const AMBIGUOUS_SUCCESSION_NAMES = new Set(['philip the bold'])
   const personByName = new Map()
   for (const c of data.characters ?? []) {

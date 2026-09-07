@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (Track A COMPLETE through M13; only M14 integration remains. Track B M5 parked by the owner)_
+_Last updated: 2026-09-07 (**TRACK A COMPLETE — all 14 milestones shipped.** Track B M5 parked by the owner; Track D ready to start)_
 
 ---
 
@@ -376,7 +376,45 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       Commons files purporting to be portraits of Kilij Arslan I are three uploads
       from one account described as "potre" and "history", undated and
       unattributed — unusable whatever licence is claimed on them.
-- [ ] M14 — PRD/index integration, cross-links, final validation
+- [x] **M14 — integration and final validation** (2026-09-07). **Track A is
+      complete.** No new articles: this milestone audited how the ~100 Track A
+      articles sit in the archive as a whole, which nothing had ever done — each
+      milestone had only ever validated its own output.
+      New tool: `scripts/audit-track-a-integration.mjs`, which checks orphans,
+      event sort dates, succession endpoints and unlinked commanders.
+      **Four defects found and fixed:**
+      1. **The events index was sorting wrongly.** `eventSortDates` in
+         `server/index.js` is a hand-written day-precision map; an event missing
+         from it falls back to `{ year }`, which the sort key turns into
+         **1 January** — ahead of every dated event that year. The map had 43
+         entries against 93 events. Myriokephalon (17 September 1176) was sorting
+         before Legnano (29 May 1176), and the three Vandalic War events of 533
+         were tied in array order. Eight events added; **now hard-failed** when
+         two events share a year and either lacks a date.
+      2. **18 succession notes said "No article yet in this archive" directly
+         under a working link to that article** — several still advertising the
+         milestone that had delivered them. The succession note renders
+         *unconditionally*, unlike a commander note. This is the exact twin of the
+         bug the succession-link check was built for, one field to the left, and
+         it is now hard-failed too.
+      3. **33 unlinked commanders carried no explanation** — the backlog the owner
+         first caught on the 717–718 siege. All 33 now say why, in
+         `annotate-unlinked-commanders.mjs`. Worded as "No article yet" rather
+         than "no image survives", deliberately: most are well documented and
+         simply unwritten, and claiming otherwise would assert a search this pass
+         did not run.
+      4. **16 orphan articles** — nothing in the archive linked to them. 21
+         cross-links added on the hosts a reader would actually be browsing.
+      **Two false alarms worth recording, because both were mine.** The audit first
+      reported 33 orphaned *houses*; every one is linked from every member's
+      Dynasty card, which the server resolves at request time in
+      `withDynastyHouse` rather than storing a slug. And it first reported all 626
+      succession endpoints as unlinked, because the field is `personSlug`, not
+      `slug` — the true figure is 86, exactly as this queue already said. The
+      audit script now knows about both.
+      **Remaining, and not a defect:** 86 unlinked succession endpoints, which is
+      the documented transitional `{displayName, note}` form in CLAUDE.md, and 45
+      events with no sort date, none of which share a year with anything.
 
 **Historical corrections already agreed** (apply when writing): Nasar belongs to
 the 880s, not Lalakaon; "Al-Malik ibn Shuʿayb" is a mis-parse of Malik ibn
@@ -688,6 +726,17 @@ with the owner if any of those bullets mattered specifically._
   illustration, Ottoman and Persian manuscript painting, national-museum
   commissions — rather than in Commons categories alone. Two or three may be
   recoverable. That shrinks the decision below rather than answering it.
+
+- **Template-filler stubs found by the M14 orphan pass.** Linking an article makes
+  it more visible, not better, and four of the sixteen orphans linked in M14 are
+  thin. **`shroud-of-turin` is the worst**: its second section opens "Shroud of
+  Turin is a material or textual object whose physical survival helps historians
+  read medieval politics, belief, art, or memory", which is a template sentence
+  with the title substituted in and says nothing. **`pope-clement-v`,
+  `pope-gregory-ix`, `pope-john-xxii` and `pope-eugenius-iii` have no `summary` at
+  all.** These belong with the stub-rewrite batches above; the popes in particular
+  are now reachable from the Templars, the Teutonic Order and Bernard of
+  Clairvaux, so readers will actually arrive at them.
 
 - **AI-image disclosure — done 2026-09-07, and the gate now covers everything.**
   The owner's rule: every AI-generated image must say so **in its caption**, and
