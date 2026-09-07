@@ -986,6 +986,37 @@ The gambeson is the worked example: it used an AI illustration while retailer
 photography was disallowed, and was swapped for a maker's photograph the same day
 that restriction was lifted.
 
+### Caption and credit block: caption plus source link, nothing else
+
+The block under every article image renders exactly two things:
+
+1. **The caption** — small white text saying what the image shows. One sentence
+   is usually right; **two is the hard limit**, enforced by `npm run check:images`
+   (`validateCaptionLength`, max 2 sentences and 240 characters).
+2. **The source link** — the gold line, and only ever `Source: <name>` pointing at
+   the source page. Nothing else goes in gold.
+
+**`creator`, `date` and `note` are still required in the data** — the validators
+and the audits depend on them, and they are the archive's provenance record — but
+they are **not rendered**. They were, and the result was a five-line credit block
+that buried the image it was supposed to serve.
+
+Everything about the object — dimensions, construction, condition, typology,
+why this image was chosen over another — belongs in the **article**. The caption
+identifies the picture; it does not explain it.
+
+All figures render through the single `ImageCredit` component in `DetailPage.jsx`.
+**Do not write a local `figcaption` for an article image.** The rule only holds if
+there is one implementation of it, and there were five before this was fixed.
+
+**Bad:** "Modern forged reproduction of a Dane axe, shown complete: the broad
+flaring bearded head and the full two-handed haft running to the butt — the long
+shaft being the feature that defines the type." followed by Creator, Date, Source
+and a five-line note about stated dimensions and why the image was chosen.
+
+**Good:** "Modern reproduction of a Dane axe." then "Source: Wulflund, reproduced
+with credit."
+
 ### Captions Must Be Honest and Specific
 
 Every caption states plainly what the user is looking at. Good: "Modern reconstruction of a Viking sword based on 10th-century finds." / "Surviving late-medieval brigandine, photographed in a museum collection." Bad: "Weapon detail." / "Image of armor." / "Scene from the Codex Manesse showing knights with lances" (as a main image for *lance*).

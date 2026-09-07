@@ -31,6 +31,11 @@ const placeholderMetadataPattern = /^(modern photograph, map, or historical imag
 const weaponsArmorNonObjectPattern = /codex|\bbible\b|psalter|manuscript|tapisserie|tapestry|bayeux|manesse|froissart|morgan bible|miniature|\(cropped\)|texture|_detail|\bdetail\b|effigy|statue/i
 const AI_DISCLOSURE_PREFIX = /^AI-generated illustration\b/i
 const NAMED_ARTIFACT_TYPES = new Set(['Famous weapon', 'Famous armor'])
+// Caption length limits — see validateCaptionLength. Declared here with the other
+// module constants because the validators run during module execution, so a const
+// declared beside its function would still be in the temporal dead zone.
+const CAPTION_MAX_SENTENCES = 2
+const CAPTION_MAX_CHARS = 240
 // EMPTY as of 2026-09-06 — every Weapons & Armor article now has a compliant
 // principal image, so no article needs an exception. Removed: 'buckler' (now a
 // photographed reproduction, front and rear; MS I.33 demoted to the
@@ -341,6 +346,8 @@ function validateMetadata(collection, article, field, metadata, articleSources) 
 
   if (!stringValue(metadata.caption)) {
     addFinding(collection, article, field, 'missing image caption')
+  } else {
+    validateCaptionLength(collection, article, field, metadata.caption)
   }
 
   if (!stringValue(metadata.source)) {
@@ -356,6 +363,39 @@ function validateMetadata(collection, article, field, metadata, articleSources) 
     if (value && placeholderMetadataPattern.test(value)) {
       addFinding(collection, article, field, `placeholder-like image metadata in "${key}" ("${value}")`)
     }
+  }
+}
+
+/**
+ * Captions are a label, not a paragraph.
+ *
+ * The block under an article image renders only the caption and a source link;
+ * creator, date and the provenance note stay in the data for auditing but are not
+ * printed. That only helps if the caption itself stays short — a 280-character
+ * caption reintroduces exactly the wall of text the credit block used to be.
+ *
+ * Two sentences is the hard limit, and the character cap catches the single
+ * enormous sentence that slips past a sentence count. What the object is, how it
+ * was made and how big it is all belong in the article, not under the picture.
+ */
+function countSentences(text) {
+  return text.trim().split(/(?<=[.!?])\s+(?=[A-Z"'“])/).length
+}
+
+function validateCaptionLength(collection, article, field, caption) {
+  const text = caption.trim()
+  const sentences = countSentences(text)
+  if (sentences > CAPTION_MAX_SENTENCES) {
+    addFinding(
+      collection, article, field,
+      `image caption runs to ${sentences} sentences (limit ${CAPTION_MAX_SENTENCES}) — move the detail into the article`
+    )
+  }
+  if (text.length > CAPTION_MAX_CHARS) {
+    addFinding(
+      collection, article, field,
+      `image caption is ${text.length} characters (limit ${CAPTION_MAX_CHARS}) — move the detail into the article`
+    )
   }
 }
 

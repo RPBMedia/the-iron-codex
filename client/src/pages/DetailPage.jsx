@@ -114,6 +114,36 @@ function BackToArchiveLink({ collection, routerLocation, navigate }) {
   )
 }
 
+/**
+ * The caption block under every article image, in one place.
+ *
+ * It renders exactly two things: a short description of the image, and a link to
+ * where the image came from. Creator, date and the provenance note stay in the
+ * data — they are needed for auditing and for the image validators — but they are
+ * not printed under the picture, because a five-line credit block buried the
+ * image it was supposed to serve. Anything the reader needs to know about the
+ * object belongs in the article.
+ *
+ * Every figure in this file uses this component. Do not reintroduce a local
+ * figcaption: the rule only holds if there is one implementation of it.
+ */
+function ImageCredit({ info, children }) {
+  if (!info) return null
+  return (
+    <figcaption>
+      {info.caption && <strong>{info.caption}</strong>}
+      {info.source && (
+        info.sourceUrl ? (
+          <a href={info.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {info.source}</a>
+        ) : (
+          <span className="image-credit-source">Source: {info.source}</span>
+        )
+      )}
+      {children}
+    </figcaption>
+  )
+}
+
 function ImageWithCaption({ article }) {
   const [failed, setFailed] = useState(false)
 
@@ -133,21 +163,7 @@ function ImageWithCaption({ article }) {
           }}
         />
       )}
-      {article.imageInfo && (
-        <figcaption>
-          <strong>{article.imageInfo.caption}</strong>
-          {article.imageInfo.creator && <span>Creator: {article.imageInfo.creator}</span>}
-          {article.imageInfo.date && <span>Date: {article.imageInfo.date}</span>}
-          {article.imageInfo.source && (
-            article.imageInfo.sourceUrl ? (
-              <a href={article.imageInfo.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {article.imageInfo.source}</a>
-            ) : (
-              <span>Source: {article.imageInfo.source}</span>
-            )
-          )}
-          {article.imageInfo.note && <em>{article.imageInfo.note}</em>}
-        </figcaption>
-      )}
+      <ImageCredit info={article.imageInfo} />
     </figure>
   )
 }
@@ -442,17 +458,7 @@ function OrderSigilImage({ article }) {
           setFailed(true)
         }}
       />
-      {info && (
-        <figcaption>
-          <strong>{info.caption}</strong>
-          {info.source && (
-            info.sourceUrl
-              ? <a href={info.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {info.source}</a>
-              : <span>Source: {info.source}</span>
-          )}
-          {info.note && <em>{info.note}</em>}
-        </figcaption>
-      )}
+      <ImageCredit info={info} />
     </figure>
   )
 }
@@ -847,17 +853,7 @@ function HouseArmsImage({ article }) {
           setFailed(true)
         }}
       />
-      {info && (
-        <figcaption>
-          <strong>{info.caption}</strong>
-          {info.source && (
-            info.sourceUrl
-              ? <a href={info.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {info.source}</a>
-              : <span>Source: {info.source}</span>
-          )}
-          {info.note && <em>{info.note}</em>}
-        </figcaption>
-      )}
+      <ImageCredit info={info} />
     </figure>
   )
 }
@@ -1245,17 +1241,9 @@ function SectionImage({ image }) {
 
     return (
       <figure className="section-figure section-figure-unavailable">
-        <figcaption>
-          <strong>{image.caption}</strong>
-          {image.source && (
-            image.sourceUrl ? (
-              <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {image.source}</a>
-            ) : (
-              <span>Source: {image.source}</span>
-            )
-          )}
+        <ImageCredit info={image}>
           <em>Image temporarily unavailable.</em>
-        </figcaption>
+        </ImageCredit>
       </figure>
     )
   }
@@ -1268,19 +1256,7 @@ function SectionImage({ image }) {
         loading="lazy"
         onError={() => setFailed(true)}
       />
-      <figcaption>
-        <strong>{image.caption}</strong>
-        {image.creator && <span>Creator: {image.creator}</span>}
-        {image.date && <span>Date: {image.date}</span>}
-        {image.source && (
-          image.sourceUrl ? (
-            <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer">Source: {image.source}</a>
-          ) : (
-            <span>Source: {image.source}</span>
-          )
-        )}
-        {image.note && <em>{image.note}</em>}
-      </figcaption>
+      <ImageCredit info={image} />
     </figure>
   )
 }

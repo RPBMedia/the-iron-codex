@@ -1240,6 +1240,14 @@ figure.detail-media {
   font-style: normal;
 }
 
+/* Source line when there is no URL to link to — same gold as the link form, so
+   the credit reads consistently whether or not it happens to be clickable. */
+.detail-media figcaption .image-credit-source,
+.section-figure figcaption .image-credit-source {
+  color: var(--gold-soft);
+  font-weight: 800;
+}
+
 .detail-body {
   min-width: 0;
   padding: clamp(20px, 4vw, 42px);
