@@ -231,6 +231,18 @@ use `eventType: "War"` (precedent: `third-crusade`, `hundred-years-war`).
       chaining rule behaving correctly, not a regression — **the next pass should
       take Maurice and Nikephoros I first**, since both are named in this
       milestone's articles as the hinge of a catastrophe.
+      **SECOND PASS, same day** — the owner checked Irene of Athens and found her
+      successor Nikephoros I unlinked. Correct behaviour (displayName plus a note),
+      but it was the top backlog item, so the generation was closed: **eight more
+      rulers** — Anastasius I, Tiberius II Constantine, Maurice, Anastasius II,
+      Nikephoros I, Michael II, Leo VI and Alexander. These close on each other and
+      the linker then shut **eight more** endpoints automatically.
+      **The Byzantine tail is now short and named**: Zeno, Staurakios, Leo V,
+      Constantine VIII, Roman and Gabriel Radomir (Bulgarian) remain in scope and
+      unwritten; **Philippikos Bardanes, Constantine III and Heraklonas are
+      deferred** — no image of any of them exists in any form.
+      Leo VI does not reuse the Hagia Sophia mosaic of himself: that image is the
+      Macedonian house's primary, so he takes a solidus.
 - [x] **M9 — The eastern conquests, 962–969** (2026-09-07). Nine articles: the
       sack of Aleppo, the conquests of Cilicia and Cyprus, the fall of Antioch,
       the Hamdanid Emirate of Aleppo, the city of **Antioch**, and John Tzimiskes,
