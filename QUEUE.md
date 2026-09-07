@@ -153,8 +153,17 @@ of the coverage-gap list — do not create proposed new subjects without it.**
             MS I.33, the Seedorf shield, Konrad von Thüringen's shield, the Black
             Prince's achievements at Canterbury. All five now exceed the Longsword
             benchmark of 4,698 chars.
-      - [ ] Batch 2 — helmets (7): `bascinet`, `great-helm`, `hounskull-bascinet`,
-            `kettle-hat`, `mail-coif`, `nasal-helmet`, `sallet`
+      - [x] **Batch 2 — helmets** (2026-09-07). `nasal-helmet` 1,016→5,963 ·
+            `great-helm` 1,106→5,548 · `bascinet` 1,038→5,347 · `kettle-hat`
+            1,075→5,171 · `mail-coif` 1,049→5,087 · `sallet` 1,146→4,990 ·
+            `hounskull-bascinet` 1,043→4,828. All 7 sections, 21 paragraphs, no
+            thin sections. Anchors: the Prankh and Kornburg helms, the Gjermundbu
+            helmet, the St Wenceslas helmet, the Visby grave pits, Hastings,
+            Bouvines, Crécy, Poitiers, Agincourt, Nicopolis, Grunwald, Castillon.
+            Honest notes carried where they matter — "hounskull" is an
+            anglicisation of Hundsgugel, the St Wenceslas attribution is
+            devotional rather than documented, and most claimed "Viking helmets"
+            are nothing of the kind.
       - [ ] Batch 3 — body armour (8) · Batch 4 — swords/daggers (6)
       - [ ] Batch 5 — hafted/pole (9) · Batch 6 — missile (4)
       - [ ] Batch 7 — named artifacts (3): needs the unique-object structure
