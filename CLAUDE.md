@@ -108,6 +108,17 @@ These three standards are absolute and apply to **every** article of every type 
 - For people with no contemporary portrait: use a manuscript depiction, statue, tomb, seal, coin, or later artwork, with an **honest caption** that says it is later or symbolic.
 - **A person's main image must depict the person (owner rule, 2026-09-07).** This is the first question to ask of a biography's primary image, before date, licence or resolution: *does this show a human being?* A coin qualifies **only when it carries a portrait bust** — the Byzantine solidi used for Heraclius, Leo III, Irene, Justin I, Constans II and the rest all show the ruler's face, conventional rather than a likeness but unmistakably a person. A coin bearing **only an inscription, a sword, a cross or a monogram depicts the office or the name, not the man**, and must never lead a biography; it belongs in a section image where it is the real evidence for a reign. Found on **Eric Bloodaxe**, whose article led with a penny reading ERIC REX around a sword — no portrait of any kind. The same test rules out a map, a battlefield photograph or a building as a person's primary image, however apt they are further down the page.
 - **When no depiction exists at all, a modern illustration is permitted for people** (owner decision, 2026-09-07) — including an AI-generated one supplied by the owner. Follow the established convention set by `harald-fairhair`: the file lives in `client/public/` and is referenced as `/<Name>.png`; `creator` reads "AI-generated digital artwork (artist unattributed)"; `date` is "modern"; `source` is "Local project asset, supplied by the site owner"; and the `note` states plainly that it is a modern symbolic depiction and **not** a historical portrait, contemporary likeness or manuscript source, and that no authentic image of the person survives. The caption must make the same point in its own words. Search Commons properly first — the category, both Wikipedia language editions, and any illustrated-edition series by filename — and record in the commit what was searched before falling back.
+- **Where owner-supplied images live (2026-09-07).** `client/assets/` is the
+  originals folder and **is not served** — Vite serves `client/public/` only, and
+  `check-images` resolves local `/…` paths against `client/public` and
+  `server/public`. An image referenced from `client/assets/` 404s in production.
+  Follow the existing pattern: keep the original in `client/assets/`, put a served
+  copy under `client/public/`, and reference the public path. People go in
+  `client/public/people/<slug>.png` → `/people/<slug>.png`. **Do not use
+  `client/public/assets/`** — Vite emits its own bundles to `dist/assets/`, so
+  owner files there land in the build-output namespace. After wiring one, run
+  `npm run check:images` (it hard-fails on a missing local file) and `npm run
+  build`, then confirm the file appears under `client/dist/`.
 - Modern reconstructions or replicas are allowed when they are the clearest representation, but the caption must say so.
 - No AI-generated historical images unless explicitly requested and clearly labeled — never as fake historical evidence.
 - **Image URLs must actually resolve.** A well-formed URL is not enough; broken Wikimedia `Special:FilePath/...` links (wrong filename) render as "Image unavailable." Verify the exact Commons filename via the Commons search API (`action=query&list=search&srnamespace=6`) before using it. Run `npm run check:images --remote` to catch 404s.

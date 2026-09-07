@@ -25548,7 +25548,7 @@
       "causeOfDeath": "See Death section",
       "restingPlace": "Unknown",
       "location": "Kingdom of Norway",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eirik%20Blod%C3%B8ks%20with%20Gunhild%2C%20Egil%20Skallagrimsson%20standing.jpg",
+      "image": "/people/eric-bloodaxe.png",
       "summary": "Eric Bloodaxe was a tenth-century Norwegian king and the last independent ruler of Viking York, whose career is known mostly through Icelandic sagas written three centuries after his death.",
       "title": "king of Norway and Northumbria",
       "roles": [
@@ -25577,12 +25577,12 @@
         "knownFor": "Norwegian kingship and York coinage"
       },
       "imageInfo": {
-        "caption": "Eirik Bloodaxe enthroned with his queen Gunnhild, with the poet Egil Skallagrímsson standing before them, drawn by Christian Krohg.",
-        "creator": "Christian Krohg",
-        "date": "c. 1899",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eirik_Blod%C3%B8ks_with_Gunhild,_Egil_Skallagrimsson_standing.jpg",
-        "note": "A nineteenth-century illustration for an edition of the Heimskringla, not a likeness — nobody knows what Eirik looked like, and no depiction of him made in his lifetime exists. It shows the scene from Egil's saga in which the poet composes his way out of a death sentence at Eirik's court in York. The only image of the man available anywhere, and a small one."
+        "caption": "Eric Bloodaxe envisioned as a tenth-century Norse king before his ships — a modern digital illustration.",
+        "creator": "AI-generated digital artwork (artist unattributed)",
+        "date": "modern",
+        "source": "Local project asset, supplied by the site owner",
+        "sourceUrl": "https://www.theironcodex.org/people/eric-bloodaxe",
+        "note": "A modern, symbolic digital depiction (AI-generated), used as evocative imagery — not a historical portrait, contemporary likeness, or manuscript source. No authentic image of Eric Bloodaxe survives; the only depiction of him made before the modern era is a small nineteenth-century book illustration, shown further down this article."
       },
       "overview": [
         "He ruled Norway briefly in the 930s, was driven out, and twice held the kingdom of York before being killed at Stainmore in 954.",
@@ -25765,6 +25765,16 @@
       ],
       "sectionImages": [
         {
+          "section": "Character and Personality",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eirik%20Blod%C3%B8ks%20with%20Gunhild%2C%20Egil%20Skallagrimsson%20standing.jpg",
+          "caption": "Eirik enthroned with his queen Gunnhild and the poet Egil Skallagrímsson standing before them, drawn by Christian Krohg.",
+          "creator": "Christian Krohg",
+          "date": "c. 1899",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eirik_Blod%C3%B8ks_with_Gunhild,_Egil_Skallagrimsson_standing.jpg",
+          "note": "An illustration for an edition of the Heimskringla, and the only pre-modern depiction of Eirik that exists — a small one. It shows the scene from Egil's saga described in this section, in which the poet composes his way out of a death sentence."
+        },
+        {
           "section": "King at York",
           "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Bloodaxe%20silver%20penny%3B%20struck%20952-954%20AD%20(obverse).jpg",
           "caption": "A silver penny struck for Eric at York between 952 and 954, reading ERIC REX around a sword.",
@@ -25772,7 +25782,7 @@
           "date": "c. 952–954",
           "source": "Wikimedia Commons",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eric_Bloodaxe_silver_penny;_struck_952-954_AD_(obverse).jpg",
-          "note": "The hardest evidence that exists for his reign, and the reason it is here rather than at the top of the article: the coin carries his name, his title and a sword, and no portrait. It proves he ruled at York and shows nothing of the man."
+          "note": "The hardest evidence that exists for his reign, and the reason it sits here rather than at the top of the article: the coin carries his name, his title and a sword, and no portrait. It proves he ruled at York and shows nothing of the man."
         }
       ]
     },
