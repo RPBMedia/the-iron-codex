@@ -6,7 +6,7 @@ There are **three levels**, and they answer different questions:
 
 | Level | Question it answers | How long |
 | --- | --- | --- |
-| 1. Local gate | Did we build the pages correctly? | 10 seconds |
+| 1. Automatic gate | Did we build the pages correctly? | nothing to do |
 | 2. Live spot checks | Is the deployed site serving them correctly? | 5 minutes |
 | 3. Google's own tools | Is Google actually indexing and ranking us? | weeks |
 
@@ -17,26 +17,29 @@ in the first fortnight. Nothing is wrong if traffic is zero in week one.
 
 ---
 
-## Level 1 — the local gate (10 seconds)
+## Level 1 — the automatic gate (nothing for you to do)
 
-```bash
-npm run build && npm run check:seo
-```
+**This runs itself. You never need to run a command for it.**
 
-Expected output:
+`scripts/check-seo.mjs` is wired into the build in `vercel.json`, so it runs on
+**every deployment**, and a failure **fails the deploy**. A build that would ship
+809 pages with a broken title, a missing canonical or an invalid sitemap cannot
+reach production — it stops at Vercel with a red build instead.
+
+It checks every one of the 800 article pages for: a unique title, a canonical
+URL, a description of reasonable length, a social share image, structured data
+that actually parses, at least 200 characters of crawlable text, and membership
+in the sitemap. It also verifies the two `vercel.json` settings the whole scheme
+depends on.
+
+If you ever *want* to run it by hand, `npm run build` includes it and prints:
 
 ```
 SEO check passed: 800 article pages, 809 sitemap URLs, robots.txt and 404 in place.
 ```
 
-If it prints failures instead, it names the file and the problem. This runs
-automatically as part of any build and checks every one of the 800 article pages
-for: a unique title, a canonical URL, a description of reasonable length, a
-social share image, valid structured data that actually parses, at least 200
-characters of crawlable text, and membership in the sitemap.
-
-**Run this before every deploy.** It is the cheapest check and catches almost
-everything.
+But the point is that you should not have to. **If a deploy goes green, level 1
+passed.**
 
 ---
 
@@ -196,14 +199,11 @@ rankings in the first months. It resets Google's understanding of the page.
 
 ## The five-second version
 
-Before every deploy:
+**Before a deploy: nothing.** The gate runs in the build and blocks the deploy if
+anything is wrong. A green deployment means the SEO checks passed.
 
-```bash
-npm run build && npm run check:seo
-```
+**After a deploy, occasionally:** view source on one article (Cmd+Option+U) and
+confirm the title is that article's title and not "The Iron Codex".
 
-After every deploy, view source on one article and confirm the title is that
-article's title and not "The Iron Codex".
-
-Once a week, open Search Console and look at whether the indexed page count is
-going up.
+**Once a week:** open Search Console and see whether the indexed page count is
+going up. That is the only number that really matters.

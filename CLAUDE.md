@@ -262,6 +262,28 @@ Navigation between House articles and the people in them must work **both ways**
 - Use canonical House slugs consistently (`House of Normandy` -> `house-of-normandy`, `House of Wessex` -> `house-of-wessex`, `House of Plantagenet` -> `house-of-plantagenet`, etc.). Do not create duplicate House pages for spelling variants; add the variant as a House `alias` instead (and never an ambiguous one).
 - Broken House <-> Person navigation is a production bug.
 
+#### Gates are the assistant's job, never the owner's (owner rule, 2026-09-08)
+
+**Do not hand the owner a command to run before deploying.** Verification is part
+of doing the work, not part of accepting it. Every quality gate must either be run
+by the assistant before pushing, or — better — be wired into the build so it
+cannot be skipped by anyone.
+
+`check-seo.mjs` is the worked example: it runs inside `vercel.json`'s
+`buildCommand`, so a failing check **fails the deployment**. A build that would
+ship broken titles or an invalid sitemap stops at Vercel instead of reaching
+production. That is strictly better than a documented step, because it does not
+depend on anyone remembering, the assistant included.
+
+When adding a new gate, prefer this order:
+1. **In the deploy build** — cannot be skipped, fails closed.
+2. **In `npm run build`** — caught locally before a push.
+3. **A separate `npm run check:*`** — only where a check is too slow for every
+   build (the remote image check, which fetches ~868 URLs, is the sole example).
+
+Documentation telling the owner to run something is the option of last resort,
+and for a check that could have been automated it is not an option at all.
+
 #### When an article appears, everything that pointed at its absence must change (2026-09-07)
 
 Two hard-failing checks in `check-content-quality.mjs` enforce this, and they are
