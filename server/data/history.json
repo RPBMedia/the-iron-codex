@@ -43836,7 +43836,7 @@
       "causeOfDeath": "Qutuz was assassinated in 1260 shortly after the victory, and Baybars soon became sultan.",
       "restingPlace": "Unknown",
       "location": "Mamluk Sultanate",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Qutuz_gold_dinar_obverse.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B5%D9%88%D8%B1%D8%A9%20%D8%AA%D9%85%D8%AB%D8%A7%D9%84%20%D8%B3%D9%8A%D9%81%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D9%82%D8%B7%D8%B2%20crop.jpg",
       "title": "Mamluk sultan",
       "roles": [
         "Mamluk sultan"
@@ -43857,12 +43857,12 @@
         "knownFor": "Led the Mamluks at Ain Jalut"
       },
       "imageInfo": {
-        "caption": "Gold dinar of Qutuz.",
-        "creator": "Mamluk mint / Wikimedia Commons photograph",
-        "date": "thirteenth century object; modern photograph",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qutuz_gold_dinar_obverse.jpg",
-        "note": "Contemporary coinage rather than a portrait from life."
+        "caption": "Bronze bust of Sayf al-Din Qutuz at the Cairo Citadel.",
+        "creator": "Modern sculptor; photographed by a Wikimedia contributor",
+        "date": "modern statue, photographed 2012",
+        "source": "Wikimedia Commons (Citadel of Saladin, Cairo)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%B5%D9%88%D8%B1%D8%A9_%D8%AA%D9%85%D8%AB%D8%A7%D9%84_%D8%B3%D9%8A%D9%81_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D9%82%D8%B7%D8%B2_crop.jpg",
+        "note": "A modern commemorative bust and not a likeness — no depiction of Qutuz made in his lifetime exists, and Mamluk coinage is aniconic, so none could. It replaces a gold dinar bearing only inscription, which showed the office and not the man. CC BY-SA 3.0."
       },
       "overview": [
         "Qutuz was the Mamluk sultan who led Egypt and Syria through the Mongol crisis and won at Ain Jalut in 1260 with commanders including Baybars.",
@@ -44008,7 +44008,19 @@
           "displayName": "Baybars",
           "note": "Who murdered Qutuz on the road home from the victory at Ain Jalut"
         }
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Overview",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Qutuz_gold_dinar_obverse.jpg",
+          "caption": "A gold dinar struck for Qutuz, carrying his titles in inscription and no image.",
+          "creator": "Mamluk mint",
+          "date": "c. 1259–1260",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qutuz_gold_dinar_obverse.jpg",
+          "note": "The hard contemporary evidence for his reign, and the reason it sits here rather than at the top: Mamluk coinage is aniconic by religious convention, so it carries his name and titles and no portrait. It proves he ruled and shows nothing of the man."
+        }
+      ]
     },
     {
       "id": "kilij-arslan-i",
@@ -44209,7 +44221,7 @@
       "causeOfDeath": "Kerbogha died in 1102 after continuing as a regional power in Mosul.",
       "restingPlace": "Unknown",
       "location": "Seljuk and Syrian frontier",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_Crusader_states_1135-en.svg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerbogha%20Antiochie.jpg",
       "title": "atabeg of Mosul",
       "roles": [
         "atabeg of Mosul"
@@ -44230,12 +44242,12 @@
         "knownFor": "Led relief army to Antioch"
       },
       "imageInfo": {
-        "caption": "Map of the early Crusader states, used to contextualize Kerbogha’s Antioch campaign.",
-        "creator": "Wikimedia Commons contributor",
-        "date": "modern historical map",
+        "caption": "Kerbogha directing the siege of Antioch in 1098, in a manuscript illumination of 1337.",
+        "creator": "Anonymous illuminator",
+        "date": "c. 1337",
         "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_Crusader_states_1135-en.svg",
-        "note": "Context map rather than a portrait; no secure contemporary image of Kerbogha is used."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerbogha_Antiochie.jpg",
+        "note": "A genuine medieval depiction, though made some 240 years after the event and by the other side: Kerbogha is the crowned figure at left, directing crossbowmen against the walls. The armour, the crown and the crossbows are the illuminator's own century, not his. It replaces a locator map of the crusader states, which depicted no person at all. Public domain."
       },
       "overview": [
         "Kerbogha was the atabeg of Mosul who led a coalition army against the crusaders at Antioch in 1098. His defeat allowed the First Crusade to survive one of its greatest crises.",
@@ -44366,6 +44378,18 @@
           "author": "Fordham University",
           "type": "primary source collection",
           "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+        }
+      ],
+      "sectionImages": [
+        {
+          "section": "Overview",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_Crusader_states_1135-en.svg",
+          "caption": "The crusader states around 1135, showing Antioch and the Mosul frontier Kerbogha campaigned across.",
+          "creator": "Wikimedia Commons contributor",
+          "date": "modern map",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_Crusader_states_1135-en.svg",
+          "note": "A modern map. It was previously this article's main image, which broke the rule that a person's primary image must show the person; here it does the job it is actually good for."
         }
       ]
     },

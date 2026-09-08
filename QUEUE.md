@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-08 (**TRACK C COMPLETE — M1-M14 shipped, M15 approval gate reached and stopped at.** Track A complete 14/14; Track D closed. Remaining archive work is optional content polish.)_
+_Last updated: 2026-09-08 (**Tracks A, C and D complete. Handover written — see "WHERE IRON CODEX STANDS" below.** Switching to CareerForger; nothing here is blocking.)_
 
 ---
 
@@ -819,6 +819,64 @@ sentence inside the Canonical URL bullet). Intent is clear from context; confirm
 with the owner if any of those bullets mattered specifically._
 
 ---
+
+## WHERE IRON CODEX STANDS (handover, 2026-09-08)
+
+**Nothing is broken and nothing is blocking.** Every gate is green: tests 13/13,
+content-quality, images (870 references validated remotely), the SEO gate, the
+build, and the integration audit (0 orphans, 0 mis-sorted events, 0 stale notes,
+0 unexplained commanders). The site is live, indexed-in-progress, and healthy.
+
+**Tracks complete:** A (14/14, Byzantine expansion), C (14/14 + the M15 approval
+gate), D (closed as already delivered). **Track B M5 is parked by the owner**;
+B M6-M10 were never started.
+
+**One owner action outstanding:** set `ADMIN_EMAIL=rui.palma.baiao@gmail.com` in
+the Vercel **Production** environment and redeploy, or the Insights link will
+never appear. Until then `isAdmin` is false for everyone, which is the safe
+default.
+
+**One deploy note:** the test step was REMOVED from `vercel.json`'s buildCommand
+after two failed deployments. The failure could not be reproduced locally — a
+clean clone with Vercel's install and the exact buildCommand exits 0 — but the
+deploy went green immediately once the step came out, first as a shell glob and
+again as a programmatic runner, which points at `node:test` behaving differently
+on Vercel's Node version. Tests still run in `npm run build` and before every
+push. **If you want them back in the deploy, find the Node version first.**
+
+### Everything remaining, ranked by what it is worth
+
+1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
+   Median article is 3,044. This is now the highest-value content work because
+   the site is indexed: a 1,800-character page cannot rank for anything, and the
+   worst offenders are famous battles people actually search. By inbound links:
+   `battle-of-las-navas-de-tolosa` (29 links, 1,889 chars), `battle-of-bannockburn`
+   (26), `battle-of-bouvines` (25), `battle-of-kosovo` (25), `battle-of-grunwald`
+   (23), `wars-of-scottish-independence` (21), `battle-of-crecy` (21), `rouen`
+   (13 links, **911 chars**), `battle-of-svolder` (11 links, **941 chars**).
+   Re-run `node scripts/audit-stubs.mjs` for the current list.
+2. **Five person-image violations that CANNOT be fixed by searching harder.**
+   `al-adil-ii`, `al-mansur-ali`, `baraka-khan`, `yusuf-ibn-tashfin`,
+   `muhammad-al-nasir` all lead with aniconic Islamic gold coinage. No depiction
+   of any of them exists on Commons — the one file titled "محمد الناصر" is
+   calligraphy of the name. **This needs the owner's decision below, not more
+   searching.** `kerbogha` (was a MAP) and `qutuz` were fixed 2026-09-08.
+3. **~14 Scandinavian/English pennies still need individual eyes** — some carry
+   a crude bust and pass, some carry only a cross and a legend. The ~11 Byzantine
+   solidi and ~7 royal seals pass and need no work.
+4. **Template-filler stubs**: `shroud-of-turin` (its second section is a template
+   sentence with the title substituted in) and four popes with no `summary` at
+   all — `pope-clement-v`, `pope-gregory-ix`, `pope-john-xxii`, `pope-eugenius-iii`.
+   All five became reachable in M14, so readers will now land on them.
+5. **Sword of St. Maurice (Turin)** — one article, the only unbuilt item from the
+   closed Track D. Worth doing because the brief warns it is confused with the
+   Reichsschwert, which the archive already has.
+6. **Auth storage hardening** — refuse the JSON-file backend under
+   `NODE_ENV=production` and log the selected backend at startup, so a missing
+   Upstash variable fails loudly at deploy instead of at the first user's signup.
+   ~30 minutes.
+7. **Track B M6-M10** (W&A classification, index and relationship repairs, then
+   an approval gate). Never started. B M5 remains parked by the owner.
 
 ## Open — small, ready to run
 
