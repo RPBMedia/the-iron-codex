@@ -16,11 +16,6 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/index",
-      "destination": "/archive",
-      "permanent": true
-    },
-    {
       "source": "/characters",
       "destination": "/people",
       "permanent": true
@@ -45,5 +40,6 @@
       "destination": "/orders/teutonic-order",
       "permanent": true
     }
-  ]
+  ],
+  "framework": null
 }
