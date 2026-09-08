@@ -88,6 +88,18 @@ function loadEnvFile(filePath) {
 app.use(cors({ credentials: true, origin: process.env.CORS_ORIGIN || true }))
 app.use(express.json())
 
+// API responses must be CRAWLABLE (pages fetch them to render) but never
+// INDEXABLE (they are JSON, not pages). robots.txt cannot express that
+// distinction — it only blocks fetching, which is exactly what caused the
+// soft-404 on every hub page. This header can: fetch yes, index no.
+//
+// It must sit HERE, ahead of the routes. Registered after them it never runs,
+// because the route handler has already sent the response.
+app.use('/api', (_req, res, next) => {
+  res.set('X-Robots-Tag', 'noindex')
+  next()
+})
+
 const historyDataPath = path.join(__dirname, 'data', 'history.json')
 let cachedHistoryData = null
 let cachedHistoryMtimeMs = 0
@@ -852,15 +864,6 @@ app.get('/api/:collection/:id', (req, res) => {
   }
 
   res.json(enrichArticle(article, collections()))
-})
-
-// API responses must be CRAWLABLE (pages fetch them to render) but never
-// INDEXABLE (they are JSON, not pages). robots.txt cannot express that
-// distinction — it only blocks fetching, which is what caused the soft-404s on
-// every hub page. This header is the mechanism that can.
-app.use('/api', (_req, res, next) => {
-  res.set('X-Robots-Tag', 'noindex')
-  next()
 })
 
 app.use(express.static(clientDist))
