@@ -790,7 +790,7 @@ Hard constraints to carry into the work:
 - [ ] M7 — Privacy-safe event model
 - [ ] M8 — Private "Insights & Analytics" page
 - [ ] M9 — Server-side admin authorization
-- [ ] M10 — Conditional header control between menu and search
+- [x] **M10** (2026-09-08). Conditional header control between search and menu, driven by the server-computed isAdmin boolean. Hiding it is a usability choice; /api/insights is guarded independently and answers 404 to everyone else, exactly as the brief requires.
 - [x] **M11** (2026-09-08). Paid-marketing proposal — `MARKETING.md`. NOTHING ACTIVATED: no account, no budget, no billing. Recommendation is explicitly DO NOT SPEND YET; revisit in December with real Search Console query data. AdSense addressed as the category error the brief flags — it is publisher monetisation, not acquisition.
 - [x] **M12** (2026-09-08). Organic promotion plan — same document. Core insight: compete where the archive is genuinely better (Bapheus, Myriokephalon, Kilij Arslan II) rather than against Wikipedia on Hastings. Zero external links is the real constraint, and the plan says so.
 - [x] **M13** (2026-09-08). Tests — 13 tests, zero dependencies (`node:test`). Cover the admin boundary (including that an unset ADMIN_EMAIL means nobody is admin, not everybody) and the analytics privacy guarantees (referrers reduced to host; paths carrying queries, fragments or markup rejected). `npm test`, and they now gate the build.
