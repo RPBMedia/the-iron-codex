@@ -134,13 +134,158 @@ can do**, because it proves you own the domain.
 
 ### Step 1 — Google Search Console (do this first, it is the whole game)
 
-1. Go to https://search.google.com/search-console
-2. Add a property → choose **Domain** → enter `theironcodex.org`
-3. It asks you to add a **TXT record** to your DNS. Do that wherever the domain
-   is registered. Verification usually completes within an hour.
-4. Once verified: **Sitemaps** in the left menu → enter `sitemap.xml` → Submit.
+Full click-by-click walkthrough below. **Your DNS is hosted at Vercel**
+(nameservers `ns1.vercel-dns.com` / `ns2.vercel-dns.com`), *not* at your
+registrar — so the TXT record is added in the Vercel dashboard. This is the part
+most guides get wrong for this setup, because they assume you edit DNS wherever
+you bought the domain.
 
-Then wait. Genuinely — days to weeks.
+#### 1a. Create the property
+
+1. Go to https://search.google.com/search-console and sign in with
+   **rui.palma.baiao@gmail.com**.
+2. If this is your first property you land straight on the "Select property
+   type" screen. Otherwise: click the property dropdown at the **top left** →
+   **+ Add property**.
+3. You get two boxes side by side. Choose the **left one, "Domain"**.
+   - **Domain** covers `theironcodex.org`, `www.theironcodex.org`, http and
+     https, all in one property. This is what you want.
+   - "URL prefix" (right box) would only cover the exact address you type, so
+     `www` and the apex would be separate properties. Avoid it.
+4. Type `theironcodex.org` — **no `https://`, no `www`**, just the bare domain.
+5. Click **Continue**.
+
+Google now shows a box titled "Verify domain ownership via DNS record" with a
+string that looks like:
+
+```
+google-site-verification=AbCdEf123456...
+```
+
+Click **Copy**. Leave this browser tab open — you come back to it in 1c.
+
+#### 1b. Add the TXT record in Vercel
+
+1. Go to https://vercel.com/dashboard and sign in.
+2. In the **top navigation bar**, click **Domains**. (This is an account-level
+   page — it is *not* inside the project. Project → Settings → Domains only
+   controls which domain points at which project, not the DNS records.)
+3. Click **`theironcodex.org`** in the list.
+4. You land on the DNS records view. Click **Add** (or "Add Record").
+5. Fill in exactly:
+
+   | Field | What to enter |
+   | --- | --- |
+   | **Name** | leave **blank** (some versions show `@` — either means the root domain) |
+   | **Type** | `TXT` |
+   | **Value** | paste the whole `google-site-verification=…` string |
+   | **TTL** | leave the default (60) |
+
+   **Do not** type `theironcodex.org` in the Name field. Vercel appends the
+   domain automatically, so that would create a record for
+   `theironcodex.org.theironcodex.org`, which verifies nothing. This is the
+   single most common mistake here.
+
+6. Click **Add** / **Save**.
+
+#### 1c. Verify
+
+Vercel's DNS uses a 60-second TTL, so this is fast — usually under two minutes,
+not the "up to 72 hours" the generic warnings mention.
+
+Optional but reassuring — check it yourself from a terminal:
+
+```bash
+dig +short TXT theironcodex.org
+```
+
+When it returns your `"google-site-verification=…"` string, you are ready.
+
+Go back to the Search Console tab and click **Verify**. You should get
+"Ownership verified".
+
+If it fails, wait a minute and click Verify again — Google sometimes caches a
+negative lookup. **Do not delete the TXT record afterwards.** Google re-checks it
+periodically and will unverify the property if it disappears.
+
+#### 1d. Submit the sitemap
+
+1. In Search Console, make sure `theironcodex.org` is selected in the property
+   dropdown (top left).
+2. In the **left sidebar**, find the **Indexing** group → click **Sitemaps**.
+3. There is a field labelled "Add a new sitemap", with
+   `https://www.theironcodex.org/` already shown as a fixed prefix.
+4. Type just **`sitemap.xml`** into the box — not the full URL. The prefix is
+   already there, so typing the whole address gives you
+   `https://www.theironcodex.org/https://www.theironcodex.org/sitemap.xml`.
+5. Click **Submit**.
+
+**What you should see**, in the "Submitted sitemaps" table below:
+
+| Column | Expected |
+| --- | --- |
+| Status | **Success** |
+| Discovered URLs | **809** |
+| Type | Sitemap |
+
+If it says **"Couldn't fetch"**, do not panic and do not resubmit repeatedly.
+That status very often appears immediately after submission and resolves itself
+within a few hours once Google actually fetches the file. Check the file is fine
+yourself by opening https://www.theironcodex.org/sitemap.xml in a browser — if
+XML loads, the sitemap is good and the status will catch up.
+
+You only ever submit a sitemap **once**. Google re-reads it automatically from
+then on, including after every deploy.
+
+#### 1e. URL Inspection — proving Google sees the content
+
+This is the definitive test, and there is an important detail: **which button you
+press depends on whether Google has crawled the page yet.** On a new site it has
+not, so the "View crawled page" option will not exist — you use the live test
+instead.
+
+1. At the **very top** of Search Console there is a wide search bar reading
+   *"Inspect any URL in https://www.theironcodex.org"*.
+2. Paste a **full article URL**, including `https://www.` — for example:
+   `https://www.theironcodex.org/people/eric-bloodaxe`
+3. Press **Enter** and wait 10–30 seconds.
+
+You will see one of two results:
+
+- **"URL is not on Google"** — expected for weeks on a new site. It is not an
+  error. It means "not indexed yet", not "something is broken".
+- **"URL is on Google"** — indexed.
+
+**Now the actual test.** Click **TEST LIVE URL** at the top right. This makes
+Google fetch and render the page *right now*, regardless of indexing status.
+Wait ~30 seconds, then:
+
+4. Click **VIEW TESTED PAGE** (right-hand side).
+5. Select the **HTML** tab.
+
+This is the exact HTML Googlebot received. Search it (Ctrl+F / Cmd+F) for:
+
+| Search for | You should find |
+| --- | --- |
+| `<title>` | `Eric Bloodaxe — king of Norway and Northumbria \| The Iron Codex` |
+| `canonical` | `https://www.theironcodex.org/people/eric-bloodaxe` |
+| `og:image` | a real image URL |
+| `Bloodaxe was a son of` | the article's actual prose |
+
+If all four are there, Google is receiving everything it needs. That is the
+definitive answer to "is our SEO actually working".
+
+Also check the **Screenshot** tab — it shows the page as Googlebot rendered it,
+which confirms the JavaScript app loads correctly for Google too.
+
+Once Google *has* crawled a page (weeks later), a **"View crawled page"** option
+appears alongside, showing the stored copy rather than a live fetch. Same tabs,
+same things to look for.
+
+**"Request indexing"**: on the inspection result there is a *Request indexing*
+link. It pushes one URL to the front of the queue. Use it for a handful of
+important pages — the home page, `/archive`, two or three strong articles. There
+is a daily quota, and it is not a way to index 809 pages. The sitemap does that.
 
 **What to look at afterwards, and what "good" looks like:**
 
@@ -160,6 +305,7 @@ If a page is not indexed yet, press **"Request indexing"**. Useful for a handful
 of pages; not something to do 809 times.
 
 ### Step 2 — Bing Webmaster Tools (5 minutes, worth it)
+
 
 https://www.bing.com/webmasters — it can **import directly from Google Search
 Console**, so once step 1 is done this is a two-click job. Bing also feeds
