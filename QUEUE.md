@@ -755,6 +755,34 @@ Hard constraints to carry into the work:
       (local gate → live spot checks → Search Console), what "good" looks like,
       and honest timelines — nothing is wrong if traffic is zero in week one.
 
+      **THREE PRODUCTION BUGS FOUND BY THE OWNER'S TESTING, none catchable by
+      the build gate.** Recorded because the pattern matters: every one was
+      invisible locally and only Google or a real client exposed it.
+      1. **Article text was missing from Google's rendered view.** The raw HTML
+         had 5,107 characters of it, but URL Inspection shows the RENDERED DOM,
+         and React was clearing `#root`, drawing a spinner, and only then
+         fetching `/api`. Fixed by inlining each article's data into its page —
+         React's first render is now the finished article. Verified in headless
+         Chrome with the API unreachable: rendered text went 126 → 8,559 chars.
+         The enrichment the API applies moved to `server/article-enrichment.js`,
+         imported by both sides so a prerendered and a live-fetched page cannot
+         disagree.
+      2. **Every hub page was a soft 404 to Google.** `robots.txt` carried
+         `Disallow: /api/`, and Googlebot obeys robots.txt for the subresources a
+         page fetches while RENDERING — so `/archive` collapsed from 785 links to
+         1, and `/people` to zero characters. Google saw blank pages and
+         correctly called them errors. Never block render-critical resources;
+         `X-Robots-Tag: noindex` on the API keeps the JSON unindexed while still
+         fetchable, which robots.txt cannot express. **A local browser check
+         cannot catch this — Chrome ignores robots.txt**, so every headless
+         render looked perfect.
+      3. **Social previews showed the favicon, not the image.** WhatsApp refuses
+         a preview image much over ~600 KB; Eric Bloodaxe's was a 2,379 KB PNG,
+         and 22 of 29 local images were over the limit. `make-og-images.mjs`
+         writes derived cards (2,379 → 253 KB). Commons images were never
+         affected — they are fetched at `?width=1200`.
+      All three are now gated in `check-seo.mjs`.
+
 - [ ] M3 — Internal linking and curated landing pages
 - [ ] M4 — Performance and crawlability
 - [ ] M5 — Search Console + Bing preparation
