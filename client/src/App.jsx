@@ -32,7 +32,11 @@ export default function App() {
             <Route path="/houses" element={<CollectionPage collection="houses" />} />
             <Route path="/orders" element={<CollectionPage collection="orders" />} />
             <Route path="/locations/teutonic-order" element={<Navigate to="/orders/teutonic-order" replace />} />
-            <Route path="/index" element={<IndexPage />} />
+            <Route path="/archive" element={<IndexPage />} />
+            {/* /index cannot be prerendered: clean-URL resolution maps it to the
+                ROOT index.html, which would serve the home page's metadata. Vercel
+                301s it to /archive in production; this keeps local dev honest. */}
+            <Route path="/index" element={<Navigate to="/archive" replace />} />
             <Route path="/search" element={<SearchPage />} />
             <Route path="/login" element={<AuthPage mode="login" />} />
             <Route path="/signup" element={<AuthPage mode="signup" />} />

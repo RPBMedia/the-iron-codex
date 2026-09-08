@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm install --prefix client && npm run build --prefix client",
+  "buildCommand": "npm install --prefix client && npm run build --prefix client && node scripts/prerender.mjs",
   "outputDirectory": "client/dist",
   "functions": {
     "api/index.js": {
@@ -8,7 +8,42 @@
     }
   },
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index"
+    }
+  ],
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/index",
+      "destination": "/archive",
+      "permanent": true
+    },
+    {
+      "source": "/characters",
+      "destination": "/people",
+      "permanent": true
+    },
+    {
+      "source": "/characters/:id",
+      "destination": "/people/:id",
+      "permanent": true
+    },
+    {
+      "source": "/artifacts/joyeuse",
+      "destination": "/weapons-armor/joyeuse",
+      "permanent": true
+    },
+    {
+      "source": "/artifacts/sutton-hoo-helmet",
+      "destination": "/weapons-armor/sutton-hoo-helmet",
+      "permanent": true
+    },
+    {
+      "source": "/locations/teutonic-order",
+      "destination": "/orders/teutonic-order",
+      "permanent": true
+    }
   ]
 }

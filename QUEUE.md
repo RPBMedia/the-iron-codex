@@ -706,8 +706,36 @@ Hard constraints to carry into the work:
         React SSR, and puts real text in the HTML for crawlers that do not run
         JS. 809 small files is a non-issue for the build.
 
-- [ ] M2 — Technical SEO: prerendered metadata, sitemap, robots, canonicals,
-      JSON-LD, social cards, real 404s, 301s for the legacy URLs
+- [x] **M2 — Technical SEO** (2026-09-08). Build-time prerendering, per the M1
+      decision. `scripts/prerender.mjs` runs after `vite build` and writes **815
+      static HTML files** — 800 article pages, 7 collection hubs, home, the
+      archive index, 5 noindex utility pages and a real 404 — plus `sitemap.xml`
+      (**809 URLs**) and `robots.txt`.
+      Every article page now carries its own title, description, canonical,
+      Open Graph, Twitter card, typed JSON-LD (Person / Event / Place /
+      CreativeWork / Organization) and a BreadcrumbList — **and its real text
+      inside `#root`**, so a crawler that runs no JavaScript still reads the
+      article. React clears `#root` on mount, so nothing changes for a human.
+      **`/index` had to move to `/archive`.** Clean-URL resolution appends
+      `.html`, so `/index` resolved to the ROOT `index.html` and would have
+      served the home page's metadata on the archive's own hub page. It is a
+      permanent redirect, the header link is updated, and the app keeps an
+      `/index` route so local development behaves like production.
+      **The catch-all rewrite is gone**, which is what makes 404s real: every
+      valid URL is now a file, so anything else falls through to `404.html` and
+      Vercel returns an actual 404 instead of 200-with-a-shell.
+      **Legacy URLs are now server-side 301s** in `vercel.json` — `/characters/:id`,
+      `/artifacts/joyeuse`, `/artifacts/sutton-hoo-helmet`,
+      `/locations/teutonic-order`. They were client-side React Router redirects,
+      so crawlers saw two 200s with identical HTML.
+      **Collection hubs link every article they contain**, so all 800 pages are
+      reachable by crawling from nine hub pages and do not depend on the sitemap.
+      New gate: `npm run check:seo` (`scripts/check-seo.mjs`), which validates
+      every article page against the build output — title, canonical,
+      description length, og:image, twitter:card, JSON-LD *parseability*, 200+
+      characters of crawlable text, an `<h1>`, sitemap membership, hub linkage,
+      noindex on utility pages, and the two `vercel.json` settings the whole
+      scheme depends on. Negative-tested three ways before being trusted.
 - [ ] M3 — Internal linking and curated landing pages
 - [ ] M4 — Performance and crawlability
 - [ ] M5 — Search Console + Bing preparation
