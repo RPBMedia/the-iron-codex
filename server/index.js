@@ -6,6 +6,7 @@ import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase } 
 // Shared with scripts/prerender.mjs, which inlines the same enriched article
 // into each prerendered page. One definition, so the two cannot drift.
 import { enrichArticle } from './article-enrichment.js'
+import { recordView, readInsights, analyticsAvailable } from './analytics.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
 import { promisify } from 'node:util'
@@ -152,6 +153,39 @@ const apiCollectionName = (collection) => {
 const movedArtifactArticles = {
   joyeuse: 'weaponsArmor',
   'sutton-hoo-helmet': 'weaponsArmor'
+}
+
+/**
+ * Admin authorization (Track C M9) — server-side, and only server-side.
+ *
+ * The admin's address comes from ADMIN_EMAIL in the environment and is compared
+ * here. It is NEVER sent to the browser and never appears in the client bundle:
+ * the client only ever learns a boolean about *itself*, from `/api/auth/me`.
+ * A reader who is not the admin cannot discover who is.
+ *
+ * The brief is explicit that a hidden header button is a usability choice and not
+ * a security boundary, so every admin route is guarded here as well. Hiding the
+ * link and guarding the route are two different jobs and both are done.
+ *
+ * Requiring a VERIFIED account matters too: matching on email alone would let
+ * anyone who signed up with the address in via the password flow. Google sign-in
+ * proves the address; the password flow does not.
+ */
+const ADMIN_EMAIL = normalizeEmail(process.env.ADMIN_EMAIL ?? '')
+
+function isAdminUser(user) {
+  if (!user || !ADMIN_EMAIL) return false
+  if (normalizeEmail(user.email) !== ADMIN_EMAIL) return false
+  return (user.providers ?? []).includes('google')
+}
+
+async function requireAdmin(req, res, next) {
+  const user = await currentUser(req)
+  // 404 rather than 403: an unauthorized caller should not learn the route
+  // exists, and the admin page is not a secret worth confirming.
+  if (!isAdminUser(user)) return res.status(404).json({ message: 'Not found.' })
+  req.user = user
+  next()
 }
 
 const publicUser = (user) => ({
@@ -583,13 +617,53 @@ function recommendSectionsFor(user) {
   ].filter((section) => section.articles.length)
 }
 
+
+/**
+ * Pageview beacon (Track C M7). Records nothing that identifies anyone — see
+ * server/analytics.js for exactly what is and is not stored.
+ *
+ * Always answers 204 even on failure: analytics must never surface an error to a
+ * reader or hold up a page, and a lost count is not worth a broken experience.
+ */
+app.post('/api/events/view', async (req, res) => {
+  try {
+    await recordView({
+      path: req.body?.path,
+      referrer: req.body?.referrer,
+      // Vercel's own geo header. Never derived from, and never stored with, an IP.
+      country: req.headers['x-vercel-ip-country']
+    })
+  } catch (error) {
+    console.error('analytics: failed to record view', error?.message)
+  }
+  res.status(204).end()
+})
+
+/** Private insights (Track C M8). Admin only, enforced above. */
+app.get('/api/insights', requireAdmin, async (req, res) => {
+  const days = Math.min(Math.max(Number(req.query.days) || 30, 1), 90)
+  try {
+    res.json(await readInsights(days))
+  } catch (error) {
+    console.error('analytics: failed to read insights', error?.message)
+    res.status(503).json({ message: 'Analytics store unavailable.', available: false })
+  }
+})
+
 app.get('/api/health', (_req, res) => {
+  // analyticsAvailable is a config fact, not data — safe to expose.
   res.json({ status: 'ok', scope: 'Medieval Europe, 476-1453' })
 })
 
 app.get('/api/auth/me', async (req, res) => {
   const user = await currentUser(req)
-  res.json({ authenticated: Boolean(user), user: user ? publicUser(user) : null })
+  // `isAdmin` is a fact about the CALLER, computed server-side. The admin's
+  // address is never disclosed.
+  res.json({
+    authenticated: Boolean(user),
+    user: user ? publicUser(user) : null,
+    isAdmin: isAdminUser(user)
+  })
 })
 
 app.get('/api/favorites/ids', requireUser, (req, res) => {

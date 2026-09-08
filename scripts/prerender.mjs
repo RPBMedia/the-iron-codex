@@ -480,7 +480,12 @@ const UTILITY = [
   ['login', 'Log in', 'Log in to The Iron Codex.'],
   ['signup', 'Create an account', 'Create an Iron Codex account.'],
   ['favorites', 'Favourites', 'Your saved articles.'],
-  ['auth/callback', 'Signing in…', 'Completing sign-in.']
+  ['auth/callback', 'Signing in…', 'Completing sign-in.'],
+  // Private analytics. It MUST be prerendered even though it is noindex: with
+  // the catch-all now returning a real 404, a route with no file 404s on direct
+  // load. Being in the build does not make it public — /api/insights is guarded
+  // server-side and the page renders "not found" to anyone who is not the admin.
+  ['insights', 'Insights', 'Private analytics.']
 ]
 for (const [route, label, blurb] of UTILITY) {
   writePage(`${route}.html`, {
@@ -547,7 +552,7 @@ writeFileSync(path.join(distDir, 'robots.txt'),
   `# it makes every hub page look like a soft 404. The JSON is kept out of the\n` +
   `# index with an X-Robots-Tag header instead.\n` +
   `User-agent: *\nAllow: /\n\n` +
-  `Disallow: /search\nDisallow: /login\nDisallow: /signup\n` +
+  `Disallow: /search\nDisallow: /login\nDisallow: /signup\nDisallow: /insights\n` +
   `Disallow: /favorites\nDisallow: /auth/\n\n` +
   `Sitemap: ${SITE}/sitemap.xml\n`)
 

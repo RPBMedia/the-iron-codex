@@ -10,6 +10,8 @@ import AuthPage from './pages/AuthPage.jsx'
 import FavoritesPage from './pages/FavoritesPage.jsx'
 import IndexPage from './pages/IndexPage.jsx'
 import TopicPage, { TopicsIndex } from './pages/TopicPage.jsx'
+import InsightsPage from './pages/InsightsPage.jsx'
+import PageViewBeacon from './components/PageViewBeacon.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 
 export default function App() {
@@ -17,6 +19,7 @@ export default function App() {
     <AuthProvider>
       <div className="app-shell">
         <ScrollToTop />
+      <PageViewBeacon />
         <Header />
         <main>
           <Routes>
@@ -34,6 +37,7 @@ export default function App() {
             <Route path="/orders" element={<CollectionPage collection="orders" />} />
             <Route path="/locations/teutonic-order" element={<Navigate to="/orders/teutonic-order" replace />} />
             <Route path="/archive" element={<IndexPage />} />
+            <Route path="/insights" element={<InsightsPage />} />
             <Route path="/topics" element={<TopicsIndex />} />
             <Route path="/topics/:slug" element={<TopicPage />} />
             {/* /index cannot be prerendered: clean-URL resolution maps it to the

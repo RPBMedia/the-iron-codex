@@ -117,7 +117,7 @@ for (const rel of ['index.html', 'archive.html', '404.html']) {
 }
 if (read('404.html') && !read('404.html').includes('noindex')) fail('404.html', 'not marked noindex')
 
-for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html', 'auth/callback.html']) {
+for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html', 'auth/callback.html', 'insights.html']) {
   const html = read(rel)
   if (!html) { fail(rel, 'utility page missing — its route would 404 on direct load'); continue }
   if (!html.includes('content="noindex, follow"')) fail(rel, 'utility page is indexable — it must be noindex')

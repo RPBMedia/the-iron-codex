@@ -3336,3 +3336,157 @@ a.tree-person:hover .tree-person-name {
 .article-topic-link:focus-visible {
   border-color: var(--gold-soft);
 }
+
+/* ---------------------------------------------------------------------------
+   Insights dashboard and the admin header control (Track C M8/M10).
+   --------------------------------------------------------------------------- */
+
+.header-insights-link {
+  padding: 7px 14px;
+  border: 1px solid rgba(242, 193, 78, 0.45);
+  border-radius: 999px;
+  color: var(--gold-soft);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.header-insights-link:hover,
+.header-insights-link.is-active {
+  background: rgba(242, 193, 78, 0.14);
+}
+
+.insights-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.insights-controls .button.is-active {
+  border-color: var(--gold-soft);
+  color: var(--gold-soft);
+}
+
+.insights-summary {
+  margin-bottom: 26px;
+}
+
+.insights-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.insights-stat-value {
+  color: var(--paper);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.insights-stat-label {
+  color: var(--silver);
+  font-size: 0.95rem;
+}
+
+.insights-note {
+  max-width: 620px;
+  margin: 10px 0 0;
+  color: rgba(215, 217, 221, 0.7);
+  font-size: 0.88rem;
+}
+
+/* Panels are light on the dark page, matching the archive's card idiom — and
+   deterministic regardless of where the page background gradient has reached. */
+.insights-panel {
+  padding: 24px 28px;
+  border: 1px solid rgba(12, 12, 15, 0.12);
+  border-radius: 6px;
+  background: #fffaf0;
+  color: var(--black);
+  box-shadow: 0 20px 60px rgba(8, 8, 10, 0.1);
+}
+
+.insights-panel h2 {
+  margin: 0 0 16px;
+  font-size: 1.2rem;
+}
+
+.insights-notice {
+  margin-bottom: 26px;
+}
+
+.insights-notice p {
+  margin: 0;
+  color: rgba(32, 32, 36, 0.8);
+  font-size: 0.95rem;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 26px;
+}
+
+.insights-table {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.insights-table li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(12, 12, 15, 0.1);
+  font-size: 0.9rem;
+}
+
+.insights-key {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.insights-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.insights-empty {
+  margin: 0;
+  color: rgba(32, 32, 36, 0.6);
+  font-size: 0.9rem;
+}
+
+.insights-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 160px;
+  padding: 16px 18px;
+  border: 1px solid rgba(215, 217, 221, 0.18);
+  border-radius: 6px;
+}
+
+.insights-bar-slot {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  height: 100%;
+  min-width: 2px;
+}
+
+.insights-bar {
+  width: 100%;
+  min-height: 2px;
+  border-radius: 2px 2px 0 0;
+  background: var(--gold);
+}

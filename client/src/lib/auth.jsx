@@ -5,6 +5,9 @@ const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null)
+  // A fact about THIS caller, computed server-side. The admin's address is
+  // never sent to the browser and never appears in this bundle.
+  const [isAdmin, setIsAdmin] = useState(false)
   const [favoriteKeys, setFavoriteKeys] = useState(new Set())
   const [isLoading, setIsLoading] = useState(true)
   const [favoritesLoading, setFavoritesLoading] = useState(false)
@@ -30,6 +33,7 @@ export function AuthProvider({ children }) {
     try {
       const state = await getAuthState()
       setUser(state.user)
+      setIsAdmin(Boolean(state.isAdmin))
       if (state.user) {
         await loadFavoriteIds()
       } else {
@@ -39,6 +43,7 @@ export function AuthProvider({ children }) {
     } catch (authError) {
       setError(authError.message)
       setUser(null)
+      setIsAdmin(false)
       return null
     } finally {
       setIsLoading(false)
@@ -112,6 +117,7 @@ export function AuthProvider({ children }) {
       favoriteKeys,
       favoritesLoading,
       isAuthenticated: Boolean(user),
+      isAdmin,
       isFavorite,
       isLoading,
       loadFavoriteIds,

@@ -17,7 +17,7 @@ const primaryNavigation = [
 ]
 
 export default function Header() {
-  const { isAuthenticated, isLoading, signOut, user } = useAuth()
+  const { isAuthenticated, isAdmin, isLoading, signOut, user } = useAuth()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
   const navigate = useNavigate()
@@ -100,6 +100,20 @@ export default function Header() {
       <GlobalSearch />
 
       <div className="header-actions">
+        {/* Track C M10: the admin control sits between the search and the menu.
+            It is shown from a boolean the SERVER computed about this caller —
+            the admin's address is never in this bundle. Hiding it is a
+            convenience; /api/insights is guarded independently and answers 404
+            to everyone else, so this is not what keeps the page private. */}
+        {!isLoading && isAdmin && (
+          <NavLink
+            to="/insights"
+            className={({ isActive }) => `header-insights-link${isActive ? ' is-active' : ''}`}
+            title="Private analytics"
+          >
+            Insights
+          </NavLink>
+        )}
         {!isLoading && isAuthenticated && (
           <span className="account-chip" title={displayName}>
             {user.avatar && <img src={user.avatar} alt="" loading="lazy" />}
