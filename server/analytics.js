@@ -54,10 +54,10 @@ async function redis(commands) {
 }
 
 /** Only same-shape internal paths are counted; anything else is discarded. */
-const SAFE_PATH = /^\/[A-Za-z0-9\-/]{0,120}$/
+export const SAFE_PATH = /^\/[A-Za-z0-9\-/]{0,120}$/
 
 /** A referrer is reduced to its host. The path can carry search terms. */
-function referrerHost(referrer) {
+export function referrerHost(referrer) {
   if (!referrer) return null
   try {
     const host = new URL(referrer).hostname.toLowerCase()

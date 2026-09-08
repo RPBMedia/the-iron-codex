@@ -7,6 +7,7 @@ import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase } 
 // into each prerendered page. One definition, so the two cannot drift.
 import { enrichArticle } from './article-enrichment.js'
 import { recordView, readInsights, analyticsAvailable } from './analytics.js'
+import { isAdminUser } from './admin.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
 import { promisify } from 'node:util'
@@ -171,14 +172,6 @@ const movedArtifactArticles = {
  * anyone who signed up with the address in via the password flow. Google sign-in
  * proves the address; the password flow does not.
  */
-const ADMIN_EMAIL = normalizeEmail(process.env.ADMIN_EMAIL ?? '')
-
-function isAdminUser(user) {
-  if (!user || !ADMIN_EMAIL) return false
-  if (normalizeEmail(user.email) !== ADMIN_EMAIL) return false
-  return (user.providers ?? []).includes('google')
-}
-
 async function requireAdmin(req, res, next) {
   const user = await currentUser(req)
   // 404 rather than 403: an unauthorized caller should not learn the route

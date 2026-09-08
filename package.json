@@ -8,7 +8,7 @@
     "install:all": "npm install --prefix server && npm install --prefix client",
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
-    "build": "node scripts/build-topics.mjs && npm run build --prefix client && node scripts/prerender.mjs && node scripts/check-seo.mjs",
+    "build": "node --test tests/*.test.mjs && node scripts/build-topics.mjs && npm run build --prefix client && node scripts/prerender.mjs && node scripts/check-seo.mjs",
     "check:content-quality": "node scripts/check-content-quality.mjs",
     "check:images": "node scripts/check-images.mjs",
     "start": "npm start --prefix server",
@@ -16,7 +16,8 @@
     "check:seo": "node scripts/check-seo.mjs",
     "build:topics": "node scripts/build-topics.mjs",
     "content": "node scripts/update-content-dates.mjs && node scripts/make-og-images.mjs",
-    "ping": "node scripts/ping-indexnow.mjs"
+    "ping": "node scripts/ping-indexnow.mjs",
+    "test": "node --test tests/*.test.mjs"
   },
   "engines": {
     "node": ">=20"

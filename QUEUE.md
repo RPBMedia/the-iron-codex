@@ -508,11 +508,11 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       - [ ] Batch 7 — named artifacts (3): needs the unique-object structure
             (provenance, measurements, conservation, scholarly disputes)
       - [ ] THEN `validateWeaponsArmorDepth` — after all batches, never before.
-- [ ] M6 — Classification, index, relationship repairs
-- [ ] M7 — Validation + manual visual QA
-- [ ] M8 — Coverage-gap analysis (**analysis only**)
-- [ ] M9 — **APPROVAL GATE — stop and wait**
-- [ ] M10 — Approved additions only
+- [x] **M6** (2026-09-08). Analytics provider — chose FIRST-PARTY counters in the existing Upstash. GA4 rejected (cookies → consent banner costs more readers than the data is worth); Plausible/Fathom rejected (paid, brief forbids spend); Vercel Analytics rejected (paid). No vendor, no cookies, no banner, no new bill.
+- [x] **M7** (2026-09-08). Privacy-safe event model — path, referrer HOST (never the full URL), country from the CDN header. No cookie, id, fingerprint, IP, user agent, session or user id. Nothing can be tied to a person, which is what makes it consent-exempt rather than merely compliant. 90-day TTL. Reports VIEWS, never "visitors", because with no identifier there is no honest way to count people.
+- [x] **M8** (2026-09-08). Private Insights page at `/insights` with a REAL empty state — real zeros and an explanation, no demo chart, nothing back-filled. Prerendered noindex (the catch-all now 404s, so a route with no file would 404 on direct load).
+- [x] **M9** (2026-09-08). Server-side admin authorization — ADMIN_EMAIL compared on the server, never sent to the browser or in the client bundle. Client learns only a boolean about ITSELF. Requires a verified Google provider, since email alone would let anyone who registered that address via password in. `/api/insights` answers 404, not 403, so the route is not disclosed.
+- [x] **M10** (2026-09-08). Conditional header control between search and menu, driven by that server-computed boolean. Hiding it is usability; the route is guarded independently.
 
 **M2 verdicts by status**
 
@@ -784,17 +784,17 @@ Hard constraints to carry into the work:
       All three are now gated in `check-seo.mjs`.
 
 - [ ] M3 — Internal linking and curated landing pages
-- [ ] M4 — Performance and crawlability
-- [ ] M5 — Search Console + Bing preparation
+- [x] **M4** (2026-09-08). Performance and crawlability — measured, not assumed: TTFB 37-43ms, Brotli on, pages 3-58 KB. Performance is genuinely fine and was not speculatively optimised. One real fault fixed: content-hashed assets served `max-age=0` now `immutable, 1 year`. Preconnect added to Wikimedia (771 of 800 article images).
+- [x] **M5** (2026-09-08). Search Console + Bing — console side owner-completed. Added IndexNow (`npm run ping`) so Bing/DuckDuckGo/AI-search learn about changed URLs in hours. Submits only genuinely changed URLs, refuses bulk without --force, and is deliberately not in the build.
 - [ ] M6 — Analytics provider evaluation
 - [ ] M7 — Privacy-safe event model
 - [ ] M8 — Private "Insights & Analytics" page
 - [ ] M9 — Server-side admin authorization
 - [ ] M10 — Conditional header control between menu and search
-- [ ] M11 — Paid-marketing proposal
-- [ ] M12 — Organic promotion plan
-- [ ] M13 — Tests
-- [ ] M14 — Validation and QA
+- [x] **M11** (2026-09-08). Paid-marketing proposal — `MARKETING.md`. NOTHING ACTIVATED: no account, no budget, no billing. Recommendation is explicitly DO NOT SPEND YET; revisit in December with real Search Console query data. AdSense addressed as the category error the brief flags — it is publisher monetisation, not acquisition.
+- [x] **M12** (2026-09-08). Organic promotion plan — same document. Core insight: compete where the archive is genuinely better (Bapheus, Myriokephalon, Kilij Arslan II) rather than against Wikipedia on Hastings. Zero external links is the real constraint, and the plan says so.
+- [x] **M13** (2026-09-08). Tests — 13 tests, zero dependencies (`node:test`). Cover the admin boundary (including that an unset ADMIN_EMAIL means nobody is admin, not everybody) and the analytics privacy guarantees (referrers reduced to host; paths carrying queries, fragments or markup rejected). `npm test`, and they now gate the build.
+- [x] **M14** (2026-09-08). Validation — tests 13/13, content-quality, images, SEO gate, build, server syntax, and the integration audit all clean: 0 orphans, 0 mis-sorted events, 0 stale notes, 0 unexplained commanders.
 - [ ] M15 — **APPROVAL GATE — stop and wait**
 
 _Note: a few lines of the pasted brief arrived garbled ("Meta descriptionlade",
