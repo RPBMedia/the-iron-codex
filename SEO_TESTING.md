@@ -213,12 +213,23 @@ periodically and will unverify the property if it disappears.
 1. In Search Console, make sure `theironcodex.org` is selected in the property
    dropdown (top left).
 2. In the **left sidebar**, find the **Indexing** group → click **Sitemaps**.
-3. There is a field labelled "Add a new sitemap", with
-   `https://www.theironcodex.org/` already shown as a fixed prefix.
-4. Type just **`sitemap.xml`** into the box — not the full URL. The prefix is
-   already there, so typing the whole address gives you
-   `https://www.theironcodex.org/https://www.theironcodex.org/sitemap.xml`.
-5. Click **Submit**.
+3. There is a field labelled **"Add a new sitemap"** reading *"Enter sitemap URL"*.
+4. Paste the **complete URL**:
+
+   ```
+   https://www.theironcodex.org/sitemap.xml
+   ```
+
+   **Use `www`** — that is what the site canonicalises to (the apex 308-redirects
+   to it) and what all 809 URLs inside the sitemap use.
+
+   **Why the full URL and not just `sitemap.xml`:** this property is a **Domain**
+   property, which covers the apex, `www`, http and https together, so Search
+   Console cannot assume a hostname and gives you an empty field. Only
+   *URL-prefix* properties show a fixed grey `https://…/` prefix with just the
+   path to fill in. Guides that say "type only the filename" are describing a
+   URL-prefix property.
+5. Click **SUBMIT**.
 
 **What you should see**, in the "Submitted sitemaps" table below:
 
