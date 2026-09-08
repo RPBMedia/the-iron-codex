@@ -34,7 +34,7 @@
  * every valid URL present as a file, anything else falls through to `404.html`,
  * which Vercel serves with an actual 404 status.
  */
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 // The SAME enrichment the API applies, imported rather than reimplemented, so a
 // prerendered page and a live-fetched page can never disagree.
 import { enrichArticle } from '../server/article-enrichment.js'
@@ -67,10 +67,27 @@ const clamp = (s, max = 158) => {
   return `${cut.slice(0, stop > 60 ? stop : max).trim()}…`
 }
 
-/** og:image wants an absolute URL. Commons files can be asked for a wide render. */
+/**
+ * og:image wants an absolute URL — and one small enough to actually be used.
+ *
+ * WhatsApp silently refuses a preview image much over ~600 KB and falls back to
+ * the site favicon. The owner found this on Eric Bloodaxe, whose og:image was a
+ * 2,379 KB PNG: the preview showed the shield icon and no illustration.
+ *
+ * Commons images were never affected because they are requested at
+ * `?width=1200`, which Commons renders at roughly 300-450 KB. Only images we host
+ * ourselves were served at full size, and 22 of 29 were over the limit.
+ *
+ * So for a local image, prefer the derived card in `/og/` when one exists
+ * (scripts/make-og-images.mjs writes them; small originals get none and are used
+ * directly). The article page itself still shows the full-resolution original.
+ */
 const absoluteImage = (src) => {
   if (!src) return `${SITE}/android-chrome-512x512.png`
-  if (src.startsWith('/')) return `${SITE}${src}`
+  if (src.startsWith('/')) {
+    const derived = `/og${src.replace(/\.[a-z0-9]+$/i, '')}.jpg`
+    return existsSync(path.join(distDir, derived)) ? `${SITE}${derived}` : `${SITE}${src}`
+  }
   if (src.includes('commons.wikimedia.org') && !src.includes('width=')) {
     return `${src}${src.includes('?') ? '&' : '?'}width=1200`
   }
@@ -121,6 +138,7 @@ function buildHead({ title, description, canonical, image, type = 'website', noi
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:url" content="${esc(canonical)}" />`,
     `<meta property="og:image" content="${esc(img)}" />`,
+    `<meta property="og:image:alt" content="${esc(title)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
     `<meta name="twitter:title" content="${esc(title)}" />`,
     `<meta name="twitter:description" content="${esc(description)}" />`,

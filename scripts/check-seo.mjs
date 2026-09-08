@@ -8,7 +8,7 @@
  *
  * Run it after `npm run build`:  node scripts/check-seo.mjs
  */
-import { readFileSync, existsSync } from 'node:fs'
+import { readFileSync, existsSync, statSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -122,6 +122,35 @@ for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html',
   if (!html) { fail(rel, 'utility page missing — its route would 404 on direct load'); continue }
   if (!html.includes('content="noindex, follow"')) fail(rel, 'utility page is indexable — it must be noindex')
   if (sitemapUrls.has(`${SITE}/${rel.replace(/\.html$/, '')}`)) fail(rel, 'noindex page is listed in the sitemap')
+}
+
+// --- social images must be small enough to actually be used ---------------
+// WhatsApp refuses a preview image much over ~600 KB and silently falls back to
+// the favicon, which is how this was found. Locally hosted images are the only
+// ones at risk: Commons images are requested at ?width=1200 and come back small.
+const OG_LIMIT = 600 * 1024
+const checkedImages = new Set()
+for (const [collection, arr] of Object.entries(data)) {
+  if (!Array.isArray(arr)) continue
+  for (const a of arr) {
+    const rel = `${pub(collection)}/${a.id}.html`
+    const html = read(rel)
+    if (!html) continue
+    const og = html.match(/property="og:image" content="([^"]+)"/)?.[1]
+    if (!og || !og.startsWith(SITE + '/')) continue
+    const local = og.slice(SITE.length)
+    if (checkedImages.has(local)) continue
+    checkedImages.add(local)
+    const file = path.join(dist, local)
+    if (!existsSync(file)) {
+      fail(rel, `og:image ${local} does not exist in the build`)
+      continue
+    }
+    const bytes = statSync(file).size
+    if (bytes > OG_LIMIT) {
+      fail(rel, `og:image ${local} is ${Math.round(bytes / 1024)} KB — over the ~600 KB social-preview limit, so WhatsApp will show the favicon instead. Run: node scripts/make-og-images.mjs`)
+    }
+  }
 }
 
 // --- deployment config -----------------------------------------------------
