@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "npm install --prefix client && node --test tests/*.test.mjs && node scripts/build-topics.mjs && npm run build --prefix client && node scripts/prerender.mjs && node scripts/check-seo.mjs",
+  "buildCommand": "npm install --prefix client && node scripts/run-tests.mjs && node scripts/build-topics.mjs && npm run build --prefix client && node scripts/prerender.mjs && node scripts/check-seo.mjs",
   "outputDirectory": "client/dist",
   "functions": {
     "api/index.js": {
