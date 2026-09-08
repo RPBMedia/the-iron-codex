@@ -917,8 +917,44 @@ function withDynastyHouse(article) {
 
 app.use(express.static(clientDist))
 
-app.use((_req, res) => {
-  res.sendFile(path.join(clientDist, 'index.html'))
+/**
+ * Not-found handler, and the reason it exists is worth stating.
+ *
+ * Track C M1 found every URL on the site returning 200, including ones that do
+ * not exist — soft 404s at unlimited scale. M2 removed the catch-all rewrite in
+ * vercel.json, and production STILL returned 200: Vercel detects Vite and
+ * injects its own SPA fallback to /index.html, which `"framework": null` did not
+ * disable. Verified live, twice.
+ *
+ * So unmatched paths are now rewritten to this function instead. Vercel checks
+ * the filesystem BEFORE rewrites, so all 815 prerendered pages are still served
+ * straight from the CDN and never reach here — only genuinely unknown URLs do,
+ * which is exactly the traffic that should cost something and should 404.
+ *
+ * The prerendered 404.html is preferred so the page matches the rest of the
+ * site, but it is served from the build output, which is not guaranteed to be
+ * inside the function bundle. The inline fallback keeps the STATUS correct even
+ * if the file is missing — the status is the part search engines act on.
+ */
+const FALLBACK_404 = `<!doctype html>
+<html lang="en"><head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, follow" />
+<title>Page not found — The Iron Codex</title></head>
+<body><h1>Page not found</h1>
+<p>That page does not exist in the archive.</p>
+<p><a href="/">Home</a> &middot; <a href="/archive">Full index</a></p>
+</body></html>`
+
+app.use((req, res) => {
+  if (req.path.startsWith('/api/')) {
+    return res.status(404).json({ message: 'Not found.' })
+  }
+  res.status(404)
+  res.sendFile(path.join(clientDist, '404.html'), (error) => {
+    if (error && !res.headersSent) res.type('html').send(FALLBACK_404)
+    else if (error) res.end()
+  })
 })
 
 // On Vercel (and any serverless host) the platform invokes the exported app

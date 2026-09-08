@@ -122,8 +122,14 @@ const vercel = JSON.parse(readFileSync(path.join(root, 'vercel.json'), 'utf8'))
 if (vercel.cleanUrls !== true) {
   fail('vercel.json', 'cleanUrls must be true or /people/x will not resolve to people/x.html')
 }
-if ((vercel.rewrites ?? []).some((r) => r.source === '/(.*)')) {
-  fail('vercel.json', 'the catch-all rewrite is back — it makes every URL return 200 and defeats the 404 page')
+const catchAll = (vercel.rewrites ?? []).find((r) => r.source === '/(.*)')
+if (catchAll && catchAll.destination !== '/api/index') {
+  fail('vercel.json', `catch-all rewrites to ${catchAll.destination} — anything but /api/index serves a page with status 200 and reinstates soft 404s`)
+}
+if (!catchAll) {
+  // Without it, Vercel's injected Vite SPA fallback takes over and serves the
+  // home page with a 200 for unknown URLs. Verified on production, twice.
+  fail('vercel.json', 'no catch-all rewrite — unmatched URLs fall to Vercel\'s injected SPA fallback and return 200')
 }
 
 // --- report ----------------------------------------------------------------

@@ -4,12 +4,16 @@
   "outputDirectory": "client/dist",
   "functions": {
     "api/index.js": {
-      "includeFiles": "server/data/history.json"
+      "includeFiles": "{server/data/history.json,client/dist/404.html}"
     }
   },
   "rewrites": [
     {
       "source": "/api/(.*)",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/api/index"
     }
   ],
@@ -40,6 +44,5 @@
       "destination": "/orders/teutonic-order",
       "permanent": true
     }
-  ],
-  "framework": null
+  ]
 }
