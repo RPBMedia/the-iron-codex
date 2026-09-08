@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-07 (**Track A COMPLETE — 14/14. Track D CLOSED** as already delivered. Track B M5 parked by the owner. Remaining: content polish, two owner decisions, Track C SEO — none blocking.)_
+_Last updated: 2026-09-08 (**Track C STARTED** — M1 SEO audit done. Track A complete 14/14; Track D closed; auth confirmed working in production on both sign-in paths.)_
 
 ---
 
@@ -603,8 +603,9 @@ quietly accepted**.
 
 ### TRACK C — SEO, analytics and private admin dashboard
 
-Brief received 2026-09-06. **Priority: BELOW Tracks A and B** (owner instruction:
-Weapons & Armor and the Byzantine expansion stay top priority). Not started.
+Brief received 2026-09-06. **Started 2026-09-08** at the owner's instruction, once
+Track A completed, Track D closed, and production sign-in was confirmed working by
+real users on both the Google and password paths.
 
 15 milestones: SEO audit → technical SEO (sitemap, robots, canonicals, metadata
 templates, JSON-LD, breadcrumbs, social) → internal linking and curated landing
@@ -631,6 +632,95 @@ Hard constraints to carry into the work:
   Next.js — so "server-rendered metadata", sitemap generation and noindex all need
   solutions appropriate to that stack. Do not assume framework features that
   aren't there.
+
+- [x] **M1 — SEO audit** (2026-09-08). Audited against **production**, not the
+      repo, because the deployment rewrites are the thing under examination.
+
+      **The site is currently close to invisible to search engines, and the cause
+      is one line of configuration.** `vercel.json` rewrites `/(.*)` to
+      `/index.html`, so every URL on the domain returns the same static shell:
+
+      ```
+      <title>The Iron Codex</title>     ← identical on all 809 pages
+      <div id="root"></div>             ← no content
+      ```
+
+      No `<meta name="description">`, no canonical, no Open Graph, no Twitter
+      card, no JSON-LD, and no client-side substitute either — the client has no
+      `react-helmet`, no `document.title` assignment, and its only dependencies
+      are `react`, `react-dom` and `react-router-dom`. Verified live on
+      `/people/eric-bloodaxe` with a Googlebot user agent.
+
+      **Seven findings, in severity order:**
+
+      1. **All 809 indexable URLs share one title and have no description.**
+         Google can render JS and will eventually see the content, but every
+         social crawler — Twitter/X, Facebook, Slack, Discord, LinkedIn —
+         executes no JavaScript at all. Every share of any article today
+         previews as "The Iron Codex" with no summary and no image.
+      2. **Everything returns HTTP 200, including URLs that do not exist.**
+         `/this-page-does-not-exist` returns 200 with the shell. Soft 404s at
+         unlimited scale; Google treats these as a quality signal against the
+         whole site.
+      3. **`/robots.txt` and `/sitemap.xml` return HTTP 200 with
+         `content-type: text/html`** — the catch-all serving the SPA shell. A
+         sitemap that returns HTML is a hard error in Search Console, and this
+         must be fixed before the property is even submitted. Neither file
+         exists; static files in `client/public/` are served ahead of the
+         rewrite, so adding them is sufficient.
+      4. **Legacy URLs are client-side redirects, so crawlers see duplicates.**
+         `/characters/eric-bloodaxe`, `/artifacts/joyeuse` and
+         `/locations/teutonic-order` all return 200 with identical HTML to their
+         canonical counterparts. React Router redirects after the JS loads;
+         a crawler never sees a 301.
+      5. **No sitemap for 809 URLs.** Inventory measured: 800 detail pages
+         (people 367, locations 171, events 93, weapons-armor 74, houses 70,
+         orders 16, artifacts 9), 7 collection indexes, home and `/index`.
+      6. **Private and utility routes are indexable**: `/search`, `/login`,
+         `/signup`, `/auth/callback`, `/favorites`. Search-results pages in
+         particular are what `noindex` exists for.
+      7. **Performance is not a problem** and should not be optimised
+         speculatively: 396 KB JS / 115 KB gzipped, 43 KB CSS, served from the
+         Vercel edge with `x-vercel-cache: HIT`. Findings 1–6 are worth
+         thousands of times more than any bundle work.
+
+      **ARCHITECTURE DECISION — this is what M2 depends on.** Three ways to get
+      per-page metadata out of a Vite SPA, and they are not close:
+
+      - **(a) Client-side (`react-helmet`).** Rejected. Social crawlers run no
+        JavaScript, so it fixes nothing for sharing, which is half the value.
+      - **(b) Runtime injection in the Express function.** Route HTML requests
+        through the serverless function and inject metadata per request. Works,
+        but gives up static edge caching for every page view, and pays a
+        function invocation for traffic that is currently free.
+      - **(c) Build-time prerendering — RECOMMENDED.** A post-build script writes
+        one static HTML file per URL: the existing shell plus a real `<title>`,
+        description, canonical, OG/Twitter tags, JSON-LD, and the article's
+        summary as crawlable text inside `#root`. React replaces `#root` on
+        mount, so the SPA is unchanged for users.
+
+        The decisive argument is that **it costs nothing in content freshness**:
+        `history.json` is already bundled into the deployment via
+        `includeFiles`, so a content change already requires a redeploy today.
+        Prerendering keeps static edge caching, adds no runtime cost, needs no
+        React SSR, and puts real text in the HTML for crawlers that do not run
+        JS. 809 small files is a non-issue for the build.
+
+- [ ] M2 — Technical SEO: prerendered metadata, sitemap, robots, canonicals,
+      JSON-LD, social cards, real 404s, 301s for the legacy URLs
+- [ ] M3 — Internal linking and curated landing pages
+- [ ] M4 — Performance and crawlability
+- [ ] M5 — Search Console + Bing preparation
+- [ ] M6 — Analytics provider evaluation
+- [ ] M7 — Privacy-safe event model
+- [ ] M8 — Private "Insights & Analytics" page
+- [ ] M9 — Server-side admin authorization
+- [ ] M10 — Conditional header control between menu and search
+- [ ] M11 — Paid-marketing proposal
+- [ ] M12 — Organic promotion plan
+- [ ] M13 — Tests
+- [ ] M14 — Validation and QA
+- [ ] M15 — **APPROVAL GATE — stop and wait**
 
 _Note: a few lines of the pasted brief arrived garbled ("Meta descriptionlade",
 "Server-rendered content availabilityFox", "Internal links/antlr", and a stray
