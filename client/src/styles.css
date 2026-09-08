@@ -3174,3 +3174,92 @@ a.tree-person:hover .tree-person-name {
   padding: 8px;
   background: #111116;
 }
+
+/* ---------------------------------------------------------------------------
+   Topic landing pages (Track C M3).
+
+   Kept deliberately plain: these pages are dense lists whose job is to get a
+   reader to the right article quickly, so the styling gets out of the way of the
+   scanning. The card grid reuses `.list-grid` from the archive pages.
+   --------------------------------------------------------------------------- */
+
+.topic-card {
+  display: block;
+  padding: 22px 24px;
+  border: 1px solid rgba(215, 217, 221, 0.25);
+  border-radius: 10px;
+  background: rgba(20, 20, 24, 0.55);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.topic-card:hover,
+.topic-card:focus-visible {
+  border-color: var(--gold-soft);
+  background: rgba(20, 20, 24, 0.78);
+}
+
+.topic-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.35rem;
+  color: var(--paper, #f2eee4);
+}
+
+.topic-card p {
+  margin: 0 0 8px;
+  font-size: 0.94rem;
+}
+
+.topic-group {
+  margin-top: 42px;
+}
+
+.topic-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.topic-list li {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(215, 217, 221, 0.14);
+}
+
+.topic-list a {
+  font-weight: 600;
+}
+
+/* The summary is the reason a reader picks one link over another, so it sits on
+   its own line rather than being crammed alongside the title. */
+.topic-list-summary {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  opacity: 0.72;
+}
+
+/* "Part of <subject>" on an article page — the back-link that makes the topic
+   clusters bidirectional. */
+.article-topics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 34px 0 0;
+}
+
+.article-topic-link {
+  padding: 5px 12px;
+  border: 1px solid rgba(215, 217, 221, 0.3);
+  border-radius: 999px;
+  font-size: 0.88rem;
+  text-decoration: none;
+}
+
+.article-topic-link:hover,
+.article-topic-link:focus-visible {
+  border-color: var(--gold-soft);
+}

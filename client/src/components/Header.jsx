@@ -12,6 +12,7 @@ const primaryNavigation = [
   { label: 'Artifacts', to: '/artifacts' },
   { label: 'Weapons & Armor', to: '/weapons-armor' },
   { label: 'Military Orders', to: '/orders' },
+  { label: 'Topics', to: '/topics' },
   { label: 'Index', to: '/archive' }
 ]
 

@@ -9,6 +9,7 @@ import AuthCallback from './pages/AuthCallback.jsx'
 import AuthPage from './pages/AuthPage.jsx'
 import FavoritesPage from './pages/FavoritesPage.jsx'
 import IndexPage from './pages/IndexPage.jsx'
+import TopicPage, { TopicsIndex } from './pages/TopicPage.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 
 export default function App() {
@@ -33,6 +34,8 @@ export default function App() {
             <Route path="/orders" element={<CollectionPage collection="orders" />} />
             <Route path="/locations/teutonic-order" element={<Navigate to="/orders/teutonic-order" replace />} />
             <Route path="/archive" element={<IndexPage />} />
+            <Route path="/topics" element={<TopicsIndex />} />
+            <Route path="/topics/:slug" element={<TopicPage />} />
             {/* /index cannot be prerendered: clean-URL resolution maps it to the
                 ROOT index.html, which would serve the home page's metadata. Vercel
                 301s it to /archive in production; this keeps local dev honest. */}

@@ -124,6 +124,31 @@ for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html',
   if (sitemapUrls.has(`${SITE}/${rel.replace(/\.html$/, '')}`)) fail(rel, 'noindex page is listed in the sitemap')
 }
 
+// --- topic landing pages ---------------------------------------------------
+// These carry real prose as well as links, because a page that is only a list is
+// thin content whatever the links are. The 400-character floor enforces that.
+const topicsFile = path.join(root, 'server', 'data', 'topics.json')
+if (existsSync(topicsFile)) {
+  const { topics, topicsByArticle } = JSON.parse(readFileSync(topicsFile, 'utf8'))
+  if (!read('topics.html')) fail('topics.html', 'topics index missing')
+  else if (!sitemapUrls.has(`${SITE}/topics`)) fail('topics.html', 'topics index not in sitemap')
+
+  for (const t of topics) {
+    const rel = `topics/${t.slug}.html`
+    const html = read(rel)
+    if (!html) { fail(rel, 'topic page missing'); continue }
+    if (!sitemapUrls.has(`${SITE}/topics/${t.slug}`)) fail(rel, 'topic page not in sitemap')
+    const body = html.match(/<div id="root">([\s\S]*?)<\/div>\s*<\/body>/)?.[1] ?? ''
+    const prose = t.intro.join(' ')
+    if (prose.length < 400) fail(rel, `topic prose is ${prose.length} chars — under the 400 minimum, which makes it thin content`)
+    const linked = (body.match(/<a href="\//g) ?? []).length
+    if (linked < 10) fail(rel, `topic page links only ${linked} articles`)
+  }
+  if (Object.keys(topicsByArticle).length < 100) {
+    fail('topics.json', `only ${Object.keys(topicsByArticle).length} articles link back to a subject — the clusters are meant to be bidirectional`)
+  }
+}
+
 // --- social images must be small enough to actually be used ---------------
 // WhatsApp refuses a preview image much over ~600 KB and silently falls back to
 // the favicon, which is how this was found. Locally hosted images are the only

@@ -1,0 +1,4067 @@
+{
+  "topics": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age",
+      "heading": "The Viking Age",
+      "blurb": "The Scandinavian expansion of the eighth to eleventh centuries: the kings, the battles, the ships and the weapons.",
+      "intro": [
+        "The Viking Age is conventionally dated from the raid on Lindisfarne in 793 to the death of Harald Hardrada at Stamford Bridge in 1066 — a span of less than three centuries in which people from a thinly populated northern periphery reached Newfoundland, Baghdad and the walls of Constantinople.",
+        "The word itself is a problem the archive takes seriously. \"Viking\" in the sources is closer to an activity than an identity: most Scandinavians of the period farmed, and the raiders who gave the age its name were a minority pursuing a seasonal trade. What made them formidable was not ferocity, which their victims had met before, but the ship — a shallow-draught hull that could cross open sea and then row up a river, which meant no monastery, town or royal hall within reach of navigable water was safe.",
+        "The political consequences outlast the raiding by centuries. Scandinavian settlement reshaped England, produced the Duchy of Normandy and through it the Norman conquests of England and Sicily, founded the Rus principalities that became Russia and Ukraine, and supplied the Byzantine emperors with the Varangian Guard. The unification of Norway, Denmark and Sweden into kingdoms happened in the same period and largely because of it.",
+        "What follows is everything the archive holds on the period: the rulers who unified the northern kingdoms and the ones who failed, the battles that decided them, the dynasties that came out of them, and the arms and armour the age is remembered for."
+      ],
+      "members": {
+        "people": [
+          {
+            "id": "cnut-the-great",
+            "name": "Cnut the Great",
+            "depth": 0,
+            "summary": "Danish king who ruled a North Sea empire including England, Denmark, and Norway."
+          },
+          {
+            "id": "eric-bloodaxe",
+            "name": "Eric Bloodaxe",
+            "depth": 0,
+            "summary": "Eric Bloodaxe was a tenth-century Norwegian king and the last independent ruler of Viking York, whose career is known mostly through Icelandic sagas written three centuries after his death."
+          },
+          {
+            "id": "guthrum",
+            "name": "Guthrum",
+            "depth": 0,
+            "summary": "Danish leader of the Great Heathen Army who nearly destroyed Wessex in 878, was defeated by Alfred the Great at Edington, accepted baptism as Æthelstan, and ruled East Anglia as a Christian king until his death around 890."
+          },
+          {
+            "id": "harald-fairhair",
+            "name": "Harald Fairhair",
+            "depth": 0,
+            "summary": "Harald Fairhair was legendary-traditional Norwegian king associated with the unification of Norway, though the details depend heavily on later saga tradition."
+          },
+          {
+            "id": "harald-hardrada",
+            "name": "Harald Hardrada",
+            "depth": 0,
+            "summary": "Harald Hardrada was king of Norway whose career stretched from Byzantium to Stamford Bridge, where he died invading England in 1066."
+          },
+          {
+            "id": "olaf-tryggvason",
+            "name": "Olaf Tryggvason",
+            "depth": 0,
+            "summary": "Olaf Tryggvason was Norwegian king remembered for forceful Christianization and his death at the Battle of Svolder."
+          },
+          {
+            "id": "sweyn-forkbeard",
+            "name": "Sweyn Forkbeard",
+            "depth": 0,
+            "summary": "Danish king and father of Cnut the Great who briefly ruled England after conquest."
+          },
+          {
+            "id": "aethelstan",
+            "name": "Æthelstan",
+            "depth": 1,
+            "summary": "First king of all England (924–939), grandson of Alfred the Great, who conquered Northumbria and won the decisive Battle of Brunanburh to forge a single English kingdom."
+          },
+          {
+            "id": "alfred-the-great",
+            "name": "Alfred the Great",
+            "depth": 1,
+            "summary": "King of Wessex who resisted Viking conquest and promoted learning and reform."
+          },
+          {
+            "id": "edward-the-elder",
+            "name": "Edward the Elder",
+            "depth": 1,
+            "summary": "Edward the Elder, king of the Anglo-Saxons from 899 to 924, conquered the Danish-held east midlands and East Anglia with his sister Æthelflæd, extending West Saxon power over most of England south of the Humber."
+          },
+          {
+            "id": "haakon-the-good",
+            "name": "Haakon the Good",
+            "depth": 1,
+            "summary": "Haakon the Good was Norwegian king fostered in England, remembered for attempts to introduce Christianity and for conflicts with Eric Bloodaxe’s sons."
+          },
+          {
+            "id": "harald-bluetooth",
+            "name": "Harald Bluetooth",
+            "depth": 1,
+            "summary": "Harald Bluetooth was a tenth-century ruler remembered for consolidating Danish kingship, ruling parts of Norway, and promoting Christianity."
+          },
+          {
+            "id": "harold-godwinson",
+            "name": "Harold Godwinson",
+            "depth": 1,
+            "summary": "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings."
+          },
+          {
+            "id": "magnus-the-good",
+            "name": "Magnus the Good",
+            "depth": 1,
+            "summary": "Magnus the Good was son of Saint Olaf who became king of Norway and later Denmark, briefly joining the two crowns."
+          },
+          {
+            "id": "olaf-guthfrithson",
+            "name": "Olaf Guthfrithson",
+            "depth": 1,
+            "summary": "Norse-Gael king of Dublin who led the great coalition beaten at Brunanburh in 937, then seized York and the Five Boroughs after Æthelstan's death — and died in 941 with a Norse kingdom spanning the Irish Sea."
+          },
+          {
+            "id": "olaf-ii-haraldsson",
+            "name": "Olaf II Haraldsson",
+            "depth": 1,
+            "summary": "Olaf II Haraldsson was king of Norway whose death at Stiklestad and later cult made him Norway’s royal saint."
+          },
+          {
+            "id": "ragnar-lothbrok",
+            "name": "Ragnar Lothbrok",
+            "depth": 1,
+            "summary": "Legendary Viking hero and ruler associated with raids, sagas, and the sons who invaded England."
+          },
+          {
+            "id": "tostig-godwinson",
+            "name": "Tostig Godwinson",
+            "depth": 1,
+            "summary": "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England."
+          }
+        ],
+        "events": [
+          {
+            "id": "battle-of-brunanburh",
+            "name": "Battle of Brunanburh",
+            "depth": 0,
+            "summary": "Æthelstan, first king of all England, destroyed a great coalition of Norse Dublin, Scots, and Strathclyde Britons at Brunanburh in 937 — celebrated in the Old English poem as the age's bloodiest victory."
+          },
+          {
+            "id": "battle-of-edington",
+            "name": "Battle of Edington",
+            "depth": 0,
+            "summary": "Alfred the Great defeated the Danish Great Heathen Army under Guthrum at Edington in 878, saving Wessex and securing the peace and baptism that shaped a united England."
+          },
+          {
+            "id": "battle-of-hafrsfjord",
+            "name": "Battle of Hafrsfjord",
+            "depth": 0,
+            "summary": "The sea-battle of Hafrsfjord, traditionally dated around 872, is remembered in saga tradition as the victory by which Harald Fairhair broke his rivals and unified Norway under a single king."
+          },
+          {
+            "id": "battle-of-stamford-bridge",
+            "name": "Battle of Stamford Bridge",
+            "depth": 0,
+            "summary": "Harold Godwinson defeated Harald Hardrada near York days before marching south to face William of Normandy."
+          },
+          {
+            "id": "battle-of-stiklestad",
+            "name": "Battle of Stiklestad",
+            "depth": 0,
+            "summary": "The battle in 1030 where Olaf II Haraldsson was killed, later becoming central to the cult of Saint Olaf."
+          },
+          {
+            "id": "battle-of-svolder",
+            "name": "Battle of Svolder",
+            "depth": 0,
+            "summary": "A naval battle in which Olaf Tryggvason of Norway was defeated and disappeared or died, according to saga tradition."
+          },
+          {
+            "id": "battle-of-fulford",
+            "name": "Battle of Fulford",
+            "depth": 1,
+            "summary": "Harald Hardrada and Tostig Godwinson defeated northern English forces near York shortly before Stamford Bridge."
+          },
+          {
+            "id": "battle-of-hastings",
+            "name": "Battle of Hastings",
+            "depth": 1,
+            "summary": "William of Normandy defeated Harold Godwinson near Hastings in 1066, opening the way for the Norman Conquest of England."
+          }
+        ],
+        "houses": [
+          {
+            "id": "house-of-fairhair",
+            "name": "House of Fairhair",
+            "depth": 0,
+            "summary": "The traditional dynasty of the unifiers of Norway, from Harald Fairhair through Saint Olaf and Harald Hardrada."
+          },
+          {
+            "id": "house-of-jelling",
+            "name": "House of Jelling",
+            "depth": 0,
+            "summary": "The Viking-age dynasty of Gorm the Old that unified Denmark, converted it to Christianity, and under Cnut the Great ruled a North Sea empire including England."
+          },
+          {
+            "id": "house-of-ui-imair",
+            "name": "Uí Ímair",
+            "depth": 0,
+            "summary": "The dominant Norse-Gaelic dynasty of the Viking Age Irish Sea — the \"grandsons of Ívarr,\" kings of Dublin and repeatedly of York."
+          },
+          {
+            "id": "house-of-wessex",
+            "name": "House of Wessex",
+            "depth": 1,
+            "summary": "The West Saxon royal line that resisted the Vikings under Alfred the Great and united the English kingdoms into a single realm of England."
+          }
+        ],
+        "weapons-armor": [
+          {
+            "id": "dane-axe",
+            "name": "Dane Axe",
+            "depth": 0,
+            "summary": "The Dane axe was a long-hafted axe associated with late Viking Age and Anglo-Danish elite warriors, including housecarls in eleventh-century England."
+          },
+          {
+            "id": "gjermundbu-helmet",
+            "name": "Gjermundbu Helmet",
+            "depth": 0,
+            "summary": "The Gjermundbu helmet is the only reasonably complete Viking-age helmet ever found, recovered from a Norwegian burial mound in 1943."
+          },
+          {
+            "id": "round-shield",
+            "name": "Round Shield",
+            "depth": 0,
+            "summary": "The round shield was the universal defence of the early medieval North: a thin board of butted planks with an iron boss, held in one fist at the centre."
+          },
+          {
+            "id": "sutton-hoo-helmet",
+            "name": "Sutton Hoo Helmet",
+            "depth": 0,
+            "summary": "The Sutton Hoo Helmet is an early seventh-century Anglo-Saxon helmet from the elite ship burial at Sutton Hoo in Suffolk."
+          },
+          {
+            "id": "viking-sword",
+            "name": "Viking Sword",
+            "depth": 0,
+            "summary": "The Viking sword was an elite early medieval weapon used across Scandinavia, the British Isles, and the Frankish world during the Viking Age."
+          },
+          {
+            "id": "battle-axe",
+            "name": "Battle Axe",
+            "depth": 1,
+            "summary": "The battle axe was a broad family of medieval axe weapons, ranging from compact one-handed forms to larger battlefield axes."
+          },
+          {
+            "id": "buckler",
+            "name": "Buckler",
+            "depth": 1,
+            "summary": "The buckler was a small hand-held shield used with swords, knives, and other sidearms."
+          },
+          {
+            "id": "coppergate-helmet",
+            "name": "Coppergate Helmet",
+            "depth": 1,
+            "summary": "The Coppergate helmet is an eighth-century Anglo-Saxon helmet found in York in 1982, and the best-preserved example of its kind."
+          },
+          {
+            "id": "kite-shield",
+            "name": "Kite Shield",
+            "depth": 1,
+            "summary": "The kite shield was a long, tapering shield strongly associated with eleventh- and twelfth-century cavalry and infantry."
+          },
+          {
+            "id": "mail-armor",
+            "name": "Mail Armor",
+            "depth": 1,
+            "summary": "Mail armor used thousands of interlinked metal rings to protect the body while preserving flexibility."
+          },
+          {
+            "id": "nasal-helmet",
+            "name": "Nasal Helmet",
+            "depth": 1,
+            "summary": "The nasal helmet protected the skull and nose while leaving the eyes and mouth open for visibility and breathing."
+          },
+          {
+            "id": "seax",
+            "name": "Seax",
+            "depth": 1,
+            "summary": "The seax was a single-edged blade used in early medieval northwestern Europe as a tool, sidearm, and status object."
+          },
+          {
+            "id": "shield",
+            "name": "Shield",
+            "depth": 1,
+            "summary": "The shield was a defensive tool and visual marker that changed dramatically across the medieval period."
+          },
+          {
+            "id": "spangenhelm",
+            "name": "Spangenhelm",
+            "depth": 1,
+            "summary": "The spangenhelm is a helmet built from separate iron plates riveted into a framework of bands, the dominant construction of the early medieval centuries."
+          },
+          {
+            "id": "spear",
+            "name": "Spear",
+            "depth": 1,
+            "summary": "The spear was one of the most common weapons of medieval Europe because it was cheaper than a sword, useful in formation, and adaptable to infantry or cavalry."
+          },
+          {
+            "id": "ulfberht-swords",
+            "name": "Ulfberht Swords",
+            "depth": 1,
+            "summary": "Ulfberht swords are early medieval blades carrying variants of the +VLFBERHT+ inscription, found across northern and eastern Europe."
+          }
+        ],
+        "locations": [
+          {
+            "id": "gainsborough",
+            "name": "Gainsborough",
+            "depth": 1,
+            "summary": "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard."
+          },
+          {
+            "id": "kingdom-of-denmark",
+            "name": "Kingdom of Denmark",
+            "depth": 1,
+            "summary": "A Scandinavian kingdom central to Viking, North Sea, and Kalmar Union politics."
+          },
+          {
+            "id": "kingdom-of-england",
+            "name": "Kingdom of England",
+            "depth": 1,
+            "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest."
+          },
+          {
+            "id": "kingdom-of-norway",
+            "name": "Kingdom of Norway",
+            "depth": 1,
+            "summary": "A Scandinavian kingdom linked to Viking expansion, crusading, and the Kalmar Union."
+          },
+          {
+            "id": "kingdom-of-scotland",
+            "name": "Kingdom of Scotland",
+            "depth": 1,
+            "summary": "A northern medieval kingdom shaped by Gaelic, Pictish, Norse, and Anglo-Norman influences."
+          },
+          {
+            "id": "kingdom-of-wessex",
+            "name": "Kingdom of Wessex",
+            "depth": 1,
+            "summary": "An Anglo-Saxon kingdom that became the base for Alfred the Great and later English unification."
+          },
+          {
+            "id": "north-sea-empire",
+            "name": "North Sea Empire",
+            "depth": 1,
+            "summary": "A modern historical term for Cnut’s rule over England, Denmark, Norway, and related territories."
+          },
+          {
+            "id": "northumbria",
+            "name": "Northumbria",
+            "depth": 1,
+            "summary": "An early medieval northern kingdom that became central to both Anglo-Saxon history and Viking legend."
+          },
+          {
+            "id": "rogaland",
+            "name": "Rogaland",
+            "depth": 1,
+            "summary": "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship."
+          },
+          {
+            "id": "shaftesbury",
+            "name": "Shaftesbury",
+            "depth": 1,
+            "summary": "An English town and religious center associated with the death of Cnut the Great."
+          },
+          {
+            "id": "stainmore",
+            "name": "Stainmore",
+            "depth": 1,
+            "summary": "A northern English upland route traditionally associated with Eric Bloodaxe's death."
+          },
+          {
+            "id": "stamford-bridge",
+            "name": "Stamford Bridge",
+            "depth": 1,
+            "summary": "A Yorkshire crossing and battlefield where Harold Godwinson defeated Harald Hardrada in 1066."
+          },
+          {
+            "id": "stiklestad",
+            "name": "Stiklestad",
+            "depth": 1,
+            "summary": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult."
+          },
+          {
+            "id": "svolder",
+            "name": "Svolder",
+            "depth": 1,
+            "summary": "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000."
+          },
+          {
+            "id": "winchester-cathedral",
+            "name": "Winchester Cathedral",
+            "depth": 1,
+            "summary": "A major English cathedral and burial site connected to Anglo-Saxon and later medieval kingship."
+          }
+        ]
+      },
+      "count": 61
+    },
+    {
+      "slug": "crusades",
+      "title": "The Crusades",
+      "heading": "The Crusades",
+      "blurb": "Two centuries of holy war in the eastern Mediterranean: the campaigns, the crusader states, the military orders and the people on both sides.",
+      "intro": [
+        "Between Urban II's sermon at Clermont in 1095 and the fall of Acre in 1291, western Europe repeatedly sent armies to the eastern Mediterranean. They founded four states there, lost them, and in the process reshaped the politics of Europe, the Levant and Byzantium — none of it in the way anyone intended.",
+        "The archive treats the crusades as a series of specific campaigns rather than a single movement, because that is what they were: differently motivated, differently financed, differently led, and united mainly by a papal grant of indulgence. The First Crusade succeeded beyond any reasonable expectation. The Third recovered the coast but not Jerusalem. The Fourth never reached the Holy Land at all and sacked Constantinople instead, which did more lasting damage to Christendom than any Muslim victory.",
+        "The military orders are the crusades' most distinctive institutional creation — the Templars, the Hospitallers, the Teutonic Knights and several smaller brotherhoods, monastic communities that were also standing armies. They outlived the crusader states, and two of them outlived the crusades entirely.",
+        "Coverage here runs to both sides. Saladin and Kerbogha are treated as seriously as Richard the Lionheart, and the Fourth Crusade is covered from the Byzantine end as well as the Venetian."
+      ],
+      "members": {
+        "events": [
+          {
+            "id": "battle-of-hattin",
+            "name": "Battle of Hattin",
+            "depth": 0,
+            "summary": "Saladin destroyed the army of the Kingdom of Jerusalem at Hattin in 1187, opening the way to his recapture of Jerusalem and triggering the Third Crusade."
+          },
+          {
+            "id": "first-crusade-called",
+            "name": "First Crusade Proclaimed",
+            "depth": 0,
+            "summary": "At Clermont in November 1095 Urban II called on the knighthood of western Europe to march to the aid of the eastern Christians and recover Jerusalem — and got a far larger response than he had asked for."
+          },
+          {
+            "id": "fourth-crusade",
+            "name": "Fourth Crusade",
+            "depth": 0,
+            "summary": "The Fourth Crusade set out in 1202 to attack Egypt, could not pay the Venetians for its fleet, and ended by sacking Constantinople in 1204 without ever reaching the Holy Land."
+          },
+          {
+            "id": "siege-of-constantinople-1204",
+            "name": "Siege and Sack of Constantinople",
+            "depth": 0,
+            "summary": "In April 1204 the army of the Fourth Crusade stormed Constantinople and sacked it for three days, the first time in nine centuries the city had been taken by an enemy."
+          },
+          {
+            "id": "third-crusade",
+            "name": "Third Crusade",
+            "depth": 0,
+            "summary": "The Third Crusade (1189–1192) was western Europe's answer to Saladin's capture of Jerusalem: three kings set out, one drowned, one went home, and the third failed to take the city and settled for access to it."
+          },
+          {
+            "id": "battle-of-arsuf",
+            "name": "Battle of Arsuf",
+            "depth": 1,
+            "summary": "Richard the Lionheart defeated Saladin at Arsuf in 1191, the first major field victory of the Third Crusade and proof that Saladin could be beaten in open battle."
+          },
+          {
+            "id": "battle-of-grunwald",
+            "name": "Battle of Grunwald",
+            "depth": 1,
+            "summary": "Polish-Lithuanian forces defeated the Teutonic Order in one of the largest battles of medieval Europe."
+          },
+          {
+            "id": "battle-of-las-navas-de-tolosa",
+            "name": "Battle of Las Navas de Tolosa",
+            "depth": 1,
+            "summary": "A coalition of Iberian Christian kingdoms defeated the Almohads, marking a major shift in the balance of power in Iberia."
+          },
+          {
+            "id": "battle-of-pelagonia",
+            "name": "Battle of Pelagonia",
+            "depth": 1,
+            "summary": "In 1259 the army of Nicaea destroyed a coalition of Epirus, Achaea and Sicily at Pelagonia, capturing the prince of Achaea and opening the road to Constantinople."
+          },
+          {
+            "id": "fall-of-constantinople",
+            "name": "Fall of Constantinople",
+            "depth": 1,
+            "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire."
+          },
+          {
+            "id": "recovery-of-constantinople",
+            "name": "Recovery of Constantinople",
+            "depth": 1,
+            "summary": "On 25 July 1261 a Byzantine force of about eight hundred men walked into Constantinople through an undefended gate while the Latin fleet was away. The empire was restored without a battle."
+          }
+        ],
+        "locations": [
+          {
+            "id": "crusader-states",
+            "name": "Crusader States",
+            "depth": 0,
+            "summary": "The Crusader States were Latin Christian polities in the eastern Mediterranean whose survival depended on fortifications, maritime supply, diplomacy, and warfare with Muslim neighbors."
+          },
+          {
+            "id": "kingdom-of-jerusalem",
+            "name": "Kingdom of Jerusalem",
+            "depth": 0,
+            "summary": "A crusader kingdom founded after the First Crusade and central to Latin Christian politics in the eastern Mediterranean."
+          },
+          {
+            "id": "ayyubid-sultanate",
+            "name": "Ayyubid Sultanate",
+            "depth": 1,
+            "summary": "The Ayyubid Sultanate was the dynasty founded by Saladin, ruling Egypt and Syria while confronting the crusader states and the armies of the Third Crusade."
+          },
+          {
+            "id": "byzantine-empire",
+            "name": "Byzantine Empire",
+            "depth": 1,
+            "summary": "The eastern Roman Empire centered on Constantinople until its fall in 1453."
+          },
+          {
+            "id": "chalus",
+            "name": "Chalus",
+            "depth": 1,
+            "summary": "A castle town in Aquitaine remembered as the place where Richard the Lionheart was mortally wounded."
+          },
+          {
+            "id": "constantinople",
+            "name": "Constantinople",
+            "depth": 1,
+            "summary": "Constantinople was the capital of the Roman and Byzantine empires for eleven centuries — the largest, richest and most heavily fortified city in medieval Europe, and the one every power around it wanted."
+          },
+          {
+            "id": "damascus",
+            "name": "Damascus",
+            "depth": 1,
+            "summary": "A major Syrian city and Ayyubid political center where Saladin died and was buried."
+          },
+          {
+            "id": "empire-of-nicaea",
+            "name": "Empire of Nicaea",
+            "depth": 1,
+            "summary": "The Empire of Nicaea was the Byzantine government in exile from 1204 to 1261, the strongest of the successor states, and the one that took Constantinople back."
+          },
+          {
+            "id": "grand-duchy-of-lithuania",
+            "name": "Grand Duchy of Lithuania",
+            "depth": 1,
+            "summary": "A major eastern European polity allied with Poland at Grunwald."
+          },
+          {
+            "id": "kingdom-of-england",
+            "name": "Kingdom of England",
+            "depth": 1,
+            "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest."
+          },
+          {
+            "id": "kingdom-of-france",
+            "name": "Kingdom of France",
+            "depth": 1,
+            "summary": "The medieval Kingdom of France grew from West Francia into one of Europe’s strongest monarchies under the Capetian and Valois dynasties."
+          },
+          {
+            "id": "kingdom-of-poland",
+            "name": "Kingdom of Poland",
+            "depth": 1,
+            "summary": "A medieval kingdom central to central and eastern European politics."
+          },
+          {
+            "id": "latin-empire",
+            "name": "Latin Empire",
+            "depth": 1,
+            "summary": "The Latin Empire was the crusader state established at Constantinople in 1204, which spent fifty-seven years insolvent, shrinking and selling its relics, and fell to eight hundred men in 1261."
+          },
+          {
+            "id": "oxford",
+            "name": "Oxford",
+            "depth": 1,
+            "summary": "An English town associated with royal residence, learning, and Richard the Lionheart's birth."
+          },
+          {
+            "id": "papacy",
+            "name": "Papacy",
+            "depth": 1,
+            "summary": "The office and institutional authority of the bishop of Rome in medieval Latin Christendom."
+          },
+          {
+            "id": "principality-of-achaea",
+            "name": "Principality of Achaea",
+            "depth": 1,
+            "summary": "The Principality of Achaea was the crusader state in the Peloponnese, the most successful of the Latin conquests in Greece, and the one that lost Mystras to Byzantium as a prince's ransom."
+          },
+          {
+            "id": "seljuk-turks",
+            "name": "Seljuk Turks",
+            "depth": 1,
+            "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
+          },
+          {
+            "id": "tikrit",
+            "name": "Tikrit",
+            "depth": 1,
+            "summary": "A city on the Tigris remembered as the birthplace of Saladin."
+          }
+        ],
+        "orders": [
+          {
+            "id": "knights-hospitaller",
+            "name": "Knights Hospitaller",
+            "depth": 0,
+            "summary": "The Order of St John of Jerusalem began as a hospital for sick and poor pilgrims and became a military order rivalled only by the Templars — nurses and knights at once. Unlike the Templars, it survived the fall of the Holy Land, reinventing itself as the sovereign naval power of Rhodes and later Malta, and it endures today as the Sovereign Military Order of Malta."
+          },
+          {
+            "id": "knights-templar",
+            "name": "Knights Templar",
+            "depth": 0,
+            "summary": "The Poor Fellow-Soldiers of Christ and of the Temple of Solomon — founded in Jerusalem around 1119 to protect pilgrims — grew into the most famous of the military religious orders: an elite standing army of warrior-monks, a pan-European banking network, and, after 1307, the victims of the most notorious heresy trial of the Middle Ages."
+          },
+          {
+            "id": "order-of-saint-lazarus",
+            "name": "Order of Saint Lazarus",
+            "depth": 0,
+            "summary": "The Order of Saint Lazarus grew from a leper hospital outside the walls of Jerusalem into the strangest of the military orders: a brotherhood that cared for lepers and received leprous knights from the Templars and Hospitallers into its own ranks. Small and often overlooked, it fought and bled in the Crusader states, then survived in the West as a hospitaller order long after the Holy Land was lost."
+          },
+          {
+            "id": "order-of-st-thomas-of-acre",
+            "name": "Order of St Thomas of Acre",
+            "depth": 0,
+            "summary": "The Order of St Thomas of Acre was the only English military order — a small brotherhood founded during the Third Crusade to bury and care for English crusaders and dedicated to St Thomas Becket. Never a major fighting force, it outlived the Holy Land as a religious and charitable order in London until the Reformation."
+          },
+          {
+            "id": "teutonic-order",
+            "name": "Teutonic Order",
+            "depth": 0,
+            "summary": "The Teutonic Order was a crusading military order that built a territorial state in the Baltic and fought the Polish-Lithuanian coalition at Grunwald."
+          },
+          {
+            "id": "livonian-brothers-of-the-sword",
+            "name": "Livonian Brothers of the Sword",
+            "depth": 1,
+            "summary": "The Livonian Brothers of the Sword were founded in 1202 to conquer and convert pagan Livonia for the bishops of Riga. Brutal and independent, they carved out a crusader state on the eastern Baltic before their army was annihilated at Saule in 1236, after which the survivors were folded into the Teutonic Order."
+          },
+          {
+            "id": "livonian-order",
+            "name": "Livonian Order",
+            "depth": 1,
+            "summary": "The Livonian Order was the semi-autonomous Livonian branch of the Teutonic Order, formed in 1237 from the remnant of the Sword-Brothers. For over three centuries it ruled much of what is now Latvia and Estonia, checking Novgorod at Lake Peipus, weathering defeats like Durbe, and outlasting even the Teutonic state in Prussia before the Livonian War swept it away in 1561."
+          },
+          {
+            "id": "order-of-christ",
+            "name": "Order of Christ",
+            "depth": 1,
+            "summary": "The Order of Christ was founded in 1319 as the direct heir of the Templars in Portugal, inheriting all their property — including Tomar — so that the suppressed Temple lived on under a new name. A century later, under Prince Henry the Navigator, it became the engine and emblem of the Portuguese age of discovery."
+          },
+          {
+            "id": "order-of-dobrzyn",
+            "name": "Order of Dobrzyń",
+            "depth": 1,
+            "summary": "The Order of Dobrzyń was a tiny military order founded around 1216 by the duke of Masovia to defend his lands against the pagan Prussians. Modelled on the Sword-Brothers and never more than a handful of knights, it proved too weak for the task and was swallowed within a generation by the Teutonic Order."
+          },
+          {
+            "id": "order-of-montesa",
+            "name": "Order of Montesa",
+            "depth": 1,
+            "summary": "The Order of Montesa was created in 1317 to inherit the Valencian estates of the suppressed Templars — the Crown of Aragon’s answer to the problem of what to do with the Temple’s wealth. Placed under Calatrava’s rule, it kept the Templars’ defensive role on the Valencian frontier and became the Aragonese counterpart of Portugal’s Order of Christ."
+          },
+          {
+            "id": "order-of-montjoy",
+            "name": "Order of Montjoy",
+            "depth": 1,
+            "summary": "The Order of Montjoy was a short-lived Cistercian military order founded around 1173 by a disaffected Castilian noble, straddling the Holy Land and Iberia. Chronically short of men and money, it was absorbed by the Templars in 1188, and its Spanish remnant was folded into Calatrava — a small order remembered mainly for how quickly the great ones swallowed it."
+          }
+        ],
+        "people": [
+          {
+            "id": "bernard-of-clairvaux",
+            "name": "Bernard of Clairvaux",
+            "depth": 0,
+            "summary": ""
+          },
+          {
+            "id": "enrico-dandolo",
+            "name": "Enrico Dandolo",
+            "depth": 0,
+            "summary": ""
+          },
+          {
+            "id": "kerbogha",
+            "name": "Kerbogha",
+            "depth": 0,
+            "summary": ""
+          },
+          {
+            "id": "richard-the-lionheart",
+            "name": "Richard the Lionheart",
+            "depth": 0,
+            "summary": "King of England and major commander of the Third Crusade."
+          },
+          {
+            "id": "saladin",
+            "name": "Saladin",
+            "depth": 0,
+            "summary": "Ayyubid sultan who captured Jerusalem and opposed the Third Crusade."
+          },
+          {
+            "id": "adhemar-of-le-puy",
+            "name": "Adhemar of Le Puy",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "baldwin-i-of-jerusalem",
+            "name": "Baldwin I of Jerusalem",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "baldwin-ii-of-jerusalem",
+            "name": "Baldwin II of Jerusalem",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "baldwin-iv-of-jerusalem",
+            "name": "Baldwin IV of Jerusalem",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "baybars",
+            "name": "Baybars",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "bohemond-i-of-antioch",
+            "name": "Bohemond I of Antioch",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "frederick-i-barbarossa",
+            "name": "Frederick I Barbarossa",
+            "depth": 1,
+            "summary": "Frederick I Barbarossa was Holy Roman Emperor and one of the most formidable rulers of twelfth-century Europe."
+          },
+          {
+            "id": "frederick-ii-holy-roman-emperor",
+            "name": "Frederick II, Holy Roman Emperor",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "fulcher-of-chartres",
+            "name": "Fulcher of Chartres",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "gerard-thom",
+            "name": "Gerard Thom",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "godfrey-of-bouillon",
+            "name": "Godfrey of Bouillon",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "guy-of-lusignan",
+            "name": "Guy of Lusignan",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "hermann-von-salza",
+            "name": "Hermann von Salza",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "hugh-de-payns",
+            "name": "Hugh de Payns",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "jacques-de-molay",
+            "name": "Jacques de Molay",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "louis-ix-of-france",
+            "name": "Louis IX of France",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "melisende-of-jerusalem",
+            "name": "Melisende of Jerusalem",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "michael-viii-palaiologos",
+            "name": "Michael VIII Palaiologos",
+            "depth": 1,
+            "summary": "Michael VIII recovered Constantinople in 1261 and founded the last Byzantine dynasty. He also blinded the child he ruled for, forced a church union his people hated, and left Anatolia to the Turks."
+          },
+          {
+            "id": "peter-the-hermit",
+            "name": "Peter the Hermit",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "philip-ii-of-france",
+            "name": "Philip II of France",
+            "depth": 1,
+            "summary": "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines."
+          },
+          {
+            "id": "pope-clement-v",
+            "name": "Pope Clement V",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "pope-eugenius-iii",
+            "name": "Pope Eugenius III",
+            "depth": 1,
+            "summary": ""
+          }
+        ],
+        "artifacts": [
+          {
+            "id": "shroud-of-turin",
+            "name": "Shroud of Turin",
+            "depth": 1,
+            "summary": "A linen cloth venerated by some Christians as the burial shroud of Christ."
+          }
+        ],
+        "weapons-armor": [
+          {
+            "id": "arming-sword",
+            "name": "Arming Sword",
+            "depth": 1,
+            "summary": "The arming sword was the familiar single-handed sword of high medieval Europe, carried with a shield or buckler and used by knights, sergeants, and other armed elites."
+          },
+          {
+            "id": "falchion",
+            "name": "Falchion",
+            "depth": 1,
+            "summary": "The falchion was a medieval single-edged sword, often with a broad cutting blade and hilt construction related to other knightly swords."
+          }
+        ]
+      },
+      "count": 70
+    },
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War",
+      "heading": "The Byzantine Empire at War",
+      "blurb": "A thousand years of Roman warfare in the east: the sieges of Constantinople, the reconquests, the defeats, and the emperors who fought them.",
+      "intro": [
+        "The eastern Roman empire outlived the western by almost a thousand years, and spent most of them fighting. The archive covers that span from Justinian's reconquest of Africa and Italy in the 530s to the fall of Constantinople in 1453 — the longest continuous military history of any polity it holds.",
+        "The shape of it is not a straight decline, which is the single most common misreading. The empire lost Syria, Palestine and Egypt to the Arab conquests within a decade of winning a twenty-six-year war against Persia, and then held its remaining territory against two enormous sieges of its capital. It recovered in the tenth century under Nikephoros Phokas and Basil II to become the strongest state in the Mediterranean, lost Anatolia after Manzikert less through the battle than through the civil wars that followed it, recovered again under the Komnenoi, and was destroyed not by an enemy but by a crusade it had helped to provoke.",
+        "Constantinople is the thread. The city was besieged by Avars, Persians, Arabs, Bulgars, Rus and Vikings across nine centuries without falling, and when it did fall in 1204 it fell to allies. The empire restored in 1261 never recovered from that, and the last two centuries are a long defensive contraction against the Ottomans.",
+        "This is the archive's deepest single subject, built out across fourteen milestones of dedicated research."
+      ],
+      "members": {
+        "locations": [
+          {
+            "id": "byzantine-empire",
+            "name": "Byzantine Empire",
+            "depth": 0,
+            "summary": "The eastern Roman Empire centered on Constantinople until its fall in 1453."
+          },
+          {
+            "id": "constantinople",
+            "name": "Constantinople",
+            "depth": 0,
+            "summary": "Constantinople was the capital of the Roman and Byzantine empires for eleven centuries — the largest, richest and most heavily fortified city in medieval Europe, and the one every power around it wanted."
+          },
+          {
+            "id": "rashidun-caliphate",
+            "name": "Rashidun Caliphate",
+            "depth": 0,
+            "summary": "The first Islamic state after the death of Muhammad, ruled by four caliphs between 632 and 661, which took Syria, Egypt and the whole Sasanian Empire in a single generation."
+          },
+          {
+            "id": "sultanate-of-rum",
+            "name": "Sultanate of Rum",
+            "depth": 0,
+            "summary": "The Turkish sultanate that ruled central Anatolia from Konya between 1077 and 1308, carved out of Byzantine territory after Manzikert and named for the Romans it displaced."
+          },
+          {
+            "id": "abbasid-caliphate",
+            "name": "Abbasid Caliphate",
+            "depth": 1,
+            "summary": "The Abbasid Caliphate ruled the Islamic world from 750, moved its capital to Baghdad, presided over the greatest flowering of medieval science and letters, and lost real power long before the Mongols ended it in 1258."
+          },
+          {
+            "id": "antioch",
+            "name": "Antioch",
+            "depth": 1,
+            "summary": "Antioch on the Orontes was one of the great cities of the ancient world, a patriarchal see of the Christian church, and the prize both sides fought over for six centuries of Byzantine and Muslim warfare."
+          },
+          {
+            "id": "avar-khaganate",
+            "name": "Avar Khaganate",
+            "depth": 1,
+            "summary": "The Avar Khaganate ruled the Carpathian basin from the 560s to about 800, extorted a fortune in gold from Constantinople, and was destroyed by Charlemagne."
+          },
+          {
+            "id": "despotate-of-epirus",
+            "name": "Despotate of Epirus",
+            "depth": 1,
+            "summary": "The Despotate of Epirus was the Greek successor state in north-western Greece that briefly held Thessalonica and claimed the empire, and lost both to Bulgaria in a single afternoon in 1230."
+          },
+          {
+            "id": "emirate-of-crete",
+            "name": "Emirate of Crete",
+            "depth": 1,
+            "summary": "The Emirate of Crete was a corsair state founded by Andalusian exiles in the 820s that dominated the Aegean for 135 years, until Nikephoros Phokas took its capital in 961."
+          },
+          {
+            "id": "empire-of-nicaea",
+            "name": "Empire of Nicaea",
+            "depth": 1,
+            "summary": "The Empire of Nicaea was the Byzantine government in exile from 1204 to 1261, the strongest of the successor states, and the one that took Constantinople back."
+          },
+          {
+            "id": "first-bulgarian-empire",
+            "name": "First Bulgarian Empire",
+            "depth": 1,
+            "summary": "The First Bulgarian Empire ruled the eastern Balkans from 681 to 1018, converted to Christianity, gave the Slavs their alphabet, and was annexed by Basil II after a war of thirty years."
+          },
+          {
+            "id": "hamdanid-emirate-of-aleppo",
+            "name": "Hamdanid Emirate of Aleppo",
+            "depth": 1,
+            "summary": "The Hamdanid emirate of Aleppo was the Arab frontier state that fought Byzantium for northern Syria in the tenth century, and the court of the poet al-Mutanabbi and the philosopher al-Farabi."
+          },
+          {
+            "id": "kievan-rus",
+            "name": "Kievan Rus’",
+            "depth": 1,
+            "summary": "A medieval eastern European polity centered on Kyiv, important for trade, dynastic politics, and links between Scandinavia, Byzantium, and the steppe."
+          },
+          {
+            "id": "latin-empire",
+            "name": "Latin Empire",
+            "depth": 1,
+            "summary": "The Latin Empire was the crusader state established at Constantinople in 1204, which spent fifty-seven years insolvent, shrinking and selling its relics, and fell to eight hundred men in 1261."
+          },
+          {
+            "id": "manzikert",
+            "name": "Manzikert",
+            "depth": 1,
+            "summary": "A town and battlefield in eastern Anatolia remembered for the Byzantine defeat of 1071."
+          },
+          {
+            "id": "ostrogothic-kingdom",
+            "name": "Ostrogothic Kingdom",
+            "depth": 1,
+            "summary": "The Ostrogothic Kingdom ruled Italy from 493 to 553, preserving Roman administration under Gothic kings until Justinian's armies destroyed it."
+          },
+          {
+            "id": "ottoman-empire",
+            "name": "Ottoman Empire",
+            "depth": 1,
+            "summary": "A rising imperial power that conquered Constantinople and became central to late medieval European politics."
+          },
+          {
+            "id": "principality-of-achaea",
+            "name": "Principality of Achaea",
+            "depth": 1,
+            "summary": "The Principality of Achaea was the crusader state in the Peloponnese, the most successful of the Latin conquests in Greece, and the one that lost Mystras to Byzantium as a prince's ransom."
+          },
+          {
+            "id": "rome",
+            "name": "Rome",
+            "depth": 1,
+            "summary": "The ancient imperial city and medieval seat of the Papacy, central to western Christian authority."
+          },
+          {
+            "id": "sasanian-empire",
+            "name": "Sasanian Empire",
+            "depth": 1,
+            "summary": "The Sasanian Empire ruled Iran and Mesopotamia from 224 to 651, and was the eastern Roman empire's equal and rival for four centuries."
+          },
+          {
+            "id": "seljuk-turks",
+            "name": "Seljuk Turks",
+            "depth": 1,
+            "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
+          },
+          {
+            "id": "umayyad-caliphate",
+            "name": "Umayyad Caliphate",
+            "depth": 1,
+            "summary": "The caliphal polity whose western governors ruled al-Andalus and campaigned into Gaul."
+          },
+          {
+            "id": "vandal-kingdom",
+            "name": "Vandal Kingdom",
+            "depth": 1,
+            "summary": "The Vandal Kingdom held North Africa and the western Mediterranean islands from 439 to 534, and was the only barbarian successor state to build a serious navy."
+          }
+        ],
+        "events": [
+          {
+            "id": "battle-of-bapheus",
+            "name": "Battle of Bapheus",
+            "depth": 0,
+            "summary": "In 1302 Osman I defeated a Byzantine force near Nicomedia at Bapheus, the first victory in the field by the Ottomans over a Roman army and the beginning of their expansion."
+          },
+          {
+            "id": "battle-of-manzikert",
+            "name": "Battle of Manzikert",
+            "depth": 0,
+            "summary": "Seljuk forces defeated the Byzantine army and captured Emperor Romanos IV, weakening Byzantine authority in Anatolia."
+          },
+          {
+            "id": "battle-of-myriokephalon",
+            "name": "Battle of Myriokephalon",
+            "depth": 0,
+            "summary": "In 1176 Manuel I Komnenos marched on Konya and was ambushed in a pass at Myriokephalon, ending the last serious Byzantine attempt to recover Anatolia."
+          },
+          {
+            "id": "battle-of-pelagonia",
+            "name": "Battle of Pelagonia",
+            "depth": 0,
+            "summary": "In 1259 the army of Nicaea destroyed a coalition of Epirus, Achaea and Sicily at Pelagonia, capturing the prince of Achaea and opening the road to Constantinople."
+          },
+          {
+            "id": "battle-of-yarmouk",
+            "name": "Battle of Yarmouk",
+            "depth": 0,
+            "summary": "In August 636 an Arab army destroyed the Byzantine field army in Syria at the Yarmouk, and the empire lost Syria, Palestine and eventually Egypt permanently."
+          },
+          {
+            "id": "fall-of-constantinople",
+            "name": "Fall of Constantinople",
+            "depth": 0,
+            "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire."
+          },
+          {
+            "id": "gothic-war",
+            "name": "Gothic War",
+            "depth": 0,
+            "summary": "The Gothic War of 535–554 was Justinian's attempt to reconquer Italy. It took nineteen years, destroyed the Ostrogothic kingdom, and ruined Italy in the process."
+          },
+          {
+            "id": "recovery-of-constantinople",
+            "name": "Recovery of Constantinople",
+            "depth": 0,
+            "summary": "On 25 July 1261 a Byzantine force of about eight hundred men walked into Constantinople through an undefended gate while the Latin fleet was away. The empire was restored without a battle."
+          },
+          {
+            "id": "siege-of-constantinople-626",
+            "name": "Siege of Constantinople (626)",
+            "depth": 0,
+            "summary": "Between 29 July and 7 August 626 an Avar army stormed the land walls of Constantinople while a Persian army watched from the Asian shore, unable to cross. The failure broke Avar power and ended Persia's last chance to finish the war."
+          },
+          {
+            "id": "siege-of-constantinople-717",
+            "name": "Siege of Constantinople (717–718)",
+            "depth": 0,
+            "summary": "From August 717 to August 718 an Umayyad army and fleet blockaded Constantinople by land and sea. Greek fire, an exceptional winter, mass defections and a Bulgar attack destroyed the expedition, and the caliphate never tried again."
+          },
+          {
+            "id": "vandalic-war",
+            "name": "Vandalic War",
+            "depth": 0,
+            "summary": "The Vandalic War of 533–534 was Justinian's first war of reconquest, in which Belisarius destroyed the Vandal kingdom of North Africa in a single campaign season."
+          },
+          {
+            "id": "battle-of-ad-decimum",
+            "name": "Battle of Ad Decimum",
+            "depth": 1,
+            "summary": "At Ad Decimum on 13 September 533, Gelimer's plan to trap the Roman column ten miles from Carthage collapsed on timing, and Belisarius won the road to the city."
+          },
+          {
+            "id": "battle-of-akroinon",
+            "name": "Battle of Akroinon",
+            "depth": 1,
+            "summary": "In 740 Leo III and his son Constantine destroyed an Umayyad raiding army at Akroinon in Phrygia, killing both its commanders. It was the last great Umayyad invasion of Anatolia."
+          },
+          {
+            "id": "battle-of-kleidion",
+            "name": "Battle of Kleidion",
+            "depth": 1,
+            "summary": "On 29 July 1014 Basil II destroyed Samuel's army in the Kleidion pass by sending a force over the mountain onto its rear. The mass blinding that followed is the most famous atrocity in Byzantine history — and it is reported by a chronicler writing fifty-five years later."
+          },
+          {
+            "id": "battle-of-lalakaon",
+            "name": "Battle of Lalakaon",
+            "depth": 1,
+            "summary": "On 3 September 863 a Byzantine army under Petronas encircled and destroyed the raiding army of Umar al-Aqta, emir of Melitene, at the river Lalakaon. The emir was killed and the eastern frontier never looked the same."
+          },
+          {
+            "id": "battle-of-levounion",
+            "name": "Battle of Levounion",
+            "depth": 1,
+            "summary": "On 29 April 1091 Alexios I, with forty thousand Cuman allies, annihilated the Pecheneg host at Mount Levounion. Anna Komnene wrote that an entire people was destroyed in a single day."
+          },
+          {
+            "id": "battle-of-nineveh",
+            "name": "Battle of Nineveh",
+            "depth": 1,
+            "summary": "On 12 December 627 Heraclius destroyed the Persian field army near the ruins of Nineveh, opening the road to the royal residences and bringing down Khosrow II."
+          },
+          {
+            "id": "battle-of-sirmium",
+            "name": "Battle of Sirmium",
+            "depth": 1,
+            "summary": "On 8 July 1167 a Byzantine army under Andronikos Kontostephanos destroyed the Hungarian army near Sirmium, forcing Hungary to accept Byzantine overlordship. Manuel I, to whom the victory is usually credited, was not there."
+          },
+          {
+            "id": "battle-of-taginae",
+            "name": "Battle of Taginae",
+            "depth": 1,
+            "summary": "At Taginae in 552, Narses destroyed the Ostrogothic army with massed archery and dismounted infantry, and Totila was killed in the rout."
+          },
+          {
+            "id": "battle-of-tours",
+            "name": "Battle of Tours",
+            "depth": 1,
+            "summary": "Frankish forces under Charles Martel defeated an Umayyad army near Tours and Poitiers in 732; the battle is sometimes called Tours-Poitiers, but it is distinct from the 1356 Battle of Poitiers."
+          },
+          {
+            "id": "battle-of-tricamarum",
+            "name": "Battle of Tricamarum",
+            "depth": 1,
+            "summary": "At Tricamarum in December 533, Belisarius broke the last Vandal field army. Gelimer's brother Tzazon was killed and the kingdom collapsed."
+          },
+          {
+            "id": "fall-of-western-rome",
+            "name": "Fall of the Western Roman Empire",
+            "depth": 1,
+            "summary": "Odoacer deposed Romulus Augustulus, ending imperial rule in the western Roman court."
+          },
+          {
+            "id": "siege-of-antioch-969",
+            "name": "Siege of Antioch (969)",
+            "depth": 1,
+            "summary": "On 28 October 969 Michael Bourtzes seized a tower on the wall of Antioch with three hundred men and held it until the army came up. He had been ordered not to attack, and was dismissed for succeeding."
+          },
+          {
+            "id": "siege-of-chandax",
+            "name": "Siege of Chandax",
+            "depth": 1,
+            "summary": "Between July 960 and March 961 Nikephoros Phokas besieged Chandax through a Cretan winter and took it, ending 135 years of Muslim rule on Crete and the piracy that had made the Aegean unsafe."
+          },
+          {
+            "id": "siege-of-rome-537",
+            "name": "Siege of Rome",
+            "depth": 1,
+            "summary": "From March 537 to March 538 Belisarius held Rome against a much larger Gothic army under Vitiges, for a year and nine days."
+          }
+        ],
+        "people": [
+          {
+            "id": "basil-ii",
+            "name": "Basil II",
+            "depth": 0,
+            "summary": "Basil II reigned for forty-nine years, the longest in Byzantine history, annexed Bulgaria after a thirty-year war, and left the empire at its greatest extent since Justinian and its treasury full."
+          },
+          {
+            "id": "belisarius",
+            "name": "Belisarius",
+            "depth": 0,
+            "summary": "Belisarius was Justinian's foremost general, who destroyed the Vandal kingdom in a single campaign and fought the Gothic War in Italy for two decades."
+          },
+          {
+            "id": "heraclius",
+            "name": "Heraclius",
+            "depth": 0,
+            "summary": "Heraclius ruled the eastern empire from 610 to 641, took it to the brink of destruction and back, defeated Persia — and then lost everything he had won to the Arab conquests."
+          },
+          {
+            "id": "justinian-i",
+            "name": "Justinian I",
+            "depth": 0,
+            "summary": "Justinian I ruled the eastern Roman empire from 527 to 565, reconquered North Africa and Italy, rebuilt Hagia Sophia and had Roman law codified."
+          },
+          {
+            "id": "michael-viii-palaiologos",
+            "name": "Michael VIII Palaiologos",
+            "depth": 0,
+            "summary": "Michael VIII recovered Constantinople in 1261 and founded the last Byzantine dynasty. He also blinded the child he ruled for, forced a church union his people hated, and left Anatolia to the Turks."
+          },
+          {
+            "id": "alexios-i-komnenos",
+            "name": "Alexios I Komnenos",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "alp-arslan",
+            "name": "Alp Arslan",
+            "depth": 1,
+            "summary": "Alp Arslan was sultan of the Great Seljuk Empire and victor over Romanos IV at Manzikert in 1071."
+          },
+          {
+            "id": "constantine-vii",
+            "name": "Constantine VII",
+            "depth": 1,
+            "summary": "Constantine VII spent most of his life as a figurehead while others ruled, and used the time to write the books that are now the principal sources for how the Byzantine Empire understood itself."
+          },
+          {
+            "id": "constantine-xi-palaiologos",
+            "name": "Constantine XI Palaiologos",
+            "depth": 1,
+            "summary": "Constantine XI Palaiologos was the last Byzantine emperor. He died during the Ottoman capture of Constantinople in 1453."
+          },
+          {
+            "id": "gelimer",
+            "name": "Gelimer",
+            "depth": 1,
+            "summary": "Gelimer was the last king of the Vandals, who seized the throne in 530 and lost his kingdom to Belisarius within four years."
+          },
+          {
+            "id": "john-i-tzimiskes",
+            "name": "John I Tzimiskes",
+            "depth": 1,
+            "summary": "John I Tzimiskes murdered Nikephoros II in 969, took the throne, destroyed the Rus' invasion of Bulgaria, and campaigned deep into Syria before dying in 976."
+          },
+          {
+            "id": "khalid-ibn-al-walid",
+            "name": "Khalid ibn al-Walid",
+            "depth": 1,
+            "summary": "Khalid ibn al-Walid was the commander who beat the Byzantine army at Yarmouk in 636 and the Sasanians in Mesopotamia before it, and who was dismissed by the caliph Umar at the height of his success."
+          },
+          {
+            "id": "khosrow-ii",
+            "name": "Khosrow II",
+            "depth": 1,
+            "summary": "Khosrow II ruled Iran from 590 to 628, conquered Syria, Palestine and Egypt from the Roman empire, and lost everything within four years of his high point."
+          },
+          {
+            "id": "kilij-arslan-i",
+            "name": "Kilij Arslan I",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "kilij-arslan-ii",
+            "name": "Kilij Arslan II",
+            "depth": 1,
+            "summary": "Kilij Arslan II ruled the Sultanate of Rum for thirty-six years, destroyed Manuel I Komnenos's invasion at Myriokephalon in 1176, and then divided his sultanate among eleven sons."
+          },
+          {
+            "id": "leo-iii-the-isaurian",
+            "name": "Leo III",
+            "depth": 1,
+            "summary": "Leo III ruled the eastern empire from 717 to 741, held Constantinople through a twelve-month Umayyad siege in the first year of his reign, and began the iconoclast policy that made his memory a battleground."
+          },
+          {
+            "id": "manuel-i-komnenos",
+            "name": "Manuel I Komnenos",
+            "depth": 1,
+            "summary": "Byzantine emperor (1143–1180), the last great ruler of the Komnenian revival, whose ambitious wars on every front ended with the fateful defeat at Myriokephalon."
+          },
+          {
+            "id": "mehmed-ii",
+            "name": "Mehmed II",
+            "depth": 1,
+            "summary": "Ottoman sultan who conquered Constantinople in 1453."
+          },
+          {
+            "id": "narses",
+            "name": "Narses",
+            "depth": 1,
+            "summary": "Narses was a court eunuch who took command in Italy in his seventies and won the Gothic War that Belisarius had been unable to finish."
+          },
+          {
+            "id": "nikephoros-ii-phokas",
+            "name": "Nikephoros II Phokas",
+            "depth": 1,
+            "summary": "Nikephoros II Phokas took Crete in 961, Cilicia and Cyprus by 965 and Antioch in 969, ruled as emperor from 963, and was murdered in his own bedchamber by the general who succeeded him."
+          },
+          {
+            "id": "orhan",
+            "name": "Orhan",
+            "depth": 1,
+            "summary": "Orhan (c. 1323–1362), second Ottoman ruler, took Bursa, Nicaea, and Nicomedia from Byzantium, built the first Ottoman institutions — and planted the dynasty in Europe at Gallipoli in 1354."
+          },
+          {
+            "id": "osman-i",
+            "name": "Osman I",
+            "depth": 1,
+            "summary": "Founder of the Ottoman dynasty and state (r. c. 1299–1326), the frontier warrior-chief in Bithynia whose small principality grew into one of history's great empires, named after him."
+          }
+        ]
+      },
+      "count": 70
+    },
+    {
+      "slug": "hundred-years-war",
+      "title": "The Hundred Years' War",
+      "heading": "The Hundred Years' War",
+      "blurb": "The Anglo-French wars of 1337–1453: Crécy, Poitiers, Agincourt, Joan of Arc, and the artillery that ended it.",
+      "intro": [
+        "The Hundred Years' War lasted a hundred and sixteen years, was not continuous, and was not really about the English claim to the French throne that provided its pretext. It was a succession of campaigns, truces and civil wars between two crowns whose lands and loyalties had been entangled since 1066.",
+        "Militarily it is the period in which the balance between armoured cavalry and missile infantry shifted decisively, and then shifted again. Crécy, Poitiers and Agincourt are three variations on the same lesson — dismounted men-at-arms and massed longbowmen on chosen ground, against a numerically superior force that had to come to them. The English won every one of those battles and still lost the war.",
+        "What reversed it was partly Joan of Arc, whose eighteen months transformed a collapsing French position at Orléans, and partly something less romantic: the French crown built a professional standing army and the best artillery train in Europe. Formigny and Castillon were decided by guns, and Castillon in 1453 is where the medieval military age is usually said to end.",
+        "The archive covers the battles, the commanders on both sides, and the weapons and armour that made the period what it was."
+      ],
+      "members": {
+        "events": [
+          {
+            "id": "battle-of-agincourt",
+            "name": "Battle of Agincourt",
+            "depth": 0,
+            "summary": "Henry V's outnumbered English army defeated French forces at Agincourt in 1415 during the Hundred Years' War."
+          },
+          {
+            "id": "battle-of-castillon",
+            "name": "Battle of Castillon",
+            "depth": 0,
+            "summary": "On 17 July 1453 John Talbot's Anglo-Gascon army charged Jean Bureau's entrenched artillery park at Castillon and was destroyed; Talbot was killed, Bordeaux fell in October, and the Hundred Years' War was over."
+          },
+          {
+            "id": "battle-of-crecy",
+            "name": "Battle of Crécy",
+            "depth": 0,
+            "summary": "Edward III’s English army defeated Philip VI’s French forces, demonstrating the power of defensive positioning and longbowmen."
+          },
+          {
+            "id": "battle-of-formigny",
+            "name": "Battle of Formigny",
+            "depth": 0,
+            "summary": "On 15 April 1450 the French royal army destroyed England's last field force in Normandy at Formigny, using field artillery to break the longbow line; within four months the duchy was entirely French again."
+          },
+          {
+            "id": "battle-of-patay",
+            "name": "Battle of Patay",
+            "depth": 0,
+            "summary": "On 18 June 1429 the French vanguard caught the English field army before it could form its battle line near Patay, destroying it and capturing John Talbot — the reverse image of Agincourt."
+          },
+          {
+            "id": "battle-of-poitiers",
+            "name": "Battle of Poitiers",
+            "depth": 0,
+            "summary": "English forces under the Black Prince defeated and captured John II of France near Poitiers in 1356 during the Hundred Years’ War."
+          },
+          {
+            "id": "battle-of-verneuil",
+            "name": "Battle of Verneuil",
+            "depth": 0,
+            "summary": "John, Duke of Bedford, destroyed a combined French and Scottish army at Verneuil in 1424 — a Lancastrian victory so complete that contemporaries called it a second Agincourt."
+          },
+          {
+            "id": "hundred-years-war",
+            "name": "Hundred Years' War",
+            "depth": 0,
+            "summary": "A prolonged dynastic, territorial, and military conflict between the English and French crowns from 1337 to 1453."
+          },
+          {
+            "id": "siege-of-orleans",
+            "name": "Siege of Orléans",
+            "depth": 0,
+            "summary": "The English siege of Orléans (October 1428 – May 1429) was the turning point of the Hundred Years' War: Joan of Arc's arrival galvanised the defence, and the siege was broken in nine days."
+          },
+          {
+            "id": "siege-of-rouen",
+            "name": "Siege of Rouen",
+            "depth": 0,
+            "summary": "Henry V starved Rouen, the capital of Normandy, into surrender over six winter months, completing the English conquest of the duchy and opening the road to the Treaty of Troyes."
+          },
+          {
+            "id": "fall-of-constantinople",
+            "name": "Fall of Constantinople",
+            "depth": 1,
+            "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire."
+          }
+        ],
+        "people": [
+          {
+            "id": "joan-of-arc",
+            "name": "Joan of Arc",
+            "depth": 0,
+            "summary": "French visionary and military figure of the Hundred Years' War."
+          },
+          {
+            "id": "charles-d-albret",
+            "name": "Charles d'Albret",
+            "depth": 1,
+            "summary": "Charles d'Albret was constable of France and one of the principal French commanders at Agincourt in 1415."
+          },
+          {
+            "id": "christine-de-pizan",
+            "name": "Christine de Pizan",
+            "depth": 1,
+            "summary": "Italian-born French author who became Europe's first known professional woman of letters at the court of Charles VI."
+          },
+          {
+            "id": "edward-iii-of-england",
+            "name": "Edward III of England",
+            "depth": 1,
+            "summary": "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War."
+          },
+          {
+            "id": "edward-the-black-prince",
+            "name": "Edward, the Black Prince",
+            "depth": 1,
+            "summary": "Edward of Woodstock, later called the Black Prince, was heir to Edward III and one of England’s most famous commanders in the Hundred Years’ War."
+          },
+          {
+            "id": "henry-v-of-england",
+            "name": "Henry V of England",
+            "depth": 1,
+            "summary": "Henry V was king of England from 1413 to 1422 and the English commander at Agincourt. His campaigns revived English fortunes in the Hundred Years’ War."
+          },
+          {
+            "id": "john-ii-of-france",
+            "name": "John II of France",
+            "depth": 1,
+            "summary": "John II of France was a Valois king captured by the English at Poitiers in 1356, creating a major crisis for France."
+          },
+          {
+            "id": "philip-vi-of-france",
+            "name": "Philip VI of France",
+            "depth": 1,
+            "summary": "Philip VI of France was the first Valois king and the French ruler during the opening phase of the Hundred Years’ War."
+          }
+        ],
+        "weapons-armor": [
+          {
+            "id": "longbow",
+            "name": "Longbow",
+            "depth": 0,
+            "summary": "The longbow was a powerful self bow associated especially with Welsh and English archers in the wars of the thirteenth to fifteenth centuries."
+          },
+          {
+            "id": "arquebus",
+            "name": "Arquebus",
+            "depth": 1,
+            "summary": "The arquebus was the first shoulder-fired firearm with a mechanical ignition, emerging gradually from the hand cannon during the fifteenth century."
+          },
+          {
+            "id": "hand-cannon",
+            "name": "Hand Cannon",
+            "depth": 1,
+            "summary": "The hand cannon was the first personal firearm: a short barrel on a wooden shaft, fired by touching a hot wire or a match to a hole in the top."
+          },
+          {
+            "id": "war-bow",
+            "name": "War Bow",
+            "depth": 1,
+            "summary": "War bow is a practical umbrella term for powerful bows used in medieval warfare, including but not limited to the English longbow."
+          }
+        ],
+        "locations": [
+          {
+            "id": "agincourt",
+            "name": "Agincourt",
+            "depth": 1,
+            "summary": "A northern French village near the battlefield of Henry V's famous victory."
+          },
+          {
+            "id": "aquitaine",
+            "name": "Aquitaine",
+            "depth": 1,
+            "summary": "A major duchy of southwestern France whose inheritance shaped Capetian and Angevin politics."
+          },
+          {
+            "id": "crecy",
+            "name": "Crecy",
+            "depth": 1,
+            "summary": "A northern French battlefield famous for English longbow tactics in 1346."
+          },
+          {
+            "id": "domremy",
+            "name": "Domremy",
+            "depth": 1,
+            "summary": "The village in northeastern France where Joan of Arc was born."
+          },
+          {
+            "id": "duchy-of-normandy",
+            "name": "Duchy of Normandy",
+            "depth": 1,
+            "summary": "A northern French duchy founded from Viking settlement and central to the Norman Conquest of England."
+          },
+          {
+            "id": "gascony",
+            "name": "Gascony",
+            "depth": 1,
+            "summary": "A southwestern French region tied to Aquitaine, English-French rivalry, and noble families such as the Albret."
+          },
+          {
+            "id": "kingdom-of-england",
+            "name": "Kingdom of England",
+            "depth": 1,
+            "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest."
+          },
+          {
+            "id": "kingdom-of-france",
+            "name": "Kingdom of France",
+            "depth": 1,
+            "summary": "The medieval Kingdom of France grew from West Francia into one of Europe’s strongest monarchies under the Capetian and Valois dynasties."
+          },
+          {
+            "id": "paris",
+            "name": "Paris",
+            "depth": 1,
+            "summary": "The Capetian royal city on the Seine and one of medieval Europe's major political, ecclesiastical, and university centers."
+          },
+          {
+            "id": "poitiers",
+            "name": "Poitiers",
+            "depth": 1,
+            "summary": "A major city of Aquitaine and a center of ducal power in western France."
+          },
+          {
+            "id": "rouen",
+            "name": "Rouen",
+            "depth": 1,
+            "summary": "The chief city of Normandy and a major political, ecclesiastical, and commercial center."
+          }
+        ]
+      },
+      "count": 34
+    },
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest",
+      "heading": "The Norman Conquest",
+      "blurb": "England in 1066: three claimants, three battles in three weeks, and the conquest that remade the kingdom.",
+      "intro": [
+        "The death of Edward the Confessor in January 1066 left England with no undisputed heir and three men prepared to fight for it: Harold Godwinson, crowned within days; Harald Hardrada of Norway, pressing a claim inherited from an old treaty; and William, duke of Normandy, who said Edward had promised him the throne and that Harold had sworn to support him.",
+        "What followed is the most compressed decisive campaign in medieval English history. Hardrada landed in the north and beat the northern earls at Fulford on 20 September. Harold marched an army two hundred miles and destroyed him at Stamford Bridge on the 25th. William landed in Sussex three days later. Harold marched back south and was killed at Hastings on 14 October.",
+        "The consequences were not merely dynastic. Within twenty years the English landholding aristocracy had been almost entirely replaced, the language of government had changed, castles had appeared across the country, and England had been surveyed in a document with no parallel anywhere in Europe. The kingdom's centre of political gravity moved to the continent and stayed there for four hundred years, which is where the Hundred Years' War ultimately comes from.",
+        "The archive covers all three claimants, all three battles, and the dynasties on either side of the break."
+      ],
+      "members": {
+        "events": [
+          {
+            "id": "battle-of-fulford",
+            "name": "Battle of Fulford",
+            "depth": 0,
+            "summary": "Harald Hardrada and Tostig Godwinson defeated northern English forces near York shortly before Stamford Bridge."
+          },
+          {
+            "id": "battle-of-hastings",
+            "name": "Battle of Hastings",
+            "depth": 0,
+            "summary": "William of Normandy defeated Harold Godwinson near Hastings in 1066, opening the way for the Norman Conquest of England."
+          },
+          {
+            "id": "battle-of-stamford-bridge",
+            "name": "Battle of Stamford Bridge",
+            "depth": 0,
+            "summary": "Harold Godwinson defeated Harald Hardrada near York days before marching south to face William of Normandy."
+          },
+          {
+            "id": "norman-conquest",
+            "name": "Norman Conquest of England",
+            "depth": 0,
+            "summary": "The 1066 conquest of England by William of Normandy after a succession crisis and the Battle of Hastings."
+          },
+          {
+            "id": "battle-of-brunanburh",
+            "name": "Battle of Brunanburh",
+            "depth": 1,
+            "summary": "Æthelstan, first king of all England, destroyed a great coalition of Norse Dublin, Scots, and Strathclyde Britons at Brunanburh in 937 — celebrated in the Old English poem as the age's bloodiest victory."
+          },
+          {
+            "id": "battle-of-edington",
+            "name": "Battle of Edington",
+            "depth": 1,
+            "summary": "Alfred the Great defeated the Danish Great Heathen Army under Guthrum at Edington in 878, saving Wessex and securing the peace and baptism that shaped a united England."
+          },
+          {
+            "id": "battle-of-stiklestad",
+            "name": "Battle of Stiklestad",
+            "depth": 1,
+            "summary": "The battle in 1030 where Olaf II Haraldsson was killed, later becoming central to the cult of Saint Olaf."
+          }
+        ],
+        "people": [
+          {
+            "id": "edward-the-confessor",
+            "name": "Edward the Confessor",
+            "depth": 0,
+            "summary": "King of England whose childless death in 1066 triggered the succession crisis that led to Stamford Bridge and Hastings."
+          },
+          {
+            "id": "harald-hardrada",
+            "name": "Harald Hardrada",
+            "depth": 0,
+            "summary": "Harald Hardrada was king of Norway whose career stretched from Byzantium to Stamford Bridge, where he died invading England in 1066."
+          },
+          {
+            "id": "harold-godwinson",
+            "name": "Harold Godwinson",
+            "depth": 0,
+            "summary": "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings."
+          },
+          {
+            "id": "william-the-conqueror",
+            "name": "William the Conqueror",
+            "depth": 0,
+            "summary": "Duke of Normandy who conquered England in 1066."
+          },
+          {
+            "id": "aethelstan",
+            "name": "Æthelstan",
+            "depth": 1,
+            "summary": "First king of all England (924–939), grandson of Alfred the Great, who conquered Northumbria and won the decisive Battle of Brunanburh to forge a single English kingdom."
+          },
+          {
+            "id": "alfred-the-great",
+            "name": "Alfred the Great",
+            "depth": 1,
+            "summary": "King of Wessex who resisted Viking conquest and promoted learning and reform."
+          },
+          {
+            "id": "edward-the-elder",
+            "name": "Edward the Elder",
+            "depth": 1,
+            "summary": "Edward the Elder, king of the Anglo-Saxons from 899 to 924, conquered the Danish-held east midlands and East Anglia with his sister Æthelflæd, extending West Saxon power over most of England south of the Humber."
+          },
+          {
+            "id": "empress-matilda",
+            "name": "Empress Matilda",
+            "depth": 1,
+            "summary": "Daughter of Henry I, Holy Roman Empress, and claimant to the English throne during the civil war known as the Anarchy."
+          },
+          {
+            "id": "henry-i-of-england",
+            "name": "Henry I of England",
+            "depth": 1,
+            "summary": "King of England (1100–1135), youngest son of William the Conqueror, an able and ruthless administrator who reunited England and Normandy — but whose heir's drowning opened the Anarchy."
+          },
+          {
+            "id": "magnus-the-good",
+            "name": "Magnus the Good",
+            "depth": 1,
+            "summary": "Magnus the Good was son of Saint Olaf who became king of Norway and later Denmark, briefly joining the two crowns."
+          },
+          {
+            "id": "stephen-of-england",
+            "name": "Stephen of England",
+            "depth": 1,
+            "summary": "King of England (1135–1154), grandson of William the Conqueror, whose seizure of the throne over the Empress Matilda plunged England into the civil war known as the Anarchy."
+          },
+          {
+            "id": "tostig-godwinson",
+            "name": "Tostig Godwinson",
+            "depth": 1,
+            "summary": "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England."
+          },
+          {
+            "id": "william-ii-of-england",
+            "name": "William II of England",
+            "depth": 1,
+            "summary": "William II \"Rufus\", second Norman king of England (1087–1100), beat down rebellion and Scottish and Welsh challenges, wrung Normandy from his crusading brother, and died with an arrow in his chest in the New Forest."
+          }
+        ],
+        "houses": [
+          {
+            "id": "house-of-normandy",
+            "name": "House of Normandy",
+            "depth": 0,
+            "summary": "The dynasty of Rollo’s heirs that conquered England in 1066 and ruled a cross-Channel Anglo-Norman realm until the civil war known as the Anarchy."
+          },
+          {
+            "id": "house-of-wessex",
+            "name": "House of Wessex",
+            "depth": 0,
+            "summary": "The West Saxon royal line that resisted the Vikings under Alfred the Great and united the English kingdoms into a single realm of England."
+          }
+        ],
+        "locations": [
+          {
+            "id": "duchy-of-normandy",
+            "name": "Duchy of Normandy",
+            "depth": 1,
+            "summary": "A northern French duchy founded from Viking settlement and central to the Norman Conquest of England."
+          },
+          {
+            "id": "falaise",
+            "name": "Falaise",
+            "depth": 1,
+            "summary": "A Norman town and castle site traditionally associated with William the Conqueror's birth."
+          },
+          {
+            "id": "hastings",
+            "name": "Hastings",
+            "depth": 1,
+            "summary": "An English coastal region associated with the Norman victory of 1066."
+          },
+          {
+            "id": "kingdom-of-england",
+            "name": "Kingdom of England",
+            "depth": 1,
+            "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest."
+          },
+          {
+            "id": "kingdom-of-norway",
+            "name": "Kingdom of Norway",
+            "depth": 1,
+            "summary": "A Scandinavian kingdom linked to Viking expansion, crusading, and the Kalmar Union."
+          },
+          {
+            "id": "kingdom-of-wessex",
+            "name": "Kingdom of Wessex",
+            "depth": 1,
+            "summary": "An Anglo-Saxon kingdom that became the base for Alfred the Great and later English unification."
+          },
+          {
+            "id": "oxford",
+            "name": "Oxford",
+            "depth": 1,
+            "summary": "An English town associated with royal residence, learning, and Richard the Lionheart's birth."
+          },
+          {
+            "id": "rouen",
+            "name": "Rouen",
+            "depth": 1,
+            "summary": "The chief city of Normandy and a major political, ecclesiastical, and commercial center."
+          },
+          {
+            "id": "stamford-bridge",
+            "name": "Stamford Bridge",
+            "depth": 1,
+            "summary": "A Yorkshire crossing and battlefield where Harold Godwinson defeated Harald Hardrada in 1066."
+          },
+          {
+            "id": "westminster",
+            "name": "Westminster",
+            "depth": 1,
+            "summary": "A royal and ecclesiastical center in London where Edward, the Black Prince died in 1376."
+          },
+          {
+            "id": "winchester-cathedral",
+            "name": "Winchester Cathedral",
+            "depth": 1,
+            "summary": "A major English cathedral and burial site connected to Anglo-Saxon and later medieval kingship."
+          }
+        ],
+        "weapons-armor": [
+          {
+            "id": "arming-sword",
+            "name": "Arming Sword",
+            "depth": 1,
+            "summary": "The arming sword was the familiar single-handed sword of high medieval Europe, carried with a shield or buckler and used by knights, sergeants, and other armed elites."
+          },
+          {
+            "id": "dane-axe",
+            "name": "Dane Axe",
+            "depth": 1,
+            "summary": "The Dane axe was a long-hafted axe associated with late Viking Age and Anglo-Danish elite warriors, including housecarls in eleventh-century England."
+          },
+          {
+            "id": "kite-shield",
+            "name": "Kite Shield",
+            "depth": 1,
+            "summary": "The kite shield was a long, tapering shield strongly associated with eleventh- and twelfth-century cavalry and infantry."
+          },
+          {
+            "id": "lance",
+            "name": "Lance",
+            "depth": 1,
+            "summary": "The lance was the primary shock weapon of medieval heavy cavalry, used from horseback to deliver reach, momentum, and formation pressure."
+          },
+          {
+            "id": "viking-sword",
+            "name": "Viking Sword",
+            "depth": 1,
+            "summary": "The Viking sword was an elite early medieval weapon used across Scandinavia, the British Isles, and the Frankish world during the Viking Age."
+          }
+        ],
+        "artifacts": [
+          {
+            "id": "bayeux-tapestry",
+            "name": "Bayeux Tapestry",
+            "depth": 1,
+            "summary": "An eleventh-century embroidered narrative of the Norman Conquest, preserved at Bayeux."
+          }
+        ]
+      },
+      "count": 39
+    },
+    {
+      "slug": "mongol-invasions",
+      "title": "The Mongol Invasions",
+      "heading": "The Mongol Invasions",
+      "blurb": "The campaigns that reached central Europe: Kalka, the destruction of the Rus principalities, Legnica and Mohi.",
+      "intro": [
+        "In 1223 a Mongol reconnaissance force destroyed a combined Rus and Cuman army at the Kalka river and then rode home. Fourteen years later a real invasion arrived, and within four years the Rus principalities had been systematically dismantled, Poland and Hungary had been beaten in the same week, and Mongol scouts had reached the Adriatic.",
+        "The campaigns are studied because they were extraordinarily well executed rather than merely large. The Mongol armies operated in separate columns across hundreds of miles and arrived where they intended together; they took fortified cities that had never fallen; and at Legnica and Mohi in April 1241 they defeated two entirely separate European armies two days apart.",
+        "What stopped the advance was not a battle. Ögedei Khan died in December 1241 and the commanders withdrew east for the succession, and the invasion of central Europe simply ended. Whether it would have continued is one of the genuine unanswerable questions of medieval history, and the archive says so rather than guessing.",
+        "The Rus principalities did not recover their independence for two centuries. That, rather than the raid into Poland and Hungary, is the lasting consequence."
+      ],
+      "members": {
+        "events": [
+          {
+            "id": "battle-of-legnica",
+            "name": "Battle of Legnica",
+            "depth": 0,
+            "summary": "On 9 April 1241 a Mongol column destroyed a Polish and German army under Duke Henry II the Pious of Silesia at Legnica. Henry was killed and his head paraded on a lance — a crushing defeat that shielded the flank of the main horde as it prepared to annihilate Hungary two days later."
+          },
+          {
+            "id": "battle-of-mohi",
+            "name": "Battle of Mohi",
+            "depth": 0,
+            "summary": "At Mohi in 1241 the Mongols under Batu and Subutai annihilated the army of Béla IV of Hungary, opening the kingdom to a devastating invasion that only the Great Khan's death cut short."
+          },
+          {
+            "id": "battle-of-the-kalka-river",
+            "name": "Battle of the Kalka River",
+            "depth": 0,
+            "summary": "In 1223 a Mongol reconnaissance army under Jebe and Subutai destroyed a large but disunited coalition of Rus' princes and Cumans on the Kalka River — Europe's first, catastrophic encounter with the Mongols."
+          },
+          {
+            "id": "battle-of-the-sit-river",
+            "name": "Battle of the Sit River",
+            "depth": 0,
+            "summary": "On 4 March 1238, on the frozen Sit River, a Mongol column caught and destroyed the army Grand Prince Yuri II of Vladimir had gathered to fight back. Yuri was killed, and organised resistance in northern Rus’ collapsed."
+          },
+          {
+            "id": "siege-of-kyiv",
+            "name": "Siege of Kyiv",
+            "depth": 0,
+            "summary": "In late 1240 Batu Khan stormed Kyiv, the “mother of Rus’ cities”, after a fierce assault. The great city was sacked and largely destroyed, ending the golden age of Kievan Rus’ and opening the road into Latin Europe."
+          },
+          {
+            "id": "siege-of-ryazan",
+            "name": "Siege of Ryazan",
+            "depth": 0,
+            "summary": "In December 1237 the army of Batu Khan opened its conquest of the Rus’ by storming the frontier city of Ryazan after a five-day assault, sacking it and massacring its people — a deliberate act of terror that set the pattern for the campaign."
+          },
+          {
+            "id": "siege-of-vladimir",
+            "name": "Siege of Vladimir",
+            "depth": 0,
+            "summary": "In February 1238 the Mongols took Vladimir, capital of the strongest Rus’ principality. The grand prince was away raising an army; the city fell in days and his family perished in the flames of its cathedral."
+          },
+          {
+            "id": "battle-of-legnano",
+            "name": "Battle of Legnano",
+            "depth": 1,
+            "summary": "The Lombard League defeated Emperor Frederick Barbarossa, strengthening northern Italian communal autonomy."
+          },
+          {
+            "id": "battle-of-nicopolis",
+            "name": "Battle of Nicopolis",
+            "depth": 1,
+            "summary": "At Nicopolis in 1396 Sultan Bayezid I destroyed the great Franco-Hungarian crusade led by Sigismund of Hungary and John the Fearless — the last large-scale crusade and a disaster for Christian arms."
+          }
+        ],
+        "people": [
+          {
+            "id": "subutai",
+            "name": "Subutai",
+            "depth": 0,
+            "summary": "Genghis Khan's greatest general — the strategist of the Kalka raid, the conquest of the Jin, and the European campaign of 1236–1242, who planned the coordinated destruction of Poland and Hungary in a single week."
+          },
+          {
+            "id": "alexander-nevsky",
+            "name": "Alexander Nevsky",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "batu-khan",
+            "name": "Batu Khan",
+            "depth": 1,
+            "summary": "Grandson of Genghis Khan who commanded the Mongol western campaign of 1236–1242, crushed Hungary at Mohi, and founded the Golden Horde that dominated the Rus' lands for over two centuries."
+          },
+          {
+            "id": "bela-iv-of-hungary",
+            "name": "Béla IV of Hungary",
+            "depth": 1,
+            "summary": "King of Hungary (1235–1270) who rebuilt his kingdom after the catastrophic Mongol invasion of 1241, earning renown as the \"second founder\" of Hungary."
+          },
+          {
+            "id": "mstislav-the-bold",
+            "name": "Mstislav the Bold",
+            "depth": 1,
+            "summary": "Mstislav the Bold was the most celebrated Rus' warrior-prince of his generation, ruler of Novgorod and Galicia, who led the coalition of Rus' princes to disaster against the Mongols at the Kalka River in 1223."
+          }
+        ],
+        "houses": [
+          {
+            "id": "house-of-borjigin",
+            "name": "House of Borjigin",
+            "depth": 0,
+            "summary": "The imperial clan of Genghis Khan, whose Jochid branch under Batu Khan founded the Golden Horde and dominated the Rus’ lands for over two centuries."
+          }
+        ],
+        "locations": [
+          {
+            "id": "cumans",
+            "name": "Cumans",
+            "depth": 1,
+            "summary": "The Cumans were the Turkic confederation that ruled the steppe from the Danube to the Volga in the eleventh to thirteenth centuries, fought and served every power around them, and were shattered by the Mongols in 1223."
+          },
+          {
+            "id": "kievan-rus",
+            "name": "Kievan Rus’",
+            "depth": 1,
+            "summary": "A medieval eastern European polity centered on Kyiv, important for trade, dynastic politics, and links between Scandinavia, Byzantium, and the steppe."
+          },
+          {
+            "id": "kingdom-of-poland",
+            "name": "Kingdom of Poland",
+            "depth": 1,
+            "summary": "A medieval kingdom central to central and eastern European politics."
+          },
+          {
+            "id": "novgorod",
+            "name": "Novgorod",
+            "depth": 1,
+            "summary": "One of the most important cities of medieval Russia and a primary seat of early Rurikid power, Novgorod was a major trading center on the Volkhov River with connections to Scandinavia, the Baltic, and the river routes leading south toward Kyiv and Byzantium."
+          }
+        ],
+        "orders": [
+          {
+            "id": "knights-templar",
+            "name": "Knights Templar",
+            "depth": 1,
+            "summary": "The Poor Fellow-Soldiers of Christ and of the Temple of Solomon — founded in Jerusalem around 1119 to protect pilgrims — grew into the most famous of the military religious orders: an elite standing army of warrior-monks, a pan-European banking network, and, after 1307, the victims of the most notorious heresy trial of the Middle Ages."
+          },
+          {
+            "id": "teutonic-order",
+            "name": "Teutonic Order",
+            "depth": 1,
+            "summary": "The Teutonic Order was a crusading military order that built a territorial state in the Baltic and fought the Polish-Lithuanian coalition at Grunwald."
+          }
+        ]
+      },
+      "count": 21
+    },
+    {
+      "slug": "reconquista",
+      "title": "The Reconquista",
+      "heading": "The Reconquista",
+      "blurb": "Seven centuries in Iberia: al-Andalus, the Christian kingdoms, Las Navas de Tolosa and the making of Spain and Portugal.",
+      "intro": [
+        "The Reconquista is a name given long afterwards to something that was never a single project: the seven-hundred-year process by which Christian kingdoms in northern Iberia expanded south at the expense of Muslim al-Andalus, ending with the fall of Granada in 1492.",
+        "The archive is careful with the word. For most of the period the frontier was not a religious front line but an ordinary political one, crossed constantly by mercenaries, exiles, tribute arrangements and alliances that ignored religion entirely. El Cid, the great hero of the Castilian tradition, spent years in the service of the Muslim ruler of Zaragoza. Christian kings allied with taifa emirs against other Christian kings, and vice versa, throughout.",
+        "What changed the character of it was the arrival of the Almoravids and then the Almohads from North Africa, which introduced a genuinely ideological element on both sides, and the papal grant of crusade status to Iberian campaigns. Las Navas de Tolosa in 1212 is the conventional turning point: after it, Almohad power in Iberia collapsed and the southern conquests followed quickly.",
+        "The other outcome is Portugal, which separated from León in the twelfth century and became a kingdom in its own right — a story the archive covers in its own detail."
+      ],
+      "members": {
+        "locations": [
+          {
+            "id": "al-andalus",
+            "name": "al-Andalus",
+            "depth": 0,
+            "summary": "Al-Andalus was Muslim-ruled Iberia, from the conquest of 711 to the fall of Granada in 1492 — for three centuries the wealthiest and most learned society in western Europe."
+          },
+          {
+            "id": "almohad-caliphate",
+            "name": "Almohad Caliphate",
+            "depth": 0,
+            "summary": "A Berber Muslim empire that ruled parts of North Africa and al-Andalus."
+          },
+          {
+            "id": "caliphate-of-cordoba",
+            "name": "Caliphate of Córdoba",
+            "depth": 0,
+            "summary": "The Umayyad caliphate of al-Andalus, proclaimed by Abd al-Rahman III at Córdoba in 929 and the dominant power of tenth-century Iberia until it fragmented into the taifa kingdoms after 1031."
+          },
+          {
+            "id": "granada",
+            "name": "Granada",
+            "depth": 1,
+            "summary": "The mountain capital of the last Muslim state in Iberia, seat of the Nasrid dynasty and their Alhambra, whose surrender in 1492 ended the Reconquista."
+          },
+          {
+            "id": "kingdom-of-aragon",
+            "name": "Kingdom of Aragon",
+            "depth": 1,
+            "summary": "The Kingdom of Aragon was a major Iberian and Mediterranean power whose rulers fought in the Reconquista and expanded through dynastic union, conquest, and maritime politics."
+          },
+          {
+            "id": "kingdom-of-castile",
+            "name": "Kingdom of Castile",
+            "depth": 1,
+            "summary": "A major Iberian kingdom that expanded through warfare, dynastic politics, and union with Aragon."
+          },
+          {
+            "id": "kingdom-of-leon",
+            "name": "Kingdom of León",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "kingdom-of-portugal",
+            "name": "Kingdom of Portugal",
+            "depth": 1,
+            "summary": "A medieval Iberian kingdom that emerged from the County of Portugal and became an independent monarchy in the twelfth century."
+          },
+          {
+            "id": "las-navas-de-tolosa",
+            "name": "Las Navas de Tolosa",
+            "depth": 1,
+            "summary": "A battlefield in the Sierra Morena linked to a major Christian victory over the Almohads."
+          },
+          {
+            "id": "lisbon",
+            "name": "Lisbon",
+            "depth": 1,
+            "summary": ""
+          },
+          {
+            "id": "umayyad-caliphate",
+            "name": "Umayyad Caliphate",
+            "depth": 1,
+            "summary": "The caliphal polity whose western governors ruled al-Andalus and campaigned into Gaul."
+          },
+          {
+            "id": "valencia",
+            "name": "Valencia",
+            "depth": 1,
+            "summary": "A rich coastal city of eastern Iberia, capital of a taifa kingdom, famously conquered by El Cid in 1094 and permanently reconquered by James I of Aragon in 1238."
+          }
+        ],
+        "events": [
+          {
+            "id": "battle-of-las-navas-de-tolosa",
+            "name": "Battle of Las Navas de Tolosa",
+            "depth": 0,
+            "summary": "A coalition of Iberian Christian kingdoms defeated the Almohads, marking a major shift in the balance of power in Iberia."
+          },
+          {
+            "id": "battle-of-ourique",
+            "name": "Battle of Ourique",
+            "depth": 0,
+            "summary": "Afonso Henriques's victory over Almoravid forces at Ourique in July 1139 became the founding legend of the Portuguese crown — the battle after which he was styled king."
+          },
+          {
+            "id": "battle-of-sao-mamede",
+            "name": "Battle of São Mamede",
+            "depth": 0,
+            "summary": "At São Mamede, outside Guimarães, the young Afonso Henriques and the Portuguese barons defeated his mother Teresa and her Galician allies — the founding battle of Portuguese autonomy."
+          },
+          {
+            "id": "siege-of-lisbon",
+            "name": "Siege of Lisbon",
+            "depth": 0,
+            "summary": "Afonso Henriques took Lisbon from its Muslim rulers in October 1147 after a seventeen-week siege, aided by a fleet of Second Crusade crusaders from England, Flanders, and the Rhineland — the making of Portugal's great city."
+          },
+          {
+            "id": "battle-of-aljubarrota",
+            "name": "Battle of Aljubarrota",
+            "depth": 1,
+            "summary": "A Portuguese army under John of Aviz and Nuno Álvares Pereira destroyed a much larger Castilian invasion in 1385, securing Portugal's independence and the House of Aviz."
+          },
+          {
+            "id": "battle-of-covadonga",
+            "name": "Battle of Covadonga",
+            "depth": 1,
+            "summary": "Around 718–722 a small Christian band under Pelagius (Pelayo) repelled an Umayyad punitive force in the mountains of Asturias — a minor engagement that later tradition made the founding victory of the Reconquista."
+          },
+          {
+            "id": "battle-of-sagrajas",
+            "name": "Battle of Sagrajas",
+            "depth": 1,
+            "summary": "On 23 October 1086 the Almoravid emir Yusuf ibn Tashfin, allied with the taifa kings, crushed Alfonso VI of León and Castile near Badajoz — the battle known in Arabic as az-Zallaqah — halting the Christian advance after the fall of Toledo."
+          },
+          {
+            "id": "battle-of-simancas",
+            "name": "Battle of Simancas",
+            "depth": 1,
+            "summary": "In August 939 a Christian coalition under Ramiro II of León crushed the great campaigning army of Caliph Abd al-Rahman III near Simancas on the Duero — a rare personal defeat for the caliph and the high-water mark of Leonese power."
+          },
+          {
+            "id": "battle-of-tours",
+            "name": "Battle of Tours",
+            "depth": 1,
+            "summary": "Frankish forces under Charles Martel defeated an Umayyad army near Tours and Poitiers in 732; the battle is sometimes called Tours-Poitiers, but it is distinct from the 1356 Battle of Poitiers."
+          },
+          {
+            "id": "conquest-of-cordoba",
+            "name": "Conquest of Córdoba",
+            "depth": 1,
+            "summary": "In 1236 Ferdinand III of Castile took Córdoba, the former capital of the Umayyad caliphate — a conquest of huge symbolic weight that turned its Great Mosque into a cathedral."
+          },
+          {
+            "id": "conquest-of-seville",
+            "name": "Conquest of Seville",
+            "depth": 1,
+            "summary": "After a siege of over a year, Ferdinand III of Castile took Seville — the greatest city of al-Andalus — on 23 November 1248, all but completing the reconquest of the Guadalquivir."
+          },
+          {
+            "id": "conquest-of-valencia",
+            "name": "Conquest of Valencia",
+            "depth": 1,
+            "summary": "In 1094, after a long blockade, El Cid captured the wealthy taifa city of Valencia and held it against the Almoravids, ruling it as an independent Christian lordship until his death."
+          },
+          {
+            "id": "fall-of-granada",
+            "name": "Fall of Granada",
+            "depth": 1,
+            "summary": "On 2 January 1492 Boabdil, the last Nasrid emir, surrendered Granada to Ferdinand II of Aragon and Isabella I of Castile — ending the last Muslim state in Iberia and, with it, the Reconquista."
+          }
+        ],
+        "people": [
+          {
+            "id": "abd-al-rahman-iii",
+            "name": "Abd al-Rahman III",
+            "depth": 0,
+            "summary": "Abd al-Rahman III was the greatest ruler of Umayyad al-Andalus, who reunited the fractured emirate, proclaimed himself caliph in 929, and raised Córdoba to the height of its power — though his army was famously beaten at Simancas."
+          },
+          {
+            "id": "el-cid",
+            "name": "El Cid",
+            "depth": 0,
+            "summary": "Rodrigo Díaz de Vivar, called El Cid, was the most celebrated warrior of eleventh-century Iberia, a Castilian commander who served both Christian and Muslim lords and carved out his own principality by conquering Valencia in 1094."
+          },
+          {
+            "id": "abd-al-rahman-al-ghafiqi",
+            "name": "Abd al-Rahman al-Ghafiqi",
+            "depth": 1,
+            "summary": "Abd al-Rahman al-Ghafiqi was an Umayyad governor of al-Andalus and commander of the army defeated by Charles Martel near Tours in 732."
+          },
+          {
+            "id": "afonso-i-of-portugal",
+            "name": "Afonso I of Portugal",
+            "depth": 1,
+            "summary": "The first king of Portugal, who won independence from León-Castile and carved a kingdom out of the western Reconquista."
+          },
+          {
+            "id": "alfonso-vi-of-leon-and-castile",
+            "name": "Alfonso VI of León and Castile",
+            "depth": 1,
+            "summary": "Alfonso VI reunited León, Castile and Galicia, captured Toledo in 1085, and styled himself emperor of Spain — but his triumph brought the Almoravids into Iberia and the great defeat of Sagrajas."
+          },
+          {
+            "id": "alfonso-viii-of-castile",
+            "name": "Alfonso VIII of Castile",
+            "depth": 1,
+            "summary": "Alfonso VIII of Castile was a major Iberian king whose victory at Las Navas de Tolosa weakened Almohad power in Iberia."
+          },
+          {
+            "id": "muhammad-xii-of-granada",
+            "name": "Boabdil",
+            "depth": 1,
+            "summary": "Boabdil, or Muhammad XII, was the last Nasrid emir of Granada, who surrendered the city and the Alhambra to the Catholic Monarchs in 1492, ending Muslim rule in Iberia."
+          },
+          {
+            "id": "muhammad-al-nasir",
+            "name": "Muhammad al-Nasir",
+            "depth": 1,
+            "summary": "Muhammad al-Nasir was Almohad caliph and commander defeated by the Iberian Christian coalition at Las Navas de Tolosa."
+          },
+          {
+            "id": "teresa-of-leon",
+            "name": "Teresa of León",
+            "depth": 1,
+            "summary": "Teresa of León ruled the County of Portugal for eighteen years (1112–1128), styled herself queen, and fought her own son Afonso Henriques for the county's future — losing it at São Mamede in 1128."
+          },
+          {
+            "id": "yusuf-ibn-tashfin",
+            "name": "Yusuf ibn Tashfin",
+            "depth": 1,
+            "summary": "Yusuf ibn Tashfin was the Almoravid emir who built an empire spanning Morocco and al-Andalus, founded Marrakesh, won the Battle of Sagrajas in 1086, and then absorbed the taifa kingdoms of Muslim Spain."
+          }
+        ],
+        "houses": [
+          {
+            "id": "almoravid-dynasty",
+            "name": "Almoravid dynasty",
+            "depth": 0,
+            "summary": "The Berber dynasty and empire that rose from a Saharan reform movement to rule Morocco and Muslim Spain in the late eleventh and early twelfth centuries, checking the Reconquista before falling to the Almohads."
+          },
+          {
+            "id": "nasrid-dynasty",
+            "name": "Nasrid dynasty",
+            "depth": 0,
+            "summary": "The last Muslim dynasty of Iberia, which ruled the Emirate of Granada for over two and a half centuries, built the Alhambra, and fell to the Catholic Monarchs in 1492."
+          }
+        ]
+      },
+      "count": 37
+    }
+  ],
+  "topicsByArticle": {
+    "cnut-the-great": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "eric-bloodaxe": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "guthrum": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "harald-fairhair": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "harald-hardrada": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "olaf-tryggvason": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "sweyn-forkbeard": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "aethelstan": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "alfred-the-great": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "edward-the-elder": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "haakon-the-good": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "harald-bluetooth": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "harold-godwinson": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "magnus-the-good": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "olaf-guthfrithson": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "olaf-ii-haraldsson": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "ragnar-lothbrok": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "tostig-godwinson": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-brunanburh": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-edington": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-hafrsfjord": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "battle-of-stamford-bridge": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-stiklestad": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-svolder": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "battle-of-fulford": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-hastings": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "house-of-fairhair": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "house-of-jelling": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "house-of-ui-imair": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "house-of-wessex": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "dane-axe": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "gjermundbu-helmet": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "round-shield": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "sutton-hoo-helmet": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "viking-sword": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-axe": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "buckler": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "coppergate-helmet": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "kite-shield": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "mail-armor": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "nasal-helmet": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "seax": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "shield": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "spangenhelm": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "spear": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "ulfberht-swords": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "gainsborough": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "kingdom-of-denmark": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "kingdom-of-england": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "kingdom-of-norway": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "kingdom-of-scotland": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "kingdom-of-wessex": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "north-sea-empire": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "northumbria": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "rogaland": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "shaftesbury": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "stainmore": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "stamford-bridge": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "stiklestad": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "svolder": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      }
+    ],
+    "winchester-cathedral": [
+      {
+        "slug": "viking-age",
+        "title": "The Viking Age"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-hattin": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "first-crusade-called": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "fourth-crusade": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "siege-of-constantinople-1204": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "third-crusade": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "battle-of-arsuf": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "battle-of-grunwald": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "battle-of-las-navas-de-tolosa": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-pelagonia": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "fall-of-constantinople": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      },
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "recovery-of-constantinople": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "crusader-states": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "kingdom-of-jerusalem": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "ayyubid-sultanate": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "byzantine-empire": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "chalus": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "constantinople": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "damascus": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "empire-of-nicaea": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "grand-duchy-of-lithuania": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "kingdom-of-france": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "kingdom-of-poland": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "latin-empire": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "oxford": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "papacy": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "principality-of-achaea": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "seljuk-turks": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "tikrit": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "knights-hospitaller": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "knights-templar": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "order-of-saint-lazarus": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "order-of-st-thomas-of-acre": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "teutonic-order": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "livonian-brothers-of-the-sword": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "livonian-order": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "order-of-christ": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "order-of-dobrzyn": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "order-of-montesa": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "order-of-montjoy": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "bernard-of-clairvaux": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "enrico-dandolo": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "kerbogha": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "richard-the-lionheart": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "saladin": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "adhemar-of-le-puy": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "baldwin-i-of-jerusalem": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "baldwin-ii-of-jerusalem": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "baldwin-iv-of-jerusalem": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "baybars": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "bohemond-i-of-antioch": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "frederick-i-barbarossa": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "frederick-ii-holy-roman-emperor": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "fulcher-of-chartres": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "gerard-thom": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "godfrey-of-bouillon": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "guy-of-lusignan": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "hermann-von-salza": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "hugh-de-payns": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "jacques-de-molay": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "louis-ix-of-france": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "melisende-of-jerusalem": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "michael-viii-palaiologos": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "peter-the-hermit": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "philip-ii-of-france": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "pope-clement-v": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "pope-eugenius-iii": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "shroud-of-turin": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "arming-sword": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "falchion": [
+      {
+        "slug": "crusades",
+        "title": "The Crusades"
+      }
+    ],
+    "rashidun-caliphate": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "sultanate-of-rum": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "abbasid-caliphate": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "antioch": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "avar-khaganate": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "despotate-of-epirus": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "emirate-of-crete": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "first-bulgarian-empire": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "hamdanid-emirate-of-aleppo": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "kievan-rus": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      },
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "manzikert": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "ostrogothic-kingdom": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "ottoman-empire": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "rome": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "sasanian-empire": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "umayyad-caliphate": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      },
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "vandal-kingdom": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-bapheus": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-manzikert": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-myriokephalon": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-yarmouk": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "gothic-war": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "siege-of-constantinople-626": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "siege-of-constantinople-717": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "vandalic-war": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-ad-decimum": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-akroinon": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-kleidion": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-lalakaon": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-levounion": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-nineveh": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-sirmium": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-taginae": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-tours": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      },
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-tricamarum": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "fall-of-western-rome": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "siege-of-antioch-969": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "siege-of-chandax": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "siege-of-rome-537": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "basil-ii": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "belisarius": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "heraclius": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "justinian-i": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "alexios-i-komnenos": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "alp-arslan": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "constantine-vii": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "constantine-xi-palaiologos": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "gelimer": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "john-i-tzimiskes": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "khalid-ibn-al-walid": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "khosrow-ii": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "kilij-arslan-i": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "kilij-arslan-ii": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "leo-iii-the-isaurian": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "manuel-i-komnenos": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "mehmed-ii": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "narses": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "nikephoros-ii-phokas": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "orhan": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "osman-i": [
+      {
+        "slug": "byzantine-warfare",
+        "title": "The Byzantine Empire at War"
+      }
+    ],
+    "battle-of-agincourt": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-castillon": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-crecy": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-formigny": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-patay": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-poitiers": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "battle-of-verneuil": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "hundred-years-war": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "siege-of-orleans": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "siege-of-rouen": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "joan-of-arc": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "charles-d-albret": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "christine-de-pizan": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "edward-iii-of-england": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "edward-the-black-prince": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "henry-v-of-england": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "john-ii-of-france": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "philip-vi-of-france": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "longbow": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "arquebus": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "hand-cannon": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "war-bow": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "agincourt": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "aquitaine": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "crecy": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "domremy": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "duchy-of-normandy": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "gascony": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "paris": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "poitiers": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      }
+    ],
+    "rouen": [
+      {
+        "slug": "hundred-years-war",
+        "title": "The Hundred Years' War"
+      },
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "norman-conquest": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "edward-the-confessor": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "william-the-conqueror": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "empress-matilda": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "henry-i-of-england": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "stephen-of-england": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "william-ii-of-england": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "house-of-normandy": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "falaise": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "hastings": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "westminster": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "lance": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "bayeux-tapestry": [
+      {
+        "slug": "norman-conquest",
+        "title": "The Norman Conquest"
+      }
+    ],
+    "battle-of-legnica": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "battle-of-mohi": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "battle-of-the-kalka-river": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "battle-of-the-sit-river": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "siege-of-kyiv": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "siege-of-ryazan": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "siege-of-vladimir": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "battle-of-legnano": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "battle-of-nicopolis": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "subutai": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "alexander-nevsky": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "batu-khan": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "bela-iv-of-hungary": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "mstislav-the-bold": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "house-of-borjigin": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "cumans": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "novgorod": [
+      {
+        "slug": "mongol-invasions",
+        "title": "The Mongol Invasions"
+      }
+    ],
+    "al-andalus": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "almohad-caliphate": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "caliphate-of-cordoba": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "granada": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "kingdom-of-aragon": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "kingdom-of-castile": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "kingdom-of-leon": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "kingdom-of-portugal": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "las-navas-de-tolosa": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "lisbon": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "valencia": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-ourique": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-sao-mamede": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "siege-of-lisbon": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-aljubarrota": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-covadonga": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-sagrajas": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "battle-of-simancas": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "conquest-of-cordoba": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "conquest-of-seville": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "conquest-of-valencia": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "fall-of-granada": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "abd-al-rahman-iii": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "el-cid": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "abd-al-rahman-al-ghafiqi": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "afonso-i-of-portugal": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "alfonso-vi-of-leon-and-castile": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "alfonso-viii-of-castile": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "muhammad-xii-of-granada": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "muhammad-al-nasir": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "teresa-of-leon": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "yusuf-ibn-tashfin": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "almoravid-dynasty": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ],
+    "nasrid-dynasty": [
+      {
+        "slug": "reconquista",
+        "title": "The Reconquista"
+      }
+    ]
+  }
+}

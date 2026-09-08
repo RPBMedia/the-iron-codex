@@ -45,6 +45,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
 const distDir = path.join(root, 'client', 'dist')
 const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const { topics, topicsByArticle } = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'topics.json'), 'utf8'))
 
 const SITE = 'https://www.theironcodex.org'
 const SITE_NAME = 'The Iron Codex'
@@ -257,7 +258,15 @@ for (const [collection, arr] of Object.entries(data)) {
 
     writePage(`${pub}/${a.id}.html`, {
       head: buildHead({ title, description, canonical: url, image: a.image, type: 'article', jsonLd: [entity, breadcrumbs] }),
-      body: buildBody({ heading: a.name, lead, sections, links: related }),
+      body: buildBody({
+        heading: a.name,
+        lead,
+        sections,
+        links: [
+          ...(topicsByArticle[a.id] ?? []).map((t) => ({ label: t.title, href: `/topics/${t.slug}` })),
+          ...related
+        ]
+      }),
       inlineArticle: { collection: pub, id: a.id, article: enrichArticle(a, data) }
     })
     urls.push({ loc: url, priority: '0.8' })
@@ -360,6 +369,103 @@ writePage('archive.html', {
   body: buildBody({ heading: 'Full index', lead: `Every article in the archive, A to Z.`, links: archiveLinks })
 })
 urls.push({ loc: `${SITE}/archive`, priority: '0.9' })
+pages++
+
+/** A topic has no image of its own; borrow the first member article's. */
+function index0Image(topic) {
+  for (const k of ['events', 'people', 'locations', 'weapons-armor', 'houses', 'orders', 'artifacts']) {
+    for (const m of topic.members[k] ?? []) {
+      const found = (data[k === 'people' ? 'characters' : k === 'weapons-armor' ? 'weaponsArmor' : k] ?? [])
+        .find((a) => a.id === m.id)
+      if (found?.image) return found.image
+    }
+  }
+  return null
+}
+
+// --- 3b. topic landing pages (Track C M3) ---------------------------------
+//
+// These are the pages built to rank for a SUBJECT rather than a category, and
+// they carry real prose as well as links — a page that is only a list is thin
+// content whatever the links are.
+//
+// No inlined data payload is needed: the SPA imports the topics as a generated
+// module, so it renders them with no API call at all.
+
+const TOPIC_GROUP_ORDER = ['events', 'people', 'locations', 'houses', 'orders', 'weapons-armor', 'artifacts']
+
+for (const topic of topics) {
+  const url = `${SITE}/topics/${topic.slug}`
+  const sections = [{ title: null, paragraphs: topic.intro }]
+  const memberLinks = TOPIC_GROUP_ORDER
+    .filter((k) => topic.members[k]?.length)
+    .flatMap((k) => topic.members[k].map((m) => ({ label: m.name, href: `/${k}/${m.id}` })))
+
+  writePage(`topics/${topic.slug}.html`, {
+    head: buildHead({
+      title: `${topic.title} — ${SITE_NAME}`,
+      description: clamp(topic.blurb),
+      canonical: url,
+      image: index0Image(topic),
+      type: 'article',
+      jsonLd: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: topic.title,
+          description: topic.blurb,
+          url,
+          isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE },
+          mainEntity: {
+            '@type': 'ItemList',
+            numberOfItems: topic.count,
+            itemListElement: memberLinks.slice(0, 30).map((l, i) => ({
+              '@type': 'ListItem', position: i + 1, name: l.label, url: `${SITE}${l.href}`
+            }))
+          }
+        },
+        {
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: SITE },
+            { '@type': 'ListItem', position: 2, name: 'Topics', item: `${SITE}/topics` },
+            { '@type': 'ListItem', position: 3, name: topic.title, item: url }
+          ]
+        }
+      ]
+    }),
+    body: buildBody({ heading: topic.heading, lead: topic.blurb, sections, links: memberLinks })
+  })
+  urls.push({ loc: url, priority: '0.9' })
+  pages++
+}
+
+const topicsDescription = clamp(
+  `The Iron Codex organised by subject: the Viking age, the crusades, Byzantine warfare, the Hundred Years' War, the Norman Conquest, the Mongol invasions and the Reconquista.`
+)
+writePage('topics.html', {
+  head: buildHead({
+    title: `Topics — ${SITE_NAME}`,
+    description: topicsDescription,
+    canonical: `${SITE}/topics`,
+    jsonLd: [{
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: `Topics — ${SITE_NAME}`,
+      description: topicsDescription,
+      url: `${SITE}/topics`,
+      isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE }
+    }]
+  }),
+  body: buildBody({
+    heading: 'Topics',
+    lead: 'The archive organised by subject rather than by category.',
+    sections: [{ title: null, paragraphs: topics.map((t) => `${t.heading}: ${t.blurb}`) }],
+    links: topics.map((t) => ({ label: t.heading, href: `/topics/${t.slug}` }))
+  })
+})
+urls.push({ loc: `${SITE}/topics`, priority: '0.9' })
 pages++
 
 // --- 4. utility routes: reachable, but never indexed -----------------------

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useNavigate, useLocation, useParams } from 'react-router-dom'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
+import { topicsForArticle } from '../lib/topics.js'
 import ZoomableImage from '../components/ZoomableImage.jsx'
 import { getArticle } from '../lib/api.js'
 import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
@@ -43,6 +44,26 @@ function takeInlined(collection, id) {
   if (inlinedArticle.collection !== collection || inlinedArticle.id !== id) return null
   inlinedConsumed = true
   return inlinedArticle.article
+}
+
+/**
+ * "Part of" — the article's link back to the subjects it belongs to.
+ *
+ * This is what makes the topic clusters bidirectional. A reader who arrives on
+ * one battle from a search can reach the whole subject, and the link graph
+ * points both ways instead of only outward from the hub.
+ */
+function TopicLinks({ id }) {
+  const topics = topicsForArticle(id)
+  if (!topics.length) return null
+  return (
+    <p className="article-topics">
+      <span className="eyebrow">Part of</span>
+      {topics.map((t) => (
+        <Link key={t.slug} className="article-topic-link" to={`/topics/${t.slug}`}>{t.title}</Link>
+      ))}
+    </p>
+  )
 }
 
 export default function DetailPage() {
@@ -484,6 +505,7 @@ function StandardContent({ article }) {
         ))
       )}
       <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
@@ -645,6 +667,7 @@ function OrderContent({ article }) {
       {article.timeline?.length ? <Timeline items={article.timeline} /> : null}
       {article.myths && <MythList items={article.myths} />}
       <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
@@ -833,6 +856,7 @@ function EventContent({ article }) {
         <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
       ))}
       <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
@@ -885,6 +909,7 @@ function LocationContent({ article }) {
       {/* Kingdom/polity articles carry a medieval timeline like people do. */}
       <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
@@ -978,6 +1003,7 @@ function HouseContent({ article }) {
       <HouseCadetBranches branches={article.cadetBranches} article={article} />
       <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
     </>
   )
@@ -1165,7 +1191,8 @@ function PersonContent({ article }) {
       </main>
       <aside className="person-side-rail">
         <Timeline items={article.timeline} />
-        <RelatedEntries groups={article.relatedEntries} />
+        <TopicLinks id={article.id} />
+      <RelatedEntries groups={article.relatedEntries} />
       </aside>
     </div>
   )
