@@ -854,6 +854,15 @@ app.get('/api/:collection/:id', (req, res) => {
   res.json(enrichArticle(article, collections()))
 })
 
+// API responses must be CRAWLABLE (pages fetch them to render) but never
+// INDEXABLE (they are JSON, not pages). robots.txt cannot express that
+// distinction — it only blocks fetching, which is what caused the soft-404s on
+// every hub page. This header is the mechanism that can.
+app.use('/api', (_req, res, next) => {
+  res.set('X-Robots-Tag', 'noindex')
+  next()
+})
+
 app.use(express.static(clientDist))
 
 /**

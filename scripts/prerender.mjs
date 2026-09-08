@@ -395,9 +395,26 @@ writeFileSync(path.join(distDir, 'sitemap.xml'),
   ).join('\n') +
   `\n</urlset>\n`)
 
+// `/api/` is deliberately NOT disallowed, and that is load-bearing.
+//
+// It WAS disallowed when robots.txt was first written, and it caused Google to
+// report "Page cannot be indexed: Soft 404" on /archive. Googlebot obeys
+// robots.txt for the subresources a page fetches while rendering, so blocking
+// /api/ meant every hub page rendered EMPTY for Google: /archive collapsed from
+// 785 links to 1, and /people from a full list to zero characters. Google saw a
+// blank page and correctly concluded it was an error page.
+//
+// Google's guidance is explicit — never block resources needed to render the
+// page. The JSON is kept out of the index by an `X-Robots-Tag: noindex` header
+// on /api responses instead, which is the correct mechanism: it permits
+// fetching while forbidding indexing. robots.txt cannot express that.
 writeFileSync(path.join(distDir, 'robots.txt'),
-  `# ${SITE_NAME}\nUser-agent: *\nAllow: /\n\n` +
-  `Disallow: /api/\nDisallow: /search\nDisallow: /login\nDisallow: /signup\n` +
+  `# ${SITE_NAME}\n` +
+  `# /api/ is intentionally crawlable: the pages fetch it to render, and blocking\n` +
+  `# it makes every hub page look like a soft 404. The JSON is kept out of the\n` +
+  `# index with an X-Robots-Tag header instead.\n` +
+  `User-agent: *\nAllow: /\n\n` +
+  `Disallow: /search\nDisallow: /login\nDisallow: /signup\n` +
   `Disallow: /favorites\nDisallow: /auth/\n\n` +
   `Sitemap: ${SITE}/sitemap.xml\n`)
 

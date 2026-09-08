@@ -33,7 +33,14 @@ const read = (rel) => (existsSync(path.join(dist, rel)) ? readFileSync(path.join
 // --- required non-HTML artefacts ------------------------------------------
 const robots = read('robots.txt')
 if (!robots) fail('robots.txt', 'missing')
-else if (!robots.includes(`Sitemap: ${SITE}/sitemap.xml`)) fail('robots.txt', 'does not point at the sitemap')
+else {
+  if (!robots.includes(`Sitemap: ${SITE}/sitemap.xml`)) fail('robots.txt', 'does not point at the sitemap')
+  // Blocking /api/ makes every hub page render empty for Googlebot, which
+  // reports it as "Page cannot be indexed: Soft 404". Found on /archive.
+  if (/^\s*Disallow:\s*\/api\/?\s*$/mi.test(robots)) {
+    fail('robots.txt', 'disallows /api/ — the pages fetch it to render, so Googlebot renders them EMPTY and reports a soft 404. Use X-Robots-Tag: noindex on the API instead.')
+  }
+}
 
 const sitemap = read('sitemap.xml')
 if (!sitemap) fail('sitemap.xml', 'missing')
