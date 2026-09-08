@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-08 (**Track C STARTED** — M1 SEO audit done. Track A complete 14/14; Track D closed; auth confirmed working in production on both sign-in paths.)_
+_Last updated: 2026-09-08 (**TRACK C COMPLETE — M1-M14 shipped, M15 approval gate reached and stopped at.** Track A complete 14/14; Track D closed. Remaining archive work is optional content polish.)_
 
 ---
 
@@ -795,7 +795,23 @@ Hard constraints to carry into the work:
 - [x] **M12** (2026-09-08). Organic promotion plan — same document. Core insight: compete where the archive is genuinely better (Bapheus, Myriokephalon, Kilij Arslan II) rather than against Wikipedia on Hastings. Zero external links is the real constraint, and the plan says so.
 - [x] **M13** (2026-09-08). Tests — 13 tests, zero dependencies (`node:test`). Cover the admin boundary (including that an unset ADMIN_EMAIL means nobody is admin, not everybody) and the analytics privacy guarantees (referrers reduced to host; paths carrying queries, fragments or markup rejected). `npm test`, and they now gate the build.
 - [x] **M14** (2026-09-08). Validation — tests 13/13, content-quality, images, SEO gate, build, server syntax, and the integration audit all clean: 0 orphans, 0 mis-sorted events, 0 stale notes, 0 unexplained commanders.
-- [ ] M15 — **APPROVAL GATE — stop and wait**
+- [x] **M15 — APPROVAL GATE REACHED, 2026-09-08. STOPPED, as the brief requires.**
+      **Track C M1-M14 are complete.** Nothing beyond this point has been done and
+      nothing will be without an explicit decision.
+      **Nothing paid was activated**: no advertising account created, no budget
+      set, no billing touched, no campaign started. `MARKETING.md` is a proposal,
+      and its own recommendation is to spend nothing yet and revisit in December
+      with real Search Console query data.
+      **No third-party tracking was added.** Analytics is first-party, in the
+      Upstash the archive already ran — no vendor, no cookies, no consent banner,
+      no new bill.
+      **OWNER ACTION REQUIRED — one environment variable.** `ADMIN_EMAIL` must be
+      set to `rui.palma.baiao@gmail.com` in the Vercel **Production** environment
+      before the Insights link appears. Until then `isAdmin` is false for
+      everyone, which is the correct and safe default. Set it in Vercel →
+      Project → Settings → Environment Variables, then redeploy (env changes do
+      not apply to an existing deployment).
+      **Awaiting the owner on:** whether to run any paid test at all, and when.
 
 _Note: a few lines of the pasted brief arrived garbled ("Meta descriptionlade",
 "Server-rendered content availabilityFox", "Internal links/antlr", and a stray
