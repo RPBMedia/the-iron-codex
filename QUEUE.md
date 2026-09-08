@@ -806,6 +806,18 @@ with the owner if any of those bullets mattered specifically._
 
 ## Open — small, ready to run
 
+- **REMINDER (owner, for 2026-09-09): request indexing for the three topic pages**
+  that hit the Search Console daily quota on 2026-09-08 —
+  `https://www.theironcodex.org/topics`,
+  `https://www.theironcodex.org/topics/viking-age`,
+  `https://www.theironcodex.org/topics/crusades`.
+  While in Search Console, also check the **Sitemaps** page reads Status
+  "Success" with ~817 discovered URLs, and that **Indexing → Pages** has begun
+  showing indexed pages. Report anything saying Soft 404, Blocked by robots.txt,
+  Server error or Redirect error. A session cron was set for the same thing, but
+  it is session-only and dies with the session — this line is the durable copy.
+
+
 - **Auth storage hardening — small, and it makes "is sign-in stable?" answerable
   in one request.** The user store falls back through Upstash → Supabase → a local
   JSON file. That ordering is right for development and silent in production: if

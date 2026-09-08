@@ -335,6 +335,66 @@ The number climbing over the following weeks is the signal that this worked.
 
 ---
 
+## When you add new articles
+
+**Almost all of this is automatic.** Every deploy regenerates the whole SEO
+surface from `history.json`, so a new article gets its page, metadata, structured
+data, sitemap entry, hub link and topic membership without anyone doing anything.
+
+What the build runs, in order, on every deploy:
+
+```
+build-topics.mjs   ->  rebuilds the seven topic clusters
+vite build         ->  the app
+prerender.mjs      ->  regenerates all 823 pages + sitemap.xml + robots.txt
+check-seo.mjs      ->  fails the deploy if anything is wrong
+```
+
+So a new article automatically gets:
+
+- its own prerendered page with title, description, canonical, Open Graph,
+  Twitter card and JSON-LD
+- a `<loc>` entry in `sitemap.xml`
+- a link from its collection hub and from `/archive`
+- membership in a topic, **if** an existing article in that topic links to it
+  (membership expands one hop through `relatedEntries`)
+
+### The one command to run when you add content
+
+```bash
+npm run content
+```
+
+This does two things that cannot run on Vercel:
+
+1. **Updates `content-dates.json`** — per-article last-modified dates. Without
+   it the sitemap would stamp every URL with the build date, telling Google all
+   817 pages changed on every deploy. Google treats `lastmod` as a hint and
+   stops trusting a site that obviously lies, which costs the one thing the field
+   is for: prompt recrawling of the pages that *did* change. This hashes each
+   article and only re-dates the ones whose content actually moved.
+2. **Generates social cards** for any new locally hosted image over ~600 KB, the
+   WhatsApp preview limit.
+
+Commit the changed files along with the content. **If you forget, the build
+fails and tells you** — the oversized-image check is a hard gate, so nothing
+broken can ship.
+
+### Do you need to touch Search Console?
+
+**No.** Google re-reads your sitemap on its own schedule and will find new URLs
+there. The only reason to open Search Console is if you publish something you
+particularly want indexed quickly — then use **Request indexing** on that one
+URL. There is a daily quota of around ten, so it is for a handful of pages, never
+for a batch.
+
+### If you add a new *topic*
+
+Topics are defined in `scripts/build-topics.mjs`, with hand-picked seed articles
+and hand-written prose. Adding one is a code change, not a content change — ask
+me and I will do it. The gate requires 400+ characters of prose and 10+ linked
+articles, so a thin topic page cannot ship.
+
 ## Troubleshooting: what the scary messages actually mean
 
 | Message in Search Console | Means | Action |

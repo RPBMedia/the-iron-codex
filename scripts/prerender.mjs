@@ -46,6 +46,11 @@ const root = path.join(__dirname, '..')
 const distDir = path.join(root, 'client', 'dist')
 const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
 const { topics, topicsByArticle } = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'topics.json'), 'utf8'))
+// Real per-article edit dates, so the sitemap does not claim all 817 pages
+// changed on every deploy — which teaches Google to ignore lastmod entirely.
+const contentDates = existsSync(path.join(root, 'server', 'data', 'content-dates.json'))
+  ? JSON.parse(readFileSync(path.join(root, 'server', 'data', 'content-dates.json'), 'utf8')).articles
+  : {}
 
 const SITE = 'https://www.theironcodex.org'
 const SITE_NAME = 'The Iron Codex'
@@ -269,7 +274,7 @@ for (const [collection, arr] of Object.entries(data)) {
       }),
       inlineArticle: { collection: pub, id: a.id, article: enrichArticle(a, data) }
     })
-    urls.push({ loc: url, priority: '0.8' })
+    urls.push({ loc: url, priority: '0.8', lastmod: contentDates[`${pub}/${a.id}`]?.date })
     pages++
   }
 }
@@ -511,11 +516,15 @@ pages++
 // --- 6. sitemap.xml and robots.txt ----------------------------------------
 
 const today = new Date().toISOString().slice(0, 10)
+// A hub's lastmod is the most recent edit among the articles it lists, so an
+// index page only claims to have changed when something on it actually did.
+const newestArticleDate = Object.values(contentDates).reduce(
+  (max, v) => (v?.date && v.date > max ? v.date : max), '1970-01-01')
 writeFileSync(path.join(distDir, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
-  urls.map(({ loc, priority }) =>
-    `  <url>\n    <loc>${esc(loc)}</loc>\n    <lastmod>${today}</lastmod>\n    <priority>${priority}</priority>\n  </url>`
+  urls.map(({ loc, priority, lastmod }) =>
+    `  <url>\n    <loc>${esc(loc)}</loc>\n    <lastmod>${lastmod || newestArticleDate || today}</lastmod>\n    <priority>${priority}</priority>\n  </url>`
   ).join('\n') +
   `\n</urlset>\n`)
 
