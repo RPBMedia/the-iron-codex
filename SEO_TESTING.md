@@ -335,6 +335,45 @@ The number climbing over the following weeks is the signal that this worked.
 
 ---
 
+## Troubleshooting: what the scary messages actually mean
+
+| Message in Search Console | Means | Action |
+| --- | --- | --- |
+| **"URL is not on Google"** | Not indexed *yet* | None. Normal for weeks. |
+| **"Discovered — currently not indexed"** | Google found it, hasn't got to it | None. Normal for a new site. |
+| **"Crawled — currently not indexed"** | Crawled, not judged worth indexing yet | None early on. Watch if it persists past ~2 months. |
+| **"Indexing request rejected"** | Live test found a problem | Click **View live test**, not Dismiss. It names the real reason. |
+| **"Page cannot be indexed: Soft 404"** | Google rendered the page and saw **nothing** | Real problem. See below. |
+| **"Blocked by robots.txt"** | Self-explanatory | Real problem. |
+| **"Server error (5xx)"** | The site failed | Real problem. |
+
+### The soft-404 trap, which we hit on 2026-09-08
+
+`/archive` reported **"Page cannot be indexed: Soft 404"** while showing
+*Crawl allowed: Yes, Page fetch: Successful, Indexing allowed: Yes*. The page
+was fine. `robots.txt` was not: it carried `Disallow: /api/`.
+
+**Googlebot obeys robots.txt for the resources a page fetches while rendering.**
+Every hub page gets its data from `/api`, so Googlebot rendered them empty:
+
+```
+/archive   785 links, 26,554 chars   ->   1 link, 238 chars
+/people    full list                 ->   0 links, 0 characters
+```
+
+Google saw a blank page and correctly called it an error page.
+
+**Two lessons worth keeping:**
+
+1. **Never block resources a page needs to render** — APIs, CSS, JavaScript. To
+   keep JSON out of the *index* while still allowing it to be *fetched*, use an
+   `X-Robots-Tag: noindex` response header. robots.txt cannot express that
+   distinction; it only blocks fetching.
+2. **A local browser check cannot catch this**, because Chrome ignores
+   robots.txt. Every headless render looked perfect. Only Google's own verdict
+   exposed it — which is the argument for actually doing the Search Console
+   checks rather than trusting the build gate alone.
+
 ## What to expect, honestly
 
 | When | What is normal |
