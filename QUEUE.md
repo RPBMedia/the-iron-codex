@@ -736,6 +736,25 @@ Hard constraints to carry into the work:
       characters of crawlable text, an `<h1>`, sitemap membership, hub linkage,
       noindex on utility pages, and the two `vercel.json` settings the whole
       scheme depends on. Negative-tested three ways before being trusted.
+      **TWO PRODUCTION BUGS FOUND BY CHECKING THE LIVE SITE, not the config.**
+      Removing the catch-all rewrite did not produce real 404s: **Vercel detects
+      Vite and injects its own SPA fallback**, so unknown URLs still returned 200
+      serving the home page. `"framework": null` did not disable it either —
+      verified live, twice. The fix is a catch-all rewrite to `/api/index`:
+      Vercel checks the filesystem *before* rewrites, so all 815 prerendered
+      pages still come from the CDN and only genuinely unknown URLs reach the
+      function, which answers them with a real 404.
+      Second: **`/index` → `/archive` never fired**, because `cleanUrls`
+      normalises `/index` to `/` before custom redirects run. The rule was
+      removed rather than left looking correct; the header points at `/archive`
+      and an old `/index` link lands on the home page.
+      **Production verified**: 200 on pages and hubs, 404 on unknown URLs and
+      unknown API paths, 308 on all legacy URLs, `robots.txt` as `text/plain`
+      and `sitemap.xml` as `application/xml`.
+      **`SEO_TESTING.md`** written for the owner, who asked for it: three levels
+      (local gate → live spot checks → Search Console), what "good" looks like,
+      and honest timelines — nothing is wrong if traffic is zero in week one.
+
 - [ ] M3 — Internal linking and curated landing pages
 - [ ] M4 — Performance and crawlability
 - [ ] M5 — Search Console + Bing preparation
