@@ -3178,67 +3178,140 @@ a.tree-person:hover .tree-person-name {
 /* ---------------------------------------------------------------------------
    Topic landing pages (Track C M3).
 
-   Kept deliberately plain: these pages are dense lists whose job is to get a
-   reader to the right article quickly, so the styling gets out of the way of the
-   scanning. The card grid reuses `.list-grid` from the archive pages.
+   These follow the archive's existing convention rather than inventing one: a
+   LIGHT card on the dark page, exactly like `.article-card`. The first version
+   used a dark translucent card and skipped `.section-heading`, so the headings
+   and body text fell back to dark-on-dark and were close to unreadable — and the
+   cards inverted against the page's own light lower half.
    --------------------------------------------------------------------------- */
 
 .topic-card {
-  display: block;
-  padding: 22px 24px;
-  border: 1px solid rgba(215, 217, 221, 0.25);
-  border-radius: 10px;
-  background: rgba(20, 20, 24, 0.55);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  padding: 26px 28px;
+  border: 1px solid rgba(12, 12, 15, 0.12);
+  border-radius: 6px;
+  background: #fffaf0;
+  color: var(--black);
   text-decoration: none;
-  color: inherit;
-  transition: border-color 140ms ease, background 140ms ease;
+  box-shadow: 0 20px 60px rgba(8, 8, 10, 0.1);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 }
 
 .topic-card:hover,
 .topic-card:focus-visible {
-  border-color: var(--gold-soft);
-  background: rgba(20, 20, 24, 0.78);
+  border-color: rgba(242, 193, 78, 0.55);
+  transform: translateY(-4px);
+  box-shadow: 0 26px 70px rgba(8, 8, 10, 0.17);
 }
 
 .topic-card h2 {
-  margin: 0 0 10px;
-  font-size: 1.35rem;
-  color: var(--paper, #f2eee4);
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 .topic-card p {
-  margin: 0 0 8px;
-  font-size: 0.94rem;
+  margin: 0;
+  color: rgba(32, 32, 36, 0.82);
+  font-size: 0.96rem;
 }
 
+.topic-card-count {
+  margin-top: 4px;
+  color: var(--red);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* The intro prose sits on the dark upper half of the page, so it takes the same
+   treatment as a section-heading paragraph. */
+.topic-intro {
+  max-width: 760px;
+  margin-bottom: 8px;
+}
+
+.topic-intro p {
+  margin: 0 0 16px;
+  color: var(--silver);
+  font-size: 1.05rem;
+}
+
+.topic-count {
+  color: var(--gold) !important;
+  font-size: 0.78rem !important;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* The page background fades from dark at the top to paper lower down, so light
+   text on the member lists disappeared entirely below the fold — the first
+   version was unreadable from "Events" onwards.
+   
+   Each group is therefore a LIGHT PANEL with dark text, the same idiom as
+   `.article-card`. That makes the contrast deterministic instead of depending on
+   where the group happens to land in the gradient. */
 .topic-group {
-  margin-top: 42px;
+  margin-top: 28px;
+  padding: 26px 30px 12px;
+  border: 1px solid rgba(12, 12, 15, 0.12);
+  border-radius: 6px;
+  background: #fffaf0;
+  box-shadow: 0 20px 60px rgba(8, 8, 10, 0.1);
+}
+
+.topic-group h2 {
+  margin: 0 0 20px;
+  color: var(--black);
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
 }
 
 .topic-list {
-  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 30px;
   margin: 0;
   padding: 0;
-  display: grid;
-  gap: 12px;
+  list-style: none;
 }
 
 .topic-list li {
-  padding-bottom: 12px;
-  border-bottom: 1px solid rgba(215, 217, 221, 0.14);
+  min-width: 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(12, 12, 15, 0.1);
 }
 
 .topic-list a {
-  font-weight: 600;
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: none;
 }
 
-/* The summary is the reason a reader picks one link over another, so it sits on
-   its own line rather than being crammed alongside the title. */
+.topic-list a:hover,
+.topic-list a:focus-visible {
+  color: var(--red);
+  text-decoration: underline;
+}
+
+/* The summary is why a reader picks one link over another, so it gets its own
+   line rather than being crammed alongside the title. */
 .topic-list-summary {
   display: block;
-  margin-top: 4px;
-  font-size: 0.9rem;
-  opacity: 0.72;
+  margin-top: 5px;
+  color: rgba(32, 32, 36, 0.72);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 760px) {
+  .topic-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* "Part of <subject>" on an article page — the back-link that makes the topic

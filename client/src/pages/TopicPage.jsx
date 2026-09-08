@@ -27,19 +27,21 @@ const GROUP_ORDER = ['events', 'people', 'locations', 'houses', 'orders', 'weapo
 export function TopicsIndex() {
   return (
     <section className="content-section page-section">
-      <p className="eyebrow">Subjects</p>
-      <h1>Topics</h1>
-      <p>
-        The archive organised by subject rather than by category — each page gathers
-        everything held on one period or conflict, across people, battles, places,
-        dynasties and arms.
-      </p>
+      <div className="section-heading wide">
+        <p className="eyebrow">Subjects</p>
+        <h1>Topics</h1>
+        <p>
+          The archive organised by subject rather than by category — each page gathers
+          everything held on one period or conflict, across people, battles, places,
+          dynasties and arms.
+        </p>
+      </div>
       <div className="list-grid">
         {TOPICS.map((topic) => (
           <Link key={topic.slug} className="topic-card" to={`/topics/${topic.slug}`}>
             <h2>{topic.heading}</h2>
             <p>{topic.blurb}</p>
-            <p className="archive-count">{topic.count} articles</p>
+            <span className="topic-card-count">{topic.count} articles</span>
           </Link>
         ))}
       </div>
@@ -67,18 +69,21 @@ export default function TopicPage() {
 
   return (
     <section className="content-section page-section">
-      <p className="eyebrow">Subject</p>
-      <h1>{topic.heading}</h1>
+      <div className="section-heading wide">
+        <p className="eyebrow">Subject</p>
+        <h1>{topic.heading}</h1>
+      </div>
 
-      {topic.intro.map((paragraph, i) => (
-        <p key={i}>{paragraph}</p>
-      ))}
-
-      <p className="archive-count">{topic.count} articles in this subject</p>
+      <div className="topic-intro">
+        {topic.intro.map((paragraph, i) => (
+          <p key={i}>{paragraph}</p>
+        ))}
+        <p className="topic-count">{topic.count} articles in this subject</p>
+      </div>
 
       {groups.map(([key, list]) => (
         <div key={key} className="topic-group">
-          <h2 className="section-heading wide">{COLLECTION_LABEL[key] ?? key}</h2>
+          <h2>{COLLECTION_LABEL[key] ?? key}</h2>
           <ul className="topic-list">
             {list.map((item) => (
               <li key={item.id}>
@@ -91,7 +96,7 @@ export default function TopicPage() {
       ))}
 
       <div className="topic-group">
-        <h2 className="section-heading wide">Other subjects</h2>
+        <h2>Other subjects</h2>
         <ul className="topic-list">
           {TOPICS.filter((t) => t.slug !== topic.slug).map((t) => (
             <li key={t.slug}>
