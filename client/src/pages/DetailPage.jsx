@@ -17,21 +17,63 @@ const collectionLabels = {
   orders: 'Military Orders'
 }
 
+/**
+ * The article the prerenderer inlined into this exact page, if any.
+ *
+ * Read once at module load and then discarded, because it is only ever correct
+ * for the URL the browser actually landed on — after a client-side navigation to
+ * a different article it would be stale, which is why `takeInlined` checks the
+ * collection and id and can only ever return the payload once.
+ */
+const inlinedArticle = (() => {
+  if (typeof document === 'undefined') return null
+  const tag = document.getElementById('__ARTICLE__')
+  if (!tag) return null
+  try {
+    return JSON.parse(tag.textContent)
+  } catch {
+    return null
+  }
+})()
+
+let inlinedConsumed = false
+
+function takeInlined(collection, id) {
+  if (inlinedConsumed || !inlinedArticle) return null
+  if (inlinedArticle.collection !== collection || inlinedArticle.id !== id) return null
+  inlinedConsumed = true
+  return inlinedArticle.article
+}
+
 export default function DetailPage() {
   const { collection, id } = useParams()
   const navigate = useNavigate()
   const routerLocation = useLocation()
-  const [article, setArticle] = useState(null)
-  const [status, setStatus] = useState('loading')
+  // Seeded from the prerendered payload on a first load, so the very first
+  // render is the finished article rather than a spinner — no API round-trip,
+  // and nothing for a crawler to miss.
+  const [preloaded] = useState(() => takeInlined(collection, id))
+  const [article, setArticle] = useState(preloaded)
+  const [status, setStatus] = useState(preloaded ? 'ready' : 'loading')
 
   useEffect(() => {
+    let cancelled = false
+    const inlined = article && article.id === id ? article : takeInlined(collection, id)
+    if (inlined) {
+      setArticle(inlined)
+      setStatus('ready')
+      return
+    }
     setStatus('loading')
     getArticle(collection, id)
       .then((data) => {
+        if (cancelled) return
         setArticle(data)
         setStatus('ready')
       })
-      .catch(() => setStatus('error'))
+      .catch(() => { if (!cancelled) setStatus('error') })
+    return () => { cancelled = true }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [collection, id])
 
   if (status === 'loading') {

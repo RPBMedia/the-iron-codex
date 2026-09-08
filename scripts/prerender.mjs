@@ -35,6 +35,9 @@
  * which Vercel serves with an actual 404 status.
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+// The SAME enrichment the API applies, imported rather than reimplemented, so a
+// prerendered page and a live-fetched page can never disagree.
+import { enrichArticle } from '../server/article-enrichment.js'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -153,10 +156,29 @@ function buildBody({ heading, lead, sections = [], links = [] }) {
   return out.join('\n      ')
 }
 
-function writePage(relPath, { head, body }) {
+function writePage(relPath, { head, body, inlineArticle }) {
+  // Inlining the article's data is what stops React from replacing the
+  // prerendered prose with a loading spinner.
+  //
+  // Found by the owner testing a page in Search Console's URL Inspection: three
+  // of four expected strings were present and the ARTICLE TEXT was not. The raw
+  // HTML had 5,107 characters of it — but the tool shows the RENDERED DOM, and
+  // React was clearing #root, rendering <LoadingState/>, and only then fetching
+  // from /api. Google indexes the rendered result for a JavaScript app, so the
+  // page it saw had no content at all.
+  //
+  // With the data already in the document there is no round-trip and no loading
+  // state: React's first render is the finished article. It is also simply
+  // faster for real readers, who were all paying for that round-trip too.
+  //
+  // `<` is escaped because a literal `</script>` inside the JSON would end the
+  // element early. JSON.parse decodes it back.
+  const dataTag = inlineArticle
+    ? `<script id="__ARTICLE__" type="application/json">${JSON.stringify(inlineArticle).replace(/</g, '\\u003c')}</script>\n    `
+    : ''
   let html = shell
     .replace(/<title>[^<]*<\/title>/, head)
-    .replace('<div id="root"></div>', `<div id="root">\n      ${body}\n    </div>`)
+    .replace('<div id="root"></div>', `${dataTag}<div id="root">\n      ${body}\n    </div>`)
   const file = path.join(distDir, relPath)
   mkdirSync(path.dirname(file), { recursive: true })
   writeFileSync(file, html)
@@ -217,7 +239,8 @@ for (const [collection, arr] of Object.entries(data)) {
 
     writePage(`${pub}/${a.id}.html`, {
       head: buildHead({ title, description, canonical: url, image: a.image, type: 'article', jsonLd: [entity, breadcrumbs] }),
-      body: buildBody({ heading: a.name, lead, sections, links: related })
+      body: buildBody({ heading: a.name, lead, sections, links: related }),
+      inlineArticle: { collection: pub, id: a.id, article: enrichArticle(a, data) }
     })
     urls.push({ loc: url, priority: '0.8' })
     pages++
