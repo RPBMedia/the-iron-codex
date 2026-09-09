@@ -880,6 +880,52 @@ push. **If you want them back in the deploy, find the Node version first.**
 
 ## Open — small, ready to run
 
+### TOPIC PAGE LAYOUT — images beside the text (queued 2026-09-09, NOT started)
+
+Owner-reported from the live site, with screenshots. Two changes, both on topic
+pages (`/topics/<slug>`, e.g. `/topics/viking-age`).
+
+**1. The topic header becomes two columns.** Today the introduction runs down
+the left with the whole right-hand side empty. It should be: **image on the
+left, below the title; text on the right.** For the Viking Age that means an
+image depicting the period, not a generic one.
+
+**2. Every entry in the topic's own lists gets a thumbnail.** Under Events,
+People and Places the entries are currently title + text only. Each should
+instead be a container with **a small square image on the left and the text on
+the right** — the owner's words for the Battle of Hastings entry: "instead of
+the text only, it should have a container with an image on the left and the text
+on the right."
+
+**The image must be no taller than the container.** That is a hard constraint,
+stated explicitly: the thumbnail is sized to the row, never the other way
+around.
+
+Note the two directions differ deliberately — the topic HEADER puts the image
+left of the intro text, and each LIST ROW puts a square thumbnail left of its
+summary. Both end up image-left; do not "simplify" them into one component
+without checking they still read correctly at both sizes.
+
+**Before building, settle these — they are why this is not a five-minute job:**
+
+- **Where does each thumbnail come from?** Entries already carry images in
+  `history.json` for some collections and not others. Decide the fallback for an
+  entry with no image: a neutral placeholder, or omit the image column for that
+  row and let the text run full width. **Do not invent an image** to fill a gap,
+  and do not reuse an unrelated one.
+- **AI images still disclose themselves in the caption** — the existing rule
+  applies unchanged, and a thumbnail with no visible caption needs an answer for
+  where that disclosure lives (alt text is not disclosure).
+- **Mobile.** Two columns must collapse sensibly on a phone; a square thumbnail
+  beside two lines of text is fine, a 50/50 split is not.
+- **Weight.** 61 entries on the Viking Age page alone means 61 thumbnails —
+  lazy-load, size them properly, and check the page does not balloon. The
+  `check:images` gate and the 600 KB ceiling from the OG work are the reference
+  points.
+- Prerendered pages must still pass `npm run check:content-quality` and
+  `npm run check:images`.
+
+
 ### NEW ARTICLE + ARCHIVE AUDIT — Battle of Loudoun Hill (1307)
 
 **Queued by the owner 2026-09-09. Not started.** Two halves, and the second is
