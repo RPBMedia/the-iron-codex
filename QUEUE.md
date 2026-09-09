@@ -880,6 +880,33 @@ push. **If you want them back in the deploy, find the Node version first.**
 
 ## Open — small, ready to run
 
+### Insights chart needs a REAL tooltip on the daily bars (queued 2026-09-09)
+
+Owner request: hovering a yellow column should show that day's visit count.
+
+**Half of this already exists, which is why it reads as broken rather than
+missing.** `client/src/pages/InsightsPage.jsx:33` puts a native `title` on each
+`.insights-bar-slot` — `"2026-09-09: 12 views"`. The browser tooltip is real but
+useless in practice: it takes a second or two of stillness to appear, it is
+unstyled OS chrome that looks nothing like the archive, it cannot be positioned,
+and it never appears on touch at all.
+
+**Replace it with a proper tooltip:** appears immediately on hover, styled like
+the rest of the admin views, showing the date and the view count. Keyboard
+focus should show it too — the bars are currently not focusable, so that means
+making each slot focusable or providing an equivalent readout.
+
+**Accessibility note, worth handling in the same pass:** the chart container
+carries `role="img"` with an `aria-label` summarising the whole thing, which
+deliberately hides the individual bars from screen readers. If per-bar
+information becomes interactive, that decision needs revisiting — either drop
+`role="img"` and label each bar, or keep it and provide the numbers in a table
+beneath. Do not leave a control that only a mouse can reach.
+
+Small, self-contained, no data changes — the daily series is already fetched
+from `/api/insights?days=N`.
+
+
 ### TOPIC PAGE LAYOUT — images beside the text (queued 2026-09-09, NOT started)
 
 Owner-reported from the live site, with screenshots. Two changes, both on topic
