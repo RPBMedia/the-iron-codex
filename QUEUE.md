@@ -964,16 +964,18 @@ was added or corrected, whether the project docs were updated, and any reference
 left unlinked with the reason.
 
 
-- **REMINDER (owner, for 2026-09-09): request indexing for the three topic pages**
-  that hit the Search Console daily quota on 2026-09-08 —
-  `https://www.theironcodex.org/topics`,
-  `https://www.theironcodex.org/topics/viking-age`,
-  `https://www.theironcodex.org/topics/crusades`.
-  While in Search Console, also check the **Sitemaps** page reads Status
-  "Success" with ~817 discovered URLs, and that **Indexing → Pages** has begun
-  showing indexed pages. Report anything saying Soft 404, Blocked by robots.txt,
-  Server error or Redirect error. A session cron was set for the same thing, but
-  it is session-only and dies with the session — this line is the durable copy.
+- **DONE 2026-09-09 — the three topic pages are submitted and Search Console is
+  clean.** `/topics`, `/topics/viking-age` and `/topics/crusades` were indexed on
+  request once the daily quota reset, and the owner reports **all green**: no
+  Soft 404, no Blocked by robots.txt, no Server error, no Redirect error.
+
+  That closes the soft-404 saga end to end. The cause was `Disallow: /api/` in
+  robots.txt — Googlebot obeys robots.txt for RENDER SUBRESOURCES, so every hub
+  page rendered empty for the crawler while looking perfect in Chrome, which
+  ignores robots.txt entirely. `X-Robots-Tag: noindex` is the tool for "fetch
+  this but do not index it"; robots.txt cannot express that distinction.
+
+  Indexing itself takes days to weeks — no action, just patience.
 
 
 - **Auth storage hardening — small, and it makes "is sign-in stable?" answerable
