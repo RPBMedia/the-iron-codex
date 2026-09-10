@@ -1234,6 +1234,89 @@ Saule 1236 · Lake Peipus 1242 · La Forbie 1244 · Mansurah 1250 · Fariskur 12
 Durbe 1260 · Acre 1291 · Nicopolis 1396 · Grunwald 1410 · Vítkov Hill 1420 ·
 Domažlice 1431 · Varna 1444. **A minimum, not the scope.**
 
+### FIRST BARONS’ WAR (1215–1217) — full cluster (queued 2026-09-10, NOT started)
+
+**Queued by the owner. A cluster, not an article.** The war is absent entirely,
+which is a real hole in the medieval England archive. Shipping only the war page
+would repeat the mistake the Crusades track is fixing: **a conflict article whose
+constituent events do not exist is a table of contents for a book nobody wrote.**
+
+**M0 — AUDIT FIRST.** People (John, Henry III, William Marshal, Louis VIII,
+Philip II, Innocent III, Hubert de Burgh, Robert FitzWalter, Saer de Quincy,
+Ranulf de Blondeville, Falkes de Bréauté, William Longespée, Thomas of Perche,
+Eustace the Monk, Willikin of the Weald, Alexander II), houses (Plantagenet,
+Capetian), realms, locations (London, Runnymede, Rochester, Dover, Lincoln,
+Sandwich, Newark, Gloucester, Mountsorrel, Northampton, Winchester, Windsor) and
+existing events — **above all Magna Carta, which almost certainly already
+exists.** Report EXISTS / NEEDS UPDATE / MISSING before writing anything.
+
+**M1 — The war article + timeline.** `first-barons-war`. It must carry the
+paradox rather than smoothing it: the war grew out of the confrontation that
+produced Magna Carta, and **Magna Carta settled nothing** — neither side trusted
+it, Innocent III annulled it as extracted under coercion, and the rebels then
+invited a French prince to take the crown. Timeline spanning 1214 (Bouvines as
+background) through September 1217.
+
+**M2 — 1215.** Seizure of London (17 May), Runnymede — **connect the existing
+Magna Carta article, do not duplicate it**, and keep the process distinct across
+10/15/19 June rather than collapsing it into one day — and the **Siege of
+Rochester** (Oct–Nov, John in personal command, mining, the pig-fat episode
+**stated no further than the sources allow**).
+
+**M3 — 1216.** John’s winter campaign (why the rebels felt endangered enough to
+invite Louis), Louis’s landing in Kent (May), his proclamation in London, the
+**first Siege of Dover** (Hubert de Burgh holds; Dover never falls), John’s death
+at Newark (18 Oct), Henry III crowned at Gloucester (28 Oct) — **Westminster was
+in Louis’s hands**, which is why Gloucester — and the reissue of Magna Carta as
+a reconciliation instrument.
+
+**M4 — 1217 and the settlement.** Second Siege of Dover (Malvoisin; English
+Heritage calls it the **earliest recorded** trebuchet use in England — phrase it
+as that, not as the first ever), Mountsorrel, **Battle of Lincoln (20 May)** —
+Louis was NOT on the field, Perche killed, rebel leadership captured wholesale —
+**Battle of Sandwich (24 Aug)**, naval, Hubert de Burgh against Eustace the Monk,
+and the **Treaty of Lambeth** (alias Kingston, Sept 1217). **Be cautious with the
+payment to Louis; sources and reconstructions differ — no false precision in
+structured metadata.**
+
+**M5 — People.** Create only to full standard; **no thin stubs to satisfy
+backlinks.** Louis VIII needs the most care: King of France, Capetian, **claimant
+to the English throne — and never a crowned King of England.** He must not appear
+in any canonical list of English monarchs.
+
+**M6 — Discoverability sweep.** Conflict index, filters, search aliases (First
+Barons War / Barons War / Magna Carta war / Prince Louis invasion / French
+invasion 1216 / Second Battle of Lincoln / Siege of Dover 1216 / Treaty of
+Lambeth). **Hard requirement: "First Barons’ War" must never resolve to Simon de
+Montfort’s Second Barons’ War.** If a Battle of Lincoln already exists,
+disambiguate as Second Battle of Lincoln with 1217 aliased.
+
+**M7 — Permanent rules + validation.** Two rules into `CLAUDE.md`: a **major-war
+completeness rule** (adding a war means auditing and creating its battles,
+sieges, treaties and turning points, not just the war page) and a
+**conflict-event integrity rule** (every battle/siege/treaty links back to its
+conflict, and every conflict exposes its major events). This track exists because
+neither rule was written down.
+
+**Definition of done per milestone**, as with the Crusades track: links out,
+reverse links, taxonomy and full article depth ship WITH each batch.
+
+**The nuance that must survive editing.** Magna Carta failed immediately. Louis
+was a serious claimant holding London and much of the south with major English
+barons behind him — not a raid. He was never crowned. John’s death was the
+turning point: rebels who would depose John would not depose a nine-year-old.
+Marshal led, but Hubert de Burgh and a wider coalition are not to be erased.
+Dover never fell. Lincoln was the decisive land victory, Sandwich the naval one.
+The war ended in negotiated reconciliation, not annihilation. **No nationalist
+framing** — much of the English aristocracy fought for Louis, and loyalty in 1216
+was dynastic, feudal and territorial rather than national. **Do not project
+parliamentary constitutionalism back onto the 1215 barons.**
+
+**Images: c.1215 only.** Mail hauberks and chausses, early great helms and nasal
+helmets, kite-to-heater transition, straight knightly swords, crossbows, period
+siege engines. **No plate, bascinets, sallets, brigandines or Gothic harness** —
+a 1215 knight is not a 1415 one, and a placeholder beats wrong armour.
+
 ## Blocked on the user
 
 - **DECISION NEEDED — the image rule is systematically deferring non-Christian
