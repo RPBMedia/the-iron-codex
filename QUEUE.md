@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-08 (**Tracks A, C and D complete. Handover written — see "WHERE IRON CODEX STANDS" below.** Switching to CareerForger; nothing here is blocking.)_
+_Last updated: 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**) — previously 2026-09-08 (**Tracks A, C and D complete. Handover written — see "WHERE IRON CODEX STANDS" below.** Switching to CareerForger; nothing here is blocking.)_
 
 ---
 
@@ -1139,6 +1139,100 @@ left unlinked with the reason.
   all.** These belong with the stub-rewrite batches above; the popes in particular
   are now reachable from the Templars, the Teutonic Order and Bernard of
   Clairvaux, so readers will actually arrive at them.
+
+### CRUSADES BATTLE ARCHIVE — full audit and expansion (queued 2026-09-10, NOT started)
+
+**Queued by the owner. Large — treat as a track, not a task.** The trigger was
+**Montgisard (1177) being absent entirely**, but Montgisard is the symptom. The
+brief is to audit the whole crusading movement and leave the archive
+substantially complete.
+
+**The organising principle the archive currently gets wrong: numbered Crusades
+are not the unit of history.** Montgisard fell through because it sits *between*
+numbered expeditions — so a scheme built around "First … Ninth" has a structural
+blind spot exactly where the Crusader States did most of their fighting. The
+same blind spot hides the Baltic, Albigensian, Iberian, Hussite and anti-Ottoman
+theatres. Fix the principle, not just the gap.
+
+**M0 — AUDIT FIRST. Write nothing until this is done.** Ship the working list as
+`CRUSADES_AUDIT.md` (per-feature doc, deleted when the track closes). Five
+buckets, every crusading-related battle and siege already in the archive placed
+in one:
+
+1. exists and adequate
+2. exists, needs enrichment
+3. exists, metadata/relationships wrong
+4. missing, must be created
+5. borderline — deliberately NOT getting a standalone article, with the reason
+
+Check alternate spellings, transliterations and campaign labels before declaring
+anything missing (La Forbie / Hiribya, Lake Peipus / the Ice, Grunwald /
+Tannenberg / Žalgiris). **A duplicate created because the audit was skimped is
+worse than the gap it was meant to fill.**
+
+**M1 — Levant, 1095–1192.** First Crusade through Third, plus the inter-crusade
+warfare of the Crusader States: Nicaea, Dorylaeum, Antioch (siege and battle),
+Jerusalem 1099, Ascalon, Harran, the Ramla engagements, Field of Blood, Azaz,
+Damascus 1148, Inab, **Montgisard**, Marj Ayyun, Al-Fule, Cresson, Hattin,
+Jerusalem 1187, Acre 1189–91, Arsuf, Jaffa.
+
+**M2 — Levant, 1198–1291, and the Fourth Crusade.** Zara, Constantinople 1203
+and **the 1204 siege and sack (major-event treatment)**, the Latin Empire's
+first clashes, Damietta 1218–19 and 1249, La Forbie, Mansurah 1250, Fariskur,
+Tunis 1270, Tripoli 1289, **Acre 1291**.
+
+**M3 — Northern / Baltic.** Ümera, Viljandi, Saule, Lake Peipus, Durbe, Karuse,
+Aizkraukle, Voplaukis, Medininkai, Strėva, Grunwald 1410, Wilkomierz. Vorskla
+only if its crusading context genuinely justifies it. **Nationalist readings of
+Baltic warfare are a named hazard here** — Soviet, Russian, German, Polish and
+Lithuanian traditions all bend these battles.
+
+**M4 — Albigensian and Iberian.** Béziers, Carcassonne, Muret, Toulouse,
+Avignon 1226. Then Lisbon 1147 and Las Navas de Tolosa 1212. **Do not tag the
+Reconquista wholesale as crusade** — only papally sanctioned campaigns, and say
+so in the article where scholarship disputes it.
+
+**M5 — Later crusading.** Nicopolis 1396, Varna 1444, and the Hussite crusades:
+Vítkov Hill, Německý Brod, Aussig, Tachov, Domažlice, and Lipany **with the
+nuance that it was not crusaders-versus-Hussites**. The Hussite Wars are not
+simply "the Crusades" and the archive must not imply it.
+
+**M6 — Discoverability sweep.** Indexes, Crusade filters, century/region/realm/
+campaign filters, search, related-content, alternate-name routing. **A valid
+article nobody can reach from the archive UI is an unfinished one.**
+
+**M7 — Permanent rules.** Fold the standard into `CLAUDE.md` /
+`CONTENT_GUIDELINES.md` so the next content session inherits it: all theatres,
+inter-crusade battles included, audit-before-create, full rich-article standard
+(no stubs), disputed crusading status stated rather than silently resolved.
+
+**Definition of done for every milestone — wiring is NOT a later milestone.**
+The Loudoun Hill entry above says the second half is the one that gets skipped;
+this track is large enough that deferring it guarantees it. Each batch ships
+with: internal links out to rulers, commanders, houses, realms, locations,
+military orders, weapons, armour, castles, campaigns and related battles; the
+**reverse** links added to those articles; correct metadata and multi-category
+taxonomy (Grunwald is Polish-Lithuanian-Teutonic *and* Northern Crusades *and*
+15th century); and the full article structure — overview, background, opposing
+forces, terrain, narrative, tactics, weapons and armour, outcome, aftermath,
+significance, myths.
+
+**Standing constraints.** Never present medieval army figures as fact. Separate
+attested fact, interpretation, chronicler tradition and dispute. No cinema, no
+invented detail. Avoid flat "Christian vs Muslim" framing where the alliances
+were not. Do not sanitise massacres and sacks; do not relish them either.
+Images must match the century — a 1099 Frankish knight is not a 1250 knight and
+neither is a 1410 Teutonic one; **keep the placeholder rather than use wrong
+armour.**
+
+**Sanity check before declaring the track done** — strong articles must exist
+for: Dorylaeum 1097 · Antioch 1098 · Jerusalem 1099 · Ascalon 1099 · Field of
+Blood 1119 · Azaz 1125 · Damascus 1148 · Inab 1149 · **Montgisard 1177** ·
+Hattin 1187 · Jerusalem 1187 · Acre 1189–91 · Arsuf 1191 · Jaffa 1192 ·
+Constantinople 1204 · Las Navas de Tolosa 1212 · Muret 1213 · Damietta 1218–19 ·
+Saule 1236 · Lake Peipus 1242 · La Forbie 1244 · Mansurah 1250 · Fariskur 1250 ·
+Durbe 1260 · Acre 1291 · Nicopolis 1396 · Grunwald 1410 · Vítkov Hill 1420 ·
+Domažlice 1431 · Varna 1444. **A minimum, not the scope.**
 
 ## Blocked on the user
 
