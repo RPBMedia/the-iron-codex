@@ -1317,6 +1317,92 @@ helmets, kite-to-heater transition, straight knightly swords, crossbows, period
 siege engines. **No plate, bascinets, sallets, brigandines or Gothic harness** —
 a 1215 knight is not a 1415 one, and a placeholder beats wrong armour.
 
+### HUNDRED YEARS’ WAR — completeness audit and expansion (queued 2026-09-10, NOT started)
+
+**Queued by the owner. The third track of this shape, and that is now the more
+important finding.** The trigger was the **Siege and Sack of Limoges (1370)**
+being absent; Crusades was triggered by Montgisard; First Barons’ War by the
+whole war. Three separate holes, one cause: **nothing in the project requires a
+conflict’s constituent events to exist.** A war article can sit there looking
+complete while its battles are missing, and no check anywhere notices.
+
+**So write the rule ONCE, before the content work.** The First Barons’ War track
+schedules it at its M7; it should be pulled forward and shared, not written three
+times in three tracks that then disagree. Two rules into `CLAUDE.md`:
+
+- **Major-conflict completeness** — never ship a war overview alone; audit its
+  battles, sieges, naval actions, campaigns, treaties and commanders, and do an
+  independent completeness pass beyond whatever list prompted the work.
+- **Conflict classification** — an engagement may relate to several wars but
+  keeps its historically correct PRIMARY one. Do not flatten overlapping
+  medieval wars into a single label.
+
+**M0 — AUDIT.** Four buckets (adequate / needs expansion / missing / below
+threshold). **Search slugs, aliases, titles, relationships, timelines and person
+and location articles — not just expected titles.** Crécy/Crecy, Winchelsea/Les
+Espagnols sur Mer, Rouvray/Herrings, Limoges under four possible names.
+
+**M1 — Limoges, and the main war article.** `siege-of-limoges` is canonical;
+"Sack of Limoges", "Battle of Limoges", "Limoges 1370" are aliases. **The
+massacre controversy gets its own substantial section.** Froissart’s ~3,000 dead
+is a CLAIM, not a fact: give his account, his limitations, the documentary and
+archaeological evidence, and the modern reassessment — **without over-correcting
+into "nothing happened"** unless scholarship actually says so. Then audit the war
+article itself: it must explain that this was **not 116 years of continuous
+war** but phases separated by truces, treaties and dynastic crises.
+
+**M2 — Edwardian phase, 1337-1360.** Sluys (naval, and NOT "permanent naval
+supremacy"), Auberoche, Caen, Blanchetaque, **Crécy**, **Calais**, Poitiers,
+Reims campaign, **Treaty of Brétigny**. Cadzand, Tournai, Saint-Omer, Rennes
+judged against the threshold.
+
+**M3 — Caroline phase, 1369-1389. Flagged as the likeliest hole.** Pontvallain,
+**La Rochelle 1372** (naval — the battle that ruins the tidy "England ruled the
+sea after Sluys" story), the La Rochelle siege separately, du Guesclin’s
+reconquest, John of Gaunt’s 1373 chevauchée, Truce of Leulinghem.
+
+**M4 — Henry V, 1415-1422.** **Harfleur**, the march to Calais, **Agincourt**,
+Caen 1417, **Rouen 1418-19**, Montereau as a political turning point,
+**Treaty of Troyes**, **Baugé** (English dominance after Agincourt was never
+absolute), Meaux.
+
+**M5 — Lancastrian war and Joan, 1422-1431.** Cravant, **Verneuil**, Montargis,
+**Siege of Orléans**, **Herrings/Rouvray**, Jargeau, Meung, Beaugency,
+**Patay**, coronation at Reims, Paris 1429, **Compiègne** — where **Joan was
+captured by BURGUNDIAN troops, not the English**, an attribution the archive must
+get right — then the trial and execution.
+
+**M6 — French recovery to the end, 1431-1453.** Gerberoy, **Treaty of Arras**
+(strategically enormous), Paris 1436, Truce of Tours, **Rouen 1449 — a DIFFERENT
+event from Henry V’s siege, distinct slug and dates**, **Formigny**, Caen and
+Cherbourg 1450, Bordeaux 1451, Talbot’s return 1452, **Castillon 1453**, and the
+**surrender of Bordeaux in October** — Castillon did not end the war the same
+afternoon.
+
+**M7 — Cross-conflict, people, discoverability.** Auray stays Breton War of
+Succession; Nájera and Montiel stay Castilian Civil War; Neville’s Cross stays
+Second War of Scottish Independence; Roosebeke stays Flemish; Otterburn is not
+Hundred Years’ War at all. **All cross-linked, none relabelled.** Then the people
+audit (English, French, Burgundian, Castilian, Scottish), aliases, indexes,
+filters, bidirectional links.
+
+**M8 — Independent completeness pass and validation.** Ask the question the
+owner asked: *what would a knowledgeable medievalist expect to find here and
+still not?* Then build, typecheck, lint, content and image checks.
+
+**The myths to refuse, recorded because they are the default in popular
+writing.** The longbow did not make knights obsolete; arrows did not defeat all
+plate; French commanders were not simply incompetent; English tactics were not
+one unchanging system; France did not win by cannon alone; Castillon was not
+"the first modern artillery battle" and did not retire the melee weapon; Sluys
+did not confer permanent command of the sea; and the war did not end chivalry.
+
+**Images track the DATE, not the war.** 116 years is several equipment worlds:
+Crécy 1346 is mail and transitional plate with bascinets; Limoges 1370 is later
+transitional harness; Agincourt 1415 is early full plate; Castillon 1453 is
+mid-15th-century plate with sallets and organised artillery. **A 1346 warrior
+must not be drawn as a 1453 one** — the single most likely image error here.
+
 ## Blocked on the user
 
 - **DECISION NEEDED — the image rule is systematically deferring non-Christian
