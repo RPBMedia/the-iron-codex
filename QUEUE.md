@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**) — previously 2026-09-08 (**Tracks A, C and D complete. Handover written — see "WHERE IRON CODEX STANDS" below.** Switching to CareerForger; nothing here is blocking.)_
+_Last updated: 2026-09-11 (**Stale browser-tab title queued** — owner-reported, small, under "Open".) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
 
 ---
 
@@ -879,6 +879,54 @@ push. **If you want them back in the deploy, find the Node version first.**
    an approval gate). Never started. B M5 remains parked by the owner.
 
 ## Open — small, ready to run
+
+### The browser tab title never changes when you navigate (queued 2026-09-11, NOT started)
+
+**Owner-reported:** go from the homepage to Insights and the tab still reads
+"The Iron Codex". Refresh and it corrects itself to "Insights". Having to
+reload the page to make the tab tell the truth is not something a visitor
+should ever have to do.
+
+**Root cause, confirmed rather than guessed. Titles exist ONLY in the static
+HTML entry points, and nothing in the SPA ever touches `document.title`.**
+
+- `grep -rn "document.title" client/src` returns **nothing**. No `react-helmet`,
+  no title hook, no effect anywhere.
+- `scripts/prerender.mjs:134` writes a correct, distinct `<title>` into each
+  prerendered page. Verified in `client/dist`: `topics.html` → "Topics — The
+  Iron Codex", `people.html` → "People — …", `insights.html` exists too.
+
+So a FULL page load serves the prerendered file for that route and the tab is
+right. React Router then swaps components on every subsequent navigation
+without the document title following, and it stays whatever the first load
+happened to set. That is also why refreshing looks like a fix — it is not
+fixing anything, it is fetching a different HTML file.
+
+**The trap to avoid while fixing it: do not end up with two sources of truth.**
+The obvious patch is a `document.title = "…"` in each page component, which
+immediately means every title is written twice — once in `prerender.mjs` and
+once in the component — and the two will drift. The first person to change a
+title in one place and not the other creates a page whose tab says something
+different before and after a client-side navigation, which is a worse bug than
+this one because it is intermittent.
+
+**Take the titles from the same place `prerender.mjs` does**, or move that list
+into a shared module both import. One route-to-title map, consumed by the
+prerender script at build time and by a single effect in the router at runtime.
+
+**Worth handling in the same pass — this is an accessibility issue, not only a
+cosmetic one.** Screen readers announce the document title on navigation, so
+right now every route change announces "The Iron Codex" regardless of where the
+user has gone. Browser history entries and bookmarks also capture the title at
+the time it was made, so a bookmarked article can be saved under the wrong name
+entirely.
+
+**Also check while in there:** whether the canonical link and `og:title` have
+the same problem. They are injected by `prerender.mjs` too, and a crawler that
+executes JavaScript may well read the stale ones.
+
+Small and self-contained. No content changes, no data changes.
+
 
 ### Insights chart needs a REAL tooltip on the daily bars (queued 2026-09-09)
 
