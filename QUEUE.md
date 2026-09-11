@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-11 (**Stale browser-tab title queued** — owner-reported, small, under "Open".) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
+_Last updated: 2026-09-11 (**Insights additions + stale tab title queued** — both owner-reported, under "Open".) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
 
 ---
 
@@ -879,6 +879,66 @@ push. **If you want them back in the deploy, find the Node version first.**
    an approval gate). Never started. B M5 remains parked by the owner.
 
 ## Open — small, ready to run
+
+### INSIGHTS — three additions (queued 2026-09-11, NOT started)
+
+Owner request. Two are straightforward; the third needs its premise corrected
+before anyone builds it.
+
+**1. Accounts created in the selected period.** Read it from the user store,
+where `created_at` already exists (`server/user-store.js:100`) — **not** from a
+new Redis counter. A counter would only start counting the day it shipped and
+could never answer for last month; the column answers retroactively and cannot
+drift from the accounts it describes. Same day-bucketing as the views series so
+the two charts line up.
+
+**2. Most-favourited articles.** Favourites live per user as a `favorites` array
+(`server/user-store.js:99`), so the count is a scan-and-tally across users —
+fine at this scale, and worth revisiting only if the user table grows a lot.
+
+**The honest catch, which the UI must not hide: this is an ALL-TIME count, and
+the period selector cannot apply to it.** Nothing records *when* a favourite was
+added, so "most favourited in the last 30 days" is unanswerable from the data we
+hold. Two options, and they should be a deliberate choice rather than a silent
+one: label the card "all time" and leave the selector greyed for it, or start
+writing timestamped favourite events and accept that the series begins empty.
+**Do not quietly filter an all-time number by a date range it does not respect.**
+
+**3. "Which pages should I index on Google next?" — the premise needs fixing
+first.** Every article is already in `sitemap.xml`: `scripts/prerender.mjs`
+writes all 817 pages. There is no queue of unsubmitted URLs, so the useful
+question is not *what to index* but **which existing pages are worth
+strengthening and promoting** because they are closest to earning traffic.
+
+**And our own analytics cannot answer even that on their own.** `stats:paths`
+records what people who ALREADY FOUND US read. It says nothing about what people
+searched for and did not find, which is precisely the signal the question needs.
+Ranking our best-read pages and calling them "what to index next" would be
+circular — it recommends the pages that are already working.
+
+**The data that actually answers it is Google Search Console impressions:** the
+queries where we appear, the position we hold, and the click-through we get.
+A page at position 11–20 with hundreds of impressions is the highest-value work
+in the archive — it is one improvement away from page one — and nothing in our
+own store can identify it.
+
+So the real shape of this task is:
+
+- **First, get Search Console data in.** Either export it by hand for a first
+  pass, or wire the API. `SEO_TESTING.md` is the only place it is currently
+  mentioned; there is no integration.
+- **Then the recommendation is a genuine ranking**, and a defensible one:
+  impressions × position-gap, cross-referenced with what the archive already
+  covers well enough to improve cheaply.
+- **Until then, a useful interim exists from internal data alone** — and it
+  should be labelled as the proxy it is: articles with many *inbound internal
+  links* (they are already treated as important by the archive's own structure)
+  but few views. That gap is a reasonable, if unproven, indicator of a page
+  search has not yet found.
+
+**Do not ship the interim as though it were the real answer.** Recommending work
+from the wrong signal is worse than recommending none, because it is acted on.
+
 
 ### The browser tab title never changes when you navigate (queued 2026-09-11, NOT started)
 
