@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-11 (**Insights additions + stale tab title queued** — both owner-reported, under "Open".) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
+_Last updated: 2026-09-11 (**Monetisation spike queued**, plus Insights additions and the stale tab title — all owner-requested.) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
 
 ---
 
@@ -1510,6 +1510,105 @@ Crécy 1346 is mail and transitional plate with bascinets; Limoges 1370 is later
 transitional harness; Agincourt 1415 is early full plate; Castillon 1453 is
 mid-15th-century plate with sallets and organised artillery. **A 1346 warrior
 must not be drawn as a 1453 one** — the single most likely image error here.
+
+## SPIKE — how does the Iron Codex make money without a subscription? (queued 2026-09-11, NOT started)
+
+**Research only. No code, no accounts, no spend.** Output is a written
+recommendation with numbers attached, not an implementation.
+
+**The owner's premise, and it is correct:** nobody will pay a subscription to
+read medieval history when Wikipedia and a thousand other sites give the same
+facts away. A paywall over freely substitutable content is a bad business and a
+worse look for an archive whose whole character is openness.
+
+**But the facts are not the asset, and that is the thing to keep hold of while
+answering this.** Anyone can host the date of Agincourt. What this project has
+that is genuinely hard to reproduce is three things:
+
+1. **The editorial standard and the pipeline that enforces it.** Hard-failing
+   validators for filler prose, image provenance, reciprocal linking, succession
+   integrity and army-strength confidence. That is a *method*, and methods are
+   sellable in a way that facts are not.
+2. **The structured relational data.** Succession chains with scope handling,
+   battle continuity links, strength figures carrying an explicit confidence
+   grade, an entity-link graph across 817 articles, house↔person bidirectional
+   navigation. Wikipedia has prose and infoboxes; it does not have this shape.
+3. **Images with verified provenance** — caption, creator, date, source, licence
+   and a reliability note on every single one, audited by script.
+
+**THE HARD CONSTRAINT, TO BE FACED FIRST: advertising revenue is a function of
+traffic, and the traffic is not there yet.** `MARKETING.md`'s own forecast puts
+first real traffic at **months 4–6**; indexing is still climbing and impressions
+are near zero. Before evaluating any ad network, do the arithmetic:
+
+- History/education display RPMs run roughly **$5–20 per 1,000 pageviews**.
+- Network floors: AdSense none, Ezoic ~10k/month, Mediavine 50k sessions,
+  Raptive 100k pageviews.
+- So 10k pageviews a month is **$50–150**. Write that number down before anyone
+  designs an ad slot, because it is the whole argument.
+
+**Note the standing rule this request lifts:** `MARKETING.md` says "No
+third-party advertising will be placed on the Codex unless monetisation is
+separately requested." This is that request — so ads are now on the table, but
+as a *decision with a cost*, not a default.
+
+### What to evaluate
+
+**Traffic-gated (worth little until traffic exists):**
+
+- **Display advertising.** Cheapest to implement, and it charges the site's
+  character as rent. An archive that refuses filler prose and audits every
+  caption, then wraps it in programmatic ad units, has spent something real.
+  Evaluate reader-respecting formats and a floor below which it is not worth it.
+- **Affiliate links — books and reproductions.** The natural fit, because the
+  archive already photographs and credits makers (Albion, Wulflund, Darksword)
+  and cites museum catalogues. **And the trap is right here, so name it before
+  building anything:** `CLAUDE.md` requires judging the object and not the
+  seller, and forbids repeating a maker's marketing as evidence. An affiliate
+  relationship creates a standing incentive to feature the makers who pay. If
+  that corrodes the image standard, it has eaten the asset to rent the audience.
+  Any affiliate scheme needs a written firewall between editorial selection and
+  commercial relationship, or it should not happen.
+
+**Not traffic-gated (these work at any scale, which is why they deserve the most
+attention in this spike):**
+
+- **Licensing the structured dataset.** The succession chains, continuity links,
+  graded strength figures and entity graph, as a dataset or an API. Plausible
+  buyers: game and TTRPG developers, educational publishers, museum digital
+  teams, anyone building historically-grounded content who does not want to
+  rebuild this. **This is the strongest hypothesis to test first** — it monetises
+  the part nobody else has, rather than the part everyone has.
+- **A book, or books, compiled from the archive.** The quality bar makes this
+  more credible than most "blog to book" attempts, and it sells to the audience
+  the archive attracts rather than taxing them for reading.
+- **Patronage** (Ko-fi, Patreon, "support the archive"). Voluntary, keeps
+  everything free, and is the model that fits an archive's character best. Low
+  ceiling; near-zero cost to try.
+- **Digital-humanities and heritage grants.** A free, rigorously sourced,
+  properly cited medieval archive is exactly what several funds exist for. Slow,
+  and non-dilutive in a way nothing else here is.
+- **Selling the method, not the archive** — the validator suite and editorial
+  pipeline as a template for other reference projects. Meta, but it is the part
+  that took the most work.
+- **AI training-data licensing.** It should be listed because it is real money
+  for exactly this kind of clean structured corpus, and it should be listed with
+  its ethics attached: much of the underlying material is CC/PD from Commons and
+  Wikipedia, so what would be licensed is the curation and structure, not the
+  facts — and the owner may simply not want it. A decision to be taken
+  deliberately rather than stumbled into.
+
+### How to finish the spike
+
+Produce a written comparison with, for each option: **realistic revenue at
+today's traffic and at 10× today's traffic**, effort to implement, and — the
+column that decides it — **what it costs the archive's character**. Recommend
+one to try first and one to rule out permanently.
+
+**The decision rule to apply throughout:** the editorial standards are the
+product. Any option that requires softening them is not a monetisation strategy,
+it is a slow liquidation.
+
 
 ## Blocked on the user
 
