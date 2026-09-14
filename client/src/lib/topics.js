@@ -820,7 +820,7 @@ export const TOPICS = [
           "id": "shroud-of-turin",
           "name": "Shroud of Turin",
           "depth": 1,
-          "summary": "A linen cloth venerated by some Christians as the burial shroud of Christ."
+          "summary": "A linen cloth bearing the faint front-and-back image of a man, first recorded at Lirey in Champagne in the 1350s and radiocarbon-dated in 1988 to between 1260 and 1390."
         }
       ],
       "weapons-armor": [

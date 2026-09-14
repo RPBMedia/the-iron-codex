@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-11 (**Monetisation spike queued**, plus Insights additions and the stale tab title — all owner-requested.) — previously 2026-09-10 (**Crusades battle archive queued as a new track — audit first, see below.**)_
+_Last updated: 2026-09-14 (**Step 1 of the owner's plan shipped:** 60 blank archive cards fixed, tab titles follow navigation, the Shroud of Turin rewritten, and a template-prose gate added with an 86-article backlog.) — previously 2026-09-11 (**Monetisation spike queued**, plus Insights additions and the stale tab title.)_
 
 ---
 
@@ -822,6 +822,23 @@ with the owner if any of those bullets mattered specifically._
 
 ## WHERE IRON CODEX STANDS (handover, 2026-09-08)
 
+**Update 2026-09-14 — step 1 of the owner's plan shipped.** Three live defects
+fixed: 60 archive cards with no description, tab titles that ignored client-side
+navigation, and the Shroud of Turin's generator template. Two rules came out of
+it and bind all future work:
+
+- **Page titles live only in `client/src/lib/pageTitles.js`**, imported by both
+  `scripts/prerender.mjs` and the app (`useDocumentTitle`). Never hand-write a
+  title in either place — `tests/page-titles.test.mjs` fails if `prerender.mjs`
+  builds one. Canonical and `og:title` needed no client-side change: crawlers and
+  link-preview scrapers meet every URL through its own prerendered file, never
+  through a client-side navigation.
+- **Card, search, topic and meta text comes from `leadText()`** in
+  `client/src/lib/pageMeta.js` (summary → first overview paragraph → details).
+  People are written with `overview`, not `summary`, which is what blanked 58 of
+  them. `tests/page-meta.test.mjs` fails the build if any article would render a
+  blank card.
+
 **Nothing is broken and nothing is blocking.** Every gate is green: tests 13/13,
 content-quality, images (870 references validated remotely), the SEO gate, the
 build, and the integration audit (0 orphans, 0 mis-sorted events, 0 stale notes,
@@ -831,10 +848,8 @@ build, and the integration audit (0 orphans, 0 mis-sorted events, 0 stale notes,
 gate), D (closed as already delivered). **Track B M5 is parked by the owner**;
 B M6-M10 were never started.
 
-**One owner action outstanding:** set `ADMIN_EMAIL=rui.palma.baiao@gmail.com` in
-the Vercel **Production** environment and redeploy, or the Insights link will
-never appear. Until then `isAdmin` is false for everyone, which is the safe
-default.
+~~**One owner action outstanding:** set `ADMIN_EMAIL` in Vercel Production.~~
+**Done** — the owner uses Insights on the live site (confirmed 2026-09-14).
 
 **One deploy note:** the test step was REMOVED from `vercel.json`'s buildCommand
 after two failed deployments. The failure could not be reproduced locally — a
@@ -843,6 +858,10 @@ deploy went green immediately once the step came out, first as a shell glob and
 again as a programmatic runner, which points at `node:test` behaving differently
 on Vercel's Node version. Tests still run in `npm run build` and before every
 push. **If you want them back in the deploy, find the Node version first.**
+**Also absent from the deploy (verified 2026-09-14):** `check:content-quality`
+and `check:images`. `vercel.json`'s buildCommand runs only `check-seo.mjs`, so
+every content gate depends on being run before the push — against CLAUDE.md's
+own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### Everything remaining, ranked by what it is worth
 
@@ -855,27 +874,48 @@ push. **If you want them back in the deploy, find the Node version first.**
    (23), `wars-of-scottish-independence` (21), `battle-of-crecy` (21), `rouen`
    (13 links, **911 chars**), `battle-of-svolder` (11 links, **941 chars**).
    Re-run `node scripts/audit-stubs.mjs` for the current list.
-2. **Five person-image violations that CANNOT be fixed by searching harder.**
+2. **Template prose — 86 articles carry 24 name-substituted generator
+   templates.** Found 2026-09-14. The content gate compared paragraphs verbatim,
+   and a template that writes each article's own name into the sentence makes
+   every copy unique, so none of it was ever flagged. Masking the subject's name
+   exposed 71 people, 9 locations, 3 events and 3 artifacts. The two largest
+   templates reach 52 articles ("Later saga, saintly, or national traditions often
+   amplified §'s reputation…") and 51 ("§'s early life belonged to the medieval
+   Scandinavian world…"); "As King of X, § had to turn dynastic claim into
+   workable authority…" runs through the Danish, Norwegian and Swedish lists;
+   nine battlefield locations share "§ matters historically through §…". **Live
+   violations of the Specificity Test, which is non-negotiable.**
+   **The gate now catches it** (`scripts/lib/template-prose.mjs`, inside
+   `check:content-quality`): a NEW template, or a known one spreading to another
+   article, hard-fails. The 86 are a tracked backlog in
+   `scripts/lib/template-prose-baseline.json`, and it is **shrink-only** — a
+   rewritten article fails the gate until `node scripts/baseline-template-prose.mjs`
+   records the fix, and that script refuses to add anything. **Overlaps heavily
+   with item 1**: most of these are also stubs, so rewrite them together, not twice.
+3. **Five person-image violations that CANNOT be fixed by searching harder.**
    `al-adil-ii`, `al-mansur-ali`, `baraka-khan`, `yusuf-ibn-tashfin`,
    `muhammad-al-nasir` all lead with aniconic Islamic gold coinage. No depiction
    of any of them exists on Commons — the one file titled "محمد الناصر" is
    calligraphy of the name. **This needs the owner's decision below, not more
    searching.** `kerbogha` (was a MAP) and `qutuz` were fixed 2026-09-08.
-3. **~14 Scandinavian/English pennies still need individual eyes** — some carry
+4. **~14 Scandinavian/English pennies still need individual eyes** — some carry
    a crude bust and pass, some carry only a cross and a legend. The ~11 Byzantine
    solidi and ~7 royal seals pass and need no work.
-4. **Template-filler stubs**: `shroud-of-turin` (its second section is a template
-   sentence with the title substituted in) and four popes with no `summary` at
-   all — `pope-clement-v`, `pope-gregory-ix`, `pope-john-xxii`, `pope-eugenius-iii`.
-   All five became reachable in M14, so readers will now land on them.
-5. **Sword of St. Maurice (Turin)** — one article, the only unbuilt item from the
+5. **Three artifacts are still one generator template** — `lindisfarne-gospels`,
+   `codex-gigas` and `royal-frankish-annals` share six name-substituted sentences
+   ("§ is a material or textual object whose physical survival helps historians
+   read…"). Part of item 2, listed separately because artifacts are only nine
+   articles and a third of them are affected. The Shroud of Turin carried the same
+   template and was rewritten 2026-09-14. **The "four popes with no summary"
+   entry that used to sit here was a misread** — see the update block above.
+6. **Sword of St. Maurice (Turin)** — one article, the only unbuilt item from the
    closed Track D. Worth doing because the brief warns it is confused with the
    Reichsschwert, which the archive already has.
-6. **Auth storage hardening** — refuse the JSON-file backend under
+7. **Auth storage hardening** — refuse the JSON-file backend under
    `NODE_ENV=production` and log the selected backend at startup, so a missing
    Upstash variable fails loudly at deploy instead of at the first user's signup.
    ~30 minutes.
-7. **Track B M6-M10** (W&A classification, index and relationship repairs, then
+8. **Track B M6-M10** (W&A classification, index and relationship repairs, then
    an approval gate). Never started. B M5 remains parked by the owner.
 
 ## Open — small, ready to run
@@ -938,54 +978,6 @@ So the real shape of this task is:
 
 **Do not ship the interim as though it were the real answer.** Recommending work
 from the wrong signal is worse than recommending none, because it is acted on.
-
-
-### The browser tab title never changes when you navigate (queued 2026-09-11, NOT started)
-
-**Owner-reported:** go from the homepage to Insights and the tab still reads
-"The Iron Codex". Refresh and it corrects itself to "Insights". Having to
-reload the page to make the tab tell the truth is not something a visitor
-should ever have to do.
-
-**Root cause, confirmed rather than guessed. Titles exist ONLY in the static
-HTML entry points, and nothing in the SPA ever touches `document.title`.**
-
-- `grep -rn "document.title" client/src` returns **nothing**. No `react-helmet`,
-  no title hook, no effect anywhere.
-- `scripts/prerender.mjs:134` writes a correct, distinct `<title>` into each
-  prerendered page. Verified in `client/dist`: `topics.html` → "Topics — The
-  Iron Codex", `people.html` → "People — …", `insights.html` exists too.
-
-So a FULL page load serves the prerendered file for that route and the tab is
-right. React Router then swaps components on every subsequent navigation
-without the document title following, and it stays whatever the first load
-happened to set. That is also why refreshing looks like a fix — it is not
-fixing anything, it is fetching a different HTML file.
-
-**The trap to avoid while fixing it: do not end up with two sources of truth.**
-The obvious patch is a `document.title = "…"` in each page component, which
-immediately means every title is written twice — once in `prerender.mjs` and
-once in the component — and the two will drift. The first person to change a
-title in one place and not the other creates a page whose tab says something
-different before and after a client-side navigation, which is a worse bug than
-this one because it is intermittent.
-
-**Take the titles from the same place `prerender.mjs` does**, or move that list
-into a shared module both import. One route-to-title map, consumed by the
-prerender script at build time and by a single effect in the router at runtime.
-
-**Worth handling in the same pass — this is an accessibility issue, not only a
-cosmetic one.** Screen readers announce the document title on navigation, so
-right now every route change announces "The Iron Codex" regardless of where the
-user has gone. Browser history entries and bookmarks also capture the title at
-the time it was made, so a bookmarked article can be saved under the wrong name
-entirely.
-
-**Also check while in there:** whether the canonical link and `og:title` have
-the same problem. They are injected by `prerender.mjs` too, and a crawler that
-executes JavaScript may well read the stale ones.
-
-Small and self-contained. No content changes, no data changes.
 
 
 ### Insights chart needs a REAL tooltip on the daily bars (queued 2026-09-09)

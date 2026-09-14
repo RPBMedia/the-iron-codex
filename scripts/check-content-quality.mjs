@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import { maskedParagraphs, templateHash } from './lib/template-prose.mjs'
 
 const dataPath = new URL('../server/data/history.json', import.meta.url)
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
@@ -7,6 +8,12 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 // module top because the validators run during module execution — a const placed
 // next to its own function would still be in the temporal dead zone.
 const allCharacters = new Map((data.characters ?? []).map((c) => [c.id, c]))
+
+// Known name-substituted template prose (see scripts/baseline-template-prose.mjs).
+// Read here at module top for the same temporal-dead-zone reason as above.
+const templateBaseline = JSON.parse(
+  fs.readFileSync(new URL('./lib/template-prose-baseline.json', import.meta.url), 'utf8')
+).templates ?? {}
 
 // ── Battle-reference linking (see CLAUDE.md "Battle Reference Linking Rules") ──
 // Parse entityLinks so we can tell which "Battle of X" / "Siege of X" phrases the
@@ -1188,6 +1195,10 @@ function validatePolityStandards(entry, label) {
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
+// The same, with each article's own subject names masked. Catches generator
+// templates that put the name into the sentence, which the verbatim check
+// cannot see: every copy differs from every other by exactly that name.
+const maskedTemplateArticles = new Map() // hash -> { text, articles: Set(articleKey) }
 
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue
@@ -1244,6 +1255,11 @@ for (const [collection, entries] of Object.entries(data)) {
         paragraphArticles.get(text).add(articleKey)
       }
     }
+    for (const text of new Set(maskedParagraphs(entry))) {
+      const hash = templateHash(text)
+      if (!maskedTemplateArticles.has(hash)) maskedTemplateArticles.set(hash, { text, articles: new Set() })
+      maskedTemplateArticles.get(hash).articles.add(articleKey)
+    }
   }
 }
 
@@ -1258,6 +1274,41 @@ for (const [text, articles] of paragraphArticles) {
       path: 'contentSections.paragraphs',
       pattern: 'paragraph reused verbatim across multiple articles (templated filler)',
       snippet: text.slice(0, 160)
+    })
+  }
+}
+
+// The Specificity Test, made mechanical: could this paragraph be copied into
+// another article with only the name changed? If masking the subject names makes
+// two paragraphs identical, yes. Existing debt is listed in the baseline; new
+// template prose, or a known template spreading to another article, fails.
+for (const [hash, { text, articles }] of maskedTemplateArticles) {
+  if (articles.size < 2) continue
+  const allowed = new Set(templateBaseline[hash]?.articles ?? [])
+  const unlisted = [...articles].filter((a) => !allowed.has(a))
+  if (unlisted.length) {
+    findings.push({
+      collection: 'multiple',
+      article: unlisted.join(', '),
+      path: 'contentSections.paragraphs',
+      pattern: "name-substituted template prose: identical to another article's paragraph once the subject's name is masked — rewrite it (Specificity Test)",
+      snippet: text.slice(0, 160)
+    })
+  }
+}
+
+// And the backlog may only shrink: a listed article that no longer carries its
+// template means the baseline is stale and must be regenerated to record the fix.
+for (const [hash, { articles, sample }] of Object.entries(templateBaseline)) {
+  const live = maskedTemplateArticles.get(hash)?.articles ?? new Set()
+  const fixed = articles.filter((a) => !live.has(a))
+  if (fixed.length) {
+    findings.push({
+      collection: 'multiple',
+      article: fixed.join(', '),
+      path: 'scripts/lib/template-prose-baseline.json',
+      pattern: 'template-prose baseline is stale: these articles no longer carry the template — run `node scripts/baseline-template-prose.mjs` to record the fix',
+      snippet: String(sample ?? '').slice(0, 160)
     })
   }
 }
@@ -1505,8 +1556,12 @@ function validatePersonTimeline(person) {
 if (findings.length) {
   console.error(`Content quality check found ${findings.length} suspicious phrase(s):`)
   for (const finding of findings) {
+    // The rule is printed as well as the location. Without it a line said WHERE
+    // but not WHAT, and several checks share a path — "contentSections.paragraphs"
+    // belongs to both the verbatim and the template-prose checks — so a failure
+    // could not be attributed to the rule that raised it.
     console.error(
-      `- ${finding.collection}/${finding.article} ${finding.path}: ${finding.snippet}`
+      `- ${finding.collection}/${finding.article} ${finding.path} [${finding.pattern}]: ${finding.snippet}`
     )
   }
   process.exit(1)
