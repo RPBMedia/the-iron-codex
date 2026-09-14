@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import FavoriteButton from './FavoriteButton.jsx'
 import { reportArticleImageFailure } from '../lib/images.js'
 import { rememberArchiveAnchor } from '../lib/archive.js'
+import { leadText } from '../lib/pageMeta.js'
 
 export default function ArticleCard({ article, collection, onFavoriteChanged }) {
   const location = useLocation()
@@ -34,7 +35,7 @@ export default function ArticleCard({ article, collection, onFavoriteChanged }) 
           </div>
           <h2>{article.name}</h2>
           {cardSubtitle(article) && <span className="card-subtitle">{cardSubtitle(article)}</span>}
-          <p>{article.summary}</p>
+          <p>{leadText(article)}</p>
           <span className="read-link">Open article</span>
         </div>
       </Link>

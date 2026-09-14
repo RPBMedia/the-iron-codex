@@ -38,6 +38,9 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 // The SAME enrichment the API applies, imported rather than reimplemented, so a
 // prerendered page and a live-fetched page can never disagree.
 import { enrichArticle } from '../server/article-enrichment.js'
+// Lead text and length-clamping are shared with the app, so a card, a search
+// result and a meta description can never pick different text for one article.
+import { clampText as clamp, leadText } from '../client/src/lib/pageMeta.js'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -64,14 +67,8 @@ const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;').replace(/'/g, '&#39;')
 
-/** Meta descriptions are truncated by search engines around 155-160 characters. */
-const clamp = (s, max = 158) => {
-  const text = String(s ?? '').replace(/\s+/g, ' ').trim()
-  if (text.length <= max) return text
-  const cut = text.slice(0, max)
-  const stop = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf(', '), cut.lastIndexOf(' '))
-  return `${cut.slice(0, stop > 60 ? stop : max).trim()}…`
-}
+// `clamp` (meta descriptions are truncated around 155-160 characters) now lives
+// in client/src/lib/pageMeta.js as clampText, imported above.
 
 /**
  * og:image wants an absolute URL — and one small enough to actually be used.
@@ -221,7 +218,7 @@ for (const [collection, arr] of Object.entries(data)) {
     const url = `${SITE}/${pub}/${a.id}`
     const qualifier = a.title || a.eventType || a.locationType || a.weaponArmorType || COLLECTION_LABEL[pub]
     const title = `${a.name} — ${qualifier} | ${SITE_NAME}`
-    const lead = a.summary || (a.overview ?? [])[0] || a.details || ''
+    const lead = leadText(a)
     const description = clamp(lead || `${a.name} in ${SITE_NAME}, ${TAGLINE.toLowerCase()}.`)
 
     const sections = (a.contentSections ?? []).slice(0, 6)

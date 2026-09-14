@@ -1,4 +1,5 @@
 import { getSearchCollections } from './api.js'
+import { clampText, leadText } from './pageMeta.js'
 
 let cachedIndexPromise
 
@@ -133,7 +134,7 @@ function normalizePerson(item) {
     typeLabel: 'Person',
     slug: item.id,
     url: `/people/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: [item.birth?.date ?? item.born, item.death?.date ?? item.died].filter(Boolean).join('-'),
     aliases: [item.title, ...(item.aliases ?? []), ...roles].filter(Boolean),
     tags: [item.quickFacts?.culture, item.quickFacts?.realm, item.quickFacts?.knownFor, ...roles].filter(Boolean),
@@ -172,7 +173,7 @@ function normalizeEvent(item) {
     typeLabel: item.eventType || 'Event',
     slug: item.id,
     url: `/events/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: String(item.year ?? ''),
     aliases: [item.eventType, ...(item.aliases ?? [])].filter(Boolean),
     tags: [item.eventType, item.location, item.conflict, ...(item.factions ?? [])].filter(Boolean),
@@ -212,7 +213,7 @@ function normalizeLocation(item) {
     typeLabel: item.locationType || 'Location',
     slug: item.id,
     url: `/locations/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: String(item.year ?? ''),
     aliases: [item.kingdom, ...(item.aliases ?? [])].filter(Boolean),
     tags: [item.locationType, item.kingdom].filter(Boolean),
@@ -242,7 +243,7 @@ function normalizeArtifact(item) {
     typeLabel: isDocument ? 'Document' : 'Artifact',
     slug: item.id,
     url: `/artifacts/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: String(item.year ?? ''),
     aliases: item.aliases ?? [],
     tags: [item.location, isDocument ? 'document' : 'artifact'].filter(Boolean),
@@ -261,7 +262,7 @@ function normalizeWeaponArmor(item) {
     typeLabel: item.weaponArmorType ?? 'Weapons & Armor',
     slug: item.id,
     url: `/weapons-armor/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: item.period ?? String(item.year ?? ''),
     aliases: item.aliases ?? [],
     tags: [item.weaponArmorType, item.period, item.region, item.material, item.battlefieldRole, ...(item.knownFor ?? [])].filter(Boolean),
@@ -294,7 +295,7 @@ function normalizeHouse(item) {
     typeLabel: 'Dynasty',
     slug: item.id,
     url: `/houses/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: item.reignSpan ?? String(item.originYear ?? ''),
     aliases: item.aliases ?? [],
     tags: [item.region, item.originPlace, ...(item.notableMembers ?? []).map((m) => m.displayName), ...(item.cadetBranches ?? []).map((b) => b.name)].filter(Boolean),
@@ -331,7 +332,7 @@ function normalizeOrder(item) {
     typeLabel: 'Military order',
     slug: item.id,
     url: `/orders/${item.id}`,
-    description: item.summary,
+    description: clampText(leadText(item), 240),
     dateLabel: item.founded ?? String(item.originYear ?? ''),
     aliases: item.aliases ?? [],
     tags: [item.habit, item.allegiance, item.patron, item.headquarters, ...grandMasters].filter(Boolean),

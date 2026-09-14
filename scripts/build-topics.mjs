@@ -35,6 +35,10 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+// The same lead-text rule the archive cards use: people are written with an
+// `overview`, not a `summary`, and a topic list reading `summary` alone showed
+// sixty of them with no description at all.
+import { leadText } from '../client/src/lib/pageMeta.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
@@ -190,7 +194,7 @@ const topics = TOPICS.map((t) => {
   const grouped = {}
   for (const [id, depth] of members) {
     const { article, collection } = index.get(id)
-    ;(grouped[collection] ??= []).push({ id, name: article.name, depth, summary: article.summary ?? '' })
+    ;(grouped[collection] ??= []).push({ id, name: article.name, depth, summary: leadText(article) })
   }
   let total = 0
   for (const [collection, list] of Object.entries(grouped)) {

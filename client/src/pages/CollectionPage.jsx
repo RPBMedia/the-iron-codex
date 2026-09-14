@@ -4,6 +4,7 @@ import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getCollection } from '../lib/api.js'
 import { ARCHIVE_PAGE_SIZE, getRestorableSnapshot, useArchiveStateRestoration } from '../lib/archive.js'
+import { leadText } from '../lib/pageMeta.js'
 
 const batchSize = ARCHIVE_PAGE_SIZE
 
@@ -376,7 +377,7 @@ function getFilterConfigs(items, collection) {
 function searchableText(item, collection) {
   const values = [
     item.name,
-    item.summary,
+    leadText(item),
     item.details,
     item.eventType,
     item.conflict,

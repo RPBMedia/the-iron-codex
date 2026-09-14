@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getSearchCollections } from '../lib/api.js'
 import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
+import { leadText } from '../lib/pageMeta.js'
 
 const indexGroups = [
   { key: 'people', title: 'People', collection: 'people' },
@@ -159,7 +160,7 @@ function normalizeEntries(items = [], collection) {
       meta: entryMeta(item, collection),
       searchText: [
         item.name,
-        item.summary,
+        leadText(item),
         item.details,
         item.eventType,
         item.locationType,
