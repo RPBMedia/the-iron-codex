@@ -5,6 +5,8 @@ import LoadingState from '../components/LoadingState.jsx'
 import { getCollection } from '../lib/api.js'
 import { ARCHIVE_PAGE_SIZE, getRestorableSnapshot, useArchiveStateRestoration } from '../lib/archive.js'
 import { leadText } from '../lib/pageMeta.js'
+import { COLLECTION_LABEL, pageTitle } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 
 const batchSize = ARCHIVE_PAGE_SIZE
 
@@ -66,6 +68,9 @@ export default function CollectionPage({ collection }) {
     snapshot: { visibleCount }
   })
   const copy = useMemo(() => collectionCopy[collection], [collection])
+  // COLLECTION_LABEL, not copy.title: the prerendered /orders page is titled
+  // "Orders", and the tab must say the same thing before and after navigation.
+  useDocumentTitle(pageTitle(COLLECTION_LABEL[collection] ?? copy.title))
   const archiveState = useMemo(() => readArchiveState(searchParams, collection), [collection, searchParams])
   const filterConfigs = useMemo(() => getFilterConfigs(items, collection), [collection, items])
   const sortOptions = useMemo(() => getSortOptions(collection), [collection])

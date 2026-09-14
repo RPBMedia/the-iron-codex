@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react'
+import { homeTitle } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
 import { getHomeArticles } from '../lib/api.js'
 import { useAuth } from '../lib/auth.jsx'
 
 export default function Home() {
+  useDocumentTitle(homeTitle())
   const { isAuthenticated, isLoading, user } = useAuth()
   const [homeData, setHomeData] = useState({ sections: [] })
   const [status, setStatus] = useState('loading')

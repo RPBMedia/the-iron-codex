@@ -4,6 +4,8 @@ import LoadingState from '../components/LoadingState.jsx'
 import { getSearchCollections } from '../lib/api.js'
 import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archive.js'
 import { leadText } from '../lib/pageMeta.js'
+import { pageTitle } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 
 const indexGroups = [
   { key: 'people', title: 'People', collection: 'people' },
@@ -19,6 +21,7 @@ export default function IndexPage() {
   const [collections, setCollections] = useState(null)
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
+  useDocumentTitle(pageTitle('Full index'))
 
   useArchiveStateRestoration({ ready: status === 'ready' })
 

@@ -1,4 +1,6 @@
 import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom'
+import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { useState } from 'react'
 import { useAuth } from '../lib/auth.jsx'
 
@@ -12,6 +14,7 @@ export default function AuthPage({ mode }) {
   const navigate = useNavigate()
   const location = useLocation()
   const returnTo = location.state?.returnTo ?? new URLSearchParams(location.search).get('returnTo') ?? '/favorites'
+  useDocumentTitle(pageTitle(utilityLabel(isSignup ? 'signup' : 'login')))
 
   if (isAuthenticated) {
     return <Navigate to={returnTo} replace />

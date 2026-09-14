@@ -1,4 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
+import { notFoundTitle, pageTitle } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { TOPICS, topicBySlug } from '../lib/topics.js'
 
 /**
@@ -25,6 +27,7 @@ const COLLECTION_LABEL = {
 const GROUP_ORDER = ['events', 'people', 'locations', 'houses', 'orders', 'weapons-armor', 'artifacts']
 
 export function TopicsIndex() {
+  useDocumentTitle(pageTitle('Topics'))
   return (
     <section className="content-section page-section">
       <div className="section-heading wide">
@@ -52,6 +55,7 @@ export function TopicsIndex() {
 export default function TopicPage() {
   const { slug } = useParams()
   const topic = topicBySlug(slug)
+  useDocumentTitle(topic ? pageTitle(topic.title) : notFoundTitle())
 
   if (!topic) {
     return (

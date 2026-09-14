@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { getGlobalSearchIndex, searchArchive } from '../lib/search.js'
@@ -8,6 +10,7 @@ const defaultGroupOrder = ['person', 'event', 'battle', 'order', 'kingdom', 'loc
 const yearGroupOrder = ['battle', 'event', 'order', 'person', 'kingdom', 'location', 'house', 'weaponArmor', 'document', 'artifact']
 
 export default function SearchPage() {
+  useDocumentTitle(pageTitle(utilityLabel('search')))
   const location = useLocation()
   const [searchParams] = useSearchParams()
   const [index, setIndex] = useState([])

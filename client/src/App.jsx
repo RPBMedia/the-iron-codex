@@ -1,4 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
+import { notFoundTitle } from './lib/pageTitles.js'
+import { useDocumentTitle } from './lib/useDocumentTitle.js'
 import Header from './components/Header.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 import Home from './pages/Home.jsx'
@@ -65,6 +67,8 @@ function RedirectCharacter() {
 }
 
 function NotFound() {
+  useDocumentTitle(notFoundTitle())
+
   return (
     <section className="empty-state">
       <p className="eyebrow">Lost manuscript</p>

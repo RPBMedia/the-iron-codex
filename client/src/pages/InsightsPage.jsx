@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { SITE_NAME, notFoundTitle, pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { Link } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { useAuth } from '../lib/auth.jsx'
@@ -74,6 +76,10 @@ export default function InsightsPage() {
       .then((payload) => { setData(payload); setStatus('ready') })
       .catch(() => setStatus('error'))
   }, [days, isAdmin, authLoading])
+
+  // Anyone who is not the admin sees "Page not found" in the page, so the tab
+  // says the same — it must not confirm that a private area exists.
+  useDocumentTitle(authLoading ? SITE_NAME : isAdmin ? pageTitle(utilityLabel('insights')) : notFoundTitle())
 
   if (authLoading) return <LoadingState label="Checking account" />
 

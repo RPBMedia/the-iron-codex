@@ -41,6 +41,14 @@ import { enrichArticle } from '../server/article-enrichment.js'
 // Lead text and length-clamping are shared with the app, so a card, a search
 // result and a meta description can never pick different text for one article.
 import { clampText as clamp, leadText } from '../client/src/lib/pageMeta.js'
+// Every title comes from the module the app uses too. Titles used to live only
+// here, so a full page load showed the right tab title and every client-side
+// navigation after it kept the old one. Do not build a title by hand in this file:
+// tests/page-titles.test.mjs fails if one appears.
+import {
+  SITE_NAME, TAGLINE, COLLECTION_LABEL, UTILITY_PAGES,
+  articleTitle, homeTitle, notFoundTitle, pageTitle
+} from '../client/src/lib/pageTitles.js'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -56,8 +64,6 @@ const contentDates = existsSync(path.join(root, 'server', 'data', 'content-dates
   : {}
 
 const SITE = 'https://www.theironcodex.org'
-const SITE_NAME = 'The Iron Codex'
-const TAGLINE = 'A medieval history archive'
 
 const shell = readFileSync(path.join(distDir, 'index.html'), 'utf8')
 
@@ -99,12 +105,6 @@ const absoluteImage = (src) => {
 
 const publicCollection = (c) =>
   c === 'characters' ? 'people' : c === 'weaponsArmor' ? 'weapons-armor' : c
-
-const COLLECTION_LABEL = {
-  people: 'People', events: 'Events', locations: 'Locations',
-  artifacts: 'Artifacts', 'weapons-armor': 'Weapons & Armor',
-  houses: 'Houses', orders: 'Orders'
-}
 
 const COLLECTION_BLURB = {
   people: 'Rulers, commanders, churchmen and chroniclers of the medieval world.',
@@ -216,8 +216,7 @@ for (const [collection, arr] of Object.entries(data)) {
 
   for (const a of arr) {
     const url = `${SITE}/${pub}/${a.id}`
-    const qualifier = a.title || a.eventType || a.locationType || a.weaponArmorType || COLLECTION_LABEL[pub]
-    const title = `${a.name} — ${qualifier} | ${SITE_NAME}`
+    const title = articleTitle(a, pub)
     const lead = leadText(a)
     const description = clamp(lead || `${a.name} in ${SITE_NAME}, ${TAGLINE.toLowerCase()}.`)
 
@@ -293,7 +292,7 @@ for (const [collection, arr] of Object.entries(data)) {
 
   writePage(`${pub}.html`, {
     head: buildHead({
-      title: `${label} — ${SITE_NAME}`,
+      title: pageTitle(label),
       description,
       canonical: url,
       image: arr.find((a) => a.image)?.image,
@@ -321,7 +320,7 @@ const homeDescription = clamp(
 
 writePage('index.html', {
   head: buildHead({
-    title: `${SITE_NAME} — ${TAGLINE}`,
+    title: homeTitle(),
     description: homeDescription,
     canonical: `${SITE}/`,
     jsonLd: [
@@ -357,13 +356,13 @@ const archiveLinks = Object.entries(data).filter(([, v]) => Array.isArray(v))
 
 writePage('archive.html', {
   head: buildHead({
-    title: `Full index — ${SITE_NAME}`,
+    title: pageTitle('Full index'),
     description: clamp(`An A–Z index of all ${totalArticles} articles in ${SITE_NAME}: people, battles, locations, houses, artifacts, weapons and armor.`),
     canonical: `${SITE}/archive`,
     jsonLd: [{
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: `Full index — ${SITE_NAME}`,
+      name: pageTitle('Full index'),
       url: `${SITE}/archive`,
       isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE }
     }]
@@ -405,7 +404,7 @@ for (const topic of topics) {
 
   writePage(`topics/${topic.slug}.html`, {
     head: buildHead({
-      title: `${topic.title} — ${SITE_NAME}`,
+      title: pageTitle(topic.title),
       description: clamp(topic.blurb),
       canonical: url,
       image: index0Image(topic),
@@ -448,13 +447,13 @@ const topicsDescription = clamp(
 )
 writePage('topics.html', {
   head: buildHead({
-    title: `Topics — ${SITE_NAME}`,
+    title: pageTitle('Topics'),
     description: topicsDescription,
     canonical: `${SITE}/topics`,
     jsonLd: [{
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: `Topics — ${SITE_NAME}`,
+      name: pageTitle('Topics'),
       description: topicsDescription,
       url: `${SITE}/topics`,
       isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE }
@@ -472,22 +471,11 @@ pages++
 
 // --- 4. utility routes: reachable, but never indexed -----------------------
 
-const UTILITY = [
-  ['search', 'Search', 'Search the archive.'],
-  ['login', 'Log in', 'Log in to The Iron Codex.'],
-  ['signup', 'Create an account', 'Create an Iron Codex account.'],
-  ['favorites', 'Favourites', 'Your saved articles.'],
-  ['auth/callback', 'Signing in…', 'Completing sign-in.'],
-  // Private analytics. It MUST be prerendered even though it is noindex: with
-  // the catch-all now returning a real 404, a route with no file 404s on direct
-  // load. Being in the build does not make it public — /api/insights is guarded
-  // server-side and the page renders "not found" to anyone who is not the admin.
-  ['insights', 'Insights', 'Private analytics.']
-]
-for (const [route, label, blurb] of UTILITY) {
+// The utility routes, and why Insights is among them, are defined in pageTitles.js.
+for (const [route, label, blurb] of UTILITY_PAGES) {
   writePage(`${route}.html`, {
     head: buildHead({
-      title: `${label} — ${SITE_NAME}`,
+      title: pageTitle(label),
       description: blurb,
       canonical: `${SITE}/${route}`,
       noindex: true
@@ -502,7 +490,7 @@ for (const [route, label, blurb] of UTILITY) {
 // gone, which ends the soft-404-on-every-URL problem found in the M1 audit.
 writePage('404.html', {
   head: buildHead({
-    title: `Page not found — ${SITE_NAME}`,
+    title: notFoundTitle(),
     description: 'That page does not exist in the archive.',
     canonical: `${SITE}/404`,
     noindex: true

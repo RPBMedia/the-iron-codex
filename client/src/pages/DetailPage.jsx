@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { SITE_NAME, articleTitle, notFoundTitle } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { Link, useNavigate, useLocation, useParams } from 'react-router-dom'
 import FavoriteButton from '../components/FavoriteButton.jsx'
 import LoadingState from '../components/LoadingState.jsx'
@@ -96,6 +98,12 @@ export default function DetailPage() {
     return () => { cancelled = true }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [collection, id])
+
+  // The tab follows the article. While the next one loads it names the site,
+  // not the article the reader has just left.
+  useDocumentTitle(
+    status === 'ready' && article ? articleTitle(article, collection) : status === 'error' ? notFoundTitle() : SITE_NAME
+  )
 
   if (status === 'loading') {
     return <LoadingState label="Opening article" />

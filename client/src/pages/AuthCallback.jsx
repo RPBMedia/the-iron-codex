@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../lib/auth.jsx'
 
@@ -9,6 +11,7 @@ const errorMessages = {
 }
 
 export default function AuthCallback() {
+  useDocumentTitle(pageTitle(utilityLabel('auth/callback')))
   const [params] = useSearchParams()
   const { refreshAuth } = useAuth()
   const [error, setError] = useState(params.get('error') ?? '')

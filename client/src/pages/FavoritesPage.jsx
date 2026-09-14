@@ -1,4 +1,6 @@
 import { Link, Navigate, useLocation } from 'react-router-dom'
+import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { useEffect, useMemo, useState } from 'react'
 import { getFavorites } from '../lib/api.js'
 import { useAuth } from '../lib/auth.jsx'
@@ -9,6 +11,7 @@ import { rememberArchiveAnchor, useArchiveStateRestoration } from '../lib/archiv
 const titleCollator = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true })
 
 export default function FavoritesPage() {
+  useDocumentTitle(pageTitle(utilityLabel('favorites')))
   const { isAuthenticated, isLoading, user } = useAuth()
   const [favorites, setFavorites] = useState([])
   const [sortMode, setSortMode] = useState('name')
