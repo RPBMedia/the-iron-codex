@@ -1057,7 +1057,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
         - Wrong subject, needing a replacement: Stenkil (a church interior), Guido da Landriano (a battle painting) and Ulrich von Jungingen (a coat of arms).
         - Not yet viewed: Eric II of Denmark.
         - About 29 undated `later depiction` captions and other template phrases ("represented with a relevant image", "medieval-style") on events and houses.
-      - **Caption batch 3 shipped (`9bed53f`):** the last 30 baseline captions, mostly battle and event images, now name medium and date. Narses' caption is corrected: it is the San Vitale mosaic of about 547, from his lifetime. **The baseline holds only 4 entries:** Stenkil, Guido da Landriano, Ulrich von Jungingen and Eric II of Denmark, whose replacements are drafted.
+      - **Caption batch 3 shipped (`9bed53f`):** the last 30 baseline captions, mostly battle and event images, now name medium and date. Narses' caption is corrected: it is the San Vitale mosaic of about 547, from his lifetime. **The baseline is now EMPTY (portraits ship, 2026-09-15):** Stenkil leads with an engraving from 1702, the only depiction of him. Ulrich von Jungingen leads with the Grand Master detail of Matejko's Grunwald (1878), and Eric II with the Ribe Cathedral portrait of about 1576. Guido da Landriano keeps his Cassioli battle detail by owner decision, with an honest caption. Wessex has its own ninth-century map, so England 878 leads only the Danelaw.
       - **Flagged by that batch for replacement (captioned honestly, not yet replaced):**
         - `battle-of-gestilren`: a blank relief map of Sweden
         - `battle-of-stiklestad`: a 2007 photo of Stiklestad Church

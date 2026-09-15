@@ -11,7 +11,7 @@
   "causeOfDeath": "See Death section",
   "restingPlace": "Unknown",
   "location": "Kingdom of Sweden",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Steinchetellian_windows_2003.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Christoph_Beer_(1702)_-_Stenchillus.png",
   "summary": "Stenkil was Swedish king remembered as the founder of the House of Stenkil and a Christian ruler in a still-fragmented kingdom.",
   "title": "king of Sweden",
   "roles": [
@@ -35,11 +35,12 @@
     "knownFor": "founding the House of Stenkil"
   },
   "imageInfo": {
-    "caption": "Window image associated with Stenkil.",
-    "creator": "Unknown artist",
-    "date": "later church art",
-    "source": "Wikimedia Commons",
-    "note": "Later image connected with royal memory."
+    "caption": "Stenkil in an imagined portrait, an engraving published in 1702 in Johann Christoph Beer’s book on the kings of Sweden, more than six centuries after his death.",
+    "creator": "Johann Christoph Beer (1638–1712), author of the book; the engraver is not recorded",
+    "date": "1702",
+    "source": "Johann Christoph Beer, book on the reigns and deaths of the kings of Sweden (1702), scanned from an auction listing; Wikimedia Commons, public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johann_Christoph_Beer_(1702)_-_Stenchillus.png",
+    "note": "The plate names the king \"Stenchillus\", the Latin form used in Johannes Magnus’s sixteenth-century king-list, and belongs to a set of Beer’s portraits of Swedish rulers from 1702 (Commons category \"Government and Deaths of All Kings in Sweden (1702)\"). It is invented, not a likeness: a bearded man in an embroidered tunic and fur-edged cloak. It is black and white because no colour image exists. Searches of Commons (Stenkil, Stenchillus, Steinkell, House of Stenkil), Swedish and English Wikipedia and Wikidata (Q362163) found no other depiction, no coin with his portrait and no documented tomb or foundation. The Vreta Abbey windows it replaces belong to a church his descendants endowed, not to Stenkil."
   },
   "overview": [
     "Stenkil was Swedish king remembered as the founder of the House of Stenkil and a Christian ruler in a still-fragmented kingdom. The profile is anchored by concrete turning points: c. 1028 — Approximate birth; c. 1060 — Becomes king; 1060s — Christian royal policy.",
@@ -156,16 +157,16 @@
   },
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata",
-      "author": "Wikimedia Commons",
-      "type": "image source",
-      "url": "https://commons.wikimedia.org/wiki/File:Steinchetellian_windows_2003.jpg"
-    },
-    {
       "title": "National Museum of Denmark: The Viking Age",
       "author": "National Museum of Denmark",
       "type": "historical overview",
       "url": "https://en.natmus.dk/historical-knowledge/denmark/prehistoric-period-until-1050-ad/the-viking-age/"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Johann_Christoph_Beer_(1702)_-_Stenchillus.png"
     }
   ],
   "isRuler": true,

@@ -10,7 +10,7 @@
   "deathAge": "about 50",
   "restingPlace": "Malbork Castle chapel, traditionally",
   "location": "Teutonic Order",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Arms_of_the_house_of_Jungingen_as_Grand_Master_of_the_Teutonic_Order.svg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grunwald_Wielki_Mistrz.jpg?width=1600",
   "summary": "Ulrich von Jungingen was Grand Master of the Teutonic Order and commander of its army at Grunwald, where he was killed.",
   "details": "Ulrich von Jungingen was Grand Master of the Teutonic Order and commander of its army at Grunwald, where he was killed.",
   "title": "Grand Master of the Teutonic Order",
@@ -45,11 +45,12 @@
     "knownFor": "Commanding the Teutonic Order at Grunwald"
   },
   "imageInfo": {
-    "caption": "Image associated with Ulrich von Jungingen.",
-    "creator": "Unknown or public-domain source",
-    "date": "medieval or later public-domain image",
-    "source": "Wikimedia Commons",
-    "note": "Used as a historical depiction, seal, coin, manuscript image, tomb, or associated artwork; not necessarily a contemporary portrait."
+    "caption": "Ulrich von Jungingen, sword raised, in his last moments at Grunwald: a detail of Jan Matejko’s oil painting Battle of Grunwald, completed in 1878.",
+    "creator": "Jan Matejko (1838–1893)",
+    "date": "1878",
+    "source": "National Museum in Warsaw (inv. MP 443 MNW); detail via Wikimedia Commons, public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grunwald_Wielki_Mistrz.jpg",
+    "note": "This is a detail of Matejko’s canvas, which measures 426 × 987 cm (Wikidata Q2636368). The Grand Master rides a grey horse in a white mantle, with the eagle shield of his office on his breast, as foot soldiers close in to kill him. It is a Polish history painting made 468 years after the battle, not a likeness: no portrait of Ulrich from his lifetime is known. The engraved portraits descended from Christoph Hartknoch’s Alt- und Neues Preussen (1684) are just as imaginary, and they are black and white. Other colour crops of the same figure were rejected: a tighter one is only 1000 px wide and over-saturated, and a gallery photograph of the canvas has glare. The Kraków Grunwald Monument’s bronze of the dead Grand Master hides his face."
   },
   "overview": [
     "Ulrich von Jungingen was Grand Master of the Teutonic Order and commander of its army at Grunwald, where he was killed."
@@ -189,10 +190,10 @@
       "url": "https://en.wikipedia.org/wiki/Ulrich_of_Jungingen"
     },
     {
-      "title": "Wikimedia Commons image metadata",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
-      "type": "image source",
-      "url": "https://commons.wikimedia.org/wiki/File:Arms_of_the_house_of_Jungingen_as_Grand_Master_of_the_Teutonic_Order.svg"
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Grunwald_Wielki_Mistrz.jpg"
     }
   ]
 }
