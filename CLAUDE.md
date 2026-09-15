@@ -63,6 +63,13 @@ carry on with the current item, never open a new one. Background drafting that
 changes nothing live may continue, but it stays unshipped until the owner has
 confirmed the previous ship and says to proceed.
 
+**Agent concurrency (owner rule, 2026-09-15).** At most **two subagents running at
+once**; the full rule is in `~/.claude/CLAUDE.md`. For content work that means one
+kingdom, city or article batch agent at a time, launched only for the next ship. Do
+not pre-draft every approved batch: on 2026-09-15 about 29 agents ran in one
+session, up to 10 at once, while their output waited behind one-ship-at-a-time
+review.
+
 
 ### Keep updates short (mandatory)
 
