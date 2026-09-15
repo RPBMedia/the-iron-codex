@@ -1011,6 +1011,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
       - All 21 were viewed. The 13 correct images got specific captions and notes, for example Frederick II in his falconry manuscript, Andrew II in the Chronicon Pictum, and Dandolo by Domenico Tintoretto.
       - 8 need replacing: Louis IX (the church), Louis VII, Jean de Joinville and Innocent III (tiny scans), Godfrey of Bouillon (no metadata), Bohemond (a poster-shop source), Baldwin II (tiny), and Charles of Anjou (his knights, not him). Two agents are drafting those replacements.
       - **Gate shipped:** `check-images` fails on vague captions (`scripts/lib/vague-captions.mjs`). The 75 captions already vague are listed in `scripts/lib/vague-caption-baseline.json`, a shrink-only list: fixing one without removing it also fails. Next ship: the 8 replacements, then the 30 `image associated with` captions, then the rest of the list.
+      **Progress, second update 2026-09-15 (owner away):**
+      - **Caption batch 2 shipped (`a579a60`):** all 37 `image associated with` and `image of` images were viewed; 33 got specific captions, dates and notes.
+      - **Replacements shipped (`2045518`):** Louis IX (Bible moralisée, about 1227–1234), Louis VII (Grandes Chroniques, about 1375–1380), Joinville (BnF fr. 13568, about 1330–1340), Innocent III (Subiaco fresco, about 1219), Jacques de Molay (coloured 19th-century engraving).
+      - **Still open:**
+        - Replacements being drafted: Godfrey of Bouillon, Bohemond I, Baldwin II and Charles of Anjou.
+        - Wrong subject, needing a replacement: Stenkil (a church interior), Guido da Landriano (a battle painting) and Ulrich von Jungingen (a coat of arms).
+        - Not yet viewed: Eric II of Denmark.
+        - About 29 undated `later depiction` captions and other template phrases ("represented with a relevant image", "medieval-style") on events and houses.
+      - **The vague-caption baseline is down from 75 to 38.**
       **Fix:**
       1. View each of the 21 images.
       2. Where an image shows the wrong subject, replace it with a real depiction under the person-image rules: manuscript, effigy, seal, portrait coin or later artwork, captioned honestly. Louis IX has many good ones (the Bible of Saint Louis, the Joinville manuscripts, the Saint-Louis statue at Mainneville).
