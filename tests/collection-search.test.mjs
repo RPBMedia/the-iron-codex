@@ -5,7 +5,7 @@
  */
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { byRelevanceThen, searchRelevance } from '../client/src/lib/collectionSearch.js'
+import { byRelevanceThen, matchesSearch, normalizeSearch, searchRelevance } from '../client/src/lib/collectionSearch.js'
 import { loadArchive } from '../server/data/archive.mjs'
 
 const alphabetical = (a, b) => a.name.localeCompare(b.name)
@@ -33,4 +33,28 @@ test('searching People for "Saladin" lists his article first', () => {
 test('without a query the chosen sort is untouched', () => {
   const items = [{ name: 'B' }, { name: 'A' }]
   assert.deepEqual([...items].sort(byRelevanceThen('', alphabetical)).map((i) => i.name), ['A', 'B'])
+})
+
+// The filter runs before the ranking. The first version fixed only the ranking,
+// so "wladyslaw jagiello" still found nothing. These run the whole path.
+const peopleSearch = (query) => {
+  const people = loadArchive().characters
+  const matches = people.filter((person) => matchesSearch(normalizeSearch(JSON.stringify(person)), query))
+  return matches.sort(byRelevanceThen(query, alphabetical))
+}
+
+test('the filter matches every word in any order, folding ł', () => {
+  assert.equal(matchesSearch(normalizeSearch('Władysław II Jagiełło'), 'wladyslaw jagiello'), true)
+  assert.equal(matchesSearch(normalizeSearch('Władysław II Jagiełło'), 'jagiello wladyslaw'), true)
+  assert.equal(matchesSearch(normalizeSearch('Władysław II Jagiełło'), 'wladyslaw casimir'), false)
+})
+
+test('People search for "wladyslaw jagiello" finds Władysław II Jagiełło first', () => {
+  const ranked = peopleSearch('wladyslaw jagiello')
+  assert.ok(ranked.length > 0, 'no results')
+  assert.equal(ranked[0].id, 'wladyslaw-ii-jagiello')
+})
+
+test('People search for "Saladin" still puts him first through the filter', () => {
+  assert.equal(peopleSearch('Saladin')[0].id, 'saladin')
 })

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { byRelevanceThen } from '../lib/collectionSearch.js'
+import { byRelevanceThen, matchesSearch, normalizeSearch } from '../lib/collectionSearch.js'
 import { useLocation, useNavigationType, useSearchParams } from 'react-router-dom'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
@@ -234,11 +234,19 @@ function defaultSort(collection) {
   return collection === 'events' ? 'date-asc' : 'alpha'
 }
 
+// Folded searchable text per article, computed once rather than on every keystroke.
+const foldedTextCache = new WeakMap()
+
+function foldedSearchableText(item, collection) {
+  if (!foldedTextCache.has(item)) foldedTextCache.set(item, normalizeSearch(searchableText(item, collection)))
+  return foldedTextCache.get(item)
+}
+
 function filterItems(items, collection, archiveState, filterConfigs) {
-  const search = archiveState.search.trim().toLowerCase()
+  const search = archiveState.search.trim()
 
   return items.filter((item) => {
-    if (search && !searchableText(item, collection).includes(search)) {
+    if (search && !matchesSearch(foldedSearchableText(item, collection), search)) {
       return false
     }
 

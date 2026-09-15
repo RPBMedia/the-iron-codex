@@ -31,16 +31,31 @@ export function normalizeSearch(value) {
     .trim()
 }
 
+const tokens = (text) => text.split(" ").filter(Boolean)
+
+/**
+ * Whether an article matches the search box: every word of the query appears in
+ * its text, in any order, after folding case, accents and letters like ł. The
+ * words need not sit together: "wladyslaw jagiello" must find "Władysław II
+ * Jagiełło" (owner report, 2026-09-15). normalizedText is normalizeSearch() of
+ * the article's searchable text.
+ */
+export function matchesSearch(normalizedText, query) {
+  const words = tokens(normalizeSearch(query))
+  return words.every((word) => normalizedText.includes(word))
+}
+
 export function searchRelevance(item, query) {
   const q = normalizeSearch(query)
   if (!q) return 0
+  const words = tokens(q)
   const name = normalizeSearch(item?.name)
   const aliases = (item?.aliases ?? []).map(normalizeSearch)
   if (name === q) return 6
   if (aliases.includes(q)) return 5
   if (name.startsWith(q)) return 4
-  if (name.includes(q)) return 3
-  if (aliases.some((alias) => alias.includes(q))) return 2
+  if (name.includes(q) || words.every((word) => name.includes(word))) return 3
+  if (aliases.some((alias) => alias.includes(q) || words.every((word) => alias.includes(word)))) return 2
   return 1
 }
 
