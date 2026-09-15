@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15, late evening. Queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
+_Last updated: 2026-09-15, night. The owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
 
 **Owner answers on the away-mode questions:**
 - 1453 wins, and CLAUDE.md now says so.
@@ -1033,6 +1033,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **U7: cleanup** of obsolete styles.
 
    No local dev server (owner rule), so every milestone is verified live after deploy, with the owner testing each one.
+0p. **OWNER-APPROVED 2026-09-15: SCAN EVERY ARCHIVE IMAGE FOR BLANK BORDERS BAKED INTO THE FILE.** The CSS stopped padding images in `e3372f7` (owner rule: no margins around images, whatsoever), but a file can still carry its own margin. The Hélyot scan on `order-of-st-thomas-of-acre` had a wide page border; it is now cropped and self-hosted. `node scripts/audit-image-borders.mjs --out <file>` fetches every render image, flattens it over the dark frame and measures blank light edges. It reports three classes: `frame` (three or four sides), `pair` (two sides) and `single` (one side at 8% or more, often a plain sky). Steps:
+   1. Run the scan.
+   2. Review the frame and pair hits by eye on contact sheets.
+   3. Fix each one: choose a borderless file, or crop and self-host it under `client/public/<collection>/` with the Commons page kept as `sourceUrl`.
+   4. Decide whether a baseline gate is worth keeping.
+
+   The Order of Montjoy image replacement ships first; the owner approved swapping its white shield for a photograph.
 0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
    1. **Known for must link: "a big one".** Names, places and events in any article's Known for must be navigable, like body prose. Reported on `kingdom-of-hungary`. Shipping first: the W&A block, the location and polity list, and the person fact card all run through `renderLinkedText`, and CLAUDE.md §5 makes it a rule.
    2. **Insights: the accounts-created chart runs past the dark page area** onto the light footer. Next ship.
