@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15, night. The owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
+_Last updated: 2026-09-15, late night. The Order of Montjoy's history was corrected against the Catalan, Spanish and English Wikipedia articles (`f019003`; owner rule: historical errors are always corrected). 0p ship 1 is next: 28 margin crops, self-hosted. Earlier that night: the owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
 
 **Owner answers on the away-mode questions:**
 - 1453 wins, and CLAUDE.md now says so.
@@ -1040,6 +1040,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    4. Decide whether a baseline gate is worth keeping.
 
    The Order of Montjoy image replacement ships first; the owner approved swapping its white shield for a photograph.
+
+   **Scan run 2026-09-15:** 1,109 images: 98 frame, 50 pair, 36 single, no errors. Reviewed by eye on contact sheets:
+   - **Ship 1 (this one): 28 real margins cropped.** These are scans of prints, chronicle and manuscript pages, a photograph on its card mount (`covadonga`) and a photographed book spread (`michael-bourtzes`). They are self-hosted under `client/public/images/<collection>/` by `scripts/crop-image-borders.mjs`: blank edges are trimmed automatically, and a manual `@x0,y0,x1,y1` box handles the three the blank test cannot see. Printed titles and captions on the plates are kept.
+   - **Ship 2: about 32 coins and seals on a white or paper ground.** Crop tight to the object. Round objects keep white corners.
+   - **Owner decision needed:** about 11 objects and figures photographed on white, plus about 45 Weapons & Armor objects on white. CLAUDE.md currently asks for W&A objects isolated on a plain white ground, and a long thin object such as a pike or lance leaves most of the frame white.
+   - **Separate quality item:** `vandal-kingdom`, `mongol-empire` and `sasanian-empire` lead with washed-out, very pale maps.
+   - **Not margins:** maps with light seas, white skies inside engravings, and manuscript parchment.
 0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
    1. **Known for must link: "a big one".** Names, places and events in any article's Known for must be navigable, like body prose. Reported on `kingdom-of-hungary`. Shipping first: the W&A block, the location and polity list, and the person fact card all run through `renderLinkedText`, and CLAUDE.md §5 makes it a rule.
    2. **Insights: the accounts-created chart runs past the dark page area** onto the light footer. Next ship.
