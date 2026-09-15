@@ -990,6 +990,35 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    neighbours to link: `guthrum`, `northumbria`, `battle-of-edington`,
    `battle-of-brunanburh`, `eric-bloodaxe`, `aethelstan`, `cnut-the-great`,
    `coppergate-helmet`.
+0c. **OWNER REQUEST 2026-09-15 — articles for queens, starting with the house
+   trees. The owner expects this to be big, and it is.** Reported on
+   `house-of-plantagenet`: every queen in the tree is plain text, e.g. Henry V's
+   wife Catherine of Valois, who has no article under any spelling. Audit
+   2026-09-15: the 70 house trees hold **44 spouse nodes, 38 of them unlinked (36
+   distinct people)**. Plantagenet 12 of 14, Normandy 5 of 5, Wessex 4 of 4, the
+   rest one or two each. The two Plantagenet spouses that do link, Empress Matilda
+   and Eleanor of Aquitaine, both ruled in their own right. **Scope by importance,
+   not by tree position:**
+   - **Tier 1, queens who governed or changed events:** Isabella of France (with
+     Mortimer, deposed Edward II), Margaret of Anjou (led the Lancastrian cause),
+     Catherine of Valois (the Treaty of Troyes marriage; through Owen Tudor,
+     grandmother of Henry VII), Philippa of Hainault, Eleanor of Castile, Isabella
+     of Angoulême, Berengaria of Navarre, Eleanor of Provence, Anne of Bohemia.
+   - **Tier 2, spouses in the tree who were never queens:** Joan of Kent (Princess
+     of Wales, mother of Richard II), Blanche of Lancaster, and Mary de Bohun
+     (Henry Bolingbroke's first wife, dead five years before he was king). Create
+     where the record supports a biography; otherwise name them unlinked, as the
+     unlinked-commander convention does.
+   - Then the unlinked spouses in the other trees (Normandy, Wessex, the Byzantine
+     dynasties), then important queens outside the trees.
+   **Rules that apply:** the full Person standard, including a main image that
+   depicts the woman herself (the tomb effigies at Westminster, Fontevraud and
+   L'Épau, manuscript portraits), Character and Personality, a timeline of at
+   least 5 and at least 3 related entries. A consort is not a ruler, so **no
+   succession box**; a queen regnant gets one. Link both ways: the tree node gains
+   `personSlug`, and her article links her husband and the house. Worth a gate once
+   tier 1 exists: fail on an unlinked spouse node whose partner is a linked ruler,
+   with an allowlist for the documented no-biography cases.
 1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the
