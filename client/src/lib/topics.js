@@ -112,6 +112,12 @@ export const TOPICS = [
           "summary": "Olaf II Haraldsson was king of Norway whose death at Stiklestad and later cult made him Norway’s royal saint."
         },
         {
+          "id": "olof-skotkonung",
+          "name": "Olof Skötkonung",
+          "depth": 1,
+          "summary": "Olof Skötkonung was Swedish king remembered as the first Christian king of Sweden and one of the first to issue coins in his name."
+        },
+        {
           "id": "ragnar-lothbrok",
           "name": "Ragnar Lothbrok",
           "depth": 1,
@@ -159,7 +165,7 @@ export const TOPICS = [
           "id": "battle-of-svolder",
           "name": "Battle of Svolder",
           "depth": 0,
-          "summary": "A naval battle in which Olaf Tryggvason of Norway was defeated and disappeared or died, according to saga tradition."
+          "summary": "The sea battle, traditionally dated to September 1000, in which Olaf Tryggvason was overwhelmed by the fleets of Denmark, Sweden and Jarl Eric Hákonarson and vanished overboard from the Long Serpent."
         },
         {
           "id": "battle-of-fulford",
@@ -391,7 +397,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 61
+    "count": 62
   },
   {
     "slug": "crusades",
@@ -446,13 +452,13 @@ export const TOPICS = [
           "id": "battle-of-grunwald",
           "name": "Battle of Grunwald",
           "depth": 1,
-          "summary": "Polish-Lithuanian forces defeated the Teutonic Order in one of the largest battles of medieval Europe."
+          "summary": "On 15 July 1410 the armies of Władysław II Jagiełło and Vytautas destroyed the Teutonic Order's field army in Prussia, killing Grand Master Ulrich von Jungingen and most of his commanders."
         },
         {
           "id": "battle-of-las-navas-de-tolosa",
           "name": "Battle of Las Navas de Tolosa",
           "depth": 1,
-          "summary": "A coalition of Iberian Christian kingdoms defeated the Almohads, marking a major shift in the balance of power in Iberia."
+          "summary": "On 16 July 1212 the kings of Castile, Aragon and Navarre broke the army of the Almohad caliph Muhammad al-Nasir in the passes of the Sierra Morena, opening al-Andalus to the conquests of the next forty years."
         },
         {
           "id": "battle-of-pelagonia",
@@ -1310,7 +1316,7 @@ export const TOPICS = [
           "id": "battle-of-crecy",
           "name": "Battle of Crécy",
           "depth": 0,
-          "summary": "Edward III’s English army defeated Philip VI’s French forces, demonstrating the power of defensive positioning and longbowmen."
+          "summary": "On 26 August 1346 Edward III's English army, fighting on foot beside its archers, defeated Philip VI's larger French army near Crécy-en-Ponthieu in the first great land battle of the Hundred Years' War."
         },
         {
           "id": "battle-of-formigny",
@@ -2011,7 +2017,7 @@ export const TOPICS = [
           "id": "battle-of-las-navas-de-tolosa",
           "name": "Battle of Las Navas de Tolosa",
           "depth": 0,
-          "summary": "A coalition of Iberian Christian kingdoms defeated the Almohads, marking a major shift in the balance of power in Iberia."
+          "summary": "On 16 July 1212 the kings of Castile, Aragon and Navarre broke the army of the Almohad caliph Muhammad al-Nasir in the passes of the Sierra Morena, opening al-Andalus to the conquests of the next forty years."
         },
         {
           "id": "battle-of-ourique",
@@ -2030,6 +2036,12 @@ export const TOPICS = [
           "name": "Siege of Lisbon",
           "depth": 0,
           "summary": "Afonso Henriques took Lisbon from its Muslim rulers in October 1147 after a seventeen-week siege, aided by a fleet of Second Crusade crusaders from England, Flanders, and the Rhineland — the making of Portugal's great city."
+        },
+        {
+          "id": "battle-of-alarcos",
+          "name": "Battle of Alarcos",
+          "depth": 1,
+          "summary": "On 18 July 1195 the Almohad caliph Abu Yusuf Yaqub crushed Alfonso VIII of Castile at Alarcos, a defeat so complete that the caliph took the title al-Mansur, \"the Victorious\" — and Castile's advance was checked until Las Navas de Tolosa avenged it."
         },
         {
           "id": "battle-of-aljubarrota",
@@ -2163,7 +2175,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 37
+    "count": 38
   }
 ]
 
@@ -2283,6 +2295,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "olaf-ii-haraldsson": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
+  "olof-skotkonung": [
     {
       "slug": "viking-age",
       "title": "The Viking Age"
@@ -3941,6 +3959,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "siege-of-lisbon": [
+    {
+      "slug": "reconquista",
+      "title": "The Reconquista"
+    }
+  ],
+  "battle-of-alarcos": [
     {
       "slug": "reconquista",
       "title": "The Reconquista"

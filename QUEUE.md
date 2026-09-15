@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15 (**Session handoff:** read `SESSION_HANDOFF.md` first. Step 1 of the owner's plan shipped 2026-09-14; step 2 — the stub backlog — is next.) — previously 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+_Last updated: 2026-09-15 (step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -842,8 +842,61 @@ it and bind all future work:
 **THE OWNER'S PLAN (agreed 2026-09-14) — work it in this order:**
 
 1. ✅ Live defects — shipped 2026-09-14, deploy verified.
-2. **Stub backlog, top ~10 by inbound links — not all 228** (item 1 below).
-   Rewrite each target's template prose in the same pass (item 2 below).
+2. ✅ **Stub backlog, first batch — shipped 2026-09-15.** The top ten by inbound
+   links rewritten to the current standard: Las Navas de Tolosa, Bannockburn,
+   Bouvines, Kosovo, Grunwald, Wars of Scottish Independence, Crécy and Svolder
+   (events), Rouen and Stamford Bridge (locations). Six or seven sections each, a
+   dated timeline, named primary sources in place of homepage links; Stamford
+   Bridge's generator template removed (baseline 86 → 85 articles). **The rest of
+   the backlog is item 0 below** (owner decision: no article under 2,000 chars).
+   Found and fixed on the way:
+   - **Event pages never rendered `timeline`.** `EventContent` had no
+     `<Timeline>`, so the 24 event timelines already in the archive, the
+     Byzantine sieges included, were invisible. One line; now rendered.
+   - **Continuity pointed backward where a later battle exists:** Kosovo →
+     Nicopolis (was Manzikert), Grunwald → Varna (was Agincourt), Las Navas →
+     Aljubarrota (was Tours, 732).
+   - **Wrong auto-links, archive-wide.** `gen-entity-links.mjs` split curated
+     aliases on commas, so "Ferdinand, Count of Flanders" minted a bare
+     "Ferdinand" on every regeneration, and likewise "Holy Roman Emperor" → Otto
+     IV, "Queen of Jerusalem" → Sibylla, "Count of Flanders". Bare regnal aliases
+     collided: "Henry I" → Castile, "John I" → Tzimiskes, "Louis I" → Louis the
+     Pious; and "James" → Anund Jacob. The generator now parses aliases as JSON,
+     drops comma fragments, and refuses a bare regnal alias when another ruler of
+     that name has an article. "Alexander" (a label) and "Richard I" (also the
+     Norman duke) resolve through `ambiguousEntityAliases` context hints instead.
+   - The Black Prince is now a linked Crécy commander, with the reciprocal link.
+   **Gaps written around, not filled — create-or-document decisions:**
+   - Commanders named in prose with no article: Peter II of Aragon and Sancho VII
+     of Navarre (Las Navas; the known Aragonese/Navarrese ruler gap), Thomas
+     Randolph, James Douglas, Edward Bruce, Aymer de Valence, Gilbert de Clare and
+     Humphrey de Bohun (Bannockburn), Renaud de Dammartin, William Longespée and
+     Guérin (Bouvines), Vuk Branković and Vlatko Vuković (Kosovo), Zyndram of
+     Maszkowice and Heinrich von Plauen (Grunwald), John of Bohemia (Crécy).
+   - Battles with no article, written as place names rather than "Battle of X" so
+     the gate stays honest: Falkirk 1298, Dupplin Moor 1332, Halidon Hill 1333,
+     Neville's Cross 1346 (a Scottish-independence track), Sluys 1340 (Hundred
+     Years' War track), Muret 1213, Maritsa 1371, Nesjar 1016. Las Navas has no
+     later Reconquista battle to continue to until Río Salado exists.
+
+   **Gotchas — folded from `SESSION_HANDOFF.md` (deleted 2026-09-15); re-verify
+   before relying on them:**
+   - The auto-linker is case-insensitive and whole-word, so ordinary words that
+     are article names get linked: "exhibition tours" → Tours, "Earl of Oxford" →
+     Oxford, "William Longsword" → the longsword. Dry-run new prose against
+     `client/src/lib/entityLinks.js` before shipping.
+   - `tests/page-titles.test.mjs` reads `prerender.mjs` as text and cannot catch a
+     syntax error; `npm run build` can. Always run it.
+   - `node scripts/check-images.mjs --remote` is rate-limited by Commons and still
+     prints "passed". Verify changed images directly.
+   - `node scripts/update-content-dates.mjs` dates ANY changed hash to today,
+     including old unrecorded edits. Correct those from git history.
+   - The content checker also reads `server/index.js`, `entityLinks.js` and the
+     template baseline; copy all of them when testing in a scratch copy. Its
+     failure lines print the rule name in `[brackets]`.
+   - Queue claims go stale. Check a claim against the code before repeating it.
+   - Still owed from step 1, owner eyeball only: a pope's card on People now shows
+     a description; moving between two pages changes the tab title.
 3. **Infra pass:** content-quality, images and tests into the deploy build
    (see the deploy note), plus auth storage hardening (item 7).
 4. **One conflict track**, writing the conflict-completeness rule into
@@ -877,6 +930,66 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### Everything remaining, ranked by what it is worth
 
+0. **OWNER DECISION 2026-09-15 — no article in the archive may stay under
+   2,000 characters. All of them, not a top ~10.** (227 at the time, 133 with no
+   timeline; `node scripts/audit-stubs.mjs --all`.) Step 2's top-10 batch is the
+   first slice of this, not the whole job. Work it in ranked batches, inbound links
+   first, and follow the costly-operations rule: propose each batch before writing.
+   **City standard, same decision, with Damascus as the example**
+   (`/locations/damascus`, reported as an Overview of three lines plus four lines
+   of Historical significance). Every city of Damascus's weight (Paris, Córdoba,
+   Constantinople, Rome, Rouen…) must carry: its history by period, a timeline,
+   famous rulers, what it is known for, its urban structure (walls, quarters,
+   citadel, great mosque or cathedral, markets), its impact beyond the city, the
+   important events that happened there, and **at least one section image in
+   addition to the main image**. `constantinople` (9,447 chars, 11 sections, 15
+   timeline entries) is the existing benchmark. Once the first cities are done,
+   write the standard into `CLAUDE.md` and add a hard-failing
+   `validateCityStandards` beside `validatePolityStandards`, following the
+   gates-not-docs rule.
+   **Damascus main image: the owner wants a broad, wide-angle view of the city**,
+   replacing the current Citadel photograph, which reads as a fragment of ruin.
+   **This conflicts with a binding rule and must be reconciled, not overridden
+   silently:** CLAUDE.md's Medieval Location Image Rules name Damascus as the
+   worked example of *not* using a modern skyline, and `validateMedievalLocationImage`
+   hard-fails captions containing "skyline", "cityscape" or "aerial view of the
+   city". **Recommended reconciliation:** a pre-modern panorama showing the old
+   walled city as a whole: a nineteenth-century view or early photograph (e.g. a
+   Roberts lithograph or a Bonfils-era photograph) with the Umayyad Mosque rising
+   over the old city. That meets the owner's "broad view" and the rule's "medieval
+   subject in focus". Caption it honestly with its date. Apply the same test to
+   every city's main image.
+   **Locations carry a higher bar: at least 5,000 characters** (owner, same day,
+   with `oxford` as the example: 854 chars, one image, no timeline). Each covers
+   what the place is chiefly famous for, its origins, who ruled or held it, a
+   timeline of its main events, and its legacy, with **at least two images for
+   important places**. Audit 2026-09-15: 171 locations, **107 under 2,000 and 129
+   under 5,000; only 8 have two or more images.** The worst of the famous: `rome`
+   997, `london` 969, `aachen` 881, `paris` 879, `oxford` 854. Rank by inbound
+   links and fame, propose each batch, then write. Side finding: `locationType`
+   is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
+   normalise it before any validator keys off it.
+0b. **OWNER REQUEST 2026-09-15 — a Danelaw article.** Searched first: no article,
+   alias or Five Boroughs entry exists, and seven articles already mention the
+   Danelaw in prose (`battle-of-edington`, `alfred-the-great`, `edward-the-elder`,
+   `edmund-i-of-england`, `guthrum`, `kingdom-of-wessex`, `house-of-wessex`);
+   link them in once it exists. Write it to the Kingdom and Polity standard: how
+   it formed (the Great Heathen Army from 865, the settlement of Northumbria, East
+   Anglia and eastern Mercia in the 870s, the boundary agreed by Alfred and
+   Guthrum); what law and custom meant inside it (Scandinavian legal terms, the
+   wapentake, the Five Boroughs, and "Danelaw" as a legal label first recorded in
+   the early eleventh century rather than a state); who ruled which part (the
+   kings of York, Guthrum in East Anglia, the armies of the Five Boroughs); the
+   West Saxon reconquest under Edward the Elder and Æthelflæd; Eric Bloodaxe's
+   fall in 954; and the Anglo-Scandinavian legacy in place names, law and
+   language. **At least two images** with full metadata, e.g. a map of the
+   division plus coinage of the York kings or a monument. **Gaps will surface:**
+   there is no article for East Anglia, the Kingdom of York (Jórvík), Mercia, the
+   Treaty of Alfred and Guthrum, the Great Heathen Army or Æthelflæd. Decide
+   which are created with it and which are named without links. Existing
+   neighbours to link: `guthrum`, `northumbria`, `battle-of-edington`,
+   `battle-of-brunanburh`, `eric-bloodaxe`, `aethelstan`, `cnut-the-great`,
+   `coppergate-helmet`.
 1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the

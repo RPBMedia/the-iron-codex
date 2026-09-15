@@ -40,7 +40,7 @@ export const entityLinks = [
   { label: "Andrew II of Hungary", aliases: ["Andrew of Hungary"], type: "person", slug: "andrew-ii-of-hungary" },
   { label: "Andrew Moray", aliases: ["Andrew de Moray","Andrew Murray"], type: "person", slug: "andrew-moray" },
   { label: "Anna Komnene", aliases: ["Anna Comnena"], type: "person", slug: "anna-komnene" },
-  { label: "Anund Jacob", aliases: ["Anund Jakob","James"], type: "person", slug: "anund-jacob" },
+  { label: "Anund Jacob", aliases: ["Anund Jakob"], type: "person", slug: "anund-jacob" },
   { label: "As-Salih Ismail", aliases: ["as-Salih Ismail al-Malik","al-Salih Ismail"], type: "person", slug: "as-salih-ismail" },
   { label: "Baldwin I of Jerusalem", aliases: ["Baldwin of Boulogne"], type: "person", slug: "baldwin-i-of-jerusalem" },
   { label: "Baldwin I, Latin Emperor", aliases: ["Baldwin of Flanders","Baldwin IX of Flanders"], type: "person", slug: "baldwin-i-latin-emperor" },
@@ -132,7 +132,7 @@ export const entityLinks = [
   { label: "Ferdinand I of Portugal", aliases: ["Fernando I","Ferdinand the Handsome","Ferdinand the Inconstant","Fernando o Formoso"], type: "person", slug: "ferdinand-i-of-portugal" },
   { label: "Ferdinand II of Aragon", aliases: ["Fernando II de Aragón","Ferdinand the Catholic","Ferdinand V of Castile"], type: "person", slug: "ferdinand-ii-of-aragon" },
   { label: "Ferdinand III of Castile", aliases: ["Fernando III","Saint Ferdinand","San Fernando","Ferdinand the Saint","Ferdinand III"], type: "person", slug: "ferdinand-iii-of-castile" },
-  { label: "Ferdinand of Flanders", aliases: ["Ferdinand","Count of Flanders","Ferrand of Flanders","Ferdinand, Count of Flanders"], type: "person", slug: "ferdinand-of-flanders" },
+  { label: "Ferdinand of Flanders", aliases: ["Ferrand of Flanders","Ferdinand, Count of Flanders"], type: "person", slug: "ferdinand-of-flanders" },
   { label: "Fiore dei Liberi", aliases: ["Fiore dei Liberi da Cividale","Fiore Furlano","Fiore de’ Liberi"], type: "person", slug: "fiore-dei-liberi" },
   { label: "Frederick I Barbarossa", aliases: ["Frederick Barbarossa","Frederick I"], type: "person", slug: "frederick-i-barbarossa" },
   { label: "Frederick II, Holy Roman Emperor", aliases: ["Frederick II","Stupor Mundi"], type: "person", slug: "frederick-ii-holy-roman-emperor" },
@@ -162,7 +162,7 @@ export const entityLinks = [
   { label: "Harold Harefoot", aliases: ["Harold I of England"], type: "person", slug: "harold-harefoot" },
   { label: "Harthacnut", aliases: ["Hardecanute","Hörðaknútr"], type: "person", slug: "harthacnut" },
   { label: "Hemming of Denmark", aliases: ["Hemming I"], type: "person", slug: "hemming-of-denmark" },
-  { label: "Henry I of Castile", aliases: ["Enrique I","Henry I"], type: "person", slug: "henry-i-of-castile" },
+  { label: "Henry I of Castile", aliases: ["Enrique I"], type: "person", slug: "henry-i-of-castile" },
   { label: "Henry I of England", aliases: ["Henry Beauclerc","Henry I Beauclerc"], type: "person", slug: "henry-i-of-england" },
   { label: "Henry I of France", aliases: ["Henri Ier","Henry I Capet"], type: "person", slug: "henry-i-of-france" },
   { label: "Henry II of Castile", aliases: ["Henry of Trastámara","Enrique II","Henry the Fratricidal","el de las Mercedes"], type: "person", slug: "henry-ii-of-castile" },
@@ -205,7 +205,7 @@ export const entityLinks = [
   { label: "John I of Castile", aliases: ["Juan I of Castile","Juan I de Castilla"], type: "person", slug: "john-i-of-castile" },
   { label: "John I of Portugal", aliases: ["João I","John of Aviz","John of Good Memory","João de Boa Memória"], type: "person", slug: "john-i-of-portugal" },
   { label: "John I Sverkersson", aliases: ["Johan Sverkersson","John I of Sweden"], type: "person", slug: "john-i-sverkersson" },
-  { label: "John I Tzimiskes", aliases: ["John Tzimiskes","Ioannes I Tzimiskes","John I"], type: "person", slug: "john-i-tzimiskes" },
+  { label: "John I Tzimiskes", aliases: ["John Tzimiskes","Ioannes I Tzimiskes"], type: "person", slug: "john-i-tzimiskes" },
   { label: "John II Komnenos", aliases: ["John the Good","Kaloïōannēs"], type: "person", slug: "john-ii-komnenos" },
   { label: "John II of Castile", aliases: ["Juan II","Juan II de Castilla"], type: "person", slug: "john-ii-of-castile" },
   { label: "John II of France", aliases: ["John the Good","Jean II le Bon"], type: "person", slug: "john-ii-of-france" },
@@ -232,7 +232,7 @@ export const entityLinks = [
   { label: "Lothair I", aliases: ["Lothar I","Lothaire"], type: "person", slug: "lothair-i" },
   { label: "Louis I of Hungary", aliases: ["Louis the Great","Lajos I","Louis I of Hungary and Poland"], type: "person", slug: "louis-i-of-hungary" },
   { label: "Louis IX of France", aliases: ["Saint Louis","Louis IX"], type: "person", slug: "louis-ix-of-france" },
-  { label: "Louis the Pious", aliases: ["Louis I","Ludovicus Pius"], type: "person", slug: "louis-the-pious" },
+  { label: "Louis the Pious", aliases: ["Ludovicus Pius"], type: "person", slug: "louis-the-pious" },
   { label: "Louis V of France", aliases: ["Louis V","Louis the Do-Nothing","Louis le Fainéant"], type: "person", slug: "louis-v-of-france" },
   { label: "Louis VI of France", aliases: ["Louis the Fat","Louis le Gros"], type: "person", slug: "louis-vi-of-france" },
   { label: "Louis VII of France", aliases: ["Louis VII"], type: "person", slug: "louis-vii-of-france" },
@@ -282,7 +282,7 @@ export const entityLinks = [
   { label: "Oluf I of Denmark", aliases: ["Oluf Hunger","Olaf I","Oluf the Hungry"], type: "person", slug: "oluf-i-of-denmark" },
   { label: "Orhan", aliases: ["Orhan Gazi","Orhan Bey"], type: "person", slug: "orhan" },
   { label: "Osman I", aliases: ["Osman Gazi","Osman Bey","Othman I"], type: "person", slug: "osman-i" },
-  { label: "Otto IV", aliases: ["Holy Roman Emperor","Otto IV, Holy Roman Emperor"], type: "person", slug: "otto-iv" },
+  { label: "Otto IV", aliases: ["Otto IV, Holy Roman Emperor"], type: "person", slug: "otto-iv" },
   { label: "Øystein I of Norway", aliases: ["Eystein I","Eystein Magnusson"], type: "person", slug: "oystein-i-of-norway" },
   { label: "Pelagius of Asturias", aliases: ["Pelayo","Don Pelayo","Pelagius","Pelayo of Asturias"], type: "person", slug: "pelagius-of-asturias" },
   { label: "Pepin of Herstal", aliases: ["Pépin de Herstal","Pepin II","Pepin the Middle"], type: "person", slug: "pepin-of-herstal" },
@@ -331,7 +331,7 @@ export const entityLinks = [
   { label: "Sancho III of Castile", aliases: ["Sancho III the Desired","Sancho el Deseado"], type: "person", slug: "sancho-iii-of-castile" },
   { label: "Sayf al-Dawla", aliases: ["Sayf al-Dawla al-Hamdani","Ali ibn Abi al-Hayja","Saif al-Dawla"], type: "person", slug: "sayf-al-dawla" },
   { label: "Shirkuh", aliases: ["Asad ad-Din Shirkuh"], type: "person", slug: "shirkuh" },
-  { label: "Sibylla of Jerusalem", aliases: ["Sibylla","Queen of Jerusalem","Sibylla, Queen of Jerusalem"], type: "person", slug: "sibylla-of-jerusalem" },
+  { label: "Sibylla of Jerusalem", aliases: ["Sibylla, Queen of Jerusalem"], type: "person", slug: "sibylla-of-jerusalem" },
   { label: "Sigismund of Luxembourg", aliases: ["Sigismund of Hungary","Emperor Sigismund"], type: "person", slug: "sigismund-of-luxembourg" },
   { label: "Sigurd the Crusader", aliases: ["Sigurd of Norway","Sigurd Jorsalfar"], type: "person", slug: "sigurd-of-norway" },
   { label: "Skirgaila", aliases: ["Ivan (baptismal name)"], type: "person", slug: "skirgaila" },
@@ -738,6 +738,63 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // "Richard I" is Richard the Lionheart's alias, but on the Normandy pages it
+    // is the tenth-century duke, Richard I of Normandy, who has no article. Link
+    // it only where the paragraph is recognisably about the Lionheart.
+    terms: ["Richard I"],
+    possibleTargets: [
+      {
+        title: "Richard the Lionheart",
+        label: "Richard the Lionheart",
+        type: "person",
+        slug: "richard-the-lionheart",
+        date: "1157–1199",
+        contextHints: [
+          "Lionheart",
+          "crusade",
+          "Saladin",
+          "Acre",
+          "Arsuf",
+          "Jaffa",
+          "Châlus",
+          "Berengaria",
+          "Leopold",
+          "Eleanor of Aquitaine",
+          "Angevin",
+          "Plantagenet",
+          "1189",
+          "1199"
+        ]
+      }
+    ]
+  },
+  {
+    // "Alexander" is the label of the Byzantine emperor of 912–913, but the bare
+    // word also matches Alexander III of Scotland, Pope Alexander III and
+    // Alexander the Great. Link it only in a paragraph that is plainly about the
+    // emperor; everywhere else it stays plain text.
+    terms: ["Alexander"],
+    possibleTargets: [
+      {
+        title: "Alexander",
+        label: "Alexander",
+        type: "person",
+        slug: "alexander",
+        date: "r. 912–913",
+        contextHints: [
+          "Leo VI",
+          "Symeon",
+          "Nicholas Mystikos",
+          "Constantine VII",
+          "Zoe Karbonopsina",
+          "Basil I",
+          "912",
+          "913"
+        ]
+      }
+    ]
+  },
   {
     // "Æthelstan" is both the English king (Brunanburh, 937) and the baptismal
     // name Guthrum took at Aller in 878. In Guthrum/Wedmore contexts the bare

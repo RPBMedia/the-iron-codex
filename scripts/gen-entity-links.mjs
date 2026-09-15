@@ -20,18 +20,34 @@ const curated = {}
 const entryRe = /\{\s*label:\s*"((?:[^"\\]|\\.)*)"\s*(?:,\s*aliases:\s*\[([^\]]*)\])?\s*,\s*type:\s*"([^"]*)"\s*,\s*slug:\s*"([^"]*)"\s*\}/g
 let m
 while ((m = entryRe.exec(existing))) {
-  const aliasesRaw = m[2] || ''
-  const aliases = aliasesRaw.split(',').map(s => s.trim().replace(/^"|"$/g, '').replace(/\\"/g, '"').replace(/\\'/g, "'")).filter(Boolean)
+  // Parse the array as JSON (esc() below writes JSON-compatible strings). It was
+  // split on commas, which tore "Ferdinand, Count of Flanders" into a bare
+  // "Ferdinand" alias on every regeneration.
+  const aliases = JSON.parse(`[${m[2] || ''}]`).filter(Boolean)
   curated[m[4]] = aliases
 }
 
 function esc(s) { return String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"') }
 
+const personLabels = (data.characters || []).map(c => c.name).filter(Boolean)
+
 // Aliases too short or generic to auto-link safely
 function keepAlias(a, label) {
   if (!a || a.length < 4) return false
   if (a.toLowerCase() === label.toLowerCase()) return false
+  // A bare regnal alias ("Henry I", "John I") is refused when another ruler of
+  // that name has an article: "Henry I" belonged to Henry I of Castile and so
+  // linked Henry I of England and of France to Castile.
+  if (/^\p{Lu}\p{L}+ [IVX]+$/u.test(a) && personLabels.some(l => l !== label && (l === a || l.startsWith(`${a} `)))) return false
   return true
+}
+
+// A curated alias that is only a comma-split piece of another alias on the same
+// entry ("Ferdinand" from "Ferdinand, Count of Flanders", "Holy Roman Emperor"
+// from "Otto IV, Holy Roman Emperor") is a parser artifact, not a curated name.
+function isCommaFragment(alias, allAliases, dataAliases) {
+  if (dataAliases.includes(alias)) return false
+  return allAliases.some(x => x !== alias && x.includes(',') && x.split(',').map(s => s.trim()).includes(alias))
 }
 
 // All article names/labels, lowercased, to detect suffix collisions (a battle
@@ -65,7 +81,8 @@ for (const [col, arr] of Object.entries(data)) {
     const label = a.name || a.title
     if (!label || !a.id) continue
     const fromData = (a.aliases || []).filter(x => keepAlias(x, label))
-    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label))
+    const everyAlias = [...(curated[a.id] || []), ...(a.aliases || []), label]
+    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label) && !isCommaFragment(x, everyAlias, a.aliases || []))
     const aliases = [...new Set([...fromCurated, ...fromData])]
     if (col === 'events') { const suf = safeBattleSuffix(label); if (suf && !aliases.includes(suf)) aliases.push(suf) }
     entries.push({ label, aliases, type, slug: a.id })

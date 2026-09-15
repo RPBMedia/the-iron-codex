@@ -863,6 +863,7 @@ function EventContent({ article }) {
       {sections.map((section) => (
         <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
       ))}
+      <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
       <TopicLinks id={article.id} />
       <RelatedEntries groups={article.relatedEntries} />
