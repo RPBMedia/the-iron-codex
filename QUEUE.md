@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15, owner away. Shipped and verified live: the Insights per-bar tooltip and accounts-created series; monuments leading for yusuf-ibn-tashfin, muhammad-al-nasir and baraka-khan, with Baraka's death place corrected to Kerak; 0d kingdoms batches 1 and 2, maps and arms for 16 kingdoms, plus the Navarre chains legend fix. Also new: the Siege of Sidon (1110), 11,000 characters, and a Sidon city page, 7,400 characters with 14 timeline entries. Sigurd's prose and timeline now link the siege, and 'siege of sidon' is off BATTLE_BACKLOG. **Next: the owner reviews the away-mode test suite and answers the compiled questions** (al-Adil II and al-Mansur Ali, the Denmark diocesan map, the md-file deletions, the next kingdom batches) before more bulk work. Previously 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+_Last updated: 2026-09-15. Queued 0m, the complete medieval rulers program (spec in the repo root; M0 comes first). Earlier, with the owner away, these shipped and were verified live: the Insights per-bar tooltip and accounts-created series; monuments leading for yusuf-ibn-tashfin, muhammad-al-nasir and baraka-khan, with Baraka's death place corrected to Kerak; 0d kingdoms batches 1 and 2, maps and arms for 16 kingdoms, plus the Navarre chains legend fix. Also new: the Siege of Sidon (1110), 11,000 characters, and a Sidon city page, 7,400 characters with 14 timeline entries. Sigurd's prose and timeline now link the siege, and 'siege of sidon' is off BATTLE_BACKLOG. **Next: the owner reviews the away-mode test suite and answers the compiled questions** (al-Adil II and al-Mansur Ali, the Denmark diocesan map, the md-file deletions, the next kingdom batches) before more bulk work. Previously 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -982,6 +982,62 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `chateau-de-vincennes`, `monmouth`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0m. **OWNER REQUEST 2026-09-15: THE COMPLETE MEDIEVAL RULERS PROGRAM. The largest content program yet, split into milestones, with the audit done before any writing.** The full spec is `iron_codex_complete_medieval_rulers_program.md` in the repo root (100 sections, 2,495 lines). Read all of it before planning any milestone. The goal is a full article for every attested sovereign or substantively governing ruler of every in-scope medieval polity. Each article links into its house, family tree, realm, predecessor and successor chain, wars and battles, with no duplicate identities.
+
+   **Starting point (measured 2026-09-15):**
+   - 316 ruler articles (`isRuler`) across 92 distinct offices, 70 houses and 51 polity-type locations.
+   - **297 of the 316 are under the spec's 5,000-character prose minimum**, 24 of them under 2,000. Almost every existing ruler is therefore `exists-needs-enrichment`.
+   - 89 succession endpoints are still unlinked names, which gives a ready-made Tier II list.
+   - The target is roughly 2,500 to 3,500 in-scope candidates. That is a guess, to be replaced by the registry's real count.
+
+   **Three owner decisions before M2 writes a single article:**
+   1. **Scope conflict.** The spec runs to the end of the fifteenth century "with sensible overlap". CLAUDE.md scopes the archive to 476–1453 and marks later reigns `outside-scope`. This decides Matthias Corvinus (from 1458), the later Sforza, Ivan III, most of the Aviz and Kalmar rulers, and Mehmed II after 1453. Move the boundary to 1500, or keep 1453 with the existing overlap exception?
+   2. **Cost.** The Sidon pages took about 310k–325k agent tokens each. At even half that, 3,000 rulers comes to roughly 450M tokens. Proposal: depth tiers. Flagship rulers (the §21 list) get the full research pass. Tier III rulers get a cheaper pass covering several rulers per agent, using §97's source-limited exception rather than 5,000 padded characters.
+   3. **Data architecture.** `history.json` is 8.6 MB, and a 7,400-character article is about 21 KB of JSON. The program would add roughly 50–70 MB to a single file that the server loads whole and the build prerenders page by page (863 pages today). Split the data store before bulk writing, not after.
+
+   **Where the spec defers to existing conventions, they win:**
+   - Character and Personality stays mandatory for people.
+   - Succession boxes, battle-leader linking, house↔person links, the no-filler rules and the image rules all apply.
+   - Military-order grand masters stay non-rulers, per CLAUDE.md, so §15 is audit-only.
+   - The spec's "typecheck and lint" maps to this repo's gates and build.
+   - The registry and reports live in `docs/rulers/`: the registry as JSON, the reports generated from it. They never go in `history.json`.
+
+   **Overlaps to coordinate:**
+   - **0e Civilizations.** Goths, Visigoths, Ostrogoths, Vandals and Lombards need both people pages and ruler pages from the same research.
+   - **0d.** Every newly covered realm needs a polity article with a map and arms.
+   - **Item 1.** Ruler stubs fold into this program.
+   - **0c-B.** Consorts are people, not rulers, per §35.
+   - **Unknown death ages.** About 70 rulers still have `deathAge: "unknown"`.
+   - **Houses.** The 4 houses still missing from `HOUSES_PLAN.md` (Ottonian/Salian, Habsburg, Barcelona, Piast) are prerequisites.
+
+   **Milestones:**
+   - **M0: reconnaissance and decisions, no content.** A conventions summary (§69.1) covering the person schema, succession, houses and family trees, the People index and its filters, link helpers, image rules and existing audit scripts. The owner answers the three decisions above.
+   - **M1: scale infrastructure.**
+     - Split the data store.
+     - Measure build and prerender time at 2× and 4× the article count.
+     - Make the People index pagination and its ruler, realm, dynasty and century filters ready for thousands of people.
+     - Add family-tree branching for oversized dynasties (§64–65).
+   - **M2: master registry and audit reports, no articles.**
+     - `docs/rulers/registry.json`, one row per candidate with the §32 fields and a status.
+     - Scripts that build the duplicate-candidate, missing, thin, family-tree-gap and house-link-gap reports (§56, §69).
+     - A Tier I, II or III priority on every row.
+     - A realm-completion checker (§54).
+     - The owner reviews the polity list and the counts before M3.
+   - **M3: automated gates.** Hard-fail checks for ruler articles: duplicate identity, realm link, house link, chain gaps, required sections, and 5,000 characters of prose unless on a documented source-limited exception list. Also normalise the realm and dynasty value inconsistencies these checks surface (§74).
+   - **M4: enrich the existing 316, Tier I first.** Upgrade and never shorten (§68). The flagships from §21 go first.
+   - **M5 onwards: one milestone per regional phase of §47.** Each is split into polity batches of 5–15 rulers, with one commit per polity or dynasty, and each closes with its realm-completion gate.
+     - M5: Western Europe and the British Isles (England and the Heptarchy, Scotland, Wales, Ireland tiers A–B, France and its principalities, Portugal, the Iberian kingdoms, al-Andalus).
+     - M6: the Migration-period kingdoms, run together with 0e.
+     - M7: the Empire and central Europe.
+     - M8: Scandinavia and the Norse world.
+     - M9: Byzantium and its successor states, the Balkans, Wallachia and Moldavia.
+     - M10: Rus', Lithuania and the Baltic.
+     - M11: Italy.
+     - M12: the crusader states and the Mediterranean Islamic powers.
+     - M13: the steppe powers and the Caucasus.
+   - **Final: global reconciliation and a completion report (§98–99).**
+
+   The spec's special audits (§75–89) run inside their region's milestone. **When this starts, the first step is M0 and nothing else.**
 0k. **OWNER REQUEST 2026-09-15, a big one: a locator map in every city's Overview.**
    Each city, town and settlement article gets a map of the country it lies in today,
    with the surrounding region and a marker showing where the city is. Example:
