@@ -38014,7 +38014,7 @@
       "died": 1213,
       "restingPlace": "Unknown",
       "location": "Almohad Caliphate",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gold_coin_of_Almohad_ruler_Abu_%27Abd_Allah_Muhammad_%28r._1199-1213%29.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vue_ext%C3%A9rieure_de_b%C3%A2b_el-Mahrouk_-_A822.jpg",
       "summary": "Muhammad al-Nasir was Almohad caliph and commander defeated by the Iberian Christian coalition at Las Navas de Tolosa.",
       "details": "Muhammad al-Nasir was Almohad caliph and commander defeated by the Iberian Christian coalition at Las Navas de Tolosa.",
       "title": "Almohad caliph",
@@ -38043,11 +38043,12 @@
         "knownFor": "Defeat at Las Navas de Tolosa"
       },
       "imageInfo": {
-        "caption": "Image associated with Muhammad al-Nasir.",
-        "creator": "Unknown or public-domain source",
-        "date": "medieval or later public-domain image",
-        "source": "Wikimedia Commons",
-        "note": "Used as a historical depiction, seal, coin, manuscript image, tomb, or associated artwork; not necessarily a contemporary portrait."
+        "caption": "No likeness of Muhammad al-Nasir survives; this is Bab Mahrouk, the gate of Fez he built in 1204 when he rebuilt the city walls, photographed in 1913.",
+        "creator": "Stéphane Passet, autochrome for the Archives de la Planète",
+        "date": "January 1913 photograph; gate built 1204",
+        "source": "Wikimedia Commons (Musée départemental Albert-Kahn), CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_ext%C3%A9rieure_de_b%C3%A2b_el-Mahrouk_-_A822.jpg",
+        "note": "Commons and Wikipedia were searched for manuscript images, seals, portrait coins and later artwork of al-Nasir. None exists: his dinars bear only inscriptions, and Van Halen's 1864 Las Navas de Tolosa shows no figure identifiable as him. The Las Huelgas banner in Burgos is an artefact, not a monument. Bab Mahrouk was built in 1204 under al-Nasir as part of his rebuilding of the walls of Fez (Métalsi 2003; Archnet)."
       },
       "overview": [
         "Muhammad al-Nasir was Almohad caliph and commander defeated by the Iberian Christian coalition at Las Navas de Tolosa."
@@ -38179,6 +38180,12 @@
           "author": "Wikimedia Commons",
           "type": "image source",
           "url": "https://commons.wikimedia.org/wiki/File:Gold_coin_of_Almohad_ruler_Abu_'Abd_Allah_Muhammad_(r._1199-1213).jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Vue_ext%C3%A9rieure_de_b%C3%A2b_el-Mahrouk_-_A822.jpg"
         }
       ],
       "isRuler": true,
@@ -38193,7 +38200,20 @@
           "displayName": "Yusuf II al-Mustansir",
           "note": "His ten-year-old son, under whom Almohad authority disintegrated"
         }
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "As Almohad caliph",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Gold_coin_of_Almohad_ruler_Abu_%27Abd_Allah_Muhammad_%28r._1199-1213%29.jpg",
+          "alt": "A gold dinar of Muhammad al-Nasir, struck with no mint name or date during his reign as Almohad caliph (1199–1213).",
+          "caption": "A gold dinar of Muhammad al-Nasir, struck with no mint name or date during his reign as Almohad caliph (1199–1213).",
+          "creator": "Almohad mint",
+          "date": "AH 595–610 (1199–1213)",
+          "source": "Wikimedia Commons, CC BY-SA 2.5",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_coin_of_Almohad_ruler_Abu_'Abd_Allah_Muhammad_(r._1199-1213).jpg",
+          "note": "Almohad coinage carries only inscriptions, so the dinar records his name and title, not his appearance."
+        }
+      ]
     },
     {
       "id": "robert-the-bruce",
@@ -78544,7 +78564,7 @@
         "al-Malik al-Said Barakah Khan",
         "Baraka Qan"
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Barakah_coin.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ancient_City_of_Damascus-107601_(retouched).jpg",
       "summary": "Mamluk sultan of Egypt (1277–1279), the son of the great Baybars, whose weak rule and clashes with the senior emirs led to his deposition and the rise of Qalawun.",
       "title": "Mamluk Sultan",
       "roles": [
@@ -78560,9 +78580,9 @@
       "death": {
         "date": "1280",
         "place": {
-          "name": "Damascus"
+          "name": "Kerak"
         },
-        "circumstance": "Died in 1280, a year after being forced from the throne."
+        "circumstance": "Died in exile at the fortress of Kerak in 1280, a year after being forced from the throne; buried in the Zahiriyya in Damascus."
       },
       "quickFacts": {
         "realm": "Mamluk Sultanate of Egypt",
@@ -78571,13 +78591,12 @@
         "knownFor": "the son of Baybars whose deposition opened the way for Qalawun"
       },
       "imageInfo": {
-        "caption": "A coin of the Mamluk sultan al-Said Baraka Khan.",
-        "creator": "Mamluk mint",
-        "date": "c. 1277–1279",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barakah_coin.jpg",
-        "license": "CC0",
-        "note": "A coin struck in his name; no portrait survives."
+        "caption": "No likeness of Baraka Khan survives; this is the burial chamber of the Zahiriyya in Damascus, the mausoleum he began for his father Baybars in 1277 and where he was buried in 1280.",
+        "creator": "Photograph by Francesco Bandarin; minor retouching by Robert Prazeres",
+        "date": "Photograph 2007; mausoleum begun 1277",
+        "source": "Wikimedia Commons, CC BY-SA 3.0 IGO",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_City_of_Damascus-107601_(retouched).jpg",
+        "note": "Commons and Wikipedia were searched for manuscript images, seals, portrait coins and later artwork of Baraka, and none exists; his coins bear only inscriptions. He founded the Zahiriyya in 1277 as the funerary madrasa of Baybars and was buried there in 1280, before Qalawun completed it (Leiser 1984). The photograph does not single out his cenotaph."
       },
       "overview": [
         "Baraka Khan was the Mamluk sultan of Egypt from 1277 to 1279, the son and heir of the great Baybars, who had done more than anyone to build the Mamluk Sultanate into the leading power of the Near East. Baybars had tried to make the sultanate hereditary in his own line, and on his death Baraka succeeded him.",
@@ -78618,7 +78637,7 @@
         {
           "title": "Death",
           "paragraphs": [
-            "Baraka Khan was sent away to Kerak and then Damascus, where he died in 1280, only about twenty, a year after his fall. His deposition ended the attempt of Baybars to found a lasting dynasty in his own direct line."
+            "Baraka Khan was sent to the fortress of Kerak, east of the Dead Sea, and died there in 1280, only about twenty, a year after his fall. His body was carried to Damascus and buried beside Baybars in the Zahiriyya, the funerary madrasa he had begun for his father in 1277 near the Umayyad Mosque and the tomb of Saladin. It was still unfinished when he was laid there, and Qalawun, who had taken the throne from his line, saw to its completion. His deposition ended the attempt of Baybars to found a lasting dynasty in his own direct line."
           ]
         },
         {
@@ -78695,6 +78714,12 @@
             "type": "location",
             "slug": "crusader-states",
             "label": "The Crusader states his father had assailed"
+          },
+          {
+            "title": "Damascus",
+            "type": "location",
+            "slug": "damascus",
+            "label": "Buried in the Zahiriyya here"
           }
         ],
         "people": [
@@ -78725,6 +78750,18 @@
           "author": "Encyclopaedia Britannica",
           "type": "encyclopedia",
           "url": "https://www.britannica.com/biography/Baybars-I"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Ancient_City_of_Damascus-107601_(retouched).jpg"
+        },
+        {
+          "title": "Zahiriyya Library (the madrasa and mausoleum of Baybars)",
+          "author": "Wikipedia",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Zahiriyya_Library"
         }
       ],
       "isRuler": true,
@@ -78739,7 +78776,21 @@
           "displayName": "Qalawun",
           "note": "After the brief nominal reign of Baraka's young brother Solamish, the emir Qalawun took the throne, founding the Qalawunid dynasty that ruled for a century."
         }
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "A weak reign and abdication",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Barakah_coin.jpg",
+          "alt": "A coin of the Mamluk sultan al-Said Baraka Khan.",
+          "caption": "A coin of the Mamluk sultan al-Said Baraka Khan.",
+          "creator": "Mamluk mint",
+          "date": "c. 1277–1279",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barakah_coin.jpg",
+          "license": "CC0",
+          "note": "A coin struck in his name; no portrait survives."
+        }
+      ]
     },
     {
       "id": "robert-ii-of-scotland",
@@ -86728,7 +86779,7 @@
         }
       },
       "location": "Marrakesh and al-Andalus",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yusuf_Ben_Tasfin_dinar_22562.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yusuf-bin-Tashfin-tomb.jpg",
       "title": "Almoravid emir (Amir al-Muslimin)",
       "isRuler": true,
       "roles": [
@@ -86819,13 +86870,12 @@
         }
       },
       "imageInfo": {
-        "caption": "A gold dinar struck in the name of Yusuf ibn Tashfin, emir of the Almoravids.",
-        "creator": "Almoravid mint; photograph, Wikimedia Commons",
-        "date": "Late 11th / early 12th century coin",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yusuf_Ben_Tasfin_dinar_22562.jpg",
-        "license": "Creative Commons",
-        "note": "No portrait of Yusuf exists; his coinage is the closest contemporary trace."
+        "caption": "No likeness of Yusuf ibn Tashfin survives; this is the tomb traditionally held to be his, a walled enclosure near the Koutoubia Mosque in Marrakesh, the city he founded.",
+        "creator": "Photograph by Mohamed Ali",
+        "date": "Photograph published 2014; burial 1106",
+        "source": "Wikimedia Commons, CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yusuf-bin-Tashfin-tomb.jpg",
+        "note": "Commons and Wikipedia were searched for manuscript images, seals, portrait coins and later artwork of Yusuf. None exists: his coins carry only inscriptions, and 19th-century prints of Sagrajas name no figure as him. He died in 1106 and was buried in Marrakesh, his capital, where his mausoleum stands near the Koutoubia (French Wikipedia, citing Moroccan press). The modest enclosure marks that traditional burial place and appears to be a modern rebuilding, not Almoravid fabric."
       },
       "sources": [
         {
@@ -86833,6 +86883,12 @@
           "author": "Wikipedia",
           "type": "reference",
           "url": "https://en.wikipedia.org/wiki/Yusuf_ibn_Tashfin"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Yusuf-bin-Tashfin-tomb.jpg"
         }
       ],
       "relatedEntries": {
@@ -86872,7 +86928,21 @@
             "label": "Capital he built"
           }
         ]
-      }
+      },
+      "sectionImages": [
+        {
+          "section": "Empire and intervention in Iberia",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yusuf_Ben_Tasfin_dinar_22562.jpg",
+          "alt": "A gold dinar struck in the name of Yusuf ibn Tashfin, emir of the Almoravids.",
+          "caption": "A gold dinar struck in the name of Yusuf ibn Tashfin, emir of the Almoravids.",
+          "creator": "Almoravid mint; photograph, Wikimedia Commons",
+          "date": "Late 11th / early 12th century coin",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yusuf_Ben_Tasfin_dinar_22562.jpg",
+          "license": "Creative Commons",
+          "note": "No portrait of Yusuf exists; his coinage is the closest contemporary trace."
+        }
+      ]
     },
     {
       "id": "el-cid",

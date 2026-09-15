@@ -1267,6 +1267,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    leads, its caption's first sentence saying it is not a likeness (rule in
    CLAUDE.md); the coins move to section images.** To do: choose and verify a
    monument for each of the five. `kerbogha` (was a MAP) and `qutuz` were fixed 2026-09-08.
+   **3 of 5 DONE 2026-09-15 (owner away):** `yusuf-ibn-tashfin` now leads with the tomb traditionally held to be his in Marrakesh, `muhammad-al-nasir` with Bab Mahrouk in Fez (built 1204, 1913 autochrome) and `baraka-khan` with the burial chamber of the Zahiriyya in Damascus, where he was buried in 1280. Each coin moved to a section image. The same ship corrected Baraka's death place from Damascus to Kerak (Wikipedia; Zahiriyya article for the burial). **`al-mansur-ali` and `al-adil-ii` remain.** No tomb or building is documented for either. Objects were made for al-Adil II (a Louvre basin, an incense burner), but the rule allows monuments only, so that is an owner question.
 4. **~14 Scandinavian/English pennies still need individual eyes** — some carry
    a crude bust and pass, some carry only a cross and a legend. The ~11 Byzantine
    solidi and ~7 royal seals pass and need no work.
