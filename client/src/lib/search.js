@@ -399,6 +399,9 @@ function normalize(value) {
     .filter(Boolean)
     .join(' ')
     .toLowerCase()
+    // NFD splits accents off most letters but leaves these whole, so fold them by hand.
+    .replace(/[łŁ]/g, 'l').replace(/[øØ]/g, 'o').replace(/[æÆ]/g, 'ae').replace(/[œŒ]/g, 'oe')
+    .replace(/ß/g, 'ss').replace(/[đĐðÐ]/g, 'd').replace(/[þÞ]/g, 'th')
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^\w\s-]/g, ' ')

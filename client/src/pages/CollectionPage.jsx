@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { byRelevanceThen } from '../lib/collectionSearch.js'
 import { useLocation, useNavigationType, useSearchParams } from 'react-router-dom'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
@@ -79,8 +80,8 @@ export default function CollectionPage({ collection }) {
     [archiveState, collection, filterConfigs, items]
   )
   const sortedItems = useMemo(
-    () => sortItems(filteredItems, collection, archiveState.sort),
-    [archiveState.sort, collection, filteredItems]
+    () => sortItems(filteredItems, collection, archiveState.sort, archiveState.search),
+    [archiveState.search, archiveState.sort, collection, filteredItems]
   )
   const visibleItems = useMemo(() => sortedItems.slice(0, visibleCount), [sortedItems, visibleCount])
   const hasMore = visibleItems.length < sortedItems.length
@@ -253,22 +254,21 @@ function filterItems(items, collection, archiveState, filterConfigs) {
   })
 }
 
-function sortItems(items, collection, sort) {
+// With a search, articles that match by name or alias come first (lib/collectionSearch.js);
+// the chosen sort orders articles that match equally well.
+function sortItems(items, collection, sort, search = '') {
   const sorted = [...items]
+  let compare = (a, b) => a.name.localeCompare(b.name)
 
   if (sort === 'date-asc') {
-    return sorted.sort((a, b) => dateValue(a) - dateValue(b) || a.name.localeCompare(b.name))
+    compare = (a, b) => dateValue(a) - dateValue(b) || a.name.localeCompare(b.name)
+  } else if (sort === 'date-desc') {
+    compare = (a, b) => dateValue(b, true) - dateValue(a, true) || a.name.localeCompare(b.name)
+  } else if (sort === 'type') {
+    compare = (a, b) => typeLabel(a, collection).localeCompare(typeLabel(b, collection)) || a.name.localeCompare(b.name)
   }
 
-  if (sort === 'date-desc') {
-    return sorted.sort((a, b) => dateValue(b, true) - dateValue(a, true) || a.name.localeCompare(b.name))
-  }
-
-  if (sort === 'type') {
-    return sorted.sort((a, b) => typeLabel(a, collection).localeCompare(typeLabel(b, collection)) || a.name.localeCompare(b.name))
-  }
-
-  return sorted.sort((a, b) => a.name.localeCompare(b.name))
+  return sorted.sort(byRelevanceThen(search, compare))
 }
 
 function getSortOptions(collection) {
