@@ -5,3 +5,6 @@ dist/
 .env.local
 server/data/users.json
 npm-debug.log*
+
+# Agent git worktrees (never commit)
+.claude/worktrees/
