@@ -54,6 +54,15 @@ needed correcting. If a batch has a weak point, that is the one to hand over.
 Reviewing green validator output proves the rules ran, not that the writing is any
 good.
 
+**Ship one thing, then stop (owner rule, 2026-09-15, stated twice).** Every time
+something ships (an article batch, a fix, a code change), hand over **one test case**
+for the owner to review: a link and what to check. Then **end the turn**. Do not start,
+apply or ship anything else, whether the next queue item, the next batch or work on another
+project, until the owner has confirmed that specific ship. "Go" or "continue" means
+carry on with the current item, never open a new one. Background drafting that
+changes nothing live may continue, but it stays unshipped until the owner has
+confirmed the previous ship and says to proceed.
+
 
 ### Keep updates short (mandatory)
 
