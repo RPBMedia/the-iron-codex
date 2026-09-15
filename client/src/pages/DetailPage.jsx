@@ -1269,7 +1269,22 @@ function renderDynastyHouse(article) {
   if (article.dynastyHouse?.slug) {
     return <Link to={`/houses/${article.dynastyHouse.slug}`}>{dynasty}</Link>
   }
+  // An order member's "house" is their order (server: withOrderLinks).
+  if (article.orderLinks?.dynasty?.slug) {
+    return <Link to={`/orders/${article.orderLinks.dynasty.slug}`}>{dynasty}</Link>
+  }
   return dynasty
+}
+
+// Realm/polity links to the order article when the realm is a military order,
+// such as Ulrich von Jungingen's Teutonic Order (owner rule, 2026-09-15).
+function renderRealm(article) {
+  const realm = article.quickFacts?.realm
+  if (!realm) return null
+  if (article.orderLinks?.realm?.slug) {
+    return <Link to={`/orders/${article.orderLinks.realm.slug}`}>{realm}</Link>
+  }
+  return realm
 }
 
 function PersonQuickFacts({ article }) {
@@ -1279,7 +1294,7 @@ function PersonQuickFacts({ article }) {
     { label: 'Resting place', value: article.restingPlace },
     { label: 'Titles', value: article.roles?.join(', ') },
     { label: 'Nicknames', value: renderEpithets(article) },
-    { label: 'Realm / polity', value: article.quickFacts?.realm },
+    { label: 'Realm / polity', value: renderRealm(article) },
     { label: 'Dynasty / house', value: renderDynastyHouse(article) },
     { label: 'Culture', value: article.quickFacts?.culture },
     { label: 'Known for', value: renderLinkedText(article.quickFacts?.knownFor, article) }

@@ -75,7 +75,31 @@ export function withDynastyHouse(article, data) {
   return { ...article, dynastyHouse: house }
 }
 
+// Military orders (owner rule, 2026-09-15, reported on ulrich-von-jungingen): a
+// Person whose Realm/polity or Dynasty/house names an order links to that order's
+// article, the same way a dynasty links to its House. Resolved on exact names and
+// aliases only.
+export function orderNameMap(data) {
+  const map = new Map()
+  for (const order of data.orders ?? []) {
+    for (const label of [order.name, ...(order.aliases ?? [])]) {
+      const key = normalizeDynastyKey(label)
+      if (key && !map.has(key)) map.set(key, { slug: order.id, name: order.name })
+    }
+  }
+  return map
+}
+
+export function withOrderLinks(article, data) {
+  if (article.type !== 'character') return article
+  const map = orderNameMap(data)
+  const realm = map.get(normalizeDynastyKey(article.quickFacts?.realm))
+  const dynasty = map.get(normalizeDynastyKey(article.quickFacts?.dynasty))
+  if (!realm && !dynasty) return article
+  return { ...article, orderLinks: { ...(realm ? { realm } : {}), ...(dynasty ? { dynasty } : {}) } }
+}
+
 /** Exactly what `GET /api/:collection/:id` returns. */
 export function enrichArticle(article, data) {
-  return withDynastyHouse(withBattleContinuityTarget(article, data), data)
+  return withOrderLinks(withDynastyHouse(withBattleContinuityTarget(article, data), data), data)
 }

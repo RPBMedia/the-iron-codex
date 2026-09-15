@@ -285,6 +285,44 @@ for (const [col, arr] of Object.entries(data)) {
 // house links under "undefined" (2026-09-15) and showed an "Undefined" heading.
 const RELATED_GROUPS = new Set(['people', 'events', 'locations', 'artifacts', 'weaponsArmor', 'houses', 'orders'])
 
+// Military orders link to their own articles (owner rule, 2026-09-15, reported on
+// ulrich-von-jungingen). Any reference to an order must carry type "order", or it
+// routes to /locations/<slug> and breaks on in-site navigation, as the Teutonic
+// Order faction on the Battle of Grunwald did. A person whose Realm/polity or
+// Dynasty/house names an order is a member: they must list the order in
+// relatedEntries.orders, and the order must list them in relatedEntries.people.
+const orderIds = new Set((data.orders ?? []).map((order) => order.id))
+const normalizeOrderKey = (value) => String(value ?? '').trim().toLowerCase().replace(/^the\s+/, '')
+const orderByName = new Map((data.orders ?? []).flatMap((order) => [order.name, ...(order.aliases ?? [])].map((name) => [normalizeOrderKey(name), order])))
+
+function validateOrderReferences(collection, entry, label) {
+  const wrongType = (path, name, type, slug) => findings.push({ collection, article: label, path, pattern: `reference to military order "${name}" has type "${type}"; it must be "order" so it links to /orders/${slug}`, snippet: slug })
+  for (const part of entry.participants ?? []) for (const faction of part.factions ?? []) {
+    if (faction?.slug && orderIds.has(faction.slug) && faction.type !== 'order') wrongType('participants.factions', faction.name, faction.type, faction.slug)
+  }
+  for (const [group, list] of Object.entries(entry.relatedEntries ?? {})) for (const item of Array.isArray(list) ? list : []) {
+    if (item?.slug && orderIds.has(item.slug) && item.type !== 'order') wrongType(`relatedEntries.${group}`, item.title, item.type, item.slug)
+  }
+  for (const event of entry.timeline ?? []) for (const link of event.links ?? []) {
+    if (link?.slug && orderIds.has(link.slug) && link.type !== 'order') wrongType('timeline.links', link.title, link.type, link.slug)
+  }
+}
+
+function validateOrderMembership(entry, label) {
+  const reported = new Set()
+  for (const field of ['realm', 'dynasty']) {
+    const order = orderByName.get(normalizeOrderKey(entry.quickFacts?.[field]))
+    if (!order || reported.has(order.id)) continue
+    reported.add(order.id)
+    if (!(entry.relatedEntries?.orders ?? []).some((item) => item.slug === order.id)) {
+      findings.push({ collection: 'characters', article: label, path: `quickFacts.${field}`, pattern: `member of ${order.name} does not list the order in relatedEntries.orders`, snippet: order.id })
+    }
+    if (!(order.relatedEntries?.people ?? []).some((item) => item.slug === entry.id)) {
+      findings.push({ collection: 'orders', article: order.name, path: 'relatedEntries.people', pattern: `${order.name} does not list its member ${entry.name}`, snippet: entry.id })
+    }
+  }
+}
+
 function validateRelatedEntries(collection, entry, label) {
   for (const group of Object.keys(entry.relatedEntries || {})) {
     if (!RELATED_GROUPS.has(group)) {
@@ -1314,6 +1352,8 @@ for (const [collection, entries] of Object.entries(data)) {
     }
 
     validatePeriodLabel(collection, entry, labelFor(entry))
+    validateOrderReferences(collection, entry, labelFor(entry))
+    if (collection === 'characters') validateOrderMembership(entry, labelFor(entry))
 
     if (collection === 'weaponsArmor' || collection === 'artifacts') {
       validatePersonObjectReciprocity(collection, entry, labelFor(entry))
