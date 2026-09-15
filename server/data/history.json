@@ -52191,12 +52191,16 @@
       ],
       "birth": {
         "date": "c. 845",
-        "place": "Wessex",
+        "place": {
+          "name": "Wessex"
+        },
         "note": "Fourth son of King Æthelwulf; his exact birthplace is not recorded."
       },
       "death": {
         "date": "April 871",
-        "place": "Wessex",
+        "place": {
+          "name": "Wessex"
+        },
         "note": "Died shortly after Easter 871, during the \"year of nine battles\" against the Danes.",
         "circumstance": "Died weeks after the battle of Meretun — whether of wounds or illness the sources do not say — and was buried at Wimborne Minster."
       },
@@ -52382,12 +52386,16 @@
       ],
       "birth": {
         "date": "c. 874",
-        "place": "Wessex",
+        "place": {
+          "name": "Wessex"
+        },
         "note": "Eldest son of Alfred the Great and Ealhswith; his birthplace is not recorded."
       },
       "death": {
         "date": "17 July 924",
-        "place": "Farndon-on-Dee, Mercia",
+        "place": {
+          "name": "Farndon-on-Dee, Mercia"
+        },
         "note": "Died days after putting down a Mercian-Welsh revolt at Chester.",
         "circumstance": "Died on campaign at Farndon, and was buried in the New Minster at Winchester which he had founded."
       },
@@ -52602,12 +52610,17 @@
       ],
       "birth": {
         "date": "c. 990",
-        "place": "England",
+        "place": {
+          "name": "England",
+          "slug": "kingdom-of-england"
+        },
         "note": "Third son of Æthelred the Unready and his first wife Ælfgifu; exact birthplace unrecorded."
       },
       "death": {
         "date": "30 November 1016",
-        "place": "London or Oxford",
+        "place": {
+          "name": "London or Oxford"
+        },
         "note": "Died weeks after the treaty of Alney divided England between him and Cnut.",
         "circumstance": "The earliest sources record only his death; the lurid murder stories are later embellishment. His death gave Cnut the whole kingdom."
       },
@@ -52803,12 +52816,18 @@
       ],
       "birth": {
         "date": "c. 1016",
-        "place": "England",
+        "place": {
+          "name": "England",
+          "slug": "kingdom-of-england"
+        },
         "note": "Son of Cnut and Ælfgifu of Northampton; hostile tradition questioned his paternity, a standard slur against his mother's party."
       },
       "death": {
         "date": "17 March 1040",
-        "place": "Oxford",
+        "place": {
+          "name": "Oxford",
+          "slug": "oxford"
+        },
         "note": "Died as Harthacnut prepared an invasion fleet.",
         "circumstance": "Died after an unrecorded illness; Harthacnut later had his body dug up from Westminster and flung into a fen, whence it was recovered and reburied in London."
       },
@@ -53004,12 +53023,17 @@
       ],
       "birth": {
         "date": "c. 1057",
-        "place": "Normandy",
+        "place": {
+          "name": "Normandy",
+          "slug": "duchy-of-normandy"
+        },
         "note": "Third son of William the Conqueror and Matilda of Flanders."
       },
       "death": {
         "date": "2 August 1100",
-        "place": "New Forest, Hampshire",
+        "place": {
+          "name": "New Forest, Hampshire"
+        },
         "note": "Shot through by an arrow while hunting; Walter Tirel was blamed and fled abroad.",
         "circumstance": "Whether accident or assassination has been argued ever since; his brother Henry rode straight to Winchester for the treasury and was crowned within three days."
       },
@@ -53233,12 +53257,16 @@
       ],
       "birth": {
         "date": "5 March 1133",
-        "place": "Le Mans, Maine",
+        "place": {
+          "name": "Le Mans, Maine"
+        },
         "note": "Son of Empress Matilda, heiress of Henry I, and Geoffrey Plantagenet, count of Anjou."
       },
       "death": {
         "date": "6 July 1189",
-        "place": "Chinon, Anjou",
+        "place": {
+          "name": "Chinon, Anjou"
+        },
         "note": "Died two days after accepting humiliating terms from Philip II and his son Richard.",
         "circumstance": "Legend says he turned his face to the wall on learning his favourite son John had joined the rebellion; he was carried to Fontevraud for burial."
       },
@@ -53464,12 +53492,16 @@
       ],
       "birth": {
         "date": "24 December 1166",
-        "place": "Beaumont Palace, Oxford",
+        "place": {
+          "name": "Beaumont Palace, Oxford"
+        },
         "note": "Youngest son of Henry II and Eleanor of Aquitaine — \"Lackland\" because the empire was already assigned to his brothers."
       },
       "death": {
         "date": "18–19 October 1216",
-        "place": "Newark Castle",
+        "place": {
+          "name": "Newark Castle"
+        },
         "note": "Died of dysentery in the middle of the barons' war, days after losing his baggage train in the Wash.",
         "circumstance": "His death saved the Plantagenet cause: the rebels' French candidate lost his purpose, and the loyalists crowned John's nine-year-old son Henry III."
       },
@@ -53698,12 +53730,17 @@
       ],
       "birth": {
         "date": "1 October 1207",
-        "place": "Winchester Castle",
+        "place": {
+          "name": "Winchester Castle"
+        },
         "note": "Eldest son of King John and Isabella of Angoulême."
       },
       "death": {
         "date": "16 November 1272",
-        "place": "Westminster",
+        "place": {
+          "name": "Westminster",
+          "slug": "westminster"
+        },
         "note": "Died with his heir Edward away on crusade.",
         "circumstance": "Buried in the abbey he had rebuilt, in the former grave of Edward the Confessor, whose cult he had made the centre of English kingship."
       },
@@ -53915,12 +53952,16 @@
       ],
       "birth": {
         "date": "6 January 1367",
-        "place": "Bordeaux, Aquitaine",
+        "place": {
+          "name": "Bordeaux, Aquitaine"
+        },
         "note": "Son of Edward the Black Prince and Joan of Kent; grandson of Edward III."
       },
       "death": {
         "date": "February 1400",
-        "place": "Pontefract Castle",
+        "place": {
+          "name": "Pontefract Castle"
+        },
         "note": "Died in captivity weeks after the failed Epiphany Rising of his supporters.",
         "circumstance": "Contemporaries believed he was starved, by his own despair in the official version, by his jailers in everyone else's."
       },
@@ -54141,12 +54182,16 @@
       ],
       "birth": {
         "date": "c. April 1367",
-        "place": "Bolingbroke Castle, Lincolnshire",
+        "place": {
+          "name": "Bolingbroke Castle, Lincolnshire"
+        },
         "note": "Son of John of Gaunt, duke of Lancaster, and Blanche of Lancaster; grandson of Edward III."
       },
       "death": {
         "date": "20 March 1413",
-        "place": "Jerusalem Chamber, Westminster Abbey",
+        "place": {
+          "name": "Jerusalem Chamber, Westminster Abbey"
+        },
         "note": "Died in the abbot's chamber called Jerusalem — fulfilling, chroniclers noted, a prophecy that he would die \"in Jerusalem\".",
         "circumstance": "Worn down since 1405 by a chronic skin disease and seizures that his enemies called divine judgment for Archbishop Scrope's execution."
       },
@@ -54372,12 +54417,16 @@
       ],
       "birth": {
         "date": "6 December 1421",
-        "place": "Windsor Castle",
+        "place": {
+          "name": "Windsor Castle"
+        },
         "note": "Only child of Henry V and Catherine of Valois; king at nine months."
       },
       "death": {
         "date": "21 May 1471",
-        "place": "Tower of London",
+        "place": {
+          "name": "Tower of London"
+        },
         "note": "Died hours after Edward IV re-entered London from Tewkesbury, where Henry's only son had been killed.",
         "circumstance": "The official story of death from \"melancholy\" convinced no one; his exhumed skull showed damage consistent with violence."
       },
@@ -54615,12 +54664,17 @@
       ],
       "birth": {
         "date": "late 1081",
-        "place": "Paris",
+        "place": {
+          "name": "Paris",
+          "slug": "paris"
+        },
         "note": "Son of Philip I and Bertha of Holland."
       },
       "death": {
         "date": "1 August 1137",
-        "place": "Béthisy-Saint-Pierre",
+        "place": {
+          "name": "Béthisy-Saint-Pierre"
+        },
         "note": "Died days after sealing the marriage of his heir to Eleanor of Aquitaine.",
         "circumstance": "Too corpulent to mount a horse in his last years, he died campaigning in mind if not in body, and was buried at Saint-Denis."
       },
@@ -54808,12 +54862,17 @@
       ],
       "birth": {
         "date": "5 September 1187",
-        "place": "Paris",
+        "place": {
+          "name": "Paris",
+          "slug": "paris"
+        },
         "note": "Son of Philip II Augustus and Isabella of Hainault."
       },
       "death": {
         "date": "8 November 1226",
-        "place": "Montpensier, Auvergne",
+        "place": {
+          "name": "Montpensier, Auvergne"
+        },
         "note": "Died of dysentery returning from the siege of Avignon.",
         "circumstance": "Left a twelve-year-old heir under the formidable regency of his widow Blanche of Castile."
       },
@@ -55022,12 +55081,16 @@
       ],
       "birth": {
         "date": "1 May 1245",
-        "place": "Poissy",
+        "place": {
+          "name": "Poissy"
+        },
         "note": "Second son of Louis IX and Margaret of Provence; heir from his brother Louis's death in 1260."
       },
       "death": {
         "date": "5 October 1285",
-        "place": "Perpignan",
+        "place": {
+          "name": "Perpignan"
+        },
         "note": "Died of dysentery in the retreat from Girona.",
         "circumstance": "The failed \"Aragonese crusade\" against Peter III ended with the army decimated by disease and the king dead at Perpignan."
       },
@@ -55217,12 +55280,16 @@
       ],
       "birth": {
         "date": "18/19 June 1294",
-        "place": "Clermont (Oise)",
+        "place": {
+          "name": "Clermont (Oise)"
+        },
         "note": "Third son of Philip IV the Fair and Joan I of Navarre."
       },
       "death": {
         "date": "1 February 1328",
-        "place": "Vincennes",
+        "place": {
+          "name": "Vincennes"
+        },
         "note": "Died leaving his queen pregnant; the child was a girl.",
         "circumstance": "With his death the direct Capetian male line, unbroken since 987, ended; the succession dispute that followed defined a century."
       },
@@ -55425,12 +55492,16 @@
       ],
       "birth": {
         "date": "21 January 1338",
-        "place": "Vincennes",
+        "place": {
+          "name": "Vincennes"
+        },
         "note": "Eldest son of John II and Bonne of Luxembourg; the first French heir titled Dauphin."
       },
       "death": {
         "date": "16 September 1380",
-        "place": "Beauté-sur-Marne",
+        "place": {
+          "name": "Beauté-sur-Marne"
+        },
         "note": "Died at forty-two after years of failing health.",
         "circumstance": "On his deathbed he ordered the abolition of the hearth tax that had funded his wars — a scruple his son's ministers ignored."
       },
@@ -55642,12 +55713,16 @@
       ],
       "birth": {
         "date": "c. 935",
-        "place": "Norway or the British Isles",
+        "place": {
+          "name": "Norway or the British Isles"
+        },
         "note": "Son of Eric Bloodaxe and Gunnhild; raised partly in exile after his father's fall."
       },
       "death": {
         "date": "c. 970",
-        "place": "Hals, Limfjord, Denmark",
+        "place": {
+          "name": "Hals, Limfjord, Denmark"
+        },
         "note": "Killed in battle after being lured to Denmark.",
         "circumstance": "Saga tradition has Harald Bluetooth and Jarl Håkon contrive his death: invited to receive Danish fiefs, he was met at Hals by an army."
       },
@@ -55838,12 +55913,17 @@
       ],
       "birth": {
         "date": "c. 1048",
-        "place": "Norway",
+        "place": {
+          "name": "Norway",
+          "slug": "kingdom-of-norway"
+        },
         "note": "Son of Harald Hardrada and Tora Torbergsdatter."
       },
       "death": {
         "date": "28 April 1069",
-        "place": "Nidaros (Trondheim)",
+        "place": {
+          "name": "Nidaros (Trondheim)"
+        },
         "note": "Died young of disease, leaving the kingdom to his brother.",
         "circumstance": "The sagas name his illness \"ringworm disease\", generally read as ergotism; he was buried in Christ Church, Nidaros."
       },
@@ -56029,12 +56109,17 @@
       ],
       "birth": {
         "date": "c. 1050",
-        "place": "Norway",
+        "place": {
+          "name": "Norway",
+          "slug": "kingdom-of-norway"
+        },
         "note": "Younger son of Harald Hardrada and Tora Torbergsdatter."
       },
       "death": {
         "date": "22 September 1093",
-        "place": "Haukbø, Ranrike",
+        "place": {
+          "name": "Haukbø, Ranrike"
+        },
         "note": "Died in his bed after the longest peace in Norwegian royal memory.",
         "circumstance": "Buried at Christ Church, Nidaros, the stone cathedral he had begun over Saint Olaf's shrine."
       },
@@ -56237,12 +56322,18 @@
       ],
       "birth": {
         "date": "c. 995",
-        "place": "Denmark",
+        "place": {
+          "name": "Denmark",
+          "slug": "kingdom-of-denmark"
+        },
         "note": "Elder son of Sweyn Forkbeard; his mother is named in the sources as Sweyn's Polish-born queen."
       },
       "death": {
         "date": "1018",
-        "place": "Denmark",
+        "place": {
+          "name": "Denmark",
+          "slug": "kingdom-of-denmark"
+        },
         "note": "Died young and unrecorded, leaving Denmark to Cnut.",
         "circumstance": "His death reunited Denmark and England under a single king for the first time."
       },
@@ -56421,12 +56512,18 @@
       ],
       "birth": {
         "date": "1274",
-        "place": "Denmark",
+        "place": {
+          "name": "Denmark",
+          "slug": "kingdom-of-denmark"
+        },
         "note": "Son of Eric V Klipping and Agnes of Brandenburg."
       },
       "death": {
         "date": "13 November 1319",
-        "place": "Roskilde",
+        "place": {
+          "name": "Roskilde",
+          "slug": "roskilde"
+        },
         "note": "Died childless — all fourteen children by Queen Ingeborg had died — with the realm pawned to creditors.",
         "circumstance": "Buried under the great brass at Ringsted; his brother Christopher II inherited a mortgaged crown."
       },
@@ -56608,12 +56705,17 @@
       ],
       "birth": {
         "date": "c. 1006",
-        "place": "Paphlagonia (probably)",
+        "place": {
+          "name": "Paphlagonia (probably)"
+        },
         "note": "Of the great civil-aristocratic Doukas family."
       },
       "death": {
         "date": "23 May 1067",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Left the empire to his young sons under Eudokia Makrembolitissa's regency.",
         "circumstance": "He bound Eudokia by oath not to remarry — an oath the Turkish emergency forced the patriarch to dissolve within the year."
       },
@@ -56803,12 +56905,18 @@
       ],
       "birth": {
         "date": "c. 1050",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Eldest son of Constantine X and Eudokia Makrembolitissa."
       },
       "death": {
         "date": "c. 1090",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Deposed in 1078, he ended as a monk and titular metropolitan of Ephesus.",
         "circumstance": "His derisive byname — \"minus a quarter\" — recorded the debased measure of wheat his inflation bought."
       },
@@ -57012,12 +57120,17 @@
       ],
       "birth": {
         "date": "c. 1002",
-        "place": "Anatolia",
+        "place": {
+          "name": "Anatolia"
+        },
         "note": "Of the military aristocracy; a veteran of half a century of campaigns."
       },
       "death": {
         "date": "late 1081",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Deposed on Easter Day 1081, he died a monk within the year.",
         "circumstance": "Asked what he minded most in his fall, he reportedly answered: abstinence from meat."
       },
@@ -57202,12 +57315,17 @@
       ],
       "birth": {
         "date": "13 September 1087",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Eldest son of Alexios I Komnenos and Irene Doukaina; born in the purple."
       },
       "death": {
         "date": "8 April 1143",
-        "place": "Cilicia",
+        "place": {
+          "name": "Cilicia"
+        },
         "note": "Died of a septic arrow-wound taken while boar-hunting during the Syrian campaign.",
         "circumstance": "On his deathbed he passed over his surviving elder son to designate the youngest, Manuel, before the army."
       },
@@ -57415,12 +57533,18 @@
       ],
       "birth": {
         "date": "18 December 1392",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Eldest son of Manuel II Palaiologos and Helena Dragaš."
       },
       "death": {
         "date": "31 October 1448",
-        "place": "Constantinople",
+        "place": {
+          "name": "Constantinople",
+          "slug": "constantinople"
+        },
         "note": "Died childless; the crown passed to his brother Constantine, the last emperor.",
         "circumstance": "He outlived by weeks the news of Varna's sequel at Kosovo — the end of the rescue his union had been priced at."
       },
@@ -57610,12 +57734,16 @@
       ],
       "birth": {
         "date": "c. 1176",
-        "place": "Valenciennes, Hainaut",
+        "place": {
+          "name": "Valenciennes, Hainaut"
+        },
         "note": "Younger son of Count Baldwin V of Hainaut; brother of Emperor Baldwin I."
       },
       "death": {
         "date": "11 June 1216",
-        "place": "Thessalonica",
+        "place": {
+          "name": "Thessalonica"
+        },
         "note": "Died suddenly, aged about forty, preparing operations in the north.",
         "circumstance": "The suspicion of poison was contemporary; the empire's decline from his death was unarguable."
       },
@@ -57799,12 +57927,17 @@
       ],
       "birth": {
         "date": "c. 1281",
-        "place": "Söğüt region, Bithynia",
+        "place": {
+          "name": "Söğüt region, Bithynia"
+        },
         "note": "Son of Osman I, the dynasty's founder, and Malhun Hatun."
       },
       "death": {
         "date": "March 1362",
-        "place": "Bursa",
+        "place": {
+          "name": "Bursa",
+          "slug": "bursa"
+        },
         "note": "Died at about eighty in the capital he had conquered.",
         "circumstance": "Buried at Bursa beside his father; the state he left was an empire in all but name."
       },
@@ -57988,12 +58121,16 @@
       ],
       "birth": {
         "date": "c. 1360",
-        "place": "Ottoman Anatolia",
+        "place": {
+          "name": "Ottoman Anatolia"
+        },
         "note": "Son of Murad I and Gülçiçek Hatun."
       },
       "death": {
         "date": "8 March 1403",
-        "place": "Akşehir, in Timurid custody",
+        "place": {
+          "name": "Akşehir, in Timurid custody"
+        },
         "note": "Died months after his capture at Ankara.",
         "circumstance": "The iron-cage story is later embellishment; captivity itself, and his empire's collapse behind him, needed none."
       },
@@ -58215,12 +58352,17 @@
       ],
       "birth": {
         "date": "June 1404",
-        "place": "Amasya",
+        "place": {
+          "name": "Amasya"
+        },
         "note": "Son of Mehmed I, restorer of the post-Ankara state."
       },
       "death": {
         "date": "3 February 1451",
-        "place": "Edirne",
+        "place": {
+          "name": "Edirne",
+          "slug": "edirne"
+        },
         "note": "Died planning nothing larger than the peace he had won.",
         "circumstance": "His will asked for a simple open-air grave at Bursa, rain falling on it — where he still lies."
       },
@@ -58428,12 +58570,16 @@
       ],
       "birth": {
         "date": "December 1447",
-        "place": "Demotika (Didymoteicho)",
+        "place": {
+          "name": "Demotika (Didymoteicho)"
+        },
         "note": "Son of Mehmed II and Gülbahar Hatun."
       },
       "death": {
         "date": "26 May 1512",
-        "place": "near Demotika",
+        "place": {
+          "name": "near Demotika"
+        },
         "note": "Died a month after abdicating to Selim I, near his own birthplace.",
         "circumstance": "Contemporaries inevitably suspected his masterful son's hand in so timely a death."
       },
@@ -58630,12 +58776,16 @@
       ],
       "birth": {
         "date": "c. 990",
-        "place": "Central Asian steppe (Oghuz lands)",
+        "place": {
+          "name": "Central Asian steppe (Oghuz lands)"
+        },
         "note": "Grandson of Seljuk, the clan's eponym; raised with his brother Chaghri after their father's early death."
       },
       "death": {
         "date": "4 September 1063",
-        "place": "Rayy",
+        "place": {
+          "name": "Rayy"
+        },
         "note": "Died childless; his nephew Alp Arslan took the sultanate.",
         "circumstance": "His tomb tower still stands at Rayy south of Tehran."
       },
@@ -58819,12 +58969,16 @@
       ],
       "birth": {
         "date": "August 1055",
-        "place": "Seljuk Persia",
+        "place": {
+          "name": "Seljuk Persia"
+        },
         "note": "Son of Alp Arslan; raised under Nizam al-Mulk's tutelage."
       },
       "death": {
         "date": "19 November 1092",
-        "place": "Baghdad",
+        "place": {
+          "name": "Baghdad"
+        },
         "note": "Died a month after Nizam al-Mulk's assassination on the road.",
         "circumstance": "The double death of sultan and vizier in five weeks broke the empire's spine; the succession wars began at once."
       },
@@ -59015,12 +59169,16 @@
       ],
       "birth": {
         "date": "c. 714",
-        "place": "Francia",
+        "place": {
+          "name": "Francia"
+        },
         "note": "Younger son of Charles Martel; educated at Saint-Denis."
       },
       "death": {
         "date": "24 September 768",
-        "place": "Saint-Denis",
+        "place": {
+          "name": "Saint-Denis"
+        },
         "note": "Died after finally subduing Aquitaine.",
         "circumstance": "The kingdom was divided between his sons Charles — the future Charlemagne — and Carloman."
       },
@@ -59213,12 +59371,16 @@
       ],
       "birth": {
         "date": "778",
-        "place": "Chasseneuil, Aquitaine",
+        "place": {
+          "name": "Chasseneuil, Aquitaine"
+        },
         "note": "Son of Charlemagne and Hildegard; king of Aquitaine from age three."
       },
       "death": {
         "date": "20 June 840",
-        "place": "island near Ingelheim",
+        "place": {
+          "name": "island near Ingelheim"
+        },
         "note": "Died marching against his rebel son Louis the German.",
         "circumstance": "His last recorded word — \"Huz!\", \"out!\" — was aimed, a biographer says, at an evil spirit; the civil war among his sons began within weeks."
       },
@@ -59414,12 +59576,16 @@
       ],
       "birth": {
         "date": "November 1165",
-        "place": "Nijmegen",
+        "place": {
+          "name": "Nijmegen"
+        },
         "note": "Second son of Frederick Barbarossa and Beatrice of Burgundy."
       },
       "death": {
         "date": "28 September 1197",
-        "place": "Messina, Sicily",
+        "place": {
+          "name": "Messina, Sicily"
+        },
         "note": "Died with his crusade's advance parties already in the Holy Land.",
         "circumstance": "His three-year-old son Frederick's double inheritance — Empire and Sicily — set the next sixty years of papal-imperial war."
       },
@@ -59615,12 +59781,16 @@
       ],
       "birth": {
         "date": "February 1374",
-        "place": "Buda, Hungary",
+        "place": {
+          "name": "Buda, Hungary"
+        },
         "note": "Youngest daughter of Louis I of Hungary and Poland and Elizabeth of Bosnia."
       },
       "death": {
         "date": "17 July 1399",
-        "place": "Kraków",
+        "place": {
+          "name": "Kraków"
+        },
         "note": "Died at twenty-five after the birth and death of her only child.",
         "circumstance": "Canonised in 1997; her Wawel tomb remains a national shrine."
       },
@@ -59797,12 +59967,16 @@
       ],
       "birth": {
         "date": "c. 943",
-        "place": "Kievan Rus'",
+        "place": {
+          "name": "Kievan Rus'"
+        },
         "note": "Son of Igor of Kiev and Olga; a small child when his father was killed."
       },
       "death": {
         "date": "spring 972",
-        "place": "Dnieper rapids",
+        "place": {
+          "name": "Dnieper rapids"
+        },
         "note": "Ambushed by the Pechenegs — forewarned, the chronicle tradition says, by Byzantine diplomacy.",
         "circumstance": "The Primary Chronicle reports Khan Kurya lined his skull with gold as a cup; the detail is chronicle tradition, told of steppe victors since antiquity."
       },
@@ -60003,12 +60177,17 @@
       ],
       "birth": {
         "date": "1130",
-        "place": "Kingdom of Jerusalem",
+        "place": {
+          "name": "Kingdom of Jerusalem",
+          "slug": "kingdom-of-jerusalem"
+        },
         "note": "Eldest son of Fulk of Anjou and Queen Melisende; grandson of Baldwin II."
       },
       "death": {
         "date": "10 February 1163",
-        "place": "Beirut",
+        "place": {
+          "name": "Beirut"
+        },
         "note": "Died childless; even Nur ad-Din, it was said, refused to attack the mourning kingdom.",
         "circumstance": "The crown passed to his brother Amalric after a baronial dispute over Amalric's marriage."
       },
@@ -60192,12 +60371,17 @@
       ],
       "birth": {
         "date": "1136",
-        "place": "Kingdom of Jerusalem",
+        "place": {
+          "name": "Kingdom of Jerusalem",
+          "slug": "kingdom-of-jerusalem"
+        },
         "note": "Younger son of Fulk and Melisende."
       },
       "death": {
         "date": "11 July 1174",
-        "place": "Jerusalem",
+        "place": {
+          "name": "Jerusalem"
+        },
         "note": "Died two months after Nur ad-Din, leaving a leper boy as heir.",
         "circumstance": "The double vacancy of 1174 — Damascus and Jerusalem at once — was filled on the Muslim side by Saladin."
       },
@@ -60386,12 +60570,17 @@
       ],
       "birth": {
         "date": "1172",
-        "place": "Kingdom of Jerusalem",
+        "place": {
+          "name": "Kingdom of Jerusalem",
+          "slug": "kingdom-of-jerusalem"
+        },
         "note": "Daughter of Amalric I and Maria Komnene; half-sister of Baldwin IV and Sibylla."
       },
       "death": {
         "date": "early 1205",
-        "place": "Acre",
+        "place": {
+          "name": "Acre"
+        },
         "note": "Died at about thirty-three; her daughter Maria of Montferrat inherited.",
         "circumstance": "Four marriages, five reigning years of husbands murdered, fallen, or dead — the queen outlived them all by weeks."
       },
@@ -60581,12 +60770,16 @@
       ],
       "birth": {
         "date": "c. 1249",
-        "place": "Picardy or Barnard Castle",
+        "place": {
+          "name": "Picardy or Barnard Castle"
+        },
         "note": "Heir of the great Anglo-Scottish Balliol inheritance and, through his mother Dervorguilla, of the Galloway lordship and royal blood."
       },
       "death": {
         "date": "late 1314",
-        "place": "Hélicourt, Picardy",
+        "place": {
+          "name": "Hélicourt, Picardy"
+        },
         "note": "Died on his French estates in the year of Bannockburn.",
         "circumstance": "His son Edward Balliol would briefly revive the claim against the Bruces in the 1330s."
       },
@@ -60795,12 +60988,17 @@
       ],
       "birth": {
         "date": "5 March 1324",
-        "place": "Dunfermline Abbey",
+        "place": {
+          "name": "Dunfermline Abbey",
+          "slug": "dunfermline-abbey"
+        },
         "note": "Son of Robert the Bruce and Elizabeth de Burgh, born when his father was nearly fifty."
       },
       "death": {
         "date": "22 February 1371",
-        "place": "Edinburgh Castle",
+        "place": {
+          "name": "Edinburgh Castle"
+        },
         "note": "Died childless despite three marriages; the Stewarts succeeded.",
         "circumstance": "His nephew Robert Stewart, the lieutenant he had repeatedly outmanoeuvred, became Robert II — the first Stewart king."
       },
@@ -82258,12 +82456,16 @@
       ],
       "birth": {
         "date": "c. 1066",
-        "place": "Duchy of Burgundy",
+        "place": {
+          "name": "Duchy of Burgundy"
+        },
         "note": "A younger son of the Burgundian ducal house; grandson of Duke Robert I and great-grandson of King Robert II of France."
       },
       "death": {
         "date": "22 May 1112",
-        "place": "Astorga, León",
+        "place": {
+          "name": "Astorga, León"
+        },
         "note": "Died campaigning in the chaos that followed Alfonso VI's death.",
         "circumstance": "Buried in Braga Cathedral; his widow Teresa took over the county's government."
       },
@@ -82456,12 +82658,16 @@
       ],
       "birth": {
         "date": "c. 1080",
-        "place": "León",
+        "place": {
+          "name": "León"
+        },
         "note": "Illegitimate daughter of Alfonso VI of León-Castile and Jimena Muñoz."
       },
       "death": {
         "date": "11 November 1130",
-        "place": "Galicia",
+        "place": {
+          "name": "Galicia"
+        },
         "note": "Died in exile north of the Minho after São Mamede.",
         "circumstance": "Her body was returned to Braga Cathedral to lie beside Count Henry."
       },
@@ -85831,11 +86037,16 @@
       "restingPlace": "Holy Cave of Covadonga",
       "birth": {
         "date": "c. 685",
-        "place": "Asturias or the former Visigothic lands"
+        "place": {
+          "name": "Asturias or the former Visigothic lands"
+        }
       },
       "death": {
         "date": "737",
-        "place": "Kingdom of Asturias"
+        "place": {
+          "name": "Kingdom of Asturias",
+          "slug": "kingdom-of-asturias"
+        }
       },
       "location": "Asturias, Iberia",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Covadonga%20-%20Estatua%20de%20Don%20Pelayo%201.jpg",
@@ -85991,11 +86202,16 @@
       "restingPlace": "León",
       "birth": {
         "date": "c. 900",
-        "place": "Kingdom of León"
+        "place": {
+          "name": "Kingdom of León",
+          "slug": "kingdom-of-leon"
+        }
       },
       "death": {
         "date": "5 January 951",
-        "place": "León"
+        "place": {
+          "name": "León"
+        }
       },
       "location": "Kingdom of León, Iberia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ramiro2Leon.jpg",
@@ -86152,11 +86368,15 @@
       "restingPlace": "Córdoba",
       "birth": {
         "date": "11 January 890",
-        "place": "Córdoba"
+        "place": {
+          "name": "Córdoba"
+        }
       },
       "death": {
         "date": "15 October 961",
-        "place": "Córdoba"
+        "place": {
+          "name": "Córdoba"
+        }
       },
       "location": "Córdoba, al-Andalus",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abd%20al%20Rahman%20III.jpg",
@@ -86306,11 +86526,17 @@
       "restingPlace": "Sahagún",
       "birth": {
         "date": "c. 1040",
-        "place": "Kingdom of León"
+        "place": {
+          "name": "Kingdom of León",
+          "slug": "kingdom-of-leon"
+        }
       },
       "death": {
         "date": "1 July 1109",
-        "place": "Toledo"
+        "place": {
+          "name": "Toledo",
+          "slug": "toledo"
+        }
       },
       "location": "León, Castile and Toledo, Iberia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/AlfonsoVI_of_Castile.jpg",
@@ -86490,11 +86716,16 @@
       "restingPlace": "Marrakesh",
       "birth": {
         "date": "c. 1009",
-        "place": "the Sahara (Almoravid heartland)"
+        "place": {
+          "name": "the Sahara (Almoravid heartland)"
+        }
       },
       "death": {
         "date": "1106",
-        "place": "Marrakesh"
+        "place": {
+          "name": "Marrakesh",
+          "slug": "marrakesh"
+        }
       },
       "location": "Marrakesh and al-Andalus",
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Yusuf_Ben_Tasfin_dinar_22562.jpg",
@@ -86661,11 +86892,16 @@
       "restingPlace": "Burgos Cathedral",
       "birth": {
         "date": "c. 1043",
-        "place": "Vivar, near Burgos"
+        "place": {
+          "name": "Vivar, near Burgos"
+        }
       },
       "death": {
         "date": "10 July 1099",
-        "place": "Valencia"
+        "place": {
+          "name": "Valencia",
+          "slug": "valencia"
+        }
       },
       "location": "Castile and Valencia, Iberia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Estatua_del_Cid_%28Burgos%29.jpg",
@@ -86831,11 +87067,15 @@
       "deathAge": "unknown",
       "birth": {
         "date": "unknown",
-        "place": "the German lands (unknown)"
+        "place": {
+          "name": "the German lands (unknown)"
+        }
       },
       "death": {
         "date": "late 14th century (uncertain)",
-        "place": "unknown"
+        "place": {
+          "name": "unknown"
+        }
       },
       "location": "The Holy Roman Empire",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Fechtbuch%20Talhoffer%20025.jpg",
@@ -86976,11 +87216,15 @@
       "deathAge": "unknown",
       "birth": {
         "date": "c. 1350",
-        "place": "Cividale del Friuli, Patriarchate of Aquileia"
+        "place": {
+          "name": "Cividale del Friuli, Patriarchate of Aquileia"
+        }
       },
       "death": {
         "date": "c. 1420 (uncertain)",
-        "place": "northern Italy"
+        "place": {
+          "name": "northern Italy"
+        }
       },
       "location": "Friuli and northern Italy",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flos%20Duellatorum%2C%20Flor%20de%20Batalla%201409.JPG",
@@ -87123,11 +87367,16 @@
       "restingPlace": "Tinmel, Morocco",
       "birth": {
         "date": "c. 1160",
-        "place": "the Almohad realm (Morocco)"
+        "place": {
+          "name": "the Almohad realm (Morocco)"
+        }
       },
       "death": {
         "date": "1199",
-        "place": "Marrakesh"
+        "place": {
+          "name": "Marrakesh",
+          "slug": "marrakesh"
+        }
       },
       "location": "Marrakesh and al-Andalus",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sevilla_Cathedral_-_Giralda.jpg",
@@ -87295,11 +87544,16 @@
       "restingPlace": "Seville Cathedral",
       "birth": {
         "date": "c. 1199",
-        "place": "near Salamanca, Kingdom of León"
+        "place": {
+          "name": "near Salamanca, Kingdom of León"
+        }
       },
       "death": {
         "date": "30 May 1252",
-        "place": "Seville"
+        "place": {
+          "name": "Seville",
+          "slug": "seville"
+        }
       },
       "location": "Castile, León and Andalusia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fernando_III_de_Castilla_02.jpg",
@@ -87468,11 +87722,15 @@
       "restingPlace": "Royal Chapel of Granada",
       "birth": {
         "date": "10 March 1452",
-        "place": "Sos, Kingdom of Aragon"
+        "place": {
+          "name": "Sos, Kingdom of Aragon"
+        }
       },
       "death": {
         "date": "23 January 1516",
-        "place": "Madrigalejo, Extremadura"
+        "place": {
+          "name": "Madrigalejo, Extremadura"
+        }
       },
       "location": "Aragon and Castile",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Michel_Sittow_004.jpg",
@@ -87639,11 +87897,16 @@
       "restingPlace": "Fez, Morocco (uncertain)",
       "birth": {
         "date": "c. 1460",
-        "place": "Granada"
+        "place": {
+          "name": "Granada",
+          "slug": "granada"
+        }
       },
       "death": {
         "date": "c. 1533 (uncertain)",
-        "place": "Fez, Morocco"
+        "place": {
+          "name": "Fez, Morocco"
+        }
       },
       "location": "Granada and North Africa",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Muhammad%20XII%20of%20Granada%2C%2017th%20century.jpg",
@@ -87803,11 +88066,15 @@
       "restingPlace": "unknown",
       "birth": {
         "date": "c. 1180",
-        "place": "the Rus' lands"
+        "place": {
+          "name": "the Rus' lands"
+        }
       },
       "death": {
         "date": "1228",
-        "place": "the Rus' lands"
+        "place": {
+          "name": "the Rus' lands"
+        }
       },
       "location": "Novgorod, Galicia and the Rus' lands",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mstislav%20Galitsky.jpg",

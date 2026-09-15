@@ -151,6 +151,18 @@ for (const [collection, entries] of Object.entries(data)) {
     if (entry.type !== COLLECTION_TYPES[collection]) typeFailings.push(`${collection}/${entry.id}: type is "${entry.type}", must be "${COLLECTION_TYPES[collection]}"`)
   }
 }
+// Hard failure: a person's birth or death place is an object with a name, as
+// the page expects. 116 were plain text, and the page rendered them as nothing
+// until 2026-09-15.
+for (const c of data.characters ?? []) {
+  for (const key of ['birth', 'death']) {
+    const place = c[key]?.place
+    if (place === undefined || place === null) continue
+    if (typeof place !== 'object' || Array.isArray(place) || typeof place.name !== 'string' || !place.name.trim()) {
+      typeFailings.push(`characters/${c.id}: '${key}.place' must be an object with a non-empty name`)
+    }
+  }
+}
 if (typeFailings.length) {
   console.error(`HARD FAILURE: ${typeFailings.length} list field(s) with the wrong type:`)
   typeFailings.forEach(f => console.error(' -', f))
@@ -1476,7 +1488,13 @@ function validatePersonTimeline(person) {
     ;(function walk(n) {
       if (!n) return
       if (n.personSlug) slugs.add(n.personSlug)
-      if (n.spouse?.personSlug) slugs.add(n.spouse.personSlug)
+      for (const spouse of [].concat(n.spouse ?? [])) {
+        if (spouse?.personSlug) slugs.add(spouse.personSlug)
+        // Every spouse in a family tree has an article (owner request,
+        // 2026-09-15: all 37 were written and linked). A new tree node must link
+        // its spouse too, or name the gap here with a documented exception.
+        else if (spouse?.name) findings.push({ collection: 'houses', article: h.name, path: `familyTree spouse "${spouse.name}"`, pattern: 'family-tree spouse has no personSlug (write the article and link it)', snippet: spouse.name })
+      }
       ;(n.children ?? []).forEach(walk)
     })(h.familyTree?.root)
     for (const slug of slugs) {

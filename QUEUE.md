@@ -1008,6 +1008,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - The rendering: plain SVG, or a light d3-geo projection.
 
    **Gate once it exists:** every city-type location has coordinates and renders a map.
+0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
+   - **Birth and death places normalised:** 116 plain-text places became
+     `{ name }` objects, and the 35 whose text exactly names a location article now
+     link to it (e.g. Constantinople, Marrakesh, Kingdom of León). The gate
+     hard-fails a place that is not an object with a name.
+   - **Family-tree spouse gate:** `check-content-quality` now hard-fails any spouse
+     node without `personSlug`, now that every one of the 37 is linked.
 0j. ✅ **Done 2026-09-15: `sigurd-of-norway`'s crusade section expanded** from 437 to 2,870 characters. The timeline went from 7 to 12 entries, with England, Galicia, the Portuguese coast, the Balearics, Acre and Sidon. Five sources were added where there were none. Related links were added both ways to Baldwin I of Jerusalem and Alexios I Komnenos, and one way to Henry I of England, Lisbon, Magnus Barefoot and the Kingdom of Jerusalem. The siege of Sidon (1110) went on `BATTLE_BACKLOG` until it has its own event article. The original request follows. **OWNER REQUEST 2026-09-15: expand `sigurd-of-norway`'s crusade section.** "As king of
    Norway and crusader" is 437 characters and names no place, siege or battle. The owner
    notes he is famous for at least one crusader siege. Cover the Norwegian Crusade of
