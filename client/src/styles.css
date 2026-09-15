@@ -3561,3 +3561,35 @@ a.tree-person:hover .tree-person-name {
 .insights-page > .insights-empty {
   color: rgba(215, 217, 221, 0.7);
 }
+
+/* City locator inset (QUEUE 0k): a window of a medieval base map around the city,
+   with a red marker at its coordinates. The image position comes from cropWindow()
+   in lib/locatorMaps.js as percentages of the window, so it scales with the figure.
+   Floats and stacks like other section figures. */
+.locator-figure .locator-window {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #bfe3f2;
+}
+
+.locator-figure .locator-window img {
+  position: absolute;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  object-fit: fill;
+  filter: none;
+}
+
+.locator-marker {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background: #d62828;
+  box-shadow: 0 0 0 5px rgba(214, 40, 40, 0.3), 0 1px 4px rgba(0, 0, 0, 0.55);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}

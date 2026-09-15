@@ -9,6 +9,7 @@ import ZoomableImage from '../components/ZoomableImage.jsx'
 import { getArticle } from '../lib/api.js'
 import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
 import { reportArticleImageFailure } from '../lib/images.js'
+import { cropWindow, locatorFor } from '../lib/locatorMaps.js'
 
 const collectionLabels = {
   events: 'Events',
@@ -932,6 +933,7 @@ function LocationContent({ article }) {
           title={section.title}
           paragraphs={section.paragraphs}
           article={article}
+          leadFigure={index === 0 ? <LocatorMap article={article} /> : null}
         />
       ))}
       {asList(article.knownFor).length > 0 && (
@@ -1303,7 +1305,7 @@ function InfoBlock({ title, children }) {
   )
 }
 
-function ArticleSection({ title, paragraphs, className = '', article }) {
+function ArticleSection({ title, paragraphs, className = '', article, leadFigure = null }) {
   const sectionImages = sectionImagesFor(article, title)
   if (!(paragraphs ?? []).filter(Boolean).length && !sectionImages.length) return null
 
@@ -1314,6 +1316,7 @@ function ArticleSection({ title, paragraphs, className = '', article }) {
         <FragmentWithImages
           imageInsertIndex={index}
           images={sectionImages}
+          leadFigure={index === 0 ? leadFigure : null}
           key={paragraph}
           paragraph={paragraph}
           article={article}
@@ -1326,12 +1329,13 @@ function ArticleSection({ title, paragraphs, className = '', article }) {
   )
 }
 
-function FragmentWithImages({ article, imageInsertIndex, images, paragraph }) {
+function FragmentWithImages({ article, imageInsertIndex, images, leadFigure, paragraph }) {
   const shouldInsertImages = imageInsertIndex === 0 && images.length > 0
 
   return (
     <>
       <p>{renderLinkedText(paragraph, article)}</p>
+      {leadFigure}
       {shouldInsertImages && images.map((image) => (
         <SectionImage image={image} key={`${image.src}-${image.caption}`} />
       ))}
@@ -1351,6 +1355,39 @@ function normalizedSectionTitle(value) {
     .replace(/&/g, 'and')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
+}
+
+// Where a city lies in its region, on a medieval base map (owner rule, 2026-09-15;
+// QUEUE 0k). A window of the base map around the city, with a marker at its
+// coordinates; base maps and their calibration live in lib/locatorMaps.js. Renders
+// nothing for an article with no coordinates or no base map that covers it.
+function LocatorMap({ article }) {
+  const [failed, setFailed] = useState(false)
+  const locator = locatorFor(article)
+  if (!locator || failed) return null
+  const { map, x, y } = locator
+  const view = cropWindow(map, x, y)
+
+  return (
+    <figure className="section-figure locator-figure">
+      <div
+        className="locator-window"
+        style={{ aspectRatio: `${view.viewW} / ${view.viewH}` }}
+        role="img"
+        aria-label={`Map of the ${map.title}, with ${article.name} marked in red`}
+      >
+        <img
+          src={map.src}
+          alt=""
+          loading="lazy"
+          onError={() => setFailed(true)}
+          style={{ width: `${view.imgWidthPct}%`, left: `${view.imgLeftPct}%`, top: `${view.imgTopPct}%` }}
+        />
+        <span className="locator-marker" style={{ left: `${view.markerLeftPct}%`, top: `${view.markerTopPct}%` }} />
+      </div>
+      <ImageCredit info={{ caption: `${article.name} marked in red on a modern map of the ${map.title}.`, source: map.source, sourceUrl: map.sourceUrl }} />
+    </figure>
+  )
 }
 
 function SectionImage({ image }) {

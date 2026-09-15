@@ -1124,6 +1124,11 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - Pick the base map per region, favouring the medieval region the article belongs to. The earlier decision stands: a legible Kingdom of Jerusalem map is the base for crusader cities where it can carry a dot.
    **Owner decision 2026-09-15: always medieval if possible.** The base map shows the medieval polity or region the city belonged to. A modern-borders base, like the Jordan map in the example, is used **only where no medieval base map is possible**. Where that fallback is used, the caption says the borders are modern.
    **Pilot:** `kerak` first, then the other Levant cities (`sidon`, `damascus`, `antioch`), then every city-type location, with a gate that each has coordinates and renders a map.
+   **Pilot shipped 2026-09-15 on `kerak`.** Kerak now carries `coordinates` and `locatorMap: "kingdom-of-jerusalem"`.
+   - `client/src/lib/locatorMaps.js` registers the base map. Its Mercator calibration was fitted against 23 towns the map itself marks; the worst error is 7 SVG units, about the size of a marker. `locatorFor()` places the marker, and `cropWindow()` picks a 340×380-unit window with the marker 58% down, so the map's own labels stay readable.
+   - `LocatorMap` in DetailPage renders the window after the Overview's first paragraph, with a red marker and a Commons credit.
+   - `tests/locator-maps.test.mjs` checks 8 measured markers, that every `locatorMap` article lands on its map, and that the window clamps.
+   **Next:** coordinates for `sidon`, `damascus`, `antioch` and the other Levant cities on this map. Antioch lies north of this map's edge, so it needs a northern crusader-states base. Then base maps for the other regions (a medieval one wherever possible), then the gate that every city has a map.
 0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
    - **Birth and death places normalised:** 116 plain-text places became
      `{ name }` objects, and the 35 whose text exactly names a location article now
