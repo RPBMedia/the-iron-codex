@@ -1132,6 +1132,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - `client/src/lib/locatorMaps.js` registers the base map. Its Mercator calibration was fitted against 23 towns the map itself marks; the worst error is 7 SVG units, about the size of a marker. `locatorFor()` places the marker, and `cropWindow()` picks a 340×380-unit window with the marker 58% down, so the map's own labels stay readable.
    - `LocatorMap` in DetailPage renders the window after the Overview's first paragraph, with a red marker and a Commons credit.
    - `tests/locator-maps.test.mjs` checks 8 measured markers, that every `locatorMap` article lands on its map, and that the window clamps.
+   **Levant extension shipped 2026-09-15 (owner away):** `sidon` (33.5571, 35.3729) and `damascus` (33.5106, 36.3065) now carry locator maps on the same base, so all three archive cities on this map have one. No other city article lies on it; Acre, Tyre, Jerusalem and Tripoli have no articles.
    **Next:** coordinates for `sidon`, `damascus`, `antioch` and the other Levant cities on this map. Antioch lies north of this map's edge, so it needs a northern crusader-states base. Then base maps for the other regions (a medieval one wherever possible), then the gate that every city has a map.
 0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
    - **Birth and death places normalised:** 116 plain-text places became

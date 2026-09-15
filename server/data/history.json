@@ -115365,7 +115365,12 @@
           "title": "Timur's sack",
           "description": "Timur ransoms, sacks and burns Damascus; Ibn Khaldun meets him outside the walls."
         }
-      ]
+      ],
+      "coordinates": {
+        "lat": 33.5106,
+        "lon": 36.3065
+      },
+      "locatorMap": "kingdom-of-jerusalem"
     },
     {
       "id": "rome",
@@ -141158,7 +141163,12 @@
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gezicht_op_het_kasteel_St._Louis_te_Sidon%2C_Libanon%2C_RP-T-1892-A-2708.jpg",
           "note": "A nineteenth-century view of the thirteenth-century castle on the ancient tell, drawn when it was already a ruin. The artist may have simplified the outline of the walls, and the road, trees and figures are those of his own day."
         }
-      ]
+      ],
+      "coordinates": {
+        "lat": 33.5571,
+        "lon": 35.3729
+      },
+      "locatorMap": "kingdom-of-jerusalem"
     },
     {
       "id": "kerak",
