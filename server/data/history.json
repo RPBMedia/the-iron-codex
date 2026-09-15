@@ -108737,7 +108737,7 @@
       "locationType": "Kingdom",
       "name": "Kingdom of England",
       "year": 927,
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_878.svg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_and_France_1259.jpg",
       "summary": "A medieval kingdom formed from Anglo-Saxon realms and transformed by Norman conquest.",
       "overview": [
         "The Kingdom of England was made twice: first by the house of Wessex, whose kings from Alfred the Great to Æthelstan united the Anglo-Saxon realms against the Danes (Æthelstan the first king of all England from 927); then by the Norman Conquest of 1066, which rebuilt its ruling class, church, and landholding on the verdict of the Battle of Hastings.",
@@ -108826,12 +108826,12 @@
         ]
       },
       "imageInfo": {
-        "caption": "Kingdom of England.",
-        "creator": "Map contributor on Wikimedia Commons",
-        "date": "modern map or historical reconstruction",
-        "source": "Wikimedia Commons",
-        "note": "Map or reconstruction used to represent approximate medieval geography, not exact modern borders.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_878.svg"
+        "caption": "Map of England and France in 1259 from Samuel Rawson Gardiner's School Atlas of English History (1892), with the dominions of Henry III, including Gascony, shaded pink.",
+        "creator": "Samuel Rawson Gardiner, School Atlas of English History",
+        "date": "published 1892; shows 1259",
+        "source": "Wikimedia Commons (scan of Gardiner's School Atlas of English History, London, 1892)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_and_France_1259.jpg",
+        "note": "A late 19th-century historical atlas map, not a medieval document. It shows the Kingdom of England together with the French lands Henry III kept after the Treaty of Paris of 1259, chiefly Gascony; the plate's own note marks provinces due to pass to him after 1271. Boundaries in Wales and Ireland are the atlas's approximation. Public domain by age; released on Commons under CC0."
       },
       "contentSections": [
         {
@@ -108922,6 +108922,18 @@
           "title": "England under the Norman and Angevin Kings",
           "author": "Robert Bartlett",
           "type": "book"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:England_and_France_1259.jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_England.svg"
         }
       ],
       "timeline": [
@@ -108995,7 +109007,28 @@
           "title": "St Albans",
           "description": "The Wars of the Roses begin; the medieval kingdom's dynastic endgame."
         }
-      ]
+      ],
+      "sectionImages": [
+        {
+          "section": "Background and origins",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/England_878.svg",
+          "caption": "Modern map of England and Wales in 878, after Alfred's victory at Edington, showing Wessex and English Mercia beside the Danish-held Danelaw.",
+          "creator": "Hel-hama, redrawn after Earle W Dow's Atlas of European History (1910)",
+          "date": "2012; shows the situation in 878",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_878.svg",
+          "note": "A modern redrawing of an early 20th-century atlas map, not a medieval document. It shows the division of England at the Treaty of Chippenham between Alfred and Guthrum, half a century before Æthelstan united the English kingdom in 927; the boundaries were fluid and are approximate. Licensed CC BY-SA 3.0."
+        }
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_arms_of_England.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Royal arms of England, three gold lions on red, borne by the kings from Richard I in 1198 until Edward III quartered them with the arms of France in 1340.",
+        "creator": "Sodacan (Wikimedia Commons)",
+        "date": "modern rendering (2010) of arms in use from 1198 to 1340",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_England.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The three lions first appear on Richard I's second great seal of 1198; from 1340 Edward III and his successors bore them quartered with the fleurs-de-lis of France, so this plain form represents the Angevin and early Plantagenet kingdom. Licensed CC BY-SA 4.0."
+      }
     },
     {
       "id": "kingdom-of-scotland",
@@ -109003,7 +109036,7 @@
       "locationType": "Kingdom",
       "name": "Kingdom of Scotland",
       "year": 843,
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Strathclyde.kingdom.influence.areas.png",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/C._1300_Scotland.jpg?width=1600",
       "summary": "A northern medieval kingdom shaped by Gaelic, Pictish, Norse, and Anglo-Norman influences.",
       "overview": [
         "Scotland was assembled, not conquered into being: the Gaelic kings of Alba — traditionally from Kenneth MacAlpin (c. 843) — fused Picts and Scots, took Lothian at Carham (1018) and Strathclyde soon after, and by Máel Coluim III's day ruled a realm from the Tweed to the Moray Firth that the Canmore dynasty then transformed with Anglo-Norman settlers, burghs, and reformed monasticism.",
@@ -109020,12 +109053,12 @@
         "Scotland"
       ],
       "imageInfo": {
-        "caption": "Map of Strathclyde and neighboring powers in northern Britain, part of the political landscape from which the medieval Kingdom of Scotland emerged.",
-        "creator": "Wikimedia Commons map contributor",
-        "date": "modern historical map",
-        "source": "Wikimedia Commons",
-        "note": "A modern interpretive map; boundaries and influence zones are approximate.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strathclyde.kingdom.influence.areas.png"
+        "caption": "Map of the Kingdom of Scotland about 1300, with its sheriffdoms outlined in colour, from Reginald Lane Poole's Historical Atlas of Modern Europe, published at Oxford between 1896 and 1902.",
+        "creator": "W and A K Johnston of Edinburgh, for Reginald Lane Poole, Historical Atlas of Modern Europe",
+        "date": "published 1896 to 1902; shows about 1300",
+        "source": "Wikimedia Commons (digitally enhanced scan of Poole's Historical Atlas of Modern Europe, Clarendon Press)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C._1300_Scotland.jpg",
+        "note": "A late 19th-century historical atlas plate, not a medieval document; the Commons file is a digitally enhanced scan. It shows the mainland kingdom and the Western Isles, ceded by Norway in the Treaty of Perth of 1266; Orkney and Shetland, Norwegian until 1468 to 1469, lie outside the main map. The corner insets show early Scotland and Scotland in the 11th century. Public domain."
       },
       "contentSections": [
         {
@@ -109116,6 +109149,18 @@
           "title": "The New Edinburgh History of Scotland (relevant volumes)",
           "author": "Academic series",
           "type": "book"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:C._1300_Scotland.jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg"
         }
       ],
       "relatedEntries": {
@@ -109244,7 +109289,28 @@
           "title": "James I assassinated",
           "description": "The reforming king is murdered at Perth; the crown-magnate struggle resumes."
         }
-      ]
+      ],
+      "sectionImages": [
+        {
+          "section": "Background and origins",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Strathclyde.kingdom.influence.areas.png",
+          "caption": "Modern map of the Kingdom of Strathclyde and its areas of influence between about 900 and 1100, one of the realms later absorbed into the kingdom of the Scots.",
+          "creator": "Wikimedia Commons contributor, drawn on a topographic base map",
+          "date": "2009; shows about 900 to 1100",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strathclyde.kingdom.influence.areas.png",
+          "note": "A modern interpretive map, not a medieval document. The extent of Strathclyde's influence, especially south of the Solway into Cumberland and Westmorland, is approximate and debated. Licensed CC BY-SA 3.0."
+        }
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Arms_of_the_Kingdom_of_Scotland.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Royal arms of Scotland, a red lion rampant within a double tressure on gold, borne by the kings of Scots from the 13th century until the Union of the Crowns in 1603.",
+        "creator": "Sodacan (Wikimedia Commons)",
+        "date": "modern rendering (2010) of arms in use from the 13th century to 1603",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The lion rampant is first securely recorded on the seal of Alexander II in the 1220s, and the double tressure flory counter-flory appears by the reign of Alexander III; its attribution to William the Lion is traditional rather than proven, so the starting date is approximate. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "byzantine-empire",
@@ -112967,7 +113033,7 @@
       "locationType": "Kingdom",
       "year": "843",
       "kingdom": "Western Europe",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Royal_Standard_of_the_King_of_France.svg/1280px-Royal_Standard_of_the_King_of_France.svg.png",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankreich_im_XII_Jahrhundert_-_Professor_G._Droysens_Allgemeiner_historischer_Handatlas_1886_(134037951%2C_cropped).jpg?width=1600",
       "summary": "The medieval Kingdom of France grew from West Francia into one of Europe’s strongest monarchies under the Capetian and Valois dynasties.",
       "overview": [
         "The Kingdom of France grew from the western third of the Carolingian partition of Verdun (843) into medieval Europe's paradigm monarchy: Capetian from 987, when Hugh Capet's election began the longest unbroken royal line in European history, and by 1300 the richest, most populous, and most administratively ambitious realm in Latin Christendom.",
@@ -112984,12 +113050,12 @@
         "France"
       ],
       "imageInfo": {
-        "caption": "Royal standard associated with the kings of France.",
-        "creator": "Heraldic design reproduced on Wikimedia Commons",
-        "date": "modern digital rendering of medieval royal symbolism",
-        "source": "Wikimedia Commons",
-        "note": "Heraldic symbol rather than a literal image of the kingdom; useful for representing Capetian and Valois monarchy.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1280px-Royal_Standard_of_the_King_of_France.svg.png"
+        "caption": "Map of the Kingdom of France in the 12th century from Gustav Droysen's historical atlas of 1886, with the crown's own lands in yellow and the English king's fiefs in pink.",
+        "creator": "Gustav Droysen, editor, Allgemeiner historischer Handatlas",
+        "date": "published 1886; shows the 12th century",
+        "source": "Wikimedia Commons (scan of Droysen's Allgemeiner historischer Handatlas, Bielefeld and Leipzig, 1886, plate 57)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankreich_im_XII_Jahrhundert_-_Professor_G._Droysens_Allgemeiner_historischer_Handatlas_1886_(134037951%2C_cropped).jpg",
+        "note": "A 19th-century German historical atlas plate, not a medieval document. The main map distinguishes the royal domain, the Angevin lands held of the French crown by the kings of England, and the other great fiefs, and marks the kingdom's eastern border with the Empire; the inset shows the later growth of the royal domain. A library stamp is visible at the lower right. Public domain."
       },
       "relatedEntries": {
         "people": [
@@ -113151,6 +113217,18 @@
           "author": "Jonathan Sumption",
           "type": "book",
           "note": "The fullest modern narrative of the late medieval kingdom at war."
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Frankreich_im_XII_Jahrhundert_-_Professor_G._Droysens_Allgemeiner_historischer_Handatlas_1886_(134037951%2C_cropped).jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_France_(Ancien).svg"
         }
       ],
       "timeline": [
@@ -113224,7 +113302,16 @@
           "title": "Castillon",
           "description": "The war ends; England keeps only Calais, and the fiscal-military monarchy stands complete."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms_of_the_Kingdom_of_France_(Ancien).svg?width=700",
+      "armsImageInfo": {
+        "caption": "Royal arms of France, gold fleurs-de-lis scattered on blue, borne from the late 12th century until Charles V reduced them to three lilies about 1376.",
+        "creator": "Sodacan (Wikimedia Commons)",
+        "date": "modern rendering (2010) of arms in use from the late 12th century to about 1376",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_France_(Ancien).svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object; the crown above the shield is the artist's addition. This semé form, known as France Ancien, is associated with Philip II and appears as a coat of arms on the seal of the future Louis VIII in 1211. The three-lily France Moderne replaced it under Charles V about 1376, though the change was gradual. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "duchy-of-normandy",
@@ -114461,12 +114548,12 @@
         "The Golden Bull (1356) and the electoral constitution"
       ],
       "imageInfo": {
-        "caption": "Holy Roman Empire.",
-        "creator": "Map contributor on Wikimedia Commons",
-        "date": "modern map or historical reconstruction",
+        "caption": "Modern German-language map of the Empire under the Ottonian and Salian emperors, with its borders in 972 under Otto I and in 1035 under Conrad II.",
+        "creator": "Captain Blood (German Wikipedia)",
+        "date": "2005; shows 972 to 1035",
         "source": "Wikimedia Commons",
-        "note": "Map or reconstruction used to represent approximate medieval geography, not exact modern borders.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HRR_10Jh.jpg"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HRR_10Jh.jpg",
+        "note": "A modern reconstruction drawn for German Wikipedia on a relief base map, not a medieval document; boundaries are approximate. It shows the German kingdom, the Italian kingdom and the imperial marches, with Bohemia and the Kingdom of Burgundy, which passed to Conrad II in 1033, shaded separately. It does not show the Staufer or late medieval Empire. Licensed CC BY-SA 3.0."
       },
       "contentSections": [
         {
@@ -114558,6 +114645,12 @@
           "title": "Otto of Freising, Deeds of Frederick Barbarossa",
           "author": "Otto of Freising",
           "type": "primary source"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Shield_and_Coat_of_Arms_of_the_Holy_Roman_Emperor_(c.1200-c.1300).svg"
         }
       ],
       "relatedEntries": {
@@ -114677,7 +114770,16 @@
           "title": "The Habsburg gathering",
           "description": "Frederick III crowned in Rome; Maximilian's Burgundian marriage assembles the future."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shield_and_Coat_of_Arms_of_the_Holy_Roman_Emperor_(c.1200-c.1300).svg?width=700",
+      "armsImageInfo": {
+        "caption": "Imperial arms of the Holy Roman Empire, a single-headed black eagle on gold, in use from about 1200 until the double-headed eagle prevailed under Sigismund in the 1430s.",
+        "creator": "Heralder and Tom Lemmens (Wikimedia Commons)",
+        "date": "modern rendering (2013) of arms in use from about 1200 to the 1430s",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shield_and_Coat_of_Arms_of_the_Holy_Roman_Emperor_(c.1200-c.1300).svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object, modelled on the imperial shield in the Codex Manesse of about 1310. The eagle was an imperial emblem before it became a coat of arms; a double-headed form appears occasionally from the 13th century but became standard only after Sigismund's imperial coronation in 1433, so the dates are approximate. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "carolingian-empire",
@@ -115591,12 +115693,12 @@
         "Castile"
       ],
       "imageInfo": {
-        "caption": "Kingdom of Castile.",
-        "creator": "Map contributor on Wikimedia Commons",
-        "date": "modern map or historical reconstruction",
+        "caption": "Modern map of the Crown of Castile about 1400, shaded yellow, with its component realms of Castile, León, Galicia, Toledo, Seville, Córdoba, Jaén and Murcia.",
+        "creator": "Té y kriptonita, after Conquista Hispania.svg by HansenBCN (Wikimedia Commons)",
+        "date": "2007; shows about 1400",
         "source": "Wikimedia Commons",
-        "note": "Map or reconstruction used to represent approximate medieval geography, not exact modern borders.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corona_de_Castilla_1400.svg"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corona_de_Castilla_1400.svg",
+        "note": "Modern reconstruction (SVG), not a medieval document. It shows the Trastámara Crown of Castile as a union of kingdoms and lordships, with Granada still Nasrid, Navarre and Portugal independent and the Crown of Aragon to the east; internal boundaries are approximate. Licensed CC BY-SA 3.0."
       },
       "contentSections": [
         {
@@ -115688,6 +115790,12 @@
           "title": "The Contest of Christian and Muslim Spain",
           "author": "Bernard F. Reilly",
           "type": "book"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Castile_Arms_(no_crowned).svg"
         }
       ],
       "relatedEntries": {
@@ -115818,7 +115926,16 @@
           "title": "Isabella and the union",
           "description": "Isabella's marriage to Ferdinand of Aragon and her accession point from Trastámara Castile toward Spain."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom_of_Castile_Arms_(no_crowned).svg?width=700",
+      "armsImageInfo": {
+        "caption": "Arms of the Kingdom of Castile, a gold castle on red, the royal device that first appears under Alfonso VIII in the later twelfth century.",
+        "creator": "Proof02 (Wikimedia Commons)",
+        "date": "modern rendering (2009) of arms in use from about the 1170s",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Castile_Arms_(no_crowned).svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The castle appears on Alfonso VIII's seals and coins from about the 1170s; after Fernando III united the crowns in 1230 the kings usually bore it quartered with the lion of León, so the plain castle represents Castile as a separate kingdom. The three towers and blue openings follow later heraldic convention. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "ottoman-empire",
@@ -117347,7 +117464,7 @@
       "locationType": "Kingdom",
       "year": "1099",
       "kingdom": "Levant",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason_Royaume_de_J%C3%A9rusalem.svg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1889_The_Kingdom_of_Jerusalem%2C_shewing_the_Fiefs%2C_about_1187_A.D..jpg",
       "summary": "A crusader kingdom founded after the First Crusade and central to Latin Christian politics in the eastern Mediterranean.",
       "overview": [
         "The Kingdom of Jerusalem was the First Crusade's crowned creation: founded when the crusaders stormed the holy city (1099), ruled first by Godfrey of Bouillon as Advocate of the Holy Sepulchre and then by the kings of his line, and sustained for two centuries as Latin Christendom's outpost between the sea and Islam.",
@@ -117361,12 +117478,12 @@
         "The fall of Acre (1291) ending Outremer"
       ],
       "imageInfo": {
-        "caption": "Kingdom of Jerusalem.",
-        "creator": "Map contributor on Wikimedia Commons",
-        "date": "modern map or historical reconstruction",
-        "source": "Wikimedia Commons",
-        "note": "Map or reconstruction used to represent approximate medieval geography, not exact modern borders.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_Royaume_de_J%C3%A9rusalem.svg"
+        "caption": "Claude Reignier Conder’s map of the Kingdom of Jerusalem about 1187, with the royal domain and great fiefs in colour, published in his Palestine of 1889.",
+        "creator": "Claude Reignier Conder",
+        "date": "1889 (map of the kingdom about 1187)",
+        "source": "Claude Reignier Conder, Palestine (London, 1889), via Project Gutenberg and Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:1889_The_Kingdom_of_Jerusalem%2C_shewing_the_Fiefs%2C_about_1187_A.D..jpg",
+        "note": "A Victorian scholarly map by a Palestine Exploration Fund surveyor, not a medieval document. It shows the kingdom on the eve of Hattin with numbered fiefs and a key, and the County of Tripoli in pink to the north; the fief boundaries are Conder’s approximations. Public domain."
       },
       "contentSections": [
         {
@@ -117450,6 +117567,18 @@
           "title": "The Crusader States",
           "author": "Malcolm Barber",
           "type": "book"
+        },
+        {
+          "title": "Wikimedia Commons image record: Conder map of the Kingdom of Jerusalem about 1187",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:1889_The_Kingdom_of_Jerusalem%2C_shewing_the_Fiefs%2C_about_1187_A.D..jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record: arms of the Kingdom of Jerusalem",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Blason_Royaume_de_J%C3%A9rusalem.svg"
         }
       ],
       "relatedEntries": {
@@ -117560,7 +117689,16 @@
           "title": "Acre falls",
           "description": "The Mamluk storm ends the kingdom; the last towns evacuate."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason_Royaume_de_J%C3%A9rusalem.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Heraldic rendering of the arms of the Kingdom of Jerusalem, a gold cross potent between four small gold crosses on a silver field.",
+        "creator": "Ayack, Wikimedia Commons contributor",
+        "date": "2007 rendering of thirteenth-century arms",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_Royaume_de_J%C3%A9rusalem.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. Gold on silver breaks the usual heraldic rule of tincture, an exception usually explained by the kingdom’s unique status; the arms are recorded from the thirteenth century, after the first kings. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "gainsborough",
@@ -119944,12 +120082,12 @@
         "Grunwald (1410) and the defeat of the Teutonic Order"
       ],
       "imageInfo": {
-        "caption": "Kingdom of Poland.",
-        "creator": "Unknown or Wikimedia Commons contributor",
-        "date": "historical image",
+        "caption": "Modern reconstruction of Poland under Bolesław the Brave, 992 to 1025, with the border of the kingdom at his coronation in 1025 drawn in red. Labels in Polish.",
+        "creator": "Poznaniak and Popik, Wikimedia Commons contributors",
+        "date": "2006 (modern map of Poland in 992 to 1025)",
         "source": "Wikimedia Commons",
-        "note": "Historical or later depiction used as representative visual evidence.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polska_992_-_1025.png"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polska_992_-_1025.png",
+        "note": "A modern historical map, not a medieval document, licensed CC BY-SA 3.0. It shows the Piast realm under its first crowned king, before the partition of 1138; the kingdom reunited in 1320 and joined to Lithuania from 1385 had different borders."
       },
       "contentSections": [
         {
@@ -120038,6 +120176,12 @@
           "title": "Gallus Anonymus and Jan Długosz, chronicles",
           "author": "Polish chronicle tradition",
           "type": "primary source"
+        },
+        {
+          "title": "Wikimedia Commons image record: arms of Przemysł II, 1295",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:POL_Przemys%C5%82_II_1295_COA.svg"
         }
       ],
       "relatedEntries": {
@@ -120148,7 +120292,16 @@
           "title": "Thirteen Years' War",
           "description": "Royal Prussia and Danzig pass to the crown; the Order becomes a fief."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/POL_Przemys%C5%82_II_1295_COA.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Heraldic rendering of the crowned white eagle on red, reconstructed from the royal seal of Przemysł II, who revived the Polish crown in 1295.",
+        "creator": "Bastianow, Wikimedia Commons contributor",
+        "date": "2008 reconstruction of arms from a seal of 1295",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:POL_Przemys%C5%82_II_1295_COA.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The crowned eagle comes from the reverse of Przemysł II’s majestic seal of 1295; the seal itself has no colours, and the white eagle on red is documented from the fourteenth century, when it became the arms of the reunited kingdom. Original design public domain; digital reconstruction CC BY-SA 2.5."
+      }
     },
     {
       "id": "kingdom-of-sweden",
@@ -121218,7 +121371,7 @@
       "locationType": "Kingdom",
       "kingdom": "Iberia",
       "year": "1035",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Reino_de_Arag%C3%B3n.svg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Reino_de_Arag%C3%B3n.svg",
       "summary": "The Kingdom of Aragon was a major Iberian and Mediterranean power whose rulers fought in the Reconquista and expanded through dynastic union, conquest, and maritime politics.",
       "overview": [
         "Aragon rose from a Pyrenean county to a Mediterranean empire: a kingdom from 1035, joined to Catalonia by the marriage-union of 1137, conqueror of Majorca and Valencia under James I, and by 1300 the naval power whose kings ruled Sicily, Sardinia, and — through the Catalan Company's strange adventure — duchies in Greece.",
@@ -121232,12 +121385,12 @@
         "The Compromise of Caspe (1412) and the 1469 union with Castile"
       ],
       "imageInfo": {
-        "caption": "Representative image for Kingdom of Aragon.",
-        "creator": "Public-domain or Wikimedia Commons contributor",
-        "date": "medieval/later image or modern historical map",
+        "caption": "Modern map of the Kingdom of Aragon within its later medieval borders, with shaded zones marking the stages of its conquest southward from the Pyrenees.",
+        "creator": "Ecelan (Wikimedia Commons)",
+        "date": "2007; modern reconstruction of the medieval kingdom",
         "source": "Wikimedia Commons",
-        "note": "Representative visual evidence; heraldry and maps may be later reconstructions rather than contemporary state portraits.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reino_de_Arag%C3%B3n.svg"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reino_de_Arag%C3%B3n.svg",
+        "note": "Modern reconstruction (SVG) drawn from Fernando García de Cortázar's Atlas de Historia de España and the Atlas de Historia de Aragón, not a medieval document. It shows the Kingdom of Aragon proper rather than the whole Crown: the labelled Marquisates of Lérida and Tortosa, taken by Ramon Berenguer IV in 1148 to 1149, the Lordship of Albarracín, Catalonia, Valencia and Majorca are separate. The map has no legend, so its colour bands show successive conquests without dating them; boundaries are approximate. Licensed CC BY-SA 3.0."
       },
       "contentSections": [
         {
@@ -121330,6 +121483,12 @@
           "author": "James I of Aragon",
           "type": "primary source",
           "note": "The conqueror's own chronicle."
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_Aragon.svg"
         }
       ],
       "relatedEntries": {
@@ -121450,7 +121609,16 @@
           "title": "Ferdinand marries Isabella",
           "description": "The Crowns of Aragon and Castile bind their futures; medieval Aragon's separate story closes."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal_arms_of_Aragon.svg?width=700",
+      "armsImageInfo": {
+        "caption": "The royal arms of Aragon, the senyal real of four red pales on gold, borne by the kings of the House of Barcelona from the twelfth century.",
+        "creator": "Heralder (Wikimedia Commons)",
+        "date": "modern rendering (2010) of arms in use from about the 1150s",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_arms_of_Aragon.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The pales first appear on seals of Ramon Berenguer IV, count of Barcelona and prince of Aragon, in the 1150s, and passed to the kings of Aragon with his son Alfonso II; whether they began as Barcelonese or Aragonese insignia is still debated. Medieval examples vary in the number of pales, and four became the fixed form later. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "kingdom-of-navarre",
@@ -121462,7 +121630,7 @@
       "locationType": "Kingdom",
       "kingdom": "Iberia and western Pyrenees",
       "year": "824",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Bandera_de_Reino_de_Navarra.svg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Conquista_de_Navarra.svg",
       "summary": "The Kingdom of Navarre occupied a strategic position in the western Pyrenees, balancing Iberian, French, and regional interests across the Middle Ages.",
       "overview": [
         "Navarre — the kingdom of Pamplona until the twelfth century — was Iberia's oldest crown and its smallest survivor: birthplace of the dynasty that under Sancho III the Great (1004–1035) briefly ruled most of Christian Spain and seeded the royal lines of Castile and Aragon, then a compact Pyrenean monarchy that outlived the Reconquista it was locked out of.",
@@ -121476,12 +121644,12 @@
         "French dynasties, Charles the Bad, and survival between the crowns"
       ],
       "imageInfo": {
-        "caption": "Representative image for Kingdom of Navarre.",
-        "creator": "Public-domain or Wikimedia Commons contributor",
-        "date": "medieval/later image or modern historical map",
+        "caption": "Modern map of the Kingdom of Navarre between 1463 and 1512, with Upper Navarre in red, Lower Navarre beyond the Pyrenees in pink, and the French lands of its Foix and Albret rulers in green and purple.",
+        "creator": "Miguillen (Wikimedia Commons)",
+        "date": "2009; shows 1463 to 1512",
         "source": "Wikimedia Commons",
-        "note": "Representative visual evidence; heraldry and maps may be later reconstructions rather than contemporary state portraits.",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bandera_de_Reino_de_Navarra.svg"
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conquista_de_Navarra.svg",
+        "note": "Modern reconstruction (SVG), not a medieval document. It shows the late medieval kingdom after Castile took the Sonsierra and Los Arcos in 1463 (grey) and before Ferdinand the Catholic's invasion of 1512 annexed Upper Navarre; before 1200 the realm had also held Álava and Guipúzcoa. Boundaries are approximate. Licensed CC BY 3.0."
       },
       "contentSections": [
         {
@@ -121501,7 +121669,7 @@
         {
           "title": "High and Late Middle Ages",
           "paragraphs": [
-            "The restored kingdom (after a generation absorbed by Aragon, 1076–1134) fought its geography: García Ramírez and Sancho VI \"the Wise\" — who first styled the realm \"kingdom of Navarre\" and chartered towns like San Sebastián — held the line; Sancho VII \"the Strong\" (1194–1234), a giant in the chronicles, broke the Almohad palace-guard's chain at Las Navas de Tolosa in 1212 (the chains entering the royal arms), but lost Álava and Guipúzcoa to Castile in 1200, sealing Navarre off from the sea and from further Reconquista.",
+            "The restored kingdom (after a generation absorbed by Aragon, 1076–1134) fought its geography: García Ramírez and Sancho VI \"the Wise\" — who first styled the realm \"kingdom of Navarre\" and chartered towns like San Sebastián — held the line; Sancho VII \"the Strong\" (1194–1234), a giant in the chronicles, led his knights through the Almohad caliph's guard at Las Navas de Tolosa in 1212 (later tradition held that he broke the chains around the caliph's tent and took them into the royal arms, a device documented only from the 1230s), but lost Álava and Guipúzcoa to Castile in 1200, sealing Navarre off from the sea and from further Reconquista.",
             "His nephew Theobald I of Champagne (1234) began the French centuries: trouvère-king and crusader; the Capetian union under Philip the Fair and his sons (1285–1328), when Navarre was governed from Paris; then the house of Évreux — Charles II \"the Bad\" (1349–1387), the Hundred Years' War's arch-intriguer, plotting between Valois, Plantagenet, and the Jacquerie; and Charles III \"the Noble\" (1387–1425), who bought peace, built pamplona's cathedral and Olite's palace, and gave the realm its calmest reign. The century after him sank into the civil war of Agramonts and Beaumonts around John II of Aragon and his imprisoned heir Charles of Viana — the strife that invited Ferdinand the Catholic's conquest in 1512."
           ]
         },
@@ -121564,6 +121732,18 @@
           "author": "Navarrese juridical tradition",
           "type": "primary source",
           "note": "The realm's thirteenth-century constitutional compilation."
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Conquista_de_Navarra.svg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Die_conync_van_Navaern.svg"
         }
       ],
       "relatedEntries": {
@@ -121645,7 +121825,7 @@
         {
           "date": "16 July 1212",
           "title": "Las Navas de Tolosa",
-          "description": "Sancho the Strong breaks the caliph's guard; the chains enter the arms of Navarre."
+          "description": "Sancho the Strong's Navarrese break the caliph's guard; the later legend that he took its chains into the arms of Navarre is not documented until the 1230s."
         },
         {
           "date": "1234",
@@ -121672,7 +121852,16 @@
           "title": "Castilian conquest",
           "description": "Ferdinand the Catholic annexes the southern kingdom; only trans-Pyrenean Navarre stays free."
         }
-      ]
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Die_conync_van_Navaern.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Arms of the king of Navarre, gold chains on red, redrawn after an armorial compiled before 1405. Tradition ties the chains to Sancho VII at Las Navas in 1212, but they are documented only later.",
+        "creator": "Wikimedia Commons contributor, after the herald Claes Heynenzoon",
+        "date": "modern rendering (2016) after an armorial compiled before 1405",
+        "source": "Wikimedia Commons (after the Wapenboek Beyeren, Koninklijke Bibliotheek, The Hague)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Die_conync_van_Navaern.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object; it follows the arms of the king of Navarre in the Wapenboek Beyeren armorial, compiled by the herald Claes Heynenzoon before 1405. The device probably began as an escarbuncle, a decorative shield boss, recorded on royal seals from about the reign of Theobald I (1234 to 1253), and was only later read as chains broken at Las Navas de Tolosa. Sancho VII himself used an eagle as his sign. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "principality-of-serbia",
@@ -128911,14 +129100,14 @@
       "locationType": "Kingdom",
       "year": 910,
       "kingdom": "Kingdom of León",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adeffonsus_IX%2C_king_of_Galicia_and_Leon.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom_of_Leon_1037.svg",
       "imageInfo": {
-        "caption": "Alfonso IX, king of León and Galicia, in a miniature from the Tumbo A cartulary of Santiago de Compostela.",
-        "creator": "Compostelan scriptorium",
-        "date": "12th–13th century",
-        "source": "Tumbo A, Santiago de Compostela — via Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adeffonsus_IX%2C_king_of_Galicia_and_Leon.jpg",
-        "note": "A contemporary royal image from the kingdom's own great cartulary."
+        "caption": "Modern map of the Iberian Peninsula in 1037, the year Fernando I of Castile won the Leonese crown, with the Kingdom of León highlighted in yellow.",
+        "creator": "Gabagool, after a map by Crates (Wikimedia Commons)",
+        "date": "2010; shows 1037",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Leon_1037.svg",
+        "note": "Modern reconstruction (SVG), not a medieval document. It shows León, with Galicia and Asturias, at its first union with Castile after the death of Bermudo III at Tamarón; the southern frontier moved repeatedly afterwards, reaching Extremadura by Alfonso IX's conquest of Mérida and Badajoz in 1230. Boundaries are approximate. Licensed CC BY-SA 3.0."
       },
       "overview": [
         "The Kingdom of León (910–1230 as a distinct crown) was the senior Christian monarchy of medieval Iberia: heir of the Asturian kings and, through them, claimant to the Visigothic inheritance, whose rulers styled themselves emperors of all Spain. From León came the dynasties, the law, and the frontier institutions that shaped Castile and Portugal alike — both of which began as its counties and ended as its rivals.",
@@ -129116,8 +129305,41 @@
           "author": "Bernard F. Reilly",
           "type": "book",
           "note": "Standard narrative of León-Castile in its imperial centuries."
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Leon_1037.svg"
+        },
+        {
+          "title": "Wikimedia Commons image record",
+          "author": "Wikimedia Commons",
+          "type": "image metadata",
+          "url": "https://commons.wikimedia.org/wiki/File:Shield_of_Alfonso_IX_of_Leon.svg"
         }
-      ]
+      ],
+      "sectionImages": [
+        {
+          "section": "Political structure and rule",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Adeffonsus_IX%2C_king_of_Galicia_and_Leon.jpg",
+          "caption": "Alfonso IX, king of León and Galicia from 1188 to 1230, in a miniature from the Tumbo A cartulary of Santiago de Compostela.",
+          "creator": "Compostelan scriptorium",
+          "date": "13th century",
+          "source": "Tumbo A, Santiago de Compostela, via Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adeffonsus_IX%2C_king_of_Galicia_and_Leon.jpg",
+          "note": "A royal miniature from Santiago de Compostela's great cartulary, made in or near the king's own time. It is a conventional image of kingship rather than a likeness from life. Public domain."
+        }
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shield_of_Alfonso_IX_of_Leon.svg?width=700",
+      "armsImageInfo": {
+        "caption": "The purple lion of León on a silver kite shield, as reconstructed for Alfonso IX, the last king of a separate León from 1188 to 1230.",
+        "creator": "Heralder (Wikimedia Commons)",
+        "date": "modern rendering (2011) of arms in use in the later twelfth and early thirteenth centuries",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shield_of_Alfonso_IX_of_Leon.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object; it follows Faustino Menéndez Pidal's study of Spanish royal symbols. The lion was a Leonese royal emblem by the mid twelfth century and appears as heraldic arms under Fernando II; medieval sources render its colour variably, and purple became the fixed tincture later. After 1230 it was quartered with the castle of Castile. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "lisbon",
@@ -131133,14 +131355,14 @@
       ],
       "kingdom": "Central Europe",
       "year": 1000,
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen_I_(Chronicon_Pictum_041).jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/C._1190_Europe_(Central_and_Eastern).jpg",
       "imageInfo": {
-        "caption": "Stephen I of Hungary, the kingdom’s first crowned ruler, depicted in the Chronicon Pictum (Illuminated Chronicle) of the 1360s.",
-        "creator": "Illuminator of the Chronicon Pictum, traditionally associated with Márk Kálti’s workshop",
-        "date": "c. 1358–1370",
-        "source": "Chronicon Pictum, National Széchényi Library, Budapest — via Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stephen_I_(Chronicon_Pictum_041).jpg",
-        "note": "A courtly image made some three centuries after Stephen’s death; it shows how the fourteenth-century Angevin court wished to remember the founder, not his actual appearance."
+        "caption": "Central and Eastern Europe about 1190, from William Robert Shepherd’s Historical Atlas of 1911, with the Kingdom of Hungary shaded orange at the centre.",
+        "creator": "William Robert Shepherd",
+        "date": "about 1911 (map of Europe about 1190)",
+        "source": "William Robert Shepherd, Historical Atlas (New York, 1911), via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C._1190_Europe_(Central_and_Eastern).jpg",
+        "note": "An early twentieth-century atlas map, not a medieval document: an extract of Shepherd’s plate of Europe and the Mediterranean about 1190, in the reign of Béla III. The borders are the atlas’s reconstruction, and the frontiers towards the Cumans and Serbia were less fixed than the colouring suggests. Public domain."
       },
       "summary": "The Kingdom of Hungary was the Latin Christian monarchy founded in the Carpathian basin around the year 1000, which for five centuries dominated the middle Danube and fought in turn the Byzantines, the Mongols and the Ottomans.",
       "overview": [
@@ -131334,8 +131556,42 @@
           "author": "Wikimedia Commons",
           "type": "image source",
           "url": "https://commons.wikimedia.org/wiki/File:Stephen_I_(Chronicon_Pictum_041).jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record: Shepherd map of Central and Eastern Europe about 1190",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:C._1190_Europe_(Central_and_Eastern).jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record: arms of the Kingdom of Hungary",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Coa_Hungary_Country_History_(14th_century).svg"
         }
-      ]
+      ],
+      "sectionImages": [
+        {
+          "section": "Settlement and Christianisation",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen_I_(Chronicon_Pictum_041).jpg",
+          "alt": "Stephen I of Hungary, the kingdom’s first crowned ruler, depicted in the Chronicon Pictum (Illuminated Chronicle) of the 1360s.",
+          "caption": "Stephen I of Hungary, the kingdom’s first crowned ruler, depicted in the Chronicon Pictum (Illuminated Chronicle) of the 1360s.",
+          "creator": "Illuminator of the Chronicon Pictum, traditionally associated with Márk Kálti’s workshop",
+          "date": "about 1358 to 1370",
+          "source": "Chronicon Pictum, National Széchényi Library, Budapest, via Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stephen_I_(Chronicon_Pictum_041).jpg",
+          "note": "A courtly image made some three centuries after Stephen’s death; it shows how the fourteenth-century Angevin court wished to remember the founder, not his actual appearance."
+        }
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coa_Hungary_Country_History_(14th_century).svg?width=700",
+      "armsImageInfo": {
+        "caption": "Heraldic rendering of the arms of the Kingdom of Hungary: the red and silver Árpád stripes beside a silver double cross rising from a crowned green triple mount.",
+        "creator": "Madboy74, Wikimedia Commons contributor (cimerek.hu)",
+        "date": "2025 rendering of the fourteenth-century arms",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coa_Hungary_Country_History_(14th_century).svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The stripes appear on King Emeric’s seal of about 1202 and the double cross on royal coins and seals from Béla III; this follows the combined shield of the fourteenth century, though the crown and triple mount varied before they were standardised. Licensed CC BY-SA 4.0."
+      }
     },
     {
       "id": "vandal-kingdom",
@@ -135107,14 +135363,14 @@
       ],
       "kingdom": "Kingdom of Sicily",
       "year": 1130,
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle%20Palatine.jpg",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/C._1250_Kingdom_of_Sicily.jpg",
       "imageInfo": {
-        "caption": "The Cappella Palatina in Palermo, built for Roger II with Byzantine mosaics, Arab muqarnas ceiling and a Latin plan.",
-        "creator": "Photographed in the Palazzo dei Normanni, Palermo",
-        "date": "the chapel of 1132–1140",
-        "source": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_Palatine.jpg",
-        "note": "The single best object for what this kingdom was: Greek mosaicists, Muslim carpenters and Norman patrons working on one building, with inscriptions in Latin, Greek and Arabic. Public domain."
+        "caption": "The Kingdom of Sicily about 1250, shaded pink across the island and southern Italy, from Gustav Droysen’s historical atlas of 1886. Labels in German.",
+        "creator": "Gustav Droysen (digitally enhanced extract by Ty’s Commons)",
+        "date": "1886 (map of the kingdom about 1250)",
+        "source": "Gustav Droysen, Allgemeiner Historischer Handatlas (Bielefeld and Leipzig, 1886), via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C._1250_Kingdom_of_Sicily.jpg",
+        "note": "A nineteenth-century atlas reconstruction, not a medieval map, showing the kingdom and its provinces at the death of Frederick II in 1250. The Commons file is a cropped, digitally enhanced extract of Droysen’s plate of the Holy Roman Empire about 1250. Public domain."
       },
       "summary": "The Kingdom of Sicily was the Norman state founded in 1130 that fused Latin, Greek and Arab cultures, threatened Byzantium for two centuries, and lost its island in the Sicilian Vespers of 1282.",
       "overview": "A Norman kingdom in the middle of the Mediterranean that spoke three languages, and the Byzantine Empire's most persistent western enemy.",
@@ -135284,8 +135540,42 @@
           "url": "https://en.wikipedia.org/wiki/Cappella_Palatina",
           "type": "museum collection",
           "institution": "Palazzo dei Normanni"
+        },
+        {
+          "title": "Wikimedia Commons image record: Droysen map of the Kingdom of Sicily about 1250",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:C._1250_Kingdom_of_Sicily.jpg"
+        },
+        {
+          "title": "Wikimedia Commons image record: arms of the Hohenstaufen kings of Sicily",
+          "author": "Wikimedia Commons",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Arms_of_Swabia-Sicily.svg"
         }
-      ]
+      ],
+      "sectionImages": [
+        {
+          "section": "The Norman conquest and the three cultures",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Chapelle%20Palatine.jpg",
+          "alt": "Byzantine mosaics inside the Cappella Palatina in Palermo, the palace chapel built for Roger II and consecrated in 1140. Modern photograph.",
+          "caption": "Byzantine mosaics inside the Cappella Palatina in Palermo, the palace chapel built for Roger II and consecrated in 1140. Modern photograph.",
+          "creator": "Photograph by Urban, Wikimedia Commons contributor",
+          "date": "Photographed 2005; chapel built about 1132 to 1140",
+          "source": "Wikimedia Commons",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapelle_Palatine.jpg",
+          "note": "Modern photograph of a surviving twelfth-century building in the Palazzo dei Normanni, where Greek mosaicists, Muslim carpenters and Norman patrons worked together, with inscriptions in Latin, Greek and Arabic. This view shows the mosaic arcades, not the painted wooden ceiling. Licensed CC BY-SA 3.0."
+        }
+      ],
+      "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms_of_Swabia-Sicily.svg?width=700",
+      "armsImageInfo": {
+        "caption": "Heraldic rendering of the arms of the Hohenstaufen kings of Sicily, a black eagle on a silver field.",
+        "creator": "The White Lion, after a shield by Heralder and Tom-L, Wikimedia Commons contributors",
+        "date": "2017 rendering of thirteenth-century arms",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_Swabia-Sicily.svg",
+        "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object. The Norman kings predate heraldry; the eagle belongs to the Hohenstaufen kingdom of 1194 to 1266, and its silver field is linked especially with Manfred, while after the Vespers of 1282 the Aragonese kings bore the pales of Aragon with eagles. Licensed CC BY-SA 3.0."
+      }
     },
     {
       "id": "rashidun-caliphate",

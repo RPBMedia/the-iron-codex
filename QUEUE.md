@@ -1218,6 +1218,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    a coin) and say plainly that the polity had no arms. Once done, gate it in
    `check-images.mjs` for kingdom-type locations, with an allowlist for the
    no-heraldry polities.
+   **BATCH 1 SHIPPED 2026-09-15 (owner away), 12 kingdoms:** Poland, Hungary, Sicily, Jerusalem, England, Scotland, France, Holy Roman Empire, Castile, León, Aragon and Navarre. Each now leads with a territory map (a pre-1900 atlas plate or a modern reconstruction, captioned as such) and shows its period arms in the arms panel (`armsImage`, rendered by `ArmsImage` in DetailPage). Replaced main images that were still good (Stephen I in the Chronicon Pictum, the Cappella Palatina, the 878 and Strathclyde maps, Alfonso IX in the Tumbo A) moved to section images. Two were dropped: France's Bourbon royal standard of 1638–1790, whose source link was broken, and Navarre's undated modern flag. The same ship corrected Navarre's prose and timeline, which had stated the Las Navas chains legend as fact. Every image was viewed by the agent that chose it. **Still to do:** Portugal and the Scandinavian kingdoms (agent running), then about 30 more, then the `check-images` gate and the no-heraldry allowlist.
 0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
    `iron-codex-civilizations-master-prompt.md` in the repo root (3,429 lines;
