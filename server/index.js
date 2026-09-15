@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import path from 'node:path'
-import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase } from './user-store.js'
+import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase, checkStore } from './user-store.js'
 // Shared with scripts/prerender.mjs, which inlines the same enriched article
 // into each prerendered page. One definition, so the two cannot drift.
 import { enrichArticle } from './article-enrichment.js'
@@ -643,9 +643,17 @@ app.get('/api/insights', requireAdmin, async (req, res) => {
   }
 })
 
-app.get('/api/health', (_req, res) => {
-  // analyticsAvailable is a config fact, not data — safe to expose.
-  res.json({ status: 'ok', scope: 'Medieval Europe, 476-1453' })
+app.get('/api/health', async (_req, res) => {
+  // Config facts and a read-only round trip to the user store: which backend is
+  // live and whether it answered. Never account data or secrets. A store that is
+  // misconfigured or unreachable reports 503, so "is sign-in stable?" is one
+  // request rather than a belief (QUEUE item 7, 2026-09-15).
+  const userStore = await checkStore()
+  res.status(userStore.ok ? 200 : 503).json({
+    status: userStore.ok ? 'ok' : 'degraded',
+    scope: 'Medieval Europe, 476-1453',
+    userStore
+  })
 })
 
 app.get('/api/auth/me', async (req, res) => {

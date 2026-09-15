@@ -44,6 +44,35 @@ const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN
 export const usingUpstash = Boolean(UPSTASH_URL && UPSTASH_TOKEN)
 
 /**
+ * Which backend is live, decided once at startup.
+ *
+ * On the production host the JSON file can never be written, so selecting it
+ * there means the Upstash or Supabase variables are missing or misnamed. That
+ * used to surface only at the first signup, as the original EROFS outage did.
+ * Now it is logged at startup and every account operation fails with the reason.
+ * The archive itself keeps serving: every page runs through this same function,
+ * so throwing at import would take the whole site down with the accounts.
+ */
+export const storeBackend = usingUpstash ? 'upstash' : usingSupabase ? 'supabase' : 'file'
+const productionHost = process.env.NODE_ENV === 'production' || Boolean(process.env.VERCEL)
+export const storeMisconfigured = productionHost && storeBackend === 'file'
+
+if (storeMisconfigured) {
+  console.error(
+    'user-store: no remote backend in production. Set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN, ' +
+      'or SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY. Account operations will fail until then.'
+  )
+} else {
+  console.info(`user-store: backend = ${storeBackend}`)
+}
+
+function assertConfigured() {
+  if (storeMisconfigured) {
+    throw new Error('User store is not configured for production: set the Upstash or Supabase environment variables.')
+  }
+}
+
+/**
  * Key layout:
  *   user:<id>          -> the account, as JSON
  *   user:email:<email> -> the id, so a login can find an account by address
@@ -165,7 +194,41 @@ async function writeFileUsers(users) {
 
 // ---- public API ------------------------------------------------------------
 
+/**
+ * A read-only round trip to the live backend, for /api/health. Reports the
+ * backend and whether it answered, never account data or secrets, so "is sign-in
+ * stable?" can be checked with one request instead of believed.
+ */
+export async function checkStore(timeoutMs = 3000) {
+  const started = Date.now()
+  if (storeMisconfigured) return { backend: storeBackend, ok: false, reason: 'not configured for production' }
+  let timer
+  try {
+    const probe =
+      storeBackend === 'upstash'
+        ? redis(['PING'])
+        : storeBackend === 'supabase'
+          ? supabase(`${TABLE}?select=id&limit=1`)
+          : readFileUsers()
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error('timed out')), timeoutMs)
+    })
+    await Promise.race([probe, timeout])
+    return { backend: storeBackend, ok: true, ms: Date.now() - started }
+  } catch (error) {
+    return {
+      backend: storeBackend,
+      ok: false,
+      reason: error?.message === 'timed out' ? 'timed out' : 'unreachable',
+      ms: Date.now() - started
+    }
+  } finally {
+    clearTimeout(timer)
+  }
+}
+
 export async function findUserById(id) {
+  assertConfigured()
   if (!id) return null
   if (usingUpstash) {
     return parseUser(await redis(['GET', userKey(id)]))
@@ -179,6 +242,7 @@ export async function findUserById(id) {
 }
 
 export async function findUserByEmail(email) {
+  assertConfigured()
   if (!email) return null
   if (usingUpstash) {
     const id = await redis(['GET', emailKey(email)])
@@ -193,6 +257,7 @@ export async function findUserByEmail(email) {
 }
 
 export async function createUser(user) {
+  assertConfigured()
   if (usingUpstash) {
     // Write the account and its email index together, so a crash between the two
     // cannot leave an address pointing at nothing.
@@ -218,6 +283,7 @@ export async function createUser(user) {
 
 /** Patch one account. Only the supplied fields are written. */
 export async function updateUser(id, patch) {
+  assertConfigured()
   if (usingUpstash) {
     const existing = await findUserById(id)
     if (!existing) return null

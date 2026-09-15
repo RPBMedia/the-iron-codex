@@ -1280,7 +1280,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 6. **Sword of St. Maurice (Turin)** — one article, the only unbuilt item from the
    closed Track D. Worth doing because the brief warns it is confused with the
    Reichsschwert, which the archive already has.
-7. **Auth storage hardening** — refuse the JSON-file backend under
+7. ✅ **Done 2026-09-15 (step 3, part 2).** The user store now logs its backend at startup. In production (`NODE_ENV=production` or on Vercel) with no Upstash or Supabase variables, it logs an error and every account operation fails with the reason. It deliberately does not throw at import, because every page runs through the same function. `/api/health` now reports `userStore: { backend, ok, ms }` from a read-only round trip (Upstash PING, or a one-row Supabase select), and returns 503 when degraded. The original item follows. **Auth storage hardening** — refuse the JSON-file backend under
    `NODE_ENV=production` and log the selected backend at startup, so a missing
    Upstash variable fails loudly at deploy instead of at the first user's signup.
    ~30 minutes.
