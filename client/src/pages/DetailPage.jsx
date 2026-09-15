@@ -308,13 +308,15 @@ function StandardHero({ article }) {
 }
 
 // ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ----
-function KnownForBlock({ items }) {
+// Known-for items name people, places and events just as prose does, so they run
+// through the same auto-linker (owner rule, 2026-09-15).
+function KnownForBlock({ items, article }) {
   const list = asList(items)
   if (!list.length) return null
   return (
     <section className="article-section wa-block">
       <h2>Known for</h2>
-      <ul className="wa-knownfor">{list.map((f, i) => <li key={i}>{f}</li>)}</ul>
+      <ul className="wa-knownfor">{list.map((f, i) => <li key={i}>{renderLinkedText(f, article)}</li>)}</ul>
     </section>
   )
 }
@@ -499,7 +501,7 @@ function StandardContent({ article }) {
               article={article}
             />
           )}
-          <KnownForBlock items={article.knownFor} />
+          <KnownForBlock items={article.knownFor} article={article} />
           {article.specs && <WeaponSpecs specs={article.specs} />}
           {sections.slice(1).map((section) => (
             <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
@@ -937,7 +939,7 @@ function LocationContent({ article }) {
           <h2>Known for</h2>
           <ul className="feat-list">
             {asList(article.knownFor).map((fact) => (
-              <li key={fact}>{fact}</li>
+              <li key={fact}>{renderLinkedText(fact, article)}</li>
             ))}
           </ul>
         </section>
@@ -1277,7 +1279,7 @@ function PersonQuickFacts({ article }) {
     { label: 'Realm / polity', value: article.quickFacts?.realm },
     { label: 'Dynasty / house', value: renderDynastyHouse(article) },
     { label: 'Culture', value: article.quickFacts?.culture },
-    { label: 'Known for', value: article.quickFacts?.knownFor }
+    { label: 'Known for', value: renderLinkedText(article.quickFacts?.knownFor, article) }
   ].filter((fact) => fact.value)
 
   return (

@@ -183,6 +183,15 @@ builds a list, filters out empty values and renders nothing when none remain.
 Every section returns null when it has no content. Follow that pattern for any
 new card, and never render a fact unconditionally.
 
+### 5. Every name in a list or fact links, like prose (owner rule, 2026-09-15)
+
+Known-for bullets, the person "Known for" fact, and any other list or fact that
+prints people, places or events must run through the same auto-linker as body
+prose (`renderLinkedText` in `DetailPage.jsx`). Reported on `kingdom-of-hungary`,
+whose Known for named rulers and places that invited a click and went nowhere.
+**How to apply:** a new list or fact surface never renders archive text raw. Pass
+the article, so the subject never links to itself.
+
 ### Bad / Good examples
 
 **Image — Bad:** A Rogaland location card renders a large "IMAGE UNAVAILABLE" block because its image URL (`Special:FilePath/Hafrsfjord_Bru.jpg`) 404s.
@@ -464,6 +473,7 @@ Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succe
 **IronCodex scope — 476 to 1453 (the European Middle Ages):**
 - A ruler whose **relevant reign begins after 1453**, or who belongs **before 476**, is **outside scope**. Do not create an article for them, and do not chain succession into ancient or early-modern history. Mark that endpoint `{ status: "outside-scope", displayName, note }`, naming the ruler and giving the reason ("Reigned from 1481, after IronCodex's 1453 medieval cutoff").
 - A named predecessor/successor **inside** 476–1453 is in-scope and **must** be created as a full Person article and linked — not left as bare text.
+- **1453 wins over any later end date (owner decision, 2026-09-15).** A reign that **begins in or before 1453 is in scope for its whole length**, however late it ends. Mehmed II, sultan again from 1451 to 1481, is in scope, and so is anyone who began to rule in 1453 itself. A reign that begins in 1454 or later is outside scope, whatever a task spec says. That covers Henry IV of Castile (1454), Matthias Corvinus (1458), Ivan III (1462), and John II of Portugal and Hans of Denmark (both 1481): each is an `outside-scope` endpoint, not an article. This binds across the archive, including the complete rulers program (QUEUE 0m), whose spec runs to about 1500.
 
 **Iterative chaining rule:** creating a missing in-scope predecessor/successor produces a **new ruler page, which must itself be audited** for its own predecessor and successor. Continue the chain outward until each end reaches one of: an already-linked ruler, a true first office-holder (`status: "none"`), an unknown/disputed succession (`status`), or a ruler outside the 476–1453 boundary (`status: "outside-scope"`). The Castilian worked example runs Peter of Castile → Henry II → John I → Henry III → John II and stops at Henry IV (r. 1454, outside scope).
 

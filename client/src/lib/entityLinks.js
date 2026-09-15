@@ -518,13 +518,13 @@ export const entityLinks = [
   { label: "Bømlo", type: "location", slug: "bomlo" },
   { label: "Bouvines", type: "location", slug: "bouvines" },
   { label: "Bursa", type: "location", slug: "bursa" },
-  { label: "Byzantine Empire", aliases: ["Eastern Roman Empire"], type: "location", slug: "byzantine-empire" },
+  { label: "Byzantine Empire", aliases: ["Eastern Roman Empire","Byzantium"], type: "location", slug: "byzantine-empire" },
   { label: "Caliphate of Córdoba", aliases: ["Córdoban Caliphate","Caliphate of Cordoba","Umayyad Caliphate of Córdoba"], type: "location", slug: "caliphate-of-cordoba" },
   { label: "Cappadocia", type: "location", slug: "cappadocia" },
   { label: "Carolingian Empire", type: "location", slug: "carolingian-empire" },
   { label: "Chalus", type: "location", slug: "chalus" },
   { label: "Chateau de Vincennes", type: "location", slug: "chateau-de-vincennes" },
-  { label: "Constantinople", aliases: ["Byzantium","New Rome","Konstantinoupolis","Tsargrad","The Queen of Cities","Istanbul"], type: "location", slug: "constantinople" },
+  { label: "Constantinople", aliases: ["New Rome","Konstantinoupolis","Tsargrad","The Queen of Cities","Istanbul"], type: "location", slug: "constantinople" },
   { label: "Copenhagen", type: "location", slug: "copenhagen" },
   { label: "County of Flanders", aliases: ["Flanders"], type: "location", slug: "county-of-flanders" },
   { label: "Covadonga", type: "location", slug: "covadonga" },
@@ -777,6 +777,84 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // Bare "Nicaea" is usually the city: the councils, the crusader siege of 1097,
+    // Orhan's conquest of 1331. Link the Empire of Nicaea only in a paragraph about
+    // the Laskarid state of 1204 to 1261.
+    terms: ["Nicaea"],
+    possibleTargets: [
+      {
+        title: "Empire of Nicaea",
+        label: "Empire of Nicaea",
+        type: "location",
+        slug: "empire-of-nicaea",
+        date: "1204–1261",
+        contextHints: ["Laskaris", "Vatatzes", "Theodore I", "John III", "Michael VIII", "Palaiologos", "1204", "1261", "Epirus", "Trebizond", "Latin Empire", "Pelagonia", "Nymphaion", "successor state"]
+      }
+    ]
+  },
+  {
+    // Only the First Bulgarian Empire has an article. The Second Empire (1185 to 1396)
+    // and Tarnovo Bulgaria must not link to it.
+    terms: ["Bulgaria"],
+    possibleTargets: [
+      {
+        title: "First Bulgarian Empire",
+        label: "First Bulgarian Empire",
+        type: "location",
+        slug: "first-bulgarian-empire",
+        date: "681–1018",
+        contextHints: ["Asparukh", "Tervel", "Krum", "Omurtag", "Boris", "Symeon", "Simeon", "Samuel", "Pliska", "Preslav", "Kleidion", "Basil II", "Nikephoros I", "Achelous"]
+      }
+    ]
+  },
+  {
+    // Four Danish kings bear the name. Cnut the Great ruled England and the North Sea;
+    // Cnut IV (the Holy) and Cnut VI have articles; Canute Lavard has none, so a
+    // paragraph about him links nothing.
+    terms: ["Canute"],
+    possibleTargets: [
+      {
+        title: "Cnut the Great",
+        label: "Cnut the Great",
+        type: "person",
+        slug: "cnut-the-great",
+        date: "d. 1035",
+        contextHints: ["England", "English", "Emma", "Harthacnut", "Harold Harefoot", "Ashingdon", "Æthelred", "Aethelred", "Edmund Ironside", "North Sea", "1016", "1035", "Forkbeard", "Stiklestad", "Helgeå"]
+      },
+      {
+        title: "Cnut IV of Denmark",
+        label: "Cnut IV of Denmark",
+        type: "person",
+        slug: "cnut-iv-of-denmark",
+        date: "d. 1086",
+        contextHints: ["the Holy", "Saint Canute", "Odense", "1085", "1086", "Harald III", "Sweyn II", "Estridsen", "Oluf Hunger", "Olaf I of Denmark"]
+      },
+      {
+        title: "Cnut VI of Denmark",
+        label: "Cnut VI of Denmark",
+        type: "person",
+        slug: "cnut-vi-of-denmark",
+        date: "d. 1202",
+        contextHints: ["Absalon", "1182", "1202", "Lübeck", "Bogislaw", "Valdemar II"]
+      }
+    ]
+  },
+  {
+    // "Leo III" is also Pope Leo III, who crowned Charlemagne in 800. Link the
+    // emperor only where the paragraph is about him.
+    terms: ["Leo III"],
+    possibleTargets: [
+      {
+        title: "Leo III",
+        label: "Leo III",
+        type: "person",
+        slug: "leo-iii-the-isaurian",
+        date: "d. 741",
+        contextHints: ["Isaurian", "Constantine V", "Akroinon", "717", "718", "Maslama", "Theodosius III", "Anastasios II", "iconoclasm", "Iconoclasm", "Ecloga", "emperor Leo"]
+      }
+    ]
+  },
   {
     // Two empresses share the name: Justinian I's wife and Theophilos's, regent 842–856.
     // Other Theodoras (Komnene, Kantakouzene, the last Macedonian) have no article.
