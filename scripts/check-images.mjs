@@ -8,6 +8,13 @@ import { loadArchive } from '../server/data/archive.mjs'
 // declaration further down the file is initialised.
 const vagueCaptionBaseline = new Set(JSON.parse(fs.readFileSync(new URL('./lib/vague-caption-baseline.json', import.meta.url), 'utf8')))
 const vagueCaptionsSeen = new Set()
+// Every kingdom-type article carries an arms panel (QUEUE 0d, owner request
+// 2026-09-15): attested arms, or for a polity without heraldry an attested emblem
+// captioned that it bore no coat of arms. The polities not done yet are listed in
+// lib/polity-arms-backlog.json, which only shrinks, like the vague-caption baseline.
+const polityArmsBacklog = new Set(JSON.parse(fs.readFileSync(new URL('./lib/polity-arms-backlog.json', import.meta.url), 'utf8')))
+const polityArmsSeen = new Set()
+const polityLocationTypePattern = /^(kingdom|empire|caliphate|sultanate|principality|grand duchy|duchy|county|khanate|despotate|polity|imperial realm|league|military order|region \/ duchy)$/i
 
 const repoRoot = new URL('..', import.meta.url)
 const data = loadArchive()
@@ -164,6 +171,17 @@ for (const [collection, entries] of Object.entries(data)) {
       validateMedievalLocationImage(article, entry, primaryImageField)
     }
 
+    if (collection === 'locations' && polityLocationTypePattern.test(String(entry.locationType ?? '').trim())) {
+      polityArmsSeen.add(entry.id)
+      const listed = polityArmsBacklog.has(entry.id)
+      if (!stringValue(entry.armsImage) && !listed) {
+        addFinding(collection, article, 'armsImage', 'kingdom-type article has no arms panel: add attested arms, or for a polity without heraldry an attested emblem whose caption says it bore no coat of arms (QUEUE 0d)')
+      }
+      if (stringValue(entry.armsImage) && listed) {
+        addFinding('baseline', 'polity-arms-backlog.json', 'entry', `${entry.id} now has an arms panel; remove it from the backlog`)
+      }
+    }
+
     ;(entry.sectionImages ?? []).forEach((image, imageIndex) => {
       validateImageReference({
         collection,
@@ -249,6 +267,9 @@ if (checkRemote) {
   await validateRemoteImages()
 }
 
+for (const id of polityArmsBacklog) {
+  if (!polityArmsSeen.has(id)) addFinding('baseline', 'polity-arms-backlog.json', 'entry', `listed polity is not a kingdom-type location any more; remove it from the backlog: ${id}`)
+}
 for (const key of staleVagueCaptionBaseline()) {
   addFinding('baseline', 'vague-caption-baseline.json', 'entry', `listed vague caption no longer exists; remove it from the baseline: ${key}`)
 }

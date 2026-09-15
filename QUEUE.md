@@ -1428,7 +1428,25 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **Maps:** each leads with a map. The kept maps got real metadata; Northumbria's and the North Sea Empire's broken thumbnail and source links were fixed. Carolingian's modern-borders locator and the modern Normandy and Flanders flags were dropped.
    - **Arms panel:** heraldic arms only where attested (Aquitaine, Normandy, Flanders, the Latin Empire). Every non-heraldic polity instead shows a coin or object of its own with a caption saying it bore no arms: a Frankish solidus, a Carolingian denier, pennies of Alfred and Eadberht, a Cnut penny, a solidus of Constans II, a hyperpyron of John III Vatatzes, an aspron trachy, the Cross of Victory, dinars and dirhams.
    - **Open item:** `England_878.svg` now leads both `kingdom-of-wessex` and `danelaw`, and is a section image on `kingdom-of-england`. Give one of them a different map.
-   The batch 3 polities (approved 2026-09-15): `frankish-kingdom`, `carolingian-empire`, `kingdom-of-wessex`, `northumbria`, `aquitaine`, `duchy-of-normandy`, `county-of-flanders`, `north-sea-empire`, `byzantine-empire`, `empire-of-nicaea`, `latin-empire`, `despotate-of-epirus`, `kingdom-of-asturias`, `caliphate-of-cordoba`, `umayyad-caliphate` and `almohad-caliphate`. Polities without heraldry get an attested emblem, with a caption saying plainly that they bore no arms. **Still to do:** the rest, then the `check-images` gate and the no-heraldry allowlist.
+   The batch 3 polities (approved 2026-09-15): `frankish-kingdom`, `carolingian-empire`, `kingdom-of-wessex`, `northumbria`, `aquitaine`, `duchy-of-normandy`, `county-of-flanders`, `north-sea-empire`, `byzantine-empire`, `empire-of-nicaea`, `latin-empire`, `despotate-of-epirus`, `kingdom-of-asturias`, `caliphate-of-cordoba`, `umayyad-caliphate` and `almohad-caliphate`. Polities without heraldry get an attested emblem, with a caption saying plainly that they bore no arms. **BATCH 4a SHIPPED 2026-09-15, night (owner away): 36 of 54 done.**
+   - `grand-duchy-of-lithuania`: map of the 13th–15th centuries; Vytautas's equestrian seal.
+   - `kalmar-union`: a legible map of 1397–1523 replaces an unlabelled locator; union arms after Eric of Pomerania's seal.
+   - `kievan-rus`: English-language map; a coin of Volodymyr the Great, captioned that the realm bore no arms.
+   - `principality-of-serbia`: 1355 relief map; the Despot's arms from the Prague Richental manuscript, cropped to the heading and shield.
+
+   **Batch 4b is being drafted:** `vandal-kingdom`, `mongol-empire` and `sasanian-empire`, whose leading maps are washed out (found by the 0p border scan). **Batch 4c is being drafted:** `ottoman-empire`, `seljuk-turks`, `sultanate-of-rum`, `ayyubid-sultanate` and `rashidun-caliphate`. Emblems come from coins or tughras, and bare locator maps are replaced.
+   **Gate shipped (2026-09-15, night):** `check-images` fails on a kingdom-type location without an arms panel. The 18 still to do are in `scripts/lib/polity-arms-backlog.json`, a shrink-only list: a listed polity that gains a panel must leave the list. No separate no-heraldry allowlist was needed, because those polities carry an emblem in the same panel.
+   **Still to do:** the last 10 polities without an arms panel. Several of these lead with a non-map image that becomes a section image.
+   - `lombard-league`
+   - `mecklenburg`
+   - `ostrogothic-kingdom`
+   - `abbasid-caliphate`
+   - `first-bulgarian-empire`
+   - `pechenegs`
+   - `cumans`
+   - `principality-of-achaea`
+   - `kingdom-of-east-anglia`
+   - `kingdom-of-york`
 0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
    `iron-codex-civilizations-master-prompt.md` in the repo root (3,429 lines;
