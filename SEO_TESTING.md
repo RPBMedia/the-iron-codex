@@ -1,5 +1,9 @@
 # How to check the SEO is actually working
 
+> **Status 2026-09-15:** Google Search Console and Bing setup are done. The page
+> counts below are out of date: the archive now has 839 articles and 856 sitemap
+> URLs. The checks themselves still apply.
+
 Written for someone who has not done SEO before. Nothing here needs paid tools.
 
 There are **three levels**, and they answer different questions:

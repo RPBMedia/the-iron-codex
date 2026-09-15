@@ -1,5 +1,10 @@
 # Houses / Dynasties — Feature Plan (M0)
 
+> **Status 2026-09-15: done.** M0 to M5 shipped, and 70 houses are in the archive.
+> Four roster houses never got articles: Ottonian/Salian, Habsburg, the House of
+> Barcelona and Piast. They are tracked in QUEUE 0m, which needs them. The setup
+> notes below are stale; this file stays as the design record for the houses feature.
+
 A new **Houses** archive: noble dynasties and ruling lineages of the European
 Middle Ages (House of Plantagenet, Capet, Hauteville, Habsburg, Rurikid, …).
 Houses sit as a **sixth collection** beside `events`, `characters`, `locations`,

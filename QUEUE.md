@@ -12,7 +12,18 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15. Queued 0m, the complete medieval rulers program (spec in the repo root; M0 comes first). Earlier, with the owner away, these shipped and were verified live: the Insights per-bar tooltip and accounts-created series; monuments leading for yusuf-ibn-tashfin, muhammad-al-nasir and baraka-khan, with Baraka's death place corrected to Kerak; 0d kingdoms batches 1 and 2, maps and arms for 16 kingdoms, plus the Navarre chains legend fix. Also new: the Siege of Sidon (1110), 11,000 characters, and a Sidon city page, 7,400 characters with 14 timeline entries. Sigurd's prose and timeline now link the siege, and 'siege of sidon' is off BATTLE_BACKLOG. **Next: the owner reviews the away-mode test suite and answers the compiled questions** (al-Adil II and al-Mansur Ali, the Denmark diocesan map, the md-file deletions, the next kingdom batches) before more bulk work. Previously 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+_Last updated: 2026-09-15, evening.
+
+**Owner answers on the away-mode questions:**
+- 1453 wins, and CLAUDE.md now says so.
+- Kingdoms batch 3 and city batch 3 are approved.
+- Harald Greycloak gets a monument image.
+- Favourites are charted by period.
+- The three finished markdown files are deleted.
+
+The owner also reported four fixes, listed under 0n. Known-for linking ships first.
+
+Before that, 0m was queued: the complete medieval rulers program, with its spec in the repo root and M0 first. Earlier, with the owner away, these shipped and were verified live: the Insights per-bar tooltip and accounts-created series; monuments leading for yusuf-ibn-tashfin, muhammad-al-nasir and baraka-khan, with Baraka's death place corrected to Kerak; 0d kingdoms batches 1 and 2, maps and arms for 16 kingdoms, plus the Navarre chains legend fix. Also new: the Siege of Sidon (1110), 11,000 characters, and a Sidon city page, 7,400 characters with 14 timeline entries. Sigurd's prose and timeline now link the siege, and 'siege of sidon' is off BATTLE_BACKLOG. **Next: the owner reviews the away-mode test suite and answers the compiled questions** (al-Adil II and al-Mansur Ali, the Denmark diocesan map, the md-file deletions, the next kingdom batches) before more bulk work. Previously 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -420,8 +431,9 @@ of the coverage-gap list — do not create proposed new subjects without it.**
       flagged `aiGenerated`, disclose themselves in the caption's first sentence,
       and record why — verified programmatically, enforced by `check:images`.
       **They are placeholders**: per CLAUDE.md a real photograph always takes
-      precedence, so re-check them whenever a new source opens up. Prompts are in
-      `WEAPONS_ARMOR_AI_PROMPTS.md`.
+      precedence, so re-check them whenever a new source opens up. The prompts were in
+      `WEAPONS_ARMOR_AI_PROMPTS.md`, deleted 2026-09-15 once all eight had shipped.
+      Recover them with `git show f8ee419:WEAPONS_ARMOR_AI_PROMPTS.md`.
 
       **Review caught one failure before it shipped:** war-bow v1 had the yew
       sapwood and heartwood inverted (pale sapwood on the belly instead of the
@@ -464,11 +476,12 @@ of the coverage-gap list — do not create proposed new subjects without it.**
 
       **Not verified in a browser** (no local dev servers). Gates run: production
       build, `check:images`, `check:content-quality`. Needs visual QA on live.
-- [ ] **M5 — Editorial audit + rewrite** — **PARKED (owner, 2026-09-07): not
-      being worked for now.** Batches 1 and 2 shipped; batches 3–7 and the
+- [x] **M5 — Editorial audit + rewrite: DONE.** Batches 3 to 5 shipped in `1574850`,
+      `8de4561` and `278ad22`, and `7354271` turned on `validateWeaponsArmorDepth`.
+      It had been parked by the owner on 2026-09-07; the notes below are history. Batches 1 and 2 shipped; batches 3–7 and the
       `validateWeaponsArmorDepth` rule are on hold, not cancelled. Everything
-      below is preserved so it can be resumed from `main` alone. Audit delivered:
-      `WEAPONS_ARMOR_EDITORIAL_AUDIT.md`.
+      below is preserved so it can be resumed from `main` alone. The audit file,
+      `WEAPONS_ARMOR_EDITORIAL_AUDIT.md`, was deleted 2026-09-15, and its open items moved to the W&A backlog.
       **The archive fails its own documented standard in 40 of 42 articles.**
       CLAUDE.md requires 5+ sections of 3+ substantial paragraphs, seven mandated
       topics, and at least one named battle/person/museum object per article. The
@@ -536,6 +549,9 @@ of the coverage-gap list — do not create proposed new subjects without it.**
   that credits a 20th-century replica to an "Anglo-Saxon (East Anglian) smith".
   `ulfberht-swords` needs a complete representative blade; the current hilt
   close-up becomes secondary evidence for the inscription.
+  **Moved here 2026-09-15 from the deleted audit and coverage-gap files:**
+  - `ulfberht-swords` is typed `Famous weapon` but covers a group of about 170 blades. Decide whether a group label belongs under the named-artifact type.
+  - Four optional artifact articles were never built: the Mammen axe, the Seax of Beagnoth, the Conyers Falchion and the Coventry Sallet.
 - **DOCUMENTATION REVIEW / borderline (9):** `bascinet` (aged, photographed on a
   windowsill beside a radiator), `falchion` (aged, B&W), `brigandine` (faded),
   `hauberk` (damaged hem), `battle-axe`, `crossbow` (display case, angled, glass),
@@ -976,12 +992,16 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `bursa`, each 6,800–8,300 chars with a timeline of 12–17 entries and 2–4 images.
    Every main image is a pre-1900 view of the whole place, checked by an
    independent reviewer (one Westminster caption corrected). All 33 image URLs load.
-   Next candidates, by inbound links among locations still under 5,000:
-   `stockholm`, `bergen`, `gascony`, `covadonga`, `kingdom-of-asturias`,
-   `caliphate-of-cordoba`, `winchester-cathedral`, `kosovo-field`,
-   `chateau-de-vincennes`, `monmouth`. Side finding: `locationType`
+   **Batch 3 approved 2026-09-15 (owner: "YES!") and in progress:** `stockholm`, `bergen`, `gascony`, `covadonga`, `winchester-cathedral`, `kosovo-field`, `chateau-de-vincennes`, `monmouth`, `stamford-bridge`, `hastings`. `kingdom-of-asturias` and `caliphate-of-cordoba` moved to 0d batch 3, so no two agents write the same article. `papacy` (32 inbound links, 3,621 chars) is an institution, not a place, so it stays with item 1. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
+   1. **Known for must link: "a big one".** Names, places and events in any article's Known for must be navigable, like body prose. Reported on `kingdom-of-hungary`. Shipping first: the W&A block, the location and polity list, and the person fact card all run through `renderLinkedText`, and CLAUDE.md §5 makes it a rule.
+   2. **Insights: the accounts-created chart runs past the dark page area** onto the light footer. Next ship.
+   3. **`baraka-khan`'s death place, Kerak, has no page.** A full `kerak` article is being drafted. The death place gains its link when that article ships.
+   4. **`kingdom-of-jerusalem`'s Conder map is unreadable.** A replacement is being chosen, and it doubles as the 0k base map for the region.
+
+   **Recommendation awaiting the owner:** run the unit tests in the deploy build. Add `node scripts/run-tests.mjs` to `vercel.json`'s buildCommand and pin `engines.node` to `22.x`, so the Node version is fixed rather than "anything that satisfies >=20". `run-tests.mjs` exists because the shell-glob form once failed on Vercel, so the known risk is already handled.
 0m. **OWNER REQUEST 2026-09-15: THE COMPLETE MEDIEVAL RULERS PROGRAM. The largest content program yet, split into milestones, with the audit done before any writing.** The full spec is `iron_codex_complete_medieval_rulers_program.md` in the repo root (100 sections, 2,495 lines). Read all of it before planning any milestone. The goal is a full article for every attested sovereign or substantively governing ruler of every in-scope medieval polity. Each article links into its house, family tree, realm, predecessor and successor chain, wars and battles, with no duplicate identities.
 
    **Starting point (measured 2026-09-15):**
@@ -989,6 +1009,11 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **297 of the 316 are under the spec's 5,000-character prose minimum**, 24 of them under 2,000. Almost every existing ruler is therefore `exists-needs-enrichment`.
    - 89 succession endpoints are still unlinked names, which gives a ready-made Tier II list.
    - The target is roughly 2,500 to 3,500 in-scope candidates. That is a guess, to be replaced by the registry's real count.
+
+   **Settled 2026-09-15:**
+   1. 1453 wins, and CLAUDE.md now says so: a reign that begins in or before 1453 is covered to its end, and later reigns are `outside-scope`.
+   2. Depth tiers are agreed, main rulers first.
+   3. The data split is still open.
 
    **Three owner decisions before M2 writes a single article:**
    1. **Scope conflict.** The spec runs to the end of the fifteenth century "with sensible overlap". CLAUDE.md scopes the archive to 476–1453 and marks later reigns `outside-scope`. This decides Matthias Corvinus (from 1458), the later Sforza, Ivan III, most of the Aviz and Kalmar rulers, and Mehmed II after 1453. Move the boundary to 1500, or keep 1453 with the existing overlap exception?
@@ -1064,6 +1089,8 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - The rendering: plain SVG, or a light d3-geo projection.
 
    **Gate once it exists:** every city-type location has coordinates and renders a map.
+
+   **Owner decision 2026-09-15:** the map shows the medieval polity, not the modern country. Sidon gets the Kingdom of Jerusalem, not Lebanon. One high-quality regional map with well-readable city names may be reused for every city in that region. This replaces the modern-borders recommendation above wherever a city lies inside a mapped medieval polity. The Kingdom of Jerusalem map now being chosen, to replace the rejected Conder plate, is the first candidate base map.
 0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
    - **Birth and death places normalised:** 116 plain-text places became
      `{ name }` objects, and the 35 whose text exactly names a location article now
@@ -1122,12 +1149,12 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
      finished work.
    This includes pruning finished entries out of `QUEUE.md` itself, which has grown
    to about 2,000 lines. Candidates as of today, with the date each last changed:
-   - `HOUSES_PLAN.md` (2026-08-15)
-   - `WEAPONS_ARMOR_EDITORIAL_AUDIT.md` (09-06)
-   - `WEAPONS_ARMOR_AI_PROMPTS.md` (09-06)
-   - `WEAPONS_ARMOR_COVERAGE_GAPS.md` (09-07)
-   - `SEO_TESTING.md` (09-08)
-   - `MARKETING.md` (09-08)
+   - `HOUSES_PLAN.md` (2026-08-15): **marked done 2026-09-15.** Its 4 missing houses are tracked in 0m.
+   - `WEAPONS_ARMOR_EDITORIAL_AUDIT.md` (09-06): **deleted 2026-09-15.** Its open items are in the W&A backlog.
+   - `WEAPONS_ARMOR_AI_PROMPTS.md` (09-06): **deleted 2026-09-15.** All eight images shipped.
+   - `WEAPONS_ARMOR_COVERAGE_GAPS.md` (09-07): **deleted 2026-09-15.** Every recommended tier shipped.
+   - `SEO_TESTING.md` (09-08): kept as reference, with setup marked done.
+   - `MARKETING.md` (09-08): kept, because it is still open.
    - `CONTENT_GUIDELINES.md` (06-20; a standards file, so check whether `CLAUDE.md`
      has absorbed it rather than whether it is "done")
    Out of scope, since they are not work lists: `README.md`, the `.claude/agents/*.md`
@@ -1182,7 +1209,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    checked, including the Fitjar battle scene. In the Gunnhild scene he is only one of
    several sons, so it is weak as a likeness. Decide between that and an
    associated site (Hals on the Limfjord, where he was killed) under the
-   associated-monument rule.
+   associated-monument rule. **Owner decision 2026-09-15: the monument image, for now.** An agent is drafting it.
 0b. ✅ **Done 2026-09-15: `danelaw`, `kingdom-of-york`, `kingdom-of-east-anglia`
    and `great-heathen-army`** (owner's choice: the Danelaw plus core neighbours;
    Mercia, Æthelflæd and the treaty of Alfred and Guthrum stay named without links
@@ -1274,7 +1301,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    a coin) and say plainly that the polity had no arms. Once done, gate it in
    `check-images.mjs` for kingdom-type locations, with an allowlist for the
    no-heraldry polities.
-   **BATCH 1 SHIPPED 2026-09-15 (owner away), 12 kingdoms:** Poland, Hungary, Sicily, Jerusalem, England, Scotland, France, Holy Roman Empire, Castile, León, Aragon and Navarre. Each now leads with a territory map (a pre-1900 atlas plate or a modern reconstruction, captioned as such) and shows its period arms in the arms panel (`armsImage`, rendered by `ArmsImage` in DetailPage). Replaced main images that were still good (Stephen I in the Chronicon Pictum, the Cappella Palatina, the 878 and Strathclyde maps, Alfonso IX in the Tumbo A) moved to section images. Two were dropped: France's Bourbon royal standard of 1638–1790, whose source link was broken, and Navarre's undated modern flag. The same ship corrected Navarre's prose and timeline, which had stated the Las Navas chains legend as fact. Every image was viewed by the agent that chose it. **BATCH 2 SHIPPED 2026-09-15 (owner away), 4 kingdoms:** Portugal (Shepherd 1911, quinas with the castle bordure of Afonso III), Denmark (Spruner-Menke diocesan map of 1880 plus the lions of Canute VI; the map is of dioceses, which the caption says), Norway (a reconstruction of about 1265 plus the lion with Saint Olaf's axe of about 1280) and Sweden (a reconstruction of 1323 plus the Folkung lion). Three were dropped: the modern locator maps for Denmark and Norway, and Brenner's tiny 1705 coin engraving for Sweden. Portugal's illuminated genealogy moved to "Major rulers". **16 of about 54 done. Still to do:** the rest, then the `check-images` gate and the no-heraldry allowlist.
+   **BATCH 1 SHIPPED 2026-09-15 (owner away), 12 kingdoms:** Poland, Hungary, Sicily, Jerusalem, England, Scotland, France, Holy Roman Empire, Castile, León, Aragon and Navarre. Each now leads with a territory map (a pre-1900 atlas plate or a modern reconstruction, captioned as such) and shows its period arms in the arms panel (`armsImage`, rendered by `ArmsImage` in DetailPage). Replaced main images that were still good (Stephen I in the Chronicon Pictum, the Cappella Palatina, the 878 and Strathclyde maps, Alfonso IX in the Tumbo A) moved to section images. Two were dropped: France's Bourbon royal standard of 1638–1790, whose source link was broken, and Navarre's undated modern flag. The same ship corrected Navarre's prose and timeline, which had stated the Las Navas chains legend as fact. Every image was viewed by the agent that chose it. **BATCH 2 SHIPPED 2026-09-15 (owner away), 4 kingdoms:** Portugal (Shepherd 1911, quinas with the castle bordure of Afonso III), Denmark (Spruner-Menke diocesan map of 1880 plus the lions of Canute VI; the map is of dioceses, which the caption says), Norway (a reconstruction of about 1265 plus the lion with Saint Olaf's axe of about 1280) and Sweden (a reconstruction of 1323 plus the Folkung lion). Three were dropped: the modern locator maps for Denmark and Norway, and Brenner's tiny 1705 coin engraving for Sweden. Portugal's illuminated genealogy moved to "Major rulers". **16 of 54 done. Batch 3 is in progress (owner: yes, 2026-09-15):** `frankish-kingdom`, `carolingian-empire`, `kingdom-of-wessex`, `northumbria`, `aquitaine`, `duchy-of-normandy`, `county-of-flanders`, `north-sea-empire`, `byzantine-empire`, `empire-of-nicaea`, `latin-empire`, `despotate-of-epirus`, `kingdom-of-asturias`, `caliphate-of-cordoba`, `umayyad-caliphate` and `almohad-caliphate`. Polities without heraldry get an attested emblem, with a caption saying plainly that they bore no arms. **Still to do:** the rest, then the `check-images` gate and the no-heraldry allowlist.
 0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
    `iron-codex-civilizations-master-prompt.md` in the repo root (3,429 lines;
@@ -1349,7 +1376,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### INSIGHTS — three additions (queued 2026-09-11). **#1 SHIPPED 2026-09-15; #2 and #3 wait on the owner**
 
-**#1 is done.** `/api/insights` now returns `accounts: { available, total, daily }`. The data comes from each account's `createdAt` in the user store (`listAccountCreatedDates`), bucketed with the same `day()` and `lastDays()` as views. A user-store failure reports the series as unavailable and never blanks the views. The page shows the total and a daily chart. **#2 (favourites) needs the owner's choice** between an "all time" card and timestamped favourite events. **#3 needs Search Console data.** Both are on the owner's question list.
+**#1 is done.** `/api/insights` now returns `accounts: { available, total, daily }`. The data comes from each account's `createdAt` in the user store (`listAccountCreatedDates`), bucketed with the same `day()` and `lastDays()` as views. A user-store failure reports the series as unavailable and never blanks the views. The page shows the total and a daily chart. **#2 (favourites): the owner chose on 2026-09-15 to chart them by period.** Record timestamped favourite events; the series starts empty on the day it ships. **#3 needs Search Console data** and is still an open question.
 
 ### INSIGHTS — three additions (queued 2026-09-11, NOT started)
 
