@@ -331,6 +331,7 @@ export const entityLinks = [
   { label: "Pope Gregory IX", aliases: ["Gregory IX","Ugolino di Conti","Hugolino of Segni"], type: "person", slug: "pope-gregory-ix" },
   { label: "Pope Innocent III", aliases: ["Innocent III","Lotario dei Conti di Segni"], type: "person", slug: "pope-innocent-iii" },
   { label: "Pope John XXII", aliases: ["John XXII","Jacques Duèze","Jacques d’Euse"], type: "person", slug: "pope-john-xxii" },
+  { label: "Pope Leo III", aliases: ["Saint Leo III","Pope Saint Leo III","Leone III"], type: "person", slug: "pope-leo-iii" },
   { label: "Pope Urban II", aliases: ["Urban II","Odo of Chatillon"], type: "person", slug: "pope-urban-ii" },
   { label: "Prince Lazar", aliases: ["Lazar Hrebeljanovic"], type: "person", slug: "prince-lazar" },
   { label: "Princess Milica of Serbia", aliases: ["Milica","Milica Hrebeljanović"], type: "person", slug: "milica-of-serbia" },
@@ -842,8 +843,11 @@ export const ambiguousEntityAliases = [
     ]
   },
   {
-    // "Leo III" is also Pope Leo III, who crowned Charlemagne in 800. Link the
-    // emperor only where the paragraph is about him.
+    // "Leo III" is two men: the emperor Leo III the Isaurian (717–741) and Pope
+    // Leo III (795–816), who crowned Charlemagne in 800. Link each only where the
+    // paragraph is recognisably about him; "Pope Leo III" links by its own label.
+    // "Hieria" and "veneration of images" keep the constantine-v iconoclasm
+    // paragraph ("without the Pope ... under Leo III") on the emperor.
     terms: ["Leo III"],
     possibleTargets: [
       {
@@ -852,7 +856,15 @@ export const ambiguousEntityAliases = [
         type: "person",
         slug: "leo-iii-the-isaurian",
         date: "d. 741",
-        contextHints: ["Isaurian", "Constantine V", "Akroinon", "717", "718", "Maslama", "Theodosius III", "Anastasios II", "iconoclasm", "Iconoclasm", "Ecloga", "emperor Leo"]
+        contextHints: ["Isaurian", "Constantine V", "Akroinon", "717", "718", "Maslama", "Theodosius III", "Anastasios II", "iconoclasm", "Iconoclasm", "Ecloga", "emperor Leo", "Hieria", "veneration of images"]
+      },
+      {
+        title: "Pope Leo III",
+        label: "Pope Leo III",
+        type: "person",
+        slug: "pope-leo-iii",
+        date: "d. 816",
+        contextHints: ["Pope", "Charlemagne", "coronation", "800", "Saint Peter", "Paderborn", "Paschal", "pallium", "Lateran"]
       }
     ]
   },

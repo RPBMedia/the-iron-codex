@@ -1091,7 +1091,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
       2. Where an image shows the wrong subject, replace it with a real depiction under the person-image rules: manuscript, effigy, seal, portrait coin or later artwork, captioned honestly. Louis IX has many good ones (the Bible of Saint Louis, the Joinville manuscripts, the Saint-Louis statue at Mainneville).
       3. Rewrite every caption and note to say specifically what the image is.
       4. **Gate:** make `check-images.mjs` hard-fail on the caption "in a medieval or later historical depiction" and on that stock note, so the template cannot come back.
-   5. **A `pope-leo-iii` article (owner: yes, 2026-09-15).** No Pope Leo III article exists, so since the Known-for ship "Pope Leo III" on `charlemagne-crowned` and the Charlemagne pages links to nothing. Before that fix it linked wrongly to the emperor Leo III the Isaurian. Build a full Person article, not a stub:
+   5. **SHIPPED 2026-09-15, night (owner away): `pope-leo-iii`.**
+      - **Size:** 11 sections, about 17,500 characters, and a 14-entry timeline.
+      - **Images:** the main image is his gilded figure on the Aachen Marienschrein (1238), because the owner rule wants the subject large. The Lateran triclinium mosaic, the 1743 remake, sits beside the coronation, and the 1375–1380 miniature of the 799 assault beside Paderborn.
+      - **Links:** 8 related entries, all reciprocal. The `"Leo III"` guard now has both targets, with "Hieria" and "veneration of images" added so Constantine V's iconoclasm paragraph stays on the emperor.
+      - **Left out as unsupported:** the brief's "letter to Offa"; the English material is the 798 Coenwulf correspondence and Clovesho 803.
+
+      The original brief follows. **A `pope-leo-iii` article (owner: yes, 2026-09-15).** No Pope Leo III article exists, so since the Known-for ship "Pope Leo III" on `charlemagne-crowned` and the Charlemagne pages links to nothing. Before that fix it linked wrongly to the emperor Leo III the Isaurian. Build a full Person article, not a stub:
       - The main image is a depiction of him, such as the contemporary Lateran triclinium mosaic or a manuscript. Commons search comes first.
       - Required: Character and Personality, a timeline of at least 5 entries, sources, and related entries covering at least `charlemagne`, `charlemagne-crowned`, `papacy` and `rome`.
       - Popes are not rulers in this pass, so there is no succession box.
