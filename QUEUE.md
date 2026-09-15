@@ -1001,7 +1001,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    3. **`baraka-khan`'s death place, Kerak, has no page.** A full `kerak` article is being drafted. The death place gains its link when that article ships.
    4. **`kingdom-of-jerusalem`'s Conder map is unreadable.** A replacement is being chosen, and it doubles as the 0k base map for the region.
 
-   **Recommendation awaiting the owner:** run the unit tests in the deploy build. Add `node scripts/run-tests.mjs` to `vercel.json`'s buildCommand and pin `engines.node` to `22.x`, so the Node version is fixed rather than "anything that satisfies >=20". `run-tests.mjs` exists because the shell-glob form once failed on Vercel, so the known risk is already handled.
+   **Done 2026-09-15 (owner: yes):** unit tests now run in the deploy build. Node is pinned to 24.x, matching the Vercel project setting. The first attempt (`ec64dce`) pinned 22.x, which Vercel rejected before the build started (a 0 ms build). The whole chain passes locally on both 22 and 24. The original recommendation follows. Run the unit tests in the deploy build. Add `node scripts/run-tests.mjs` to `vercel.json`'s buildCommand and pin `engines.node` to `22.x`, so the Node version is fixed rather than "anything that satisfies >=20". `run-tests.mjs` exists because the shell-glob form once failed on Vercel, so the known risk is already handled.
 0m. **OWNER REQUEST 2026-09-15: THE COMPLETE MEDIEVAL RULERS PROGRAM. The largest content program yet, split into milestones, with the audit done before any writing.** The full spec is `iron_codex_complete_medieval_rulers_program.md` in the repo root (100 sections, 2,495 lines). Read all of it before planning any milestone. The goal is a full article for every attested sovereign or substantively governing ruler of every in-scope medieval polity. Each article links into its house, family tree, realm, predecessor and successor chain, wars and battles, with no duplicate identities.
 
    **Starting point (measured 2026-09-15):**
@@ -1013,7 +1013,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Settled 2026-09-15:**
    1. 1453 wins, and CLAUDE.md now says so: a reign that begins in or before 1453 is covered to its end, and later reigns are `outside-scope`.
    2. Depth tiers are agreed, main rulers first.
-   3. The data split is still open.
+   3. **The data split: owner said go on 2026-09-15.** It runs as M1 before any bulk writing. The plan is under M1 below.
 
    **Three owner decisions before M2 writes a single article:**
    1. **Scope conflict.** The spec runs to the end of the fifteenth century "with sensible overlap". CLAUDE.md scopes the archive to 476–1453 and marks later reigns `outside-scope`. This decides Matthias Corvinus (from 1458), the later Sforza, Ivan III, most of the Aviz and Kalmar rulers, and Mehmed II after 1453. Move the boundary to 1500, or keep 1453 with the existing overlap exception?
@@ -1037,7 +1037,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
    **Milestones:**
    - **M0: reconnaissance and decisions, no content.** A conventions summary (§69.1) covering the person schema, succession, houses and family trees, the People index and its filters, link helpers, image rules and existing audit scripts. The owner answers the three decisions above.
-   - **M1: scale infrastructure.**
+   - **M1: scale infrastructure.** **Data-split plan (2026-09-15).** Recon found 188 files reading `server/data/history.json`. About 170 of them are one-off `add-*`, `fix-*`, `rewrite-*` and `upgrade-*` scripts that already ran. The live readers are `server/index.js`, the gates (`check-content-quality`, `check-images`, `check-seo`), `prerender`, `build-topics`, `gen-entity-links`, `update-content-dates`, `make-og-images`, the `audit-*` and `link-*` tools, and `tests/page-meta.test.mjs`. The server parses the whole file into memory (`historyData()`), and Vercel ships it via `includeFiles`. Steps, one ship each:
+     1. A shared loader `server/data/archive.mjs` (`loadArchive()` returns today's `{ events, characters, … }` shape, plus `saveArticle()` and `saveArchive()`) over one file per article in `server/data/articles/<collection>/<id>.json`, created by a split script. A test proves the reassembled archive deep-equals `history.json`.
+     2. Switch every live reader to the loader, then delete `history.json`. Move the one-off scripts to `scripts/archive/` unchanged, so nobody reruns them against the new layout.
+     3. Server: a generated `index.json` with the card fields that lists, search, related-entry, dynasty and continuity resolution need. Detail pages read one article file through an in-memory LRU cache, and `includeFiles` becomes `server/data/**`.
+     4. Measure build, prerender and cold start at the real count and at 2× and 4× synthetic counts, and record the numbers here.
+
+     Then come the People index pagination, filters and family-tree branching (below).
      - Split the data store.
      - Measure build and prerender time at 2× and 4× the article count.
      - Make the People index pagination and its ruler, realm, dynasty and century filters ready for thousands of people.
@@ -1195,7 +1201,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
    **Worth a gate next:** fail on any spouse node without `personSlug`, so the
    trees cannot regress. Not built; propose it to the owner first.
-0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** The
+0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** **Resolution drafted:** the owner left the photo choice to the assistant. Of the Hals candidates, `Hals Limfjorden1.jpg` (the inlet with fishing nets; public domain) has the best overall quality. The rest show modern tankers, a cruise ship or hazy nets. Module `b14/harald-greycloak.mjs`; ships after the owner confirms the current ship. The
    lead is Christian Krohg's 1899 Heimskringla vignette "Olav Tryggvasons saga -
    Harald Graafell - c. Krohg.jpg", a low-quality drawing of ships at sea with no
    visible Harald. It breaks the rule that a person's main image must depict the
