@@ -513,6 +513,12 @@ export const TOPICS = [
           "name": "Recovery of Constantinople",
           "depth": 1,
           "summary": "On 25 July 1261 a Byzantine force of about eight hundred men walked into Constantinople through an undefended gate while the Latin fleet was away. The empire was restored without a battle."
+        },
+        {
+          "id": "siege-of-sidon-1110",
+          "name": "Siege of Sidon (1110)",
+          "depth": 1,
+          "summary": "Baldwin I of Jerusalem and Sigurd the Crusader took the Fatimid port of Sidon on 4 December 1110 after a siege of about 47 days, the king's army attacking from the land while the Norwegian fleet, joined by the Venetians, held the sea."
         }
       ],
       "locations": [
@@ -629,6 +635,12 @@ export const TOPICS = [
           "name": "Seljuk Turks",
           "depth": 1,
           "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
+        },
+        {
+          "id": "sidon",
+          "name": "Sidon",
+          "depth": 1,
+          "summary": "Sidon on the Lebanese coast: a Fatimid garrison port taken by Baldwin I of Jerusalem and Sigurd of Norway in 1110, seat of the crusader lordship of the Grenier family, fortified with its Sea Castle in 1227–1228, and lost by the Templars to the Mamluks in July 1291."
         },
         {
           "id": "tikrit",
@@ -843,18 +855,6 @@ export const TOPICS = [
           "name": "Melisende of Jerusalem",
           "depth": 1,
           "summary": "Melisende of Jerusalem was queen and ruler of the Kingdom of Jerusalem, a major political actor in the second generation of crusader-state rule."
-        },
-        {
-          "id": "michael-viii-palaiologos",
-          "name": "Michael VIII Palaiologos",
-          "depth": 1,
-          "summary": "Michael VIII recovered Constantinople in 1261 and founded the last Byzantine dynasty. He also blinded the child he ruled for, forced a church union his people hated, and left Anatolia to the Turks."
-        },
-        {
-          "id": "peter-the-hermit",
-          "name": "Peter the Hermit",
-          "depth": 1,
-          "summary": "Peter the Hermit was a charismatic preacher associated with the People’s Crusade of 1096. His following moved east before the main baronial armies and became one of the most dramatic examples of popular religious mobilization at the opening of the First Crusade."
         }
       ],
       "artifacts": [
@@ -2846,6 +2846,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Byzantine Empire at War"
     }
   ],
+  "siege-of-sidon-1110": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "crusader-states": [
     {
       "slug": "crusades",
@@ -2996,6 +3002,12 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "byzantine-warfare",
       "title": "The Byzantine Empire at War"
+    }
+  ],
+  "sidon": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
     }
   ],
   "tikrit": [
@@ -3211,22 +3223,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "melisende-of-jerusalem": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "michael-viii-palaiologos": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    },
-    {
-      "slug": "byzantine-warfare",
-      "title": "The Byzantine Empire at War"
-    }
-  ],
-  "peter-the-hermit": [
     {
       "slug": "crusades",
       "title": "The Crusades"
@@ -3525,6 +3521,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "justinian-i": [
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War"
+    }
+  ],
+  "michael-viii-palaiologos": [
     {
       "slug": "byzantine-warfare",
       "title": "The Byzantine Empire at War"
