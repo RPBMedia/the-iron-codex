@@ -1073,7 +1073,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
         - Not yet viewed: Eric II of Denmark.
         - About 29 undated `later depiction` captions and other template phrases ("represented with a relevant image", "medieval-style") on events and houses.
       - **Caption batch 3 shipped (`9bed53f`):** the last 30 baseline captions, mostly battle and event images, now name medium and date. Narses' caption is corrected: it is the San Vitale mosaic of about 547, from his lifetime. **The baseline is now EMPTY (portraits ship, 2026-09-15):** Stenkil leads with an engraving from 1702, the only depiction of him. Ulrich von Jungingen leads with the Grand Master detail of Matejko's Grunwald (1878), and Eric II with the Ribe Cathedral portrait of about 1576. Guido da Landriano keeps his Cassioli battle detail by owner decision, with an honest caption. Wessex has its own ninth-century map, so England 878 leads only the Danelaw.
-      - **Flagged by that batch for replacement (captioned honestly, not yet replaced):**
+      - **REPLACED 2026-09-15, night (owner away):**
+        - Stiklestad: Arbo's watercolour of about 1859.
+        - Gestilren: the 1910 memorial stone. Commons has no depiction of the battle.
+        - Zengid dynasty: the twelfth-century mihrab from Nur ad-Din's mosque at Mosul.
+        - Teias: the Knackfuß engraving of 1873, in black and white because it is the only depiction besides Zick's painting.
+
+        The list flagged by that batch follows:
         - `battle-of-gestilren`: a blank relief map of Sweden
         - `battle-of-stiklestad`: a 2007 photo of Stiklestad Church
         - `zengid-dynasty`: a 164px crop of a generic knight
@@ -1434,7 +1440,12 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - `kievan-rus`: English-language map; a coin of Volodymyr the Great, captioned that the realm bore no arms.
    - `principality-of-serbia`: 1355 relief map; the Despot's arms from the Prague Richental manuscript, cropped to the heading and shield.
 
-   **Batch 4b is being drafted:** `vandal-kingdom`, `mongol-empire` and `sasanian-empire`, whose leading maps are washed out (found by the 0p border scan). **Batch 4c is being drafted:** `ottoman-empire`, `seljuk-turks`, `sultanate-of-rum`, `ayyubid-sultanate` and `rashidun-caliphate`. Emblems come from coins or tughras, and bare locator maps are replaced.
+   **BATCH 4b SHIPPED 2026-09-15, night (owner away): 39 of 54 done.**
+   - `vandal-kingdom`: a bold 2014 reconstruction map; Hilderic's silver coin from Carthage.
+   - `mongol-empire`: Herrmann's 1935 plate of the khanates in 1290; the Met's iron paiza.
+   - `sasanian-empire`: a 2020 map of 620, noted as overstating the east; a drachm of Khosrow II.
+
+   The old washed-out maps are dropped. **Batch 4c is being drafted:** `ottoman-empire`, `seljuk-turks`, `sultanate-of-rum`, `ayyubid-sultanate` and `rashidun-caliphate`. Emblems come from coins or tughras, and bare locator maps are replaced.
    **Gate shipped (2026-09-15, night):** `check-images` fails on a kingdom-type location without an arms panel. The 18 still to do are in `scripts/lib/polity-arms-backlog.json`, a shrink-only list: a listed polity that gains a panel must leave the list. No separate no-heraldry allowlist was needed, because those polities carry an emblem in the same panel.
    **Still to do:** the last 10 polities without an arms panel. Several of these lead with a non-map image that becomes a section image.
    - `lombard-league`
