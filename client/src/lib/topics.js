@@ -761,6 +761,12 @@ export const TOPICS = [
           "summary": "Adhemar of Le Puy was bishop of Le Puy and papal legate on the First Crusade. He provided the expedition with clerical authority and a measure of unity among rival princes."
         },
         {
+          "id": "alexander-nevsky",
+          "name": "Alexander Nevsky",
+          "depth": 1,
+          "summary": "Alexander Nevsky was a prince of Novgorod and grand prince of Vladimir who checked the eastward push of the Baltic crusaders, most famously defeating the Livonian Order on the frozen Lake Peipus in 1242 — the “Battle on the Ice”."
+        },
+        {
           "id": "baldwin-i-of-jerusalem",
           "name": "Baldwin I of Jerusalem",
           "depth": 1,
@@ -815,6 +821,12 @@ export const TOPICS = [
           "summary": "Fulcher of Chartres was a cleric and chronicler whose account of the First Crusade and early Kingdom of Jerusalem is one of the core Latin narratives for the movement."
         },
         {
+          "id": "gerard-de-ridefort",
+          "name": "Gérard de Ridefort",
+          "depth": 1,
+          "summary": "Gérard de Ridefort was Grand Master of the Knights Templar in the years of catastrophe, whose reckless counsel helped drive the Kingdom of Jerusalem to its destruction at the Battle of Hattin in 1187."
+        },
+        {
           "id": "gerard-thom",
           "name": "Gerard Thom",
           "depth": 1,
@@ -827,6 +839,12 @@ export const TOPICS = [
           "summary": "Godfrey of Bouillon was a Lotharingian noble and one of the most prominent lay leaders of the First Crusade. After the capture of Jerusalem in 1099, he became the first Latin ruler of the city, using the title Advocate of the Holy Sepulchre rather than king."
         },
         {
+          "id": "guillaume-de-beaujeu",
+          "name": "Guillaume de Beaujeu",
+          "depth": 1,
+          "summary": "Guillaume de Beaujeu was Grand Master of the Knights Templar in the last years of the Crusader states, a well-connected diplomat-soldier who tried to hold the Latin East together and died leading the defence of Acre in 1291."
+        },
+        {
           "id": "guy-of-lusignan",
           "name": "Guy of Lusignan",
           "depth": 1,
@@ -837,24 +855,6 @@ export const TOPICS = [
           "name": "Hermann von Salza",
           "depth": 1,
           "summary": "Hermann von Salza was Grand Master of the Teutonic Order and a diplomat between Frederick II and the papacy, helping turn the order into a major territorial power."
-        },
-        {
-          "id": "hugh-de-payns",
-          "name": "Hugh de Payns",
-          "depth": 1,
-          "summary": "Hugh de Payns was a founder and first master of the Knights Templar, the military order created to protect pilgrims and defend the crusader states."
-        },
-        {
-          "id": "jacques-de-molay",
-          "name": "Jacques de Molay",
-          "depth": 1,
-          "summary": "Jacques de Molay was the last Grand Master of the Knights Templar and was executed in Paris after the order’s suppression by Philip IV of France and papal authority."
-        },
-        {
-          "id": "louis-ix-of-france",
-          "name": "Louis IX of France",
-          "depth": 1,
-          "summary": "Louis IX was king of France, leader of the Seventh and Eighth Crusades, and later a canonized royal saint. His crusading campaigns in Egypt and Tunis both ended in failure or death, yet shaped Capetian sanctity and monarchy."
         }
       ],
       "artifacts": [
@@ -3132,6 +3132,16 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "alexander-nevsky": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    },
+    {
+      "slug": "mongol-invasions",
+      "title": "The Mongol Invasions"
+    }
+  ],
   "baldwin-i-of-jerusalem": [
     {
       "slug": "crusades",
@@ -3186,6 +3196,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "gerard-de-ridefort": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "gerard-thom": [
     {
       "slug": "crusades",
@@ -3198,6 +3214,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "guillaume-de-beaujeu": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "guy-of-lusignan": [
     {
       "slug": "crusades",
@@ -3205,24 +3227,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "hermann-von-salza": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "hugh-de-payns": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "jacques-de-molay": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "louis-ix-of-france": [
     {
       "slug": "crusades",
       "title": "The Crusades"
@@ -3967,12 +3971,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "subutai": [
-    {
-      "slug": "mongol-invasions",
-      "title": "The Mongol Invasions"
-    }
-  ],
-  "alexander-nevsky": [
     {
       "slug": "mongol-invasions",
       "title": "The Mongol Invasions"

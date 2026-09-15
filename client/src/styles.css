@@ -1229,7 +1229,7 @@ figure.detail-media {
   background: #111116;
   object-fit: contain;
   object-position: center;
-  padding: 10px;
+  padding: 0;
 }
 
 .detail-media figcaption {
@@ -2966,17 +2966,18 @@ a.tree-person:hover .tree-person-name {
   height: auto;
   max-height: 340px;
   width: 100%;
-  background: var(--paper);
-  padding: 14px;
+  background: #111116;
+  padding: 0;
 }
 
-/* Order sigils are clean heraldic cross emblems (red/black/green crosses, or a
-   white cross on red). Force a constant light tile and generous padding so the
-   emblem reads the same in light and dark themes and never sits edge-to-edge. */
+/* No margins around article images (owner rule, 2026-09-15, on teutonic-order).
+   Orders once led with cross emblems, so their images sat on a cream tile with
+   padding and a 300px cap. Orders now lead with photographs, and that tile read as
+   a huge white border, so order images render like every other article image:
+   edge to edge on the dark frame, shown whole. */
 .detail-media-order img {
-  background: #f7f3ea;
-  padding: clamp(20px, 6%, 40px);
-  max-height: 300px;
+  background: #111116;
+  padding: 0;
 }
 
 /* ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ---- */
@@ -3036,7 +3037,7 @@ a.tree-person:hover .tree-person-name {
 .wa-type-img { width: 100%; height: 130px; object-fit: contain; background: rgba(128,128,128,0.08); border-radius: 8px; margin-bottom: 0.6rem; }
 
 .wa-type-figure { margin: 0 0 1.15rem; text-align: center; }
-.wa-type-figure img { width: 100%; max-width: 640px; height: auto; background: #fff; border-radius: 10px; padding: 0.6rem; box-sizing: border-box; }
+.wa-type-figure img { width: 100%; max-width: 640px; height: auto; background: #fff; border-radius: 10px; padding: 0; box-sizing: border-box; }
 .wa-type-figure figcaption { font-size: 0.82rem; opacity: 0.7; margin-top: 0.45rem; }
 
 /* Oakeshott figure: larger, click-to-enlarge */
@@ -3160,7 +3161,7 @@ a.tree-person:hover .tree-person-name {
 
 .image-frame-object img {
   object-fit: contain;
-  padding: 10px;
+  padding: 0;
   background: #111116;
   filter: none;
 }
@@ -3171,7 +3172,7 @@ a.tree-person:hover .tree-person-name {
 
 .favorite-item img.favorite-image-object {
   object-fit: contain;
-  padding: 8px;
+  padding: 0;
   background: #111116;
 }
 
