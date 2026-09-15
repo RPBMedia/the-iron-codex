@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 drafted and holding for the owner; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+_Last updated: 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -975,6 +975,26 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0g. **OWNER REQUEST 2026-09-15 (eventually, not urgent): sweep the repo's
+   markdown files for work already done.** Keep `CLAUDE.md` and `CODEX.md` as they
+   are. For every other planning or work-list file, check each item against the code, the data
+   and `git log`:
+   - **Everything in a file is done:** delete the file.
+   - **Part of it is done:** mark those items complete, so no session re-reads
+     finished work.
+   This includes pruning finished entries out of `QUEUE.md` itself, which has grown
+   to about 2,000 lines. Candidates as of today, with the date each last changed:
+   - `HOUSES_PLAN.md` (2026-08-15)
+   - `WEAPONS_ARMOR_EDITORIAL_AUDIT.md` (09-06)
+   - `WEAPONS_ARMOR_AI_PROMPTS.md` (09-06)
+   - `WEAPONS_ARMOR_COVERAGE_GAPS.md` (09-07)
+   - `SEO_TESTING.md` (09-08)
+   - `MARKETING.md` (09-08)
+   - `CONTENT_GUIDELINES.md` (06-20; a standards file, so check whether `CLAUDE.md`
+     has absorbed it rather than whether it is "done")
+   Out of scope, since they are not work lists: `README.md`, the `.claude/agents/*.md`
+   definitions, and `iron-codex-civilizations-master-prompt.md` (item 0e, not started).
+   Propose the delete list to the owner before deleting.
 0f. ✅ **Fixed 2026-09-15 (owner report on `danelaw`): empty cards no longer render.**
    Hero fact strips for locations, events and artifacts now drop any fact with
    no value. `LocationHero` had printed a blank "Kingdom" card and a "Region in
@@ -986,15 +1006,30 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    related-entries heading are fixed. Batch A's script had filed seven house links
    under an `undefined` group; they are moved to `houses`, and
    `validateRelatedEntries` now hard-fails any unknown group key.
-0c-B. **Spouse batch B: 21 articles drafted and checked, HOLDING for the owner's go.**
-   The drafts live in the session scratchpad (`b7/`). Scope: the Normandy and
-   Wessex spouses, Byzantine empresses, Constance of Sicily, Thyra, Marjorie Bruce,
-   Philippa of Lancaster and Milica. Also covers tree links (25 nodes) and
-   disambiguation entries for Theodora, Eudokia and Irene. It fixes four existing
-   wrong links: Leo IV's mother, Hagia Irene, John II's mother and wife, and King
-   Stephen's father. The in-memory check is clean; the repo gates run when it is
-   applied. If the scratchpad is lost, regenerate from this spec rather than
-   guessing.
+0c-B. ✅ **Done 2026-09-15: the other 21 tree spouses have articles, and every
+   spouse node in all 70 house trees now links (0 unlinked).**
+   - **Normandy:** `matilda-of-flanders`, `matilda-of-scotland`, `geoffrey-of-anjou`,
+     `stephen-henry-count-of-blois`, `matilda-of-boulogne`, `adela-of-normandy`.
+   - **Wessex:** `ealhswith`, `eadgifu-of-kent`, `emma-of-normandy`, `edith-of-wessex`.
+   - **Byzantine:** `theodora-wife-of-justinian`, `sophia-wife-of-justin-ii`,
+     `theodora-wife-of-theophilos`, `theophano-wife-of-romanos-ii`,
+     `eudokia-makrembolitissa`, `irene-doukaina`.
+   - **The rest:** `constance-of-sicily`, `thyra`, `marjorie-bruce`,
+     `philippa-of-lancaster`, `milica-of-serbia`.
+
+   Also in this batch:
+   - 25 tree nodes linked, with reverse links from husbands, sons and houses.
+   - Three new `ambiguousEntityAliases` entries, for Theodora, Eudokia and Irene,
+     so bare names link only in a recognisable context.
+   - Four existing wrong links fixed: Leo IV's Khazar mother (now "Tzitzak"),
+     Hagia Irene in `isaurian-dynasty`, John II's mother and wife, and King
+     Stephen's father.
+   - Ealhswith leads with the Nunnaminster site under the associated-monument
+     rule; Theodora (Justinian) leads with a crop of the San Vitale mosaic; Matilda
+     of Boulogne with the 1865 Cassell scene of her plea for Stephen.
+
+   **Worth a gate next:** fail on any spouse node without `personSlug`, so the
+   trees cannot regress. Not built; propose it to the owner first.
 0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** The
    lead is Christian Krohg's 1899 Heimskringla vignette "Olav Tryggvasons saga -
    Harald Graafell - c. Krohg.jpg", a low-quality drawing of ships at sea with no
@@ -1039,7 +1074,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    neighbours to link: `guthrum`, `northumbria`, `battle-of-edington`,
    `battle-of-brunanburh`, `eric-bloodaxe`, `aethelstan`, `cnut-the-great`,
    `coppergate-helmet`.
-0c. **OWNER REQUEST 2026-09-15 — articles for queens, starting with the house
+0c. ✅ **DONE 2026-09-15: the Plantagenet batch is recorded below, the rest in 0c-B above.** **OWNER REQUEST 2026-09-15 — articles for queens, starting with the house
    trees. The owner expects this to be big, and it is.** **Owner chose all 36
    unlinked spouses. Plantagenet batch done 2026-09-15:** `berengaria-of-navarre`,
    `isabella-of-angouleme`, `eleanor-of-provence`, `eleanor-of-castile`,
@@ -1053,9 +1088,9 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    Blois, Matilda of Boulogne), Wessex (Ealhswith, Eadgifu, Emma of Normandy, Edith
    of Wessex), and the rest (Philippa of Lancaster, Irene Doukaina, Constance of
    Sicily, Thyra, Eudokia Makrembolitissa, Marjorie Bruce, Adela of Normandy, Milica,
-   both Theodoras, Theophano, Sophia). Images are sourced for most; Ealhswith and
-   Marjorie Bruce have no depiction of any kind and wait on the image-rule
-   decision below. Two empresses named Theodora need distinct labels plus a
+   both Theodoras, Theophano, Sophia). Images: Ealhswith leads with the Nunnaminster site under the
+   associated-monument rule, and Marjorie Bruce with the effigy traditionally
+   identified as hers at Paisley. Two empresses named Theodora need distinct labels plus a
    context-hint entry, as "Alexander" has. Reported on
    `house-of-plantagenet`: every queen in the tree is plain text, e.g. Henry V's
    wife Catherine of Valois, who has no article under any spelling. Audit

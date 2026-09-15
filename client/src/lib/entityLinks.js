@@ -8,6 +8,7 @@ export const entityLinks = [
   { label: "Abd al-Rahman al-Ghafiqi", aliases: ["Abdul Rahman Al Ghafiqi"], type: "person", slug: "abd-al-rahman-al-ghafiqi" },
   { label: "Abd al-Rahman III", aliases: ["Abd ar-Rahman III","Abd al-Rahman al-Nasir","al-Nasir li-Din Allah"], type: "person", slug: "abd-al-rahman-iii" },
   { label: "Abel of Denmark", aliases: ["Abel Valdemarsen","Abel of Schleswig"], type: "person", slug: "abel-of-denmark" },
+  { label: "Adela of Normandy", aliases: ["Adela of Blois","Saint Adela","Adela"], type: "person", slug: "adela-of-normandy" },
   { label: "Adhemar of Le Puy", aliases: ["Adhemar de Monteil"], type: "person", slug: "adhemar-of-le-puy" },
   { label: "Æthelbald of Wessex", type: "person", slug: "aethelbald-of-wessex" },
   { label: "Æthelberht of Wessex", type: "person", slug: "aethelberht-of-wessex" },
@@ -90,6 +91,7 @@ export const entityLinks = [
   { label: "Cnut VI of Denmark", aliases: ["Canute VI","Knud VI"], type: "person", slug: "cnut-vi-of-denmark" },
   { label: "Conrad III of Germany", aliases: ["Conrad III"], type: "person", slug: "conrad-iii-of-germany" },
   { label: "Conrad of Montferrat", aliases: ["Conrad I of Jerusalem"], type: "person", slug: "conrad-of-montferrat" },
+  { label: "Constance of Sicily", aliases: ["Constance I of Sicily","Constance of Hauteville","Empress Constance"], type: "person", slug: "constance-of-sicily" },
   { label: "Constans II", aliases: ["Constans II Pogonatos","Konstas II"], type: "person", slug: "constans-ii" },
   { label: "Constantine II of Scotland", aliases: ["Causantín mac Áeda","Constantine II"], type: "person", slug: "constantine-ii-of-scotland" },
   { label: "Constantine IV", aliases: ["Konstantinos IV"], type: "person", slug: "constantine-iv" },
@@ -100,9 +102,12 @@ export const entityLinks = [
   { label: "Constantine XI Palaiologos", aliases: ["Constantine XI","Constantine Dragases"], type: "person", slug: "constantine-xi-palaiologos" },
   { label: "David II of Scotland", aliases: ["David Bruce"], type: "person", slug: "david-ii-of-scotland" },
   { label: "Denis of Portugal", aliases: ["Dinis I","Denis the Farmer King","Dinis o Lavrador","the Poet King"], type: "person", slug: "denis-of-portugal" },
+  { label: "Eadgifu of Kent", aliases: ["Eadgifu","Edgiva","Queen Ediva"], type: "person", slug: "eadgifu-of-kent" },
   { label: "Eadred of England", aliases: ["Eadred","Edred"], type: "person", slug: "eadred-of-england" },
   { label: "Eadwig of England", aliases: ["Eadwig All-Fair","Edwy"], type: "person", slug: "eadwig-of-england" },
+  { label: "Ealhswith", aliases: ["Ealswitha"], type: "person", slug: "ealhswith" },
   { label: "Edgar the Peaceful", aliases: ["Edgar the Peaceable","Eadgar"], type: "person", slug: "edgar-the-peaceful" },
+  { label: "Edith of Wessex", aliases: ["Queen Edith"], type: "person", slug: "edith-of-wessex" },
   { label: "Edmund I of England", aliases: ["Edmund the Elder","Edmund the Magnificent","Edmund the Deed-doer"], type: "person", slug: "edmund-i-of-england" },
   { label: "Edmund Ironside", aliases: ["Edmund II"], type: "person", slug: "edmund-ironside" },
   { label: "Edward I of England", aliases: ["Edward I","Edward Longshanks"], type: "person", slug: "edward-i-of-england" },
@@ -119,6 +124,7 @@ export const entityLinks = [
   { label: "Eleanor of Castile", aliases: ["Leonor of Castile"], type: "person", slug: "eleanor-of-castile" },
   { label: "Eleanor of Provence", aliases: ["Éléonore de Provence"], type: "person", slug: "eleanor-of-provence" },
   { label: "Emeric of Hungary", aliases: ["Imre","Emeric I"], type: "person", slug: "emeric-of-hungary" },
+  { label: "Emma of Normandy", aliases: ["Queen Emma","Emma"], type: "person", slug: "emma-of-normandy" },
   { label: "Empress Matilda", aliases: ["Empress Maud","Maud","Matilda of England","Matilda the Empress","Domina Anglorum","Lady of the English"], type: "person", slug: "empress-matilda" },
   { label: "Emund the Old", aliases: ["Emund den gamle"], type: "person", slug: "emund-the-old" },
   { label: "Enrico Dandolo", aliases: ["Henry Dandolo"], type: "person", slug: "enrico-dandolo" },
@@ -135,6 +141,7 @@ export const entityLinks = [
   { label: "Eric VI of Denmark", aliases: ["Eric Menved","Erik Menved"], type: "person", slug: "eric-vi-of-denmark" },
   { label: "Eric XI Eriksson", aliases: ["Erik Eriksson","Eric the Lisp and Lame","Erik läspe och halte"], type: "person", slug: "eric-xi-eriksson" },
   { label: "Erik Knutsson", aliases: ["Eric X of Sweden","Erik the Survivor"], type: "person", slug: "erik-knutsson" },
+  { label: "Eudokia Makrembolitissa", aliases: ["Eudokia","Eudocia Macrembolitissa"], type: "person", slug: "eudokia-makrembolitissa" },
   { label: "Ferdinand I of Portugal", aliases: ["Fernando I","Ferdinand the Handsome","Ferdinand the Inconstant","Fernando o Formoso"], type: "person", slug: "ferdinand-i-of-portugal" },
   { label: "Ferdinand II of Aragon", aliases: ["Fernando II de Aragón","Ferdinand the Catholic","Ferdinand V of Castile"], type: "person", slug: "ferdinand-ii-of-aragon" },
   { label: "Ferdinand III of Castile", aliases: ["Fernando III","Saint Ferdinand","San Fernando","Ferdinand the Saint","Ferdinand III"], type: "person", slug: "ferdinand-iii-of-castile" },
@@ -144,6 +151,7 @@ export const entityLinks = [
   { label: "Frederick II, Holy Roman Emperor", aliases: ["Frederick II","Stupor Mundi"], type: "person", slug: "frederick-ii-holy-roman-emperor" },
   { label: "Fulcher of Chartres", aliases: ["Fulcherius Carnotensis"], type: "person", slug: "fulcher-of-chartres" },
   { label: "Gelimer", aliases: ["Geilamir"], type: "person", slug: "gelimer" },
+  { label: "Geoffrey of Anjou", aliases: ["Geoffrey Plantagenet","Geoffrey V of Anjou","Geoffrey the Fair"], type: "person", slug: "geoffrey-of-anjou" },
   { label: "Gérard de Ridefort", aliases: ["Gerard de Ridefort","Gerard of Ridefort"], type: "person", slug: "gerard-de-ridefort" },
   { label: "Gerard Thom", aliases: ["Blessed Gerard","Gerard of Jerusalem"], type: "person", slug: "gerard-thom" },
   { label: "Godfred of Denmark", aliases: ["Gudfred","Gøtrik","Godofredus"], type: "person", slug: "godfred-of-denmark" },
@@ -195,6 +203,7 @@ export const entityLinks = [
   { label: "Inge II Bårdsson", aliases: ["Inge Bårdsson","Inge II"], type: "person", slug: "inge-ii-bardsson" },
   { label: "Inge the Elder", aliases: ["Inge Stenkilsson"], type: "person", slug: "inge-the-elder" },
   { label: "Inge the Younger", aliases: ["Inge Halstensson","Ingold the Younger"], type: "person", slug: "inge-the-younger" },
+  { label: "Irene Doukaina", aliases: ["Irene Ducaena","Eirene Doukaina"], type: "person", slug: "irene-doukaina" },
   { label: "Irene of Athens", aliases: ["Irene","Eirene","Empress Irene"], type: "person", slug: "irene-of-athens" },
   { label: "Isaac I Komnenos", aliases: ["Isaac I Comnenus","Isaakios I Komnenos"], type: "person", slug: "isaac-i-komnenos" },
   { label: "Isabella I of Castile", aliases: ["Isabella of Castile"], type: "person", slug: "isabella-of-castile" },
@@ -261,7 +270,11 @@ export const entityLinks = [
   { label: "Margaret of Anjou", aliases: ["Marguerite d'Anjou"], type: "person", slug: "margaret-of-anjou" },
   { label: "Margaret, Maid of Norway", aliases: ["Margaret of Norway","the Maid of Norway"], type: "person", slug: "margaret-maid-of-norway" },
   { label: "Maria of Montferrat", aliases: ["Marie of Montferrat","Maria la Marquise","Marie de Montferrat"], type: "person", slug: "maria-of-montferrat" },
+  { label: "Marjorie Bruce", aliases: ["Marjory Bruce","Marjorie de Brus"], type: "person", slug: "marjorie-bruce" },
   { label: "Mary de Bohun", aliases: ["Mary Bohun"], type: "person", slug: "mary-de-bohun" },
+  { label: "Matilda of Boulogne", aliases: ["Matilda I of Boulogne"], type: "person", slug: "matilda-of-boulogne" },
+  { label: "Matilda of Flanders", aliases: ["Mathilde of Flanders"], type: "person", slug: "matilda-of-flanders" },
+  { label: "Matilda of Scotland", aliases: ["Edith of Scotland","Edith-Matilda"], type: "person", slug: "matilda-of-scotland" },
   { label: "Maurice", aliases: ["Maurikios","Mauricius"], type: "person", slug: "maurice" },
   { label: "Mehmed I", aliases: ["Mehmed Çelebi","Mehmed I the Restorer","Sultan Mehmed I"], type: "person", slug: "mehmed-i" },
   { label: "Mehmed II", aliases: ["Mehmed the Conqueror","Fatih Sultan Mehmed"], type: "person", slug: "mehmed-ii" },
@@ -311,6 +324,7 @@ export const entityLinks = [
   { label: "Philip V of France", aliases: ["Philip the Tall","Philippe le Long"], type: "person", slug: "philip-v-of-france" },
   { label: "Philip VI of France", aliases: ["Philip of Valois"], type: "person", slug: "philip-vi-of-france" },
   { label: "Philippa of Hainault", aliases: ["Philippa of Hainaut","Queen Philippa"], type: "person", slug: "philippa-of-hainault" },
+  { label: "Philippa of Lancaster", aliases: ["Philippa of Portugal","Filipa de Lencastre"], type: "person", slug: "philippa-of-lancaster" },
   { label: "Phocas", aliases: ["Focas","Phokas"], type: "person", slug: "phocas" },
   { label: "Pope Clement V", aliases: ["Clement V","Bertrand de Got"], type: "person", slug: "pope-clement-v" },
   { label: "Pope Eugenius III", aliases: ["Eugenius III","Eugene III","Bernardo Pignatelli","Bernardo da Pisa"], type: "person", slug: "pope-eugenius-iii" },
@@ -319,6 +333,7 @@ export const entityLinks = [
   { label: "Pope John XXII", aliases: ["John XXII","Jacques Duèze","Jacques d’Euse"], type: "person", slug: "pope-john-xxii" },
   { label: "Pope Urban II", aliases: ["Urban II","Odo of Chatillon"], type: "person", slug: "pope-urban-ii" },
   { label: "Prince Lazar", aliases: ["Lazar Hrebeljanovic"], type: "person", slug: "prince-lazar" },
+  { label: "Princess Milica of Serbia", aliases: ["Milica","Milica Hrebeljanović"], type: "person", slug: "milica-of-serbia" },
   { label: "Qutuz", aliases: ["Saif ad-Din Qutuz"], type: "person", slug: "qutuz" },
   { label: "Ragnar Lothbrok", type: "person", slug: "ragnar-lothbrok" },
   { label: "Ramiro II of León", aliases: ["Ramiro II","Ramiro the Devil","Ramiro el Diablo"], type: "person", slug: "ramiro-ii-of-leon" },
@@ -347,9 +362,11 @@ export const entityLinks = [
   { label: "Sigismund of Luxembourg", aliases: ["Sigismund of Hungary","Emperor Sigismund"], type: "person", slug: "sigismund-of-luxembourg" },
   { label: "Sigurd the Crusader", aliases: ["Sigurd of Norway","Sigurd Jorsalfar"], type: "person", slug: "sigurd-of-norway" },
   { label: "Skirgaila", aliases: ["Ivan (baptismal name)"], type: "person", slug: "skirgaila" },
+  { label: "Sophia (wife of Justin II)", aliases: ["Empress Sophia","Aelia Sophia"], type: "person", slug: "sophia-wife-of-justin-ii" },
   { label: "Stefan Lazarević", aliases: ["Stephen Lazarević","Stefan the Tall"], type: "person", slug: "stefan-lazarevic" },
   { label: "Stenkil", aliases: ["Steinkell"], type: "person", slug: "stenkil" },
   { label: "Stephen of England", aliases: ["Stephen of Blois","King Stephen"], type: "person", slug: "stephen-of-england" },
+  { label: "Stephen-Henry, Count of Blois", aliases: ["Stephen-Henry","Stephen II of Blois"], type: "person", slug: "stephen-henry-count-of-blois" },
   { label: "Subutai", aliases: ["Sübötei","Subotai","Subedei"], type: "person", slug: "subutai" },
   { label: "Sverker I of Sweden", aliases: ["Sverker the Elder"], type: "person", slug: "sverker-i-of-sweden" },
   { label: "Sverker II of Sweden", aliases: ["Sverker the Younger"], type: "person", slug: "sverker-ii-of-sweden" },
@@ -362,8 +379,12 @@ export const entityLinks = [
   { label: "Tancred, Prince of Galilee", aliases: ["Tancred of Hauteville","Tancred of Galilee"], type: "person", slug: "tancred-prince-of-galilee" },
   { label: "Teias", aliases: ["Teia","Teja"], type: "person", slug: "teias" },
   { label: "Teresa of León", aliases: ["Teresa of Portugal","Tarasia","Queen Teresa"], type: "person", slug: "teresa-of-leon" },
+  { label: "Theodora (wife of Justinian I)", aliases: ["Theodora","Empress Theodora"], type: "person", slug: "theodora-wife-of-justinian" },
+  { label: "Theodora (wife of Theophilos)", aliases: ["Theodora","Empress Theodora"], type: "person", slug: "theodora-wife-of-theophilos" },
   { label: "Theodosius III", aliases: ["Theodosios III"], type: "person", slug: "theodosius-iii" },
+  { label: "Theophano (wife of Romanos II)", aliases: ["Theophano","Empress Theophano"], type: "person", slug: "theophano-wife-of-romanos-ii" },
   { label: "Theophilos", aliases: ["Theophilus","Theophilos the Unfortunate"], type: "person", slug: "theophilos" },
+  { label: "Thyra", aliases: ["Thyra Danebod"], type: "person", slug: "thyra" },
   { label: "Tiberius II Constantine", aliases: ["Tiberius II","Tiberios II Constantinus"], type: "person", slug: "tiberius-ii-constantine" },
   { label: "Tostig Godwinson", aliases: ["Tostig Godwineson"], type: "person", slug: "tostig-godwinson" },
   { label: "Totila", aliases: ["Baduila"], type: "person", slug: "totila" },
@@ -754,6 +775,139 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // Two empresses share the name: Justinian I's wife and Theophilos's, regent 842–856.
+    // Other Theodoras (Komnene, Kantakouzene, the last Macedonian) have no article.
+    // Link only in a paragraph recognisably about one of the two.
+    terms: ["Theodora", "Empress Theodora"],
+    possibleTargets: [
+      {
+        title: "Theodora (wife of Justinian I)",
+        label: "Theodora (wife of Justinian I)",
+        type: "person",
+        slug: "theodora-wife-of-justinian",
+        date: "d. 548",
+        contextHints: [
+          "Justinian",
+          "Nika",
+          "Procopius",
+          "Ravenna",
+          "San Vitale",
+          "Belisarius",
+          "Antonina",
+          "Secret History",
+          "Miaphysite",
+          "Hippodrome",
+          "527",
+          "532",
+          "548"
+        ]
+      },
+      {
+        title: "Theodora (wife of Theophilos)",
+        label: "Theodora (wife of Theophilos)",
+        type: "person",
+        slug: "theodora-wife-of-theophilos",
+        date: "regent 842–856",
+        contextHints: [
+          "Theophilos",
+          "Michael III",
+          "Bardas",
+          "Petronas",
+          "Theoktist",
+          "Methodios",
+          "Triumph of Orthodoxy",
+          "icons",
+          "iconoclas",
+          "veneration",
+          "bride-show",
+          "Amorian",
+          "842",
+          "843",
+          "856"
+        ]
+      }
+    ]
+  },
+  {
+    // "Eudokia" is Eudokia Makrembolitissa, but also Eudokia Ingerina, mother of
+    // Leo VI, who has no article.
+    terms: ["Eudokia"],
+    possibleTargets: [
+      {
+        title: "Eudokia Makrembolitissa",
+        label: "Eudokia Makrembolitissa",
+        type: "person",
+        slug: "eudokia-makrembolitissa",
+        date: "empress 1059–1071",
+        contextHints: [
+          "Makrembolitissa",
+          "Constantine X",
+          "Romanos IV",
+          "Romanos Diogenes",
+          "Michael VII",
+          "Psellos",
+          "Keroularios",
+          "Doukas",
+          "Botaneiates",
+          "Manzikert",
+          "1067",
+          "1068"
+        ]
+      }
+    ]
+  },
+  {
+    // "Irene" is Irene of Athens's alias, but it is also Irene Doukaina, John II's
+    // empress Piroska-Irene, Leo IV's Khazar mother, and the church of Hagia Irene.
+    terms: ["Irene"],
+    possibleTargets: [
+      {
+        title: "Irene of Athens",
+        label: "Irene of Athens",
+        type: "person",
+        slug: "irene-of-athens",
+        date: "r. 797–802",
+        contextHints: [
+          "Constantine VI",
+          "Constantine V",
+          "Leo IV",
+          "Isaurian",
+          "Charlemagne",
+          "Nikephoros I",
+          "Athens",
+          "Nicaea",
+          "Tarasios",
+          "Staurakios",
+          "Harun",
+          "icons",
+          "iconoclas",
+          "blinded",
+          "787",
+          "797",
+          "802"
+        ]
+      },
+      {
+        title: "Irene Doukaina",
+        label: "Irene Doukaina",
+        type: "person",
+        slug: "irene-doukaina",
+        date: "empress 1081–1118",
+        contextHints: [
+          "Doukaina",
+          "Alexios",
+          "Anna Komnene",
+          "John II",
+          "Bryennios",
+          "Kecharitomene",
+          "Komnenian",
+          "1081",
+          "1118"
+        ]
+      }
+    ]
+  },
   {
     // "Maurice" is the label of the Byzantine emperor (582–602), but the bare word
     // also matches Maurice de Sully, bishop of Paris, and Saint Maurice. Link it
