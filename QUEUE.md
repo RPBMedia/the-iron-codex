@@ -1002,6 +1002,16 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    4. **`kingdom-of-jerusalem`'s Conder map is unreadable.** A replacement is being chosen, and it doubles as the 0k base map for the region.
 
    6. **Owner report on `kerak`'s main image (2026-09-15): black and white, with the ruins far away and barely visible.** The main image was replaced the same day with a 2012 colour photograph in which the walls fill the ridge. The section image of a tunnelled town entrance is also black and white, but it is kept because it is the only image of that feature. CLAUDE.md now carries the rule: colour, with the subject large in the frame. **Follow-up:** audit every main image for black-and-white or distant subjects. Start with the pre-modern city views chosen under the broad-view rule (Damascus by Bonfils, London in Royal MS 16 F II, Rome in the Nuremberg Chronicle), and propose replacements where a colour option exists.
+   7. **Owner report 2026-09-15: `louis-ix-of-france`'s main image is a church.** The caption reads "Louis IX of France in a medieval or later historical depiction", but the image is the 19th-century Église Saint-Louis at La Roche-sur-Yon. The cause: the image was set by a guessed filename, `Saint_Louis.jpg`, and on Commons that name belongs to the church. **The same placeholder caption, with the same note ("Historical depiction or associated visual source; not necessarily a contemporary portrait") and a guessed `<Name>.jpg` filename, leads 21 person articles**, so any of them may show the wrong subject:
+      - `godfrey-of-bouillon`, `baldwin-i-of-jerusalem`, `baldwin-ii-of-jerusalem`, `raymond-iv-of-toulouse`, `bohemond-i-of-antioch`, `alexios-i-komnenos`, `anna-komnene`
+      - `louis-vii-of-france`, `balian-of-ibelin`, `henry-ii-of-champagne`, `enrico-dandolo`, `baldwin-i-latin-emperor`, `pope-innocent-iii`
+      - `frederick-ii-holy-roman-emperor`, `louis-ix-of-france`, `andrew-ii-of-hungary`, `john-of-brienne`, `jean-de-joinville`, `charles-of-anjou`, `jacques-de-molay`, `hermann-von-salza`
+
+      **Fix:**
+      1. View each of the 21 images.
+      2. Where an image shows the wrong subject, replace it with a real depiction under the person-image rules: manuscript, effigy, seal, portrait coin or later artwork, captioned honestly. Louis IX has many good ones (the Bible of Saint Louis, the Joinville manuscripts, the Saint-Louis statue at Mainneville).
+      3. Rewrite every caption and note to say specifically what the image is.
+      4. **Gate:** make `check-images.mjs` hard-fail on the caption "in a medieval or later historical depiction" and on that stock note, so the template cannot come back.
    5. **A `pope-leo-iii` article (owner: yes, 2026-09-15).** No Pope Leo III article exists, so since the Known-for ship "Pope Leo III" on `charlemagne-crowned` and the Charlemagne pages links to nothing. Before that fix it linked wrongly to the emperor Leo III the Isaurian. Build a full Person article, not a stub:
       - The main image is a depiction of him, such as the contemporary Lateran triclinium mosaic or a manuscript. Commons search comes first.
       - Required: Character and Personality, a timeline of at least 5 entries, sources, and related entries covering at least `charlemagne`, `charlemagne-crowned`, `papacy` and `rome`.
