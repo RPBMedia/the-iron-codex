@@ -5,7 +5,7 @@
   "year": 1397,
   "locationType": "Polity",
   "kingdom": "Denmark, Norway, and Sweden",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kalmar_Union_ca._1400.svg/1280px-Kalmar_Union_ca._1400.svg.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Union_de_Kalmar.png?width=1600",
   "summary": "Late medieval union joining Denmark, Norway, and Sweden under a single monarch.",
   "overview": [
     "The Kalmar Union (1397–1523) joined Denmark, Norway, and Sweden — with Finland, Iceland, and the Atlantic isles — under one crown: Margaret I's masterwork, sealed at Kalmar castle with the coronation of her great-nephew Eric of Pomerania, creating Europe's largest realm by territory.",
@@ -19,12 +19,12 @@
     "Ended by the Stockholm Bloodbath and Vasa secession (1520–1523)"
   ],
   "imageInfo": {
-    "caption": "Map of the Kalmar Union around 1400.",
-    "creator": "Wikimedia Commons map contributor",
-    "date": "modern historical map",
+    "caption": "Modern Occitan-language map of the Kalmar Union in the fifteenth century, with Denmark (Danemarc), Sweden with Finland (Suècia) and Norway (Norvègia) shaded apart, and the Hanseatic towns and Teutonic Order across the Baltic.",
+    "creator": "Nicolas Eynaud (Wikimedia Commons)",
+    "date": "2015; shows the union period, 1397 to 1523",
     "source": "Wikimedia Commons",
-    "note": "Modern interpretive map with approximate boundaries.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1280px-Kalmar_Union_ca._1400.svg.png"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Union_de_Kalmar.png",
+    "note": "Modern reconstruction with Occitan labels, not a medieval document, and the file names no source. Estocòlme is Stockholm, Copenaga Copenhagen and Òrdre Teutonic the Teutonic Order. The legend marks Schleswig and Holstein in personal union with Denmark, Estonia sold by Denmark in 1346, the Order's lands in 1410, the main Hanseatic towns and their kontors at Bergen and Novgorod, the archbishoprics, and a star in Dalarna for the Swedish risings of 1436 and 1520. The map stops at the North Atlantic, so Norway's island lands (Iceland, the Faroes, Orkney, Shetland and the Greenland settlements) are not shown; Orkney and Shetland were pledged to Scotland in 1468 and 1469. Borders in the far north are dashed as uncertain and all lines are approximate. Licensed CC BY-SA 4.0."
   },
   "contentSections": [
     {
@@ -97,6 +97,18 @@
       "title": "The Coronation and Union Letters of 1397",
       "author": "Kalmar meeting documents",
       "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Union_de_Kalmar.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Armoiries_medievales_d_Eric_de_Pom%C3%A9ranie_1382-1459.svg"
     }
   ],
   "relatedEntries": {
@@ -199,5 +211,14 @@
       "title": "The union ends",
       "description": "Gustav Vasa's election closes Kalmar; Denmark–Norway continues alone."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Armoiries_medievales_d_Eric_de_Pom%C3%A9ranie_1382-1459.svg?width=700",
+  "armsImageInfo": {
+    "caption": "Union arms of Eric of Pomerania, king of Denmark, Norway and Sweden, in a modern colour rendering after his seal used from 1398 to 1435. The three crowns sit beside Denmark’s lions, with Norway’s axe-bearing lion at the centre.",
+    "creator": "A.T (Wikimedia Commons), after the union seal of Eric of Pomerania",
+    "date": "modern rendering (2014) after a seal used from 1398 to 1435",
+    "source": "Wikimedia Commons (after the union seal of Eric of Pomerania)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Armoiries_medievales_d_Eric_de_Pom%C3%A9ranie_1382-1459.svg",
+    "note": "Heraldic rendering (SVG) of historical arms, not a surviving medieval object. It follows Eric of Pomerania's union seal, known from charters of 1398 to 1435 and drawn for Anders Thiset's Danske kongelige Sigiller (1917): a cross divides Denmark's crowned lions, one holding a Danish banner, from the three crowns, the Folkung lion of Sweden and the griffin of Pomerania, with Norway's crowned lion holding Saint Olaf's axe on a central shield. Seals carry no colour, so the tinctures are the artist's, and the file itself notes that the red of the cross is unsubstantiated and that later versions favour gold. The three crowns could be read either as Sweden's arms or as the sign of the union, and the Danish kings' continued use of them after 1523 became one of the grievances behind the Northern Seven Years' War of 1563 to 1570. Licensed CC BY-SA 3.0."
+  }
 }

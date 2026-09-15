@@ -9,7 +9,7 @@
   "locationType": "Principality",
   "kingdom": "Balkans",
   "year": "1371",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Moravian_Serbia.svg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serbian_Empire_1355_CE_relief_English.png?width=1600",
   "summary": "The Principality of Serbia represented a Serbian political center after the fragmentation of imperial power in the Balkans and stood at the heart of the coalition remembered at Kosovo.",
   "overview": [
     "Medieval Serbia rose from župan-lordships between Byzantium and the Adriatic to a crowned kingdom under the Nemanjić dynasty — founded by Stefan Nemanja (grand župan from 1166), crowned under his son Stefan \"the First-Crowned\" (1217), sanctified by Saint Sava's autocephalous church (1219) — and peaked as an empire when Stefan Dušan was crowned tsar (1346) with his law-code binding it.",
@@ -23,12 +23,12 @@
     "The despotate's Belgrade and Smederevo; the fall of 1459"
   ],
   "imageInfo": {
-    "caption": "Representative image for Principality of Serbia.",
-    "creator": "Public-domain or Wikimedia Commons contributor",
-    "date": "medieval/later image or modern historical map",
+    "caption": "Modern relief map of the Serbian Empire of Stefan Dušan around 1355, reaching from the Danube to the Gulf of Corinth, between Bosnia, Hungary, the Bulgarian Empire and the Byzantine Empire.",
+    "creator": "Tobias1984 (Wikimedia Commons)",
+    "date": "2013; shows about 1355",
     "source": "Wikimedia Commons",
-    "note": "Representative visual evidence; heraldry and maps may be later reconstructions rather than contemporary state portraits.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Moravian_Serbia.svg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serbian_Empire_1355_CE_relief_English.png",
+    "note": "Modern reconstruction on a relief base, not a medieval document. Its borders are redrawn from an earlier Commons map rather than a named atlas, with rivers and coastline from Natural Earth. It shows the empire at Dušan's death in December 1355, including Thessaly, Epirus and southern Albania, which were ruled through kinsmen and governors such as Simeon Uroš and Preljub and broke away within a few years. Small enclaves are left outside: Thessaloniki stayed Byzantine, and Dyrrachium, Butrint and Vonitsa were in Angevin or Venetian hands. The line with Bosnia shifted during the 1350s, and all borders are approximate. Licensed CC BY-SA 3.0."
   },
   "contentSections": [
     {
@@ -110,6 +110,18 @@
       "title": "Dušan's Code (Zakonik)",
       "author": "Serbian imperial chancery",
       "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Serbian_Empire_1355_CE_relief_English.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Despot_of_Serbia_Prussian_edition.jpg"
     }
   ],
   "relatedEntries": {
@@ -214,5 +226,14 @@
       "title": "The fall",
       "description": "Smederevo surrenders to Mehmed II; medieval Serbian statehood ends."
     }
-  ]
+  ],
+  "armsImage": "/images/locations/principality-of-serbia-arms.jpg",
+  "armsImageInfo": {
+    "caption": "Arms of the Despot of Serbia, a double-headed eagle on red, painted in a mid-fifteenth-century manuscript of Ulrich Richental’s chronicle of the Council of Constance. Whether the Nemanjić kings bore the eagle as arms is debated.",
+    "creator": "Unknown illuminator, in the Prague copy of Ulrich Richental’s chronicle",
+    "date": "mid-15th century (the council met from 1414 to 1418)",
+    "source": "Chronicle of the Council of Constance (Prague copy), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Despot_of_Serbia_Prussian_edition.jpg",
+    "note": "A painting in a manuscript copy of Ulrich Richental's chronicle, which illustrates the arms of the princes listed at the Council of Constance; the heading reads 'Der hochgeborn fürst herzog Despot zu Ratzen', the despot of Rascia, meaning Stefan Lazarević (despot 1402 to 1427). Richental's painters recorded some arms and invented others, so this shows how Serbia's ruler was pictured in the West rather than a Serbian grant. Under the Nemanjić the double-headed eagle is attested as ornament and emblem, on royal dress in frescoes, on Queen Theodora's signet ring of before 1322 and on the flag that marks Serbia on Angelino Dulcert's sea chart of 1339, but whether it served as a dynastic coat of arms, and in what colours, is debated; the shields in the Illyrian armorials date from the 1590s onwards. The Commons title calls this the 'Prussian' edition, but its Serbian description identifies the Prague copy. Public domain. The Codex copy is cropped to remove the blank border of the source scan (owner rule: no margins around images)."
+  }
 }

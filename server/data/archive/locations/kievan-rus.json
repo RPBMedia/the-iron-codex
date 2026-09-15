@@ -11,12 +11,12 @@
   "kingdom": "Eastern Europe",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kievan_Rus_en.jpg",
   "imageInfo": {
-    "caption": "Map of Kievan Rus’ and neighboring lands.",
-    "creator": "Wikimedia Commons map contributor",
-    "date": "modern historical map",
+    "caption": "Modern relief map of the lands of Kievan Rus’ at their widest, around the eleventh century, from Novgorod and Beloozero south to Kiev and Pereyaslavl, with Tmutarakan by the Sea of Azov and the neighbouring peoples named.",
+    "creator": "Captain Blood (German Wikipedia contributor), with labels revised by Claude Zygiel (Wikimedia Commons)",
+    "date": "German original 2005, English version 2006, labels revised 2019; shows about the eleventh century",
     "source": "Wikimedia Commons",
-    "note": "Modern reconstruction of approximate political geography, not a contemporary medieval map.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kievan_Rus_en.jpg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kievan_Rus_en.jpg",
+    "note": "Modern reconstruction on a relief base drawn with the Generic Mapping Tools, not a medieval document. The file has no author, source or date fields, so its authorship comes from the upload history, and it names no scholarly source for the extent shown. The soft-edged shading is deliberate: princely authority thinned out towards the Finnic north-east and the steppe. The map mixes periods. The Khazars and Pechenegs are named although the Khazar khaganate fell in the 960s and the Pechenegs were displaced by the Cumans in the later eleventh century, while Moscow (first recorded in 1147) and Nizhny Novgorod (founded in 1221) are marked although they postdate Kievan dominance. Tmutarakan was held by Rus' princes from the late tenth century to the 1090s. Licensed CC BY-SA 3.0 (migrated from the GFDL)."
   },
   "summary": "A medieval eastern European polity centered on Kyiv, important for trade, dynastic politics, and links between Scandinavia, Byzantium, and the steppe.",
   "overview": [
@@ -176,6 +176,18 @@
       "title": "The Emergence of Rus 750–1200",
       "author": "Simon Franklin & Jonathan Shepard",
       "type": "book"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Kievan_Rus_en.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Coin_of_Volodymyr_the_Great_-_II.jpg"
     }
   ],
   "timeline": [
@@ -234,5 +246,14 @@
       "title": "Lake Peipus",
       "description": "Alexander Nevsky halts the Teutonic push on the ice."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coin_of_Volodymyr_the_Great_-_II.jpg",
+  "armsImageInfo": {
+    "caption": "Kievan Rus’ bore no coat of arms; its princes marked coins and seals with a family sign, like the trident on the reverse of this silver srebrenik of Vladimir the Great, struck between 980 and 1015.",
+    "creator": "Mint of Vladimir the Great, Kiev (photograph published by Belopolsky, 2008)",
+    "date": "struck between 980 and 1015",
+    "source": "Wikimedia Commons (from an article on srebreniks found in Ukraine, Bankaŭski vesnik, Minsk, 2008)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coin_of_Volodymyr_the_Great_-_II.jpg",
+    "note": "A photograph of a genuine silver coin, not a modern reconstruction. The obverse shows the enthroned prince, haloed and holding a cross-topped sceptre; the reverse carries the trident, the personal sign of Vladimir's line, within a legend that names him and reads 'and this is his silver'. Vladimir's coinage probably began after his baptism in about 988. Rurikid princes used such signs, bidents and tridents that varied from prince to prince, on coins, seals, weights and weapons until about the twelfth century; they were family marks, not heraldry, which never reached the Rus' lands in this period. The source names neither the collection that holds the coin nor the photographer. Public domain."
+  }
 }

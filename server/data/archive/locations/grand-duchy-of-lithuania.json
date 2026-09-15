@@ -5,7 +5,7 @@
   "locationType": "Grand duchy",
   "kingdom": "Eastern Europe",
   "year": "13th century",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/LithuaniaHistory.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lithuanian_state_in_13-15th_centuries.png",
   "summary": "A major eastern European polity allied with Poland at Grunwald.",
   "overview": [
     "The Grand Duchy of Lithuania was medieval Europe's great anomaly: the last pagan state, forged by Mindaugas (crowned 1253) and expanded by Gediminas and Algirdas until it ruled more Orthodox Rus' than pagan Balts — from the Baltic toward the Black Sea, Kiev itself taken after Blue Waters (1362).",
@@ -19,12 +19,12 @@
     "Vytautas the Great's zenith"
   ],
   "imageInfo": {
-    "caption": "Map of Lithuanian territorial development, including the Grand Duchy of Lithuania.",
-    "creator": "Wikimedia Commons map contributor",
-    "date": "modern historical map",
+    "caption": "Modern map of the expansion of Lithuania from the thirteenth to the fifteenth century, from the core around Vilnius and Kernavė to the Black Sea under Vytautas the Great, shaded by the reign in which each land was gained.",
+    "creator": "M.K. (Wikimedia Commons)",
+    "date": "2006; shows the thirteenth to fifteenth centuries",
     "source": "Wikimedia Commons",
-    "note": "Modern interpretive map; boundaries vary by date and source.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LithuaniaHistory.png"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lithuanian_state_in_13-15th_centuries.png",
+    "note": "Modern reconstruction, not a medieval document. The legend separates the Lithuanian and Samogitian core, lands annexed by Mindaugas (until 1263), lands held only briefly in his reign, the gains under Vytenis and Gediminas (1295 to 1341), Algirdas (1345 to 1377) and Vytautas (1392 to 1430), and border zones disputed with Poland; the thick black line is the grand duchy's frontier in the fifteenth century. Neighbours are drawn as they stood in that century, so the Crimean Khanate (from the 1440s) and Moldavia appear. The steppe towards the Black Sea was held only loosely, and all boundaries are approximate. The file cites Norman Davies's Vanished Kingdoms (2011), which postdates the map, so that reference was added later. Licensed CC BY-SA 2.5."
   },
   "contentSections": [
     {
@@ -104,6 +104,18 @@
       "title": "The Letters of Gediminas",
       "author": "Grand-ducal chancery",
       "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Lithuanian_state_in_13-15th_centuries.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:AGAD_Pieczec_konna_Witolda%2C_wielkiego_ksiecia_litewskiego.png"
     }
   ],
   "relatedEntries": {
@@ -203,5 +215,14 @@
       "title": "Lutsk and the lost crown",
       "description": "Vytautas dies awaiting the coronation the congress offered."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/AGAD_Pieczec_konna_Witolda%2C_wielkiego_ksiecia_litewskiego.png?width=1600",
+  "armsImageInfo": {
+    "caption": "Red wax equestrian seal of Vytautas the Great, grand duke of Lithuania, used on a charter of 1404. Its armed rider with a raised sword is the emblem that became the Vytis, the arms of the grand duchy.",
+    "creator": "Chancery of Vytautas the Great (photograph: Central Archives of Historical Records, Warsaw)",
+    "date": "1404",
+    "source": "Archiwum Główne Akt Dawnych, Warsaw, via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AGAD_Pieczec_konna_Witolda%2C_wielkiego_ksiecia_litewskiego.png",
+    "note": "A photograph of a genuine seal impression, not a modern rendering: red wax pressed into a cup of natural wax and hung from a parchment strip, with the legend S WYTOLDI DUCIS LITHVANIE around a mounted knight riding to the left with his sword raised. Grand-ducal seals carried this rider from the fourteenth century, and armorials of about 1440 such as the Codex Bergshammar paint it as a white knight on red; the name Vytis is much later. Several of Vytautas's seals also show the Columns of Gediminas on the rider's shield, but they cannot be read on this worn impression. Seals carry no colour, so the red here is the wax, not a tincture. Public domain, supplied by the archive."
+  }
 }
