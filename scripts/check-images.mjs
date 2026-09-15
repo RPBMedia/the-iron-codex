@@ -182,6 +182,21 @@ for (const [collection, entries] of Object.entries(data)) {
       })
     }
 
+    // Houses and kingdoms carry a coat of arms beneath the primary image. It was
+    // rendered on house pages but never validated (found 2026-09-15, when
+    // kingdoms gained arms too), so its caption, source and URL now pass the same
+    // checks as every other render image.
+    if (entry.armsImage !== undefined) {
+      validateImageReference({
+        collection,
+        article,
+        field: 'armsImage',
+        src: entry.armsImage,
+        metadata: entry.armsImageInfo,
+        articleSources: entry.sources
+      })
+    }
+
     ;(entry.galleryImages ?? []).forEach((image, imageIndex) => {
       validateImageReference({
         collection,

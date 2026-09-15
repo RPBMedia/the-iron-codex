@@ -131,7 +131,7 @@ export default function DetailPage() {
       <section className="detail-hero">
         <div className="detail-media-col">
           <ImageWithCaption article={article} />
-          {article.type === 'house' && <HouseArmsImage article={article} />}
+          {(article.type === 'house' || article.type === 'location') && <ArmsImage article={article} />}
           {article.type === 'order' && <OrderSigilImage article={article} />}
         </div>
         <div className="detail-body">
@@ -951,18 +951,20 @@ function LocationContent({ article }) {
   )
 }
 
-// A second image beneath the main one on House pages: the dynasty's coat of
-// arms, when it had heraldic arms (many eastern/early houses did not).
-function HouseArmsImage({ article }) {
+// A second image beneath the main one: a dynasty's coat of arms on House pages,
+// and a kingdom's arms or flag on Location pages, whose main image is its
+// territory map (owner request, 2026-09-15). Many eastern and early houses had
+// no heraldic arms, so the image is optional.
+function ArmsImage({ article }) {
   const [failed, setFailed] = useState(false)
   if (!article.armsImage || failed) return null
   const info = article.armsImageInfo
 
   return (
-    <figure className="detail-media detail-media-house detail-media-arms">
+    <figure className={`detail-media ${article.type === 'house' ? 'detail-media-house ' : ''}detail-media-arms`}>
       <img
         src={article.armsImage}
-        alt={`Coat of arms of the ${article.name}`}
+        alt={article.type === 'house' ? `Coat of arms of the ${article.name}` : `Arms of ${article.name}`}
         onError={(event) => {
           reportArticleImageFailure(article, 'armsImage', event.currentTarget.currentSrc || event.currentTarget.src)
           setFailed(true)

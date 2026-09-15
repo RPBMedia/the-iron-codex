@@ -923,7 +923,7 @@ deploy went green immediately once the step came out, first as a shell glob and
 again as a programmatic runner, which points at `node:test` behaving differently
 on Vercel's Node version. Tests still run in `npm run build` and before every
 push. **If you want them back in the deploy, find the Node version first.**
-**Also absent from the deploy (verified 2026-09-14):** `check:content-quality`
+**✅ Fixed 2026-09-15 (step 3, part 1): `check-content-quality.mjs` and `check-images.mjs` now run at the start of `vercel.json`'s buildCommand**, so a failing content or image gate blocks the deploy. Both use only Node built-ins. Tests stay out until the Node-version question above is settled. `check-images` also now validates `armsImage`, which houses had been carrying unvalidated. The original note follows. **Also absent from the deploy (verified 2026-09-14):** `check:content-quality`
 and `check:images`. `vercel.json`'s buildCommand runs only `check-seo.mjs`, so
 every content gate depends on being run before the push — against CLAUDE.md's
 own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
