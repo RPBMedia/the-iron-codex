@@ -923,6 +923,7 @@ function LocationContent({ article }) {
   const sections = article.contentSections?.length
     ? article.contentSections
     : [{ title: 'Overview', paragraphs: article.overview }]
+  const hasLocator = Boolean(locatorFor(article))
 
   return (
     <>
@@ -933,7 +934,7 @@ function LocationContent({ article }) {
           title={section.title}
           paragraphs={section.paragraphs}
           article={article}
-          leadFigure={index === 0 ? <LocatorMap article={article} /> : null}
+          sideFigure={index === 0 && hasLocator ? <LocatorMap article={article} /> : null}
         />
       ))}
       {asList(article.knownFor).length > 0 && (
@@ -1305,23 +1306,39 @@ function InfoBlock({ title, children }) {
   )
 }
 
-function ArticleSection({ title, paragraphs, className = '', article, leadFigure = null }) {
+// sideFigure puts a figure in its own column to the right of the whole section
+// text (the city locator map), rather than floating it in part-way down, which
+// left dead space beside and under short text (owner, 2026-09-15).
+function ArticleSection({ title, paragraphs, className = '', article, sideFigure = null }) {
   const sectionImages = sectionImagesFor(article, title)
   if (!(paragraphs ?? []).filter(Boolean).length && !sectionImages.length) return null
+
+  const text = (paragraphs ?? []).filter(Boolean).map((paragraph, index) => (
+    <FragmentWithImages
+      imageInsertIndex={index}
+      images={sectionImages}
+      key={paragraph}
+      paragraph={paragraph}
+      article={article}
+    />
+  ))
+
+  if (sideFigure) {
+    return (
+      <section className={`bio-section ${className}`}>
+        <h2>{title}</h2>
+        <div className="section-with-side-figure">
+          <div className="section-text">{text}</div>
+          <div className="section-side-figure">{sideFigure}</div>
+        </div>
+      </section>
+    )
+  }
 
   return (
     <section className={`bio-section ${className}`}>
       <h2>{title}</h2>
-      {(paragraphs ?? []).filter(Boolean).map((paragraph, index) => (
-        <FragmentWithImages
-          imageInsertIndex={index}
-          images={sectionImages}
-          leadFigure={index === 0 ? leadFigure : null}
-          key={paragraph}
-          paragraph={paragraph}
-          article={article}
-        />
-      ))}
+      {text}
       {!(paragraphs ?? []).filter(Boolean).length && sectionImages.map((image) => (
         <SectionImage image={image} key={`${image.src}-${image.caption}`} />
       ))}
@@ -1329,13 +1346,12 @@ function ArticleSection({ title, paragraphs, className = '', article, leadFigure
   )
 }
 
-function FragmentWithImages({ article, imageInsertIndex, images, leadFigure, paragraph }) {
+function FragmentWithImages({ article, imageInsertIndex, images, paragraph }) {
   const shouldInsertImages = imageInsertIndex === 0 && images.length > 0
 
   return (
     <>
       <p>{renderLinkedText(paragraph, article)}</p>
-      {leadFigure}
       {shouldInsertImages && images.map((image) => (
         <SectionImage image={image} key={`${image.src}-${image.caption}`} />
       ))}

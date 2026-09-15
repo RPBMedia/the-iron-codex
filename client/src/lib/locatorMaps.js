@@ -53,7 +53,7 @@ export function locatorFor(article) {
  * clamped to the map's edges; every value is a percentage of the window, for CSS
  * positioning.
  */
-export function cropWindow(map, x, y, viewW = 340, viewH = 380, markerDown = 0.58) {
+export function cropWindow(map, x, y, viewW = 340, viewH = 320, markerDown = 0.55) {
   const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi)
   const x0 = clamp(x - viewW / 2, 0, map.width - viewW)
   const y0 = clamp(y - viewH * markerDown, 0, map.height - viewH)
