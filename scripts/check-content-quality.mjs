@@ -43,7 +43,7 @@ const BATTLE_BACKLOG = new Set([
   'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
   'battle of hova', 'battle of la higueruela', 'battle of largs', 'battle of lincoln',
   'battle of montiel', 'battle of nájera', 'battle of río salado', 'battle of salado',
-  'battle of shrewsbury', 'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
+  'battle of brunkeberg', 'battle of shrewsbury', 'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
   'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
   'battle of visby', 'siege of acre',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
