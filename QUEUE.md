@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15, evening.
+_Last updated: 2026-09-15, late evening. Queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
 
 **Owner answers on the away-mode questions:**
 - 1453 wins, and CLAUDE.md now says so.
@@ -995,6 +995,44 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Batch 3 SHIPPED 2026-09-15 (owner away):** ten places, 7,500–11,800 characters each, with 13–18 timeline entries and 2–4 images. Every main image is a pre-modern view or a medieval depiction with the subject clear. The battle-site towns (Stamford Bridge, Hastings) and Kosovo Field summarise their battles and link to the battle articles instead of retelling them. Kosovo Field left the template-prose baseline. Spot-check `stamford-bridge`: it has the thinnest medieval record, and its main image is only 1900–1912. The batch covered: `stockholm`, `bergen`, `gascony`, `covadonga`, `winchester-cathedral`, `kosovo-field`, `chateau-de-vincennes`, `monmouth`, `stamford-bridge`, `hastings`. `kingdom-of-asturias` and `caliphate-of-cordoba` moved to 0d batch 3, so no two agents write the same article. `papacy` (32 inbound links, 3,621 chars) is an institution, not a place, so it stays with item 1. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0o. **OWNER REQUEST 2026-09-15: GLOBAL ARTICLE UI/UX REFINEMENT. A major track that will take a while.** The full spec is `iron_codex_global_article_ui_ux_refinement.md` in the repo root (42 sections). Read all of it before any milestone. The benchmark page is `/events/battle-of-brunanburh`. The goal is to move article pages from a database-looking layout toward a premium digital codex, **fixing shared components rather than single pages, and without redesigning the site's identity**: near-black, ivory, restrained gold, monumental titles, and the side-by-side image and title hero.
+
+   **Owner-reported symptom and its cause (measured 2026-09-15).** Brunanburh shows a huge black space under its image. The hero is two columns: the left column holds a landscape 1024x754 plate, so it ends early. The right column carries the year, location and conflict cards, factions, leaders, strength, outcome and the Stamford Bridge continuation card, so everything under the image on the left is empty. This is the spec's "dead left column" (§5), and the fix is an "On this page" contents rail under the image, not a taller image.
+
+   **The spec's main changes:**
+   - an auto-generated, sticky table of contents in the left rail (§5)
+   - no cards inside cards (§6)
+   - dark surfaces for ordinary metadata, with pale surfaces kept for real archival inserts (§7)
+   - remove the duplicate type label (§8)
+   - a quieter Favorite control (§9)
+   - hero rhythm, plus the summary shown as a deck under the title (§10–11)
+   - compact metadata groups (§12–13)
+   - distinct visual treatment for people, realms, places and conflicts, and fewer pills (§14–15, §17)
+   - a two-column factions comparison (§16) and a scannable outcome (§18)
+   - the "story continues" card moved to the end of the article (§19)
+   - Related grouped by type, only where the data gives the type (§20)
+   - body typography and dividers (§21–22), lighter hero captions (§23), an optional gallery link (§24)
+   - responsive, accessible and restrained throughout (§25–29), applied to every article family (§30–31)
+
+   **Hard constraints:**
+   - no changes to historical content, IDs, slugs, URLs or SEO (§2, §32, §37)
+   - no mass edits to the data to make a component fit
+   - no heavy client-side dependencies (§36)
+   - graceful handling of missing data (§35), consistent with CLAUDE.md §4 on empty cards
+   - keep the existing image rules: captions sit below images, and images are never cropped
+   - keep the owner-approved side-figure layout for locator maps (0k)
+
+   **Milestones, one ship each, each with a test case:**
+   - **U0: audit, no changes.** Map the article components in `client/src/pages/DetailPage.jsx`: the hero variants (`StandardHero`, `EventHero`, `LocationHero`, `HouseHero`), fact strips, event participants, `BattleContinuity`, `RelatedEntries`, `ArticleSection`, `ArmsImage` and `LocatorMap`, plus the CSS tokens, breakpoints, radii and surfaces in `client/src/styles.css`. Report the smallest set of shared primitives to change.
+   - **U1: primitives.** Dark metadata surfaces and tokens, a compact metadata item, entity-link treatments per type, pills reduced, a quieter Favorite control, the duplicate label removed.
+   - **U2: Brunanburh benchmark.** The event and battle hero with the left contents rail, the factions comparison, outcome hierarchy, the summary deck, and the continuation card moved to the end. Verify against the spec's §33 checklist.
+   - **U3: other families.** People and rulers (reign, realm, house, succession), locations and kingdoms (arms panel, locator map), houses (family tree), weapons and armour (specs), orders and artifacts.
+   - **U4: responsive** (wide desktop, laptop, tablet, mobile).
+   - **U5: accessibility.**
+   - **U6: regression** over the §34 page set at desktop and mobile widths.
+   - **U7: cleanup** of obsolete styles.
+
+   No local dev server (owner rule), so every milestone is verified live after deploy, with the owner testing each one.
 0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
    1. **Known for must link: "a big one".** Names, places and events in any article's Known for must be navigable, like body prose. Reported on `kingdom-of-hungary`. Shipping first: the W&A block, the location and polity list, and the person fact card all run through `renderLinkedText`, and CLAUDE.md §5 makes it a rule.
    2. **Insights: the accounts-created chart runs past the dark page area** onto the light footer. Next ship.
@@ -1019,6 +1057,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
         - Wrong subject, needing a replacement: Stenkil (a church interior), Guido da Landriano (a battle painting) and Ulrich von Jungingen (a coat of arms).
         - Not yet viewed: Eric II of Denmark.
         - About 29 undated `later depiction` captions and other template phrases ("represented with a relevant image", "medieval-style") on events and houses.
+      - **Caption batch 3 shipped (`9bed53f`):** the last 30 baseline captions, mostly battle and event images, now name medium and date. Narses' caption is corrected: it is the San Vitale mosaic of about 547, from his lifetime. **The baseline holds only 4 entries:** Stenkil, Guido da Landriano, Ulrich von Jungingen and Eric II of Denmark, whose replacements are drafted.
+      - **Flagged by that batch for replacement (captioned honestly, not yet replaced):**
+        - `battle-of-gestilren`: a blank relief map of Sweden
+        - `battle-of-stiklestad`: a 2007 photo of Stiklestad Church
+        - `zengid-dynasty`: a 164px crop of a generic knight
+        - `teias`: a blurry crop of the Zick painting that already leads Mons Lactarius
+      - **Search fixes also shipped (`684d4ac`, `a00fa0e`, owner-confirmed):** archive-page search ranks name matches first, folds ł, ø and æ, and matches words in any order.
       - **The vague-caption baseline is down from 75 to 38.**
       **Fix:**
       1. View each of the 21 images.
