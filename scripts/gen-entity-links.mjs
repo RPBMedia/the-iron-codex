@@ -57,12 +57,15 @@ for (const arr of Object.values(data)) {
   if (!Array.isArray(arr)) continue
   for (const a of arr) { const n = (a.name || a.title || '').toLowerCase().trim(); if (n) allNamesLower.add(n) }
 }
-// A "Battle of X" / "Siege of X" suffix becomes a safe short-form alias only when
-// no other article is named X (so "Arsuf", "Hattin", "Aljubarrota" link to the
-// battle, while "Crécy", "Stiklestad", "Bannockburn" — which are also location
-// articles — are left to their full "Battle of X" form to avoid wrong links).
+// A "Battle of X" suffix becomes a safe short-form alias only when no other
+// article is named X (so "Arsuf", "Hattin", "Aljubarrota" link to the battle,
+// while "Crécy", "Stiklestad", "Bannockburn" — which are also location articles —
+// are left to their full "Battle of X" form to avoid wrong links).
+// Sieges are excluded: the X in "Siege of X" is a city, and a city's bare name
+// is not the siege. "Siege of Vladimir" made "Vladimir" link Vladimir the Great
+// to 1238, and "Siege of Orléans" made "Louis of Orléans" link to 1429.
 function safeBattleSuffix(name) {
-  const m = (name || '').match(/^(?:Battle|Siege) of (.+)$/)
+  const m = (name || '').match(/^Battle of (.+)$/)
   if (!m) return null
   const s = m[1].trim()
   if (s.length < 5 || s.includes(',')) return null
@@ -82,7 +85,11 @@ for (const [col, arr] of Object.entries(data)) {
     if (!label || !a.id) continue
     const fromData = (a.aliases || []).filter(x => keepAlias(x, label))
     const everyAlias = [...(curated[a.id] || []), ...(a.aliases || []), label]
-    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label) && !isCommaFragment(x, everyAlias, a.aliases || []))
+    // Earlier runs wrote "Siege of X" suffixes into the file, where they read
+    // back as curated aliases; drop them unless the data itself declares one.
+    const siegeSuffix = (label.match(/^Siege of (.+)$/) || [])[1]?.trim()
+    const isBakedSiegeSuffix = (x) => siegeSuffix && x === siegeSuffix && !(a.aliases || []).includes(x)
+    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label) && !isCommaFragment(x, everyAlias, a.aliases || []) && !isBakedSiegeSuffix(x))
     const aliases = [...new Set([...fromCurated, ...fromData])]
     if (col === 'events') { const suf = safeBattleSuffix(label); if (suf && !aliases.includes(suf)) aliases.push(suf) }
     entries.push({ label, aliases, type, slug: a.id })

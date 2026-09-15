@@ -448,17 +448,17 @@ export const entityLinks = [
   { label: "Recovery of Constantinople", aliases: ["Reconquest of Constantinople","Byzantine recovery of Constantinople"], type: "event", slug: "recovery-of-constantinople" },
   { label: "Sack of Aleppo", aliases: ["Sack of Aleppo (962)","Byzantine capture of Aleppo"], type: "event", slug: "siege-of-aleppo-962" },
   { label: "Siege and Sack of Constantinople", aliases: ["Sack of Constantinople","Sack of Constantinople (1204)","The sack of 1204"], type: "event", slug: "siege-of-constantinople-1204" },
-  { label: "Siege of Antioch (969)", aliases: ["Byzantine recovery of Antioch","Fall of Antioch (969)","Antioch (969)"], type: "event", slug: "siege-of-antioch-969" },
-  { label: "Siege of Chandax", aliases: ["Byzantine reconquest of Crete","Siege of Candia (961)","Chandax","Fall of Chandax"], type: "event", slug: "siege-of-chandax" },
-  { label: "Siege of Constantinople (626)", aliases: ["Avar siege of Constantinople","Avar–Persian siege of Constantinople","Constantinople (626)"], type: "event", slug: "siege-of-constantinople-626" },
-  { label: "Siege of Constantinople (717–718)", aliases: ["Umayyad siege of Constantinople","Arab siege of Constantinople","Constantinople (717–718)"], type: "event", slug: "siege-of-constantinople-717" },
+  { label: "Siege of Antioch (969)", aliases: ["Byzantine recovery of Antioch","Fall of Antioch (969)"], type: "event", slug: "siege-of-antioch-969" },
+  { label: "Siege of Chandax", aliases: ["Byzantine reconquest of Crete","Siege of Candia (961)","Fall of Chandax"], type: "event", slug: "siege-of-chandax" },
+  { label: "Siege of Constantinople (626)", aliases: ["Avar siege of Constantinople","Avar–Persian siege of Constantinople"], type: "event", slug: "siege-of-constantinople-626" },
+  { label: "Siege of Constantinople (717–718)", aliases: ["Umayyad siege of Constantinople","Arab siege of Constantinople"], type: "event", slug: "siege-of-constantinople-717" },
   { label: "Siege of Kyiv", aliases: ["Siege of Kiev","Sack of Kyiv","Fall of Kyiv (1240)"], type: "event", slug: "siege-of-kyiv" },
   { label: "Siege of Lisbon", type: "event", slug: "siege-of-lisbon" },
-  { label: "Siege of Orléans", aliases: ["Orléans"], type: "event", slug: "siege-of-orleans" },
+  { label: "Siege of Orléans", type: "event", slug: "siege-of-orleans" },
   { label: "Siege of Rome", type: "event", slug: "siege-of-rome-537" },
   { label: "Siege of Rouen", type: "event", slug: "siege-of-rouen" },
-  { label: "Siege of Ryazan", aliases: ["Sack of Ryazan","Fall of Ryazan","Ryazan"], type: "event", slug: "siege-of-ryazan" },
-  { label: "Siege of Vladimir", aliases: ["Sack of Vladimir","Fall of Vladimir","Vladimir"], type: "event", slug: "siege-of-vladimir" },
+  { label: "Siege of Ryazan", aliases: ["Sack of Ryazan","Fall of Ryazan"], type: "event", slug: "siege-of-ryazan" },
+  { label: "Siege of Vladimir", aliases: ["Sack of Vladimir","Fall of Vladimir"], type: "event", slug: "siege-of-vladimir" },
   { label: "Third Crusade", type: "event", slug: "third-crusade" },
   { label: "Treaty of Edinburgh-Northampton", aliases: ["Treaty of Edinburgh Northampton"], type: "event", slug: "treaty-of-edinburgh-northampton" },
   { label: "Treaty of Verdun", type: "event", slug: "treaty-of-verdun" },
@@ -738,6 +738,31 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // "Maurice" is the label of the Byzantine emperor (582–602), but the bare word
+    // also matches Maurice de Sully, bishop of Paris, and Saint Maurice. Link it
+    // only in a paragraph recognisably about the emperor.
+    terms: ["Maurice"],
+    possibleTargets: [
+      {
+        title: "Maurice",
+        label: "Maurice",
+        type: "person",
+        slug: "maurice",
+        date: "r. 582–602",
+        contextHints: [
+          "Avars",
+          "Strategikon",
+          "Khosrow",
+          "Tiberius II",
+          "Priscus",
+          "Sasanian",
+          "582",
+          "602"
+        ]
+      }
+    ]
+  },
   {
     // "Richard I" is Richard the Lionheart's alias, but on the Normandy pages it
     // is the tenth-century duke, Richard I of Normandy, who has no article. Link

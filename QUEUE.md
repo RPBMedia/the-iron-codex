@@ -966,7 +966,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    important places**. Audit 2026-09-15: 171 locations, **107 under 2,000 and 129
    under 5,000; only 8 have two or more images.** The worst of the famous: `rome`
    997, `london` 969, `aachen` 881, `paris` 879, `oxford` 854. Rank by inbound
-   links and fame, propose each batch, then write. Side finding: `locationType`
+   links and fame, propose each batch, then write. **Batch 1 done 2026-09-15**
+   (owner-approved scope: about 40 famous places, in batches of about 10):
+   `damascus`, `oxford`, `rome`, `paris`, `london`, `aachen`, `toledo`, `seville`,
+   `granada`, `novgorod`, each now over 5,000 chars with a timeline and two or three
+   images, the main image a pre-modern view of the whole city under the new
+   CLAUDE.md rule. Next candidates: `valencia`, `lisbon`, `antioch`, `winchester`,
+   `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
 0b. **OWNER REQUEST 2026-09-15 — a Danelaw article.** Searched first: no article,
@@ -1036,6 +1042,20 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    a coin) and say plainly that the polity had no arms. Once done, gate it in
    `check-images.mjs` for kingdom-type locations, with an allowlist for the
    no-heraldry polities.
+0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
+   category. The largest expansion the project has had.** The owner's full spec is
+   `iron-codex-civilizations-master-prompt.md` in the repo root (3,429 lines;
+   about 150 peoples, c. 300–1500, plus an archive-wide knowledge-graph audit).
+   Read it in full before planning. Existing `pechenegs` and `cumans` are
+   Polity-typed locations that already behave like people pages: resolve them,
+   don't duplicate them. Non-negotiables:
+   civilization ≠ state (Ostrogoths ≠ Ostrogothic Kingdom), flexible entity kinds
+   (Vikings are a phenomenon, not an ethnicity), audit first and never duplicate,
+   no thin pages for obscure groups, no backward projection of modern national
+   identities. **Recommended order:** Phase 0, architecture (collection, route,
+   index, search, sitemap, link type, relationship fields) plus an audit report,
+   no content; Phase 1, a vertical slice proving the model (Goths, Visigoths,
+   Ostrogoths, Norse, Vikings); then region by region, each batch proposed first.
 1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the
