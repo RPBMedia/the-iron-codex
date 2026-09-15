@@ -1044,7 +1044,8 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Scan run 2026-09-15:** 1,109 images: 98 frame, 50 pair, 36 single, no errors. Reviewed by eye on contact sheets:
    - **Ship 1 (this one): 28 real margins cropped.** These are scans of prints, chronicle and manuscript pages, a photograph on its card mount (`covadonga`) and a photographed book spread (`michael-bourtzes`). They are self-hosted under `client/public/images/<collection>/` by `scripts/crop-image-borders.mjs`: blank edges are trimmed automatically, and a manual `@x0,y0,x1,y1` box handles the three the blank test cannot see. Printed titles and captions on the plates are kept.
    - **Ship 2: about 32 coins and seals on a white or paper ground.** Crop tight to the object. Round objects keep white corners.
-   - **Owner decision needed:** about 11 objects and figures photographed on white, plus about 45 Weapons & Armor objects on white. CLAUDE.md currently asks for W&A objects isolated on a plain white ground, and a long thin object such as a pike or lance leaves most of the frame white.
+   - **Owner decided 2026-09-15: keep them.** This covers about 11 objects and figures photographed on white, plus about 45 Weapons & Armor objects on white. A plain white background is fine; only a thick white border around a picture is a margin. Recorded in CLAUDE.md.
+   - **Coins and seals: the owner asked for an example before deciding.** It shows three versions: the current image, a tight crop, and the white knocked out to the frame colour.
    - **Separate quality item:** `vandal-kingdom`, `mongol-empire` and `sasanian-empire` lead with washed-out, very pale maps.
    - **Not margins:** maps with light seas, white skies inside engravings, and manuscript parchment.
 0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
