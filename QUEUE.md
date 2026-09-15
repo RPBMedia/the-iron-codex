@@ -971,8 +971,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `damascus`, `oxford`, `rome`, `paris`, `london`, `aachen`, `toledo`, `seville`,
    `granada`, `novgorod`, each now over 5,000 chars with a timeline and two or three
    images, the main image a pre-modern view of the whole city under the new
-   CLAUDE.md rule. Next candidates: `valencia`, `lisbon`, `antioch`, `winchester`,
-   `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
+   CLAUDE.md rule. **Batch 2 done 2026-09-15:** `valencia`, `lisbon`,
+   `marrakesh`, `winchester`, `westminster`, `poitiers`, `tours`, `antioch`, `edirne`,
+   `bursa`, each 6,800–8,300 chars with a timeline of 12–17 entries and 2–4 images.
+   Every main image is a pre-1900 view of the whole place, checked by an
+   independent reviewer (one Westminster caption corrected). All 33 image URLs load.
+   Next candidates, by inbound links among locations still under 5,000:
+   `stockholm`, `bergen`, `gascony`, `covadonga`, `kingdom-of-asturias`,
+   `caliphate-of-cordoba`, `winchester-cathedral`, `kosovo-field`,
+   `chateau-de-vincennes`, `monmouth`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
 0i. ✅ **Fixed 2026-09-15 (owner report on `el-cid`): 15 person pages showed only a name

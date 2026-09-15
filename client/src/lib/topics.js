@@ -420,6 +420,12 @@ export const TOPICS = [
           "summary": "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000."
         },
         {
+          "id": "winchester",
+          "name": "Winchester",
+          "depth": 1,
+          "summary": "The Roman town that became the see of the West Saxon bishops, Alfred the Great's burh and the burial place of Anglo-Saxon and Danish kings, home of the Norman treasury, a battleground of the civil war in 1141, and the seat of some of England's richest bishops."
+        },
+        {
           "id": "winchester-cathedral",
           "name": "Winchester Cathedral",
           "depth": 1,
@@ -427,7 +433,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 67
+    "count": 68
   },
   {
     "slug": "crusades",
@@ -523,6 +529,12 @@ export const TOPICS = [
           "summary": "A crusader kingdom founded after the First Crusade and central to Latin Christian politics in the eastern Mediterranean."
         },
         {
+          "id": "antioch",
+          "name": "Antioch",
+          "depth": 1,
+          "summary": "Antioch on the Orontes: a great city of the Roman east and seat of a patriarch, fought over by Persians, Arabs and Byzantines, taken by the First Crusade in 1098 as the capital of a Norman principality, and destroyed by Baybars in 1268."
+        },
+        {
           "id": "ayyubid-sultanate",
           "name": "Ayyubid Sultanate",
           "depth": 1,
@@ -599,6 +611,12 @@ export const TOPICS = [
           "name": "Papacy",
           "depth": 1,
           "summary": "The office and institutional authority of the bishop of Rome in medieval Latin Christendom."
+        },
+        {
+          "id": "poitiers",
+          "name": "Poitiers",
+          "depth": 1,
+          "summary": "The hilltop capital of the counts of Poitou and dukes of Aquitaine: city of Saints Hilary and Radegund, of Eleanor of Aquitaine and her court, prize of battles fought nearby in 732 and 1356, and seat of the exiled French Parlement where Joan of Arc was examined in 1429."
         },
         {
           "id": "principality-of-achaea",
@@ -837,18 +855,6 @@ export const TOPICS = [
           "name": "Peter the Hermit",
           "depth": 1,
           "summary": "Peter the Hermit was a charismatic preacher associated with the People’s Crusade of 1096. His following moved east before the main baronial armies and became one of the most dramatic examples of popular religious mobilization at the opening of the First Crusade."
-        },
-        {
-          "id": "philip-ii-of-france",
-          "name": "Philip II of France",
-          "depth": 1,
-          "summary": "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines."
-        },
-        {
-          "id": "pope-clement-v",
-          "name": "Pope Clement V",
-          "depth": 1,
-          "summary": "Pope Clement V was the first of the Avignon popes and the pontiff who, under pressure from King Philip IV of France, suppressed the Knights Templar at the Council of Vienne in 1312."
         }
       ],
       "artifacts": [
@@ -923,7 +929,7 @@ export const TOPICS = [
           "id": "antioch",
           "name": "Antioch",
           "depth": 1,
-          "summary": "Antioch on the Orontes was one of the great cities of the ancient world, a patriarchal see of the Christian church, and the prize both sides fought over for six centuries of Byzantine and Muslim warfare."
+          "summary": "Antioch on the Orontes: a great city of the Roman east and seat of a patriarch, fought over by Persians, Arabs and Byzantines, taken by the First Crusade in 1098 as the capital of a Norman principality, and destroyed by Baybars in 1268."
         },
         {
           "id": "avar-khaganate",
@@ -932,10 +938,22 @@ export const TOPICS = [
           "summary": "The Avar Khaganate ruled the Carpathian basin from the 560s to about 800, extorted a fortune in gold from Constantinople, and was destroyed by Charlemagne."
         },
         {
+          "id": "bursa",
+          "name": "Bursa",
+          "depth": 1,
+          "summary": "Byzantine Prusa, taken by Orhan in 1326 and made the first Ottoman capital: the burial city of the first six Ottoman rulers, whose royal mosque complexes and silk markets survive from the fourteenth and fifteenth centuries."
+        },
+        {
           "id": "despotate-of-epirus",
           "name": "Despotate of Epirus",
           "depth": 1,
           "summary": "The Despotate of Epirus was the Greek successor state in north-western Greece that briefly held Thessalonica and claimed the empire, and lost both to Bulgaria in a single afternoon in 1230."
+        },
+        {
+          "id": "edirne",
+          "name": "Edirne",
+          "depth": 1,
+          "summary": "Hadrianopolis, the Byzantine fortress of Thrace where Valens died in 378 and Baldwin of Flanders was captured in 1205, taken by the Ottomans in the 1360s and their capital until 1453: the birthplace of Mehmed II and site of the Old Mosque and the Üç Şerefeli Mosque."
         },
         {
           "id": "emirate-of-crete",
@@ -1300,18 +1318,6 @@ export const TOPICS = [
           "name": "Nikephoros II Phokas",
           "depth": 1,
           "summary": "Nikephoros II Phokas took Crete in 961, Cilicia and Cyprus by 965 and Antioch in 969, ruled as emperor from 963, and was murdered in his own bedchamber by the general who succeeded him."
-        },
-        {
-          "id": "orhan",
-          "name": "Orhan",
-          "depth": 1,
-          "summary": "Orhan (c. 1323–1362), second Ottoman ruler, took Bursa, Nicaea, and Nicomedia from Byzantium, built the first Ottoman institutions — and planted the dynasty in Europe at Gallipoli in 1354."
-        },
-        {
-          "id": "osman-i",
-          "name": "Osman I",
-          "depth": 1,
-          "summary": "Founder of the Ottoman dynasty and state (r. c. 1299–1326), the frontier warrior-chief in Bithynia whose small principality grew into one of history's great empires, named after him."
         }
       ]
     },
@@ -1532,17 +1538,23 @@ export const TOPICS = [
           "id": "poitiers",
           "name": "Poitiers",
           "depth": 1,
-          "summary": "A major city of Aquitaine and a center of ducal power in western France."
+          "summary": "The hilltop capital of the counts of Poitou and dukes of Aquitaine: city of Saints Hilary and Radegund, of Eleanor of Aquitaine and her court, prize of battles fought nearby in 732 and 1356, and seat of the exiled French Parlement where Joan of Arc was examined in 1429."
         },
         {
           "id": "rouen",
           "name": "Rouen",
           "depth": 1,
           "summary": "The chief city of Normandy and a major political, ecclesiastical, and commercial center."
+        },
+        {
+          "id": "tours",
+          "name": "Tours",
+          "depth": 1,
+          "summary": "The Loire city of Saint Martin's shrine: see of Gregory of Tours, Alcuin's Carolingian abbey, goal of the Umayyad raid halted in 732, an Angevin and then royal town whose coin became France's money of account, and the residence of Louis XI."
         }
       ]
     },
-    "count": 34
+    "count": 35
   },
   {
     "slug": "norman-conquest",
@@ -1777,7 +1789,7 @@ export const TOPICS = [
           "id": "westminster",
           "name": "Westminster",
           "depth": 1,
-          "summary": "A royal and ecclesiastical center in London where Edward, the Black Prince died in 1376."
+          "summary": "The abbey and palace upstream from London where Edward the Confessor was buried and William the Conqueror crowned, where the Exchequer and the royal courts settled, and where medieval Parliaments met: the working seat of English kingship and government."
         },
         {
           "id": "winchester-cathedral",
@@ -2051,7 +2063,13 @@ export const TOPICS = [
           "id": "lisbon",
           "name": "Lisbon",
           "depth": 1,
-          "summary": "Lisbon — Roman Olisipo, Muslim al-Ushbuna, Portuguese Lisboa — commands the estuary of the Tagus, the finest harbour of Atlantic Iberia. Conquered by Afonso Henriques and a Second Crusade fleet after the seventeen-week siege of 1147, it grew from frontier prize into the effective capital of Portugal: seat of the court from the mid-thirteenth century, its greatest port, and by the end of the Middle Ages one of the Atlantic world's great cities."
+          "summary": "The Tagus port that Afonso Henriques and a crusader fleet took in 1147, seat of the Portuguese court from the thirteenth century, the city whose rising of 1383 made John of Aviz king, and the home port of Portugal's Atlantic voyages."
+        },
+        {
+          "id": "marrakesh",
+          "name": "Marrakesh",
+          "depth": 1,
+          "summary": "The red city of southern Morocco, founded by the Almoravids about 1070 and capital of the Almohad caliphate from 1147 to 1269, where the Koutoubia Mosque was built and Muhammad al-Nasir died after Las Navas de Tolosa."
         },
         {
           "id": "umayyad-caliphate",
@@ -2063,7 +2081,7 @@ export const TOPICS = [
           "id": "valencia",
           "name": "Valencia",
           "depth": 1,
-          "summary": "A rich coastal city of eastern Iberia, capital of a taifa kingdom, famously conquered by El Cid in 1094 and permanently reconquered by James I of Aragon in 1238."
+          "summary": "A Mediterranean city on the Turia: capital of an eleventh-century taifa, conquered by El Cid in 1094, taken for Aragon by James I in 1238, and in the fifteenth century the richest city of the Crown of Aragon, home of the Silk Exchange."
         }
       ],
       "events": [
@@ -2229,7 +2247,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 38
+    "count": 39
   }
 ]
 
@@ -2726,6 +2744,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Viking Age"
     }
   ],
+  "winchester": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
   "winchester-cathedral": [
     {
       "slug": "viking-age",
@@ -2834,6 +2858,16 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "antioch": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    },
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War"
+    }
+  ],
   "ayyubid-sultanate": [
     {
       "slug": "crusades",
@@ -2932,6 +2966,16 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "crusades",
       "title": "The Crusades"
+    }
+  ],
+  "poitiers": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    },
+    {
+      "slug": "hundred-years-war",
+      "title": "The Hundred Years' War"
     }
   ],
   "principality-of-achaea": [
@@ -3188,18 +3232,6 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
-  "philip-ii-of-france": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "pope-clement-v": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
   "shroud-of-turin": [
     {
       "slug": "crusades",
@@ -3240,19 +3272,25 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Byzantine Empire at War"
     }
   ],
-  "antioch": [
-    {
-      "slug": "byzantine-warfare",
-      "title": "The Byzantine Empire at War"
-    }
-  ],
   "avar-khaganate": [
     {
       "slug": "byzantine-warfare",
       "title": "The Byzantine Empire at War"
     }
   ],
+  "bursa": [
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War"
+    }
+  ],
   "despotate-of-epirus": [
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War"
+    }
+  ],
+  "edirne": [
     {
       "slug": "byzantine-warfare",
       "title": "The Byzantine Empire at War"
@@ -3582,18 +3620,6 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Byzantine Empire at War"
     }
   ],
-  "orhan": [
-    {
-      "slug": "byzantine-warfare",
-      "title": "The Byzantine Empire at War"
-    }
-  ],
-  "osman-i": [
-    {
-      "slug": "byzantine-warfare",
-      "title": "The Byzantine Empire at War"
-    }
-  ],
   "battle-of-agincourt": [
     {
       "slug": "hundred-years-war",
@@ -3772,12 +3798,6 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Hundred Years' War"
     }
   ],
-  "poitiers": [
-    {
-      "slug": "hundred-years-war",
-      "title": "The Hundred Years' War"
-    }
-  ],
   "rouen": [
     {
       "slug": "hundred-years-war",
@@ -3786,6 +3806,12 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "norman-conquest",
       "title": "The Norman Conquest"
+    }
+  ],
+  "tours": [
+    {
+      "slug": "hundred-years-war",
+      "title": "The Hundred Years' War"
     }
   ],
   "norman-conquest": [
@@ -4041,6 +4067,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "lisbon": [
+    {
+      "slug": "reconquista",
+      "title": "The Reconquista"
+    }
+  ],
+  "marrakesh": [
     {
       "slug": "reconquista",
       "title": "The Reconquista"
