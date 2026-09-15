@@ -10,14 +10,14 @@
   "locationType": "Caliphate",
   "kingdom": "The Islamic world",
   "year": 632,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RashidunCaliphateEng.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RashidunCaliphateEng.png?width=1600",
   "imageInfo": {
-    "caption": "The Rashidun Caliphate at its greatest extent in 654, under the third caliph Uthman.",
-    "creator": "Wikimedia Commons contributor (Wario2)",
-    "date": "modern map of the caliphate in 654",
+    "caption": "Modern map of the Rashidun Caliphate at its greatest extent in 654, under Uthman, divided into provinces from the Maghreb and Egypt to Fars and Khurasan, with the Roman (Byzantine) Empire to the north.",
+    "creator": "Wario2 (Wikimedia Commons), also credited on the map to DaniCBP",
+    "date": "2024; shows 654 (AH 33 to 34)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:RashidunCaliphateEng.png",
-    "note": "A modern map. Twenty-two years separate this from the death of Muhammad, and in that time the caliphate took Syria, Palestine, Egypt, Mesopotamia and Iran. The map labels the Byzantine Empire \"Roman Empire\", which is what it called itself. Released CC0."
+    "note": "Modern reconstruction on a blank base map of the Middle East, not a period document, and the file names no source for its borders. Provincial boundaries are drawn as fixed lines, which makes the early governorships look more settled than they were, and Armenia (Arminiya) is shaded apart as autonomous. The Byzantine Empire is labelled 'Roman Empire', the name it used for itself. The box in the corner is a modern addition: its black rectangle stands for the black banner of early Muslim tradition, not a documented state flag, and 'Sunni Islam (pre-fitna)' applies a sectarian label that took shape only later. Medina appears both as a province label and as the capital. Released CC0."
   },
   "summary": "The first Islamic state after the death of Muhammad, ruled by four caliphs between 632 and 661, which took Syria, Egypt and the whole Sasanian Empire in a single generation.",
   "overview": [
@@ -195,12 +195,24 @@
       "title": "Rashidun Caliphate",
       "url": "https://en.wikipedia.org/wiki/Rashidun_Caliphate",
       "type": "encyclopedia"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:RashidunCaliphateEng.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Islamic_coin%2C_Time_of_the_Rashidun._Khosrau_type._AH_31-41_AD_651-661.jpg"
     }
   ],
   "sectionImages": [
     {
       "section": "The conquests",
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20Rashidun%20Caliphate%20Conquests%20(632%E2%80%93656%20CE).png",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Rashidun_Caliphate_Conquests_(632%E2%80%93656_CE).png?width=1600",
       "caption": "The conquests phase by phase: the territory held at Muhammad's death, then the gains under Abu Bakr, under Umar, and under Uthman.",
       "creator": "Wikimedia Commons contributor, after Muhammad al-Salimi",
       "date": "modern map of 632–656",
@@ -208,5 +220,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Rashidun_Caliphate_Conquests_(632%E2%80%93656_CE).png",
       "note": "The legend is in Arabic, so the phases are given here instead: purple is the territory held when Muhammad died in 632, green the conquests under Abu Bakr (632–634), red those under Umar (634–644) — which is Syria, Egypt and Persia — and yellow those under Uthman (644–656). The dotted line marks the shifting Muslim–Byzantine frontier zone. CC BY 4.0."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Islamic_coin%2C_Time_of_the_Rashidun._Khosrau_type._AH_31-41_AD_651-661.jpg",
+  "armsImageInfo": {
+    "caption": "The Rashidun Caliphate bore no coat of arms; its first silver coins copied Sasanian drachms and added 'bism Allah' in the margin, as on this drachm struck at Bishapur in 656 or 657.",
+    "creator": "Arab-Sasanian mint of Bishapur (photograph by Classical Numismatic Group)",
+    "date": "dated year 25 of the Yazdegerd era (AH 36, 656 or 657)",
+    "source": "Wikimedia Commons (Classical Numismatic Group)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Islamic_coin%2C_Time_of_the_Rashidun._Khosrau_type._AH_31-41_AD_651-661.jpg",
+    "note": "A photograph of a genuine silver drachm (33 mm, 4.03 g), not a modern reconstruction. It keeps the design of the last Sasanian coinage: the crowned bust of Khosrow II on one side, and a fire altar between two attendants on the other, with the date and the mint signature BYS for Bishapur in Fars. The one Islamic element is 'bism Allah', in the name of God, written in Arabic in the margin beside the bust. Year 25 of the era of Yazdegerd III falls in AH 36, the first year of Ali's caliphate. The Rashidun caliphs issued no coinage of their own design and these drachms name no caliph; a distinctly Islamic coinage began only with the reforms of the Umayyad caliph Abd al-Malik in the 690s. Licensed CC BY-SA 3.0 (with GFDL), with permission from CNG."
+  }
 }

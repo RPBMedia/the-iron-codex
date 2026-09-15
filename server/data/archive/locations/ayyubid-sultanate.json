@@ -8,7 +8,7 @@
   "locationType": "Sultanate",
   "kingdom": "Egypt, Syria, and the Levant",
   "year": "1171",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ayyubid_Sultanate_1193_AD.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayyubid_expansion_1174-1193.png",
   "summary": "The Ayyubid Sultanate was the dynasty founded by Saladin, ruling Egypt and Syria while confronting the crusader states and the armies of the Third Crusade.",
   "overview": [
     "The Ayyubid Sultanate was Saladin's creation: the Kurdish soldier who ended the Fatimid caliphate (1171), united Egypt and Syria over Nur ad-Din's inheritance, destroyed the crusader army at Hattin and retook Jerusalem (1187), and fought the Third Crusade to the standing truce of 1192.",
@@ -22,12 +22,12 @@
     "The Mamluk coup of 1250"
   ],
   "imageInfo": {
-    "caption": "Representative image for Ayyubid Sultanate.",
-    "creator": "Public-domain or Wikimedia Commons contributor",
-    "date": "medieval/later image or modern historical map",
-    "source": "Wikimedia Commons",
-    "note": "Representative visual evidence; heraldry and maps may be later reconstructions rather than contemporary state portraits.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayyubid_Sultanate_1193_AD.jpg"
+    "caption": "Modern relief map of Ayyubid expansion from 1174 to 1193, shading the lands of Saladin's family from Egypt and Tripoli to Aleppo, Mayyafariqin and Yemen, with the campaigns of Saladin, Turan Shah and Qaraqush.",
+    "creator": "Pataliputra (Wikimedia Commons), on a Natural Earth relief base",
+    "date": "2025; shows 1174 to 1193",
+    "source": "Wikimedia Commons (after Jonathan Riley-Smith, ed., Atlas of the Crusades, 1991, page 58)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayyubid_expansion_1174-1193.png",
+    "note": "Modern reconstruction, not a period document, drawn after the map on page 58 of Jonathan Riley-Smith's Atlas of the Crusades (1991). The orange shading is the Ayyubid realm at its widest, reached by Saladin's death in 1193. There is no legend, so the labelled arrows are the key: Saladin's advance from Cairo into Syria and the Jazira (about 1174 to 1185), Turan Shah's conquest of Yemen (about 1174), and the westward raids of Qaraqush, a mamluk of Saladin's nephew Taqi al-Din, as far as Tripoli in Libya and Gabès (about 1175 to 1190); the unlabelled arrows from Upper Egypt point into Nubia and across the Red Sea. The shading treats as one realm what was a family confederation of appanages: Mosul (Mossul) was a vassal only from 1186, Qaraqush's North African gains were never firmly held, and the crusader towns on the Levantine coast are not marked. Licensed CC BY-SA 4.0."
   },
   "contentSections": [
     {
@@ -99,6 +99,18 @@
       "title": "Baha al-Din ibn Shaddad, The Rare and Excellent History of Saladin",
       "author": "Baha al-Din ibn Shaddad",
       "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ayyubid_expansion_1174-1193.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ayyubids._Egypt._al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._1169-1193_CE._Citing_Abbasid_caliph_an-Nasir._Dimashq_(Damascus)_mint._Dated_AH_583_(1187-1188_CE).jpg"
     }
   ],
   "relatedEntries": {
@@ -200,5 +212,14 @@
       "title": "Aftermath at Ain Jalut",
       "description": "The Mamluk successors stop the Mongols; Syria's Ayyubid remnants fold in."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ayyubids._Egypt._al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._1169-1193_CE._Citing_Abbasid_caliph_an-Nasir._Dimashq_(Damascus)_mint._Dated_AH_583_(1187-1188_CE).jpg",
+  "armsImageInfo": {
+    "caption": "The Ayyubid Sultanate bore no coat of arms; its coins named the sultan and the Abbasid caliph he recognised, as on this silver dirham of Saladin struck at Damascus in 1187 or 1188, the year of Hattin.",
+    "creator": "Damascus mint of Saladin (photograph by Classical Numismatic Group)",
+    "date": "struck AH 583 (1187 or 1188)",
+    "source": "Wikimedia Commons (Classical Numismatic Group, Electronic Auction 409, lot 788)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayyubids._Egypt._al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._1169-1193_CE._Citing_Abbasid_caliph_an-Nasir._Dimashq_(Damascus)_mint._Dated_AH_583_(1187-1188_CE).jpg",
+    "note": "A photograph of a genuine silver dirham (22 mm, 2.93 g), not a modern reconstruction. The Kufic legend inside the square on one side gives Saladin's regnal name, al-Malik al-Nasir Salah al-Dunya wa al-Din; the other side names the Abbasid caliph al-Nasir li-Din Allah, whose overlordship Saladin acknowledged on his coinage, and the margins give the mint, Dimashq (Damascus), and the date. AH 583 ran from March 1187 to March 1188, the year of his victory at Hattin and his recovery of Jerusalem. The paired names were the dynasty's statement of legitimacy, not heraldry: the Ayyubids used no family arms. Licensed CC BY-SA 2.5 (with GFDL), with permission from CNG."
+  }
 }

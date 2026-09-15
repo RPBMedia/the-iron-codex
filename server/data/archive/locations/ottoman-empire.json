@@ -5,7 +5,7 @@
   "locationType": "Empire",
   "year": "c. 1299",
   "kingdom": "Anatolia and southeastern Europe",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OttomanEmpire1451.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emp%C3%A8ri_Otoman_-_Expansion_territ%C3%B2riala_de_1307_a_1490.png?width=1600",
   "summary": "A rising imperial power that conquered Constantinople and became central to late medieval European politics.",
   "overview": [
     "The Ottoman Empire grew from a Bithynian frontier beylik into the power that ended Byzantium: Osman's ghazi band (c. 1299) to Orhan's Bursa and the Gallipoli crossing (1354), Murad I's Adrianople and Kosovo (1389), Bayezid's empire wrecked by Timur at Ankara (1402) and rebuilt within a generation — to Mehmed II's conquest of Constantinople in 1453.",
@@ -79,12 +79,12 @@
     ]
   },
   "imageInfo": {
-    "caption": "Ottoman Empire.",
-    "creator": "Map contributor on Wikimedia Commons",
-    "date": "modern map or historical reconstruction",
+    "caption": "Modern Occitan-language map of Ottoman expansion from 1307 to 1490, shading Osman's lands in Bithynia and each later wave of conquest, with the battles of Kosovo, Nicopolis, Ankara and Varna marked.",
+    "creator": "Nicolas Eynaud (Wikimedia Commons)",
+    "date": "2014; shows 1307 to 1490",
     "source": "Wikimedia Commons",
-    "note": "Map or reconstruction used to represent approximate medieval geography, not exact modern borders.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OttomanEmpire1451.png"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emp%C3%A8ri_Otoman_-_Expansion_territ%C3%B2riala_de_1307_a_1490.png",
+    "note": "Modern reconstruction with Occitan labels, not a period document, and the file names no source. Andrinòple is Adrianople (Edirne), Galipòli Gallipoli, Esmirna Smyrna, Filadèlfia Philadelphia (Alaşehir), Ongria Hungary and Valàquia Wallachia; the small print under each town gives the year the Ottomans took it. The legend separates the territory held in 1307 from the conquests of 1307 to 1360, 1360 to 1400, 1400 to 1451 and 1451 to 1490, so the palest shade (Bosnia, the Morea, Trebizond, Konya and Karaman) lies beyond this archive's 1453 horizon. Red markers are Ottoman victories, among them Kosovo (1389), Nicopolis (1396) and Varna (1444); blue markers are defeats at Ankara (1402), Belgrade (1456) and Rhodes (1480). The shading records first conquest only, so it does not show the lands lost after Ankara and won back under Mehmed I and Murad II. Genoese, Venetian and Hospitaller possessions are shown as they stood in 1490. Licensed CC BY-SA 3.0."
   },
   "contentSections": [
     {
@@ -172,6 +172,18 @@
       "title": "Osman's Dream",
       "author": "Caroline Finkel",
       "type": "book"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Emp%C3%A8ri_Otoman_-_Expansion_territ%C3%B2riala_de_1307_a_1490.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Mehmed_II_Tughra_1468.png"
     }
   ],
   "timeline": [
@@ -230,5 +242,14 @@
       "title": "Belgrade holds",
       "description": "Hunyadi's defence fixes the Danube frontier for seventy years."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmed_II_Tughra_1468.png",
+  "armsImageInfo": {
+    "caption": "The Ottoman Empire bore no coat of arms; its sultans authenticated decrees with the tughra, a calligraphic monogram, like this ink tughra of Mehmed II at the head of a property grant of 1468.",
+    "creator": "Chancery of Mehmed II (drawn by the nişancı, the official in charge of the tughra)",
+    "date": "1468",
+    "source": "Wikimedia Commons (reproduced from Ayşegül Nadir, ed., Osmanlı Padişah Fermanları, exhibition catalogue, Istanbul, 1986)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehmed_II_Tughra_1468.png",
+    "note": "A reproduction of a genuine document, not a modern redrawing: the tughra at the head of a mülkname, a grant of land in full ownership, issued in 1468. Drawn in ink by the nişancı, it spells out Mehmed son of Murad Khan with the formula 'ever victorious', the three upright shafts and the long loop to the left being the fixed parts of the design. Ottoman rulers placed a tughra on their documents from Orhan's grants of the 1320s onward, and it later appeared on coins and buildings; it was the sultan's personal signature, renewed for each reign, not heraldry, and the empire adopted a coat of arms only in the 1880s. Mehmed II had already reigned in 1444 to 1446 and took Constantinople in 1453. The catalogue reproduction does not record the document's archive or recipient. Public domain (Ottoman document of 1468)."
+  }
 }

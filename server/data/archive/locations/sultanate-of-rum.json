@@ -11,14 +11,14 @@
   "locationType": "Sultanate",
   "kingdom": "Anatolia",
   "year": 1077,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seljuk%20Sultanate%20of%20Rum%201190%20Locator%20Map.svg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Espansione_del_Sultanato_di_Rum_(1100-1240).svg?width=700",
   "imageInfo": {
-    "caption": "The Sultanate of Rum with its borders as of 1190, marking the battle sites of Dorylaeum (1147), Myriokephalon (1176) and Antalya (1207).",
-    "creator": "Wikimedia Commons contributor (MapMaster)",
-    "date": "modern map, borders as of 1190",
+    "caption": "Modern Italian-language map of the Sultanate of Rum's growth from its core around Konya in 1100 to its widest extent in 1240, shading its gains from the Danishmendids and the Byzantines.",
+    "creator": "Unochepassava94 (Wikimedia Commons), on a base map of Turkey by NordNordWest",
+    "date": "2024; shows 1100 to 1240",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seljuk_Sultanate_of_Rum_1190_Locator_Map.svg",
-    "note": "A modern locator map. Its value here is that it plots the battles as well as the borders, so Myriokephalon can be seen in relation to the territory it was fought over. CC BY-SA 4.0."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espansione_del_Sultanato_di_Rum_(1100-1240).svg",
+    "note": "Modern reconstruction with Italian labels, not a period document, and the file names no historical source. The legend reads: lands of the Sultanate of Rum around 1100; lands conquered from the Danishmendids by 1174; lands conquered from the Byzantines by 1182; lands conquered by 1240. Towns carry their modern Turkish names with the older Greek-derived ones beneath, so Konya is Iconio (Iconium), Kayseri Cesarea, Sivas Sebaste, Eskişehir Dorileo (Dorylaeum) and Erzurum Teodosiopoli (Theodosiopolis). The palest shade includes the sultanate's ports, Antalya (taken in 1207) and Sinop (1214), which gave it outlets on the Mediterranean and the Black Sea. The map leaves out the neighbouring states (the Empire of Nicaea, Trebizond and Cilician Armenia) and does not show the losses that followed the Mongol victory at Köse Dağ in 1243. Licensed CC BY-SA 4.0."
   },
   "summary": "The Turkish sultanate that ruled central Anatolia from Konya between 1077 and 1308, carved out of Byzantine territory after Manzikert and named for the Romans it displaced.",
   "overview": [
@@ -190,12 +190,24 @@
       "title": "Sultanate of Rum",
       "url": "https://en.wikipedia.org/wiki/Sultanate_of_Rum",
       "type": "encyclopedia"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Espansione_del_Sultanato_di_Rum_(1100-1240).svg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Dirham_of_Ghiyath_al-Din_Kai_Khusrau_II_(r._1239%E2%80%9346)_Astrological_Device_(Sun-Lion)_dated_638_AH_(1240%E2%80%9341_CE).jpg"
     }
   ],
   "sectionImages": [
     {
       "section": "Konya and the Seljuk cultural flowering",
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Konya%20Alaeddin%20Mosque%203945.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Konya_Alaeddin_Mosque_3945.jpg?width=1600",
       "caption": "The Alâeddin Mosque on the citadel hill at Konya, with the dome over the remains of the Seljuk palace in the foreground.",
       "creator": "Photograph by Dosseman",
       "date": "modern photograph of a twelfth-century building",
@@ -203,5 +215,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Konya_Alaeddin_Mosque_3945.jpg",
       "note": "The dynastic mosque of the sultans of Rum, built and extended across the twelfth century on the citadel mound. The palace whose remains are sheltered under the modern dome is the building the enthronement tile of Kilij Arslan II came from. CC BY-SA 4.0."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Dirham_of_Ghiyath_al-Din_Kai_Khusrau_II_(r._1239%E2%80%9346)_Astrological_Device_(Sun-Lion)_dated_638_AH_(1240%E2%80%9341_CE).jpg?width=1600",
+  "armsImageInfo": {
+    "caption": "The Sultanate of Rum bore no coat of arms; Kaykhusraw II put a sun with a human face above a striding lion on silver dirhams like this one, struck at Konya in 1240 or 1241.",
+    "creator": "Mint of Kaykhusraw II, Konya (photograph by the Metropolitan Museum of Art)",
+    "date": "struck AH 638 (1240 or 1241)",
+    "source": "Wikimedia Commons (Metropolitan Museum of Art, New York, collection object 454764)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dirham_of_Ghiyath_al-Din_Kai_Khusrau_II_(r._1239%E2%80%9346)_Astrological_Device_(Sun-Lion)_dated_638_AH_(1240%E2%80%9341_CE).jpg",
+    "note": "A photograph of a genuine silver dirham, not a modern reconstruction. One side shows a lion striding beneath a radiant sun with a human face, the astrological image of the sun in Leo; the legends name 'the greatest sultan, Ghiyath al-Dunya wa al-Din Kaykhusraw son of Kayqubad' and the Abbasid caliph al-Mustansir, with the mint, Konya, and the year 638. Rum Seljuk silver is unusual in Islamic coinage for carrying figures at all. The sun-lion was a device of Kaykhusraw II's reign, which the chronicler Bar Hebraeus says he chose in place of a portrait of his Georgian wife; it was a personal badge on coins, not arms of the state or the dynasty. The museum released the photograph under CC0; the Commons page carries CC BY-SA 4.0."
+  }
 }

@@ -5,7 +5,7 @@
   "locationType": "Empire",
   "kingdom": "Iran, Iraq, Syria, and Anatolia",
   "year": "1037",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Seljuk_Empire_locator_map.svg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_Seljuk_Empire_(1092).png?width=1600",
   "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia.",
   "overview": [
     "The Great Seljuk Empire carried the Turks into Middle Eastern history: Oghuz war-bands under the house of Seljuk who broke the Ghaznavids at Dandanaqan (1040), took Baghdad as the caliph's \"liberators\" (1055), and under Tughril Beg, Alp Arslan, and Malik-Shah I ruled from Transoxiana to Syria — the sultanate itself invented for them.",
@@ -19,13 +19,12 @@
     "The 1092 fracture, Rum's sultanate, and Köse Dağ (1243)"
   ],
   "imageInfo": {
-    "caption": "The extent of the Great Seljuk Empire at its height.",
-    "creator": "MapMaster",
-    "date": "2008-03-10",
+    "caption": "Modern relief map of the Great Seljuk Empire at the death of Malik-Shah I in 1092, stretching from Anatolia and Syria to Transoxiana, with Manzikert, Baghdad, Isfahan and Merv marked.",
+    "creator": "Ktrinko and MapMaster (Wikimedia Commons), extracted by Pataliputra",
+    "date": "drawn 2023; shows 1092",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seljuk_Empire_locator_map.svg",
-    "license": "CC BY-SA 4.0",
-    "note": "Map/diagram used to show extent or location."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_Seljuk_Empire_(1092).png",
+    "note": "Modern reconstruction on a shaded-relief base, not a period document. It was cut from a larger composite map and follows MapMaster's 2008 locator of the empire in 1092; the file cites Andrew Peacock's The Great Seljuk Empire (2015) and Sluglett and Currie's Atlas of Islamic History (2015), among others. The map has no legend. The paler band over Transoxiana marks the Karakhanid khans of Bukhara and Samarkand, vassals of Malik-Shah from 1089, as on the locator it follows; the striped zone in Anatolia is not explained, but matches the Turkish lordships there, among them the one that became the Sultanate of Rum, which owed the sultan only loose allegiance. The shading down the Red Sea coast to Aden reflects Malik-Shah's expedition of 1092 to assert his authority in Mecca and Yemen, a claim of overlordship rather than settled rule. Tehran is an anachronism: the city of the region was Rayy, a few miles to the south. Licensed CC BY-SA 4.0."
   },
   "contentSections": [
     {
@@ -97,6 +96,18 @@
       "title": "Nizam al-Mulk, Siyasatnama (Book of Government)",
       "author": "Nizam al-Mulk",
       "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_of_the_Seljuk_Empire_(1092).png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:TughrilCoin.jpg"
     }
   ],
   "aliases": [
@@ -201,5 +212,14 @@
       "title": "Köse Dağ",
       "description": "The Mongols break Rum; the beylik age begins."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/TughrilCoin.jpg",
+  "armsImageInfo": {
+    "caption": "The Great Seljuk Empire bore no coat of arms; its coins carried a tamgha, a Turkic clan mark, as above the legends on this gold dinar of Tughril Beg struck at Isfahan in 1056 or 1057.",
+    "creator": "Mint of Tughril Beg, Isfahan (photograph by Classical Numismatic Group)",
+    "date": "struck AH 448 (1056 or 1057)",
+    "source": "Wikimedia Commons (Classical Numismatic Group, Feature Auction 76, lot 1730, 12 September 2007)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TughrilCoin.jpg",
+    "note": "A photograph of a genuine gold dinar (4.07 g), not a modern reconstruction. One side gives the Muslim profession of faith and the name of the Abbasid caliph al-Qa'im, whose protector Tughril had become on entering Baghdad in 1055, with a verse of the Quran (30:3–4) in the outer margin and the mint and date in the inner one; the other completes the creed and gives Tughril's name and titles, including shahanshah and Rukn al-Din. A tamgha sits above the legend on both sides. The tamgha was the brand of the Seljuks' Oghuz clan, placed on coins as the sign of the ruling family; it was a tribal mark, not heraldry. Isfahan had been Tughril's capital since he took it in 1051. Licensed CC BY-SA 3.0 (with GFDL), with permission from CNG."
+  }
 }
