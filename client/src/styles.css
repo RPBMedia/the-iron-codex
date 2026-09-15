@@ -3369,6 +3369,13 @@ a.tree-person:hover .tree-person-name {
   color: var(--gold-soft);
 }
 
+/* The shared dark backdrop behind page sections is a fixed band (660–760px).
+   Insights grew past it once the accounts chart was added, so the chart ran onto
+   the light page. On this page the band covers the whole section instead. */
+.insights-page::before {
+  bottom: 0;
+}
+
 .insights-summary {
   margin-bottom: 26px;
 }
@@ -3545,5 +3552,12 @@ a.tree-person:hover .tree-person-name {
 
 .insights-chart-title {
   margin: 22px 0 8px;
+  color: var(--paper);
   font-size: 15px;
+}
+
+/* The same empty-state class is used inside the light panels; outside them it sits
+   on the dark backdrop and needs light text. */
+.insights-page > .insights-empty {
+  color: rgba(215, 217, 221, 0.7);
 }

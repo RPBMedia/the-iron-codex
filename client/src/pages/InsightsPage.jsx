@@ -119,7 +119,7 @@ export default function InsightsPage() {
   const accounts = data?.accounts
 
   return (
-    <section className="content-section page-section">
+    <section className="content-section page-section insights-page">
       <div className="section-heading wide">
         <p className="eyebrow">Private</p>
         <h1>Insights</h1>
