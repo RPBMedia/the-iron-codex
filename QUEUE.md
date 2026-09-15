@@ -975,6 +975,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0i. ✅ **Fixed 2026-09-15 (owner report on `el-cid`): 15 person pages showed only a name
+   and an image.** Their `type` was "person" instead of "character", and `DetailPage`
+   chooses the person layout from `type`, so neither the facts panel nor the article
+   body rendered. Affected: pelagius-of-asturias, ramiro-ii-of-leon, abd-al-rahman-iii, alfonso-vi-of-leon-and-castile, yusuf-ibn-tashfin, el-cid, johannes-liechtenauer, fiore-dei-liberi, yaqub-al-mansur, ferdinand-iii-of-castile, ferdinand-ii-of-aragon, muhammad-xii-of-granada, mstislav-the-bold, khalid-ibn-al-walid, kilij-arslan-ii. Data fixed, and `check-content-quality`
+   now hard-fails any article whose type does not match its collection. **Same
+   commit:** 58 people store `birth.place`/`death.place` as plain text (e.g. "London or
+   Oxford"), which `LinkedLocationFact` rendered as nothing; plain text now shows. Of
+   those, 27 match an existing location article exactly. Linking them is a possible
+   follow-up, not done.
 0h. ✅ **Fixed 2026-09-15 (owner report on `catherine-of-valois`): empty Key
    achievements boxes.** 48 people stored `keyAchievements` as plain sentences, but
    `KeyAchievements` read only `.title`, so each achievement rendered as an empty card.

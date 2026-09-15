@@ -1697,8 +1697,11 @@ function EntryLink({ entry, children }) {
   return <Link to={route}>{children}</Link>
 }
 
+// A place is an object ({ name, slug? }) or, in 58 older person articles, plain
+// text such as "London or Oxford", which used to render as nothing.
 function LinkedLocationFact({ place }) {
   if (!place) return 'Unknown'
+  if (typeof place === 'string') return place
 
   if (!place.slug) {
     return place.name

@@ -140,6 +140,17 @@ for (const [collection, entries] of Object.entries(data)) {
     }
   }
 }
+// Hard failure: an article's `type` must match its collection. The page picks
+// its layout from `type`, so 15 people typed "person" instead of "character"
+// rendered only a name, an image and the favourite button (El Cid, reported
+// 2026-09-15).
+const COLLECTION_TYPES = { characters: 'character', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', houses: 'house', orders: 'order' }
+for (const [collection, entries] of Object.entries(data)) {
+  if (!Array.isArray(entries) || !COLLECTION_TYPES[collection]) continue
+  for (const entry of entries) {
+    if (entry.type !== COLLECTION_TYPES[collection]) typeFailings.push(`${collection}/${entry.id}: type is "${entry.type}", must be "${COLLECTION_TYPES[collection]}"`)
+  }
+}
 if (typeFailings.length) {
   console.error(`HARD FAILURE: ${typeFailings.length} list field(s) with the wrong type:`)
   typeFailings.forEach(f => console.error(' -', f))
