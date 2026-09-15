@@ -83,6 +83,17 @@ function Table({ title, rows, emptyLabel, linkPaths = false }) {
   )
 }
 
+/**
+ * The honest limits of the favourites series, said under the chart: it counts
+ * favourites by the day they were added, a removed favourite is gone from the
+ * store, and favourites saved without a date cannot be placed on a day.
+ */
+function favoritesNote(undated) {
+  const base = 'Counted by the day each favourite was added. A favourite that was later removed no longer counts'
+  if (!undated) return `${base}.`
+  return `${base}, and ${undated.toLocaleString()} older favourite${undated === 1 ? '' : 's'} saved without a date ${undated === 1 ? 'is' : 'are'} left out.`
+}
+
 export default function InsightsPage() {
   const { isAdmin, isLoading: authLoading } = useAuth()
   const [days, setDays] = useState(30)
@@ -117,6 +128,7 @@ export default function InsightsPage() {
   }
 
   const accounts = data?.accounts
+  const favorites = data?.favorites
 
   return (
     <section className="content-section page-section insights-page">
@@ -173,6 +185,12 @@ export default function InsightsPage() {
                 <span className="insights-stat-label">accounts created, last {data.days} days</span>
               </div>
             )}
+            {favorites?.available && (
+              <div className="insights-stat">
+                <span className="insights-stat-value">{favorites.total.toLocaleString()}</span>
+                <span className="insights-stat-label">favourites added, last {data.days} days</span>
+              </div>
+            )}
             <p className="insights-note">
               Views, not visitors. With no cookie and no stored identifier there is no honest
               way to count unique people, so this does not claim to.
@@ -219,8 +237,39 @@ export default function InsightsPage() {
             </>
           )}
 
+          {favorites && !favorites.available && (
+            <div className="insights-panel insights-notice">
+              <h2>Favourite data unavailable</h2>
+              <p>The user store could not be read, so favourites are not shown. Views are unaffected.</p>
+            </div>
+          )}
+
+          {favorites?.available && (
+            <>
+              <h2 className="insights-chart-title">Favourites added per day</h2>
+              {favorites.total === 0 ? (
+                <p className="insights-empty">No favourites were added in the last {data.days} days.</p>
+              ) : (
+                <Bars
+                  daily={favorites.daily.map((d) => ({ date: d.date, value: d.count }))}
+                  unit="favourite"
+                  label={`Favourites added per day over ${favorites.daily.length} days`}
+                />
+              )}
+              <p className="insights-empty">{favoritesNote(favorites.undated)}</p>
+            </>
+          )}
+
           <div className="insights-grid">
             <Table title="Most viewed pages" rows={data.paths} emptyLabel="No page views recorded yet." linkPaths />
+            {favorites?.available && (
+              <Table
+                title="Most favourited in this period"
+                rows={favorites.articles}
+                emptyLabel={`No favourites were added in the last ${data.days} days.`}
+                linkPaths
+              />
+            )}
             <Table title="Referrers" rows={data.referrers} emptyLabel="No external referrers yet — expected until search engines start sending traffic." />
             <Table title="Countries" rows={data.countries} emptyLabel="No country data yet." />
           </div>

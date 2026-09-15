@@ -290,22 +290,7 @@ export async function createUser(user) {
 export async function listAccountCreatedDates() {
   assertConfigured()
   if (usingUpstash) {
-    const ids = []
-    let cursor = '0'
-    do {
-      const [next, keys] = await redis(['SCAN', cursor, 'MATCH', 'user:*', 'COUNT', '500'])
-      cursor = String(next)
-      for (const key of keys ?? []) if (!key.startsWith('user:email:')) ids.push(key)
-    } while (cursor !== '0')
-    const dates = []
-    for (let i = 0; i < ids.length; i += 200) {
-      const raws = await redis(['MGET', ...ids.slice(i, i + 200)])
-      for (const raw of raws ?? []) {
-        const user = parseUser(raw)
-        if (user?.createdAt) dates.push(user.createdAt)
-      }
-    }
-    return dates
+    return (await allUpstashUsers()).map((user) => user.createdAt).filter(Boolean)
   }
   if (usingSupabase) {
     const rows = await supabase(`${TABLE}?select=created_at`)
@@ -313,6 +298,52 @@ export async function listAccountCreatedDates() {
   }
   const users = await readFileUsers()
   return users.map((user) => user.createdAt).filter(Boolean)
+}
+
+/**
+ * Every favourite's article and the date it was added, for the private Insights
+ * favourites series (owner: chart favourites by period, 2026-09-15). Favourites
+ * already store `createdAt`, so like the accounts series this answers for any
+ * past period and cannot drift. It never says who favourited what: no user id,
+ * no email, only the article and the date.
+ */
+export async function listFavoriteDates() {
+  assertConfigured()
+  const pick = (favorites) => (Array.isArray(favorites) ? favorites : []).map((favorite) => ({
+    articleType: favorite?.articleType,
+    articleId: favorite?.articleId,
+    articleUrl: favorite?.articleUrl,
+    createdAt: favorite?.createdAt
+  }))
+  if (usingUpstash) {
+    return (await allUpstashUsers()).flatMap((user) => pick(user.favorites))
+  }
+  if (usingSupabase) {
+    const rows = await supabase(`${TABLE}?select=favorites`)
+    return (rows ?? []).flatMap((row) => pick(row.favorites))
+  }
+  const users = await readFileUsers()
+  return users.flatMap((user) => pick(user.favorites))
+}
+
+/** Every account in the Upstash store, read in batches of 200. */
+async function allUpstashUsers() {
+  const ids = []
+  let cursor = '0'
+  do {
+    const [next, keys] = await redis(['SCAN', cursor, 'MATCH', 'user:*', 'COUNT', '500'])
+    cursor = String(next)
+    for (const key of keys ?? []) if (!key.startsWith('user:email:')) ids.push(key)
+  } while (cursor !== '0')
+  const users = []
+  for (let i = 0; i < ids.length; i += 200) {
+    const raws = await redis(['MGET', ...ids.slice(i, i + 200)])
+    for (const raw of raws ?? []) {
+      const user = parseUser(raw)
+      if (user) users.push(user)
+    }
+  }
+  return users
 }
 
 /** Patch one account. Only the supplied fields are written. */

@@ -1521,7 +1521,11 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### INSIGHTS — three additions (queued 2026-09-11). **#1 SHIPPED 2026-09-15; #2 and #3 wait on the owner**
 
-**#1 is done.** `/api/insights` now returns `accounts: { available, total, daily }`. The data comes from each account's `createdAt` in the user store (`listAccountCreatedDates`), bucketed with the same `day()` and `lastDays()` as views. A user-store failure reports the series as unavailable and never blanks the views. The page shows the total and a daily chart. **#2 (favourites): the owner chose on 2026-09-15 to chart them by period.** Record timestamped favourite events; the series starts empty on the day it ships. **#3 needs Search Console data** and is still an open question.
+**#1 is done.** `/api/insights` now returns `accounts: { available, total, daily }`. The data comes from each account's `createdAt` in the user store (`listAccountCreatedDates`), bucketed with the same `day()` and `lastDays()` as views. A user-store failure reports the series as unavailable and never blanks the views. The page shows the total and a daily chart. **#2 (favourites) SHIPPED 2026-09-15, night (owner away).** The owner chose to chart favourites by period.
+- **How it works:** every favourite already stores `createdAt`, so the series is read from the favourites themselves (`listFavoriteDates` in the user store, `favoritesByPeriod` in analytics). No new counter was added. Like the accounts series, it answers retroactively and cannot drift.
+- **What the page shows:** a "favourites added" stat, a per-day chart and a "Most favourited in this period" table.
+- **Limits, stated under the chart:** a favourite that was later removed no longer counts, and any favourite saved without a date is reported as undated.
+- **Privacy:** the response carries article paths and counts only, and a unit test checks that no user id or email leaks. **#3 needs Search Console data** and is still an open question.
 
 ### INSIGHTS — three additions (queued 2026-09-11, NOT started)
 

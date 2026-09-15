@@ -2,11 +2,11 @@ import express from 'express'
 import cors from 'cors'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import path from 'node:path'
-import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase, checkStore, listAccountCreatedDates } from './user-store.js'
+import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase, checkStore, listAccountCreatedDates, listFavoriteDates } from './user-store.js'
 // Shared with scripts/prerender.mjs, which inlines the same enriched article
 // into each prerendered page. One definition, so the two cannot drift.
 import { enrichArticle } from './article-enrichment.js'
-import { recordView, readInsights, analyticsAvailable, day, lastDays } from './analytics.js'
+import { recordView, readInsights, analyticsAvailable, day, lastDays, favoritesByPeriod } from './analytics.js'
 import { isAdminUser } from './admin.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
@@ -638,12 +638,17 @@ app.post('/api/events/view', async (req, res) => {
 app.get('/api/insights', requireAdmin, async (req, res) => {
   const days = Math.min(Math.max(Number(req.query.days) || 30, 1), 90)
   try {
-    const [insights, created] = await Promise.all([
+    const [insights, created, favorites] = await Promise.all([
       readInsights(days),
       // Accounts live in the user store, not the analytics store, so a failure
       // here must not blank the views: it reports as unavailable instead.
       listAccountCreatedDates().catch((error) => {
         console.error('insights: failed to read account dates', error?.message)
+        return null
+      }),
+      // Favourites also live in the user store, under the same rule.
+      listFavoriteDates().catch((error) => {
+        console.error('insights: failed to read favourites', error?.message)
         return null
       })
     ])
@@ -662,7 +667,8 @@ app.get('/api/insights', requireAdmin, async (req, res) => {
         available: created !== null,
         total: accountsDaily.reduce((n, d) => n + d.count, 0),
         daily: accountsDaily
-      }
+      },
+      favorites: favorites === null ? { available: false } : { available: true, ...favoritesByPeriod(favorites, dates) }
     })
   } catch (error) {
     console.error('analytics: failed to read insights', error?.message)

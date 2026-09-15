@@ -140,3 +140,40 @@ export async function readInsights(days = 30) {
     countries: mergeHashes(countryHashes ?? []).slice(0, 25)
   }
 }
+
+/**
+ * Favourites added per day over a period, and the most favourited articles in it
+ * (owner: chart favourites by period, 2026-09-15). Built from each favourite's own
+ * `createdAt`, so it covers history. A favourite that was later removed is no
+ * longer stored and no longer counts, which the Insights page says. A favourite
+ * saved without a date is counted as undated, never guessed into a day. Only
+ * article paths and counts come out, nothing about who favourited what.
+ */
+export function favoritesByPeriod(favorites, dates) {
+  const perDay = new Map(dates.map((d) => [d, 0]))
+  const perArticle = new Map()
+  let undated = 0
+  for (const favorite of favorites ?? []) {
+    const when = new Date(favorite?.createdAt ?? NaN)
+    if (Number.isNaN(when.getTime())) {
+      undated++
+      continue
+    }
+    const bucket = day(when)
+    if (!perDay.has(bucket)) continue
+    perDay.set(bucket, perDay.get(bucket) + 1)
+    const fallback = favorite.articleType && favorite.articleId ? `/${favorite.articleType}/${favorite.articleId}` : null
+    const path = [favorite.articleUrl, fallback].find((p) => typeof p === 'string' && SAFE_PATH.test(p))
+    if (path) perArticle.set(path, (perArticle.get(path) ?? 0) + 1)
+  }
+  const daily = dates.map((date) => ({ date, count: perDay.get(date) }))
+  return {
+    total: daily.reduce((n, d) => n + d.count, 0),
+    undated,
+    daily,
+    articles: [...perArticle.entries()]
+      .map(([key, count]) => ({ key, count }))
+      .sort((a, b) => b.count - a.count || a.key.localeCompare(b.key))
+      .slice(0, 25)
+  }
+}
