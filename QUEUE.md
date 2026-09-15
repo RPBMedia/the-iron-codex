@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15 (step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+_Last updated: 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 drafted and holding for the owner; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -975,6 +975,26 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0f. ✅ **Fixed 2026-09-15 (owner report on `danelaw`): empty cards no longer render.**
+   Hero fact strips for locations, events and artifacts now drop any fact with
+   no value. `LocationHero` had printed a blank "Kingdom" card and a "Region in
+   undefined" subtitle for the 34 non-kingdom locations with no parent kingdom,
+   and misread the lowercase types `kingdom` and `caliphate`. Iskorosten's empty
+   "Known for" heading and any section with neither text nor images are gone too.
+   The rule is now CLAUDE.md "Non-Negotiable Article Quality Rules" §4.
+   **Same commit:** the six Plantagenet queen pages that showed an "Undefined"
+   related-entries heading are fixed. Batch A's script had filed seven house links
+   under an `undefined` group; they are moved to `houses`, and
+   `validateRelatedEntries` now hard-fails any unknown group key.
+0c-B. **Spouse batch B: 21 articles drafted and checked, HOLDING for the owner's go.**
+   The drafts live in the session scratchpad (`b7/`). Scope: the Normandy and
+   Wessex spouses, Byzantine empresses, Constance of Sicily, Thyra, Marjorie Bruce,
+   Philippa of Lancaster and Milica. Also covers tree links (25 nodes) and
+   disambiguation entries for Theodora, Eudokia and Irene. It fixes four existing
+   wrong links: Leo IV's mother, Hagia Irene, John II's mother and wife, and King
+   Stephen's father. The in-memory check is clean; the repo gates run when it is
+   applied. If the scratchpad is lost, regenerate from this spec rather than
+   guessing.
 0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** The
    lead is Christian Krohg's 1899 Heimskringla vignette "Olav Tryggvasons saga -
    Harald Graafell - c. Krohg.jpg", a low-quality drawing of ships at sea with no
@@ -983,8 +1003,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    saga - Gunnhild egger sonnene sine - C. Krohg.jpg" (796x470, public domain), in
    which Gunnhild urges on her sons, Harald among them, at the table. It is still an
    1899 imagining, so the caption must say so, and the ships vignette can move to a
-   section image or go. Search the other 1899 illustrators (Werenskiold, Wetlesen,
-   Egedius, Munthe, Peterssen) for a Harald-centred scene before settling.
+   section image or go. **Searched 2026-09-15:** none of the 1899 Heimskringla
+   illustrations on Commons makes Harald an identifiable, central figure. The
+   Krohg and Munthe vignettes for Eiriksønnenes saga and Håkon den godes saga were
+   checked, including the Fitjar battle scene. In the Gunnhild scene he is only one of
+   several sons, so it is weak as a likeness. Decide between that and an
+   associated site (Hals on the Limfjord, where he was killed) under the
+   associated-monument rule.
 0b. ✅ **Done 2026-09-15: `danelaw`, `kingdom-of-york`, `kingdom-of-east-anglia`
    and `great-heathen-army`** (owner's choice: the Danelaw plus core neighbours;
    Mercia, Æthelflæd and the treaty of Alfred and Guthrum stay named without links

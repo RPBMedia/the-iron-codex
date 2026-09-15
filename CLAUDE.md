@@ -162,6 +162,18 @@ These three standards are absolute and apply to **every** article of every type 
 - Fix cropping at the layout level (component/CSS); replace the source image only if the image itself is poor.
 - Reserve image space with CSS `aspect-ratio` / skeletons during loading — never with a permanent "Image unavailable" block on a finished article.
 
+### 4. No empty cards, facts or headings (owner rule, 2026-09-15)
+
+A card, fact box or section heading with nothing in it is removed, never shown
+blank. If an article has no value for a fact (a location with no parent kingdom,
+an event with no recorded place), the page drops that card rather than printing
+its label over an empty box, and a list section with no items drops its heading.
+Reported on `danelaw`, whose "Kingdom" card was empty under a "Region in
+undefined" subtitle. **How to apply:** every hero fact strip in `DetailPage.jsx`
+builds a list, filters out empty values and renders nothing when none remain.
+Every section returns null when it has no content. Follow that pattern for any
+new card, and never render a fact unconditionally.
+
 ### Bad / Good examples
 
 **Image — Bad:** A Rogaland location card renders a large "IMAGE UNAVAILABLE" block because its image URL (`Special:FilePath/Hafrsfjord_Bru.jpg`) 404s.

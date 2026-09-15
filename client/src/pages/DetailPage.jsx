@@ -289,16 +289,20 @@ function StandardHero({ article }) {
     )
   }
 
+  const facts = [
+    { label: 'Year', value: article.year },
+    { label: 'Location', value: article.location }
+  ].filter((fact) => fact.value)
+  if (!facts.length) return null
+
   return (
     <dl className="fact-strip">
-      <div>
-        <dt>Year</dt>
-        <dd>{article.year}</dd>
-      </div>
-      <div>
-        <dt>Location</dt>
-        <dd>{article.location}</dd>
-      </div>
+      {facts.map((fact) => (
+        <div key={fact.label}>
+          <dt>{fact.label}</dt>
+          <dd>{fact.value}</dd>
+        </div>
+      ))}
     </dl>
   )
 }
@@ -693,14 +697,18 @@ function EventHero({ article }) {
       )}
 
       <dl className="fact-strip">
-        <div>
-          <dt>Year</dt>
-          <dd>{article.year}</dd>
-        </div>
-        <div>
-          <dt>Location</dt>
-          <dd>{renderEventLocation(article)}</dd>
-        </div>
+        {article.year && (
+          <div>
+            <dt>Year</dt>
+            <dd>{article.year}</dd>
+          </div>
+        )}
+        {renderEventLocation(article) && (
+          <div>
+            <dt>Location</dt>
+            <dd>{renderEventLocation(article)}</dd>
+          </div>
+        )}
         {article.conflict && (
           <div>
             <dt>Conflict</dt>
@@ -872,22 +880,38 @@ function EventContent({ article }) {
   )
 }
 
+// Polities carry a founding year; everything else sits inside one.
+const POLITY_LOCATION_TYPES = new Set(['kingdom', 'empire', 'caliphate'])
+
+// A card with nothing in it is removed, never shown blank (owner rule,
+// 2026-09-15). 34 non-kingdom locations record no parent kingdom; Danelaw's
+// empty "Kingdom" card, under a "Region in undefined" subtitle, was the one
+// reported.
 function LocationHero({ article }) {
+  const rawType = String(article.locationType ?? '').trim()
+  const typeLabel = rawType ? rawType.charAt(0).toUpperCase() + rawType.slice(1) : null
+  const isPolity = POLITY_LOCATION_TYPES.has(rawType.toLowerCase())
+  const facts = [
+    { label: 'Type', value: typeLabel },
+    isPolity
+      ? { label: 'Established', value: article.year }
+      : { label: 'Kingdom', value: article.kingdom ? renderKingdom(article) : null }
+  ].filter((fact) => fact.value)
+  const subtitle = !isPolity && article.kingdom && typeLabel ? `${typeLabel} in ${article.kingdom}` : typeLabel
+
   return (
     <div className="location-profile">
-      <p className="article-subtitle">
-        {article.locationType === 'Kingdom' ? 'Kingdom' : `${article.locationType} in ${article.kingdom}`}
-      </p>
-      <dl className="fact-strip">
-        <div>
-          <dt>Type</dt>
-          <dd>{article.locationType}</dd>
-        </div>
-        <div>
-          <dt>{article.locationType === 'Kingdom' ? 'Established' : 'Kingdom'}</dt>
-          <dd>{article.locationType === 'Kingdom' ? article.year : renderKingdom(article)}</dd>
-        </div>
-      </dl>
+      {subtitle && <p className="article-subtitle">{subtitle}</p>}
+      {facts.length > 0 && (
+        <dl className="fact-strip">
+          {facts.map((fact) => (
+            <div key={fact.label}>
+              <dt>{fact.label}</dt>
+              <dd>{fact.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
     </div>
   )
 }
@@ -908,14 +932,16 @@ function LocationContent({ article }) {
           article={article}
         />
       ))}
-      <section className="bio-section">
-        <h2>Known for</h2>
-        <ul className="feat-list">
-          {asList(article.knownFor).map((fact) => (
-            <li key={fact}>{fact}</li>
-          ))}
-        </ul>
-      </section>
+      {asList(article.knownFor).length > 0 && (
+        <section className="bio-section">
+          <h2>Known for</h2>
+          <ul className="feat-list">
+            {asList(article.knownFor).map((fact) => (
+              <li key={fact}>{fact}</li>
+            ))}
+          </ul>
+        </section>
+      )}
       {/* Kingdom/polity articles carry a medieval timeline like people do. */}
       <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
@@ -1275,6 +1301,7 @@ function InfoBlock({ title, children }) {
 
 function ArticleSection({ title, paragraphs, className = '', article }) {
   const sectionImages = sectionImagesFor(article, title)
+  if (!(paragraphs ?? []).filter(Boolean).length && !sectionImages.length) return null
 
   return (
     <section className={`bio-section ${className}`}>

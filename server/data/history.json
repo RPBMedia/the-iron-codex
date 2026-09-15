@@ -98990,7 +98990,13 @@
             "label": "Son"
           }
         ],
-        "undefined": [
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house of her birth"
+          },
           {
             "title": "House of Lancaster",
             "type": "house",
@@ -99002,14 +99008,6 @@
             "type": "house",
             "slug": "house-of-aviz",
             "label": "Her daughter Philippa married into it"
-          }
-        ],
-        "houses": [
-          {
-            "title": "House of Plantagenet",
-            "type": "house",
-            "slug": "house-of-plantagenet",
-            "label": "Royal house of her birth"
           }
         ],
         "locations": [
@@ -99210,6 +99208,12 @@
             "type": "house",
             "slug": "house-of-valois",
             "label": "Royal house of her birth"
+          },
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "Royal house by marriage"
           }
         ],
         "events": [
@@ -99226,14 +99230,6 @@
             "type": "location",
             "slug": "chateau-de-vincennes",
             "label": "Where Henry V died"
-          }
-        ],
-        "undefined": [
-          {
-            "title": "House of Lancaster",
-            "type": "house",
-            "slug": "house-of-lancaster",
-            "label": "Royal house by marriage"
           }
         ]
       }
@@ -99434,7 +99430,7 @@
             "label": "Burial place"
           }
         ],
-        "undefined": [
+        "houses": [
           {
             "title": "House of Ivrea",
             "type": "house",
@@ -99856,20 +99852,18 @@
             "label": "Burial place"
           }
         ],
-        "undefined": [
-          {
-            "title": "House of Lusignan",
-            "type": "house",
-            "slug": "house-of-lusignan",
-            "label": "Family of her second husband"
-          }
-        ],
         "houses": [
           {
             "title": "House of Plantagenet",
             "type": "house",
             "slug": "house-of-plantagenet",
             "label": "Royal house by marriage"
+          },
+          {
+            "title": "House of Lusignan",
+            "type": "house",
+            "slug": "house-of-lusignan",
+            "label": "Family of her second husband"
           }
         ]
       }
@@ -100525,14 +100519,6 @@
             "label": "Mother-in-law"
           }
         ],
-        "undefined": [
-          {
-            "title": "House of Lancaster",
-            "type": "house",
-            "slug": "house-of-lancaster",
-            "label": "The cause she led"
-          }
-        ],
         "events": [
           {
             "title": "Battle of Formigny",
@@ -100547,6 +100533,12 @@
             "type": "house",
             "slug": "house-of-valois",
             "label": "Royal house of her mother's side"
+          },
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "The cause she led"
           }
         ]
       }
@@ -100739,20 +100731,20 @@
             "label": "Son-in-law"
           }
         ],
-        "undefined": [
-          {
-            "title": "House of Lancaster",
-            "type": "house",
-            "slug": "house-of-lancaster",
-            "label": "Mother of its royal line"
-          }
-        ],
         "locations": [
           {
             "title": "Monmouth",
             "type": "location",
             "slug": "monmouth",
             "label": "Where Henry V was born"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "Mother of its royal line"
           }
         ]
       }

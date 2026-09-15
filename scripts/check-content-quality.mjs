@@ -226,7 +226,17 @@ for (const [col, arr] of Object.entries(data)) {
   if (Array.isArray(arr)) idsByCollection[col] = new Set(arr.map(a => a.id))
 }
 
+// The panel prints one heading per group key, so a link filed under a key it does
+// not know renders under its own heading. The Plantagenet queens shipped seven
+// house links under "undefined" (2026-09-15) and showed an "Undefined" heading.
+const RELATED_GROUPS = new Set(['people', 'events', 'locations', 'artifacts', 'weaponsArmor', 'houses', 'orders'])
+
 function validateRelatedEntries(collection, entry, label) {
+  for (const group of Object.keys(entry.relatedEntries || {})) {
+    if (!RELATED_GROUPS.has(group)) {
+      findings.push({ collection, article: label, path: `relatedEntries.${group}`, pattern: `related entries filed under unknown group "${group}"`, snippet: '' })
+    }
+  }
   const items = Object.values(entry.relatedEntries || {}).flatMap(v => Array.isArray(v) ? v : [])
   const seen = new Set()
   let valid = 0
