@@ -12,7 +12,7 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-14 (**Step 1 of the owner's plan shipped:** 60 blank archive cards fixed, tab titles follow navigation, the Shroud of Turin rewritten, and a template-prose gate added with an 86-article backlog.) — previously 2026-09-11 (**Monetisation spike queued**, plus Insights additions and the stale tab title.)_
+_Last updated: 2026-09-15 (**Session handoff:** read `SESSION_HANDOFF.md` first. Step 1 of the owner's plan shipped 2026-09-14; step 2 — the stub backlog — is next.) — previously 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
 
 ---
 
@@ -839,6 +839,18 @@ it and bind all future work:
   them. `tests/page-meta.test.mjs` fails the build if any article would render a
   blank card.
 
+**THE OWNER'S PLAN (agreed 2026-09-14) — work it in this order:**
+
+1. ✅ Live defects — shipped 2026-09-14, deploy verified.
+2. **Stub backlog, top ~10 by inbound links — not all 228** (item 1 below).
+   Rewrite each target's template prose in the same pass (item 2 below).
+3. **Infra pass:** content-quality, images and tests into the deploy build
+   (see the deploy note), plus auth storage hardening (item 7).
+4. **One conflict track**, writing the conflict-completeness rule into
+   `CLAUDE.md` first. Recommended: the Hundred Years' War.
+
+Then the Insights additions, the chart tooltip and the topic page layout.
+
 **Nothing is broken and nothing is blocking.** Every gate is green: tests 13/13,
 content-quality, images (870 references validated remotely), the SEO gate, the
 build, and the integration audit (0 orphans, 0 mis-sorted events, 0 stale notes,
@@ -1628,6 +1640,14 @@ it is a slow liquidation.
      drift.
   Recommendation: **option 2**, restricted to figures with a securely documented
   place association and never for anyone whose likeness does survive.
+  **Raised again 2026-09-14, and it is one decision, not two.** The same rule
+  governs the five rulers under "Everything remaining" whose articles lead with a
+  coin carrying no face — `al-adil-ii`, `al-mansur-ali`, `baraka-khan`,
+  `yusuf-ibn-tashfin`, `muhammad-al-nasir` — and those are live violations of
+  the "main image must depict the person" rule today, not deferrals.
+  `muhammad-al-nasir`'s caption reads, in full, "Image associated with Muhammad
+  al-Nasir."; `check:images` does not catch it. Option 2 would give, for
+  example, Yusuf ibn Tashfin the city of Marrakesh, which he founded.
 - ~~**CRITICAL — account creation has never worked in production**~~ **RESOLVED.**
   The owner confirmed a successful Google sign-in on the live site (2026-09-07),
   and the code confirms it: `server/user-store.js` is now a storage seam that
