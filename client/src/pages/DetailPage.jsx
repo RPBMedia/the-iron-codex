@@ -305,11 +305,12 @@ function StandardHero({ article }) {
 
 // ---- Weapons & Armor structured blocks (scannable specs / tables / cards) ----
 function KnownForBlock({ items }) {
-  if (!items?.length) return null
+  const list = asList(items)
+  if (!list.length) return null
   return (
     <section className="article-section wa-block">
       <h2>Known for</h2>
-      <ul className="wa-knownfor">{items.map((f, i) => <li key={i}>{f}</li>)}</ul>
+      <ul className="wa-knownfor">{list.map((f, i) => <li key={i}>{f}</li>)}</ul>
     </section>
   )
 }
@@ -910,7 +911,7 @@ function LocationContent({ article }) {
       <section className="bio-section">
         <h2>Known for</h2>
         <ul className="feat-list">
-          {(article.knownFor ?? []).map((fact) => (
+          {asList(article.knownFor).map((fact) => (
             <li key={fact}>{fact}</li>
           ))}
         </ul>
@@ -1636,6 +1637,13 @@ function currentEntryKey(article) {
   return `${article.type === 'character' ? 'person' : article.type}-${article.id}`
 }
 
+// A list field stored as a lone string (Toledo's `knownFor`) renders as one item
+// instead of crashing the whole page.
+function asList(value) {
+  if (Array.isArray(value)) return value
+  return value ? [value] : []
+}
+
 function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
@@ -1798,7 +1806,7 @@ function formatGroupName(group) {
 }
 
 function achievementFallback(article) {
-  return (article.greatestFeats ?? []).map((feat) => ({ title: feat, description: '' }))
+  return asList(article.greatestFeats).map((feat) => ({ title: feat, description: '' }))
 }
 
 function renderEventLocation(article) {

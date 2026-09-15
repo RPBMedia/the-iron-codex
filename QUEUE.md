@@ -1019,6 +1019,23 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `personSlug`, and her article links her husband and the house. Worth a gate once
    tier 1 exists: fail on an unlinked spouse node whose partner is a linked ruler,
    with an allowlist for the documented no-biography cases.
+0d. **OWNER REQUEST 2026-09-15 — every kingdom gets BOTH a territory map AND
+   its arms or flag.** Reported on `kingdom-of-castile` (map, no arms) and
+   `kingdom-of-navarre` (arms, no map). Heuristic audit of captions and
+   filenames across 54 kingdom-type articles: about 7 have both, 31 a map only,
+   16 neither (`kingdom-of-france`, `kingdom-of-poland`, `kingdom-of-portugal`,
+   `kingdom-of-leon`, `kingdom-of-hungary`, `kingdom-of-sicily` among them).
+   The heuristic reads words, not pictures, so verify each by eye. One image
+   leads; the other is a section image beside the section it explains. **Rules to
+   respect:** arms must be attested for the period (armorial rolls, royal seals,
+   coinage, surviving banners) and captioned with date and source. A modern
+   "flag of the Kingdom of X" SVG is usually an anachronistic reconstruction and
+   is either captioned as one or rejected. Byzantine, Islamic and steppe polities
+   bore no heraldry, and CLAUDE.md already forbids inventing a shield: use the
+   attested emblem instead (a banner described in the sources, a tamga, a seal or
+   a coin) and say plainly that the polity had no arms. Once done, gate it in
+   `check-images.mjs` for kingdom-type locations, with an allowlist for the
+   no-heraldry polities.
 1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the

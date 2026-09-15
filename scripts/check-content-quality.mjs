@@ -94,6 +94,27 @@ if (hardFailings.length) {
   process.exit(1)
 }
 
+// Hard failure: list-shaped fields must be arrays. A `knownFor` written as a
+// sentence blanked eleven location pages in production (Toledo, found
+// 2026-09-15), because the page maps over it.
+const LIST_FIELDS = ['knownFor', 'greatestFeats', 'keyAchievements', 'contentSections', 'timeline', 'sources', 'sectionImages', 'aliases']
+const typeFailings = []
+for (const [collection, entries] of Object.entries(data)) {
+  if (!Array.isArray(entries)) continue
+  for (const entry of entries) {
+    for (const field of LIST_FIELDS) {
+      if (entry[field] !== undefined && !Array.isArray(entry[field])) {
+        typeFailings.push(`${collection}/${entry.id}: '${field}' is a ${typeof entry[field]}, must be an array`)
+      }
+    }
+  }
+}
+if (typeFailings.length) {
+  console.error(`HARD FAILURE: ${typeFailings.length} list field(s) with the wrong type:`)
+  typeFailings.forEach(f => console.error(' -', f))
+  process.exit(1)
+}
+
 const suspiciousPatterns = [
   /developed in the context of regional medieval politics/i,
   /was shaped by lordship/i,
