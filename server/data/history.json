@@ -22819,8 +22819,11 @@
         {
           "title": "As king of Norway and crusader",
           "paragraphs": [
-            "Sigurd became king of Norway and led a major expedition to the eastern Mediterranean between 1107 and 1111. The journey passed through Christian and Muslim territories and linked Norway to the crusading movement.",
-            "In Jerusalem he supported the crusader kingdom and later returned to Norway with great prestige. His rule also involved church patronage and royal authority at home, though later saga memory emphasized the crusade above all."
+            "Sigurd became king in 1103, sharing Norway with his brothers Øystein and Olaf after their father Magnus Barefoot was killed in Ireland. In the autumn of 1107 he sailed from Norway on the expedition that gave him his byname: according to the saga, about 60 ships and some 5,000 men, the first time a European king went to the Holy Land in person. The fleet spent its first winter in England at the court of Henry I of England and sailed south in the spring of 1108.",
+            "The next winter was spent in Galicia, near Santiago de Compostela, where the saga says the local lord refused to sell the Norwegians food and Sigurd stormed his castle and plundered it. In the spring of 1109 the fleet worked down the coast of Muslim-held Portugal: it captured eight galleys, took a castle at Sintra, won a fight at Lisbon, which the saga calls half Christian and half heathen, sacked a town it calls Alkasse, probably Alcácer do Sal, and beat a Muslim squadron near the Strait of Gibraltar. These episodes are known chiefly from Snorri Sturluson's Heimskringla and the older skaldic verse it quotes, so their details should be read as saga memory.",
+            "In the Mediterranean the Norwegians raided the Balearic Islands, the first recorded Christian attack on them. On Formentera they fought a large band of defenders sheltering in a cave, the most fully described fight of the whole voyage, and took what the saga calls the greatest treasure of the expedition, before attacking Ibiza and Menorca; they left well-fortified Majorca alone. In Sicily, then a county rather than a kingdom, they were welcomed by the young count Roger II.",
+            "In the summer of 1110 the fleet reached Acre, and Baldwin I of Jerusalem received Sigurd and rode with him to Jerusalem and the Jordan. Baldwin then asked for help against the ports still in Muslim hands, and Sigurd joined him at the siege of Sidon, which the Fatimids had refortified. Baldwin's army invested the town by land while the Norwegian fleet blockaded it from the sea, keeping away Fatimid ships from Tyre, and a Venetian fleet arrived to help. Sidon surrendered after about 47 days, late in 1110, on terms that let those who wished to leave go safely, and it became a lordship of the kingdom of Jerusalem. As a reward Sigurd was given a splinter of the True Cross, on condition that he take it to the shrine of Saint Olaf and promote the faith at home.",
+            "From the Levant Sigurd sailed to Constantinople in 1111, where Alexios I Komnenos received him with great ceremony. He left the emperor his ships and their gilded figureheads, and many of his men stayed on in Byzantine service, while he went home overland through the Balkans and central Europe. Back in Norway he was the most celebrated king of his age, and his rule at home combined church patronage, building and royal authority, though saga memory remembered the crusade above everything else."
           ]
         },
         {
@@ -22868,13 +22871,38 @@
         },
         {
           "date": "1107",
-          "title": "Begins the Norwegian Crusade",
-          "description": "Leads a fleet from Norway toward the Mediterranean."
+          "title": "Sails on crusade",
+          "description": "Leaves Norway with a large fleet, by the saga's count about 60 ships."
+        },
+        {
+          "date": "1107–1108",
+          "title": "Winter in England",
+          "description": "The fleet winters at the court of Henry I of England."
+        },
+        {
+          "date": "1108–1109",
+          "title": "Winter in Galicia",
+          "description": "Storms a local lord's castle near Santiago de Compostela after a quarrel over food."
+        },
+        {
+          "date": "1109",
+          "title": "Fighting on the Portuguese coast",
+          "description": "Takes a castle at Sintra, fights at Lisbon and sacks Alcácer do Sal, as the saga tells it."
+        },
+        {
+          "date": "1109",
+          "title": "Raids the Balearic Islands",
+          "description": "Wins the cave fight on Formentera and attacks Ibiza and Menorca."
         },
         {
           "date": "1110",
-          "title": "Reaches Jerusalem",
-          "description": "Visits the Holy Land and supports crusader campaigns."
+          "title": "Lands at Acre",
+          "description": "Received by Baldwin I of Jerusalem, with whom he rides to Jerusalem and the Jordan."
+        },
+        {
+          "date": "Late 1110",
+          "title": "Helps take Sidon",
+          "description": "His fleet blockades Sidon while Baldwin besieges it by land; the town surrenders after about 47 days."
         },
         {
           "date": "1111",
@@ -22921,6 +22949,18 @@
             "title": "Constantinople",
             "type": "location",
             "slug": "constantinople"
+          },
+          {
+            "title": "Kingdom of Jerusalem",
+            "type": "location",
+            "slug": "kingdom-of-jerusalem",
+            "label": "Crusader kingdom he fought for"
+          },
+          {
+            "title": "Lisbon",
+            "type": "location",
+            "slug": "lisbon",
+            "label": "Fought there in 1109"
           }
         ],
         "people": [
@@ -22935,6 +22975,30 @@
             "type": "person",
             "slug": "sverre-sigurdsson",
             "label": "Ruler of Kingdom of Norway"
+          },
+          {
+            "title": "Magnus Barefoot",
+            "type": "person",
+            "slug": "magnus-barefoot",
+            "label": "Father"
+          },
+          {
+            "title": "Baldwin I of Jerusalem",
+            "type": "person",
+            "slug": "baldwin-i-of-jerusalem",
+            "label": "Took Sidon with him in 1110"
+          },
+          {
+            "title": "Alexios I Komnenos",
+            "type": "person",
+            "slug": "alexios-i-komnenos",
+            "label": "Received him at Constantinople in 1111"
+          },
+          {
+            "title": "Henry I of England",
+            "type": "person",
+            "slug": "henry-i-of-england",
+            "label": "Hosted his fleet over the winter of 1107–1108"
           }
         ]
       },
@@ -22957,6 +23021,33 @@
           "name": "the Crusader",
           "type": "translated byname",
           "note": "Old Norse Jórsalafari, 'Jerusalem-farer'."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Sigurd_Entering_Constantinople.png"
+        },
+        {
+          "title": "Snorri Sturluson, Heimskringla (saga of Sigurd and his brothers)",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Heimskringla"
+        },
+        {
+          "title": "Norwegian Crusade",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Norwegian_Crusade"
+        },
+        {
+          "title": "Siege of Sidon (1110)",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Sidon_(1110)"
+        },
+        {
+          "title": "Sigurd the Crusader",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Sigurd_the_Crusader"
         }
       ]
     },
@@ -42501,6 +42592,12 @@
             "title": "Baldwin II of Jerusalem",
             "type": "person",
             "slug": "baldwin-ii-of-jerusalem"
+          },
+          {
+            "title": "Sigurd the Crusader",
+            "type": "person",
+            "slug": "sigurd-of-norway",
+            "label": "Norwegian king whose fleet helped take Sidon in 1110"
           }
         ],
         "events": [
@@ -43509,6 +43606,12 @@
             "type": "person",
             "slug": "stephen-henry-count-of-blois",
             "label": "Crusader who persuaded him to turn back"
+          },
+          {
+            "title": "Sigurd the Crusader",
+            "type": "person",
+            "slug": "sigurd-of-norway",
+            "label": "Norwegian crusader king he received in 1111"
           }
         ]
       },

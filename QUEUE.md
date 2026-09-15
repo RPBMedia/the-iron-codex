@@ -982,6 +982,54 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `chateau-de-vincennes`, `monmouth`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0k. **OWNER REQUEST 2026-09-15, a big one: a locator map in every city's Overview.**
+   Each city, town and settlement article gets a map of the country it lies in today,
+   with the surrounding region and a marker showing where the city is. Example:
+   `antioch`, which is Antakya in southern Turkey near the Syrian border, not in
+   Israel as first described.
+   **Scope:** 67 city/town/port/settlement/village articles out of 174
+   locations. No location has coordinates today (0 carry a coordinates field).
+
+   **Recommended build: generated, not hand-picked images.**
+   1. Add `coordinates: { lat, lon }` to each location, sourced from Wikidata/Wikipedia
+      and spot-checked.
+   2. Add `modernCountry` (ISO code), used for the base map.
+   3. Build one `LocatorMap` component that draws the country outline and its
+      neighbours from bundled public-domain Natural Earth boundaries (a small
+      TopoJSON; no external requests, which fits the CSP) and pins the city.
+
+   Hundreds of consistent maps then cost one component. Picking a Commons locator
+   image per city would be slower, inconsistent in style, and brittle.
+
+   **Decide with the owner first:**
+   - Modern borders only, or modern borders with the medieval polity named in the
+     caption.
+   - Whether regions and castles also get one.
+   - The rendering: plain SVG, or a light d3-geo projection.
+
+   **Gate once it exists:** every city-type location has coordinates and renders a map.
+0j. ✅ **Done 2026-09-15: `sigurd-of-norway`'s crusade section expanded** from 437 to 2,870 characters. The timeline went from 7 to 12 entries, with England, Galicia, the Portuguese coast, the Balearics, Acre and Sidon. Five sources were added where there were none. Related links were added both ways to Baldwin I of Jerusalem and Alexios I Komnenos, and one way to Henry I of England, Lisbon, Magnus Barefoot and the Kingdom of Jerusalem. The siege of Sidon (1110) went on `BATTLE_BACKLOG` until it has its own event article. The original request follows. **OWNER REQUEST 2026-09-15: expand `sigurd-of-norway`'s crusade section.** "As king of
+   Norway and crusader" is 437 characters and names no place, siege or battle. The owner
+   notes he is famous for at least one crusader siege. Cover the Norwegian Crusade of
+   1107–1111 concretely:
+   - the winter in England
+   - the fighting on the Iberian coast (Galicia, Sintra, Lisbon, Alcácer do Sal)
+   - the Balearic cave fight on Formentera, plus Ibiza and Menorca
+   - Sicily and the young Roger II
+   - the landing at Acre in 1110 and the meeting with Baldwin I at Jerusalem
+   - **the siege of Sidon (1110)**, where his fleet blockaded the port while Baldwin
+     took the town, and the relic of the True Cross he was given
+   - the return by Constantinople, where he left his ships to Alexios I, and home
+     overland
+
+   Check the sagas (Snorri's Magnússona saga) against Fulcher of Chartres and Albert
+   of Aachen, and hedge the saga-only episodes. Add timeline entries (England, Lisbon,
+   Formentera, Acre, Sidon) and related links to `baldwin-i-of-jerusalem`,
+   `kingdom-of-jerusalem`, `alexios-i-komnenos`, `lisbon`, `kingdom-of-sicily`.
+   **Gap:** no `sidon` or siege-of-Sidon article exists. Either create a
+   `siege-of-sidon-1110` event to the battle standard or write it lower-case ("the siege
+   of Sidon") and add it to `BATTLE_BACKLOG`. The same applies to Sintra/Lisbon 1108
+   if capitalised.
 0i. ✅ **Fixed 2026-09-15 (owner report on `el-cid`): 15 person pages showed only a name
    and an image.** Their `type` was "person" instead of "character", and `DetailPage`
    chooses the person layout from `type`, so neither the facts panel nor the article
