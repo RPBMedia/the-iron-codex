@@ -31,10 +31,19 @@ test('any other account is not admin, however it signed in', () => {
 test('an unset ADMIN_EMAIL means NOBODY is admin, not everybody', () => {
   // The dangerous failure mode: an empty config comparing equal to an empty
   // email and granting access to anyone.
-  assert.equal(isAdminUser(googleAdmin, ''), false)
-  assert.equal(isAdminUser(googleAdmin, undefined), false)
-  assert.equal(isAdminUser({ email: '', providers: ['google'] }, ''), false)
-  assert.equal(isAdminUser({ email: null, providers: ['google'] }, null), false)
+  // An omitted or undefined argument falls back to process.env.ADMIN_EMAIL, and the
+  // Vercel build has it set, so clear it here or "unset" is not really unset.
+  const saved = process.env.ADMIN_EMAIL
+  delete process.env.ADMIN_EMAIL
+  try {
+    assert.equal(isAdminUser(googleAdmin), false)
+    assert.equal(isAdminUser(googleAdmin, ''), false)
+    assert.equal(isAdminUser(googleAdmin, undefined), false)
+    assert.equal(isAdminUser({ email: '', providers: ['google'] }, ''), false)
+    assert.equal(isAdminUser({ email: null, providers: ['google'] }, null), false)
+  } finally {
+    if (saved !== undefined) process.env.ADMIN_EMAIL = saved
+  }
 })
 
 test('no user at all is not admin', () => {
