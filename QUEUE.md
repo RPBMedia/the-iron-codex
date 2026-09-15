@@ -1237,7 +1237,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
    **Worth a gate next:** fail on any spouse node without `personSlug`, so the
    trees cannot regress. Not built; propose it to the owner first.
-0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** **Resolution drafted:** the owner left the photo choice to the assistant. Of the Hals candidates, `Hals Limfjorden1.jpg` (the inlet with fishing nets; public domain) has the best overall quality. The rest show modern tankers, a cruise ship or hazy nets. Module `b14/harald-greycloak.mjs`; ships after the owner confirms the current ship. The
+0a. ✅ **SHIPPED 2026-09-15 (owner away): `harald-greycloak` now leads with a colour photograph of the Limfjord at Hals** (Hals Limfjorden1.jpg, public domain), where the memorial poem Gráfeldardrápa says he fell about 970, under the associated-monument rule. Krohg's ships vignette is dropped. No memorial to Harald himself exists; the monuments at Hals commemorate his killer, Gold-Harald. The original report follows. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** **Resolution drafted:** the owner left the photo choice to the assistant. Of the Hals candidates, `Hals Limfjorden1.jpg` (the inlet with fishing nets; public domain) has the best overall quality. The rest show modern tankers, a cruise ship or hazy nets. Module `b14/harald-greycloak.mjs`; ships after the owner confirms the current ship. The
    lead is Christian Krohg's 1899 Heimskringla vignette "Olav Tryggvasons saga -
    Harald Graafell - c. Krohg.jpg", a low-quality drawing of ships at sea with no
    visible Harald. It breaks the rule that a person's main image must depict the
