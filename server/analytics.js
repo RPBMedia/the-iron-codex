@@ -38,7 +38,7 @@ const UPSTASH_TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN
 export const analyticsAvailable = Boolean(UPSTASH_URL && UPSTASH_TOKEN)
 
 const TTL_SECONDS = 90 * 24 * 60 * 60
-const day = (d = new Date()) => d.toISOString().slice(0, 10)
+export const day = (d = new Date()) => d.toISOString().slice(0, 10)
 
 async function redis(commands) {
   if (!analyticsAvailable) return null
@@ -93,7 +93,7 @@ export async function recordView({ path: rawPath, referrer, country }) {
   await redis(commands)
 }
 
-const lastDays = (n) => Array.from({ length: n }, (_, i) => {
+export const lastDays = (n) => Array.from({ length: n }, (_, i) => {
   const d = new Date()
   d.setUTCDate(d.getUTCDate() - i)
   return day(d)

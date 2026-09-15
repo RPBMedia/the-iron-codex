@@ -27,15 +27,36 @@ const RANGES = [
   { days: 90, label: '90 days' }
 ]
 
-function Bars({ daily }) {
-  const max = Math.max(1, ...daily.map((d) => d.views))
+/**
+ * A daily bar chart whose bars each carry their own readout. The readout shows
+ * at once on hover and on keyboard or touch focus; every bar is a focusable list
+ * item with its own label, so the numbers are reachable without a mouse (the old
+ * chart was one `role="img"` with a native `title` that took seconds to appear
+ * and never did on touch).
+ */
+function Bars({ daily, unit, label }) {
+  const max = Math.max(1, ...daily.map((d) => d.value))
+  const edge = Math.max(1, Math.round(daily.length * 0.12))
   return (
-    <div className="insights-chart" role="img" aria-label={`Daily views over ${daily.length} days`}>
-      {daily.map((d) => (
-        <div key={d.date} className="insights-bar-slot" title={`${d.date}: ${d.views} view${d.views === 1 ? '' : 's'}`}>
-          <div className="insights-bar" style={{ height: `${(d.views / max) * 100}%` }} />
-        </div>
-      ))}
+    <div className="insights-chart" role="list" aria-label={label}>
+      {daily.map((d, i) => {
+        const text = `${d.value.toLocaleString()} ${unit}${d.value === 1 ? '' : 's'}`
+        const placement = i < edge ? ' tip-start' : i >= daily.length - edge ? ' tip-end' : ''
+        return (
+          <div
+            key={d.date}
+            className={`insights-bar-slot${placement}`}
+            role="listitem"
+            tabIndex={0}
+            aria-label={`${d.date}: ${text}`}
+          >
+            <div className="insights-bar" style={{ height: `${(d.value / max) * 100}%` }} />
+            <span className="insights-tip" aria-hidden="true">
+              {d.date} · <strong>{text}</strong>
+            </span>
+          </div>
+        )
+      })}
     </div>
   )
 }
@@ -95,6 +116,8 @@ export default function InsightsPage() {
     )
   }
 
+  const accounts = data?.accounts
+
   return (
     <section className="content-section page-section">
       <div className="section-heading wide">
@@ -144,6 +167,12 @@ export default function InsightsPage() {
               <span className="insights-stat-value">{data.totalViews.toLocaleString()}</span>
               <span className="insights-stat-label">views, last {data.days} days</span>
             </div>
+            {accounts?.available && (
+              <div className="insights-stat">
+                <span className="insights-stat-value">{accounts.total.toLocaleString()}</span>
+                <span className="insights-stat-label">accounts created, last {data.days} days</span>
+              </div>
+            )}
             <p className="insights-note">
               Views, not visitors. With no cookie and no stored identifier there is no honest
               way to count unique people, so this does not claim to.
@@ -161,7 +190,33 @@ export default function InsightsPage() {
               </p>
             </div>
           ) : (
-            <Bars daily={data.daily} />
+            <Bars
+              daily={data.daily.map((d) => ({ date: d.date, value: d.views }))}
+              unit="view"
+              label={`Daily views over ${data.daily.length} days`}
+            />
+          )}
+
+          {accounts && !accounts.available && (
+            <div className="insights-panel insights-notice">
+              <h2>Account data unavailable</h2>
+              <p>The user store could not be read, so account sign-ups are not shown. Views are unaffected.</p>
+            </div>
+          )}
+
+          {accounts?.available && (
+            <>
+              <h2 className="insights-chart-title">Accounts created per day</h2>
+              {accounts.total === 0 ? (
+                <p className="insights-empty">No accounts were created in the last {data.days} days.</p>
+              ) : (
+                <Bars
+                  daily={accounts.daily.map((d) => ({ date: d.date, value: d.count }))}
+                  unit="account"
+                  label={`Accounts created per day over ${accounts.daily.length} days`}
+                />
+              )}
+            </>
           )}
 
           <div className="insights-grid">

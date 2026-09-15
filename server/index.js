@@ -2,11 +2,11 @@ import express from 'express'
 import cors from 'cors'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import path from 'node:path'
-import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase, checkStore } from './user-store.js'
+import { findUserById, findUserByEmail, createUser, updateUser, usingSupabase, checkStore, listAccountCreatedDates } from './user-store.js'
 // Shared with scripts/prerender.mjs, which inlines the same enriched article
 // into each prerendered page. One definition, so the two cannot drift.
 import { enrichArticle } from './article-enrichment.js'
-import { recordView, readInsights, analyticsAvailable } from './analytics.js'
+import { recordView, readInsights, analyticsAvailable, day, lastDays } from './analytics.js'
 import { isAdminUser } from './admin.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
@@ -636,7 +636,32 @@ app.post('/api/events/view', async (req, res) => {
 app.get('/api/insights', requireAdmin, async (req, res) => {
   const days = Math.min(Math.max(Number(req.query.days) || 30, 1), 90)
   try {
-    res.json(await readInsights(days))
+    const [insights, created] = await Promise.all([
+      readInsights(days),
+      // Accounts live in the user store, not the analytics store, so a failure
+      // here must not blank the views: it reports as unavailable instead.
+      listAccountCreatedDates().catch((error) => {
+        console.error('insights: failed to read account dates', error?.message)
+        return null
+      })
+    ])
+    const dates = lastDays(days)
+    const perDay = new Map(dates.map((d) => [d, 0]))
+    for (const iso of created ?? []) {
+      const when = new Date(iso)
+      if (Number.isNaN(when.getTime())) continue
+      const bucket = day(when)
+      if (perDay.has(bucket)) perDay.set(bucket, perDay.get(bucket) + 1)
+    }
+    const accountsDaily = dates.map((date) => ({ date, count: perDay.get(date) }))
+    res.json({
+      ...insights,
+      accounts: {
+        available: created !== null,
+        total: accountsDaily.reduce((n, d) => n + d.count, 0),
+        daily: accountsDaily
+      }
+    })
   } catch (error) {
     console.error('analytics: failed to read insights', error?.message)
     res.status(503).json({ message: 'Analytics store unavailable.', available: false })

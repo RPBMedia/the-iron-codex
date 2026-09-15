@@ -1289,6 +1289,10 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ## Open — small, ready to run
 
+### INSIGHTS — three additions (queued 2026-09-11). **#1 SHIPPED 2026-09-15; #2 and #3 wait on the owner**
+
+**#1 is done.** `/api/insights` now returns `accounts: { available, total, daily }`. The data comes from each account's `createdAt` in the user store (`listAccountCreatedDates`), bucketed with the same `day()` and `lastDays()` as views. A user-store failure reports the series as unavailable and never blanks the views. The page shows the total and a daily chart. **#2 (favourites) needs the owner's choice** between an "all time" card and timestamped favourite events. **#3 needs Search Console data.** Both are on the owner's question list.
+
 ### INSIGHTS — three additions (queued 2026-09-11, NOT started)
 
 Owner request. Two are straightforward; the third needs its premise corrected
@@ -1348,6 +1352,10 @@ So the real shape of this task is:
 **Do not ship the interim as though it were the real answer.** Recommending work
 from the wrong signal is worse than recommending none, because it is acted on.
 
+
+### ✅ Insights chart tooltip — SHIPPED 2026-09-15 (owner away)
+
+Each daily bar now shows a styled readout at once on hover, and on keyboard or touch focus (`.insights-tip`, pure CSS). Bars are focusable list items with their own `aria-label`, so `role="img"` is gone and nothing is mouse-only. The original request follows.
 
 ### Insights chart needs a REAL tooltip on the daily bars (queued 2026-09-09)
 

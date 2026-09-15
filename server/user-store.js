@@ -281,6 +281,40 @@ export async function createUser(user) {
   return user
 }
 
+/**
+ * Every account's creation time, and nothing else, for the private Insights
+ * "accounts created" series. Read from the accounts themselves, so it answers
+ * retroactively for any period and cannot drift from them, which a counter
+ * started today could not do.
+ */
+export async function listAccountCreatedDates() {
+  assertConfigured()
+  if (usingUpstash) {
+    const ids = []
+    let cursor = '0'
+    do {
+      const [next, keys] = await redis(['SCAN', cursor, 'MATCH', 'user:*', 'COUNT', '500'])
+      cursor = String(next)
+      for (const key of keys ?? []) if (!key.startsWith('user:email:')) ids.push(key)
+    } while (cursor !== '0')
+    const dates = []
+    for (let i = 0; i < ids.length; i += 200) {
+      const raws = await redis(['MGET', ...ids.slice(i, i + 200)])
+      for (const raw of raws ?? []) {
+        const user = parseUser(raw)
+        if (user?.createdAt) dates.push(user.createdAt)
+      }
+    }
+    return dates
+  }
+  if (usingSupabase) {
+    const rows = await supabase(`${TABLE}?select=created_at`)
+    return (rows ?? []).map((row) => row.created_at).filter(Boolean)
+  }
+  const users = await readFileUsers()
+  return users.map((user) => user.createdAt).filter(Boolean)
+}
+
 /** Patch one account. Only the supplied fields are written. */
 export async function updateUser(id, patch) {
   assertConfigured()
