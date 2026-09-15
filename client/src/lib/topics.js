@@ -76,6 +76,12 @@ export const TOPICS = [
           "summary": "Edward the Elder, king of the Anglo-Saxons from 899 to 924, conquered the Danish-held east midlands and East Anglia with his sister Æthelflæd, extending West Saxon power over most of England south of the Humber."
         },
         {
+          "id": "emma-of-normandy",
+          "name": "Emma of Normandy",
+          "depth": 1,
+          "summary": "Norman duke's daughter who was twice queen of England, as wife first of Æthelred the Unready and then of Cnut the Great; mother of Edward the Confessor and Harthacnut, she fought for her sons' succession and commissioned the Encomium Emmae Reginae to defend her record."
+        },
+        {
           "id": "haakon-the-good",
           "name": "Haakon the Good",
           "depth": 1,
@@ -421,7 +427,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 66
+    "count": 67
   },
   {
     "slug": "crusades",
@@ -1620,6 +1626,12 @@ export const TOPICS = [
           "summary": "Duke of Normandy who conquered England in 1066."
         },
         {
+          "id": "adela-of-normandy",
+          "name": "Adela of Normandy",
+          "depth": 1,
+          "summary": "Daughter of William the Conqueror who married Stephen-Henry, Count of Blois, governed his counties while he was on crusade and for years after his death, and raised King Stephen of England and Henry, bishop of Winchester."
+        },
+        {
           "id": "aethelstan",
           "name": "Æthelstan",
           "depth": 1,
@@ -1632,10 +1644,22 @@ export const TOPICS = [
           "summary": "King of Wessex who resisted Viking conquest and promoted learning and reform."
         },
         {
+          "id": "edith-of-wessex",
+          "name": "Edith of Wessex",
+          "depth": 1,
+          "summary": "Daughter of Earl Godwin who married Edward the Confessor in 1045 and was crowned queen; a wealthy and politically active consort, she commissioned the Vita Ædwardi Regis and was the only senior member of her family to keep rank and lands in England after the Norman Conquest."
+        },
+        {
           "id": "edward-the-elder",
           "name": "Edward the Elder",
           "depth": 1,
           "summary": "Edward the Elder, king of the Anglo-Saxons from 899 to 924, conquered the Danish-held east midlands and East Anglia with his sister Æthelflæd, extending West Saxon power over most of England south of the Humber."
+        },
+        {
+          "id": "emma-of-normandy",
+          "name": "Emma of Normandy",
+          "depth": 1,
+          "summary": "Norman duke's daughter who was twice queen of England, as wife first of Æthelred the Unready and then of Cnut the Great; mother of Edward the Confessor and Harthacnut, she fought for her sons' succession and commissioned the Encomium Emmae Reginae to defend her record."
         },
         {
           "id": "empress-matilda",
@@ -1654,6 +1678,12 @@ export const TOPICS = [
           "name": "Magnus the Good",
           "depth": 1,
           "summary": "Magnus the Good was son of Saint Olaf who became king of Norway and later Denmark, briefly joining the two crowns."
+        },
+        {
+          "id": "matilda-of-flanders",
+          "name": "Matilda of Flanders",
+          "depth": 1,
+          "summary": "Daughter of the count of Flanders who married William the Conqueror around 1051, governed Normandy while he conquered England, was crowned queen at Westminster in 1068 and was the mother of William II and Henry I of England."
         },
         {
           "id": "stephen-of-england",
@@ -1797,7 +1827,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 39
+    "count": 43
   },
   {
     "slug": "mongol-invasions",
@@ -2271,6 +2301,16 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "edward-the-elder": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    },
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest"
+    }
+  ],
+  "emma-of-normandy": [
     {
       "slug": "viking-age",
       "title": "The Viking Age"
@@ -3766,6 +3806,18 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Norman Conquest"
     }
   ],
+  "adela-of-normandy": [
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest"
+    }
+  ],
+  "edith-of-wessex": [
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest"
+    }
+  ],
   "empress-matilda": [
     {
       "slug": "norman-conquest",
@@ -3773,6 +3825,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "henry-i-of-england": [
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest"
+    }
+  ],
+  "matilda-of-flanders": [
     {
       "slug": "norman-conquest",
       "title": "The Norman Conquest"
