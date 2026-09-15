@@ -1,0 +1,101 @@
+{
+  "id": "magna-carta-document",
+  "type": "artifact",
+  "name": "Magna Carta",
+  "year": 1215,
+  "location": "England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+  "summary": "A charter of liberties sealed by King John at Runnymede.",
+  "details": "As an artifact, Magna Carta survives in multiple medieval copies and reissues. Its physical presence matters because charters were instruments of government, memory, and negotiated power.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Magna Carta is a charter of liberties first sealed in 1215 during a crisis between King John and his barons. Surviving copies and reissues made it one of medieval Europe’s most famous political documents."
+      ]
+    },
+    {
+      "title": "Creation and authorship",
+      "paragraphs": [
+        "The charter was produced by royal government under baronial pressure at Runnymede. It was not a democratic constitution, but a negotiated settlement among king, church, and elite society."
+      ]
+    },
+    {
+      "title": "Content and purpose",
+      "paragraphs": [
+        "Its clauses addressed inheritance, justice, taxation, church liberties, debts, forest law, and limits on arbitrary royal action. Some clauses were practical and immediate; others gained wider meaning later."
+      ]
+    },
+    {
+      "title": "Transmission and preservation",
+      "paragraphs": [
+        "Magna Carta was annulled, revised, and reissued. Its survival in multiple manuscript copies shows how written charters could become instruments of political memory."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Later generations turned Magna Carta into a symbol of lawful government. That legacy is real, but it developed over centuries from a very specific medieval crisis."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Magna Carta manuscript, British Library Cotton MS Augustus II.106.",
+    "creator": "Medieval chancery scribe",
+    "date": "1215",
+    "source": "British Library / Wikimedia Commons",
+    "note": "Photograph of a surviving medieval document."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Magna Carta",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Magna-Carta"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Magna Carta Sealed",
+        "type": "event",
+        "slug": "magna-carta",
+        "label": "The 1215 sealing the document records"
+      },
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "John's defeat that forced the charter"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Constrained the English crown"
+      }
+    ],
+    "people": [
+      {
+        "title": "Pope Innocent III",
+        "type": "person",
+        "slug": "pope-innocent-iii",
+        "label": "Annulled the charter in 1215"
+      }
+    ]
+  }
+}

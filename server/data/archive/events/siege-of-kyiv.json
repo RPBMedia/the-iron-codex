@@ -1,0 +1,209 @@
+{
+  "id": "siege-of-kyiv",
+  "type": "event",
+  "name": "Siege of Kyiv",
+  "year": 1240,
+  "aliases": [
+    "Siege of Kiev",
+    "Sack of Kyiv",
+    "Fall of Kyiv (1240)"
+  ],
+  "location": "Rus’ (Kyiv)",
+  "eventType": "Siege",
+  "conflict": "Mongol invasion of the Rus’ (1237–1240)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Siege_of_Kiev_%281240%29.png",
+  "imageInfo": {
+    "caption": "The Mongol storm of Kyiv in 1240.",
+    "creator": "Unknown",
+    "date": "later depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siege_of_Kiev_(1240).png",
+    "note": "A later depiction of the fall of the city."
+  },
+  "summary": "In late 1240 Batu Khan stormed Kyiv, the “mother of Rus’ cities”, after a fierce assault. The great city was sacked and largely destroyed, ending the golden age of Kievan Rus’ and opening the road into Latin Europe.",
+  "details": "Kyiv’s fall marked the end of Kievan Rus’ as a political centre and the start of the Mongol invasion of Poland and Hungary.",
+  "eventLocation": {
+    "name": "Kyiv"
+  },
+  "background": [
+    "Having subdued the north-east and rested on the steppe, Batu turned in 1240 to southern Rus’, taking Pereyaslavl and Chernigov before reaching Kyiv — still the greatest and most storied city of the Rus’, though no longer their political master.",
+    "The city was held for Prince Danylo of Galicia by the voivode Dmytro; the prince himself was absent seeking allies in the west."
+  ],
+  "battle": "The Mongols encircled Kyiv and battered its walls with a great concentration of siege engines. When the ramparts fell the defenders held a last stand at the Church of the Tithes, which collapsed under the weight of people and the assault.",
+  "outcome": "Decisive Mongol victory; Kyiv was stormed and destroyed.",
+  "aftermath": "Kyiv was left a ruin, its population slaughtered or enslaved; a papal envoy passing years later found only a few hundred houses. With southern Rus’ subdued, Batu and Subutai advanced into Poland and Hungary in 1241.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Kyiv in 1240 destroyed the greatest city of the Rus’ and ended the era of Kievan Rus’. Its fall cleared the way for the Mongol invasion of Poland and Hungary the following year."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After conquering the north-east in 1238, Batu spent a year on the steppe before turning on southern Rus’ in 1240. Pereyaslavl and Chernigov fell, and the horde closed on Kyiv — a city past its political prime but still vast, wealthy, and revered as the cradle of Rus’ Christianity. It was held by the voivode Dmytro for the absent Danylo of Galicia."
+      ]
+    },
+    {
+      "title": "The siege",
+      "paragraphs": [
+        "The Mongols massed their siege engines against the walls and kept up a battering that, the chronicles say, never ceased day or night. When the ramparts were breached the defenders fell back to the inner city and made a final stand around the Church of the Tithes, which collapsed under the press of people who had climbed onto it for refuge.",
+        "The city was stormed, sacked, and burned; the wounded Dmytro was spared by Batu for his courage."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Kyiv was left desolate — when the friar John of Plano Carpini rode through a few years later he counted barely two hundred houses standing amid the bones of the dead. With the Rus’ crushed, the Mongols crossed into Latin Europe in 1241, defeating the Poles at Legnica and destroying the Hungarian army at the Battle of Mohi."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Kyiv (for Galicia-Volhynia)",
+      "factions": [
+        {
+          "name": "Kievan Rus’",
+          "title": "Kievan Rus’",
+          "type": "location",
+          "slug": "kievan-rus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Voivode Dmytro",
+          "title": "Commander of Kyiv’s defence",
+          "note": "No article yet: commanded the defence of Kyiv for Danylo of Galicia, and was spared by Batu for the courage of it."
+        }
+      ],
+      "strength": {
+        "display": "The city garrison and townsfolk; no reliable figure",
+        "confidence": "debated",
+        "note": "The defenders were overwhelmingly outnumbered; chronicle figures are unreliable."
+      }
+    },
+    {
+      "side": "Mongol Empire",
+      "factions": [
+        {
+          "name": "Mongol Empire",
+          "title": "House of Borjigin",
+          "type": "house",
+          "slug": "house-of-borjigin"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Batu Khan",
+          "title": "Batu Khan",
+          "type": "person",
+          "slug": "batu-khan"
+        },
+        {
+          "name": "Subutai",
+          "title": "Subutai",
+          "type": "person",
+          "slug": "subutai"
+        }
+      ],
+      "strength": {
+        "display": "The main Mongol horde; estimates vary",
+        "confidence": "estimated",
+        "note": "A very large army with a heavy siege train; exact numbers are debated."
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Voivode Dmytro",
+      "faction": "Kyiv (for Galicia-Volhynia)"
+    },
+    {
+      "name": "Batu Khan",
+      "faction": "Mongol Empire",
+      "personId": "batu-khan"
+    },
+    {
+      "name": "Subutai",
+      "faction": "Mongol Empire",
+      "personId": "subutai"
+    }
+  ],
+  "factions": [
+    "Kyiv (for Galicia-Volhynia)",
+    "Mongol Empire"
+  ],
+  "battleContinuity": {
+    "label": "On into Europe",
+    "battleSlug": "battle-of-mohi",
+    "relationship": "same-war",
+    "reason": "With Kyiv destroyed and the Rus’ subdued, Batu and Subutai invaded Latin Europe in 1241, destroying the Hungarian royal army at the Battle of Mohi."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Batu Khan",
+        "type": "person",
+        "slug": "batu-khan"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai"
+      },
+      {
+        "title": "Mstislav the Bold",
+        "type": "person",
+        "slug": "mstislav-the-bold"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of the Sit River",
+        "type": "event",
+        "slug": "battle-of-the-sit-river"
+      },
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi"
+      },
+      {
+        "title": "Battle of the Kalka River",
+        "type": "event",
+        "slug": "battle-of-the-kalka-river"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kievan Rus’",
+        "type": "location",
+        "slug": "kievan-rus"
+      },
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Chronicle of Novgorod, 1016–1471",
+      "author": "trans. Michell & Forbes",
+      "type": "primary source"
+    },
+    {
+      "title": "The Mongol Invasion of Russia in the 13th Century",
+      "author": "George Vernadsky (and later surveys)",
+      "type": "book"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Mongol invasion of Russia",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Mongol-invasion-of-Russia"
+    }
+  ]
+}

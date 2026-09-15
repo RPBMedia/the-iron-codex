@@ -1,0 +1,193 @@
+{
+  "id": "battle-of-castillon",
+  "type": "event",
+  "name": "Battle of Castillon",
+  "year": 1453,
+  "location": "Castillon, Gascony",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Castillon.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Castillon (1453), painted by Charles-Philippe Larivière for the Galerie des Batailles at Versailles, 19th century. John Talbot falls at the centre.",
+    "creator": "Charles-Philippe Larivière",
+    "date": "19th century",
+    "source": "Galerie des Batailles, Palace of Versailles — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Castillon.jpg",
+    "note": "A romantic 19th-century historical painting, not a contemporary image; used as the clearest available depiction of the battle. Public domain."
+  },
+  "summary": "On 17 July 1453 John Talbot's Anglo-Gascon army charged Jean Bureau's entrenched artillery park at Castillon and was destroyed; Talbot was killed, Bordeaux fell in October, and the Hundred Years' War was over.",
+  "details": "Castillon was the last major battle of the Hundred Years' War and the first in which massed gunpowder artillery in a prepared position destroyed a medieval attacking army. Talbot, misled by dust clouds into believing the French were retreating, attacked their fortified camp head-on with his vanguard. Up to three hundred guns of every calibre fired into the assault at close range; when Breton cavalry struck the English flank, the army collapsed. Talbot and his son were killed.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Jean Bureau, Master of Artillery",
+      "faction": "French royal army"
+    },
+    {
+      "name": "John Talbot, Earl of Shrewsbury",
+      "faction": "Anglo-Gascon army",
+      "personId": "john-talbot"
+    }
+  ],
+  "outcome": "Decisive French victory; Talbot was killed, Gascony fell, and major fighting ended.",
+  "participants": [
+    {
+      "side": "French royal army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Jean Bureau, Master of Artillery",
+          "type": "person",
+          "note": "No article yet: the artillery officer whose entrenched gun park won the battle and the war, and the reason Castillon is treated as the end of the medieval military age."
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–10,000, with a strong artillery park",
+        "confidence": "estimated",
+        "note": "The French fought from a fortified artillery camp whose guns broke the English assault."
+      }
+    },
+    {
+      "side": "Anglo-Gascon army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John Talbot, Earl of Shrewsbury",
+          "type": "person",
+          "slug": "john-talbot"
+        }
+      ],
+      "strength": {
+        "display": "c. 5,000–6,000 under John Talbot",
+        "confidence": "estimated",
+        "note": "Talbot attacked the entrenched French camp and was killed; the defeat ended the Hundred Years' War. Figures are estimates."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of Castillon, fought on 17 July 1453 beside the Dordogne east of Bordeaux, is conventionally the last battle of the Hundred Years' War — and a landmark in military history as the first great field victory won by massed gunpowder artillery. The army of John Talbot, the aged \"English Achilles\", attacked a fortified French artillery camp on the strength of a false report and was shot to pieces in front of its rampart.",
+        "The defeat was final in a way no earlier battle had been. Talbot was dead, no relief could be raised in an England sliding into civil war, and when Bordeaux capitulated on 19 October 1453, three hundred years of Plantagenet Aquitaine ended. No treaty was ever signed; the war simply stopped, because the English had nothing left to fight it with."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Gascony was not Normandy: Bordeaux had been English for three centuries, its prosperity built on the wine trade with England, and when Bureau's armies first overran the duchy in 1451 the Bordelais soon found French taxation and rule intolerable. Their envoys invited the English back, and in October 1452 Talbot landed with a small force and retook Bordeaux to genuine local rejoicing. Reinforced in 1453 to perhaps six to ten thousand English and Gascon troops, he faced three converging French royal armies.",
+        "In July 1453 one of those armies, its operations directed by the artillery master Jean Bureau, besieged the town of Castillon on the Dordogne. Bureau, expecting Talbot, did not merely besiege — he built a fortified artillery park outside the town: a ditch and rampart lined with up to three hundred guns, its rear covered by the river, garrisoned by some seven to ten thousand men. It was a trap disguised as a siege camp."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Talbot marched hard from Bordeaux, and at dawn on 17 July his vanguard scattered a screen of French archers posted in a priory outside the town — first blood that confirmed his instinct to press on. Then came the report that decided the battle: a great dust cloud was rising from the French camp. Talbot read it as a retreat beginning and ordered an immediate assault. The dust was the camp followers and horses being sent to the rear before the fighting.",
+        "The English attacked dismounted, in the front rank Talbot himself — unarmoured and on a pony, keeping an oath sworn during his captivity after Patay never again to wear armour against the King of France. The assault reached the rampart and stayed there, in the killing ground, for perhaps an hour, as guns loaded with ball and scrap fired into it at ranges where a single shot cut files of men in half. When a thousand Breton cavalry under Peter II of Brittany came in on the right flank, the attack disintegrated. Talbot's pony was killed under him and he was finished with a hand-axe; his son Lord Lisle died trying to stand over the body."
+      ]
+    },
+    {
+      "title": "The end of the war",
+      "paragraphs": [
+        "Castillon surrendered the next day, and the remaining Gascon towns followed through the summer as Bureau's siege train came before their walls. Bordeaux, blockaded by land and river, held until 19 October 1453, then yielded on terms; this time Charles VII garrisoned it with citadels and expelled the leading English partisans. The three-century-old union of England and Aquitaine, older than the war itself, was finished.",
+        "England kept only Calais — held until 1558 — and a royal title to France that its kings would not formally abandon until 1802. There was no peace treaty: the war ended by exhaustion, and within two years the veterans of Lancastrian France were fighting each other at St Albans in the opening battle of the Wars of the Roses. The same year Castillon was fought, Constantinople fell to Ottoman guns — 1453 marking, at both ends of Europe, the power of artillery over the medieval world's walls and battle lines."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Castillon inverted the tactical story the war had told since Crécy. For a century the English had won by standing on the defensive and letting the enemy attack a prepared position; at Castillon it was the French who stood in a fortified position with superior missile weapons — now guns rather than bows — and the English who broke themselves attacking it. Talbot's recklessness supplied the occasion, but the deeper cause was institutional: a permanent royal army with the best artillery establishment in Europe against an expedition raised by a bankrupt government.",
+        "The battle's reputation as the \"first field victory of gunpowder\" should be stated precisely: guns had appeared on battlefields since Crécy itself, and at Formigny they had played a disruptive part. Castillon is the first great battle in which massed artillery, emplaced and fought as the core of the position, was the decisive arm. Warfare between armies of the old type continued for decades — but after 17 July 1453, no one could doubt what the new weapon meant."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Larivière, The Battle of Castillon",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Castillon.jpg"
+    },
+    {
+      "title": "Battle of Castillon — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Castillon"
+    },
+    {
+      "title": "The Hundred Years War, vol. 5: Triumph and Illusion",
+      "author": "Jonathan Sumption",
+      "type": "book",
+      "note": "Definitive modern narrative of the fall of Gascony and Castillon."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Formigny",
+        "type": "event",
+        "slug": "battle-of-formigny",
+        "label": "The fall of Normandy, three years earlier"
+      },
+      {
+        "title": "Battle of Patay",
+        "type": "event",
+        "slug": "battle-of-patay",
+        "label": "Where Talbot swore his fatal oath"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war this battle ended"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "Artillery's other great victory of 1453"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "The duchy lost"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Return to the war's earlier phase",
+    "battleSlug": "battle-of-crecy",
+    "relationship": "earlier-context",
+    "reason": "Castillon closed the war that Crécy had opened in 1346. To follow the whole arc — from the longbow's first great victory to the artillery that ended English France — return to where the fighting began."
+  }
+}

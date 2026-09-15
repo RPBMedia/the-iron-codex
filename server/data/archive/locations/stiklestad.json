@@ -1,0 +1,81 @@
+{
+  "type": "location",
+  "locationType": "Village / battlefield",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Battle of Stiklestad",
+    "Saint Olaf",
+    "Christianization of Norway"
+  ],
+  "overview": [
+    "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Stiklestad in Trøndelag was the site of the Battle of Stiklestad on 29 July 1030, where King Olaf II Haraldsson of Norway was killed fighting to reclaim his throne from Cnut the Great and his Norwegian allies."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Olaf's death at Stiklestad transformed a military defeat into a royal martyrdom. Reports of miracles at his burial site at Nidaros led to his canonization in 1031, making him the patron saint of Norway. Stiklestad became a pilgrimage site, and Saint Olaf's cult shaped Norwegian royal ideology and Christian identity for centuries."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Stiklestad",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke.jpg"
+    },
+    {
+      "title": "Stiklestad reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Stiklestad"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Stiklestad",
+        "type": "event",
+        "slug": "battle-of-stiklestad",
+        "label": "Battle fought here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Olaf II Haraldsson",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Death of Olaf II Haraldsson"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "stiklestad",
+  "name": "Stiklestad",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stiklestad_kirke.jpg",
+  "summary": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult.",
+  "imageInfo": {
+    "caption": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

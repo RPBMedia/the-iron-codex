@@ -1,0 +1,182 @@
+{
+  "id": "guido-da-landriano",
+  "type": "character",
+  "name": "Guido da Landriano",
+  "aliases": [
+    "Guido da Landriano of Milan"
+  ],
+  "born": "12th century",
+  "died": 1176,
+  "restingPlace": "Unknown",
+  "location": "Lombard League",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/BattagliaLegnano.jpg",
+  "summary": "Guido da Landriano is traditionally identified as a Milanese commander associated with the Lombard League victory at Legnano.",
+  "details": "Guido da Landriano is traditionally identified as a Milanese commander associated with the Lombard League victory at Legnano.",
+  "title": "Milanese commander",
+  "roles": [
+    "Lombard League commander"
+  ],
+  "birth": {
+    "date": "12th century",
+    "place": {
+      "name": "Lombardy",
+      "slug": "lombardy"
+    },
+    "note": "Exact date and birthplace unknown; Lombardy identifies the Milanese and communal world with which he is associated."
+  },
+  "death": {
+    "date": "after 1176",
+    "place": null,
+    "circumstance": "Death date and place are unknown; the surviving tradition preserves Guido mainly through his association with the Lombard League and Legnano."
+  },
+  "quickFacts": {
+    "realm": "Lombard League",
+    "culture": "Lombard Italian",
+    "knownFor": "Traditionally linked to Lombard command at Legnano"
+  },
+  "imageInfo": {
+    "caption": "Image associated with Guido da Landriano.",
+    "creator": "Unknown or public-domain source",
+    "date": "medieval or later public-domain image",
+    "source": "Wikimedia Commons",
+    "note": "Used as a historical depiction, seal, coin, manuscript image, tomb, or associated artwork; not necessarily a contemporary portrait."
+  },
+  "overview": [
+    "Guido da Landriano is traditionally identified as a Milanese commander associated with the Lombard League victory at Legnano."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Guido da Landriano is traditionally identified as a Milanese commander associated with the Lombard League victory at Legnano."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Guido da Landriano was born 12th century, associated with Lombardy. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of Lombard League, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Guido da Landriano is among the most obscure figures in the archive, a Milanese commander remembered for his association with the Lombard League's resistance to Frederick I Barbarossa rather than for any documented personal character. The sources preserve him as a military figure of the communal armies that confronted the emperor, but they offer little beyond his role in that struggle.",
+        "What can honestly be said is shaped by context rather than individual report: he belonged to the civic-military leadership of the north Italian cities that organised, against the odds, to defend their independence against imperial power, culminating in the league's victory at the Battle of Legnano in 1176. Commanders of this kind drew their authority from the communes they served rather than from dynastic right.",
+        "The honest assessment is that his personality cannot be recovered from the surviving record. He is remembered as a representative of the Lombard communal resistance — a name attached to the military effort of the cities — rather than as an individual whose temperament the sources allow us to describe."
+      ]
+    },
+    {
+      "title": "As Lombard communal commander",
+      "paragraphs": [
+        "The command structure of the Lombard League was communal and not always clear in surviving evidence. Guido is useful as a named figure connected to Milanese leadership, but the battle should not be reduced to a single commander.",
+        "Battle of Legnano gives Guido da Landriano's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Guido da Landriano’s death date and place are unknown. The surviving tradition preserves him mainly through his association with the Lombard League and the Battle of Legnano, not through a continuous biography."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He represents the difficulty of linking communal warfare to individual commanders. Later patriotic memory often preferred more heroic figures, some of them legendary."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Associated with Milanese command at Legnano",
+      "description": "Guido is remembered in traditions around Milanese and Lombard League leadership at Legnano."
+    },
+    {
+      "title": "Connected to Lombard League resistance",
+      "description": "His reputation belongs to the communal resistance against Frederick Barbarossa’s claims in northern Italy."
+    },
+    {
+      "title": "Represents communal leadership in northern Italy",
+      "description": "Even where details are uncertain, he stands for the civic-military leadership of the Lombard communes."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "12th century",
+      "title": "Born",
+      "description": "Born in the Lombard communal world; exact date unknown."
+    },
+    {
+      "date": "1167",
+      "title": "Lombard League forms",
+      "description": "Northern Italian communes organize against imperial pressure."
+    },
+    {
+      "date": "1176",
+      "title": "Battle of Legnano",
+      "description": "Traditionally associated with League command.",
+      "links": [
+        {
+          "title": "Battle of Legnano",
+          "type": "event",
+          "slug": "battle-of-legnano"
+        }
+      ]
+    },
+    {
+      "date": "1183",
+      "title": "Peace of Constance",
+      "description": "Communal liberties are recognized after the conflict."
+    },
+    {
+      "date": "after 1176",
+      "title": "Later life uncertain",
+      "description": "Details after Legnano are poorly documented.",
+      "links": [
+        {
+          "title": "Battle of Legnano",
+          "type": "event",
+          "slug": "battle-of-legnano"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "Realm"
+      },
+      {
+        "title": "Lombardy",
+        "type": "location",
+        "slug": "lombardy",
+        "label": "Birthplace"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "Fought in this engagement"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Guido da Landriano",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Guido_da_Landriano_of_Milan"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:BattagliaLegnano.jpg"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "battle-of-ad-decimum",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Ad Decimum",
+  "year": 533,
+  "location": "Ad Decimum, ten miles from Carthage",
+  "eventLocation": "Ad Decimum, on the road to Carthage",
+  "conflict": "Vandalic War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Ad%20Decimum%20-%20First%20phase.svg",
+  "imageInfo": {
+    "caption": "The first phase of Ad Decimum: Gelimer's three converging columns and the Roman column advancing on Carthage.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern diagram of the battle of 533",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Ad_Decimum_-_First_phase.svg",
+    "note": "A modern reconstruction diagram, not a contemporary depiction. The battle is known only from Procopius, and any plan of it is an interpretation of his narrative. Licensed CC BY-SA 3.0."
+  },
+  "summary": "At Ad Decimum on 13 September 533, Gelimer's plan to trap the Roman column ten miles from Carthage collapsed on timing, and Belisarius won the road to the city.",
+  "details": "It is one of the clearest cases in military history of a good plan destroyed by coordination — and of a battle lost because a commander stopped to grieve.",
+  "outcome": "Roman victory; Carthage opened its gates within days.",
+  "background": "Belisarius had landed unopposed and was marching north on Carthage. Gelimer moved to trap the column at the tenth milestone.",
+  "battle": "Three Vandal forces were to converge on the Roman column. They arrived separately, were beaten in turn, and Gelimer lost the initiative at the decisive moment.",
+  "aftermath": "The Vandal army withdrew; Belisarius entered Carthage on 15 September and dined in the royal palace.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ad Decimum — \"at the tenth milestone\" — was fought on 13 September 533 on the road from the landing beaches to Carthage.",
+        "Gelimer's plan was genuinely good: three forces converging simultaneously on a strung-out marching column, with his own troops closing the trap from behind.",
+        "It failed entirely on timing, and the battle has become the standard illustration of what happens when a converging attack loses coordination."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Belisarius had landed unopposed some days earlier and was marching north with his army in a long column, his cavalry screening ahead and the fleet shadowing the coast.",
+        "Gelimer was behind him rather than in front, and saw the opportunity to catch the column between three forces at a defile where the road narrowed.",
+        "His brother Ammatas was to come out from Carthage and block the head of the column, his nephew Gibamund to strike the flank across the plain, and Gelimer himself to fall on the rear."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Ammatas arrived early and with only part of his force, ran into the Roman advance guard, and was killed. His troops fled back toward Carthage, colliding with their own reinforcements coming the other way.",
+        "Gibamund's flanking force was met by the Hunnic cavalry of the Roman army on the open plain and destroyed before it reached the column at all.",
+        "Gelimer arrived last, drove back the Roman cavalry and for a moment held the field. Then he came upon his brother Ammatas's body, stopped to mourn and to arrange the burial, and let the initiative go. Belisarius rallied his cavalry, attacked, and the Vandal army broke."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The road to Carthage was open. Belisarius entered the city on 15 September and, in a scene Procopius clearly enjoyed, dined that evening in the Vandal royal palace on the meal prepared for Gelimer.",
+        "He kept his army under strict discipline and paid for supplies, which kept the African population neutral — a decision that mattered more than the battle itself for what followed.",
+        "Gelimer withdrew inland to gather what was left, and recalled his brother Tzazon and the Sardinian expedition."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "The battle decided the campaign within weeks of the landing. A kingdom of a century fell because its field army was beaten in an afternoon on a road outside its capital.",
+        "It is also the best surviving illustration of the coordination problem in pre-modern warfare. Three forces without communication cannot converge on a moving target, and Gelimer's plan required exactly that.",
+        "The detail about the mourning is Procopius, and it should be treated with some care — a defeated enemy undone by brotherly grief is a very tidy story. But it is the account we have, from a man who was there."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Belisarius",
+          "title": "Belisarius",
+          "type": "person",
+          "slug": "belisarius"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000",
+        "confidence": "estimated",
+        "note": "Only part of the expeditionary force was engaged; the advance guard and the Hunnic cavalry did most of the fighting.",
+        "min": 13000,
+        "max": 16000
+      }
+    },
+    {
+      "side": "Vandal army",
+      "factions": [
+        {
+          "name": "Vandal Kingdom",
+          "title": "Vandal Kingdom",
+          "type": "location",
+          "slug": "vandal-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Gelimer",
+          "title": "Gelimer",
+          "type": "person",
+          "slug": "gelimer"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; split into three converging forces",
+        "confidence": "debated",
+        "note": "No figures survive. What is certain is that the Vandal army was divided into three parts that never combined."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the campaign to its decisive battle",
+    "battleSlug": "battle-of-tricamarum",
+    "relationship": "same-campaign",
+    "reason": "Gelimer rebuilt an army around his brother Tzazon's troops recalled from Sardinia and fought again in December 533 at Tricamarum, where Tzazon was killed and the Vandal kingdom lost its last field force."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Commanded the Roman army"
+      },
+      {
+        "title": "Gelimer",
+        "type": "person",
+        "slug": "gelimer",
+        "label": "Commanded the Vandal army"
+      }
+    ],
+    "events": [
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign it belongs to"
+      },
+      {
+        "title": "Battle of Tricamarum",
+        "type": "event",
+        "slug": "battle-of-tricamarum",
+        "label": "The battle that followed"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Vandal Kingdom",
+        "type": "location",
+        "slug": "vandal-kingdom",
+        "label": "The realm defending itself"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Ad Decimum",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ad_Decimum",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Battle diagram",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Ad_Decimum_-_First_phase.svg",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

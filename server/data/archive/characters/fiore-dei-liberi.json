@@ -1,0 +1,149 @@
+{
+  "id": "fiore-dei-liberi",
+  "type": "character",
+  "name": "Fiore dei Liberi",
+  "aliases": [
+    "Fiore dei Liberi da Cividale",
+    "Fiore Furlano",
+    "Fiore de’ Liberi"
+  ],
+  "born": "c. 1350",
+  "died": "c. 1420",
+  "deathAge": "unknown",
+  "birth": {
+    "date": "c. 1350",
+    "place": {
+      "name": "Cividale del Friuli, Patriarchate of Aquileia"
+    }
+  },
+  "death": {
+    "date": "c. 1420 (uncertain)",
+    "place": {
+      "name": "northern Italy"
+    }
+  },
+  "location": "Friuli and northern Italy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flos%20Duellatorum%2C%20Flor%20de%20Batalla%201409.JPG",
+  "title": "fencing master",
+  "isRuler": false,
+  "roles": [
+    "Fencing master",
+    "Author of the Fior di Battaglia"
+  ],
+  "summary": "Fiore dei Liberi was the Italian fencing master whose illustrated treatise, the Fior di Battaglia (c. 1409), lays out an integrated art of wrestling, dagger, sword, armoured combat, poleaxe, and mounted fighting — the foundation of the Italian school.",
+  "details": "A master from Cividale del Friuli, Fiore taught soldiers and noblemen across northern Italy and compiled his life’s teaching into a richly illustrated manual dedicated to Niccolò III d’Este of Ferrara.",
+  "overview": "Fiore is the earliest Italian fencing master whose work survives in full, and one of the most complete martial systems of the Middle Ages.",
+  "quickFacts": {
+    "culture": "Italian (Friulian)",
+    "knownFor": "The Fior di Battaglia (Flower of Battle), c. 1409"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Fiore dei Liberi was an Italian master-at-arms from Cividale del Friuli, active around 1400. He is the author of the Fior di Battaglia (\"Flower of Battle\"), an illustrated treatise of about 1409 that is the earliest complete record of the Italian martial tradition.",
+        "Unlike Liechtenauer’s cryptic verse, Fiore’s work is a full illustrated curriculum. It moves from unarmed wrestling through the dagger, the sword in one and two hands, armoured combat, the poleaxe and spear, to fighting on horseback — a whole system, not a single weapon.",
+        "Because Fiore wrote a prologue about his own life, he is far better documented than his German contemporary, and his manuscripts survive in several closely-related copies."
+      ]
+    },
+    {
+      "title": "The Fior di Battaglia",
+      "paragraphs": [
+        "In his prologue Fiore says he studied under many masters, German and Italian, over decades, and fought five duels against envious rivals who wished to test him. He compiled the Fior di Battaglia for Niccolò III d’Este, marquis of Ferrara, presenting the whole of his art in ordered images with captions.",
+        "The system is organised as an integrated whole: the longsword sits between the dagger and the poleaxe, and the same principles of leverage, timing and control run through armed and unarmed play alike. Techniques are taught through a memorable scheme of \"masters\" and \"scholars\" and the four virtues.",
+        "The treatise survives in four manuscripts — the Getty, Pisani-Dossi, Morgan and Paris copies — whose overlaps and differences let scholars reconstruct his teaching in detail."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Fiore speaks in his own voice in the prologue, and the impression is of a proud, careful professional: a man who insists on the difficulty and danger of his art, who guards it from the unworthy, and who is quietly boastful about besting jealous rivals in earnest combat.",
+        "He presents himself as a lifelong student as much as a teacher, crediting many masters and long experience rather than natural genius. That self-portrait is of course his own advertisement, but the meticulous, humane organisation of his book — built to be learned, not just admired — supports the picture of a serious practitioner rather than a showman."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Wrote the Fior di Battaglia (c. 1409), the earliest complete Italian martial treatise",
+    "Set out an integrated art of wrestling, dagger, sword, poleaxe and mounted combat",
+    "Founded the Italian school later carried on by masters such as Filippo Vadi"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1350",
+      "title": "Born",
+      "description": "Born at Cividale del Friuli in the Patriarchate of Aquileia."
+    },
+    {
+      "date": "Late 14th century",
+      "title": "Career",
+      "description": "Trains under several masters and teaches soldiers and noblemen across northern Italy."
+    },
+    {
+      "date": "c. 1409",
+      "title": "Fior di Battaglia",
+      "description": "Completes his illustrated treatise, dedicated to Niccolò III d’Este of Ferrara."
+    },
+    {
+      "date": "early 15th century",
+      "title": "The manuscripts",
+      "description": "His art survives in four closely-related manuscripts (Getty, Pisani-Dossi, Morgan, Paris)."
+    },
+    {
+      "date": "c. 1420",
+      "title": "Died",
+      "description": "Died in the early 15th century; the exact date is not recorded."
+    }
+  ],
+  "imageInfo": {
+    "caption": "A page from Fiore dei Liberi’s Flos Duellatorum / Fior di Battaglia (1409), showing the illustrated martial teaching that made his reputation.",
+    "creator": "Fiore dei Liberi (Pisani-Dossi manuscript)",
+    "date": "1409 manuscript",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flos_Duellatorum,_Flor_de_Batalla_1409.JPG",
+    "note": "A near-contemporary manuscript of Fiore’s own treatise; no portrait of the man survives."
+  },
+  "sources": [
+    {
+      "title": "Fiore dei Liberi",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Fiore_dei_Liberi"
+    },
+    {
+      "title": "Fiore dei Liberi (Fior di Battaglia manuscripts)",
+      "author": "Wiktenauer (HEMA Alliance)",
+      "type": "primary-source tradition",
+      "url": "https://wiktenauer.com/wiki/Fiore_de%27i_Liberi"
+    }
+  ],
+  "relatedEntries": {
+    "weaponsArmor": [
+      {
+        "title": "Longsword",
+        "type": "weaponArmor",
+        "slug": "longsword",
+        "label": "Central to his system"
+      },
+      {
+        "title": "Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger",
+        "label": "The dagger of his armoured play"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "Part of his integrated curriculum"
+      }
+    ],
+    "people": [
+      {
+        "title": "Johannes Liechtenauer",
+        "type": "person",
+        "slug": "johannes-liechtenauer",
+        "label": "His German contemporary and counterpart"
+      }
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "id": "theophilos",
+  "type": "character",
+  "name": "Theophilos",
+  "aliases": [
+    "Theophilus",
+    "Theophilos the Unfortunate"
+  ],
+  "born": 813,
+  "died": 842,
+  "deathAge": "about 29",
+  "causeOfDeath": "Died of dysentery in January 842, aged about twenty-nine.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Theophilos%20(cropped).jpg",
+  "imageInfo": {
+    "caption": "Theophilos enthroned, in a detail from a Madrid Skylitzes miniature.",
+    "creator": "Madrid Skylitzes manuscript",
+    "date": "12th–13th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theophilos_(cropped).jpg",
+    "note": "A manuscript image painted three to four centuries after his death, in a chronicle written by the party that had defeated his religious policy. Not a likeness. Public domain."
+  },
+  "summary": "Theophilos was the last iconoclast emperor, a conspicuous patron of learning and building, and the ruler who watched the Abbasids sack Amorion, his own dynasty's home city.",
+  "overview": "The most cultivated emperor of the ninth century and the one whose reign was defined by a defeat he could not prevent.",
+  "greatestFeats": [
+    "Rebuilt the Great Palace with mechanical marvels and patronised the mathematician Leo",
+    "Reformed the coinage and heard petitions from the public in person",
+    "Held the empire together through the worst Abbasid campaign of the century"
+  ],
+  "birth": {
+    "date": "c. 813",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "842",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died of dysentery in January 842, leaving a two-year-old son under the regency of his wife Theodora."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Amorian dynasty",
+    "culture": "Roman",
+    "knownFor": "The last iconoclast reign, and the sack of Amorion"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Michael II",
+      "note": "His father, called the Amorian and the Stammerer, who took the throne in 820 by having Leo V murdered in the palace chapel.",
+      "personSlug": "michael-ii"
+    },
+    "successor": {
+      "personSlug": "michael-iii",
+      "displayName": "Michael III",
+      "note": "His son, two years old at his accession, under the regency of the empress Theodora — who ended iconoclasm within a year of Theophilos's death."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Theophilos ruled from 829 to 842 and is the most conspicuously cultivated emperor between Justinian and Constantine VII: a patron of scholars, a builder of palaces, and a ruler who took the ceremonial and judicial functions of the office unusually seriously.",
+        "He was also the last iconoclast, reviving a policy that had gone quiet, and the emperor under whom the Abbasid caliphate inflicted the heaviest defeat of the century on the empire.",
+        "In 838 the caliph al-Mu'tasim marched on Amorion — his own dynasty's home city, chosen for exactly that reason — and destroyed it. He died four years later at twenty-nine."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 813, the son of Michael II, a provincial soldier from Amorion in Phrygia who had come to the throne by murdering his predecessor in the palace chapel on Christmas morning 820.",
+        "He was crowned co-emperor as a child and given a serious education under John the Grammarian, a scholar and committed iconoclast who became patriarch and shaped both his learning and his religious position.",
+        "He succeeded in 829 and married Theodora, chosen at a bride-show, who venerated icons — the same arrangement that had produced Irene two generations earlier, and with the same eventual outcome."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources are hostile on doctrine and unusually admiring on everything else, which makes him one of the better-attested Byzantine personalities.",
+        "He is described riding weekly to the church of the Blachernae so that anyone could approach him with a petition, and hearing cases in person with a reputation for even-handedness that the tradition preserved despite disapproving of him.",
+        "The taste for display was famous: a throne room with a gilded plane tree full of mechanical singing birds and lions that roared, a palace built in imitation of the caliph's at Baghdad, and diplomatic gifts designed to impress the very court he was fighting. He also had a genuine intellectual seriousness — the mathematician Leo was his protégé, and the caliph al-Ma'mun is said to have tried to hire the man away."
+      ]
+    },
+    {
+      "title": "The war and Amorion",
+      "paragraphs": [
+        "The eastern war ran throughout his reign and mostly against him. He won a notable success at Zapetra in 837 and celebrated a triumph for it, which provoked exactly the retaliation it should have.",
+        "In 838 al-Mu'tasim invaded with one of the largest armies the caliphate ever sent into Anatolia and split it in two. Theophilos was defeated at Anzen, and the caliph marched on Amorion — the birthplace of the dynasty, chosen deliberately as the target.",
+        "The city fell after a siege of two weeks and was destroyed, its population killed or enslaved. Forty-two officers taken there were held at Samarra for seven years and executed for refusing to convert; they are remembered in the Orthodox calendar as the Forty-Two Martyrs of Amorion. Theophilos never recovered from it, politically or personally."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His religious policy died with him. Within a year of his death his widow Theodora had restored the veneration of images, and she managed it so as to protect his memory — insisting he had repented before the end, which is what allowed the settlement to be made without condemning the last emperor by name.",
+        "What survived was the cultural revival. The patronage of Leo the Mathematician and the scholarship of his reign feed directly into the intellectual flowering under his son and the Macedonians after them.",
+        "The Byzantine popular tradition treated him kindly, remembering the emperor who rode out to hear complaints. Given that he lost Amorion and backed the losing side of the empire's longest religious argument, that is a considerable achievement of reputation."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 813",
+      "title": "Born",
+      "description": "Born to Michael II, first emperor of the Amorian dynasty."
+    },
+    {
+      "date": "829",
+      "title": "Becomes emperor",
+      "description": "Succeeds his father and marries Theodora, chosen at a bride-show."
+    },
+    {
+      "date": "830s",
+      "title": "Patronage and building",
+      "description": "Rebuilds the Great Palace with mechanical marvels and patronises Leo the Mathematician."
+    },
+    {
+      "date": "837",
+      "title": "Victory at Zapetra",
+      "description": "A successful raid into Abbasid territory is celebrated with a triumph in the capital."
+    },
+    {
+      "date": "838",
+      "title": "Anzen and Amorion",
+      "description": "Defeated at Anzen; al-Mu'tasim destroys Amorion, the dynasty's home city."
+    },
+    {
+      "date": "840s",
+      "title": "The Forty-Two Martyrs",
+      "description": "Officers captured at Amorion are held at Samarra and executed for refusing to convert."
+    },
+    {
+      "date": "842",
+      "title": "Died",
+      "description": "Dies of dysentery at about twenty-nine, leaving a two-year-old heir."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Michael III",
+        "type": "person",
+        "slug": "michael-iii",
+        "label": "His son and successor"
+      },
+      {
+        "title": "Petronas",
+        "type": "person",
+        "slug": "petronas",
+        "label": "His wife's brother, later the victor of the Lalakaon"
+      },
+      {
+        "title": "Theodora (wife of Theophilos)",
+        "type": "person",
+        "slug": "theodora-wife-of-theophilos",
+        "label": "Wife"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      },
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Which sacked his dynasty's home city in 838"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Theophilos (emperor)",
+      "url": "https://en.wikipedia.org/wiki/Theophilos_(emperor)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

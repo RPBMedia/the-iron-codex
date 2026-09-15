@@ -1,0 +1,228 @@
+{
+  "id": "battle-of-hattin",
+  "type": "event",
+  "name": "Battle of Hattin",
+  "year": 1187,
+  "location": "Horns of Hattin, near Tiberias",
+  "eventType": "Battle",
+  "conflict": "Crusades",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Saladin_Guy.jpg",
+  "summary": "Saladin destroyed the army of the Kingdom of Jerusalem at Hattin in 1187, opening the way to his recapture of Jerusalem and triggering the Third Crusade.",
+  "details": "On 4 July 1187 Saladin lured the crusader field army into waterless country near the Horns of Hattin, surrounded and broke it, and captured King Guy of Lusignan and the relic of the True Cross. The disaster left the Kingdom of Jerusalem defenceless.",
+  "factions": [
+    "Ayyubid Sultanate",
+    "Kingdom of Jerusalem"
+  ],
+  "leaders": [
+    {
+      "name": "Saladin",
+      "faction": "Ayyubid army",
+      "personId": "saladin"
+    },
+    {
+      "name": "Guy of Lusignan",
+      "faction": "Crusader army",
+      "personId": "guy-of-lusignan"
+    },
+    {
+      "name": "Raymond III of Tripoli",
+      "faction": "Crusader army",
+      "personId": "raymond-iii-of-tripoli"
+    }
+  ],
+  "eventLocation": {
+    "name": "Horns of Hattin"
+  },
+  "outcome": "Decisive Ayyubid victory; the crusader field army destroyed, its king captured, and Jerusalem left open to conquest.",
+  "background": [
+    "By 1187 Saladin had united Egypt and Muslim Syria and was pressing the Kingdom of Jerusalem hard. Provocations by Reynald of Châtillon, who raided Muslim caravans and pilgrim routes in defiance of truces, gave Saladin both cause and justification for a decisive campaign.",
+    "When Saladin besieged Tiberias, the crusader leadership was divided: Raymond III of Tripoli urged caution, but King Guy of Lusignan was persuaded by the hawkish faction to march the whole field army across dry country to relieve the town."
+  ],
+  "battle": "Saladin's forces harassed the thirsty crusader column and cut it off from water. Near the twin hills called the Horns of Hattin the army was surrounded; smoke from grass fires and constant arrow fire wore it down. The infantry broke for water and was destroyed, and the encircled knights, exhausted and parched, were overwhelmed after desperate charges failed to reach Saladin.",
+  "aftermath": "King Guy of Lusignan was captured along with most of the surviving nobility and the relic of the True Cross. Saladin executed Reynald of Châtillon and the captured Templars and Hospitallers but spared Guy. With the field army gone, the fortified towns of the kingdom fell one after another, and Jerusalem itself surrendered in October 1187.",
+  "imageInfo": {
+    "caption": "Saladin and the captured King Guy of Lusignan after Hattin, in a 13th-century manuscript by Matthew Paris.",
+    "creator": "Matthew Paris",
+    "date": "13th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saladin_Guy.jpg",
+    "license": "Public domain",
+    "note": "A near-contemporary Latin manuscript depiction of the battle's outcome, not a literal battlefield record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Hattin was fought on 4 July 1187 between the army of the Ayyubid sultan Saladin and the field army of the Kingdom of Jerusalem under King Guy of Lusignan. It was the most catastrophic defeat in the history of the crusader states.",
+        "Saladin drew the crusaders into waterless country near the Horns of Hattin, surrounded and destroyed their army, and captured the king and the relic of the True Cross. The victory left the kingdom defenceless and led directly to Saladin's recapture of Jerusalem and to the calling of the Third Crusade."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By the 1180s Saladin had united Egypt and Muslim Syria and framed the war against the crusader states as a jihad to recover Jerusalem. Repeated truce-breaking raids by Reynald of Châtillon against Muslim caravans and the pilgrim routes gave him both motive and justification for an all-out campaign.",
+        "In 1187 Saladin besieged Tiberias to draw out the crusader army. The kingdom's leaders were divided: Raymond III of Tripoli argued against marching across dry country in high summer, but the faction led by Reynald and the Templar master persuaded King Guy of Lusignan to advance and relieve the town."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Saladin commanded a large, well-supplied army with strong cavalry and horse-archers, and crucially held the wells and springs of the region. His discipline and control of water and terrain shaped the whole battle.",
+        "Guy of Lusignan led nearly the entire military strength of the kingdom — knights, sergeants, and infantry, including the Templars and Hospitallers. Committing this single army to a march through arid country was a gamble that left nothing in reserve if it failed."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "As the crusaders marched toward Tiberias, Saladin's horsemen harassed the column and cut it off from water, forcing it to halt overnight in a waterless place. The next day, tormented by thirst and by fires the Muslims lit in the dry grass, the crusaders struggled toward the springs near the Horns of Hattin.",
+        "Saladin surrounded the army. The demoralised infantry broke away toward water and was cut to pieces, leaving the knights isolated. Despite desperate charges — Raymond III of Tripoli cut his way out with a few followers — the encircled and exhausted cavalry could not break Saladin's lines and was overwhelmed on the hillside."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Saladin captured King Guy of Lusignan, most of the surviving nobles, and the relic of the True Cross. He spared the king but executed Reynald of Châtillon with his own hand and had the captured Templars and Hospitallers put to death as irreconcilable enemies.",
+        "With the kingdom's army destroyed, its fortresses and towns fell in quick succession, and Jerusalem surrendered to Saladin in October 1187 after negotiation with Balian of Ibelin. The loss of the holy city stunned Latin Christendom and prompted the launching of the Third Crusade."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Hattin was the decisive battle of Saladin's career and the greatest disaster ever suffered by the crusader states, reducing the Kingdom of Jerusalem in weeks from a functioning realm to a few coastal enclaves.",
+        "It is a classic study of a commander using thirst, terrain, and control of water to destroy a stronger-looking enemy, and its consequence — the fall of Jerusalem — reshaped the crusading movement for the next century."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Ḥaṭṭīn",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Hattin"
+    },
+    {
+      "title": "Battle of Hattin",
+      "author": "World History Encyclopedia",
+      "type": "reference article",
+      "url": "https://www.worldhistory.org/Battle_of_Hattin/"
+    },
+    {
+      "title": "Saladin and Guy of Lusignan, Matthew Paris",
+      "author": "Wikimedia Commons",
+      "type": "manuscript image",
+      "url": "https://commons.wikimedia.org/wiki/File:Saladin_Guy.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Victorious Ayyubid sultan"
+      },
+      {
+        "title": "Guy of Lusignan",
+        "type": "person",
+        "slug": "guy-of-lusignan",
+        "label": "Crusader king, captured in the battle"
+      },
+      {
+        "title": "Raymond III of Tripoli",
+        "type": "person",
+        "slug": "raymond-iii-of-tripoli",
+        "label": "Warned against the march; cut his way out"
+      },
+      {
+        "title": "Reynald of Châtillon",
+        "type": "person",
+        "slug": "reynald-of-chatillon",
+        "label": "Executed by Saladin after the battle"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "The realm whose army was destroyed"
+      },
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "Saladin's realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Launched in response to the loss of Jerusalem"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Ayyubid army",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Saladin",
+          "title": "Saladin",
+          "type": "person",
+          "slug": "saladin"
+        }
+      ],
+      "strength": {
+        "display": "c. 30,000–40,000 (debated)",
+        "confidence": "debated",
+        "note": "Saladin fielded the larger army and controlled the water sources, which decided the battle as much as numbers."
+      }
+    },
+    {
+      "side": "Crusader army",
+      "factions": [
+        {
+          "name": "Kingdom of Jerusalem",
+          "title": "Kingdom of Jerusalem",
+          "type": "location",
+          "slug": "kingdom-of-jerusalem"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guy of Lusignan",
+          "title": "Guy of Lusignan",
+          "type": "person",
+          "slug": "guy-of-lusignan"
+        },
+        {
+          "name": "Raymond III of Tripoli",
+          "title": "Raymond III of Tripoli",
+          "type": "person",
+          "slug": "raymond-iii-of-tripoli"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000–20,000, including perhaps 1,200 knights",
+        "confidence": "estimated",
+        "note": "Nearly the whole field strength of the Kingdom of Jerusalem, destroyed in a single day."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The crusaders strike back",
+    "battleSlug": "battle-of-arsuf",
+    "relationship": "same-factions",
+    "reason": "The catastrophe at Hattin and the loss of Jerusalem triggered the Third Crusade; its first great field victory came in 1191 at Arsuf, where Richard the Lionheart broke Saladin's attempt to destroy the crusader march down the coast."
+  }
+}

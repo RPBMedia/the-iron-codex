@@ -1,0 +1,128 @@
+{
+  "id": "nasrid-dynasty",
+  "type": "house",
+  "name": "Nasrid dynasty",
+  "aliases": [
+    "Nasrids",
+    "Banu Nasr",
+    "Nasrid kingdom of Granada"
+  ],
+  "originYear": 1230,
+  "endYear": 1492,
+  "reignSpan": "1230–1492 (Emirate of Granada)",
+  "region": "The Emirate of Granada, southern Iberia",
+  "originPlace": "Granada",
+  "arms": "The Nasrid motto \"Wa la ghaliba illa Allah\" (\"There is no victor but God\")",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Granada%20-%20Alhambra%20-%20Palacios%20nazar%C3%ADes%20-%20Patio%20de%20los%20Leones%20-%201.jpg",
+  "summary": "The last Muslim dynasty of Iberia, which ruled the Emirate of Granada for over two and a half centuries, built the Alhambra, and fell to the Catholic Monarchs in 1492.",
+  "overview": "The Nasrids held the final redoubt of al-Andalus, surviving as a tributary of Castile long after the rest of Muslim Iberia had fallen, and leaving in the Alhambra the supreme monument of Andalusi art.",
+  "founder": {
+    "displayName": "Muhammad I ibn al-Ahmar",
+    "note": "Founder of the emirate and dynasty, c. 1238 (no Codex article yet)."
+  },
+  "seats": [
+    "Granada (the Alhambra)"
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Muhammad I ibn al-Ahmar",
+      "note": "Founder of the Emirate of Granada (r. 1238–1273)."
+    },
+    {
+      "displayName": "Yusuf I",
+      "note": "A great builder of the Alhambra (r. 1333–1354)."
+    },
+    {
+      "displayName": "Muhammad V",
+      "note": "Completed much of the Nasrid palaces, incl. the Court of the Lions."
+    },
+    {
+      "personSlug": "muhammad-xii-of-granada",
+      "displayName": "Boabdil (Muhammad XII)",
+      "note": "The last emir, who surrendered Granada in 1492."
+    }
+  ],
+  "familyTree": {},
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Nasrid dynasty, the Banu Nasr, ruled the Emirate of Granada from about 1230 until 1492. It was the last Muslim dynasty in Iberia, holding the mountainous south-east after the great Castilian conquests of the 13th century had swept away the rest of al-Andalus.",
+        "The Nasrids survived largely by becoming a tributary of Castile and by exploiting Christian divisions, and in their long twilight they raised the Alhambra of Granada, the finest surviving palace-complex of the medieval Islamic west."
+      ]
+    },
+    {
+      "title": "Survival and fall",
+      "paragraphs": [
+        "For two and a half centuries the emirate endured through diplomacy, tribute and the strength of its mountain frontier, a wealthy and cultured state even as it shrank. Its court sustained a brilliant late flowering of Andalusi art, architecture and letters.",
+        "In the end the union of Castile and Aragon under Ferdinand and Isabella, and the Nasrids' own dynastic civil wars, proved fatal. The Granada War of 1482–1492 dismantled the emirate town by town, and with the surrender of Boabdil in 1492 the dynasty and the last Muslim state in Iberia came to an end."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1230",
+      "title": "Dynasty founded",
+      "description": "Muhammad I establishes the Emirate of Granada."
+    },
+    {
+      "date": "14th century",
+      "title": "The Alhambra",
+      "description": "Yusuf I and Muhammad V build the great Nasrid palaces."
+    },
+    {
+      "date": "1492",
+      "title": "Fall of Granada",
+      "description": "Boabdil surrenders; the dynasty and Muslim Iberia end."
+    }
+  ],
+  "imageInfo": {
+    "caption": "The Court of the Lions in the Nasrid palaces of the Alhambra, Granada — the masterwork of the Nasrid dynasty.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Nasrid palaces, 14th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacios_nazar%C3%ADes_-_Patio_de_los_Leones_-_1.jpg",
+    "license": "Creative Commons",
+    "note": "A surviving Nasrid monument, the heart of the Alhambra palaces."
+  },
+  "sources": [
+    {
+      "title": "Nasrid dynasty",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Nasrid_dynasty"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Boabdil",
+        "type": "person",
+        "slug": "muhammad-xii-of-granada",
+        "label": "The dynasty's last emir"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Granada",
+        "type": "event",
+        "slug": "fall-of-granada",
+        "label": "The end of the dynasty"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "Its capital"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it was the last of"
+      }
+    ]
+  }
+}

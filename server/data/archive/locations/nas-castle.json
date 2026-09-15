@@ -1,0 +1,85 @@
+{
+  "type": "location",
+  "locationType": "Castle site",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Erik Knutsson",
+    "Visingso",
+    "Swedish kingship"
+  ],
+  "overview": [
+    "A royal castle site on Visingso where Erik Knutsson died in 1216."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Nas Castle was a Swedish royal fortress on the island of Visingsö in Lake Vättern, serving as an important administrative residence for medieval Swedish kings. Erik Knutsson died there in 1216, leaving a young heir and prolonging Swedish dynastic instability."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Visingsö and its castle remained a Swedish royal center through the thirteenth century before declining in importance as Stockholm grew. Nas Castle's connection to the Erik-Sverker dynastic conflict makes it a site of the contested Swedish succession that characterized the period."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Nas Castle",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:N%C3%A4s_slottsruin_Visings%C3%B6.jpg"
+    },
+    {
+      "title": "Nas Castle reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Nas_Castle"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Erik Knutsson",
+        "type": "person",
+        "slug": "erik-knutsson",
+        "label": "Death of Erik Knutsson"
+      },
+      {
+        "title": "Sverker II of Sweden",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Gestilren",
+        "type": "event",
+        "slug": "battle-of-gestilren"
+      }
+    ]
+  },
+  "id": "nas-castle",
+  "name": "Nas Castle",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Naas_slottsruin.jpg",
+  "summary": "A royal castle site on Visingso where Erik Knutsson died in 1216.",
+  "imageInfo": {
+    "caption": "The ruins of Näs Castle on Visingsö, a medieval Swedish royal residence.",
+    "creator": "User Marcus Bornestav on sv.wikipedia",
+    "date": "2005-10-15",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naas_slottsruin.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

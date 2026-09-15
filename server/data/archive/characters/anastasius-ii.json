@@ -1,0 +1,202 @@
+{
+  "id": "anastasius-ii",
+  "type": "character",
+  "name": "Anastasius II",
+  "aliases": [
+    "Artemios",
+    "Anastasios II"
+  ],
+  "born": 670,
+  "died": 719,
+  "deathAge": "unknown",
+  "causeOfDeath": "Executed in 719 after a failed attempt to recover the throne with Bulgar support.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anastasius%20II%20sb1464%20(obverse).jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Anastasius II, from a reign of two years.",
+    "creator": "Constantinople mint",
+    "date": "713–715",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anastasius_II_sb1464_(obverse).jpg",
+    "note": "A contemporary object. He reigned under the name Anastasius, having been the civil servant Artemios before his elevation. Public domain."
+  },
+  "summary": "Anastasius II was a civil servant raised to the throne in 713 who saw the Umayyad invasion coming and prepared for it, and was deposed by his own expedition before it arrived.",
+  "overview": "The emperor whose warning was right and whose army mutinied rather than hear it.",
+  "birth": {
+    "date": "Unknown",
+    "place": {
+      "name": "The Byzantine Empire"
+    }
+  },
+  "death": {
+    "date": "719",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Executed by Leo III after attempting to recover the throne with Bulgar help while the empire recovered from the siege."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Not dynastic",
+    "culture": "Roman",
+    "knownFor": "Preparing for the siege of 717 and being deposed before it"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Philippikos Bardanes",
+      "note": "An Armenian officer raised by the revolt that killed Justinian II in 711 and blinded in his turn in 713. No image of him survives in any form, so this archive cannot give him an article."
+    },
+    "successor": {
+      "personSlug": "theodosius-iii",
+      "displayName": "Theodosius III",
+      "note": "A provincial tax official proclaimed by the Opsikian troops who mutinied against Anastasius in 715, and who abdicated to Leo III two years later."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Anastasius II was the imperial secretary Artemios when the officers who had blinded Philippikos Bardanes chose him for the throne in 713.",
+        "He was a competent administrator in a period that had produced six emperors in as many years, and he used his two years well: he sent an embassy to Damascus that came back with accurate intelligence about the invasion the caliphate was preparing, and he acted on it.",
+        "The walls were repaired, the granaries filled, the fleet rebuilt. Then he sent that fleet against the Arabs, and it mutinied, deposed him, and put a tax collector on the throne instead."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Nothing is recorded of his origins beyond his profession: he was a notary and imperial secretary, a career civil servant of the kind the seventh-century crises repeatedly threw up as emperors.",
+        "He took the name Anastasius on his accession — a common practice, and in his case a claim on the memory of the great financial reformer of two centuries earlier.",
+        "His accession followed the deposition and blinding of Philippikos, and he moved quickly to restore the religious settlement Philippikos had overturned, reinstating the acts of the Third Council of Constantinople."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "He is one of the few emperors of the anarchy whose competence the sources concede without qualification, and the reason is that his preparations demonstrably saved the city two years after he lost the throne.",
+        "What emerges is an administrator's temperament: he gathered intelligence, planned on it, restored the church settlement without drama, and appointed on merit.",
+        "What he lacked was any hold on the army, and the sources give no sign that he understood the danger. Sending a mutinous-minded fleet to a distant rendezvous under commanders he had appointed over their heads was an administrator's decision, not a soldier's."
+      ]
+    },
+    {
+      "title": "Reign and fall",
+      "paragraphs": [
+        "The embassy to the caliph's court reported that a great expedition against Constantinople was being prepared, and Anastasius took the report seriously. The Theodosian walls were repaired, engines mounted, grain stockpiled and the fleet enlarged.",
+        "In 715 he sent that fleet to Rhodes to strike at the Arab naval preparations before they were complete — sound strategy, and the point at which everything went wrong.",
+        "The Opsikian troops in the fleet mutinied, killed the commander he had appointed, and sailed back, proclaiming a reluctant provincial tax official as Theodosius III. Anastasius held out at Nicaea for some months and then abdicated and became a monk at Thessalonica."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The preparations were the point. When the Umayyad army arrived in August 717 the city was walled, provisioned and defended, and it held for twelve months. Leo III gets the credit and deserves most of it; the granaries were Anastasius's.",
+        "He could not leave it there. In 719, with the siege lifted and Leo III on the throne, he attempted to recover power with Bulgar support, was abandoned by his allies and executed.",
+        "His reign is the clearest case in this archive of the seventh- and eighth-century pattern: the empire repeatedly produced capable men, and repeatedly could not keep them on the throne long enough to matter."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "713",
+      "title": "Proclaimed emperor",
+      "description": "The imperial secretary Artemios is raised to the throne after Philippikos is blinded."
+    },
+    {
+      "date": "713",
+      "title": "Orthodoxy restored",
+      "description": "He reinstates the acts of the Third Council of Constantinople that his predecessor had rejected."
+    },
+    {
+      "date": "714",
+      "title": "The embassy to Damascus",
+      "description": "His envoys return with accurate intelligence about the invasion being prepared."
+    },
+    {
+      "date": "714–715",
+      "title": "Preparing the city",
+      "description": "The walls are repaired, engines mounted, granaries filled and the fleet enlarged."
+    },
+    {
+      "date": "715",
+      "title": "The fleet mutinies",
+      "description": "Sent against Arab naval preparations, the Opsikian troops revolt and proclaim Theodosius III."
+    },
+    {
+      "date": "715",
+      "title": "Abdicates",
+      "description": "He gives up the throne after holding out at Nicaea and becomes a monk at Thessalonica."
+    },
+    {
+      "date": "719",
+      "title": "Executed",
+      "description": "Killed by Leo III after attempting to recover the throne with Bulgar support."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Theodosius III",
+        "type": "person",
+        "slug": "theodosius-iii",
+        "label": "The tax official whose mutinous troops replaced him"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Who executed him, and inherited his preparations"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "Survived partly on the supplies he laid in"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Anastasius II (emperor)",
+      "url": "https://en.wikipedia.org/wiki/Anastasius_II_(emperor)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "greatestFeats": [
+    "Rebuilt the walls and stockpiled supplies before the great siege of 717–718",
+    "Sent an embassy that gave accurate warning of the coming Umayyad invasion"
+  ]
+}

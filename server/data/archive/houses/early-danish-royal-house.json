@@ -1,0 +1,190 @@
+{
+  "id": "early-danish-royal-house",
+  "type": "house",
+  "name": "Early Danish Royal House",
+  "aliases": [
+    "Early Danish ruling house",
+    "Early Danish kings",
+    "House of Godfred",
+    "Danish royal house (9th century)"
+  ],
+  "originYear": 804,
+  "endYear": 873,
+  "reignSpan": "c. 804–873",
+  "region": "Denmark & the southern Baltic",
+  "originPlace": "Jutland & the Danish isles",
+  "arms": "None — the 9th-century Danish kings ruled before the age of heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danevirke,_Valdemar%27s_Wall.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The Danevirke, the Danish frontier rampart in Schleswig that King Godfred expanded against the Franks around 808; the brick face shown here is a later, twelfth-century phase over the earlier earthworks.",
+    "creator": "Photograph",
+    "date": "Earthworks 8th–12th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Danevirke,_Valdemar%27s_Wall.jpg",
+    "note": "A photograph of the surviving rampart; the visible brick wall (the Valdemarsmur) is a later phase, but it stands on the frontier work associated with the early Danish kings."
+  },
+  "summary": "The 9th-century kings of the Danes — Godfred, Hemming, and the two Horiks — who resisted Charlemagne, fortified the Danevirke, and ruled Denmark at the dawn of the Viking Age.",
+  "overview": "The first securely documented Danish monarchy, known mainly through Frankish sources, is the line of kings who ruled the Danes in the ninth century. King Godfred confronted Charlemagne and strengthened the Danevirke frontier wall; Hemming made peace with the Franks; and Horik I and Horik II held a long, contested kingship through the first Viking raids on Francia. They precede the later House of Jelling that would unite and Christianise Denmark.",
+  "founder": {
+    "displayName": "Godfred",
+    "note": "King of the Danes (d. 810); the first strong ruler recorded in Frankish sources"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Denmark",
+      "type": "location",
+      "slug": "kingdom-of-denmark"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "godfred-of-denmark",
+      "displayName": "Godfred",
+      "note": "King of the Danes; expanded the Danevirke and defied Charlemagne"
+    },
+    {
+      "personSlug": "hemming-of-denmark",
+      "displayName": "Hemming",
+      "note": "Made the Treaty of Heiligen (811), fixing the Eider frontier"
+    },
+    {
+      "personSlug": "horik-i-of-denmark",
+      "displayName": "Horik I",
+      "note": "Long-reigning king; received the missionary Ansgar; killed in the 854 civil war"
+    },
+    {
+      "personSlug": "horik-ii-of-denmark",
+      "displayName": "Horik II",
+      "note": "Succeeded after the bloodshed of 854 and continued Ansgar’s toleration"
+    }
+  ],
+  "familyTree": {
+    "caption": "The 9th-century Danish kings as reconstructed from Frankish annals; exact kinship is uncertain, so the notes state each relationship as the sources give it.",
+    "root": {
+      "name": "Godfred",
+      "personSlug": "godfred-of-denmark",
+      "note": "King of the Danes, d. 810",
+      "children": [
+        {
+          "name": "Hemming",
+          "personSlug": "hemming-of-denmark",
+          "note": "kinsman and successor; made peace with the Franks in 811"
+        },
+        {
+          "name": "Horik I",
+          "personSlug": "horik-i-of-denmark",
+          "note": "son of Godfred; king c. 813–854",
+          "children": [
+            {
+              "name": "Horik II",
+              "personSlug": "horik-ii-of-denmark",
+              "note": "kinsman and successor after the 854 civil war"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Danish kings of the ninth century are the first rulers of Denmark to appear clearly in the written record, almost entirely through Frankish sources — above all the Royal Frankish Annals and Rimbert’s Life of Ansgar. They ruled a kingdom centred on Jutland and the Danish isles, with the great trading town of Hedeby and the frontier rampart of the Danevirke as its southern anchors.",
+        "The dynasty’s power rested on control of the Jutland peninsula and the sea-lanes of the western Baltic, and on the ability to muster fleets — the same maritime strength that would soon carry Danish raiders deep into the Frankish and English worlds."
+      ]
+    },
+    {
+      "title": "Godfred, Hemming, and the Franks",
+      "paragraphs": [
+        "King Godfred is the first of the line to loom large in the sources. Alarmed by Charlemagne’s conquest of the neighbouring Saxons, around 808 he strengthened the Danevirke, sacked the Slavic trading town of Reric and moved its merchants to Hedeby, and threatened Frisia; he was murdered by one of his own followers in 810 before a full war with the empire came. His successor Hemming quickly made terms, and the Treaty of Heiligen in 811 fixed the River Eider as the border between the Danes and the Frankish empire.",
+        "Godfred’s aggression and Hemming’s diplomacy set the pattern for the century: the Danish kings were strong enough to defy the Carolingians on the frontier, but preferred a fortified border to open war with the greatest power in the West."
+      ]
+    },
+    {
+      "title": "The reigns of Horik I and Horik II",
+      "paragraphs": [
+        "After a decade of succession struggles, Horik I emerged as sole king and reigned for some forty years. His reign coincided with the first great Viking raids on Francia: a Danish fleet sacked Hamburg in 845, and Horik alternately disavowed and profited from such expeditions while negotiating with the Frankish emperors and permitting the missionary Ansgar to build churches at Hedeby and Ribe. In 854 a dynastic war destroyed most of the royal kin, and Horik I was killed.",
+        "Horik II, a young kinsman, survived the slaughter and succeeded him, maintaining the toleration of Ansgar’s mission. After his reign the ninth-century royal line fades from the record, giving way in time to the dynasty of Jelling that would unite and Christianise Denmark under Gorm and Harald Bluetooth."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 808",
+      "title": "Godfred fortifies the Danevirke",
+      "description": "Facing Charlemagne’s conquest of Saxony, Godfred strengthens the frontier wall and moves the merchants of Reric to Hedeby."
+    },
+    {
+      "date": "811",
+      "title": "Treaty of Heiligen",
+      "description": "Hemming fixes the River Eider as the Danish–Frankish border."
+    },
+    {
+      "date": "845",
+      "title": "Sack of Hamburg",
+      "description": "A Danish fleet burns Hamburg during the reign of Horik I."
+    },
+    {
+      "date": "854",
+      "title": "Dynastic civil war",
+      "description": "Horik I is killed with most of the royal kin; Horik II succeeds."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Godfred",
+        "type": "person",
+        "slug": "godfred-of-denmark",
+        "label": "Defied Charlemagne; expanded the Danevirke"
+      },
+      {
+        "title": "Horik I",
+        "type": "person",
+        "slug": "horik-i-of-denmark",
+        "label": "Long-reigning king; patron-tolerant of Ansgar"
+      },
+      {
+        "title": "Hemming",
+        "type": "person",
+        "slug": "hemming-of-denmark",
+        "label": "Made peace with the Franks, 811"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Jelling",
+        "type": "house",
+        "slug": "house-of-jelling",
+        "label": "The later dynasty that united Denmark"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Godfred — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Godfred"
+    },
+    {
+      "title": "History of Denmark — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Denmark"
+    },
+    {
+      "title": "Danevirke — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Danevirke"
+    }
+  ]
+}

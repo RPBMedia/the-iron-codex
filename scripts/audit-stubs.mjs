@@ -17,9 +17,10 @@
 import { readFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const data = JSON.parse(readFileSync(path.join(__dirname, '../server/data/history.json'), 'utf8'))
+const data = loadArchive()
 
 const argv = process.argv.slice(2)
 const showAll = argv.includes('--all')

@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Island landscape",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Haakon the Good",
+    "Battle of Fitjar",
+    "Western Norwegian politics"
+  ],
+  "overview": [
+    "A western Norwegian place tied to saga accounts of Haakon the Good's final battle."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Fitjar on the island of Stord in western Norway was the site of the Battle of Fitjar around 961, where Haakon the Good of Norway defeated a Danish force but received wounds from which he died shortly afterward."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Haakon's death at Fitjar was commemorated in Hákonarmál, a skaldic poem praising his reception into Valhalla — notable given his role as an early Christian king of Norway. The battle's outcome and his death at the moment of victory gave Fitjar an elegiac significance in Norwegian royal memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Fitjar",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Fitjar_from_air.jpg"
+    },
+    {
+      "title": "Fitjar reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Fitjar"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Haakon the Good",
+        "type": "person",
+        "slug": "haakon-the-good",
+        "label": "Death of Haakon the Good"
+      },
+      {
+        "title": "Eric Bloodaxe",
+        "type": "person",
+        "slug": "eric-bloodaxe"
+      },
+      {
+        "title": "Olaf Tryggvason",
+        "type": "person",
+        "slug": "olaf-tryggvason"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "fitjar",
+  "name": "Fitjar",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Fitjar_Islands.JPG",
+  "summary": "A western Norwegian place tied to saga accounts of Haakon the Good's final battle.",
+  "imageInfo": {
+    "caption": "Fitjar on the island of Stord, site of the battle where Haakon the Good was fatally wounded c. 961.",
+    "creator": "Frokor",
+    "date": "2013-03-24 12:54:00",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fitjar_Islands.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

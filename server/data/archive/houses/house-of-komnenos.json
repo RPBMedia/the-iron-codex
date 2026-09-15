@@ -1,0 +1,267 @@
+{
+  "id": "house-of-komnenos",
+  "type": "house",
+  "name": "House of Komnenos",
+  "aliases": [
+    "Komnenos",
+    "Komnenos (first)",
+    "Komnenian dynasty",
+    "Komnenoi",
+    "Comnenus"
+  ],
+  "originYear": 1081,
+  "endYear": 1185,
+  "reignSpan": "1081–1185",
+  "region": "Byzantine Empire",
+  "originPlace": "Paphlagonia (Anatolia)",
+  "arms": "The Byzantine emperors bore no Western coat of arms; the double-headed eagle became associated with the imperial dynasties.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Comnenus%20mosaics%20Hagia%20Sophia.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Emperor John II Komnenos and Empress Irene flanking the Virgin and Child, a contemporary mosaic in Hagia Sophia.",
+    "creator": "Byzantine mosaicists, Hagia Sophia, Constantinople",
+    "date": "c. 1122",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comnenus_mosaics_Hagia_Sophia.jpg",
+    "note": "A contemporary imperial mosaic of the second Komnenian emperor and his consort."
+  },
+  "summary": "The dynasty that restored the Byzantine Empire after the disaster of Manzikert and led it to a last age of power in the twelfth century.",
+  "overview": "The House of Komnenos gave Byzantium its great twelfth-century revival. After the empire nearly collapsed following the Battle of Manzikert in 1071, Alexios I seized the throne in 1081 and, with his son John II and grandson Manuel I, rebuilt the army, the finances, and Byzantine prestige — the \"Komnenian restoration\".",
+  "founder": {
+    "personSlug": "alexios-i-komnenos",
+    "displayName": "Alexios I Komnenos",
+    "note": "Seized the throne in 1081 and refounded the state"
+  },
+  "seats": [
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "isaac-i-komnenos",
+      "displayName": "Isaac I Komnenos",
+      "note": "First Komnenos emperor, 1057–1059"
+    },
+    {
+      "personSlug": "alexios-i-komnenos",
+      "displayName": "Alexios I Komnenos",
+      "note": "Founder of the dynasty; called the First Crusade"
+    },
+    {
+      "personSlug": "john-ii-komnenos",
+      "displayName": "John II Komnenos",
+      "note": "The \"good\" emperor; steady reconquest in Anatolia"
+    },
+    {
+      "personSlug": "manuel-i-komnenos",
+      "displayName": "Manuel I Komnenos",
+      "note": "The last great Komnenian emperor"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Komnenian emperors: Isaac I’s brief reign, then the restored dynasty of Alexios I, John II, and Manuel I. ⚭ marks a marriage.",
+    "root": {
+      "name": "Manuel Erotikos Komnenos",
+      "note": "Progenitor of the house",
+      "children": [
+        {
+          "name": "Isaac I Komnenos",
+          "personSlug": "isaac-i-komnenos",
+          "note": "r. 1057–1059, abdicated"
+        },
+        {
+          "name": "John Komnenos",
+          "note": "Domestic of the Schools",
+          "children": [
+            {
+              "name": "Alexios I Komnenos",
+              "personSlug": "alexios-i-komnenos",
+              "note": "r. 1081–1118",
+              "spouse": {
+                "name": "Irene Doukaina",
+                "personSlug": "irene-doukaina"
+              },
+              "children": [
+                {
+                  "name": "John II Komnenos",
+                  "personSlug": "john-ii-komnenos",
+                  "note": "r. 1118–1143",
+                  "children": [
+                    {
+                      "name": "Manuel I Komnenos",
+                      "personSlug": "manuel-i-komnenos",
+                      "note": "r. 1143–1180"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Komnenoi were a military aristocratic family from Paphlagonia in northern Anatolia. Isaac I Komnenos briefly held the throne from 1057 to 1059, but the dynasty’s real founder was his nephew Alexios I, who seized power in 1081 as the empire reeled from civil war and Turkish invasion after the Battle of Manzikert in 1071.",
+        "Alexios came to a state that had lost most of Anatolia and faced Norman attacks in the west. His answer was to bind the great families to the throne by marriage and to rebuild the army around the imperial household."
+      ]
+    },
+    {
+      "title": "Alexios I and the First Crusade",
+      "paragraphs": [
+        "Alexios I stabilised the frontiers, defeated the Normans under Robert Guiscard and Bohemond, and beat back the Pechenegs. Needing western mercenaries to recover Anatolia, he appealed to the pope — and received instead the mass movement of the First Crusade in 1096, which he manoeuvred to recover cities such as Nicaea while managing dangerous crusader leaders.",
+        "His daughter Anna Komnene recorded his reign in the Alexiad, one of the finest works of medieval Greek history."
+      ]
+    },
+    {
+      "title": "John II and Manuel I",
+      "paragraphs": [
+        "John II Komnenos, widely regarded as the ideal Byzantine emperor, spent his reign on campaign, restoring imperial authority over the Balkans and Anatolia and pressing into Syria. His son Manuel I made Byzantium the arbiter of the eastern Mediterranean, intervening in Italy, Hungary, and the Crusader states and hosting Western kings at his court.",
+        "Manuel’s ambitions overreached at the pass of Myriokephalon in 1176, where the Seljuks checked his attempt to destroy their sultanate, ending hopes of fully reconquering Anatolia."
+      ]
+    },
+    {
+      "title": "Decline and fall of the dynasty",
+      "paragraphs": [
+        "Manuel’s death in 1180 left a child heir, and the dynasty consumed itself. His cousin Andronikos I seized power in a bloody coup in 1183, only to be overthrown and torn apart by a Constantinople mob in 1185, ending Komnenian rule in the capital.",
+        "A branch of the family later founded the Empire of Trebizond, which survived on the Black Sea until 1461 — a distant afterlife of the house."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Komnenian restoration bought Byzantium a century of renewed power and cultural brilliance, but it rested on a narrow base of family rule and alliances with the Italian trading cities. When the dynasty collapsed, the weakened empire fell within a generation to the Fourth Crusade in 1204.",
+        "For the twelfth century, though, the Komnenoi made Constantinople once more the richest and most sophisticated capital of the Christian world."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1057",
+      "title": "Isaac I takes the throne",
+      "description": "The first Komnenos briefly becomes emperor.",
+      "links": [
+        {
+          "title": "Isaac I Komnenos",
+          "type": "person",
+          "slug": "isaac-i-komnenos"
+        }
+      ]
+    },
+    {
+      "date": "1081",
+      "title": "Alexios I refounds the dynasty",
+      "description": "Alexios seizes power and begins the Komnenian restoration.",
+      "links": [
+        {
+          "title": "Alexios I Komnenos",
+          "type": "person",
+          "slug": "alexios-i-komnenos"
+        }
+      ]
+    },
+    {
+      "date": "1096",
+      "title": "The First Crusade arrives",
+      "description": "Alexios channels the western armies to recover Byzantine territory.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    },
+    {
+      "date": "1143",
+      "title": "Accession of Manuel I",
+      "description": "The last great Komnenian emperor takes the throne.",
+      "links": [
+        {
+          "title": "Manuel I Komnenos",
+          "type": "person",
+          "slug": "manuel-i-komnenos"
+        }
+      ]
+    },
+    {
+      "date": "1176",
+      "title": "Check at Myriokephalon",
+      "description": "The Seljuks halt Manuel’s bid to reconquer Anatolia."
+    },
+    {
+      "date": "1185",
+      "title": "Fall of the dynasty",
+      "description": "Andronikos I is lynched and Komnenian rule in the capital ends."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alexios I Komnenos",
+        "type": "person",
+        "slug": "alexios-i-komnenos",
+        "label": "Founder"
+      },
+      {
+        "title": "John II Komnenos",
+        "type": "person",
+        "slug": "john-ii-komnenos",
+        "label": "The ideal emperor"
+      },
+      {
+        "title": "Manuel I Komnenos",
+        "type": "person",
+        "slug": "manuel-i-komnenos",
+        "label": "Height of the restoration"
+      },
+      {
+        "title": "Irene Doukaina",
+        "type": "person",
+        "slug": "irene-doukaina",
+        "label": "Empress, wife of Alexios I"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "The 1071 disaster the dynasty recovered from"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm they restored"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Komnenos dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Komnenos"
+    },
+    {
+      "title": "Alexius I Comnenus — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Alexius-I-Comnenus"
+    },
+    {
+      "title": "Byzantine Empire: The Komnenian restoration — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Byzantine-Empire"
+    }
+  ]
+}

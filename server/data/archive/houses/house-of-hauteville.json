@@ -1,0 +1,203 @@
+{
+  "id": "house-of-hauteville",
+  "type": "house",
+  "name": "House of Hauteville",
+  "aliases": [
+    "Hauteville",
+    "de Hauteville",
+    "Altavilla",
+    "Hauteville dynasty"
+  ],
+  "originYear": 1046,
+  "endYear": 1194,
+  "reignSpan": "1046–1194",
+  "region": "Southern Italy, Sicily & Antioch",
+  "originPlace": "Hauteville, Normandy",
+  "arms": "A silver shield with an indented red chief — the arms attributed to the Hauteville family.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bohemond%20I%20of%20Antioch%20lib%20(Cropped).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Bohemond I, the Hauteville prince who founded the Crusader principality of Antioch.",
+    "creator": "Manuscript depiction",
+    "date": "Later depiction (Bohemond I d. 1111)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bohemond_I_of_Antioch_lib_(Cropped).jpg",
+    "note": "A later image of Bohemond I; the Hauteville family also ruled southern Italy and Sicily."
+  },
+  "summary": "The Norman family whose sons conquered southern Italy and Sicily and founded the Crusader principality of Antioch.",
+  "overview": "The House of Hauteville, a family of minor Norman lords, rose in the eleventh century to conquer southern Italy and Sicily under Robert Guiscard and Roger I, creating the Kingdom of Sicily under Roger II. A separate branch under Bohemond and Tancred founded and ruled the Crusader Principality of Antioch.",
+  "founder": {
+    "displayName": "Tancred of Hauteville",
+    "note": "Norman lord of the Cotentin whose many sons conquered southern Italy (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "bohemond-i-of-antioch",
+      "displayName": "Bohemond I of Antioch",
+      "note": "First Norman Prince of Antioch"
+    },
+    {
+      "personSlug": "bohemond-ii-of-antioch",
+      "displayName": "Bohemond II",
+      "note": "Prince of Antioch"
+    },
+    {
+      "personSlug": "tancred-prince-of-galilee",
+      "displayName": "Tancred",
+      "note": "Crusader lord and regent of Antioch"
+    },
+    {
+      "displayName": "Robert Guiscard",
+      "note": "Duke of Apulia and Calabria; conquered southern Italy"
+    },
+    {
+      "displayName": "Roger II",
+      "note": "First King of Sicily, 1130; the crown later passed to the Hohenstaufen"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Hauteville family: Robert Guiscard’s conquest of Italy and the Antioch branch of Bohemond and Tancred, and the Sicilian branch of Roger I and Roger II (named here but not yet given Codex articles).",
+    "root": {
+      "name": "Tancred of Hauteville",
+      "note": "Norman lord; his sons conquered southern Italy",
+      "children": [
+        {
+          "name": "Robert Guiscard",
+          "note": "Duke of Apulia",
+          "children": [
+            {
+              "name": "Bohemond I of Antioch",
+              "personSlug": "bohemond-i-of-antioch",
+              "note": "Prince of Antioch, 1098–1111",
+              "children": [
+                {
+                  "name": "Bohemond II",
+                  "personSlug": "bohemond-ii-of-antioch",
+                  "note": "r. 1119–1130"
+                }
+              ]
+            },
+            {
+              "name": "Tancred",
+              "personSlug": "tancred-prince-of-galilee",
+              "note": "grand-nephew; regent of Antioch"
+            }
+          ]
+        },
+        {
+          "name": "Roger I",
+          "note": "Great Count of Sicily",
+          "children": [
+            {
+              "name": "Roger II",
+              "note": "first King of Sicily, 1130",
+              "branch": "→ Hohenstaufen (via Constance)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Hautevilles were a family of petty Norman lords from the Cotentin whose sons, lacking inheritance at home, sought their fortune as mercenaries in southern Italy in the early eleventh century. The most formidable, Robert Guiscard (\"the Cunning\"), carved out the Duchy of Apulia and Calabria from the Byzantines and Lombards, while his brother Roger I conquered Muslim Sicily.",
+        "From these conquests grew the Kingdom of Sicily, one of the richest and most cosmopolitan states of the Mediterranean, which the Hautevilles ruled until it passed by marriage to the Hohenstaufen."
+      ]
+    },
+    {
+      "title": "The principality of Antioch",
+      "paragraphs": [
+        "Robert Guiscard’s son Bohemond joined the First Crusade and, after the long siege of Antioch, made himself its prince in 1098 — founding a Hauteville dynasty in the Crusader East. He became the most famous of the crusade’s leaders, and his wars against the Byzantines carried Norman ambition to the Balkans.",
+        "His nephew Tancred ruled Antioch as an able regent, and Bohemond’s son Bohemond II held the principality until his death in battle in 1130."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Hautevilles were among the most successful adventurers of the age: from a minor Norman family they founded a Mediterranean kingdom and a Crusader principality. The Sicily they created blended Norman, Greek, Arab, and Latin culture into a brilliant court civilisation.",
+        "Through the marriage of the heiress Constance of Sicily to Henry VI, the Sicilian inheritance passed to the Hohenstaufen and their son Frederick II, carrying the Hauteville legacy into the heart of imperial politics."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1059",
+      "title": "Robert Guiscard made duke",
+      "description": "The pope invests Guiscard with Apulia and Calabria."
+    },
+    {
+      "date": "1098",
+      "title": "Bohemond takes Antioch",
+      "description": "The Hauteville prince founds the crusader principality.",
+      "links": [
+        {
+          "title": "Bohemond I of Antioch",
+          "type": "person",
+          "slug": "bohemond-i-of-antioch"
+        }
+      ]
+    },
+    {
+      "date": "1130",
+      "title": "Kingdom of Sicily founded",
+      "description": "Roger II is crowned king; the same year Bohemond II dies at Antioch."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Bohemond I of Antioch",
+        "type": "person",
+        "slug": "bohemond-i-of-antioch",
+        "label": "Founder of Antioch"
+      },
+      {
+        "title": "Bohemond II",
+        "type": "person",
+        "slug": "bohemond-ii-of-antioch",
+        "label": "Prince of Antioch"
+      },
+      {
+        "title": "Tancred",
+        "type": "person",
+        "slug": "tancred-prince-of-galilee",
+        "label": "Regent of Antioch"
+      },
+      {
+        "title": "Constance of Sicily",
+        "type": "person",
+        "slug": "constance-of-sicily",
+        "label": "Last heiress of the royal line"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Hohenstaufen",
+        "type": "house",
+        "slug": "house-of-hohenstaufen",
+        "label": "Inherited the Sicilian crown"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hauteville family — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hauteville_family"
+    },
+    {
+      "title": "Robert Guiscard — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Robert-Guiscard"
+    },
+    {
+      "title": "Bohemond I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Bohemond-I"
+    }
+  ]
+}

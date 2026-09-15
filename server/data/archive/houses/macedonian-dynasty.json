@@ -1,0 +1,326 @@
+{
+  "id": "macedonian-dynasty",
+  "type": "house",
+  "name": "Macedonian dynasty",
+  "aliases": [
+    "House of Macedon",
+    "Macedonians",
+    "Macedonian"
+  ],
+  "originYear": 867,
+  "endYear": 1056,
+  "reignSpan": "867–1056",
+  "region": "Byzantine Empire",
+  "originPlace": "The theme of Macedonia, in Thrace — not the ancient kingdom",
+  "arms": "The Byzantine emperors bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emperor%20Leo%20VI%20detail.jpg",
+  "imageInfo": {
+    "caption": "Leo VI prostrate before Christ, in the mosaic above the Imperial Door of Hagia Sophia.",
+    "creator": "Constantinople, imperial workshop",
+    "date": "late 9th or early 10th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Leo_VI_detail.jpg",
+    "note": "A mosaic of the dynasty's own century, still in place over the door the emperors used to enter Hagia Sophia. The posture is the point: the second Macedonian emperor shown flat on the floor before Christ, in the most public position in the empire's greatest church. Licensed CC BY 4.0."
+  },
+  "summary": "The dynasty that ruled Byzantium from 867 to 1056, took the empire to its greatest medieval extent, and produced its finest art, law and scholarship before running out of heirs.",
+  "overview": "Founded by a peasant groom who murdered his way to the throne, and ended by two elderly sisters — and in between, the most successful two centuries the medieval empire had.",
+  "founder": {
+    "displayName": "Basil I",
+    "note": "A Macedonian peasant who rose through the stables and murdered Michael III in 867"
+  },
+  "seats": [
+    {
+      "name": "Constantinople",
+      "type": "location",
+      "slug": "constantinople"
+    },
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Basil I",
+      "note": "r. 867–886; founded the dynasty by murdering his predecessor and began the legal revival",
+      "personSlug": "basil-i"
+    },
+    {
+      "displayName": "Leo VI the Wise",
+      "note": "r. 886–912; completed the Basilika law code and married four times to get an heir",
+      "personSlug": "leo-vi"
+    },
+    {
+      "displayName": "Constantine VII",
+      "note": "r. 913–959; the scholar-emperor of the Book of Ceremonies and De Administrando Imperio",
+      "personSlug": "constantine-vii"
+    },
+    {
+      "personSlug": "romanos-ii",
+      "displayName": "Romanos II",
+      "note": "r. 959–963; sent the expedition that retook Crete, and died at twenty-four"
+    },
+    {
+      "personSlug": "basil-ii",
+      "displayName": "Basil II",
+      "note": "r. 976–1025; annexed Bulgaria and took the empire to its greatest medieval extent"
+    },
+    {
+      "displayName": "Zoe and Theodora",
+      "note": "Nieces of Basil II, through whom the throne passed to a succession of husbands until 1056"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Macedonian emperors. Nikephoros II Phokas and John I Tzimiskes ruled as senior emperors by marriage and usurpation rather than as members of the family, which is why the line runs through Romanos II's sons. ⚭ marks a marriage.",
+    "root": {
+      "name": "Basil I",
+      "note": "r. 867–886; founder",
+      "children": [
+        {
+          "name": "Leo VI the Wise",
+          "note": "r. 886–912",
+          "children": [
+            {
+              "name": "Constantine VII Porphyrogennetos",
+              "note": "r. 913–959; the scholar-emperor",
+              "children": [
+                {
+                  "name": "Romanos II",
+                  "personSlug": "romanos-ii",
+                  "note": "r. 959–963",
+                  "spouse": {
+                    "name": "Theophano",
+                    "note": "Later married Nikephoros II and conspired in his murder",
+                    "personSlug": "theophano-wife-of-romanos-ii"
+                  },
+                  "children": [
+                    {
+                      "name": "Basil II",
+                      "personSlug": "basil-ii",
+                      "note": "r. 976–1025; never married"
+                    },
+                    {
+                      "name": "Constantine VIII",
+                      "note": "r. 1025–1028; father of Zoe and Theodora, through whom the dynasty ended"
+                    }
+                  ]
+                }
+              ],
+              "personSlug": "constantine-vii"
+            }
+          ],
+          "personSlug": "leo-vi"
+        },
+        {
+          "name": "Alexander",
+          "note": "r. 912–913; brother of Leo VI, a brief and destructive reign"
+        }
+      ],
+      "personSlug": "basil-i"
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty is named for the theme of Macedonia in Thrace, not for the ancient kingdom, and its founder was a peasant. Basil I came to Constantinople from a provincial family, made his career in the stables through a talent for horses and physical strength, and attracted the attention of the emperor Michael III.",
+        "He rose to become chamberlain, then co-emperor, and got there by arranging the murder of the Caesar Bardas in 866 and then of Michael himself in September 867.",
+        "The historians of the dynasty he founded then spent two centuries explaining that this had been necessary — which is why Michael III is remembered as a drunk, and why the Amorian material in this archive has to be read against the grain."
+      ]
+    },
+    {
+      "title": "Law, letters and the imperial revival",
+      "paragraphs": [
+        "The Macedonians took the empire's intellectual life seriously in a way no dynasty had since Justinian. Basil I began a systematic revision of the law, and Leo VI completed it as the Basilika — Justinian's corpus in Greek, reorganised and made usable.",
+        "Constantine VII is the emblem of the period: a ruler who spent decades sidelined from actual power and used them to compile the Book of Ceremonies and the De Administrando Imperio, both of which this archive draws on as sources for how the empire understood itself and its neighbours.",
+        "The art of the period — the Paris Psalter, the Joshua Roll, the mosaics of Hagia Sophia including the one above — is the finest Byzantine work after late antiquity, and the deliberate revival of classical models in it is why the century is often called the Macedonian Renaissance."
+      ]
+    },
+    {
+      "title": "The conquests",
+      "paragraphs": [
+        "The military record is the strongest of any Byzantine dynasty. The frontier moved outward continuously for more than a century, though much of the fighting was done by generals who were not Macedonians at all.",
+        "Crete was retaken in 961, Cilicia and Cyprus in 964–965, Antioch in 969 — all under Nikephoros Phokas and his officers, and all in the reigns of Romanos II and the two soldier-emperors who ruled in the name of his sons.",
+        "Basil II then annexed Bulgaria in 1018 after a thirty-year war, restoring the Danube frontier for the first time since the seventh century. At his death in 1025 the empire ran from the Danube to the Euphrates and had money in the treasury."
+      ]
+    },
+    {
+      "title": "The end",
+      "paragraphs": [
+        "Basil II never married and left no child. His brother Constantine VIII ruled three undistinguished years and left two daughters, Zoe and Theodora, and the throne passed through Zoe's three husbands and an adopted son.",
+        "Theodora, the last of the line, ruled alone in her seventies and died in 1056 without an heir. The dynasty had lasted 189 years and ended for the simplest possible reason.",
+        "What followed was rapid. The treasury Basil II had filled was spent, the army he had built was run down in favour of mercenaries, and in 1071 at Manzikert the empire lost Anatolia. The gap between the greatest extent and the catastrophe is forty-six years."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Macedonian period is the one later Byzantines looked back to, and the one modern historians generally regard as the empire's medieval peak: militarily dominant, administratively competent, intellectually productive and financially solvent at the same time.",
+        "Its weakness was structural and it was never solved. The empire had no rule of succession, so the throne depended on whether a capable adult male existed at the right moment, and twice in this dynasty the answer was no — filled once by soldier-emperors marrying in, and at the end by nobody at all.",
+        "The Macedonian emperors are also the reason this archive can be written. The Book of Ceremonies, the De Administrando Imperio, the Basilika and the chronicles compiled under their patronage are a large part of what survives about the middle Byzantine centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "867",
+      "title": "Basil I takes the throne",
+      "description": "The Macedonian groom murders Michael III and founds the dynasty."
+    },
+    {
+      "date": "888",
+      "title": "The Basilika",
+      "description": "Leo VI completes the Greek recodification of Roman law begun under his father."
+    },
+    {
+      "date": "913",
+      "title": "Accession of Constantine VII",
+      "description": "The scholar-emperor begins a reign in which he is repeatedly sidelined and writes the books the empire is remembered by."
+    },
+    {
+      "date": "961",
+      "title": "Crete retaken",
+      "description": "Nikephoros Phokas ends the Cretan emirate and Aegean piracy.",
+      "links": [
+        {
+          "title": "Siege of Chandax",
+          "type": "event",
+          "slug": "siege-of-chandax"
+        }
+      ]
+    },
+    {
+      "date": "969",
+      "title": "Antioch recovered",
+      "description": "The greatest eastern city returns to the empire after 331 years.",
+      "links": [
+        {
+          "title": "Siege of Antioch (969)",
+          "type": "event",
+          "slug": "siege-of-antioch-969"
+        }
+      ]
+    },
+    {
+      "date": "976",
+      "title": "Basil II takes power",
+      "description": "The dynasty's greatest emperor begins a forty-nine-year reign, the longest in Byzantine history.",
+      "links": [
+        {
+          "title": "Basil II",
+          "type": "person",
+          "slug": "basil-ii"
+        }
+      ]
+    },
+    {
+      "date": "1018",
+      "title": "Bulgaria annexed",
+      "description": "The Danube frontier is restored and the empire reaches its greatest medieval extent.",
+      "links": [
+        {
+          "title": "Battle of Kleidion",
+          "type": "event",
+          "slug": "battle-of-kleidion"
+        }
+      ]
+    },
+    {
+      "date": "1056",
+      "title": "The dynasty ends",
+      "description": "Theodora dies without an heir after 189 years of Macedonian rule."
+    },
+    {
+      "date": "1071",
+      "title": "Manzikert",
+      "description": "Fifteen years after the dynasty ends, the empire loses Anatolia.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Basil II",
+        "type": "person",
+        "slug": "basil-ii",
+        "label": "Its greatest emperor"
+      },
+      {
+        "title": "Romanos II",
+        "type": "person",
+        "slug": "romanos-ii",
+        "label": "In whose short reign Crete was retaken"
+      },
+      {
+        "title": "Michael III",
+        "type": "person",
+        "slug": "michael-iii",
+        "label": "The emperor its founder murdered"
+      },
+      {
+        "title": "Theophano (wife of Romanos II)",
+        "type": "person",
+        "slug": "theophano-wife-of-romanos-ii",
+        "label": "Empress, mother of Basil II"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Kleidion",
+        "type": "event",
+        "slug": "battle-of-kleidion",
+        "label": "The victory that completed the Bulgarian conquest"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "The high-water mark of its eastern conquests"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm it ruled for 189 years"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Annexed under Basil II in 1018"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Constantine VII, De Administrando Imperio",
+      "url": "https://en.wikipedia.org/wiki/De_Administrando_Imperio",
+      "type": "primary source"
+    },
+    {
+      "title": "Michael Psellos, Chronographia",
+      "url": "https://en.wikipedia.org/wiki/Chronographia_(Michael_Psellos)",
+      "type": "primary source"
+    },
+    {
+      "title": "Macedonian dynasty",
+      "url": "https://en.wikipedia.org/wiki/Macedonian_dynasty",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine studies",
+      "url": "https://www.doaks.org/research/byzantine",
+      "type": "academic resource",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

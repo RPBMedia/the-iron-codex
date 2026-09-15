@@ -1,0 +1,155 @@
+{
+  "id": "pope-eugenius-iii",
+  "type": "character",
+  "name": "Pope Eugenius III",
+  "aliases": [
+    "Eugenius III",
+    "Eugene III",
+    "Bernardo Pignatelli",
+    "Bernardo da Pisa"
+  ],
+  "born": null,
+  "died": 1153,
+  "deathAge": "unknown",
+  "causeOfDeath": "Eugenius died in 1153, shortly after his mentor Bernard of Clairvaux.",
+  "restingPlace": "St Peter's, Rome",
+  "location": "Papacy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Pope_Eugene_III.jpg",
+  "title": "first Cistercian pope, who called the Second Crusade",
+  "roles": [
+    "Pope",
+    "first Cistercian pope"
+  ],
+  "birth": {
+    "date": "unknown",
+    "place": null
+  },
+  "death": {
+    "date": "8 July 1153",
+    "place": null,
+    "circumstance": "Died at Tivoli, near Rome."
+  },
+  "quickFacts": {
+    "realm": "Papacy",
+    "dynasty": "Not dynastic",
+    "culture": "Latin Christian / Pisan",
+    "knownFor": "Granted the Templars their red cross"
+  },
+  "imageInfo": {
+    "caption": "Pope Eugenius III, the first Cistercian pope.",
+    "creator": "Unknown",
+    "date": "later depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pope_Eugene_III.jpg",
+    "note": "A later depiction; no contemporary portrait survives."
+  },
+  "overview": [
+    "Pope Eugenius III was the first Cistercian pope, a disciple of Bernard of Clairvaux, who called the Second Crusade and granted the Knights Templar the right to wear the red cross.",
+    "A humble monk raised unexpectedly to the papacy, he leaned heavily on the guidance of his formidable mentor."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pope Eugenius III (reigned 1145–1153) was the first Cistercian to become pope — a modest, monastic figure whose reign was shaped by the towering influence of Bernard of Clairvaux and by the crusading fervour of the age."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born near Pisa and a monk of Clairvaux under Bernard, Bernardo Pignatelli was abbot of a Roman monastery when he was elected pope in 1145 — a surprising choice that dismayed even Bernard, who feared his pupil too gentle for the office."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Eugenius was, by all accounts, a genuinely humble and devout man, more at home in the cloister than the curia. He kept his Cistercian habit and simplicity as pope, and was widely respected for his sincerity and mildness.",
+        "His closeness to Bernard of Clairvaux defined him. Bernard wrote his famous treatise On Consideration to advise (and gently admonish) his former pupil, and contemporaries sometimes wondered who truly governed the Church. Yet Eugenius was no mere cipher: he held firm on matters of principle, defended papal authority against the Roman commune that drove him from the city, and steered the Church with quiet resolve.",
+        "It was under Eugenius that the crusading energy of Bernard’s preaching reached its height — and that the Templars, Bernard’s special protégés, received the red cross that became their emblem of martyrdom."
+      ]
+    },
+    {
+      "title": "Crusade and the Templars",
+      "paragraphs": [
+        "In 1145 Eugenius issued the bull Quantum praedecessores, calling the Second Crusade, which Bernard of Clairvaux then preached across Europe — though the expedition ended in failure.",
+        "Around 1147 Eugenius granted the Knights Templar the right to wear a red cross on their white mantle, the sign that marked them as men ready for martyrdom and that became the order’s enduring emblem."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Eugenius died in 1153, only weeks before Bernard of Clairvaux, the mentor whose shadow had fallen across his whole pontificate."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Eugenius III is remembered as the Cistercian pope of the Second Crusade and as the pontiff who gave the Templars their red cross.",
+        "His reign marks the high tide of Cistercian and crusading influence over the 12th-century papacy."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1080–1100",
+      "title": "Born near Pisa",
+      "description": "Enters the Cistercian order and becomes a monk under Bernard of Clairvaux."
+    },
+    {
+      "date": "1145",
+      "title": "Elected pope",
+      "description": "The first Cistercian pope, elected to Bernard’s own dismay."
+    },
+    {
+      "date": "1145",
+      "title": "Calls the Second Crusade",
+      "description": "Issues Quantum praedecessores, which Bernard preaches across Europe."
+    },
+    {
+      "date": "c. 1147",
+      "title": "Grants the Templars the red cross",
+      "description": "Authorises the red cross on the Templars’ white mantle."
+    },
+    {
+      "date": "1153",
+      "title": "Death",
+      "description": "Dies weeks before his mentor Bernard of Clairvaux."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Bernard of Clairvaux",
+        "type": "person",
+        "slug": "bernard-of-clairvaux"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica: Eugenius III",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Eugenius-III"
+    },
+    {
+      "title": "The Papacy in the Middle Ages (survey works)",
+      "author": "various",
+      "type": "book"
+    }
+  ]
+}

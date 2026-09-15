@@ -1,0 +1,106 @@
+{
+  "id": "lindisfarne-gospels",
+  "type": "artifact",
+  "name": "Lindisfarne Gospels",
+  "year": 715,
+  "location": "Lindisfarne, Northumbria",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LindisfarneFol27rIncipitMatt.jpg",
+  "summary": "An illuminated Gospel book created in the Northumbrian monastic tradition.",
+  "details": "The Lindisfarne Gospels blend Mediterranean, Celtic, Germanic, and Christian visual traditions. The manuscript is a major witness to early medieval religious art and book production.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "An illuminated Gospel book created in the Northumbrian monastic tradition.",
+        "The Lindisfarne Gospels blend Mediterranean, Celtic, Germanic, and Christian visual traditions. The manuscript is a major witness to early medieval religious art and book production."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "Lindisfarne Gospels is a material or textual object whose physical survival helps historians read medieval politics, belief, art, or memory."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The archive date of 715 is an orientation point. Exact dating, patronage, or production context may be debated depending on the object."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "Lindisfarne Gospels belongs to the world of Lindisfarne, Northumbria, where objects, texts, relics, and images could carry authority across generations."
+      ]
+    },
+    {
+      "title": "Use or meaning",
+      "paragraphs": [
+        "The Lindisfarne Gospels functioned as a sacred book for worship, memory, and monastic prestige at Lindisfarne. Its later Old English gloss also made it a major witness to language, translation, and the continuing life of the manuscript after its original Insular context."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Lindisfarne Gospels remains a useful witness because it gives material form to medieval culture rather than reducing history to rulers and battles."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Incipit page from the Lindisfarne Gospels.",
+    "creator": "Eadfrith of Lindisfarne traditionally attributed",
+    "date": "early 8th century",
+    "source": "British Library / Wikimedia Commons",
+    "note": "Image of the surviving illuminated manuscript."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:LindisfarneFol27rIncipitMatt.jpg"
+    },
+    {
+      "title": "British Library: Lindisfarne Gospels",
+      "author": "British Library",
+      "type": "manuscript collection",
+      "url": "https://www.bl.uk/collection-items/lindisfarne-gospels"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Produced at Lindisfarne in Northumbria"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Later medieval English context"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Book of Kells",
+        "type": "artifact",
+        "slug": "book-of-kells",
+        "label": "Related insular illuminated gospel book"
+      },
+      {
+        "title": "Royal Frankish Annals",
+        "type": "artifact",
+        "slug": "royal-frankish-annals",
+        "label": "Comparable major early-medieval manuscript"
+      }
+    ]
+  }
+}

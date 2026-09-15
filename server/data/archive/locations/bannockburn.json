@@ -1,0 +1,93 @@
+{
+  "id": "bannockburn",
+  "type": "location",
+  "name": "Bannockburn",
+  "locationType": "Battlefield",
+  "kingdom": "Kingdom of Scotland",
+  "year": "1314",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg",
+  "summary": "A battlefield near Stirling where Robert Bruce defeated Edward II.",
+  "overview": [
+    "A battlefield near Stirling where Robert Bruce defeated Edward II."
+  ],
+  "knownFor": [
+    "Bannockburn in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "A modern schematic map of the first day of the Battle of Bannockburn (1314), showing the dispositions of Robert the Bruce's Scots and Edward II's English army near the Bannock Burn.",
+    "creator": "Map contributor on Wikimedia Commons",
+    "date": "modern schematic battle map (of the 1314 battle)",
+    "source": "Wikimedia Commons",
+    "note": "This image is a diagrammatic battle-plan map, not a photograph of the site; it reconstructs the movements of the two armies over the ground south of Stirling.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A battlefield near Stirling where Robert Bruce defeated Edward II.",
+        "Bannockburn matters historically through Bannockburn in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Bannockburn",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Bannockburn"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "Battle fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Fought here"
+      },
+      {
+        "title": "Edward II of England",
+        "type": "person",
+        "slug": "edward-ii-of-england",
+        "label": "Fought here"
+      }
+    ]
+  }
+}

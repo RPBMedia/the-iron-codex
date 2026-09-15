@@ -1,0 +1,299 @@
+{
+  "id": "battle-of-las-navas-de-tolosa",
+  "type": "event",
+  "name": "Battle of Las Navas de Tolosa",
+  "year": 1212,
+  "location": "Las Navas de Tolosa, Iberia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batalla_de_las_Navas_de_Tolosa,_por_Francisco_van_Halen.jpg",
+  "imageInfo": {
+    "caption": "Francisco de Paula Van Halen, Battle of Las Navas de Tolosa.",
+    "creator": "Francisco de Paula Van Halen",
+    "date": "19th century",
+    "source": "Wikimedia Commons",
+    "note": "A later romantic painting of the battle."
+  },
+  "summary": "On 16 July 1212 the kings of Castile, Aragon and Navarre broke the army of the Almohad caliph Muhammad al-Nasir in the passes of the Sierra Morena, opening al-Andalus to the conquests of the next forty years.",
+  "details": "The Battle of Las Navas de Tolosa was fought in 1212 between a coalition led by Castile and the Almohad Caliphate. The Christian coalition won a major victory. The battle did not immediately complete the Christian conquest of Iberia, but it badly damaged Almohad authority and helped open the way for thirteenth-century expansion by Castile and Aragon.",
+  "eventType": "Battle",
+  "conflict": "Reconquista and Almohad-Iberian wars",
+  "factions": [
+    "Kingdom of Castile",
+    "Kingdom of Aragon",
+    "Kingdom of Navarre",
+    "Almohad Caliphate"
+  ],
+  "leaders": [
+    {
+      "name": "Alfonso VIII of Castile",
+      "faction": "Iberian Christian coalition",
+      "personId": "alfonso-viii-of-castile"
+    },
+    {
+      "name": "Muhammad al-Nasir",
+      "faction": "Almohad army",
+      "personId": "muhammad-al-nasir"
+    }
+  ],
+  "eventLocation": {
+    "name": "Las Navas de Tolosa",
+    "locationId": "las-navas-de-tolosa"
+  },
+  "outcome": "Christian coalition victory; Almohad power in Iberia was weakened.",
+  "background": [
+    "Almohad power had dominated much of al-Andalus and threatened Christian kingdoms after earlier victories. Pope Innocent III supported the campaign as a crusading effort.",
+    "Castile, Aragon, Navarre, and other forces cooperated despite rivalries, making the campaign both religious and political."
+  ],
+  "battle": "The armies met in the Sierra Morena. Christian forces attacked through difficult terrain and pressed toward the Almohad camp. The battle turned when coalition troops broke through defensive positions and reached the area around the caliph’s guard. Almohad resistance collapsed, and Muhammad al-Nasir fled.",
+  "aftermath": "The Almohad defeat weakened Muslim political unity in Iberia. In the decades that followed, Christian kingdoms conquered major cities including Cordoba, Valencia, and Seville. The victory enhanced Castilian prestige and became a major memory of the Reconquista, though later narratives often simplified the diverse politics of Iberia.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Las Navas de Tolosa was fought on 16 July 1212 on the southern slopes of the Sierra Morena, where the road from Toledo drops toward the valley of the Guadalquivir. Alfonso VIII of Castile, Peter II of Aragon and Sancho VII of Navarre, with the military orders and a remnant of crusaders from beyond the Pyrenees, attacked the army of the Almohad caliph Muhammad al-Nasir and destroyed it. Arabic writers remembered the day as the battle of al-'Uqab, 'the heights'.",
+        "Its reputation as the turning point of the Reconquista is earned, but not in the way later chronicles told it. No city fell on the day, and the Almohad caliphate outlived al-Nasir's defeat by decades. What the battle destroyed was the field army that had kept Castile on the defensive since 1195, and with it the caliph's authority in al-Andalus. Within forty years Córdoba, Valencia, Jaén and Seville were in Christian hands."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The campaign was a reply to the Battle of Alarcos. On 19 July 1195 the caliph Yaqub al-Mansur had routed Alfonso VIII there, and Castile spent the next fifteen years avoiding a second Alarcos. When Castilian raids into Almohad territory resumed in 1209 and 1210, al-Nasir crossed the Strait with a large army. His siege of Salvatierra, the forward castle of the Order of Calatrava, lasted through the summer of 1211 and ended with its surrender in September; in October Alfonso's heir, the infante Ferdinand, died of fever.",
+        "Alfonso turned the defeat into a crusade. Pope Innocent III granted the campaign crusade indulgences and threatened with excommunication any Christian ruler who attacked Castile while it lasted, and Rodrigo Jiménez de Rada, archbishop of Toledo, travelled through France to recruit. By June 1212 an army had gathered at Toledo that included Peter II of Aragon and a large body of crusaders from beyond the Pyrenees, the ultramontanos, led by Arnaud Amaury, archbishop of Narbonne and a veteran of the Albigensian Crusade.",
+        "The coalition nearly came apart before it reached the enemy. The ultramontanos stormed Malagón and killed its garrison, then took Calatrava at the start of July. Alfonso let Calatrava's defenders leave alive, the crusaders resented terms that denied them plunder, and in the heat of the Meseta most of them went home; only Arnaud Amaury and a small following stayed. Sancho VII of Navarre, long on bad terms with Castile, joined with his own knights only after the army had passed Calatrava."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The contemporary numbers are useless: Alfonso's letter to the pope and the Arabic sources alike describe armies in the hundreds of thousands. Modern estimates put the Christian army at perhaps 12,000 to 20,000. It was organised by kingdom. Diego López de Haro, lord of Biscay, led the Castilian vanguard, with the knights of Santiago, Calatrava, the Temple and the Hospital in the line behind him; Peter II's Aragonese held the left, Sancho VII's Navarrese the right, and Alfonso VIII commanded the rearguard with Archbishop Rodrigo at his side.",
+        "The Almohad army was probably the larger, though by how much cannot be recovered. It combined the caliphate's Berber regulars, Andalusi troops raised from cities such as Seville and Córdoba, Arab tribal cavalry and large numbers of volunteers for the holy war, who were placed in front to take the first charge. Al-Nasir directed the battle from a red tent on a rise behind his lines, inside an enclosure held by his guard. Christian writers later said the guards were chained together so that they could not flee, a detail that may describe a barrier of chains rather than chained men."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Almohads had blocked the obvious pass through the Sierra Morena at the Muradal. According to Archbishop Rodrigo, a local shepherd showed the Christian scouts another track, and by 14 July the army was camped on a plateau facing the Almohad position; later legend turned the shepherd into Saint Isidore of Madrid in disguise. The Christians rested on Sunday 15 July and deployed before dawn on the Monday.",
+        "Diego López de Haro's vanguard drove through the screen of volunteers and into the Almohad regulars, but the Almohad line absorbed the charge and counter-attacked, and parts of the Christian first line broke and fled back past the second. At the crisis Alfonso VIII committed the rearguard; Rodrigo remembered the king telling him, 'Archbishop, you and I die here.' The combined advance of the three kings, with the Aragonese and Navarrese pressing the flanks, forced the Almohad army back up the slope toward al-Nasir's enclosure.",
+        "When the enclosure was breached the Almohad army collapsed. Al-Nasir escaped on horseback toward Jaén, leaving his camp and tent to be plundered, and the pursuit went on until dark. A later Navarrese tradition held that Sancho VII was first through the chains around the tent and took them for the arms of Navarre; most heraldic historians read the design as the metal bands of a shield, and the link to 1212 as a story told afterward."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The victors took the Almohad forts of the Sierra Morena, Vilches, Baños and Tolosa among them, found Baeza abandoned and stormed Úbeda, whose inhabitants were killed or enslaved. Dysentery and the summer heat then broke up the army. Alfonso wrote to Innocent III announcing the victory and claiming implausibly small Christian losses, and the pope celebrated the news in Rome. Peter II did not live to share in what followed: fourteen months after Las Navas he was killed at Muret, fighting Simon de Montfort's crusaders in defence of his vassals in Languedoc.",
+        "The strategic consequences arrived more slowly than the legend implies. Al-Nasir withdrew to Marrakesh and died there in 1213, and his young son Yusuf II inherited a caliphate whose governors and kinsmen were already competing for power; after Yusuf's death in 1224 the Almohad succession collapsed into civil war, and the Andalusi cities turned to local rulers. Ferdinand III of Castile and James I of Aragon then conquered piecemeal what Las Navas had left undefended: Córdoba in 1236, Valencia in 1238 and Seville in 1248. Only the emirate established at Granada in 1238 survived as a Muslim state in Iberia."
+      ]
+    },
+    {
+      "title": "Memory and meaning",
+      "paragraphs": [
+        "Las Navas is unusual among medieval battles in having an eyewitness narrator of rank on the winning side. Rodrigo Jiménez de Rada rode with Alfonso VIII and wrote the fullest account in his De rebus Hispaniae, completed in 1243. His version shaped every later Castilian telling, and its emphasis on Castilian leadership, divine favour and the archbishop at the king's side is also its bias: the Aragonese and Navarrese share in the victory is thinner in it than it was on the field.",
+        "In Toledo the victory became the feast of the Triumph of the Holy Cross, kept every 16 July, and trophies said to come from al-Nasir's camp were displayed at the monastery of Las Huelgas in Burgos, where Alfonso VIII was buried. Arabic historians treated al-'Uqab as the beginning of the end of al-Andalus and looked for someone to blame, above all al-Nasir's vizier and the caliph's execution of Ibn Qadis, the commander who had surrendered Calatrava, which they said turned the Andalusi contingents against him."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Batalla_de_las_Navas_de_Tolosa%2C_por_Francisco_van_Halen.jpg"
+    },
+    {
+      "title": "Rodrigo Jiménez de Rada, De rebus Hispaniae",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Rodrigo_Jim%C3%A9nez_de_Rada"
+    },
+    {
+      "title": "Chronica latina regum Castellae",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chronica_latina_regum_Castellae"
+    },
+    {
+      "title": "Battle of Las Navas de Tolosa",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Las_Navas_de_Tolosa"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Las Navas de Tolosa",
+        "type": "location",
+        "slug": "las-navas-de-tolosa",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Almohad Caliphate",
+        "type": "location",
+        "slug": "almohad-caliphate",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "Commander"
+      },
+      {
+        "title": "Muhammad al-Nasir",
+        "type": "person",
+        "slug": "muhammad-al-nasir",
+        "label": "Commander"
+      }
+    ],
+    "events": [
+      {
+        "title": "Conquest of Córdoba",
+        "type": "event",
+        "slug": "conquest-of-cordoba",
+        "label": "The advance it opened (1236)"
+      },
+      {
+        "title": "Conquest of Seville",
+        "type": "event",
+        "slug": "conquest-of-seville",
+        "label": "The advance it opened (1248)"
+      },
+      {
+        "title": "Battle of Alarcos",
+        "type": "event",
+        "slug": "battle-of-alarcos",
+        "label": "The defeat Las Navas avenged"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Iberian Christian coalition",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        },
+        {
+          "name": "Kingdom of Aragon",
+          "title": "Kingdom of Aragon",
+          "type": "location",
+          "slug": "kingdom-of-aragon"
+        },
+        {
+          "name": "Kingdom of Navarre",
+          "title": "Kingdom of Navarre",
+          "type": "location",
+          "slug": "kingdom-of-navarre"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Alfonso VIII of Castile",
+          "title": "Alfonso VIII of Castile",
+          "type": "person",
+          "slug": "alfonso-viii-of-castile"
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000–20,000",
+        "confidence": "debated",
+        "note": "The allied army of Castile, Aragon, and Navarre; modern estimates, not chronicle figures."
+      }
+    },
+    {
+      "side": "Almohad army",
+      "factions": [
+        {
+          "name": "Almohad Caliphate",
+          "title": "Almohad Caliphate",
+          "type": "location",
+          "slug": "almohad-caliphate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Muhammad al-Nasir",
+          "title": "Muhammad al-Nasir",
+          "type": "person",
+          "slug": "muhammad-al-nasir"
+        }
+      ],
+      "strength": {
+        "display": "Chronicle claims are fantastical (100,000+); modern estimates far lower",
+        "confidence": "chronicle-claim",
+        "note": "The Almohad host was larger than the Christian army, but the enormous medieval totals are not credible; modern estimates run to perhaps 20,000–30,000."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Castilian crown's field army",
+    "battleSlug": "battle-of-aljubarrota",
+    "relationship": "same-factions",
+    "reason": "Las Navas made Castile the dominant Christian power in Iberia. At Aljubarrota in 1385 that power's bid to absorb Portugal ended, when John I of Castile's much larger army was destroyed by the Portuguese and their English allies."
+  },
+  "timeline": [
+    {
+      "date": "19 July 1195",
+      "title": "Defeat at Alarcos",
+      "description": "Yaqub al-Mansur routs Alfonso VIII at the Battle of Alarcos, leaving Castile on the defensive for fifteen years."
+    },
+    {
+      "date": "September 1211",
+      "title": "Salvatierra surrenders",
+      "description": "Muhammad al-Nasir takes the Order of Calatrava's forward castle after a summer-long siege."
+    },
+    {
+      "date": "Early 1212",
+      "title": "Crusade proclaimed",
+      "description": "Innocent III grants crusade indulgences, and Rodrigo Jiménez de Rada recruits north of the Pyrenees."
+    },
+    {
+      "date": "June 1212",
+      "title": "The army leaves Toledo",
+      "description": "Castilians, Aragonese and ultramontane crusaders march south under Alfonso VIII and Peter II."
+    },
+    {
+      "date": "July 1212",
+      "title": "Calatrava taken",
+      "description": "The fortress surrenders on terms, and most of the crusaders from beyond the Pyrenees abandon the campaign."
+    },
+    {
+      "date": "14 July 1212",
+      "title": "The Sierra Morena crossed",
+      "description": "Guided by a shepherd past the blocked pass at the Muradal, the army camps facing the Almohad position."
+    },
+    {
+      "date": "16 July 1212",
+      "title": "Battle of Las Navas de Tolosa",
+      "description": "The three kings break the Almohad army; al-Nasir flees and his camp is taken."
+    },
+    {
+      "date": "Late July 1212",
+      "title": "Úbeda stormed",
+      "description": "The coalition takes Baeza and Úbeda before dysentery ends the campaign."
+    },
+    {
+      "date": "1213",
+      "title": "Two protagonists die",
+      "description": "Peter II is killed at Muret in September, and al-Nasir dies in Marrakesh at the end of the year."
+    },
+    {
+      "date": "1236–1248",
+      "title": "The Guadalquivir conquered",
+      "description": "Ferdinand III takes Córdoba in 1236 and Seville in 1248, conquests the destruction of the Almohad army made possible."
+    }
+  ]
+}

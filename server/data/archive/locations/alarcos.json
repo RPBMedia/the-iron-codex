@@ -1,0 +1,88 @@
+{
+  "id": "alarcos",
+  "type": "location",
+  "locationType": "fortress",
+  "name": "Alarcos",
+  "aliases": [
+    "Alarcos (Ciudad Real)"
+  ],
+  "year": "12th century",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Campo%20de%20Batalla%20de%20Alarcos%20-%20Battlefield%20of%20Alarcos%20001.jpg",
+  "summary": "A hilltop fortress on the Guadiana near Ciudad Real, still half-built when Alfonso VIII lost the great battle of 1195 beneath its walls.",
+  "overview": "Alarcos guarded the Castilian frontier toward al-Andalus. Its name is bound to the catastrophic defeat fought there in 1195.",
+  "knownFor": [
+    "The Battle of Alarcos (1195)"
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alarcos stands on a low hill above the river Guadiana near modern Ciudad Real, on what in the 12th century was the exposed southern frontier of Castile. Alfonso VIII was fortifying it as a frontier stronghold when the Almohads struck.",
+        "The castle was still unfinished on the day of the battle in July 1195, and its incomplete walls could not shelter the broken Castilian army. After the defeat the Almohads took the site, and it never regained importance."
+      ]
+    },
+    {
+      "title": "The site today",
+      "paragraphs": [
+        "The hill of Alarcos is now an archaeological park, with the remains of the medieval castle and church and, beneath them, an older Iberian settlement. The open ground below the walls is the battlefield of 1195.",
+        "Excavations have made Alarcos one of the better-studied frontier sites of central Iberia, preserving the memory of the day the Castilian frontier collapsed."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1195",
+      "title": "Battle of Alarcos",
+      "description": "Alfonso VIII is defeated by the Almohads beneath the unfinished castle."
+    }
+  ],
+  "imageInfo": {
+    "caption": "The battlefield and hill of Alarcos near Ciudad Real, site of the 1195 defeat and now an archaeological park.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Medieval frontier site; modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campo_de_Batalla_de_Alarcos_-_Battlefield_of_Alarcos_001.jpg",
+    "license": "Creative Commons",
+    "note": "The frontier hill and battlefield, not a modern townscape."
+  },
+  "sources": [
+    {
+      "title": "Alarcos",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Alarcos"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Alarcos",
+        "type": "event",
+        "slug": "battle-of-alarcos",
+        "label": "Fought beneath its walls"
+      }
+    ],
+    "people": [
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "Defeated here in 1195"
+      },
+      {
+        "title": "Yaqub al-Mansur",
+        "type": "person",
+        "slug": "yaqub-al-mansur",
+        "label": "The victor of 1195"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The frontier it guarded"
+      }
+    ]
+  }
+}

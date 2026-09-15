@@ -1,0 +1,78 @@
+{
+  "id": "iskorosten",
+  "type": "location",
+  "name": "Iskorosten",
+  "locationType": "Town / Settlement",
+  "kingdom": "Drevlian territory / Kievan Rus'",
+  "year": "10th century",
+  "period": "Early Middle Ages / Viking Age",
+  "region": "Polesia, northern Ukraine (modern Korosten)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Uzh_River_in_Korosten_Raion_%28near_Santarka%29_01.JPG",
+  "summary": "Capital of the Drevlian tribal territory and the location most associated with the death of Igor of Kiev in 945 and the subsequent punitive siege by Olga of Kiev.",
+  "imageInfo": {
+    "caption": "Modern Korosten, Ukraine — medieval Iskorosten, Drevlian capital and site of Igor of Kiev’s death in 945.",
+    "creator": "Visem",
+    "date": "2013-10-19 14:26:38",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uzh_River_in_Korosten_Raion_(near_Santarka)_01.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Iskorosten (modern Korosten in Zhytomyr Oblast, northern Ukraine) was the principal settlement of the Drevlians, a Slavic tribal group who occupied the forested region to the northwest of Kyiv. In 945, it became the site of the most consequential episode in the early Rurikid period: the death of Igor of Kiev at Drevlian hands, and the subsequent siege and burning of the town by Igor's widow Olga.",
+        "The name Iskorosten is traditionally derived from a Slavic word for stone or rock, reflecting the settlement's position on granite outcroppings on the Uzh River. Archaeological work in the Korosten area has confirmed settlement activity in the early medieval period, consistent with the chronicle's identification of this area as a Drevlian center."
+      ]
+    },
+    {
+      "title": "Igor's death and Olga's siege",
+      "paragraphs": [
+        "The Primary Chronicle places Igor's death in the Drevlian lands in 945. After Igor returned with a small retinue to demand additional tribute from the Drevlians, their prince Mal ordered him killed. The Drevlians then sent ambassadors to Kyiv to propose that Olga marry Mal and unite their peoples under Drevlian leadership.",
+        "Olga's response, as the chronicle tells it, involved four successive acts of retribution, culminating in a siege of Iskorosten itself. The chronicle describes her burning the city through a ruse involving birds carrying burning material tied to their legs — an episode that most historians treat as legendary elaboration on what was likely a straightforward military siege. Whether or not the method was as exotic as described, the destruction of Iskorosten and the crushing of Drevlian independence appears to have been real: the Drevlians disappear as a distinct political entity from Rus' sources after this episode.",
+        "Olga's siege of Iskorosten reasserted Rurikid authority over the Drevlian lands, avenged Igor, and sent a clear message about the consequences of killing a Rurikid prince. The event became foundational in the early Rus' narrative tradition and is one of the most-discussed episodes in the Primary Chronicle."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Korosten (Iskorosten) — World History Encyclopedia",
+      "type": "reference article",
+      "url": "https://www.worldhistory.org/Iskorosten/"
+    },
+    {
+      "title": "Primary Chronicle — Internet Medieval Sourcebook",
+      "author": "trans. S. H. Cross and O. P. Sherbowitz-Wetzor",
+      "type": "primary source in translation",
+      "url": "https://sourcebooks.fordham.edu/basis/pvl.asp"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Igor of Kiev",
+        "type": "person",
+        "slug": "igor-of-kiev",
+        "label": "Death of Igor of Kiev"
+      },
+      {
+        "title": "Olga of Kiev",
+        "type": "person",
+        "slug": "olga-of-kiev"
+      },
+      {
+        "title": "Rurik",
+        "type": "person",
+        "slug": "rurik"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kievan Rus’",
+        "type": "location",
+        "slug": "kievan-rus"
+      }
+    ]
+  }
+}

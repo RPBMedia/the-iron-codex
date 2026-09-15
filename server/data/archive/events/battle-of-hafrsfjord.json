@@ -1,0 +1,194 @@
+{
+  "id": "battle-of-hafrsfjord",
+  "name": "Battle of Hafrsfjord",
+  "year": 872,
+  "location": "Hafrsfjord, near Stavanger, Norway",
+  "eventType": "Battle",
+  "conflict": "Unification of Norway",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ole_Peter_Hansen_Balling_Harald_H%C3%A5rfagre_i_slaget_ved_Hafrsfjord.jpg",
+  "imageInfo": {
+    "caption": "Harald Fairhair at the Battle of Hafrsfjord, painting by Ole Peter Hansen Balling (19th century).",
+    "creator": "Ole Peter Hansen Balling",
+    "date": "19th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ole_Peter_Hansen_Balling_Harald_H%C3%A5rfagre_i_slaget_ved_Hafrsfjord.jpg",
+    "note": "A 19th-century Norwegian history painting; the traditionally dated battle is known only from later saga tradition."
+  },
+  "summary": "The sea-battle of Hafrsfjord, traditionally dated around 872, is remembered in saga tradition as the victory by which Harald Fairhair broke his rivals and unified Norway under a single king.",
+  "details": "Saga tradition places the decisive sea-battle of Harald Fairhair's unification wars at Hafrsfjord near Stavanger, traditionally around 872, where Harald defeated a coalition of petty kings and jarls of western and southern Norway. The tradition, recorded centuries later in Heimskringla and skaldic verse, links the victory to the emigration of dissidents to Iceland.",
+  "factions": [
+    "Harald Fairhair's forces",
+    "Coalition of petty kings and jarls"
+  ],
+  "leaders": [
+    {
+      "name": "Harald Fairhair",
+      "faction": "Harald's fleet",
+      "personId": "harald-fairhair"
+    },
+    {
+      "name": "Kjotve the Rich and allied kings",
+      "faction": "Coalition"
+    }
+  ],
+  "outcome": "Victory for Harald Fairhair (saga tradition); traditionally treated as completing the unification of Norway under one king.",
+  "participants": [
+    {
+      "side": "Harald's fleet",
+      "strength": {
+        "display": "not securely recorded",
+        "confidence": "unknown",
+        "note": "Saga tradition names ships and champions but gives no reliable numbers; the tradition is late and shaped by later ideology."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harald Fairhair",
+          "type": "person",
+          "slug": "harald-fairhair"
+        }
+      ]
+    },
+    {
+      "side": "Coalition of petty kings",
+      "strength": {
+        "display": "not securely recorded",
+        "confidence": "unknown",
+        "note": "The opposing coalition of southern and western sea-kings is named in tradition but not securely counted."
+      },
+      "factions": [
+        {
+          "name": "Petty kingdoms of western Norway",
+          "title": "Rogaland",
+          "type": "location",
+          "slug": "rogaland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Kjotve the Rich",
+          "type": "person",
+          "note": "No article yet, and unlikely ever to have one: a petty king of Agder named in skaldic verse as leading the coalition against Harald Fairhair. Almost nothing else about him is recoverable."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Hafrsfjord, a sea-fight in the fjord near modern Stavanger traditionally dated to around 872, is remembered in Norse tradition as the climactic victory of Harald Fairhair's wars to unite Norway. Fighting a coalition of the petty kings and jarls of the south-west, Harald is said to have broken the last organised resistance and made himself sole king.",
+        "The tradition must be read carefully: it survives only in sources written three centuries later — Snorri Sturluson's Heimskringla and the skaldic verse it quotes — and modern historians treat the \"unification at Hafrsfjord\" as saga interpretation of a longer, messier process rather than a single decisive constitutional moment. The battle is nonetheless the foundation-story of the Norwegian monarchy."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Before Harald, western Norway was a patchwork of chiefdoms and petty kingdoms strung along the coastal sailing-route. Saga tradition makes Harald, king in the Vestfold, vow to unite the country — and to leave his hair uncut until he had — waging a decade of wars down the coast that drove the surviving independent lords to combine against him.",
+        "The coalition of the south-western sea-kings, led in tradition by Kjotve the Rich and his son Thorir Haklang, gathered its fleet at Hafrsfjord for a decisive stand against Harald's advancing power."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "The tradition presents the battle as a great clash of ship-fleets — the characteristic Norse sea-battle, ships lashed together as fighting platforms — with Harald's berserkers in the prows. No reliable numbers survive; the skaldic poem the sagas quote (the Haraldskvæði) celebrates the fighting rather than counting it.",
+        "Harald Fairhair led his own fleet; the coalition fought under Kjotve the Rich and the champion Thorir Haklang, whose death in the battle the tradition treats as decisive."
+      ]
+    },
+    {
+      "title": "The battle and its tradition",
+      "paragraphs": [
+        "By the saga account the two fleets met in the fjord, Thorir Haklang fell in the hardest fighting, and Kjotve's coalition broke and fled — leaving Harald master of the west and, in the tradition's telling, of all Norway. He then had his hair cut and combed, earning the by-name \"Fairhair\".",
+        "The Haraldskvæði, the one near-contemporary source, confirms a real and hard-fought sea-battle at Hafrsfjord against southern kings; everything beyond that — the neat \"unification\", the emigration to Iceland it supposedly triggered — is later saga elaboration that historians weigh with caution."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Whatever its exact scale, Hafrsfjord became the founding battle of the Norwegian kingdom in national memory: the moment tradition assigns to the birth of a single monarchy, commemorated at the site by the modern Sverd i fjell monument. Harald's realm in fact fragmented among his sons, and unification was the work of generations; but the saga fixed Hafrsfjord as the beginning.",
+        "The tradition also gave Norway its founding-emigration myth — dissident chieftains sailing to settle Iceland rather than submit — binding the two North Atlantic societies' origin stories together, however much the detail is later invention."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The next contest for Norway's crown",
+    "battleSlug": "battle-of-svolder",
+    "relationship": "same-region",
+    "reason": "Hafrsfjord is remembered as founding the Norwegian monarchy; the crown it created was still being fought over generations later, when Olaf Tryggvason fell at the sea-battle of Svolder in 1000."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair"
+      },
+      {
+        "name": "Olaf Tryggvason",
+        "type": "person",
+        "slug": "olaf-tryggvason"
+      },
+      {
+        "name": "Eric Bloodaxe",
+        "type": "person",
+        "slug": "eric-bloodaxe"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Norway",
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway"
+      },
+      {
+        "name": "Rogaland",
+        "title": "Rogaland",
+        "type": "location",
+        "slug": "rogaland"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Svolder",
+        "type": "event",
+        "slug": "battle-of-svolder",
+        "label": "The next great fight for the Norwegian crown, 1000"
+      },
+      {
+        "title": "Battle of Stiklestad",
+        "type": "event",
+        "slug": "battle-of-stiklestad",
+        "label": "The martyr-king's field, 1030"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Balling painting",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Ole_Peter_Hansen_Balling_Harald_H%C3%A5rfagre_i_slaget_ved_Hafrsfjord.jpg"
+    },
+    {
+      "title": "Battle of Hafrsfjord — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Hafrsfjord"
+    },
+    {
+      "title": "Snorri Sturluson, Heimskringla (Harald Fairhair's saga)",
+      "author": "Snorri Sturluson",
+      "type": "primary source",
+      "note": "Thirteenth-century tradition — not a documentary record of a ninth-century battle."
+    }
+  ],
+  "type": "event"
+}

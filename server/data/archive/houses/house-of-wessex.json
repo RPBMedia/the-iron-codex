@@ -1,0 +1,453 @@
+{
+  "id": "house-of-wessex",
+  "type": "house",
+  "name": "House of Wessex",
+  "aliases": [
+    "Cerdicings",
+    "Cerdicing dynasty",
+    "West Saxon dynasty",
+    "House of Cerdic"
+  ],
+  "originYear": 802,
+  "endYear": 1066,
+  "reignSpan": "802–1066",
+  "region": "England (Wessex)",
+  "originPlace": "Wessex",
+  "arms": "A golden wyvern (dragon), the emblem later associated with Wessex. The dynasty predates true heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Athelstan.jpg?width=1000",
+  "imageInfo": {
+    "caption": "King Æthelstan presenting a gospel book to St Cuthbert, from a manuscript of c. 934 — the earliest surviving portrait of an English king.",
+    "creator": "Anglo-Saxon manuscript illumination (Corpus Christi College, Cambridge, MS 183)",
+    "date": "c. 934",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Athelstan.jpg",
+    "note": "A near-contemporary image of Æthelstan, first king of all England and grandson of Alfred the Great; the dynasty had no single heraldic portrait."
+  },
+  "summary": "The West Saxon royal line that resisted the Vikings under Alfred the Great and united the English kingdoms into a single realm of England.",
+  "overview": "The House of Wessex, or Cerdicings, grew from a southern English kingdom into the ruling dynasty of a united England. Under Alfred the Great it survived the Viking onslaught; under his son and grandsons — Edward the Elder, Æthelstan, Edmund, and Edgar — it forged and governed the Kingdom of England, before the line was overwhelmed by Danish and Norman conquest in the eleventh century.",
+  "founder": {
+    "personSlug": "egbert-of-wessex",
+    "displayName": "Egbert of Wessex",
+    "note": "Secured West Saxon supremacy over the other English kingdoms in the 820s"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Wessex",
+      "type": "location",
+      "slug": "kingdom-of-wessex"
+    },
+    {
+      "name": "Kingdom of England",
+      "type": "location",
+      "slug": "kingdom-of-england"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "egbert-of-wessex",
+      "displayName": "Egbert",
+      "note": "Won overlordship of the southern English kingdoms"
+    },
+    {
+      "personSlug": "alfred-the-great",
+      "displayName": "Alfred the Great",
+      "note": "Defended Wessex against the Danes and reformed law and learning"
+    },
+    {
+      "personSlug": "edward-the-elder",
+      "displayName": "Edward the Elder",
+      "note": "Reconquered the Danelaw with his sister Æthelflæd"
+    },
+    {
+      "personSlug": "aethelstan",
+      "displayName": "Æthelstan",
+      "note": "First king of all England; victor of Brunanburh"
+    },
+    {
+      "personSlug": "edmund-i-of-england",
+      "displayName": "Edmund I",
+      "note": "Recovered the northern Danelaw"
+    },
+    {
+      "personSlug": "edgar-the-peaceful",
+      "displayName": "Edgar the Peaceful",
+      "note": "Presided over a consolidated, monastically reformed kingdom"
+    },
+    {
+      "personSlug": "aethelred-the-unready",
+      "displayName": "Æthelred the Unready",
+      "note": "His reign collapsed under renewed Viking invasion"
+    },
+    {
+      "personSlug": "edmund-ironside",
+      "displayName": "Edmund Ironside",
+      "note": "Fought Cnut for the throne in 1016"
+    },
+    {
+      "personSlug": "edward-the-confessor",
+      "displayName": "Edward the Confessor",
+      "note": "Last strong king of the old line; died childless in 1066"
+    }
+  ],
+  "familyTree": {
+    "caption": "The West Saxon royal line from Egbert through Alfred the Great to Edward the Confessor. Danish kings (Sweyn, Cnut) interrupted the line 1013–1042 and are not shown; ⚭ marks a marriage.",
+    "root": {
+      "name": "Egbert",
+      "personSlug": "egbert-of-wessex",
+      "note": "r. 802–839",
+      "children": [
+        {
+          "name": "Æthelwulf",
+          "note": "King of Wessex, r. 839–858",
+          "children": [
+            {
+              "name": "Æthelred I",
+              "personSlug": "aethelred-i-of-wessex",
+              "note": "r. 865–871",
+              "branch": "Died fighting the Danes"
+            },
+            {
+              "name": "Alfred the Great",
+              "personSlug": "alfred-the-great",
+              "note": "r. 871–899",
+              "spouse": {
+                "name": "Ealhswith",
+                "personSlug": "ealhswith"
+              },
+              "children": [
+                {
+                  "name": "Edward the Elder",
+                  "personSlug": "edward-the-elder",
+                  "note": "r. 899–924",
+                  "spouse": {
+                    "name": "Eadgifu of Kent",
+                    "personSlug": "eadgifu-of-kent"
+                  },
+                  "children": [
+                    {
+                      "name": "Æthelstan",
+                      "personSlug": "aethelstan",
+                      "note": "r. 924–939, unmarried"
+                    },
+                    {
+                      "name": "Edmund I",
+                      "personSlug": "edmund-i-of-england",
+                      "note": "r. 939–946",
+                      "children": [
+                        {
+                          "name": "Eadwig",
+                          "personSlug": "eadwig-of-england",
+                          "note": "r. 955–959"
+                        },
+                        {
+                          "name": "Edgar the Peaceful",
+                          "personSlug": "edgar-the-peaceful",
+                          "note": "r. 959–975",
+                          "children": [
+                            {
+                              "name": "Edward the Martyr",
+                              "personSlug": "edward-the-martyr",
+                              "note": "r. 975–978, murdered"
+                            },
+                            {
+                              "name": "Æthelred the Unready",
+                              "personSlug": "aethelred-the-unready",
+                              "note": "r. 978–1016",
+                              "spouse": {
+                                "name": "Emma of Normandy",
+                                "personSlug": "emma-of-normandy"
+                              },
+                              "children": [
+                                {
+                                  "name": "Edmund Ironside",
+                                  "personSlug": "edmund-ironside",
+                                  "note": "r. 1016",
+                                  "children": [
+                                    {
+                                      "name": "Edward the Exile",
+                                      "note": "d. 1057",
+                                      "children": [
+                                        {
+                                          "name": "Edgar Ætheling",
+                                          "note": "uncrowned claimant, 1066"
+                                        },
+                                        {
+                                          "name": "St Margaret",
+                                          "note": "Queen of Scots; ancestress of later kings"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Edward the Confessor",
+                                  "personSlug": "edward-the-confessor",
+                                  "note": "r. 1042–1066, no issue",
+                                  "spouse": {
+                                    "name": "Edith of Wessex",
+                                    "personSlug": "edith-of-wessex"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Eadred",
+                      "personSlug": "eadred-of-england",
+                      "note": "r. 946–955, childless"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty traced itself to Cerdic, the semi-legendary founder of Wessex around 500, though that early descent is chronicle tradition rather than secure history. Its firm rise begins with Egbert, who by the 820s had made Wessex the strongest of the southern English kingdoms and briefly won recognition as overlord of Mercia and Northumbria.",
+        "Wessex was one of several Anglo-Saxon kingdoms competing for dominance. What set the West Saxon house apart was not early supremacy but survival: when the Viking \"Great Heathen Army\" destroyed the other English royal lines in the 860s and 870s, Wessex alone endured to become the nucleus of a united kingdom."
+      ]
+    },
+    {
+      "title": "Alfred and the Viking wars",
+      "paragraphs": [
+        "Alfred the Great came to the throne in 871 as the Danes overran England. Driven into the Somerset marshes at Athelney, he rebuilt his forces and defeated the Danish leader Guthrum at the Battle of Edington in 878, securing a treaty that partitioned England along the Danelaw. He fortified a network of burhs, reorganised the army, issued a law code, and revived learning by translating Latin works into English.",
+        "Alfred styled himself king of the Anglo-Saxons rather than merely of Wessex, a deliberate claim to lead all the English not under Danish rule. That programme of defence, administration, and ideology gave his successors the platform to go on the offensive."
+      ]
+    },
+    {
+      "title": "Kings of the English",
+      "paragraphs": [
+        "Alfred’s son Edward the Elder, with his sister Æthelflæd of Mercia, reconquered the southern Danelaw. Edward’s son Æthelstan completed the work: he took York in 927, becoming the first king to rule all England, and crushed a combined Scottish, Norse, and Strathclyde army at the Battle of Brunanburh in 937.",
+        "Under Edmund I, Eadred, and above all Edgar the Peaceful, the kingdom was consolidated. Edgar’s reign saw a sweeping monastic reform led by Dunstan, Æthelwold, and Oswald, a reformed coinage, and a famous crowning at Bath in 973 that presented him as emperor of Britain."
+      ]
+    },
+    {
+      "title": "Danish conquest and restoration",
+      "paragraphs": [
+        "The murder of Edward the Martyr in 978 brought the young Æthelred the Unready to the throne. Renewed Viking raids, heavy Danegeld payments, and the massacre of St Brice’s Day in 1002 provoked full-scale invasion by Sweyn Forkbeard and then his son Cnut. After Æthelred’s death and the hard-fought reign of Edmund Ironside in 1016, the West Saxon line was displaced by the Danish kings.",
+        "The house was restored in 1042 when Edward the Confessor, Æthelred’s son, returned from exile in Normandy. Pious and increasingly detached from government, Edward left no heir, and his death in January 1066 opened the succession crisis that ended the dynasty."
+      ]
+    },
+    {
+      "title": "The end of the line and legacy",
+      "paragraphs": [
+        "Edward the Confessor’s death triggered a three-way contest between Harold Godwinson, Harald Hardrada of Norway, and Duke William of Normandy. Harold defeated the Norwegians at the Battle of Stamford Bridge but fell weeks later at the Battle of Hastings, and the Norman Conquest ended West Saxon rule. The last male claimant of the old line, Edgar Ætheling, was never securely crowned.",
+        "Yet the dynasty’s achievement outlasted it. The united Kingdom of England, its shires and hundreds, its coinage and law, and its very idea of a single English realm were West Saxon creations that the Norman and later kings inherited. Through Edmund Ironside’s granddaughter St Margaret of Scotland, the blood of the house also flowed back into the later English royal succession."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "802",
+      "title": "Egbert becomes king of Wessex",
+      "description": "The reign that would raise Wessex above its rivals begins.",
+      "links": [
+        {
+          "title": "Egbert",
+          "type": "person",
+          "slug": "egbert-of-wessex"
+        }
+      ]
+    },
+    {
+      "date": "871",
+      "title": "Alfred the Great accedes",
+      "description": "Alfred takes the throne amid the Viking Great Heathen Army’s onslaught.",
+      "links": [
+        {
+          "title": "Alfred the Great",
+          "type": "person",
+          "slug": "alfred-the-great"
+        }
+      ]
+    },
+    {
+      "date": "878",
+      "title": "Victory at Edington",
+      "description": "Alfred defeats Guthrum and secures the survival of Wessex.",
+      "links": [
+        {
+          "title": "Battle of Edington",
+          "type": "event",
+          "slug": "battle-of-edington"
+        }
+      ]
+    },
+    {
+      "date": "927",
+      "title": "Æthelstan unites England",
+      "description": "Æthelstan takes York and becomes the first king of all England.",
+      "links": [
+        {
+          "title": "Æthelstan",
+          "type": "person",
+          "slug": "aethelstan"
+        }
+      ]
+    },
+    {
+      "date": "937",
+      "title": "Battle of Brunanburh",
+      "description": "Æthelstan defeats a Norse-Scottish-Strathclyde coalition.",
+      "links": [
+        {
+          "title": "Battle of Brunanburh",
+          "type": "event",
+          "slug": "battle-of-brunanburh"
+        }
+      ]
+    },
+    {
+      "date": "973",
+      "title": "Edgar crowned at Bath",
+      "description": "A grand imperial coronation marks the height of the united kingdom.",
+      "links": [
+        {
+          "title": "Edgar the Peaceful",
+          "type": "person",
+          "slug": "edgar-the-peaceful"
+        }
+      ]
+    },
+    {
+      "date": "1016",
+      "title": "Danish conquest",
+      "description": "After Edmund Ironside’s death, Cnut takes the English throne.",
+      "links": [
+        {
+          "title": "Edmund Ironside",
+          "type": "person",
+          "slug": "edmund-ironside"
+        }
+      ]
+    },
+    {
+      "date": "1042",
+      "title": "Edward the Confessor restored",
+      "description": "The West Saxon line returns from Norman exile.",
+      "links": [
+        {
+          "title": "Edward the Confessor",
+          "type": "person",
+          "slug": "edward-the-confessor"
+        }
+      ]
+    },
+    {
+      "date": "1066",
+      "title": "Norman Conquest ends the dynasty",
+      "description": "Harold’s defeat at Hastings ends West Saxon rule of England.",
+      "links": [
+        {
+          "title": "Norman Conquest",
+          "type": "event",
+          "slug": "norman-conquest"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great",
+        "label": "Defender of Wessex"
+      },
+      {
+        "title": "Æthelstan",
+        "type": "person",
+        "slug": "aethelstan",
+        "label": "First king of all England"
+      },
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Reconquered the Danelaw"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Last king of the old line"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "Alfred’s decisive victory, 878"
+      },
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "Æthelstan secures England, 937"
+      },
+      {
+        "title": "Norman Conquest",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Ended the dynasty in 1066"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Ancestral realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The realm the house created"
+      },
+      {
+        "title": "Winchester Cathedral",
+        "type": "location",
+        "slug": "winchester-cathedral",
+        "label": "The dynasty's burial church and the old capital of its kingdom"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Wessex — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Wessex"
+    },
+    {
+      "title": "Anglo-Saxons — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Anglo-Saxon"
+    },
+    {
+      "title": "Kings and Queens of England — Alfred to Edward the Confessor (Royal Household)",
+      "author": "The Royal Household",
+      "type": "reference",
+      "url": "https://www.royal.uk/kings-and-queens-anglo-saxons"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wessex.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The golden wyvern, the emblem later associated with the kingdom of Wessex.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wessex.svg",
+    "note": "A modern flag rendering of the Wessex wyvern — an attributed emblem, not a documented early-medieval coat of arms."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "nogent-le-roi",
+  "type": "location",
+  "locationType": "Town",
+  "name": "Nogent-le-Roi",
+  "year": 1350,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Nogent_le_roi_saint_sulpice.jpg",
+  "summary": "A town where Philip VI of France died in 1350.",
+  "overview": [
+    "Nogent-le-Roi was a town in northern France associated with the death of Philip VI, the first Valois king.",
+    "His death in 1350 came after the opening disasters of the Hundred Years’ War and the arrival of plague."
+  ],
+  "knownFor": [
+    "Death of Philip VI",
+    "Valois monarchy",
+    "Hundred Years’ War context"
+  ],
+  "imageInfo": {
+    "caption": "Nogent-le-Roi in the Eure-et-Loir, royal estate where Philip VI of France died in 1350.",
+    "creator": "Jlancey",
+    "date": "2010-04-11",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nogent_le_roi_saint_sulpice.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Nogent-le-Roi in the Eure-et-Loir was a royal estate and small town in the contested landscape between the Capetian royal domain and Normandy. Philip VI of France died there in 1350."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Philip VI's death at Nogent-le-Roi closed the first Valois reign — a period defined by the disputed succession that started the Hundred Years' War, the English victories at Crécy and Calais, and the arrival of the Black Death in 1348. He left John II a kingdom strained by military defeat, financial pressure, and demographic catastrophe."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Nogent-le-Roi",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Nogent-le-Roi_-_%C3%A9glise_Saint-Sulpice.jpg"
+    },
+    {
+      "title": "Nogent-le-Roi reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Nogent-le-Roi"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Death of Philip VI of France"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Realm of Philip VI of France"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "saleph-river",
+  "type": "location",
+  "locationType": "River",
+  "name": "Saleph River",
+  "year": 1190,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Barbarossa-G%C3%B6ksu.jpg",
+  "summary": "The river in Cilicia traditionally associated with Frederick Barbarossa’s drowning in 1190.",
+  "overview": [
+    "The Saleph River, often identified with the Goksu in Cilicia, is traditionally associated with the death of Frederick I Barbarossa during the Third Crusade.",
+    "His drowning in 1190 shocked the crusading army and weakened the German expedition."
+  ],
+  "knownFor": [
+    "Death of Frederick Barbarossa",
+    "Third Crusade route",
+    "Cilician geography"
+  ],
+  "imageInfo": {
+    "caption": "The Göksu (Saleph) River in Cilicia, where Frederick I Barbarossa drowned in 1190.",
+    "creator": "No machine-readable author provided. Hoysoman~commonswiki assumed (based on copyright claims).",
+    "date": "4 January 2006 (original upload date)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbarossa-G%C3%B6ksu.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Saleph (Göksu) River in Cilicia (modern southern Turkey) was the site where Frederick I Barbarossa, Holy Roman Emperor and leader of the German crusade army, drowned in June 1190 while crossing. His death was one of the most consequential events of the Third Crusade."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Frederick's drowning at the Saleph devastated the large German crusading force. Much of his army dispersed after his death; only a remnant continued to the Holy Land under his son Frederick of Swabia. The collapse of the German contingent left Richard I of England and Philip II of France as the dominant leaders of the Third Crusade and contributed to its failure to retake Jerusalem."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Saleph River",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:G%C3%B6ksu_River.jpg"
+    },
+    {
+      "title": "Saleph River reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/G%C3%B6ksu_River"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Death of Frederick I Barbarossa"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Realm of Frederick I Barbarossa"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano"
+      }
+    ]
+  }
+}

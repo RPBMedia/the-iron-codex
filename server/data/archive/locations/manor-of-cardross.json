@@ -1,0 +1,85 @@
+{
+  "id": "manor-of-cardross",
+  "type": "location",
+  "locationType": "Royal residence",
+  "name": "Manor of Cardross",
+  "year": 1329,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Scotland_Dumbarton_Castle_bordercropped.jpg",
+  "summary": "The residence near where Robert the Bruce died in 1329.",
+  "overview": [
+    "The Manor of Cardross was a royal residence near the River Clyde associated with Robert the Bruce’s final years.",
+    "Bruce died there in 1329 after securing a stronger Scottish monarchy."
+  ],
+  "knownFor": [
+    "Death of Robert the Bruce",
+    "Scottish royal residence",
+    "Wars of Scottish Independence aftermath"
+  ],
+  "imageInfo": {
+    "caption": "The Clyde estuary region near Cardross, where Robert the Bruce died in 1329.",
+    "creator": "Wikimedia Commons",
+    "date": "2006-03-03 17:41:17",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scotland_Dumbarton_Castle_bordercropped.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Cardross near the Clyde estuary in Scotland was a royal manor where Robert the Bruce spent his final years and died in June 1329. The manor was his preferred residence during his last period of illness."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Robert's death at Cardross ended the reign of the king who had secured Scottish independence through the Declaration of Arbroath (1320) and the Treaty of Edinburgh-Northampton (1328), by which England recognized Scottish sovereignty. His heart was removed after death and taken on crusade by James Douglas, part of a tradition of vow-fulfillment by proxy."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Manor of Cardross",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Cardross_Parish_Church.jpg"
+    },
+    {
+      "title": "Manor of Cardross reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Cardross,_Argyll_and_Bute"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Death of Robert the Bruce"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Realm of Robert the Bruce"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      }
+    ]
+  }
+}

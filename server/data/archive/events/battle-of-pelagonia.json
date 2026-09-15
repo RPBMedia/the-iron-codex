@@ -1,0 +1,233 @@
+{
+  "id": "battle-of-pelagonia",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Pelagonia",
+  "aliases": [
+    "Battle of Kastoria"
+  ],
+  "year": 1259,
+  "location": "The plain of Pelagonia, in Macedonia",
+  "eventLocation": "The plain of Pelagonia near Kastoria, in western Macedonia",
+  "conflict": "The wars of the Byzantine successor states",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greece%20in%201210.svg",
+  "imageInfo": {
+    "caption": "The Greek world after the Fourth Crusade: the Latin Empire, the Principality of Achaea, Epirus and the Byzantine successor states that fought over the wreckage.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of Greece around 1210",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greece_in_1210.svg",
+    "note": "A modern map, dated half a century before the battle, and used because it shows what the battle was about: a Byzantine world broken into pieces, each of which claimed to be the real one. Public domain."
+  },
+  "summary": "In 1259 the army of Nicaea destroyed a coalition of Epirus, Achaea and Sicily at Pelagonia, capturing the prince of Achaea and opening the road to Constantinople.",
+  "details": "The battle that decided which of the Byzantine successor states would restore the empire.",
+  "outcome": "Decisive Nicaean victory; William II of Villehardouin captured and the western coalition destroyed.",
+  "background": "Michael VIII of Nicaea faced an alliance of every power that did not want him to take Constantinople.",
+  "battle": "The coalition fell apart before the fighting: Epirus withdrew in the night, and the Frankish knights were left to fight alone.",
+  "aftermath": "William II bought his freedom by ceding Mystras, Monemvasia and Maina — the nucleus of the later Byzantine Morea.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "After the Fourth Crusade took Constantinople in 1204, the Byzantine world broke into pieces: a Latin Empire in the capital, Greek successor states at Nicaea, in Epirus and at Trebizond, and a scatter of crusader principalities in Greece.",
+        "By 1259 the Empire of Nicaea under Michael VIII Palaiologos was the strongest of them and was clearly preparing to take Constantinople back. Everyone who preferred that not to happen made an alliance: Michael II of Epirus, William II of Villehardouin, prince of Achaea, and Manfred of Sicily.",
+        "They met the Nicaean army under Michael's brother John Palaiologos on the plain of Pelagonia in Macedonia. The coalition collapsed before the battle and was destroyed in it, and two years later Constantinople was Byzantine again."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Empire of Nicaea had spent fifty years rebuilding: John III Vatatzes had restored its finances and pushed its frontier into Europe, and by the 1250s it held Thessalonica and much of Thrace and Macedonia.",
+        "Michael VIII had taken power at Nicaea in 1258 as regent and then co-emperor for the child John IV Laskaris, in a coup that is the beginning of the archive's difficulty with him.",
+        "The coalition against him was an alliance of convenience between people with nothing else in common: a Greek despot who claimed the imperial title himself, a French prince of the Morea, and the illegitimate son of Frederick II ruling Sicily. It held together for exactly one campaign."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The armies faced each other on the plain in the summer of 1259. What happened next is disputed in detail and clear in outline: the allies quarrelled, and Michael II of Epirus withdrew his forces in the night — the Byzantine sources say he was outmanoeuvred by Nicaean disinformation, and it is at least clear that he judged the alliance not worth dying for.",
+        "That left the Frankish knights of Achaea and the German troops Manfred had sent to fight without their Greek contingent. The Nicaean army, strong in horse archers, engaged on ground of its choosing.",
+        "The Frankish cavalry was destroyed and William II of Villehardouin was taken prisoner — found, according to the Chronicle of the Morea, hiding under a haystack and identified by his prominent teeth."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The immediate consequence was strategic. The only coalition capable of stopping a Nicaean move on Constantinople had been destroyed, and Michael VIII was free to act. Alexios Strategopoulos took the city two years later.",
+        "The consequence for Greece was more durable. William II spent three years in captivity and bought his freedom in 1262 by ceding the fortresses of Mystras, Monemvasia and Maina in the south-eastern Morea.",
+        "Those three castles became the nucleus of Byzantine power in the Peloponnese and grew into the Despotate of the Morea, which outlasted Constantinople itself by seven years — falling to the Ottomans in 1460."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Pelagonia decided which Greek state would restore the empire. Epirus had a claim as good as Nicaea's and had held Thessalonica and an imperial title of its own thirty years earlier; after 1259 it was a regional power and nothing more.",
+        "It also set the shape of the following two centuries in Greece. The Franks of the Morea never recovered their dominance, the Byzantines had a foothold at Mystras that became a capital and a centre of late Byzantine culture, and the two coexisted in the Peloponnese until the Ottomans removed both.",
+        "And it made the restoration possible without making it secure. Michael VIII got Constantinople because of Pelagonia, and spent the rest of his reign defending it against the western powers whose army he had destroyed here."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1204",
+      "title": "The empire broken",
+      "description": "The Fourth Crusade takes Constantinople and the Byzantine world fragments into rival successor states."
+    },
+    {
+      "date": "1258",
+      "title": "Michael VIII takes power at Nicaea",
+      "description": "He becomes regent and then co-emperor for the child John IV Laskaris."
+    },
+    {
+      "date": "1259",
+      "title": "The coalition forms",
+      "description": "Epirus, Achaea and Sicily ally to prevent a Nicaean recovery of Constantinople."
+    },
+    {
+      "date": "1259",
+      "title": "Epirus withdraws",
+      "description": "Michael II pulls his forces out before the battle, leaving the Franks to fight alone."
+    },
+    {
+      "date": "1259",
+      "title": "Pelagonia",
+      "description": "The Nicaean army destroys the coalition and captures William II of Villehardouin."
+    },
+    {
+      "date": "1261",
+      "title": "Constantinople recovered",
+      "description": "With no coalition left to stop him, Michael VIII takes the capital.",
+      "links": [
+        {
+          "title": "Recovery of Constantinople",
+          "type": "event",
+          "slug": "recovery-of-constantinople"
+        }
+      ]
+    },
+    {
+      "date": "1262",
+      "title": "Mystras ceded",
+      "description": "William buys his freedom with three Moreot fortresses that become the Byzantine Despotate of the Morea."
+    }
+  ],
+  "participants": [
+    {
+      "side": "Empire of Nicaea",
+      "factions": [
+        {
+          "name": "Empire of Nicaea",
+          "title": "Empire of Nicaea",
+          "type": "location",
+          "slug": "empire-of-nicaea"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John Palaiologos",
+          "note": "No article: the emperor's brother, who commanded the army at Pelagonia. Michael VIII was not present. No image of him survives."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a Nicaean field army strong in horse archers and mercenaries",
+        "confidence": "unknown",
+        "note": "The sources describe the composition — Cuman and Turkish horse archers, Latin mercenaries, Byzantine cavalry — rather than the numbers."
+      }
+    },
+    {
+      "side": "The western coalition",
+      "factions": [
+        {
+          "name": "Principality of Achaea",
+          "title": "Principality of Achaea",
+          "type": "location",
+          "slug": "principality-of-achaea"
+        },
+        {
+          "name": "Despotate of Epirus",
+          "title": "Despotate of Epirus",
+          "type": "location",
+          "slug": "despotate-of-epirus"
+        },
+        {
+          "name": "Kingdom of Sicily",
+          "title": "Kingdom of Sicily",
+          "type": "location",
+          "slug": "kingdom-of-sicily"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William II of Villehardouin",
+          "note": "No article: the prince of Achaea, captured in the battle and ransomed for three fortresses. No image of him survives beyond his coinage."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; Frankish knights of the Morea, German troops from Sicily, and an Epirote contingent that left before the fighting",
+        "confidence": "unknown",
+        "note": "The withdrawal of the Epirote force before the battle matters more than any figure, and it is the one thing every account agrees on."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue to the power that would take it all",
+    "battleSlug": "battle-of-bapheus",
+    "relationship": "same-region",
+    "reason": "Pelagonia decided which Greek state would restore the empire; Bapheus, forty-three years later, was the first field victory of the state that would end it."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Michael VIII Palaiologos",
+        "type": "person",
+        "slug": "michael-viii-palaiologos",
+        "label": "Whose brother commanded, and whose restoration it made possible"
+      }
+    ],
+    "events": [
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "Two years later, and only possible because of this"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Empire of Nicaea",
+        "type": "location",
+        "slug": "empire-of-nicaea",
+        "label": "The victor"
+      },
+      {
+        "title": "Principality of Achaea",
+        "type": "location",
+        "slug": "principality-of-achaea",
+        "label": "Whose prince was captured here"
+      },
+      {
+        "title": "Despotate of Epirus",
+        "type": "location",
+        "slug": "despotate-of-epirus",
+        "label": "Which withdrew before the fighting"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "George Akropolites, History",
+      "url": "https://en.wikipedia.org/wiki/George_Akropolites",
+      "type": "primary source"
+    },
+    {
+      "title": "The Chronicle of the Morea",
+      "url": "https://en.wikipedia.org/wiki/Chronicle_of_the_Morea",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Pelagonia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Pelagonia",
+      "type": "encyclopedia"
+    }
+  ]
+}

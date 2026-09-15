@@ -1,0 +1,79 @@
+{
+  "type": "location",
+  "locationType": "Castle town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Valdemar dynasty",
+    "Danish royal castle",
+    "Law of Jutland context"
+  ],
+  "overview": [
+    "A Danish royal castle town associated with Valdemar I and Valdemar II."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Vordingborg on the southern tip of Zealand was one of medieval Denmark's most important royal fortresses, guarding sea routes between Denmark and Germany. Valdemar I of Denmark died there in 1182 after a reign that consolidated Danish royal power across Scandinavia."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The castle at Vordingborg remained a major administrative and military center through the Valdemar dynasty. Valdemar IV Atterdag undertook significant construction there in the fourteenth century, making it one of the largest medieval fortifications in Scandinavia."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Vordingborg",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Vordingborg_G%C3%A5set%C3%A5rnet.jpg"
+    },
+    {
+      "title": "Vordingborg reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Vordingborg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Valdemar I of Denmark",
+        "type": "person",
+        "slug": "valdemar-i-of-denmark",
+        "label": "Death of Valdemar I of Denmark"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Death of Valdemar II of Denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "vordingborg",
+  "name": "Vordingborg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/GoosetowerVordingborg.JPG",
+  "summary": "A Danish royal castle town associated with Valdemar I and Valdemar II.",
+  "imageInfo": {
+    "caption": "The Goose Tower at Vordingborg, surviving fragment of the medieval Danish royal fortress.",
+    "creator": "Elgaard",
+    "date": "2015-05-24",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GoosetowerVordingborg.JPG",
+    "license": "CC BY-SA 4.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

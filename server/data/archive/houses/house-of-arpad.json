@@ -1,0 +1,207 @@
+{
+  "id": "house-of-arpad",
+  "type": "house",
+  "name": "Árpád dynasty",
+  "aliases": [
+    "Árpád",
+    "Arpad",
+    "Árpáds",
+    "House of Árpád",
+    "Arpad dynasty",
+    "Árpád dynasty"
+  ],
+  "originYear": 1000,
+  "endYear": 1301,
+  "reignSpan": "1000–1301",
+  "region": "Kingdom of Hungary",
+  "originPlace": "Pannonia (the Carpathian basin)",
+  "arms": "Horizontal bars of red and silver — the “Árpád stripes”, one of the oldest emblems of Hungary.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A9la%20IV%20(Chronicon%20Pictum%20126).jpg?width=1000",
+  "imageInfo": {
+    "caption": "King Béla IV of Hungary, who rebuilt the kingdom after the Mongol invasion, in the 14th-century Illuminated Chronicle.",
+    "creator": "Chronicon Pictum (Illuminated Chronicle)",
+    "date": "c. 1360",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%C3%A9la_IV_(Chronicon_Pictum_126).jpg",
+    "note": "A later Hungarian royal-chronicle depiction of Béla IV, \"second founder\" of the kingdom."
+  },
+  "summary": "The founding dynasty of Christian Hungary, from Saint Stephen to the rebuilding of the kingdom after the Mongol invasion.",
+  "overview": "The Árpád dynasty, named for the Magyar chieftain who led the conquest of the Carpathian basin, gave Hungary its first Christian king in Saint Stephen around 1000 and ruled for three centuries. Its later kings issued the Golden Bull, survived the catastrophic Mongol invasion, and under Béla IV rebuilt the country before the male line failed in 1301.",
+  "founder": {
+    "displayName": "Árpád",
+    "note": "Magyar chieftain who led the conquest of the Carpathian basin, c. 895 (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "emeric-of-hungary",
+      "displayName": "Emeric",
+      "note": "King during the dynasty’s high medieval expansion"
+    },
+    {
+      "personSlug": "andrew-ii-of-hungary",
+      "displayName": "Andrew II",
+      "note": "Issued the Golden Bull of 1222"
+    },
+    {
+      "personSlug": "bela-iv-of-hungary",
+      "displayName": "Béla IV",
+      "note": "Rebuilt Hungary after the Mongol invasion"
+    }
+  ],
+  "familyTree": {
+    "caption": "The later Árpád kings shown here descend from Béla III: his sons Emeric and Andrew II, and Andrew’s son Béla IV. The dynasty traced its origin to the Magyar chieftain Árpád and its royal line to Saint Stephen.",
+    "root": {
+      "name": "Béla III",
+      "note": "King of Hungary, d. 1196",
+      "children": [
+        {
+          "name": "Emeric",
+          "personSlug": "emeric-of-hungary",
+          "note": "r. 1196–1204"
+        },
+        {
+          "name": "Andrew II",
+          "personSlug": "andrew-ii-of-hungary",
+          "note": "r. 1205–1235",
+          "children": [
+            {
+              "name": "Béla IV",
+              "personSlug": "bela-iv-of-hungary",
+              "note": "r. 1235–1270"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty is named for Árpád, the Magyar chieftain who according to tradition led the Hungarian tribes into the Carpathian basin around 895. A century later his descendant Géza and Géza’s son Stephen turned the pagan Magyar confederation into a Christian kingdom.",
+        "Crowned around 1000 with a crown said to have been sent by the pope, Saint Stephen founded bishoprics, imposed Christianity, and organised Hungary into counties, making the Árpáds the founders of the Hungarian state."
+      ]
+    },
+    {
+      "title": "The high medieval kingdom",
+      "paragraphs": [
+        "Over the following two centuries the Árpáds expanded into Croatia and Transylvania and drew Hungary into the politics of central Europe and the Crusades. Royal power was increasingly contested by a rising nobility.",
+        "In 1222 Andrew II was forced to grant the Golden Bull, a charter of noble liberties often compared to England’s Magna Carta, which limited royal power and asserted the rights of the nobility."
+      ]
+    },
+    {
+      "title": "The Mongol catastrophe",
+      "paragraphs": [
+        "In 1241 the Mongols invaded and shattered the Hungarian army at the Battle of Mohi, and Béla IV fled to the Adriatic coast as the country was devastated. When the Mongols withdrew the following year, Béla returned to a ruined kingdom.",
+        "He rebuilt Hungary so thoroughly — founding stone castles, fortifying towns, and inviting settlers — that he is remembered as the \"second founder\" of the state."
+      ]
+    },
+    {
+      "title": "End of the line and legacy",
+      "paragraphs": [
+        "The last Árpád kings struggled against overmighty nobles, and in 1301 the male line ended with Andrew III, plunging Hungary into a war of succession from which the Angevin Charles Robert eventually emerged as king.",
+        "The Árpáds left Hungary a Christian kingdom with its church, counties, and law, and their cult of royal saints — Saint Stephen, Saint Ladislaus, Saint Elizabeth — shaped Hungarian identity for centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1000",
+      "title": "Saint Stephen crowned",
+      "description": "The first Christian king founds the Hungarian kingdom."
+    },
+    {
+      "date": "1222",
+      "title": "The Golden Bull",
+      "description": "Andrew II grants a charter of noble liberties.",
+      "links": [
+        {
+          "title": "Andrew II",
+          "type": "person",
+          "slug": "andrew-ii-of-hungary"
+        }
+      ]
+    },
+    {
+      "date": "1241",
+      "title": "Battle of Mohi",
+      "description": "The Mongols destroy the Hungarian army and devastate the kingdom.",
+      "links": [
+        {
+          "title": "Battle of Mohi",
+          "type": "event",
+          "slug": "battle-of-mohi"
+        }
+      ]
+    },
+    {
+      "date": "1301",
+      "title": "End of the Árpád line",
+      "description": "Andrew III dies without a male heir.",
+      "links": [
+        {
+          "title": "Béla IV",
+          "type": "person",
+          "slug": "bela-iv-of-hungary"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Andrew II",
+        "type": "person",
+        "slug": "andrew-ii-of-hungary",
+        "label": "Issued the Golden Bull"
+      },
+      {
+        "title": "Béla IV",
+        "type": "person",
+        "slug": "bela-iv-of-hungary",
+        "label": "Rebuilt Hungary after the Mongols"
+      },
+      {
+        "title": "Emeric",
+        "type": "person",
+        "slug": "emeric-of-hungary",
+        "label": "High medieval king"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi",
+        "label": "The Mongol catastrophe, 1241"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Árpád dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/%C3%81rp%C3%A1d_dynasty"
+    },
+    {
+      "title": "Hungary: The Árpáds — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Hungary/The-Arpad-dynasty"
+    },
+    {
+      "title": "Béla IV — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Bela-IV"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coa%20Hungary%20Country%20History%20(855-1301).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Árpád stripes — the red-and-silver barry that is one of the oldest arms of Hungary.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coa_Hungary_Country_History_(855-1301).svg",
+    "note": "Heraldic rendering (SVG) of the historical Árpád arms, not a surviving medieval object."
+  }
+}

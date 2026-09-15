@@ -1,0 +1,114 @@
+{
+  "id": "treaty-of-zamora",
+  "type": "event",
+  "name": "Treaty of Zamora",
+  "year": 1143,
+  "location": "Zamora, on the Duero",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tratado_(21238137571).jpg",
+  "imageInfo": {
+    "caption": "Azulejo tile panel commemorating the Treaty of Zamora of 1143, by which Alfonso VII of León recognised Afonso Henriques's royal rule in Portugal.",
+    "creator": "Portuguese azulejo tradition",
+    "date": "modern commemorative panel",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tratado_(21238137571).jpg",
+    "note": "A modern commemorative image; the treaty itself survives only through chronicle and charter evidence."
+  },
+  "summary": "At Zamora in October 1143, in the presence of a papal legate, Alfonso VII of León-Castile recognised his cousin Afonso Henriques as king in Portugal — the diplomatic charter of Portuguese independence.",
+  "details": "The meeting of the two cousins at Zamora on 4–5 October 1143, brokered by Cardinal Guido de Vico, converted battlefield reality into legal form: Afonso Henriques held Portugal as king, with a nominal deference to the Leonese emperor that his diplomacy immediately set about dissolving by placing Portugal under the direct protection of the papacy for an annual census. Full papal recognition of the royal title waited until Manifestis Probatum in 1179.",
+  "eventType": "Treaty",
+  "conflict": "Portuguese struggle for autonomy from León",
+  "factions": [
+    "Kingdom of Portugal",
+    "Kingdom of León"
+  ],
+  "leaders": [
+    {
+      "name": "Afonso Henriques",
+      "faction": "Portugal",
+      "personId": "afonso-i-of-portugal"
+    },
+    {
+      "name": "Alfonso VII of León-Castile",
+      "faction": "León"
+    },
+    {
+      "name": "Cardinal Guido de Vico, papal legate",
+      "faction": "Papacy"
+    }
+  ],
+  "outcome": "Leonese recognition of Afonso Henriques's kingship in Portugal; Portugal commended itself to the papacy.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Treaty of Zamora of October 1143 is the diplomatic birth certificate of Portugal — the moment the neighbouring power that mattered recognised Afonso Henriques's royal rule. The two cousins, the self-made king and the Leonese emperor Alfonso VII, met at Zamora on the Duero with the papal legate Cardinal Guido de Vico presiding, and closed a war that had run alongside their whole adult lives.",
+        "The settlement's genius was its ambiguity. Afonso was king — Alfonso VII, who had taken the imperial title at León in 1135 precisely to preside over other kings, could tolerate a royal cousin as he tolerated royal vassals in Navarre and Zaragoza. Afonso Henriques, for his part, conceded ceremonial deference and, that same December, performed his master-stroke: commending Portugal directly to Saint Peter, as a censual vassal of the papacy at four ounces of gold a year — an overlord conveniently in Rome, invoked precisely to exclude the one in León."
+      ]
+    },
+    {
+      "title": "Terms and context",
+      "paragraphs": [
+        "No text of the treaty survives; its content is reconstructed from the chronicles and from what changed in the documents after it. Afonso Henriques's chancery had used rex since Ourique in 1139; after Zamora, Leonese documents stop contesting it. The border war along the Minho and the Duero paused. And the legate's presence tied the settlement to the wider peace Rome was imposing on the peninsula's Christian kings in crusading years.",
+        "The papal commendation of December 1143 (the letter Claves regni) began a thirty-six-year diplomatic campaign at the curia. The popes accepted Portugal's census and protection while carefully addressing Afonso as dux — until 1179, when Alexander III's bull Manifestis Probatum finally granted the royal title in full, sealing at Rome what Zamora had conceded on the Duero. Legal independence was not an event but a process; Zamora was its hinge."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Tratado_(21238137571).jpg"
+    },
+    {
+      "title": "Treaty of Zamora — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Zamora"
+    },
+    {
+      "title": "Manifestis Probatum (1179) and the papal-Portuguese correspondence",
+      "author": "Papal chancery / Portuguese royal chancery",
+      "type": "primary source",
+      "note": "The documentary arc from the 1143 commendation to full recognition in 1179."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "The king recognised"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom legalised"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "The overlord that let go"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ourique",
+        "type": "event",
+        "slug": "battle-of-ourique",
+        "label": "The victory that made the title"
+      },
+      {
+        "title": "Siege of Lisbon",
+        "type": "event",
+        "slug": "siege-of-lisbon",
+        "label": "The conquest that followed the recognition"
+      }
+    ]
+  }
+}

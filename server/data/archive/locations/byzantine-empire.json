@@ -1,0 +1,424 @@
+{
+  "id": "byzantine-empire",
+  "type": "location",
+  "locationType": "Empire",
+  "name": "Byzantine Empire",
+  "year": 330,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_Byzantine_Empire_1025-en.svg?width=1600",
+  "summary": "The eastern Roman Empire centered on Constantinople until its fall in 1453.",
+  "overview": [
+    "The Byzantine Empire was Rome continued: the eastern empire ruling from Constantine's city for over a millennium (330–1453), Greek in tongue, Roman in law and title, Orthodox in faith — Justinian's codification and Hagia Sophia its early summits, the theme-system its medieval survival kit.",
+    "Its medieval arc swings vast: Heraclius's Persian victory devoured by the Arab conquests; iconoclasm's century; the Macedonian apogee under Basil II; Manzikert (1071) opening Anatolia to the Turks; Komnenian restoration entangled with the crusades it summoned; the Fourth Crusade's sack (1204) and Palaiologan recovery (1261) of a shrinking realm — until Mehmed II's guns ended it on 29 May 1453."
+  ],
+  "knownFor": [
+    "Rome's eastern continuation: 330–1453",
+    "Justinian's law, Hagia Sophia, and Greek fire",
+    "Basil II's apogee and the Orthodox commonwealth",
+    "Manzikert (1071) and the 1204 sack",
+    "The Fall of Constantinople, 29 May 1453"
+  ],
+  "aliases": [
+    "Eastern Roman Empire",
+    "Byzantium"
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alexios I Komnenos",
+        "type": "person",
+        "slug": "alexios-i-komnenos"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes"
+      },
+      {
+        "title": "Constantine XI Palaiologos",
+        "type": "person",
+        "slug": "constantine-xi-palaiologos"
+      },
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "The conqueror"
+      },
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Emperor 610–641; defeated Persia and lost the east to the Arabs"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Emperor 717–741; held the city and began iconoclasm"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Emperor 963–969; took Crete, Cilicia, Cyprus and Antioch"
+      },
+      {
+        "title": "Basil II",
+        "type": "person",
+        "slug": "basil-ii",
+        "label": "Emperor 976–1025; the longest reign in Byzantine history"
+      },
+      {
+        "title": "Michael VIII Palaiologos",
+        "type": "person",
+        "slug": "michael-viii-palaiologos",
+        "label": "Recovered Constantinople and founded the last dynasty"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The successor at the walls"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Manzikert's victors"
+      },
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "The commonwealth's northern convert"
+      },
+      {
+        "title": "Avar Khaganate",
+        "type": "location",
+        "slug": "avar-khaganate",
+        "label": "The steppe power it paid tribute to for fifty years"
+      },
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Its eastern adversary from 750 to the eleventh century"
+      },
+      {
+        "title": "Emirate of Crete",
+        "type": "location",
+        "slug": "emirate-of-crete",
+        "label": "The corsair state that held its Aegean for 135 years"
+      },
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "Its last organised opponent in northern Syria"
+      },
+      {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Its eastern capital from 969 to 1084"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Its European rival for three and a half centuries"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople"
+      },
+      {
+        "title": "Battle of Nineveh",
+        "type": "event",
+        "slug": "battle-of-nineveh",
+        "label": "The victory that saved the empire from Persia in 627"
+      },
+      {
+        "title": "Siege of Constantinople (626)",
+        "type": "event",
+        "slug": "siege-of-constantinople-626",
+        "label": "The siege it survived without its emperor in 626"
+      },
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The twelve-month Umayyad siege it survived in 717–718"
+      },
+      {
+        "title": "Battle of Akroinon",
+        "type": "event",
+        "slug": "battle-of-akroinon",
+        "label": "The last great Umayyad invasion of Anatolia, destroyed in 740"
+      },
+      {
+        "title": "Battle of Lalakaon",
+        "type": "event",
+        "slug": "battle-of-lalakaon",
+        "label": "Where the eastern frontier turned in its favour, in 863"
+      },
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "Where the reconquest of the tenth century began, in 961"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "The high-water mark of the eastern reconquest, in 969"
+      },
+      {
+        "title": "Battle of Kleidion",
+        "type": "event",
+        "slug": "battle-of-kleidion",
+        "label": "Where the Bulgarian war was decided, in 1014"
+      },
+      {
+        "title": "Battle of Levounion",
+        "type": "event",
+        "slug": "battle-of-levounion",
+        "label": "Where the Pechenegs were destroyed in 1091"
+      },
+      {
+        "title": "Battle of Sirmium",
+        "type": "event",
+        "slug": "battle-of-sirmium",
+        "label": "Its greatest European extent since the eleventh century"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "Where the empire was restored in 1261 after fifty-seven years"
+      },
+      {
+        "title": "Fall of the Western Roman Empire",
+        "type": "event",
+        "slug": "fall-of-western-rome",
+        "label": "The western half ends in 476; this archive follows the half that did not"
+      }
+    ]
+  },
+  "imageInfo": {
+    "caption": "Modern map of the Byzantine Empire at the death of Basil II in 1025, reaching from southern Italy and the Danube to Armenia and northern Syria.",
+    "creator": "Nécropotame and Cplakidas, Wikimedia Commons contributors",
+    "date": "French original 2006, English version 2008; shows 1025",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_Byzantine_Empire_1025-en.svg",
+    "note": "A modern reconstruction, not a medieval document. It shows the empire at its greatest medieval extent, after the conquest of Samuel's Bulgaria (inside the dashed line) and before Manzikert in 1071; hatched areas are gains made after 1025 with their dates, such as Edessa in 1032 and Ani in 1045, and Aleppo is marked as a protectorate. The file names no data source and its borders are approximate. Licensed CC BY-SA 2.5."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Byzantine Empire was Rome continued: the eastern empire ruling from Constantine's city for over a millennium (330–1453), Greek in tongue, Roman in law and title, Orthodox in faith — Justinian's codification and Hagia Sophia its early summits, the theme-system its medieval survival kit.",
+        "Its medieval arc swings vast: Heraclius's Persian victory devoured by the Arab conquests; iconoclasm's century; the Macedonian apogee under Basil II; the Battle of Manzikert (1071) opening Anatolia to the Turks; Komnenian restoration entangled with the crusades it summoned; the Fourth Crusade's sack (1204) and Palaiologan recovery (1261) of a shrinking realm — until Mehmed II's guns ended it at the Fall of Constantinople, 29 May 1453."
+      ]
+    },
+    {
+      "title": "Background and early medieval survival",
+      "paragraphs": [
+        "Constantine founded the city (330) and Theodosius's heirs split the administration for good (395); the east, richer and walled, survived the west's fall and under Justinian (527–565) counter-attacked — Belisarius's Africa and Italy, the Corpus Juris Civilis, Hagia Sophia's dome — before plague and Persian wars spent the surplus.",
+        "The seventh century remade it or nothing would remain: Heraclius destroyed Persia (Nineveh, 627) only to lose Syria, Egypt, and Africa to the Arab caliphate within a generation; Constantinople itself held the sieges of 674–678 and 717–718 — Greek fire and the Theodosian walls saving, arguably, Europe. The response was systemic: themes settling soldier-farmers under strategoi, Greek replacing Latin, the empire hardening into its medieval form — smaller, militarised, and indestructible for centuries."
+      ]
+    },
+    {
+      "title": "Iconoclasm to apogee",
+      "paragraphs": [
+        "The iconoclast controversy (726–787, 815–843) fused theology and politics — emperors against images, monks and empresses for them — ending with Orthodoxy's \"Triumph\" (843) and a self-definition (icons, liturgy, Roman order) exported wholesale: Cyril and Methodius to the Slavs (863), Bulgaria converted (864), and in 988 Vladimir of Kiev's baptism marrying Rus' to Byzantium — the \"commonwealth\" of Orthodox nations born.",
+        "The Macedonian dynasty (867–1056) rode reconquest to apogee: Nikephoros Phokas and John Tzimiskes retaking Crete, Cilicia, Antioch; Basil II (976–1025) grinding Bulgaria to annexation (1018, \"Bulgar-slayer\") and leaving the treasury full, the frontiers at the Danube and Euphrates — and the succession fatally unarranged: fifty years of court mismanagement squandered it into Manzikert's decade."
+      ]
+    },
+    {
+      "title": "Crusades, catastrophe, and the long end",
+      "paragraphs": [
+        "Manzikert (1071) and the civil wars after let the Seljuks settle Anatolia — the recruiting heartland — while Normans took Italy's last themes (Bari, 1071). Alexios I Komnenos rebuilt through alliance: his appeal helped summon the First Crusade, whose passage recovered Nicaea and the coasts but planted Latin states with Byzantine claims — a century of Komnenian management (John II's campaigns, Manuel's ambitions) ending at Myriokephalon (1176) and, after the dynasty's fall, in catastrophe: the Fourth Crusade, diverted by Venice and exiled princes, stormed and sacked Constantinople (12–13 April 1204), partitioning the empire into Latin fiefs.",
+        "The Greek successor-states (Nicaea, Epirus, Trebizond) kept the flame; Michael VIII Palaiologos retook the city (1261) and refounded an empire that was thereafter a great name defending shrinking ground: Catalan companies and civil wars, the Ottoman crossing at Gallipoli (1354), Bayezid's blockade broken only by Timur at Ankara (1402), union offered at Florence (1439) for help that died at Varna (1444) — until Mehmed II's two-month siege ended it: Constantine XI Palaiologos falling at the walls on 29 May 1453, the city becoming an Ottoman capital, and \"Rome\" — after 2,206 years by its own count — passing into memory and claim."
+      ]
+    },
+    {
+      "title": "Political structure and rule",
+      "paragraphs": [
+        "Byzantium was medieval Europe's only bureaucratic state: an emperor \"crowned by God\" (and made by army, senate, and mob in practice — dynasties changed by acclamation and blinding), a salaried civil service of logothetes and themes' governors, Roman law continuously updated (Justinian's Corpus, the Ecloga, Basil I's Basilika), gold coinage (the nomisma) stable for seven centuries, and a diplomatic service whose bribes, marriages, and ceremony (the Book of Ceremonies codifying awe) were weapons as real as the tagmata.",
+        "Church and empire ran as symphonia: the patriarch crowning, the emperor convening councils and appointing — caesaropapism to critics, harmony to theorists — with monasticism (Athos chartered 963) as the spiritual counterweight. The system's genius was reproduction: every collapse (7th century, 1204) produced administrations-in-exile that reassembled the state from its paperwork."
+      ]
+    },
+    {
+      "title": "Major rulers",
+      "paragraphs": [
+        "Justinian I, 527–565 — the law codified, the west briefly retaken, Hagia Sophia raised.",
+        "Heraclius, 610–641 — Persia destroyed, the Cross restored, the Arab storm endured.",
+        "Leo III, 717–741 — the 717 siege broken; iconoclasm begun.",
+        "Basil II, 976–1025 — the Bulgar-slayer's apogee: Danube to Euphrates.",
+        "Romanos IV Diogenes, 1068–1071 — Manzikert's captive emperor.",
+        "Alexios I Komnenos, 1081–1118 — the restorer who called the West and managed what answered.",
+        "John II Komnenos, 1118–1143 — the dynasty's best soldier-administrator.",
+        "Michael VIII Palaiologos, 1259–1282 — 1261's recoverer; union's first gambler.",
+        "John VIII Palaiologos, 1425–1448 — Florence's union for Varna's crusade.",
+        "Constantine XI Palaiologos, 1449–1453 — the last emperor, dead in the breach."
+      ]
+    },
+    {
+      "title": "Wars and defence",
+      "paragraphs": [
+        "Byzantium's battle-roll maps Eurasia: Yarmouk (636) losing Syria; the Constantinople sieges (674–78, 717–18) saving the state; Kleidion (1014) breaking Bulgaria; Manzikert (1071) losing Anatolia's heart; Myriokephalon (1176) ending recovery's hope; 1204's sack; Pelekanon (1329) failing against Orhan; and 1453's fifty-three days of bombardment, the wall's first fall to gunpowder.",
+        "Its military tradition was doctrine as much as valour: the strategika (Maurice's, Leo VI's) teaching combined arms and paid retreat; Greek fire's naval monopoly; the themes' defence-in-depth; the tagmata and Varangian Guard (Harald Hardrada its most famous alumnus) as strike-core; and fortification — the Theodosian walls above all — as the empire's longest-serving soldier."
+      ]
+    },
+    {
+      "title": "Religion, culture, and society",
+      "paragraphs": [
+        "Byzantium's religion organised half of Christendom: the pentarchy's senior see after Rome's drift, councils from Nicaea to the Photian and 1054 schisms hardening the Orthodox-Latin divide, hesychasm's late mystical flowering (Palamas, vindicated 1351), and the missionary alphabet-cultures (Cyrillic) that made Slavic Orthodoxy Byzantium's self-replication. Constantinople itself — half a million souls at peak, the world's relic-hoard, Hagia Sophia's liturgy that \"we knew not whether we were in heaven or on earth\" (the Rus' envoys' report) — was the empire's argument.",
+        "Its culture preserved and created: classical literature copied and taught (the Suda, Photius's library) while mosaic, icon, and hymnography perfected a sacred aesthetics; its economy ran the silk monopoly, the grain fleets, and the medieval world's money until Italian privileges (Venice's 1082 chrysobull the fateful first) hollowed the customs house — the merchant-republics Byzantium licensed becoming its carriers, creditors, and finally its conquerors' ferrymen."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Byzantium's fall scattered its functions: Moscow claiming \"Third Rome\", the Ottomans taking the city's imperial mantle (Mehmed styling himself Kayser-i Rûm), Greek scholars and manuscripts feeding the Italian Renaissance — the classics' survival owing more to Byzantine copyists than to any western institution — and Orthodox Christianity carrying the liturgy, canon law, and political theology of the empire across Eastern Europe to this day.",
+        "Its medieval role was Europe's eastern wall and teacher at once: absorbing the caliphate's and steppe's blows for centuries, transmitting Roman law (the Corpus that western universities rediscovered), and demonstrating — for a millennium — that antiquity's state could be made to run on Christian time."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Byzantine Empire — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Byzantine_Empire"
+    },
+    {
+      "title": "A History of the Byzantine State and Society",
+      "author": "Warren Treadgold",
+      "type": "book"
+    },
+    {
+      "title": "Anna Komnene, The Alexiad; Niketas Choniates, Historia",
+      "author": "Byzantine historians",
+      "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record: map of the Byzantine Empire in 1025",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_Byzantine_Empire_1025-en.svg"
+    },
+    {
+      "title": "Wikimedia Commons image record: solidus of Constans II with the cross on steps",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Clevelandart_2012.22.b.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record: map of the Eastern Roman Empire in 555",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Justinian555AD.png"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "330",
+      "title": "Constantinople founded",
+      "description": "Constantine dedicates New Rome on the Bosphorus."
+    },
+    {
+      "date": "527–565",
+      "title": "Justinian",
+      "description": "The Corpus Juris, Hagia Sophia, and the western reconquests."
+    },
+    {
+      "date": "636",
+      "title": "Yarmouk",
+      "description": "Syria falls to the Arabs; the near-eastern provinces follow."
+    },
+    {
+      "date": "717–718",
+      "title": "The great siege",
+      "description": "Leo III and Greek fire break the caliphate's assault on the city."
+    },
+    {
+      "date": "843",
+      "title": "Triumph of Orthodoxy",
+      "description": "Iconoclasm ends; the icon defines the faith."
+    },
+    {
+      "date": "1018",
+      "title": "Bulgaria annexed",
+      "description": "Basil II completes the grinding conquest; the Danube is the border again."
+    },
+    {
+      "date": "26 August 1071",
+      "title": "Manzikert",
+      "description": "Romanos IV is captured; civil war opens Anatolia to the Turks."
+    },
+    {
+      "date": "1082",
+      "title": "Venice's chrysobull",
+      "description": "Alexios I buys naval aid with trading privileges — the maritime republics' entry."
+    },
+    {
+      "date": "12–13 April 1204",
+      "title": "The sack",
+      "description": "The Fourth Crusade storms Constantinople; Latin empire and Greek exiles partition Rome."
+    },
+    {
+      "date": "15 August 1261",
+      "title": "Recovery",
+      "description": "Michael VIII enters the city; the Palaiologan restoration begins."
+    },
+    {
+      "date": "1354",
+      "title": "Gallipoli",
+      "description": "The Ottomans take their European bridgehead from an earthquake's ruins."
+    },
+    {
+      "date": "6 July 1439",
+      "title": "Union of Florence",
+      "description": "John VIII signs union for a crusade that dies at Varna (1444)."
+    },
+    {
+      "date": "29 May 1453",
+      "title": "The fall",
+      "description": "Mehmed II takes the city; Constantine XI dies at the walls."
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Background and early medieval survival",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Justinian555AD.png",
+      "caption": "Modern map of the Eastern Roman Empire in 555 under Justinian I, with the reconquered provinces of Italy, Africa and southern Spain in red and client peoples in pink.",
+      "creator": "Tataryn, Wikimedia Commons contributor",
+      "date": "2012; shows 555",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Justinian555AD.png",
+      "note": "A modern reconstruction, not a medieval document, drawn after The Map as History. It shows the empire at its widest after Justinian's wars, before the Lombards entered Italy in 568 and before the Arab conquests of the seventh century; the frontiers in Spain, the Caucasus and the desert are approximate. Licensed CC BY-SA 3.0."
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Clevelandart_2012.22.b.jpg",
+  "armsImageInfo": {
+    "caption": "The Byzantine Empire bore no heraldic arms; its gold coinage carried the cross on steps, seen here on the reverse of a solidus of Constans II of about 660.",
+    "creator": "Byzantine imperial mint, reign of Constans II (photograph: Cleveland Museum of Art)",
+    "date": "about 659 to 661",
+    "source": "Cleveland Museum of Art (2012.22.b), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clevelandart_2012.22.b.jpg",
+    "note": "A photograph of a genuine seventh-century gold coin, not a modern reconstruction. The cross potent on three steps, here between Constans II's younger sons Heraclius and Tiberius, was the usual reverse of the solidus from Tiberius II in 578 into the eighth century. The empire never adopted a coat of arms: the gold cross with four firesteels flown on imperial ships in the fourteenth century and the double-headed eagle are late Palaiologan dynastic and ceremonial emblems, and the shields that Western armorials give the emperor are attributions. Photograph released under CC0."
+  }
+}

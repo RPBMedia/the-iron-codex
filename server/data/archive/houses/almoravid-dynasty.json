@@ -1,0 +1,132 @@
+{
+  "id": "almoravid-dynasty",
+  "type": "house",
+  "name": "Almoravid dynasty",
+  "aliases": [
+    "Almoravids",
+    "al-Murabitun",
+    "Almoravid Empire"
+  ],
+  "originYear": 1040,
+  "endYear": 1147,
+  "reignSpan": "1040s–1147 (Maghreb and al-Andalus)",
+  "region": "The Maghreb & al-Andalus",
+  "originPlace": "The western Sahara",
+  "arms": "Almoravid gold dinar coinage",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Almoravid%20gold%20dinar%20coin%20from%20Seville%2C%20Spain%2C%201116%20British%20Museum.jpg",
+  "summary": "The Berber dynasty and empire that rose from a Saharan reform movement to rule Morocco and Muslim Spain in the late eleventh and early twelfth centuries, checking the Reconquista before falling to the Almohads.",
+  "overview": "The Almoravids (al-Murabitun) built the first great Berber empire of the western Islamic world, uniting the Maghreb and al-Andalus under a strict Sunni banner from their capital at Marrakesh.",
+  "founder": {
+    "personSlug": "yusuf-ibn-tashfin",
+    "displayName": "Yusuf ibn Tashfin",
+    "note": "The emir who forged the empire; the movement's religious founder was Abdallah ibn Yasin."
+  },
+  "seats": [
+    "Marrakesh",
+    "Seville"
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "yusuf-ibn-tashfin",
+      "displayName": "Yusuf ibn Tashfin",
+      "note": "Great emir; victor of Sagrajas; founder of Marrakesh."
+    },
+    {
+      "displayName": "Ali ibn Yusuf",
+      "note": "His son; ruled the empire at its height (r. 1106–1143)."
+    },
+    {
+      "displayName": "Tashfin ibn Ali",
+      "note": "Late Almoravid ruler, defeated by the Almohads."
+    }
+  ],
+  "familyTree": {},
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Almoravid dynasty, in Arabic al-Murabitun, arose from a puritanical Sunni reform movement among the Sanhaja Berbers of the western Sahara in the mid-eleventh century. Under Yusuf ibn Tashfin it became an empire spanning Morocco and, after 1086, Muslim Spain.",
+        "From their capital at Marrakesh the Almoravids ruled a vast territory on both sides of the Strait of Gibraltar, imposing a stricter religious order on the sophisticated society of al-Andalus and holding back the Christian advance for a generation."
+      ]
+    },
+    {
+      "title": "Rise and fall",
+      "paragraphs": [
+        "Called into Iberia by the taifa kings, the Almoravids won at Sagrajas in 1086 and then absorbed the taifa kingdoms themselves, uniting al-Andalus under their rule. At their height under Ali ibn Yusuf the empire was the dominant power of the western Mediterranean.",
+        "By the 1140s Almoravid power was crumbling under a new Berber reform movement, the Almohads, who took Marrakesh in 1147 and destroyed the dynasty, inheriting its empire in both the Maghreb and Spain."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1040",
+      "title": "Movement founded",
+      "description": "The Almoravid reform movement begins among the Saharan Sanhaja."
+    },
+    {
+      "date": "1086",
+      "title": "Battle of Sagrajas",
+      "description": "Almoravid victory over Alfonso VI opens their intervention in Iberia."
+    },
+    {
+      "date": "1147",
+      "title": "Fall to the Almohads",
+      "description": "The Almohads take Marrakesh and end the dynasty."
+    }
+  ],
+  "imageInfo": {
+    "caption": "An Almoravid gold dinar struck at Seville (1116), coinage of the dynasty that ruled Morocco and al-Andalus.",
+    "creator": "Almoravid mint; British Museum, Wikimedia Commons",
+    "date": "1116 coin",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Almoravid_gold_dinar_coin_from_Seville,_Spain,_1116_British_Museum.jpg",
+    "license": "Creative Commons",
+    "note": "Almoravid dinars set the standard for gold coinage across the medieval western Mediterranean."
+  },
+  "sources": [
+    {
+      "title": "Almoravid dynasty",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Almoravid_dynasty"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Yusuf ibn Tashfin",
+        "type": "person",
+        "slug": "yusuf-ibn-tashfin",
+        "label": "The dynasty's great emir"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Sagrajas",
+        "type": "event",
+        "slug": "battle-of-sagrajas",
+        "label": "The victory that opened their rule in Iberia"
+      }
+    ],
+    "locations": [
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia they came to rule"
+      },
+      {
+        "title": "Valencia",
+        "type": "location",
+        "slug": "valencia",
+        "label": "Taken from El Cid's widow in 1102"
+      },
+      {
+        "title": "Marrakesh",
+        "type": "location",
+        "slug": "marrakesh",
+        "label": "Capital founded about 1070"
+      }
+    ]
+  }
+}

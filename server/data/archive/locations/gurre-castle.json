@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Castle",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Valdemar IV Atterdag",
+    "Zealand royal power",
+    "Danish royal memory"
+  ],
+  "overview": [
+    "A ruined royal castle in Zealand associated with Valdemar IV Atterdag's death."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Gurre Castle in northern Zealand was a significant Danish royal hunting and administrative castle. Valdemar IV Atterdag, who died there in 1375, was especially associated with the castle."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Valdemar IV's death at Gurre Castle ended one of the most consequential Danish reigns of the fourteenth century. His passing opened the succession that brought his daughter Margaret I to effective rule over Denmark and, eventually, all three Scandinavian kingdoms."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Gurre Castle",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Gurre_Slotsruin.jpg"
+    },
+    {
+      "title": "Gurre Castle reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Gurre_Castle"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag",
+        "label": "Death of Valdemar IV Atterdag"
+      },
+      {
+        "title": "Christopher II of Denmark",
+        "type": "person",
+        "slug": "christopher-ii-of-denmark"
+      },
+      {
+        "title": "Olaf IV of Norway",
+        "type": "person",
+        "slug": "olaf-iv-of-norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "gurre-castle",
+  "name": "Gurre Castle",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gurre_slot-2007.jpg",
+  "summary": "A ruined royal castle in Zealand associated with Valdemar IV Atterdag's death.",
+  "imageInfo": {
+    "caption": "The ruins of Gurre Castle, favoured residence of Valdemar IV Atterdag, who died there in 1375.",
+    "creator": "Graphicos",
+    "date": "2007-04-28",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gurre_slot-2007.jpg",
+    "license": "CC BY 2.5",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

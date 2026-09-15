@@ -1,0 +1,215 @@
+{
+  "id": "battle-of-poitiers",
+  "type": "event",
+  "name": "Battle of Poitiers",
+  "year": 1356,
+  "location": "Near Poitiers, France",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle-poitiers(1356).jpg",
+  "imageInfo": {
+    "caption": "The Battle of Poitiers in a manuscript illumination.",
+    "creator": "Unknown manuscript artist",
+    "date": "late medieval",
+    "source": "Wikimedia Commons",
+    "note": "A later manuscript depiction from the chronicle tradition."
+  },
+  "summary": "English forces under the Black Prince defeated and captured John II of France near Poitiers in 1356 during the Hundred Years’ War.",
+  "details": "The Battle of Poitiers was fought in 1356 between an Anglo-Gascon army under Edward, the Black Prince, and a French royal army led by John II. The English won and captured the French king. The battle deepened the crisis of the French monarchy and became one of the great English victories of the Hundred Years’ War.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of England",
+    "Aquitaine",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Edward, the Black Prince",
+      "faction": "Anglo-Gascon army",
+      "personId": "edward-the-black-prince"
+    },
+    {
+      "name": "John II of France",
+      "faction": "French army",
+      "personId": "john-ii-of-france"
+    }
+  ],
+  "eventLocation": {
+    "name": "Near Poitiers",
+    "locationId": "poitiers"
+  },
+  "outcome": "English victory; King John II of France was captured.",
+  "background": [
+    "The Black Prince led a destructive chevauchée through French territory, threatening royal authority and forcing John II to pursue him.",
+    "The English army was burdened with plunder and tried to withdraw, but the French forced battle near Poitiers."
+  ],
+  "battle": "The English chose strong defensive ground broken by hedges, lanes, and vineyards. French attacks were made in phases, but coordination was poor. English archers disrupted French movements, while a mounted flanking action helped break the final French effort. John II fought bravely but was captured with many nobles.",
+  "aftermath": "The capture of John II created a political crisis in France, worsened by financial pressure, unrest, and the need to negotiate ransom. The battle contributed to the Treaty of Brétigny in 1360, which temporarily expanded English holdings but did not end the war.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Poitiers was fought in 1356 between an Anglo-Gascon army under Edward, the Black Prince, and a French royal army led by John II. It should not be confused with the 732 Battle of Tours, which is sometimes also called the Battle of Poitiers or Tours-Poitiers because of its approximate location.",
+        "The English won and captured the French king. The battle deepened the crisis of the French monarchy and became one of the great English victories of the Hundred Years’ War."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Black Prince led a destructive chevauchée through French territory, threatening royal authority and forcing John II to pursue him.",
+        "The English army was burdened with plunder and tried to withdraw, but the French forced battle near Poitiers."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The Anglo-Gascon force was smaller and relied on defensive positioning, archers, and men-at-arms. The French army was larger but politically complex and difficult to coordinate.",
+        "As with Crécy and Agincourt, medieval numbers are uncertain, and later narratives often highlight French numerical superiority for dramatic effect."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The English chose strong defensive ground broken by hedges, lanes, and vineyards. French attacks were made in phases, but coordination was poor.",
+        "English archers disrupted French movements, while a mounted flanking action helped break the final French effort. John II fought bravely but was captured with many nobles."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The capture of John II created a political crisis in France, worsened by financial pressure, unrest, and the need to negotiate ransom.",
+        "The battle contributed to the Treaty of Brétigny in 1360, which temporarily expanded English holdings but did not end the war."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Poitiers matters because it showed the continuing effectiveness of English defensive tactics and because capturing a king had enormous diplomatic consequences.",
+        "The battle intensified the instability of France in the mid-fourteenth century and reinforced the military reputation of the Black Prince."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle-poitiers(1356).jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook.asp"
+    },
+    {
+      "title": "World History Encyclopedia: Medieval Warfare",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Medieval_Warfare/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Aquitaine",
+        "type": "location",
+        "slug": "aquitaine",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Commander"
+      },
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
+        "label": "Commander"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Anglo-Gascon army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        },
+        {
+          "name": "Aquitaine",
+          "title": "Aquitaine",
+          "type": "location",
+          "slug": "aquitaine"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward, the Black Prince",
+          "title": "Edward, the Black Prince",
+          "type": "person",
+          "slug": "edward-the-black-prince"
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–10,000",
+        "confidence": "estimated",
+        "note": "Edward the Black Prince's outnumbered force fought a defensive action from broken, hedged ground."
+      }
+    },
+    {
+      "side": "French army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John II of France",
+          "title": "John II of France",
+          "type": "person",
+          "slug": "john-ii-of-france"
+        }
+      ],
+      "strength": {
+        "display": "c. 11,000–16,000 (debated)",
+        "confidence": "debated",
+        "note": "Larger than the Anglo-Gascon force; exact figures are disputed and chronicle numbers unreliable."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue the Hundred Years' War",
+    "battleSlug": "battle-of-agincourt",
+    "relationship": "same-war",
+    "reason": "After Poitiers, the war's next great field battle came at Agincourt in 1415, where Henry V's outnumbered army destroyed the French attack and revived English fortunes in the same conflict."
+  }
+}

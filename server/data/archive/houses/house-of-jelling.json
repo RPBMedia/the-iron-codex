@@ -1,0 +1,282 @@
+{
+  "id": "house-of-jelling",
+  "type": "house",
+  "name": "House of Jelling",
+  "aliases": [
+    "Jelling dynasty",
+    "Knýtlinga",
+    "House of Knýtlinga",
+    "House of Knýtlinga (Denmark)",
+    "House of Knýtlinga (Jelling line)",
+    "House of Denmark"
+  ],
+  "originYear": 936,
+  "endYear": 1042,
+  "reignSpan": "c. 936–1042",
+  "region": "Denmark, England & Norway",
+  "originPlace": "Jelling, Jutland",
+  "arms": "The Jelling kings bore no coat of arms; the dynasty is symbolised by the great runestone of Jelling.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jelling%20stone.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The larger Jelling stone, raised by Harald Bluetooth to proclaim his unification and Christianisation of Denmark — often called Denmark’s \"birth certificate\".",
+    "creator": "Harald Bluetooth (runestone, Jelling)",
+    "date": "c. 965–970",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jelling_stone.jpg",
+    "note": "A contemporary monument of the dynasty itself, naming Gorm, Thyra, and Harald and recording Denmark’s conversion."
+  },
+  "summary": "The Viking-age dynasty of Gorm the Old that unified Denmark, converted it to Christianity, and under Cnut the Great ruled a North Sea empire including England.",
+  "overview": "The House of Jelling, also called the Knýtlinga, took Denmark from a patchwork of chieftaincies to a Christian kingdom and then to the summit of Viking power. From Gorm the Old and Harald Bluetooth through Sweyn Forkbeard to Cnut the Great, the dynasty conquered England and briefly ruled a North Sea empire spanning Denmark, England, and Norway.",
+  "founder": {
+    "personSlug": "gorm-the-old",
+    "displayName": "Gorm the Old",
+    "note": "First historically attested king of a united Denmark"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Denmark",
+      "type": "location",
+      "slug": "kingdom-of-denmark"
+    },
+    {
+      "name": "North Sea Empire",
+      "type": "location",
+      "slug": "north-sea-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "gorm-the-old",
+      "displayName": "Gorm the Old",
+      "note": "Founder of the dynasty at Jelling"
+    },
+    {
+      "personSlug": "harald-bluetooth",
+      "displayName": "Harald Bluetooth",
+      "note": "United Denmark and adopted Christianity"
+    },
+    {
+      "personSlug": "sweyn-forkbeard",
+      "displayName": "Sweyn Forkbeard",
+      "note": "Conquered England in 1013"
+    },
+    {
+      "personSlug": "harald-ii-of-denmark",
+      "displayName": "Harald II",
+      "note": "King of Denmark while Cnut fought in England"
+    },
+    {
+      "personSlug": "cnut-the-great",
+      "displayName": "Cnut the Great",
+      "note": "Ruled the North Sea empire of England, Denmark, and Norway"
+    },
+    {
+      "personSlug": "harold-harefoot",
+      "displayName": "Harold Harefoot",
+      "note": "Cnut’s son; king of England 1035–1040"
+    },
+    {
+      "personSlug": "harthacnut",
+      "displayName": "Harthacnut",
+      "note": "Last Jelling king of England and Denmark"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Jelling (Knýtlinga) dynasty from Gorm the Old to Cnut the Great’s sons, whose deaths without heirs ended the North Sea empire. ⚭ marks a marriage.",
+    "root": {
+      "name": "Gorm the Old",
+      "personSlug": "gorm-the-old",
+      "note": "d. c. 958",
+      "spouse": {
+        "name": "Thyra",
+        "personSlug": "thyra"
+      },
+      "children": [
+        {
+          "name": "Harald Bluetooth",
+          "personSlug": "harald-bluetooth",
+          "note": "r. c. 958–986",
+          "children": [
+            {
+              "name": "Sweyn Forkbeard",
+              "personSlug": "sweyn-forkbeard",
+              "note": "r. 986–1014",
+              "children": [
+                {
+                  "name": "Harald II",
+                  "personSlug": "harald-ii-of-denmark",
+                  "note": "r. 1014–1018"
+                },
+                {
+                  "name": "Cnut the Great",
+                  "personSlug": "cnut-the-great",
+                  "note": "r. 1016/18–1035",
+                  "children": [
+                    {
+                      "name": "Harold Harefoot",
+                      "personSlug": "harold-harefoot",
+                      "note": "r. England 1035–1040"
+                    },
+                    {
+                      "name": "Harthacnut",
+                      "personSlug": "harthacnut",
+                      "note": "r. 1035/40–1042, no heir"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty is named for its seat at Jelling in Jutland, where the first securely historical king, Gorm the Old, ruled in the early tenth century. His son Harald Bluetooth raised the great Jelling runestone claiming to have \"won all Denmark for himself\" and to have made the Danes Christian — the founding monument of the Danish kingdom.",
+        "Harald’s reign brought royal power, a network of ring fortresses, and the conversion that tied Denmark to Latin Christendom, though old Norse religion and Viking raiding continued."
+      ]
+    },
+    {
+      "title": "The conquest of England",
+      "paragraphs": [
+        "Harald’s son Sweyn Forkbeard turned Danish power outward, raiding England for years and finally conquering it in 1013, driving out King Æthelred the Unready. Sweyn died months later in 1014, and his son Cnut had to win the kingdom again, defeating Edmund Ironside and becoming king of England in 1016.",
+        "The Jelling kings thus achieved what generations of Vikings had only raided for: the throne of England itself."
+      ]
+    },
+    {
+      "title": "Cnut and the North Sea empire",
+      "paragraphs": [
+        "Cnut the Great ruled England, Denmark, and for a time Norway as a single North Sea empire, governing England through English earls and law while drawing on Scandinavian military power. He made a celebrated pilgrimage to Rome in 1027 and presented himself as a Christian European king rather than a Viking raider.",
+        "The famous story of Cnut commanding the tide — usually misremembered — was told to show his humility before God, not his arrogance: he set his throne at the sea’s edge to prove that even a king’s power had limits."
+      ]
+    },
+    {
+      "title": "Collapse of the empire",
+      "paragraphs": [
+        "Cnut’s empire depended on his own person and did not survive his death in 1035. His sons Harold Harefoot and Harthacnut divided and disputed the inheritance, and both died young and without heirs — Harthacnut in 1042.",
+        "The English throne then returned to the West Saxon line under Edward the Confessor, while in Denmark the crown passed to Cnut’s nephew Sweyn Estridsson, founder of the House of Estridsen."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Jelling dynasty made Denmark a Christian kingdom and, for a generation, the centre of a North Sea empire that placed a Danish king on the English throne. Its monuments at Jelling remain the oldest royal record of the Danish state.",
+        "Its brief mastery of England left a lasting mark on English law, land-holding, and the Anglo-Scandinavian character of eleventh-century England, and set the stage for the succession crisis of 1066."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 958",
+      "title": "Harald Bluetooth succeeds Gorm",
+      "description": "The Jelling stone proclaims a united, Christian Denmark.",
+      "links": [
+        {
+          "title": "Harald Bluetooth",
+          "type": "person",
+          "slug": "harald-bluetooth"
+        }
+      ]
+    },
+    {
+      "date": "1013",
+      "title": "Sweyn Forkbeard conquers England",
+      "description": "Æthelred the Unready is driven out.",
+      "links": [
+        {
+          "title": "Sweyn Forkbeard",
+          "type": "person",
+          "slug": "sweyn-forkbeard"
+        }
+      ]
+    },
+    {
+      "date": "1016",
+      "title": "Cnut becomes king of England",
+      "description": "After defeating Edmund Ironside, Cnut takes the English throne.",
+      "links": [
+        {
+          "title": "Cnut the Great",
+          "type": "person",
+          "slug": "cnut-the-great"
+        }
+      ]
+    },
+    {
+      "date": "1027",
+      "title": "Cnut’s pilgrimage to Rome",
+      "description": "The North Sea emperor presents himself as a Christian king."
+    },
+    {
+      "date": "1042",
+      "title": "Death of Harthacnut",
+      "description": "The Jelling line ends; the English crown returns to the West Saxons.",
+      "links": [
+        {
+          "title": "Harthacnut",
+          "type": "person",
+          "slug": "harthacnut"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth",
+        "label": "United and Christianised Denmark"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "Conquered England"
+      },
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "North Sea emperor"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Their kingdom"
+      },
+      {
+        "title": "North Sea Empire",
+        "type": "location",
+        "slug": "north-sea-empire",
+        "label": "Cnut’s realm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Knýtlinga — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Knýtlinga"
+    },
+    {
+      "title": "Canute (the Great) — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Canute-I"
+    },
+    {
+      "title": "Jelling stones — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jelling_stones"
+    }
+  ]
+}

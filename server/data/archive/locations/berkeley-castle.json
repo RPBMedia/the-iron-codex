@@ -1,0 +1,90 @@
+{
+  "id": "berkeley-castle",
+  "type": "location",
+  "locationType": "Castle",
+  "name": "Berkeley Castle",
+  "year": 1327,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Berkeley_Castle.jpg",
+  "summary": "The castle where Edward II died in captivity in 1327.",
+  "overview": [
+    "Berkeley Castle in Gloucestershire became notorious as the place where the deposed Edward II died in captivity.",
+    "His death followed deposition, political collapse, and the rise of the regime around Isabella of France and Roger Mortimer."
+  ],
+  "knownFor": [
+    "Death of Edward II",
+    "English royal captivity",
+    "Fourteenth-century political crisis"
+  ],
+  "imageInfo": {
+    "caption": "Berkeley Castle, represented by a relevant historic site or regional image.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern photograph or public-domain image",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph or public-domain image of the associated medieval place, used to ground the article visually.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berkeley_Castle.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Berkeley Castle was a fortified aristocratic residence whose fame in medieval history comes chiefly from Edward II’s imprisonment and death."
+      ]
+    },
+    {
+      "title": "Medieval historical context",
+      "paragraphs": [
+        "Edward II died there in 1327 after being forced from the throne. The exact manner of death remains disputed, but the political context of custody and deposition is clear."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The castle became part of one of medieval England’s darkest royal narratives: a king defeated by war, noble opposition, and palace politics."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Berkeley Castle",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Berkeley_Castle.jpg"
+    },
+    {
+      "title": "Berkeley Castle reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Berkeley_Castle"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward II of England",
+        "type": "person",
+        "slug": "edward-ii-of-england",
+        "label": "Death of Edward II of England"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Realm of Edward II of England"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      }
+    ]
+  }
+}

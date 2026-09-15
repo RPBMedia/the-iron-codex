@@ -28,11 +28,12 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
 const datesPath = path.join(root, 'server', 'data', 'content-dates.json')
-const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const data = loadArchive()
 
 const pub = (c) => (c === 'characters' ? 'people' : c === 'weaponsArmor' ? 'weapons-armor' : c)
 const today = new Date().toISOString().slice(0, 10)

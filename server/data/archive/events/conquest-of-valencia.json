@@ -1,0 +1,106 @@
+{
+  "id": "conquest-of-valencia",
+  "type": "event",
+  "name": "Conquest of Valencia",
+  "year": 1094,
+  "aliases": [
+    "Siege of Valencia",
+    "Fall of Valencia",
+    "El Cid's conquest of Valencia"
+  ],
+  "location": "Valencia, Iberia",
+  "eventType": "Fall of City",
+  "conflict": "Reconquista",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg",
+  "summary": "In 1094, after a long blockade, El Cid captured the wealthy taifa city of Valencia and held it against the Almoravids, ruling it as an independent Christian lordship until his death.",
+  "details": "Rodrigo Díaz took Valencia in June 1094 after a prolonged siege, then defeated a large Almoravid relief army nearby. He ruled the city until 1099; the Christians finally abandoned and burned it in 1102 as the Almoravids closed in.",
+  "factions": [
+    "El Cid's forces",
+    "Taifa of Valencia",
+    "Almoravids"
+  ],
+  "outcome": "El Cid took and held Valencia as an independent lordship (1094–1102) before it fell to the Almoravids; a rare early check to Almoravid power.",
+  "background": [
+    "Valencia was a rich and populous taifa city on the eastern coast, long fought over by Christian and Muslim powers and racked by internal factions. El Cid, operating independently in the east after his exile from Castile, drew it steadily into his grip.",
+    "When an Almoravid-backed faction seized the city, El Cid tightened a blockade until, starved and divided, Valencia surrendered to him in 1094."
+  ],
+  "aftermath": "El Cid ruled Valencia as his own principality, converting its great mosque to a cathedral and defeating an Almoravid army sent to expel him at Cuarte later in 1094. After his death in 1099 his widow Jimena held the city until 1102, when, unable to withstand the Almoravids, the Christians withdrew and burned it. Valencia returned to Muslim rule until James I of Aragon conquered it in 1238.",
+  "imageInfo": {
+    "caption": "Valencia Cathedral, built on the site of the city's main mosque, which El Cid consecrated as a church after taking Valencia in 1094.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Cathedral begun 13th century, on the former mosque",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valencia_cathedral_2022_-_north_fa%C3%A7ade_dawn.jpg",
+    "license": "Creative Commons",
+    "note": "The later cathedral stands where El Cid turned the main mosque into a church."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Conquest of Valencia was El Cid's capture of the great eastern taifa city in 1094, the crowning achievement of his career. After a long blockade the city surrendered, and Rodrigo Díaz ruled it as an independent Christian lordship.",
+        "Holding Valencia meant facing the Almoravids, then the rising power of Muslim Iberia, and El Cid's defeat of an Almoravid relief army was one of the first serious checks to their advance. The city remained his until his death in 1099."
+      ]
+    },
+    {
+      "title": "Siege and rule",
+      "paragraphs": [
+        "Valencia was wealthy, divided and coveted. El Cid, campaigning on his own account in the east, brought it under pressure and, when an Almoravid-backed party took control, closed a starving blockade around it until it capitulated in June 1094.",
+        "As lord of Valencia he consecrated the main mosque as a cathedral and organised the defence of his new realm, beating off the Almoravid army sent to retake the city at Cuarte. It was a personal principality, held by force of arms rather than by any crown's grant."
+      ]
+    },
+    {
+      "title": "Loss and legacy",
+      "paragraphs": [
+        "El Cid's death in 1099 left Valencia to his widow Jimena, who could not hold it indefinitely. In 1102, with the Almoravids advancing and no relief in sight, the Christians evacuated and burned the city, which returned to Muslim rule.",
+        "Valencia would not be permanently reconquered until James I of Aragon took it in 1238. El Cid's brief lordship became one of the great stories of the Reconquista, magnified by legend far beyond its immediate strategic weight."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "El Cid",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/El_Cid"
+    },
+    {
+      "title": "Taifa of Valencia",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Taifa_of_Valencia"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "El Cid",
+        "type": "person",
+        "slug": "el-cid",
+        "label": "Conqueror and ruler of the city"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Valencia",
+        "type": "location",
+        "slug": "valencia",
+        "label": "The city taken"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it was taken from"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Almoravid dynasty",
+        "type": "house",
+        "slug": "almoravid-dynasty",
+        "label": "The power El Cid held Valencia against"
+      }
+    ]
+  }
+}

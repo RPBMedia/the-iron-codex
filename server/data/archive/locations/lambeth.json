@@ -1,0 +1,79 @@
+{
+  "type": "location",
+  "locationType": "Settlement",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of England",
+  "knownFor": [
+    "Death of Harthacnut",
+    "Thames political geography",
+    "Anglo-Danish England"
+  ],
+  "overview": [
+    "A Thames-side settlement later associated with Lambeth Palace; Harthacnut died at a wedding feast there in 1042."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Lambeth on the south bank of the Thames opposite Westminster was the primary residence of the Archbishop of Canterbury in London. Lambeth Palace was established as the archiepiscopal seat by the late twelfth century."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Lambeth Palace became the center of archiepiscopal administration in England. Its position directly across from Westminster gave it political proximity to English governance and made it the institutional location of church-crown negotiations throughout the medieval period."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Lambeth",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Lambeth_Palace_from_across_the_Thames.jpg"
+    },
+    {
+      "title": "Lambeth reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Lambeth"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Harthacnut",
+        "type": "person",
+        "slug": "harthacnut",
+        "label": "Death of Harthacnut"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Realm of Harthacnut"
+      }
+    ]
+  },
+  "id": "lambeth",
+  "name": "Lambeth",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lambeth_Palace_London_240404.jpg",
+  "summary": "A Thames-side settlement later associated with Lambeth Palace; Harthacnut died at a wedding feast there in 1042.",
+  "imageInfo": {
+    "caption": "Lambeth Palace, the London seat of the Archbishop of Canterbury.",
+    "creator": "Wikimedia Commons",
+    "date": "2006-05-11 06:26:24",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lambeth_Palace_London_240404.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

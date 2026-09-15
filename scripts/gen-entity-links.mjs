@@ -1,5 +1,5 @@
 /**
- * Generates client/src/lib/entityLinks.js from server/data/history.json so the
+ * Generates client/src/lib/entityLinks.js from server/data/archive so the
  * body/timeline auto-linker covers EVERY article. Merges in the hand-curated
  * aliases already present in the file (so entries like "Stupor Mundi" survive).
  * Only emits entries whose slug exists in the data — never a broken link.
@@ -7,9 +7,10 @@
 import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, '../server/data/history.json'), 'utf8'))
+const data = loadArchive()
 const outPath = path.join(__dirname, '../client/src/lib/entityLinks.js')
 const existing = fs.readFileSync(outPath, 'utf8')
 
@@ -105,7 +106,7 @@ const lines = entries.map(e => {
   return `  { label: "${esc(e.label)}"${aliasStr}, type: "${e.type}", slug: "${e.slug}" },`
 })
 
-const header = `// entityLinks AUTO-GENERATED from server/data/history.json by
+const header = `// entityLinks AUTO-GENERATED from server/data/archive by
 // scripts/gen-entity-links.mjs. Do not edit the entityLinks array by hand: run
 // \`node scripts/gen-entity-links.mjs\` after adding or renaming articles. Curated
 // aliases from the previous file are preserved and merged. This drives the

@@ -1,0 +1,85 @@
+{
+  "id": "wantage",
+  "type": "location",
+  "locationType": "Town",
+  "kingdom": "Kingdom of Wessex",
+  "kingdomId": "kingdom-of-wessex",
+  "name": "Wantage",
+  "year": 849,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Wantage_Market_Place.jpg",
+  "summary": "A Wessex town remembered as the birthplace of Alfred the Great.",
+  "overview": [
+    "Wantage lay within the world of Anglo-Saxon Wessex.",
+    "It is closely associated with Alfred the Great, whose career shaped the survival and expansion of Wessex."
+  ],
+  "knownFor": [
+    "Birthplace of Alfred the Great",
+    "Kingdom of Wessex",
+    "Anglo-Saxon royal memory"
+  ],
+  "imageInfo": {
+    "caption": "Wantage market place, the town traditionally associated with Alfred the Great's birth.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the town rather than an early medieval view.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wantage_Market_Place.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Wessex town remembered as the birthplace of Alfred the Great.",
+        "Wantage matters historically through Birthplace of Alfred the Great, Kingdom of Wessex, Anglo-Saxon royal memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Wantage_Market_Place.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Wantage",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Wantage"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great",
+        "label": "Birthplace of Alfred the Great"
+      },
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Winchester",
+        "type": "location",
+        "slug": "winchester"
+      }
+    ]
+  }
+}

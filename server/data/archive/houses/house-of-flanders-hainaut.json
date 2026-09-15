@@ -1,0 +1,183 @@
+{
+  "id": "house-of-flanders-hainaut",
+  "type": "house",
+  "name": "House of Flanders-Hainaut",
+  "aliases": [
+    "House of Flanders",
+    "Flanders-Hainaut",
+    "House of Hainaut"
+  ],
+  "originYear": 1204,
+  "endYear": 1216,
+  "reignSpan": "1204–1216 (Latin Empire)",
+  "region": "Flanders & the Latin Empire",
+  "originPlace": "Flanders and Hainaut",
+  "arms": "A black lion rampant on a gold field — the arms of the counts of Flanders.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baldwin%20I%20of%20Constantinople%20(Cropped).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Baldwin I, Count of Flanders and first Latin Emperor of Constantinople.",
+    "creator": "Later depiction",
+    "date": "Later image (Baldwin I d. 1205)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baldwin_I_of_Constantinople_(Cropped).jpg",
+    "note": "A later image of Baldwin of Flanders, the first Latin emperor after the Fourth Crusade."
+  },
+  "summary": "The counts of Flanders and Hainaut who became the first Latin Emperors of Constantinople after the Fourth Crusade.",
+  "overview": "The House of Flanders-Hainaut supplied the first rulers of the Latin Empire of Constantinople, founded when the Fourth Crusade sacked the Byzantine capital in 1204. Count Baldwin IX of Flanders was elected emperor, and after his capture and death his brother Henry proved the ablest of the Latin emperors.",
+  "founder": {
+    "personSlug": "baldwin-i-latin-emperor",
+    "displayName": "Baldwin I",
+    "note": "Count of Flanders; first Latin Emperor of Constantinople"
+  },
+  "seats": [
+    {
+      "name": "County of Flanders",
+      "type": "location",
+      "slug": "county-of-flanders"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "baldwin-i-latin-emperor",
+      "displayName": "Baldwin I",
+      "note": "First Latin Emperor; captured by the Bulgarians"
+    },
+    {
+      "personSlug": "henry-of-flanders",
+      "displayName": "Henry of Flanders",
+      "note": "Ablest of the Latin emperors"
+    }
+  ],
+  "familyTree": {
+    "caption": "The brothers Baldwin and Henry of Flanders, the first two Latin Emperors of Constantinople.",
+    "root": {
+      "name": "Baldwin V of Hainaut",
+      "note": "Count of Hainaut and Flanders",
+      "children": [
+        {
+          "name": "Baldwin I",
+          "personSlug": "baldwin-i-latin-emperor",
+          "note": "Latin Emperor 1204–1205"
+        },
+        {
+          "name": "Henry of Flanders",
+          "personSlug": "henry-of-flanders",
+          "note": "Latin Emperor 1206–1216"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "Baldwin IX, Count of Flanders and Hainaut, was one of the great princes of the Low Countries and a leader of the Fourth Crusade. When the crusade was diverted to attack Constantinople and stormed the city in 1204, the victorious Latins elected Baldwin as the first emperor of a new Latin Empire in place of the Byzantine one.",
+        "The new empire was a fragile Latin overlay on a hostile Greek world, surrounded by Byzantine successor states and the Bulgarians."
+      ]
+    },
+    {
+      "title": "Baldwin and Henry",
+      "paragraphs": [
+        "Baldwin I’s reign was short: in 1205 he was defeated and captured by the Bulgarian tsar Kaloyan at Adrianople and died in captivity. His brother Henry succeeded him and proved the most capable of the Latin emperors, holding the empire together against Greeks and Bulgarians alike through war and diplomacy until his death in 1216.",
+        "After Henry the crown passed by marriage to the House of Courtenay, and the Latin Empire slid into decline."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Flanders-Hainaut emperors founded the Latin Empire that ruled Constantinople for half a century after 1204, one of the most striking consequences of the Fourth Crusade. Their rule deepened the schism between the Latin and Greek churches and left lasting bitterness in the Orthodox world.",
+        "The empire they created never recovered from Baldwin’s early loss, and in 1261 the Byzantines under the Palaiologoi retook Constantinople."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1204",
+      "title": "Baldwin elected Latin Emperor",
+      "description": "The Fourth Crusade makes the Count of Flanders emperor.",
+      "links": [
+        {
+          "title": "Baldwin I",
+          "type": "person",
+          "slug": "baldwin-i-latin-emperor"
+        }
+      ]
+    },
+    {
+      "date": "1205",
+      "title": "Disaster at Adrianople",
+      "description": "Baldwin is captured by the Bulgarians and dies."
+    },
+    {
+      "date": "1216",
+      "title": "Death of Henry",
+      "description": "The ablest Latin emperor dies; the crown passes to Courtenay.",
+      "links": [
+        {
+          "title": "Henry of Flanders",
+          "type": "person",
+          "slug": "henry-of-flanders"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Baldwin I",
+        "type": "person",
+        "slug": "baldwin-i-latin-emperor",
+        "label": "First Latin Emperor"
+      },
+      {
+        "title": "Henry of Flanders",
+        "type": "person",
+        "slug": "henry-of-flanders",
+        "label": "Ablest Latin emperor"
+      }
+    ],
+    "locations": [
+      {
+        "title": "County of Flanders",
+        "type": "location",
+        "slug": "county-of-flanders",
+        "label": "Their ancestral county"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Palaiologos",
+        "type": "house",
+        "slug": "house-of-palaiologos",
+        "label": "Recovered Constantinople in 1261"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Latin Empire — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Latin-Empire-of-Constantinople"
+    },
+    {
+      "title": "Baldwin I, Latin Emperor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Baldwin_I,_Latin_Emperor"
+    },
+    {
+      "title": "Henry of Flanders — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_of_Flanders"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/CoA%20Flanders%20County.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The black lion of Flanders on gold — the arms of the counts who became Latin Emperors.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CoA_Flanders_County.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

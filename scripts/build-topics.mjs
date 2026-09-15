@@ -39,10 +39,11 @@ import { fileURLToPath } from 'node:url'
 // `overview`, not a `summary`, and a topic list reading `summary` alone showed
 // sixty of them with no description at all.
 import { leadText } from '../client/src/lib/pageMeta.js'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
-const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const data = loadArchive()
 
 const pub = (c) => (c === 'characters' ? 'people' : c === 'weaponsArmor' ? 'weapons-armor' : c)
 const TYPE_TO_COLLECTION = {

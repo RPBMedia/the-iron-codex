@@ -1,0 +1,80 @@
+{
+  "id": "soborg-castle",
+  "type": "location",
+  "locationType": "Castle",
+  "kingdom": "Kingdom of Denmark",
+  "name": "Soborg Castle",
+  "year": 1100,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/S%C3%B8borgSlot.jpg",
+  "summary": "A Danish castle site traditionally associated with the birth of Margaret I.",
+  "overview": [
+    "Soborg Castle was one of the fortified sites of medieval Denmark.",
+    "It is traditionally associated with Margaret I, the ruler who forged the Kalmar Union."
+  ],
+  "knownFor": [
+    "Traditional birthplace of Margaret I",
+    "Medieval Danish royal landscape",
+    "Castle ruins"
+  ],
+  "imageInfo": {
+    "caption": "Ruins of Soborg Castle in Denmark.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the surviving castle ruins.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B8borgSlot.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Danish castle site traditionally associated with the birth of Margaret I.",
+        "Soborg Castle matters historically through Traditional birthplace of Margaret I, Medieval Danish royal landscape, Castle ruins."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:S%C3%B8borgSlot.jpg"
+    },
+    {
+      "title": "Wikipedia: Soborg Castle",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Soborg_Castle"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Margaret I of Denmark",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Birthplace of Margaret I of Denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "Realm of Margaret I of Denmark"
+      }
+    ]
+  }
+}

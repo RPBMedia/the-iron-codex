@@ -1,0 +1,195 @@
+{
+  "id": "vandalic-war",
+  "type": "event",
+  "eventType": "War",
+  "name": "Vandalic War",
+  "year": 533,
+  "location": "North Africa",
+  "eventLocation": "The Vandal kingdom in North Africa",
+  "conflict": "Justinian's wars of reconquest",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vandalic%20War%20campaign%20map.png",
+  "imageInfo": {
+    "caption": "The campaign of 533–534: the Roman landing, the march on Carthage, and the two battles that destroyed the Vandal kingdom.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the 533–534 campaign",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vandalic_War_campaign_map.png",
+    "note": "A modern campaign map, used because it shows the sequence of the war — landing, Ad Decimum, Carthage, Tricamarum, Mount Papua — more clearly than any surviving source. Licensed CC BY-SA 3.0."
+  },
+  "summary": "The Vandalic War of 533–534 was Justinian's first war of reconquest, in which Belisarius destroyed the Vandal kingdom of North Africa in a single campaign season.",
+  "details": "It was expected to fail, and instead took about nine months. Its success persuaded Justinian to attempt Italy, which took two decades and very nearly broke the empire.",
+  "outcome": "Decisive Roman victory; the Vandal kingdom abolished and Africa annexed as a praetorian prefecture.",
+  "background": "Gelimer deposed the pro-Roman king Hilderic in 530, giving Justinian a pretext. The court remembered the catastrophic expedition of 468 and opposed the war.",
+  "battle": "Belisarius landed unopposed in 533, beat the Vandal field army at Ad Decimum and entered Carthage, then broke Gelimer's reformed army at Tricamarum in December.",
+  "aftermath": "Gelimer surrendered in spring 534 and was led in a triumph at Constantinople. Africa was reorganised as a Roman prefecture, but Moorish revolts and army mutinies troubled it for years.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Vandalic War was Justinian's first attempt to reverse the collapse of the western empire, and by a wide margin his most successful.",
+        "A Roman army of around fifteen thousand under Belisarius sailed for Africa in 533 and destroyed a kingdom that had held the richest provinces of the west for a century. The whole business took roughly nine months.",
+        "Almost nothing about it was expected. The court in Constantinople had opposed the expedition, remembering that the last attempt on Carthage in 468 had bankrupted two empires."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Vandal kingdom had held Africa since 439 and had been the dominant naval power of the western Mediterranean, but by the 520s it was internally divided over religion and at odds with its Moorish neighbours.",
+        "In 530 Gelimer deposed and imprisoned his cousin Hilderic, a king friendly to Constantinople and tolerant of the Catholic majority. Justinian demanded his restoration, was refused, and had his casus belli.",
+        "His own advisers were against it. The disaster of 468, when a vast combined fleet was burned in the bay of Carthage, was still the reference point for what an African expedition cost."
+      ]
+    },
+    {
+      "title": "The campaign",
+      "paragraphs": [
+        "The fleet sailed in June 533 and landed in Africa unopposed, largely because Gelimer's best troops and his brother Tzazon were away suppressing a revolt in Sardinia.",
+        "Belisarius marched on Carthage, imposed strict discipline to keep the provincial population neutral, and beat the Vandal army at Ad Decimum in September. Carthage opened its gates.",
+        "Gelimer regrouped with Tzazon's returning troops and fought again at Tricamarum in December. That army broke too, Tzazon was killed, and the king fled to the Numidian highlands."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Gelimer held out on Mount Papua through the winter and surrendered in spring 534. He was taken to Constantinople and led in Belisarius's triumph — the first such procession for a private citizen in centuries and effectively the last of its kind.",
+        "Africa was reorganised as a praetorian prefecture and its Vandal fighting men were drafted into eastern regiments and posted to the Persian frontier, where many promptly mutinied.",
+        "The province was not quiet. Moorish revolts and mutinies among the Roman garrison troubled it for more than a decade, and holding Africa proved considerably harder than taking it."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It made the reconquest look possible. Justinian went into Italy the following year on the strength of this campaign, and the Gothic War that followed lasted two decades and did far more damage than it repaid.",
+        "It also made Belisarius. He returned with a captive king, a triumph and a reputation that carried him through the rest of the reign.",
+        "What it did not do was create a durable settlement. Africa stayed Roman for a century and a half, at real cost, until the Arab conquests removed it for good."
+      ]
+    },
+    {
+      "title": "Sources",
+      "paragraphs": [
+        "Almost everything known about this war comes from Procopius, who was Belisarius's legal secretary and present for the campaign.",
+        "That gives an eyewitness account of unusual quality, with detail about terrain, logistics and decision-making that is rare for the period.",
+        "It also gives an interested one. Procopius wrote to explain his patron's success, and the same man later wrote the Secret History, whose venom toward Justinian shows how much the public account was shaped. Both should be read together."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Belisarius",
+          "title": "Belisarius",
+          "type": "person",
+          "slug": "belisarius"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000",
+        "confidence": "estimated",
+        "note": "The figure Procopius gives for the expeditionary force; it was small for the task and Belisarius never had all of it in one place.",
+        "min": 13000,
+        "max": 16000
+      }
+    },
+    {
+      "side": "Vandal army",
+      "factions": [
+        {
+          "name": "Vandal Kingdom",
+          "title": "Vandal Kingdom",
+          "type": "location",
+          "slug": "vandal-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Gelimer",
+          "title": "Gelimer",
+          "type": "person",
+          "slug": "gelimer"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; probably comparable or larger",
+        "confidence": "debated",
+        "note": "No reliable figures survive. Procopius gives no total for the Vandal army, and modern estimates range widely."
+      }
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Commanded the expedition"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Ordered the war"
+      },
+      {
+        "title": "Gelimer",
+        "type": "person",
+        "slug": "gelimer",
+        "label": "The king who lost the kingdom"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ad Decimum",
+        "type": "event",
+        "slug": "battle-of-ad-decimum",
+        "label": "The first battle of the campaign"
+      },
+      {
+        "title": "Battle of Tricamarum",
+        "type": "event",
+        "slug": "battle-of-tricamarum",
+        "label": "The battle that ended it"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Vandal Kingdom",
+        "type": "location",
+        "slug": "vandal-kingdom",
+        "label": "The realm destroyed"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The empire that annexed it"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Vandalic War",
+      "url": "https://en.wikipedia.org/wiki/Vandalic_War",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Vandalic War campaign map",
+      "url": "https://commons.wikimedia.org/wiki/File:Vandalic_War_campaign_map.png",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

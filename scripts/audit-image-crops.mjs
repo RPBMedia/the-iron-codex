@@ -11,8 +11,9 @@
 //
 // Usage: node scripts/audit-image-crops.mjs
 import fs from 'node:fs'
+import { loadArchive } from '../server/data/archive.mjs'
 
-const data = JSON.parse(fs.readFileSync(new URL('../server/data/history.json', import.meta.url), 'utf8'))
+const data = loadArchive()
 
 const images = [] // { article, kind, url, file }
 for (const [collection, entries] of Object.entries(data)) {

@@ -1,0 +1,204 @@
+{
+  "id": "fall-of-constantinople",
+  "type": "event",
+  "name": "Fall of Constantinople",
+  "year": 1453,
+  "location": "Constantinople, Byzantine Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Benjamin-Constant-The_Entry_of_Mahomet_II_into_Constantinople-1876.jpg",
+  "summary": "Ottoman forces under Mehmed II captured Constantinople, ending the Byzantine Empire.",
+  "details": "After a determined siege, Ottoman artillery and infantry broke through the city's defenses on 29 May 1453. The conquest ended the Byzantine imperial line, gave the Ottomans a new imperial capital, and is often used as a closing marker for the European Middle Ages.",
+  "eventType": "Fall of City",
+  "leaders": [
+    {
+      "name": "Mehmed II",
+      "faction": "Ottoman besiegers",
+      "personId": "mehmed-ii"
+    },
+    {
+      "name": "Constantine XI Palaiologos",
+      "faction": "Byzantine defenders",
+      "personId": "constantine-xi-palaiologos"
+    }
+  ],
+  "background": [
+    "By the fifteenth century, the Byzantine Empire had been reduced largely to Constantinople and a few remaining territories.",
+    "Mehmed II prepared a major siege with artillery, naval pressure, and a determined claim to imperial legitimacy."
+  ],
+  "aftermath": "The city became the Ottoman capital, the Byzantine Empire ended, and 1453 became one of the conventional markers for the close of the European Middle Ages.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Fall of Constantinople took place on 29 May 1453, when Ottoman forces under Mehmed II captured the Byzantine capital after a weeks-long siege. Constantine XI Palaiologos died in the final defense, and the last remnant of the medieval Roman imperial state collapsed.",
+        "The conquest gave the Ottomans a capital of immense strategic and symbolic value. Constantinople controlled routes between the Black Sea and the Mediterranean, carried the prestige of Roman and Christian imperial history, and became the center from which the Ottoman Empire projected power into southeastern Europe, Anatolia, and the eastern Mediterranean."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By the mid-fifteenth century the Byzantine Empire was reduced to Constantinople, the Morea, and a few scattered dependencies. The city still possessed formidable Theodosian walls and enormous symbolic prestige, but it lacked the population, money, and military depth that had sustained earlier Byzantine power.",
+        "Mehmed II prepared the siege as both a military operation and an imperial claim. He built Rumeli Hisari on the Bosporus to control sea traffic, assembled heavy artillery including large bombards, and gathered land and naval forces intended to isolate the city from relief."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "The siege began in April 1453. Ottoman artillery battered the land walls while defenders repaired breaches, guarded the Golden Horn, and relied on a small mixed force of Byzantines, Genoese, Venetians, and other western volunteers. The chain across the Golden Horn complicated Ottoman naval movement until Mehmed's forces hauled ships overland into the harbor.",
+        "On 29 May, after repeated assaults and weeks of exhaustion, Ottoman troops broke through the defenses. Constantine XI was killed during the final fighting, though the precise circumstances of his death are not securely known. The city was taken, sacked according to the rules of conquest, and then reorganized as Mehmed's capital."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "Mehmed II directed the siege and used the victory to present himself as a conqueror with Roman as well as Islamic imperial ambitions. Constantine XI Palaiologos embodied the last Byzantine defense and became central to later Greek memory of the city's fall.",
+        "Other key participants included Giovanni Giustiniani Longo, whose Genoese troops helped defend the land walls, and Ottoman commanders and engineers responsible for artillery, naval movement, and assault coordination. The outcome depended on logistics and siegecraft as much as on royal ambition."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The Byzantine Empire ended as a political state, and Constantinople became the Ottoman capital. Mehmed repopulated and reorganized the city, restored religious and commercial functions under Ottoman authority, and used its imperial past to strengthen his own legitimacy.",
+        "The fall shocked Christian Europe, although western aid had been limited before the siege. It redirected diplomacy, crusading rhetoric, trade calculations, and humanist memory, while Ottoman possession of the city reshaped the balance of power in the eastern Mediterranean."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The conquest is one of the great turning points of late medieval history because it ended the thousand-year medieval continuation of Roman rule at Constantinople and confirmed the Ottomans as an imperial power with a world capital.",
+        "Its use as a neat end date for the Middle Ages is conventional rather than absolute. The event mattered differently in Byzantine, Ottoman, Latin Christian, Orthodox, and later national histories, which is why the military siege and its symbolic afterlife must be kept distinct."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "The Entry of Mehmed II into Constantinople by Benjamin-Constant.",
+    "creator": "Benjamin-Constant",
+    "date": "1876",
+    "source": "Wikimedia Commons",
+    "note": "A later romanticized painting of the Ottoman entry into the city, not a contemporary eyewitness image."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Benjamin-Constant-The_Entry_of_Mahomet_II_into_Constantinople-1876.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Fall of Constantinople",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Ottoman besiegers",
+      "factions": [
+        {
+          "name": "Ottoman Empire",
+          "title": "Ottoman Empire",
+          "type": "location",
+          "slug": "ottoman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Mehmed II",
+          "title": "Mehmed II",
+          "type": "person",
+          "slug": "mehmed-ii"
+        }
+      ],
+      "strength": {
+        "display": "c. 50,000–80,000 (chronicle claims up to 200,000+ are inflated)",
+        "confidence": "chronicle-claim",
+        "note": "A very large besieging army with heavy cannon; the highest medieval figures are exaggerated, but the Ottomans hugely outnumbered the defenders."
+      }
+    },
+    {
+      "side": "Byzantine defenders",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Constantine XI Palaiologos",
+          "title": "Constantine XI Palaiologos",
+          "type": "person",
+          "slug": "constantine-xi-palaiologos"
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–10,000, including a small foreign contingent",
+        "confidence": "estimated",
+        "note": "A tiny garrison, including Genoese and Venetian volunteers, defending walls far too long for its numbers."
+      }
+    }
+  ],
+  "factions": [
+    "Ottoman Empire",
+    "Byzantine Empire"
+  ],
+  "outcome": "Ottoman victory; Constantinople fell and became the new Ottoman imperial capital.",
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Commander"
+      },
+      {
+        "title": "Constantine XI Palaiologos",
+        "type": "person",
+        "slug": "constantine-xi-palaiologos",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Location"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Where the siege was prepared"
+      }
+    ],
+    "events": [
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "The city recovered in 1261, and held for another 192 years"
+      }
+    ]
+  }
+}

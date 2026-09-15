@@ -1,0 +1,225 @@
+{
+  "id": "gothic-war",
+  "type": "event",
+  "eventType": "War",
+  "name": "Gothic War",
+  "year": 535,
+  "location": "Italy",
+  "eventLocation": "Italy, Sicily and Dalmatia",
+  "conflict": "Justinian's wars of reconquest",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erster%20und%20Zweiter%20Gotenkrieg.png",
+  "imageInfo": {
+    "caption": "The Gothic War in Italy, showing the Byzantine advance of 535–540 and the Gothic recovery under Totila that followed.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the war of 535–554",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erster_und_Zweiter_Gotenkrieg.png",
+    "note": "A modern map, used because it shows both phases of the war — the rapid conquest and the long reversal — which is the shape of the whole conflict. Licensed CC BY-SA."
+  },
+  "summary": "The Gothic War of 535–554 was Justinian's attempt to reconquer Italy. It took nineteen years, destroyed the Ostrogothic kingdom, and ruined Italy in the process.",
+  "details": "Africa had fallen in nine months, so Italy was expected to be straightforward. It was the longest and most destructive of the reconquest wars.",
+  "outcome": "Byzantine victory; the Ostrogothic kingdom abolished and Italy annexed — an exhausted province lost largely to the Lombards within fifteen years.",
+  "background": "Theodahad's murder of Amalasuintha in 535 gave Justinian a justification for war, following his success against the Vandals two years earlier.",
+  "battle": "Belisarius took Sicily, Naples, Rome and Ravenna by 540. Totila then recovered nearly all of Italy before Narses destroyed the Gothic army at Taginae in 552.",
+  "aftermath": "Italy was depopulated, Rome reduced to a fraction of its size, and the Senate ceased to function. The Lombards invaded in 568 and took much of the peninsula.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Gothic War was Justinian's attempt to take Italy back from the Ostrogoths, and it is the war that broke the reconquest.",
+        "It was expected to be quick. The Vandal kingdom had fallen in nine months in 533–534, and Italy was invaded in the same confident spirit two years later.",
+        "It lasted nineteen years, consumed men and money the empire could not spare, and left Italy in a condition from which it did not recover for centuries."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Theodoric's death in 526 left the Ostrogothic kingdom with a child king and a regency, and the regent Amalasuintha was murdered by her co-ruler Theodahad in 535.",
+        "Justinian had been in correspondence with her, and her death gave him a justification. Whether he engineered the opportunity or simply seized it is not recoverable from the sources.",
+        "The African campaign had made the enterprise look cheap, and the Gothic kingdom was internally divided and led by a man his own nobles despised."
+      ]
+    },
+    {
+      "title": "The first phase, 535–540",
+      "paragraphs": [
+        "Belisarius took Sicily in 535 with almost no fighting, crossed to the mainland, and captured Naples and then Rome in 536.",
+        "Vitiges besieged him in Rome for a year and nine days and failed to take it, and the Gothic position unravelled from there.",
+        "In 540 Belisarius entered Ravenna. Offered the western empire by the Goths as a way to end the war, he appeared to accept, took the city, and handed it to Justinian. The war looked won."
+      ]
+    },
+    {
+      "title": "The second phase, 541–552",
+      "paragraphs": [
+        "It was not. Totila became king in 541 and, with a fraction of the forces the Byzantines had, took back nearly all of Italy within a decade.",
+        "Rome changed hands four times. Belisarius returned in 544 to a war that was now being fought without adequate men or money, and achieved little.",
+        "Totila repeatedly offered terms; Justinian repeatedly refused. The war ground on because neither side could finish it and one side would not stop."
+      ]
+    },
+    {
+      "title": "The end, 551–554",
+      "paragraphs": [
+        "In 551 Justinian finally sent an army large enough for the task, under Narses, with the money to pay it.",
+        "Narses destroyed the Gothic army at Taginae in 552 and killed Totila; he destroyed its successor and Teias at Mons Lactarius the following year.",
+        "Gothic garrisons and Frankish invasions occupied several more years, and the Pragmatic Sanction of 554 formally reorganised Italy as an imperial province."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "Italy was devastated. Rome had changed hands repeatedly and was reduced to a fraction of its population; the aqueducts were cut and never fully restored; the Senate disappears from the record within a generation.",
+        "The empire had spent nineteen years and enormous resources at the same time as plague and a permanent Persian frontier, and the reconquest was never consolidated.",
+        "In 568 the Lombards invaded and took much of the peninsula against little resistance, so the Italy Justinian won was largely lost within fifteen years of winning it."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It is the counter-example to the Vandalic War, and the two should be read together: the same emperor, the same strategy and, in the first phase, the same general, with opposite results.",
+        "The difference was the opponent and the commitment. Africa faced a divided kingdom with an unpopular king; Italy produced Totila, and the empire refused to fund the war properly until the sixteenth year of it.",
+        "It is the clearest case in this archive of a war that achieved every stated objective and destroyed the thing it was fought to recover."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Belisarius",
+          "title": "Belisarius",
+          "type": "person",
+          "slug": "belisarius"
+        },
+        {
+          "name": "Narses",
+          "title": "Narses",
+          "type": "person",
+          "slug": "narses"
+        }
+      ],
+      "strength": {
+        "display": "c. 7,500 initially; c. 25,000–35,000 under Narses in 552",
+        "confidence": "estimated",
+        "note": "Belisarius invaded with a very small force and was starved of reinforcement for most of the war; Narses was finally given an army adequate to the task."
+      }
+    },
+    {
+      "side": "Ostrogothic army",
+      "factions": [
+        {
+          "name": "Ostrogothic Kingdom",
+          "title": "Ostrogothic Kingdom",
+          "type": "location",
+          "slug": "ostrogothic-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Totila",
+          "title": "Totila",
+          "type": "person",
+          "slug": "totila"
+        },
+        {
+          "name": "Teias",
+          "title": "Teias",
+          "type": "person",
+          "slug": "teias"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; probably tens of thousands at its height",
+        "confidence": "debated",
+        "note": "No reliable figures survive for Gothic strength at any point in the war, and Procopius's numbers are not consistent."
+      }
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Commanded the first phase"
+      },
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "Commanded the final phase"
+      },
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "Nearly reversed the conquest"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Ordered and prolonged the war"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Rome",
+        "type": "event",
+        "slug": "siege-of-rome-537",
+        "label": "Its most famous defensive action"
+      },
+      {
+        "title": "Battle of Taginae",
+        "type": "event",
+        "slug": "battle-of-taginae",
+        "label": "The battle that decided it"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign that made it look easy"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm destroyed"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Fought over four times"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Gothic War (535–554)",
+      "url": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Early Christian monuments of Ravenna",
+      "url": "https://whc.unesco.org/en/list/788/",
+      "type": "institution",
+      "institution": "UNESCO World Heritage Centre"
+    }
+  ]
+}

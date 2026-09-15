@@ -1,0 +1,207 @@
+{
+  "id": "battle-of-patay",
+  "type": "event",
+  "name": "Battle of Patay",
+  "year": 1429,
+  "location": "Near Patay, north of Orléans",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vigiles_du_roi_Charles_VII_42.jpg",
+  "imageInfo": {
+    "caption": "The battle of Patay (1429), miniature from Martial d'Auvergne's Vigiles de Charles VII, c. 1484.",
+    "creator": "Unknown miniaturist",
+    "date": "c. 1484",
+    "source": "Bibliothèque nationale de France, Ms. Français 5054 — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vigiles_du_roi_Charles_VII_42.jpg",
+    "note": "A French manuscript depiction made half a century after the battle; public domain."
+  },
+  "summary": "On 18 June 1429 the French vanguard caught the English field army before it could form its battle line near Patay, destroying it and capturing John Talbot — the reverse image of Agincourt.",
+  "details": "Patay was the climax of the Loire campaign that followed the relief of Orléans. As the English army under Talbot and Fastolf retreated north, French heavy cavalry under La Hire and Poton de Xaintrailles surprised its rearguard before the archers could plant their stakes. The unprotected longbowmen were ridden down, the army disintegrated, and Talbot was taken prisoner. English losses ran over two thousand; the French lost a handful of men.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "La Hire (Étienne de Vignolles)",
+      "faction": "French vanguard"
+    },
+    {
+      "name": "Poton de Xaintrailles",
+      "faction": "French vanguard"
+    },
+    {
+      "name": "John Talbot",
+      "faction": "English army",
+      "personId": "john-talbot"
+    },
+    {
+      "name": "Sir John Fastolf",
+      "faction": "English army"
+    }
+  ],
+  "outcome": "Crushing French victory; the English field army was destroyed and John Talbot captured.",
+  "participants": [
+    {
+      "side": "French army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "La Hire (Étienne de Vignolles)",
+          "type": "person",
+          "note": "No article yet: one of the two captains whose vanguard caught the English archers before their stakes were planted."
+        },
+        {
+          "name": "Poton de Xaintrailles",
+          "type": "person",
+          "note": "No article yet: the other, later marshal of France."
+        }
+      ],
+      "strength": {
+        "display": "Several thousand; a fast-moving vanguard led the attack",
+        "confidence": "estimated",
+        "note": "A French cavalry vanguard caught the English before they could complete their defensive position."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John Talbot",
+          "type": "person",
+          "slug": "john-talbot"
+        },
+        {
+          "name": "Sir John Fastolf",
+          "type": "person",
+          "note": "No article yet: the English commander who escaped the rout and was stripped of the Garter for it, later restored."
+        }
+      ],
+      "strength": {
+        "display": "c. 3,000–5,000",
+        "confidence": "estimated",
+        "note": "The English field army was destroyed before its archers could deploy their stakes; exact numbers are uncertain."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of Patay, fought on 18 June 1429 on the plain north of Orléans, completed what the relief of the city had begun. For the first time in the war, a French army destroyed an English field army in open country — not by outlasting it in a siege, but by catching it at its moment of weakness and striking before the famous defensive line could form.",
+        "The numbers tell the story of how completely the pattern of the war inverted. At Agincourt the French had lost thousands against a few hundred English dead. At Patay the English lost perhaps 2,000 to 2,500 killed or captured out of some 5,000; French casualties were reported in the tens. The English commander John Talbot — the most feared soldier of Lancastrian France — began the day directing a rearguard and ended it a prisoner."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After abandoning the siege of Orléans on 8 May 1429, the English tried to hold their chain of Loire towns. The French army, with Joan of Arc accompanying and the Duke of Alençon in command, took them in quick succession in mid-June: Jargeau on the 12th, where Suffolk was captured; the Meung bridge on the 15th; Beaugency, surrendered on the 17th. That same day Sir John Fastolf arrived from Paris with reinforcements, joining Talbot's troops.",
+        "The English commanders disagreed about what to do next — Fastolf, by his own later account, urged withdrawal; Talbot insisted on standing. When Beaugency's fall removed the last reason to remain, the combined army began retreating north toward Janville and Paris on the morning of 18 June, with the French army following at speed. Joan, asked whether to pursue, reportedly answered that they would need good spurs, for the enemy would be beaten."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The English plan for facing pursuit was the standard one: find good ground, dismount, plant the archers' stakes, and let the French break themselves on the line. Near Patay, Talbot posted some five hundred picked archers as a screen along a sunken road to buy time while the main body formed on high ground behind. It was the system of Crécy and Agincourt — but it needed minutes the French did not grant.",
+        "A stag blundering through the English positions drew a shout from the hidden archers, betraying their position to the French scouts. The vanguard of French heavy cavalry — some 1,500 men under La Hire and Xaintrailles — charged immediately, without waiting for the main body. The stakes were not planted; the screen was ridden down from the flank, and the cavalry rolled straight on into the main body still forming up. Fastolf's mounted division, unable to reach the line in time, turned for Janville; the sight broke what remained of English cohesion, and the battle became a slaughter of infantry caught in open country by armoured horsemen."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Talbot was taken prisoner — he remained in French hands for four years — and Fastolf reached Paris with the survivors, where Bedford stripped him of the Garter for leaving the field, restoring it only after an inquiry. The English field presence between the Loire and Paris ceased to exist for the rest of the campaign season.",
+        "The road north lay open, and Charles VII used it for the purpose Joan had urged from the beginning: the coronation march. Town after town opened its gates — Auxerre, Troyes, Châlons — and on 17 July 1429, twenty-nine days after Patay, Charles was anointed King of France at Reims. The battle's political product was the legitimacy of the Valois crown."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Patay demolished the myth of the invincible English tactical system by demonstrating its precondition: time to deploy. French commanders had absorbed the lessons of a century of defeats — do not charge a prepared line; strike before it exists. The mounted vanguard that won Patay was the instrument of that doctrine, and it pointed toward the professional compagnies d'ordonnance with which Charles VII would finish the war.",
+        "For the longbow itself, Patay began the eclipse that Formigny and Castillon completed a generation later, when artillery joined cavalry in making the static archer line obsolete. The weapon that had defined the war at Crécy, Poitiers, and Agincourt never won another great battle in France."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Vigiles de Charles VII miniature",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Vigiles_du_roi_Charles_VII_42.jpg"
+    },
+    {
+      "title": "Battle of Patay — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Patay"
+    },
+    {
+      "title": "The Hundred Years War, vol. 4: Cursed Kings",
+      "author": "Jonathan Sumption",
+      "type": "book",
+      "note": "Covers the Loire campaign and Patay within the narrative of 1429."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Joan of Arc",
+        "type": "person",
+        "slug": "joan-of-arc",
+        "label": "Accompanied the pursuing army"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Orléans",
+        "type": "event",
+        "slug": "siege-of-orleans",
+        "label": "The siege whose relief began the campaign"
+      },
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "The pattern Patay reversed"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "The reconquest gathers pace",
+    "battleSlug": "battle-of-formigny",
+    "relationship": "same-war",
+    "reason": "Patay opened the road to Charles VII's coronation at Reims; two decades later his reformed royal army, now built around cannon as much as cavalry, destroyed England's last field force in Normandy at Formigny."
+  }
+}

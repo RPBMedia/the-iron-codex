@@ -1,0 +1,129 @@
+{
+  "id": "bayeux-tapestry",
+  "type": "artifact",
+  "name": "Bayeux Tapestry",
+  "year": 1070,
+  "location": "Normandy, France",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+  "summary": "An eleventh-century embroidered narrative of the Norman Conquest, preserved at Bayeux.",
+  "details": "An eleventh-century embroidered narrative of the Norman Conquest, preserved at Bayeux.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Bayeux Tapestry is an eleventh-century embroidery on linen that narrates the events leading to the Norman Conquest of England and the Battle of Hastings. It is roughly 70 meters long and combines Latin captions with scenes of oath-taking, shipbuilding, feasting, battle, death, and royal display.",
+        "Its power comes from the way it works as both evidence and argument. It preserves visual information about ships, weapons, horses, clothing, architecture, and ceremony, while also presenting a Norman-friendly account in which Harold Godwinson's oath and William's victory support the legitimacy of conquest."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "Despite its name, the object is not a woven tapestry but an embroidery, worked mainly in wool thread on linen. Its long frieze format creates a moving narrative: figures gesture, ride, feast, build ships, cross the Channel, and fight across a continuous visual field.",
+        "The upper and lower borders contain animals, fables, decorative motifs, and occasional scenes that comment on or complicate the central story. The Latin tituli identify figures and actions, but much of the interpretation depends on visual sequencing and political context."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The tapestry was probably made in the late eleventh century, close enough to the conquest to preserve early Norman memory of 1066. Its exact patron remains debated, though Odo of Bayeux, William the Conqueror's half-brother, is often discussed because Bayeux and several of Odo's followers appear prominently.",
+        "The workshop is also uncertain. Some scholars have argued for English embroidery traditions because Anglo-Saxon needlework was highly regarded, while the narrative serves Norman political interests. The object therefore sits at the intersection of conquest, patronage, and cross-Channel artistic skill."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "The narrative begins with Edward the Confessor and follows Harold's journey to Normandy, his oath to William, the appearance of Halley's Comet, the Norman invasion fleet, and the battle itself. It frames Hastings as the resolution of a broken oath and a contested succession.",
+        "Historians use it cautiously. The tapestry is invaluable for material culture and Norman memory, but it is not neutral reportage. It omits, compresses, and emphasizes events to make conquest appear legitimate and providential."
+      ]
+    },
+    {
+      "title": "Current location and legacy",
+      "paragraphs": [
+        "The tapestry is preserved at Bayeux in Normandy, where its survival is extraordinary given its age, textile fragility, and political importance. It has become one of the most recognizable medieval objects in the world.",
+        "Its legacy reaches beyond art history. The Bayeux Tapestry shapes how modern readers imagine 1066: the ships, the cavalry, the shield wall, the death of Harold, and the visual drama of conquest all owe much to this single embroidered narrative."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Scene from the Bayeux Tapestry showing the death of Harold.",
+    "creator": "Unknown embroidery workshop",
+    "date": "late 11th century",
+    "source": "Bayeux Museum / Wikimedia Commons",
+    "note": "Near-contemporary visual narrative with a Norman political perspective."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Bayeux Tapestry",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/topic/Bayeux-Tapestry"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Narrates the Norman conquest"
+      }
+    ],
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Depicts his conquest of England"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "His defeat and death are central to the work"
+      },
+      {
+        "title": "Edith of Wessex",
+        "type": "person",
+        "slug": "edith-of-wessex",
+        "label": "Queen probably shown at Edward's deathbed"
+      },
+      {
+        "title": "Matilda of Flanders",
+        "type": "person",
+        "slug": "matilda-of-flanders",
+        "label": "Queen wrongly credited with making it"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Norman work commemorating the conquest"
+      },
+      {
+        "title": "Hastings",
+        "type": "location",
+        "slug": "hastings",
+        "label": "Shows the castle dug at Hastings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "fall-of-western-rome",
+  "type": "event",
+  "name": "Fall of the Western Roman Empire",
+  "year": 476,
+  "location": "Ravenna, Italy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Gold_Solidus_of_Romulus_Augustulus.jpg",
+  "summary": "Odoacer deposed Romulus Augustulus, ending imperial rule in the western Roman court.",
+  "details": "In 476, Odoacer removed the teenage emperor Romulus Augustulus and sent the imperial regalia to Constantinople. Western Roman administration did not vanish overnight, but the event became a powerful historical marker: the Latin west was now ruled by successor kingdoms, bishops, local aristocracies, and military leaders who adapted Roman systems to new political realities.",
+  "eventType": "Fall of Kingdom",
+  "background": [
+    "By the fifth century, the western Roman imperial office had become fragile, dependent on military strongmen and negotiated authority with Germanic federate leaders.",
+    "The deposition of Romulus Augustulus did not instantly erase Roman institutions, but it ended the line of western emperors recognized from Italy."
+  ],
+  "aftermath": "Odoacer ruled Italy in the name of the eastern emperor, while western Europe continued to fragment into successor kingdoms that adapted Roman law, taxation, cities, and church structures.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Odoacer deposed Romulus Augustulus, ending imperial rule in the western Roman court."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By the fifth century, the western Roman imperial office had become fragile, dependent on military strongmen and negotiated authority with Germanic federate leaders.",
+        "The deposition of Romulus Augustulus did not instantly erase Roman institutions, but it ended the line of western emperors recognized from Italy."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "In 476, Odoacer removed the teenage emperor Romulus Augustulus and sent the imperial regalia to Constantinople. Western Roman administration did not vanish overnight, but the event became a powerful historical marker: the Latin west was now ruled by successor kingdoms, bishops, local aristocracies, and military leaders who adapted Roman systems to new political realities."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "Romulus Augustulus (last western emperor), Odoacer (Germanic chieftain who deposed him), and Zeno of Constantinople (eastern emperor who received the western imperial regalia)."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "Odoacer ruled Italy in the name of the eastern emperor, while western Europe continued to fragment into successor kingdoms that adapted Roman law, taxation, cities, and church structures."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Fall of the Western Roman Empire matters because it reveals how medieval authority was made through conflict, ritual, writing, negotiation, and memory."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Gold solidus of Romulus Augustulus, the last western emperor whose deposition in 476 became a later marker for the fall of the Western Roman Empire.",
+    "creator": "Late Roman mint",
+    "date": "late 5th century",
+    "source": "Wikimedia Commons",
+    "note": "A surviving coin of Romulus Augustulus, used as material evidence for the final western imperial regime rather than a narrative scene."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Gold_Solidus_of_Romulus_Augustulus.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: fall of Rome",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/fall-of-Rome"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "The imperial capital"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The surviving eastern Roman empire"
+      },
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "Later western imperial revival"
+      }
+    ],
+    "events": [
+      {
+        "title": "Charlemagne Crowned Emperor",
+        "type": "event",
+        "slug": "charlemagne-crowned",
+        "label": "Revived a western imperial title in 800"
+      }
+    ]
+  }
+}

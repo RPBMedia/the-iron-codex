@@ -1,0 +1,176 @@
+{
+  "id": "yaqub-al-mansur",
+  "type": "character",
+  "name": "Yaqub al-Mansur",
+  "aliases": [
+    "Abu Yusuf Yaqub al-Mansur",
+    "Ya'qub al-Mansur",
+    "Almanzor (Almohad)",
+    "al-Mansur (Almohad)"
+  ],
+  "born": "c. 1160",
+  "died": "1199",
+  "deathAge": "about 39",
+  "restingPlace": "Tinmel, Morocco",
+  "birth": {
+    "date": "c. 1160",
+    "place": {
+      "name": "the Almohad realm (Morocco)"
+    }
+  },
+  "death": {
+    "date": "1199",
+    "place": {
+      "name": "Marrakesh",
+      "slug": "marrakesh"
+    }
+  },
+  "location": "Marrakesh and al-Andalus",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Sevilla_Cathedral_-_Giralda.jpg",
+  "title": "Almohad caliph",
+  "isRuler": true,
+  "roles": [
+    "Almohad caliph",
+    "Victor of Alarcos"
+  ],
+  "epithets": [
+    {
+      "name": "al-Mansur",
+      "type": "honorific",
+      "note": "\"The Victorious\", taken after his victory at Alarcos in 1195."
+    }
+  ],
+  "summary": "Yaqub al-Mansur was the third Almohad caliph, whose reign (1184–1199) marked the height of Almohad power: he crushed Castile at Alarcos in 1195 and adorned his empire with monuments such as the Giralda of Seville.",
+  "details": "Ruling an empire that spanned the Maghreb and al-Andalus, Yaqub defeated Alfonso VIII at Alarcos, patronised (then exiled) the philosopher Averroes, and built great works before dying in 1199, leaving the throne to his son Muhammad al-Nasir.",
+  "overview": "Yaqub al-Mansur brought the Almohad caliphate to its zenith, a peak of military power and monumental building that his successors could not sustain.",
+  "quickFacts": {
+    "realm": "Almohad Caliphate",
+    "dynasty": "Almohad dynasty",
+    "culture": "Almohad (Berber)",
+    "knownFor": "Victory at Alarcos (1195); the Giralda of Seville"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Abu Yusuf Yaqub al-Mansur was the third caliph of the Almohad dynasty, ruling from 1184 to 1199 over an empire that reached from Morocco across al-Andalus. His reign is remembered as the summit of Almohad power.",
+        "His defining moment was the crushing defeat of Alfonso VIII of Castile at Alarcos in 1195, after which he took the title al-Mansur, \"the Victorious\". He was also a great builder and a patron of learning, though the empire's strength did not long outlive him."
+      ]
+    },
+    {
+      "title": "Caliph, victor and builder",
+      "paragraphs": [
+        "Yaqub inherited a powerful state and defended it vigorously on both sides of the strait. His victory at Alarcos in 1195 halted the Castilian advance and briefly recovered the Tagus frontier, and it gave him his triumphal name.",
+        "He was a notable patron of architecture and thought, raising the Giralda minaret of the great mosque of Seville and the Hassan Tower of Rabat, and for a time protecting the philosopher Averroes (Ibn Rushd) before bowing to religious hardliners and exiling him. He died in 1199 and was succeeded by his son Muhammad al-Nasir, whose defeat at Las Navas de Tolosa would undo much of what his father built."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources present Yaqub as a capable, pious and forceful ruler — a caliph who took the field in person, governed a vast empire firmly, and cultivated an image of victorious majesty that his adopted title advertised. His great buildings were as much statements of Almohad authority as works of devotion.",
+        "His treatment of Averroes captures a tension in him: drawn to philosophy and learning, he nonetheless sacrificed his famous protégé to placate conservative religious opinion when it suited his authority. He emerges as a pragmatic strong ruler rather than a zealot or a pure patron, judged by contemporaries above all through the great victory that named him."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Brought the Almohad caliphate to its height",
+    "Won the Battle of Alarcos over Alfonso VIII (1195)",
+    "Built the Giralda of Seville and the Hassan Tower of Rabat"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1160",
+      "title": "Born",
+      "description": "Born into the Almohad ruling house."
+    },
+    {
+      "date": "1184",
+      "title": "Became caliph",
+      "description": "Succeeded his father Abu Yaqub Yusuf as Almohad caliph."
+    },
+    {
+      "date": "1195",
+      "title": "Battle of Alarcos",
+      "description": "Crushed Alfonso VIII of Castile and took the title al-Mansur."
+    },
+    {
+      "date": "1195–1198",
+      "title": "Building and patronage",
+      "description": "Raised the Giralda and the Hassan Tower; patronised then exiled Averroes."
+    },
+    {
+      "date": "1199",
+      "title": "Died",
+      "description": "Died at Marrakesh; succeeded by his son Muhammad al-Nasir."
+    }
+  ],
+  "succession": {
+    "office": "Almohad caliph",
+    "predecessor": {
+      "displayName": "Abu Yaqub Yusuf",
+      "note": "His father, the second Almohad caliph."
+    },
+    "successor": {
+      "personSlug": "muhammad-al-nasir",
+      "displayName": "Muhammad al-Nasir",
+      "note": "His son, defeated at Las Navas de Tolosa."
+    }
+  },
+  "imageInfo": {
+    "caption": "The Giralda, the minaret of the great mosque of Seville, built under the Almohad caliph Yaqub al-Mansur (no likeness of him survives).",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Minaret built c. 1184–1198",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sevilla_Cathedral_-_Giralda.jpg",
+    "license": "Creative Commons",
+    "note": "A monument of his reign, used because no portrait of the caliph exists; the upper Renaissance belfry is a later addition."
+  },
+  "sources": [
+    {
+      "title": "Yaqub al-Mansur",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Yaqub_al-Mansur"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Alarcos",
+        "type": "event",
+        "slug": "battle-of-alarcos",
+        "label": "His great victory"
+      }
+    ],
+    "people": [
+      {
+        "title": "Muhammad al-Nasir",
+        "type": "person",
+        "slug": "muhammad-al-nasir",
+        "label": "His son and successor"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Almohad dynasty",
+        "type": "house",
+        "slug": "almohad-dynasty",
+        "label": "The dynasty he led"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Almohad Caliphate",
+        "type": "location",
+        "slug": "almohad-caliphate",
+        "label": "The caliphate he ruled"
+      },
+      {
+        "title": "Marrakesh",
+        "type": "location",
+        "slug": "marrakesh",
+        "label": "Built its kasbah and mosque"
+      }
+    ]
+  }
+}

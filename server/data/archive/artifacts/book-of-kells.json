@@ -1,0 +1,99 @@
+{
+  "id": "book-of-kells",
+  "type": "artifact",
+  "name": "Book of Kells",
+  "year": 800,
+  "location": "Ireland or Iona",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KellsFol032vChristEnthroned.jpg",
+  "summary": "A lavishly illuminated Gospel book from the Insular monastic world.",
+  "details": "The Book of Kells combines Christian scripture with intricate ornament, animal forms, and interlacing designs. It represents the artistic sophistication of early medieval monastic manuscript culture.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Book of Kells is a lavish illuminated Gospel book from the Insular monastic world, famous for intricate ornament and sacred visual imagination."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "Its pages combine Christian scripture with interlace, animal forms, vibrant initials, and symbolic figuration. The decoration does not merely embellish the text; it creates a devotional experience."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The manuscript is usually dated around 800 and associated with Iona, Kells, or the movement of monastic communities under Viking pressure. Exact production circumstances remain debated."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "The book belongs to a world of monastic scholarship, liturgy, pilgrimage, and manuscript labor linking Ireland, Britain, and the wider Latin church."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Book of Kells remains one of the most celebrated works of medieval art and a central witness to Insular manuscript culture. Its decorated initials, evangelist imagery, and dense ornament show how early medieval monastic communities used books not only for reading scripture but for displaying sacred beauty, learning, and institutional prestige."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Christ enthroned page from the Book of Kells.",
+    "creator": "Insular monastic scribes and artists",
+    "date": "c. 800",
+    "source": "Trinity College Dublin / Wikimedia Commons",
+    "note": "Image of the surviving illuminated manuscript."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:KellsFol032vChristEnthroned.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Book of Kells",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/topic/Book-of-Kells"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "artifacts": [
+      {
+        "title": "Lindisfarne Gospels",
+        "type": "artifact",
+        "slug": "lindisfarne-gospels",
+        "label": "Related insular illuminated gospel book"
+      },
+      {
+        "title": "Royal Frankish Annals",
+        "type": "artifact",
+        "slug": "royal-frankish-annals",
+        "label": "Comparable major early-medieval manuscript"
+      },
+      {
+        "title": "Codex Gigas",
+        "type": "artifact",
+        "slug": "codex-gigas",
+        "label": "Comparable major medieval manuscript"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Centre of the wider insular manuscript tradition"
+      }
+    ]
+  }
+}

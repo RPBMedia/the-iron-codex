@@ -1,0 +1,208 @@
+{
+  "id": "battle-of-mohi",
+  "name": "Battle of Mohi",
+  "year": 1241,
+  "location": "Muhi, on the Sajó river, Hungary",
+  "eventType": "Battle",
+  "conflict": "Mongol invasion of Europe",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Mohi_1241.PNG",
+  "imageInfo": {
+    "caption": "The Battle of Mohi (1241), miniature from a manuscript of Hayton of Corycus's La Flor des estoires de la terre d'Orient.",
+    "creator": "Manuscript illuminator",
+    "date": "14th century",
+    "source": "Hayton of Corycus manuscript — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Mohi_1241.PNG",
+    "note": "A 14th-century manuscript depiction, later than the battle."
+  },
+  "summary": "At Mohi in 1241 the Mongols under Batu and Subutai annihilated the army of Béla IV of Hungary, opening the kingdom to a devastating invasion that only the Great Khan's death cut short.",
+  "details": "On 11 April 1241 the Mongol army of Batu Khan and the general Subutai destroyed the Hungarian royal army of Béla IV at Mohi on the Sajó river, days after another Mongol force crushed the Poles and Germans at Legnica. The Mongols overran Hungary; the withdrawal came only in 1242 with news of the Great Khan Ögedei's death.",
+  "factions": [
+    "Kingdom of Hungary",
+    "Mongol Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Béla IV of Hungary",
+      "faction": "Hungary",
+      "personId": "bela-iv-of-hungary"
+    },
+    {
+      "name": "Batu Khan",
+      "faction": "Mongols",
+      "personId": "batu-khan"
+    },
+    {
+      "name": "Subutai",
+      "faction": "Mongols",
+      "personId": "subutai"
+    }
+  ],
+  "outcome": "Decisive Mongol victory; the Hungarian army was destroyed and the kingdom overrun until the 1242 withdrawal.",
+  "participants": [
+    {
+      "side": "Hungary",
+      "strength": {
+        "display": "c. 25,000–30,000 (estimates vary widely)",
+        "confidence": "debated",
+        "note": "Figures are disputed; the royal army with its magnate contingents is usually estimated in the low tens of thousands.",
+        "min": 25000,
+        "max": 30000
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Hungary",
+          "title": "Kingdom of Poland",
+          "type": "location",
+          "slug": "kingdom-of-poland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Béla IV of Hungary",
+          "type": "person",
+          "slug": "bela-iv-of-hungary"
+        }
+      ]
+    },
+    {
+      "side": "Mongols",
+      "strength": {
+        "display": "a Mongol tumen-based army, size debated",
+        "confidence": "debated",
+        "note": "The western Mongol army under Batu and Subutai is variously estimated; precise numbers are not securely known."
+      },
+      "factions": [
+        {
+          "name": "Mongol Empire",
+          "title": "Seljuk Turks",
+          "type": "location",
+          "slug": "seljuk-turks"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Batu Khan",
+          "type": "person",
+          "slug": "batu-khan"
+        },
+        {
+          "name": "Subutai",
+          "type": "person",
+          "slug": "subutai"
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Mohi, fought on 11 April 1241 on the Sajó river in eastern Hungary, was the Mongols' decisive victory in their invasion of Central Europe. The army of Batu Khan and the veteran general Subutai encircled and destroyed the royal host of Béla IV of Hungary, and in the same week another Mongol column annihilated a Polish-German army at Legnica in Silesia.",
+        "Mohi opened the Kingdom of Hungary to a year of devastation that contemporaries thought the end of Christendom's eastern flank. Only the death of the Great Khan Ögedei in distant Mongolia, and the succession politics that recalled the princes, ended the invasion in 1242 — a reprieve Europe owed to Mongol dynastic accident, not to its own arms."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Mongol western campaign under Batu and Subutai had already destroyed the Rus' principalities — Kiev fell in December 1240 — before turning on Hungary, whose king Béla IV had sheltered the fugitive Cumans the Mongols regarded as subjects. A two-pronged invasion crossed the Carpathians in spring 1241.",
+        "Béla gathered the royal army and the magnate contingents at Pest and marched east to the Sajó, camping in a fortified wagon-laager near the bridge at Mohi — a strong defensive position, but a cramped one that the Mongols would turn into a trap."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "Béla IV commanded the assembled feudal host of Hungary, its numbers disputed but usually put in the low tens of thousands, strong in heavily armoured knights but divided in counsel and unused to the Mongol way of war. His brother Coloman and the archbishop of Esztergom led major contingents.",
+        "The Mongols under Batu Khan and Subutai fought as they always did: mobile horse-archer tumens, feigned retreat, encirclement, and siege engineering (Chinese-style artillery covered the bridge assault). Precise numbers are not securely known."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Mongols forced the Sajó bridge under covering bombardment at dawn while Subutai led a column across a ford downstream to take the Hungarians in the rear. The royal army, penned in its wagon-fort, was surrounded and pounded; when the Mongols deliberately left a gap in the encirclement, the panicking Hungarians fled through it into a running massacre along the roads to Pest.",
+        "Much of the Hungarian nobility and both the archbishops died; Béla IV escaped westward with the Mongols in pursuit, eventually taking refuge on an Adriatic island. The kingdom's field army had ceased to exist."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "The Mongols wintered in Hungary and ravaged it — chroniclers describe famine and depopulation across the plain — and raided into Austria and toward the Adriatic. Then, early in 1242, news of Ögedei's death drew Batu back east to the succession struggle, and the horde withdrew as suddenly as it had come.",
+        "Béla IV returned to rebuild: he covered the kingdom with stone castles, reformed the army toward heavy cavalry and fortification, and earned the title \"second founder of the state\" — reforms explicitly aimed at surviving the Mongol return that, in the event, never came in force. Mohi remained medieval Hungary's great catastrophe and the measure of the Mongol threat to Europe."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Hungary's next great disaster",
+    "battleSlug": "battle-of-nicopolis",
+    "relationship": "same-region",
+    "reason": "Mohi was medieval Hungary's worst catastrophe until the Ottomans; a century and a half later the kingdom led the great crusade that ended in another annihilation, at Nicopolis in 1396."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Béla IV of Hungary",
+        "type": "person",
+        "slug": "bela-iv-of-hungary"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Its Legnica campaign struck the same week"
+      },
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Destroyed by the same campaign"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Hungary's later catastrophe, 1396"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "A different European coalition war"
+      },
+      {
+        "title": "Battle of Legnica",
+        "type": "event",
+        "slug": "battle-of-legnica",
+        "label": "The twin Mongol victory, two days earlier"
+      },
+      {
+        "title": "Siege of Kyiv",
+        "type": "event",
+        "slug": "siege-of-kyiv",
+        "label": "The fall of Rus’ that preceded the invasion"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Hayton manuscript",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Mohi_1241.PNG"
+    },
+    {
+      "title": "Battle of Mohi — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Mohi"
+    },
+    {
+      "title": "The Mongols and the West",
+      "author": "Peter Jackson",
+      "type": "book"
+    }
+  ],
+  "type": "event"
+}

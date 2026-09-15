@@ -1,0 +1,93 @@
+{
+  "id": "legnano",
+  "type": "location",
+  "name": "Legnano",
+  "locationType": "Town",
+  "kingdom": "Lombard League",
+  "year": "1176",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_battle_of_Legnano_(1870),_by_Amos_Cassioli.jpg",
+  "summary": "A Lombard town associated with the communal victory over Frederick Barbarossa.",
+  "overview": [
+    "A Lombard town associated with the communal victory over Frederick Barbarossa."
+  ],
+  "knownFor": [
+    "Legnano in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Legnano.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_battle_of_Legnano_(1870),_by_Amos_Cassioli.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Lombard town associated with the communal victory over Frederick Barbarossa.",
+        "Legnano matters historically through Legnano in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:The_battle_of_Legnano_(1870)%2C_by_Amos_Cassioli.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Legnano",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Legnano"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "Battle fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Combatant here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Guido da Landriano",
+        "type": "person",
+        "slug": "guido-da-landriano",
+        "label": "Fought here"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Fought here"
+      }
+    ]
+  }
+}

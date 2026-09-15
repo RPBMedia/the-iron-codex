@@ -1,0 +1,205 @@
+{
+  "id": "charles-d-albret",
+  "type": "character",
+  "name": "Charles d'Albret",
+  "aliases": [
+    "Charles I d Albret",
+    "Charles I d'Albret"
+  ],
+  "born": 1368,
+  "died": 1415,
+  "deathAge": "about 47",
+  "restingPlace": "Unknown",
+  "location": "Kingdom of France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Armorial_de_Gilles_Le_Bouvier_-_BNF_Fr._4985_f111v_-_Charles_d%27Albret.jpg",
+  "summary": "Charles d'Albret was constable of France and one of the principal French commanders at Agincourt in 1415.",
+  "details": "Charles d'Albret was constable of France and one of the principal French commanders at Agincourt in 1415.",
+  "title": "Constable of France",
+  "roles": [
+    "Constable of France",
+    "French commander"
+  ],
+  "birth": {
+    "date": "c. 1368",
+    "place": {
+      "name": "Gascony",
+      "slug": "gascony"
+    },
+    "note": "Approximate date; Gascony is used for his Albret family background rather than a securely documented birthplace."
+  },
+  "death": {
+    "date": "1415",
+    "place": {
+      "name": "Agincourt",
+      "slug": "agincourt"
+    },
+    "event": {
+      "name": "Battle of Agincourt",
+      "type": "event",
+      "slug": "battle-of-agincourt"
+    },
+    "circumstance": "Killed at Agincourt in 1415 while serving as constable of France and one of the leading French commanders."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of France",
+    "culture": "French-Gascon",
+    "knownFor": "French command at Agincourt"
+  },
+  "imageInfo": {
+    "caption": "Charles d'Albret on horseback in his arms, in the Armorial of Gilles Le Bouvier, a French armorial of about 1455.",
+    "creator": "See source record",
+    "date": "about 1455",
+    "source": "Wikimedia Commons",
+    "note": "From the armorial of the herald Gilles Le Bouvier (BnF, Fr. 4985), made forty years after he fell at Agincourt; conventional, not a likeness."
+  },
+  "overview": [
+    "Charles d'Albret was constable of France and one of the principal French commanders at Agincourt in 1415."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Charles d'Albret was constable of France and one of the principal French commanders at Agincourt in 1415. His command placed him at the center of a divided French military response to Henry V's campaign, and his death in the battle became part of the wider catastrophe suffered by the French nobility."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Charles d'Albret was born c. 1368, associated with Gascony. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Charles d'Albret, Constable of France, is remembered mainly through the catastrophe of the Battle of Agincourt, where he commanded and died, and his character survives largely as part of the post-mortem on that defeat. As Constable he held nominal command of a French army riven by aristocratic rivalry and indiscipline, and the sources suggest a leader unable to impose order on the proud, fractious nobles who would not subordinate themselves to his authority.",
+        "Whether the disaster reflects personal failure or the impossible task of controlling a divided command is hard to judge; the chroniclers, looking for explanations, tend to distribute blame across the French leadership rather than fix a clear portrait of d'Albret himself. He died in the slaughter of the French nobility that day, sharing the fate of the men he could not master.",
+        "The honest assessment is that his individual character is faintly recorded, overshadowed by the magnitude of Agincourt. He is remembered as the commander of a doomed and ungovernable army — a figure of the structural weakness of French chivalry in 1415 more than a vividly drawn personality."
+      ]
+    },
+    {
+      "title": "As constable and commander",
+      "paragraphs": [
+        "As constable, Charles held one of the kingdom’s highest military offices. At Agincourt he fought within a French command structure shaped by aristocratic rank, urgency, and difficult battlefield conditions.",
+        "Battle of Agincourt gives Charles d'Albret's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed at Agincourt in 1415 while serving as constable of France and one of the leading French commanders."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He is remembered chiefly through the disaster at Agincourt and the vulnerability of French noble warfare against disciplined English defensive tactics."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Served as Constable of France",
+      "description": "As constable, Charles d’Albret held one of the kingdom’s highest military offices during the Armagnac-Burgundian crisis."
+    },
+    {
+      "title": "Commanded at Agincourt",
+      "description": "He stood among the senior French commanders at Agincourt, where command coordination broke down under battlefield pressure."
+    },
+    {
+      "title": "Died among the French nobility at Agincourt",
+      "description": "His death symbolized the scale of noble losses suffered by France in the battle."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1368",
+      "title": "Born",
+      "description": "Born into the Albret family of Gascony."
+    },
+    {
+      "date": "1402",
+      "title": "Constable of France",
+      "description": "Holds the kingdom’s senior military office."
+    },
+    {
+      "date": "1415",
+      "title": "French army gathers",
+      "description": "Participates in the response to Henry V’s invasion."
+    },
+    {
+      "date": "1415",
+      "title": "Commands at Agincourt",
+      "description": "Fights as a principal French commander.",
+      "links": [
+        {
+          "title": "Battle of Agincourt",
+          "type": "event",
+          "slug": "battle-of-agincourt"
+        }
+      ]
+    },
+    {
+      "date": "1415",
+      "title": "Dies",
+      "description": "Killed in the battle."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "Died in this engagement"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Realm"
+      },
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Agincourt",
+        "type": "location",
+        "slug": "agincourt",
+        "label": "Place of death"
+      }
+    ],
+    "people": [
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "Joan of Arc",
+        "type": "person",
+        "slug": "joan-of-arc",
+        "label": "Ruler of Kingdom of France"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Charles d'Albret",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_I_d_Albret"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Armorial_de_Gilles_Le_Bouvier_-_BNF_Fr._4985_f111v_-_Charles_d'Albret.jpg"
+    }
+  ]
+}

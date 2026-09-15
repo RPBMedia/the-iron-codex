@@ -1,0 +1,222 @@
+{
+  "id": "constantine-vii",
+  "type": "character",
+  "name": "Constantine VII",
+  "aliases": [
+    "Constantine VII Porphyrogennetos",
+    "Konstantinos VII"
+  ],
+  "born": 905,
+  "died": 959,
+  "deathAge": "54",
+  "causeOfDeath": "Died in November 959, possibly of fever; poisoning by his daughter-in-law was rumoured and never shown.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Scholar"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constantine%20VII%20Porphyrogenitus%20(2).jpeg",
+  "imageInfo": {
+    "caption": "Christ crowning Constantine VII, on a carved ivory panel inscribed with his name and title.",
+    "creator": "Constantinople, imperial workshop",
+    "date": "mid-10th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constantine_VII_Porphyrogenitus_(2).jpeg",
+    "note": "A contemporary object made in his own reign and inscribed with his name, which makes it one of the securest imperial images in this archive. The subject is a claim as much as a portrait: the emperor crowned directly by Christ, without human intermediary — useful for a man whose legitimacy had been questioned since birth. Public domain."
+  },
+  "summary": "Constantine VII spent most of his life as a figurehead while others ruled, and used the time to write the books that are now the principal sources for how the Byzantine Empire understood itself.",
+  "overview": "The emperor who was kept from power and turned the enforced leisure into the most useful body of writing any medieval ruler produced.",
+  "greatestFeats": [
+    "Commissioned and partly wrote the De Administrando Imperio and the Book of Ceremonies",
+    "Patronised the encyclopaedic compilation that preserved much of classical learning",
+    "Ruled in his own right for fourteen years after four decades as a figurehead"
+  ],
+  "birth": {
+    "date": "905",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "959",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in November 959; his son Romanos II succeeded him without dispute."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Macedonian dynasty",
+    "culture": "Roman",
+    "knownFor": "The books that are the archive's own sources for Byzantium"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Alexander",
+      "note": "His uncle, brother of Leo VI, whose thirteen-month reign in 912–913 was destructive enough that his death was widely welcomed.",
+      "personSlug": "alexander"
+    },
+    "successor": {
+      "personSlug": "romanos-ii",
+      "displayName": "Romanos II",
+      "note": "His son, who reigned less than four years and in that time sent the expedition that retook Crete."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Constantine VII was born in 905 to Leo VI and his fourth wife, a marriage the church regarded as uncanonical, and he spent his entire life answering the question of whether he was legitimate.",
+        "He became emperor at seven and was a figurehead for most of the next forty years — first under regents, then under his father-in-law Romanos Lekapenos, who made himself senior emperor and ruled for a quarter of a century.",
+        "He ruled in his own right only from 945, at forty. What he did with the decades of enforced idleness is why he matters: he wrote, commissioned and compiled the works that are now the main sources for Byzantine government, diplomacy, ceremony and the peoples around the empire."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "His father Leo VI had married three times without producing a surviving male heir, and Byzantine canon law disapproved of even a third marriage. The fourth, to Constantine's mother Zoe Karbonopsina, was a scandal that split the church and got the emperor temporarily barred from communion.",
+        "He was born in the porphyry chamber of the palace — hence Porphyrogennetos, a title he used at every opportunity as an argument about his own status.",
+        "His father died when he was six and his uncle Alexander a year later, leaving him a child emperor under a regency that included his mother and the patriarch, in an atmosphere of coups and Bulgarian invasion."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "He is the most sympathetic figure in this archive's Byzantine material and one of the least effective, and the two are related.",
+        "The sources describe a mild, studious, sociable man, fond of painting and food and conversation, who drank more than he should in later life and who was not remotely a match for the professional politicians around him. Romanos Lekapenos took his government away by marrying a daughter to him and simply outmanoeuvring him, and he accepted it for twenty-four years.",
+        "The compensation was intellectual and it was enormous. He assembled scholars, commissioned compilations, wrote or supervised books on ceremony, administration and the empire's neighbours, and treated the imperial library as a project rather than a decoration. Given a throne he could not use, he built a reference work for the ones who came after him."
+      ]
+    },
+    {
+      "title": "The books",
+      "paragraphs": [
+        "The De Administrando Imperio was written for his son as a private handbook on the peoples around the empire — Pechenegs, Rus', Magyars, Serbs, Croats, Arabs — and on how to manage each of them. It is candid in a way no public document would be, and it is the single most important source for the early history of several eastern European peoples.",
+        "The Book of Ceremonies records the ritual of the imperial court in exhaustive detail, from coronations to the reception of ambassadors, and preserves earlier material going back centuries.",
+        "Alongside these he sponsored the De Thematibus on the provinces, a life of his grandfather Basil I that is dynastic history rather than biography, and the great encyclopaedic excerpts that preserved fragments of classical historians whose complete works are lost. The archive uses several of these as sources; without them the middle Byzantine period would be far darker."
+      ]
+    },
+    {
+      "title": "Sole rule",
+      "paragraphs": [
+        "Romanos Lekapenos was deposed by his own sons in December 944, and they in turn were removed by the palace and the city a few weeks later in favour of the legitimate emperor. Constantine finally ruled alone from January 945.",
+        "The fourteen years that followed were quietly successful. The eastern frontier moved forward under generals of the Phokas and Kourkouas families, an embassy from Olga of Kiev was received in the ceremonial he had documented, and the administration was competent.",
+        "He died in November 959 and his son Romanos II succeeded without difficulty. Two years later the expedition Romanos sent retook Crete, and the great phase of the reconquest began with the machinery his father had maintained."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "905",
+      "title": "Born in the purple",
+      "description": "Born to Leo VI and his canonically irregular fourth wife; his legitimacy is contested from the start."
+    },
+    {
+      "date": "913",
+      "title": "Emperor at seven",
+      "description": "His uncle Alexander dies and he succeeds under a regency, with Bulgaria invading."
+    },
+    {
+      "date": "920",
+      "title": "Romanos Lekapenos takes over",
+      "description": "His father-in-law becomes senior emperor and governs for the next twenty-four years."
+    },
+    {
+      "date": "920s–940s",
+      "title": "The books",
+      "description": "He compiles and commissions the De Administrando Imperio, the Book of Ceremonies and the encyclopaedic excerpts."
+    },
+    {
+      "date": "945",
+      "title": "Rules in his own right",
+      "description": "The Lekapenos sons are removed and Constantine governs alone at forty."
+    },
+    {
+      "date": "957",
+      "title": "Olga of Kiev received",
+      "description": "The Rus' princess is received in Constantinople with the ceremonial he had documented."
+    },
+    {
+      "date": "959",
+      "title": "Died",
+      "description": "Dies in November; his son Romanos II succeeds without dispute."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Romanos II",
+        "type": "person",
+        "slug": "romanos-ii",
+        "label": "His son and successor"
+      },
+      {
+        "title": "Olga of Kiev",
+        "type": "person",
+        "slug": "olga-of-kiev",
+        "label": "Received at his court in 957"
+      },
+      {
+        "title": "Basil II",
+        "type": "person",
+        "slug": "basil-ii",
+        "label": "His grandson"
+      },
+      {
+        "title": "Theophano (wife of Romanos II)",
+        "type": "person",
+        "slug": "theophano-wife-of-romanos-ii",
+        "label": "Daughter-in-law"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Constantine VII, De Administrando Imperio",
+      "url": "https://en.wikipedia.org/wiki/De_Administrando_Imperio",
+      "type": "primary source"
+    },
+    {
+      "title": "Constantine VII, Book of Ceremonies",
+      "url": "https://en.wikipedia.org/wiki/De_Ceremoniis",
+      "type": "primary source"
+    },
+    {
+      "title": "Constantine VII",
+      "url": "https://en.wikipedia.org/wiki/Constantine_VII",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Pushkin Museum, Moscow",
+      "url": "https://pushkinmuseum.art/",
+      "type": "museum collection",
+      "institution": "Pushkin Museum"
+    }
+  ],
+  "epithets": [
+    {
+      "name": "Porphyrogennetos",
+      "type": "byname",
+      "note": "Means \"born in the purple\", in the chamber reserved for a reigning emperor's children. He used it constantly: his legitimacy was attacked from birth, his parents' marriage being an irregular fourth."
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "constantine-xi-palaiologos",
+  "type": "character",
+  "name": "Constantine XI Palaiologos",
+  "aliases": [
+    "Constantine XI",
+    "Constantine Dragases"
+  ],
+  "born": 1405,
+  "died": 1453,
+  "deathAge": "48",
+  "restingPlace": "Unknown",
+  "location": "Byzantine Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Konstantinos_XI_Palaiologos_fresco_%28less_edited%29.jpg",
+  "summary": "Constantine XI Palaiologos was the last Byzantine emperor. He died during the Ottoman capture of Constantinople in 1453.",
+  "details": "Constantine XI Palaiologos was the last Byzantine emperor. He died during the Ottoman capture of Constantinople in 1453.",
+  "title": "Byzantine emperor",
+  "roles": [
+    "Byzantine emperor",
+    "Defender of Constantinople"
+  ],
+  "birth": {
+    "date": "1405",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "1453",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "event": {
+      "name": "Fall of Constantinople",
+      "type": "event",
+      "slug": "fall-of-constantinople"
+    },
+    "circumstance": "Killed during the final Ottoman assault on Constantinople in 1453; the exact details of his final moments are uncertain."
+  },
+  "quickFacts": {
+    "realm": "Byzantine Empire",
+    "dynasty": "Palaiologos",
+    "culture": "Byzantine Greek",
+    "knownFor": "Last Byzantine emperor"
+  },
+  "imageInfo": {
+    "caption": "Constantine XI in a fresco of uncertain date at the Old Monastery of the Taxiarchs in Aigialeia, Greece.",
+    "creator": "See source record",
+    "date": "Uncertain; possibly fifteenth century",
+    "source": "Wikimedia Commons",
+    "note": "A wall painting in the katholikon of the Old Monastery of the Taxiarchs, identified as the emperor; its date and identification are not securely established."
+  },
+  "overview": [
+    "Constantine XI Palaiologos was the last Byzantine emperor. He died during the Ottoman capture of Constantinople in 1453."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Constantine XI Palaiologos was the last Byzantine emperor. He died during the Ottoman capture of Constantinople in 1453."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Constantine XI Palaiologos was born 1405, associated with Constantinople. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Constantine XI Palaiologos, the last Byzantine emperor, is remembered through the heroism of his death, and that final stand shapes the whole tradition of his character. Greek sources and later memory present a ruler of dignity and courage who, facing the overwhelming Ottoman siege of 1453, refused offers to flee or surrender and chose to die defending Constantinople, reportedly throwing off his imperial insignia to fall fighting as an ordinary soldier in the breach.",
+        "That image — the emperor dying with his city — fixed him in Greek tradition as a tragic and noble figure, and gave rise to the legend of the \"marble emperor\" who would one day return. The sources emphasise resolve, piety, and the acceptance of a doomed duty rather than military brilliance, since the situation he inherited was beyond saving.",
+        "Because much of the portrait is shaped by the pathos of the fall and by later national mourning, it is more elegiac than analytical. But the central, well-attested fact — his refusal to abandon Constantinople and his death in its defence — supports the memory of a steadfast and courageous ruler who met an impossible end with honour."
+      ]
+    },
+    {
+      "title": "As Byzantine emperor",
+      "paragraphs": [
+        "Constantine ruled a diminished empire centered on Constantinople and fragments of Greek territory. Facing Mehmed II’s siege, he sought western aid and coordinated the city’s final defense.",
+        "Fall of Constantinople gives Constantine XI Palaiologos's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed during the final Ottoman assault on Constantinople in 1453; the exact details of his final moments are uncertain."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Constantine became a powerful figure in Byzantine, Greek, and European memory as the last emperor of Rome’s eastern imperial tradition."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Ruled the last Byzantine Empire",
+      "description": "Constantine XI ruled a reduced empire centered on Constantinople, surrounded by Ottoman power."
+    },
+    {
+      "title": "Defended Constantinople in 1453",
+      "description": "He led the city’s final defense against Mehmed II’s siege and died as the empire fell."
+    },
+    {
+      "title": "Became a symbol of Byzantine memory",
+      "description": "Later Greek and Orthodox memory treated him as the last emperor and a symbol of imperial endurance."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1405",
+      "title": "Born",
+      "description": "Born into the Palaiologos dynasty."
+    },
+    {
+      "date": "1449",
+      "title": "Becomes emperor",
+      "description": "Succeeds to the Byzantine throne."
+    },
+    {
+      "date": "1452",
+      "title": "Faces Ottoman preparations",
+      "description": "Mehmed II builds pressure around Constantinople."
+    },
+    {
+      "date": "1453",
+      "title": "Defends Constantinople",
+      "description": "Leads the city during the Ottoman siege."
+    },
+    {
+      "date": "1453",
+      "title": "Dies",
+      "description": "Killed during the final assault."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "Died in this engagement"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Realm"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Birthplace"
+      }
+    ],
+    "people": [
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Ruler of Byzantine Empire"
+      },
+      {
+        "title": "Michael VIII Palaiologos",
+        "type": "person",
+        "slug": "michael-viii-palaiologos",
+        "label": "Founder of his dynasty, who recovered the city he died defending"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Constantine XI Palaiologos",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Constantine_XI"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Konstantinos_XI_Palaiologos_fresco_(less_edited).jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Byzantine Emperor",
+    "predecessor": {
+      "personSlug": "john-viii-palaiologos",
+      "displayName": "John VIII Palaiologos",
+      "note": "His brother"
+    },
+    "successor": {
+      "status": "office-ended",
+      "displayName": "The empire ended",
+      "note": "Constantine died in the breach on 29 May 1453; Mehmed II took Constantinople and no emperor followed"
+    }
+  },
+  "sectionImages": [
+    {
+      "section": "Legacy",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Constanine_XI_Palaiologos_at_the_National_Historical_Museum_of_Athens.jpg",
+      "alt": "The statue of Constantine XI, last emperor of the Romans, outside the National Historical Museum in Athens.",
+      "caption": "The statue of Constantine XI, last emperor of the Romans, outside the National Historical Museum in Athens.",
+      "creator": "Photograph by George E. Koronaios",
+      "date": "Modern statue",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Constanine_XI_Palaiologos_at_the_National_Historical_Museum_of_Athens.jpg",
+      "note": "A modern Greek national monument — the emperor who died at the walls in 1453 as later Hellenism chose to remember him."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "alexander",
+  "type": "character",
+  "name": "Alexander",
+  "aliases": [
+    "Alexander of Byzantium",
+    "Alexandros"
+  ],
+  "born": 870,
+  "died": 913,
+  "deathAge": "about 43",
+  "causeOfDeath": "Died in June 913 of exhaustion after playing at the ball-court, according to the sources.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexandros%20mosaic.jpg",
+  "imageInfo": {
+    "caption": "The emperor Alexander in mosaic, in the north gallery of Hagia Sophia.",
+    "creator": "Constantinople, imperial workshop",
+    "date": "912–913",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandros_mosaic.jpg",
+    "note": "Made during his thirteen-month reign and still in place, which makes it a securely contemporary portrait of an emperor who barely reigned — and the only surviving mosaic portrait of a Byzantine emperor identified beyond doubt by its own inscription. Public domain."
+  },
+  "summary": "Alexander was co-emperor for twenty-six years and sole ruler for thirteen months, in which he dismissed his brother's ministers, refused tribute to Bulgaria and started a thirty-year war.",
+  "overview": "A reign short enough to be measured in months and destructive enough to be measured in decades.",
+  "birth": {
+    "date": "c. 870",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "913",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in June 913 after playing at the ball-court, thirteen months into his sole reign."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Macedonian dynasty",
+    "culture": "Roman",
+    "knownFor": "Thirteen months that started a war with Bulgaria"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "leo-vi",
+      "displayName": "Leo VI",
+      "note": "His elder brother, who kept him as co-emperor for twenty-six years without giving him any share of government."
+    },
+    "successor": {
+      "personSlug": "constantine-vii",
+      "displayName": "Constantine VII",
+      "note": "His nephew, seven years old, left under a regency in the middle of the Bulgarian war Alexander had provoked."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alexander was crowned co-emperor as a child in 879 and remained one for thirty-three years, of which twenty-six were under his brother Leo VI, who gave him no authority whatever.",
+        "When Leo died in May 912 he became senior emperor and regent for his six-year-old nephew, and used the position mainly to reverse his brother's arrangements: the ministers were dismissed, the patriarch deposed, and his brother's widow expelled from the palace.",
+        "He then refused the annual tribute to Symeon of Bulgaria, which restarted a war that ran for the next thirty years. He died thirteen months into the reign."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 870, the son of Basil I and Eudokia Ingerina, and was made co-emperor in 879 after the death of his eldest brother.",
+        "That was the extent of his career. Leo VI, who succeeded in 886, kept him in the purple and out of the government for a quarter of a century, and the sources describe a man who filled the time with hunting, the hippodrome and the company of his own household.",
+        "Whether he was as idle as the tradition says or simply had nothing to do is impossible to separate, and it is worth noting the question rather than assuming the answer."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources are uniformly hostile and unusually specific, which does not make them right but does make them interesting.",
+        "They describe drunkenness, indifference to government, and an interest in pagan divination — including a story that he had a bronze statue in the hippodrome dressed and fed on the advice of soothsayers, in the belief that it was linked to his health.",
+        "What is not in dispute is the pattern of the thirteen months: everything his brother had built was undone quickly and with evident personal animus, and nothing was put in its place. He was a man kept from power for twenty-six years who used it, when it came, to settle scores."
+      ]
+    },
+    {
+      "title": "Thirteen months",
+      "paragraphs": [
+        "He removed Leo's ministers and the admiral Himerios, deposed the patriarch Euthymios and restored Nicholas Mystikos, and expelled the empress Zoe — Constantine VII's mother — from the palace.",
+        "The consequential act was foreign. Symeon of Bulgaria sent an embassy in 913 to renew the treaty and the annual payments; Alexander dismissed it and refused the tribute.",
+        "Symeon invaded, and the war that followed dominated the next three decades, brought Bulgarian armies to the walls of Constantinople and forced the empire to recognise Symeon as emperor of the Bulgarians. Alexander was dead within months of starting it, and his seven-year-old nephew inherited it."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He is the clearest case in this archive of how much damage a short reign can do, and the Bulgarian war he provoked is the reason the following decade of Constantine VII's minority was as dangerous as it was.",
+        "The mosaic in the north gallery of Hagia Sophia, made in his thirteen months and still in place, is the strange survival: a securely identified contemporary portrait of a Byzantine emperor, which is more than most of his far more consequential predecessors left.",
+        "He died at the ball-court, and the tradition treats it as divine judgement. It reads more like exhaustion in a man of forty-three who had spent twenty-six years waiting and thirteen months in a hurry."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 870",
+      "title": "Born",
+      "description": "Born to Basil I and Eudokia Ingerina."
+    },
+    {
+      "date": "879",
+      "title": "Crowned co-emperor",
+      "description": "Made co-emperor as a child after the death of his eldest brother."
+    },
+    {
+      "date": "886–912",
+      "title": "Twenty-six years without power",
+      "description": "Leo VI keeps him in the purple and entirely out of the government."
+    },
+    {
+      "date": "May 912",
+      "title": "Becomes senior emperor",
+      "description": "Leo dies and Alexander rules as regent for his six-year-old nephew."
+    },
+    {
+      "date": "912",
+      "title": "The purge",
+      "description": "Leo's ministers are dismissed, the patriarch replaced, and the empress expelled from the palace."
+    },
+    {
+      "date": "913",
+      "title": "Tribute refused",
+      "description": "He dismisses Symeon of Bulgaria's embassy and refuses the annual payments."
+    },
+    {
+      "date": "June 913",
+      "title": "Died",
+      "description": "Dies after playing at the ball-court, leaving a child emperor and a war."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Leo VI",
+        "type": "person",
+        "slug": "leo-vi",
+        "label": "His brother, who kept him from power for twenty-six years"
+      },
+      {
+        "title": "Constantine VII",
+        "type": "person",
+        "slug": "constantine-vii",
+        "label": "His nephew, left a child emperor in the middle of a war"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Whose ruler he provoked into thirty years of war"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes Continuatus",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_Continuatus",
+      "type": "primary source"
+    },
+    {
+      "title": "Alexander (Byzantine emperor)",
+      "url": "https://en.wikipedia.org/wiki/Alexander_(Byzantine_emperor)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

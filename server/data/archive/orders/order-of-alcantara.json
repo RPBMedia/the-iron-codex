@@ -1,0 +1,243 @@
+{
+  "id": "order-of-alcantara",
+  "type": "order",
+  "name": "Order of Alcántara",
+  "aliases": [
+    "The Order of Alcántara",
+    "Knights of Alcántara",
+    "Orden de Alcántara",
+    "Order of San Julián del Pereiro",
+    "Order of St Julian of Pereiro"
+  ],
+  "originYear": 1176,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Convento_de_San_Benito_Alc%C3%A1ntara.jpg",
+  "imageInfo": {
+    "caption": "The Convent of San Benito at Alcántara, the order’s headquarters in Extremadura.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Convento_de_San_Benito_Alc%C3%A1ntara.jpg",
+    "note": "The great convent of the order beside the Tagus in western Spain."
+  },
+  "sigilImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz_de_Alc%C3%A1ntara.svg",
+  "sigilImageInfo": {
+    "caption": "The green cross flory of the Order of Alcántara.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz_de_Alc%C3%A1ntara.svg",
+    "note": "The same lily-ended cross as Calatrava’s, but in green."
+  },
+  "summary": "The Order of Alcántara guarded the Leonese frontier of the Reconquista. It began as the Order of San Julián del Pereiro and took its lasting name when Calatrava handed it the town of Alcántara on the Tagus. A Cistercian daughter-order of Calatrava, it became one of the three great orders whose masterships the Spanish crown absorbed.",
+  "founded": "c. 1176, Kingdom of León (as San Julián del Pereiro)",
+  "recognized": "Papal confirmation, 1177",
+  "status": "Extant as a Spanish honorific order (crown mastership from 1494)",
+  "allegiance": "The crown of León and Castile; the Cistercians",
+  "headquarters": "Alcántara, on the Tagus",
+  "habit": "White mantle with a green cross flory",
+  "patron": "St Julian and the Virgin Mary",
+  "purpose": "The order was founded to defend the western, Leonese sector of the frontier with al-Andalus, holding castles along the Tagus and in Extremadura and pushing the Reconquista south into what became western Spain.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "c. 1176 (as San Julián del Pereiro)"
+    },
+    {
+      "label": "Renamed",
+      "value": "Alcántara, after Calatrava ceded it the town in 1218"
+    },
+    {
+      "label": "Emblem",
+      "value": "A green cross flory"
+    },
+    {
+      "label": "Affiliation",
+      "value": "Cistercian daughter of Calatrava"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Order of Alcántara was León’s answer to Calatrava — a Cistercian military order raised to defend the western frontier of the Reconquista. Under Calatrava’s tutelage it grew from a small brotherhood at a Leonese hermitage into a great territorial order of Extremadura.",
+        "Its green cross became one of the three that dominated the Spanish orders, alongside the red sword-cross of Santiago and the red cross of Calatrava."
+      ]
+    },
+    {
+      "title": "From Pereiro to Alcántara",
+      "paragraphs": [
+        "The order arose around 1176 as the Order of San Julián del Pereiro, a knightly brotherhood on the Leonese frontier, confirmed by the pope the following year. It was affiliated to Calatrava, which held rights of visitation over it.",
+        "In 1218 Calatrava, unable to garrison the newly won town of Alcántara on the Tagus, ceded it to the Leonese knights. They moved their headquarters there and took the name by which they have been known ever since."
+      ]
+    },
+    {
+      "title": "Guarding the western frontier",
+      "paragraphs": [
+        "Alcántara’s knights held a chain of castles across Extremadura and pressed the frontier southward, sharing in the great advances of the 13th century that carried Christian arms toward the Guadiana and beyond.",
+        "Like its sister-orders it combined the monastic rule of the Cistercians with the life of a frontier garrison, its commanderies both convents and fortresses."
+      ]
+    },
+    {
+      "title": "Into the crown",
+      "paragraphs": [
+        "The mastership of Alcántara, like those of Santiago and Calatrava, became entangled in Castilian politics and coveted by the crown. Its last independent master, Juan de Zúñiga, resigned his office as the Catholic Monarchs gathered the orders in.",
+        "From 1494 the crown administered the order, and in 1523 its mastership was permanently annexed to the Spanish crown along with the others."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Alcántara left its green cross across the towns and castles of Extremadura and a great convent by the Roman bridge that gave the order its name. Its estates, folded into the crown, added to the resources of a unifying Spain.",
+        "With Santiago and Calatrava it completed the trio of Castilian–Leonese orders that carried the Reconquista to its end."
+      ]
+    }
+  ],
+  "grandMasters": [
+    {
+      "name": "Gómez Fernández Barrientos",
+      "term": "c. 1176–1200",
+      "note": "Early master of the order of Pereiro."
+    },
+    {
+      "name": "Nuño Fernández",
+      "term": "early 13th c.",
+      "note": "Master around the move to Alcántara."
+    },
+    {
+      "name": "Pedro Yáñez",
+      "term": "1218–1227",
+      "note": "First master seated at Alcántara."
+    },
+    {
+      "name": "Gonzalo Núñez de Guzmán",
+      "term": "1385–1388",
+      "note": "Master in the wars with Portugal."
+    },
+    {
+      "name": "Juan de Zúñiga y Pimentel",
+      "term": "1479–1494",
+      "note": "Last independent master; humanist patron who resigned to the crown."
+    }
+  ],
+  "battles": [
+    {
+      "slug": "battle-of-las-navas-de-tolosa",
+      "name": "Las Navas de Tolosa",
+      "date": "16 Jul 1212",
+      "role": "The Leonese order shares in the great victory.",
+      "opponent": "Almohad Caliphate",
+      "outcome": "Christian victory"
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Alcántara",
+      "period": "from 1218",
+      "note": "The order’s headquarters and convent on the Tagus."
+    },
+    {
+      "name": "San Julián del Pereiro",
+      "period": "from c. 1176",
+      "note": "The original hermitage-fortress in León."
+    },
+    {
+      "name": "Magacela & Zalamea",
+      "period": "13th c.",
+      "note": "Extremaduran commanderies won in the Reconquista."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1176",
+      "title": "Foundation",
+      "description": "The Order of San Julián del Pereiro is formed on the Leonese frontier."
+    },
+    {
+      "date": "1177",
+      "title": "Papal confirmation",
+      "description": "The order is recognised and affiliated to Calatrava."
+    },
+    {
+      "date": "1218",
+      "title": "The move to Alcántara",
+      "description": "Calatrava cedes the town of Alcántara; the order takes its name."
+    },
+    {
+      "date": "1494",
+      "title": "The crown takes over",
+      "description": "Juan de Zúñiga resigns and the crown administers the order."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "Alcántara was fully independent of Calatrava.",
+      "reality": "It was a Cistercian daughter-order over which Calatrava held formal rights of visitation and correction."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Reconquest of Spain",
+      "author": "Derek W. Lomax",
+      "year": "1978"
+    },
+    {
+      "title": "Studies of the Iberian military orders",
+      "author": "various",
+      "year": ""
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "The conqueror the order served"
+      },
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "King at Las Navas de Tolosa"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "1212 — the Leonese order in the victory"
+      },
+      {
+        "title": "Battle of Alarcos",
+        "type": "event",
+        "slug": "battle-of-alarcos",
+        "label": "1195 — the Almohad high tide it fought against"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "Where the order was founded"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The united realm it served"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of Calatrava",
+        "type": "order",
+        "slug": "order-of-calatrava",
+        "label": "Its Cistercian mother-order"
+      },
+      {
+        "title": "Order of Santiago",
+        "type": "order",
+        "slug": "order-of-santiago",
+        "label": "The great Castilian order alongside it"
+      }
+    ]
+  }
+}

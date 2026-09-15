@@ -1,0 +1,84 @@
+{
+  "id": "trakai",
+  "type": "location",
+  "locationType": "Town and castle center",
+  "name": "Trakai",
+  "year": 1430,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trakai_Island_Castle.jpg",
+  "summary": "A Lithuanian castle town associated with Vytautas and his death in 1430.",
+  "overview": [
+    "Trakai was one of the most important castle centers of the Grand Duchy of Lithuania.",
+    "Vytautas died there in 1430, shortly after failed efforts to secure a royal crown."
+  ],
+  "knownFor": [
+    "Vytautas",
+    "Trakai Island Castle",
+    "Grand Duchy of Lithuania"
+  ],
+  "imageInfo": {
+    "caption": "Trakai, represented by a relevant historic site or regional image.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern photograph or public-domain image",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph or public-domain image of the associated medieval place, used to ground the article visually.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Trakai (New Trakai) was the primary residence and symbol of power for Vytautas the Great, Grand Duke of Lithuania. The castle, built on a lake island, was the center of Lithuanian ducal administration in the late fourteenth and early fifteenth centuries."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Vytautas died at Trakai in 1430 shortly before a planned royal coronation that would have made him King of Lithuania, a project blocked by his cousin Jogaila. The castle and its island setting became closely identified with Lithuanian state formation and Gediminid political identity."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Trakai",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Trakai_Island_Castle.jpg"
+    },
+    {
+      "title": "Trakai reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Trakai"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Death of Vytautas"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Realm of Vytautas"
+      },
+      {
+        "title": "Senieji Trakai",
+        "type": "location",
+        "slug": "senieji-trakai"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald"
+      }
+    ]
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "id": "battle-of-aljubarrota",
+  "type": "event",
+  "name": "Battle of Aljubarrota",
+  "year": 1385,
+  "location": "Aljubarrota, Portugal",
+  "eventType": "Battle",
+  "conflict": "1383–1385 Portuguese Interregnum",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Batalha_de_Aljubarrota_02.jpg",
+  "summary": "A Portuguese army under John of Aviz and Nuno Álvares Pereira destroyed a much larger Castilian invasion in 1385, securing Portugal's independence and the House of Aviz.",
+  "details": "Fought on 14 August 1385, Aljubarrota ended the succession crisis that followed the death of Ferdinand I. Using a strong defensive position, dismounted men-at-arms, and English longbowmen, the Portuguese shattered the Castilian host and confirmed John of Aviz as King John I.",
+  "factions": [
+    "Kingdom of Portugal",
+    "Kingdom of Castile"
+  ],
+  "leaders": [
+    {
+      "name": "John I of Portugal",
+      "faction": "Portuguese army",
+      "personId": "john-i-of-portugal"
+    },
+    {
+      "name": "Nuno Álvares Pereira",
+      "faction": "Portuguese army",
+      "personId": "nuno-alvares-pereira"
+    },
+    {
+      "name": "John I of Castile",
+      "faction": "Castilian army",
+      "personId": "john-i-of-castile"
+    }
+  ],
+  "eventLocation": {
+    "name": "Aljubarrota"
+  },
+  "outcome": "Decisive Portuguese victory; independence from Castile secured and the House of Aviz confirmed on the throne.",
+  "background": [
+    "When Ferdinand I of Portugal died in 1383 leaving only a daughter married to John I of Castile, the prospect of Portugal passing to the Castilian crown provoked a national crisis known as the 1383–1385 Interregnum.",
+    "John of Aviz, illegitimate son of Peter I and Master of the Order of Aviz, emerged as leader of the resistance. In 1385 the Cortes of Coimbra acclaimed him king as John I, and John I of Castile invaded to enforce his own claim."
+  ],
+  "battle": "The Portuguese took a strong defensive position on a hill near Aljubarrota, their men-at-arms dismounted and flanked by archers, including English longbowmen sent under the Anglo-Portuguese partnership. The Castilian vanguard attacked uphill in a constricted front and was cut down; when the main body followed it was thrown into the same killing ground and broken. The constable Nuno Álvares Pereira commanded the Portuguese line while the king held the reserve.",
+  "aftermath": "The Castilian army was destroyed and John I of Castile fled. The victory secured Portuguese independence for two centuries and confirmed the House of Aviz. John I founded the Monastery of Batalha (\"Battle\") in thanksgiving, and sealed the Treaty of Windsor with England the following year.",
+  "imageInfo": {
+    "caption": "The Battle of Aljubarrota depicted in Jean de Wavrin's Chronique d'Angleterre (c. 1479–1480).",
+    "creator": "Jean de Wavrin, Chronique d'Angleterre",
+    "date": "15th century (c. 1479–1480)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batalha_de_Aljubarrota_02.jpg",
+    "license": "Public domain",
+    "note": "A near-period manuscript miniature, stylised rather than a literal battlefield record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Aljubarrota was fought on 14 August 1385 between the Kingdom of Portugal, led by the newly acclaimed John I and his constable Nuno Álvares Pereira, and a much larger invading army of the Kingdom of Castile under John I of Castile. It was the decisive engagement of the 1383–1385 Interregnum, the succession crisis that followed the death of Ferdinand I.",
+        "The outnumbered Portuguese won a crushing victory using a prepared defensive position, dismounted men-at-arms, and English longbowmen. The result secured Portuguese independence from Castile and confirmed the House of Aviz on the throne, shaping the kingdom that would soon launch the Age of Discovery."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Ferdinand I, the last king of the House of Burgundy, died in 1383 leaving only a daughter, Beatrice, married to John I of Castile. The prospect that Portugal would be absorbed into the Castilian crown provoked widespread resistance, and the regency of the queen mother Leonor Teles was distrusted.",
+        "John of Aviz, an illegitimate son of Peter I and Master of the Order of Aviz, led the opposition, and in 1385 the Cortes of Coimbra acclaimed him King John I. John I of Castile invaded Portugal to enforce his own claim, and the two armies met near the village of Aljubarrota."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The Portuguese army was significantly smaller but well positioned and disciplined, commanded in the field by the constable Nuno Álvares Pereira, one of the ablest generals of the age, while the king held the reserve. It included a contingent of English longbowmen, reflecting the growing Anglo-Portuguese partnership.",
+        "The Castilian army was larger and included French allied men-at-arms and crossbowmen. Its size gave it confidence, but the narrow, prepared battlefield chosen by the Portuguese neutralised that advantage."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Portuguese occupied a hill with their flanks protected, men-at-arms dismounted in the centre and archers on the wings, and dug ditches and pits to break up a mounted charge. The Castilian vanguard, attacking uphill into a constricted front, was shot down and driven back onto the advancing main body.",
+        "As the main Castilian host pressed forward it lost cohesion in the same killing ground, exposed to the longbowmen and unable to bring its numbers to bear. The Portuguese line under Nuno Álvares held and then counterattacked, turning the Castilian confusion into a rout."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Castilian army was destroyed and John I of Castile fled the field. Portuguese independence was secured, and John I's throne and the House of Aviz were confirmed beyond challenge.",
+        "In thanksgiving John I founded the Monastery of Batalha — literally \"Battle\" — one of the masterpieces of Portuguese Gothic architecture, and in 1386 he sealed the Treaty of Windsor with England, the oldest active alliance in the world."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Aljubarrota is the founding military event of the House of Aviz and one of the decisive battles of Portuguese history: it preserved the kingdom's independence at the moment it was most in danger of Castilian absorption.",
+        "It also demonstrated, like the contemporary battles of the Hundred Years' War, the power of a prepared defensive position combining dismounted men-at-arms and massed archery against a larger force of mounted and heavy troops."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Aljubarrota",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Aljubarrota"
+    },
+    {
+      "title": "Battle of Aljubarrota",
+      "author": "World History Encyclopedia",
+      "type": "reference article",
+      "url": "https://www.worldhistory.org/"
+    },
+    {
+      "title": "Aljubarrota miniature, Chronique d'Angleterre",
+      "author": "Wikimedia Commons",
+      "type": "manuscript image",
+      "url": "https://commons.wikimedia.org/wiki/File:Batalha_de_Aljubarrota_02.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Victor; founder of the House of Aviz"
+      },
+      {
+        "title": "Ferdinand I of Portugal",
+        "type": "person",
+        "slug": "ferdinand-i-of-portugal",
+        "label": "His death began the succession crisis"
+      },
+      {
+        "title": "John I of Castile",
+        "type": "person",
+        "slug": "john-i-of-castile",
+        "label": "The defeated Castilian king"
+      },
+      {
+        "title": "Nuno Álvares Pereira",
+        "type": "person",
+        "slug": "nuno-alvares-pereira",
+        "label": "The Portuguese constable who won the battle"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm whose independence was secured"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The defeated invader"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Ally whose longbowmen fought here"
+      }
+    ],
+    "events": []
+  },
+  "participants": [
+    {
+      "side": "Portuguese army",
+      "factions": [
+        {
+          "name": "Kingdom of Portugal",
+          "title": "Kingdom of Portugal",
+          "type": "location",
+          "slug": "kingdom-of-portugal"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John I of Portugal",
+          "title": "John I of Portugal",
+          "type": "person",
+          "slug": "john-i-of-portugal"
+        },
+        {
+          "name": "Nuno Álvares Pereira",
+          "title": "Nuno Álvares Pereira",
+          "slug": "nuno-alvares-pereira",
+          "type": "person"
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–7,000",
+        "confidence": "estimated",
+        "note": "The smaller Portuguese army, stiffened by English longbowmen, fought from a prepared defensive hill.",
+        "min": 6000,
+        "max": 7000
+      }
+    },
+    {
+      "side": "Castilian army",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John I of Castile",
+          "title": "John I of Castile",
+          "slug": "john-i-of-castile",
+          "type": "person"
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000–30,000 (debated)",
+        "confidence": "debated",
+        "note": "Numbers vary by source; the key point is the Castilian numerical advantage, which the terrain neutralised.",
+        "min": 20000,
+        "max": 30000
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Iberia's earlier decisive battle",
+    "battleSlug": "battle-of-las-navas-de-tolosa",
+    "relationship": "earlier-context",
+    "reason": "Aljubarrota secured Portugal's independence from Castile, but the Iberian kingdoms that fought it were themselves shaped by the Reconquista — whose decisive Christian victory came at Las Navas de Tolosa in 1212, breaking Almohad power and fixing the peninsula's balance of Christian crowns."
+  }
+}

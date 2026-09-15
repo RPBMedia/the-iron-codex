@@ -1,0 +1,206 @@
+{
+  "id": "battle-of-varna",
+  "name": "Battle of Varna",
+  "year": 1444,
+  "location": "Varna, on the Black Sea coast (Bulgaria)",
+  "eventType": "Battle",
+  "conflict": "Ottoman wars in the Balkans",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Varna_1444.PNG",
+  "imageInfo": {
+    "caption": "The Battle of Varna (1444), later depiction of the crusade's destruction.",
+    "creator": "Unknown artist",
+    "date": "later",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Varna_1444.PNG",
+    "note": "A later historical depiction of the battle."
+  },
+  "summary": "At Varna in 1444 Sultan Murad II destroyed the crusade of the Polish-Hungarian king Władysław III, who died charging the Janissaries — the last serious attempt to halt the Ottomans before Constantinople fell.",
+  "details": "On 10 November 1444 the Ottoman army of Murad II defeated the crusade led by Władysław III of Poland and Hungary and the general John Hunyadi at Varna. The king was killed in a reckless charge against the Janissary line; the crusade — launched after a broken truce — collapsed, removing the last external hope of relief for Byzantine Constantinople.",
+  "factions": [
+    "Crusader coalition (Poland-Hungary and allies)",
+    "Ottoman Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Władysław III of Poland",
+      "faction": "Crusaders",
+      "personId": "wladyslaw-iii-of-poland"
+    },
+    {
+      "name": "John Hunyadi",
+      "faction": "Crusaders",
+      "personId": "john-hunyadi"
+    },
+    {
+      "name": "Murad II",
+      "faction": "Ottomans",
+      "personId": "murad-ii"
+    }
+  ],
+  "outcome": "Decisive Ottoman victory; King Władysław was killed and the crusade destroyed.",
+  "participants": [
+    {
+      "side": "Crusaders",
+      "strength": {
+        "display": "a smaller crusade army (usually estimated c. 15,000–20,000)",
+        "confidence": "debated",
+        "note": "Estimates vary; the crusade was substantially outnumbered by the Ottoman field army.",
+        "min": 15000,
+        "max": 20000
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Poland",
+          "title": "Kingdom of Poland",
+          "type": "location",
+          "slug": "kingdom-of-poland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Władysław III of Poland",
+          "type": "person",
+          "slug": "wladyslaw-iii-of-poland"
+        },
+        {
+          "name": "John Hunyadi",
+          "type": "person",
+          "slug": "john-hunyadi"
+        }
+      ]
+    },
+    {
+      "side": "Ottomans",
+      "strength": {
+        "display": "the larger Ottoman field army under the sultan",
+        "confidence": "debated",
+        "note": "Ottoman numbers are debated but were considerably larger than the crusade's."
+      },
+      "factions": [
+        {
+          "name": "Ottoman Empire",
+          "title": "Ottoman Empire",
+          "type": "location",
+          "slug": "ottoman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Murad II",
+          "type": "person",
+          "slug": "murad-ii"
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Varna, fought on 10 November 1444 on the Black Sea coast, ended the last serious crusade against the Ottoman Empire before the fall of Constantinople. The army of Władysław III — king of both Poland and Hungary — and the great general John Hunyadi met Sultan Murad II near Varna and was destroyed; the young king died charging the Janissary line.",
+        "The crusade had marched on the strength of a truce it then broke, absolved of its oath by a papal legate; its annihilation removed the last external hope of relief for Byzantine Constantinople, which fell to Murad's son Mehmed II nine years later."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After John Hunyadi's successful \"Long Campaign\" of 1443, the Ottomans signed the Peace of Szeged (1444), and Murad II — mourning his heir — withdrew to Anatolia, leaving the throne to his young son. Urged by the papal legate Cardinal Cesarini, who absolved them of the oath, the crusaders tore up the truce and marched for the Black Sea coast, hoping to meet a Venetian fleet and cut the Ottomans' European lands from Asia.",
+        "Murad returned, ferried his army across the Bosphorus past the ineffective blockade, and marched north to meet the crusade at Varna."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "The crusade was led by Władysław III of Poland, king of Hungary as well, with the war directed by John Hunyadi, the age's ablest anti-Ottoman commander. The army — Hungarians, Poles, Wallachians, and crusaders under Cardinal Cesarini — was substantially smaller than the Ottoman host, usually estimated in the mid-teens of thousands.",
+        "Murad II commanded the larger Ottoman field army, its centre anchored on the Janissaries behind field defences. The nailed truce, broken with the treaty-copy reportedly raised on a lance as the Ottomans' standard, framed the battle as a judgment."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Hunyadi's handling of the wings drove back the Ottoman cavalry on both flanks, and for a time the crusade seemed to be winning. Then Władysław, against Hunyadi's advice and eager for glory, led the Polish and Hungarian royal knights in a charge straight at the sultan and the Janissary line.",
+        "The charge broke on the Janissaries' stakes and reserve; the king was killed and his head taken, and the sight of the royal banner's fall shattered the crusade's morale. Hunyadi extricated part of the army, but the crusade was destroyed."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "The death of a crowned king on the field was a shock felt across Europe; the \"Varna\" epithet attached to the fallen Władysław. Hunyadi fought on — his defeat at the second Kosovo in 1448 completing the collapse of the northern crusades — but no coalition of that scale threatened the Ottoman Balkans again.",
+        "Varna's deeper consequence was Byzantine: with the last relief-crusade destroyed, Constantinople stood alone, and Murad's son Mehmed II took it in 1453. The battle is remembered as the moment the crusading strategy against the Ottomans finally failed, and the road to the fall of the city ran open."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Ottoman conquest of the Balkans began at Kosovo",
+    "battleSlug": "battle-of-kosovo",
+    "relationship": "earlier-context",
+    "reason": "Varna was the last crusade to try to reverse the Ottoman conquest of the Balkans; to see where that conquest began, return to the field of Kosovo in 1389, where Serbia fell under Ottoman power."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Murad II",
+        "type": "person",
+        "slug": "murad-ii"
+      },
+      {
+        "name": "Władysław III of Poland",
+        "type": "person",
+        "slug": "wladyslaw-iii-of-poland"
+      },
+      {
+        "name": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Ottoman Empire",
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire"
+      },
+      {
+        "name": "Kingdom of Poland",
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "The earlier crusade destroyed the same way, 1396"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The consequence, 1453"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Varna_1444.PNG"
+    },
+    {
+      "title": "Battle of Varna — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Varna"
+    },
+    {
+      "title": "The Crusade of Varna, 1443–45 (ed. Colin Imber)",
+      "author": "Colin Imber (ed.)",
+      "type": "book"
+    }
+  ],
+  "type": "event"
+}

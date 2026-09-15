@@ -1,0 +1,141 @@
+{
+  "id": "house-of-asturias",
+  "type": "house",
+  "name": "House of Asturias",
+  "aliases": [
+    "Astur-Leonese dynasty",
+    "Asturian dynasty",
+    "Astur dynasty"
+  ],
+  "originYear": 718,
+  "endYear": 1037,
+  "reignSpan": "718–1037 (Asturias, León and their line)",
+  "region": "North-western Iberia (Asturias and León)",
+  "originPlace": "Asturias",
+  "arms": "The Cross of Victory (Cruz de la Victoria)",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cruz%20de%20la%20victoria%20de%20Asturias.JPG",
+  "summary": "The royal line begun by Pelayo that ruled Asturias and then León, giving the Reconquista its first monarchy and, through marriage and succession, the later kings of Castile and León.",
+  "overview": "The House of Asturias — also called the Astur-Leonese dynasty — is the founding royal line of Christian Iberia. It was never a single unbroken male lineage, but a monarchy that ran from Pelayo through the kings of Asturias and León.",
+  "founder": {
+    "personSlug": "pelagius-of-asturias",
+    "displayName": "Pelagius of Asturias",
+    "note": "Founder of the Asturian kingdom and the dynasty, c. 718."
+  },
+  "seats": [
+    "Cangas de Onís",
+    "Oviedo",
+    "León"
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "pelagius-of-asturias",
+      "displayName": "Pelayo",
+      "note": "Founder; victor of Covadonga (r. c. 718–737)."
+    },
+    {
+      "displayName": "Alfonso I of Asturias",
+      "note": "Son-in-law of Pelayo; expanded the realm (r. 739–757)."
+    },
+    {
+      "displayName": "Alfonso II the Chaste",
+      "note": "Fixed the capital at Oviedo (r. 791–842)."
+    },
+    {
+      "displayName": "Alfonso III the Great",
+      "note": "Greatest of the Asturian kings (r. 866–910)."
+    },
+    {
+      "displayName": "Ordoño II of León",
+      "note": "Made León the seat of the kingdom."
+    },
+    {
+      "personSlug": "ramiro-ii-of-leon",
+      "displayName": "Ramiro II of León",
+      "note": "Warrior-king; victor of Simancas (939)."
+    }
+  ],
+  "familyTree": {},
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The House of Asturias is the royal line that began with Pelayo's revolt and grew into the first Christian monarchy of the Reconquista. Its kings ruled Asturias from the eighth century and then, as the realm expanded and its centre shifted south, the Kingdom of León.",
+        "Strictly, it was less a single dynasty than a continuous monarchy: Pelayo's direct male line ended within two generations, and the crown passed to Alfonso I through marriage to Pelayo's daughter Ermesinda. Later medieval and modern writers nonetheless treated the Asturian and Leonese kings as one founding house."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Through the kings of León the line continued into the central Middle Ages, and by inheritance and marriage its blood ran into the royal houses of Castile and León. Medieval rulers across Christian Iberia traced their legitimacy back to Pelayo and the Asturian kings.",
+        "The dynasty's enduring emblem is the Cross of Victory, associated with Pelayo's banner at Covadonga and preserved as a jewelled cross in Oviedo, which remains the heraldic symbol of Asturias."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 718",
+      "title": "Dynasty founded",
+      "description": "Pelayo establishes the Asturian monarchy."
+    },
+    {
+      "date": "c. 924",
+      "title": "Asturias becomes León",
+      "description": "The line continues as the kings of León."
+    }
+  ],
+  "imageInfo": {
+    "caption": "The Cross of Victory, jewelled emblem of the Asturian monarchy, kept in the Cámara Santa of Oviedo Cathedral.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Cross dated 908 (reign of Alfonso III)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cruz_de_la_victoria_de_Asturias.JPG",
+    "license": "Creative Commons",
+    "note": "The historic emblem associated with Pelayo's victory and the Asturian kings."
+  },
+  "sources": [
+    {
+      "title": "Kings of Asturias",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/List_of_Asturleonese_monarchs"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Pelagius of Asturias",
+        "type": "person",
+        "slug": "pelagius-of-asturias",
+        "label": "Founder of the house"
+      },
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "Leonese king of the line"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Covadonga",
+        "type": "event",
+        "slug": "battle-of-covadonga",
+        "label": "The victory that launched the dynasty"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Asturias",
+        "type": "location",
+        "slug": "kingdom-of-asturias",
+        "label": "The realm the house ruled"
+      },
+      {
+        "title": "Covadonga",
+        "type": "location",
+        "slug": "covadonga",
+        "label": "Where the dynasty's founding victory was won"
+      }
+    ]
+  }
+}

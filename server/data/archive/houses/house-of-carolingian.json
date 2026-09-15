@@ -1,0 +1,280 @@
+{
+  "id": "house-of-carolingian",
+  "type": "house",
+  "name": "Carolingian dynasty",
+  "aliases": [
+    "Carolingian",
+    "Carolingian (founder as king)",
+    "Carolingian (last)",
+    "Carolingians",
+    "House of Charlemagne",
+    "Carolingian dynasty",
+    "Pippinid / Arnulfing"
+  ],
+  "originYear": 751,
+  "endYear": 987,
+  "reignSpan": "751–987",
+  "region": "Frankish Empire",
+  "originPlace": "Austrasia (Frankish heartland)",
+  "arms": "The Carolingians predate heraldry; the dynasty is symbolised by Charlemagne’s monogram and imperial seal.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Statuette%20%C3%A9questre%20dite%20de%20Charlemagne%20-%20Mus%C3%A9e%20du%20Louvre%20Objets%20d%27Art%20OA%208260.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The bronze equestrian statuette traditionally identified as Charlemagne, the dynasty’s greatest ruler.",
+    "creator": "Carolingian metalwork (Louvre, OA 8260)",
+    "date": "9th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statuette_%C3%A9questre_dite_de_Charlemagne_-_Mus%C3%A9e_du_Louvre_Objets_d%27Art_OA_8260.jpg",
+    "note": "A rare Carolingian bronze; the identification as Charlemagne is traditional rather than certain."
+  },
+  "summary": "The Frankish dynasty of Charlemagne, which built a Christian empire across western Europe and gave its name to the Carolingian Renaissance.",
+  "overview": "The Carolingians rose from the Frankish mayors of the palace to kingship under Pepin the Short in 751, and to a revived Western empire under Charlemagne, crowned in Rome in 800. They reshaped medieval Europe — its church, learning, script, and administration — before the empire fragmented and the dynasty faded, ending in the West with Louis V in 987.",
+  "founder": {
+    "personSlug": "charles-martel",
+    "displayName": "Charles Martel",
+    "note": "Frankish leader who founded the family’s power and halted the Arabs at Tours"
+  },
+  "seats": [
+    {
+      "name": "Carolingian Empire",
+      "type": "location",
+      "slug": "carolingian-empire"
+    },
+    {
+      "name": "Frankish Kingdom",
+      "type": "location",
+      "slug": "frankish-kingdom"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "charles-martel",
+      "displayName": "Charles Martel",
+      "note": "Halted the Arab advance at Tours in 732"
+    },
+    {
+      "personSlug": "pepin-the-short",
+      "displayName": "Pepin the Short",
+      "note": "First Carolingian king of the Franks, 751"
+    },
+    {
+      "personSlug": "charlemagne",
+      "displayName": "Charlemagne",
+      "note": "Emperor of the West; the dynasty’s greatest figure"
+    },
+    {
+      "personSlug": "louis-the-pious",
+      "displayName": "Louis the Pious",
+      "note": "Held the empire together, but his sons divided it"
+    },
+    {
+      "personSlug": "lothair-i",
+      "displayName": "Lothair I",
+      "note": "Emperor after the Treaty of Verdun split the empire"
+    },
+    {
+      "personSlug": "louis-v-of-france",
+      "displayName": "Louis V",
+      "note": "Last Carolingian king of the Franks, d. 987"
+    }
+  ],
+  "familyTree": {
+    "caption": "The early Carolingian main line, from Charles Martel to the sons of Louis the Pious, whose Treaty of Verdun in 843 split the empire. The West Frankish royal line continued to Louis V (d. 987), several generations later.",
+    "root": {
+      "name": "Charles Martel",
+      "personSlug": "charles-martel",
+      "note": "Mayor of the Palace, d. 741",
+      "children": [
+        {
+          "name": "Pepin the Short",
+          "personSlug": "pepin-the-short",
+          "note": "King of the Franks, r. 751–768",
+          "children": [
+            {
+              "name": "Charlemagne",
+              "personSlug": "charlemagne",
+              "note": "Emperor, r. 768–814",
+              "children": [
+                {
+                  "name": "Louis the Pious",
+                  "personSlug": "louis-the-pious",
+                  "note": "Emperor, r. 814–840",
+                  "children": [
+                    {
+                      "name": "Lothair I",
+                      "personSlug": "lothair-i",
+                      "note": "Emperor, r. 840–855",
+                      "branch": "Treaty of Verdun (843) split the empire"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The family rose through the office of mayor of the palace in the Frankish kingdom, the real power behind the fading Merovingian kings. Charles Martel, the \"Hammer\", defeated an Arab-Berber army at the Battle of Tours in 732 and ruled the Franks in all but name.",
+        "His son Pepin the Short took the final step in 751, deposing the last Merovingian and having himself anointed king with papal blessing — a sacral kingship that bound the new dynasty to the Church."
+      ]
+    },
+    {
+      "title": "Charlemagne and the empire",
+      "paragraphs": [
+        "Charlemagne conquered on every front — Lombard Italy, Saxony, Bavaria, and the Spanish March — welding much of western Europe into a single realm. On Christmas Day 800 Pope Leo III crowned him Emperor of the Romans, reviving an imperial title in the West for the first time since antiquity.",
+        "He governed through counts, missi dominici, capitularies, and a network of bishops and abbots, and made his court at Aachen the centre of a revival of learning and Latin culture."
+      ]
+    },
+    {
+      "title": "The Carolingian Renaissance",
+      "paragraphs": [
+        "Charlemagne and his scholars, led by Alcuin of York, gathered manuscripts, standardised the liturgy, reformed education, and developed the clear Caroline minuscule script — the ancestor of modern lower-case letters — through which much classical literature survives.",
+        "This \"Carolingian Renaissance\" gave medieval Europe a shared Latin Christian culture that long outlived the political empire."
+      ]
+    },
+    {
+      "title": "Division and decline",
+      "paragraphs": [
+        "Louis the Pious struggled to hold the empire together against his own rebellious sons, and after his death the Treaty of Verdun in 843 partitioned it three ways — the seed of later France and Germany. Repeated divisions, Viking raids, and the rise of powerful regional nobles steadily eroded royal authority.",
+        "By the tenth century Carolingian kings were often figureheads, and rival families such as the Robertians (later Capetians) held the real power in West Francia."
+      ]
+    },
+    {
+      "title": "End of the line and legacy",
+      "paragraphs": [
+        "The dynasty ended in East Francia in 911 and in West Francia in 987, when Louis V died and the magnates chose Hugh Capet as king instead of a Carolingian claimant, beginning the Capetian age.",
+        "Yet the Carolingian legacy was foundational: the alliance of Frankish kingship and the Church, the ideal of a Christian empire, the reformed script and schools, and the very map of medieval Europe all descended from Charlemagne’s house."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "732",
+      "title": "Battle of Tours",
+      "description": "Charles Martel halts the Arab advance into Francia.",
+      "links": [
+        {
+          "title": "Battle of Tours",
+          "type": "event",
+          "slug": "battle-of-tours"
+        }
+      ]
+    },
+    {
+      "date": "751",
+      "title": "Pepin becomes king",
+      "description": "The Carolingians replace the Merovingian dynasty.",
+      "links": [
+        {
+          "title": "Pepin the Short",
+          "type": "person",
+          "slug": "pepin-the-short"
+        }
+      ]
+    },
+    {
+      "date": "800",
+      "title": "Charlemagne crowned emperor",
+      "description": "The imperial title is revived in the West.",
+      "links": [
+        {
+          "title": "Charlemagne",
+          "type": "person",
+          "slug": "charlemagne"
+        }
+      ]
+    },
+    {
+      "date": "843",
+      "title": "Treaty of Verdun",
+      "description": "The empire is divided among Louis the Pious’s sons.",
+      "links": [
+        {
+          "title": "Lothair I",
+          "type": "person",
+          "slug": "lothair-i"
+        }
+      ]
+    },
+    {
+      "date": "987",
+      "title": "End of the West Frankish line",
+      "description": "Louis V dies and Hugh Capet is chosen king.",
+      "links": [
+        {
+          "title": "Louis V",
+          "type": "person",
+          "slug": "louis-v-of-france"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Charles Martel",
+        "type": "person",
+        "slug": "charles-martel",
+        "label": "Founder of the family’s power"
+      },
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne",
+        "label": "Emperor of the West"
+      },
+      {
+        "title": "Louis the Pious",
+        "type": "person",
+        "slug": "louis-the-pious",
+        "label": "Held the empire together"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Tours",
+        "type": "event",
+        "slug": "battle-of-tours",
+        "label": "Charles Martel’s victory, 732"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The empire they built"
+      },
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "Their royal realm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Carolingian dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Carolingian-dynasty"
+    },
+    {
+      "title": "Carolingian dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Carolingian_dynasty"
+    },
+    {
+      "title": "Charlemagne — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Charlemagne"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "byzantine-conquest-of-cilicia",
+  "type": "event",
+  "eventType": "War",
+  "name": "Byzantine conquest of Cilicia",
+  "aliases": [
+    "Conquest of Cilicia"
+  ],
+  "year": 964,
+  "location": "Cilicia, in south-eastern Anatolia",
+  "eventLocation": "The Cilician plain, between the Taurus mountains and the sea",
+  "conflict": "The Byzantine eastern conquests",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20the%20Byzantine%20Empire%2C%201025%20AD.svg",
+  "imageInfo": {
+    "caption": "The Byzantine Empire in 1025, holding Cilicia, Cyprus, Crete and the Syrian corner won in the campaigns of the 960s.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the empire in 1025",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_Byzantine_Empire,_1025_AD.svg",
+    "note": "A modern map showing the result rather than the campaign — sixty years after Cilicia fell, at the empire's greatest medieval extent. The south-eastern corner is what these two years bought. Public domain."
+  },
+  "summary": "In 964 and 965 Nikephoros II Phokas took the Cilician plain city by city, opening the passes through the Taurus that Arab armies had used against Anatolia for three centuries.",
+  "details": "Not a battle but a methodical two-year reduction of fortified cities.",
+  "outcome": "Cilicia annexed; Mopsuestia stormed in July 965 and Tarsus surrendered in August.",
+  "background": "Cilicia was the base of the frontier raiding, and its passes were the door into Anatolia.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Cilicia is a coastal plain shut off from Anatolia by the Taurus mountains and from Syria by the Amanus, and the passes through them — the Cilician Gates above all — are the reason it mattered. For three centuries Arab armies had used them to enter Anatolia, and the fortified cities of the plain existed to support that traffic.",
+        "Nikephoros II Phokas took the whole of it in two campaigning seasons, in 964 and 965, and he did it the way he did everything: methodically, city by city, with a supply system behind him.",
+        "When it was finished the empire held the passes from the southern side for the first time since the seventh century, and the strategic problem that had defined the eastern frontier since the Arab conquests simply ceased to exist."
+      ]
+    },
+    {
+      "title": "The campaign of 964",
+      "paragraphs": [
+        "The first season took the inland cities. Anazarbus fell and was destroyed, Adana was taken, and the smaller fortresses of the plain were reduced or abandoned.",
+        "The two great prizes — Mopsuestia on the Pyramus and Tarsus, the largest city of the plain — were left for the following year, because both were strongly walled and neither could be starved out in a single season.",
+        "The pattern of the campaign is the pattern of all Nikephoros's work: no dramatic engagement, a great deal of fortification and supply, and an enemy given no opportunity to fight the sort of battle that might have gone differently."
+      ]
+    },
+    {
+      "title": "Mopsuestia and Tarsus",
+      "paragraphs": [
+        "In July 965 Mopsuestia was taken by mining: the Byzantines dug beneath a section of wall, propped it, fired the props and brought the wall down, then stormed the breach. The population was deported.",
+        "Tarsus held out until August. With Mopsuestia gone and no relief possible from a Syria that had lost Aleppo three years earlier, the city negotiated, and it was allowed to surrender on terms — the inhabitants could leave with what they could carry, and many went to Syria.",
+        "Nikephoros entered Tarsus in August 965 and the conquest of the plain was complete. The great mosque was converted, and the region was resettled over the following years with Greeks and Armenians."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The Cilician Gates in Byzantine hands changed the arithmetic of the whole frontier. Anatolia could no longer be raided from Syria without first fighting through territory the empire held and fortified, and the annual campaign season that had shaped both societies for three hundred years ended.",
+        "It also gave the empire a base for what came next. Antioch is a week's march from the Cilician plain, and Cyprus is visible from its coast in clear weather; both fell within four years of Tarsus.",
+        "The resettlement had a long tail. Armenian communities established in Cilicia in this period grew, and after the Seljuk conquest of the Armenian highlands they became the basis of the Armenian kingdom of Cilicia — a state that outlived Byzantine rule in the region by two centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "962",
+      "title": "Aleppo sacked",
+      "description": "The principal Muslim power in northern Syria loses its capital and its capacity to relieve Cilicia.",
+      "links": [
+        {
+          "title": "Sack of Aleppo",
+          "type": "event",
+          "slug": "siege-of-aleppo-962"
+        }
+      ]
+    },
+    {
+      "date": "964",
+      "title": "Anazarbus and Adana",
+      "description": "The inland cities of the Cilician plain are taken in the first campaigning season."
+    },
+    {
+      "date": "July 965",
+      "title": "Mopsuestia stormed",
+      "description": "The walls are mined and brought down, and the city is taken and its population deported."
+    },
+    {
+      "date": "August 965",
+      "title": "Tarsus surrenders",
+      "description": "The largest city of the plain negotiates terms; the inhabitants are allowed to leave for Syria."
+    },
+    {
+      "date": "965",
+      "title": "Cilicia annexed",
+      "description": "The plain is organised as Byzantine territory and resettled with Greeks and Armenians."
+    },
+    {
+      "date": "969",
+      "title": "Antioch falls",
+      "description": "The base Cilicia provided makes the conquest of northern Syria possible.",
+      "links": [
+        {
+          "title": "Siege of Antioch (969)",
+          "type": "event",
+          "slug": "siege-of-antioch-969"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Commanded both campaigning seasons"
+      }
+    ],
+    "events": [
+      {
+        "title": "Sack of Aleppo",
+        "type": "event",
+        "slug": "siege-of-aleppo-962",
+        "label": "Which removed any prospect of relief"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "What the Cilician base made possible"
+      },
+      {
+        "title": "Byzantine conquest of Cyprus",
+        "type": "event",
+        "slug": "byzantine-conquest-of-cyprus",
+        "label": "Taken in the same year, from the same coast"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Which held the Taurus passes from the south for the first time since the 600s"
+      },
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "Too weakened to intervene"
+      },
+      {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Opened the road to it"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Leo the Deacon, History",
+      "url": "https://en.wikipedia.org/wiki/Leo_the_Deacon",
+      "type": "primary source"
+    },
+    {
+      "title": "Byzantine conquest of Cilicia",
+      "url": "https://en.wikipedia.org/wiki/Cilicia",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine studies",
+      "url": "https://www.doaks.org/research/byzantine",
+      "type": "academic resource",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "byzantine-conquest-of-cyprus",
+  "type": "event",
+  "eventType": "War",
+  "name": "Byzantine conquest of Cyprus",
+  "aliases": [
+    "Reconquest of Cyprus"
+  ],
+  "year": 965,
+  "location": "Cyprus",
+  "eventLocation": "The island of Cyprus, in the eastern Mediterranean",
+  "conflict": "The Byzantine eastern conquests",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyrenia%2001-2017%20img03%20Castle%20Byzantine%20chapel.jpg",
+  "imageInfo": {
+    "caption": "A Byzantine chapel inside the castle at Kyrenia on the north coast of Cyprus.",
+    "creator": "A. Savin",
+    "date": "photographed 2017",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyrenia_01-2017_img03_Castle_Byzantine_chapel.jpg",
+    "note": "A surviving Byzantine building on the island, photographed in the modern era. Cyprus has no monument specific to the annexation of 965; this stands for the Byzantine centuries that followed it. Licensed under the Free Art License."
+  },
+  "summary": "In 965 a Byzantine expedition under Niketas Chalkoutzes annexed Cyprus outright, ending an extraordinary arrangement under which the island had been shared between the empire and the caliphate for nearly three centuries.",
+  "details": "The end of the longest-running condominium in medieval politics.",
+  "outcome": "Cyprus annexed and organised as a Byzantine theme.",
+  "background": "Since 688 the island had paid its taxes to both Constantinople and Damascus, and been governed by neither alone.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Cyprus in 965 was not conquered from an enemy so much as removed from a shared arrangement. Since a treaty of 688 between Justinian II and the caliph Abd al-Malik, the island had occupied a genuinely strange position: neutral ground, its revenues divided between the two empires, garrisoned by neither.",
+        "The arrangement lasted, with interruptions, for nearly three hundred years — longer than most medieval states — and it survived because both powers found a demilitarised island in the middle of the eastern Mediterranean more useful than a contested one.",
+        "In 965 Nikephoros II ended it. An expedition under the patrician Niketas Chalkoutzes took the island, and Cyprus was organised as a Byzantine theme."
+      ]
+    },
+    {
+      "title": "The condominium",
+      "paragraphs": [
+        "The 688 agreement is one of the more remarkable documents of the early medieval Mediterranean. Cyprus paid tax to Constantinople and to Damascus in equal shares; neither side was to fortify it; and its inhabitants lived under a local administration that answered to both and to neither.",
+        "It broke down repeatedly. Justinian II deported much of the population to the Hellespont in 691 and had to allow them back; Arab fleets used the island as a staging point in the eighth century; Byzantine expeditions raided it in the ninth. But the framework kept re-forming, because it kept suiting both sides.",
+        "What ended it was the change in the balance. Once the empire held Crete, Cilicia and a fleet that could dominate the sea lanes, an island that was formally half-Muslim in the middle of Byzantine waters was an anomaly rather than a convenience."
+      ]
+    },
+    {
+      "title": "The annexation",
+      "paragraphs": [
+        "The expedition of 965 was commanded by Niketas Chalkoutzes, a patrician and naval officer, and this is worth stating plainly because popular accounts routinely give the credit to Nikephoros II in person. He was not there; he was in Cilicia and then in the capital.",
+        "The operation itself was small and is barely described. There was resistance from the Muslim community on the island and it was overcome quickly, and no siege of consequence is recorded.",
+        "Cyprus became a theme with a strategos, and remained Byzantine for the next two centuries until Richard the Lionheart took it during the Third Crusade and sold it on."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "The strategic value was in the sea lanes. Cyprus sits off the Syrian and Cilician coasts, and holding it meant that any fleet moving between Egypt, Syria and the Aegean did so under Byzantine observation.",
+        "Combined with Crete four years earlier and Cilicia in the same year, it completed Byzantine control of the eastern Mediterranean, and it is why the empire could supply and reinforce Antioch after 969 without difficulty.",
+        "The condominium's end is also the more interesting historical loss. For three centuries two empires at more or less permanent war had maintained a shared, demilitarised island between them, and the arrangement worked. It is a reminder that the frontier was never only a place where armies met."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "688",
+      "title": "The condominium agreed",
+      "description": "Justinian II and the caliph Abd al-Malik agree to share the island's revenues and fortify it for neither side."
+    },
+    {
+      "date": "691",
+      "title": "The first breakdown",
+      "description": "Justinian II deports much of the population to the Hellespont, then has to permit their return."
+    },
+    {
+      "date": "8th–9th centuries",
+      "title": "Repeated violations",
+      "description": "Arab fleets use the island as a staging point and Byzantine expeditions raid it; the framework re-forms each time."
+    },
+    {
+      "date": "961",
+      "title": "Crete retaken",
+      "description": "The balance at sea shifts decisively toward Constantinople.",
+      "links": [
+        {
+          "title": "Siege of Chandax",
+          "type": "event",
+          "slug": "siege-of-chandax"
+        }
+      ]
+    },
+    {
+      "date": "965",
+      "title": "Cyprus annexed",
+      "description": "Niketas Chalkoutzes takes the island and it is organised as a Byzantine theme."
+    },
+    {
+      "date": "1191",
+      "title": "Lost to the crusaders",
+      "description": "Richard the Lionheart takes Cyprus during the Third Crusade and sells it on."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Ordered the annexation, though he did not command it"
+      }
+    ],
+    "events": [
+      {
+        "title": "Byzantine conquest of Cilicia",
+        "type": "event",
+        "slug": "byzantine-conquest-of-cilicia",
+        "label": "Taken in the same year, on the facing coast"
+      },
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "The victory that made Byzantine sea power decisive"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Which completed its control of the eastern sea lanes"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Which had shared the island's revenues since 688"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Leo the Deacon, History",
+      "url": "https://en.wikipedia.org/wiki/Leo_the_Deacon",
+      "type": "primary source"
+    },
+    {
+      "title": "Byzantine Cyprus",
+      "url": "https://en.wikipedia.org/wiki/Cyprus_in_the_Middle_Ages",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine studies",
+      "url": "https://www.doaks.org/research/byzantine",
+      "type": "academic resource",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

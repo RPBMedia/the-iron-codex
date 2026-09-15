@@ -1,0 +1,180 @@
+{
+  "id": "ferdinand-iii-of-castile",
+  "type": "character",
+  "name": "Ferdinand III of Castile",
+  "aliases": [
+    "Fernando III",
+    "Saint Ferdinand",
+    "San Fernando",
+    "Ferdinand the Saint",
+    "Ferdinand III"
+  ],
+  "born": "c. 1199",
+  "died": "1252",
+  "deathAge": "about 53",
+  "restingPlace": "Seville Cathedral",
+  "birth": {
+    "date": "c. 1199",
+    "place": {
+      "name": "near Salamanca, Kingdom of León"
+    }
+  },
+  "death": {
+    "date": "30 May 1252",
+    "place": {
+      "name": "Seville",
+      "slug": "seville"
+    }
+  },
+  "location": "Castile, León and Andalusia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fernando_III_de_Castilla_02.jpg",
+  "title": "king of Castile and León",
+  "isRuler": true,
+  "roles": [
+    "King of Castile",
+    "King of León",
+    "Conqueror of Córdoba and Seville"
+  ],
+  "epithets": [
+    {
+      "name": "the Saint",
+      "type": "religious epithet",
+      "note": "Canonised as San Fernando in 1671; venerated for his piety and his conquests."
+    }
+  ],
+  "summary": "Ferdinand III permanently united Castile and León and conquered most of al-Andalus — Córdoba, Jaén, and Seville — leaving only Granada as an independent Muslim state; he was later canonised as San Fernando.",
+  "details": "King of Castile from 1217 and of León from 1230, Ferdinand III fused the two crowns for good and led the most sweeping advance of the Reconquista, taking the great cities of the Guadalquivir before his death at Seville in 1252.",
+  "overview": "Ferdinand III is remembered as the king who all but finished the reconquest of southern Iberia and as a saint of the Castilian monarchy.",
+  "quickFacts": {
+    "realm": "Kingdom of Castile and León",
+    "dynasty": "Castilian royal house",
+    "culture": "Castilian-Leonese",
+    "knownFor": "Uniting Castile and León; conquering Córdoba and Seville"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ferdinand III ruled Castile from 1217 and León from 1230, and by joining the two crowns permanently he created the dominant Christian power of Iberia. He then led the greatest surge of the Reconquista, conquering the heartland of al-Andalus.",
+        "In little more than a decade he took Córdoba (1236), Jaén (1246) and Seville (1248), and reduced Murcia and Granada to tributary status. By his death in 1252 only Granada survived as an independent Muslim state. He was canonised in 1671 as San Fernando."
+      ]
+    },
+    {
+      "title": "Reign and conquests",
+      "paragraphs": [
+        "Ferdinand came to the throne of Castile in 1217 when his mother Berengaria, who had inherited it, stepped aside in his favour. In 1230, on the death of his father Alfonso IX of León, he claimed and secured León as well, ending the recurring separation of the two kingdoms.",
+        "With the Almohad order collapsing after Las Navas de Tolosa, he drove south down the Guadalquivir. Córdoba fell in 1236 and Seville, after a siege broken by a river fleet, in 1248. He organised the resettlement of the conquered cities and the great military orders that held the frontier, and he died at Seville, where he is buried in the cathedral."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Ferdinand was remembered by his own court and by later tradition as the model of a Christian warrior-king: pious, just, and relentless in the holy war of reconquest, a reputation that carried him to sainthood four centuries after his death. The chronicles stress his devotion and his care to give his conquests a religious frame.",
+        "Behind the saintly image was an effective and hard-headed ruler. He managed the difficult union of Castile and León, worked closely with the military orders and the Church, and organised the settlement of vast new territories — the administrative labour that made his conquests permanent rather than passing raids."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Permanently united the crowns of Castile and León (1230)",
+    "Conquered Córdoba (1236), Jaén (1246) and Seville (1248)",
+    "Reduced al-Andalus to the single emirate of Granada"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1199",
+      "title": "Born",
+      "description": "Son of Alfonso IX of León and Berengaria of Castile."
+    },
+    {
+      "date": "1217",
+      "title": "King of Castile",
+      "description": "Becomes king of Castile when his mother Berengaria cedes the throne to him."
+    },
+    {
+      "date": "1230",
+      "title": "King of León",
+      "description": "Inherits León on his father's death, uniting the two crowns for good."
+    },
+    {
+      "date": "1236",
+      "title": "Conquest of Córdoba",
+      "description": "Takes the former Umayyad capital."
+    },
+    {
+      "date": "1248",
+      "title": "Conquest of Seville",
+      "description": "Captures the greatest city of al-Andalus after a long siege."
+    },
+    {
+      "date": "1252",
+      "title": "Died",
+      "description": "Dies at Seville; succeeded by his son Alfonso X."
+    }
+  ],
+  "succession": {
+    "office": "King of Castile and León",
+    "note": "Ferdinand held Castile from 1217 and León from 1230, joining them permanently.",
+    "predecessor": {
+      "displayName": "Henry I of Castile",
+      "note": "His cousin, the boy-king of Castile whose death brought Ferdinand the throne (León came from his father Alfonso IX in 1230).",
+      "personSlug": "henry-i-of-castile"
+    },
+    "successor": {
+      "displayName": "Alfonso X of Castile",
+      "note": "His son, \"the Wise\"."
+    }
+  },
+  "imageInfo": {
+    "caption": "Ferdinand III of Castile, later canonised as San Fernando, conqueror of Córdoba and Seville.",
+    "creator": "Later depiction, Wikimedia Commons",
+    "date": "Later royal/devotional depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fernando_III_de_Castilla_02.jpg",
+    "license": "Public domain",
+    "note": "A later image of the sainted king; no contemporary portrait survives."
+  },
+  "sources": [
+    {
+      "title": "Ferdinand III of Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Conquest of Córdoba",
+        "type": "event",
+        "slug": "conquest-of-cordoba",
+        "label": "His conquest of 1236"
+      },
+      {
+        "title": "Conquest of Seville",
+        "type": "event",
+        "slug": "conquest-of-seville",
+        "label": "His conquest of 1248"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Seville",
+        "type": "location",
+        "slug": "seville",
+        "label": "His conquest and burial place"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "His realm"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "His realm"
+      }
+    ]
+  }
+}

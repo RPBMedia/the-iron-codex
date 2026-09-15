@@ -1,0 +1,93 @@
+{
+  "id": "tikrit",
+  "type": "location",
+  "locationType": "City",
+  "kingdom": "Seljuk and Abbasid frontier world",
+  "name": "Tikrit",
+  "year": 600,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Muzahir%20al-Dawla%20Rafi%27%20al-Aqta%27%201009-1010%20AR%20Dirham%20Tikrit%20OBVERSE.jpg?width=1600",
+  "summary": "A city on the Tigris remembered as the birthplace of Saladin.",
+  "overview": [
+    "Tikrit stood on the Tigris in the broader political world of the medieval Middle East.",
+    "Although outside Europe, it is included here because Saladin's career directly shaped crusading history and medieval European politics."
+  ],
+  "knownFor": [
+    "Birthplace of Saladin",
+    "Tigris river setting",
+    "Connections to Ayyubid memory"
+  ],
+  "imageInfo": {
+    "caption": "A silver dirham struck at the Tikrit mint about 1009–1010 for the Uqaylid ruler Muzahir al-Dawla — a medieval object naming the Tigris town where Saladin was born in 1137/38.",
+    "creator": "Photograph of a medieval coin (uploader unattributed)",
+    "date": "Uqaylid dirham, AH 400 (c. 1009–1010)",
+    "source": "Wikimedia Commons",
+    "note": "No photograph of medieval Tikrit survives, and little medieval fabric is left on the site; this contemporary coin, minted in the town itself, is honest on-period evidence of Tikrit in the century before Saladin's birth there.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muzahir_al-Dawla_Rafi%27_al-Aqta%27_1009-1010_AR_Dirham_Tikrit_OBVERSE.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tikrit is a city on the Tigris in northern Mesopotamia associated with the family of Saladin. Saladin was born there around 1137 while his father Najm ad-Din Ayyub served as its governor.",
+        "The city sits on an important river crossing and was part of the contested frontier zone between Abbasid and Seljuk spheres of control in the twelfth century."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Saladin's family — the Ayyubids — were Kurdish military commanders who rose through Zengid service. His father and uncle Shirkuh both served Imad ad-Din Zengi and Nur ad-Din before Saladin's own rise to prominence in Egypt.",
+        "Tikrit represents the provincial military world of the Jazira (Upper Mesopotamia) that produced the commanders who eventually countered crusader power in the late twelfth century."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:13052653_1036893699710410_179259890_o_b6f94.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Tikrit",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Tikrit"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Birthplace of Saladin"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "Realm of Saladin"
+      },
+      {
+        "title": "Damascus",
+        "type": "location",
+        "slug": "damascus"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      }
+    ]
+  }
+}

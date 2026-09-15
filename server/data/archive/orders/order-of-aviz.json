@@ -1,0 +1,238 @@
+{
+  "id": "order-of-aviz",
+  "type": "order",
+  "name": "Order of Aviz",
+  "aliases": [
+    "The Order of Aviz",
+    "Order of Avis",
+    "Knights of Aviz",
+    "Order of Évora",
+    "Military Order of Aviz",
+    "Ordem de Avis",
+    "Order of Saint Benedict of Aviz"
+  ],
+  "originYear": 1176,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Torre_da_Rainha_-_Avis_-_Portugal_%286443743635%29.jpg",
+  "imageInfo": {
+    "caption": "A medieval tower at Avis, the Alentejo town and castle that gave the order its name and seat.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_da_Rainha_-_Avis_-_Portugal_(6443743635).jpg",
+    "note": "Avis became the order’s headquarters in the early 13th century."
+  },
+  "sigilImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Order_of_Aviz.svg",
+  "sigilImageInfo": {
+    "caption": "The green cross flory of the Order of Aviz.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Order_of_Aviz.svg",
+    "note": "A green lily-ended cross, marking the order as a Portuguese cousin of Calatrava."
+  },
+  "summary": "The Order of Aviz was Portugal’s great national military order, born of the Reconquista in the Alentejo and affiliated to Calatrava. Its most famous master, João, seized the Portuguese throne in 1385 as John I and founded the House of Aviz — so that a military order gave its name to a royal dynasty and a golden age.",
+  "founded": "c. 1176, Portugal (as the Order of Évora)",
+  "recognized": "Affiliated to Calatrava; papal confirmation, 12th century",
+  "status": "Extant as a Portuguese honorific order (crown mastership from 1385/1551)",
+  "allegiance": "The crown of Portugal; the Cistercians via Calatrava",
+  "headquarters": "Évora → Avis",
+  "habit": "White mantle with a green cross flory",
+  "patron": "St Benedict and the Virgin Mary",
+  "purpose": "The order was founded to carry the Reconquista through the Alentejo and to hold the southern Portuguese frontier against al-Andalus, garrisoning the castles that secured the young kingdom’s expansion toward the Algarve.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "c. 1176 (as the Order of Évora)"
+    },
+    {
+      "label": "Emblem",
+      "value": "A green cross flory"
+    },
+    {
+      "label": "Famous master",
+      "value": "John I of Portugal, founder of the House of Aviz"
+    },
+    {
+      "label": "Affiliation",
+      "value": "Daughter-order of Calatrava"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Order of Aviz was the chief military order of medieval Portugal — the kingdom’s own instrument of the Reconquista, modelled on and affiliated to the Castilian Order of Calatrava. It held the Alentejo frontier and shared in the making of Portugal.",
+        "Its place in history was sealed when its master, João, became King John I in 1385 and gave the name of the order to the royal House of Aviz, which would rule Portugal through the age of discovery."
+      ]
+    },
+    {
+      "title": "From Évora to Avis",
+      "paragraphs": [
+        "The order emerged around 1176 as a brotherhood of knights at Évora, in the newly conquered Alentejo, and was affiliated to Calatrava, whose Cistercian rule and green-lily cross it adopted. In the early 13th century it received the town of Avis and moved its headquarters there, taking the name it has kept since.",
+        "As a daughter-order of Calatrava it stood under Castilian visitation, a tie that Portugal’s kings would strain as they built a national order of their own."
+      ]
+    },
+    {
+      "title": "A master becomes a king",
+      "paragraphs": [
+        "When the Portuguese royal line failed in 1383, the master of Aviz — João, an illegitimate son of King Peter I — became the focus of resistance to a Castilian succession. Acclaimed king in 1385, he defeated Castile at the Battle of Aljubarrota that same year and secured Portuguese independence.",
+        "As John I he founded the House of Aviz. The order’s name now belonged to a dynasty, and its mastership passed permanently into the orbit of the crown."
+      ]
+    },
+    {
+      "title": "Order and dynasty",
+      "paragraphs": [
+        "After 1385 the mastership of Aviz was held by royal princes, binding the order ever closer to the throne. Its knights and revenues served the crown’s wars in Iberia and, in time, its ventures in North Africa.",
+        "The green cross of Aviz became a badge of the Portuguese establishment, worn by the nobles of the dynasty that carried its name."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Order of Aviz survives as one of Portugal’s honorific orders, but its deepest mark on history is the dynasty it named. The House of Aviz — John I, John II, and Manuel I — presided over Portugal’s rise as a maritime power.",
+        "Alongside the Order of Christ, Aviz shows how the military orders became fused with the Portuguese crown at the dawn of the age of discovery."
+      ]
+    }
+  ],
+  "grandMasters": [
+    {
+      "name": "Gonçalo Viegas",
+      "term": "c. 1176–1195",
+      "note": "First master of the order of Évora."
+    },
+    {
+      "name": "Fernão Rodrigues Monteiro",
+      "term": "early 13th c.",
+      "note": "Master around the move to Avis."
+    },
+    {
+      "name": "Rui Freire de Andrade",
+      "term": "late 13th c.",
+      "note": ""
+    },
+    {
+      "name": "João, Master of Aviz",
+      "term": "1364–1385",
+      "note": "Became King John I of Portugal and founded the House of Aviz."
+    },
+    {
+      "name": "Fernando of Portugal",
+      "term": "15th c.",
+      "note": "A royal prince as master, tying the order to the crown."
+    }
+  ],
+  "battles": [
+    {
+      "slug": "battle-of-aljubarrota",
+      "name": "Aljubarrota",
+      "date": "14 Aug 1385",
+      "role": "Master João, now king, wins Portuguese independence.",
+      "opponent": "Kingdom of Castile",
+      "outcome": "Portuguese victory"
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Avis",
+      "period": "from the early 13th c.",
+      "note": "The Alentejo town and castle that became the order’s seat."
+    },
+    {
+      "name": "Évora",
+      "period": "from c. 1176",
+      "note": "The order’s birthplace in the reconquered Alentejo."
+    },
+    {
+      "name": "Alter do Chão & Benavente",
+      "period": "13th–14th c.",
+      "note": "Frontier commanderies of the order."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1176",
+      "title": "Foundation at Évora",
+      "description": "A knightly brotherhood forms in the Alentejo, affiliated to Calatrava."
+    },
+    {
+      "date": "early 13th c.",
+      "title": "The move to Avis",
+      "description": "The order receives Avis and takes the town’s name."
+    },
+    {
+      "date": "1364",
+      "title": "João becomes master",
+      "description": "The future John I is made master of the order."
+    },
+    {
+      "date": "1385",
+      "title": "Aljubarrota",
+      "description": "Master João, acclaimed king, secures independence and founds the House of Aviz."
+    },
+    {
+      "date": "15th c.",
+      "title": "Order of the crown",
+      "description": "The mastership is held by royal princes and bound to the throne."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "The House of Aviz and the Order of Aviz were the same thing.",
+      "reality": "The royal dynasty took its name from the order because its founder had been the order’s master — but the order was an institution, not the dynasty."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A History of Portugal",
+      "author": "A. H. de Oliveira Marques",
+      "year": "1972"
+    },
+    {
+      "title": "The Military Orders in medieval Portugal",
+      "author": "various",
+      "year": ""
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Master of Aviz who became king"
+      },
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "Founder of the kingdom the order served"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "1385 — the master-king’s victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm the order defended"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of Calatrava",
+        "type": "order",
+        "slug": "order-of-calatrava",
+        "label": "Its Castilian mother-order"
+      },
+      {
+        "title": "Order of Christ",
+        "type": "order",
+        "slug": "order-of-christ",
+        "label": "Portugal’s other great order"
+      }
+    ]
+  }
+}

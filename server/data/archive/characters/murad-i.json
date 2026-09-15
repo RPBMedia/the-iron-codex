@@ -1,0 +1,220 @@
+{
+  "id": "murad-i",
+  "type": "character",
+  "name": "Murad I",
+  "aliases": [
+    "Murad Hudavendigar"
+  ],
+  "born": 1326,
+  "died": 1389,
+  "deathAge": "about 63",
+  "restingPlace": "Bursa and Kosovo tomb tradition",
+  "location": "Ottoman Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Fol._254a._The_murder_of_Sultan_Murad_I%2C_Iskender-name_by_Ahmedi%2C_late_15th_century_%28National_Library_of_Russia%2C_C133%29.jpg",
+  "summary": "Murad I was an Ottoman sultan whose reign expanded Ottoman power in the Balkans. He died during or after the Battle of Kosovo.",
+  "details": "Murad I was an Ottoman sultan whose reign expanded Ottoman power in the Balkans. He died during or after the Battle of Kosovo.",
+  "title": "Ottoman sultan",
+  "roles": [
+    "Ottoman sultan",
+    "Commander at Kosovo"
+  ],
+  "birth": {
+    "date": "c. 1326",
+    "place": {
+      "name": "Bursa, traditionally",
+      "slug": "bursa"
+    },
+    "note": "Approximate date; Bursa is a traditional association in early Ottoman memory."
+  },
+  "death": {
+    "date": "1389",
+    "place": {
+      "name": "Kosovo Field",
+      "slug": "kosovo-field"
+    },
+    "event": {
+      "name": "Battle of Kosovo",
+      "type": "event",
+      "slug": "battle-of-kosovo"
+    },
+    "circumstance": "Killed during or just after the Battle of Kosovo in 1389; Ottoman and Balkan traditions preserve different narrative details."
+  },
+  "quickFacts": {
+    "realm": "Ottoman Empire",
+    "dynasty": "House of Osman",
+    "culture": "Ottoman Turkish",
+    "knownFor": "Ottoman expansion in the Balkans and death at Kosovo"
+  },
+  "imageInfo": {
+    "caption": "The murder of Murad I at Kosovo in a late fifteenth-century Ottoman miniature from Ahmedi's Iskendername.",
+    "creator": "See source record",
+    "date": "Late fifteenth century",
+    "source": "Wikimedia Commons",
+    "note": "National Library of Russia, C133; made about a century after his death in 1389."
+  },
+  "overview": [
+    "Murad I was an Ottoman sultan whose reign expanded Ottoman power in the Balkans. He died during or after the Battle of Kosovo."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Murad I was an Ottoman sultan whose reign expanded Ottoman power in the Balkans. He died during or after the Battle of Kosovo."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Murad I was born c. 1326, associated with Bursa, traditionally. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of Ottoman Empire, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Murad I is remembered as one of the architects of Ottoman greatness, a sultan who combined relentless conquest with the building of durable institutions. The sources, mainly later Ottoman tradition, present a capable and energetic ruler who expanded the emerging state deep into the Balkans and Anatolia, organised its military and administrative structures, and was respected as a serious and formidable leader.",
+        "His death gave his memory its most dramatic feature: he was killed at the Battle of Kosovo in 1389, by tradition assassinated by a Serbian noble who gained access to him after the fighting — a striking end for a victorious commander, and one that Ottoman and Serbian traditions remember very differently. The episode fixed him as a martyr-conqueror in Ottoman memory.",
+        "Because the fullest accounts are later and celebratory, the portrait is shaped by the needs of a dynasty looking back on its founders. What the record consistently supports is a determined and institutionally minded ruler whose conquests and reforms were central to the Ottoman rise — remembered as a powerful empire-builder whose dramatic death at Kosovo sealed his legend."
+      ]
+    },
+    {
+      "title": "As Ottoman sultan",
+      "paragraphs": [
+        "Murad consolidated Ottoman rule in Anatolia and southeastern Europe, developing institutions and vassal relationships that supported expansion.",
+        "Battle of Kosovo gives Murad I's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed during or just after the Battle of Kosovo in 1389; Ottoman and Balkan traditions preserve different narrative details."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Murad I is remembered as a major architect of Ottoman expansion before the conquest of Constantinople. His victory and death at Kosovo gave his reign a powerful place in both Ottoman and Balkan memory, while his administrative and military consolidation helped prepare later Ottoman advances."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Expanded Ottoman Balkan power",
+      "description": "Murad’s reign pushed Ottoman authority deeper into the Balkans through conquest and vassalage."
+    },
+    {
+      "title": "Developed Ottoman institutions",
+      "description": "His rule is associated with administrative and military structures that strengthened the early Ottoman state."
+    },
+    {
+      "title": "Died at Kosovo",
+      "description": "Murad was killed during or after the Battle of Kosovo, making his death part of Ottoman and Balkan battle memory."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1326",
+      "title": "Born",
+      "description": "Born into the Ottoman ruling house."
+    },
+    {
+      "date": "1362",
+      "title": "Becomes sultan",
+      "description": "Succeeds Orhan."
+    },
+    {
+      "date": "1360s",
+      "title": "Expands into Europe",
+      "description": "Strengthens Ottoman presence in the Balkans."
+    },
+    {
+      "date": "1389",
+      "title": "Fights at Kosovo",
+      "description": "Leads Ottoman forces.",
+      "links": [
+        {
+          "title": "Battle of Kosovo",
+          "type": "event",
+          "slug": "battle-of-kosovo"
+        }
+      ]
+    },
+    {
+      "date": "1389",
+      "title": "Dies",
+      "description": "Killed during or after the battle."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Died in this engagement"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Realm"
+      },
+      {
+        "title": "Bursa",
+        "type": "location",
+        "slug": "bursa",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Kosovo Field",
+        "type": "location",
+        "slug": "kosovo-field",
+        "label": "Place of death"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "His European capital"
+      }
+    ],
+    "people": [
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Ruler of Ottoman Empire"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Murad I",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Murad_Hudavendigar"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Fol._254a._The_murder_of_Sultan_Murad_I%2C_Iskender-name_by_Ahmedi%2C_late_15th_century_(National_Library_of_Russia%2C_C133).jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Ottoman Sultan",
+    "predecessor": {
+      "personSlug": "orhan",
+      "displayName": "Orhan",
+      "note": "His father"
+    },
+    "successor": {
+      "personSlug": "bayezid-i",
+      "displayName": "Bayezid I the Thunderbolt",
+      "note": "Proclaimed on the field of Kosovo where Murad was killed"
+    }
+  }
+}

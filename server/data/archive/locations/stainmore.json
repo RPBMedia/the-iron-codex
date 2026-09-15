@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Pass / upland region",
+  "year": "Medieval period",
+  "kingdom": "Northern England",
+  "knownFor": [
+    "Eric Bloodaxe",
+    "Kingdom of York",
+    "Northern English routes"
+  ],
+  "overview": [
+    "A northern English upland route traditionally associated with Eric Bloodaxe's death."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Stainmore is a Pennine pass between Yorkshire and Cumbria in northern England. Eric Bloodaxe, the last Norse king of York, was killed there around 954 in ambush, traditionally attributed to Northumbrian interests acting in concert with the English crown."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Eric's death at Stainmore ended Viking kingship in northern England. His killing allowed Eadred of England to consolidate control over Northumbria and ended the alternating English and Norse royal authority over York that had characterized the 870s–950s."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Stainmore",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Stainmore_summit_-_geograph.org.uk_-_131698.jpg"
+    },
+    {
+      "title": "Stainmore reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Stainmore"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric Bloodaxe",
+        "type": "person",
+        "slug": "eric-bloodaxe",
+        "label": "Death of Eric Bloodaxe"
+      },
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair"
+      },
+      {
+        "title": "Haakon the Good",
+        "type": "person",
+        "slug": "haakon-the-good"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm of Eric Bloodaxe"
+      }
+    ]
+  },
+  "id": "stainmore",
+  "name": "Stainmore",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Punch_Bowl%2C_North_Stainmore_-_geograph.org.uk_-_136760.jpg",
+  "summary": "A northern English upland route traditionally associated with Eric Bloodaxe's death.",
+  "imageInfo": {
+    "caption": "The Stainmore pass in the northern Pennines, where Eric Bloodaxe was killed c. 954.",
+    "creator": "Bob Jenkins",
+    "date": "2006-03-13",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Punch_Bowl%2C_North_Stainmore_-_geograph.org.uk_-_136760.jpg",
+    "license": "CC BY-SA 2.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

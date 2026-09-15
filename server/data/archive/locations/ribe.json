@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Ribe Cathedral",
+    "Danish church politics",
+    "Christopher I of Denmark"
+  ],
+  "overview": [
+    "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ribe in southwestern Jutland was one of the earliest urban and market centers in Scandinavia, developing as a trading site in the early eighth century. Denmark's oldest surviving city, it also became an early episcopal center during Scandinavian Christianization."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Ribe's early bishopric, established in the ninth century, made it a center of Christian mission in Scandinavia. Ansgar, the \"Apostle of the North,\" used it as an access point for missionary activity. Its role as both a commercial and ecclesiastical center made it important in the formation of the Danish church and urban network."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Ribe",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ribe_Domkirke.jpg"
+    },
+    {
+      "title": "Ribe reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Ribe"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christopher I of Denmark",
+        "type": "person",
+        "slug": "christopher-i-of-denmark",
+        "label": "Death of Christopher I of Denmark"
+      },
+      {
+        "title": "Eric IV of Denmark",
+        "type": "person",
+        "slug": "eric-iv-of-denmark"
+      },
+      {
+        "title": "Eric V of Denmark",
+        "type": "person",
+        "slug": "eric-v-of-denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "ribe",
+  "name": "Ribe",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ribe_Domkirke.jpg",
+  "summary": "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259.",
+  "imageInfo": {
+    "caption": "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ribe_Domkirke.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

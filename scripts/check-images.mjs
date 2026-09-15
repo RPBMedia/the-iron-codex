@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
 import { vagueCaptionKey, vagueCaptionReasons } from './lib/vague-captions.mjs'
+import { loadArchive } from '../server/data/archive.mjs'
 
 // Declared up here because the image loop below runs at module load, before any
 // declaration further down the file is initialised.
@@ -9,8 +10,7 @@ const vagueCaptionBaseline = new Set(JSON.parse(fs.readFileSync(new URL('./lib/v
 const vagueCaptionsSeen = new Set()
 
 const repoRoot = new URL('..', import.meta.url)
-const dataPath = new URL('../server/data/history.json', import.meta.url)
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+const data = loadArchive()
 const checkRemote = process.argv.includes('--remote') || process.env.CHECK_REMOTE_IMAGES === '1'
 const timeoutMs = Number(process.env.IMAGE_CHECK_TIMEOUT_MS ?? 12000)
 const remoteConcurrency = Number(process.env.IMAGE_CHECK_CONCURRENCY ?? 4)

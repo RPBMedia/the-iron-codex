@@ -1,0 +1,282 @@
+{
+  "id": "house-of-heraclius",
+  "type": "house",
+  "name": "House of Heraclius",
+  "aliases": [
+    "Heraclian dynasty",
+    "Heraclians",
+    "Heraclian"
+  ],
+  "originYear": 610,
+  "endYear": 711,
+  "reignSpan": "610–711",
+  "region": "Byzantine Empire",
+  "originPlace": "Cappadocia, by way of the exarchate of Africa",
+  "arms": "The Byzantine emperors bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constans%20II%20and%20sons.jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Constans II with his sons Constantine IV, Heraclius and Tiberius, struck at Constantinople around 661–663.",
+    "creator": "Constantinople mint",
+    "date": "c. 661–663",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constans_II_and_sons.jpg",
+    "note": "A contemporary object of the dynasty's third generation, showing the heavily bearded Constans II — grandson of Heraclius — with the sons who succeeded him. Coin portraits of this period are conventional images of office rather than likenesses. Licensed CC BY-SA 2.5."
+  },
+  "summary": "The dynasty that ruled the eastern Roman empire from 610 to 711, destroyed Persia, lost the east to the Arab conquests, and turned a Latin empire into a Greek one.",
+  "overview": "The House of Heraclius took the throne by revolt from Carthage and held it for a century in which the empire won the greatest victory in its history and then lost more than half its territory. Its emperors ended the four-hundred-year Persian rivalry, survived the Arab conquests and the first Arab blockade of Constantinople, and rebuilt the state on a smaller, Greek-speaking, permanently defensive footing.",
+  "founder": {
+    "personSlug": "heraclius",
+    "displayName": "Heraclius",
+    "note": "Sailed from Carthage and deposed the usurper Phocas in 610"
+  },
+  "seats": [
+    {
+      "name": "Constantinople",
+      "type": "location",
+      "slug": "constantinople"
+    },
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "heraclius",
+      "displayName": "Heraclius",
+      "note": "r. 610–641; destroyed Persia at Nineveh, then lost Syria and Egypt to the Arabs"
+    },
+    {
+      "displayName": "Constans II",
+      "note": "r. 641–668; moved his court to Sicily and was murdered in his bath at Syracuse",
+      "personSlug": "constans-ii"
+    },
+    {
+      "displayName": "Constantine IV",
+      "note": "r. 668–685; broke the first Arab blockade of Constantinople with Greek fire",
+      "personSlug": "constantine-iv"
+    },
+    {
+      "displayName": "Justinian II",
+      "note": "r. 685–695 and 705–711; deposed, mutilated, and the only emperor to return from exile and reign again",
+      "personSlug": "justinian-ii"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Heraclian emperors, four generations from the revolt of 610 to the killing of Justinian II in 711.",
+    "root": {
+      "name": "Heraclius",
+      "personSlug": "heraclius",
+      "note": "r. 610–641",
+      "children": [
+        {
+          "name": "Constantine III",
+          "note": "r. 641; died within months of his accession",
+          "children": [
+            {
+              "name": "Constans II",
+              "note": "r. 641–668; murdered at Syracuse",
+              "children": [
+                {
+                  "name": "Constantine IV",
+                  "note": "r. 668–685; held the city against the Arab blockade",
+                  "children": [
+                    {
+                      "name": "Justinian II",
+                      "note": "r. 685–695, 705–711; killed, ending the dynasty",
+                      "personSlug": "justinian-ii"
+                    }
+                  ],
+                  "personSlug": "constantine-iv"
+                }
+              ],
+              "personSlug": "constans-ii"
+            }
+          ]
+        },
+        {
+          "name": "Heraklonas",
+          "note": "r. 641; deposed and mutilated in his first year"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty came to power by revolt from the far edge of the empire. Heraclius the Elder was exarch of Africa, governing from Carthage, and in 608 he rebelled against the emperor Phocas, who had seized the throne in 602 by murdering Maurice and had since presided over military collapse.",
+        "His son sailed for Constantinople and deposed Phocas in 610. The family was of Armenian descent and had made its career in the provincial military aristocracy rather than at court, which is a pattern that recurs through Byzantine history: the capital changes dynasty when a frontier general decides it should.",
+        "What Heraclius inherited was a war he was losing. Persia held Syria and Palestine, Jerusalem fell in 614, and Egypt — the grain supply — was gone by 619."
+      ]
+    },
+    {
+      "title": "The Persian war and the great reversal",
+      "paragraphs": [
+        "From 622 Heraclius campaigned in person for six years, striking into Armenia and the Persian heartland instead of defending the lost provinces. In 626 the capital held against a combined Avar and Persian siege while he was away in the east, and in December 627 he destroyed the Persian field army at Nineveh.",
+        "Khosrow II was deposed and executed within two months, the conquered provinces were returned, and the True Cross went back to Jerusalem in 630. It was the most complete victory the empire had won in centuries.",
+        "It was also the most expensive. Both empires had spent a generation and their treasuries on the war, and both were left too weak to resist what came next."
+      ]
+    },
+    {
+      "title": "The Arab conquests",
+      "paragraphs": [
+        "Arab armies entered Syria in the mid-630s and the empire could not hold them. Syria, Palestine and Egypt were lost within a decade, and by the reign of Constans II the frontier had settled on the Taurus mountains, where it stayed for three hundred years.",
+        "Constans II responded by moving west, taking his court to Syracuse in Sicily in 663 — a decision that looks like abandonment from Constantinople and like strategy from the Mediterranean, and which ended with his murder in his bath in 668.",
+        "The dynasty's greatest defensive achievement came under his son. Constantine IV held Constantinople through the first sustained Arab attempt on the city between 674 and 678, and the campaign saw the first recorded use of Greek fire — the weapon that would save the city again in 717."
+      ]
+    },
+    {
+      "title": "Justinian II and the end",
+      "paragraphs": [
+        "Justinian II took the throne in 685 at sixteen and lost it in 695, when he was deposed, had his nose slit — a mutilation intended to disqualify him permanently — and was exiled to the Crimea.",
+        "He came back. In 705 he retook Constantinople with Bulgar help and reigned a second time, wearing a gold nose, and spent six years pursuing the people who had deposed him.",
+        "He was killed in 711 and his young son with him, ending the line. The empire then went through six emperors in six years, until a provincial general named Leo took the throne in 717 with an Umayyad army already marching on the capital."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Heraclians presided over the transformation that separates the eastern Roman empire from Byzantium as historians usually mean it. Greek replaced Latin as the language of state, the imperial title changed from Augustus to Basileus, and the provincial system began to be reorganised into the themes that would defend Anatolia for centuries.",
+        "The territorial record is brutal: the dynasty inherited an empire holding Syria, Palestine, Egypt and North Africa and left one that held none of them. What it did leave was a state that had survived losing them, which no contemporary would have predicted in 640.",
+        "Greek fire, the themes, and a capital that had learned it could be held against anything are the three inheritances the Isaurians used to stop the Arab conquests at the walls in 718."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "608",
+      "title": "Revolt from Carthage",
+      "description": "The exarch of Africa rebels against the emperor Phocas."
+    },
+    {
+      "date": "610",
+      "title": "Heraclius takes the throne",
+      "description": "He deposes and executes Phocas, inheriting a war the empire is losing.",
+      "links": [
+        {
+          "title": "Heraclius",
+          "type": "person",
+          "slug": "heraclius"
+        }
+      ]
+    },
+    {
+      "date": "626",
+      "title": "The Avar siege fails",
+      "description": "Constantinople holds against a combined Avar and Persian attack while the emperor is in the east.",
+      "links": [
+        {
+          "title": "Siege of Constantinople (626)",
+          "type": "event",
+          "slug": "siege-of-constantinople-626"
+        }
+      ]
+    },
+    {
+      "date": "627",
+      "title": "Nineveh",
+      "description": "Heraclius destroys the Persian field army and ends four centuries of rivalry.",
+      "links": [
+        {
+          "title": "Battle of Nineveh",
+          "type": "event",
+          "slug": "battle-of-nineveh"
+        }
+      ]
+    },
+    {
+      "date": "636–642",
+      "title": "The east is lost",
+      "description": "Arab armies take Syria, Palestine and Egypt from an exhausted empire."
+    },
+    {
+      "date": "663",
+      "title": "The court moves to Syracuse",
+      "description": "Constans II relocates west; he is murdered in Sicily five years later."
+    },
+    {
+      "date": "674–678",
+      "title": "The first Arab blockade",
+      "description": "Constantine IV holds Constantinople, in the campaign that gives the first record of Greek fire."
+    },
+    {
+      "date": "695",
+      "title": "Justinian II deposed and mutilated",
+      "description": "His nose is slit to disqualify him from the throne, and he is exiled to the Crimea."
+    },
+    {
+      "date": "705",
+      "title": "Justinian II restored",
+      "description": "He retakes the city with Bulgar help and reigns a second time."
+    },
+    {
+      "date": "711",
+      "title": "The dynasty ends",
+      "description": "Justinian II and his son are killed; six emperors follow in six years."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Founder of the dynasty"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Took the throne six years after the dynasty ended"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (626)",
+        "type": "event",
+        "slug": "siege-of-constantinople-626",
+        "label": "The capital held in the founder's absence"
+      },
+      {
+        "title": "Battle of Nineveh",
+        "type": "event",
+        "slug": "battle-of-nineveh",
+        "label": "The dynasty's greatest victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm it ruled for a century"
+      },
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "The empire it destroyed, at ruinous cost"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Heraclian dynasty",
+      "url": "https://en.wikipedia.org/wiki/Heraclian_dynasty",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

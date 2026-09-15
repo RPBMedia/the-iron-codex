@@ -1,0 +1,287 @@
+{
+  "id": "livonian-order",
+  "type": "order",
+  "name": "Livonian Order",
+  "aliases": [
+    "The Livonian Order",
+    "Livonian branch of the Teutonic Order",
+    "Order of Livonia",
+    "Livländischer Orden",
+    "Brothers of the Sword of Livonia"
+  ],
+  "originYear": 1237,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Cesis_Ordensburg_Cesis_08.JPG",
+  "imageInfo": {
+    "caption": "The Ordensburg at Wenden (Cēsis), the residence of the masters of the Livonian Order.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cesis_Ordensburg_Cesis_08.JPG",
+    "note": "One of the great brick castles of the order’s Baltic state."
+  },
+  "sigilImage": "https://upload.wikimedia.org/wikipedia/commons/a/a8/LivonianShield.svg",
+  "sigilImageInfo": {
+    "caption": "The red cross and sword of the Livonian Order, inherited from the Sword-Brothers.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LivonianShield.svg",
+    "note": "The Livonian branch kept the cross-and-sword device of its predecessor."
+  },
+  "summary": "The Livonian Order was the semi-autonomous Livonian branch of the Teutonic Order, formed in 1237 from the remnant of the Sword-Brothers. For over three centuries it ruled much of what is now Latvia and Estonia, checking Novgorod at Lake Peipus, weathering defeats like Durbe, and outlasting even the Teutonic state in Prussia before the Livonian War swept it away in 1561.",
+  "founded": "1237 (from the Sword-Brothers)",
+  "recognized": "A branch of the Teutonic Order",
+  "status": "Dissolved 1561 (secularised in the Livonian War)",
+  "allegiance": "An autonomous branch of the Teutonic Order",
+  "headquarters": "Wenden (Cēsis), Riga, and Fellin",
+  "habit": "White mantle with a black cross (with the red sword-cross device)",
+  "patron": "The Virgin Mary",
+  "purpose": "The order governed and defended Terra Mariana — the crusader lands of Livonia — alongside the archbishop of Riga and the bishops, holding the frontier against pagan Lithuania and Orthodox Novgorod and Pskov.",
+  "keyStats": [
+    {
+      "label": "Existed",
+      "value": "1237–1561 (over three centuries)"
+    },
+    {
+      "label": "Autonomy",
+      "value": "Elected its own master (Landmeister)"
+    },
+    {
+      "label": "Realm",
+      "value": "Terra Mariana — Latvia and Estonia"
+    },
+    {
+      "label": "Greatest master",
+      "value": "Wolter von Plettenberg (1494–1535)"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Livonian Order rose from the ashes of the Sword-Brothers: after Saule, the survivors were absorbed into the Teutonic Order in 1237 as a distinct, largely self-governing Livonian branch. It ruled a Baltic state of castles, towns, and converted peasantry for more than three hundred years.",
+        "Semi-independent of the Grand Master in Prussia, it elected its own master and shared power with the bishops in the loose Livonian Confederation — a fractious arrangement that nonetheless held Livonia together until the 16th century."
+      ]
+    },
+    {
+      "title": "Wars on the eastern frontier",
+      "paragraphs": [
+        "The order’s wars ran in every direction. In 1242 its knights and the bishop of Dorpat’s men were beaten by Alexander Nevsky of Novgorod on the frozen Lake Peipus — the “Battle on the Ice” — checking any advance into Rus’.",
+        "To the south, pagan Lithuania was the perennial enemy: at Durbe in 1260 the order suffered a crushing defeat that touched off risings across the Baltic. Yet the order endured, campaigning season after season much as its Prussian brothers did."
+      ]
+    },
+    {
+      "title": "The age of Plettenberg",
+      "paragraphs": [
+        "Its golden age came under Wolter von Plettenberg, master from 1494 to 1535. He beat back the growing power of Muscovy — winning at Smolino in 1502 — and won Livonia a long peace, becoming the effective sovereign of the land.",
+        "Plettenberg also steered the order through the Reformation, tolerating Lutheranism while keeping the order’s state intact — but he declined to secularise it as the Prussian branch had done in 1525."
+      ]
+    },
+    {
+      "title": "Collapse in the Livonian War",
+      "paragraphs": [
+        "The reckoning came in the 1550s. Caught between Muscovy, Sweden, Poland-Lithuania, and Denmark, the order’s state was torn apart in the Livonian War. Its army was broken and its lands overrun.",
+        "In 1561 the last master, Gotthard Kettler, secularised what remained, converting to Lutheranism and becoming the first Duke of Courland as a vassal of Poland-Lithuania. The Livonian Order — and medieval Livonia with it — ceased to exist."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Livonian Order shaped the Baltic for centuries: its brick castles, German-law towns, and Baltic-German nobility outlived it by generations, and its collapse redrew the map of north-eastern Europe.",
+        "It was also the longest-lived fragment of the Teutonic project, holding Livonia decades after the Prussian monastic state had become a duchy."
+      ]
+    }
+  ],
+  "grandMasters": [
+    {
+      "name": "Hermann Balk",
+      "term": "1237–1238",
+      "note": "First master of the Livonian branch."
+    },
+    {
+      "name": "Andreas von Felben",
+      "term": "1240–1241",
+      "note": "Master at the time of the Battle on the Ice."
+    },
+    {
+      "name": "Anno von Sangerhausen",
+      "term": "1253–1256",
+      "note": "Later Grand Master of the whole order."
+    },
+    {
+      "name": "Konrad von Mandern",
+      "term": "1263–1266",
+      "note": "Rebuilt the order after Durbe."
+    },
+    {
+      "name": "Wolter von Plettenberg",
+      "slug": "wolter-von-plettenberg",
+      "term": "1494–1535",
+      "note": "The greatest master; beat Muscovy at Smolino and secured a long peace."
+    },
+    {
+      "name": "Hermann von Brüggenei",
+      "term": "1535–1549",
+      "note": "Presided over a Livonia turning Protestant."
+    },
+    {
+      "name": "Gotthard Kettler",
+      "term": "1559–1561",
+      "note": "Last master; secularised the order as Duke of Courland."
+    }
+  ],
+  "battles": [
+    {
+      "name": "Lake Peipus (Battle on the Ice)",
+      "date": "5 Apr 1242",
+      "role": "The order and the bishop of Dorpat are beaten by Novgorod.",
+      "opponent": "Novgorod under Alexander Nevsky",
+      "outcome": "Defeat"
+    },
+    {
+      "name": "Durbe",
+      "date": "13 Jul 1260",
+      "role": "A crushing defeat that sparked Baltic revolts.",
+      "opponent": "Samogitians",
+      "outcome": "Catastrophic defeat"
+    },
+    {
+      "slug": "battle-of-grunwald",
+      "name": "Grunwald",
+      "date": "15 Jul 1410",
+      "role": "A Livonian contingent joins the Teutonic army.",
+      "opponent": "Poland–Lithuania",
+      "outcome": "Catastrophic defeat"
+    },
+    {
+      "name": "Smolino",
+      "date": "13 Sep 1502",
+      "role": "Plettenberg beats back the power of Muscovy.",
+      "opponent": "Grand Duchy of Moscow",
+      "outcome": "Order victory"
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Wenden (Cēsis)",
+      "period": "1237–1561",
+      "note": "The residence of the masters of the order."
+    },
+    {
+      "name": "Riga",
+      "period": "contested",
+      "note": "The great Hanseatic city, often at odds with the order."
+    },
+    {
+      "name": "Fellin (Viljandi)",
+      "period": "13th–16th c.",
+      "note": "Powerful brick castle and treasury in Estonia."
+    },
+    {
+      "name": "Narva",
+      "period": "frontier",
+      "note": "The order’s outpost facing Novgorod and Pskov."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1237",
+      "title": "Formation",
+      "description": "The Sword-Brothers’ remnant becomes the Teutonic Order’s Livonian branch."
+    },
+    {
+      "date": "1242",
+      "title": "Battle on the Ice",
+      "description": "Alexander Nevsky checks the order at Lake Peipus."
+    },
+    {
+      "date": "1260",
+      "title": "Durbe",
+      "description": "A great defeat by the Samogitians sparks revolts across the Baltic."
+    },
+    {
+      "date": "1410",
+      "title": "Grunwald",
+      "description": "A Livonian contingent fights in the Teutonic disaster."
+    },
+    {
+      "date": "1502",
+      "title": "Smolino",
+      "description": "Plettenberg beats back Muscovy and wins a long peace."
+    },
+    {
+      "date": "1561",
+      "title": "Secularisation",
+      "description": "Gotthard Kettler dissolves the order and becomes Duke of Courland."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "The “Battle on the Ice” was the order’s greatest catastrophe.",
+      "reality": "It was a real defeat, but a modest one later mythologised — above all by Eisenstein’s film — into an epic clash; Durbe in 1260 was a far heavier blow."
+    },
+    {
+      "claim": "The Livonian Order died with the Teutonic state in 1525.",
+      "reality": "It outlasted the Prussian branch by decades, surviving until the Livonian War destroyed it in 1561."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Northern Crusades",
+      "author": "Eric Christiansen",
+      "year": "1997"
+    },
+    {
+      "title": "The Baltic Crusade",
+      "author": "William Urban",
+      "year": "1994"
+    },
+    {
+      "title": "The Livonian Crusade",
+      "author": "William Urban",
+      "year": "2004"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Lithuanian ruler who fought the order at Grunwald"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "1410 — a Livonian contingent fought"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "The order’s great southern enemy"
+      },
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod",
+        "label": "The Rus’ republic it fought on the ice"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Brothers of the Sword",
+        "type": "order",
+        "slug": "livonian-brothers-of-the-sword",
+        "label": "Its predecessor"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "The order it was a branch of"
+      }
+    ]
+  }
+}

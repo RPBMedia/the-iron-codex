@@ -1,0 +1,285 @@
+{
+  "id": "battle-of-crecy",
+  "type": "event",
+  "name": "Battle of Crécy",
+  "year": 1346,
+  "location": "Crécy, France",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_crecy_froissart.jpg",
+  "imageInfo": {
+    "caption": "Battle of Crécy in a manuscript of Froissart’s Chronicles.",
+    "creator": "Unknown manuscript artist",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "note": "A later manuscript illumination, not a contemporary battlefield sketch."
+  },
+  "summary": "On 26 August 1346 Edward III's English army, fighting on foot beside its archers, defeated Philip VI's larger French army near Crécy-en-Ponthieu in the first great land battle of the Hundred Years' War.",
+  "details": "The Battle of Crécy was fought in 1346 during the Hundred Years’ War. Edward III’s English army defeated the forces of Philip VI of France. Crécy became famous for defensive positioning, longbow fire, dismounted men-at-arms, and the failure of repeated French attacks.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Edward III of England",
+      "faction": "English army",
+      "personId": "edward-iii-of-england"
+    },
+    {
+      "name": "Philip VI of France",
+      "faction": "French army",
+      "personId": "philip-vi-of-france"
+    },
+    {
+      "name": "Edward the Black Prince",
+      "personId": "edward-the-black-prince"
+    }
+  ],
+  "eventLocation": {
+    "name": "Crécy",
+    "locationId": "crecy"
+  },
+  "outcome": "English victory; major French noble losses.",
+  "background": [
+    "Edward III invaded France to press dynastic claims and raid French territory. Philip VI pursued him, seeking to force battle and stop the English campaign.",
+    "The English chose a defensive position near Crécy, preparing for an attack by a larger French army."
+  ],
+  "battle": "Genoese crossbowmen attacked first but were disrupted by conditions, poor coordination, and English archery. French cavalry and men-at-arms then launched repeated assaults uphill. English archers and disciplined defensive lines broke the attacks. The French command failed to coordinate its strength, and noble losses mounted through the day and evening.",
+  "aftermath": "The victory allowed Edward III to continue the campaign and eventually capture Calais. French aristocratic losses were politically and emotionally severe. Crécy helped establish the reputation of the English longbow in continental warfare, though it worked best within a larger defensive system.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Crécy was fought on the evening of 26 August 1346 on a slope between the villages of Crécy-en-Ponthieu and Wadicourt in northern France. Edward III of England, cornered north of the Somme at the end of a destructive march through Normandy, took up a defensive position and waited for Philip VI of France to attack. The French army, larger but badly coordinated, attacked piecemeal into the night and was destroyed. Among its dead were King John of Bohemia, Count Louis of Flanders, Duke Raoul of Lorraine and Philip's own brother, Charles, Count of Alençon.",
+        "Crécy was the first great land victory of the Hundred Years' War and the battle that made the English way of fighting famous in Europe: men-at-arms on foot, longbowmen on the flanks, and a position the enemy had to attack. It also produced the war's most repeated stories, many of them from Jean Froissart writing decades later: the Genoese crossbowmen ridden down by their own side, the blind king led into the fight, and the sixteen-year-old Prince of Wales left to win his spurs."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Edward III claimed the French crown through his mother Isabella, daughter of Philip IV, and the war had begun in 1337 when Philip VI confiscated Edward's duchy of Gascony. The early campaigns brought an English naval victory at Sluys in 1340 but little on land. In 1346 Edward changed his approach. He landed at Saint-Vaast-la-Hougue in the Cotentin on 12 July with an army of perhaps 10,000 to 15,000 and marched through Normandy burning and plundering, storming Caen on 26 July and taking the constable of France prisoner there.",
+        "The raid was meant to provoke a battle on English terms, but it nearly trapped the English instead. Philip had the bridges of the Seine and then the Somme broken or guarded, and Edward had to march up the Seine almost to Paris before he could cross at Poissy. On 24 August he forced the tidal ford of Blanchetaque on the lower Somme against a French force under Godemar du Fay, and two days later, with Philip's army close behind, he chose his ground at Crécy."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The English army formed three divisions. The vanguard, on the right, was under the nominal command of Edward the Black Prince, then sixteen, with the experienced earls Thomas Beauchamp of Warwick and John de Vere beside him; the second division was led by the Earls of Northampton and Arundel; and the king kept the third in reserve, watching from a windmill on the ridge. The men-at-arms dismounted and sent their horses to a wagon park at the rear, the archers were placed on the flanks and perhaps between the divisions, and small pits were dug in front of parts of the line.",
+        "Philip VI's army was probably at least twice as large, perhaps 20,000 to 30,000 men, but it arrived strung out along the road from Abbeville after a long day's march. Its vanguard included several thousand Genoese crossbowmen under Ottone Doria and Carlo Grimaldi, hired for the war at sea and on land. Behind them came the great lords and their retinues, each competing for the honour of the front line, and Philip's marshals could not hold them back until the whole army had come up."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The battle began late in the afternoon. A short, violent rainstorm passed over the field, and the Genoese went forward to shoot with their large pavise shields still in the baggage train. The longbowmen could loose several arrows for every crossbow bolt, and the Genoese fell back. Froissart has Philip VI order his men-at-arms to kill them as traitors, and the first French cavalry charge rode through its own retreating infantry. Several chroniclers, Giovanni Villani among them, also say that the English fired small cannon; how many, and whether they did any harm, is disputed.",
+        "The French charges went on into the dark, perhaps fifteen or sixteen of them, each a fresh group of lords riding uphill into arrows and over the fallen horses of the charge before. The heaviest pressure fell on the Prince of Wales's division, which was briefly pushed back and whose banner went down. In Froissart's story Edward III refused to send help so that the boy could win his spurs, though other accounts have the king send a detachment. The blind John of Bohemia had his knights tie their horses to his and lead him into the fighting, and was found dead among them the next day.",
+        "Philip VI was hit in the face by an arrow and had a horse killed under him. Near midnight his companions led him from the field to the castle of La Broye, where, by Froissart's account, he called on the keeper to open the gate to the unfortunate king of France. The English, forbidden to break ranks, held their line through the night, and the next morning they cut down French militia contingents arriving in the fog who did not know that the battle was lost."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Edward's heralds counted the dead: more than 1,500 French lords, knights and squires by the figure sent back to England, with the common dead uncounted. English losses were light. The French nobility had lost a king, a duke, the king's brother and a long list of counts, and Philip VI's standing as a war leader never recovered.",
+        "Edward marched north and on 4 September 1346 laid siege to Calais. The town held out for eleven months before surrendering on 3 August 1347, and it stayed English until 1558, a permanent bridgehead into France. Philip's Scottish allies, invading England to draw Edward home, were beaten at Neville's Cross in October 1346 and David II was captured. The Black Death halted the war in 1348; when it resumed, the Black Prince used Crécy's methods again at the Battle of Poitiers in 1356 and captured Philip's son, King John II."
+      ]
+    },
+    {
+      "title": "Evidence and memory",
+      "paragraphs": [
+        "The firmest evidence for Crécy is not Froissart but documents written within days: Edward III's own letters and the newsletters of royal clerks such as Michael Northburgh, together with the army's pay records. Jean le Bel, who knew men who had fought there, wrote the first full narrative, and Froissart reworked le Bel's account several times over the next half-century, adding scenes and changing them between versions. The Grandes Chroniques de France and Villani's Florentine chronicle give the French and Italian views.",
+        "Crécy's fame grew with the English longbow's. Modern studies, notably the volume edited by Andrew Ayton and Philip Preston in 2005, stress that the victory came from a combination: dismounted men-at-arms, archers, prepared ground, and a French army whose lords were determined to attack. An English tradition that the Black Prince took his ostrich-feather badge and motto 'Ich dien' from the dead King of Bohemia is not found in any contemporary account."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_crecy_froissart.jpg"
+    },
+    {
+      "title": "Jean Froissart, Chronicles",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Jean_Froissart"
+    },
+    {
+      "title": "Jean le Bel, Chronicle",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Jean_le_Bel"
+    },
+    {
+      "title": "Battle of Crécy",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Cr%C3%A9cy"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Crecy",
+        "type": "location",
+        "slug": "crecy",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Commander"
+      },
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Commanded the vanguard"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward III of England",
+          "title": "Edward III of England",
+          "type": "person",
+          "slug": "edward-iii-of-england"
+        },
+        {
+          "name": "Edward the Black Prince",
+          "title": "Edward the Black Prince",
+          "type": "person",
+          "slug": "edward-the-black-prince"
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–15,000",
+        "confidence": "estimated",
+        "note": "Built around massed longbowmen and dismounted men-at-arms in a strong defensive position.",
+        "min": 7000,
+        "max": 15000
+      }
+    },
+    {
+      "side": "French army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Philip VI of France",
+          "title": "Philip VI of France",
+          "type": "person",
+          "slug": "philip-vi-of-france"
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000–30,000 (debated)",
+        "confidence": "debated",
+        "note": "The French army was larger, but some chronicle numbers are likely inflated; modern estimates vary widely.",
+        "min": 20000,
+        "max": 30000
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue the Hundred Years' War",
+    "battleSlug": "battle-of-poitiers",
+    "relationship": "same-war",
+    "reason": "Poitiers came ten years after Crécy and turned another English defensive victory into a French political crisis, ending with King John II of France captured by the Black Prince's army."
+  },
+  "timeline": [
+    {
+      "date": "1337",
+      "title": "The war begins",
+      "description": "Philip VI confiscates Gascony, and Edward III revives his claim to the French crown."
+    },
+    {
+      "date": "24 June 1340",
+      "title": "Sluys",
+      "description": "The English fleet destroys the French navy in the harbour at Sluys."
+    },
+    {
+      "date": "12 July 1346",
+      "title": "Landing in Normandy",
+      "description": "Edward III lands at Saint-Vaast-la-Hougue and begins his chevauchée through the duchy."
+    },
+    {
+      "date": "26 July 1346",
+      "title": "Caen stormed",
+      "description": "The English sack Caen and capture the constable of France."
+    },
+    {
+      "date": "24 August 1346",
+      "title": "Blanchetaque",
+      "description": "The English force the tidal ford of the Somme against Godemar du Fay."
+    },
+    {
+      "date": "26 August 1346",
+      "title": "Battle of Crécy",
+      "description": "The French army is destroyed in repeated charges; John of Bohemia and the Count of Alençon are among the dead."
+    },
+    {
+      "date": "4 September 1346",
+      "title": "Calais besieged",
+      "description": "Edward begins the eleven-month siege that gives England its bridgehead in France."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "Neville's Cross",
+      "description": "France's Scottish allies are defeated in England and David II is captured."
+    },
+    {
+      "date": "3 August 1347",
+      "title": "Calais surrenders",
+      "description": "The town becomes English and remains so until 1558."
+    },
+    {
+      "date": "19 September 1356",
+      "title": "Poitiers",
+      "description": "The Black Prince repeats Crécy's tactics at the Battle of Poitiers and captures John II."
+    }
+  ]
+}

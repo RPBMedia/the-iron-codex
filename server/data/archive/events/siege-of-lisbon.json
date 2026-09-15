@@ -1,0 +1,192 @@
+{
+  "id": "siege-of-lisbon",
+  "type": "event",
+  "name": "Siege of Lisbon",
+  "year": 1147,
+  "location": "Lisbon, on the Tagus",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Conquista_de_Lisboa_(Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917).png",
+  "imageInfo": {
+    "caption": "The conquest of Lisbon in 1147, watercolour by Alfredo Roque Gameiro (Quadros da História de Portugal, 1917).",
+    "creator": "Alfredo Roque Gameiro",
+    "date": "1917",
+    "source": "Quadros da História de Portugal — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conquista_de_Lisboa_(Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917).png",
+    "note": "A modern historical illustration; the siege itself is documented by the eyewitness De expugnatione Lyxbonensi."
+  },
+  "summary": "Afonso Henriques took Lisbon from its Muslim rulers in October 1147 after a seventeen-week siege, aided by a fleet of Second Crusade crusaders from England, Flanders, and the Rhineland — the making of Portugal's great city.",
+  "details": "The siege ran from 1 July to 24 October 1147. A storm-scattered crusader fleet bound for the Holy Land — English, Norman, Flemish, and Rhenish contingents perhaps 10,000 strong — was persuaded at Porto to join the Portuguese king's attack on Lisbon in return for the city's plunder. Siege towers, mines, and famine broke the defence; the city surrendered on terms imperfectly kept. An English priest's eyewitness account, De expugnatione Lyxbonensi, documents the whole enterprise.",
+  "eventType": "Siege",
+  "conflict": "Reconquista in western Iberia",
+  "factions": [
+    "Kingdom of Portugal and crusader fleet",
+    "Almoravid-era Lisbon"
+  ],
+  "leaders": [
+    {
+      "name": "Afonso Henriques",
+      "faction": "Portuguese",
+      "personId": "afonso-i-of-portugal"
+    },
+    {
+      "name": "Hervey de Glanvill and the crusader commanders",
+      "faction": "Crusader fleet"
+    },
+    {
+      "name": "The qadi of Lisbon (name not recorded) and the garrison",
+      "faction": "Lisbon"
+    }
+  ],
+  "outcome": "Lisbon surrendered on 24 October 1147; the city passed permanently under Portuguese rule.",
+  "eventLocation": {
+    "name": "Lisbon",
+    "locationId": "lisbon"
+  },
+  "participants": [
+    {
+      "side": "Portuguese and crusaders",
+      "strength": {
+        "display": "c. 10,000–13,000 crusaders (160–200 ships) plus the Portuguese host",
+        "confidence": "estimated",
+        "note": "The eyewitness De expugnatione counts the fleet at about 164 ships; modern estimates put the combined besieging force in the low tens of thousands.",
+        "min": 10000,
+        "max": 13000
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Portugal",
+          "title": "Kingdom of Portugal",
+          "type": "location",
+          "slug": "kingdom-of-portugal"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Afonso Henriques",
+          "type": "person",
+          "slug": "afonso-i-of-portugal"
+        },
+        {
+          "name": "Hervey de Glanvill",
+          "type": "person",
+          "note": "No article yet: leader of the East Anglian contingent, and the speaker of the address that held the crusader fleet together when it nearly broke up."
+        }
+      ]
+    },
+    {
+      "side": "Lisbon garrison",
+      "strength": {
+        "display": "chronicle claims of 15,000 families within the walls; fighting men unknown",
+        "confidence": "chronicle-claim",
+        "note": "The eyewitness reports a city swollen with refugees; his population figures are impressions, not counts, and the fighting garrison is nowhere enumerated."
+      },
+      "factions": [
+        {
+          "name": "Almoravid-era taifa of Lisbon",
+          "title": "Almohad Caliphate",
+          "type": "location",
+          "slug": "almohad-caliphate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "The qadi of Lisbon (name not recorded)",
+          "type": "person",
+          "note": "Not a gap in this archive: the Anglo-Norman account of the siege records his speech to the besiegers at length but never gives his name."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Lisbon, 1 July to 24 October 1147, was the greatest conquest of Afonso Henriques's reign and the only lasting Christian success of the Second Crusade. It joined two enterprises by accident of weather: the Portuguese king's long-planned descent on the Tagus, and a fleet of some 160–200 crusader ships from England, Normandy, Flanders, and the Rhineland, driven into Porto on their way to the Holy Land.",
+        "The bargain struck — the crusaders to have the city's plunder and ransom, the king its walls and sovereignty, settlers among them lands and liberties — is preserved in the remarkable eyewitness account of an Anglo-Norman priest, De expugnatione Lyxbonensi, which makes this one of the best-documented military operations of the twelfth century."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Lisbon in 1147 was the largest city of the western peninsula's Muslim coast — swollen, the eyewitness says, with refugees from the fallen towns of the frontier, its suburbs rich in orchards and its citadel commanding the Tagus estuary. Afonso Henriques had taken Santarém, the key of the middle Tagus, by escalade that March; Lisbon was the campaign's second, harder act.",
+        "The crusader fleet — sworn to mutual discipline at Dartmouth, its contingents led by men like Hervey de Glanvill, Arnold of Aerschot, and Christian of Ghistelles — reached Porto in June. Bishop Peter of Porto preached them into the enterprise with the king's offer; the theological scruple (was fighting in Iberia a valid crusade?) had been settled that spring by Eugenius III's Divina dispensatione, which put the Iberian front on a par with the Holy Land."
+      ]
+    },
+    {
+      "title": "The siege",
+      "paragraphs": [
+        "The allies invested the city from July: Portuguese on the eastern hills, English and Normans on the west, Flemings and Rhinelanders east of the castle. The suburbs fell in the first assaults; the walled city then endured seventeen weeks of blockade, bombardment by mangonels — the eyewitness counts five thousand stones in ten hours from one battery — mining against the walls, and two great siege towers, the first burned, the second, engineered by a Pisan master, finally winched to the wall in October.",
+        "Famine decided it. With the tower at the rampart and the mines opening breaches, the defenders treated; the surrender of 24 October promised lives and property, and was promptly violated in part by crusader plundering the chronicler himself condemns. The mosque became the cathedral, an English crusader-priest, Gilbert of Hastings, became Lisbon's first bishop, and many of the northern crusaders settled rather than sailing on — their liberties written into the city's charters."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Lisbon anchored Portugal on the Tagus. With Santarém and Lisbon the kingdom held the river line that would be its strategic spine for the rest of the Reconquista; the frontier castles passed to the military orders — the Templars at Tomar guarding the approaches — and the city grew into the kingdom's commercial capital and, from 1255, its seat of government.",
+        "In the larger Second Crusade, whose grand armies met disaster at Dorylaeum and Damascus, Lisbon stood out as the one durable gain — a pattern (sea-borne northern crusaders, Iberian employment, permanent conquest) repeated at Silves in 1189 and Alcácer in 1217. For the Portuguese monarchy, the conquest completed the founding sequence begun at São Mamede: county seized, crown assumed at Ourique, crown recognised at Zamora, and now a royal city worthy of the title."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Roque Gameiro watercolour",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Conquista_de_Lisboa_(Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917).png"
+    },
+    {
+      "title": "Siege of Lisbon — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Lisbon"
+    },
+    {
+      "title": "De expugnatione Lyxbonensi (The Conquest of Lisbon), ed./trans. C. W. David",
+      "author": "Anonymous Anglo-Norman eyewitness",
+      "type": "primary source",
+      "note": "The eyewitness account that documents the fleet, the bargain, and the seventeen-week siege."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "The conquering king"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Lisbon",
+        "type": "location",
+        "slug": "lisbon",
+        "label": "The city taken"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ourique",
+        "type": "event",
+        "slug": "battle-of-ourique",
+        "label": "The crown-making victory eight years earlier"
+      },
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "The kingdom's later fight for survival"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "The kingdom fights for its life",
+    "battleSlug": "battle-of-aljubarrota",
+    "relationship": "same-region",
+    "reason": "Lisbon made Portugal a Tagus power; two and a half centuries later, at Aljubarrota in 1385, the kingdom founded on these conquests defended its independence against Castile and kept it."
+  }
+}

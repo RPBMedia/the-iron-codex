@@ -1,0 +1,79 @@
+{
+  "id": "shaftesbury",
+  "type": "location",
+  "name": "Shaftesbury",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of England",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Shaftesbury_Abbey_ruins.jpeg",
+  "summary": "An English town and religious center associated with the death of Cnut the Great.",
+  "overview": [
+    "An English town and religious center associated with the death of Cnut the Great."
+  ],
+  "knownFor": [
+    "Shaftesbury Abbey",
+    "Death place of Cnut",
+    "Anglo-Saxon religious life"
+  ],
+  "imageInfo": {
+    "caption": "Ruins of Shaftesbury Abbey.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of surviving abbey ruins.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shaftesbury_Abbey_ruins.jpeg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "An English town and religious center associated with the death of Cnut the Great.",
+        "Shaftesbury matters historically through Shaftesbury Abbey, Death place of Cnut, Anglo-Saxon religious life."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Shaftesbury_Abbey_ruins.jpeg"
+    },
+    {
+      "title": "Wikipedia: Shaftesbury",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Shaftesbury"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Death of Cnut the Great"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Containing realm"
+      },
+      {
+        "title": "North Sea Empire",
+        "type": "location",
+        "slug": "north-sea-empire",
+        "label": "Realm of Cnut the Great"
+      }
+    ]
+  }
+}

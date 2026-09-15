@@ -1,0 +1,118 @@
+{
+  "id": "treaty-of-verdun",
+  "type": "event",
+  "name": "Treaty of Verdun",
+  "year": 843,
+  "location": "Verdun, Frankish Empire",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Treaty_of_Verdun.svg",
+  "summary": "The 843 settlement that divided the Carolingian Empire among Louis the Pious's surviving sons.",
+  "details": "The 843 settlement that divided the Carolingian Empire among Louis the Pious's surviving sons.",
+  "eventType": "Treaty",
+  "background": [
+    "After Louis the Pious died, his sons fought over the Carolingian inheritance.",
+    "The empire Charlemagne had built was too large and politically contested to remain unified under the existing settlement."
+  ],
+  "aftermath": "The treaty divided Carolingian power into western, middle, and eastern zones, influencing the later emergence of France, Germany, and contested lands between them.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Treaty of Verdun, agreed in 843, divided the Carolingian Empire among the surviving sons of Louis the Pious: Lothar I, Louis the German, and Charles the Bald. It ended the civil war that followed Louis's death and turned the empire of Charlemagne into three large political zones.",
+        "The settlement did not create modern France or Germany overnight, but it gave durable shape to West Francia, East Francia, and the long-disputed middle kingdom stretching from the Low Countries through Burgundy and into Italy. Later medieval conflicts over Lorraine, Burgundy, and imperial authority all inherited problems visible in the Verdun partition."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Charlemagne's empire rested on personal kingship, aristocratic loyalty, conquest, and church support rather than on a single permanent state apparatus. His son Louis the Pious tried to manage succession through planned divisions, but rivalry among his sons repeatedly drew nobles, bishops, and regional power blocs into civil war.",
+        "After Louis died in 840, Lothar I claimed imperial precedence, while Louis the German and Charles the Bald resisted domination by their elder brother. Their alliance against Lothar culminated in the oaths of Strasbourg in 842 and made a negotiated division unavoidable."
+      ]
+    },
+    {
+      "title": "Terms and settlement",
+      "paragraphs": [
+        "Lothar retained the imperial title and received a long middle kingdom that included Aachen, much of the Rhine corridor, Burgundy, Provence, and northern Italy. Louis the German received the eastern lands beyond the Rhine, while Charles the Bald received the western kingdom that became the core of West Francia.",
+        "The borders were not clean national frontiers. They followed dynastic bargaining, fiscal resources, aristocratic alignments, bishoprics, river routes, and the need to preserve Lothar's imperial dignity. The middle kingdom was especially difficult to hold together and soon fractured further among Lothar's heirs."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "Lothar I, Louis the German, and Charles the Bald were the principal rulers in the settlement, but the treaty also depended on the cooperation of bishops, palace officials, and regional aristocracies whose support determined whether royal authority could be enforced.",
+        "The absent figure behind the treaty was Charlemagne. Verdun was an attempt to divide the political inheritance of his empire without destroying the prestige of Carolingian rulership, even though the settlement made unified imperial government impossible in practice."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "Verdun stabilized the immediate civil war but normalized the division of Carolingian power. West Francia and East Francia developed separate royal politics, while the middle kingdom became a zone of repeated partition, conquest, and diplomatic bargaining.",
+        "The treaty shaped the political map of later medieval Europe by making the Rhine, Burgundy, Italy, and Lotharingia persistent arenas of competition. Its consequences were dynastic and regional before they were national, which is why modern national readings of Verdun need caution."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The treaty is a landmark in the breakup of Carolingian unity. It shows how inheritance custom, royal family politics, and aristocratic bargaining could remake an empire built only a generation earlier by conquest and coronation.",
+        "Its long afterlife comes from geography: the western and eastern kingdoms developed into different political traditions, while the middle territories remained strategically valuable and repeatedly contested. Verdun therefore belongs to the deep background of medieval French, German, Burgundian, and imperial history."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Map of the partitions associated with the Treaty of Verdun.",
+    "creator": "Map contributor on Wikimedia Commons",
+    "date": "modern map",
+    "source": "Wikimedia Commons",
+    "note": "Historical map of approximate political divisions."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Treaty_of_Verdun.svg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Treaty of Verdun",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Treaty-of-Verdun"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The empire it partitioned"
+      }
+    ],
+    "people": [
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne",
+        "label": "Grandfather whose empire was divided"
+      }
+    ],
+    "events": [
+      {
+        "title": "Charlemagne Crowned Emperor",
+        "type": "event",
+        "slug": "charlemagne-crowned",
+        "label": "Created the empire later split in 843"
+      }
+    ]
+  }
+}

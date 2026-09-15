@@ -1,0 +1,81 @@
+{
+  "id": "dunfermline-abbey",
+  "type": "location",
+  "locationType": "Abbey",
+  "name": "Dunfermline Abbey",
+  "year": 1329,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunfermline_Abbey_nave.jpg",
+  "summary": "Dunfermline Abbey was a major Scottish royal monastery and burial church, including the burial place of Robert the Bruce’s body.",
+  "overview": [
+    "Dunfermline Abbey was one of medieval Scotland’s most important royal churches. It was associated with royal patronage, monastic life, and the burial memory of Scottish kings and queens.",
+    "Robert the Bruce’s body was buried there after his death in 1329, tying the abbey to the memory of restored Scottish kingship."
+  ],
+  "knownFor": [
+    "Royal burial church",
+    "Robert the Bruce’s burial"
+  ],
+  "imageInfo": {
+    "caption": "Dunfermline Abbey nave.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunfermline_Abbey_nave.jpg",
+    "note": "Modern photograph of a medieval site or associated place."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Dunfermline Abbey combined religious authority with royal memory. Its status as a burial place made it a central site in the sacred geography of Scottish monarchy."
+      ]
+    },
+    {
+      "title": "Medieval history",
+      "paragraphs": [
+        "The abbey developed from earlier royal religious patronage and became especially associated with Queen Margaret and later Scottish dynastic commemoration. Its architecture and burial traditions placed monarchy within a monastic setting."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Bruce’s burial at Dunfermline made the abbey part of Scotland’s independence memory. The site continues to link medieval kingship, sanctity, and national commemoration."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Dunfermline Abbey",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Dunfermline_Abbey_nave.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "mantes",
+  "type": "location",
+  "locationType": "Town",
+  "name": "Mantes",
+  "year": 1223,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mantes-la-Jolie_Coll%C3%A9giale_Notre-Dame_2.jpg",
+  "summary": "A town on the Seine where Philip II of France died in 1223.",
+  "overview": [
+    "Mantes, now Mantes-la-Jolie, was a Seine valley town west of Paris.",
+    "Philip II of France died there in 1223 after a reign that greatly strengthened Capetian monarchy."
+  ],
+  "knownFor": [
+    "Death of Philip II",
+    "Seine valley politics",
+    "Capetian royal route"
+  ],
+  "imageInfo": {
+    "caption": "The collegiate church of Notre-Dame at Mantes, on the contested Norman–Capetian frontier where William the Conqueror was fatally injured in 1087.",
+    "creator": "Zairon",
+    "date": "2017-04-02 12:04:03",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mantes-la-Jolie_Coll%C3%A9giale_Notre-Dame_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Mantes (Mantes-la-Jolie) on the Seine in northern France was a fortified town on the disputed frontier between the Capetian royal domain and the Duchy of Normandy. William the Conqueror was wounded or fell ill while sacking the town in 1087 and died at Rouen shortly after."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Mantes marks the terminal episode of William the Conqueror's reign. His burning of the town — reportedly triggered by a taunt from Philip I of France — and the injury he received there ended his active military career. The incident reflects the persistent Vexin border conflict between Norman and Capetian power that shaped French-English relations throughout the twelfth century."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Mantes",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Coll%C3%A9giale_Notre-Dame_de_Mantes-la-Jolie.jpg"
+    },
+    {
+      "title": "Mantes reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Mantes-la-Jolie"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Death of Philip II of France"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Realm of Philip II of France"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      }
+    ]
+  }
+}

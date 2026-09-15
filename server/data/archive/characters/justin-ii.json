@@ -1,0 +1,200 @@
+{
+  "id": "justin-ii",
+  "type": "character",
+  "name": "Justin II",
+  "aliases": [
+    "Iustinus II"
+  ],
+  "born": 520,
+  "died": 578,
+  "deathAge": "about 58",
+  "causeOfDeath": "Died in October 578 after years of mental illness during which others governed for him.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidus%20of%20Justin%20II%20(obverse).jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Justin II, struck at Constantinople during his reign.",
+    "creator": "Constantinople mint",
+    "date": "565–578",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Justin_II_(obverse).jpg",
+    "note": "A contemporary object from his own reign, and a conventional imperial type rather than a portrait. Public domain."
+  },
+  "summary": "Justin II inherited Justinian's overextended empire, stopped paying its neighbours to stay away, lost Italy to the Lombards and Syria to Persia, and went mad.",
+  "overview": "The emperor who discovered what Justinian's conquests had actually cost, and could not pay it.",
+  "greatestFeats": [
+    "Held the eastern empire together through the first collapse of Justinian's settlement",
+    "Adopted Tiberius as heir in a lucid interval, securing a capable successor"
+  ],
+  "birth": {
+    "date": "c. 520",
+    "place": {
+      "name": "The Byzantine Empire"
+    }
+  },
+  "death": {
+    "date": "578",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in October 578 after nearly a decade of incapacity, with Tiberius already governing as Caesar."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Justinian dynasty",
+    "culture": "Roman",
+    "knownFor": "Inheriting an empire that could not afford itself"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "justinian-i",
+      "displayName": "Justinian I",
+      "note": "His uncle, whose reconquests of Africa and Italy he inherited along with the bill for them."
+    },
+    "successor": {
+      "displayName": "Tiberius II Constantine",
+      "note": "Commander of the excubitors, adopted as Caesar in 574 during a lucid interval and left to govern; he reigned until 582.",
+      "personSlug": "tiberius-ii-constantine"
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Justin II succeeded his uncle Justinian in 565 and inherited an empire that looked enormous on a map and was insolvent underneath it.",
+        "His response was to stop paying. Justinian had bought peace on several frontiers with subsidies, and Justin refused them — most consequentially to the Persians, which restarted a war the empire could not afford, and to the Avars, who had to be dealt with anyway.",
+        "Within a decade Italy was largely lost to the Lombards, the Balkans were open to Avars and Slavs, and the eastern war was going badly. In 574 he suffered a mental collapse and never fully recovered."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was a nephew of Justinian through the emperor's sister, and married Sophia, a niece of the empress Theodora — so the succession kept the family arrangement doubled.",
+        "He held the office of curopalates in the palace during his uncle's last years and took the throne quickly on Justinian's death in November 565, forestalling a rival cousin of the same name.",
+        "The reign began with a public gesture that set its tone: he paid off his uncle's debts personally and announced an end to the corruption and the subsidies of the old regime."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources describe a proud, rigid man with a strong sense of imperial dignity and a poor sense of what the empire could sustain — which is a combination that appears repeatedly among successors to great reigns.",
+        "His refusal of tribute to the Persians and the Avars was defensible as principle and disastrous as policy, and the fact that he framed it in terms of Roman honour rather than of arithmetic is the clearest window onto how he thought.",
+        "His illness is described with unusual specificity: periods of violent derangement, lucid intervals, and the famous detail that organ music was played to calm him. In one of the lucid intervals he adopted Tiberius and delivered a speech of abdication that John of Ephesus reports as an admission that he had governed badly — which, if it is anything like accurate, is the most self-aware statement any Byzantine emperor left."
+      ]
+    },
+    {
+      "title": "The collapse of the settlement",
+      "paragraphs": [
+        "The Lombards entered Italy in 568, three years into the reign, and took most of the north within a decade. Justinian's twenty-year war to recover Italy was undone in less time than it had taken to win.",
+        "In the east, Justin's refusal of the annual payments and his intervention in Armenia restarted the Persian war in 572. Dara, the key fortress of the Mesopotamian frontier, fell in 573, and the news is what the sources connect to his collapse.",
+        "In the Balkans the Avars pressed south and Slavic groups began settling permanently. Every frontier Justinian had stabilised was in trouble at once, and the treasury he had emptied could not answer any of them."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His reign is the hinge between Justinian's empire and the smaller, harder state that fought Persia to exhaustion under Heraclius fifty years later.",
+        "The judgement usually passed on him — that he destroyed his uncle's achievement — is too simple. The reconquests were unaffordable before he touched them, and the collapse he presided over had been prepared by the plague, the wars and the finances he inherited.",
+        "What he did contribute was the choice of Tiberius, made while ill and made well. The succession he arranged carried the empire to Maurice and gave it two decades of competent government before the crisis of 602."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 520",
+      "title": "Born",
+      "description": "Born into the imperial family as a nephew of Justinian."
+    },
+    {
+      "date": "565",
+      "title": "Becomes emperor",
+      "description": "Takes the throne on Justinian's death and repudiates the policy of subsidies."
+    },
+    {
+      "date": "568",
+      "title": "The Lombards enter Italy",
+      "description": "Justinian's reconquest begins to come apart within three years."
+    },
+    {
+      "date": "572",
+      "title": "War with Persia resumes",
+      "description": "His refusal of tribute and intervention in Armenia restart the eastern war."
+    },
+    {
+      "date": "573",
+      "title": "Dara falls",
+      "description": "The key Mesopotamian fortress is lost; the news is linked to his mental collapse."
+    },
+    {
+      "date": "574",
+      "title": "Tiberius adopted",
+      "description": "In a lucid interval he adopts the commander of the excubitors as Caesar and hands over government."
+    },
+    {
+      "date": "578",
+      "title": "Died",
+      "description": "Dies in October after years of incapacity; Tiberius succeeds without dispute."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "His uncle and predecessor"
+      },
+      {
+        "title": "Sophia (wife of Justin II)",
+        "type": "person",
+        "slug": "sophia-wife-of-justin-ii",
+        "label": "Wife and co-regent"
+      },
+      {
+        "title": "Theodora (wife of Justinian I)",
+        "type": "person",
+        "slug": "theodora-wife-of-justinian",
+        "label": "Aunt of his wife Sophia"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John of Ephesus, Ecclesiastical History",
+      "url": "https://en.wikipedia.org/wiki/John_of_Ephesus",
+      "type": "primary source"
+    },
+    {
+      "title": "Justin II",
+      "url": "https://en.wikipedia.org/wiki/Justin_II",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "battle-of-arsuf",
+  "type": "event",
+  "name": "Battle of Arsuf",
+  "year": 1191,
+  "location": "Arsuf, near Jaffa",
+  "eventType": "Battle",
+  "conflict": "Third Crusade",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Schlacht_von_Arsuf.jpg",
+  "summary": "Richard the Lionheart defeated Saladin at Arsuf in 1191, the first major field victory of the Third Crusade and proof that Saladin could be beaten in open battle.",
+  "details": "On 7 September 1191 Richard I held his marching column together under constant harassment, then unleashed a disciplined charge that routed Saladin's army near Arsuf, restoring crusader morale after the disaster of Hattin.",
+  "factions": [
+    "Third Crusade",
+    "Ayyubid Sultanate"
+  ],
+  "leaders": [
+    {
+      "name": "Richard the Lionheart",
+      "faction": "Crusader army",
+      "personId": "richard-the-lionheart"
+    },
+    {
+      "name": "Saladin",
+      "faction": "Ayyubid army",
+      "personId": "saladin"
+    }
+  ],
+  "eventLocation": {
+    "name": "Arsuf"
+  },
+  "outcome": "Crusader victory; Saladin's field army driven off and the myth of his invincibility broken, though Jerusalem was not retaken.",
+  "background": [
+    "After the fall of Acre in 1191, Richard the Lionheart led the army of the Third Crusade south along the coast toward Jaffa, aiming eventually at Jerusalem. Saladin shadowed the march, seeking to wear the crusaders down with heat, thirst, and constant harassment.",
+    "Richard imposed rigid discipline on the march, keeping his infantry and crossbowmen on the seaward-protected flank as a shield for the knights, and forbidding any charge until he gave the order."
+  ],
+  "battle": "Near Arsuf, Saladin committed his whole army to break the column, pressing hardest against the rearguard of Hospitallers. Under mounting casualties the Hospitallers charged before Richard's signal; rather than let the attack fail piecemeal, Richard threw his whole force into a coordinated charge that caught Saladin's army off balance and drove it from the field.",
+  "aftermath": "Saladin's army withdrew in disorder, having failed to stop the crusader march. Arsuf restored crusader confidence and secured the coast, allowing Richard to take Jaffa, but he judged Jerusalem impossible to hold and the crusade ended in 1192 with the Treaty of Jaffa rather than the city's recapture.",
+  "imageInfo": {
+    "caption": "The Battle of Arsuf, painted by Éloi Firmin Féron (1839).",
+    "creator": "Éloi Firmin Féron",
+    "date": "19th century (1839)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Arsuf.jpg",
+    "license": "Public domain",
+    "note": "A 19th-century history painting, a later romanticised depiction rather than a contemporary record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Arsuf was fought on 7 September 1191 between the army of the Third Crusade under Richard the Lionheart and the forces of the Ayyubid sultan Saladin, on the coastal march from Acre toward Jaffa. It was the first great field victory of the Third Crusade.",
+        "By holding his harassed column together and then launching a disciplined, coordinated charge, Richard drove Saladin's army from the field. Arsuf broke the aura of invincibility Saladin had gained at Hattin and secured the coast, even though the crusade ultimately failed to recover Jerusalem."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After the crusaders retook Acre in 1191, Richard the Lionheart led the army of the Third Crusade south along the Mediterranean coast toward Jaffa, intending to advance on Jerusalem. Saladin, still dominant since his victory at Hattin four years earlier, shadowed the march to wear the crusaders down.",
+        "Richard enforced strict march discipline: the fleet supplied the army along the shore, infantry and crossbowmen guarded the exposed inland flank, and the knights were forbidden to charge until the king judged the moment right."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Richard commanded a mixed crusader army of English, French, and other contingents, with the Templars and Hospitallers forming the vanguard and rearguard. His control over this fractious force, and his refusal to be provoked into a premature charge, were decisive.",
+        "Saladin fielded a fast, aggressive army of horse-archers and light cavalry suited to harassment, counting on heat, thirst, and constant missile fire to break the crusader column before it could bring its heavy cavalry to bear."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "As the column passed the woods near Arsuf, Saladin committed his whole army, concentrating on the rearguard of Hospitallers, who suffered badly under the arrow storm while forbidden to break ranks. Their master repeatedly begged Richard for permission to charge.",
+        "When two Hospitaller knights finally charged without orders and the rest surged after them, Richard chose to convert the unplanned attack into a general assault, launching his whole line in a coordinated charge. The sudden weight of armoured cavalry caught Saladin's troops in the open and routed them; Richard held his men in hand to prevent a scattered pursuit and a counterattack."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Saladin's army withdrew, having failed to stop the crusader march or inflict a decisive blow. The victory secured the coastal road and allowed Richard to occupy Jaffa and refortify it as a base.",
+        "Arsuf restored crusader morale after the long shadow of Hattin, but it did not open Jerusalem: Richard twice advanced toward the city and twice judged it impossible to take and hold. The Third Crusade ended in 1192 with the Treaty of Jaffa, which left Jerusalem in Saladin's hands but guaranteed Christian pilgrimage."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Arsuf is remembered as the battle that proved Saladin could be beaten in the open, and as a showcase of Richard the Lionheart's generalship: his mastery of march discipline, combined arms, and timing over impatience.",
+        "Its limits are as instructive as its success. A brilliant tactical victory could restore the crusaders' position on the coast without achieving the campaign's true objective, underlining how hard it was to translate battlefield wins into the recapture of Jerusalem."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Arsūf",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Arsuf"
+    },
+    {
+      "title": "Battle of Arsuf",
+      "author": "World History Encyclopedia",
+      "type": "reference article",
+      "url": "https://www.worldhistory.org/"
+    },
+    {
+      "title": "The Battle of Arsuf by Éloi Firmin Féron",
+      "author": "Wikimedia Commons",
+      "type": "painting",
+      "url": "https://commons.wikimedia.org/wiki/File:Schlacht_von_Arsuf.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Victorious crusader commander"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Ayyubid sultan, defeated in the open"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Crusader States",
+        "type": "location",
+        "slug": "crusader-states",
+        "label": "The Latin territories the crusade fought to restore"
+      },
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "Saladin's realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "The campaign this victory belonged to"
+      },
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "The 1187 disaster that had summoned the crusade"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Crusader army",
+      "factions": [
+        {
+          "name": "Crusader States",
+          "title": "Crusader States",
+          "type": "location",
+          "slug": "crusader-states"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Richard the Lionheart",
+          "title": "Richard the Lionheart",
+          "type": "person",
+          "slug": "richard-the-lionheart"
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000 (debated)",
+        "confidence": "debated",
+        "note": "Richard the Lionheart held a disciplined column on the march; exact figures are uncertain."
+      }
+    },
+    {
+      "side": "Ayyubid army",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Saladin",
+          "title": "Saladin",
+          "type": "person",
+          "slug": "saladin"
+        }
+      ],
+      "strength": {
+        "display": "Larger than the crusader force; figures uncertain",
+        "confidence": "debated",
+        "note": "Saladin's mobile army relied on harassment and numbers, but no reliable total survives."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The catastrophe that summoned the crusade",
+    "battleSlug": "battle-of-hattin",
+    "relationship": "earlier-context",
+    "reason": "Arsuf was the Third Crusade's answer to disaster: the crusade existed only because Saladin had annihilated the Kingdom of Jerusalem's army at the Battle of Hattin in 1187 and taken the holy city, the calamity that Richard the Lionheart had come east to reverse."
+  }
+}

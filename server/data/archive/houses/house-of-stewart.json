@@ -1,0 +1,199 @@
+{
+  "id": "house-of-stewart",
+  "type": "house",
+  "name": "House of Stewart",
+  "aliases": [
+    "House of Stewart (founder)",
+    "Stewart",
+    "House of Stewart",
+    "Stewart dynasty",
+    "Stuart",
+    "House of Stuart"
+  ],
+  "originYear": 1371,
+  "endYear": 1714,
+  "reignSpan": "from 1371 (Scotland)",
+  "region": "Scotland (later Great Britain)",
+  "originPlace": "Renfrewshire, Scotland",
+  "arms": "Or, a fess chequy azure and argent — the chequered fess of the Stewarts; as kings they bore the royal arms of Scotland.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_II,_King_of_Scotland_seal.png?width=1000",
+  "imageInfo": {
+    "caption": "The great seal of Robert II, first Stewart king of Scots, showing him enthroned in majesty.",
+    "creator": "Royal chancery of Scotland",
+    "date": "14th century (r. 1371–1390)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_II,_King_of_Scotland_seal.png",
+    "note": "A cast of Robert II’s contemporary great seal, the official image of his kingship."
+  },
+  "summary": "The house of the hereditary Stewards of Scotland that took the crown in 1371 under Robert II and ruled Scotland — and later all of Britain — for more than three centuries.",
+  "overview": "The Stewarts held the hereditary office of High Steward of Scotland, from which they took their name. When the male line of Robert the Bruce failed, the crown passed in 1371 to Bruce’s grandson Robert Stewart as Robert II, founding a royal dynasty that would rule Scotland until 1714 and, after 1603, the united crowns of Scotland, England, and Ireland.",
+  "founder": {
+    "personSlug": "robert-ii-of-scotland",
+    "displayName": "Robert II",
+    "note": "Grandson of Robert the Bruce; first Stewart king, 1371"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Scotland",
+      "type": "location",
+      "slug": "kingdom-of-scotland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "robert-ii-of-scotland",
+      "displayName": "Robert II",
+      "note": "First Stewart king of Scots, r. 1371–1390"
+    },
+    {
+      "displayName": "Robert III",
+      "note": "His son; a weak king whose reign saw noble feuding"
+    },
+    {
+      "displayName": "James I",
+      "note": "Poet-king; reformed royal government before his murder in 1437"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Stewart succession from the marriage that carried Bruce’s blood into the family down to the early Stewart kings; only Robert II has a Codex article so far. ⚭ marks a marriage.",
+    "root": {
+      "name": "Walter Stewart",
+      "note": "High Steward of Scotland",
+      "spouse": {
+        "name": "Marjorie Bruce",
+        "note": "daughter of Robert the Bruce",
+        "personSlug": "marjorie-bruce"
+      },
+      "children": [
+        {
+          "name": "Robert II",
+          "personSlug": "robert-ii-of-scotland",
+          "note": "first Stewart king, 1371",
+          "children": [
+            {
+              "name": "Robert III",
+              "note": "r. 1390–1406",
+              "children": [
+                {
+                  "name": "James I",
+                  "note": "r. 1406–1437"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The family rose through the office of High Steward of Scotland, a great hereditary post controlling the royal household and estates, granted to Walter fitz Alan in the twelfth century; from the office the family took the surname Stewart. Their decisive step toward the throne came when Walter, the sixth High Steward, married Marjorie, daughter of Robert the Bruce.",
+        "When Bruce’s son David II died childless in 1371, the crown passed by that marriage to Marjorie’s son, Robert the Steward, who became King Robert II — the first of the Stewart line."
+      ]
+    },
+    {
+      "title": "Robert II and the early Stewart kings",
+      "paragraphs": [
+        "Robert II was already in his mid-fifties at his accession and left much of the fighting on the English border to his sons and magnates; his reign preserved the kingdom won by the Bruce but did little to strengthen royal authority. His son Robert III was physically frail and politically overshadowed by his brother, the Duke of Albany.",
+        "It was Robert III’s son James I, held prisoner in England for eighteen years, who returned in 1424 determined to break the power of the great nobles — a campaign that reformed royal government but ended in his assassination in 1437."
+      ]
+    },
+    {
+      "title": "A British dynasty",
+      "paragraphs": [
+        "From these beginnings the Stewarts became one of Europe’s great royal houses. They ruled Scotland through the turbulent minorities and forfeitures of the fifteenth and sixteenth centuries, and in 1603 James VI of Scotland inherited the English crown as James I, uniting the crowns of Scotland and England under the family (now often spelled Stuart).",
+        "The dynasty reigned over the British kingdoms until the death of Queen Anne in 1714, a span of more than three centuries from Robert II’s accession — a remarkable ascent from a stewardship to the thrones of three kingdoms."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1371",
+      "title": "Robert II becomes king",
+      "description": "The Steward inherits the throne when the Bruce male line ends.",
+      "links": [
+        {
+          "title": "Robert II",
+          "type": "person",
+          "slug": "robert-ii-of-scotland"
+        }
+      ]
+    },
+    {
+      "date": "1406",
+      "title": "Accession of James I",
+      "description": "The young king is captured by the English and rules from captivity for years."
+    },
+    {
+      "date": "1603",
+      "title": "Union of the Crowns",
+      "description": "James VI of Scotland inherits the English throne, uniting the crowns under the Stewarts."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert II",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "Founder; first Stewart king"
+      },
+      {
+        "title": "Marjorie Bruce",
+        "type": "person",
+        "slug": "marjorie-bruce",
+        "label": "Mother of the first Stewart king"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Bruce",
+        "type": "house",
+        "slug": "house-of-bruce",
+        "label": "Robert II’s grandfather’s house, from which the crown passed"
+      },
+      {
+        "title": "House of Balliol",
+        "type": "house",
+        "slug": "house-of-balliol",
+        "label": "The rival claimant house of the succession wars"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Stuart — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/house-of-Stuart"
+    },
+    {
+      "title": "Robert II of Scotland — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_II_of_Scotland"
+    },
+    {
+      "title": "House of Stewart — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Stuart"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Stewart%20arms.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Stewart arms — a blue-and-white chequered fess on gold.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stewart_arms.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

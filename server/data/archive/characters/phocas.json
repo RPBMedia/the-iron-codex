@@ -1,0 +1,191 @@
+{
+  "id": "phocas",
+  "type": "character",
+  "name": "Phocas",
+  "aliases": [
+    "Focas",
+    "Phokas"
+  ],
+  "born": 547,
+  "died": 610,
+  "deathAge": "about 63",
+  "causeOfDeath": "Executed by Heraclius in October 610, dismembered after being brought before him in chains.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phocas%2C%20British%20Museum.jpg",
+  "imageInfo": {
+    "caption": "A bronze bust of Phocas in the British Museum, crowned and bearded in the imperial manner.",
+    "creator": "Byzantine workshop",
+    "date": "7th century",
+    "source": "Wikimedia Commons (British Museum)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phocas,_British_Museum.jpg",
+    "note": "A contemporary object, which is unusual for an emperor of this period and unusual for one so thoroughly condemned by the tradition — most images of Phocas were destroyed after his fall. Public domain."
+  },
+  "summary": "Phocas seized the throne in a mutiny in 602, murdered the emperor Maurice and his sons, and lost most of the east to Persia before Heraclius killed him in 610.",
+  "overview": "The usurpation that started the war that broke both the Roman and Persian empires.",
+  "birth": {
+    "date": "c. 547",
+    "place": {
+      "name": "The Balkan provinces"
+    }
+  },
+  "death": {
+    "date": "610",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Brought before Heraclius in chains and executed; his body was mutilated and burned."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Not dynastic",
+    "culture": "Roman",
+    "knownFor": "The murder of Maurice and the collapse that followed"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Maurice",
+      "note": "A capable emperor of twenty years whom Phocas had murdered with five of his sons in 602; the murder gave Khosrow II his pretext for war.",
+      "personSlug": "maurice"
+    },
+    "successor": {
+      "personSlug": "heraclius",
+      "displayName": "Heraclius",
+      "note": "Son of the exarch of Africa, who sailed on Constantinople and had him executed in October 610."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Phocas was a junior officer in the Danube army when it mutinied in 602 over the emperor Maurice's order to winter beyond the river, and it raised him to the throne.",
+        "He took Constantinople, and had Maurice executed after making him watch the killing of five of his sons. That act shaped the following quarter-century: Khosrow II of Persia, who owed his own throne to Maurice, declared war to avenge him.",
+        "Eight years later Syria, Palestine and much of Anatolia were being overrun, the Balkans were open, and the empire was in revolt against him. Heraclius sailed from Carthage, and Phocas was executed in October 610."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Almost nothing is known of him before 602. He was a centurion or of similar rank in the Balkan army, described as a subordinate officer rather than a commander, and had once served on an embassy to Constantinople.",
+        "Maurice's order to the army to winter north of the Danube — sound strategy, unbearable to the soldiers — produced the mutiny, and the troops chose Phocas as their figurehead.",
+        "That is the whole of his preparation for the throne, and it shows in everything that followed."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Here more than anywhere the archive has to say what kind of evidence it is using. Every surviving account of Phocas was written after his fall, under the dynasty that overthrew him, and they are uniformly and enthusiastically hostile.",
+        "The portrait they give is of a cruel, drunken, physically repulsive tyrant who ruled by torture and execution. Some of it is certainly true — the killing of Maurice's sons in front of him is not in dispute, and the purges of the aristocracy are well attested.",
+        "What cannot be recovered is any counterweight, because none was allowed to survive. He had support somewhere: he held the throne for eight years, was recognised by the pope, and put up a column in the Roman Forum that still stands. This archive records him as a usurper whose reign was a disaster, and notes that the man himself is invisible behind the condemnation."
+      ]
+    },
+    {
+      "title": "The catastrophe",
+      "paragraphs": [
+        "Khosrow II had been restored to the Persian throne in 591 by Maurice, and treated the murder as both an outrage and an opportunity. Persian armies moved into Mesopotamia and Armenia from 603 and did not stop.",
+        "Phocas had no answer. The best troops were on the Danube or in revolt, the aristocracy had been purged, and the empire's religious divisions were sharpened by his persecution of the Jews and pressure on the Monophysites.",
+        "By 610 the Persians were approaching the Anatolian heartland, the Balkans were being overrun by Avars and Slavs, and the exarch of Africa had rebelled. His son sailed east and took the capital with little resistance."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The war he provoked ran for twenty-six years, exhausted both the Roman and Persian empires, and left them open to the Arab conquests that took Syria, Egypt and the whole Sasanian state within a generation of its end.",
+        "That is an enormous consequence for an eight-year reign, and it is why the archive treats 602 rather than 610 as the hinge of the seventh century.",
+        "His column in the Roman Forum, dedicated in 608, is the last monument ever erected in that space — an unintentionally perfect epitaph for a reign at the end of the ancient world."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 547",
+      "title": "Born",
+      "description": "Born in the Balkan provinces; almost nothing is recorded of his early life."
+    },
+    {
+      "date": "602",
+      "title": "The mutiny",
+      "description": "The Danube army refuses to winter beyond the river and proclaims him emperor."
+    },
+    {
+      "date": "602",
+      "title": "Maurice murdered",
+      "description": "Maurice is executed after watching the killing of five of his sons."
+    },
+    {
+      "date": "603",
+      "title": "Persia declares war",
+      "description": "Khosrow II invades to avenge his patron; the war will run for twenty-six years."
+    },
+    {
+      "date": "608",
+      "title": "The column in the Forum",
+      "description": "A column is dedicated to him in the Roman Forum — the last monument raised there."
+    },
+    {
+      "date": "608",
+      "title": "Africa revolts",
+      "description": "The exarch of Africa rebels and his son prepares to sail on Constantinople."
+    },
+    {
+      "date": "610",
+      "title": "Executed",
+      "description": "Heraclius takes the capital and has him put to death in October."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Deposed and executed him in 610"
+      },
+      {
+        "title": "Khosrow II",
+        "type": "person",
+        "slug": "khosrow-ii",
+        "label": "Used the murder of Maurice as his pretext for war"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "Which invaded to avenge Maurice"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Phocas",
+      "url": "https://en.wikipedia.org/wiki/Phocas",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "British Museum",
+      "url": "https://www.britishmuseum.org/collection",
+      "type": "museum collection",
+      "institution": "British Museum"
+    }
+  ]
+}

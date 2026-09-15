@@ -1,0 +1,203 @@
+{
+  "id": "battle-of-covadonga",
+  "type": "event",
+  "name": "Battle of Covadonga",
+  "year": 722,
+  "location": "Covadonga, Asturias, Iberia",
+  "eventType": "Battle",
+  "conflict": "Umayyad conquest of Hispania / early Reconquista",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pelayo_en_la_batalla_de_Covadonga_BNE_Mss_2805_f_23r.jpg",
+  "summary": "Around 718–722 a small Christian band under Pelagius (Pelayo) repelled an Umayyad punitive force in the mountains of Asturias — a minor engagement that later tradition made the founding victory of the Reconquista.",
+  "details": "Fought in a narrow valley below the cave of Covadonga in the Picos de Europa, the clash was tiny by the standards of the age, but it preserved the Asturian revolt led by Pelayo and became, centuries later, the symbolic origin of the Christian recovery of Iberia and of the Asturian monarchy.",
+  "factions": [
+    "Asturian rebels",
+    "Umayyad Caliphate"
+  ],
+  "leaders": [
+    {
+      "name": "Pelagius of Asturias",
+      "faction": "Asturian rebels",
+      "personId": "pelagius-of-asturias"
+    },
+    {
+      "name": "al-Qama",
+      "faction": "Umayyad expedition"
+    }
+  ],
+  "eventLocation": {
+    "name": "Covadonga"
+  },
+  "outcome": "Asturian victory; the revolt survived and the Kingdom of Asturias took root in the northern mountains.",
+  "background": [
+    "After the Umayyad victory over the Visigoths at Guadalete in 711, Muslim armies overran almost the whole Iberian Peninsula within a decade. Resistance survived only in the Cantabrian mountains of the north, terrain that made occupation costly and offered little to reward it.",
+    "Pelayo, a Visigothic or local Astur noble remembered as a former royal officer, led a rising against Umayyad authority and its local governor Munuza. When submission and negotiation failed, a punitive column was sent into the mountains to crush the revolt, and Pelayo withdrew to the defensible ground around the cave of Covadonga."
+  ],
+  "battle": "The Umayyad force advanced up a constricted valley where numbers and cavalry counted for little. Pelayo's men, sheltering in and around the cave and the wooded slopes, ambushed the column with missiles and a downhill charge, throwing it back in disorder; the retreat through the mountains cost the expedition further losses. The Christian chronicles that describe the fight were written more than a century later and inflate it into a miracle — the Chronicle of Alfonso III claims 124,000 Muslims killed and thousands more crushed by a collapsing mountain — figures no modern historian accepts. Contemporary Arabic sources barely register the affair, dismissing Pelayo as a minor \"wild ass\" of a rebel whose handful of followers would come to nothing.",
+  "aftermath": "The immediate result was modest: a punitive expedition failed and the Asturian revolt endured. Its long consequences were large. Pelayo was recognised as leader and later king, and the mountain principality he preserved grew into the Kingdom of Asturias, from which the Christian states of the north would expand. By the ninth and tenth centuries Asturian and Leonese writers had reframed Covadonga as the divinely ordained beginning of the reconquest of Spain.",
+  "imageInfo": {
+    "caption": "Pelayo at the Battle of Covadonga in a medieval manuscript (Biblioteca Nacional de España, Mss. 2805, f. 23r).",
+    "creator": "Biblioteca Nacional de España manuscript",
+    "date": "Medieval manuscript illumination",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pelayo_en_la_batalla_de_Covadonga_BNE_Mss_2805_f_23r.jpg",
+    "license": "Public domain",
+    "note": "A later manuscript image of the legend, not a contemporary record of the fight."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Covadonga was a small engagement fought around 718–722 in the mountains of Asturias, in which a band of Christian rebels led by Pelagius — Pelayo in Spanish — repelled an Umayyad punitive force sent to end their revolt. In military terms it was a skirmish; in memory it became the founding victory of the Reconquista.",
+        "The clash preserved the rising that Pelayo led and allowed a Christian principality to survive in the Cantabrian north. From that survival grew the Kingdom of Asturias and, over the following centuries, the Christian kingdoms that gradually pushed south. The distance between the modest event and its towering later reputation is itself the most important thing to understand about Covadonga."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Umayyad conquest that began in 711 shattered the Visigothic kingdom and swept across Iberia with startling speed. Only the mountainous north — Asturias, Cantabria, the Basque country — remained beyond effective control, protected by terrain rather than by armies.",
+        "Pelayo emerged as leader of an Asturian revolt against Umayyad authority and the local governor Munuza. When the rising could not be bought off or talked down, a column was dispatched to destroy it, and Pelayo fell back on the naturally defensible ground around the cave of Covadonga in the Picos de Europa."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The numbers are unknowable. Pelayo commanded a small mountain following — later legend speaks of a few hundred, which is plausible for the scale of the fight, against the chroniclers' impossible tens of thousands of attackers. The engagement was decided by ground and ambush, not by mass.",
+        "The Umayyad expedition was led by a commander the Christian sources name al-Qama, accompanied according to tradition by the captured bishop Oppas, sent to persuade Pelayo to surrender. Its object was punitive: to reassert authority over a remote and unproductive corner of the new province."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Umayyad force pushed up the narrow valley toward the cave, where its numbers and horsemen could not deploy. Pelayo's men, using the cave, the slopes and the woods, met the advance with missiles and a sudden charge, broke it, and harried the survivors in a costly retreat through the mountains.",
+        "The written accounts come from Asturian chronicles of the late ninth century — the Chronica Albeldensia and the Chronicle of Alfonso III — more than 150 years after the event, and they cast it as a miracle: rocks hurled by the defenders turn back on the attackers, a mountain falls on the fleeing enemy, 124,000 are slain. These are theological set-pieces, not battle reports. The near-silence of the Arabic sources, which treat Pelayo as an insignificant nuisance, confirms that the real fight was small."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The expedition's failure left the revolt intact. Pelayo was acknowledged as leader and, in the traditional account, raised to kingship; his stronghold in the mountains became the nucleus of the Kingdom of Asturias, with an early seat at Cangas de Onís.",
+        "From this base Asturian rulers expanded slowly southward as Umayyad power turned to other frontiers and to internal strife. Within a few generations the little kingdom would reach the Duero, and by the tenth century it had given rise to the Kingdom of León."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Covadonga's significance is symbolic far more than tactical. Asturian and later Castilian tradition made it the God-given beginning of the Reconquista and the origin point of the Iberian Christian monarchies, a story reinforced across the Middle Ages and revived by modern Spanish nationalism, which built a basilica at the site and enshrined the cave as a national shrine.",
+        "Modern historians read it differently: as one local success among many frontier clashes, magnified in hindsight to give a long and fragmented process a single heroic starting point. The Reconquista was never the uninterrupted 781-year crusade of legend — Christian kingdoms fought each other, Muslim states fought each other, and rulers crossed the religious divide for allies — but Covadonga remained the myth on which its story was hung."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chronicle of Alfonso III",
+      "author": "Asturian court chronicle (late 9th c.)",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chronicle_of_Alfonso_III"
+    },
+    {
+      "title": "Battle of Covadonga",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Covadonga"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Pelayo_en_la_batalla_de_Covadonga_BNE_Mss_2805_f_23r.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Pelagius of Asturias",
+        "type": "person",
+        "slug": "pelagius-of-asturias",
+        "label": "Led the Asturian rebels to victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Covadonga",
+        "type": "location",
+        "slug": "covadonga",
+        "label": "Site of the battle and later national shrine"
+      },
+      {
+        "title": "Kingdom of Asturias",
+        "type": "location",
+        "slug": "kingdom-of-asturias",
+        "label": "The realm that grew from the revolt"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim-ruled Iberia the revolt resisted"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Simancas",
+        "type": "event",
+        "slug": "battle-of-simancas",
+        "label": "The next great Christian victory"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Asturian rebels",
+      "factions": [
+        {
+          "name": "Kingdom of Asturias",
+          "title": "Kingdom of Asturias",
+          "type": "location",
+          "slug": "kingdom-of-asturias"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Pelagius of Asturias",
+          "title": "Pelagius of Asturias",
+          "type": "person",
+          "slug": "pelagius-of-asturias"
+        }
+      ],
+      "strength": {
+        "display": "A small mountain following (a few hundred at most)",
+        "confidence": "debated",
+        "note": "No reliable figure survives; the fight was small, and the chroniclers' vast numbers are legend."
+      }
+    },
+    {
+      "side": "Umayyad expedition",
+      "factions": [
+        {
+          "name": "Umayyad Caliphate",
+          "title": "Umayyad Caliphate",
+          "type": "location",
+          "slug": "umayyad-caliphate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "al-Qama",
+          "title": "Umayyad commander",
+          "note": "No article yet: the Umayyad commander defeated here, known only from Asturian chronicles written a century and a half later to magnify the victory."
+        }
+      ],
+      "strength": {
+        "display": "A punitive column; chronicle claims of tens of thousands are fantastical",
+        "confidence": "chronicle-claim",
+        "note": "The Chronicle of Alfonso III's 124,000 dead is a theological figure, not a headcount; the real force was modest."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The first great field victory that followed",
+    "battleSlug": "battle-of-simancas",
+    "relationship": "chronological-follow-up",
+    "reason": "Covadonga became the mythic beginning of Christian resistance; more than two centuries later, Ramiro II's victory at Simancas in 939 was the first great Christian battlefield triumph over the power of Córdoba."
+  }
+}

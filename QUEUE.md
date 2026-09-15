@@ -1074,6 +1074,17 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
      3. Server: a generated `index.json` with the card fields that lists, search, related-entry, dynasty and continuity resolution need. Detail pages read one article file through an in-memory LRU cache, and `includeFiles` becomes `server/data/**`.
      4. Measure build, prerender and cold start at the real count and at 2× and 4× synthetic counts, and record the numbers here.
 
+     **Steps 1 and 2 SHIPPED 2026-09-15:**
+     - The archive is split into 840 article files plus `index.json` under `server/data/archive/`, with `archive.mjs` providing `loadArchive()`, `saveArchive()` and `archiveVersion()`.
+     - The split was proven identical to `history.json` before that file was deleted.
+     - The server, the gates, prerender, topics, entity links, the audits, the one live writer (`link-stale-succession-endpoints`) and the tests all use the loader.
+     - Vercel bundles `server/data/archive/**`.
+     - 170 one-off scripts moved to `scripts/archive/`.
+     - `tests/archive.test.mjs` checks that the index and files agree and that save and load round-trip.
+
+     **Scratchpad apply scripts from earlier sessions still write `history.json`,** so future applies must use `loadArchive()` and `saveArchive()`.
+
+     **Next:** step 3 (a lazy server index plus per-article reads) and step 4 (build and cold-start measurements).
      Then come the People index pagination, filters and family-tree branching (below).
      - Split the data store.
      - Measure build and prerender time at 2× and 4× the article count.

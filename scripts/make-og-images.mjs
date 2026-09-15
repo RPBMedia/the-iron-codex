@@ -30,11 +30,12 @@ import { readFileSync, existsSync, mkdirSync, statSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
 const publicDir = path.join(root, 'client', 'public')
-const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const data = loadArchive()
 
 export const MAX_OG_BYTES = 600 * 1024
 const LONG_EDGE = 1200

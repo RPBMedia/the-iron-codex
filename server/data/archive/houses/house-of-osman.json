@@ -1,0 +1,351 @@
+{
+  "id": "house-of-osman",
+  "type": "house",
+  "name": "House of Osman",
+  "aliases": [
+    "House of Osman (founder)",
+    "Ottoman dynasty",
+    "Ottomans",
+    "Osmanlı",
+    "Osmanli dynasty"
+  ],
+  "originYear": 1299,
+  "endYear": 1453,
+  "reignSpan": "from c. 1299 (medieval span to 1453)",
+  "region": "Anatolia & the Balkans",
+  "originPlace": "Söğüt, north-western Anatolia",
+  "arms": "The Ottomans bore no European-style coat of arms; the sultan’s authority was signalled by the tughra, his calligraphic monogram.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bellini,%20Gentile%20-%20Sultan%20Mehmet%20II.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Sultan Mehmed II, conqueror of Constantinople, painted from life by Gentile Bellini in 1480.",
+    "creator": "Gentile Bellini",
+    "date": "1480",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bellini,_Gentile_-_Sultan_Mehmet_II.jpg",
+    "note": "A rare contemporary Western portrait of a reigning Ottoman sultan, made when Bellini worked at Mehmed II’s court."
+  },
+  "summary": "The dynasty that grew from a small Anatolian frontier principality into the empire that conquered Byzantine Constantinople in 1453.",
+  "overview": "The House of Osman rose from a ghazi frontier beylik in north-western Anatolia around 1299 into a power straddling Europe and Asia. Its sultans — Osman, Orhan, Murad I, Bayezid I, and after the catastrophe of 1402 the restorers Mehmed I, Murad II, and Mehmed II — absorbed the Balkans, survived Timur, and in 1453 took Constantinople, ending the Byzantine Empire.",
+  "founder": {
+    "personSlug": "osman-i",
+    "displayName": "Osman I",
+    "note": "Eponymous founder of the dynasty, c. 1299"
+  },
+  "seats": [
+    {
+      "name": "Ottoman Empire",
+      "type": "location",
+      "slug": "ottoman-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "osman-i",
+      "displayName": "Osman I",
+      "note": "Eponymous founder of the beylik"
+    },
+    {
+      "personSlug": "orhan",
+      "displayName": "Orhan",
+      "note": "Took Bursa and first crossed into Europe"
+    },
+    {
+      "personSlug": "murad-i",
+      "displayName": "Murad I",
+      "note": "Conquered the Balkans; died at Kosovo in 1389"
+    },
+    {
+      "personSlug": "bayezid-i",
+      "displayName": "Bayezid I",
+      "note": "Won Nicopolis but was captured by Timur at Ankara"
+    },
+    {
+      "personSlug": "mehmed-i",
+      "displayName": "Mehmed I",
+      "note": "Reunited the state after the Interregnum"
+    },
+    {
+      "personSlug": "murad-ii",
+      "displayName": "Murad II",
+      "note": "Held the Balkans and won at Varna"
+    },
+    {
+      "personSlug": "mehmed-ii",
+      "displayName": "Mehmed II the Conqueror",
+      "note": "Took Constantinople in 1453"
+    },
+    {
+      "personSlug": "bayezid-ii",
+      "displayName": "Bayezid II",
+      "note": "Consolidated the empire after the Conquest"
+    }
+  ],
+  "familyTree": {
+    "caption": "The unbroken father-to-son line of the early Ottoman sultans, from Osman I to the conquest of Constantinople and beyond. ⚭ marks a marriage; consorts are omitted for the early sultans, whose households are poorly recorded.",
+    "root": {
+      "name": "Osman I",
+      "personSlug": "osman-i",
+      "note": "r. c. 1299–1323/4",
+      "children": [
+        {
+          "name": "Orhan",
+          "personSlug": "orhan",
+          "note": "r. 1323/4–1362",
+          "children": [
+            {
+              "name": "Murad I",
+              "personSlug": "murad-i",
+              "note": "r. 1362–1389",
+              "children": [
+                {
+                  "name": "Bayezid I",
+                  "personSlug": "bayezid-i",
+                  "note": "r. 1389–1402",
+                  "children": [
+                    {
+                      "name": "Mehmed I",
+                      "personSlug": "mehmed-i",
+                      "note": "r. 1413–1421",
+                      "children": [
+                        {
+                          "name": "Murad II",
+                          "personSlug": "murad-ii",
+                          "note": "r. 1421–1451",
+                          "children": [
+                            {
+                              "name": "Mehmed II the Conqueror",
+                              "personSlug": "mehmed-ii",
+                              "note": "r. 1451–1481",
+                              "children": [
+                                {
+                                  "name": "Bayezid II",
+                                  "personSlug": "bayezid-ii",
+                                  "note": "r. 1481–1512"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty takes its name from Osman I, a Turkish frontier chief in north-western Anatolia around 1299 whose small principality bordered the weakened Byzantine Empire. Ottoman tradition, recorded much later, wraps his rise in the dream of a great tree growing from his body — a legend of destiny rather than documented fact.",
+        "Osman’s followers were ghazis, frontier warriors drawn by plunder, land, and faith to raid Byzantine territory. What made the Ottomans outgrow their neighbours was their position on the richest frontier and their early crossing into Europe."
+      ]
+    },
+    {
+      "title": "Expansion into the Balkans",
+      "paragraphs": [
+        "Orhan took the Byzantine city of Bursa in 1326 and made it a capital, and by 1354 the Ottomans held Gallipoli, their first foothold in Europe. Murad I drove deep into the Balkans, taking Adrianople (Edirne) and defeating a Serbian-led coalition at the Battle of Kosovo in 1389, where he was killed in the moment of victory.",
+        "His son Bayezid I \"the Thunderbolt\" pressed on, annihilating a western crusade at the Battle of Nicopolis in 1396 and blockading Constantinople itself."
+      ]
+    },
+    {
+      "title": "Catastrophe and recovery",
+      "paragraphs": [
+        "In 1402 the conqueror Timur invaded Anatolia and destroyed Bayezid’s army at Ankara, taking the sultan prisoner. The Ottoman state fragmented in a civil war between Bayezid’s sons — the Ottoman Interregnum of 1402–1413 — that nearly ended the dynasty.",
+        "Mehmed I emerged as sole ruler in 1413 and painstakingly reunited the realm. His son Murad II beat back Hungarian and Polish crusaders at the Battle of Varna in 1444, restoring Ottoman dominance in the Balkans."
+      ]
+    },
+    {
+      "title": "The conquest of Constantinople",
+      "paragraphs": [
+        "Mehmed II came to the throne determined to take the Byzantine capital. In 1453, with huge cannon, a fleet dragged overland into the Golden Horn, and a relentless siege, he stormed Constantinople, ending the thousand-year Byzantine Empire and making the city — Istanbul — his imperial capital.",
+        "The Fall of Constantinople turned the Ottoman sultanate into a world empire and earned Mehmed the title \"the Conqueror\". Under him and his son Bayezid II the state was given the institutions, law, and administration of a great power."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Within a century and a half the House of Osman had risen from a frontier beylik to the master of south-eastern Europe and the Near East. Its early sultans built the devshirme, the Janissary corps, and a centralised military-administrative system that would carry the dynasty for centuries beyond the medieval period.",
+        "By 1453 the Ottomans had replaced Byzantium as the dominant power of the eastern Mediterranean, reshaping the political and religious map of Europe and the Islamic world."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1299",
+      "title": "Osman founds the beylik",
+      "description": "A frontier principality emerges on the Byzantine border.",
+      "links": [
+        {
+          "title": "Osman I",
+          "type": "person",
+          "slug": "osman-i"
+        }
+      ]
+    },
+    {
+      "date": "1326",
+      "title": "Capture of Bursa",
+      "description": "Orhan takes his first great city and a capital.",
+      "links": [
+        {
+          "title": "Orhan",
+          "type": "person",
+          "slug": "orhan"
+        }
+      ]
+    },
+    {
+      "date": "1389",
+      "title": "Battle of Kosovo",
+      "description": "Murad I defeats the Balkan coalition but is killed.",
+      "links": [
+        {
+          "title": "Battle of Kosovo",
+          "type": "event",
+          "slug": "battle-of-kosovo"
+        }
+      ]
+    },
+    {
+      "date": "1396",
+      "title": "Battle of Nicopolis",
+      "description": "Bayezid I destroys a western crusading army.",
+      "links": [
+        {
+          "title": "Battle of Nicopolis",
+          "type": "event",
+          "slug": "battle-of-nicopolis"
+        }
+      ]
+    },
+    {
+      "date": "1402",
+      "title": "Disaster at Ankara",
+      "description": "Timur captures Bayezid I; the state fragments.",
+      "links": [
+        {
+          "title": "Bayezid I",
+          "type": "person",
+          "slug": "bayezid-i"
+        }
+      ]
+    },
+    {
+      "date": "1444",
+      "title": "Battle of Varna",
+      "description": "Murad II crushes a crusade and secures the Balkans.",
+      "links": [
+        {
+          "title": "Battle of Varna",
+          "type": "event",
+          "slug": "battle-of-varna"
+        }
+      ]
+    },
+    {
+      "date": "1453",
+      "title": "Fall of Constantinople",
+      "description": "Mehmed II takes the city and ends the Byzantine Empire.",
+      "links": [
+        {
+          "title": "Fall of Constantinople",
+          "type": "event",
+          "slug": "fall-of-constantinople"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Osman I",
+        "type": "person",
+        "slug": "osman-i",
+        "label": "Founder"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i",
+        "label": "Conqueror of the Balkans"
+      },
+      {
+        "title": "Bayezid I",
+        "type": "person",
+        "slug": "bayezid-i",
+        "label": "Defeated by Timur at Ankara"
+      },
+      {
+        "title": "Mehmed II the Conqueror",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Took Constantinople"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The dynasty’s defining conquest, 1453"
+      },
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Won the Balkans, 1389"
+      },
+      {
+        "title": "Battle of Varna",
+        "type": "event",
+        "slug": "battle-of-varna",
+        "label": "Secured Ottoman Europe, 1444"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The state they built"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Capital before 1453"
+      },
+      {
+        "title": "Bursa",
+        "type": "location",
+        "slug": "bursa",
+        "label": "First capital and dynastic burial city"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ottoman dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Ottoman-Empire"
+    },
+    {
+      "title": "Osman I — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Osman_I"
+    },
+    {
+      "title": "Rise of the Ottoman Empire — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire"
+    }
+  ]
+}

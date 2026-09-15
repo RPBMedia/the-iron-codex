@@ -1,0 +1,93 @@
+{
+  "id": "crecy",
+  "type": "location",
+  "name": "Crecy",
+  "locationType": "Village",
+  "kingdom": "Kingdom of France",
+  "year": "1346",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_crecy_froissart.jpg",
+  "summary": "A northern French battlefield famous for English longbow tactics in 1346.",
+  "overview": [
+    "A northern French battlefield famous for English longbow tactics in 1346."
+  ],
+  "knownFor": [
+    "Crecy in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Crecy.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_crecy_froissart.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A northern French battlefield famous for English longbow tactics in 1346.",
+        "Crecy matters historically through Crecy in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_crecy_froissart.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Crecy",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Crecy"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "Battle fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Fought here"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Fought here"
+      }
+    ]
+  }
+}

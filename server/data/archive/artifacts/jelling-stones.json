@@ -1,0 +1,84 @@
+{
+  "id": "jelling-stones",
+  "type": "artifact",
+  "name": "Jelling Stones",
+  "year": "10th century",
+  "location": "Jelling, Denmark",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Runesten_i_Jelling.jpg/1280px-Runesten_i_Jelling.jpg",
+  "summary": "Runestones at Jelling connected to Gorm the Old, Thyra, and Harald Bluetooth.",
+  "details": "The Jelling stones are among the most important royal monuments of Viking Age Denmark.",
+  "imageInfo": {
+    "caption": "The Jelling stones in Denmark.",
+    "creator": "Unknown Viking Age carvers; modern photograph",
+    "date": "10th century stones / modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Royal monument, not a portrait."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Jelling stones are monumental runestones from tenth-century Denmark associated with Gorm the Old, Thyra, and Harald Bluetooth."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "The Jelling stones combine runic inscription, royal memory, animal ornament, and Christian imagery. Gorm’s smaller stone commemorates Queen Thyra, while Harald Bluetooth’s larger stone proclaims royal authority, conquest, and conversion in a public monument."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The stones belong to the tenth-century Jelling dynasty and the transition from Viking Age rulership to Christian monarchy. Their dates are tied to Gorm the Old and Harald Bluetooth rather than to a single workshop record, so they are best read as royal monuments from the heart of early Danish kingship."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "Harald Bluetooth’s larger stone famously declares that he won Denmark and Norway and made the Danes Christian. That inscription should be read as royal propaganda as well as evidence: it tells us what Harald wanted publicly remembered about dynasty, rule, and conversion."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Jelling stones remain central evidence for early Danish kingship because they combine names, claims, images, and religious change in durable form. They are also a national monument of Denmark, though their historical value is broader than later national symbolism."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Runesten_i_Jelling.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Gorm the Old",
+        "type": "person",
+        "slug": "gorm-the-old"
+      },
+      {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth"
+      },
+      {
+        "title": "Thyra",
+        "type": "person",
+        "slug": "thyra",
+        "label": "Commemorated on the smaller stone"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      }
+    ]
+  }
+}

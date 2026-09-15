@@ -1,0 +1,328 @@
+{
+  "id": "house-of-fairhair",
+  "type": "house",
+  "name": "House of Fairhair",
+  "aliases": [
+    "Fairhair dynasty",
+    "Fairhair dynasty / saga tradition",
+    "Fairhair line (Eirikssons)",
+    "Norwegian royal line",
+    "Norwegian royal line / saga tradition",
+    "Hardrada line",
+    "Hardrada / Norwegian royal line",
+    "Saint Olaf’s line",
+    "Hårfagre"
+  ],
+  "originYear": 872,
+  "endYear": 1130,
+  "reignSpan": "c. 872–1130 (traditional)",
+  "region": "Kingdom of Norway",
+  "originPlace": "Norway",
+  "arms": "A golden lion bearing the axe of Saint Olaf on a red field — the royal arms of Norway, attributed to the line in later heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Harold%20Fairhair%20Flateyjarbok.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Harald Fairhair, traditional unifier of Norway, in a scene from the 14th-century Icelandic manuscript Flateyjarbók.",
+    "creator": "Icelandic manuscript illumination (Flateyjarbók)",
+    "date": "c. 1390",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harold_Fairhair_Flateyjarbok.jpg",
+    "note": "A later saga-manuscript depiction; the earliest history of the dynasty is preserved through Icelandic saga tradition rather than contemporary record."
+  },
+  "summary": "The traditional dynasty of the unifiers of Norway, from Harald Fairhair through Saint Olaf and Harald Hardrada.",
+  "overview": "The House of Fairhair is the dynasty that Norwegian and Icelandic tradition credits with unifying Norway under Harald Fairhair around 872. Its kings — remembered largely through later saga tradition — Christianised the country under Olaf Tryggvason and Saint Olaf, and reached across the North Sea under Harald Hardrada, whose death at Stamford Bridge in 1066 marked the end of the Viking age.",
+  "founder": {
+    "personSlug": "harald-fairhair",
+    "displayName": "Harald Fairhair",
+    "note": "Traditional unifier of Norway, c. 872"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Norway",
+      "type": "location",
+      "slug": "kingdom-of-norway"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "harald-fairhair",
+      "displayName": "Harald Fairhair",
+      "note": "Traditional unifier of Norway"
+    },
+    {
+      "personSlug": "haakon-the-good",
+      "displayName": "Haakon the Good",
+      "note": "Raised Christian in England; early convert-king"
+    },
+    {
+      "personSlug": "eric-bloodaxe",
+      "displayName": "Eric Bloodaxe",
+      "note": "Harald’s son; also king at York"
+    },
+    {
+      "personSlug": "olaf-tryggvason",
+      "displayName": "Olaf Tryggvason",
+      "note": "Forcibly Christianised much of Norway"
+    },
+    {
+      "personSlug": "olaf-ii-haraldsson",
+      "displayName": "Olaf II (Saint Olaf)",
+      "note": "Norway’s patron saint; fell at Stiklestad"
+    },
+    {
+      "personSlug": "magnus-the-good",
+      "displayName": "Magnus the Good",
+      "note": "Son of Saint Olaf; king of Norway and Denmark"
+    },
+    {
+      "personSlug": "harald-hardrada",
+      "displayName": "Harald Hardrada",
+      "note": "Varangian, king, and claimant of England; died at Stamford Bridge"
+    },
+    {
+      "personSlug": "magnus-barefoot",
+      "displayName": "Magnus Barefoot",
+      "note": "Campaigned across the Irish Sea"
+    }
+  ],
+  "familyTree": {
+    "caption": "The kings of the Fairhair line. The early descent from Harald Fairhair is preserved through Icelandic saga tradition and is genealogically uncertain; the later father-to-son links (the Hardrada line) are better recorded. ⚭ marks a marriage.",
+    "root": {
+      "name": "Harald Fairhair",
+      "personSlug": "harald-fairhair",
+      "note": "traditional r. c. 872–930",
+      "children": [
+        {
+          "name": "Eric Bloodaxe",
+          "personSlug": "eric-bloodaxe",
+          "note": "r. c. 930–934",
+          "children": [
+            {
+              "name": "Harald Greycloak",
+              "personSlug": "harald-greycloak",
+              "note": "r. c. 961–970"
+            }
+          ]
+        },
+        {
+          "name": "Haakon the Good",
+          "personSlug": "haakon-the-good",
+          "note": "r. c. 934–961"
+        },
+        {
+          "name": "Later kings of the Fairhair line",
+          "note": "linked to Harald Fairhair by saga tradition; the exact descent is uncertain",
+          "branch": "saga tradition",
+          "children": [
+            {
+              "name": "Olaf Tryggvason",
+              "personSlug": "olaf-tryggvason",
+              "note": "r. 995–1000"
+            },
+            {
+              "name": "Olaf II (Saint Olaf)",
+              "personSlug": "olaf-ii-haraldsson",
+              "note": "r. 1015–1028",
+              "children": [
+                {
+                  "name": "Magnus the Good",
+                  "personSlug": "magnus-the-good",
+                  "note": "r. 1035–1047"
+                }
+              ]
+            },
+            {
+              "name": "Harald Hardrada",
+              "personSlug": "harald-hardrada",
+              "note": "r. 1046–1066; half-brother of St Olaf",
+              "children": [
+                {
+                  "name": "Olaf III",
+                  "personSlug": "olaf-iii-of-norway",
+                  "note": "r. 1067–1093",
+                  "children": [
+                    {
+                      "name": "Magnus Barefoot",
+                      "personSlug": "magnus-barefoot",
+                      "note": "r. 1093–1103",
+                      "children": [
+                        {
+                          "name": "Øystein I",
+                          "personSlug": "oystein-i-of-norway",
+                          "note": "r. 1103–1123"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "Norwegian tradition holds that Harald Fairhair united the many petty kingdoms of Norway into one realm after a decisive sea-battle at Hafrsfjord, traditionally dated around 872. This account survives mainly through Icelandic sagas written three centuries later, so the details — and the completeness of his unification — are uncertain, but Harald became the ancestor-figure of the Norwegian monarchy.",
+        "His many sons fought over the inheritance. Eric Bloodaxe, remembered for killing his brothers, was driven out and later ruled as a Viking king at York, while the English-raised Haakon the Good returned to take Norway and make the first royal attempts at Christianisation."
+      ]
+    },
+    {
+      "title": "The conversion of Norway",
+      "paragraphs": [
+        "Two kings named Olaf drove Norway’s conversion, both through force. Olaf Tryggvason, a former Viking, imposed Christianity harshly during his short reign before dying at the sea-battle of Svolder around 1000. A generation later Olaf Haraldsson — Saint Olaf — completed the work, and though he was killed by rebellious chieftains at Stiklestad in 1030, his cult as Norway’s patron saint quickly made him more powerful in death than in life.",
+        "The sagas surround both kings with legend, and their stories must be read as tradition shaped by later Christian memory as much as as documentary history."
+      ]
+    },
+    {
+      "title": "Harald Hardrada and the Viking age",
+      "paragraphs": [
+        "Saint Olaf’s half-brother Harald Sigurdsson, called Hardrada (\"hard-ruler\"), fled after Stiklestad to serve in the Varangian Guard at Constantinople before returning to claim Norway in 1046. A formidable and ruthless king, he founded Oslo and warred for years against Denmark.",
+        "In 1066 he invaded England to claim its throne, but was defeated and killed by Harold Godwinson at the Battle of Stamford Bridge — a defeat traditionally taken to mark the end of the Viking age, days before the Norman landing at Hastings."
+      ]
+    },
+    {
+      "title": "The later Fairhair kings",
+      "paragraphs": [
+        "Harald Hardrada’s line continued through his son Olaf III \"the Peaceful\", whose long reign brought stability and the growth of Norwegian towns, and his grandson Magnus Barefoot, who campaigned aggressively around the Irish Sea and the Scottish isles before dying in Ireland in 1103.",
+        "Magnus’s son Øystein I and his brothers ruled jointly, developing Norway’s church, law, and trade, in a more settled age than that of their raiding ancestors."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Fairhair dynasty gave Norway its founding myth, its conversion, and its patron saint. The cult of Saint Olaf and the idea of a single Norwegian kingdom descended from Harald Fairhair shaped Norwegian identity for the rest of the Middle Ages.",
+        "When the direct line faltered in the twelfth century, Norway fell into decades of civil war from which a new dynasty, the House of Sverre, eventually emerged."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 872",
+      "title": "Harald Fairhair unites Norway",
+      "description": "By tradition, victory at Hafrsfjord makes Harald king of a united Norway.",
+      "links": [
+        {
+          "title": "Harald Fairhair",
+          "type": "person",
+          "slug": "harald-fairhair"
+        }
+      ]
+    },
+    {
+      "date": "c. 1000",
+      "title": "Death of Olaf Tryggvason",
+      "description": "The convert-king falls at the sea-battle of Svolder.",
+      "links": [
+        {
+          "title": "Olaf Tryggvason",
+          "type": "person",
+          "slug": "olaf-tryggvason"
+        }
+      ]
+    },
+    {
+      "date": "1030",
+      "title": "Saint Olaf falls at Stiklestad",
+      "description": "Olaf Haraldsson is killed and soon venerated as Norway’s patron saint.",
+      "links": [
+        {
+          "title": "Olaf II (Saint Olaf)",
+          "type": "person",
+          "slug": "olaf-ii-haraldsson"
+        }
+      ]
+    },
+    {
+      "date": "1046",
+      "title": "Harald Hardrada takes the throne",
+      "description": "The former Varangian returns from Byzantium to rule Norway.",
+      "links": [
+        {
+          "title": "Harald Hardrada",
+          "type": "person",
+          "slug": "harald-hardrada"
+        }
+      ]
+    },
+    {
+      "date": "1066",
+      "title": "Death at Stamford Bridge",
+      "description": "Hardrada’s fall is often taken to end the Viking age.",
+      "links": [
+        {
+          "title": "Battle of Stamford Bridge",
+          "type": "event",
+          "slug": "battle-of-stamford-bridge"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
+        "label": "Founder by tradition"
+      },
+      {
+        "title": "Olaf II (Saint Olaf)",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Patron saint of Norway"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada",
+        "label": "Last great Viking king"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Hardrada’s death, 1066"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The realm they unified"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Fairhair dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Fairhair_dynasty"
+    },
+    {
+      "title": "Harald I (Fairhair) — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Harald-I-king-of-Norway"
+    },
+    {
+      "title": "Harald Hardrada — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Harald-III-Sigurdsson"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Norway.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Norwegian royal arms: a crowned golden lion bearing the axe of Saint Olaf (a later attribution to the old dynasty).",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Norway.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

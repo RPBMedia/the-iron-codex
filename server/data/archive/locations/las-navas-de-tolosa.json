@@ -1,0 +1,99 @@
+{
+  "id": "las-navas-de-tolosa",
+  "type": "location",
+  "name": "Las Navas de Tolosa",
+  "locationType": "Battlefield",
+  "kingdom": "Iberia",
+  "year": "1212",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batalla_de_las_Navas_de_Tolosa,_por_Francisco_van_Halen.jpg",
+  "summary": "A battlefield in the Sierra Morena linked to a major Christian victory over the Almohads.",
+  "overview": [
+    "A battlefield in the Sierra Morena linked to a major Christian victory over the Almohads."
+  ],
+  "knownFor": [
+    "Las Navas de Tolosa in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Las Navas de Tolosa.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batalla_de_las_Navas_de_Tolosa,_por_Francisco_van_Halen.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A battlefield in the Sierra Morena linked to a major Christian victory over the Almohads.",
+        "Las Navas de Tolosa matters historically through Las Navas de Tolosa in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Batalla_de_las_Navas_de_Tolosa%2C_por_Francisco_van_Halen.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Las Navas de Tolosa",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Las-Navas-de-Tolosa"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "Battle fought here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "Fought here"
+      },
+      {
+        "title": "Muhammad al-Nasir",
+        "type": "person",
+        "slug": "muhammad-al-nasir",
+        "label": "Fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Combatant here"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "Combatant here"
+      },
+      {
+        "title": "Kingdom of Navarre",
+        "type": "location",
+        "slug": "kingdom-of-navarre",
+        "label": "Combatant here"
+      }
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "theodosius-iii",
+  "type": "character",
+  "name": "Theodosius III",
+  "aliases": [
+    "Theodosios III"
+  ],
+  "born": 680,
+  "died": 754,
+  "deathAge": "unknown",
+  "causeOfDeath": "Died as a monk at Ephesus, at an unrecorded date after his abdication in 717.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coin%20of%20Theodosius%20III.png",
+  "imageInfo": {
+    "caption": "A coin of Theodosius III, from a reign of less than two years.",
+    "creator": "Constantinople mint",
+    "date": "715–717",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coin_of_Theodosius_III.png",
+    "note": "Very little survives of him and the coinage is most of it. A reluctant emperor of twenty months leaves a thin material record. Public domain."
+  },
+  "summary": "Theodosius III was a tax collector raised to the throne by a mutiny in 715, and abdicated in 717 rather than fight Leo III with an Umayyad invasion approaching.",
+  "overview": "The emperor whose best decision was to stop being emperor.",
+  "greatestFeats": [
+    "Repaired the walls and stockpiled grain before the siege of 717–718",
+    "Abdicated without civil war at the moment the empire could least afford one"
+  ],
+  "birth": {
+    "date": "Unknown",
+    "place": {
+      "name": "The Byzantine Empire"
+    }
+  },
+  "death": {
+    "date": "After 717",
+    "place": {
+      "name": "Ephesus"
+    },
+    "circumstance": "Lived as a monk after his abdication; the date of his death is not recorded."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Not dynastic",
+    "culture": "Roman",
+    "knownFor": "Abdicating in favour of Leo III on the eve of the great siege"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Anastasius II",
+      "note": "Deposed by the mutinous Opsikian troops in 715; he later attempted a return with Bulgar help and was executed in 719.",
+      "personSlug": "anastasius-ii"
+    },
+    "successor": {
+      "personSlug": "leo-iii-the-isaurian",
+      "displayName": "Leo III",
+      "note": "Strategos of the Anatolics, who marched on the capital in 717; Theodosius abdicated on terms rather than fight him with an Umayyad army approaching."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Theodosius III was a tax official at Adramyttium when the Opsikian troops mutinied against the emperor Anastasius II in 715 and decided they needed a figurehead.",
+        "The sources say he hid, and that they found him and proclaimed him against his will, which is unusual enough to be worth believing.",
+        "He held the throne for about twenty months, during which the empire prepared for the invasion everyone knew was coming, and then abdicated in March 717 in favour of a general who could actually fight it."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Nothing certain is known of his origins. A tradition that he was a son of the emperor Tiberius III appears in some sources and is generally rejected.",
+        "He was a fiscal official — a tax collector — in the province of the Opsikian theme, which is the least likely background for a Byzantine emperor in this archive apart from Basil I's stables.",
+        "The mutiny that raised him was about grievances against Anastasius II, not about him, and he was chosen precisely because he was nobody."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "There is almost nothing to go on, and the honest thing is to say so rather than construct a personality from two decisions.",
+        "What those two decisions show is a man without ambition and with a functioning sense of proportion. He did not want the throne, took it under compulsion, and gave it up the moment a better candidate appeared — at a point when clinging on would have meant civil war with an Umayyad army in Anatolia.",
+        "Theophanes, who is hostile to almost everyone, records no crimes against him. For a Byzantine emperor who was deposed, silence in that source is close to praise."
+      ]
+    },
+    {
+      "title": "Reign and abdication",
+      "paragraphs": [
+        "His government spent its short life preparing. The Theodosian walls were repaired, grain was stockpiled in the capital, and the fleet was made ready — measures that mattered enormously in the twelve months after he left the throne.",
+        "In 716 Leo, strategos of the Anatolics, and Artabasdos of the Armeniacs declared against him while negotiating with the advancing Umayyad commander Maslama. By early 717 Leo was marching on the capital.",
+        "Theodosius consulted the patriarch and the senate and abdicated on terms in March 717, entering the church at Ephesus as a monk with his son. Five months later the Umayyad army was at the walls, and the city held — partly on the supplies he had laid in."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He is a footnote with an outsized moment. The empire was one civil war away from losing its capital in 717, and the man on the throne stepped aside instead of fighting for it.",
+        "The preparations made in his twenty months were not trivial either: walls, grain and ships are exactly what the siege turned on.",
+        "He lived out his life as a monk at Ephesus and is said to have been venerated there. It is the quietest exit any deposed Byzantine emperor in this archive managed."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "715",
+      "title": "Proclaimed by mutineers",
+      "description": "The Opsikian troops depose Anastasius II and force the throne on a provincial tax official."
+    },
+    {
+      "date": "715–716",
+      "title": "Preparing for the siege",
+      "description": "The walls are repaired, grain stockpiled and the fleet made ready."
+    },
+    {
+      "date": "716",
+      "title": "Leo and Artabasdos declare",
+      "description": "The strategoi of the Anatolic and Armeniac themes refuse to recognise him."
+    },
+    {
+      "date": "March 717",
+      "title": "Abdication",
+      "description": "He gives up the throne on terms and becomes a monk at Ephesus with his son."
+    },
+    {
+      "date": "August 717",
+      "title": "The siege begins",
+      "description": "The Umayyad army reaches the walls five months after his abdication.",
+      "links": [
+        {
+          "title": "Siege of Constantinople (717–718)",
+          "type": "event",
+          "slug": "siege-of-constantinople-717"
+        }
+      ]
+    },
+    {
+      "date": "After 717",
+      "title": "Died",
+      "description": "Dies at Ephesus at an unrecorded date; he is said to have been venerated locally."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "To whom he abdicated in 717"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "Which his preparations helped the city survive"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Theodosius III",
+      "url": "https://en.wikipedia.org/wiki/Theodosius_III",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

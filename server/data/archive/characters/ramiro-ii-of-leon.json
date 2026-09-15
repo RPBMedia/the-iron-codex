@@ -1,0 +1,166 @@
+{
+  "id": "ramiro-ii-of-leon",
+  "type": "character",
+  "name": "Ramiro II of León",
+  "aliases": [
+    "Ramiro II",
+    "Ramiro the Devil",
+    "Ramiro el Diablo"
+  ],
+  "born": "c. 900",
+  "died": "951",
+  "deathAge": "about 51",
+  "restingPlace": "León",
+  "birth": {
+    "date": "c. 900",
+    "place": {
+      "name": "Kingdom of León",
+      "slug": "kingdom-of-leon"
+    }
+  },
+  "death": {
+    "date": "5 January 951",
+    "place": {
+      "name": "León"
+    }
+  },
+  "location": "Kingdom of León, Iberia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ramiro2Leon.jpg",
+  "title": "king of León",
+  "isRuler": true,
+  "roles": [
+    "King of León",
+    "Victor of the Battle of Simancas"
+  ],
+  "epithets": [
+    {
+      "name": "the Devil",
+      "type": "hostile epithet",
+      "note": "Called \"el Diablo\" by his Muslim adversaries for his ferocity in war."
+    }
+  ],
+  "summary": "Ramiro II was the warrior-king of León whose victory at Simancas in 939 shattered a caliphal army and marked the height of tenth-century Leonese power.",
+  "details": "Ramiro seized the throne of León in 931 by deposing his brother Alfonso IV, and reigned until 951 as one of the most aggressive Christian rulers of the age, feared by his Muslim enemies as \"the Devil\".",
+  "overview": "Among the early kings of León, Ramiro II stands out as a soldier: a ruler remembered chiefly for beating Córdoba in the field at a time when the caliphate was the strongest power in Iberia.",
+  "quickFacts": {
+    "realm": "Kingdom of León",
+    "dynasty": "House of Asturias",
+    "culture": "Leonese",
+    "knownFor": "Victory over Abd al-Rahman III at Simancas (939)"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ramiro II of León ruled from 931 to 951 and was the dominant Christian war-leader of his generation. His great victory at Simancas in 939, over the campaigning army of Caliph Abd al-Rahman III, was the outstanding Christian success of the tenth century.",
+        "He came to the throne by force, expanded the Leonese frontier toward the Duero, and left his Muslim opponents with a lasting dread of his name. His reign marks the moment when León pressed hardest against the power of Córdoba."
+      ]
+    },
+    {
+      "title": "Reign and wars",
+      "paragraphs": [
+        "Ramiro took the crown in 931 after deposing and blinding his brother Alfonso IV, \"the Monk\", who had tried to reclaim it. As king he waged relentless war on the southern frontier, winning at Osma in 933 and, above all, at Simancas and the ravine of al-Khandaq in 939, where the caliph's army was destroyed.",
+        "He worked with the frontier lords of Castile and the kings of Pamplona, though these alliances were uneasy — Count Fernán González of Castile was as much a rival as a partner. Ramiro pushed forward the repopulation of the borderlands and died in 951, leaving the throne to his son Ordoño III."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The Ramiro of the sources is a hard and formidable man, a king who took his crown by deposing a brother and who fought the caliphate with a relentlessness that earned him the byname \"the Devil\" from his Muslim enemies. That name, hostile in origin, is itself a measure of the fear he inspired.",
+        "He was evidently a gifted battlefield commander and a determined frontier-builder, but also a ruler of his violent age, willing to blind a rival and to execute failure. The admiring Christian and dismayed Muslim accounts agree on his effectiveness even where they differ on everything else."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Seized the throne of León in 931",
+    "Won the Battle of Simancas over Abd al-Rahman III (939)",
+    "Advanced and repopulated the Duero frontier"
+  ],
+  "timeline": [
+    {
+      "date": "c. 900",
+      "title": "Born",
+      "description": "Born into the Leonese royal house."
+    },
+    {
+      "date": "931",
+      "title": "Became king",
+      "description": "Took the throne of León, deposing his brother Alfonso IV."
+    },
+    {
+      "date": "933",
+      "title": "Victory at Osma",
+      "description": "Defeated a Córdoban army at Osma."
+    },
+    {
+      "date": "939",
+      "title": "Battle of Simancas",
+      "description": "Crushed Abd al-Rahman III's great army at Simancas and al-Khandaq."
+    },
+    {
+      "date": "951",
+      "title": "Died",
+      "description": "Died at León; succeeded by his son Ordoño III."
+    }
+  ],
+  "succession": {
+    "office": "King of León",
+    "predecessor": {
+      "displayName": "Alfonso IV of León",
+      "note": "His brother, whom he deposed and blinded."
+    },
+    "successor": {
+      "displayName": "Ordoño III of León",
+      "note": "His son."
+    }
+  },
+  "imageInfo": {
+    "caption": "Ramiro II of León in a medieval depiction; his victory at Simancas made him the leading Christian war-king of the tenth century.",
+    "creator": "Medieval depiction, Wikimedia Commons",
+    "date": "Medieval / later depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ramiro2Leon.jpg",
+    "license": "Public domain",
+    "note": "No contemporary portrait survives; this is a later royal image."
+  },
+  "sources": [
+    {
+      "title": "Ramiro II of León",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Ramiro_II_of_Le%C3%B3n"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Simancas",
+        "type": "event",
+        "slug": "battle-of-simancas",
+        "label": "His crowning victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "His realm"
+      },
+      {
+        "title": "Simancas",
+        "type": "location",
+        "slug": "simancas",
+        "label": "Site of his great victory"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Asturias",
+        "type": "house",
+        "slug": "house-of-asturias",
+        "label": "The Astur-Leonese line he belonged to"
+      }
+    ]
+  }
+}

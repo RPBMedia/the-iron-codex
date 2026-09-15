@@ -1,0 +1,245 @@
+{
+  "id": "pope-urban-ii",
+  "type": "character",
+  "name": "Pope Urban II",
+  "aliases": [
+    "Urban II",
+    "Odo of Chatillon"
+  ],
+  "born": 1042,
+  "died": 1099,
+  "deathAge": "unknown",
+  "causeOfDeath": "Died in Rome in 1099, shortly after Jerusalem was captured but before news of the victory reached him.",
+  "restingPlace": "Vatican / Rome tradition",
+  "location": "Papacy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Urban_II.jpg",
+  "title": "pope and caller of the First Crusade",
+  "roles": [
+    "Pope",
+    "Crusade preacher",
+    "Reform churchman"
+  ],
+  "birth": {
+    "date": "c. 1042",
+    "place": {
+      "name": "Kingdom of France",
+      "slug": "kingdom-of-france",
+      "type": "location"
+    }
+  },
+  "death": {
+    "date": "1099",
+    "place": {
+      "name": "Rome",
+      "slug": "rome",
+      "type": "location"
+    },
+    "circumstance": "Died in Rome in 1099, shortly after Jerusalem was captured but before news of the victory reached him."
+  },
+  "quickFacts": {
+    "realm": "Papacy",
+    "dynasty": "Reform papacy",
+    "culture": "French / Latin Christian",
+    "knownFor": "Council of Clermont and the call for the First Crusade"
+  },
+  "imageInfo": {
+    "caption": "Later depiction of Pope Urban II.",
+    "creator": "Unknown artist",
+    "date": "medieval or later public-domain image",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pope_Urban_II.jpg",
+    "note": "Later papal image, not a contemporary portrait."
+  },
+  "overview": [
+    "Pope Urban II was the reform pope whose preaching at the Council of Clermont in 1095 helped launch the First Crusade. He framed armed pilgrimage to the eastern Mediterranean through penitence, aid to eastern Christians, and the recovery of Jerusalem.",
+    "Urban’s appeal drew on the reform papacy’s authority, conflict with secular rulers, and Byzantine requests for military assistance after Seljuk expansion. He died in 1099 just after the crusaders captured Jerusalem, making him central to the origins of crusading even though he never saw its outcome."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pope Urban II was the reform pope whose preaching at the Council of Clermont in 1095 helped launch the First Crusade. He framed armed pilgrimage to the eastern Mediterranean through penitence, aid to eastern Christians, and the recovery of Jerusalem.",
+        "Urban’s appeal drew on the reform papacy’s authority, conflict with secular rulers, and Byzantine requests for military assistance after Seljuk expansion. He died in 1099 just after the crusaders captured Jerusalem, making him central to the origins of crusading even though he never saw its outcome."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Urban was born around 1042 in the French aristocratic world, traditionally associated with Châtillon-sur-Marne. He entered the church and became connected to the reforming monastic and papal networks that challenged simony, clerical marriage, and lay control over church offices.",
+        "Before becoming pope, he served in the orbit of Gregory VII and absorbed the language of reform, penitence, and papal leadership that later shaped his preaching at Clermont."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Pope Urban II is remembered as a figure of commanding eloquence and political vision, the pope whose sermon at Clermont in 1095 launched the First Crusade. The sources — several rival accounts of his speech, all written after the crusade's success — present a persuasive and ambitious churchman who fused the cause of eastern Christians, the liberation of Jerusalem, and the reform of a violent knightly class into a single galvanising appeal.",
+        "Because the famous speech survives only in later, divergent reconstructions, his exact words and intentions are uncertain, and the sources tell us as much about how the crusade was later understood as about Urban himself. What the record supports is a skilled administrator and reformer, shaped by the Cluniac monastic tradition and by the struggle to assert papal authority, who grasped the mobilising power of penitential warfare.",
+        "He did not live to learn of Jerusalem's capture, dying days after the city fell without the news reaching him. He is remembered as the visionary instigator whose preaching unleashed forces far beyond his control — an eloquent, ambitious reformer whose single sermon reshaped the medieval world."
+      ]
+    },
+    {
+      "title": "As pope and caller of the First Crusade",
+      "paragraphs": [
+        "Urban became pope in 1088 during the Investiture Controversy, when papal and imperial claims were still sharply contested. His political position was fragile, but he used councils, preaching, and alliances to rebuild papal authority.",
+        "At Clermont in 1095, he called for armed assistance to eastern Christians and for a penitential expedition toward Jerusalem. The surviving accounts differ in wording, but they agree that his appeal transformed local knightly violence into a movement with religious sanction and long Mediterranean consequences."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Urban died in Rome on 29 July 1099. Crusader forces had captured Jerusalem earlier that month, but the news probably had not reached him before his death.",
+        "His death left the papacy to interpret and manage a movement whose scale and violence exceeded the immediate diplomatic request from Byzantium."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Urban is remembered as the pope who gave crusading its first great institutional shape. His legacy is not simply the speech at Clermont, but the fusion of reform papal authority, penitential warfare, pilgrimage, and Mediterranean politics.",
+        "Later crusading memory often simplified Urban as the origin point of the whole movement. Historians treat the First Crusade as broader than one speech, while still recognizing Clermont as a decisive moment."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Called the First Crusade",
+      "description": "Urban’s preaching at Clermont gave armed pilgrimage to Jerusalem papal sanction and mobilized nobles, knights, clergy, and commoners across Latin Christendom.",
+      "links": [
+        {
+          "title": "First Crusade Proclaimed",
+          "type": "event",
+          "slug": "first-crusade-called"
+        },
+        {
+          "title": "Papacy",
+          "type": "location",
+          "slug": "papacy"
+        }
+      ]
+    },
+    {
+      "title": "Linked reform papacy to crusading",
+      "description": "He used the moral authority of church reform to frame warfare as penitential service under papal direction.",
+      "links": [
+        {
+          "title": "Papacy",
+          "type": "location",
+          "slug": "papacy"
+        }
+      ]
+    },
+    {
+      "title": "Responded to Byzantine appeals",
+      "description": "His call drew partly on eastern requests for help after Seljuk pressure in Anatolia, though the crusade soon moved beyond Byzantine control.",
+      "links": [
+        {
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        },
+        {
+          "title": "Seljuk Turks",
+          "type": "location",
+          "slug": "seljuk-turks"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1042",
+      "title": "Born in northern France",
+      "description": "Urban was born into the French aristocratic world and entered the church during the age of reform movements."
+    },
+    {
+      "date": "1088",
+      "title": "Elected pope",
+      "description": "He became pope while papal-imperial conflict still divided western Christendom."
+    },
+    {
+      "date": "1095",
+      "title": "Preaches at Clermont",
+      "description": "Urban called for armed pilgrimage to aid eastern Christians and move toward Jerusalem."
+    },
+    {
+      "date": "1096",
+      "title": "Crusading armies depart",
+      "description": "The response to Clermont produced both popular and aristocratic expeditions moving east."
+    },
+    {
+      "date": "1099",
+      "title": "Dies in Rome",
+      "description": "Urban died shortly after Jerusalem was taken, probably before hearing the news."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Realm"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Place of death"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks"
+      }
+    ],
+    "events": [
+      {
+        "title": "First Crusade Proclaimed",
+        "type": "event",
+        "slug": "first-crusade-called"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Pope_Urban_II.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Crusades",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Crusades"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Crusades",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "As pope and caller of the First Crusade",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/CouncilofClermont.jpg",
+      "caption": "Later depiction of Urban II preaching at Clermont.",
+      "creator": "Unknown artist or photographer",
+      "date": "public-domain or open historical image",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CouncilofClermont.jpg",
+      "note": "Later image of the event tradition, not eyewitness evidence."
+    }
+  ]
+}

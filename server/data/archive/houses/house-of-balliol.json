@@ -1,0 +1,175 @@
+{
+  "id": "house-of-balliol",
+  "type": "house",
+  "name": "House of Balliol",
+  "aliases": [
+    "House of Balliol",
+    "Balliol",
+    "de Balliol",
+    "Balliol dynasty",
+    "Bailleul"
+  ],
+  "originYear": 1292,
+  "endYear": 1356,
+  "reignSpan": "1292–1296 (crowned kingship)",
+  "region": "Scotland, England & Picardy",
+  "originPlace": "Bailleul, Picardy & Barnard Castle",
+  "arms": "Gules, an orle argent — the arms of Balliol.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SetonArmorialJohnBalliolAndWife.jpg?width=1000",
+  "imageInfo": {
+    "caption": "John Balliol, King of Scots, and his wife, in the 16th-century Seton Armorial.",
+    "creator": "Seton Armorial",
+    "date": "1591 (depicting John Balliol, king 1292–1296)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SetonArmorialJohnBalliolAndWife.jpg",
+    "note": "A later heraldic armorial depiction, not a contemporary portrait; it shows Balliol with the royal lion banner of Scotland."
+  },
+  "summary": "The Anglo-Norman house whose head, John Balliol, was made King of Scots in 1292 and stripped of the crown in 1296 — the spark of the Wars of Scottish Independence.",
+  "overview": "The Balliols were a great Anglo-Norman family with lands in England, Scotland, and Picardy. In the succession crisis after the death of the Maid of Norway, John Balliol was chosen King of Scots in 1292 by the arbitration of Edward I of England — to whom he then had to do homage. When he resisted English overlordship, Edward deposed and humiliated him in 1296, an act that ignited the long wars of Scottish independence.",
+  "founder": {
+    "personSlug": "john-balliol",
+    "displayName": "John Balliol",
+    "note": "King of Scots, 1292–1296"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Scotland",
+      "type": "location",
+      "slug": "kingdom-of-scotland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "john-balliol",
+      "displayName": "John Balliol",
+      "note": "King of Scots; deposed by Edward I in 1296"
+    },
+    {
+      "displayName": "Edward Balliol",
+      "note": "His son; puppet claimant crowned with English help in 1332"
+    },
+    {
+      "displayName": "Dervorguilla of Galloway",
+      "note": "John’s mother; founded Balliol College, Oxford, in his father’s memory"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Balliol royal claim from John to his son Edward, both of whom wore the Scottish crown briefly and precariously.",
+    "root": {
+      "name": "John Balliol",
+      "personSlug": "john-balliol",
+      "note": "King of Scots 1292–1296",
+      "children": [
+        {
+          "name": "Edward Balliol",
+          "note": "crowned 1332 with English backing; never secure"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Balliols took their name from Bailleul in Picardy and built a great cross-Channel lordship, holding Barnard Castle in England and wide estates in Scotland and France. John Balliol’s claim to the Scottish throne came through his mother Dervorguilla of Galloway, a descendant of David I; Dervorguilla is remembered for founding Balliol College at Oxford in memory of her husband.",
+        "That royal descent placed John among the \"Competitors\" for the crown when Scotland’s direct line failed in 1290 with the death of Margaret, the Maid of Norway."
+      ]
+    },
+    {
+      "title": "The Great Cause and the Toom Tabard",
+      "paragraphs": [
+        "To settle the disputed succession the Scottish guardians invited Edward I of England to arbitrate. In the process known as the Great Cause, Edward chose John Balliol in 1292 — but only after Balliol and the other claimants had acknowledged Edward as overlord of Scotland. John was crowned, yet Edward treated him as a vassal, summoning him to English courts and demanding Scottish troops for his French wars.",
+        "When the Scots resisted and allied with France, Edward invaded, defeated Balliol in 1296, and ceremonially stripped him of the royal arms — earning him the mocking name Toom Tabard, \"empty coat.\" He was imprisoned and later exiled to his French estates, where he died in 1314."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Balliol’s deposition left Scotland without an effective king and under English occupation, igniting the Wars of Scottish Independence fought by William Wallace and won by Robert the Bruce. The Balliol claim did not quite die: in 1332 John’s son Edward Balliol, backed by England and the \"Disinherited\" lords, was crowned, but he never held the country and the cause collapsed.",
+        "The house is remembered less for its brief kingship than for the crisis it triggered — the moment English overlordship provoked the Scottish nation into a generation of war."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1292",
+      "title": "John Balliol made King of Scots",
+      "description": "Edward I chooses Balliol in the Great Cause, exacting homage as overlord.",
+      "links": [
+        {
+          "title": "John Balliol",
+          "type": "person",
+          "slug": "john-balliol"
+        }
+      ]
+    },
+    {
+      "date": "1296",
+      "title": "The Toom Tabard deposed",
+      "description": "Edward I invades, defeats Balliol, and strips him of the crown."
+    },
+    {
+      "date": "1332",
+      "title": "Edward Balliol crowned",
+      "description": "John’s son is briefly crowned with English support but cannot hold the kingdom."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John Balliol",
+        "type": "person",
+        "slug": "john-balliol",
+        "label": "King of Scots, 1292–1296"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Edward I’s realm, which claimed overlordship"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Bruce",
+        "type": "house",
+        "slug": "house-of-bruce",
+        "label": "The rival house that won the crown and the war"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John de Balliol — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/John-de-Balliol-king-of-Scotland"
+    },
+    {
+      "title": "John Balliol — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/John_Balliol"
+    },
+    {
+      "title": "House of Balliol — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Balliol"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Balliol%20arms.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of Balliol — a silver orle on red.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balliol_arms.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

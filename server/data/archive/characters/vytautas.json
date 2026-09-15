@@ -1,0 +1,208 @@
+{
+  "id": "vytautas",
+  "type": "character",
+  "name": "Vytautas",
+  "aliases": [
+    "Vytautas the Great"
+  ],
+  "born": 1350,
+  "died": 1430,
+  "deathAge": "about 80",
+  "restingPlace": "Vilnius Cathedral, traditionally",
+  "location": "Grand Duchy of Lithuania",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Seal_of_Vytautas_the_Great.jpg",
+  "summary": "Vytautas was grand duke of Lithuania and one of the principal commanders of the Polish-Lithuanian victory at Grunwald.",
+  "details": "Vytautas was grand duke of Lithuania and one of the principal commanders of the Polish-Lithuanian victory at Grunwald.",
+  "title": "grand duke of Lithuania",
+  "roles": [
+    "Grand Duke of Lithuania",
+    "Commander at Grunwald"
+  ],
+  "birth": {
+    "date": "c. 1350",
+    "place": {
+      "name": "Senieji Trakai",
+      "slug": "senieji-trakai"
+    },
+    "note": "Approximate date; Senieji Trakai is the traditional birth association."
+  },
+  "death": {
+    "date": "1430",
+    "place": {
+      "name": "Trakai",
+      "slug": "trakai",
+      "type": "location"
+    },
+    "circumstance": "Died at Trakai in 1430 shortly before a planned royal coronation could be completed."
+  },
+  "quickFacts": {
+    "realm": "Grand Duchy of Lithuania",
+    "dynasty": "Gediminid",
+    "culture": "Lithuanian",
+    "knownFor": "Lithuanian expansion and Grunwald"
+  },
+  "imageInfo": {
+    "caption": "The portrait seal of Vytautas, grand duke of Lithuania, showing him enthroned, from the late fourteenth or early fifteenth century.",
+    "creator": "See source record",
+    "date": "Late fourteenth or early fifteenth century",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary seal, conventional rather than a likeness."
+  },
+  "overview": [
+    "Vytautas was grand duke of Lithuania and one of the principal commanders of the Polish-Lithuanian victory at Grunwald."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Vytautas was grand duke of Lithuania and one of the principal commanders of the Polish-Lithuanian victory at Grunwald. His career stretched across dynastic rivalry with Jogaila, expansion into Ruthenian lands, conflict with the Teutonic Order, and attempts to raise Lithuania’s status within eastern Europe."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Vytautas was born c. 1350, associated with Senieji Trakai. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of Grand Duchy of Lithuania, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Vytautas the Great is remembered as the towering figure of medieval Lithuanian history, and the tradition presents a ruler of immense energy, ambition, and political cunning. Lithuanian, Polish, and even hostile Teutonic sources convey a restless and formidable leader who maneuvered through shifting alliances — with the Teutonic Order, with his cousin Jagiełło, with Rus' and Tatar powers — always in pursuit of Lithuanian power and his own authority as grand duke.",
+        "His reign saw Lithuania reach its greatest territorial extent, stretching toward the Black Sea, and his leadership was central to the victory over the Teutonic Order at the Battle of Grunwald in 1410. The sources emphasise his decisiveness, his capacity for bold reversals of policy, and his nearly successful drive to obtain a royal crown of his own, frustrated only by his death.",
+        "The portrait is partly shaped by later Lithuanian national pride, which made him a founding hero, but the documented record supports the core: a dynamic, calculating, and supremely ambitious ruler who dominated the politics of the eastern Baltic for decades. He is remembered as Lithuania's greatest medieval ruler — relentless, adaptable, and never satisfied with the power he held."
+      ]
+    },
+    {
+      "title": "As grand duke of Lithuania",
+      "paragraphs": [
+        "Vytautas strengthened Lithuania’s authority across a vast multiethnic polity and navigated rivalry and cooperation with Wladyslaw II Jagiello.",
+        "Battle of Grunwald gives Vytautas's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Trakai in 1430 shortly before a planned royal coronation could be completed."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Vytautas is remembered in Lithuanian history as a great ruler and military leader whose reign marked the high point of Lithuanian power."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Ruled the Grand Duchy of Lithuania",
+      "description": "Vytautas strengthened Lithuanian authority across a vast and multiethnic polity."
+    },
+    {
+      "title": "Commanded at Grunwald",
+      "description": "He commanded Lithuanian forces at Grunwald alongside Wladyslaw II Jagiello."
+    },
+    {
+      "title": "Expanded Lithuanian political power",
+      "description": "His reign marked the high point of Lithuanian influence from the Baltic toward the Black Sea steppe."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1350",
+      "title": "Born",
+      "description": "Born at Senieji Trakai."
+    },
+    {
+      "date": "1392",
+      "title": "Grand duke",
+      "description": "Becomes effective ruler of Lithuania."
+    },
+    {
+      "date": "1399",
+      "title": "Defeat at the Vorskla",
+      "description": "Suffers a major setback against the Golden Horde."
+    },
+    {
+      "date": "1410",
+      "title": "Wins at Grunwald",
+      "description": "Commands Lithuanian forces.",
+      "links": [
+        {
+          "title": "Battle of Grunwald",
+          "type": "event",
+          "slug": "battle-of-grunwald"
+        }
+      ]
+    },
+    {
+      "date": "1430",
+      "title": "Dies",
+      "description": "Dies at Trakai."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Realm"
+      },
+      {
+        "title": "Senieji Trakai",
+        "type": "location",
+        "slug": "senieji-trakai",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Trakai",
+        "type": "location",
+        "slug": "trakai",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "Fought in this engagement"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Vytautas",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Vytautas_the_Great"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Seal_of_Vytautas_the_Great.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Grand Duke of Lithuania",
+    "predecessor": {
+      "personSlug": "skirgaila",
+      "displayName": "Skirgaila",
+      "note": "Jogaila's regent in Lithuania, whom Vytautas supplanted by the Ostrów Agreement of 1392."
+    },
+    "successor": {
+      "personSlug": "svitrigaila",
+      "displayName": "Švitrigaila",
+      "note": "Jogaila's brother, elected grand duke on Vytautas's death."
+    }
+  },
+  "epithets": [
+    {
+      "name": "the Great",
+      "type": "later epithet"
+    }
+  ]
+}

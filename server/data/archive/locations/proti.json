@@ -1,0 +1,91 @@
+{
+  "id": "proti",
+  "type": "location",
+  "locationType": "Island",
+  "name": "Proti",
+  "year": 1072,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/P_ost_proti.jpg",
+  "summary": "One of the Princes’ Islands, associated with the death of Romanos IV after his deposition and blinding.",
+  "overview": [
+    "Proti, now usually identified with Kinaliada in the Princes’ Islands, belonged to the island world near Constantinople used for exile and confinement.",
+    "Romanos IV Diogenes died there in 1072 after defeat, deposition, and blinding."
+  ],
+  "knownFor": [
+    "Death of Romanos IV Diogenes",
+    "Princes’ Islands exile",
+    "Byzantine political punishment"
+  ],
+  "imageInfo": {
+    "caption": "One of the Princes’ Islands off Constantinople, a traditional place of Byzantine exile.",
+    "creator": "CrniBombarder!!!",
+    "date": "2006-11",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:P_ost_proti.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Princes’ Islands were close enough to Constantinople to serve imperial politics, exile, and monastic life. Proti appears in Byzantine political memory through the fate of Romanos IV."
+      ]
+    },
+    {
+      "title": "Medieval historical context",
+      "paragraphs": [
+        "After Manzikert and civil conflict, Romanos IV was deposed and blinded. He died on Proti in 1072, showing the brutal consequences of Byzantine succession politics."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The island’s significance in IronCodex comes from the end of a Byzantine emperor whose defeat at Manzikert became a turning point in Anatolian history."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Proti",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Kinaliada_from_Burgazada.jpg"
+    },
+    {
+      "title": "Proti reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/K%C4%B1nal%C4%B1ada"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Death of Romanos IV Diogenes"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Realm of Romanos IV Diogenes"
+      },
+      {
+        "title": "Cappadocia",
+        "type": "location",
+        "slug": "cappadocia"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert"
+      }
+    ]
+  }
+}

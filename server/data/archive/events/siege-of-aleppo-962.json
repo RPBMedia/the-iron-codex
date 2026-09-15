@@ -1,0 +1,245 @@
+{
+  "id": "siege-of-aleppo-962",
+  "type": "event",
+  "eventType": "Siege",
+  "name": "Sack of Aleppo",
+  "aliases": [
+    "Sack of Aleppo (962)",
+    "Byzantine capture of Aleppo"
+  ],
+  "year": 962,
+  "location": "Aleppo, in northern Syria",
+  "eventLocation": "Aleppo, the capital of the Hamdanid emirate",
+  "conflict": "The Byzantine eastern conquests",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phokas%20captures%20Halep%20962.jpg",
+  "imageInfo": {
+    "caption": "The Byzantine army under Nikephoros Phokas takes Aleppo, in a Madrid Skylitzes miniature.",
+    "creator": "Madrid Skylitzes manuscript",
+    "date": "12th–13th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phokas_captures_Halep_962.jpg",
+    "note": "Painted two to three centuries after the event. The manuscript uses the Greek name Berrhoea for the city, which is what Byzantine writers called Aleppo. Public domain."
+  },
+  "summary": "In December 962 Nikephoros Phokas and John Tzimiskes stormed and sacked Aleppo, the capital of the Hamdanid emir Sayf al-Dawla. The citadel held, but the emirate never recovered.",
+  "details": "A sack rather than a conquest — and the moment the strongest Muslim power on the Syrian frontier stopped being a threat.",
+  "outcome": "Byzantine victory; the city sacked and Sayf al-Dawla driven out, though the citadel was not taken.",
+  "background": "Sayf al-Dawla had raided Byzantine Anatolia for twenty years; by 962 the balance of the frontier had turned decisively against him.",
+  "battle": "The Byzantine army stormed the walls and sacked the city over several days while the garrison held out in the citadel.",
+  "aftermath": "Sayf al-Dawla returned to a ruined capital and never campaigned effectively again; he died in 967.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "In the winter of 962 a Byzantine army under Nikephoros Phokas, with John Tzimiskes commanding under him, crossed into Syria and took Aleppo — the seat of Sayf al-Dawla, the Hamdanid emir who had been the empire's most persistent enemy on the eastern frontier for two decades.",
+        "The city was stormed and sacked. The citadel, on its great mound in the centre, was not taken and held out, so this was not a conquest: the Byzantines left with the plunder rather than a province.",
+        "What it destroyed was not the emirate but its capacity. Sayf al-Dawla came back to a wrecked capital, a scattered army and a lost treasury, and the frontier war that had run since the 940s effectively ended with him on the defensive for the rest of his life."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Sayf al-Dawla had made Aleppo the centre of resistance to Byzantine expansion, raiding into Anatolia year after year in the 940s and early 950s, and the empire had not always got the better of it.",
+        "The turn came in the mid-950s. Nikephoros Phokas and his family took over the eastern commands, the theme armies were reinforced by the new professional regiments, and the raids started to be intercepted rather than absorbed. By 960 Sayf al-Dawla had lost his field army twice.",
+        "The reconquest of Crete in 961 freed the fleet and the treasury for exactly this. Nikephoros sailed back from Chandax, celebrated a triumph, and was in Cilicia the following campaigning season."
+      ]
+    },
+    {
+      "title": "The sack",
+      "paragraphs": [
+        "The army came through the passes in the late autumn of 962, took the Hamdanid palace outside the walls, and then stormed the city itself in December. Sayf al-Dawla escaped with what he could.",
+        "The plunder was enormous even by the standards of a period that measured success in it, and the accounts on both sides dwell on the scale of what was carried off, along with thousands of captives.",
+        "The citadel is the reason this is a sack and not a capture. Aleppo's fortress sits on a steep artificial mound in the middle of the city and could hold out long after the walls were breached, and it did. The Byzantines burned what they could reach and withdrew."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Sayf al-Dawla returned to rule a capital that had been gutted and an emirate whose military reputation had gone with it. He was already ill, and he died in Aleppo in February 967 without recovering the initiative.",
+        "For Nikephoros the campaign confirmed what Crete had established. Within a year of the sack he had been proclaimed emperor by his army, and the eastern offensive became state policy rather than a general's enterprise.",
+        "Aleppo itself became a Byzantine tributary in 969 rather than a Byzantine possession — the empire took Antioch and left the emirate standing as a client, which is a distinction the following century would test."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "This is the campaign that broke the last organised Muslim power on the northern Syrian frontier. Everything the empire took in the next seven years — Cilicia, Cyprus, Antioch — was taken against a region that had lost its principal defender here.",
+        "It also established the partnership that would define the decade and then destroy itself. Nikephoros and John Tzimiskes campaigned together at Aleppo; seven years later Tzimiskes murdered him and took his throne.",
+        "And it is a useful corrective to the idea of the reconquest as a steady advance. The empire could sack the greatest city in northern Syria in 962 and still not hold it, because storming walls and holding territory were different problems."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "944",
+      "title": "Sayf al-Dawla takes Aleppo",
+      "description": "The Hamdanid prince establishes the emirate that becomes the centre of frontier resistance."
+    },
+    {
+      "date": "950s",
+      "title": "The balance turns",
+      "description": "The Phokas family takes over the eastern commands and Sayf al-Dawla begins losing field armies."
+    },
+    {
+      "date": "961",
+      "title": "Crete retaken",
+      "description": "The Cretan victory frees the Byzantine fleet and treasury for the Syrian frontier.",
+      "links": [
+        {
+          "title": "Siege of Chandax",
+          "type": "event",
+          "slug": "siege-of-chandax"
+        }
+      ]
+    },
+    {
+      "date": "December 962",
+      "title": "Aleppo stormed",
+      "description": "Nikephoros Phokas and John Tzimiskes sack the city; the citadel holds and the emir escapes."
+    },
+    {
+      "date": "963",
+      "title": "Nikephoros proclaimed emperor",
+      "description": "Within a year of the sack the army raises its commander to the throne."
+    },
+    {
+      "date": "967",
+      "title": "Death of Sayf al-Dawla",
+      "description": "The emir dies at Aleppo, having never recovered the initiative after the sack."
+    }
+  ],
+  "participants": [
+    {
+      "side": "Byzantine Empire",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Nikephoros II Phokas",
+          "title": "Nikephoros II Phokas",
+          "type": "person",
+          "slug": "nikephoros-ii-phokas"
+        },
+        {
+          "name": "John I Tzimiskes",
+          "title": "John I Tzimiskes",
+          "type": "person",
+          "slug": "john-i-tzimiskes"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a full eastern field army",
+        "confidence": "unknown",
+        "note": "No reliable figure survives. The force was the eastern army reinforced after the Cretan expedition returned, and the sources are more interested in the plunder than in its size."
+      }
+    },
+    {
+      "side": "Hamdanid Emirate of Aleppo",
+      "factions": [
+        {
+          "name": "Hamdanid Emirate of Aleppo",
+          "title": "Hamdanid Emirate of Aleppo",
+          "type": "location",
+          "slug": "hamdanid-emirate-of-aleppo"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sayf al-Dawla",
+          "title": "Sayf al-Dawla",
+          "type": "person",
+          "slug": "sayf-al-dawla"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the emirate's remaining forces and the city garrison",
+        "confidence": "unknown",
+        "note": "Sayf al-Dawla had lost field armies twice in the preceding decade and what he had at Aleppo is not recorded. The citadel garrison held out after the city fell."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue to the city the empire actually kept",
+    "battleSlug": "siege-of-antioch-969",
+    "relationship": "same-war",
+    "reason": "Aleppo was sacked and abandoned because the citadel held; seven years later at Antioch the empire took a greater city outright and kept it, and made Aleppo a tributary rather than a target."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Commanded the campaign"
+      },
+      {
+        "title": "Sayf al-Dawla",
+        "type": "person",
+        "slug": "sayf-al-dawla",
+        "label": "Lost his capital here"
+      },
+      {
+        "title": "John I Tzimiskes",
+        "type": "person",
+        "slug": "john-i-tzimiskes",
+        "label": "Served under Nikephoros in the campaign"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "The victory that freed the resources for this"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "Where the empire took and kept a Syrian city"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "Whose capital this was"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Whose eastern offensive begins in earnest here"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Leo the Deacon, History",
+      "url": "https://en.wikipedia.org/wiki/Leo_the_Deacon",
+      "type": "primary source"
+    },
+    {
+      "title": "Yahya of Antioch, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Yahya_of_Antioch",
+      "type": "primary source"
+    },
+    {
+      "title": "Sack of Aleppo (962)",
+      "url": "https://en.wikipedia.org/wiki/Sack_of_Aleppo_(962)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Biblioteca Nacional de España — Madrid Skylitzes",
+      "url": "https://www.bne.es/en",
+      "type": "museum collection",
+      "institution": "Biblioteca Nacional de España"
+    }
+  ]
+}

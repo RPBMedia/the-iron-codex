@@ -1,0 +1,237 @@
+{
+  "id": "william-wallace",
+  "type": "character",
+  "name": "William Wallace",
+  "born": 1270,
+  "died": 1305,
+  "deathAge": "about 35",
+  "causeOfDeath": "Execution by hanging, drawing, and quartering",
+  "restingPlace": "No known grave; body divided after execution",
+  "location": "Scotland",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Wallace.jpg",
+  "summary": "Scottish knight and resistance leader during the First War of Scottish Independence.",
+  "overview": [
+    "William Wallace was a Scottish military leader and Guardian of Scotland during the Wars of Scottish Independence. He became famous for resistance to English rule, especially after victory at Stirling Bridge, and later for his execution in London.",
+    "Born around 1270, traditionally at Elderslie though the evidence is disputed, Wallace emerged from a poorly documented background into a major rebellion. He was executed in 1305, but his memory became central to Scottish national tradition, medieval chronicle, and later romantic legend."
+  ],
+  "greatestFeats": [
+    "Won the Battle of Stirling Bridge in 1297",
+    "Served as Guardian of Scotland",
+    "Led resistance during the First War of Scottish Independence",
+    "Became an enduring symbol of Scottish independence"
+  ],
+  "title": "Guardian of Scotland",
+  "roles": [
+    "Guardian of Scotland",
+    "Military leader"
+  ],
+  "birth": {
+    "date": "c. 1270",
+    "place": {
+      "name": "Elderslie",
+      "slug": "elderslie"
+    },
+    "note": "Traditional and disputed; Wallace's early life is poorly documented."
+  },
+  "death": {
+    "date": "1305",
+    "place": {
+      "name": "London",
+      "slug": "london"
+    },
+    "circumstance": "Executed in London in 1305 after capture, trial for treason, and public punishment by hanging, drawing, and quartering."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Scotland",
+    "culture": "Scottish",
+    "knownFor": "Resistance during the First War of Scottish Independence"
+  },
+  "imageInfo": {
+    "caption": "Later depiction of William Wallace.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_Wallace.jpg",
+    "note": "A later image; no secure contemporary portrait survives."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "William Wallace was a Scottish military leader and Guardian of Scotland during the Wars of Scottish Independence. He became famous for resistance to English rule, especially after victory at Stirling Bridge, and later for his execution in London.",
+        "Born around 1270, traditionally at Elderslie though the evidence is disputed, Wallace emerged from a poorly documented background into a major rebellion. He was executed in 1305, but his memory became central to Scottish national tradition, medieval chronicle, and later romantic legend."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Wallace was probably born around 1270, with Elderslie often named as his traditional birthplace. His family background and early years are uncertain, and later stories should be treated carefully.",
+        "He came of age during a succession crisis in Scotland and the expansion of English influence under Edward I. That political crisis created the conditions in which local resistance could become a national war."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "William Wallace's personality is hard to separate from the patriotic legend that grew around him, much of it shaped long after his death by the chronicle of Blind Harry in the fifteenth century. What the more contemporary record supports is a man of fierce resolve and uncompromising defiance: a figure of relatively modest birth who rose through sheer force of will and military boldness to lead resistance after the killing of an English sheriff, and who won a stunning victory at Stirling Bridge.",
+        "English sources, hostile by nature, painted him as a brigand and a savage, while later Scottish memory made him the embodiment of national freedom. Both are propaganda of a kind. The defiance, however, is securely attested by his actions and by his refusal to submit even when his cause collapsed after Falkirk and he was hunted, captured, and subjected to a brutal execution as a traitor — a status he rejected on the grounds that he had never sworn loyalty to the English king.",
+        "That final defiance, recorded even by his enemies, is the firmest evidence of his character: a man who would not bend, who chose resistance over accommodation, and whose intransigence made him a martyr and then a legend. The vivid personal detail belongs largely to later tradition; the unbreakable will belongs to the record."
+      ]
+    },
+    {
+      "title": "As Guardian of Scotland",
+      "paragraphs": [
+        "Wallace rose to prominence in 1297 when Scottish forces defeated an English army at Stirling Bridge. He was then associated with the guardianship of Scotland and campaigns against English power.",
+        "His defeat at Falkirk in 1298 reduced his formal authority, but he continued to represent resistance. His career was military and symbolic rather than a long exercise in government."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Executed in London in 1305 after capture, trial for treason, and public punishment by hanging, drawing, and quartering."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Wallace is remembered as a symbol of Scottish resistance. Medieval and later accounts turned him into a patriotic hero, and modern culture has further romanticized his life.",
+        "The historical Wallace is less fully documented than the legendary one, but his role in resistance to English rule and his execution made him one of the most enduring figures in Scottish memory."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Won the Battle of Stirling Bridge in 1297",
+      "description": ""
+    },
+    {
+      "title": "Served as Guardian of Scotland",
+      "description": ""
+    },
+    {
+      "title": "Led resistance during the First War of Scottish Independence",
+      "description": ""
+    },
+    {
+      "title": "Became an enduring symbol of Scottish independence",
+      "description": ""
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1270",
+      "title": "Born",
+      "description": "Traditional and disputed birthplace at Elderslie.",
+      "links": [
+        {
+          "title": "Elderslie",
+          "type": "location",
+          "slug": "elderslie"
+        }
+      ]
+    },
+    {
+      "date": "1297",
+      "title": "Kills William Heselrig",
+      "description": "Later tradition links Wallace's revolt to the killing of the sheriff of Lanark."
+    },
+    {
+      "date": "1297",
+      "title": "Wins at Stirling Bridge",
+      "description": "Wallace and Andrew Moray defeat an English army."
+    },
+    {
+      "date": "1298",
+      "title": "Defeated at Falkirk",
+      "description": "Edward I defeats Wallace's forces."
+    },
+    {
+      "date": "1298",
+      "title": "Resigns guardianship",
+      "description": "Steps down after Falkirk."
+    },
+    {
+      "date": "1305",
+      "title": "Captured near Glasgow",
+      "description": "Taken by forces loyal to the English crown."
+    },
+    {
+      "date": "1305",
+      "title": "Died",
+      "description": "Executed in London."
+    }
+  ],
+  "aliases": [],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Elderslie",
+        "type": "location",
+        "slug": "elderslie",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Realm"
+      },
+      {
+        "title": "London",
+        "type": "location",
+        "slug": "london",
+        "label": "Place of death"
+      },
+      {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "Tried here in 1305"
+      }
+    ],
+    "people": [
+      {
+        "title": "John Comyn",
+        "type": "person",
+        "slug": "john-comyn",
+        "label": "Ruler of Kingdom of Scotland"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      },
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "His great victory, 1297"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "William Wallace's Sword",
+        "type": "weaponArmor",
+        "slug": "wallace-sword",
+        "label": "The sword kept and displayed as his"
+      }
+    ]
+  },
+  "sectionImages": [
+    {
+      "section": "Legacy",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Wallace_monument.jpg",
+      "alt": "The National Wallace Monument at Stirling, overlooking the site of his victory at Stirling Bridge.",
+      "caption": "The National Wallace Monument at Stirling, overlooking the site of his victory at Stirling Bridge.",
+      "creator": "Photograph by Eusebius",
+      "date": "Monument 1861–1869",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wallace_monument.jpg",
+      "note": "A Victorian national monument — evidence of Wallace’s later transformation into Scotland’s national hero, not of the historical man."
+    }
+  ]
+}

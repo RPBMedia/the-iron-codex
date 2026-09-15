@@ -1,0 +1,99 @@
+{
+  "id": "grunwald",
+  "type": "location",
+  "name": "Grunwald",
+  "locationType": "Battlefield",
+  "kingdom": "Kingdom of Poland / Grand Duchy of Lithuania",
+  "year": "1410",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg",
+  "summary": "A battlefield where Polish-Lithuanian forces defeated the Teutonic Order in 1410.",
+  "overview": [
+    "A battlefield where Polish-Lithuanian forces defeated the Teutonic Order in 1410."
+  ],
+  "knownFor": [
+    "Grunwald in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Grunwald.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A battlefield where Polish-Lithuanian forces defeated the Teutonic Order in 1410.",
+        "Grunwald matters historically through Grunwald in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
+    },
+    {
+      "title": "Wikipedia: Grunwald",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Grunwald"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "Battle fought here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Ulrich von Jungingen",
+        "type": "person",
+        "slug": "ulrich-von-jungingen",
+        "label": "Death of Ulrich von Jungingen"
+      },
+      {
+        "title": "Wladyslaw II Jagiello",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Fought here"
+      },
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Combatant here"
+      },
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Combatant here"
+      }
+    ]
+  }
+}

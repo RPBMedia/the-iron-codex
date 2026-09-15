@@ -1,0 +1,159 @@
+{
+  "id": "wolter-von-plettenberg",
+  "type": "character",
+  "name": "Wolter von Plettenberg",
+  "aliases": [
+    "Walter von Plettenberg",
+    "Wolther von Plettenberg"
+  ],
+  "born": 1450,
+  "died": 1535,
+  "deathAge": "about 85",
+  "causeOfDeath": "Plettenberg died in 1535 in extreme old age, still master of the Livonian Order.",
+  "restingPlace": "Wenden (Cēsis), Livonia",
+  "location": "Livonia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolter_von_Plettenberg_(1450-1535).jpg",
+  "title": "Master of the Livonian Order",
+  "roles": [
+    "Master (Landmeister) of the Livonian Order"
+  ],
+  "birth": {
+    "date": "c. 1450",
+    "place": null
+  },
+  "death": {
+    "date": "28 February 1535",
+    "place": null,
+    "circumstance": "Died in old age at the head of the Livonian Order."
+  },
+  "quickFacts": {
+    "realm": "Livonia (Terra Mariana)",
+    "dynasty": "Livonian Order",
+    "culture": "Baltic German (Teutonic)",
+    "knownFor": "The greatest master of the Livonian Order"
+  },
+  "imageInfo": {
+    "caption": "Wolter von Plettenberg (c. 1450–1535), master of the Livonian Order.",
+    "creator": "Unknown",
+    "date": "later portrait",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolter_von_Plettenberg_(1450-1535).jpg",
+    "note": "A later portrait of the master; no contemporary likeness survives."
+  },
+  "overview": [
+    "Wolter von Plettenberg was the greatest master of the Livonian Order, who beat back the rising power of Muscovy and won his Baltic state a long peace.",
+    "He held Livonia together through the Reformation, tolerating Lutheranism while keeping the order and its lands intact."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Wolter von Plettenberg was master of the Livonian Order from 1494 to 1535 and its greatest leader — soldier, statesman, and effective sovereign of the crusader lands of Livonia during their last age of strength."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born about 1450 into a Westphalian noble family, Plettenberg entered the Teutonic Order’s Livonian branch as a young man and rose through its offices during a period of mounting pressure from the Orthodox east."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Plettenberg was a cautious, far-sighted statesman-soldier rather than a reckless crusader. His instincts were defensive: he fought Muscovy hard when he had to, but his lasting aim was to secure Livonia’s independence and buy it time, not to seek glory in endless war.",
+        "He was politically deft, holding a fragile balance between the order, the archbishop of Riga, the towns, and the great powers pressing on Livonia — Muscovy, Poland-Lithuania, and Sweden. Contemporaries respected him as steady, shrewd, and personally austere.",
+        "His religious moderation defined his last decades. When the Reformation reached Livonia he allowed Lutheranism to spread and issued guarantees of religious peace, yet — unlike the Prussian branch under Albert of Brandenburg — he refused to secularise the order and turn it into a private duchy, keeping the old institution alive for another generation."
+      ]
+    },
+    {
+      "title": "Master of the Livonian Order",
+      "paragraphs": [
+        "Elected master in 1494, Plettenberg confronted the expansion of Muscovy under Ivan III. In a hard-fought campaign he defeated a far larger Russian army at Smolino in 1502, checking Moscow’s advance and securing a truce that gave Livonia decades of relative peace.",
+        "For the rest of his long rule he governed Livonia as its effective prince, strengthening its castles and finances and steering it through the religious upheaval of the 1520s without letting the order’s state collapse."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Plettenberg died in 1535 in extreme old age, still master of the order. The peace he had won outlived him by only a generation before the Livonian War destroyed the order in 1561."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Plettenberg is remembered as the last great master of the Livonian Order and, in Baltic-German memory, as the founder of Livonia’s golden autumn. His victory at Smolino and the long peace that followed marked the high point of the order’s independence.",
+        "That he kept the order intact rather than secularising it meant that medieval Livonia survived, in its old form, decades longer than the Teutonic state in Prussia."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1450",
+      "title": "Born in Westphalia",
+      "description": "Into a noble family that supplied the Teutonic Order with knights."
+    },
+    {
+      "date": "1494",
+      "title": "Elected master",
+      "description": "Becomes master of the Livonian Order as Muscovy’s power rises in the east."
+    },
+    {
+      "date": "1501",
+      "title": "War with Muscovy",
+      "description": "Plettenberg campaigns against Ivan III’s expanding grand duchy."
+    },
+    {
+      "date": "1502",
+      "title": "Victory at Smolino",
+      "description": "Defeats a much larger Russian army and wins a long truce for Livonia."
+    },
+    {
+      "date": "1525",
+      "title": "Religious peace",
+      "description": "Tolerates the spreading Reformation but refuses to secularise the order."
+    },
+    {
+      "date": "1535",
+      "title": "Death in office",
+      "description": "Dies in extreme old age, still master of the order."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod"
+      },
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Northern Crusades",
+      "author": "Eric Christiansen",
+      "type": "book"
+    },
+    {
+      "title": "The Livonian Crusade",
+      "author": "William Urban",
+      "type": "book"
+    }
+  ]
+}

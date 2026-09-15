@@ -1,0 +1,180 @@
+{
+  "id": "battle-of-sao-mamede",
+  "type": "event",
+  "name": "Battle of São Mamede",
+  "year": 1128,
+  "location": "São Mamede field, by Guimarães",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castelo_de_Guimaraes.jpg",
+  "imageInfo": {
+    "caption": "Guimarães Castle seen from the São Mamede field, where the battle was fought in 1128.",
+    "creator": "Modern photograph",
+    "date": "modern",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castelo_de_Guimaraes.jpg",
+    "note": "No medieval depiction of the battle survives; the battlefield and the castle it was fought beneath stand for it."
+  },
+  "summary": "At São Mamede, outside Guimarães, the young Afonso Henriques and the Portuguese barons defeated his mother Teresa and her Galician allies — the founding battle of Portuguese autonomy.",
+  "details": "Fought on 24 June 1128 on the field of São Mamede below Guimarães castle, the battle settled who would rule the County of Portugal: the countess-queen Teresa with her Traba partners, or her son Afonso Henriques at the head of the Portuguese baronage. The son's victory expelled the Galician connection and began the eleven-year march from county to kingdom.",
+  "eventType": "Battle",
+  "conflict": "Portuguese struggle for autonomy from León",
+  "factions": [
+    "Portuguese barons of Afonso Henriques",
+    "Teresa of León and the house of Traba"
+  ],
+  "leaders": [
+    {
+      "name": "Afonso Henriques",
+      "faction": "Portuguese barons",
+      "personId": "afonso-i-of-portugal"
+    },
+    {
+      "name": "Teresa of León",
+      "faction": "Comital court",
+      "personId": "teresa-of-leon"
+    },
+    {
+      "name": "Fernando Pérez de Traba",
+      "faction": "Comital court"
+    }
+  ],
+  "outcome": "Victory for Afonso Henriques; Teresa and the Traba party were driven from Portugal.",
+  "participants": [
+    {
+      "side": "Portuguese barons",
+      "strength": {
+        "display": "unknown — a baronial host of the county",
+        "confidence": "unknown",
+        "note": "No source records numbers; both forces were regional noble retinues and their followings."
+      },
+      "factions": [
+        {
+          "name": "County of Portugal",
+          "title": "Kingdom of Portugal",
+          "type": "location",
+          "slug": "kingdom-of-portugal"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Afonso Henriques",
+          "type": "person",
+          "slug": "afonso-i-of-portugal"
+        }
+      ]
+    },
+    {
+      "side": "Comital court and Galician allies",
+      "strength": {
+        "display": "unknown — comital retinues with Galician support",
+        "confidence": "unknown",
+        "note": "No source records numbers for Teresa's and the Traba forces."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of León",
+          "title": "Kingdom of León",
+          "type": "location",
+          "slug": "kingdom-of-leon"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Teresa of León",
+          "type": "person",
+          "slug": "teresa-of-leon"
+        },
+        {
+          "name": "Fernando Pérez de Traba",
+          "type": "person",
+          "note": "No article yet: the Galician count who was Teresa of León's partner and the effective ruler she governed with, against whom the Portuguese barons rebelled."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of São Mamede, fought on 24 June 1128 on the field below Guimarães castle, is conventionally the founding act of Portugal: the moment the county's native baronage, behind the nineteen-year-old Afonso Henriques, took its government away from his mother Teresa and her Galician allies of the house of Traba.",
+        "It was a small battle with a continental consequence. Nothing in 1128 said the winner would wear a crown; but the party that won was precisely the party defined by Portuguese autonomy — against Galician magnates, against Leonese overlordship, against the county's absorption into anyone else's politics — and its leader spent the next forty years turning that programme into a kingdom."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Teresa's regency had drifted, in her son's partisans' eyes, into a Galician captivity: Fernando Pérez de Traba held the county's great strongholds, Galician clients held its honores, and the county's future seemed mortgaged to a trans-Minho aristocratic bloc. The young Afonso — knighted by his own hand at Zamora in 1125, in the emperor's old fashion — became the standard around which the barons of Entre-Douro-e-Minho and the see of Braga gathered.",
+        "The breach turned military in 1127–1128. Alfonso VII of León-Castile, Teresa's nephew, besieged Guimarães itself to enforce his overlordship — tradition has the young Afonso's tutor Egas Moniz pledging homage to raise the siege — and when the Leonese pressure lifted, the internal question remained: mother's party or son's. The armies met at midsummer on São Mamede field."
+      ]
+    },
+    {
+      "title": "The battle and its aftermath",
+      "paragraphs": [
+        "No detailed contemporary account of the fighting survives; the chronicles record the essential result. Afonso's barons broke the comital army, Teresa and Fernando Pérez fled north of the Minho, and by tradition the countess was briefly held before her expulsion. Guimarães, the cradle-fortress of the county, passed definitively to the son.",
+        "Afonso dated his rule from the victory, governing as infans and duke of the Portuguese. The programme São Mamede had crowned unfolded across the next two decades: victory over the Muslims at Ourique in 1139 and the royal title with it, the treaty of Zamora with León in 1143, and the conquest of Lisbon in 1147. The field below Guimarães kept its place in Portuguese memory as the spot where, as the town's later motto has it, Portugal was born."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Castelo_de_Guimaraes.jpg"
+    },
+    {
+      "title": "Battle of São Mamede — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Mamede"
+    },
+    {
+      "title": "Chronica Gothorum / Annales D. Alfonsi Portugallensium regis",
+      "author": "Portuguese annalistic tradition",
+      "type": "primary source",
+      "note": "The thin but near-contemporary Portuguese record of the founding decades."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "The victorious son"
+      },
+      {
+        "title": "Teresa of León",
+        "type": "person",
+        "slug": "teresa-of-leon",
+        "label": "The defeated countess-queen"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The polity the battle founded"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ourique",
+        "type": "event",
+        "slug": "battle-of-ourique",
+        "label": "The next step to the crown"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Follow the making of Portugal",
+    "battleSlug": "battle-of-ourique",
+    "relationship": "same-campaign",
+    "reason": "São Mamede gave Afonso Henriques the county; eleven years later his victory over the Almoravids at Ourique gave him the pretext and prestige to call himself king."
+  }
+}

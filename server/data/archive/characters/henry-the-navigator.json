@@ -1,0 +1,172 @@
+{
+  "id": "henry-the-navigator",
+  "type": "character",
+  "name": "Henry the Navigator",
+  "aliases": [
+    "Prince Henry the Navigator",
+    "Infante Dom Henrique",
+    "Henry of Portugal",
+    "Dom Henrique"
+  ],
+  "born": 1394,
+  "died": 1460,
+  "deathAge": "66",
+  "causeOfDeath": "Henry died at Sagres in 1460, having spent his last decades directing Portuguese voyages down the African coast.",
+  "restingPlace": "Monastery of Batalha, Portugal",
+  "location": "Kingdom of Portugal",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_the_Navigator_(Cronicas).jpg",
+  "title": "Prince of Portugal and patron of the discoveries",
+  "roles": [
+    "Prince of Portugal",
+    "Governor of the Order of Christ",
+    "patron of Atlantic exploration"
+  ],
+  "birth": {
+    "date": "4 March 1394",
+    "place": null
+  },
+  "death": {
+    "date": "13 November 1460",
+    "place": null,
+    "circumstance": "Died at Sagres, in the Algarve, after four decades sponsoring exploration."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Portugal",
+    "dynasty": "House of Aviz",
+    "culture": "Portuguese",
+    "knownFor": "Sponsored the early Portuguese voyages of discovery"
+  },
+  "imageInfo": {
+    "caption": "Prince Henry the Navigator in a Portuguese chronicle depiction.",
+    "creator": "Unknown",
+    "date": "medieval / early-modern depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_the_Navigator_(Cronicas).jpg",
+    "note": "A traditional depiction; the best-known likeness is the St Vincent Panels, not a contemporary portrait."
+  },
+  "overview": [
+    "Henry the Navigator was a prince of the House of Aviz and, as governor of the Order of Christ, the great patron of the first Portuguese voyages of discovery down the Atlantic coast of Africa.",
+    "He funded exploration from the wealth of the order that had inherited the Templars in Portugal, tying the age of discovery to the crusading tradition."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Henry the Navigator was a Portuguese prince who, from the revenues of the Order of Christ, sponsored the systematic exploration of the Atlantic islands and the west coast of Africa — the opening of the European age of discovery."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born at Porto in 1394, Henry was the third surviving son of King John I of Portugal, founder of the House of Aviz, and Philippa of Lancaster. He first won fame in 1415 at the capture of Ceuta in North Africa, a crusading enterprise that turned his attention to the lands beyond."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Henry was an austere, intensely pious, and single-minded man, closer in temperament to a crusading monk than to a Renaissance prince. He never married, wore a hair shirt in later life according to his chroniclers, and folded his maritime ambitions into the religious mission of the Order of Christ, whose cross flew on the sails of his ships.",
+        "He was also patient, methodical, and stubborn: for years his captains failed to round the feared Cape Bojador before one finally passed it in 1434, and Henry kept sending them until the barrier of fear was broken. That persistence, more than any technical genius, is his real achievement.",
+        "The romantic image of Henry presiding over a great \"school of navigation\" at Sagres, teaching cartography and astronomy, is largely a later invention. The historical Henry was a driven, devout organiser and financier of exploration — a crusader who turned the ocean into his frontier — rather than a scientist or a sailor; he rarely went to sea himself."
+      ]
+    },
+    {
+      "title": "Governor of the Order of Christ",
+      "paragraphs": [
+        "In 1420 Henry became governor of the Order of Christ, the Portuguese successor to the Knights Templar. He directed its considerable wealth to fitting out expeditions, and the order’s red cross became the emblem of Portuguese expansion.",
+        "Under his patronage Portuguese captains colonised Madeira and the Azores and pushed down the African coast past Cape Bojador, opening the sea route that would eventually lead, after his death, to India and Brazil."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Henry died at Sagres in the Algarve in 1460, his voyages having reached the coast of Sierra Leone. He was buried in the monastery of Batalha among the kings of his house."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Henry did not sail the ocean he opened, but the machinery of exploration he built — the money of the Order of Christ, the accumulated charts and experience of his captains — carried Portugal to the front rank of the discoveries within a generation of his death.",
+        "He remains the figure who bound the crusading orders to the age of discovery, and the cross of the order he governed sailed on Portuguese ships across three oceans."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1394",
+      "title": "Born at Porto",
+      "description": "Third surviving son of King John I of Portugal and Philippa of Lancaster."
+    },
+    {
+      "date": "1415",
+      "title": "Capture of Ceuta",
+      "description": "Henry wins his spurs at the seizure of the North African port, turning his ambitions overseas."
+    },
+    {
+      "date": "1420",
+      "title": "Governor of the Order of Christ",
+      "description": "Henry takes charge of the Templars’ Portuguese heir and its wealth."
+    },
+    {
+      "date": "1434",
+      "title": "Cape Bojador rounded",
+      "description": "His captain Gil Eanes finally passes the feared cape after years of failed attempts."
+    },
+    {
+      "date": "1444",
+      "title": "Down the African coast",
+      "description": "Henry’s ships reach the Senegal and the Cape Verde region, opening the West African trade."
+    },
+    {
+      "date": "1460",
+      "title": "Death at Sagres",
+      "description": "Henry dies in the Algarve; his voyages have reached Sierra Leone."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal"
+      },
+      {
+        "title": "Philippa of Lancaster",
+        "type": "person",
+        "slug": "philippa-of-lancaster",
+        "label": "Mother"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of Christ",
+        "type": "order",
+        "slug": "order-of-christ"
+      },
+      {
+        "title": "Order of Aviz",
+        "type": "order",
+        "slug": "order-of-aviz"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Prince Henry “the Navigator”: A Life",
+      "author": "Peter Russell",
+      "type": "book"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Henry the Navigator",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Henry-the-Navigator"
+    }
+  ]
+}

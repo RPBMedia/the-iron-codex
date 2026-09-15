@@ -1,0 +1,108 @@
+{
+  "id": "royal-frankish-annals",
+  "type": "artifact",
+  "name": "Royal Frankish Annals",
+  "year": 741,
+  "location": "Frankish Kingdom",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Annales_regni_Francorum%2C_entry_for_814.jpg",
+  "summary": "A set of Frankish annals that record major events of the Carolingian period.",
+  "details": "The Royal Frankish Annals are an important narrative source for Carolingian politics, warfare, and royal ideology, though they present events from a court-centered perspective.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A set of Frankish annals that record major events of the Carolingian period.",
+        "The Royal Frankish Annals are an important narrative source for Carolingian politics, warfare, and royal ideology, though they present events from a court-centered perspective."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "Royal Frankish Annals is a material or textual object whose physical survival helps historians read medieval politics, belief, art, or memory."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The archive date of 741 is an orientation point. Exact dating, patronage, or production context may be debated depending on the object."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "Royal Frankish Annals belongs to the world of Frankish Kingdom, where objects, texts, relics, and images could carry authority across generations."
+      ]
+    },
+    {
+      "title": "Use or meaning",
+      "paragraphs": [
+        "The Royal Frankish Annals were a political record of Carolingian rule, presenting campaigns, assemblies, royal decisions, and church affairs from a court-centered perspective. They are invaluable evidence, but they also reflect the priorities and silences of the Carolingian regime."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Royal Frankish Annals remains a useful witness because it gives material form to medieval culture rather than reducing history to rulers and battles."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Manuscript entry in the Royal Frankish Annals tradition for the year 814.",
+    "creator": "Carolingian annalistic manuscript tradition",
+    "date": "medieval manuscript copy",
+    "source": "Wikimedia Commons",
+    "note": "A manuscript witness to the annalistic tradition rather than an authorial autograph."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Annales_regni_Francorum%2C_entry_for_814.jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Annals of the Franks",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/source/annalesregnifrancorum.asp"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne",
+        "label": "Chief subject of the annals"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "Records the Carolingian realm"
+      },
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "The realm the annals chronicle"
+      }
+    ],
+    "events": [
+      {
+        "title": "Charlemagne Crowned Emperor",
+        "type": "event",
+        "slug": "charlemagne-crowned",
+        "label": "Documents the imperial coronation of 800"
+      }
+    ]
+  }
+}

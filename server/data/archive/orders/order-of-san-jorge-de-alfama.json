@@ -1,0 +1,157 @@
+{
+  "id": "order-of-san-jorge-de-alfama",
+  "type": "order",
+  "name": "Order of San Jorge de Alfama",
+  "aliases": [
+    "The Order of San Jorge de Alfama",
+    "Order of Saint George of Alfama",
+    "Order of Sant Jordi d’Alfama",
+    "Orde de Sant Jordi d’Alfama",
+    "Knights of St George of Alfama"
+  ],
+  "originYear": 1201,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Torre_de_Sant_Jordi_d%27Alfama.jpg",
+  "imageInfo": {
+    "caption": "The tower of Sant Jordi d’Alfama on the Catalan coast, the order’s remote seat.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torre_de_Sant_Jordi_d'Alfama.jpg",
+    "note": "A lonely coastal fortress between the Ebro delta and Tarragona."
+  },
+  "sigilImage": "https://upload.wikimedia.org/wikipedia/commons/b/bc/St_George%27s_Cross.svg",
+  "sigilImageInfo": {
+    "caption": "The red cross of St George, the order’s emblem.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_George's_Cross.svg",
+    "note": "The order carried this cross into the Order of Montesa when the two merged."
+  },
+  "summary": "The Order of San Jorge de Alfama was a small Catalan-Aragonese order founded in 1201 to guard a stretch of desolate coast against Muslim raiders and pirates. Chronically poor, it was united with the Order of Montesa in 1400, carrying the red cross of St George into that larger order.",
+  "founded": "1201, Crown of Aragon",
+  "recognized": "Founded by King Peter II of Aragon",
+  "dissolved": "1400 (united with the Order of Montesa)",
+  "allegiance": "The crown of Aragon",
+  "headquarters": "Sant Jordi d’Alfama, on the Catalan coast",
+  "habit": "White mantle with the red cross of St George",
+  "patron": "St George",
+  "purpose": "The order was founded to hold and defend a bleak, exposed stretch of the Catalan coast — a refuge and watch against the Muslim raiders and corsairs who preyed on Aragonese shipping and shore.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "1201, by Peter II of Aragon"
+    },
+    {
+      "label": "Emblem",
+      "value": "The red cross of St George"
+    },
+    {
+      "label": "Seat",
+      "value": "The lonely coast of Alfama"
+    },
+    {
+      "label": "End",
+      "value": "United with Montesa, 1400"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Order of San Jorge de Alfama was among the smallest of the Iberian military orders — a Catalan brotherhood founded to garrison one hard, exposed piece of coast under the banner of St George. It never grew large or rich, and its story is one of poverty and endurance rather than conquest.",
+        "Its lasting importance is heraldic and institutional: when it merged with the Order of Montesa in 1400, it carried the red cross of St George into that order, where the saint’s cross has been associated with Valencia and Catalonia ever since."
+      ]
+    },
+    {
+      "title": "A watch on the coast",
+      "paragraphs": [
+        "In 1201 King Peter II of Aragon granted the desolate site of Alfama, between the Ebro delta and Tarragona, to a small brotherhood of knights under the patronage of St George. Their task was to hold the coast against the Muslim raiders and pirates who threatened Aragonese shipping.",
+        "The place was so barren and dangerous that the order struggled to survive there at all. It never attracted the endowments of the great orders, and its brothers lived close to the edge of viability."
+      ]
+    },
+    {
+      "title": "Union with Montesa",
+      "paragraphs": [
+        "By the end of the 14th century the order was too weak to continue alone. In 1400, by a bull of the Avignon pope Benedict XIII, it was united with the Order of Montesa, the Aragonese heir of the Templars.",
+        "Montesa took on Alfama’s red cross of St George — in time combining it with its own — so that the little coastal order lived on inside the larger one. The cross of St George remained the badge of the Aragonese military establishment."
+      ]
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Sant Jordi d’Alfama",
+      "period": "1201–1400",
+      "note": "The order’s remote coastal tower and convent."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1201",
+      "title": "Foundation",
+      "description": "Peter II of Aragon grants Alfama to a brotherhood under St George."
+    },
+    {
+      "date": "13th–14th c.",
+      "title": "Coastal defence",
+      "description": "The small order guards the shore against raiders, always short of means."
+    },
+    {
+      "date": "1400",
+      "title": "Union with Montesa",
+      "description": "Benedict XIII unites the order with Montesa, which adopts its cross of St George."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "The order gave Catalonia its cross of St George.",
+      "reality": "The cult of St George was already widespread; the order carried his cross into Montesa, but the saint’s association with the Crown of Aragon was much broader than one small order."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Military Orders in Medieval Iberia",
+      "author": "A. J. Forey and others",
+      "year": ""
+    },
+    {
+      "title": "La orden de San Jorge de Alfama",
+      "author": "Regina Sáinz de la Maza",
+      "year": "1990"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand II of Aragon",
+        "type": "person",
+        "slug": "ferdinand-ii-of-aragon",
+        "label": "Later king of the crown the order served"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "The crown the order defended"
+      },
+      {
+        "title": "Al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim power whose raiders it watched for"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of Montesa",
+        "type": "order",
+        "slug": "order-of-montesa",
+        "label": "The order it merged into in 1400"
+      },
+      {
+        "title": "Knights Hospitaller",
+        "type": "order",
+        "slug": "knights-hospitaller",
+        "label": "A great order active in the Crown of Aragon"
+      }
+    ]
+  }
+}

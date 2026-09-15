@@ -1,0 +1,376 @@
+{
+  "id": "house-of-burgundy-portugal",
+  "type": "house",
+  "name": "House of Burgundy (Afonsine)",
+  "aliases": [
+    "House of Burgundy (Portuguese branch)",
+    "Afonsine dynasty",
+    "Portuguese House of Burgundy",
+    "Afonsine",
+    "House of Burgundy-Portugal"
+  ],
+  "originYear": 1139,
+  "endYear": 1383,
+  "reignSpan": "1139–1383",
+  "region": "Kingdom of Portugal",
+  "originPlace": "County of Portugal",
+  "arms": "A white shield bearing five blue escutcheons set in a cross, each charged with silver roundels (the Portuguese “quinas”) — the arms of Portugal.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1tua%20de%20Dom%20Afonso%20Henriques%20junto%20ao%20Est%C3%A1dio%20Afonso%20Henriques%201.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Statue of Afonso I (Afonso Henriques), founder of Portugal, at Guimarães, the dynasty’s cradle.",
+    "creator": "Modern monument at Guimarães",
+    "date": "Modern statue; Afonso I r. 1139–1185",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Est%C3%A1tua_de_Dom_Afonso_Henriques_junto_ao_Est%C3%A1dio_Afonso_Henriques_1.jpg",
+    "note": "A modern statue commemorating the first king of Portugal in the town where the dynasty and the kingdom began."
+  },
+  "summary": "The founding royal dynasty of Portugal, which won independence under Afonso I and ruled until the succession crisis of 1383–85.",
+  "overview": "The Portuguese House of Burgundy — the Afonsine dynasty — began with Henry, a Burgundian noble granted the County of Portugal, and became a royal house when his son Afonso I made Portugal an independent kingdom. Over nine reigns it drove the Reconquista to the Algarve, built the kingdom’s laws and towns, and produced King Dinis, before the male line ended in 1383.",
+  "founder": {
+    "personSlug": "afonso-i-of-portugal",
+    "displayName": "Afonso I (Afonso Henriques)",
+    "note": "First king of an independent Portugal, 1139"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Portugal",
+      "type": "location",
+      "slug": "kingdom-of-portugal"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "henry-count-of-portugal",
+      "displayName": "Henry, Count of Portugal",
+      "note": "Burgundian progenitor of the line"
+    },
+    {
+      "personSlug": "afonso-i-of-portugal",
+      "displayName": "Afonso I",
+      "note": "Won independence; first king of Portugal"
+    },
+    {
+      "personSlug": "sancho-i-of-portugal",
+      "displayName": "Sancho I the Settler",
+      "note": "Populated and fortified the young kingdom"
+    },
+    {
+      "personSlug": "afonso-ii-of-portugal",
+      "displayName": "Afonso II",
+      "note": "Issued Portugal’s first written laws"
+    },
+    {
+      "personSlug": "sancho-ii-of-portugal",
+      "displayName": "Sancho II",
+      "note": "Deposed after conflict with the Church and nobles"
+    },
+    {
+      "personSlug": "afonso-iii-of-portugal",
+      "displayName": "Afonso III",
+      "note": "Completed the Reconquista by taking the Algarve"
+    },
+    {
+      "personSlug": "denis-of-portugal",
+      "displayName": "Dinis I",
+      "note": "The \"Farmer King\"; founded the university and championed Portuguese"
+    },
+    {
+      "personSlug": "afonso-iv-of-portugal",
+      "displayName": "Afonso IV",
+      "note": "Fought at the Salado; father in the Inês de Castro tragedy"
+    },
+    {
+      "personSlug": "peter-i-of-portugal",
+      "displayName": "Pedro I the Just",
+      "note": "Whose love for Inês de Castro became legend"
+    },
+    {
+      "personSlug": "ferdinand-i-of-portugal",
+      "displayName": "Ferdinand I",
+      "note": "Last king of the line; his death opened the 1383–85 crisis"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Aviz",
+      "note": "Founded by John I, illegitimate son of Pedro I, who took the throne after the 1383–85 crisis."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Afonsine kings from Henry of Burgundy and Teresa of León through the winning of independence to Ferdinand I, after whom the crown passed to the House of Aviz. ⚭ marks a marriage.",
+    "root": {
+      "name": "Henry, Count of Portugal",
+      "personSlug": "henry-count-of-portugal",
+      "note": "d. 1112",
+      "spouse": {
+        "name": "Teresa of León",
+        "personSlug": "teresa-of-leon"
+      },
+      "children": [
+        {
+          "name": "Afonso I",
+          "personSlug": "afonso-i-of-portugal",
+          "note": "r. 1139–1185",
+          "children": [
+            {
+              "name": "Sancho I",
+              "personSlug": "sancho-i-of-portugal",
+              "note": "r. 1185–1211",
+              "children": [
+                {
+                  "name": "Afonso II",
+                  "personSlug": "afonso-ii-of-portugal",
+                  "note": "r. 1211–1223",
+                  "children": [
+                    {
+                      "name": "Sancho II",
+                      "personSlug": "sancho-ii-of-portugal",
+                      "note": "r. 1223–1248, deposed"
+                    },
+                    {
+                      "name": "Afonso III",
+                      "personSlug": "afonso-iii-of-portugal",
+                      "note": "r. 1248–1279",
+                      "children": [
+                        {
+                          "name": "Dinis I",
+                          "personSlug": "denis-of-portugal",
+                          "note": "r. 1279–1325",
+                          "children": [
+                            {
+                              "name": "Afonso IV",
+                              "personSlug": "afonso-iv-of-portugal",
+                              "note": "r. 1325–1357",
+                              "children": [
+                                {
+                                  "name": "Pedro I",
+                                  "personSlug": "peter-i-of-portugal",
+                                  "note": "r. 1357–1367",
+                                  "children": [
+                                    {
+                                      "name": "Ferdinand I",
+                                      "personSlug": "ferdinand-i-of-portugal",
+                                      "note": "r. 1367–1383, no male heir"
+                                    },
+                                    {
+                                      "name": "John I",
+                                      "note": "illegitimate son",
+                                      "branch": "→ House of Aviz (1385)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The line began with Henry of Burgundy, a French noble who around 1096 married Teresa, illegitimate daughter of Alfonso VI of León-Castile, and received the County of Portugal as a frontier fief. Their son Afonso Henriques rebelled against his mother, defeating her faction at the Battle of São Mamede in 1128 and asserting his own rule.",
+        "Afonso pushed south against the Moors, and after his victory at the Battle of Ourique in 1139 he took the title of king. The Treaty of Zamora in 1143 won León’s recognition, and papal acknowledgement in 1179 confirmed Portugal as an independent kingdom."
+      ]
+    },
+    {
+      "title": "Building the kingdom",
+      "paragraphs": [
+        "Afonso I and his son Sancho I drove the Reconquista down the Atlantic coast; the capture of Lisbon in the Siege of Lisbon of 1147, with the help of northern crusaders, was the decisive step. Sancho I earned the name \"the Populator\" for founding towns, granting charters, and settling the reconquered lands.",
+        "The early Afonsine kings had to build a state as well as conquer one — organising a frontier society of townsmen, military orders, and a fractious nobility into a working kingdom."
+      ]
+    },
+    {
+      "title": "Crown, Church, and law",
+      "paragraphs": [
+        "Afonso II turned from conquest to government, issuing Portugal’s first written laws and asserting royal rights against the Church and the great nobles. That conflict sharpened under Sancho II, whose reign collapsed into civil war and who was deposed in 1248 in favour of his brother Afonso III.",
+        "Afonso III completed the Reconquista by taking the Algarve, summoned the first Portuguese Cortes to include townsmen, and moved the kingdom’s centre of gravity toward Lisbon."
+      ]
+    },
+    {
+      "title": "Dinis and the flowering",
+      "paragraphs": [
+        "King Dinis, the \"Farmer King\", encouraged agriculture, planted the Leiria pine forest that later built Portugal’s ships, founded the university that became Coimbra in 1290, and made Portuguese rather than Latin the language of the royal chancery. He reorganised the Templars’ Portuguese assets into the new Order of Christ.",
+        "His successors ruled a settled kingdom. Afonso IV fought beside Castile against the Moors at the Salado in 1340, but his reign is best remembered for the tragedy of Inês de Castro, mistress of his son Pedro, whom the king had killed."
+      ]
+    },
+    {
+      "title": "The end of the line and the 1383–85 crisis",
+      "paragraphs": [
+        "Pedro I ruled as a stern justiciar, and legend told that he had the murdered Inês de Castro exhumed and honoured as queen. His legitimate son Ferdinand I entangled Portugal in the wars of Castile and married his daughter Beatrice to the Castilian king.",
+        "When Ferdinand died in 1383 without a son, that marriage threatened to absorb Portugal into Castile. The resulting 1383–85 crisis ended with the Portuguese victory at the Battle of Aljubarrota in 1385 and the accession of John I, Pedro’s illegitimate son, founding the House of Aviz and preserving Portuguese independence."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1128",
+      "title": "Battle of São Mamede",
+      "description": "Afonso Henriques defeats his mother’s faction and takes power.",
+      "links": [
+        {
+          "title": "Battle of São Mamede",
+          "type": "event",
+          "slug": "battle-of-sao-mamede"
+        }
+      ]
+    },
+    {
+      "date": "1139",
+      "title": "Battle of Ourique",
+      "description": "Afonso claims the royal title after victory over the Moors.",
+      "links": [
+        {
+          "title": "Battle of Ourique",
+          "type": "event",
+          "slug": "battle-of-ourique"
+        }
+      ]
+    },
+    {
+      "date": "1147",
+      "title": "Siege of Lisbon",
+      "description": "Lisbon is taken from the Moors with crusader help.",
+      "links": [
+        {
+          "title": "Siege of Lisbon",
+          "type": "event",
+          "slug": "siege-of-lisbon"
+        }
+      ]
+    },
+    {
+      "date": "1179",
+      "title": "Papal recognition",
+      "description": "The bull Manifestis Probatum confirms Portugal as a kingdom."
+    },
+    {
+      "date": "1249",
+      "title": "Conquest of the Algarve",
+      "description": "Afonso III completes the Portuguese Reconquista.",
+      "links": [
+        {
+          "title": "Afonso III",
+          "type": "person",
+          "slug": "afonso-iii-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1290",
+      "title": "University founded",
+      "description": "King Dinis establishes the studium that becomes Coimbra.",
+      "links": [
+        {
+          "title": "Dinis I",
+          "type": "person",
+          "slug": "denis-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1385",
+      "title": "Aljubarrota and the House of Aviz",
+      "description": "After Ferdinand I’s death, John I secures independence and a new dynasty.",
+      "links": [
+        {
+          "title": "Battle of Aljubarrota",
+          "type": "event",
+          "slug": "battle-of-aljubarrota"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Afonso I",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "Founder; first king"
+      },
+      {
+        "title": "Dinis I",
+        "type": "person",
+        "slug": "denis-of-portugal",
+        "label": "The Farmer King"
+      },
+      {
+        "title": "Pedro I the Just",
+        "type": "person",
+        "slug": "peter-i-of-portugal",
+        "label": "The Inês de Castro legend"
+      },
+      {
+        "title": "Ferdinand I",
+        "type": "person",
+        "slug": "ferdinand-i-of-portugal",
+        "label": "Last king of the line"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of São Mamede",
+        "type": "event",
+        "slug": "battle-of-sao-mamede",
+        "label": "Founding victory, 1128"
+      },
+      {
+        "title": "Siege of Lisbon",
+        "type": "event",
+        "slug": "siege-of-lisbon",
+        "label": "Key Reconquista conquest, 1147"
+      },
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "Ended the crisis of 1383–85"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom they founded"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Portuguese House of Burgundy — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Portuguese_House_of_Burgundy"
+    },
+    {
+      "title": "Afonso I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Afonso-I-king-of-Portugal"
+    },
+    {
+      "title": "Portugal: The house of Burgundy — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Portugal/The-Burgundian-dynasty"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/CoA%20of%20Portugal%20(1248-1385)%20circular.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Portuguese “quinas”: five blue escutcheons in cross on white, the arms of the Afonsine kings.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CoA_of_Portugal_(1248-1385)_circular.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

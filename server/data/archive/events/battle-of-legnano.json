@@ -1,0 +1,209 @@
+{
+  "id": "battle-of-legnano",
+  "type": "event",
+  "name": "Battle of Legnano",
+  "year": 1176,
+  "location": "Legnano, Lombardy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_battle_of_Legnano_(1870),_by_Amos_Cassioli.jpg",
+  "imageInfo": {
+    "caption": "Amos Cassioli, The Battle of Legnano.",
+    "creator": "Amos Cassioli",
+    "date": "1870",
+    "source": "Wikimedia Commons",
+    "note": "A nineteenth-century nationalist depiction of a medieval battle."
+  },
+  "summary": "The Lombard League defeated Emperor Frederick Barbarossa, strengthening northern Italian communal autonomy.",
+  "details": "The Battle of Legnano was fought in 1176 between Frederick Barbarossa and the Lombard League of northern Italian communes. The League won and checked imperial power in Lombardy. The battle became a symbol of communal liberty in northern Italy, though its immediate meaning was tied to practical negotiations over imperial and urban rights.",
+  "eventType": "Battle",
+  "conflict": "Wars of Frederick Barbarossa in Italy",
+  "factions": [
+    "Lombard League",
+    "Holy Roman Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Guido da Landriano",
+      "faction": "Lombard League",
+      "personId": "guido-da-landriano"
+    },
+    {
+      "name": "Frederick I Barbarossa",
+      "faction": "Imperial army",
+      "personId": "frederick-i-barbarossa"
+    }
+  ],
+  "eventLocation": {
+    "name": "Legnano",
+    "locationId": "legnano"
+  },
+  "outcome": "Lombard League victory; imperial authority in northern Italy was checked.",
+  "background": [
+    "Frederick Barbarossa sought to assert imperial authority over wealthy northern Italian communes. Cities such as Milan resisted, forming the Lombard League with papal support.",
+    "The conflict joined imperial law, urban autonomy, taxation, and the wider struggle between empire and papacy."
+  ],
+  "battle": "Frederick attempted to defeat the League before all its forces could unite. Fighting near Legnano became intense around Lombard infantry formations and the symbolic carroccio. The imperial attack failed to break the League. Frederick was believed dead for a time after disappearing from the field, and the imperial army retreated.",
+  "aftermath": "The defeat pushed Frederick toward negotiation. The Peace of Constance later recognized significant communal liberties while preserving imperial claims in theory. Legnano did not end imperial involvement in Italy, but it showed that organized communes could defeat imperial force.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Legnano was fought in 1176 between Frederick Barbarossa and the Lombard League of northern Italian communes. The League won and checked imperial power in Lombardy.",
+        "The battle became a symbol of communal liberty in northern Italy, though its immediate meaning was tied to practical negotiations over imperial and urban rights."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Frederick Barbarossa sought to assert imperial authority over wealthy northern Italian communes. Cities such as Milan resisted, forming the Lombard League with papal support.",
+        "The conflict joined imperial law, urban autonomy, taxation, and the wider struggle between empire and papacy."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The imperial army included mounted knights and troops loyal to Frederick. The Lombard League fielded communal militias and cavalry drawn from allied cities.",
+        "Medieval sources emphasize the carroccio, the communal war wagon and symbol around which infantry could rally, though exact tactical details are debated."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Frederick attempted to defeat the League before all its forces could unite. Fighting near Legnano became intense around Lombard infantry formations and the symbolic carroccio.",
+        "The imperial attack failed to break the League. Frederick was believed dead for a time after disappearing from the field, and the imperial army retreated."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The defeat pushed Frederick toward negotiation. The Peace of Constance later recognized significant communal liberties while preserving imperial claims in theory.",
+        "Legnano did not end imperial involvement in Italy, but it showed that organized communes could defeat imperial force."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Legnano matters because it highlights the power of urban communes in medieval Italy. It also became a later symbol for Italian civic and national memory.",
+        "The battle reveals that medieval political power was not only royal or imperial; cities could mobilize armies, money, symbols, and legal arguments."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_battle_of_Legnano_(1870)%2C_by_Amos_Cassioli.jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook.asp"
+    },
+    {
+      "title": "World History Encyclopedia: Medieval Warfare",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Medieval_Warfare/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Legnano",
+        "type": "location",
+        "slug": "legnano",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Guido da Landriano",
+        "type": "person",
+        "slug": "guido-da-landriano",
+        "label": "Commander"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Commander"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "Halberd",
+        "type": "weaponArmor",
+        "slug": "halberd"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Lombard League",
+      "factions": [
+        {
+          "name": "Lombard League",
+          "title": "Lombard League",
+          "type": "location",
+          "slug": "lombard-league"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guido da Landriano",
+          "title": "Guido da Landriano",
+          "type": "person",
+          "slug": "guido-da-landriano"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; several thousand, mostly communal militia and cavalry",
+        "confidence": "debated",
+        "note": "The league fielded the larger force, including the Milanese militia and the Company of Death; totals are not recorded."
+      }
+    },
+    {
+      "side": "Imperial army",
+      "factions": [
+        {
+          "name": "Holy Roman Empire",
+          "title": "Holy Roman Empire",
+          "type": "location",
+          "slug": "holy-roman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Frederick I Barbarossa",
+          "title": "Frederick I Barbarossa",
+          "type": "person",
+          "slug": "frederick-i-barbarossa"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a smaller cavalry force, perhaps a few thousand",
+        "confidence": "debated",
+        "note": "Frederick I Barbarossa fought with a limited body of knights, having outrun his main strength."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Empire's next great defeat",
+    "battleSlug": "battle-of-bouvines",
+    "relationship": "same-factions",
+    "reason": "Legnano broke Frederick Barbarossa's campaign against the Lombard League; at Bouvines a generation later the imperial cause failed again, when Otto IV fell alongside the coalition defeated by Philip II of France."
+  }
+}

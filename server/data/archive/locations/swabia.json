@@ -1,0 +1,89 @@
+{
+  "id": "swabia",
+  "type": "location",
+  "name": "Swabia",
+  "locationType": "Region",
+  "year": "Medieval period",
+  "kingdom": "Holy Roman Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Swabian-Alb_Burg_Hohenzollern.jpg",
+  "summary": "A southwestern German region within the Holy Roman Empire, used here for Ulrich von Jungingen’s regional origin.",
+  "overview": [
+    "A southwestern German region within the Holy Roman Empire, used here for Ulrich von Jungingen’s regional origin."
+  ],
+  "knownFor": [
+    "Teutonic Order elites",
+    "Holy Roman Empire",
+    "South German nobility"
+  ],
+  "imageInfo": {
+    "caption": "The Swabian uplands of southwestern Germany, a core duchy of the Hohenstaufen.",
+    "creator": "The original uploader was Uvatter at English Wikipedia.",
+    "date": "15 October 2004 (original upload date)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swabian-Alb_Burg_Hohenzollern.jpg",
+    "license": "Copyrighted free use",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Swabia in southwestern Germany was a central duchy of the Holy Roman Empire associated with the Hohenstaufen dynasty. Ulrich von Jungingen, Grand Master of the Teutonic Order who led the order to defeat at Grunwald in 1410, came from the Swabian knightly class."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Swabia's importance in IronCodex relates to the background of Teutonic knights and German crusading families whose members brought German noble culture into the Baltic and Prussian frontier. The Swabian connection of Ulrich von Jungingen places his career within the tradition of German knightly service to the military religious orders."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Swabia",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Swabia_in_the_Holy_Roman_Empire.svg"
+    },
+    {
+      "title": "Swabia reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Swabia"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ulrich von Jungingen",
+        "type": "person",
+        "slug": "ulrich-von-jungingen",
+        "label": "Birthplace of Ulrich von Jungingen"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Containing realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "Connected to Ulrich von Jungingen"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Realm of Ulrich von Jungingen"
+      }
+    ]
+  }
+}

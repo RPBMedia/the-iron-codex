@@ -1,0 +1,85 @@
+{
+  "id": "elderslie",
+  "type": "location",
+  "locationType": "Village",
+  "kingdom": "Kingdom of Scotland",
+  "kingdomId": "kingdom-of-scotland",
+  "name": "Elderslie",
+  "year": 1200,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/The_Wallace_Memorial%2C_Elderslie%2C_Renfrewshire._The_frontage.jpg",
+  "summary": "A Scottish village traditionally linked to William Wallace's birth.",
+  "overview": [
+    "Elderslie is one of the places traditionally associated with William Wallace's origins.",
+    "Because Wallace's early life is poorly documented, the attribution is best treated cautiously."
+  ],
+  "knownFor": [
+    "Traditional birthplace of William Wallace",
+    "Scottish independence memory",
+    "Later Wallace commemoration"
+  ],
+  "imageInfo": {
+    "caption": "Wallace Memorial at Elderslie, associated with later remembrance of William Wallace.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "A modern memorial landscape, not medieval material evidence for Wallace's birth.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Wallace_Memorial%2C_Elderslie%2C_Renfrewshire._The_frontage.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Scottish village traditionally linked to William Wallace's birth.",
+        "Elderslie matters historically through Traditional birthplace of William Wallace, Scottish independence memory, Later Wallace commemoration."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Wallace_Memorial%2C_Elderslie%2C_Renfrewshire._The_frontage.jpg"
+    },
+    {
+      "title": "Wikipedia: Elderslie",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Elderslie"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Birthplace of William Wallace"
+      },
+      {
+        "title": "John Comyn",
+        "type": "person",
+        "slug": "john-comyn"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Containing realm"
+      },
+      {
+        "title": "London",
+        "type": "location",
+        "slug": "london"
+      }
+    ]
+  }
+}

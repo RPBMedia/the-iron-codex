@@ -1,0 +1,204 @@
+{
+  "id": "house-of-montferrat",
+  "type": "house",
+  "name": "House of Montferrat",
+  "aliases": [
+    "House of Montferrat / Aleramici",
+    "Aleramici",
+    "Montferrat",
+    "Aleramid"
+  ],
+  "originYear": 1187,
+  "endYear": 1207,
+  "reignSpan": "1187–1207 (Jerusalem & Thessalonica)",
+  "region": "Piedmont, Jerusalem & Greece",
+  "originPlace": "Montferrat, Piedmont",
+  "arms": "A silver shield with a red chief — the arms of the marquesses of Montferrat.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad%20of%20Montferrat%20-%20Conrad%20arrives%20at%20Tyre.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Conrad of Montferrat, defender of Tyre and king-elect of Jerusalem, in a manuscript of William of Tyre’s continuation.",
+    "creator": "Manuscript of the Histoire d’Outremer",
+    "date": "13th–14th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conrad_of_Montferrat_-_Conrad_arrives_at_Tyre.jpg",
+    "note": "A later crusader-chronicle depiction of Conrad of Montferrat."
+  },
+  "summary": "The Piedmontese marquesses who won crowns in the crusading world — Jerusalem, Thessalonica, and beyond.",
+  "overview": "The House of Montferrat, an ancient family of marquesses in Piedmont, produced a remarkable set of crusading princes. Conrad of Montferrat saved Tyre and was elected King of Jerusalem; his brother Boniface led the Fourth Crusade and became King of Thessalonica; and Conrad’s daughter Maria carried the Jerusalem crown onward.",
+  "founder": {
+    "displayName": "William V of Montferrat",
+    "note": "Marquess of Montferrat, \"the Old\", father of the crusading brothers (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Jerusalem",
+      "type": "location",
+      "slug": "kingdom-of-jerusalem"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "conrad-of-montferrat",
+      "displayName": "Conrad of Montferrat",
+      "note": "Defender of Tyre; elected King of Jerusalem"
+    },
+    {
+      "personSlug": "boniface-of-montferrat",
+      "displayName": "Boniface of Montferrat",
+      "note": "Leader of the Fourth Crusade; King of Thessalonica"
+    },
+    {
+      "personSlug": "maria-of-montferrat",
+      "displayName": "Maria of Montferrat",
+      "note": "Queen of Jerusalem; Conrad’s daughter"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Montferrat brothers Conrad and Boniface, sons of William V, and Conrad’s daughter Maria, Queen of Jerusalem. ⚭ marks a marriage.",
+    "root": {
+      "name": "William V of Montferrat",
+      "note": "Marquess of Montferrat, \"the Old\"",
+      "children": [
+        {
+          "name": "Conrad of Montferrat",
+          "personSlug": "conrad-of-montferrat",
+          "note": "King-elect of Jerusalem, d. 1192",
+          "spouse": {
+            "name": "Isabella I of Jerusalem",
+            "personSlug": "isabella-i-of-jerusalem"
+          },
+          "children": [
+            {
+              "name": "Maria of Montferrat",
+              "personSlug": "maria-of-montferrat",
+              "note": "Queen of Jerusalem, r. 1205–1212"
+            }
+          ]
+        },
+        {
+          "name": "Boniface of Montferrat",
+          "personSlug": "boniface-of-montferrat",
+          "note": "King of Thessalonica, d. 1207"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The marquesses of Montferrat were one of the great feudal houses of north-western Italy, descended from the Aleramici and closely tied to the Holy Roman Empire. In the late twelfth century a generation of Montferrat brothers won fame and thrones across the crusading world.",
+        "Their imperial connections and military reputation made them natural leaders in the wars of the Latin East and the politics of Byzantium."
+      ]
+    },
+    {
+      "title": "Conrad and the defence of Tyre",
+      "paragraphs": [
+        "Conrad of Montferrat arrived in the Holy Land just after Hattin and organised the successful defence of Tyre, the last major city the Crusaders held. Marrying Isabella, heiress of Jerusalem, he was elected king during the Third Crusade — but was assassinated in 1192, days after his election, by the Nizari \"Assassins\".",
+        "His daughter Maria inherited the claim and, as queen, carried the crown of Jerusalem into her marriage with John of Brienne."
+      ]
+    },
+    {
+      "title": "Boniface and the Fourth Crusade",
+      "paragraphs": [
+        "Conrad’s brother Boniface was chosen to lead the Fourth Crusade in 1202. When the crusade was diverted to sack Constantinople in 1204, Boniface carved out the Kingdom of Thessalonica in northern Greece, becoming one of the chief Latin rulers of the dismembered Byzantine Empire.",
+        "He was killed by the Bulgarians in 1207, but the Montferrat name remained entangled with the thrones of Greece and Jerusalem for generations."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1187",
+      "title": "Conrad saves Tyre",
+      "description": "Conrad organises the defence that preserves a crusader foothold after Hattin.",
+      "links": [
+        {
+          "title": "Conrad of Montferrat",
+          "type": "person",
+          "slug": "conrad-of-montferrat"
+        }
+      ]
+    },
+    {
+      "date": "1192",
+      "title": "Conrad elected and murdered",
+      "description": "Elected King of Jerusalem, he is assassinated days later."
+    },
+    {
+      "date": "1204",
+      "title": "Boniface and the Fourth Crusade",
+      "description": "Boniface becomes King of Thessalonica after the sack of Constantinople.",
+      "links": [
+        {
+          "title": "Boniface of Montferrat",
+          "type": "person",
+          "slug": "boniface-of-montferrat"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Conrad of Montferrat",
+        "type": "person",
+        "slug": "conrad-of-montferrat",
+        "label": "Defender of Tyre"
+      },
+      {
+        "title": "Boniface of Montferrat",
+        "type": "person",
+        "slug": "boniface-of-montferrat",
+        "label": "Led the Fourth Crusade"
+      },
+      {
+        "title": "Maria of Montferrat",
+        "type": "person",
+        "slug": "maria-of-montferrat",
+        "label": "Queen of Jerusalem"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The Ottoman conquest of the city Boniface’s crusade had once taken"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Montferrat — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Montferrat"
+    },
+    {
+      "title": "Conrad of Montferrat — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Conrad_of_Montferrat"
+    },
+    {
+      "title": "Boniface I of Montferrat — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Boniface_I,_Marquis_of_Montferrat"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason%20marquisat%20it%20Montferrat%201.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the marquesses of Montferrat — silver with a red chief.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_marquisat_it_Montferrat_1.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

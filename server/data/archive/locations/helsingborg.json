@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Town / castle site",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Christopher of Bavaria",
+    "Øresund politics",
+    "Kalmar Union"
+  ],
+  "overview": [
+    "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Helsingborg was a strategically vital Danish fortified town on the Sound, controlling the narrowest crossing between Scania and Zealand. Christopher of Bavaria died suddenly there in 1448 without an heir."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Christopher's death at Helsingborg reopened the Scandinavian succession and led to the election of Christian I as the first Oldenburg king of Denmark. The town's position on the Sound made it economically and militarily significant throughout the conflict over Hanseatic and Danish maritime dominance."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Helsingborg",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:K%C3%A4rnan_Helsingborg.jpg"
+    },
+    {
+      "title": "Helsingborg reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Helsingborg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christopher of Bavaria",
+        "type": "person",
+        "slug": "christopher-of-bavaria",
+        "label": "Death of Christopher of Bavaria"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union"
+      }
+    ]
+  },
+  "id": "helsingborg",
+  "name": "Helsingborg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4rnan_Helsingborg.jpg",
+  "summary": "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448.",
+  "imageInfo": {
+    "caption": "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4rnan_Helsingborg.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

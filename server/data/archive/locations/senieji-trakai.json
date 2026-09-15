@@ -1,0 +1,85 @@
+{
+  "id": "senieji-trakai",
+  "type": "location",
+  "name": "Senieji Trakai",
+  "locationType": "Castle site",
+  "year": "Medieval period",
+  "kingdom": "Grand Duchy of Lithuania",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Senieji_Trakai.jpg",
+  "summary": "A Lithuanian castle site traditionally associated with Vytautas’s birth before his later connection to Trakai.",
+  "overview": [
+    "A Lithuanian castle site traditionally associated with Vytautas’s birth before his later connection to Trakai."
+  ],
+  "knownFor": [
+    "Vytautas tradition",
+    "Grand Duchy of Lithuania",
+    "Lithuanian castle landscape"
+  ],
+  "imageInfo": {
+    "caption": "Senieji Trakai (Old Trakai), an early Gediminid castle site in Lithuania.",
+    "creator": "Julius",
+    "date": "2007",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senieji_Trakai.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Senieji Trakai (Old Trakai) was an early Lithuanian castle site associated with the Gediminid dynasty, traditionally connected to Vytautas the Great before his career centered on New Trakai and Vilnius. The site represents the early fortification network that supported Gediminid expansion."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Old Trakai declined in importance as New Trakai — built on a lake island — became Vytautas's primary residence and symbol of Lithuanian ducal power. The transition from Senieji Trakai to the new castle reflects Vytautas's consolidation of Lithuanian political architecture in the period of his greatest power."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Senieji Trakai",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Senieji_Trakai_church.jpg"
+    },
+    {
+      "title": "Senieji Trakai reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Senieji_Trakai"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Birthplace of Vytautas"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Trakai",
+        "type": "location",
+        "slug": "trakai"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald"
+      }
+    ]
+  }
+}

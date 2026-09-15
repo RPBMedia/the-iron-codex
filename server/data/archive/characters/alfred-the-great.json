@@ -1,0 +1,267 @@
+{
+  "id": "alfred-the-great",
+  "type": "character",
+  "name": "Alfred the Great",
+  "born": 849,
+  "died": 899,
+  "deathAge": "50",
+  "causeOfDeath": "Unknown illness",
+  "restingPlace": "Hyde Abbey, Winchester; remains now unconfirmed",
+  "location": "Wessex, England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_the_Great_-_Samuel_WoodfordeFXD.jpg",
+  "summary": "King of Wessex who resisted Viking conquest and promoted learning and reform.",
+  "overview": [
+    "Alfred the Great was king of Wessex and the most famous Anglo-Saxon ruler before the unification of England. He resisted Viking conquest, rebuilt military defenses, promoted learning, and helped create the political conditions from which a wider English kingdom emerged.",
+    "Born at Wantage in 849, Alfred ruled during crisis and recovery. He died in Winchester in 899, remembered for defending Wessex, negotiating with Viking rulers, reforming education, and shaping later ideas of English kingship."
+  ],
+  "greatestFeats": [
+    "Defeated Guthrum at the Battle of Edington in 878",
+    "Preserved Wessex against Viking conquest",
+    "Developed fortified burhs and defensive reforms",
+    "Sponsored learning, translation, and legal reform"
+  ],
+  "title": "King of Wessex",
+  "roles": [
+    "King of Wessex",
+    "Anglo-Saxon reformer"
+  ],
+  "birth": {
+    "date": "849",
+    "place": {
+      "name": "Wantage",
+      "slug": "wantage"
+    }
+  },
+  "death": {
+    "date": "899",
+    "place": {
+      "name": "Winchester",
+      "slug": "winchester"
+    },
+    "circumstance": "Died in 899, traditionally associated with Winchester; later accounts describe recurring illness during his life."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Wessex",
+    "dynasty": "House of Wessex",
+    "culture": "Anglo-Saxon",
+    "knownFor": "Defense against Viking armies and educational reform"
+  },
+  "imageInfo": {
+    "caption": "Later portrait of Alfred the Great.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_the_Great_-_Samuel_WoodfordeFXD.jpg",
+    "note": "A later artistic depiction, not a contemporary likeness."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alfred the Great was king of Wessex and the most famous Anglo-Saxon ruler before the unification of England. He resisted Viking conquest, rebuilt military defenses, promoted learning, and helped create the political conditions from which a wider English kingdom emerged.",
+        "Born at Wantage in 849, Alfred ruled during crisis and recovery. He died in Winchester in 899, remembered for defending Wessex, negotiating with Viking rulers, reforming education, and shaping later ideas of English kingship."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Alfred was born in 849 at Wantage into the royal house of Wessex. He was the youngest son of King Aethelwulf and did not initially seem destined to rule.",
+        "His early life unfolded in a world of Viking attacks, Mercian alliances, royal pilgrimage, and shifting Anglo-Saxon politics. These pressures shaped the military and religious priorities of his later reign."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Alfred's remembered character combines endurance with intellectual purpose, and unusually for an early medieval king it comes partly from a near-contemporary biography by the Welsh bishop Asser, as well as from Alfred's own prefaces to the works he had translated. Later tradition made him the learned king par excellence, but that reputation rests on real features of his reign: his concern for books, translation, education, law, and Christian kingship, and his stated grief at the decay of learning in England.",
+        "He was also remembered as a ruler who survived disaster without letting it define him. The image of Alfred in the marshes at Athelney, regrouping after the near-collapse of Wessex before his victory at Edington, belongs partly to heroic memory — including the legend of the burnt cakes — but it captures something the record supports: patient, disciplined recovery after near-destruction. Asser also dwells on a recurring illness that troubled Alfred through his life, presenting his achievements as won against physical suffering.",
+        "Because Asser was an admirer writing for a living patron, the portrait is idealised, and the burnt-cakes story is later folklore. But the consistent core — piety, a genuine and unusual commitment to learning, and resilience under pressure — is well grounded in Alfred's own writings and his documented reforms."
+      ]
+    },
+    {
+      "title": "As king of Wessex",
+      "paragraphs": [
+        "Alfred became king of Wessex in 871 during intense Viking pressure. After severe setbacks, he rallied resistance and won at Edington, leading to an agreement with Guthrum and a division of influence often associated with the Danelaw.",
+        "He reorganized defenses through fortified burhs, naval efforts, military service, and administrative planning. Alfred also promoted translation and learning, arguing that wisdom and Christian kingship were essential to political recovery."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died in 899, traditionally associated with Winchester; later accounts describe recurring illness during his life."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Alfred is remembered as “the Great” because later generations saw him as defender, lawgiver, scholar-king, and ancestor of English monarchy. Some of that reputation is shaped by texts produced in his own circle and by later national memory.",
+        "Even allowing for royal propaganda, his reign remains central to medieval English history because it combined survival in war with institutional and cultural reform."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Defeated Guthrum at the Battle of Edington in 878",
+      "description": ""
+    },
+    {
+      "title": "Preserved Wessex against Viking conquest",
+      "description": ""
+    },
+    {
+      "title": "Developed fortified burhs and defensive reforms",
+      "description": ""
+    },
+    {
+      "title": "Sponsored learning, translation, and legal reform",
+      "description": ""
+    }
+  ],
+  "timeline": [
+    {
+      "date": "849",
+      "title": "Born",
+      "links": [
+        {
+          "title": "Wantage",
+          "type": "location",
+          "slug": "wantage"
+        }
+      ],
+      "description": "Alfred was born into the West Saxon royal house at a time when Wessex was one of several Anglo-Saxon kingdoms facing growing Viking pressure."
+    },
+    {
+      "date": "871",
+      "title": "Becomes king of Wessex",
+      "description": "Succeeds during intense Viking pressure."
+    },
+    {
+      "date": "878",
+      "title": "Wins at Edington",
+      "description": "Defeats Guthrum and secures Wessex."
+    },
+    {
+      "date": "878",
+      "title": "Treaty with Guthrum",
+      "description": "Establishes a settlement with the Viking leader."
+    },
+    {
+      "date": "880s",
+      "title": "Builds burh system",
+      "description": "Develops fortified centers and defensive reforms."
+    },
+    {
+      "date": "890s",
+      "title": "Sponsors learning and translation",
+      "description": "Promotes education, law, and Latin learning."
+    },
+    {
+      "date": "899",
+      "title": "Died",
+      "description": "Dies after a long reign in Wessex."
+    }
+  ],
+  "aliases": [],
+  "sectionImages": [
+    {
+      "section": "As king of Wessex",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_d'Alfred_le_Grand_%C3%A0_Winchester.jpg",
+      "alt": "The statue of Alfred the Great at Winchester, his capital, erected in 1899 for the millenary of his death.",
+      "caption": "The statue of Alfred the Great at Winchester, his capital, erected in 1899 for the millenary of his death.",
+      "creator": "Hamo Thornycroft (sculptor); photograph by Odejea",
+      "date": "Statue 1899",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_d'Alfred_le_Grand_%C3%A0_Winchester.jpg",
+      "note": "A modern monument reflecting Alfred’s Victorian reputation as founder of the English nation — not a likeness from life."
+    },
+    {
+      "section": "Legacy",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Alfred_Jewel.jpg",
+      "alt": "The Alfred Jewel, inscribed “AELFRED MEC HEHT GEWYRCAN” (“Alfred ordered me made”), probably the handle of a reading pointer sent out with his book translations.",
+      "caption": "The Alfred Jewel, inscribed “AELFRED MEC HEHT GEWYRCAN” (“Alfred ordered me made”), probably the handle of a reading pointer sent out with his book translations.",
+      "creator": "Photograph by Giles Watson",
+      "date": "Late 9th century (object)",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Alfred_Jewel.jpg",
+      "note": "A genuine object from Alfred’s own court circle, now in the Ashmolean Museum — direct physical evidence of his programme of learning."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Wantage",
+        "type": "location",
+        "slug": "wantage",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Realm"
+      },
+      {
+        "title": "Winchester",
+        "type": "location",
+        "slug": "winchester",
+        "label": "Place of death"
+      },
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The partition he agreed"
+      }
+    ],
+    "people": [
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne"
+      },
+      {
+        "title": "Ragnar Lothbrok",
+        "type": "person",
+        "slug": "ragnar-lothbrok",
+        "label": "The saga figure to whom tradition attributes the leaders of the Great Heathen Army"
+      },
+      {
+        "title": "Ealhswith",
+        "type": "person",
+        "slug": "ealhswith",
+        "label": "Wife"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "His decisive victory, 878"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The army he defeated"
+      }
+    ]
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "King of Wessex",
+    "predecessor": {
+      "personSlug": "aethelred-i-of-wessex",
+      "displayName": "Æthelred I of Wessex",
+      "note": "His elder brother, killed fighting the Great Heathen Army"
+    },
+    "successor": {
+      "personSlug": "edward-the-elder",
+      "displayName": "Edward the Elder"
+    }
+  },
+  "epithets": [
+    {
+      "name": "the Great",
+      "type": "later epithet",
+      "note": "No contemporary source calls him 'the Great'; the epithet was popularised in the 16th century."
+    }
+  ]
+}

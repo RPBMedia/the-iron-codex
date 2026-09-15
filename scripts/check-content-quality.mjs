@@ -1,8 +1,8 @@
 import fs from 'node:fs'
 import { maskedParagraphs, templateHash } from './lib/template-prose.mjs'
+import { loadArchive } from '../server/data/archive.mjs'
 
-const dataPath = new URL('../server/data/history.json', import.meta.url)
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+const data = loadArchive()
 
 // Person lookup for validatePersonObjectReciprocity. Declared beside `data` at
 // module top because the validators run during module execution — a const placed

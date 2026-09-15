@@ -1,0 +1,277 @@
+{
+  "id": "isaurian-dynasty",
+  "type": "house",
+  "name": "Isaurian dynasty",
+  "aliases": [
+    "House of Leo",
+    "Isaurians",
+    "Syrian dynasty",
+    "Isaurian"
+  ],
+  "originYear": 717,
+  "endYear": 802,
+  "reignSpan": "717–802",
+  "region": "Byzantine Empire",
+  "originPlace": "Germanikeia in northern Syria — not Isauria",
+  "arms": "The Byzantine emperors bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20Hagia%20Eirene%20Apse%20in%202016%2008%200990.jpg",
+  "imageInfo": {
+    "caption": "The apse of Hagia Irene in Constantinople, where a plain mosaic cross stands in the place a figural image would have occupied.",
+    "creator": "Dosseman",
+    "date": "photographed 2016; the mosaic of the eighth century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_Hagia_Eirene_Apse_in_2016_08_0990.jpg",
+    "note": "The best-surviving monument of iconoclast art, in a church rebuilt under Constantine V after the earthquake of 740. The cross is not decoration but doctrine: it is what the dynasty put in churches instead of saints. Licensed CC BY-SA 4.0."
+  },
+  "summary": "The dynasty that saved Constantinople from the Umayyad siege of 717–718, ruled for eighty-five years, and made iconoclasm imperial policy.",
+  "overview": "The Isaurian dynasty took the throne in the worst year the empire had faced and held the capital against a twelve-month Arab siege in its first. Its emperors rebuilt the army and the law, went over to the offensive against Bulgars and Arabs, and enforced the removal of religious images — the policy that decided how every history of them would be written. It ended with Irene, the first woman to rule the empire in her own name, who restored the icons and deposed her own son.",
+  "founder": {
+    "personSlug": "leo-iii-the-isaurian",
+    "displayName": "Leo III",
+    "note": "Strategos of the Anatolics; took the throne in March 717"
+  },
+  "seats": [
+    {
+      "name": "Constantinople",
+      "type": "location",
+      "slug": "constantinople"
+    },
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "leo-iii-the-isaurian",
+      "displayName": "Leo III",
+      "note": "r. 717–741; held the city against the Umayyad siege and began iconoclasm"
+    },
+    {
+      "personSlug": "constantine-v",
+      "displayName": "Constantine V",
+      "note": "r. 741–775; the dynasty's best soldier and its most committed iconoclast"
+    },
+    {
+      "displayName": "Leo IV",
+      "note": "r. 775–780; called \"the Khazar\" from his mother, and relaxed the persecution of monks",
+      "personSlug": "leo-iv"
+    },
+    {
+      "displayName": "Irene",
+      "note": "Regent from 780, sole ruler 797–802; restored the icons and blinded her own son to keep power",
+      "personSlug": "irene-of-athens"
+    },
+    {
+      "displayName": "Constantine VI",
+      "note": "r. 780–797; deposed and blinded by his mother, ending the male line",
+      "personSlug": "constantine-vi"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Isaurian emperors. Irene ruled first as regent for her son Constantine VI and then in her own name, having had him blinded. ⚭ marks a marriage.",
+    "root": {
+      "name": "Leo III",
+      "personSlug": "leo-iii-the-isaurian",
+      "note": "r. 717–741",
+      "children": [
+        {
+          "name": "Constantine V",
+          "personSlug": "constantine-v",
+          "note": "r. 741–775",
+          "children": [
+            {
+              "name": "Leo IV the Khazar",
+              "note": "r. 775–780",
+              "spouse": {
+                "name": "Irene of Athens",
+                "personSlug": "irene-of-athens"
+              },
+              "children": [
+                {
+                  "name": "Constantine VI",
+                  "note": "r. 780–797; blinded by his mother",
+                  "personSlug": "constantine-vi"
+                }
+              ],
+              "personSlug": "leo-iv"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins and the wrong name",
+      "paragraphs": [
+        "The dynasty is named for a region it did not come from. Leo III was born at Germanikeia in northern Syria, in territory the caliphate had taken, and his family was resettled in Thrace under Justinian II. Isauria is in southern Anatolia; the label appears in later sources and has stuck regardless of the geography.",
+        "He rose as a soldier under Justinian II and by 716 commanded the Anatolic theme, the largest and most exposed military province, facing an Umayyad invasion that everyone knew was coming.",
+        "He took Constantinople in March 717 from Theodosius III, who abdicated rather than fight him with an enemy army approaching. It was the sixth usurpation in twenty years, and it was accepted because the alternative was worse."
+      ]
+    },
+    {
+      "title": "The siege and the recovery",
+      "paragraphs": [
+        "The Umayyad army reached the walls five months after his coronation and stayed for a year. Greek fire destroyed the fleet, an exceptional winter starved the besiegers, and the siege was lifted in August 718.",
+        "The dynasty then spent eight decades converting survival into strength. Leo III reorganised the themes, split the oversized commands that had produced so many usurpers, and issued the Ecloga — a short, practical revision of Roman law in Greek rather than Latin.",
+        "Constantine V went further and went on the offensive: nine campaigns against the Bulgars, raids across the Taurus into Syria, and the creation of the tagmata, professional regiments stationed near the capital and loyal to the emperor rather than to a provincial general."
+      ]
+    },
+    {
+      "title": "Iconoclasm",
+      "paragraphs": [
+        "From the 720s Leo III moved against religious images, and in 754 Constantine V called a council at Hieria that declared their veneration heretical. Enforcement fell hardest on the monasteries, which were the centres of resistance: monks were humiliated, imprisoned and in some cases killed, and monastic property was confiscated.",
+        "The apse of the church of the Holy Peace in Constantinople shows what the policy looked like in practice — a plain cross where a figure of Christ or the Virgin would have stood. It is the best-surviving iconoclast monument in the city.",
+        "Almost everything known about the dynasty's theology comes through the writings of the people who defeated it. The Second Council of Nicaea condemned Hieria in 787, iconoclasm was finally abandoned in 843, and the surviving histories were written by the winning side."
+      ]
+    },
+    {
+      "title": "Irene and the end",
+      "paragraphs": [
+        "Leo IV died in 780 leaving a nine-year-old son, Constantine VI, and a widow, Irene of Athens, who governed as regent. She reversed the religious policy, restoring the veneration of images at the Second Council of Nicaea in 787.",
+        "Her son came of age and pushed her aside, and she spent a decade manoeuvring to get back. In 797 she had him blinded — in the same room in which she had given birth to him, according to the chronicles — and ruled in her own name as emperor rather than empress, the first woman to do so.",
+        "She was deposed in 802 by her finance minister Nikephoros and died in exile on Lesbos the following year. The dynasty founded on saving the empire ended with a mother destroying her son to keep his throne."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Isaurians left the state institutionally stronger than they found it: the themes reorganised, the tagmata created, the law rewritten in the language people actually spoke, the capital repopulated after the plague of 747 and its aqueduct rebuilt.",
+        "They also left a religious settlement that was condemned as heresy within a generation of the last iconoclast emperor, which is why their reputation had to be reconstructed by modern historians out of what their enemies could not deny.",
+        "The most consequential thing they did was the simplest. They stopped the Arab conquest at the walls of Constantinople in 718, and the frontier they established on the Taurus held until the eleventh century."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "717",
+      "title": "Leo III takes the throne",
+      "description": "The strategos of the Anatolics deposes Theodosius III with an Umayyad army approaching.",
+      "links": [
+        {
+          "title": "Leo III",
+          "type": "person",
+          "slug": "leo-iii-the-isaurian"
+        }
+      ]
+    },
+    {
+      "date": "717–718",
+      "title": "The Umayyad siege fails",
+      "description": "Twelve months of blockade end with the Arab fleet burned and the army starved.",
+      "links": [
+        {
+          "title": "Siege of Constantinople (717–718)",
+          "type": "event",
+          "slug": "siege-of-constantinople-717"
+        }
+      ]
+    },
+    {
+      "date": "726",
+      "title": "The Ecloga",
+      "description": "A short practical revision of Roman law is issued in Greek, and the move against images begins."
+    },
+    {
+      "date": "740",
+      "title": "Akroinon",
+      "description": "Leo III and Constantine V destroy the last great Umayyad raiding army in Anatolia.",
+      "links": [
+        {
+          "title": "Battle of Akroinon",
+          "type": "event",
+          "slug": "battle-of-akroinon"
+        }
+      ]
+    },
+    {
+      "date": "754",
+      "title": "The Council of Hieria",
+      "description": "Constantine V has the veneration of images declared heretical by a council of over three hundred bishops."
+    },
+    {
+      "date": "763",
+      "title": "Victory at Anchialos",
+      "description": "The most complete of Constantine V's nine campaigns against the Bulgars."
+    },
+    {
+      "date": "787",
+      "title": "Nicaea II restores the icons",
+      "description": "The regent Irene reverses the dynasty's religious policy at the Second Council of Nicaea."
+    },
+    {
+      "date": "797",
+      "title": "Irene blinds her son",
+      "description": "Constantine VI is deposed and blinded; Irene rules in her own name as emperor."
+    },
+    {
+      "date": "802",
+      "title": "The dynasty ends",
+      "description": "Irene is deposed by her finance minister Nikephoros and dies in exile on Lesbos."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Founder of the dynasty"
+      },
+      {
+        "title": "Constantine V",
+        "type": "person",
+        "slug": "constantine-v",
+        "label": "Its best soldier and most committed iconoclast"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The siege it was founded on surviving"
+      },
+      {
+        "title": "Battle of Akroinon",
+        "type": "event",
+        "slug": "battle-of-akroinon",
+        "label": "Father and son fighting together in 740"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm it ruled for eighty-five years"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "The power it stopped at the walls"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Isaurian dynasty",
+      "url": "https://en.wikipedia.org/wiki/Isaurian_dynasty",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

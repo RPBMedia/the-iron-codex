@@ -1,0 +1,90 @@
+{
+  "id": "bermersheim-vor-der-hoehe",
+  "type": "location",
+  "locationType": "Town",
+  "kingdom": "Holy Roman Empire",
+  "name": "Bermersheim vor der Hoehe",
+  "year": 800,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bermersheim_vor_der_H%C3%B6he_in_AZ.svg/330px-Bermersheim_vor_der_H%C3%B6he_in_AZ.svg.png",
+  "summary": "A Rhineland settlement traditionally associated with Hildegard of Bingen's birth.",
+  "overview": [
+    "Bermersheim vor der Hoehe lies in the Rhineland, the region that shaped Hildegard of Bingen's early life and monastic career.",
+    "The area belonged to the religious and aristocratic landscape of the medieval German kingdom and empire."
+  ],
+  "knownFor": [
+    "Traditional birthplace of Hildegard of Bingen",
+    "Rhineland monastic culture",
+    "Medieval German lands"
+  ],
+  "imageInfo": {
+    "caption": "Map locating Bermersheim vor der Hoehe in modern Rhineland-Palatinate.",
+    "creator": "Wikimedia Commons map contributor",
+    "date": "modern locator map",
+    "source": "Wikimedia Commons",
+    "note": "Modern locator map for a birthplace traditionally associated with Hildegard of Bingen.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:330px-Bermersheim_vor_der_H%C3%B6he_in_AZ.svg.png"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Bermersheim vor der Höhe in the Rhineland is traditionally identified as the birthplace of Hildegard of Bingen, born around 1098. Hildegard was offered as an oblate to the church by her noble family and placed with the anchoress Jutta of Sponheim at Disibodenberg monastery."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The Rhineland context of Hildegard's birth placed her within the network of reform monasticism that characterized German ecclesiastical culture in the eleventh and twelfth centuries. Her later achievements as abbess, visionary, composer, and theological correspondent far exceeded anything that could be predicted from this rural background.",
+        "Bermersheim is historically significant primarily as the starting point of Hildegard's biography; the village has no broader medieval importance independent of her birth there."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bermersheim_vor_der_H%C3%B6he_in_AZ.svg"
+    },
+    {
+      "title": "Wikipedia: Bermersheim vor der Hoehe",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Bermersheim_vor_der_Hoehe"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Hildegard of Bingen",
+        "type": "person",
+        "slug": "hildegard-of-bingen",
+        "label": "Birthplace of Hildegard of Bingen"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Rupertsberg",
+        "type": "location",
+        "slug": "rupertsberg"
+      }
+    ]
+  }
+}

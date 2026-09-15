@@ -1,0 +1,406 @@
+{
+  "id": "house-of-estridsen",
+  "type": "house",
+  "name": "House of Estridsen",
+  "aliases": [
+    "Estridsen dynasty",
+    "Estridsson dynasty",
+    "House of Estrid",
+    "House of Estridsen / Bjälbo connections"
+  ],
+  "originYear": 1047,
+  "endYear": 1412,
+  "reignSpan": "1047–1412",
+  "region": "Kingdom of Denmark",
+  "originPlace": "Denmark",
+  "arms": "Three blue crowned lions among red hearts on a gold field — the arms of Denmark.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Valdemar%20Atterdag.jpg?width=1000",
+  "imageInfo": {
+    "caption": "King Valdemar IV Atterdag, who rebuilt the Danish kingdom, in a medieval Danish wall painting.",
+    "creator": "Danish church wall painting (kalkmaleri)",
+    "date": "c. 1375",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valdemar_Atterdag.jpg",
+    "note": "A near-contemporary Danish fresco of Valdemar IV, the dynasty’s great restorer; no single portrait represents the whole house."
+  },
+  "summary": "The dynasty that ruled Denmark for over three centuries, from Sweyn II to the Valdemarian golden age and the eve of the Kalmar Union.",
+  "overview": "The House of Estridsen took the Danish throne with Sweyn II in 1047 and held it, through repeated civil wars, until the early fifteenth century. Its high point was the Valdemarian age, when Valdemar I, Cnut VI, and Valdemar II built a Baltic empire; after a period of collapse, Valdemar IV Atterdag restored the kingdom, and his daughter Margaret I forged the Kalmar Union of the three Scandinavian crowns.",
+  "founder": {
+    "personSlug": "sweyn-ii-estridsson",
+    "displayName": "Sweyn II Estridsson",
+    "note": "Nephew of Cnut the Great; king of Denmark from 1047"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Denmark",
+      "type": "location",
+      "slug": "kingdom-of-denmark"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "sweyn-ii-estridsson",
+      "displayName": "Sweyn II Estridsson",
+      "note": "Founder of the dynasty"
+    },
+    {
+      "personSlug": "cnut-iv-of-denmark",
+      "displayName": "Cnut IV the Holy",
+      "note": "Martyred in 1086; Denmark’s patron saint"
+    },
+    {
+      "personSlug": "niels-of-denmark",
+      "displayName": "Niels",
+      "note": "Last of Sweyn’s five reigning sons"
+    },
+    {
+      "personSlug": "valdemar-i-of-denmark",
+      "displayName": "Valdemar I the Great",
+      "note": "Ended the civil wars and began the Baltic expansion"
+    },
+    {
+      "personSlug": "cnut-vi-of-denmark",
+      "displayName": "Cnut VI",
+      "note": "Extended Danish power over the Wends and north Germany"
+    },
+    {
+      "personSlug": "valdemar-ii-of-denmark",
+      "displayName": "Valdemar II the Victorious",
+      "note": "Baltic conqueror; issued the Law of Jutland"
+    },
+    {
+      "personSlug": "eric-v-of-denmark",
+      "displayName": "Eric V Klipping",
+      "note": "Forced to grant Denmark’s first charter in 1282"
+    },
+    {
+      "personSlug": "valdemar-iv-atterdag",
+      "displayName": "Valdemar IV Atterdag",
+      "note": "Rebuilt the mortgaged kingdom"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "Kalmar Union",
+      "note": "Margaret I, Valdemar IV’s daughter, united Denmark, Norway, and Sweden under one crown from 1397."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Danish royal line of the Estridsens, from Sweyn II through the Valdemarian kings to Valdemar IV Atterdag and Margaret I. Denmark’s repeated succession wars mean several kings were brothers, nephews, or rivals rather than direct heirs; notes flag the exceptions.",
+    "root": {
+      "name": "Sweyn II Estridsson",
+      "personSlug": "sweyn-ii-estridsson",
+      "note": "r. 1047–1076",
+      "children": [
+        {
+          "name": "Harald III Hen",
+          "personSlug": "harald-iii-of-denmark",
+          "note": "r. 1076–1080"
+        },
+        {
+          "name": "Cnut IV the Holy",
+          "personSlug": "cnut-iv-of-denmark",
+          "note": "r. 1080–1086, martyred"
+        },
+        {
+          "name": "Oluf I Hunger",
+          "personSlug": "oluf-i-of-denmark",
+          "note": "r. 1086–1095"
+        },
+        {
+          "name": "Eric I Evergood",
+          "personSlug": "eric-i-of-denmark",
+          "note": "r. 1095–1103",
+          "children": [
+            {
+              "name": "Cnut Lavard",
+              "note": "Duke of Schleswig; murdered 1131",
+              "children": [
+                {
+                  "name": "Valdemar I the Great",
+                  "personSlug": "valdemar-i-of-denmark",
+                  "note": "r. 1157–1182",
+                  "children": [
+                    {
+                      "name": "Cnut VI",
+                      "personSlug": "cnut-vi-of-denmark",
+                      "note": "r. 1182–1202"
+                    },
+                    {
+                      "name": "Valdemar II the Victorious",
+                      "personSlug": "valdemar-ii-of-denmark",
+                      "note": "r. 1202–1241",
+                      "children": [
+                        {
+                          "name": "Eric IV Plowpenny",
+                          "personSlug": "eric-iv-of-denmark",
+                          "note": "r. 1241–1250"
+                        },
+                        {
+                          "name": "Abel",
+                          "personSlug": "abel-of-denmark",
+                          "note": "r. 1250–1252"
+                        },
+                        {
+                          "name": "Christopher I",
+                          "personSlug": "christopher-i-of-denmark",
+                          "note": "r. 1252–1259",
+                          "children": [
+                            {
+                              "name": "Eric V Klipping",
+                              "personSlug": "eric-v-of-denmark",
+                              "note": "r. 1259–1286",
+                              "children": [
+                                {
+                                  "name": "Eric VI Menved",
+                                  "personSlug": "eric-vi-of-denmark",
+                                  "note": "r. 1286–1319"
+                                },
+                                {
+                                  "name": "Christopher II",
+                                  "personSlug": "christopher-ii-of-denmark",
+                                  "note": "r. 1320–1332",
+                                  "children": [
+                                    {
+                                      "name": "Valdemar IV Atterdag",
+                                      "personSlug": "valdemar-iv-atterdag",
+                                      "note": "r. 1340–1375",
+                                      "children": [
+                                        {
+                                          "name": "Margaret I",
+                                          "personSlug": "margaret-i",
+                                          "note": "Founder of the Kalmar Union",
+                                          "branch": "→ Kalmar Union"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Eric II Emune",
+                  "personSlug": "eric-ii-of-denmark",
+                  "note": "r. 1134–1137",
+                  "children": [
+                    {
+                      "name": "Sweyn III",
+                      "personSlug": "sweyn-iii-of-denmark",
+                      "note": "r. 1146–1157, civil war"
+                    }
+                  ]
+                },
+                {
+                  "name": "Eric III Lamb",
+                  "personSlug": "eric-iii-of-denmark",
+                  "note": "r. 1137–1146 (grandson via a daughter)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Niels",
+          "personSlug": "niels-of-denmark",
+          "note": "r. 1104–1134"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty is named for Estrid Svendsdatter, sister of Cnut the Great, whose son Sweyn Estridsson took the Danish throne in 1047 after the North Sea Empire of Cnut’s line collapsed. Sweyn spent decades contesting Denmark with the Norwegian king Harald Hardrada before securing his rule.",
+        "Sweyn had many sons, and an unusual five of them reigned in succession, giving the dynasty a broad but quarrelsome foundation. One, Cnut IV, was killed by rebels in a church at Odense in 1086 and later canonised as Denmark’s first royal saint."
+      ]
+    },
+    {
+      "title": "Civil wars and Valdemar the Great",
+      "paragraphs": [
+        "The early twelfth century dissolved into dynastic civil war among the descendants of Sweyn’s sons, culminating in a three-way struggle between Sweyn III, Cnut V, and Valdemar. Valdemar emerged victorious in 1157 as Valdemar I the Great, ending the bloodshed with the help of his foster-brother, Bishop Absalon of Roskilde.",
+        "Valdemar and Absalon turned Denmark outward, launching campaigns against the pagan Wends of the southern Baltic and founding the fortress that became Copenhagen. The murdered Cnut Lavard, Valdemar’s father, was canonised, binding the dynasty’s legitimacy to sanctity."
+      ]
+    },
+    {
+      "title": "The Valdemarian golden age",
+      "paragraphs": [
+        "Under Cnut VI and especially Valdemar II the Victorious, Denmark became a Baltic power, conquering territories from Holstein to Estonia — Danish tradition held that the national flag, the Dannebrog, fell from heaven at Lyndanisse in 1219. Valdemar II codified the Law of Jutland in 1241, one of medieval Scandinavia’s great law books.",
+        "The empire proved fragile. Valdemar II’s capture by a vassal in 1223 forced him to surrender most of his German conquests, and after his death the kingdom fractured among his feuding sons Eric IV, Abel, and Christopher I."
+      ]
+    },
+    {
+      "title": "Decline and restoration",
+      "paragraphs": [
+        "The later thirteenth century weakened the crown: Eric V Klipping was forced to grant Denmark’s first coronation charter in 1282 and was murdered in 1286, and under Christopher II royal authority collapsed so completely that the kingdom was mortgaged piecemeal to Holstein counts.",
+        "Valdemar IV Atterdag (\"New Day\"), returning in 1340, patiently bought and fought back the pawned kingdom, restored royal power, and recovered Danish influence in the Baltic against the Hanseatic League."
+      ]
+    },
+    {
+      "title": "Legacy and the Kalmar Union",
+      "paragraphs": [
+        "Valdemar IV left no surviving son, but his daughter Margaret I proved the ablest ruler of the age. Through her son and her own regency she gained the crowns of Denmark, Norway, and Sweden, uniting them in the Kalmar Union of 1397 — the political framework of Scandinavia for the next century.",
+        "The Estridsens thus ended not in extinction but in transformation: the dynasty of Danish kings became the root of a united Scandinavian monarchy, and the three lions of Denmark remained its enduring emblem."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1047",
+      "title": "Sweyn II takes the throne",
+      "description": "The Estridsen dynasty begins in Denmark.",
+      "links": [
+        {
+          "title": "Sweyn II Estridsson",
+          "type": "person",
+          "slug": "sweyn-ii-estridsson"
+        }
+      ]
+    },
+    {
+      "date": "1086",
+      "title": "Martyrdom of Cnut IV",
+      "description": "The king is killed at Odense and later becomes Denmark’s patron saint.",
+      "links": [
+        {
+          "title": "Cnut IV the Holy",
+          "type": "person",
+          "slug": "cnut-iv-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "1157",
+      "title": "Valdemar I ends the civil wars",
+      "description": "Victory brings unity and the start of the Baltic expansion.",
+      "links": [
+        {
+          "title": "Valdemar I the Great",
+          "type": "person",
+          "slug": "valdemar-i-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "1219",
+      "title": "The Dannebrog tradition",
+      "description": "The Danish flag is said to fall from heaven during Valdemar II’s Estonian campaign.",
+      "links": [
+        {
+          "title": "Valdemar II the Victorious",
+          "type": "person",
+          "slug": "valdemar-ii-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "1241",
+      "title": "The Law of Jutland",
+      "description": "Valdemar II issues one of medieval Scandinavia’s great law codes."
+    },
+    {
+      "date": "1282",
+      "title": "Denmark’s first charter",
+      "description": "Eric V Klipping is forced to accept limits on royal power.",
+      "links": [
+        {
+          "title": "Eric V Klipping",
+          "type": "person",
+          "slug": "eric-v-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "1340",
+      "title": "Valdemar IV rebuilds the kingdom",
+      "description": "Atterdag begins recovering the mortgaged realm.",
+      "links": [
+        {
+          "title": "Valdemar IV Atterdag",
+          "type": "person",
+          "slug": "valdemar-iv-atterdag"
+        }
+      ]
+    },
+    {
+      "date": "1397",
+      "title": "The Kalmar Union",
+      "description": "Margaret I unites Denmark, Norway, and Sweden."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sweyn II Estridsson",
+        "type": "person",
+        "slug": "sweyn-ii-estridsson",
+        "label": "Founder"
+      },
+      {
+        "title": "Valdemar I the Great",
+        "type": "person",
+        "slug": "valdemar-i-of-denmark",
+        "label": "Ended the civil wars"
+      },
+      {
+        "title": "Valdemar II the Victorious",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Baltic empire; law-giver"
+      },
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag",
+        "label": "Restorer of the kingdom"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "The realm they ruled"
+      },
+      {
+        "title": "Roskilde",
+        "type": "location",
+        "slug": "roskilde",
+        "label": "Where the dynasty's kings were buried"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Estridsen — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Estridsen"
+    },
+    {
+      "title": "Denmark: The Valdemars — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Denmark/The-Valdemars"
+    },
+    {
+      "title": "Sweyn II Estridsen — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sweyn_II_of_Denmark"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/National%20coat%20of%20arms%20of%20Denmark.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The three crowned blue lions of Denmark, the realm’s enduring arms.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_coat_of_arms_of_Denmark.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

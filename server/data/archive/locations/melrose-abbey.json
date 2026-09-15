@@ -1,0 +1,82 @@
+{
+  "id": "melrose-abbey",
+  "type": "location",
+  "locationType": "Abbey",
+  "name": "Melrose Abbey",
+  "year": 1136,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Melrose_Abbey_013.jpg",
+  "summary": "Melrose Abbey was a major Cistercian monastery in the Scottish Borders, later associated with the burial tradition of Robert the Bruce’s heart.",
+  "overview": [
+    "Melrose Abbey was a Cistercian monastery in the Scottish Borders, founded under David I and deeply connected to monastic reform, border society, and royal patronage.",
+    "Later tradition links the abbey to the burial of Robert the Bruce’s heart after Sir James Douglas’s failed journey toward crusade."
+  ],
+  "knownFor": [
+    "Cistercian monasticism",
+    "Bruce heart tradition"
+  ],
+  "imageInfo": {
+    "caption": "Melrose Abbey in the Scottish Borders, burial place of Robert the Bruce’s heart.",
+    "creator": "Globaltraveller",
+    "date": "2004-04",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melrose_Abbey_013.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Melrose Abbey mattered as a Cistercian house in a border region repeatedly affected by Anglo-Scottish war. Its religious life and landed wealth placed it inside both spiritual and political history."
+      ]
+    },
+    {
+      "title": "Medieval history",
+      "paragraphs": [
+        "The abbey was founded in the twelfth century and became one of the great monastic institutions of medieval Scotland. Border warfare damaged such houses, but also made them important custodians of memory and documents."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Bruce heart tradition gave Melrose a lasting place in Scottish royal memory. Whether treated devotionally or historically, the tradition connects death, crusading ideals, and national commemoration."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Melrose Abbey",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Melrose_Abbey_2008.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ]
+  }
+}

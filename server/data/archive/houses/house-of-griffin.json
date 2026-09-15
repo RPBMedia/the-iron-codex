@@ -1,0 +1,174 @@
+{
+  "id": "house-of-griffin",
+  "type": "house",
+  "name": "House of Griffin",
+  "aliases": [
+    "House of Griffin / Kalmar Union monarchy",
+    "House of Griffin",
+    "Griffin",
+    "Griffins",
+    "Griffin dynasty",
+    "Greifen",
+    "Pomeranian dynasty"
+  ],
+  "originYear": 1121,
+  "endYear": 1637,
+  "reignSpan": "Pomerania c.1121–1637; Kalmar Union 1396–1439",
+  "region": "Pomerania & the Kalmar Union",
+  "originPlace": "Duchy of Pomerania",
+  "arms": "Argent, a griffin segreant gules — the griffin of Pomerania.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erik%20I,%201382-1459,%20hertig%20av%20Pommern%20konung%20av%20Danmark%20Norge%20och%20Sverige%20-%20Nationalmuseum%20-%2015058.tif?width=1000",
+  "imageInfo": {
+    "caption": "Eric of Pomerania, the Griffin king of Denmark, Norway, and Sweden in the Kalmar Union.",
+    "creator": "Unknown (Nationalmuseum, Stockholm)",
+    "date": "Later portrait (Eric d. 1459)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erik_I,_1382-1459,_hertig_av_Pommern_konung_av_Danmark_Norge_och_Sverige_-_Nationalmuseum_-_15058.tif",
+    "note": "A later painted portrait of Eric of Pomerania, not a contemporary likeness."
+  },
+  "summary": "The Slavic-origin dynasty of the dukes of Pomerania, whose scion Eric of Pomerania ruled the three kingdoms of the Kalmar Union.",
+  "overview": "The Griffins (Greifen) ruled the Duchy of Pomerania on the southern Baltic from the twelfth century until 1637, taking their name from the griffin on their arms. Their most far-reaching member was Eric of Pomerania, adopted heir of Margaret I, who wore the united crowns of Denmark, Norway, and Sweden before his deposition in 1439.",
+  "founder": {
+    "displayName": "Wartislaw I",
+    "note": "First historically attested Duke of Pomerania (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "eric-of-pomerania",
+      "displayName": "Eric of Pomerania",
+      "note": "King of Denmark, Norway, and Sweden in the Kalmar Union"
+    },
+    {
+      "displayName": "Wartislaw I",
+      "note": "Founding duke of Pomerania, converted in the Wendish mission"
+    },
+    {
+      "displayName": "Bogislaw X",
+      "note": "\"the Great\"; reunited the Pomeranian duchies (late 15th century)"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Griffin dukes of Pomerania, from whom Margaret I’s adopted heir Eric drew his royal claim; only Eric has a Codex article so far.",
+    "root": {
+      "name": "Wartislaw I",
+      "note": "first Duke of Pomerania",
+      "children": [
+        {
+          "name": "the Pomeranian dukes",
+          "note": "the Griffin line",
+          "children": [
+            {
+              "name": "Eric of Pomerania",
+              "personSlug": "eric-of-pomerania",
+              "note": "King of the Kalmar Union, adopted heir of Margaret I"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Griffins emerged as dukes of Pomerania in the early twelfth century, a Slavic-origin dynasty on the frontier where the Holy Roman Empire, Poland, and the pagan Baltic peoples met. Duke Wartislaw I accepted Christianity during the missions of the 1120s, and his descendants held Pomerania — often divided among branches such as Pomerania-Wolgast and Pomerania-Stettin — for five centuries until the line died out in 1637.",
+        "Their emblem, the red griffin, gave the house its name and still appears in the arms of the Pomeranian lands."
+      ]
+    },
+    {
+      "title": "Eric of Pomerania and the Kalmar Union",
+      "paragraphs": [
+        "The dynasty’s greatest prize came through kinship with Denmark. Margaret I, who had united Denmark, Norway, and Sweden, had no surviving child, and she adopted her great-nephew, the Griffin prince Bogislaw, renamed Eric, as heir. Crowned king of the three realms in 1397, Eric ruled the Kalmar Union in his own right after Margaret’s death in 1412.",
+        "His long reign was consumed by wars with the Hanseatic League and the Holstein counts over Schleswig, and by heavy taxation that alienated the Swedes. Rebellion drove him out: deposed in all three kingdoms by 1439, he withdrew to the island of Gotland, from which he raided Baltic shipping as a freebooter before returning at last to Pomerania."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Eric’s fall passed the union crowns first to the Wittelsbach Christopher of Bavaria and then to the House of Oldenburg, but the Griffins kept Pomerania. The duchy remained a Baltic power, contested between Brandenburg and, later, Sweden, until the last Griffin duke died in 1637 during the Thirty Years’ War and the lands were partitioned.",
+        "The house is remembered as the long-lived native dynasty of Pomerania and, briefly, as the ruling family of all three Scandinavian kingdoms."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1397",
+      "title": "Eric crowned in the Kalmar Union",
+      "description": "Margaret I’s Griffin heir is crowned king of Denmark, Norway, and Sweden.",
+      "links": [
+        {
+          "title": "Eric of Pomerania",
+          "type": "person",
+          "slug": "eric-of-pomerania"
+        }
+      ]
+    },
+    {
+      "date": "1439",
+      "title": "Eric deposed",
+      "description": "Rebellion drives him from all three thrones; he retires to Gotland."
+    },
+    {
+      "date": "1637",
+      "title": "End of the Griffin line",
+      "description": "The last Duke of Pomerania dies and the duchy is partitioned."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "The Griffin king of the Kalmar Union"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      },
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Estridsen",
+        "type": "house",
+        "slug": "house-of-estridsen",
+        "label": "Margaret I’s house, from which he inherited the union"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Pomerania — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Pomerania"
+    },
+    {
+      "title": "Eric of Pomerania — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_of_Pomerania"
+    },
+    {
+      "title": "House of Griffin — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Pomerania"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wappen%20Pommern.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of Pomerania — the red griffin on silver — borne by the Griffin dukes.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wappen_Pommern.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

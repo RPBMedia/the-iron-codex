@@ -1,0 +1,182 @@
+{
+  "id": "house-of-wittelsbach",
+  "type": "house",
+  "name": "House of Wittelsbach",
+  "aliases": [
+    "Wittelsbach",
+    "Wittelsbach dynasty",
+    "House of Wittelsbach"
+  ],
+  "originYear": 1180,
+  "endYear": 1918,
+  "reignSpan": "1180–1918 (Bavaria)",
+  "region": "Bavaria & the Rhine Palatinate",
+  "originPlace": "Wittelsbach Castle, Bavaria",
+  "arms": "Quarterly, the golden lion of the Palatinate and the blue-and-white lozenges of Bavaria — the arms of the two Wittelsbach branches.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig_der_Bayer.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Louis IV the Bavarian, the Wittelsbach who was crowned Holy Roman Emperor in 1328, in a later imperial portrait.",
+    "creator": "Later portrait",
+    "date": "Later depiction (Louis IV d. 1347)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_der_Bayer.jpg",
+    "note": "A later idealised portrait of Louis IV in imperial regalia, not a contemporary likeness."
+  },
+  "summary": "The Bavarian dynasty that ruled Bavaria and the Rhenish Palatinate for centuries and produced Emperor Louis IV and Christopher of Bavaria, king of the Kalmar Union.",
+  "overview": "The House of Wittelsbach received the Duchy of Bavaria in 1180 and held it until 1918, later dividing into Bavarian and Palatine branches, the latter becoming electors of the Holy Roman Empire. Its greatest medieval figure, Louis IV, won the imperial crown; a century later the Wittelsbach Christopher of Bavaria was elected king of Denmark, Sweden, and Norway in the Kalmar Union.",
+  "founder": {
+    "displayName": "Otto I, Duke of Bavaria",
+    "note": "Invested with Bavaria in 1180 after the fall of Henry the Lion (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Holy Roman Empire",
+      "type": "location",
+      "slug": "holy-roman-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Louis IV the Bavarian",
+      "note": "Holy Roman Emperor, crowned 1328; beat the Habsburgs at Mühldorf (1322)"
+    },
+    {
+      "personSlug": "christopher-of-bavaria",
+      "displayName": "Christopher of Bavaria",
+      "note": "King of Denmark, Sweden, and Norway in the Kalmar Union, 1440–1448"
+    },
+    {
+      "displayName": "Rupert of the Palatinate",
+      "note": "Elector Palatine and King of the Romans, 1400–1410"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Wittelsbach line from Duke Otto I through the imperial Louis IV and the Palatine branch, with the Kalmar-Union king Christopher of Bavaria; figures without Codex articles are named but not linked.",
+    "root": {
+      "name": "Otto I, Duke of Bavaria",
+      "note": "invested with Bavaria, 1180",
+      "children": [
+        {
+          "name": "Louis IV the Bavarian",
+          "note": "Holy Roman Emperor, r. 1328–1347",
+          "branch": "Bavarian line"
+        },
+        {
+          "name": "Palatine branch",
+          "note": "electors of the Rhine",
+          "children": [
+            {
+              "name": "Christopher of Bavaria",
+              "personSlug": "christopher-of-bavaria",
+              "note": "King of the Kalmar Union, 1440–1448"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Wittelsbachs took their name from a castle in Bavaria and rose as ministerials and counts palatine before Frederick Barbarossa granted the Duchy of Bavaria to Otto I of Wittelsbach in 1180, following the fall of the Welf duke Henry the Lion. From that grant the family held Bavaria without interruption until 1918.",
+        "In the thirteenth century the house divided into two great branches: the dukes of Bavaria and the counts palatine of the Rhine. The Palatine branch gained a vote in the imperial elections, giving the Wittelsbachs a permanent place among the electors of the Holy Roman Empire."
+      ]
+    },
+    {
+      "title": "Louis IV and the imperial crown",
+      "paragraphs": [
+        "The dynasty reached its medieval height with Louis IV, Duke of Bavaria, elected King of the Romans in 1314 against a Habsburg rival and defeating him decisively at Mühldorf in 1322. Crowned emperor in 1328, Louis spent his reign in bitter conflict with the Avignon papacy, which excommunicated him, and with the rising Luxembourg dynasty that would eventually supplant him.",
+        "His acquisition of Brandenburg, Holland, and other territories for his sons overreached the family’s strength and provoked the electors, and after his death the imperial crown passed to the Luxembourg Charles IV."
+      ]
+    },
+    {
+      "title": "Christopher of Bavaria and later fortunes",
+      "paragraphs": [
+        "In 1440 a Wittelsbach of the Palatine line, Christopher of Bavaria, was elected king of Denmark, and soon of Sweden and Norway, briefly wearing all three crowns of the Kalmar Union until his sudden death in 1448 without an heir — an event that opened the Danish throne to the House of Oldenburg.",
+        "The Wittelsbachs never regained the imperial title in the Middle Ages, but they held Bavaria and the Palatinate through every later upheaval, ruling Bavaria as dukes, electors, and finally kings until the German revolutions of 1918."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1180",
+      "title": "Otto I made Duke of Bavaria",
+      "description": "The Wittelsbachs gain Bavaria after the fall of Henry the Lion."
+    },
+    {
+      "date": "1328",
+      "title": "Louis IV crowned emperor",
+      "description": "The Bavarian duke becomes Holy Roman Emperor, in conflict with the papacy."
+    },
+    {
+      "date": "1440",
+      "title": "Christopher elected king",
+      "description": "Christopher of Bavaria is chosen king of the Kalmar Union.",
+      "links": [
+        {
+          "title": "Christopher of Bavaria",
+          "type": "person",
+          "slug": "christopher-of-bavaria"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christopher of Bavaria",
+        "type": "person",
+        "slug": "christopher-of-bavaria",
+        "label": "Wittelsbach king of the Kalmar Union"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire"
+      },
+      {
+        "name": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Luxembourg",
+        "type": "house",
+        "slug": "house-of-luxembourg",
+        "label": "The rival dynasty that took the imperial crown after Louis IV"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Wittelsbach — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/House-of-Wittelsbach"
+    },
+    {
+      "title": "Louis IV, Holy Roman Emperor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_IV,_Holy_Roman_Emperor"
+    },
+    {
+      "title": "Christopher of Bavaria — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christopher_of_Bavaria"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wittelsbach%20Arms.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The quartered arms of the House of Wittelsbach — the golden Palatinate lion and the blue-and-white lozenges of Bavaria.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wittelsbach_Arms.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

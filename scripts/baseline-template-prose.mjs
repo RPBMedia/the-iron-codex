@@ -21,12 +21,12 @@
  */
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { maskedParagraphs, templateHash } from './lib/template-prose.mjs'
+import { loadArchive } from '../server/data/archive.mjs'
 
-const dataUrl = new URL('../server/data/history.json', import.meta.url)
 const baselineUrl = new URL('./lib/template-prose-baseline.json', import.meta.url)
 const init = process.argv.includes('--init')
 
-const data = JSON.parse(readFileSync(dataUrl, 'utf8'))
+const data = loadArchive()
 const groups = new Map()
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries)) continue

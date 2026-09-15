@@ -1,0 +1,86 @@
+{
+  "id": "harzburg",
+  "type": "location",
+  "locationType": "Castle",
+  "name": "Harzburg",
+  "year": 1218,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Harzburg_G%C3%B6tze_Krodo.JPG",
+  "summary": "A castle site in the Harz region where Otto IV died in 1218.",
+  "overview": [
+    "Harzburg was a castle site in the Harz region connected to German royal and princely politics.",
+    "Otto IV died there in 1218 after losing imperial power to Frederick II."
+  ],
+  "knownFor": [
+    "Death of Otto IV",
+    "Welf power",
+    "Holy Roman imperial politics"
+  ],
+  "imageInfo": {
+    "caption": "The ruins of Harzburg in the Harz Mountains, a fortress of Henry IV and later death-place of Otto IV.",
+    "creator": "Anaconda74",
+    "date": "2012-05-04",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harzburg_G%C3%B6tze_Krodo.JPG",
+    "license": "CC0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Harzburg was a royal fortress in the Harz Mountains of central Germany. Henry IV built it as a primary Saxon residence in the 1060s; its destruction by Saxon rebels in 1073 contributed to the conditions that led to the Investiture Controversy.",
+        "Otto IV, Holy Roman Emperor, died at Harzburg in 1218 after his political defeat and imperial eclipse following the Battle of Bouvines in 1214."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Harzburg thus marks both the beginning and the end of important episodes in German imperial history — Henry IV's confrontation with the Saxon nobility and Otto IV's final years after losing imperial legitimacy to Frederick II. The two events are separated by nearly 150 years but both reflect the contested nature of royal authority in the German lands."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Harzburg",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Harzburg_Ruine.jpg"
+    },
+    {
+      "title": "Harzburg reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Harzburg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Otto IV",
+        "type": "person",
+        "slug": "otto-iv",
+        "label": "Death of Otto IV"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Realm of Otto IV"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines"
+      }
+    ]
+  }
+}

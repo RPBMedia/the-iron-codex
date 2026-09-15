@@ -1,0 +1,152 @@
+{
+  "id": "alexander-nevsky",
+  "type": "character",
+  "name": "Alexander Nevsky",
+  "aliases": [
+    "Aleksandr Nevsky",
+    "Alexander Yaroslavich",
+    "Saint Alexander Nevsky"
+  ],
+  "born": 1221,
+  "died": 1263,
+  "deathAge": "about 42",
+  "causeOfDeath": "Alexander died in 1263 on his way home from the Golden Horde, probably worn out and possibly poisoned.",
+  "restingPlace": "Vladimir (later St Petersburg)",
+  "location": "Novgorod and Vladimir",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Alexander_Nevsky%2C_Russian_School_19th-20th_century.jpg",
+  "title": "Prince of Novgorod who defeated the Livonian Order on the ice",
+  "roles": [
+    "Prince of Novgorod",
+    "Grand Prince of Vladimir"
+  ],
+  "birth": {
+    "date": "c. 1221",
+    "place": null
+  },
+  "death": {
+    "date": "14 November 1263",
+    "place": null,
+    "circumstance": "Died returning from the Mongol Horde."
+  },
+  "quickFacts": {
+    "realm": "Novgorod and Vladimir (Rus’)",
+    "dynasty": "Rurikid",
+    "culture": "Orthodox Rus’",
+    "knownFor": "Beat the Livonian Order at the Battle on the Ice"
+  },
+  "imageInfo": {
+    "caption": "Alexander Nevsky, Prince of Novgorod, in a later Russian-school portrait.",
+    "creator": "Russian school",
+    "date": "19th–20th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Nevsky,_Russian_School_19th-20th_century.jpg",
+    "note": "A later idealised portrait; no contemporary likeness survives."
+  },
+  "overview": [
+    "Alexander Nevsky was a prince of Novgorod and grand prince of Vladimir who checked the eastward push of the Baltic crusaders, most famously defeating the Livonian Order on the frozen Lake Peipus in 1242 — the “Battle on the Ice”.",
+    "He is a national hero and saint of Russia, remembered for resisting the Latin West while submitting pragmatically to the Mongols."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alexander Yaroslavich, called Nevsky, was the Rus’ prince who defeated the Swedes on the Neva in 1240 and the Livonian Order on the ice of Lake Peipus in 1242, becoming the great symbol of Orthodox resistance to the Catholic crusaders."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born about 1221 into the Rurikid dynasty, a son of Grand Prince Yaroslav II, Alexander was made prince of the great trading republic of Novgorod as a young man, at the moment the city faced enemies from both west and east."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Alexander was a bold and gifted commander, but his lasting reputation rests on his strategic realism rather than mere valour. He grasped, more clearly than his contemporaries, that Rus’ could not fight the Mongols and the Latin West at once.",
+        "So he made a hard, clear-eyed choice: he fought the Swedes and the German crusading orders who threatened Novgorod and the Orthodox faith, but he submitted to the far mightier Mongol Golden Horde, travelling to their courts and accepting their overlordship to spare his people the devastation that resistance had brought elsewhere. To some this was collaboration; to most Russians it was wisdom.",
+        "Later ages made him a legend — a warrior-saint of the Orthodox Church and, in the 20th century, the hero of Eisenstein’s famous film. The historical Alexander was a shrewd, decisive, and pragmatic ruler who chose which battles to fight, and won the ones he chose."
+      ]
+    },
+    {
+      "title": "The Battle on the Ice",
+      "paragraphs": [
+        "In 1240 Alexander crushed a Swedish force at the mouth of the Neva, winning the byname “Nevsky”. Two years later he turned west against the Livonian Order and the bishop of Dorpat, who had seized Pskov.",
+        "On 5 April 1242, on the frozen surface of Lake Peipus, he met and defeated the crusaders in the clash remembered as the Battle on the Ice — a check that halted the German advance into Orthodox Rus’, though the battle’s scale was later much magnified in legend."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Alexander died in 1263 while returning from the Golden Horde, worn out by the burdens of his balancing act between east and west. He was later canonised as a saint of the Russian Church."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Alexander Nevsky became the enduring symbol of Russian resistance to the West and of pragmatic survival under the Mongols. His victory on the ice fixed the eastern limit of the Baltic crusades.",
+        "For the Livonian Order, Lake Peipus was the frontier that Orthodox Rus’ would not let them cross."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1221",
+      "title": "Born a Rurikid prince",
+      "description": "A son of Grand Prince Yaroslav II of Vladimir."
+    },
+    {
+      "date": "1240",
+      "title": "Victory on the Neva",
+      "description": "Defeats a Swedish force at the Neva, earning the name “Nevsky”."
+    },
+    {
+      "date": "1242",
+      "title": "The Battle on the Ice",
+      "description": "Beats the Livonian Order on the frozen Lake Peipus."
+    },
+    {
+      "date": "1252",
+      "title": "Grand Prince of Vladimir",
+      "description": "Confirmed as grand prince under Mongol overlordship."
+    },
+    {
+      "date": "1263",
+      "title": "Death",
+      "description": "Dies returning from the Golden Horde; later canonised as a saint."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica: Alexander Nevsky",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Alexander-Nevsky"
+    },
+    {
+      "title": "The Northern Crusades",
+      "author": "Eric Christiansen",
+      "type": "book"
+    }
+  ]
+}

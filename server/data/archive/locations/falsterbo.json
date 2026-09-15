@@ -1,0 +1,78 @@
+{
+  "type": "location",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Scania / Danish realm",
+  "knownFor": [
+    "Olaf IV of Norway",
+    "Scania herring markets",
+    "Kalmar Union prelude"
+  ],
+  "overview": [
+    "A Scanian town and market landscape where Olaf IV died suddenly in 1387."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Falsterbo on the Scanian coast (then part of Denmark) was one of the most commercially significant seasonal markets in the Baltic region, dominated by the Hanseatic League's herring trade. Olaf IV of Norway died there suddenly in 1387."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Olaf IV's unexpected death at Falsterbo — he was only about seventeen — created the succession crisis that Margaret I exploited to consolidate her position as ruler of Denmark, Norway, and eventually Sweden. The Kalmar Union, which she engineered in 1397, was the direct political consequence of Olaf's death at Falsterbo."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Falsterbo",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Falsterbohus_ruin.jpg"
+    },
+    {
+      "title": "Falsterbo reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Falsterbo"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Olaf IV of Norway",
+        "type": "person",
+        "slug": "olaf-iv-of-norway",
+        "label": "Death of Olaf IV of Norway"
+      },
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Realm of Olaf IV of Norway"
+      }
+    ]
+  },
+  "id": "falsterbo",
+  "name": "Falsterbo",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Falsterbohus_ruin.jpg",
+  "summary": "A Scanian town and market landscape where Olaf IV died suddenly in 1387.",
+  "imageInfo": {
+    "caption": "A Scanian town and market landscape where Olaf IV died suddenly in 1387.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falsterbohus_ruin.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

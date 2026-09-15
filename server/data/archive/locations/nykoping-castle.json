@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Castle",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Valdemar of Sweden",
+    "Nyköping Banquet",
+    "Swedish dynastic politics"
+  ],
+  "overview": [
+    "A Swedish royal castle associated with Valdemar of Sweden's confinement and later dynastic conflict."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Nyköping Castle in Södermanland was the site of the Nyköping Banquet in December 1317, when King Birger of Sweden imprisoned his brothers Valdemar and Erik at a Christmas feast. Their subsequent confinement and death became one of the most infamous episodes of treachery in Swedish royal history."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Nyköping Banquet destroyed Birger's political position. His brothers' deaths provoked a Swedish noble uprising that deposed him and led to the accession of Magnus Eriksson in 1319. The castle's name became synonymous with royal betrayal in Swedish historical memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Nykoping Castle",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Nyk%C3%B6pingshus_2014.jpg"
+    },
+    {
+      "title": "Nykoping Castle reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Nykoping_Castle"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Valdemar of Sweden",
+        "type": "person",
+        "slug": "valdemar-of-sweden",
+        "label": "Death of Valdemar of Sweden"
+      },
+      {
+        "title": "Magnus III of Sweden",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden"
+      },
+      {
+        "title": "Birger Magnusson",
+        "type": "person",
+        "slug": "birger-magnusson"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "nykoping-castle",
+  "name": "Nykoping Castle",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/NykopingsHus_hus_2_Porthus_ut3.jpg",
+  "summary": "A Swedish royal castle associated with Valdemar of Sweden's confinement and later dynastic conflict.",
+  "imageInfo": {
+    "caption": "Nyköping Castle (Nyköpingshus), site of the 1317 Nyköping Banquet.",
+    "creator": "Lintoncat",
+    "date": "2011-09-26",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NykopingsHus_hus_2_Porthus_ut3.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

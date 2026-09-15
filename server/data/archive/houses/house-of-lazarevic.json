@@ -1,0 +1,185 @@
+{
+  "id": "house-of-lazarevic",
+  "type": "house",
+  "name": "House of Lazarević",
+  "aliases": [
+    "Lazarević",
+    "Lazarevic",
+    "House of Lazarević",
+    "Lazarević dynasty"
+  ],
+  "originYear": 1371,
+  "endYear": 1427,
+  "reignSpan": "1371–1427",
+  "region": "Moravian Serbia",
+  "originPlace": "Serbia",
+  "arms": "Gules, a double-headed eagle argent — the Serbian eagle borne by the Lazarević despots.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Despot%20Stefan%20Lazarevi%C4%87,%20Manasija.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Despot Stefan Lazarević, in a contemporary fresco in his monastery of Manasija (Resava), painted c. 1415–1418.",
+    "creator": "Fresco, Manasija monastery",
+    "date": "c. 1415–1418",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Despot_Stefan_Lazarevi%C4%87,_Manasija.jpg",
+    "note": "A contemporary Serbian church fresco of the despot, painted in his own foundation during his lifetime."
+  },
+  "summary": "The Serbian princely house that led Moravian Serbia after the fall of the Nemanjić empire — Prince Lazar, who died at Kosovo, and his son the despot Stefan Lazarević.",
+  "overview": "After the Serbian Empire disintegrated, Prince Lazar Hrebeljanović built the strongest of the successor states in the Morava valley, and died fighting the Ottomans at the Battle of Kosovo in 1389. His son Stefan Lazarević, as Despot of Serbia, balanced Ottoman overlordship against a brilliant cultural revival, moving his capital to Belgrade and earning renown as a soldier and a writer.",
+  "founder": {
+    "displayName": "Lazar Hrebeljanović",
+    "note": "Prince of Moravian Serbia; died at the Battle of Kosovo, 1389 (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "displayName": "Lazar Hrebeljanović",
+      "note": "Founding prince; fell at Kosovo in 1389"
+    },
+    {
+      "personSlug": "stefan-lazarevic",
+      "displayName": "Stefan Lazarević",
+      "note": "Despot of Serbia; soldier, writer, and builder of Manasija"
+    },
+    {
+      "displayName": "Milica",
+      "note": "Lazar’s widow; regent for the young Stefan"
+    }
+  ],
+  "familyTree": {
+    "caption": "The short-lived Lazarević line: Prince Lazar and his widow Milica, and their son the despot Stefan, who died without an heir. ⚭ marks a marriage.",
+    "root": {
+      "name": "Lazar Hrebeljanović",
+      "note": "Prince of Serbia, d. 1389",
+      "spouse": {
+        "name": "Milica",
+        "note": "regent after Kosovo",
+        "personSlug": "milica-of-serbia"
+      },
+      "children": [
+        {
+          "name": "Stefan Lazarević",
+          "personSlug": "stefan-lazarevic",
+          "note": "Despot of Serbia, d. 1427"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house rose amid the wreckage of the Serbian Empire. After the death of Emperor Dušan the empire splintered, and the Serbian defeat at Marica in 1371 destroyed the power of the southern lords. Into that vacuum stepped Lazar Hrebeljanović, a nobleman of the Morava valley who gathered the strongest of the Serbian statelets and won recognition as the leading prince, ruling from Kruševac.",
+        "Lazar allied with the Church and other Serbian and Bosnian lords to resist the advancing Ottomans, and his reign became the last stand of an independent Serbia."
+      ]
+    },
+    {
+      "title": "Kosovo and the despot Stefan",
+      "paragraphs": [
+        "In 1389 Lazar met the Ottoman sultan Murad I at the Battle of Kosovo. Both rulers died in the fighting — Murad assassinated, Lazar captured and executed — and though the battle was militarily indecisive it passed into Serbian memory as a sacred national catastrophe. Lazar’s young son Stefan, at first under his mother Milica’s regency, became an Ottoman vassal, and fought in the sultan’s armies at the Battle of Nicopolis in 1396 and at Ankara in 1402.",
+        "The Ottoman collapse at Ankara, where Timur shattered Sultan Bayezid, freed Stefan’s hand. He took the Byzantine title of despot, threw off close Ottoman control, and moved his capital to Belgrade."
+      ]
+    },
+    {
+      "title": "A golden autumn",
+      "paragraphs": [
+        "Stefan Lazarević presided over a remarkable cultural flowering — often called the Resava or Morava school — founding the fortified monastery of Manasija as a centre of learning and manuscript production. He was himself an author, whose lyrical \"Slovo ljubve\" (\"Discourse on Love\") is a landmark of medieval Serbian literature, and a knight of the Order of the Dragon.",
+        "He died without a son in 1427, and the despotate passed to his nephew Đurađ Branković — the last flowering of independent Serbia before the Ottoman conquest completed in 1459."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1389",
+      "title": "Battle of Kosovo",
+      "description": "Prince Lazar dies fighting Murad I; the despotate passes to his son Stefan.",
+      "links": [
+        {
+          "title": "Battle of Kosovo",
+          "type": "event",
+          "slug": "battle-of-kosovo"
+        }
+      ]
+    },
+    {
+      "date": "1402",
+      "title": "Stefan gains autonomy",
+      "description": "After the Ottoman defeat at Ankara, Stefan takes the title of despot and moves his capital to Belgrade.",
+      "links": [
+        {
+          "title": "Stefan Lazarević",
+          "type": "person",
+          "slug": "stefan-lazarevic"
+        }
+      ]
+    },
+    {
+      "date": "1427",
+      "title": "Death of Stefan",
+      "description": "The despot dies without an heir; Serbia passes to the Branković family."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Stefan Lazarević",
+        "type": "person",
+        "slug": "stefan-lazarevic",
+        "label": "Despot of Serbia"
+      },
+      {
+        "title": "Princess Milica of Serbia",
+        "type": "person",
+        "slug": "milica-of-serbia",
+        "label": "Princess and regent, wife of Prince Lazar"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Where his father Lazar fell, 1389"
+      },
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Stefan fought as an Ottoman vassal, 1396"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Osman",
+        "type": "house",
+        "slug": "house-of-osman",
+        "label": "The Ottoman dynasty they served and resisted"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Stefan Lazarević — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Stefan-Lazarevic"
+    },
+    {
+      "title": "Stefan Lazarević — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stefan_Lazarevi%C4%87"
+    },
+    {
+      "title": "Moravian Serbia — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Moravian_Serbia"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Moravian%20Serbia.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Lazarević despots of Moravian Serbia — the white Serbian double-headed eagle on red.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Moravian_Serbia.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

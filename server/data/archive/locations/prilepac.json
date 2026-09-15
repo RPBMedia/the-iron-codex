@@ -1,0 +1,81 @@
+{
+  "id": "prilepac",
+  "type": "location",
+  "name": "Prilepac",
+  "locationType": "Fortress / locality",
+  "year": "Medieval period",
+  "kingdom": "Principality of Serbia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Novo_Brdo_Serbia1.jpg",
+  "summary": "A Serbian fortress locality traditionally associated with Prince Lazar’s birth.",
+  "overview": [
+    "A Serbian fortress locality traditionally associated with Prince Lazar’s birth."
+  ],
+  "knownFor": [
+    "Prince Lazar tradition",
+    "Medieval Serbia",
+    "Kosovo memory"
+  ],
+  "imageInfo": {
+    "caption": "A medieval Serbian fortress of the kind that defined the southern Serbian lands of Prince Lazar’s early career.",
+    "creator": "Brad Arlington",
+    "date": "2007-07-08",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Novo_Brdo_Serbia1.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Prilepac was a Serbian fortress locality in the southern Serbian lands traditionally associated with the early life of Prince Lazar Hrebeljanović, who died at the Battle of Kosovo in 1389. The site reflects the geography of Serbian noble power in the fragmented lands that followed Stefan Dušan's death."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Prilepac's significance in IronCodex is primarily its connection to Prince Lazar's biography. The Serbian noble landscape of the mid-fourteenth century — contested fortresses, competing lords, and the looming Ottoman threat — is the context that Prilepac represents."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Prilepac",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Prilepac.jpg"
+    },
+    {
+      "title": "Prilepac reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Prilepac"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Prince Lazar",
+        "type": "person",
+        "slug": "prince-lazar",
+        "label": "Birthplace of Prince Lazar"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Principality of Serbia",
+        "type": "location",
+        "slug": "principality-of-serbia",
+        "label": "Containing realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Connected to Prince Lazar"
+      }
+    ]
+  }
+}

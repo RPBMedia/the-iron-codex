@@ -1,0 +1,188 @@
+{
+  "id": "house-of-welf",
+  "type": "house",
+  "name": "House of Welf",
+  "aliases": [
+    "Welf",
+    "House of Welf",
+    "Welf dynasty",
+    "Welfs",
+    "Guelph",
+    "Guelf"
+  ],
+  "originYear": 1070,
+  "endYear": 1918,
+  "reignSpan": "medieval dukes; imperial 1198–1218",
+  "region": "Saxony, Bavaria & Brunswick",
+  "originPlace": "Swabia & Bavaria",
+  "arms": "Gules, two lions passant guardant or — the lions of the Welfs, later the arms of Brunswick.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Otto_IV._und_Papst_Innocenz_III._reichen_sich_vor_den_ankommenden_Schiffen_Friedrichs_II._die_H%C3%A4nde.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Otto IV, the only Welf Holy Roman Emperor, with Pope Innocent III, in a c.1450 illustrated chronicle.",
+    "creator": "Workshop of Diebold Lauber",
+    "date": "c. 1450 (Otto IV d. 1218)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otto_IV._und_Papst_Innocenz_III._reichen_sich_vor_den_ankommenden_Schiffen_Friedrichs_II._die_H%C3%A4nde.jpg",
+    "note": "A later manuscript miniature depicting Otto IV and the pope, not a contemporary portrait."
+  },
+  "summary": "One of the oldest German dynasties — dukes of Saxony and Bavaria, rivals of the Hohenstaufen, and, in Otto IV, the only Welf to wear the imperial crown.",
+  "overview": "The Welfs were among the greatest princely families of the medieval Empire. Under Henry the Lion they ruled both Saxony and Bavaria and colonised the German east, until their rivalry with the Hohenstaufen brought Henry’s fall. His son Otto IV briefly won the imperial crown before losing it after the Battle of Bouvines. The family survived as dukes of Brunswick-Lüneburg and, centuries later, gave Britain the House of Hanover.",
+  "founder": {
+    "displayName": "Henry the Lion",
+    "note": "Duke of Saxony and Bavaria; the towering Welf prince of the 12th century (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Holy Roman Empire",
+      "type": "location",
+      "slug": "holy-roman-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Henry the Lion",
+      "note": "Duke of Saxony and Bavaria; founder of Munich and Lübeck"
+    },
+    {
+      "personSlug": "otto-iv",
+      "displayName": "Otto IV",
+      "note": "The only Welf Holy Roman Emperor, crowned 1209; defeated at Bouvines"
+    },
+    {
+      "displayName": "Welf VI",
+      "note": "Duke of Spoleto; an earlier head of the Italian Welf lands"
+    }
+  ],
+  "familyTree": {
+    "caption": "The imperial Welf line: Henry the Lion’s son Otto IV won and then lost the Empire; only Otto IV has a Codex article so far.",
+    "root": {
+      "name": "Henry the Lion",
+      "note": "Duke of Saxony and Bavaria, d. 1195",
+      "children": [
+        {
+          "name": "Otto IV",
+          "personSlug": "otto-iv",
+          "note": "Holy Roman Emperor, r. 1209–1218"
+        },
+        {
+          "name": "Henry V",
+          "note": "Count Palatine of the Rhine"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Welfs were an ancient Frankish-Swabian family who, by marriage and inheritance, gathered the duchies of Bavaria and later Saxony. Their name became a byword for a whole political tradition: in Italy the pro-papal \"Guelph\" party took its name from the Welfs, set against the \"Ghibelline\" supporters of the Hohenstaufen emperors.",
+        "The house reached its zenith under Henry the Lion, who ruled Saxony and Bavaria together, pushed German settlement eastward into Slavic lands, and founded cities including Munich and Lübeck."
+      ]
+    },
+    {
+      "title": "Henry the Lion and the fall",
+      "paragraphs": [
+        "Henry the Lion’s power rivalled that of the emperor himself, and his refusal to support his cousin Frederick Barbarossa in Italy led to his downfall: in 1180 he was stripped of his duchies, which were broken up, and driven into exile in England, where his marriage to a daughter of Henry II tied the Welfs to the Angevin kings.",
+        "The family kept its allodial lands around Brunswick, and from that base Henry’s sons contended again for the highest prizes of the Empire."
+      ]
+    },
+    {
+      "title": "Otto IV and the imperial crown",
+      "paragraphs": [
+        "In the disputed succession after 1197 the Welf Otto IV was elected king against the Hohenstaufen Philip of Swabia, and after years of civil war he was crowned Holy Roman Emperor in 1209 by Pope Innocent III. The alliance soon broke: Otto invaded papal Italy, was excommunicated, and faced the young Hohenstaufen Frederick II, whom the pope now backed.",
+        "Otto’s bid collapsed at the Battle of Bouvines in 1214, where he fought alongside King John of England and was routed by Philip II of France. He lost the Empire to Frederick II and died in 1218. The Welfs endured as dukes of Brunswick-Lüneburg, and in 1714 a descendant became King George I of Great Britain as the House of Hanover."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1180",
+      "title": "Fall of Henry the Lion",
+      "description": "Frederick Barbarossa strips the Welf duke of Saxony and Bavaria."
+    },
+    {
+      "date": "1209",
+      "title": "Otto IV crowned emperor",
+      "description": "The Welf is crowned Holy Roman Emperor by Innocent III.",
+      "links": [
+        {
+          "title": "Otto IV",
+          "type": "person",
+          "slug": "otto-iv"
+        }
+      ]
+    },
+    {
+      "date": "1214",
+      "title": "Battle of Bouvines",
+      "description": "Otto IV is defeated with the English and loses the Empire to Frederick II.",
+      "links": [
+        {
+          "title": "Battle of Bouvines",
+          "type": "event",
+          "slug": "battle-of-bouvines"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Otto IV",
+        "type": "person",
+        "slug": "otto-iv",
+        "label": "The only Welf emperor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "Otto IV’s decisive defeat, 1214"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Hohenstaufen",
+        "type": "house",
+        "slug": "house-of-hohenstaufen",
+        "label": "Their great imperial rivals"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Welf dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Welf-dynasty"
+    },
+    {
+      "title": "Otto IV, Holy Roman Emperor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Otto_IV,_Holy_Roman_Emperor"
+    },
+    {
+      "title": "House of Welf — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Welf"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Brunswick-L%C3%BCneburg.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Welf duchy of Brunswick-Lüneburg — the two gold Brunswick lions impaled with the blue lion of Lüneburg.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Brunswick-Lüneburg.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Region",
+  "year": "Medieval period",
+  "kingdom": "Ireland",
+  "knownFor": [
+    "Magnus Barefoot",
+    "Irish Sea politics",
+    "Norwegian campaigning"
+  ],
+  "overview": [
+    "The northern Irish region where Magnus Barefoot was killed during campaigning in 1103."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ulster, the northern Irish province, was the site where Magnus Barefoot of Norway was killed in 1103 during a campaign to extend Norwegian power in the Irish Sea region. His death ended Norwegian royal adventurism in Ireland."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Magnus Barefoot's campaigns in Scotland, Man, and Ireland represent the last phase of active Norwegian royal involvement in the Irish Sea world. After his death in Ulster, Norwegian influence in the region declined, though Orkney and the Western Isles remained under Norwegian sovereignty until the later medieval period."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Ulster",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ulster_location_map.svg"
+    },
+    {
+      "title": "Ulster reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Ulster"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Magnus Barefoot",
+        "type": "person",
+        "slug": "magnus-barefoot",
+        "label": "Death of Magnus Barefoot"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
+      },
+      {
+        "title": "Øystein I of Norway",
+        "type": "person",
+        "slug": "oystein-i-of-norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm of Magnus Barefoot"
+      }
+    ]
+  },
+  "id": "ulster",
+  "name": "Ulster",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Dunluce_Castle_Northern_Ireland_1.jpg",
+  "summary": "The northern Irish region where Magnus Barefoot was killed during campaigning in 1103.",
+  "imageInfo": {
+    "caption": "Dunluce Castle in Ulster; the northern Irish province where Magnus Barefoot of Norway was killed in 1103.",
+    "creator": "Iain Irwin",
+    "date": "2018-03-03",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunluce_Castle_Northern_Ireland_1.jpg",
+    "license": "CC BY-SA 4.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

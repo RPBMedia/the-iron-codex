@@ -1,0 +1,174 @@
+{
+  "id": "merovingian-dynasty",
+  "type": "house",
+  "name": "Merovingian dynasty",
+  "aliases": [
+    "Merovingian (last)",
+    "Merovingian",
+    "Merovingians",
+    "Merovingian dynasty",
+    "Meroving"
+  ],
+  "originYear": 450,
+  "endYear": 751,
+  "reignSpan": "c. 450–751",
+  "region": "Francia (Gaul)",
+  "originPlace": "Northern Gaul (the Salian Franks)",
+  "arms": "None — the Merovingians ruled before heraldry; their kings were the reges criniti, the \"long-haired kings.\"",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Master_Of_Saint_Gilles_-_The_Baptism_of_Clovis_-_WGA14482.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The Baptism of Clovis I, founder of the Christian Frankish monarchy, painted by the Master of Saint Gilles (c. 1500).",
+    "creator": "Master of Saint Gilles",
+    "date": "c. 1500 (Clovis baptised c. 496–508)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Master_Of_Saint_Gilles_-_The_Baptism_of_Clovis_-_WGA14482.jpg",
+    "note": "A later panel painting (National Gallery, London) imagining the baptism; not a contemporary record."
+  },
+  "summary": "The first royal dynasty of the Franks, which ruled Gaul from the fifth century until 751 — the line of Clovis I, ended by the deposition of Childeric III.",
+  "overview": "The Merovingians were the founding dynasty of Frankish Gaul, named after the semi-legendary Merovech. Under Clovis I they united the Frankish tribes, conquered most of Roman Gaul, and adopted Catholic Christianity. Later Merovingian kings gradually lost real power to the Mayors of the Palace, and in 751 the last of them, Childeric III, was deposed by the Carolingian Pepin the Short.",
+  "founder": {
+    "displayName": "Clovis I",
+    "note": "United the Franks and converted to Catholic Christianity (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "displayName": "Clovis I",
+      "note": "r. 481–511; united the Franks and was baptised a Catholic"
+    },
+    {
+      "displayName": "Dagobert I",
+      "note": "r. 629–639; the last Merovingian to rule with real authority"
+    },
+    {
+      "personSlug": "childeric-iii",
+      "displayName": "Childeric III",
+      "note": "The last Merovingian king, deposed in 751"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Merovingian line from its legendary origin to its fall; kinship across the intervening centuries is compressed here, and only the last king, Childeric III, has a Codex article.",
+    "root": {
+      "name": "Merovech",
+      "note": "semi-legendary ancestor who gave the dynasty its name",
+      "children": [
+        {
+          "name": "Childeric I",
+          "note": "king of the Salian Franks, d. c. 481",
+          "children": [
+            {
+              "name": "Clovis I",
+              "note": "united the Franks; baptised a Catholic",
+              "branch": "many kings follow over 250 years",
+              "children": [
+                {
+                  "name": "Dagobert I",
+                  "note": "last strong Merovingian, d. 639",
+                  "children": [
+                    {
+                      "name": "Childeric III",
+                      "personSlug": "childeric-iii",
+                      "note": "last Merovingian; deposed 751"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty took its name from Merovech, a shadowy fifth-century leader of the Salian Franks; the first firmly historical king is his descendant Childeric I, buried at Tournai with a spectacular treasure of gold and garnet. Merovingian kingship was marked by a distinctive symbol: the kings alone wore their hair long and uncut, the reges criniti or \"long-haired kings,\" a sign of their royal blood.",
+        "From a base in northern Gaul the family expanded rapidly as Roman power collapsed, absorbing rival Frankish kingdoms and Gallo-Roman territory."
+      ]
+    },
+    {
+      "title": "Clovis and the Christian kingdom",
+      "paragraphs": [
+        "Clovis I, who reigned from 481 to 511, transformed the Franks into the dominant power of Gaul: he defeated the last Roman commander at Soissons, crushed the Alemanni, and drove the Visigoths beyond the Pyrenees. His conversion from paganism to Catholic Christianity — sealed by his baptism at Reims by Bishop Remigius — aligned the Frankish monarchy with the Gallo-Roman Church and set it apart from the Arian kingdoms around it.",
+        "After Clovis the kingdom was repeatedly divided among his heirs into the sub-kingdoms of Neustria, Austrasia, and Burgundy, producing a violent politics of partition, reunion, and feud that the chronicler Gregory of Tours recorded in vivid detail."
+      ]
+    },
+    {
+      "title": "Decline and the fall of Childeric III",
+      "paragraphs": [
+        "By the later seventh century real power had passed from the kings to the Mayors of the Palace, the chief officials of the royal household. The Arnulfing–Pippinid family — the future Carolingians — made the office hereditary and ruled in the kings’ name, while the Merovingians became figureheads later mocked as the rois fainéants, the \"do-nothing kings.\"",
+        "The dynasty ended in 751 when the mayor Pepin the Short, with the sanction of the papacy, deposed the last Merovingian, Childeric III, and had himself made king — replacing the long-haired line with the Carolingian dynasty and cutting Childeric’s hair before shutting him in a monastery."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 496",
+      "title": "Baptism of Clovis",
+      "description": "Clovis I converts to Catholic Christianity, binding the Franks to the Church."
+    },
+    {
+      "date": "511",
+      "title": "Death of Clovis",
+      "description": "The kingdom is divided among his sons, beginning the pattern of partition."
+    },
+    {
+      "date": "751",
+      "title": "Childeric III deposed",
+      "description": "Pepin the Short ends the dynasty and founds the Carolingian line.",
+      "links": [
+        {
+          "title": "Childeric III",
+          "type": "person",
+          "slug": "childeric-iii"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Childeric III",
+        "type": "person",
+        "slug": "childeric-iii",
+        "label": "The last Merovingian king"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The later kingdom grown from Frankish Gaul"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Carolingian dynasty",
+        "type": "house",
+        "slug": "house-of-carolingian",
+        "label": "The mayors of the palace who supplanted them in 751"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Merovingian dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Merovingian-dynasty"
+    },
+    {
+      "title": "Clovis I — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Clovis_I"
+    },
+    {
+      "title": "Merovingian dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Merovingian_dynasty"
+    }
+  ]
+}

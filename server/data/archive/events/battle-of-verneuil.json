@@ -1,0 +1,204 @@
+{
+  "id": "battle-of-verneuil",
+  "type": "event",
+  "name": "Battle of Verneuil",
+  "year": 1424,
+  "location": "Verneuil-sur-Avre, Normandy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vigiles_du_roi_Charles_VII_49.jpg",
+  "imageInfo": {
+    "caption": "The battle of Verneuil (1424), miniature from Martial d'Auvergne's Vigiles de Charles VII, c. 1484.",
+    "creator": "Unknown miniaturist",
+    "date": "c. 1484",
+    "source": "Bibliothèque nationale de France, Ms. Français 5054 — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vigiles_du_roi_Charles_VII_49.jpg",
+    "note": "A French manuscript depiction made six decades after the battle; public domain."
+  },
+  "summary": "John, Duke of Bedford, destroyed a combined French and Scottish army at Verneuil in 1424 — a Lancastrian victory so complete that contemporaries called it a second Agincourt.",
+  "details": "Fought on 17 August 1424, Verneuil was the bloodiest defeat inflicted on the Dauphinist cause between Agincourt and the war's turn at Orléans. Bedford's English army met a larger Franco-Scottish force in open battle north of the town. The Scottish contingent, some six thousand strong under the Earls of Douglas and Buchan, had refused quarter and received none: it was annihilated, and with it Scotland's army in France.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "John, Duke of Bedford",
+      "faction": "English army",
+      "personId": "john-duke-of-bedford"
+    },
+    {
+      "name": "John Stewart, Earl of Buchan",
+      "faction": "Franco-Scottish army"
+    },
+    {
+      "name": "Archibald Douglas, 4th Earl of Douglas",
+      "faction": "Franco-Scottish army"
+    }
+  ],
+  "outcome": "Decisive English victory; the Scottish army in France was annihilated and its commanders killed.",
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John, Duke of Bedford",
+          "type": "person",
+          "slug": "john-duke-of-bedford"
+        }
+      ],
+      "strength": {
+        "display": "c. 8,000–9,000",
+        "confidence": "estimated",
+        "note": "The English won a hard defensive victory sometimes called \"a second Agincourt\"."
+      }
+    },
+    {
+      "side": "Franco-Scottish army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John Stewart, Earl of Buchan",
+          "type": "person",
+          "note": "No article yet: constable of France and commander of the Scottish army in French service, killed in the battle."
+        },
+        {
+          "name": "Archibald Douglas, 4th Earl of Douglas",
+          "type": "person",
+          "note": "No article yet: duke of Touraine, killed here alongside Buchan; the defeat effectively ended the Scottish expeditionary army in France."
+        }
+      ],
+      "strength": {
+        "display": "c. 14,000–16,000 (debated)",
+        "confidence": "debated",
+        "note": "The larger Franco-Scottish army was shattered; the Scottish contingent was almost annihilated. Figures are estimates."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of Verneuil, fought on 17 August 1424 outside Verneuil-sur-Avre on the southern edge of Normandy, was the greatest English field victory of the war after Agincourt — contemporaries on both sides called it exactly that, a \"second Agincourt\". John, Duke of Bedford, regent of Lancastrian France for the infant Henry VI, met the main Dauphinist field army, stiffened by the largest Scottish expeditionary force ever sent to the continent, and destroyed it.",
+        "Unlike Agincourt, Verneuil was a battle both sides chose. The Franco-Scottish command believed its numbers, its Lombard armoured cavalry, and the Scots' hatred of the English would carry the day. The result instead confirmed English military dominance for another five years and left the Dauphin Charles without a field army worth the name."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Henry V had died in August 1422, followed within weeks by Charles VI. The Treaty of Troyes made the infant Henry VI king of both realms, with Bedford governing France from Rouen. South of the Loire, the disinherited Dauphin Charles maintained his rival court, and Scotland — England's old enemy — supplied him with soldiers by the thousand. A Scottish army under the Earl of Buchan had already beaten the English at Baugé in 1421, where Henry V's brother Thomas, Duke of Clarence, was killed.",
+        "In August 1424 the allies assembled at Le Mans perhaps fourteen to sixteen thousand men — French men-at-arms under the Viscount of Narbonne and the Duke of Alençon, Buchan's and Douglas's Scots, and a corps of Lombard mercenary cavalry in the new Italian plate armour. Verneuil, an English-held border town, was taken by a ruse; Bedford marched south from Rouen with roughly eight to ten thousand men to take it back, and the allies decided to stand and fight."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Bedford deployed in the proven English manner: dismounted men-at-arms in two divisions, archers on the wings and in front behind driven stakes, the baggage laagered to the rear under an archer guard. The battle opened with a shock the English system had not faced before — the Lombard heavy cavalry charged straight through the archer screen on one wing, the stakes failing in the hard summer ground, and rode on to plunder the baggage train.",
+        "It should have been the beginning of a rout. Instead the English line closed ranks and fought. Bedford's division ground down Narbonne's French; the reserve of two thousand archers, kept back precisely for such a crisis, threw the returning Lombards off the field and then swung into the flank of the Scots. Douglas's and Buchan's men, who had taunted the English before the battle that they would give no quarter, were surrounded and cut down where they stood. Both earls died; so did Narbonne, whose body was afterwards quartered for his part in the murder of John the Fearless."
+      ]
+    },
+    {
+      "title": "The Scottish catastrophe",
+      "paragraphs": [
+        "Verneuil ended Scotland's war in France. Of roughly six thousand Scots, contemporary estimates put the dead at four thousand or more, including Buchan — Constable of France since Baugé — and Douglas, created Duke of Touraine only months before. No Scottish army of comparable size ever crossed to the continent again; survivors were folded into French service as individual companies, the nucleus of what became the Garde Écossaise.",
+        "For the Dauphin the defeat was numerically worse than Agincourt had been for his father's generation. Perhaps seven thousand of his soldiers were dead against a few hundred English casualties, and the lords of his party — Alençon captured, Narbonne dead, Aumale dead — were swept from the board at a stroke."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Bedford used the victory methodically, as he did everything: Maine was overrun in the following two years, and English garrisons pushed to the Loire. Yet Verneuil also marked the limit of what battlefield victory could achieve. The Dauphin's cause survived because it rested on the loyalty of southern France, not on any single army, and Bedford lacked the men and money to conquer beyond the Loire.",
+        "Militarily, Verneuil vindicated the English tactical system one final time at full scale — and exposed its dependence on circumstances. The Lombard charge had shown that determined plate-armoured cavalry could ride through the archers; only discipline and the tactical reserve had saved Bedford. When the war turned at Orléans and Patay five years later, French commanders had learned to attack before the English position was set. Verneuil was the last great battle the old system won."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Vigiles de Charles VII miniature",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Vigiles_du_roi_Charles_VII_49.jpg"
+    },
+    {
+      "title": "Battle of Verneuil — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Verneuil"
+    },
+    {
+      "title": "The Battle of Verneuil (17 August 1424): Towards a History of Courage",
+      "author": "Michael K. Jones, War in History 9/4 (2002)",
+      "type": "academic article",
+      "note": "The standard modern study of the battle."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "The conquest he began was defended here"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Rouen",
+        "type": "event",
+        "slug": "siege-of-rouen",
+        "label": "The conquest of Normandy, 1418–19"
+      },
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "The victory it was compared to"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "The province it secured"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "The war turns at Orléans",
+    "battleSlug": "siege-of-orleans",
+    "relationship": "same-war",
+    "reason": "Verneuil gave Lancastrian France five more years of dominance; when the English pushed to the Loire and besieged Orléans in 1428, Joan of Arc's relief of the city turned the entire war against them."
+  }
+}

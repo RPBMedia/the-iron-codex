@@ -1,0 +1,162 @@
+{
+  "id": "house-of-ui-imair",
+  "type": "house",
+  "name": "Uí Ímair",
+  "aliases": [
+    "Uí Ímair",
+    "Ui Imair",
+    "House of Ivar",
+    "Dynasty of Ívarr",
+    "Uí Ímair dynasty",
+    "Ivar dynasty"
+  ],
+  "originYear": 853,
+  "endYear": 1094,
+  "reignSpan": "Dublin & York, 9th–11th centuries",
+  "region": "The Irish Sea world — Dublin & York",
+  "originPlace": "The Viking sea-kingdoms",
+  "arms": "None — the Viking-age kings ruled before heraldry; the raven of their York coinage served as their emblem.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/York%20raven%20penny.jpg?width=1000",
+  "imageInfo": {
+    "caption": "A silver \"raven\" penny minted at York (Jórvík) c. 939–941 for Olaf Guthfrithson — its obverse legend \"Anlaf Cununc,\" Olaf the King.",
+    "creator": "Hiberno-Norse moneyers, York",
+    "date": "c. 939–941",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:York_raven_penny.jpg",
+    "note": "A genuine coin of the dynasty (British Museum); the raven was the war-standard of the Norse kings of York."
+  },
+  "summary": "The dominant Norse-Gaelic dynasty of the Viking Age Irish Sea — the \"grandsons of Ívarr,\" kings of Dublin and repeatedly of York.",
+  "overview": "The Uí Ímair, descendants of Ímar (Ívarr), were the leading Scandinavian dynasty of the ninth- and tenth-century Irish Sea world. From their base at Dublin they seized and lost the kingdom of York (Jórvík) again and again, dominating the sea-lanes between Ireland, Britain, and the Isles. Olaf Guthfrithson, king of Dublin and York, fought the English at the Battle of Brunanburh.",
+  "founder": {
+    "displayName": "Ímar (Ívarr)",
+    "note": "Founding king of the dynasty at Dublin, d. 873; often identified with Ivar the Boneless (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "displayName": "Ímar (Ívarr)",
+      "note": "Founder; king of Dublin, d. 873"
+    },
+    {
+      "personSlug": "olaf-guthfrithson",
+      "displayName": "Olaf Guthfrithson",
+      "note": "King of Dublin and York; fought at Brunanburh in 937"
+    },
+    {
+      "displayName": "Amlaíb Cuarán",
+      "note": "Long-reigning king of Dublin and York in the later 10th century"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Uí Ímair as reconstructed from Irish and English annals: the \"grandsons of Ímar\" who ruled Dublin and York; only Olaf Guthfrithson has a Codex article so far.",
+    "root": {
+      "name": "Ímar (Ívarr)",
+      "note": "king of Dublin, d. 873",
+      "children": [
+        {
+          "name": "the grandsons of Ímar",
+          "note": "kings of Dublin and York",
+          "children": [
+            {
+              "name": "Olaf Guthfrithson",
+              "personSlug": "olaf-guthfrithson",
+              "note": "king of Dublin and York, d. 941"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty took its name from Ímar, a Viking leader who with his kinsmen fastened a lasting Norse grip on Dublin in the 850s and 860s; Irish annals call his descendants the Uí Ímair, the \"grandsons of Ímar.\" From Dublin the family ranged across the Irish Sea, raiding and ruling in Ireland, the Hebrides, the Isle of Man, and northern Britain, making themselves the pre-eminent sea-kings of the age.",
+        "Their great prize on the British side was York — Jórvík — the rich former Northumbrian capital, which they took in the early tenth century and held intermittently against Wessex."
+      ]
+    },
+    {
+      "title": "Dublin, York, and Brunanburh",
+      "paragraphs": [
+        "The dynasty’s history is a long contest for York against the expanding kingdom of Wessex. In 937 Olaf Guthfrithson, king of Dublin, allied with Constantine II of Alba and the Britons of Strathclyde and invaded England, only to be defeated by King Æthelstan at the Battle of Brunanburh — one of the bloodiest battles of the age. Olaf recovered York after Æthelstan’s death in 939, and the family’s kings, including the much-travelled Amlaíb Cuarán, ruled it on and off for another fifteen years.",
+        "At York they struck a distinctive coinage bearing the raven, the bird of Odin and the war-standard of the Norse, the emblem by which the dynasty is still remembered."
+      ]
+    },
+    {
+      "title": "Decline",
+      "paragraphs": [
+        "The Norse kingdom of York was finally extinguished in 954 with the expulsion and death of Erik Bloodaxe, and York passed permanently to the English crown. The Uí Ímair kept Dublin far longer, where they remained a power in Irish and Irish-Sea politics into the eleventh century, until their bloody defeat at Clontarf in 1014 and the rise of new forces reduced them.",
+        "Their long dominance shaped the Viking Age around the Irish Sea, and their kings — bridging Ireland, the Isles, and northern England — were among the most far-ranging rulers of early medieval Europe."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "873",
+      "title": "Death of Ímar",
+      "description": "The founding king of the Dublin dynasty dies; his descendants become the Uí Ímair."
+    },
+    {
+      "date": "937",
+      "title": "Battle of Brunanburh",
+      "description": "Olaf Guthfrithson and his allies are defeated by Æthelstan of Wessex.",
+      "links": [
+        {
+          "title": "Battle of Brunanburh",
+          "type": "event",
+          "slug": "battle-of-brunanburh"
+        }
+      ]
+    },
+    {
+      "date": "954",
+      "title": "End of Norse York",
+      "description": "The expulsion of Erik Bloodaxe ends the Scandinavian kingdom of York."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Olaf Guthfrithson",
+        "type": "person",
+        "slug": "olaf-guthfrithson",
+        "label": "King of Dublin and York"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "Olaf’s defeat by Æthelstan, 937"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Wessex",
+        "type": "house",
+        "slug": "house-of-wessex",
+        "label": "The English kings who contested York and ended their rule there"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Uí Ímair — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/U%C3%AD_%C3%8Dmair"
+    },
+    {
+      "title": "Olaf Guthfrithson — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Amla%C3%ADb_mac_Gofraid"
+    },
+    {
+      "title": "Scandinavian York — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Scandinavian_York"
+    }
+  ]
+}

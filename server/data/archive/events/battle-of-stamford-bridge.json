@@ -1,0 +1,276 @@
+{
+  "id": "battle-of-stamford-bridge",
+  "type": "event",
+  "name": "Battle of Stamford Bridge",
+  "year": 1066,
+  "location": "Stamford Bridge, England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arbo_-_Battle_of_Stamford_Bridge_(1870).jpg",
+  "imageInfo": {
+    "caption": "Peter Nicolai Arbo, Battle of Stamford Bridge.",
+    "creator": "Peter Nicolai Arbo",
+    "date": "19th century",
+    "source": "Wikimedia Commons",
+    "note": "A later romantic historical painting."
+  },
+  "summary": "Harold Godwinson defeated Harald Hardrada near York days before marching south to face William of Normandy.",
+  "details": "The Battle of Stamford Bridge was fought in September 1066 between Harold Godwinson’s English army and a Norwegian invasion force led by Harald Hardrada and Tostig Godwinson. Harold won a decisive victory. The battle ended the Norwegian bid for the English throne, but it exhausted Harold’s army just before William the Conqueror landed in the south.",
+  "eventType": "Battle",
+  "conflict": "English succession crisis of 1066",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of Norway"
+  ],
+  "leaders": [
+    {
+      "name": "Harold Godwinson",
+      "faction": "English army",
+      "personId": "harold-godwinson"
+    },
+    {
+      "name": "Harald Hardrada",
+      "faction": "Norwegian invasion force",
+      "personId": "harald-hardrada"
+    },
+    {
+      "name": "Tostig Godwinson",
+      "faction": "Norwegian invasion force",
+      "personId": "tostig-godwinson"
+    }
+  ],
+  "eventLocation": {
+    "name": "Stamford Bridge",
+    "locationId": "stamford-bridge"
+  },
+  "outcome": "English victory; Harald Hardrada and Tostig Godwinson were killed.",
+  "background": [
+    "After Edward the Confessor died, several rulers claimed or contested the English throne. Harald Hardrada invaded northern England with Tostig Godwinson, Harold’s exiled brother.",
+    "The Norwegians defeated northern English forces at Fulford and moved near Stamford Bridge, expecting submission rather than the sudden arrival of Harold’s main army."
+  ],
+  "battle": "Harold’s surprise arrival gave the English a major advantage. The fighting centered around the crossing and then broadened into a hard infantry battle. Harald Hardrada was killed, reportedly by an arrow to the throat, and Tostig also died. Reinforcements from the Norwegian ships arrived too late to reverse the disaster.",
+  "aftermath": "The Norwegian invasion collapsed, and survivors were allowed to return home in a small number of ships. Harold had won a major victory but had to turn south almost immediately. The forced march from Stamford Bridge to Hastings became one of the defining pressures of the 1066 crisis.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "On 25 September 1066 Harold Godwinson destroyed a Norwegian invasion army at Stamford Bridge, seven miles east of York, killing its king, Harald Hardrada, and his own brother Tostig.",
+        "It was a complete victory won by a forced march of about two hundred miles in four days, and it arrived as a total surprise: the Norwegians were encamped without most of their armour, having taken hostages from York two days earlier.",
+        "Nineteen days later Harold was dead at Hastings, sixty miles from the south coast, having marched his army the length of England twice in three weeks. Stamford Bridge is therefore both one of the most impressive feats of arms in English history and a substantial part of the reason the English lost the country."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The death of Edward the Confessor in January 1066 left three serious claimants: Harold Godwinson, crowned immediately; William of Normandy, who claimed a promise; and Harald Hardrada of Norway, whose claim ran through an agreement between earlier kings and who had spent his life fighting for thrones.",
+        "Hardrada was joined by Tostig Godwinson, Harold's own brother, exiled from the earldom of Northumbria the previous year after a rising against him.",
+        "They landed in September with something over three hundred ships, took York, and beat the northern earls Edwin and Morcar at Fulford on 20 September. Harold was on the south coast waiting for William, and the news reached him within days."
+      ]
+    },
+    {
+      "title": "The march",
+      "paragraphs": [
+        "Harold moved north immediately with his housecarls and whatever levies could keep up, covering the distance from London to Yorkshire in about four days.",
+        "The Norwegians knew nothing of it. They had arranged to receive hostages from the Yorkshire nobility at Stamford Bridge on 25 September, and had left roughly a third of their force with the ships at Riccall, some miles away.",
+        "It was a warm day and they had left most of their mail behind. The first the Norwegian army knew of an English army was seeing the dust of one approaching."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The fighting was hard despite the surprise. The Norwegians formed a shield wall on the far bank and were driven back; Hardrada was killed by an arrow through the throat while fighting in the front rank, and Tostig died later in the day.",
+        "The story everyone knows — a single Norse axeman holding the bridge alone against the English army until a man in a barrel speared him from beneath — appears only in a manuscript of the Anglo-Saxon Chronicle written some decades afterwards, and not in the earliest versions. It is a very good story and it is not contemporary evidence.",
+        "The reinforcements from the ships arrived late and exhausted and were destroyed in their turn. The Norwegian survivors needed twenty-four ships to sail home out of the three hundred or more that had come."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Harold accepted the surrender of Hardrada's son and let him go, which was a mark of a decisive victory rather than of generosity.",
+        "Three days later he learned that William had landed at Pevensey on 28 September — the wind that had pinned the Norman fleet in port all summer had finally turned, at the exact moment the English army was two hundred and fifty miles away.",
+        "Harold marched south, gathered what forces he could, and fought at Hastings on 14 October with an army that had marched the length of the country twice and had left many of its best men on the field in Yorkshire."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Stamford Bridge ended the Scandinavian claim to England, which had been live since Cnut and had produced two dynasties. It is a genuine end point: no Norwegian king ever came so close again.",
+        "It also decided Hastings, though not in the way the victors would have wanted. An army that had not marched to Yorkshire and back, and had not lost men at Stamford Bridge, would have met William fresh and in greater numbers.",
+        "Hardrada is often called the last Viking, which is a neat phrase for a man who had served in the Varangian Guard at Constantinople, fought in Sicily and Palestine, ruled Norway for twenty years and died invading England. He is in this archive precisely because his career runs through most of it."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Arbo_-_Battle_of_Stamford_Bridge_(1870).jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook.asp"
+    },
+    {
+      "title": "World History Encyclopedia: Medieval Warfare",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Medieval_Warfare/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Stamford Bridge",
+        "type": "location",
+        "slug": "stamford-bridge",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "Commander"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada",
+        "label": "Commander"
+      },
+      {
+        "title": "Tostig Godwinson",
+        "type": "person",
+        "slug": "tostig-godwinson",
+        "label": "Commander"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harold Godwinson",
+          "title": "Harold Godwinson",
+          "type": "person",
+          "slug": "harold-godwinson"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; likely several thousand",
+        "confidence": "debated",
+        "note": "Harold Godwinson force-marched a substantial army north; the sources do not allow a confident total."
+      }
+    },
+    {
+      "side": "Norwegian invasion force",
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harald Hardrada",
+          "title": "Harald Hardrada",
+          "type": "person",
+          "slug": "harald-hardrada"
+        },
+        {
+          "name": "Tostig Godwinson",
+          "title": "Tostig Godwinson",
+          "type": "person",
+          "slug": "tostig-godwinson"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; likely several thousand",
+        "confidence": "debated",
+        "note": "A large part of the Norwegian force was caught away from the ships without armour; exact numbers are uncertain."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the crisis of 1066",
+    "battleSlug": "battle-of-hastings",
+    "relationship": "same-crisis",
+    "reason": "Stamford Bridge ended Harald Hardrada's invasion, but Harold Godwinson immediately had to march south to face William of Normandy at Hastings, where the same succession crisis was decided within three weeks."
+  },
+  "timeline": [
+    {
+      "date": "January 1066",
+      "title": "Edward the Confessor dies",
+      "description": "Harold Godwinson is crowned; William of Normandy and Harald Hardrada both claim the throne."
+    },
+    {
+      "date": "September 1066",
+      "title": "The Norwegians land",
+      "description": "Hardrada and Tostig arrive with over three hundred ships and take York."
+    },
+    {
+      "date": "20 September 1066",
+      "title": "Fulford",
+      "description": "The northern earls Edwin and Morcar are defeated outside York.",
+      "links": [
+        {
+          "title": "Battle of Fulford",
+          "type": "event",
+          "slug": "battle-of-fulford"
+        }
+      ]
+    },
+    {
+      "date": "c. 21–24 September 1066",
+      "title": "The forced march",
+      "description": "Harold covers roughly two hundred miles from the south coast in about four days."
+    },
+    {
+      "date": "25 September 1066",
+      "title": "Stamford Bridge",
+      "description": "The Norwegian army is destroyed; Hardrada is killed by an arrow and Tostig falls later in the day."
+    },
+    {
+      "date": "28 September 1066",
+      "title": "William lands at Pevensey",
+      "description": "The Norman fleet crosses three days after the battle, with the English army in Yorkshire."
+    },
+    {
+      "date": "14 October 1066",
+      "title": "Hastings",
+      "description": "Harold fights and dies with an army that has marched the length of England twice in three weeks.",
+      "links": [
+        {
+          "title": "Battle of Hastings",
+          "type": "event",
+          "slug": "battle-of-hastings"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "third-crusade",
+  "type": "event",
+  "eventType": "War",
+  "name": "Third Crusade",
+  "year": 1189,
+  "location": "Eastern Mediterranean",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siege_of_Acre.jpg",
+  "summary": "The Third Crusade (1189–1192) was western Europe's answer to Saladin's capture of Jerusalem: three kings set out, one drowned, one went home, and the third failed to take the city and settled for access to it.",
+  "details": "The Third Crusade brought rulers including Richard the Lionheart into conflict and negotiation with Saladin. It did not retake Jerusalem, but it preserved a reduced crusader presence on the coast and shaped later crusading memory.",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France",
+    "Holy Roman Empire",
+    "Crusader States",
+    "Ayyubid Sultanate"
+  ],
+  "leaders": [
+    {
+      "name": "Richard the Lionheart",
+      "faction": "Crusader forces",
+      "personId": "richard-the-lionheart"
+    },
+    {
+      "name": "Philip II of France",
+      "faction": "Crusader forces",
+      "personId": "philip-ii-of-france"
+    },
+    {
+      "name": "Frederick I Barbarossa",
+      "faction": "Crusader forces",
+      "personId": "frederick-i-barbarossa"
+    },
+    {
+      "name": "Saladin",
+      "faction": "Ayyubid forces",
+      "personId": "saladin"
+    }
+  ],
+  "outcome": "Strategic Ayyubid success; crusaders secured coastal access and pilgrimage rights but did not retake Jerusalem.",
+  "background": [
+    "Saladin’s victory at Hattin and capture of Jerusalem in 1187 shocked Latin Christendom and prompted a major new crusade.",
+    "The campaign drew rulers and nobles from across Europe into the eastern Mediterranean, where military success depended on siege warfare, naval logistics, diplomacy, and fragile alliances."
+  ],
+  "aftermath": "The Treaty of Jaffa left Jerusalem under Muslim rule but allowed Christian pilgrimage. The crusade strengthened the fame of both Richard the Lionheart and Saladin.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Saladin destroyed the army of the kingdom of Jerusalem at Hattin in July 1187 and took the city itself in October. Within two years almost every Latin possession in the Holy Land had fallen except Tyre.",
+        "The response was the largest crusading effort yet mounted: the German emperor Frederick Barbarossa, Philip II of France and Richard I of England all took the cross, in what was intended to be a decisive reconquest.",
+        "It was not. Barbarossa drowned in Anatolia before reaching Syria, Philip went home after the fall of Acre, and Richard — who won every battle he fought — twice advanced within sight of Jerusalem and twice turned back. The crusade ended in 1192 with a treaty that left the city in Muslim hands and the coast in Christian ones."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The kingdom of Jerusalem had been living on borrowed time for a generation, and the succession crisis after the death of the leper king Baldwin IV brought it to a head. Guy of Lusignan took an army into waterless country in July 1187 and lost it at the Horns of Hattin.",
+        "The True Cross was captured with the army. Jerusalem, defended by a garrison of the men Hattin had not killed, surrendered on terms in October, and Saladin permitted the Christian population to ransom itself rather than sacking the city — a deliberate contrast with the crusader conquest of 1099 that western writers found difficult to explain.",
+        "News of the fall reportedly killed Pope Urban III, and the crusade was preached across Europe. England and France raised the Saladin tithe, a general tax on movable property, which was resented in exactly the way general taxes are."
+      ]
+    },
+    {
+      "title": "The three kings",
+      "paragraphs": [
+        "Frederick Barbarossa left in 1189 with the largest army of the three, marched overland through Hungary and Anatolia, beat the Seljuks at Iconium — and drowned crossing a river in Cilicia in June 1190. Most of his army turned round and went home.",
+        "Richard I and Philip II travelled by sea. Richard took Cyprus from its Byzantine ruler on the way, which was not part of the plan and turned out to be the crusade's most durable acquisition — it remained a Latin kingdom for four centuries.",
+        "The two kings loathed each other. Philip left for France within weeks of Acre falling, having secured what he needed, and spent the following years attacking Richard's continental possessions while Richard was still on crusade."
+      ]
+    },
+    {
+      "title": "Acre and Arsuf",
+      "paragraphs": [
+        "Guy of Lusignan had begun besieging Acre in 1189 with a force too small for the task, and the siege became the crusade's centre of gravity: a Christian army besieging a city while itself besieged by Saladin's field army outside.",
+        "It lasted two years, killed enormous numbers on both sides through disease and starvation, and ended in July 1191 when the city surrendered shortly after the kings arrived. Richard then had some two thousand seven hundred prisoners executed when the surrender terms were not met on time — an act his own admirers found hard to defend.",
+        "Marching south along the coast, he beat Saladin at Arsuf in September 1191 in a battle that demonstrated what disciplined crusader cavalry could do when it did not charge too early. He took Jaffa, and the road to Jerusalem was open."
+      ]
+    },
+    {
+      "title": "Why Jerusalem was not taken",
+      "paragraphs": [
+        "Richard advanced towards Jerusalem twice, in early 1192 and again that summer, and turned back both times without attempting a siege. It is the decision the crusade is judged on and it was almost certainly correct.",
+        "The military argument was that taking the city was possible and holding it was not: Saladin's field army was intact, the crusaders' supply line from the coast was long and exposed, and most of the army intended to go home once the city was taken, leaving a garrison too small to keep it.",
+        "The political argument was that Philip II was attacking his lands in France and his brother John was intriguing in England. Both were true. The tradition that Richard refused to look at the city he could not take is a later embellishment, and a good one."
+      ]
+    },
+    {
+      "title": "The treaty and after",
+      "paragraphs": [
+        "The Treaty of Jaffa in September 1192 ended the crusade. Saladin kept Jerusalem; the Latins kept the coast from Tyre to Jaffa; and Christian pilgrims were guaranteed access to the holy places.",
+        "Richard sailed home and was shipwrecked, captured by the duke of Austria — whose banner he had thrown down at Acre — and handed to the German emperor, who held him for a ransom that took a special tax in England to raise.",
+        "Saladin died in Damascus in March 1193, six months after the treaty, having spent his last years exhausted and his treasury empty."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "The crusade failed in its stated objective and succeeded in almost everything else: it recovered the coast, secured the kingdom of Jerusalem for another century, and took Cyprus.",
+        "It also established the reputations that outlived it. Richard's military competence and Saladin's reputation for magnanimity both date substantially from these three years, and both were built by writers on the other side as much as their own.",
+        "And it exhausted the model. The Fourth Crusade, launched a decade later, never reached the Holy Land at all — it sacked Constantinople instead, which did more damage to eastern Christendom than any Muslim victory."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Siege of Acre during the Third Crusade.",
+    "creator": "Later manuscript artist",
+    "date": "medieval manuscript tradition",
+    "source": "Wikimedia Commons",
+    "note": "Representative crusading image connected to the campaign."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Siege_of_Acre.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Third Crusade",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Third-Crusade"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Crusader forces",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        },
+        {
+          "name": "Holy Roman Empire",
+          "title": "Holy Roman Empire",
+          "type": "location",
+          "slug": "holy-roman-empire"
+        },
+        {
+          "name": "Crusader States",
+          "title": "Crusader States",
+          "type": "location",
+          "slug": "crusader-states"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Richard the Lionheart",
+          "title": "Richard the Lionheart",
+          "type": "person",
+          "slug": "richard-the-lionheart"
+        },
+        {
+          "name": "Philip II of France",
+          "title": "Philip II of France",
+          "type": "person",
+          "slug": "philip-ii-of-france"
+        },
+        {
+          "name": "Frederick I Barbarossa",
+          "title": "Frederick I Barbarossa",
+          "type": "person",
+          "slug": "frederick-i-barbarossa"
+        }
+      ]
+    },
+    {
+      "side": "Ayyubid forces",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Saladin",
+          "title": "Saladin",
+          "type": "person",
+          "slug": "saladin"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Commander"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Commander"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Commander"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of St Thomas of Acre",
+        "type": "order",
+        "slug": "order-of-st-thomas-of-acre",
+        "label": "Founded during this crusade to bury and care for English crusaders"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "July 1187",
+      "title": "Hattin",
+      "description": "Saladin destroys the army of the kingdom of Jerusalem and captures the True Cross.",
+      "links": [
+        {
+          "title": "Battle of Hattin",
+          "type": "event",
+          "slug": "battle-of-hattin"
+        }
+      ]
+    },
+    {
+      "date": "October 1187",
+      "title": "Jerusalem surrenders",
+      "description": "The city capitulates on terms; the Christian population is permitted to ransom itself."
+    },
+    {
+      "date": "1189",
+      "title": "The siege of Acre begins",
+      "description": "Guy of Lusignan invests the city with a force too small to take it."
+    },
+    {
+      "date": "June 1190",
+      "title": "Barbarossa drowns",
+      "description": "The German emperor dies crossing a river in Cilicia and most of his army goes home."
+    },
+    {
+      "date": "May 1191",
+      "title": "Richard takes Cyprus",
+      "description": "An unplanned conquest that becomes the crusade's most durable acquisition."
+    },
+    {
+      "date": "July 1191",
+      "title": "Acre falls",
+      "description": "The city surrenders after two years; Philip II leaves for France within weeks."
+    },
+    {
+      "date": "August 1191",
+      "title": "The prisoners executed",
+      "description": "Richard has some 2,700 prisoners killed when the surrender terms are not met on time."
+    },
+    {
+      "date": "September 1191",
+      "title": "Arsuf",
+      "description": "Richard defeats Saladin in the field on the march south to Jaffa.",
+      "links": [
+        {
+          "title": "Battle of Arsuf",
+          "type": "event",
+          "slug": "battle-of-arsuf"
+        }
+      ]
+    },
+    {
+      "date": "1192",
+      "title": "Two advances on Jerusalem",
+      "description": "Richard comes within reach of the city twice and turns back both times without a siege."
+    },
+    {
+      "date": "September 1192",
+      "title": "The Treaty of Jaffa",
+      "description": "Saladin keeps Jerusalem, the Latins keep the coast, and pilgrims are guaranteed access."
+    },
+    {
+      "date": "December 1192",
+      "title": "Richard captured",
+      "description": "Shipwrecked on the way home, he is taken by the duke of Austria and held for ransom."
+    },
+    {
+      "date": "March 1193",
+      "title": "Death of Saladin",
+      "description": "He dies at Damascus six months after the treaty, his treasury empty."
+    }
+  ]
+}

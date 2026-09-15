@@ -1,0 +1,202 @@
+{
+  "id": "anastasius-i",
+  "type": "character",
+  "name": "Anastasius I",
+  "aliases": [
+    "Anastasius I Dicorus",
+    "Anastasios I"
+  ],
+  "born": 431,
+  "died": 518,
+  "deathAge": "about 87",
+  "causeOfDeath": "Died in July 518 during a thunderstorm, aged nearly ninety, having named no heir.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flavius%20Anastasius%20Probus%2001c%20(Anastasius%20I)%20(cropped).JPG",
+  "imageInfo": {
+    "caption": "Anastasius I carved in ivory, in a detail from a consular diptych of his reign.",
+    "creator": "Constantinople workshop",
+    "date": "early 6th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flavius_Anastasius_Probus_01c_(Anastasius_I)_(cropped).JPG",
+    "note": "A contemporary carving, which is rare for an emperor of this period. Consular diptychs were commissioned to mark a consulship and distributed as gifts, so the portrait type is official rather than personal. Public domain."
+  },
+  "summary": "Anastasius I reformed the coinage and the tax system, abolished a hated levy, and left the fullest treasury in Byzantine history to a successor he never chose.",
+  "overview": "The best financial administrator ever to hold the throne, and the reason Justinian could afford to reconquer anything.",
+  "birth": {
+    "date": "c. 431",
+    "place": {
+      "name": "Dyrrhachium, in Illyria"
+    }
+  },
+  "death": {
+    "date": "518",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in July 518 at nearly ninety without designating a successor, opening the way for the commander of the guard."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Not dynastic",
+    "culture": "Roman",
+    "knownFor": "The treasury that paid for Justinian's reconquests"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Zeno",
+      "note": "An Isaurian general whose reign saw the last western emperor deposed in 476; Anastasius was chosen by his widow Ariadne and married her. No article yet in this archive."
+    },
+    "successor": {
+      "personSlug": "justin-i",
+      "displayName": "Justin I",
+      "note": "Commander of the excubitors, who took the throne in the confusion that followed a death with no designated heir."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Anastasius was a palace official of sixty when the empress Ariadne selected him to succeed her husband Zeno in 491, and married him. He ruled for twenty-seven years and was, by a distance, the most competent financial administrator to hold the office.",
+        "He abolished the chrysargyron, a tax on trade that fell hardest on the poorest, reformed the copper coinage into a usable system of denominations, and tightened tax collection without increasing rates.",
+        "The result was a reserve of some 320,000 pounds of gold at his death — the largest surplus in the empire's recorded history, and the fund that Justinian spent on Africa, Italy and Hagia Sophia within a generation."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born at Dyrrhachium about 431 and rose through the palace bureaucracy rather than the army, serving as a silentiary — an usher of the imperial chamber — which is an unusually quiet route to the purple.",
+        "He was known for religious opinions leaning towards the Monophysite position, which made his accession controversial and his reign quarrelsome: the patriarch required a written profession of orthodoxy from him before the coronation.",
+        "The byname Dicorus, \"two-pupilled\", comes from his having eyes of different colours, and is one of the few personal details about a Byzantine emperor that is simply physical description rather than propaganda."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources divide on him along religious lines and agree on his competence, which makes the portrait unusually reliable where it overlaps.",
+        "He is described as careful, patient, personally frugal and unusually accessible, and the abolition of the chrysargyron was greeted with public celebrations that suggest the reputation was earned.",
+        "His weakness was the same as his strength: he governed like an accountant in a century that required more. The Persian war of 502–506 caught him unprepared, and his religious policy — persistently sympathetic to the Monophysites — provoked riots in the capital and a serious revolt in Thrace under Vitalian."
+      ]
+    },
+    {
+      "title": "Reign",
+      "paragraphs": [
+        "The financial reforms are the substance. The chrysargyron went in 498; the copper coinage was reorganised the same year into marked denominations that made small transactions workable for the first time in generations; and the collection of the land tax was professionalised.",
+        "He fought Persia from 502 to 506 without decisive result, and built the great fortress of Dara on the Mesopotamian frontier — the position whose loss under Justin II would help drive that emperor mad.",
+        "He also built the Anastasian Wall across Thrace to protect the approaches to Constantinople, and spent his last years managing the revolt of Vitalian, who besieged the capital three times over the religious question."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The treasury is the legacy, and it is a larger one than it sounds. Justinian's reconquest of Africa and Italy, the building of Hagia Sophia and the codification of Roman law were all paid for out of a surplus that Anastasius accumulated and neither of his immediate successors could have generated.",
+        "The copper coinage reform outlasted the empire's territorial extent, and the fortress at Dara shaped the eastern frontier for a century.",
+        "He died without naming an heir, which handed the throne to whoever held the palace — and that turned out to be Justin, an illiterate peasant who commanded the guard."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 431",
+      "title": "Born",
+      "description": "Born at Dyrrhachium in Illyria."
+    },
+    {
+      "date": "491",
+      "title": "Chosen by the empress",
+      "description": "Ariadne selects the elderly palace official to succeed Zeno, and marries him."
+    },
+    {
+      "date": "498",
+      "title": "The chrysargyron abolished",
+      "description": "The trade levy that fell hardest on the poor is ended, and the copper coinage reformed."
+    },
+    {
+      "date": "502–506",
+      "title": "War with Persia",
+      "description": "An inconclusive war leads to the building of the frontier fortress at Dara."
+    },
+    {
+      "date": "c. 512",
+      "title": "The Anastasian Wall",
+      "description": "A wall is built across Thrace to protect the approaches to Constantinople."
+    },
+    {
+      "date": "513–515",
+      "title": "The revolt of Vitalian",
+      "description": "A general besieges the capital three times over the emperor's religious policy."
+    },
+    {
+      "date": "518",
+      "title": "Died",
+      "description": "Dies at nearly ninety without an heir, leaving the largest treasury in Byzantine history."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Justin I",
+        "type": "person",
+        "slug": "justin-i",
+        "label": "Took the throne on his death"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Spent the treasury he accumulated"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_Wars",
+      "type": "primary source"
+    },
+    {
+      "title": "Anastasius I Dicorus",
+      "url": "https://en.wikipedia.org/wiki/Anastasius_I_Dicorus",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "greatestFeats": [
+    "Reformed the copper coinage into a system that lasted centuries",
+    "Abolished the chrysargyron, the levy that fell hardest on the poor",
+    "Left a reserve of 320,000 pounds of gold"
+  ],
+  "epithets": [
+    {
+      "name": "Dicorus",
+      "type": "byname",
+      "note": "Means \"two-pupilled\", from eyes of different colours — one black, one blue, according to the sources."
+    }
+  ]
+}

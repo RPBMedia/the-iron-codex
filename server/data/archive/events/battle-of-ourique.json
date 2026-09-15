@@ -1,0 +1,164 @@
+{
+  "id": "battle-of-ourique",
+  "type": "event",
+  "name": "Battle of Ourique",
+  "year": 1139,
+  "location": "Ourique (traditional site debated), southern Portugal",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BatalhaOurique.jpg",
+  "imageInfo": {
+    "caption": "The battle of Ourique as imagined in later Portuguese painting, with the legendary apparition of Christ to Afonso Henriques.",
+    "creator": "Later Portuguese painting tradition",
+    "date": "early modern",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BatalhaOurique.jpg",
+    "note": "A much later devotional-patriotic image of the battle's legend, not a medieval record."
+  },
+  "summary": "Afonso Henriques's victory over Almoravid forces at Ourique in July 1139 became the founding legend of the Portuguese crown — the battle after which he was styled king.",
+  "details": "Fought on 25 July 1139 against Almoravid forces at a site tradition places at Ourique in the far south, the battle is documented only thinly: a real victory over a Muslim army, magnified by later tradition into a miracle. From roughly this date Afonso Henriques's charters style him rex — the victory, wherever exactly it was won, marked the assumption of the royal title.",
+  "eventType": "Battle",
+  "conflict": "Reconquista in western Iberia",
+  "factions": [
+    "Portuguese",
+    "Almoravids"
+  ],
+  "leaders": [
+    {
+      "name": "Afonso Henriques",
+      "faction": "Portuguese",
+      "personId": "afonso-i-of-portugal"
+    },
+    {
+      "name": "Almoravid commanders (unnamed in reliable sources)",
+      "faction": "Almoravids"
+    }
+  ],
+  "outcome": "Portuguese victory; Afonso Henriques took the title of king in its aftermath.",
+  "participants": [
+    {
+      "side": "Portuguese",
+      "strength": {
+        "display": "a raiding army, size unrecorded",
+        "confidence": "unknown",
+        "note": "The near-contemporary annals give no numbers; the expedition was probably a deep mounted raid, not a full host."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Portugal",
+          "title": "Kingdom of Portugal",
+          "type": "location",
+          "slug": "kingdom-of-portugal"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Afonso Henriques",
+          "type": "person",
+          "slug": "afonso-i-of-portugal"
+        }
+      ]
+    },
+    {
+      "side": "Almoravids",
+      "strength": {
+        "display": "legend claims five kings' armies; reality unrecorded",
+        "confidence": "chronicle-claim",
+        "note": "The five defeated kings belong to the later Ourique legend; the real Almoravid force was likely a regional army of unknown size."
+      },
+      "factions": [
+        {
+          "name": "Almoravid emirate",
+          "title": "Almohad Caliphate",
+          "type": "location",
+          "slug": "almohad-caliphate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Almoravid field commanders",
+          "type": "person",
+          "note": "Not a gap in this archive: no source reliably names the Almoravid commanders at Ourique. The traditional account of five Moorish kings is a later Portuguese legend, not a record."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of Ourique, fought on 25 July 1139, occupies a double place in Portuguese history: a real military victory over Almoravid forces, and the seed of the monarchy's founding legend. The contemporary record is one thin line of annals; what is certain is the consequence — from about this date Afonso Henriques's documents call him king, and his descendants dated the monarchy from the field of Ourique.",
+        "Everything vivid about the battle belongs to later centuries. The vision of Christ promising victory, the five Moorish kings slain, the acclamation on the battlefield, the divine origin of the five-shield arms of Portugal — these grew in chronicles and shrine-lore from the fourteenth century onward, achieving their full form in the era when Portuguese independence again needed miraculous credentials. The article's duty is to keep the two Ouriques distinct."
+      ]
+    },
+    {
+      "title": "The battle in the record",
+      "paragraphs": [
+        "The near-contemporary Portuguese annals record only that Afonso fought and defeated a Muslim force at Ourique in July 1139 — probably a deep raid into Almoravid Alentejo striking a regional army, not the apocalyptic clash of legend. Even the site is debated: the southern Ourique of tradition sits improbably deep in Muslim territory for 1139, and historians have proposed locations closer to the Tagus frontier.",
+        "The political use was immediate and real. Victory in the field was the classic Iberian warrant for royal rank — as Aragon and Navarre's kings had shown — and Afonso, already effectively independent since São Mamede, converted Ourique's prestige into the title his charters begin using: Alfonsus Portugallensium rex. The assemblies later tradition placed at Lamego to \"elect\" him are early modern invention; the charters are the true coronation."
+      ]
+    },
+    {
+      "title": "The legend and its work",
+      "paragraphs": [
+        "The Ourique legend — Christ appearing to Afonso on the eve of battle, promising that he and his line would be God's chosen kings — first appears fully formed centuries after the battle and served each age that retold it: legitimising the new dynasty of Aviz after 1385, anchoring resistance to Castile, and furnishing the national arms with a sacred etymology (the five escutcheons as the five wounds of Christ, the five defeated kings).",
+        "IronCodex treats the legend as what it is: one of medieval and early modern Europe's most successful pieces of dynastic myth-making, comparable to France's Clovis ampulla or Denmark's falling Dannebrog. The historical battle mattered because a frontier count needed a crown; the legendary battle mattered because a kingdom needed a covenant. Both are part of Ourique's history — as long as they are never confused."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:BatalhaOurique.jpg"
+    },
+    {
+      "title": "Battle of Ourique — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ourique"
+    },
+    {
+      "title": "Annales D. Alfonsi Portugallensium regis; later Crónica de 1419 and Ourique tradition",
+      "author": "Portuguese chronicle tradition",
+      "type": "primary source",
+      "note": "The one-line contemporary notice versus the grown legend — read side by side."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "Victor, and king from this field"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of São Mamede",
+        "type": "event",
+        "slug": "battle-of-sao-mamede",
+        "label": "The internal victory that preceded it"
+      },
+      {
+        "title": "Siege of Lisbon",
+        "type": "event",
+        "slug": "siege-of-lisbon",
+        "label": "The conquest that followed the crown"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "The conquest of Lisbon follows",
+    "battleSlug": "siege-of-lisbon",
+    "relationship": "same-war",
+    "reason": "Ourique made Afonso a king in name; the capture of Lisbon in 1147, with the help of a passing crusader fleet, gave his kingdom its great city and its Tagus frontier."
+  }
+}

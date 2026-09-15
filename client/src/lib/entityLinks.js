@@ -1,4 +1,4 @@
-// entityLinks AUTO-GENERATED from server/data/history.json by
+// entityLinks AUTO-GENERATED from server/data/archive by
 // scripts/gen-entity-links.mjs. Do not edit the entityLinks array by hand: run
 // `node scripts/gen-entity-links.mjs` after adding or renaming articles. Curated
 // aliases from the previous file are preserved and merged. This drives the

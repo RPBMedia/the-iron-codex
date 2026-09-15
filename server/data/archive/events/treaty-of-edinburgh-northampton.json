@@ -1,0 +1,129 @@
+{
+  "id": "treaty-of-edinburgh-northampton",
+  "type": "event",
+  "name": "Treaty of Edinburgh-Northampton",
+  "year": 1328,
+  "location": "Edinburgh and Northampton",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Register_House_cross_section.jpg",
+  "summary": "The Treaty of Edinburgh-Northampton recognized Robert the Bruce and Scottish independence in 1328, ending the First War of Scottish Independence for a short time.",
+  "details": "The treaty was agreed in 1328 under the minority government of Edward III. It recognized Scotland as independent and Robert I and his heirs as legitimate rulers, though English opposition later called it humiliating.",
+  "eventType": "Treaty",
+  "conflict": "First War of Scottish Independence",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Robert the Bruce",
+      "faction": "Scotland",
+      "personId": "robert-the-bruce"
+    },
+    {
+      "name": "Edward III of England",
+      "faction": "England",
+      "personId": "edward-iii-of-england"
+    }
+  ],
+  "eventLocation": {
+    "name": "Edinburgh",
+    "locationId": "kingdom-of-scotland"
+  },
+  "outcome": "English recognition of Scottish independence and Bruce’s kingship; overturned in practice after renewed war.",
+  "imageInfo": {
+    "caption": "Architectural section of Register House in Edinburgh, representing Scotland’s archival record tradition.",
+    "creator": "Robert Adam / public-domain architectural print",
+    "date": "eighteenth-century design tradition",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Register_House_cross_section.jpg",
+    "note": "Representative archival image, not an image of the 1328 treaty document itself."
+  },
+  "overview": [
+    "The Treaty of Edinburgh-Northampton was the diplomatic settlement that recognized Robert the Bruce as king and Scotland as an independent kingdom in 1328.",
+    "It did not permanently end Anglo-Scottish conflict, but it marked the greatest diplomatic success of Bruce’s reign after years of military pressure, raids, and political argument."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The treaty followed Scottish military endurance and English political weakness after Edward II’s fall. The government of the young Edward III and Roger Mortimer accepted peace terms that many English nobles disliked."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By the late 1320s Scotland had survived invasion and carried war into northern England. Bruce’s diplomacy aimed to convert military survival into formal recognition."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "The settlement recognized Scotland as independent and Robert I and his heirs as rightful rulers. It also involved marriage diplomacy between David, Bruce’s heir, and Joan, sister of Edward III."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The peace was short-lived. English critics called it the “Shameful Peace,” and renewed conflict followed after Edward III asserted himself and supported Edward Balliol."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "For Bruce, the treaty transformed victory and endurance into international recognition. For later Scottish memory, it became proof that independence was won by both arms and diplomacy."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "National Records of Scotland: Treaty of Edinburgh-Northampton",
+      "author": "National Records of Scotland",
+      "type": "archive",
+      "url": "https://www.nrscotland.gov.uk/research/learning/features/treaty-of-edinburgh-northampton"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Register_House_cross_section.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      }
+    ],
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "bouvines",
+  "type": "location",
+  "name": "Bouvines",
+  "locationType": "Village",
+  "kingdom": "Kingdom of France",
+  "year": "1214",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bataille_de_Bouvines.jpg",
+  "summary": "A village in northern France where Philip II won a major victory in 1214.",
+  "overview": [
+    "A village in northern France where Philip II won a major victory in 1214."
+  ],
+  "knownFor": [
+    "Bouvines in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Bouvines.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A village in northern France where Philip II won a major victory in 1214.",
+        "Bouvines matters historically through Bouvines in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Bouvines",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Bouvines"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "Battle fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Combatant here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Fought here"
+      },
+      {
+        "title": "Otto IV",
+        "type": "person",
+        "slug": "otto-iv",
+        "label": "Fought here"
+      },
+      {
+        "title": "Ferdinand of Flanders",
+        "type": "person",
+        "slug": "ferdinand-of-flanders",
+        "label": "Fought here"
+      }
+    ]
+  }
+}

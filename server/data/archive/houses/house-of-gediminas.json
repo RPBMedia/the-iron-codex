@@ -1,0 +1,273 @@
+{
+  "id": "house-of-gediminas",
+  "type": "house",
+  "name": "House of Gediminas",
+  "aliases": [
+    "Gediminid",
+    "Gediminids",
+    "Gediminid dynasty",
+    "Jagiellon",
+    "Jagiellonian",
+    "Jagiellonian dynasty",
+    "House of Jagiellon",
+    "Jagiellons",
+    "Jagiellonians"
+  ],
+  "originYear": 1315,
+  "endYear": 1572,
+  "reignSpan": "1315–1572",
+  "region": "Lithuania & Poland",
+  "originPlace": "Grand Duchy of Lithuania",
+  "arms": "The mounted knight of the Vytis (Pahonia) and the Columns of Gediminas — the emblems of Lithuania.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb%20effigy%20of%20Jogaila%20(Wladyslaw%20II%20Jagiello).JPG?width=1000",
+  "imageInfo": {
+    "caption": "Tomb effigy of Jogaila (Władysław II Jagiełło), founder of the Jagiellonian royal line, in Wawel Cathedral, Kraków.",
+    "creator": "Gothic tomb sculpture, Wawel Cathedral",
+    "date": "c. 1430s",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomb_effigy_of_Jogaila_(Wladyslaw_II_Jagiello).JPG",
+    "note": "A near-contemporary funerary effigy of the Lithuanian grand duke who became king of Poland."
+  },
+  "summary": "The Lithuanian dynasty that, through the union of Jogaila with Poland, ruled the vast Polish-Lithuanian realm and much of central Europe.",
+  "overview": "The House of Gediminas rose as grand dukes of pagan Lithuania, the last great non-Christian power in Europe. When Grand Duke Jogaila married the Polish queen Jadwiga, accepted Christianity, and became King Władysław II in 1386, he founded the Jagiellonian dynasty that would rule Poland, Lithuania, and beyond, and that broke the Teutonic Knights at Grunwald.",
+  "founder": {
+    "personSlug": "wladyslaw-ii-jagiello",
+    "displayName": "Władysław II Jagiełło",
+    "note": "Grand Duke of Lithuania who became king of Poland, founding the royal dynasty"
+  },
+  "seats": [
+    {
+      "name": "Grand Duchy of Lithuania",
+      "type": "location",
+      "slug": "grand-duchy-of-lithuania"
+    },
+    {
+      "name": "Kingdom of Poland",
+      "type": "location",
+      "slug": "kingdom-of-poland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "wladyslaw-ii-jagiello",
+      "displayName": "Władysław II Jagiełło",
+      "note": "Founder of the Jagiellonian royal line"
+    },
+    {
+      "personSlug": "vytautas",
+      "displayName": "Vytautas the Great",
+      "note": "Grand Duke of Lithuania at its greatest extent"
+    },
+    {
+      "personSlug": "skirgaila",
+      "displayName": "Skirgaila",
+      "note": "Regent of Lithuania for Jogaila"
+    },
+    {
+      "personSlug": "svitrigaila",
+      "displayName": "Svitrigaila",
+      "note": "Grand Duke; rival in the Lithuanian civil war"
+    },
+    {
+      "personSlug": "wladyslaw-iii-of-poland",
+      "displayName": "Władysław III",
+      "note": "King of Poland and Hungary; died at Varna in 1444"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Gediminid grand dukes and the Jagiellonian royal line. Gediminas’s grandsons Jogaila and Vytautas ruled together after 1386; Jogaila’s branch became the kings of Poland. ⚭ marks a marriage.",
+    "root": {
+      "name": "Gediminas",
+      "note": "Grand Duke of Lithuania, r. c. 1315–1341",
+      "children": [
+        {
+          "name": "Algirdas",
+          "note": "Grand Duke of Lithuania",
+          "children": [
+            {
+              "name": "Jogaila (Władysław II)",
+              "personSlug": "wladyslaw-ii-jagiello",
+              "note": "King of Poland 1386–1434",
+              "spouse": {
+                "name": "Jadwiga of Poland",
+                "personSlug": "jadwiga-of-poland"
+              },
+              "children": [
+                {
+                  "name": "Władysław III",
+                  "personSlug": "wladyslaw-iii-of-poland",
+                  "note": "r. 1434–1444, died at Varna"
+                }
+              ]
+            },
+            {
+              "name": "Skirgaila",
+              "personSlug": "skirgaila",
+              "note": "regent of Lithuania"
+            },
+            {
+              "name": "Svitrigaila",
+              "personSlug": "svitrigaila",
+              "note": "Grand Duke of Lithuania"
+            }
+          ]
+        },
+        {
+          "name": "Kęstutis",
+          "note": "Grand Duke of Lithuania",
+          "children": [
+            {
+              "name": "Vytautas the Great",
+              "personSlug": "vytautas",
+              "note": "Grand Duke, d. 1430"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "Gediminas, grand duke from about 1315, made Lithuania a great power stretching deep into the Rus’ lands while remaining pagan, the last major non-Christian state in Europe. His descendants ruled a vast, religiously mixed realm of Baltic pagans and Orthodox Slavs.",
+        "The decisive turn came with his grandson Jogaila, who in 1386 accepted Catholic baptism, married the young Polish queen Jadwiga, and was crowned king of Poland as Władysław II — a personal union that bound Poland and Lithuania together."
+      ]
+    },
+    {
+      "title": "Jogaila, Vytautas, and Grunwald",
+      "paragraphs": [
+        "Jogaila ruled Poland while his cousin Vytautas the Great governed Lithuania, at times as rivals, at times as partners. Together in 1410 they led the Polish-Lithuanian armies to a crushing victory over the Teutonic Knights at the Battle of Grunwald, one of the largest battles of medieval Europe, breaking the power of the crusading Order.",
+        "Under Vytautas Lithuania reached its greatest extent, from the Baltic almost to the Black Sea."
+      ]
+    },
+    {
+      "title": "The Jagiellonian kings",
+      "paragraphs": [
+        "Jogaila founded a royal dynasty that would rule Poland-Lithuania for nearly two centuries. His son Władysław III became king of Poland and Hungary but was killed leading a crusade against the Ottomans at the Battle of Varna in 1444, still a teenager.",
+        "Later Jagiellonians would also hold the crowns of Bohemia and Hungary, making the dynasty one of the most powerful in fifteenth- and sixteenth-century Europe."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The union of Gediminid Lithuania with Poland created one of the largest states in Europe and set the Polish-Lithuanian Commonwealth on its historical course. The dynasty’s conversion of Lithuania completed the Christianisation of Europe.",
+        "Grunwald became a lasting symbol of Polish and Lithuanian nationhood, and the Jagiellonians a byword for a golden age of central European power."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1315",
+      "title": "Gediminas builds Lithuania",
+      "description": "The grand duchy becomes a great power in eastern Europe."
+    },
+    {
+      "date": "1386",
+      "title": "Union of Poland and Lithuania",
+      "description": "Jogaila is baptised, marries Jadwiga, and becomes king of Poland.",
+      "links": [
+        {
+          "title": "Władysław II Jagiełło",
+          "type": "person",
+          "slug": "wladyslaw-ii-jagiello"
+        }
+      ]
+    },
+    {
+      "date": "1410",
+      "title": "Battle of Grunwald",
+      "description": "Jogaila and Vytautas crush the Teutonic Knights.",
+      "links": [
+        {
+          "title": "Battle of Grunwald",
+          "type": "event",
+          "slug": "battle-of-grunwald"
+        }
+      ]
+    },
+    {
+      "date": "1444",
+      "title": "Death at Varna",
+      "description": "Władysław III falls leading a crusade against the Ottomans.",
+      "links": [
+        {
+          "title": "Władysław III",
+          "type": "person",
+          "slug": "wladyslaw-iii-of-poland"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Władysław II Jagiełło",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Founder of the royal line"
+      },
+      {
+        "title": "Vytautas the Great",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Lithuania at its height"
+      },
+      {
+        "title": "Władysław III",
+        "type": "person",
+        "slug": "wladyslaw-iii-of-poland",
+        "label": "Died at Varna"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "Victory over the Teutonic Knights, 1410"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Ancestral realm"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "The crown they gained"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Jagiellonian dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Jagiellon-dynasty"
+    },
+    {
+      "title": "Gediminids — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gediminids"
+    },
+    {
+      "title": "Władysław II Jagiełło — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_II_Jagie%C5%82%C5%82o"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Lithuania%20with%20Vytis%20(Waykimas)%20and%20the%20Columns%20of%20Gediminas,%201440.jpg?width=700",
+  "armsImageInfo": {
+    "caption": "The Vytis (Pahonia) mounted knight and the Columns of Gediminas — the Lithuanian arms of the Gediminids — in an armorial of 1440.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Lithuania_with_Vytis_(Waykimas)_and_the_Columns_of_Gediminas,_1440.jpg",
+    "note": "A 15th-century armorial depiction showing both the Vytis and the Columns of Gediminas together."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "id": "mstislav-the-bold",
+  "type": "character",
+  "name": "Mstislav the Bold",
+  "aliases": [
+    "Mstislav Mstislavich",
+    "Mstislav Udatny",
+    "Mstislav the Daring",
+    "Mstislav of Galicia"
+  ],
+  "born": "c. 1180",
+  "died": "1228",
+  "deathAge": "about 48",
+  "restingPlace": "unknown",
+  "birth": {
+    "date": "c. 1180",
+    "place": {
+      "name": "the Rus' lands"
+    }
+  },
+  "death": {
+    "date": "1228",
+    "place": {
+      "name": "the Rus' lands"
+    }
+  },
+  "location": "Novgorod, Galicia and the Rus' lands",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mstislav%20Galitsky.jpg",
+  "title": "prince of Galicia and Novgorod",
+  "isRuler": true,
+  "roles": [
+    "Prince of Galicia",
+    "Prince of Novgorod",
+    "Commander at the Kalka River"
+  ],
+  "epithets": [
+    {
+      "name": "the Bold",
+      "type": "byname",
+      "note": "Udatny — \"the Bold\" or \"the Daring\"; also rendered \"the Fortunate\"."
+    }
+  ],
+  "summary": "Mstislav the Bold was the most celebrated Rus' warrior-prince of his generation, ruler of Novgorod and Galicia, who led the coalition of Rus' princes to disaster against the Mongols at the Kalka River in 1223.",
+  "details": "A restless, much-travelled prince who held Novgorod, Galicia and other seats in turn, Mstislav won a great reputation in the wars between the Rus' principalities before the catastrophe on the Kalka.",
+  "overview": "Mstislav Udatny embodied both the martial brilliance and the fatal disunity of the Rus' princes on the eve of the Mongol conquest.",
+  "quickFacts": {
+    "realm": "Galicia and Novgorod",
+    "dynasty": "Rurikid dynasty",
+    "culture": "Rus'",
+    "knownFor": "Commanding the Rus' coalition at the Battle of the Kalka River (1223)"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Mstislav Mstislavich, called Udatny — \"the Bold\" or \"the Daring\" — was among the most famous Rus' princes of the early 13th century. A Rurikid, he ruled Novgorod, Galicia and other principalities in turn and built a reputation as the finest warrior-prince of his age.",
+        "His fame rests uneasily on the Battle of the Kalka River in 1223, where he led the Rus'-Cuman coalition against the Mongols. His impatience helped bring on the disaster, though he himself escaped, and the defeat foreshadowed the conquest of the Rus' lands a generation later."
+      ]
+    },
+    {
+      "title": "A prince of the Rus' wars",
+      "paragraphs": [
+        "Mstislav spent his career in the ceaseless wars between the Rus' principalities, holding Novgorod — where the citizens prized his generalship — and later seizing the contested principality of Galicia in 1219 amid a three-way struggle with Hungary and Poland.",
+        "He was the model of the mobile, hard-fighting Rus' prince, respected and feared across the fragmented Rus' world. That very world of competing princes, unable to unite, was the weakness the Mongols would exploit."
+      ]
+    },
+    {
+      "title": "The Kalka and after",
+      "paragraphs": [
+        "When the Cumans appealed for help against the Mongols in 1223, Mstislav was a leading voice for war and a chief commander of the coalition. At the Kalka he crossed the river and attacked before the other princes were ready; when the assault failed, the rout spread through the divided army.",
+        "Mstislav escaped the slaughter, breaking the boats behind him to slow the pursuit, but the defeat cost the lives of many princes and much of the Rus' military strength. He died a few years later, in 1228, having handed Galicia toward his son-in-law Daniel; the chronicles remember him as the boldest and most tragic of the princes of his time."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The Rus' chronicles present Mstislav as the beau ideal of a warrior-prince: brave to a fault, loved by the men of Novgorod, restless and quick to fight. His byname Udatny captures the mixture of daring and luck that clung to his reputation.",
+        "That same boldness shades into the flaw the sources hint at on the Kalka — an impatience that would not wait for the coalition to form before striking. Later tradition remembers him admiringly, but his career also stands for the proud, quarrelsome independence of the Rus' princes that left them unable to face the Mongols together."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Ruled Novgorod and won renown in the inter-princely wars",
+    "Seized and held the contested principality of Galicia (1219)",
+    "Led the Rus'–Cuman coalition at the Battle of the Kalka River (1223)"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1180",
+      "title": "Born",
+      "description": "Born into the Rurikid princely house."
+    },
+    {
+      "date": "c. 1210",
+      "title": "Prince of Novgorod",
+      "description": "Takes Novgorod, where his generalship is prized."
+    },
+    {
+      "date": "1219",
+      "title": "Prince of Galicia",
+      "description": "Seizes the contested principality of Galicia."
+    },
+    {
+      "date": "1223",
+      "title": "Battle of the Kalka River",
+      "description": "Leads and loses the Rus' coalition against the Mongols."
+    },
+    {
+      "date": "1228",
+      "title": "Died",
+      "description": "Dies having ceded Galicia toward his son-in-law Daniel."
+    }
+  ],
+  "succession": {
+    "office": "Prince of Galicia",
+    "predecessor": {
+      "status": "disputed",
+      "displayName": "The contested Galician succession",
+      "note": "Galicia was fought over by Rus', Hungarian and Polish claimants; Mstislav seized it in 1219."
+    },
+    "successor": {
+      "displayName": "Daniel of Galicia",
+      "note": "His son-in-law, to whom Galicia eventually passed."
+    }
+  },
+  "imageInfo": {
+    "caption": "Mstislav the Bold (Mstislav Mstislavich of Galicia) in a later depiction; no contemporary likeness survives.",
+    "creator": "Later depiction, Wikimedia Commons",
+    "date": "Later depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mstislav_Galitsky.jpg",
+    "license": "Public domain",
+    "note": "A later image of the prince; no portrait from life exists."
+  },
+  "sources": [
+    {
+      "title": "Mstislav Mstislavich",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Mstislav_Mstislavich"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of the Kalka River",
+        "type": "event",
+        "slug": "battle-of-the-kalka-river",
+        "label": "His great defeat"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "The Rus' world he belonged to"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Rurikid dynasty",
+        "type": "house",
+        "slug": "house-of-rurik",
+        "label": "His dynasty"
+      }
+    ]
+  }
+}

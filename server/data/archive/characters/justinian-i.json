@@ -1,0 +1,264 @@
+{
+  "id": "justinian-i",
+  "type": "character",
+  "name": "Justinian I",
+  "aliases": [
+    "Justinian the Great",
+    "Flavius Petrus Sabbatius Iustinianus"
+  ],
+  "born": 482,
+  "died": 565,
+  "deathAge": "about 83",
+  "causeOfDeath": "Died in Constantinople in November 565, apparently of natural causes.",
+  "restingPlace": "Church of the Holy Apostles, Constantinople",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Lawgiver",
+    "Builder"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosaic%20of%20Justinian%20I%20-%20San%20Vitale%20-%20Ravenna%202016.jpg",
+  "imageInfo": {
+    "caption": "Justinian I in the mosaic of San Vitale at Ravenna, completed in 547 — a contemporary image, though an official one rather than a likeness taken from life.",
+    "creator": "Unknown mosaicists, Ravenna",
+    "date": "completed 547",
+    "source": "Basilica of San Vitale, Ravenna / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinian_I_-_San_Vitale_-_Ravenna_2016.jpg",
+    "note": "Made within the emperor's lifetime and in a city he had recently reconquered, so it is contemporary — but it is imperial propaganda in a church apse, not a portrait sitting. Licensed CC BY-SA 4.0."
+  },
+  "summary": "Justinian I ruled the eastern Roman empire from 527 to 565, reconquered North Africa and Italy, rebuilt Hagia Sophia and had Roman law codified.",
+  "overview": "His reign is the last serious attempt to put the Roman empire back together, and it very nearly worked before plague and overreach undid it.",
+  "greatestFeats": [
+    "Reconquered the Vandal kingdom of Africa in a single campaign season",
+    "Had Roman law codified into the Corpus Juris Civilis",
+    "Rebuilt Hagia Sophia after the Nika riots"
+  ],
+  "birth": {
+    "date": "c. 482",
+    "place": {
+      "name": "Tauresium, in the Balkans"
+    }
+  },
+  "death": {
+    "date": "565",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in November 565 after a reign of thirty-eight years, leaving no children."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Justinian dynasty",
+    "culture": "Roman",
+    "knownFor": "Reconquest, law and Hagia Sophia"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Justin I",
+      "note": "His uncle, who raised him and adopted him; Justinian was effectively governing before Justin died in 527.",
+      "personSlug": "justin-i"
+    },
+    "successor": {
+      "displayName": "Justin II",
+      "note": "His nephew, who inherited an empire far larger and far more exhausted than the one Justinian had received.",
+      "personSlug": "justin-ii"
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Justinian ruled from Constantinople for thirty-eight years, from 527 to 565, and spent them trying to reverse the collapse of the western Roman empire.",
+        "He very nearly managed it. North Africa fell to his armies in a single campaign season, Italy and southern Spain followed, and for a moment the Mediterranean was again ringed by Roman territory.",
+        "What he could not do was pay for it. Plague, exhaustion and permanent war on the Persian frontier meant the reconquest outlived him only barely, and the effort marked the eastern empire for a century afterwards."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born around 482 at Tauresium in the Balkans, into a Latin-speaking provincial family of no distinction whatever.",
+        "His rise came entirely through his uncle Justin, a soldier who worked his way up the guard and became emperor in 518. Justin brought his nephew to the capital, had him educated, and adopted him.",
+        "By the time Justin died in 527 Justinian was already running much of the government, so his accession changed the title rather than the direction."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Justinian is unusually well documented and unusually hard to read, because the same writer left two irreconcilable accounts of him. Procopius wrote the Wars, which treats the emperor as a serious if flawed ruler, and the Secret History, which portrays him as a demon in human form who destroyed more than he built.",
+        "What both accounts agree on is the working habit. He barely slept, read everything, involved himself in the smallest administrative detail and in theological argument, and was nicknamed \"the emperor who never sleeps\". Contemporaries found him accessible and exhausting in roughly equal measure.",
+        "He was also politically dependent on his wife Theodora to a degree that scandalised the aristocracy. During the Nika riots of 532, with the capital burning, it was reportedly Theodora who refused to let him flee — and the regime survived because he stayed. The relationship is the single most discussed feature of his character and the hardest to see past the hostility of the sources."
+      ]
+    },
+    {
+      "title": "Reign and reconquest",
+      "paragraphs": [
+        "The Nika riots of 532 nearly ended him in his fifth year: two circus factions united against the government, half Constantinople burned and a rival was proclaimed. The rising was put down with great slaughter, and Justinian emerged with no serious opposition left.",
+        "He then turned outward. In 533 he sent Belisarius against the Vandal kingdom of Africa, and against the expectations of his own council the campaign destroyed it within months. Italy followed, in a war that dragged on for two decades.",
+        "The reconquest was always financed on a shoestring, with armies too small for the ground they held, and it depended on commanders — Belisarius, and later Narses — performing far beyond what their resources should have allowed."
+      ]
+    },
+    {
+      "title": "Law and building",
+      "paragraphs": [
+        "His most durable achievement had nothing to do with armies. He ordered the whole inherited mass of Roman law reduced to order, and the result — the Codex, Digest, Institutes and Novels, later called the Corpus Juris Civilis — became the foundation of the European legal tradition.",
+        "He rebuilt Hagia Sophia after the Nika riots on a scale nobody had attempted, with a dome that contemporaries found barely credible, and it remained the largest church in Christendom for nearly a thousand years.",
+        "The building programme ran across the empire — fortifications, cisterns, churches and frontier works — and Procopius catalogued it in a separate book, the Buildings, whose flattery is as informative as the Secret History's venom."
+      ]
+    },
+    {
+      "title": "Plague and decline",
+      "paragraphs": [
+        "In 541 plague reached the empire and returned repeatedly for two centuries. Its first outbreak killed a very large share of the population of Constantinople and of the empire, and the manpower and tax base never recovered within his lifetime.",
+        "The armies in Italy were left starved of reinforcement, the Gothic War dragged on far past any reasonable expectation, and the frontier with Persia demanded permanent expense.",
+        "He died in 565 leaving an empire larger on the map than the one he inherited and materially weaker, and within a generation much of the western reconquest had been lost again."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The legal codification is the reconquest that lasted. Roman law as Europe received it is Justinian's law, and it underlies the civil-law systems of most of the continent.",
+        "Hagia Sophia stands, and remains the definitive statement of what the eastern empire believed about itself.",
+        "The military legacy is more equivocal. He proved the reconquest was possible and simultaneously proved it could not be afforded, and historians have argued ever since about whether he saved the eastern empire or over-extended it into the crisis that followed."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 482",
+      "title": "Born",
+      "description": "Born at Tauresium in the Balkans to a Latin-speaking provincial family of no rank."
+    },
+    {
+      "date": "518",
+      "title": "His uncle becomes emperor",
+      "description": "Justin I is raised to the purple; Justinian is brought into government and adopted."
+    },
+    {
+      "date": "527",
+      "title": "Accession",
+      "description": "Becomes emperor on Justin's death, having already directed policy for years."
+    },
+    {
+      "date": "532",
+      "title": "Nika riots",
+      "description": "The circus factions unite against him and much of Constantinople burns; the regime survives and crushes the rising."
+    },
+    {
+      "date": "533–534",
+      "title": "The Vandal kingdom destroyed",
+      "description": "Belisarius takes Africa in a single campaign season.",
+      "links": [
+        {
+          "title": "Vandalic War",
+          "type": "event",
+          "slug": "vandalic-war"
+        }
+      ]
+    },
+    {
+      "date": "537",
+      "title": "Hagia Sophia consecrated",
+      "description": "The rebuilt church is finished, with a dome on a scale never previously attempted."
+    },
+    {
+      "date": "541",
+      "title": "Plague",
+      "description": "Plague reaches the empire and devastates its population and revenues."
+    },
+    {
+      "date": "565",
+      "title": "Died",
+      "description": "Died at Constantinople after thirty-eight years, leaving no children."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "His principal general"
+      },
+      {
+        "title": "Gelimer",
+        "type": "person",
+        "slug": "gelimer",
+        "label": "The Vandal king he destroyed"
+      },
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "The chamberlain who won Italy for him"
+      },
+      {
+        "title": "Theodora (wife of Justinian I)",
+        "type": "person",
+        "slug": "theodora-wife-of-justinian",
+        "label": "Wife and empress"
+      }
+    ],
+    "events": [
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "His first war of reconquest"
+      },
+      {
+        "title": "Battle of Ad Decimum",
+        "type": "event",
+        "slug": "battle-of-ad-decimum",
+        "label": "The battle that opened Africa"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "His longest and costliest war"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      },
+      {
+        "title": "Vandal Kingdom",
+        "type": "location",
+        "slug": "vandal-kingdom",
+        "label": "The realm he annexed"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Justinian I",
+      "url": "https://en.wikipedia.org/wiki/Justinian_I",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Basilica of San Vitale, Ravenna",
+      "url": "https://whc.unesco.org/en/list/788/",
+      "type": "institution",
+      "institution": "UNESCO World Heritage Centre"
+    }
+  ]
+}

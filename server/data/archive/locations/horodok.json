@@ -1,0 +1,85 @@
+{
+  "id": "horodok",
+  "type": "location",
+  "locationType": "Town",
+  "name": "Horodok",
+  "year": 1434,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/John_the_Baptist_Church_Horodok%28LvivOblast%29_Iconostasis.JPG",
+  "summary": "A Ruthenian town associated with the death of Wladyslaw II Jagiello in 1434.",
+  "overview": [
+    "Horodok, in the Ruthenian lands of the Polish-Lithuanian world, is associated with the death of Wladyslaw II Jagiello.",
+    "Jagiello died there in 1434 after a reign that joined Polish kingship with Lithuanian dynastic power."
+  ],
+  "knownFor": [
+    "Death of Wladyslaw II Jagiello",
+    "Ruthenian lands of the Polish-Lithuanian world",
+    "Late Jagiellonian itinerary"
+  ],
+  "imageInfo": {
+    "caption": "Horodok in the Lviv region, a town in the medieval Galician-Volhynian lands.",
+    "creator": "Mykola Swarnyk",
+    "date": "2013-07-03 11:44:19",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_the_Baptist_Church_Horodok(LvivOblast)_Iconostasis.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Horodok belonged to the eastern lands connected to the Jagiellonian monarchy and the multiethnic Polish-Lithuanian political world."
+      ]
+    },
+    {
+      "title": "Medieval historical context",
+      "paragraphs": [
+        "Wladyslaw II Jagiello died at Horodok in 1434. His death transferred rule to his young son Wladyslaw III and left the Jagiellonian settlement to be managed by nobles and royal advisers."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The town matters here because it marks the end of the ruler whose conversion, marriage, and victory at Grunwald reshaped eastern Europe."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Horodok",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Horodok_Lviv_Region.jpg"
+    },
+    {
+      "title": "Horodok reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Horodok,_Lviv_Oblast"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Wladyslaw II Jagiello",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Death of Wladyslaw II Jagiello"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald"
+      }
+    ]
+  }
+}

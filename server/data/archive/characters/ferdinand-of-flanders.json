@@ -1,0 +1,202 @@
+{
+  "id": "ferdinand-of-flanders",
+  "type": "character",
+  "name": "Ferdinand of Flanders",
+  "aliases": [
+    "Ferdinand, Count of Flanders",
+    "Ferrand of Flanders"
+  ],
+  "born": 1188,
+  "died": 1233,
+  "deathAge": "45",
+  "restingPlace": "Marquette Abbey, traditionally",
+  "location": "County of Flanders",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Fernando_of_Portugal_bouvines.jpg",
+  "summary": "Ferdinand of Flanders was count of Flanders by marriage and a major coalition leader defeated and captured at Bouvines.",
+  "details": "Ferdinand of Flanders was count of Flanders by marriage and a major coalition leader defeated and captured at Bouvines.",
+  "title": "count of Flanders",
+  "roles": [
+    "Count of Flanders",
+    "Coalition commander at Bouvines"
+  ],
+  "birth": {
+    "date": "1188",
+    "place": {
+      "name": "Portugal",
+      "slug": "kingdom-of-portugal"
+    }
+  },
+  "death": {
+    "date": "1233",
+    "place": {
+      "name": "Noyon",
+      "slug": "noyon",
+      "type": "location"
+    },
+    "circumstance": "Died at Noyon in 1233 after years of imprisonment following his capture at Bouvines."
+  },
+  "quickFacts": {
+    "realm": "County of Flanders",
+    "dynasty": "House of Burgundy-Portugal",
+    "culture": "Portuguese-Flemish",
+    "knownFor": "Capture at Bouvines"
+  },
+  "imageInfo": {
+    "caption": "Ferdinand of Flanders in a French manuscript miniature of about 1330.",
+    "creator": "See source record",
+    "date": "about 1330",
+    "source": "Wikimedia Commons",
+    "note": "A fourteenth-century chronicle illumination made a century after Bouvines; conventional, not a likeness."
+  },
+  "overview": [
+    "Ferdinand of Flanders was count of Flanders by marriage and a major coalition leader defeated and captured at Bouvines."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ferdinand of Flanders was count of Flanders by marriage and a major coalition leader defeated and captured at Bouvines in 1214. His political position tied Flemish autonomy, English alliance, and resistance to Philip II of France into one of the decisive battles of Capetian consolidation."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Ferdinand of Flanders was born 1188, associated with Portugal. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of County of Flanders, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Ferdinand of Flanders is remembered chiefly through his rebellion against Philip II of France and the long captivity that followed, and his character survives as part of that drama of pride and downfall. A Portuguese prince who became count of Flanders by marriage, he resented Philip's heavy-handed treatment — including the seizure of disputed towns — and joined the great coalition against him, fighting at the Battle of Bouvines in 1214.",
+        "His defeat and capture there made him a symbol of humbled rebellion: he was paraded and imprisoned for many years, his very name (Ferrand) the subject of grim French wordplay about being \"shod with iron.\" The sources present a proud vassal who gambled on overthrowing his overlord and paid with more than a decade of confinement.",
+        "Little of his inner character emerges beyond the impression of wounded pride and ambition that drove him to revolt. He is remembered as one of the defeated princes of Bouvines — the rebellious count whose long imprisonment underscored the completeness of Philip II's triumph — rather than as a rounded personality in his own right."
+      ]
+    },
+    {
+      "title": "As count of Flanders",
+      "paragraphs": [
+        "Ferdinand’s conflict with Philip II of France drew Flanders into the wider anti-Capetian coalition. His political position depended on the balance between Flemish autonomy and French royal pressure.",
+        "Battle of Bouvines gives Ferdinand of Flanders's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Noyon in 1233 after years of imprisonment following his capture at Bouvines."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Ferdinand is remembered mainly for Bouvines, where his capture symbolized the failure of the coalition against Philip II. His imprisonment also shows how high medieval warfare could decide not only battlefield prestige but the political freedom of entire principalities."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Ruled as count of Flanders",
+      "description": "Ferdinand governed a wealthy county caught between French royal pressure and urban-commercial power."
+    },
+    {
+      "title": "Joined the anti-Capetian coalition",
+      "description": "His alliance against Philip II reflected Flemish resistance to Capetian dominance."
+    },
+    {
+      "title": "Captured at Bouvines",
+      "description": "Ferdinand’s capture at Bouvines removed him from politics for years and strengthened French leverage over Flanders."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1188",
+      "title": "Born",
+      "description": "Born into the Portuguese royal family."
+    },
+    {
+      "date": "1212",
+      "title": "Count of Flanders",
+      "description": "Rules Flanders by marriage to Joan."
+    },
+    {
+      "date": "1214",
+      "title": "Fights at Bouvines",
+      "description": "Joins the coalition against Philip II.",
+      "links": [
+        {
+          "title": "Battle of Bouvines",
+          "type": "event",
+          "slug": "battle-of-bouvines"
+        }
+      ]
+    },
+    {
+      "date": "1214",
+      "title": "Captured",
+      "description": "Taken prisoner after the battle."
+    },
+    {
+      "date": "1233",
+      "title": "Dies",
+      "description": "Dies after returning to rule."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "Birthplace"
+      },
+      {
+        "title": "County of Flanders",
+        "type": "location",
+        "slug": "county-of-flanders",
+        "label": "Realm"
+      },
+      {
+        "title": "Noyon",
+        "type": "location",
+        "slug": "noyon",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "Fought in this engagement"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Ferdinand of Flanders",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand%2C_Count_of_Flanders"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Fernando_of_Portugal_bouvines.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Count of Flanders",
+    "note": "Ferdinand held Flanders jure uxoris with Countess Joan.",
+    "predecessor": {
+      "personSlug": "baldwin-i-latin-emperor",
+      "displayName": "Baldwin IX of Flanders",
+      "note": "Joan's father, who left for the Fourth Crusade and died Latin emperor"
+    },
+    "successor": {
+      "displayName": "Joan of Constantinople",
+      "note": "His wife continued to rule; after Ferdinand's death she governed with her second husband Thomas of Savoy"
+    }
+  }
+}

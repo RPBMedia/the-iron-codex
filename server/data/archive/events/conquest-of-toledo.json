@@ -1,0 +1,105 @@
+{
+  "id": "conquest-of-toledo",
+  "type": "event",
+  "name": "Conquest of Toledo",
+  "year": 1085,
+  "aliases": [
+    "Fall of Toledo",
+    "Capture of Toledo",
+    "Siege of Toledo"
+  ],
+  "location": "Toledo, Iberia",
+  "eventType": "Fall of City",
+  "conflict": "Reconquista",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfonso%20VI%20reconquista%20Toledo.JPG",
+  "summary": "In 1085 Alfonso VI of León and Castile took Toledo, the old Visigothic capital, the greatest Christian gain of the Reconquista before the thirteenth century — and the shock that brought the Almoravids into Iberia.",
+  "details": "After years of pressure and a tightening blockade, the taifa city of Toledo capitulated to Alfonso VI on 25 May 1085. Its fall gave the Christians a great fortified capital on the Tagus and so alarmed the Muslim states that they summoned Almoravid help from North Africa.",
+  "factions": [
+    "Kingdom of León and Castile",
+    "Taifa of Toledo"
+  ],
+  "outcome": "Toledo passed permanently to Christian rule; Alfonso VI took the title of emperor, and the alarmed taifa kings called in the Almoravids.",
+  "background": [
+    "Toledo had been the capital of the Visigothic kingdom and remained a great city under Muslim rule, capital of one of the strongest taifa kingdoms. For the Christian kings its recovery carried enormous symbolic weight as the seat of the old Hispanic monarchy.",
+    "Alfonso VI had for years dominated the taifa of Toledo, extracting tribute (parias) and intervening in its politics; he backed the weak ruler al-Qadir and steadily closed his grip until the city could no longer hold out."
+  ],
+  "aftermath": "Toledo became a Christian archiepiscopal seat and the primatial see of Spain, and later a famous centre of translation between Arabic, Hebrew and Latin. Alfonso installed the deposed al-Qadir in Valencia. But the loss of so important a city terrified the remaining taifa rulers, who now invited Yusuf ibn Tashfin and the Almoravids across the strait — leading directly to the disaster of Sagrajas the following year.",
+  "imageInfo": {
+    "caption": "Alfonso VI takes Toledo in 1085, in a later Spanish depiction of the reconquest of the city.",
+    "creator": "Later Spanish depiction, Wikimedia Commons",
+    "date": "Later depiction of the 1085 event",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfonso_VI_reconquista_Toledo.JPG",
+    "license": "Public domain",
+    "note": "A commemorative image, not a contemporary record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Conquest of Toledo in 1085 was the capture of the old Visigothic capital by Alfonso VI of León and Castile, the most important Christian gain of the Reconquista before the thirteenth century. Rather than a stormed assault, it was the surrender of a taifa city worn down by years of Christian pressure.",
+        "Its fall gave the Christian kingdoms a great walled capital on the Tagus and immense prestige, but it also frightened the Muslim taifa rulers into summoning the Almoravids of North Africa — a reaction that would soon check the Christian advance."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Toledo, capital of the Visigoths and then of a powerful taifa, was the prize the Leonese-Castilian kings most coveted. Alfonso VI had long treated it as a tributary, taking parias and meddling in its succession while backing the pliable al-Qadir.",
+        "As the balance tilted, Alfonso pressed the city ever harder until, unable to resist and abandoned by potential allies, Toledo capitulated on terms in May 1085."
+      ]
+    },
+    {
+      "title": "The fall and its consequences",
+      "paragraphs": [
+        "The city surrendered rather than being sacked, and its Muslim and Jewish inhabitants were guaranteed protection under the terms of capitulation, though the great mosque was soon converted to Christian use. Alfonso VI, styling himself \"emperor of all Spain\", made Toledo a bastion of Christian power in the centre of the peninsula.",
+        "The shock of losing Toledo persuaded the taifa kings, led by al-Mutamid of Seville, that they could not withstand the Christians alone. They appealed to the Almoravid emir Yusuf ibn Tashfin, whose intervention would produce the crushing Christian defeat at Sagrajas in 1086."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alfonso VI of León and Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Alfonso_VI_of_Le%C3%B3n_and_Castile"
+    },
+    {
+      "title": "Taifa of Toledo",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Taifa_of_Toledo"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfonso VI of León and Castile",
+        "type": "person",
+        "slug": "alfonso-vi-of-leon-and-castile",
+        "label": "Took the city in 1085"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "The city that fell"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it was taken from"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Sagrajas",
+        "type": "event",
+        "slug": "battle-of-sagrajas",
+        "label": "The Almoravid response it provoked"
+      }
+    ]
+  }
+}

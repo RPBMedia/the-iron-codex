@@ -1,0 +1,270 @@
+{
+  "id": "house-of-ivrea",
+  "type": "house",
+  "name": "House of Ivrea",
+  "aliases": [
+    "House of Ivrea (Jiménez)",
+    "House of Ivrea (Burgundy)",
+    "Castilian House of Ivrea (Burgundy)",
+    "Jiménez",
+    "House of Jiménez",
+    "Jiménez dynasty",
+    "Ivrea",
+    "Jiménez (León) / House of Burgundy by marriage"
+  ],
+  "originYear": 1126,
+  "endYear": 1369,
+  "reignSpan": "1126–1369 (Castilian line)",
+  "region": "Kingdom of Castile",
+  "originPlace": "Navarre and Castile",
+  "arms": "The arms of the Crown of Castile — golden castles and lions.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfonso%20VIII%20de%20Castilla-1214.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Alfonso VIII of Castile, victor of Las Navas de Tolosa, in a later depiction.",
+    "creator": "Later depiction",
+    "date": "Later image (Alfonso VIII r. 1158–1214)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfonso_VIII_de_Castilla-1214.jpg",
+    "note": "A later image of the greatest of the Castilian kings of the Jiménez (Ivrea) line."
+  },
+  "summary": "The royal house of the Jiménez (Ivrea) line that ruled Castile from the twelfth century until the Trastámara took the throne in 1369.",
+  "overview": "The House of Ivrea, the Castilian branch of the old Jiménez dynasty, ruled the Kingdom of Castile through the high Middle Ages. Its kings led the Reconquista — Alfonso VIII broke Almohad power at Las Navas de Tolosa in 1212 — before the line ended in civil war with Peter the Cruel and the rise of the Trastámaras.",
+  "founder": {
+    "displayName": "Sancho III of Navarre",
+    "note": "Sancho the Great, 11th-century progenitor of the Jiménez royal line (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Castile",
+      "type": "location",
+      "slug": "kingdom-of-castile"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "sancho-iii-of-castile",
+      "displayName": "Sancho III",
+      "note": "King of Castile at the division from León"
+    },
+    {
+      "personSlug": "alfonso-viii-of-castile",
+      "displayName": "Alfonso VIII",
+      "note": "Victor of Las Navas de Tolosa, 1212"
+    },
+    {
+      "personSlug": "henry-i-of-castile",
+      "displayName": "Henry I",
+      "note": "Boy king whose early death passed Castile to the León line"
+    },
+    {
+      "personSlug": "alfonso-xi-of-castile",
+      "displayName": "Alfonso XI",
+      "note": "Reasserted royal power and won at the Salado"
+    },
+    {
+      "personSlug": "peter-of-castile",
+      "displayName": "Peter the Cruel",
+      "note": "Last of the line; killed by his half-brother Henry of Trastámara"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Trastámara",
+      "note": "Founded by Henry II, illegitimate son of Alfonso XI, who killed Peter the Cruel in 1369."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Castilian kings of the Jiménez (Ivrea) line. Several generations between Alfonso VIII and Alfonso XI are compressed here to the kings held in the Codex; the line ended with Peter the Cruel and passed to the Trastámara.",
+    "root": {
+      "name": "Sancho III",
+      "personSlug": "sancho-iii-of-castile",
+      "note": "r. 1157–1158",
+      "children": [
+        {
+          "name": "Alfonso VIII",
+          "personSlug": "alfonso-viii-of-castile",
+          "note": "r. 1158–1214",
+          "children": [
+            {
+              "name": "Henry I",
+              "personSlug": "henry-i-of-castile",
+              "note": "r. 1214–1217"
+            },
+            {
+              "name": "Berengaria and the 13th-century kings",
+              "note": "Ferdinand III, Alfonso X and their successors",
+              "children": [
+                {
+                  "name": "Alfonso XI",
+                  "personSlug": "alfonso-xi-of-castile",
+                  "note": "r. 1312–1350",
+                  "children": [
+                    {
+                      "name": "Peter the Cruel",
+                      "personSlug": "peter-of-castile",
+                      "note": "r. 1350–1369",
+                      "branch": "→ House of Trastámara"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Castilian royal house descended from the Jiménez dynasty of Navarre, whose greatest figure, Sancho III \"the Great\" of Navarre, dominated Christian Spain in the early eleventh century and parcelled out kingdoms among his sons. From this line came the kings who made Castile the leading power of the Reconquista.",
+        "Historians often call the Castilian branch the \"House of Ivrea\", after a distant Italian ancestor, to distinguish it from the later Trastámaras; contemporaries simply knew them as the kings of Castile."
+      ]
+    },
+    {
+      "title": "The Reconquista and Las Navas",
+      "paragraphs": [
+        "The dynasty’s central achievement was the war against Muslim al-Andalus. Alfonso VIII suffered a shattering defeat at Alarcos in 1195, but in 1212, at the head of a coalition of Iberian kings, he crushed the Almohads at the Battle of Las Navas de Tolosa — the decisive victory that broke Muslim power in the peninsula and opened Andalusia to Christian conquest.",
+        "Under his successors Castile absorbed Córdoba, Seville, and much of the south, becoming the largest of the Spanish kingdoms."
+      ]
+    },
+    {
+      "title": "Alfonso XI and Peter the Cruel",
+      "paragraphs": [
+        "After a turbulent fourteenth-century minority, Alfonso XI restored strong royal government, defeated a last great Moroccan invasion at the Salado in 1340, and issued important law codes. His son Peter — remembered as \"the Cruel\" or \"the Just\" depending on the teller — ruled harshly and made many enemies.",
+        "Peter’s wars against his illegitimate half-brother Henry of Trastámara drew in England and France as a theatre of the Hundred Years’ War."
+      ]
+    },
+    {
+      "title": "End of the line and legacy",
+      "paragraphs": [
+        "In 1369 Henry of Trastámara killed Peter the Cruel at Montiel and seized the throne, ending the Ivrea line and founding the Trastámara dynasty that would eventually unite Spain.",
+        "The House of Ivrea left Castile the dominant power of Christian Iberia, its Reconquista carried almost to completion and its royal institutions and law firmly established."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1158",
+      "title": "Accession of Alfonso VIII",
+      "description": "The reign of Castile’s great Reconquista king begins.",
+      "links": [
+        {
+          "title": "Alfonso VIII",
+          "type": "person",
+          "slug": "alfonso-viii-of-castile"
+        }
+      ]
+    },
+    {
+      "date": "1212",
+      "title": "Battle of Las Navas de Tolosa",
+      "description": "Alfonso VIII breaks Almohad power in Spain.",
+      "links": [
+        {
+          "title": "Battle of Las Navas de Tolosa",
+          "type": "event",
+          "slug": "battle-of-las-navas-de-tolosa"
+        }
+      ]
+    },
+    {
+      "date": "1340",
+      "title": "Battle of the Salado",
+      "description": "Alfonso XI defeats the last great Moroccan invasion.",
+      "links": [
+        {
+          "title": "Alfonso XI",
+          "type": "person",
+          "slug": "alfonso-xi-of-castile"
+        }
+      ]
+    },
+    {
+      "date": "1369",
+      "title": "Death of Peter the Cruel",
+      "description": "Henry of Trastámara kills Peter and founds a new dynasty.",
+      "links": [
+        {
+          "title": "Peter the Cruel",
+          "type": "person",
+          "slug": "peter-of-castile"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfonso VIII",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "Victor of Las Navas"
+      },
+      {
+        "title": "Alfonso XI",
+        "type": "person",
+        "slug": "alfonso-xi-of-castile",
+        "label": "Restored royal power"
+      },
+      {
+        "title": "Peter the Cruel",
+        "type": "person",
+        "slug": "peter-of-castile",
+        "label": "Last of the line"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The great Reconquista victory, 1212"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The realm they ruled"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Trastámara",
+        "type": "house",
+        "slug": "house-of-trastamara",
+        "label": "The dynasty that succeeded them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Ivrea — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Ivrea"
+    },
+    {
+      "title": "Alfonso VIII — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Alfonso-VIII"
+    },
+    {
+      "title": "Battle of Las Navas de Tolosa — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Las-Navas-de-Tolosa"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom%20of%20Castile%20Arms.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Crown of Castile — the golden castle and the lion — borne by the Jiménez (Ivrea) kings.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdom_of_Castile_Arms.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

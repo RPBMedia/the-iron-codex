@@ -1,0 +1,84 @@
+{
+  "id": "madrigal-de-las-altas-torres",
+  "type": "location",
+  "locationType": "Town",
+  "kingdom": "Kingdom of Castile",
+  "name": "Madrigal de las Altas Torres",
+  "year": 1100,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Puerta_oeste_murallas_Madrigal.jpg/3840px-Puerta_oeste_murallas_Madrigal.jpg",
+  "summary": "A Castilian town remembered as the birthplace of Isabella I of Castile.",
+  "overview": [
+    "Madrigal de las Altas Torres was a Castilian town with royal associations.",
+    "It is remembered especially for Isabella I, whose reign helped reshape late medieval Iberia."
+  ],
+  "knownFor": [
+    "Birthplace of Isabella I of Castile",
+    "Castilian royal associations",
+    "Late medieval Iberian history"
+  ],
+  "imageInfo": {
+    "caption": "Medieval walls at Madrigal de las Altas Torres.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of surviving medieval fortification fabric.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:3840px-Puerta_oeste_murallas_Madrigal.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Castilian town remembered as the birthplace of Isabella I of Castile.",
+        "Madrigal de las Altas Torres matters historically through Birthplace of Isabella I of Castile, Castilian royal associations, Late medieval Iberian history."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Puerta_oeste_murallas_Madrigal.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Isabella I",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Isabella-I-queen-of-Spain"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Isabella I of Castile",
+        "type": "person",
+        "slug": "isabella-of-castile",
+        "label": "Birthplace of Isabella I of Castile"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Medina del Campo",
+        "type": "location",
+        "slug": "medina-del-campo"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon"
+      }
+    ]
+  }
+}

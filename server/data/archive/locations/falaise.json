@@ -1,0 +1,93 @@
+{
+  "id": "falaise",
+  "type": "location",
+  "locationType": "Town",
+  "kingdom": "Duchy of Normandy",
+  "name": "Falaise",
+  "year": 1000,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Chateau_de_falaise_et_centre.JPG/3840px-Chateau_de_falaise_et_centre.JPG",
+  "summary": "A Norman town and castle site traditionally associated with William the Conqueror's birth.",
+  "overview": [
+    "Falaise was a fortified Norman town tied to the ducal family of Normandy.",
+    "Its castle became strongly associated with William the Conqueror and Norman dynastic memory."
+  ],
+  "knownFor": [
+    "Birthplace of William the Conqueror",
+    "Norman ducal castle",
+    "Duchy of Normandy"
+  ],
+  "imageInfo": {
+    "caption": "Chateau de Falaise, associated with the Norman ducal world.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the castle site; parts of the complex have been restored.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:3840px-Chateau_de_falaise_et_centre.JPG"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Falaise in Normandy was a major ducal castle site and the traditional birthplace of William the Conqueror in 1027 or 1028. William was born there as the illegitimate son of Robert I, Duke of Normandy.",
+        "The castle controlled a strategically important position in central Normandy and remained significant throughout the Norman and Angevin period."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Falaise Castle remained an important Norman stronghold through the twelfth century. Philip II of France besieged and captured it in 1204 during his systematic conquest of Normandy from King John, ending English Plantagenet control of the duchy.",
+        "The castle's association with William the Conqueror made it a symbol of the Norman legacy that shaped English kingship."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Chateau_de_falaise_et_centre.JPG"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Falaise",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Falaise"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Birthplace of William the Conqueror"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
+      }
+    ]
+  }
+}

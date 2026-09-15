@@ -1,0 +1,282 @@
+{
+  "id": "wars-of-scottish-independence",
+  "type": "event",
+  "name": "Wars of Scottish Independence",
+  "year": 1296,
+  "location": "Kingdom of Scotland and northern England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg",
+  "summary": "Two wars, 1296–1328 and 1332–1357, in which Scotland resisted English claims to overlordship: from Edward I's conquest and William Wallace's rising to Robert the Bruce's kingship and the ransom of David II.",
+  "details": "The Wars of Scottish Independence began after Scotland’s succession crisis and Edward I’s intervention. They included English invasion, Scottish resistance, civil conflict among Scottish claimants, and the rise of Robert the Bruce.",
+  "eventType": "War",
+  "conflict": "Anglo-Scottish wars",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Robert the Bruce",
+      "faction": "Scottish royal cause",
+      "personId": "robert-the-bruce"
+    },
+    {
+      "name": "Edward I of England",
+      "faction": "English crown",
+      "personId": "edward-i-of-england"
+    },
+    {
+      "name": "Edward II of England",
+      "faction": "English crown",
+      "personId": "edward-ii-of-england"
+    },
+    {
+      "name": "William Wallace",
+      "faction": "Scottish resistance",
+      "personId": "william-wallace"
+    }
+  ],
+  "eventLocation": {
+    "name": "Kingdom of Scotland",
+    "locationId": "kingdom-of-scotland"
+  },
+  "outcome": "Scottish independence recognized in 1328, though later conflict resumed.",
+  "imageInfo": {
+    "caption": "Bannockburn battle map, representing one of the decisive campaigns of the Wars of Scottish Independence.",
+    "creator": "Wikimedia Commons map contributor",
+    "date": "Modern map",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg",
+    "note": "Modern interpretive map used for a wider war whose geography spans many campaigns."
+  },
+  "overview": [
+    "The Wars of Scottish Independence were not a single battle but a long struggle over whether the Kingdom of Scotland would remain a separate political community or become subordinate to the English crown.",
+    "The wars grew from succession crisis after Alexander III and Margaret, Maid of Norway, Edward I’s assertion of overlordship, and the refusal of many Scots to accept direct English rule."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Wars of Scottish Independence were two wars between the kingdoms of Scotland and England. The first ran from Edward I's invasion in 1296 to the Treaty of Edinburgh-Northampton in 1328, in which England recognised Robert the Bruce as king of an independent Scotland. The second began in 1332, when Edward Balliol and the 'Disinherited' invaded with English backing, and ended with the Treaty of Berwick in 1357, which released the captive David II for a ransom of 100,000 merks.",
+        "They were also Scottish civil wars. The Balliol and Comyn families, who led the kingdom in 1296, and the Bruces, who seized the crown in 1306, were enemies long before they were allies against England, and much of the fighting in both wars was Scot against Scot. The 'community of the realm' that Scottish leaders invoked in their letters to the papacy had to be built through that conflict as well as defended by it."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Alexander III died on 19 March 1286 when his horse fell from the cliffs near Kinghorn. His heir was his granddaughter, Margaret, Maid of Norway, the child of Eric II of Norway, and in 1290 the guardians of Scotland agreed in the Treaty of Birgham that she would marry Edward I's son, with guarantees that Scotland would remain a separate kingdom. Margaret died in Orkney in September 1290 on her way to Scotland, and the kingdom was left without an obvious heir.",
+        "Thirteen claimants came forward, and the Scottish magnates asked Edward I to judge between them. Edward first made the claimants acknowledge him as overlord, then heard the case, the Great Cause, and in November 1292 found for John Balliol over Robert Bruce, grandfather of the future king. He then treated Balliol as a vassal, hearing appeals from Scottish courts in England and summoning him to serve against France. In 1295 a council of twelve took government out of Balliol's hands and made an alliance with Philip IV of France."
+      ]
+    },
+    {
+      "title": "Conquest and resistance, 1296–1305",
+      "paragraphs": [
+        "Edward I answered with conquest. He stormed Berwick on 30 March 1296 and massacred much of its population, and a month later John de Warenne, Earl of Surrey, routed the Scottish army at Dunbar. Balliol surrendered in July and was stripped of the royal arms sewn on his coat, the origin of his nickname Toom Tabard, 'empty coat'. Edward carried the Stone of Destiny from Scone to Westminster and made some 1,900 Scottish landholders swear fealty in the documents known as the Ragman Roll.",
+        "Resistance began in 1297 under William Wallace in the south and Andrew Moray in the north. Their joint victory at the Battle of Stirling Bridge on 11 September 1297 destroyed Surrey's army, but Moray died of his wounds, and when Edward came north in person Wallace's schiltrons were broken by archers and cavalry at Falkirk on 22 July 1298. Wallace resigned the guardianship. The war went on under guardians including the younger Robert Bruce, John Comyn and Bishop William Lamberton until the Scottish leaders submitted in 1304. Wallace, who would not, was betrayed, taken to London and executed on 23 August 1305."
+      ]
+    },
+    {
+      "title": "Bruce's war, 1306–1328",
+      "paragraphs": [
+        "On 10 February 1306 Robert the Bruce killed John Comyn in the Greyfriars church at Dumfries, and on 25 March he was crowned at Scone. He was nearly destroyed within months. Defeated at Methven in June, he became a fugitive; his brothers Neil, Thomas and Alexander were executed, and his sister Mary and Isabella, Countess of Buchan, who had placed the crown on his head, were imprisoned in cages. Edward I died at Burgh by Sands on 7 July 1307, marching north to finish the war.",
+        "Edward II never pursued the war with his father's persistence. Bruce broke the Comyn earldom of Buchan in 1308, took and demolished English-held castles one by one, and pressed the garrison of Stirling into the bargain that brought on the Battle of Bannockburn in 1314. That victory let the Scots carry the war into northern England and, under Edward Bruce, into Ireland, where Edward was killed at Faughart in 1318. In 1320 the barons sent Pope John XXII the Declaration of Arbroath, and in 1328, after Edward II's deposition, the regency of Queen Isabella and Roger Mortimer accepted Scottish independence."
+      ]
+    },
+    {
+      "title": "The second war, 1332–1357",
+      "paragraphs": [
+        "The peace did not long survive Bruce's death in 1329. English lords who had lost Scottish estates, the Disinherited, backed Edward Balliol, son of King John, and in August 1332 their small army destroyed the forces of the regent, the Earl of Mar, at Dupplin Moor. Balliol was crowned at Scone. Edward III openly supported him the next year, and on 19 July 1333 English archers annihilated the Scottish army at Halidon Hill outside Berwick, which remained in English hands. The boy king David II was sent to France for safety in 1334.",
+        "The Scots were rescued by the Hundred Years' War. From 1337 Edward III's attention and money went to France, and guardians including the posthumous son and namesake of Andrew Moray, Wallace's colleague of 1297, recovered most of the kingdom; Balliol never controlled more than the south. David II returned in 1341, invaded England in 1346 to help his French ally, and was captured at Neville's Cross near Durham on 17 October. He spent eleven years in English captivity until the Treaty of Berwick of 3 October 1357 released him for a ransom of 100,000 merks. Balliol had already surrendered his claim to Edward III in 1356."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "Scotland came out of the wars independent and still allied with France, but the ransom of David II was never fully paid, Berwick changed hands repeatedly until England took it for good in 1482, and the border became a militarised zone of raiding families. The wars also turned the Bruce kingship into the Stewart one: Robert II, son of Bruce's daughter Marjorie and Walter Stewart, succeeded the childless David II in 1371.",
+        "The wars left the texts on which later Scottish ideas of the kingdom were built: the Declaration of Arbroath, with its warning that the barons would replace even Robert himself if he submitted to England, and the chronicles of John of Fordun, Andrew of Wyntoun and Walter Bower's Scotichronicon, which told the story of Wallace and Bruce to later centuries. John Barbour's The Brus of about 1375 and Blind Harry's The Wallace of about 1477 made the two leaders heroes long before modern nationalism adopted them."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica: Robert the Bruce",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Robert-the-Bruce"
+    },
+    {
+      "title": "National Records of Scotland: Declaration of Arbroath",
+      "author": "National Records of Scotland",
+      "type": "archive",
+      "url": "https://www.nrscotland.gov.uk/research/learning/features/the-declaration-of-arbroath"
+    },
+    {
+      "title": "Walter Bower, Scotichronicon",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Scotichronicon"
+    },
+    {
+      "title": "John Barbour, The Brus",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/The_Brus"
+    },
+    {
+      "title": "Wars of Scottish Independence",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Wars_of_Scottish_Independence"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england"
+      },
+      {
+        "title": "Edward II of England",
+        "type": "person",
+        "slug": "edward-ii-of-england"
+      },
+      {
+        "title": "John Comyn",
+        "type": "person",
+        "slug": "john-comyn"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Victor of Stirling Bridge and Guardian of Scotland"
+      },
+      {
+        "title": "Andrew Moray",
+        "type": "person",
+        "slug": "andrew-moray",
+        "label": "Victor of Stirling Bridge"
+      },
+      {
+        "title": "John Balliol",
+        "type": "person",
+        "slug": "john-balliol",
+        "label": "The king Edward I deposed"
+      },
+      {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "King captured at Neville's Cross"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton"
+      },
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "First great Scottish victory, 1297"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Declaration of Arbroath",
+        "type": "artifact",
+        "slug": "declaration-of-arbroath",
+        "label": "The barons' letter of 1320"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The kingdom at stake"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "19 March 1286",
+      "title": "Death of Alexander III",
+      "description": "The king's fatal fall near Kinghorn leaves a Norwegian granddaughter aged three as heir."
+    },
+    {
+      "date": "November 1292",
+      "title": "The Great Cause decided",
+      "description": "Edward I awards the Scottish crown to John Balliol and then treats him as a vassal."
+    },
+    {
+      "date": "30 March 1296",
+      "title": "Sack of Berwick",
+      "description": "Edward I's invasion opens with the storming of Scotland's chief burgh."
+    },
+    {
+      "date": "11 September 1297",
+      "title": "Stirling Bridge",
+      "description": "William Wallace and Andrew Moray destroy the Earl of Surrey's army at the Battle of Stirling Bridge."
+    },
+    {
+      "date": "22 July 1298",
+      "title": "Defeat at Falkirk",
+      "description": "Edward I's archers and cavalry break Wallace's schiltrons."
+    },
+    {
+      "date": "23 August 1305",
+      "title": "Wallace executed",
+      "description": "Captured near Glasgow, Wallace is tried and put to death in London."
+    },
+    {
+      "date": "25 March 1306",
+      "title": "Bruce crowned",
+      "description": "Six weeks after killing John Comyn at Dumfries, Robert the Bruce is crowned at Scone."
+    },
+    {
+      "date": "24 June 1314",
+      "title": "Bannockburn",
+      "description": "Bruce defeats Edward II at the Battle of Bannockburn."
+    },
+    {
+      "date": "6 April 1320",
+      "title": "Declaration of Arbroath",
+      "description": "The barons appeal to Pope John XXII for recognition of Bruce's kingship."
+    },
+    {
+      "date": "17 March 1328",
+      "title": "Peace and recognition",
+      "description": "The Treaty of Edinburgh-Northampton renounces English claims to overlordship of Scotland."
+    },
+    {
+      "date": "11 August 1332",
+      "title": "Dupplin Moor",
+      "description": "Edward Balliol and the Disinherited defeat the regent's army and reopen the war."
+    },
+    {
+      "date": "19 July 1333",
+      "title": "Halidon Hill",
+      "description": "Edward III's army destroys the Scots outside Berwick."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "Neville's Cross",
+      "description": "David II is captured invading England in support of France."
+    },
+    {
+      "date": "3 October 1357",
+      "title": "Treaty of Berwick",
+      "description": "David II is released for a ransom of 100,000 merks, ending the wars."
+    }
+  ]
+}

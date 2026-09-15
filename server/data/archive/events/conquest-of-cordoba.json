@@ -1,0 +1,99 @@
+{
+  "id": "conquest-of-cordoba",
+  "type": "event",
+  "name": "Conquest of Córdoba",
+  "year": 1236,
+  "aliases": [
+    "Fall of Córdoba",
+    "Capture of Córdoba",
+    "Fall of Cordoba"
+  ],
+  "location": "Córdoba, Iberia",
+  "eventType": "Fall of City",
+  "conflict": "Reconquista",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coronica%20del%20sancto%20rey%20don%20Fernando%20III.jpg",
+  "summary": "In 1236 Ferdinand III of Castile took Córdoba, the former capital of the Umayyad caliphate — a conquest of huge symbolic weight that turned its Great Mosque into a cathedral.",
+  "details": "After Castilian raiders seized a quarter of the city by surprise, Ferdinand III brought up his army and the divided, weakened Córdoba capitulated on 29 June 1236.",
+  "factions": [
+    "Kingdom of Castile",
+    "Taifa of Córdoba"
+  ],
+  "outcome": "Córdoba passed to Christian rule; its Great Mosque was consecrated as a cathedral and the bells looted by Almanzor centuries earlier were returned to Santiago.",
+  "background": [
+    "Córdoba had been the seat of the Umayyad caliphate and the greatest city of al-Andalus, but by the 1230s it was the capital of a weak taifa, its power long broken and the Almohad order collapsing across the peninsula.",
+    "The victory at Las Navas de Tolosa in 1212 had shattered Almohad strength and opened the Guadalquivir valley to Christian expansion. Ferdinand III, king of a reunited Castile and León, drove that expansion hard."
+  ],
+  "aftermath": "The recovery of the old caliphal capital was celebrated across Christendom. The Great Mosque became the cathedral of Córdoba, and, in a gesture rich with memory, the bells that al-Mansur (Almanzor) had carried off from Santiago de Compostela around 997 were carried back. Córdoba became a base for the next stage of the conquest, which would reach Seville within twelve years.",
+  "imageInfo": {
+    "caption": "The Corónica of the \"holy king\" Ferdinand III, the medieval chronicle of the conqueror of Córdoba and Seville.",
+    "creator": "Chronicle of Ferdinand III, Wikimedia Commons",
+    "date": "Later chronicle of the 1236 conquest",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronica_del_sancto_rey_don_Fernando_III.jpg",
+    "license": "Public domain",
+    "note": "A chronicle recording Ferdinand III's deeds, not a contemporary record of the day."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Conquest of Córdoba in 1236 was the capture of the old Umayyad capital by Ferdinand III of Castile. For the Christian kingdoms it was a prize charged with symbolism: the city that had once ruled al-Andalus as a caliphate now fell to Castile.",
+        "The conquest turned the Great Mosque of Córdoba into a Christian cathedral and opened the rich Guadalquivir valley to further advance. It was the first of Ferdinand III's great southern conquests, to be followed by Jaén and Seville."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Córdoba in the 1230s was a shadow of the caliphal metropolis of three centuries earlier, reduced to a weak taifa amid the collapse of Almohad power after Las Navas de Tolosa. The Guadalquivir cities were divided and could not combine.",
+        "Ferdinand III, ruling a Castile and León reunited under his crown from 1230, pressed south into this vacuum. When Castilian adventurers seized a suburb of Córdoba by night, the king marched to exploit the opening."
+      ]
+    },
+    {
+      "title": "The fall and its meaning",
+      "paragraphs": [
+        "With part of the city already in Christian hands and no relief in prospect, Córdoba surrendered on terms on 29 June 1236. Its Muslim population largely departed, and the Great Mosque — one of the wonders of the medieval world — was consecrated for Christian worship.",
+        "Ferdinand had the bells of Santiago, which al-Mansur had famously carried off to Córdoba around 997 to hang as lamps in the mosque, returned to Compostela — closing a loop of memory that made the conquest resonate across Christian Iberia."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ferdinand III of Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "The conqueror of the city"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Caliphate of Córdoba",
+        "type": "location",
+        "slug": "caliphate-of-cordoba",
+        "label": "The caliphate whose old capital this was"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it was taken from"
+      }
+    ],
+    "events": [
+      {
+        "title": "Conquest of Seville",
+        "type": "event",
+        "slug": "conquest-of-seville",
+        "label": "The greater conquest that followed in 1248"
+      }
+    ]
+  }
+}

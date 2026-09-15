@@ -1,0 +1,212 @@
+{
+  "id": "siege-of-rouen",
+  "type": "event",
+  "name": "Siege of Rouen",
+  "year": 1419,
+  "location": "Rouen, Normandy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Si%C3%A8ge_de_Rouen_(1418-1419).jpg",
+  "imageInfo": {
+    "caption": "The siege of Rouen (1418–1419), miniature from Martial d'Auvergne's Vigiles de Charles VII, c. 1484.",
+    "creator": "Unknown miniaturist",
+    "date": "c. 1484",
+    "source": "Bibliothèque nationale de France, Ms. Français 5054, fol. 19v — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Si%C3%A8ge_de_Rouen_(1418-1419).jpg",
+    "note": "A late fifteenth-century French depiction, painted some sixty-five years after the siege; public domain."
+  },
+  "summary": "Henry V starved Rouen, the capital of Normandy, into surrender over six winter months, completing the English conquest of the duchy and opening the road to the Treaty of Troyes.",
+  "details": "The siege of Rouen ran from late July 1418 to 19 January 1419. Rather than storm the largest city of northern France, Henry V sealed it off with fortified camps, a river blockade, and iron discipline, and let famine do the fighting. The city's expulsion of thousands of poor inhabitants — whom Henry refused to let through the siege lines — left civilians dying in the ditch between the walls and the English camps through the winter. Rouen's fall gave Lancastrian England the administrative capital of Normandy.",
+  "eventType": "Siege",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Henry V of England",
+      "faction": "English army",
+      "personId": "henry-v-of-england"
+    },
+    {
+      "name": "Guy le Bouteiller",
+      "faction": "Rouen garrison"
+    }
+  ],
+  "eventLocation": {
+    "name": "Rouen",
+    "locationId": "rouen"
+  },
+  "outcome": "Rouen surrendered on 19 January 1419; Normandy passed under English rule.",
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry V of England",
+          "type": "person",
+          "slug": "henry-v-of-england"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a substantial besieging army under Henry V",
+        "confidence": "estimated",
+        "note": "Large enough to blockade Normandy's capital through a six-month siege; no exact figure is recorded."
+      }
+    },
+    {
+      "side": "Rouen garrison and citizens",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guy le Bouteiller",
+          "type": "person",
+          "note": "No article yet: the Burgundian captain who commanded the defence through the starvation winter of 1418–19 and afterwards entered English service."
+        }
+      ],
+      "strength": {
+        "display": "Garrison of a few thousand; a large civilian population swollen by refugees",
+        "confidence": "debated",
+        "note": "The defence collapsed through starvation rather than assault; the number of non-combatants who died is uncertain but very high."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Rouen, from late July 1418 to 19 January 1419, was the decisive operation of Henry V's second French campaign. After Agincourt in 1415, Henry returned to France in 1417 with a different strategy: instead of raiding, he set out to conquer and keep Normandy town by town. Caen fell in 1417, then the lesser Norman towns, until only Rouen — the duchy's capital and one of the largest cities in France — remained.",
+        "Rouen was too strong to storm. Its walls carried some sixty towers, its garrison had been reinforced, and the city had prepared for a siege. Henry answered with a blockade: four fortified camps linked by trenches, chains across the Seine to stop river traffic, and patrols that cut every road. From August 1418 nothing entered the city. The siege became a contest between English patience and the endurance of a starving population."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "France in 1418 was at war with itself as much as with England. The feud between the Armagnac and Burgundian factions had broken into open violence; in May 1418 the Burgundians seized Paris, and the Dauphin Charles fled south. When Rouen begged for relief, the Burgundian government in Paris and the Dauphin's Armagnac party each hesitated to rescue a city the other faction might claim. No relief army ever marched.",
+        "Henry V exploited that paralysis systematically. His 1417–1419 campaign took the Norman towns in sequence — Caen, Falaise, Cherbourg, Évreux — isolating Rouen before a single English soldier appeared beneath its walls. By July 1418 the ring was closing, and Vicar-General Robert de Livet's defiant garrison prepared the city for the storm that never came, because Henry intended to starve it instead."
+      ]
+    },
+    {
+      "title": "Blockade and famine",
+      "paragraphs": [
+        "By October 1418 food inside Rouen was running out. The defenders had driven perhaps twelve thousand poor inhabitants — the bouches inutiles, \"useless mouths\" — out of the gates to save provisions. Henry refused to let them pass through the English lines. They remained trapped in the town ditch through the winter, dying of hunger and exposure between the walls of their own city and the army besieging it. Chroniclers on both sides recorded children born and baptised in the ditch, hauled up in baskets, and lowered back down to die.",
+        "Inside the walls, the population ate horses, then dogs, cats, and rats, at prices the chronicler-eyewitness John Page recorded in verse. The garrison under Guy le Bouteiller launched sorties and negotiated in bad faith to buy time, still hoping Burgundian Paris would send an army. By Christmas 1418 the city's leaders knew none was coming."
+      ]
+    },
+    {
+      "title": "Surrender",
+      "paragraphs": [
+        "Negotiations opened in earnest at the turn of the year. The terms sealed on 13 January 1419 were harsh: a payment of 300,000 gold crowns, the surrender of the city's arms, and the handover of named men — including Robert de Livet, who had excommunicated Henry from the walls, and Alain Blanchard, commander of the crossbowmen, who had hanged English prisoners from them. Blanchard was executed; de Livet died in an English prison.",
+        "On 19 January 1419 the gates opened and Henry V entered Rouen. He came as duke as much as conqueror: Norman institutions were kept running under English officers, exiled citizens were invited back on oath, and Rouen became the seat of English government in France for the next thirty years."
+      ]
+    },
+    {
+      "title": "Aftermath and the road to Troyes",
+      "paragraphs": [
+        "With Rouen taken, English control of Normandy was complete, and events in France accelerated. In September 1419, Armagnac partisans murdered Duke John the Fearless of Burgundy on the bridge at Montereau during a parley with the Dauphin — a killing that drove his heir, Philip the Good, into open alliance with England.",
+        "That alliance produced the Treaty of Troyes in May 1420: Charles VI recognised Henry V as his heir and regent of France, and Henry married the king's daughter Catherine of Valois. The treaty disinherited the Dauphin and split France into Lancastrian and Dauphinist halves — the political frame of the war for the next fifteen years. None of it would have been possible while Rouen still held out."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Rouen shows the character of Henry V's warfare more clearly than Agincourt does. The famous battle had been forced on him during a retreat; the siege was his chosen instrument — methodical, administrative, and pitiless. His treatment of the expelled civilians was debated even by contemporaries: by the customs of siege warfare he owed them nothing, and he let that logic run to its end.",
+        "Strategically, the siege turned a raiding war into a war of occupation. An English administration ruled from Rouen, Norman revenues paid for the English garrisons, and every later phase of the war — Verneuil, the Loire campaign, the final collapse at Formigny — was fought over the conquest completed in January 1419."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Vigiles de Charles VII miniature",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Si%C3%A8ge_de_Rouen_(1418-1419).jpg"
+    },
+    {
+      "title": "Siege of Rouen (1418–1419) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Rouen_(1418%E2%80%931419)"
+    },
+    {
+      "title": "Agincourt: Henry V and the Battle That Made England",
+      "author": "Juliet Barker",
+      "type": "book",
+      "note": "Covers the 1417–1419 Normandy campaign and the siege of Rouen in detail."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Commanded the siege"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "His famous victory three years earlier"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
+      },
+      {
+        "title": "Battle of Verneuil",
+        "type": "event",
+        "slug": "battle-of-verneuil",
+        "label": "Defence of the conquest, 1424"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen",
+        "label": "The besieged city"
+      },
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "The conquered duchy"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Follow the Lancastrian war in France",
+    "battleSlug": "battle-of-verneuil",
+    "relationship": "same-war",
+    "reason": "Henry V died in 1422 with the conquest incomplete; two years later his brother John, Duke of Bedford, destroyed a Franco-Scottish army at Verneuil — a victory contemporaries ranked beside Agincourt — to secure English Normandy."
+  }
+}

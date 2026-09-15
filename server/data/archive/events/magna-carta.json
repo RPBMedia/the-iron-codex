@@ -1,0 +1,125 @@
+{
+  "id": "magna-carta",
+  "type": "event",
+  "name": "Magna Carta Sealed",
+  "year": 1215,
+  "location": "Runnymede, England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg",
+  "summary": "The 1215 charter forced on King John at Runnymede during a baronial revolt against royal government.",
+  "details": "The 1215 charter forced on King John at Runnymede during a baronial revolt against royal government.",
+  "eventType": "Other",
+  "background": [
+    "King John's military failures, taxation, and conflict with nobles produced a political crisis in England.",
+    "The charter emerged from pressure by rebellious barons who wanted written limits on royal power."
+  ],
+  "aftermath": "Although annulled quickly, Magna Carta was reissued and became a lasting reference point for lawful judgment, taxation by consent, and political restraint.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Magna Carta was sealed by King John at Runnymede in June 1215 after a coalition of rebellious barons challenged his military failures, heavy financial demands, and arbitrary use of royal justice. It was a peace settlement for a civil crisis, not a modern constitution, but several of its clauses became foundational reference points for later legal memory.",
+        "The 1215 charter was annulled almost immediately by Pope Innocent III, yet it survived because John's successors reissued revised versions during the reign of Henry III. Its later authority came from this repeated reissue, from its clauses on lawful judgment and taxation, and from the way later generations used it to argue that royal power should be bounded by law."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "John's reign was damaged by the loss of Normandy to Philip II of France, years of expensive attempts to recover continental lands, and a bitter conflict with the papacy over the archbishopric of Canterbury. To finance war, John relied on scutage, fines, reliefs, wardships, and other feudal revenues with a severity that alienated many nobles.",
+        "By 1215, baronial resistance had moved from complaint to rebellion. The rebels captured London and forced John to negotiate at Runnymede, where the charter attempted to turn grievances about justice, inheritance, debt, forest law, and taxation into written promises."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "The charter promised that the English Church would be free, that certain feudal payments would be limited, and that no free man would be punished except by lawful judgment or the law of the land. It also included practical clauses on widows, debts, merchants, weights and measures, and the removal of foreign mercenaries.",
+        "The most explosive clause created a council of twenty-five barons with power to enforce the agreement against the king. That enforcement mechanism made the charter unacceptable to John and to Pope Innocent III, who annulled it later in 1215 and helped push England into the First Barons' War."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "King John stood at the center of the crisis, but Magna Carta also reflects the political pressure of rebel barons such as Robert Fitzwalter, the mediation of Archbishop Stephen Langton, and the wider interests of bishops, towns, merchants, widows, heirs, and tenants caught in royal administration.",
+        "Henry III's minority government was crucial to the charter's survival. By reissuing revised versions in 1216, 1217, and later, royal ministers turned a failed peace treaty into an accepted statement of lawful kingship."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "In the short term, Magna Carta failed to keep peace: John repudiated it, papal authority annulled it, and civil war followed. In the longer term, reissued versions stripped out some of the most radical clauses while preserving limits on royal procedure and taxation.",
+        "The charter became a durable legal memory because it was copied, confirmed, cited in parliament, and reinterpreted over centuries. Its medieval meaning was narrower than later constitutional mythology, but its insistence that kingship could be expressed and constrained in writing had real force."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Magna Carta anchors one of medieval England's most famous arguments about law and power. It did not create democracy, but it preserved a language of liberties, due process, and consent that later lawyers and political writers repeatedly adapted.",
+        "For IronCodex, its medieval importance lies in the crisis of Angevin kingship: war finance, baronial lordship, church politics, and written administration collided at Runnymede and left a document whose afterlife far exceeded its immediate success."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "One of the surviving Magna Carta manuscript copies.",
+    "creator": "Medieval chancery scribe",
+    "date": "1215",
+    "source": "Wikimedia Commons",
+    "note": "Photograph of a surviving medieval document."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Magna Carta",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Magna-Carta"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Magna Carta",
+        "type": "artifact",
+        "slug": "magna-carta-document",
+        "label": "The charter itself"
+      }
+    ],
+    "people": [
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "His victory at Bouvines weakened King John"
+      },
+      {
+        "title": "Pope Innocent III",
+        "type": "person",
+        "slug": "pope-innocent-iii",
+        "label": "Annulled the charter shortly after sealing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "id": "battle-of-grunwald",
+  "type": "event",
+  "name": "Battle of Grunwald",
+  "year": 1410,
+  "location": "Grunwald, Prussia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Matejko,_Bitwa_pod_Grunwaldem.jpg",
+  "imageInfo": {
+    "caption": "Jan Matejko, Battle of Grunwald.",
+    "creator": "Jan Matejko",
+    "date": "1878",
+    "source": "Wikimedia Commons",
+    "note": "A later monumental national painting, not a contemporary depiction."
+  },
+  "summary": "On 15 July 1410 the armies of Władysław II Jagiełło and Vytautas destroyed the Teutonic Order's field army in Prussia, killing Grand Master Ulrich von Jungingen and most of his commanders.",
+  "details": "The Battle of Grunwald was fought in 1410 between the Kingdom of Poland and Grand Duchy of Lithuania against the Teutonic Order. The Polish-Lithuanian side won a major victory. The battle weakened Teutonic military dominance in the Baltic and became central to Polish, Lithuanian, German, and regional memory.",
+  "eventType": "Battle",
+  "conflict": "Polish-Lithuanian-Teutonic War",
+  "factions": [
+    "Kingdom of Poland",
+    "Grand Duchy of Lithuania",
+    "Teutonic Order"
+  ],
+  "leaders": [
+    {
+      "name": "Wladyslaw II Jagiello",
+      "faction": "Polish-Lithuanian army",
+      "personId": "wladyslaw-ii-jagiello"
+    },
+    {
+      "name": "Vytautas",
+      "faction": "Polish-Lithuanian army",
+      "personId": "vytautas"
+    },
+    {
+      "name": "Ulrich von Jungingen",
+      "faction": "Teutonic Order army",
+      "personId": "ulrich-von-jungingen"
+    }
+  ],
+  "eventLocation": {
+    "name": "Grunwald",
+    "locationId": "grunwald"
+  },
+  "outcome": "Polish-Lithuanian victory; Teutonic military power was badly weakened.",
+  "background": [
+    "The Teutonic Order had built a powerful crusading state in the Baltic. Tensions with Poland and Lithuania grew over territory, conversion, sovereignty, and control of trade routes.",
+    "The union of Poland and Lithuania created a powerful coalition capable of confronting the Order in open battle."
+  ],
+  "battle": "The battle opened after maneuver and delay on a hot day. Lithuanian forces attacked and then withdrew, a movement interpreted either as collapse or tactical maneuver. Heavy fighting developed between Polish and Teutonic forces. The death of Grand Master Ulrich von Jungingen and the failure of Teutonic reserves turned the battle into a decisive defeat for the Order.",
+  "aftermath": "The victors failed to take the Teutonic capital at Marienburg, so the Order survived. Even so, its aura of invincibility and military dominance were broken. The battle shifted the balance of power in the Baltic and strengthened the prestige of Poland-Lithuania.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Grunwald was fought on 15 July 1410 in the fields between the villages of Grunwald, Stębark and Łodwigowo in Prussia, known to the Order's German speakers as Grünfelde, Tannenberg and Ludwigsdorf. A joint army of the Kingdom of Poland under Władysław II Jagiełło and of the Grand Duchy of Lithuania under his cousin Vytautas defeated the army of the Teutonic Order. Grand Master Ulrich von Jungingen was killed, together with the Order's grand commander, its marshal and most of its senior officers.",
+        "It was one of the largest battles of medieval Europe and the decisive one of the war of 1409–1411, but it did not destroy the Order's state. Its capital at Marienburg held out, and the peace of 1411 cost the Order little land. What Grunwald broke was the Order's military reputation and, through the ransoms and indemnity that followed, its finances, beginning the decline that ended with the secularisation of Prussia in 1525."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Teutonic Order had ruled Prussia since its thirteenth-century crusades against the pagan Prussians, and for a century it had raided pagan Lithuania with crusading knights from across Western Europe. That justification collapsed when Grand Duke Jogaila of Lithuania agreed at Krewo in 1385 to accept baptism and marry the young Polish queen Jadwiga, and was crowned king of Poland as Władysław II Jagiełło in 1386. The Order insisted that the conversion of Lithuania was a sham and carried on its wars.",
+        "The immediate quarrel was Samogitia, the Lithuanian land that separated Prussia from the Order's Livonian branch. Vytautas had ceded it to the Order in 1398 and again in 1404, and when the Samogitians rose against their new masters in 1409 he backed them. Ulrich von Jungingen declared war on Poland in August 1409 and seized the Dobrzyń land; a winter truce and an arbitration by Wenceslaus IV of Bohemia, which found for the Order, settled nothing. Through the winter Jagiełło and Vytautas planned a combined campaign aimed directly at Marienburg."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Numbers are debated, but the allied army was probably the larger, perhaps 20,000 to 30,000 men against 15,000 to 20,000 for the Order. The Polish army fought in banners (chorągwie), led by the great banner of Kraków under the knight Zyndram of Maszkowice, and hired mercenaries from Bohemia and Moravia. Vytautas brought Lithuanian and Ruthenian banners, including three regiments from Smolensk, and a contingent of Tatar horse archers under Jalal al-Din, a son of the former khan Tokhtamysh.",
+        "The Order's army was built around its knight-brothers, a few hundred men who supplied its officers, supported by knights and townsmen owing service from Prussia, paid mercenaries, and guest crusaders from the German lands and further west who still came to fight beside the Order. It also brought field guns, which fired a few rounds at the start of the battle to little effect."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Polish-Lithuanian army had crossed the Vistula on a pontoon bridge at Czerwińsk at the start of July and marched north toward Marienburg. Finding the Drwęca crossing at Kurzętnik fortified against it, it swung east, took and burned the town of Gilgenburg (Dąbrówno), and on the morning of 15 July found the Order's army drawn up across its route. The Order waited for hours in the summer heat while Jagiełło heard mass. According to Jan Długosz, Ulrich von Jungingen sent heralds with two unsheathed swords to shame the king into battle; the 'Grunwald swords' were afterwards kept among the Polish royal treasures.",
+        "Vytautas's cavalry on the right attacked first. After about an hour the Lithuanian wing withdrew from the field, pursued by part of the Order's army; whether this was a rout or a feigned retreat in the Tatar manner has been argued since the fifteenth century. The three Smolensk regiments stood their ground and covered the Polish flank, and the Order's knights who returned from the pursuit found the Polish line still intact. In the centre the great banner of Kraków fell and was recovered.",
+        "Ulrich von Jungingen then led his reserve banners round toward the king's position. One knight of the Order reached Jagiełło himself and was unhorsed by the royal secretary Zbigniew Oleśnicki, later cardinal-bishop of Kraków. The charge failed, the returning Lithuanians closed in, and the grand master was killed with Grand Commander Kuno von Lichtenstein and Marshal Friedrich von Wallenrode. The Order's army was driven back on its camp near Grunwald, the wagon fort was stormed, and thousands were killed or captured in the pursuit."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Jagiełło kept his army on the battlefield for three days, a delay later blamed for what followed. By the time the allies reached Marienburg on 26 July, Heinrich von Plauen, the commander of Schwetz, had brought a garrison into the castle. After eight weeks of siege, disease and dwindling supplies the allies withdrew in September, and most of the Prussian towns that had submitted to Jagiełło returned to the Order.",
+        "The First Peace of Thorn, signed on 1 February 1411, gave Samogitia to Lithuania for the lifetimes of Jagiełło and Vytautas and returned the Dobrzyń land to Poland, but left Prussia itself intact. The price was paid in money: the Order had to find 100,000 kopecks of Prague groschen to ransom its prisoners and recover its castles. The taxes raised to pay it turned the Prussian towns and nobility against the Order, and in 1454 they rebelled and placed themselves under the Polish crown."
+      ]
+    },
+    {
+      "title": "Memory and meaning",
+      "paragraphs": [
+        "The fullest account is in the Annales of Jan Długosz, written in the second half of the fifteenth century by a historian whose father had fought at Grunwald and who gathered the testimony of veterans; a short contemporary Polish report, the Cronica conflictus, and the Order's own letters supplement it. Długosz also had the captured Teutonic banners hung in Wawel Cathedral painted and described, and the resulting manuscript, the Banderia Prussorum, preserves the Order's heraldry of 1410 long after the banners themselves were lost.",
+        "In the nineteenth century, with Poland partitioned, Grunwald became a national emblem: Jan Matejko's vast painting of 1878 and Henryk Sienkiewicz's novel The Knights of the Cross (1900) fixed its images. For the 500th anniversary in 1910 the pianist Ignacy Paderewski paid for the Grunwald Monument in Kraków; the German occupiers pulled it down during the Second World War, and it was rebuilt in 1976. In August 1914 the German high command named its victory over the Russian army nearby after Tannenberg precisely to overwrite the memory of 1410. In Lithuania the battle is known as Žalgiris."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
+    },
+    {
+      "title": "Jan Długosz, Annales seu cronicae incliti Regni Poloniae",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Jan_D%C5%82ugosz"
+    },
+    {
+      "title": "Battle of Grunwald",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Grunwald"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Grunwald",
+        "type": "location",
+        "slug": "grunwald",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Wladyslaw II Jagiello",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Commander"
+      },
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "Commander"
+      },
+      {
+        "title": "Ulrich von Jungingen",
+        "type": "person",
+        "slug": "ulrich-von-jungingen",
+        "label": "Commander"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "The defeated order"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Polish-Lithuanian army",
+      "factions": [
+        {
+          "name": "Kingdom of Poland",
+          "title": "Kingdom of Poland",
+          "type": "location",
+          "slug": "kingdom-of-poland"
+        },
+        {
+          "name": "Grand Duchy of Lithuania",
+          "title": "Grand Duchy of Lithuania",
+          "type": "location",
+          "slug": "grand-duchy-of-lithuania"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Wladyslaw II Jagiello",
+          "title": "Wladyslaw II Jagiello",
+          "type": "person",
+          "slug": "wladyslaw-ii-jagiello"
+        },
+        {
+          "name": "Vytautas",
+          "title": "Vytautas",
+          "type": "person",
+          "slug": "vytautas"
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000–30,000 (debated)",
+        "confidence": "debated",
+        "note": "One of the largest battles of medieval Europe; the allied army was the larger, but all totals are heavily debated."
+      }
+    },
+    {
+      "side": "Teutonic Order army",
+      "factions": [
+        {
+          "name": "Teutonic Order",
+          "title": "Teutonic Order",
+          "type": "location",
+          "slug": "teutonic-order"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Ulrich von Jungingen",
+          "title": "Ulrich von Jungingen",
+          "type": "person",
+          "slug": "ulrich-von-jungingen"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000–20,000 (debated)",
+        "confidence": "debated",
+        "note": "The order's army was smaller and was destroyed; medieval figures are inflated and modern estimates vary."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Jagiellonian crown",
+    "battleSlug": "battle-of-varna",
+    "relationship": "same-factions",
+    "reason": "Jagiełło's son Władysław III, king of Poland and Hungary, led the crusade of 1444 against the Ottomans and was killed at Varna: the Jagiellonian dynasty that Grunwald made a great power, fighting on its southern frontier."
+  },
+  "timeline": [
+    {
+      "date": "1385",
+      "title": "Union of Krewo",
+      "description": "Grand Duke Jogaila agrees to convert and marry Queen Jadwiga, uniting Poland and Lithuania under one ruler."
+    },
+    {
+      "date": "1398",
+      "title": "Samogitia ceded",
+      "description": "Vytautas cedes Samogitia to the Teutonic Order, the grievance behind the war of 1409."
+    },
+    {
+      "date": "August 1409",
+      "title": "War declared",
+      "description": "Ulrich von Jungingen attacks Poland after Jagiełło and Vytautas back the Samogitian uprising."
+    },
+    {
+      "date": "July 1410",
+      "title": "Crossing at Czerwińsk",
+      "description": "The Polish and Lithuanian armies unite on a pontoon bridge over the Vistula and march on Marienburg."
+    },
+    {
+      "date": "15 July 1410",
+      "title": "Battle of Grunwald",
+      "description": "The Order's army is destroyed; Ulrich von Jungingen and most of its commanders are killed."
+    },
+    {
+      "date": "26 July – 19 September 1410",
+      "title": "Marienburg holds",
+      "description": "Heinrich von Plauen defends the Order's capital until the allied army withdraws."
+    },
+    {
+      "date": "1 February 1411",
+      "title": "First Peace of Thorn",
+      "description": "Samogitia passes to Lithuania for life, and the Order owes an indemnity of 100,000 kopecks of groschen."
+    },
+    {
+      "date": "1878",
+      "title": "Matejko's canvas",
+      "description": "Jan Matejko completes his monumental painting of the battle, an emblem for partitioned Poland."
+    }
+  ]
+}

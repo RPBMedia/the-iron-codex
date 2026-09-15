@@ -1,0 +1,211 @@
+{
+  "id": "house-of-bruce",
+  "type": "house",
+  "name": "House of Bruce",
+  "aliases": [
+    "Bruce",
+    "Bruce dynasty",
+    "de Brus",
+    "Clan Bruce"
+  ],
+  "originYear": 1306,
+  "endYear": 1371,
+  "reignSpan": "1306–1371",
+  "region": "Kingdom of Scotland",
+  "originPlace": "Annandale, Scotland",
+  "arms": "A red lion rampant within a red double border on a gold field — the royal arms of Scotland.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20the%20Bruce%20statue,%20Bannockburn%20-%20geograph.org.uk%20-%201538090.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Statue of Robert the Bruce at Bannockburn, site of his decisive victory over the English in 1314.",
+    "creator": "Pilkington Jackson (equestrian statue, 1964)",
+    "date": "1964",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_the_Bruce_statue,_Bannockburn_-_geograph.org.uk_-_1538090.jpg",
+    "note": "A 20th-century monument to the Bruce on the battlefield where he secured Scottish independence."
+  },
+  "summary": "The Scottish royal house of Robert the Bruce, who won independence from England and founded a short-lived dynasty.",
+  "overview": "The House of Bruce held the Scottish throne for two reigns in the fourteenth century. Robert the Bruce seized the crown in 1306 amid the Wars of Scottish Independence, secured it at the Battle of Bannockburn in 1314, and won recognition of Scottish independence; his son David II held the throne until 1371, when the crown passed to the Stewarts.",
+  "founder": {
+    "personSlug": "robert-the-bruce",
+    "displayName": "Robert the Bruce",
+    "note": "Won the crown and Scottish independence"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Scotland",
+      "type": "location",
+      "slug": "kingdom-of-scotland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "robert-the-bruce",
+      "displayName": "Robert the Bruce",
+      "note": "King Robert I; victor of Bannockburn"
+    },
+    {
+      "personSlug": "david-ii-of-scotland",
+      "displayName": "David II",
+      "note": "His son; last Bruce king of Scots"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Stewart",
+      "note": "Through Robert the Bruce’s daughter Marjorie, who married Walter Stewart; their son became Robert II, first Stewart king."
+    }
+  ],
+  "familyTree": {
+    "caption": "The two Bruce kings of Scots. Robert the Bruce’s daughter Marjorie carried the succession to the House of Stewart. ⚭ marks a marriage.",
+    "root": {
+      "name": "Robert the Bruce",
+      "personSlug": "robert-the-bruce",
+      "note": "King Robert I, r. 1306–1329",
+      "children": [
+        {
+          "name": "David II",
+          "personSlug": "david-ii-of-scotland",
+          "note": "r. 1329–1371, no heir"
+        },
+        {
+          "name": "Marjorie Bruce",
+          "note": "daughter; m. Walter Stewart",
+          "branch": "→ House of Stewart (Robert II)",
+          "personSlug": "marjorie-bruce"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Bruces were an Anglo-Norman family, lords of Annandale in south-west Scotland, with a claim to the Scottish throne through descent from David I. When the line of Alexander III failed and Edward I of England sought to dominate Scotland, Robert the Bruce emerged as a leader of Scottish resistance.",
+        "In 1306, after killing his rival John Comyn in a church at Dumfries, Bruce had himself crowned king at Scone — an act of desperation that began his fight for both the crown and the kingdom."
+      ]
+    },
+    {
+      "title": "Bannockburn and independence",
+      "paragraphs": [
+        "Bruce’s early reign nearly collapsed under English pressure and Scottish opposition, but he rebuilt his position through guerrilla warfare, the capture of English-held castles, and the destruction of his domestic enemies. In 1314 he won a crushing victory over Edward II’s much larger army at the Battle of Bannockburn.",
+        "The Declaration of Arbroath in 1320 asserted Scottish independence to the pope, and by the Treaty of Edinburgh–Northampton in 1328 England at last recognised Bruce as king of an independent Scotland."
+      ]
+    },
+    {
+      "title": "David II and the end of the line",
+      "paragraphs": [
+        "Robert died in 1329 and was succeeded by his five-year-old son David II. David’s long reign was troubled — years of exile in France, capture by the English at Neville’s Cross in 1346, and a long imprisonment — but he preserved the Bruce crown and Scottish independence.",
+        "David died childless in 1371, ending the direct Bruce line. The throne passed to his nephew Robert Stewart, son of Marjorie Bruce, founding the long-lived House of Stewart."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The House of Bruce secured Scotland’s survival as an independent kingdom, a status it kept for nearly four more centuries. Robert the Bruce became Scotland’s national hero, and Bannockburn its defining victory.",
+        "Through Marjorie Bruce the dynasty’s blood passed to the Stewarts, who would eventually rule both Scotland and England."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1306",
+      "title": "Bruce crowned king",
+      "description": "Robert seizes the Scottish throne after killing John Comyn.",
+      "links": [
+        {
+          "title": "Robert the Bruce",
+          "type": "person",
+          "slug": "robert-the-bruce"
+        }
+      ]
+    },
+    {
+      "date": "1314",
+      "title": "Battle of Bannockburn",
+      "description": "Bruce destroys a far larger English army.",
+      "links": [
+        {
+          "title": "Battle of Bannockburn",
+          "type": "event",
+          "slug": "battle-of-bannockburn"
+        }
+      ]
+    },
+    {
+      "date": "1328",
+      "title": "Independence recognised",
+      "description": "England acknowledges Bruce as king of a free Scotland."
+    },
+    {
+      "date": "1371",
+      "title": "End of the Bruce line",
+      "description": "David II dies childless; the Stewarts succeed.",
+      "links": [
+        {
+          "title": "David II",
+          "type": "person",
+          "slug": "david-ii-of-scotland"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Founder; won independence"
+      },
+      {
+        "title": "David II",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "Last Bruce king"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "Decisive victory, 1314"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The realm they ruled"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Bruce — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Clan_Bruce"
+    },
+    {
+      "title": "Robert the Bruce — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Robert-the-Bruce"
+    },
+    {
+      "title": "David II — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/David-II"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Coat%20of%20Arms%20of%20the%20Kingdom%20of%20Scotland.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The royal arms of Scotland — the red lion rampant within a double tressure — borne by Robert the Bruce.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Coat_of_Arms_of_the_Kingdom_of_Scotland.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

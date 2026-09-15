@@ -1,0 +1,191 @@
+{
+  "id": "alfonso-vi-of-leon-and-castile",
+  "type": "character",
+  "name": "Alfonso VI of León and Castile",
+  "aliases": [
+    "Alfonso VI",
+    "Alfonso VI of Castile",
+    "Alfonso the Brave",
+    "Alfonso el Bravo"
+  ],
+  "born": "c. 1040",
+  "died": "1109",
+  "deathAge": "about 69",
+  "restingPlace": "Sahagún",
+  "birth": {
+    "date": "c. 1040",
+    "place": {
+      "name": "Kingdom of León",
+      "slug": "kingdom-of-leon"
+    }
+  },
+  "death": {
+    "date": "1 July 1109",
+    "place": {
+      "name": "Toledo",
+      "slug": "toledo"
+    }
+  },
+  "location": "León, Castile and Toledo, Iberia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/AlfonsoVI_of_Castile.jpg",
+  "title": "king of León, Castile and Galicia",
+  "isRuler": true,
+  "roles": [
+    "King of León and Castile",
+    "Conqueror of Toledo"
+  ],
+  "epithets": [
+    {
+      "name": "the Brave",
+      "type": "epithet",
+      "note": "Alfonso \"el Bravo\", the Brave or Valiant."
+    }
+  ],
+  "summary": "Alfonso VI reunited León, Castile and Galicia, captured Toledo in 1085, and styled himself emperor of Spain — but his triumph brought the Almoravids into Iberia and the great defeat of Sagrajas.",
+  "details": "Ruling from 1065 in León and reuniting his father's realms by 1072, Alfonso VI dominated the taifa kings, took Toledo in 1085, and was beaten by the Almoravids at Sagrajas in 1086. He was also the sometime patron and antagonist of El Cid.",
+  "overview": "Alfonso VI was the most powerful Christian ruler of eleventh-century Iberia, whose reign saw both the greatest advance of the Reconquista to that date and the reversal that followed it.",
+  "quickFacts": {
+    "realm": "Kingdom of León and Castile",
+    "dynasty": "Jiménez dynasty",
+    "culture": "Leonese-Castilian",
+    "knownFor": "The conquest of Toledo (1085)"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alfonso VI of León and Castile ruled from 1065 to 1109 and was the dominant Christian king of his age. He reunited the realms his father Ferdinand I had divided, imposed tribute on the Muslim taifa kingdoms, and in 1085 captured Toledo, the old Visigothic capital.",
+        "His success was checked the next year at Sagrajas, where the newly arrived Almoravids destroyed his army. His reign thus spans both the high tide of eleventh-century Christian expansion and the reaction that halted it."
+      ]
+    },
+    {
+      "title": "Reign and wars",
+      "paragraphs": [
+        "Alfonso inherited León in 1065 and, after the deaths of his brothers Sancho II and García in the wars over their father's partitioned inheritance, reunited León, Castile and Galicia by 1072. He turned the taifa kings into tributaries, drawing vast wealth in parias, and in 1085 crowned this dominance with the conquest of Toledo.",
+        "The taifa appeal to the Almoravids brought disaster at Sagrajas in 1086, and later defeats — including Uclés in 1108, where his only son Sancho was killed — clouded his last years. His relationship with the great Castilian warlord El Cid was famously stormy, marked by exile and reconciliation. He died in 1109, leaving his daughter Urraca to succeed."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Alfonso VI comes across as an ambitious, calculating ruler, as ready to use and depose the taifa kings as to fight them, and grand enough to claim the title of \"emperor of all Spain\". His long manipulation of Toledo before taking it shows a patient, political style of conquest.",
+        "He could also be harsh and proud — his quarrels with El Cid, whom he exiled, reveal a suspicious streak — yet he was pragmatic in ruling a mixed society, confirming protections for Muslims and Jews at Toledo. Contemporaries saw him as formidable, and his defeats wounded a reputation built on real achievement."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Reunited León, Castile and Galicia",
+    "Captured Toledo in 1085",
+    "Turned the taifa kingdoms into tributaries"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1040",
+      "title": "Born",
+      "description": "Son of Ferdinand I of León and Castile."
+    },
+    {
+      "date": "1065",
+      "title": "King of León",
+      "description": "Inherited León on his father's death and the partition of the realm."
+    },
+    {
+      "date": "1072",
+      "title": "Reunited the realms",
+      "description": "Reunited León, Castile and Galicia after his brothers' deaths."
+    },
+    {
+      "date": "1085",
+      "title": "Conquest of Toledo",
+      "description": "Captured the old Visigothic capital."
+    },
+    {
+      "date": "1086",
+      "title": "Battle of Sagrajas",
+      "description": "Defeated by the Almoravids under Yusuf ibn Tashfin."
+    },
+    {
+      "date": "1109",
+      "title": "Died",
+      "description": "Died at Toledo; succeeded by his daughter Urraca."
+    }
+  ],
+  "succession": {
+    "office": "King of León and Castile",
+    "predecessor": {
+      "displayName": "Ferdinand I of León and Castile",
+      "note": "His father, whose realm was divided among his sons."
+    },
+    "successor": {
+      "displayName": "Urraca of León and Castile",
+      "note": "His daughter."
+    }
+  },
+  "imageInfo": {
+    "caption": "Alfonso VI of León and Castile in a medieval-style royal portrait.",
+    "creator": "Later depiction, Wikimedia Commons",
+    "date": "Later royal depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AlfonsoVI_of_Castile.jpg",
+    "license": "Public domain",
+    "note": "No contemporary likeness survives."
+  },
+  "sources": [
+    {
+      "title": "Alfonso VI of León and Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Alfonso_VI_of_Le%C3%B3n_and_Castile"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Conquest of Toledo",
+        "type": "event",
+        "slug": "conquest-of-toledo",
+        "label": "His greatest conquest"
+      },
+      {
+        "title": "Battle of Sagrajas",
+        "type": "event",
+        "slug": "battle-of-sagrajas",
+        "label": "His great defeat"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "The city he conquered"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "His realm"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "His realm"
+      },
+      {
+        "title": "Valencia",
+        "type": "location",
+        "slug": "valencia",
+        "label": "City he abandoned to the Almoravids in 1102"
+      }
+    ],
+    "people": [
+      {
+        "title": "El Cid",
+        "type": "person",
+        "slug": "el-cid",
+        "label": "The warlord he exiled, who took Valencia"
+      }
+    ]
+  }
+}

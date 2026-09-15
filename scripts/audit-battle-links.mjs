@@ -5,9 +5,9 @@
 // The RESOLVED check replicates DetailPage.jsx's findEntityMatches candidate
 // logic exactly, so it reflects what the running client actually links.
 import fs from 'node:fs'
+import { loadArchive } from '../server/data/archive.mjs'
 
-const dataPath = new URL('../server/data/history.json', import.meta.url)
-const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+const data = loadArchive()
 const linksSrc = fs.readFileSync(new URL('../client/src/lib/entityLinks.js', import.meta.url), 'utf8')
 
 // Parse entityLinks label+aliases -> the set of linkable terms (lowercased).

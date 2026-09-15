@@ -1,0 +1,210 @@
+{
+  "id": "leo-iv",
+  "type": "character",
+  "name": "Leo IV",
+  "aliases": [
+    "Leo IV the Khazar",
+    "Leon IV"
+  ],
+  "born": 750,
+  "died": 780,
+  "deathAge": "30",
+  "causeOfDeath": "Died of a fever in September 780, aged thirty.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gold%20Solidus%20of%20Leo%20IV.jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Leo IV, struck at Constantinople during his short reign.",
+    "creator": "Constantinople mint",
+    "date": "775–780",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_Solidus_of_Leo_IV.jpg",
+    "note": "A contemporary object of his own reign. Isaurian coinage typically shows the reigning emperor with his predecessors, asserting the dynasty rather than the man. Public domain."
+  },
+  "summary": "Leo IV reigned five years between two committed iconoclasts, relaxed the persecution of monks, and died at thirty leaving a nine-year-old son and a widow who would undo the family's religious policy.",
+  "overview": "The moderate in a dynasty of hardliners, and the hinge on which its religious position turned.",
+  "greatestFeats": [
+    "Relaxed his father's persecution of the monasteries",
+    "Held the eastern frontier and campaigned successfully in Syria",
+    "Secured his son's succession, which passed the throne to his widow Irene"
+  ],
+  "birth": {
+    "date": "750",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "780",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died of a fever in September 780; a later tradition that it was brought on by a stolen crown is unverifiable."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Isaurian dynasty",
+    "culture": "Roman, of Khazar descent on his mother's side",
+    "knownFor": "A short moderate reign between two iconoclast emperors"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "constantine-v",
+      "displayName": "Constantine V",
+      "note": "His father, the dynasty's best soldier and its most committed iconoclast, who died on campaign against the Bulgars in 775."
+    },
+    "successor": {
+      "personSlug": "constantine-vi",
+      "displayName": "Constantine VI",
+      "note": "His son, nine years old at his accession, for whom his widow Irene governed as regent — and whom she eventually blinded."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Leo IV ruled for five years between his father Constantine V, who persecuted the monasteries, and his wife Irene, who restored the icons. He did neither.",
+        "He kept the iconoclast position formally but stopped enforcing it harshly, appointed monks to bishoprics, and let the temperature fall — until near the end of his reign, when he moved against courtiers found with icons.",
+        "He died at thirty in 780, leaving a nine-year-old heir and a strongly iconophile widow with the regency, which decided the empire's religious direction for the next twenty years."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born in 750 to Constantine V and the empress Tzitzak — a Khazar princess, daughter of the khagan, married to seal an alliance against the caliphate, and the source of his byname.",
+        "He was crowned co-emperor as a small child in 751, and grew up in the household of the most militarily successful emperor of the century, campaigning with his father against the Bulgars.",
+        "In 769 he married an Athenian orphan named Irene, chosen in circumstances the sources do not explain and who was, whatever the process, a convinced venerator of icons married into the family that had outlawed them."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "He is a genuinely difficult figure to read because his reign was short and his position was ambiguous, and the iconophile sources that dominate the period cannot decide whether to credit him with restraint or condemn him for heresy.",
+        "What the actions suggest is a ruler who inherited a policy he did not much believe in and was unwilling either to enforce or to repudiate — appointing monks as bishops, ending the public humiliations, and leaving the doctrine in place.",
+        "The one hard episode is at the end: in 780 a group of courtiers was found with icons and punished, and the sources link it to a rupture with his wife. Whether that represents a change of heart, a reassertion under pressure from the army, or simply a palace quarrel cannot be determined from what survives."
+      ]
+    },
+    {
+      "title": "Reign",
+      "paragraphs": [
+        "Militarily the reign continued his father's success without his father's intensity. Byzantine forces campaigned in Syria in 778, taking Germanikeia, and beat back Abbasid raids into Anatolia.",
+        "On the northern frontier he kept the peace his father's nine Bulgarian campaigns had bought, and he was preparing an expedition against the Bulgars when he died.",
+        "His most consequential act was dynastic: in 776 he had his son Constantine crowned co-emperor and made the army and the city swear to recognise no other line, over the objections of his own half-brothers, whose subsequent conspiracies he put down."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The five years matter mostly for what they made possible. By relaxing the persecution without repudiating the doctrine, he left the question open at exactly the moment his death handed the government to Irene.",
+        "She restored the veneration of images at the Second Council of Nicaea in 787, seven years after he died, and the iconoclasm his father had entrenched was condemned as heresy within a generation.",
+        "A later tradition holds that he died of a fever brought on by wearing a jewelled crown taken from Hagia Sophia — a story with the shape of a moral about sacrilege, and no evidential value whatever."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "750",
+      "title": "Born",
+      "description": "Born to Constantine V and his Khazar wife Tzitzak."
+    },
+    {
+      "date": "751",
+      "title": "Crowned co-emperor",
+      "description": "Crowned as an infant, securing the Isaurian succession into a third generation."
+    },
+    {
+      "date": "769",
+      "title": "Marries Irene of Athens",
+      "description": "Marries an Athenian orphan who venerates icons, into a family that has outlawed them."
+    },
+    {
+      "date": "775",
+      "title": "Becomes emperor",
+      "description": "Succeeds on his father's death on campaign against the Bulgars."
+    },
+    {
+      "date": "776",
+      "title": "His son crowned",
+      "description": "Constantine VI is made co-emperor and the succession is sworn to, over his half-brothers' objections."
+    },
+    {
+      "date": "778",
+      "title": "Campaign in Syria",
+      "description": "Byzantine forces take Germanikeia and beat back Abbasid raids into Anatolia."
+    },
+    {
+      "date": "780",
+      "title": "Died",
+      "description": "Dies of a fever at thirty, leaving a nine-year-old heir and an iconophile widow as regent."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Constantine V",
+        "type": "person",
+        "slug": "constantine-v",
+        "label": "His father"
+      },
+      {
+        "title": "Constantine VI",
+        "type": "person",
+        "slug": "constantine-vi",
+        "label": "His son and successor"
+      },
+      {
+        "title": "Irene of Athens",
+        "type": "person",
+        "slug": "irene-of-athens",
+        "label": "His wife, who governed after him and restored the icons"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Leo IV the Khazar",
+      "url": "https://en.wikipedia.org/wiki/Leo_IV_the_Khazar",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "epithets": [
+    {
+      "name": "the Khazar",
+      "type": "byname",
+      "note": "From his mother Tzitzak, a Khazar khagan's daughter who took the name Irene at her baptism — not a comment on him but on the marriage alliance that produced him."
+    }
+  ]
+}

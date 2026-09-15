@@ -1,0 +1,93 @@
+{
+  "id": "manzikert",
+  "type": "location",
+  "name": "Manzikert",
+  "locationType": "Town",
+  "kingdom": "Byzantine Empire",
+  "year": "1071",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/131_Bataille_de_Malazgirt.jpg",
+  "summary": "A town and battlefield in eastern Anatolia remembered for the Byzantine defeat of 1071.",
+  "overview": [
+    "A town and battlefield in eastern Anatolia remembered for the Byzantine defeat of 1071."
+  ],
+  "knownFor": [
+    "Manzikert in medieval history",
+    "Regional power and warfare",
+    "Connected to battle narratives in IronCodex"
+  ],
+  "imageInfo": {
+    "caption": "Manzikert.",
+    "creator": "Unknown or Wikimedia Commons contributor",
+    "date": "historical image",
+    "source": "Wikimedia Commons",
+    "note": "Historical or later depiction used as representative visual evidence.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:131_Bataille_de_Malazgirt.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A town and battlefield in eastern Anatolia remembered for the Byzantine defeat of 1071.",
+        "Manzikert matters historically through Manzikert in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:131_Bataille_de_Malazgirt.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Manzikert",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Manzikert"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "Battle fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Combatant here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Fought here"
+      },
+      {
+        "title": "Alp Arslan",
+        "type": "person",
+        "slug": "alp-arslan",
+        "label": "Fought here"
+      }
+    ]
+  }
+}

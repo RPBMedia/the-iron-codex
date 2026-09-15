@@ -9,6 +9,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { leadText, clampText } from '../client/src/lib/pageMeta.js'
+import { loadArchive } from '../server/data/archive.mjs'
 
 test('a summary wins when an article has one', () => {
   assert.equal(leadText({ summary: 'Short.', overview: ['Longer.'], details: 'Details.' }), 'Short.')
@@ -47,7 +48,7 @@ test('clampText cuts long text at a boundary, never mid-word', () => {
 })
 
 test('every article in the archive has lead text for its card', () => {
-  const data = JSON.parse(readFileSync(new URL('../server/data/history.json', import.meta.url), 'utf8'))
+  const data = loadArchive()
   const blank = []
   for (const [collection, entries] of Object.entries(data)) {
     if (!Array.isArray(entries)) continue

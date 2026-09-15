@@ -1,0 +1,232 @@
+{
+  "id": "philip-vi-of-france",
+  "type": "character",
+  "name": "Philip VI of France",
+  "aliases": [
+    "Philip of Valois"
+  ],
+  "born": 1293,
+  "died": 1350,
+  "deathAge": "57",
+  "restingPlace": "Basilica of Saint-Denis",
+  "location": "Kingdom of France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Phil6france.jpg",
+  "summary": "Philip VI of France was the first Valois king and the French ruler during the opening phase of the Hundred Years’ War.",
+  "details": "Philip VI of France was the first Valois king and the French ruler during the opening phase of the Hundred Years’ War.",
+  "title": "king of France",
+  "roles": [
+    "King of France",
+    "Valois founder"
+  ],
+  "birth": {
+    "date": "1293",
+    "place": {
+      "name": "Fontainebleau",
+      "slug": "kingdom-of-france"
+    }
+  },
+  "death": {
+    "date": "1350",
+    "place": {
+      "name": "Nogent-le-Roi",
+      "slug": "nogent-le-roi",
+      "type": "location"
+    },
+    "circumstance": "Died at Nogent-le-Roi in 1350 after the early disasters of the Hundred Years’ War and the arrival of plague in France."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of France",
+    "dynasty": "Valois",
+    "culture": "French",
+    "knownFor": "Beginning of the Valois line and defeat at Crecy"
+  },
+  "imageInfo": {
+    "caption": "Philip VI presiding over the trial of Robert of Artois in a French manuscript miniature of about 1336.",
+    "creator": "See source record",
+    "date": "about 1336",
+    "source": "Wikimedia Commons",
+    "note": "BnF, Français 18437; a contemporary illumination, conventional rather than a likeness."
+  },
+  "overview": [
+    "Philip VI of France was the first Valois king and the French ruler during the opening phase of the Hundred Years’ War."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Philip VI of France was the first Valois king and the French ruler during the opening phase of the Hundred Years’ War. His accession in 1328 excluded Edward III’s claim through the female line, and his reign was tested by naval defeat at Sluys, disaster at Crécy, and the early pressures of plague and war finance."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Philip VI of France was born 1293, associated with Fontainebleau. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Philip VI of France, first of the Valois kings, is remembered as a ruler whose reign opened with promise and collapsed into disaster, and the sources present a king more comfortable with the trappings of chivalry than with the hard realities that overwhelmed him. He came to a contested throne and initially cut an impressive figure, but the chroniclers record a monarch outmatched by the crises of the early Hundred Years' War.",
+        "His defeat by Edward III at the Battle of Crécy in 1346 — where French chivalric impetuosity shattered against English discipline — and the loss of Calais, followed by the arrival of the Black Death, fixed his reign in memory as a sequence of catastrophes. The sources suggest a ruler of conventional aristocratic instincts who lacked the strategic grasp to counter a more innovative enemy.",
+        "The portrait is shaped by hindsight and by the contrast with his able opponent, so it leans toward blame. What the record supports is a king of ordinary chivalric outlook caught in extraordinary times, unable to master the military, financial, and epidemic disasters of his reign. He is remembered as the unlucky founder of the Valois line, presiding over the opening defeats of a long war."
+      ]
+    },
+    {
+      "title": "As king of France",
+      "paragraphs": [
+        "Philip’s accession was challenged by Edward III’s claim to the French throne. His reign faced war, financial strain, and the disaster of Crécy.",
+        "Battle of Crecy gives Philip VI of France's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Nogent-le-Roi in 1350 after the early disasters of the Hundred Years’ War and the arrival of plague in France."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Philip’s reign marks the beginning of the Valois monarchy and the dynastic conflict with England that became the Hundred Years’ War."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Founded the Valois royal line",
+      "description": "Philip VI became the first Valois king after the Capetian direct line ended."
+    },
+    {
+      "title": "Ruled France at the start of the Hundred Years War",
+      "description": "His dispute with Edward III helped turn dynastic rivalry into open war."
+    },
+    {
+      "title": "Commanded during the Crecy campaign",
+      "description": "The defeat at Crécy exposed weaknesses in French command and noble cavalry tactics."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1293",
+      "title": "Born",
+      "description": "Born into the Valois branch of the Capetians."
+    },
+    {
+      "date": "1328",
+      "title": "Becomes king",
+      "description": "Chosen after the direct Capetian line ends."
+    },
+    {
+      "date": "1337",
+      "title": "War with England deepens",
+      "description": "Edward III presses his claim."
+    },
+    {
+      "date": "1346",
+      "title": "Defeated at Crecy",
+      "description": "French army loses heavily.",
+      "links": [
+        {
+          "title": "Battle of Crécy",
+          "type": "event",
+          "slug": "battle-of-crecy"
+        }
+      ]
+    },
+    {
+      "date": "1350",
+      "title": "Dies",
+      "description": "Dies at Nogent-le-Roi."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Nogent-le-Roi",
+        "type": "location",
+        "slug": "nogent-le-roi",
+        "label": "Place of death"
+      },
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Began its keep"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
+        "label": "Ruler of Kingdom of France"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Philip VI of France",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Philip_of_Valois"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Phil6france.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of France",
+    "predecessor": {
+      "personSlug": "charles-iv-of-france",
+      "displayName": "Charles IV of France",
+      "note": "Last Capetian of the direct line; Philip took the crown as nearest male heir, beginning the Valois line"
+    },
+    "successor": {
+      "personSlug": "john-ii-of-france",
+      "displayName": "John II of France"
+    }
+  },
+  "sectionImages": [
+    {
+      "section": "As king of France",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Sacre_philippe_VI.jpg",
+      "alt": "The coronation of Philip VI at Reims in 1328 — the first Valois king, whose contested succession helped ignite the Hundred Years’ War.",
+      "caption": "The coronation of Philip VI at Reims in 1328 — the first Valois king, whose contested succession helped ignite the Hundred Years’ War.",
+      "creator": "Unknown medieval illuminator",
+      "date": "14th century (manuscript)",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacre_philippe_VI.jpg",
+      "note": "A medieval chronicle miniature of the coronation; formal royal imagery rather than a record of individual likenesses."
+    }
+  ]
+}

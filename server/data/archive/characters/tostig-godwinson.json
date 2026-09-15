@@ -1,0 +1,215 @@
+{
+  "id": "tostig-godwinson",
+  "type": "character",
+  "name": "Tostig Godwinson",
+  "aliases": [
+    "Tostig Godwineson"
+  ],
+  "born": 1026,
+  "died": 1066,
+  "deathAge": "about 40",
+  "restingPlace": "Unknown",
+  "location": "Kingdom of England",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cambridge%2C_University_Library%2C_MS_Ee.3.59%2C_fol._24v.png",
+  "summary": "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England.",
+  "details": "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England.",
+  "title": "exiled earl of Northumbria",
+  "roles": [
+    "Earl of Northumbria",
+    "Ally of Harald Hardrada"
+  ],
+  "birth": {
+    "date": "c. 1026",
+    "place": {
+      "name": "England",
+      "slug": "kingdom-of-england"
+    },
+    "note": "Approximate date; exact birthplace unknown, but he belonged to the English Godwin family."
+  },
+  "death": {
+    "date": "1066",
+    "place": {
+      "name": "Stamford Bridge",
+      "slug": "stamford-bridge"
+    },
+    "event": {
+      "name": "Battle of Stamford Bridge",
+      "type": "event",
+      "slug": "battle-of-stamford-bridge"
+    },
+    "circumstance": "Killed with Harald Hardrada at Stamford Bridge in 1066 after joining the Norwegian invasion of England."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of England",
+    "culture": "Anglo-Saxon English",
+    "knownFor": "Role in the 1066 succession crisis"
+  },
+  "imageInfo": {
+    "caption": "Tostig and Harold quarrelling at the royal table in the illustrated Life of Edward the Confessor, an English manuscript of about 1255.",
+    "creator": "See source record",
+    "date": "about 1255",
+    "source": "Wikimedia Commons",
+    "note": "Cambridge University Library, MS Ee.3.59, often attributed to Matthew Paris; a thirteenth-century scene, not a likeness."
+  },
+  "overview": [
+    "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tostig Godwinson was Harold Godwinson’s brother, former earl of Northumbria, and ally of Harald Hardrada in the 1066 invasion of England."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Tostig Godwinson was born c. 1026, associated with England. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Tostig Godwinson is remembered as the embittered brother whose grievance helped bring on the crises of 1066, and the sources present a proud and increasingly desperate figure consumed by rivalry with his brother Harold Godwinson. As earl of Northumbria he provoked a revolt by his harsh rule, and when Harold failed to restore him, Tostig turned against his own family, allying with foreign enemies of England.",
+        "That alliance led him to join Harald Hardrada's invasion, and he died alongside the Norwegian king at the Battle of Stamford Bridge — killed in a cause aimed squarely at his brother's throne. The sources, English in origin, present his career as a study in wounded pride curdling into treachery, though they also acknowledge the real grievance of his loss of office.",
+        "His personality survives as a portrait of resentment and ambition: a man who would rather see England invaded than accept his own fall. He is remembered as the brother whose bitterness opened a door to disaster, a figure of dynastic tragedy whose defection sharpened the chaos of the year of three battles."
+      ]
+    },
+    {
+      "title": "As earl and exile",
+      "paragraphs": [
+        "Tostig’s rule in Northumbria provoked opposition and exile. His alliance with Harald Hardrada turned family conflict into part of the wider English succession crisis.",
+        "Battle of Stamford Bridge gives Tostig Godwinson's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed with Harald Hardrada at Stamford Bridge in 1066 after joining the Norwegian invasion of England."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Tostig is remembered as one of the destabilizing figures of 1066, linking internal English politics to Norwegian intervention."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Served as earl of Northumbria",
+      "description": "Tostig’s troubled rule in Northumbria ended in rebellion and exile, making him a dangerous enemy of his brother Harold."
+    },
+    {
+      "title": "Allied with Harald Hardrada",
+      "description": "His alliance with Harald Hardrada gave the Norwegian invasion an English political dimension."
+    },
+    {
+      "title": "Fought at Stamford Bridge",
+      "description": "Tostig died at Stamford Bridge, where the northern invasion collapsed before the Norman threat arrived."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1026",
+      "title": "Born",
+      "description": "Born into the Godwin family."
+    },
+    {
+      "date": "1055",
+      "title": "Earl of Northumbria",
+      "description": "Receives the Northumbrian earldom."
+    },
+    {
+      "date": "1065",
+      "title": "Exiled",
+      "description": "Removed after Northumbrian revolt."
+    },
+    {
+      "date": "1066",
+      "title": "Joins Norwegian invasion",
+      "description": "Supports Harald Hardrada."
+    },
+    {
+      "date": "1066",
+      "title": "Dies at Stamford Bridge",
+      "description": "Killed in battle.",
+      "links": [
+        {
+          "title": "Battle of Stamford Bridge",
+          "type": "event",
+          "slug": "battle-of-stamford-bridge"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Died in this engagement"
+      },
+      {
+        "title": "Battle of Fulford",
+        "type": "event",
+        "slug": "battle-of-fulford",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Stamford Bridge",
+        "type": "location",
+        "slug": "stamford-bridge",
+        "label": "Place of death"
+      }
+    ],
+    "people": [
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Edith of Wessex",
+        "type": "person",
+        "slug": "edith-of-wessex",
+        "label": "Sister"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Tostig Godwinson",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Tostig_Godwineson"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Cambridge%2C_University_Library%2C_MS_Ee.3.59%2C_fol._24v.png"
+    }
+  ]
+}

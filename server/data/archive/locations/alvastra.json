@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Monastic site",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Sverker I of Sweden",
+    "Alvastra Abbey",
+    "Swedish dynastic conflict"
+  ],
+  "overview": [
+    "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alvastra was a Cistercian monastery in Östergötland, founded in 1143 as one of the first Cistercian houses in Sweden. It was established under royal and noble patronage and became an important center of religious and political life."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Sverker I of Sweden was associated with Alvastra and was buried there after his murder in 1156. The monastery's Cistercian connection also made it significant for Birgitta of Sweden in the fourteenth century, who received visions near Alvastra that became foundational to her spiritual biography."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Alvastra",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Alvastra_klosterruin.jpg"
+    },
+    {
+      "title": "Alvastra reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Alvastra"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sverker I of Sweden",
+        "type": "person",
+        "slug": "sverker-i-of-sweden",
+        "label": "Death of Sverker I of Sweden"
+      },
+      {
+        "title": "Inge the Elder",
+        "type": "person",
+        "slug": "inge-the-elder"
+      },
+      {
+        "title": "Eric IX of Sweden",
+        "type": "person",
+        "slug": "eric-ix-of-sweden"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "alvastra",
+  "name": "Alvastra",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alvastra_klosterruin.jpg",
+  "summary": "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty.",
+  "imageInfo": {
+    "caption": "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alvastra_klosterruin.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

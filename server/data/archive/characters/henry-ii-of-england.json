@@ -1,0 +1,236 @@
+{
+  "id": "henry-ii-of-england",
+  "type": "character",
+  "name": "Henry II of England",
+  "aliases": [
+    "Henry Plantagenet",
+    "Henry FitzEmpress"
+  ],
+  "born": 1133,
+  "died": 1189,
+  "deathAge": "56",
+  "causeOfDeath": "Died at Chinon, broken by fever and the rebellion of his sons",
+  "restingPlace": "Fontevraud Abbey",
+  "location": "Kingdom of England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Henry_II_effigy.jpg",
+  "imageInfo": {
+    "caption": "Tomb effigy of Henry II at Fontevraud Abbey, carved around the turn of the thirteenth century.",
+    "creator": "Unknown sculptor",
+    "date": "c. 1200",
+    "source": "Fontevraud Abbey — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Henry_II_effigy.jpg",
+    "note": "A near-contemporary funerary effigy, idealised rather than a portrait from life."
+  },
+  "summary": "Henry II ruled an empire from the Scottish border to the Pyrenees (1154–1189), rebuilt royal government and the common law after the Anarchy, destroyed his friend Becket, and was destroyed in turn by his own sons.",
+  "title": "king of England",
+  "roles": [
+    "King of England",
+    "Duke of Normandy and Aquitaine",
+    "Count of Anjou"
+  ],
+  "birth": {
+    "date": "5 March 1133",
+    "place": {
+      "name": "Le Mans, Maine"
+    },
+    "note": "Son of Empress Matilda, heiress of Henry I, and Geoffrey Plantagenet, count of Anjou."
+  },
+  "death": {
+    "date": "6 July 1189",
+    "place": {
+      "name": "Chinon, Anjou"
+    },
+    "note": "Died two days after accepting humiliating terms from Philip II and his son Richard.",
+    "circumstance": "Legend says he turned his face to the wall on learning his favourite son John had joined the rebellion; he was carried to Fontevraud for burial."
+  },
+  "quickFacts": {
+    "realm": "Angevin empire (England, Normandy, Anjou, Aquitaine)",
+    "dynasty": "House of Plantagenet",
+    "culture": "Anglo-Norman / Angevin",
+    "knownFor": "founding the Plantagenet dynasty, the common law, and the Becket conflict"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "King of England",
+    "predecessor": {
+      "personSlug": "stephen-of-england",
+      "displayName": "Stephen of England",
+      "note": "The king of the Anarchy, who recognised Henry as his heir by the Treaty of Wallingford."
+    },
+    "successor": {
+      "personSlug": "richard-the-lionheart",
+      "displayName": "Richard the Lionheart",
+      "note": "His eldest surviving son, in rebellion against him at the end"
+    }
+  },
+  "overview": [
+    "Henry II was twenty-one when the treaty ending the Anarchy made him king of England, already duke of Normandy, count of Anjou, and — by his marriage to Eleanor of Aquitaine — master of half of France. For thirty-five years he ran that sprawling inheritance at a famous, furious pace.",
+    "His legal reforms — itinerant justices, standard writs, juries of presentment — laid the foundations of the English common law. His attempt to master the church broke on Thomas Becket's martyrdom in 1170; his attempt to master his family broke on the rebellions of his sons, the last of which killed him."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Henry II was twenty-one when the treaty ending the Anarchy made him king of England, already duke of Normandy, count of Anjou, and — by his marriage to Eleanor of Aquitaine — master of half of France. For thirty-five years he ran that sprawling inheritance at a famous, furious pace.",
+        "His legal reforms — itinerant justices, standard writs, juries of presentment — laid the foundations of the English common law. His attempt to master the church broke on Thomas Becket's martyrdom in 1170; his attempt to master his family broke on the rebellions of his sons, the last of which killed him."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Henry was born at Le Mans in 1133 to the Empress Matilda, Henry I's disinherited heiress, and Geoffrey Plantagenet of Anjou. His boyhood was the civil war: shipped to England at nine as a figurehead for his mother's cause, leading a comic-opera mercenary raid at fourteen that his enemy King Stephen ended up paying to send home.",
+        "The luck of 1151–1153 transformed him: his father's death gave him Anjou, his marriage to the newly divorced Eleanor of Aquitaine gave him the south, and Stephen's heir Eustace died just as Henry's final English campaign forced the treaty of Winchester. He was crowned in December 1154, the first undisputed succession in England in half a century."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "An unusual number of eyewitnesses described Henry, and they agree: a barrel-chested, bow-legged, grey-eyed man in perpetual motion, careless of dress, never sitting even at Mass, wearing out courtiers who complained — as Peter of Blois memorably did — of a court that moved like an army and ate like one. He had a trained lawyer's memory, spoke several languages, and preferred maps and books to tournaments.",
+        "The Angevin temper was his signature flaw. Contemporaries traded stories of the king rolling on the floor gnawing rushes in rage, and the four knights who killed Becket were launched by exactly such an outburst. Gerald of Wales, who hated him with a courtier's intimacy, still granted him mercy in victory and steadiness in disaster; his deepest failure, all sources agree, was that he could delegate nothing — least of all power to his own sons, whose rebellions were the price of his grip."
+      ]
+    },
+    {
+      "title": "Government and law",
+      "paragraphs": [
+        "Henry's first decade was reconstruction: the Anarchy's unlicensed castles razed, mercenaries expelled, the exchequer restored, and royal justice pushed back into the shires. The assizes of Clarendon (1166) and Northampton (1176) set juries of local men to present criminals to travelling royal justices; standardised writs made the king's court the default forum for land disputes; and \"novel disseisin\" and its sister actions gave every free tenant quick royal remedy against dispossession.",
+        "The Becket quarrel grew from the same drive. The Constitutions of Clarendon (1164) claimed for royal courts the criminal punishment of clergy and control of appeals to Rome; his former chancellor and friend, now archbishop, resisted to exile and back, and on 29 December 1170 four of Henry's knights, taking the king's rage at face value, cut Becket down in his own cathedral. The murder forced Henry to public penance at Canterbury in 1174 and cost him the Constitutions' letter, though royal power over the church kept most of their substance."
+      ]
+    },
+    {
+      "title": "The family wars and death",
+      "paragraphs": [
+        "Henry crowned his eldest son the \"Young King\" in 1170 but gave him no real power, and in 1173–74 the Young King, Richard, Geoffrey, Eleanor herself, the kings of France and Scotland, and half the baronage came at him at once. He won everywhere — capturing the Scottish king at Alnwick the very week he did penance at Canterbury — and imprisoned Eleanor for the next fifteen years.",
+        "The sons kept coming. The Young King died in revolt in 1183; Geoffrey died in 1186; and in 1188–89 Richard, fearing disinheritance in favour of John, allied with Philip II of France and broke the old king's power in Maine and Touraine. Henry accepted terms at Ballan on 4 July 1189, asked for the list of the conspirators, and — the story runs — found John's name at its head. He died at Chinon two days later, muttering, in the chroniclers' telling, \"shame, shame on a conquered king\"."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The common law is Henry's monument: the machinery of writs, juries, and itinerant justices he built proved so useful that it survived every later constitutional convulsion, and its descendants govern much of the world today. In that respect no medieval English king matters more.",
+        "The empire died faster than the law. Richard mortgaged it for crusade and ransom; John lost Normandy and Anjou within fifteen years of Henry's death, a collapse sealed at Bouvines. What endured of the Angevin state was exactly the part built in England — the governed kingdom, not the dynastic agglomeration."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "5 March 1133",
+      "title": "Born at Le Mans",
+      "description": "Son of Empress Matilda and Geoffrey Plantagenet of Anjou."
+    },
+    {
+      "date": "May 1152",
+      "title": "Marries Eleanor of Aquitaine",
+      "description": "Weeks after her divorce from Louis VII, adding Aquitaine to Normandy and Anjou."
+    },
+    {
+      "date": "December 1154",
+      "title": "Crowned king of England",
+      "description": "Succeeds Stephen under the treaty of Winchester, ending the Anarchy."
+    },
+    {
+      "date": "1164",
+      "title": "Constitutions of Clarendon",
+      "description": "Asserts royal jurisdiction over the church, opening the war with Becket."
+    },
+    {
+      "date": "1166",
+      "title": "Assize of Clarendon",
+      "description": "Juries of presentment and itinerant justices begin the common-law revolution."
+    },
+    {
+      "date": "29 December 1170",
+      "title": "Becket murdered",
+      "description": "Four of Henry's knights kill the archbishop in Canterbury cathedral."
+    },
+    {
+      "date": "1173–1174",
+      "title": "The great rebellion",
+      "description": "Defeats the coalition of his wife, three sons, France, Scotland, and Flanders."
+    },
+    {
+      "date": "6 July 1189",
+      "title": "Dies at Chinon",
+      "description": "Defeated by Richard and Philip II, dies after learning John too had turned; buried at Fontevraud."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "Wife, duchess, and eventual rebel"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Son and successor"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "The rival who learned statecraft at his expense"
+      },
+      {
+        "title": "Geoffrey of Anjou",
+        "type": "person",
+        "slug": "geoffrey-of-anjou",
+        "label": "Father"
+      },
+      {
+        "title": "Matilda of Scotland",
+        "type": "person",
+        "slug": "matilda-of-scotland",
+        "label": "Grandmother"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy"
+      }
+    ],
+    "events": []
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Fontevraud effigy",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Henry_II_effigy.jpg"
+    },
+    {
+      "title": "Henry II of England — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_II_of_England"
+    },
+    {
+      "title": "Henry II",
+      "author": "W. L. Warren",
+      "type": "book",
+      "note": "The classic modern biography of the reign."
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Government and law",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Forteresse_royale_de_Chinon_(37).jpg",
+      "alt": "The royal fortress of Chinon on the Vienne, a favourite seat of Henry II’s continental empire, where he died in 1189.",
+      "caption": "The royal fortress of Chinon on the Vienne, a favourite seat of Henry II’s continental empire, where he died in 1189.",
+      "creator": "Photograph by M.herrick",
+      "date": "12th century (fortress)",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forteresse_royale_de_Chinon_(37).jpg",
+      "note": "Substantially a building of Henry’s own reign, at the heart of the Angevin lands that made him mightier than his French overlord."
+    }
+  ]
+}

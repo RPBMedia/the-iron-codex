@@ -1,0 +1,81 @@
+{
+  "id": "scone",
+  "type": "location",
+  "locationType": "Royal site",
+  "name": "Scone",
+  "year": 1306,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scone_Palace_01.jpg",
+  "summary": "Scone was a royal and ceremonial center in medieval Scotland, closely associated with inauguration and kingship.",
+  "overview": [
+    "Scone was one of medieval Scotland’s most important royal ceremonial sites. Kings were inaugurated there, and the place carried the memory of the Stone of Scone and the public rituals of Scottish kingship.",
+    "Robert the Bruce’s coronation at Scone in 1306 gave his contested seizure of power the form of traditional kingship, even though his political position remained fragile."
+  ],
+  "knownFor": [
+    "Scottish royal inaugurations",
+    "Robert the Bruce’s coronation"
+  ],
+  "imageInfo": {
+    "caption": "Scone Palace area, associated with the medieval royal site of Scone.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scone_Palace_01.jpg",
+    "note": "Modern photograph of a medieval site or associated place."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Scone mattered because medieval Scottish kingship was performed as well as inherited. Inauguration at Scone linked a ruler to the kingdom’s ceremonial past and to the political community that recognized him."
+      ]
+    },
+    {
+      "title": "Medieval history",
+      "paragraphs": [
+        "The site was associated with royal assemblies, inauguration, and the Stone of Scone before Edward I removed the stone to England in 1296. Even after that removal, Scone retained symbolic force."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Scone remained a shorthand for lawful Scottish kingship. Bruce’s coronation there helped later memory frame him not merely as a rebel but as king of Scots."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Scone",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Scone_Palace_01.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ]
+  }
+}

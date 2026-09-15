@@ -1,0 +1,181 @@
+{
+  "id": "battle-of-tricamarum",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Tricamarum",
+  "year": 533,
+  "location": "Tricamarum, west of Carthage",
+  "eventLocation": "Tricamarum, some twenty miles from Carthage",
+  "conflict": "Vandalic War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vandals%20and%20North%20Africa%20533.png",
+  "imageInfo": {
+    "caption": "North Africa in 533: the Vandal kingdom in the year of Tricamarum, with Carthage and the theatre of the campaign.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the situation in 533",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vandals_and_North_Africa_533.png",
+    "note": "A map of the theatre in the year of the battle, used because no depiction of Tricamarum exists — the engagement is known only from Procopius and was never illustrated. Released CC0."
+  },
+  "summary": "At Tricamarum in December 533, Belisarius broke the last Vandal field army. Gelimer's brother Tzazon was killed and the kingdom collapsed.",
+  "details": "The battle was decided by a cavalry attack across a stream before the Roman infantry had even come up, and it ended a hundred years of Vandal Africa.",
+  "outcome": "Decisive Roman victory; the Vandal army destroyed and the royal camp taken.",
+  "background": "After Ad Decimum, Gelimer withdrew inland and rebuilt his army around the troops his brother Tzazon brought back from Sardinia.",
+  "battle": "The Roman cavalry attacked across a small stream in three assaults. Tzazon was killed in the third, and the Vandal line broke.",
+  "aftermath": "The Vandal camp with the royal treasure was taken. Gelimer fled to Mount Papua and surrendered in spring 534.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tricamarum was fought in December 533, some twenty miles from Carthage, and it destroyed what remained of the Vandal kingdom.",
+        "Gelimer had spent the autumn rebuilding, and this was a real army rather than the improvised force of September — reinforced by the veteran troops his brother Tzazon had brought back from Sardinia.",
+        "It lasted a matter of hours, and was decided by the Roman cavalry alone."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After Ad Decimum, Gelimer withdrew inland and set about assembling everything the kingdom still had.",
+        "Tzazon had been suppressing a revolt in Sardinia with the best of the Vandal army, and had been recalled the moment the Romans landed. His return gave Gelimer a serious force again.",
+        "Gelimer also attempted to buy the Hunnic contingent out of the Roman army — a real danger, since their loyalty was genuinely uncertain, and Belisarius took considerable trouble to keep them."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The two armies met across a small stream. The Roman cavalry, arriving well ahead of the infantry, attacked without waiting for the rest of the army to come up.",
+        "Three assaults went in across the stream. The Vandals held the first two, and in the third Tzazon was killed at the head of his troops.",
+        "The Vandal line broke immediately after and fled to their camp, and when the Roman infantry finally arrived the camp was taken with the royal treasure in it. Gelimer had already ridden away."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The victory was cheap in Roman lives and total in effect. The Vandal kingdom had no army left, no treasury and no king in the field.",
+        "Gelimer fled to Mount Papua in the Numidian highlands with a body of followers and was besieged there through the winter, surrendering in the spring of 534.",
+        "Procopius, who was present, was more struck by the plunder than by the fighting, and his account of the Roman army losing its discipline among the Vandal camp's wealth is one of the sharper passages in the Wars."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It ended the Vandal kingdom. Between the landing in June and the surrender the following spring, a state that had held the richest provinces of the west for a century ceased to exist.",
+        "It also confirmed a pattern that ran through Justinian's wars: a small, well-handled professional force could beat a larger one decisively, provided it was commanded by someone of the first rank.",
+        "That lesson was drawn too confidently. Italy proved that the same approach against a more determined opponent produced twenty years of ruinous war rather than nine months of triumph."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Belisarius",
+          "title": "Belisarius",
+          "type": "person",
+          "slug": "belisarius"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000",
+        "confidence": "estimated",
+        "note": "The cavalry engaged and won the battle before the infantry arrived, so the force actually fighting was a fraction of the whole.",
+        "min": 13000,
+        "max": 16000
+      }
+    },
+    {
+      "side": "Vandal army",
+      "factions": [
+        {
+          "name": "Vandal Kingdom",
+          "title": "Vandal Kingdom",
+          "type": "location",
+          "slug": "vandal-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Gelimer",
+          "title": "Gelimer",
+          "type": "person",
+          "slug": "gelimer"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; probably larger than the Roman force",
+        "confidence": "debated",
+        "note": "No figures survive. Procopius implies a Vandal numerical advantage but gives no total, and modern estimates are inferences from his narrative."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the reconquest to Italy",
+    "battleSlug": "siege-of-rome-537",
+    "relationship": "same-war",
+    "reason": "Africa fell in nine months, and Justinian went into Italy the following year on the strength of it; the siege of Rome in 537–538 is where that confidence met an opponent who would not collapse, and the Gothic War ran on for nineteen years."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Commanded the Roman army"
+      },
+      {
+        "title": "Gelimer",
+        "type": "person",
+        "slug": "gelimer",
+        "label": "Commanded the Vandal army"
+      }
+    ],
+    "events": [
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign it ended"
+      },
+      {
+        "title": "Battle of Ad Decimum",
+        "type": "event",
+        "slug": "battle-of-ad-decimum",
+        "label": "The battle that preceded it"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Vandal Kingdom",
+        "type": "location",
+        "slug": "vandal-kingdom",
+        "label": "The realm that fell with it"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Tricamarum",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tricamarum",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "North Africa in 533",
+      "url": "https://commons.wikimedia.org/wiki/File:Vandals_and_North_Africa_533.png",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

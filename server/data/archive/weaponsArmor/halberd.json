@@ -1,0 +1,211 @@
+{
+  "id": "halberd",
+  "type": "weaponArmor",
+  "name": "Halberd",
+  "aliases": [
+    "Halbert"
+  ],
+  "weaponArmorType": "Weapon",
+  "year": 1450,
+  "period": "Late Middle Ages",
+  "region": "Swiss and German-speaking Europe",
+  "material": "Steel axe-spike-hook head on long wooden shaft",
+  "battlefieldRole": "Infantry polearm for cutting, thrusting, and hooking",
+  "image": "/halberd-ai.png",
+  "summary": "The halberd was a late medieval polearm combining an axe blade, thrusting spike, and hook-like rear projection.",
+  "details": "Infantry used halberds in dense formations and close engagements, especially in regions where foot soldiers challenged mounted elites. The weapon’s reach and versatility suited disciplined urban and Swiss infantry.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The halberd is the great infantry polearm of the later Middle Ages: an axe blade, a rear hook or spike and a thrusting spike at the top, mounted on a shaft of roughly two metres.",
+        "It is the poleaxe adapted for massed infantry — longer, cheaper and made in quantity — and it gave foot soldiers a weapon that could genuinely deal with an armoured horseman.",
+        "It emerged with the Swiss in the fourteenth century and became one of the most widely used infantry weapons in Europe, staying in service for centuries after the medieval period ended."
+      ]
+    },
+    {
+      "title": "Design and construction",
+      "paragraphs": [
+        "The shaft runs 1.8 to 2.5 metres and the head combines three tools: a broad axe blade for cutting, a spike or beak on the reverse for hooking and punching, and a spike on top for thrusting.",
+        "The complete weapon usually weighs between 2.5 and 3.5 kilograms, with the mass concentrated at the head. That makes it slower than a poleaxe but far more damaging on a full swing, and the extra length is worth the trade in a formation.",
+        "Langets — iron straps running down from the head along the shaft — are standard, protecting the wood from being cut through and stopping the head loosening under repeated heavy impacts."
+      ]
+    },
+    {
+      "title": "Battlefield use",
+      "paragraphs": [
+        "It was used in formation rather than individually, and its natural partner is the pike. Pikes hold an enemy at distance and halberdiers step in to do the killing where the pike wall meets the enemy.",
+        "Against cavalry it is devastating. The hook drags a rider from the saddle, the axe kills the horse, and the spike keeps the animal off in the meantime, so a body of halberdiers could break a charge that would ride down loose infantry.",
+        "The Swiss made their reputation with it during the fourteenth and fifteenth centuries, and Swiss infantry became the most sought-after mercenaries in Europe on the strength of what pike-and-halberd formations could do."
+      ]
+    },
+    {
+      "title": "Strengths and weaknesses",
+      "paragraphs": [
+        "Its strength is doing several jobs at once for very little money. Cut, thrust and hook in one head, on a shaft any village could supply, meant a town militia could be armed to fight men-at-arms.",
+        "Its weakness is that it needs a formation and space to swing. A halberdier alone is at a serious disadvantage against a swordsman who can close inside the head, and in a crush the weapon cannot be used at all.",
+        "It also gives up reach to the pike. In the fifteenth and sixteenth centuries that mattered increasingly, and the halberd's role narrowed to supporting the pike block rather than forming the main line."
+      ]
+    },
+    {
+      "title": "Historical development",
+      "paragraphs": [
+        "It appears in the Swiss cantons in the fourteenth century, developing from the long-hafted axe and the agricultural billhook, and its early success is bound up with the emergence of Swiss infantry as a serious military force.",
+        "Through the fifteenth century it spreads across the Holy Roman Empire and beyond as Swiss and German mercenaries carry it, and the head becomes more elaborate — thinner blades, more pronounced beaks, decorated surfaces.",
+        "It remains in wide service into the seventeenth century, then follows the mace into ceremony, and it survives today in the guard formations that kept their historic equipment."
+      ]
+    },
+    {
+      "title": "Regional variation",
+      "paragraphs": [
+        "Swiss and South German forms are the classic type and set the standard for the whole of Europe, with a broad blade, a strong rear beak and a substantial top spike.",
+        "Italian workshops produced lighter, more decorated versions, some of them clearly parade equipment for guards rather than field weapons, and these are heavily represented in museum collections.",
+        "Related weapons shade into it at the edges — the voulge, the Lucerne hammer, the bardiche — and the boundaries between them are largely modern conveniences imposed on a continuum of local forms."
+      ]
+    },
+    {
+      "title": "Famous examples or users",
+      "paragraphs": [
+        "The Swiss infantry of the fourteenth and fifteenth centuries are the defining users, and their combination of pike and halberd made them the most effective and most in-demand infantry in Europe.",
+        "The Papal Swiss Guard still carries the halberd, an unbroken line of ceremonial use running back to the mercenary companies that made the weapon famous.",
+        "The Swiss National Museum in Zurich, the Kunsthistorisches Museum in Vienna and the Royal Armouries hold extensive collections, and Swiss and German museums preserve field examples with genuine combat damage."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The halberd is a large part of the story of how infantry regained the battlefield from cavalry. Combined with the pike, it let foot soldiers beat mounted men-at-arms consistently, which had not been true for centuries.",
+        "It outlasted almost every other medieval weapon in active service, remaining standard European infantry equipment into the seventeenth century and ceremonial equipment to the present.",
+        "It is also the enduring member of the poleaxe family — the cheaper, longer, mass-issue cousin that survived precisely because it was made for armies rather than for individuals."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "AI-generated illustration of a Swiss or south German halberd of the 15th century.",
+    "creator": "AI-generated for The Iron Codex",
+    "date": "generated 2026",
+    "source": "The Iron Codex (AI illustration)",
+    "sourceUrl": "",
+    "aiGenerated": true,
+    "note": "Not a photograph of an object. It is used because no suitably licensed photograph of the complete weapon could be sourced; Wulflund, one of the few makers producing them, states plainly that halberds are \"delivered without wooden pole for cheaper and easier shipping\". The three elements do three jobs — spike to thrust, blade to cut, fluke to hook a rider down. It follows the plain fighting type, not the pierced and etched ceremonial halberds of the 16th and 17th centuries."
+  },
+  "knownFor": [
+    "A polearm combining an axe blade, a top spike, and a rear hook or beak on one head.",
+    "Versatility: it could chop, thrust, and hook a rider from the saddle.",
+    "The signature weapon of the Swiss and South-German infantry of the 14th–16th centuries.",
+    "A weapon that let foot soldiers both stop a charge and break into it."
+  ],
+  "relatedEntries": {
+    "weaponsArmor": [
+      {
+        "title": "Bill / Billhook",
+        "type": "weaponArmor",
+        "slug": "bill-billhook"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
+      },
+      {
+        "title": "Pike",
+        "type": "weaponArmor",
+        "slug": "pike",
+        "label": "Fought in the same blocks, doing the close killing"
+      },
+      {
+        "title": "Bec de Corbin",
+        "type": "weaponArmor",
+        "slug": "bec-de-corbin",
+        "label": "The hammer-and-beak relative used by men-at-arms"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano"
+      },
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Halberd_MET_14.25.349.jpg"
+    },
+    {
+      "title": "Wikipedia: Halberd",
+      "author": "Wikipedia",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Halbert"
+    },
+    {
+      "title": "MET Arms and Armor: Halberds",
+      "author": "Metropolitan Museum of Art",
+      "type": "museum collection",
+      "url": "https://www.metmuseum.org/art/collection/search?department=4"
+    }
+  ],
+  "specs": {
+    "note": "Typical ranges; individual medieval examples varied by workshop, date, and region.",
+    "rows": [
+      {
+        "label": "Period",
+        "value": "c. 14th–16th century"
+      },
+      {
+        "label": "Overall length",
+        "value": "c. 1.5–2 m"
+      },
+      {
+        "label": "Typical weight",
+        "value": "c. 2.5–3.5 kg"
+      },
+      {
+        "label": "Head",
+        "value": "Axe blade + top spike + rear hook/beak"
+      },
+      {
+        "label": "Grip",
+        "value": "Two-handed"
+      },
+      {
+        "label": "Primary actions",
+        "value": "Chop, thrust, and hook/pull down horsemen"
+      },
+      {
+        "label": "Typical users",
+        "value": "Swiss and German infantry"
+      },
+      {
+        "label": "Role",
+        "value": "Versatile infantry polearm"
+      }
+    ]
+  },
+  "sectionImages": [
+    {
+      "section": "Regional variations and examples",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
+      "alt": "A halberd combining axe blade, top spike, and rear hook on a long haft, Auckland War Memorial Museum.",
+      "caption": "A halberd combining axe blade, top spike, and rear hook on a long haft, Auckland War Memorial Museum.",
+      "creator": "European polearm smith",
+      "date": "Late medieval form",
+      "source": "Auckland War Memorial Museum / Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halberd%2C%20polearm%20(AM%201932.233-3).jpg",
+      "note": "A surviving halberd head in the Auckland War Memorial Museum, showing how the axe blade, spike and rear hook are forged together as a single unit."
+    }
+  ]
+}

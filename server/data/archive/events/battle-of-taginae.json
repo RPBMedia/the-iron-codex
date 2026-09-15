@@ -1,0 +1,179 @@
+{
+  "id": "battle-of-taginae",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Taginae",
+  "year": 552,
+  "location": "Taginae, in the Apennines",
+  "eventLocation": "Taginae, in the central Apennines",
+  "conflict": "Gothic War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Taginae%20552%20AD%2C%20Narses%20against%20Totila.svg",
+  "imageInfo": {
+    "caption": "The deployment at Taginae: Narses's dismounted centre with massed archers curving forward on both wings, against the Gothic cavalry.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern diagram of the battle of 552",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Taginae_552_AD,_Narses_against_Totila.svg",
+    "note": "A modern reconstruction diagram, not a contemporary depiction. The battle is known from Procopius and any plan of it interprets his narrative. Licensed CC BY-SA."
+  },
+  "summary": "At Taginae in 552, Narses destroyed the Ostrogothic army with massed archery and dismounted infantry, and Totila was killed in the rout.",
+  "details": "It is a textbook case of a commander choosing the ground and the formation, and of a cavalry charge delivered into exactly what it should have avoided.",
+  "outcome": "Decisive Byzantine victory; Totila killed and the Gothic field army destroyed.",
+  "background": "Narses came south from Ravenna with a large army. Totila moved to intercept him in the Apennines.",
+  "battle": "Narses formed a crescent of dismounted troops with archers on both wings. The Gothic cavalry charged the centre and was shot to pieces from the flanks.",
+  "aftermath": "Totila was mortally wounded in the flight and died at Caprae. The Goths elected Teias and withdrew south.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Taginae was fought in the summer of 552 in the central Apennines, and it decided the Gothic War after seventeen years.",
+        "Narses had a large, well-paid army for the first time in the conflict, and he used it in a formation that gave the Gothic cavalry no good option.",
+        "Totila was killed, the Gothic field army ceased to exist, and the kingdom followed within a year."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Narses marched south from Ravenna in 552, avoiding the coast road that Gothic garrisons controlled, and Totila moved to meet him in the mountains.",
+        "Totila was waiting for reinforcements — a body of two thousand horsemen still on the road — and needed time.",
+        "Both armies drew up, and there followed the episode Procopius makes most of: Totila riding out between the lines in gilded armour, wheeling his horse and throwing and catching his lance in a display of horsemanship, spinning out the hours until his reinforcements arrived."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Narses formed his centre of dismounted heavy troops, with some four thousand archers on each wing curving forward, so that anything attacking the centre entered a pocket enfiladed from both sides.",
+        "Totila attacked with cavalry and, according to Procopius, ordered his men to use lances only — a decision that gave up any answer to the archery.",
+        "The charge was shot to pieces before it reached the line. The Gothic cavalry recoiled onto its own infantry, the formation collapsed, and the whole army broke."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Totila was wounded in the flight and carried to Caprae, where he died. The scale of the Gothic loss was such that no field army could be reformed.",
+        "The surviving Goths elected Teias and withdrew southward toward Campania and the royal treasure.",
+        "Narses moved on Rome, which fell shortly afterwards, and then south after Teias."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It ended a war that had been unwinnable for a decade, and it did so because the empire finally paid for it — the tactical brilliance mattered, but so did having enough archers to form two wings of four thousand.",
+        "The formation itself became a set piece in military history: dismounted heavy infantry as an anvil, with massed missile troops shaped to enfilade anything that closed.",
+        "For the archive it is the decisive engagement of Justinian's Italian war, and the point from which the Ostrogothic kingdom had a year left to live."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Narses",
+          "title": "Narses",
+          "type": "person",
+          "slug": "narses"
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000–30,000",
+        "confidence": "estimated",
+        "note": "The first properly resourced army the empire committed to Italy, including some 8,000 archers deployed on the two wings."
+      }
+    },
+    {
+      "side": "Ostrogothic army",
+      "factions": [
+        {
+          "name": "Ostrogothic Kingdom",
+          "title": "Ostrogothic Kingdom",
+          "type": "location",
+          "slug": "ostrogothic-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Totila",
+          "title": "Totila",
+          "type": "person",
+          "slug": "totila"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; smaller than the Byzantine army",
+        "confidence": "debated",
+        "note": "Procopius gives no reliable total. Totila was awaiting 2,000 additional horsemen when the battle began, which suggests he considered himself outnumbered."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the war to its last battle",
+    "battleSlug": "battle-of-mons-lactarius",
+    "relationship": "same-war",
+    "reason": "The Goths elected Teias after Totila's death and withdrew south; Narses brought them to battle near Vesuvius within months, where Teias was killed and the surviving Goths agreed to leave Italy."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "Commanded the Byzantine army"
+      },
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "Commanded the Gothic army and was killed"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it decided"
+      },
+      {
+        "title": "Battle of Mons Lactarius",
+        "type": "event",
+        "slug": "battle-of-mons-lactarius",
+        "label": "The battle that followed"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm whose army was destroyed"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Taginae",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Taginae",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Battle diagram",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Taginae_552_AD,_Narses_against_Totila.svg",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

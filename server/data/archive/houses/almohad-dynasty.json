@@ -1,0 +1,198 @@
+{
+  "id": "almohad-dynasty",
+  "type": "house",
+  "name": "Almohad dynasty",
+  "aliases": [
+    "Almohad",
+    "Almohads",
+    "Almohad dynasty",
+    "Almohad Caliphate",
+    "al-Muwahhidun",
+    "Muwahhidun"
+  ],
+  "originYear": 1121,
+  "endYear": 1269,
+  "reignSpan": "c. 1121–1269",
+  "region": "The Maghreb & al-Andalus",
+  "originPlace": "The Atlas Mountains, Morocco",
+  "arms": "None — a Berber Islamic dynasty with no European heraldry; its emblems were a plain white banner and the distinctive square-die gold dinar.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20from%20Alc%C3%A1zar%20on%20Giralda%20%287077900543%29.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The Giralda of Seville — originally the minaret of the Almohad great mosque, built in the 1180s–1190s; the bell-stage on top is a 16th-century Christian addition.",
+    "creator": "Photograph",
+    "date": "Minaret late 12th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Alc%C3%A1zar_on_Giralda_(7077900543).jpg",
+    "note": "A surviving Almohad monument; only the lower brick tower is Almohad, the ornate belfry being added after the Christian conquest."
+  },
+  "summary": "The Berber religious movement and dynasty that ruled North Africa and Muslim Spain in the 12th–13th centuries, until its power in Iberia was broken at Las Navas de Tolosa.",
+  "overview": "The Almohads (al-Muwahhidun, \"those who affirm God’s unity\") began as a reformist movement among the Masmuda Berbers of the Atlas, preached by Ibn Tumart. Under the caliph Abd al-Mu’min they overthrew the Almoravids and built an empire spanning the Maghreb and al-Andalus, with Marrakesh and Seville as capitals. Their defeat under Muhammad al-Nasir at Las Navas de Tolosa in 1212 began the collapse of their Iberian power.",
+  "founder": {
+    "displayName": "Abd al-Mu’min",
+    "note": "First Almohad caliph; conqueror of Marrakesh (no Codex article yet). The movement’s spiritual founder was Ibn Tumart."
+  },
+  "seats": [
+    {
+      "name": "Almohad Caliphate",
+      "type": "location",
+      "slug": "almohad-caliphate"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Abd al-Mu’min",
+      "note": "First caliph; ended the Almoravids and took Marrakesh in 1147"
+    },
+    {
+      "displayName": "Yaqub al-Mansur",
+      "note": "Caliph who beat Castile at Alarcos (1195) and built the Giralda and Koutoubia"
+    },
+    {
+      "personSlug": "muhammad-al-nasir",
+      "displayName": "Muhammad al-Nasir",
+      "note": "Caliph defeated at Las Navas de Tolosa in 1212"
+    },
+    {
+      "personSlug": "yaqub-al-mansur",
+      "displayName": "Yaqub al-Mansur",
+      "note": "Third caliph; victor of Alarcos (r. 1184–1199)."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Almohad caliphs from the founder Abd al-Mu’min through the builder al-Mansur to al-Nasir, whose defeat broke Almohad power in Spain; only al-Nasir has a Codex article so far.",
+    "root": {
+      "name": "Abd al-Mu’min",
+      "note": "first Almohad caliph, d. 1163",
+      "children": [
+        {
+          "name": "Abu Yaqub Yusuf",
+          "note": "caliph; patron of the philosopher Averroes",
+          "children": [
+            {
+              "name": "Yaqub al-Mansur",
+              "note": "victor of Alarcos, 1195",
+              "children": [
+                {
+                  "name": "Muhammad al-Nasir",
+                  "personSlug": "muhammad-al-nasir",
+                  "note": "defeated at Las Navas, 1212"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The movement was founded by Ibn Tumart, a Masmuda Berber scholar who returned from the Islamic east preaching a rigorous doctrine of divine unity and denouncing the ruling Almoravids as lax. Proclaimed the infallible Mahdi by his followers around 1121, he organised a militant community in the High Atlas. After his death his disciple Abd al-Mu’min took the title of caliph, welded the Berber tribes into an army, and over two decades conquered all of Morocco, taking the Almoravid capital Marrakesh in 1147.",
+        "From the Maghreb the Almohads crossed into al-Andalus, absorbing the fragmented Muslim taifa states and confronting the advancing Christian kingdoms of Iberia."
+      ]
+    },
+    {
+      "title": "Zenith and building",
+      "paragraphs": [
+        "Under Abd al-Mu’min’s successors the caliphate reached its height. Yaqub al-Mansur crushed the Castilians at Alarcos in 1195 and presided over a great flowering of architecture: the Giralda minaret in Seville, the Koutoubia in Marrakesh, and the unfinished Hassan Tower of Rabat all date from Almohad patronage, sharing a severe, geometric brick style. The court also protected philosophers, most famously Averroes (Ibn Rushd).",
+        "At its greatest extent the empire ran from the Atlantic coast of Morocco across North Africa and into southern Spain, the last great Berber empire to hold both shores of the strait."
+      ]
+    },
+    {
+      "title": "Las Navas de Tolosa and decline",
+      "paragraphs": [
+        "The turning point came in 1212, when a crusading coalition of Castile, Aragon, and Navarre destroyed the army of the caliph Muhammad al-Nasir at Las Navas de Tolosa. The defeat shattered Almohad prestige and manpower in Iberia and opened al-Andalus to Christian conquest: Córdoba fell to Castile in 1236 and Seville in 1248.",
+        "In the Maghreb the caliphate fragmented as Berber rivals — the Marinids, Hafsids, and Zayyanids — carved up its lands, and the last Almohad caliph was killed at Marrakesh in 1269. Their fall reshaped the western Mediterranean, hastening both the Reconquista in Spain and the rise of new dynasties in North Africa."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1147",
+      "title": "Marrakesh taken",
+      "description": "Abd al-Mu’min ends the Almoravids and makes Marrakesh the Almohad capital."
+    },
+    {
+      "date": "1195",
+      "title": "Victory at Alarcos",
+      "description": "Yaqub al-Mansur defeats Castile, the high-water mark of Almohad power in Spain."
+    },
+    {
+      "date": "1212",
+      "title": "Battle of Las Navas de Tolosa",
+      "description": "A Christian coalition crushes al-Nasir, breaking Almohad power in Iberia.",
+      "links": [
+        {
+          "title": "Battle of Las Navas de Tolosa",
+          "type": "event",
+          "slug": "battle-of-las-navas-de-tolosa"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Muhammad al-Nasir",
+        "type": "person",
+        "slug": "muhammad-al-nasir",
+        "label": "The caliph beaten at Las Navas"
+      },
+      {
+        "title": "Yaqub al-Mansur",
+        "type": "person",
+        "slug": "yaqub-al-mansur",
+        "label": "Caliph at the dynasty's height"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The 1212 defeat that broke the dynasty"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Almohad Caliphate",
+        "type": "location",
+        "slug": "almohad-caliphate",
+        "label": "The state they ruled"
+      },
+      {
+        "title": "Al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "Muslim Spain, lost after 1212"
+      },
+      {
+        "title": "Marrakesh",
+        "type": "location",
+        "slug": "marrakesh",
+        "label": "Capital from 1147"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Almohads — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Almohads"
+    },
+    {
+      "title": "Muhammad al-Nasir — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_al-Nasir"
+    },
+    {
+      "title": "Almohad Caliphate — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Almohad_Caliphate"
+    }
+  ]
+}

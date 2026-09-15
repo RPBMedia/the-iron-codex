@@ -1,0 +1,227 @@
+{
+  "id": "john-ii-of-france",
+  "type": "character",
+  "name": "John II of France",
+  "aliases": [
+    "John the Good",
+    "Jean II le Bon"
+  ],
+  "born": 1319,
+  "died": 1364,
+  "deathAge": "45",
+  "restingPlace": "Basilica of Saint-Denis",
+  "location": "Kingdom of France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jean_II_Le_Bon_-_BnF_-_Mus%C3%A9e_du_Louvre_Peinures_RF_2490.jpg",
+  "summary": "John II of France was a Valois king captured by the English at Poitiers in 1356, creating a major crisis for France.",
+  "details": "John II of France was a Valois king captured by the English at Poitiers in 1356, creating a major crisis for France.",
+  "title": "king of France",
+  "roles": [
+    "King of France",
+    "Commander at Poitiers"
+  ],
+  "birth": {
+    "date": "1319",
+    "place": {
+      "name": "Le Mans",
+      "slug": "kingdom-of-france"
+    }
+  },
+  "death": {
+    "date": "1364",
+    "place": {
+      "name": "London",
+      "slug": "london",
+      "type": "location"
+    },
+    "circumstance": "Died in London in 1364 during renewed captivity after returning to England to uphold the terms of his ransom."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of France",
+    "dynasty": "Valois",
+    "culture": "French",
+    "knownFor": "Capture at Poitiers"
+  },
+  "imageInfo": {
+    "caption": "Portrait of John II of France painted about 1350, one of the earliest surviving independent portraits in European painting, now in the Louvre.",
+    "creator": "See source record",
+    "date": "about 1350",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary panel portrait (Louvre, RF 2490), likely a genuine likeness."
+  },
+  "overview": [
+    "John II of France was a Valois king captured by the English at Poitiers in 1356, creating a major crisis for France."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "John II of France was a Valois king captured by the English at Poitiers in 1356, creating a major crisis for France. His captivity forced negotiations over ransom and territory, while the kingdom faced fiscal pressure, noble discontent, urban unrest in Paris, and the Jacquerie revolt."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "John II of France was born 1319, associated with Le Mans. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "John II of France, called the Good, carries a byname that has puzzled posterity, since his reign was among the most disastrous in French history. The sources suggest the epithet meant \"valiant\" or \"brave\" rather than virtuous, and his character does show a certain reckless courage — most famously at the Battle of Poitiers in 1356, where he fought on after the battle was lost and was captured, reportedly refusing to flee.",
+        "That bravery sat beside poor judgement and a temper for harsh, impulsive justice: he executed the Constable of France on suspicion of treason early in his reign and proved unable to manage the factions and financial crises that the war and the Black Death had inflamed. His long captivity in England, and his celebrated decision to return voluntarily into custody when a hostage broke parole, struck contemporaries as a point of chivalric honour.",
+        "The portrait is mixed and somewhat paradoxical: personally brave and bound by aristocratic notions of honour, yet politically maladroit and presiding over national humiliation. He is remembered as a king whose chivalric instincts — courage in defeat, fidelity to his word — could not compensate for the disasters of his rule."
+      ]
+    },
+    {
+      "title": "As king of France",
+      "paragraphs": [
+        "John faced war with England, aristocratic tensions, and fiscal pressures. His chivalric style at Poitiers ended in defeat and captivity.",
+        "the Battle of Poitiers in 1356 gives John II of France's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died in London in 1364 during renewed captivity after returning to England to uphold the terms of his ransom."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "John’s reign exposed the vulnerabilities of the Valois monarchy during the early Hundred Years’ War but also led to institutional responses under his successors."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Ruled France during the Hundred Years War",
+      "description": "John II inherited a kingdom under military and fiscal pressure from England and internal rivals."
+    },
+    {
+      "title": "Fought at Poitiers",
+      "description": "At Poitiers he fought personally but was captured after the French army broke around him."
+    },
+    {
+      "title": "His capture triggered a French political crisis",
+      "description": "His captivity forced France into ransom negotiations, fiscal strain, and political unrest."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1319",
+      "title": "Born",
+      "description": "Born at Le Mans."
+    },
+    {
+      "date": "1350",
+      "title": "Becomes king",
+      "description": "Succeeds Philip VI."
+    },
+    {
+      "date": "1356",
+      "title": "Defeated at Poitiers",
+      "description": "Captured by the Black Prince."
+    },
+    {
+      "date": "1360",
+      "title": "Treaty of Bretigny",
+      "description": "Released under ransom terms."
+    },
+    {
+      "date": "1364",
+      "title": "Dies",
+      "description": "Dies in London."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Birthplace"
+      },
+      {
+        "title": "London",
+        "type": "location",
+        "slug": "london",
+        "label": "Place of death"
+      },
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "Captured near the city, 1356"
+      },
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Resumed its keep"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Poitiers",
+        "type": "event",
+        "slug": "battle-of-poitiers",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "Charles d'Albret",
+        "type": "person",
+        "slug": "charles-d-albret",
+        "label": "Ruler of Kingdom of France"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: John II of France",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/John_the_Good"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean_II_Le_Bon_-_BnF_-_Mus%C3%A9e_du_Louvre_Peinures_RF_2490.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of France",
+    "predecessor": {
+      "personSlug": "philip-vi-of-france",
+      "displayName": "Philip VI of France",
+      "note": "His father"
+    },
+    "successor": {
+      "personSlug": "charles-v-of-france",
+      "displayName": "Charles V of France",
+      "note": "Regent during his father's English captivity after Poitiers"
+    }
+  },
+  "epithets": [
+    {
+      "name": "the Good",
+      "type": "translated byname",
+      "note": "Le Bon — closer to 'brave' than 'good'."
+    }
+  ]
+}

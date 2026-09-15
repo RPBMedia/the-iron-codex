@@ -1,0 +1,266 @@
+{
+  "id": "house-of-trastamara",
+  "type": "house",
+  "name": "House of Trastámara",
+  "aliases": [
+    "House of Trastamara",
+    "House of Trastámara (founder)",
+    "Trastámara",
+    "Trastamara",
+    "Trastámara dynasty"
+  ],
+  "originYear": 1369,
+  "endYear": 1516,
+  "reignSpan": "1369–1516",
+  "region": "Castile (and Aragon)",
+  "originPlace": "Castile",
+  "arms": "The quartered arms of Castile and León — golden castles and purple lions.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Enrique%20II%20de%20Castilla.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Henry II of Castile, founder of the Trastámara dynasty, in a later depiction.",
+    "creator": "Later manuscript / portrait depiction",
+    "date": "Later depiction (Henry II r. 1369–1379)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enrique_II_de_Castilla.jpg",
+    "note": "A later image of Henry of Trastámara, who founded the dynasty by killing his half-brother Peter the Cruel."
+  },
+  "summary": "The dynasty that seized Castile in a civil war and, through the marriage of Isabella and Ferdinand, united the Spanish crowns.",
+  "overview": "The House of Trastámara took the throne of Castile in 1369 when Henry of Trastámara killed his half-brother Peter the Cruel. Its Castilian kings — Henry II, John I, Henry III, and John II — ruled through minorities and noble factionalism, until the marriage of John II’s daughter Isabella to Ferdinand of the Aragonese Trastámaras joined Castile and Aragon on the eve of the modern age.",
+  "founder": {
+    "personSlug": "henry-ii-of-castile",
+    "displayName": "Henry II",
+    "note": "Won the crown by defeating Peter the Cruel"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Castile",
+      "type": "location",
+      "slug": "kingdom-of-castile"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "henry-ii-of-castile",
+      "displayName": "Henry II",
+      "note": "Founder of the dynasty"
+    },
+    {
+      "personSlug": "john-i-of-castile",
+      "displayName": "John I",
+      "note": "Defeated at Aljubarrota, ending Castilian claims on Portugal"
+    },
+    {
+      "personSlug": "henry-iii-of-castile",
+      "displayName": "Henry III the Sufferer",
+      "note": "Restored royal authority after a turbulent minority"
+    },
+    {
+      "personSlug": "john-ii-of-castile",
+      "displayName": "John II",
+      "note": "His long reign was dominated by the favourite Álvaro de Luna"
+    },
+    {
+      "personSlug": "isabella-of-castile",
+      "displayName": "Isabella I",
+      "note": "United the Spanish crowns (reigned beyond the medieval era)"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Castilian Trastámara kings from Henry II to John II and his daughter Isabella I. Henry IV, who reigned between John II and Isabella, falls beyond the Codex’s 1453 window.",
+    "root": {
+      "name": "Henry II",
+      "personSlug": "henry-ii-of-castile",
+      "note": "r. 1369–1379",
+      "children": [
+        {
+          "name": "John I",
+          "personSlug": "john-i-of-castile",
+          "note": "r. 1379–1390",
+          "children": [
+            {
+              "name": "Henry III the Sufferer",
+              "personSlug": "henry-iii-of-castile",
+              "note": "r. 1390–1406",
+              "children": [
+                {
+                  "name": "John II",
+                  "personSlug": "john-ii-of-castile",
+                  "note": "r. 1406–1454",
+                  "children": [
+                    {
+                      "name": "Isabella I",
+                      "personSlug": "isabella-of-castile",
+                      "note": "r. 1474–1504, beyond the medieval era",
+                      "branch": "Union with Aragon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty was born of civil war. Henry of Trastámara, illegitimate son of Alfonso XI of Castile, rebelled against his half-brother King Peter — remembered as \"the Cruel\" or \"the Just\" depending on the teller — in a struggle that drew in the wider Hundred Years’ War, with England backing Peter and France backing Henry.",
+        "The war turned when Henry, with the French mercenary captain Bertrand du Guesclin, killed Peter at Montiel in 1369 and took the throne as Henry II, founding the Trastámara line."
+      ]
+    },
+    {
+      "title": "The early Trastámara kings",
+      "paragraphs": [
+        "Henry II rewarded his noble backers so lavishly with lands and titles — the \"Enrique of the largesses\" — that he strengthened a great aristocracy his successors struggled to control. His son John I entangled Castile in the Portuguese succession, only to be crushed at the Battle of Aljubarrota in 1385, ending Castilian hopes of absorbing Portugal.",
+        "John I’s son Henry III the Sufferer, succeeding as a child, grew into a capable king who curbed the overmighty nobles and restored the authority of the crown before his early death."
+      ]
+    },
+    {
+      "title": "John II and Álvaro de Luna",
+      "paragraphs": [
+        "The long reign of John II was dominated by his favourite, the constable Álvaro de Luna, who governed Castile for decades against the resistance of the high nobility before his dramatic fall and execution in 1453. It was a reign of factional struggle, cultural brilliance at court, and continued war against Granada.",
+        "John II’s daughter Isabella would inherit both the dynasty and its unfinished struggle to master the Castilian nobility."
+      ]
+    },
+    {
+      "title": "The union of the crowns",
+      "paragraphs": [
+        "A parallel branch of the Trastámaras had gained the crown of Aragon in 1412, so that by the fifteenth century the dynasty ruled both great Iberian kingdoms. The marriage in 1469 of Isabella of Castile to Ferdinand of Aragon — both Trastámaras — joined the two crowns in the persons of the \"Catholic Monarchs\".",
+        "Their joint reign, which completed the Reconquista at Granada in 1492 and sponsored Columbus, belongs to the dawn of the early modern era, but its dynastic foundation was the medieval House of Trastámara."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1369",
+      "title": "Henry II founds the dynasty",
+      "description": "Henry of Trastámara kills Peter the Cruel at Montiel and takes Castile.",
+      "links": [
+        {
+          "title": "Henry II",
+          "type": "person",
+          "slug": "henry-ii-of-castile"
+        }
+      ]
+    },
+    {
+      "date": "1385",
+      "title": "Defeat at Aljubarrota",
+      "description": "John I’s bid to absorb Portugal collapses.",
+      "links": [
+        {
+          "title": "Battle of Aljubarrota",
+          "type": "event",
+          "slug": "battle-of-aljubarrota"
+        }
+      ]
+    },
+    {
+      "date": "1406",
+      "title": "Accession of John II",
+      "description": "A long reign dominated by the favourite Álvaro de Luna begins.",
+      "links": [
+        {
+          "title": "John II",
+          "type": "person",
+          "slug": "john-ii-of-castile"
+        }
+      ]
+    },
+    {
+      "date": "1412",
+      "title": "Trastámaras gain Aragon",
+      "description": "A branch of the dynasty takes the Aragonese crown at the Compromise of Caspe."
+    },
+    {
+      "date": "1453",
+      "title": "Fall of Álvaro de Luna",
+      "description": "The great constable is executed, ending an era at John II’s court."
+    },
+    {
+      "date": "1469",
+      "title": "Isabella marries Ferdinand",
+      "description": "The marriage that would unite Castile and Aragon.",
+      "links": [
+        {
+          "title": "Isabella I",
+          "type": "person",
+          "slug": "isabella-of-castile"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry II",
+        "type": "person",
+        "slug": "henry-ii-of-castile",
+        "label": "Founder"
+      },
+      {
+        "title": "John I",
+        "type": "person",
+        "slug": "john-i-of-castile",
+        "label": "Defeated at Aljubarrota"
+      },
+      {
+        "title": "Isabella I",
+        "type": "person",
+        "slug": "isabella-of-castile",
+        "label": "United the Spanish crowns"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "John I’s defeat, 1385"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The Castilian civil war was one of its theatres"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The realm they ruled"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Trastámara — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Trast%C3%A1mara"
+    },
+    {
+      "title": "Trastámara — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Trastamara"
+    },
+    {
+      "title": "Henry II of Castile — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_II_of_Castile"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Castile%20and%20Leon.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The quartered arms of Castile and León — golden castles and lions — the arms of the Crown of Castile.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Castile_and_Leon.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

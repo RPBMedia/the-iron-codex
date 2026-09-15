@@ -1,0 +1,219 @@
+{
+  "id": "teias",
+  "type": "character",
+  "name": "Teias",
+  "aliases": [
+    "Teia",
+    "Teja"
+  ],
+  "born": 510,
+  "died": 553,
+  "deathAge": "unknown",
+  "causeOfDeath": "Killed fighting on foot at Mons Lactarius.",
+  "restingPlace": "Unknown",
+  "location": "Italy",
+  "title": "King of the Ostrogoths",
+  "roles": [
+    "King",
+    "Commander"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Teias.jpg",
+  "imageInfo": {
+    "caption": "A later depiction of Teias, the last Ostrogothic king — no contemporary image of him survives.",
+    "creator": "Unknown; later depiction",
+    "date": "later imagining, not contemporary",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teias.jpg",
+    "note": "Not a portrait from life and not evidence for his appearance. Teias reigned for months and left no coinage or image; this is a later artist's conception. Public domain."
+  },
+  "summary": "Teias was the last king of the Ostrogoths, elected after Totila's death and killed within months at Mons Lactarius.",
+  "overview": "His reign was a fighting retreat, and his death is the moment the Ostrogothic kingdom ends.",
+  "greatestFeats": [
+    "Held the remnant of the Gothic army together after Taginae",
+    "Fought a last stand on the slopes of Vesuvius that Procopius describes at length"
+  ],
+  "birth": {
+    "date": "c. 510",
+    "place": {
+      "name": "Italy"
+    }
+  },
+  "death": {
+    "date": "553",
+    "place": {
+      "name": "Mons Lactarius, near Vesuvius"
+    },
+    "circumstance": "Killed fighting on foot in the battle that ended his kingdom."
+  },
+  "quickFacts": {
+    "realm": "Ostrogothic Kingdom",
+    "culture": "Ostrogothic",
+    "knownFor": "Being the last Ostrogothic king"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "King of the Ostrogoths",
+    "predecessor": {
+      "personSlug": "totila",
+      "displayName": "Totila",
+      "note": "Killed at Taginae in 552."
+    },
+    "successor": {
+      "status": "office-ended",
+      "displayName": "None — the kingdom ended",
+      "note": "The Ostrogothic kingdom was extinguished in 553; the surviving Goths negotiated to leave Italy and no successor was chosen."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Teias was elected king of the Ostrogoths after Totila was killed at Taginae in 552, and he is the last man to hold the title.",
+        "His reign lasted months and consisted almost entirely of retreat, ending on the slopes of Vesuvius at Mons Lactarius.",
+        "He is known essentially through Procopius's account of how he died, which is among the most deliberately heroic passages in the whole of the Wars."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Almost nothing is recorded of him before 552. He was one of Totila's commanders and evidently a senior one, since he was chosen king immediately after the defeat.",
+        "He inherited a kingdom that had lost its army, its treasury and most of its cities within a single afternoon.",
+        "What he had left was a body of surviving warriors and the Gothic treasure at Pavia."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources give him one scene, and it is a set piece. Procopius describes him at Mons Lactarius fighting on foot at the front of the line, holding his shield until it was so full of embedded spears that he called for another, and being killed in the moment of exchanging it.",
+        "It is a magnificent passage and it should be read as literature as much as reportage. Procopius is writing the death of a kingdom and reaching for Homer to do it.",
+        "What can reasonably be taken from it is that Teias fought and died personally in the front rank, and that his own side and his enemies both remembered it — the Goths who surrendered afterwards did so on terms, not as a rout."
+      ]
+    },
+    {
+      "title": "Mons Lactarius",
+      "paragraphs": [
+        "After Taginae he withdrew south, and Narses brought him to battle near Mount Vesuvius, at a place the sources call Mons Lactarius.",
+        "The Goths were cut off from supply and fought a desperate two-day battle on the slopes. Teias was killed on the first day.",
+        "The survivors negotiated rather than surrendering unconditionally: they were allowed to leave Italy and depart with their property, on the condition that they never again make war on the empire."
+      ]
+    },
+    {
+      "title": "The end of the kingdom",
+      "paragraphs": [
+        "With Teias dead and the terms agreed, the Ostrogothic kingdom simply stopped existing, sixty years after Theodoric had founded it.",
+        "Gothic garrisons held out in a few places for several more years, and Frankish and Alemannic invasions kept Narses occupied, but there was no longer a Gothic state.",
+        "Italy passed under direct imperial administration for fifteen years, until the Lombards arrived in 568 and took much of it from an exhausted province."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He is remembered for how he died rather than for anything he did as king, which is a fair reflection of a reign that lasted months and offered no other choices.",
+        "His last stand became a set piece of late antique historiography, and later German romantic writing made a great deal of it.",
+        "For the archive he marks the end point of Justinian's Italian war: the moment the reconquest succeeded, on a country it had spent nineteen years destroying."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 510",
+      "title": "Born",
+      "description": "Born in Italy; a commander under Totila, otherwise unrecorded."
+    },
+    {
+      "date": "552",
+      "title": "Elected king",
+      "description": "Chosen after Totila's death at Taginae, inheriting a kingdom without an army.",
+      "links": [
+        {
+          "title": "Battle of Taginae",
+          "type": "event",
+          "slug": "battle-of-taginae"
+        }
+      ]
+    },
+    {
+      "date": "552",
+      "title": "Withdraws south",
+      "description": "Falls back toward Campania with the surviving Gothic forces and the royal treasure."
+    },
+    {
+      "date": "553",
+      "title": "Mons Lactarius",
+      "description": "Brought to battle near Vesuvius and killed fighting on foot in the front rank.",
+      "links": [
+        {
+          "title": "Battle of Mons Lactarius",
+          "type": "event",
+          "slug": "battle-of-mons-lactarius"
+        }
+      ]
+    },
+    {
+      "date": "553",
+      "title": "The Goths negotiate terms",
+      "description": "The survivors agree to leave Italy with their property rather than surrender unconditionally."
+    },
+    {
+      "date": "553",
+      "title": "The kingdom ends",
+      "description": "The Ostrogothic kingdom ceases to exist, sixty years after Theodoric founded it."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "His predecessor, killed at Taginae"
+      },
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "The general who destroyed his army"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Mons Lactarius",
+        "type": "event",
+        "slug": "battle-of-mons-lactarius",
+        "label": "Where he was killed"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war that ended with him"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm that died with him"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Teia",
+      "url": "https://en.wikipedia.org/wiki/Teia",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "British Museum — late antique collections",
+      "url": "https://www.britishmuseum.org/collection",
+      "type": "museum collection",
+      "institution": "British Museum"
+    }
+  ]
+}

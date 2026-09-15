@@ -1,0 +1,236 @@
+{
+  "id": "edward-the-black-prince",
+  "type": "character",
+  "name": "Edward, the Black Prince",
+  "aliases": [
+    "Edward of Woodstock",
+    "Black Prince"
+  ],
+  "born": 1330,
+  "died": 1376,
+  "deathAge": "46",
+  "restingPlace": "Canterbury Cathedral",
+  "location": "Kingdom of England",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/TombaPrincepNegre_%28cropped%29.JPG",
+  "summary": "Edward of Woodstock, later called the Black Prince, was heir to Edward III and one of England’s most famous commanders in the Hundred Years’ War.",
+  "details": "Edward of Woodstock, later called the Black Prince, was heir to Edward III and one of England’s most famous commanders in the Hundred Years’ War.",
+  "title": "prince of Wales",
+  "roles": [
+    "Prince of Wales",
+    "English commander at Poitiers"
+  ],
+  "birth": {
+    "date": "1330",
+    "place": {
+      "name": "Woodstock Palace",
+      "slug": "kingdom-of-england"
+    }
+  },
+  "death": {
+    "date": "1376",
+    "place": {
+      "name": "Westminster",
+      "slug": "westminster",
+      "type": "location"
+    },
+    "circumstance": "Died at Westminster in 1376 after prolonged illness, one year before Edward III; his death made his son Richard the next heir."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of England",
+    "dynasty": "Plantagenet",
+    "culture": "English",
+    "knownFor": "Victory at Poitiers and capture of John II"
+  },
+  "imageInfo": {
+    "caption": "The gilt bronze effigy on the tomb of Edward the Black Prince in Canterbury Cathedral, made in the late fourteenth century.",
+    "creator": "See source record",
+    "date": "Late fourteenth century",
+    "source": "Wikimedia Commons",
+    "note": "The funerary effigy made after his death in 1376; idealised rather than a portrait."
+  },
+  "overview": [
+    "Edward of Woodstock, later called the Black Prince, was heir to Edward III and one of England’s most famous commanders in the Hundred Years’ War."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Edward of Woodstock, later called the Black Prince, was heir to Edward III and one of England’s most famous commanders in the Hundred Years’ War."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Edward, the Black Prince was born 1330, associated with Woodstock Palace. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Edward, the Black Prince, is remembered as the supreme chivalric warrior of his age, and the chronicle tradition — above all Froissart — celebrated him as the very flower of knighthood: brave, generous to noble foes, and brilliantly successful in the field at Crécy and at his great victory at the Battle of Poitiers, where he captured the French king John II and famously waited on his royal prisoner at table.",
+        "That courteous treatment of a defeated king became a centerpiece of his chivalric legend. Yet the same prince was responsible for the brutal sack of Limoges, where the slaughter of inhabitants showed a harder, more ruthless face that the chivalric sources struggled to reconcile with their hero. Modern assessment holds both together: gallantry toward noble equals coexisting with severity toward those outside that charmed circle.",
+        "His later years were marked by illness that ended his campaigning and preceded his death before he could inherit the throne. The portrait is shaped by the chivalric admiration of his chroniclers, but the documented record supports its core — a gifted, courageous, and magnificent commander whose chivalry was real but selective, remembered as the ideal knight who never became king."
+      ]
+    },
+    {
+      "title": "As military commander",
+      "paragraphs": [
+        "As prince and commander, Edward led campaigns in France and Aquitaine. At Poitiers in 1356, he defeated a larger French army and captured King John II.",
+        "the Battle of Poitiers in 1356 gives Edward, the Black Prince's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Westminster in 1376 after prolonged illness, one year before Edward III; his death made his son Richard the next heir."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His military reputation became legendary, though modern historians also emphasize the harshness and cost of chevauchee warfare."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Commanded at Poitiers",
+      "description": "The prince commanded the English-Gascon army that defeated and captured the French king in 1356."
+    },
+    {
+      "title": "Captured John II of France",
+      "description": "John II’s capture created a major ransom and political crisis for France."
+    },
+    {
+      "title": "Became a model of chivalric reputation",
+      "description": "His battlefield fame fed later images of chivalry, even as his campaigns could be brutal."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1330",
+      "title": "Born",
+      "description": "Born at Woodstock."
+    },
+    {
+      "date": "1346",
+      "title": "Fights at Crecy",
+      "description": "Participates in the English victory as a young prince."
+    },
+    {
+      "date": "1356",
+      "title": "Wins at Poitiers",
+      "description": "Captures the French king."
+    },
+    {
+      "date": "1371",
+      "title": "Returns to England",
+      "description": "Leaves Aquitaine amid illness and political strain."
+    },
+    {
+      "date": "1376",
+      "title": "Dies",
+      "description": "Dies before inheriting the throne."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "Place of death"
+      },
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Ruled from Bordeaux"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Poitiers",
+        "type": "event",
+        "slug": "battle-of-poitiers",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "Commanded the vanguard at sixteen"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edward II of England",
+        "type": "person",
+        "slug": "edward-ii-of-england",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Joan of Kent",
+        "type": "person",
+        "slug": "joan-of-kent",
+        "label": "Wife"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "Achievements of the Black Prince",
+        "type": "weaponArmor",
+        "slug": "black-prince-achievements",
+        "label": "His funeral achievements, surviving at Canterbury"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Edward, the Black Prince",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_of_Woodstock"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:TombaPrincepNegre_(cropped).JPG"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Principality of Aquitaine",
+    "note": "The Black Prince predeceased his father and was never king of England; succession shown for his rule of Aquitaine (1362–1372).",
+    "predecessor": {
+      "status": "none",
+      "displayName": "None as Prince of Aquitaine",
+      "note": "The principality was created for him by Edward III in 1362"
+    },
+    "successor": {
+      "status": "office-ended",
+      "displayName": "Reverted to the French crown",
+      "note": "He surrendered the principality in 1372 as his health and the English position in France collapsed"
+    }
+  },
+  "epithets": [
+    {
+      "name": "the Black Prince",
+      "type": "posthumous epithet",
+      "note": "First recorded in the 16th century; contemporaries knew him as Edward of Woodstock."
+    }
+  ]
+}

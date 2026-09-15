@@ -1,0 +1,79 @@
+{
+  "id": "oslo",
+  "type": "location",
+  "name": "Oslo",
+  "locationType": "City",
+  "year": "c. 1000",
+  "kingdom": "Kingdom of Norway",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akershus_festning.jpg",
+  "summary": "A Norwegian royal and ecclesiastical center that grew in importance during the Middle Ages.",
+  "overview": [
+    "A Norwegian royal and ecclesiastical center that grew in importance during the Middle Ages."
+  ],
+  "knownFor": [
+    "Norwegian kingship",
+    "Death place of Sigurd of Norway",
+    "Akershus later fortified center"
+  ],
+  "imageInfo": {
+    "caption": "Akershus Fortress in Oslo, founded in the late medieval period.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of a medieval royal fortress complex.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Akershus_festning.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Norwegian royal and ecclesiastical center that grew in importance during the Middle Ages.",
+        "Oslo matters historically through Norwegian kingship, Death place of Sigurd of Norway, Akershus later fortified center."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Akershus_festning.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Oslo",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Oslo"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway",
+        "label": "Death of Sigurd the Crusader"
+      },
+      {
+        "title": "Haakon VI of Norway",
+        "type": "person",
+        "slug": "haakon-vi-of-norway",
+        "label": "Death of Haakon VI of Norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "house-of-aviz",
+  "type": "house",
+  "name": "House of Aviz",
+  "aliases": [
+    "Aviz dynasty",
+    "Joanine dynasty",
+    "House of Avis"
+  ],
+  "originYear": 1385,
+  "endYear": 1580,
+  "reignSpan": "1385–1580",
+  "region": "Kingdom of Portugal",
+  "originPlace": "Portugal",
+  "arms": "The Portuguese arms (the “quinas” within a border of golden castles), differenced by the green cross of the Order of Aviz.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon,%20Museum%20Nacional%20de%20Arte%20Antiga,%20unknown%20painter,%20King%20John%20I%20of%20Portugal.JPG?width=1000",
+  "imageInfo": {
+    "caption": "John I of Portugal, founder of the House of Aviz, in a later panel portrait.",
+    "creator": "Unknown painter (Museu Nacional de Arte Antiga, Lisbon)",
+    "date": "c. 1450–1500",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lisbon,_Museum_Nacional_de_Arte_Antiga,_unknown_painter,_King_John_I_of_Portugal.JPG",
+    "note": "A later Portuguese portrait of the dynasty’s founder, victor of Aljubarrota and father of the \"Illustrious Generation\"."
+  },
+  "summary": "The Portuguese dynasty that secured independence at Aljubarrota and launched the Age of Discovery.",
+  "overview": "The House of Aviz took the Portuguese throne with John I in 1385, after his victory at Aljubarrota preserved Portugal from absorption by Castile. His sons, the \"Illustrious Generation\", began Portuguese overseas expansion; under John II the dynasty completed a centralised monarchy and opened the sea route toward India.",
+  "founder": {
+    "personSlug": "john-i-of-portugal",
+    "displayName": "John I",
+    "note": "Master of Aviz; king after the 1383–85 crisis"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Portugal",
+      "type": "location",
+      "slug": "kingdom-of-portugal"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "john-i-of-portugal",
+      "displayName": "John I the Good",
+      "note": "Founder; victor of Aljubarrota"
+    },
+    {
+      "personSlug": "edward-of-portugal",
+      "displayName": "Edward (Duarte)",
+      "note": "The \"Philosopher King\"; brief troubled reign"
+    },
+    {
+      "personSlug": "afonso-v-of-portugal",
+      "displayName": "Afonso V the African",
+      "note": "Campaigned in Morocco; claimed Castile"
+    },
+    {
+      "personSlug": "john-ii-of-portugal",
+      "displayName": "John II the Perfect Prince",
+      "note": "Crushed the great nobles; backed the route to India"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Aviz kings from John I, through the House of Lancaster marriage that produced the \"Illustrious Generation\", to John II. ⚭ marks a marriage.",
+    "root": {
+      "name": "John I",
+      "personSlug": "john-i-of-portugal",
+      "note": "r. 1385–1433",
+      "spouse": {
+        "name": "Philippa of Lancaster",
+        "personSlug": "philippa-of-lancaster"
+      },
+      "children": [
+        {
+          "name": "Edward (Duarte)",
+          "personSlug": "edward-of-portugal",
+          "note": "r. 1433–1438",
+          "children": [
+            {
+              "name": "Afonso V the African",
+              "personSlug": "afonso-v-of-portugal",
+              "note": "r. 1438–1481",
+              "children": [
+                {
+                  "name": "John II the Perfect Prince",
+                  "personSlug": "john-ii-of-portugal",
+                  "note": "r. 1481–1495"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "When Ferdinand I of the Afonsine line died in 1383 without a son, his daughter’s marriage to the king of Castile threatened to swallow Portugal. The Portuguese rallied instead around John, Master of the military Order of Aviz and illegitimate son of Pedro I, who was acclaimed king in 1385.",
+        "His crushing victory over the Castilians at the Battle of Aljubarrota in 1385, won with English longbowmen and the generalship of Nuno Álvares Pereira, secured both Portuguese independence and the new dynasty."
+      ]
+    },
+    {
+      "title": "The Illustrious Generation and expansion",
+      "paragraphs": [
+        "John I’s marriage to Philippa of Lancaster produced a remarkable set of princes whom the poet Camões called the \"Illustrious Generation\". In 1415 they seized Ceuta in North Africa, the opening move of Portuguese overseas expansion, and one of them, Prince Henry the Navigator, sponsored the voyages that pushed down the African coast.",
+        "The dynasty thus turned a small Atlantic kingdom into the pioneer of European maritime exploration, laying the foundations of a seaborne empire."
+      ]
+    },
+    {
+      "title": "Edward, Afonso V, and the African wars",
+      "paragraphs": [
+        "Edward’s short reign was overshadowed by the disastrous expedition to Tangier in 1437, in which his brother Ferdinand was left a hostage and died in captivity. His son Afonso V, called \"the African\", campaigned successfully at Arzila and Tangier but exhausted the kingdom pursuing a claim to the Castilian throne, checked at Toro in 1476.",
+        "These reigns balanced crusading ambition in Morocco against the slower, more profitable work of Atlantic exploration and trade."
+      ]
+    },
+    {
+      "title": "John II and the road to India",
+      "paragraphs": [
+        "John II, one of the ablest kings of the age, broke the power of the great nobles — executing the Duke of Braganza and personally stabbing the Duke of Viseu — and rebuilt royal authority. He drove the exploration effort that sent Bartolomeu Dias round the Cape of Good Hope in 1488 and negotiated the Treaty of Tordesillas dividing the wider world with Castile in 1494.",
+        "By the end of the medieval period the House of Aviz had made Portugal the leading power of oceanic discovery, poised for Vasco da Gama’s voyage to India in 1498."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1385",
+      "title": "Battle of Aljubarrota",
+      "description": "John I defeats Castile and founds the dynasty.",
+      "links": [
+        {
+          "title": "Battle of Aljubarrota",
+          "type": "event",
+          "slug": "battle-of-aljubarrota"
+        }
+      ]
+    },
+    {
+      "date": "1415",
+      "title": "Capture of Ceuta",
+      "description": "Portugal takes its first overseas territory, opening the age of expansion.",
+      "links": [
+        {
+          "title": "John I the Good",
+          "type": "person",
+          "slug": "john-i-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1437",
+      "title": "The Tangier disaster",
+      "description": "A failed expedition costs Prince Ferdinand his life in captivity.",
+      "links": [
+        {
+          "title": "Edward (Duarte)",
+          "type": "person",
+          "slug": "edward-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1476",
+      "title": "Afonso V checked at Toro",
+      "description": "His bid for the Castilian crown fails.",
+      "links": [
+        {
+          "title": "Afonso V the African",
+          "type": "person",
+          "slug": "afonso-v-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1488",
+      "title": "Rounding the Cape",
+      "description": "Under John II, Bartolomeu Dias reaches the Cape of Good Hope.",
+      "links": [
+        {
+          "title": "John II the Perfect Prince",
+          "type": "person",
+          "slug": "john-ii-of-portugal"
+        }
+      ]
+    },
+    {
+      "date": "1494",
+      "title": "Treaty of Tordesillas",
+      "description": "John II divides the oceans of discovery with Castile."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John I the Good",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Founder"
+      },
+      {
+        "title": "Afonso V the African",
+        "type": "person",
+        "slug": "afonso-v-of-portugal",
+        "label": "Moroccan campaigns"
+      },
+      {
+        "title": "John II the Perfect Prince",
+        "type": "person",
+        "slug": "john-ii-of-portugal",
+        "label": "Route to India"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "Founding victory, 1385"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm they ruled"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Aviz — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Aviz"
+    },
+    {
+      "title": "John I of Portugal — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/John-I-king-of-Portugal"
+    },
+    {
+      "title": "Portugal: The house of Aviz — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Portugal/The-Aviz-dynasty"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Shield%20of%20Kingdom%20of%20Portugal%20(1481-1910).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Portuguese royal arms — the quinas within a bordure of castles — as borne under the House of Aviz.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shield_of_Kingdom_of_Portugal_(1481-1910).svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

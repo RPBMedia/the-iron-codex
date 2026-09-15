@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Village",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Murder of Eric V",
+    "Danish succession conflict",
+    "Finderup barn tradition"
+  ],
+  "overview": [
+    "The village associated with the 1286 murder of Eric V of Denmark."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Finderup in central Jutland became infamous as the site of the murder of Eric V of Denmark on 22 November 1286. Eric was killed in his bed by noble conspirators, one of the most politically significant assassinations in medieval Danish history."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Eric's murder at Finderup remained officially unsolved, though Marshal Stig Andersen was widely blamed and forced into exile. The killing reflected deep conflict between the Danish crown and the aristocracy over royal authority and noble privilege. The fallout shaped Danish constitutional conflict for a generation."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Finderup",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Finderup_lade.jpg"
+    },
+    {
+      "title": "Finderup reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Finderup"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric V of Denmark",
+        "type": "person",
+        "slug": "eric-v-of-denmark",
+        "label": "Death of Eric V of Denmark"
+      },
+      {
+        "title": "Christopher I of Denmark",
+        "type": "person",
+        "slug": "christopher-i-of-denmark"
+      },
+      {
+        "title": "Christopher II of Denmark",
+        "type": "person",
+        "slug": "christopher-ii-of-denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "finderup",
+  "name": "Finderup",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Finderup_Kirke.JPG",
+  "summary": "The village associated with the 1286 murder of Eric V of Denmark.",
+  "imageInfo": {
+    "caption": "Finderup in Jutland, where Eric V of Denmark was murdered in 1286.",
+    "creator": "Calvin",
+    "date": "2009-04-14",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finderup_Kirke.JPG",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

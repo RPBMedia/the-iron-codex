@@ -1,0 +1,310 @@
+{
+  "id": "house-of-bjalbo",
+  "type": "house",
+  "name": "House of Bjälbo",
+  "aliases": [
+    "Bjälbo dynasty",
+    "Bjälbo family",
+    "Folkung",
+    "Folkungs",
+    "House of Folkung",
+    "Bjälbo / Norwegian royal line",
+    "Bjälbo / Estridsen line"
+  ],
+  "originYear": 1250,
+  "endYear": 1387,
+  "reignSpan": "1250–1387",
+  "region": "Kingdom of Sweden",
+  "originPlace": "Bjälbo, Östergötland",
+  "arms": "A gold lion striding over three silver bends on a blue field — the “Folkung lion” of the Bjälbo dynasty.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Birger%20jarl%20Riddarholmstorget%20september%202011.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Statue of Birger Jarl in Stockholm, the city he is traditionally credited with founding, in the square named for him.",
+    "creator": "Bengt Erland Fogelberg (statue, 1854)",
+    "date": "1854",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Birger_jarl_Riddarholmstorget_september_2011.jpg",
+    "note": "A 19th-century monument to the Bjälbo regent whose sons founded the royal Folkung line."
+  },
+  "summary": "The Swedish dynasty of Birger Jarl, whose descendants ruled Sweden and reached the crowns of Norway during the age before the Kalmar Union.",
+  "overview": "The House of Bjälbo, or the Folkungs, rose from the powerful jarls of Sweden to the throne when Birger Jarl secured the crown for his son in 1250. His descendants built the medieval Swedish state — its towns, laws, and church — and through Magnus Eriksson briefly united the crowns of Sweden and Norway on the eve of the Kalmar Union.",
+  "founder": {
+    "personSlug": "birger-jarl",
+    "displayName": "Birger Jarl",
+    "note": "Regent whose sons founded the royal Folkung line"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "birger-jarl",
+      "displayName": "Birger Jarl",
+      "note": "Regent and founder; traditional founder of Stockholm"
+    },
+    {
+      "personSlug": "valdemar-of-sweden",
+      "displayName": "Valdemar",
+      "note": "First Folkung king of Sweden"
+    },
+    {
+      "personSlug": "magnus-iii-of-sweden",
+      "displayName": "Magnus III Ladulås",
+      "note": "Strengthened the crown and the nobility"
+    },
+    {
+      "personSlug": "birger-magnusson",
+      "displayName": "Birger Magnusson",
+      "note": "His reign ended in the Nyköping banquet murders"
+    },
+    {
+      "personSlug": "magnus-eriksson",
+      "displayName": "Magnus Eriksson",
+      "note": "King of Sweden and Norway; issued a national law"
+    },
+    {
+      "personSlug": "haakon-vi-of-norway",
+      "displayName": "Haakon VI",
+      "note": "King of Norway; married Margaret of Denmark"
+    },
+    {
+      "personSlug": "olaf-iv-of-norway",
+      "displayName": "Olaf IV",
+      "note": "Child king through whom the Kalmar Union began"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Folkung (Bjälbo) line from the jarls to Birger Jarl’s royal descendants, ending with Haakon VI and the child Olaf IV, through whom the crowns passed toward the Kalmar Union. ⚭ marks a marriage.",
+    "root": {
+      "name": "Bjälbo jarls",
+      "note": "the Folkung magnates of Östergötland",
+      "children": [
+        {
+          "name": "Ulf Fase",
+          "personSlug": "ulf-fase",
+          "note": "jarl before Birger"
+        },
+        {
+          "name": "Birger Jarl",
+          "personSlug": "birger-jarl",
+          "note": "jarl and regent, d. 1266",
+          "children": [
+            {
+              "name": "Valdemar",
+              "personSlug": "valdemar-of-sweden",
+              "note": "r. 1250–1275"
+            },
+            {
+              "name": "Magnus III Ladulås",
+              "personSlug": "magnus-iii-of-sweden",
+              "note": "r. 1275–1290",
+              "children": [
+                {
+                  "name": "Birger Magnusson",
+                  "personSlug": "birger-magnusson",
+                  "note": "r. 1290–1318"
+                },
+                {
+                  "name": "Eric Magnusson",
+                  "note": "Duke of Södermanland",
+                  "children": [
+                    {
+                      "name": "Magnus Eriksson",
+                      "personSlug": "magnus-eriksson",
+                      "note": "r. Sweden 1319–1364, Norway 1319–1343",
+                      "children": [
+                        {
+                          "name": "Haakon VI",
+                          "personSlug": "haakon-vi-of-norway",
+                          "note": "r. Norway 1343–1380",
+                          "spouse": {
+                            "name": "Margaret of Denmark",
+                            "personSlug": "margaret-i"
+                          },
+                          "children": [
+                            {
+                              "name": "Olaf IV",
+                              "personSlug": "olaf-iv-of-norway",
+                              "note": "r. 1380–1387",
+                              "branch": "→ Kalmar Union"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Bjälbo family were great magnates of Östergötland who supplied the jarls — the highest office below the king — of medieval Sweden. The decisive figure was Birger Jarl, who as regent crushed rival nobles, is traditionally credited with founding Stockholm, and in 1250 secured the throne for his young son Valdemar, founding the royal Folkung line.",
+        "Birger issued laws protecting women, churches, homes, and assemblies — the \"peace laws\" — that laid foundations for a stronger Swedish state."
+      ]
+    },
+    {
+      "title": "The Folkung kings",
+      "paragraphs": [
+        "Birger’s son Valdemar was overthrown by his brother Magnus III, nicknamed Ladulås (\"Barn-lock\") for protecting peasants from the exactions of travelling nobles. Magnus strengthened royal power, defined the privileges of a knightly nobility, and patronised the Church.",
+        "His son Birger Magnusson quarrelled murderously with his brothers, imprisoning and starving them after the notorious Nyköping banquet of 1317 — a crime that provoked a rising, drove Birger into exile, and passed the crown to a child."
+      ]
+    },
+    {
+      "title": "Magnus Eriksson and the union of crowns",
+      "paragraphs": [
+        "That child, Magnus Eriksson, grandson of Magnus Ladulås, was elected king of Sweden in 1319 and inherited Norway the same year, uniting the two crowns in his person. He issued a national law code for Sweden, but his long reign was troubled by war, the Black Death, and noble revolt, and the two kingdoms were later divided among his sons.",
+        "His son Haakon VI kept the Norwegian crown and married Margaret, daughter of Valdemar IV of Denmark — the union that would shape the north."
+      ]
+    },
+    {
+      "title": "Toward the Kalmar Union",
+      "paragraphs": [
+        "Haakon VI and Margaret’s son Olaf IV inherited Denmark through his mother and Norway through his father, so that a single child briefly embodied the union of two Scandinavian crowns. When Olaf died young in 1387, his mother Margaret carried the inheritance forward.",
+        "Through her, the crowns of Denmark, Norway, and Sweden were joined in the Kalmar Union of 1397 — the Bjälbo inheritance flowing into a united Scandinavia."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The House of Bjälbo built much of the medieval Swedish state — its capital at Stockholm, its national law, its noble and ecclesiastical order — and reached the thrones of Sweden and Norway. The \"Folkung lion\" became a lasting emblem of Sweden.",
+        "By binding the Swedish and Norwegian successions to the Danish through marriage, the dynasty helped create the conditions for the Kalmar Union that would dominate Scandinavian politics into the sixteenth century."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1250",
+      "title": "Birger Jarl’s son crowned",
+      "description": "Valdemar becomes the first Folkung king of Sweden.",
+      "links": [
+        {
+          "title": "Birger Jarl",
+          "type": "person",
+          "slug": "birger-jarl"
+        }
+      ]
+    },
+    {
+      "date": "1275",
+      "title": "Magnus Ladulås takes the throne",
+      "description": "He strengthens royal power and the nobility.",
+      "links": [
+        {
+          "title": "Magnus III Ladulås",
+          "type": "person",
+          "slug": "magnus-iii-of-sweden"
+        }
+      ]
+    },
+    {
+      "date": "1317",
+      "title": "The Nyköping banquet",
+      "description": "Birger Magnusson murders his brothers, provoking his own fall.",
+      "links": [
+        {
+          "title": "Birger Magnusson",
+          "type": "person",
+          "slug": "birger-magnusson"
+        }
+      ]
+    },
+    {
+      "date": "1319",
+      "title": "Sweden and Norway united",
+      "description": "Magnus Eriksson inherits both crowns as a child.",
+      "links": [
+        {
+          "title": "Magnus Eriksson",
+          "type": "person",
+          "slug": "magnus-eriksson"
+        }
+      ]
+    },
+    {
+      "date": "1387",
+      "title": "Death of Olaf IV",
+      "description": "The child king’s death leaves the inheritance to Margaret and the coming union.",
+      "links": [
+        {
+          "title": "Olaf IV",
+          "type": "person",
+          "slug": "olaf-iv-of-norway"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Birger Jarl",
+        "type": "person",
+        "slug": "birger-jarl",
+        "label": "Founder"
+      },
+      {
+        "title": "Magnus III Ladulås",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden",
+        "label": "Strengthened the crown"
+      },
+      {
+        "title": "Magnus Eriksson",
+        "type": "person",
+        "slug": "magnus-eriksson",
+        "label": "United Sweden and Norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "The realm they ruled"
+      },
+      {
+        "title": "Stockholm",
+        "type": "location",
+        "slug": "stockholm",
+        "label": "Town founded under Birger Jarl"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Bjälbo — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Bjelbo"
+    },
+    {
+      "title": "Birger Jarl — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Birger-Jarl"
+    },
+    {
+      "title": "Magnus VII (Magnus Eriksson) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Magnus_IV_of_Sweden"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/COA%20family%20sv%20Folkunga%C3%A4tten.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The “Folkung lion” of the House of Bjälbo — a gold lion over silver bends on blue.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:COA_family_sv_Folkunga%C3%A4tten.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

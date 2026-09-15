@@ -1,0 +1,86 @@
+{
+  "id": "noyon",
+  "type": "location",
+  "locationType": "Town",
+  "name": "Noyon",
+  "year": 1233,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dehio_361_Noyon_Cathedrale.jpg",
+  "summary": "A cathedral town in northern France where Ferdinand of Flanders died in 1233.",
+  "overview": [
+    "Noyon was a cathedral town in northern France, part of the ecclesiastical and political landscape near Flanders, Picardy, and the royal domain.",
+    "Ferdinand of Flanders died there in 1233 after years shaped by his capture at Bouvines."
+  ],
+  "knownFor": [
+    "Death of Ferdinand of Flanders",
+    "Cathedral town",
+    "Northern French politics"
+  ],
+  "imageInfo": {
+    "caption": "Noyon Cathedral; Charlemagne was crowned King of the Franks at Noyon in 768.",
+    "creator": "Georg Dehio/Gustav von Bezold",
+    "date": "1887–1901",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dehio_361_Noyon_Cathedrale.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Noyon in Picardy was a cathedral city in northern France. Charlemagne was crowned King of the Franks at Noyon in 768, and the city remained an episcopal center throughout the medieval period.",
+        "Ferdinand of Flanders, captured at Bouvines in 1214 while allied against Philip II of France, died at Noyon in 1233 after years of imprisonment."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Ferdinand's long captivity and death at Noyon reflect the political consequences of Bouvines, which cemented Capetian dominance in northern France and left coalition leaders either dead or imprisoned. Noyon's connection to both Carolingian coronation and Capetian political aftermath gives it a wide span in medieval French historical memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Noyon",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Noyon_Cathedral.jpg"
+    },
+    {
+      "title": "Noyon reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Noyon"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand of Flanders",
+        "type": "person",
+        "slug": "ferdinand-of-flanders",
+        "label": "Death of Ferdinand of Flanders"
+      }
+    ],
+    "locations": [
+      {
+        "title": "County of Flanders",
+        "type": "location",
+        "slug": "county-of-flanders",
+        "label": "Realm of Ferdinand of Flanders"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines"
+      }
+    ]
+  }
+}

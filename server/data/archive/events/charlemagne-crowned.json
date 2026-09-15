@@ -1,0 +1,125 @@
+{
+  "id": "charlemagne-crowned",
+  "type": "event",
+  "name": "Charlemagne Crowned Emperor",
+  "year": 800,
+  "location": "Rome, Italy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Karel_Leo.jpg",
+  "summary": "Pope Leo III crowned Charlemagne emperor, reviving an imperial title in western Europe.",
+  "details": "On Christmas Day in 800, Charlemagne received the imperial crown in Rome. The coronation reshaped relations between kingship, the papacy, and empire, and it gave the Carolingian realm an ideological language that later rulers would adapt into the Holy Roman Empire.",
+  "eventType": "Coronation",
+  "background": [
+    "Charlemagne had already built enormous authority as king of the Franks and Lombards before his Roman coronation.",
+    "The papacy needed protection and legitimacy, while Charlemagne could benefit from a revived imperial title in the Latin west."
+  ],
+  "aftermath": "The coronation reshaped medieval ideas about empire, kingship, and papal authority. It also created a political inheritance later rulers adapted into the Holy Roman Empire.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pope Leo III crowned Charlemagne emperor, reviving an imperial title in western Europe."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Charlemagne had already built enormous authority as king of the Franks and Lombards before his Roman coronation.",
+        "The papacy needed protection and legitimacy, while Charlemagne could benefit from a revived imperial title in the Latin west."
+      ]
+    },
+    {
+      "title": "Ceremony and claims",
+      "paragraphs": [
+        "On Christmas Day in 800, Charlemagne received the imperial crown in Rome. The coronation reshaped relations between kingship, the papacy, and empire, and it gave the Carolingian realm an ideological language that later rulers would adapt into the Holy Roman Empire."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "Charlemagne (Frankish king and new emperor), Pope Leo III (who performed the coronation at Saint Peter's), and Alcuin of York (scholar and royal advisor)."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The coronation reshaped medieval ideas about empire, kingship, and papal authority. It also created a political inheritance later rulers adapted into the Holy Roman Empire."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Charlemagne Crowned Emperor matters because it reveals how medieval authority was made through conflict, ritual, writing, negotiation, and memory."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Medieval-style depiction of Pope Leo III crowning Charlemagne emperor.",
+    "creator": "Unknown artist",
+    "date": "later medieval or early modern tradition",
+    "source": "Wikimedia Commons",
+    "note": "A later artistic depiction of the coronation, not a contemporary record of the ceremony."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Karel_Leo.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Charlemagne",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Charlemagne"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Location"
+      },
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The empire the coronation crowned"
+      },
+      {
+        "title": "Aachen",
+        "type": "location",
+        "slug": "aachen",
+        "label": "Charlemagne's imperial capital"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Pope Leo III performed the coronation"
+      }
+    ],
+    "people": [
+      {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne"
+      }
+    ],
+    "events": [
+      {
+        "title": "Treaty of Verdun",
+        "type": "event",
+        "slug": "treaty-of-verdun",
+        "label": "Divided the empire he built"
+      }
+    ]
+  }
+}

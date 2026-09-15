@@ -1,0 +1,78 @@
+{
+  "type": "location",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Haakon V Magnusson",
+    "Norwegian royal government",
+    "Slottsfjell"
+  ],
+  "overview": [
+    "A Norwegian town and royal center associated with Haakon V's death in 1319."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tonsberg on the Oslofjord was one of Norway's oldest and most important royal towns. Haakon V Magnusson died there in 1319 without a male heir, leading Norway into a personal union with Sweden under the infant Magnus Eriksson."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Tonsberg's importance as a royal administrative center dated from the high medieval period; several Norwegian kings held court and died there. Haakon V's death ending the separate Norwegian Haakonssonline meant Norwegian political identity had to be maintained within a union framework increasingly dominated by Swedish dynastic interests."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Tonsberg",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:T%C3%B8nsberg_Slottsfjell.jpg"
+    },
+    {
+      "title": "Tonsberg reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Tonsberg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Haakon V Magnusson",
+        "type": "person",
+        "slug": "haakon-v-magnusson",
+        "label": "Death of Haakon V Magnusson"
+      },
+      {
+        "title": "Eric II of Norway",
+        "type": "person",
+        "slug": "eric-ii-of-norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "tonsberg",
+  "name": "Tonsberg",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Slottsfjellet_2011.jpg",
+  "summary": "A Norwegian town and royal center associated with Haakon V's death in 1319.",
+  "imageInfo": {
+    "caption": "The Slottsfjellet (Castle Hill) at Tønsberg, one of Norway’s oldest royal towns.",
+    "creator": "Bernt Rostad from Oslo, Norway",
+    "date": "2011-04-24 08:26",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slottsfjellet_2011.jpg",
+    "license": "CC BY 2.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

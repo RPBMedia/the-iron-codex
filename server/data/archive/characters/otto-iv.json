@@ -1,0 +1,203 @@
+{
+  "id": "otto-iv",
+  "type": "character",
+  "name": "Otto IV",
+  "aliases": [
+    "Otto IV, Holy Roman Emperor"
+  ],
+  "born": 1175,
+  "died": 1218,
+  "deathAge": "43",
+  "restingPlace": "Brunswick Cathedral",
+  "location": "Holy Roman Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ottta4Brunsvicky.jpg",
+  "summary": "Otto IV was a Welf ruler and Holy Roman Emperor whose defeat at Bouvines damaged his authority and helped secure Frederick II’s rise.",
+  "details": "Otto IV was a Welf ruler and Holy Roman Emperor whose defeat at Bouvines damaged his authority and helped secure Frederick II’s rise.",
+  "title": "Holy Roman Emperor",
+  "roles": [
+    "Holy Roman Emperor",
+    "King of Germany"
+  ],
+  "birth": {
+    "date": "1175",
+    "place": {
+      "name": "Brunswick",
+      "slug": "holy-roman-empire"
+    }
+  },
+  "death": {
+    "date": "1218",
+    "place": {
+      "name": "Harzburg",
+      "slug": "harzburg",
+      "type": "location"
+    },
+    "circumstance": "Died at Harzburg in 1218 after political defeat and imperial eclipse following Bouvines."
+  },
+  "quickFacts": {
+    "realm": "Holy Roman Empire",
+    "dynasty": "Welf",
+    "culture": "German",
+    "knownFor": "Imperial defeat at Bouvines"
+  },
+  "imageInfo": {
+    "caption": "The seal of Otto IV enthroned, reproduced in Otto Posse's 1909 edition of the seals of the German emperors and kings.",
+    "creator": "See source record",
+    "date": "Seal of his reign; reproduced 1909",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary seal, conventional rather than a likeness."
+  },
+  "overview": [
+    "Otto IV was a Welf ruler and Holy Roman Emperor whose defeat at Bouvines damaged his authority and helped secure Frederick II’s rise."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Otto IV was a Welf ruler and Holy Roman Emperor whose defeat at Bouvines damaged his authority and helped secure Frederick II’s rise."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Otto IV was born 1175, associated with Brunswick. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of Holy Roman Empire, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Otto IV is remembered as the Welf emperor whose promising career collapsed into failure, and his character is drawn largely from the arc of that downfall. Raised partly at the Angevin court of his uncle Richard the Lionheart, he won the German throne in a long civil war against the Hohenstaufen, but the sources present a ruler whose ambition outran his political judgement, particularly when he provoked the papacy by invading territories Pope Innocent III regarded as his own.",
+        "That breach led to his excommunication and to the rise of his Hohenstaufen rival Frederick II, and his fate was sealed at the Battle of Bouvines in 1214, where his defeat alongside his English allies effectively ended his imperial authority. He spent his last years sidelined and powerless, a discarded emperor.",
+        "The hostile clerical sources, written after his break with the church, emphasise overreach and broken promises, so the portrait is unsympathetic. What the record supports is an ambitious ruler whose miscalculation — antagonising the pope who had supported him — destroyed a reign that had begun with real advantages. He is remembered as the emperor undone at Bouvines."
+      ]
+    },
+    {
+      "title": "As Holy Roman Emperor",
+      "paragraphs": [
+        "Otto’s reign was shaped by German succession conflict, papal politics, and alliance with King John of England against Philip II of France.",
+        "Battle of Bouvines gives Otto IV's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Harzburg in 1218 after political defeat and imperial eclipse following Bouvines."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His defeat at Bouvines marked a turning point in imperial and French politics, strengthening Capetian France and ending Otto’s prospects."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Became Holy Roman Emperor",
+      "description": "Otto IV rose through a contested imperial election backed by Welf and English interests."
+    },
+    {
+      "title": "Led the imperial coalition at Bouvines",
+      "description": "His defeat at Bouvines shattered his coalition against Philip II of France."
+    },
+    {
+      "title": "His defeat reshaped imperial succession",
+      "description": "After Bouvines, Otto’s position collapsed and Frederick II’s imperial future became far stronger."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1175",
+      "title": "Born",
+      "description": "Born into the Welf dynasty."
+    },
+    {
+      "date": "1198",
+      "title": "Elected king",
+      "description": "Chosen amid German succession conflict."
+    },
+    {
+      "date": "1209",
+      "title": "Crowned emperor",
+      "description": "Receives imperial coronation."
+    },
+    {
+      "date": "1214",
+      "title": "Defeated at Bouvines",
+      "description": "Loses to Philip II of France.",
+      "links": [
+        {
+          "title": "Battle of Bouvines",
+          "type": "event",
+          "slug": "battle-of-bouvines"
+        }
+      ]
+    },
+    {
+      "date": "1218",
+      "title": "Dies",
+      "description": "Dies after political decline."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Harzburg",
+        "type": "location",
+        "slug": "harzburg",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Ruler of Holy Roman Empire"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Otto IV",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Otto_IV%2C_Holy_Roman_Emperor"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Ottta4Brunsvicky.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Holy Roman Emperor",
+    "predecessor": {
+      "personSlug": "henry-vi-holy-roman-emperor",
+      "displayName": "Henry VI",
+      "note": "Whose death opened the double election and civil war between Otto and Philip of Swabia"
+    },
+    "successor": {
+      "personSlug": "frederick-ii-holy-roman-emperor",
+      "displayName": "Frederick II",
+      "note": "Henry VI's son, who displaced Otto after Bouvines"
+    }
+  }
+}

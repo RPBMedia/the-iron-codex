@@ -1,0 +1,183 @@
+{
+  "id": "siege-of-rome-537",
+  "type": "event",
+  "eventType": "Siege",
+  "name": "Siege of Rome",
+  "year": 537,
+  "location": "Rome",
+  "eventLocation": "Rome, behind the Aurelian Walls",
+  "conflict": "Gothic War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aurelian%20Walls%20Rome%202011%201.jpg",
+  "imageInfo": {
+    "caption": "The Aurelian Walls of Rome, the circuit Belisarius repaired and held against the Gothic army for a year and nine days.",
+    "creator": "Photograph via Wikimedia Commons",
+    "date": "3rd century (walls); photograph 2011",
+    "source": "Rome / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aurelian_Walls_Rome_2011_1.jpg",
+    "note": "The actual fortification of the siege, still standing. The walls were already some 250 years old in 537 and Belisarius had them repaired and ditched before the Goths arrived. Licensed CC BY-SA."
+  },
+  "summary": "From March 537 to March 538 Belisarius held Rome against a much larger Gothic army under Vitiges, for a year and nine days.",
+  "details": "It is one of the great defensive operations of late antiquity, and the siege in which Rome's aqueducts were cut — ending the ancient city's water supply for good.",
+  "outcome": "Byzantine victory; the Goths withdrew after a year, having failed to take the city.",
+  "background": "Belisarius entered Rome in December 536. Vitiges marched south from Ravenna with a far larger army to retake it.",
+  "battle": "The Goths assaulted the walls, cut the aqueducts and blockaded the city. Belisarius held the circuit with a small garrison and the citizens, and counter-attacked repeatedly.",
+  "aftermath": "Vitiges withdrew in March 538 with his army badly reduced. Rome had been held, but the city was permanently damaged.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Belisarius entered Rome in December 536 with a force of a few thousand, and in March 537 the Gothic army arrived to take it back.",
+        "He held the city for a year and nine days against far superior numbers, and the siege is among the most impressive defensive operations of the period.",
+        "It is also the moment Rome as an ancient city effectively ends: the aqueducts were cut and never properly restored, and the population that had depended on them left."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Rome had opened its gates to Belisarius without a fight, and the Gothic garrison had withdrawn north.",
+        "Vitiges came south from Ravenna with an army Procopius numbers implausibly high but which was certainly many times the size of the garrison.",
+        "Belisarius spent the interval repairing the Aurelian Walls, digging a ditch, and stockpiling grain — preparations that decided the siege before it began."
+      ]
+    },
+    {
+      "title": "The siege",
+      "paragraphs": [
+        "The Goths built camps around the northern and eastern approaches and assaulted the walls with towers and rams. The first great assault was beaten off with heavy losses.",
+        "They cut all the aqueducts, which ended the city's water supply, closed the public baths and stopped the mills — Belisarius replaced the last with floating mills moored in the Tiber.",
+        "The fighting included a defence of the mausoleum of Hadrian, where the garrison reportedly broke up the statues decorating it and threw the pieces down on the attackers. Belisarius counter-attacked constantly with small mounted sorties rather than waiting behind the walls."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Gothic army wasted through the winter from disease, hunger and casualties, and withdrew in March 538 having achieved nothing.",
+        "Belisarius had held, but Rome had not survived intact. The aqueducts stayed broken, and a city that had already shrunk enormously since the fourth century now lost most of what remained.",
+        "The war moved north, and Rome would change hands four more times before it ended — each time with less of it left."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It is the defensive counterpart to Ad Decimum: a demonstration that a small professional force, well handled and well prepared, could hold against far greater numbers.",
+        "It also shows the shape of the whole Italian war. Belisarius won, and won brilliantly, with resources that should not have been enough — and the empire took that as proof it need not send more.",
+        "The cutting of the aqueducts is the detail that outlasts the campaign. The siege ended a system of urban life that had run for eight hundred years, and Rome did not have running water on that scale again for a millennium."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Belisarius",
+          "title": "Belisarius",
+          "type": "person",
+          "slug": "belisarius"
+        }
+      ],
+      "strength": {
+        "display": "c. 5,000 troops with the citizens",
+        "confidence": "estimated",
+        "note": "A very small garrison for a circuit of nineteen kilometres; the civilian population was pressed into watch duty and repair work."
+      }
+    },
+    {
+      "side": "Ostrogothic army",
+      "factions": [
+        {
+          "name": "Ostrogothic Kingdom",
+          "title": "Ostrogothic Kingdom",
+          "type": "location",
+          "slug": "ostrogothic-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Vitiges",
+          "note": "No article: no image of him survives in any form — no coin, no later depiction — so the archive cannot give him a page."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; Procopius claims 150,000",
+        "confidence": "debated",
+        "note": "The chronicle figure is not credible. Modern estimates are far lower, in the tens of thousands, but no reliable number survives. Vitiges has no article in this archive yet — no image of him exists in any form — so he is named here without a link."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the war to the battle that decided it",
+    "battleSlug": "battle-of-taginae",
+    "relationship": "same-war",
+    "reason": "Holding Rome in 538 did not end the war: Totila recovered nearly all of Italy in the following decade, and the conflict was only decided at Taginae in 552, where Narses destroyed the Gothic army and Totila was killed."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Held the city"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "The emperor whose war it was"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it belongs to"
+      },
+      {
+        "title": "Battle of Taginae",
+        "type": "event",
+        "slug": "battle-of-taginae",
+        "label": "Where the war was finally decided"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "The city besieged"
+      },
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The besieging power"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Siege of Rome (537–538)",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Rome_(537%E2%80%93538)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Aurelian Walls",
+      "url": "https://commons.wikimedia.org/wiki/File:Aurelian_Walls_Rome_2011_1.jpg",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

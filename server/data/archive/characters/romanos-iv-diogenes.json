@@ -1,0 +1,221 @@
+{
+  "id": "romanos-iv-diogenes",
+  "type": "character",
+  "name": "Romanos IV Diogenes",
+  "aliases": [
+    "Romanus IV Diogenes"
+  ],
+  "born": 1030,
+  "died": 1072,
+  "deathAge": "about 42",
+  "restingPlace": "Unknown",
+  "location": "Byzantine Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Romanus_IV_coin_crop.png",
+  "summary": "Romanos IV Diogenes was Byzantine emperor from 1068 to 1071. His defeat and capture at Manzikert destabilized Byzantine politics and Anatolia.",
+  "details": "Romanos IV Diogenes was Byzantine emperor from 1068 to 1071. His defeat and capture at Manzikert destabilized Byzantine politics and Anatolia.",
+  "title": "Byzantine emperor",
+  "roles": [
+    "Byzantine emperor",
+    "Commander at Manzikert"
+  ],
+  "birth": {
+    "date": "c. 1030",
+    "place": {
+      "name": "Cappadocia",
+      "slug": "cappadocia"
+    },
+    "note": "Approximate date; Cappadocia identifies his military-aristocratic regional background."
+  },
+  "death": {
+    "date": "1072",
+    "place": {
+      "name": "Proti",
+      "slug": "proti"
+    },
+    "circumstance": "Died on Proti in 1072 after defeat at Manzikert, civil conflict, deposition, and blinding."
+  },
+  "quickFacts": {
+    "realm": "Byzantine Empire",
+    "dynasty": "Doukid-era imperial politics",
+    "culture": "Byzantine Greek",
+    "knownFor": "Defeat and capture at Manzikert"
+  },
+  "imageInfo": {
+    "caption": "A silver coin of Romanos IV with his crowned bust, struck at Constantinople between 1068 and 1071.",
+    "creator": "See source record",
+    "date": "1068–1071",
+    "source": "Wikimedia Commons",
+    "note": "A coin of his reign, a contemporary but conventional imperial image."
+  },
+  "overview": [
+    "Romanos IV Diogenes was Byzantine emperor from 1068 to 1071. His defeat and capture at Manzikert destabilized Byzantine politics and Anatolia."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Romanos IV Diogenes was Byzantine emperor from 1068 to 1071. His defeat and capture at Manzikert destabilized Byzantine politics and Anatolia."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Romanos IV Diogenes was born c. 1030, associated with Cappadocia. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Romanos IV Diogenes is remembered through the disaster of the Battle of Manzikert in 1071 and the betrayal that surrounded it, and his character is drawn largely from that tragedy. The Byzantine sources, notably the historian Michael Attaleiates who knew him, present a brave and energetic soldier-emperor who tried to restore the army and confront the Seljuk threat, but who was undermined by the entrenched court aristocracy that resented him as a military outsider.",
+        "His defeat and capture at Manzikert owed much to the treachery of subordinates who failed or abandoned him, and the aftermath was crueller still: deposed by the rival Doukas faction, he was blinded and left to die of his wounds. The sources, even those critical of his judgement, convey sympathy for a courageous ruler destroyed as much by internal enemies as by the Seljuks.",
+        "The consistent portrait is of a vigorous, well-meaning, and personally brave emperor overwhelmed by the factionalism of the Byzantine court. He is remembered as a tragic figure — a capable soldier undone by betrayal — whose fall came to symbolise the deeper political sickness that the catastrophe at Manzikert exposed."
+      ]
+    },
+    {
+      "title": "As Byzantine emperor",
+      "paragraphs": [
+        "Romanos attempted to restore Byzantine military strength on the eastern frontier. His campaign against Alp Arslan ended in defeat after internal distrust, tactical failure, and desertion.",
+        "Battle of Manzikert gives Romanos IV Diogenes's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died on Proti in 1072 after defeat at Manzikert, civil conflict, deposition, and blinding."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Romanos is remembered through Manzikert, a battle often treated as a turning point in Anatolian history, though its consequences unfolded through later civil conflict as much as the battle itself."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Became Byzantine emperor in 1068",
+      "description": "Romanos took power as a military emperor expected to stabilize the eastern frontier."
+    },
+    {
+      "title": "Led the eastern campaign of 1071",
+      "description": "His campaign against the Seljuks aimed to restore Byzantine control in Anatolia."
+    },
+    {
+      "title": "His defeat reshaped Byzantine Anatolia",
+      "description": "Manzikert damaged imperial authority and helped open Anatolia to deeper Turkish settlement and political change."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1030",
+      "title": "Born",
+      "description": "Born into a Byzantine military aristocratic background."
+    },
+    {
+      "date": "1068",
+      "title": "Becomes emperor",
+      "description": "Marries Empress Eudokia and takes the throne."
+    },
+    {
+      "date": "1071",
+      "title": "Campaigns east",
+      "description": "Leads an army toward Manzikert.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    },
+    {
+      "date": "1071",
+      "title": "Captured at Manzikert",
+      "description": "Defeated by Alp Arslan.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    },
+    {
+      "date": "1072",
+      "title": "Dies",
+      "description": "Dies after overthrow and blinding."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Realm"
+      },
+      {
+        "title": "Cappadocia",
+        "type": "location",
+        "slug": "cappadocia",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Proti",
+        "type": "location",
+        "slug": "proti",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Constantine XI Palaiologos",
+        "type": "person",
+        "slug": "constantine-xi-palaiologos",
+        "label": "Ruler of Byzantine Empire"
+      },
+      {
+        "title": "Eudokia Makrembolitissa",
+        "type": "person",
+        "slug": "eudokia-makrembolitissa",
+        "label": "Wife, who chose him as emperor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Romanos IV Diogenes",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Romanus_IV_Diogenes"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Romanus_IV_coin_crop.png"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Byzantine Emperor",
+    "predecessor": {
+      "personSlug": "constantine-x-doukas",
+      "displayName": "Constantine X Doukas",
+      "note": "Whose widow Eudokia married Romanos to give the empire a soldier"
+    },
+    "successor": {
+      "personSlug": "michael-vii-doukas",
+      "displayName": "Michael VII Doukas",
+      "note": "Constantine's son, whose faction blinded Romanos after Manzikert"
+    }
+  }
+}

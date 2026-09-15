@@ -1,0 +1,80 @@
+{
+  "type": "location",
+  "locationType": "Uncertain battle location",
+  "year": "Medieval period",
+  "kingdom": "Baltic / Scandinavian waters",
+  "knownFor": [
+    "Battle of Svolder",
+    "Olaf Tryggvason",
+    "Saga tradition"
+  ],
+  "overview": [
+    "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Svolder was the site of a major naval battle around 1000 where Olaf Tryggvason of Norway was defeated and killed by a coalition of Danish, Swedish, and Norwegian forces loyal to Sweyn Forkbeard of Denmark. The exact location remains disputed among scholars."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Olaf Tryggvason's death at Svolder — leaping into the sea from his flagship Long Serpent rather than surrendering — became one of the most celebrated episodes in Norse tradition, depicted in several sagas and skaldic poems. His defeat ended Norwegian independence for over a decade, with Denmark and Sweden dividing control of Norway."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Svolder",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Oseberg_ship_-_IMG_9129.jpg"
+    },
+    {
+      "title": "Svolder reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Svolder"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Svolder",
+        "type": "event",
+        "slug": "battle-of-svolder",
+        "label": "Battle fought here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Olaf Tryggvason",
+        "type": "person",
+        "slug": "olaf-tryggvason",
+        "label": "Death of Olaf Tryggvason"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Combatant here"
+      }
+    ]
+  },
+  "id": "svolder",
+  "name": "Svolder",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oseberg_ship_-_IMG_9129.jpg",
+  "summary": "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000.",
+  "imageInfo": {
+    "caption": "The Oseberg ship, used to evoke the Viking naval setting associated with Svolder.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern photograph of a Viking Age ship burial",
+    "source": "Wikimedia Commons",
+    "note": "Associated archaeological image; Svolder’s exact location is uncertain.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oseberg_ship_-_IMG_9129.jpg"
+  }
+}

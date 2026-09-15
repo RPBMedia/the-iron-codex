@@ -1,0 +1,89 @@
+{
+  "id": "gebze",
+  "type": "location",
+  "locationType": "Town",
+  "name": "Gebze",
+  "year": 1329,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eskihisar%20Kalesi.jpg?width=1600",
+  "summary": "A town in northwestern Anatolia near where Mehmed II died while on campaign in 1481.",
+  "overview": [
+    "Gebze was a town in northwestern Anatolia, east of Constantinople, on routes linking the Ottoman capital region with Anatolia.",
+    "It is important to IronCodex because Mehmed II died near Gebze in 1481 while preparing for campaign, making the place part of the political transition from the conqueror to Bayezid II."
+  ],
+  "knownFor": [
+    "Mehmed II’s death near Gebze",
+    "Ottoman route between Constantinople and Anatolia",
+    "Northwestern Anatolian frontier geography"
+  ],
+  "imageInfo": {
+    "caption": "Eskihisar Castle in the Gebze district, a hilltop fortress of Byzantine origin rebuilt in the medieval period and later held by the Genoese, above the Gulf of İzmit east of Constantinople.",
+    "creator": "Tansugunal",
+    "date": "photograph, 2008 (of a medieval Byzantine–Genoese castle)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eskihisar_Kalesi.jpg",
+    "license": "Public domain",
+    "note": "No pre-1453 monument survives in Gebze town itself (medieval Byzantine Dakibyza); this nearby castle in the Gebze district preserves genuine medieval fortification fabric on the route east of Constantinople that Mehmed II was following when he died in 1481."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Gebze lay in the corridor between Constantinople and the Anatolian interior. In the later fifteenth century that made the town and its surroundings part of the Ottoman strategic landscape around the Marmara region."
+      ]
+    },
+    {
+      "title": "Medieval historical context",
+      "paragraphs": [
+        "Mehmed II died near Gebze in 1481 while on campaign. The exact purpose of the campaign is debated, but his death immediately triggered Ottoman succession politics between Bayezid II and Cem."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Gebze matters in IronCodex less as a capital than as the place attached to the death of the ruler who captured Constantinople and reshaped the eastern Mediterranean."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Gebze",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Coban_Mustafa_Pasha_Camii_Gebze.jpg"
+    },
+    {
+      "title": "Gebze reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Gebze"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Death of Mehmed II"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Realm of Mehmed II"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople"
+      }
+    ]
+  }
+}

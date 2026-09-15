@@ -1,0 +1,276 @@
+{
+  "id": "great-heathen-army",
+  "type": "event",
+  "eventType": "War",
+  "name": "Great Heathen Army",
+  "aliases": [
+    "Great Viking Army",
+    "Viking Great Army"
+  ],
+  "year": 865,
+  "location": "England",
+  "eventLocation": "East Anglia, Northumbria, Mercia and Wessex",
+  "conflict": "Viking invasions of England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_Great_Army_map.svg",
+  "imageInfo": {
+    "caption": "The movements of the Great Heathen Army in England between 865 and 878.",
+    "creator": "Hel-hama",
+    "date": "modern map (2012)",
+    "source": "Wikimedia Commons (CC BY-SA 3.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_Great_Army_map.svg",
+    "note": "Based on Stenton's Anglo-Saxon England and Hill's Atlas of Anglo-Saxon England. The winter camps are recorded in the Anglo-Saxon Chronicle; the routes between them are reconstructions."
+  },
+  "summary": "The Scandinavian army that invaded England in 865, destroyed the kingdoms of Northumbria, East Anglia and Mercia, came close to conquering Wessex, and settled the lands that became the Danelaw.",
+  "details": "A coalition of Viking war bands that landed in East Anglia in 865, conquered three of the four English kingdoms, was defeated by Alfred the Great at Edington in 878, and settled across northern and eastern England.",
+  "outcome": "Conquest of Northumbria, East Anglia and eastern Mercia; Wessex survived after Edington in 878; Scandinavian settlement created the Danelaw.",
+  "participants": [
+    {
+      "side": "Great Heathen Army",
+      "factions": [],
+      "leaders": [
+        {
+          "name": "Guthrum",
+          "title": "Guthrum",
+          "type": "person",
+          "slug": "guthrum"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; estimates range from a few hundred to several thousand",
+        "confidence": "debated",
+        "note": "Chroniclers call it only a 'great army'. Its winter camps at Repton and Torksey suggest thousands rather than hundreds, reinforced by a second 'summer army' in 871."
+      }
+    },
+    {
+      "side": "English kingdoms",
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        },
+        {
+          "name": "Northumbria",
+          "title": "Northumbria",
+          "type": "location",
+          "slug": "northumbria"
+        },
+        {
+          "name": "Kingdom of East Anglia",
+          "title": "Kingdom of East Anglia",
+          "type": "location",
+          "slug": "kingdom-of-east-anglia"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Alfred the Great",
+          "title": "Alfred the Great",
+          "type": "person",
+          "slug": "alfred-the-great"
+        },
+        {
+          "name": "Æthelred I of Wessex",
+          "title": "Æthelred I of Wessex",
+          "type": "person",
+          "slug": "aethelred-i-of-wessex"
+        }
+      ],
+      "strength": {
+        "display": "Unknown",
+        "confidence": "unknown",
+        "note": "Each kingdom fought with its own royal household and local levies; no figures survive for any of them."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Great Heathen Army was the coalition of Scandinavian war bands that landed in East Anglia in the autumn of 865 and spent the next fifteen years conquering England. The Anglo-Saxon Chronicle called it the micel hæþen here, the great heathen army, to distinguish it from the smaller raiding fleets of earlier decades. It destroyed three of the four English kingdoms, Northumbria, East Anglia and Mercia, and came close to destroying the fourth, Wessex, before Alfred the Great defeated its king Guthrum at the Battle of Edington in 878.",
+        "Its lasting effect was settlement. From 876 its veterans shared out land in Northumbria, eastern Mercia and East Anglia and began to farm it, creating the Scandinavian-ruled region later called the Danelaw, while the English kingdom that eventually formed in response was built around the West Saxon royal house the army had failed to break."
+      ]
+    },
+    {
+      "title": "Origins and leaders",
+      "paragraphs": [
+        "Later tradition gave the army a motive of revenge: Norse sagas say the sons of Ragnar Lothbrok invaded England to avenge their father, put to death in a snake pit by King Ælla of Northumbria. That story was written down centuries later. The contemporary sources show a large force, drawn from Denmark and from Viking groups already active in Ireland and Francia, under several leaders at once. English writers name Ivar and Halfdan, later tradition adds Ubba, and Irish annals record an Ímar active around Dublin in the 850s and 860s who may be the same Ivar.",
+        "The army's size is unknown, and modern estimates range from a few hundred men to several thousand. It was large enough to winter in enemy territory and fight several battles a year, and the best evidence is archaeological. At Repton, where it wintered in 873–874, excavation found a defended enclosure beside the church and a mass burial of some 260 people, and at Torksey on the Trent, its camp of 872–873, metal detecting has recovered hundreds of pieces of cut silver, Arabic dirhams and gaming pieces from a site covering tens of hectares."
+      ]
+    },
+    {
+      "title": "Northumbria and East Anglia, 865–870",
+      "paragraphs": [
+        "After wintering in East Anglia, where the East Angles bought peace with horses, the army marched north and took York on 1 November 866. The Northumbrians, divided between the rival kings Osberht and Ælla, united too late: both kings were killed attacking the city in March 867, and the Danes set up an English client king. In 867 the army moved into Mercia and occupied Nottingham, where King Burgred of Mercia and his West Saxon allies surrounded it without forcing a battle.",
+        "In 869 the army returned to East Anglia and wintered at Thetford. King Edmund fought it and was killed on 20 November; he was soon venerated as a martyr, and the Danish rulers who settled his kingdom struck coins in his memory. With two kingdoms in its hands, the army turned on the richest one left."
+      ]
+    },
+    {
+      "title": "The war with Wessex, 870–871",
+      "paragraphs": [
+        "At the end of 870 the army seized Reading and invaded Wessex. The Anglo-Saxon Chronicle counts nine general engagements south of the Thames in 871, the year of battles, among them an English victory at Ashdown in January and defeats at Basing and Meretun. King Æthelred I of Wessex died after Easter, and his younger brother Alfred became king in the middle of the campaign; after another defeat at Wilton he paid the army to leave, and it withdrew to London for the winter."
+      ]
+    },
+    {
+      "title": "Mercia and the division of the army, 872–877",
+      "paragraphs": [
+        "From London the army moved to Torksey and in 873 to Repton, the burial place of the Mercian kings. In 874 it drove Burgred of Mercia into exile in Rome and set up Ceolwulf, whom the Chronicle calls a foolish king's thegn, to rule for it. At Repton the army divided. Halfdan took part of it north, campaigned against the Picts and the Strathclyde Britons, and in 876 shared out the land of the Northumbrians among his men; the other leaders, Guthrum, Oscetel and Anwend, took the rest south to Cambridge.",
+        "In 877 part of Guthrum's force settled eastern Mercia, taking half the kingdom and leaving Ceolwulf the western half, while Guthrum kept his army in the field for a final attempt on Wessex."
+      ]
+    },
+    {
+      "title": "Guthrum's attack on Wessex, 875–878",
+      "paragraphs": [
+        "Guthrum's army slipped past Alfred to Wareham in 876 and then to Exeter, swearing oaths and giving hostages that it abandoned. In January 878 it struck the royal estate of Chippenham in midwinter, driving Alfred into hiding in the marshes of Athelney while many West Saxons submitted. Alfred rallied the men of Somerset, Wiltshire and Hampshire, and in May 878 he defeated Guthrum at the Battle of Edington and besieged the Danish army until it surrendered.",
+        "Guthrum accepted baptism at Aller with Alfred as his godfather, spent 879 at Cirencester, and in 880 led his army into East Anglia, where it settled. Another Viking force that had wintered at Fulham crossed to Francia the same year, and the Great Heathen Army ended as a single campaigning army."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "In fifteen years the army redrew the political map of England. The royal houses of Northumbria, East Anglia and Mercia were destroyed or reduced to client kings, their bishoprics were disrupted, and monasteries across the north and east vanish from the record. Only Wessex kept its dynasty, and Alfred's answer, a network of fortified burhs, a reorganised army and a fleet, became the foundation on which his children reconquered the Danelaw.",
+        "The settlers also made a new society. Scandinavian lords and farmers took over estates across Yorkshire, the east midlands and East Anglia, adopted Christianity within a generation, struck their own coins, and left the place-names, words and legal customs that set the Danelaw apart for centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "Autumn 865",
+      "title": "The army lands",
+      "description": "The Great Heathen Army arrives in East Anglia and winters there."
+    },
+    {
+      "date": "1 November 866",
+      "title": "York taken",
+      "description": "The army captures York while the Northumbrians are divided."
+    },
+    {
+      "date": "March 867",
+      "title": "Northumbrian kings killed",
+      "description": "Osberht and Ælla die attacking the city together."
+    },
+    {
+      "date": "20 November 869",
+      "title": "Death of Edmund",
+      "description": "King Edmund of East Anglia is killed after fighting the army."
+    },
+    {
+      "date": "January 871",
+      "title": "Ashdown",
+      "description": "The West Saxons win the first battle of the year of battles."
+    },
+    {
+      "date": "April 871",
+      "title": "Alfred becomes king",
+      "description": "Æthelred I dies in mid-campaign and Alfred succeeds him."
+    },
+    {
+      "date": "873–874",
+      "title": "Winter at Repton",
+      "description": "The army camps at the Mercian royal burial place."
+    },
+    {
+      "date": "874",
+      "title": "Mercia falls",
+      "description": "Burgred is driven into exile and the army divides."
+    },
+    {
+      "date": "876",
+      "title": "Northumbria settled",
+      "description": "Halfdan shares out the land among his men."
+    },
+    {
+      "date": "January 878",
+      "title": "Chippenham",
+      "description": "Guthrum surprises Alfred, who retreats to Athelney."
+    },
+    {
+      "date": "May 878",
+      "title": "Edington",
+      "description": "Alfred defeats Guthrum at the Battle of Edington."
+    },
+    {
+      "date": "880",
+      "title": "East Anglia settled",
+      "description": "Guthrum's army settles in East Anglia and the campaign ends."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:England_Great_Army_map.svg"
+    },
+    {
+      "title": "Anglo-Saxon Chronicle",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_Chronicle"
+    },
+    {
+      "title": "Repton",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Repton"
+    },
+    {
+      "title": "Great Heathen Army",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Heathen_Army"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Guthrum",
+        "type": "person",
+        "slug": "guthrum",
+        "label": "Its king in the war with Wessex"
+      },
+      {
+        "type": "person",
+        "slug": "alfred-the-great",
+        "label": "Defeated it at Edington"
+      },
+      {
+        "title": "Æthelred I of Wessex",
+        "type": "person",
+        "slug": "aethelred-i-of-wessex",
+        "label": "Fought it in 871"
+      },
+      {
+        "title": "Ragnar Lothbrok",
+        "type": "person",
+        "slug": "ragnar-lothbrok",
+        "label": "Legendary father of its leaders"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "Its decisive defeat"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The region it settled"
+      },
+      {
+        "title": "Kingdom of York",
+        "type": "location",
+        "slug": "kingdom-of-york",
+        "label": "The kingdom its settlers founded"
+      },
+      {
+        "title": "Kingdom of East Anglia",
+        "type": "location",
+        "slug": "kingdom-of-east-anglia",
+        "label": "Conquered in 869"
+      }
+    ]
+  }
+}

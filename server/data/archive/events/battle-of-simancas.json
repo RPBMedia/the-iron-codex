@@ -1,0 +1,223 @@
+{
+  "id": "battle-of-simancas",
+  "type": "event",
+  "name": "Battle of Simancas",
+  "year": 939,
+  "location": "Simancas, Kingdom of León, Iberia",
+  "eventType": "Battle",
+  "conflict": "Reconquista — Leonese–Córdoban wars",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caliphate%20of%20C%C3%B3rdoba%20under%20Almanzor%20-%201000%20CE.png",
+  "summary": "In August 939 a Christian coalition under Ramiro II of León crushed the great campaigning army of Caliph Abd al-Rahman III near Simancas on the Duero — a rare personal defeat for the caliph and the high-water mark of Leonese power.",
+  "details": "Abd al-Rahman III led an enormous caliphal expedition — later remembered as the \"Campaign of Omnipotence\" — northward against León. Ramiro II, allied with García Sánchez I of Pamplona and Count Fernán González of Castile, met and broke it at Simancas, then destroyed much of the retreating army at the ravine of al-Khandaq (Alhandega).",
+  "factions": [
+    "Kingdom of León",
+    "County of Castile",
+    "Kingdom of Pamplona",
+    "Caliphate of Córdoba"
+  ],
+  "leaders": [
+    {
+      "name": "Ramiro II of León",
+      "faction": "Christian coalition",
+      "personId": "ramiro-ii-of-leon"
+    },
+    {
+      "name": "Fernán González",
+      "faction": "County of Castile"
+    },
+    {
+      "name": "García Sánchez I of Pamplona",
+      "faction": "Kingdom of Pamplona"
+    },
+    {
+      "name": "Abd al-Rahman III",
+      "faction": "Caliphate of Córdoba",
+      "personId": "abd-al-rahman-iii"
+    }
+  ],
+  "eventLocation": {
+    "name": "Simancas"
+  },
+  "outcome": "Decisive Christian victory; the caliphal army was routed and Abd al-Rahman III barely escaped, halting Córdoban expansion on the Duero frontier for years.",
+  "background": [
+    "Abd al-Rahman III had proclaimed himself caliph in 929 and raised the power of Córdoba to its height, but the Christian kingdoms of the north were also strengthening. Ramiro II of León, an aggressive and capable warrior-king, had already beaten Córdoban forces and pressed the frontier southward toward the Duero.",
+    "In 939 the caliph mustered a vast army for a punitive campaign into León. Ramiro gathered his own coalition — the Leonese host, the Castilian levies of Count Fernán González, and the Pamplonese under García Sánchez I — and concentrated near the fortress of Simancas to meet the invasion."
+  ],
+  "battle": "The armies clashed near Simancas in early August; a solar eclipse on 19 July had unsettled the caliph's troops beforehand. The caliphal army, for all its size, was broken in the fighting and forced into retreat. The disaster was completed as the Muslims fell back across broken country and were trapped and slaughtered at a great ravine or ditch the Arabic sources call al-Khandaq — the \"Alhandega\" of the Christian accounts. Abd al-Rahman III escaped only with difficulty, abandoning his camp and, reputedly, a fine Qur'an and his armour; the caliph, humiliated, later had a number of his own officers who had failed executed. The size of both armies is unknowable — the sources trade in tens of thousands — but the scale of the Córdoban defeat is not in doubt.",
+  "aftermath": "The victory was the summit of Ramiro II's reign and of tenth-century Leonese power. The Duero frontier was secured and Christian repopulation of the borderlands pushed on. For Abd al-Rahman III it was the one great military catastrophe of a long and otherwise triumphant reign; he never again took the field in person, directing later campaigns through his generals.",
+  "imageInfo": {
+    "caption": "The Caliphate of Córdoba and the Christian realms of the north (map showing the caliphate's extent c. 1000), the frontier world in which Simancas was fought.",
+    "creator": "Historical map, Wikimedia Commons",
+    "date": "Map of the caliphate c. 1000 (context for the 939 battle)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caliphate_of_C%C3%B3rdoba_under_Almanzor_-_1000_CE.png",
+    "license": "Creative Commons",
+    "note": "A territorial map for context; it shows the caliphate slightly later, at its Almanzor-era height."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Simancas was fought in August 939 near the fortress of Simancas on the Duero, between a Christian coalition led by Ramiro II of León and the great campaigning army of Abd al-Rahman III, the first Umayyad caliph of Córdoba. It ended in a heavy Córdoban defeat and a rout at the ravine of al-Khandaq during the retreat.",
+        "The battle marked the high point of Leonese military power in the tenth century and inflicted on Abd al-Rahman III the only major personal defeat of his long reign. It secured the Duero frontier for the Christian kingdoms and confirmed Ramiro II's formidable reputation."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The caliphate Abd al-Rahman III founded in 929 was the dominant power of the peninsula, but the northern kingdoms were growing more assertive. Ramiro II of León had already defeated Córdoban armies and advanced the frontier, provoking a major response from Córdoba.",
+        "In 939 the caliph led a huge expedition north against León. Ramiro answered with a coalition drawing in the Castilians of Count Fernán González and the Pamplonese of García Sánchez I, and the two hosts converged near Simancas."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Ramiro II commanded the Christian coalition in person, supported by the ablest frontier lords of the north; the alliance of León, Castile and Pamplona was the kind of combined effort that Christian Iberia only occasionally managed. The caliphal army under Abd al-Rahman III was larger and lavishly equipped, the instrument of a state at its height.",
+        "As so often for the period, the numbers are beyond recovery: the sources speak of tens of thousands on each side, figures that cannot be trusted. What is clear is that the caliph fielded the greater force and still lost."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "A solar eclipse shortly before the campaign had unnerved the caliphal troops, and when the armies met near Simancas the great Córdoban host was broken in the fighting and thrown back. The retreat turned into catastrophe at the ravine the Arabic writers call al-Khandaq, where the fleeing army was trapped and cut to pieces.",
+        "Abd al-Rahman III escaped only narrowly, leaving behind his camp and, tradition says, his gilded Qur'an and armour. So shaken and shamed was the caliph that he had a number of his own commanders executed for the failure, and he never personally led an army again."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Simancas was the crowning victory of Ramiro II's reign. It stabilised the Duero frontier, encouraged the repopulation of the border zone, and marked the moment when Leonese power pressed hardest against Córdoba.",
+        "For the caliphate the defeat was a serious but not fatal blow: Abd al-Rahman III's state remained the strongest in Iberia, and by the end of the century, under the general Almanzor, Córdoban armies would again devastate the Christian north. But the caliph's aura of invincibility had been broken at Simancas."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The battle stands as the outstanding Christian success of the tenth century and a reminder that the balance of the Reconquista swung back and forth. Neither side was a united bloc: the Christian victory depended on a fragile coalition of rival realms, and Córdoba's power would soon recover and strike back.",
+        "It also shows the limits of the \"unstoppable caliphate\" image. Abd al-Rahman III was the greatest ruler of Umayyad al-Andalus, yet at Simancas his army was destroyed by a coalition of smaller northern kingdoms — a defeat serious enough that Córdoban tradition preferred to dwell on other campaigns."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Battle of Simancas",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Simancas"
+    },
+    {
+      "title": "Ibn Hayyan, al-Muqtabis",
+      "author": "Andalusi chronicle (11th c.)",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Ibn_Hayyan"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Christian coalition",
+      "factions": [
+        {
+          "name": "Kingdom of León",
+          "title": "Kingdom of León",
+          "type": "location",
+          "slug": "kingdom-of-leon"
+        },
+        {
+          "name": "County of Castile",
+          "title": "County of Castile"
+        },
+        {
+          "name": "Kingdom of Pamplona",
+          "title": "Kingdom of Pamplona"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Ramiro II of León",
+          "title": "Ramiro II of León",
+          "type": "person",
+          "slug": "ramiro-ii-of-leon"
+        }
+      ],
+      "strength": {
+        "display": "A combined northern host; no reliable figure",
+        "confidence": "debated",
+        "note": "León, Castile and Pamplona combined; chronicle totals of tens of thousands are not credible."
+      }
+    },
+    {
+      "side": "Caliphate of Córdoba",
+      "factions": [
+        {
+          "name": "Caliphate of Córdoba",
+          "title": "Caliphate of Córdoba",
+          "type": "location",
+          "slug": "caliphate-of-cordoba"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Abd al-Rahman III",
+          "title": "Abd al-Rahman III",
+          "type": "person",
+          "slug": "abd-al-rahman-iii"
+        }
+      ],
+      "strength": {
+        "display": "The larger army; chronicle claims of tens of thousands are unreliable",
+        "confidence": "chronicle-claim",
+        "note": "The caliph's \"Campaign of Omnipotence\" was a major muster, but the figures cannot be trusted."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Almoravid intervention that came next",
+    "battleSlug": "battle-of-sagrajas",
+    "relationship": "chronological-follow-up",
+    "reason": "Simancas was the tenth-century high point of Christian arms against Córdoba; the next great turn came in 1086 at Sagrajas, when the Almoravids entered Iberia and checked the Christian advance after the fall of Toledo."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "Led the victorious coalition"
+      },
+      {
+        "title": "Abd al-Rahman III",
+        "type": "person",
+        "slug": "abd-al-rahman-iii",
+        "label": "The defeated caliph"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Simancas",
+        "type": "location",
+        "slug": "simancas",
+        "label": "Site of the battle"
+      },
+      {
+        "title": "Caliphate of Córdoba",
+        "type": "location",
+        "slug": "caliphate-of-cordoba",
+        "label": "The defeated power"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "The victorious realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Sagrajas",
+        "type": "event",
+        "slug": "battle-of-sagrajas",
+        "label": "The next great turn in the struggle"
+      }
+    ]
+  }
+}

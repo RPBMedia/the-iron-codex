@@ -1,0 +1,201 @@
+{
+  "id": "battle-of-the-sit-river",
+  "type": "event",
+  "name": "Battle of the Sit River",
+  "year": 1238,
+  "aliases": [
+    "Battle of the Sit",
+    "Battle on the Sit River"
+  ],
+  "location": "Rus’ (Sit River)",
+  "eventType": "Battle",
+  "conflict": "Mongol invasion of the Rus’ (1237–1240)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B8%D1%82%D1%8C%2C_%D0%BC%D0%B8%D0%BD%D0%B8%D0%B0%D1%82%D1%8E%D1%80%D0%B0_%D0%B8%D0%B7_%D0%96%D0%B8%D1%82%D0%B8%D1%8F_%D0%95%D1%84%D1%80%D0%BE%D1%81%D0%B8%D0%BD%D0%B8%D0%B8_%D0%A1%D1%83%D0%B7%D0%B4%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9.jpg",
+  "imageInfo": {
+    "caption": "The Battle of the Sit River, in a Russian hagiographic miniature.",
+    "creator": "Unknown",
+    "date": "later miniature",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%BD%D0%B0_%D1%80%D0%B5%D0%BA%D0%B5_%D0%A1%D0%B8%D1%82%D1%8C.jpg",
+    "note": "A later illuminated depiction from the Life of Euphrosyne of Suzdal."
+  },
+  "summary": "On 4 March 1238, on the frozen Sit River, a Mongol column caught and destroyed the army Grand Prince Yuri II of Vladimir had gathered to fight back. Yuri was killed, and organised resistance in northern Rus’ collapsed.",
+  "details": "The battle ended the house of Vladimir-Suzdal as a fighting power and confirmed the Mongol conquest of the north-east.",
+  "eventLocation": {
+    "name": "The Sit River"
+  },
+  "background": [
+    "After the fall of Vladimir, Grand Prince Yuri II encamped on the Sit River, north-west of the ruined capital, waiting for reinforcements from his brothers and nephews before turning on the invaders.",
+    "A Mongol column under the general Burundai found his camp before his forces were fully assembled."
+  ],
+  "battle": "The Mongols fell on the unprepared Rus’ camp on 4 March 1238 and overwhelmed it; the grand prince’s army was scattered and destroyed.",
+  "outcome": "Decisive Mongol victory; Grand Prince Yuri II was killed.",
+  "aftermath": "With Yuri dead, the northern principalities submitted or lay in ruins. The Mongols turned back south, sparing Novgorod — saved by distance and the spring thaw — and withdrew to the steppe to regroup.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of the Sit River on 4 March 1238 destroyed the last field army of northern Rus’ and killed Grand Prince Yuri II of Vladimir, sealing the Mongol conquest of the north-east."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After Vladimir fell, Yuri II gathered what forces he could on the Sit River, hoping to unite the contingents of his kinsmen before striking back. But the Mongols moved faster than he expected, and a column under Burundai located his camp before his army was ready."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "On 4 March 1238 the Mongols surprised and surrounded the Rus’ on the frozen river. Caught unprepared, Yuri’s army was routed and cut to pieces, and the grand prince himself was killed in the slaughter.",
+        "The defeat left the principalities of the north-east without a leader or an army."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Mongols pressed on toward Novgorod but turned back short of the great trading city as the spring thaw made the marshy roads impassable, sparing it the fate of Vladimir. Batu withdrew to the southern steppe to rest his horses and prepare the next phase — the destruction of southern Rus’ and the invasion of Europe."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Grand Principality of Vladimir",
+      "factions": [
+        {
+          "name": "Vladimir-Suzdal",
+          "title": "Kievan Rus’",
+          "type": "location",
+          "slug": "kievan-rus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Yuri II of Vladimir",
+          "title": "Grand Prince of Vladimir",
+          "note": "No article yet: grand prince of Vladimir, caught assembling his army and killed here with it."
+        }
+      ],
+      "strength": {
+        "display": "A hastily gathered army; figures unreliable",
+        "confidence": "debated",
+        "note": "The grand prince was still assembling his forces; chronicle numbers are not dependable."
+      }
+    },
+    {
+      "side": "Mongol Empire",
+      "factions": [
+        {
+          "name": "Mongol Empire",
+          "title": "House of Borjigin",
+          "type": "house",
+          "slug": "house-of-borjigin"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Burundai",
+          "title": "Mongol general",
+          "note": "No article yet: the Mongol general who found and destroyed Yuri's army, and who commanded again in the Rus campaigns twenty years later."
+        },
+        {
+          "name": "Batu Khan",
+          "title": "Batu Khan",
+          "type": "person",
+          "slug": "batu-khan"
+        }
+      ],
+      "strength": {
+        "display": "A Mongol column under Burundai; size unknown",
+        "confidence": "debated",
+        "note": "A detached corps of Batu’s army; no reliable count survives."
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Yuri II of Vladimir",
+      "faction": "Grand Principality of Vladimir"
+    },
+    {
+      "name": "Burundai",
+      "faction": "Mongol Empire"
+    },
+    {
+      "name": "Batu Khan",
+      "faction": "Mongol Empire",
+      "personId": "batu-khan"
+    }
+  ],
+  "factions": [
+    "Grand Principality of Vladimir",
+    "Mongol Empire"
+  ],
+  "battleContinuity": {
+    "label": "South to the mother of cities",
+    "battleSlug": "siege-of-kyiv",
+    "relationship": "same-campaign",
+    "reason": "After crushing the north-east, Batu rested and then turned against southern Rus’, storming Kyiv in 1240 before invading Europe."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Batu Khan",
+        "type": "person",
+        "slug": "batu-khan"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai"
+      },
+      {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Vladimir",
+        "type": "event",
+        "slug": "siege-of-vladimir"
+      },
+      {
+        "title": "Siege of Kyiv",
+        "type": "event",
+        "slug": "siege-of-kyiv"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kievan Rus’",
+        "type": "location",
+        "slug": "kievan-rus"
+      },
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Chronicle of Novgorod, 1016–1471",
+      "author": "trans. Michell & Forbes",
+      "type": "primary source"
+    },
+    {
+      "title": "The Mongol Invasion of Russia in the 13th Century",
+      "author": "George Vernadsky (and later surveys)",
+      "type": "book"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Mongol invasion of Russia",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Mongol-invasion-of-Russia"
+    }
+  ]
+}

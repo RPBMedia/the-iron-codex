@@ -1,0 +1,201 @@
+{
+  "id": "battle-of-formigny",
+  "type": "event",
+  "name": "Battle of Formigny",
+  "year": 1450,
+  "location": "Formigny, western Normandy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_de_Richemont_enterrant_les_morts_%C3%A0_la_bataille_de_Formigny_-_BNF_NAF_5174_f40.jpg",
+  "imageInfo": {
+    "caption": "Arthur de Richemont burying the dead after the battle of Formigny — drawing after the lost Formigny tapestries, made for the antiquary Peiresc.",
+    "creator": "After a design associated with Jean Fouquet",
+    "date": "17th-century copy of a 15th-century original",
+    "source": "Bibliothèque nationale de France, NAF 5174, fol. 40 — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_de_Richemont_enterrant_les_morts_%C3%A0_la_bataille_de_Formigny_-_BNF_NAF_5174_f40.jpg",
+    "note": "A later copy of a near-contemporary commemorative image; the original tapestries are lost. Public domain."
+  },
+  "summary": "On 15 April 1450 the French royal army destroyed England's last field force in Normandy at Formigny, using field artillery to break the longbow line; within four months the duchy was entirely French again.",
+  "details": "Formigny decided the fate of Normandy. An English relief army under Sir Thomas Kyriell, some 4,000 strong, was intercepted by the Count of Clermont's French force; when Kyriell's archers formed their traditional line, two French culverins raked it from beyond bowshot, and the arrival of Arthur de Richemont's Breton cavalry on the flank turned disruption into annihilation. Most of the English army was killed or captured, Kyriell among the prisoners.",
+  "eventType": "Battle",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Jean de Bourbon, Count of Clermont",
+      "faction": "French royal army"
+    },
+    {
+      "name": "Arthur de Richemont, Constable of France",
+      "faction": "Breton contingent"
+    },
+    {
+      "name": "Sir Thomas Kyriell",
+      "faction": "English army"
+    }
+  ],
+  "outcome": "Decisive French victory; the last English field army in Normandy was destroyed and the duchy fell within months.",
+  "participants": [
+    {
+      "side": "French royal army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Jean de Bourbon, Count of Clermont",
+          "type": "person",
+          "note": "No article yet: commanded the French force that engaged first and held until Richemont arrived."
+        },
+        {
+          "name": "Arthur de Richemont, Constable of France",
+          "type": "person",
+          "note": "No article yet: constable of France, whose arrival on the flank decided the battle and effectively ended English Normandy."
+        }
+      ],
+      "strength": {
+        "display": "c. 3,000–5,000 (reinforced during the battle)",
+        "confidence": "estimated",
+        "note": "A Breton force arriving on the flank turned the battle; the French were roughly matched with, then outnumbered, the English."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sir Thomas Kyriell",
+          "type": "person",
+          "note": "No article yet: the English commander, captured here with most of his army."
+        }
+      ],
+      "strength": {
+        "display": "c. 4,000",
+        "confidence": "estimated",
+        "note": "One of the last English field armies in Normandy; it was largely destroyed. Figures are estimates."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The battle of Formigny, fought on 15 April 1450 a few miles inland from the Norman coast between Bayeux and Carentan, ended English Normandy. The army Sir Thomas Kyriell had brought from England weeks earlier — the last field force the exhausted Lancastrian government could raise — was caught between two French corps and destroyed. With no army left to relieve them, the remaining English garrisons surrendered in succession; Cherbourg, the last, fell on 12 August 1450.",
+        "Formigny is often cited as one of the first battles in Western Europe decided in part by field artillery. The claim needs care — the guns disrupted rather than destroyed — but the tactical fact stands: two French cannon firing from beyond bowshot forced the English line to abandon the defensive posture that had won every great battle from Crécy to Verneuil, and cavalry did the rest."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The truce of Tours, sealed in 1444 with Henry VI's marriage to Margaret of Anjou, bought Lancastrian France five years in which Charles VII rebuilt his state for war. The compagnies d'ordonnance gave him a standing professional army; the brothers Jean and Gaspard Bureau built the finest siege and field artillery in Europe; and the taille royale paid for both. England, sliding toward the factional collapse that would become the Wars of the Roses, reformed nothing.",
+        "When an English freebooter sacked the Breton town of Fougères in March 1449, Charles VII took his pretext. The reconquest of Normandy that began that summer was a procession: Rouen itself opened its gates in October 1449 after thirty years of English rule. The English government scraped together one relief army — some 2,500 men under Kyriell, later reinforced to about 4,000 — which landed at Cherbourg on 15 March 1450 and took Valognes before marching east along the coast toward Bayeux."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Count of Clermont's corps of about 3,000 intercepted Kyriell at the village of Formigny on the afternoon of 15 April. Kyriell deployed in the old manner — dismounted men-at-arms in the centre, archers on the wings behind stakes and pits, a stream at his back — and the first French mounted attacks broke against the line exactly as tradition predicted.",
+        "Then Clermont brought up two culverins and opened fire on the archers from beyond the range at which they could reply. Unable to stand and be shot, the English wings surged forward, captured the guns, and threw the French line into a confused mêlée — the crisis of the battle. At that moment Arthur de Richemont, Constable of France, arrived from Saint-Lô with some 1,200 Breton troops, appearing on the English flank across the stream. Kyriell had to bend his line into an angle mid-fight; the position broke, and the French attacked from two directions at once. There was no rout to safety — the army was surrounded and cut down where it stood. English dead were counted in the thousands; Kyriell was captured, and only fragments under Sir Matthew Gough cut their way out to Bayeux."
+      ]
+    },
+    {
+      "title": "The fall of Normandy",
+      "paragraphs": [
+        "Formigny removed the only force that might have interrupted the French reconquest, and the Bureau brothers' siege train did the rest. Vire, Bayeux, and Avranches fell within weeks; Caen capitulated on 1 July after a short siege; and on 12 August 1450 Cherbourg surrendered. Thirty-three years of English Normandy — the conquest begun by Henry V at Caen and sealed at Rouen — ended fourteen months after the campaign began.",
+        "In England the collapse fed directly into political catastrophe. The Duke of Suffolk, blamed for the losses, had already been murdered at sea in May 1450; Jack Cade's rebellion raised Kent in June with the loss of Normandy among its grievances. The road from Formigny runs recognisably toward St Albans in 1455 and the civil wars that followed."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Militarily, Formigny showed the new French army functioning as designed: professional cavalry that could fight all day, artillery integrated into field operations, and coordination between separate corps — Clermont fixing the enemy, Richemont arriving to strike the flank. Against it, the improvised English expedition fought with the tactics and the assumptions of 1415, and was destroyed by them.",
+        "The battle also framed the war's final act. With Normandy gone, only Gascony remained of the continental empire, and the same combination — Bureau artillery and professional troops — was turned south. Three years later, at Castillon, it finished the work."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Peiresc copy after the Formigny tapestries",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Arthur_de_Richemont_enterrant_les_morts_%C3%A0_la_bataille_de_Formigny_-_BNF_NAF_5174_f40.jpg"
+    },
+    {
+      "title": "Battle of Formigny — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Formigny"
+    },
+    {
+      "title": "The Hundred Years War, vol. 5: Triumph and Illusion",
+      "author": "Jonathan Sumption",
+      "type": "book",
+      "note": "The fullest modern account of the fall of Lancastrian Normandy."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Castillon",
+        "type": "event",
+        "slug": "battle-of-castillon",
+        "label": "The war's final battle, three years later"
+      },
+      {
+        "title": "Siege of Rouen",
+        "type": "event",
+        "slug": "siege-of-rouen",
+        "label": "The conquest this battle undid"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "The province regained"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen",
+        "label": "Recovered by France months earlier"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "The war's final battle",
+    "battleSlug": "battle-of-castillon",
+    "relationship": "same-war",
+    "reason": "With Normandy regained, Charles VII turned the same professional army and Bureau artillery against Gascony; at Castillon in 1453, John Talbot's army broke against the French gun park, and three centuries of English Aquitaine ended."
+  }
+}

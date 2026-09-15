@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Village",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Øystein I of Norway",
+    "Norwegian co-kingship",
+    "Coastal Norway"
+  ],
+  "overview": [
+    "A Norwegian locality associated with Øystein I's death in 1123."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Hustad in Møre og Romsdal on the Norwegian coast was where Øystein I of Norway died in 1123, before his co-ruling brother Sigurd the Crusader. His death ended the cooperative joint reign that had characterized Norwegian kingship during the brothers' shared rule."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Øystein I is remembered for domestic building projects — roads, harbors, and churches — during his reign alongside Sigurd, contrasting with Sigurd's crusading campaigns. His death at Hustad left Sigurd as sole ruler and set the conditions for the succession instability that followed Sigurd's own death in 1130."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Hustad",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Hustadvika.jpg"
+    },
+    {
+      "title": "Hustad reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Hustad"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Øystein I of Norway",
+        "type": "person",
+        "slug": "oystein-i-of-norway",
+        "label": "Death of Øystein I of Norway"
+      },
+      {
+        "title": "Magnus Barefoot",
+        "type": "person",
+        "slug": "magnus-barefoot"
+      },
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "hustad",
+  "name": "Hustad",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Hustadvika_lub_2025-07-26_img01.jpg",
+  "summary": "A Norwegian locality associated with Øystein I's death in 1123.",
+  "imageInfo": {
+    "caption": "The Hustadvika coast in Møre og Romsdal, near where Øystein I of Norway died in 1123.",
+    "creator": "Lukas Beck",
+    "date": "2025-07-26 21:32:42",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hustadvika_lub_2025-07-26_img01.jpg",
+    "license": "CC BY 4.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "id": "siege-of-orleans",
+  "type": "event",
+  "name": "Siege of Orléans",
+  "year": 1429,
+  "location": "Orléans, on the Loire",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siege_orleans.jpg",
+  "imageInfo": {
+    "caption": "The siege of Orléans, miniature from Martial d'Auvergne's Vigiles de Charles VII, c. 1484.",
+    "creator": "Unknown miniaturist",
+    "date": "c. 1484",
+    "source": "Bibliothèque nationale de France — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siege_orleans.jpg",
+    "note": "A French manuscript depiction painted some fifty-five years after the siege; public domain."
+  },
+  "summary": "The English siege of Orléans (October 1428 – May 1429) was the turning point of the Hundred Years' War: Joan of Arc's arrival galvanised the defence, and the siege was broken in nine days.",
+  "details": "Orléans commanded the main crossing of the Loire and the road into the Dauphin's southern France. The English under Salisbury, then Suffolk and Talbot, ringed it with siege forts from October 1428. The city held through the winter; in late April 1429 Joan of Arc entered with a relief convoy, and between 4 and 7 May the French stormed the English forts, culminating in the assault on Les Tourelles. On 8 May 1429 the English abandoned the siege.",
+  "eventType": "Siege",
+  "conflict": "Hundred Years' War",
+  "factions": [
+    "Kingdom of France",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Joan of Arc",
+      "faction": "French relief force",
+      "personId": "joan-of-arc"
+    },
+    {
+      "name": "Jean, the Bastard of Orléans (Dunois)",
+      "faction": "Orléans garrison"
+    },
+    {
+      "name": "Thomas Montagu, Earl of Salisbury",
+      "faction": "English army"
+    },
+    {
+      "name": "William de la Pole, Earl of Suffolk",
+      "faction": "English army"
+    }
+  ],
+  "outcome": "The siege was lifted on 8 May 1429; the first major French victory over the English since the war's Lancastrian phase began.",
+  "participants": [
+    {
+      "side": "French garrison and relief force",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Joan of Arc",
+          "type": "person",
+          "slug": "joan-of-arc"
+        },
+        {
+          "name": "Jean, the Bastard of Orléans (Dunois)",
+          "type": "person",
+          "note": "No article yet: the defender of Orléans and one of the ablest French commanders of the war, later count of Dunois."
+        }
+      ],
+      "strength": {
+        "display": "A garrison of a few thousand, reinforced by Joan of Arc's relief force",
+        "confidence": "estimated",
+        "note": "The defenders and relief troops together outnumbered the thin English siege lines by the time the siege was lifted."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Thomas Montagu, Earl of Salisbury",
+          "type": "person",
+          "note": "No article yet: the English commander who began the siege and was mortally wounded by a cannon shot in its first weeks."
+        },
+        {
+          "name": "William de la Pole, Earl of Suffolk",
+          "type": "person",
+          "note": "No article yet: took over the siege after Salisbury died, and was captured at Jargeau soon after it was raised."
+        }
+      ],
+      "strength": {
+        "display": "c. 4,000–5,000",
+        "confidence": "estimated",
+        "note": "Too few to fully invest the city, the English held a ring of forts that could be broken piecemeal."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Orléans, from 12 October 1428 to 8 May 1429, is the hinge of the Hundred Years' War. Before it, English arms had been effectively unbeaten in the field for a generation; after it, the initiative passed to Charles VII and never fully returned. The city commanded the Loire crossing on the direct road to Bourges, the Dauphin's capital — if Orléans fell, the war might have ended in a Lancastrian France.",
+        "It is also the siege that made Joan of Arc. The seventeen-year-old from Domrémy arrived with the relief convoy on 29 April 1429; nine days later the English siege lines were broken and burning. Whatever weight historians assign to her generalship against her effect on morale, contemporaries on both sides had no doubt the siege turned on her arrival."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By 1428 Bedford's regency had pushed the frontier of Lancastrian France to the Loire. The war council in Paris chose Orléans as the next objective — over Bedford's reported preference for Angers — and in October the veteran Earl of Salisbury invested the city with perhaps four to five thousand men, seizing the bridge suburb and the fortified bridgehead of Les Tourelles.",
+        "Salisbury was mortally wounded by a cannon shot within days of taking Les Tourelles, an omen of how the siege would run. His successors Suffolk and Talbot lacked the men to seal off the city completely: the English built a ring of detached forts — the bastilles — covering the west and south, but the eastern approaches stayed porous. Through the winter the garrison under Dunois, the Bastard of Orléans, and the citizens — who paid for and manned much of their own artillery — held on, while the only relief attempt, at the \"Battle of the Herrings\" in February 1429, ended in a French defeat."
+      ]
+    },
+    {
+      "title": "Joan of Arc's arrival",
+      "paragraphs": [
+        "Joan reached Charles VII's court at Chinon in February 1429, claiming a divine commission to raise the siege and lead the king to his coronation at Reims. After examination by clergy at Poitiers, she was given armour, a banner, and a place with the relief army assembling at Blois. On 29 April she entered Orléans through the eastern gates with a supply convoy, to a reception the city's own journal describes as ecstatic.",
+        "Her letters to the English commanders demanding their withdrawal were answered with insults, but inside the walls she changed the arithmetic of the siege. The garrison and citizens, who had endured six months of blockade, now pressed for the attack; the captains — Dunois, La Hire, Gilles de Rais, Poton de Xaintrailles — found themselves fighting alongside a standard the soldiers believed heaven had sent."
+      ]
+    },
+    {
+      "title": "Breaking the siege",
+      "paragraphs": [
+        "The counterattack ran from 4 to 7 May 1429 with a speed that stunned both sides. On 4 May the French stormed the bastille of Saint-Loup east of the city. On 6 May they crossed the river and took the fort of the Augustins on the south bank. On 7 May came the decisive assault on Les Tourelles, the strongest English work, commanding the broken bridge.",
+        "The fight for Les Tourelles lasted from morning to dusk. Joan was wounded by an arrow above the collarbone — as she had predicted — withdrew, and returned to the assault in the evening; the sight of her banner at the ditch carried the final storm. The English commander at the bridgehead, William Glasdale, drowned in the Loire when the drawbridge collapsed under him. On the morning of 8 May the remaining English forces under Suffolk and Talbot drew up in battle order, then burned their forts and marched away. The French, on Joan's reported insistence that the day was a Sunday, let them go."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The strategic consequences came fast. In June the French cleared the remaining English garrisons from the Loire at Jargeau, Meung, and Beaugency, and on 18 June destroyed the English field army at Patay. On 17 July 1429 Charles VII was crowned at Reims with Joan beside him — the political objective her voices had named from the start, and a coronation that transformed the Dauphin of Bourges into the anointed King of France.",
+        "Orléans itself never forgot. The city kept 8 May as a civic feast in Joan's honour — a commemoration that has continued, war and revolution notwithstanding, to the present day."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Militarily, the siege's failure exposed the overstretch of Lancastrian France: the English lacked the numbers to blockade a great city and simultaneously hold a four-hundred-mile frontier. The porous eastern siege lines let Orléans breathe just enough to survive the winter, and once a determined relief force arrived, the isolated bastilles were destroyed one by one.",
+        "Symbolically its weight was greater still. Orléans broke the aura of English invincibility that had hung over the war since Agincourt, and bound Charles VII's cause to a story of divine vindication that Reims sealed two months later. English propaganda understood this perfectly — which is why, when Joan was captured the following year, her trial at Rouen was designed to prove the siege had been the devil's work rather than God's."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Vigiles de Charles VII miniature",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Siege_orleans.jpg"
+    },
+    {
+      "title": "Siege of Orléans — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans"
+    },
+    {
+      "title": "The Hundred Years War, vol. 4: Cursed Kings",
+      "author": "Jonathan Sumption",
+      "type": "book",
+      "note": "Detailed narrative of the siege and the Loire campaign of 1429."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Joan of Arc",
+        "type": "person",
+        "slug": "joan-of-arc",
+        "label": "Led the relief of the city"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Patay",
+        "type": "event",
+        "slug": "battle-of-patay",
+        "label": "The pursuit six weeks later"
+      },
+      {
+        "title": "Battle of Verneuil",
+        "type": "event",
+        "slug": "battle-of-verneuil",
+        "label": "The English dominance it ended"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The kingdom it saved"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris",
+        "label": "Seat of the English regency"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Follow the French recovery",
+    "battleSlug": "battle-of-patay",
+    "relationship": "same-campaign",
+    "reason": "Six weeks after the siege was lifted, the French army caught the retreating English field force near Patay and destroyed it before the longbowmen could set their line — the reverse of Agincourt, and the end of English dominance in open battle."
+  }
+}

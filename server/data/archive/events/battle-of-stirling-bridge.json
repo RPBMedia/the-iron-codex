@@ -1,0 +1,202 @@
+{
+  "id": "battle-of-stirling-bridge",
+  "name": "Battle of Stirling Bridge",
+  "year": 1297,
+  "location": "Stirling, Scotland",
+  "eventType": "Battle",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Battle_of_Stirling_Bridge.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Stirling Bridge, a Victorian depiction of the Scottish victory of 1297.",
+    "creator": "Unknown Victorian illustrator",
+    "date": "19th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Stirling_Bridge.jpg",
+    "note": "A later imaginative depiction; no contemporary image of the battle survives."
+  },
+  "summary": "William Wallace and Andrew Moray destroyed an English army at Stirling Bridge in 1297, catching it mid-crossing of the Forth — the first great Scottish victory of the Wars of Independence.",
+  "details": "On 11 September 1297 the Scottish army under William Wallace and Andrew Moray held the high ground above the narrow bridge over the River Forth at Stirling and attacked the English force of the Earl of Surrey as it crossed, cutting the vanguard off from the main body. The English were routed; the hated treasurer Hugh de Cressingham was killed and flayed.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "William Wallace",
+      "faction": "Scots",
+      "personId": "william-wallace"
+    },
+    {
+      "name": "Andrew Moray",
+      "faction": "Scots",
+      "personId": "andrew-moray"
+    },
+    {
+      "name": "John de Warenne, Earl of Surrey",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Decisive Scottish victory; the English army was routed and driven from central Scotland.",
+  "participants": [
+    {
+      "side": "Scots",
+      "strength": {
+        "display": "the smaller army — spearmen holding the high ground",
+        "confidence": "debated",
+        "note": "Numbers are not securely recorded; the Scots were certainly outnumbered but used the terrain and the narrow bridge decisively."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William Wallace",
+          "type": "person",
+          "slug": "william-wallace"
+        },
+        {
+          "name": "Andrew Moray",
+          "type": "person",
+          "slug": "andrew-moray"
+        }
+      ]
+    },
+    {
+      "side": "English",
+      "strength": {
+        "display": "a larger cavalry-and-infantry army of the Earl of Surrey",
+        "confidence": "debated",
+        "note": "Chronicle figures (tens of thousands) are unreliable; the force was the substantial royal army sent to hold Scotland after 1296."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John de Warenne, Earl of Surrey",
+          "type": "person",
+          "note": "No article yet: the English commander, who let half his army cross a narrow bridge before the other half could follow."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Stirling Bridge, fought on 11 September 1297, was the first great Scottish victory of the Wars of Independence and the making of William Wallace. Attacking the English army of John de Warenne, Earl of Surrey, as it filed across the narrow wooden bridge over the River Forth, the Scots under Wallace and Andrew Moray cut the vanguard off and destroyed it against the loop of the river.",
+        "The victory shattered the impression, left by Edward I of England's crushing campaign of 1296, that Scottish resistance was over. It cost the English their treasurer of Scotland, Hugh de Cressingham, and gave the Scots — briefly — the initiative that Falkirk (1298) would take back."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Edward I had stripped the Kingdom of Scotland of its king, John Balliol, and its regalia in 1296 and installed an English administration. Risings broke out across the country in 1297 — Andrew Moray in the north-east, William Wallace in the south-west — and by late summer the two had joined to besiege Dundee and face the army Surrey led north to restore order.",
+        "The armies met at Stirling, the strategic hinge between highland and lowland Scotland, where the Forth could be crossed only by a narrow bridge. The English commanders, confident and divided in counsel, rejected a wider ford and began to cross the bridge directly beneath the Scottish position on the Abbey Craig."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "The Scottish army was built around spearmen — the schiltron formations that would define Scottish tactics — under the joint command of William Wallace and Andrew Moray, whose northern rising had been as important as Wallace's southern one. Precise numbers are not securely known; the Scots were outnumbered but held commanding ground.",
+        "The English force under the Earl of Surrey, with Cressingham urging haste to save money, was a substantial royal army strong in cavalry — the arm the bridge and the boggy carse would render useless. The mismatch was not of numbers but of position and judgment."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Scots waited until a large but not yet decisive part of the English army — the vanguard of knights and infantry — had crossed to the north bank, then charged down and seized the bridgehead, severing those across from the main body still on the south side. Penned between the Scottish spears and the river's loop, the trapped English were cut down or drowned; the bridge, jammed and by some accounts broken, sealed their fate.",
+        "Cressingham was killed and, the chronicles say, flayed. Surrey, watching from the south bank with the larger part of his army uncommitted, abandoned the field and fled for Berwick, and the Scots took Stirling castle."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Wallace and Moray were made Guardians of Scotland \"in the name of King John\"; Moray, mortally wounded in the battle, died within weeks, leaving Wallace to lead alone. The victory freed Scotland south to the border for a season and let Wallace raid into England.",
+        "Edward I returned in person, and at Falkirk (1298) his archers broke the schiltrons and ended Wallace's ascendancy. But Stirling Bridge had proved that English rule could be beaten in the field, and it fixed Wallace — and the tactics of the spear-ring that would win at Bannockburn (1314) — permanently in the Scottish national story."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The struggle continues to Bannockburn",
+    "battleSlug": "battle-of-bannockburn",
+    "relationship": "same-war",
+    "reason": "Stirling Bridge proved English armies could be beaten; seventeen years later Robert the Bruce's schiltrons — the spear formations Wallace pioneered — won the decisive victory of the war at Bannockburn."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace"
+      },
+      {
+        "name": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      },
+      {
+        "name": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Scotland",
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      },
+      {
+        "name": "Kingdom of England",
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "The war's decisive victory, 1314"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Battle_of_Stirling_Bridge.jpg"
+    },
+    {
+      "title": "Battle of Stirling Bridge — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Stirling_Bridge"
+    },
+    {
+      "title": "Robert Bruce and the Community of the Realm of Scotland",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ],
+  "type": "event"
+}

@@ -1,0 +1,172 @@
+{
+  "id": "house-of-alpin",
+  "type": "house",
+  "name": "House of Alpin",
+  "aliases": [
+    "Alpínid (house of Cináed mac Ailpín)",
+    "House of Alpin",
+    "Alpínid",
+    "Alpin dynasty",
+    "Clann Cináeda meic Ailpín",
+    "MacAlpin dynasty"
+  ],
+  "originYear": 843,
+  "endYear": 1034,
+  "reignSpan": "c. 843–1034",
+  "region": "Alba (Scotland)",
+  "originPlace": "The kingdom of the Picts and Scots",
+  "arms": "None — the early kings of Alba ruled before heraldry; monuments such as the Dupplin Cross carried their royal imagery.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Dupplin%20Cross.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The Dupplin Cross, an early-10th-century cross-slab from the heartland of Alba, whose inscription names King Constantine.",
+    "creator": "Pictish/Alba sculptors",
+    "date": "Early 10th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Dupplin_Cross.jpg",
+    "note": "A royal monument of the kings of Alba, bearing the name of a King Constantine and a mounted-warrior panel; a genuine contemporary artefact of the dynasty’s world."
+  },
+  "summary": "The dynasty of Kenneth MacAlpin, which united the Picts and Scots into the kingdom of Alba and ruled it for nearly two centuries.",
+  "overview": "The House of Alpin — in Gaelic Clann Cináeda meic Ailpín — descended from Kenneth MacAlpin, traditionally remembered as the king who joined the Pictish and Scottish realms into the single kingdom of Alba around 843. His descendants, among them the powerful Constantine II, consolidated that kingdom against Vikings and the English, and ruled until the line ended with Malcolm II in 1034.",
+  "founder": {
+    "displayName": "Kenneth MacAlpin",
+    "note": "Cináed mac Ailpín, king who united Picts and Scots, d. 858 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Scotland",
+      "type": "location",
+      "slug": "kingdom-of-scotland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Kenneth MacAlpin",
+      "note": "Founder; united the Picts and Scots, c. 843"
+    },
+    {
+      "personSlug": "constantine-ii-of-scotland",
+      "displayName": "Constantine II",
+      "note": "Long-reigning king of Alba; fought at Brunanburh in 937"
+    },
+    {
+      "displayName": "Malcolm II",
+      "note": "Last king of the male line; secured the southern border, d. 1034"
+    }
+  ],
+  "familyTree": {
+    "caption": "The kings of Alba of the house of Alpin from Kenneth MacAlpin to Malcolm II, reconstructed from the king-lists; only Constantine II has a Codex article so far.",
+    "root": {
+      "name": "Kenneth MacAlpin",
+      "note": "first king of Alba, d. 858",
+      "children": [
+        {
+          "name": "the kings of Alba",
+          "note": "Clann Cináeda meic Ailpín",
+          "children": [
+            {
+              "name": "Constantine II",
+              "personSlug": "constantine-ii-of-scotland",
+              "note": "r. 900–943"
+            },
+            {
+              "name": "Malcolm II",
+              "note": "last of the male line, d. 1034"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty is named for Kenneth MacAlpin (Cináed mac Ailpín), who around 843 became king of both the Picts and the Gaelic Scots of Dál Riata. Later tradition made him the conqueror who fused the two peoples; modern historians see a longer, murkier process of Gaelic ascendancy over a Pictish kingdom battered by Viking raids. Whatever the mechanism, from his reign the combined realm came to be called Alba, and its kings were drawn from his descendants.",
+        "The early kingdom was centred on the fertile lands of Fortriu and the Tay, with its royal and religious heart at Scone and Dunkeld, where relics of Columba were brought for safety from the Vikings."
+      ]
+    },
+    {
+      "title": "Constantine II and the making of Alba",
+      "paragraphs": [
+        "The dynasty’s greatest figure was Constantine II, who reigned for over forty years from 900. He beat back Viking attacks, presided in 906 at Scone over a council that bound king and church together in the emerging Scottish kingdom, and manoeuvred among the rising powers of the Norse of Dublin and the English of Wessex.",
+        "In 937 he joined Olaf Guthfrithson and the Britons of Strathclyde in a great invasion of England, but was defeated by Æthelstan at the Battle of Brunanburh, where his son was killed. Late in life he abdicated to become a monk at St Andrews, a rare peaceful end for a king of the age."
+      ]
+    },
+    {
+      "title": "The end of the male line",
+      "paragraphs": [
+        "For a century the crown passed among the branches of the house, often violently, by a system of alternating succession that pitted cousins against one another. The last king of the direct male line was Malcolm II, who strengthened the kingdom’s hold on the south and, lacking a son, arranged the succession of his grandson Duncan.",
+        "With Malcolm’s death in 1034 the crown passed to the related House of Dunkeld, but the kingdom of Alba that the house of Alpin had forged — the nucleus of medieval Scotland — endured and grew."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 843",
+      "title": "Kenneth MacAlpin unites Picts and Scots",
+      "description": "The founder joins the two kingdoms into what becomes Alba."
+    },
+    {
+      "date": "937",
+      "title": "Battle of Brunanburh",
+      "description": "Constantine II is defeated by Æthelstan in the great invasion of England.",
+      "links": [
+        {
+          "title": "Battle of Brunanburh",
+          "type": "event",
+          "slug": "battle-of-brunanburh"
+        }
+      ]
+    },
+    {
+      "date": "1034",
+      "title": "Death of Malcolm II",
+      "description": "The last king of the male line dies; the crown passes to the House of Dunkeld."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Constantine II",
+        "type": "person",
+        "slug": "constantine-ii-of-scotland",
+        "label": "The great king of Alba"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "Constantine II’s defeat by Æthelstan, 937"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Kenneth I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Kenneth-I"
+    },
+    {
+      "title": "Constantine II of Scotland — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Constantine_II_of_Scotland"
+    },
+    {
+      "title": "House of Alpin — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Alpin"
+    }
+  ]
+}

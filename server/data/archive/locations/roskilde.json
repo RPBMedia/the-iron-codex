@@ -1,0 +1,92 @@
+{
+  "id": "roskilde",
+  "type": "location",
+  "name": "Roskilde",
+  "locationType": "City",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "kingdomId": "kingdom-of-denmark",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Roskilde_Cathedral_01.jpg",
+  "summary": "A Danish royal and ecclesiastical center closely associated with medieval monarchy and royal burials.",
+  "overview": [
+    "Roskilde was one of medieval Denmark’s major royal and church centers, later famous for its cathedral and royal burials."
+  ],
+  "knownFor": [
+    "Danish royal burials",
+    "Roskilde Cathedral",
+    "Medieval Danish kingship"
+  ],
+  "imageInfo": {
+    "caption": "Roskilde Cathedral, royal burial church of medieval Denmark.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the cathedral complex.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roskilde_Cathedral_01.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Danish royal and ecclesiastical center closely associated with medieval monarchy and royal burials.",
+        "Roskilde matters historically through Danish royal burials, Roskilde Cathedral, Medieval Danish kingship."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Roskilde_Cathedral_01.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Roskilde",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Roskilde"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Copenhagen",
+        "type": "location",
+        "slug": "copenhagen",
+        "label": "Later Danish royal centre nearby"
+      }
+    ],
+    "people": [
+      {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth",
+        "label": "Traditionally linked to its early church"
+      },
+      {
+        "title": "Sweyn II Estridsson",
+        "type": "person",
+        "slug": "sweyn-ii-estridsson",
+        "label": "Danish king tied to the see"
+      },
+      {
+        "title": "Valdemar I of Denmark",
+        "type": "person",
+        "slug": "valdemar-i-of-denmark",
+        "label": "Danish royal burial tradition"
+      }
+    ]
+  }
+}

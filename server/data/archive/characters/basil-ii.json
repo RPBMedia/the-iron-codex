@@ -1,0 +1,269 @@
+{
+  "id": "basil-ii",
+  "type": "character",
+  "name": "Basil II",
+  "aliases": [
+    "Basil II Boulgaroktonos",
+    "Basileios II",
+    "Basil the Bulgar-slayer"
+  ],
+  "born": 958,
+  "died": 1025,
+  "deathAge": "about 67",
+  "causeOfDeath": "Died on 15 December 1025 while preparing an expedition to recover Sicily.",
+  "restingPlace": "Church of St John the Theologian at the Hebdomon, outside Constantinople — by his own choice, not the imperial mausoleum",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Commander"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilios%20II.jpg",
+  "imageInfo": {
+    "caption": "Basil II in armour, crowned by an angel and standing over prostrate suppliants, in the frontispiece of his own psalter.",
+    "creator": "Constantinople, imperial workshop",
+    "date": "early 11th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basilios_II.jpg",
+    "note": "A reproduction of the frontispiece of the Psalter of Basil II in the Biblioteca Marciana in Venice, made in his own reign and under his own direction. It is the closest thing to an official self-portrait any Byzantine emperor left: no throne, no court, armour and a spear, and the defeated at his feet. Public domain."
+  },
+  "epithets": [
+    {
+      "name": "Boulgaroktonos",
+      "type": "later epithet",
+      "note": "The \"Bulgar-slayer\". Not contemporary — it appears about a century and a half after his death, when the empire had lost the Balkans and needed the memory."
+    }
+  ],
+  "summary": "Basil II reigned for forty-nine years, the longest in Byzantine history, annexed Bulgaria after a thirty-year war, and left the empire at its greatest extent since Justinian and its treasury full.",
+  "overview": "A soldier-emperor who spent his reign in camp, never married, wrote no laws he did not need, and left an empire that began to come apart within thirty years of his death.",
+  "greatestFeats": [
+    "Destroyed Samuel's army at Kleidion in 1014 and annexed Bulgaria in 1018",
+    "Survived thirteen years of civil war against the great families and then broke their power by law",
+    "Left the treasury full and the frontier on the Danube and the Euphrates"
+  ],
+  "birth": {
+    "date": "958",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "1025",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died on 15 December 1025 aged about sixty-seven, planning the reconquest of Sicily, and was buried outside the walls at his own request."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Macedonian dynasty",
+    "culture": "Roman",
+    "knownFor": "The conquest of Bulgaria and the empire's greatest medieval extent"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "john-i-tzimiskes",
+      "displayName": "John I Tzimiskes",
+      "note": "His guardian and senior co-emperor, who had murdered Nikephoros II; Basil had been a nominal co-emperor since childhood and took power in his own right on Tzimiskes's death in 976."
+    },
+    "successor": {
+      "displayName": "Constantine VIII",
+      "note": "His brother, co-emperor in name for half a century and sole ruler for three undistinguished years. Basil never married and left no child, and the dynasty ended with his nieces."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Basil II came to the throne in name as a child in 960 and in fact in 976, and ruled until 1025 — forty-nine years, the longest reign in the empire's history.",
+        "He spent the first thirteen of them fighting for survival against the great Anatolian military families who had made and unmade the previous three emperors, and most of the remaining thirty-six on campaign, principally against Bulgaria.",
+        "What he left was an empire stretching from the Danube to the Euphrates, a full treasury, a broken aristocracy — and no heir, because he never married. Within half a century of his death the position had been lost."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born in 958 to Romanos II and the empress Theophano, and was crowned co-emperor as a small child. His father died when he was five, and his mother married Nikephoros Phokas, who ruled as senior emperor until he was murdered.",
+        "John Tzimiskes then ruled for seven years while Basil and his brother Constantine remained co-emperors in name. It is a remarkable fact of his childhood that two successive soldier-emperors took the senior throne over him and neither had him killed.",
+        "He took power in his own right in 976 at eighteen, under the tutelage of the chamberlain Basil Lekapenos, and spent the next decade discovering that the throne and the power were different things."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Psellos, writing a generation later, gives the fullest portrait, and it is of a man who deliberately made himself into an instrument. Short, unimpressive on horseback, brusque in speech, indifferent to ceremony, dress and the pleasures the court existed to provide.",
+        "He lived in camp for most of forty years, ate with the soldiers, kept no mistress that anyone recorded and never married — an extraordinary omission for an emperor with a dynasty to continue, and one contemporaries could not explain either.",
+        "The early humiliations explain a good deal: the defeat at Trajan's Gate in 986, the two great rebellions that nearly took his throne, and the discovery that his own chief minister was governing without him. What emerged was a suspicious, tireless, methodical ruler who trusted procedure over people and never again risked a battle he had not arranged."
+      ]
+    },
+    {
+      "title": "The civil wars",
+      "paragraphs": [
+        "Bardas Skleros rebelled in 976 and Bardas Phokas — nephew of Nikephoros II — in 987, and between them they nearly ended the Macedonian dynasty. At one point Phokas held all of Anatolia and was proclaimed emperor.",
+        "Basil survived by an alliance that changed European history. He asked Vladimir of Kiev for troops, and got six thousand Rus' warriors in exchange for the hand of his sister Anna — a porphyrogenita, born in the purple, whose marriage to a foreign ruler was against every Byzantine precedent.",
+        "The price included Vladimir's conversion, and the Christianisation of the Rus' followed. The six thousand Rus' became the Varangian Guard, and Basil destroyed Phokas at Abydos in 989 with their help. He then spent years dismantling the families that had rebelled."
+      ]
+    },
+    {
+      "title": "The Bulgarian war",
+      "paragraphs": [
+        "Samuel of Bulgaria had rebuilt a Bulgarian state in the west while Basil was fighting for his throne, and in 986 he destroyed Basil's army at Trajan's Gate. It was the emperor's only serious defeat and it determined how he fought afterwards.",
+        "From about 1000 he campaigned in Bulgaria nearly every year: taking fortresses, garrisoning them, refusing battle unless it was on his terms, and coming back the following spring. It was a strategy of exhaustion, and it took fourteen years.",
+        "At Kleidion in July 1014 the Bulgarian army was destroyed by a flank march over Mount Belasica, and Samuel died in October. The war nonetheless ran until 1018, when the Bulgarian nobility submitted and the empire's frontier returned to the Danube for the first time in three and a half centuries."
+      ]
+    },
+    {
+      "title": "Government",
+      "paragraphs": [
+        "His domestic policy was a war on the great landowners, whom he blamed for the rebellions and for swallowing the soldier-farmers the army was recruited from. The allelengyon of 1002 made the powerful liable for the unpaid taxes of the poor in their districts, which was as unpopular with them as it sounds.",
+        "He was careful with money in a way no previous emperor of the century had been, and he died with a reserve reported in the region of two hundred thousand pounds of gold — a figure that says more about the state's capacity than any narrative could.",
+        "He founded nothing, built little, patronised no literature to speak of, and issued no great law code. The empire he handed on was a going concern rather than a monument, which was evidently how he wanted it."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The extent of the empire at his death was the greatest since Justinian, and unlike Justinian's it was solvent. Bulgaria was a province, Armenia was being absorbed, Syria was tributary, and southern Italy was held.",
+        "The failure was dynastic and it was total. He never married, his brother Constantine VIII was incapable, and the succession passed through Constantine's daughters Zoe and Theodora to a series of husbands and adoptees. Within thirty years the treasury was gone and the army had been run down; within fifty came Manzikert.",
+        "The name came later. Boulgaroktonos is not a title he used or was given in his lifetime — it appears about a hundred and fifty years afterwards, when the Balkans had been lost again and the memory of the emperor who held them had become useful."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "958",
+      "title": "Born",
+      "description": "Born to Romanos II and Theophano and crowned co-emperor as a small child."
+    },
+    {
+      "date": "976",
+      "title": "Takes power",
+      "description": "John Tzimiskes dies and Basil rules in his own right at eighteen, under the chamberlain Basil Lekapenos."
+    },
+    {
+      "date": "986",
+      "title": "Trajan's Gate",
+      "description": "Samuel of Bulgaria destroys his army in a mountain pass; it is the defeat that shapes his later method."
+    },
+    {
+      "date": "988",
+      "title": "The Rus' alliance",
+      "description": "Vladimir of Kiev sends six thousand warriors in exchange for the emperor's sister, and accepts Christianity; the Varangian Guard is founded."
+    },
+    {
+      "date": "989",
+      "title": "Abydos",
+      "description": "Bardas Phokas is defeated and the thirteen-year civil war ends."
+    },
+    {
+      "date": "1002",
+      "title": "The allelengyon",
+      "description": "The great landowners are made liable for the unpaid taxes of the poor in their districts."
+    },
+    {
+      "date": "29 July 1014",
+      "title": "Kleidion",
+      "description": "The Bulgarian army is destroyed in the Belasica mountains.",
+      "links": [
+        {
+          "title": "Battle of Kleidion",
+          "type": "event",
+          "slug": "battle-of-kleidion"
+        }
+      ]
+    },
+    {
+      "date": "1018",
+      "title": "Bulgaria annexed",
+      "description": "The Bulgarian nobility submits and the frontier returns to the Danube."
+    },
+    {
+      "date": "1025",
+      "title": "Died",
+      "description": "Dies on 15 December while preparing to recover Sicily, and is buried outside the walls at his own request."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Romanos II",
+        "type": "person",
+        "slug": "romanos-ii",
+        "label": "His father, who died when he was five"
+      },
+      {
+        "title": "John I Tzimiskes",
+        "type": "person",
+        "slug": "john-i-tzimiskes",
+        "label": "His guardian and predecessor"
+      },
+      {
+        "title": "Samuel of Bulgaria",
+        "type": "person",
+        "slug": "samuel-of-bulgaria",
+        "label": "His opponent for thirty years"
+      },
+      {
+        "title": "Theophano (wife of Romanos II)",
+        "type": "person",
+        "slug": "theophano-wife-of-romanos-ii",
+        "label": "Mother"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Kleidion",
+        "type": "event",
+        "slug": "battle-of-kleidion",
+        "label": "The victory his posthumous name comes from"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Which he took to its greatest medieval extent"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Annexed in 1018 after a thirty-year war"
+      },
+      {
+        "title": "Kievan Rus",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Whose conversion followed his marriage alliance of 988"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Michael Psellos, Chronographia",
+      "url": "https://en.wikipedia.org/wiki/Chronographia_(Michael_Psellos)",
+      "type": "primary source"
+    },
+    {
+      "title": "John Skylitzes, Synopsis of Histories",
+      "url": "https://en.wikipedia.org/wiki/John_Skylitzes",
+      "type": "primary source"
+    },
+    {
+      "title": "Basil II",
+      "url": "https://en.wikipedia.org/wiki/Basil_II",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Biblioteca Marciana — Psalter of Basil II",
+      "url": "https://marciana.venezia.sbn.it/",
+      "type": "museum collection",
+      "institution": "Biblioteca Nazionale Marciana"
+    }
+  ]
+}

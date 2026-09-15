@@ -1,0 +1,234 @@
+{
+  "id": "richard-ii-of-england",
+  "type": "character",
+  "name": "Richard II of England",
+  "aliases": [
+    "Richard of Bordeaux"
+  ],
+  "born": 1367,
+  "died": 1400,
+  "deathAge": "33",
+  "causeOfDeath": "Died in Pontefract Castle after his deposition, almost certainly starved",
+  "restingPlace": "Westminster Abbey (moved from Kings Langley in 1413)",
+  "location": "Kingdom of England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_II_King_of_England.jpg",
+  "imageInfo": {
+    "caption": "The Westminster Abbey portrait of Richard II, c. 1390s — the earliest surviving contemporary painted portrait of an English monarch.",
+    "creator": "Unknown court painter",
+    "date": "c. 1390s",
+    "source": "Westminster Abbey — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_II_King_of_England.jpg",
+    "note": "A contemporary image, made in the king's own lifetime."
+  },
+  "summary": "Richard II (1377–1399), the boy king of the Peasants' Revolt, built an exalted, theatrical monarchy, struck down his baronial enemies in 1397, and was deposed and killed by his cousin Henry Bolingbroke.",
+  "title": "king of England",
+  "roles": [
+    "King of England"
+  ],
+  "birth": {
+    "date": "6 January 1367",
+    "place": {
+      "name": "Bordeaux, Aquitaine"
+    },
+    "note": "Son of Edward the Black Prince and Joan of Kent; grandson of Edward III."
+  },
+  "death": {
+    "date": "February 1400",
+    "place": {
+      "name": "Pontefract Castle"
+    },
+    "note": "Died in captivity weeks after the failed Epiphany Rising of his supporters.",
+    "circumstance": "Contemporaries believed he was starved, by his own despair in the official version, by his jailers in everyone else's."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of England",
+    "dynasty": "House of Plantagenet",
+    "culture": "English / court of the International Gothic",
+    "knownFor": "facing down the Peasants' Revolt and being deposed by Henry IV"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "King of England",
+    "predecessor": {
+      "personSlug": "edward-iii-of-england",
+      "displayName": "Edward III of England",
+      "note": "His grandfather; Richard's father the Black Prince died the year before"
+    },
+    "successor": {
+      "personSlug": "henry-iv-of-england",
+      "displayName": "Henry IV of England",
+      "note": "His cousin Bolingbroke, who took the crown by deposition in 1399"
+    }
+  },
+  "overview": [
+    "Richard II came to the throne at ten and met his defining moment at fourteen, riding out to face the rebel host of the Peasants' Revolt at Smithfield after Wat Tyler was cut down. The nerve he showed that day hardened into a conviction of sacral kingship that his nobility could neither share nor manage.",
+    "Humiliated by the Lords Appellant in 1386–88, he took his revenge a decade later — execution, exile, and confiscation — and his seizure of the exiled Bolingbroke's Lancastrian inheritance in 1399 united the realm against him. He surrendered without a battle, resigned the crown under duress, and died at Pontefract."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Richard II came to the throne at ten and met his defining moment at fourteen, riding out to face the rebel host of the Peasants' Revolt at Smithfield after Wat Tyler was cut down. The nerve he showed that day hardened into a conviction of sacral kingship that his nobility could neither share nor manage.",
+        "Humiliated by the Lords Appellant in 1386–88, he took his revenge a decade later — execution, exile, and confiscation — and his seizure of the exiled Bolingbroke's Lancastrian inheritance in 1399 united the realm against him. He surrendered without a battle, resigned the crown under duress, and died at Pontefract."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Richard was born at Bordeaux in 1367, in his father's Aquitainian court, and became heir apparent at nine when the Black Prince died in 1376. A year later Edward III followed, and the boy was crowned amid genuine popular hope — and a war going badly, taxed by the hated poll taxes that lit the fuse of 1381.",
+        "The Peasants' Revolt made him. With London burning, the chancellor and treasurer beheaded by the crowd, and the government paralysed, the fourteen-year-old met the rebels twice, and at Smithfield — his mayor having struck Tyler down before his eyes — rode alone toward the drawn bows with the words the chronicles made famous: \"I will be your captain; you shall have from me what you seek.\" The concessions were revoked within weeks, and the revolt's leaders hanged; the lesson Richard took was the mystique of the royal person."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Richard is the most vividly rendered English king of his century — tall, fair, stammering slightly when angry, fastidious (posterity credits his court with the handkerchief), and devoted to art, ceremony, and the company of favourites above the tournament culture of his class. The Wilton Diptych, in which angels wearing his white hart badge attend him before the Virgin, is a window straight into his self-conception: kingship as sacred office, majesty as mystery.",
+        "The monastic chroniclers of the Lancastrian settlement — Walsingham above all, writing under the dynasty that destroyed him — describe a tyrant of caprice: vindictive, extravagant, surrounding himself with flatterers and archers, forcing oaths and blank charters on his subjects. Even discounting the victors' pen, the pattern of 1397–99 shows a king for whom past injury outweighed present counsel, and modern historians still debate where theatrical majesty ended and something like instability began."
+      ]
+    },
+    {
+      "title": "Reign: majesty, revenge, and fall",
+      "paragraphs": [
+        "The first crisis came in 1386–88, when the \"Wonderful Parliament\" imposed a council on him and, after his favourite de Vere's rout at Radcot Bridge, the \"Merciless Parliament\" of the five Lords Appellant executed or exiled the inner circle of his court. Richard submitted, waited, and governed moderately for eight years — the calm that made the storm the more shocking.",
+        "In July 1397 he arrested the three senior Appellants: Gloucester, his uncle, smothered at Calais; Arundel executed; Warwick exiled. Parliament at Shrewsbury made the crown financially independent and delegated its powers to a committee of the king's men. When John of Gaunt died in February 1399, Richard confiscated the vast Lancastrian inheritance of the exiled Bolingbroke and sailed for Ireland — and Bolingbroke landed at Ravenspur to claim, he said, only his duchy. The realm went over to him wholesale; Richard, cornered in Wales, was taken at Flint, paraded to London, and on 30 September 1399 his renunciation and deposition were read to parliament."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Richard was held at Pontefract in Yorkshire. In January 1400 a rising of his old courtiers — the Epiphany Rising — attempted to seize Henry IV and restore him, and its failure sealed the prisoner's fate: by mid-February he was dead, starved by his keepers or, as the Lancastrian version preferred, by his own refusal of food.",
+        "The body was displayed at St Paul's to kill the inevitable rumours of survival — pretenders claiming to be Richard troubled Henry IV for years regardless — and buried at Kings Langley. Henry V, who had been kindly treated by Richard as a boy, moved him in 1413 to the Westminster tomb Richard had built beside his beloved first queen, Anne of Bohemia."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The deposition of an anointed king by a subject with an army set the precedent that haunted the fifteenth century: the Lancastrian title made in 1399 was unmade by the same logic in 1461 and after, and contemporaries traced the Wars of the Roses back to Pontefract. Shakespeare's Richard II, written under a queen who knew the parallel — \"I am Richard II, know ye not that?\" — fixed the reign permanently in political imagination.",
+        "His court's culture outlived his politics: Chaucer and Gower wrote under his patronage networks, the Wilton Diptych and the Westminster portrait began English royal portraiture, and the rebuilt Westminster Hall with its hammerbeam roof — finished just in time to stage his own deposition — remains among the grandest rooms in Europe."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "6 January 1367",
+      "title": "Born at Bordeaux",
+      "description": "Son of the Black Prince, in the English court of Aquitaine."
+    },
+    {
+      "date": "16 July 1377",
+      "title": "Crowned at ten",
+      "description": "Succeeds his grandfather Edward III amid war weariness and heavy taxation."
+    },
+    {
+      "date": "June 1381",
+      "title": "Faces the Peasants' Revolt",
+      "description": "Meets the rebels at Mile End and Smithfield; after Tyler is killed, the boy king rides forward and disperses the host."
+    },
+    {
+      "date": "1388",
+      "title": "The Merciless Parliament",
+      "description": "The Lords Appellant execute or exile the king's inner circle after Radcot Bridge."
+    },
+    {
+      "date": "July 1397",
+      "title": "Revenge on the Appellants",
+      "description": "Gloucester, Arundel, and Warwick are destroyed; the \"tyranny\" of Richard's last two years begins."
+    },
+    {
+      "date": "March 1399",
+      "title": "Seizes the Lancastrian inheritance",
+      "description": "Confiscates the exiled Bolingbroke's duchy on Gaunt's death and departs for Ireland."
+    },
+    {
+      "date": "30 September 1399",
+      "title": "Deposed",
+      "description": "Taken at Flint, he resigns the crown under duress; parliament accepts Henry of Lancaster as king."
+    },
+    {
+      "date": "February 1400",
+      "title": "Dies at Pontefract",
+      "description": "Dead in captivity — starved, contemporaries believed — after the Epiphany Rising fails."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Grandfather and predecessor"
+      },
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Father"
+      },
+      {
+        "title": "Henry IV of England",
+        "type": "person",
+        "slug": "henry-iv-of-england",
+        "label": "Cousin, supplanter, and successor"
+      },
+      {
+        "title": "Anne of Bohemia",
+        "type": "person",
+        "slug": "anne-of-bohemia",
+        "label": "First queen"
+      },
+      {
+        "title": "Joan of Kent",
+        "type": "person",
+        "slug": "joan-of-kent",
+        "label": "Mother"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "Remodelled Westminster Hall"
+      },
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Born at Bordeaux, 1367"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The inherited war his truce with France interrupted"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Westminster portrait",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_II_King_of_England.jpg"
+    },
+    {
+      "title": "Richard II of England — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Richard_II_of_England"
+    },
+    {
+      "title": "Richard II",
+      "author": "Nigel Saul",
+      "type": "book",
+      "note": "The standard modern biography."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "id": "house-of-anjou-capetian",
+  "type": "house",
+  "name": "Capetian House of Anjou",
+  "aliases": [
+    "Capetian Angevins",
+    "Angevins of Naples",
+    "Anjou-Sicily",
+    "House of Anjou-Naples"
+  ],
+  "originYear": 1266,
+  "endYear": 1442,
+  "reignSpan": "1266–1442",
+  "region": "Naples, Hungary & Poland",
+  "originPlace": "Anjou (a Capetian appanage)",
+  "arms": "Gold fleurs-de-lis on blue with a red label — the arms of the Capetian Angevins of Naples.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis%20I%20(Chronicon%20Pictum).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Louis I the Great of Hungary and Poland, the dynasty’s most powerful king, in the Illuminated Chronicle.",
+    "creator": "Chronicon Pictum (Illuminated Chronicle)",
+    "date": "c. 1360",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_I_(Chronicon_Pictum).jpg",
+    "note": "A near-contemporary Hungarian royal-chronicle depiction of the Capetian Angevin king Louis I."
+  },
+  "summary": "The Capetian cadet dynasty of Charles of Anjou — distinct from the Plantagenets — that ruled Naples, Hungary, and Poland.",
+  "overview": "The Capetian House of Anjou descended from Charles of Anjou, brother of King Louis IX of France, who conquered the Kingdom of Naples and Sicily in 1266. A separate line from the earlier Angevin Plantagenets, the dynasty later gained the crowns of Hungary and, under Louis I the Great, Poland as well.",
+  "founder": {
+    "displayName": "Charles I of Anjou",
+    "note": "Brother of Louis IX; conquered Naples and Sicily in 1266 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Poland",
+      "type": "location",
+      "slug": "kingdom-of-poland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "louis-i-of-hungary",
+      "displayName": "Louis I the Great",
+      "note": "King of Hungary and Poland at the dynasty’s height"
+    },
+    {
+      "personSlug": "jadwiga-of-poland",
+      "displayName": "Jadwiga",
+      "note": "Queen of Poland; her marriage to Jogaila founded the Jagiellonian union"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Capetian Angevins, descended from Charles of Anjou (brother of Louis IX) — a Capetian cadet line entirely distinct from the Angevin Plantagenets. The Naples and Hungarian branches are compressed here to the kings held in the Codex.",
+    "root": {
+      "name": "Charles I of Anjou",
+      "note": "brother of Louis IX; King of Naples & Sicily, d. 1285",
+      "children": [
+        {
+          "name": "Angevin kings of Naples",
+          "note": "Charles II and his descendants",
+          "children": [
+            {
+              "name": "Charles I of Hungary",
+              "note": "Charles Robert; won the Hungarian crown, r. 1308–1342",
+              "children": [
+                {
+                  "name": "Louis I the Great",
+                  "personSlug": "louis-i-of-hungary",
+                  "note": "King of Hungary & Poland, r. 1342–1382",
+                  "children": [
+                    {
+                      "name": "Jadwiga",
+                      "personSlug": "jadwiga-of-poland",
+                      "note": "Queen of Poland, r. 1384–1399",
+                      "branch": "→ union with the House of Gediminas"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty began with Charles of Anjou, a younger brother of the French king Louis IX, who was granted the county of Anjou as a Capetian appanage. Invited by the papacy to destroy the Hohenstaufen, Charles conquered the Kingdom of Naples and Sicily, defeating Manfred at Benevento in 1266 and the boy Conradin in 1268.",
+        "This made the Capetian Angevins a great Mediterranean power — a line entirely separate from the earlier Angevins of the House of Plantagenet, despite the shared name of Anjou."
+      ]
+    },
+    {
+      "title": "Naples and the loss of Sicily",
+      "paragraphs": [
+        "Charles’s harsh rule provoked the Sicilian Vespers of 1282, a rebellion that drove the Angevins out of the island of Sicily and handed it to the Crown of Aragon, though they kept the mainland Kingdom of Naples. From Naples the dynasty pursued ambitions across Italy, the Balkans, and central Europe.",
+        "Its branches married into the ruling houses of Hungary and elsewhere, spreading Capetian Angevin power far beyond Italy."
+      ]
+    },
+    {
+      "title": "Hungary and Poland",
+      "paragraphs": [
+        "When the Árpád dynasty of Hungary died out in 1301, an Angevin claimant, Charles Robert, eventually secured the Hungarian throne. His son Louis I the Great ruled Hungary powerfully for forty years and, by inheritance from his uncle, also became king of Poland in 1370.",
+        "Under Louis I the Capetian Angevins were among the most powerful rulers in Europe, holding Hungary, Poland, and claims stretching to Naples."
+      ]
+    },
+    {
+      "title": "End of the line and legacy",
+      "paragraphs": [
+        "Louis I left no son. His daughter Mary took Hungary and his daughter Jadwiga was crowned \"king\" of Poland; Jadwiga’s marriage in 1386 to the Lithuanian grand duke Jogaila founded the Jagiellonian dynasty and united Poland with Lithuania. The Neapolitan branch struggled on until the mid-fifteenth century.",
+        "The dynasty thus shaped the destiny of three kingdoms, and through Jadwiga it handed the Polish crown to the house that would dominate central Europe for the next two centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1266",
+      "title": "Charles of Anjou takes Naples",
+      "description": "The Capetian Angevins conquer southern Italy from the Hohenstaufen."
+    },
+    {
+      "date": "1282",
+      "title": "The Sicilian Vespers",
+      "description": "A rebellion strips the island of Sicily from the dynasty."
+    },
+    {
+      "date": "1342",
+      "title": "Louis I of Hungary",
+      "description": "The dynasty reaches its height in central Europe.",
+      "links": [
+        {
+          "title": "Louis I the Great",
+          "type": "person",
+          "slug": "louis-i-of-hungary"
+        }
+      ]
+    },
+    {
+      "date": "1370",
+      "title": "Louis I gains Poland",
+      "description": "Hungary and Poland are united under one Angevin king."
+    },
+    {
+      "date": "1386",
+      "title": "Jadwiga’s marriage",
+      "description": "Her union with Jogaila founds the Jagiellonian dynasty.",
+      "links": [
+        {
+          "title": "Jadwiga",
+          "type": "person",
+          "slug": "jadwiga-of-poland"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Louis I the Great",
+        "type": "person",
+        "slug": "louis-i-of-hungary",
+        "label": "King of Hungary and Poland"
+      },
+      {
+        "title": "Jadwiga",
+        "type": "person",
+        "slug": "jadwiga-of-poland",
+        "label": "Queen of Poland"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "A crown they held"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Capet",
+        "type": "house",
+        "slug": "house-of-capet",
+        "label": "The senior Capetian line"
+      },
+      {
+        "title": "House of Gediminas",
+        "type": "house",
+        "slug": "house-of-gediminas",
+        "label": "Jadwiga’s marriage founded its royal line"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Capetian House of Anjou — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Capetian_House_of_Anjou"
+    },
+    {
+      "title": "Charles I (of Anjou) — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Charles-I-king-of-Naples-and-Sicily"
+    },
+    {
+      "title": "Louis I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Louis-I-king-of-Hungary-and-Poland"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20the%20Anjou-Naples%20dynasty%20(Capetians).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Capetian Angevin arms of Naples — France Ancient differenced with a red label.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Anjou-Naples_dynasty_(Capetians).svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

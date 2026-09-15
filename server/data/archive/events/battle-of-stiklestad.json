@@ -1,0 +1,197 @@
+{
+  "id": "battle-of-stiklestad",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Stiklestad",
+  "year": 1030,
+  "location": "Stiklestad, Norway",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stiklestad_kirke.jpg",
+  "summary": "The battle in 1030 where Olaf II Haraldsson was killed, later becoming central to the cult of Saint Olaf.",
+  "details": "The battle in 1030 where Olaf II Haraldsson was killed, later becoming central to the cult of Saint Olaf.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "On 29 July 1030 Olaf II Haraldsson, attempting to recover the Norwegian throne he had lost to Cnut the Great, was defeated and killed at Stiklestad in Trøndelag by an army of Norwegian magnates and farmers.",
+        "It was a defeat so complete that it should have ended his cause, and instead it created a saint. Within a year miracles were being reported at his grave, within twelve months he had been declared holy by the local bishop, and within a generation Norway was Christian in a way his reign had failed to make it.",
+        "Olaf became the eternal king of Norway, the country's patron saint, and the focus of a cult that reached from Iceland to Constantinople — where his half-brother Harald Hardrada, who fought here as a boy of fifteen, later served in the Varangian Guard."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Olaf had ruled Norway from about 1015, imposing Christianity and royal authority on a country used to neither, and doing it with a directness that made enemies of exactly the regional magnates whose support he needed.",
+        "Cnut the Great, ruling England and Denmark, funded that opposition. In 1028 he arrived with a fleet, Olaf's support evaporated, and the king fled into exile among the Rus' at Kiev.",
+        "He returned in 1030 with a small force, gathering what support he could as he came south-west through Sweden into Trøndelag — the heartland of the old aristocracy and of resistance to him."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The armies met at Stiklestad on 29 July. The force opposing Olaf was substantially larger and drawn from the local magnates and the farmers they led, and the sagas name three men as delivering his death wounds.",
+        "Everything vivid about the battle comes from Snorri Sturluson and the other saga writers of the twelfth and thirteenth centuries, writing two hundred years later about a saint. Their accounts are literature and hagiography before they are reporting.",
+        "One detail is worth naming as a caution: the sagas describe the sun darkening as Olaf fell, and a solar eclipse did occur in 1030 — but on 31 August, a month after the battle, and not visible as described in Norway. It is the clearest available demonstration of how the account was shaped after the fact."
+      ]
+    },
+    {
+      "title": "The cult",
+      "paragraphs": [
+        "Olaf's body was buried in secret at Nidaros, and within a year reports of miracles and of the incorruption of the body had begun. Bishop Grimkell declared him holy on 3 August 1031.",
+        "The political effect was immediate and entirely against the victors. Cnut's son Svein ruled Norway badly and was driven out by 1035, and Olaf's son Magnus the Good was brought back from exile and made king — restored by the same magnates who had killed his father five years earlier.",
+        "Nidaros, modern Trondheim, became the greatest pilgrimage site in northern Europe, and the cathedral built over the grave is still Norway's national church. Churches to St Olaf were founded across Scandinavia, in the British Isles, in the Baltic and in Constantinople."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Stiklestad is the clearest case in this archive of a battle whose military result was reversed entirely by what people made of it afterwards. Olaf lost, and Olaf won.",
+        "It also completed the Christianisation of Norway more effectively than his reign had. A martyred royal saint gave the new religion a national focus that missionary work had failed to supply, and the conversion stopped being something imposed from outside.",
+        "And it sent Harald Hardrada into exile. He fled the field at fifteen, went east to the Rus' and then to Constantinople, served in the Varangian Guard, came back rich, took the Norwegian throne, and died invading England at Stamford Bridge in 1066 — which is where this archive picks him up again."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Olaf II Haraldsson's supporters",
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Olaf II Haraldsson",
+          "title": "Olaf II Haraldsson",
+          "type": "person",
+          "slug": "olaf-ii-haraldsson"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a modest force, perhaps a few thousand",
+        "confidence": "debated",
+        "note": "Olaf returned from exile with a small army; no reliable figures survive."
+      }
+    },
+    {
+      "side": "Peasant and magnate army",
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        }
+      ],
+      "leaders": [],
+      "strength": {
+        "display": "Unknown; larger than Olaf's force per saga tradition",
+        "confidence": "debated",
+        "note": "The army of Norwegian farmers and magnates opposed to Olaf, aligned with Cnut the Great, had no single royal commander."
+      }
+    }
+  ],
+  "outcome": "Result preserved in medieval narrative tradition; details vary by source.",
+  "imageInfo": {
+    "caption": "Battle of Stiklestad, represented with a relevant public-domain or Commons image.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "public-domain or modern image",
+    "source": "Wikimedia Commons",
+    "note": "Used to represent the battle context where no contemporary battle image is securely available."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Battle of Stiklestad",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke.jpg"
+    },
+    {
+      "title": "Battle of Stiklestad reference entry",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Stiklestad"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Olaf II Haraldsson",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Commander"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Stiklestad",
+        "type": "location",
+        "slug": "stiklestad",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Combatant faction"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Follow Harald Hardrada",
+    "battleSlug": "battle-of-stamford-bridge",
+    "relationship": "chronological-follow-up",
+    "reason": "Harald Hardrada fought at Stiklestad beside his half-brother Olaf II and survived the defeat; thirty-six years later his own invasion of England ended when Harold Godwinson defeated and killed him at Stamford Bridge."
+  },
+  "timeline": [
+    {
+      "date": "c. 1015",
+      "title": "Olaf takes the throne",
+      "description": "He begins imposing Christianity and royal authority on a country resistant to both."
+    },
+    {
+      "date": "1028",
+      "title": "Cnut invades",
+      "description": "Backed by Cnut's money, the magnates abandon Olaf and he flees into exile among the Rus'."
+    },
+    {
+      "date": "1030",
+      "title": "The return",
+      "description": "Olaf comes back through Sweden with a small force, gathering support as he goes."
+    },
+    {
+      "date": "29 July 1030",
+      "title": "Stiklestad",
+      "description": "Olaf is defeated and killed by an army of magnates and farmers; his half-brother Harald, aged fifteen, escapes."
+    },
+    {
+      "date": "3 August 1031",
+      "title": "Declared a saint",
+      "description": "Bishop Grimkell proclaims Olaf holy a year after the battle, on reports of miracles at the grave."
+    },
+    {
+      "date": "1035",
+      "title": "Magnus restored",
+      "description": "Olaf's son is brought back from exile and made king by the men who killed his father."
+    },
+    {
+      "date": "1066",
+      "title": "Stamford Bridge",
+      "description": "Harald Hardrada, who fled this field at fifteen, dies invading England.",
+      "links": [
+        {
+          "title": "Battle of Stamford Bridge",
+          "type": "event",
+          "slug": "battle-of-stamford-bridge"
+        }
+      ]
+    }
+  ]
+}

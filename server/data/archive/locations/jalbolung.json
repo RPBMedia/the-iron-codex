@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Traditional place",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Birger Jarl",
+    "Bjälbo dynasty",
+    "Swedish aristocratic power"
+  ],
+  "overview": [
+    "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Jalbolung was a medieval location in the Swedish royal geography, connected to events in the dynastic history of thirteenth-century Sweden."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The site's significance in IronCodex is as a geographic anchor for events in Swedish royal history during the period of conflict between the Sverker and Erik dynastic lines."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Jalbolung",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bj%C3%A4lbo_kyrka.jpg"
+    },
+    {
+      "title": "Jalbolung reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Jalbolung"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Birger Jarl",
+        "type": "person",
+        "slug": "birger-jarl",
+        "label": "Death of Birger Jarl"
+      },
+      {
+        "title": "Valdemar of Sweden",
+        "type": "person",
+        "slug": "valdemar-of-sweden"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Stockholm",
+        "type": "location",
+        "slug": "stockholm"
+      }
+    ]
+  },
+  "id": "jalbolung",
+  "name": "Jalbolung",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%A4lbo_kyrka.jpg",
+  "summary": "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape.",
+  "imageInfo": {
+    "caption": "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bj%C3%A4lbo_kyrka.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

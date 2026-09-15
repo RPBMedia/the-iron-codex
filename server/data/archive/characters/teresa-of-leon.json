@@ -1,0 +1,206 @@
+{
+  "id": "teresa-of-leon",
+  "type": "character",
+  "name": "Teresa of León",
+  "aliases": [
+    "Teresa of Portugal",
+    "Tarasia",
+    "Queen Teresa"
+  ],
+  "born": 1080,
+  "died": 1130,
+  "deathAge": "about 50",
+  "causeOfDeath": "Died in Galician exile two years after her defeat at São Mamede",
+  "restingPlace": "Braga Cathedral, beside Count Henry",
+  "location": "County of Portugal",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Theresa_of_Portugal_(1080-1130)_mini.jpg",
+  "imageInfo": {
+    "caption": "Teresa of León in a miniature from the Compendio de crónicas de reyes.",
+    "creator": "Unknown illuminator",
+    "date": "later medieval",
+    "source": "Biblioteca Nacional de España — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theresa_of_Portugal_(1080-1130)_mini.jpg",
+    "note": "A later imagined portrait from the chronicle tradition."
+  },
+  "summary": "Teresa of León ruled the County of Portugal for eighteen years (1112–1128), styled herself queen, and fought her own son Afonso Henriques for the county's future — losing it at São Mamede in 1128.",
+  "title": "countess and self-styled queen of Portugal",
+  "roles": [
+    "Countess of Portugal",
+    "Self-styled Queen"
+  ],
+  "birth": {
+    "date": "c. 1080",
+    "place": {
+      "name": "León"
+    },
+    "note": "Illegitimate daughter of Alfonso VI of León-Castile and Jimena Muñoz."
+  },
+  "death": {
+    "date": "11 November 1130",
+    "place": {
+      "name": "Galicia"
+    },
+    "note": "Died in exile north of the Minho after São Mamede.",
+    "circumstance": "Her body was returned to Braga Cathedral to lie beside Count Henry."
+  },
+  "quickFacts": {
+    "realm": "County of Portugal",
+    "dynasty": "Jiménez (León) / House of Burgundy by marriage",
+    "culture": "Leonese-Portuguese",
+    "knownFor": "ruling Portugal as self-styled queen and the war with her son"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Countess of Portugal",
+    "predecessor": {
+      "personSlug": "henry-count-of-portugal",
+      "displayName": "Henry, Count of Portugal",
+      "note": "Her husband"
+    },
+    "successor": {
+      "personSlug": "afonso-i-of-portugal",
+      "displayName": "Afonso I of Portugal",
+      "note": "Her son, who took the county from her at São Mamede in 1128"
+    }
+  },
+  "overview": [
+    "Teresa, Alfonso VI's illegitimate daughter, governed Portugal from Count Henry's death in 1112 — first for her infant son, then increasingly for herself, using the title regina in her own charters from 1117, a claim the papal chancery itself sometimes echoed.",
+    "Her rule balanced war and diplomacy with her half-sister Queen Urraca's León, Almoravid raids that burned as far as the suburbs of Coimbra, and the rising power of the Galician house of Traba, whose lord Fernando Pérez became her partner in power and in scandal. The Portuguese barons and her adolescent son raised their standard against that Galician connection, and at São Mamede, under the walls of Guimarães, her army was beaten and her rule ended."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Teresa, Alfonso VI's illegitimate daughter, governed Portugal from Count Henry's death in 1112 — first for her infant son, then increasingly for herself, using the title regina in her own charters from 1117, a claim the papal chancery itself sometimes echoed.",
+        "Her rule balanced war and diplomacy with her half-sister Queen Urraca's León, Almoravid raids that burned as far as the suburbs of Coimbra, and the rising power of the Galician house of Traba, whose lord Fernando Pérez became her partner in power and in scandal. The Portuguese barons and her adolescent son raised their standard against that Galician connection, and at São Mamede, under the walls of Guimarães, her army was beaten and her rule ended."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Teresa was born about 1080 to Alfonso VI and the Leonese noblewoman Jimena Muñoz — illegitimate, but acknowledged, favoured, and politically useful. Her marriage to Henry of Burgundy around 1094 carried the county of Portugal as her dowry-portion, making her from the start co-proprietor rather than consort: the charters run in both names.",
+        "The distinction mattered. When Henry died at Astorga in 1112, no regency council displaced her; the county's government passed to the countess as naturally as it had been shared with her."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources for Teresa were mostly written by the victors — her son's court and the chroniclers of Santa Cruz de Coimbra — and they built the image later tradition amplified: the proud, wilful queen-mother, besotted with her Galician favourite, sacrificing Portuguese interests to Traba ambition. Read against the charters, a different figure emerges: a ruler who kept an exposed frontier county intact for sixteen years between three stronger powers, and whose \"arrogant\" royal style was a deliberate constitutional claim her son would simply inherit.",
+        "Her political instincts were her father's: she fought Urraca when war served, treated when it did not, and used marriage-diplomacy — her daughters into the houses of Traba and beyond — exactly as every crowned contemporary did. The liaison with Fernando Pérez de Traba was real, publicly acknowledged, and politically fatal: it handed her son's party the banner of \"Portugal for the Portuguese\" that carried the field at São Mamede."
+      ]
+    },
+    {
+      "title": "Rule of Portugal",
+      "paragraphs": [
+        "Teresa's wars with Urraca ran along the Minho: she took Tui and the southern Galician marches in 1116, lost and regained ground through the truces of 1121 — negotiated with papal legates present, sister to sister, each styled queen. Southward she rebuilt what the Almoravids burned, recharted Coimbra in 1111 with Count Henry and pushed settlement back to the Mondego line after the great raid of 1116–1117 besieged the city itself.",
+        "From about 1121 the Traba connection reshaped her court: Galician magnates in Portuguese honores, her daughter married into the house, Fernando Pérez holding Porto and Coimbra. The Portuguese baronage — the men of Entre-Douro-e-Minho who had made the county — coalesced around the young Afonso Henriques, who knighted himself at Zamora cathedral in 1125 in the old imperial fashion. The final breach came in 1128: the barons proclaimed the son, the mother summoned her Galician allies, and on 24 June the armies met at São Mamede field below Guimarães castle. Teresa's force was routed; she and Fernando Pérez withdrew north of the Minho for good."
+      ]
+    },
+    {
+      "title": "Death and legacy",
+      "paragraphs": [
+        "Teresa died in Galicia on 11 November 1130 and was carried back to Braga to lie beside Count Henry — the founding pair reunited by the son who had defeated her.",
+        "Portuguese national tradition long cast her as the obstacle the founder-hero overcame; modern historiography has largely reversed the verdict, crediting her regency with preserving the county's autonomy through the most dangerous two decades of its existence and pioneering the royal title her son made permanent. Without Teresa's regina there is no straightforward road to Afonso's rex."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1080",
+      "title": "Born",
+      "description": "Illegitimate daughter of Alfonso VI of León-Castile and Jimena Muñoz."
+    },
+    {
+      "date": "c. 1094",
+      "title": "Marries Henry of Burgundy",
+      "description": "The county of Portugal comes with her as dowry; the couple rule jointly."
+    },
+    {
+      "date": "1112",
+      "title": "Takes the government",
+      "description": "Rules Portugal on Henry's death, for her infant son and increasingly in her own right."
+    },
+    {
+      "date": "1116–1117",
+      "title": "War on two fronts",
+      "description": "Fights Urraca on the Minho while an Almoravid host besieges Coimbra; the city holds."
+    },
+    {
+      "date": "1117",
+      "title": "Regina Tarasia",
+      "description": "Begins styling herself queen in her charters, a claim papal letters sometimes repeat."
+    },
+    {
+      "date": "c. 1121",
+      "title": "The Traba ascendancy",
+      "description": "Fernando Pérez de Traba rises to dominance in her court and her county's key offices."
+    },
+    {
+      "date": "24 June 1128",
+      "title": "São Mamede",
+      "description": "Her army is defeated by her son's partisans below Guimarães; her rule of Portugal ends."
+    },
+    {
+      "date": "11 November 1130",
+      "title": "Dies in exile",
+      "description": "Dies in Galicia; buried beside Henry in Braga Cathedral."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry, Count of Portugal",
+        "type": "person",
+        "slug": "henry-count-of-portugal",
+        "label": "Husband and predecessor"
+      },
+      {
+        "title": "Afonso I of Portugal",
+        "type": "person",
+        "slug": "afonso-i-of-portugal",
+        "label": "Son, rival, and successor"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "Her father's crown and her sister's rival realm"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of São Mamede",
+        "type": "event",
+        "slug": "battle-of-sao-mamede",
+        "label": "Where mother and son settled the county's future"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Theresa_of_Portugal_(1080-1130)_mini.jpg"
+    },
+    {
+      "title": "Theresa, Countess of Portugal — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Theresa,_Countess_of_Portugal"
+    },
+    {
+      "title": "D. Teresa (Rainhas de Portugal series)",
+      "author": "Portuguese academic biography tradition",
+      "type": "book",
+      "note": "Modern scholarly treatment of the countess-queen."
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "hundred-years-war",
+  "type": "event",
+  "eventType": "War",
+  "name": "Hundred Years' War",
+  "year": 1337,
+  "location": "France and the Low Countries",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
+  "summary": "A prolonged dynastic, territorial, and military conflict between the English and French crowns from 1337 to 1453.",
+  "details": "A prolonged dynastic, territorial, and military conflict between the English and French crowns from 1337 to 1453.",
+  "background": [
+    "English royal claims to the French crown and disputes over territories such as Aquitaine helped trigger the conflict."
+  ],
+  "aftermath": "The war eventually ended with English power in France greatly reduced, except for Calais.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Hundred Years' War was a series of conflicts between the Kingdom of England and the Kingdom of France from 1337 to 1453, driven by English claims to the French crown, disputes over Aquitaine, control of the Channel world, and alliances with Flemish and Burgundian powers.",
+        "The war passed through phases rather than one continuous campaign: English victories at Crecy, Poitiers, and Agincourt were followed by French recovery under Valois kings and commanders such as Joan of Arc. By the end, English rule in France had shrunk to Calais, while France emerged with stronger taxation, artillery, and royal military institutions."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The immediate dynastic issue came from Edward III of England's claim through his mother Isabella, daughter of Philip IV of France. French nobles favored the Valois line and rejected succession through a woman, while English kings also held Aquitaine as a French fief, creating a permanent jurisdictional conflict.",
+        "Economic and regional politics intensified the dispute. Flemish cloth towns depended on English wool, Gascony depended on wine trade and English protection, and French kings sought to turn loose feudal superiority into more direct royal authority."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "The early war favored England: Edward III won at Crecy in 1346, the Black Prince captured John II of France at Poitiers in 1356, and the Treaty of Bretigny temporarily expanded English holdings. The settlement did not resolve the underlying conflict, and Charles V later recovered much lost territory through careful administration and commanders such as Bertrand du Guesclin.",
+        "The Lancastrian phase revived English hopes when Henry V won at Agincourt in 1415 and forced the Treaty of Troyes in 1420, which recognized him as heir to the French throne. After Henry's death, French resistance revived around Charles VII, the relief of Orleans, Joan of Arc's intervention, and later reforms in artillery and permanent companies."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "Major English figures included Edward III, Edward the Black Prince, Henry V, and later Lancastrian commanders struggling to hold Normandy and Gascony. French leadership shifted from Philip VI and John II through Charles V and Charles VII, with Joan of Arc becoming a decisive symbolic and military figure in the French recovery.",
+        "Burgundian dukes, Flemish towns, Gascon nobles, Breton factions, and papal diplomats also shaped the war. It was never only an English-French duel; it was a network of regional interests tied to trade, lordship, dynastic legitimacy, and military opportunity."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The war ended with English power in France greatly reduced, except for Calais. The French crown emerged battered but more centralized, with stronger royal taxation, artillery, and military institutions capable of outlasting aristocratic and foreign resistance.",
+        "England absorbed defeat into domestic political crisis. The loss of continental ambitions weakened royal authority, sharpened factional politics, and helped create the conditions in which the Wars of the Roses broke out."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The war transformed late medieval monarchy and warfare. It accelerated changes in infantry tactics, longbow warfare, artillery, taxation, written administration, and the relationship between crown and political community.",
+        "Later national histories turned the conflict into a story of English and French identity, but medieval loyalties were more layered. Gascons, Burgundians, Flemings, Scots, and Breton factions often made choices based on lordship, trade, survival, and opportunity rather than simple nationality."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Battle of Agincourt in the St Albans Chronicle.",
+    "creator": "Unknown manuscript artist",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "note": "Manuscript depiction used to represent the wider war."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Agincourt%2C_St._Alban's_Chronicle_by_Thomas_Walsingham.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Hundred Years' War",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Hundred-Years-War"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "participants": [
+    {
+      "side": "English claimants and allies",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward III of England",
+          "title": "Edward III of England",
+          "type": "person",
+          "slug": "edward-iii-of-england"
+        },
+        {
+          "name": "Henry V",
+          "title": "Henry V",
+          "type": "person",
+          "slug": "henry-v-of-england"
+        }
+      ]
+    },
+    {
+      "side": "French crown",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Philip VI of France",
+          "title": "Philip VI of France",
+          "type": "person",
+          "slug": "philip-vi-of-france"
+        },
+        {
+          "name": "John II of France",
+          "title": "John II of France",
+          "type": "person",
+          "slug": "john-ii-of-france"
+        }
+      ]
+    }
+  ],
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Edward III of England",
+      "faction": "English claimants and allies",
+      "personId": "edward-iii-of-england"
+    },
+    {
+      "name": "Henry V",
+      "faction": "English claimants and allies",
+      "personId": "henry-v-of-england"
+    },
+    {
+      "name": "Philip VI of France",
+      "faction": "French crown",
+      "personId": "philip-vi-of-france"
+    },
+    {
+      "name": "John II of France",
+      "faction": "French crown",
+      "personId": "john-ii-of-france"
+    }
+  ],
+  "outcome": "French victory in the long term; England lost nearly all continental possessions except Calais.",
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Commander"
+      },
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Confiscated in 1337, lost in 1453"
+      }
+    ]
+  }
+}

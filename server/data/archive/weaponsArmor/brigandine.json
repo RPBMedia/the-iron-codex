@@ -1,0 +1,175 @@
+{
+  "id": "brigandine",
+  "type": "weaponArmor",
+  "name": "Brigandine",
+  "aliases": [
+    "Brigandine armor"
+  ],
+  "weaponArmorType": "Armor",
+  "year": 1450,
+  "period": "Late Middle Ages",
+  "region": "Europe",
+  "material": "Small metal plates riveted inside textile or leather covering",
+  "battlefieldRole": "Flexible torso armor for soldiers and elites",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigandine%20Armor%20MET%20LC-29%20150%2091a-004.jpg",
+  "summary": "The brigandine protected the torso with many small overlapping plates hidden beneath a textile or leather outer layer.",
+  "details": "It gave flexible torso protection that was easier to fit and sometimes cheaper than a full breastplate. It worked well with arm defenses, helmets, and mail at vulnerable gaps.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A brigandine is a body defence of many small iron plates riveted inside a fabric cover, most often a stout canvas faced with velvet or another fine textile. The plates are invisible; what shows is the cloth and the ordered rows of rivet heads, frequently gilded.",
+        "It is the coat of plates taken to its logical end: more plates, smaller, and therefore far more flexible. Where a coat of plates has a dozen or so, a brigandine may have hundreds, and the resulting garment moves with the body almost like heavy cloth.",
+        "It was worn from the late fourteenth century into the sixteenth by an unusually wide social range — infantry, archers, men-at-arms, and wealthy men who wanted armour that looked like clothing."
+      ]
+    },
+    {
+      "title": "Design and construction",
+      "paragraphs": [
+        "The cover is made first as a garment, then the plates are laid inside in overlapping rows and riveted through from the outside. Because each plate is small and each row overlaps the next, the assembly flexes freely in one direction while remaining rigid against a blow.",
+        "The rivets are the decoration as well as the fastening. Gilded or latten-headed rivets in ordered rows across coloured velvet made the brigandine a conspicuous garment, and surviving examples show real care taken over the pattern the heads describe.",
+        "Most open down the front and fasten with buckles or lacing, and many have separate shoulder pieces or skirts of the same construction. The best are shaped to the torso with tailored panels, which is what distinguishes an expensive brigandine from a serviceable one."
+      ]
+    },
+    {
+      "title": "Protection and battlefield role",
+      "paragraphs": [
+        "It gives most of the protection of a breastplate with far more freedom of movement, which is why it appealed to anyone who had to march, shoot or climb rather than sit a horse. Archers and billmen in particular are shown in brigandines throughout the fifteenth century.",
+        "The overlapping plates handle a cut easily and resist a thrust well, though not as well as a solid breastplate: a point arriving between rivets can spread the plates apart where a single shaped plate would have turned it.",
+        "Its social range is its most interesting feature. The same construction served a common soldier in plain canvas and a captain in crimson velvet with gilt rivets, and the difference between them was covering and tailoring rather than protection."
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "paragraphs": [
+        "Its strengths are flexibility, concealment and comfort. It distributes weight across the whole torso rather than hanging from the shoulders, and it can be worn under a coat, which matters in a period when going armed in a town was often regulated.",
+        "Its limitation is that the fabric does the structural work. When the cover rots or the rivets corrode the whole thing falls apart, and a garment whose plates were sound may still be useless — which is why so few survive with their covers intact.",
+        "It is also inferior to plate against the heaviest weapons. Against a poleaxe or a war hammer the many small plates transmit force where a shaped breastplate would deflect it, so the fully armoured man-at-arms of the fifteenth century still preferred plate for the torso."
+      ]
+    },
+    {
+      "title": "Historical development",
+      "paragraphs": [
+        "The type emerges in the later fourteenth century from the coat of plates, driven by the same demand that produced articulated plate elsewhere on the body: protection that moves.",
+        "It becomes ubiquitous in the fifteenth century, worn on every side of the period's fighting — in the Hundred Years' War, in the Italian wars, and by the retinues that fought the English civil wars of the later century.",
+        "It survives into the sixteenth century, by which time it has largely become infantry equipment as plate harness becomes the preserve of the wealthy and firearms begin to change what body armour is expected to stop."
+      ]
+    },
+    {
+      "title": "Regional variation and surviving examples",
+      "paragraphs": [
+        "Italian workshops dominated production and export, and Italian brigandines set the standard for both construction and finish. Northern examples are often plainer, though the difference is one of covering rather than of the plate work beneath.",
+        "The Metropolitan Museum of Art and the Royal Armouries hold examples with their coverings substantially intact, which are rare and valuable precisely because the textile survived. Far more common are sets of loose plates whose garment has gone entirely.",
+        "A recurring hazard in identification is that a brigandine, a coat of plates and a jack of plate can look similar in a painting, and the differences — plate size, plate count, whether the plates are riveted or sewn — are largely invisible from outside."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The brigandine is the longest-lived expression of the hidden-plate idea, running for the better part of two centuries and outlasting both the coat of plates that produced it and the mail it supplemented.",
+        "It also complicates the neat story of armour progressing from mail to plate. For a century the best-equipped soldiers in Europe had a choice between rigid plate and flexible plate, and many of them chose flexibility.",
+        "Its principle survives in modern armour that hides rigid panels inside a fabric carrier, which is the same solution to the same problem — protection that a wearer will actually keep on because it moves with him."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "A surviving brigandine with a crimson velvet exterior studded with gilt rivets that secure the iron plates riveted inside, Metropolitan Museum of Art.",
+    "creator": "European armourer",
+    "date": "late 15th-early 16th century (object)",
+    "source": "Metropolitan Museum of Art / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brigandine%20Armor%20MET%20LC-29%20150%2091a-004.jpg",
+    "note": "Photographed surviving brigandine showing the fabric-covered exterior and rivet pattern that define the type (not a plate harness)."
+  },
+  "knownFor": [
+    "Hundreds of small plates riveted inside a cover of canvas or velvet.",
+    "Ordered rows of gilded rivet heads serving as both fastening and decoration.",
+    "Flexible enough for archers and billmen who had to march, shoot and climb.",
+    "Worn across the whole social range, from plain canvas to crimson velvet with gilt rivets."
+  ],
+  "relatedEntries": {
+    "weaponsArmor": [
+      {
+        "title": "Coat of Plates",
+        "type": "weaponArmor",
+        "slug": "coat-of-plates"
+      },
+      {
+        "title": "Gambeson",
+        "type": "weaponArmor",
+        "slug": "gambeson"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
+      },
+      {
+        "title": "Lamellar and Scale Armor",
+        "type": "weaponArmor",
+        "slug": "lamellar-armor",
+        "label": "Small plates in a flexible assembly, by a different route"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
+      },
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jakob_von_Ems_brigandine_by_Wendelin_Boeheim_(137935637).jpg"
+    },
+    {
+      "title": "Wikipedia: Brigandine",
+      "author": "Wikipedia",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Brigandine_armor"
+    },
+    {
+      "title": "MET Arms and Armor: Brigandines",
+      "author": "Metropolitan Museum of Art",
+      "type": "museum collection",
+      "url": "https://www.metmuseum.org/art/collection/search?department=4"
+    }
+  ],
+  "specs": {
+    "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+    "rows": [
+      {
+        "label": "Period",
+        "value": "c. 14th–16th century"
+      },
+      {
+        "label": "Material",
+        "value": "Small steel plates riveted inside a cloth garment"
+      },
+      {
+        "label": "Weight",
+        "value": "c. 8–10 kg"
+      },
+      {
+        "label": "Protects",
+        "value": "The torso, while staying flexible"
+      },
+      {
+        "label": "Construction",
+        "value": "Plates riveted to fabric (rivet-heads show outside)"
+      },
+      {
+        "label": "Typical users",
+        "value": "Men-at-arms and better-equipped infantry"
+      }
+    ]
+  }
+}

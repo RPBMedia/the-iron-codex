@@ -1,0 +1,213 @@
+{
+  "id": "michael-ii",
+  "type": "character",
+  "name": "Michael II",
+  "aliases": [
+    "Michael the Amorian",
+    "Michael the Stammerer"
+  ],
+  "born": 770,
+  "died": 829,
+  "deathAge": "about 59",
+  "causeOfDeath": "Died of kidney disease in October 829, the first emperor in decades to die peacefully in his bed.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20II%20in%20the%20Madrid%20Skylitzes.jpg",
+  "imageInfo": {
+    "caption": "Michael II in a Madrid Skylitzes miniature.",
+    "creator": "Madrid Skylitzes manuscript",
+    "date": "12th–13th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael_II_in_the_Madrid_Skylitzes.jpg",
+    "note": "A manuscript image painted three to four centuries after his death. Not a likeness. Public domain."
+  },
+  "summary": "Michael II was condemned to death for conspiracy, was crowned instead when his supporters murdered the emperor in the palace chapel, and founded the Amorian dynasty while still wearing his fetters.",
+  "overview": "A provincial soldier who came to the throne on Christmas morning by way of a murder in church, and then ruled without much distinction and without disaster.",
+  "birth": {
+    "date": "c. 770",
+    "place": {
+      "name": "Amorion, in Phrygia"
+    }
+  },
+  "death": {
+    "date": "829",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died of kidney disease in October 829, succeeded without dispute by his son."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Amorian dynasty",
+    "culture": "Roman",
+    "knownFor": "Founding the Amorian dynasty by a murder in the palace chapel"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "displayName": "Leo V the Armenian",
+      "note": "His old comrade, who made him a senior commander and then condemned him for conspiracy; Michael's supporters murdered Leo in the palace chapel on Christmas morning 820. No article yet in this archive."
+    },
+    "successor": {
+      "personSlug": "theophilos",
+      "displayName": "Theophilos",
+      "note": "His son, the last iconoclast emperor and the most conspicuously cultivated ruler of the century."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Michael came from Amorion in Phrygia, a garrison city in central Anatolia, and rose through the army alongside Leo the Armenian — the two men were comrades and then rivals.",
+        "Leo took the throne in 813, promoted Michael, and in December 820 condemned him to death for conspiracy. Michael's supporters got to Leo first, killing him in the palace chapel during the Christmas morning service.",
+        "He was brought from his cell and crowned still in his fetters, because nobody could find the key. The dynasty he founded lasted until 867 and ended iconoclasm — though not under him."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 770 at Amorion into a family the sources treat as obscure and possibly connected to one of the Judaising sects of Phrygia, an accusation later writers made much of.",
+        "He was a soldier of the Anatolic theme and made his career alongside Leo the Armenian and Thomas the Slav — three provincial officers of the same generation, all three of whom would end up claiming the throne.",
+        "He was uneducated and spoke with a stammer, and the aristocracy of the capital regarded him as a peasant in armour. He appears never to have much minded."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The sources dislike him without being able to accuse him of very much, which is an unusual position for a Byzantine emperor who came to power by murder.",
+        "He is described as blunt, unlettered and unceremonious, indifferent to the refinements of the court and impatient with theological argument — which shaped his religious policy more than conviction did. He kept iconoclasm in place but enforced it lightly, recalled exiles, and told both sides to be quiet.",
+        "His second marriage was the scandal of the reign: he took Euphrosyne, a daughter of Constantine VI, out of a convent to marry her, which was canonically indefensible and politically shrewd, since it linked his new dynasty to the old imperial line."
+      ]
+    },
+    {
+      "title": "The revolt of Thomas the Slav",
+      "paragraphs": [
+        "In 821 Thomas the Slav — the third of the three comrades — raised a revolt that drew in much of Anatolia, the Arabs of the caliphate, and a fleet, and besieged Constantinople for the better part of a year.",
+        "It was the most dangerous internal challenge the empire had faced in a century. Michael held the city, and the siege broke when Khan Omurtag of Bulgaria intervened on the emperor's side.",
+        "Thomas was captured and executed in 823, but the damage was permanent: the Anatolian themes had been gutted, the fleet weakened, and the empire had no capacity left when Crete and Sicily were attacked."
+      ]
+    },
+    {
+      "title": "Losses and legacy",
+      "paragraphs": [
+        "Crete was taken in the 820s by Andalusian exiles who founded an emirate that dominated the Aegean for 135 years, and Sicily was invaded by the Aghlabids in 827, beginning a conquest that took most of the island over the following decades.",
+        "Both losses followed directly from the revolt, and neither was recovered in his lifetime — Crete came back in 961, and Sicily never did.",
+        "What he passed on was stability of a modest kind: a dynasty, an undisputed succession to a capable son, and a religious policy cool enough that his daughter-in-law could reverse it without a civil war. For an emperor who arrived in fetters, that is a reasonable account."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 770",
+      "title": "Born",
+      "description": "Born at Amorion in Phrygia; makes his career in the Anatolic theme alongside Leo the Armenian and Thomas the Slav."
+    },
+    {
+      "date": "813",
+      "title": "Leo V takes the throne",
+      "description": "His old comrade becomes emperor and promotes him to senior command."
+    },
+    {
+      "date": "December 820",
+      "title": "Condemned, then crowned",
+      "description": "Sentenced to death for conspiracy, he is crowned in his fetters after his supporters murder Leo in the palace chapel."
+    },
+    {
+      "date": "821–823",
+      "title": "The revolt of Thomas the Slav",
+      "description": "A rebellion besieges Constantinople for most of a year and is broken with Bulgar help."
+    },
+    {
+      "date": "824",
+      "title": "Marries Euphrosyne",
+      "description": "He takes a daughter of Constantine VI out of a convent to link his dynasty to the old line."
+    },
+    {
+      "date": "c. 824–827",
+      "title": "Crete lost",
+      "description": "Andalusian exiles take the island and found the emirate that will dominate the Aegean."
+    },
+    {
+      "date": "827",
+      "title": "The invasion of Sicily",
+      "description": "Aghlabid forces land in Sicily and begin a conquest the empire never reverses."
+    },
+    {
+      "date": "829",
+      "title": "Died",
+      "description": "Dies of kidney disease, succeeded without dispute by his son Theophilos."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Theophilos",
+        "type": "person",
+        "slug": "theophilos",
+        "label": "His son and successor"
+      },
+      {
+        "title": "Michael III",
+        "type": "person",
+        "slug": "michael-iii",
+        "label": "His grandson, and the last of his dynasty"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      },
+      {
+        "title": "Emirate of Crete",
+        "type": "location",
+        "slug": "emirate-of-crete",
+        "label": "Founded on the island lost in his reign"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Michael II",
+      "url": "https://en.wikipedia.org/wiki/Michael_II",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "greatestFeats": [
+    "Survived the revolt of Thomas the Slav, which besieged Constantinople for a year",
+    "Founded a dynasty that lasted three reigns and ended iconoclasm",
+    "Died peacefully in his bed, which almost no emperor of the period managed"
+  ],
+  "epithets": [
+    {
+      "name": "the Stammerer",
+      "type": "byname",
+      "note": "Greek Traulos, from a speech impediment. Contemporary and descriptive rather than hostile, though his enemies made use of it."
+    }
+  ]
+}

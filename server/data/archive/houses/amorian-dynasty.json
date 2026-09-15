@@ -1,0 +1,277 @@
+{
+  "id": "amorian-dynasty",
+  "type": "house",
+  "name": "Amorian dynasty",
+  "aliases": [
+    "Phrygian dynasty",
+    "Amorians",
+    "House of Amorion",
+    "Amorian"
+  ],
+  "originYear": 820,
+  "endYear": 867,
+  "reignSpan": "820–867",
+  "region": "Byzantine Empire",
+  "originPlace": "Amorion in Phrygia, central Anatolia",
+  "arms": "The Byzantine emperors bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidus%20of%20the%20byzantine%20emperor%20Theophilus.jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Theophilos, the second Amorian emperor and the last iconoclast, in the Numismatic Museum in Athens.",
+    "creator": "Constantinople mint; photographed by Tilemahos Efthimiadis",
+    "date": "struck 829–842; photographed 2009",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_the_byzantine_emperor_Theophilus.jpg",
+    "note": "A contemporary object of the dynasty, photographed in its museum case. The bust is a conventional image of imperial office rather than a likeness — which is all Byzantine coinage ever offers. Licensed CC BY 2.0."
+  },
+  "summary": "The short Byzantine dynasty of 820–867, which ended iconoclasm, turned the eastern frontier in the empire's favour, and was extinguished by the murder of its last emperor.",
+  "overview": "The Amorian dynasty ruled for less than fifty years and packed most of the ninth century's achievements into them: the final restoration of the icons in 843, the destruction of the emirate of Melitene at the Lalakaon in 863, the mission of Cyril and Methodius to the Slavs, and the conversion of Bulgaria. It came to power by an assassination in a palace chapel and ended with one in a bedchamber.",
+  "founder": {
+    "displayName": "Michael II",
+    "note": "Called \"the Amorian\" and \"the Stammerer\"; seized the throne in 820"
+  },
+  "seats": [
+    {
+      "name": "Constantinople",
+      "type": "location",
+      "slug": "constantinople"
+    },
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Michael II",
+      "note": "r. 820–829; took the throne by murdering Leo V in the palace chapel",
+      "personSlug": "michael-ii"
+    },
+    {
+      "displayName": "Theophilos",
+      "note": "r. 829–842; the last iconoclast emperor, and a notable patron of learning",
+      "personSlug": "theophilos"
+    },
+    {
+      "displayName": "Theodora",
+      "note": "Empress and regent 842–856; restored the veneration of icons in 843"
+    },
+    {
+      "personSlug": "michael-iii",
+      "displayName": "Michael III",
+      "note": "r. 842–867; murdered by Basil I, and recorded by Basil's historians as a drunk"
+    },
+    {
+      "personSlug": "petronas",
+      "displayName": "Petronas",
+      "note": "Theodora's brother; won the Lalakaon in 863"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Amorian emperors. Theodora governed as regent for her son Michael III, and her brothers Bardas and Petronas held the state's highest offices. ⚭ marks a marriage.",
+    "root": {
+      "name": "Michael II the Amorian",
+      "note": "r. 820–829",
+      "children": [
+        {
+          "name": "Theophilos",
+          "note": "r. 829–842; the last iconoclast emperor",
+          "spouse": {
+            "name": "Theodora",
+            "note": "Regent 842–856; restored the icons",
+            "personSlug": "theodora-wife-of-theophilos"
+          },
+          "children": [
+            {
+              "name": "Michael III",
+              "personSlug": "michael-iii",
+              "note": "r. 842–867; murdered by Basil the Macedonian"
+            }
+          ],
+          "personSlug": "theophilos"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "Michael II came from Amorion in Phrygia, a garrison city in central Anatolia, and rose through the army as a companion of the emperor Leo V. In 820 he was condemned to death for conspiracy, and his supporters killed Leo in the palace chapel on Christmas morning before the sentence could be carried out.",
+        "He was brought from his cell to the throne still wearing his fetters, which nobody could find the key to. The dynasty began, in other words, in exactly the manner it would end.",
+        "He was called \"the Stammerer\" and was mocked by the capital's aristocracy as a provincial soldier. His reign was spent putting down the revolt of Thomas the Slav, which nearly took Constantinople, and losing Crete and much of Sicily to Muslim expansion."
+      ]
+    },
+    {
+      "title": "Theophilos and the sack of Amorion",
+      "paragraphs": [
+        "Theophilos, who ruled from 829 to 842, was the most conspicuously cultured emperor of the century: he rebuilt the palace with mechanical golden birds and roaring lions in the throne room, patronised the mathematician Leo, and heard legal petitions in person on public rides through the city.",
+        "He was also the last iconoclast emperor, reviving a policy that had been dormant, and he fought the Abbasids continuously and mostly without success.",
+        "In 838 the caliph al-Mu'tasim marched on the dynasty's own home city and destroyed it. The sack of Amorion killed or enslaved most of its population and was chosen deliberately to humiliate the ruling house, and Byzantine tradition remembered the forty-two officers taken to Samarra and executed there as martyrs."
+      ]
+    },
+    {
+      "title": "Theodora and the restoration of the icons",
+      "paragraphs": [
+        "Theophilos died in 842 leaving a two-year-old son, and his widow Theodora governed as regent. In 843 she ended iconoclasm, restoring the veneration of images and holding the synod commemorated in the Orthodox calendar as the Triumph of Orthodoxy.",
+        "She managed the reversal with unusual care. Her husband had been an iconoclast and she protected his memory, insisting he had repented before death, and the settlement was made without a purge — which is a large part of why it held where the restoration of 787 had not.",
+        "She was pushed out in 856 by her brother Bardas, who governed as Caesar for the next decade while her son held the title. Her other brother, Petronas, took the eastern command."
+      ]
+    },
+    {
+      "title": "The reign of Michael III",
+      "paragraphs": [
+        "The 860s are among the most consequential decades in Byzantine history and almost none of it is credited to the emperor whose reign it was. Petronas destroyed the army of the emir of Melitene at the Lalakaon in 863, ending the annual raiding that had defined the eastern frontier for two centuries.",
+        "In the same year Cyril and Methodius were sent to the Slavs, producing an alphabet and a liturgical language that outlasted every institution involved; in 864 the Bulgar khan Boris accepted Christianity from Constantinople; and in 860 a Rus' fleet appeared before the walls, the first appearance of a power that would matter for centuries.",
+        "The Abbasid caliphate was meanwhile collapsing into the anarchy at Samarra, which is the other half of why the eastern frontier moved. Byzantine recovery and caliphal disintegration met in this reign."
+      ]
+    },
+    {
+      "title": "The end and the reputation",
+      "paragraphs": [
+        "Michael III raised a Macedonian groom named Basil to co-emperor in 866, after Basil had arranged the murder of Bardas. In September 867 Basil had Michael killed in his bedchamber and took the throne, founding the dynasty that ruled for nearly two centuries.",
+        "The histories of the Amorian dynasty were then written by and for that dynasty. Michael III became \"the Drunkard\", a squanderer whose removal was a deliverance, and the achievements of his reign were quietly reassigned or ignored.",
+        "The distortion is unusually complete and unusually well understood, which makes this dynasty one of the clearest cases in the archive of a record written by the winners. Modern historians credit the reign with the eastern turn, the Slavonic mission and the Bulgar conversion, while noting the credit belongs largely to Theodora, Bardas, Petronas and the patriarch Photios."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "820",
+      "title": "Michael II takes the throne",
+      "description": "Leo V is murdered in the palace chapel on Christmas morning and Michael is crowned still in his fetters."
+    },
+    {
+      "date": "821–823",
+      "title": "The revolt of Thomas the Slav",
+      "description": "A rebellion besieges Constantinople and nearly ends the dynasty in its third year."
+    },
+    {
+      "date": "829",
+      "title": "Accession of Theophilos",
+      "description": "The last iconoclast emperor begins a reign of continuous war with the Abbasids and conspicuous patronage at home."
+    },
+    {
+      "date": "838",
+      "title": "Amorion sacked",
+      "description": "Al-Mu'tasim destroys the dynasty's home city; the forty-two officers taken to Samarra are remembered as martyrs."
+    },
+    {
+      "date": "843",
+      "title": "The icons restored",
+      "description": "The regent Theodora ends iconoclasm at the synod kept as the Triumph of Orthodoxy."
+    },
+    {
+      "date": "856",
+      "title": "Bardas takes power",
+      "description": "Theodora is pushed aside; her brother governs as Caesar and her son reigns in name."
+    },
+    {
+      "date": "860",
+      "title": "The Rus' before the walls",
+      "description": "A seaborne raid reaches the capital, the first appearance of the Rus' in Byzantine history."
+    },
+    {
+      "date": "863",
+      "title": "Lalakaon",
+      "description": "Petronas destroys the army of the emir of Melitene, reversing the eastern frontier.",
+      "links": [
+        {
+          "title": "Battle of Lalakaon",
+          "type": "event",
+          "slug": "battle-of-lalakaon"
+        }
+      ]
+    },
+    {
+      "date": "863",
+      "title": "The Slavonic mission",
+      "description": "Cyril and Methodius are sent to Great Moravia and devise a written Slavonic language."
+    },
+    {
+      "date": "864",
+      "title": "Bulgaria converted",
+      "description": "The khan Boris accepts Christianity from Constantinople."
+    },
+    {
+      "date": "867",
+      "title": "The dynasty ends",
+      "description": "Basil the Macedonian murders Michael III and founds the Macedonian dynasty.",
+      "links": [
+        {
+          "title": "Michael III",
+          "type": "person",
+          "slug": "michael-iii"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Michael III",
+        "type": "person",
+        "slug": "michael-iii",
+        "label": "Its last emperor, murdered in 867"
+      },
+      {
+        "title": "Petronas",
+        "type": "person",
+        "slug": "petronas",
+        "label": "Brother of the empress Theodora, and victor of the Lalakaon"
+      },
+      {
+        "title": "Theodora (wife of Theophilos)",
+        "type": "person",
+        "slug": "theodora-wife-of-theophilos",
+        "label": "Empress and regent for Michael III"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Lalakaon",
+        "type": "event",
+        "slug": "battle-of-lalakaon",
+        "label": "The victory of its final reign"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm it ruled for forty-seven years"
+      },
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Which sacked its home city in 838, and collapsed during its last reign"
+      },
+      {
+        "title": "Emirate of Melitene",
+        "type": "location",
+        "slug": "emirate-of-melitene",
+        "label": "Destroyed as a raiding power under its last emperor"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes Continuatus",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_Continuatus",
+      "type": "primary source"
+    },
+    {
+      "title": "Amorian dynasty",
+      "url": "https://en.wikipedia.org/wiki/Amorian_dynasty",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Numismatic Museum, Athens",
+      "url": "https://www.nummus.gr/",
+      "type": "museum collection",
+      "institution": "Numismatic Museum of Athens"
+    }
+  ]
+}

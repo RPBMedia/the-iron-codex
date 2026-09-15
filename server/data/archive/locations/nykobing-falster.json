@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Town / castle site",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Christopher II of Denmark",
+    "Falster",
+    "Danish interregnum crisis"
+  ],
+  "overview": [
+    "A Danish town associated with Christopher II's death during Denmark's fourteenth-century royal crisis."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Nykobing Falster on the island of Falster was a Danish royal town and administrative center. As a crown possession, it served several Danish rulers and had administrative significance within the Danish archipelago."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Nykobing Falster's medieval significance lies primarily in its connection to Danish royal itinerary. The town's island position on Falster placed it within the chain of Danish island territories that crown rulers managed as part of their peripatetic governance of the realm."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Nykobing Falster",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Nyk%C3%B8bing_Falster_Klosterkirken.jpg"
+    },
+    {
+      "title": "Nykobing Falster reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Nykobing_Falster"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christopher II of Denmark",
+        "type": "person",
+        "slug": "christopher-ii-of-denmark",
+        "label": "Death of Christopher II of Denmark"
+      },
+      {
+        "title": "Eric V of Denmark",
+        "type": "person",
+        "slug": "eric-v-of-denmark"
+      },
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "nykobing-falster",
+  "name": "Nykobing Falster",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Klosterkirken_NyF.JPG",
+  "summary": "A Danish town associated with Christopher II's death during Denmark's fourteenth-century royal crisis.",
+  "imageInfo": {
+    "caption": "Nykøbing Falster, a Danish royal town in the southern archipelago.",
+    "creator": "Matthew Ross (Matthewross)",
+    "date": "2007-08-18",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klosterkirken_NyF.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

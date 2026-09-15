@@ -1,0 +1,81 @@
+{
+  "id": "lombardy",
+  "type": "location",
+  "name": "Lombardy",
+  "locationType": "Region",
+  "year": "Medieval period",
+  "kingdom": "Northern Italy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Map_of_Metropolitan_city_of_Milan_%28region_Lombardy%2C_Italy%29.svg",
+  "summary": "A northern Italian region of communes, bishops, and imperial politics central to the Lombard League world.",
+  "overview": [
+    "A northern Italian region of communes, bishops, and imperial politics central to the Lombard League world."
+  ],
+  "knownFor": [
+    "Lombard League",
+    "Milanese communal politics",
+    "Frederick Barbarossa"
+  ],
+  "imageInfo": {
+    "caption": "Lombardy in northern Italy, heartland of the Lombard League’s resistance to imperial authority.",
+    "creator": "Vonvikken",
+    "date": "2010-12-06",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Metropolitan_city_of_Milan_(region_Lombardy%2C_Italy).svg",
+    "license": "Public domain",
+    "note": "Map/diagram used to show extent or location."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Lombardy was the most contested region of northern Italy throughout the medieval period, combining wealthy communes, imperial ambitions, and papal politics in repeated conflict. The Lombard League — a coalition of northern Italian cities — confronted Frederick I Barbarossa at the Battle of Legnano in 1176 and forced him to recognize communal autonomy."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Lombardy's medieval political geography was shaped by the conflict between the Holy Roman Emperor's claims to Italy and the independence of its cities. Milan, the largest Lombard city, was repeatedly the focus of imperial siege and communal resistance. The region's wealth from trade and manufacture made it both a prize and a theater of Italian politics through the thirteenth century.",
+        "Lombard merchants and bankers played crucial roles in medieval European credit networks, and the term \"Lombard\" became synonymous with moneylending across Europe — a reflection of the region's commercial dominance."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Lombardy",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Lombardia_in_Italy.svg"
+    },
+    {
+      "title": "Lombardy reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Lombardy"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Guido da Landriano",
+        "type": "person",
+        "slug": "guido-da-landriano",
+        "label": "Birthplace of Guido da Landriano"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "Realm of Guido da Landriano"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano"
+      }
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "house-of-ayyubid",
+  "type": "house",
+  "name": "Ayyubid dynasty",
+  "aliases": [
+    "Ayyubid",
+    "Ayyubids",
+    "House of Ayyub",
+    "Ayyubid dynasty"
+  ],
+  "originYear": 1171,
+  "endYear": 1260,
+  "reignSpan": "1171–1260",
+  "region": "Egypt, Syria & the Levant",
+  "originPlace": "Kurdish origins; based in Egypt and Syria",
+  "arms": "The Ayyubids bore no Western coat of arms; a golden eagle is sometimes linked to the family.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saladin.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Saladin, founder of the Ayyubid dynasty, in a medieval depiction.",
+    "creator": "Medieval manuscript depiction",
+    "date": "Later depiction (Saladin r. 1171–1193)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saladin.jpg",
+    "note": "A medieval image of Saladin; contemporary likenesses of the sultan do not survive."
+  },
+  "summary": "The Kurdish dynasty founded by Saladin that reunited Egypt and Syria and retook Jerusalem from the Crusaders.",
+  "overview": "The Ayyubid dynasty was founded by Saladin, who ended the Fatimid caliphate in Egypt in 1171 and united Egypt and Muslim Syria under Sunni rule. He recovered Jerusalem in 1187 and withstood the Third Crusade; his brother al-Adil and nephew al-Kamil held the family empire together before it gave way to the Mamluks.",
+  "founder": {
+    "personSlug": "saladin",
+    "displayName": "Saladin",
+    "note": "Founder; united Egypt and Syria and retook Jerusalem"
+  },
+  "seats": [
+    {
+      "name": "Ayyubid Sultanate",
+      "type": "location",
+      "slug": "ayyubid-sultanate"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "shirkuh",
+      "displayName": "Shirkuh",
+      "note": "Saladin’s uncle; conquered Egypt for the family"
+    },
+    {
+      "personSlug": "saladin",
+      "displayName": "Saladin",
+      "note": "Founder of the dynasty; victor of Hattin"
+    },
+    {
+      "personSlug": "al-adil-i",
+      "displayName": "al-Adil I",
+      "note": "Saladin’s brother; reunited the Ayyubid lands"
+    },
+    {
+      "personSlug": "al-kamil",
+      "displayName": "al-Kamil",
+      "note": "Ceded Jerusalem to Frederick II by treaty"
+    },
+    {
+      "personSlug": "al-adil-ii",
+      "displayName": "al-Adil II",
+      "note": "Later Ayyubid sultan of Egypt"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Ayyubid family, descended from the Kurdish commander Ayyub. Saladin and al-Adil I were brothers; al-Kamil and al-Adil II continued the Egyptian line. Shirkuh, Saladin’s uncle, won Egypt for the family.",
+    "root": {
+      "name": "Shadhi",
+      "note": "Kurdish progenitor of the family",
+      "children": [
+        {
+          "name": "Najm ad-Din Ayyub",
+          "note": "the dynasty’s eponym",
+          "children": [
+            {
+              "name": "Saladin",
+              "personSlug": "saladin",
+              "note": "r. 1171–1193"
+            },
+            {
+              "name": "al-Adil I",
+              "personSlug": "al-adil-i",
+              "note": "r. 1200–1218",
+              "children": [
+                {
+                  "name": "al-Kamil",
+                  "personSlug": "al-kamil",
+                  "note": "r. 1218–1238",
+                  "children": [
+                    {
+                      "name": "al-Adil II",
+                      "personSlug": "al-adil-ii",
+                      "note": "r. 1238–1240"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shirkuh",
+          "personSlug": "shirkuh",
+          "note": "general; d. 1169"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The family were Kurds from Armenia who rose in the service of the Zengid rulers of Syria. Saladin’s uncle Shirkuh led Zengid armies into Fatimid Egypt, and when he died in 1169 the young Saladin succeeded him as vizier.",
+        "In 1171 Saladin abolished the Shia Fatimid caliphate, returned Egypt to Sunni allegiance, and after his master Nur ad-Din’s death made himself the independent ruler of Egypt and much of Syria, founding the Ayyubid dynasty."
+      ]
+    },
+    {
+      "title": "Saladin and the reconquest of Jerusalem",
+      "paragraphs": [
+        "Saladin united the Muslim Near East and turned against the Crusader states. In 1187 he destroyed the army of the Kingdom of Jerusalem at the Battle of Hattin and recaptured Jerusalem itself, ending eighty-eight years of Crusader rule over the holy city.",
+        "His victories provoked the Third Crusade, in which he faced Richard the Lionheart; the two fought to a stalemate and a truce that left Saladin in control of Jerusalem while allowing Christian pilgrimage. Even Western writers remembered him as a model of chivalry and generosity."
+      ]
+    },
+    {
+      "title": "The family empire",
+      "paragraphs": [
+        "Saladin divided his lands among his relatives, and after his death in 1193 his brother al-Adil I outmanoeuvred his sons to reunite the Ayyubid domains. Al-Adil’s son al-Kamil, ruling Egypt, took the pragmatic step in 1229 of ceding Jerusalem to the Emperor Frederick II by treaty rather than fighting the Sixth Crusade.",
+        "The Ayyubid realm was really a family confederation of princes in Cairo, Damascus, Aleppo, and beyond, held together — or divided — by kinship."
+      ]
+    },
+    {
+      "title": "Fall of the dynasty",
+      "paragraphs": [
+        "The reliance on slave-soldiers proved the dynasty’s undoing. In 1250 the Mamluks, the elite military slaves of the Egyptian Ayyubids, seized power in Cairo, and by 1260 the last Ayyubid rulers had been swept away, though minor branches lingered in Syria.",
+        "The Mamluks who replaced them would go on to destroy the remaining Crusader states and halt the Mongols."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Ayyubids reunited Egypt and Muslim Syria, restored Sunni Islam in Egypt, and made Saladin an enduring symbol of Muslim resistance to the Crusades. They fortified Cairo’s Citadel and patronised religious colleges (madrasas) across their lands.",
+        "Their fall to their own Mamluk soldiers set the pattern for the next three centuries of Egyptian history."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1171",
+      "title": "Saladin founds the dynasty",
+      "description": "The Fatimid caliphate is abolished and Egypt returns to Sunni rule.",
+      "links": [
+        {
+          "title": "Saladin",
+          "type": "person",
+          "slug": "saladin"
+        }
+      ]
+    },
+    {
+      "date": "1187",
+      "title": "Battle of Hattin and the fall of Jerusalem",
+      "description": "Saladin destroys the Crusader army and retakes Jerusalem.",
+      "links": [
+        {
+          "title": "Battle of Hattin",
+          "type": "event",
+          "slug": "battle-of-hattin"
+        }
+      ]
+    },
+    {
+      "date": "1192",
+      "title": "Truce of the Third Crusade",
+      "description": "Saladin and Richard the Lionheart reach a settlement.",
+      "links": [
+        {
+          "title": "Third Crusade",
+          "type": "event",
+          "slug": "third-crusade"
+        }
+      ]
+    },
+    {
+      "date": "1229",
+      "title": "al-Kamil cedes Jerusalem",
+      "description": "Jerusalem is handed to Frederick II by treaty.",
+      "links": [
+        {
+          "title": "al-Kamil",
+          "type": "person",
+          "slug": "al-kamil"
+        }
+      ]
+    },
+    {
+      "date": "1250",
+      "title": "The Mamluks seize power",
+      "description": "The dynasty’s slave-soldiers overthrow the Egyptian Ayyubids."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Founder"
+      },
+      {
+        "title": "al-Adil I",
+        "type": "person",
+        "slug": "al-adil-i",
+        "label": "Reunited the family lands"
+      },
+      {
+        "title": "al-Kamil",
+        "type": "person",
+        "slug": "al-kamil",
+        "label": "Ceded Jerusalem by treaty"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "Saladin’s great victory, 1187"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Saladin vs. Richard the Lionheart"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "Their realm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Ayyubid dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Ayyubid-dynasty"
+    },
+    {
+      "title": "Saladin — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Saladin"
+    },
+    {
+      "title": "Ayyubid dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Ayyubid_dynasty"
+    }
+  ]
+}

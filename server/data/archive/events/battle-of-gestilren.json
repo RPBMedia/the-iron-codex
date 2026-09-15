@@ -1,0 +1,151 @@
+{
+  "id": "battle-of-gestilren",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Gestilren",
+  "year": 1210,
+  "location": "Gestilren, Sweden",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sweden_relief_location_map.jpg",
+  "summary": "A Swedish dynastic battle in 1210 where Sverker II was defeated and killed by forces supporting Erik Knutsson.",
+  "details": "A Swedish dynastic battle in 1210 where Sverker II was defeated and killed by forces supporting Erik Knutsson.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Gestilren was fought in 1210 during the dynastic struggle between the Sverker and Erik lines in Sweden. Sverker II was killed, and Erik Knutsson’s rule was secured."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Swedish kingship in the late twelfth and early thirteenth centuries was contested by rival royal houses. Earlier conflict at Lena in 1208 set the stage for the final confrontation."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Details are sparse, but the result is clear: Sverker II died in battle and the Erik line prevailed."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Erik Knutsson ruled as king after Gestilren, though dynastic conflict did not disappear from Swedish politics."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Gestilren is important because it marks a decisive moment in the struggle between two royal houses during the consolidation of medieval Swedish kingship."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Erik line",
+      "factions": [
+        {
+          "name": "Kingdom of Sweden",
+          "title": "Kingdom of Sweden",
+          "type": "location",
+          "slug": "kingdom-of-sweden"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Erik Knutsson",
+          "title": "Erik Knutsson",
+          "type": "person",
+          "slug": "erik-knutsson"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; no reliable figures survive",
+        "confidence": "unknown",
+        "note": "This early-13th-century Swedish dynastic battle is barely documented; no army sizes are recorded."
+      }
+    },
+    {
+      "side": "Sverker line",
+      "factions": [
+        {
+          "name": "Kingdom of Sweden",
+          "title": "Kingdom of Sweden",
+          "type": "location",
+          "slug": "kingdom-of-sweden"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sverker II of Sweden",
+          "title": "Sverker II of Sweden",
+          "type": "person",
+          "slug": "sverker-ii-of-sweden"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; no reliable figures survive",
+        "confidence": "unknown",
+        "note": "Sverker II was killed here; the sources give no usable numbers for either side."
+      }
+    }
+  ],
+  "outcome": "Result preserved in medieval narrative tradition; details vary by source.",
+  "imageInfo": {
+    "caption": "Battle of Gestilren, represented with a relevant public-domain or Commons image.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "public-domain or modern image",
+    "source": "Wikimedia Commons",
+    "note": "Used to represent the battle context where no contemporary battle image is securely available."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Battle of Gestilren",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweden_relief_location_map.jpg"
+    },
+    {
+      "title": "Battle of Gestilren reference entry",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Gestilren"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Erik Knutsson",
+        "type": "person",
+        "slug": "erik-knutsson",
+        "label": "Commander"
+      },
+      {
+        "title": "Sverker II of Sweden",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden",
+        "label": "Sverker II of Sweden was killed here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Gestilren",
+        "type": "location",
+        "slug": "gestilren",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Combatant faction"
+      }
+    ]
+  },
+  "battleContinuity": {
+    "label": "Another Scandinavian crown decided in battle",
+    "battleSlug": "battle-of-stiklestad",
+    "relationship": "earlier-context",
+    "reason": "Sverker II fell at Gestilren contending for the Swedish throne, as Olaf II Haraldsson had fallen at Stiklestad contending for Norway's — kings killed in dynastic battles remembered chiefly through later narrative tradition."
+  }
+}

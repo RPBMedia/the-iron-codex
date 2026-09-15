@@ -1,0 +1,224 @@
+{
+  "id": "battle-of-beroia",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Beroia",
+  "aliases": [
+    "Battle of Beroe"
+  ],
+  "year": 1122,
+  "location": "Beroia, in Thrace",
+  "eventLocation": "Near Beroia in Thrace, modern Stara Zagora",
+  "conflict": "The Byzantine–Pecheneg wars",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John'sEmpire.jpg",
+  "imageInfo": {
+    "caption": "The Byzantine Empire under John II Komnenos, whose Balkan frontier the Pecheneg crossing of 1122 threatened.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the empire under John II",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:John%27sEmpire.jpg",
+    "note": "A modern map. No depiction of the battle exists; what the map shows is why it mattered — a Pecheneg force loose in Thrace was inside the empire's European core, not on its edge. Public domain."
+  },
+  "summary": "In 1122 John II Komnenos destroyed the last Pecheneg host at Beroia, breaking their wagon laager with the axes of the Varangian Guard. The Pechenegs disappear from history afterwards.",
+  "details": "The battle that ended a people, and the last great action of the Varangian Guard.",
+  "outcome": "Decisive Byzantine victory; the Pecheneg host destroyed and its survivors settled in the empire.",
+  "background": "A Pecheneg remnant that had survived Levounion crossed the Danube into Byzantine territory.",
+  "battle": "Repeated attacks failed against the wagon laager until the Varangian Guard was sent in with axes to cut it apart.",
+  "aftermath": "John instituted an annual feast to commemorate the victory; the Pechenegs cease to appear as a people.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Thirty-one years after Levounion, a Pecheneg force crossed the Danube into imperial territory — the remnant that had stayed north of the river when the main host was destroyed in Thrace.",
+        "John II Komnenos met them near Beroia in Thrace in 1122. The Pechenegs did what steppe peoples on the defensive did: they formed their wagons into a fortified circle and fought from inside it.",
+        "Byzantine attacks failed repeatedly against the laager until the emperor sent in the Varangian Guard, whose two-handed axes cut the wagons apart. The Pechenegs were destroyed, and after 1122 they do not appear again as an independent people."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "John II had succeeded his father Alexios in 1118 and inherited a recovering empire and a policy of consolidation on every frontier.",
+        "The Pecheneg crossing was not a migration on the scale of the 1040s but it was serious enough to require a field campaign, and the emperor first tried what his father had done — negotiation, gifts, and buying off some chieftains against others.",
+        "It bought time rather than a settlement, and in 1122 he brought them to battle."
+      ]
+    },
+    {
+      "title": "The wagon laager",
+      "paragraphs": [
+        "The Pecheneg formation was the standard steppe defensive tactic: the wagons drawn into a ring, the animals and families inside, archers shooting from between and beneath them.",
+        "It was extremely difficult to attack with cavalry, which is what a Byzantine field army mainly was, and the first Byzantine assaults were beaten back with loss. John was wounded in the leg by an arrow during the fighting.",
+        "The solution was infantry with the right weapon. The Varangian Guard — by this date largely English and Danish, and armed with the long two-handed axe — was sent in to break the wagons themselves, and it did. Once the ring was open the cavalry could enter, and the battle became a massacre."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The survivors were enrolled in imperial service and settled inside the empire, as those of Levounion had been. Pecheneg troops continued to appear in Byzantine armies, but as imperial soldiers rather than as a people with a policy of their own.",
+        "John instituted an annual commemoration — the \"Pecheneg feast\" — which was still being kept generations later.",
+        "The Danube frontier was quiet afterwards for a generation, and John spent the following years on Hungary, on the Serbs, and then on the eastern campaigns that occupied the rest of his reign."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Beroia is the end of a people. The Pechenegs had dominated the north Pontic steppe for two centuries, destroyed the Magyars' homeland and pushed them into Pannonia, killed a prince of Kiev, and fought the empire for eighty years; after 1122 they are a name in other people's armies.",
+        "It is also the last great action of the Varangian Guard as a decisive battlefield force. The unit continued for another two centuries, but this is the engagement in which it did the thing it was famous for and changed the outcome.",
+        "For John II it confirmed the Komnenian restoration in Europe. His father had bought a victory with Cuman mercenaries in 1091; the son won one with his own army in 1122, which is a fair measure of what thirty years had rebuilt."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1091",
+      "title": "Levounion",
+      "description": "The main Pecheneg host is destroyed in Thrace by Alexios I and his Cuman allies.",
+      "links": [
+        {
+          "title": "Battle of Levounion",
+          "type": "event",
+          "slug": "battle-of-levounion"
+        }
+      ]
+    },
+    {
+      "date": "1118",
+      "title": "John II succeeds",
+      "description": "Alexios dies and his son inherits a recovering empire and a policy of consolidation."
+    },
+    {
+      "date": "1121",
+      "title": "The Pechenegs cross the Danube",
+      "description": "The remnant that stayed north of the river enters imperial territory."
+    },
+    {
+      "date": "1122",
+      "title": "Negotiation fails",
+      "description": "Gifts and the buying of chieftains buy time rather than a settlement."
+    },
+    {
+      "date": "1122",
+      "title": "Beroia",
+      "description": "The wagon laager is broken by the Varangian Guard and the Pecheneg host destroyed; John is wounded by an arrow."
+    },
+    {
+      "date": "After 1122",
+      "title": "The Pecheneg feast",
+      "description": "John institutes an annual commemoration of the victory, kept for generations."
+    }
+  ],
+  "participants": [
+    {
+      "side": "Byzantine Empire",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John II Komnenos",
+          "title": "John II Komnenos",
+          "type": "person",
+          "slug": "john-ii-komnenos"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the imperial field army with the Varangian Guard",
+        "confidence": "unknown",
+        "note": "No figures survive. The composition matters more than the size: the battle turned on having axe-armed infantry available when the cavalry could not break the wagons."
+      }
+    },
+    {
+      "side": "Pechenegs",
+      "factions": [
+        {
+          "name": "Pechenegs",
+          "title": "Pechenegs",
+          "type": "location",
+          "slug": "pechenegs"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "The Pecheneg chieftains (not individually named in the sources)",
+          "note": "Not a gap in this archive: the Byzantine accounts describe the laager and its destruction without naming the leaders inside it."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a migrating host fighting from a wagon laager",
+        "confidence": "unknown",
+        "note": "As at Levounion, the Pechenegs were encamped as a people rather than deployed as an army, with families and animals inside the wagon ring."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue to the Komnenian high point",
+    "battleSlug": "battle-of-sirmium",
+    "relationship": "same-region",
+    "reason": "Beroia secured the Danube frontier for a generation; forty-five years later at Sirmium the empire went further and made the kingdom of Hungary itself accept Byzantine overlordship — the furthest Byzantine authority reached in Europe after the eleventh century."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John II Komnenos",
+        "type": "person",
+        "slug": "john-ii-komnenos",
+        "label": "Commanded, and was wounded in the fighting"
+      },
+      {
+        "title": "Alexios I Komnenos",
+        "type": "person",
+        "slug": "alexios-i-komnenos",
+        "label": "His father, who had destroyed the main host in 1091"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Levounion",
+        "type": "event",
+        "slug": "battle-of-levounion",
+        "label": "Where the main Pecheneg host was destroyed"
+      },
+      {
+        "title": "Battle of Sirmium",
+        "type": "event",
+        "slug": "battle-of-sirmium",
+        "label": "The Komnenian high point in Europe"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Pechenegs",
+        "type": "location",
+        "slug": "pechenegs",
+        "label": "Ended as a people here"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Whose Danube frontier this secured"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John Kinnamos, Deeds of John and Manuel Comnenus",
+      "url": "https://en.wikipedia.org/wiki/John_Kinnamos",
+      "type": "primary source"
+    },
+    {
+      "title": "Niketas Choniates, History",
+      "url": "https://en.wikipedia.org/wiki/Niketas_Choniates",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Beroia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Beroia",
+      "type": "encyclopedia"
+    }
+  ]
+}

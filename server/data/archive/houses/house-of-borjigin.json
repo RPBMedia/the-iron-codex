@@ -1,0 +1,172 @@
+{
+  "id": "house-of-borjigin",
+  "type": "house",
+  "name": "House of Borjigin",
+  "aliases": [
+    "Borjigin (house of Jochi)",
+    "Borjigin",
+    "Borjigid",
+    "House of Jochi",
+    "Jochid",
+    "Golden Horde dynasty",
+    "Genghisid"
+  ],
+  "originYear": 1206,
+  "endYear": 1502,
+  "reignSpan": "Golden Horde, 1240s–1502",
+  "region": "The western Mongol steppe & the Rus’ lands",
+  "originPlace": "The Mongolian steppe",
+  "arms": "None — the Mongol khans used the tamga, a clan seal-mark, rather than European heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batu_Khan_on_the_Throne_by_Rashid_al-Din_%28cropped%29.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Batu Khan enthroned as ruler of the Golden Horde, in a manuscript of Rashid al-Din’s Jami al-tawarikh.",
+    "creator": "Rashid al-Din, Jami al-tawarikh",
+    "date": "Manuscript c. 1430s (Batu d. 1255)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batu_Khan_on_the_Throne_by_Rashid_al-Din_(cropped).jpg",
+    "note": "A Persian manuscript depiction from the Mongol historiographical tradition, not a life portrait."
+  },
+  "summary": "The imperial clan of Genghis Khan, whose Jochid branch under Batu Khan founded the Golden Horde and dominated the Rus’ lands for over two centuries.",
+  "overview": "The Borjigin were the ruling clan of the Mongol Empire, the house of Genghis Khan. Its senior western branch descended from his eldest son Jochi, and it was Jochi’s son Batu who led the Mongol conquest of Europe and founded the Golden Horde — the khanate that ruled the western steppe and held the Russian principalities in vassalage until the fifteenth century.",
+  "founder": {
+    "displayName": "Genghis Khan",
+    "note": "United the Mongols in 1206; founder of the Borjigin imperial clan (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "batu-khan",
+      "displayName": "Batu Khan",
+      "note": "Founder of the Golden Horde; led the invasion of Europe"
+    },
+    {
+      "displayName": "Jochi",
+      "note": "Genghis Khan’s eldest son, from whom the western branch descends"
+    },
+    {
+      "displayName": "Berke",
+      "note": "Batu’s brother and successor; the first Mongol khan to adopt Islam"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Jochid branch of the Borjigin clan: Genghis Khan’s eldest son Jochi and his sons Batu and Berke, founders and rulers of the Golden Horde; only Batu has a Codex article so far.",
+    "root": {
+      "name": "Genghis Khan",
+      "note": "united the Mongols, 1206",
+      "children": [
+        {
+          "name": "Jochi",
+          "note": "eldest son; the western ulus",
+          "children": [
+            {
+              "name": "Batu Khan",
+              "personSlug": "batu-khan",
+              "note": "founded the Golden Horde"
+            },
+            {
+              "name": "Berke",
+              "note": "khan; first Muslim convert of the line"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Borjigin were the clan of Temüjin, who as Genghis Khan united the Mongol tribes in 1206 and built the largest contiguous land empire in history. In the Mongol system each of his sons received an ulus, a share of peoples and lands: to his eldest son Jochi fell the westernmost territories, \"as far as Mongol hooves had trodden.\" Jochi died before his father, and his inheritance passed to his sons.",
+        "From this Jochid branch — one line of the wider Genghisid house — grew the khanate that Europeans and Russians came to call the Golden Horde."
+      ]
+    },
+    {
+      "title": "Batu Khan and the conquest of the west",
+      "paragraphs": [
+        "Between 1236 and 1242 Jochi’s son Batu, with the veteran general Subutai directing the campaigns, led the Mongol armies across the Volga: they destroyed the Rus’ principalities, sacked Kiev in 1240, and burst into Central Europe, crushing the Hungarians at the Battle of Mohi and the Poles and Germans at Legnica in 1241. Only the death of the Great Khan Ögedei, which recalled the princes to the Mongol homeland, spared western Europe a deeper invasion.",
+        "Batu withdrew to the lower Volga and made his capital at Sarai, organising the conquered steppe and the Russian lands into a durable state. Though he never took the title of Great Khan himself, his influence made him a decisive voice in the succession struggles of the empire."
+      ]
+    },
+    {
+      "title": "The Golden Horde",
+      "paragraphs": [
+        "The Jochid state Batu founded held the Russian principalities as tributaries for more than two centuries: their princes travelled to Sarai for the patent to rule, and Moscow’s later rise began as the horde’s favoured tax-collector. Under Batu’s brother Berke the ruling house adopted Islam, and the khanate became a major Islamic power straddling the trade routes between Europe and Asia.",
+        "The Golden Horde fragmented in the fifteenth century into the khanates of Kazan, Astrakhan, and Crimea, and the \"great horde\" itself was extinguished in 1502 — but the Genghisid, Jochid bloodline remained the badge of legitimate rule across the steppe long afterward."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1206",
+      "title": "Genghis Khan unites the Mongols",
+      "description": "The Borjigin clan founds the Mongol Empire."
+    },
+    {
+      "date": "1241",
+      "title": "Battle of Mohi",
+      "description": "Batu and Subutai destroy the Hungarian army in the invasion of Europe.",
+      "links": [
+        {
+          "title": "Battle of Mohi",
+          "type": "event",
+          "slug": "battle-of-mohi"
+        }
+      ]
+    },
+    {
+      "date": "1240s",
+      "title": "The Golden Horde founded",
+      "description": "Batu organises the western ulus from his capital at Sarai.",
+      "links": [
+        {
+          "title": "Batu Khan",
+          "type": "person",
+          "slug": "batu-khan"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Batu Khan",
+        "type": "person",
+        "slug": "batu-khan",
+        "label": "Founder of the Golden Horde"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai",
+        "label": "The general who won his European campaigns"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi",
+        "label": "Batu’s destruction of Hungary, 1241"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Batu — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Batu"
+    },
+    {
+      "title": "Batu Khan — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Batu_Khan"
+    },
+    {
+      "title": "Golden Horde — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Golden_Horde"
+    }
+  ]
+}

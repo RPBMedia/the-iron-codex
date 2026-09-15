@@ -1,0 +1,193 @@
+{
+  "id": "house-of-luxembourg",
+  "type": "house",
+  "name": "House of Luxembourg",
+  "aliases": [
+    "Luxembourg",
+    "House of Luxembourg",
+    "Luxembourg dynasty",
+    "Limburg-Luxembourg"
+  ],
+  "originYear": 1308,
+  "endYear": 1437,
+  "reignSpan": "1308–1437 (imperial line)",
+  "region": "Luxembourg, Bohemia, Hungary & the Empire",
+  "originPlace": "County of Luxembourg",
+  "arms": "Barry of ten argent and azure, a lion rampant queue-fourchée gules crowned or — the Luxembourg lion.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigismund,_Holy_Roman_Emperor,_by_Albrecht_D%C3%BCrer.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Emperor Sigismund of Luxembourg, the last of the male line, in Albrecht Dürer’s posthumous portrait (c. 1512).",
+    "creator": "Albrecht Dürer",
+    "date": "c. 1512 (posthumous; Sigismund d. 1437)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sigismund,_Holy_Roman_Emperor,_by_Albrecht_D%C3%BCrer.jpg",
+    "note": "A posthumous idealised portrait painted by Dürer for Nuremberg some seventy-five years after Sigismund’s death, not a contemporary likeness."
+  },
+  "summary": "The counts of Luxembourg who won the imperial crown and the thrones of Bohemia and Hungary — Henry VII, Charles IV, and Sigismund.",
+  "overview": "The House of Luxembourg rose from a frontier county to become one of the greatest dynasties of the late medieval Empire. Henry VII gained the imperial crown in 1312; his son John the Blind became King of Bohemia; John’s son Charles IV issued the Golden Bull and made Prague an imperial capital; and Charles’s son Sigismund, king of Hungary and Bohemia and emperor, convened the Council of Constance before the male line ended at his death in 1437.",
+  "founder": {
+    "displayName": "Henry VII, Holy Roman Emperor",
+    "note": "Count of Luxembourg elected King of the Romans in 1308, crowned emperor 1312 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Holy Roman Empire",
+      "type": "location",
+      "slug": "holy-roman-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Henry VII",
+      "note": "Count of Luxembourg; Holy Roman Emperor from 1312"
+    },
+    {
+      "displayName": "John the Blind",
+      "note": "King of Bohemia; died fighting for France at Crécy, 1346"
+    },
+    {
+      "displayName": "Charles IV",
+      "note": "Emperor and King of Bohemia; issued the Golden Bull of 1356"
+    },
+    {
+      "personSlug": "sigismund-of-luxembourg",
+      "displayName": "Sigismund",
+      "note": "Emperor, King of Hungary and Bohemia; convened the Council of Constance"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Luxembourg imperial line from Henry VII to Sigismund; only Sigismund has a Codex article so far, the others are named but not yet linked.",
+    "root": {
+      "name": "Henry VII",
+      "note": "Holy Roman Emperor, d. 1313",
+      "children": [
+        {
+          "name": "John the Blind",
+          "note": "King of Bohemia, d. 1346 at Crécy",
+          "children": [
+            {
+              "name": "Charles IV",
+              "note": "Emperor; Golden Bull of 1356",
+              "children": [
+                {
+                  "name": "Wenceslaus",
+                  "note": "King of the Romans and Bohemia (deposed 1400)"
+                },
+                {
+                  "name": "Sigismund",
+                  "personSlug": "sigismund-of-luxembourg",
+                  "note": "Emperor; d. 1437, ending the male line"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Luxembourgs were counts of a small but strategically placed territory between France and the Empire. Their fortunes were transformed in 1308 when Henry VII was elected King of the Romans; crowned emperor at Rome in 1312, he revived imperial ambitions in Italy before dying there in 1313. Through a marriage alliance he secured the crown of Bohemia for his son John.",
+        "From Bohemia, one of the wealthiest kingdoms of the Empire, the Luxembourgs built a power base that let them contend for the imperial throne across the fourteenth century against the Wittelsbachs and Habsburgs."
+      ]
+    },
+    {
+      "title": "John the Blind and Charles IV",
+      "paragraphs": [
+        "John of Bohemia, \"the Blind,\" was the model of a wandering chivalric king, campaigning from Lithuania to Italy; blind in his last years, he insisted on being led into the fight at the Battle of Crécy in 1346 and was killed there. His son Charles IV became the dominant statesman of the age: emperor and King of Bohemia, he made Prague a capital with a university and a great cathedral, and in 1356 issued the Golden Bull that fixed the procedure for imperial elections for centuries.",
+        "Under Charles IV the dynasty reached its height, holding the Empire, Bohemia, and Brandenburg and shaping the constitution of the Holy Roman Empire itself."
+      ]
+    },
+    {
+      "title": "Sigismund and the end of the line",
+      "paragraphs": [
+        "Charles’s son Sigismund inherited Hungary through marriage and later Bohemia and the Empire. His long reign was dominated by two crises: the Great Western Schism, which he ended by convening the Council of Constance (1414–1418) — the same council that condemned and burned the Bohemian reformer Jan Hus — and the Hussite Wars that erupted in Bohemia in response.",
+        "Sigismund died in 1437 as the last male Luxembourg. Through his daughter Elizabeth, married to Albert of Habsburg, the crowns of Hungary and Bohemia and the imperial claim passed to the House of Habsburg, opening their long ascendancy."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1312",
+      "title": "Henry VII crowned emperor",
+      "description": "The Count of Luxembourg gains the imperial crown at Rome."
+    },
+    {
+      "date": "1356",
+      "title": "The Golden Bull",
+      "description": "Charles IV fixes the rules for electing the Holy Roman Emperor."
+    },
+    {
+      "date": "1437",
+      "title": "Death of Sigismund",
+      "description": "The last male Luxembourg dies; the inheritance passes to the Habsburgs.",
+      "links": [
+        {
+          "title": "Sigismund",
+          "type": "person",
+          "slug": "sigismund-of-luxembourg"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sigismund",
+        "type": "person",
+        "slug": "sigismund-of-luxembourg",
+        "label": "Emperor; last of the male line"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Wittelsbach",
+        "type": "house",
+        "slug": "house-of-wittelsbach",
+        "label": "The imperial house it displaced under Charles IV"
+      },
+      {
+        "title": "House of Valois",
+        "type": "house",
+        "slug": "house-of-valois",
+        "label": "The French royal house John the Blind died serving at Crécy"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Luxembourg — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/house-of-Luxembourg"
+    },
+    {
+      "title": "Sigismund, Holy Roman Emperor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sigismund,_Holy_Roman_Emperor"
+    },
+    {
+      "title": "Charles IV, Holy Roman Emperor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20the%20House%20of%20Luxembourg.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the House of Luxembourg — barry of silver and blue, a crowned red lion.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_House_of_Luxembourg.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

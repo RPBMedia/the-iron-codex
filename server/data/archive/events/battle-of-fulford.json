@@ -1,0 +1,216 @@
+{
+  "id": "battle-of-fulford",
+  "type": "event",
+  "name": "Battle of Fulford",
+  "year": 1066,
+  "location": "Fulford, near York, England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Fulford.png",
+  "imageInfo": {
+    "caption": "The Battle of Fulford in a Matthew Paris manuscript tradition.",
+    "creator": "Matthew Paris manuscript tradition / Wikimedia Commons",
+    "date": "thirteenth-century manuscript image",
+    "source": "Wikimedia Commons",
+    "note": "Medieval manuscript image, not an eyewitness depiction of the 1066 battle."
+  },
+  "summary": "Harald Hardrada and Tostig Godwinson defeated northern English forces near York shortly before Stamford Bridge.",
+  "details": "The Battle of Fulford was fought on 20 September 1066 near York. Harald Hardrada and Tostig Godwinson defeated the northern earls Edwin and Morcar, opening York to the Norwegian-led invasion before Harold Godwinson marched north and destroyed the invading army at Stamford Bridge.",
+  "eventType": "Battle",
+  "conflict": "English succession crisis of 1066",
+  "factions": [
+    "Kingdom of Norway",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Harald Hardrada",
+      "faction": "Norwegian invasion force",
+      "personId": "harald-hardrada"
+    },
+    {
+      "name": "Tostig Godwinson",
+      "faction": "Norwegian invasion force",
+      "personId": "tostig-godwinson"
+    },
+    {
+      "name": "Edwin of Mercia",
+      "faction": "Northern English forces"
+    },
+    {
+      "name": "Morcar of Northumbria",
+      "faction": "Northern English forces"
+    }
+  ],
+  "eventLocation": {
+    "name": "Fulford",
+    "locationId": "stamford-bridge"
+  },
+  "outcome": "Norwegian victory; York was exposed, but Harold Godwinson soon counterattacked at Stamford Bridge.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Fulford was fought near York on 20 September 1066, when Harald Hardrada and Tostig Godwinson defeated the northern English forces of Earls Edwin and Morcar. It was the first major battle of the English succession crisis that autumn.",
+        "Fulford opened the road to York and made the Norwegian invasion look immediately dangerous. Its victory also helped draw Harald and Tostig into the position where Harold Godwinson could surprise them at Stamford Bridge five days later."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After Edward the Confessor died, Harold Godwinson took the English throne, but his rule faced threats from William of Normandy in the south and Harald Hardrada in the north. Tostig Godwinson, Harold’s exiled brother, joined Hardrada and gave the Norwegian invasion English political support.",
+        "The northern earls Edwin and Morcar had to respond before Harold could bring the main royal army from the south. Their stand near Fulford was an attempt to block the invaders before York submitted."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Hardrada commanded an experienced Norwegian force, supported by Tostig and allies gathered for the invasion. Medieval numbers are uncertain, and later accounts should be treated cautiously.",
+        "The English side was led by Edwin of Mercia and Morcar of Northumbria, whose forces were regionally powerful but had to face the invaders without Harold Godwinson’s main army."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The fighting took place in difficult ground near Fulford, with marsh, water, and approaches to York shaping movement. The English initially resisted strongly, but Hardrada’s forces broke through and routed them.",
+        "The victory allowed the invaders to negotiate York’s submission and prepare to receive hostages at Stamford Bridge. That expectation of submission helped create the conditions for Harold Godwinson’s surprise march north."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Fulford weakened northern English resistance and briefly strengthened Hardrada’s claim. York was exposed, and the Norwegian-led army appeared to have gained a major foothold.",
+        "The success lasted only days. Harold Godwinson reached Yorkshire with remarkable speed and defeated Hardrada and Tostig at Stamford Bridge on 25 September 1066."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Fulford matters because it explains why Stamford Bridge happened when and where it did. The battle was not an isolated Norwegian victory but the opening move in the compressed military sequence that led from York to Stamford Bridge and then to Hastings.",
+        "It also shows how regional English defense, exile politics, and Scandinavian royal ambition collided in 1066 before the Norman landing in Sussex."
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
+      },
+      {
+        "title": "Tostig Godwinson",
+        "type": "person",
+        "slug": "tostig-godwinson"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge"
+      },
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Stamford Bridge",
+        "type": "location",
+        "slug": "stamford-bridge",
+        "label": "Where the Norwegians went to receive hostages"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "English Heritage: 1066 and the Battle of Fulford",
+      "author": "English Heritage",
+      "type": "institutional article",
+      "url": "https://www.english-heritage.org.uk/learn/1066-and-the-norman-conquest/battle-of-fulford/"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Fulford.png"
+    }
+  ],
+  "battleContinuity": {
+    "label": "Five days later at Stamford Bridge",
+    "battleSlug": "battle-of-stamford-bridge",
+    "relationship": "same-campaign",
+    "reason": "Fulford gave Harald Hardrada and Tostig Godwinson control of the approach to York, but within five days Harold Godwinson's army arrived from the south and destroyed the Norwegian force at Stamford Bridge."
+  },
+  "participants": [
+    {
+      "side": "Norwegian invasion force",
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harald Hardrada",
+          "title": "Harald Hardrada",
+          "type": "person",
+          "slug": "harald-hardrada"
+        },
+        {
+          "name": "Tostig Godwinson",
+          "title": "Tostig Godwinson",
+          "type": "person",
+          "slug": "tostig-godwinson"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; likely several thousand",
+        "confidence": "debated",
+        "note": "Part of the large invasion fleet that Harald Hardrada led to Yorkshire in 1066."
+      }
+    },
+    {
+      "side": "Northern English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edwin of Mercia",
+          "title": "Edwin of Mercia",
+          "note": "No article yet: earl of Mercia, whose defeat here with his brother left Harold Godwinson to meet two invasions in three weeks."
+        },
+        {
+          "name": "Morcar of Northumbria",
+          "title": "Morcar of Northumbria",
+          "note": "No article yet: earl of Northumbria, beaten here five days before Stamford Bridge."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; likely several thousand",
+        "confidence": "debated",
+        "note": "The levies of the northern earls Edwin and Morcar, defeated before Harold Godwinson could arrive."
+      }
+    }
+  ]
+}

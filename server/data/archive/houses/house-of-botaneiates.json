@@ -1,0 +1,163 @@
+{
+  "id": "house-of-botaneiates",
+  "type": "house",
+  "name": "House of Botaneiates",
+  "aliases": [
+    "Botaneiates (transitional)",
+    "Botaneiates",
+    "Botaniates",
+    "Botaneiates dynasty"
+  ],
+  "originYear": 1078,
+  "endYear": 1081,
+  "reignSpan": "1078–1081",
+  "region": "The Byzantine Empire",
+  "originPlace": "The Anatolian themes",
+  "arms": "None — Byzantine emperors used no Western heraldry; imperial identity was shown through the crown, loros, and labarum.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Meister%20der%20Predigtsammlung%20des%20Heiligen%20Johannes%20Chrysostomus%20001.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Emperor Nikephoros III Botaneiates in full regalia between St John Chrysostom and the Archangel Michael, in a manuscript made during his reign (Coislin 79, c. 1078–1081).",
+    "creator": "Byzantine court manuscript (Coislin 79)",
+    "date": "c. 1078–1081",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meister_der_Predigtsammlung_des_Heiligen_Johannes_Chrysostomus_001.jpg",
+    "note": "A contemporary imperial portrait from a luxury manuscript made for Nikephoros III himself."
+  },
+  "summary": "The brief imperial house of Nikephoros III Botaneiates, the elderly general who held the Byzantine throne between the Doukas and Komnenos dynasties.",
+  "overview": "The Botaneiatai were an old Anatolian military family. Their one emperor, Nikephoros III Botaneiates, seized the throne in 1078 amid the collapse that followed the defeat at Manzikert, ruling a shrinking empire beset by revolts. After three years he was overthrown by Alexios I Komnenos, whose accession began the Komnenian restoration — making the Botaneiates reign a short bridge between two great dynasties.",
+  "founder": {
+    "personSlug": "nikephoros-iii-botaneiates",
+    "displayName": "Nikephoros III Botaneiates",
+    "note": "Anatolian general who seized the throne in 1078"
+  },
+  "seats": [
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "nikephoros-iii-botaneiates",
+      "displayName": "Nikephoros III Botaneiates",
+      "note": "Byzantine emperor, 1078–1081"
+    },
+    {
+      "displayName": "Maria of Alania",
+      "note": "His empress, a Georgian princess, previously married to Michael VII Doukas"
+    }
+  ],
+  "familyTree": {
+    "caption": "A one-emperor house: the Anatolian family of the Botaneiatai produced only Nikephoros III, whose short reign linked the Doukas and Komnenos dynasties.",
+    "root": {
+      "name": "The Botaneiatai family",
+      "note": "Anatolian military aristocracy",
+      "children": [
+        {
+          "name": "Nikephoros III Botaneiates",
+          "personSlug": "nikephoros-iii-botaneiates",
+          "note": "Emperor, 1078–1081"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Botaneiatai were a distinguished family of the Anatolian military aristocracy, the class of provincial generals who had long supplied Byzantium with soldiers and emperors. Nikephoros Botaneiates rose through decades of campaigning on the empire’s eastern and Balkan frontiers, and claimed a lineage reaching back to the great tenth-century house of Phokas and beyond.",
+        "His bid for the throne came in the crisis years of the 1070s, when the empire reeled from the loss of most of Anatolia to the Seljuk Turks and from repeated civil wars among its generals."
+      ]
+    },
+    {
+      "title": "Nikephoros III on the throne",
+      "paragraphs": [
+        "In 1078 Nikephoros, already an old man, revolted against the ineffective Michael VII Doukas and was proclaimed emperor, entering Constantinople and marrying Michael’s empress, Maria of Alania, to bolster his legitimacy. His short reign was consumed by fresh rebellions — including that of Nikephoros Bryennios, whom he defeated with the help of a young general named Alexios Komnenos — and by the empire’s continuing military and financial collapse.",
+        "The luxury manuscripts he commissioned, such as the homilies of John Chrysostom now called Coislin 79, show him in full imperial majesty, but the reality of his rule was a state contracting on every front."
+      ]
+    },
+    {
+      "title": "Fall and significance",
+      "paragraphs": [
+        "In 1081 the very general who had served him, Alexios Komnenos, turned against the childless old emperor and seized Constantinople. Nikephoros abdicated without much resistance and retired to a monastery, where he soon died. His overthrow brought Alexios I to the throne and inaugurated the Komnenian dynasty that would stabilise and partly restore the empire.",
+        "The house of Botaneiates thus amounts to a single reign, but a pivotal one: the last flicker of the old Anatolian military aristocracy’s hold on the throne before the Komnenoi remade the Byzantine state."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1078",
+      "title": "Nikephoros III seizes the throne",
+      "description": "The old general overthrows Michael VII Doukas and is crowned emperor.",
+      "links": [
+        {
+          "title": "Nikephoros III Botaneiates",
+          "type": "person",
+          "slug": "nikephoros-iii-botaneiates"
+        }
+      ]
+    },
+    {
+      "date": "1078",
+      "title": "Revolt of Bryennios crushed",
+      "description": "Alexios Komnenos defeats the rebel Nikephoros Bryennios for the emperor."
+    },
+    {
+      "date": "1081",
+      "title": "Overthrown by Alexios I",
+      "description": "Alexios Komnenos takes Constantinople; Nikephoros abdicates to a monastery."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Nikephoros III Botaneiates",
+        "type": "person",
+        "slug": "nikephoros-iii-botaneiates",
+        "label": "The one emperor of the house"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Doukas",
+        "type": "house",
+        "slug": "house-of-doukas",
+        "label": "The dynasty he displaced"
+      },
+      {
+        "title": "House of Komnenos",
+        "type": "house",
+        "slug": "house-of-komnenos",
+        "label": "The dynasty that overthrew him"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Nicephorus III Botaniates — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Nicephorus-III-Botaniates"
+    },
+    {
+      "title": "Nikephoros III Botaneiates — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nikephoros_III_Botaneiates"
+    },
+    {
+      "title": "Coislin 79 — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nikephoros_III_Botaneiates"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { LOCATOR_MAPS, projectOnMap, locatorFor, cropWindow } from '../client/src/lib/locatorMaps.js'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const JERUSALEM_MARKERS = [
   { town: 'Beirut', lat: 33.8938, lon: 35.5018, x: 337.7, y: 366.6 },
@@ -31,7 +32,7 @@ test('the Kingdom of Jerusalem calibration puts each marked town on its marker',
 })
 
 test('every location that names a base map has coordinates that fall on it', () => {
-  const data = JSON.parse(readFileSync(new URL('../server/data/history.json', import.meta.url), 'utf8'))
+  const data = loadArchive()
   const mapped = data.locations.filter((a) => a.locatorMap)
   assert.ok(mapped.length > 0, 'no location uses a locator map yet')
   for (const article of mapped) {

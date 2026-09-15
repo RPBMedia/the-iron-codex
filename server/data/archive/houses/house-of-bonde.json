@@ -1,0 +1,167 @@
+{
+  "id": "house-of-bonde",
+  "type": "house",
+  "name": "House of Bonde",
+  "aliases": [
+    "Bonde family",
+    "Bonde",
+    "House of Bonde",
+    "Bonde dynasty",
+    "Bondeätten"
+  ],
+  "originYear": 1448,
+  "endYear": 1470,
+  "reignSpan": "1448–1470 (with interruptions)",
+  "region": "Sweden",
+  "originPlace": "Sweden",
+  "arms": "Azure, a boat (galley) or — the golden boat of the Bonde family.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20VIII%20Knutsson%20Bonde,%201408-70,%20konung%20av%20Sverige%20och%20Norge%20-%20Nationalmuseum%20-%2015059.tif?width=1000",
+  "imageInfo": {
+    "caption": "Charles VIII of Sweden (Karl Knutsson Bonde), the Swedish national king, shown with the Bonde arms.",
+    "creator": "Unknown (Nationalmuseum, Stockholm)",
+    "date": "Later portrait (Charles VIII d. 1470)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karl_VIII_Knutsson_Bonde,_1408-70,_konung_av_Sverige_och_Norge_-_Nationalmuseum_-_15059.tif",
+    "note": "A later painted portrait in a royal series, not a contemporary likeness."
+  },
+  "summary": "The Swedish noble family whose head, Karl Knutsson Bonde, was three times elected King of Sweden as the national candidate against the Kalmar Union.",
+  "overview": "The Bonde family were among the leading nobility of late-medieval Sweden. Their most prominent member, Karl Knutsson Bonde, led the party that resisted Danish domination of the Kalmar Union and was elected King of Sweden as Charles VIII — three separate times, between 1448 and 1470, in a running struggle with the Union kings of the House of Oldenburg.",
+  "founder": {
+    "personSlug": "charles-viii-of-sweden",
+    "displayName": "Charles VIII",
+    "note": "Karl Knutsson Bonde; first Bonde king of Sweden, 1448"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "charles-viii-of-sweden",
+      "displayName": "Charles VIII",
+      "note": "Three times King of Sweden and once of Norway; the national anti-Union candidate"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Bonde royal kingship rested on a single man, Karl Knutsson, raised from the high nobility to the throne as the Swedish alternative to the Union kings.",
+    "root": {
+      "name": "The Bonde family",
+      "note": "Swedish high nobility",
+      "children": [
+        {
+          "name": "Charles VIII (Karl Knutsson)",
+          "personSlug": "charles-viii-of-sweden",
+          "note": "King of Sweden 1448–1457, 1464–1465, 1467–1470"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Bondes were an established Swedish noble family, and Karl Knutsson rose through the offices of the realm to become Marshal of Sweden and the leading figure of the aristocratic party that resented Danish control of the Kalmar Union. When the Union king Christopher of Bavaria died without an heir in 1448, the Swedish council chose Karl Knutsson as king, in the same season that the Danes chose Christian of Oldenburg — setting the two men against each other for the northern crowns.",
+        "His kingship was therefore national and factional from the start: he was the candidate of Swedes who wanted a king of their own rather than a distant Union monarch."
+      ]
+    },
+    {
+      "title": "Three reigns",
+      "paragraphs": [
+        "Charles VIII was crowned King of Sweden in 1448 and briefly King of Norway in 1449, but he could not hold Norway against Christian I, and in 1457 a rebellion led by the archbishop and magnates drove him into exile. Restored in 1464, he was deposed again within a year, and returned a third time in 1467 to reign until his death in 1470.",
+        "The repeated depositions reflected how far real power lay with the great nobles and the Church: Charles depended on shifting factions, and when they turned against him the crown slipped away — only for the anti-Danish cause to bring him back."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Charles VIII’s turbulent reigns embodied the long Swedish resistance to the Kalmar Union that would culminate, two generations later, in Gustav Vasa’s final break with Denmark in 1523. He died in 1470, and leadership of the national party passed to the regents of the Sture family who governed Sweden in the decades that followed.",
+        "No other Bonde wore the crown, making the house a single-reign royal line — but one that stood for the idea of an independent Swedish kingship at a time when the Union seemed to threaten it."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1448",
+      "title": "Charles VIII elected king",
+      "description": "The Swedish council chooses Karl Knutsson Bonde over the Union candidate Christian I.",
+      "links": [
+        {
+          "title": "Charles VIII",
+          "type": "person",
+          "slug": "charles-viii-of-sweden"
+        }
+      ]
+    },
+    {
+      "date": "1457",
+      "title": "First deposition",
+      "description": "A revolt of magnates and the archbishop drives Charles into exile."
+    },
+    {
+      "date": "1470",
+      "title": "Death of Charles VIII",
+      "description": "After a third reign the last Bonde king dies; the Sture regents take up the national cause."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Charles VIII",
+        "type": "person",
+        "slug": "charles-viii-of-sweden",
+        "label": "The one Bonde king"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Oldenburg",
+        "type": "house",
+        "slug": "house-of-oldenburg",
+        "label": "Christian I’s house, his Union rival"
+      },
+      {
+        "title": "House of Wittelsbach",
+        "type": "house",
+        "slug": "house-of-wittelsbach",
+        "label": "Christopher of Bavaria, whose death opened the throne"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Charles VIII — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Charles-VIII-king-of-Sweden"
+    },
+    {
+      "title": "Charles VIII of Sweden — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_VIII_of_Sweden"
+    },
+    {
+      "title": "Kalmar Union — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kalmar_Union"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Knutssons%20(Bonde)%20vapen%20(i%20rikssigillet%201448).png?width=700",
+  "armsImageInfo": {
+    "caption": "The royal seal of Karl Knutsson Bonde (1448), quartering the Three Crowns of Sweden, the Folkung lion, and the Bonde boat.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Karl_Knutssons_(Bonde)_vapen_(i_rikssigillet_1448).png",
+    "note": "A drawing of Charles VIII’s contemporary 1448 royal seal; the Bonde boat appears as one quarter."
+  }
+}

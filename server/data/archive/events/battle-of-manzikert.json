@@ -1,0 +1,210 @@
+{
+  "id": "battle-of-manzikert",
+  "type": "event",
+  "name": "Battle of Manzikert",
+  "year": 1071,
+  "location": "Manzikert, Anatolia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/131_Bataille_de_Malazgirt.jpg",
+  "imageInfo": {
+    "caption": "Later depiction of the Battle of Manzikert.",
+    "creator": "Unknown artist",
+    "date": "later historical depiction",
+    "source": "Wikimedia Commons",
+    "note": "A later symbolic image, not a contemporary battlefield record."
+  },
+  "summary": "Seljuk forces defeated the Byzantine army and captured Emperor Romanos IV, weakening Byzantine authority in Anatolia.",
+  "details": "The Battle of Manzikert was fought in 1071 between the Byzantine Empire under Romanos IV Diogenes and Seljuk forces under Alp Arslan. The Seljuks won, and the Byzantine emperor was captured. The battle did not instantly destroy Byzantium, but the political crisis after the defeat opened Anatolia to Turkish settlement and permanently weakened Byzantine control of its eastern heartlands.",
+  "eventType": "Battle",
+  "conflict": "Byzantine-Seljuk wars",
+  "factions": [
+    "Byzantine Empire",
+    "Seljuk Turks"
+  ],
+  "leaders": [
+    {
+      "name": "Romanos IV Diogenes",
+      "faction": "Byzantine army",
+      "personId": "romanos-iv-diogenes"
+    },
+    {
+      "name": "Alp Arslan",
+      "faction": "Seljuk army",
+      "personId": "alp-arslan"
+    }
+  ],
+  "eventLocation": {
+    "name": "Manzikert",
+    "locationId": "manzikert"
+  },
+  "outcome": "Seljuk victory; Byzantine emperor Romanos IV was captured.",
+  "background": [
+    "The Byzantine Empire faced pressure on its eastern frontier as Seljuk Turkish groups moved into Armenia and Anatolia. Romanos IV sought to restore military authority and recover lost fortresses.",
+    "The campaign was also shaped by Byzantine internal politics. Romanos needed a success, but his army combined regular troops, mercenaries, and aristocratic factions whose loyalty was not guaranteed."
+  ],
+  "battle": "The Byzantines advanced near Manzikert but suffered from divided command and poor coordination. Seljuk mounted archers harassed the army, drawing parts of it out of formation. When Romanos attempted to withdraw in order, confusion spread. A rearguard under Andronikos Doukas failed to support him, and the Byzantine formation collapsed. Romanos was captured, a shocking blow to imperial prestige.",
+  "aftermath": "Alp Arslan treated Romanos with notable restraint and released him after negotiation, but Byzantine politics turned the defeat into a catastrophe. Romanos was overthrown, and civil conflict weakened the empire further. In the following years Turkish powers expanded across Anatolia. Manzikert became a symbolic turning point for both Byzantine decline and the long-term transformation of Anatolia.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Manzikert was fought in 1071 between the Byzantine Empire under Romanos IV Diogenes and Seljuk forces under Alp Arslan. The Seljuks won, and the Byzantine emperor was captured.",
+        "The battle did not instantly destroy Byzantium, but the political crisis after the defeat opened Anatolia to Turkish settlement and permanently weakened Byzantine control of its eastern heartlands."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The Byzantine Empire faced pressure on its eastern frontier as Seljuk Turkish groups moved into Armenia and Anatolia. Romanos IV sought to restore military authority and recover lost fortresses.",
+        "The campaign was also shaped by Byzantine internal politics. Romanos needed a success, but his army combined regular troops, mercenaries, and aristocratic factions whose loyalty was not guaranteed."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The Byzantine army included imperial troops, thematic forces, foreign mercenaries, and noble contingents. Numbers in medieval and later accounts vary widely and should not be treated as precise.",
+        "The Seljuk army relied heavily on mobile horse archers and flexible steppe tactics. Alp Arslan used maneuver, harassment, and timing rather than a simple frontal contest."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Byzantines advanced near Manzikert but suffered from divided command and poor coordination. Seljuk mounted archers harassed the army, drawing parts of it out of formation.",
+        "When Romanos attempted to withdraw in order, confusion spread. A rearguard under Andronikos Doukas failed to support him, and the Byzantine formation collapsed. Romanos was captured, a shocking blow to imperial prestige."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Alp Arslan treated Romanos with notable restraint and released him after negotiation, but Byzantine politics turned the defeat into a catastrophe. Romanos was overthrown, and civil conflict weakened the empire further.",
+        "In the following years Turkish powers expanded across Anatolia. Manzikert became a symbolic turning point for both Byzantine decline and the long-term transformation of Anatolia."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Manzikert matters because it exposed the fragility of Byzantine military and aristocratic politics at a crucial frontier. Its consequences were magnified by civil war after the battle.",
+        "The battle also helped set the stage for later Byzantine appeals to the West and the wider context in which the First Crusade emerged."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:131_Bataille_de_Malazgirt.jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook.asp"
+    },
+    {
+      "title": "World History Encyclopedia: Medieval Warfare",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Medieval_Warfare/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Manzikert",
+        "type": "location",
+        "slug": "manzikert",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Commander"
+      },
+      {
+        "title": "Alp Arslan",
+        "type": "person",
+        "slug": "alp-arslan",
+        "label": "Commander"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Kleidion",
+        "type": "event",
+        "slug": "battle-of-kleidion",
+        "label": "The empire's high point, fifty-seven years earlier"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Byzantine army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Romanos IV Diogenes",
+          "title": "Romanos IV Diogenes",
+          "type": "person",
+          "slug": "romanos-iv-diogenes"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; perhaps 20,000–40,000",
+        "confidence": "debated",
+        "note": "Figures are debated; much of the army did not engage or defected, which mattered more than the raw total."
+      }
+    },
+    {
+      "side": "Seljuk army",
+      "factions": [
+        {
+          "name": "Seljuk Turks",
+          "title": "Seljuk Turks",
+          "type": "location",
+          "slug": "seljuk-turks"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Alp Arslan",
+          "title": "Alp Arslan",
+          "type": "person",
+          "slug": "alp-arslan"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; perhaps 20,000–30,000",
+        "confidence": "debated",
+        "note": "A mobile, largely mounted force; exact numbers are not recoverable from the sources."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Turkish advance continues",
+    "battleSlug": "battle-of-kosovo",
+    "relationship": "chronological-follow-up",
+    "reason": "Manzikert opened Anatolia to Turkish power after the capture of Emperor Romanos IV; three centuries later at Kosovo, the Ottoman heirs of that advance fought the Serbian-led coalition in a battle that shaped Balkan resistance and memory."
+  }
+}

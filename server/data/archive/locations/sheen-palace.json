@@ -1,0 +1,85 @@
+{
+  "id": "sheen-palace",
+  "type": "location",
+  "locationType": "Royal palace",
+  "name": "Sheen Palace",
+  "year": 1377,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/A_View_of_Richmond_Palace_published_in_1765.jpg",
+  "summary": "A royal residence at Sheen, later Richmond, where Edward III died in 1377.",
+  "overview": [
+    "Sheen Palace was a royal residence on the Thames, later associated with Richmond Palace.",
+    "Edward III died there in 1377 after a long reign dominated by war with France."
+  ],
+  "knownFor": [
+    "Death of Edward III",
+    "English royal residence",
+    "Later Richmond Palace site"
+  ],
+  "imageInfo": {
+    "caption": "Sheen Palace (later Richmond Palace) on the Thames, a Plantagenet royal residence.",
+    "creator": "Wikimedia Commons",
+    "date": "2006-03-26 16:02:43",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_View_of_Richmond_Palace_published_in_1765.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Sheen Palace (later Richmond Palace) on the Thames in Surrey was a significant English royal residence. Richard II ordered it demolished after the death of his queen, Anne of Bohemia, there in 1394; it was later rebuilt by Henry V."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Sheen's destruction by Richard II following Anne's death illustrates the personal dimension of royal grief and decision-making in the late fourteenth century. The palace's subsequent rebuilding under the Lancastrian kings reflects the continuity of the Thames river corridor as the primary landscape of English royal residence."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Sheen Palace",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Palace_1765.jpg"
+    },
+    {
+      "title": "Sheen Palace reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Richmond_Palace"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Death of Edward III of England"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Realm of Edward III of England"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
+      }
+    ]
+  }
+}

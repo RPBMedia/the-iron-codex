@@ -1,0 +1,189 @@
+{
+  "id": "house-of-zengid",
+  "type": "house",
+  "name": "Zengid dynasty",
+  "aliases": [
+    "Zengid",
+    "Zangid",
+    "Zengids",
+    "Zangids",
+    "House of Zengi"
+  ],
+  "originYear": 1127,
+  "endYear": 1183,
+  "reignSpan": "1127–1183 (Syrian line)",
+  "region": "Syria & northern Mesopotamia",
+  "originPlace": "Mosul and Aleppo",
+  "arms": "The Zengids bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nur%20ad-Din%20Zangi2.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Nur ad-Din, the great Zengid ruler of Syria, in a later depiction.",
+    "creator": "Later depiction",
+    "date": "Later image (Nur ad-Din r. 1146–1174)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nur_ad-Din_Zangi2.jpg",
+    "note": "A later image of the Zengid ruler who united Muslim Syria against the Crusaders."
+  },
+  "summary": "The Turkish dynasty of Zengi and Nur ad-Din that united Muslim Syria against the Crusaders and prepared the ground for Saladin.",
+  "overview": "The Zengids were a Turkish (atabeg) dynasty that rose in Mosul and Aleppo in the twelfth century. Imad ad-Din Zengi captured Edessa in 1144, triggering the Second Crusade, and his son Nur ad-Din united Muslim Syria and championed the counter-crusade — a work completed by his lieutenant Saladin, whose Ayyubids displaced the Zengid line.",
+  "founder": {
+    "personSlug": "imad-ad-din-zengi",
+    "displayName": "Imad ad-Din Zengi",
+    "note": "Founder; captured Edessa from the Crusaders"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "imad-ad-din-zengi",
+      "displayName": "Imad ad-Din Zengi",
+      "note": "Founder; took Edessa in 1144"
+    },
+    {
+      "personSlug": "nur-ad-din",
+      "displayName": "Nur ad-Din",
+      "note": "United Muslim Syria and led the counter-crusade"
+    },
+    {
+      "personSlug": "as-salih-ismail",
+      "displayName": "as-Salih Ismail",
+      "note": "Nur ad-Din’s young son; last effective Zengid of Syria"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Syrian Zengid line: the atabeg Zengi, his son Nur ad-Din, and Nur ad-Din’s son as-Salih Ismail, after whom Saladin’s Ayyubids took Syria.",
+    "root": {
+      "name": "Imad ad-Din Zengi",
+      "personSlug": "imad-ad-din-zengi",
+      "note": "atabeg of Mosul & Aleppo, d. 1146",
+      "children": [
+        {
+          "name": "Nur ad-Din",
+          "personSlug": "nur-ad-din",
+          "note": "r. 1146–1174",
+          "children": [
+            {
+              "name": "as-Salih Ismail",
+              "personSlug": "as-salih-ismail",
+              "note": "r. 1174–1181"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty was founded by Imad ad-Din Zengi, a Turkish military governor (atabeg) who from 1127 built a powerful state around Mosul and Aleppo. Ruthless and effective, he united much of Muslim northern Syria and Mesopotamia under his command.",
+        "In 1144 Zengi captured the Crusader county of Edessa, the first of the crusader states to fall — a blow that shocked Europe and provoked the Second Crusade."
+      ]
+    },
+    {
+      "title": "Nur ad-Din and the counter-crusade",
+      "paragraphs": [
+        "Zengi’s son Nur ad-Din inherited Aleppo and went on to unite Muslim Syria, taking Damascus in 1154. A pious and disciplined ruler, he made the recovery of Jerusalem and the revival of Sunni Islam a central cause, building mosques, madrasas, and hospitals and presenting himself as the model just prince (mujahid).",
+        "It was Nur ad-Din who sent his general Shirkuh, and Shirkuh’s nephew Saladin, into Egypt — a campaign that would ultimately overshadow the Zengids themselves."
+      ]
+    },
+    {
+      "title": "Eclipse by the Ayyubids",
+      "paragraphs": [
+        "When Nur ad-Din died in 1174 his heir as-Salih Ismail was a child, and Saladin — now master of Egypt — moved to take Nur ad-Din’s Syrian lands, presenting himself as the true heir to his cause. By the time as-Salih died in 1181, the Zengid state of Syria had passed to the Ayyubids.",
+        "A junior Zengid line lingered at Mosul, but the dynasty’s historical role was over."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Zengids reversed the momentum of the Crusades: Zengi took the first crusader state, and Nur ad-Din forged the united Muslim Syria and the ideology of counter-crusade that Saladin inherited and used to retake Jerusalem.",
+        "Nur ad-Din in particular was remembered by later Muslim tradition as a model of just and pious rule, a reputation that shaped the image of the ideal Islamic ruler."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1127",
+      "title": "Zengi takes Mosul",
+      "description": "The dynasty’s power base is founded.",
+      "links": [
+        {
+          "title": "Imad ad-Din Zengi",
+          "type": "person",
+          "slug": "imad-ad-din-zengi"
+        }
+      ]
+    },
+    {
+      "date": "1144",
+      "title": "Fall of Edessa",
+      "description": "Zengi captures the first crusader state, triggering the Second Crusade."
+    },
+    {
+      "date": "1154",
+      "title": "Nur ad-Din takes Damascus",
+      "description": "Muslim Syria is united under one ruler.",
+      "links": [
+        {
+          "title": "Nur ad-Din",
+          "type": "person",
+          "slug": "nur-ad-din"
+        }
+      ]
+    },
+    {
+      "date": "1174",
+      "title": "Saladin takes over Syria",
+      "description": "After Nur ad-Din’s death the Ayyubids eclipse the Zengids."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Imad ad-Din Zengi",
+        "type": "person",
+        "slug": "imad-ad-din-zengi",
+        "label": "Founder; took Edessa"
+      },
+      {
+        "title": "Nur ad-Din",
+        "type": "person",
+        "slug": "nur-ad-din",
+        "label": "United Muslim Syria"
+      },
+      {
+        "title": "as-Salih Ismail",
+        "type": "person",
+        "slug": "as-salih-ismail",
+        "label": "Last Zengid of Syria"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Ayyubid dynasty",
+        "type": "house",
+        "slug": "house-of-ayyubid",
+        "label": "Saladin’s house, which succeeded them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Zangi dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Zangid-dynasty"
+    },
+    {
+      "title": "Nur al-Din — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Nur-al-Din"
+    },
+    {
+      "title": "Zengid dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Zengid_dynasty"
+    }
+  ]
+}

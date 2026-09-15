@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Orkney",
+  "knownFor": [
+    "Haakon IV Haakonsson",
+    "Orkney",
+    "St Magnus Cathedral"
+  ],
+  "overview": [
+    "The Orkney town where Haakon IV died after his western campaign in 1263."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Kirkwall is the main town of Orkney, then under Norwegian sovereignty, and the site where Haakon IV Haakonsson of Norway died in December 1263 after the western campaign that followed the Battle of Largs. His death there ended Norwegian ambitions to reassert control over the Scottish islands."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Haakon IV's death at Kirkwall and his body's return to Bergen for burial marked the beginning of a process that ended Norwegian sovereignty over Orkney and Shetland. The Treaty of Perth in 1266 transferred the Hebrides and Man to Scotland. Orkney and Shetland remained Norwegian until 1468–1469, when they were pledged to Scotland as dowry."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Kirkwall",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:St_Magnus_Cathedral_Kirkwall.jpg"
+    },
+    {
+      "title": "Kirkwall reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Kirkwall"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Haakon IV Haakonsson",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
+        "label": "Death of Haakon IV Haakonsson"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson"
+      },
+      {
+        "title": "Magnus VI Lawmender",
+        "type": "person",
+        "slug": "magnus-vi-lawmender"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm of Haakon IV Haakonsson"
+      }
+    ]
+  },
+  "id": "kirkwall",
+  "name": "Kirkwall",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Magnus_Cathedral_Kirkwall.jpg",
+  "summary": "The Orkney town where Haakon IV died after his western campaign in 1263.",
+  "imageInfo": {
+    "caption": "The Orkney town where Haakon IV died after his western campaign in 1263.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Magnus_Cathedral_Kirkwall.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

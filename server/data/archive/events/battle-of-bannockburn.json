@@ -1,0 +1,278 @@
+{
+  "id": "battle-of-bannockburn",
+  "type": "event",
+  "name": "Battle of Bannockburn",
+  "year": 1314,
+  "location": "Bannockburn, Scotland",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg",
+  "imageInfo": {
+    "caption": "Map of the first day of the Battle of Bannockburn.",
+    "creator": "Map contributor on Wikimedia Commons",
+    "date": "modern map",
+    "source": "Wikimedia Commons",
+    "note": "A modern battle map used because contemporary visual depictions are limited."
+  },
+  "summary": "Robert the Bruce's Scots defeated Edward II's much larger army below Stirling Castle on 23–24 June 1314, the victory that made Bruce's kingship secure.",
+  "details": "The Battle of Bannockburn was fought in 1314 between Robert Bruce’s Scots and Edward II’s English army near Stirling. The Scots won a decisive victory. The battle secured Robert Bruce’s authority and became one of the central military memories of the Scottish Wars of Independence.",
+  "eventType": "Battle",
+  "conflict": "First War of Scottish Independence",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Robert the Bruce",
+      "faction": "Scottish army",
+      "personId": "robert-the-bruce"
+    },
+    {
+      "name": "Edward II of England",
+      "faction": "English army",
+      "personId": "edward-ii-of-england"
+    }
+  ],
+  "eventLocation": {
+    "name": "Bannockburn",
+    "locationId": "bannockburn"
+  },
+  "outcome": "Scottish victory; decisive for Robert Bruce’s kingship.",
+  "background": [
+    "Stirling Castle was a crucial stronghold, and its impending surrender forced Edward II to intervene. Robert Bruce chose ground near Bannockburn that limited English cavalry and favored disciplined Scottish formations.",
+    "The war was not only a military struggle but a contest over kingship, overlordship, and Scotland’s political independence."
+  ],
+  "battle": "On the first day, Scottish forces successfully resisted English probes and maintained morale. On the second day, English troops struggled to deploy effectively while Scottish schiltrons advanced. The English became crowded near poor ground and the Bannock Burn. Scottish pressure, English disorder, and the appearance of camp followers mistaken for reinforcements contributed to collapse. Edward II fled the field.",
+  "aftermath": "The victory greatly strengthened Robert Bruce and damaged English authority in Scotland. Stirling Castle surrendered, and Scottish raids into northern England continued. Formal English recognition of Scottish independence came later, but Bannockburn made Bruce’s kingship far harder to overthrow.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Bannockburn was fought over two days, 23 and 24 June 1314, on the ground south of Stirling Castle where the Bannock Burn runs down to the Forth. Robert the Bruce's army, perhaps a third the size of its enemy, defeated Edward II of England, killed the Earl of Gloucester, Robert Clifford and Giles d'Argentan, and took enough English nobles prisoner to ransom back Bruce's own queen and daughter.",
+        "It did not end the war: England refused to recognise Scottish independence until the Treaty of Edinburgh-Northampton in 1328. But it settled who ruled Scotland. Before Bannockburn, Bruce was a usurper who had killed his rival John Comyn in the Greyfriars church at Dumfries and spent a year as a fugitive. After it, the Comyn cause was finished, and the Cambuskenneth parliament of November 1314 disinherited every landholder who had not come into his peace."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The battle was forced by a bargain. Edward Bruce, the king's brother, had been besieging Stirling Castle, and its English commander, Sir Philip Mowbray, agreed to surrender unless an English army came within three leagues of the castle by Midsummer's Day 1314. John Barbour says Robert was displeased: the deal gave Edward II a date and a target, and committed the Scots to the kind of pitched battle Bruce had avoided since his defeats of 1306. Edward II, who had not campaigned seriously in Scotland since his father's death, could not ignore it.",
+        "By then Bruce had taken most English-held castles by surprise and demolished them. Perth fell in January 1313; Roxburgh and Edinburgh followed in early 1314, Edinburgh to Thomas Randolph's men climbing the castle rock at night. Stirling was one of the last English garrisons of any size. Edward assembled his army at Berwick in June, marched north through Edinburgh and Falkirk in the summer heat, and reached Stirling on 23 June."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Edward II summoned more than 21,000 infantry and around 2,000 heavy cavalry. Not all of them came, and modern estimates of the army that reached Stirling run from about 15,000 to 20,000, including Welsh and English archers and the largest body of English knights sent north in the reign. Its command was divided. The Earl of Gloucester and Humphrey de Bohun, Earl of Hereford and Constable of England, disputed who should lead the vanguard, while the Earl of Lancaster, Edward's chief opponent at home, and several other earls stayed away.",
+        "Bruce had perhaps 5,000 to 8,000 men, mostly spearmen formed into schiltrons that had spent the spring training to move and turn as blocks rather than only to stand. Barbour gives four divisions, under the king, Edward Bruce, Thomas Randolph, Earl of Moray, and the young James Douglas with Walter Stewart; a force of about 500 light horse under Sir Robert Keith, the Marischal, was held back. Along the road to Stirling the Scots dug concealed pits to channel cavalry toward the woods of the New Park."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "On 23 June the English vanguard found the Scots across the road at the New Park. In Barbour's account Sir Henry de Bohun, riding ahead, saw Bruce on a small horse in front of his lines and charged him; Bruce stood in his stirrups and split de Bohun's helmet and head with his axe, breaking the shaft. A second English force under Robert Clifford and Henry Beaumont tried to ride round toward the castle and was stopped in the open by Randolph's schiltron, which beat off its charges. Sir Thomas Gray, whose son later wrote the Scalacronica, was captured there.",
+        "The English army spent the night on the carse, the low wet ground between the Bannock Burn and the Pelstream, with water on two sides. During the night Sir Alexander Seton, a Scot in English service, crossed to Bruce and told him English morale was low. At dawn on 24 June the Scots did what Edward's commanders had not expected and advanced to attack on foot. The Earl of Gloucester, stung, according to the Vita Edwardi Secundi, by the king's accusation of cowardice, charged the leading schiltron with too few men and was killed.",
+        "The English cavalry could not break the schiltrons, and the archers could not shoot past their own horsemen; a body of archers that did reach the Scottish flank was ridden down by Keith's light horse. As the English front was pressed back into the crowded ground behind it, the appearance of Scottish camp followers on the hill behind the Scottish line, in Barbour's telling, was taken for fresh troops, and the army broke. Many drowned trying to cross the Bannock Burn and the Forth. Aymer de Valence, Earl of Pembroke, led Edward off the field to Stirling Castle, where Mowbray refused to admit him, and the king escaped by way of Dunbar and a boat to Berwick."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Stirling Castle surrendered under the terms of the bargain and was demolished. The Earl of Hereford, who had fled to Bothwell Castle, was handed over and exchanged for Bruce's queen Elizabeth de Burgh, his daughter Marjorie, his sisters and Bishop Robert Wishart, all held in England since 1306. The ransoms of lesser prisoners and the plunder of Edward's baggage train paid for years of war.",
+        "Bannockburn opened northern England to Scottish raiding. From 1314 Bruce's armies burned and extorted payments across Northumberland, Cumberland and Yorkshire; Edward Bruce took a Scottish army to Ireland in 1315; and Berwick was recaptured in 1318. England still would not concede, so the Scots took their case to the papacy with the Declaration of Arbroath in 1320. Recognition came only in 1328, after Edward II had been deposed."
+      ]
+    },
+    {
+      "title": "Memory and the battlefield",
+      "paragraphs": [
+        "Three sources carry most of the story. The Vita Edwardi Secundi was written by an Englishman within a few years and is bitter about Edward's leadership; Thomas Gray's Scalacronica draws on what his captured father told him; and John Barbour's The Brus, a verse life of Robert written around 1375 under his grandson Robert II, supplies most of the famous scenes, including de Bohun's death, the kneeling Scots and the camp followers on the hill. Barbour was celebrating the Bruce dynasty, so the most dramatic details are also the least securely attested.",
+        "Where the second day was fought is still argued. The traditional site on the dry ground near St Ninians fits poorly with the sources' emphasis on water, and most historians now place the main fighting on the carse to the north-east, around Balquhiderock. The National Trust for Scotland's visitor centre and Charles Pilkington Jackson's equestrian statue of Bruce, unveiled in 1964 for the 650th anniversary, stand on the higher ground of the first day's fighting."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Bannockburn_-_1st_day_of_battle_map_(multilingual).svg"
+    },
+    {
+      "title": "Vita Edwardi Secundi",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Vita_Edwardi_Secundi"
+    },
+    {
+      "title": "John Barbour, The Brus",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/The_Brus"
+    },
+    {
+      "title": "Thomas Gray, Scalacronica",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Scalacronica"
+    },
+    {
+      "title": "Battle of Bannockburn",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Bannockburn"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Bannockburn",
+        "type": "location",
+        "slug": "bannockburn",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Commander"
+      },
+      {
+        "title": "Edward II of England",
+        "type": "person",
+        "slug": "edward-ii-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Earlier resistance figure"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      },
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "The first Scottish victory at Stirling"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Scottish army",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Robert the Bruce",
+          "title": "Robert the Bruce",
+          "type": "person",
+          "slug": "robert-the-bruce"
+        }
+      ],
+      "strength": {
+        "display": "c. 5,000–8,000",
+        "confidence": "estimated",
+        "note": "Robert the Bruce's smaller army fought from prepared, boggy ground that neutralised English numbers."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward II of England",
+          "title": "Edward II of England",
+          "type": "person",
+          "slug": "edward-ii-of-england"
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000–20,000 (debated)",
+        "confidence": "debated",
+        "note": "The English were the larger force, but medieval claims are inflated and modern estimates vary."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "England's tactical lessons applied",
+    "battleSlug": "battle-of-crecy",
+    "relationship": "tactical-comparison",
+    "reason": "The English defeat by Robert Bruce at Bannockburn pushed English armies toward dismounted men-at-arms fighting beside massed archers — the system Edward III used to devastating effect against France at Crécy in 1346."
+  },
+  "timeline": [
+    {
+      "date": "1313",
+      "title": "The Stirling bargain",
+      "description": "Sir Philip Mowbray agrees to surrender Stirling Castle to Edward Bruce unless relieved by Midsummer 1314."
+    },
+    {
+      "date": "March 1314",
+      "title": "Edinburgh Castle taken",
+      "description": "Thomas Randolph's men scale the castle rock by night, and the castle is demolished."
+    },
+    {
+      "date": "June 1314",
+      "title": "Edward II musters at Berwick",
+      "description": "The largest English army of the reign marches north through Edinburgh and Falkirk."
+    },
+    {
+      "date": "23 June 1314",
+      "title": "De Bohun and the New Park",
+      "description": "Bruce kills Sir Henry de Bohun in single combat, and Randolph's schiltron turns back Clifford's cavalry."
+    },
+    {
+      "date": "24 June 1314",
+      "title": "The Scots attack on the carse",
+      "description": "The Earl of Gloucester is killed, and the English army breaks against the Bannock Burn and the Forth."
+    },
+    {
+      "date": "November 1314",
+      "title": "Cambuskenneth parliament",
+      "description": "Bruce's parliament disinherits every landholder who has not come into his peace."
+    },
+    {
+      "date": "1315",
+      "title": "Edward Bruce in Ireland",
+      "description": "The king's brother opens a second front against English lordship in Ireland."
+    },
+    {
+      "date": "6 April 1320",
+      "title": "Declaration of Arbroath",
+      "description": "The Scottish barons appeal to Pope John XXII in defence of Bruce and the kingdom."
+    },
+    {
+      "date": "1328",
+      "title": "Independence recognised",
+      "description": "The Treaty of Edinburgh-Northampton concedes what the Scots had won in the field."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "constantine-v",
+  "type": "character",
+  "name": "Constantine V",
+  "aliases": [
+    "Constantine V Kopronymos",
+    "Konstantinos V"
+  ],
+  "born": 718,
+  "died": 775,
+  "deathAge": "57",
+  "causeOfDeath": "Died of a fever on campaign against the Bulgars in September 775.",
+  "restingPlace": "Church of the Holy Apostles, Constantinople",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Commander"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidus%20of%20Constantine%20V%20Copronymus.jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Constantine V, struck at Constantinople during his reign.",
+    "creator": "Constantinople mint",
+    "date": "741–775",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solidus_of_Constantine_V_Copronymus.jpg",
+    "note": "A contemporary object from his own reign, used because no portrait survives — and the absence is itself a consequence of his policy and of the reaction to it. The bust is a conventional image of imperial office rather than a likeness. Licensed CC BY-SA 3.0."
+  },
+  "epithets": [
+    {
+      "name": "Kopronymos",
+      "type": "hostile epithet",
+      "note": "Meaning \"dung-named\", from a story that he fouled the font at his own baptism. Coined by his iconophile enemies after his death."
+    },
+    {
+      "name": "Kaballinos",
+      "type": "hostile epithet",
+      "note": "The \"horse-man\", mocking his interest in stables. Also from hostile sources rather than contemporary usage."
+    }
+  ],
+  "summary": "Constantine V ruled from 741 to 775, was the most successful soldier-emperor of his century, and is remembered chiefly through the abuse of the writers who defeated his religious policy.",
+  "overview": "An emperor who won almost every war he fought and whose own tradition called him \"dung-named\", which is a fair measure of how completely the record was written by his enemies.",
+  "greatestFeats": [
+    "Retook the throne from the usurper Artabasdos after a two-year civil war",
+    "Beat the Bulgars repeatedly, including at Anchialos in 763",
+    "Repopulated Constantinople after the plague of 747 and rebuilt its water supply"
+  ],
+  "birth": {
+    "date": "718",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "775",
+    "place": {
+      "name": "Thrace, on campaign"
+    },
+    "circumstance": "Died of a fever while marching against the Bulgars, and was buried in the Church of the Holy Apostles."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Isaurian dynasty",
+    "culture": "Roman",
+    "knownFor": "Iconoclasm, and beating the Bulgars for thirty years"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "leo-iii-the-isaurian",
+      "displayName": "Leo III",
+      "note": "His father, who held Constantinople through the siege of 717–718 and began the iconoclast policy his son hardened."
+    },
+    "successor": {
+      "displayName": "Leo IV",
+      "note": "His son, called \"the Khazar\" from his mother's descent, who reigned five years and relaxed the persecution of monks.",
+      "personSlug": "leo-iv"
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Constantine V was born in 718, in the year his father held Constantinople against the Umayyad siege, and ruled from 741 until his death on campaign in 775. By any military measure he was the most successful emperor of the eighth century.",
+        "He fought the Bulgars for most of his reign and generally beat them, campaigned across the Taurus against the caliphate, repopulated a capital emptied by plague, and handed on a stable throne to his son.",
+        "He also pushed iconoclasm further than his father, called a church council to declare images heretical, and persecuted the monasteries that resisted. The tradition that eventually won gave him the name Kopronymos, and it is the name that stuck."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born in Constantinople in 718 and crowned co-emperor as an infant in 720, so he had no life before the purple. His mother was Maria, and his father the general who had taken the throne the year before he was born.",
+        "He was on campaign early. At Akroinon in 740 he fought beside his father in the battle that destroyed the last great Umayyad raiding army in Anatolia, and he succeeded to the throne the following year.",
+        "His accession was immediately challenged. Artabasdos, his brother-in-law and commander of the Opsikian troops, seized Constantinople while Constantine was in Asia and held it for two years with the support of the image-venerating party. Constantine retook the city in 743 and had the usurper blinded."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Nothing written about him is neutral. The sources are the work of the iconophile monastic tradition — Theophanes above all — writing after the policy he championed had been condemned, and they are less a portrait than a prosecution.",
+        "The prosecution nonetheless has to concede the record. He is described as personally brave, obsessively attentive to logistics and fortification, and popular with the army and with the population of the capital he repopulated and re-watered. Some of his measures were remembered gratefully for generations, and a century later crowds prayed at his tomb during a Bulgar invasion.",
+        "The hostile detail is largely about his manner and his tastes: the nickname Kaballinos, mocking his interest in horses and stables; the accusations of coarseness; the story of the baptismal font that produced Kopronymos. These belong to the vocabulary of vilification rather than to biography, and they are worth naming precisely so a reader can see what kind of evidence they are."
+      ]
+    },
+    {
+      "title": "Wars",
+      "paragraphs": [
+        "The Bulgar wars ran through his whole reign — nine campaigns by the usual count, combining army and fleet, and aimed at the Bulgar heartland rather than at defending Thrace. His victory at Anchialos in 763 was the most complete, and the pressure he sustained kept the Bulgar khanate in crisis for two decades.",
+        "In the east he went over to the offensive for the first time in a century, raiding across the Taurus and taking Germanikeia and Theodosiopolis in the 740s and 750s while the caliphate changed dynasty. He resettled captured Christian populations in Thrace, which served both the frontier and the depopulated Balkans.",
+        "The army he did this with was partly his own creation. He built the tagmata — professional regiments based near the capital, loyal to the emperor rather than to a provincial commander — which gave the throne a striking force and, not incidentally, an insurance policy against the kind of provincial revolt that had raised his own father."
+      ]
+    },
+    {
+      "title": "Iconoclasm",
+      "paragraphs": [
+        "In 754 he called a council at Hieria, attended by more than three hundred bishops and without the Pope or the eastern patriarchs, which declared the veneration of images heretical. That gave the policy a conciliar authority it had lacked under Leo III.",
+        "Enforcement went much further than his father had taken it, and it fell hardest on the monasteries, which were the strongest centres of resistance. Monks were publicly humiliated, forced to marry, imprisoned and in some cases killed; the patriarch Constantine II was deposed, paraded and executed. Monastic property was confiscated.",
+        "The Second Council of Nicaea condemned Hieria in 787, twelve years after his death, and iconoclasm was finally abandoned in 843. Everything preserved about his theology comes through the refutations written by the winners, so his own arguments survive only as quotations chosen to be answered."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He left the empire militarily stronger and financially sounder than he found it, with a professional central army, a working frontier, a repopulated capital and an undisputed succession — and a religious policy that would be condemned as heresy within a generation.",
+        "The condemnation shaped the record so thoroughly that his reputation had to be reconstructed by modern historians from what his enemies could not deny. It is the clearest case in this archive of a reign whose evidence is entirely in the hands of the opposition.",
+        "His dynasty ended with his grandson, deposed and blinded by his own mother Irene, who restored the images. What outlasted him was the tagmata, the Bulgar frontier he had held, and the eastern offensive posture that the tenth century would carry to Antioch."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "718",
+      "title": "Born",
+      "description": "Born in Constantinople in the year his father held the city against the Umayyad siege."
+    },
+    {
+      "date": "720",
+      "title": "Crowned co-emperor",
+      "description": "Crowned as an infant, securing the Isaurian succession."
+    },
+    {
+      "date": "740",
+      "title": "Akroinon",
+      "description": "Fights beside his father in the destruction of the Umayyad raiding army in Phrygia.",
+      "links": [
+        {
+          "title": "Battle of Akroinon",
+          "type": "event",
+          "slug": "battle-of-akroinon"
+        }
+      ]
+    },
+    {
+      "date": "741–743",
+      "title": "Civil war with Artabasdos",
+      "description": "His brother-in-law seizes Constantinople; Constantine retakes it after two years and has him blinded."
+    },
+    {
+      "date": "747",
+      "title": "Plague",
+      "description": "Bubonic plague empties Constantinople; he repopulates it with settlers from Greece and the islands."
+    },
+    {
+      "date": "754",
+      "title": "The Council of Hieria",
+      "description": "A council of over three hundred bishops declares the veneration of images heretical."
+    },
+    {
+      "date": "763",
+      "title": "Victory at Anchialos",
+      "description": "Defeats the Bulgars in the most complete of his nine campaigns against them."
+    },
+    {
+      "date": "766",
+      "title": "The aqueduct restored",
+      "description": "Rebuilds the aqueduct of Valens, restoring the capital's water supply after the plague years."
+    },
+    {
+      "date": "775",
+      "title": "Died",
+      "description": "Dies of a fever on campaign in Thrace, succeeded without dispute by his son Leo IV."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "His father, and his commander at Akroinon"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Akroinon",
+        "type": "event",
+        "slug": "battle-of-akroinon",
+        "label": "Fought here as a young man"
+      },
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The siege his father held in the year he was born"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled for thirty-four years"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital, repopulated and re-watered after the plague"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Constantine V",
+      "url": "https://en.wikipedia.org/wiki/Constantine_V",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

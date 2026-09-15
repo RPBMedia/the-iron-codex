@@ -1,0 +1,209 @@
+{
+  "id": "house-of-stenkil",
+  "type": "house",
+  "name": "House of Stenkil",
+  "aliases": [
+    "Stenkil dynasty",
+    "Stenkil"
+  ],
+  "originYear": 1060,
+  "endYear": 1125,
+  "reignSpan": "c. 1060–1125",
+  "region": "Kingdom of Sweden",
+  "originPlace": "Västergötland, Sweden",
+  "arms": "The Stenkil kings predate Swedish heraldry and bore no coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ingold%20the%20Elder%20of%20Sweden%20cenotaph%202009%20Varnhem%20Axvall%20(2).jpg?width=1000",
+  "imageInfo": {
+    "caption": "The cenotaph of King Inge the Elder of the House of Stenkil, at Varnhem in Västergötland.",
+    "creator": "Medieval/later grave monument, Varnhem Abbey",
+    "date": "Inge the Elder d. c. 1110",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ingold_the_Elder_of_Sweden_cenotaph_2009_Varnhem_Axvall_(2).jpg",
+    "note": "A grave monument associated with the Stenkil king Inge the Elder; no contemporary portrait survives."
+  },
+  "summary": "The Götar dynasty that ruled Sweden after the Munsö line and firmly established Christian kingship.",
+  "overview": "The House of Stenkil took the Swedish throne around 1060, when the magnates chose Stenkil, a lord of Västergötland, after the Munsö line died out. Its kings — above all Inge the Elder — consolidated Christianity in Sweden against a pagan reaction, though the dynasty’s hold was repeatedly contested.",
+  "founder": {
+    "personSlug": "stenkil",
+    "displayName": "Stenkil",
+    "note": "Elected king after the Munsö line failed"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "stenkil",
+      "displayName": "Stenkil",
+      "note": "Founder; a Christian Götar king"
+    },
+    {
+      "personSlug": "inge-the-elder",
+      "displayName": "Inge the Elder",
+      "note": "Defended Christianity against the pagan reaction"
+    },
+    {
+      "personSlug": "philip-halstensson",
+      "displayName": "Philip Halstensson",
+      "note": "Co-king of the later Stenkil line"
+    },
+    {
+      "personSlug": "inge-the-younger",
+      "displayName": "Inge the Younger",
+      "note": "Last king of the dynasty"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Stenkil kings: Stenkil and his sons Inge the Elder and Halsten, and Halsten’s sons Philip and Inge the Younger, who ruled jointly.",
+    "root": {
+      "name": "Stenkil",
+      "personSlug": "stenkil",
+      "note": "r. c. 1060–1066",
+      "children": [
+        {
+          "name": "Inge the Elder",
+          "personSlug": "inge-the-elder",
+          "note": "r. c. 1079–1110"
+        },
+        {
+          "name": "Halsten",
+          "note": "co-king; d. c. 1084",
+          "children": [
+            {
+              "name": "Philip Halstensson",
+              "personSlug": "philip-halstensson",
+              "note": "r. c. 1110–1118"
+            },
+            {
+              "name": "Inge the Younger",
+              "personSlug": "inge-the-younger",
+              "note": "r. c. 1118–1125"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "When the Munsö line failed around 1060, the Swedes elected Stenkil, a powerful lord of Västergötland who had married a daughter of Emund the Old. His accession shifted the centre of royal power toward the Christian Götar lands in the south-west.",
+        "Stenkil was a firm supporter of the Church, and his short reign helped entrench Christian kingship in a realm where the old religion remained strong."
+      ]
+    },
+    {
+      "title": "Inge the Elder and the pagan reaction",
+      "paragraphs": [
+        "Stenkil’s son Inge the Elder is the best-remembered king of the line. According to later tradition he was driven from the throne for refusing to sacrifice to the old gods at Uppsala, replaced by his pagan brother-in-law \"Blot-Sweyn\", but returned to kill the usurper and restore Christian rule.",
+        "The story, recorded much later, dramatises the real struggle between Christianity and the Uppsala cult that marked Inge’s reign."
+      ]
+    },
+    {
+      "title": "End of the line",
+      "paragraphs": [
+        "Inge the Elder was followed by his nephews Philip and Inge the Younger, sons of his brother Halsten, who ruled jointly. Their reigns are thinly documented, and with the death of Inge the Younger around 1125 the Stenkil dynasty ended.",
+        "The crown then fell into a long contest between the rival houses of Sverker and Erik."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1060",
+      "title": "Stenkil elected king",
+      "description": "A Götar lord succeeds the Munsö line.",
+      "links": [
+        {
+          "title": "Stenkil",
+          "type": "person",
+          "slug": "stenkil"
+        }
+      ]
+    },
+    {
+      "date": "c. 1080",
+      "title": "Inge the Elder and the Uppsala cult",
+      "description": "The king defends Christianity against the pagan reaction.",
+      "links": [
+        {
+          "title": "Inge the Elder",
+          "type": "person",
+          "slug": "inge-the-elder"
+        }
+      ]
+    },
+    {
+      "date": "c. 1125",
+      "title": "End of the dynasty",
+      "description": "Inge the Younger dies; the Sverker–Erik wars follow.",
+      "links": [
+        {
+          "title": "Inge the Younger",
+          "type": "person",
+          "slug": "inge-the-younger"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Stenkil",
+        "type": "person",
+        "slug": "stenkil",
+        "label": "Founder"
+      },
+      {
+        "title": "Inge the Elder",
+        "type": "person",
+        "slug": "inge-the-elder",
+        "label": "Defender of Christianity"
+      },
+      {
+        "title": "Inge the Younger",
+        "type": "person",
+        "slug": "inge-the-younger",
+        "label": "Last of the line"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Munsö",
+        "type": "house",
+        "slug": "house-of-munso",
+        "label": "The dynasty they succeeded"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Stenkil — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Stenkil"
+    },
+    {
+      "title": "Inge the Elder — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Inge_the_Elder"
+    },
+    {
+      "title": "Sweden: the Middle Ages — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Sweden"
+    }
+  ]
+}

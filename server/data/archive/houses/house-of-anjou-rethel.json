@@ -1,0 +1,289 @@
+{
+  "id": "house-of-anjou-rethel",
+  "type": "house",
+  "name": "House of Anjou-Rethel",
+  "aliases": [
+    "Anjou-Rethel",
+    "House of Anjou / Montferrat",
+    "Angevin kings of Jerusalem"
+  ],
+  "originYear": 1131,
+  "endYear": 1205,
+  "reignSpan": "1131–1205",
+  "region": "Kingdom of Jerusalem",
+  "originPlace": "Anjou and the Holy Land",
+  "arms": "The arms of the Kingdom of Jerusalem — a gold cross flanked by four smaller gold crosses on a silver field.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coronation%20of%20Baldwin%20IV.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The coronation of the young Baldwin IV, the \"Leper King\" of Jerusalem, in a manuscript of William of Tyre.",
+    "creator": "Manuscript of the Histoire d’Outremer (William of Tyre)",
+    "date": "13th–14th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coronation_of_Baldwin_IV.jpg",
+    "note": "A later crusader-chronicle miniature of the most famous king of the Angevin line of Jerusalem."
+  },
+  "summary": "The Angevin dynasty of Jerusalem, descended from Fulk of Anjou and Queen Melisende, that ruled the crusader kingdom at its height and through its crisis.",
+  "overview": "The House of Anjou-Rethel — a Jerusalem dynasty entirely distinct from the Angevin Plantagenets and the later Capetian House of Anjou — ruled the crusader Kingdom of Jerusalem from 1131. Founded by the marriage of Fulk of Anjou to the heiress Melisende, it produced the kingdom’s greatest kings and the tragic \"Leper King\" Baldwin IV, before the disaster at Hattin destroyed the kingdom in 1187.",
+  "founder": {
+    "displayName": "Fulk of Anjou",
+    "note": "Count of Anjou who married the heiress Melisende and became king of Jerusalem in 1131 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Jerusalem",
+      "type": "location",
+      "slug": "kingdom-of-jerusalem"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "melisende-of-jerusalem",
+      "displayName": "Melisende",
+      "note": "Heiress and queen; co-ruler of the kingdom"
+    },
+    {
+      "personSlug": "baldwin-iii-of-jerusalem",
+      "displayName": "Baldwin III",
+      "note": "Recovered royal authority; lost Edessa"
+    },
+    {
+      "personSlug": "amalric-i-of-jerusalem",
+      "displayName": "Amalric I",
+      "note": "Invaded Egypt at the height of the kingdom"
+    },
+    {
+      "personSlug": "baldwin-iv-of-jerusalem",
+      "displayName": "Baldwin IV",
+      "note": "The \"Leper King\" who checked Saladin"
+    },
+    {
+      "personSlug": "sibylla-of-jerusalem",
+      "displayName": "Sibylla",
+      "note": "Queen; her husband Guy of Lusignan lost at Hattin"
+    },
+    {
+      "personSlug": "baldwin-v-of-jerusalem",
+      "displayName": "Baldwin V",
+      "note": "Child king; died young"
+    },
+    {
+      "personSlug": "isabella-i-of-jerusalem",
+      "displayName": "Isabella I",
+      "note": "Queen through whom the crown passed on after Hattin"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Angevin kings of Jerusalem, from the marriage of Fulk of Anjou and Queen Melisende to Isabella I. Sibylla’s and Isabella’s husbands ruled as kings by right of their wives. ⚭ marks a marriage.",
+    "root": {
+      "name": "Fulk of Anjou",
+      "note": "Count of Anjou; King of Jerusalem 1131–1143",
+      "spouse": {
+        "name": "Melisende",
+        "personSlug": "melisende-of-jerusalem",
+        "note": "heiress and co-ruler"
+      },
+      "children": [
+        {
+          "name": "Baldwin III",
+          "personSlug": "baldwin-iii-of-jerusalem",
+          "note": "r. 1143–1163, no issue"
+        },
+        {
+          "name": "Amalric I",
+          "personSlug": "amalric-i-of-jerusalem",
+          "note": "r. 1163–1174",
+          "children": [
+            {
+              "name": "Baldwin IV the Leper",
+              "personSlug": "baldwin-iv-of-jerusalem",
+              "note": "r. 1174–1185"
+            },
+            {
+              "name": "Sibylla",
+              "personSlug": "sibylla-of-jerusalem",
+              "note": "Queen; m. Guy of Lusignan",
+              "children": [
+                {
+                  "name": "Baldwin V",
+                  "personSlug": "baldwin-v-of-jerusalem",
+                  "note": "r. 1185–1186, child king"
+                }
+              ]
+            },
+            {
+              "name": "Isabella I",
+              "personSlug": "isabella-i-of-jerusalem",
+              "note": "Queen, r. 1192–1205 (half-sister)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty began in 1129 when Fulk V, Count of Anjou — the grandfather of the Plantagenet Henry II, but here founding a wholly separate royal line — came to the Holy Land and married Melisende, heiress of Baldwin II. On Baldwin’s death in 1131 they became king and queen of Jerusalem.",
+        "This House of Anjou-Rethel should not be confused with the Angevin Plantagenets or the later Capetian House of Anjou: it was its own dynasty, ruling in the crusader East."
+      ]
+    },
+    {
+      "title": "Melisende and the height of the kingdom",
+      "paragraphs": [
+        "Melisende was a powerful queen who ruled jointly with her husband and then contested power with her son Baldwin III. Under Baldwin III and his brother Amalric I the kingdom reached its greatest strength, even invading Fatimid Egypt in the 1160s in an attempt to control the Nile.",
+        "But the same years saw the rise of a united Muslim Syria under Nur ad-Din and then Saladin, and the loss of the northern county of Edessa that had triggered the Second Crusade."
+      ]
+    },
+    {
+      "title": "The Leper King and the road to Hattin",
+      "paragraphs": [
+        "Amalric’s son Baldwin IV came to the throne as a boy already afflicted with leprosy. Despite his illness he proved a capable soldier, checking Saladin at Montgisard in 1177, but his early death and the disputed succession among the factions of his sister Sibylla and half-sister Isabella fatally divided the kingdom.",
+        "Sibylla’s husband Guy of Lusignan, made king, led the army to catastrophe at the Battle of Hattin in 1187, after which Saladin took Jerusalem itself."
+      ]
+    },
+    {
+      "title": "After the fall",
+      "paragraphs": [
+        "The kingdom survived only as a coastal rump based at Acre, recovered in part by the Third Crusade. The crown passed through Isabella I and her successive husbands — of the houses of Montferrat, Champagne, and Lusignan — so that royal authority increasingly lay with the queen’s consorts rather than a single dynasty.",
+        "With Isabella the direct Angevin line of Jerusalem effectively ended, and the much-reduced kingdom passed to other families."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The House of Anjou-Rethel ruled Outremer at its zenith and presided over its greatest catastrophe. Its kings — especially Baldwin IV, the Leper King who never surrendered — became enduring figures of crusader history.",
+        "The loss of Jerusalem in 1187 reshaped Europe’s relationship with the crusades, provoking the Third Crusade and centuries of efforts to recover the holy city."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1131",
+      "title": "Fulk and Melisende crowned",
+      "description": "The Angevin dynasty inherits the crusader kingdom.",
+      "links": [
+        {
+          "title": "Melisende",
+          "type": "person",
+          "slug": "melisende-of-jerusalem"
+        }
+      ]
+    },
+    {
+      "date": "1163",
+      "title": "Amalric I invades Egypt",
+      "description": "The kingdom reaches its greatest ambition.",
+      "links": [
+        {
+          "title": "Amalric I",
+          "type": "person",
+          "slug": "amalric-i-of-jerusalem"
+        }
+      ]
+    },
+    {
+      "date": "1177",
+      "title": "Baldwin IV checks Saladin",
+      "description": "The Leper King wins at Montgisard.",
+      "links": [
+        {
+          "title": "Baldwin IV",
+          "type": "person",
+          "slug": "baldwin-iv-of-jerusalem"
+        }
+      ]
+    },
+    {
+      "date": "1187",
+      "title": "Battle of Hattin",
+      "description": "The kingdom’s army is destroyed and Jerusalem falls.",
+      "links": [
+        {
+          "title": "Battle of Hattin",
+          "type": "event",
+          "slug": "battle-of-hattin"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Baldwin IV",
+        "type": "person",
+        "slug": "baldwin-iv-of-jerusalem",
+        "label": "The Leper King"
+      },
+      {
+        "title": "Amalric I",
+        "type": "person",
+        "slug": "amalric-i-of-jerusalem",
+        "label": "Height of the kingdom"
+      },
+      {
+        "title": "Melisende",
+        "type": "person",
+        "slug": "melisende-of-jerusalem",
+        "label": "Founding queen"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "The catastrophe of 1187"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "The response to the kingdom’s fall"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Their realm"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Boulogne",
+        "type": "house",
+        "slug": "house-of-boulogne",
+        "label": "The founding dynasty they succeeded"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Kingdom of Jerusalem — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/kingdom-of-Jerusalem"
+    },
+    {
+      "title": "Baldwin IV — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Baldwin-IV"
+    },
+    {
+      "title": "Melisende of Jerusalem — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Melisende,_Queen_of_Jerusalem"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms%20of%20the%20Kingdom%20of%20Jerusalem%20(Str%C3%B6hl).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The royal arms of Jerusalem, borne by its Angevin kings.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_Jerusalem_(Str%C3%B6hl).svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

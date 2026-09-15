@@ -1,0 +1,238 @@
+{
+  "id": "edward-iii-of-england",
+  "type": "character",
+  "name": "Edward III of England",
+  "aliases": [
+    "Edward III"
+  ],
+  "born": 1312,
+  "died": 1377,
+  "deathAge": "65",
+  "restingPlace": "Westminster Abbey",
+  "location": "Kingdom of England",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Waterford_roll_04_%28Edward_III%29%28cropped-rotated%29%28cropped%29.jpg",
+  "summary": "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War.",
+  "details": "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War.",
+  "title": "king of England",
+  "roles": [
+    "King of England",
+    "Founder of English claim in the Hundred Years War"
+  ],
+  "birth": {
+    "date": "1312",
+    "place": {
+      "name": "Windsor Castle",
+      "slug": "kingdom-of-england"
+    }
+  },
+  "death": {
+    "date": "1377",
+    "place": {
+      "name": "Sheen Palace",
+      "slug": "sheen-palace",
+      "type": "location"
+    },
+    "circumstance": "Died at Sheen Palace in 1377 after a long reign whose final years were marked by military setbacks, taxation, and court politics."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of England",
+    "dynasty": "Plantagenet",
+    "culture": "English",
+    "knownFor": "Beginning the Hundred Years War and victory at Crecy"
+  },
+  "imageInfo": {
+    "caption": "Edward III in the Waterford Charter Roll, an illuminated roll of about 1372 to 1373, photographed in 2024.",
+    "creator": "See source record",
+    "date": "1372–1373; photograph 2024",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary illumination in the charter roll held by the Medieval Museum, Waterford; conventional, not a likeness."
+  },
+  "overview": [
+    "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Edward III was king of England and the ruler whose claim to the French throne helped launch the Hundred Years’ War. His reign combined military victories at the Battle of Crécy and the capture of Calais, a chivalric court culture around the Order of the Garter, and heavy taxation that tied war-making to parliament and political consent."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Edward III of England was born 1312, associated with Windsor Castle. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Edward III of England is remembered as the very model of the successful chivalric king, and contemporary sources present a charismatic, martial, and politically shrewd ruler who restored the prestige of the English crown after his father's disasters. Froissart and others celebrated his cultivation of knightly culture — the founding of the Order of the Garter, the splendour of his court — alongside the stunning victories of the early Hundred Years' War at Crécy and beyond.",
+        "His personality, as the sources draw it, combined genuine military gifts with a calculated mastery of the theatre of kingship: he understood that magnificence, generosity, and shared glory bound the aristocracy to him, turning the energies that had destroyed Edward II to his advantage. He was ambitious and acquisitive of honour, pressing his claim to the French throne with relentless confidence.",
+        "The admiring portrait owes something to the chivalric enthusiasm of his chroniclers and to the contrast with his father and his troubled last years, when age and the loss of his heir clouded the reign. But the core is well grounded: a charismatic, war-loving, and politically astute king who made the English monarchy glamorous and feared, remembered as the architect of its fourteenth-century greatness."
+      ]
+    },
+    {
+      "title": "As king of England",
+      "paragraphs": [
+        "Edward rebuilt royal authority after his father’s deposition, asserted claims in France, and won major victories including Crécy. His reign also saw military, parliamentary, and chivalric developments.",
+        "Battle of Crecy gives Edward III of England's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Sheen Palace in 1377 after a long reign whose final years were marked by military setbacks, taxation, and court politics."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Edward III is remembered as a powerful warrior king whose French ambitions shaped English and French history for generations. His successes gave England prestige, but they also committed the kingdom to expensive continental war and a dynastic claim that later rulers struggled to sustain."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Launched the Hundred Years War claim",
+      "description": "Edward’s claim to the French throne turned dynastic dispute into a long Anglo-French war."
+    },
+    {
+      "title": "Won at Crecy",
+      "description": "Crécy demonstrated the tactical power of English defensive positioning, archery, and disciplined command."
+    },
+    {
+      "title": "Founded the Order of the Garter",
+      "description": "The Order of the Garter projected chivalric kingship and bound elite military culture to Edward’s court."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1312",
+      "title": "Born",
+      "description": "Born at Windsor Castle."
+    },
+    {
+      "date": "1327",
+      "title": "Becomes king",
+      "description": "Succeeds after Edward II’s deposition."
+    },
+    {
+      "date": "1337",
+      "title": "Claims France",
+      "description": "Conflict with France becomes the Hundred Years War."
+    },
+    {
+      "date": "1346",
+      "title": "Wins at Crecy",
+      "description": "Defeats Philip VI’s army.",
+      "links": [
+        {
+          "title": "Battle of Crécy",
+          "type": "event",
+          "slug": "battle-of-crecy"
+        }
+      ]
+    },
+    {
+      "date": "1377",
+      "title": "Dies",
+      "description": "Dies at Sheen Palace."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Sheen Palace",
+        "type": "location",
+        "slug": "sheen-palace",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
+        "title": "Philippa of Hainault",
+        "type": "person",
+        "slug": "philippa-of-hainault",
+        "label": "Queen"
+      },
+      {
+        "title": "Isabella of France",
+        "type": "person",
+        "slug": "isabella-of-france",
+        "label": "Mother"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Edward III of England",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_III"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Waterford_roll_04_(Edward_III)(cropped-rotated)(cropped).jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of England",
+    "predecessor": {
+      "personSlug": "edward-ii-of-england",
+      "displayName": "Edward II of England"
+    },
+    "successor": {
+      "personSlug": "richard-ii-of-england",
+      "displayName": "Richard II of England",
+      "note": "His grandson; the Black Prince had died the year before"
+    }
+  },
+  "sectionImages": [
+    {
+      "section": "As king of England",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_crecy_froissart.jpg",
+      "alt": "The Battle of Crécy (1346), from an illuminated manuscript of Froissart’s Chronicles.",
+      "caption": "The Battle of Crécy (1346), from an illuminated manuscript of Froissart’s Chronicles.",
+      "creator": "Loyset Liédet (illuminator)",
+      "date": "c. 1470s (manuscript)",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_crecy_froissart.jpg",
+      "note": "Painted over a century after the battle for Froissart’s chivalric history — it shows how Crécy was remembered at the Burgundian court, in 15th-century arms and armour."
+    }
+  ]
+}

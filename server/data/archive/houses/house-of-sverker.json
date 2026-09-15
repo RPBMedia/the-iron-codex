@@ -1,0 +1,200 @@
+{
+  "id": "house-of-sverker",
+  "type": "house",
+  "name": "House of Sverker",
+  "aliases": [
+    "Sverker dynasty",
+    "Sverker"
+  ],
+  "originYear": 1130,
+  "endYear": 1222,
+  "reignSpan": "1130–1222",
+  "region": "Kingdom of Sweden",
+  "originPlace": "Östergötland, Sweden",
+  "arms": "A griffin, the emblem of Östergötland, was later attributed to the Sverker dynasty, which predates true heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alvastra.%20Cloister%20Ruins%20(3611182839).jpg?width=1000",
+  "imageInfo": {
+    "caption": "The ruins of Alvastra Abbey, founded by King Sverker I and the burial place of the Sverker dynasty.",
+    "creator": "Cistercian abbey, Östergötland (photograph)",
+    "date": "Abbey founded 1143",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alvastra._Cloister_Ruins_(3611182839).jpg",
+    "note": "The dynastic monastery and burial church of the Sverkers; no contemporary portrait of the kings survives."
+  },
+  "summary": "One of the two rival dynasties that fought for the Swedish crown in the twelfth and early thirteenth centuries.",
+  "overview": "The House of Sverker, based in Östergötland, was one of the two families — with the House of Erik — that alternated on the Swedish throne through a century of dynastic civil war. Its founder Sverker I founded Alvastra Abbey; his descendants ruled between Erik kings until the line ended in 1222.",
+  "founder": {
+    "personSlug": "sverker-i-of-sweden",
+    "displayName": "Sverker I",
+    "note": "Founder; united the Götar and Svear crowns"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "sverker-i-of-sweden",
+      "displayName": "Sverker I",
+      "note": "Founder; patron of Alvastra Abbey"
+    },
+    {
+      "personSlug": "charles-vii-sverkersson",
+      "displayName": "Charles VII",
+      "note": "Sverker’s son; one of the first to use the royal number"
+    },
+    {
+      "personSlug": "sverker-ii-of-sweden",
+      "displayName": "Sverker II",
+      "note": "Fought the Erik dynasty for the throne"
+    },
+    {
+      "personSlug": "john-i-sverkersson",
+      "displayName": "John I",
+      "note": "Last Sverker king of Sweden"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Sverker kings of Sweden, who alternated the throne with the rival House of Erik. Reigns were often separated by Erik kings; notes flag the succession.",
+    "root": {
+      "name": "Sverker I",
+      "personSlug": "sverker-i-of-sweden",
+      "note": "r. c. 1130–1156",
+      "children": [
+        {
+          "name": "Charles VII",
+          "personSlug": "charles-vii-sverkersson",
+          "note": "r. 1161–1167",
+          "children": [
+            {
+              "name": "Sverker II",
+              "personSlug": "sverker-ii-of-sweden",
+              "note": "r. 1196–1208",
+              "children": [
+                {
+                  "name": "John I",
+                  "personSlug": "john-i-sverkersson",
+                  "note": "r. 1216–1222, last of the line"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "Sverker I, a magnate of Östergötland, took the Swedish throne around 1130 amid the disorder that followed the Stenkil dynasty. He is credited with bringing the Cistercian order to Sweden, founding Alvastra Abbey in 1143, which became the burial church of his family.",
+        "His accession opened a century in which the crown passed back and forth between his descendants and those of his rival, the House of Erik."
+      ]
+    },
+    {
+      "title": "The Sverker–Erik wars",
+      "paragraphs": [
+        "For four generations the two families fought for the Swedish crown, and it became almost a custom that a king of one house would be succeeded by a king of the other. Sverker I was murdered; his son Charles VII took the throne after the Erik king Eric IX was killed; Charles in turn was killed by Eric IX’s son.",
+        "This alternation, unusual in medieval Europe, reflected a Swedish kingship still elective and shared between the great provinces of Götaland and Svealand."
+      ]
+    },
+    {
+      "title": "End of the line",
+      "paragraphs": [
+        "Sverker II fought the Erik dynasty and fell in battle in 1210. His son John I, the last of the Sverkers, ruled peacefully but briefly and died without an heir in 1222.",
+        "With John’s death the Sverker line ended; the crown passed for a time to the House of Erik and then, through marriage, toward the rising House of Bjälbo."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1130",
+      "title": "Sverker I takes the throne",
+      "description": "A new dynasty rises in Östergötland.",
+      "links": [
+        {
+          "title": "Sverker I",
+          "type": "person",
+          "slug": "sverker-i-of-sweden"
+        }
+      ]
+    },
+    {
+      "date": "1143",
+      "title": "Alvastra Abbey founded",
+      "description": "The Cistercians come to Sweden; the dynastic burial church is established."
+    },
+    {
+      "date": "1222",
+      "title": "End of the Sverker line",
+      "description": "John I dies without an heir.",
+      "links": [
+        {
+          "title": "John I",
+          "type": "person",
+          "slug": "john-i-sverkersson"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sverker I",
+        "type": "person",
+        "slug": "sverker-i-of-sweden",
+        "label": "Founder"
+      },
+      {
+        "title": "Sverker II",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden",
+        "label": "Fought the Erik dynasty"
+      },
+      {
+        "title": "John I",
+        "type": "person",
+        "slug": "john-i-sverkersson",
+        "label": "Last of the line"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Erik",
+        "type": "house",
+        "slug": "house-of-erik",
+        "label": "The rival dynasty"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Sverker — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Sverker"
+    },
+    {
+      "title": "Sverker I — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sverker_I_of_Sweden"
+    },
+    {
+      "title": "Sweden: the Middle Ages — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Sweden"
+    }
+  ]
+}

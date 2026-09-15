@@ -1,0 +1,227 @@
+{
+  "id": "narses",
+  "type": "character",
+  "name": "Narses",
+  "aliases": [
+    "Narses the Eunuch"
+  ],
+  "born": 478,
+  "died": 573,
+  "deathAge": "probably over 90",
+  "causeOfDeath": "Died in Italy in extreme old age; the circumstances are not recorded.",
+  "restingPlace": "Unknown",
+  "location": "Italy",
+  "title": "Praepositus sacri cubiculi and commander in Italy",
+  "roles": [
+    "General",
+    "Court chamberlain"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Narses.jpg",
+  "imageInfo": {
+    "caption": "A later depiction of Narses, the court eunuch who finished the Gothic War — no contemporary likeness of him survives.",
+    "creator": "Unknown; later depiction",
+    "date": "later imagining, not contemporary",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narses.jpg",
+    "note": "Not a portrait from life. No contemporary image of Narses is known, and this is a later artist's conception. Public domain."
+  },
+  "summary": "Narses was a court eunuch who took command in Italy in his seventies and won the Gothic War that Belisarius had been unable to finish.",
+  "overview": "He is the least likely great commander of the sixth century: a palace official with no field career until an age when most men were long retired.",
+  "greatestFeats": [
+    "Destroyed the Ostrogothic army and killed Totila at Taginae in 552",
+    "Ended the Ostrogothic kingdom at Mons Lactarius",
+    "Governed Italy for over a decade afterwards"
+  ],
+  "birth": {
+    "date": "c. 478",
+    "place": {
+      "name": "Persarmenia"
+    }
+  },
+  "death": {
+    "date": "c. 573",
+    "place": {
+      "name": "Italy"
+    },
+    "circumstance": "Died in Italy at a very great age, having outlived Justinian by some years."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "culture": "Armenian",
+    "knownFor": "Winning the Gothic War"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Narses was a eunuch of the imperial household who rose to be one of the most powerful men at Justinian's court, and then, in his seventies, became the general who finally won the Gothic War.",
+        "He had no significant field career before that. He was a palace official, a treasurer and a chamberlain, and his military reputation rests almost entirely on the last decade of a very long life.",
+        "He won the war Belisarius could not finish, and he did it by being given what Belisarius never was: enough men and enough money."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born around 478, probably in Persarmenia, and came to Constantinople as a eunuch of the imperial household — a career path that could lead to enormous influence and was closed to no one by birth.",
+        "He rose through the treasury to become praepositus sacri cubiculi, the head of the emperor's household, one of the great offices of the court.",
+        "His first recorded moment of consequence is the Nika riots of 532, where he reportedly went among the factions with a bag of gold and bought off enough of the Blues to split the rising."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Procopius, who disliked most people, treats him with a certain wary respect: careful, patient, generous with money and unusually good at managing the barbarian contingents that made up much of his army.",
+        "His handling of those troops is the trait everyone notes. The Lombard and Herul mercenaries he took to Italy were difficult, and he managed them by paying them properly and sending them home before they became a problem — a competence in logistics and personnel rather than in heroics.",
+        "He was also devout in a way the sources emphasise, attributing his victories to prayer and to the Virgin, and he built and endowed churches in Italy. Whether that piety is his or his biographers' is not fully separable."
+      ]
+    },
+    {
+      "title": "Command in Italy",
+      "paragraphs": [
+        "He was sent to Italy in 551 with an army far larger and better funded than anything Belisarius had commanded there, and with the authority to spend.",
+        "At Taginae in 552 he destroyed the Gothic army and Totila was killed. At Mons Lactarius shortly afterwards he destroyed its successor and Teias with it, ending the Ostrogothic kingdom.",
+        "He then spent years mopping up Frankish and Alemannic invasions and Gothic garrisons, and governed Italy into the 560s."
+      ]
+    },
+    {
+      "title": "The Lombard story",
+      "paragraphs": [
+        "A persistent tradition holds that Narses, dismissed and insulted by Justin II's empress, invited the Lombards into Italy out of spite — and they duly invaded in 568.",
+        "The story is late and hostile, and it does the convenient work of blaming a foreigner and a eunuch for a disaster with much deeper causes.",
+        "What is not in doubt is that Italy after eighteen years of war was too exhausted and too thinly garrisoned to resist, and that the Gothic War itself is the better explanation for what happened in 568."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He won the war, and the manner of it is instructive: what changed between Belisarius's failure and Narses's success was not generalship but resources.",
+        "His victory was also hollow. Italy was devastated, Rome was a shell, and within fifteen years the Lombards had taken much of what he had reconquered.",
+        "He remains one of the most unusual figures of the period — a household eunuch who ended a Gothic kingdom in his mid-seventies — and the sources have never quite known what to do with him."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 478",
+      "title": "Born",
+      "description": "Born in Persarmenia; came to Constantinople as a eunuch of the imperial household."
+    },
+    {
+      "date": "532",
+      "title": "Nika riots",
+      "description": "Reportedly splits the rising by buying off the Blue faction with imperial gold."
+    },
+    {
+      "date": "538–539",
+      "title": "First command in Italy",
+      "description": "Sent to Italy alongside Belisarius; their disagreement contributes to the fall of Milan and he is recalled."
+    },
+    {
+      "date": "551",
+      "title": "Given command",
+      "description": "Appointed to command in Italy with a large, properly funded army."
+    },
+    {
+      "date": "552",
+      "title": "Taginae",
+      "description": "Destroys the Gothic army; Totila is killed.",
+      "links": [
+        {
+          "title": "Battle of Taginae",
+          "type": "event",
+          "slug": "battle-of-taginae"
+        }
+      ]
+    },
+    {
+      "date": "552–553",
+      "title": "Mons Lactarius",
+      "description": "Destroys the last Gothic army and Teias with it, ending the kingdom.",
+      "links": [
+        {
+          "title": "Battle of Mons Lactarius",
+          "type": "event",
+          "slug": "battle-of-mons-lactarius"
+        }
+      ]
+    },
+    {
+      "date": "554–560s",
+      "title": "Governs Italy",
+      "description": "Clears Frankish and Gothic remnants and administers the reconquered province."
+    },
+    {
+      "date": "c. 573",
+      "title": "Died",
+      "description": "Died in Italy at a very great age, some years after Justinian."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "The king he defeated and killed"
+      },
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "His predecessor in the Italian command"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "The emperor he served"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war he ended"
+      },
+      {
+        "title": "Battle of Taginae",
+        "type": "event",
+        "slug": "battle-of-taginae",
+        "label": "His decisive victory"
+      },
+      {
+        "title": "Battle of Mons Lactarius",
+        "type": "event",
+        "slug": "battle-of-mons-lactarius",
+        "label": "Where the kingdom ended"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The empire he served"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Narses",
+      "url": "https://en.wikipedia.org/wiki/Narses",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "British Museum — late antique collections",
+      "url": "https://www.britishmuseum.org/collection",
+      "type": "museum collection",
+      "institution": "British Museum"
+    }
+  ]
+}

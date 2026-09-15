@@ -1,0 +1,98 @@
+{
+  "id": "codex-gigas",
+  "type": "artifact",
+  "name": "Codex Gigas",
+  "year": 1229,
+  "location": "Bohemia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex_Gigas_devil.jpg",
+  "summary": "A huge medieval manuscript famous for its full-page image of the devil.",
+  "details": "The Codex Gigas contains biblical, historical, medical, and penitential texts. Its size and imagery made it one of the most memorable manuscripts of medieval central Europe.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A huge medieval manuscript famous for its full-page image of the devil.",
+        "The Codex Gigas contains biblical, historical, medical, and penitential texts. Its size and imagery made it one of the most memorable manuscripts of medieval central Europe."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "Codex Gigas is a material or textual object whose physical survival helps historians read medieval politics, belief, art, or memory."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The archive date of 1229 is an orientation point. Exact dating, patronage, or production context may be debated depending on the object."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "Codex Gigas belongs to the world of Bohemia, where objects, texts, relics, and images could carry authority across generations."
+      ]
+    },
+    {
+      "title": "Use or meaning",
+      "paragraphs": [
+        "The Codex Gigas functioned as an enormous monastic compendium, bringing together biblical text, historical writing, medical material, calendars, and penitential material in a single spectacular volume. Its size and famous devil image made it memorable, but its real importance lies in the range of knowledge preserved by one Benedictine manuscript."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Codex Gigas remains a useful witness because it gives material form to medieval culture rather than reducing history to rulers and battles."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Devil page from the Codex Gigas.",
+    "creator": "Unknown Benedictine scribe or scribes",
+    "date": "early 13th century",
+    "source": "National Library of Sweden / Wikimedia Commons",
+    "note": "Image of the surviving manuscript."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Codex_Gigas_devil.jpg"
+    },
+    {
+      "title": "National Library of Sweden: Codex Gigas",
+      "author": "National Library of Sweden",
+      "type": "manuscript collection",
+      "url": "https://www.kb.se/in-english/the-codex-gigas.html"
+    },
+    {
+      "title": "British Library: Medieval literature and manuscripts",
+      "author": "British Library",
+      "type": "collection guide",
+      "url": "https://www.bl.uk/medieval-literature"
+    }
+  ],
+  "relatedEntries": {
+    "artifacts": [
+      {
+        "title": "Royal Frankish Annals",
+        "type": "artifact",
+        "slug": "royal-frankish-annals",
+        "label": "Comparable major medieval manuscript"
+      },
+      {
+        "title": "Book of Kells",
+        "type": "artifact",
+        "slug": "book-of-kells",
+        "label": "Comparable major medieval manuscript"
+      },
+      {
+        "title": "Lindisfarne Gospels",
+        "type": "artifact",
+        "slug": "lindisfarne-gospels",
+        "label": "Comparable major medieval manuscript"
+      }
+    ]
+  }
+}

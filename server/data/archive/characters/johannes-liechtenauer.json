@@ -1,0 +1,149 @@
+{
+  "id": "johannes-liechtenauer",
+  "type": "character",
+  "name": "Johannes Liechtenauer",
+  "aliases": [
+    "Johann Liechtenauer",
+    "Hans Liechtenauer",
+    "Master Liechtenauer"
+  ],
+  "born": "14th century",
+  "died": "14th century (uncertain)",
+  "deathAge": "unknown",
+  "birth": {
+    "date": "unknown",
+    "place": {
+      "name": "the German lands (unknown)"
+    }
+  },
+  "death": {
+    "date": "late 14th century (uncertain)",
+    "place": {
+      "name": "unknown"
+    }
+  },
+  "location": "The Holy Roman Empire",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Fechtbuch%20Talhoffer%20025.jpg",
+  "title": "fencing master",
+  "isRuler": false,
+  "roles": [
+    "Fencing master",
+    "Founder of the German school of fencing"
+  ],
+  "summary": "Johannes Liechtenauer was the 14th-century German fencing master regarded as the founder of the German school of swordsmanship, whose longsword teaching, preserved as a cryptic verse, shaped Central European martial arts for two centuries.",
+  "details": "Almost nothing certain is known of Liechtenauer's life. His art survives only through his mnemonic \"recital\" (Zettel) and the later glosses that explain it, the earliest recorded around 1389.",
+  "overview": "Liechtenauer is a foundational yet shadowy figure: hugely influential through his followers, but barely documented as a person.",
+  "quickFacts": {
+    "culture": "German",
+    "knownFor": "Founding the German (Liechtenauer) school of longsword fencing"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Johannes Liechtenauer was a German fencing master of the 14th century, remembered as the founder of the Kunst des Fechtens — the German art of fencing. His system for the two-handed longsword became the dominant martial tradition of the German-speaking lands into the 16th century.",
+        "He taught his art not as a manual but as a compressed mnemonic verse, the Zettel or \"recital\", deliberately obscure so that outsiders could not learn it without a master. The verse was later written down and explained by his successors.",
+        "The man himself is almost invisible to history. He is known only through references in the fight-books of his tradition, which credit him as the source of their teaching without recording where he lived, learned, or died."
+      ]
+    },
+    {
+      "title": "The art and its transmission",
+      "paragraphs": [
+        "Liechtenauer's longsword system is built on seizing the initiative (the Vor), five \"master cuts\" that both attack and defend, and the play of the bind — winding (Winden) and feeling pressure (Fühlen) to open a new line. It treats the sword as a lever and probe rather than a bludgeon.",
+        "The earliest surviving record of his verse is the Nuremberg Hausbuch (MS 3227a) of about 1389. Over the 15th century a chain of masters — Sigmund Ringeck, Peter von Danzig, Paulus Kal, and the illustrator Hans Talhoffer among them — wrote commentaries (glosses) that unpack the cryptic lines into a teachable system.",
+        "Because of this written tradition, the German longsword is one of the best-reconstructed martial arts of the Middle Ages, studied today directly from those manuscripts."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "There is essentially no personal record of Liechtenauer, so any \"character\" belongs to how his tradition remembered him: as a supreme authority whose word settled questions of technique. The glossators cite him almost as scripture, quoting his verse and then explaining \"this is what the master means\".",
+        "The one trait the sources do imply is a jealous guarding of knowledge. His teaching was cast in riddling verse precisely so that \"common fencers\" could not steal it, which tells us the art was a valuable, closely-held professional secret. Beyond that, the historical Liechtenauer is a name attached to a body of technique rather than a documented individual, and honest accounts say so."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Founded the German school of fencing (Kunst des Fechtens)",
+    "Composed the longsword recital (Zettel) that anchored the tradition",
+    "Inspired the 15th-century glossators who preserved and taught his art"
+  ],
+  "timeline": [
+    {
+      "date": "14th century",
+      "title": "Life",
+      "description": "Active as a fencing master in the German lands; his biography is almost entirely unrecorded."
+    },
+    {
+      "date": "Mid-14th century",
+      "title": "The recital (Zettel)",
+      "description": "Composes a mnemonic verse encoding his longsword system, deliberately obscure to outsiders."
+    },
+    {
+      "date": "c. 1389",
+      "title": "Earliest record",
+      "description": "The Nuremberg Hausbuch (MS 3227a) preserves the first known copy of his verse."
+    },
+    {
+      "date": "15th century",
+      "title": "The glossators",
+      "description": "Ringeck, Peter von Danzig and Paulus Kal write commentaries explaining the verse."
+    },
+    {
+      "date": "1467",
+      "title": "Talhoffer’s fight-books",
+      "description": "Hans Talhoffer’s illustrated manuals carry the tradition to a wider audience."
+    }
+  ],
+  "imageInfo": {
+    "caption": "A longsword plate from Hans Talhoffer’s 1467 fight-book — a manuscript of the German (Liechtenauer) tradition. No likeness of Liechtenauer himself survives.",
+    "creator": "Hans Talhoffer (1467 fight-book)",
+    "date": "1467 manuscript",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:De_Fechtbuch_Talhoffer_025.jpg",
+    "note": "A later manuscript of the tradition Liechtenauer founded, not a depiction of the man."
+  },
+  "sources": [
+    {
+      "title": "Johannes Liechtenauer",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Johannes_Liechtenauer"
+    },
+    {
+      "title": "Johannes Liechtenauer (treatises and glosses)",
+      "author": "Wiktenauer (HEMA Alliance)",
+      "type": "primary-source tradition",
+      "url": "https://wiktenauer.com/wiki/Johannes_Liechtenauer"
+    }
+  ],
+  "relatedEntries": {
+    "weaponsArmor": [
+      {
+        "title": "Longsword",
+        "type": "weaponArmor",
+        "slug": "longsword",
+        "label": "The weapon his system taught"
+      },
+      {
+        "title": "Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger",
+        "label": "The armoured-combat sidearm in the tradition"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "Also taught in the armoured-fighting curriculum"
+      }
+    ],
+    "people": [
+      {
+        "title": "Fiore dei Liberi",
+        "type": "person",
+        "slug": "fiore-dei-liberi",
+        "label": "His Italian contemporary and counterpart"
+      }
+    ]
+  }
+}

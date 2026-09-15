@@ -1,0 +1,84 @@
+{
+  "id": "gainsborough",
+  "type": "location",
+  "name": "Gainsborough",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of England",
+  "kingdomId": "kingdom-of-england",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gainsborough_Old_Hall%2C_2008.jpg",
+  "summary": "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard.",
+  "overview": [
+    "Gainsborough was a settlement in eastern England connected to river traffic, regional lordship, and later traditions about Danish royal power in England."
+  ],
+  "knownFor": [
+    "Traditional death place of Sweyn Forkbeard",
+    "River Trent setting",
+    "Anglo-Scandinavian political memory"
+  ],
+  "imageInfo": {
+    "caption": "Gainsborough Old Hall in Lincolnshire.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of a later medieval manor complex in the town.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall%2C_2008.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard.",
+        "Gainsborough matters historically through Traditional death place of Sweyn Forkbeard, River Trent setting, Anglo-Scandinavian political memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall%2C_2008.jpg"
+    },
+    {
+      "title": "Wikipedia: Gainsborough",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Gainsborough"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      },
+      {
+        "title": "North Sea Empire",
+        "type": "location",
+        "slug": "north-sea-empire"
+      }
+    ],
+    "people": [
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "Death of Sweyn Forkbeard"
+      }
+    ]
+  }
+}

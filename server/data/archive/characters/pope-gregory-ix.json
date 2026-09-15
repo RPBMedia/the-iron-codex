@@ -1,0 +1,168 @@
+{
+  "id": "pope-gregory-ix",
+  "type": "character",
+  "name": "Pope Gregory IX",
+  "aliases": [
+    "Gregory IX",
+    "Ugolino di Conti",
+    "Hugolino of Segni"
+  ],
+  "born": null,
+  "died": 1241,
+  "deathAge": "unknown",
+  "causeOfDeath": "Gregory died in Rome in 1241 in extreme old age, with Emperor Frederick II’s armies pressing on the city.",
+  "restingPlace": "St Peter's, Rome",
+  "location": "Papacy",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Pope_Gregory_IX.jpg",
+  "title": "pope, patron of the military orders and founder of the papal Inquisition",
+  "roles": [
+    "Pope"
+  ],
+  "birth": {
+    "date": "unknown (c. 1145–1170)",
+    "place": null
+  },
+  "death": {
+    "date": "22 August 1241",
+    "place": null,
+    "circumstance": "Died in Rome during his war with the emperor."
+  },
+  "quickFacts": {
+    "realm": "Papacy",
+    "dynasty": "Not dynastic",
+    "culture": "Latin Christian / Italian",
+    "knownFor": "Merged the Sword-Brothers into the Teutonic Order"
+  },
+  "imageInfo": {
+    "caption": "Pope Gregory IX, the great canon lawyer and patron of the crusading orders.",
+    "creator": "Unknown",
+    "date": "later depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pope_Gregory_IX.jpg",
+    "note": "A later depiction; no contemporary likeness survives."
+  },
+  "overview": [
+    "Pope Gregory IX was a formidable canon lawyer and a great patron of the military orders, who in 1237 incorporated the shattered Livonian Brothers of the Sword into the Teutonic Order.",
+    "He founded the papal Inquisition, canonised Francis of Assisi, and waged a ferocious feud with the Emperor Frederick II."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pope Gregory IX (reigned 1227–1241) was one of the most energetic and combative of medieval popes — a brilliant lawyer, a fierce champion of papal authority, and a key patron of the crusading orders in the Baltic and the Holy Land."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born Ugolino, of the counts of Segni and a kinsman of Pope Innocent III, he trained in law at Bologna and Paris and served as a cardinal and papal legate before his election in 1227."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Gregory was aged but astonishingly vigorous, a man of iron will and legal genius. He compiled the Decretals that became the backbone of Church law for centuries, and he pursued his aims — the supremacy of the papacy, the suppression of heresy, the support of the crusades — with relentless energy into his nineties.",
+        "His combativeness defined his reign. He excommunicated the Emperor Frederick II twice and fought him to the end of his life, and in 1231 he established the papal Inquisition to root out heresy, appointing the first inquisitors. Firm to the point of harshness, he was also a genuine patron of the new religious movements, canonising both Francis of Assisi and Dominic.",
+        "For the military orders he was a decisive friend: it was Gregory who, in 1237, folded the remnant of the Sword-Brothers into the Teutonic Order after their destruction at Saule, shaping the future of the Baltic crusades."
+      ]
+    },
+    {
+      "title": "Patron of the orders",
+      "paragraphs": [
+        "Gregory worked closely with Hermann von Salza, the Teutonic Grand Master, and it was under his authority that the Livonian Brothers of the Sword were incorporated into the Teutonic Order in 1237, creating its autonomous Livonian branch.",
+        "He confirmed privileges for the Templars and Hospitallers and pressed for renewed crusade, treating the military orders as essential instruments of the Church."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Gregory died in Rome in August 1241, in extreme old age, with Frederick II’s forces closing on the city — unbroken in his war with the emperor to the last."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Gregory IX left the Church a codified body of law, a permanent machinery of inquisition, and a reinvigorated crusading effort. For the Baltic, his merger of the Sword-Brothers into the Teutonic Order set the shape of the northern crusades for centuries.",
+        "He is remembered as one of the great lawyer-popes and as an implacable defender of papal power against the empire."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1145–1170",
+      "title": "Born of the counts of Segni",
+      "description": "A kinsman of Innocent III, trained as a canon lawyer."
+    },
+    {
+      "date": "1227",
+      "title": "Elected pope",
+      "description": "Becomes pope already advanced in years, and at once clashes with Frederick II."
+    },
+    {
+      "date": "1228",
+      "title": "Canonises Francis of Assisi",
+      "description": "A patron of the new mendicant orders as well as the military ones."
+    },
+    {
+      "date": "1231",
+      "title": "Founds the papal Inquisition",
+      "description": "Establishes standing inquisitors to pursue heresy."
+    },
+    {
+      "date": "1237",
+      "title": "Merges the Sword-Brothers",
+      "description": "Incorporates the Livonian Brothers of the Sword into the Teutonic Order."
+    },
+    {
+      "date": "1241",
+      "title": "Death in Rome",
+      "description": "Dies in extreme old age with the emperor’s armies at the walls."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Frederick II",
+        "type": "person",
+        "slug": "frederick-ii-holy-roman-emperor"
+      },
+      {
+        "title": "Hermann von Salza",
+        "type": "person",
+        "slug": "hermann-von-salza"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
+      },
+      {
+        "title": "Livonian Brothers of the Sword",
+        "type": "order",
+        "slug": "livonian-brothers-of-the-sword"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica: Gregory IX",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Gregory-IX"
+    },
+    {
+      "title": "The Papacy in the Middle Ages (survey works)",
+      "author": "various",
+      "type": "book"
+    }
+  ]
+}

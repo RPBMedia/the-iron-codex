@@ -1,0 +1,249 @@
+{
+  "id": "battle-of-tours",
+  "type": "event",
+  "name": "Battle of Tours",
+  "year": 732,
+  "location": "Near Tours and Poitiers, Frankish Kingdom",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steuben_-_Bataille_de_Poitiers.png",
+  "summary": "Frankish forces under Charles Martel defeated an Umayyad army near Tours and Poitiers in 732; the battle is sometimes called Tours-Poitiers, but it is distinct from the 1356 Battle of Poitiers.",
+  "details": "The battle was fought after Umayyad forces from al-Andalus pushed deep into Frankish territory. Charles Martel’s victory checked the raid, enhanced his authority, and later became one of the most symbolically charged battles in medieval European memory.",
+  "eventType": "Battle",
+  "factions": [
+    "Frankish Kingdom",
+    "Umayyad Caliphate",
+    "al-Andalus"
+  ],
+  "leaders": [
+    {
+      "name": "Charles Martel",
+      "faction": "Frankish forces",
+      "personId": "charles-martel"
+    },
+    {
+      "name": "Abd al-Rahman al-Ghafiqi",
+      "faction": "Umayyad forces from al-Andalus",
+      "personId": "abd-al-rahman-al-ghafiqi"
+    }
+  ],
+  "eventLocation": {
+    "name": "Tours",
+    "locationId": "tours"
+  },
+  "outcome": "Frankish victory, generally treated as decisive for Charles Martel's authority in the region.",
+  "background": [
+    "Umayyad forces operating from al-Andalus pushed north across the Pyrenees and raided deep into Frankish territory.",
+    "Charles Martel, mayor of the palace and the most powerful figure in the Frankish realm, gathered forces to meet the advance near Tours and Poitiers."
+  ],
+  "battle": "The Frankish army held a strong defensive position and absorbed cavalry attacks. Abd al-Rahman was killed during the fighting, and the Umayyad force withdrew south after the engagement.",
+  "aftermath": "The victory increased Charles Martel's prestige and helped strengthen Carolingian power. Later writers turned the battle into a symbol of western Christian resistance, though historians debate the scale of its immediate strategic impact.",
+  "conflict": "Umayyad expansion into Gaul",
+  "imageInfo": {
+    "caption": "Charles de Steuben, Bataille de Poitiers en octobre 732.",
+    "creator": "Charles de Steuben",
+    "date": "1837",
+    "source": "Wikimedia Commons",
+    "note": "A later nineteenth-century historical painting, not a contemporary depiction."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Tours, often also called the Battle of Poitiers or Tours-Poitiers because it was fought somewhere between Tours and Poitiers, took place in 732 between Frankish forces led by Charles Martel and an Umayyad army operating from al-Andalus. It should not be confused with the later Battle of Poitiers of 1356, a separate Hundred Years’ War battle between English and French forces.",
+        "The Franks won, and Abd al-Rahman al-Ghafiqi was killed during the fighting. The victory strengthened Charles Martel’s position in the Frankish Kingdom and checked a major raid north of the Pyrenees, though later writers sometimes turned the battle into a grand symbol of Christian resistance in ways modern historians treat cautiously."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "In the early eighth century the Umayyad Caliphate controlled al-Andalus and sent armies across the Pyrenees into southern Gaul. These campaigns mixed conquest, raiding, local alliances, and pressure on Aquitanian and Frankish authority.",
+        "Charles Martel, mayor of the palace and effective ruler among the Franks, moved to intercept the army after it advanced toward the rich shrine and city of Tours. The battle was therefore tied both to frontier warfare and to Charles’s struggle to dominate Frankish politics."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The Frankish army was probably built around disciplined infantry and aristocratic retainers loyal to Charles Martel. Medieval sources do not give reliable numbers, and later claims of enormous armies should be treated cautiously.",
+        "The Umayyad force was led by Abd al-Rahman al-Ghafiqi, governor of al-Andalus. It likely included cavalry and troops experienced in fast campaigning, but the exact composition and size remain uncertain."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The fighting probably took place somewhere between Tours and Poitiers, with the Franks occupying a strong defensive position. Frankish cohesion mattered: instead of breaking under cavalry pressure, Charles’s men held together and forced the attackers to fight on unfavorable terms.",
+        "During the battle Abd al-Rahman was killed. Whether this happened amid a Frankish counterattack, a crisis around the Umayyad camp, or a broader collapse is uncertain, but his death helped turn the engagement. The Umayyad army withdrew south during or after the night."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Frankish victory increased Charles Martel’s prestige and helped consolidate Carolingian dominance before the rise of his son Pepin and grandson Charlemagne. It did not end Muslim power in Iberia, but it limited the immediate northern advance.",
+        "For later medieval and modern writers, Tours became far larger than a frontier battle. Its symbolic afterlife sometimes overshadows the more careful historical question of what the battle changed immediately."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Tours matters because it linked military success to the rise of the Carolingian family. Charles Martel’s reputation as a defender and organizer of Frankish power became part of the political inheritance that later supported Carolingian kingship.",
+        "It also shows how medieval battles can become historical symbols. The battle was important, but claims that it single-handedly saved Europe are later interpretations rather than simple medieval fact."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikipedia: Chronicle of 754",
+      "author": "Wikipedia contributors",
+      "type": "primary source overview",
+      "url": "https://en.wikipedia.org/wiki/Chronicle_of_754"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Chronicle of Fredegar",
+      "author": "Fordham University",
+      "type": "primary source tradition",
+      "url": "https://sourcebooks.fordham.edu/basis/fredegar.asp"
+    },
+    {
+      "title": "World History Encyclopedia: Battle of Tours",
+      "author": "World History Encyclopedia",
+      "type": "modern historian",
+      "url": "https://www.worldhistory.org/Battle_of_Tours/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Tours",
+        "type": "location",
+        "slug": "tours",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "City near the battlefield"
+      }
+    ],
+    "people": [
+      {
+        "title": "Charles Martel",
+        "type": "person",
+        "slug": "charles-martel",
+        "label": "Commander"
+      },
+      {
+        "title": "Abd al-Rahman al-Ghafiqi",
+        "type": "person",
+        "slug": "abd-al-rahman-al-ghafiqi",
+        "label": "Commander"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The eastern check on the same expansion, fourteen years earlier"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Frankish forces",
+      "factions": [
+        {
+          "name": "Frankish Kingdom",
+          "title": "Frankish Kingdom",
+          "type": "location",
+          "slug": "frankish-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Charles Martel",
+          "title": "Charles Martel",
+          "type": "person",
+          "slug": "charles-martel"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; perhaps 15,000–30,000",
+        "confidence": "debated",
+        "note": "No reliable figures survive; the chronicle numbers are fantastical and modern estimates are speculative."
+      }
+    },
+    {
+      "side": "Umayyad forces from al-Andalus",
+      "factions": [
+        {
+          "name": "Umayyad Caliphate",
+          "title": "Umayyad Caliphate",
+          "type": "location",
+          "slug": "umayyad-caliphate"
+        },
+        {
+          "name": "al-Andalus",
+          "title": "al-Andalus",
+          "type": "location",
+          "slug": "al-andalus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Abd al-Rahman al-Ghafiqi",
+          "title": "Abd al-Rahman al-Ghafiqi",
+          "type": "person",
+          "slug": "abd-al-rahman-al-ghafiqi"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a large raiding army, not the vast host of legend",
+        "confidence": "debated",
+        "note": "Arabic and Latin sources give no usable totals; the force was probably far smaller than later tradition claimed."
+      }
+    }
+  ],
+  "linkOverrides": [
+    {
+      "term": "Battle of Poitiers or Tours-Poitiers",
+      "target": null,
+      "note": "Alias phrase for the 732 Battle of Tours; suppress automatic link to the 1356 battle."
+    },
+    {
+      "term": "Tours-Poitiers",
+      "target": null,
+      "note": "Alias for the 732 Battle of Tours in this article."
+    },
+    {
+      "term": "Battle of Poitiers of 1356",
+      "target": {
+        "type": "event",
+        "slug": "battle-of-poitiers"
+      },
+      "note": "Explicit disambiguating reference to the Hundred Years War battle."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Another clash on the Christian–Muslim frontier",
+    "battleSlug": "battle-of-las-navas-de-tolosa",
+    "relationship": "tactical-comparison",
+    "reason": "Charles Martel's victory near Tours halted the northward reach of Umayyad al-Andalus; at Las Navas de Tolosa in 1212, a coalition of Iberian Christian kings broke Almohad power in the same peninsula where that expansion began."
+  }
+}

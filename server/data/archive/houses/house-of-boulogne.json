@@ -1,0 +1,233 @@
+{
+  "id": "house-of-boulogne",
+  "type": "house",
+  "name": "House of Boulogne",
+  "aliases": [
+    "House of Boulogne / Ardennes-Bouillon",
+    "Ardennes-Bouillon",
+    "House of Ardennes-Bouillon",
+    "Rethel family",
+    "Counts of Boulogne"
+  ],
+  "originYear": 1099,
+  "endYear": 1131,
+  "reignSpan": "1099–1131",
+  "region": "Kingdom of Jerusalem",
+  "originPlace": "Boulogne and the Ardennes",
+  "arms": "A gold cross flanked by four smaller gold crosses on a silver field — the arms of the Kingdom of Jerusalem.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Godfrey%20of%20Bouillon%20from%20Histoire%20d%27Outremer.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Godfrey of Bouillon, leader of the First Crusade and first Frankish ruler of Jerusalem, in a manuscript of William of Tyre’s history.",
+    "creator": "Manuscript of the Histoire d’Outremer",
+    "date": "13th–14th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Godfrey_of_Bouillon_from_Histoire_d%27Outremer.jpg",
+    "note": "A later crusader-chronicle depiction of Godfrey, revered as one of the Nine Worthies."
+  },
+  "summary": "The Ardennes-Bouillon family that founded the Kingdom of Jerusalem after the First Crusade, from Godfrey of Bouillon to Baldwin II.",
+  "overview": "The House of Boulogne, of the Ardennes-Bouillon comital family, established Latin rule in the Holy Land after the First Crusade. Godfrey of Bouillon took Jerusalem in 1099, his brother Baldwin I became its first king, and their cousin Baldwin II consolidated the young crusader kingdom before it passed by marriage to the Angevins.",
+  "founder": {
+    "personSlug": "godfrey-of-bouillon",
+    "displayName": "Godfrey of Bouillon",
+    "note": "Leader of the First Crusade; first Frankish ruler of Jerusalem"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Jerusalem",
+      "type": "location",
+      "slug": "kingdom-of-jerusalem"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "godfrey-of-bouillon",
+      "displayName": "Godfrey of Bouillon",
+      "note": "Took Jerusalem in 1099 as \"Advocate of the Holy Sepulchre\""
+    },
+    {
+      "personSlug": "baldwin-i-of-jerusalem",
+      "displayName": "Baldwin I",
+      "note": "First to take the title King of Jerusalem"
+    },
+    {
+      "personSlug": "baldwin-ii-of-jerusalem",
+      "displayName": "Baldwin II",
+      "note": "Cousin of Rethel; consolidated the kingdom"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Anjou-Rethel",
+      "note": "Baldwin II’s daughter Melisende married Fulk of Anjou, carrying the crown to the Angevin line."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Ardennes-Bouillon family that founded the Kingdom of Jerusalem: the brothers Godfrey and Baldwin I of Boulogne, and their kinsman Baldwin II of Rethel, whose daughter Melisende carried the crown to the House of Anjou-Rethel.",
+    "root": {
+      "name": "Counts of Boulogne and Rethel",
+      "note": "the Ardennes-Bouillon family",
+      "children": [
+        {
+          "name": "Godfrey of Bouillon",
+          "personSlug": "godfrey-of-bouillon",
+          "note": "ruled 1099–1100"
+        },
+        {
+          "name": "Baldwin I",
+          "personSlug": "baldwin-i-of-jerusalem",
+          "note": "r. 1100–1118"
+        },
+        {
+          "name": "Baldwin II",
+          "personSlug": "baldwin-ii-of-jerusalem",
+          "note": "cousin of Rethel; r. 1118–1131",
+          "branch": "→ House of Anjou-Rethel (via Melisende)"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The family were counts of Boulogne and lords in the Ardennes, and Godfrey of Bouillon, Duke of Lower Lorraine, was one of the principal leaders of the First Crusade launched in 1096. After the bloody capture of Jerusalem in 1099, the crusaders chose Godfrey to rule.",
+        "Godfrey refused the title of king in the city where Christ had worn a crown of thorns, taking instead the style \"Advocate of the Holy Sepulchre\". His early death in 1100 left the new conquest without a settled monarchy."
+      ]
+    },
+    {
+      "title": "The first kings",
+      "paragraphs": [
+        "Godfrey’s brother Baldwin, Count of Edessa, had no such scruples: he came south, was crowned in Bethlehem, and ruled as Baldwin I, the first King of Jerusalem. He expanded the kingdom by seizing the coastal cities with the help of the Italian fleets, giving it ports and revenue.",
+        "On his death in 1118 the crown passed to his cousin Baldwin of Bourcq, Count of Edessa, of the related Rethel family, who ruled as Baldwin II."
+      ]
+    },
+    {
+      "title": "Baldwin II and the succession",
+      "paragraphs": [
+        "Baldwin II defended the kingdom against its Muslim neighbours, survived captivity, and presided over the early growth of the military orders — the Templars were founded in his reign. But he left only daughters.",
+        "To secure the succession he married his eldest daughter and heiress, Melisende, to Fulk V, Count of Anjou, so that on his death in 1131 the crown of Jerusalem passed to the Angevin House of Anjou-Rethel."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The House of Boulogne founded the Kingdom of Jerusalem and gave it its first institutions, its coastal cities, and its place at the head of the crusader states. Godfrey of Bouillon became a legend of Christian chivalry, remembered among the Nine Worthies.",
+        "Through Melisende’s marriage the dynasty’s achievement passed to the Angevin kings under whom the kingdom reached its height — and then its crisis."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1099",
+      "title": "Capture of Jerusalem",
+      "description": "Godfrey of Bouillon becomes the first Frankish ruler of the city.",
+      "links": [
+        {
+          "title": "Godfrey of Bouillon",
+          "type": "person",
+          "slug": "godfrey-of-bouillon"
+        }
+      ]
+    },
+    {
+      "date": "1100",
+      "title": "Baldwin I crowned king",
+      "description": "Godfrey’s brother takes the royal title.",
+      "links": [
+        {
+          "title": "Baldwin I",
+          "type": "person",
+          "slug": "baldwin-i-of-jerusalem"
+        }
+      ]
+    },
+    {
+      "date": "1118",
+      "title": "Accession of Baldwin II",
+      "description": "The crown passes to the Rethel cousin.",
+      "links": [
+        {
+          "title": "Baldwin II",
+          "type": "person",
+          "slug": "baldwin-ii-of-jerusalem"
+        }
+      ]
+    },
+    {
+      "date": "1131",
+      "title": "Crown passes to Anjou",
+      "description": "Melisende and Fulk of Anjou inherit the kingdom."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Godfrey of Bouillon",
+        "type": "person",
+        "slug": "godfrey-of-bouillon",
+        "label": "Founder"
+      },
+      {
+        "title": "Baldwin I",
+        "type": "person",
+        "slug": "baldwin-i-of-jerusalem",
+        "label": "First king"
+      },
+      {
+        "title": "Baldwin II",
+        "type": "person",
+        "slug": "baldwin-ii-of-jerusalem",
+        "label": "Consolidated the kingdom"
+      },
+      {
+        "title": "Matilda of Boulogne",
+        "type": "person",
+        "slug": "matilda-of-boulogne",
+        "label": "Heiress of Boulogne"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "The kingdom they founded"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Anjou-Rethel",
+        "type": "house",
+        "slug": "house-of-anjou-rethel",
+        "label": "The Angevin line that succeeded them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Godfrey of Bouillon — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Godfrey-of-Bouillon"
+    },
+    {
+      "title": "Kingdom of Jerusalem — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Jerusalem"
+    },
+    {
+      "title": "Baldwin I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Baldwin-I-king-of-Jerusalem"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms%20of%20the%20Kingdom%20of%20Jerusalem.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Kingdom of Jerusalem — a gold cross potent between four crosslets on silver.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_Jerusalem.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

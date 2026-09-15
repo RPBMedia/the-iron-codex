@@ -11,6 +11,7 @@ import { isAdminUser } from './admin.js'
 import { fileURLToPath } from 'node:url'
 import { createHmac, randomBytes, scrypt as scryptCallback, timingSafeEqual } from 'node:crypto'
 import { promisify } from 'node:util'
+import { archiveVersion, loadArchive } from './data/archive.mjs'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -102,16 +103,17 @@ app.use('/api', (_req, res, next) => {
   next()
 })
 
-const historyDataPath = path.join(__dirname, 'data', 'history.json')
+// One file per article under data/archive (QUEUE 0m, M1). The cache reloads
+// when the archive's index.json changes, which every save rewrites.
 let cachedHistoryData = null
-let cachedHistoryMtimeMs = 0
+let cachedArchiveVersion = 0
 
 function historyData() {
-  const stats = statSync(historyDataPath)
+  const version = archiveVersion()
 
-  if (!cachedHistoryData || stats.mtimeMs !== cachedHistoryMtimeMs) {
-    cachedHistoryData = JSON.parse(readFileSync(historyDataPath, 'utf-8'))
-    cachedHistoryMtimeMs = stats.mtimeMs
+  if (!cachedHistoryData || version !== cachedArchiveVersion) {
+    cachedHistoryData = loadArchive()
+    cachedArchiveVersion = version
   }
 
   return cachedHistoryData

@@ -1,0 +1,207 @@
+{
+  "id": "livonian-brothers-of-the-sword",
+  "type": "order",
+  "name": "Livonian Brothers of the Sword",
+  "aliases": [
+    "The Livonian Brothers of the Sword",
+    "Sword Brothers",
+    "Sword-Brothers",
+    "Swordbrothers",
+    "Order of the Brothers of the Sword",
+    "Fratres militiae Christi Livoniae",
+    "Militia of Christ of Livonia"
+  ],
+  "originYear": 1202,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Turaida_Castle.JPG",
+  "imageInfo": {
+    "caption": "Turaida, a red-brick crusader castle in the Gauja valley, heart of the Livonian crusade.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turaida_Castle.JPG",
+    "note": "The Sword-Brothers studded conquered Livonia with brick castles like this."
+  },
+  "sigilImage": "https://upload.wikimedia.org/wikipedia/commons/1/16/Zakon_Kawaler%C3%B3w_Mieczowych_COA.svg",
+  "sigilImageInfo": {
+    "caption": "Arms of the Sword-Brothers — a red cross above a red sword.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zakon_Kawaler%C3%B3w_Mieczowych_COA.svg",
+    "note": "The cross and sword gave the order its popular name."
+  },
+  "summary": "The Livonian Brothers of the Sword were founded in 1202 to conquer and convert pagan Livonia for the bishops of Riga. Brutal and independent, they carved out a crusader state on the eastern Baltic before their army was annihilated at Saule in 1236, after which the survivors were folded into the Teutonic Order.",
+  "founded": "1202, Riga",
+  "recognized": "Confirmed by Innocent III, 1204",
+  "dissolved": "1237 (merged into the Teutonic Order)",
+  "allegiance": "The Bishopric of Riga and the Papacy",
+  "headquarters": "Riga, Wenden (Cēsis), and Fellin",
+  "habit": "White mantle with a red cross and sword",
+  "patron": "The Virgin Mary",
+  "purpose": "The order was created to give the missionary bishopric of Riga a permanent army — to subdue the Livs, Latgalians, and Estonians of the eastern Baltic by the sword and hold the conquered land for the Church.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "1202 — the first Baltic crusading order"
+    },
+    {
+      "label": "Emblem",
+      "value": "A red cross above a red sword"
+    },
+    {
+      "label": "Rule",
+      "value": "Modelled on the Knights Templar"
+    },
+    {
+      "label": "End",
+      "value": "Destroyed at Saule, 1236; absorbed 1237"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Livonian Brothers of the Sword were the first of the Baltic crusading orders — warrior-monks raised to conquer the pagan peoples of Livonia, on the far north-eastern edge of Latin Christendom. In a single generation they built a crusader state around Riga by relentless, often merciless war.",
+        "Fiercely independent of the bishops who founded them, they were also brittle: when a Lithuanian and Semigallian army destroyed their field force at Saule in 1236, the order could not recover, and the remnant was absorbed into the Teutonic Order."
+      ]
+    },
+    {
+      "title": "The conquest of Livonia",
+      "paragraphs": [
+        "Bishop Albert of Riga, needing soldiers to hold his new mission, founded the order in 1202; Pope Innocent III confirmed it in 1204 and gave it a rule modelled on the Templars. Its brothers fought their way up the Daugava and Gauja rivers, storming and building castles and forcing baptism on the Livs, Latgalians, and Estonians.",
+        "By the 1230s the Sword-Brothers held a wide swathe of the eastern Baltic — but they quarrelled endlessly with the bishops over the division of the conquered land, keeping the larger share for themselves."
+      ]
+    },
+    {
+      "title": "Saule and the end",
+      "paragraphs": [
+        "In 1236 the order launched a raid deep into Samogitia. On the way home, on boggy ground at Saule, it was trapped and destroyed by Samogitians and Semigallians; the master, Volkwin, and much of the brotherhood were killed.",
+        "The blow was fatal. The next year Pope Gregory IX, with the Teutonic Grand Master Hermann von Salza brokering the arrangement, incorporated the survivors into the Teutonic Order, where they became its semi-autonomous Livonian branch."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Sword-Brothers left behind the crusader state of Livonia — a patchwork of order lands and bishoprics that would endure, under their Teutonic successors, for three more centuries.",
+        "Their brief, violent career set the pattern for the Baltic crusades: conquest by castle-building, forced conversion, and constant friction between the military order and the churchmen it was meant to serve."
+      ]
+    }
+  ],
+  "grandMasters": [
+    {
+      "name": "Vinno von Rohrbach",
+      "term": "1204–1209",
+      "note": "First master; murdered by a brother knight."
+    },
+    {
+      "name": "Volkwin von Naumburg",
+      "term": "1209–1236",
+      "note": "Led the order to its height and died in the disaster at Saule."
+    }
+  ],
+  "battles": [
+    {
+      "name": "Saule",
+      "date": "22 Sep 1236",
+      "role": "The order’s army is trapped and destroyed; master Volkwin killed.",
+      "opponent": "Samogitians & Semigallians",
+      "outcome": "Catastrophic defeat"
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Riga",
+      "period": "from 1202",
+      "note": "The missionary city that founded and based the order."
+    },
+    {
+      "name": "Wenden (Cēsis)",
+      "period": "from c. 1214",
+      "note": "The order’s chief inland castle, later the Livonian Order’s seat."
+    },
+    {
+      "name": "Fellin (Viljandi)",
+      "period": "13th c.",
+      "note": "Great brick castle commanding conquered Estonia."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1202",
+      "title": "Foundation at Riga",
+      "description": "Bishop Albert founds the order to conquer and convert Livonia."
+    },
+    {
+      "date": "1204",
+      "title": "Papal confirmation",
+      "description": "Innocent III recognises the order and gives it a Templar-style rule."
+    },
+    {
+      "date": "1207–1227",
+      "title": "Conquest of Livonia",
+      "description": "The brothers subdue the Livs, Latgalians, and Estonians by castle and sword."
+    },
+    {
+      "date": "1236",
+      "title": "Saule",
+      "description": "The order’s field army is annihilated in Samogitia."
+    },
+    {
+      "date": "1237",
+      "title": "Absorbed by the Teutonic Order",
+      "description": "The survivors become the Teutonic Order’s Livonian branch."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "The Sword-Brothers were simply the Teutonic Knights under another name.",
+      "reality": "They were a separate, earlier order founded for the bishops of Riga; only after Saule (1236) were the survivors merged into the Teutonic Order."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Northern Crusades",
+      "author": "Eric Christiansen",
+      "year": "1997"
+    },
+    {
+      "title": "The Chronicle of Henry of Livonia",
+      "author": "Henry of Livonia",
+      "year": "c. 1229 (primary source)"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Hermann von Salza",
+        "type": "person",
+        "slug": "hermann-von-salza",
+        "label": "Teutonic master who brokered the 1237 merger"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod",
+        "label": "The Rus’ power on the order’s eastern flank"
+      },
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "The pagan power that helped destroy it at Saule"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order",
+        "label": "Its direct successor"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "The order that absorbed it"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "domremy",
+  "type": "location",
+  "locationType": "Village",
+  "kingdom": "Kingdom of France",
+  "name": "Domremy",
+  "year": 1200,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Jakobsweg_by_Niederkasseler_France_-_Domremy-la-Pucelle_-_panoramio_%283%29.jpg",
+  "summary": "The village in northeastern France where Joan of Arc was born.",
+  "overview": [
+    "Domremy was a small village on the frontier zones affected by the Hundred Years' War.",
+    "Its association with Joan of Arc made it one of the most famous birthplaces in late medieval France."
+  ],
+  "knownFor": [
+    "Birthplace of Joan of Arc",
+    "Hundred Years' War frontier memory",
+    "Joan of Arc pilgrimage and commemoration"
+  ],
+  "imageInfo": {
+    "caption": "Domremy-la-Pucelle, the village associated with Joan of Arc.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the village landscape.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jakobsweg_by_Niederkasseler_France_-_Domremy-la-Pucelle_-_panoramio_%283%29.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Domrémy in the Meuse valley of northeastern France was the village where Joan of Arc was born around 1412. The village sat near the disputed frontier between French-controlled and Burgundian territory during the Hundred Years' War.",
+        "Joan later described receiving her first visions at Domrémy around the age of thirteen, hearing the voices of Saint Michael, Saint Catherine, and Saint Margaret directing her to support the French crown."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Domrémy's borderland position — at the edge of Lorraine and near territories contested between the Armagnac and Burgundian factions — shaped the political and military world Joan encountered in her youth. Local raiding and displacement were realities for village communities in this region.",
+        "After Joan's canonization in 1920, the village was renamed Domrémy-la-Pucelle. During Joan's medieval life it was a modest rural village with no particular distinction beyond its proximity to frontier instability."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jakobsweg_by_Niederkasseler_France_-_Domremy-la-Pucelle_-_panoramio_(3).jpg"
+    },
+    {
+      "title": "Wikipedia: Domremy",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Domremy"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Joan of Arc",
+        "type": "person",
+        "slug": "joan-of-arc",
+        "label": "Birthplace of Joan of Arc"
+      },
+      {
+        "title": "Charles d'Albret",
+        "type": "person",
+        "slug": "charles-d-albret"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen"
+      }
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "id": "house-of-valois",
+  "type": "house",
+  "name": "House of Valois",
+  "aliases": [
+    "Valois",
+    "Valois dynasty",
+    "Valois-Burgundy"
+  ],
+  "originYear": 1328,
+  "endYear": 1589,
+  "reignSpan": "1328–1589",
+  "region": "Kingdom of France",
+  "originPlace": "France",
+  "arms": "Three gold fleurs-de-lis on a blue field — the royal arms of France (“France Modern”).",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/14th-century%20unknown%20painters%20-%20Portrait%20of%20Jean%20le%20Bon,%20King%20of%20France%20-%20WGA23666.jpg?width=1000",
+  "imageInfo": {
+    "caption": "John II the Good, second Valois king of France — one of the earliest surviving independent portraits in European painting.",
+    "creator": "Unknown French painter",
+    "date": "c. 1350",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:14th-century_unknown_painters_-_Portrait_of_Jean_le_Bon,_King_of_France_-_WGA23666.jpg",
+    "note": "A near-contemporary panel portrait of the Valois king John II, remarkable as one of the first individual portraits in Western art."
+  },
+  "summary": "The Capetian cadet branch that ruled France through the Hundred Years’ War, from the crisis of 1328 to the recovery under Charles VII.",
+  "overview": "The House of Valois inherited the French crown in 1328 when the direct Capetian line died out. Its early reigns were dominated by the Hundred Years’ War with England — disaster at Crécy and Poitiers, the madness of Charles VI and the Burgundian civil war, then recovery and final victory under Charles VII, aided by Joan of Arc.",
+  "founder": {
+    "personSlug": "philip-vi-of-france",
+    "displayName": "Philip VI",
+    "note": "First Valois king; his accession helped trigger the Hundred Years’ War"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of France",
+      "type": "location",
+      "slug": "kingdom-of-france"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "philip-vi-of-france",
+      "displayName": "Philip VI",
+      "note": "Founder; defeated at Crécy"
+    },
+    {
+      "personSlug": "john-ii-of-france",
+      "displayName": "John II the Good",
+      "note": "Captured by the English at Poitiers"
+    },
+    {
+      "personSlug": "charles-v-of-france",
+      "displayName": "Charles V the Wise",
+      "note": "Recovered most of the English gains"
+    },
+    {
+      "personSlug": "charles-vi-of-france",
+      "displayName": "Charles VI the Mad",
+      "note": "His madness plunged France into civil war"
+    },
+    {
+      "personSlug": "charles-vii-of-france",
+      "displayName": "Charles VII the Victorious",
+      "note": "Won the Hundred Years’ War with Joan of Arc’s help"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Valois-Burgundy",
+      "note": "The dukes of Burgundy (Philip the Bold to Charles the Bold), a powerful cadet line that rivalled the crown."
+    }
+  ],
+  "familyTree": {
+    "caption": "The direct Valois kings from Philip VI through the Hundred Years’ War to Charles VII. ⚭ marks a marriage.",
+    "root": {
+      "name": "Philip VI",
+      "personSlug": "philip-vi-of-france",
+      "note": "r. 1328–1350",
+      "children": [
+        {
+          "name": "John II the Good",
+          "personSlug": "john-ii-of-france",
+          "note": "r. 1350–1364",
+          "children": [
+            {
+              "name": "Charles V the Wise",
+              "personSlug": "charles-v-of-france",
+              "note": "r. 1364–1380",
+              "children": [
+                {
+                  "name": "Charles VI the Mad",
+                  "personSlug": "charles-vi-of-france",
+                  "note": "r. 1380–1422",
+                  "children": [
+                    {
+                      "name": "Charles VII the Victorious",
+                      "personSlug": "charles-vii-of-france",
+                      "note": "r. 1422–1461"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "When Charles IV, last of the direct Capetians, died in 1328, the French magnates passed over the claim of Edward III of England — descended through his mother — and gave the crown to Philip of Valois, nephew of Philip IV, as Philip VI. The rejection of Edward’s claim became a legal pretext for the Hundred Years’ War.",
+        "Philip VI’s reign opened badly: English longbowmen destroyed his mounted chivalry at the Battle of Crécy in 1346, and the Black Death struck France in 1348."
+      ]
+    },
+    {
+      "title": "Captivity and crisis",
+      "paragraphs": [
+        "His son John II the Good was himself captured by the Black Prince at the Battle of Poitiers in 1356, a catastrophe that left France leaderless. The huge ransom, the peasant revolt called the Jacquerie, and the Parisian rising under Étienne Marcel brought the monarchy near collapse.",
+        "John died a captive in London in 1364, having returned voluntarily when a hostage broke parole — an act contemporaries praised as chivalrous and modern historians find ruinous."
+      ]
+    },
+    {
+      "title": "Charles V and recovery",
+      "paragraphs": [
+        "Charles V the Wise rebuilt the kingdom. Avoiding pitched battles, he used his constable Bertrand du Guesclin to wear the English down through skirmishing and sieges, and by 1380 had recovered nearly all the territory lost at Brétigny. He reformed the coinage and taxation and built royal libraries and the Bastille.",
+        "His death in 1380 left the recovery in the hands of a child king and quarrelling royal uncles."
+      ]
+    },
+    {
+      "title": "Madness, civil war, and Agincourt",
+      "paragraphs": [
+        "Charles VI suffered recurring bouts of insanity from 1392, and the vacuum of power split the court between the Armagnac and Burgundian factions in open civil war. Henry V of England exploited the division, annihilating the French nobility at the Battle of Agincourt in 1415 and forcing the Treaty of Troyes in 1420, which disinherited the dauphin.",
+        "For a time it seemed the French and English crowns would be united under the Lancastrians."
+      ]
+    },
+    {
+      "title": "Charles VII and victory",
+      "paragraphs": [
+        "The disinherited dauphin, crowned Charles VII at Reims in 1429 after Joan of Arc broke the siege of Orléans, gradually turned the war. Reconciliation with Burgundy in 1435, a standing army, and reformed artillery under the Bureau brothers let him reconquer Normandy and Guyenne, ending the Hundred Years’ War in 1453.",
+        "Under Charles VII the Valois monarchy emerged victorious and far stronger, its authority and finances rebuilt for the centralised state of the later kings."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1328",
+      "title": "Philip VI founds the dynasty",
+      "description": "The Valois inherit the crown as the direct Capetians die out.",
+      "links": [
+        {
+          "title": "Philip VI",
+          "type": "person",
+          "slug": "philip-vi-of-france"
+        }
+      ]
+    },
+    {
+      "date": "1346",
+      "title": "Defeat at Crécy",
+      "description": "English longbows destroy Philip VI’s army.",
+      "links": [
+        {
+          "title": "Battle of Crécy",
+          "type": "event",
+          "slug": "battle-of-crecy"
+        }
+      ]
+    },
+    {
+      "date": "1356",
+      "title": "John II captured at Poitiers",
+      "description": "The king is taken prisoner by the Black Prince.",
+      "links": [
+        {
+          "title": "Battle of Poitiers",
+          "type": "event",
+          "slug": "battle-of-poitiers"
+        }
+      ]
+    },
+    {
+      "date": "1380",
+      "title": "Charles V restores the realm",
+      "description": "By his death most English gains have been recovered.",
+      "links": [
+        {
+          "title": "Charles V the Wise",
+          "type": "person",
+          "slug": "charles-v-of-france"
+        }
+      ]
+    },
+    {
+      "date": "1415",
+      "title": "Catastrophe at Agincourt",
+      "description": "Henry V destroys the French nobility during Charles VI’s madness.",
+      "links": [
+        {
+          "title": "Battle of Agincourt",
+          "type": "event",
+          "slug": "battle-of-agincourt"
+        }
+      ]
+    },
+    {
+      "date": "1429",
+      "title": "Joan of Arc and Charles VII",
+      "description": "The dauphin is crowned at Reims and the tide turns.",
+      "links": [
+        {
+          "title": "Charles VII the Victorious",
+          "type": "person",
+          "slug": "charles-vii-of-france"
+        }
+      ]
+    },
+    {
+      "date": "1453",
+      "title": "End of the Hundred Years’ War",
+      "description": "Charles VII reconquers Guyenne; the long war ends.",
+      "links": [
+        {
+          "title": "Hundred Years' War",
+          "type": "event",
+          "slug": "hundred-years-war"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Philip VI",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Founder"
+      },
+      {
+        "title": "Charles V the Wise",
+        "type": "person",
+        "slug": "charles-v-of-france",
+        "label": "Recovered the kingdom"
+      },
+      {
+        "title": "Charles VII the Victorious",
+        "type": "person",
+        "slug": "charles-vii-of-france",
+        "label": "Won the war"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The defining Valois conflict"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "Opening disaster, 1346"
+      },
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "Low point, 1415"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The realm they ruled"
+      },
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Their fortress-residence east of Paris"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Valois — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Valois"
+    },
+    {
+      "title": "Valois dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Valois-dynasty"
+    },
+    {
+      "title": "Hundred Years’ War — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Hundred-Years-War"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms%20of%20the%20Kingdom%20of%20France%20(Moderne).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The royal arms of France (“France Modern”): three gold fleurs-de-lis on blue.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_the_Kingdom_of_France_(Moderne).svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "house-of-erik",
+  "type": "house",
+  "name": "House of Erik",
+  "aliases": [
+    "Erik dynasty",
+    "Eriksson dynasty",
+    "House of Eric"
+  ],
+  "originYear": 1156,
+  "endYear": 1250,
+  "reignSpan": "1156–1250",
+  "region": "Kingdom of Sweden",
+  "originPlace": "Sweden",
+  "arms": "Three crowns and a lion, later emblems of Sweden, were attributed to the line; the dynasty predates true heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric%20the%20Holy%20of%20Sweden%20(crop).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Saint Eric (Eric IX), the dynasty’s founder and patron saint of Sweden, in a medieval image.",
+    "creator": "Medieval Swedish church art",
+    "date": "Eric IX d. 1160",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eric_the_Holy_of_Sweden_(crop).jpg",
+    "note": "A devotional image of Saint Eric, venerated as Sweden’s patron; it is a cult image rather than a portrait from life."
+  },
+  "summary": "The rival of the Sverkers for the Swedish crown, and the dynasty of Saint Eric, Sweden’s patron saint.",
+  "overview": "The House of Erik, descended from Eric IX — later venerated as Saint Eric, patron of Sweden — was one of the two dynasties that fought for the Swedish throne in the twelfth and thirteenth centuries. Alternating power with the House of Sverker, its kings advanced Christianity and royal authority before the line ended and the crown passed to the House of Bjälbo.",
+  "founder": {
+    "personSlug": "eric-ix-of-sweden",
+    "displayName": "Eric IX (Saint Eric)",
+    "note": "Founder; patron saint of Sweden"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "eric-ix-of-sweden",
+      "displayName": "Eric IX (Saint Eric)",
+      "note": "Founder; Sweden’s patron saint"
+    },
+    {
+      "personSlug": "knut-eriksson",
+      "displayName": "Knut Eriksson",
+      "note": "Avenged his father and secured the throne"
+    },
+    {
+      "personSlug": "erik-knutsson",
+      "displayName": "Erik Knutsson",
+      "note": "Defeated the Sverkers to reclaim the crown"
+    },
+    {
+      "personSlug": "eric-xi-eriksson",
+      "displayName": "Eric XI",
+      "note": "Last king of the Erik dynasty"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Erik kings of Sweden, from Saint Eric to Eric XI, who alternated the throne with the House of Sverker. After Eric XI the crown passed to the House of Bjälbo.",
+    "root": {
+      "name": "Eric IX (Saint Eric)",
+      "personSlug": "eric-ix-of-sweden",
+      "note": "r. 1156–1160",
+      "children": [
+        {
+          "name": "Knut Eriksson",
+          "personSlug": "knut-eriksson",
+          "note": "r. 1167–1196",
+          "children": [
+            {
+              "name": "Erik Knutsson",
+              "personSlug": "erik-knutsson",
+              "note": "r. 1208–1216",
+              "children": [
+                {
+                  "name": "Eric XI",
+                  "personSlug": "eric-xi-eriksson",
+                  "note": "r. 1222–1250, last of the line",
+                  "branch": "→ House of Bjälbo"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty’s founder, Eric IX, ruled Sweden from about 1156 and is remembered as a law-giver and crusader who, by tradition, led an expedition to Christianise Finland. He was killed at Uppsala in 1160 by a rival, and his tomb became a centre of pilgrimage.",
+        "Venerated as Saint Eric, he became the patron saint of Sweden and the emblem of its medieval monarchy, his image and the \"Eric penny\" tying the dynasty to the sacred."
+      ]
+    },
+    {
+      "title": "The wars with the Sverkers",
+      "paragraphs": [
+        "Eric IX’s death began the long alternation of the Erik and Sverker houses on the throne. His son Knut Eriksson killed the Sverker king Charles VII to avenge his father and ruled for nearly thirty years, and the two families continued to trade the crown by war and assassination into the thirteenth century.",
+        "Erik Knutsson defeated the Sverkers in battle to reclaim the throne, but the struggle repeatedly threw the kingdom into civil war."
+      ]
+    },
+    {
+      "title": "End of the line",
+      "paragraphs": [
+        "The last Erik king, Eric XI, ruled with the powerful jarl Birger of the House of Bjälbo as the real power behind the throne. When Eric XI died childless in 1250, Birger secured the crown for his own son Valdemar.",
+        "So the Erik dynasty gave way to the Bjälbo (Folkung) line, which would build the medieval Swedish state."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1156",
+      "title": "Eric IX becomes king",
+      "description": "The founder and future patron saint takes the throne.",
+      "links": [
+        {
+          "title": "Eric IX (Saint Eric)",
+          "type": "person",
+          "slug": "eric-ix-of-sweden"
+        }
+      ]
+    },
+    {
+      "date": "1160",
+      "title": "Martyrdom of Saint Eric",
+      "description": "Eric IX is killed at Uppsala and venerated as a saint."
+    },
+    {
+      "date": "1250",
+      "title": "End of the Erik line",
+      "description": "Eric XI dies; the crown passes to the House of Bjälbo.",
+      "links": [
+        {
+          "title": "Eric XI",
+          "type": "person",
+          "slug": "eric-xi-eriksson"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric IX (Saint Eric)",
+        "type": "person",
+        "slug": "eric-ix-of-sweden",
+        "label": "Founder; patron saint"
+      },
+      {
+        "title": "Knut Eriksson",
+        "type": "person",
+        "slug": "knut-eriksson",
+        "label": "Secured the throne"
+      },
+      {
+        "title": "Eric XI",
+        "type": "person",
+        "slug": "eric-xi-eriksson",
+        "label": "Last of the line"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Sverker",
+        "type": "house",
+        "slug": "house-of-sverker",
+        "label": "The rival dynasty"
+      },
+      {
+        "title": "House of Bjälbo",
+        "type": "house",
+        "slug": "house-of-bjalbo",
+        "label": "The dynasty that succeeded them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Eric — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Eric"
+    },
+    {
+      "title": "Eric IX — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Eric-IX"
+    },
+    {
+      "title": "Sweden: the Middle Ages — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Sweden"
+    }
+  ]
+}

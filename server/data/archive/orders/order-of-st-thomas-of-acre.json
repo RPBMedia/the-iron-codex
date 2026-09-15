@@ -1,0 +1,179 @@
+{
+  "id": "order-of-st-thomas-of-acre",
+  "type": "order",
+  "name": "Order of St Thomas of Acre",
+  "aliases": [
+    "The Order of St Thomas of Acre",
+    "Order of Saint Thomas of Acre",
+    "Order of St Thomas of Canterbury",
+    "Knights of St Thomas",
+    "Order of St Thomas the Martyr"
+  ],
+  "originYear": 1191,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Figures_pour_l%27Histoire_des_ordres_monastiques%2C_religieux_et_militaires..._-_du_P%C3%A8re_Helyot_-_btv1b84547218_%28237_of_245%29.jpg",
+  "imageInfo": {
+    "caption": "A knight of the Order of St Thomas of Acre, engraved for Hélyot’s history of the religious and military orders.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Figures_pour_l'Histoire_des_ordres_monastiques,_religieux_et_militaires..._-_du_P%C3%A8re_Helyot_-_btv1b84547218_(237_of_245).jpg",
+    "note": "A later costume plate; no contemporary portrait of the order’s habit survives."
+  },
+  "sigilImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Order_of_St_Thomas_of_Acre_cross.svg",
+  "sigilImageInfo": {
+    "caption": "The red cross of the Order of St Thomas of Acre.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Order_of_St_Thomas_of_Acre_cross.svg",
+    "note": "The order honoured the martyred archbishop Thomas Becket."
+  },
+  "summary": "The Order of St Thomas of Acre was the only English military order — a small brotherhood founded during the Third Crusade to bury and care for English crusaders and dedicated to St Thomas Becket. Never a major fighting force, it outlived the Holy Land as a religious and charitable order in London until the Reformation.",
+  "founded": "c. 1191, Acre",
+  "recognized": "Militarised c. 1228",
+  "dissolved": "1538 (Dissolution of the Monasteries)",
+  "allegiance": "The English crown and the Papacy",
+  "headquarters": "Acre → Cyprus → London (Cheapside)",
+  "habit": "White mantle with a red cross",
+  "patron": "St Thomas Becket of Canterbury",
+  "purpose": "The order began to bury the English dead and tend the sick at the siege of Acre, then took on a military role defending the Crusader states. In England it returned to charity and prayer, keeping the cult of St Thomas at the heart of the City of London.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "c. 1191, at the siege of Acre"
+    },
+    {
+      "label": "Distinction",
+      "value": "The only English military order"
+    },
+    {
+      "label": "Patron",
+      "value": "St Thomas Becket"
+    },
+    {
+      "label": "End",
+      "value": "Dissolved with the English monasteries, 1538"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Order of St Thomas of Acre holds a singular place among the military orders: it was the only one founded by, and for, the English. It grew out of the miseries of the Third Crusade, when English crusaders at the siege of Acre needed men to bury their dead and care for their sick.",
+        "Dedicated to the recently martyred Thomas Becket, it never rivalled the great orders in arms or wealth, but it endured — first in the Holy Land, then on Cyprus, and finally in the City of London, where it survived as a religious house until Henry VIII dissolved it."
+      ]
+    },
+    {
+      "title": "From burial guild to military order",
+      "paragraphs": [
+        "The brotherhood was organised at Acre around 1191, in the camp of the Third Crusade, as a hospital and burial confraternity for the English. It took as its patron St Thomas Becket, the archbishop murdered in Canterbury Cathedral in 1170 and canonised soon after.",
+        "Around 1228 the bishop of Winchester, Peter des Roches, reorganised it as a military order on the model of the Teutonic Knights, giving it a rule and a fighting role. Even so it remained small, dependent on English patronage and never fielding more than a modest force."
+      ]
+    },
+    {
+      "title": "From Acre to London",
+      "paragraphs": [
+        "When Acre fell in 1291 the order, like the greater ones, withdrew to Cyprus. But its centre of gravity had always been England, and its chief house stood in Cheapside, in the City of London, on a site associated with Becket’s birthplace.",
+        "There it gradually shed its military character and lived as a religious and charitable order, closely tied to the City and its merchants. Its London church and hospital kept the cult of St Thomas at the commercial heart of the kingdom."
+      ]
+    },
+    {
+      "title": "Dissolution and legacy",
+      "paragraphs": [
+        "The order’s English life ended with the Reformation: it was suppressed in 1538 during Henry VIII’s dissolution of the monasteries, and its London property passed, in time, to the Mercers’ Company, which still occupies the site.",
+        "Small as it was, the order is a reminder that the crusading impulse touched every corner of Latin Christendom — and that England, too, raised its own brotherhood of warrior-monks under the sign of its martyred saint."
+      ]
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Acre",
+      "period": "c. 1191–1291",
+      "note": "The crusader city where the order was born."
+    },
+    {
+      "name": "Nicosia, Cyprus",
+      "period": "after 1291",
+      "note": "Refuge after the loss of the Holy Land."
+    },
+    {
+      "name": "London (Cheapside)",
+      "period": "medieval",
+      "note": "The order’s chief house, later held by the Mercers’ Company."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1191",
+      "title": "Founded at Acre",
+      "description": "English crusaders form a hospital and burial confraternity dedicated to St Thomas Becket."
+    },
+    {
+      "date": "c. 1228",
+      "title": "Made a military order",
+      "description": "Peter des Roches of Winchester reorganises it on the Teutonic model."
+    },
+    {
+      "date": "1291",
+      "title": "Fall of Acre",
+      "description": "The order withdraws to Cyprus as the Holy Land is lost."
+    },
+    {
+      "date": "1538",
+      "title": "Dissolution",
+      "description": "Henry VIII suppresses the order; its London site passes to the Mercers."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "St Thomas of Acre was a major crusading order like the Templars.",
+      "reality": "It was always small and only briefly military; its lasting life was as an English religious and charitable house."
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Knights of St Thomas of Acon",
+      "author": "A. J. Forey",
+      "year": "1977 (article)"
+    },
+    {
+      "title": "The Military Orders (essay collections)",
+      "author": "ed. Malcolm Barber and others",
+      "year": ""
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Led the English at the siege of Acre"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "The adversary at Acre and Hattin"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "The Crusader state it served"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "The great order alongside it at Acre"
+      },
+      {
+        "title": "Knights Hospitaller",
+        "type": "order",
+        "slug": "knights-hospitaller",
+        "label": "The other Acre-based order"
+      }
+    ]
+  }
+}

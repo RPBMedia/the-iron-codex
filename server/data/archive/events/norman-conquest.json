@@ -1,0 +1,192 @@
+{
+  "id": "norman-conquest",
+  "type": "event",
+  "eventType": "War",
+  "name": "Norman Conquest of England",
+  "year": 1066,
+  "location": "England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+  "summary": "The 1066 conquest of England by William of Normandy after a succession crisis and the Battle of Hastings.",
+  "details": "The 1066 conquest of England by William of Normandy after a succession crisis and the Battle of Hastings.",
+  "background": [
+    "Edward the Confessor’s death produced competing claims from Harold Godwinson, William of Normandy, and Harald Hardrada."
+  ],
+  "aftermath": "William was crowned king and spent years securing England through castle building, confiscation, and suppression of rebellion.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Norman Conquest of England began with the succession crisis after Edward the Confessor died in January 1066 and culminated in William of Normandy's victory over Harold Godwinson at the Battle of Hastings. It replaced much of England's ruling elite with Norman and other continental lords.",
+        "The conquest was not complete on the battlefield alone. William's coronation at Westminster was followed by years of rebellion, castle building, land confiscation, ecclesiastical reform, and military devastation, especially in the north. Its consequences reshaped English aristocracy, language, law, landholding, and cross-Channel politics."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Edward the Confessor left no direct heir. Harold Godwinson was chosen king by the English elite, William claimed Edward had promised him the throne and that Harold had sworn to support him, and Harald Hardrada entered the crisis through a Scandinavian claim supported by Tostig Godwinson.",
+        "The year 1066 forced Harold to defend two invasion fronts. He defeated Hardrada and Tostig at Stamford Bridge in September, then marched south to confront William, whose army had crossed the Channel and established itself in Sussex."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "William defeated Harold at Hastings on 14 October 1066 after a long battle between Norman cavalry, archers, and infantry and the English shield wall. Harold was killed, and organized resistance around the old royal house rapidly weakened, though it did not vanish.",
+        "William was crowned in London on Christmas Day 1066. He then secured the kingdom through castles, punitive campaigns, redistribution of land, and the replacement of bishops and abbots with men loyal to the new regime. The Harrying of the North showed how violent conquest could become when local resistance persisted."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "William the Conqueror, Harold Godwinson, Harald Hardrada, Tostig Godwinson, and Edward the Confessor shaped the succession crisis. Each represented a different path for English kingship: native aristocratic election, Norman dynastic claim, Scandinavian royal ambition, and the unresolved legacy of Edward's childless rule.",
+        "Odo of Bayeux, William FitzOsbern, Edgar the Aetheling, and northern rebels such as Edwin and Morcar also belong to the conquest story. The process depended on commanders, churchmen, local elites, and communities as much as on William's personal claim."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The conquest transformed landholding. Domesday Book later recorded an England in which Norman and continental tenants-in-chief held most major estates, while the old Anglo-Saxon aristocracy had been killed, dispossessed, absorbed, or pushed to the margins.",
+        "It also tied England more tightly to northern France. English kings became cross-Channel rulers, and later conflicts with France grew from the political geography created by William's success."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "The Norman Conquest is one of the defining ruptures in English medieval history. It changed elite language, architecture, military organization, church leadership, lordship, and the documentary habits of royal government.",
+        "Its memory has been shaped by both Norman triumphal narratives and English loss. The Bayeux Tapestry, Domesday Book, and later chronicles preserve evidence, but each source carries the perspective and priorities of conquest society."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Scene from the Bayeux Tapestry showing the death of Harold.",
+    "creator": "Unknown embroidery workshop",
+    "date": "late 11th century",
+    "source": "Wikimedia Commons",
+    "note": "Near-contemporary Norman visual narrative."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Norman Conquest",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Norman-Conquest"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Norman invaders",
+      "factions": [
+        {
+          "name": "Duchy of Normandy",
+          "title": "Duchy of Normandy",
+          "type": "location",
+          "slug": "duchy-of-normandy"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William the Conqueror",
+          "title": "William the Conqueror",
+          "type": "person",
+          "slug": "william-the-conqueror"
+        }
+      ]
+    },
+    {
+      "side": "English kingdom",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harold Godwinson",
+          "title": "Harold Godwinson",
+          "type": "person",
+          "slug": "harold-godwinson"
+        }
+      ]
+    }
+  ],
+  "factions": [
+    "Duchy of Normandy",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "William the Conqueror",
+      "faction": "Norman invaders",
+      "personId": "william-the-conqueror"
+    },
+    {
+      "name": "Harold Godwinson",
+      "faction": "English kingdom",
+      "personId": "harold-godwinson"
+    }
+  ],
+  "outcome": "Norman victory; William became king and transformed English lordship, law, and aristocratic society.",
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Commander"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "Commander"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Edward the Confessor was killed here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Hastings",
+        "type": "location",
+        "slug": "hastings",
+        "label": "William's base in 1066"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "id": "coat-of-plates",
+  "type": "weaponArmor",
+  "name": "Coat of Plates",
+  "aliases": [
+    "Pair of plates"
+  ],
+  "weaponArmorType": "Armor",
+  "year": 1300,
+  "period": "High to Late Middle Ages",
+  "region": "Europe",
+  "material": "Metal plates riveted inside textile or leather cover",
+  "battlefieldRole": "Torso reinforcement over mail or padding",
+  "image": "/coat-of-plates-ai.png",
+  "summary": "The coat of plates used larger internal plates to reinforce the torso before fully shaped breastplates became common.",
+  "details": "The coat of plates strengthened the chest and abdomen against thrusts and impact while preserving some flexibility. It was often worn over mail and padding.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The coat of plates is a transitional defence of the thirteenth and fourteenth centuries: iron plates riveted to the inside of a fabric or leather garment, worn over mail. From the outside it looks like a sleeveless coat studded with rivet heads; the armour is entirely hidden.",
+        "It marks the moment European armourers began putting rigid plate over the torso without abandoning mail. It is neither a mail garment nor a breastplate but a bridge between them, and its brief dominance maps almost exactly onto the century in which that transition happened.",
+        "It is also, unusually, an object known primarily from archaeology rather than from museums. The single most important source is a mass grave, and almost everything reliable about its construction comes from there."
+      ]
+    },
+    {
+      "title": "Design and construction",
+      "paragraphs": [
+        "The garment is a cover of stout linen, canvas or leather, inside which iron plates are laid in overlapping rows and riveted through. The rivet heads show on the outside in regular lines, and reading those lines is how the internal plate layout can be inferred from a painting or an effigy.",
+        "Plate arrangements vary widely. Some coats use a few large plates across the chest, others many smaller ones, and most combine sizes — larger over the chest where rigidity matters, smaller over the abdomen and flanks where the body must bend.",
+        "It fastens with straps and buckles, usually at the shoulders and down one side or the front, so it could be put on without help. That matters practically: an armour a man can don alone is worth more on campaign than one requiring a servant."
+      ]
+    },
+    {
+      "title": "Protection and battlefield role",
+      "paragraphs": [
+        "Its purpose is to defeat the thrust that mail could not. A rigid plate spreads a concentrated point across its whole surface, so the spike that would burst a mail ring instead meets an inch of iron backed by the wearer's ribs.",
+        "Worn over a hauberk, it produces a layered defence of textile, mail and plate, each covering the previous one's weakness. That combination is the standard equipment of the well-armed fourteenth-century man-at-arms and is what most figures in armour of that century are actually wearing.",
+        "The evidence for its battlefield use is unusually direct. The grave pits from the fighting at Visby on Gotland in 1361 contained around two dozen coats of plates, buried with the men who wore them, and the wounds on those bodies show exactly what the armour stopped and what it did not."
+      ]
+    },
+    {
+      "title": "Strengths and limitations",
+      "paragraphs": [
+        "Its strength is that it adds rigid protection without sacrificing much movement. The plates are small enough and jointed enough by their fabric backing that the wearer can still bend, twist and mount a horse.",
+        "Its weakness is the gaps. Plates overlap but do not interlock, and a determined point can find the seams between them — which is why the armet-era solution was eventually a single shaped breastplate rather than an assembly of small pieces.",
+        "The cover is also a liability. Fabric and leather rot, straps break, and the rivets that hold everything together are the first thing to corrode — which is why nearly every surviving example is a set of loose plates and a stain where the garment was."
+      ]
+    },
+    {
+      "title": "Historical development",
+      "paragraphs": [
+        "Coats of plates appear in the thirteenth century, becoming common from around the middle of it, as the answer to weapons increasingly designed to punch through mail rather than cut it.",
+        "They reach their widest use in the first half of the fourteenth century, the equipment of choice for a man-at-arms in the generation that fought at the Battle of Crécy in 1346 and the Battle of Poitiers in 1356.",
+        "They are superseded from the later fourteenth century by the solid breastplate, which does the same job better with fewer joints, and by the brigandine, which takes the same hidden-plate principle in the opposite direction — many smaller plates for more flexibility."
+      ]
+    },
+    {
+      "title": "Regional variation and surviving examples",
+      "paragraphs": [
+        "The Wisby finds dominate the surviving record so completely that the type is often described in their terms, which is a real hazard: an assemblage from one engagement, in one place, in one year, is now standing in for a century of European practice.",
+        "What those graves show is a range rather than a standard. Plate counts, sizes and arrangements differ substantially between individual coats, and some are clearly older equipment pressed into service by men who could afford nothing newer.",
+        "Elsewhere the object survives mainly as loose plates in museum collections, and as rivet patterns in art. The Metropolitan Museum of Art and the Royal Armouries hold examples, most reconstructed to some degree on modern backings."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The coat of plates is the clearest single illustration of how medieval armour actually changed — not by replacement, but by layering a new solution over an old one and then gradually letting the old one go.",
+        "It also gave the Middle Ages one of its best archaeological windows. The Wisby graves are the closest thing the period offers to a controlled sample of what ordinary combatants wore, and they exist because the dead were buried quickly, in summer, still armoured.",
+        "Its direct descendant is the brigandine, which kept the hidden-plate construction for another two centuries after the coat of plates itself had gone — the idea outliving the object."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "AI-generated illustration of a 14th-century coat of plates.",
+    "creator": "AI-generated for The Iron Codex",
+    "date": "generated 2026",
+    "source": "The Iron Codex (AI illustration)",
+    "sourceUrl": "",
+    "aiGenerated": true,
+    "note": "Not a photograph of an object. It is used because no suitably licensed photograph of a complete example could be sourced — what survives, above all from the Wisby grave pits of 1361, is corroded plates whose textile covering has rotted away entirely, so no surviving example can show the garment as it was worn. The hidden plates are the defining feature and separate it from a brigandine, where the plates are smaller and more numerous, and from lamellar, where they are laced on the outside. It follows the Wisby type rather than one identified find."
+  },
+  "knownFor": [
+    "Iron plates riveted inside a fabric or leather cover, with only the rivet heads showing outside.",
+    "The bridge between the mail hauberk and the solid breastplate.",
+    "Around two dozen were recovered from the Visby grave pits of 1361 — the largest group anywhere.",
+    "Known chiefly from archaeology, because the cover rots and the rivets corrode."
+  ],
+  "relatedEntries": {
+    "weaponsArmor": [
+      {
+        "title": "Brigandine",
+        "type": "weaponArmor",
+        "slug": "brigandine"
+      },
+      {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
+      },
+      {
+        "title": "Lamellar and Scale Armor",
+        "type": "weaponArmor",
+        "slug": "lamellar-armor",
+        "label": "The same many-plates logic reached from the Western side"
+      },
+      {
+        "title": "Breastplate",
+        "slug": "breastplate",
+        "label": "The single plate that replaced it",
+        "type": "weaponArmor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Visby_coat_of_plates.jpg"
+    },
+    {
+      "title": "Wikipedia: Coat of Plates",
+      "author": "Wikipedia",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Pair_of_plates"
+    },
+    {
+      "title": "Gotlands Museum: Battle of Visby Finds",
+      "author": "Gotlands Museum, Visby",
+      "type": "museum collection",
+      "url": "https://www.gotlandsmuseum.se/"
+    }
+  ],
+  "specs": {
+    "note": "Typical ranges; surviving examples vary by date, region, and workshop.",
+    "rows": [
+      {
+        "label": "Period",
+        "value": "13th–14th century"
+      },
+      {
+        "label": "Material",
+        "value": "Iron plates riveted inside cloth or leather"
+      },
+      {
+        "label": "Weight",
+        "value": "c. 7–9 kg"
+      },
+      {
+        "label": "Protects",
+        "value": "The torso, bridging mail and full plate"
+      },
+      {
+        "label": "Worn over",
+        "value": "A mail hauberk"
+      },
+      {
+        "label": "Evidence",
+        "value": "Well known from the Wisby (Visby) battle finds"
+      }
+    ]
+  },
+  "sectionImages": [
+    {
+      "section": "Regional variations and surviving pieces",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
+      "alt": "Inside view of a coat of plates / early brigandine (Italian, c. 1470), showing the iron plates riveted to the fabric, Royal Armouries, Leeds.",
+      "caption": "Inside view of a coat of plates / early brigandine (Italian, c. 1470), showing the iron plates riveted to the fabric, Royal Armouries, Leeds.",
+      "creator": "Italian armourer",
+      "date": "c. 1470 (object)",
+      "source": "Royal Armouries, Leeds / Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brigandine%2C%20Italian%2C%20c1470%2C%20Royal%20Armoury%2C%20Leeds%20(internal%20view).JPG",
+      "note": "The interior of a surviving coat of plates, showing the iron plates riveted to their fabric backing — the construction the outer cover concealed, and effectively all that survives of these garments."
+    }
+  ]
+}

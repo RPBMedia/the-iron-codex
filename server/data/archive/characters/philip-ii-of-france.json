@@ -1,0 +1,253 @@
+{
+  "id": "philip-ii-of-france",
+  "type": "character",
+  "name": "Philip II of France",
+  "aliases": [
+    "Philip Augustus"
+  ],
+  "born": 1165,
+  "died": 1223,
+  "deathAge": "58",
+  "restingPlace": "Basilica of Saint-Denis",
+  "location": "Kingdom of France",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sceau_de_Philippe_Auguste._-_Archives_Nationales_-_SC-D157.jpg",
+  "summary": "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines.",
+  "details": "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines.",
+  "title": "king of France",
+  "roles": [
+    "King of France",
+    "Capetian ruler",
+    "Third Crusade participant"
+  ],
+  "birth": {
+    "date": "1165",
+    "place": {
+      "name": "Paris",
+      "slug": "paris",
+      "type": "location"
+    }
+  },
+  "death": {
+    "date": "1223",
+    "place": {
+      "name": "Mantes",
+      "slug": "mantes",
+      "type": "location"
+    },
+    "circumstance": "Died at Mantes in 1223 after a reign that greatly expanded Capetian royal power and weakened Angevin authority in France."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of France",
+    "dynasty": "Capetian",
+    "culture": "French",
+    "knownFor": "Capetian expansion and victory at Bouvines"
+  },
+  "imageInfo": {
+    "caption": "The great seal of Philip II of France, showing the king enthroned, first used in 1180.",
+    "creator": "See source record",
+    "date": "1180",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary royal seal (Archives nationales, SC-D157); conventional, not a likeness."
+  },
+  "overview": [
+    "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines.",
+    "Philip also joined the Third Crusade with Richard the Lionheart after Saladin’s capture of Jerusalem. He returned to France early, and his rivalry with the Angevin rulers became more important for Capetian expansion than his personal crusading record."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Philip II of France, known as Philip Augustus, was a Capetian king who dramatically strengthened royal power and defeated a major coalition at Bouvines."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Philip II of France was born 1165, associated with Paris. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Philip II of France, called Augustus, is remembered as a cold, patient, and supremely calculating ruler who built the power of the French crown through administration and guile rather than personal glory. Contemporary chroniclers, including the partisan royal biographer Rigord, present a king of shrewd political intelligence who expanded the royal domain enormously — above all by stripping King John of Normandy and most of the Angevin lands in France through legal maneuvering and war.",
+        "He was no romantic warrior in the mould of his rival Richard the Lionheart, with whom he quarreled on the Third Crusade before returning home early to pursue his real interest: the methodical aggrandisement of his kingdom. His victory at the Battle of Bouvines in 1214 secured his gains, but his characteristic instruments were the bailli, the account-book, and the patient exploitation of feudal law.",
+        "The sources present a ruler who could be devious, ungenerous, and harsh — his treatment of the Jews and his tangled marital politics drew criticism — but undeniably effective. He is remembered as the architect of the medieval French state: unglamorous, distrustful, and relentlessly competent, a king who won by calculation what others sought in battle."
+      ]
+    },
+    {
+      "title": "As king of France",
+      "paragraphs": [
+        "Philip expanded the royal domain at the expense of Angevin and other rivals, developed royal administration, and used war and law to consolidate Capetian authority.",
+        "Battle of Bouvines gives Philip II of France's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article.",
+        "Philip joined the Third Crusade alongside Richard the Lionheart, but illness, rivalry, and French political priorities led him home after the fall of Acre. His return let him focus on weakening Angevin power in France."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Died at Mantes in 1223 after a reign that greatly expanded Capetian royal power and weakened Angevin authority in France."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "He is remembered as one of medieval France’s most important builders of royal power. Bouvines became a landmark victory for Capetian monarchy."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Expanded Capetian royal lands",
+      "description": "Philip II broke much of the Angevin hold on France and greatly increased direct Capetian power."
+    },
+    {
+      "title": "Defeated coalition forces at Bouvines",
+      "description": "Bouvines confirmed Philip’s authority against an alliance of English, imperial, and Flemish enemies."
+    },
+    {
+      "title": "Strengthened French royal administration",
+      "description": "His reign expanded royal records, officers, and the practical machinery of Capetian monarchy."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1165",
+      "title": "Born",
+      "description": "Born in Paris."
+    },
+    {
+      "date": "1180",
+      "title": "Becomes king",
+      "description": "Succeeds Louis VII."
+    },
+    {
+      "date": "1190-1191",
+      "title": "Joins the Third Crusade",
+      "description": "Philip traveled east with Richard the Lionheart, took part in the campaign around Acre, and returned to France as Capetian-Angevin rivalry resumed.",
+      "links": [
+        {
+          "title": "Third Crusade",
+          "type": "event",
+          "slug": "third-crusade"
+        },
+        {
+          "title": "Richard the Lionheart",
+          "type": "person",
+          "slug": "richard-the-lionheart"
+        }
+      ]
+    },
+    {
+      "date": "1204",
+      "title": "Takes Normandy",
+      "description": "Expands against Angevin power."
+    },
+    {
+      "date": "1214",
+      "title": "Wins at Bouvines",
+      "description": "Defeats a coalition of enemies.",
+      "links": [
+        {
+          "title": "Battle of Bouvines",
+          "type": "event",
+          "slug": "battle-of-bouvines"
+        }
+      ]
+    },
+    {
+      "date": "1223",
+      "title": "Dies",
+      "description": "Dies at Mantes."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Realm"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Mantes",
+        "type": "location",
+        "slug": "mantes",
+        "label": "Place of death"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Philip II of France",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Philip_Augustus"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Sceau_de_Philippe_Auguste._-_Archives_Nationales_-_SC-D157.jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of France",
+    "predecessor": {
+      "personSlug": "louis-vii-of-france",
+      "displayName": "Louis VII of France",
+      "note": "His father"
+    },
+    "successor": {
+      "personSlug": "louis-viii-of-france",
+      "displayName": "Louis VIII of France"
+    }
+  },
+  "sectionImages": [
+    {
+      "section": "As king of France",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg",
+      "alt": "Philip Augustus at the Battle of Bouvines (1214), by Horace Vernet.",
+      "caption": "Philip Augustus at the Battle of Bouvines (1214), by Horace Vernet.",
+      "creator": "Horace Vernet",
+      "date": "1827",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines_gagnee_par_Philippe_Auguste.jpg",
+      "note": "A 19th-century Galerie des Batailles painting — Bouvines as French national memory, six centuries after Philip’s decisive victory."
+    }
+  ],
+  "epithets": [
+    {
+      "name": "Augustus",
+      "type": "epithet",
+      "note": "Coined by his chronicler Rigord."
+    }
+  ]
+}

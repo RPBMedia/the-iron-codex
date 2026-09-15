@@ -1,0 +1,176 @@
+{
+  "id": "bernard-of-clairvaux",
+  "type": "character",
+  "name": "Bernard of Clairvaux",
+  "aliases": [
+    "Saint Bernard"
+  ],
+  "born": 1090,
+  "died": 1153,
+  "deathAge": "unknown",
+  "causeOfDeath": "Bernard died at Clairvaux in 1153 after decades of monastic leadership, controversy, and influence.",
+  "restingPlace": "Unknown",
+  "location": "Latin Church",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Bernhard_von_Clairvaux_%28Initiale-B%29.jpg",
+  "title": "Cistercian abbot and preacher of the Second Crusade",
+  "roles": [
+    "Cistercian abbot and preacher of the Second Crusade"
+  ],
+  "birth": {
+    "date": "c. 1090",
+    "place": null
+  },
+  "death": {
+    "date": "1153",
+    "place": null,
+    "circumstance": "Bernard died at Clairvaux in 1153 after decades of monastic leadership, controversy, and influence."
+  },
+  "quickFacts": {
+    "realm": "Latin Church",
+    "dynasty": "Not dynastic",
+    "culture": "Latin Christian / Mediterranean crusading world",
+    "knownFor": "Preached the Second Crusade"
+  },
+  "imageInfo": {
+    "caption": "Manuscript initial depicting Bernard of Clairvaux.",
+    "creator": "Unknown manuscript artist",
+    "date": "medieval manuscript image",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bernhard_von_Clairvaux_(Initiale-B).jpg",
+    "note": "Manuscript depiction, not a modern life portrait."
+  },
+  "overview": [
+    "Bernard of Clairvaux was a Cistercian abbot whose preaching gave the Second Crusade enormous spiritual authority, even though the expedition ended in failure.",
+    "Bernard is remembered as a saint, theologian, reformer, and crusade preacher whose moral authority could mobilize kings but not guarantee military success."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Bernard of Clairvaux was a Cistercian abbot whose preaching gave the Second Crusade enormous spiritual authority, even though the expedition ended in failure."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born into Burgundian nobility, Bernard entered Cistercian life and became abbot of Clairvaux, turning monastic authority into public influence."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Bernard of Clairvaux is remembered as the most powerful and compelling religious voice of his age, a Cistercian abbot whose eloquence, asceticism, and force of personality made him an arbiter of popes, kings, and crusades. His own voluminous letters and sermons, together with admiring contemporary accounts, present a figure of intense spiritual fervour and iron will — physically frail from extreme self-denial, yet capable of dominating councils and swaying multitudes with his preaching.",
+        "His preaching of the Second Crusade drew enormous crowds, and his conviction could be ferocious: he pursued theological opponents such as Abelard relentlessly and brooked little compromise on matters he regarded as touching the faith. Admirers saw a saint of overwhelming holiness; others experienced an austere and domineering zealot who involved himself in every controversy of his time.",
+        "When the Second Crusade he had championed collapsed, he was forced to defend his role, attributing the failure to the sins of the crusaders rather than to the venture itself. The portrait, drawn largely from his own writings and from devoted followers, is consistent: a brilliant, austere, and formidably willful churchman — saintly to his admirers, overbearing to his critics — whose personal authority shaped the religious life of twelfth-century Europe."
+      ]
+    },
+    {
+      "title": "As preacher of the Second Crusade",
+      "paragraphs": [
+        "Bernard preached after Edessa fell and papal authority called for a new crusade. He helped recruit Louis VII and Conrad III, but the expedition’s failure damaged his reputation and forced theological explanation."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Bernard died at Clairvaux in 1153 after decades of monastic leadership, controversy, and influence."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Bernard is remembered as a saint, theologian, reformer, and crusade preacher whose moral authority could mobilize kings but not guarantee military success."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Preached the Second Crusade",
+      "description": "Preached the Second Crusade was a concrete part of Bernard of Clairvaux's crusades-era career and later reputation."
+    },
+    {
+      "title": "Expanded Cistercian influence",
+      "description": "Expanded Cistercian influence was a concrete part of Bernard of Clairvaux's crusades-era career and later reputation."
+    },
+    {
+      "title": "Shaped crusading theology",
+      "description": "Shaped crusading theology was a concrete part of Bernard of Clairvaux's crusades-era career and later reputation."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1090",
+      "title": "Born in Burgundy",
+      "description": "Bernard was born into a noble family before entering monastic life."
+    },
+    {
+      "date": "1115",
+      "title": "Founds Clairvaux leadership",
+      "description": "He became abbot of Clairvaux and turned it into a center of reform."
+    },
+    {
+      "date": "1146",
+      "title": "Preaches at Vézelay",
+      "description": "Bernard’s preaching helped mobilize the Second Crusade."
+    },
+    {
+      "date": "1147-1149",
+      "title": "Second Crusade fails",
+      "description": "The failed expedition forced Bernard to defend the movement theologically."
+    },
+    {
+      "date": "1153",
+      "title": "Dies at Clairvaux",
+      "description": "Bernard died as one of the most influential churchmen of the century."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
+      }
+    ],
+    "events": [
+      {
+        "title": "First Crusade Proclaimed",
+        "type": "event",
+        "slug": "first-crusade-called"
+      }
+    ],
+    "people": [
+      {
+        "title": "Pope Eugenius III",
+        "type": "person",
+        "slug": "pope-eugenius-iii",
+        "label": "His former pupil, for whom he preached the Second Crusade"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Bernhard_von_Clairvaux_(Initiale-B).jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Crusades",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Crusades"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Crusades",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+    }
+  ]
+}

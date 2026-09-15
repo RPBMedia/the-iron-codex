@@ -23,10 +23,10 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive, saveArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const dataPath = path.join(__dirname, '../server/data/history.json')
-const data = JSON.parse(readFileSync(dataPath, 'utf8'))
+const data = loadArchive()
 
 // Names that must NEVER auto-resolve, with the reason. Same posture as
 // ambiguousEntityAliases and AMBIGUOUS_DYNASTY_KEYS elsewhere in the archive.
@@ -70,4 +70,4 @@ if (skipped.length) {
   skipped.forEach((s) => console.log('  -', s))
 }
 
-writeFileSync(dataPath, JSON.stringify(data, null, 2))
+saveArchive(data)

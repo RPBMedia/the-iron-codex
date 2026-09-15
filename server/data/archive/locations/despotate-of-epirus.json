@@ -1,0 +1,197 @@
+{
+  "id": "despotate-of-epirus",
+  "type": "location",
+  "locationType": "Despotate",
+  "name": "Despotate of Epirus",
+  "aliases": [
+    "Epirus",
+    "Despotate of Arta"
+  ],
+  "kingdom": "Despotate of Epirus",
+  "year": 1205,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Epirus_1205-1230-en.svg?width=1600",
+  "imageInfo": {
+    "caption": "Modern map of the state of Epirus from 1205 to 1230, shaded by stages of expansion under Michael I and Theodore, whose conquests reached Thessalonica and Adrianople.",
+    "creator": "Cplakidas, Wikimedia Commons contributor",
+    "date": "2016; shows 1205 to 1230",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epirus_1205-1230-en.svg",
+    "note": "A modern reconstruction, not a medieval document, based on John Fine, Konstantinos Varzos and Donald Nicol's The Despotate of Epiros. The mapmaker warns that the sources give little detail and every border is approximate; stars mark battles and sieges, including Klokotnitsa in 1230, and the legend's Theodore I is Theodore Komnenos Doukas. Licensed CC BY-SA 4.0."
+  },
+  "summary": "The Despotate of Epirus was the Greek successor state in north-western Greece that briefly held Thessalonica and claimed the empire, and lost both to Bulgaria in a single afternoon in 1230.",
+  "overview": "The successor state that came closest to beating Nicaea to Constantinople, and was destroyed by a battle it did not have to fight.",
+  "knownFor": [
+    "Founded after 1204 by Michael I Komnenos Doukas in the mountains of north-western Greece.",
+    "Took Thessalonica in 1224 and had its ruler crowned emperor there.",
+    "Was crushed by Bulgaria at Klokotnitsa in 1230, ending its imperial claim.",
+    "Withdrew from the coalition at Pelagonia in 1259, leaving its allies to be destroyed.",
+    "Survived as a regional principality at Arta until the Ottoman conquest."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Epirus is the mountainous north-western corner of Greece, and it produced the successor state that came closest to reaching Constantinople first.",
+        "Founded by Michael I Komnenos Doukas after 1204, it expanded east under his half-brother Theodore, took Thessalonica from the Latins in 1224, and had Theodore crowned emperor there — a direct challenge to Nicaea's claim.",
+        "In 1230 Theodore attacked Bulgaria and was destroyed at Klokotnitsa. Epirus never recovered its position, and thirty years later it withdrew from the field at Pelagonia and left the anti-Nicaean coalition to be destroyed without it."
+      ]
+    },
+    {
+      "title": "Foundation and expansion",
+      "paragraphs": [
+        "Michael I Komnenos Doukas was a cousin of the last pre-1204 emperors, and he established himself in Epirus in the confusion after the Fourth Crusade with the support of local landowners.",
+        "The terrain did most of the work. Epirus is defensible, poor and hard to reach, and the Latin Empire never had the resources to take it seriously.",
+        "His half-brother Theodore, who succeeded in 1215, was the aggressive one: he captured the Latin emperor-elect Peter of Courtenay in 1217, took Thessalonica in 1224, and by 1225 was campaigning in Thrace within reach of Constantinople itself."
+      ]
+    },
+    {
+      "title": "Major rulers",
+      "paragraphs": [
+        "Michael I Komnenos Doukas (1205–1215) founded the state and secured the mountains.",
+        "Theodore Komnenos Doukas (1215–1230) took Thessalonica, was crowned emperor there by the archbishop of Ohrid, and lost everything at Klokotnitsa — captured, later blinded, and reduced to a political nuisance for the rest of his life.",
+        "Michael II Komnenos Doukas (1230–1268) rebuilt the state as a regional power, married his daughters into Achaea and Sicily to build the coalition of 1259, and then withdrew his troops from the field at Pelagonia — the decision that ended any Epirote claim to the empire."
+      ]
+    },
+    {
+      "title": "Klokotnitsa and after",
+      "paragraphs": [
+        "In 1230 Theodore invaded Bulgaria in breach of a treaty, and Ivan Asen II met him at Klokotnitsa on the Maritsa. The Epirote army was destroyed and Theodore was captured.",
+        "The story that circulated afterwards — that Asen carried the broken treaty on a lance as a banner — may be embellishment, and the result is not: the empire of Thessalonica collapsed within a few years and Epirus was pushed back to where it had started.",
+        "Nicaea took Thessalonica in 1246, and after that there was only one Greek claimant to Constantinople that anybody took seriously."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Epirus survived as a principality at Arta for two more centuries, passing through Greek, Italian and Albanian rulers before the Ottomans took it in 1449.",
+        "Its churches are its most visible legacy: the Paregoretissa at Arta and the other late Byzantine foundations of the despotate are among the best-preserved buildings of the period anywhere in Greece.",
+        "Its historical importance is as the road not taken. For six years in the 1220s it was more likely than Nicaea to restore the empire, and the difference was one battle it chose to fight against the wrong enemy."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1205",
+      "title": "Founded",
+      "description": "Michael I Komnenos Doukas establishes a Greek state in the mountains of north-western Greece."
+    },
+    {
+      "date": "1217",
+      "title": "A Latin emperor captured",
+      "description": "Theodore takes Peter of Courtenay, the emperor-elect, on his way to Constantinople."
+    },
+    {
+      "date": "1224",
+      "title": "Thessalonica taken",
+      "description": "Epirus takes the empire's second city from the Latins."
+    },
+    {
+      "date": "1225",
+      "title": "Theodore crowned emperor",
+      "description": "The archbishop of Ohrid crowns him, directly challenging Nicaea's claim."
+    },
+    {
+      "date": "1230",
+      "title": "Klokotnitsa",
+      "description": "Ivan Asen II of Bulgaria destroys the Epirote army and captures Theodore."
+    },
+    {
+      "date": "1246",
+      "title": "Thessalonica lost to Nicaea",
+      "description": "John III Vatatzes takes the city, ending the western claim to the empire."
+    },
+    {
+      "date": "1259",
+      "title": "Withdrawal at Pelagonia",
+      "description": "Michael II pulls his forces out before the battle, leaving his allies to be destroyed.",
+      "links": [
+        {
+          "title": "Battle of Pelagonia",
+          "type": "event",
+          "slug": "battle-of-pelagonia"
+        }
+      ]
+    },
+    {
+      "date": "1449",
+      "title": "Taken by the Ottomans",
+      "description": "Arta falls, ending the last of the Epirote states."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Michael VIII Palaiologos",
+        "type": "person",
+        "slug": "michael-viii-palaiologos",
+        "label": "Whose brother destroyed its coalition in 1259"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Pelagonia",
+        "type": "event",
+        "slug": "battle-of-pelagonia",
+        "label": "Where it abandoned its allies"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Empire of Nicaea",
+        "type": "location",
+        "slug": "empire-of-nicaea",
+        "label": "Its rival for the imperial claim"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Whose successor state destroyed it at Klokotnitsa"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "George Akropolites, History",
+      "url": "https://en.wikipedia.org/wiki/George_Akropolites",
+      "type": "primary source"
+    },
+    {
+      "title": "Despotate of Epirus",
+      "url": "https://en.wikipedia.org/wiki/Despotate_of_Epirus",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine studies",
+      "url": "https://www.doaks.org/research/byzantine",
+      "type": "academic resource",
+      "institution": "Dumbarton Oaks"
+    },
+    {
+      "title": "Wikimedia Commons image record: map of the state of Epirus, 1205 to 1230",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Epirus_1205-1230-en.svg"
+    },
+    {
+      "title": "Wikimedia Commons image record: aspron trachy of Theodore Komnenos Doukas",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Aspron_trachy_of_Theodore_Komnenos-Doukas.jpg"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Aspron_trachy_of_Theodore_Komnenos-Doukas.jpg?width=1600",
+  "armsImageInfo": {
+    "caption": "The Despotate of Epirus bore no heraldic arms; this electrum trachy struck at Thessalonica about 1227 shows Theodore Komnenos Doukas as emperor beside Saint Demetrios.",
+    "creator": "Mint of Thessalonica under Theodore Komnenos Doukas (photograph: Dumbarton Oaks)",
+    "date": "about 1227",
+    "source": "Dumbarton Oaks, Byzantine coin collection (BZC.1960.88.4206), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aspron_trachy_of_Theodore_Komnenos-Doukas.jpg",
+    "note": "A photograph of a genuine thirteenth-century coin, not a reconstruction; Dumbarton Oaks queries the date. Theodore's Thessalonican coins pair him with Saint Demetrios, the city's patron, and on his billon trachy the two hold a castle between them; this piece appears to follow that design. The state issued coins and seals, not arms; the coats of arms connected with Epirus belong to its later Italian rulers, such as Carlo I Tocco in the fifteenth century. Public domain."
+  }
+}

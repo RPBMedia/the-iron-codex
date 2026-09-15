@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Island region",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Magnus Eriksson",
+    "Norwegian coast",
+    "Swedish-Norwegian union"
+  ],
+  "overview": [
+    "A western Norwegian island region traditionally associated with Magnus Eriksson's drowning."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Bømlo is an island off the Norwegian coast in Hordaland associated with the death of Magnus Eriksson in 1374, traditionally by drowning. Magnus had lost effective rule in both Sweden and Norway years before his death."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Magnus Eriksson's drowning near Bømlo closed a reign marked by dynastic ambition, political defeat, and the catastrophic impact of the Black Death on Scandinavian governance. He had been deposed in Sweden in 1364 and effective Norwegian control had passed to his son Haakon VI."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Bømlo",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:B%C3%B8mlo_landscape.jpg"
+    },
+    {
+      "title": "Bømlo reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/B%C3%B8mlo"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Magnus Eriksson",
+        "type": "person",
+        "slug": "magnus-eriksson",
+        "label": "Death of Magnus Eriksson"
+      },
+      {
+        "title": "Haakon VI of Norway",
+        "type": "person",
+        "slug": "haakon-vi-of-norway"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ]
+  },
+  "id": "bomlo",
+  "name": "Bømlo",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bremnes%2C_B%C3%B8mlo.JPG",
+  "summary": "A western Norwegian island region traditionally associated with Magnus Eriksson's drowning.",
+  "imageInfo": {
+    "caption": "The island of Bømlo off western Norway, associated with the death of Magnus Eriksson in 1374.",
+    "creator": "Frokor",
+    "date": "2013-03-24 12:52:38",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bremnes%2C_B%C3%B8mlo.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

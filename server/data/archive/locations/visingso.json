@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Island",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Magnus III of Sweden",
+    "Nas Castle",
+    "Lake Vättern"
+  ],
+  "overview": [
+    "An island in Lake Vättern associated with medieval Swedish royal power."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Visingsö is an island in Lake Vättern in Småland that served as a Swedish royal center in the high medieval period. Nas Castle on its northern tip was a primary royal residence and administrative base for several Swedish kings."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Visingsö's island position made it defensible and suitable for royal administration during periods of political instability. Its importance declined as Stockholm developed into Sweden's primary political center in the fourteenth and fifteenth centuries."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Visingsö",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Visingsborg_ruin.jpg"
+    },
+    {
+      "title": "Visingsö reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Visings%C3%B6"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Magnus III of Sweden",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden",
+        "label": "Death of Magnus III of Sweden"
+      },
+      {
+        "title": "Erik Knutsson",
+        "type": "person",
+        "slug": "erik-knutsson"
+      },
+      {
+        "title": "Valdemar of Sweden",
+        "type": "person",
+        "slug": "valdemar-of-sweden"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "visingso",
+  "name": "Visingsö",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruinen_efter_Visingsborgs_slott_i_juli_2006.jpg",
+  "summary": "An island in Lake Vättern associated with medieval Swedish royal power.",
+  "imageInfo": {
+    "caption": "Visingsö in Lake Vättern, a Swedish royal centre in the high medieval period.",
+    "creator": "Tomhe",
+    "date": "2006-07",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruinen_efter_Visingsborgs_slott_i_juli_2006.jpg",
+    "license": "CC BY 2.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

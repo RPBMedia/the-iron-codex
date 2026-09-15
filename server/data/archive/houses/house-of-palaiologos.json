@@ -1,0 +1,242 @@
+{
+  "id": "house-of-palaiologos",
+  "type": "house",
+  "name": "House of Palaiologos",
+  "aliases": [
+    "Palaiologos",
+    "Palaiologan dynasty",
+    "Palaiologoi",
+    "Palaeologus"
+  ],
+  "originYear": 1259,
+  "endYear": 1453,
+  "reignSpan": "1259–1453",
+  "region": "Byzantine Empire",
+  "originPlace": "Constantinople",
+  "arms": "The Palaiologan emblem was the tetragrammic cross — a cross flanked by four firesteels — rather than a Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Manuel%20II%20Palaiologos%20(cropped).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Emperor Manuel II Palaiologos, who toured Western Europe seeking help against the Ottomans.",
+    "creator": "Byzantine manuscript depiction",
+    "date": "Early 15th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manuel_II_Palaiologos_(cropped).jpg",
+    "note": "A period depiction of a late Palaiologan emperor; the dynasty ruled the empire’s final two centuries."
+  },
+  "summary": "The last Byzantine dynasty, which recovered Constantinople in 1261 and ruled the shrinking empire until its fall in 1453.",
+  "overview": "The House of Palaiologos was Byzantium’s longest-reigning and final dynasty. Michael VIII recovered Constantinople from the Latins in 1261, but the emperors who followed presided over a steadily shrinking state, squeezed between Serbs, Latins, and above all the rising Ottomans, until Constantine XI died defending the walls in 1453.",
+  "founder": {
+    "displayName": "Michael VIII Palaiologos",
+    "note": "Recovered Constantinople from the Latin Empire in 1261 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    },
+    {
+      "name": "Constantinople",
+      "type": "location",
+      "slug": "constantinople"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "michael-viii-palaiologos",
+      "displayName": "Michael VIII Palaiologos",
+      "note": "Founder of the dynasty; recovered Constantinople in 1261"
+    },
+    {
+      "personSlug": "manuel-ii-palaiologos",
+      "displayName": "Manuel II Palaiologos",
+      "note": "Toured Europe seeking aid against the Ottomans"
+    },
+    {
+      "personSlug": "john-viii-palaiologos",
+      "displayName": "John VIII Palaiologos",
+      "note": "Sought Church union at Florence to win Western help"
+    },
+    {
+      "personSlug": "constantine-xi-palaiologos",
+      "displayName": "Constantine XI Palaiologos",
+      "note": "Last Byzantine emperor; died defending the walls in 1453"
+    }
+  ],
+  "familyTree": {
+    "caption": "The final Palaiologan emperors. Michael VIII founded the dynasty in 1261; its last two emperors, John VIII and Constantine XI, were sons of Manuel II. ⚭ marks a marriage.",
+    "root": {
+      "name": "Manuel II Palaiologos",
+      "personSlug": "manuel-ii-palaiologos",
+      "note": "r. 1391–1425",
+      "children": [
+        {
+          "name": "John VIII Palaiologos",
+          "personSlug": "john-viii-palaiologos",
+          "note": "r. 1425–1448"
+        },
+        {
+          "name": "Constantine XI Palaiologos",
+          "personSlug": "constantine-xi-palaiologos",
+          "note": "r. 1449–1453, last emperor"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "When the Fourth Crusade sacked Constantinople in 1204, the Byzantine state survived in exile at Nicaea. There the general Michael Palaiologos usurped the throne and, in 1261, recaptured Constantinople from the Latin Empire, founding the dynasty as Michael VIII.",
+        "The restored empire was a shadow of its former self — bankrupt, surrounded, and dependent on Italian sea power — but the Palaiologoi would rule what remained of it for nearly two centuries."
+      ]
+    },
+    {
+      "title": "A shrinking empire",
+      "paragraphs": [
+        "The fourteenth century brought civil wars between rival Palaiologan emperors, the loss of Anatolia to the Turks, and the rise of a Serbian empire under Stefan Dušan. Repeated dynastic strife, sometimes fought with Ottoman mercenaries, hastened the collapse of imperial power.",
+        "By 1400 the empire had dwindled to Constantinople, a stretch of Greece, and a few islands, its emperors increasingly vassals or suppliants of the Ottoman sultans."
+      ]
+    },
+    {
+      "title": "The search for Western help",
+      "paragraphs": [
+        "Manuel II Palaiologos travelled as far as England and France pleading for aid, and his son John VIII accepted union between the Orthodox and Catholic churches at the Council of Florence in 1439 in a last bid for a crusade. The union was rejected by most of the Byzantine clergy and people and brought no effective help.",
+        "The famous saying \"better the sultan’s turban than the cardinal’s hat\" captured the depth of resistance to Rome in the dying empire."
+      ]
+    },
+    {
+      "title": "The fall of Constantinople",
+      "paragraphs": [
+        "Constantine XI, the last emperor, faced Mehmed II’s siege in 1453 with only a few thousand defenders against a vast Ottoman army and its great cannon. When the walls were breached on 29 May, Constantine died fighting in the streets, and the Fall of Constantinople ended both the dynasty and the Roman Empire that had endured for a thousand years in the East.",
+        "His body was never certainly identified, and he passed into legend as the \"marble emperor\" who would one day return."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Palaiologan era, for all its political decline, produced a brilliant late flowering of Byzantine art, scholarship, and theology — the \"Palaiologan Renaissance\" — whose scholars helped carry Greek learning to the Italian Renaissance.",
+        "The double-headed eagle and the traditions of the last Christian Roman emperors passed into the heraldry and ideology of later states that claimed the Byzantine inheritance."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1261",
+      "title": "Michael VIII recovers Constantinople",
+      "description": "The Palaiologos dynasty is founded on the recaptured capital."
+    },
+    {
+      "date": "1354",
+      "title": "Ottomans cross into Europe",
+      "description": "Gallipoli falls as Palaiologan civil wars weaken the empire."
+    },
+    {
+      "date": "1391",
+      "title": "Accession of Manuel II",
+      "description": "An emperor who tours Europe for help takes the throne.",
+      "links": [
+        {
+          "title": "Manuel II Palaiologos",
+          "type": "person",
+          "slug": "manuel-ii-palaiologos"
+        }
+      ]
+    },
+    {
+      "date": "1439",
+      "title": "Council of Florence",
+      "description": "John VIII accepts Church union in a failed bid for Western aid.",
+      "links": [
+        {
+          "title": "John VIII Palaiologos",
+          "type": "person",
+          "slug": "john-viii-palaiologos"
+        }
+      ]
+    },
+    {
+      "date": "1453",
+      "title": "Fall of Constantinople",
+      "description": "Constantine XI dies defending the city; the empire ends.",
+      "links": [
+        {
+          "title": "Fall of Constantinople",
+          "type": "event",
+          "slug": "fall-of-constantinople"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Manuel II Palaiologos",
+        "type": "person",
+        "slug": "manuel-ii-palaiologos",
+        "label": "Sought Western aid"
+      },
+      {
+        "title": "John VIII Palaiologos",
+        "type": "person",
+        "slug": "john-viii-palaiologos",
+        "label": "Church union at Florence"
+      },
+      {
+        "title": "Constantine XI Palaiologos",
+        "type": "person",
+        "slug": "constantine-xi-palaiologos",
+        "label": "Last emperor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The dynasty’s and the empire’s end, 1453"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm they ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Capital, recovered 1261 and lost 1453"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Palaiologos — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Palaiologos"
+    },
+    {
+      "title": "Constantine XI Palaiologos — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Constantine-XI-Palaeologus"
+    },
+    {
+      "title": "Fall of Constantinople — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Byzantine%20imperial%20flag,%2014th%20century.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The Palaiologan imperial emblem — the gold tetragrammic cross flanked by four firesteels — on the 14th-century Byzantine banner.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Byzantine_imperial_flag,_14th_century.svg",
+    "note": "A rendering of the Palaiologan dynastic banner; the Byzantine emperors used such emblems rather than a Western coat of arms."
+  }
+}

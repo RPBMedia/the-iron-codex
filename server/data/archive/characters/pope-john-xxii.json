@@ -1,0 +1,162 @@
+{
+  "id": "pope-john-xxii",
+  "type": "character",
+  "name": "Pope John XXII",
+  "aliases": [
+    "John XXII",
+    "Jacques Duèze",
+    "Jacques d’Euse"
+  ],
+  "born": 1244,
+  "died": 1334,
+  "deathAge": "about 90",
+  "causeOfDeath": "John died at Avignon in 1334 at a very great age, after one of the longest reigns of the medieval papacy.",
+  "restingPlace": "Avignon Cathedral",
+  "location": "Papacy (Avignon)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Papa_Giovanni_XXII%2C_di_Cristofano_dell%27Altissimo%2C_1552-68_-FG.jpg",
+  "title": "Avignon pope who created the Orders of Montesa and Christ",
+  "roles": [
+    "Pope",
+    "second of the Avignon popes"
+  ],
+  "birth": {
+    "date": "1244",
+    "place": null
+  },
+  "death": {
+    "date": "4 December 1334",
+    "place": null,
+    "circumstance": "Died at Avignon at a very advanced age."
+  },
+  "quickFacts": {
+    "realm": "Papacy",
+    "dynasty": "Not dynastic",
+    "culture": "Occitan / Latin Christian",
+    "knownFor": "Created the Orders of Montesa and of Christ"
+  },
+  "imageInfo": {
+    "caption": "Pope John XXII, portrayed by Cristofano dell’Altissimo.",
+    "creator": "Cristofano dell’Altissimo",
+    "date": "1552–1568",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papa_Giovanni_XXII,_di_Cristofano_dell'Altissimo,_1552-68_-FG.jpg",
+    "note": "A later portrait in a series of the popes."
+  },
+  "overview": [
+    "Pope John XXII was the second Avignon pope and a formidable administrator who reorganised the finances of the papacy.",
+    "In settling the fate of the Templars’ property he created two new orders: Montesa in the Crown of Aragon (1317) and the Order of Christ in Portugal (1319)."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pope John XXII (reigned 1316–1334) was an aged, austere, and brilliantly capable canon lawyer who rebuilt papal administration and finance at Avignon — and who chartered the orders that inherited the Templars in Iberia."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Born Jacques Duèze at Cahors in 1244, the son of a merchant, he rose through law and royal service to become a cardinal, and was elected pope in 1316 after a long conclave."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "John was old when elected and reigned for eighteen years, yet he was tireless: a small, spare, intensely industrious man with a lawyer’s mind and an administrator’s appetite for detail. He overhauled the papal bureaucracy and finances so effectively that Avignon became a byword for centralised, revenue-hungry government.",
+        "He was also famously combative and litigious. He fought a long battle with the radical Franciscans over the doctrine of apostolic poverty, quarrelled bitterly with the Emperor Louis IV of Bavaria, and provoked a storm by advancing his own controversial views on the Beatific Vision, which he was pressed to retract near the end of his life.",
+        "For the military orders his instinct was tidy and legal: rather than let the Templars’ Iberian wealth pass to a foreign order, he created purpose-built national orders — Montesa and the Order of Christ — to inherit it. It was a characteristic solution from a pope who governed by charter and law."
+      ]
+    },
+    {
+      "title": "Creator of new orders",
+      "paragraphs": [
+        "In 1317, at the request of James II of Aragon, John established the Order of Montesa to take over the Templars’ property in the Kingdom of Valencia. Two years later, in 1319, he chartered the Order of Christ in Portugal to inherit the Templar estates there, including Tomar.",
+        "By these acts John ensured that in the Iberian kingdoms the Templars were not destroyed so much as reconstituted under new names — a quietly momentous legacy of his reign."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "John XXII died at Avignon in December 1334 at a very great age, having outlasted most of his rivals and left the papacy richer and more centralised than he found it."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "John XXII is remembered as the great administrator of the Avignon papacy and as a pope whose reign was thick with controversy over poverty, power, and doctrine.",
+        "Through the Orders of Montesa and of Christ he gave the Templar inheritance a lasting afterlife in Spain and Portugal."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1244",
+      "title": "Born at Cahors",
+      "description": "Born Jacques Duèze, the son of a merchant, who rose through the law."
+    },
+    {
+      "date": "1316",
+      "title": "Elected pope",
+      "description": "Chosen after a long conclave as the second pope to reign at Avignon."
+    },
+    {
+      "date": "1317",
+      "title": "Creates the Order of Montesa",
+      "description": "Charters a new order to inherit the Templars’ lands in Valencia."
+    },
+    {
+      "date": "1319",
+      "title": "Creates the Order of Christ",
+      "description": "Charters the Portuguese heir of the Templars, seated at Tomar."
+    },
+    {
+      "date": "1323",
+      "title": "Clash over Franciscan poverty",
+      "description": "Condemns the radical doctrine of absolute apostolic poverty."
+    },
+    {
+      "date": "1334",
+      "title": "Death at Avignon",
+      "description": "Dies at a very advanced age after an eighteen-year reign."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Order of Montesa",
+        "type": "order",
+        "slug": "order-of-montesa"
+      },
+      {
+        "title": "Order of Christ",
+        "type": "order",
+        "slug": "order-of-christ"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Encyclopaedia Britannica: John XXII",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/John-XXII"
+    },
+    {
+      "title": "The Papacy in the Middle Ages (survey works)",
+      "author": "various",
+      "type": "book"
+    }
+  ]
+}

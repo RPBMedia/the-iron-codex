@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "City",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Danish monarchy",
+    "Øresund trade",
+    "Oldenburg dynasty"
+  ],
+  "overview": [
+    "A royal and commercial city on the Øresund that became central to late medieval Denmark."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Copenhagen developed from a fishing village and episcopal center into the primary seat of Danish royal power during the later medieval period. Its natural harbor on the Øresund made it an increasingly important commercial and administrative center from the twelfth century."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Christian I's residence and death at Copenhagen Castle in 1481 reflects the city's role as the center of Oldenburg dynastic rule. By the late fifteenth century Copenhagen had displaced older centers like Roskilde as the effective political capital, a position it has held continuously."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Copenhagen",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Copenhagen_Castle_1698.jpg"
+    },
+    {
+      "title": "Copenhagen reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Copenhagen"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christian I of Denmark",
+        "type": "person",
+        "slug": "christian-i-of-denmark",
+        "label": "Death of Christian I of Denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union"
+      }
+    ]
+  },
+  "id": "copenhagen",
+  "name": "Copenhagen",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_Castle_1698.jpg",
+  "summary": "A royal and commercial city on the Øresund that became central to late medieval Denmark.",
+  "imageInfo": {
+    "caption": "A royal and commercial city on the Øresund that became central to late medieval Denmark.",
+    "creator": "Wikimedia Commons",
+    "date": "1698 (historical view)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_Castle_1698.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "A late-17th-century view of Copenhagen Castle, predating the modern city."
+  }
+}

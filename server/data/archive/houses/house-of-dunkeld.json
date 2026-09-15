@@ -1,0 +1,199 @@
+{
+  "id": "house-of-dunkeld",
+  "type": "house",
+  "name": "House of Dunkeld",
+  "aliases": [
+    "House of Dunkeld / Sverre (Norway)",
+    "House of Dunkeld",
+    "Dunkeld",
+    "Dunkeld dynasty",
+    "Clann Chrìnain",
+    "MacMalcolm",
+    "House of Canmore"
+  ],
+  "originYear": 1034,
+  "endYear": 1290,
+  "reignSpan": "1034–1290",
+  "region": "Scotland",
+  "originPlace": "Dunkeld, Perthshire",
+  "arms": "Or, a lion rampant gules within a double tressure flory-counter-flory gules — the royal arms of Scotland, settled under the later Dunkeld kings.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20I%20and%20Malcolm%20IV.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The Dunkeld kings David I and his grandson Malcolm IV enthroned, in the illuminated initial of the Kelso Abbey charter of 1159.",
+    "creator": "Kelso Abbey scriptorium",
+    "date": "1159",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_I_and_Malcolm_IV.jpg",
+    "note": "A contemporary manuscript depiction of two kings of the house, from a charter they granted; the older David is shown as the reforming elder king."
+  },
+  "summary": "The dynasty of Malcolm III and David I that ruled Scotland from 1034 to 1290, feudalised the kingdom, and ended with the death of Margaret, Maid of Norway.",
+  "overview": "The House of Dunkeld — descended from Crínán, lay abbot of Dunkeld, and the royal line of Alpin — held the Scottish throne from Duncan I in 1034. Its kings, above all Malcolm III \"Canmore\" and the great reformer David I, transformed Scotland with Anglo-Norman feudalism, burghs, and monasteries. The line failed in 1290 with the child-queen Margaret, Maid of Norway, plunging Scotland into the succession crisis that led to the Wars of Independence.",
+  "founder": {
+    "displayName": "Duncan I",
+    "note": "Grandson of Malcolm II of the house of Alpin; first Dunkeld king, killed by Macbeth in 1040 (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Scotland",
+      "type": "location",
+      "slug": "kingdom-of-scotland"
+    }
+  ],
+  "notableMembers": [
+    {
+      "displayName": "Malcolm III \"Canmore\"",
+      "note": "Avenged his father on Macbeth; married the future St Margaret"
+    },
+    {
+      "displayName": "David I",
+      "note": "The great reformer-king who feudalised Scotland and founded many burghs and abbeys"
+    },
+    {
+      "displayName": "Alexander III",
+      "note": "His long reign was later remembered as a golden age; died 1286"
+    },
+    {
+      "personSlug": "margaret-maid-of-norway",
+      "displayName": "Margaret, Maid of Norway",
+      "note": "Child-queen; the last of the line, d. 1290"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Dunkeld kings from Duncan I through the reforming David I to the last of the line, the child-queen Margaret; only Margaret has a Codex article so far.",
+    "root": {
+      "name": "Duncan I",
+      "note": "first Dunkeld king, d. 1040",
+      "children": [
+        {
+          "name": "Malcolm III \"Canmore\"",
+          "note": "r. 1058–1093",
+          "children": [
+            {
+              "name": "David I",
+              "note": "the reformer, r. 1124–1153",
+              "branch": "later kings follow",
+              "children": [
+                {
+                  "name": "Alexander III",
+                  "note": "r. 1249–1286",
+                  "children": [
+                    {
+                      "name": "Margaret, Maid of Norway",
+                      "personSlug": "margaret-maid-of-norway",
+                      "note": "granddaughter and heir; d. 1290"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house took its name from Dunkeld, whose lay abbot Crínán married Bethóc, daughter of Malcolm II of the house of Alpin. Their son became king as Duncan I in 1034, uniting the abbatial and royal lines. Duncan’s reign ended in 1040 when he was killed by Macbeth, and it was Duncan’s son Malcolm III who eventually recovered the throne, killing Macbeth’s stepson in 1058 — the events later dramatised by Shakespeare.",
+        "Malcolm III, called Canmore (\"great chief\"), married the English princess Margaret, later canonised as St Margaret of Scotland, and their marriage began the steady turning of the Scottish court toward English and continental models."
+      ]
+    },
+    {
+      "title": "David I and the transformation of Scotland",
+      "paragraphs": [
+        "The dynasty’s greatest king was David I, a son of Malcolm and Margaret raised at the Anglo-Norman court. As king he remade Scotland: he settled Norman and Flemish knights on Scottish land, granted charters to create royal burghs such as Edinburgh and Berwick, founded great abbeys including Melrose and Kelso, reformed the coinage and the church, and built a royal administration on the English pattern.",
+        "His grandson Malcolm IV — shown beside him in the Kelso charter — and then William the Lion continued this Europeanising work; William gave Scotland the red lion rampant that became its royal arms. Under these kings a recognisably medieval Scottish kingdom took shape."
+      ]
+    },
+    {
+      "title": "The failure of the line",
+      "paragraphs": [
+        "The thirteenth century, and especially the long reign of Alexander III, was remembered as a time of peace and prosperity. But Alexander’s children died before him, and when he was killed in a fall from his horse in 1286 his only heir was his infant granddaughter Margaret, daughter of the king of Norway — the Maid of Norway.",
+        "The little girl was recognised as queen, but she died in 1290 on the voyage to Scotland, at about seven years old, ending the male and direct line of Dunkeld. Her death left the throne disputed among many claimants, and the arbitration of that \"Great Cause\" by Edward I of England opened the door to the Wars of Scottish Independence and the rival kingships of Balliol and Bruce."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1034",
+      "title": "Duncan I becomes king",
+      "description": "The Dunkeld line takes the Scottish throne from the house of Alpin."
+    },
+    {
+      "date": "1124",
+      "title": "Accession of David I",
+      "description": "The reformer-king begins the feudal transformation of Scotland."
+    },
+    {
+      "date": "1290",
+      "title": "Death of the Maid of Norway",
+      "description": "The child-queen Margaret dies, ending the line and triggering the succession crisis.",
+      "links": [
+        {
+          "title": "Margaret, Maid of Norway",
+          "type": "person",
+          "slug": "margaret-maid-of-norway"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Margaret, Maid of Norway",
+        "type": "person",
+        "slug": "margaret-maid-of-norway",
+        "label": "The last of the line"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Alpin",
+        "type": "house",
+        "slug": "house-of-alpin",
+        "label": "The earlier royal line from which they sprang"
+      },
+      {
+        "title": "House of Bruce",
+        "type": "house",
+        "slug": "house-of-bruce",
+        "label": "A claimant house of the succession crisis their end caused"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "David I — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/David-I-king-of-Scotland"
+    },
+    {
+      "title": "House of Dunkeld — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Dunkeld"
+    },
+    {
+      "title": "Margaret, Maid of Norway — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Margaret,_Maid_of_Norway"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Royal%20Arms%20of%20the%20Kingdom%20of%20Scotland.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The royal arms of Scotland — the red lion rampant within a double tressure — settled under the later kings of the house.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Arms_of_the_Kingdom_of_Scotland.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

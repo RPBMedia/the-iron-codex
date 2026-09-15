@@ -1,0 +1,281 @@
+{
+  "id": "house-of-hohenstaufen",
+  "type": "house",
+  "name": "House of Hohenstaufen",
+  "aliases": [
+    "Hohenstaufen",
+    "Staufen",
+    "Staufer",
+    "Staufer dynasty",
+    "Hohenstaufen dynasty"
+  ],
+  "originYear": 1138,
+  "endYear": 1268,
+  "reignSpan": "1138–1268",
+  "region": "Holy Roman Empire & Sicily",
+  "originPlace": "Swabia",
+  "arms": "Three black lions on a gold field — the arms attributed to the Hohenstaufen dukes of Swabia.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbarossa.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Emperor Frederick I Barbarossa as a crusader, in a medieval manuscript.",
+    "creator": "Medieval manuscript illumination",
+    "date": "1188 (manuscript of the Historia Hierosolymitana)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbarossa.jpg",
+    "note": "A near-contemporary manuscript image of the dynasty’s most famous emperor dressed as a crusader."
+  },
+  "summary": "The Swabian dynasty that ruled the Holy Roman Empire at its medieval height and, through marriage, the Kingdom of Sicily.",
+  "overview": "The House of Hohenstaufen produced some of the most powerful medieval emperors. From Conrad III through Frederick Barbarossa, Henry VI, and the extraordinary Frederick II, the Staufen fought to make the Holy Roman Empire a real monarchy, clashed repeatedly with the papacy and the Lombard cities, and united the Empire with the Norman kingdom of Sicily.",
+  "founder": {
+    "displayName": "Frederick I, Duke of Swabia",
+    "note": "First Staufen duke; father of the royal line (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Holy Roman Empire",
+      "type": "location",
+      "slug": "holy-roman-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "conrad-iii-of-germany",
+      "displayName": "Conrad III",
+      "note": "First Hohenstaufen king of Germany"
+    },
+    {
+      "personSlug": "frederick-i-barbarossa",
+      "displayName": "Frederick I Barbarossa",
+      "note": "Fought the Lombard League and the papacy; drowned on crusade"
+    },
+    {
+      "personSlug": "henry-vi-holy-roman-emperor",
+      "displayName": "Henry VI",
+      "note": "United the Empire with the Norman kingdom of Sicily"
+    },
+    {
+      "personSlug": "frederick-ii-holy-roman-emperor",
+      "displayName": "Frederick II",
+      "note": "The \"wonder of the world\"; emperor and king of Sicily"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Hohenstaufen kings and emperors, from Conrad III and Frederick Barbarossa to Henry VI and Frederick II. Henry VI’s marriage to Constance of Sicily brought the Sicilian crown into the house.",
+    "root": {
+      "name": "Frederick I, Duke of Swabia",
+      "note": "Founder of the Staufen line",
+      "children": [
+        {
+          "name": "Conrad III",
+          "personSlug": "conrad-iii-of-germany",
+          "note": "King of Germany, r. 1138–1152"
+        },
+        {
+          "name": "Frederick II, Duke of Swabia",
+          "note": "Did not reign as king",
+          "children": [
+            {
+              "name": "Frederick I Barbarossa",
+              "personSlug": "frederick-i-barbarossa",
+              "note": "Emperor, r. 1155–1190",
+              "children": [
+                {
+                  "name": "Henry VI",
+                  "personSlug": "henry-vi-holy-roman-emperor",
+                  "note": "Emperor, r. 1191–1197",
+                  "spouse": {
+                    "name": "Constance of Sicily",
+                    "personSlug": "constance-of-sicily"
+                  },
+                  "children": [
+                    {
+                      "name": "Frederick II",
+                      "personSlug": "frederick-ii-holy-roman-emperor",
+                      "note": "Emperor & King of Sicily, r. 1220–1250",
+                      "children": [
+                        {
+                          "name": "Conrad IV",
+                          "note": "Last Staufen king, d. 1254",
+                          "branch": "Line ended 1268 (Conradin)"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Staufen were dukes of Swabia who rose to the German throne when Conrad III was elected king in 1138, beginning a long rivalry with the Welf family — the Guelf-versus-Ghibelline struggle that would divide Italy for centuries. The dynasty took its name from the castle of Hohenstaufen.",
+        "Conrad’s reign was troubled, but his nephew Frederick, who succeeded in 1152, would make the house the dominant power in Europe."
+      ]
+    },
+    {
+      "title": "Frederick Barbarossa",
+      "paragraphs": [
+        "Frederick I \"Barbarossa\" spent his long reign trying to turn the Holy Roman Empire into an effective monarchy, above all by mastering the wealthy cities of northern Italy. His defeat by the Lombard League at Legnano in 1176 forced a compromise, but he restored imperial prestige and arranged his son’s marriage to the heiress of Sicily.",
+        "Barbarossa died in 1190 crossing a river in Anatolia during the Third Crusade, and passed into German legend as the emperor sleeping under a mountain who would one day return."
+      ]
+    },
+    {
+      "title": "Henry VI and the Sicilian union",
+      "paragraphs": [
+        "Henry VI married Constance of Sicily, heiress of the Norman House of Hauteville, and by 1194 had conquered the Kingdom of Sicily, uniting it with the Empire and encircling the Papal States. Ruthless and ambitious, he was planning further conquests when he died suddenly in 1197, leaving a three-year-old heir.",
+        "The union of Empire and Sicily made the Hohenstaufen immensely powerful but set them on a collision course with a papacy determined never to be surrounded."
+      ]
+    },
+    {
+      "title": "Frederick II, \"wonder of the world\"",
+      "paragraphs": [
+        "Frederick II, raised in multicultural Sicily, was the most remarkable ruler of his age — a lawgiver, patron of scholars, and author of a famous treatise on falconry, who governed a brilliant court at Palermo and negotiated the return of Jerusalem on the Sixth Crusade without a battle. Contemporaries called him stupor mundi, the \"wonder of the world\".",
+        "His endless war with the papacy, which excommunicated him repeatedly and branded him Antichrist, consumed his later reign and undermined the dynasty’s German base."
+      ]
+    },
+    {
+      "title": "Fall of the house",
+      "paragraphs": [
+        "After Frederick II’s death in 1250 the papacy set out to destroy his line. His son Conrad IV died in 1254, his illegitimate son Manfred fell in battle against the papal champion Charles of Anjou at Benevento in 1266, and his sixteen-year-old grandson Conradin was captured and beheaded in Naples in 1268, extinguishing the house.",
+        "The fall of the Hohenstaufen left the Empire without a strong dynasty for decades — the \"Great Interregnum\" — and passed Sicily to the Angevins, reshaping the politics of Italy and Germany alike."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1138",
+      "title": "Conrad III elected king",
+      "description": "The Hohenstaufen take the German throne.",
+      "links": [
+        {
+          "title": "Conrad III",
+          "type": "person",
+          "slug": "conrad-iii-of-germany"
+        }
+      ]
+    },
+    {
+      "date": "1155",
+      "title": "Barbarossa crowned emperor",
+      "description": "Frederick I begins his long struggle for imperial power in Italy.",
+      "links": [
+        {
+          "title": "Frederick I Barbarossa",
+          "type": "person",
+          "slug": "frederick-i-barbarossa"
+        }
+      ]
+    },
+    {
+      "date": "1190",
+      "title": "Barbarossa dies on crusade",
+      "description": "The emperor drowns in Anatolia during the Third Crusade.",
+      "links": [
+        {
+          "title": "Third Crusade",
+          "type": "event",
+          "slug": "third-crusade"
+        }
+      ]
+    },
+    {
+      "date": "1194",
+      "title": "Henry VI conquers Sicily",
+      "description": "The Empire and the Norman kingdom of Sicily are united.",
+      "links": [
+        {
+          "title": "Henry VI",
+          "type": "person",
+          "slug": "henry-vi-holy-roman-emperor"
+        }
+      ]
+    },
+    {
+      "date": "1220",
+      "title": "Frederick II crowned emperor",
+      "description": "The \"wonder of the world\" reunites Empire and Sicily.",
+      "links": [
+        {
+          "title": "Frederick II",
+          "type": "person",
+          "slug": "frederick-ii-holy-roman-emperor"
+        }
+      ]
+    },
+    {
+      "date": "1268",
+      "title": "Execution of Conradin",
+      "description": "The last Hohenstaufen is beheaded in Naples; the house ends."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "The great emperor"
+      },
+      {
+        "title": "Henry VI",
+        "type": "person",
+        "slug": "henry-vi-holy-roman-emperor",
+        "label": "United Empire and Sicily"
+      },
+      {
+        "title": "Frederick II",
+        "type": "person",
+        "slug": "frederick-ii-holy-roman-emperor",
+        "label": "\"Wonder of the world\""
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Barbarossa died leading it"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Their empire"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Hohenstaufen — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hohenstaufen"
+    },
+    {
+      "title": "Hohenstaufen dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Hohenstaufen-dynasty"
+    },
+    {
+      "title": "Frederick II — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Frederick-II-Holy-Roman-emperor"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Armoiries%20Famille%20Hohenstaufen%20superseding.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Hohenstaufen dukes of Swabia — three black lions on a gold field.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Armoiries_Famille_Hohenstaufen_superseding.svg",
+    "note": "Heraldic rendering (SVG) of the historical Swabian/Hohenstaufen arms, not a surviving medieval object."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "id": "battle-of-kosovo",
+  "type": "event",
+  "name": "Battle of Kosovo",
+  "year": 1389,
+  "location": "Kosovo Field, Balkans",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Kosovo,_Adam_Stefanovi%C4%87,_1870.jpg",
+  "imageInfo": {
+    "caption": "Adam Stefanović, Battle of Kosovo.",
+    "creator": "Adam Stefanović",
+    "date": "1870",
+    "source": "Wikimedia Commons",
+    "note": "A nineteenth-century national-romantic depiction, not contemporary evidence."
+  },
+  "summary": "On 15 June 1389 Prince Lazar's Serbian and Bosnian army met Murad I's Ottomans on the Field of Blackbirds. Both rulers died, and the battle's memory outgrew its result.",
+  "details": "The Battle of Kosovo was fought in 1389 between Ottoman forces under Murad I and a Serbian-led coalition associated with Prince Lazar. Both leaders died, and the exact tactical result is debated. Strategically, the battle did not stop Ottoman expansion. Its later cultural memory became especially powerful in Serbian history, literature, and identity.",
+  "eventType": "Battle",
+  "conflict": "Ottoman expansion in the Balkans",
+  "factions": [
+    "Principality of Serbia",
+    "Ottoman Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Prince Lazar",
+      "faction": "Serbian-led Balkan coalition",
+      "personId": "prince-lazar"
+    },
+    {
+      "name": "Murad I",
+      "faction": "Ottoman army",
+      "personId": "murad-i"
+    },
+    {
+      "name": "Bayezid I",
+      "faction": "Ottoman army",
+      "personId": "bayezid-i"
+    }
+  ],
+  "eventLocation": {
+    "name": "Kosovo Field",
+    "locationId": "kosovo-field"
+  },
+  "outcome": "Tactically costly and disputed; strategically favorable to Ottoman expansion.",
+  "background": [
+    "Ottoman power expanded through the Balkans in the fourteenth century, pressuring Serbian and other regional elites. The battle formed part of a larger struggle over lordship, tribute, and survival.",
+    "The Balkan coalition was not a modern national army but a gathering of aristocratic forces bound by regional politics and immediate danger."
+  ],
+  "battle": "The battle was hard fought on Kosovo Field. Traditions emphasize cavalry charges, close combat, and the deaths of both Prince Lazar and Sultan Murad I. The killing of Murad became a major part of later legend. Whether the battle was a tactical draw, Ottoman victory, or mutual destruction depends on how the sources are read, but Ottoman strategic momentum continued.",
+  "aftermath": "Serbian power was weakened, and successor rulers increasingly faced Ottoman pressure and vassalage. The Ottomans continued expanding in the Balkans under Bayezid I. Kosovo became a memory of sacrifice, defeat, martyrdom, and identity far beyond the immediate military outcome.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Kosovo was fought on 15 June 1389, St Vitus' Day (Vidovdan), on Kosovo Polje, the Field of Blackbirds, north-west of Priština. An army led by Prince Lazar Hrebeljanović of Serbia, with his son-in-law Vuk Branković and a Bosnian contingent sent by King Tvrtko I, fought the Ottoman army of Sultan Murad I. It is one of very few medieval battles in which both commanders-in-chief died: Murad was killed on the field, and Lazar was captured and executed.",
+        "Its immediate military result is genuinely unclear. The first reports to reach the West announced a Christian victory, and the Ottoman army withdrew east after the battle to secure the succession. But Serbia had lost its ruler and many of its nobles, while the Ottoman state passed intact to Murad's son Bayezid I, and within a year Lazar's widow had accepted Ottoman overlordship."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Ottoman expansion into the Balkans had been advancing for a generation. On the Maritsa in September 1371 the Ottomans destroyed the army of the brothers Vukašin and Jovan Uglješa, who ruled the south of the former empire of Stefan Dušan, and the lords of the south became tribute-paying vassals. Northern Serbia, where Lazar built a principality around Kruševac, was spared until the 1380s, when Ottoman raiding reached it: Niš fell in 1386, the year Lazar defeated a raiding force at Pločnik, and in 1388 Tvrtko's commander Vlatko Vuković destroyed another at Bileća in Bosnia.",
+        "Murad I, having secured his Anatolian frontier, brought his main army west in 1389 to settle the Serbian question. Lazar was not a king; he styled himself prince (knez) and autocrat of the Serbs. But he had become the leading Serbian ruler, tied by marriage to Vuk Branković, who held Kosovo itself, and allied to Tvrtko I of Bosnia, who had been crowned king of the Serbs and Bosnia in 1377. The army that met Murad was built from these bonds of family and lordship, not raised as a national levy."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "No reliable figures survive. Modern estimates put the Christian army at perhaps 12,000 to 25,000 and the Ottoman army at 27,000 to 40,000, ranges that rest on inference rather than records. Lazar held the Christian centre, Vuk Branković the right and Vlatko Vuković's Bosnians the left. Murad commanded the Ottoman centre with his household troops and janissaries, with his sons Bayezid on the right and Yakub on the left, and a screen of archers in front."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Very little about the course of the fighting is secure. The Ottoman chronicle tradition, first written down in the fifteenth century by authors such as Aşıkpaşazade, and the Serbian and Western accounts agree that the Christian heavy cavalry charged early and drove in the Ottoman left under Yakub, and that Bayezid's wing then turned the battle with a counter-attack. The Bosnian and Branković contingents left the field while Lazar's own troops were still fighting, and Lazar was taken prisoner.",
+        "Murad's death was the event every source recorded. The earliest Western account, a letter written in October 1389 by the Florentine chancellor Coluccio Salutati to Tvrtko I, says that twelve Christian lords cut their way through to the sultan and that one of them killed him. Ottoman writers tell of a Serbian noble who pretended to desert and stabbed Murad when he was brought before him. Neither names the killer; the name Miloš Obilić comes only from later Serbian tradition. Bayezid, proclaimed sultan on the field, had his brother Yakub strangled, the first recorded fratricide at an Ottoman accession, and had Lazar and the captured Serbian lords executed."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Ottoman army returned to Anatolia with its new sultan, and in Florence and Paris the battle was celebrated as a Christian triumph. The appearance misled. In 1390 Lazar's widow, Princess Milica, accepted vassalage on behalf of their young son Stefan Lazarević, sent tribute and troops to Bayezid, and gave her daughter Olivera to him in marriage.",
+        "Stefan Lazarević became one of the sultan's most valuable vassals, leading Serbian knights for Bayezid at Rovine in 1395, at the Battle of Nicopolis in 1396 and at Ankara in 1402. Vuk Branković held out longest, lost Kosovo to the Ottomans by 1392 and died their prisoner in 1397. The Serbian state survived as a vassal despotate until the fall of Smederevo in 1459."
+      ]
+    },
+    {
+      "title": "Memory and legend",
+      "paragraphs": [
+        "Lazar's body was taken to his foundation, the monastery of Ravanica, and within a few years he was venerated as a martyr. Church writers presented his death as a choice of the heavenly kingdom over the earthly one, a theme that became the core of the Kosovo cycle of oral epic songs. The same tradition made Vuk Branković the traitor who abandoned the field. Contemporary sources do not support the charge: his troops withdrew once the battle was lost, and he resisted the Ottomans for two years longer than Lazar's heirs.",
+        "In the nineteenth century the songs, collected and published by Vuk Karadžić, made Kosovo the central event of Serbian national memory, and Serbian soldiers who took the region in 1912 were told they were avenging it. The battlefield holds two monuments of that long afterlife: the türbe over Murad I's entrails, whose body was carried to Bursa, and the Gazimestan memorial tower of 1953, where Slobodan Milošević addressed a vast crowd on the 600th anniversary in 1989."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Kosovo%2C_Adam_Stefanovi%C4%87%2C_1870.jpg"
+    },
+    {
+      "title": "Coluccio Salutati, Florentine letter to Tvrtko I (1389)",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Coluccio_Salutati"
+    },
+    {
+      "title": "The Kosovo myth",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kosovo_Myth"
+    },
+    {
+      "title": "Battle of Kosovo",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Kosovo"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Prince Lazar",
+        "type": "person",
+        "slug": "prince-lazar",
+        "label": "Commander"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i",
+        "label": "Commander"
+      },
+      {
+        "title": "Bayezid I",
+        "type": "person",
+        "slug": "bayezid-i",
+        "label": "Took command of the Ottoman army when Murad I was killed"
+      },
+      {
+        "title": "Stefan Lazarević",
+        "type": "person",
+        "slug": "stefan-lazarevic",
+        "label": "Lazar's son; became Bayezid's vassal"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Principality of Serbia",
+        "type": "location",
+        "slug": "principality-of-serbia",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kosovo Field",
+        "type": "location",
+        "slug": "kosovo-field",
+        "label": "Location"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Serbian vassals fought for the Ottomans"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Serbian-led Balkan coalition",
+      "factions": [
+        {
+          "name": "Principality of Serbia",
+          "title": "Principality of Serbia",
+          "type": "location",
+          "slug": "principality-of-serbia"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Prince Lazar",
+          "title": "Prince Lazar",
+          "type": "person",
+          "slug": "prince-lazar"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; perhaps 12,000–25,000",
+        "confidence": "debated",
+        "note": "The coalition under Prince Lazar was smaller than the Ottoman army; no reliable totals survive."
+      }
+    },
+    {
+      "side": "Ottoman army",
+      "factions": [
+        {
+          "name": "Ottoman Empire",
+          "title": "Ottoman Empire",
+          "type": "location",
+          "slug": "ottoman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Murad I",
+          "title": "Murad I",
+          "type": "person",
+          "slug": "murad-i"
+        },
+        {
+          "name": "Bayezid I",
+          "title": "Bayezid I",
+          "type": "person",
+          "slug": "bayezid-i"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; perhaps 27,000–40,000",
+        "confidence": "debated",
+        "note": "Larger than the Balkan coalition; figures are modern estimates, as the sources give none reliable."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow Bayezid I's Balkan wars",
+    "battleSlug": "battle-of-nicopolis",
+    "relationship": "same-war",
+    "reason": "Bayezid I, proclaimed sultan on the field at Kosovo, destroyed the crusading army of Sigismund of Hungary at Nicopolis in 1396, with Lazar's son Stefan Lazarević now fighting on the Ottoman side as his vassal."
+  },
+  "timeline": [
+    {
+      "date": "26 September 1371",
+      "title": "Disaster on the Maritsa",
+      "description": "The Ottomans destroy the army of Vukašin and Jovan Uglješa, reducing the southern Serbian lords to vassalage."
+    },
+    {
+      "date": "1386",
+      "title": "Niš falls",
+      "description": "Ottoman raids reach Lazar's principality, though Lazar defeats one raiding army at Pločnik."
+    },
+    {
+      "date": "1388",
+      "title": "Victory at Bileća",
+      "description": "Vlatko Vuković destroys an Ottoman raiding force in Bosnia."
+    },
+    {
+      "date": "15 June 1389",
+      "title": "Battle of Kosovo",
+      "description": "Murad I is killed on the field; Prince Lazar is captured and executed on the orders of Bayezid I."
+    },
+    {
+      "date": "October 1389",
+      "title": "Salutati's letter",
+      "description": "Florence congratulates Tvrtko I on a Christian victory and the killing of the sultan by twelve lords."
+    },
+    {
+      "date": "1390",
+      "title": "Serbia submits",
+      "description": "Princess Milica accepts Ottoman overlordship for her son Stefan Lazarević."
+    },
+    {
+      "date": "1392",
+      "title": "Branković's lands taken",
+      "description": "Vuk Branković loses Kosovo to the Ottomans; he dies in captivity in 1397."
+    },
+    {
+      "date": "25 September 1396",
+      "title": "Serbs fight for the sultan",
+      "description": "Stefan Lazarević's knights fight on the Ottoman side in the Battle of Nicopolis."
+    },
+    {
+      "date": "1459",
+      "title": "End of the despotate",
+      "description": "The fall of Smederevo ends the medieval Serbian state."
+    }
+  ]
+}

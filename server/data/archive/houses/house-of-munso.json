@@ -1,0 +1,208 @@
+{
+  "id": "house-of-munso",
+  "type": "house",
+  "name": "House of Munsö",
+  "aliases": [
+    "House of Munsö / early Swedish line",
+    "Early Swedish royal line",
+    "Munsö dynasty",
+    "House of Munso",
+    "Munsö"
+  ],
+  "originYear": 970,
+  "endYear": 1060,
+  "reignSpan": "c. 970–1060",
+  "region": "Kingdom of Sweden",
+  "originPlace": "Uppland, Sweden",
+  "arms": "The Munsö kings predate Swedish heraldry and bore no coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Olaf%20Scotking%20of%20Sweden%20coin%20c%201030.jpg?width=1000",
+  "imageInfo": {
+    "caption": "A silver penny of Olof Skötkonung, the first coins struck in Sweden, minted at Sigtuna around 1030.",
+    "creator": "Royal mint at Sigtuna",
+    "date": "c. 995–1030",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaf_Scotking_of_Sweden_coin_c_1030.jpg",
+    "note": "A contemporary object of the dynasty — Sweden’s earliest coinage, struck under Olof Skötkonung."
+  },
+  "summary": "The earliest historically attested Swedish royal dynasty, which produced the first Christian king and Sweden’s first coins.",
+  "overview": "The House of Munsö is the earliest Swedish royal line known to history, ruling from the late tenth century. Under Eric the Victorious and his son Olof Skötkonung — the first Christian king of the Swedes and the first to strike Swedish coins — it began Sweden’s conversion, before the line failed and the crown passed to the House of Stenkil.",
+  "founder": {
+    "personSlug": "eric-the-victorious",
+    "displayName": "Eric the Victorious",
+    "note": "First reliably historical king of the Swedes"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "eric-the-victorious",
+      "displayName": "Eric the Victorious",
+      "note": "Won the throne and defeated a rival at Fýrisvellir"
+    },
+    {
+      "personSlug": "olof-skotkonung",
+      "displayName": "Olof Skötkonung",
+      "note": "First Christian king; struck Sweden’s first coins"
+    },
+    {
+      "personSlug": "anund-jacob",
+      "displayName": "Anund Jacob",
+      "note": "Allied with Norway against Cnut the Great"
+    },
+    {
+      "personSlug": "emund-the-old",
+      "displayName": "Emund the Old",
+      "note": "Last king of the Munsö line"
+    }
+  ],
+  "familyTree": {
+    "caption": "The early Swedish kings of the Munsö line, from Eric the Victorious to Emund the Old, after whom the crown passed to the House of Stenkil.",
+    "root": {
+      "name": "Eric the Victorious",
+      "personSlug": "eric-the-victorious",
+      "note": "r. c. 970–995",
+      "children": [
+        {
+          "name": "Olof Skötkonung",
+          "personSlug": "olof-skotkonung",
+          "note": "r. c. 995–1022",
+          "children": [
+            {
+              "name": "Anund Jacob",
+              "personSlug": "anund-jacob",
+              "note": "r. 1022–1050"
+            },
+            {
+              "name": "Emund the Old",
+              "personSlug": "emund-the-old",
+              "note": "r. 1050–1060"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The House of Munsö is the first Swedish royal line that can be placed in history rather than legend. Its founder, Eric the Victorious, ruled the Svear from the region around Uppsala and, according to tradition, defeated his nephew Styrbjörn at the battle of Fýrisvellir around 985.",
+        "Sweden at this time was still largely pagan, centred on the great temple at Uppsala, and the kings ruled a loose realm of the Svear and Götar rather than a unified state."
+      ]
+    },
+    {
+      "title": "Olof Skötkonung and conversion",
+      "paragraphs": [
+        "Eric’s son Olof Skötkonung became the first Swedish king to accept Christianity, was baptised, and struck Sweden’s earliest coins at Sigtuna. His conversion was partial — the pagan cult at Uppsala continued — but it began the long Christianisation of the Swedes.",
+        "Olof allied by marriage with the Norwegian and Danish royal houses, and his reign drew Sweden into the wider politics of the Viking-age North."
+      ]
+    },
+    {
+      "title": "End of the line",
+      "paragraphs": [
+        "Olof’s sons Anund Jacob and Emund the Old ruled in turn. Anund Jacob joined Norway’s Olaf Haraldsson against the empire of Cnut the Great, while Emund quarrelled with the Church over the organisation of the Swedish bishoprics.",
+        "Emund died around 1060 without a male heir, ending the Munsö dynasty; the magnates then chose Stenkil, a Götar lord married into the royal family, beginning the House of Stenkil."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 985",
+      "title": "Eric the Victorious",
+      "description": "The first historical Swedish king consolidates his rule.",
+      "links": [
+        {
+          "title": "Eric the Victorious",
+          "type": "person",
+          "slug": "eric-the-victorious"
+        }
+      ]
+    },
+    {
+      "date": "c. 1000",
+      "title": "Olof Skötkonung baptised",
+      "description": "The first Christian king of the Swedes; first Swedish coins struck.",
+      "links": [
+        {
+          "title": "Olof Skötkonung",
+          "type": "person",
+          "slug": "olof-skotkonung"
+        }
+      ]
+    },
+    {
+      "date": "1060",
+      "title": "End of the Munsö line",
+      "description": "Emund the Old dies; the crown passes to Stenkil.",
+      "links": [
+        {
+          "title": "Emund the Old",
+          "type": "person",
+          "slug": "emund-the-old"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric the Victorious",
+        "type": "person",
+        "slug": "eric-the-victorious",
+        "label": "Founder"
+      },
+      {
+        "title": "Olof Skötkonung",
+        "type": "person",
+        "slug": "olof-skotkonung",
+        "label": "First Christian king"
+      },
+      {
+        "title": "Anund Jacob",
+        "type": "person",
+        "slug": "anund-jacob",
+        "label": "Rival of Cnut the Great"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Stenkil",
+        "type": "house",
+        "slug": "house-of-stenkil",
+        "label": "The dynasty that succeeded them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Munsö — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Muns%C3%B6"
+    },
+    {
+      "title": "Olof Skötkonung — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Olof_Sk%C3%B6tkonung"
+    },
+    {
+      "title": "Sweden: history — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Sweden"
+    }
+  ]
+}

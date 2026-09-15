@@ -1,0 +1,163 @@
+{
+  "id": "jarls-of-lade",
+  "type": "house",
+  "name": "Jarls of Lade",
+  "aliases": [
+    "Jarls of Lade (Hlaðir)",
+    "Jarls of Lade",
+    "Lade jarls",
+    "Ladejarl",
+    "Hlaðajarl",
+    "Earls of Lade"
+  ],
+  "originYear": 870,
+  "endYear": 1030,
+  "reignSpan": "9th–11th centuries",
+  "region": "Trøndelag & Norway",
+  "originPlace": "Lade (Hlaðir), by Trondheim",
+  "arms": "None — the Viking-age jarls ruled before the age of heraldry.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5kon%20jarl.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Jarl Håkon Sigurdsson of Lade, effective ruler of Norway, in an 1895 drawing by Christian Krohg for an edition of the Heimskringla.",
+    "creator": "Christian Krohg",
+    "date": "1895 (Håkon d. 995)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%A5kon_jarl.jpg",
+    "note": "A late-19th-century saga illustration, not a contemporary likeness; no image of Håkon survives from his own time."
+  },
+  "summary": "The mighty earls of Lade in Trøndelag, counterweights to the kings of Norway and, under Håkon Sigurdsson, rulers of the country in their own right.",
+  "overview": "The Hlaðir jarls, based at Lade near modern Trondheim, were the dominant lords of Trøndelag and the northern Norwegian coast through the Viking Age. Sometimes allied with the Fairhair kings and sometimes their rivals, they twice effectively ruled Norway — most powerfully under Håkon Sigurdsson, the last great champion of Norse paganism, before Olaf Tryggvason overthrew him in 995.",
+  "founder": {
+    "displayName": "Håkon Grjotgardsson",
+    "note": "First jarl of Lade to appear in the sagas (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "displayName": "Sigurd Håkonsson",
+      "note": "Jarl of Lade; foster-father and ally of Haakon the Good"
+    },
+    {
+      "personSlug": "jarl-hakon-sigurdsson",
+      "displayName": "Håkon Sigurdsson",
+      "note": "Ruled Norway as jarl; defender of the old religion, d. 995"
+    },
+    {
+      "displayName": "Eiríkr Hákonarson",
+      "note": "Håkon’s son; later ruled Norway as jarl under Cnut the Great"
+    }
+  ],
+  "familyTree": {
+    "caption": "The line of the Lade jarls through Sigurd to Håkon and his son Eiríkr; only Håkon Sigurdsson has a Codex article so far.",
+    "root": {
+      "name": "Sigurd Håkonsson",
+      "note": "Jarl of Lade, d. 962",
+      "children": [
+        {
+          "name": "Håkon Sigurdsson",
+          "personSlug": "jarl-hakon-sigurdsson",
+          "note": "ruler of Norway, d. 995",
+          "children": [
+            {
+              "name": "Eiríkr Hákonarson",
+              "note": "jarl of Norway under Cnut"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The jarls of Lade rose as the great regional dynasty of Trøndelag, the rich farming country around the Trondheimsfjord, with their seat at Lade (Hlaðir). As Harald Fairhair’s descendants tried to build a single Norwegian kingship, the Lade jarls held the north as semi-independent lords whose support could make or break a king. Sigurd Håkonsson was the mainstay of Haakon the Good’s reign, and his family kept the old sacrificial cult at the great temple-feasts.",
+        "Their power rested on control of Trøndelag’s wealth and warriors and on the sea-lanes of the northern coast, giving them a durable base independent of the southern kings."
+      ]
+    },
+    {
+      "title": "Håkon Sigurdsson, ruler of Norway",
+      "paragraphs": [
+        "After the sons of Eirik Bloodaxe killed his father, Håkon Sigurdsson allied with the Danish king Harald Bluetooth, drove out his enemies, and by the 970s ruled most of Norway as jarl — at first under nominal Danish overlordship, then in open defiance of it. A committed pagan, he restored the old temples and sacrifices that the Christian kings had attacked.",
+        "His authority survived a great sea-battle at Hjörungavágr, where he shattered a fleet of the Jomsvikings sent against him. But his high-handed rule and, in the sagas, his womanising turned the Trøndelag farmers against him, and when Olaf Tryggvason arrived to claim the throne in 995 Håkon was hunted down and killed, hidden in a pigsty, by his own slave."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The house did not end with Håkon: his sons Eiríkr and Sveinn returned after Olaf Tryggvason’s death to govern Norway again as jarls, this time under the Danish king Cnut the Great, keeping Lade at the centre of Norwegian power into the eleventh century.",
+        "The Lade jarls represent the great regional lordship that the unifying kings of Norway had to absorb or destroy; their fall marked a decisive stage in the Christianisation and centralisation of the kingdom."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 970s",
+      "title": "Håkon rules Norway",
+      "description": "Håkon Sigurdsson governs most of Norway as jarl and restores the pagan cult.",
+      "links": [
+        {
+          "title": "Håkon Sigurdsson",
+          "type": "person",
+          "slug": "jarl-hakon-sigurdsson"
+        }
+      ]
+    },
+    {
+      "date": "c. 986",
+      "title": "Battle at Hjörungavágr",
+      "description": "Håkon destroys the Jomsviking fleet sent to overthrow him."
+    },
+    {
+      "date": "995",
+      "title": "Fall of Håkon",
+      "description": "Olaf Tryggvason’s arrival ends Håkon’s rule; he is killed by his own slave."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Håkon Sigurdsson",
+        "type": "person",
+        "slug": "jarl-hakon-sigurdsson",
+        "label": "The jarl who ruled Norway"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Norway",
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The realm they held and contested"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Fairhair",
+        "type": "house",
+        "slug": "house-of-fairhair",
+        "label": "The royal line they served and rivalled"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Haakon Sigurdsson — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Haakon-Sigurdsson"
+    },
+    {
+      "title": "Haakon Sigurdsson — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Haakon_Sigurdsson"
+    },
+    {
+      "title": "Earl of Lade — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Earl_of_Lade"
+    }
+  ]
+}

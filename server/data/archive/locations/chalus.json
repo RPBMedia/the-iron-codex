@@ -1,0 +1,85 @@
+{
+  "id": "chalus",
+  "type": "location",
+  "name": "Chalus",
+  "locationType": "Castle town",
+  "year": "Medieval period",
+  "kingdom": "Aquitaine",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ch%C3%A2teau_de_Ch%C3%A2lus_Chabrol%2C_vue_sur_tour_d%27angle.jpg",
+  "summary": "A castle town in Aquitaine remembered as the place where Richard the Lionheart was mortally wounded.",
+  "overview": [
+    "A castle town in Aquitaine remembered as the place where Richard the Lionheart was mortally wounded."
+  ],
+  "knownFor": [
+    "Death place of Richard the Lionheart",
+    "Angevin warfare",
+    "Aquitanian lordship"
+  ],
+  "imageInfo": {
+    "caption": "Chateau de Chalus-Chabrol, where Richard I was mortally wounded.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the castle site.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Ch%C3%A2lus_Chabrol%2C_vue_sur_tour_d%27angle.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A castle town in Aquitaine remembered as the place where Richard the Lionheart was mortally wounded.",
+        "Chalus matters historically through Death place of Richard the Lionheart, Angevin warfare, Aquitanian lordship."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Ch%C3%A2lus_Chabrol%2C_vue_sur_tour_d'angle.jpg"
+    },
+    {
+      "title": "Wikipedia: Chalus",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Chalus"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Death of Richard the Lionheart"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Aquitaine",
+        "type": "location",
+        "slug": "aquitaine",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Oxford",
+        "type": "location",
+        "slug": "oxford"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      }
+    ]
+  }
+}

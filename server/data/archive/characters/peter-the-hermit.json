@@ -1,0 +1,195 @@
+{
+  "id": "peter-the-hermit",
+  "type": "character",
+  "name": "Peter the Hermit",
+  "aliases": [
+    "Pierre l’Ermite"
+  ],
+  "born": 1050,
+  "died": 1115,
+  "deathAge": "unknown",
+  "causeOfDeath": "Died in 1115 after returning west and founding or joining religious life at Neufmoustier near Huy.",
+  "restingPlace": "Unknown",
+  "location": "Latin Christendom",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_the_Hermit.jpg",
+  "title": "preacher of the People’s Crusade",
+  "roles": [
+    "Crusade preacher",
+    "Pilgrim leader"
+  ],
+  "birth": {
+    "date": "c. 1050",
+    "place": {
+      "name": "Kingdom of France",
+      "slug": "kingdom-of-france",
+      "type": "location"
+    }
+  },
+  "death": {
+    "date": "1115",
+    "place": {
+      "name": "Kingdom of France",
+      "slug": "kingdom-of-france",
+      "type": "location"
+    },
+    "circumstance": "Died in 1115 after returning west and founding or joining religious life at Neufmoustier near Huy."
+  },
+  "quickFacts": {
+    "realm": "Latin Christendom",
+    "dynasty": "Not dynastic",
+    "culture": "French / Latin Christian",
+    "knownFor": "People’s Crusade and popular crusading preaching"
+  },
+  "imageInfo": {
+    "caption": "Peter the Hermit in later crusading imagery.",
+    "creator": "Unknown artist",
+    "date": "medieval or later public-domain image",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_the_Hermit.jpg",
+    "note": "Later depiction shaped by crusading memory."
+  },
+  "overview": [
+    "Peter the Hermit was a charismatic preacher associated with the People’s Crusade of 1096. His following moved east before the main baronial armies and became one of the most dramatic examples of popular religious mobilization at the opening of the First Crusade.",
+    "The expedition he helped inspire suffered severe violence, disorder, and destruction in Anatolia. Peter later joined the main crusade and was remembered as a vivid but controversial figure in crusading memory."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Peter the Hermit was a charismatic preacher associated with the People’s Crusade of 1096. His following moved east before the main baronial armies and became one of the most dramatic examples of popular religious mobilization at the opening of the First Crusade.",
+        "The expedition he helped inspire suffered severe violence, disorder, and destruction in Anatolia. Peter later joined the main crusade and was remembered as a vivid but controversial figure in crusading memory."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Peter’s early life is poorly documented, though later tradition places him in the French-speaking world and associates him with ascetic preaching. The lack of secure early evidence means his origins should be treated cautiously.",
+        "His importance begins with the preaching climate after Urban II’s call, when religious enthusiasm, social stress, and hopes for Jerusalem drew non-noble crowds as well as knights into motion."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Peter the Hermit is remembered as a charismatic popular preacher whose fervour helped ignite the chaotic People's Crusade, and the sources present a figure of intense, almost theatrical religious magnetism. Contemporary chroniclers describe a small, unkempt, barefoot ascetic riding a donkey, whose passionate preaching drew enormous crowds of common people into a disorganised and ultimately disastrous expedition ahead of the main crusade.",
+        "The tradition is ambivalent: admiring of his power to move the masses, yet aware that the movement he inspired collapsed into violence — including pogroms against Jewish communities — and was destroyed by the Turks before reaching Jerusalem. Some later legend exaggerated his role, even crediting him with originating the whole crusade, which the sources do not securely support.",
+        "What the record consistently conveys is a man of extraordinary popular charisma and religious intensity, better at kindling enthusiasm than at directing it. He is remembered as the firebrand preacher of the People's Crusade — a vivid embodiment of the volatile popular piety that the crusade movement unleashed and could not control."
+      ]
+    },
+    {
+      "title": "As leader of the People’s Crusade",
+      "paragraphs": [
+        "Peter became associated with large groups of poor pilgrims, minor warriors, and families who moved east in 1096. Their journey through the Rhineland, Hungary, and the Balkans exposed the dangers of mass mobilization without adequate supplies or command.",
+        "After reaching Byzantine territory, the People’s Crusade crossed into Anatolia and was destroyed by Seljuk forces near Civetot. Peter survived and later appears with the main crusading army, showing how popular and aristocratic crusading overlapped but did not function in the same way."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Peter survived the First Crusade and returned west. He died in 1115, traditionally connected with the religious house of Neufmoustier near Huy.",
+        "His death came after his reputation had already entered crusading storytelling, where preaching charisma often overshadowed the disastrous practical results of the expedition he helped lead."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Peter’s legacy is inseparable from the People’s Crusade: religious enthusiasm could mobilize thousands, but without discipline, supply, and strategy it could become catastrophic.",
+        "Later writers made him a symbol of popular zeal. Modern historians treat him as evidence for the social breadth of crusading rather than as the single creator of the movement."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Mobilized popular crusading",
+      "description": "Peter’s preaching helped draw non-elite pilgrims into the eastern expedition after Clermont.",
+      "links": [
+        {
+          "title": "First Crusade Proclaimed",
+          "type": "event",
+          "slug": "first-crusade-called"
+        }
+      ]
+    },
+    {
+      "title": "Led part of the People’s Crusade",
+      "description": "His following demonstrated both the power and danger of mass religious mobilization without stable command."
+    },
+    {
+      "title": "Entered crusading memory",
+      "description": "Peter became one of the best-known popular figures of the First Crusade tradition."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1050",
+      "title": "Born",
+      "description": "Peter was probably born in the French-speaking world, though his exact origins are uncertain."
+    },
+    {
+      "date": "1095-1096",
+      "title": "Preaches crusade",
+      "description": "He became associated with popular preaching after Urban II’s call for armed pilgrimage."
+    },
+    {
+      "date": "1096",
+      "title": "Leads pilgrims east",
+      "description": "Peter’s following moved through Europe toward Constantinople before the main noble armies."
+    },
+    {
+      "date": "1096",
+      "title": "People’s Crusade destroyed",
+      "description": "The expedition was defeated in Anatolia, revealing the danger of an unsupplied popular army."
+    },
+    {
+      "date": "1115",
+      "title": "Dies",
+      "description": "Peter died after returning west, already surrounded by crusading legend."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks"
+      }
+    ],
+    "events": [
+      {
+        "title": "First Crusade Proclaimed",
+        "type": "event",
+        "slug": "first-crusade-called"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Peter_the_Hermit.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Crusades",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Crusades"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Crusades",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "id": "house-of-oldenburg",
+  "type": "house",
+  "name": "House of Oldenburg",
+  "aliases": [
+    "Oldenburg",
+    "House of Oldenburg",
+    "Oldenburg dynasty"
+  ],
+  "originYear": 1448,
+  "endYear": 1863,
+  "reignSpan": "from 1448 (Denmark)",
+  "region": "Denmark, Norway & Schleswig-Holstein",
+  "originPlace": "County of Oldenburg",
+  "arms": "Or, two bars gules — the arms of the counts of Oldenburg.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_I_of_Denmark,_Norway_%26_Sweden_1440s.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Christian I of Denmark, first Oldenburg king of Denmark, Norway, and Sweden, in a 15th-century panel.",
+    "creator": "Unknown artist",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christian_I_of_Denmark,_Norway_%26_Sweden_1440s.jpg",
+    "note": "A near-contemporary painted portrait of Christian I as a crowned king."
+  },
+  "summary": "The comital house of Oldenburg that won the Danish crown in 1448 under Christian I and became the enduring royal house of Denmark and Norway.",
+  "overview": "When the Wittelsbach king Christopher of Bavaria died without an heir in 1448, the Danish council elected Count Christian of Oldenburg as king. Christian I went on to gain Norway and, briefly, Sweden, and to inherit Schleswig and Holstein, founding a dynasty that would rule Denmark into the nineteenth century and Norway for centuries, and that spread through its branches across the thrones of Europe.",
+  "founder": {
+    "personSlug": "christian-i-of-denmark",
+    "displayName": "Christian I",
+    "note": "Count of Oldenburg elected King of Denmark in 1448"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Denmark",
+      "type": "location",
+      "slug": "kingdom-of-denmark"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "christian-i-of-denmark",
+      "displayName": "Christian I",
+      "note": "First Oldenburg king of Denmark, Norway, and Sweden"
+    },
+    {
+      "displayName": "John (Hans)",
+      "note": "Christian I’s son; king of Denmark, Norway, and briefly Sweden"
+    }
+  ],
+  "familyTree": {
+    "caption": "The founding of the Oldenburg royal line: Count Dietrich’s son Christian I gains the Danish crown, passing it to his son John.",
+    "root": {
+      "name": "Dietrich of Oldenburg",
+      "note": "Count of Oldenburg, \"the Fortunate\"",
+      "children": [
+        {
+          "name": "Christian I",
+          "personSlug": "christian-i-of-denmark",
+          "note": "King of Denmark from 1448",
+          "children": [
+            {
+              "name": "John (Hans)",
+              "note": "King of Denmark and Norway"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house took its name from the county of Oldenburg in north-western Germany, where its counts had ruled since the twelfth century. Its rise to royalty came through kinship and election rather than conquest: Count Christian was related to the earlier Danish kings, and when the throne fell vacant in 1448 the Danish Rigsråd chose him over other claimants.",
+        "Christian I’s accession bound the small German county to the crowns of Scandinavia and made Oldenburg one of the most successful dynasties in European history."
+      ]
+    },
+    {
+      "title": "Christian I and the three crowns",
+      "paragraphs": [
+        "Elected King of Denmark in 1448, Christian I was crowned King of Norway in 1450 and, for a time, recognised as King of Sweden — reviving the union of the three Scandinavian kingdoms first forged at Kalmar. In 1460 the nobles of Schleswig and Holstein elected him their duke and count, joining those duchies to the Danish crown by the pledge that they should remain \"forever undivided.\"",
+        "His reign was chronically short of money — he even pawned the Orkney and Shetland islands to Scotland as his daughter’s dowry, and they were never redeemed — but he founded the University of Copenhagen and secured his dynasty on the Danish throne."
+      ]
+    },
+    {
+      "title": "A dynasty of dynasties",
+      "paragraphs": [
+        "From Christian I the House of Oldenburg ruled Denmark until 1863 and Norway in personal union for centuries, while cadet branches carried the name across the continent. Offshoots of the family — the houses of Holstein-Gottorp, Glücksburg, and their kin — came to hold the thrones of Russia, Greece, and Norway, and the British royal house descends from the Oldenburg line through Prince Philip.",
+        "Few medieval comital families rose so far: from a minor German county, the Oldenburgs became one of the longest-reigning royal houses in Europe."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1448",
+      "title": "Christian I elected King of Denmark",
+      "description": "The Danish council chooses the Count of Oldenburg after Christopher of Bavaria dies heirless.",
+      "links": [
+        {
+          "title": "Christian I",
+          "type": "person",
+          "slug": "christian-i-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "1450",
+      "title": "Crowned King of Norway",
+      "description": "Christian I unites the Danish and Norwegian crowns."
+    },
+    {
+      "date": "1460",
+      "title": "Treaty of Ribe",
+      "description": "Christian I gains Schleswig and Holstein, pledged to stay \"forever undivided.\""
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christian I",
+        "type": "person",
+        "slug": "christian-i-of-denmark",
+        "label": "Founder; first Oldenburg king"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "United to Denmark under Christian I"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Briefly held in the Kalmar Union"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Oldenburg — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/house-of-Oldenburg"
+    },
+    {
+      "title": "Christian I of Denmark — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christian_I_of_Denmark"
+    },
+    {
+      "title": "House of Oldenburg — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Oldenburg"
+    }
+  ]
+}

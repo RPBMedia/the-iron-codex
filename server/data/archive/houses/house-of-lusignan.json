@@ -1,0 +1,190 @@
+{
+  "id": "house-of-lusignan",
+  "type": "house",
+  "name": "House of Lusignan",
+  "aliases": [
+    "Lusignan",
+    "Lusignan dynasty",
+    "de Lusignan"
+  ],
+  "originYear": 1186,
+  "endYear": 1489,
+  "reignSpan": "1186–1489 (Jerusalem & Cyprus)",
+  "region": "Jerusalem, Cyprus & Poitou",
+  "originPlace": "Lusignan, Poitou",
+  "arms": "Horizontal bars of silver and blue — the arms of Lusignan.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guido%20di%20Lusignano.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Guy of Lusignan, King of Jerusalem, whose defeat at Hattin lost the holy city.",
+    "creator": "Later depiction",
+    "date": "Later image (Guy d. 1194)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guido_di_Lusignano.jpg",
+    "note": "A later image of Guy of Lusignan, founder of the Lusignan royal line in the East."
+  },
+  "summary": "The Poitevin family that gained the crowns of Jerusalem and Cyprus and ruled the crusader island kingdom for three centuries.",
+  "overview": "The House of Lusignan, lords of Poitou, rose to the crusader thrones when Guy of Lusignan married Sibylla and became King of Jerusalem. Though Guy lost the kingdom at Hattin, his brother Amalric II secured the island of Cyprus, where the Lusignans reigned as kings long after the mainland crusader states had fallen.",
+  "founder": {
+    "personSlug": "guy-of-lusignan",
+    "displayName": "Guy of Lusignan",
+    "note": "King of Jerusalem; later lord of Cyprus"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Jerusalem",
+      "type": "location",
+      "slug": "kingdom-of-jerusalem"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "guy-of-lusignan",
+      "displayName": "Guy of Lusignan",
+      "note": "King of Jerusalem; lost at Hattin, then ruled Cyprus"
+    },
+    {
+      "personSlug": "amalric-ii-of-lusignan",
+      "displayName": "Amalric II",
+      "note": "King of Cyprus and Jerusalem; secured the dynasty"
+    }
+  ],
+  "familyTree": {
+    "caption": "The brothers Guy and Amalric of Lusignan, who together brought the crowns of Jerusalem and Cyprus into the family.",
+    "root": {
+      "name": "Hugh VIII of Lusignan",
+      "note": "lord of Lusignan in Poitou",
+      "children": [
+        {
+          "name": "Guy of Lusignan",
+          "personSlug": "guy-of-lusignan",
+          "note": "King of Jerusalem 1186–1192; lord of Cyprus"
+        },
+        {
+          "name": "Amalric II",
+          "personSlug": "amalric-ii-of-lusignan",
+          "note": "King of Cyprus and Jerusalem, d. 1205"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Lusignans were a powerful family of Poitou, in western France, long troublesome vassals of the dukes of Aquitaine. In the 1180s Guy of Lusignan came east and married Sibylla, heiress of the Kingdom of Jerusalem, becoming king through his wife.",
+        "His accession divided the barons of the kingdom, and his reign coincided with the greatest crisis in its history."
+      ]
+    },
+    {
+      "title": "Hattin and Cyprus",
+      "paragraphs": [
+        "In 1187 Guy led the army of Jerusalem to annihilation against Saladin at the Battle of Hattin, and the kingdom lost Jerusalem and almost all its territory. Discredited on the mainland, Guy was compensated during the Third Crusade with the island of Cyprus, which Richard the Lionheart had seized.",
+        "There the Lusignans established a Latin kingdom that would outlast every other crusader state."
+      ]
+    },
+    {
+      "title": "The Cypriot kingdom",
+      "paragraphs": [
+        "Guy’s brother Amalric II secured the family’s position, taking the royal title in Cyprus and briefly reuniting it with the rump Kingdom of Jerusalem based at Acre. The Lusignans ruled Cyprus as kings until 1489, long after Acre fell in 1291, making it the last Latin outpost of the crusading age in the eastern Mediterranean.",
+        "From Cyprus the family also pressed claims to Jerusalem and Armenia, keeping the memory of the crusader kingdoms alive for two more centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1186",
+      "title": "Guy crowned King of Jerusalem",
+      "description": "Guy of Lusignan becomes king through his marriage to Sibylla.",
+      "links": [
+        {
+          "title": "Guy of Lusignan",
+          "type": "person",
+          "slug": "guy-of-lusignan"
+        }
+      ]
+    },
+    {
+      "date": "1187",
+      "title": "Battle of Hattin",
+      "description": "Guy’s defeat loses Jerusalem to Saladin.",
+      "links": [
+        {
+          "title": "Battle of Hattin",
+          "type": "event",
+          "slug": "battle-of-hattin"
+        }
+      ]
+    },
+    {
+      "date": "1192",
+      "title": "The Lusignans gain Cyprus",
+      "description": "The family establishes a lasting kingdom on the island."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Guy of Lusignan",
+        "type": "person",
+        "slug": "guy-of-lusignan",
+        "label": "Founder; King of Jerusalem"
+      },
+      {
+        "title": "Amalric II",
+        "type": "person",
+        "slug": "amalric-ii-of-lusignan",
+        "label": "King of Cyprus"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "Guy’s catastrophic defeat, 1187"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Anjou-Rethel",
+        "type": "house",
+        "slug": "house-of-anjou-rethel",
+        "label": "The Jerusalem line before them"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Lusignan family — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Lusignan-family"
+    },
+    {
+      "title": "Guy of Lusignan — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Guy_of_Lusignan"
+    },
+    {
+      "title": "Kingdom of Cyprus — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kingdom_of_Cyprus"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason%20maison%20fr%20de%20Lusignan.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The barry silver-and-blue arms of the House of Lusignan.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_maison_fr_de_Lusignan.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

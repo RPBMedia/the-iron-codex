@@ -3,8 +3,9 @@
 import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
+import { loadArchive } from '../server/data/archive.mjs'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, '../server/data/history.json'), 'utf8'))
+const data = loadArchive()
 const ids = new Set(data.characters.map(c => c.id))
 
 const counts = new Map() // displayName -> [{ruler, side}]

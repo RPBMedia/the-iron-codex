@@ -1,0 +1,213 @@
+{
+  "id": "prince-lazar",
+  "type": "character",
+  "name": "Prince Lazar",
+  "aliases": [
+    "Lazar Hrebeljanovic"
+  ],
+  "born": 1329,
+  "died": 1389,
+  "deathAge": "about 60",
+  "restingPlace": "Ravanica Monastery",
+  "location": "Principality of Serbia",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Prince_Lazar_%28Ravanica_Monastery%29.jpg",
+  "summary": "Prince Lazar was a Serbian ruler and commander of the Balkan coalition at Kosovo in 1389.",
+  "details": "Prince Lazar was a Serbian ruler and commander of the Balkan coalition at Kosovo in 1389.",
+  "title": "Serbian prince",
+  "roles": [
+    "Serbian ruler",
+    "Commander at Kosovo"
+  ],
+  "birth": {
+    "date": "c. 1329",
+    "place": {
+      "name": "Prilepac, traditionally",
+      "slug": "prilepac"
+    },
+    "note": "Approximate date; Prilepac is a traditional association rather than a securely documented birthplace."
+  },
+  "death": {
+    "date": "1389",
+    "place": {
+      "name": "Kosovo Field",
+      "slug": "kosovo-field"
+    },
+    "event": {
+      "name": "Battle of Kosovo",
+      "type": "event",
+      "slug": "battle-of-kosovo"
+    },
+    "circumstance": "Killed or executed in connection with the Battle of Kosovo in 1389; later Serbian tradition made his death central to sacred kingship memory."
+  },
+  "quickFacts": {
+    "realm": "Principality of Serbia",
+    "culture": "Serbian",
+    "knownFor": "Battle of Kosovo and Serbian memory"
+  },
+  "imageInfo": {
+    "caption": "Prince Lazar in the founder's fresco of Ravanica Monastery, painted in the 1380s.",
+    "creator": "See source record",
+    "date": "1380s",
+    "source": "Wikimedia Commons",
+    "note": "A contemporary founder's portrait in the monastery he built; conventional, not a likeness."
+  },
+  "overview": [
+    "Prince Lazar was a Serbian ruler and commander of the Balkan coalition at Kosovo in 1389."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Prince Lazar was a Serbian ruler and commander of the Balkan coalition at Kosovo in 1389. His death in battle against Murad I became central to Serbian political and religious memory, though the battle’s immediate military result and later legendary meaning must be separated carefully."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Prince Lazar was born c. 1329, associated with Prilepac, traditionally. The early evidence is uneven, so precise details should be treated carefully.",
+        "His background belonged to the world of Principality of Serbia, where dynastic claims, military service, and aristocratic alliances shaped political careers."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Prince Lazar of Serbia is remembered through the prism of the Battle of Kosovo in 1389 and the vast tradition of epic poetry and Orthodox veneration that grew from it, which makes the historical man hard to separate from the martyr-hero. Serbian sources and later folk epic present him as a noble and pious ruler who chose a \"heavenly kingdom\" over an earthly one, accepting death in battle against the Ottomans rather than submission — a choice framed as conscious Christian martyrdom.",
+        "This portrait is shaped overwhelmingly by the cult that followed his death: the Serbian Orthodox Church canonised him, and the Kosovo epics turned him into the symbolic centre of Serbian national and religious identity. The qualities attributed to him — piety, honour, self-sacrifice — are those of a sacred hero as much as a documented individual.",
+        "The historical Lazar was a capable regional prince who united much of the fragmented Serbian lands and led the coalition that met the Ottomans at Kosovo, where he was captured and executed. But his remembered character belongs as much to legend and devotion as to record, and the honest approach is to present the martyr-hero of tradition while noting that it is tradition that gives him his vivid moral shape."
+      ]
+    },
+    {
+      "title": "As Serbian prince",
+      "paragraphs": [
+        "Lazar ruled in the fragmented Serbian lands after the earlier Serbian Empire’s decline. He built alliances among nobles and confronted Ottoman expansion into the Balkans.",
+        "Battle of Kosovo gives Prince Lazar's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed or executed in connection with the Battle of Kosovo in 1389; later Serbian tradition made his death central to sacred kingship memory."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Lazar became central to Serbian religious and national memory, where Kosovo was transformed into a powerful symbol of sacrifice and identity."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Ruled Moravian Serbia",
+      "description": "Lazar built authority in Moravian Serbia after the fragmentation of the Serbian Empire."
+    },
+    {
+      "title": "Led the coalition at Kosovo",
+      "description": "He led the Christian coalition remembered in the 1389 confrontation with Murad I."
+    },
+    {
+      "title": "Became central to Serbian historical memory",
+      "description": "His death at Kosovo became central to Serbian religious, literary, and national memory."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1329",
+      "title": "Born",
+      "description": "Born into the Serbian noble world."
+    },
+    {
+      "date": "1370s",
+      "title": "Builds regional power",
+      "description": "Emerges as a leading Serbian ruler."
+    },
+    {
+      "date": "1380s",
+      "title": "Opposes Ottoman pressure",
+      "description": "Forms alliances in the Balkans."
+    },
+    {
+      "date": "1389",
+      "title": "Fights at Kosovo",
+      "description": "Commands coalition forces.",
+      "links": [
+        {
+          "title": "Battle of Kosovo",
+          "type": "event",
+          "slug": "battle-of-kosovo"
+        }
+      ]
+    },
+    {
+      "date": "1389",
+      "title": "Dies",
+      "description": "Killed after the battle."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Died in this engagement"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Prilepac",
+        "type": "location",
+        "slug": "prilepac",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Principality of Serbia",
+        "type": "location",
+        "slug": "principality-of-serbia",
+        "label": "Realm"
+      },
+      {
+        "title": "Kosovo Field",
+        "type": "location",
+        "slug": "kosovo-field",
+        "label": "Place of death"
+      }
+    ],
+    "people": [
+      {
+        "title": "Princess Milica of Serbia",
+        "type": "person",
+        "slug": "milica-of-serbia",
+        "label": "Wife"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Prince Lazar",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lazar_Hrebeljanovic"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Prince_Lazar_(Ravanica_Monastery).jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Ruler of Moravian Serbia",
+    "predecessor": {
+      "status": "none",
+      "displayName": "None as ruler of Moravian Serbia",
+      "note": "Lazar built his principality from the fragments of the Nemanjić empire after Stefan Uroš V died without heir in 1371"
+    },
+    "successor": {
+      "personSlug": "stefan-lazarevic",
+      "displayName": "Stefan Lazarević",
+      "note": "His son, who ruled Serbia as despot after Kosovo."
+    }
+  }
+}

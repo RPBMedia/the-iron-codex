@@ -1,0 +1,195 @@
+{
+  "id": "house-of-blois",
+  "type": "house",
+  "name": "House of Blois",
+  "aliases": [
+    "House of Blois",
+    "Blois",
+    "de Blois",
+    "Blois dynasty"
+  ],
+  "originYear": 1135,
+  "endYear": 1154,
+  "reignSpan": "1135–1154 (England)",
+  "region": "Blois & Champagne; England",
+  "originPlace": "Blois, France",
+  "arms": "Fixed royal arms of England postdate Stephen’s reign; the counts of Blois-Champagne used various coats, not a settled royal shield.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Seal_of_King_Stephen_%28cropped%29_1.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The great seal of Stephen, King of England, enthroned with sword and orb — \"Stephanus Dei Gratia Rex Anglorum.\"",
+    "creator": "Royal chancery of England",
+    "date": "12th century (r. 1135–1154)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_King_Stephen_(cropped)_1.jpg",
+    "note": "A cast of Stephen’s contemporary great seal, the official image of his kingship."
+  },
+  "summary": "The comital house of Blois-Champagne that briefly held the English crown under Stephen, whose disputed reign plunged England into the civil war called the Anarchy.",
+  "overview": "Stephen of Blois, grandson of William the Conqueror through his mother Adela of Normandy, seized the English throne in 1135 ahead of Henry I’s designated heir, the Empress Matilda. The result was two decades of civil war, the Anarchy, ending when Stephen agreed to make Matilda’s son Henry of Anjou his heir — passing the crown to the House of Plantagenet in 1154.",
+  "founder": {
+    "personSlug": "stephen-of-england",
+    "displayName": "Stephen",
+    "note": "Count of Boulogne who took the English crown in 1135"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of England",
+      "type": "location",
+      "slug": "kingdom-of-england"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "stephen-of-england",
+      "displayName": "Stephen",
+      "note": "King of England, r. 1135–1154"
+    },
+    {
+      "displayName": "Henry of Blois",
+      "note": "His brother; powerful Bishop of Winchester and papal legate"
+    },
+    {
+      "displayName": "Eustace IV of Boulogne",
+      "note": "Stephen’s son and heir, who predeceased him in 1153"
+    }
+  ],
+  "familyTree": {
+    "caption": "Stephen’s descent from the Conqueror through his mother Adela, and his son Eustace who died before him. ⚭ marks a marriage.",
+    "root": {
+      "name": "Stephen-Henry, Count of Blois",
+      "note": "crusader lord",
+      "spouse": {
+        "name": "Adela of Normandy",
+        "note": "daughter of William the Conqueror",
+        "personSlug": "adela-of-normandy"
+      },
+      "children": [
+        {
+          "name": "Stephen",
+          "personSlug": "stephen-of-england",
+          "note": "King of England, 1135–1154",
+          "children": [
+            {
+              "name": "Eustace IV",
+              "note": "heir; died 1153"
+            }
+          ]
+        },
+        {
+          "name": "Henry of Blois",
+          "note": "Bishop of Winchester"
+        }
+      ],
+      "personSlug": "stephen-henry-count-of-blois"
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house sprang from the counts of Blois and Champagne, one of the greatest noble families of northern France. Stephen’s father, Count Stephen-Henry, was a leader of the First Crusade; his mother was Adela, a daughter of William the Conqueror, which gave Stephen a claim to the Anglo-Norman inheritance. Raised at the court of his uncle Henry I of England, Stephen was richly endowed and married the heiress of the county of Boulogne.",
+        "That combination — royal Norman blood, English and continental estates, and a powerful churchman brother — made Stephen one of the strongest men in the kingdom when Henry I died."
+      ]
+    },
+    {
+      "title": "The seizure of the crown and the Anarchy",
+      "paragraphs": [
+        "Henry I had made his barons swear to accept his daughter, the Empress Matilda, as his heir, but on his death in 1135 Stephen crossed swiftly to England and had himself crowned before Matilda could act. Many barons accepted him, but Matilda and her half-brother Robert of Gloucester pressed her claim, and by 1139 England was at war.",
+        "The struggle, remembered as the Anarchy, saw shifting fortunes: Stephen was captured at Lincoln in 1141 and briefly displaced, then restored; the chronicler’s phrase that \"Christ and his saints slept\" caught the lawlessness of a land fought over by rival garrisons for nearly twenty years."
+      ]
+    },
+    {
+      "title": "The Treaty of Wallingford and the end",
+      "paragraphs": [
+        "The deadlock broke when Matilda’s son Henry of Anjou invaded in 1153 and Stephen’s heir Eustace died. By the Treaty of Wallingford, Stephen kept the crown for his lifetime but recognised Henry as his successor, disinheriting his surviving son William.",
+        "Stephen died in 1154, and Henry succeeded as Henry II, the first king of the House of Plantagenet. The house of Blois thus held the English throne for a single, troubled generation, remembered chiefly for the civil war its disputed succession unleashed."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1135",
+      "title": "Stephen seizes the throne",
+      "description": "On Henry I’s death Stephen is crowned ahead of the Empress Matilda.",
+      "links": [
+        {
+          "title": "Stephen",
+          "type": "person",
+          "slug": "stephen-of-england"
+        }
+      ]
+    },
+    {
+      "date": "1141",
+      "title": "Captured at Lincoln",
+      "description": "Stephen is taken prisoner and briefly loses power before being restored."
+    },
+    {
+      "date": "1153",
+      "title": "Treaty of Wallingford",
+      "description": "Stephen recognises Henry of Anjou as heir, ending the Anarchy."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Stephen",
+        "type": "person",
+        "slug": "stephen-of-england",
+        "label": "The one Blois king of England"
+      },
+      {
+        "title": "Adela of Normandy",
+        "type": "person",
+        "slug": "adela-of-normandy",
+        "label": "Countess and regent of Blois"
+      },
+      {
+        "title": "Stephen-Henry, Count of Blois",
+        "type": "person",
+        "slug": "stephen-henry-count-of-blois",
+        "label": "Count of Blois, father of King Stephen"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Normandy",
+        "type": "house",
+        "slug": "house-of-normandy",
+        "label": "The line of his grandfather William the Conqueror"
+      },
+      {
+        "title": "House of Plantagenet",
+        "type": "house",
+        "slug": "house-of-plantagenet",
+        "label": "The Angevins who succeeded him under Henry II"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Stephen — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Stephen-king-of-England"
+    },
+    {
+      "title": "Stephen, King of England — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stephen,_King_of_England"
+    },
+    {
+      "title": "The Anarchy — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/The_Anarchy"
+    }
+  ]
+}

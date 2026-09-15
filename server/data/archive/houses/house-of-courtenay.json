@@ -1,0 +1,170 @@
+{
+  "id": "house-of-courtenay",
+  "type": "house",
+  "name": "House of Courtenay",
+  "aliases": [
+    "House of Courtenay",
+    "Courtenay",
+    "de Courtenay",
+    "Courtenay dynasty"
+  ],
+  "originYear": 1216,
+  "endYear": 1261,
+  "reignSpan": "1216–1261 (Latin Empire)",
+  "region": "France & the Latin Empire of Constantinople",
+  "originPlace": "Courtenay, in the Gâtinais",
+  "arms": "Or, three torteaux gules — the three red roundels of Courtenay.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%202%20of%20Courtenay.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Peter of Courtenay, Latin Emperor of Constantinople, on horseback — a 19th-century engraving after his medieval equestrian seal.",
+    "creator": "Engraving after his seal",
+    "date": "19th-century engraving (Peter d. c. 1219)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_2_of_Courtenay.jpg",
+    "note": "A later engraving reproducing Peter’s contemporary seal, the closest surviving image of the emperor."
+  },
+  "summary": "The French house, a Capetian cadet branch, that supplied the last emperors of the Latin Empire of Constantinople — Peter, Robert, and Baldwin II.",
+  "overview": "The Courtenays were lords of the Gâtinais whose male line married a grandson of Louis VI of France, making the house a cadet branch of the Capetians. Through marriage into the Latin imperial family, Peter of Courtenay became Latin Emperor of Constantinople in 1216, and his sons Robert and Baldwin II were the last to hold that fragile throne, which fell to the Byzantines in 1261.",
+  "founder": {
+    "displayName": "Peter I of Courtenay",
+    "note": "Youngest son of Louis VI of France; married the Courtenay heiress (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "peter-of-courtenay",
+      "displayName": "Peter of Courtenay",
+      "note": "Latin Emperor of Constantinople; captured on his way east"
+    },
+    {
+      "displayName": "Robert of Courtenay",
+      "note": "Peter’s son; Latin Emperor, 1221–1228"
+    },
+    {
+      "displayName": "Baldwin II",
+      "note": "The last Latin Emperor; lost Constantinople in 1261"
+    }
+  ],
+  "familyTree": {
+    "caption": "The imperial Courtenays: Peter and his sons Robert and Baldwin II, the last three Latin emperors of Constantinople; only Peter has a Codex article so far.",
+    "root": {
+      "name": "Peter of Courtenay",
+      "personSlug": "peter-of-courtenay",
+      "note": "Latin Emperor from 1216",
+      "children": [
+        {
+          "name": "Robert of Courtenay",
+          "note": "Latin Emperor, 1221–1228"
+        },
+        {
+          "name": "Baldwin II",
+          "note": "last Latin Emperor, lost the city in 1261"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house took its name from the lordship of Courtenay in the Gâtinais, south of Paris. Its decisive rise came when the heiress of Courtenay married Peter, a younger son of King Louis VI of France, so that the ruling line of the house descended from the Capetian kings — a royal cadet branch, though one without a great territorial base of its own. A separate branch of the family had earlier held the crusader county of Edessa in the East.",
+        "That combination of royal blood and crusading connection drew the Courtenays into the affairs of the Latin East created by the Fourth Crusade."
+      ]
+    },
+    {
+      "title": "Emperors of Constantinople",
+      "paragraphs": [
+        "When the Latin Empire of Constantinople, founded after the Fourth Crusade’s sack of the city in 1204, lost its emperors of the house of Flanders-Hainaut, the crown passed by marriage to Peter of Courtenay, who was elected emperor in 1216. Peter never reached his capital: crowned at Rome, he was captured in the Balkans by the ruler of Epirus while marching east, and died in captivity.",
+        "His widow and then his sons ruled at Constantinople. Robert of Courtenay presided over a shrinking, impoverished empire hemmed in by the Greek successor states, and the last emperor, Baldwin II, spent his reign pawning relics and touring Europe begging for aid."
+      ]
+    },
+    {
+      "title": "The fall of the Latin Empire",
+      "paragraphs": [
+        "In 1261 the Byzantines of Nicaea, under Michael VIII Palaiologos, retook Constantinople almost without a fight while its defenders were away, and Baldwin II fled to the West. The Latin Empire was extinguished after little more than half a century, and the Courtenay emperors and their heirs kept only an empty title.",
+        "The house is remembered as the last dynasty of that short-lived Latin state — a Capetian offshoot whose brush with an imperial crown ended in exile, even as the wider Courtenay family endured among the nobility of France and England."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1216",
+      "title": "Peter of Courtenay elected emperor",
+      "description": "The Latin imperial crown passes to the Courtenay line.",
+      "links": [
+        {
+          "title": "Peter of Courtenay",
+          "type": "person",
+          "slug": "peter-of-courtenay"
+        }
+      ]
+    },
+    {
+      "date": "1217",
+      "title": "Peter captured",
+      "description": "Marching to Constantinople, Peter is taken prisoner in the Balkans and dies in captivity."
+    },
+    {
+      "date": "1261",
+      "title": "Fall of the Latin Empire",
+      "description": "Michael VIII Palaiologos retakes Constantinople; Baldwin II, the last Courtenay emperor, flees."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Peter of Courtenay",
+        "type": "person",
+        "slug": "peter-of-courtenay",
+        "label": "Latin Emperor of Constantinople"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Flanders-Hainaut",
+        "type": "house",
+        "slug": "house-of-flanders-hainaut",
+        "label": "The Latin emperors before them"
+      },
+      {
+        "title": "House of Capet",
+        "type": "house",
+        "slug": "house-of-capet",
+        "label": "The royal house they branched from"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Latin Empire — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/place/Latin-Empire-of-Constantinople"
+    },
+    {
+      "title": "Peter II of Courtenay — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Peter_II_of_Courtenay"
+    },
+    {
+      "title": "House of Courtenay — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Courtenay"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason%20Courtenay.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of Courtenay — three red roundels (torteaux) on gold.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_Courtenay.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

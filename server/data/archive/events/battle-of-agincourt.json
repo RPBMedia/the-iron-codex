@@ -1,0 +1,214 @@
+{
+  "id": "battle-of-agincourt",
+  "type": "event",
+  "name": "Battle of Agincourt",
+  "year": 1415,
+  "location": "Agincourt, France",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
+  "summary": "Henry V's outnumbered English army defeated French forces at Agincourt in 1415 during the Hundred Years' War.",
+  "details": "Agincourt became famous for exhausted English troops, defensive preparation, longbowmen, mud, and the catastrophic compression of French men-at-arms. The victory strengthened Henry V’s diplomatic position and later became central to English royal memory.",
+  "eventType": "Battle",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Henry V",
+      "faction": "English army",
+      "personId": "henry-v-of-england"
+    },
+    {
+      "name": "Charles d'Albret",
+      "faction": "French army",
+      "personId": "charles-d-albret"
+    }
+  ],
+  "eventLocation": {
+    "name": "Agincourt",
+    "locationId": "agincourt"
+  },
+  "outcome": "English victory; tactically decisive, though not a final end to the Hundred Years' War.",
+  "background": [
+    "Henry V invaded France to press dynastic and territorial claims during the Hundred Years' War.",
+    "Disease, exhaustion, and a long march left the English army vulnerable before it was intercepted by a much larger French force."
+  ],
+  "battle": "French men-at-arms advanced through deep mud against prepared English positions. English archers and dismounted men-at-arms helped turn the terrain into a trap, causing heavy French losses.",
+  "aftermath": "The victory strengthened Henry V's diplomatic position and contributed to the Treaty of Troyes, but the wider war continued after his death.",
+  "conflict": "Hundred Years' War",
+  "imageInfo": {
+    "caption": "Battle of Agincourt in the St Albans Chronicle attributed to Thomas Walsingham.",
+    "creator": "Unknown manuscript artist",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "note": "A manuscript depiction close to the period, but stylized and not a literal battlefield record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Agincourt was fought on 25 October 1415 between the Kingdom of England under Henry V and a larger French army commanded by nobles including Charles d'Albret. The English won a striking tactical victory during the Hundred Years' War.",
+        "The battle mattered because it turned a vulnerable English retreat into a political triumph. It did not end the war, but it strengthened Henry V’s claim-making in France and became one of the most famous examples of terrain, discipline, and missile troops shaping medieval battle."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Henry V invaded France in 1415 to press dynastic and territorial claims. After the costly siege of Harfleur, disease and exhaustion weakened his army, and Henry attempted to march toward Calais through hostile territory.",
+        "French forces intercepted him near Agincourt. The French political world was divided by civil conflict, but noble military confidence remained high, especially against an English force that appeared tired, hungry, and trapped."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "The English army was relatively small and included many longbowmen protected by stakes, with men-at-arms fighting largely on foot. Its exact size is debated, but it was almost certainly smaller than the French host.",
+        "The French army included large numbers of noble men-at-arms, with cavalry, infantry, and crossbowmen present but not used to best effect. Medieval and early modern casualty figures are often exaggerated, yet the loss of elite French nobles was severe."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The battlefield was narrowed by woods and made difficult by wet, churned ground. English archers advanced, planted stakes, and provoked the French attack. As French men-at-arms moved through mud under arrow fire, they became compressed and exhausted before reaching the English line.",
+        "The main French assault lost cohesion in the press of bodies, armor, mud, and missile fire. English archers joined the close fighting with sidearms once the French formation stalled. Later French attacks failed to restore the situation, and Henry ordered the killing of many prisoners during a moment of perceived danger."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "French losses among the nobility were devastating, while English casualties were comparatively light, though exact numbers remain uncertain. The victory allowed Henry V to return to England with enormous prestige.",
+        "Agincourt helped create the diplomatic and military momentum that led to the Treaty of Troyes in 1420, though the English position in France eventually unraveled after Henry’s death."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Agincourt matters as a study in terrain, morale, tactical preparation, and the vulnerability of aristocratic heavy infantry under poor battlefield conditions. It also became a powerful piece of English political mythology.",
+        "The battle’s fame should not obscure the wider Hundred Years' War: Agincourt was a dramatic victory, not a permanent English conquest of France."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Internet Archive: Gesta Henrici Quinti",
+      "author": "Internet Archive",
+      "type": "primary source",
+      "url": "https://archive.org/details/gestahenriciquin00tituoft"
+    },
+    {
+      "title": "Project Gutenberg: Chronicles of Enguerrand de Monstrelet",
+      "author": "Project Gutenberg",
+      "type": "primary source",
+      "url": "https://www.gutenberg.org/ebooks/50839"
+    },
+    {
+      "title": "St Albans Chronicle Agincourt miniature",
+      "author": "Wikimedia Commons",
+      "type": "manuscript image",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Agincourt,_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Agincourt",
+        "type": "location",
+        "slug": "agincourt",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
+      }
+    ],
+    "people": [
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "Charles d'Albret",
+        "type": "person",
+        "slug": "charles-d-albret",
+        "label": "Commander"
+      }
+    ],
+    "events": [
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Wider conflict"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry V",
+          "title": "Henry V",
+          "type": "person",
+          "slug": "henry-v-of-england"
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–9,000",
+        "confidence": "estimated",
+        "note": "Depleted and exhausted after the siege of Harfleur and a long march.",
+        "min": 6000,
+        "max": 9000
+      }
+    },
+    {
+      "side": "French army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Charles d'Albret",
+          "title": "Charles d'Albret",
+          "type": "person",
+          "slug": "charles-d-albret"
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000–25,000",
+        "confidence": "debated",
+        "note": "Modern estimates vary widely; medieval accounts exaggerate the French advantage, but the English were significantly outnumbered.",
+        "min": 12000,
+        "max": 25000
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue Henry V's campaign",
+    "battleSlug": "siege-of-rouen",
+    "relationship": "same-campaign",
+    "reason": "Agincourt made Henry V's reputation, but the conquest came on his return in 1417: the six-month siege of Rouen starved Normandy's capital into surrender and led directly to the Treaty of Troyes, which made him heir to France."
+  }
+}

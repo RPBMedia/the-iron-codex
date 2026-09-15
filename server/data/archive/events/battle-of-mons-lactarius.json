@@ -1,0 +1,179 @@
+{
+  "id": "battle-of-mons-lactarius",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Mons Lactarius",
+  "year": 553,
+  "location": "Mons Lactarius, near Vesuvius",
+  "eventLocation": "The slopes of Mons Lactarius, near Mount Vesuvius",
+  "conflict": "Gothic War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gothic%20Battle%20of%20Mons%20Lactarius%20on%20Vesuvius.jpg",
+  "imageInfo": {
+    "caption": "A later depiction of the battle of Mons Lactarius, where the last Ostrogothic army was destroyed on the slopes below Vesuvius.",
+    "creator": "Unknown; later depiction",
+    "date": "later imagining, not contemporary",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gothic_Battle_of_Mons_Lactarius_on_Vesuvius.jpg",
+    "note": "Not a contemporary image. No depiction of the battle survives from the period, and this is a later artist's conception based on Procopius's narrative. Public domain."
+  },
+  "summary": "At Mons Lactarius in 553, Narses destroyed the last Ostrogothic army and Teias was killed, ending the kingdom.",
+  "details": "The Goths fought for two days on the mountain slopes, then negotiated terms to leave Italy rather than surrender unconditionally.",
+  "outcome": "Byzantine victory; Teias killed and the Ostrogothic kingdom ended.",
+  "background": "After Taginae the surviving Goths elected Teias and withdrew into Campania, where Narses cut them off from supply.",
+  "battle": "The Goths, trapped and starving, attacked downhill. Teias was killed on the first day and the fighting continued into a second.",
+  "aftermath": "The survivors agreed to leave Italy with their property on condition they never again made war on the empire.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Mons Lactarius was fought in 553 on the slopes near Vesuvius, and it is where the Ostrogothic kingdom ended.",
+        "The Goths under Teias had withdrawn south after Taginae and were cut off from supply on the mountain, and the battle was fought by an army that had nothing left to do but fight.",
+        "It lasted two days, Teias was killed on the first, and the survivors negotiated their way out of Italy rather than being destroyed."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After Totila's death the surviving Goths elected Teias and moved into Campania, both to secure the royal treasure at Cumae and to link up with a promised Frankish intervention that never came.",
+        "Narses followed and manoeuvred them onto the high ground, then blocked their supply route.",
+        "Starvation rather than assault decided the position: the Goths could stay and starve or come down and fight."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "They came down, and the fighting was infantry work on broken slopes with no room for manoeuvre — the Goths on foot, having lost or eaten their horses.",
+        "Procopius gives Teias a set-piece death: fighting in the front rank, holding his shield until it was so heavy with embedded spears that he called for a fresh one, and being struck down in the moment of the exchange.",
+        "The Goths fought on through a second day after he was killed, then sent to Narses for terms."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The terms were unusually generous. The surviving Goths were permitted to leave Italy with their movable property, on the undertaking that they would never again make war on the empire.",
+        "Narses accepted rather than pressing for annihilation, which was pragmatic: he still faced Frankish and Alemannic invasions and Gothic garrisons holding out in the north.",
+        "The Ostrogothic kingdom, founded by Theodoric sixty years earlier, ceased to exist."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It is the end of Gothic Italy, and with it the end of the most successful of the post-Roman successor states.",
+        "It also completes the reconquest — and completes the demonstration of what the reconquest cost. Italy was depopulated and impoverished, and within fifteen years the Lombards took much of it with little resistance.",
+        "Procopius closes his account of the war here, and the literary care he gives Teias's death is a measure of what he thought had ended."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Narses",
+          "title": "Narses",
+          "type": "person",
+          "slug": "narses"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the field army that had won at Taginae",
+        "confidence": "estimated",
+        "note": "No separate figure survives for this engagement; Narses had detached forces to garrison Rome and screen the north."
+      }
+    },
+    {
+      "side": "Ostrogothic army",
+      "factions": [
+        {
+          "name": "Ostrogothic Kingdom",
+          "title": "Ostrogothic Kingdom",
+          "type": "location",
+          "slug": "ostrogothic-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Teias",
+          "title": "Teias",
+          "type": "person",
+          "slug": "teias"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the remnant after Taginae",
+        "confidence": "debated",
+        "note": "No figures survive. The force was the surviving Gothic army after Taginae, fighting on foot and cut off from supply."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Where the eastern empire's military system eventually failed",
+    "battleSlug": "battle-of-manzikert",
+    "relationship": "same-factions",
+    "reason": "Mons Lactarius completes Justinian's reconquest, won by professional armies operating far from home; at Manzikert in 1071 that system finally broke, and the empire lost Anatolia, the recruiting ground the whole model had depended on."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Teias",
+        "type": "person",
+        "slug": "teias",
+        "label": "Killed here; the last Gothic king"
+      },
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "Commanded the Byzantine army"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it ended"
+      },
+      {
+        "title": "Battle of Taginae",
+        "type": "event",
+        "slug": "battle-of-taginae",
+        "label": "The battle that preceded it"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm that ended with it"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Procopius, History of the Wars",
+      "url": "https://www.gutenberg.org/ebooks/16764",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Mons Lactarius",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Mons_Lactarius",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Depiction of the battle",
+      "url": "https://commons.wikimedia.org/wiki/File:Gothic_Battle_of_Mons_Lactarius_on_Vesuvius.jpg",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

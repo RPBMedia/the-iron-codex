@@ -1,0 +1,157 @@
+{
+  "id": "robert-de-craon",
+  "type": "character",
+  "name": "Robert de Craon",
+  "aliases": [
+    "Robert de Craon",
+    "Robert the Burgundian",
+    "Robert of Craon"
+  ],
+  "born": null,
+  "died": 1149,
+  "deathAge": "unknown",
+  "causeOfDeath": "Robert died in 1149, having led the Templars for over a decade.",
+  "restingPlace": "Unknown",
+  "location": "Kingdom of Jerusalem",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Blason_Robert_de_Craon.svg",
+  "title": "second Grand Master of the Knights Templar",
+  "roles": [
+    "Grand Master of the Knights Templar"
+  ],
+  "birth": {
+    "date": "unknown",
+    "place": null
+  },
+  "death": {
+    "date": "13 January 1149",
+    "place": null,
+    "circumstance": "Died as Grand Master of the Temple."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Jerusalem",
+    "dynasty": "Knights Templar",
+    "culture": "Latin Christian (Crusader)",
+    "knownFor": "Won the Templars their great papal privileges"
+  },
+  "imageInfo": {
+    "caption": "Arms attributed to Robert de Craon, second Grand Master of the Temple.",
+    "creator": "Heraldic reconstruction",
+    "date": "attributed arms",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_Robert_de_Craon.svg",
+    "note": "Attributed arms; no likeness of Robert de Craon survives."
+  },
+  "overview": [
+    "Robert de Craon was the second Grand Master of the Knights Templar, the shrewd organiser who turned Hugh de Payns’ small brotherhood into a wealthy, privileged, and independent order.",
+    "His great achievement was the papal bull Omne Datum Optimum of 1139, which freed the Templars from all authority but the pope’s."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Robert de Craon (Grand Master 1136–1149) succeeded the founder Hugh de Payns and, through skilful management and diplomacy, secured the privileges and endowments that made the Templars a great institution."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "A nobleman of western France — from Craon in Anjou, and sometimes called Robert the Burgundian — he gave up a planned marriage to join the Templars, and rose to lead the order on the death of Hugh de Payns in 1136."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Where Hugh de Payns had been the pious founder, Robert de Craon was the builder — an able administrator and canny politician rather than a warrior-saint. His gift was for organisation and for winning friends in high places.",
+        "His decisive success came in Rome. In 1139 he obtained from Pope Innocent II the bull Omne Datum Optimum, which placed the Templars directly under papal protection, exempted them from tithes and from the authority of local bishops, and allowed them their own priests. At a stroke it made the order independent, wealthy, and answerable to no one but the pope.",
+        "Craon thus did as much as anyone to shape what the Templars became. Later generations would find that this very independence made powerful enemies — but in his own day it was the foundation of the order’s extraordinary rise."
+      ]
+    },
+    {
+      "title": "Builder of the order",
+      "paragraphs": [
+        "Under Craon the Templars expanded rapidly across Europe, accumulating estates and recruits and organising the provinces that would fund the war in the East. The papal privileges he won were confirmed and extended by later popes.",
+        "He also led the order through the difficult years of the Second Crusade, when the Templars provided crucial discipline and credit to the struggling army of Louis VII of France."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Robert de Craon died in January 1149, leaving the Templars far stronger and better endowed than he had found them."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Craon is remembered as the organiser who made the Templars a great power — the master who won them their independence and set them on the path to wealth and influence.",
+        "The privileges he secured in 1139 defined the order’s standing in the Church for the rest of its existence."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1136",
+      "title": "Succeeds Hugh de Payns",
+      "description": "Becomes the second Grand Master of the Temple on the founder’s death."
+    },
+    {
+      "date": "1139",
+      "title": "Omne Datum Optimum",
+      "description": "Wins the papal bull that frees the order from all authority but the pope’s."
+    },
+    {
+      "date": "1140s",
+      "title": "Expansion across Europe",
+      "description": "The order accumulates estates, recruits, and provinces under his management."
+    },
+    {
+      "date": "1147–1148",
+      "title": "The Second Crusade",
+      "description": "The Templars lend discipline and credit to the crusade of Louis VII."
+    },
+    {
+      "date": "1149",
+      "title": "Death",
+      "description": "Craon dies, leaving a far wealthier and stronger order."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Hugh de Payns",
+        "type": "person",
+        "slug": "hugh-de-payns"
+      },
+      {
+        "title": "Bernard of Clairvaux",
+        "type": "person",
+        "slug": "bernard-of-clairvaux"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The New Knighthood: A History of the Order of the Temple",
+      "author": "Malcolm Barber",
+      "type": "book"
+    },
+    {
+      "title": "The Templars (survey histories)",
+      "author": "various",
+      "type": "book"
+    }
+  ]
+}

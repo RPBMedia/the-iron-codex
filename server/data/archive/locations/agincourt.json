@@ -1,0 +1,101 @@
+{
+  "id": "agincourt",
+  "type": "location",
+  "locationType": "Town",
+  "kingdom": "Kingdom of France",
+  "name": "Agincourt",
+  "year": 1200,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Battle_of_Agincourt%2C_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
+  "summary": "A northern French village near the battlefield of Henry V's famous victory.",
+  "overview": [
+    "Agincourt was a small settlement in northern France whose surrounding fields became famous during the Hundred Years' War.",
+    "The muddy terrain and narrow battlefield shaped the English victory over French forces in 1415."
+  ],
+  "knownFor": [
+    "Battle of Agincourt in 1415",
+    "Hundred Years' War memory",
+    "English longbowmen and muddy battlefield conditions"
+  ],
+  "imageInfo": {
+    "caption": "Battle of Agincourt in the St Albans Chronicle.",
+    "creator": "Unknown manuscript artist",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "note": "A manuscript depiction close to the period, but stylized and not a literal battlefield record.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Agincourt%2C_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Agincourt (Azincourt) in northern France was the site of the Battle of Agincourt on 25 October 1415, where Henry V of England defeated a much larger French force commanded by Charles d'Albret during the Hundred Years' War.",
+        "The battle became one of the defining military events of the fifteenth century and shaped English memory of the war."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Henry V's army was exhausted, depleted by dysentery, and outnumbered when the battle began. The French cavalry advance across muddy terrain into concentrated English archery created catastrophic losses among the French nobility. Thousands of French prisoners were killed during the battle.",
+        "The French dead included Charles d'Albret and many of France's leading nobles. Henry's victory led to the Treaty of Troyes in 1420, which recognized him as heir to the French throne, though the agreement collapsed after his death in 1422."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Agincourt%2C_St._Alban's_Chronicle_by_Thomas_Walsingham.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Battle of Agincourt",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Battle-of-Agincourt"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "Battle fought here"
+      }
+    ],
+    "people": [
+      {
+        "title": "Charles d'Albret",
+        "type": "person",
+        "slug": "charles-d-albret",
+        "label": "Death of Charles d'Albret"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Fought here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant here"
+      }
+    ]
+  }
+}

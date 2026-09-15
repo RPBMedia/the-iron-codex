@@ -1,0 +1,189 @@
+{
+  "id": "house-of-toulouse",
+  "type": "house",
+  "name": "House of Toulouse",
+  "aliases": [
+    "Raymondines",
+    "House of Saint-Gilles",
+    "Toulouse",
+    "Counts of Toulouse"
+  ],
+  "originYear": 1096,
+  "endYear": 1187,
+  "reignSpan": "1096–1187 (crusader Tripoli)",
+  "region": "Toulouse & the County of Tripoli",
+  "originPlace": "Toulouse, Languedoc",
+  "arms": "A pierced, twelve-pointed gold cross on red — the “cross of Toulouse” (the Occitan cross).",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond%20IV%20of%20Toulouse%20(Cropped).jpg?width=1000",
+  "imageInfo": {
+    "caption": "Raymond IV of Toulouse, one of the principal leaders of the First Crusade and founder of the County of Tripoli.",
+    "creator": "Later depiction",
+    "date": "Later image (Raymond IV d. 1105)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raymond_IV_of_Toulouse_(Cropped).jpg",
+    "note": "A later image of the crusader count Raymond IV of Saint-Gilles."
+  },
+  "summary": "The counts of Toulouse, First Crusade leaders whose branch founded and ruled the County of Tripoli.",
+  "overview": "The House of Toulouse, one of the greatest feudal families of southern France, joined the First Crusade under Raymond IV of Saint-Gilles. Though Raymond never gained the crown he sought, his family founded the County of Tripoli, the last of the four great Crusader states, which his descendants ruled for the twelfth century.",
+  "founder": {
+    "personSlug": "raymond-iv-of-toulouse",
+    "displayName": "Raymond IV of Toulouse",
+    "note": "First Crusade leader; founder of the Tripoli line"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "raymond-iv-of-toulouse",
+      "displayName": "Raymond IV",
+      "note": "Led the First Crusade; began the conquest of Tripoli"
+    },
+    {
+      "personSlug": "raymond-ii-of-tripoli",
+      "displayName": "Raymond II",
+      "note": "Count of Tripoli"
+    },
+    {
+      "personSlug": "raymond-iii-of-tripoli",
+      "displayName": "Raymond III",
+      "note": "Regent of Jerusalem; counselled against the Hattin campaign"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Toulouse line in the East: Raymond IV of Saint-Gilles and his descendants, the counts of Tripoli, through Raymond II and Raymond III.",
+    "root": {
+      "name": "Raymond IV of Toulouse",
+      "personSlug": "raymond-iv-of-toulouse",
+      "note": "Count of Toulouse; d. 1105",
+      "children": [
+        {
+          "name": "the counts of Tripoli",
+          "note": "Bertrand, Pons, and their successors",
+          "children": [
+            {
+              "name": "Raymond II",
+              "personSlug": "raymond-ii-of-tripoli",
+              "note": "Count of Tripoli, d. 1152",
+              "children": [
+                {
+                  "name": "Raymond III",
+                  "personSlug": "raymond-iii-of-tripoli",
+                  "note": "Count of Tripoli; regent of Jerusalem, d. 1187"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The counts of Toulouse ruled a vast territory in Languedoc and were among the most powerful lords of southern France. Raymond IV, called Raymond of Saint-Gilles, was the wealthiest and most senior of the leaders of the First Crusade in 1096, and expected to take a leading role in the conquered Holy Land.",
+        "Passed over for the crown of Jerusalem, he turned instead to the Syrian coast, beginning the siege of Tripoli that his family would complete."
+      ]
+    },
+    {
+      "title": "The County of Tripoli",
+      "paragraphs": [
+        "Raymond IV died in 1105 before Tripoli fell, but his relatives finished the conquest in 1109, founding the County of Tripoli — the last of the four crusader states. His descendants ruled it as a fief loosely tied to the Kingdom of Jerusalem.",
+        "The most notable was Raymond III, a shrewd and experienced statesman who served as regent of Jerusalem and warned, in vain, against the reckless campaign that ended at Hattin in 1187."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Toulouse line gave the crusader world one of its founding leaders and one of its most durable states. Raymond III’s death in the aftermath of Hattin effectively ended the direct line’s rule in the East, and Tripoli passed to the counts of Antioch.",
+        "In France, the counts of Toulouse remained a great power until the Albigensian Crusade of the thirteenth century broke their independence and drew Languedoc into the French crown."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1096",
+      "title": "Raymond IV joins the crusade",
+      "description": "The senior leader of the First Crusade sets out.",
+      "links": [
+        {
+          "title": "Raymond IV",
+          "type": "person",
+          "slug": "raymond-iv-of-toulouse"
+        }
+      ]
+    },
+    {
+      "date": "1109",
+      "title": "Fall of Tripoli",
+      "description": "The Toulouse family completes the county’s conquest."
+    },
+    {
+      "date": "1187",
+      "title": "Death of Raymond III",
+      "description": "The last great count of the line dies after Hattin.",
+      "links": [
+        {
+          "title": "Raymond III",
+          "type": "person",
+          "slug": "raymond-iii-of-tripoli"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Raymond IV",
+        "type": "person",
+        "slug": "raymond-iv-of-toulouse",
+        "label": "First Crusade leader"
+      },
+      {
+        "title": "Raymond II",
+        "type": "person",
+        "slug": "raymond-ii-of-tripoli",
+        "label": "Count of Tripoli"
+      },
+      {
+        "title": "Raymond III",
+        "type": "person",
+        "slug": "raymond-iii-of-tripoli",
+        "label": "Regent of Jerusalem"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Boulogne",
+        "type": "house",
+        "slug": "house-of-boulogne",
+        "label": "Fellow founders of the crusader states"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Raymond IV — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Raymond-IV"
+    },
+    {
+      "title": "County of Tripoli — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/County_of_Tripoli"
+    },
+    {
+      "title": "Raymond III of Tripoli — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason%20Languedoc.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The cross of Toulouse — the voided, pommetted gold cross on red used by the counts of Toulouse.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_Languedoc.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

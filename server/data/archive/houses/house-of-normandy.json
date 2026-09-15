@@ -1,0 +1,348 @@
+{
+  "id": "house-of-normandy",
+  "type": "house",
+  "name": "House of Normandy",
+  "aliases": [
+    "Norman dynasty",
+    "House of Rollo",
+    "Normans"
+  ],
+  "originYear": 1066,
+  "endYear": 1154,
+  "reignSpan": "1066–1154",
+  "region": "England & Normandy",
+  "originPlace": "Normandy",
+  "arms": "Two gold lions on a red field — the arms of the dukes of Normandy.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20William%20the%20Conquerer.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Statue of William the Conqueror at Falaise, his birthplace, surrounded by the dukes of Normandy.",
+    "creator": "Louis Rochet (19th-century equestrian monument)",
+    "date": "1851",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_William_the_Conquerer.jpg",
+    "note": "A 19th-century monument, not a contemporary likeness; it commemorates the dynasty’s founder in the town where he was born."
+  },
+  "summary": "The dynasty of Rollo’s heirs that conquered England in 1066 and ruled a cross-Channel Anglo-Norman realm until the civil war known as the Anarchy.",
+  "overview": "The House of Normandy descended from the Viking leader Rollo, who was granted the lands around the lower Seine in 911. Its dukes turned that grant into a formidable principality, and in 1066 Duke William II conquered England. For nearly a century the Norman kings ruled England and Normandy together, until the disputed succession after Henry I plunged the realm into the Anarchy.",
+  "founder": {
+    "personSlug": "william-the-conqueror",
+    "displayName": "William the Conqueror",
+    "note": "Duke of Normandy; conquered England in 1066"
+  },
+  "seats": [
+    {
+      "name": "Duchy of Normandy",
+      "type": "location",
+      "slug": "duchy-of-normandy"
+    },
+    {
+      "name": "Kingdom of England",
+      "type": "location",
+      "slug": "kingdom-of-england"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "william-the-conqueror",
+      "displayName": "William the Conqueror",
+      "note": "Founder; won England at Hastings in 1066"
+    },
+    {
+      "personSlug": "william-ii-of-england",
+      "displayName": "William II Rufus",
+      "note": "Second Norman king; died in the New Forest in 1100"
+    },
+    {
+      "personSlug": "henry-i-of-england",
+      "displayName": "Henry I",
+      "note": "Reunited England and Normandy; reformed royal administration"
+    },
+    {
+      "personSlug": "stephen-of-england",
+      "displayName": "Stephen",
+      "note": "Last Norman-line king; his reign was the civil war of the Anarchy"
+    }
+  ],
+  "cadetBranches": [
+    {
+      "name": "House of Blois",
+      "note": "Stephen came from the counts of Blois through his father, but claimed England through his mother Adela, daughter of William I."
+    }
+  ],
+  "familyTree": {
+    "caption": "The Norman kings of England from William the Conqueror to the disputed succession that passed the crown, through Empress Matilda, to the House of Plantagenet. Rollo and the earlier dukes are described in the text; ⚭ marks a marriage.",
+    "root": {
+      "name": "William the Conqueror",
+      "personSlug": "william-the-conqueror",
+      "note": "Duke of Normandy; r. England 1066–1087",
+      "spouse": {
+        "name": "Matilda of Flanders",
+        "personSlug": "matilda-of-flanders"
+      },
+      "children": [
+        {
+          "name": "Robert Curthose",
+          "note": "Duke of Normandy, d. 1134"
+        },
+        {
+          "name": "William II Rufus",
+          "personSlug": "william-ii-of-england",
+          "note": "r. 1087–1100, no issue"
+        },
+        {
+          "name": "Henry I",
+          "personSlug": "henry-i-of-england",
+          "note": "r. 1100–1135",
+          "spouse": {
+            "name": "Matilda of Scotland",
+            "personSlug": "matilda-of-scotland"
+          },
+          "children": [
+            {
+              "name": "William Adelin",
+              "note": "Heir; drowned in the White Ship, 1120"
+            },
+            {
+              "name": "Empress Matilda",
+              "personSlug": "empress-matilda",
+              "note": "Designated heir",
+              "spouse": {
+                "name": "Geoffrey of Anjou",
+                "personSlug": "geoffrey-of-anjou"
+              },
+              "branch": "→ House of Plantagenet"
+            }
+          ]
+        },
+        {
+          "name": "Adela of Normandy",
+          "note": "Daughter of William I",
+          "spouse": {
+            "name": "Stephen, Count of Blois",
+            "personSlug": "stephen-henry-count-of-blois"
+          },
+          "children": [
+            {
+              "name": "Stephen",
+              "personSlug": "stephen-of-england",
+              "note": "r. 1135–1154",
+              "spouse": {
+                "name": "Matilda of Boulogne",
+                "personSlug": "matilda-of-boulogne"
+              },
+              "branch": "House of Blois"
+            }
+          ],
+          "personSlug": "adela-of-normandy"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty began with Rollo, a Viking leader who, by the treaty traditionally dated to 911 at Saint-Clair-sur-Epte, received the lands around Rouen from the West Frankish king Charles the Simple in exchange for defending the Seine and accepting baptism. His descendants — William Long-Sword, Richard I, and Richard II — expanded and consolidated the territory that became the Duchy of Normandy.",
+        "Within a few generations the Northmen had become Normans: French-speaking, Christian, and organised around a powerful duke, castles, and a martial aristocracy. That combination of Scandinavian aggression and Frankish institutions made Normandy one of the most effective principalities in eleventh-century Europe."
+      ]
+    },
+    {
+      "title": "The conquest of England",
+      "paragraphs": [
+        "William, an illegitimate son of Duke Robert I, survived a violent minority to master Normandy. When Edward the Confessor died childless in 1066, William claimed the English throne against Harold Godwinson. He crossed the Channel, and at the Battle of Hastings on 14 October 1066 Harold was killed and the English army destroyed.",
+        "The Norman Conquest replaced the English ruling class with a Norman aristocracy, introduced a network of castles, and produced the Domesday survey of 1086. William held England and Normandy together, ruling a cross-Channel realm whose politics would shape both countries for centuries."
+      ]
+    },
+    {
+      "title": "The Norman kings",
+      "paragraphs": [
+        "William was succeeded in England by his son William II Rufus, a forceful and irreligious king killed by an arrow in the New Forest in 1100. His younger brother Henry I seized the throne, defeated their eldest brother Robert Curthose at Tinchebrai in 1106, and reunited England and Normandy.",
+        "Henry I was a formidable administrator who developed the Exchequer and royal justice. But the drowning of his only legitimate son, William Adelin, in the wreck of the White Ship in 1120 left him without a male heir and set the stage for a succession crisis."
+      ]
+    },
+    {
+      "title": "The Anarchy and the end of the line",
+      "paragraphs": [
+        "Henry I named his daughter, the Empress Matilda, as his heir and had his barons swear to accept her. On his death in 1135 his nephew Stephen of Blois seized the crown instead, and the rival claims plunged England into nearly two decades of civil war known as the Anarchy.",
+        "Neither side could win outright. The Treaty of Wallingford in 1153 recognised Stephen as king for life but made Matilda’s son, Henry of Anjou, his heir. When Stephen died in 1154, the throne passed to Henry II, and with him the House of Plantagenet, closing the Norman royal line in England."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Norman dynasty bound England to continental Europe and remade its ruling culture. It imposed a French-speaking aristocracy and a feudal tenurial system, covered the country in motte-and-bailey and stone castles, rebuilt cathedrals and abbeys in the Romanesque style, and left the Domesday Book as an unrivalled record of the conquered land.",
+        "The Anglo-Norman realm the dynasty created — an English kingdom whose kings were also great French princes — outlived the house itself and defined the political geography that the Plantagenets inherited, including the long entanglement with France that would culminate in the Hundred Years’ War."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "911",
+      "title": "Rollo granted Normandy",
+      "description": "The treaty of Saint-Clair-sur-Epte gives Rollo the lands around Rouen."
+    },
+    {
+      "date": "1035",
+      "title": "William becomes duke",
+      "description": "The young William inherits Normandy and survives a turbulent minority."
+    },
+    {
+      "date": "1066",
+      "title": "Conquest of England",
+      "description": "William wins the throne at Hastings and is crowned on Christmas Day.",
+      "links": [
+        {
+          "title": "Battle of Hastings",
+          "type": "event",
+          "slug": "battle-of-hastings"
+        },
+        {
+          "title": "Norman Conquest",
+          "type": "event",
+          "slug": "norman-conquest"
+        }
+      ]
+    },
+    {
+      "date": "1087",
+      "title": "William II Rufus",
+      "description": "William’s son succeeds him as king of England.",
+      "links": [
+        {
+          "title": "William II Rufus",
+          "type": "person",
+          "slug": "william-ii-of-england"
+        }
+      ]
+    },
+    {
+      "date": "1100",
+      "title": "Henry I seizes the throne",
+      "description": "Henry takes the crown after Rufus dies in the New Forest.",
+      "links": [
+        {
+          "title": "Henry I",
+          "type": "person",
+          "slug": "henry-i-of-england"
+        }
+      ]
+    },
+    {
+      "date": "1120",
+      "title": "The White Ship disaster",
+      "description": "Henry’s heir William Adelin drowns, triggering a succession crisis."
+    },
+    {
+      "date": "1135",
+      "title": "The Anarchy begins",
+      "description": "Stephen seizes the throne against the Empress Matilda’s claim.",
+      "links": [
+        {
+          "title": "Stephen",
+          "type": "person",
+          "slug": "stephen-of-england"
+        }
+      ]
+    },
+    {
+      "date": "1154",
+      "title": "Plantagenet succession",
+      "description": "Stephen’s death passes the crown to Henry II, ending the Norman line."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Founder of the dynasty"
+      },
+      {
+        "title": "Henry I",
+        "type": "person",
+        "slug": "henry-i-of-england",
+        "label": "Reunited England and Normandy"
+      },
+      {
+        "title": "William II Rufus",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "Second Norman king"
+      },
+      {
+        "title": "Stephen",
+        "type": "person",
+        "slug": "stephen-of-england",
+        "label": "Last of the line; the Anarchy"
+      },
+      {
+        "title": "Empress Matilda",
+        "type": "person",
+        "slug": "empress-matilda",
+        "label": "Heir whose son founded the Plantagenets"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings",
+        "label": "Won the English crown, 1066"
+      },
+      {
+        "title": "Norman Conquest",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "The dynasty’s defining achievement"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Cleared the way weeks before Hastings"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Ancestral duchy"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Conquered realm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "House of Normandy — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Normandy"
+    },
+    {
+      "title": "Norman Conquest — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Norman-Conquest"
+    },
+    {
+      "title": "The Normans (BBC History)",
+      "author": "BBC History",
+      "type": "reference",
+      "url": "https://www.bbc.co.uk/history/british/normans/"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Arms%20of%20William%20the%20Conqueror%20(1066-1087).svg?width=700",
+  "armsImageInfo": {
+    "caption": "The two gold lions of Normandy, in the arms attributed to William the Conqueror.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arms_of_William_the_Conqueror_(1066-1087).svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

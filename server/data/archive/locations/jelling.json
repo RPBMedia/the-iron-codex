@@ -1,0 +1,92 @@
+{
+  "type": "location",
+  "locationType": "Town / royal monument site",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Gorm the Old",
+    "Harald Bluetooth",
+    "Jelling stones"
+  ],
+  "overview": [
+    "Jelling stones and royal monuments associated with Gorm the Old and Harald Bluetooth."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Jelling in central Jutland was one of the most important royal sites in Viking Age Denmark. The Jelling stones — two large runestones erected by Gorm the Old and Harald Bluetooth — are among the most significant monuments of Scandinavian early medieval history.",
+        "Harald Bluetooth's larger stone, raised around 965, declares the Christianization of Denmark and is often called \"Denmark's birth certificate.\""
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Jelling complex includes two burial mounds, a church, and the two runestones. Gorm the Old's mound and Harald's monument together mark the transition from pagan Norse kingship to Christian Danish kingship. The site is a UNESCO World Heritage Site and remains the primary archaeological expression of early Danish royal identity."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Jelling",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jellingstenene_2011.jpg"
+    },
+    {
+      "title": "Jelling reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Jelling"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Gorm the Old",
+        "type": "person",
+        "slug": "gorm-the-old",
+        "label": "Death of Gorm the Old"
+      },
+      {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth"
+      },
+      {
+        "title": "Thyra",
+        "type": "person",
+        "slug": "thyra",
+        "label": "Queen commemorated at Jelling"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Jelling Stones",
+        "type": "artifact",
+        "slug": "jelling-stones"
+      }
+    ]
+  },
+  "id": "jelling",
+  "name": "Jelling",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Runensteine_Gorm_Blauzahn.jpg",
+  "summary": "Jelling stones and royal monuments associated with Gorm the Old and Harald Bluetooth.",
+  "imageInfo": {
+    "caption": "The Jelling stones in Denmark, raised by Gorm the Old and Harald Bluetooth — monuments of early Danish kingship.",
+    "creator": "Jürgen Howaldt",
+    "date": "2003",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Runensteine_Gorm_Blauzahn.jpg",
+    "license": "CC BY-SA 2.0 de",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "siege-of-vladimir",
+  "type": "event",
+  "name": "Siege of Vladimir",
+  "year": 1238,
+  "aliases": [
+    "Sack of Vladimir",
+    "Fall of Vladimir"
+  ],
+  "location": "Rus’ (Vladimir)",
+  "eventType": "Siege",
+  "conflict": "Mongol invasion of the Rus’ (1237–1240)",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Mongols_vladimir.jpg",
+  "imageInfo": {
+    "caption": "The Mongol storm of Vladimir, in a Russian chronicle miniature.",
+    "creator": "Unknown",
+    "date": "later chronicle illumination",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mongols_vladimir.jpg",
+    "note": "A later illuminated-chronicle image of the sack."
+  },
+  "summary": "In February 1238 the Mongols took Vladimir, capital of the strongest Rus’ principality. The grand prince was away raising an army; the city fell in days and his family perished in the flames of its cathedral.",
+  "details": "Vladimir-Suzdal was the leading power of northern Rus’; its fall broke the last centre of resistance in the north-east.",
+  "eventLocation": {
+    "name": "Vladimir"
+  },
+  "background": [
+    "After Ryazan, Batu’s army destroyed the relieving force at Kolomna and burned Moscow, then advanced on Vladimir, seat of Grand Prince Yuri II of Vladimir-Suzdal — the strongest ruler of the northern Rus’.",
+    "Yuri left the city to gather an army in the north, entrusting Vladimir to his sons and its garrison."
+  ],
+  "battle": "The Mongols invested Vladimir on 3 February 1238, breached the walls with engines, and stormed the city on 7 February.",
+  "outcome": "Decisive Mongol victory; the capital was sacked and burned.",
+  "aftermath": "The grand prince’s wife and family died when the Assumption Cathedral, where they had taken refuge, was set ablaze. Batu then turned to hunt down Yuri II himself.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Vladimir in February 1238 destroyed the capital of the most powerful principality of northern Rus’. The city fell in days, and the grand prince’s family died in the burning cathedral, breaking organised resistance in the north-east."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "From the ruins of Ryazan the Mongols swept north, wiping out a Rus’ army at Kolomna and burning Moscow. Grand Prince Yuri II of Vladimir left his capital to raise fresh forces in the north, leaving Vladimir to his sons and its defenders."
+      ]
+    },
+    {
+      "title": "The siege",
+      "paragraphs": [
+        "Batu’s army surrounded Vladimir on 3 February 1238 and brought up siege engines. Within days the walls were breached, and on 7 February the Mongols stormed in. The princes fell, and the grand princess and her family, sheltering in the Cathedral of the Assumption, perished when it was fired.",
+        "The great churches and the treasures of the city were destroyed, and much of the population was killed or enslaved."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "With Vladimir gone, Batu detached forces to run down the grand prince, who was gathering an army to the north on the Sit River. The two would meet there in March 1238."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Grand Principality of Vladimir",
+      "factions": [
+        {
+          "name": "Vladimir-Suzdal",
+          "title": "Kievan Rus’",
+          "type": "location",
+          "slug": "kievan-rus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Prince Vsevolod Yurievich",
+          "title": "Son of the grand prince",
+          "note": "No article yet: son of Yuri II, left to hold the capital while his father raised an army in the north, and killed when it fell."
+        }
+      ],
+      "strength": {
+        "display": "The city garrison; no reliable figure",
+        "confidence": "debated",
+        "note": "The grand prince and the field army were absent; only the garrison held the walls."
+      }
+    },
+    {
+      "side": "Mongol Empire",
+      "factions": [
+        {
+          "name": "Mongol Empire",
+          "title": "House of Borjigin",
+          "type": "house",
+          "slug": "house-of-borjigin"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Batu Khan",
+          "title": "Batu Khan",
+          "type": "person",
+          "slug": "batu-khan"
+        }
+      ],
+      "strength": {
+        "display": "The main western horde; estimates vary",
+        "confidence": "estimated",
+        "note": "Part of Batu’s army; exact numbers unknown."
+      }
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Vsevolod Yurievich",
+      "faction": "Grand Principality of Vladimir"
+    },
+    {
+      "name": "Batu Khan",
+      "faction": "Mongol Empire",
+      "personId": "batu-khan"
+    }
+  ],
+  "factions": [
+    "Grand Principality of Vladimir",
+    "Mongol Empire"
+  ],
+  "battleContinuity": {
+    "label": "Run down the grand prince",
+    "battleSlug": "battle-of-the-sit-river",
+    "relationship": "same-campaign",
+    "reason": "After taking Vladimir, the Mongols pursued Grand Prince Yuri II, who was assembling an army to the north, and destroyed it at the Sit River in March 1238."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Batu Khan",
+        "type": "person",
+        "slug": "batu-khan"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai"
+      },
+      {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Ryazan",
+        "type": "event",
+        "slug": "siege-of-ryazan"
+      },
+      {
+        "title": "Battle of the Sit River",
+        "type": "event",
+        "slug": "battle-of-the-sit-river"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kievan Rus’",
+        "type": "location",
+        "slug": "kievan-rus"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "The Chronicle of Novgorod, 1016–1471",
+      "author": "trans. Michell & Forbes",
+      "type": "primary source"
+    },
+    {
+      "title": "The Mongol Invasion of Russia in the 13th Century",
+      "author": "George Vernadsky (and later surveys)",
+      "type": "book"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Mongol invasion of Russia",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Mongol-invasion-of-Russia"
+    }
+  ]
+}

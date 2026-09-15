@@ -1,0 +1,278 @@
+{
+  "id": "house-of-sverre",
+  "type": "house",
+  "name": "House of Sverre",
+  "aliases": [
+    "Sverre dynasty",
+    "Sverre dynasty / contested royal line",
+    "House of Sverre (Birkebeiner)",
+    "Sverrir dynasty"
+  ],
+  "originYear": 1184,
+  "endYear": 1319,
+  "reignSpan": "1184–1319",
+  "region": "Kingdom of Norway",
+  "originPlace": "Norway",
+  "arms": "A golden lion bearing the axe of Saint Olaf on a red field — the arms of medieval Norway.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HakonTheOldAndSkule-Flateyjarbok%20crop.jpg?width=1000",
+  "imageInfo": {
+    "caption": "King Haakon IV of Norway, greatest of the Sverre dynasty, in the Icelandic manuscript Flateyjarbók.",
+    "creator": "Icelandic manuscript illumination (Flateyjarbók)",
+    "date": "c. 1390",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HakonTheOldAndSkule-Flateyjarbok_crop.jpg",
+    "note": "A later saga-manuscript image of Haakon IV, under whom Norway reached its medieval height."
+  },
+  "summary": "The dynasty founded by the rebel king Sverre that ended Norway’s civil wars and led the kingdom to its medieval golden age.",
+  "overview": "The House of Sverre rose from Norway’s long civil wars when Sverre Sigurdsson, leader of the Birkebeiner faction, seized the throne in 1184. His descendants — above all Haakon IV and Magnus VI the Lawmender — ended the succession wars, codified the law, and brought Norway to its greatest medieval extent, including Iceland and Greenland.",
+  "founder": {
+    "personSlug": "sverre-sigurdsson",
+    "displayName": "Sverre Sigurdsson",
+    "note": "Birkebeiner leader who seized the throne in 1184"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Norway",
+      "type": "location",
+      "slug": "kingdom-of-norway"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "sverre-sigurdsson",
+      "displayName": "Sverre Sigurdsson",
+      "note": "Founder; defied the Church and won the crown"
+    },
+    {
+      "personSlug": "hakon-iii-sverresson",
+      "displayName": "Haakon III",
+      "note": "Reconciled briefly with the Church"
+    },
+    {
+      "personSlug": "inge-ii-bardsson",
+      "displayName": "Inge II Bårdsson",
+      "note": "Birkebeiner king during the last civil wars"
+    },
+    {
+      "personSlug": "haakon-iv-haakonsson",
+      "displayName": "Haakon IV",
+      "note": "Ended the civil wars; Norway’s medieval height"
+    },
+    {
+      "personSlug": "magnus-vi-lawmender",
+      "displayName": "Magnus VI the Lawmender",
+      "note": "Gave Norway a unified national law code"
+    },
+    {
+      "personSlug": "eric-ii-of-norway",
+      "displayName": "Eric II",
+      "note": "Fought the \"War of the Skirts\" with the Hansa"
+    },
+    {
+      "personSlug": "haakon-v-magnusson",
+      "displayName": "Haakon V",
+      "note": "Moved the capital to Oslo; last of the direct line"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Sverre dynasty from the rebel king Sverre to Haakon V, after whom the crown passed by marriage toward the union with Sweden. Several early reigns fell during Norway’s civil wars; notes flag the kinship.",
+    "root": {
+      "name": "Sverre Sigurdsson",
+      "personSlug": "sverre-sigurdsson",
+      "note": "r. 1184–1202",
+      "children": [
+        {
+          "name": "Haakon III",
+          "personSlug": "hakon-iii-sverresson",
+          "note": "r. 1202–1204",
+          "children": [
+            {
+              "name": "Haakon IV",
+              "personSlug": "haakon-iv-haakonsson",
+              "note": "r. 1217–1263; posthumous son",
+              "children": [
+                {
+                  "name": "Magnus VI the Lawmender",
+                  "personSlug": "magnus-vi-lawmender",
+                  "note": "r. 1263–1280",
+                  "children": [
+                    {
+                      "name": "Eric II",
+                      "personSlug": "eric-ii-of-norway",
+                      "note": "r. 1280–1299"
+                    },
+                    {
+                      "name": "Haakon V",
+                      "personSlug": "haakon-v-magnusson",
+                      "note": "r. 1299–1319, last of the direct line"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inge II Bårdsson",
+          "personSlug": "inge-ii-bardsson",
+          "note": "r. 1204–1217; kinsman and Birkebeiner king"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "For much of the twelfth century Norway was torn by civil wars between rival claimants and factions, the Birkebeiner (\"birch-legs\") and the Bagl-party. Into this came Sverre Sigurdsson, a former priest from the Faroes who claimed to be a royal son, took over the Birkebeiner, and by 1184 had defeated and killed King Magnus Erlingsson to win the throne.",
+        "Sverre ruled in open defiance of the Church, which excommunicated him, and defended his rule in the Sverris saga, a remarkable near-contemporary account partly composed under his own direction."
+      ]
+    },
+    {
+      "title": "The end of the civil wars",
+      "paragraphs": [
+        "The wars outlived Sverre, running through the short reigns of his son Haakon III and the Birkebeiner king Inge II Bårdsson. They were finally ended by Sverre’s grandson Haakon IV Haakonsson, whose disputed birth was resolved by ordeal and whose long reign from 1217 brought lasting peace.",
+        "Haakon IV made the succession hereditary and orderly, ending generations of contested kingship."
+      ]
+    },
+    {
+      "title": "The Norwegian golden age",
+      "paragraphs": [
+        "Under Haakon IV Norway reached its greatest medieval extent, bringing Iceland and Greenland under the crown in the 1260s and building a court that translated European romances into Old Norse. His son Magnus VI earned the name \"the Lawmender\" by replacing the old regional laws with a single national law code in the 1270s — a rare achievement in medieval Europe.",
+        "This was the height of the medieval Norwegian state: unified, law-governed, and reaching across the North Atlantic."
+      ]
+    },
+    {
+      "title": "The end of the line",
+      "paragraphs": [
+        "Magnus VI’s sons Eric II and Haakon V ruled a kingdom increasingly pressed by the German Hanseatic merchants who dominated its trade. Haakon V moved the capital to Oslo and strengthened the fortress of Akershus, but he left only a daughter.",
+        "On his death in 1319 the direct Sverre line ended, and through his daughter’s marriage the Norwegian crown passed to the Swedish king Magnus Eriksson, beginning the drift toward the Scandinavian unions."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The House of Sverre ended Norway’s civil wars and gave it hereditary kingship, a national law, and its widest medieval reach across the North Atlantic. The Sverris saga and the sagas commissioned at Haakon IV’s court are among the treasures of Old Norse literature.",
+        "After the dynasty, Norway increasingly shared its crown with its neighbours, a path that led eventually into the Kalmar Union."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1184",
+      "title": "Sverre wins the throne",
+      "description": "The Birkebeiner leader defeats Magnus Erlingsson.",
+      "links": [
+        {
+          "title": "Sverre Sigurdsson",
+          "type": "person",
+          "slug": "sverre-sigurdsson"
+        }
+      ]
+    },
+    {
+      "date": "1217",
+      "title": "Accession of Haakon IV",
+      "description": "His long reign ends the civil wars.",
+      "links": [
+        {
+          "title": "Haakon IV",
+          "type": "person",
+          "slug": "haakon-iv-haakonsson"
+        }
+      ]
+    },
+    {
+      "date": "1262",
+      "title": "Iceland joins Norway",
+      "description": "Haakon IV brings Iceland and Greenland under the crown."
+    },
+    {
+      "date": "1274",
+      "title": "The Code of Magnus the Lawmender",
+      "description": "Norway receives a single national law.",
+      "links": [
+        {
+          "title": "Magnus VI the Lawmender",
+          "type": "person",
+          "slug": "magnus-vi-lawmender"
+        }
+      ]
+    },
+    {
+      "date": "1319",
+      "title": "End of the direct line",
+      "description": "Haakon V dies; the crown passes toward Sweden.",
+      "links": [
+        {
+          "title": "Haakon V",
+          "type": "person",
+          "slug": "haakon-v-magnusson"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
+        "label": "Founder"
+      },
+      {
+        "title": "Haakon IV",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
+        "label": "Norway’s medieval height"
+      },
+      {
+        "title": "Magnus VI the Lawmender",
+        "type": "person",
+        "slug": "magnus-vi-lawmender",
+        "label": "National law-giver"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The realm they ruled"
+      },
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "Capital and burial place of its kings"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Sverre dynasty — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sverre_dynasty"
+    },
+    {
+      "title": "Haakon IV — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Haakon-IV"
+    },
+    {
+      "title": "Sverre Sigurdsson — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sverre_of_Norway"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Norway.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The royal arms of Norway — the crowned lion with Saint Olaf’s axe — as used from the thirteenth century.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Norway.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

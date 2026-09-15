@@ -1,0 +1,210 @@
+{
+  "id": "battle-of-hastings",
+  "type": "event",
+  "name": "Battle of Hastings",
+  "year": 1066,
+  "location": "Hastings, England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene57_Harold_death.jpg",
+  "summary": "William of Normandy defeated Harold Godwinson near Hastings in 1066, opening the way for the Norman Conquest of England.",
+  "details": "Hastings was the decisive field battle of the 1066 succession crisis. William’s victory killed Harold Godwinson, broke organized royal resistance in the south, and made possible a conquest that transformed English lordship, language, law, castles, and relations with Normandy.",
+  "eventType": "Battle",
+  "factions": [
+    "Duchy of Normandy",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "William the Conqueror",
+      "faction": "Norman army",
+      "personId": "william-the-conqueror"
+    },
+    {
+      "name": "Harold Godwinson",
+      "faction": "English army",
+      "personId": "harold-godwinson"
+    }
+  ],
+  "eventLocation": {
+    "name": "Hastings",
+    "locationId": "hastings"
+  },
+  "outcome": "Norman victory, decisive for the conquest of England.",
+  "background": [
+    "The death of Edward the Confessor created a succession crisis in England. Harold Godwinson took the throne, while William of Normandy claimed Edward had promised it to him.",
+    "After defeating a Norwegian invasion in the north, Harold marched south to face William's newly landed Norman army."
+  ],
+  "battle": "The English formed a shield wall on high ground while Norman infantry, archers, and cavalry attacked. After long fighting and feigned retreats, the English line broke and Harold was killed.",
+  "aftermath": "William was crowned king of England, redistributed land to Norman followers, built castles, and reshaped English aristocracy, government, and language.",
+  "conflict": "Norman Conquest of England",
+  "imageInfo": {
+    "caption": "Scene from the Bayeux Tapestry showing the death of Harold, traditionally associated with Hastings.",
+    "creator": "Unknown embroidery workshop",
+    "date": "late 11th century",
+    "source": "Bayeux Museum / Wikimedia Commons",
+    "note": "Near-contemporary Norman visual narrative, but still political storytelling rather than neutral reportage."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Hastings was fought on 14 October 1066 between William the Conqueror, duke of Normandy, and Harold Godwinson, king of England. William’s Norman army won, Harold was killed, and the road to William’s coronation in London opened.",
+        "The battle mattered because it turned a succession dispute into a conquest. England was drawn more tightly into northern French politics, and the English aristocracy was gradually replaced by Norman and continental elites."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Edward the Confessor died in January 1066 without a direct heir. Harold Godwinson was crowned king, but William of Normandy claimed that Edward had promised him the throne and that Harold had sworn to support his claim.",
+        "The crisis widened when Harald Hardrada of Norway invaded northern England with Tostig Godwinson. Harold defeated that invasion at Stamford Bridge, then marched rapidly south after William landed on the Sussex coast."
+      ]
+    },
+    {
+      "title": "Forces and commanders",
+      "paragraphs": [
+        "Harold’s army was centered on housecarls and the fyrd, fighting mainly on foot behind a shield wall. It had just completed a punishing march after the northern campaign, which may have affected readiness and numbers.",
+        "William’s force combined cavalry, infantry, and archers from Normandy and allied regions. Exact numbers are uncertain, and medieval figures are not reliable, but the Norman army had tactical variety that proved important over a long day."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Harold placed his army on high ground near Senlac, forcing the Normans to attack uphill. Early Norman assaults struggled against the English shield wall, and discipline on the ridge made direct breakthrough difficult.",
+        "The battle turned through repeated pressure, missile fire, and movements remembered as feigned retreats. Whether all retreats were deliberate is debated, but Norman cavalry and infantry eventually disrupted the English line. Harold’s death and the collapse of the royal standard ended organized resistance."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "William advanced through southern England, accepted submission from key elites, and was crowned king on Christmas Day 1066. The conquest was not complete overnight: rebellions, land confiscations, castle building, and campaigns of suppression followed.",
+        "The consequences were enormous. Norman lordship remade the aristocracy, French-speaking elites entered English government and church life, and England became deeply connected to the politics of Normandy and France."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Hastings is one of the most consequential battles in medieval European history because it changed the ruling class and political orientation of an entire kingdom. It also produced the Bayeux Tapestry, one of the most important visual sources for eleventh-century warfare and propaganda.",
+        "The battle shows how dynastic claims, maritime invasion, battlefield tactics, and elite replacement could converge into lasting institutional change."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bayeux Tapestry",
+      "author": "Bayeux Museum",
+      "type": "visual primary source",
+      "url": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene57_Harold_death.jpg"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Norman Conquest sources",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1n.asp"
+    },
+    {
+      "title": "Project Gutenberg: The Anglo-Saxon Chronicle",
+      "author": "Project Gutenberg",
+      "type": "primary source",
+      "url": "https://www.gutenberg.org/ebooks/657"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Commander"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Hastings",
+        "type": "location",
+        "slug": "hastings",
+        "label": "Battlefield"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Combatant faction"
+      }
+    ],
+    "events": [
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Wider campaign"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "side": "Norman army",
+      "factions": [
+        {
+          "name": "Duchy of Normandy",
+          "title": "Duchy of Normandy",
+          "type": "location",
+          "slug": "duchy-of-normandy"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William the Conqueror",
+          "title": "William the Conqueror",
+          "type": "person",
+          "slug": "william-the-conqueror"
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–8,000",
+        "confidence": "estimated",
+        "note": "Reconstructed from later sources and battlefield logistics rather than records; the exact size is uncertain."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Harold Godwinson",
+          "title": "Harold Godwinson",
+          "type": "person",
+          "slug": "harold-godwinson"
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–8,000",
+        "confidence": "debated",
+        "note": "Debated; the two armies were probably roughly matched, so William did not win through simple numerical superiority."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Where Norman kingship led England",
+    "battleSlug": "battle-of-bouvines",
+    "relationship": "same-factions",
+    "reason": "Hastings bound England's crown to lands and claims in France; at Bouvines in 1214 that entanglement collapsed, when Philip II of France crushed the coalition backing King John and confirmed the loss of the Angevin lands."
+  }
+}

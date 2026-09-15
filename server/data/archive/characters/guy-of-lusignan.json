@@ -1,0 +1,216 @@
+{
+  "id": "guy-of-lusignan",
+  "type": "character",
+  "name": "Guy of Lusignan",
+  "aliases": [
+    "Guy de Lusignan"
+  ],
+  "born": 1150,
+  "died": 1194,
+  "deathAge": "unknown",
+  "causeOfDeath": "Guy died in 1194 after establishing Lusignan rule on Cyprus, a kingdom that outlasted the mainland crusader kingdom.",
+  "restingPlace": "Unknown",
+  "location": "Kingdom of Jerusalem",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coin_issued_by_Guy_de_Lusignan_during_when_he_was_Lord_of_Cyprus_(Crop).png",
+  "title": "king of Jerusalem and Cyprus",
+  "roles": [
+    "king of Jerusalem and Cyprus"
+  ],
+  "birth": {
+    "date": "c. 1150",
+    "place": null
+  },
+  "death": {
+    "date": "1194",
+    "place": null,
+    "circumstance": "Guy died in 1194 after establishing Lusignan rule on Cyprus, a kingdom that outlasted the mainland crusader kingdom."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Jerusalem",
+    "dynasty": "House of Lusignan",
+    "culture": "Latin Christian / Mediterranean crusading world",
+    "knownFor": "Became king through Sibylla"
+  },
+  "imageInfo": {
+    "caption": "Coin issued by Guy of Lusignan as lord of Cyprus.",
+    "creator": "Medieval mint / Wikimedia Commons photograph",
+    "date": "late twelfth century object; modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coin_issued_by_Guy_de_Lusignan_during_when_he_was_Lord_of_Cyprus_(Crop).png",
+    "note": "Contemporary or near-contemporary coinage rather than a portrait from life."
+  },
+  "overview": [
+    "Guy of Lusignan was king of Jerusalem through marriage to Sibylla and the ruler whose defeat at Hattin preceded Saladin’s capture of Jerusalem.",
+    "His reputation is often negative because of Hattin, but his later Cypriot rule became a durable crusader-state legacy."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Guy of Lusignan was king of Jerusalem through marriage to Sibylla and the ruler whose defeat at Hattin preceded Saladin’s capture of Jerusalem."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Guy came from the Lusignan family of Poitou and entered the Latin East through aristocratic marriage and factional politics."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Guy of Lusignan is remembered, largely unkindly, as the king whose poor judgement led to the catastrophic loss of the kingdom at the Battle of Hattin in 1187. The sources present a handsome but politically lightweight noble who rose through marriage to Sibylla of Jerusalem, and whose indecision and susceptibility to bad counsel — especially that of the hawkish faction urging battle — are blamed for marching the army to destruction in the waterless hills before Hattin.",
+        "The hostile tradition, shaped by the magnitude of the disaster and by his aristocratic rivals, may exaggerate his incapacity; he was placed in an impossible position by a divided kingdom and aggressive enemies. Yet even sympathetic accounts struggle to credit him with the strength a ruler in crisis needed, and his later loss of the throne and consolation with the lordship of Cyprus did little to rehabilitate him.",
+        "What the record conveys is a man elevated by marriage beyond his political weight, remembered as well-meaning but weak and easily led. He is remembered chiefly as the king of Hattin — the ruler whose fatal decision lost Jerusalem — a figure of tragic inadequacy more than of malice, blamed by a tradition that needed someone to hold responsible for the great disaster."
+      ]
+    },
+    {
+      "title": "As king of Jerusalem and Cyprus",
+      "paragraphs": [
+        "Guy’s authority was contested by nobles who doubted his judgment. At Hattin in 1187, his army was trapped and destroyed by Saladin, leading to the loss of Jerusalem. Later he became ruler of Cyprus."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Guy died in 1194 after establishing Lusignan rule on Cyprus, a kingdom that outlasted the mainland crusader kingdom."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His reputation is often negative because of Hattin, but his later Cypriot rule became a durable crusader-state legacy."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Became king through Sibylla",
+      "description": "Became king through Sibylla marks a concrete event or political role in Guy of Lusignan's career."
+    },
+    {
+      "title": "Lost at Hattin",
+      "description": "Lost at Hattin marks a concrete event or political role in Guy of Lusignan's career."
+    },
+    {
+      "title": "Founded Lusignan Cyprus",
+      "description": "Founded Lusignan Cyprus marks a concrete event or political role in Guy of Lusignan's career."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1150",
+      "title": "Born in Poitou",
+      "description": "Guy came from a western French noble family."
+    },
+    {
+      "date": "1180",
+      "title": "Marries Sibylla",
+      "description": "Marriage placed him close to the Jerusalem succession."
+    },
+    {
+      "date": "1186",
+      "title": "Becomes king",
+      "description": "Sibylla’s accession made Guy king in a divided kingdom."
+    },
+    {
+      "date": "1187",
+      "title": "Defeated at Hattin",
+      "description": "His army’s destruction opened the way for Saladin to take Jerusalem.",
+      "links": [
+        {
+          "title": "Battle of Hattin",
+          "type": "event",
+          "slug": "battle-of-hattin"
+        }
+      ]
+    },
+    {
+      "date": "1194",
+      "title": "Dies in Cyprus",
+      "description": "Guy died after transferring his ambitions to Cyprus."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Realm"
+      },
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "Commander"
+      }
+    ],
+    "people": [
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
+      },
+      {
+        "title": "Balian of Ibelin",
+        "type": "person",
+        "slug": "balian-of-ibelin",
+        "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Henry II of Champagne",
+        "type": "person",
+        "slug": "henry-ii-of-champagne",
+        "label": "Ruler of Kingdom of Jerusalem"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Coin_issued_by_Guy_de_Lusignan_during_when_he_was_Lord_of_Cyprus_(Crop).png"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Crusades",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Crusades"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Crusades",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of Jerusalem",
+    "note": "Guy reigned as Sibylla's consort; after losing Jerusalem he bought Cyprus from the Templars in 1192.",
+    "predecessor": {
+      "personSlug": "baldwin-v-of-jerusalem",
+      "displayName": "Baldwin V of Jerusalem",
+      "note": "The child king whose death let Guy and his wife Sibylla take the throne."
+    },
+    "successor": {
+      "personSlug": "conrad-of-montferrat",
+      "displayName": "Conrad of Montferrat",
+      "note": "Elected king by the barons in 1192, days before his assassination"
+    }
+  }
+}

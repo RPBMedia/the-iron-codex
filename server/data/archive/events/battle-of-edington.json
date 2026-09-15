@@ -1,0 +1,207 @@
+{
+  "id": "battle-of-edington",
+  "name": "Battle of Edington",
+  "year": 878,
+  "location": "Edington, Wiltshire",
+  "eventType": "Battle",
+  "conflict": "Viking invasions of Wessex",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethandunmem.jpg",
+  "imageInfo": {
+    "caption": "The memorial stone to the Battle of Ethandun (Edington) on the Wiltshire downs.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "modern",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ethandunmem.jpg",
+    "note": "No contemporary image survives; the battlefield memorial stands for the site."
+  },
+  "summary": "Alfred the Great defeated the Danish Great Heathen Army under Guthrum at Edington in 878, saving Wessex and securing the peace and baptism that shaped a united England.",
+  "details": "In May 878, weeks after emerging from his refuge at Athelney, Alfred the Great gathered the levies of Somerset, Wiltshire, and Hampshire and defeated Guthrum's Danish army at Edington (Ethandun). The Danes fled to their fortress at Chippenham, surrendered after a fortnight's siege, and Guthrum accepted baptism with Alfred as godfather.",
+  "factions": [
+    "Kingdom of Wessex",
+    "The Great Heathen Army (Danes)"
+  ],
+  "leaders": [
+    {
+      "name": "Alfred the Great",
+      "faction": "West Saxons",
+      "personId": "alfred-the-great"
+    },
+    {
+      "name": "Guthrum",
+      "faction": "Danes",
+      "personId": "guthrum"
+    }
+  ],
+  "outcome": "Decisive West Saxon victory; Guthrum surrendered, was baptised, and withdrew to East Anglia by treaty.",
+  "participants": [
+    {
+      "side": "West Saxons",
+      "strength": {
+        "display": "not securely recorded",
+        "confidence": "unknown",
+        "note": "The Chronicle records that Alfred gathered the levies of three shires; no figures are given."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Alfred the Great",
+          "type": "person",
+          "slug": "alfred-the-great"
+        }
+      ]
+    },
+    {
+      "side": "Danes",
+      "strength": {
+        "display": "not securely recorded",
+        "confidence": "unknown",
+        "note": "The size of Guthrum's army is not recorded; it was the mobile field force that had wintered at Chippenham."
+      },
+      "factions": [
+        {
+          "name": "The Great Heathen Army",
+          "title": "Kingdom of Denmark",
+          "type": "location",
+          "slug": "kingdom-of-denmark"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guthrum",
+          "type": "person",
+          "slug": "guthrum"
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Edington, fought in May 878, saved the Kingdom of Wessex and, through it, the future of a united England. Months after Guthrum's surprise midwinter attack had driven Alfred the Great into the Somerset marshes of Athelney, the king raised the levies of the surviving shires and defeated the Danish Great Heathen Army in the open field on the Wiltshire downs.",
+        "The victory did not destroy the Danes but broke their grip: Guthrum surrendered, accepted Christian baptism with Alfred as his godfather, and withdrew to East Anglia — the settlement that stabilised the Wessex–Danelaw frontier and let Alfred build the burhs, fleet, and learning that made his reconquest possible."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By 878 the Great Heathen Army had destroyed the kingdoms of Northumbria, East Anglia, and Mercia, leaving Wessex alone. Guthrum's attack on Chippenham in January 878 caught Alfred off guard, overran much of the kingdom, and reduced the king to a fugitive court at Athelney, waging a guerrilla resistance from the marshes.",
+        "In the seventh week after Easter Alfred rode to \"Egbert's Stone\" on the Wiltshire border, where the levies of Somerset, Wiltshire, and part of Hampshire rallied to him. Two days later he met the Danish army at Edington."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "Alfred commanded the West Saxon fyrd — the shire levies of free landholders — fighting in the close shield-wall the Chronicle describes. No numbers survive for either side; the West Saxon force was whatever the three shires could raise at short notice against a Danish army that had been raiding at will.",
+        "Guthrum led the mobile field army of the Danes that had wintered at Chippenham. His was the veteran host that had toppled three English kingdoms; Alfred's was the last that had not yet fallen."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Asser and the Anglo-Saxon Chronicle give the essentials rather than a tactical narrative: Alfred \"fought fiercely with a compact shield-wall against the whole army of the Vikings\", and after long struggle put them to flight. The West Saxons pursued the Danes to their fortress at Chippenham and blockaded it.",
+        "After a fortnight, starving and without hope of relief, Guthrum sued for peace. He gave hostages, swore to leave Wessex, and — extraordinarily — agreed to be baptised."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Three weeks after the surrender Guthrum was baptised at Aller near Athelney, Alfred standing as his godfather and renaming him Æthelstan; the Danes withdrew to East Anglia, and the later Treaty of Alfred and Guthrum fixed the frontier along Watling Street. The immediate crisis of the Viking conquest was over.",
+        "Edington bought the years in which Alfred built the burh system, reformed the army and coinage, restored London (886), and launched the learning revival that made Wessex the nucleus of England. His son Edward the Elder and grandson Æthelstan turned that survival into the reconquest of the Danelaw and the making of one English kingdom — all resting on the field at Edington."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Viking wars run on to Brunanburh",
+    "battleSlug": "battle-of-brunanburh",
+    "relationship": "same-war",
+    "reason": "Edington saved Wessex; two generations later Alfred's grandson Æthelstan defended the united English kingdom that survival had built, destroying a great Norse-Celtic coalition at Brunanburh in 937."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great"
+      },
+      {
+        "name": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder"
+      },
+      {
+        "name": "Æthelstan",
+        "type": "person",
+        "slug": "aethelstan"
+      },
+      {
+        "name": "Guthrum",
+        "title": "Guthrum",
+        "type": "person",
+        "slug": "guthrum",
+        "label": "The defeated Danish commander"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Wessex",
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex"
+      },
+      {
+        "name": "Kingdom of England",
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "The kingdom Edington saved, defended, 937"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "The Viking age's English end"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The army defeated here"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Ethandunmem.jpg"
+    },
+    {
+      "title": "Battle of Edington — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Edington"
+    },
+    {
+      "title": "Asser, Life of King Alfred; the Anglo-Saxon Chronicle",
+      "author": "Asser; Chronicle compilers",
+      "type": "primary source"
+    }
+  ],
+  "type": "event"
+}

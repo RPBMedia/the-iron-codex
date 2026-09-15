@@ -1,0 +1,82 @@
+{
+  "id": "simancas",
+  "type": "location",
+  "locationType": "fortress",
+  "name": "Simancas",
+  "aliases": [
+    "Septimanca"
+  ],
+  "year": "10th century",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Simancas%202017.jpg",
+  "summary": "A fortress town on the Duero near Valladolid, site of Ramiro II's great victory over Abd al-Rahman III in 939 and, much later, the archive of the Spanish crown.",
+  "overview": "Simancas guarded a crossing of the Duero on the tenth-century frontier between León and al-Andalus, and its name is bound to the battle fought there in 939.",
+  "knownFor": [
+    "The Battle of Simancas (939) and the later royal Archivo General de Simancas"
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Simancas — the Roman Septimanca — is a fortified town on the river Duero near Valladolid, on what in the tenth century was the tense frontier between the Kingdom of León and the Caliphate of Córdoba. Its strategic crossing made it a natural point of concentration and conflict.",
+        "The town is remembered above all for the battle of 939, in which Ramiro II of León and his allies destroyed the campaigning army of Abd al-Rahman III nearby, one of the great Christian victories of the age."
+      ]
+    },
+    {
+      "title": "The castle and archive",
+      "paragraphs": [
+        "The medieval castle of Simancas, rebuilt in later centuries, still crowns the town. In the sixteenth century it was chosen to hold the central records of the Spanish monarchy, and the Archivo General de Simancas remains one of the great state archives of Europe.",
+        "That later role has kept the name Simancas famous far beyond the battle, but for the history of the Reconquista it is the fighting of 939 on the Duero that matters."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "939",
+      "title": "Battle of Simancas",
+      "description": "Ramiro II defeats Abd al-Rahman III near the town."
+    }
+  ],
+  "imageInfo": {
+    "caption": "The castle of Simancas above the town on the Duero, near the site of the 939 battle.",
+    "creator": "Photograph, Wikimedia Commons",
+    "date": "Medieval castle (later rebuilt); photograph 2017",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Simancas_2017.jpg",
+    "license": "Creative Commons",
+    "note": "The surviving fortress marks the frontier stronghold around which the battle was fought."
+  },
+  "sources": [
+    {
+      "title": "Simancas",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Simancas"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Simancas",
+        "type": "event",
+        "slug": "battle-of-simancas",
+        "label": "Fought near the town"
+      }
+    ],
+    "people": [
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "Victor here in 939"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "The realm it defended"
+      }
+    ]
+  }
+}

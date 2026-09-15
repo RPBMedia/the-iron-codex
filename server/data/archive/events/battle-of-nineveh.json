@@ -1,0 +1,191 @@
+{
+  "id": "battle-of-nineveh",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Nineveh",
+  "year": 627,
+  "location": "Near the ruins of Nineveh, in Mesopotamia",
+  "eventLocation": "The plain near the ruins of Nineveh",
+  "conflict": "The Roman–Persian war of 602–628",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20nineveh-mohammad%20adil%20rais.PNG",
+  "imageInfo": {
+    "caption": "Heraclius's campaign into the Persian heartland and the battle near Nineveh in December 627.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern map of the 627 campaign",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_nineveh-mohammad_adil_rais.PNG",
+    "note": "A modern campaign map, used because no contemporary depiction of the battle exists and the point of the engagement is where it was fought — deep in Persian territory, hundreds of miles from the provinces Persia had conquered. Licensed CC BY-SA 3.0."
+  },
+  "summary": "On 12 December 627 Heraclius destroyed the Persian field army near the ruins of Nineveh, opening the road to the royal residences and bringing down Khosrow II.",
+  "details": "It is the decisive battle of a twenty-six-year war, and it was won hundreds of miles from any of the territory the war had been fought over.",
+  "outcome": "Decisive Roman victory; the Persian commander killed and the field army destroyed.",
+  "background": "Rather than defend the lost provinces, Heraclius campaigned into the Persian heartland, forcing Khosrow to fight where he could not afford to lose.",
+  "battle": "The two armies met on the plain near Nineveh. The fighting lasted most of a day, and the Persian commander Rhahzadh was killed — by Heraclius himself, according to the sources.",
+  "aftermath": "Heraclius marched on Dastagird, which Khosrow abandoned. Khosrow was deposed and executed within two months, and his son made peace.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Nineveh was fought on 12 December 627 on the plain beside the ruins of the old Assyrian capital, and it decided a war that had run for twenty-six years.",
+        "What makes it remarkable is where it happened. Persia held Syria, Palestine, Egypt and much of Anatolia; the battle that lost them was fought in Mesopotamia, hundreds of miles from any of it.",
+        "That was the whole of Heraclius's strategy: refuse to fight for the provinces, and threaten instead the heartland the Persian armies could not abandon their conquests to defend."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "By 626 the Persian position looked overwhelming, and a Persian army had stood on the Asian shore opposite Constantinople while the Avars assaulted the land walls. The city held and the coalition broke.",
+        "Heraclius had spent the preceding years campaigning in Armenia and the Caucasus, building an alliance with the Göktürks and striking where Persian forces were thin.",
+        "In late 627 he marched south into Mesopotamia. Khosrow ordered his general Rhahzadh to intercept, with instructions that amounted to a demand for battle."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The armies met near Nineveh in December, and the fighting lasted through most of a day — unusually long for a pitched battle of the period.",
+        "The sources say that Heraclius killed Rhahzadh in single combat, and that he was wounded in the face doing it. The detail comes from writers sympathetic to him and should be treated with appropriate caution, but the death of the Persian commander is not in dispute.",
+        "With Rhahzadh dead the Persian army broke, and no other field force stood between Heraclius and the royal residences."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Heraclius marched on Dastagird, Khosrow's favourite residence, and took it; Khosrow fled to Ctesiphon without giving battle again.",
+        "The Persian nobility had had enough of a war that had brought a Roman army into Mesopotamia. In February 628 Khosrow was deposed by his son Kavad II and executed.",
+        "Kavad made peace at once, returning the conquered provinces and the True Cross. Heraclius restored the relic to Jerusalem in 630 in the ceremony that became the emblem of his reign."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "It is one of the most complete strategic victories in late antiquity, and it saved the eastern Roman empire from destruction.",
+        "It also destroyed both combatants. Persia fell into a four-year succession crisis and never recovered; the Roman empire had spent a generation and its treasury, and its eastern provinces had been fought across repeatedly.",
+        "Within a decade Arab armies took Syria, Palestine, Egypt and eventually the whole Sasanian empire. Nineveh is therefore a victory that decided a war and settled almost nothing — the last battle of one world rather than the first of the next."
+      ]
+    },
+    {
+      "title": "Sources",
+      "paragraphs": [
+        "The evidence here is markedly thinner than for the sixth-century campaigns. There is no Procopius: no participant historian, no eyewitness account.",
+        "What survives is Theophanes the Confessor, writing nearly two centuries later, the Chronicon Paschale, panegyric verse by George of Pisidia written to celebrate the emperor, and Armenian and Syriac chronicles with their own concerns.",
+        "The result is that the strategic shape of the campaign is reasonably secure while its tactical detail — including the single combat — rests on later and interested testimony. The articles here say so rather than narrating with borrowed confidence."
+      ]
+    }
+  ],
+  "participants": [
+    {
+      "side": "Eastern Roman army",
+      "factions": [
+        {
+          "name": "Byzantine Empire",
+          "title": "Byzantine Empire",
+          "type": "location",
+          "slug": "byzantine-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Heraclius",
+          "title": "Heraclius",
+          "type": "person",
+          "slug": "heraclius"
+        }
+      ],
+      "strength": {
+        "display": "c. 25,000–50,000",
+        "confidence": "debated",
+        "note": "No reliable figure survives. Estimates vary widely and rest on later chronicles rather than on any contemporary count."
+      }
+    },
+    {
+      "side": "Sasanian army",
+      "factions": [
+        {
+          "name": "Sasanian Empire",
+          "title": "Sasanian Empire",
+          "type": "location",
+          "slug": "sasanian-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Rhahzadh",
+          "note": "No article: he is known only as the commander killed in this battle, and no image or biography survives to build one from."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; probably smaller than the Roman force",
+        "confidence": "unknown",
+        "note": "No figures survive. The army was assembled hurriedly to intercept Heraclius while Persia's main forces were dispersed across the conquered provinces. Rhahzadh has no article in this archive."
+      }
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue to the battle that undid this one",
+    "battleSlug": "battle-of-yarmouk",
+    "relationship": "same-factions",
+    "reason": "Nineveh won back Syria, Palestine and Egypt from Persia in 627. Yarmouk lost all three, permanently, nine years later."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Commanded the Roman army in person"
+      },
+      {
+        "title": "Khosrow II",
+        "type": "person",
+        "slug": "khosrow-ii",
+        "label": "Lost his throne within two months of it"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The city this victory preserved, until 1453"
+      },
+      {
+        "title": "Siege of Constantinople (626)",
+        "type": "event",
+        "slug": "siege-of-constantinople-626",
+        "label": "The failed siege that freed Heraclius to finish the war"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "The realm whose field army was destroyed"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The empire it saved"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Battle of Nineveh (627)",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nineveh_(627)",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Campaign map",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_nineveh-mohammad_adil_rais.PNG",
+      "type": "image source",
+      "institution": "Wikimedia Commons"
+    }
+  ]
+}

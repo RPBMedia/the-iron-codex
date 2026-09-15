@@ -1,0 +1,199 @@
+{
+  "id": "louis-vi-of-france",
+  "type": "character",
+  "name": "Louis VI of France",
+  "aliases": [
+    "Louis the Fat",
+    "Louis le Gros"
+  ],
+  "born": 1081,
+  "died": 1137,
+  "deathAge": "55",
+  "causeOfDeath": "Dysentery, at Béthisy-Saint-Pierre",
+  "restingPlace": "Basilica of Saint-Denis",
+  "location": "Kingdom of France",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_VI_le_Gros.jpg",
+  "imageInfo": {
+    "caption": "Louis VI in a miniature from the Grandes Chroniques de France, fourteenth century.",
+    "creator": "Unknown illuminator",
+    "date": "14th century",
+    "source": "Grandes Chroniques de France — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Louis_VI_le_Gros.jpg",
+    "note": "A later medieval imagined portrait; no contemporary likeness survives."
+  },
+  "summary": "Louis VI \"the Fat\" (1108–1137) spent thirty years hammering the robber barons of the Île-de-France into obedience, making the Capetian king master of his own domain for the first time.",
+  "title": "king of France",
+  "roles": [
+    "King of France"
+  ],
+  "birth": {
+    "date": "late 1081",
+    "place": {
+      "name": "Paris",
+      "slug": "paris"
+    },
+    "note": "Son of Philip I and Bertha of Holland."
+  },
+  "death": {
+    "date": "1 August 1137",
+    "place": {
+      "name": "Béthisy-Saint-Pierre"
+    },
+    "note": "Died days after sealing the marriage of his heir to Eleanor of Aquitaine.",
+    "circumstance": "Too corpulent to mount a horse in his last years, he died campaigning in mind if not in body, and was buried at Saint-Denis."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of France",
+    "dynasty": "House of Capet",
+    "culture": "French",
+    "knownFor": "subduing the castellans of the royal domain and reviving Capetian kingship"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "King of France",
+    "predecessor": {
+      "personSlug": "philip-i-of-france",
+      "displayName": "Philip I of France",
+      "note": "His father, whose long reign enlarged the royal domain around Paris."
+    },
+    "successor": {
+      "personSlug": "louis-vii-of-france",
+      "displayName": "Louis VII of France",
+      "note": "His son, newly married to Eleanor of Aquitaine"
+    }
+  },
+  "overview": [
+    "Louis VI inherited a kingship whose writ barely ran beyond Paris and Orléans: robber lords like Hugh of Le Puiset and Thomas of Marle taxed pilgrims and merchants from their towers within sight of royal cities. His answer was twenty-five years of small, grinding sieges that levelled the towers and hanged the lords.",
+    "That domestic work — narrated with devotion by his minister Abbot Suger of Saint-Denis — turned the Capetian domain into the strongest compact lordship in France, and the marriage he arranged on his deathbed, his son Louis to Eleanor of Aquitaine, briefly promised to attach the whole south to it."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Louis VI inherited a kingship whose writ barely ran beyond Paris and Orléans: robber lords like Hugh of Le Puiset and Thomas of Marle taxed pilgrims and merchants from their towers within sight of royal cities. His answer was twenty-five years of small, grinding sieges that levelled the towers and hanged the lords.",
+        "That domestic work — narrated with devotion by his minister Abbot Suger of Saint-Denis — turned the Capetian domain into the strongest compact lordship in France, and the marriage he arranged on his deathbed, his son Louis to Eleanor of Aquitaine, briefly promised to attach the whole south to it."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Louis was born in Paris in 1081 to Philip I. His father's scandalous later years — excommunicated for abducting and \"marrying\" Bertrade de Montfort — left the young Louis running the kingdom's defence from his teens, fighting William Rufus in the Vexin before he was twenty.",
+        "Associated in government long before his father died in 1108, he was consecrated at Orléans in haste — the roads to Reims were unsafe, which was itself a summary of the realm he inherited."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Suger, who had known him since they were schoolboys together at Saint-Denis, drew the enduring portrait: cheerful, accessible, physically enormous — by forty so fat that mounting a horse required effort, hence the nickname he wore without apparent resentment — and tirelessly, personally warlike. This was a king who led escalades himself and whom the chronicler shows fighting in the fords of the Epte.",
+        "His justice had a demonstrative theatricality his subjects understood: oath-breaking castellans saw their keeps slighted and their prisoners freed, and the worst of them, Thomas of Marle, was run down and mortally wounded in the king's own campaign of 1130. Churchmen forgave the appetite and the temper because the peace of the roads — the peasant's, merchant's, and pilgrim's peace — was visibly his work."
+      ]
+    },
+    {
+      "title": "Reign",
+      "paragraphs": [
+        "The wars of the domain filled two decades: Le Puiset taken and retaken three times, Crécy-sur-Serre and Coucy humbled, the Montlhéry ring around Paris broken up by siege and marriage. Beyond the domain he fought Henry I of England over the Vexin and the Norman border — beaten at Brémule in 1119, but never dislodged — and championed his ally William Clito's claim to Normandy.",
+        "In 1124, when Emperor Henry V invaded Champagne, Louis raised the oriflamme from the altar of Saint-Denis and summoned the host of the realm; the great vassals — Champagne, Blois, Burgundy, even Aquitaine — actually came, and the emperor withdrew without battle. It was the first time in living memory that the king of France had commanded France, and contemporaries grasped the significance. His last stroke was dynastic: when Duke William X of Aquitaine died in 1137, his heiress Eleanor was married to the king's son within three months."
+      ]
+    },
+    {
+      "title": "Death and legacy",
+      "paragraphs": [
+        "Louis died of dysentery on 1 August 1137, a week after the Bordeaux wedding, and was buried at Saint-Denis. Suger's biography made him the model of the good Capetian: the king as guarantor of peace, protector of churches, and hammer of tyrants.",
+        "The institutional legacy outlasted the somewhat romanticised memory. A pacified, profitable royal domain became the platform from which his grandson Philip Augustus conquered Normandy and Anjou; the alliance of crown and church, sealed at Saint-Denis, became the Capetian formula for three centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1081",
+      "title": "Born in Paris",
+      "description": "Son of Philip I of France and Bertha of Holland."
+    },
+    {
+      "date": "1108",
+      "title": "Crowned at Orléans",
+      "description": "Consecrated in haste because the road to Reims was held by hostile lords."
+    },
+    {
+      "date": "1111–1118",
+      "title": "Wars of the domain",
+      "description": "Reduces Hugh of Le Puiset and the castellans strangling the roads around Paris."
+    },
+    {
+      "date": "20 August 1119",
+      "title": "Defeated at Brémule",
+      "description": "Henry I of England beats the French knights in the Vexin; Louis keeps the border regardless."
+    },
+    {
+      "date": "1124",
+      "title": "Raises the oriflamme",
+      "description": "The host of France assembles at Reims against Emperor Henry V, who retreats without battle."
+    },
+    {
+      "date": "July 1137",
+      "title": "The Aquitaine marriage",
+      "description": "Marries his heir Louis to Eleanor, heiress of Aquitaine, uniting north and south in prospect."
+    },
+    {
+      "date": "1 August 1137",
+      "title": "Dies",
+      "description": "Dies of dysentery at Béthisy; buried at Saint-Denis."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Louis VII of France",
+        "type": "person",
+        "slug": "louis-vii-of-france",
+        "label": "Son and successor"
+      },
+      {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "The heiress he secured for his son"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris",
+        "label": "Heart of the domain he pacified"
+      }
+    ],
+    "events": []
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Louis_VI_le_Gros.jpg"
+    },
+    {
+      "title": "Louis VI of France — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Louis_VI_of_France"
+    },
+    {
+      "title": "Suger, The Deeds of Louis the Fat (Vita Ludovici Grossi)",
+      "author": "Abbot Suger of Saint-Denis",
+      "type": "primary source",
+      "note": "Contemporary biography by the king's minister and friend."
+    }
+  ],
+  "epithets": [
+    {
+      "name": "the Fat",
+      "type": "byname"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "id": "battle-of-brunanburh",
+  "name": "Battle of Brunanburh",
+  "year": 937,
+  "location": "Brunanburh (site debated), northern England",
+  "eventType": "Battle",
+  "conflict": "Consolidation of the Kingdom of England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfred_Pearse%CB%90_The_great_battle_of_Brunanburh_in_937_(Hutchinsons_Story_of_the_British_Nation%2C_1922).jpg",
+  "imageInfo": {
+    "caption": "The battle of Brunanburh in 937, illustration by Alfred Pearse for Hutchinson's Story of the British Nation, 1922.",
+    "creator": "Alfred Pearse",
+    "date": "1922",
+    "source": "Hutchinson's Story of the British Nation — via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alfred_Pearse%CB%90_The_great_battle_of_Brunanburh_in_937_(Hutchinsons_Story_of_the_British_Nation%2C_1922).jpg",
+    "note": "An early 20th-century historical illustration; no contemporary image survives."
+  },
+  "summary": "Æthelstan, first king of all England, destroyed a great coalition of Norse Dublin, Scots, and Strathclyde Britons at Brunanburh in 937 — celebrated in the Old English poem as the age's bloodiest victory.",
+  "details": "In 937 King Æthelstan and his brother Edmund defeated an invading alliance of Olaf Guthfrithson of Dublin, Constantine II of Scotland, and Owain of Strathclyde at Brunanburh, an unlocated site in northern England. The Anglo-Saxon Chronicle marks the victory with a triumphal poem; five kings and seven earls of the coalition are said to have fallen.",
+  "factions": [
+    "Kingdom of England",
+    "Coalition of Dublin Norse, Scots, and Strathclyde"
+  ],
+  "leaders": [
+    {
+      "name": "Æthelstan",
+      "faction": "English",
+      "personId": "aethelstan"
+    },
+    {
+      "name": "Olaf Guthfrithson",
+      "faction": "Coalition",
+      "personId": "olaf-guthfrithson"
+    },
+    {
+      "name": "Constantine II of Scotland",
+      "faction": "Coalition",
+      "personId": "constantine-ii-of-scotland"
+    }
+  ],
+  "outcome": "Decisive English victory; the coalition was shattered and Æthelstan's rule over all England confirmed.",
+  "participants": [
+    {
+      "side": "English",
+      "strength": {
+        "display": "not securely recorded",
+        "confidence": "unknown",
+        "note": "The Chronicle poem celebrates but does not count Æthelstan's West Saxon and Mercian army."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Æthelstan",
+          "type": "person",
+          "slug": "aethelstan"
+        }
+      ]
+    },
+    {
+      "side": "Coalition",
+      "strength": {
+        "display": "a great host of Dublin Norse, Scots, and Britons; \"five kings\" said to have fallen",
+        "confidence": "chronicle-claim",
+        "note": "The five kings and seven earls are the Chronicle poem's claim; real numbers are unrecorded."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Norway",
+          "title": "Kingdom of Norway",
+          "type": "location",
+          "slug": "kingdom-of-norway"
+        },
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Olaf Guthfrithson",
+          "type": "person",
+          "slug": "olaf-guthfrithson"
+        },
+        {
+          "name": "Constantine II of Scotland",
+          "type": "person",
+          "slug": "constantine-ii-of-scotland"
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Brunanburh, fought in 937, defended the newly united Kingdom of England that Æthelstan had assembled a decade earlier. A coalition assembled to break it — Olaf Guthfrithson's Norse of Dublin, Constantine II of Scotland, and Owain's Britons of Strathclyde — invaded, and Æthelstan and his brother Edmund destroyed it in a battle the Anglo-Saxon Chronicle commemorates with a great triumphal poem.",
+        "Contemporaries and later chroniclers alike treated it as the defining victory of the age — \"the greatest slaughter since the Saxons came to Britain\", the poem says — confirming that England south of the Scots would be one kingdom under Æthelstan's house rather than a patchwork of Norse, Scottish, and English powers."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Æthelstan had taken York in 927 and received the submission of the northern kings, becoming the first ruler of all England. That supremacy provoked the reaction: in 937 the Norse king of Dublin, the king of Scots, and the king of Strathclyde — rivals to each other but united against the West Saxon giant — combined and invaded.",
+        "The alliance gathered a great host and pushed into northern England; Æthelstan and Edmund marched to meet it with the levies of Wessex and Mercia. The battle site, Brunanburh, has never been securely located — candidates range across the north-west and Humber regions."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "Æthelstan led the combined army of the Kingdom of England — West Saxons and Mercians — beside his young brother Edmund, the future king. The coalition fielded Olaf Guthfrithson's Hiberno-Norse fleet-army, Constantine II of Scotland's host, and Owain of Strathclyde's Britons.",
+        "No reliable numbers survive; the Chronicle poem's tally of five fallen kings and seven earls of the coalition is celebration, not a count. What the sources agree on is scale — an exceptionally large and bloody encounter by tenth-century standards."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Old English poem preserved in the Chronicle gives imagery rather than tactics: a day-long slaughter, the coalition broken and pursued, the field left to \"the dark raven\" and \"the eagle\". Constantine lost a son; Olaf escaped by ship back to Dublin; the coalition's kings and earls were cut down in the rout.",
+        "Later sources (Egil's Saga among them) add colourful and unreliable detail. What is certain is the completeness of the English victory and the exceptional casualties on both sides."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Brunanburh confirmed Æthelstan's kingship of all England and the primacy of the West Saxon dynasty. The victory did not permanently settle the north — Olaf Guthfrithson retook York on Æthelstan's death in 939, and the Norse kingdom of York flickered on until Eric Bloodaxe's expulsion in 954 — but the united English kingdom itself was never again seriously in question.",
+        "The battle's cultural afterlife outran its politics: the Chronicle poem is one of Old English literature's masterpieces, and \"Brunanburh\" became shorthand for the founding victory of English unity — the field on which the kingdom Alfred's house had built proved it could defend itself against all its neighbours at once."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The Viking age runs on to Stamford Bridge",
+    "battleSlug": "battle-of-stamford-bridge",
+    "relationship": "same-region",
+    "reason": "Brunanburh confirmed the united English kingdom against Norse and Scottish challenge; the long Scandinavian struggle for England it belonged to ended only in 1066, when Harold Godwinson destroyed the last great Viking invasion at Stamford Bridge."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Æthelstan",
+        "type": "person",
+        "slug": "aethelstan"
+      },
+      {
+        "name": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great"
+      },
+      {
+        "name": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of England",
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
+      {
+        "name": "Kingdom of Scotland",
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      },
+      {
+        "name": "Northumbria",
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "The survival that made the kingdom, 878"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "The Viking age's end, 1066"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record — Pearse illustration",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Pearse%CB%90_The_great_battle_of_Brunanburh_in_937_(Hutchinsons_Story_of_the_British_Nation%2C_1922).jpg"
+    },
+    {
+      "title": "Battle of Brunanburh — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Brunanburh"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle (the Brunanburh poem)",
+      "author": "Chronicle compilers",
+      "type": "primary source"
+    }
+  ],
+  "type": "event"
+}

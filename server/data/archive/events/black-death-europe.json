@@ -1,0 +1,113 @@
+{
+  "id": "black-death-europe",
+  "type": "event",
+  "name": "Black Death Reaches Europe",
+  "year": 1347,
+  "location": "Mediterranean ports, Europe",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/1346-1353_spread_of_the_Black_Death_in_Europe_map.svg/1280px-1346-1353_spread_of_the_Black_Death_in_Europe_map.svg.png",
+  "summary": "A devastating plague pandemic entered Europe and killed a large share of the population.",
+  "details": "The Black Death spread rapidly through trade routes, ports, towns, and countryside. Its demographic shock altered labor markets, religious life, social tensions, urban governance, and memory. Europe after the plague was poorer in people but changed in bargaining power and political imagination.",
+  "eventType": "Other",
+  "background": [
+    "The plague moved through commercial and maritime networks linking the Black Sea, Mediterranean ports, and inland towns.",
+    "Dense urban populations, trade routes, and limited medical knowledge made Europe highly vulnerable to rapid spread."
+  ],
+  "aftermath": "The demographic shock transformed labor relations, religious life, urban governance, and social tensions across Europe.",
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A devastating plague pandemic entered Europe and killed a large share of the population."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "The plague moved through commercial and maritime networks linking the Black Sea, Mediterranean ports, and inland towns.",
+        "Dense urban populations, trade routes, and limited medical knowledge made Europe highly vulnerable to rapid spread."
+      ]
+    },
+    {
+      "title": "Main events",
+      "paragraphs": [
+        "The demographic shock transformed labor relations, religious life, urban governance, and social tensions across Europe.",
+        "The Black Death spread rapidly through trade routes, ports, towns, and countryside. Its demographic shock altered labor markets, religious life, social tensions, urban governance, and memory. Europe after the plague was poorer in people but changed in bargaining power and political imagination."
+      ]
+    },
+    {
+      "title": "Key figures",
+      "paragraphs": [
+        "No commander directed the plague's spread. Key observers include Giovanni Boccaccio in Florence, whose Decameron records the epidemic, and chroniclers at Siena, Avignon, and other affected cities who measured mortality and social collapse."
+      ]
+    },
+    {
+      "title": "Consequences",
+      "paragraphs": [
+        "The demographic shock transformed labor relations, religious life, urban governance, and social tensions across Europe. Labor scarcity gave many peasants and wage workers bargaining power, while elites often tried to restore older obligations through wage controls and harsher laws. The plague also intensified devotional movements, scapegoating, anti-Jewish violence in some regions, and a sharper awareness of death in late medieval culture."
+      ]
+    },
+    {
+      "title": "Historical significance",
+      "paragraphs": [
+        "Black Death Reaches Europe matters because it reveals how medieval authority was made through conflict, ritual, writing, negotiation, and memory."
+      ]
+    }
+  ],
+  "imageInfo": {
+    "caption": "Map showing the spread of the Black Death across Europe from 1346 to 1353.",
+    "creator": "Wikimedia Commons map contributor",
+    "date": "modern historical map",
+    "source": "Wikimedia Commons",
+    "note": "A modern map summarizing the pandemic spread; dates and routes are approximations from historical reconstruction."
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:1346-1353_spread_of_the_Black_Death_in_Europe_map.svg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Black Death",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Black-Death"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Entry point into the Mediterranean world"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Devastated population and labour"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Struck amid the Hundred Years’ War"
+      }
+    ],
+    "people": [
+      {
+        "title": "Magnus Eriksson",
+        "type": "person",
+        "slug": "magnus-eriksson",
+        "label": "Reign struck by the plague in Scandinavia"
+      }
+    ]
+  }
+}

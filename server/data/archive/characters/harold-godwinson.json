@@ -1,0 +1,265 @@
+{
+  "id": "harold-godwinson",
+  "type": "character",
+  "name": "Harold Godwinson",
+  "aliases": [
+    "Harold II"
+  ],
+  "born": 1022,
+  "died": 1066,
+  "deathAge": "about 44",
+  "restingPlace": "Traditionally Waltham Abbey, disputed",
+  "location": "Kingdom of England",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bayeux_tapestry_stitches_detail..jpg",
+  "summary": "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings.",
+  "details": "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings.",
+  "title": "king of England",
+  "roles": [
+    "King of England",
+    "Earl of Wessex"
+  ],
+  "birth": {
+    "date": "c. 1022",
+    "place": {
+      "name": "Wessex",
+      "slug": "kingdom-of-wessex"
+    },
+    "note": "Born into the Godwin family’s Wessex power base; the exact birthplace is not securely recorded."
+  },
+  "death": {
+    "date": "1066",
+    "place": {
+      "name": "Hastings",
+      "slug": "hastings"
+    },
+    "event": {
+      "name": "Battle of Hastings",
+      "type": "event",
+      "slug": "battle-of-hastings"
+    },
+    "circumstance": "Killed at the Battle of Hastings in 1066 while defending his kingship against William of Normandy."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of England",
+    "culture": "Anglo-Saxon English",
+    "knownFor": "Last crowned Anglo-Saxon king of England"
+  },
+  "imageInfo": {
+    "caption": "Harold Godwinson, named above his head, in a detail of the Bayeux Tapestry, embroidered in the 1070s.",
+    "creator": "See source record",
+    "date": "1070s",
+    "source": "Wikimedia Commons",
+    "note": "A near-contemporary embroidered figure, labelled with his name; conventional, not a likeness."
+  },
+  "overview": [
+    "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Harold Godwinson was the last crowned Anglo-Saxon king of England. His brief reign in 1066 was consumed by invasion crises and ended at the Battle of Hastings."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Harold Godwinson was born c. 1022, associated with Wessex. The early evidence is uneven, so precise details should be treated carefully."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Harold Godwinson is remembered through the lens of the Norman Conquest, and his character is contested precisely because the victors needed to justify his overthrow. Norman sources, including the Bayeux Tapestry and William of Poitiers, painted him as an oath-breaker and usurper to legitimise the invasion, while English and later sympathetic tradition saw a capable, brave, and rightful king cut down at the Battle of Hastings.",
+        "What the record more securely supports is an able and energetic leader: the most powerful earl in England before his accession, a successful commander against the Welsh, and a king who, within weeks of taking the throne, marched north to destroy Harald Hardrada at the Battle of Stamford Bridge before turning to face the Normans in the south. That double campaign shows decisiveness and stamina under extreme pressure.",
+        "His personality is hard to separate from propaganda, but the documented actions point to a vigorous, courageous ruler undone by the impossible timing of two invasions. He is remembered as the last crowned Anglo-Saxon king — brave and competent in the English memory, perjured and doomed in the Norman — his real character framed by the conquest that destroyed him."
+      ]
+    },
+    {
+      "title": "As king of England",
+      "paragraphs": [
+        "Harold rose from the powerful Godwin family and was elected king after Edward the Confessor’s death. He defeated Harald Hardrada at Stamford Bridge before marching south to face William of Normandy.",
+        "Battle of Hastings gives Harold Godwinson's career a specific military and political setting: his choices, command, defeat, or death affected the outcome remembered in that article."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Killed at the Battle of Hastings in 1066 while defending his kingship against William of Normandy."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Harold became a symbol of the lost Anglo-Saxon kingdom. His defeat opened the way for Norman rule and lasting changes in English aristocracy, language, and government."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Became king of England in 1066",
+      "description": "Harold’s election after Edward the Confessor’s death made him the central English claimant in the crisis year of 1066."
+    },
+    {
+      "title": "Defeated Harald Hardrada at Stamford Bridge",
+      "description": "His rapid march north and victory at Stamford Bridge destroyed the Norwegian invasion before the Norman landing."
+    },
+    {
+      "title": "Led English resistance at Hastings",
+      "description": "Harold commanded the English shield wall at Hastings and died in the battle that opened England to Norman conquest."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1022",
+      "title": "Born",
+      "description": "Born into the powerful Godwin family."
+    },
+    {
+      "date": "1053",
+      "title": "Earl of Wessex",
+      "description": "Succeeds to his father’s earldom."
+    },
+    {
+      "date": "1066",
+      "title": "Crowned king",
+      "description": "Chosen as king after Edward the Confessor dies."
+    },
+    {
+      "date": "1066",
+      "title": "Wins at Stamford Bridge",
+      "description": "Defeats Harald Hardrada and Tostig Godwinson.",
+      "links": [
+        {
+          "title": "Battle of Stamford Bridge",
+          "type": "event",
+          "slug": "battle-of-stamford-bridge"
+        }
+      ]
+    },
+    {
+      "date": "1066",
+      "title": "Dies at Hastings",
+      "description": "Killed fighting William of Normandy.",
+      "links": [
+        {
+          "title": "Battle of Hastings",
+          "type": "event",
+          "slug": "battle-of-hastings"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings",
+        "label": "Died in this engagement"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Fought in this engagement"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Realm"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Birthplace"
+      },
+      {
+        "title": "Hastings",
+        "type": "location",
+        "slug": "hastings",
+        "label": "Place of death"
+      },
+      {
+        "title": "Stamford Bridge",
+        "type": "location",
+        "slug": "stamford-bridge",
+        "label": "Won his northern victory there, 1066"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "Dane Axe",
+        "type": "weaponArmor",
+        "slug": "dane-axe",
+        "label": "The two-handed axe of his housecarls at Hastings"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Bayeux Tapestry",
+        "type": "artifact",
+        "slug": "bayeux-tapestry",
+        "label": "Its defeated protagonist"
+      }
+    ],
+    "people": [
+      {
+        "title": "Edith of Wessex",
+        "type": "person",
+        "slug": "edith-of-wessex",
+        "label": "Sister"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikipedia: Harold Godwinson",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Harold_II"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Bayeux_tapestry_stitches_detail..jpg"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of England",
+    "predecessor": {
+      "personSlug": "edward-the-confessor",
+      "displayName": "Edward the Confessor"
+    },
+    "successor": {
+      "personSlug": "william-the-conqueror",
+      "displayName": "William the Conqueror",
+      "note": "By conquest at Hastings; Edgar Ætheling's brief election was never made effective"
+    }
+  },
+  "sectionImages": [
+    {
+      "section": "As king of England",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg",
+      "alt": "Harold swears his famous oath to Duke William, from the Bayeux Tapestry — the Norman justification for the invasion of 1066.",
+      "caption": "Harold swears his famous oath to Duke William, from the Bayeux Tapestry — the Norman justification for the invasion of 1066.",
+      "creator": "Unknown 11th-century embroiderers",
+      "date": "c. 1070s",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg",
+      "note": "A Norman-commissioned scene: whether Harold swore such an oath, and under what compulsion, was contested even at the time. It shows the case made against him, not neutral fact."
+    }
+  ]
+}

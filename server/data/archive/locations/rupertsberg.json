@@ -1,0 +1,83 @@
+{
+  "id": "rupertsberg",
+  "type": "location",
+  "name": "Rupertsberg",
+  "locationType": "Monastic site",
+  "year": "1150",
+  "kingdom": "Holy Roman Empire",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Pilgertafel_Heiliger_Rupert.jpg",
+  "summary": "The convent site near Bingen founded by Hildegard of Bingen.",
+  "overview": [
+    "The convent site near Bingen founded by Hildegard of Bingen."
+  ],
+  "knownFor": [
+    "Hildegard of Bingen",
+    "Visionary writing",
+    "Benedictine women’s religious life"
+  ],
+  "imageInfo": {
+    "caption": "Pilgrim panel of Saint Rupert, connected with the Rupertsberg devotional landscape.",
+    "creator": "Unknown artist",
+    "date": "later devotional art",
+    "source": "Wikimedia Commons",
+    "note": "Later religious image connected with the site tradition rather than the vanished medieval monastery itself.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pilgertafel_Heiliger_Rupert.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The convent site near Bingen founded by Hildegard of Bingen.",
+        "Rupertsberg matters historically through Hildegard of Bingen, Visionary writing, Benedictine women’s religious life."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Pilgertafel_Heiliger_Rupert.jpg"
+    },
+    {
+      "title": "Wikipedia: Rupertsberg",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Rupertsberg"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Hildegard of Bingen",
+        "type": "person",
+        "slug": "hildegard-of-bingen",
+        "label": "Death of Hildegard of Bingen"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Bermersheim vor der Hoehe",
+        "type": "location",
+        "slug": "bermersheim-vor-der-hoehe"
+      }
+    ]
+  }
+}

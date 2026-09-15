@@ -1,0 +1,78 @@
+{
+  "id": "flensburg-fjord",
+  "type": "location",
+  "name": "Flensburg Fjord",
+  "locationType": "Region",
+  "year": "Medieval period",
+  "kingdom": "Danish-German frontier",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Aerial_image_of_Flensburg_Firth_%28view_from_the_south%29.jpg",
+  "summary": "A Baltic frontier zone connected to Schleswig and Scandinavian political conflict.",
+  "overview": [
+    "A Baltic frontier zone connected to Schleswig and Scandinavian political conflict."
+  ],
+  "knownFor": [
+    "Death place of Margaret I",
+    "Schleswig conflicts",
+    "Danish frontier politics"
+  ],
+  "imageInfo": {
+    "caption": "Aerial view of Flensburg Fjord.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the fjord landscape associated with the traditional death-place of Queen Margaret I.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Flensburg_Firth_%28view_from_the_south%29.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Baltic frontier zone connected to Schleswig and Scandinavian political conflict.",
+        "Flensburg Fjord matters historically through Death place of Margaret I, Schleswig conflicts, Danish frontier politics."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Flensburg_Firth_(view_from_the_south).jpg"
+    },
+    {
+      "title": "Wikipedia: Flensburg Fjord",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Flensburg_Fjord"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Margaret I of Denmark",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Death of Margaret I of Denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "Realm of Margaret I of Denmark"
+      },
+      {
+        "title": "Soborg Castle",
+        "type": "location",
+        "slug": "soborg-castle"
+      }
+    ]
+  }
+}

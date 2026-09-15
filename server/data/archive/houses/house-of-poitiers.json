@@ -1,0 +1,182 @@
+{
+  "id": "house-of-poitiers",
+  "type": "house",
+  "name": "House of Poitiers",
+  "aliases": [
+    "House of Poitiers / Ramnulfids",
+    "House of Poitiers",
+    "Ramnulfids",
+    "Ramnulfid",
+    "Poitevin dynasty",
+    "Dukes of Aquitaine"
+  ],
+  "originYear": 845,
+  "endYear": 1137,
+  "reignSpan": "9th century–1137",
+  "region": "Aquitaine & Poitou",
+  "originPlace": "Poitou, western France",
+  "arms": "Gules, a lion (leopard) passant guardant or — the arms of the dukes of Aquitaine.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20of%20Fontevraud%20Abbey%20Eleanor%20of%20Aquitaine%20effigy%20detail.jpg?width=1000",
+  "imageInfo": {
+    "caption": "The tomb effigy of Eleanor of Aquitaine, last heiress of the house, at Fontevraud Abbey — she is shown reading a book.",
+    "creator": "Fontevraud Abbey (sculpted effigy)",
+    "date": "Early 13th century (Eleanor d. 1204)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Eleanor_of_Aquitaine_effigy_detail.jpg",
+    "note": "Her near-contemporary carved and painted tomb effigy, one of the earliest such royal effigies to survive."
+  },
+  "summary": "The Ramnulfid counts of Poitou and dukes of Aquitaine, whose vast duchy passed through the great heiress Eleanor of Aquitaine to the crowns of France and then England.",
+  "overview": "The house of Poitiers, or Ramnulfids, ruled the county of Poitou and the duchy of Aquitaine — one of the largest and richest fiefs of medieval France — from the ninth century. It produced the troubadour duke William IX; its line ended with the heiress Eleanor of Aquitaine, whose marriages to Louis VII of France and then Henry II of England carried Aquitaine into the heart of European high politics.",
+  "founder": {
+    "displayName": "Ramnulf I of Poitiers",
+    "note": "Count of Poitiers from whom the Ramnulfid line takes its name (no Codex article yet)"
+  },
+  "notableMembers": [
+    {
+      "displayName": "William IX",
+      "note": "\"the Troubadour\"; Duke of Aquitaine and the first known troubadour poet"
+    },
+    {
+      "displayName": "William X",
+      "note": "Eleanor’s father; the last duke of the male line"
+    },
+    {
+      "personSlug": "eleanor-of-aquitaine",
+      "displayName": "Eleanor of Aquitaine",
+      "note": "Duchess in her own right; Queen of France, then of England"
+    }
+  ],
+  "familyTree": {
+    "caption": "The last generations of the Ramnulfid dukes, ending with the heiress Eleanor, who carried Aquitaine into the French and then the English royal houses. ⚭ marks a marriage.",
+    "root": {
+      "name": "William IX",
+      "note": "Duke of Aquitaine, \"the Troubadour\"",
+      "children": [
+        {
+          "name": "William X",
+          "note": "last duke of the male line, d. 1137",
+          "children": [
+            {
+              "name": "Eleanor of Aquitaine",
+              "personSlug": "eleanor-of-aquitaine",
+              "note": "heiress; Queen of France then of England"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Ramnulfids emerged in the ninth century as counts of Poitou, taking their name from Ramnulf I. As Carolingian central authority collapsed, they built a great territorial principality in the south-west, uniting Poitou with the duchy of Aquitaine and lands stretching toward Gascony. By the tenth and eleventh centuries the dukes of Aquitaine were among the most powerful princes of France, nominal vassals of the Capetian kings but effectively independent rulers of a rich, distinct region with its own language and culture.",
+        "Their court at Poitiers became a centre of the new vernacular poetry, and Duke William IX is the earliest troubadour whose verse survives — founder of a courtly literary tradition that spread across Europe."
+      ]
+    },
+    {
+      "title": "Eleanor and the great inheritance",
+      "paragraphs": [
+        "The line ended in the male line with William X, who died in 1137 leaving his teenage daughter Eleanor as the greatest heiress in western Europe. Within weeks she was married to the heir to the French throne, and as queen of Louis VII she brought Aquitaine into the French royal orbit; she accompanied him on the Second Crusade before the marriage was annulled in 1152.",
+        "Eleanor then married Henry of Anjou, soon Henry II of England, joining Aquitaine to the sprawling Angevin dominions that ran from Scotland to the Pyrenees. Her sons Richard the Lionheart and John both ruled the duchy, and her long, turbulent life made her one of the defining figures of the twelfth century."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Through Eleanor the Ramnulfid inheritance shaped a century of Anglo-French conflict: Aquitaine remained an English possession, held of the French crown, and the tension over it helped set the stage for the Hundred Years’ War. The duchy’s wine trade through Bordeaux bound it economically to England for three hundred years.",
+        "The house of Poitiers thus vanished as a ruling line precisely by succeeding too well — its heiress carrying one of Europe’s greatest fiefs into the marriages that redrew the political map of the West."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1137",
+      "title": "Eleanor inherits Aquitaine",
+      "description": "The death of Duke William X leaves Eleanor heiress of the duchy; she marries Louis VII of France.",
+      "links": [
+        {
+          "title": "Eleanor of Aquitaine",
+          "type": "person",
+          "slug": "eleanor-of-aquitaine"
+        }
+      ]
+    },
+    {
+      "date": "1152",
+      "title": "Eleanor marries Henry of Anjou",
+      "description": "After her French marriage is annulled, Aquitaine passes toward the Angevin empire."
+    },
+    {
+      "date": "1204",
+      "title": "Death of Eleanor",
+      "description": "The last of the Poitevin line dies at Fontevraud after an extraordinary career."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "Last heiress of the house"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Aquitaine",
+        "title": "Aquitaine",
+        "type": "location",
+        "slug": "aquitaine",
+        "label": "The duchy they ruled"
+      },
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "Seat of the counts"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Plantagenet",
+        "type": "house",
+        "slug": "house-of-plantagenet",
+        "label": "The Angevin house Eleanor married into"
+      },
+      {
+        "title": "House of Capet",
+        "type": "house",
+        "slug": "house-of-capet",
+        "label": "The French royal house of her first marriage"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Eleanor of Aquitaine — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Eleanor-of-Aquitaine"
+    },
+    {
+      "title": "Eleanor of Aquitaine — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eleanor_of_Aquitaine"
+    },
+    {
+      "title": "Duke of Aquitaine — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Duke_of_Aquitaine"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason%20du%20duch%C3%A9%20de%20Guyenne.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the dukes of Aquitaine (Guyenne) — a single gold leopard on red.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_du_duché_de_Guyenne.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

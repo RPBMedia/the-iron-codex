@@ -1,0 +1,228 @@
+{
+  "id": "order-of-christ",
+  "type": "order",
+  "name": "Order of Christ",
+  "aliases": [
+    "The Order of Christ",
+    "Military Order of Christ",
+    "Order of the Knights of Christ",
+    "Ordem de Cristo",
+    "Order of Christ (Portugal)"
+  ],
+  "originYear": 1319,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Charola_do_Convento_de_Cristo_-_Tomar_-_Portugal_%2832439629132%29.jpg",
+  "imageInfo": {
+    "caption": "The Charola, the round Templar church at the Convent of Christ in Tomar, inherited by the order.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charola_do_Convento_de_Cristo_-_Tomar_-_Portugal_(32439629132).jpg",
+    "note": "Tomar, the Templars’ Portuguese seat, became the headquarters of the Order of Christ."
+  },
+  "sigilImage": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Order_of_Christ_Portugal_cross.png",
+  "sigilImageInfo": {
+    "caption": "The Cross of Christ — a red cross with a white inner cross.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Order_of_Christ_Portugal_cross.png",
+    "note": "The cross that later sailed on the caravels of the Portuguese discoveries."
+  },
+  "summary": "The Order of Christ was founded in 1319 as the direct heir of the Templars in Portugal, inheriting all their property — including Tomar — so that the suppressed Temple lived on under a new name. A century later, under Prince Henry the Navigator, it became the engine and emblem of the Portuguese age of discovery.",
+  "founded": "1319, Portugal",
+  "recognized": "Papal bull Ad ea ex quibus of John XXII, 1319",
+  "status": "Extant as a Portuguese honorific order (crown mastership from 1551)",
+  "allegiance": "The crown of Portugal; the Papacy",
+  "headquarters": "Castro Marim → Tomar",
+  "habit": "White mantle with the red Cross of Christ",
+  "patron": "Jesus Christ and the Virgin Mary",
+  "purpose": "The order was created to preserve the Templars’ property and defensive mission in Portugal after the Temple’s suppression, guarding the southern frontier and the Algarve coast. Under Prince Henry it was redirected to fund and bless the exploration of the Atlantic and the coasts of Africa.",
+  "keyStats": [
+    {
+      "label": "Founded",
+      "value": "1319 — heir of the Templars in Portugal"
+    },
+    {
+      "label": "Emblem",
+      "value": "The red Cross of Christ"
+    },
+    {
+      "label": "Great patron",
+      "value": "Prince Henry the Navigator"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Tomar, the old Templar seat"
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Order of Christ is the clearest case of the Templars surviving their own destruction. When the Temple was suppressed in 1312, King Dinis of Portugal refused to let its wealth pass to the Hospitallers and instead had a new Portuguese order created to inherit it whole — men, castles, and Tomar alike.",
+        "For a century it was a frontier order like any other; then, under Prince Henry the Navigator, it became the spiritual and financial sponsor of the voyages that opened the age of discovery, its red cross flying on the sails of the caravels."
+      ]
+    },
+    {
+      "title": "Heir of the Templars",
+      "paragraphs": [
+        "King Dinis argued to the papacy that the Templars’ Portuguese property had been given for the war against the Muslims and should stay in Portugal for that purpose. In 1319 Pope John XXII agreed, and by the bull Ad ea ex quibus created the Order of Christ, endowed with the entire Templar inheritance.",
+        "Many former Templars simply joined the new order, and its first seat was the frontier castle of Castro Marim before it moved to Tomar, the Templars’ own great convent — the continuity could hardly have been plainer."
+      ]
+    },
+    {
+      "title": "Prince Henry and the sea",
+      "paragraphs": [
+        "In 1420 Prince Henry, called the Navigator, became governor of the Order of Christ, and he turned its vast revenues to a new kind of crusade — the exploration of the Atlantic islands and the west coast of Africa.",
+        "The order’s ships carried its cross south year after year; Madeira, the Azores, and the African coast were opened under its banner. The red Cross of Christ became the badge of Portuguese expansion, painted on the sails that later reached India and Brazil."
+      ]
+    },
+    {
+      "title": "Order and crown",
+      "paragraphs": [
+        "The governorship of the order was held by royal princes and then by the kings themselves. In 1551 the mastership was formally united with the Portuguese crown, and the order became an instrument of royal patronage.",
+        "By then its cross was known across the oceans as the mark of Portugal, from the forts of Africa to the coasts of Asia and the Americas."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Order of Christ preserved the Templar inheritance in Portugal and then transformed it, becoming the institution that underwrote the discoveries. Its headquarters at Tomar, layering Templar rotunda and Renaissance cloister, is one of the great monuments of both stories.",
+        "It survives today as a Portuguese honorific order, but its true legacy is written on the map of the world the Portuguese sailed to under its cross."
+      ]
+    }
+  ],
+  "grandMasters": [
+    {
+      "name": "Gil Martins",
+      "term": "1319–1321",
+      "note": "First master, transferred from the Order of Aviz."
+    },
+    {
+      "name": "Lopo Dias de Sousa",
+      "term": "1373–1417",
+      "note": "Master through the crisis of 1383–85."
+    },
+    {
+      "name": "Prince Henry the Navigator",
+      "slug": "henry-the-navigator",
+      "term": "1420–1460",
+      "note": "Governor who turned the order to Atlantic exploration."
+    },
+    {
+      "name": "Prince Fernando",
+      "term": "1460–1470",
+      "note": "Royal prince and administrator of the order."
+    },
+    {
+      "name": "Manuel, Duke of Beja",
+      "term": "from 1484",
+      "note": "Later King Manuel I; the order’s cross became the mark of empire."
+    }
+  ],
+  "strongholds": [
+    {
+      "name": "Tomar (Convent of Christ)",
+      "period": "from 1357",
+      "note": "The former Templar convent that became the order’s headquarters."
+    },
+    {
+      "name": "Castro Marim",
+      "period": "1319–1357",
+      "note": "The Algarve frontier castle that was the order’s first seat."
+    },
+    {
+      "name": "Almourol",
+      "period": "former Templar castle",
+      "note": "The island fortress on the Tagus, part of the Templar inheritance."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1312",
+      "title": "The Templars suppressed",
+      "description": "The Council of Vienne dissolves the Temple; its Portuguese lands are held pending a decision."
+    },
+    {
+      "date": "1319",
+      "title": "Foundation of the Order of Christ",
+      "description": "John XXII’s bull creates the order to inherit the Templar estates in Portugal."
+    },
+    {
+      "date": "1357",
+      "title": "Headquarters at Tomar",
+      "description": "The order takes over the Templars’ great convent."
+    },
+    {
+      "date": "1420",
+      "title": "Prince Henry governor",
+      "description": "The Navigator turns the order’s wealth to Atlantic exploration."
+    },
+    {
+      "date": "1551",
+      "title": "Union with the crown",
+      "description": "The mastership is joined permanently to the Portuguese crown."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "The Templars were wiped out in 1312.",
+      "reality": "In Portugal they were reconstituted almost intact as the Order of Christ, keeping their castles, their convent at Tomar, and many of their members."
+    },
+    {
+      "claim": "The Cross of Christ on the caravels was a national flag.",
+      "reality": "It was the emblem of the Order of Christ, whose patron Prince Henry funded the voyages — a religious-military order’s cross, not a state banner."
+    }
+  ],
+  "sources": [
+    {
+      "title": "A History of Portugal",
+      "author": "A. H. de Oliveira Marques",
+      "year": "1972"
+    },
+    {
+      "title": "Prince Henry “the Navigator”: A Life",
+      "author": "Peter Russell",
+      "year": "2000"
+    },
+    {
+      "title": "The New Knighthood",
+      "author": "Malcolm Barber",
+      "year": "1994"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "King whose sons, incl. Prince Henry, led the order"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm the order served"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Whose entire Portuguese inheritance it received"
+      },
+      {
+        "title": "Order of Aviz",
+        "type": "order",
+        "slug": "order-of-aviz",
+        "label": "Portugal’s other great order"
+      },
+      {
+        "title": "Order of Montesa",
+        "type": "order",
+        "slug": "order-of-montesa",
+        "label": "The Aragonese heir of the Templars"
+      }
+    ]
+  }
+}

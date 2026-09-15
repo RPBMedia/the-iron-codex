@@ -1,0 +1,208 @@
+{
+  "id": "house-of-seljuk",
+  "type": "house",
+  "name": "House of Seljuk",
+  "aliases": [
+    "Seljuk",
+    "Seljuks",
+    "Seljuk dynasty",
+    "Great Seljuk",
+    "Seljuq",
+    "Seljuq dynasty",
+    "Great Seljuq"
+  ],
+  "originYear": 1037,
+  "endYear": 1194,
+  "reignSpan": "1037–1194 (Great Seljuks)",
+  "region": "Persia, Mesopotamia & Anatolia",
+  "originPlace": "Central Asian Turkic steppe",
+  "arms": "The Seljuks bore no Western coat of arms; a double-headed eagle and a bow-and-arrow mark (tamga) are associated with them.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BnF%20Fr232%20fol323%20Alp%20Arslan%20Romanus.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Sultan Alp Arslan humiliating the captured Byzantine emperor Romanos IV after Manzikert, in a later Western manuscript.",
+    "creator": "Manuscript illumination (BnF, Fr. 232)",
+    "date": "15th-century depiction",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BnF_Fr232_fol323_Alp_Arslan_Romanus.jpg",
+    "note": "A later European depiction of the Seljuk sultan Alp Arslan and his most famous captive."
+  },
+  "summary": "The Turkic dynasty that built a great sultanate across Persia and the Near East and, by winning Manzikert, opened Anatolia to the Turks.",
+  "overview": "The House of Seljuk led the Oghuz Turks out of Central Asia to build the Great Seljuk Empire across Persia, Iraq, and Syria in the eleventh century. Ruling as sultans in the name of the Abbasid caliph, Tughril Beg, Alp Arslan, and Malik-Shah I presided over a Sunni revival and a cultural golden age, and their victory at Manzikert in 1071 began the Turkish settlement of Anatolia.",
+  "founder": {
+    "personSlug": "tughril-beg",
+    "displayName": "Tughril Beg",
+    "note": "First Great Seljuk sultan"
+  },
+  "notableMembers": [
+    {
+      "personSlug": "tughril-beg",
+      "displayName": "Tughril Beg",
+      "note": "Founder; entered Baghdad as sultan in 1055"
+    },
+    {
+      "personSlug": "alp-arslan",
+      "displayName": "Alp Arslan",
+      "note": "Victor of Manzikert over the Byzantines"
+    },
+    {
+      "personSlug": "malik-shah-i",
+      "displayName": "Malik-Shah I",
+      "note": "The empire at its height, with the vizier Nizam al-Mulk"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Great Seljuk sultans, descended from the eponymous chief Seljuk. Tughril Beg was succeeded by his nephew Alp Arslan, son of his brother Chaghri Beg, and then by Malik-Shah I.",
+    "root": {
+      "name": "Seljuk",
+      "note": "eponymous Oghuz Turkic chief",
+      "children": [
+        {
+          "name": "Tughril Beg",
+          "personSlug": "tughril-beg",
+          "note": "r. 1037–1063"
+        },
+        {
+          "name": "Chaghri Beg",
+          "note": "Tughril’s brother",
+          "children": [
+            {
+              "name": "Alp Arslan",
+              "personSlug": "alp-arslan",
+              "note": "r. 1063–1072",
+              "children": [
+                {
+                  "name": "Malik-Shah I",
+                  "personSlug": "malik-shah-i",
+                  "note": "r. 1072–1092"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The dynasty took its name from Seljuk, a chief of the Oghuz Turks who converted to Islam on the Central Asian steppe around 1000. His grandsons Tughril Beg and Chaghri Beg led their followers into Persia, defeating the Ghaznavids and overrunning the region.",
+        "In 1055 Tughril Beg entered Baghdad, freed the Abbasid caliph from the control of the Shia Buyids, and was recognised as sultan — temporal protector of Sunni Islam under the caliph’s spiritual authority."
+      ]
+    },
+    {
+      "title": "Alp Arslan and Manzikert",
+      "paragraphs": [
+        "Tughril’s nephew Alp Arslan expanded the empire into Armenia and Syria. In 1071 he met the Byzantine emperor Romanos IV at the Battle of Manzikert and won a crushing victory, capturing the emperor himself.",
+        "Manzikert broke Byzantine control of Anatolia and opened the interior to Turkish settlement — one of the decisive battles of the Middle Ages, whose consequences reached to the Crusades and the eventual rise of the Ottomans."
+      ]
+    },
+    {
+      "title": "The golden age of Malik-Shah",
+      "paragraphs": [
+        "Under Malik-Shah I the Great Seljuk Empire reached its height, stretching from the borders of China to the Mediterranean. Much of the credit belongs to his brilliant Persian vizier Nizam al-Mulk, who built a network of madrasas, reformed the administration, and wrote a famous manual of statecraft.",
+        "This was an age of Persian cultural flowering under Turkish rule, associated with the poet and astronomer Omar Khayyam and the reform of the calendar."
+      ]
+    },
+    {
+      "title": "Fragmentation and legacy",
+      "paragraphs": [
+        "After Malik-Shah’s death in 1092 the empire fragmented among rival princes and Turkish commanders, and it was in this divided world that the First Crusade arrived in 1096. The Great Seljuk sultanate faded in the twelfth century, though a Seljuk branch ruled the Sultanate of Rum in Anatolia for longer.",
+        "The Seljuks left a lasting mark: they entrenched Sunni Islam and the madrasa, spread Persian administrative culture, and — above all — turned Anatolia into the Turkish land it has been ever since."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1055",
+      "title": "Tughril Beg enters Baghdad",
+      "description": "The caliph recognises the first Seljuk sultan.",
+      "links": [
+        {
+          "title": "Tughril Beg",
+          "type": "person",
+          "slug": "tughril-beg"
+        }
+      ]
+    },
+    {
+      "date": "1071",
+      "title": "Battle of Manzikert",
+      "description": "Alp Arslan defeats and captures the Byzantine emperor.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    },
+    {
+      "date": "1072",
+      "title": "Accession of Malik-Shah",
+      "description": "The empire reaches its height under him and Nizam al-Mulk.",
+      "links": [
+        {
+          "title": "Malik-Shah I",
+          "type": "person",
+          "slug": "malik-shah-i"
+        }
+      ]
+    },
+    {
+      "date": "1092",
+      "title": "Death of Malik-Shah",
+      "description": "The Great Seljuk Empire begins to fragment."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Tughril Beg",
+        "type": "person",
+        "slug": "tughril-beg",
+        "label": "Founder"
+      },
+      {
+        "title": "Alp Arslan",
+        "type": "person",
+        "slug": "alp-arslan",
+        "label": "Victor of Manzikert"
+      },
+      {
+        "title": "Malik-Shah I",
+        "type": "person",
+        "slug": "malik-shah-i",
+        "label": "The empire at its height"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "Opened Anatolia to the Turks, 1071"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Seljuq dynasty — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/topic/Seljuq"
+    },
+    {
+      "title": "Alp-Arslan — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Alp-Arslan"
+    },
+    {
+      "title": "Seljuk Empire — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Seljuk_Empire"
+    }
+  ]
+}

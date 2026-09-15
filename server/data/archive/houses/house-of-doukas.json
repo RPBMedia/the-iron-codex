@@ -1,0 +1,241 @@
+{
+  "id": "house-of-doukas",
+  "type": "house",
+  "name": "House of Doukas",
+  "aliases": [
+    "Doukas",
+    "Doukid",
+    "Doukai",
+    "Ducas",
+    "Doukas dynasty",
+    "Doukid-era imperial politics"
+  ],
+  "originYear": 1059,
+  "endYear": 1078,
+  "reignSpan": "1059–1078",
+  "region": "Byzantine Empire",
+  "originPlace": "Paphlagonia (Anatolia)",
+  "arms": "The Byzantine emperors bore no Western coat of arms.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Romanos%20IV%20and%20Eudokia%20coin%20(transparent%20background).png?width=1000",
+  "imageInfo": {
+    "caption": "Christ crowning Romanos IV Diogenes and the empress Eudokia, on a Byzantine gold coin of the Doukid era.",
+    "creator": "Byzantine imperial mint",
+    "date": "c. 1068–1071",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Romanos_IV_and_Eudokia_coin_(transparent_background).png",
+    "note": "A contemporary coin of Romanos IV, who ruled through his marriage to the Doukas empress Eudokia."
+  },
+  "summary": "The Byzantine imperial family that held the throne between the Macedonian and Komnenian dynasties, on the eve of the disaster at Manzikert.",
+  "overview": "The House of Doukas, a great Byzantine aristocratic family, provided emperors in the mid-eleventh century as the empire drifted toward crisis. Constantine X and his son Michael VII presided over military decline and the loss of Italy, while Romanos IV Diogenes — emperor through marriage into the family — met catastrophe against the Seljuks at Manzikert in 1071.",
+  "founder": {
+    "personSlug": "constantine-x-doukas",
+    "displayName": "Constantine X Doukas",
+    "note": "First Doukas emperor, 1059"
+  },
+  "seats": [
+    {
+      "name": "Byzantine Empire",
+      "type": "location",
+      "slug": "byzantine-empire"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "constantine-x-doukas",
+      "displayName": "Constantine X",
+      "note": "First Doukas emperor; cut military spending"
+    },
+    {
+      "personSlug": "romanos-iv-diogenes",
+      "displayName": "Romanos IV Diogenes",
+      "note": "Emperor by marriage; captured at Manzikert"
+    },
+    {
+      "personSlug": "michael-vii-doukas",
+      "displayName": "Michael VII",
+      "note": "Presided over further decline and lost southern Italy"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Doukas emperors. Constantine X’s widow Eudokia married Romanos IV Diogenes, who ruled until his defeat at Manzikert; Constantine’s son Michael VII then took sole power. ⚭ marks a marriage.",
+    "root": {
+      "name": "Constantine X Doukas",
+      "personSlug": "constantine-x-doukas",
+      "note": "r. 1059–1067",
+      "spouse": {
+        "name": "Eudokia Makrembolitissa",
+        "personSlug": "eudokia-makrembolitissa"
+      },
+      "children": [
+        {
+          "name": "Michael VII Doukas",
+          "personSlug": "michael-vii-doukas",
+          "note": "r. 1071–1078"
+        },
+        {
+          "name": "Romanos IV Diogenes",
+          "personSlug": "romanos-iv-diogenes",
+          "note": "stepfather-emperor by marriage to Eudokia; r. 1068–1071"
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Doukai were one of the oldest and grandest families of the Byzantine aristocracy, with roots in Paphlagonia. They came to the throne in 1059 when Constantine X Doukas succeeded the abdicating Isaac I Komnenos.",
+        "Constantine X, a civilian aristocrat suspicious of the army, slashed military spending and favoured the bureaucratic elite of Constantinople — a policy that weakened the frontier defences just as new enemies pressed on every side."
+      ]
+    },
+    {
+      "title": "Romanos IV and Manzikert",
+      "paragraphs": [
+        "When Constantine X died in 1067 his widow Eudokia married the general Romanos Diogenes to give the empire a soldier-emperor. Romanos IV rebuilt the neglected army and marched east against the Seljuk Turks, but at the Battle of Manzikert in 1071 he was betrayed by the Doukas faction, defeated, and captured — the first Roman emperor taken alive by a Muslim ruler.",
+        "The Doukas court repudiated him on his release, and in the civil war that followed the empire’s hold on Anatolia collapsed."
+      ]
+    },
+    {
+      "title": "Michael VII and decline",
+      "paragraphs": [
+        "Constantine X’s son Michael VII took sole power, but he was a scholarly, ineffective ruler nicknamed \"Parapinakes\" (\"minus a quarter\") for the debasement of the coinage and grain measure under him. His reign saw the final loss of Byzantine Italy to the Normans in 1071 and rebellions across the shrinking empire.",
+        "Michael was overthrown in 1078, and after a few more short reigns the throne passed to the Komnenoi, who would restore Byzantine fortunes."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Doukas emperors are remembered above all for the catastrophe of Manzikert and the loss of Anatolia that followed — a turning point that opened the Byzantine heartland to Turkish settlement and helped set the stage for the Crusades.",
+        "The family itself remained powerful: Doukas women married into the Komnenian dynasty, and the name recurred among the Byzantine elite for centuries."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1059",
+      "title": "Constantine X becomes emperor",
+      "description": "The Doukas family takes the Byzantine throne.",
+      "links": [
+        {
+          "title": "Constantine X",
+          "type": "person",
+          "slug": "constantine-x-doukas"
+        }
+      ]
+    },
+    {
+      "date": "1068",
+      "title": "Romanos IV made emperor",
+      "description": "Eudokia marries a general to lead the army.",
+      "links": [
+        {
+          "title": "Romanos IV Diogenes",
+          "type": "person",
+          "slug": "romanos-iv-diogenes"
+        }
+      ]
+    },
+    {
+      "date": "1071",
+      "title": "Battle of Manzikert",
+      "description": "Romanos IV is defeated and captured by the Seljuks.",
+      "links": [
+        {
+          "title": "Battle of Manzikert",
+          "type": "event",
+          "slug": "battle-of-manzikert"
+        }
+      ]
+    },
+    {
+      "date": "1078",
+      "title": "Fall of Michael VII",
+      "description": "The last Doukas emperor is overthrown.",
+      "links": [
+        {
+          "title": "Michael VII",
+          "type": "person",
+          "slug": "michael-vii-doukas"
+        }
+      ]
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Constantine X",
+        "type": "person",
+        "slug": "constantine-x-doukas",
+        "label": "First Doukas emperor"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Defeated at Manzikert"
+      },
+      {
+        "title": "Michael VII",
+        "type": "person",
+        "slug": "michael-vii-doukas",
+        "label": "The empire’s decline"
+      },
+      {
+        "title": "Eudokia Makrembolitissa",
+        "type": "person",
+        "slug": "eudokia-makrembolitissa",
+        "label": "Empress, wife of Constantine X"
+      },
+      {
+        "title": "Irene Doukaina",
+        "type": "person",
+        "slug": "irene-doukaina",
+        "label": "Empress, wife of Alexios I Komnenos"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "The 1071 disaster"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Their realm"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Komnenos",
+        "type": "house",
+        "slug": "house-of-komnenos",
+        "label": "The dynasty that restored the empire"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Doukas — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Doukas"
+    },
+    {
+      "title": "Romanus IV Diogenes — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Romanus-IV-Diogenes"
+    },
+    {
+      "title": "Battle of Manzikert — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Manzikert"
+    }
+  ]
+}

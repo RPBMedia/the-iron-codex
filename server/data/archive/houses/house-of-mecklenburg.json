@@ -1,0 +1,179 @@
+{
+  "id": "house-of-mecklenburg",
+  "type": "house",
+  "name": "House of Mecklenburg",
+  "aliases": [
+    "House of Mecklenburg",
+    "Mecklenburg",
+    "Mecklenburg dynasty",
+    "Obotrite dynasty"
+  ],
+  "originYear": 1131,
+  "endYear": 1918,
+  "reignSpan": "Mecklenburg c.1131–1918; Sweden 1364–1389",
+  "region": "Mecklenburg (northern Germany) & Sweden",
+  "originPlace": "Mecklenburg, on the Baltic",
+  "arms": "Or, a bull’s head sable, crowned, langued and armed — the bull’s head of Mecklenburg.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Albert%20III%20Mecklenburg-Sweden.jpg?width=1000",
+  "imageInfo": {
+    "caption": "Albert of Mecklenburg, King of Sweden, in a later portrait bearing the arms of Mecklenburg and the Three Crowns of Sweden.",
+    "creator": "Unknown (Schwerin collection)",
+    "date": "Later portrait (Albert d. 1412)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albert_III_Mecklenburg-Sweden.jpg",
+    "note": "A later dynastic portrait of Albert as King of Sweden, not a contemporary likeness."
+  },
+  "summary": "The Mecklenburg dukes, descended from the Slavic Obotrite princes, one of whom — Albert — was elected King of Sweden before his defeat by Margaret I.",
+  "overview": "The House of Mecklenburg traced its descent from Niklot, prince of the Obotrites, whose family became Christian German dukes on the Baltic after the Wendish Crusade. In 1364 the Swedish nobility, in revolt against Magnus IV, offered the crown to the Mecklenburg prince Albert; he reigned until 1389, when he was defeated and captured by Margaret I of Denmark.",
+  "founder": {
+    "displayName": "Niklot",
+    "note": "Prince of the Obotrites; ancestor of the Mecklenburg dukes (no Codex article yet)"
+  },
+  "seats": [
+    {
+      "name": "Kingdom of Sweden",
+      "type": "location",
+      "slug": "kingdom-of-sweden"
+    }
+  ],
+  "notableMembers": [
+    {
+      "personSlug": "albert-of-mecklenburg",
+      "displayName": "Albert of Mecklenburg",
+      "note": "Duke of Mecklenburg elected King of Sweden, 1364–1389"
+    },
+    {
+      "displayName": "Niklot",
+      "note": "Obotrite prince who resisted Henry the Lion’s Wendish Crusade"
+    },
+    {
+      "displayName": "Henry Borwin I",
+      "note": "Niklot’s grandson; first Christian lord of Mecklenburg"
+    }
+  ],
+  "familyTree": {
+    "caption": "The Mecklenburg line from its Obotrite founder Niklot to Albert, who took the Swedish crown; only Albert has a Codex article so far.",
+    "root": {
+      "name": "Niklot",
+      "note": "Prince of the Obotrites, d. 1160",
+      "children": [
+        {
+          "name": "the dukes of Mecklenburg",
+          "note": "the Christianised German line",
+          "children": [
+            {
+              "name": "Albert of Mecklenburg",
+              "personSlug": "albert-of-mecklenburg",
+              "note": "King of Sweden, 1364–1389"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The house descended from Niklot, prince of the Obotrites, a confederation of Slavic peoples on the Baltic coast who resisted German and Danish expansion in the twelfth century. Niklot died fighting Henry the Lion’s Wendish Crusade in 1160, but his descendants accepted Christianity and German overlordship and were recognised as hereditary lords, later dukes, of Mecklenburg — a rare case of a native Slavic dynasty surviving the conquest to rule as imperial princes into the twentieth century.",
+        "From their Baltic duchy the Mecklenburgs married into the royal houses of Scandinavia, which drew them into the politics of the northern kingdoms."
+      ]
+    },
+    {
+      "title": "Albert, King of Sweden",
+      "paragraphs": [
+        "In 1363 Swedish magnates in revolt against King Magnus IV turned to Duke Albert II of Mecklenburg, whose wife was a Swedish royal princess, and the next year his son Albert was elected and crowned King of Sweden. His reign depended on the great nobles who had raised him, and his attempts to build royal and Mecklenburg power against them steadily lost him support.",
+        "When he moved to seize the estates of the powerful magnate Bo Jonsson Grip, the Swedish council offered the regency to Margaret I of Denmark. Albert marched against her and was decisively beaten and taken prisoner at Åsle in 1389."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Albert’s defeat delivered Sweden to Margaret and cleared the way for the Kalmar Union of 1397; after years of captivity he renounced his claim and returned to rule in Mecklenburg, where he died in 1412. The bitterness of the war lived on in the Baltic, where Mecklenburg-backed privateers, the Victual Brothers, plagued shipping for years.",
+        "The ducal house itself endured far longer than its Swedish adventure: the Mecklenburgs ruled their German duchies until the fall of the monarchies in 1918."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1364",
+      "title": "Albert crowned King of Sweden",
+      "description": "Swedish nobles in revolt against Magnus IV elect the Mecklenburg prince.",
+      "links": [
+        {
+          "title": "Albert of Mecklenburg",
+          "type": "person",
+          "slug": "albert-of-mecklenburg"
+        }
+      ]
+    },
+    {
+      "date": "1389",
+      "title": "Defeat at Åsle",
+      "description": "Margaret I defeats and captures Albert, winning Sweden."
+    },
+    {
+      "date": "1412",
+      "title": "Death of Albert",
+      "description": "The deposed king dies as Duke of Mecklenburg."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Albert of Mecklenburg",
+        "type": "person",
+        "slug": "albert-of-mecklenburg",
+        "label": "Mecklenburg duke and King of Sweden"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Bjälbo",
+        "type": "house",
+        "slug": "house-of-bjalbo",
+        "label": "The Swedish royal house (Magnus IV) he displaced"
+      },
+      {
+        "title": "House of Estridsen",
+        "type": "house",
+        "slug": "house-of-estridsen",
+        "label": "Margaret I’s house, which defeated him"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Albert, king of Sweden — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/biography/Albert-king-of-Sweden"
+    },
+    {
+      "title": "Albert, King of Sweden — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Albert,_King_of_Sweden"
+    },
+    {
+      "title": "House of Mecklenburg — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/House_of_Mecklenburg"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Wappen%20Mecklenburg.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of Mecklenburg — quartered, with the crowned black bull’s head of the duchy.",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wappen_Mecklenburg.svg",
+    "note": "Heraldic rendering (SVG) of the historical arms, not a surviving medieval object."
+  }
+}

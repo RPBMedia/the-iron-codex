@@ -1,0 +1,222 @@
+{
+  "id": "leo-vi",
+  "type": "character",
+  "name": "Leo VI",
+  "aliases": [
+    "Leo VI the Wise",
+    "Leo the Philosopher",
+    "Leon VI"
+  ],
+  "born": 866,
+  "died": 912,
+  "deathAge": "about 46",
+  "causeOfDeath": "Died in May 912 of an intestinal illness, leaving a six-year-old heir.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Scholar"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gold%20Solidus%20of%20Leo%20VI.png",
+  "imageInfo": {
+    "caption": "A gold solidus of Leo VI, struck at Constantinople.",
+    "creator": "Constantinople mint",
+    "date": "886–912",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_Solidus_of_Leo_VI.png",
+    "note": "A contemporary object of his reign. The Hagia Sophia mosaic showing him prostrate before Christ is the better-known image of him, and this archive uses it as the primary image of the Macedonian dynasty rather than reusing it here. Public domain."
+  },
+  "summary": "Leo VI completed the recodification of Roman law in Greek, wrote on tactics and ceremony, married four times to produce an heir, and lost Sicily, Thessalonica and every war he fought.",
+  "overview": "The most learned emperor of the Macedonian house and one of its least successful, whose determination to have a son split the church.",
+  "birth": {
+    "date": "866",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "912",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in May 912, leaving the throne to his brother Alexander as regent for his six-year-old son."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Macedonian dynasty",
+    "culture": "Roman",
+    "knownFor": "The Basilika, and four marriages to get an heir"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "basil-i",
+      "displayName": "Basil I",
+      "note": "His father — or possibly Michael III, since Leo's mother Eudokia Ingerina had been Michael's mistress before Basil married her, and the question was raised in his own lifetime."
+    },
+    "successor": {
+      "personSlug": "alexander",
+      "displayName": "Alexander",
+      "note": "His brother, who ruled thirteen destructive months as senior emperor and regent for Constantine VII."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Leo VI ruled from 886 to 912 and is the most bookish emperor between Constantine VII and nobody at all — his own grandson would be the next.",
+        "He completed the Basilika, the sixty-book Greek recodification of Justinian's law that his father had begun, and wrote or sponsored the Taktika on warfare, the Book of the Eparch on the guilds of the capital, homilies, and poetry.",
+        "He also lost Sicily, saw Thessalonica sacked, was beaten repeatedly by Symeon of Bulgaria, and spent the last decade of his reign in a canonical crisis of his own making over his fourth marriage."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born in 866 to Eudokia Ingerina, who had been the mistress of the emperor Michael III before Basil I married her at Michael's arrangement. Whether Basil or Michael was his father was asked in his own lifetime and cannot be answered.",
+        "Basil disliked him, and in 883 imprisoned him for three years on a charge of conspiracy, releasing him only shortly before his own death.",
+        "He was educated by the patriarch Photios, the outstanding scholar of the age, and the education took: the reign's intellectual output is real and much of it is his own work."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "He is a genuinely odd figure — a scholar-emperor with no military ability, a legislator on marriage who broke his own law, and a ruler whose most famous act was a canonical scandal.",
+        "The sources treat him with a kind of baffled respect. His learning is not in question; his judgement of people was poor and his judgement of Symeon of Bulgaria was catastrophic.",
+        "The marriages define him. Three wives died without leaving a surviving son, and Byzantine canon law regarded even a third marriage as barely tolerable. He took a mistress, Zoe Karbonopsina, she bore him Constantine, and he married her — a fourth marriage, uncanonical beyond argument, which got him barred from communion and split the church into factions that outlasted him."
+      ]
+    },
+    {
+      "title": "The law and the wars",
+      "paragraphs": [
+        "The Basilika is the achievement. Sixty books, in Greek, superseding the Latin corpus that had become unusable, and remaining the law of the empire until its end. Alongside it he issued the Novels, over a hundred new laws, several of which quietly abolished dead letters — including, with some irony, provisions on marriage.",
+        "The wars went uniformly badly. Symeon of Bulgaria beat Byzantine armies repeatedly from 894 and extracted tribute; Thessalonica, the empire's second city, was sacked from the sea in 904 by a renegade fleet under Leo of Tripoli; and Taormina fell in 902, completing the Muslim conquest of Sicily.",
+        "His Taktika, written while all this was happening, is a serious and intelligent treatise on how to fight the empire's enemies. The gap between the analysis and the results is the reign in one image."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The legal codification outlasted everything else and is the reason the Macedonian period is remembered as a legal as well as a military high point.",
+        "The fourth marriage got him his heir, and Constantine VII produced the books this archive relies on and the dynasty that produced Basil II. Judged on that alone the scandal was worth it, which is presumably how he judged it.",
+        "The Hagia Sophia mosaic over the Imperial Door, showing an emperor prostrate before Christ, is generally identified as him. If so it is a striking piece of self-presentation from a man the church had barred from communion — the emperor on the floor, asking."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "866",
+      "title": "Born",
+      "description": "Born to Eudokia Ingerina; whether his father was Basil I or Michael III was disputed in his own lifetime."
+    },
+    {
+      "date": "883",
+      "title": "Imprisoned by his father",
+      "description": "Basil I confines him for three years on a charge of conspiracy."
+    },
+    {
+      "date": "886",
+      "title": "Becomes emperor",
+      "description": "Succeeds Basil I and dismisses his father's ministers."
+    },
+    {
+      "date": "888",
+      "title": "The Basilika",
+      "description": "The sixty-book Greek recodification of Roman law is completed."
+    },
+    {
+      "date": "894–896",
+      "title": "War with Symeon",
+      "description": "Bulgaria defeats Byzantine armies repeatedly and extracts tribute."
+    },
+    {
+      "date": "902",
+      "title": "Sicily lost",
+      "description": "Taormina falls, completing the Muslim conquest of the island."
+    },
+    {
+      "date": "904",
+      "title": "Thessalonica sacked",
+      "description": "The empire's second city is taken from the sea by a renegade fleet."
+    },
+    {
+      "date": "906",
+      "title": "The fourth marriage",
+      "description": "He marries Zoe Karbonopsina to legitimise his son, and is barred from communion."
+    },
+    {
+      "date": "912",
+      "title": "Died",
+      "description": "Dies leaving a six-year-old heir under the regency of his brother Alexander."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Basil I",
+        "type": "person",
+        "slug": "basil-i",
+        "label": "His father, who imprisoned him for three years"
+      },
+      {
+        "title": "Constantine VII",
+        "type": "person",
+        "slug": "constantine-vii",
+        "label": "The son his fourth marriage was contracted to legitimise"
+      },
+      {
+        "title": "Alexander",
+        "type": "person",
+        "slug": "alexander",
+        "label": "His brother and successor"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Leo VI, Taktika",
+      "url": "https://en.wikipedia.org/wiki/Taktika_(Leo_VI)",
+      "type": "primary source"
+    },
+    {
+      "title": "Leo VI the Wise",
+      "url": "https://en.wikipedia.org/wiki/Leo_VI_the_Wise",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "greatestFeats": [
+    "Completed the Basilika, the Greek recodification of Roman law",
+    "Wrote the Taktika, a major military treatise, and the Book of the Eparch on the guilds of Constantinople",
+    "Secured the succession of his son Constantine VII against enormous canonical resistance"
+  ],
+  "epithets": [
+    {
+      "name": "the Wise",
+      "type": "byname",
+      "note": "For his learning and his legal work rather than his judgement — his reign was militarily disastrous and his marriages split the church."
+    }
+  ]
+}

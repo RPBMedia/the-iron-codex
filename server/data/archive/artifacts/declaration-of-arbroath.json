@@ -1,0 +1,102 @@
+{
+  "id": "declaration-of-arbroath",
+  "type": "artifact",
+  "artifactType": "Document",
+  "name": "Declaration of Arbroath",
+  "year": 1320,
+  "location": "Arbroath / Avignon diplomatic context",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Declaration_of_Arbroath.jpg",
+  "summary": "The Declaration of Arbroath was a 1320 letter to Pope John XXII asserting Scotland’s independence and defending Robert the Bruce’s kingship.",
+  "details": "The Declaration of Arbroath was a diplomatic letter from Scottish nobles to Pope John XXII. It argued that Scotland was an ancient independent kingdom and that Robert Bruce defended it from English aggression.",
+  "imageInfo": {
+    "caption": "The surviving copy of the Declaration of Arbroath.",
+    "creator": "Scottish chancery / noble community of the realm",
+    "date": "1320",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Declaration_of_Arbroath.jpg",
+    "note": "Medieval document image; the original sent to Avignon is lost, and the surviving copy preserves the text in Scotland’s records."
+  },
+  "overview": [
+    "The Declaration of Arbroath was a 1320 diplomatic letter to Pope John XXII written in the name of Scottish nobles. It defended Scotland’s independence, justified resistance to English aggression, and supported Robert the Bruce’s kingship.",
+    "Its most famous later reputation as a declaration of national liberty should be balanced with its immediate purpose: persuading the papacy in the middle of war and excommunication."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The declaration belongs to Bruce’s diplomatic campaign after Bannockburn. Military victory did not automatically bring papal acceptance, so Scottish leaders used legal, historical, and biblical argument to frame their cause."
+      ]
+    },
+    {
+      "title": "Description",
+      "paragraphs": [
+        "The text is a Latin letter addressed to Pope John XXII. It presents Scotland as an ancient kingdom, describes English aggression, praises Robert Bruce as defender, and insists that the community of the realm has an interest in freedom."
+      ]
+    },
+    {
+      "title": "Origin and dating",
+      "paragraphs": [
+        "The document is dated 6 April 1320 and is associated with Arbroath Abbey and the Scottish political community. The original sent to Avignon is lost; the surviving copy is held by the National Records of Scotland."
+      ]
+    },
+    {
+      "title": "Historical context",
+      "paragraphs": [
+        "Robert Bruce still needed papal recognition and relief from ecclesiastical penalties. The declaration therefore belongs to a diplomatic battlefield as much as a literary one."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "From the early modern period onward, the declaration became a powerful symbol of Scottish independence. Modern memory often emphasizes its language of freedom, while historians also read it as elite diplomacy in a specific medieval crisis."
+      ]
+    }
+  ],
+  "knownFor": [
+    "Scottish independence argument",
+    "Diplomacy with the papacy",
+    "Robert the Bruce’s reign"
+  ],
+  "sources": [
+    {
+      "title": "National Records of Scotland: Declaration of Arbroath",
+      "author": "National Records of Scotland",
+      "type": "archive",
+      "url": "https://www.nrscotland.gov.uk/research/learning/features/the-declaration-of-arbroath"
+    },
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Declaration_of_Arbroath.jpg"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland"
+      }
+    ]
+  }
+}

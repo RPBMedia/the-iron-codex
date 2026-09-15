@@ -13,7 +13,7 @@
  *       view through a serverless invocation and gives up static edge caching.
  *   (c) This. Prerender at build time.
  *
- * (c) wins on a point specific to this project: `history.json` is already bundled
+ * (c) wins on a point specific to this project: the archive (`server/data/archive`) is already bundled
  * into the deployment via `includeFiles`, so a content change ALREADY requires a
  * redeploy. Prerendering therefore costs nothing in freshness, keeps every page
  * on the CDN, adds no runtime cost, and needs no React SSR.
@@ -51,11 +51,12 @@ import {
 } from '../client/src/lib/pageTitles.js'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
 const distDir = path.join(root, 'client', 'dist')
-const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const data = loadArchive()
 const { topics, topicsByArticle } = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'topics.json'), 'utf8'))
 // Real per-article edit dates, so the sitemap does not claim all 817 pages
 // changed on every deploy — which teaches Google to ignore lastmod entirely.

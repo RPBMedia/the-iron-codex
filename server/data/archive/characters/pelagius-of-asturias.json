@@ -1,0 +1,166 @@
+{
+  "id": "pelagius-of-asturias",
+  "type": "character",
+  "name": "Pelagius of Asturias",
+  "aliases": [
+    "Pelayo",
+    "Don Pelayo",
+    "Pelagius",
+    "Pelayo of Asturias"
+  ],
+  "born": "c. 685",
+  "died": "737",
+  "deathAge": "about 52",
+  "restingPlace": "Holy Cave of Covadonga",
+  "birth": {
+    "date": "c. 685",
+    "place": {
+      "name": "Asturias or the former Visigothic lands"
+    }
+  },
+  "death": {
+    "date": "737",
+    "place": {
+      "name": "Kingdom of Asturias",
+      "slug": "kingdom-of-asturias"
+    }
+  },
+  "location": "Asturias, Iberia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Covadonga%20-%20Estatua%20de%20Don%20Pelayo%201.jpg",
+  "title": "first king of Asturias",
+  "isRuler": true,
+  "roles": [
+    "King of Asturias",
+    "Leader at the Battle of Covadonga"
+  ],
+  "summary": "Pelagius, or Pelayo, was the Asturian leader who resisted Umayyad rule after 711 and, by his victory at Covadonga, founded the Kingdom of Asturias — remembered as the first ruler of the Reconquista.",
+  "details": "A noble of Visigothic or local Astur background, Pelayo led the mountain revolt in Asturias, was acclaimed its ruler around 718, and held the small realm together until his death in 737. Much of his life is known only through Asturian chronicles written well over a century later.",
+  "overview": "Pelayo stands at the head of every genealogy of the Christian kings of Iberia, yet the man himself is elusive, glimpsed only through later and heavily mythologised sources.",
+  "quickFacts": {
+    "realm": "Kingdom of Asturias",
+    "dynasty": "House of Asturias",
+    "culture": "Astur / Visigothic",
+    "knownFor": "Victory at Covadonga; founding the Kingdom of Asturias"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Pelagius of Asturias — Pelayo — was the leader of the Asturian resistance to Umayyad rule in the years after the conquest of 711 and is counted as the first king of Asturias. His victory at Covadonga, around 718–722, preserved a Christian principality in the Cantabrian mountains that later tradition made the seed of the Reconquista.",
+        "The historical Pelayo is hard to see clearly. The sources that describe him were written in the Asturian court more than a century after his death and blend genuine memory with legend and dynastic propaganda, so much of his story must be read with caution."
+      ]
+    },
+    {
+      "title": "Revolt and reign",
+      "paragraphs": [
+        "The chronicles present Pelayo as a Visigothic noble, in some accounts a sword-bearer of the last Gothic kings, who refused submission to the new Muslim order and fled to Asturias. There he led a rising against Umayyad authority and its governor Munuza, and after the failed punitive expedition at Covadonga he was acclaimed leader — in the traditional telling, raised on a shield as king.",
+        "As ruler he governed a small mountain realm from an early seat at Cangas de Onís, consolidating control over the Asturian valleys rather than launching great campaigns. He died in 737 and was succeeded by his son Favila; when Favila was killed soon afterward, the crown passed to Alfonso I, married to Pelayo's daughter Ermesinda, binding the new monarchy to Pelayo's line."
+      ]
+    },
+    {
+      "title": "Memory and legend",
+      "paragraphs": [
+        "Over the following centuries Pelayo was transformed from a frontier chieftain into the providential founder of Christian Spain. Asturian, Leonese and Castilian writers made Covadonga a divine sign and Pelayo its chosen instrument, and the medieval kings traced their legitimacy back to him.",
+        "That memory hardened into national myth in the modern era, with a great statue of Pelayo raised at Covadonga and his tomb venerated in the Holy Cave. Historians today separate the symbolic Pelayo — origin-figure of a 700-year narrative — from the obscure but real leader who kept a small revolt alive in the mountains."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The Pelayo of the chronicles is above all defiant: a leader who refuses the terms offered by the governor Munuza and by the captive bishop Oppas, and who chooses a fight in the mountains over submission. The sources cast him as the resolute Christian noble who would not bow, a portrait shaped to serve the later origin-myth of the Reconquista as much as to record a man.",
+        "Beyond that stance almost nothing personal survives — no reliable account of his temperament, appearance or private life, only his role as founder. What can be said is that he was evidently a capable enough war-leader and organiser to hold a following together in hostile country and to convert a local revolt into a durable principality, an achievement his more mythic reputation tends to obscure."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    "Led the Asturian revolt against Umayyad rule",
+    "Won the Battle of Covadonga (c. 718–722)",
+    "Founded and first ruled the Kingdom of Asturias"
+  ],
+  "timeline": [
+    {
+      "date": "c. 685",
+      "title": "Born",
+      "description": "Born into a noble Astur or Visigothic family."
+    },
+    {
+      "date": "c. 711–714",
+      "title": "Umayyad conquest",
+      "description": "The Muslim conquest of Iberia; Pelayo withdraws into the northern mountains."
+    },
+    {
+      "date": "c. 718",
+      "title": "Acclaimed leader",
+      "description": "Recognised as leader of the Asturian revolt against Umayyad rule."
+    },
+    {
+      "date": "c. 722",
+      "title": "Battle of Covadonga",
+      "description": "Repelled an Umayyad punitive expedition in the mountains of Asturias."
+    },
+    {
+      "date": "737",
+      "title": "Died",
+      "description": "Died as ruler of Asturias; succeeded by his son Favila."
+    }
+  ],
+  "succession": {
+    "office": "King of Asturias",
+    "predecessor": {
+      "displayName": "None — founder of the realm",
+      "note": "Pelayo established the Asturian monarchy."
+    },
+    "successor": {
+      "personSlug": "",
+      "displayName": "Favila of Asturias",
+      "note": "His son, who reigned briefly and was killed hunting a bear."
+    }
+  },
+  "imageInfo": {
+    "caption": "Statue of Don Pelayo at Covadonga, Asturias, honouring the founder of the Asturian kingdom.",
+    "creator": "Monument at Covadonga (sculptor Eduardo Zaragoza)",
+    "date": "20th century monument",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covadonga_-_Estatua_de_Don_Pelayo_1.jpg",
+    "license": "Creative Commons",
+    "note": "A modern commemorative statue; no contemporary likeness of Pelayo exists."
+  },
+  "sources": [
+    {
+      "title": "Pelagius of Asturias",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Pelagius_of_Asturias"
+    },
+    {
+      "title": "Chronicle of Alfonso III",
+      "author": "Asturian court chronicle (late 9th c.)",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chronicle_of_Alfonso_III"
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Covadonga",
+        "type": "event",
+        "slug": "battle-of-covadonga",
+        "label": "His defining victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Asturias",
+        "type": "location",
+        "slug": "kingdom-of-asturias",
+        "label": "The realm he founded"
+      },
+      {
+        "title": "Covadonga",
+        "type": "location",
+        "slug": "covadonga",
+        "label": "Site of his victory and his tomb"
+      }
+    ]
+  }
+}

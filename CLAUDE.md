@@ -1,5 +1,9 @@
 # IronCodex Project Instructions
 
+## Data layout (2026-09-15)
+
+The archive lives in `server/data/archive/<collection>/<id>.json`, one file per article, with `server/data/archive/index.json` recording each collection's order. Read it with `loadArchive()` and write it with `saveArchive()` from `server/data/archive.mjs`. Saving rewrites only the articles that changed. `history.json` no longer exists: it was split on 2026-09-15 (QUEUE 0m, M1) so the archive can grow for the rulers program. Any mention of `history.json` below means the archive. The one-off content scripts that used it are kept in `scripts/archive/` as a record, and must not be run.
+
 These rules apply to all future work on IronCodex.
 
 ## Communication Style and Personality
@@ -213,7 +217,7 @@ the article, so the subject never links to itself.
 
 ## Dev Server Restart Procedure (MANDATORY after every change)
 
-Every time a change is made to IronCodex — data (`server/data/history.json`), backend, client code, styles, or config — the dev server **and** client must be restarted properly so the running app reflects the change. Do not assume hot-reload covered it; restart both, cleanly, every time.
+Every time a change is made to IronCodex — data (the archive (`server/data/archive`)), backend, client code, styles, or config — the dev server **and** client must be restarted properly so the running app reflects the change. Do not assume hot-reload covered it; restart both, cleanly, every time.
 
 **Fixed ports (do not change):**
 - **Client (Vite): `http://localhost:4000`** — this is the URL to open and test. Set permanently in `client/vite.config.js` (`port: 4000`, `strictPort: true`).
@@ -431,7 +435,7 @@ These rules apply to any article covering Rurik, Oleg, Igor, Olga, Sviatoslav, V
 
 Every Person article about a **ruler** (kings, queens regnant, emperors, sultans, grand princes/dukes who ruled polities, elected rulers where succession is meaningful) must carry `isRuler: true` and a `succession` object, rendered as **Predecessor** and **Successor** cards beneath the quick-fact strip (`RulerSuccession` in `DetailPage.jsx`). Non-rulers (commanders, saints, writers, consorts who did not rule, order members, popes in this first pass) must NOT have the boxes. Enforced by `npm run check:content-quality`: hard-fails on a ruler missing succession, succession on a non-ruler, broken/self personSlug links, missing display names, and none/unknown/office-ended states without an explanatory note.
 
-**Data shape** (on the character in `server/data/history.json`):
+**Data shape** (on the character in the archive (`server/data/archive`)):
 
 ```json
 "isRuler": true,
@@ -525,7 +529,7 @@ Identify the primary ruling office; add predecessor and successor entries; for e
 
 Person articles may carry a curated `epithets` field, rendered as a **Nicknames** card in `PersonQuickFacts` (DetailPage.jsx), and a curated `deathAge` field, rendered as an "Aged …" line on the Died card (`renderDeath`/`normalizeDeathAge`). Both are enforced by `npm run check:content-quality` (`validateEpithetsAndAge` + `validateRequiredEpithets`, hard-failing).
 
-**Data shape** (on the character in `server/data/history.json`):
+**Data shape** (on the character in the archive (`server/data/archive`)):
 
 ```json
 "epithets": [
@@ -607,7 +611,7 @@ Every **military event** article (`events` entries with `eventType: "Battle"` or
 
 **Continuity must move FORWARD whenever possible.** The link guides the reader onward through the war, campaign, or military sequence — not back to an earlier famous battle. Earlier battles belong in Related Articles; the continuity slot is the road ahead.
 
-**Data shape** (on the event in `server/data/history.json`):
+**Data shape** (on the event in the archive (`server/data/archive`)):
 
 ```json
 "battleContinuity": {
@@ -900,7 +904,7 @@ These apply to every archive/list page (People, Events, Locations, Artifacts, We
 
 ## Major Figure Image Enrichment
 
-Major ruler/leader/person pages should usually have **more than one image**: a strong main image plus one or two `sectionImages` supporting specific article sections. This is an **editorial standard, not a mechanical rule** — it does not apply to every person in the Codex. It applies to major medieval rulers, conquerors, crusade leaders, Viking-age figures, kingdom founders, and major political actors (the curated list lives in `MAJOR_FIGURES` / `VERY_MAJOR_FIGURES` in `scripts/check-images.mjs`, which warns — without hard-failing — when a listed figure has fewer than 2 total images, or a very major figure fewer than 3). The bulk enrichment is applied idempotently by `scripts/add-major-figure-section-images.mjs`.
+Major ruler/leader/person pages should usually have **more than one image**: a strong main image plus one or two `sectionImages` supporting specific article sections. This is an **editorial standard, not a mechanical rule** — it does not apply to every person in the Codex. It applies to major medieval rulers, conquerors, crusade leaders, Viking-age figures, kingdom founders, and major political actors (the curated list lives in `MAJOR_FIGURES` / `VERY_MAJOR_FIGURES` in `scripts/check-images.mjs`, which warns — without hard-failing — when a listed figure has fewer than 2 total images, or a very major figure fewer than 3). The bulk enrichment is applied idempotently by `scripts/archive/add-major-figure-section-images.mjs`.
 
 Rules:
 - Additional images must support a **specific section** of the article (`sectionImages[].section` must match a `contentSections` title; the renderer inserts the figure after that section's first paragraph via `ArticleSection`/`SectionImage` in `DetailPage.jsx`, styled by `.section-figure`).

@@ -1,0 +1,202 @@
+{
+  "id": "tiberius-ii-constantine",
+  "type": "character",
+  "name": "Tiberius II Constantine",
+  "aliases": [
+    "Tiberius II",
+    "Tiberios II Constantinus"
+  ],
+  "born": 535,
+  "died": 582,
+  "deathAge": "about 47",
+  "causeOfDeath": "Died in August 582, reportedly after eating bad food, having designated Maurice the day before.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiberios%20II%20(obverse).jpg",
+  "imageInfo": {
+    "caption": "A gold solidus of Tiberius II Constantine, struck at Constantinople.",
+    "creator": "Constantinople mint",
+    "date": "578–582",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiberios_II_(obverse).jpg",
+    "note": "A contemporary object of his own reign. He took the additional name Constantine on his accession, which the coin legend carries. Public domain."
+  },
+  "summary": "Tiberius II was adopted as heir by an emperor who had lost his mind, ruled four years, gave away the treasury in tax remissions and gifts, and chose Maurice to follow him.",
+  "overview": "Remembered for generosity in a state that could not afford any, and for one excellent appointment.",
+  "birth": {
+    "date": "c. 535",
+    "place": {
+      "name": "Thrace"
+    }
+  },
+  "death": {
+    "date": "582",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died in August 582, having named Maurice as his heir and married him to his daughter the previous day."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Justinian dynasty",
+    "culture": "Roman",
+    "knownFor": "Generosity, and appointing Maurice"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "justin-ii",
+      "displayName": "Justin II",
+      "note": "Who adopted him as Caesar in 574 during a lucid interval and left him to govern; Tiberius ruled in his name for four years before becoming emperor in his own right."
+    },
+    "successor": {
+      "personSlug": "maurice",
+      "displayName": "Maurice",
+      "note": "His best general, married to his daughter Constantina and designated the day before his death."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tiberius commanded the excubitors — the palace guard — when the emperor Justin II's mind gave way, and was adopted as Caesar in 574 in one of Justin's lucid intervals.",
+        "He governed in the emperor's name for four years and in his own from 578, and the four years of his sole reign are remembered mainly for spending.",
+        "He remitted a year's taxes, distributed largesse on a scale the sources dwell on, and emptied the reserves that Justin's parsimony had accumulated. He also made the one decision that mattered: he chose Maurice."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was a Thracian, born about 535, and made his career in the guard rather than in the field armies — the same route Justin I had taken sixty years before.",
+        "He commanded against the Avars in the early 570s without much success, which did not prevent his promotion, and was close enough to the empress Sophia for the sources to speculate about her intentions towards him.",
+        "The adoption of 574 was arranged by Sophia and by Justin in a lucid interval, and the speech Justin is said to have made on the occasion — warning the new Caesar not to repeat his own mistakes — is among the most striking passages in John of Ephesus."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The tradition is warm about him in a way it is about very few emperors, and the warmth is specifically about generosity.",
+        "He is described as handsome, affable, merciful to opponents and incapable of refusing a request — remitting taxes, funding building, paying for games, and giving away treasure that the empire, fighting on three frontiers, urgently needed.",
+        "The empress Sophia, who had expected to govern through him, found he would not be governed and quarrelled with him. What the sources present as amiability, a treasury official would have called something harsher, and Maurice inherited the consequences."
+      ]
+    },
+    {
+      "title": "Reign",
+      "paragraphs": [
+        "The Persian war continued, and here his judgement was sound: he promoted Maurice, an official with no field experience, to command in the east, and Maurice won a significant victory at Solachon in 586 — after Tiberius's death, but with the army he had rebuilt.",
+        "In the Balkans the position deteriorated. Sirmium, the great fortress on the Save, fell to the Avars in 582 after a long blockade, and Slavic groups moved south in numbers that the empire could not answer.",
+        "In Italy the Lombards continued to advance, and Tiberius's response — subsidising the Franks to attack them — was the traditional expedient and did not work."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His reign is short and the record mixed, but the succession he arranged gave the empire twenty years of competent government under Maurice at a moment when it could have had none.",
+        "That is also the tragedy of it, because Maurice's murder in 602 by the mutiny that raised Phocas is the event that begins the seventh-century catastrophe. Tiberius chose well and the choice was undone by a payroll dispute on the Danube.",
+        "The treasury he emptied is the other half of his record, and it is not a small charge: the empire fought the wars of the next two decades without the reserve that Anastasius had built and Justin II had guarded."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 535",
+      "title": "Born",
+      "description": "Born in Thrace; rises through the palace guard rather than the field armies."
+    },
+    {
+      "date": "574",
+      "title": "Adopted as Caesar",
+      "description": "Justin II adopts him in a lucid interval and hands over the government."
+    },
+    {
+      "date": "578",
+      "title": "Becomes emperor",
+      "description": "Justin II dies and Tiberius rules in his own right, taking the name Constantine."
+    },
+    {
+      "date": "579",
+      "title": "Tax remissions",
+      "description": "He remits a year's taxes and distributes largesse on a scale the sources dwell on."
+    },
+    {
+      "date": "582",
+      "title": "Sirmium falls",
+      "description": "The great fortress on the Save is lost to the Avars after a long blockade."
+    },
+    {
+      "date": "582",
+      "title": "Maurice designated",
+      "description": "He names his eastern commander as heir and marries him to his daughter Constantina."
+    },
+    {
+      "date": "582",
+      "title": "Died",
+      "description": "Dies in August, the day after arranging the succession."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Justin II",
+        "type": "person",
+        "slug": "justin-ii",
+        "label": "Who adopted him during his own incapacity"
+      },
+      {
+        "title": "Maurice",
+        "type": "person",
+        "slug": "maurice",
+        "label": "His general, son-in-law and successor"
+      },
+      {
+        "title": "Sophia (wife of Justin II)",
+        "type": "person",
+        "slug": "sophia-wife-of-justin-ii",
+        "label": "Empress who shared the regency with him"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "John of Ephesus, Ecclesiastical History",
+      "url": "https://en.wikipedia.org/wiki/John_of_Ephesus",
+      "type": "primary source"
+    },
+    {
+      "title": "Tiberius II Constantine",
+      "url": "https://en.wikipedia.org/wiki/Tiberius_II_Constantine",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ],
+  "greatestFeats": [
+    "Governed capably as Caesar during Justin II's incapacity",
+    "Rebuilt the eastern army under Maurice, who beat the Persians at Solachon",
+    "Chose a successor on merit rather than blood"
+  ]
+}

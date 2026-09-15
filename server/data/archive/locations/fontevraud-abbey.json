@@ -1,0 +1,82 @@
+{
+  "id": "fontevraud-abbey",
+  "type": "location",
+  "name": "Fontevraud Abbey",
+  "locationType": "Abbey",
+  "year": "1101",
+  "kingdom": "Angevin lands",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Fontevraud3.jpg",
+  "summary": "A major monastic house in Anjou associated with the burials of Angevin rulers.",
+  "overview": [
+    "A major monastic house in Anjou associated with the burials of Angevin rulers."
+  ],
+  "knownFor": [
+    "Burial place of Eleanor of Aquitaine",
+    "Burial place of Richard the Lionheart",
+    "Angevin dynastic memory"
+  ],
+  "imageInfo": {
+    "caption": "Fontevraud Abbey, burial place of several Angevin rulers.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of the surviving abbey complex.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fontevraud3.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A major monastic house in Anjou associated with the burials of Angevin rulers.",
+        "Fontevraud Abbey matters historically through Burial place of Eleanor of Aquitaine, Burial place of Richard the Lionheart, Angevin dynastic memory."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Fontevraud3.jpg"
+    },
+    {
+      "title": "Fontevraud: Royal Abbey of Fontevraud",
+      "author": "Abbaye Royale de Fontevraud",
+      "type": "heritage site",
+      "url": "https://www.fontevraud.fr/en/"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "Death of Eleanor of Aquitaine"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers"
+      },
+      {
+        "title": "Aquitaine",
+        "type": "location",
+        "slug": "aquitaine"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      }
+    ]
+  }
+}

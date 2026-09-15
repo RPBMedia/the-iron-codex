@@ -1,0 +1,78 @@
+{
+  "type": "location",
+  "locationType": "Region",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Norway",
+  "knownFor": [
+    "Harald Fairhair",
+    "Hafrsfjord tradition",
+    "Western Norway"
+  ],
+  "overview": [
+    "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Rogaland on Norway's southwestern coast was a key region in the unification of Norway. The Battle of Hafrsfjord, traditionally dated to around 872, brought Rogaland's petty kingdoms under centralized Norwegian rule and is associated with the beginning of Harald Fairhair's unified kingship."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Hafrsfjord battle and Rogaland's subjugation became foundation narratives of Norwegian kingship, though the date and scale are disputed in modern scholarship. The region's fertile land and fjord access made it one of the wealthiest agricultural and maritime areas of western Norway."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Rogaland",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Hafrsfjord_Bru.jpg"
+    },
+    {
+      "title": "Rogaland reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Rogaland"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
+        "label": "Death of Harald Fairhair"
+      },
+      {
+        "title": "Eric Bloodaxe",
+        "type": "person",
+        "slug": "eric-bloodaxe"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "rogaland",
+  "name": "Rogaland",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Hafrsfjord_IMG_5997.jpg",
+  "summary": "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship.",
+  "imageInfo": {
+    "caption": "The Sverd i fjell (“Swords in Rock”) monument at Hafrsfjord in Rogaland, commemorating Harald Fairhair’s unification of Norway.",
+    "creator": "Mathieu Marquer from Paris, FRANCE",
+    "date": "2013-02-12 11:02",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hafrsfjord_IMG_5997.jpg",
+    "license": "CC BY-SA 2.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

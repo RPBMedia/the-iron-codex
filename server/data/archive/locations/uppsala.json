@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Town / ecclesiastical center",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Sweden",
+  "knownFor": [
+    "Eric IX of Sweden",
+    "Swedish royal cult",
+    "Gamla Uppsala"
+  ],
+  "overview": [
+    "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Uppsala was medieval Sweden's foremost religious and ceremonial center. An archbishopric was established there in 1164, making it the seat of the Swedish church. Uppsala's cathedral became the site of royal burials and archiepiscopal authority throughout the medieval period."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Eric IX of Sweden was killed at Uppsala in 1160, reportedly after Mass, by a Danish-backed rival. His cult as a royal martyr made Uppsala the center of Swedish royal sainthood, and his tomb in the cathedral became a pilgrimage site. Uppsala's combination of royal martyrdom, archiepiscopal authority, and later university made it the symbolic capital of Swedish Christian identity."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Uppsala",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Gamla_Uppsala_kyrka.jpg"
+    },
+    {
+      "title": "Uppsala reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Uppsala"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric IX of Sweden",
+        "type": "person",
+        "slug": "eric-ix-of-sweden",
+        "label": "Death of Eric IX of Sweden"
+      },
+      {
+        "title": "Sverker I of Sweden",
+        "type": "person",
+        "slug": "sverker-i-of-sweden"
+      },
+      {
+        "title": "Knut Eriksson",
+        "type": "person",
+        "slug": "knut-eriksson"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "uppsala",
+  "name": "Uppsala",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamla_Uppsala_kyrka.jpg",
+  "summary": "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition.",
+  "imageInfo": {
+    "caption": "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition.",
+    "creator": "Wikimedia Commons",
+    "date": "Modern photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamla_Uppsala_kyrka.jpg",
+    "license": "See Commons file page for licensing",
+    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+  }
+}

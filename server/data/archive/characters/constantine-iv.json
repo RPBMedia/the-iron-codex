@@ -1,0 +1,216 @@
+{
+  "id": "constantine-iv",
+  "type": "character",
+  "name": "Constantine IV",
+  "aliases": [
+    "Konstantinos IV"
+  ],
+  "born": 652,
+  "died": 685,
+  "deathAge": "about 33",
+  "causeOfDeath": "Died of dysentery in September 685, aged about thirty-three.",
+  "restingPlace": "Unknown",
+  "location": "Constantinople",
+  "title": "Emperor of the Romans",
+  "roles": [
+    "Emperor",
+    "Commander"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Constantine%20IV%20mosaic.png",
+  "imageInfo": {
+    "caption": "Constantine IV in mosaic, from the church of Sant'Apollinare in Classe at Ravenna.",
+    "creator": "Ravenna workshop",
+    "date": "7th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constantine_IV_mosaic.png",
+    "note": "A mosaic of his own century, made in the Italian exarchate to commemorate privileges he granted the church of Ravenna. One of very few surviving contemporary images of a seventh-century emperor. Public domain."
+  },
+  "summary": "Constantine IV held Constantinople against the first sustained Arab attack, in the campaign that produced the earliest recorded use of Greek fire, and ended the Monothelete controversy at a council.",
+  "overview": "A short reign that saved the city, settled the church, and lost the Balkans to the Bulgars.",
+  "greatestFeats": [
+    "Held Constantinople against the Arab blockade of 674–678",
+    "Presided over the Third Council of Constantinople, ending the Monothelete controversy",
+    "Recognised, in defeat, the Bulgar state that would last three centuries"
+  ],
+  "birth": {
+    "date": "c. 652",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    }
+  },
+  "death": {
+    "date": "685",
+    "place": {
+      "name": "Constantinople",
+      "slug": "constantinople"
+    },
+    "circumstance": "Died of dysentery in September 685 after a reign of seventeen years."
+  },
+  "quickFacts": {
+    "realm": "Eastern Roman Empire",
+    "dynasty": "Heraclian dynasty",
+    "culture": "Roman",
+    "knownFor": "Greek fire, and the defence of Constantinople in 674–678"
+  },
+  "isRuler": true,
+  "succession": {
+    "office": "Emperor of the Romans",
+    "predecessor": {
+      "personSlug": "constans-ii",
+      "displayName": "Constans II",
+      "note": "His father, murdered in his bath at Syracuse in 668; Constantine crushed the Sicilian usurper and brought the court back to Constantinople."
+    },
+    "successor": {
+      "personSlug": "justinian-ii",
+      "displayName": "Justinian II",
+      "note": "His son, sixteen at his accession, whose two reigns and mutilation between them are among the strangest careers in the empire's history."
+    }
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Constantine IV came to the throne in 668 at about sixteen, put down the usurper who had murdered his father, and brought the imperial court back from Sicily to Constantinople.",
+        "The defining event of his reign was the Arab attempt on the capital between 674 and 678 — a sustained naval blockade rather than a single siege, and the first serious attempt to take the city since the Avars in 626.",
+        "It failed, and the weapon that broke it, Greek fire, appears in the historical record here for the first time. He then settled the empire's longest-running religious quarrel and died at thirty-three."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 652 and was left as senior emperor in Constantinople when his father moved the court to Sicily in 663 — so he was governing the eastern half of the empire in his father's name from his early teens.",
+        "When Constans was murdered at Syracuse in 668, the army in Sicily proclaimed an Armenian usurper, Mezezius. Constantine sailed west, crushed the revolt and returned, which settled both the succession and the question of where the empire would be ruled from.",
+        "He also removed his two brothers from the imperial college in 681, after the army agitated for the three to rule jointly, and had their noses slit — the first use in this family of a mutilation that would recur through the dynasty."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "He is described as competent, decisive and personally involved in his campaigns, and the record supports it: he moved fast on the Sicilian revolt, he directed the defence of the capital in person, and he did not lose control of his government at any point in seventeen years.",
+        "The mutilation of his brothers is the episode that complicates the portrait. It was politically rational — a three-emperor arrangement had no chance of working — and it was also the kind of act that made his son's reign possible to imagine.",
+        "What comes through most consistently is a certain unsentimental clarity. He fought the Arabs to a standstill and then made peace with tribute; he fought the Bulgars, lost, and recognised their state; he called a council and accepted an outcome that repudiated his own grandfather's religious policy. None of it is heroic and all of it worked."
+      ]
+    },
+    {
+      "title": "The defence of the city",
+      "paragraphs": [
+        "From 674 an Arab fleet operated from a base at Cyzicus in the Sea of Marmara and blockaded Constantinople through successive campaigning seasons, in what the sources present as a four-year attempt to take the city by attrition.",
+        "The empire's answer was a new weapon. Greek fire — a petroleum-based incendiary projected through siphons and unquenchable by water — is first recorded in this campaign, attributed to an engineer named Kallinikos from Heliopolis in Syria, and it destroyed the Arab fleet.",
+        "The caliph Mu'awiya made peace in 678 on terms that included tribute to Constantinople, which is the only occasion in the seventh century that the flow ran that way. The relief was real enough that the Avars and the Slavs of the Balkans sent embassies acknowledging imperial authority."
+      ]
+    },
+    {
+      "title": "The council and the Bulgars",
+      "paragraphs": [
+        "In 680–681 he convened the Third Council of Constantinople, which condemned Monotheletism — the compromise doctrine his great-grandfather Heraclius had promoted and his father had tried to silence — and restored communion with Rome.",
+        "It was an act of settlement rather than conviction, and it worked: the controversy that had divided the empire for fifty years and killed a pope was over.",
+        "In the same years he lost the Balkans. Asparuh's Bulgars crossed the Danube, his campaign against them in 680 failed, and in 681 he signed a treaty recognising a Bulgar state on former imperial soil and agreeing to pay it tribute — the foundation of the First Bulgarian Empire, and a frontier problem for the next three hundred and thirty-seven years."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 652",
+      "title": "Born",
+      "description": "Born to Constans II; left governing in Constantinople when his father moved to Sicily."
+    },
+    {
+      "date": "668",
+      "title": "Becomes emperor",
+      "description": "Crushes the usurper who murdered his father and returns the court to Constantinople."
+    },
+    {
+      "date": "674–678",
+      "title": "The Arab blockade",
+      "description": "A four-year attempt on the capital is broken, and Greek fire enters the historical record."
+    },
+    {
+      "date": "678",
+      "title": "Peace with tribute",
+      "description": "Mu'awiya makes peace on terms that include payments to Constantinople."
+    },
+    {
+      "date": "680",
+      "title": "Defeated by the Bulgars",
+      "description": "His campaign against Asparuh fails in the Danube marshes."
+    },
+    {
+      "date": "680–681",
+      "title": "The Third Council of Constantinople",
+      "description": "Monotheletism is condemned and communion with Rome restored."
+    },
+    {
+      "date": "681",
+      "title": "Bulgaria recognised",
+      "description": "A treaty concedes a Bulgar state south of the Danube, with tribute."
+    },
+    {
+      "date": "685",
+      "title": "Died",
+      "description": "Dies of dysentery at about thirty-three; his son Justinian II succeeds at sixteen."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Constans II",
+        "type": "person",
+        "slug": "constans-ii",
+        "label": "His father"
+      },
+      {
+        "title": "Justinian II",
+        "type": "person",
+        "slug": "justinian-ii",
+        "label": "His son and successor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The later Arab attempt, broken by the same weapon and the same walls"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm he ruled"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "His capital"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Which he was forced to recognise in 681"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Theophanes the Confessor, Chronicle",
+      "url": "https://en.wikipedia.org/wiki/Theophanes_the_Confessor",
+      "type": "primary source"
+    },
+    {
+      "title": "Constantine IV",
+      "url": "https://en.wikipedia.org/wiki/Constantine_IV",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Dumbarton Oaks — Byzantine Collection",
+      "url": "https://www.doaks.org/resources/coins",
+      "type": "museum collection",
+      "institution": "Dumbarton Oaks"
+    }
+  ]
+}

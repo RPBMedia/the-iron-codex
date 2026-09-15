@@ -11,11 +11,12 @@
 import { readFileSync, existsSync, statSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadArchive } from '../server/data/archive.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
 const dist = path.join(root, 'client', 'dist')
-const data = JSON.parse(readFileSync(path.join(root, 'server', 'data', 'history.json'), 'utf8'))
+const data = loadArchive()
 
 const SITE = 'https://www.theironcodex.org'
 const pub = (c) => (c === 'characters' ? 'people' : c === 'weaponsArmor' ? 'weapons-armor' : c)

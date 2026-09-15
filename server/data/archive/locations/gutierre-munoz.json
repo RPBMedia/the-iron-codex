@@ -1,0 +1,80 @@
+{
+  "id": "gutierre-munoz",
+  "type": "location",
+  "locationType": "Village",
+  "name": "Gutierre-Munoz",
+  "year": 1214,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/%C3%81vila_24-8-2002.jpg",
+  "summary": "A Castilian locality associated with the death of Alfonso VIII in 1214.",
+  "overview": [
+    "Gutierre-Munoz was a Castilian locality in the wider region of Avila and the central plateau.",
+    "Alfonso VIII died there in 1214, two years after Las Navas de Tolosa."
+  ],
+  "knownFor": [
+    "Death of Alfonso VIII",
+    "Castilian royal itinerary",
+    "Post-Las Navas transition"
+  ],
+  "imageInfo": {
+    "caption": "The medieval walls of Ávila, the province where Isabella I was proclaimed Queen of Castile in 1474 at Gutierre Muñoz.",
+    "creator": "Pelayo2",
+    "date": "2002-08-24",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81vila_24-8-2002.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Gutierre Muñoz in Ávila province was the location where Isabella I of Castile was proclaimed queen in December 1474 following the death of her brother Henry IV. The proclamation was a key moment in establishing her right to the Castilian throne against the rival claim of Juana la Beltraneja."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The succession crisis resolved at Gutierre Muñoz set in motion the union of Castile and Aragon through Isabella's marriage to Ferdinand II. The contested nature of her accession and the subsequent War of Castilian Succession (1475–1479) were directly rooted in the disputed circumstances of Henry IV's death and Isabella's proclamation."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Gutierre-Munoz",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:%C3%81vila_-_Murallas.jpg"
+    },
+    {
+      "title": "Gutierre-Munoz reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Gutierre-Mu%C3%B1oz"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "Death of Alfonso VIII of Castile"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Realm of Alfonso VIII of Castile"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa"
+      }
+    ]
+  }
+}

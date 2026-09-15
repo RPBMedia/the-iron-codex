@@ -1,0 +1,202 @@
+{
+  "id": "frederick-ii-holy-roman-emperor",
+  "type": "character",
+  "name": "Frederick II, Holy Roman Emperor",
+  "aliases": [
+    "Frederick II",
+    "Stupor Mundi"
+  ],
+  "born": 1194,
+  "died": 1250,
+  "deathAge": "55",
+  "causeOfDeath": "Frederick died in 1250 in southern Italy, leaving Hohenstaufen power contested by papal and Angevin enemies.",
+  "restingPlace": "Unknown",
+  "location": "Holy Roman Empire and Kingdom of Sicily",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_II_and_eagle.jpg",
+  "title": "Holy Roman Emperor and crusader king of Jerusalem",
+  "roles": [
+    "Holy Roman Emperor and crusader king of Jerusalem"
+  ],
+  "birth": {
+    "date": "1194",
+    "place": null
+  },
+  "death": {
+    "date": "1250",
+    "place": null,
+    "circumstance": "Frederick died in 1250 in southern Italy, leaving Hohenstaufen power contested by papal and Angevin enemies."
+  },
+  "quickFacts": {
+    "realm": "Holy Roman Empire and Kingdom of Sicily",
+    "dynasty": "Hohenstaufen",
+    "culture": "Latin Christian / royal court culture",
+    "knownFor": "Recovered Jerusalem by treaty"
+  },
+  "imageInfo": {
+    "caption": "Frederick II enthroned with a falcon in a thirteenth-century manuscript of his own falconry treatise, De arte venandi cum avibus, now in the Vatican Library.",
+    "creator": "Unknown artist",
+    "date": "medieval or later public-domain image",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_II_and_eagle.jpg",
+    "note": "From the illustrated copy of the treatise in the Vatican Library (Pal. lat. 1071), a thirteenth-century manuscript associated with his son Manfred; a conventional royal image rather than a likeness."
+  },
+  "overview": [
+    "Frederick II was Holy Roman Emperor, king of Sicily, and a crusader who recovered Jerusalem by treaty rather than battle during the Sixth Crusade.",
+    "His crusading legacy is unusual: he achieved Jerusalem through diplomacy while under excommunication, challenging assumptions about crusading success."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Frederick II was Holy Roman Emperor, king of Sicily, and a crusader who recovered Jerusalem by treaty rather than battle during the Sixth Crusade."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Frederick was born in Sicily to the Hohenstaufen and Norman royal inheritance, growing up in a multilingual Mediterranean kingdom under papal scrutiny."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Frederick II, Holy Roman Emperor, is remembered as one of the most dazzling and controversial rulers of the Middle Ages, a figure his contemporaries called Stupor Mundi, the \"Wonder of the World.\" The sources present a ruler of extraordinary intellectual curiosity and range — fluent in many languages, fascinated by science, mathematics, falconry, and philosophy, patron of a brilliant Sicilian court, and author of a serious treatise on birds — combined with a cold, autocratic will and a deep cynicism that scandalised the pious.",
+        "His relationship with the church was one of open warfare: repeatedly excommunicated, denounced by popes as a heretic and even as Antichrist, he nonetheless recovered Jerusalem by negotiation rather than battle during a crusade he undertook while excommunicate — a feat that baffled both sides. His rumoured religious skepticism, his harem, his menagerie, and his ruthless statecraft made him a figure of fascination and horror to contemporaries.",
+        "Because the sources are so polarised — adoring in his Sicilian circle, demonising in the papal camp — the man is genuinely hard to pin down, and modern historians caution against both the romantic and the hostile extremes. What is clear is a ruler of restless brilliance, autocratic ambition, and intellectual independence rare in his age. He is remembered as the Wonder of the World — curious, calculating, and unorthodox — whose dazzling mind and contempt for convention set him apart from every other medieval emperor."
+      ]
+    },
+    {
+      "title": "As emperor and diplomatic crusader",
+      "paragraphs": [
+        "Excommunicated after delaying crusade departure, Frederick nevertheless sailed east and negotiated with al-Kamil. The 1229 treaty restored Jerusalem, Bethlehem, and Nazareth to Latin control for a limited period."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Frederick died in 1250 in southern Italy, leaving Hohenstaufen power contested by papal and Angevin enemies."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "His crusading legacy is unusual: he achieved Jerusalem through diplomacy while under excommunication, challenging assumptions about crusading success."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "Recovered Jerusalem by treaty",
+      "description": "Recovered Jerusalem by treaty was a concrete result or documented action in Frederick II, Holy Roman Emperor's crusades-era career."
+    },
+    {
+      "title": "Ruled Sicily and the empire",
+      "description": "Ruled Sicily and the empire was a concrete result or documented action in Frederick II, Holy Roman Emperor's crusades-era career."
+    },
+    {
+      "title": "Embodied papal-imperial conflict",
+      "description": "Embodied papal-imperial conflict was a concrete result or documented action in Frederick II, Holy Roman Emperor's crusades-era career."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1194",
+      "title": "Born in Jesi",
+      "description": "Frederick was born heir to both imperial and Sicilian claims."
+    },
+    {
+      "date": "1212",
+      "title": "Claims German kingship",
+      "description": "He entered the struggle for imperial power."
+    },
+    {
+      "date": "1228",
+      "title": "Departs on crusade while excommunicated",
+      "description": "Frederick sailed east despite papal condemnation."
+    },
+    {
+      "date": "1229",
+      "title": "Negotiates Jerusalem treaty",
+      "description": "He regained Jerusalem through diplomacy with al-Kamil."
+    },
+    {
+      "date": "1250",
+      "title": "Dies in Apulia",
+      "description": "His death left Hohenstaufen rule under severe pressure."
+    }
+  ],
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
+      }
+    ],
+    "people": [
+      {
+        "title": "Constance of Sicily",
+        "type": "person",
+        "slug": "constance-of-sicily",
+        "label": "Mother"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Frederick_II_and_eagle.jpg"
+    },
+    {
+      "title": "Encyclopaedia Britannica: Crusades",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/event/Crusades"
+    },
+    {
+      "title": "Internet Medieval Sourcebook: Crusades",
+      "author": "Fordham University",
+      "type": "primary source collection",
+      "url": "https://sourcebooks.fordham.edu/sbook1k.asp"
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "Holy Roman Emperor",
+    "predecessor": {
+      "personSlug": "otto-iv",
+      "displayName": "Otto IV",
+      "note": "The Welf emperor, abandoned by his supporters after Bouvines"
+    },
+    "successor": {
+      "displayName": "Conrad IV",
+      "note": "His son, never crowned emperor; the Great Interregnum followed"
+    }
+  },
+  "epithets": [
+    {
+      "name": "Stupor Mundi",
+      "type": "later epithet",
+      "note": "'Wonder of the World' — later admiring Latin epithet."
+    }
+  ]
+}

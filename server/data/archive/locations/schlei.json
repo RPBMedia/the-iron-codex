@@ -1,0 +1,83 @@
+{
+  "type": "location",
+  "locationType": "Inlet",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Denmark",
+  "knownFor": [
+    "Eric IV of Denmark",
+    "Schleswig politics",
+    "Baltic routes"
+  ],
+  "overview": [
+    "A Baltic inlet in Schleswig associated with the murder tradition of Eric IV of Denmark."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Schlei is a fjord in Schleswig defining the southern boundary of the Danish peninsula near the historic town of Schleswig. The region was historically contested between Danish royal authority and German imperial influence."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Schleswig corridor where the Schlei sits was the focus of repeated political and military conflict between Denmark and the Duchy of Holstein. Margaret I's operations in the region during the 1380s and 1390s reflected her effort to stabilize the southern border of Danish power as she consolidated the Kalmar Union."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Schlei",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Schlei_Sieseby.jpg"
+    },
+    {
+      "title": "Schlei reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Schlei"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Eric IV of Denmark",
+        "type": "person",
+        "slug": "eric-iv-of-denmark",
+        "label": "Death of Eric IV of Denmark"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark"
+      },
+      {
+        "title": "Christopher I of Denmark",
+        "type": "person",
+        "slug": "christopher-i-of-denmark"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
+      }
+    ]
+  },
+  "id": "schlei",
+  "name": "Schlei",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/SchleiSlien.png",
+  "summary": "A Baltic inlet in Schleswig associated with the murder tradition of Eric IV of Denmark.",
+  "imageInfo": {
+    "caption": "The Schlei inlet in Schleswig, the contested Danish–German borderland.",
+    "creator": "EstherJoh",
+    "date": "2014-01-18 19:40:31",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SchleiSlien.png",
+    "license": "CC BY-SA 3.0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  }
+}

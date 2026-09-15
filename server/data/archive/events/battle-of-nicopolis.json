@@ -1,0 +1,205 @@
+{
+  "id": "battle-of-nicopolis",
+  "name": "Battle of Nicopolis",
+  "year": 1396,
+  "location": "Nicopolis, on the Danube (Nikopol, Bulgaria)",
+  "eventType": "Battle",
+  "conflict": "Ottoman wars in the Balkans",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NikopolisSchlacht.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Nicopolis (1396), depicted in a later manuscript illumination.",
+    "creator": "Manuscript illuminator",
+    "date": "15th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NikopolisSchlacht.jpg",
+    "note": "A later medieval depiction of the battle."
+  },
+  "summary": "At Nicopolis in 1396 Sultan Bayezid I destroyed the great Franco-Hungarian crusade led by Sigismund of Hungary and John the Fearless — the last large-scale crusade and a disaster for Christian arms.",
+  "details": "On 25 September 1396 the Ottoman army of Bayezid I annihilated the crusading army of King Sigismund of Hungary — including a large contingent of French and Burgundian chivalry under John the Fearless — before the Danube fortress of Nicopolis. A reckless charge by the western knights broke on the Ottoman lines; the defeat ended the crusade and confirmed Ottoman dominance of the Balkans.",
+  "factions": [
+    "Crusader coalition (Hungary, France, Burgundy, and allies)",
+    "Ottoman Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Sigismund of Hungary",
+      "faction": "Crusaders",
+      "personId": "sigismund-of-luxembourg"
+    },
+    {
+      "name": "John the Fearless",
+      "faction": "Crusaders",
+      "personId": "john-the-fearless"
+    },
+    {
+      "name": "Bayezid I",
+      "faction": "Ottomans",
+      "personId": "bayezid-i"
+    }
+  ],
+  "outcome": "Decisive Ottoman victory; the crusade was destroyed and many western nobles killed or ransomed.",
+  "participants": [
+    {
+      "side": "Crusaders",
+      "strength": {
+        "display": "a large multinational crusade army (estimates vary widely)",
+        "confidence": "debated",
+        "note": "Contemporary figures are inflated; modern estimates for the crusader army range broadly into the low tens of thousands."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Hungary",
+          "title": "Kingdom of Poland",
+          "type": "location",
+          "slug": "kingdom-of-poland"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sigismund of Hungary",
+          "type": "person",
+          "slug": "sigismund-of-luxembourg"
+        },
+        {
+          "name": "John the Fearless",
+          "type": "person",
+          "slug": "john-the-fearless"
+        }
+      ]
+    },
+    {
+      "side": "Ottomans",
+      "strength": {
+        "display": "the Ottoman field army under the sultan; size debated",
+        "confidence": "debated",
+        "note": "Ottoman numbers are also uncertain; the two armies were probably roughly comparable."
+      },
+      "factions": [
+        {
+          "name": "Ottoman Empire",
+          "title": "Ottoman Empire",
+          "type": "location",
+          "slug": "ottoman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Bayezid I",
+          "type": "person",
+          "slug": "bayezid-i"
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Nicopolis, fought on 25 September 1396, destroyed the last great crusade of the Middle Ages. King Sigismund of Hungary had assembled a broad coalition — Hungarians, a glittering contingent of French and Burgundian chivalry under John the Fearless, Germans, and others — to drive back the advancing Ottoman Empire; before the Danube fortress of Nicopolis, Sultan Bayezid I annihilated it.",
+        "The catastrophe confirmed that the Ottomans could not be dislodged from the Balkans by a conventional crusade, and it shocked western Christendom — the flower of French and Burgundian knighthood killed or held for enormous ransoms. It was the last time the old crusading ideal mustered an army of that scale and character."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "After Kosovo (1389) and the extinction of Bulgaria, the Ottoman advance up the Danube threatened Hungary directly. Sigismund appealed to the West, and the response — spurred by the Franco-Burgundian court's crusading enthusiasm — produced a large international army that marched down the Danube in 1396, taking Ottoman towns and laying siege to Nicopolis.",
+        "Bayezid, then blockading Constantinople, marched north with his field army to relieve the fortress. The crusaders, confident after easy successes, ignored Sigismund's cautious counsel about Ottoman tactics."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "The crusader army was a coalition without unified command: Sigismund of Hungary led the whole in name, but the French and Burgundian knights under John the Fearless, Enguerrand de Coucy, and the Constable of France regarded themselves as the true strike force. Numbers on both sides are debated and the contemporary figures inflated.",
+        "Bayezid I fielded the Ottoman field army — timariot cavalry, Janissary infantry behind stakes, and vassal contingents including the Serbian knights of Stefan Lazarević, whose charge helped decide the day. The two armies were probably of broadly comparable size."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Against Sigismund's advice, the French and Burgundian knights insisted on leading the attack and charged the Ottoman position unsupported. They broke through the irregular vanguard and the line of stakes at heavy cost — then, exhausted and disordered, met the fresh Janissaries and the sultan's cavalry reserve, and were destroyed.",
+        "Sigismund's Hungarians and the other contingents, committed piecemeal, could not retrieve the disaster; the Serbian vassal charge broke the crusader centre. Sigismund escaped by boat down the Danube; thousands of westerners were killed, and the noble prisoners — save the greatest, held for ransom — were massacred in reprisal for a crusader atrocity."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "The ransoms of John the Fearless and the surviving lords were paid at ruinous cost; the shock reverberated through the French and Burgundian courts for a generation. Ottoman control of the Balkans was confirmed, and Constantinople's blockade tightened — reprieved only by Timur's destruction of Bayezid at Ankara in 1402.",
+        "Nicopolis marked the effective end of the large international crusade as a strategy against the Ottomans. The next attempt, the crusade of Varna in 1444, would end the same way; and after it, no coalition rescued Byzantium before 1453. The battle stands as the moment western chivalry's crusading confidence broke against the new Ottoman military system."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The next crusade meets the same end",
+    "battleSlug": "battle-of-varna",
+    "relationship": "same-war",
+    "reason": "Nicopolis proved the Ottomans unbeatable by conventional crusade; the last great attempt, at Varna in 1444, ended in the same annihilation — and sealed Constantinople's fate."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "name": "Bayezid I",
+        "type": "person",
+        "slug": "bayezid-i"
+      },
+      {
+        "name": "Murad II",
+        "type": "person",
+        "slug": "murad-ii"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Ottoman Empire",
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Hungary's later partner at Varna"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Varna",
+        "type": "event",
+        "slug": "battle-of-varna",
+        "label": "The last such crusade, 1444"
+      },
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "The Ottoman Balkan conquest's founding field, 1389"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:NikopolisSchlacht.jpg"
+    },
+    {
+      "title": "Battle of Nicopolis — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Nicopolis"
+    },
+    {
+      "title": "The Crusade of Nicopolis",
+      "author": "Aziz S. Atiya",
+      "type": "book"
+    }
+  ],
+  "type": "event"
+}

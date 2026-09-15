@@ -1,0 +1,83 @@
+{
+  "id": "medina-del-campo",
+  "type": "location",
+  "name": "Medina del Campo",
+  "locationType": "Town",
+  "year": "Medieval period",
+  "kingdom": "Kingdom of Castile",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Castillo_de_La_Mota%2C_en_Medina_del_Campo_%286972495918%29.jpg",
+  "summary": "A Castilian town associated with royal politics and the death of Isabella I of Castile.",
+  "overview": [
+    "A Castilian town associated with royal politics and the death of Isabella I of Castile."
+  ],
+  "knownFor": [
+    "Castilian fairs",
+    "Death place of Isabella I",
+    "Royal administration"
+  ],
+  "imageInfo": {
+    "caption": "Castillo de la Mota at Medina del Campo.",
+    "creator": "Wikimedia Commons photographer",
+    "date": "modern photograph",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph of a major late medieval Castilian fortress.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_La_Mota%2C_en_Medina_del_Campo_%286972495918%29.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "A Castilian town associated with royal politics and the death of Isabella I of Castile.",
+        "Medina del Campo matters historically through Castilian fairs, Death place of Isabella I, Royal administration."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_La_Mota%2C_en_Medina_del_Campo_(6972495918).jpg"
+    },
+    {
+      "title": "Wikipedia: Medina del Campo",
+      "author": "Wikipedia contributors",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Medina_del_Campo"
+    },
+    {
+      "title": "World History Encyclopedia: Middle Ages",
+      "author": "World History Encyclopedia",
+      "type": "modern history",
+      "url": "https://www.worldhistory.org/Middle_Ages/"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Isabella I of Castile",
+        "type": "person",
+        "slug": "isabella-of-castile",
+        "label": "Death of Isabella I of Castile"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Madrigal de las Altas Torres",
+        "type": "location",
+        "slug": "madrigal-de-las-altas-torres"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon"
+      }
+    ]
+  }
+}

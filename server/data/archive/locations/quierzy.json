@@ -1,0 +1,80 @@
+{
+  "id": "quierzy",
+  "type": "location",
+  "locationType": "Royal estate",
+  "name": "Quierzy",
+  "year": 741,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Marest-Dampcourt_%28Aisne%29_ancienne_gare_Marest_Quierzy_avec_train.JPG",
+  "summary": "A Frankish royal estate associated with Charles Martel’s death in 741.",
+  "overview": [
+    "Quierzy was a Frankish royal estate in northern Gaul, associated with Merovingian and Carolingian rulership.",
+    "Charles Martel died there in 741, making the place part of the transition from his mayoral power to the rule of his sons Carloman and Pepin."
+  ],
+  "knownFor": [
+    "Charles Martel’s death",
+    "Frankish royal estate",
+    "Carolingian political memory"
+  ],
+  "imageInfo": {
+    "caption": "Quierzy on the Oise, site of the Carolingian royal estate and the Edict of Quierzy (877).",
+    "creator": "Havang(nl)",
+    "date": "2014-08-05 13:25:28",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marest-Dampcourt_(Aisne)_ancienne_gare_Marest_Quierzy_avec_train.JPG",
+    "license": "CC0",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Quierzy (Kiersy) was a Carolingian royal estate on the Oise in northern France, used as a palatial residence and assembly point by Carolingian rulers. The Edict of Quierzy in 877 — in which Charles the Bald formalized arrangements for the heritability of benefices and counties — is the most significant document associated with the site."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The Edict of Quierzy is often cited as a step in the transformation of Carolingian administrative grants into hereditary noble holdings, contributing to the development of feudal structures in late Carolingian France. Whether it was a formal legal turning point or a practical concession is debated, but the estate's connection to this document gives Quierzy a defined place in Carolingian institutional history."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Quierzy",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Quierzy_-_Mairie.jpg"
+    },
+    {
+      "title": "Quierzy reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Quierzy"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Charles Martel",
+        "type": "person",
+        "slug": "charles-martel",
+        "label": "Death of Charles Martel"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "Realm of Charles Martel"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Tours",
+        "type": "event",
+        "slug": "battle-of-tours"
+      }
+    ]
+  }
+}

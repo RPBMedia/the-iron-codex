@@ -1,0 +1,86 @@
+{
+  "id": "oxus-region",
+  "type": "location",
+  "locationType": "Region",
+  "name": "Oxus region",
+  "year": 1072,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Amu_darya_delta.jpg",
+  "summary": "The Amu Darya/Oxus frontier region near where Alp Arslan was mortally wounded in 1072.",
+  "overview": [
+    "The Oxus region refers broadly to the frontier around the Amu Darya, known in classical and medieval geography as the Oxus.",
+    "Alp Arslan was mortally wounded in this frontier context in 1072 while campaigning east of the main Seljuk heartlands."
+  ],
+  "knownFor": [
+    "Death of Alp Arslan",
+    "Central Asian frontier",
+    "Seljuk campaign geography"
+  ],
+  "imageInfo": {
+    "caption": "The Amu Darya (Oxus), the great river of Central Asia that defined the Oxus frontier region.",
+    "creator": "Science and Analysis Laboratory, NASA-Johnson Space Center.",
+    "date": "1994-11",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amu_darya_delta.jpg",
+    "license": "Public domain",
+    "note": "Modern photograph of the place or a surviving historical site there."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Oxus formed a major geographic boundary in Central Asian and Islamic history, linking Transoxiana, Khurasan, and steppe-frontier politics."
+      ]
+    },
+    {
+      "title": "Medieval historical context",
+      "paragraphs": [
+        "Alp Arslan died after being wounded by a captive or defeated opponent during an eastern campaign. The exact local details vary in narrative sources, so IronCodex uses the broader Oxus region cautiously."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The place matters here because the death of a victorious sultan came not in Anatolia after Manzikert but on the empire’s eastern frontier."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Oxus region",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Amu_Darya_River.jpg"
+    },
+    {
+      "title": "Oxus region reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Amu-Darya"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alp Arslan",
+        "type": "person",
+        "slug": "alp-arslan",
+        "label": "Death of Alp Arslan"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Realm of Alp Arslan"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert"
+      }
+    ]
+  }
+}

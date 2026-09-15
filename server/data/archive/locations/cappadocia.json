@@ -1,0 +1,84 @@
+{
+  "id": "cappadocia",
+  "type": "location",
+  "locationType": "Region",
+  "name": "Cappadocia",
+  "year": 1071,
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cappadocia_Goreme.jpg",
+  "summary": "An Anatolian region associated with Romanos IV Diogenes’ background and Byzantine frontier society.",
+  "overview": [
+    "Cappadocia was a central Anatolian region with deep Roman and Byzantine roots.",
+    "Its military aristocracy and frontier geography mattered to the Byzantine world that produced Romanos IV Diogenes."
+  ],
+  "knownFor": [
+    "Byzantine Anatolia",
+    "Romanos IV Diogenes’ background",
+    "Frontier aristocracy"
+  ],
+  "imageInfo": {
+    "caption": "Cappadocia, represented by a relevant historic site or regional image.",
+    "creator": "Wikimedia Commons contributor",
+    "date": "modern photograph or public-domain image",
+    "source": "Wikimedia Commons",
+    "note": "Modern photograph or public-domain image of the associated medieval place, used to ground the article visually.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme.jpg"
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Cappadocia in central Anatolia was a region of the Byzantine Empire with a distinctive landscape of volcanic tuff cut into cave churches, monasteries, and underground cities. It was a significant source of military manpower and several Byzantine emperors came from Cappadocian military families."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "After the Battle of Manzikert in 1071 and the subsequent Seljuk expansion into Anatolia, Cappadocia gradually passed out of Byzantine control. Its cave church complexes — many decorated with Byzantine frescoes — survive as major archaeological evidence of Byzantine Christian culture in Anatolia. Romanos IV Diogenes, defeated at Manzikert, was associated with Cappadocian military traditions."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image metadata: Cappadocia",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme.jpg"
+    },
+    {
+      "title": "Cappadocia reference page",
+      "author": "Reference source",
+      "type": "reference work",
+      "url": "https://www.britannica.com/place/Cappadocia"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Birthplace of Romanos IV Diogenes"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Realm of Romanos IV Diogenes"
+      },
+      {
+        "title": "Proti",
+        "type": "location",
+        "slug": "proti"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert"
+      }
+    ]
+  }
+}

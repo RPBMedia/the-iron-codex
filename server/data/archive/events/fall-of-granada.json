@@ -1,0 +1,129 @@
+{
+  "id": "fall-of-granada",
+  "type": "event",
+  "name": "Fall of Granada",
+  "year": 1492,
+  "aliases": [
+    "Conquest of Granada",
+    "Surrender of Granada",
+    "Capitulation of Granada"
+  ],
+  "location": "Granada, Iberia",
+  "eventType": "Fall of City",
+  "conflict": "Reconquista — the Granada War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Rendici%C3%B3n%20de%20Granada%20(Francisco%20Pradilla).jpg",
+  "summary": "On 2 January 1492 Boabdil, the last Nasrid emir, surrendered Granada to Ferdinand II of Aragon and Isabella I of Castile — ending the last Muslim state in Iberia and, with it, the Reconquista.",
+  "details": "The handover of the Alhambra closed a ten-year war of attrition (1482–1492) that had ground down the emirate town by town, and ended nearly eight centuries of Muslim rule in the peninsula.",
+  "factions": [
+    "Crown of Castile and Aragon",
+    "Emirate of Granada"
+  ],
+  "leaders": [
+    {
+      "name": "Ferdinand II of Aragon",
+      "faction": "Crown of Castile and Aragon",
+      "personId": "ferdinand-ii-of-aragon"
+    },
+    {
+      "name": "Boabdil",
+      "faction": "Emirate of Granada",
+      "personId": "muhammad-xii-of-granada"
+    }
+  ],
+  "outcome": "Granada capitulated; the Nasrid emirate ended and Muslim political rule in Iberia was extinguished after nearly 800 years.",
+  "background": [
+    "By the later 15th century the Emirate of Granada was the last Muslim state in Iberia, a tributary of Castile weakened by its own dynastic feuds. When the marriage of Ferdinand II of Aragon and Isabella I of Castile united the two great Christian crowns, they turned their combined strength on it.",
+    "The Granada War opened in 1482 with the Christian seizure of Alhama and dragged on for a decade of sieges — the fall of Loja, the siege of Málaga in 1487, the surrender of Baza in 1489 — as the Christians took the emirate's towns one by one and civil strife split the Nasrid ruling house."
+  ],
+  "aftermath": "Under the terms of surrender the people of Granada were promised their property, laws and religion, promises soon eroded; the mass expulsions and forced conversions came in the following years. Boabdil went into exile, and tradition remembers his backward glance at the city as \"the last sigh of the Moor\". The year 1492 also saw the expulsion of the Jews from Spain and Columbus's first voyage, financed by the victorious monarchs. The Reconquista, the long and fragmented struggle conventionally dated from Covadonga, was over.",
+  "imageInfo": {
+    "caption": "\"The Surrender of Granada\" by Francisco Pradilla (1882): Boabdil hands the keys of the city to Ferdinand and Isabella.",
+    "creator": "Francisco Pradilla Ortiz",
+    "date": "1882 (19th-century history painting)",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Rendici%C3%B3n_de_Granada_(Francisco_Pradilla).jpg",
+    "license": "Public domain",
+    "note": "A 19th-century national history painting, not a contemporary record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Fall of Granada on 2 January 1492 was the surrender of the last Muslim state in Iberia, the Nasrid Emirate of Granada, to Ferdinand II of Aragon and Isabella I of Castile. Its emir, Boabdil, handed over the Alhambra and went into exile.",
+        "The event is the conventional end of the Reconquista, the centuries-long and often-interrupted struggle for the peninsula. It came at the close of a ten-year war and in a year — 1492 — that also brought the expulsion of the Jews and Columbus's voyage across the Atlantic."
+      ]
+    },
+    {
+      "title": "The Granada War",
+      "paragraphs": [
+        "The united crowns of Castile and Aragon brought overwhelming resources — money, artillery, and a war of methodical sieges — against an emirate torn by civil war between rival Nasrid claimants. The struggle was not a single campaign but a decade of attrition, 1482 to 1492.",
+        "Alhama fell in 1482, then a string of strongholds: Loja, the great port of Málaga in 1487 after a bitter siege, Baza in 1489. As the towns fell, Granada itself was isolated. The captured Boabdil was played off against his relatives, deepening the Nasrid collapse."
+      ]
+    },
+    {
+      "title": "Surrender and aftermath",
+      "paragraphs": [
+        "With his capital blockaded and no relief possible, Boabdil negotiated a surrender on generous paper terms — the Capitulations of Granada guaranteed the Muslims their property, laws and faith. On 2 January 1492 the Christian monarchs took possession of the Alhambra.",
+        "Those guarantees were soon broken: within a decade came forced conversions and, in time, expulsions. Boabdil left for exile in North Africa, and later tradition gave him the sorrowful backward look known as \"the last sigh of the Moor\". Muslim political rule in Iberia, begun in 711, was ended."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Granada War",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Granada_War"
+    },
+    {
+      "title": "Muhammad XII of Granada",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Muhammad_XII_of_Granada"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand II of Aragon",
+        "type": "person",
+        "slug": "ferdinand-ii-of-aragon",
+        "label": "Co-conqueror of Granada"
+      },
+      {
+        "title": "Boabdil",
+        "type": "person",
+        "slug": "muhammad-xii-of-granada",
+        "label": "The last emir, who surrendered the city"
+      },
+      {
+        "title": "Isabella I of Castile",
+        "type": "person",
+        "slug": "isabella-of-castile",
+        "label": "Co-conqueror of Granada"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "The city that fell"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it ended"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Nasrid dynasty",
+        "type": "house",
+        "slug": "nasrid-dynasty",
+        "label": "The dynasty extinguished as a ruling house"
+      }
+    ]
+  }
+}

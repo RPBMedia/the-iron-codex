@@ -1,0 +1,99 @@
+{
+  "id": "conquest-of-seville",
+  "type": "event",
+  "name": "Conquest of Seville",
+  "year": 1248,
+  "aliases": [
+    "Siege of Seville",
+    "Fall of Seville",
+    "Capture of Seville"
+  ],
+  "location": "Seville, Iberia",
+  "eventType": "Fall of City",
+  "conflict": "Reconquista",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Capture_de_S%C3%A9ville_par_Ferdinand_III.jpg",
+  "summary": "After a siege of over a year, Ferdinand III of Castile took Seville — the greatest city of al-Andalus — on 23 November 1248, all but completing the reconquest of the Guadalquivir.",
+  "details": "Ferdinand III blockaded Seville by land and river, and when a Castilian fleet under Ramón Bonifaz broke the pontoon bridge linking the city to Triana, the starving city capitulated.",
+  "factions": [
+    "Kingdom of Castile",
+    "Almohad-era Seville"
+  ],
+  "outcome": "Seville surrendered; its Muslim population was expelled and the city became a Castilian capital, leaving only Granada as an independent Muslim state.",
+  "background": [
+    "By the 1240s Ferdinand III had taken Córdoba (1236) and Jaén (1246) and reduced Murcia to vassalage. Seville, the largest and richest city of al-Andalus and a former Almohad capital, was the great remaining prize of the Guadalquivir.",
+    "Ferdinand invested the city in 1247, ringing it with camps and cutting its supply lines. The key was the river Guadalquivir, which still linked Seville to the sea and to its suburb of Triana."
+  ],
+  "aftermath": "The fall of Seville broke the last great concentration of Muslim power in western al-Andalus. Its Muslim inhabitants were expelled and the city resettled with Christians; Ferdinand III made it a royal capital and died there in 1252. After 1248 only the Nasrid Emirate of Granada survived as an independent Muslim state, and it would endure for another two and a half centuries.",
+  "imageInfo": {
+    "caption": "The capture of Seville by Ferdinand III in 1248, in a later depiction.",
+    "creator": "Later depiction, Wikimedia Commons",
+    "date": "Later depiction of the 1248 conquest",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capture_de_S%C3%A9ville_par_Ferdinand_III.jpg",
+    "license": "Public domain",
+    "note": "A later imagining of the conquest, not a contemporary record."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Conquest of Seville was the capture of the greatest city of al-Andalus by Ferdinand III of Castile in 1248, after a siege lasting more than a year. It was the climax of Ferdinand's reconquest of the Guadalquivir valley.",
+        "With Seville taken, Christian rule reached almost the whole of southern Iberia, and only the Nasrid emirate of Granada remained as an independent Muslim state. Ferdinand made Seville a capital and was buried in its cathedral."
+      ]
+    },
+    {
+      "title": "The siege",
+      "paragraphs": [
+        "Ferdinand III surrounded Seville in 1247 and settled in to starve it out, but the city could still be supplied along the Guadalquivir from its suburb of Triana across the river. The decisive stroke was naval: a Castilian fleet under the admiral Ramón Bonifaz sailed up the river and, in a celebrated action, broke the pontoon bridge of boats that joined Seville to Triana.",
+        "Cut off from the river and from relief, and with famine setting in, Seville negotiated its surrender. On 23 November 1248 the city capitulated, and Ferdinand III made his formal entry."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The Muslim population of Seville was required to leave, and the city was repopulated with settlers from the north; the great Almohad mosque became its cathedral, its minaret the Giralda. Seville became one of the chief cities of the Crown of Castile.",
+        "The conquest effectively completed the reconquest of western al-Andalus. What remained was the emirate of Granada, now a tributary of Castile, which would survive as the last Muslim state in Iberia until 1492."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ferdinand III of Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Ferdinand_III_of_Castile"
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "The conqueror of the city"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Seville",
+        "type": "location",
+        "slug": "seville",
+        "label": "The city taken in 1248"
+      },
+      {
+        "title": "al-Andalus",
+        "type": "location",
+        "slug": "al-andalus",
+        "label": "The Muslim Iberia it was taken from"
+      }
+    ],
+    "events": [
+      {
+        "title": "Conquest of Córdoba",
+        "type": "event",
+        "slug": "conquest-of-cordoba",
+        "label": "His earlier conquest of 1236"
+      }
+    ]
+  }
+}
