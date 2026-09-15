@@ -1104,6 +1104,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Gate once it exists:** every city-type location has coordinates and renders a map.
 
    **Owner decision 2026-09-15:** the map shows the medieval polity, not the modern country. Sidon gets the Kingdom of Jerusalem, not Lebanon. One high-quality regional map with well-readable city names may be reused for every city in that region. This replaces the modern-borders recommendation above wherever a city lies inside a mapped medieval polity. The Kingdom of Jerusalem map now being chosen, to replace the rejected Conder plate, is the first candidate base map.
+
+   **Owner follow-up 2026-09-15, reported on `kerak`: "we are missing an image of where in the Levant Kerak is located".** The owner attached an example: a Wikipedia-style location map with a pale base map of the region, borders, rivers and coast, one red dot, and the place named beside it ("Kerak Castle"). **Every city gets one, in its Overview, clearly showing where it lies in its region.** CLAUDE.md now carries this as a standing rule.
+   **Recommended build**, replacing the Natural Earth idea above:
+   - Use the base maps behind Wikipedia's location-map templates (Commons files such as `Jordan location map.svg` or a Levant or Near East map). Their corner coordinates are published in `Module:Location map/data/<map>`.
+   - Add `coordinates: { lat, lon }` to each city from Wikidata, spot-checked.
+   - Build one `LocatorMap` component that draws the base image and places the dot by linear interpolation between the corners, with the label beside it. No hand-made image per city, and no external requests beyond the Commons image.
+   - Pick the base map per region, favouring the medieval region the article belongs to. The earlier decision stands: a legible Kingdom of Jerusalem map is the base for crusader cities where it can carry a dot.
+   **Question for the owner before building:** the example shows modern Jordan's borders. Is a modern-borders base acceptable where no good medieval base exists, as in the example? Or must the base always be the medieval polity?
+   **Pilot:** `kerak` first, then the other Levant cities (`sidon`, `damascus`, `antioch`), then every city-type location, with a gate that each has coordinates and renders a map.
 0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
    - **Birth and death places normalised:** 116 plain-text places became
      `{ name }` objects, and the 35 whose text exactly names a location article now
