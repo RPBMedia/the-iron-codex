@@ -570,6 +570,7 @@ export const entityLinks = [
   { label: "Jalbolung", type: "location", slug: "jalbolung" },
   { label: "Jelling", type: "location", slug: "jelling" },
   { label: "Kalmar Union", type: "location", slug: "kalmar-union" },
+  { label: "Kerak", aliases: ["al-Karak","Karak","Kerak Castle","Karak Castle","Crac des Moabites","Petra Deserti"], type: "location", slug: "kerak" },
   { label: "Kievan Rus’", aliases: ["Kievan Rus","Kyivan Rus","Rus’"], type: "location", slug: "kievan-rus" },
   { label: "Kingdom of Aragon", aliases: ["Aragon"], type: "location", slug: "kingdom-of-aragon" },
   { label: "Kingdom of Asturias", aliases: ["Asturian kingdom","Astur kingdom"], type: "location", slug: "kingdom-of-asturias" },

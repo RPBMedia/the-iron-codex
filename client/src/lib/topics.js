@@ -583,6 +583,12 @@ export const TOPICS = [
           "summary": "A major eastern European polity allied with Poland at Grunwald."
         },
         {
+          "id": "kerak",
+          "name": "Kerak",
+          "depth": 1,
+          "summary": "Kerak, east of the Dead Sea: the castle Pagan the Butler began about 1142 as the seat of the crusader lordship of Oultrejordain, Reynald of Châtillon's base, besieged by Saladin in 1183 and 1184 and surrendered in 1188, then an Ayyubid treasury and a Mamluk fortress where deposed sultans, Baraka Khan among them, were kept."
+        },
+        {
           "id": "kingdom-of-england",
           "name": "Kingdom of England",
           "depth": 1,
@@ -849,12 +855,6 @@ export const TOPICS = [
           "name": "Louis IX of France",
           "depth": 1,
           "summary": "Louis IX was king of France, leader of the Seventh and Eighth Crusades, and later a canonized royal saint. His crusading campaigns in Egypt and Tunis both ended in failure or death, yet shaped Capetian sanctity and monarchy."
-        },
-        {
-          "id": "melisende-of-jerusalem",
-          "name": "Melisende of Jerusalem",
-          "depth": 1,
-          "summary": "Melisende of Jerusalem was queen and ruler of the Kingdom of Jerusalem, a major political actor in the second generation of crusader-state rule."
         }
       ],
       "artifacts": [
@@ -2928,6 +2928,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "kerak": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "kingdom-of-france": [
     {
       "slug": "crusades",
@@ -3217,12 +3223,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "louis-ix-of-france": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "melisende-of-jerusalem": [
     {
       "slug": "crusades",
       "title": "The Crusades"

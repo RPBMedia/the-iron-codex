@@ -998,7 +998,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 0n. **OWNER REPORTS 2026-09-15 (evening), made while testing the away-mode ships:**
    1. **Known for must link: "a big one".** Names, places and events in any article's Known for must be navigable, like body prose. Reported on `kingdom-of-hungary`. Shipping first: the W&A block, the location and polity list, and the person fact card all run through `renderLinkedText`, and CLAUDE.md §5 makes it a rule.
    2. **Insights: the accounts-created chart runs past the dark page area** onto the light footer. Next ship.
-   3. **`baraka-khan`'s death place, Kerak, has no page.** A full `kerak` article is being drafted. The death place gains its link when that article ships.
+   3. ✅ **`baraka-khan`'s death place, Kerak, had no page. Shipped 2026-09-15:** the new `kerak` article (13,000 chars, 13 sections, 17 timeline entries, 5 images) covers Pagan the Butler's castle, Oultrejordain and Reynald of Châtillon, Saladin's sieges, and Ayyubid and Mamluk Kerak. The death place now links, and Baraka's timeline is fixed: he died at Kerak, not Damascus, and Qalawun took the throne in November 1279, not on Baraka's death.
    4. **`kingdom-of-jerusalem`'s Conder map is unreadable.** A replacement is being chosen, and it doubles as the 0k base map for the region.
 
    5. **A `pope-leo-iii` article (owner: yes, 2026-09-15).** No Pope Leo III article exists, so since the Known-for ship "Pope Leo III" on `charlemagne-crowned` and the Charlemagne pages links to nothing. Before that fix it linked wrongly to the emperor Leo III the Isaurian. Build a full Person article, not a stub:
