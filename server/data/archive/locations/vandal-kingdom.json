@@ -9,14 +9,14 @@
   ],
   "kingdom": "Vandal Kingdom",
   "year": 439,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdom%20of%20the%20Vandals%20and%20Alans%20-%20476%20AD.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AD_0455_Greatest_extent_of_the_Vandal_Kingdom_EN.svg?width=700",
   "imageInfo": {
-    "caption": "The Vandal kingdom at its height in 476, holding North Africa with Sardinia, Corsica, the Balearics and western Sicily.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "modern map of the 5th-century kingdom",
+    "caption": "The Vandal kingdom at its greatest extent, about 455 to 477, holding Africa around Carthage with Sardinia, Corsica, the Balearics and Sicily, in a modern reconstruction (2014) after Torsten Cumberland Jacobsen.",
+    "creator": "Rsteen (Wikimedia Commons), after Torsten Cumberland Jacobsen",
+    "date": "2014; shows about 455 to 477",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdom_of_the_Vandals_and_Alans_-_476_AD.png",
-    "note": "A modern map rather than a medieval one, used because it shows the kingdom's territorial extent — including the islands that made it a naval power — more clearly than any surviving source. Licensed CC BY 4.0."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AD_0455_Greatest_extent_of_the_Vandal_Kingdom_EN.svg",
+    "note": "Modern reconstruction (SVG), not an ancient or medieval document. It follows the map on page 184 of Torsten Cumberland Jacobsen's A History of the Vandals (Westholme, 2012), drawn over MapMaster's blank Mediterranean base map, and names only Carthago, Hippo Regius, Lilybaeum, Oea and Roma. The whole of Sicily is shaded, but Geiseric held the island only in his last years and ceded most of it to Odoacer in about 476 in return for tribute, keeping Lilybaeum. The African frontier is drawn as a straight line and the Mauretanian coast west of Hippo Regius is left out; other reconstructions extend Vandal authority, often loosely held, along that coast. Licensed CC BY-SA 4.0."
   },
   "summary": "The Vandal Kingdom held North Africa and the western Mediterranean islands from 439 to 534, and was the only barbarian successor state to build a serious navy.",
   "overview": "It took the richest provinces of the western empire, sacked Rome, and outlasted the western empire itself — then fell to Belisarius in a single campaign season.",
@@ -228,6 +228,27 @@
       "url": "https://www.britishmuseum.org/collection",
       "type": "museum collection",
       "institution": "British Museum"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:AD_0455_Greatest_extent_of_the_Vandal_Kingdom_EN.svg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Vandal_Kingdom_Hilderic_Denarius.jpg"
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Vandal_Kingdom_Hilderic_Denarius.jpg",
+  "armsImageInfo": {
+    "caption": "The Vandal kingdom bore no coat of arms; this silver 50-denarius coin of Hilderic, struck at Carthage between 523 and 530, pairs his bust with Carthage personified and the legend FELIX KARTG.",
+    "creator": "Carthage mint under Hilderic (photograph from the CoinArchives.com auction database, photographer unrecorded)",
+    "date": "struck between 523 and 530",
+    "source": "Wikimedia Commons (from the CoinArchives.com ancient coins database)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vandal_Kingdom_Hilderic_Denarius.jpg",
+    "note": "A photograph of a genuine silver coin, 15 mm across and weighing 1.24 g, not a modern reconstruction. The obverse reads D N HILDIRIX REX around the diademed and draped bust of the king; the reverse shows Carthage standing and holding ears of grain, with FELIX KARTG, 'happy Carthage'. Heraldry did not exist for another six centuries: what Vandal coins carry is the king's name and title, and the kings struck silver in their own names only late in the fifth century, after decades of issues in the name of the long-dead emperor Honorius. Hilderic, Huneric's son by the Theodosian princess Eudocia, was deposed by Gelimer in 530. The auction record names neither the coin's present owner nor the photographer. Public domain."
+  }
 }

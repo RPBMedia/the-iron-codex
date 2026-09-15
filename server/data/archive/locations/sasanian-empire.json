@@ -10,14 +10,14 @@
   ],
   "kingdom": "Sasanian Empire",
   "year": 224,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map%20of%20the%20Sasanian%20Empire%20at%20its%20apex%20under%20Khosrow%20II.png",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SassanidsGolden.png?width=1600",
   "imageInfo": {
-    "caption": "The Sasanian Empire at its greatest extent under Khosrow II, holding Syria, Palestine, Egypt and much of Anatolia alongside the Iranian heartland.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "modern map of the empire at its apex",
+    "caption": "The Sasanian Empire at its height in 620, in a modern reconstruction (2020): the Iranian heartland in dark red and the Roman provinces taken by Khosrow II, Egypt among them, in lighter red.",
+    "creator": "Golden (Wikimedia Commons user)",
+    "date": "2020; shows 620",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_Sasanian_Empire_at_its_apex_under_Khosrow_II.png",
-    "note": "A modern map, showing the empire at the high point it reached in the 620s and held for only a few years. Licensed CC BY 4.0."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SassanidsGolden.png",
+    "note": "Modern reconstruction, not a late antique document. The file cites no source and has no legend, so the reading of the two shades comes from the map itself. It gives the Sasanian provinces their Middle Persian names (Asoristan, Khuzestan, Pars, Spahan, Abarshar), with Ctesiphon, Estakhr and Merv among the towns, and gives the conquered Roman lands Latin labels (Cappadocia, Judea, Egyptus). Several choices are generous. Persian armies held Caesarea in Cappadocia only in 611 and 612 and reached Chalcedon without holding Anatolia, and most scholars place Sogdiana (Samarkand and Bukhara) under the Western Turks by 620, with Sasanian rule in Khwarazm and Kushanshahr loose at best, so the eastern border is wider than the empire's secure frontier. The Roman provinces were handed back after the peace of 628. Licensed CC BY-SA 4.0."
   },
   "summary": "The Sasanian Empire ruled Iran and Mesopotamia from 224 to 651, and was the eastern Roman empire's equal and rival for four centuries.",
   "overview": "It was never a barbarian kingdom on the Roman model but a peer state with its own imperial ideology, and the two exhausted each other so thoroughly that a third power took both.",
@@ -222,6 +222,27 @@
       "url": "https://www.britishmuseum.org/collection",
       "type": "museum collection",
       "institution": "British Museum"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:SassanidsGolden.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Sasaniden-_Khusro_II._-_M%C3%BCnzkabinett%2C_Berlin_-_5474005.jpg"
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Sasaniden-_Khusro_II._-_M%C3%BCnzkabinett%2C_Berlin_-_5474005.jpg?width=1600",
+  "armsImageInfo": {
+    "caption": "The Sasanian Empire bore no coat of arms; this silver drachm of Khosrow II, struck at Ahwaz in 604 or 605, shows his winged crown and, on the reverse, the fire altar with two attendants.",
+    "creator": "Sasanian mint at Ohrmazd-Ardashir (Ahwaz) under Khosrow II (photograph: Reinhard Saczewski, Münzkabinett Berlin)",
+    "date": "struck in regnal year 15 of Khosrow II (604 or 605)",
+    "source": "Münzkabinett, Staatliche Museen zu Berlin (online collection record 2354416), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sasaniden-_Khusro_II._-_M%C3%BCnzkabinett%2C_Berlin_-_5474005.jpg",
+    "note": "A photograph of a genuine silver drachm weighing 3.81 g, in the Münzkabinett of the Staatliche Museen zu Berlin, not a reconstruction. The obverse shows Khosrow II's bust in a crown with two crenellations topped by a pair of wings, with the Middle Persian legend 'Khosrow, the royal glory has increased'; the reverse shows the fire altar between two attendants, with a star and crescent, the mint mark AW for Ahwaz and the regnal year 15. Robert Göbl's Sasanidische Numismatik (1968) classes it as type II/3. The Sasanians had no heraldry: each shah wore a crown of his own design, which served as his personal emblem on coins and reliefs, and the fire altar on the reverse stood for the Zoroastrian state religion. The royal banner, the Derafsh Kaviani, is described in later Arabic and Persian sources, but no securely identified Sasanian image of it survives. Public domain (photograph released by the museum)."
+  }
 }
