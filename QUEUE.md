@@ -1111,7 +1111,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - Add `coordinates: { lat, lon }` to each city from Wikidata, spot-checked.
    - Build one `LocatorMap` component that draws the base image and places the dot by linear interpolation between the corners, with the label beside it. No hand-made image per city, and no external requests beyond the Commons image.
    - Pick the base map per region, favouring the medieval region the article belongs to. The earlier decision stands: a legible Kingdom of Jerusalem map is the base for crusader cities where it can carry a dot.
-   **Question for the owner before building:** the example shows modern Jordan's borders. Is a modern-borders base acceptable where no good medieval base exists, as in the example? Or must the base always be the medieval polity?
+   **Owner decision 2026-09-15: always medieval if possible.** The base map shows the medieval polity or region the city belonged to. A modern-borders base, like the Jordan map in the example, is used **only where no medieval base map is possible**. Where that fallback is used, the caption says the borders are modern.
    **Pilot:** `kerak` first, then the other Levant cities (`sidon`, `damascus`, `antioch`), then every city-type location, with a gate that each has coordinates and renders a map.
 0l. ✅ **Done 2026-09-15 (owner away; follow-ups found while fixing `el-cid`).**
    - **Birth and death places normalised:** 116 plain-text places became
