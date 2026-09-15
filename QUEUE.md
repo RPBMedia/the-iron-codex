@@ -975,6 +975,16 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0a. **OWNER REPORT 2026-09-15: `harald-greycloak`'s main image is wrong.** The
+   lead is Christian Krohg's 1899 Heimskringla vignette "Olav Tryggvasons saga -
+   Harald Graafell - c. Krohg.jpg", a low-quality drawing of ships at sea with no
+   visible Harald. It breaks the rule that a person's main image must depict the
+   person. **Candidate replacement (seen, not yet applied):** Krohg's "Eiriksonnenes
+   saga - Gunnhild egger sonnene sine - C. Krohg.jpg" (796x470, public domain), in
+   which Gunnhild urges on her sons, Harald among them, at the table. It is still an
+   1899 imagining, so the caption must say so, and the ships vignette can move to a
+   section image or go. Search the other 1899 illustrators (Werenskiold, Wetlesen,
+   Egedius, Munthe, Peterssen) for a Harald-centred scene before settling.
 0b. ✅ **Done 2026-09-15: `danelaw`, `kingdom-of-york`, `kingdom-of-east-anglia`
    and `great-heathen-army`** (owner's choice: the Danelaw plus core neighbours;
    Mercia, Æthelflæd and the treaty of Alfred and Guthrum stay named without links
@@ -1005,7 +1015,23 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `battle-of-brunanburh`, `eric-bloodaxe`, `aethelstan`, `cnut-the-great`,
    `coppergate-helmet`.
 0c. **OWNER REQUEST 2026-09-15 — articles for queens, starting with the house
-   trees. The owner expects this to be big, and it is.** Reported on
+   trees. The owner expects this to be big, and it is.** **Owner chose all 36
+   unlinked spouses. Plantagenet batch done 2026-09-15:** `berengaria-of-navarre`,
+   `isabella-of-angouleme`, `eleanor-of-provence`, `eleanor-of-castile`,
+   `isabella-of-france`, `philippa-of-hainault`, `joan-of-kent`, `anne-of-bohemia`,
+   `blanche-of-lancaster`, `mary-de-bohun`, `catherine-of-valois`,
+   `margaret-of-anjou`, each linked in the Plantagenet (and, for Catherine,
+   Lancaster) tree with reverse links from husbands and sons. The four tree
+   spouses that already had articles (`margaret-i`, `jadwiga-of-poland`,
+   `isabella-i-of-jerusalem`, `irene-of-athens`) are now linked too. **Remaining:**
+   Normandy (Matilda of Flanders, Matilda of Scotland, Geoffrey of Anjou, Stephen of
+   Blois, Matilda of Boulogne), Wessex (Ealhswith, Eadgifu, Emma of Normandy, Edith
+   of Wessex), and the rest (Philippa of Lancaster, Irene Doukaina, Constance of
+   Sicily, Thyra, Eudokia Makrembolitissa, Marjorie Bruce, Adela of Normandy, Milica,
+   both Theodoras, Theophano, Sophia). Images are sourced for most; Ealhswith and
+   Marjorie Bruce have no depiction of any kind and wait on the image-rule
+   decision below. Two empresses named Theodora need distinct labels plus a
+   context-hint entry, as "Alexander" has. Reported on
    `house-of-plantagenet`: every queen in the tree is plain text, e.g. Henry V's
    wife Catherine of Valois, who has no article under any spelling. Audit
    2026-09-15: the 70 house trees hold **44 spouse nodes, 38 of them unlinked (36
@@ -1095,8 +1121,10 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `al-adil-ii`, `al-mansur-ali`, `baraka-khan`, `yusuf-ibn-tashfin`,
    `muhammad-al-nasir` all lead with aniconic Islamic gold coinage. No depiction
    of any of them exists on Commons — the one file titled "محمد الناصر" is
-   calligraphy of the name. **This needs the owner's decision below, not more
-   searching.** `kerbogha` (was a MAP) and `qutuz` were fixed 2026-09-08.
+   calligraphy of the name. **Owner decided 2026-09-15: a documented associated monument
+   leads, its caption's first sentence saying it is not a likeness (rule in
+   CLAUDE.md); the coins move to section images.** To do: choose and verify a
+   monument for each of the five. `kerbogha` (was a MAP) and `qutuz` were fixed 2026-09-08.
 4. **~14 Scandinavian/English pennies still need individual eyes** — some carry
    a crude bust and pass, some carry only a cross and a legend. The ~11 Byzantine
    solidi and ~7 royal seals pass and need no work.
@@ -1803,8 +1831,13 @@ it is a slow liquidation.
 
 ## Blocked on the user
 
-- **DECISION NEEDED — the image rule is systematically deferring non-Christian
-  and non-European commanders.** Raised 2026-09-07 after M6. Four consecutive
+- ~~**DECISION NEEDED — the image rule is systematically deferring non-Christian
+  and non-European commanders.**~~ **DECIDED 2026-09-15: option 2**, now a
+  CLAUDE.md rule: when no depiction of any kind survives, a documented associated
+  monument leads, and the caption's first sentence says it is not a likeness. It
+  unblocks Vitiges, Shahrbaraz, Sergius and Bonus, Maslama, the five coin-led
+  rulers, and the spouses with no depiction. History of the question follows.
+  Raised 2026-09-07 after M6. Four consecutive
   Track A milestones have deferred a major figure for having no image in any
   form: **Vitiges** (M3, Ostrogothic king), **Shahrbaraz** (M4, Persian general
   and briefly shah), **Sergius and Bonus** (M5, the two men who actually ran the

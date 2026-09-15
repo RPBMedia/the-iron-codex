@@ -21192,6 +21192,12 @@
             "title": "Philip II of France",
             "type": "person",
             "slug": "philip-ii-of-france"
+          },
+          {
+            "title": "Berengaria of Navarre",
+            "type": "person",
+            "slug": "berengaria-of-navarre",
+            "label": "Queen"
           }
         ],
         "weaponsArmor": [
@@ -35349,6 +35355,18 @@
             "type": "person",
             "slug": "edward-iii-of-england",
             "label": "Ruler of Kingdom of England"
+          },
+          {
+            "title": "Catherine of Valois",
+            "type": "person",
+            "slug": "catherine-of-valois",
+            "label": "Queen"
+          },
+          {
+            "title": "Mary de Bohun",
+            "type": "person",
+            "slug": "mary-de-bohun",
+            "label": "Mother"
           }
         ],
         "weaponsArmor": [
@@ -38518,6 +38536,12 @@
             "title": "Robert the Bruce",
             "type": "person",
             "slug": "robert-the-bruce"
+          },
+          {
+            "title": "Isabella of France",
+            "type": "person",
+            "slug": "isabella-of-france",
+            "label": "Queen, who deposed him"
           }
         ]
       },
@@ -38731,6 +38755,18 @@
             "type": "person",
             "slug": "henry-v-of-england",
             "label": "Ruler of Kingdom of England"
+          },
+          {
+            "title": "Philippa of Hainault",
+            "type": "person",
+            "slug": "philippa-of-hainault",
+            "label": "Queen"
+          },
+          {
+            "title": "Isabella of France",
+            "type": "person",
+            "slug": "isabella-of-france",
+            "label": "Mother"
           }
         ]
       },
@@ -38951,6 +38987,12 @@
             "type": "person",
             "slug": "edward-iii-of-england",
             "label": "Ruler of Kingdom of England"
+          },
+          {
+            "title": "Joan of Kent",
+            "type": "person",
+            "slug": "joan-of-kent",
+            "label": "Wife"
           }
         ],
         "weaponsArmor": [
@@ -40702,6 +40744,12 @@
             "title": "John Comyn",
             "type": "person",
             "slug": "john-comyn"
+          },
+          {
+            "title": "Eleanor of Castile",
+            "type": "person",
+            "slug": "eleanor-of-castile",
+            "label": "Queen"
           }
         ],
         "weaponsArmor": [
@@ -53136,6 +53184,12 @@
             "type": "person",
             "slug": "eleanor-of-aquitaine",
             "label": "Mother, whose duchy he inherited and lost control of"
+          },
+          {
+            "title": "Isabella of Angoulême",
+            "type": "person",
+            "slug": "isabella-of-angouleme",
+            "label": "Queen"
           }
         ],
         "locations": [
@@ -53357,6 +53411,12 @@
             "type": "person",
             "slug": "louis-ix-of-france",
             "label": "Brother-in-law, treaty partner, and failed arbitrator of 1264"
+          },
+          {
+            "title": "Eleanor of Provence",
+            "type": "person",
+            "slug": "eleanor-of-provence",
+            "label": "Queen"
           }
         ],
         "locations": [
@@ -53556,6 +53616,18 @@
             "type": "person",
             "slug": "henry-iv-of-england",
             "label": "Cousin, supplanter, and successor"
+          },
+          {
+            "title": "Anne of Bohemia",
+            "type": "person",
+            "slug": "anne-of-bohemia",
+            "label": "First queen"
+          },
+          {
+            "title": "Joan of Kent",
+            "type": "person",
+            "slug": "joan-of-kent",
+            "label": "Mother"
           }
         ],
         "locations": [
@@ -53764,6 +53836,18 @@
             "type": "person",
             "slug": "edward-iii-of-england",
             "label": "Grandfather, source of the Lancastrian claim"
+          },
+          {
+            "title": "Mary de Bohun",
+            "type": "person",
+            "slug": "mary-de-bohun",
+            "label": "First wife"
+          },
+          {
+            "title": "Blanche of Lancaster",
+            "type": "person",
+            "slug": "blanche-of-lancaster",
+            "label": "Mother"
           }
         ],
         "locations": [
@@ -53977,6 +54061,18 @@
             "type": "person",
             "slug": "joan-of-arc",
             "label": "Whose intervention doomed his French crown"
+          },
+          {
+            "title": "Margaret of Anjou",
+            "type": "person",
+            "slug": "margaret-of-anjou",
+            "label": "Queen"
+          },
+          {
+            "title": "Catherine of Valois",
+            "type": "person",
+            "slug": "catherine-of-valois",
+            "label": "Mother"
           }
         ],
         "locations": [
@@ -98301,6 +98397,2585 @@
           "note": "The octagonal plan under a conical roof is the standard Anatolian Seljuk tomb form, and the band below the roofline carries a Qur'anic inscription. It was begun in his reign and holds several sultans of Rum besides him. CC BY-SA 3.0."
         }
       ]
+    },
+    {
+      "id": "anne-of-bohemia",
+      "type": "character",
+      "name": "Anne of Bohemia",
+      "aliases": [
+        "Anne of Luxembourg"
+      ],
+      "born": 1366,
+      "died": 1394,
+      "deathAge": "28",
+      "causeOfDeath": "Probably plague",
+      "restingPlace": "Westminster Abbey",
+      "location": "Bohemia and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England"
+      ],
+      "epithets": [
+        {
+          "name": "Good Queen Anne",
+          "type": "honorific",
+          "note": "A name used by later writers for her reputation as an intercessor."
+        }
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Anna_WEst.jpg",
+      "imageInfo": {
+        "caption": "Anne of Bohemia beside Richard II, from the gilt effigies made for their tomb in Westminster Abbey in 1395, in a later engraving.",
+        "creator": "Engraving after the effigies by Nicholas Broker and Godfrey Prest",
+        "date": "effigies 1395; engraving published 1915",
+        "source": "Samuel R. Gardiner, History of England (1915), via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_Anna_WEst.jpg",
+        "note": "The effigies were commissioned the year after her death and are among the earliest English royal tomb figures intended as likenesses."
+      },
+      "summary": "Daughter of the emperor Charles IV and first wife of Richard II: a peacemaking queen whose early death in 1394 broke her husband, and whose Bohemian connections linked England to Prague in the age of Wycliffe and Hus.",
+      "overview": [
+        "Anne of Bohemia, daughter of the emperor Charles IV, married Richard II in 1382 as part of an alliance against France during the Great Western Schism. Her marriage was close, her intercessions made her popular, and her sudden death in 1394 is often taken as the moment Richard's rule began to turn harsh."
+      ],
+      "greatestFeats": [
+        "Interceded for rebels of the Peasants' Revolt and for the city of London",
+        "Knelt for three hours to plead for the life of Simon Burley in 1388",
+        "Connected the English court with the Luxembourg court at Prague",
+        "Shares the double tomb with Richard II in Westminster Abbey"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1382 to 1394",
+        "Mediator between Richard II and London in 1392",
+        "Link between England and Bohemia in the age of Wycliffe"
+      ],
+      "birth": {
+        "date": "11 May 1366",
+        "place": {
+          "name": "Prague"
+        }
+      },
+      "death": {
+        "date": "7 June 1394",
+        "place": {
+          "name": "Sheen Palace",
+          "slug": "sheen-palace"
+        },
+        "circumstance": "Died suddenly at Sheen, probably of plague; Richard II, overcome with grief, ordered the manor demolished."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Luxembourg",
+        "culture": "Bohemian and English court culture",
+        "knownFor": "Her intercessions and the double tomb she shares with Richard II"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Anne of Bohemia was queen of England from 1382 to 1394 as the first wife of Richard II. The daughter of Charles IV, Holy Roman Emperor and king of Bohemia, and sister of the emperor Wenceslaus and of Sigismund of Luxembourg, she was chosen to seal an alliance against France during the Great Western Schism, and she came without a dowry: Richard's council instead lent her brother money.",
+            "The marriage turned out to be close, and her reputation as a merciful intercessor for rebels, Londoners and condemned men made her popular. Her death at Sheen in 1394, childless at twenty-eight, is often seen as the point after which Richard's rule grew erratic and vindictive."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Anne was born in Prague on 11 May 1366, the eldest daughter of Charles IV and his fourth wife, Elizabeth of Pomerania, and grew up in the cosmopolitan court of Charles's rebuilt Prague, with its new university and cathedral. Her marriage was negotiated in 1380–1381 by English envoys looking for allies for Pope Urban VI against the antipope supported by France. She landed at Dover in December 1381 and married Richard at Westminster Abbey on 20 January 1382, when both were fifteen."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "English chroniclers were at first cool towards a foreign bride who brought no dowry; the Westminster chronicler, weighing what she had cost, called her a tiny scrap of humanity. They came to praise her piety and gentleness, and the most consistent theme in their accounts is intercession: she begged pardons for rebels of the Peasants' Revolt at her coronation, and her pleas for the citizens during Richard's quarrel with London in 1392 were staged as public ceremonies of reconciliation.",
+            "Her religious interests were those of the Luxembourg court, and she is said to have owned the Gospels in several languages, a point later cited by Wycliffite writers as proof that a queen could read scripture in her own tongue. Contacts between her household and Prague helped carry John Wycliffe's writings to Bohemia, where students who had studied at Oxford brought them home and Jan Hus read them."
+          ]
+        },
+        {
+          "title": "Queen of Richard II",
+          "paragraphs": [
+            "Anne was crowned two days after her wedding and became part of Richard's inner circle. She travelled with him constantly, and unlike some earlier queens she did not bring a large foreign household that stirred resentment, though later writers blamed the Bohemian ladies in her train for new fashions at court. During the crisis of the Lords Appellant in 1388 she reportedly knelt for three hours before the earl of Arundel to beg for the life of Richard's former tutor, Sir Simon Burley, and failed."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Anne died suddenly at Sheen Palace on 7 June 1394, probably of plague. Richard was so stricken that he ordered the manor at Sheen demolished, and at her funeral in Westminster Abbey he struck the earl of Arundel with a staff for arriving late and asking to leave early. He commissioned a double tomb with gilt-bronze effigies of king and queen by the London coppersmiths Nicholas Broker and Godfrey Prest, whose hands were originally joined."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Anne's death removed a moderating influence from Richard's court, and many historians trace to it the king's turn towards the arbitrary rule of his last years, which ended with his deposition in 1399. Her Bohemian marriage left a longer trail: the movement of Wycliffe's ideas to Prague, where they fed the reform movement that became the Hussite revolution."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "11 May 1366",
+          "title": "Birth in Prague",
+          "description": "Born the daughter of the emperor Charles IV and Elizabeth of Pomerania."
+        },
+        {
+          "date": "1380–1381",
+          "title": "Marriage negotiated",
+          "description": "English envoys arrange the match as part of an alliance against France."
+        },
+        {
+          "date": "December 1381",
+          "title": "Arrival in England",
+          "description": "She lands at Dover after crossing from the Low Countries."
+        },
+        {
+          "date": "20 January 1382",
+          "title": "Marriage to Richard II",
+          "description": "She marries the king at Westminster Abbey and is crowned two days later."
+        },
+        {
+          "date": "1388",
+          "title": "Plea for Simon Burley",
+          "description": "She begs the Lords Appellant to spare the king's former tutor."
+        },
+        {
+          "date": "1392",
+          "title": "Reconciliation with London",
+          "description": "Her intercession ends Richard's quarrel with the city."
+        },
+        {
+          "date": "7 June 1394",
+          "title": "Death at Sheen",
+          "description": "She dies suddenly, probably of plague."
+        },
+        {
+          "date": "1395",
+          "title": "The double tomb",
+          "description": "Richard commissions gilt effigies of himself and Anne for Westminster Abbey."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Richard_Anna_WEst.jpg"
+        },
+        {
+          "title": "Anne of Bohemia",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Anne_of_Bohemia"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Richard II of England",
+            "type": "person",
+            "slug": "richard-ii-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Sigismund of Luxembourg",
+            "type": "person",
+            "slug": "sigismund-of-luxembourg",
+            "label": "Brother"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Luxembourg",
+            "type": "house",
+            "slug": "house-of-luxembourg",
+            "label": "Royal house of her birth"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Sheen Palace",
+            "type": "location",
+            "slug": "sheen-palace",
+            "label": "Where she died"
+          },
+          {
+            "title": "Westminster",
+            "type": "location",
+            "slug": "westminster",
+            "label": "Burial place"
+          }
+        ]
+      }
+    },
+    {
+      "id": "berengaria-of-navarre",
+      "type": "character",
+      "name": "Berengaria of Navarre",
+      "aliases": [
+        "Berenguela of Navarre"
+      ],
+      "born": 1165,
+      "died": 1230,
+      "deathAge": "unknown",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "L'Épau Abbey, near Le Mans",
+      "location": "Navarre, Poitou and Maine",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Lady of Le Mans",
+        "Founder of L'Épau Abbey"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Replica_effigy_of_Berengaria_of_Navarre%2C_V%26A_London_01.jpg",
+      "imageInfo": {
+        "caption": "A cast of Berengaria's thirteenth-century tomb effigy from L'Épau Abbey, in the Victoria and Albert Museum.",
+        "creator": "14GTR (photograph)",
+        "date": "photograph, 2024 (effigy 13th century)",
+        "source": "Victoria and Albert Museum; Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Replica_effigy_of_Berengaria_of_Navarre%2C_V%26A_London_01.jpg",
+        "note": "A cast of her funerary effigy, which shows her crowned and holding a book. It is a conventional royal image made after her death, not a portrait from life."
+      },
+      "summary": "Queen of England as the wife of Richard the Lionheart, married on crusade in Cyprus in 1191. There is no record that she set foot in England during his reign, and she spent thirty years of widowhood securing her rights as lady of Le Mans.",
+      "overview": [
+        "Berengaria, daughter of King Sancho VI of Navarre, married Richard the Lionheart at Limassol in Cyprus in 1191, in the middle of the Third Crusade. She spent little of his reign with him, and after his death she fought King John for her dower before settling as lady of Le Mans, where she founded the abbey of L'Épau."
+      ],
+      "greatestFeats": [
+        "Crowned queen of England at Limassol during the Third Crusade",
+        "Secured her dower through appeals to Pope Innocent III",
+        "Ruled Le Mans as its lady for a quarter of a century",
+        "Founded the Cistercian abbey of L'Épau"
+      ],
+      "keyAchievements": [
+        "Married Richard the Lionheart at Limassol in 1191",
+        "Won her dower rights after decades of appeals",
+        "Founded L'Épau Abbey in 1229"
+      ],
+      "birth": {
+        "date": "c. 1165–1170",
+        "place": {
+          "name": "Navarre (exact place unrecorded)"
+        },
+        "note": "Her birth year is not recorded; she was probably in her early twenties when she married in 1191."
+      },
+      "death": {
+        "date": "c. 23 December 1230",
+        "place": {
+          "name": "Le Mans, Maine"
+        },
+        "circumstance": "Died at Le Mans after a long widowhood and was buried in the abbey of L'Épau, which she had founded the year before."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England; lordship of Le Mans",
+        "dynasty": "House of Jiménez",
+        "culture": "Navarrese and Angevin",
+        "knownFor": "Her crusade marriage to Richard the Lionheart and her long widowhood at Le Mans"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Berengaria of Navarre was the eldest daughter of King Sancho VI of Navarre and the wife of Richard the Lionheart, whom she married at Limassol in Cyprus on 12 May 1191, in the middle of the Third Crusade. She was crowned queen of England the same day, but there is no record that she set foot in England while Richard lived, and the couple spent little of his reign together.",
+            "Her importance lies in the alliance she brought and in her long widowhood. The marriage made Navarre an ally on the southern flank of Richard's lands in Aquitaine, and after his death in 1199 she spent three decades pursuing her dower from King John and his son before settling at Le Mans, where she governed the city as its lady and founded the Cistercian abbey of L'Épau."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Berengaria was born in Navarre around 1165–1170, to Sancho VI, called the Wise, and Sancha of Castile, and almost nothing is recorded of her childhood. The marriage was arranged while Richard was still formally betrothed to Alys, the sister of Philip II of France, whom he refused to marry. His mother, Eleanor of Aquitaine, crossed the Alps in the winter of 1190–1191 to bring Berengaria to him in Sicily, and they reached Messina on 30 March 1191, the day Philip sailed for the Holy Land."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Berengaria is one of the least-described queens of medieval England. Richard of Devizes, writing in the 1190s, called her a young woman more sensible than beautiful, and the chroniclers of the crusade mention her chiefly as the companion of Richard's widowed sister Joan, queen of Sicily, with whom she travelled. The absence of criticism is itself unusual at a time when monastic writers were quick to blame queens, and it probably reflects how small a public role she was given.",
+            "Her later letters and lawsuits show a more determined woman. She appealed repeatedly to Pope Innocent III over the dower King John withheld, bargained with Philip II of France over her Norman rights, and as lady of Le Mans quarrelled with the cathedral chapter over jurisdiction. Modern historians have set aside the romantic image of a neglected wife in favour of a widow who used every legal means available to secure her income and her lordship."
+          ]
+        },
+        {
+          "title": "The crusading queen",
+          "paragraphs": [
+            "Storms scattered Richard's fleet on the way from Sicily, and the ship carrying Berengaria and Joan was driven to Cyprus, where the island's ruler, Isaac Komnenos, tried to lure the women ashore. Richard landed, conquered the island in a few weeks, and married Berengaria in the chapel of St George at Limassol, where the bishop of Évreux crowned her. The couple sailed on to the siege of Acre, and Berengaria stayed with Joan in Acre and Jaffa while Richard campaigned against Saladin.",
+            "She left the Holy Land ahead of Richard at the end of September 1192 and waited in Poitou through his captivity in Germany. After his release, Roger of Howden reports, a hermit warned the king to give up his sins and return to his wife, and Richard was reconciled with her; they kept Christmas together at Poitiers in 1195. They had no children."
+          ]
+        },
+        {
+          "title": "Widow and lady of Le Mans",
+          "paragraphs": [
+            "Richard died at Châlus in April 1199 without Berengaria at his side. His brother John, fighting Philip II for the Angevin lands, withheld the dower in England and Normandy that had been promised to her, and she spent years appealing to Innocent III, who threatened John with ecclesiastical penalties on her behalf. In 1204 she surrendered her Norman dower rights to Philip II in exchange for the city of Le Mans.",
+            "Henry III's government finally paid much of her arrears in the 1220s. At Le Mans she heard disputes, managed her revenues and defended her jurisdiction, and in 1229 she received land at L'Épau outside the city from the young Louis IX, where she founded a Cistercian abbey."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Berengaria died at Le Mans, probably on 23 December 1230, and was buried in the abbey church of L'Épau. Her tomb was moved during the abbey's later history, and bones identified as hers, found at the abbey in 1960, were reburied beneath her effigy, which has been returned to L'Épau."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Berengaria's reputation as the forgotten queen, the English queen who never set foot in England, rests on the silence of the sources rather than on proof that she never crossed the Channel. Her effigy, a crowned figure holding a book, is one of the finest thirteenth-century royal tomb sculptures in France, and a cast of it stands in the Victoria and Albert Museum."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1165–1170",
+          "title": "Birth in Navarre",
+          "description": "Born the eldest daughter of Sancho VI of Navarre and Sancha of Castile."
+        },
+        {
+          "date": "30 March 1191",
+          "title": "Arrival at Messina",
+          "description": "Eleanor of Aquitaine brings her to Richard in Sicily as Philip II sails east."
+        },
+        {
+          "date": "12 May 1191",
+          "title": "Married and crowned at Limassol",
+          "description": "Richard marries her in Cyprus after conquering the island."
+        },
+        {
+          "date": "September 1192",
+          "title": "Leaves the Holy Land",
+          "description": "She sails for the west ahead of Richard, who is soon captured in Germany."
+        },
+        {
+          "date": "Christmas 1195",
+          "title": "Reunion at Poitiers",
+          "description": "The king and queen keep Christmas together after his reconciliation with her."
+        },
+        {
+          "date": "April 1199",
+          "title": "Death of Richard",
+          "description": "Richard dies at Châlus, and her long struggle for her dower begins."
+        },
+        {
+          "date": "1204",
+          "title": "Lady of Le Mans",
+          "description": "She exchanges her Norman dower rights with Philip II for the city of Le Mans."
+        },
+        {
+          "date": "1229",
+          "title": "L'Épau founded",
+          "description": "Louis IX grants the land on which she founds her Cistercian abbey."
+        },
+        {
+          "date": "December 1230",
+          "title": "Death",
+          "description": "She dies at Le Mans and is buried at L'Épau."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Replica_effigy_of_Berengaria_of_Navarre%2C_V%26A_London_01.jpg"
+        },
+        {
+          "title": "Richard of Devizes, Chronicle",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Richard_of_Devizes"
+        },
+        {
+          "title": "Roger of Howden, Chronica",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Roger_of_Howden"
+        },
+        {
+          "title": "Berengaria of Navarre",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Berengaria_of_Navarre"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Richard the Lionheart",
+            "type": "person",
+            "slug": "richard-the-lionheart",
+            "label": "Husband"
+          },
+          {
+            "title": "Eleanor of Aquitaine",
+            "type": "person",
+            "slug": "eleanor-of-aquitaine",
+            "label": "Mother-in-law who brought her to Sicily"
+          }
+        ],
+        "events": [
+          {
+            "title": "Third Crusade",
+            "type": "event",
+            "slug": "third-crusade",
+            "label": "Married during the crusade"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of Navarre",
+            "type": "location",
+            "slug": "kingdom-of-navarre",
+            "label": "Kingdom of her birth"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house by marriage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "blanche-of-lancaster",
+      "type": "character",
+      "name": "Blanche of Lancaster",
+      "aliases": [
+        "Blanche, Duchess of Lancaster"
+      ],
+      "born": 1342,
+      "died": 1368,
+      "deathAge": "about 26",
+      "causeOfDeath": "Probably plague",
+      "restingPlace": "Old St Paul's Cathedral, London (tomb destroyed in 1666)",
+      "location": "England",
+      "title": "Duchess of Lancaster",
+      "roles": [
+        "Duchess of Lancaster",
+        "Heiress of the Lancaster estates",
+        "Mother of Henry IV"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_John_of_Gaunt_and_Blanche_of_Lancaster.jpg",
+      "imageInfo": {
+        "caption": "The heads of the effigies of Blanche of Lancaster and John of Gaunt on their tomb in Old St Paul's, from Wenceslaus Hollar's engraving of the 1650s.",
+        "creator": "Wenceslaus Hollar",
+        "date": "c. 1658",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_John_of_Gaunt_and_Blanche_of_Lancaster.jpg",
+        "note": "The tomb was destroyed in the Great Fire of 1666, and Hollar's engraving is the main record of its effigies, which were carved after her death and are not portraits from life."
+      },
+      "summary": "Heiress of the duchy of Lancaster whose marriage to John of Gaunt in 1359 made him the richest nobleman in England; mother of Henry IV and of Philippa, queen of Portugal, and the lady mourned in Chaucer's Book of the Duchess.",
+      "overview": [
+        "Blanche of Lancaster, daughter of Henry of Grosmont, brought the Lancaster inheritance to John of Gaunt and bore the future Henry IV. She died at about twenty-six, and Geoffrey Chaucer's first major poem, The Book of the Duchess, is an elegy for her."
+      ],
+      "greatestFeats": [
+        "Inherited the whole Lancaster estate in 1362",
+        "Mother of Henry IV and of Philippa, queen of Portugal",
+        "Commemorated in Chaucer's Book of the Duchess"
+      ],
+      "keyAchievements": [
+        "Duchess of Lancaster from 1362",
+        "Mother of Henry IV",
+        "Grandmother of Henry V"
+      ],
+      "birth": {
+        "date": "c. 1342–1345",
+        "place": {
+          "name": "Bolingbroke Castle, Lincolnshire (probably)"
+        },
+        "note": "Her birth year is uncertain."
+      },
+      "death": {
+        "date": "12 September 1368",
+        "place": {
+          "name": "Tutbury Castle, Staffordshire (probably)"
+        },
+        "circumstance": "Died young, probably of plague; the place is usually given as Tutbury, though Bolingbroke has also been suggested."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Plantagenet",
+        "culture": "English court culture",
+        "knownFor": "The Lancaster inheritance and Chaucer's Book of the Duchess"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Blanche of Lancaster was the younger daughter of Henry of Grosmont, Duke of Lancaster, Edward III's most celebrated captain, and the first wife of John of Gaunt, the king's third surviving son. When her elder sister died in 1362 she inherited the whole Lancaster estate, the largest private landholding in England, and her husband became Duke of Lancaster in her right.",
+            "Blanche was never a queen and died at about twenty-six, but her inheritance founded the royal House of Lancaster: her son became Henry IV of England in 1399, and her daughter Philippa married John I of Portugal and became the mother of the Portuguese princes of the House of Aviz. Geoffrey Chaucer's first major poem, The Book of the Duchess, is an elegy for her."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Blanche was born around 1342–1345, probably at Bolingbroke Castle in Lincolnshire, to Henry of Grosmont and Isabel de Beaumont. Her father was a crusader and diplomat and the author of a devotional book, the Livre de seyntz medicines, and Edward III made him the first Duke of Lancaster in 1351. On 19 May 1359, at Reading Abbey, Blanche married her cousin John of Gaunt under a papal dispensation, and the wedding was celebrated with jousts in London at which, it was said, the king and his sons fought disguised as the mayor and aldermen."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Almost everything said about Blanche's character comes from Geoffrey Chaucer, who served in her husband's circle. In The Book of the Duchess, written soon after her death, the grieving Black Knight describes his lady, called White, a play on Blanche, as fair, gentle, truthful and kind in speech. The poem is courtly praise written for a patron, and it shows how Gaunt's household wished her to be remembered rather than giving an independent portrait.",
+            "Froissart, who also knew the Lancastrian household, praised her as young and beautiful and recorded the lavish mourning for her. Beyond these tributes the record is one of property, children and devotion: she and Gaunt had at least seven children, three of whom survived, and her anniversaries were kept with great ceremony for decades."
+          ]
+        },
+        {
+          "title": "Duchess of Lancaster",
+          "paragraphs": [
+            "Her father died of plague in 1361 and her elder sister, the wife of William of Bavaria, in 1362, leaving Blanche sole heiress. Edward III created John of Gaunt Duke of Lancaster in November 1362, and the Lancaster estates, with castles at Kenilworth, Leicester, Pontefract and Tutbury and the Savoy Palace in London, gave the couple an income second only to the crown's. Their surviving children were Philippa, born in 1360, Elizabeth, born in 1363, and Henry, born at Bolingbroke in 1367."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Blanche died on 12 September 1368, probably of plague. John of Gaunt kept her memory for the rest of his life, endowing chantries for her soul and commissioning a splendid tomb in St Paul's Cathedral from the mason Henry Yevele, where he was buried beside her in 1399. The tomb was destroyed in the Great Fire of 1666, and its appearance is known from Wenceslaus Hollar's engraving."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Blanche's inheritance made the dukes of Lancaster the one noble house wealthy enough to challenge the crown, and in 1399 her son used that power to depose Richard II and take the throne. Her grandchildren included Henry V of England and, through her daughter Philippa, the Portuguese princes of the House of Aviz, among them Henry the Navigator."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1342–1345",
+          "title": "Birth",
+          "description": "Born to Henry of Grosmont and Isabel de Beaumont."
+        },
+        {
+          "date": "19 May 1359",
+          "title": "Marriage at Reading",
+          "description": "She marries John of Gaunt, Edward III's third surviving son."
+        },
+        {
+          "date": "1360",
+          "title": "Birth of Philippa",
+          "description": "Her daughter, the future queen of Portugal, is born."
+        },
+        {
+          "date": "November 1362",
+          "title": "Heiress of Lancaster",
+          "description": "With her father and sister dead, John of Gaunt is created Duke of Lancaster in her right."
+        },
+        {
+          "date": "1367",
+          "title": "Birth of Henry IV",
+          "description": "Her son Henry is born at Bolingbroke Castle."
+        },
+        {
+          "date": "12 September 1368",
+          "title": "Death",
+          "description": "She dies, probably of plague, at about twenty-six."
+        },
+        {
+          "date": "c. 1368–1372",
+          "title": "The Book of the Duchess",
+          "description": "Chaucer writes his elegy for her."
+        },
+        {
+          "date": "1399",
+          "title": "Gaunt buried beside her",
+          "description": "John of Gaunt is laid in their tomb at St Paul's, and their son becomes king."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Tomb_of_John_of_Gaunt_and_Blanche_of_Lancaster.jpg"
+        },
+        {
+          "title": "Geoffrey Chaucer, The Book of the Duchess",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/The_Book_of_the_Duchess"
+        },
+        {
+          "title": "Blanche of Lancaster",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Blanche_of_Lancaster"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Henry IV of England",
+            "type": "person",
+            "slug": "henry-iv-of-england",
+            "label": "Son"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "Founded on her inheritance"
+          },
+          {
+            "title": "House of Aviz",
+            "type": "house",
+            "slug": "house-of-aviz",
+            "label": "Her daughter Philippa married into it"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house of her birth"
+          }
+        ],
+        "locations": [
+          {
+            "title": "London",
+            "type": "location",
+            "slug": "london",
+            "label": "Buried at St Paul's"
+          }
+        ]
+      }
+    },
+    {
+      "id": "catherine-of-valois",
+      "type": "character",
+      "name": "Catherine of Valois",
+      "aliases": [
+        "Katherine of Valois",
+        "Catherine of France"
+      ],
+      "born": 1401,
+      "died": 1437,
+      "deathAge": "35",
+      "causeOfDeath": "Illness after childbirth",
+      "restingPlace": "Westminster Abbey",
+      "location": "France and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Mother of Henry VI",
+        "Grandmother of Henry VII"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marriage_of_henry_and_Catherine.jpg",
+      "imageInfo": {
+        "caption": "The marriage of Catherine of Valois and Henry V, labelled K. de France and H. le cinquiesme, in a late fifteenth-century manuscript.",
+        "creator": "Unknown illuminator of Jean Chartier's Chronique de Charles VII",
+        "date": "before 1494",
+        "source": "British Library, Royal MS 20 E VI, f. 9v, via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marriage_of_henry_and_Catherine.jpg",
+        "note": "Painted some seventy years after the wedding; the figures are identified by their labels and are not likenesses."
+      },
+      "summary": "Daughter of Charles VI of France whose marriage to Henry V under the Treaty of Troyes was meant to join the English and French crowns; mother of Henry VI and, through her secret marriage to Owen Tudor, grandmother of Henry VII.",
+      "overview": [
+        "Catherine of Valois married Henry V in 1420 under the Treaty of Troyes, which made him heir to France. Widowed at twenty with a baby king, she later married the Welsh squire Owen Tudor in secret, and their sons made her the grandmother of the first Tudor king."
+      ],
+      "greatestFeats": [
+        "Married Henry V under the Treaty of Troyes",
+        "Mother of Henry VI, king of England and France",
+        "Grandmother of Henry VII through her marriage to Owen Tudor"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1420 to 1422",
+        "Mother of Henry VI",
+        "Ancestress of the Tudor dynasty"
+      ],
+      "birth": {
+        "date": "27 October 1401",
+        "place": {
+          "name": "Hôtel Saint-Pol, Paris"
+        }
+      },
+      "death": {
+        "date": "3 January 1437",
+        "place": {
+          "name": "Bermondsey Abbey"
+        },
+        "circumstance": "Died at Bermondsey Abbey, where she had withdrawn in illness, shortly after giving birth to a daughter who did not survive."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Valois",
+        "culture": "French and English court culture",
+        "knownFor": "The Treaty of Troyes marriage and her Tudor descendants"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Catherine of Valois was the youngest daughter of Charles VI of France and the wife of Henry V of England, whom she married in 1420 as part of the Treaty of Troyes. The treaty disinherited her brother, the dauphin Charles, and made Henry heir to the French throne, so that the son of Henry and Catherine would rule both kingdoms.",
+            "That son, Henry VI of England, was born in 1421 and became king of England before his first birthday. Catherine's second life, her secret union with the Welsh squire Owen Tudor, produced the half-brothers of Henry VI from whom the Tudor dynasty descended."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Catherine was born at the Hôtel Saint-Pol in Paris on 27 October 1401, the youngest daughter of Charles VI and Isabeau of Bavaria, in the years when her father's recurring madness left France to the rival factions of Burgundy and Armagnac. Her marriage was discussed as early as 1414, when Henry V demanded her hand with a huge dowry. After the Battle of Agincourt and his conquest of Normandy, the match became part of the settlement between Henry, Charles VI and Philip the Good, Duke of Burgundy."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Catherine left little testimony of her own, and contemporaries described her mainly through beauty and ceremony. The Burgundian chronicler Enguerrand de Monstrelet recorded Henry's delight on meeting her at Meulan in 1419, and her entry into London and coronation in 1421 were celebrated with pageants. Her political role was slight: after Henry's death she was given no place on the council that governed for her son, and her importance lay in being his mother.",
+            "Her later choices show a young widow determined to have a private life. Her attachment to Edmund Beaufort in the mid-1420s alarmed the council so much that Parliament passed a statute forbidding a queen dowager to remarry without the king's consent, and she then married Owen Tudor, a Welshman of her household, in secret. The secrecy was a response to that law, and the marriage, never publicly acknowledged in her lifetime, produced several children."
+          ]
+        },
+        {
+          "title": "Queen of Henry V",
+          "paragraphs": [
+            "Henry and Catherine were married at Troyes on 2 June 1420, twelve days after the treaty was sealed. She was crowned at Westminster in February 1421 while Henry toured England raising money for the war, and on 6 December 1421 she gave birth to their only child, Henry, at Windsor Castle. Henry V died at the Château de Vincennes on 31 August 1422 without seeing his son again, and Catherine accompanied his body back through France to Westminster."
+          ]
+        },
+        {
+          "title": "Owen Tudor",
+          "paragraphs": [
+            "Around 1430 Catherine married Owen Tudor, probably without the council's knowledge, and they had at least three sons and a daughter, among them Edmund Tudor, later Earl of Richmond, and Jasper Tudor, later Earl of Pembroke, whom their half-brother Henry VI raised to the nobility in 1452. After her death Owen was imprisoned for breaking the statute, escaped, and was eventually pardoned; he was beheaded after the Yorkist victory at Mortimer's Cross in 1461."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Catherine withdrew, ill, to Bermondsey Abbey in 1436 and died there on 3 January 1437. She was buried in Westminster Abbey, but when Henry VII rebuilt the Lady Chapel her coffin was disturbed and her embalmed body lay exposed for centuries; the diarist Samuel Pepys recorded in 1669 that he had kissed her. She was reburied in the abbey only in 1878."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "The Treaty of Troyes that brought Catherine to England failed, and her son lost almost all of Lancastrian France by 1453. But her marriage to Owen Tudor gave her a grandson, Henry, Earl of Richmond, the son of Edmund Tudor and Margaret Beaufort, who took the throne as Henry VII in 1485 and founded the Tudor dynasty."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "27 October 1401",
+          "title": "Birth in Paris",
+          "description": "Born to Charles VI of France and Isabeau of Bavaria."
+        },
+        {
+          "date": "1419",
+          "title": "Meeting at Meulan",
+          "description": "Henry V meets the princess during negotiations with the French court."
+        },
+        {
+          "date": "21 May 1420",
+          "title": "Treaty of Troyes",
+          "description": "The treaty makes Henry V heir to France and her husband-to-be."
+        },
+        {
+          "date": "2 June 1420",
+          "title": "Marriage to Henry V",
+          "description": "She marries the English king at Troyes."
+        },
+        {
+          "date": "February 1421",
+          "title": "Coronation",
+          "description": "She is crowned queen at Westminster."
+        },
+        {
+          "date": "6 December 1421",
+          "title": "Birth of Henry VI",
+          "description": "Her only child with Henry V is born at Windsor."
+        },
+        {
+          "date": "31 August 1422",
+          "title": "Widowed",
+          "description": "Henry V dies at Vincennes, and her son becomes king."
+        },
+        {
+          "date": "c. 1430",
+          "title": "Marriage to Owen Tudor",
+          "description": "She secretly marries a Welsh squire of her household."
+        },
+        {
+          "date": "3 January 1437",
+          "title": "Death at Bermondsey",
+          "description": "She dies and is buried at Westminster Abbey."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Marriage_of_henry_and_Catherine.jpg"
+        },
+        {
+          "title": "Catherine of Valois",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Catherine_of_Valois"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Henry V of England",
+            "type": "person",
+            "slug": "henry-v-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Henry VI",
+            "type": "person",
+            "slug": "henry-vi-of-england",
+            "label": "Son"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Valois",
+            "type": "house",
+            "slug": "house-of-valois",
+            "label": "Royal house of her birth"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Agincourt",
+            "type": "event",
+            "slug": "battle-of-agincourt",
+            "label": "The victory that led to her marriage"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Chateau de Vincennes",
+            "type": "location",
+            "slug": "chateau-de-vincennes",
+            "label": "Where Henry V died"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "Royal house by marriage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eleanor-of-castile",
+      "type": "character",
+      "name": "Eleanor of Castile",
+      "aliases": [
+        "Leonor of Castile"
+      ],
+      "born": 1241,
+      "died": 1290,
+      "deathAge": "about 49",
+      "causeOfDeath": "A lingering illness, possibly recurrent fever",
+      "restingPlace": "Westminster Abbey",
+      "location": "Castile, Gascony and England",
+      "title": "Queen of England and Countess of Ponthieu",
+      "roles": [
+        "Queen consort of England",
+        "Countess of Ponthieu"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Replica_of_effigy_of_Eleanor_of_Castile%2C_V%26A_London_01.jpg",
+      "imageInfo": {
+        "caption": "A cast of the gilt-bronze effigy of Eleanor of Castile made by William Torel for her tomb in Westminster Abbey.",
+        "creator": "14GTR (photograph); effigy by William Torel",
+        "date": "photograph, 2024 (effigy 1291–1293)",
+        "source": "Victoria and Albert Museum; Wikimedia Commons (CC0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Replica_of_effigy_of_Eleanor_of_Castile%2C_V%26A_London_01.jpg",
+        "note": "An idealised image of a crowned queen made after her death, not a portrait from life."
+      },
+      "summary": "Castilian princess and wife of Edward I, who went with him on crusade, built a great landed estate of her own, and at her death in 1290 was commemorated by the Eleanor crosses along her funeral route from Lincoln to Westminster.",
+      "overview": [
+        "Eleanor of Castile, daughter of Ferdinand III, was the first wife of Edward I and his constant companion, on crusade at Acre and throughout his reign. A shrewd and sometimes resented builder of estates, she was mourned by Edward with the twelve Eleanor crosses that marked the stages of her funeral procession."
+      ],
+      "greatestFeats": [
+        "Accompanied Edward I on crusade to Acre",
+        "Built one of the largest landed estates in England",
+        "Ruled the county of Ponthieu in her own right",
+        "Commemorated by the Eleanor crosses"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1272 to 1290",
+        "Countess of Ponthieu from 1279",
+        "Mother of Edward II"
+      ],
+      "birth": {
+        "date": "c. 1241",
+        "place": {
+          "name": "Castile (probably Burgos)"
+        },
+        "note": "Her birth date is unrecorded; 1241 is the usual estimate."
+      },
+      "death": {
+        "date": "28 November 1290",
+        "place": {
+          "name": "Harby, near Lincoln"
+        },
+        "circumstance": "Died after a long illness at Harby while travelling with Edward I to Lincoln."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England; County of Ponthieu",
+        "dynasty": "House of Ivrea",
+        "culture": "Castilian and English court culture",
+        "knownFor": "Her crusade with Edward I and the Eleanor crosses raised after her death"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Eleanor of Castile was the daughter of Ferdinand III of Castile and the first wife of Edward I of England, whom she married in 1254, when she was about thirteen and he fifteen. Their marriage of thirty-six years was one of the closest royal partnerships of the Middle Ages: she travelled with him almost everywhere, including on crusade to Acre, and bore him at least fourteen children, among them the future Edward II.",
+            "She was also a shrewd accumulator of land, acquiring estates worth thousands of pounds a year, often by taking over debts that Christian landholders owed to Jewish lenders, and contemporaries criticised her for it. When she died in 1290 Edward commemorated her with twelve stone crosses marking the places where her funeral procession rested, three of which survive."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Eleanor was born in Castile around 1241, the daughter of Ferdinand III, conqueror of Córdoba and Seville, and his second wife, Joan of Dammartin, Countess of Ponthieu. Her half-brother Alfonso X was one of the great patrons of learning in Christian Spain, and she grew up at a court of translators and poets. The marriage to Edward was arranged to settle Castile's claim to Gascony, which Alfonso gave up in return; the wedding took place at the royal convent of Las Huelgas in Burgos on 1 November 1254, where Alfonso also knighted Edward."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Eleanor's contemporaries saw two sides of her. Her household accounts show a cultivated woman who commissioned romances, employed scribes, brought Castilian carpets and gardeners to England, and played chess, and the depth of her marriage is plain from Edward's grief. Yet in 1283 the archbishop of Canterbury, John Peckham, warned her that her land dealings were causing scandal, and a verse of the time complained that the king wanted the people's gold and the queen their manors.",
+            "The legend that she saved Edward's life at Acre in 1272 by sucking the poison from an assassin's dagger wound first appears decades after her death, in an Italian chronicle. The English accounts say that surgeons treated the wound while Eleanor was led from the room in tears. The story reflects the reputation of the marriage rather than the event."
+          ]
+        },
+        {
+          "title": "Crusade and queenship",
+          "paragraphs": [
+            "In 1270 Eleanor went with Edward on crusade and reached Acre, where she gave birth to a daughter, Joan, in 1272. They were travelling home through Sicily when they learned of Henry III's death, and they were crowned together at Westminster on 19 August 1274. In 1279 she inherited the county of Ponthieu from her mother and ruled it as countess.",
+            "As queen she built one of the largest estates in England. With Edward's encouragement she acquired manors by buying up debts owed to Jewish moneylenders, whose collection the crown controlled, and then taking the mortgaged land. She played a quiet part in Edward's dealings with Castile and Aragon, and her letters show close attention to her children's marriages."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Eleanor fell ill in 1290 and died at Harby, near Lincoln, on 28 November, with Edward beside her. Her entrails were buried in Lincoln Cathedral, her heart in the Dominican church in London and her body at Westminster Abbey. Edward ordered a stone cross raised at each of the twelve places where her body rested on the way south, among them Lincoln, Grantham, Stamford, Geddington, Northampton, Dunstable, St Albans, Waltham and Charing."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Three of the Eleanor crosses survive, at Geddington, at Hardingstone near Northampton, and at Waltham Cross; the cross outside Charing Cross station is a Victorian replacement. Her gilt-bronze effigy by William Torel in Westminster Abbey, cast in 1291–1293, is one of the finest works of English medieval metal sculpture, and Edward's mourning became the core of her enduring reputation."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1241",
+          "title": "Birth in Castile",
+          "description": "Born to Ferdinand III of Castile and Joan of Dammartin."
+        },
+        {
+          "date": "1 November 1254",
+          "title": "Marriage at Las Huelgas",
+          "description": "She marries Edward at Burgos as Castile gives up its claim to Gascony."
+        },
+        {
+          "date": "1270–1272",
+          "title": "Crusade to Acre",
+          "description": "She accompanies Edward to the Holy Land and gives birth to a daughter there."
+        },
+        {
+          "date": "19 August 1274",
+          "title": "Coronation",
+          "description": "Edward and Eleanor are crowned together at Westminster."
+        },
+        {
+          "date": "1279",
+          "title": "Countess of Ponthieu",
+          "description": "She inherits her mother's county in northern France."
+        },
+        {
+          "date": "1283",
+          "title": "Peckham's warning",
+          "description": "The archbishop of Canterbury rebukes her over her land dealings."
+        },
+        {
+          "date": "25 April 1284",
+          "title": "Birth of Edward II",
+          "description": "Her son, the future Edward II, is born at Caernarfon."
+        },
+        {
+          "date": "28 November 1290",
+          "title": "Death at Harby",
+          "description": "She dies near Lincoln with Edward at her side."
+        },
+        {
+          "date": "1291–1294",
+          "title": "The Eleanor crosses",
+          "description": "Edward's masons build crosses at the resting places of her funeral cortège."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Replica_of_effigy_of_Eleanor_of_Castile%2C_V%26A_London_01.jpg"
+        },
+        {
+          "title": "Eleanor cross",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_cross"
+        },
+        {
+          "title": "Eleanor of Castile",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_of_Castile"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Edward I of England",
+            "type": "person",
+            "slug": "edward-i-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Ferdinand III of Castile",
+            "type": "person",
+            "slug": "ferdinand-iii-of-castile",
+            "label": "Father"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of Castile",
+            "type": "location",
+            "slug": "kingdom-of-castile",
+            "label": "Kingdom of her birth"
+          },
+          {
+            "title": "Westminster",
+            "type": "location",
+            "slug": "westminster",
+            "label": "Burial place"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Ivrea",
+            "type": "house",
+            "slug": "house-of-ivrea",
+            "label": "Royal house of her birth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eleanor-of-provence",
+      "type": "character",
+      "name": "Eleanor of Provence",
+      "aliases": [
+        "Éléonore de Provence"
+      ],
+      "born": 1223,
+      "died": 1291,
+      "deathAge": "about 68",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "Amesbury Priory, Wiltshire; heart at the Franciscan church, London",
+      "location": "Provence and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Regent of England, 1253–1254",
+        "Nun of Amesbury"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/KingHenryIII%26QueenEleanor_ReturnFromGascony_MatthewParis_ChronicaMajora.png",
+      "imageInfo": {
+        "caption": "Henry III and Queen Eleanor, labelled Rex and Regina, returning from Gascony by sea in 1243, drawn by Matthew Paris.",
+        "creator": "Matthew Paris",
+        "date": "c. 1250–1259",
+        "source": "British Library, Royal MS 14 C VII, f. 134v, via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingHenryIII%26QueenEleanor_ReturnFromGascony_MatthewParis_ChronicaMajora.png",
+        "note": "A drawing by a chronicler who knew the royal court. The figures are conventional and identified by their labels rather than by likeness."
+      },
+      "summary": "Daughter of the count of Provence and wife of Henry III, one of four sisters who all became queens. Unpopular in London for her foreign kin, she raised an army for her husband in the Barons' War and shaped the upbringing of Edward I.",
+      "overview": [
+        "Eleanor of Provence was queen of England from 1236 to 1272 as the wife of Henry III. Resented in London for the Savoyard kin who followed her, she served as regent in 1253–1254, worked from France to rescue Henry during the Barons' War, and ended her life as a nun at Amesbury."
+      ],
+      "greatestFeats": [
+        "Acted as regent of England with Richard of Cornwall in 1253–1254",
+        "Raised a fleet and mercenaries in Flanders to rescue Henry III in 1264",
+        "Dominated the upbringing of Edward I",
+        "One of four sisters who all married kings"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1236 to 1272",
+        "Regent during Henry III's Gascon expedition",
+        "Mother of Edward I"
+      ],
+      "birth": {
+        "date": "c. 1223",
+        "place": {
+          "name": "Aix-en-Provence (probably)"
+        },
+        "note": "Probably born at Aix; the year is estimated."
+      },
+      "death": {
+        "date": "24 or 25 June 1291",
+        "place": {
+          "name": "Amesbury Priory, Wiltshire"
+        },
+        "circumstance": "Died as a nun at Amesbury, where she had taken the veil in 1286."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Barcelona",
+        "culture": "Provençal and English court culture",
+        "knownFor": "Her Savoyard kin, her part in the Barons' War, and her influence over Edward I"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Eleanor of Provence was queen of England from 1236 to 1272 as the wife of Henry III. She was one of the four daughters of Count Ramon Berenguer IV of Provence who all married kings: her sister Margaret married Louis IX of France, Sanchia married Henry's brother Richard of Cornwall, later king of the Romans, and Beatrice married Charles of Anjou, king of Sicily.",
+            "Her time as queen was politically active and often unpopular. Her Savoyard uncles and the Provençal followers who came with her were rewarded with English lands and offices, and Londoners came to see her as the face of a foreign court. In the Barons' War she worked from France to raise an army for Henry against Simon de Montfort, and she remained a formidable influence on her son, Edward I."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Eleanor was born around 1223, probably at Aix, to Ramon Berenguer IV, Count of Provence, and Beatrice of Savoy. The Provençal court was a centre of troubadour poetry, and she grew up in its literary culture. Her marriage was negotiated through her mother's Savoyard family, and she married Henry III at Canterbury Cathedral on 14 January 1236, aged about twelve, and was crowned at Westminster six days later in a ceremony that Matthew Paris described in detail."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Matthew Paris, the St Albans chronicler who knew the court, was hostile to the foreigners around the queen and blamed her kin for draining the kingdom's wealth, but he also depicted her as pious and devoted to her husband and children. Her surviving letters show a queen who pursued her rights and her children's interests with persistence, above all her dower lands and the marriages of her daughters.",
+            "Her unpopularity in London was real. In July 1263, as she tried to travel by barge from the Tower to Windsor, Londoners on London Bridge pelted her with stones, mud and rubbish and forced her to turn back, an insult her son never forgot. Modern historians, notably Margaret Howell, have revised the old image of a grasping foreign queen into that of a capable political actor who defended the crown through its worst crisis."
+          ]
+        },
+        {
+          "title": "Queen and regent",
+          "paragraphs": [
+            "Eleanor's uncles became powerful in England. Peter of Savoy received the honour of Richmond and built the Savoy Palace on the Strand, and Boniface of Savoy was elected archbishop of Canterbury in 1241. Resentment of the Savoyards, and later of Henry's Lusignan half-brothers, fed the baronial reform movement of 1258, though Eleanor and the Lusignans were bitter rivals. When Henry went to Gascony in 1253 she governed England as regent with Richard of Cornwall, and in 1254 the regents summoned knights from the shires to grant aid for the king.",
+            "Her children were the centre of her politics. She dominated the household of her eldest son, Edward, in his youth, took part in the negotiations that brought him a Castilian bride, Eleanor of Castile, and married her daughter Margaret to Alexander III of Scotland. The complaints of barons about her influence over the heir show how much weight she carried."
+          ]
+        },
+        {
+          "title": "The Barons' War",
+          "paragraphs": [
+            "When civil war broke out in 1264, Eleanor was in France. With Louis IX's support she gathered ships and mercenaries on the Flemish coast to invade England and free Henry and Edward, who had been captured at Lewes in May 1264; she pawned her jewels to pay for them and pressed the pope to excommunicate the rebels. Contrary winds and a lack of money kept the fleet in port, but her pressure helped isolate Simon de Montfort, and after his death at Evesham in August 1265 she returned to England."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "After Henry's death in 1272 Eleanor lived as queen mother, and in 1286 she took the veil at the abbey of Amesbury in Wiltshire, where two of her granddaughters were already nuns. She died there on 24 or 25 June 1291 and was buried at Amesbury; her heart was carried to the church of the Franciscans in London."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Eleanor's household accounts, letters and lands make her one of the best-documented queens of medieval England. Her expulsion of the Jews from the towns of her dower in 1275, fifteen years before Edward I expelled them from the whole kingdom, shows the religious hostility of the court in which her son was formed."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1223",
+          "title": "Birth in Provence",
+          "description": "Born to Ramon Berenguer IV of Provence and Beatrice of Savoy."
+        },
+        {
+          "date": "14 January 1236",
+          "title": "Marriage to Henry III",
+          "description": "She marries the king at Canterbury and is crowned at Westminster six days later."
+        },
+        {
+          "date": "June 1239",
+          "title": "Birth of Edward I",
+          "description": "Her eldest son, the future Edward I, is born at Westminster."
+        },
+        {
+          "date": "1253–1254",
+          "title": "Regent of England",
+          "description": "She governs with Richard of Cornwall while Henry campaigns in Gascony."
+        },
+        {
+          "date": "July 1263",
+          "title": "Attacked at London Bridge",
+          "description": "Londoners pelt her barge and force her back to the Tower."
+        },
+        {
+          "date": "1264",
+          "title": "Fleet raised in Flanders",
+          "description": "She gathers ships and mercenaries to rescue the captured king."
+        },
+        {
+          "date": "1275",
+          "title": "Jews expelled from her towns",
+          "description": "She drives the Jews out of the towns of her dower."
+        },
+        {
+          "date": "1286",
+          "title": "Nun at Amesbury",
+          "description": "The queen mother takes the veil in Wiltshire."
+        },
+        {
+          "date": "June 1291",
+          "title": "Death",
+          "description": "She dies at Amesbury and is buried there."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:KingHenryIII%26QueenEleanor_ReturnFromGascony_MatthewParis_ChronicaMajora.png"
+        },
+        {
+          "title": "Matthew Paris, Chronica Majora",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Matthew_Paris"
+        },
+        {
+          "title": "Eleanor of Provence",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Eleanor_of_Provence"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Henry III of England",
+            "type": "person",
+            "slug": "henry-iii-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Edward I of England",
+            "type": "person",
+            "slug": "edward-i-of-england",
+            "label": "Son"
+          },
+          {
+            "title": "Louis IX of France",
+            "type": "person",
+            "slug": "louis-ix-of-france",
+            "label": "Brother-in-law"
+          },
+          {
+            "title": "Eleanor of Castile",
+            "type": "person",
+            "slug": "eleanor-of-castile",
+            "label": "Daughter-in-law"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house by marriage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isabella-of-angouleme",
+      "type": "character",
+      "name": "Isabella of Angoulême",
+      "aliases": [
+        "Isabelle d'Angoulême",
+        "Isabella of Angouleme"
+      ],
+      "born": 1188,
+      "died": 1246,
+      "deathAge": "about 58",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "Fontevraud Abbey",
+      "location": "Angoulême, England and Poitou",
+      "title": "Queen of England and Countess of Angoulême",
+      "roles": [
+        "Queen consort of England",
+        "Countess of Angoulême",
+        "Countess of La Marche"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Church_of_Fontevraud_Abbey_Isabella_of_Angouleme_effigy2.jpg",
+      "imageInfo": {
+        "caption": "The painted tomb effigy of Isabella of Angoulême at Fontevraud Abbey, where she was buried in 1246.",
+        "creator": "Adam Bishop (photograph)",
+        "date": "photograph, 2011 (effigy 13th century)",
+        "source": "Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Isabella_of_Angouleme_effigy2.jpg",
+        "note": "A thirteenth-century funerary effigy showing her crowned and veiled. It is a conventional royal image, not a portrait from life."
+      },
+      "summary": "Heiress of Angoulême whose marriage to King John in 1200 provoked the war in which he lost Normandy. Mother of Henry III, she went home as a widow, married Hugh X of Lusignan and led a revolt against Louis IX.",
+      "overview": [
+        "Isabella, heiress of the county of Angoulême, married King John in 1200, and the grievance of her jilted fiancé gave Philip II of France his pretext to seize Normandy. Mother of Henry III and his siblings, she returned to France in 1217, married into the Lusignan family and ended her life at Fontevraud after a failed rebellion against Louis IX."
+      ],
+      "greatestFeats": [
+        "Held the county of Angoulême in her own right",
+        "Mother of Henry III, Richard of Cornwall, Joan queen of Scots and the empress Isabella",
+        "Founded a second dynasty through her Lusignan children",
+        "Led the Poitevin revolt against Louis IX in 1241–1242"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1200 to 1216",
+        "Mother of Henry III",
+        "Countess of Angoulême and La Marche"
+      ],
+      "birth": {
+        "date": "c. 1188",
+        "place": {
+          "name": "Angoulême"
+        },
+        "note": "Her birth year is estimated from chroniclers who describe her as about twelve when she married in 1200."
+      },
+      "death": {
+        "date": "4 June 1246",
+        "place": {
+          "name": "Fontevraud Abbey",
+          "slug": "fontevraud-abbey"
+        },
+        "circumstance": "Died at Fontevraud, where she had taken refuge after the failure of her rebellion against Louis IX."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England; County of Angoulême",
+        "dynasty": "House of Taillefer",
+        "culture": "Poitevin and Angevin",
+        "knownFor": "The marriage that cost King John Normandy, and her second life as a Lusignan countess"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Isabella of Angoulême was the heiress of the county of Angoulême in western France and the second wife of King John of England, who married her in 1200 when she was about twelve. She was already betrothed to Hugh IX of Lusignan, and the Lusignan appeal to John's overlord, Philip II of France, gave Philip the legal pretext to declare John's French lands forfeit, beginning the war in which John lost Normandy.",
+            "She was the mother of Henry III, Richard of Cornwall, Joan, queen of Scots, and Isabella, wife of the emperor Frederick II. Widowed in 1216, she went home to Angoulême, married the son of her former fiancé, Hugh X of Lusignan, and bore him nine children, several of whom later made careers at the English court. Her last years were spent in a failed rebellion against Louis IX and in retreat at Fontevraud."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Isabella was the only child of Aymer Taillefer, Count of Angoulême, and Alice of Courtenay, a granddaughter of Louis VI of France. Angoulême lay between Poitou and Gascony on the road between the northern and southern halves of the Angevin lands, and its counts had repeatedly rebelled against their Angevin overlords. Her betrothal to Hugh IX of Lusignan, head of the most powerful family in Poitou, promised to join the two lordships into a bloc that could defy the king.",
+            "King John broke that combination by marrying her himself. The wedding took place at Bordeaux on 24 August 1200, and she was crowned queen at Westminster in October. Chroniclers portrayed the marriage as the act of an infatuated king, but it kept Angoulême in John's hands at a stroke."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "The chroniclers who wrote about Isabella were hostile to John and, by extension, to her. Roger of Wendover told how in 1203, while Philip II took Normandy castle by castle, John lay in bed with his young wife until dinnertime, and Matthew Paris called her more Jezebel than Isabel. These stories explained John's failures to monastic readers, and they reveal more about how chroniclers blamed royal women than about Isabella herself.",
+            "Her own conduct after 1216 shows a forceful and ambitious politician. She left her children in England to secure her inheritance, married the man intended for her daughter, pressed Henry III's council for her dower, and in 1241, by a contemporary report, drove her husband into rebellion after the French court slighted her. French chroniclers accused her of plotting to poison Louis IX in 1244; the charge was never proven."
+          ]
+        },
+        {
+          "title": "Queen of England",
+          "paragraphs": [
+            "John's war with Philip II followed directly from the marriage. The Lusignans appealed to Philip as John's feudal lord, John ignored the summons to answer them, and in 1202 Philip's court declared his French fiefs forfeit; by 1204 Normandy, Anjou and Maine were lost. Isabella's political role as queen was slight. Her eldest son, Henry, was born at Winchester in October 1207, followed by Richard, Joan, Isabella and Eleanor.",
+            "John died in October 1216 in the middle of the baronial war, with Prince Louis of France in London, and Isabella's nine-year-old son was crowned at Gloucester with a simple gold circlet because the regalia were beyond reach. Within a year she left for Angoulême, leaving the children to the regency of William Marshal."
+          ]
+        },
+        {
+          "title": "Countess and rebel",
+          "paragraphs": [
+            "In 1220 Isabella married Hugh X of Lusignan, the son of her former fiancé, who had been betrothed to her daughter Joan. The English council protested and withheld her dower, and the couple kept Joan in their custody while the dispute lasted. Isabella and Hugh had nine children, among them William de Valence and Aymer de Valence, later bishop of Winchester, who went to England in 1247 to make their fortunes at the court of their half-brother Henry III.",
+            "When Louis IX installed his brother Alphonse as count of Poitou in 1241, Isabella and Hugh led a coalition of southern lords against the French crown, with Henry III's support. The rising collapsed after Louis defeated Henry's army at Taillebourg and Saintes in July 1242; Hugh submitted, and Isabella withdrew to Fontevraud."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Isabella died at Fontevraud on 4 June 1246. She had asked to be buried as a penitent in the abbey churchyard, but her son Henry III, visiting in 1254, had her body moved into the church beside the tombs of Henry II, Eleanor of Aquitaine and Richard the Lionheart, where her painted effigy still lies."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Isabella's first marriage set in motion the loss of Normandy and so the separation of the English crown from its Norman homeland. Through her two families she bound the English royal house to the Lusignans, and the favour Henry III showed his Lusignan half-brothers became one of the grievances behind the baronial reform of 1258 and the Provisions of Oxford."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1188",
+          "title": "Birth",
+          "description": "Born the heiress of Count Aymer of Angoulême and Alice of Courtenay."
+        },
+        {
+          "date": "24 August 1200",
+          "title": "Marriage to King John",
+          "description": "John marries her at Bordeaux, breaking her betrothal to Hugh IX of Lusignan."
+        },
+        {
+          "date": "1202",
+          "title": "John's fiefs forfeit",
+          "description": "Philip II's court condemns John after the Lusignan appeal."
+        },
+        {
+          "date": "October 1207",
+          "title": "Birth of Henry III",
+          "description": "Her eldest son, the future Henry III, is born at Winchester."
+        },
+        {
+          "date": "October 1216",
+          "title": "Widowed",
+          "description": "John dies and her young son is crowned at Gloucester."
+        },
+        {
+          "date": "1220",
+          "title": "Marries Hugh X of Lusignan",
+          "description": "She marries the son of her former fiancé in Angoulême."
+        },
+        {
+          "date": "July 1242",
+          "title": "Revolt crushed",
+          "description": "Louis IX defeats the Poitevin coalition and Henry III at Taillebourg and Saintes."
+        },
+        {
+          "date": "4 June 1246",
+          "title": "Death at Fontevraud",
+          "description": "She dies at the abbey and is later moved beside the Angevin royal tombs."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Church_of_Fontevraud_Abbey_Isabella_of_Angouleme_effigy2.jpg"
+        },
+        {
+          "title": "Roger of Wendover, Flores Historiarum",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Roger_of_Wendover"
+        },
+        {
+          "title": "Matthew Paris, Chronica Majora",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Matthew_Paris"
+        },
+        {
+          "title": "Isabella of Angoulême",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Isabella_of_Angoul%C3%AAme"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "John of England",
+            "type": "person",
+            "slug": "john-of-england",
+            "label": "First husband"
+          },
+          {
+            "title": "Henry III of England",
+            "type": "person",
+            "slug": "henry-iii-of-england",
+            "label": "Son"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Fontevraud Abbey",
+            "type": "location",
+            "slug": "fontevraud-abbey",
+            "label": "Burial place"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Lusignan",
+            "type": "house",
+            "slug": "house-of-lusignan",
+            "label": "Family of her second husband"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house by marriage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "isabella-of-france",
+      "type": "character",
+      "name": "Isabella of France",
+      "aliases": [
+        "Isabelle of France",
+        "Queen Isabella"
+      ],
+      "born": 1295,
+      "died": 1358,
+      "deathAge": "about 63",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "Franciscan church (Greyfriars), Newgate, London",
+      "location": "France and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Regent for Edward III, 1327–1330"
+      ],
+      "epithets": [
+        {
+          "name": "She-Wolf of France",
+          "type": "later epithet",
+          "note": "From Thomas Gray's poem The Bard (1757); Shakespeare had used the phrase for Margaret of Anjou."
+        }
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg",
+      "imageInfo": {
+        "caption": "Queen Isabella at the head of her army in 1326, in a fifteenth-century manuscript of Jean de Wavrin's chronicle of England.",
+        "creator": "Unknown illuminator of Jean de Wavrin's Recueil des croniques",
+        "date": "c. 1470–1483",
+        "source": "British Library, Royal MS 15 E IV, f. 316v, via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg",
+        "note": "A later illustration made for the library of Edward IV, showing Isabella in red before her army; it is not a portrait from life."
+      },
+      "summary": "Daughter of Philip IV of France and wife of Edward II, who turned against her husband's favourites, invaded England with Roger Mortimer in 1326, deposed Edward, and ruled as regent until her son Edward III seized power in 1330.",
+      "overview": [
+        "Isabella of France, daughter of Philip IV, married Edward II in 1308 and in 1326 led the invasion that overthrew him, the first deposition of an English king. She and Roger Mortimer ruled for the young Edward III until 1330, and her descent from the French royal house became the foundation of the English claim to France."
+      ],
+      "greatestFeats": [
+        "Led the invasion of 1326 that overthrew Edward II",
+        "Ruled England with Roger Mortimer for Edward III, 1327–1330",
+        "Made peace with Scotland in 1328",
+        "Transmitted the claim to the French crown that began the Hundred Years' War"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1308 to 1327",
+        "Regent for Edward III",
+        "Mother of Edward III"
+      ],
+      "birth": {
+        "date": "c. 1295",
+        "place": {
+          "name": "Paris"
+        },
+        "note": "Her birth year is disputed, with estimates between 1292 and 1296."
+      },
+      "death": {
+        "date": "22 August 1358",
+        "place": {
+          "name": "Hertford Castle"
+        },
+        "circumstance": "Died at Hertford Castle after a long and comfortable retirement."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Capet",
+        "culture": "French and English court culture",
+        "knownFor": "Deposing Edward II with Roger Mortimer and ruling as regent"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Isabella of France was the daughter of Philip IV of France and queen of England as the wife of Edward II. Married at about twelve to a king whose affection went to his favourites, first Piers Gaveston and then Hugh Despenser the Younger, she became in 1325–1326 the leader of the opposition to her husband, invaded England with her lover Roger Mortimer, and brought about the first deposition of an English king.",
+            "From 1327 to 1330 she and Mortimer ruled in the name of her son Edward III of England, making peace with Scotland in the Treaty of Edinburgh-Northampton, until the eighteen-year-old king overthrew them. Her descent from the French royal house gave Edward III the claim to the French throne on which he began the Hundred Years' War."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Isabella was born in Paris around 1295, the only surviving daughter of Philip IV and Joan I of Navarre; each of her three brothers would reign as king of France. Her marriage to Edward, prince of Wales, was agreed in 1299 as part of the peace that ended the Anglo-French war over Gascony, and she married Edward II at Boulogne on 25 January 1308, six months after he became king. At their coronation in February, Edward's open favour to Piers Gaveston, who carried the crown, offended her kinsmen and the English magnates alike."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Contemporaries praised Isabella's beauty and intelligence, and for years she was a loyal and effective queen, mediating between Edward and his barons and representing him in France. The same chroniclers, and still more the writers of later centuries, condemned her adultery with Mortimer and her part in her husband's fate, and the eighteenth-century poet Thomas Gray gave her the name She-Wolf of France.",
+            "Modern historians have weighed the provocation she endured. In 1324 the Despensers seized her estates, placed her household under watch and reduced her to an allowance, and her children were taken from her. Her rule after 1327 was grasping, and she granted herself one of the largest incomes ever held by an English queen, but she was a skilled politician who used diplomacy, marriage alliances and propaganda to overthrow a king."
+          ]
+        },
+        {
+          "title": "Rebellion and regency",
+          "paragraphs": [
+            "In 1325 Edward sent Isabella to Paris to negotiate with her brother Charles IV over Gascony. Once there she refused to return while Hugh Despenser remained at court, and she was joined by Edward's enemies in exile, among them Roger Mortimer, who had escaped from the Tower of London in 1323 and became her lover. When her son Edward crossed to France to do homage for Gascony, she kept him with her.",
+            "She arranged the boy's marriage to Philippa of Hainault in return for ships and troops, and in September 1326 she landed in Suffolk with a small army. Support for Edward II collapsed; he fled west and was captured, the elder Despenser was executed at Bristol and the younger at Hereford, and in January 1327 the king was forced to abdicate in favour of his son. Edward II died at Berkeley Castle in September 1327, almost certainly murdered.",
+            "Isabella and Mortimer then governed for Edward III. They made peace with Robert the Bruce, recognising Scottish independence in 1328, and enriched themselves and their followers. In October 1330 the young king and a few companions entered Nottingham Castle by a secret passage and arrested Mortimer, who was hanged at Tyburn the next month."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Isabella was spared. She retired to Castle Rising in Norfolk and later lived at Hertford, visiting her son's court and taking part in negotiations with France. She died at Hertford Castle on 22 August 1358 and was buried in the habit of the Poor Clares in the Franciscan church at Newgate in London, reportedly with the heart of Edward II."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Isabella's position as sister of the last three Capetian kings passed a claim to Edward III, and when the French crown went instead to her cousin Philip VI of France in 1328, that claim became the English case for war that opened the Hundred Years' War in 1337. Her overthrow of Edward II also created the precedent for removing a crowned king with the consent of Parliament, used again against Richard II in 1399."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1295",
+          "title": "Birth in Paris",
+          "description": "Born the daughter of Philip IV of France and Joan I of Navarre."
+        },
+        {
+          "date": "25 January 1308",
+          "title": "Marriage to Edward II",
+          "description": "She marries the English king at Boulogne."
+        },
+        {
+          "date": "13 November 1312",
+          "title": "Birth of Edward III",
+          "description": "Her eldest son is born at Windsor."
+        },
+        {
+          "date": "1325",
+          "title": "Mission to France",
+          "description": "Sent to negotiate with Charles IV, she refuses to return while the Despensers rule."
+        },
+        {
+          "date": "24 September 1326",
+          "title": "Invasion",
+          "description": "She and Roger Mortimer land in Suffolk with a small army."
+        },
+        {
+          "date": "January 1327",
+          "title": "Edward II deposed",
+          "description": "The king is forced to abdicate in favour of his son."
+        },
+        {
+          "date": "1328",
+          "title": "Peace with Scotland",
+          "description": "Her regime recognises Scottish independence in the Treaty of Edinburgh-Northampton."
+        },
+        {
+          "date": "October 1330",
+          "title": "Fall of Mortimer",
+          "description": "Edward III seizes Mortimer at Nottingham Castle and takes power."
+        },
+        {
+          "date": "22 August 1358",
+          "title": "Death",
+          "description": "She dies at Hertford Castle and is buried in London."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Minature-of-Queen-Isabella-and-her-army-from-royal-ms-15-e-iv-vol-2-f316v.jpg"
+        },
+        {
+          "title": "Jean de Wavrin, Recueil des croniques",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Jean_de_Wavrin"
+        },
+        {
+          "title": "Isabella of France",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Isabella_of_France"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Edward II of England",
+            "type": "person",
+            "slug": "edward-ii-of-england",
+            "label": "Husband, whom she deposed"
+          },
+          {
+            "title": "Edward III of England",
+            "type": "person",
+            "slug": "edward-iii-of-england",
+            "label": "Son"
+          },
+          {
+            "title": "Philip IV of France",
+            "type": "person",
+            "slug": "philip-iv-of-france",
+            "label": "Father"
+          },
+          {
+            "title": "Philippa of Hainault",
+            "type": "person",
+            "slug": "philippa-of-hainault",
+            "label": "Daughter-in-law"
+          }
+        ],
+        "events": [
+          {
+            "title": "Treaty of Edinburgh-Northampton",
+            "type": "event",
+            "slug": "treaty-of-edinburgh-northampton",
+            "label": "Peace made under her regency"
+          },
+          {
+            "title": "Hundred Years' War",
+            "type": "event",
+            "slug": "hundred-years-war",
+            "label": "Fought over the claim she transmitted"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Berkeley Castle",
+            "type": "location",
+            "slug": "berkeley-castle",
+            "label": "Where Edward II died"
+          }
+        ]
+      }
+    },
+    {
+      "id": "joan-of-kent",
+      "type": "character",
+      "name": "Joan of Kent",
+      "aliases": [
+        "Joan, Princess of Wales",
+        "Joan, Countess of Kent"
+      ],
+      "born": 1326,
+      "died": 1385,
+      "deathAge": "about 58",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "Greyfriars church, Stamford, Lincolnshire",
+      "location": "England and Aquitaine",
+      "title": "Princess of Wales and Countess of Kent",
+      "roles": [
+        "Countess of Kent",
+        "Princess of Wales and of Aquitaine",
+        "Mother of Richard II"
+      ],
+      "epithets": [
+        {
+          "name": "Fair Maid of Kent",
+          "type": "later epithet",
+          "note": "A name given by later writers; Froissart called her the most beautiful woman in the realm of England."
+        }
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton_MS_Nero_D_VII%2C_f.7v_Joan_of_Kent_1592x994p1.jpg",
+      "imageInfo": {
+        "caption": "Joan, Princess of Wales, in the St Albans Book of Benefactors, painted about 1380 to record her gift to the abbey.",
+        "creator": "St Albans Abbey illuminator",
+        "date": "c. 1380",
+        "source": "British Library, Cotton MS Nero D VII, f. 7v, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cotton_MS_Nero_D_VII%2C_f.7v_Joan_of_Kent_1592x994p1.jpg",
+        "note": "Made in her lifetime to record her gift of a gold necklace to the martyr's shrine; the figure is conventional rather than a likeness."
+      },
+      "summary": "Granddaughter of Edward I whose secret first marriage and contested second marriage made her the most talked-about woman at Edward III's court; wife of the Black Prince, mother of Richard II, and a peacemaker in the crises of his minority.",
+      "overview": [
+        "Joan of Kent, granddaughter of Edward I, secretly married Thomas Holland, was married off to William Montagu, and had the second marriage annulled by the pope. In 1361 she married Edward the Black Prince, became Princess of Wales, and after her son became Richard II in 1377 she acted as a mediator between the young king's court, his uncles and the Londoners."
+      ],
+      "greatestFeats": [
+        "Won papal recognition of her secret first marriage",
+        "Married the heir to the throne, Edward the Black Prince",
+        "Mother of Richard II",
+        "Mediated between John of Gaunt and the Londoners in 1377"
+      ],
+      "keyAchievements": [
+        "Countess of Kent in her own right",
+        "Princess of Wales from 1361 to 1376",
+        "Mother of Richard II"
+      ],
+      "birth": {
+        "date": "c. 1326–1328",
+        "place": {
+          "name": "England (place unrecorded)"
+        },
+        "note": "Sources differ on her birth year."
+      },
+      "death": {
+        "date": "7 August 1385",
+        "place": {
+          "name": "Wallingford Castle"
+        },
+        "circumstance": "Died at Wallingford during a quarrel between her son Richard II and her son John Holland, which she had tried to resolve."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England; Principality of Aquitaine",
+        "dynasty": "House of Plantagenet",
+        "culture": "English court culture",
+        "knownFor": "Her contested marriages and her influence as mother of Richard II"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Joan of Kent was a granddaughter of Edward I and the daughter of Edmund of Woodstock, Earl of Kent, and one of the most remarkable women of Edward III's court. Before she was twenty she had secretly married one knight and been publicly married to another, and a papal court had to decide which marriage stood. In 1361 she married the king's heir, Edward the Black Prince, and became Princess of Wales.",
+            "Her son by the prince became Richard II of England in 1377, and in the first years of his reign Joan acted as a mediator between the boy king's powerful uncles, the Londoners and the Church. Froissart called her the most beautiful woman in the realm of England, and later writers named her the Fair Maid of Kent."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Joan was born around 1326–1328 to Edmund of Woodstock, a son of Edward I, and Margaret Wake. In 1330 her father was executed on the orders of Isabella of France and Roger Mortimer for plotting to restore Edward II, whom he had been led to believe was alive, and Joan grew up in the household of Queen Philippa of Hainault. Around 1340, aged about twelve, she secretly married Sir Thomas Holland, a knight of the royal household; while he was away on crusade in Prussia, her family married her to William Montagu, heir to the earldom of Salisbury."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "The chroniclers presented Joan chiefly through her beauty and her marriages. Froissart praised her as the most beautiful woman in the realm and the most loving, and gossip about her marriages followed her through the court. Her choices show a woman prepared to defy family and king: she held to her first marriage against her family's wishes, and in 1361 married the heir to the throne, by all accounts for love, in spite of Edward III's reluctance.",
+            "Her public role in the 1370s and 1380s was that of a peacemaker. In 1377 she reconciled her brother-in-law John of Gaunt with the Londoners who had risen against him, and in 1378 she sent word to the bishops gathered at Lambeth to halt their proceedings against John Wycliffe, whom she and Gaunt protected. The sympathy for Wycliffe's early ideas at Richard II's court owed something to her household."
+          ]
+        },
+        {
+          "title": "Marriages and the Black Prince",
+          "paragraphs": [
+            "In 1347 Thomas Holland petitioned the pope, claiming Joan as his wife, and after a long hearing Pope Clement VI declared her marriage to Montagu void in 1349. She lived with Holland, who was styled earl of Kent in her right, until his death in 1360, and bore him several children, among them Thomas and John Holland, who later rose high at Richard II's court.",
+            "In October 1361 she married Edward the Black Prince, her cousin, with a papal dispensation for their kinship. The prince was given the principality of Aquitaine, and from 1363 the couple kept a splendid court at Bordeaux and Angoulême, where her sons Edward and Richard were born. The prince's Spanish campaign of 1367, and the illness he brought back from it, ended that court, and in 1371 they returned to England, where he died in 1376."
+          ]
+        },
+        {
+          "title": "Mother of the king",
+          "paragraphs": [
+            "When Richard II became king in 1377 at the age of ten, no regent was appointed, and Joan's household was the centre of his personal life. In June 1381 she was returning from Canterbury when she met the rebels of the Peasants' Revolt at Blackheath; they let her through unharmed, reportedly after no more than a few kisses, and she spent the crisis with Richard in the Tower of London."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "In 1385 Joan's son John Holland killed Ralph Stafford, a friend of the king, in a quarrel, and Richard swore to punish his half-brother. Joan pleaded for John and died at Wallingford Castle on 7 August 1385, reportedly worn down by the quarrel; Richard pardoned John soon afterwards. At her own wish she was buried not beside the Black Prince at Canterbury but beside her first husband, Thomas Holland, in the Franciscan church at Stamford."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Through her sons by Thomas Holland, Joan founded the Holland family, later earls of Kent and dukes of Exeter and Surrey, who were among Richard II's closest supporters. Richard's personal badge of the white hart may have been adapted from her own emblem of a white hind, and her part in shielding Wycliffe placed her at the start of the Lollard story."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1326–1328",
+          "title": "Birth",
+          "description": "Born to Edmund of Woodstock, Earl of Kent, and Margaret Wake."
+        },
+        {
+          "date": "1330",
+          "title": "Father executed",
+          "description": "Edmund of Woodstock is beheaded by the regime of Isabella and Mortimer."
+        },
+        {
+          "date": "c. 1340",
+          "title": "Secret marriage",
+          "description": "She marries Sir Thomas Holland without her family's knowledge."
+        },
+        {
+          "date": "1349",
+          "title": "Papal judgment",
+          "description": "Clement VI annuls her marriage to William Montagu and upholds the Holland marriage."
+        },
+        {
+          "date": "October 1361",
+          "title": "Marriage to the Black Prince",
+          "description": "She marries Edward III's heir and becomes Princess of Wales."
+        },
+        {
+          "date": "6 January 1367",
+          "title": "Birth of Richard II",
+          "description": "Her son Richard is born at Bordeaux."
+        },
+        {
+          "date": "1377",
+          "title": "Mother of the king",
+          "description": "Richard becomes king at ten, and she mediates between Gaunt and London."
+        },
+        {
+          "date": "June 1381",
+          "title": "The rebels at Blackheath",
+          "description": "Rebels of the Peasants' Revolt let her pass unharmed."
+        },
+        {
+          "date": "7 August 1385",
+          "title": "Death at Wallingford",
+          "description": "She dies while pleading for her son John Holland."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Cotton_MS_Nero_D_VII%2C_f.7v_Joan_of_Kent_1592x994p1.jpg"
+        },
+        {
+          "title": "Jean Froissart, Chronicles",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Jean_Froissart"
+        },
+        {
+          "title": "Joan of Kent",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Joan_of_Kent"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Edward, the Black Prince",
+            "type": "person",
+            "slug": "edward-the-black-prince",
+            "label": "Husband"
+          },
+          {
+            "title": "Richard II of England",
+            "type": "person",
+            "slug": "richard-ii-of-england",
+            "label": "Son"
+          },
+          {
+            "title": "Philippa of Hainault",
+            "type": "person",
+            "slug": "philippa-of-hainault",
+            "label": "Raised in her household"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house of her birth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "margaret-of-anjou",
+      "type": "character",
+      "name": "Margaret of Anjou",
+      "aliases": [
+        "Marguerite d'Anjou"
+      ],
+      "born": 1430,
+      "died": 1482,
+      "deathAge": "52",
+      "causeOfDeath": "Unrecorded",
+      "restingPlace": "Angers Cathedral",
+      "location": "Anjou, Lorraine and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Leader of the Lancastrian cause",
+        "Foundress of Queens' College, Cambridge"
+      ],
+      "epithets": [
+        {
+          "name": "She-Wolf of France",
+          "type": "hostile epithet",
+          "note": "Shakespeare's phrase in Henry VI, Part 3, echoing Yorkist hostility; not a medieval name."
+        }
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Talbot_Dog_Margaret_Henry_VI_Shrewsbury_Manuscript.jpeg",
+      "imageInfo": {
+        "caption": "Margaret of Anjou, seated beside Henry VI, receives a book from John Talbot, Earl of Shrewsbury, in the manuscript he gave her at her marriage.",
+        "creator": "Talbot Master",
+        "date": "c. 1445",
+        "source": "British Library, Royal MS 15 E VI, via Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Talbot_Dog_Margaret_Henry_VI_Shrewsbury_Manuscript.jpeg",
+        "note": "A presentation miniature painted in Rouen for her wedding; the queen on the right is a conventional figure rather than a likeness."
+      },
+      "summary": "Niece of the queen of France and wife of Henry VI, who took charge of the Lancastrian cause when her husband's illness left the throne defenceless, fought the Yorkists for sixteen years, and lost husband, son and crown in 1471.",
+      "overview": [
+        "Margaret of Anjou married Henry VI in 1445 to seal a truce with France. When Henry collapsed in 1453 she became the driving force of the House of Lancaster in the Wars of the Roses, fighting on until her son was killed at Tewkesbury in 1471, and she died in poverty in Anjou."
+      ],
+      "greatestFeats": [
+        "Led the Lancastrian cause through the Wars of the Roses",
+        "Won victories at Wakefield and St Albans in 1460–1461",
+        "Forged the alliance with Warwick that briefly restored Henry VI in 1470",
+        "Founded Queens' College, Cambridge"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1445 to 1461 and in 1470–1471",
+        "Mother of Edward of Westminster",
+        "Foundress of Queens' College"
+      ],
+      "birth": {
+        "date": "23 March 1430",
+        "place": {
+          "name": "Pont-à-Mousson, Lorraine"
+        }
+      },
+      "death": {
+        "date": "25 August 1482",
+        "place": {
+          "name": "Château de Dampierre, Anjou"
+        },
+        "circumstance": "Died in poverty in Anjou, a pensioner of Louis XI, eleven years after the deaths of her husband and son."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Valois-Anjou",
+        "culture": "French and English court culture",
+        "knownFor": "Leading the Lancastrian cause in the Wars of the Roses"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Margaret of Anjou was queen of England from 1445 to 1461, and again briefly in 1470–1471, as the wife of Henry VI of England. Married at fifteen to seal a truce in the Hundred Years' War, she became the effective leader of the House of Lancaster when her husband suffered a mental collapse in 1453, the year their only son, Edward of Westminster, was born.",
+            "For sixteen years she fought the Yorkist claim to the throne, raising armies, bargaining with Scotland and France, and finally allying with her old enemy the Earl of Warwick. Her cause ended at Tewkesbury in May 1471, where her son was killed; her husband died in the Tower of London days later, and she spent her last years in poverty in France."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Margaret was born at Pont-à-Mousson in Lorraine on 23 March 1430, the daughter of René of Anjou, titular king of Naples, Sicily and Jerusalem, and Isabella, Duchess of Lorraine; her aunt Marie of Anjou was the wife of Charles VII of France. René was a prisoner of the Duke of Burgundy for much of her childhood, and her mother governed and fought for his lands. Her marriage to Henry VI was arranged by the Earl of Suffolk at the truce of Tours in 1444, with a secret promise that England would surrender Maine, and she married Henry at Titchfield Abbey on 23 April 1445."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Margaret's reputation was made by her enemies. Yorkist propaganda spread rumours that her son was not Henry's, and the Tudor chroniclers and Shakespeare, who called her a she-wolf of France, turned her into a vengeful foreign virago responsible for civil war. Accounts written closer to events give a different picture: a young queen who until 1453 played the conventional part of intercessor and patron, founding Queens' College, Cambridge, in 1448.",
+            "After 1453 she proved a determined, able and ruthless politician. With her husband incapable, she claimed the regency in 1454, organised the court party against Richard, Duke of York, raised support in the north and in Scotland, and pursued the war with a persistence Henry never showed. Modern historians such as Helen Maurer present her as a queen forced into a political role for which the conventions of queenship left no legitimate place."
+          ]
+        },
+        {
+          "title": "Queen of Henry VI",
+          "paragraphs": [
+            "Margaret arrived in England as the symbol of an unpopular peace, and the surrender of Maine in 1448 and the loss of Normandy after the Battle of Formigny in 1450 were blamed on the men who had arranged her marriage; Suffolk was murdered at sea in 1450. In August 1453 Henry VI fell into a stupor that lasted more than a year, and in October Margaret gave birth to their son, Edward. When the Duke of York was made Protector in 1454, her bid for the regency was rejected, and after Henry's recovery she led the court's opposition to York."
+          ]
+        },
+        {
+          "title": "The Wars of the Roses",
+          "paragraphs": [
+            "Fighting began at St Albans in 1455. After the Yorkist lords were attainted in 1459 and Henry was captured at Northampton in July 1460, Parliament recognised York as heir, disinheriting Margaret's son. The queen's supporters raised an army in the north that killed York at Wakefield in December 1460 and defeated Warwick at St Albans in February 1461, recovering the king, but London shut its gates, York's son was proclaimed Edward IV, and the Lancastrian army was destroyed at Towton in March 1461. Margaret fled to Scotland.",
+            "In exile in Scotland and then France she sought foreign help for a decade. In 1470 Louis XI brokered her alliance with Warwick, who had broken with Edward IV; Warwick restored Henry VI, but Margaret delayed her crossing, and when she landed at Weymouth on 14 April 1471 Warwick had been killed at Barnet that same day. At Tewkesbury on 4 May the Yorkists destroyed her army and killed Edward of Westminster, and on 21 May Henry VI died in the Tower, almost certainly murdered."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Margaret was captured after Tewkesbury and held in England until Louis XI ransomed her in 1475 under the Treaty of Picquigny, in return for her surrender of her claims to her father's lands. She lived in Anjou as a pensioner of the French king, died at the château of Dampierre on 25 August 1482, and was buried beside her parents in Angers Cathedral."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "The destruction of Margaret's family in 1471 ended the direct line of the House of Lancaster, and the Lancastrian claim passed through the Beauforts to Henry Tudor, grandson of Catherine of Valois, who won the crown in 1485. Queens' College, Cambridge, refounded by Elizabeth Woodville, the wife of Margaret's enemy Edward IV, still honours her as its first foundress."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "23 March 1430",
+          "title": "Birth in Lorraine",
+          "description": "Born to René of Anjou and Isabella, Duchess of Lorraine."
+        },
+        {
+          "date": "1444",
+          "title": "Truce of Tours",
+          "description": "Her marriage to Henry VI is agreed as part of a truce with France."
+        },
+        {
+          "date": "23 April 1445",
+          "title": "Marriage to Henry VI",
+          "description": "She marries the king at Titchfield Abbey."
+        },
+        {
+          "date": "1448",
+          "title": "Queens' College founded",
+          "description": "She founds a college at Cambridge."
+        },
+        {
+          "date": "October 1453",
+          "title": "Birth of Edward of Westminster",
+          "description": "Her son is born while Henry VI lies incapacitated."
+        },
+        {
+          "date": "February 1461",
+          "title": "Victory at St Albans",
+          "description": "Her army defeats Warwick and recovers the king."
+        },
+        {
+          "date": "March 1461",
+          "title": "Defeat at Towton",
+          "description": "The Lancastrian army is destroyed, and Margaret flees to Scotland."
+        },
+        {
+          "date": "1470",
+          "title": "Alliance with Warwick",
+          "description": "Louis XI brokers the pact that restores Henry VI."
+        },
+        {
+          "date": "4 May 1471",
+          "title": "Tewkesbury",
+          "description": "Her army is destroyed and her son killed."
+        },
+        {
+          "date": "1475",
+          "title": "Ransomed",
+          "description": "Louis XI buys her release under the Treaty of Picquigny."
+        },
+        {
+          "date": "25 August 1482",
+          "title": "Death in Anjou",
+          "description": "She dies a pensioner of the French king."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Talbot_Dog_Margaret_Henry_VI_Shrewsbury_Manuscript.jpeg"
+        },
+        {
+          "title": "Talbot Shrewsbury Book",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Talbot_Shrewsbury_Book"
+        },
+        {
+          "title": "Margaret of Anjou",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Margaret_of_Anjou"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Henry VI",
+            "type": "person",
+            "slug": "henry-vi-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Charles VII of France",
+            "type": "person",
+            "slug": "charles-vii-of-france",
+            "label": "Uncle by marriage"
+          },
+          {
+            "title": "Catherine of Valois",
+            "type": "person",
+            "slug": "catherine-of-valois",
+            "label": "Mother-in-law"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "The cause she led"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Formigny",
+            "type": "event",
+            "slug": "battle-of-formigny",
+            "label": "Loss of Normandy blamed on her marriage"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Valois",
+            "type": "house",
+            "slug": "house-of-valois",
+            "label": "Royal house of her mother's side"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mary-de-bohun",
+      "type": "character",
+      "name": "Mary de Bohun",
+      "aliases": [
+        "Mary Bohun"
+      ],
+      "born": 1369,
+      "died": 1394,
+      "deathAge": "about 24",
+      "causeOfDeath": "Childbirth",
+      "restingPlace": "Church of St Mary in the Newarke, Leicester",
+      "location": "England",
+      "title": "Countess of Derby",
+      "roles": [
+        "Countess of Derby",
+        "Co-heiress of the Bohun earldoms",
+        "Mother of Henry V"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary_de_Bohun.png",
+      "imageInfo": {
+        "caption": "A kneeling young woman in a Bohun psalter and book of hours, traditionally identified as Mary de Bohun.",
+        "creator": "Illuminators of the Bohun family workshop",
+        "date": "c. 1370–1390",
+        "source": "Bohun Psalter and Hours, fol. 181v, via Wikimedia Commons (CC BY-SA 4.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_de_Bohun.png",
+        "note": "The identification rests on the manuscript's Bohun ownership. The figure is conventional rather than a likeness, and no other image of her survives."
+      },
+      "summary": "Heiress of the Bohun earls of Hereford and first wife of Henry Bolingbroke; mother of Henry V and his brothers Clarence, Bedford and Gloucester, she died in childbirth in 1394, five years before her husband became Henry IV.",
+      "overview": [
+        "Mary de Bohun, co-heiress of the Bohun earldoms, married Henry Bolingbroke as a child and bore him six children, among them Henry V and John, Duke of Bedford, before dying in childbirth at about twenty-four. She never became queen, but she was the mother of the Lancastrian royal family."
+      ],
+      "greatestFeats": [
+        "Mother of Henry V, Thomas of Clarence, John of Bedford and Humphrey of Gloucester",
+        "Brought half the Bohun inheritance to the House of Lancaster",
+        "Mother of Philippa, queen of Denmark, Norway and Sweden"
+      ],
+      "keyAchievements": [
+        "Countess of Derby from about 1380",
+        "Mother of Henry V",
+        "Co-heiress of the earldoms of Hereford, Essex and Northampton"
+      ],
+      "birth": {
+        "date": "c. 1368–1370",
+        "place": {
+          "name": "England (place unrecorded)"
+        },
+        "note": "Her birth year is estimated from her marriage in about 1380."
+      },
+      "death": {
+        "date": "4 June 1394",
+        "place": {
+          "name": "Peterborough Castle"
+        },
+        "circumstance": "Died in childbirth after the birth of her daughter Philippa, three days before the death of Queen Anne of Bohemia."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "Bohun family",
+        "culture": "English noble culture",
+        "knownFor": "Mother of Henry V and the Lancastrian princes"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Mary de Bohun was the younger daughter and co-heiress of Humphrey de Bohun, Earl of Hereford, Essex and Northampton, and the first wife of Henry Bolingbroke, the son of John of Gaunt. She never became queen: she died in 1394, five years before her husband seized the throne as Henry IV of England. But she was the mother of the Lancastrian royal family, including Henry V, and her half of the Bohun inheritance was joined in time to the lands of the crown.",
+            "Her family was the patron of some of the finest English illuminated manuscripts of the fourteenth century, the Bohun psalters and books of hours, and one of them contains the image traditionally identified as her."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Mary was born around 1368–1370 to Humphrey de Bohun, the last of the Bohun earls, who died in 1373, and Joan FitzAlan. The inheritance was divided between Mary and her elder sister Eleanor, who married Thomas of Woodstock, Edward III's youngest son. Froissart reports that Thomas hoped to keep the whole estate by placing Mary in a convent, but in 1380 or 1381 John of Gaunt and Mary's mother arranged her marriage to his son Henry, then about fourteen, while she was about eleven; she stayed with her mother for some years before living with her husband."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Little of Mary's personality reaches us directly, and almost nothing written in her own voice survives. What the record shows is a devout and cultivated household. Her family's illuminators, trained under the Bohun earls at Pleshey in Essex, made psalters and books of hours for her kin, and one of them includes a kneeling young woman traditionally identified as Mary.",
+            "Chroniclers mention her chiefly through her marriage, which Froissart presents as a coup by John of Gaunt against his brother Thomas of Woodstock, and through the births of her children. That silence is typical of the evidence for aristocratic wives who died young, before their husbands' careers drew the attention of writers."
+          ]
+        },
+        {
+          "title": "Countess of Derby",
+          "paragraphs": [
+            "As countess of Derby Mary bore six children in quick succession: Henry, the future Henry V, born at Monmouth Castle in 1386; Thomas, later Duke of Clarence, in 1387; John, later Duke of Bedford, in 1389; Humphrey, later Duke of Gloucester, in 1390; Blanche, who married Louis III, Elector Palatine; and Philippa, who married Eric of Pomerania and became queen of Denmark, Norway and Sweden. She lived mainly on Bohun and Lancastrian manors while Henry travelled, jousting at Saint-Inglevert near Calais in 1390 and crusading with the Teutonic Knights in Prussia in 1390–1391."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Mary died at Peterborough Castle on 4 June 1394 after giving birth to her daughter Philippa, and was buried in the church of St Mary in the Newarke at Leicester, the collegiate church of the house of Lancaster. Her husband, who became king in 1399, did not remarry until 1403, when he took Joan of Navarre as his queen."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Mary's children were the Lancastrian dynasty: Henry V, the victor of the Battle of Agincourt, and his brothers Clarence, Bedford and Gloucester, who governed England and Lancastrian France after his death. When the Bohun inheritance was finally divided between Henry V and her sister's heirs in 1421, her share passed into the duchy of Lancaster and so to the crown."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1368–1370",
+          "title": "Birth",
+          "description": "Born to Humphrey de Bohun, Earl of Hereford, and Joan FitzAlan."
+        },
+        {
+          "date": "1373",
+          "title": "Co-heiress",
+          "description": "Her father dies, leaving the Bohun lands to Mary and her sister Eleanor."
+        },
+        {
+          "date": "c. 1380",
+          "title": "Marriage to Henry Bolingbroke",
+          "description": "John of Gaunt arranges her marriage to his son."
+        },
+        {
+          "date": "1386",
+          "title": "Birth of Henry V",
+          "description": "Her eldest son is born at Monmouth Castle."
+        },
+        {
+          "date": "1389",
+          "title": "Birth of John of Bedford",
+          "description": "The future regent of Lancastrian France is born."
+        },
+        {
+          "date": "1390–1391",
+          "title": "Husband's crusade",
+          "description": "Henry campaigns with the Teutonic Knights in Prussia."
+        },
+        {
+          "date": "4 June 1394",
+          "title": "Death in childbirth",
+          "description": "She dies at Peterborough after the birth of her daughter Philippa."
+        },
+        {
+          "date": "1399",
+          "title": "Husband becomes king",
+          "description": "Henry Bolingbroke takes the throne as Henry IV."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Mary_de_Bohun.png"
+        },
+        {
+          "title": "Jean Froissart, Chronicles",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Jean_Froissart"
+        },
+        {
+          "title": "Mary de Bohun",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_de_Bohun"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Henry IV of England",
+            "type": "person",
+            "slug": "henry-iv-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Henry V of England",
+            "type": "person",
+            "slug": "henry-v-of-england",
+            "label": "Son"
+          },
+          {
+            "title": "John, Duke of Bedford",
+            "type": "person",
+            "slug": "john-duke-of-bedford",
+            "label": "Son"
+          },
+          {
+            "title": "Eric of Pomerania",
+            "type": "person",
+            "slug": "eric-of-pomerania",
+            "label": "Son-in-law"
+          }
+        ],
+        "undefined": [
+          {
+            "title": "House of Lancaster",
+            "type": "house",
+            "slug": "house-of-lancaster",
+            "label": "Mother of its royal line"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Monmouth",
+            "type": "location",
+            "slug": "monmouth",
+            "label": "Where Henry V was born"
+          }
+        ]
+      }
+    },
+    {
+      "id": "philippa-of-hainault",
+      "type": "character",
+      "name": "Philippa of Hainault",
+      "aliases": [
+        "Philippa of Hainaut",
+        "Queen Philippa"
+      ],
+      "born": 1310,
+      "died": 1369,
+      "deathAge": "about 55",
+      "causeOfDeath": "A long illness",
+      "restingPlace": "Westminster Abbey",
+      "location": "Hainaut and England",
+      "title": "Queen of England",
+      "roles": [
+        "Queen consort of England",
+        "Patron of Jean Froissart"
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippa_of_Hainault.gif",
+      "imageInfo": {
+        "caption": "Philippa of Hainault, wearing the black lions of Hainault on her gown, is crowned in a fifteenth-century manuscript of Froissart's Chronicles.",
+        "creator": "Unknown illuminator of Froissart's Chronicles",
+        "date": "15th century",
+        "source": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippa_of_Hainault.gif",
+        "note": "A later manuscript illustration in which the arms of Hainault identify the queen; it is not a portrait from life."
+      },
+      "summary": "Daughter of the count of Hainaut and wife of Edward III for forty-one years: mother of the Black Prince and John of Gaunt, patron of Jean Froissart, and the queen remembered for pleading for the lives of the burghers of Calais.",
+      "overview": [
+        "Philippa of Hainault married Edward III in 1328 as the price of the Hainuyer ships and troops that carried Queen Isabella's invasion. She became a popular queen and the mother of a large royal family, and her intercession for the burghers of Calais in 1347 became the most famous story of the Hundred Years' War."
+      ],
+      "greatestFeats": [
+        "Mother of Edward the Black Prince, Lionel of Antwerp, John of Gaunt and Edmund of Langley",
+        "Interceded for the six burghers of Calais in 1347",
+        "Patron of the chronicler Jean Froissart",
+        "Gave her name to The Queen's College, Oxford"
+      ],
+      "keyAchievements": [
+        "Queen of England from 1328 to 1369",
+        "Mother of the Black Prince",
+        "Patron of Froissart"
+      ],
+      "birth": {
+        "date": "c. 1310–1315",
+        "place": {
+          "name": "Valenciennes, Hainaut (probably)"
+        },
+        "note": "Her birth date is uncertain; several years between 1310 and 1315 have been proposed."
+      },
+      "death": {
+        "date": "15 August 1369",
+        "place": {
+          "name": "Windsor Castle"
+        },
+        "circumstance": "Died at Windsor after a long illness, with Edward III beside her."
+      },
+      "quickFacts": {
+        "realm": "Kingdom of England",
+        "dynasty": "House of Avesnes",
+        "culture": "Hainuyer and English court culture",
+        "knownFor": "Pleading for the burghers of Calais and her patronage of Froissart"
+      },
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "Philippa of Hainault was queen of England from 1328 to 1369 as the wife of Edward III. Her marriage was the price of the ships and soldiers her father's county lent Queen Isabella for the invasion of 1326, but it became one of the most successful royal marriages of the fourteenth century, lasting forty-one years and producing a dozen or more children, among them Edward the Black Prince, Lionel of Antwerp, John of Gaunt and Edmund of Langley.",
+            "She was a popular queen, credited with encouraging Flemish weavers to settle in England, a patron of chroniclers and scholars, and the heroine of the best-known story of the Hundred Years' War: her plea to Edward to spare the six burghers of Calais in 1347."
+          ]
+        },
+        {
+          "title": "Birth and early life",
+          "paragraphs": [
+            "Philippa was born around 1310–1315, probably at Valenciennes, one of the daughters of William the Good, Count of Hainaut, Holland and Zeeland, and Joan of Valois, a niece of Philip IV of France. In 1326 Queen Isabella, in exile with her son Edward, agreed his betrothal to one of the count's daughters in return for the troops and ships that carried her invasion to England. Philippa came to England in December 1327 and married Edward III at York Minster on 24 January 1328."
+          ]
+        },
+        {
+          "title": "Character and Personality",
+          "paragraphs": [
+            "Froissart, who entered her service in 1361 and owed her his start as a writer, praised her generosity, piety and good sense, and his warm portrait has shaped her reputation ever since. The picture is flattering but not empty: her household accounts show large charitable gifts and even larger debts, and Edward III relied on her as a steadying presence at a court built on chivalric display.",
+            "Her famous intercession needs care. Jean le Bel, writing within a few years, tells how the pregnant queen knelt before Edward and begged him to spare the six burghers who had come out of Calais with ropes around their necks; it was a political ritual as much as an act of mercy, letting the king show clemency at his queen's request. Froissart's further claim that she rallied the English army before the victory over the Scots at Neville's Cross in 1346 finds no support in English sources."
+          ]
+        },
+        {
+          "title": "Queen of Edward III",
+          "paragraphs": [
+            "Philippa was crowned at Westminster in February 1330, and in June she gave birth to her first son, Edward, at Woodstock. The birth of an heir strengthened the young king's position months before he overthrew Roger Mortimer. She travelled with Edward on campaign in the Low Countries in 1338–1340, giving birth to Lionel at Antwerp and John at Ghent, and in 1346–1347 she joined him at the siege of Calais.",
+            "Her Hainuyer connections shaped the court. Jean Froissart, from Valenciennes, served as her clerk and wrote her praises, and her compatriot Walter Manny became one of Edward's leading captains. In 1341 her chaplain Robert de Eglesfield founded The Queen's College at Oxford and named it in her honour."
+          ]
+        },
+        {
+          "title": "Death",
+          "paragraphs": [
+            "Philippa fell ill in the later 1360s and died at Windsor Castle on 15 August 1369. Froissart, who was not present, wrote that on her deathbed she asked Edward to pay her debts, honour her gifts to the Church and be buried beside her at Westminster. Her tomb effigy, carved by the sculptor Jean de Liège, is one of the earliest realistic portraits in English royal sculpture, showing a stout, middle-aged woman rather than an idealised queen."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "Philippa's sons founded the houses whose rivalries dominated the next century: the descendants of John of Gaunt became the House of Lancaster, and those of Edmund of Langley the House of York. Her patronage made Froissart the chronicler of the Hundred Years' War, and the Calais story became a favourite subject for later painters and for Rodin's Burghers of Calais."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 1310–1315",
+          "title": "Birth in Hainaut",
+          "description": "Born to William the Good, Count of Hainaut, and Joan of Valois."
+        },
+        {
+          "date": "1326",
+          "title": "Betrothal",
+          "description": "Queen Isabella pledges her son's marriage in return for Hainuyer ships and troops."
+        },
+        {
+          "date": "24 January 1328",
+          "title": "Marriage at York",
+          "description": "She marries Edward III at York Minster."
+        },
+        {
+          "date": "15 June 1330",
+          "title": "Birth of the Black Prince",
+          "description": "Her eldest son, Edward, is born at Woodstock."
+        },
+        {
+          "date": "1338–1340",
+          "title": "In the Low Countries",
+          "description": "She follows Edward on campaign, giving birth to Lionel at Antwerp and John at Ghent."
+        },
+        {
+          "date": "1341",
+          "title": "The Queen's College",
+          "description": "Her chaplain founds an Oxford college in her name."
+        },
+        {
+          "date": "August 1347",
+          "title": "The burghers of Calais",
+          "description": "She pleads with Edward to spare the six burghers who surrender the town."
+        },
+        {
+          "date": "1361",
+          "title": "Froissart in her household",
+          "description": "The young chronicler enters her service."
+        },
+        {
+          "date": "15 August 1369",
+          "title": "Death at Windsor",
+          "description": "She dies and is buried at Westminster Abbey."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Philippa_of_Hainault.gif"
+        },
+        {
+          "title": "Jean le Bel, Chronicle",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Jean_le_Bel"
+        },
+        {
+          "title": "Jean Froissart, Chronicles",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Jean_Froissart"
+        },
+        {
+          "title": "Philippa of Hainault",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Philippa_of_Hainault"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Edward III of England",
+            "type": "person",
+            "slug": "edward-iii-of-england",
+            "label": "Husband"
+          },
+          {
+            "title": "Edward, the Black Prince",
+            "type": "person",
+            "slug": "edward-the-black-prince",
+            "label": "Son"
+          },
+          {
+            "title": "Isabella of France",
+            "type": "person",
+            "slug": "isabella-of-france",
+            "label": "Mother-in-law"
+          }
+        ],
+        "events": [
+          {
+            "title": "Hundred Years' War",
+            "type": "event",
+            "slug": "hundred-years-war",
+            "label": "Queen through its first phase"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Oxford",
+            "type": "location",
+            "slug": "oxford",
+            "label": "Queen's College named for her"
+          }
+        ],
+        "houses": [
+          {
+            "title": "House of Plantagenet",
+            "type": "house",
+            "slug": "house-of-plantagenet",
+            "label": "Royal house by marriage"
+          }
+        ]
+      }
     }
   ],
   "artifacts": [
@@ -140055,7 +142730,8 @@
                   "personSlug": "richard-the-lionheart",
                   "note": "r. 1189–1199",
                   "spouse": {
-                    "name": "Berengaria of Navarre"
+                    "name": "Berengaria of Navarre",
+                    "personSlug": "berengaria-of-navarre"
                   },
                   "branch": "No surviving issue"
                 },
@@ -140064,7 +142740,8 @@
                   "personSlug": "john-of-england",
                   "note": "r. 1199–1216",
                   "spouse": {
-                    "name": "Isabella of Angoulême"
+                    "name": "Isabella of Angoulême",
+                    "personSlug": "isabella-of-angouleme"
                   },
                   "children": [
                     {
@@ -140072,7 +142749,8 @@
                       "personSlug": "henry-iii-of-england",
                       "note": "r. 1216–1272",
                       "spouse": {
-                        "name": "Eleanor of Provence"
+                        "name": "Eleanor of Provence",
+                        "personSlug": "eleanor-of-provence"
                       },
                       "children": [
                         {
@@ -140080,7 +142758,8 @@
                           "personSlug": "edward-i-of-england",
                           "note": "r. 1272–1307",
                           "spouse": {
-                            "name": "Eleanor of Castile"
+                            "name": "Eleanor of Castile",
+                            "personSlug": "eleanor-of-castile"
                           },
                           "children": [
                             {
@@ -140088,7 +142767,8 @@
                               "personSlug": "edward-ii-of-england",
                               "note": "r. 1307–1327",
                               "spouse": {
-                                "name": "Isabella of France"
+                                "name": "Isabella of France",
+                                "personSlug": "isabella-of-france"
                               },
                               "children": [
                                 {
@@ -140096,7 +142776,8 @@
                                   "personSlug": "edward-iii-of-england",
                                   "note": "r. 1327–1377",
                                   "spouse": {
-                                    "name": "Philippa of Hainault"
+                                    "name": "Philippa of Hainault",
+                                    "personSlug": "philippa-of-hainault"
                                   },
                                   "children": [
                                     {
@@ -140104,7 +142785,8 @@
                                       "personSlug": "edward-the-black-prince",
                                       "note": "d. 1376, never king",
                                       "spouse": {
-                                        "name": "Joan of Kent"
+                                        "name": "Joan of Kent",
+                                        "personSlug": "joan-of-kent"
                                       },
                                       "children": [
                                         {
@@ -140112,7 +142794,8 @@
                                           "personSlug": "richard-ii-of-england",
                                           "note": "r. 1377–1399, deposed",
                                           "spouse": {
-                                            "name": "Anne of Bohemia"
+                                            "name": "Anne of Bohemia",
+                                            "personSlug": "anne-of-bohemia"
                                           }
                                         }
                                       ]
@@ -140121,7 +142804,8 @@
                                       "name": "John of Gaunt",
                                       "note": "Duke of Lancaster",
                                       "spouse": {
-                                        "name": "Blanche of Lancaster"
+                                        "name": "Blanche of Lancaster",
+                                        "personSlug": "blanche-of-lancaster"
                                       },
                                       "branch": "House of Lancaster",
                                       "children": [
@@ -140130,7 +142814,8 @@
                                           "personSlug": "henry-iv-of-england",
                                           "note": "r. 1399–1413",
                                           "spouse": {
-                                            "name": "Mary de Bohun"
+                                            "name": "Mary de Bohun",
+                                            "personSlug": "mary-de-bohun"
                                           },
                                           "children": [
                                             {
@@ -140138,7 +142823,8 @@
                                               "personSlug": "henry-v-of-england",
                                               "note": "r. 1413–1422",
                                               "spouse": {
-                                                "name": "Catherine of Valois"
+                                                "name": "Catherine of Valois",
+                                                "personSlug": "catherine-of-valois"
                                               },
                                               "children": [
                                                 {
@@ -140146,7 +142832,8 @@
                                                   "personSlug": "henry-vi-of-england",
                                                   "note": "r. 1422–1461, 1470–71",
                                                   "spouse": {
-                                                    "name": "Margaret of Anjou"
+                                                    "name": "Margaret of Anjou",
+                                                    "personSlug": "margaret-of-anjou"
                                                   }
                                                 }
                                               ]
@@ -145675,7 +148362,8 @@
                               "personSlug": "haakon-vi-of-norway",
                               "note": "r. Norway 1343–1380",
                               "spouse": {
-                                "name": "Margaret of Denmark"
+                                "name": "Margaret of Denmark",
+                                "personSlug": "margaret-i"
                               },
                               "children": [
                                 {
@@ -146404,7 +149092,8 @@
                   "personSlug": "wladyslaw-ii-jagiello",
                   "note": "King of Poland 1386–1434",
                   "spouse": {
-                    "name": "Jadwiga of Poland"
+                    "name": "Jadwiga of Poland",
+                    "personSlug": "jadwiga-of-poland"
                   },
                   "children": [
                     {
@@ -147142,7 +149831,8 @@
                   "personSlug": "henry-v-of-england",
                   "note": "r. 1413–1422",
                   "spouse": {
-                    "name": "Catherine of Valois"
+                    "name": "Catherine of Valois",
+                    "personSlug": "catherine-of-valois"
                   },
                   "children": [
                     {
@@ -150246,7 +152936,8 @@
               "personSlug": "conrad-of-montferrat",
               "note": "King-elect of Jerusalem, d. 1192",
               "spouse": {
-                "name": "Isabella I of Jerusalem"
+                "name": "Isabella I of Jerusalem",
+                "personSlug": "isabella-i-of-jerusalem"
               },
               "children": [
                 {
@@ -155421,7 +158112,8 @@
                   "name": "Leo IV the Khazar",
                   "note": "r. 775–780",
                   "spouse": {
-                    "name": "Irene of Athens"
+                    "name": "Irene of Athens",
+                    "personSlug": "irene-of-athens"
                   },
                   "children": [
                     {

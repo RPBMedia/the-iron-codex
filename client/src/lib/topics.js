@@ -743,6 +743,12 @@ export const TOPICS = [
           "summary": "Baybars was a Mamluk sultan who transformed the balance of power against the crusader states through military campaigns, fortress captures, and state-building after Ain Jalut."
         },
         {
+          "id": "berengaria-of-navarre",
+          "name": "Berengaria of Navarre",
+          "depth": 1,
+          "summary": "Queen of England as the wife of Richard the Lionheart, married on crusade in Cyprus in 1191. There is no record that she set foot in England during his reign, and she spent thirty years of widowhood securing her rights as lady of Le Mans."
+        },
+        {
           "id": "bohemond-i-of-antioch",
           "name": "Bohemond I of Antioch",
           "depth": 1,
@@ -837,12 +843,6 @@ export const TOPICS = [
           "name": "Pope Clement V",
           "depth": 1,
           "summary": "Pope Clement V was the first of the Avignon popes and the pontiff who, under pressure from King Philip IV of France, suppressed the Knights Templar at the Council of Vienne in 1312."
-        },
-        {
-          "id": "pope-eugenius-iii",
-          "name": "Pope Eugenius III",
-          "depth": 1,
-          "summary": "Pope Eugenius III was the first Cistercian pope, a disciple of Bernard of Clairvaux, who called the Second Crusade and granted the Knights Templar the right to wear the red cross."
         }
       ],
       "artifacts": [
@@ -3054,6 +3054,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "berengaria-of-navarre": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "bohemond-i-of-antioch": [
     {
       "slug": "crusades",
@@ -3149,12 +3155,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "pope-clement-v": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "pope-eugenius-iii": [
     {
       "slug": "crusades",
       "title": "The Crusades"
