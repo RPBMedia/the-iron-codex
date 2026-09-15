@@ -1007,6 +1007,10 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
       - `louis-vii-of-france`, `balian-of-ibelin`, `henry-ii-of-champagne`, `enrico-dandolo`, `baldwin-i-latin-emperor`, `pope-innocent-iii`
       - `frederick-ii-holy-roman-emperor`, `louis-ix-of-france`, `andrew-ii-of-hungary`, `john-of-brienne`, `jean-de-joinville`, `charles-of-anjou`, `jacques-de-molay`, `hermann-von-salza`
 
+      **Progress 2026-09-15 (owner away, audit requested):** a caption audit of all 1,074 captions found 57 hedged or placeholder captions and about 90 more pure template phrases. Of the 21 `medieval or later` images:
+      - All 21 were viewed. The 13 correct images got specific captions and notes, for example Frederick II in his falconry manuscript, Andrew II in the Chronicon Pictum, and Dandolo by Domenico Tintoretto.
+      - 8 need replacing: Louis IX (the church), Louis VII, Jean de Joinville and Innocent III (tiny scans), Godfrey of Bouillon (no metadata), Bohemond (a poster-shop source), Baldwin II (tiny), and Charles of Anjou (his knights, not him). Two agents are drafting those replacements.
+      - **Gate shipped:** `check-images` fails on vague captions (`scripts/lib/vague-captions.mjs`). The 75 captions already vague are listed in `scripts/lib/vague-caption-baseline.json`, a shrink-only list: fixing one without removing it also fails. Next ship: the 8 replacements, then the 30 `image associated with` captions, then the rest of the list.
       **Fix:**
       1. View each of the 21 images.
       2. Where an image shows the wrong subject, replace it with a real depiction under the person-image rules: manuscript, effigy, seal, portrait coin or later artwork, captioned honestly. Louis IX has many good ones (the Bible of Saint Louis, the Joinville manuscripts, the Saint-Louis statue at Mainneville).

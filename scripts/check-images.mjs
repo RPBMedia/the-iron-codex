@@ -1,6 +1,12 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import process from 'node:process'
+import { vagueCaptionKey, vagueCaptionReasons } from './lib/vague-captions.mjs'
+
+// Declared up here because the image loop below runs at module load, before any
+// declaration further down the file is initialised.
+const vagueCaptionBaseline = new Set(JSON.parse(fs.readFileSync(new URL('./lib/vague-caption-baseline.json', import.meta.url), 'utf8')))
+const vagueCaptionsSeen = new Set()
 
 const repoRoot = new URL('..', import.meta.url)
 const dataPath = new URL('../server/data/history.json', import.meta.url)
@@ -243,6 +249,10 @@ if (checkRemote) {
   await validateRemoteImages()
 }
 
+for (const key of staleVagueCaptionBaseline()) {
+  addFinding('baseline', 'vague-caption-baseline.json', 'entry', `listed vague caption no longer exists; remove it from the baseline: ${key}`)
+}
+
 if (findings.length) {
   console.error(`Image check found ${findings.length} issue(s):`)
   for (const finding of findings) {
@@ -457,6 +467,7 @@ function validateMetadata(collection, article, field, metadata, articleSources) 
     addFinding(collection, article, field, 'missing image caption')
   } else {
     validateCaptionLength(collection, article, field, metadata.caption)
+    validateCaptionSpecificity(collection, article, field, metadata.caption)
   }
 
   if (!stringValue(metadata.source)) {
@@ -588,6 +599,27 @@ async function remoteImageIssue(src) {
   } finally {
     clearTimeout(timeout)
   }
+}
+
+/**
+ * Captions say what the image is and when it was made, never "a medieval or later
+ * historical depiction" (owner rule, 2026-09-15; patterns in lib/vague-captions.mjs).
+ * Captions that were already vague when the gate arrived are listed in
+ * lib/vague-caption-baseline.json. That list only shrinks: a new vague caption
+ * fails, and so does a listed one that has been fixed but not removed from it.
+ */
+
+function validateCaptionSpecificity(collection, article, field, caption) {
+  const reasons = vagueCaptionReasons(caption)
+  if (!reasons.length) return
+  const key = vagueCaptionKey(collection, typeof article === 'string' ? article : article?.id, caption)
+  vagueCaptionsSeen.add(key)
+  if (vagueCaptionBaseline.has(key)) return
+  addFinding(collection, article, field, `vague image caption: it ${reasons.join('; ')}. Say the medium and the date or century`)
+}
+
+function staleVagueCaptionBaseline() {
+  return [...vagueCaptionBaseline].filter((key) => !vagueCaptionsSeen.has(key))
 }
 
 function addFinding(collection, article, field, issue, src = '') {
