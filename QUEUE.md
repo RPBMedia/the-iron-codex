@@ -12,7 +12,16 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-15, late night. The Order of Montjoy's history was corrected against the Catalan, Spanish and English Wikipedia articles (`f019003`; owner rule: historical errors are always corrected). 0p ship 1 is next: 28 margin crops, self-hosted. Earlier that night: the owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
+_Last updated: 2026-09-16, early morning, at the end of an owner-away hour. Shipped and verified live:
+- Kingdom batches 4a (`943b214`), 4b (`a634e33`) and 4c (`d5d79ea`), bringing 0d to 44 of 54.
+- The kingdom arms gate (`9179aef`).
+- Insights #2, favourites by period (`937cf4b`).
+- New main images for Stiklestad, Gestilren, the Zengids and Teias (`c69434e`).
+- The `pope-leo-iii` article (`1b37a7d`).
+
+Owner rulings: coins, seals and objects on white keep their white ground, and historical errors are always corrected. Open questions are listed in the handoff: the Rashidun banner box, Leo III's main image, the Sasanian map's eastern border, and Gestilren's memorial stone. Next: the last 10 polities in 0d, then 0o U0.
+
+Earlier that night the Order of Montjoy's history was corrected against the Catalan, Spanish and English Wikipedia articles (`f019003`; owner rule: historical errors are always corrected). 0p ship 1 is next: 28 margin crops, self-hosted. Earlier that night: the owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
 
 **Owner answers on the away-mode questions:**
 - 1453 wins, and CLAUDE.md now says so.
@@ -1451,7 +1460,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - `mongol-empire`: Herrmann's 1935 plate of the khanates in 1290; the Met's iron paiza.
    - `sasanian-empire`: a 2020 map of 620, noted as overstating the east; a drachm of Khosrow II.
 
-   The old washed-out maps are dropped. **Batch 4c is being drafted:** `ottoman-empire`, `seljuk-turks`, `sultanate-of-rum`, `ayyubid-sultanate` and `rashidun-caliphate`. Emblems come from coins or tughras, and bare locator maps are replaced.
+   The old washed-out maps are dropped.
+   **BATCH 4c SHIPPED 2026-09-16 (`d5d79ea`, owner away): 44 of 54 done.**
+   - `ottoman-empire`: Occitan map of 1307–1490; Mehmed II's tughra of 1468.
+   - `seljuk-turks`: 1092 relief map; Tughril Beg's gold dinar with its tamgha.
+   - `sultanate-of-rum`: Italian map of 1100–1240; Kaykhusraw II's sun-and-lion dirham.
+   - `ayyubid-sultanate`: map of 1174–1193 after Riley-Smith; Saladin's Damascus dirham.
+   - `rashidun-caliphate`: map kept; Arab-Sasanian drachm with "bism Allah".
+
+   **Open question for the owner:** the Rashidun map's corner legend shows a modern black "Rashidun banner" and a "Sunni Islam" label. It could not be cropped out without losing map, and no legible alternative exists: the conquests map already on the article has Arabic labels and is dim.
    **Gate shipped (2026-09-15, night):** `check-images` fails on a kingdom-type location without an arms panel. The 18 still to do are in `scripts/lib/polity-arms-backlog.json`, a shrink-only list: a listed polity that gains a panel must leave the list. No separate no-heraldry allowlist was needed, because those polities carry an emblem in the same panel.
    **Still to do:** the last 10 polities without an arms panel. Several of these lead with a non-map image that becomes a section image.
    - `lombard-league`
