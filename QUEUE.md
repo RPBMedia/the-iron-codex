@@ -975,6 +975,17 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
+0h. ✅ **Fixed 2026-09-15 (owner report on `catherine-of-valois`): empty Key
+   achievements boxes.** 48 people stored `keyAchievements` as plain sentences, but
+   `KeyAchievements` read only `.title`, so each achievement rendered as an empty card.
+   That includes all 33 queens and consorts from batches A and B, whose module
+   template used strings, plus 15 older articles such as Empress Matilda, El Cid
+   and Abd al-Rahman III. The page now treats a sentence as the title and drops
+   items with no text. `check-content-quality` now hard-fails on list items the page
+   cannot render: a keyAchievement with no title text, a non-string or empty
+   `knownFor`, `greatestFeats`, `aliases` or `roles` entry, or a non-object
+   `contentSections`, `timeline`, `sources` or `sectionImages` entry. The earlier
+   gate checked only that each field was an array.
 0g. **OWNER REQUEST 2026-09-15 (eventually, not urgent): sweep the repo's
    markdown files for work already done.** Keep `CLAUDE.md` and `CODEX.md` as they
    are. For every other planning or work-list file, check each item against the code, the data

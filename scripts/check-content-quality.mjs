@@ -109,6 +109,37 @@ for (const [collection, entries] of Object.entries(data)) {
     }
   }
 }
+// Hard failure: the ITEMS of those lists must have the shape the page reads.
+// A list of the right type can still render empty boxes: 48 people stored
+// keyAchievements as plain sentences, and each became an achievement card with
+// no text (Catherine of Valois, 2026-09-15). The page now accepts a sentence as a
+// title, so the rule is that every item carries text a reader can see.
+const STRING_ITEM_FIELDS = ['knownFor', 'greatestFeats', 'aliases', 'roles']
+const OBJECT_ITEM_FIELDS = ['contentSections', 'timeline', 'sources', 'sectionImages']
+for (const [collection, entries] of Object.entries(data)) {
+  if (!Array.isArray(entries)) continue
+  for (const entry of entries) {
+    const where = `${collection}/${entry.id}`
+    for (const field of STRING_ITEM_FIELDS) {
+      if (!Array.isArray(entry[field])) continue
+      entry[field].forEach((item, i) => {
+        if (typeof item !== 'string' || !item.trim()) typeFailings.push(`${where}: '${field}[${i}]' must be a non-empty string`)
+      })
+    }
+    for (const field of OBJECT_ITEM_FIELDS) {
+      if (!Array.isArray(entry[field])) continue
+      entry[field].forEach((item, i) => {
+        if (!item || typeof item !== 'object' || Array.isArray(item)) typeFailings.push(`${where}: '${field}[${i}]' must be an object`)
+      })
+    }
+    if (Array.isArray(entry.keyAchievements)) {
+      entry.keyAchievements.forEach((item, i) => {
+        const text = typeof item === 'string' ? item : item && typeof item === 'object' ? item.title : null
+        if (typeof text !== 'string' || !text.trim()) typeFailings.push(`${where}: 'keyAchievements[${i}]' has no title text`)
+      })
+    }
+  }
+}
 if (typeFailings.length) {
   console.error(`HARD FAILURE: ${typeFailings.length} list field(s) with the wrong type:`)
   typeFailings.forEach(f => console.error(' -', f))

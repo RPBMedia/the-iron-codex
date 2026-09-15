@@ -1379,14 +1379,26 @@ function SectionImage({ image }) {
   )
 }
 
+// An achievement is either an object with a title (and optional description and
+// links) or a plain sentence. 48 people stored plain sentences, which rendered as
+// empty boxes because only `.title` was read (Catherine of Valois, reported
+// 2026-09-15). Anything without text is dropped, and an empty list hides the
+// section, per the no-empty-cards rule.
+function normalizedAchievements(achievements) {
+  return asList(achievements)
+    .map((achievement) => (typeof achievement === 'string' ? { title: achievement } : achievement))
+    .filter((achievement) => achievement && String(achievement.title ?? '').trim())
+}
+
 function KeyAchievements({ achievements, article }) {
-  if (!achievements?.length) return null
+  const items = normalizedAchievements(achievements)
+  if (!items.length) return null
 
   return (
     <section className="bio-section key-achievements">
       <h2>Key achievements</h2>
       <div className="achievement-list">
-        {achievements.map((achievement) => (
+        {items.map((achievement) => (
           <article className="achievement-item" key={achievement.title}>
             <h3>{achievement.title}</h3>
             {achievement.description && <p>{renderLinkedText(achievement.description, article)}</p>}
