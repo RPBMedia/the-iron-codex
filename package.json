@@ -17,7 +17,8 @@
     "build:topics": "node scripts/build-topics.mjs",
     "content": "node scripts/update-content-dates.mjs && node scripts/make-og-images.mjs",
     "ping": "node scripts/ping-indexnow.mjs",
-    "test": "node scripts/run-tests.mjs"
+    "test": "node scripts/run-tests.mjs",
+    "vercel-build": "npm install --prefix client && node scripts/run-tests.mjs && node scripts/check-content-quality.mjs && node scripts/check-images.mjs && node scripts/build-topics.mjs && npm run build --prefix client && node scripts/prerender.mjs && node scripts/check-seo.mjs"
   },
   "engines": {
     "node": "24.x"
