@@ -9355,6 +9355,12 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "The Viking age's English end"
+          },
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "The army defeated here"
           }
         ]
       },
@@ -19396,6 +19402,282 @@
           "type": "encyclopedia"
         }
       ]
+    },
+    {
+      "id": "great-heathen-army",
+      "type": "event",
+      "eventType": "War",
+      "name": "Great Heathen Army",
+      "aliases": [
+        "Great Viking Army",
+        "Viking Great Army"
+      ],
+      "year": 865,
+      "location": "England",
+      "eventLocation": "East Anglia, Northumbria, Mercia and Wessex",
+      "conflict": "Viking invasions of England",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_Great_Army_map.svg",
+      "imageInfo": {
+        "caption": "The movements of the Great Heathen Army in England between 865 and 878.",
+        "creator": "Hel-hama",
+        "date": "modern map (2012)",
+        "source": "Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_Great_Army_map.svg",
+        "note": "Based on Stenton's Anglo-Saxon England and Hill's Atlas of Anglo-Saxon England. The winter camps are recorded in the Anglo-Saxon Chronicle; the routes between them are reconstructions."
+      },
+      "summary": "The Scandinavian army that invaded England in 865, destroyed the kingdoms of Northumbria, East Anglia and Mercia, came close to conquering Wessex, and settled the lands that became the Danelaw.",
+      "details": "A coalition of Viking war bands that landed in East Anglia in 865, conquered three of the four English kingdoms, was defeated by Alfred the Great at Edington in 878, and settled across northern and eastern England.",
+      "outcome": "Conquest of Northumbria, East Anglia and eastern Mercia; Wessex survived after Edington in 878; Scandinavian settlement created the Danelaw.",
+      "participants": [
+        {
+          "side": "Great Heathen Army",
+          "factions": [],
+          "leaders": [
+            {
+              "name": "Guthrum",
+              "title": "Guthrum",
+              "type": "person",
+              "slug": "guthrum"
+            }
+          ],
+          "strength": {
+            "display": "Unknown; estimates range from a few hundred to several thousand",
+            "confidence": "debated",
+            "note": "Chroniclers call it only a 'great army'. Its winter camps at Repton and Torksey suggest thousands rather than hundreds, reinforced by a second 'summer army' in 871."
+          }
+        },
+        {
+          "side": "English kingdoms",
+          "factions": [
+            {
+              "name": "Kingdom of Wessex",
+              "title": "Kingdom of Wessex",
+              "type": "location",
+              "slug": "kingdom-of-wessex"
+            },
+            {
+              "name": "Northumbria",
+              "title": "Northumbria",
+              "type": "location",
+              "slug": "northumbria"
+            },
+            {
+              "name": "Kingdom of East Anglia",
+              "title": "Kingdom of East Anglia",
+              "type": "location",
+              "slug": "kingdom-of-east-anglia"
+            }
+          ],
+          "leaders": [
+            {
+              "name": "Alfred the Great",
+              "title": "Alfred the Great",
+              "type": "person",
+              "slug": "alfred-the-great"
+            },
+            {
+              "name": "Æthelred I of Wessex",
+              "title": "Æthelred I of Wessex",
+              "type": "person",
+              "slug": "aethelred-i-of-wessex"
+            }
+          ],
+          "strength": {
+            "display": "Unknown",
+            "confidence": "unknown",
+            "note": "Each kingdom fought with its own royal household and local levies; no figures survive for any of them."
+          }
+        }
+      ],
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Great Heathen Army was the coalition of Scandinavian war bands that landed in East Anglia in the autumn of 865 and spent the next fifteen years conquering England. The Anglo-Saxon Chronicle called it the micel hæþen here, the great heathen army, to distinguish it from the smaller raiding fleets of earlier decades. It destroyed three of the four English kingdoms, Northumbria, East Anglia and Mercia, and came close to destroying the fourth, Wessex, before Alfred the Great defeated its king Guthrum at the Battle of Edington in 878.",
+            "Its lasting effect was settlement. From 876 its veterans shared out land in Northumbria, eastern Mercia and East Anglia and began to farm it, creating the Scandinavian-ruled region later called the Danelaw, while the English kingdom that eventually formed in response was built around the West Saxon royal house the army had failed to break."
+          ]
+        },
+        {
+          "title": "Origins and leaders",
+          "paragraphs": [
+            "Later tradition gave the army a motive of revenge: Norse sagas say the sons of Ragnar Lothbrok invaded England to avenge their father, put to death in a snake pit by King Ælla of Northumbria. That story was written down centuries later. The contemporary sources show a large force, drawn from Denmark and from Viking groups already active in Ireland and Francia, under several leaders at once. English writers name Ivar and Halfdan, later tradition adds Ubba, and Irish annals record an Ímar active around Dublin in the 850s and 860s who may be the same Ivar.",
+            "The army's size is unknown, and modern estimates range from a few hundred men to several thousand. It was large enough to winter in enemy territory and fight several battles a year, and the best evidence is archaeological. At Repton, where it wintered in 873–874, excavation found a defended enclosure beside the church and a mass burial of some 260 people, and at Torksey on the Trent, its camp of 872–873, metal detecting has recovered hundreds of pieces of cut silver, Arabic dirhams and gaming pieces from a site covering tens of hectares."
+          ]
+        },
+        {
+          "title": "Northumbria and East Anglia, 865–870",
+          "paragraphs": [
+            "After wintering in East Anglia, where the East Angles bought peace with horses, the army marched north and took York on 1 November 866. The Northumbrians, divided between the rival kings Osberht and Ælla, united too late: both kings were killed attacking the city in March 867, and the Danes set up an English client king. In 867 the army moved into Mercia and occupied Nottingham, where King Burgred of Mercia and his West Saxon allies surrounded it without forcing a battle.",
+            "In 869 the army returned to East Anglia and wintered at Thetford. King Edmund fought it and was killed on 20 November; he was soon venerated as a martyr, and the Danish rulers who settled his kingdom struck coins in his memory. With two kingdoms in its hands, the army turned on the richest one left."
+          ]
+        },
+        {
+          "title": "The war with Wessex, 870–871",
+          "paragraphs": [
+            "At the end of 870 the army seized Reading and invaded Wessex. The Anglo-Saxon Chronicle counts nine general engagements south of the Thames in 871, the year of battles, among them an English victory at Ashdown in January and defeats at Basing and Meretun. King Æthelred I of Wessex died after Easter, and his younger brother Alfred became king in the middle of the campaign; after another defeat at Wilton he paid the army to leave, and it withdrew to London for the winter."
+          ]
+        },
+        {
+          "title": "Mercia and the division of the army, 872–877",
+          "paragraphs": [
+            "From London the army moved to Torksey and in 873 to Repton, the burial place of the Mercian kings. In 874 it drove Burgred of Mercia into exile in Rome and set up Ceolwulf, whom the Chronicle calls a foolish king's thegn, to rule for it. At Repton the army divided. Halfdan took part of it north, campaigned against the Picts and the Strathclyde Britons, and in 876 shared out the land of the Northumbrians among his men; the other leaders, Guthrum, Oscetel and Anwend, took the rest south to Cambridge.",
+            "In 877 part of Guthrum's force settled eastern Mercia, taking half the kingdom and leaving Ceolwulf the western half, while Guthrum kept his army in the field for a final attempt on Wessex."
+          ]
+        },
+        {
+          "title": "Guthrum's attack on Wessex, 875–878",
+          "paragraphs": [
+            "Guthrum's army slipped past Alfred to Wareham in 876 and then to Exeter, swearing oaths and giving hostages that it abandoned. In January 878 it struck the royal estate of Chippenham in midwinter, driving Alfred into hiding in the marshes of Athelney while many West Saxons submitted. Alfred rallied the men of Somerset, Wiltshire and Hampshire, and in May 878 he defeated Guthrum at the Battle of Edington and besieged the Danish army until it surrendered.",
+            "Guthrum accepted baptism at Aller with Alfred as his godfather, spent 879 at Cirencester, and in 880 led his army into East Anglia, where it settled. Another Viking force that had wintered at Fulham crossed to Francia the same year, and the Great Heathen Army ended as a single campaigning army."
+          ]
+        },
+        {
+          "title": "Consequences",
+          "paragraphs": [
+            "In fifteen years the army redrew the political map of England. The royal houses of Northumbria, East Anglia and Mercia were destroyed or reduced to client kings, their bishoprics were disrupted, and monasteries across the north and east vanish from the record. Only Wessex kept its dynasty, and Alfred's answer, a network of fortified burhs, a reorganised army and a fleet, became the foundation on which his children reconquered the Danelaw.",
+            "The settlers also made a new society. Scandinavian lords and farmers took over estates across Yorkshire, the east midlands and East Anglia, adopted Christianity within a generation, struck their own coins, and left the place-names, words and legal customs that set the Danelaw apart for centuries."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "Autumn 865",
+          "title": "The army lands",
+          "description": "The Great Heathen Army arrives in East Anglia and winters there."
+        },
+        {
+          "date": "1 November 866",
+          "title": "York taken",
+          "description": "The army captures York while the Northumbrians are divided."
+        },
+        {
+          "date": "March 867",
+          "title": "Northumbrian kings killed",
+          "description": "Osberht and Ælla die attacking the city together."
+        },
+        {
+          "date": "20 November 869",
+          "title": "Death of Edmund",
+          "description": "King Edmund of East Anglia is killed after fighting the army."
+        },
+        {
+          "date": "January 871",
+          "title": "Ashdown",
+          "description": "The West Saxons win the first battle of the year of battles."
+        },
+        {
+          "date": "April 871",
+          "title": "Alfred becomes king",
+          "description": "Æthelred I dies in mid-campaign and Alfred succeeds him."
+        },
+        {
+          "date": "873–874",
+          "title": "Winter at Repton",
+          "description": "The army camps at the Mercian royal burial place."
+        },
+        {
+          "date": "874",
+          "title": "Mercia falls",
+          "description": "Burgred is driven into exile and the army divides."
+        },
+        {
+          "date": "876",
+          "title": "Northumbria settled",
+          "description": "Halfdan shares out the land among his men."
+        },
+        {
+          "date": "January 878",
+          "title": "Chippenham",
+          "description": "Guthrum surprises Alfred, who retreats to Athelney."
+        },
+        {
+          "date": "May 878",
+          "title": "Edington",
+          "description": "Alfred defeats Guthrum at the Battle of Edington."
+        },
+        {
+          "date": "880",
+          "title": "East Anglia settled",
+          "description": "Guthrum's army settles in East Anglia and the campaign ends."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:England_Great_Army_map.svg"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_Chronicle"
+        },
+        {
+          "title": "Repton",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Repton"
+        },
+        {
+          "title": "Great Heathen Army",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Heathen_Army"
+        }
+      ],
+      "relatedEntries": {
+        "people": [
+          {
+            "title": "Guthrum",
+            "type": "person",
+            "slug": "guthrum",
+            "label": "Its king in the war with Wessex"
+          },
+          {
+            "type": "person",
+            "slug": "alfred-the-great",
+            "label": "Defeated it at Edington"
+          },
+          {
+            "title": "Æthelred I of Wessex",
+            "type": "person",
+            "slug": "aethelred-i-of-wessex",
+            "label": "Fought it in 871"
+          },
+          {
+            "title": "Ragnar Lothbrok",
+            "type": "person",
+            "slug": "ragnar-lothbrok",
+            "label": "Legendary father of its leaders"
+          }
+        ],
+        "events": [
+          {
+            "title": "Battle of Edington",
+            "type": "event",
+            "slug": "battle-of-edington",
+            "label": "Its decisive defeat"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "The region it settled"
+          },
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "The kingdom its settlers founded"
+          },
+          {
+            "title": "Kingdom of East Anglia",
+            "type": "location",
+            "slug": "kingdom-of-east-anglia",
+            "label": "Conquered in 869"
+          }
+        ]
+      }
     }
   ],
   "characters": [
@@ -22371,6 +22653,14 @@
             "slug": "dane-axe",
             "label": "Weapon of his Viking-age world"
           }
+        ],
+        "events": [
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Invasion led by his reputed sons"
+          }
         ]
       }
     },
@@ -23040,6 +23330,12 @@
             "type": "location",
             "slug": "winchester",
             "label": "Place of death"
+          },
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "The partition he agreed"
           }
         ],
         "people": [
@@ -23061,6 +23357,12 @@
             "type": "event",
             "slug": "battle-of-edington",
             "label": "His decisive victory, 878"
+          },
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "The army he defeated"
           }
         ]
       },
@@ -27718,6 +28020,12 @@
             "type": "location",
             "slug": "stainmore",
             "label": "Place of death"
+          },
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "His kingdom"
           }
         ],
         "people": [
@@ -51596,6 +51904,12 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "The last act of the Viking wars his reign opened"
+          },
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Fought it in 871"
           }
         ]
       },
@@ -51778,6 +52092,12 @@
             "type": "location",
             "slug": "kingdom-of-england",
             "label": "The kingdom his conquests made possible"
+          },
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "Reconquered the southern Danelaw"
           }
         ],
         "events": [
@@ -71273,6 +71593,12 @@
             "type": "location",
             "slug": "kingdom-of-england",
             "label": "His kingdom"
+          },
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "Ended it in 954"
           }
         ],
         "people": [
@@ -74264,10 +74590,7 @@
       "causeOfDeath": "Natural causes",
       "restingPlace": "Sherborne Abbey",
       "location": "Kingdom of Wessex",
-      "aliases": [
-        "Ethelbald",
-        "Æthelbald"
-      ],
+      "aliases": [],
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/%C3%86thelbald_-_MS_Royal_14_B_VI.jpg",
       "summary": "King of Wessex (858–860), eldest surviving son of Æthelwulf, who rebelled against his father and scandalously married his father's young widow before his short reign ended.",
       "title": "King of Wessex",
@@ -74475,10 +74798,7 @@
       "causeOfDeath": "Natural causes",
       "restingPlace": "Sherborne Abbey",
       "location": "Kingdom of Wessex",
-      "aliases": [
-        "Ethelbert",
-        "Æthelberht"
-      ],
+      "aliases": [],
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/%C3%86thelberht_-_MS_Royal_14_B_VI.jpg",
       "summary": "King of Wessex (860–865), son of Æthelwulf, who permanently reunited Wessex with the south-east and defended his realm against Viking raids, including a sack of Winchester.",
       "title": "King of Wessex",
@@ -81706,6 +82026,12 @@
             "type": "event",
             "slug": "battle-of-edington",
             "label": "His decisive defeat, 878"
+          },
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Led it against Wessex"
           }
         ],
         "locations": [
@@ -81720,6 +82046,18 @@
             "type": "location",
             "slug": "kingdom-of-england",
             "label": "The Danelaw boundary he agreed helped define its shape"
+          },
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "Agreed its boundary"
+          },
+          {
+            "title": "Kingdom of East Anglia",
+            "type": "location",
+            "slug": "kingdom-of-east-anglia",
+            "label": "His kingdom, 880–890"
           }
         ]
       },
@@ -83592,6 +83930,12 @@
             "type": "location",
             "slug": "kingdom-of-england",
             "label": "The unification he nearly reversed"
+          },
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "Restored it in 939"
           }
         ]
       },
@@ -100146,6 +100490,12 @@
             "type": "location",
             "slug": "northumbria",
             "label": "The northern kingdom absorbed in 927"
+          },
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "The Scandinavian region it reconquered"
           }
         ],
         "events": [
@@ -106303,6 +106653,12 @@
             "type": "location",
             "slug": "kingdom-of-scotland",
             "label": "The winner of Lothian"
+          },
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "Its Scandinavian successor"
           }
         ],
         "events": [
@@ -106311,6 +106667,12 @@
             "type": "event",
             "slug": "battle-of-stamford-bridge",
             "label": "Fought in old Deira, 1066"
+          },
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Conquered it in 866–867"
           }
         ]
       },
@@ -123538,6 +123900,672 @@
           "note": "The dynastic mosque of the sultans of Rum, built and extended across the twelfth century on the citadel mound. The palace whose remains are sheltered under the modern dome is the building the enthronement tile of Kilij Arslan II came from. CC BY-SA 4.0."
         }
       ]
+    },
+    {
+      "id": "danelaw",
+      "type": "location",
+      "locationType": "Region",
+      "name": "Danelaw",
+      "aliases": [
+        "Danelagh",
+        "Dena lagu"
+      ],
+      "year": 878,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/England_878.svg",
+      "imageInfo": {
+        "caption": "England and Wales around 878, with the lands under Scandinavian control in the east and north.",
+        "creator": "Hel-hama",
+        "date": "modern map (2012)",
+        "source": "Wikimedia Commons (CC BY-SA 3.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:England_878.svg",
+        "note": "A modern map of a shifting frontier. The boundary follows the treaty of Alfred and Guthrum; Scandinavian control north of it was never uniform, and the line moved south and west within a few years."
+      },
+      "sectionImages": [
+        {
+          "section": "Silver, trade and towns",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/British_Museum_Cuerdale_Hoard.jpg",
+          "caption": "Silver from the Cuerdale Hoard, buried near Preston around 905 and now in the British Museum.",
+          "creator": "BabelStone (photograph)",
+          "date": "photograph; hoard buried c. 905",
+          "source": "British Museum; Wikimedia Commons (CC0)",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:British_Museum_Cuerdale_Hoard.jpg",
+          "note": "More than 8,500 coins, ingots and pieces of cut silver, including coins of the Viking kings of York and East Anglia and Arabic dirhams: wealth counted by weight."
+        }
+      ],
+      "summary": "The eastern and northern England settled and ruled by Scandinavians after the Great Heathen Army's conquests: a patchwork of Viking kingdoms and armies, reconquered by the West Saxon kings between 917 and 954, whose name survived as a region of distinct law.",
+      "overview": [
+        "The Danelaw was never a kingdom. It was the part of England, north and east of a line from the Thames to the Mersey, where Scandinavian kings and armies held power after the 870s, and where Scandinavian settlement left its mark on law, language and landscape long after English kings took it back."
+      ],
+      "knownFor": [
+        "The division of England agreed by Alfred the Great and Guthrum",
+        "Scandinavian settlement and place-names ending in -by and -thorpe",
+        "The Five Boroughs of Derby, Leicester, Lincoln, Nottingham and Stamford",
+        "Wapentakes, sokemen and a law of its own",
+        "Reconquest by Edward the Elder, Æthelflæd and their successors"
+      ],
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Danelaw is the name later given to the part of England in which Scandinavian settlers and rulers held power after the conquests of the Great Heathen Army in the 860s and 870s: roughly the land north and east of a line running from the Thames estuary along the River Lea and Watling Street toward Chester. It was never a single realm. It contained the Viking kingdom of York in the north, the Danish kingdom of East Anglia, and between them the armies settled around the Five Boroughs of the east midlands.",
+            "The name is later than the settlements. Dena lagu, 'the law of the Danes', first appears in the law codes of Æthelred the Unready and the writings of Archbishop Wulfstan of York in the early eleventh century, when the region was ruled by English kings but kept customs of its own. Its lasting legacy was not a state but a society: Scandinavian place-names, words and legal habits, and a population of mixed descent across half of England."
+          ]
+        },
+        {
+          "title": "Conquest and partition",
+          "paragraphs": [
+            "The Danelaw was made by conquest. The Great Heathen Army that landed in East Anglia in 865 took York in 866, killed King Edmund of East Anglia in 869 and drove King Burgred of Mercia into exile in 874. Then it began to settle. The Anglo-Saxon Chronicle records that in 876 Halfdan shared out the land of the Northumbrians, 'and they were ploughing and providing for themselves'; in 877 part of the army took eastern Mercia; and in 880 Guthrum's army went from Cirencester into East Anglia, settled there and shared out the land.",
+            "In the south-west the conquest met its limit. Guthrum's defeat at the Battle of Edington in 878 ended his attempt on Wessex; he was baptised with Alfred the Great as his godfather, and in the 880s the two kings agreed a treaty, whose text survives, fixing the boundary up the Thames, up the Lea to its source, then in a straight line to Bedford and up the Ouse to Watling Street. The treaty also set the same legal value on the life of a free Dane and a free Englishman, eight half-marks of refined gold."
+          ]
+        },
+        {
+          "title": "Who ruled the Danelaw",
+          "paragraphs": [
+            "Power in the Danelaw lay with kings in the north and east and with armies in between. York had Scandinavian kings from Halfdan in the 870s: Guthfrith, a Christian king buried in York Minster in 895; Siefred and Cnut, known from their coins; and from 919 kings of the Norse-Irish Uí Ímair dynasty of Dublin, among them Ragnall, Sihtric Cáech and Olaf Guthfrithson. East Anglia was ruled by Guthrum, under his baptismal name Æthelstan, until 890, and then by Eohric, who was killed fighting the English at the Holme in 902.",
+            "The east midlands had no king. Their fortified towns were held by Danish armies, each with a jarl and a territory of its own, the most important of them the Five Boroughs of Derby, Leicester, Lincoln, Nottingham and Stamford. The northern and eastern armies fought as allies, bargained separately with the West Saxon kings, and in the end submitted one at a time."
+          ]
+        },
+        {
+          "title": "Law and society",
+          "paragraphs": [
+            "English kings recognised Scandinavian custom rather than erase it. King Edgar's law code of the 960s allowed the Danes to keep 'such good laws as they best may choose', and Æthelred the Unready's code issued at Wantage in 997 set out procedure for the Five Boroughs, including twelve leading thegns in each wapentake sworn to accuse wrongdoers, an early form of the English presentment jury.",
+            "The wapentake, from Old Norse vápnatak, the brandishing of weapons that confirmed an assembly's decision, replaced the hundred as the unit of local government across much of the region, and the English word 'law' itself came from Norse. Domesday Book in 1086 records unusually large numbers of free peasants, sokemen and freemen, in Lincolnshire, Norfolk and Suffolk, which historians have long connected with the Scandinavian settlement, though the link is argued over.",
+            "The impact on language and landscape is clearer. Hundreds of place-names in northern and eastern England end in -by, 'farm' or 'village', or -thorpe, 'outlying settlement', among them Grimsby, Derby, Whitby and Scunthorpe, and everyday English words such as sky, egg, window, take and they entered the language from Old Norse speakers living beside the English."
+          ]
+        },
+        {
+          "title": "Silver, trade and towns",
+          "paragraphs": [
+            "The settlers brought a silver economy. The hoard buried at Cuerdale in Lancashire around 905, more than 8,500 coins, ingots and pieces of cut silver, shows wealth measured by weight, and York grew into a trading town whose excavated workshops on Coppergate made combs, leatherwork and amber and jet jewellery for markets from Dublin to the Baltic.",
+            "Viking rulers struck coins almost as soon as they settled. The Danish rulers of East Anglia issued pennies in memory of St Edmund, the king their army had killed, and the kingdom of York struck pennies in the name of St Peter, the patron of its cathedral, adding a sword to the design in the 920s. The coins show converts adopting the saints of the people they had conquered within a generation."
+          ]
+        },
+        {
+          "title": "The English reconquest",
+          "paragraphs": [
+            "Alfred's children took the Danelaw back. After a combined West Saxon and Mercian army destroyed a Northumbrian raiding force at Tettenhall in 910, Edward the Elder and his sister Æthelflæd, Lady of the Mercians, advanced behind lines of new fortified burhs. Æthelflæd took Derby in 917 and Leicester in 918, Edward received the submission of the East Anglian and midland armies in 917, and by 920 every Danish army south of the Humber had accepted him as lord.",
+            "York held out longer. Æthelstan annexed it in 927 and broke the northern coalition at the Battle of Brunanburh in 937, but after his death Olaf Guthfrithson retook York and the Five Boroughs in 939. Edmund I of England recovered the Five Boroughs in 942, and Eadred of England ended the kingdom of York in 954, when its last king, Eric Bloodaxe, was driven out and killed at Stainmore."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "The Danelaw did not end in 954; it changed masters. When Sweyn Forkbeard invaded in 1013, the Northumbrians, the men of Lindsey and the Five Boroughs submitted to him first, at Gainsborough, and his son Cnut the Great ruled all England from 1016. In the early twelfth century the lawbook known as the Leges Henrici Primi still divided England into the law of Wessex, the law of Mercia and the law of the Danes."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "865",
+          "title": "The Great Heathen Army lands",
+          "description": "A Scandinavian army arrives in East Anglia and begins fifteen years of conquest."
+        },
+        {
+          "date": "876",
+          "title": "Northumbria shared out",
+          "description": "Halfdan divides the Northumbrians' land among his men, who begin to farm it."
+        },
+        {
+          "date": "878",
+          "title": "Edington",
+          "description": "Alfred the Great defeats Guthrum at the Battle of Edington, halting the conquest of Wessex."
+        },
+        {
+          "date": "880",
+          "title": "East Anglia settled",
+          "description": "Guthrum's army moves from Cirencester to East Anglia and shares out the land."
+        },
+        {
+          "date": "880s",
+          "title": "Treaty of Alfred and Guthrum",
+          "description": "The two kings fix the boundary along the Thames, the Lea, the Ouse and Watling Street."
+        },
+        {
+          "date": "c. 905",
+          "title": "The Cuerdale Hoard",
+          "description": "More than 8,500 pieces of Viking silver are buried beside the Ribble."
+        },
+        {
+          "date": "917",
+          "title": "The midlands submit",
+          "description": "Æthelflæd takes Derby and Edward the Elder receives the submission of East Anglia."
+        },
+        {
+          "date": "927",
+          "title": "York annexed",
+          "description": "Æthelstan takes the kingdom of York for the first time."
+        },
+        {
+          "date": "942",
+          "title": "The Five Boroughs recovered",
+          "description": "Edmund I retakes the east midlands from the Norse kings of York."
+        },
+        {
+          "date": "954",
+          "title": "End of the kingdom of York",
+          "description": "Eric Bloodaxe is killed at Stainmore, and Eadred takes York."
+        },
+        {
+          "date": "997",
+          "title": "The Wantage code",
+          "description": "Æthelred the Unready's law for the Five Boroughs sets up juries of twelve thegns."
+        },
+        {
+          "date": "1013",
+          "title": "Sweyn's conquest",
+          "description": "The Danelaw submits first when Sweyn Forkbeard invades England."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:England_878.svg"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_Chronicle"
+        },
+        {
+          "title": "Treaty of Alfred and Guthrum",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Alfred_and_Guthrum"
+        },
+        {
+          "title": "Five Boroughs of the Danelaw",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Five_Boroughs_of_the_Danelaw"
+        },
+        {
+          "title": "Danelaw",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Danelaw"
+        }
+      ],
+      "relatedEntries": {
+        "events": [
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "The army whose settlement created it"
+          },
+          {
+            "title": "Battle of Edington",
+            "type": "event",
+            "slug": "battle-of-edington",
+            "label": "Set the limit of the conquest"
+          }
+        ],
+        "locations": [
+          {
+            "title": "Kingdom of York",
+            "type": "location",
+            "slug": "kingdom-of-york",
+            "label": "Its northern kingdom"
+          },
+          {
+            "title": "Kingdom of East Anglia",
+            "type": "location",
+            "slug": "kingdom-of-east-anglia",
+            "label": "Its eastern kingdom"
+          }
+        ],
+        "people": [
+          {
+            "title": "Guthrum",
+            "type": "person",
+            "slug": "guthrum",
+            "label": "Agreed its boundary with Alfred"
+          },
+          {
+            "type": "person",
+            "slug": "alfred-the-great",
+            "label": "Agreed its boundary with Guthrum"
+          },
+          {
+            "type": "person",
+            "slug": "edward-the-elder",
+            "label": "Reconquered the south of it"
+          },
+          {
+            "type": "person",
+            "slug": "eric-bloodaxe",
+            "label": "Last king of York"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kingdom-of-east-anglia",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Kingdom of East Anglia",
+      "aliases": [
+        "East Anglia",
+        "East Angles"
+      ],
+      "year": 571,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_kingdom_of_East_Anglia_(Early_Saxon_period).svg",
+      "imageInfo": {
+        "caption": "The kingdom of East Anglia in the early Anglo-Saxon period, with its monasteries, Sutton Hoo, and the battlefield of Bulcamp where King Anna fell.",
+        "creator": "Amitchell125 (English Wikipedia)",
+        "date": "modern map (2010)",
+        "source": "Wikimedia Commons (CC BY-SA 1.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_kingdom_of_East_Anglia_(Early_Saxon_period).svg",
+        "note": "A modern reconstruction of the seventh-century kingdom. Its western boundary ran through the fens and the Devil's Dyke and was never precisely fixed."
+      },
+      "sectionImages": [
+        {
+          "section": "The Wuffing kings",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Saxon_Shoulder_Clasp_from_Sutton_Hoo_Burial%2C_625-630_AD.jpg",
+          "caption": "One of the gold and garnet shoulder clasps from the Sutton Hoo ship burial, made for an East Anglian king in the early seventh century.",
+          "creator": "Gary Todd (photograph)",
+          "date": "photograph, 2017 (object c. 625)",
+          "source": "British Museum; Wikimedia Commons (CC0)",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anglo-Saxon_Shoulder_Clasp_from_Sutton_Hoo_Burial%2C_625-630_AD.jpg",
+          "note": "The kingdom bore no heraldry. The regalia from the ship burial, widely identified with Rædwald, are the nearest thing to its royal emblems."
+        }
+      ],
+      "summary": "The Anglo-Saxon kingdom of the North Folk and South Folk: ruled by the Wuffing kings of Rædwald and Sutton Hoo, conquered by the Great Heathen Army in 869, ruled by Danish kings under Guthrum, and absorbed into England by Edward the Elder in 917.",
+      "overview": [
+        "East Anglia, the kingdom of the East Angles in what are now Norfolk and Suffolk, was among the leading English kingdoms of the seventh century, fell to the Great Heathen Army in 869, and was a Danish kingdom for almost fifty years before it submitted to Edward the Elder."
+      ],
+      "knownFor": [
+        "Rædwald, overlord of the southern English, and the Sutton Hoo ship burial",
+        "King Edmund, killed by the Great Heathen Army in 869 and venerated as a martyr",
+        "The Danish kingdom of Guthrum and the St Edmund memorial coinage",
+        "Æthelthryth and the foundation of Ely",
+        "Bury St Edmunds, one of the great shrines of medieval England"
+      ],
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "East Anglia was the kingdom of the East Angles, the 'north folk' and 'south folk' whose names survive in Norfolk and Suffolk, bounded by the North Sea, the Wash, and the fens and forests of the western border. It was one of the leading English kingdoms of the early seventh century, when its king Rædwald was overlord of the southern English and may have been the man buried in the great ship at Sutton Hoo.",
+            "It lost its independence twice. Mercian kings dominated it through much of the eighth century, and in 869 the Great Heathen Army killed its last English king, Edmund, later venerated as a martyr. For almost fifty years it was a Danish kingdom, first under Guthrum, and in 917 it submitted to Edward the Elder and became part of the English kingdom."
+          ]
+        },
+        {
+          "title": "The Wuffing kings",
+          "paragraphs": [
+            "The East Anglian royal house traced its descent from Wuffa, from whom it took its name, the Wuffingas; its early generations are known only from later genealogies. Its first well-documented king, Rædwald, who died around 624, became overlord of the English south of the Humber after defeating Æthelfrith of Northumbria on the River Idle in about 616. Bede reports that Rædwald accepted baptism in Kent but kept an altar to the old gods beside his Christian one.",
+            "The mound cemetery at Sutton Hoo, near Woodbridge, excavated in 1939, shows the wealth of that court. Its great ship burial held the Sutton Hoo Helmet, a sceptre, gold and garnet shoulder clasps and a great gold buckle, silver from the Byzantine world and coins from Merovingian Gaul, and it is widely, though not certainly, identified as Rædwald's grave. Later kings, Sigeberht and Anna among them, made East Anglia a Christian kingdom with a bishopric at Dommoc, and Anna's daughter Æthelthryth founded the abbey of Ely in 673."
+          ]
+        },
+        {
+          "title": "Mercian overlordship",
+          "paragraphs": [
+            "East Anglia's kings struggled against their larger western neighbour. King Anna was killed fighting Penda of Mercia around 654, and Mercian kings controlled the kingdom for much of the eighth century. In 794 Offa of Mercia had the East Anglian king Æthelberht beheaded, a killing that made Æthelberht a saint venerated at Hereford. The East Angles broke free in 825, when their king defeated and killed Beornwulf of Mercia, and they kept their independence until the Vikings came."
+          ]
+        },
+        {
+          "title": "Trade and the church",
+          "paragraphs": [
+            "The kingdom looked across the North Sea. Gipeswic, modern Ipswich, grew in the seventh century into one of the first English trading towns, dealing with Frisia and the Rhineland, and its potters made the wheel-thrown Ipswich ware found across eastern England. The church spread with the trade: the see founded for Bishop Felix at Dommoc was divided around 673, when a second bishopric was created at North Elmham to serve Norfolk."
+          ]
+        },
+        {
+          "title": "Edmund and the Great Heathen Army",
+          "paragraphs": [
+            "The Great Heathen Army landed in East Anglia in 865 and wintered there, and the East Angles made peace with it by supplying horses. It returned in 869 and wintered at Thetford, and when King Edmund fought it he was defeated and killed on 20 November. The Anglo-Saxon Chronicle says only that the Danes killed the king and conquered all the land.",
+            "Within a century the story had become a martyrdom. Abbo of Fleury, writing about 986 from an account he traced back to Edmund's own armour-bearer, told how Ivar and Ubba had the king tied to a tree, shot with arrows and beheaded when he refused to renounce his faith, and how a wolf guarded the severed head. Edmund's cult grew at Bury St Edmunds, and the Danish rulers of East Anglia themselves struck pennies in his memory within about thirty years of his death."
+          ]
+        },
+        {
+          "title": "The Danish kingdom",
+          "paragraphs": [
+            "In 880 Guthrum's army came from Cirencester and settled East Anglia, sharing out the land. Guthrum, baptised as Æthelstan after his defeat at the Battle of Edington, ruled as a Christian king, struck coins in his baptismal name and agreed with Alfred the Great the treaty that fixed the boundary between their kingdoms. He died in 890 and, by later tradition, was buried at Hadleigh in Suffolk.",
+            "His successor Eohric joined the rebel West Saxon prince Æthelwold in an invasion of Mercia and Wessex and was killed at the Holme in 902, in a battle the Danes won at the cost of their king. The East Anglian Danes fought on until 917, when Edward the Elder's forces killed their king at Tempsford and took Colchester, and the army of East Anglia submitted to Edward and accepted him as lord."
+          ]
+        },
+        {
+          "title": "Major rulers",
+          "paragraphs": [
+            "Rædwald (died c. 624), overlord of the southern English and the likeliest man buried at Sutton Hoo. Sigeberht (630s), who brought the bishop Felix and founded the see of Dommoc. Anna (c. 636–654), killed by Penda of Mercia. Æthelberht (died 794), beheaded on the orders of Offa. Edmund (855–869), killed by the Great Heathen Army and venerated as a saint. Guthrum (c. 880–890), the Danish king baptised as Æthelstan. Eohric (890–902), killed at the Holme."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "East Anglia became an earldom of the English kingdom, and in the reigns of Cnut the Great and Edward the Confessor its earls, Thorkell the Tall and Harold Godwinson among them, were among the most powerful men in England. Its Danish settlement shows in the place-names and free peasantry of Norfolk and Suffolk, and in the abbey of Bury St Edmunds, where the martyred king's shrine made the town one of the great pilgrim centres of medieval England."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "c. 616",
+          "title": "Victory on the Idle",
+          "description": "Rædwald defeats Æthelfrith of Northumbria and becomes overlord of the southern English."
+        },
+        {
+          "date": "c. 624",
+          "title": "Death of Rædwald",
+          "description": "The king dies; the Sutton Hoo ship burial is widely identified as his grave."
+        },
+        {
+          "date": "c. 654",
+          "title": "Anna killed",
+          "description": "King Anna dies fighting Penda of Mercia."
+        },
+        {
+          "date": "673",
+          "title": "Ely founded",
+          "description": "Anna's daughter Æthelthryth founds her abbey in the fens."
+        },
+        {
+          "date": "794",
+          "title": "Æthelberht beheaded",
+          "description": "Offa of Mercia has the East Anglian king put to death."
+        },
+        {
+          "date": "825",
+          "title": "Independence regained",
+          "description": "The East Angles kill Beornwulf of Mercia and throw off Mercian rule."
+        },
+        {
+          "date": "865",
+          "title": "The Great Heathen Army lands",
+          "description": "The Scandinavian army winters in East Anglia and is supplied with horses."
+        },
+        {
+          "date": "20 November 869",
+          "title": "Death of Edmund",
+          "description": "King Edmund is killed by the army, beginning his cult as a martyr."
+        },
+        {
+          "date": "880",
+          "title": "Guthrum settles East Anglia",
+          "description": "The army shares out the land, and Guthrum rules as a Christian king."
+        },
+        {
+          "date": "902",
+          "title": "Eohric killed",
+          "description": "The Danish king dies at the Holme fighting the English."
+        },
+        {
+          "date": "917",
+          "title": "Submission to Edward the Elder",
+          "description": "The East Anglian army accepts the West Saxon king as lord."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:The_kingdom_of_East_Anglia_(Early_Saxon_period).svg"
+        },
+        {
+          "title": "Abbo of Fleury, Passio Sancti Eadmundi",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Abbo_of_Fleury"
+        },
+        {
+          "title": "Sutton Hoo",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Sutton_Hoo"
+        },
+        {
+          "title": "Kingdom of East Anglia",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_East_Anglia"
+        }
+      ],
+      "relatedEntries": {
+        "locations": [
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "Eastern part of the Danelaw"
+          }
+        ],
+        "events": [
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Killed King Edmund in 869"
+          }
+        ],
+        "people": [
+          {
+            "title": "Guthrum",
+            "type": "person",
+            "slug": "guthrum",
+            "label": "Danish king, 880–890"
+          },
+          {
+            "type": "person",
+            "slug": "edward-the-elder",
+            "label": "Took its submission in 917"
+          }
+        ],
+        "weaponsArmor": [
+          {
+            "title": "Sutton Hoo Helmet",
+            "type": "weaponArmor",
+            "slug": "sutton-hoo-helmet",
+            "label": "From the royal ship burial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kingdom-of-york",
+      "type": "location",
+      "locationType": "Kingdom",
+      "name": "Kingdom of York",
+      "aliases": [
+        "Jórvík",
+        "Viking kingdom of York",
+        "Kingdom of Jórvík"
+      ],
+      "year": 875,
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Early_medieval_coin%2C_Viking_penny_in_the_name_of_St_Peter_of_York_(FindID_930740).jpg",
+      "imageInfo": {
+        "caption": "A silver penny struck at York about 921–927 in the name of St Peter, with a sword laid across the saint's name.",
+        "creator": "Derby Museums Trust; photograph by Alastair Willis for the Portable Antiquities Scheme",
+        "date": "c. 921–927",
+        "source": "Portable Antiquities Scheme, via Wikimedia Commons (CC BY 2.0)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_medieval_coin%2C_Viking_penny_in_the_name_of_St_Peter_of_York_(FindID_930740).jpg",
+        "note": "The kingdom bore no heraldry. Its coinage is its emblem: the Viking rulers of York issued pennies in the name of the city's patron saint, and added the sword in the 920s."
+      },
+      "sectionImages": [
+        {
+          "section": "The Norse-Irish kings",
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingdoms_of_Britain_in_927_under_Athelstan.svg",
+          "caption": "Britain in 927, the year Æthelstan annexed York, with the former Viking kingdom marked as Northumbria under York.",
+          "creator": "Hogweard",
+          "date": "modern map (2026)",
+          "source": "Wikimedia Commons (CC BY-SA 3.0)",
+          "note": "A modern map. It shows the kingdom at the moment of its first annexation; the Norse kings recovered it in 939, and the northern part of Northumbria stayed under the English lords of Bamburgh throughout.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kingdoms_of_Britain_in_927_under_Athelstan.svg"
+        }
+      ],
+      "summary": "The Scandinavian kingdom centred on York that ruled southern Northumbria from the 870s to 954, under Danish kings who struck coins for St Peter and then the Norse-Irish Uí Ímair of Dublin, until Eadred of England drove out Eric Bloodaxe.",
+      "overview": [
+        "The Kingdom of York was the Viking realm of southern Northumbria, ruled from the old Roman and Anglian city its Norse inhabitants called Jórvík, between the settlement of the Great Heathen Army in the 870s and the death of its last king, Eric Bloodaxe, in 954."
+      ],
+      "knownFor": [
+        "The Great Heathen Army's capture of York in 866",
+        "Christian Viking kings and the St Peter coinage",
+        "The Coppergate excavations of the tenth-century town",
+        "The Norse-Irish kings of the Uí Ímair dynasty",
+        "Eric Bloodaxe, its last king, killed in 954"
+      ],
+      "contentSections": [
+        {
+          "title": "Overview",
+          "paragraphs": [
+            "The Kingdom of York was the Scandinavian realm that ruled the southern half of the old kingdom of Northumbria, roughly Yorkshire and the land north to the Tees, from the settlement of the Great Heathen Army in the 870s until 954. Its capital was the Roman and Anglian city of York, which the Norse called Jórvík, and which under their rule grew into one of the largest and richest towns in Britain.",
+            "Its history falls into two phases: a Danish kingdom of the late ninth and early tenth centuries, whose kings quickly became Christian and struck coins in the name of York's own saint, and a Norse-Irish kingdom from 919, when kings of the Uí Ímair dynasty ruled York and Dublin together. The West Saxon kings annexed it, lost it and retook it several times before Eadred of England ended it for good."
+          ]
+        },
+        {
+          "title": "Conquest and settlement",
+          "paragraphs": [
+            "York fell to the Great Heathen Army on 1 November 866, while the Northumbrians were divided between two rival kings, Osberht and Ælla. The next spring the two kings attacked the city together and were both killed, and the Danes set up a Northumbrian client king to govern for them. In 875–876 Halfdan, one of the army's leaders, took the north for himself, and the Anglo-Saxon Chronicle records that he shared out the land of the Northumbrians among his men, who began to plough and support themselves.",
+            "The settlers did not sweep away Northumbrian institutions. The archbishops of York survived, and Christian Scandinavians were soon among their flock: the Danish king Guthfrith, who ruled from the 880s, was raised to the kingship with the support of the community of St Cuthbert and was buried in York Minster in 895. The archbishops became the most durable power in the kingdom, dealing with Danish, Norse and English kings in turn."
+          ]
+        },
+        {
+          "title": "Coins, church and trade",
+          "paragraphs": [
+            "The Danish kings of York struck a large coinage that advertised their Christian kingship. Around 895–905 pennies were minted in the names of Siefred and Cnut, some bearing liturgical phrases such as DOMINUS DEUS REX, and from about 905 the kingdom issued coins in the name of St Peter, the patron of York's cathedral, to which the moneyers added a sword in the 920s.",
+            "Excavations at Coppergate between 1976 and 1981 revealed the town those coins circulated in: rows of timber houses and workshops on long narrow plots running down to the river Foss, where craftsmen worked bone, antler, leather and textiles, amber from the Baltic and jet from Whitby, and where the finds included a silk cap made from cloth imported from Byzantium or the Islamic world. York was the northern hub of a trading network joined by sea to Dublin, Scandinavia and the Continent."
+          ]
+        },
+        {
+          "title": "The Norse-Irish kings",
+          "paragraphs": [
+            "In 919 Ragnall, a grandson of Ívarr and one of the Uí Ímair kings driven out of Dublin, seized York, and for thirty-five years the kingdom was bound to the Irish Sea world. His kinsman Sihtric Cáech ruled York and in 926 married a sister of Æthelstan, but when Sihtric died the next year Æthelstan annexed the kingdom and drove out Sihtric's kinsman Guthfrith. The Norse attempt to recover it, with the kings of the Scots and Strathclyde as allies, ended at the Battle of Brunanburh in 937.",
+            "The kingdom revived as soon as Æthelstan died. Olaf Guthfrithson crossed from Dublin in 939, took York and the Five Boroughs, and forced Edmund I of England to concede the east midlands; after Olaf died in 941 his cousin Olaf Sihtricson and Ragnall Guthfrithson competed for York until Edmund expelled both in 944. Eric Bloodaxe, whom Norse tradition identifies with a son of Harald Fairhair, ruled York in 947–948 and again from 952. When the Northumbrians abandoned him in 954 he was driven out and killed at Stainmore, and Eadred of England took the kingdom, which English kings thereafter governed through earls."
+          ]
+        },
+        {
+          "title": "Major rulers",
+          "paragraphs": [
+            "Halfdan (c. 875–877), leader of the Great Heathen Army, who shared out Northumbria among his men. Guthfrith (c. 883–895), the Christian Danish king buried in York Minster. Siefred and Cnut (c. 895–905), known chiefly from their coins. Ragnall (919–921), the first Uí Ímair king of York. Sihtric Cáech (921–927), who allied with Æthelstan by marriage. Olaf Guthfrithson (939–941), who restored the kingdom after Brunanburh. Olaf Sihtricson (941–944 and 949–952), later king of Dublin. Eric Bloodaxe (947–948 and 952–954), the last king of York."
+          ]
+        },
+        {
+          "title": "Legacy",
+          "paragraphs": [
+            "The kingdom left York a Scandinavian city in speech and street names long after 954. Its streets are still 'gates', from Old Norse gata, as in Coppergate, Micklegate and Stonegate, and Yorkshire was divided into three ridings, from the Norse word for a third. The earls who governed for the English kings, among them the Dane Siward in the eleventh century, ruled a population in which Scandinavian families were prominent, and in 1066 Harald Hardrada aimed his invasion at York, defeating its earls at the Battle of Fulford before his own death at the Battle of Stamford Bridge.",
+            "The Coppergate excavations made Viking York one of the best-known Viking-Age towns in Europe, and the Jorvik Viking Centre, built on the excavation site, opened in 1984. The kingdom's kings, several of whom survive only as names on coins and in a handful of annals, have been reconstructed largely from that coinage."
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1 November 866",
+          "title": "York taken",
+          "description": "The Great Heathen Army captures York while Northumbria is divided between rival kings."
+        },
+        {
+          "date": "March 867",
+          "title": "Osberht and Ælla killed",
+          "description": "The two Northumbrian kings die attacking the city together."
+        },
+        {
+          "date": "875–876",
+          "title": "Halfdan settles the north",
+          "description": "Halfdan shares out the Northumbrians' land among his followers."
+        },
+        {
+          "date": "895",
+          "title": "Guthfrith buried in York Minster",
+          "description": "The Christian Danish king is buried in the cathedral of St Peter."
+        },
+        {
+          "date": "c. 905",
+          "title": "The St Peter coinage",
+          "description": "York's moneyers begin striking pennies in the name of the city's saint."
+        },
+        {
+          "date": "919",
+          "title": "Ragnall seizes York",
+          "description": "The first king of the Uí Ímair dynasty of Dublin takes the kingdom."
+        },
+        {
+          "date": "927",
+          "title": "Æthelstan annexes York",
+          "description": "After the death of Sihtric Cáech, the English king takes the kingdom."
+        },
+        {
+          "date": "937",
+          "title": "Brunanburh",
+          "description": "Æthelstan defeats the Norse and their allies at the Battle of Brunanburh."
+        },
+        {
+          "date": "939",
+          "title": "The kingdom restored",
+          "description": "Olaf Guthfrithson retakes York and the Five Boroughs."
+        },
+        {
+          "date": "944",
+          "title": "Edmund expels the Norse kings",
+          "description": "Edmund I drives out Olaf Sihtricson and Ragnall Guthfrithson."
+        },
+        {
+          "date": "954",
+          "title": "Death of Eric Bloodaxe",
+          "description": "The last king of York is killed at Stainmore, and Eadred takes the kingdom."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wikimedia Commons image record",
+          "type": "image source",
+          "url": "https://commons.wikimedia.org/wiki/File:Early_medieval_coin%2C_Viking_penny_in_the_name_of_St_Peter_of_York_(FindID_930740).jpg"
+        },
+        {
+          "title": "Anglo-Saxon Chronicle",
+          "type": "primary source",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_Chronicle"
+        },
+        {
+          "title": "Scandinavian York",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Scandinavian_York"
+        },
+        {
+          "title": "Coppergate",
+          "type": "encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Coppergate"
+        }
+      ],
+      "relatedEntries": {
+        "locations": [
+          {
+            "title": "Danelaw",
+            "type": "location",
+            "slug": "danelaw",
+            "label": "Northern part of the Danelaw"
+          },
+          {
+            "title": "Northumbria",
+            "type": "location",
+            "slug": "northumbria",
+            "label": "The older kingdom it replaced"
+          }
+        ],
+        "events": [
+          {
+            "title": "Great Heathen Army",
+            "type": "event",
+            "slug": "great-heathen-army",
+            "label": "Took York in 866"
+          },
+          {
+            "title": "Battle of Brunanburh",
+            "type": "event",
+            "slug": "battle-of-brunanburh",
+            "label": "Norse bid to recover York"
+          }
+        ],
+        "people": [
+          {
+            "type": "person",
+            "slug": "eric-bloodaxe",
+            "label": "Last king, killed 954"
+          },
+          {
+            "title": "Olaf Guthfrithson",
+            "type": "person",
+            "slug": "olaf-guthfrithson",
+            "label": "Restored the kingdom in 939"
+          },
+          {
+            "title": "Eadred of England",
+            "type": "person",
+            "slug": "eadred-of-england",
+            "label": "Ended the kingdom in 954"
+          }
+        ]
+      }
     }
   ],
   "weaponsArmor": [

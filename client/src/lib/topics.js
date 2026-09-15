@@ -178,6 +178,12 @@ export const TOPICS = [
           "name": "Battle of Hastings",
           "depth": 1,
           "summary": "William of Normandy defeated Harold Godwinson near Hastings in 1066, opening the way for the Norman Conquest of England."
+        },
+        {
+          "id": "great-heathen-army",
+          "name": "Great Heathen Army",
+          "depth": 1,
+          "summary": "The Scandinavian army that invaded England in 865, destroyed the kingdoms of Northumbria, East Anglia and Mercia, came close to conquering Wessex, and settled the lands that became the Danelaw."
         }
       ],
       "houses": [
@@ -306,6 +312,12 @@ export const TOPICS = [
       ],
       "locations": [
         {
+          "id": "danelaw",
+          "name": "Danelaw",
+          "depth": 1,
+          "summary": "The eastern and northern England settled and ruled by Scandinavians after the Great Heathen Army's conquests: a patchwork of Viking kingdoms and armies, reconquered by the West Saxon kings between 917 and 954, whose name survived as a region of distinct law."
+        },
+        {
           "id": "gainsborough",
           "name": "Gainsborough",
           "depth": 1,
@@ -316,6 +328,12 @@ export const TOPICS = [
           "name": "Kingdom of Denmark",
           "depth": 1,
           "summary": "A Scandinavian kingdom central to Viking, North Sea, and Kalmar Union politics."
+        },
+        {
+          "id": "kingdom-of-east-anglia",
+          "name": "Kingdom of East Anglia",
+          "depth": 1,
+          "summary": "The Anglo-Saxon kingdom of the North Folk and South Folk: ruled by the Wuffing kings of Rædwald and Sutton Hoo, conquered by the Great Heathen Army in 869, ruled by Danish kings under Guthrum, and absorbed into England by Edward the Elder in 917."
         },
         {
           "id": "kingdom-of-england",
@@ -340,6 +358,12 @@ export const TOPICS = [
           "name": "Kingdom of Wessex",
           "depth": 1,
           "summary": "An Anglo-Saxon kingdom that became the base for Alfred the Great and later English unification."
+        },
+        {
+          "id": "kingdom-of-york",
+          "name": "Kingdom of York",
+          "depth": 1,
+          "summary": "The Scandinavian kingdom centred on York that ruled southern Northumbria from the 870s to 954, under Danish kings who struck coins for St Peter and then the Norse-Irish Uí Ímair of Dublin, until Eadred of England drove out Eric Bloodaxe."
         },
         {
           "id": "north-sea-empire",
@@ -397,7 +421,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 62
+    "count": 66
   },
   {
     "slug": "crusades",
@@ -2394,6 +2418,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Norman Conquest"
     }
   ],
+  "great-heathen-army": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
   "house-of-fairhair": [
     {
       "slug": "viking-age",
@@ -2530,6 +2560,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Viking Age"
     }
   ],
+  "danelaw": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
   "gainsborough": [
     {
       "slug": "viking-age",
@@ -2537,6 +2573,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "kingdom-of-denmark": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
+  "kingdom-of-east-anglia": [
     {
       "slug": "viking-age",
       "title": "The Viking Age"
@@ -2584,6 +2626,12 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "norman-conquest",
       "title": "The Norman Conquest"
+    }
+  ],
+  "kingdom-of-york": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
     }
   ],
   "north-sea-empire": [

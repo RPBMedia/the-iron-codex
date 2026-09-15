@@ -975,7 +975,15 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `westminster`, `poitiers`, `tours`, `edirne`, `bursa`, `marrakesh`. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
-0b. **OWNER REQUEST 2026-09-15 — a Danelaw article.** Searched first: no article,
+0b. ✅ **Done 2026-09-15: `danelaw`, `kingdom-of-york`, `kingdom-of-east-anglia`
+   and `great-heathen-army`** (owner's choice: the Danelaw plus core neighbours;
+   Mercia, Æthelflæd and the treaty of Alfred and Guthrum stay named without links
+   for now). Each has a map plus a coin, regalia or hoard image, and reverse links
+   from Guthrum, Alfred, Eric Bloodaxe, Northumbria and the rest. **Ruler gap
+   logged:** the Viking kings of York and East Anglia with no articles (Halfdan,
+   Guthfrith, Ragnall, Sihtric Cáech, Olaf Sihtricson, Eohric) and the English
+   kings Edmund the Martyr and Rædwald. The original request follows.
+   Searched first: no article,
    alias or Five Boroughs entry exists, and seven articles already mention the
    Danelaw in prose (`battle-of-edington`, `alfred-the-great`, `edward-the-elder`,
    `edmund-i-of-england`, `guthrum`, `kingdom-of-wessex`, `house-of-wessex`);
