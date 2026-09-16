@@ -205,6 +205,14 @@
         "type": "weaponArmor",
         "slug": "viking-sword"
       }
+    ],
+    "events": [
+      {
+        "title": "Battle of Carham",
+        "type": "event",
+        "slug": "battle-of-carham",
+        "label": "Fought in his English kingdom's north while he ruled, 1018"
+      }
     ]
   },
   "isRuler": true,

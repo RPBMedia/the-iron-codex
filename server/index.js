@@ -316,6 +316,8 @@ async function requireUser(req, res, next) {
 }
 
 const eventSortDates = {
+  'battle-of-dunbar': { year: 1296, month: 4, day: 27 },
+  'wars-of-scottish-independence': { year: 1296, month: 3, day: 30 },
   'fall-of-western-rome': { year: 476, month: 9, day: 4 },
   'battle-of-hafrsfjord': { year: 872, month: 1, day: 1 },
   'battle-of-edington': { year: 878, month: 5, day: 12 },

@@ -1,0 +1,302 @@
+{
+  "id": "battle-of-halidon-hill",
+  "type": "event",
+  "name": "Battle of Halidon Hill",
+  "year": 1333,
+  "location": "Halidon Hill, near Berwick-upon-Tweed",
+  "eventType": "Battle",
+  "conflict": "Second War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halidon_Hill.jpg?width=1200",
+  "imageInfo": {
+    "caption": "The memorial stone on Halidon Hill, cut with the words HALIDON HILL and the date 19th July 1333, photographed in 2007.",
+    "creator": "David Lauder",
+    "date": "2007 photograph",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Halidon_Hill.jpg",
+    "note": "Licensed CC BY 3.0. The stone stands on the ridge about two miles north-west of Berwick-upon-Tweed where the English line was drawn up; the Scots attacked from the far side of the boggy ground below it."
+  },
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Charge_of_the_Scots_at_Halidon_Hill.jpg?width=1000",
+      "caption": "The Scots charge at Halidon Hill, a wood engraving by John McLaren Ralston published in 1873.",
+      "creator": "John McLaren Ralston",
+      "date": "1873",
+      "source": "British Library Mechanical Curator collection, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charge_of_the_Scots_at_Halidon_Hill.jpg",
+      "note": "Public domain. A Victorian illustration for a popular military history, not evidence: it draws the battle as a melee of spears and plate armour, where the fighting was in fact decided by archery on the flanks before the lines closed. No contemporary depiction of the battle exists."
+    }
+  ],
+  "summary": "To save Berwick, a Scottish army had to fight by sunset on 19 July 1333; it attacked downhill, across a bog and up Halidon Hill into the arrows of Edward III's archers, and was destroyed.",
+  "details": "Edward III besieged Berwick in 1333 on behalf of Edward Balliol, and the town agreed to surrender unless it was relieved by a fixed day. That agreement forced Sir Archibald Douglas, Guardian of Scotland, to attack the English army where it stood: on the slope of Halidon Hill, with archers on both wings and a marsh in front. Six of the nine senior Scottish nobles present were killed, Douglas among them, and Berwick surrendered the next morning. It stayed in English hands.",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of Scotland"
+  ],
+  "leaders": [
+    {
+      "name": "Edward III of England",
+      "faction": "English army",
+      "personId": "edward-iii-of-england"
+    },
+    {
+      "name": "Edward Balliol",
+      "faction": "English army"
+    },
+    {
+      "name": "Sir Archibald Douglas",
+      "faction": "Scottish army"
+    }
+  ],
+  "outcome": "Crushing English victory; Berwick surrendered the following day and remained English, and Edward Balliol was restored as king of Scots.",
+  "participants": [
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward III of England",
+          "title": "Edward III of England",
+          "type": "person",
+          "slug": "edward-iii-of-england"
+        },
+        {
+          "name": "Edward Balliol",
+          "type": "person",
+          "note": "Claimant king of Scots, whose siege of Berwick Edward III had joined in May 1333 and whose restoration the victory secured for a year. No biography in the archive yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–10,000",
+        "confidence": "debated",
+        "note": "No pay roll survives for the field army. Modern summaries range from about 6,000 to just under 10,000, and Clifford Rogers argues that desertion and expired terms of service may have left Edward III outnumbered roughly two to one.",
+        "min": 6000,
+        "max": 10000
+      }
+    },
+    {
+      "side": "Scottish army",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sir Archibald Douglas",
+          "type": "person",
+          "note": "Guardian of Scotland for the exiled David II, brother of the James Douglas who had carried Bruce's heart on crusade, and mortally wounded here. No biography in the archive yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 13,000–15,000",
+        "confidence": "debated",
+        "note": "One English account itemises the Scottish muster at 14,655, a suspiciously exact figure for an enemy army; others claim more than 100,000. Modern estimates put the force at roughly 15,000, larger than the English army but composed of spearmen with few archers.",
+        "min": 12000,
+        "max": 16000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Halidon Hill was fought on 19 July 1333 on a ridge two miles north-west of Berwick-upon-Tweed. Edward III of England had besieged the town since May on behalf of Edward Balliol, and its garrison had bought time with a written agreement: surrender at sunset on the 19th unless a Scottish army relieved it. Sir Archibald Douglas, Guardian of Scotland, therefore had to attack an army that had chosen its ground, on its own timetable.",
+        "The English stood in three divisions of dismounted men-at-arms with archers massed on both wings — the deployment used against a Scottish army at Dupplin Moor eleven months earlier, now adopted by the king himself. The Scots came down one slope, across marshy ground, and up the hill into converging archery. Six of the nine senior Scottish nobles present were killed, Douglas among them; the survivors were pursued for eight miles; and Berwick surrendered the next morning, never to be permanently Scottish again."
+      ]
+    },
+    {
+      "title": "Berwick besieged",
+      "paragraphs": [
+        "Berwick was the richest town in Scotland and the gate to the eastern march, and Edward Balliol had promised it to Edward III in 1332 in exchange for support. Balliol opened the siege in March 1333, and Edward III came north in May with an army, siege engines and a fleet, abandoning the pretence of neutrality he had kept through the previous year's invasion. Berwick's defences were formidable — two miles of wall, twenty-two feet high — and the English bombardment ground them down through June.",
+        "By July the garrison under Sir Alexander Seton was exhausted and the town badly damaged. Seton asked for terms, and Edward granted a truce on a medieval commander's usual condition: surrender unless relieved by an agreed date, with hostages given as surety. One of the hostages was Seton's own son Thomas. When the first deadline passed on 11 July with only a token Scottish incursion to show for it, Edward had the boy hanged within sight of the walls."
+      ]
+    },
+    {
+      "title": "The terms that forced the battle",
+      "paragraphs": [
+        "A second agreement was made on 15 July, and its wording is the reason the battle happened at all. Berwick would be relieved only if the Scots did one of three things by sunset on 19 July: fight two hundred men-at-arms into the town, force a crossing of the Tweed in strength, or beat the English in open battle. Anything less and the town was English, with its inhabitants free to leave under safe conduct.",
+        "Douglas had spent the campaign doing what Scottish commanders had done successfully since Bannockburn — avoiding a pitched battle, raiding into Northumberland, trying to draw Edward south. The terms took that option away. He could accept the loss of Berwick or attack an army standing on high ground of its own choosing, and the political cost of the first was more than a Guardian governing for an absent nine-year-old king could carry."
+      ]
+    },
+    {
+      "title": "The ground and the armies",
+      "paragraphs": [
+        "Halidon Hill is a modest rise of about six hundred feet with a clear view over Berwick and the Tweed mouth. Edward drew up across its northern slope in three divisions, every man-at-arms on foot, with the horses to the rear and bodies of archers on the flanks of each division so that their shooting converged on anything climbing the hill. Balliol commanded one division; the king took the centre.",
+        "Between the two armies lay a stretch of boggy ground. The Scots had to descend from their own position, cross it, and then climb — the worst possible approach for dense formations of spearmen, and they knew it. They also knew what had happened at Dupplin Moor, and they came on fast and in loose order at first to shorten their time under arrows, with horns, drums and bagpipes going. One English chronicler wrote that they covered the ground like locusts."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The marsh broke the Scottish advance before the English line was reached. Formations that entered it in order came out of it slowed and clotted, and then had to climb. The Lanercost chronicler wrote that the arrows fell as thick as motes in a sun beam, and that the Scots began to turn their faces from the blows — a chronicler's image rather than a count, but every account agrees on the essential thing: the shooting was continuous, it came from both sides at once, and the Scots had almost nothing to answer it with.",
+        "The hand-to-hand fighting, when it came, was short. Two of the three Scottish divisions broke on contact; the third lasted a little longer and broke too. Douglas was mortally wounded near the English line. Hugh, Earl of Ross, was killed, and with him most of the magnates who had insisted on the attack. Of the nine senior Scottish nobles present, six died.",
+        "Then the English mounted. The pursuit ran for eight miles and did much of the day's killing, which is the usual pattern of medieval battles and the reason casualty ratios are so lopsided. Edward had ordered that no quarter be given; some fugitives drowned in the Tweed or the sea, and about a hundred prisoners were beheaded the following morning."
+      ]
+    },
+    {
+      "title": "Counting the dead",
+      "paragraphs": [
+        "English chroniclers claimed between 35,000 and 60,000 Scots killed, which is more men than the Scottish army contained. Scottish accounts say ten thousand. Clifford Rogers's estimate of roughly 2,900 dead is the figure modern historians work with, and even that is a reconstruction rather than a count. What is beyond argument is the composition of the losses: this was a battle that killed a political class, not merely an army.",
+        "English losses are given in the chronicles as seven men, or fourteen. Those numbers belong to the literature of miraculous victory rather than to any casualty return, and they should be read as a claim about God's favour rather than about arithmetic. A defensive battle won by archery is genuinely cheap for the winner; it is not that cheap."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Berwick surrendered on 20 July under the agreed terms, and Edward III kept it. Edward Balliol was restored, and in February 1334 he paid for English support by ceding the eight sheriffdoms of south-eastern Scotland outright to Edward III — Berwick, Roxburgh, Selkirk, Peebles, Dumfries, Edinburgh, Haddington and Linlithgow. In May 1334 the ten-year-old David II and his queen were shipped to France for safety, and stayed seven years.",
+        "The victory settled less than it appeared to. Balliol was driven out again before the end of 1334, restored in 1335, and finished in 1336. Scottish resistance re-formed around Sir Andrew Murray and recovered most of the country by refusing battle, retaking castles and wasting the ground in front of English armies — the method that had worked for Robert the Bruce. From 1337 Edward III's attention turned to France, and the northern war became a long stalemate of raids and ransoms, punctuated by David II's capture at Neville's Cross in 1346."
+      ]
+    },
+    {
+      "title": "What Halidon Hill proved",
+      "paragraphs": [
+        "This is the battle in which the English king personally used the deployment that would define his armies: men-at-arms dismounted in line, archers massed on the wings, the enemy left to come on. Dupplin Moor had shown what it could do; Halidon Hill showed that it worked with a royal army, on ground chosen in advance, against an enemy who knew exactly what was waiting. Thirteen years later at Crécy, a French army attacked an English one drawn up on the same principles and broke on it.",
+        "The qualification matters as much as the claim. Halidon Hill was won by a defender whose enemy was under a contractual obligation to attack by sunset, across a bog and uphill, without cavalry able to reach the archers. Remove any one of those conditions and the day looks different — as English commanders discovered in Scotland within two years, when the Scots declined to repeat the experiment and let English armies march through empty country instead. The system was not a formula for victory; it was an extremely effective answer to being attacked, and its later reputation rests on how often its enemies obliged it."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The deployment crosses the Channel",
+    "battleSlug": "battle-of-crecy",
+    "relationship": "tactical-comparison",
+    "reason": "Thirteen years after Halidon Hill, Edward III drew up the same way against a French army at Crécy — dismounted men-at-arms with archers massed on the wings — and the tactics learned in the Scottish war decided the opening battle of the Hundred Years' War."
+  },
+  "timeline": [
+    {
+      "date": "March 1333",
+      "title": "Balliol lays siege to Berwick",
+      "description": "Edward Balliol invests the town he had promised to Edward III in exchange for English backing."
+    },
+    {
+      "date": "May 1333",
+      "title": "Edward III joins the siege",
+      "description": "The English king brings an army, siege engines and a fleet north, ending any pretence of neutrality in Scotland."
+    },
+    {
+      "date": "11 July 1333",
+      "title": "The first deadline passes",
+      "description": "A token Scottish incursion fails to count as relief, and Edward hangs the governor's son Thomas Seton before the walls."
+    },
+    {
+      "date": "15 July 1333",
+      "title": "The relief terms rewritten",
+      "description": "Berwick must be relieved by sunset on 19 July, by battle or by forcing the Tweed, or it surrenders."
+    },
+    {
+      "date": "19 July 1333",
+      "title": "The battle",
+      "description": "Douglas attacks across marsh and uphill into converging archery; six of nine senior Scottish nobles are killed and the army is pursued for eight miles."
+    },
+    {
+      "date": "20 July 1333",
+      "title": "Berwick surrenders",
+      "description": "The town passes to Edward III under the agreed terms and remains in English hands."
+    },
+    {
+      "date": "12 February 1334",
+      "title": "The price of the crown",
+      "description": "Balliol cedes the eight sheriffdoms of south-east Scotland to England outright."
+    },
+    {
+      "date": "May 1334",
+      "title": "David II sent to France",
+      "description": "The ten-year-old king and his queen sail for Château Gaillard, where they remain seven years."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Commanded the English army, in his first pitched battle"
+      },
+      {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "The child king sent to France after the defeat"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Dupplin Moor",
+        "type": "event",
+        "slug": "battle-of-dupplin-moor",
+        "label": "Where the deployment was first used, in 1332"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "The same formation against a French army, 1346"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant realm, and Berwick's new owner"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Halidon_Hill.jpg"
+    },
+    {
+      "title": "Battle of Halidon Hill — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Halidon_Hill"
+    },
+    {
+      "title": "Battle of Halidon Hill",
+      "author": "BritishBattles.com",
+      "type": "article",
+      "url": "https://www.britishbattles.com/scottish-war-of-independence/battle-of-halidon-hill/"
+    },
+    {
+      "title": "The Chronicle of Lanercost, 1272–1346",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Lanercost_Chronicle"
+    },
+    {
+      "title": "War Cruel and Sharp: English Strategy under Edward III, 1327–1360",
+      "author": "Clifford J. Rogers",
+      "type": "book"
+    },
+    {
+      "title": "Edward III and the Scots",
+      "author": "Ranald Nicholson",
+      "type": "book"
+    }
+  ]
+}

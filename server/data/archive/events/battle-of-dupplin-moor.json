@@ -1,0 +1,314 @@
+{
+  "id": "battle-of-dupplin-moor",
+  "type": "event",
+  "name": "Battle of Dupplin Moor",
+  "year": 1332,
+  "location": "Dupplin Moor, near Perth, Scotland",
+  "eventType": "Battle",
+  "conflict": "Second War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Dupplin_Moor_(rendition).png",
+  "imageInfo": {
+    "caption": "Modern diagram (2023) of the Battle of Dupplin Moor, with Edward Balliol and Henry de Beaumont in red, the Earl of Mar and Robert Bruce of Liddesdale in blue, and the night attack arrowed from the Earn.",
+    "creator": "Cosma Seini (Wikimedia Commons)",
+    "date": "2023; shows the battle of 11 August 1332",
+    "source": "Wikimedia Commons, CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Dupplin_Moor_(rendition).png",
+    "note": "A modern reader’s diagram, not a medieval plan: no contemporary depiction of Dupplin Moor exists. It shows the shape the chroniclers describe — the Disinherited holding rising ground with archers on the flanks, the Scottish schiltroms attacking uphill into a narrowing front — and marks Dupplin Castle for orientation. Positions are schematic and the Scottish deployment is inferred. Licensed CC BY-SA 4.0."
+  },
+  "summary": "A Scottish army perhaps ten times the size of its enemy destroyed itself against a narrow line of dismounted men-at-arms at Dupplin Moor on 11 August 1332, with archers shooting into both its flanks.",
+  "details": "The Disinherited — English and Scottish lords dispossessed by Robert the Bruce, sailing under Edward Balliol because Edward III would not let them cross the border by land — landed in Fife on 6 August 1332 with about 1,500 men. On the night of 10 August they forded the River Earn at an unguarded point, and at dawn they fought the army of Domhnall, Earl of Mar, Guardian of Scotland, on the moor above Dupplin. Mar and most of the senior Scottish nobility were killed, many of them crushed to death in their own ranks.",
+  "factions": [
+    "Kingdom of Scotland",
+    "The Disinherited"
+  ],
+  "leaders": [
+    {
+      "name": "Domhnall, Earl of Mar",
+      "faction": "Scots"
+    },
+    {
+      "name": "Robert Bruce, Lord of Liddesdale",
+      "faction": "Scots"
+    },
+    {
+      "name": "Edward Balliol",
+      "faction": "The Disinherited"
+    },
+    {
+      "name": "Henry de Beaumont",
+      "faction": "The Disinherited"
+    }
+  ],
+  "outcome": "Annihilation of the Scottish army; the Guardian and four earls killed, and Edward Balliol crowned king of Scots at Scone six weeks later.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Domhnall, Earl of Mar",
+          "type": "person",
+          "note": "Guardian of Scotland for nine days before the battle, elected after Thomas Randolph died in July 1332, and killed here. No biography in the archive yet."
+        },
+        {
+          "name": "Robert Bruce, Lord of Liddesdale",
+          "type": "person",
+          "note": "An illegitimate son of Robert the Bruce, whose schiltron struck first and who died in the press. No biography in the archive yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000, and possibly fewer",
+        "confidence": "debated",
+        "note": "No muster survives. Chronicle totals of 20,000 to 40,000 are rejected by modern historians; Clifford Rogers argues for something over 15,000. What is certain is the ratio, not the number: the Scots outnumbered their enemy several times over.",
+        "min": 10000,
+        "max": 20000
+      }
+    },
+    {
+      "side": "The Disinherited",
+      "factions": [
+        {
+          "name": "The Disinherited",
+          "title": "The Disinherited"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward Balliol",
+          "type": "person",
+          "note": "Son of King John Balliol and claimant to the Scottish throne, crowned at Scone six weeks after this victory and driven out of Scotland three times. No biography in the archive yet."
+        },
+        {
+          "name": "Henry de Beaumont",
+          "type": "person",
+          "note": "The veteran soldier who deployed the army, a claimant to the earldom of Buchan who had fought at Bannockburn and Boroughbridge. No biography in the archive yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 1,500 — about 500 men-at-arms and 1,000 archers and infantry",
+        "confidence": "estimated",
+        "note": "The size of a seaborne private venture rather than a royal army; it sailed from the Humber because Edward III had refused the Disinherited leave to cross the border by land.",
+        "min": 1200,
+        "max": 2000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Dupplin Moor was fought on 11 August 1332 on high ground above the River Earn, about five miles south-west of Perth, between the army of the Guardian of Scotland, Domhnall, Earl of Mar, and an invasion force of some 1,500 men under Edward Balliol and Henry de Beaumont. The invaders were the Disinherited: lords, mostly English, whose Scottish estates had been forfeited by Robert the Bruce and never returned. They were outnumbered by something close to ten to one and they won the most one-sided victory of the Anglo-Scottish wars.",
+        "Beaumont placed his men-at-arms on foot in a narrow gap between two slopes, put his archers on the rising ground at either side, and kept almost nothing in reserve. The Scottish schiltrons charged into the gap, the second crashed into the back of the first, and the arrows came in from both flanks into men who could no longer lift their arms. Chroniclers on both sides record heaps of Scottish dead taller than a spear, many of them suffocated rather than struck. The Guardian died, four earls with him, and six weeks later Balliol was crowned king of Scots at Scone."
+      ]
+    },
+    {
+      "title": "The Disinherited",
+      "paragraphs": [
+        "After Bannockburn, the parliament held at Cambuskenneth in November 1314 stripped every landholder who had not come into Robert the Bruce's peace. The Treaty of Edinburgh-Northampton in 1328 recognised Scottish independence but left those forfeitures standing, and the men who had lost by them — Henry de Beaumont, who claimed the earldom of Buchan through his wife; David of Strathbogie, who claimed Atholl; Gilbert de Umfraville, who claimed Angus — spent the next four years pressing for restoration and getting nothing.",
+        "Bruce died in June 1329, leaving a son of five. Thomas Randolph, Earl of Moray, governed as Guardian until he died on 20 July 1332, and the Scots elected Mar in his place on 2 August. By then the Disinherited had already sailed. Edward III of England, who had sworn to the 1328 peace and was not ready to break it openly, forbade them to cross the border by land, so they went from the Humber by sea, landed at Kinghorn in Fife on 6 August, brushed aside a levy sent to stop them, and marched for Perth."
+      ]
+    },
+    {
+      "title": "The armies and the ground",
+      "paragraphs": [
+        "Balliol had about 500 men-at-arms and about 1,000 archers and other foot, with a body of German mercenary knights among them. Mar had the army of a kingdom: chronicle figures of 20,000 to 40,000 are not believable, but modern estimates still put the Scots at something above 15,000, and a second Scottish force under the Earl of March was marching to join him. The invaders were camped on the south bank of the Earn with a Scottish army in front of them and another coming up behind.",
+        "The ground that saved them was a shallow valley about two hundred yards wide, running up from the river with rising, broken slopes on either side. It gave Beaumont a front so narrow that numbers could not be brought to bear on it, and two flanking positions from which archers could shoot down into anyone who entered. It is the single most important fact about the battle: the deployment that made the Disinherited famous was a response to being trapped, chosen by men who expected to be destroyed the following morning."
+      ]
+    },
+    {
+      "title": "The night crossing of the Earn",
+      "paragraphs": [
+        "The Scots held the fords, and on the evening of 10 August the Disinherited let it be seen that they were settling down for the night. Around midnight they moved instead, guided to an unguarded crossing and over the river in the dark. What they found on the far bank was a Scottish camp keeping no proper watch. They attacked it, killed men in their beds, and scattered the rest into the night.",
+        "The confusion did more than kill: it left the Scottish army rising in darkness to news of an enemy already across the river, and it bought the invaders the hours they needed to choose their ground and stand on it before dawn. By first light Beaumont's line was formed across the valley with the archers already on the slopes. Everything that followed was decided before the two armies could see each other."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Scots came on in two great schiltrons, and they came on divided. Mar was accused of treachery for suggesting caution; Robert Bruce of Liddesdale answered by charging first, to prove which of them loved the kingdom more. His formation entered the valley, was squeezed inward by the slopes, and struck the dismounted men-at-arms with enough weight to drive them back about ten yards — the only ground the Disinherited lost all day.",
+        "Then Mar's schiltron arrived behind it. The rear ranks pushed, the front ranks could not go forward, and the men between them were crushed standing up. Chroniclers on both sides describe Scots dying without ever reaching an enemy, and heaps of bodies that English foot climbed over to strike at the living. The archers on the flanks shot into faces and the sides of the press, where mail did least good, and there was no Scottish answer to them: the horse that might have ridden them down was not there, and the men who might have reached them could not turn.",
+        "The fighting lasted from dawn until past midday, which is itself evidence that this was a slaughter rather than a rout. When the press finally broke, the men-at-arms called for their horses and pursued the survivors until sunset. Modern accounts date the fighting to 11 August; some give 12 August, and some 10 August, counting from the night crossing rather than the day of the battle."
+      ]
+    },
+    {
+      "title": "The dead",
+      "paragraphs": [
+        "Mar was killed, and so was Robert Bruce of Liddesdale. So were the earls of Moray and Menteith, fourteen barons and, by one count, one hundred and sixty knights. Duncan, Earl of Fife, was the only senior noble taken alive; he changed sides. Two English chronicles claim more than 15,000 Scottish dead, Scottish accounts give two to three thousand, and neither figure can be checked — but the shape of the loss is not in doubt, because the names of the dead are.",
+        "On the other side, thirty-five men-at-arms were killed: two knights and thirty-three squires. No archer died at all. Numbers this lopsided usually mean a rout, where the losing army is cut down in flight. Here they mean something stranger — an army that destroyed itself by its own weight while being shot at, and the accounts agree that more Scots died at the hands of other Scots than at English hands."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Perth fell at once, and Balliol fortified it and had it supplied by sea. The Earl of March came up a week later with the second Scottish army, could not take the town, and watched his men eat the district bare and disperse. On 24 September 1332 Edward Balliol was crowned king of Scots at Scone, on the hill where Scottish kings had always been made, by a party that had landed seven weeks earlier with fifteen hundred men.",
+        "It did not hold. In November he acknowledged Edward III as his overlord and promised him Berwick and lands worth £2,000 a year, which cost him whatever Scottish support the crown had bought. In December a raid under John Randolph and Archibald Douglas caught him at Annan and he escaped to England, in the phrase the chroniclers enjoyed, half-dressed and on an unsaddled horse. What Dupplin Moor had really done was to reopen the war, and Edward III no longer had a reason to pretend he was not in it."
+      ]
+    },
+    {
+      "title": "The tactic, and how much the claim will bear",
+      "paragraphs": [
+        "Dupplin Moor is routinely called the birthplace of the tactical system that won the Hundred Years' War: men-at-arms fighting on foot in a solid line, archers on both wings, the enemy invited to attack into the angle between them. Ranald Nicholson put it directly — Edward III copied the deployment at Halidon Hill in 1333, and it reappears at Crécy in 1346. The line of descent is real, and Halidon Hill eleven months later is the proof of it: the king was not present at Dupplin, but Beaumont and several of the Disinherited were with him at Berwick.",
+        "The claim will not bear more than that. Neither element was new. English men-at-arms had fought dismounted at Boroughbridge in 1322, and massed archery had broken Scottish spearmen at Falkirk in 1298; Bannockburn had taught English commanders what happened to cavalry sent at a schiltron on bad ground. What Dupplin did was put the parts together in a pitched battle and demonstrate the result on a scale nobody could ignore.",
+        "The ground deserves a share of the credit that usually goes to the formation. A two-hundred-yard gap with slopes on both sides funnelled the Scots into a killing space and made their numbers worthless; the night attack had already wrecked their order before the first arrow flew; and their commanders charged separately out of a quarrel about honour. At Crécy the French would attack a prepared English line for reasons of their own, and the formation would work again — but a tactic that needs its enemy to come on, uphill and in confusion, is a defensive answer to being outnumbered, not a formula. English armies in Scotland discovered the limit soon enough, when the Scots stopped giving battle and simply let them march."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The same deployment, eleven months later",
+    "battleSlug": "battle-of-halidon-hill",
+    "relationship": "same-war",
+    "reason": "Edward III abandoned neutrality after Dupplin Moor and besieged Berwick in person; at Halidon Hill on 19 July 1333 he used Beaumont's deployment — men-at-arms on foot, archers on both wings — and destroyed the Scottish army sent to relieve the town."
+  },
+  "timeline": [
+    {
+      "date": "20 July 1332",
+      "title": "The Guardian dies",
+      "description": "Thomas Randolph, Earl of Moray, who had governed Scotland since Bruce's death, dies at Musselburgh as the invasion is being prepared."
+    },
+    {
+      "date": "2 August 1332",
+      "title": "Mar elected Guardian",
+      "description": "Domhnall, Earl of Mar, is chosen to govern for the eight-year-old David II, nine days before he is killed."
+    },
+    {
+      "date": "6 August 1332",
+      "title": "Landing at Kinghorn",
+      "description": "The Disinherited come ashore in Fife after sailing from the Humber, scatter a levy sent against them, and march on Perth."
+    },
+    {
+      "date": "10 August 1332",
+      "title": "The night crossing",
+      "description": "Balliol's men ford the River Earn at an unguarded point after dark and overrun a Scottish camp keeping no watch."
+    },
+    {
+      "date": "11 August 1332",
+      "title": "The battle",
+      "description": "The Scottish schiltrons crush themselves in a narrow valley under flanking archery; Mar, two earls and most of the senior nobility are killed."
+    },
+    {
+      "date": "24 September 1332",
+      "title": "Balliol crowned at Scone",
+      "description": "Seven weeks after landing with 1,500 men, Edward Balliol is made king of Scots at the traditional inauguration place."
+    },
+    {
+      "date": "November 1332",
+      "title": "Homage to Edward III",
+      "description": "Balliol acknowledges the English king as his overlord and promises him Berwick and Scottish lands worth £2,000 a year."
+    },
+    {
+      "date": "December 1332",
+      "title": "Driven out at Annan",
+      "description": "A night raid led by John Randolph and Archibald Douglas scatters Balliol's household and sends him over the border half-dressed."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John Balliol",
+        "type": "person",
+        "slug": "john-balliol",
+        "label": "Father of Edward Balliol, whose claim the Disinherited revived"
+      },
+      {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "The eight-year-old king whose Guardian died here"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "The same deployment under Edward III, 1333"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war this battle reopened"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "The victory whose forfeitures created the Disinherited"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "The 1328 peace that left the Disinherited unrestored"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The kingdom whose government was destroyed in a morning"
+      },
+      {
+        "title": "Scone",
+        "type": "location",
+        "slug": "scone",
+        "label": "Where Balliol was crowned six weeks later"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_River_Earn_at_Dupplin_-_geograph.org.uk_-_2391850.jpg"
+    },
+    {
+      "title": "Battle of Dupplin Moor — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dupplin_Moor"
+    },
+    {
+      "title": "The Battle of Dupplin Moor",
+      "author": "Medievalists.net",
+      "type": "article",
+      "url": "https://www.medievalists.net/2024/04/battle-dupplin-moor/"
+    },
+    {
+      "title": "War Cruel and Sharp: English Strategy under Edward III, 1327–1360",
+      "author": "Clifford J. Rogers",
+      "type": "book"
+    },
+    {
+      "title": "Infantry Warfare in the Early Fourteenth Century",
+      "author": "Kelly DeVries",
+      "type": "book"
+    },
+    {
+      "title": "Edward III and the Scots",
+      "author": "Ranald Nicholson",
+      "type": "book"
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The night crossing of the Earn",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_River_Earn_at_Dupplin_-_geograph.org.uk_-_2391850.jpg?width=1600",
+      "caption": "The River Earn at Dupplin in a 2010 photograph; the Disinherited forded the Earn in darkness on the night of 10 August 1332 and formed up on the moor above at dawn.",
+      "creator": "Iain A Robertson",
+      "date": "2010 photograph",
+      "source": "Geograph Britain and Ireland, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_River_Earn_at_Dupplin_-_geograph.org.uk_-_2391850.jpg",
+      "note": "Licensed CC BY-SA 2.0. No depiction of the battle survives from any period, and nothing of it remains in the landscape; the fighting was on the higher ground south of the river, where the valley narrows."
+    }
+  ]
+}

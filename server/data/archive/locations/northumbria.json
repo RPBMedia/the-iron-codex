@@ -16,7 +16,7 @@
     "First recorded Viking raid in the west — Lindisfarne, 793",
     "The Danish kingdom of Jórvík at York",
     "Cuthbert's community and palatine Durham",
-    "Annexed to England 927; the border fixed at the Tweed after Carham (1018)"
+    "Annexed to England 927; the Tweed border traditionally dated to the Battle of Carham (1018)"
   ],
   "imageInfo": {
     "caption": "Modern map of the Kingdom of Northumbria around 700, from the Humber to the Firth of Forth, with its founding kingdoms of Deira and Bernicia and the royal centres of York and Bamburgh.",
@@ -52,7 +52,7 @@
       "title": "Vikings, Jórvík, and the end of the kingdom",
       "paragraphs": [
         "Lindisfarne's sack in June 793 — \"never before has such terror appeared in Britain\", Alcuin wrote from Charlemagne's court — opened the Viking age; the Great Heathen Army closed the kingdom, taking York in 866–867 and killing both rival kings who stormed its walls. Danish Jórvík ruled from the Ouse for nearly a century — a trading boomtown under kings like Guthfrith and the Dublin dynasty — while English earls held out beyond the Tees at Bamburgh, and Cuthbert's monks wandered seven years with his coffin to eventual rest at Durham (995).",
-        "The end came in instalments: Æthelstan took York in 927; the last Viking king, Eric Bloodaxe, was expelled and killed at Stainmore in 954; and the earldom of Northumbria passed through English, Danish, and Norman hands — Siward, Tostig Godwinson (whose misrule sparked the 1065 revolt), Morcar — until William the Conqueror's Harrying of the North (1069–1070) answered rebellion with a devastation Domesday still records as \"waste\". Durham's palatine bishops and the border earls inherited the fragments; the Scots took Lothian for good after Carham (1018), fixing the future Anglo-Scottish line on the Tweed."
+        "The end came in instalments: Æthelstan took York in 927; the last Viking king, Eric Bloodaxe, was expelled and killed at Stainmore in 954; and the earldom of Northumbria passed through English, Danish, and Norman hands — Siward, Tostig Godwinson (whose misrule sparked the 1065 revolt), Morcar — until William the Conqueror's Harrying of the North (1069–1070) answered rebellion with a devastation Domesday still records as \"waste\". Durham's palatine bishops and the border earls inherited the fragments; the Scots took Lothian for good after the Battle of Carham (1018), which tradition credits with fixing the future Anglo-Scottish line on the Tweed."
       ]
     },
     {
@@ -163,6 +163,12 @@
         "type": "event",
         "slug": "great-heathen-army",
         "label": "Conquered it in 866–867"
+      },
+      {
+        "title": "Battle of Carham",
+        "type": "event",
+        "slug": "battle-of-carham",
+        "label": "The defeat on the Tweed, 1018"
       }
     ]
   },
@@ -210,7 +216,7 @@
     {
       "date": "1018",
       "title": "Carham",
-      "description": "The Scots win Lothian; the Tweed becomes the border."
+      "description": "The Battle of Carham: the Scots beat a Northumbrian army on the Tweed, the defeat later credited with losing Lothian."
     },
     {
       "date": "1069–1070",

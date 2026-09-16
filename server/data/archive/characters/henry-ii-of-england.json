@@ -198,7 +198,14 @@
         "slug": "duchy-of-normandy"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Alnwick (1174)",
+        "type": "event",
+        "slug": "battle-of-alnwick",
+        "label": "His men captured William the Lion here, ending the revolt of 1173–1174"
+      }
+    ]
   },
   "sources": [
     {

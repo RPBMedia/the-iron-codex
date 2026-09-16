@@ -1,0 +1,296 @@
+{
+  "id": "battle-of-falkirk",
+  "type": "event",
+  "name": "Battle of Falkirk",
+  "year": 1298,
+  "location": "Falkirk, Stirlingshire, Scotland",
+  "eventType": "Battle",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Falkirk1298(1).JPG",
+  "imageInfo": {
+    "caption": "A 2008 schematic map of the first phase of the Battle of Falkirk: English cavalry drive off the Scottish horse and archers but cannot break the four schiltrons.",
+    "creator": "Mike Young (Wikimedia Commons)",
+    "date": "2008; shows 22 July 1298",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falkirk1298(1).JPG",
+    "note": "A modern reconstruction released into the public domain by its author, drawn from Paul V. Walsh's study of the battle in Slingshot 196, not a period document. No contemporary depiction of Falkirk survives. The map follows the reading that places the fighting on the ground below Callendar Wood, which is the best supported of three proposed sites but not settled; the Westquarter Burn and the marshy ground it shows are the features the English vanguard is said to have swung left to avoid."
+  },
+  "summary": "Edward I broke William Wallace's schiltrons with massed archery near Falkirk on 22 July 1298, ending Wallace's ascendancy without recovering Scotland.",
+  "details": "On 22 July 1298 Edward I of England caught the Scottish army under William Wallace drawn up in four rings of spearmen south of Falkirk. His cavalry drove off the Scottish horse and archers but could not break the schiltrons; his own archers and crossbowmen then shot the immobile formations apart, and the cavalry rode into the gaps. Wallace escaped and resigned the guardianship of Scotland before the year was out.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "William Wallace",
+      "faction": "Scots",
+      "personId": "william-wallace"
+    },
+    {
+      "name": "Edward I of England",
+      "faction": "English",
+      "personId": "edward-i-of-england"
+    }
+  ],
+  "outcome": "Decisive English victory; the Scottish spearmen were destroyed in their formations and Wallace gave up the guardianship, but Edward I could not hold the country and withdrew south within seven weeks.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William Wallace",
+          "title": "William Wallace",
+          "type": "person",
+          "slug": "william-wallace"
+        },
+        {
+          "name": "Sir John Stewart of Bonkyll",
+          "type": "person",
+          "note": "Commanded the Scottish archers between the schiltrons and was killed with them. No biography in the Codex yet: he is recorded almost entirely through this battle and his family's landholding."
+        },
+        {
+          "name": "Sir John de Graham",
+          "type": "person",
+          "note": "One of the named Scottish dead, remembered as Wallace's second. No biography in the Codex yet; the detail of his career comes mainly from late tradition rather than record."
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–16,000, the great majority spearmen in four schiltrons",
+        "confidence": "debated",
+        "note": "No Scottish muster roll survives. Modern estimates of Wallace's army range from about 6,000 to 16,000, and the chronicle totals are higher still; what the sources agree on is that the Scots were outnumbered and far weaker in cavalry and archers."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward I of England",
+          "title": "Edward I of England",
+          "type": "person",
+          "slug": "edward-i-of-england"
+        },
+        {
+          "name": "Antony Bek, Bishop of Durham",
+          "type": "person",
+          "note": "Commanded one of the English divisions, as he had on the 1296 campaign. No biography in the Codex yet: the bishop-palatine belongs to a group of English administrator-commanders the archive has not yet built out."
+        },
+        {
+          "name": "John de Warenne, Earl of Surrey",
+          "type": "person",
+          "note": "The beaten commander of the Battle of Stirling Bridge, serving again under the king. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders."
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000–15,000, including some 2,000–2,500 armoured horse",
+        "confidence": "estimated",
+        "note": "English service and pay records make this the best-evidenced side of the battle: over 2,000 men-at-arms and about 12,000 foot, among them Welsh spearmen and the English and Welsh archers and crossbowmen who decided the day."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Falkirk, fought on 22 July 1298, was Edward I of England's answer to the Battle of Stirling Bridge. Ten months after William Wallace and Andrew Moray had destroyed an English army as it filed across the Forth, Edward came north in person, found the Scots drawn up on the moor south of Falkirk, and broke them in a single afternoon with the arm Stirling Bridge had never allowed him to use: massed archery, shooting into infantry that could not move and could not shoot back.",
+        "The defeat ended Wallace's brief ascendancy. He escaped the field, but he gave up the guardianship of Scotland before the year was out and never again commanded a Scottish army in the open. It did not, however, hand Edward the country. Short of food and money, unable to garrison what he had beaten, he was back at Carlisle by September, and the war he believed he had finished in 1296 ran on for another thirty years."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Stirling Bridge had made Wallace the effective ruler of Scotland. Knighted, and appointed Guardian of the kingdom in the name of the deposed John Balliol, he governed a country from which English administration had largely been driven, and in the winter of 1297 he raided into Northumberland and Cumberland. Andrew Moray, who had shared the victory and the guardianship, died of wounds within weeks of the battle, leaving Wallace to hold the position alone — a commoner directing magnates who outranked him and had their own claims on the kingdom.",
+        "Edward I was in Flanders when Stirling Bridge was fought. He returned in March 1298, moved the exchequer and the law courts to York to run the war from the north, and mustered at Roxburgh in June with the largest army he had yet taken into Scotland. The campaign nearly collapsed before it found an enemy: the Scots stripped the country ahead of him, the supply ships failed to arrive, and his Welsh infantry, drunk on wine that did arrive, came to blows with the English and threatened to change sides. Edward was preparing to fall back on Edinburgh when word came that the Scottish army lay only a dozen miles off, near Falkirk. On the night before the battle, camped in the open, he was kicked by his own horse and broke two ribs; he mounted in the morning anyway."
+      ]
+    },
+    {
+      "title": "The armies and the schiltron",
+      "paragraphs": [
+        "Wallace formed his infantry into four schiltrons — rings of spearmen with their long spears levelled outwards at several heights, the front ranks kneeling, the whole formation fronted with stakes and cord. The schiltron was a defence against cavalry, and against cavalry alone it worked: a horse will not run onto a hedge of spear points. Between the rings Wallace placed his archers, the bowmen of Selkirk forest under Sir John Stewart of Bonkyll, and behind them a small body of mounted men-at-arms, the only cavalry Scotland could field.",
+        "The English army was the mirror image of that weakness. It brought over 2,000 armoured horse — more heavy cavalry than the Scots could have faced anywhere — and some 12,000 foot, in four divisions, one of them under Antony Bek, the fighting Bishop of Durham, another under John de Warenne, Earl of Surrey, who had lost at Stirling Bridge the year before. Its decisive element was neither: it was the mass of archers and crossbowmen, Welsh and English, whom Edward had learned to use in his Welsh wars and who had no counterpart on the Scottish side once Stewart's bowmen were gone."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The English cavalry came on in echelon. The vanguard swung left to get round the marshy ground in front of the Scottish position, Bek's division worked round to the right, and the two closed on the schiltrons from either flank. The Scottish horse left the field at this point, with little or no fighting. Stewart's archers, standing in the open between the rings of spears, were ridden down and killed almost to a man, and Stewart was killed with them.",
+        "The schiltrons themselves held. Repeated charges broke on the spear points and cost the English heavily in horses, and for a time the battle stalled exactly as Wallace had planned it. Then Edward stopped sending cavalry at the formations and brought his archers, crossbowmen and slingers to the front. Against missiles the schiltron had no answer at all: it could not charge without dissolving, it could not retire without dissolving, it had lost the bowmen who might have shot back, and it stood in the open at a range the English chose. The rings were shot into gaps, and when the gaps were wide enough the cavalry and the infantry went in through them. Macduff of Fife and Sir John de Graham were among the dead. Wallace got away into the woods with part of his force."
+      ]
+    },
+    {
+      "title": "The Scottish horse and the argument about betrayal",
+      "paragraphs": [
+        "The withdrawal of the Scottish cavalry is the most argued moment of the battle, and the argument is old. Scottish tradition made it treachery: the magnates, jealous of a knight of no great family who had risen to govern them, abandoned Wallace to be shot to pieces. That version reaches most readers through Blind Harry's The Wallace, a long narrative poem written about 1477, and it should not be mistaken for a source. Blind Harry wrote nearly two centuries after the battle, for a fifteenth-century audience, and invented freely; he is evidence for how Scotland remembered Wallace, not for what happened in 1298.",
+        "The record permits a duller reading. Wallace had a few hundred horse at most against more than 2,000 English men-at-arms, and a cavalry force at those odds that stayed on the field would have achieved nothing but its own destruction. John Comyn, the head of the family that would supply the next guardian, is named among those present in some accounts and absent in others, which is a fair measure of how thin the evidence is. What is certain is political rather than tactical: Wallace held the guardianship by acclamation and victory, not by birth, and Falkirk removed the victory. Whether the nobility deserted him on the field or merely declined to die for him, they did not keep him in office afterwards."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Edward could not convert the victory. He took Stirling, burned as far as Perth, St Andrews and into Ayrshire, and was forced back to Carlisle by 9 September for want of supply; he had to invade again in 1300, 1301 and 1303 before the Scottish leadership submitted in 1304. Wallace resigned the guardianship in December 1298, and it passed to men with the standing he had never had — the young Robert the Bruce and John Comyn, joint guardians who could barely work together. Wallace went abroad to argue Scotland's case at the French court and in Rome, returned to a hunted life, and was betrayed, taken to London and executed in 1305.",
+        "Falkirk is the first clear demonstration of what massed archery did to infantry that could not answer it, and English commanders remembered the lesson better than they remembered the battle: the combination of dismounted men-at-arms and concentrated archers that beat the French at the Battle of Crécy in 1346 is visible here first. The Scots learned the other half of it. Robert the Bruce refused pitched battle for years, and when he finally accepted one at the Battle of Bannockburn in 1314 his schiltrons had been trained to advance and manoeuvre rather than stand and receive, and his light horse rode down the English archers before they could do at Bannockburn what they had done at Falkirk. Where exactly the battle was fought is still disputed: the ground below Callendar Wood has the most support, with Campfield and the old Roman fort at Mumrills also proposed, and the monuments in the town — the graves of Stewart and Graham in the old parish churchyard among them — mark memory rather than a surveyed field."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Falkirk1298(2).JPG",
+      "caption": "The second phase in the same 2008 map series: with the Scottish horse and archers gone, English archery breaks the immobile schiltrons.",
+      "creator": "Mike Young (Wikimedia Commons)",
+      "date": "2008; shows 22 July 1298",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falkirk1298(2).JPG",
+      "note": "The companion diagram to the main image, by the same author and on the same basis, showing the rings of pikemen isolated and shot apart rather than ridden down. A modern interpretation of the sources, not a period plan."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The lesson relearned at Methven",
+    "battleSlug": "battle-of-methven",
+    "relationship": "same-war",
+    "reason": "Falkirk showed what happened when a Scottish army stood and fought an English one on open ground; eight years later, twelve weeks after his coronation, Robert the Bruce let Aymer de Valence catch him in the open at Methven and lost his army, his freedom of movement and very nearly his kingship."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Commander"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "Wallace's victory ten months earlier"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "Where the schiltron was made to move"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "March 1298",
+      "title": "Edward I returns from Flanders",
+      "description": "The king comes home to a Scotland lost since Stirling Bridge and moves the exchequer and law courts to York to run the war from the north."
+    },
+    {
+      "date": "Spring 1298",
+      "title": "Wallace sole Guardian",
+      "description": "With Andrew Moray dead of his wounds, William Wallace governs alone in the name of the deposed John Balliol."
+    },
+    {
+      "date": "June 1298",
+      "title": "Muster at Roxburgh",
+      "description": "Edward assembles over 2,000 horse and some 12,000 foot; the Scots strip the country ahead of him and his supply ships fail to arrive."
+    },
+    {
+      "date": "21 July 1298",
+      "title": "The Scots located",
+      "description": "On the point of falling back for want of food, Edward learns the Scottish army is encamped near Falkirk; that night his own horse kicks him and breaks two ribs."
+    },
+    {
+      "date": "22 July 1298",
+      "title": "The schiltrons formed",
+      "description": "Wallace draws up four rings of spearmen fronted with stakes, his archers under Sir John Stewart of Bonkyll between them and a small force of horse behind."
+    },
+    {
+      "date": "22 July 1298",
+      "title": "The Scottish horse leaves the field",
+      "description": "English cavalry work round both flanks; the Scottish men-at-arms withdraw with little or no fighting and Stewart's archers are ridden down and killed."
+    },
+    {
+      "date": "22 July 1298",
+      "title": "Archery breaks the rings",
+      "description": "Unable to break the schiltrons by charging, Edward brings up archers, crossbowmen and slingers, shoots gaps in the formations and sends the cavalry through them."
+    },
+    {
+      "date": "9 September 1298",
+      "title": "Edward withdraws to Carlisle",
+      "description": "After raiding as far as Perth, St Andrews and Ayrshire, the English army retires south without having secured the kingdom."
+    },
+    {
+      "date": "December 1298",
+      "title": "Wallace resigns the guardianship",
+      "description": "The office passes to Robert the Bruce and John Comyn, magnates with the standing Wallace never held."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Falkirk1298(1).JPG"
+    },
+    {
+      "title": "Battle of Falkirk — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Falkirk"
+    },
+    {
+      "title": "The Battle of Falkirk — The Stewart Society",
+      "author": "The Stewart Society",
+      "type": "reference work",
+      "url": "https://www.stewartsociety.org/history-of-the-stewarts.cfm?section=battles-and-historical-events&subcatid=1&histid=513"
+    },
+    {
+      "title": "Walter of Guisborough, Chronicle",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Walter_of_Guisborough"
+    },
+    {
+      "title": "Robert Bruce and the Community of the Realm of Scotland",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ]
+}

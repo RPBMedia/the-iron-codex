@@ -1,0 +1,257 @@
+{
+  "id": "battle-of-dunbar",
+  "type": "event",
+  "name": "Battle of Dunbar",
+  "year": 1296,
+  "location": "Spottsmuir, near Dunbar, East Lothian, Scotland",
+  "eventType": "Battle",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunbar_Castle%2C_East_Lothian_-_view_of_western_side_from_the_middle_beach.jpg",
+  "imageInfo": {
+    "caption": "A 2017 photograph of the ruins of Dunbar Castle, East Lothian, whose garrison surrendered to Edward I the day after the battle fought on the moor inland.",
+    "creator": "Rosser1954 (Wikimedia Commons)",
+    "date": "2017; the surviving masonry is largely 15th and 16th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunbar_Castle%2C_East_Lothian_-_view_of_western_side_from_the_middle_beach.jpg",
+    "note": "No contemporary depiction of the battle survives, and the battlefield at Spottsmuir is open farmland with nothing visible on it. The castle is the one place tied to the engagement that can still be seen, but the red sandstone in this view is mostly later than 1296: the fortress was rebuilt repeatedly and slighted in 1567, so this is the site rather than the building the Scots were trying to relieve. Licensed CC BY-SA 4.0."
+  },
+  "summary": "John de Warenne routed the Scottish host at Spottsmuir near Dunbar on 27 April 1296, a rout in a single charge that opened Edward I's conquest and cost John Balliol his crown within ten weeks.",
+  "details": "On 27 April 1296 the Scottish army came to relieve Dunbar Castle and took up high ground west of it. Watching John de Warenne's cavalry break formation to cross the gully of the Spott Burn, the Scots took them for a retreating enemy and charged downhill in disorder, only to meet a reformed line advancing in good order. The rout was almost bloodless and almost total: a hundred or more Scottish lords went into English prisons, the castle surrendered the next day, and by July John Balliol had resigned his kingdom.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "John de Warenne, Earl of Surrey",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Decisive English victory; Scottish resistance in the field collapsed, the castle surrendered the following day, and John Balliol abdicated in July 1296.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John Comyn, Earl of Buchan",
+          "type": "person",
+          "note": "Named as leading the Scottish host and taken prisoner. No biography in the Codex yet. He is not the John Comyn whose article the archive holds: that is John Comyn of Badenoch, the Red Comyn killed by Robert the Bruce in 1306, a kinsman of the same name a generation younger."
+        },
+        {
+          "name": "John Balliol",
+          "type": "person",
+          "note": "King of Scots and the man whose army this was, but he was not on the field: he remained at Haddington and left the fighting to his magnates. Linked from this article's related entries rather than listed as a commander."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the Scottish host, outnumbering the English force actually engaged",
+        "confidence": "debated",
+        "note": "The accounts disagree about scale. One reading makes Dunbar an action between two bodies of mounted men-at-arms numbering in the hundreds; another gives the Scots several thousand, mostly poorly armed foot. The chronicle claim of 40,000 Scots, and the English figure of 10,055 Scottish dead, are not credible and appear to borrow from the massacre at Berwick a month earlier."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "John de Warenne, Earl of Surrey",
+          "type": "person",
+          "note": "Commanded the detachment Edward I sent to reduce Dunbar, and — as John Balliol's father-in-law — destroyed his son-in-law's army. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders, and he commanded again, disastrously, at the Battle of Stirling Bridge."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a cavalry-led detachment of Edward I's invasion army, smaller than the force it beat",
+        "confidence": "debated",
+        "note": "Warenne led one part of the army Edward had brought north after Berwick, and the sources that describe the fighting describe mounted men-at-arms crossing a burn rather than a large mixed host. Figures of a thousand horse and ten thousand foot appear in some modern accounts but rest on no surviving muster."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Dunbar, fought on 27 April 1296 on the moor at Spottsmuir, was the only field action of Edward I of England's conquest of Scotland, and it lasted about as long as one charge. The Scottish army, coming to relieve Dunbar Castle, held strong ground until it mistook an English column struggling across a stream for an army in flight; it abandoned the high ground to pursue, met a reformed line, and broke.",
+        "Almost nobody died. What the battle destroyed was not an army but a government: a hundred or more Scottish lords, knights and esquires went into English castles as prisoners, the earls among them, and the political class that might have organised resistance was removed in an afternoon. Within ten weeks John Balliol had surrendered his kingdom, the Stone of Scone was on its way to Westminster, and Edward believed the war was over. It had barely started."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "Edward I had been asked to judge the Scottish succession after the death of Margaret, Maid of Norway, and had used the invitation to extract recognition as overlord before finding for John Balliol in 1292. He then governed Scotland as an overlord in fact: hearing appeals from Scottish courts at Westminster, summoning the king of Scots to answer in England like a defaulting tenant, and demanding Scottish troops for his war against France. In 1295 a council of twelve took the government out of Balliol's hands and made the treaty with Philip IV of France that later generations called the auld alliance.",
+        "Edward answered with an invasion. He stormed Berwick, Scotland's richest burgh, on 30 March 1296 and allowed a massacre that was still being talked about a century later. Dunbar Castle, held for the English interest by Patrick, Earl of March, was handed over to the Scots by his countess while he was away with Edward, and the king detached John de Warenne, Earl of Surrey, to take it back. The Scottish army marched to relieve it, which is how the two forces came to meet on the high ground above the Spott Burn."
+      ]
+    },
+    {
+      "title": "The armies",
+      "paragraphs": [
+        "How large the armies were cannot be recovered, and the sources do not agree about what kind of battle this was. The fighting the accounts actually describe — a column of men-at-arms losing formation while crossing a gully, reforming on the muir and charging once — is a cavalry action of hundreds rather than a clash of hosts, and the single named Scottish casualty supports that. Other accounts give Warenne a thousand horse and ten thousand foot and the Scots several thousand more, and cannot be ruled out.",
+        "The chronicle figures are worthless as arithmetic and revealing as propaganda. English writers reported over ten thousand Scottish dead at Dunbar, a number that fits nothing in the narrative of the battle but fits the sack of Berwick a month earlier very well; a Scottish host of forty thousand belongs to the same order of invention. What is not in doubt is the composition of the loss. Nearly every prisoner named is a magnate: the earls of Atholl, Ross and Menteith, John Comyn, Earl of Buchan, and about a hundred and thirty knights and esquires."
+      ]
+    },
+    {
+      "title": "The battle at Spottsmuir",
+      "paragraphs": [
+        "The Scots took position on rising ground to the west, and it was a good one. To reach them Warenne's cavalry had to cross a gully cut by the Spott Burn, and no formation crosses broken ground in order; his ranks came apart in the descent and the climb, and from above the movement looked like an army coming to pieces. The Scots read it as a retreat and left the hill to chase it, in what the sources describe as a disorderly downhill charge rather than an attack.",
+        "Warenne's men reformed on the level of Spottsmuir and came on in good order into a crowd. The Scots were routed in a single charge, and the pursuit did the rest. Sir Patrick Graham, a Lothian knight, is the one notable Scottish death recorded, which is why the battle reads as a political catastrophe rather than a military one: the army was not destroyed so much as captured."
+      ]
+    },
+    {
+      "title": "The castle and the collapse",
+      "paragraphs": [
+        "Edward I came in person the next day and Dunbar Castle surrendered to him. The garrison and the men taken on the field went south to English prisons — among them Sir Andrew Moray of Petty, justiciar of Scotia, and his son, sent to the Tower of London and to Chester Castle respectively. The son escaped over the following winter, raised the north in 1297, and shared the victory at the Battle of Stirling Bridge: the most consequential prisoner Edward took at Dunbar was the one he did not keep.",
+        "The rest of the kingdom folded without fighting. Roxburgh surrendered, Edinburgh held only briefly, and Stirling was found abandoned with a porter left to hand over the keys. Balliol, who had retreated to the north-east, submitted in stages through the summer: at Kincardine on 2 July he confessed his rebellion, at Stracathro on 7 July he renounced the French treaty, and at Montrose on 8 July Antony Bek, Bishop of Durham, cut the royal arms from his surcoat in front of the court — the humiliation that gave him the nickname Toom Tabard, the empty coat."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Edward carried off the apparatus of Scottish kingship as well as the king. The Stone of Scone went from the abbey to Westminster with the Scottish records and regalia, and some 1,900 landholders were made to swear fealty in the rolls of homage known as the Ragman Roll. Balliol went to the Tower, then to papal custody, then to exile in Picardy, and never returned; Scotland was to be administered as a land, not a realm, under an English lieutenant, treasurer and justiciar.",
+        "The completeness of the collapse explains the shock of what followed. Edward had beaten the Scottish nobility so thoroughly, and imprisoned so much of it, that when risings began in 1297 they were led by men outside that class or outside his reach — William Wallace in the south, the escaped Andrew Moray in the north — and they were fought in the name of the king Edward had deposed. Dunbar removed Scotland's leaders without settling the question of who ruled Scotland, and the war it was supposed to end lasted until 1328."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The rising that answered the conquest",
+    "battleSlug": "battle-of-stirling-bridge",
+    "relationship": "same-war",
+    "reason": "Dunbar convinced Edward I that Scotland was conquered, and the men he imprisoned there included Andrew Moray, who escaped from Chester, raised the north and — with William Wallace — destroyed John de Warenne's army at Stirling Bridge seventeen months later."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "John Balliol",
+        "type": "person",
+        "slug": "john-balliol",
+        "label": "The king whose army was destroyed"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Directed the invasion of 1296"
+      },
+      {
+        "title": "Andrew Moray",
+        "type": "person",
+        "slug": "andrew-moray",
+        "label": "Taken prisoner here, and escaped"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Scone",
+        "type": "location",
+        "slug": "scone",
+        "label": "Whence the Stone of Scone was carried south"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "The answer to the conquest, 1297"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "October 1295",
+      "title": "The French treaty",
+      "description": "A council of twelve takes government from John Balliol and allies Scotland with Philip IV of France against England."
+    },
+    {
+      "date": "30 March 1296",
+      "title": "Berwick stormed",
+      "description": "Edward I opens the invasion by taking Scotland's richest burgh and allowing a massacre of its people."
+    },
+    {
+      "date": "April 1296",
+      "title": "Dunbar changes hands",
+      "description": "The Countess of March surrenders her absent husband's castle to the Scots, and Edward detaches John de Warenne to recover it."
+    },
+    {
+      "date": "27 April 1296",
+      "title": "The charge down the hill",
+      "description": "Mistaking Warenne's broken ranks crossing the Spott Burn for a retreat, the Scots leave their high ground and are routed on Spottsmuir in a single charge."
+    },
+    {
+      "date": "28 April 1296",
+      "title": "The castle surrenders",
+      "description": "Edward I arrives in person and takes Dunbar Castle; the prisoners of the battle are sent to English castles."
+    },
+    {
+      "date": "May–June 1296",
+      "title": "The kingdom folds",
+      "description": "Roxburgh and Edinburgh give in and Stirling is found abandoned; Balliol retreats to the north-east."
+    },
+    {
+      "date": "8 July 1296",
+      "title": "Toom Tabard at Montrose",
+      "description": "Antony Bek strips the royal arms from Balliol's surcoat as he resigns the kingdom and his homage."
+    },
+    {
+      "date": "Summer 1296",
+      "title": "The Stone and the Ragman Roll",
+      "description": "The Stone of Scone, the regalia and the national records go to Westminster, and some 1,900 landholders swear fealty to Edward I."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Dunbar_Castle%2C_East_Lothian_-_view_of_western_side_from_the_middle_beach.jpg"
+    },
+    {
+      "title": "Battle of Dunbar (1296) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dunbar_(1296)"
+    },
+    {
+      "title": "Battle of Dunbar (1296) — Great Castles",
+      "author": "great-castles.com",
+      "type": "reference work",
+      "url": "https://great-castles.com/battleofdunbar.html"
+    },
+    {
+      "title": "Robert Bruce and the Community of the Realm of Scotland",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ]
+}

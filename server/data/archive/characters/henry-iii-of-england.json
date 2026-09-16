@@ -205,7 +205,20 @@
         "label": "Campaigned there, 1253–1254"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Lewes",
+        "type": "event",
+        "slug": "battle-of-lewes",
+        "label": "Captured in the battle and made a figurehead king"
+      },
+      {
+        "title": "Battle of Evesham (1265)",
+        "type": "event",
+        "slug": "battle-of-evesham",
+        "label": "Held captive in Montfort’s line, and restored by the victory"
+      }
+    ]
   },
   "sources": [
     {

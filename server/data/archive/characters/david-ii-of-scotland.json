@@ -76,7 +76,7 @@
     {
       "title": "Birth and early life",
       "paragraphs": [
-        "Born at Dunfermline in 1324 to the ageing Bruce and Elizabeth de Burgh, David was married at four — to Joan of the Tower, Edward III's seven-year-old sister, under the treaty of Edinburgh-Northampton — and king at five when his father died in 1329. The peace died almost as fast: Edward Balliol's invasion and Dupplin Moor (1332), Halidon Hill (1333), and the child king and queen were shipped to Château Gaillard in 1334 for seven years' French refuge.",
+        "Born at Dunfermline in 1324 to the ageing Bruce and Elizabeth de Burgh, David was married at four — to Joan of the Tower, Edward III's seven-year-old sister, under the treaty of Edinburgh-Northampton — and king at five when his father died in 1329. The peace died almost as fast: Edward Balliol's invasion and the Battle of Dupplin Moor (1332), the Battle of Halidon Hill (1333), and the child king and queen were shipped to Château Gaillard in 1334 for seven years' French refuge.",
         "He came home in 1341 to a kingdom the Guardians — Moray, the young Robert Stewart, Douglas of Liddesdale — had clawed back fortress by fortress, and took up personal rule at seventeen with border raiding already habitual."
       ]
     },
@@ -185,6 +185,18 @@
         "type": "event",
         "slug": "battle-of-bannockburn",
         "label": "His father's victory, his inheritance's foundation"
+      },
+      {
+        "title": "Battle of Dupplin Moor",
+        "type": "event",
+        "slug": "battle-of-dupplin-moor",
+        "label": "The defeat that cost him his Guardian and his kingdom, 1332"
+      },
+      {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "The defeat that sent him into French exile, 1333"
       }
     ]
   },

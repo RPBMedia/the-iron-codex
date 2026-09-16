@@ -174,6 +174,12 @@ export const TOPICS = [
           "summary": "The sea battle, traditionally dated to September 1000, in which Olaf Tryggvason was overwhelmed by the fleets of Denmark, Sweden and Jarl Eric Hákonarson and vanished overboard from the Long Serpent."
         },
         {
+          "id": "battle-of-carham",
+          "name": "Battle of Carham",
+          "depth": 1,
+          "summary": "A Scottish and Strathclyde army beat the Northumbrians at Carham on the Tweed in 1018 — or 1016 — in a battle known from two Durham writers a century later, and credited ever since with a border settlement no source actually describes."
+        },
+        {
           "id": "battle-of-fulford",
           "name": "Battle of Fulford",
           "depth": 1,
@@ -433,7 +439,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 68
+    "count": 69
   },
   {
     "slug": "crusades",
@@ -477,6 +483,12 @@ export const TOPICS = [
           "name": "Third Crusade",
           "depth": 0,
           "summary": "The Third Crusade (1189–1192) was western Europe's answer to Saladin's capture of Jerusalem: three kings set out, one drowned, one went home, and the third failed to take the city and settled for access to it."
+        },
+        {
+          "id": "battle-of-alnwick",
+          "name": "Battle of Alnwick (1174)",
+          "depth": 1,
+          "summary": "A raiding column of about four hundred English knights rode out of the fog outside Alnwick on 13 July 1174 and captured William the Lion, king of Scots, whose ransom was the Treaty of Falaise and fifteen years of English overlordship."
         },
         {
           "id": "battle-of-arsuf",
@@ -849,12 +861,6 @@ export const TOPICS = [
           "name": "Guy of Lusignan",
           "depth": 1,
           "summary": "Guy of Lusignan was king of Jerusalem through marriage to Sibylla and the ruler whose defeat at Hattin preceded Saladin’s capture of Jerusalem."
-        },
-        {
-          "id": "hermann-von-salza",
-          "name": "Hermann von Salza",
-          "depth": 1,
-          "summary": "Hermann von Salza was Grand Master of the Teutonic Order and a diplomat between Frederick II and the papacy, helping turn the order into a major territorial power."
         }
       ],
       "artifacts": [
@@ -2456,6 +2462,12 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Viking Age"
     }
   ],
+  "battle-of-carham": [
+    {
+      "slug": "viking-age",
+      "title": "The Viking Age"
+    }
+  ],
   "battle-of-fulford": [
     {
       "slug": "viking-age",
@@ -2785,6 +2797,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "third-crusade": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
+  "battle-of-alnwick": [
     {
       "slug": "crusades",
       "title": "The Crusades"
@@ -3221,12 +3239,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "guy-of-lusignan": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "hermann-von-salza": [
     {
       "slug": "crusades",
       "title": "The Crusades"

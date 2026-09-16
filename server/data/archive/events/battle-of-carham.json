@@ -1,0 +1,289 @@
+{
+  "id": "battle-of-carham",
+  "type": "event",
+  "name": "Battle of Carham",
+  "year": 1018,
+  "aliases": [
+    "Battle of Carham on Tweed"
+  ],
+  "location": "Carham on Tweed, Northumberland",
+  "eventType": "Battle",
+  "conflict": "Scottish and Northumbrian warfare on the Tweed",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Birgham_to_Carham_across_the_Tweed_-_geograph.org.uk_-_6818770.jpg",
+  "imageInfo": {
+    "caption": "The Tweed at Carham, looking across from Birgham, in a 2021 photograph. The battle was fought somewhere on this stretch of river, though no site is fixed.",
+    "creator": "Margaret Jeary, via Geograph Britain and Ireland",
+    "date": "Photograph 25 April 2021",
+    "source": "Geograph Britain and Ireland, via Wikimedia Commons, CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Birgham_to_Carham_across_the_Tweed_-_geograph.org.uk_-_6818770.jpg",
+    "note": "A photograph of the place, not of the battle: no depiction of Carham survives. The Scottish bank is on the left and the Northumbrian on the right; this is the river the battle is traditionally said to have settled as the border, a claim the article treats as a later reading rather than a fact. The exact battlefield is unknown. Licensed CC BY-SA 2.0."
+  },
+  "summary": "A Scottish and Strathclyde army beat the Northumbrians at Carham on the Tweed in 1018 — or 1016 — in a battle known from two Durham writers a century later, and credited ever since with a border settlement no source actually describes.",
+  "details": "Máel Coluim II, king of Alba, and Owain the Bald, king of Strathclyde, defeated a Northumbrian army at Carham on the Tweed. The commander on the other side was Uhtred of Bamburgh according to Symeon of Durham, but the Anglo-Saxon Chronicle places Uhtred's murder in 1016, which would leave his brother Eadwulf Cudel. Scottish tradition since the nineteenth century has treated the battle as the moment Lothian passed to the kings of Scots and the Tweed became the border; modern historians have taken that claim apart without being able to put anything definite in its place.",
+  "factions": [
+    "Kingdom of Alba",
+    "Kingdom of Strathclyde",
+    "Northumbria"
+  ],
+  "leaders": [
+    {
+      "name": "Máel Coluim II",
+      "faction": "Scots and men of Strathclyde"
+    },
+    {
+      "name": "Owain the Bald",
+      "faction": "Scots and men of Strathclyde"
+    },
+    {
+      "name": "Uhtred of Bamburgh or Eadwulf Cudel",
+      "faction": "Northumbrians"
+    }
+  ],
+  "outcome": "Scottish and Strathclyde victory; the Northumbrian army was destroyed, and the bishop of Durham is said to have died of grief at the news.",
+  "participants": [
+    {
+      "side": "Scots and men of Strathclyde",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        },
+        {
+          "name": "Kingdom of Strathclyde",
+          "title": "Kingdom of Strathclyde"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Máel Coluim II",
+          "type": "person",
+          "note": "King of Alba from 1005 to 1034, named by Symeon of Durham as the victor and the last of his line in the male succession. No biography in the archive yet."
+        },
+        {
+          "name": "Owain the Bald",
+          "type": "person",
+          "note": "The last king of Strathclyde on record, called rex Clutinensium in the Historia regum Anglorum; whether he fell here or survived it is not stated anywhere. No biography in the archive yet."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; no figures survive",
+        "confidence": "unknown",
+        "note": "The accounts were written a century or more after the event and give no numbers at all. Symeon describes a \"countless multitude\" of Scots, which is a rhetorical formula rather than an estimate."
+      }
+    },
+    {
+      "side": "Northumbrians",
+      "factions": [
+        {
+          "name": "Northumbria",
+          "title": "Northumbria",
+          "type": "location",
+          "slug": "northumbria"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Uhtred of Bamburgh or Eadwulf Cudel",
+          "type": "person",
+          "note": "Which brother commanded depends on which year the battle was fought: Symeon of Durham names Earl Uhtred, while the Anglo-Saxon Chronicle places Uhtred's murder by Thurbrand the Hold in 1016, leaving Eadwulf. No biography in the archive for either."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; no figures survive",
+        "confidence": "unknown",
+        "note": "The only number any source gives for either army is the eighteen priests said by the Annals of Lindisfarne and Durham to have died with the levy — a detail preserved because churchmen were counting churchmen."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Carham was fought on the Tweed, at or near the village of Carham about seven miles west of Coldstream, between an army led by Máel Coluim II, king of Alba, with Owain the Bald of Strathclyde, and the levy of Northumbria. The Scots won. That is very nearly the whole of what can be said with confidence, and even the year is argued over: the Durham sources put it in 1018, while the death date the Anglo-Saxon Chronicle gives for the Northumbrian commander points to 1016.",
+        "The battle carries a weight of significance out of all proportion to the evidence for it, because Scottish historical writing from the nineteenth century onward made it the moment Lothian became Scottish and the Tweed became the border. No medieval source says so. Modern historians have spent a century picking the claim apart, and the 2018 millennium volume edited by Neil McGuigan and Alex Woolf treats the battle as an episode in a long Anglo-Scottish argument rather than the moment a frontier was drawn."
+      ]
+    },
+    {
+      "title": "Two Durham writers, a century later",
+      "paragraphs": [
+        "Everything known about Carham comes from Durham. The Historia Regum attributed to Symeon of Durham, compiled in the early twelfth century, reports that a countless multitude of Scots under Máel Coluim, with Owain the Bald, destroyed the Northumbrians between the Tees and the Tweed, and that Ealdhun, the first bishop of Durham, died of grief when he heard. The Annals of Lindisfarne and Durham add that eighteen priests fell with the army. A separate Durham tract, De obsessione Dunelmi, supplies the family background of the earls of Bamburgh that historians have used to date the battle.",
+        "This is a hundred years of distance, written by men with their own concerns. Durham was a young bishopric consolidating its lands and its version of the past, and Ealdhun's death, the flight of Saint Cuthbert's community and the fortunes of the Bamburgh earls were the frame through which its writers saw the northern wars. Nobody on the Scottish side left an account at all; there is no Scottish chronicle of the eleventh century to set beside the Durham one. Carham is a battle known entirely through the memory of the losers' church."
+      ]
+    },
+    {
+      "title": "The year: 1018 or 1016",
+      "paragraphs": [
+        "Symeon dates the battle to 1018 and links it to a comet seen for thirty nights beforehand, which matches an astronomical record for August 1018. Against that, the Anglo-Saxon Chronicle places the murder of Earl Uhtred by Thurbrand the Hold in 1016, and Symeon names Uhtred as the Northumbrian commander at Carham. Both statements cannot be right, and the choice between them has divided historians since Charles Plummer and Frank Stenton preferred 1016.",
+        "Archie Duncan argued that the Chronicle's notice of Uhtred's death is a parenthesis added by a later hand and does not fix the year, which leaves Uhtred alive in 1018 and removes the contradiction. Alex Woolf takes 1018 as the more probable date with Uhtred in command, while allowing that Eadwulf Cudel cannot be ruled out. Neil McGuigan has raised a different possibility: that Symeon gathered the battle, the comet and Ealdhun's death into a single 1018 narrative to give the bishop's passing its proper portents, in which case the year we have is a twelfth-century editorial decision rather than a record.",
+        "This archive files the battle under 1018 because that is the date the Durham source gives, the date the 2018 volume upheld after argument, and the date the rest of the archive already uses. It is a convention for sorting, not a finding."
+      ]
+    },
+    {
+      "title": "Who led the Northumbrians",
+      "paragraphs": [
+        "The identity of the commander follows from the date. If the battle was fought in 1016, Uhtred was still alive and his authority still ran from the Tyne to the Tweed; if it was fought in 1018, and the Chronicle's date for his murder is right, then the man who lost it was his brother Eadwulf Cudel. The nickname Cudel is usually read as \"cuttlefish\", and the byname carries the reputation: Northumbrian tradition remembered Eadwulf as timid, and as the earl who gave Lothian away rather than lost it.",
+        "That tradition is not neutral evidence. A later writer explaining how the land north of the Tweed came to be Scottish had every reason to blame a weak earl, and the surviving account of Eadwulf ceding Lothian comes from the same Durham milieu as the battle itself. Whichever brother stood at Carham, the family was in trouble: Uhtred had been murdered at a peace meeting with Cnut's connivance, the earldom was being squeezed between a Danish king in the south and an expanding Alba in the north, and Saint Cuthbert's community had just moved its relics to Durham for safety."
+      ]
+    },
+    {
+      "title": "The armies and the ground",
+      "paragraphs": [
+        "No source gives a number for either side. What can be reconstructed is the shape of the campaign: Máel Coluim had the resources of Alba, Owain brought the men of Strathclyde down the Tweed valley, and the Northumbrian force was the levy of the earldom between the Tees and the Tweed rather than an English royal army — Cnut, king of all England since 1016, was not there and did not respond. Alex Woolf has suggested the allied armies met near Caddonlea in Selkirkshire, where the road from Alba down Wedale joins the route from Strathclyde along the Tweed, and that the Northumbrians moved to intercept them before they could cross the Cheviot country.",
+        "Carham itself sits on the English bank of the Tweed, opposite Birgham, a short way downstream from Wark. The identification rests on Symeon's place-name and nothing else: no weapons, graves or earthwork have ever been tied to the battle, and the flat haughland along the river has been ploughed for a thousand years since. The visitor today sees the border running down the middle of the water, which is precisely the thing the battle is supposed to have settled."
+      ]
+    },
+    {
+      "title": "What happened, so far as it can be said",
+      "paragraphs": [
+        "The Northumbrians were defeated with heavy loss, and the loss fell on the leading men of the earldom: the eighteen priests are named as a group because the levy of a northern earldom brought its clergy with it, and their deaths were recorded at Durham as a wound to the church. Symeon's phrase is that the whole people from the Tees to the Tweed was destroyed, which is chronicle hyperbole for the killing of a fighting generation.",
+        "Nothing survives of the fighting itself — no formation, no sequence, not even a season beyond the comet Symeon places thirty days before it. Accounts that describe manoeuvres at Carham are filling a silence. The one consequence the sources do record is Bishop Ealdhun's death, which tells us how the defeat was felt at Durham, and the disappearance of Owain the Bald from the record afterwards, which may mean he died in the battle or soon after and may only mean that nobody had reason to write his name again."
+      ]
+    },
+    {
+      "title": "The border question",
+      "paragraphs": [
+        "The claim that Carham fixed the Anglo-Scottish border on the Tweed is a modern construction with a long history. Scottish writers from the nineteenth century onward treated the victory as the conquest of Lothian; English writers preferred a tenth-century grant, in which King Edgar handed the land between Forth and Tweed to Kenneth II as a gift. Marjorie Anderson tried to reconcile the two by making Carham the confirmation of an earlier cession; G W S Barrow rejected both and argued for a slower process in which Lothian drifted into Scottish lordship over generations.",
+        "The case against the battle-as-border-settlement is straightforward. No source connects Carham to Lothian at all — the connection is an inference drawn centuries later from the fact that Lothian ended up Scottish. Scottish royal authority over the region remained patchy well into the twelfth century, as Neil McGuigan and others have argued, and the earls of Bamburgh continued to matter north of the Tweed after 1018. The collapse of Northumbrian power has causes that have nothing to do with one battle: the Danish conquest of England, the loss of York to Scandinavian and then southern rule, the murder of Uhtred, the removal of Cuthbert's relics to Durham and the reorganisation of the northern church around them.",
+        "What survives of the traditional claim is narrower and more defensible. A Scottish king campaigned south of the Tweed in strength and destroyed a Northumbrian army there, and no Northumbrian army pushed the frontier back north again afterwards. That is a real shift in the balance of the north, and it happened in the generation the frontier settled. Whether the battle caused the settlement or merely marked a stage in it is, on the surviving evidence, not answerable."
+      ]
+    },
+    {
+      "title": "Afterwards",
+      "paragraphs": [
+        "Máel Coluim reigned until 1034 and probably absorbed Strathclyde in the years after Carham; no Cumbrian king appears in the record after about 1031, and the kingdom that Owain the Bald ruled ends there without a recorded conquest or a recorded treaty. His grandson Duncan, and then Macbeth, inherited a mainland realm reaching to the Tweed. On the other side, Northumbria continued as an earldom rather than a kingdom, its northern part governed from Bamburgh and its church from Durham, until the northern earls were broken in their turn at Fulford in 1066 and by the Harrying of the North three years later.",
+        "Carham left almost no mark on medieval memory: it appears in Durham's histories and then largely drops out of sight, and no chronicler made a story of it. Its modern fame is a nineteenth- and twentieth-century creation, and the millennium in 2018 produced a conference and a book of essays devoted mostly to explaining how little is known. That is an unusual afterlife for a battle — famous for a consequence the sources never claim for it."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Northumbria broken again, in 1066",
+    "battleSlug": "battle-of-fulford",
+    "relationship": "same-region",
+    "reason": "Carham destroyed a Northumbrian army on the earldom's northern edge; forty-eight years later at Fulford the earls Edwin and Morcar lost the northern levy again, this time to Harald Hardrada outside York, five days before Stamford Bridge and three weeks before Hastings."
+  },
+  "timeline": [
+    {
+      "date": "1006",
+      "title": "Uhtred defeats an earlier Scottish attack",
+      "description": "Máel Coluim II besieges Durham and is beaten off by Uhtred, who is rewarded with the earldom of Northumbria — the first round of the same fight."
+    },
+    {
+      "date": "1016",
+      "title": "Uhtred murdered",
+      "description": "The Anglo-Saxon Chronicle records Uhtred killed with forty of his men by Thurbrand the Hold, at a peace meeting arranged with Cnut's connivance; his brother Eadwulf Cudel succeeds in Bernicia."
+    },
+    {
+      "date": "August 1018",
+      "title": "A comet over the north",
+      "description": "Symeon of Durham reports a comet visible for thirty nights before the battle, and astronomical records place one in August 1018 — the strongest argument for the later date."
+    },
+    {
+      "date": "1018",
+      "title": "The battle at Carham",
+      "description": "Máel Coluim II and Owain the Bald destroy the Northumbrian levy on the Tweed; eighteen priests are among the dead, and Bishop Ealdhun of Durham dies on hearing the news."
+    },
+    {
+      "date": "after 1018",
+      "title": "Lothian said to be ceded",
+      "description": "Durham tradition has Eadwulf Cudel give up the land between Forth and Tweed to buy peace — the only source for the cession, and written long afterwards."
+    },
+    {
+      "date": "c. 1031",
+      "title": "Strathclyde disappears from the record",
+      "description": "No further king of the Clyde Britons is named, and the kingdom passes into the hands of Máel Coluim's line without any account of how."
+    },
+    {
+      "date": "2018",
+      "title": "The millennium reassessment",
+      "description": "A conference and the volume edited by Neil McGuigan and Alex Woolf conclude that the date, the commander and the border consequence are all less certain than the tradition assumed."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "King of England in 1018, who did not intervene in the north"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "Alba against an English king eighty years earlier"
+      },
+      {
+        "title": "Battle of Fulford",
+        "type": "event",
+        "slug": "battle-of-fulford",
+        "label": "Northumbria's next destruction in the field, 1066"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The earldom that lost the battle"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The kingdom of Alba, whose king led the attack"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The realm whose northern earldom was beaten"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_River_Tweed_At_Carham_-_geograph.org.uk_-_5348659.jpg"
+    },
+    {
+      "title": "Battle of Carham — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Carham"
+    },
+    {
+      "title": "The Battle of Carham: A Thousand Years On",
+      "author": "Neil McGuigan and Alex Woolf (eds), John Donald / Birlinn, 2018",
+      "type": "book",
+      "url": "https://birlinn.co.uk/product/the-battle-of-carham/"
+    },
+    {
+      "title": "From Pictland to Alba, 789–1070",
+      "author": "Alex Woolf",
+      "type": "book"
+    },
+    {
+      "title": "Symeon of Durham, Historia Regum",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Symeon_of_Durham"
+    },
+    {
+      "title": "Owain Foel — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Owain_Foel"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_Birgham_to_Carham_across_the_Tweed_-_geograph.org.uk_-_6818770.jpg"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "battle-of-methven",
+  "type": "event",
+  "name": "Battle of Methven",
+  "year": 1306,
+  "location": "Methven, west of Perth, Scotland",
+  "eventType": "Battle",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lord_Pembroke_(left)_and_Bruce_before_the_battle_of_Methven.jpg",
+  "imageInfo": {
+    "caption": "Aymer de Valence, left, and Robert the Bruce before the Battle of Methven, in a tinted lithograph of about 1900 by an unrecorded English illustrator.",
+    "creator": "English School, artist unrecorded",
+    "date": "c. 1900",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lord_Pembroke_(left)_and_Bruce_before_the_battle_of_Methven.jpg",
+    "note": "A late Victorian or Edwardian book illustration, not a historical source: the armour, the heraldry and the courteous confrontation are the conventions of its own period. It shows the parley that John Barbour describes, in which Valence put the battle off until the next day — the arrangement he then broke by attacking the Scottish camp at dusk. No contemporary depiction of Methven exists; Commons holds only two images of the battle at all."
+  },
+  "summary": "Aymer de Valence surprised Robert the Bruce's camp near Methven at dusk on 19 June 1306, scattering the army of a king who had been crowned twelve weeks earlier and turning him into a fugitive.",
+  "details": "Twelve weeks after his coronation at Scone, Robert the Bruce brought his small army to Perth and challenged Edward I's lieutenant, Aymer de Valence, to come out and fight. Valence replied that the day was late and he would give battle in the morning; that evening, with the Scots encamped some six miles off and their men unarmed, he attacked. The fighting was short and one-sided, the king escaped with a handful of followers, and the prisoners were treated under Edward's standing order that those taken in arms were to be executed without trial.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Robert the Bruce",
+      "faction": "Scots",
+      "personId": "robert-the-bruce"
+    }
+  ],
+  "outcome": "Decisive English victory; the Scottish force was scattered and its leaders killed or executed, and Robert the Bruce was driven into hiding for the rest of the year.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Robert the Bruce",
+          "title": "Robert the Bruce",
+          "type": "person",
+          "slug": "robert-the-bruce"
+        }
+      ],
+      "strength": {
+        "display": "c. 2,000–2,500, most of them dispersed, unarmed or foraging when the attack came",
+        "confidence": "debated",
+        "note": "The usual modern figure of about 2,500 rests on no surviving muster. The number matters less than the condition: this was the following of a king crowned twelve weeks earlier, and it was caught making camp rather than drawn up for battle."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Aymer de Valence",
+          "type": "person",
+          "note": "Edward I's special lieutenant in Scotland, later Earl of Pembroke, and a kinsman by marriage of the murdered John Comyn. No biography in the Codex yet, though he appears again in this archive leading Edward II off the field at the Battle of Bannockburn."
+        },
+        {
+          "name": "Sir Philip de Mowbray",
+          "type": "person",
+          "note": "A Scot in English allegiance who came close to capturing Bruce in the attack. No biography in the Codex yet; he is the same Mowbray who, as keeper of Stirling Castle, struck the bargain that brought on the Battle of Bannockburn in 1314."
+        }
+      ],
+      "strength": {
+        "display": "c. 2,000–2,500 paid troops, mostly archers and crossbowmen, with Scots in Edward I's allegiance",
+        "confidence": "estimated",
+        "note": "English pay records for the force list knights, squires, crossbowmen and a large body of archers, which makes this the better-evidenced side; the precise totals sometimes quoted from those rolls count men paid, not men present at Methven."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Methven, fought on 19 June 1306 a few miles west of Perth, was not a battle in the sense that the Battle of Falkirk or the Battle of Bannockburn was one. It was a raid on a camp: Aymer de Valence, Edward I's lieutenant in Scotland, came out of Perth at dusk and fell on a Scottish army that had unsaddled, put down its weapons and gone looking for food.",
+        "The victim was a king of twelve weeks' standing. Robert the Bruce had killed John Comyn at Dumfries in February and been crowned at Scone in March; at Methven he lost his field army, several of his closest supporters and any prospect of holding Scotland by conventional means. The year that followed was the lowest point of his reign — brothers executed, women of his family imprisoned, the king himself a fugitive in the west — and the way he fought after it was decided by what happened here."
+      ]
+    },
+    {
+      "title": "Background",
+      "paragraphs": [
+        "On 10 February 1306 Bruce met John Comyn, the head of the rival house and the man best placed to oppose him, in the Greyfriars church at Dumfries, and Comyn was killed there. It was murder, and sacrilege as well, and it forced Bruce to move before the consequences caught up with him: he was crowned at Scone on 25 March, with Isabella, Countess of Buchan, performing the office her family traditionally claimed, and he was excommunicated for the killing.",
+        "Edward I's response was not the measured reconquest of 1296. He appointed Aymer de Valence his special lieutenant and ordered the dragon banner raised, the signal that the ordinary conventions were suspended: no quarter, and everyone taken in arms to be put to death without trial. Valence, whose wife was Comyn's kinswoman, took Perth in June and held it. Bruce, with a following drawn largely from his own earldom and the men who had joined him at the coronation, came up to the walls and challenged him to come out and fight."
+      ]
+    },
+    {
+      "title": "The challenge and the attack",
+      "paragraphs": [
+        "Valence answered that the hour was late and that he would give battle in the morning. Bruce accepted the answer, drew off about six miles to the wooded country near Methven and the River Almond, and made camp. His men took off their armour, turned the horses out and scattered to forage. Whether he had been given a promise or had merely assumed one is the point on which the sources divide, and it matters, because the whole moral weight of the story rests on it.",
+        "The chivalric version comes from John Barbour, whose verse life of the king, The Brus, was written about 1375 under Bruce's grandson: in Barbour the deferral is a formal undertaking and Valence breaks it. English record has no such undertaking and no reason to invent one, and a commander who had been told to give no quarter was unlikely to feel bound by the etiquette of the tournament. What is agreed is the event: as darkness came on, Valence brought his force out of Perth and struck the camp."
+      ]
+    },
+    {
+      "title": "The fighting",
+      "paragraphs": [
+        "There was little fighting to describe. The Scots got what men they could into some kind of order and were ridden over; the rest were caught unarmed among the tents and the horse lines. Bruce himself was unhorsed in the press — Barbour says three times, and has him rescued each time, once by Sir Christopher Seton and once from the grasp of Sir Philip de Mowbray, who had recognised him and taken hold of his bridle.",
+        "The prisoners tell the story better than the casualties. Alexander Scrymgeour, who carried the royal standard, David de Inchmartin, Alexander Fraser, Hugh de la Haye, John de Somerville and Bruce's own chaplain were taken, along with Thomas Randolph, the king's nephew. Scrymgeour and Inchmartin were executed under Edward's order. Randolph, who afterwards served the English for a time before returning to his uncle, lived to command a division at Bannockburn — the clearest measure of how narrow the margin was between a lost cause and a won one. Bruce got away west with a few hundred men, among them his brother Edward and James Douglas."
+      ]
+    },
+    {
+      "title": "The fugitive year",
+      "paragraphs": [
+        "The retreat became a disintegration. Moving west through Breadalbane, the remnant was attacked again in the summer at Dalrigh by the MacDougalls of Lorn, kinsmen of the murdered Comyn, and broke up for good. Bruce sent the women of his household north for safety under his brother Neil and the Earl of Atholl; they were seized at the sanctuary of Saint Duthac at Tain and handed to the English by the Earl of Ross.",
+        "Edward I treated them as rebels rather than noncombatants. Bruce's brothers Neil, and later Thomas and Alexander, were executed; his sister Mary and Isabella, Countess of Buchan, who had crowned him, were shut in cages; his daughter Marjorie Bruce spent eight years in English custody. The king vanished over the winter of 1306 into the western isles, and the received story of the spider in the cave belongs to this gap in the record, where later tradition supplied what the sources do not."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Methven taught Bruce the lesson Falkirk had taught the Scots eight years earlier, and this time it was learned. He never again gave an English commander the chance to fight him on ground and terms of that commander's choosing. When he returned in 1307 he fought in ambush and by night, in country he knew, against detachments rather than armies; he took English-held castles by escalade and surprise and then pulled them down so they could not be held against him again.",
+        "The refusal of pitched battle lasted until 1314, and even then it was forced on him: his brother's bargain over Stirling Castle committed him to meet an English army in the field, and he accepted it only after eight years of avoiding exactly that. The Battle of Bannockburn is the victory Scotland remembers, but the discipline that won it — schiltrons trained to move, prepared ground, an army that would not fight until the conditions were right — was assembled in the years after a king lost everything to a night attack outside Perth."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The recovery completed at Bannockburn",
+    "battleSlug": "battle-of-bannockburn",
+    "relationship": "same-war",
+    "reason": "Methven drove Robert the Bruce out of Scotland as a fugitive and taught him never to fight an English army on its own terms; eight years of ambush, castle-taking and refused battles later, he accepted one at Bannockburn on ground of his own choosing and secured his kingship."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Commander"
+      },
+      {
+        "title": "Marjorie Bruce",
+        "type": "person",
+        "slug": "marjorie-bruce",
+        "label": "Seized with the royal women after the defeat"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Scone",
+        "type": "location",
+        "slug": "scone",
+        "label": "Where Bruce was crowned twelve weeks earlier"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Falkirk",
+        "type": "event",
+        "slug": "battle-of-falkirk",
+        "label": "The earlier lesson in open battle"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "10 February 1306",
+      "title": "John Comyn killed at Dumfries",
+      "description": "Bruce kills his chief rival in the Greyfriars church, an act of murder and sacrilege that forces him to seize the crown at once."
+    },
+    {
+      "date": "25 March 1306",
+      "title": "Crowned at Scone",
+      "description": "Isabella, Countess of Buchan, places the crown on Bruce's head; he is excommunicated for the killing at Dumfries."
+    },
+    {
+      "date": "Spring 1306",
+      "title": "Edward I raises the dragon banner",
+      "description": "Aymer de Valence is made special lieutenant in Scotland with orders that no quarter be given and that all taken in arms be executed without trial."
+    },
+    {
+      "date": "June 1306",
+      "title": "Valence holds Perth",
+      "description": "Bruce brings his small army to the walls and challenges the English commander to come out and give battle."
+    },
+    {
+      "date": "19 June 1306",
+      "title": "The attack at dusk",
+      "description": "Told that battle would be joined the next morning, the Scots make camp near Methven and disarm; Valence attacks the camp as darkness falls."
+    },
+    {
+      "date": "19 June 1306",
+      "title": "The army scattered",
+      "description": "Bruce is unhorsed and escapes with a few hundred men; Alexander Scrymgeour, Thomas Randolph and others are captured, and several prisoners are executed."
+    },
+    {
+      "date": "Summer 1306",
+      "title": "Dalrigh and the flight west",
+      "description": "The remnant is attacked again by the MacDougalls of Lorn and breaks up; Bruce sends the royal women north for safety."
+    },
+    {
+      "date": "Autumn 1306",
+      "title": "The royal women taken at Tain",
+      "description": "Seized at the sanctuary of Saint Duthac and handed to the English, they are imprisoned; Bruce's brother Neil is executed."
+    },
+    {
+      "date": "Winter 1306–07",
+      "title": "The king disappears",
+      "description": "Bruce spends the winter in the western isles, returning in 1307 to fight a war of ambush and surprise rather than pitched battle."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Lord_Pembroke_(left)_and_Bruce_before_the_battle_of_Methven.jpg"
+    },
+    {
+      "title": "Battle of Methven — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Methven"
+    },
+    {
+      "title": "Battle of Methven — The Gazetteer for Scotland",
+      "author": "The Gazetteer for Scotland",
+      "type": "reference work",
+      "url": "https://www.scottish-places.info/events/eventfirst159.html"
+    },
+    {
+      "title": "John Barbour, The Brus",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/The_Brus"
+    },
+    {
+      "title": "Robert Bruce and the Community of the Realm of Scotland",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ]
+}

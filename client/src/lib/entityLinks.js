@@ -411,6 +411,7 @@ export const entityLinks = [
   { label: "Battle of Akroinon", aliases: ["Battle of Akroinos","Akroinon"], type: "event", slug: "battle-of-akroinon" },
   { label: "Battle of Alarcos", aliases: ["al-Arak","Battle of al-Arak"], type: "event", slug: "battle-of-alarcos" },
   { label: "Battle of Aljubarrota", aliases: ["Aljubarrota"], type: "event", slug: "battle-of-aljubarrota" },
+  { label: "Battle of Alnwick (1174)", aliases: ["Battle of Alnwick","Capture of William the Lion","Alnwick (1174)"], type: "event", slug: "battle-of-alnwick" },
   { label: "Battle of Arsuf", aliases: ["Arsuf"], type: "event", slug: "battle-of-arsuf" },
   { label: "Battle of Atoleiros", aliases: ["Atoleiros"], type: "event", slug: "battle-of-atoleiros" },
   { label: "Battle of Bannockburn", type: "event", slug: "battle-of-bannockburn" },
@@ -418,15 +419,21 @@ export const entityLinks = [
   { label: "Battle of Beroia", aliases: ["Battle of Beroe","Beroia"], type: "event", slug: "battle-of-beroia" },
   { label: "Battle of Bouvines", type: "event", slug: "battle-of-bouvines" },
   { label: "Battle of Brunanburh", aliases: ["Brunanburh"], type: "event", slug: "battle-of-brunanburh" },
+  { label: "Battle of Carham", aliases: ["Battle of Carham on Tweed","Carham"], type: "event", slug: "battle-of-carham" },
   { label: "Battle of Castillon", aliases: ["Castillon"], type: "event", slug: "battle-of-castillon" },
   { label: "Battle of Covadonga", type: "event", slug: "battle-of-covadonga" },
   { label: "Battle of Crécy", aliases: ["Crécy"], type: "event", slug: "battle-of-crecy" },
+  { label: "Battle of Dunbar", aliases: ["Dunbar"], type: "event", slug: "battle-of-dunbar" },
+  { label: "Battle of Dupplin Moor", aliases: ["Dupplin Moor"], type: "event", slug: "battle-of-dupplin-moor" },
   { label: "Battle of Edington", aliases: ["Edington"], type: "event", slug: "battle-of-edington" },
+  { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
+  { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
   { label: "Battle of Formigny", aliases: ["Formigny"], type: "event", slug: "battle-of-formigny" },
   { label: "Battle of Fulford", aliases: ["Fulford"], type: "event", slug: "battle-of-fulford" },
   { label: "Battle of Gestilren", type: "event", slug: "battle-of-gestilren" },
   { label: "Battle of Grunwald", type: "event", slug: "battle-of-grunwald" },
   { label: "Battle of Hafrsfjord", aliases: ["Hafrsfjord"], type: "event", slug: "battle-of-hafrsfjord" },
+  { label: "Battle of Halidon Hill", aliases: ["Halidon Hill"], type: "event", slug: "battle-of-halidon-hill" },
   { label: "Battle of Hastings", type: "event", slug: "battle-of-hastings" },
   { label: "Battle of Hattin", aliases: ["Hattin"], type: "event", slug: "battle-of-hattin" },
   { label: "Battle of Kleidion", aliases: ["Battle of Belasitsa","Battle of the Kleidion Pass","Kleidion"], type: "event", slug: "battle-of-kleidion" },
@@ -436,7 +443,9 @@ export const entityLinks = [
   { label: "Battle of Legnano", type: "event", slug: "battle-of-legnano" },
   { label: "Battle of Legnica", aliases: ["Battle of Liegnitz","Battle of Wahlstatt","Legnica"], type: "event", slug: "battle-of-legnica" },
   { label: "Battle of Levounion", aliases: ["Battle of Mount Levounion","Levounion"], type: "event", slug: "battle-of-levounion" },
+  { label: "Battle of Lewes", aliases: ["Lewes"], type: "event", slug: "battle-of-lewes" },
   { label: "Battle of Manzikert", type: "event", slug: "battle-of-manzikert" },
+  { label: "Battle of Methven", aliases: ["Methven"], type: "event", slug: "battle-of-methven" },
   { label: "Battle of Mohi", type: "event", slug: "battle-of-mohi" },
   { label: "Battle of Mons Lactarius", aliases: ["Mons Lactarius"], type: "event", slug: "battle-of-mons-lactarius" },
   { label: "Battle of Myriokephalon", aliases: ["Battle of Myriocephalum","Düzbel","Miryokefalon","Myriokephalon"], type: "event", slug: "battle-of-myriokephalon" },
@@ -839,6 +848,39 @@ export const ambiguousEntityAliases = [
         slug: "cnut-vi-of-denmark",
         date: "d. 1202",
         contextHints: ["Absalon", "1182", "1202", "Lübeck", "Bogislaw", "Valdemar II"]
+      }
+    ]
+  },
+  {
+    // Bare "Falkirk" is the town as often as the battle: Edward II marched his army
+    // through it in 1314 on the way to Bannockburn. gen-entity-links gives every new
+    // battle a bare short alias, so without this guard that march would link to
+    // Wallace's defeat of 1298. Link the battle only where the passage is about it.
+    terms: ["Falkirk"],
+    possibleTargets: [
+      {
+        title: "Battle of Falkirk",
+        label: "Battle of Falkirk",
+        type: "event",
+        slug: "battle-of-falkirk",
+        date: "1298",
+        contextHints: ["1298", "Wallace", "schiltron", "schiltrons", "Guardian", "Edward I", "archers", "Stirling Bridge"]
+      }
+    ]
+  },
+  {
+    // Bare "Dunbar" is the town, the castle and the earldom: Edward II escaped through
+    // it after Bannockburn in 1314. Link the 1296 battle only where the passage is
+    // about Edward I's conquest.
+    terms: ["Dunbar"],
+    possibleTargets: [
+      {
+        title: "Battle of Dunbar",
+        label: "Battle of Dunbar",
+        type: "event",
+        slug: "battle-of-dunbar",
+        date: "1296",
+        contextHints: ["1296", "Balliol", "Warenne", "Surrey", "Spott", "Toom Tabard", "Stone of Scone", "conquest"]
       }
     ]
   },
