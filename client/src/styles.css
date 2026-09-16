@@ -3644,8 +3644,19 @@ a.tree-person:hover .tree-person-name {
 /* The shared dark backdrop behind page sections is a fixed band (660–760px).
    Insights grew past it once the accounts chart was added, so the chart ran onto
    the light page. On this page the band covers the whole section instead. */
+/* Insights is the one page-section that runs long, and its dark ground was a
+   fixed band: `.page-section::before` sets `inset: 0 50% auto 50%` — an AUTO
+   bottom — and sizes itself with `min-height: clamp(660px, 62vw, 760px)`.
+   Content past about 760px therefore fell off the dark band onto the light body,
+   taking the ivory chart titles with it and rendering them near-invisible
+   (owner report, 0n.2).
+
+   `bottom: 0` alone was already here and could not work: the min-height keeps
+   forcing the band's floor regardless. Clearing it is the other half of the
+   fix, so the ground stretches to whatever the page actually needs. */
 .insights-page::before {
   bottom: 0;
+  min-height: 0;
 }
 
 .insights-summary {
