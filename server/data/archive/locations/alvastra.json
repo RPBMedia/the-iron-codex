@@ -4,39 +4,88 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Sverker I of Sweden",
-    "Alvastra Abbey",
-    "Swedish dynastic conflict"
+    "The first Cistercian house in Sweden, founded from Clairvaux in 1143",
+    "The burial church of the Sverker dynasty, including Sverker I after his murder in 1156",
+    "Birgitta of Sweden’s years at Alvastra, where her husband died in 1344"
   ],
   "overview": [
-    "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty."
+    "A Cistercian abbey under Omberg in Östergötland, founded in 1143, and the burial place of the kings of the House of Sverker."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Alvastra was a Cistercian monastery in Östergötland, founded in 1143 as one of the first Cistercian houses in Sweden. It was established under royal and noble patronage and became an important center of religious and political life."
+        "Alvastra stands at the foot of Omberg in Östergötland, near the eastern shore of Lake Vättern. It was founded in 1143 by monks sent from Clairvaux, and it was the first Cistercian house in Sweden — one of a pair, with Nydala in Småland, established in the same year.",
+        "For the next four centuries it was among the wealthiest religious houses in the kingdom, and it is bound up with two very different stories: the dynastic war between the houses of Sverker and Erik, whose kings are buried in its church, and the early life of Birgitta, the only Swedish saint of international standing."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "A daughter house of Clairvaux",
       "paragraphs": [
-        "Sverker I of Sweden was associated with Alvastra and was buried there after his murder in 1156. The monastery's Cistercian connection also made it significant for Birgitta of Sweden in the fourteenth century, who received visions near Alvastra that became foundational to her spiritual biography."
+        "The Cistercians came to Sweden at the invitation of Queen Ulvhild, wife of Sverker the Elder, and the land they were given at Alvastra was part of her morning gift — the property settled on her at marriage, which she was free to dispose of. Sverker’s own role in the foundation is less clearly documented than later tradition suggests, but the royal association was there from the beginning.",
+        "The monks arrived from Clairvaux, Bernard’s own house, which put Alvastra at the head of the Cistercian network in the north. Building took decades: the abbey church was not consecrated until 1185. The house was productive in the Cistercian way, colonising further sites — Varnhem in Västergötland was founded from Alvastra about 1150 — and accumulating estates across Östergötland."
+      ]
+    },
+    {
+      "title": "The Sverker burial church",
+      "paragraphs": [
+        "Alvastra became the mausoleum of the dynasty that founded it. The graves in the abbey ruins include the kings Sverker I, Karl Sverkersson, Sverker II and John I, together with the queens Richeza, Benedicta and — probably — Ulvhild herself.",
+        "That concentration is a political fact, not merely a devotional one. Twelfth- and thirteenth-century Sweden was fought over by two families, the Sverkers of Östergötland and the Eriks of Västergötland and the north, and each built up a monastic house to serve as its burial church. A dynasty that could show four kings in the floor of one abbey was making an argument about who ought to rule."
+      ]
+    },
+    {
+      "title": "The murder of Sverker I",
+      "paragraphs": [
+        "On Christmas Day 1156 Sverker I set out before dawn for the early service and was murdered in his own carriage at the Alebäck bridge, close to the abbey. The killer was one of his own household servants — the detail that makes the story: a king killed not in battle or by a rival’s army but by a trusted man on a short journey to church.",
+        "Who was behind it is another matter. Saxo Grammaticus asserts that the Danish prince Magnus Henriksson procured the murder out of his own ambition for the Swedish throne, and Magnus did briefly take it a few years later. But Saxo is a Danish writer with his own purposes, no independent source corroborates him, and the archive treats the instigation as unproven while the murder itself is not in doubt.",
+        "Sverker was buried at Alvastra, in the church then still under construction, and his death opened the long alternation between the two houses that shaped Swedish politics for the next century."
+      ]
+    },
+    {
+      "title": "Birgitta and Ulf Gudmarsson",
+      "paragraphs": [
+        "In the 1340s Alvastra acquired a second significance. Ulf Gudmarsson, a lawman and the husband of Birgitta Birgersdotter, withdrew to the abbey and died there in 1344, and was buried in the church.",
+        "Birgitta stayed on in the neighbourhood as a widow until 1349, and it was here that the visions began which made her career. They were written down by the prior, Peter Olofsson, who became her confessor and one of the men responsible for the Latin text of the Revelations. She left for Rome in 1349 and never returned to Sweden; she was canonised in 1391, and the order she founded took root at Vadstena, a few kilometres up the lake shore."
+      ]
+    },
+    {
+      "title": "Dissolution and the ruin",
+      "paragraphs": [
+        "The end came with the Reformation. Gustav Vasa’s reduction of church property from 1527 stripped the monasteries of their estates and income; Alvastra’s last abbot left in 1529, the remaining monks dispersed within a few years, and the buildings passed to the crown as a royal estate.",
+        "The fabric was then treated as a quarry, which is why so little stands: a clear ground plan of church, cloister and ranges in the standard Cistercian arrangement, low walls in a field under Omberg, with the royal graves among them."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Alvastra",
+      "title": "Alvastra kloster",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/Alvastra_kloster"
+    },
+    {
+      "title": "Alvastra Abbey",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Alvastra_Abbey"
+    },
+    {
+      "title": "Sverker I of Sweden",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sverker_I_of_Sweden"
+    },
+    {
+      "title": "Gesta Danorum",
+      "author": "Saxo Grammaticus",
+      "type": "primary source",
+      "note": "Claims Magnus Henriksson procured the murder of Sverker I; uncorroborated by any independent source."
+    },
+    {
+      "title": "Wikimedia Commons image record: Alvastra klosterruin",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Alvastra_klosterruin.jpg"
-    },
-    {
-      "title": "Alvastra reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Alvastra"
     }
   ],
   "relatedEntries": {
@@ -45,17 +94,31 @@
         "title": "Sverker I of Sweden",
         "type": "person",
         "slug": "sverker-i-of-sweden",
-        "label": "Death of Sverker I of Sweden"
+        "label": "Murdered nearby in 1156 and buried here"
       },
       {
-        "title": "Inge the Elder",
+        "title": "Charles VII Sverkersson",
         "type": "person",
-        "slug": "inge-the-elder"
+        "slug": "charles-vii-sverkersson",
+        "label": "His son, also buried here"
+      },
+      {
+        "title": "Sverker II of Sweden",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden",
+        "label": "Buried in the abbey church"
+      },
+      {
+        "title": "John I Sverkersson",
+        "type": "person",
+        "slug": "john-i-sverkersson",
+        "label": "The last Sverker king, buried here"
       },
       {
         "title": "Eric IX of Sweden",
         "type": "person",
-        "slug": "eric-ix-of-sweden"
+        "slug": "eric-ix-of-sweden",
+        "label": "Rival of the Sverkers for the throne"
       }
     ],
     "locations": [
@@ -64,25 +127,77 @@
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
+      },
+      {
+        "title": "Visingsö",
+        "type": "location",
+        "slug": "visingso",
+        "label": "The Sverker royal castle on Lake Vättern"
       }
     ]
   },
   "id": "alvastra",
   "name": "Alvastra",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alvastra_klosterruin.jpg",
-  "summary": "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty.",
+  "summary": "The first Cistercian abbey in Sweden, founded in 1143 from Clairvaux under the patronage of Sverker I and Queen Ulvhild, and the burial church of the Sverker kings.",
   "imageInfo": {
-    "caption": "The monastic landscape associated with Sverker I's murder tradition and the Sverker dynasty.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "The ruins of Alvastra Abbey in Östergötland, photographed in July 2010.",
+    "creator": "Pelle Sten",
+    "date": "Photographed 23 July 2010; the abbey was founded in 1143",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alvastra_klosterruin.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 3.0",
+    "note": "The walls stand only a few courses high: after the Reformation the abbey was quarried for building stone, some of it carried off for royal works, so what survives is the ground plan of the church and claustral ranges rather than standing architecture."
   },
   "coordinates": {
     "lat": 58.2964,
     "lon": 14.6536
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "aliases": [
+    "Alvastra Abbey",
+    "Alvastra kloster"
+  ],
+  "timeline": [
+    {
+      "date": "1143",
+      "title": "Founded from Clairvaux",
+      "description": "Monks from Clairvaux settle at Alvastra on land from Queen Ulvhild’s morning gift; it is the first Cistercian house in Sweden."
+    },
+    {
+      "date": "c. 1150",
+      "title": "Varnhem founded",
+      "description": "Alvastra sends monks to found Varnhem in Västergötland."
+    },
+    {
+      "date": "25 December 1156",
+      "title": "Sverker I murdered",
+      "description": "The king is killed in his carriage at the Alebäck bridge near the abbey by one of his own servants, and is buried in the church."
+    },
+    {
+      "date": "1185",
+      "title": "The abbey church consecrated",
+      "description": "The church is completed and dedicated, more than forty years after the foundation."
+    },
+    {
+      "date": "1344",
+      "title": "Death of Ulf Gudmarsson",
+      "description": "Birgitta’s husband withdraws to Alvastra, dies there and is buried in the church."
+    },
+    {
+      "date": "1344-1349",
+      "title": "Birgitta’s visions",
+      "description": "Widowed, Birgitta remains at Alvastra, where Prior Peter Olofsson records the visions that become the Revelations; she leaves for Rome in 1349."
+    },
+    {
+      "date": "1391",
+      "title": "Birgitta canonised",
+      "description": "The woman whose visionary career began at Alvastra is made a saint."
+    },
+    {
+      "date": "1529",
+      "title": "The last abbot leaves",
+      "description": "After Gustav Vasa’s reduction of church property, the abbey is dissolved and its buildings are later quarried for stone."
+    }
+  ]
 }

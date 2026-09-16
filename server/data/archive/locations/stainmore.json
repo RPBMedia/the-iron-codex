@@ -4,39 +4,87 @@
   "year": "Medieval period",
   "kingdom": "Northern England",
   "knownFor": [
-    "Eric Bloodaxe",
-    "Kingdom of York",
-    "Northern English routes"
+    "The crossing of the northern Pennines between Cumbria and Teesdale",
+    "The Rey Cross, a tenth-century cross long read as a frontier marker",
+    "The tradition that Eric Bloodaxe was killed here in 954"
   ],
   "overview": [
-    "A northern English upland route traditionally associated with Eric Bloodaxe's death."
+    "An upland pass and stretch of moor carrying the road over the northern Pennines, traditionally the place of Eric Bloodaxe’s death."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Stainmore is a Pennine pass between Yorkshire and Cumbria in northern England. Eric Bloodaxe, the last Norse king of York, was killed there around 954 in ambush, traditionally attributed to Northumbrian interests acting in concert with the English crown."
+        "Stainmore is a stretch of high, bare moorland in the northern Pennines, on the boundaries of Cumbria, County Durham and North Yorkshire. Its name is recorded from about 990 as Stanmoir, the stony moor, which is an exact description of the ground.",
+        "It is a region rather than a site. What gives it importance is that it is the lowest and broadest saddle across the northern Pennines — the Stainmore Gap, the summit of the old railway line over it standing at about 420 metres — and therefore the natural route between the Eden valley in the west and Teesdale in the east. Armies, traders and, if the tradition is right, a fleeing Norse king all used it."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The gap",
       "paragraphs": [
-        "Eric's death at Stainmore ended Viking kingship in northern England. His killing allowed Eadred of England to consolidate control over Northumbria and ended the alternating English and Norse royal authority over York that had characterized the 870s–950s."
+        "The Pennines run the length of northern England and are crossed easily in very few places. Stainmore is one of them, which is why the route has been in continuous use from the Roman period to the present trunk road, and why control of it mattered to anyone holding either York or the north-west.",
+        "The country itself is unforgiving — peat, rough grass, and weather that closes the road in winter. Nothing grows here worth fighting for; the value is entirely in the passage. That is the single fact that explains every event associated with the name."
+      ]
+    },
+    {
+      "title": "The Roman road and the Rey Cross",
+      "paragraphs": [
+        "The Romans took the obvious line, running a road across the pass between the forts at Bowes and Brough, with a marching camp at Rey Cross — now a Scheduled Monument — and a signal station on the heights. The camp is one of the more substantial Roman earthworks in the region and it fixes the antiquity of the route.",
+        "The Rey Cross itself is a tenth-century cross standing near the summit, and it has carried a heavy load of interpretation. It has long been read as the boundary marker between English Northumbria and the British kingdom of Strathclyde or Cumbria, and it has also been explained as a tomb marker or a memorial. Scholars genuinely disagree, and there is no further evidence to settle it — an early medieval cross on a watershed, doing whatever it was put there to do."
+      ]
+    },
+    {
+      "title": "The killing of Eric Bloodaxe",
+      "paragraphs": [
+        "In 954 the Northumbrians expelled their king Eric, the last Norse ruler of York. The fullest account of what happened next comes from Roger of Wendover, writing in the thirteenth century, three hundred years after the event: Eric was \"treacherously killed by Earl Maccus in a certain lonely place which is called Stainmore\", betrayed by Earl Oswulf, and died there together with his son Haeric and his brother Ragnald.",
+        "The contemporary evidence says far less. The Anglo-Saxon Chronicle’s D-text records only that the Northumbrians drove him out in 954 — no ambush, no Stainmore, no Maccus and no Oswulf. Roger was probably drawing on a northern source now lost, and most historians accept the general outline while treating the detail with caution. The one thing that fits is the aftermath: Oswulf, high-reeve of Bamburgh, was made earl of the whole of Northumbria the following year, which is what a man who had arranged a betrayal might expect.",
+        "A larger question sits behind it. Whether Eric of York was the same man as Eric Bloodaxe, son of Harald Fairhair and briefly king in Norway, has been seriously disputed — Clare Downham has argued that later Norse writers combined two different Erics into one figure — and no consensus has emerged. The archive records the traditional identification while noting that it is contested."
+      ]
+    },
+    {
+      "title": "What the pass became",
+      "paragraphs": [
+        "Eric’s death, whatever its details, marks the end of an independent Northumbria. No king ruled at York again: the kingdom was absorbed into a single English realm, and the alternation of English and Norse rulers that had gone on since the 870s stopped for good.",
+        "Stainmore itself carried on as what it had always been — a road over the moor. The Rey Cross stands near the modern route, the Roman camp survives beside it, and there is no monument to the king who is supposed to have died somewhere on these miles of open ground."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Stainmore",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Stainmore_summit_-_geograph.org.uk_-_131698.jpg"
+      "title": "Stainmore",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stainmore"
     },
     {
-      "title": "Stainmore reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Stainmore"
+      "title": "Eric Bloodaxe",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_Bloodaxe"
+    },
+    {
+      "title": "Flores Historiarum",
+      "author": "Roger of Wendover",
+      "type": "primary source",
+      "note": "The thirteenth-century source for the ambush at Stainmore, the betrayal by Oswulf and the killing by Maccus."
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, D-text, annal for 954",
+      "author": "Anglo-Saxon Chronicle",
+      "type": "primary source",
+      "note": "Records only that the Northumbrians expelled Eric; it says nothing of Stainmore."
+    },
+    {
+      "title": "Viking Kings of Britain and Ireland",
+      "author": "Clare Downham",
+      "type": "modern scholarship",
+      "note": "Argues that later Norse writers conflated two different Erics; no consensus has followed."
+    },
+    {
+      "title": "Wikimedia Commons image record: The Punch Bowl, North Stainmore",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Punch_Bowl%2C_North_Stainmore_-_geograph.org.uk_-_136760.jpg"
     }
   ],
   "relatedEntries": {
@@ -45,39 +93,102 @@
         "title": "Eric Bloodaxe",
         "type": "person",
         "slug": "eric-bloodaxe",
-        "label": "Death of Eric Bloodaxe"
+        "label": "Killed here in 954 by the traditional account"
+      },
+      {
+        "title": "Eadred of England",
+        "type": "person",
+        "slug": "eadred-of-england",
+        "label": "English king who gained Northumbria by Eric’s fall"
       },
       {
         "title": "Harald Fairhair",
         "type": "person",
-        "slug": "harald-fairhair"
+        "slug": "harald-fairhair",
+        "label": "His father, if the identification is right"
       },
       {
         "title": "Haakon the Good",
         "type": "person",
-        "slug": "haakon-the-good"
+        "slug": "haakon-the-good",
+        "label": "His brother, who held Norway in his absence"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Norway",
+        "title": "Kingdom of York",
         "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Realm of Eric Bloodaxe"
+        "slug": "kingdom-of-york",
+        "label": "The realm he lost in 954"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Absorbed into England after his death"
+      },
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The Scandinavian north his kingship belonged to"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Which took Northumbria for good"
       }
     ]
   },
   "id": "stainmore",
   "name": "Stainmore",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Punch_Bowl%2C_North_Stainmore_-_geograph.org.uk_-_136760.jpg",
-  "summary": "A northern English upland route traditionally associated with Eric Bloodaxe's death.",
+  "summary": "The bleak Pennine crossing between the Eden valley and Teesdale, a Roman road, a frontier marked by the Rey Cross, and the place where Eric Bloodaxe is said to have been killed in 954.",
   "imageInfo": {
-    "caption": "The Stainmore pass in the northern Pennines, where Eric Bloodaxe was killed c. 954.",
+    "caption": "The Punch Bowl at North Stainmore in the northern Pennines, photographed in 2006.",
     "creator": "Bob Jenkins",
-    "date": "2006-03-13",
-    "source": "Wikimedia Commons",
+    "date": "Photographed 13 March 2006",
+    "source": "Geograph, via Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Punch_Bowl%2C_North_Stainmore_-_geograph.org.uk_-_136760.jpg",
     "license": "CC BY-SA 2.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
-  }
+    "note": "A landscape photograph of the moor rather than of a site. Stainmore is a broad upland region and a route, not a point on the map, and no location within it can be identified as the place where Eric Bloodaxe died."
+  },
+  "aliases": [
+    "Stainmore Pass",
+    "Stanmoir",
+    "Stainmore Gap"
+  ],
+  "timeline": [
+    {
+      "date": "1st-2nd century",
+      "title": "The Roman road",
+      "description": "A road is driven across the pass between the forts at Bowes and Brough, with a marching camp at Rey Cross."
+    },
+    {
+      "date": "10th century",
+      "title": "The Rey Cross raised",
+      "description": "A stone cross is set up near the summit, variously explained as a boundary marker, a tomb or a memorial."
+    },
+    {
+      "date": "954",
+      "title": "Eric expelled from York",
+      "description": "The Anglo-Saxon Chronicle records that the Northumbrians drove out their king Eric."
+    },
+    {
+      "date": "954",
+      "title": "The killing at Stainmore",
+      "description": "Roger of Wendover, three centuries later, records that Eric was betrayed by Oswulf and killed by Maccus at Stainmore with his son and brother."
+    },
+    {
+      "date": "955",
+      "title": "Oswulf made earl",
+      "description": "Oswulf of Bamburgh is appointed earl of all Northumbria, the one part of the story the record supports."
+    },
+    {
+      "date": "c. 990",
+      "title": "The name recorded",
+      "description": "The place appears as Stanmoir, the stony moor."
+    }
+  ]
 }

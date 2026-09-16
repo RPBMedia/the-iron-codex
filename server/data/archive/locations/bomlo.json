@@ -4,39 +4,74 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Magnus Eriksson",
-    "Norwegian coast",
-    "Swedish-Norwegian union"
+    "The drowning of Magnus Eriksson at Lyngholmen on 1 December 1374",
+    "A position on the leia, the sheltered coastal shipping lane of western Norway",
+    "Moster and its twelfth-century stone church"
   ],
   "overview": [
-    "A western Norwegian island region traditionally associated with Magnus Eriksson's drowning."
+    "A western Norwegian island municipality on the main coastal sailing route, where Magnus Eriksson was drowned in 1374."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Bømlo is an island off the Norwegian coast in Hordaland associated with the death of Magnus Eriksson in 1374, traditionally by drowning. Magnus had lost effective rule in both Sweden and Norway years before his death."
+        "Bømlo is not one island but around nine hundred islands, islets and skerries in southern Vestland, lying north of the entrance to the Hardangerfjord. The main island gives the municipality its name, and the waters around it — the Bømlafjorden and the sounds between the skerries — carry the main north-south sea route along the Norwegian coast.",
+        "In a country where until modern times almost all travel of any distance went by water, that made this an unavoidable stretch of road rather than a remote archipelago. Kings, bishops, traders and fleets passed through it, and one king did not get past it."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The shipping lane",
       "paragraphs": [
-        "Magnus Eriksson's drowning near Bømlo closed a reign marked by dynastic ambition, political defeat, and the catastrophic impact of the Black Death on Scandinavian governance. He had been deposed in Sweden in 1364 and effective Norwegian control had passed to his son Haakon VI."
+        "The Norwegian coast is sheltered from the open Atlantic by a nearly continuous chain of islands, and the passage inside them — the leia — allowed medieval ships to run the length of the country in relative safety. Bømlo sits on that route at the point where vessels coming south from Bergen must cross the mouth of the Hardangerfjord.",
+        "Shelter is relative. The channels are narrow, studded with skerries that barely break the surface, and swept by tides and winter storms, and a December passage in an open-decked medieval ship was a serious undertaking. The sailing conditions here are the reason Bømlo appears in the record at all."
+      ]
+    },
+    {
+      "title": "Moster",
+      "paragraphs": [
+        "The island of Moster, part of the municipality, carries a small stone church of the twelfth century — one of the oldest churches in Norway, and a substantial thing to find in a fishing community of this size. Its presence says something about the traffic passing the island: a stone church needed patrons and a reason.",
+        "Moster is also the centre of Norwegian tradition about the coming of Christianity to the country, and the arrival of the new religion by sea is staged there each summer in an open-air play, the Mostraspelet. The play is a modern institution rather than a medieval one, and the traditions it dramatises belong to saga literature written down long after the events, but the church is real and early."
+      ]
+    },
+    {
+      "title": "The drowning of Magnus Eriksson, 1374",
+      "paragraphs": [
+        "Magnus Eriksson had been king of Sweden and of Norway, and had lost both. He was deposed in Sweden in 1364 in favour of Albert of Mecklenburg, spent years in captivity, and was released in 1371 when his son Haakon VI paid twelve thousand marks for him. He lived his last years in Norway under his son’s protection, a king without a kingdom.",
+        "On 1 December 1374 he was sailing from Bergen towards eastern Norway when his ship ran aground at Lyngholmen, off the Bømlafjorden, and he was drowned. The Icelandic annals record the wreck, which is how the date is known, and the loss of a former king of two kingdoms in a coastal accident is exactly the kind of event the annals were good at registering and bad at describing: there is no account of how it happened."
+      ]
+    },
+    {
+      "title": "A king with no grave",
+      "paragraphs": [
+        "Magnus and his wife Blanche had asked in their testament of 1347 to be buried at Vadstena, the house in Sweden that Birgitta founded, but by 1374 the politics made that impossible and the wish was not honoured. Where he was actually buried is not known; the church of St Mary in Oslo has been suggested, without proof. For a man who wore two crowns, the absence of a grave is striking.",
+        "The vacuum drew stories. A later Russian chronicle claimed that Magnus survived the wreck and ended his life as a monk in the Novgorod lands, a tale with no support in the Scandinavian record and treated as apocryphal. The bare facts remain a wreck on a December night among the skerries, and a king who went into the water off Bømlo."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Bømlo",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:B%C3%B8mlo_landscape.jpg"
+      "title": "Magnus 7 Eriksson",
+      "author": "Store norske leksikon",
+      "type": "encyclopedia",
+      "url": "https://snl.no/Magnus_7_Eriksson"
     },
     {
-      "title": "Bømlo reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/B%C3%B8mlo"
+      "title": "Magnus IV of Sweden",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Magnus_IV_of_Sweden"
+    },
+    {
+      "title": "Bømlo Municipality",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/B%C3%B8mlo_Municipality"
+    },
+    {
+      "title": "Wikimedia Commons image record: Bremnes, Bømlo",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bremnes%2C_B%C3%B8mlo.JPG"
     }
   ],
   "relatedEntries": {
@@ -45,12 +80,19 @@
         "title": "Magnus Eriksson",
         "type": "person",
         "slug": "magnus-eriksson",
-        "label": "Death of Magnus Eriksson"
+        "label": "Drowned here in 1374"
       },
       {
         "title": "Haakon VI of Norway",
         "type": "person",
-        "slug": "haakon-vi-of-norway"
+        "slug": "haakon-vi-of-norway",
+        "label": "His son, who ransomed him in 1371"
+      },
+      {
+        "title": "Albert of Mecklenburg",
+        "type": "person",
+        "slug": "albert-of-mecklenburg",
+        "label": "Took the Swedish throne from him in 1364"
       }
     ],
     "locations": [
@@ -63,26 +105,70 @@
       {
         "title": "Kingdom of Sweden",
         "type": "location",
-        "slug": "kingdom-of-sweden"
+        "slug": "kingdom-of-sweden",
+        "label": "The other crown he lost"
+      },
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "The port he sailed from on his last voyage"
+      },
+      {
+        "title": "Fitjar",
+        "type": "location",
+        "slug": "fitjar",
+        "label": "Neighbouring island ground where Haakon the Good was mortally wounded"
       }
     ]
   },
   "id": "bomlo",
   "name": "Bømlo",
   "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Bremnes%2C_B%C3%B8mlo.JPG",
-  "summary": "A western Norwegian island region traditionally associated with Magnus Eriksson's drowning.",
+  "summary": "An island group at the mouth of the Hardangerfjord on Norway’s coastal shipping lane, where Magnus Eriksson drowned in a wreck at Lyngholmen on 1 December 1374.",
   "imageInfo": {
-    "caption": "The island of Bømlo off western Norway, associated with the death of Magnus Eriksson in 1374.",
+    "caption": "The coast at Bremnes on Bømlo in western Norway, photographed in 2013.",
     "creator": "Frokor",
-    "date": "2013-03-24 12:52:38",
+    "date": "Photographed 24 March 2013",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bremnes%2C_B%C3%B8mlo.JPG",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "A landscape photograph of the island coast: the low skerries and narrow sounds in the picture are the sailing conditions that wrecked the king’s ship in 1374. No medieval depiction of the place exists."
   },
   "coordinates": {
     "lat": 59.7794,
     "lon": 5.2183
   },
-  "modernCountry": "NO"
+  "modernCountry": "NO",
+  "aliases": [
+    "Bomlo",
+    "Bømlafjorden"
+  ],
+  "timeline": [
+    {
+      "date": "12th century",
+      "title": "Moster church built",
+      "description": "A small stone church, one of Norway’s oldest, is raised on the island of Moster."
+    },
+    {
+      "date": "1364",
+      "title": "Magnus deposed in Sweden",
+      "description": "Albert of Mecklenburg is made king of Sweden in his place."
+    },
+    {
+      "date": "1371",
+      "title": "Released from captivity",
+      "description": "His son Haakon VI pays twelve thousand marks to free him, and Magnus settles in Norway."
+    },
+    {
+      "date": "1 December 1374",
+      "title": "Wrecked at Lyngholmen",
+      "description": "Sailing from Bergen towards eastern Norway, Magnus Eriksson’s ship grounds off the Bømlafjorden and he is drowned; the Icelandic annals record it."
+    },
+    {
+      "date": "After 1374",
+      "title": "No known grave",
+      "description": "The burial place is unrecorded; the request in his testament of 1347 to lie at Vadstena was not fulfilled."
+    }
+  ]
 }

@@ -4,39 +4,75 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Christopher II of Denmark",
-    "Falster",
-    "Danish interregnum crisis"
+    "The death of Christopher II on 2 August 1332, with the whole kingdom in pawn",
+    "A castle built at the narrowest point of the Guldborgsund against Wendish raiders",
+    "The Franciscan friary founded by Eric of Pomerania in 1419"
   ],
   "overview": [
-    "A Danish town associated with Christopher II's death during Denmark's fourteenth-century royal crisis."
+    "A royal castle and town on the Guldborgsund in the Danish islands, associated with the death of Christopher II in 1332."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Nykobing Falster on the island of Falster was a Danish royal town and administrative center. As a crown possession, it served several Danish rulers and had administrative significance within the Danish archipelago."
+        "Nykøbing stands on the island of Falster, on the Guldborgsund — the narrow channel dividing Falster from Lolland. Like most Danish towns of any age it grew up around a castle, and the castle was there because of the water: it was built to control the strait and to guard against seaborne raiding.",
+        "It belongs in the archive because of a single date. Christopher II of Denmark died here on 2 August 1332, and what makes that death significant is not the man but the state of the realm he left: every part of Denmark was mortgaged to German creditors, and for eight years afterwards the country had no king at all."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The castle on the sound",
       "paragraphs": [
-        "Nykobing Falster's medieval significance lies primarily in its connection to Danish royal itinerary. The town's island position on Falster placed it within the chain of Danish island territories that crown rulers managed as part of their peripatetic governance of the realm."
+        "Fortifications were thrown up on a peninsula in the Guldborgsund at the end of the twelfth century, at the narrowest point of the channel, as protection against Wendish pirates from the southern Baltic shore — a real and persistent danger to the Danish islands before Valdemar I and Absalon broke Wendish naval power. Those works were later converted into Nykøbing Castle.",
+        "The castle was besieged and burned repeatedly through the Middle Ages, which is the ordinary career of a strongpoint on a contested waterway. Christopher II took it in 1329, and after his death it was pawned out for years along with everything else. It later served as a residence for widowed Danish queens. Today essentially nothing of it survives: a modest ruin of one tower, known as Fars Hat, is all that is left."
+      ]
+    },
+    {
+      "title": "The town, the friary and the church",
+      "paragraphs": [
+        "The town beside the castle received trading privileges from Valdemar II, who reigned from 1202 to 1241, but did not become a chartered market town proper until 1560 — a reminder that \"town\" in the Danish islands could mean a small cluster of houses serving a castle for centuries before it acquired formal status.",
+        "Its principal medieval building came late. Eric of Pomerania founded a Franciscan friary at the chapel of St Nicolai in 1419, and the Gothic friary church, the Klosterkirken, was built around 1500. It remained part of the friary until 1532, when it became the parish church, and much of the conventual range survives in later use. With the fragment of the castle tower, it is what the Middle Ages left in Nykøbing."
+      ]
+    },
+    {
+      "title": "A kingdom in pawn",
+      "paragraphs": [
+        "Christopher II was elected in 1320 on a charter that stripped the crown of most of its powers, and he spent his reign borrowing against the kingdom to pay for wars he lost. The mortgages were not figures of speech: Jutland was pledged to Count Gerhard III of Holstein for 100,000 marks of silver, to be redeemed only if the whole sum could be laid on the table at once, and Count John III held Funen and Zealand on similar terms.",
+        "Deposed, exiled and then restored as a figurehead, Christopher lost the last of his authority after a military defeat at the Dannevirke in 1331. The counts left him his title and nothing else. When he died the following year, Gerhard and John simply continued to hold the country as security for debts nobody could pay, and no successor was elected until Valdemar IV came to the throne in 1340 and began buying the kingdom back piece by piece."
+      ]
+    },
+    {
+      "title": "The death of Christopher II",
+      "paragraphs": [
+        "Christopher died on 2 August 1332, aged about fifty-five, and was buried at Sorø Abbey. The date is not in question; the place is less settled than it looks. Danish reference works place the death at Nykøbing Castle on Falster, and that is the tradition this article follows and the reason the archive records it here. Other accounts place his last months and death on Lolland, at Aalholm, where he is said to have been held after the counts stripped him of everything, and one Danish authority says only that he died \"on Lolland\".",
+        "The two versions are a few kilometres and one channel apart, and both describe the same thing: a king without power, kept in a castle in the southern islands by the men who owned his kingdom. The archive states the divergence rather than choosing between them."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Nykobing Falster",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Nyk%C3%B8bing_Falster_Klosterkirken.jpg"
+      "title": "Nykøbing Falster",
+      "author": "Danish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://da.wikipedia.org/wiki/Nyk%C3%B8bing_Falster"
     },
     {
-      "title": "Nykobing Falster reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Nykobing_Falster"
+      "title": "Christoffer 2.",
+      "author": "Danish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://da.wikipedia.org/wiki/Christoffer_2."
+    },
+    {
+      "title": "Christopher II of Denmark",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christopher_II_of_Denmark",
+      "note": "Places his imprisonment and death at Aalholm on Lolland rather than at Nykøbing."
+    },
+    {
+      "title": "Wikimedia Commons image record: Klosterkirken NyF",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Klosterkirken_NyF.JPG"
     }
   ],
   "relatedEntries": {
@@ -45,17 +81,25 @@
         "title": "Christopher II of Denmark",
         "type": "person",
         "slug": "christopher-ii-of-denmark",
-        "label": "Death of Christopher II of Denmark"
-      },
-      {
-        "title": "Eric V of Denmark",
-        "type": "person",
-        "slug": "eric-v-of-denmark"
+        "label": "Died here in 1332"
       },
       {
         "title": "Valdemar IV Atterdag",
         "type": "person",
-        "slug": "valdemar-iv-atterdag"
+        "slug": "valdemar-iv-atterdag",
+        "label": "His son, who recovered the pawned kingdom"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Founded the friary here in 1419"
+      },
+      {
+        "title": "Eric V of Denmark",
+        "type": "person",
+        "slug": "eric-v-of-denmark",
+        "label": "Whose charter began the constraints on Danish kingship"
       }
     ],
     "locations": [
@@ -64,25 +108,77 @@
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Containing realm"
+      },
+      {
+        "title": "Gurre Castle",
+        "type": "location",
+        "slug": "gurre-castle",
+        "label": "Where his son Valdemar IV died in 1375"
       }
     ]
   },
   "id": "nykobing-falster",
   "name": "Nykobing Falster",
   "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Klosterkirken_NyF.JPG",
-  "summary": "A Danish town associated with Christopher II's death during Denmark's fourteenth-century royal crisis.",
+  "summary": "A Danish castle town on the Guldborgsund, where Christopher II died in 1332 leaving a kingdom entirely pawned to German counts and no king after him for eight years.",
   "imageInfo": {
-    "caption": "Nykøbing Falster, a Danish royal town in the southern archipelago.",
-    "creator": "Matthew Ross (Matthewross)",
-    "date": "2007-08-18",
+    "caption": "Klosterkirken at Nykøbing Falster, the Gothic church of the Franciscan friary, built about 1500 and photographed in 2007.",
+    "creator": "Matthew Ross",
+    "date": "Photographed 18 August 2007; the church was built about 1500",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klosterkirken_NyF.JPG",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "The friary church is the main surviving medieval building in the town; it post-dates Christopher II by some 170 years. Almost nothing is left of the castle itself beyond the stump of one tower, so no image of the place where the king died is possible."
   },
   "coordinates": {
     "lat": 54.7667,
     "lon": 11.8833
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "aliases": [
+    "Nykøbing Falster",
+    "Nykøbing Slot"
+  ],
+  "timeline": [
+    {
+      "date": "Late 12th century",
+      "title": "Fortifications on the sound",
+      "description": "Defences are built on a peninsula at the narrowest point of the Guldborgsund against Wendish raiders, later becoming Nykøbing Castle."
+    },
+    {
+      "date": "1202-1241",
+      "title": "Trading privileges",
+      "description": "The town receives trading rights under Valdemar II, though full market-town status comes only in 1560."
+    },
+    {
+      "date": "1320",
+      "title": "Christopher II elected",
+      "description": "He takes the throne on a charter that leaves the crown almost no independent power."
+    },
+    {
+      "date": "1329",
+      "title": "The castle taken",
+      "description": "Christopher II seizes Nykøbing Castle during the struggle over the pawned kingdom."
+    },
+    {
+      "date": "1331",
+      "title": "Defeat at the Dannevirke",
+      "description": "The defeat ends what remained of Christopher’s authority; the Holstein counts leave him his title alone."
+    },
+    {
+      "date": "2 August 1332",
+      "title": "Death of Christopher II",
+      "description": "The king dies in the southern islands — at Nykøbing by the usual Danish account, at Aalholm on Lolland by others — and is buried at Sorø Abbey."
+    },
+    {
+      "date": "1332-1340",
+      "title": "A kingdom without a king",
+      "description": "No successor is elected; Denmark is held by its German mortgagees until Valdemar IV begins recovering it in 1340."
+    },
+    {
+      "date": "1419",
+      "title": "The Franciscan friary founded",
+      "description": "Eric of Pomerania founds a friary at the chapel of St Nicolai; its church, built about 1500, still stands."
+    }
+  ]
 }

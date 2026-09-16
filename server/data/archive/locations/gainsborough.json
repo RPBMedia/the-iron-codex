@@ -7,53 +7,115 @@
   "kingdom": "Kingdom of England",
   "kingdomId": "kingdom-of-england",
   "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gainsborough_Old_Hall%2C_2008.jpg",
-  "summary": "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard.",
+  "summary": "A tidal inland port on the Trent in Lindsey, where Sweyn Forkbeard based his conquest of England in 1013 and died on 3 February 1014.",
   "overview": [
-    "Gainsborough was a settlement in eastern England connected to river traffic, regional lordship, and later traditions about Danish royal power in England."
+    "A town on the east bank of the Trent in Lincolnshire, far enough up the tidal river for a Viking fleet to reach it and deep enough into the Danelaw to be safe ground for a Danish king."
   ],
   "knownFor": [
-    "Traditional death place of Sweyn Forkbeard",
-    "River Trent setting",
-    "Anglo-Scandinavian political memory"
+    "Sweyn Forkbeard’s base in 1013 and the place of his death in February 1014",
+    "A tidal inland port on the Trent, reached by seagoing ships fifty-five miles from the sea",
+    "Gainsborough Old Hall, built by Sir Thomas Burgh between about 1460 and 1480"
   ],
   "imageInfo": {
-    "caption": "Gainsborough Old Hall in Lincolnshire.",
-    "creator": "Wikimedia Commons photographer",
-    "date": "modern photograph",
-    "source": "Wikimedia Commons",
-    "note": "Modern photograph of a later medieval manor complex in the town.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall%2C_2008.jpg"
+    "caption": "Gainsborough Old Hall, the timber-framed manor house built for Sir Thomas Burgh, photographed in July 2008.",
+    "creator": "John Spooner",
+    "date": "Photographed 26 July 2008; the hall was built about 1460-1480",
+    "source": "Wikimedia Commons (from Flickr)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall,_2008.jpg",
+    "license": "CC BY 2.0",
+    "note": "The Old Hall is late fifteenth-century and post-dates Sweyn Forkbeard by some 450 years; it stands on the site associated with the earlier fortified residence, and it is the oldest substantial building the town has. Nothing survives above ground from the Danish period."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard.",
-        "Gainsborough matters historically through Traditional death place of Sweyn Forkbeard, River Trent setting, Anglo-Scandinavian political memory."
+        "Gainsborough stands on the east bank of the Trent in Lincolnshire, about eighteen miles north-west of Lincoln and more than fifty-five miles from the sea, yet it is a seaport in the sense that mattered in the eleventh century: the Trent is tidal this far up, and a fleet of shallow-draught ships could sail from the Humber into the heart of the Danelaw without portage.",
+        "That is why a Danish king chose it. In 1013 Sweyn Forkbeard brought his army here, took the submission of the north, and made Gainsborough the place from which he conquered England. He died here on 3 February 1014, and the fleet then chose his son Cnut as king in the same place."
+      ]
+    },
+    {
+      "title": "The river and the aegir",
+      "paragraphs": [
+        "The Trent at Gainsborough carries a tidal bore, the aegir, which runs upstream as a visible wave on the highest tides. It is a real and locally famous phenomenon, and it is the reason the river here behaves less like an inland waterway than like an arm of the sea.",
+        "The town’s name points to an older layer still. It derives from the Gaini, a folk of this stretch of the Trent, and the same people supply one of the few securely dated events in the town’s Anglo-Saxon history: in 868 Alfred the Great married Ealhswith, daughter of Æthelred Mucel, ealdorman of the Gaini — a marriage that tied Wessex to a Mercian family in this region a century and a half before the Danish fleets came."
+      ]
+    },
+    {
+      "title": "Sweyn Forkbeard’s base, 1013-1014",
+      "paragraphs": [
+        "Sweyn landed at Sandwich in the summer of 1013 and immediately sailed north to Gainsborough, which tells you his intention: this was not a raid for silver on the southern coast but a campaign run from a secure base among a population of Scandinavian descent. The magnates of Northumbria, Lindsey and the Five Boroughs submitted to him there, and he held his army back from plundering until it was south of Watling Street — a deliberate distinction between the Danelaw, which he was claiming as friendly, and the English south, which he was not.",
+        "By the end of 1013 Oxford, Winchester, Bath and finally London had accepted him, and Æthelred the Unready had fled to Normandy. Sweyn was king of England for a matter of weeks. He died suddenly at Gainsborough on 3 February 1014; the cause is not recorded. His body was taken back to Denmark, most probably to Roskilde, and the Danish fleet at Gainsborough chose Cnut in his place, while the English magnates recalled Æthelred.",
+        "This is recorded history rather than local legend. The Anglo-Saxon Chronicle names Gainsborough as Sweyn’s base and the place of his death, and the article previously described it as a place associated with him \"in tradition\", which understates what the sources actually say."
+      ]
+    },
+    {
+      "title": "Cnut and the tide",
+      "paragraphs": [
+        "Gainsborough is sometimes offered as the setting for the most famous story told of Cnut: the king ordering the incoming sea to halt, in order to demonstrate to flattering courtiers that it would not. The Trent aegir makes the town an attractive candidate, since here is a tide that visibly advances on command of nothing.",
+        "The attribution does not survive examination. The story is first written down by Henry of Huntingdon, a century after Cnut, and Henry gives no location at all. Gainsborough’s claim rests on the suitability of its tidal bore, not on any source, and the tale itself may be a moral fable rather than a memory of anything Cnut did."
+      ]
+    },
+    {
+      "title": "The town after the Conquest",
+      "paragraphs": [
+        "Domesday Book in 1086 records Gainsborough as a farming community of villeins and sokemen held by Geoffrey de Guerche — a manor of no special consequence, its brief period as the capital of a North Sea empire seventy years behind it.",
+        "Its surviving medieval monument belongs to the end of the Middle Ages. Sir Thomas Burgh acquired the manor in 1455 and built Gainsborough Old Hall between about 1460 and 1480: a timber-framed great hall with a brick tower and kitchens, and one of the best-preserved manor houses in Britain. Richard III was received there in 1483 and Henry VIII in 1541."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image record",
+      "title": "Gainsborough, Lincolnshire",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gainsborough,_Lincolnshire"
+    },
+    {
+      "title": "Sweyn Forkbeard",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Sweyn_Forkbeard"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annals for 1013 and 1014",
+      "author": "Anglo-Saxon Chronicle",
+      "type": "primary source",
+      "note": "Records Sweyn’s base at Gainsborough, the submissions, and his death there in 1014."
+    },
+    {
+      "title": "Wikimedia Commons image record: Gainsborough Old Hall, 2008",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall%2C_2008.jpg"
-    },
-    {
-      "title": "Wikipedia: Gainsborough",
-      "author": "Wikipedia contributors",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Gainsborough"
-    },
-    {
-      "title": "World History Encyclopedia: Middle Ages",
-      "author": "World History Encyclopedia",
-      "type": "modern history",
-      "url": "https://www.worldhistory.org/Middle_Ages/"
+      "url": "https://commons.wikimedia.org/wiki/File:Gainsborough_Old_Hall,_2008.jpg"
     }
   ],
   "relatedEntries": {
+    "people": [
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "Based here and died here in 1014"
+      },
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Chosen king by the fleet here"
+      },
+      {
+        "title": "Aethelred the Unready",
+        "type": "person",
+        "slug": "aethelred-the-unready",
+        "label": "Driven out by the campaign run from here"
+      },
+      {
+        "title": "Ealhswith",
+        "type": "person",
+        "slug": "ealhswith",
+        "label": "Of the Gaini, married to Alfred in 868"
+      }
+    ],
     "locations": [
       {
         "title": "Kingdom of England",
@@ -62,22 +124,22 @@
         "label": "Containing realm"
       },
       {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The Scandinavian region Sweyn treated as friendly ground"
+      },
+      {
         "title": "Kingdom of Denmark",
         "type": "location",
-        "slug": "kingdom-of-denmark"
+        "slug": "kingdom-of-denmark",
+        "label": "Sweyn’s realm"
       },
       {
         "title": "North Sea Empire",
         "type": "location",
-        "slug": "north-sea-empire"
-      }
-    ],
-    "people": [
-      {
-        "title": "Sweyn Forkbeard",
-        "type": "person",
-        "slug": "sweyn-forkbeard",
-        "label": "Death of Sweyn Forkbeard"
+        "slug": "north-sea-empire",
+        "label": "The empire begun from this base"
       }
     ]
   },
@@ -85,5 +147,37 @@
     "lat": 53.4016,
     "lon": -0.7732
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "timeline": [
+    {
+      "date": "868",
+      "title": "Alfred marries Ealhswith",
+      "description": "Alfred the Great marries Ealhswith, daughter of Æthelred Mucel of the Gaini, the people whose name lies behind Gainsborough."
+    },
+    {
+      "date": "Summer 1013",
+      "title": "Sweyn Forkbeard arrives",
+      "description": "Sweyn sails from Sandwich to Gainsborough and makes it the base of his conquest; Northumbria, Lindsey and the Five Boroughs submit."
+    },
+    {
+      "date": "December 1013",
+      "title": "England submits",
+      "description": "London accepts Sweyn as king and Æthelred the Unready flees to Normandy."
+    },
+    {
+      "date": "3 February 1014",
+      "title": "Death of Sweyn Forkbeard",
+      "description": "Sweyn dies suddenly at Gainsborough; his body is carried back to Denmark and the fleet chooses Cnut in his place."
+    },
+    {
+      "date": "1086",
+      "title": "Domesday Book",
+      "description": "Gainsborough is recorded as an agricultural manor held by Geoffrey de Guerche."
+    },
+    {
+      "date": "1455-1480",
+      "title": "Gainsborough Old Hall",
+      "description": "Sir Thomas Burgh acquires the manor and builds the timber-framed hall that still stands."
+    }
+  ]
 }

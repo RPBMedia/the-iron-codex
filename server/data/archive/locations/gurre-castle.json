@@ -4,39 +4,76 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Valdemar IV Atterdag",
-    "Zealand royal power",
-    "Danish royal memory"
+    "The death of Valdemar IV Atterdag on 24 October 1375",
+    "A keep inside a ring wall with four corner towers, within a second outer wall",
+    "The legend of Valdemar’s wild hunt and his mistress Tove"
   ],
   "overview": [
-    "A ruined royal castle in Zealand associated with Valdemar IV Atterdag's death."
+    "A ruined royal castle in the woods of northern Zealand, the favoured seat of Valdemar IV Atterdag and the place of his death in 1375."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Gurre Castle in northern Zealand was a significant Danish royal hunting and administrative castle. Valdemar IV Atterdag, who died there in 1375, was especially associated with the castle."
+        "Gurre lies inland in northern Zealand, between Helsingør and the lake and woods that still carry its name. It was a hunting seat rather than a fortress guarding anything: the Danish kings came here for the forest, and the castle was built for a court that moved constantly around its own kingdom.",
+        "It is remembered for one king. Valdemar IV Atterdag, who spent his reign buying, fighting and mortgaging the Danish realm back into existence, rebuilt Gurre on a considerable scale and died here on 24 October 1375."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The plan of the castle",
       "paragraphs": [
-        "Valdemar IV's death at Gurre Castle ended one of the most consequential Danish reigns of the fourteenth century. His passing opened the succession that brought his daughter Margaret I to effective rule over Denmark and, eventually, all three Scandinavian kingdoms."
+        "Gurre was built in two clear phases, and the dating of the first is not settled: the older core — a tower standing on a natural rise, with a fortified outwork to the north — is placed by some accounts in the twelfth century and by others in the reign of Eric VI Menved, between 1286 and 1319. The archive follows the sources in leaving that open.",
+        "The second phase is Valdemar’s, and is dated to the 1350s or 1360s. The central tower was rebuilt as a donjon — the keep of last resort, where the household could hold out — and enclosed within a ring wall carrying four corner towers, with a further outer wall thrown around the whole at a distance of some sixty to ninety metres. The enclosed site measures roughly 230 by 180 metres, about four hectares in all: a large establishment by Danish standards, and a good deal more than a hunting lodge.",
+        "The first written notice of the place comes in 1364, when Pope Urban V sent a gift of relics to its chapel — an incidental record, and the kind of document that usually provides the earliest firm date for a royal residence."
+      ]
+    },
+    {
+      "title": "Valdemar Atterdag and 1375",
+      "paragraphs": [
+        "Valdemar IV inherited nothing. When he came to the throne in 1340 the whole Danish kingdom stood pledged to German creditors, and his reign was spent redeeming it piece by piece, by purchase where he could and by force where he could not. The most expensive of his gambles, the seizure and ransoming of Visby on Gotland in 1361, brought the Hanseatic League down on him, drove him into exile in 1368, and ended in the Treaty of Stralsund of 1370, which bought peace at the price of Hanseatic privileges, the Scanian herring-market towns and a say in the Danish succession.",
+        "He died at Gurre on 24 October 1375, in his mid-fifties, and was buried first at Vordingborg and then moved to Sorø Abbey. He left no son. The crown passed to his five-year-old grandson Olaf, with his daughter Margaret as regent — and it was Margaret, not Valdemar, who turned the recovered kingdom into the union of three Scandinavian crowns."
+      ]
+    },
+    {
+      "title": "Mint, decay and demolition",
+      "paragraphs": [
+        "The castle outlived him by a century and a half. Under Eric of Pomerania it housed a mint in the 1430s, striking coins known as Gurre groats — a reminder that a royal residence was an administrative place as well as a hunting box.",
+        "Decline set in after 1535, when the estate returned to the crown, and by the reign of Frederick II the buildings were being pulled down and the material carted away for use elsewhere, which is the ordinary fate of a redundant medieval castle in a country short of building stone. What was left was a low, overgrown ruin."
+      ]
+    },
+    {
+      "title": "Tove, the wild hunt, and the excavations",
+      "paragraphs": [
+        "Gurre carries one of the best-known Danish legends. In it Valdemar loves Tove, his mistress; the jealous queen, Helvig, has her killed in a bath-house; and the king is condemned to ride through the woods around Gurre for ever with his hounds — the wild hunt that peasants claimed to hear on winter nights. None of it is history. It is a folk legend attached to a real king, and it should be read as folklore rather than as anything that happened at this castle.",
+        "Its afterlife is considerable: the Danish poet Jens Peter Jacobsen made a cycle of poems from it, and those poems became the text of Schoenberg’s Gurre-Lieder, which is how a ruined Danish hunting seat ended up as the subject of one of the largest choral works ever written.",
+        "The ruin itself has been dug repeatedly: partial excavation in 1817, a major campaign in 1835, further work in the 1890s, more exposure in 1921, and a thorough investigation with consolidation of the ruin between 1936 and 1939, which established the full plan visible today."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Gurre Castle",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Gurre_Slotsruin.jpg"
+      "title": "Gurre Slot",
+      "author": "Danish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://da.wikipedia.org/wiki/Gurre_Slot"
     },
     {
-      "title": "Gurre Castle reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Gurre Castle",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Gurre_Castle"
+    },
+    {
+      "title": "Valdemar IV of Denmark",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Valdemar_IV_of_Denmark"
+    },
+    {
+      "title": "Wikimedia Commons image record: Gurre slot-2007",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Gurre_slot-2007.jpg"
     }
   ],
   "relatedEntries": {
@@ -45,17 +82,31 @@
         "title": "Valdemar IV Atterdag",
         "type": "person",
         "slug": "valdemar-iv-atterdag",
-        "label": "Death of Valdemar IV Atterdag"
+        "label": "Rebuilt the castle and died here in 1375"
       },
       {
-        "title": "Christopher II of Denmark",
+        "title": "Margaret I",
         "type": "person",
-        "slug": "christopher-ii-of-denmark"
+        "slug": "margaret-i",
+        "label": "His daughter, regent after his death"
       },
       {
         "title": "Olaf IV of Norway",
         "type": "person",
-        "slug": "olaf-iv-of-norway"
+        "slug": "olaf-iv-of-norway",
+        "label": "His grandson and heir"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Struck coin at Gurre in the 1430s"
+      },
+      {
+        "title": "Christopher II of Denmark",
+        "type": "person",
+        "slug": "christopher-ii-of-denmark",
+        "label": "Valdemar’s father, who left the kingdom pawned"
       }
     ],
     "locations": [
@@ -64,25 +115,83 @@
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Containing realm"
+      },
+      {
+        "title": "Vordingborg",
+        "type": "location",
+        "slug": "vordingborg",
+        "label": "His first burial place"
+      },
+      {
+        "title": "Helsingborg",
+        "type": "location",
+        "slug": "helsingborg",
+        "label": "Pledged to the Hansa under the Treaty of Stralsund"
       }
     ]
   },
   "id": "gurre-castle",
   "name": "Gurre Castle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gurre_slot-2007.jpg",
-  "summary": "A ruined royal castle in Zealand associated with Valdemar IV Atterdag's death.",
+  "summary": "A royal hunting castle in north Zealand, rebuilt by Valdemar IV Atterdag with a ring wall and four corner towers, where he died on 24 October 1375.",
   "imageInfo": {
-    "caption": "The ruins of Gurre Castle, favoured residence of Valdemar IV Atterdag, who died there in 1375.",
+    "caption": "The ruins of Gurre Castle in north Zealand, photographed in 2007.",
     "creator": "Graphicos",
-    "date": "2007-04-28",
+    "date": "Photographed 28 April 2007; the standing fabric is fourteenth-century",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gurre_slot-2007.jpg",
     "license": "CC BY 2.5",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "The walls stand only to a low course: the castle was quarried for building material after the Reformation, and what is visible is the excavated plan — the square keep, the inner ring wall and its corner towers — rather than standing architecture."
   },
   "coordinates": {
     "lat": 56.0195,
     "lon": 12.5052
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "aliases": [
+    "Gurre Slot",
+    "Gurre Slotsruin"
+  ],
+  "timeline": [
+    {
+      "date": "12th century or c. 1300",
+      "title": "The first castle",
+      "description": "A tower on a rise with a northern outwork is built; the sources place it either in the twelfth century or in the reign of Eric VI Menved."
+    },
+    {
+      "date": "1350s-1360s",
+      "title": "Valdemar’s rebuilding",
+      "description": "The keep is rebuilt and enclosed by a ring wall with four corner towers, inside a second outer wall."
+    },
+    {
+      "date": "1364",
+      "title": "First written record",
+      "description": "Pope Urban V sends a gift of relics to the castle chapel, the earliest documentary notice of Gurre."
+    },
+    {
+      "date": "1370",
+      "title": "Treaty of Stralsund",
+      "description": "Valdemar’s war with the Hanseatic League ends in a settlement conceding trading privileges and a voice in the Danish succession."
+    },
+    {
+      "date": "24 October 1375",
+      "title": "Death of Valdemar IV Atterdag",
+      "description": "The king dies at Gurre; he is buried at Vordingborg and later moved to Sorø Abbey, leaving a five-year-old grandson as heir."
+    },
+    {
+      "date": "1430s",
+      "title": "A mint at Gurre",
+      "description": "Under Eric of Pomerania the castle strikes the coins known as Gurre groats."
+    },
+    {
+      "date": "After 1535",
+      "title": "Decay and demolition",
+      "description": "The castle falls out of use and its material is carried away for building elsewhere."
+    },
+    {
+      "date": "1835",
+      "title": "The ruin excavated",
+      "description": "A major excavation uncovers the plan; further work follows in the 1890s and 1921, and the ruin is consolidated in 1936-1939."
+    }
+  ]
 }

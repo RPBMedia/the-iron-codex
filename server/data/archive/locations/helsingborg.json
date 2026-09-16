@@ -4,39 +4,76 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Christopher of Bavaria",
-    "Øresund politics",
-    "Kalmar Union"
+    "Kärnan, the brick keep built in the 1310s to command the Øresund",
+    "The death of Christopher of Bavaria in January 1448, which broke the Kalmar Union",
+    "The Sound Dues, levied on shipping passing between Helsingborg and Helsingør"
   ],
   "overview": [
-    "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448."
+    "A Danish town and castle on the Scanian shore of the Øresund, holding the narrowest crossing of the sound, where Christopher of Bavaria died in 1448."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Helsingborg was a strategically vital Danish fortified town on the Sound, controlling the narrowest crossing between Scania and Zealand. Christopher of Bavaria died suddenly there in 1448 without an heir."
+        "Helsingborg stands on the Scanian shore of the Øresund, at the point where the sound narrows to about four kilometres and the Danish islands come closest to the Swedish mainland. Permanent settlement here is documented from 21 May 1085, and for the whole of the Middle Ages this was a Danish town — Scania did not become Swedish until the Treaty of Roskilde in 1658.",
+        "Everything about the place follows from the geography. The narrowest crossing of the sound was the hinge between the two halves of the Danish kingdom and the gate through which all Baltic shipping had to pass, and whoever held both shores could tax the sea."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The narrowest crossing",
       "paragraphs": [
-        "Christopher's death at Helsingborg reopened the Scandinavian succession and led to the election of Christian I as the first Oldenburg king of Denmark. The town's position on the Sound made it economically and militarily significant throughout the conflict over Hanseatic and Danish maritime dominance."
+        "Denmark held both sides of the strait, Helsingborg on the east and Helsingør on the west, and that double grip was worth more to the Danish crown than any province. It made the sound a toll gate: from 1429 Eric of Pomerania levied the Sound Dues on every trading vessel that passed between the two towns, a charge that became the single largest source of royal income and remained so for centuries.",
+        "The same position made the town a target. Under the Treaty of Stralsund in 1370, which ended Valdemar IV’s war with the Hanseatic League, Helsingborg and the Scanian herring-market towns were handed to the Hansa for fifteen years — the League taking the castle that controlled the strait as the concrete guarantee of its trading privileges."
+      ]
+    },
+    {
+      "title": "Kärnan",
+      "paragraphs": [
+        "The keep known as Kärnan — \"the core\" — is the surviving fragment of the medieval castle. Danish legend credited it to a mythical king, but dendrochronology has settled the question: it was built in the 1310s, in the reign of Eric VI Menved. It is a square brick tower, the strongpoint at the centre of a much larger fortress whose walls and ranges enclosed the ridge above the harbour.",
+        "The castle’s military life ended with the Danish period. Sweden took it under the Treaty of Roskilde in 1658, Denmark retook it in 1676 during the Scanian War, and it returned to Sweden by the Treaty of Lund in 1679, after which Charles XI ordered most of the fortress demolished — it was too exposed, too close to Denmark, and too useful to an enemy. Only the keep was left standing.",
+        "The tower was given to the city in 1741 and restored in 1893-94 at the expense of the businessman Oscar Trapp, with Alfred Hellerström as architect, in an attempt to return it to a medieval appearance. It is open to the public and remains the symbol of the city."
+      ]
+    },
+    {
+      "title": "The death of Christopher of Bavaria",
+      "paragraphs": [
+        "Christopher of Bavaria was the one man elected to all three Scandinavian thrones in succession — Denmark in April 1440, Sweden in 1441, Norway in 1442 — and he took the union seriously enough to style himself archirex, arch-king, on the argument that he ruled an empire rather than three countries. He made Copenhagen the permanent Danish capital in 1443 and married Dorothea of Brandenburg in 1445.",
+        "His reign was short and hungry. Famine during it earned him the name of the Bark King, from the ground bark people mixed into what flour they had, and the Swedish nobility never stopped regarding him as a German import. He died suddenly at Helsingborg on 5 or 6 January 1448 — the sources differ over the day — aged thirty-one, with no child, and was buried at Roskilde Cathedral.",
+        "The consequence was immediate. With no heir and no agreed procedure, Denmark elected Christian I of Oldenburg and Sweden elected Karl Knutsson, and the Kalmar Union split into competing monarchies. A single unexpected death in a castle on the sound undid fifty years of dynastic arithmetic."
+      ]
+    },
+    {
+      "title": "The town beside the castle",
+      "paragraphs": [
+        "The medieval town lay on two levels — the castle on the ridge and the harbour and market below it — a division still legible in the street pattern, and its parish church of St Mary stands in the lower town. Its trade was the herring of the sound and the traffic passing through it.",
+        "After 1658 Helsingborg became a Swedish border town facing a Danish coast four kilometres away, which is how it has remained. For the archive its significance is Danish: a keep, a toll, and a royal death that broke a union."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Helsingborg",
+      "title": "Helsingborg",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Helsingborg"
+    },
+    {
+      "title": "Kärnan",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/K%C3%A4rnan"
+    },
+    {
+      "title": "Christopher of Bavaria",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christopher_of_Bavaria"
+    },
+    {
+      "title": "Wikimedia Commons image record: Kärnan Helsingborg",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:K%C3%A4rnan_Helsingborg.jpg"
-    },
-    {
-      "title": "Helsingborg reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Helsingborg"
     }
   ],
   "relatedEntries": {
@@ -45,7 +82,25 @@
         "title": "Christopher of Bavaria",
         "type": "person",
         "slug": "christopher-of-bavaria",
-        "label": "Death of Christopher of Bavaria"
+        "label": "Died here in 1448"
+      },
+      {
+        "title": "Christian I of Denmark",
+        "type": "person",
+        "slug": "christian-i-of-denmark",
+        "label": "Elected in Denmark after his death"
+      },
+      {
+        "title": "Charles VIII of Sweden",
+        "type": "person",
+        "slug": "charles-viii-of-sweden",
+        "label": "Elected in Sweden after his death"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Introduced the Sound Dues levied here"
       }
     ],
     "locations": [
@@ -53,36 +108,90 @@
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden"
+        "label": "Containing realm in the Middle Ages"
       },
       {
         "title": "Kalmar Union",
         "type": "location",
-        "slug": "kalmar-union"
+        "slug": "kalmar-union",
+        "label": "The union broken by the death of 1448"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Which took Scania in 1658"
+      },
+      {
+        "title": "Falsterbo",
+        "type": "location",
+        "slug": "falsterbo",
+        "label": "Another Scanian herring-market town pledged to the Hansa"
       }
     ]
   },
   "id": "helsingborg",
   "name": "Helsingborg",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4rnan_Helsingborg.jpg",
-  "summary": "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448.",
+  "summary": "A Danish fortified town at the narrowest point of the Øresund, whose keep Kärnan controlled the strait, and where Christopher of Bavaria died childless in January 1448.",
   "imageInfo": {
-    "caption": "A Danish-Swedish sound town and castle site where Christopher of Bavaria died in 1448.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "Kärnan, the brick keep of the medieval Danish castle at Helsingborg, photographed in September 2011.",
+    "creator": "Jens Hunt",
+    "date": "Photographed 21 September 2011; the keep was built in the 1310s",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A4rnan_Helsingborg.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 3.0",
+    "note": "Photographed for Wiki Loves Monuments 2011. The keep is all that remains of the castle, the rest having been demolished in 1679; its upper stage and battlements are the restoration of 1893-94, so the silhouette is partly nineteenth-century."
   },
   "coordinates": {
     "lat": 56.0424,
     "lon": 12.721
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "aliases": [
+    "Helsingborg Castle",
+    "Kärnan"
+  ],
+  "timeline": [
+    {
+      "date": "21 May 1085",
+      "title": "First documented",
+      "description": "Permanent settlement at Helsingborg is recorded."
+    },
+    {
+      "date": "1310s",
+      "title": "Kärnan built",
+      "description": "The brick keep is raised in the reign of Eric VI Menved, dated by dendrochronology, as the core of the castle commanding the sound."
+    },
+    {
+      "date": "1370",
+      "title": "Pledged to the Hansa",
+      "description": "The Treaty of Stralsund hands Helsingborg and the Scanian market towns to the Hanseatic League for fifteen years."
+    },
+    {
+      "date": "1429",
+      "title": "The Sound Dues begin",
+      "description": "Eric of Pomerania levies a toll on all shipping passing between Helsingborg and Helsingør."
+    },
+    {
+      "date": "1440-1442",
+      "title": "Christopher elected in three realms",
+      "description": "Christopher of Bavaria is elected king of Denmark, then Sweden, then Norway, holding the Kalmar Union together."
+    },
+    {
+      "date": "5 or 6 January 1448",
+      "title": "Death of Christopher of Bavaria",
+      "description": "The king dies suddenly at Helsingborg aged thirty-one without an heir; the sources differ on the day."
+    },
+    {
+      "date": "1448",
+      "title": "The union splits",
+      "description": "Denmark elects Christian I and Sweden elects Karl Knutsson, ending the single monarchy."
+    },
+    {
+      "date": "1679",
+      "title": "The castle demolished",
+      "description": "After the Scanian War, Charles XI has the fortress pulled down, leaving only the keep."
+    }
+  ]
 }

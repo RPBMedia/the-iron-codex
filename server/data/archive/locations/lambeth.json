@@ -4,39 +4,81 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of England",
   "knownFor": [
-    "Death of Harthacnut",
-    "Thames political geography",
-    "Anglo-Danish England"
+    "The death of Harthacnut at a wedding feast on 8 June 1042, ending Danish rule in England",
+    "A landing place on the marshy south bank, recorded as Lambehitha in 1062",
+    "Lambeth Palace, the London seat of the archbishops of Canterbury from 1197"
   ],
   "overview": [
-    "A Thames-side settlement later associated with Lambeth Palace; Harthacnut died at a wedding feast there in 1042."
+    "A Thames-side settlement on the south bank opposite Westminster, later the site of Lambeth Palace; Harthacnut died at a wedding feast there in 1042."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Lambeth on the south bank of the Thames opposite Westminster was the primary residence of the Archbishop of Canterbury in London. Lambeth Palace was established as the archiepiscopal seat by the late twelfth century."
+        "Lambeth is the stretch of the south bank of the Thames directly opposite Westminster. Before the embankments it was low, wet ground — marsh and foreshore with a landing place, which is what the name records: it appears as Lambehitha in 1062, a hythe or landing place associated with lambs, and reaches its modern form by 1255. Domesday records it as Lanchei.",
+        "Two things happened here that matter to the archive. In 1042 the last Danish king of England died at a wedding feast in the settlement, and from the end of the twelfth century the archbishops of Canterbury made it their London residence."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "A landing place on the marsh",
       "paragraphs": [
-        "Lambeth Palace became the center of archiepiscopal administration in England. Its position directly across from Westminster gave it political proximity to English governance and made it the institutional location of church-crown negotiations throughout the medieval period."
+        "Until the eighteenth century Lambeth was rural and thinly peopled, and it could be reached from the north bank only by ferry or ford — there was no bridge until 1750, and the horseferry that crossed to Westminster gave its name to the street that still runs down to the river there.",
+        "That combination of proximity and separation is the whole of Lambeth’s medieval significance. It was across the water from the seat of English government, near enough for a magnate’s hall to be a convenient place to hold a feast and for an archbishop to attend court, and far enough to be outside the city and its jurisdictions. The church of St Mary-at-Lambeth, recorded as early as 1062, stood beside the landing place; the manor and the church together made the nucleus."
+      ]
+    },
+    {
+      "title": "The wedding feast of 1042",
+      "paragraphs": [
+        "On 8 June 1042 Lambeth was the setting for the wedding of Tovi the Proud — a staller, one of the great household officers under Cnut the Great — to Gytha, daughter of the thegn Osgod Clapa. King Harthacnut was among the guests.",
+        "The Anglo-Saxon Chronicle describes what happened with a directness that has kept the scene alive for a thousand years: he \"died as he stood at his drink, and he suddenly fell to the earth with an awful convulsion; and those who were close by took hold of him, and he spoke no word afterwards.\" He was about twenty-three or twenty-four. He was carried to Winchester and buried in the Old Minster beside his father Cnut, whose bones — with those of other kings of Wessex and England — were moved into the present cathedral after the Old Minster was demolished in 1093 and now lie in the mortuary chests around the choir.",
+        "The groom is worth a note of his own: Tovi is the man credited with bringing the great black crucifix found at his Somerset manor of Montacute to his estate at Waltham in Essex, where he rebuilt the church to house it. That cross became the Holy Cross of Waltham, a major pilgrimage object, and the battle cry of Harold Godwinson’s household."
+      ]
+    },
+    {
+      "title": "What followed the death",
+      "paragraphs": [
+        "Harthacnut left no son, and with him the Danish line in England ended. Edward the Confessor, his half-brother, succeeded to the English throne, and Magnus of Norway inherited Denmark and pressed a claim to England on the strength of an agreement he had made with Harthacnut — an unresolved claim that the Norwegian kings did not forget, and which Harald Hardrada revived a quarter of a century later.",
+        "The convulsion at a wedding party in Lambeth therefore sits at the head of the chain that runs to 1066. A king dying suddenly without an heir, in a country that had been ruled by Danes for a generation, left three separate lines with arguable claims to the same crown."
+      ]
+    },
+    {
+      "title": "The archbishops’ manor",
+      "paragraphs": [
+        "The manor of Lambeth was in the hands of the archbishops of Canterbury from at least 1190, and in 1197 Archbishop Hubert Walter established a residence there — the beginning of Lambeth Palace, which has been the London seat of the archbishops ever since.",
+        "The choice was deliberate. An archbishop needed to be at the king’s elbow at Westminster without being lodged inside the royal palace or the city, and the south bank gave him a great house, a river frontage and his own jurisdiction. Church and crown negotiated across that stretch of water for the rest of the Middle Ages, which is why so many medieval agreements carry the name of a Thames-side manor."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Lambeth",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Lambeth_Palace_from_across_the_Thames.jpg"
+      "title": "Lambeth",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lambeth"
     },
     {
-      "title": "Lambeth reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Lambeth"
+      "title": "Harthacnut",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Harthacnut"
+    },
+    {
+      "title": "Tovi the Proud",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Tovi_the_Proud"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annal for 1042",
+      "author": "Anglo-Saxon Chronicle",
+      "type": "primary source",
+      "note": "Records that Harthacnut died as he stood at his drink at Tovi’s wedding at Lambeth."
+    },
+    {
+      "title": "Wikimedia Commons image record: Lambeth Palace London 240404",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Lambeth_Palace_London_240404.jpg"
     }
   ],
   "relatedEntries": {
@@ -45,7 +87,25 @@
         "title": "Harthacnut",
         "type": "person",
         "slug": "harthacnut",
-        "label": "Death of Harthacnut"
+        "label": "Died here in 1042"
+      },
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "His father, buried beside him at Winchester"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Succeeded him on his death"
+      },
+      {
+        "title": "Emma of Normandy",
+        "type": "person",
+        "slug": "emma-of-normandy",
+        "label": "His mother"
       }
     ],
     "locations": [
@@ -56,29 +116,82 @@
         "label": "Containing realm"
       },
       {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "Directly across the river"
+      },
+      {
+        "title": "Winchester Cathedral",
+        "type": "location",
+        "slug": "winchester-cathedral",
+        "label": "Where he was buried"
+      },
+      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
-        "label": "Realm of Harthacnut"
+        "label": "His other realm"
       }
     ]
   },
   "id": "lambeth",
   "name": "Lambeth",
   "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Lambeth_Palace_London_240404.jpg",
-  "summary": "A Thames-side settlement later associated with Lambeth Palace; Harthacnut died at a wedding feast there in 1042.",
+  "summary": "A marshy landing place on the Thames opposite Westminster, where Harthacnut collapsed and died at a wedding feast on 8 June 1042, and where the archbishops of Canterbury built their London seat.",
   "imageInfo": {
-    "caption": "Lambeth Palace, the London seat of the Archbishop of Canterbury.",
-    "creator": "Wikimedia Commons",
-    "date": "2006-05-11 06:26:24",
+    "caption": "Lambeth Palace seen from the north bank of the Thames, photographed in April 2004.",
+    "creator": "Tagishsimon",
+    "date": "Photographed 24 April 2004; the palace was begun in 1197",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lambeth_Palace_London_240404.jpg",
-    "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "license": "GFDL and CC BY-SA 3.0",
+    "note": "The palace is later than the events of 1042 by more than a century and a half, and its red-brick gatehouse is Tudor. It is shown because nothing survives of the eleventh-century settlement where Harthacnut died; the view across the river is the relationship that mattered — Lambeth sits directly opposite Westminster."
   },
   "coordinates": {
     "lat": 51.4903,
     "lon": -0.1193
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "aliases": [
+    "Lambehitha",
+    "Lambeth Palace"
+  ],
+  "timeline": [
+    {
+      "date": "8 June 1042",
+      "title": "Death of Harthacnut",
+      "description": "The king collapses and dies at the wedding feast of Tovi the Proud and Gytha; he is buried at the Old Minster in Winchester beside Cnut."
+    },
+    {
+      "date": "1042",
+      "title": "Edward the Confessor succeeds",
+      "description": "With Harthacnut childless, Danish rule in England ends and his half-brother Edward takes the throne."
+    },
+    {
+      "date": "1062",
+      "title": "Lambehitha recorded",
+      "description": "The landing place and the church of St Mary-at-Lambeth appear in the record."
+    },
+    {
+      "date": "1086",
+      "title": "Domesday Book",
+      "description": "The manor is entered as Lanchei."
+    },
+    {
+      "date": "By 1190",
+      "title": "The archbishops hold the manor",
+      "description": "Lambeth is in the hands of the archbishops of Canterbury."
+    },
+    {
+      "date": "1197",
+      "title": "Lambeth Palace begun",
+      "description": "Archbishop Hubert Walter establishes the residence that remains the archbishops’ London seat."
+    },
+    {
+      "date": "1750",
+      "title": "The first bridge",
+      "description": "Until Westminster Bridge opens, Lambeth is reached from the north bank only by ferry or ford."
+    }
+  ]
 }

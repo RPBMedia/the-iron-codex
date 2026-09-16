@@ -4,39 +4,69 @@
   "year": "Medieval period",
   "kingdom": "Duchy of Pomerania",
   "knownFor": [
-    "Eric of Pomerania",
-    "Duchy of Pomerania",
-    "Kalmar Union aftermath"
+    "The castle of the Dukes of Pomerania, begun by Bogusław V about 1352",
+    "The last years and death of Eric of Pomerania, 3 May 1459",
+    "A Hanseatic port trading from Lübeck to Normandy and Spain"
   ],
   "overview": [
-    "The Pomeranian town now Darłowo, where Eric of Pomerania spent his final years."
+    "The Pomeranian town now Darłowo, a Hanseatic Baltic port with a ducal castle, where Eric of Pomerania spent his final decade."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Rugenwalde (modern Darłowo) was a Pomeranian coastal town on the Baltic where Eric of Pomerania, deposed from the Scandinavian crowns, spent his final decades ruling Pomeranian territories."
+        "Rügenwalde — Darłowo in Polish — stands where the Wieprza reaches the Baltic on the Pomeranian coast, close enough to the sea for ships and far enough up the river for shelter. A stronghold called Dirlow is recorded at the river mouth by the eleventh century, and the town proper was probably founded in 1270 by Wizlaw II of Rügen, appearing in a document of 5 February 1271.",
+        "Destroyed in 1283, it was refounded and granted Lübeck law on 21 May 1312, the legal template that shaped most German-speaking Baltic towns. It matters to the archive as the place where Eric of Pomerania, who had ruled Denmark, Sweden and Norway together, lived out his last decade as a local duke."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The port and the Hanseatic trade",
       "paragraphs": [
-        "Eric of Pomerania's death at Rugenwalde in 1459 ended the Pomeranian dynasty's connection to Nordic kingship. He had been deposed from all three Scandinavian crowns by the 1440s and returned to govern his ancestral territories, where his legacy was primarily local rather than Scandinavian."
+        "Darłowo was a working port rather than a great city. It joined the Hanseatic League as a full member in 1412 and built up a merchant fleet larger than those of the neighbouring towns; its ships traded regularly with Lübeck and sailed as far as Normandy and Spain.",
+        "That reach explains both the town’s prosperity and its politics. A Baltic port lived by the herring, grain and timber trades and by the privileges that protected them, which made the Hanseatic connection more consequential to daily life here than the identity of whichever duke held the castle."
+      ]
+    },
+    {
+      "title": "The castle of the dukes",
+      "paragraphs": [
+        "Duke Bogusław V began building the castle about 1352, having bought the river island and its mill from a wealthy Darłowo burgher, Elizabeth von Behr, in order to put a fortress on it. The result is a compact Gothic brick castle standing in the water, and it is the only ducal castle of its kind on what is now the Polish coast.",
+        "Its position is the point: an island site in the river, inside the town but not of it, defensible against both a seaborne raid and the townspeople. It served as a princely residence for the Griffin dukes of Pomerania and it is the building around which everything else in the town’s medieval history is arranged."
+      ]
+    },
+    {
+      "title": "Eric of Pomerania’s last years",
+      "paragraphs": [
+        "Eric was born in Pomerania about 1382, was adopted as heir by Margaret I, and from 1396 ruled the Kalmar Union — Denmark, Sweden and Norway under one crown. His long attempt to govern the three kingdoms as a single state, and to finance it through the Sound Dues, collapsed in rebellion, and he was deposed from all three by the end of the 1430s.",
+        "He withdrew to Gotland and used it as a base from which he preyed on Baltic shipping, until he gave that up too and returned to the duchy he had come from. From 1449 until his death he ruled at Rügenwalde and worked to enlarge his Pomeranian holdings, a man who had governed three kingdoms and ended by administering a coastal lordship.",
+        "He died on 3 May 1459 and was buried in St Mary’s Church in the town, where his sarcophagus can still be seen. It is a genuinely unusual monument: the tomb of a king of three Scandinavian realms in a parish church on the Pomeranian shore."
+      ]
+    },
+    {
+      "title": "What survives",
+      "paragraphs": [
+        "The medieval town plan survived the centuries largely intact — the old town, the market square, the churches and the castle all keep the shape they were given in the fourteenth century. Of the town’s gates, only the High Gate still stands.",
+        "For a place whose name in the archive is attached to the death of a deposed king, the substantial thing is that the setting is still legible: the castle he lived in, the church he is buried in, and the street pattern he would have known are all there."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Rugenwalde",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Dar%C5%82owo_Zamek_Ksi%C4%85%C5%BC%C4%85t_Pomorskich.jpg"
+      "title": "Darłowo",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dar%C5%82owo"
     },
     {
-      "title": "Rugenwalde reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Rugenwalde"
+      "title": "Eric of Pomerania",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_of_Pomerania"
+    },
+    {
+      "title": "Wikimedia Commons image record: Darłowo Castle 2010",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Dar%C5%82owo_Castle_2010.jpg"
     }
   ],
   "relatedEntries": {
@@ -45,38 +75,111 @@
         "title": "Eric of Pomerania",
         "type": "person",
         "slug": "eric-of-pomerania",
-        "label": "Death of Eric of Pomerania"
+        "label": "Ruled here after 1449 and died here in 1459"
+      },
+      {
+        "title": "Margaret I",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Adopted him as heir to the union"
+      },
+      {
+        "title": "Christopher of Bavaria",
+        "type": "person",
+        "slug": "christopher-of-bavaria",
+        "label": "His nephew, elected in his place"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden"
-      },
-      {
         "title": "Kalmar Union",
         "type": "location",
-        "slug": "kalmar-union"
+        "slug": "kalmar-union",
+        "label": "The three realms he lost"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Realm he ruled from 1396"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Realm he was deposed from"
+      },
+      {
+        "title": "Helsingborg",
+        "type": "location",
+        "slug": "helsingborg",
+        "label": "Where he levied the Sound Dues from 1429"
       }
     ]
   },
   "id": "rugenwalde",
   "name": "Rugenwalde",
   "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Dar%C5%82owo_Castle_2010.jpg",
-  "summary": "The Pomeranian town now Darłowo, where Eric of Pomerania spent his final years.",
+  "summary": "A Pomeranian port at the mouth of the Wieprza, with a ducal castle begun about 1352, where Eric of Pomerania ruled his duchy after losing the Scandinavian crowns and died in 1459.",
   "imageInfo": {
-    "caption": "The castle of Darłowo (Rugenwalde) in Pomerania, where the deposed Eric of Pomerania spent his final years.",
+    "caption": "The castle of the Dukes of Pomerania at Darłowo, the former Rügenwalde, photographed in 2010.",
     "creator": "Jacob Truedson Demitz for Ristesson",
-    "date": "2010-10-23",
+    "date": "Photographed 23 October 2010; the castle was begun about 1352",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dar%C5%82owo_Castle_2010.jpg",
     "license": "Public domain",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "The Gothic brick castle built on the river island for Bogusław V and later the residence of Eric of Pomerania; much of the visible upper fabric reflects later rebuilding and twentieth-century restoration."
   },
   "coordinates": {
     "lat": 54.4208,
     "lon": 16.4106
   },
-  "modernCountry": "PL"
+  "modernCountry": "PL",
+  "aliases": [
+    "Darłowo",
+    "Darlowo",
+    "Rügenwalde"
+  ],
+  "timeline": [
+    {
+      "date": "11th century",
+      "title": "The stronghold of Dirlow",
+      "description": "A fortress is recorded where the Wieprza enters the Baltic, before the town is founded."
+    },
+    {
+      "date": "1270-1271",
+      "title": "The town founded",
+      "description": "Probably founded by Wizlaw II of Rügen; it first appears in a document of 5 February 1271."
+    },
+    {
+      "date": "1283",
+      "title": "Destroyed and refounded",
+      "description": "The town is destroyed and rebuilt."
+    },
+    {
+      "date": "21 May 1312",
+      "title": "Lübeck law granted",
+      "description": "Rügenwalde receives the Lübeck legal charter that shaped the German Baltic towns."
+    },
+    {
+      "date": "c. 1352",
+      "title": "The ducal castle begun",
+      "description": "Bogusław V buys the river island from the burgher Elizabeth von Behr and begins the brick castle on it."
+    },
+    {
+      "date": "1412",
+      "title": "Full member of the Hanseatic League",
+      "description": "The town joins the Hansa and builds a merchant fleet trading to Lübeck, Normandy and Spain."
+    },
+    {
+      "date": "1449",
+      "title": "Eric returns to Pomerania",
+      "description": "Deposed from Denmark, Sweden and Norway and finished with Gotland, Eric settles at Rügenwalde and rules his duchy."
+    },
+    {
+      "date": "3 May 1459",
+      "title": "Death of Eric of Pomerania",
+      "description": "Eric dies at Rügenwalde and is buried in St Mary’s Church, where his sarcophagus survives."
+    }
+  ]
 }

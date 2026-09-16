@@ -5,56 +5,82 @@
   "name": "Berkeley Castle",
   "year": 1327,
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Berkeley_Castle.jpg",
-  "summary": "The castle where Edward II died in captivity in 1327.",
+  "summary": "A Gloucestershire castle held by one family since the 1150s, where the deposed Edward II was imprisoned and died on 21 September 1327 in circumstances still argued over.",
   "overview": [
     "Berkeley Castle in Gloucestershire became notorious as the place where the deposed Edward II died in captivity.",
     "His death followed deposition, political collapse, and the rise of the regime around Isabella of France and Roger Mortimer."
   ],
   "knownFor": [
-    "Death of Edward II",
-    "English royal captivity",
-    "Fourteenth-century political crisis"
+    "The imprisonment and death of Edward II in 1327",
+    "A twelfth-century shell keep held by the Berkeley family since the 1150s",
+    "One of the oldest continuously inhabited castles in England"
   ],
   "imageInfo": {
-    "caption": "Berkeley Castle, represented by a relevant historic site or regional image.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "modern photograph or public-domain image",
+    "caption": "Berkeley Castle in Gloucestershire, photographed in July 2005.",
+    "creator": "chestertouristcom",
+    "date": "Photographed 15 July 2005; the shell keep dates from 1153-1156",
     "source": "Wikimedia Commons",
-    "note": "Modern photograph or public-domain image of the associated medieval place, used to ground the article visually.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berkeley_Castle.jpg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berkeley_Castle.jpg",
+    "license": "CC BY-SA 2.0",
+    "note": "A colour photograph showing the castle in its landscape rather than filling the frame; the red sandstone walls are the twelfth-century shell keep and curtain with the fourteenth-century additions described in the article. A larger image in which the keep fills the frame would serve this article better if one becomes available."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Berkeley Castle was a fortified aristocratic residence whose fame in medieval history comes chiefly from Edward II’s imprisonment and death."
+        "Berkeley Castle stands above the Severn vale in Gloucestershire, a compact red sandstone fortress that has been lived in by one family for more than eight centuries. It is not a great royal castle and was never meant to be: it is the seat of a baronial house, built to hold a lordship rather than a frontier.",
+        "Its fame rests on five months in 1327, when the deposed Edward II was held here and died. That single episode, and the lurid accounts of it written long afterwards, have shaped the castle’s reputation ever since."
       ]
     },
     {
-      "title": "Medieval historical context",
+      "title": "The castle: keep, curtain and tower",
       "paragraphs": [
-        "Edward II died there in 1327 after being forced from the throne. The exact manner of death remains disputed, but the political context of custody and deposition is clear."
+        "A motte-and-bailey castle was raised here about 1067 by William FitzOsbern in the years immediately after the Norman Conquest, and three successive lords named Roger de Berkeley held and rebuilt it in the first half of the twelfth century. The last of them was dispossessed in 1152 for refusing to support the Plantagenet cause during the civil war of Stephen’s reign.",
+        "The barony passed to Robert Fitzharding, a wealthy Bristol merchant who had backed the winning side, and it is his building that survives. Granted a charter by Henry II in 1153-54, he raised the circular shell keep between 1153 and 1156 — a ring of stone wall carried around the top of the old motte instead of a tower on it — and he and his son Maurice added the curtain wall, probably between about 1160 and 1190.",
+        "Thomas de Berkeley, third Baron Berkeley, enlarged it in the fourteenth century with Thorpe’s Tower, an inner gatehouse and new ranges in the bailey. A chamber is still shown to visitors as the cell where Edward II was held."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The Berkeleys",
       "paragraphs": [
-        "The castle became part of one of medieval England’s darkest royal narratives: a king defeated by war, noble opposition, and palace politics."
+        "The continuity of tenure is the castle’s other distinction. Fitzharding’s descendants took the name Berkeley and have held the place ever since, apart from a period of Tudor crown ownership — which makes it the oldest English castle still held by the family that built it, and, after the Tower of London and Windsor, the third oldest continuously occupied.",
+        "The family’s medieval record is not only military. In 1384 Katharine, Lady Berkeley, founded and endowed a school at Wotton-under-Edge, an unusual act of lay educational patronage for the period and one of the oldest endowed schools in England.",
+        "The castle’s military life ended in 1645, when Parliamentary forces took it and the Berkeleys were allowed to keep it only on condition that the breach in the keep was never repaired."
+      ]
+    },
+    {
+      "title": "Edward II at Berkeley",
+      "paragraphs": [
+        "Edward II was deposed in January 1327 in favour of his son by the regime of his queen, Isabella of France, and Roger Mortimer, and the problem of what to do with a living ex-king fell to his custodians. From April 1327 he was held at Berkeley in the joint keeping of Thomas de Berkeley and John Maltravers.",
+        "The castle had been ransacked in 1326 by men loyal to Hugh Despenser the Younger, Edward’s favourite, whose regime the Berkeleys had opposed: custody of the king went to a family with every reason to dislike him, which is part of why that autumn has always looked suspicious. At least one attempt was made to free him, and he was briefly taken out of the castle before being recovered."
+      ]
+    },
+    {
+      "title": "How Edward died, and what is disputed",
+      "paragraphs": [
+        "The official account given out at the time was that the king had died of natural causes on 21 September 1327. Almost nobody believed it, and the story grew in the telling: by the Tudor period Holinshed’s Chronicles could describe assassins holding him down under a featherbed and killing him with a red-hot spit — an account written more than two centuries later. It is the version everyone knows, and it is the least reliable.",
+        "What can be said is narrower. Edward was in the castle’s keeping and he died there in September 1327, and the political convenience of that death to Isabella and Mortimer is plain. Thomas de Berkeley was later charged as an accessory and defended himself by arguing that Mortimer’s agents had done it while he was away; he was acquitted in 1337. A minority of historians question whether Edward died at Berkeley at all, pointing to later claims that he escaped abroad. The manner of his death is genuinely unresolved: murder is likely but unproven, and the spit is a literary flourish rather than evidence."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Berkeley Castle",
+      "title": "Berkeley Castle",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Berkeley_Castle"
+    },
+    {
+      "title": "Holinshed’s Chronicles",
+      "author": "Raphael Holinshed",
+      "type": "primary source",
+      "note": "The Tudor account of Edward II’s killing, written more than two centuries after the event and the source of the red-hot spit."
+    },
+    {
+      "title": "Wikimedia Commons image record: Berkeley Castle",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Berkeley_Castle.jpg"
-    },
-    {
-      "title": "Berkeley Castle reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Berkeley_Castle"
     }
   ],
   "relatedEntries": {
@@ -63,12 +89,25 @@
         "title": "Edward II of England",
         "type": "person",
         "slug": "edward-ii-of-england",
-        "label": "Death of Edward II of England"
+        "label": "Imprisoned and died here in 1327"
+      },
+      {
+        "title": "Isabella of France",
+        "type": "person",
+        "slug": "isabella-of-france",
+        "label": "Led the regime that deposed him"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Succeeded on his father’s deposition"
       },
       {
         "title": "Edward I of England",
         "type": "person",
-        "slug": "edward-i-of-england"
+        "slug": "edward-i-of-england",
+        "label": "Father of the imprisoned king"
       }
     ],
     "locations": [
@@ -76,14 +115,15 @@
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
-        "label": "Realm of Edward II of England"
+        "label": "Realm of Edward II"
       }
     ],
     "events": [
       {
         "title": "Battle of Bannockburn",
         "type": "event",
-        "slug": "battle-of-bannockburn"
+        "slug": "battle-of-bannockburn",
+        "label": "The defeat that undermined Edward II’s rule"
       }
     ]
   },
@@ -91,5 +131,62 @@
     "lat": 51.6886,
     "lon": -2.4569
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "timeline": [
+    {
+      "date": "c. 1067",
+      "title": "The first castle",
+      "description": "William FitzOsbern raises a motte-and-bailey castle at Berkeley soon after the Norman Conquest."
+    },
+    {
+      "date": "1152",
+      "title": "The Berkeleys dispossessed",
+      "description": "The third Roger de Berkeley loses the barony for refusing to support the Plantagenet cause."
+    },
+    {
+      "date": "1153-1156",
+      "title": "The shell keep built",
+      "description": "Robert Fitzharding, granted a charter by Henry II, raises the circular shell keep that still stands."
+    },
+    {
+      "date": "c. 1160-1190",
+      "title": "The curtain wall",
+      "description": "Robert Fitzharding and his son Maurice enclose the castle with its curtain wall."
+    },
+    {
+      "date": "14th century",
+      "title": "Thorpe’s Tower and the gatehouse",
+      "description": "Thomas de Berkeley, third Baron Berkeley, enlarges the castle with Thorpe’s Tower, an inner gatehouse and new ranges."
+    },
+    {
+      "date": "1326",
+      "title": "The castle ransacked",
+      "description": "Supporters of Hugh Despenser the Younger sack Berkeley during the crisis that ends Edward II’s reign."
+    },
+    {
+      "date": "April 1327",
+      "title": "Edward II imprisoned",
+      "description": "The deposed king is placed in the joint custody of Thomas de Berkeley and John Maltravers at the castle."
+    },
+    {
+      "date": "21 September 1327",
+      "title": "Death of Edward II",
+      "description": "Edward dies at Berkeley; natural causes are announced, murder is widely assumed, and the manner of it is still disputed."
+    },
+    {
+      "date": "1337",
+      "title": "Thomas de Berkeley acquitted",
+      "description": "Charged as an accessory to the killing, Berkeley pleads absence and blames Mortimer’s agents; he is acquitted."
+    },
+    {
+      "date": "1384",
+      "title": "Katharine Lady Berkeley’s school",
+      "description": "The dowager Lady Berkeley founds and endows a school, an unusual lay foundation for the period."
+    },
+    {
+      "date": "1645",
+      "title": "Taken and slighted",
+      "description": "Parliamentary forces capture the castle; the breach in the keep is left unrepaired as a condition of its return."
+    }
+  ]
 }

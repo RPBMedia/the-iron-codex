@@ -4,39 +4,83 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Haakon the Good",
-    "Battle of Fitjar",
-    "Western Norwegian politics"
+    "The battle of about 961 in which Haakon the Good was mortally wounded",
+    "A kongsgard, one of the royal farms that supported the Norwegian kings",
+    "Hákonarmál, the poem composed on the king’s death"
   ],
   "overview": [
-    "A western Norwegian place tied to saga accounts of Haakon the Good's final battle."
+    "A royal estate on Stord in western Norway, tied to saga accounts of Haakon the Good’s last battle about 961."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Fitjar on the island of Stord in western Norway was the site of the Battle of Fitjar around 961, where Haakon the Good of Norway defeated a Danish force but received wounds from which he died shortly afterward."
+        "Fitjar lies on the northern end of Stord, a large island in Sunnhordland on the western Norwegian coast. The name comes from Old Norse fit, a meadow by the water, in the plural — a practical description of the low, green ground that made the site worth farming.",
+        "It was one of the royal farms, a kongsgard, and Haakon the Good kept his residence there. About the year 961 the sons of Eric Bloodaxe came against him at Fitjar with a force from Denmark; Haakon won the fight and was wounded in it, and died of the wound."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The royal farm",
       "paragraphs": [
-        "Haakon's death at Fitjar was commemorated in Hákonarmál, a skaldic poem praising his reception into Valhalla — notable given his role as an early Christian king of Norway. The battle's outcome and his death at the moment of victory gave Fitjar an elegiac significance in Norwegian royal memory."
+        "Early Norwegian kingship had no capital and very little in the way of taxation. The king lived off a circuit of royal estates, moving between them with his household and consuming the produce on the spot, and the kongsgard at Fitjar was one of those estates — the reason a king was there at all, and the reason an enemy fleet knew where to find him.",
+        "Remains of the royal manor have been identified in the area. The parish church that stands today was built in 1867, but stone from the older medieval stone church was reused in its foundations and in the churchyard walls, which is the most tangible medieval survival the place has."
+      ]
+    },
+    {
+      "title": "The fighting of about 961",
+      "paragraphs": [
+        "The saga account is circumstantial: three of Eric Bloodaxe’s surviving sons landed undetected on the Hordaland coast and surprised the king at his residence at Fitjar, having made the crossing with Danish support. Haakon’s men had time to arm but not to gather in strength, and the battle was fought at close quarters against heavier numbers.",
+        "Haakon won it. In the course of the fighting an arrow pierced his arm, and the wound proved mortal — an unglamorous end for a victorious king, and one the sources treat as the whole point of the story.",
+        "None of this is contemporary evidence. Haakon appears in no narrative source earlier than the late twelfth century, and the account comes from the saga tradition — Snorri’s Heimskringla and its relatives — written more than two hundred years after the event. Even the year is approximate: 960 and 961 are both given."
+      ]
+    },
+    {
+      "title": "Where the king died",
+      "paragraphs": [
+        "That he was wounded at Fitjar is the consistent tradition. Where he actually died is not. The sagas say he was carried from the battle and died at Håkonshella, near Bergen and some distance up the coast — a place that takes its name from him — and Norwegian reference works follow them. Other accounts place the death at Fitjar itself, which is why the archive records his death place there.",
+        "Both cannot be right, and the honest position is that the fighting happened on Stord and that the king died either on the spot or shortly afterwards a day’s sail north. He was buried in a mound at Seim in Nordhordland, another royal estate; the mound identified as his was excavated and produced nothing."
+      ]
+    },
+    {
+      "title": "Hákonarmál and the memorial",
+      "paragraphs": [
+        "His court poet Eyvindr skáldaspillir composed Hákonarmál on the king’s death, and it is one of the finest surviving skaldic poems. Its subject is startling: it shows valkyries coming for Haakon and his reception into Valhalla — a pagan afterlife granted to a king who had been raised a Christian in England and had tried, without success, to convert his own nobility.",
+        "The poem is therefore evidence for something more interesting than the battle. It shows a Christian king being commemorated in wholly pagan terms by his own household poet, in a Norway where the new religion was a matter of royal policy and the old one was still the language of honour and death.",
+        "A statue of Haakon by the sculptor Anne Grimdalen was raised at Fitjar in 1961, in Håkonarparken, for the thousand-year commemoration of the battle — one of the rare cases where a millennial anniversary can be marked on the ground where the event is believed to have happened."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Fitjar",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Fitjar_from_air.jpg"
+      "title": "Fitjar Municipality",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Fitjar_Municipality"
     },
     {
-      "title": "Fitjar reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Fitjar"
+      "title": "Håkon 1 Adalsteinsfostre",
+      "author": "Store norske leksikon",
+      "type": "encyclopedia",
+      "url": "https://snl.no/H%C3%A5kon_1_Adalsteinsfostre",
+      "note": "Places the king’s death at Håkonshella near Bergen and stresses that no contemporary sources exist."
+    },
+    {
+      "title": "Haakon the Good",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Haakon_the_Good"
+    },
+    {
+      "title": "Heimskringla",
+      "author": "Snorri Sturluson",
+      "type": "primary source",
+      "note": "The saga account of the battle and the king’s death, written more than two centuries later."
+    },
+    {
+      "title": "Wikimedia Commons image record: Fitjar Islands",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Fitjar_Islands.JPG"
     }
   ],
   "relatedEntries": {
@@ -45,17 +89,25 @@
         "title": "Haakon the Good",
         "type": "person",
         "slug": "haakon-the-good",
-        "label": "Death of Haakon the Good"
+        "label": "Mortally wounded here about 961"
       },
       {
         "title": "Eric Bloodaxe",
         "type": "person",
-        "slug": "eric-bloodaxe"
+        "slug": "eric-bloodaxe",
+        "label": "Whose sons attacked the king here"
       },
       {
-        "title": "Olaf Tryggvason",
+        "title": "Harald Fairhair",
         "type": "person",
-        "slug": "olaf-tryggvason"
+        "slug": "harald-fairhair",
+        "label": "Father of both Haakon and Eric"
+      },
+      {
+        "title": "Harald Greycloak",
+        "type": "person",
+        "slug": "harald-greycloak",
+        "label": "Son of Eric, who took the throne after Haakon’s death"
       }
     ],
     "locations": [
@@ -64,25 +116,75 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Containing realm"
+      },
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "Near Håkonshella, the saga’s death place"
+      },
+      {
+        "title": "Stainmore",
+        "type": "location",
+        "slug": "stainmore",
+        "label": "Where Eric Bloodaxe was killed a few years earlier"
+      },
+      {
+        "title": "Bømlo",
+        "type": "location",
+        "slug": "bomlo",
+        "label": "Neighbouring island waters on the same coastal route"
       }
     ]
   },
   "id": "fitjar",
   "name": "Fitjar",
   "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Fitjar_Islands.JPG",
-  "summary": "A western Norwegian place tied to saga accounts of Haakon the Good's final battle.",
+  "summary": "A royal farm on the island of Stord where Haakon the Good was attacked by the sons of Eric Bloodaxe about 961 and took the arrow wound that killed him.",
   "imageInfo": {
-    "caption": "Fitjar on the island of Stord, site of the battle where Haakon the Good was fatally wounded c. 961.",
+    "caption": "The islands at Fitjar on Stord in western Norway, photographed in 2013.",
     "creator": "Frokor",
-    "date": "2013-03-24 12:54:00",
+    "date": "Photographed 24 March 2013",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fitjar_Islands.JPG",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "A landscape photograph of the sea approach to Fitjar: the sheltered water and low islands are how a fleet arrived unseen in the saga account. Nothing of the royal farm stands above ground, so no image of the medieval site is possible."
   },
   "coordinates": {
     "lat": 59.9189,
     "lon": 5.3714
   },
-  "modernCountry": "NO"
+  "modernCountry": "NO",
+  "timeline": [
+    {
+      "date": "c. 934",
+      "title": "Haakon takes the throne",
+      "description": "Raised at the English court, Haakon returns to Norway and displaces his brother Eric Bloodaxe."
+    },
+    {
+      "date": "c. 960-961",
+      "title": "The attack at Fitjar",
+      "description": "The sons of Eric Bloodaxe land undetected and attack the king at his royal farm; Haakon wins the fight and is pierced in the arm by an arrow."
+    },
+    {
+      "date": "c. 961",
+      "title": "Death of Haakon the Good",
+      "description": "The king dies of the wound, at Håkonshella near Bergen according to the sagas, or at Fitjar by other accounts."
+    },
+    {
+      "date": "c. 961",
+      "title": "Buried at Seim",
+      "description": "He is laid in a mound at the royal estate of Seim in Nordhordland; the mound identified as his was later excavated without result."
+    },
+    {
+      "date": "Shortly after",
+      "title": "Hákonarmál composed",
+      "description": "Eyvindr skáldaspillir commemorates the Christian king’s death with a poem describing his reception into Valhalla."
+    },
+    {
+      "date": "1961",
+      "title": "The millennial statue",
+      "description": "Anne Grimdalen’s statue of Haakon is raised at Fitjar for the thousand-year commemoration."
+    }
+  ]
 }

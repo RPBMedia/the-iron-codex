@@ -4,39 +4,69 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Magnus III of Sweden",
-    "Nas Castle",
-    "Lake Vättern"
+    "Näs Castle, the earliest known royal castle in Sweden",
+    "The deaths of four kings there between 1167 and 1290, Magnus Ladulås among them",
+    "A royal centre in the middle of Lake Vättern, abandoned after 1318"
   ],
   "overview": [
-    "An island in Lake Vättern associated with medieval Swedish royal power."
+    "An island in Lake Vättern that served as a royal seat of the Swedish kings, with Näs Castle at its southern tip."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Visingsö is an island in Lake Vättern in Småland that served as a Swedish royal center in the high medieval period. Nas Castle on its northern tip was a primary royal residence and administrative base for several Swedish kings."
+        "Visingsö lies in the southern part of Lake Vättern, about thirty kilometres north of Jönköping and six kilometres out from Gränna on the eastern shore. It is long and narrow — some fourteen kilometres by three at its widest, about twenty-four square kilometres in all — and it sits in open water in the middle of one of the largest lakes in Europe.",
+        "That position made it a natural seat of power in the twelfth century. At the southern tip stood Näs, the earliest royal castle known in Sweden, and for something like a century and a half the island was as close as the kingdom came to having a fixed centre of government."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The island",
       "paragraphs": [
-        "Visingsö's island position made it defensible and suitable for royal administration during periods of political instability. Its importance declined as Stockholm developed into Sweden's primary political center in the fourteenth and fifteenth centuries."
+        "Vättern is deep, cold and frequently rough, and Visingsö is far enough from either shore to be genuinely difficult to reach without boats — which is the whole point of putting a castle and a treasury on it. An island stronghold in the middle of a great lake could not be rushed, blockaded cheaply, or taken by a raiding party, and in a kingdom whose politics consisted largely of two families murdering each other, that mattered.",
+        "The island sat centrally in the medieval kingdom, at the meeting point of Östergötland, Småland and Västergötland, so it was defensible without being remote from the provinces that made a Swedish king."
+      ]
+    },
+    {
+      "title": "Näs Castle",
+      "paragraphs": [
+        "Näs was built during the twelfth century; the most likely builders are Sverker the Elder, who reigned from about 1130 to 1156, or his son Karl Sverkersson. It is called Sweden’s first riksborg — the first castle of the realm rather than of a lord — and it served as the royal treasury as well as a residence, which is to say it held the things a king could not afford to lose.",
+        "The remains measure roughly thirty-two by twelve metres and include the footings of a round tower and a four-sided one. The walls, of slate and sandstone, still stand three to four metres high and are between one and one and a half metres thick, with sockets visible for the joists of an upper floor. It is not a large castle by later standards, but in twelfth-century Sweden it was a stone building of a kind almost nobody else had."
+      ]
+    },
+    {
+      "title": "Four kings dead on one island",
+      "paragraphs": [
+        "Näs has a remarkable record: four Swedish kings died there. Karl Sverkersson was killed on the island in 1167 by supporters of his rival and successor Knut Eriksson. Erik Knutsson died there in 1216, Johan Sverkersson in 1222, and Magnus Ladulås — Magnus III — in 1290.",
+        "The sequence tracks the long feud between the houses of Sverker and Erik, which alternated on the Swedish throne for more than a century, and it shows what the castle was for. A king stayed where he could not be surprised; when he was old or ill, he went to the strongest place he had. The one king who was murdered there died because the island’s security failed him, not because it was a soft target.",
+        "The castle’s end came in 1318, when Birger Magnusson pledged it to the Danish king during the civil war against his brothers, and it was burned after fighting in the same year while he was in exile. It was never rebuilt, and the centre of Swedish royal power moved north to Stockholm."
+      ]
+    },
+    {
+      "title": "After the Middle Ages",
+      "paragraphs": [
+        "The island’s second castle belongs to a different era. Visingsborg was built from the 1560s and became the seat of the Brahe family, who held Visingsö as a county in the seventeenth century and ran it as a small dynastic capital with a school and a printing press. It burned in 1718, during the Great Northern War, and its ruins — not those of Näs — are the ones that dominate photographs of the island today.",
+        "Kumlaby church, the medieval parish church in the middle of the island, also survives. For the archive the useful point is the distinction between the two ruins: the famous one is early modern, and the one that matters to medieval Swedish kingship is the low walling at the southern end."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Visingsö",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Visingsborg_ruin.jpg"
+      "title": "Visingsö",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Visings%C3%B6"
     },
     {
-      "title": "Visingsö reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Visings%C3%B6"
+      "title": "Näs borg",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/N%C3%A4s_borg"
+    },
+    {
+      "title": "Wikimedia Commons image record: Ruinen efter Visingsborgs slott",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ruinen_efter_Visingsborgs_slott_i_juli_2006.jpg"
     }
   ],
   "relatedEntries": {
@@ -45,44 +75,111 @@
         "title": "Magnus III of Sweden",
         "type": "person",
         "slug": "magnus-iii-of-sweden",
-        "label": "Death of Magnus III of Sweden"
+        "label": "Died on the island in 1290"
       },
       {
         "title": "Erik Knutsson",
         "type": "person",
-        "slug": "erik-knutsson"
+        "slug": "erik-knutsson",
+        "label": "Died at Näs in 1216"
       },
       {
-        "title": "Valdemar of Sweden",
+        "title": "John I Sverkersson",
         "type": "person",
-        "slug": "valdemar-of-sweden"
+        "slug": "john-i-sverkersson",
+        "label": "Died at Näs in 1222"
+      },
+      {
+        "title": "Charles VII Sverkersson",
+        "type": "person",
+        "slug": "charles-vii-sverkersson",
+        "label": "Killed on the island in 1167"
+      },
+      {
+        "title": "Knut Eriksson",
+        "type": "person",
+        "slug": "knut-eriksson",
+        "label": "Took the throne after the killing of 1167"
       }
     ],
     "locations": [
+      {
+        "title": "Nas Castle",
+        "type": "location",
+        "slug": "nas-castle",
+        "label": "The royal castle on this island"
+      },
       {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
+      },
+      {
+        "title": "Stockholm",
+        "type": "location",
+        "slug": "stockholm",
+        "label": "Where royal power moved after 1318"
       }
     ]
   },
   "id": "visingso",
   "name": "Visingsö",
   "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruinen_efter_Visingsborgs_slott_i_juli_2006.jpg",
-  "summary": "An island in Lake Vättern associated with medieval Swedish royal power.",
+  "summary": "An island in Lake Vättern holding Näs, the earliest known royal castle in Sweden, where four kings of the Sverker and Erik houses died between 1167 and 1290.",
   "imageInfo": {
-    "caption": "Visingsö in Lake Vättern, a Swedish royal centre in the high medieval period.",
+    "caption": "The ruins of Visingsborg Castle on Visingsö, photographed in July 2006.",
     "creator": "Tomhe",
-    "date": "2006-07",
+    "date": "Photographed July 2006; Visingsborg was built from the 1560s",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruinen_efter_Visingsborgs_slott_i_juli_2006.jpg",
     "license": "CC BY 2.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "These are the ruins of the sixteenth-century Brahe castle of Visingsborg, burned in 1718, not of the medieval royal castle of Näs, which stood at the southern tip of the island and survives only as low walling. The two are often confused."
   },
   "coordinates": {
     "lat": 58.05,
     "lon": 14.3333
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "aliases": [
+    "Visingso",
+    "Visingsö island"
+  ],
+  "timeline": [
+    {
+      "date": "12th century",
+      "title": "Näs Castle built",
+      "description": "A stone castle is raised at the southern tip of the island, probably by Sverker the Elder or his son Karl Sverkersson; it is the earliest royal castle known in Sweden."
+    },
+    {
+      "date": "1167",
+      "title": "Karl Sverkersson killed",
+      "description": "The king is killed on Visingsö by supporters of Knut Eriksson, who succeeds him."
+    },
+    {
+      "date": "1216",
+      "title": "Death of Erik Knutsson",
+      "description": "The king dies at Näs."
+    },
+    {
+      "date": "1222",
+      "title": "Death of Johan Sverkersson",
+      "description": "The last king of the Sverker house dies at Näs."
+    },
+    {
+      "date": "1290",
+      "title": "Death of Magnus Ladulås",
+      "description": "Magnus III dies on the island after a reign that strengthened royal authority."
+    },
+    {
+      "date": "1318",
+      "title": "Pledged and burned",
+      "description": "Birger Magnusson pledges the castle to Denmark; it is burned the same year and never rebuilt."
+    },
+    {
+      "date": "From the 1560s",
+      "title": "Visingsborg built",
+      "description": "A new castle is raised on the island, later the seat of the Brahe family; it burns in 1718."
+    }
+  ]
 }

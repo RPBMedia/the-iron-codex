@@ -6,38 +6,59 @@
   "kingdom": "Kingdom of France",
   "year": "1214",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bataille_de_Bouvines.jpg",
-  "summary": "A village in northern France where Philip II won a major victory in 1214.",
+  "summary": "A village on the Marque south-east of Lille, where a single bridge on the Tournai road decided where Philip II had to fight in 1214.",
   "overview": [
-    "A village in northern France where Philip II won a major victory in 1214."
+    "A village in French Flanders whose one bridge over the marshy Marque shaped the fighting of 27 July 1214."
   ],
   "knownFor": [
-    "Bouvines in medieval history",
-    "Regional power and warfare",
-    "Connected to battle narratives in IronCodex"
+    "The bridge over the Marque that fixed where the fighting of 1214 happened",
+    "Battlefield of the Battle of Bouvines, Philip II of France against Otto IV",
+    "Twenty-one stained-glass windows of 1887-1906 retelling the battle in the village church"
   ],
   "imageInfo": {
-    "caption": "Bouvines.",
-    "creator": "Unknown or Wikimedia Commons contributor",
-    "date": "historical image",
-    "source": "Wikimedia Commons",
-    "note": "Historical or later depiction used as representative visual evidence.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg"
+    "caption": "The Battle of Bouvines in the Grandes Chroniques de France, a manuscript illumination of about 1375 to 1380.",
+    "creator": "Unknown illuminator, Grandes Chroniques de France",
+    "date": "About 1375-1380; the battle was fought in 1214",
+    "source": "Bibliothèque nationale de France, via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg",
+    "license": "Public domain",
+    "note": "BnF, Département des manuscrits, Français 2813, folio 253 verso. Painted some 160 years after the event, so the mail, plate and heraldry are those of the late fourteenth century rather than of 1214. Nothing contemporary depicts the battle or the village. Public domain."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "A village in northern France where Philip II won a major victory in 1214.",
-        "Bouvines matters historically through Bouvines in medieval history, Regional power and warfare, Connected to battle narratives in IronCodex."
+        "Bouvines is a village of a few hundred people in French Flanders, on the right bank of the Marque about twelve kilometres south-east of Lille and a similar distance west of Tournai. Its place in history is a matter of ground rather than of size: the road between the two cities crossed the wet valley of the Marque here by one narrow bridge, and an army moving west had to funnel over it.",
+        "On Sunday 27 July 1214 Philip II of France turned and fought on the open ground east of that bridge rather than cross it with a pursuing coalition at his back. The Battle of Bouvines broke the alliance of Otto IV, Ferdinand of Flanders and John of England in a single afternoon, and the village has been defined by that day ever since."
+      ]
+    },
+    {
+      "title": "The ground and the bridge",
+      "paragraphs": [
+        "The Marque valley at Bouvines is low, wet and peaty — peat was cut here commercially until the workings were stopped for the damage they did to the land. East of the crossing the ground opens into dry farmland with room for cavalry to form, which is precisely why a bridge that could pass men only slowly mattered so much: Philip could not put his army across it in the face of an enemy, and so he fought in front of it.",
+        "The village takes its name from the Latin for ox, and local explanation ties it to a bridge wide enough for two oxen abreast. The modern commune is small — 2.71 square kilometres and 766 inhabitants at the 2023 count — and the fields east of the village are still open ground. A spring known as the fontaine Saint-Pierre is pointed out as the place where Philip rested before the fighting; that identification is village tradition, not record."
+      ]
+    },
+    {
+      "title": "How the village remembers 1214",
+      "paragraphs": [
+        "The commemoration is almost entirely the work of the nineteenth century. The historical commission of the Nord raised an obelisk on the site in 1865, and between 1880 and 1885 the parish church of Saint-Pierre was rebuilt under the mayor, Félix Dehau, on a scale out of all proportion to the village. Twenty-one stained-glass windows were then made for it between 1887 and 1906, narrating the battle around the nave; they are listed as monuments historiques, and they are what most visitors now come to see.",
+        "The village also carries a memorial that joins 1214 to 1914, the two dates set together on the same monument — a striking piece of French memory that reads the medieval victory and the Great War as one continuous story of the frontier. The eight hundredth anniversary was marked at Bouvines in 2014."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image record",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg"
+      "title": "Bouvines (commune)",
+      "author": "French Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://fr.wikipedia.org/wiki/Bouvines"
+    },
+    {
+      "title": "Bouvines",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Bouvines"
     },
     {
       "title": "Encyclopaedia Britannica: Battle of Bouvines",
@@ -46,10 +67,10 @@
       "url": "https://www.britannica.com/event/Battle-of-Bouvines"
     },
     {
-      "title": "World History Encyclopedia: Middle Ages",
-      "author": "World History Encyclopedia",
-      "type": "modern history",
-      "url": "https://www.worldhistory.org/Middle_Ages/"
+      "title": "Wikimedia Commons image record: Bataille de Bouvines",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Bataille_de_Bouvines.jpg"
     }
   ],
   "relatedEntries": {
@@ -58,7 +79,27 @@
         "title": "Battle of Bouvines",
         "type": "event",
         "slug": "battle-of-bouvines",
-        "label": "Battle fought here"
+        "label": "Fought on this ground in 1214"
+      }
+    ],
+    "people": [
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Chose to fight here"
+      },
+      {
+        "title": "Otto IV",
+        "type": "person",
+        "slug": "otto-iv",
+        "label": "Defeated here"
+      },
+      {
+        "title": "Ferdinand of Flanders",
+        "type": "person",
+        "slug": "ferdinand-of-flanders",
+        "label": "Captured here"
       }
     ],
     "locations": [
@@ -69,30 +110,16 @@
         "label": "Containing realm"
       },
       {
+        "title": "County of Flanders",
+        "type": "location",
+        "slug": "county-of-flanders",
+        "label": "Realm of the count taken prisoner here"
+      },
+      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
-        "label": "Combatant here"
-      }
-    ],
-    "people": [
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Fought here"
-      },
-      {
-        "title": "Otto IV",
-        "type": "person",
-        "slug": "otto-iv",
-        "label": "Fought here"
-      },
-      {
-        "title": "Ferdinand of Flanders",
-        "type": "person",
-        "slug": "ferdinand-of-flanders",
-        "label": "Fought here"
+        "label": "Otto IV’s empire"
       }
     ]
   },
@@ -100,5 +127,32 @@
     "lat": 50.5789,
     "lon": 3.1864
   },
-  "modernCountry": "FR"
+  "modernCountry": "FR",
+  "timeline": [
+    {
+      "date": "27 July 1214",
+      "title": "The battle east of the bridge",
+      "description": "Philip II of France defeats the coalition of Otto IV and Ferdinand of Flanders on the open ground before the Marque crossing."
+    },
+    {
+      "date": "1865",
+      "title": "Obelisk on the site",
+      "description": "The historical commission of the Nord raises a commemorative obelisk on the battlefield."
+    },
+    {
+      "date": "1880-1885",
+      "title": "Saint-Pierre rebuilt",
+      "description": "The parish church is rebuilt on a monumental scale under the mayor Félix Dehau."
+    },
+    {
+      "date": "1887-1906",
+      "title": "The twenty-one windows",
+      "description": "A cycle of stained glass telling the battle is installed in the new church; it is now listed as a monument historique."
+    },
+    {
+      "date": "2014",
+      "title": "Eight hundred years",
+      "description": "The octocentenary of the battle is commemorated in the village."
+    }
+  ]
 }
