@@ -23,7 +23,8 @@
     },
     {
       "name": "Fernán González",
-      "faction": "County of Castile"
+      "faction": "County of Castile",
+      "personId": "fernan-gonzalez"
     },
     {
       "name": "García Sánchez I of Pamplona",
@@ -137,6 +138,12 @@
           "title": "Ramiro II of León",
           "type": "person",
           "slug": "ramiro-ii-of-leon"
+        },
+        {
+          "name": "Fernán González",
+          "title": "Fernán González",
+          "type": "person",
+          "slug": "fernan-gonzalez"
         }
       ],
       "strength": {
@@ -189,6 +196,12 @@
         "type": "person",
         "slug": "abd-al-rahman-iii",
         "label": "The defeated caliph"
+      },
+      {
+        "type": "person",
+        "title": "Fernán González",
+        "slug": "fernan-gonzalez",
+        "label": "Castilian commander in the coalition"
       }
     ],
     "locations": [

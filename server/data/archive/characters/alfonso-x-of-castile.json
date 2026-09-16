@@ -1,0 +1,394 @@
+{
+  "id": "alfonso-x-of-castile",
+  "type": "character",
+  "name": "Alfonso X of Castile",
+  "aliases": [
+    "Alfonso X",
+    "Alfonso X the Wise",
+    "Alfonso X el Sabio",
+    "Alfonso el Sabio",
+    "Alfonso the Learned"
+  ],
+  "born": 1221,
+  "died": 1284,
+  "deathAge": "62",
+  "restingPlace": "Seville Cathedral",
+  "location": "Castile, León and Andalusia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Libro_de_los_Juegos%2C_Alfonso_X_y_su_corte.jpg",
+  "title": "King of Castile and León",
+  "isRuler": true,
+  "roles": [
+    "King of Castile and León",
+    "Elected king of the Romans, 1257-1275",
+    "Patron of the Toledo translators"
+  ],
+  "epithets": [
+    {
+      "name": "el Sabio",
+      "type": "byname",
+      "note": "Castilian for wise or learned; used of him within a generation of his death and inseparable from his books ever since."
+    },
+    {
+      "name": "the Learned",
+      "type": "translated byname",
+      "note": "The usual English rendering of el Sabio, chosen because the name praises his scholarship rather than his judgement as a ruler."
+    },
+    {
+      "name": "el Astrólogo",
+      "type": "later epithet",
+      "note": "The Astrologer, from the astronomical and astrological works of his workshop, including the Alfonsine Tables."
+    }
+  ],
+  "summary": "King of Castile and León who commissioned the Siete Partidas, the Alfonsine Tables and the Cantigas de Santa Maria, and whose pursuit of the imperial crown ended in rebellion and deposition.",
+  "details": "Alfonso X inherited the largest conquests of the Reconquista from his father Ferdinand III in 1252 and spent his reign trying to give them law, learning and an imperial future. The law and the learning outlived him; the empire never happened, and his second son Sancho took the kingdom from him in 1282.",
+  "overview": [
+    "Alfonso X ruled Castile and León from 1252 to 1284 and used the crown as an instrument of learning: a law code meant to govern every relationship in the kingdom, astronomical tables computed at Toledo, a history of Spain and a history of the world written in Castilian prose, and more than four hundred songs to the Virgin set to music. Almost none of it took effect on his own terms — the law code that carries his name became binding only in 1348, sixty-four years after his death.",
+    "The same reign spent two decades and a great deal of Castilian silver on the fecho del Imperio, his campaign to be crowned Holy Roman Emperor as a grandson of Philip of Swabia. He gave the claim up before Pope Gregory X at Beaucaire in 1275, the year his heir Fernando de la Cerda died and a Marinid army crossed from Morocco. Seven years later an assembly at Valladolid transferred the exercise of royal power to his second son Sancho, and Alfonso died at Seville in 1284 holding little more than that city, Murcia and Badajoz."
+  ],
+  "greatestFeats": [
+    "Commissioned the Siete Partidas, the most ambitious law code written in a medieval vernacular",
+    "Founded the Toledo workshop that produced the Alfonsine Tables and turned Castilian into a language of science",
+    "Compiled the Cantigas de Santa Maria, over four hundred songs with musical notation",
+    "Directed the Estoria de España and the General Estoria, the first great histories in Castilian prose"
+  ],
+  "birth": {
+    "date": "23 November 1221",
+    "place": {
+      "name": "Toledo",
+      "slug": "toledo"
+    },
+    "note": "Eldest son of Ferdinand III of Castile and Beatrice of Swabia, daughter of the German king Philip of Swabia."
+  },
+  "death": {
+    "date": "4 April 1284",
+    "place": {
+      "name": "Seville",
+      "slug": "seville"
+    },
+    "circumstance": "Died at Seville during the civil war with his son Sancho, leaving a will that tried to disinherit him and pass the crown to the sons of Fernando de la Cerda."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Castile",
+    "dynasty": "House of Ivrea (Burgundy)",
+    "culture": "Castilian",
+    "knownFor": "The Siete Partidas, the Alfonsine Tables and the Cantigas de Santa Maria"
+  },
+  "imageInfo": {
+    "caption": "Alfonso X enthroned among his court, from the Libro de los juegos, the book of chess, dice and tables completed for him in 1283.",
+    "creator": "Royal scriptorium of Alfonso X; illuminator unknown",
+    "date": "1283",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Libro_de_los_Juegos%2C_Alfonso_X_y_su_corte.jpg",
+    "note": "Miniature from the Libro de los juegos, made in the king’s own workshop in the last full year of his reign and now in the library of the monastery of El Escorial. A conventional image of kingship rather than a portrait from life. Public domain."
+  },
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Alfonso X ruled Castile and León from 1252 to 1284 and used the crown as an instrument of learning: a law code meant to govern every relationship in the kingdom, astronomical tables computed at Toledo, a history of Spain and a history of the world written in Castilian prose, and more than four hundred songs to the Virgin set to music. Almost none of it took effect on his own terms — the law code that carries his name became binding only in 1348, sixty-four years after his death.",
+        "The same reign spent two decades and a great deal of Castilian silver on the fecho del Imperio, his campaign to be crowned Holy Roman Emperor as a grandson of Philip of Swabia. He gave the claim up before Pope Gregory X at Beaucaire in 1275, the year his heir Fernando de la Cerda died and a Marinid army crossed from Morocco. Seven years later an assembly at Valladolid transferred the exercise of royal power to his second son Sancho, and Alfonso died at Seville in 1284 holding little more than that city, Murcia and Badajoz."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "Alfonso was born at Toledo on 23 November 1221, the eldest son of Ferdinand III of Castile and Beatrice of Swabia. His mother was a daughter of Philip of Swabia and a granddaughter of Frederick Barbarossa, and that descent supplied the claim he would chase for twenty years. His father supplied the opposite kind of inheritance: a kingdom in the middle of the fastest advance the Reconquista ever made.",
+        "He was raised in Galicia and León in the household of García Fernández de Villamayor and came of age on campaign. As heir he negotiated the submission of Murcia in 1243, where the Treaty of Alcaraz turned the taifa into a Castilian protectorate that kept its own Muslim ruler, and he served in the Andalusian war that ended with his father taking Seville in 1248. In January 1249 he married Violant, daughter of James I of Aragon, and when Ferdinand died on 30 May 1252 Alfonso was king within two days."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "Alfonso is unusual among medieval kings in that a great deal of his own voice survives, because he wrote himself into his books. The prologues speak in the first person of a king who commissions, corrects and orders the work of others, and who thinks the ordering is itself royal labour. The Cantigas de Santa Maria go further and cast him as the Virgin’s own troubadour, showing him kneeling, ill, and rescued by her; the satirical cantigas de escarnio attributed to him show a much sharper register, mocking and obscene by turns, with a taste for a well-aimed joke at a nobleman’s expense.",
+        "Hostile memory arrived quickly. The Crónica de Alfonso X, compiled under the descendants of the son who deposed him, presents a king whose taxes, debased coinage and imperial spending wore the kingdom out, and whose stubbornness turned a manageable succession dispute into a war. The Castigos written in Sancho IV’s name are a son’s implicit case against a father. Against that, later Castilian tradition made him the Rey Sabio, the king of the books, and lent him stories he never generated: the best known — that he said he would have advised the Creator on a simpler arrangement of the heavens — is not contemporary and appears only centuries after his death.",
+        "Modern historians, Joseph O’Callaghan and H. Salvador Martínez among them, have tried to hold the two portraits together. They credit a genuinely curious and methodical patron, generous to Jewish, Muslim and Christian scholars alike and serious about making Castilian carry learning; they also find a ruler who would not let go of a lost cause, who alienated the nobility with fiscal experiments, and who handled his own sons badly. What is hardest to dispute is the persistence: he kept the imperial claim alive for eighteen years after the German princes had moved on, and kept the scriptorium working while his kingdom broke apart around him."
+      ]
+    },
+    {
+      "title": "The Siete Partidas and Castilian law",
+      "paragraphs": [
+        "Alfonso legislated from the beginning of the reign. The Espéculo of about 1255 and the Fuero Real, granted to town after town in the same years, were attempts to put royal law where municipal custom had stood alone. The great work, compiled between 1256 and 1265 and known from the fourteenth century by the number of its parts, was the Siete Partidas: seven books running from the church and the articles of faith through kingship, justice and procedure, property, marriage and inheritance, wills, and crime and punishment.",
+        "What made it radical was its sources and its language. The Partidas are built on the Roman law revived at Bologna and on the canon law of the Decretals — the learned ius commune of the thirteenth century — and they are written in Castilian, for a kingdom whose towns had governed themselves by local fueros granted one by one. The code therefore claimed for the king a jurisdiction that the towns and the nobility had no intention of conceding, and the rebellion of 1272 turned in part on exactly that grievance.",
+        "It did not take effect in his lifetime. Only in 1348 did his great-grandson Alfonso XI of Castile, in the Ordenamiento de Alcalá, give the Partidas the force of law as a subsidiary code, ranking behind royal ordinances and the municipal fueros but supplying everything they left unsaid. In that role it became the reference law of Castile for centuries and travelled with Castilian rule to the Americas."
+      ]
+    },
+    {
+      "title": "Toledo, the translators and the Alfonsine Tables",
+      "paragraphs": [
+        "Toledo had been translating Arabic science into Latin for a century before Alfonso, and his workshop changed the destination language. Jewish scholars such as Yehuda ben Moshe ha-Cohen and Isaac ibn Sid, working with Christian clerics and with converts from Islam, rendered Arabic astronomy, astrology and magic into Castilian: the Libro del saber de astrología, the Lapidario on the powers of stones, the Picatrix, and the Libro de los juegos of 1283 on chess, dice and tables.",
+        "The most consequential product was the set of astronomical tables that carries his name. Compiled at Toledo from the 1260s onward, they corrected and replaced the Toledan Tables of al-Zarqālī for a new meridian and a new epoch dated to Alfonso’s accession in 1252. Recast at Paris in the 1320s, the Alfonsine Tables became the standard tool for computing planetary positions across Latin Europe and stayed in use for more than two centuries, which is why a crater on the Moon carries his name.",
+        "The same workshop produced the Estoria de España and the unfinished General Estoria, a history of Castile and a history of the world assembled from Latin, Arabic and Hebrew sources. Their importance is not only what they record but that they exist in Castilian prose at all: the reign fixed a written standard for the language and made it usable for law, history and science at once."
+      ]
+    },
+    {
+      "title": "The Cantigas de Santa Maria",
+      "paragraphs": [
+        "The Cantigas de Santa Maria are a collection of more than four hundred songs in Galician-Portuguese, the language of lyric poetry in thirteenth-century Iberia, written down with musical notation. Most narrate a miracle of the Virgin; every tenth song is a hymn of praise instead. They survive in four manuscripts, two of them at El Escorial, and the illuminated Códice Rico devotes a full page of panels to each song it covers.",
+        "The collection is the largest body of notated vernacular monophony to survive from the Middle Ages, which makes it a primary source for medieval music as well as for devotion. Its miniatures are just as valuable to historians for a different reason: they show instruments, clothing, ships, shops and sickrooms in colour, including Muslim and Jewish figures in a kingdom Alfonso ruled over all three communities. Several songs place the king himself in the story, cured or protected by the Virgin, so the collection doubles as a portrait of how he wished to be seen."
+      ]
+    },
+    {
+      "title": "The fecho del Imperio",
+      "paragraphs": [
+        "In 1256 an embassy from Pisa offered Alfonso the imperial crown, and on 1 April 1257 a party of the German electors chose him king of the Romans. The rest chose Richard of Cornwall, brother of Henry III of England, who at least travelled to Aachen to be crowned. Alfonso never set foot in Germany. For eighteen years he pursued the title through embassies, subsidies to Italian and German allies, and a diplomacy that reached from Genoa and Pisa to Norway and Egypt.",
+        "The cost fell on Castile. The reign’s repeated coinage changes, its extraordinary taxes and the attempts to fix prices by ordinance all belong to the same effort, and all of them produced resentment that the nobility could use. Successive popes withheld the recognition that alone would have made the election real, and when the princes elected Rudolf of Habsburg in 1273 the question was effectively closed.",
+        "Alfonso met Pope Gregory X at Beaucaire in Provence in the summer of 1275 and renounced the claim. He had spent the better part of two decades and a large share of his revenues on a crown he never wore, and he came home to find his heir dead, a Marinid army in Andalusia and his nobles in open dispute over the succession."
+      ]
+    },
+    {
+      "title": "Frontier war and the price of the reign",
+      "paragraphs": [
+        "The conquests Alfonso inherited had to be held. He pressed the settlement of Seville, Murcia and the lower Guadalquivir through repartimientos that distributed land to settlers and to the military orders, and he took Cádiz and Niebla. In 1264 the Mudéjar population of Murcia and the Guadalquivir valley rose in a coordinated revolt backed by Muhammad I of Granada and by Marinid troops from Morocco, and for two years the Castilian hold on the south was genuinely in doubt.",
+        "The revolt was broken with help from his father-in-law James I of Aragon, whose army recovered Murcia in 1266, and by Castilian campaigning that retook Jerez the same year. The settlement that followed expelled much of the Muslim population from the towns and left a frontier that had to be garrisoned permanently. To pay for it Alfonso leaned on the cortes for extraordinary grants, reorganised the sheep-farmers of the interior into the Mesta in 1273, and altered the coinage repeatedly — the fiscal record that his critics would hold against him."
+      ]
+    },
+    {
+      "title": "The revolt of Sancho and the deposition",
+      "paragraphs": [
+        "Fernando de la Cerda, the heir, died on 25 June 1275 while hurrying south to meet the Marinid invasion, leaving two small sons. By the representation rule written into Alfonso’s own Partidas the elder boy, Alfonso de la Cerda, should have succeeded; by the older Castilian custom of proximity of blood the crown belonged to the king’s surviving second son, Sancho. Sancho had the nobles, the towns and the frontier army behind him, and Alfonso — who needed a grown heir against Morocco — accepted him as heir in 1278 before trying to provide for his grandsons in Jaén.",
+        "The compromise collapsed. In April 1282 an assembly at Valladolid, led by Sancho and joined by the queen, the king’s brothers and much of the church, stripped Alfonso of the exercise of royal power while leaving him the title. Only Seville, Murcia and Badajoz stayed loyal. Alfonso answered by cursing and disinheriting Sancho in a formal document, and by pawning his crown to the Marinid sultan Abu Yusuf Yaqub for troops and money against his own son.",
+        "He died at Seville on 4 April 1284, still king in name. His will excluded Sancho and named the Cerda line, and was ignored: Sancho IV took the kingdom without resistance. The disinherited Cerda claim nonetheless survived him, becoming a standing pretext for Aragonese and French intervention in Castile for the next forty years."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "Alfonso was buried in the cathedral of Seville, the city he had kept to the end and had chosen as the seat of his dynasty’s memory, near the tomb of his father Ferdinand III. He had asked in his will that his heart be sent to the Holy Land and his body lie at Seville or Murcia; Murcia received his heart-shrine and the cathedral kept the king.",
+        "The reign ended in the least Alfonsine way imaginable: not by a judgement of law or a decision of the cortes he had summoned so often, but by an armed son and a stronger faction. The books, meanwhile, were already out of his hands and in circulation, which is the part of the estate that survived intact."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The judgement of \"the Learned\" is one later centuries made as much as his own. Contemporaries who used the byname meant something narrower than the modern sense — learned in the sciences, expert, a master of books — and the Castilian chronicles that shaped his memory were written under the dynasty of the son who overthrew him, so they had every reason to set the wise author against the failed king. The nineteenth and twentieth centuries, looking for a national founder of Castilian letters, kept the first half and quietly dropped the second.",
+        "What survives is nevertheless substantial. The Siete Partidas governed Castile and Spanish America for centuries after 1348; the Alfonsine Tables were used by astronomers across Europe until the age of Copernicus and Kepler; the Cantigas preserve more medieval song with its music than any comparable collection; and the prose of the Estoria de España set the shape of written Castilian. A king who failed to win an empire or to keep his own throne set the terms on which his kingdom argued about law, history and the heavens for the next three hundred years."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "The Siete Partidas",
+      "description": "A seven-part law code compiled between 1256 and 1265, built on Roman and canon law and written in Castilian; given force of law in 1348."
+    },
+    {
+      "title": "The Alfonsine Tables",
+      "description": "Astronomical tables computed at Toledo from 1252 onward that became the European standard for two centuries."
+    },
+    {
+      "title": "The Cantigas de Santa Maria",
+      "description": "Over four hundred Marian songs in Galician-Portuguese with notation, the largest surviving body of medieval vernacular song."
+    },
+    {
+      "title": "Castilian as a language of learning",
+      "description": "The Estoria de España, the General Estoria and the Toledo translations made the vernacular carry law, history and science."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "23 November 1221",
+      "title": "Born at Toledo",
+      "description": "Eldest son of Ferdinand III of Castile and Beatrice of Swabia, granddaughter of Frederick Barbarossa.",
+      "links": [
+        {
+          "title": "Toledo",
+          "type": "location",
+          "slug": "toledo"
+        }
+      ]
+    },
+    {
+      "date": "1243",
+      "title": "The protectorate over Murcia",
+      "description": "As heir he negotiated the Treaty of Alcaraz, which brought the taifa of Murcia under Castilian protection while leaving its Muslim ruler in place."
+    },
+    {
+      "date": "1248",
+      "title": "The fall of Seville",
+      "description": "Served in his father’s Andalusian campaign that took the greatest city of al-Andalus.",
+      "links": [
+        {
+          "title": "Conquest of Seville",
+          "type": "event",
+          "slug": "conquest-of-seville"
+        }
+      ]
+    },
+    {
+      "date": "1 June 1252",
+      "title": "Becomes king of Castile and León",
+      "description": "Succeeded Ferdinand III, inheriting Córdoba, Jaén, Seville and Murcia to settle and garrison."
+    },
+    {
+      "date": "1 April 1257",
+      "title": "Elected king of the Romans",
+      "description": "Chosen by part of the German electors against Richard of Cornwall; he never went to Germany or was crowned."
+    },
+    {
+      "date": "1264",
+      "title": "The Mudéjar revolt",
+      "description": "Murcia and the Guadalquivir valley rose with Granadan and Marinid support, shaking the Castilian hold on the south for two years."
+    },
+    {
+      "date": "1272",
+      "title": "The nobles rebel",
+      "description": "Nuño González de Lara and the king’s brother Felipe led a revolt over taxation and the fueros, several of them taking refuge in Granada."
+    },
+    {
+      "date": "25 June 1275",
+      "title": "Death of Fernando de la Cerda",
+      "description": "His heir died marching against a Marinid invasion, opening the succession dispute between the Cerda grandsons and the infante Sancho."
+    },
+    {
+      "date": "1275",
+      "title": "Renounces the imperial claim",
+      "description": "Met Pope Gregory X at Beaucaire and abandoned the fecho del Imperio after eighteen years."
+    },
+    {
+      "date": "April 1282",
+      "title": "Deposed at Valladolid",
+      "description": "An assembly led by Sancho stripped him of royal power; only Seville, Murcia and Badajoz stayed loyal."
+    },
+    {
+      "date": "4 April 1284",
+      "title": "Died at Seville",
+      "description": "Buried in the cathedral beside his father, leaving a will excluding Sancho that was ignored.",
+      "links": [
+        {
+          "title": "Seville",
+          "type": "location",
+          "slug": "seville"
+        }
+      ]
+    },
+    {
+      "date": "1348",
+      "title": "The Partidas become law",
+      "description": "Alfonso XI of Castile gave the code binding force as subsidiary law in the Ordenamiento de Alcalá, sixty-four years after its author’s death."
+    }
+  ],
+  "succession": {
+    "office": "King of Castile and León",
+    "note": "Alfonso held both crowns, permanently joined by his father in 1230.",
+    "predecessor": {
+      "personSlug": "ferdinand-iii-of-castile",
+      "displayName": "Ferdinand III of Castile",
+      "note": "His father, who joined Castile and León and conquered Córdoba, Jaén and Seville."
+    },
+    "successor": {
+      "displayName": "Sancho IV of Castile",
+      "note": "His second son, who carried the assembly of 1282 against him and reigned from 1284 to 1295 despite the rival claim of the infantes de la Cerda."
+    }
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "His father and predecessor"
+      },
+      {
+        "title": "Alfonso XI of Castile",
+        "type": "person",
+        "slug": "alfonso-xi-of-castile",
+        "label": "Great-grandson who made the Partidas law in 1348"
+      },
+      {
+        "title": "Eleanor of Castile",
+        "type": "person",
+        "slug": "eleanor-of-castile",
+        "label": "His half-sister, married to the future Edward I in 1254"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "His realm"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "The joined crown he also ruled"
+      },
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "Birthplace and home of his translators"
+      },
+      {
+        "title": "Seville",
+        "type": "location",
+        "slug": "seville",
+        "label": "His capital in the last years, and his burial place"
+      }
+    ],
+    "events": [
+      {
+        "title": "Conquest of Seville",
+        "type": "event",
+        "slug": "conquest-of-seville",
+        "label": "He served in his father’s campaign of 1248"
+      }
+    ]
+  },
+  "sectionImages": [
+    {
+      "section": "The Siete Partidas and Castilian law",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Siete_Partidas.jpg",
+      "alt": "Alfonso X enthroned with scribes and counsellors in a miniature from a manuscript of the Siete Partidas.",
+      "caption": "Alfonso X enthroned with his scribes and counsellors in a miniature from a manuscript of the Siete Partidas, the code compiled between 1256 and 1265.",
+      "creator": "Castilian illuminator, name unrecorded",
+      "date": "Code compiled 1256-1265; the miniature is dated to the same period on Wikimedia Commons",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Siete_Partidas.jpg",
+      "note": "Commons dates the miniature with the code’s compilation; most surviving illuminated Partidas manuscripts are later copies, so the date belongs more securely to the text than to this page. Public domain."
+    },
+    {
+      "section": "The Cantigas de Santa Maria",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/13th-century_unknown_painters_-_Cantigas_de_Alfonso_el_Sabio_-_WGA16031.jpg",
+      "alt": "A page of six illuminated panels from the Cantigas de Santa Maria showing ships, a harbour and a shrine.",
+      "caption": "A page of six narrative panels from the Cantigas de Santa Maria, illuminated for Alfonso X in the second half of the thirteenth century.",
+      "creator": "Illuminator of the royal scriptorium, name unrecorded",
+      "date": "Between 1250 and 1300",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:13th-century_unknown_painters_-_Cantigas_de_Alfonso_el_Sabio_-_WGA16031.jpg",
+      "note": "Each song in the illuminated codices is given a full page of panels like this one; the miniatures are a leading source for thirteenth-century ships, instruments and dress. Public domain."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alfonso X of Castile",
+      "author": "Wikipedia",
+      "type": "reference",
+      "url": "https://en.wikipedia.org/wiki/Alfonso_X_of_Castile"
+    },
+    {
+      "title": "Alfonso X de Castilla",
+      "author": "Wikipedia (Spanish)",
+      "type": "reference",
+      "url": "https://es.wikipedia.org/wiki/Alfonso_X_de_Castilla"
+    },
+    {
+      "title": "The Learned King: The Reign of Alfonso X of Castile",
+      "author": "Joseph F O’Callaghan",
+      "type": "book",
+      "note": "University of Pennsylvania Press, 1993."
+    },
+    {
+      "title": "Alfonso X, the Learned: A Biography",
+      "author": "H Salvador Martínez",
+      "type": "book",
+      "note": "Brill, 2010."
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Libro_de_los_Juegos%2C_Alfonso_X_y_su_corte.jpg"
+    }
+  ]
+}

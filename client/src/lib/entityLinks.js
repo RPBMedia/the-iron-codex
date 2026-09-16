@@ -31,6 +31,7 @@ export const entityLinks = [
   { label: "Alexios I Komnenos", aliases: ["Alexius I Comnenus","Alexios Komnenos"], type: "person", slug: "alexios-i-komnenos" },
   { label: "Alfonso VI of León and Castile", aliases: ["Alfonso VI","Alfonso VI of Castile","Alfonso the Brave","Alfonso el Bravo"], type: "person", slug: "alfonso-vi-of-leon-and-castile" },
   { label: "Alfonso VIII of Castile", aliases: ["Alfonso the Noble","Alfonso VIII"], type: "person", slug: "alfonso-viii-of-castile" },
+  { label: "Alfonso X of Castile", aliases: ["Alfonso X","Alfonso X the Wise","Alfonso X el Sabio","Alfonso el Sabio","Alfonso the Learned"], type: "person", slug: "alfonso-x-of-castile" },
   { label: "Alfonso XI of Castile", aliases: ["Alfonso XI the Avenger","Alfonso el Justiciero"], type: "person", slug: "alfonso-xi-of-castile" },
   { label: "Alfred the Great", type: "person", slug: "alfred-the-great" },
   { label: "Algirdas", aliases: ["Olgierd","Alhierd","Olgerd"], type: "person", slug: "algirdas" },
@@ -149,6 +150,7 @@ export const entityLinks = [
   { label: "Ferdinand II of Aragon", aliases: ["Fernando II de Aragón","Ferdinand the Catholic","Ferdinand V of Castile"], type: "person", slug: "ferdinand-ii-of-aragon" },
   { label: "Ferdinand III of Castile", aliases: ["Fernando III","Saint Ferdinand","San Fernando","Ferdinand the Saint","Ferdinand III"], type: "person", slug: "ferdinand-iii-of-castile" },
   { label: "Ferdinand of Flanders", aliases: ["Ferrand of Flanders","Ferdinand, Count of Flanders"], type: "person", slug: "ferdinand-of-flanders" },
+  { label: "Fernán González", aliases: ["Fernán González de Castilla","Fernán González of Castile","Fernando González","el Buen Conde"], type: "person", slug: "fernan-gonzalez" },
   { label: "Fiore dei Liberi", aliases: ["Fiore dei Liberi da Cividale","Fiore Furlano","Fiore de’ Liberi"], type: "person", slug: "fiore-dei-liberi" },
   { label: "Frederick I Barbarossa", aliases: ["Frederick Barbarossa","Frederick I"], type: "person", slug: "frederick-i-barbarossa" },
   { label: "Frederick II, Holy Roman Emperor", aliases: ["Frederick II","Stupor Mundi"], type: "person", slug: "frederick-ii-holy-roman-emperor" },
@@ -204,6 +206,7 @@ export const entityLinks = [
   { label: "Hugh de Payns", aliases: ["Hugues de Payens","Hugh of Payns"], type: "person", slug: "hugh-de-payns" },
   { label: "Igor of Kiev", aliases: ["Igor I of Kiev","Ihor of Kyiv","Ingvar (Norse equivalent name)"], type: "person", slug: "igor-of-kiev" },
   { label: "Imad ad-Din Zengi", aliases: ["Zengi"], type: "person", slug: "imad-ad-din-zengi" },
+  { label: "Ine of Wessex", aliases: ["King Ine","Ine of the West Saxons"], type: "person", slug: "ine-of-wessex" },
   { label: "Inge II Bårdsson", aliases: ["Inge Bårdsson","Inge II"], type: "person", slug: "inge-ii-bardsson" },
   { label: "Inge the Elder", aliases: ["Inge Stenkilsson"], type: "person", slug: "inge-the-elder" },
   { label: "Inge the Younger", aliases: ["Inge Halstensson","Ingold the Younger"], type: "person", slug: "inge-the-younger" },
@@ -378,6 +381,7 @@ export const entityLinks = [
   { label: "Sophia (wife of Justin II)", aliases: ["Empress Sophia","Aelia Sophia"], type: "person", slug: "sophia-wife-of-justin-ii" },
   { label: "Stefan Lazarević", aliases: ["Stephen Lazarević","Stefan the Tall"], type: "person", slug: "stefan-lazarevic" },
   { label: "Stenkil", aliases: ["Steinkell"], type: "person", slug: "stenkil" },
+  { label: "Stephen I of Hungary", aliases: ["Stephen I","Saint Stephen of Hungary","István I","Szent István","Vajk"], type: "person", slug: "stephen-i-of-hungary" },
   { label: "Stephen of England", aliases: ["Stephen of Blois","King Stephen"], type: "person", slug: "stephen-of-england" },
   { label: "Stephen-Henry, Count of Blois", aliases: ["Stephen-Henry","Stephen II of Blois"], type: "person", slug: "stephen-henry-count-of-blois" },
   { label: "Subutai", aliases: ["Sübötei","Subotai","Subedei"], type: "person", slug: "subutai" },
@@ -814,6 +818,25 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // "Stephen I" is the Hungarian king here, but Stephen of England IS Stephen I
+    // of England in ordinary English usage, and the archive holds three Stephens
+    // (Hungary, England, and Stephen-Henry of Blois). Today every "Stephen I" in
+    // the archive sits inside the Hungarian's own article, so nothing mislinks —
+    // this is a guard placed BEFORE the damage, unlike the bare "Alexander"
+    // alias, which had already swallowed 70 strings by the time it was found.
+    terms: ['Stephen I'],
+    possibleTargets: [
+      {
+        title: 'Stephen I of Hungary',
+        label: 'Stephen I of Hungary',
+        type: 'person',
+        slug: 'stephen-i-of-hungary',
+        date: 'r. 1000/1001–1038',
+        contextHints: ['Hungary', 'Hungarian', 'Magyar', 'Esztergom', 'Árpád', 'Géza', 'Koppány', 'Emeric', 'ispán', 'Silvester II', 'canonis']
+      }
+    ]
+  },
   {
     // The archive's `alexander` is Alexander of Byzantium, who reigned for
     // thirteen months and died in 913. His entry carries the BARE label
