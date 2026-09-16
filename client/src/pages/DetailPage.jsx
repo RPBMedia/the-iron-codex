@@ -827,12 +827,18 @@ function EventIntel({ article }) {
                       {participant.leaders.map((leader) => (
                         <li key={`${participant.side}-${leader.slug ?? leader.name}`}>
                           <EntryLink entry={leader}>{leader.name ?? leader.title}</EntryLink>
-                          {/* A commander with no article must say why, or an
-                              unlinked name reads as an oversight rather than a
-                              decision — the same reason succession boxes carry a
-                              status and army sizes carry a confidence note. */}
-                          {!leader.slug && leader.note && (
-                            <p className="event-uncertain-note">{leader.note}</p>
+                          {/* A leader card shows the name and the person's ROLE,
+                              nothing more (owner, 2026-09-16, on Lechfeld: "way
+                              too much text… too exhaustive to read"). Seven
+                              commanders there each carried a 110-211 character
+                              paragraph, and the card became an essay.
+
+                              The full note stays in the DATA — it is the archive's
+                              record of why a name is unlinked, and 76 of 146 notes
+                              carry that explanation. It just is not what a reader
+                              needs while scanning who fought. */}
+                          {!leader.slug && leaderRole(leader) && (
+                            <p className="event-uncertain-note">{leaderRole(leader)}</p>
                           )}
                         </li>
                       ))}
@@ -871,6 +877,56 @@ function EventIntel({ article }) {
  * from the outcome string itself.
  */
 const VERDICT_WORDS = /\b(victor|victories|defeat|success|stalemate|truce|withdrawal|surrender|captured?|repulsed|fell|failed|inconclusive)/i
+
+/**
+ * The short role shown under an unlinked commander's name.
+ *
+ * Leader notes were written to serve two masters: to say what the person did,
+ * and to explain why the archive has no article for them. The second half is a
+ * record for editors, not something a reader scanning a battle needs — so the
+ * card shows the first clause and drops the rest.
+ *
+ * `title` wins when a leader has one. Otherwise the note's opening clause is
+ * taken, cut at the first sentence end, and any "No biography…" sentence
+ * removed. A clause longer than ~90 characters is trimmed at its last comma, so
+ * "Duke of Lotharingia, recently in rebellion against Otto and restored to
+ * favour, who recovered the plundered baggage train and was killed by an arrow
+ * through the throat" becomes "Duke of Lotharingia".
+ */
+export function leaderRole(leader) {
+  if (leader.title && leader.title !== leader.name) return leader.title
+
+  const note = String(leader.note ?? '').trim()
+  if (!note) return null
+
+  // Two different boilerplates were used over time — "No biography in the Codex
+  // yet" and "No article yet:" — and both are editor's record, not the reader's
+  // business. Strip either wherever it sits, leading or trailing.
+  const withoutBoilerplate = note
+    .replace(/^\s*No (?:article|biography)[^:.]*[:.]\s*/i, '')
+    .replace(/\s*No (?:article|biography)\b.*$/i, '')
+    .trim()
+  if (!withoutBoilerplate) return null
+
+  const firstSentence = (withoutBoilerplate.split(/(?<=\.)\s+/)[0] ?? withoutBoilerplate)
+    .replace(/[.;:,]\s*$/, '')
+    .trim()
+  if (!firstSentence) return null
+  if (firstSentence.length <= 90) return firstSentence
+
+  // Never cut mid-word, and never end on a dangling connective. Cutting at the
+  // last space gave "mortally wounded by a cannon shot in" and "left Harold
+  // Godwinson to meet two" — whole words, but the phrase still stops mid-thought.
+  const head = firstSentence.slice(0, 90)
+  const comma = head.lastIndexOf(',')
+  const base = comma > 20 ? head.slice(0, comma) : head.slice(0, Math.max(head.lastIndexOf(' '), 0) || head.length)
+
+  const DANGLING = /\s+(?:and|or|but|with|by|to|of|in|on|at|for|from|the|a|an|who|whose|which|that|his|her|their|its|two|both)$/i
+  let trimmed = base.trim()
+  while (DANGLING.test(trimmed)) trimmed = trimmed.replace(DANGLING, '').trim()
+
+  return (trimmed || base).replace(/[.;:,]\s*$/, '').trim()
+}
 
 function splitOutcome(outcome) {
   const clause = outcome.match(/^([^;:]{3,90})[;:]\s*([\s\S]+)$/)

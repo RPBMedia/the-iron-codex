@@ -1858,10 +1858,15 @@ p.article-deck a:focus-visible {
   outline-offset: 2px;
 }
 
+/* A leader's role sits UNDER their name and must read as a caption, not as
+   body copy competing with it. It was 0.92rem at weight 760 — nearly as loud as
+   the name above it — which is part of why the cards read as walls of text
+   (owner, 2026-09-16). */
 .event-uncertain-note {
-  color: #555964;
-  font-size: 0.92rem;
-  font-weight: 760;
+  color: #5f636d;
+  font-size: 0.84rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 /* Per-side army size / estimated strength shown inside each faction card. */
