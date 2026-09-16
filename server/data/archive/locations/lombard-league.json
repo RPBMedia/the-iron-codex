@@ -5,7 +5,7 @@
   "locationType": "League",
   "kingdom": "Northern Italy",
   "year": "1167",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/BattagliaLegnano.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Member_Cities_of_the_Lombard_Leagues.png?width=1600",
   "summary": "The Lombard League was a coalition of northern Italian communes that defended urban liberties against Frederick Barbarossa’s attempts to enforce imperial rights in Italy.",
   "overview": [
     "The Lombard League was the sworn alliance of northern Italian communes — Milan, Brescia, Bergamo, Verona, Padua, Bologna and their fellows — formed at Pontida (by tradition, 1167) against Frederick Barbarossa's claim to govern Lombardy through imperial podestàs and Roncaglia's regalian rights.",
@@ -19,12 +19,12 @@
     "The second League's survival of Frederick II"
   ],
   "imageInfo": {
-    "caption": "Representative image for Lombard League.",
-    "creator": "Public-domain or Wikimedia Commons contributor",
-    "date": "medieval/later image or modern historical map",
+    "caption": "A modern map of the member cities of the first and second Lombard Leagues, separating the communes that joined each league from the towns that were allied to one only for a time.",
+    "creator": "Medhelan (Wikimedia Commons)",
+    "date": "2017; shows 1167 to 1250",
     "source": "Wikimedia Commons",
-    "note": "Representative visual evidence; heraldry and maps may be later reconstructions rather than contemporary state portraits.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BattagliaLegnano.jpg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Member_Cities_of_the_Lombard_Leagues.png",
+    "note": "A modern reconstruction, not a medieval map, and the only map of the league on Commons in English. Its title and both legend blocks are English, but the city names are the Italian forms: Milano is Milan, Torino Turin, Venezia Venice, Genova Genoa, Padova Padua and Mantova Mantua, while Brescia, Bergamo, Verona, Vicenza, Treviso, Ferrara, Bologna, Modena, Parma, Piacenza, Cremona and Lodi are spelt the same in both languages. Dark green marks the cities of the first league of 1167 to 1208 and yellow-green those of the second of 1226 to 1250, with hatching for temporary allies; Alessandria, founded by the league in 1168 and named for Pope Alexander III, is marked, and so is Legnano, north-west of Milan. The map shows membership across the whole period rather than at any one moment, so it does not show cities leaving and rejoining, which several did. Licensed CC BY-SA 4.0."
   },
   "contentSections": [
     {
@@ -86,6 +86,18 @@
       "title": "The Two Italies / Italian city-communes scholarship",
       "author": "Academic tradition",
       "type": "book"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Member_Cities_of_the_Lombard_Leagues.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:2123_-_Milano%2C_Castello_sforzesco_-_Fregio_di_Porta_Romana_(1171)_-_Foto_Giovanni_Dall'Orto_-_14-Feb-2008.jpg"
     }
   ],
   "aliases": [
@@ -187,5 +199,14 @@
       "title": "Parma's sortie",
       "description": "The besieged city burns \"Vittoria\"; the Staufer project in Lombardy breaks."
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/2123_-_Milano%2C_Castello_sforzesco_-_Fregio_di_Porta_Romana_(1171)_-_Foto_Giovanni_Dall'Orto_-_14-Feb-2008.jpg?width=1600",
+  "armsImageInfo": {
+    "caption": "The Lombard League bore no coat of arms; this frieze carved for Milan's Porta Romana in 1171 shows the commune's own militia in mail and helmet, the citizen infantry that broke the emperor's knights at Legnano five years later.",
+    "creator": "Anselmo da Campione and workshop; photographed by Giovanni Dall’Orto",
+    "date": "carved 1171; photographed 2008",
+    "source": "Wikimedia Commons (Museum of Ancient Art, Castello Sforzesco, Milan, room 6)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2123_-_Milano%2C_Castello_sforzesco_-_Fregio_di_Porta_Romana_(1171)_-_Foto_Giovanni_Dall'Orto_-_14-Feb-2008.jpg",
+    "note": "The league was a sworn confederation of independent communes, not a principality, and it had no arms, no flag and no single seal: what the sources give it instead is the carroccio, the ox-drawn wagon carrying each city's standard and altar, around which the militia formed. This frieze is the nearest surviving thing to the league's own self-portrait. It was carved in 1171 for the Porta Romana, the gate of the inner wall Milan rebuilt after Frederick Barbarossa razed the city in 1162, and the sequence shows the Milanese returning to their ruined town and rebuilding it; the inscription along the top records the sculptor, Anselmo da Campione. The gate was demolished in 1793 and the reliefs moved to the Castello Sforzesco, so the frieze is no longer in place. It shows Milan, the league's leading city, rather than the league as a body. Licensed Attribution (credit to Giovanni Dall'Orto required)."
+  }
 }

@@ -78,6 +78,18 @@
       "title": "The Northern Crusades",
       "author": "Eric Christiansen",
       "type": "book"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Lordship_of_Mecklenburg_locator_map_(1250).svg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Herzogtum_Liegnitz-Brieg_und_Mecklenburg_Wappenbuch_Gr%C3%BCnenberg_Berliner_Exemplar.png"
     }
   ],
   "relatedEntries": {
@@ -125,16 +137,15 @@
   },
   "id": "mecklenburg",
   "name": "Mecklenburg",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lordship_of_Mecklenburg_locator_map_(1250).svg?width=700",
   "summary": "A north German dynastic region tied to Albert of Mecklenburg and Baltic politics.",
   "imageInfo": {
-    "caption": "Mecklenburg in northern Germany, the duchy from which Albert of Mecklenburg drew his title.",
-    "creator": "User:Kolossos",
-    "date": "2009-09-05",
+    "caption": "A modern locator map of the lordship of Mecklenburg about 1250, marking in red the Obodrite country between the lower Elbe and the Baltic that Niklot's descendants held as a Saxon fief.",
+    "creator": "Alphathon (Wikimedia Commons), after Droysen",
+    "date": "2016; shows about 1250",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
-    "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lordship_of_Mecklenburg_locator_map_(1250).svg",
+    "note": "A modern reconstruction drawn in Inkscape from a plate of Droysen's Allgemeiner historischer Handatlas, one of a matched set the same author made for the neighbouring territories of Werle, Parchim, Rostock, Ratzeburg and the county of Schwerin. It carries no place names at all, only the red highlight and an inset showing where this corner of the Baltic sits in central Europe, so the towns the article names — Schwerin, Wismar, Rostock, Güstrow — are not marked. It shows the lordship a century before the ducal title of 1348, and the author notes that it excludes Stargard and Strelitz, which at this date still belonged to the margraviate of Brandenburg. The projection is not the standard equirectangular one used for locator maps, which is why grid lines are drawn on the inset. Licensed CC BY-SA 4.0."
   },
   "timeline": [
     {
@@ -186,6 +197,27 @@
       "date": "1419",
       "title": "Rostock university",
       "description": "The Baltic's first university opens in the duchy's great port."
+    }
+  ],
+  "armsImage": "/images/locations/mecklenburg-arms.jpg",
+  "armsImageInfo": {
+    "caption": "The arms of the dukes of Mecklenburg in Conrad Grünenberg’s armorial of about 1483: the crowned black bull’s head quartered with the golden griffin of Rostock.",
+    "creator": "Conrad Grünenberg, knight and burgher of Constance",
+    "date": "about 1483",
+    "source": "Wikimedia Commons (Geheimes Staatsarchiv Preußischer Kulturbesitz, Berlin, VIII. HA II Nr. 21)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herzogtum_Liegnitz-Brieg_und_Mecklenburg_Wappenbuch_Gr%C3%BCnenberg_Berliner_Exemplar.png",
+    "note": "From a genuine late medieval armorial roll, the Berlin copy of Grünenberg’s Wappenbuch, not a modern redrawing: the bull’s head, black and crowned with a red tongue, quartered with the griffin of the lordship of Rostock on blue, under the crested helm. The German caption on the page titles its bearer duke of Mecklenburg, prince of the Wends, lord of Stargard and advocate of Rostock. The Codex copy is cropped to this achievement alone, because the same page also carries the arms of the Silesian duchy of Liegnitz-Brieg beside it and four further lordships below. The bull’s head is older than the page by more than two centuries: the princes sealed with a griffin at first and took the bull’s head in 1219, and it stayed the house’s arms until 1918. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "Wendish origins and the German turn",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schwerin-Schloss-gp.jpg?width=1600",
+      "caption": "A 2009 photograph of Schwerin Castle on its island in the Schweriner See, rebuilt in the 1840s and 1850s on the site of the Obodrite stronghold that Henry the Lion took in 1160.",
+      "creator": "Kolossos (Wikimedia Commons)",
+      "date": "photographed 2009; the present building of 1845 to 1857",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
+      "note": "Nothing of the Wendish fortress is visible here. The island in the Schweriner See carried the Obodrite stronghold the Slavs called Zuarin, which Henry the Lion took in 1160, the year Niklot fell, and which became the seat of the county of Schwerin and later the dukes' residence; the building in the photograph is a nineteenth-century romantic reconstruction by Georg Adolph Demmler and Friedrich August Stüler, so it shows the site rather than the medieval castle. Licensed CC BY-SA 3.0."
     }
   ]
 }

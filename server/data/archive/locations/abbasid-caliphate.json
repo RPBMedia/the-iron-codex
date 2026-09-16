@@ -9,25 +9,25 @@
   ],
   "kingdom": "Abbasid Caliphate",
   "year": 750,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Mosque%20of%20Samarra%20-%20Dec%2027%2C%202017%2001.jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbasid_Caliphate_850AD.png?width=1600",
   "imageInfo": {
-    "caption": "The Malwiya, the spiral minaret of the Great Mosque at Samarra, built for the caliph al-Mutawakkil around 850, beside the mosque's outer wall.",
-    "creator": "Mahdi Almasi",
-    "date": "photographed 2017; the mosque built c. 848–852",
+    "caption": "A modern map of the Abbasid Caliphate about 850, shading the provinces still under the caliph against the dynasties already governing themselves in North Africa, Khurasan and the Yemen.",
+    "creator": "Cattette (Wikimedia Commons)",
+    "date": "2021; shows the caliphate about 850",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Samarra_-_Dec_27,_2017_01.jpg",
-    "note": "A modern photograph of a surviving Abbasid building. Samarra was the capital from 836 to 892, built because the caliphs' Turkish troops could no longer be housed in Baghdad — so the monument is also evidence of the problem that would destroy caliphal authority. Licensed CC BY 4.0."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Caliphate_850AD.png",
+    "note": "A modern reconstruction, not a medieval map, drawn in QGIS and Adobe Illustrator on Natural Earth data from Kiepert's and Droysen's historical atlases, Thomas Lessman's maps, the Oxford Dictionary of Byzantium and Treadgold's The Byzantine Revival. English throughout, with province names in capitals and the caliphal capitals Baghdad and Samarra both marked on the Tigris. The shading is the article's argument in one picture: at the cultural height of the caliphate the Aghlabids in Ifriqiya, the Tahirids in Khurasan and the Ziyadids in the Yemen were already autonomous, and Cyprus is marked as a condominium shared with Byzantium. It is a single-date snapshot, so it shows neither the larger empire of Harun al-Rashid's day nor the shrunken one the Buyids and Seljuks later controlled. Licensed CC BY 4.0."
   },
   "sectionImages": [
     {
-      "section": "Baghdad and the empire at its height",
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Abbasid%20Caliphate%20850AD.png",
-      "caption": "The Abbasid Caliphate around 850, with the provinces still under the caliph shown against the dynasties already governing themselves.",
-      "creator": "Cattette (Wikimedia Commons)",
-      "date": "modern map of the caliphate in 850",
+      "section": "Losing power",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Mosque_of_Samarra_-_Dec_27%2C_2017_01.jpg",
+      "caption": "The Malwiya, the spiral minaret of the Great Mosque at Samarra, built for the caliph al-Mutawakkil around 850, beside the mosque's outer wall.",
+      "creator": "Mahdi Almasi",
+      "date": "photographed 2017; the mosque built c. 848–852",
       "source": "Wikimedia Commons",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abbasid_Caliphate_850AD.png",
-      "note": "A modern map, and the shading is the point: at the caliphate's cultural height a substantial part of it was already autonomous in practice. Licensed CC BY 4.0."
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Samarra_-_Dec_27%2C_2017_01.jpg",
+      "note": "A modern photograph of a surviving Abbasid building. Samarra was the capital from 836 to 892, built because the caliphs' Turkish troops could no longer be housed in Baghdad — so the monument is also evidence of the problem that would destroy caliphal authority. Licensed CC BY 4.0."
     }
   ],
   "summary": "The Abbasid Caliphate ruled the Islamic world from 750, moved its capital to Baghdad, presided over the greatest flowering of medieval science and letters, and lost real power long before the Mongols ended it in 1258.",
@@ -241,6 +241,27 @@
       "url": "https://www.metmuseum.org/about-the-met/collection-areas/islamic-art",
       "type": "museum collection",
       "institution": "The Metropolitan Museum of Art"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Abbasid_Caliphate_850AD.png"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ar-Rashid_AV_dinar_171AH_Harun_amir_yevlem.jpg"
     }
-  ]
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Ar-Rashid_AV_dinar_171AH_Harun_amir_yevlem.jpg",
+  "armsImageInfo": {
+    "caption": "The Abbasid Caliphate bore no coat of arms; it marked its sovereignty with the inscribed gold dinar, like this one struck for Harun al-Rashid in AH 171, carrying the profession of faith and the caliph's name and no image at all.",
+    "creator": "Abbasid mint under Harun al-Rashid; photographed by the Commons contributor Yevlem",
+    "date": "struck AH 171 (787 to 788); photographed 2020",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ar-Rashid_AV_dinar_171AH_Harun_amir_yevlem.jpg",
+    "note": "Both faces of a genuine Abbasid gold dinar of Harun al-Rashid, the caliph of the Baghdad the article describes at its height. Islamic coinage had been purely epigraphic since Abd al-Malik's reform of 696, so the dinar carries the shahada and Quranic formulae in Kufic script with the ruler's name and the year, and never a portrait or a device: the caliphate had no heraldry, and the nearest thing to an emblem it possessed was the right to strike coin and be named in the Friday prayer. Early Abbasid dinars usually omit the mint name, so this one does not say where it was struck. The black banner of the dynasty is described in the chronicles but no contemporary example survives. Licensed CC BY-SA 4.0."
+  }
 }
