@@ -1278,7 +1278,10 @@ function HouseTreeNode({ node }) {
         <HouseTreePerson person={node} variant="main" />
         {node.spouse && (
           <>
-            <span className="tree-marriage" title="married" aria-label="married">⚭</span>
+            {/* role="img" so the aria-label is actually exposed: ARIA ignores a
+                label on a generic span, which left the marriage symbol silent to
+                a screen reader in every house family tree. */}
+            <span className="tree-marriage" role="img" title="married" aria-label="married">⚭</span>
             <HouseTreePerson person={node.spouse} variant="spouse" />
           </>
         )}
@@ -1486,8 +1489,12 @@ function PersonSubtitle({ article }) {
 }
 
 function FavoriteAction({ article }) {
+  // No aria-label on the wrapper: ARIA does not expose one on a generic div with
+  // no role, so it was ignored by assistive tech — and redundant anyway, since
+  // the FavoriteButton inside carries its own aria-label and aria-pressed. A
+  // group of one control is noise, not structure.
   return (
-    <div className="article-actions" aria-label="Article actions">
+    <div className="article-actions">
       <FavoriteButton article={article} variant="detail" />
     </div>
   )

@@ -63,7 +63,10 @@ export default function FavoritesPage() {
         </div>
 
         {favorites.length > 0 && (
-          <div className="favorites-toolbar" aria-label="Favorite article controls">
+          <div className="favorites-toolbar">
+            {/* No aria-label on this wrapper: ARIA does not expose one on a
+                role-less div, and it was redundant regardless — the only control
+                here is the select, already named by its own visible label. */}
             <label htmlFor="favorites-sort">Sort favorites</label>
             <select
               id="favorites-sort"
