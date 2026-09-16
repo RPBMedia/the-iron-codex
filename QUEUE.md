@@ -1,5 +1,29 @@
 # The Iron Codex — Work Queue
 
+> **This is the only work list.** Every plan, spec and programme lives here as of
+> 2026-09-16, by owner instruction. The separate planning files were folded in as
+> appendices and deleted, so there is one place to look.
+>
+> **The four files that are never folded in and never deleted:** `CLAUDE.md`
+> (standards), `CODEX.md`, `CONTENT_GUIDELINES.md` (both standards) and
+> `COMPLETED_ROADMAP.md` (the record of finished work). `README.md` stays as
+> repo documentation — install steps and auth configuration, not a plan.
+>
+> **When an item is finished, move a condensed record of what was built into
+> `COMPLETED_ROADMAP.md` with its date and commits, and delete it from here.**
+> That is what keeps this file from growing forever.
+
+## Where the big programmes stand
+
+| Track | Item | Full spec | Status |
+|---|---|---|---|
+| Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
+| Article UI / UX | 0o | Appendix B | In progress — U1–U3 and the hero band done; U4–U7 open |
+| Civilizations | 0e | Appendix C | Not started — a new archive category |
+| Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
+| SEO verification | — | Appendix E | Reference how-to, not work |
+
+
 **Live state of what's next.** Forward-looking only — history lives in `git log`,
 standards in `CLAUDE.md`, content rules in `CONTENT_GUIDELINES.md`.
 
@@ -776,7 +800,7 @@ Hard constraints to carry into the work:
       **Production verified**: 200 on pages and hubs, 404 on unknown URLs and
       unknown API paths, 308 on all legacy URLs, `robots.txt` as `text/plain`
       and `sitemap.xml` as `application/xml`.
-      **`SEO_TESTING.md`** written for the owner, who asked for it: three levels
+      **Appendix E** written for the owner, who asked for it: three levels
       (local gate → live spot checks → Search Console), what "good" looks like,
       and honest timelines — nothing is wrong if traffic is zero in week one.
 
@@ -816,7 +840,7 @@ Hard constraints to carry into the work:
 - [ ] M8 — Private "Insights & Analytics" page
 - [ ] M9 — Server-side admin authorization
 - [x] **M10** (2026-09-08). Conditional header control between search and menu, driven by the server-computed isAdmin boolean. Hiding it is a usability choice; /api/insights is guarded independently and answers 404 to everyone else, exactly as the brief requires.
-- [x] **M11** (2026-09-08). Paid-marketing proposal — `MARKETING.md`. NOTHING ACTIVATED: no account, no budget, no billing. Recommendation is explicitly DO NOT SPEND YET; revisit in December with real Search Console query data. AdSense addressed as the category error the brief flags — it is publisher monetisation, not acquisition.
+- [x] **M11** (2026-09-08). Paid-marketing proposal — now **Appendix D**. NOTHING ACTIVATED: no account, no budget, no billing. Recommendation is explicitly DO NOT SPEND YET; revisit in December with real Search Console query data. AdSense addressed as the category error the brief flags — it is publisher monetisation, not acquisition.
 - [x] **M12** (2026-09-08). Organic promotion plan — same document. Core insight: compete where the archive is genuinely better (Bapheus, Myriokephalon, Kilij Arslan II) rather than against Wikipedia on Hastings. Zero external links is the real constraint, and the plan says so.
 - [x] **M13** (2026-09-08). Tests — 13 tests, zero dependencies (`node:test`). Cover the admin boundary (including that an unset ADMIN_EMAIL means nobody is admin, not everybody) and the analytics privacy guarantees (referrers reduced to host; paths carrying queries, fragments or markup rejected). `npm test`, and they now gate the build.
 - [x] **M14** (2026-09-08). Validation — tests 13/13, content-quality, images, SEO gate, build, server syntax, and the integration audit all clean: 0 orphans, 0 mis-sorted events, 0 stale notes, 0 unexplained commanders.
@@ -824,7 +848,7 @@ Hard constraints to carry into the work:
       **Track C M1-M14 are complete.** Nothing beyond this point has been done and
       nothing will be without an explicit decision.
       **Nothing paid was activated**: no advertising account created, no budget
-      set, no billing touched, no campaign started. `MARKETING.md` is a proposal,
+      set, no billing touched, no campaign started. **Appendix D** is a proposal,
       and its own recommendation is to spend nothing yet and revisit in December
       with real Search Console query data.
       **No third-party tracking was added.** Analytics is first-party, in the
@@ -1004,7 +1028,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Batch 3 SHIPPED 2026-09-15 (owner away):** ten places, 7,500–11,800 characters each, with 13–18 timeline entries and 2–4 images. Every main image is a pre-modern view or a medieval depiction with the subject clear. The battle-site towns (Stamford Bridge, Hastings) and Kosovo Field summarise their battles and link to the battle articles instead of retelling them. Kosovo Field left the template-prose baseline. Spot-check `stamford-bridge`: it has the thinnest medieval record, and its main image is only 1900–1912. The batch covered: `stockholm`, `bergen`, `gascony`, `covadonga`, `winchester-cathedral`, `kosovo-field`, `chateau-de-vincennes`, `monmouth`, `stamford-bridge`, `hastings`. `kingdom-of-asturias` and `caliphate-of-cordoba` moved to 0d batch 3, so no two agents write the same article. `papacy` (32 inbound links, 3,621 chars) is an institution, not a place, so it stays with item 1. Side finding: `locationType`
    is inconsistent (`City`/`city`, `Kingdom`/`kingdom`, 50+ distinct values);
    normalise it before any validator keys off it.
-0o. **OWNER REQUEST 2026-09-15: GLOBAL ARTICLE UI/UX REFINEMENT. A major track that will take a while.** The full spec is `iron_codex_global_article_ui_ux_refinement.md` in the repo root (42 sections). Read all of it before any milestone. The benchmark page is `/events/battle-of-brunanburh`. The goal is to move article pages from a database-looking layout toward a premium digital codex, **fixing shared components rather than single pages, and without redesigning the site's identity**: near-black, ivory, restrained gold, monumental titles, and the side-by-side image and title hero.
+0o. **OWNER REQUEST 2026-09-15: GLOBAL ARTICLE UI/UX REFINEMENT. A major track that will take a while.** The full spec is **Appendix B** at the end of this file in the repo root (42 sections). Read all of it before any milestone. The benchmark page is `/events/battle-of-brunanburh`. The goal is to move article pages from a database-looking layout toward a premium digital codex, **fixing shared components rather than single pages, and without redesigning the site's identity**: near-black, ivory, restrained gold, monumental titles, and the side-by-side image and title hero.
 
    **Owner-reported symptom and its cause (measured 2026-09-15).** Brunanburh shows a huge black space under its image. The hero is two columns: the left column holds a landscape 1024x754 plate, so it ends early. The right column carries the year, location and conflict cards, factions, leaders, strength, outcome and the Stamford Bridge continuation card, so everything under the image on the left is empty. This is the spec's "dead left column" (§5), and the fix is an "On this page" contents rail under the image, not a taller image.
 
@@ -1124,7 +1148,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
       - When it ships, add the pope as a second target to the existing `"Leo III"` ambiguity guard in `client/src/lib/entityLinks.js`, with hints such as "Pope", "Charlemagne", "coronation", "800", "Saint Peter's", "Paderborn", "Paschal". Then "Pope Leo III" links to him and the Isaurian keeps his own contexts.
 
    **Done 2026-09-15 (owner: yes):** unit tests now run in the deploy build. Node is pinned to 24.x, matching the Vercel project setting. The first attempt (`ec64dce`) pinned 22.x, which Vercel rejected before the build started (a 0 ms build). The whole chain passes locally on both 22 and 24. The original recommendation follows. Run the unit tests in the deploy build. Add `node scripts/run-tests.mjs` to `vercel.json`'s buildCommand and pin `engines.node` to `22.x`, so the Node version is fixed rather than "anything that satisfies >=20". `run-tests.mjs` exists because the shell-glob form once failed on Vercel, so the known risk is already handled.
-0m. **OWNER REQUEST 2026-09-15: THE COMPLETE MEDIEVAL RULERS PROGRAM. The largest content program yet, split into milestones, with the audit done before any writing.** The full spec is `iron_codex_complete_medieval_rulers_program.md` in the repo root (100 sections, 2,495 lines). Read all of it before planning any milestone. The goal is a full article for every attested sovereign or substantively governing ruler of every in-scope medieval polity. Each article links into its house, family tree, realm, predecessor and successor chain, wars and battles, with no duplicate identities.
+0m. **OWNER REQUEST 2026-09-15: THE COMPLETE MEDIEVAL RULERS PROGRAM. The largest content program yet, split into milestones, with the audit done before any writing.** The full spec is **Appendix A** at the end of this file in the repo root (100 sections, 2,495 lines). Read all of it before planning any milestone. The goal is a full article for every attested sovereign or substantively governing ruler of every in-scope medieval polity. Each article links into its house, family tree, realm, predecessor and successor chain, wars and battles, with no duplicate identities.
 
    **Starting point (measured 2026-09-15):**
    - 316 ruler articles (`isRuler`) across 92 distinct offices, 70 houses and 51 polity-type locations.
@@ -1155,7 +1179,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **Item 1.** Ruler stubs fold into this program.
    - **0c-B.** Consorts are people, not rulers, per §35.
    - **Unknown death ages.** About 70 rulers still have `deathAge: "unknown"`.
-   - **Houses.** The 4 houses still missing from `HOUSES_PLAN.md` (Ottonian/Salian, Habsburg, Barcelona, Piast) are prerequisites.
+   - **Houses.** The 4 houses still missing from the houses roster (Ottonian/Salian, Habsburg, Barcelona, Piast) are prerequisites.
 
    **Milestones:**
    - **M0: reconnaissance and decisions, no content.** A conventions summary (§69.1) covering the person schema, succession, houses and family trees, the People index and its filters, link helpers, image rules and existing audit scripts. The owner answers the three decisions above.
@@ -1303,16 +1327,16 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
      finished work.
    This includes pruning finished entries out of `QUEUE.md` itself, which has grown
    to about 2,000 lines. Candidates as of today, with the date each last changed:
-   - `HOUSES_PLAN.md` (2026-08-15): **marked done 2026-09-15.** Its 4 missing houses are tracked in 0m.
+   - `HOUSES_PLAN.md`: **done, folded into COMPLETED_ROADMAP.md and deleted 2026-09-16.** Its 4 missing houses are tracked in 0m.
    - `WEAPONS_ARMOR_EDITORIAL_AUDIT.md` (09-06): **deleted 2026-09-15.** Its open items are in the W&A backlog.
    - `WEAPONS_ARMOR_AI_PROMPTS.md` (09-06): **deleted 2026-09-15.** All eight images shipped.
    - `WEAPONS_ARMOR_COVERAGE_GAPS.md` (09-07): **deleted 2026-09-15.** Every recommended tier shipped.
-   - `SEO_TESTING.md` (09-08): kept as reference, with setup marked done.
-   - `MARKETING.md` (09-08): kept, because it is still open.
+   - `SEO_TESTING.md` (09-08): folded in as **Appendix E** 2026-09-16.
+   - `MARKETING.md` (09-08): folded in as **Appendix D** 2026-09-16; still an unactivated proposal.
    - `CONTENT_GUIDELINES.md` (06-20; a standards file, so check whether `CLAUDE.md`
      has absorbed it rather than whether it is "done")
    Out of scope, since they are not work lists: `README.md`, the `.claude/agents/*.md`
-   definitions, and `iron-codex-civilizations-master-prompt.md` (item 0e, not started).
+   definitions, and the civilizations spec, now **Appendix C** (item 0e, not started).
    Propose the delete list to the owner before deleting.
 0f. ✅ **Fixed 2026-09-15 (owner report on `danelaw`): empty cards no longer render.**
    Hero fact strips for locations, events and artifacts now drop any fact with
@@ -1497,7 +1521,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - `kingdom-of-york`
 0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
-   `iron-codex-civilizations-master-prompt.md` in the repo root (3,429 lines;
+   **Appendix C** at the end of this file (3,429 lines;
    about 150 peoples, c. 300–1500, plus an archive-wide knowledge-graph audit).
    Read it in full before planning. Existing `pechenegs` and `cumans` are
    Polity-typed locations that already behave like people pages: resolve them,
@@ -1620,7 +1644,7 @@ own store can identify it.
 So the real shape of this task is:
 
 - **First, get Search Console data in.** Either export it by hand for a first
-  pass, or wire the API. `SEO_TESTING.md` is the only place it is currently
+  pass, or wire the API. **Appendix E** is the only place it is currently
   mentioned; there is no integration.
 - **Then the recommendation is a genuine ranking**, and a defensible one:
   impressions × position-gap, cross-referenced with what the archive already
@@ -2104,7 +2128,7 @@ that is genuinely hard to reproduce is three things:
    and a reliability note on every single one, audited by script.
 
 **THE HARD CONSTRAINT, TO BE FACED FIRST: advertising revenue is a function of
-traffic, and the traffic is not there yet.** `MARKETING.md`'s own forecast puts
+traffic, and the traffic is not there yet.** **Appendix D**'s own forecast puts
 first real traffic at **months 4–6**; indexing is still climbing and impressions
 are near zero. Before evaluating any ad network, do the arithmetic:
 
@@ -2114,7 +2138,7 @@ are near zero. Before evaluating any ad network, do the arithmetic:
 - So 10k pageviews a month is **$50–150**. Write that number down before anyone
   designs an ad slot, because it is the whole argument.
 
-**Note the standing rule this request lifts:** `MARKETING.md` says "No
+**Note the standing rule this request lifts:** **Appendix D** says "No
 third-party advertising will be placed on the Codex unless monetisation is
 separately requested." This is that request — so ads are now on the table, but
 as a *decision with a cost*, not a default.
@@ -2294,3 +2318,7891 @@ Nothing secret is required for this repo; content lives in
   `Grand Principality of Vladimir`, `Teutonic Order`, `County of Castile`.
 - PRD/CLAUDE.md drift: the Dev Server Restart Procedure section is superseded by
   the no-local-dev rule at the top of this file.
+
+
+---
+
+# APPENDIX A — The Complete Medieval Rulers Program
+
+> Folded into this file on 2026-09-16 from `iron_codex_complete_medieval_rulers_program.md`, which was then deleted.
+> **Owned by:** QUEUE item 0m. **Status:** NOT STARTED — M0 through M13. The largest content programme in the project.
+> The text below is the original, unaltered.
+
+# The Iron Codex — Complete Medieval Rulers Coverage Program
+
+## Project
+**Repository:** `the-iron-codex`
+
+## Objective
+
+Perform a complete, systematic audit of **all rulers represented by every medieval polity relevant to the Iron Codex**, then create or enrich ruler articles until the archive contains a dedicated high-quality article for **every known ruler who governed a kingdom, empire, principality, duchy, county, crusader state, tribal kingdom, caliphate/emirate/sultanate where relevant to medieval Europe and its connected world, or comparable sovereign/semi-sovereign polity across the Middle Ages**.
+
+This is a **major archive-completion program**, not a narrow content task.
+
+The Codex already contains close to one thousand articles. Many rulers already exist. The first duty is therefore to **audit before creating anything**.
+
+The work must:
+
+- Avoid duplicate ruler articles.
+- Detect rulers whose articles already exist under alternate names, regnal names, anglicized names, Latinized names, transliterations, nicknames, or variant spellings.
+- Upgrade thin or incomplete ruler articles instead of creating duplicates.
+- Ensure every ruler is correctly linked to their dynasty/house, family tree, realm, predecessor, successor, wars, battles, locations, and other relevant archive entities.
+- Create missing family trees where appropriate.
+- Enrich existing family trees rather than fragmenting the archive into competing trees.
+- Preserve all current Iron Codex conventions and data models.
+- Be historically rigorous.
+- Work incrementally and safely.
+
+---
+
+# 1. Core Historical Scope
+
+The target period is the **Middle Ages in the broad European and Mediterranean sense**, approximately from the fall of the Western Roman Empire / Migration Period through the end of the fifteenth century, with sensible overlap where a dynasty or polity begins slightly earlier or ends slightly later.
+
+Use historical judgment rather than an arbitrary date cutoff when continuity demands it.
+
+The project must cover **all major and minor rulers reasonably belonging to the medieval political world represented by the Codex**.
+
+This includes, but is not limited to, the regions and traditions below.
+
+---
+
+# 2. Geographic and Political Coverage
+
+## 2.1 Iberian Peninsula
+
+Audit and complete ruler coverage for:
+
+- Kingdom of Portugal
+- County of Portugal where relevant
+- Kingdom of Asturias
+- Kingdom of León
+- Kingdom of Galicia
+- Kingdom of Castile
+- Kingdom of Navarre / Pamplona
+- Kingdom of Aragon
+- Crown of Aragon
+- County of Barcelona
+- Catalan counties where historically significant
+- Kingdom of Majorca
+- Taifa kingdoms where rulers warrant sovereign treatment
+- Emirate and Caliphate of Córdoba
+- Nasrid Emirate of Granada
+- Almoravid rulers in Iberian context
+- Almohad rulers in Iberian context
+- Other major Andalusi dynasties and rulers whose reigns materially shaped medieval Iberia
+
+Ensure political evolution is accurately represented. Do not flatten all medieval Iberian realms into “Spain.”
+
+---
+
+## 2.2 France and Frankish Realms
+
+Cover:
+
+- Merovingian Frankish kingdoms
+- Austrasia
+- Neustria
+- Burgundy under Frankish rule
+- Carolingian Empire
+- West Francia
+- Kingdom of France
+- Aquitaine when ruled as a meaningful kingdom or major principality
+- Brittany
+- Normandy
+- Burgundy
+- Anjou
+- Champagne
+- Flanders where rulers had major sovereign or quasi-sovereign significance
+- Toulouse
+- Provence
+- Other major principalities and duchies when their rulers are essential to medieval political history
+
+All Merovingian and Carolingian kings must be audited carefully because naming duplication and overlapping sub-kingdoms are common.
+
+---
+
+## 2.3 British Isles
+
+### England
+Cover:
+
+- Anglo-Saxon kingdoms and the Heptarchy where ruler lists are historically recoverable:
+  - Wessex
+  - Mercia
+  - Northumbria
+  - East Anglia
+  - Kent
+  - Essex
+  - Sussex
+- Kings of the English
+- Kingdom of England
+- Danish rulers of England
+- Norman kings
+- Angevin / Plantagenet kings
+- Lancastrian kings
+- Yorkist kings
+- Other rulers within the medieval timeframe
+
+### Scotland
+Cover:
+
+- Dál Riata where appropriate
+- Pictish rulers where historically usable
+- Kingdom of Alba
+- Kingdom of Scotland
+- Competing kings and major contested claimants when they genuinely exercised royal authority
+
+### Ireland
+Do not treat medieval Ireland as a single uninterrupted centralized monarchy.
+
+Audit:
+
+- High Kings of Ireland
+- Kings of major provincial kingdoms:
+  - Munster
+  - Leinster
+  - Connacht
+  - Ulster
+  - Meath
+- Major dynastic rulers whose reigns had island-wide significance
+- Norse-Gaelic kingdoms such as Dublin where appropriate
+
+Use discretion for extremely fragmentary rulers. The objective is completeness without pretending uncertain genealogical traditions are settled fact.
+
+### Wales
+Cover rulers of:
+
+- Gwynedd
+- Powys
+- Deheubarth
+- Morgannwg / Glywysing where relevant
+- Other significant Welsh kingdoms
+- Princes of Wales
+
+---
+
+# 3. Scandinavia and the Viking World
+
+Audit and complete:
+
+- Denmark
+- Norway
+- Sweden
+- Viking Age petty kingdoms where historically significant and adequately attested
+- Jarls or quasi-sovereign rulers only where their political status merits ruler treatment
+- Earls of Lade where appropriate
+- Scandinavian dynastic unions
+- North Sea Empire
+- Kalmar Union rulers within medieval scope
+- Norse rulers in:
+  - Dublin
+  - York / Jórvík
+  - Isle of Man and the Isles
+  - Orkney where major jarls functioned as political rulers
+  - Iceland only where political office genuinely corresponds to the Codex ruler model; do not invent kings where none existed
+
+Legendary Scandinavian rulers should be clearly separated from historically attested monarchs.
+
+---
+
+# 4. Germanic and Migration-Period Kingdoms
+
+This section is critical.
+
+Audit and create ruler coverage for:
+
+- Ostrogoths
+- Visigoths
+- Vandals
+- Suebi / Sueves
+- Burgundians
+- Lombards
+- Gepids
+- Heruli where recoverable
+- Rugii where recoverable
+- Thuringians
+- Alemanni
+- Bavarians where rulers/dukes fit the period
+- Saxon rulers and major tribal leaders where political sovereignty can be historically supported
+- Franks before and during early Merovingian consolidation
+- Other Migration Period Germanic kingdoms that formed durable or historically significant polities
+
+Be careful with semi-legendary king lists. Articles must distinguish:
+
+- historically secure rulers,
+- rulers known only from later chronicles,
+- rulers of disputed historicity.
+
+Never present legendary material as uncontested fact.
+
+---
+
+# 5. The Holy Roman Empire and German Lands
+
+Audit and complete:
+
+- East Francia
+- Kingdom of Germany
+- Holy Roman Emperors
+- Kings of the Romans
+- Major anti-kings
+- Ottonians
+- Salians
+- Hohenstaufen
+- Luxembourg rulers
+- Habsburg rulers within medieval scope
+- Welf rulers where applicable
+- Wittelsbach rulers where applicable
+
+Also review major medieval territorial rulers where their status and historical impact justify inclusion:
+
+- Saxony
+- Bavaria
+- Swabia
+- Franconia
+- Austria
+- Bohemia
+- Brandenburg
+- Meissen
+- Thuringia
+- Palatinate
+- major prince-archbishoprics only if the Codex ruler model supports ecclesiastical princes
+
+Do not create indiscriminate articles for every minor count in the Empire. The program seeks complete coverage of rulers of historically meaningful polities, not genealogical noise.
+
+---
+
+# 6. Italy
+
+Audit:
+
+- Kingdom of Italy
+- Lombard kings
+- Duchy of Benevento
+- Principality of Salerno
+- Principality of Capua
+- Norman rulers of southern Italy
+- County and Duchy of Apulia and Calabria
+- Kingdom of Sicily
+- Kingdom of Naples within medieval scope
+- Papal temporal rulers only when the Codex already models popes as political rulers or when historically required
+- Sardinian giudicati:
+  - Cagliari
+  - Arborea
+  - Gallura
+  - Logudoro / Torres
+- Venice:
+  - Doges within relevant medieval scope if the Codex considers elective heads of state valid rulers
+- Genoa:
+  - Doges only if consistent with project taxonomy
+- Milan:
+  - Visconti and Sforza rulers
+- Florence:
+  - avoid forcing republican office-holders into monarch-style ruler templates unless project conventions support them
+- Ferrara / Este
+- Mantua / Gonzaga
+- Savoy
+- Montferrat
+- other major Italian principalities
+
+The Italian peninsula requires **polity-specific judgment** because many states were republics rather than hereditary monarchies.
+
+---
+
+# 7. Byzantine and Eastern Roman World
+
+Audit and complete every medieval Eastern Roman / Byzantine emperor and empress relevant to the Codex.
+
+Include:
+
+- emperors
+- ruling empresses
+- co-emperors only when they held genuine imperial authority or are important enough to warrant a dedicated article
+- rival emperors and major usurpers where historically significant
+- Latin Empire emperors after 1204
+- Empire of Nicaea
+- Empire of Trebizond
+- Despotate of Epirus where rulers fit the archive model
+- restored Palaiologan Empire
+
+Avoid duplicates caused by Greek/Latin/English name variants.
+
+Where an individual rules multiple entities or holds multiple imperial titles, prefer **one canonical person article** with all reigns represented.
+
+---
+
+# 8. Balkans
+
+Audit:
+
+- First Bulgarian Empire
+- Second Bulgarian Empire
+- Serbian principalities
+- Kingdom of Serbia
+- Serbian Empire
+- Bosnian Banate
+- Kingdom of Bosnia
+- Croatian duchies and kingdom
+- medieval Dalmatian political structures where rulers fit
+- Duklja
+- Zeta
+- Raška
+- Epirus where not already covered under Byzantine successor states
+- Albanian principalities where relevant
+- League/state formations only when a clear ruler model applies
+
+---
+
+# 9. Romania and the Lower Danube
+
+Audit rulers of:
+
+- Wallachia
+- Moldavia
+- Transylvania where rulers/voivodes fit the medieval timeframe and project taxonomy
+- earlier Vlach formations where securely attested
+- Dobruja / Despotate of Dobruja where appropriate
+
+Use contemporary polity names and titles rather than retroactively applying modern nation-state terminology.
+
+---
+
+# 10. Hungary and Central Europe
+
+Audit:
+
+- Principality of Hungary
+- Kingdom of Hungary
+- Árpád dynasty
+- Angevin rulers of Hungary
+- Luxembourg rulers
+- Hunyadi / Corvinus period
+- disputed and rival kings
+- Croatia-Hungary personal union where represented
+
+Also review:
+
+- Great Moravia
+- Principality / Duchy / Kingdom of Bohemia
+- Moravian rulers
+- Polish duchies and kingdom
+- Piast fragmentation-era senior dukes and regional rulers where politically meaningful
+- Kingdom of Poland
+- Lithuanian grand dukes
+- Polish-Lithuanian personal union rulers within medieval scope
+
+---
+
+# 11. Poland, Lithuania, and Baltic Realms
+
+Cover:
+
+- Poland
+- Masovia where ruler coverage is warranted
+- Silesian duchies only where rulers are major enough to justify inclusion; avoid uncontrolled explosion of minor lines unless completeness rules explicitly demand it later
+- Pomerania
+- Lithuania
+- Grand Duchy of Lithuania
+- Prussian tribal leaders only where evidence supports ruler-level treatment
+- Teutonic Order:
+  - Grand Masters if the project models heads of military orders as rulers
+- Livonian Order where appropriate
+
+---
+
+# 12. Rus' and Eastern Europe
+
+Audit:
+
+- Kievan Rus'
+- Novgorod
+- Vladimir-Suzdal
+- Galicia-Volhynia
+- Chernigov
+- Polotsk
+- Smolensk
+- Ryazan
+- Tver
+- Moscow
+- other major Rus' principalities
+
+Because Rurikid names repeat heavily, deduplication must be meticulous.
+
+Distinguish individuals with:
+
+- patronymics,
+- epithets,
+- principality,
+- reign dates,
+- genealogy.
+
+Never create duplicate Vladimir, Yaroslav, Mstislav, Sviatoslav, Vsevolod, etc., because of naming ambiguity.
+
+---
+
+# 13. Steppe Powers Connected to Medieval Europe
+
+Include rulers of major powers that materially shaped medieval European politics:
+
+- Huns at the Late Antique / early medieval boundary where relevant
+- Avars
+- Khazars
+- Pechenegs
+- Cumans / Kipchaks
+- Golden Horde
+- major successor khanates within medieval scope
+- Mongol Empire rulers whose campaigns directly shaped Europe
+- Ilkhanate where strongly connected to Crusader and Byzantine history
+- Crimean Khanate if within chosen chronological endpoint
+
+Do not expand into a full universal history of every Central Asian polity. Keep inclusion tied to the medieval European/Mediterranean world represented by the Codex.
+
+---
+
+# 14. Crusader States
+
+Audit and complete every ruler of:
+
+- Kingdom of Jerusalem
+- County of Edessa
+- Principality of Antioch
+- County of Tripoli
+- Kingdom of Cyprus
+- Armenian Kingdom of Cilicia
+- Latin Empire
+- Principality of Achaea
+- Duchy of Athens
+- other major Frankish Greece polities where relevant
+
+Include queens regnant, regents, and major contested monarchs where historically necessary.
+
+Do not omit rulers simply because their reign was short.
+
+---
+
+# 15. Military Orders
+
+Where consistent with Iron Codex taxonomy, audit leadership of:
+
+- Knights Templar
+- Knights Hospitaller
+- Teutonic Order
+- Order of Santiago
+- Order of Calatrava
+- Order of Alcántara
+- Livonian Brothers of the Sword
+
+However:
+
+**Do not automatically treat every grand master as a monarch.**
+
+If the existing Codex distinguishes “rulers” from “order leaders,” preserve that distinction. These may belong to a separate people taxonomy.
+
+---
+
+# 16. Mediterranean Muslim Powers Relevant to the Medieval Codex
+
+Because medieval Iberia, Byzantium, Sicily, the Crusades, and Mediterranean warfare cannot be treated coherently without them, audit sovereign rulers of major connected Islamic polities, including:
+
+- Umayyad Córdoba
+- Abbasids where directly relevant
+- Fatimids
+- Ayyubids
+- Mamluks
+- Seljuks
+- Sultanate of Rum
+- Zengids
+- Artuqids where significant
+- Almoravids
+- Almohads
+- Nasrids
+- Hafsids where connected to Mediterranean history
+- Marinids
+- major taifa rulers
+
+The purpose is not to build every medieval Islamic dynasty on Earth in this pass. Include those deeply entangled with the Codex’s European, Mediterranean, Crusader, Iberian, and Byzantine narratives.
+
+---
+
+# 17. Caucasus and Armenian/Georgian Realms
+
+Audit:
+
+- Kingdom of Georgia
+- Bagratid Armenia
+- Armenian Kingdom of Cilicia
+- relevant Georgian successor polities
+- other Caucasian kingdoms only where strongly connected to Byzantine, Crusader, Seljuk, Mongol, or Black Sea history represented by the Codex
+
+---
+
+# 18. Ruler Inclusion Rules
+
+A person qualifies for ruler coverage when one or more of the following apply:
+
+1. They were formally recognized as sovereign ruler of a medieval polity.
+2. They exercised de facto sovereign rule even when their title was duke, prince, ban, voivode, doge, emir, caliph, sultan, khan, grand prince, despot, count, jarl, or equivalent.
+3. They were a queen/empress regnant.
+4. They were a co-ruler with meaningful authority.
+5. They were a major rival monarch / anti-king / claimant who actually held territory or exercised power.
+6. They headed a successor state created by dynastic collapse, conquest, partition, or civil war.
+7. Their reign is necessary to make a dynasty or polity ruler sequence complete.
+
+Do **not** create ruler articles solely because someone:
+
+- was a royal spouse with no governing authority,
+- was an heir who never ruled,
+- claimed a title without meaningful political control,
+- appears only in legendary genealogy with no reasonable historical basis,
+- was a minor noble with no sovereign or quasi-sovereign polity.
+
+Such people may still deserve normal people articles, but they should not be forced into the ruler program.
+
+---
+
+# 19. Mandatory Pre-Creation Audit
+
+Before creating **any ruler article**, search the entire repository for that person.
+
+Search by:
+
+- canonical name
+- alternate spelling
+- native-language form
+- Latinized form
+- anglicized form
+- regnal name
+- nickname / epithet
+- patronymic
+- dynasty + first name
+- realm + regnal number
+- lifespan
+- spouse
+- predecessor / successor
+
+Examples of dangerous duplicates:
+
+- Charles the Bald / Charles II
+- William the Conqueror / William I
+- Harald Hardrada / Harald III
+- Basil the Bulgar Slayer / Basil II
+- Alfonso / Afonso naming variants
+- Constantine XI / Constantine Palaiologos
+- multiple rulers with identical names across Rus' principalities
+
+If an existing article is found:
+
+- **Do not create another article.**
+- Audit it.
+- Bring it up to current ruler quality standards.
+- Fix metadata, links, house, dynasty, realm, predecessor/successor, family tree, and images where needed.
+
+---
+
+# 20. Canonical Identity and Naming
+
+Every ruler must have **one canonical person identity**.
+
+Where a person ruled multiple realms, do not create one page per throne.
+
+Example principle:
+
+A ruler who was King of Realm A and later King of Realm B receives **one article**, with multiple reigns represented within the metadata/content.
+
+Alias handling should allow search and linking through variant names.
+
+When regnal numbering differs by realm, explain this clearly in the article rather than cloning the person.
+
+---
+
+# 21. Article Minimum Standard
+
+Every newly created ruler article must be a **full historical article**, not a stub.
+
+### Absolute minimum length
+**5,000 characters of substantive prose.**
+
+Do not pad with empty phrasing, repeated facts, generic context, or verbose filler.
+
+For major rulers, length should substantially exceed the minimum.
+
+Major figures may warrant:
+
+- 8,000–15,000+ characters
+- several sections
+- multiple images
+- detailed military and political analysis
+- family-tree integration
+- multiple related-event links
+
+Examples of rulers who should receive substantially richer treatment include figures of the historical weight of:
+
+- Charlemagne
+- Alfred the Great
+- William the Conqueror
+- Henry II
+- Richard the Lionheart
+- Edward I
+- Edward III
+- Philip II Augustus
+- Saint Louis
+- Frederick Barbarossa
+- Frederick II
+- Otto I
+- Justinian where within scope / archive continuity
+- Basil II
+- Alexios I Komnenos
+- Manuel I Komnenos
+- Constantine XI
+- Robert Guiscard
+- Roger II
+- El Cid-era sovereigns of Iberia
+- Afonso I of Portugal
+- Ferdinand III of Castile
+- Alfonso X
+- James I of Aragon
+- Saladin
+- Baybars
+- Mehmed II if the chronological boundary includes 1453 and aftermath
+- Stefan Dušan
+- Matthias Corvinus
+- Casimir III
+- Vytautas
+- major Viking Age monarchs
+- Attila only if retained as an early-medieval boundary figure
+
+Use historical importance rather than this example list alone.
+
+---
+
+# 22. Required Article Structure
+
+Follow existing repository conventions first.
+
+At minimum, ruler articles should include logically equivalent sections for:
+
+## Overview
+- identity
+- titles
+- dynasty / house
+- realms ruled
+- reign dates
+- historical importance
+
+## Early Life and Background
+- birth
+- parents
+- dynastic position
+- formative political environment
+- succession circumstances
+
+## Accession
+- how the ruler gained power
+- coronation / election / conquest / inheritance
+- rival claimants
+- legitimacy questions
+
+## Reign
+Cover the major political events of the reign.
+
+Use subsections where needed.
+
+## Wars, Campaigns, and Military Activity
+Link to all existing relevant war and battle articles.
+
+Create missing event links only where archive conventions permit.
+
+Do not fabricate event pages automatically unless the surrounding task explicitly calls for them.
+
+## Governance and Administration
+Where sources allow:
+- law
+- taxation
+- reforms
+- church relations
+- administration
+- aristocratic relations
+- urban policy
+- succession policy
+
+## Diplomacy
+- alliances
+- marriages
+- treaties
+- papal relations
+- imperial relations
+- neighboring states
+
+## Religion
+Only when relevant:
+- conversion
+- religious policy
+- church disputes
+- crusading
+- heresy
+- investiture conflicts
+- patronage
+
+## Family and Dynasty
+- spouses
+- children
+- parents
+- siblings when politically relevant
+- heirs
+- dynastic consequences
+
+## Death and Succession
+- date / circumstances of death
+- burial
+- immediate succession
+- succession crisis if any
+
+## Legacy
+This section is mandatory.
+
+Discuss:
+- long-term consequences
+- historiographical reputation
+- dynastic legacy
+- military legacy
+- state-building impact
+- cultural memory
+- later legend versus historical evidence
+
+## Major Feats / Achievements
+This may be a distinct section or integrated according to existing template conventions.
+
+It must identify the ruler’s most important accomplishments without descending into heroic propaganda.
+
+---
+
+# 23. Historical Tone
+
+Articles must be:
+
+- rigorous
+- readable
+- neutral
+- evidence-aware
+- narrative enough to be engaging
+- free from fan-fiction language
+- free from invented dialogue
+- free from modern nationalist mythmaking
+
+Avoid simplistic moral labels.
+
+For controversial rulers, distinguish:
+
+- contemporary evidence,
+- later chroniclers,
+- modern historiography,
+- legend.
+
+Where evidence conflicts, say so.
+
+---
+
+# 24. Family Trees — Mandatory Audit
+
+Every ruler article must be checked for family-tree integration.
+
+For each ruler:
+
+1. Determine whether an appropriate family tree already exists.
+2. If yes:
+   - ensure the ruler appears in it,
+   - ensure parents, spouse(s), children, siblings, predecessors/successors are connected where the existing tree model supports them,
+   - enrich the tree rather than creating a duplicate.
+3. If no suitable family tree exists:
+   - create one for the dynasty / royal house when enough genealogical material exists to justify it.
+
+Do not create a separate family tree for every ruler.
+
+Family trees should generally be dynasty/house oriented.
+
+Examples:
+
+- House of Normandy
+- House of Plantagenet
+- Capetians
+- Carolingians
+- Merovingians
+- Árpád dynasty
+- Piasts
+- Rurikids
+- Komnenoi
+- Palaiologoi
+- Trastámaras
+- Jiménez dynasty
+- House of Burgundy / Portuguese Burgundy
+- Avis
+- Hohenstaufen
+- Ottonians
+- Salian dynasty
+
+Where the dynasty is enormous, multiple navigable branches may be appropriate.
+
+---
+
+# 25. Ruler ↔ House Navigation
+
+Apply the existing Iron Codex rule globally:
+
+If a ruler belongs to a house/dynasty that has its own article:
+
+- the ruler’s house field must link to the house article;
+- the house article must link to the ruler;
+- family-tree nodes must navigate to the relevant ruler pages;
+- ruler pages must provide navigation back to the house/dynasty where the data model supports it.
+
+Do not leave house names as non-clickable text when the article exists.
+
+This requirement applies to **existing rulers as well as newly created rulers**.
+
+---
+
+# 26. Predecessor and Successor Links
+
+Every ruler must be audited for:
+
+- predecessor
+- successor
+- disputed predecessor/successor where relevant
+- co-rulers
+- rival rulers during civil wars
+
+Where an article exists, these relationships must be navigable.
+
+If the neighboring ruler article does not yet exist, it should enter the missing-ruler queue for the same polity.
+
+This creates a useful chain-completeness check.
+
+---
+
+# 27. Realm and Polity Links
+
+Every ruler article must link to the correct realm/polity article where one exists.
+
+If a realm has changed names or political form, use the historically appropriate entity.
+
+Examples:
+
+- Wessex ≠ England
+- West Francia ≠ France in early periods
+- Asturias ≠ León
+- Castile ≠ Spain
+- Kievan Rus' ≠ Russia
+- East Francia ≠ Holy Roman Empire
+- Nicaea ≠ Byzantine Empire during the exile period
+- Wallachia ≠ Romania
+
+Avoid anachronistic modern-country mapping inside historical political metadata.
+
+---
+
+# 28. Images
+
+Follow existing Iron Codex image rules.
+
+Every ruler article should have an appropriate lead image if a historically responsible image can be sourced or generated under project conventions.
+
+## Major rulers
+
+Important rulers should have **more than one image** when useful.
+
+Possible image types:
+
+- ruler portrait / reconstruction
+- coin
+- seal
+- manuscript illumination
+- statue
+- tomb effigy
+- battle scene
+- map
+- coronation image
+- royal charter or artifact
+
+Images should serve historical understanding rather than decorate the page randomly.
+
+Avoid repeating the same image in multiple placements.
+
+Avoid low-quality placeholders.
+
+Do not use clearly ahistorical fantasy depictions.
+
+Where no contemporary likeness exists, label later depictions or reconstructions honestly.
+
+---
+
+# 29. Maps
+
+For major rulers whose careers involve:
+
+- large territorial change,
+- conquest,
+- fragmentation,
+- crusading,
+- succession wars,
+- multi-realm monarchy,
+
+consider adding maps when current article conventions support them.
+
+Maps should clarify geography and political change.
+
+---
+
+# 30. Related Events
+
+For every ruler, audit connections to existing:
+
+- battles
+- wars
+- sieges
+- treaties
+- crusades
+- rebellions
+- successions
+- coronations
+- marriages
+- councils
+- major religious events
+
+Use internal links aggressively where relevant, but only to real entities.
+
+Never create broken links.
+
+---
+
+# 31. Existing Thin Articles
+
+A pre-existing article does **not** count as complete merely because the file exists.
+
+During the audit, flag existing ruler pages that are:
+
+- under 5,000 characters
+- missing legacy
+- missing reign detail
+- missing family tree links
+- missing house links
+- missing predecessor/successor
+- missing images
+- missing major wars
+- historically outdated
+- structurally inconsistent with current article standards
+
+Upgrade them.
+
+The completion goal is **quality coverage**, not file-count coverage.
+
+---
+
+# 32. Duplicate Detection Strategy
+
+Build a temporary internal audit dataset containing, for every known ruler:
+
+- canonical name
+- alternate names
+- native names
+- regnal number
+- title
+- dynasty
+- polity
+- reign start
+- reign end
+- birth/death dates if known
+- existing article path if found
+- family tree
+- house article
+- status
+
+Suggested statuses:
+
+- `complete`
+- `exists-needs-enrichment`
+- `missing`
+- `possible-duplicate`
+- `identity-disputed`
+- `legendary-or-semi-legendary`
+- `out-of-scope`
+
+No new article should be created while its row remains `possible-duplicate`.
+
+---
+
+# 33. Historical Uncertainty
+
+For poorly documented early medieval rulers:
+
+Do not invent precise dates.
+
+Use forms such as:
+
+- “c. 470–c. 490”
+- “fl. late 6th century”
+- “reign traditionally dated to…”
+- “possibly identical with…”
+- “attested only by…”
+
+If historians dispute whether two names refer to the same ruler, preserve that uncertainty.
+
+The Codex should never imply greater certainty than the evidence allows.
+
+---
+
+# 34. Legendary Kings
+
+Legendary, heroic, or semi-mythical kings require special handling.
+
+Examples may include early Scandinavian, Anglo-Saxon, Irish, British, or Migration Period genealogical figures.
+
+Do not merge legend into historical ruler lists without qualification.
+
+Where a figure is important to medieval tradition but of doubtful historicity:
+
+- create or retain a person article if justified,
+- label historicity clearly,
+- keep them visibly distinct from securely attested rulers,
+- do not use legendary chronology to “fill gaps” in political sequences.
+
+---
+
+# 35. Queens, Empresses, and Female Rulers
+
+Do not omit female sovereigns.
+
+Include:
+
+- queens regnant
+- empresses regnant
+- ruling princesses
+- women who exercised sovereign or effective regency when historically substantial
+
+For consorts:
+
+Do not automatically include them in the ruler-completion count unless they exercised real rule.
+
+However, major consorts can and should have normal people articles where appropriate.
+
+---
+
+# 36. Regents
+
+A regent should receive ruler-program treatment when:
+
+- they effectively governed a polity for a substantial period,
+- their political role was central to the era,
+- archive conventions consider regents part of ruler history.
+
+Otherwise, preserve them as normal people articles linked from the sovereign.
+
+---
+
+# 37. Child Rulers
+
+Child monarchs still count as rulers.
+
+Their articles should distinguish:
+
+- formal sovereignty,
+- regency government,
+- later personal rule.
+
+Do not attribute regent decisions directly to a child ruler without explanation.
+
+---
+
+# 38. Co-Rulers
+
+Handle co-rule carefully.
+
+Common examples occur in:
+
+- Byzantium
+- Visigothic succession
+- Merovingian partitions
+- Scandinavian kingship
+- Rus'
+- Iberian dynasties
+- joint monarchies
+
+A co-ruler should not automatically be collapsed into a parent’s article.
+
+If historical convention recognizes them as a ruler in their own right, create/retain a dedicated article.
+
+---
+
+# 39. Contested Successions and Anti-Kings
+
+Include major rival rulers when they:
+
+- were crowned,
+- held substantial territory,
+- controlled the capital,
+- commanded significant aristocratic recognition,
+- appear in standard ruler lists as an anti-king or rival monarch.
+
+Clearly mark the contested nature of the reign.
+
+---
+
+# 40. Conquered Polities and Dynastic Transitions
+
+When one state absorbs another, do not erase the earlier ruler sequence.
+
+Examples:
+
+- Anglo-Saxon kingdoms before English unification
+- taifa kingdoms
+- Rus' principalities
+- Lombard duchies
+- Crusader states
+- Balkan principalities
+- Welsh kingdoms
+- Irish provincial kingdoms
+
+The Codex should reflect political evolution rather than project later borders backward.
+
+---
+
+# 41. Article Metadata Audit
+
+For every ruler, verify all fields used by the current schema.
+
+Likely items include, depending on current repository implementation:
+
+- name
+- aliases
+- epithet
+- image
+- birth
+- death
+- reign
+- title
+- realm
+- dynasty
+- house
+- religion
+- predecessor
+- successor
+- spouse
+- children
+- parents
+- related battles
+- related wars
+- related locations
+- family tree ID
+- article tags
+
+Do not invent schema fields.
+
+Inspect the repository and use the current source-of-truth models.
+
+---
+
+# 42. Slugs and URLs
+
+Use existing naming conventions.
+
+Before choosing a slug:
+
+- search for existing aliases,
+- search redirects,
+- search old route names,
+- search data references.
+
+Do not rename existing public ruler URLs without a compelling reason.
+
+If a rename is necessary, preserve redirects if the app supports them.
+
+---
+
+# 43. Internal Link Audit
+
+After each ruler batch:
+
+- scan for broken internal links,
+- scan for house links that render as text but should navigate,
+- scan predecessor/successor references,
+- scan family-tree nodes,
+- scan realm links,
+- scan battle/war links.
+
+No new ruler batch is complete while it introduces broken navigation.
+
+---
+
+# 44. Search and Index Integration
+
+Every new ruler must appear correctly in:
+
+- global search
+- People index
+- ruler filters
+- realm filters
+- dynasty/house filters
+- century filters where used
+- family-tree navigation
+- related article panels
+
+Audit existing rulers that are missing from indexes due to metadata errors.
+
+---
+
+# 45. People Index Taxonomy
+
+Ensure rulers are categorized consistently.
+
+A ruler should not disappear from their realm because:
+
+- realm tags use inconsistent aliases,
+- the dynasty field is being used instead of the polity,
+- old metadata conventions differ,
+- the ruler is only tagged under a later country.
+
+This is especially important for:
+
+- Carolingians
+- Merovingians
+- Rus' princes
+- fragmented Iberian realms
+- Anglo-Saxon kingdoms
+- Crusader states
+- Byzantine successor states
+
+---
+
+# 46. Completion Matrix
+
+Create a structured audit matrix, ideally stored in a project-appropriate data or planning file, containing:
+
+| Region | Polity | Dynasty | Ruler | Reign | Existing Article | Quality Status | Family Tree | House Link | Images | Action |
+|---|---|---|---|---|---|---|---|---|---|---|
+
+This matrix should be used as the master campaign tracker.
+
+Do not rely on memory.
+
+---
+
+# 47. Phased Execution
+
+This task is too large for a single uncontrolled generation pass.
+
+Execute in phases.
+
+## Phase 0 — Repository Reconnaissance
+
+Before editing:
+
+- inspect current people schema,
+- inspect ruler article format,
+- inspect dynasty/house format,
+- inspect family tree implementation,
+- inspect People index filtering,
+- inspect link helpers,
+- inspect article image conventions,
+- inspect existing audit scripts if any,
+- identify current ruler count.
+
+Document repository conventions.
+
+---
+
+## Phase 1 — Build the Master Ruler Registry
+
+Compile a complete polity-by-polity list of rulers.
+
+No article creation yet.
+
+For every candidate:
+
+- canonical identity
+- polity
+- dynasty
+- reign
+- aliases
+- current archive match
+- status
+
+Resolve duplicates before continuing.
+
+---
+
+## Phase 2 — Western Europe
+
+Suggested order:
+
+1. England / Anglo-Saxon kingdoms
+2. Scotland
+3. Wales
+4. Ireland
+5. France / West Francia
+6. Normandy / Brittany / Burgundy / major French principalities
+7. Portugal
+8. Iberian kingdoms
+9. al-Andalus
+
+---
+
+## Phase 3 — Migration Period and Early Germanic Kingdoms
+
+Suggested order:
+
+1. Franks
+2. Visigoths
+3. Ostrogoths
+4. Vandals
+5. Suebi
+6. Burgundians
+7. Lombards
+8. other attested Germanic kingdoms
+
+This phase requires especially strong duplicate and legendary-status checks.
+
+---
+
+## Phase 4 — Central Europe and the Empire
+
+Suggested order:
+
+1. East Francia
+2. Holy Roman Empire
+3. Bohemia
+4. Poland
+5. Hungary
+6. Austria
+7. major German duchies/principalities
+
+---
+
+## Phase 5 — Scandinavia and Viking Realms
+
+Suggested order:
+
+1. Denmark
+2. Norway
+3. Sweden
+4. North Sea Empire
+5. Jórvík
+6. Dublin
+7. Isles / Man
+8. Orkney where applicable
+
+Separate legendary dynasties from historical rulers.
+
+---
+
+## Phase 6 — Byzantine and Balkan World
+
+Suggested order:
+
+1. Byzantine emperors
+2. Nicaea
+3. Trebizond
+4. Epirus
+5. Bulgaria
+6. Serbia
+7. Croatia
+8. Bosnia
+9. Albania
+10. Romanian principalities
+
+---
+
+## Phase 7 — Rus', Lithuania, and the Baltic
+
+Suggested order:
+
+1. Kievan Rus'
+2. Novgorod
+3. Vladimir-Suzdal
+4. Galicia-Volhynia
+5. major Rus' principalities
+6. Moscow
+7. Lithuania
+8. Baltic polities
+9. military-order states where applicable
+
+---
+
+## Phase 8 — Italy
+
+Suggested order:
+
+1. Lombard continuity
+2. Kingdom of Italy
+3. southern Norman states
+4. Sicily
+5. Naples
+6. Savoy
+7. Milan
+8. Ferrara
+9. Mantua
+10. Sardinian giudicati
+11. Venice / Genoa only under correct elective-ruler conventions
+
+---
+
+## Phase 9 — Crusader and Mediterranean States
+
+Suggested order:
+
+1. Jerusalem
+2. Edessa
+3. Antioch
+4. Tripoli
+5. Cyprus
+6. Cilician Armenia
+7. Latin Empire
+8. Frankish Greece
+9. Ayyubids
+10. Mamluks
+11. Seljuks / Rum
+12. relevant North African / Andalusi dynasties
+
+---
+
+## Phase 10 — Steppe and Frontier Powers
+
+Audit:
+
+- Avars
+- Khazars
+- Pechenegs
+- Cumans
+- Mongols
+- Golden Horde
+- related khanates
+
+Only include rulers with meaningful connection to the Codex historical world.
+
+---
+
+# 48. Batch Size
+
+Do not attempt hundreds of full articles in one generation.
+
+Recommended article batch size:
+
+- **5–15 rulers per implementation batch**, depending on article depth
+- smaller batches for major rulers
+- larger batches only for already-existing articles needing metadata/link fixes
+
+Each batch must end with:
+
+- typecheck
+- lint
+- tests
+- build
+- link validation
+- duplicate check
+- quality review
+
+---
+
+# 49. Priority Ranking
+
+Assign every missing/incomplete ruler a priority.
+
+## Tier I — Essential
+- major monarchs
+- emperors
+- foundational rulers
+- conquerors
+- unifiers
+- rulers tied to major wars
+- rulers already referenced throughout existing Codex articles
+- missing people causing broken links
+
+## Tier II — Sequence Completion
+- rulers needed to complete major royal lines
+- short-reign monarchs
+- co-rulers
+- contested kings
+
+## Tier III — Deep Coverage
+- rulers of smaller regional polities
+- obscure but historically attested kings
+- minor successor states
+
+Complete Tier I first, but the final goal remains full coverage.
+
+---
+
+# 50. Major-Ruler Enhancement Rules
+
+For historically major rulers, go beyond the minimum.
+
+Require where possible:
+
+- multiple images
+- family tree
+- richer chronology
+- detailed political context
+- campaign analysis
+- map(s)
+- coins/seals/manuscripts
+- historiography
+- stronger legacy section
+- links to all major relevant events
+- quotes only when historically sourced and appropriate
+
+These articles should feel like flagship Codex entries.
+
+---
+
+# 51. Cross-Article Consistency
+
+When adding a ruler, update affected related content when necessary.
+
+Example:
+
+If a new Visigothic king is added:
+
+- Visigothic Kingdom article should link them if it maintains ruler lists.
+- dynasty page should include them.
+- family tree should include them.
+- predecessor/successor should navigate correctly.
+- relevant battle pages should link the king.
+- People index should classify them correctly.
+
+Avoid orphan articles.
+
+---
+
+# 52. No Silent Historical Rewrites
+
+If existing Codex content conflicts with better historical evidence:
+
+- correct it,
+- but check all linked articles for dependent claims.
+
+Do not fix one ruler page while leaving contradictory dates throughout the archive.
+
+---
+
+# 53. Quality Gate for Each Article
+
+A ruler article is only `complete` if all applicable checks pass:
+
+- [ ] Correct identity
+- [ ] No duplicate article
+- [ ] Correct polity
+- [ ] Correct dynasty/house
+- [ ] Reign dates verified
+- [ ] Minimum 5,000 characters
+- [ ] Overview present
+- [ ] Early life/background present
+- [ ] Accession explained
+- [ ] Reign covered in depth
+- [ ] Major wars/events covered
+- [ ] Death/succession covered
+- [ ] Legacy present
+- [ ] Major feats present
+- [ ] Family relationships included
+- [ ] Family tree linked
+- [ ] House link navigable
+- [ ] Realm link navigable
+- [ ] Predecessor link valid
+- [ ] Successor link valid
+- [ ] Lead image present if feasible
+- [ ] Additional images for major rulers
+- [ ] No broken internal links
+- [ ] Search/index integration verified
+- [ ] Build/tests pass
+
+---
+
+# 54. Realm Completion Gate
+
+A polity is only `complete` when:
+
+- every historically recognized ruler in scope is accounted for,
+- every existing ruler page has been audited,
+- missing rulers have been created,
+- duplicate identities are resolved,
+- predecessor/successor chains have no unexplained gaps,
+- dynasty/house links are functional,
+- family trees are complete enough for the relevant line,
+- realm indexes show the expected rulers,
+- disputed rulers are documented,
+- legendary rulers are clearly marked,
+- no new broken links remain.
+
+---
+
+# 55. Program Completion Gate
+
+The overall program is complete only when the master registry contains no unresolved:
+
+- `missing`
+- `possible-duplicate`
+- `exists-needs-enrichment`
+
+entries for in-scope rulers.
+
+`identity-disputed` may remain only when historical scholarship itself is unresolved, and those entries must have a documented decision.
+
+---
+
+# 56. Automated Checks
+
+Where practical, create reusable scripts to detect:
+
+## Missing ruler relationships
+- predecessor exists as plain text but article exists
+- successor exists as plain text but article exists
+- house exists but ruler link is non-navigable
+- ruler file exists but missing from People index
+- family tree exists but ruler is absent
+
+## Duplicate candidates
+Use combinations of:
+- normalized names
+- reign dates
+- dynasty
+- realm
+- birth/death
+- known aliases
+
+Do not auto-merge files without human-readable evidence.
+
+## Article quality
+Flag:
+- ruler articles under 5,000 characters
+- missing required sections
+- missing realm
+- missing house/dynasty where known
+- missing legacy
+- missing images where expected
+
+---
+
+# 57. Source Discipline
+
+Historical factual quality matters more than speed.
+
+Prefer:
+
+- academic reference works
+- scholarly books
+- university resources
+- major museums
+- primary-source editions
+- Encyclopaedia Britannica where useful
+- Oxford / Cambridge reference material when available
+- trusted national biography projects
+- reputable historical encyclopedias
+
+Wikipedia may be useful for orientation and cross-checking ruler sequences, but do not let it become the sole authority for disputed or obscure reigns.
+
+Never hallucinate:
+
+- reign dates
+- parentage
+- spouse
+- battle participation
+- titles
+- quotes
+- burial sites
+
+If uncertain, state uncertainty.
+
+---
+
+# 58. Naming and Cultural Respect
+
+Use historically appropriate names.
+
+Where English historical convention strongly favors an English form, use it as the canonical title and preserve native forms as aliases.
+
+Where native forms are more standard, keep them.
+
+Examples of naming complications that require deliberate handling:
+
+- Afonso / Alfonso
+- Charles / Karl / Carolus
+- Louis / Ludwig
+- Henry / Heinrich / Henri
+- John / João / Juan / Jean / Johann
+- Constantine / Konstantinos
+- Michael / Mikhail
+- Stephen / Stefan / István
+- Ladislaus / László / Władysław
+- Casimir / Kazimierz
+
+Never assume similarly named rulers are identical.
+
+---
+
+# 59. Slavic and Rus' Transliteration
+
+Choose one canonical transliteration standard consistent with existing archive practice.
+
+Store common alternatives as aliases where supported.
+
+Be particularly cautious with:
+
+- Yaroslav / Iaroslav
+- Sviatoslav / Svyatoslav
+- Vsevolod
+- Mstislav
+- Volodymyr / Vladimir
+- Iziaslav / Izyaslav
+- Yuri / George
+
+Identity should rely on dynasty, patronymic, polity, and chronology, not name string alone.
+
+---
+
+# 60. Multiple Reigns
+
+Some rulers reign more than once.
+
+Represent this within a single person article.
+
+Examples may include rulers restored after deposition.
+
+Metadata and prose should show:
+
+- first reign
+- interruption
+- restoration
+- second reign
+
+Do not create “Ruler X — First Reign” and “Ruler X — Second Reign” as separate people.
+
+---
+
+# 61. Personal Unions
+
+A monarch ruling multiple realms must remain one person.
+
+Example pattern:
+
+- King of Realm A
+- later or simultaneously King of Realm B
+- perhaps Emperor of Realm C
+
+Each crown belongs in the same article with distinct reign ranges.
+
+---
+
+# 62. Dynastic Partitions
+
+For Merovingian, Carolingian, Rus', Polish, and other partitioned systems:
+
+Do not simplify away sub-kingdoms.
+
+A ruler may rule:
+
+- one partition,
+- then inherit another,
+- then become sole ruler.
+
+Represent changing territorial authority accurately.
+
+---
+
+# 63. House vs Dynasty
+
+Follow repository conventions.
+
+Where a “house” and “dynasty” differ historically, do not collapse them casually.
+
+Examples include cadet branches.
+
+Ensure links point to the correct entity.
+
+---
+
+# 64. Family Tree Scale Control
+
+Some dynasties are too large for one readable tree.
+
+If needed:
+
+- create dynasty overview tree
+- create branch trees
+- maintain navigation between them
+- avoid duplicate person nodes with separate identities
+
+Potential large-tree cases:
+
+- Rurikids
+- Capetians
+- Plantagenets
+- Piasts
+- Árpáds
+- Carolingians
+- Komnenoi / Doukai / Angeloi intermarriage
+- Trastámaras
+
+---
+
+# 65. Performance and UI Safety
+
+Do not allow huge family trees to break layout.
+
+Test:
+
+- desktop wide screens
+- common laptop widths
+- mobile
+- Chrome
+- Safari
+- Firefox where practical
+
+Avoid overflow problems.
+
+Use collapse/zoom/pan/branching patterns already present in the codebase.
+
+---
+
+# 66. Historical Article Interlink Density
+
+Ruler articles should function as crossroads through the Codex.
+
+A major ruler page should naturally connect to:
+
+- family
+- dynasty
+- polity
+- wars
+- battles
+- places
+- castles
+- treaties
+- contemporaries
+- religious figures
+- successors
+- enemies
+- allies
+
+This is essential to making the archive feel like a connected historical knowledge system rather than a pile of isolated biographies.
+
+---
+
+# 67. Avoid Content Explosion Without Structure
+
+The objective is enormous, but do not simply create thousands of files rapidly.
+
+The correct sequence is:
+
+**inventory → deduplicate → classify → prioritize → write → link → test → continue**
+
+Any approach that skips the registry/audit stage is unacceptable.
+
+---
+
+# 68. Preserve Existing Work
+
+Never overwrite a strong existing article with a shorter generated version.
+
+When upgrading:
+
+- preserve good prose,
+- preserve valid citations/data,
+- preserve strong images,
+- preserve established routes,
+- add missing content surgically.
+
+This is an enrichment project, not a mass reset.
+
+---
+
+# 69. Initial Deliverables Before Bulk Article Creation
+
+Before beginning mass creation, produce:
+
+1. A repository-conventions summary.
+2. A master polity list.
+3. A master ruler registry.
+4. A duplicate-candidate report.
+5. A missing-rulers report.
+6. An existing-thin-rulers report.
+7. A family-tree gaps report.
+8. A house-link gaps report.
+9. A proposed phased execution queue.
+
+Only after these exist should large-scale article generation begin.
+
+---
+
+# 70. Suggested Audit Report Format
+
+Create or maintain a project planning artifact such as:
+
+`docs/ruler-coverage-audit.md`
+
+or an equivalent appropriate repository location.
+
+It should contain:
+
+## Summary
+- total ruler candidates
+- complete
+- needs enrichment
+- missing
+- possible duplicates
+- disputed identities
+
+## By Region
+- Western Europe
+- Iberia
+- British Isles
+- Scandinavia
+- Migration Period
+- Holy Roman Empire
+- Central Europe
+- Balkans
+- Byzantium
+- Rus'
+- Italy
+- Crusader States
+- Mediterranean Islamic powers
+- Steppe powers
+
+## Blockers
+- unclear identity
+- missing polity model
+- oversized family tree
+- conflicting chronology
+- missing image
+- schema limitation
+
+---
+
+# 71. Commit Strategy
+
+Use small, auditable batches.
+
+Suggested commit scope:
+
+- one polity
+- one dynasty
+- or one tightly related ruler group
+
+Avoid giant commits touching hundreds of unrelated files.
+
+Each commit should remain reviewable.
+
+---
+
+# 72. Testing
+
+After every implementation batch, run the repository’s established checks.
+
+At minimum where available:
+
+- TypeScript typecheck
+- lint
+- unit tests
+- content validation
+- route generation
+- production build
+
+Also manually verify representative pages.
+
+Do not assume content-only changes cannot break the app.
+
+---
+
+# 73. Regression Testing
+
+Check that ruler expansion does not break:
+
+- People page performance
+- family-tree rendering
+- search
+- filter dropdowns
+- static generation
+- route limits
+- image loading
+- related-content panels
+
+This project may substantially increase content volume.
+
+---
+
+# 74. Data Integrity
+
+Do not introduce inconsistent enum values or free-text realm variants.
+
+If the archive currently has:
+
+- `Carolingian Empire`
+- `Carolingian empire`
+- `Carolingians`
+
+as different realm values, normalize them according to the canonical model.
+
+Do the same for dynasty aliases and polity naming.
+
+---
+
+# 75. Special Audit: Carolingians
+
+The Carolingian ruler coverage has already shown evidence of under-mapping.
+
+Perform a dedicated audit for:
+
+- Pepinids / Arnulfings where relevant
+- Pepin the Short
+- Charlemagne
+- Carloman I
+- Louis the Pious
+- Lothair I
+- Louis the German
+- Charles the Bald
+- Pepin I of Aquitaine
+- Pepin II of Aquitaine
+- Lothair II
+- Louis II of Italy
+- Charles of Provence
+- Carloman of Bavaria
+- Louis the Younger
+- Charles the Fat
+- Arnulf of Carinthia
+- Louis the Child
+- West Frankish Carolingians through Louis V
+- rival/partition kings as appropriate
+
+Verify what already exists before creating anything.
+
+---
+
+# 76. Special Audit: Visigoths, Ostrogoths, Vandals, Lombards
+
+These kingdoms are currently high-priority gaps.
+
+Build complete ruler sequences and verify articles for every historically recognized king.
+
+Particularly watch:
+
+- rulers with uncertain chronology
+- co-kings
+- rulers known under Latin and Germanic forms
+- short reigns
+- assassinated kings
+- disputed succession sequences
+
+Family trees may be incomplete because dynastic continuity is often poorly documented; do not fabricate genealogical links.
+
+---
+
+# 77. Special Audit: Anglo-Saxon England
+
+Ensure complete coverage for major kingdoms and final English consolidation.
+
+Watch duplicate identities for rulers who:
+
+- ruled Wessex before becoming king of all England,
+- held Mercia under another title,
+- appear in both Viking and English political contexts.
+
+Do not create one person twice because their title changed.
+
+---
+
+# 78. Special Audit: Rus'
+
+Create a lineage-aware registry before writing articles.
+
+Rurikid repetition makes this a major duplicate risk.
+
+Each registry row should ideally include:
+
+- ruler
+- father
+- dynasty branch
+- principalities ruled
+- reign ranges
+- spouse
+- children
+- known epithet
+
+Do not bulk-create Rus' rulers from names alone.
+
+---
+
+# 79. Special Audit: Byzantine Emperors
+
+Verify:
+
+- regnal numbering
+- co-emperors
+- rival emperors
+- dynastic names
+- deposition/restoration
+- Nicaean continuity
+- Latin interruption
+- restored empire
+
+A single emperor may have several titles and co-rule periods.
+
+Major emperors should receive flagship-level treatment.
+
+---
+
+# 80. Special Audit: Ireland
+
+Irish medieval kingship requires a separate methodology.
+
+Do not attempt to create every semi-legendary local king from medieval genealogical tradition.
+
+Build tiers:
+
+### Tier A
+- widely accepted High Kings
+- provincial kings of major historical importance
+- rulers with strong source attestation
+
+### Tier B
+- historically attested regional kings necessary for political continuity
+
+### Tier C
+- legendary / genealogical rulers
+
+Only Tier A and B automatically enter the ruler-completion program.
+
+Tier C should be handled separately.
+
+---
+
+# 81. Special Audit: Holy Roman Empire
+
+Separate:
+
+- king of East Francia
+- king of Germany / Romans
+- Holy Roman emperor
+- anti-king
+
+Do not create separate people pages for one man holding multiple royal/imperial stages.
+
+Use reign metadata to represent offices.
+
+---
+
+# 82. Special Audit: Iberia
+
+Medieval Iberia contains repeated dynastic names and realm partitions.
+
+Track identity across:
+
+- Asturias
+- León
+- Galicia
+- Castile
+- Navarre
+- Aragon
+- Portugal
+
+Examples of frequent duplicate risk:
+
+- Alfonso
+- Sancho
+- García
+- Ferdinand
+- Ramiro
+
+Use ordinal + realm + dynasty + dates to resolve identity.
+
+---
+
+# 83. Special Audit: Crusader States
+
+Rulers frequently held multiple titles.
+
+Examples include:
+
+- Count of Edessa
+- Prince of Antioch
+- King of Jerusalem
+- Count of Tripoli
+- King of Cyprus
+
+Do not duplicate an individual across state lists.
+
+Ensure marriages and succession claims are deeply connected through family trees.
+
+---
+
+# 84. Special Audit: Scotland
+
+Handle early Alba carefully.
+
+Names may appear in Gaelic, Anglicized, and Latinized forms.
+
+Avoid duplicate pages for the same ruler under:
+
+- Máel Coluim / Malcolm
+- Cináed / Kenneth
+- Domnall / Donald
+- Causantín / Constantine
+
+Use aliases.
+
+---
+
+# 85. Special Audit: Wales
+
+Track changing boundaries and dynastic mergers.
+
+Do not treat “Prince of Wales” as equivalent to every earlier Welsh king.
+
+Preserve kingdom context.
+
+---
+
+# 86. Special Audit: Scandinavia
+
+Ruler lists before roughly the tenth century may mix:
+
+- saga tradition
+- archaeology
+- later genealogies
+- continental sources
+
+Label evidence quality.
+
+Do not turn the legendary Yngling traditions into an unquestioned historical sequence.
+
+---
+
+# 87. Special Audit: Bulgaria
+
+Ensure both empires receive full treatment.
+
+Track title changes:
+
+- khan / kanasubigi
+- knyaz
+- tsar
+
+Use period-appropriate terminology and acknowledge scholarly debate where titles are uncertain.
+
+---
+
+# 88. Special Audit: Serbia and Bosnia
+
+Account for:
+
+- župans
+- grand princes
+- kings
+- tsars
+- despots
+- bans
+
+A title other than “king” does not disqualify a sovereign ruler.
+
+---
+
+# 89. Special Audit: Portugal
+
+Portugal should be complete from the county’s formative rulers through the late Middle Ages.
+
+Audit:
+
+- Counts of Portugal where politically foundational
+- House of Burgundy
+- House of Aviz within medieval scope
+- disputed succession periods
+- regencies when significant
+
+Ensure Portuguese naming is handled correctly.
+
+---
+
+# 90. The Definition of “Every Ruler”
+
+For this project, “every ruler” means:
+
+**Every historically attested sovereign or substantively governing ruler of every in-scope medieval polity that the Codex intentionally represents.**
+
+It does not mean:
+
+- every mayor
+- every castellan
+- every count in Europe
+- every noble
+- every legendary ancestor
+- every temporary military governor
+
+Completeness must remain historically meaningful.
+
+---
+
+# 91. Expansion Rule
+
+If the audit discovers an important medieval polity missing from this document:
+
+**add it.**
+
+This specification is intentionally broad, but it is not a closed list.
+
+No significant medieval kingdom should be omitted merely because it was not named here.
+
+---
+
+# 92. No Arbitrary Modern Borders
+
+Do not structure ruler coverage only by modern countries.
+
+The medieval political world was radically different.
+
+Organize primarily by historical polity.
+
+Modern regional headings exist only to make the audit manageable.
+
+---
+
+# 93. UI Presentation
+
+When appropriate, ruler pages should expose quick-reference information clearly:
+
+- reign
+- titles
+- dynasty
+- realm
+- predecessor
+- successor
+- spouse
+- issue
+- religion
+- death
+- burial
+
+But preserve the existing visual language of the Codex.
+
+Do not redesign ruler pages globally unless necessary.
+
+---
+
+# 94. Family Tree Navigation Expectations
+
+Clicking a ruler in a family tree should navigate to the ruler article.
+
+From the ruler article, users should be able to reach:
+
+- the house/dynasty article,
+- the relevant family tree,
+- immediate relatives when their articles exist.
+
+The navigation loop must work in both directions.
+
+---
+
+# 95. Article Discoverability
+
+No ruler article should be orphaned.
+
+A ruler should be discoverable through at least several of:
+
+- People index
+- realm page
+- dynasty/house page
+- family tree
+- predecessor/successor links
+- search
+- related battles/wars
+- related people
+
+---
+
+# 96. Editorial Consistency
+
+Avoid formulaic AI prose.
+
+Do not begin every article with identical phrases.
+
+Do not mechanically repeat:
+
+“X was one of the most important rulers…”
+
+Write with historical specificity.
+
+A minor king should feel different from Charlemagne.
+
+A short-lived usurper should not receive inflated heroic prose.
+
+---
+
+# 97. Character Count Rule
+
+The 5,000-character requirement applies to the **main historical prose**, excluding:
+
+- metadata
+- navigation
+- footers
+- raw data
+- image captions
+- source lists
+
+If an obscure ruler genuinely lacks enough evidence for 5,000 responsible characters, do not invent material.
+
+Instead:
+
+- write the fullest article supported by evidence,
+- mark it as a source-limited exception in the audit.
+
+Historical truth overrides arbitrary length.
+
+---
+
+# 98. Final Review Pass
+
+After all regions are complete, run a final global reconciliation.
+
+Check for:
+
+- duplicate people
+- inconsistent reign dates
+- broken dynastic chains
+- missing successor links
+- rulers absent from realm lists
+- rulers linked to wrong realms
+- family trees missing major members
+- house links that still do not navigate
+- duplicate aliases causing search confusion
+- orphan pages
+- inconsistent title naming
+- modern-country anachronisms
+
+---
+
+# 99. Final Deliverable
+
+When the program is finished, provide a final completion report including:
+
+- total rulers audited
+- total articles created
+- total existing articles enriched
+- total duplicate candidates resolved
+- total family trees created
+- total family trees enriched
+- total house-link fixes
+- total predecessor/successor fixes
+- remaining source-limited exceptions
+- remaining legendary/disputed identities
+- regions/polities completed
+
+No region should be marked complete merely because all “famous” rulers are present.
+
+The ruler sequence itself must have been audited.
+
+---
+
+# 100. Prime Directive
+
+This project is meant to transform the Iron Codex from a large medieval archive into a **systematically complete political-biographical network of the medieval world**.
+
+Depth matters.
+Accuracy matters.
+Navigation matters.
+Genealogy matters.
+Consistency matters.
+
+The work should proceed like a long campaign:
+
+**map the realm first, identify every banner, remove duplicate names, restore the broken bloodlines, then build each ruler into a proper historical article.**
+
+Do not rush.
+
+Do not generate duplicate kings.
+
+Do not fill uncertainty with invention.
+
+Do not leave rulers isolated from their dynasties or realms.
+
+Do not stop at famous names.
+
+When this program is complete, a user should be able to begin with almost any medieval kingdom represented by the Codex, follow its rulers in sequence, move into their family trees, houses, wars, battles, and successors, and traverse the political history of the Middle Ages as one connected archive.
+
+
+---
+
+# APPENDIX B — Global Article UI / UX Refinement
+
+> Folded into this file on 2026-09-16 from `iron_codex_global_article_ui_ux_refinement.md`, which was then deleted.
+> **Owned by:** QUEUE item 0o. **Status:** IN PROGRESS — U1, U2, U3 and the Option B hero band shipped; U4 responsive, U5 accessibility, U6 regression, U7 cleanup remain.
+> The text below is the original, unaltered.
+
+# The Iron Codex — Global Article UI / UX Refinement
+
+## Project
+
+**Repository:** `the-iron-codex`
+
+## Primary Reference Page
+
+Use the current production page below as the principal benchmark:
+
+**https://www.theironcodex.org/events/battle-of-brunanburh**
+
+The purpose of this task is to perform a **systematic UI/UX audit and refinement of article pages across The Iron Codex**, using Battle of Brunanburh as the clearest example of the current issues.
+
+Do **not** redesign the entire website.
+
+Do **not** discard the current visual identity.
+
+The existing identity is strong and should remain recognizably Iron Codex:
+
+- near-black background
+- warm ivory typography
+- restrained gold accent
+- large authoritative article titles
+- historical artwork as a major visual element
+- dense historical interlinking
+- serious archival atmosphere
+- modern UI underneath a historical aesthetic
+
+The goal is to move the article experience from a good historical database toward a **premium digital historical codex**.
+
+The primary weaknesses are currently:
+
+- too many cards and nested cards
+- excessive large light-grey surfaces
+- weak use of the left column below the hero image
+- metadata presented like a software dashboard
+- insufficient visual distinction between entity types
+- excessive use of pill/chip treatments
+- redundant labels
+- secondary functionality competing with primary historical information
+- related/recommendation material appearing too early
+- inconsistent hierarchy between historically important information
+- large areas of unused space on desktop
+- article-header layouts that do not transition elegantly into the actual article
+
+These problems should be corrected **globally wherever the same design patterns occur**, not merely on the Brunanburh page.
+
+---
+
+# 1. FIRST: AUDIT THE CURRENT IMPLEMENTATION
+
+Before changing anything, inspect the repository.
+
+Determine:
+
+- which components render article headers
+- which components are shared between article categories
+- whether Events, People, Locations, Houses, Weapons, Armor, Civilizations, Wars, Battles, etc. share primitives
+- where metadata cards are defined
+- where entity pills/chips are defined
+- where hero images and captions are rendered
+- where Favorite controls are implemented
+- where article-side navigation currently exists, if anywhere
+- how Related content is generated
+- whether article types have separate templates or inherit from common layout components
+- responsive breakpoints
+- desktop max-width behavior
+- current typography tokens
+- surface/background tokens
+- spacing tokens
+- border tokens
+- color tokens
+
+Do not begin by editing Battle of Brunanburh directly.
+
+First understand the design system and identify the **smallest set of reusable components/styles that can improve all affected article types safely**.
+
+Prefer fixing shared primitives rather than manually patching hundreds of articles.
+
+---
+
+# 2. DO NOT CHANGE HISTORICAL CONTENT
+
+This task is primarily UI/UX.
+
+Do not rewrite historical prose merely to make the redesign easier.
+
+Do not change historical claims, dates, people, relationships, sources, article IDs, slugs, or links unless an existing UI bug exposes an obvious broken reference.
+
+For the Brunanburh reference page, the existing article structure is good:
+
+- Overview
+- Background
+- Forces and leaders
+- The battle
+- Aftermath and significance
+- Related
+
+Preserve this type of editorial structure.
+
+The redesign should make the content **easier to inhabit**, not replace it.
+
+---
+
+# 3. CORE DESIGN PRINCIPLE
+
+The current pages sometimes feel like:
+
+> historical information placed inside a series of application dashboard widgets.
+
+Move away from that.
+
+The desired feeling is:
+
+> **a modern, beautifully typeset historical archive whose structure quietly reveals itself through typography, spacing, dividers, imagery, and restrained interaction.**
+
+Cards should be used when they genuinely communicate grouping or interactivity.
+
+Do not put every piece of information inside a rectangle.
+
+Typography and whitespace should do much more of the work.
+
+---
+
+# 4. RETAIN THE CURRENT HERO IDENTITY
+
+The broad hero concept is strong.
+
+Retain:
+
+- large historical image on desktop
+- title positioned prominently beside it
+- black page background
+- ivory title typography
+- gold category accent
+- restrained historical caption/source treatment
+- asymmetrical editorial composition
+
+Do **not** replace it with a generic full-width cinematic banner with gradient text over the image.
+
+That would make Iron Codex look more conventional and less distinctive.
+
+The current side-by-side historical plate + article identity should remain one of the site's signatures.
+
+---
+
+# 5. FIX THE DEAD LEFT COLUMN
+
+This is one of the strongest problems visible on the Brunanburh page.
+
+After the hero image and caption finish, the left side of a wide desktop layout becomes a huge empty black column while metadata continues far down the right.
+
+This creates visual imbalance.
+
+Do not solve this by making the image enormously tall.
+
+Instead, turn the left side into a **useful persistent article rail** after the image.
+
+Recommended desktop pattern:
+
+```text
+LEFT COLUMN                       MAIN COLUMN
+
+Hero image                       Back to Events
+Caption                          BATTLE
+Source                           Battle of Brunanburh
+                                 subtitle / concise identity
+On this page                     metadata
+Overview
+Background                       article content...
+Forces and leaders
+The battle
+Aftermath
+Legacy / Significance
+Sources
+```
+
+The exact sections should be generated from the article's actual headings.
+
+## On this page
+
+Introduce a restrained table-of-contents component for sufficiently long articles.
+
+Requirements:
+
+- generated automatically from article headings
+- no manual article-by-article configuration
+- clickable anchor links
+- highlight current section while scrolling if straightforward to implement
+- sticky on sufficiently large desktop screens
+- stops being sticky where appropriate near footer/content end
+- visually quiet
+- no giant card around it
+- should feel like an archival contents rail
+
+On smaller layouts:
+
+- collapse to a compact "On this page" control
+- or place it above the body
+- do not create a permanently occupying mobile sidebar
+
+If the existing app already has TOC infrastructure, reuse and refine it.
+
+---
+
+# 6. RADICALLY REDUCE "CARD INSIDE CARD" UI
+
+The Brunanburh header currently uses repeated nested surfaces for:
+
+- factions
+- faction sides
+- strength
+- leaders
+- outcome
+- continuation content
+
+This creates **containeritis**.
+
+Refactor shared article metadata so that hierarchy comes primarily from:
+
+- labels
+- typography
+- spacing
+- alignment
+- subtle separators
+- column layout
+
+rather than boxes within boxes.
+
+For example, instead of:
+
+```text
+FACTIONS CARD
+ ├── ENGLISH CARD
+ └── COALITION CARD
+```
+
+prefer:
+
+```text
+FACTIONS
+
+ENGLISH                    COALITION
+Kingdom of England         Kingdom of Norway
+                           Kingdom of Scotland
+                           ...
+
+────────────────────────────────────
+
+ESTIMATED STRENGTH         ESTIMATED STRENGTH
+Not securely recorded      A great host...
+```
+
+A single subtle parent surface may remain where necessary.
+
+Do not nest pale panels inside pale panels unless there is a compelling interaction reason.
+
+---
+
+# 7. REDUCE LARGE LIGHT-GREY SURFACES
+
+The existing near-black + ivory + gold palette is excellent.
+
+The repeated large pale-grey metadata cards weaken it.
+
+They:
+
+- dominate the page
+- fragment the layout
+- make the article feel like a SaaS dashboard
+- compete visually with historical artwork
+- diminish the elegance of the dark theme
+
+Introduce/refine dark article surfaces instead.
+
+Use the project's existing tokens where possible rather than blindly introducing arbitrary values.
+
+Conceptually:
+
+```text
+Page background       near-black
+Primary surface       dark charcoal
+Secondary surface     slightly lighter charcoal
+Primary text          warm ivory
+Secondary text        muted warm grey
+Accent                existing Iron Codex gold
+Borders                subtle low-contrast line
+```
+
+The key principle:
+
+**dark surfaces should carry ordinary metadata.**
+
+Reserve light/parchment surfaces for content where that treatment has meaning, for example:
+
+- historical quotation
+- primary-source excerpt
+- manuscript fragment
+- document reproduction
+- genealogy/document-style element
+- intentionally emphasized archival insert
+
+This will make light surfaces feel special again.
+
+---
+
+# 8. REMOVE REDUNDANT ARTICLE-TYPE LABELS
+
+On Brunanburh the user sees the article category around the title and then another `BATTLE` label below the Favorite control.
+
+Remove this kind of duplication wherever it occurs.
+
+The category eyebrow immediately above the title is sufficient:
+
+```text
+BATTLE
+
+Battle of
+Brunanburh
+```
+
+Do not repeat the type solely because the metadata section begins.
+
+Audit other article templates for similar duplicated category/type labels.
+
+---
+
+# 9. DEMOTE THE FAVORITE CONTROL
+
+Favorite is useful but currently receives too much ceremonial weight underneath the title.
+
+It should not compete with:
+
+- title
+- year
+- realm
+- historical identity
+- article metadata
+
+Redesign it as a quieter secondary action.
+
+Possible direction:
+
+```text
+☆ Add to favorites
+```
+
+or a subtle icon action positioned near the upper-right of the title/hero identity area.
+
+Requirements:
+
+- retain clear discoverability
+- retain accessible hit target
+- retain saved/unsaved state
+- no functionality regression
+- visually subordinate it to historical content
+
+Do not turn it into an oversized CTA.
+
+---
+
+# 10. IMPROVE HERO SPACING AND RHYTHM
+
+The title is one of the strongest elements of the current page.
+
+Preserve its scale.
+
+Give the hero slightly more intentional vertical rhythm between:
+
+- back navigation
+- article-type eyebrow
+- title
+- optional description/deck
+- secondary actions
+- metadata
+
+Use spacing rather than additional containers.
+
+The title should feel monumental without becoming detached from the page.
+
+---
+
+# 11. INTRODUCE A SHORT ARTICLE DECK WHEN AVAILABLE
+
+If the existing content model already contains a short description/summary, consider displaying it beneath the title in the hero.
+
+Do not create new editorial text automatically.
+
+Use existing summary/deck data only.
+
+Presentation:
+
+- maximum readable width
+- muted ivory/grey
+- visibly subordinate to H1
+- roughly 1–3 lines at desktop widths
+
+This would make the hero immediately explain **why this article matters** before the metadata begins.
+
+If some article types do not have a summary field, gracefully omit it.
+
+Do not create empty placeholders.
+
+---
+
+# 12. SIMPLIFY CORE METADATA
+
+Year, Location, Conflict, Realm, Dynasty, Reign, etc. should not automatically become large individual rectangular cards.
+
+Audit each article type and redesign metadata into compact groups.
+
+For an event, a pattern like this would be preferable:
+
+```text
+937
+YEAR
+
+Northern England
+LOCATION
+
+Consolidation of the Kingdom of England
+CONFLICT
+```
+
+or:
+
+```text
+YEAR            LOCATION                  CONFLICT
+937             Northern England          Consolidation of...
+```
+
+depending on available width.
+
+Use:
+
+- clear small labels
+- strong values
+- links where applicable
+- thin separators if needed
+
+Avoid three separate large pale blocks.
+
+---
+
+# 13. PRESERVE SEMANTIC GROUPING
+
+Removing boxes does **not** mean flattening everything into an undifferentiated wall.
+
+The following concepts still need clear grouping on battle/event pages:
+
+- date/year
+- location
+- conflict
+- factions
+- commanders/leaders
+- forces/strength
+- outcome
+
+Use intentional sections separated by:
+
+- spacing
+- typography
+- fine borders
+- column changes
+
+rather than repeatedly introducing cards.
+
+---
+
+# 14. GIVE ENTITY TYPES DISTINCT VISUAL SEMANTICS
+
+One current weakness is that kingdoms, people, and other linked entities frequently receive essentially identical gold-pill styling.
+
+Audit entity rendering.
+
+The user should gradually learn to distinguish entity classes by appearance.
+
+Do not create a rainbow of colors.
+
+Remain within the restrained Codex palette.
+
+Possible approach:
+
+## Political entities / realms
+
+Retain restrained outlined gold pills where appropriate:
+
+`Kingdom of England`
+
+## People
+
+Prefer:
+
+- linked gold/ivory name text
+- possibly tiny portrait/avatar if an existing reliable person image is available
+- no pill required
+
+Example:
+
+```text
+Æthelstan
+King of England
+```
+
+## Locations
+
+Use location-oriented text/link treatment, optionally with a tiny existing icon.
+
+## Wars / conflicts
+
+Use linked title treatment.
+
+## Houses / dynasties
+
+Use a restrained house-specific treatment if one already exists.
+
+The exact implementation should arise from the existing design system.
+
+Do not introduce icon clutter merely to differentiate types.
+
+---
+
+# 15. STOP OVERUSING PILLS
+
+Pills/chips should imply one of:
+
+- taxonomy
+- compact linked entity
+- filter
+- selectable state
+
+They should not become the default rendering of every proper noun.
+
+Audit shared components and reduce indiscriminate pill usage across article pages.
+
+A linked historical person's name often looks better as typography than as a button-shaped object.
+
+---
+
+# 16. REDESIGN FACTIONS / SIDES
+
+Battle and war articles need particularly strong comparison layouts.
+
+For Brunanburh, visually preserve the opposing sides but simplify them.
+
+Desired concept:
+
+```text
+FACTIONS
+
+ENGLISH                         COALITION
+
+Kingdom of England              Kingdom of Norway
+                                Kingdom of Scotland
+                                Norse Dublin
+                                Strathclyde
+
+Leaders                         Leaders
+Æthelstan                       Olaf Guthfrithson
+Edmund                          Constantine II
+                                Owain
+
+Estimated strength              Estimated strength
+Not securely recorded           Not securely recorded
+```
+
+Use responsive columns on desktop.
+
+Stack gracefully on mobile.
+
+Do not create an outer card containing two inner cards unless testing clearly shows that is necessary.
+
+Where appropriate, allow a subtle center divider to communicate opposition.
+
+---
+
+# 17. IMPROVE LEADER PRESENTATION
+
+People are important nodes in the Codex.
+
+Do not visually reduce major historical figures to generic chips.
+
+For leaders/commanders:
+
+- render names as clear navigable links
+- preserve accessibility
+- optionally surface title/role where already known in the data
+- optionally support tiny portraits later if the existing image system makes it reliable
+
+Do not require portraits in this task.
+
+Do not introduce placeholders for missing portraits.
+
+---
+
+# 18. GIVE OUTCOME APPROPRIATE HIERARCHY
+
+The outcome of a battle is high-value information.
+
+It should be faster to scan.
+
+For example:
+
+```text
+OUTCOME
+
+Decisive English victory
+
+The coalition was shattered and Æthelstan's
+authority over England was confirmed.
+```
+
+Make the short result visually stronger than the explanatory sentence.
+
+Do not use modern success/failure dashboard colors such as bright green/red.
+
+This is history, not a build pipeline.
+
+Remain within the Codex palette.
+
+---
+
+# 19. MOVE EDITORIAL "STORY CONTINUES" CARDS OUT OF THE HERO
+
+On Brunanburh, the Stamford Bridge continuation card appears before the article itself.
+
+This interrupts focus.
+
+The reader has not yet read Brunanburh and is already being sent elsewhere.
+
+Move this type of chronological/editorial continuation component toward the end of the article.
+
+Ideal placement:
+
+- after Aftermath / Legacy / Significance
+- before or within Related
+- or immediately before footer-level recommendations
+
+Give it an editorial framing such as:
+
+```text
+THE STORY CONTINUES
+
+Battle of Stamford Bridge
+1066
+
+The Scandinavian struggle for England continued...
+→
+```
+
+This is a strong feature.
+
+Keep it.
+
+Change its placement.
+
+It should behave like historical storytelling rather than an early recommendation widget.
+
+Audit other article types for equivalent premature "next event", "related article", "continued at" cards.
+
+---
+
+# 20. DO NOT DESTROY RELATED CONTENT
+
+The Brunanburh page has meaningful relationships to entities such as:
+
+- The Viking Age
+- Norman Conquest
+- Æthelstan
+- Alfred the Great
+- Edward the Elder
+- Kingdom of England
+- Kingdom of Scotland
+- Northumbria
+- Battle of Edington
+- Battle of Stamford Bridge
+
+The relationships are valuable.
+
+Improve how Related content is presented rather than reducing connectivity.
+
+Consider grouping related items semantically:
+
+```text
+RELATED
+
+People
+Æthelstan
+Alfred the Great
+Edward the Elder
+
+Realms
+Kingdom of England
+Kingdom of Scotland
+
+Places
+Northumbria
+
+Battles
+Battle of Edington
+Battle of Stamford Bridge
+
+Periods / Conflicts
+The Viking Age
+Norman Conquest
+```
+
+Only do this when metadata already provides reliable entity type information.
+
+Do not infer categories unreliably from strings.
+
+---
+
+# 21. ARTICLE BODY TYPOGRAPHY
+
+Audit the reading experience below the hero.
+
+The body should feel more editorial and less app-like.
+
+Check:
+
+- text measure / max line length
+- paragraph spacing
+- H2 hierarchy
+- H3 hierarchy
+- anchor offset under sticky headers
+- inline link visibility
+- quotation styling
+- caption styling
+- list spacing
+- table styling
+- image spacing
+- mobile text size
+
+Aim for approximately **comfortable long-form reading widths**, not huge desktop lines.
+
+Do not make the text tiny merely to fit more onto the screen.
+
+---
+
+# 22. SECTION DIVIDERS
+
+Where the current body needs clearer section rhythm, consider restrained dividers.
+
+Possible treatment:
+
+```text
+BACKGROUND
+─────────────────────────
+```
+
+or rely on H2 + spacing.
+
+Do not put every section into a card.
+
+The article itself should largely live directly on the page background.
+
+---
+
+# 23. IMAGE CAPTION REFINEMENT
+
+Keep captions and sources.
+
+They are important.
+
+But on the hero:
+
+- caption should be slightly less visually heavy than the main content
+- source should remain visible and clickable if applicable
+- source gold should not overpower the caption
+- maintain strong contrast
+- use consistent spacing
+
+If an image is not contemporary, captions should continue to make that clear.
+
+Do not alter attribution data.
+
+---
+
+# 24. OPTIONAL GALLERY SUPPORT
+
+Do not build an elaborate gallery system if none exists.
+
+However, if article pages already support multiple images, consider a subtle treatment near the hero such as:
+
+```text
+View gallery · 4 images
+```
+
+This should only appear when multiple article images genuinely exist.
+
+Major ruler, battle, war, and location articles will increasingly contain:
+
+- manuscript illustrations
+- reconstructions
+- maps
+- coins
+- seals
+- monuments
+- tombs
+- battlefield photographs
+
+The header should be able to scale gracefully as that archive grows.
+
+---
+
+# 25. RESPONSIVE BEHAVIOR
+
+This redesign must be designed for at least:
+
+- wide desktop
+- normal desktop/laptop
+- tablet
+- mobile
+
+Do not simply make the desktop design collapse unpredictably.
+
+## Wide desktop
+
+Two-column hero / article rail works well.
+
+## Laptop
+
+Ensure the left image does not steal excessive width from body content.
+
+## Tablet
+
+Likely collapse hero to single column earlier than today if necessary.
+
+## Mobile
+
+Recommended order:
+
+```text
+Back
+Category
+Title
+Summary
+Favorite
+Image
+Caption
+Metadata
+On this page
+Article
+```
+
+or another arrangement proven cleaner by existing architecture.
+
+Do not create horizontal scrolling.
+
+Do not preserve two-column faction comparisons below widths where readability suffers.
+
+---
+
+# 26. ACCESSIBILITY
+
+Preserve or improve:
+
+- WCAG contrast
+- semantic headings
+- keyboard focus states
+- button labels
+- anchor navigation
+- screen-reader labels
+- image alt text
+- clickable target sizes
+
+Do not encode historical entity type solely through color.
+
+Gold text on dark surfaces must remain sufficiently legible.
+
+---
+
+# 27. DO NOT TURN THE SITE GENERIC
+
+Avoid fashionable but inappropriate patterns such as:
+
+- glassmorphism
+- giant blurred gradients
+- excessive animation
+- floating blobs
+- neon sci-fi glow
+- generic SaaS icon cards
+- giant hero gradients covering historical images
+- gratuitous parallax
+- huge rounded rectangles everywhere
+- aggressive drop shadows
+
+Iron Codex should feel **timeless, scholarly, dark, and monumental**.
+
+Its modernity should come from precision and interaction quality, not decorative trends.
+
+---
+
+# 28. BORDER RADIUS
+
+Audit current rounding.
+
+Historical article interfaces should not feel like every element is an iOS widget.
+
+Reduce excessive rounding if present.
+
+Use subtle radii consistently.
+
+Images, surfaces and controls may retain modest rounding if that is already part of the Codex identity.
+
+Do not make every container a rounded card.
+
+---
+
+# 29. MOTION
+
+Keep motion restrained.
+
+Appropriate:
+
+- subtle hover transition
+- link underline/colour transition
+- TOC active-section movement
+- very gentle image interaction
+- Favorite state transition
+
+Avoid:
+
+- large entrance animations
+- scrolling theatrics
+- animated medieval flourishes
+- content shifting around
+
+The history is the spectacle.
+
+---
+
+# 30. APPLY THIS ACROSS ALL ARTICLE TYPES
+
+After establishing the shared design improvements, audit **every major article template** in the repository.
+
+Likely categories may include:
+
+- People
+- Rulers
+- Events
+- Battles
+- Wars
+- Locations
+- Realms / Kingdoms
+- Houses / Dynasties
+- Civilizations
+- Weapons
+- Armor
+- Artifacts
+- Periods
+- other content types actually present in the codebase
+
+Do not assume these names.
+
+Inspect the repository.
+
+Apply the design principles wherever the same problems exist.
+
+Do not force every article type into an identical layout.
+
+For example:
+
+## Ruler page
+
+High-priority metadata:
+
+- reign
+- realm
+- house/dynasty
+- predecessor
+- successor
+- spouse / issue where appropriate
+- family tree
+
+## Battle page
+
+High-priority metadata:
+
+- date
+- location
+- conflict
+- factions
+- commanders
+- strength
+- outcome
+
+## Weapon page
+
+High-priority metadata:
+
+- period
+- type
+- dimensions
+- weight
+- region
+- materials
+
+## Location page
+
+High-priority metadata:
+
+- modern location
+- historical realm
+- type
+- period
+- coordinates where used
+
+Each template should retain its semantic identity while participating in one coherent design system.
+
+---
+
+# 31. BUILD SHARED PRIMITIVES
+
+Where technically appropriate, create/refine reusable components such as:
+
+- `ArticleHero`
+- `ArticleMeta`
+- `ArticleMetaItem`
+- `ArticleSidebar`
+- `ArticleTableOfContents`
+- `EntityLink`
+- `PersonLink`
+- `RealmLink`
+- `ArticleOutcome`
+- `ArticleComparison`
+- `RelatedEntities`
+- `StoryContinues`
+
+Names are illustrative.
+
+Use repository naming conventions.
+
+Do not create abstractions solely for abstraction's sake.
+
+If current architecture already has equivalent components, refactor those rather than creating parallel systems.
+
+---
+
+# 32. DO NOT MASS-EDIT ARTICLE DATA TO ACHIEVE VISUAL CONSISTENCY
+
+The styling problem should primarily be solved at component/template level.
+
+Avoid changing hundreds of content records just to satisfy a new visual component.
+
+Content migrations are acceptable only when genuinely required by the current data model.
+
+---
+
+# 33. TEST BATTLE OF BRUNANBURH AS THE PRIMARY VISUAL BENCHMARK
+
+After implementing the shared system, revisit:
+
+`/events/battle-of-brunanburh`
+
+It should satisfy all of the following:
+
+- image remains prominent
+- title remains monumental
+- article identity is immediately obvious
+- summary is visible if supported by existing data
+- Favorite no longer dominates
+- duplicate `BATTLE` label is gone
+- metadata is cleaner
+- pale-grey card overload is gone
+- Factions no longer looks like nested dashboard cards
+- Leaders no longer look identical to kingdoms
+- Outcome is highly scannable
+- left-side dead space is productively used
+- article TOC makes the long page easier to navigate
+- Stamford Bridge continuation appears later in the story
+- body transitions naturally from hero
+- Related content remains rich
+- page still unmistakably looks like Iron Codex
+
+---
+
+# 34. VISUAL REGRESSION PAGES
+
+Do not judge the refactor only through Brunanburh.
+
+Select at minimum representative pages from:
+
+- one ruler/person article
+- one battle
+- one war
+- one realm/kingdom
+- one dynasty/house
+- one location
+- one weapon/armor article
+- one very short article
+- one very long article
+- one article with many metadata fields
+- one article with very little metadata
+- one article with multiple images
+- one article without a good hero image
+
+Verify each at desktop and mobile widths.
+
+---
+
+# 35. SPECIAL CARE FOR MISSING DATA
+
+Components must degrade gracefully.
+
+If an article lacks:
+
+- image
+- location
+- faction
+- predecessor
+- successor
+- dynasty
+- summary
+- additional images
+
+do not leave:
+
+- blank boxes
+- giant gaps
+- "N/A" everywhere
+- broken separators
+- empty columns
+
+The layout must close naturally around the available historical information.
+
+---
+
+# 36. PERFORMANCE
+
+Do not turn the new article framework into a heavy client-side application.
+
+Prefer:
+
+- existing rendering architecture
+- CSS layout
+- simple browser-native behavior
+- minimal client JS
+
+TOC highlighting can use a lightweight IntersectionObserver implementation if needed.
+
+Do not introduce a large dependency solely for this redesign unless there is an exceptional reason.
+
+---
+
+# 37. DO NOT BREAK URLS OR SEO
+
+Preserve:
+
+- current routes
+- canonical URLs
+- metadata
+- OpenGraph data
+- structured data
+- article titles
+- indexability
+
+This is a UI refactor, not an information-architecture migration.
+
+---
+
+# 38. IMPLEMENTATION ORDER
+
+Proceed in this order:
+
+## Phase 1 — Audit
+
+Inspect components/templates and report the architecture.
+
+## Phase 2 — Design primitives
+
+Refactor shared article layout and metadata primitives.
+
+## Phase 3 — Brunanburh benchmark
+
+Implement the improved Event/Battle presentation and verify the reference page.
+
+## Phase 4 — Other article families
+
+Apply compatible improvements to other templates.
+
+## Phase 5 — Responsive pass
+
+Verify laptop/tablet/mobile layouts.
+
+## Phase 6 — Accessibility
+
+Keyboard, contrast, semantic markup, anchors.
+
+## Phase 7 — Regression
+
+Test representative article types.
+
+## Phase 8 — Cleanup
+
+Remove obsolete duplicate styles/components if safe.
+
+---
+
+# 39. TESTING
+
+Run all existing project checks.
+
+At minimum, where available:
+
+- typecheck
+- lint
+- unit tests
+- integration tests
+- production build
+
+Then inspect representative routes manually.
+
+No task is complete if the redesign looks excellent but creates:
+
+- broken links
+- layout overflow
+- inaccessible controls
+- hydration problems
+- failed static generation
+- missing content
+- mobile regressions
+
+---
+
+# 40. DO NOT OVER-REFINE INTO STERILITY
+
+Iron Codex should still have character.
+
+Keep:
+
+- the large imagery
+- monumental titles
+- gold
+- deep black
+- historical texture from artwork
+- strong editorial voice
+- sense of exploring an interconnected medieval world
+
+The goal is **less UI chrome, more history**.
+
+---
+
+# 41. END STATE
+
+The desired result should feel closer to:
+
+> a premium interactive historical atlas, museum catalogue, and scholarly narrative archive
+
+than:
+
+> a modern admin dashboard populated with medieval data.
+
+A visitor opening Battle of Brunanburh should first experience:
+
+**the event**
+
+then:
+
+**its essential historical facts**
+
+then:
+
+**the narrative**
+
+then:
+
+**the surrounding web of people, realms, battles, and consequences.**
+
+The interface should guide that progression quietly.
+
+---
+
+# 42. PRIME DIRECTIVE
+
+Do not confuse richness with boxes.
+
+Do not confuse interactivity with buttons.
+
+Do not confuse hierarchy with background colours.
+
+Let **typography, spacing, imagery, fine dividers, semantic links and composition** carry most of the visual hierarchy.
+
+Preserve what already makes The Iron Codex distinctive.
+
+Refine the architecture beneath it.
+
+**Battle of Brunanburh is the benchmark. Fix the system, not merely that page.**
+
+
+---
+
+# APPENDIX C — Civilizations — Master Archive Expansion
+
+> Folded into this file on 2026-09-16 from `iron-codex-civilizations-master-prompt.md`, which was then deleted.
+> **Owned by:** QUEUE item 0e. **Status:** NOT STARTED — a new first-class archive category.
+> The text below is the original, unaltered.
+
+# The Iron Codex — Master Civilizations Archive Expansion
+
+You are working on **the-iron-codex**.
+
+This is one of the largest structural and historical expansions undertaken in the project.
+
+We are creating an entirely new first-class archive category:
+
+# CIVILIZATIONS
+
+This must become a foundational historical layer of The Iron Codex.
+
+This is **not** merely a request to add several articles about Germanic tribes.
+
+The goal is to build a comprehensive civilization/people/culture system covering the major peoples who shaped **Europe and the immediately connected Mediterranean, Eurasian, North African and Near Eastern worlds from Late Antiquity through the end of the Middle Ages**, approximately:
+
+**c. 300–1500**
+
+Earlier history may be discussed where necessary to explain origins.
+
+The primary geographical focus remains Europe, but peoples outside Europe must be included when they had major direct influence on medieval European history.
+
+Examples include:
+
+- Arabs
+- Berbers
+- Mongols
+- Turks
+- steppe peoples
+- North African powers
+- Near Eastern peoples involved in the Crusades
+
+This expansion must also trigger a massive archive-wide audit of:
+
+- People
+- Rulers
+- Queens
+- Dynasties
+- Houses
+- Realms
+- Kingdoms
+- Empires
+- Battles
+- Wars
+- Events
+- Locations
+- Religions
+- Cultural relationships
+- Migration events
+- Conquests
+- Successor states
+
+The purpose is to transform the archive from a collection of historical articles into an interconnected historical knowledge graph.
+
+---
+
+# 1. FIRST PRINCIPLE: CIVILIZATION ≠ STATE
+
+This distinction is absolutely fundamental.
+
+A civilization, people, cultural identity, ethnic group or historical population is not automatically the same thing as a political state.
+
+Examples:
+
+**Ostrogoths**
+≠
+**Ostrogothic Kingdom**
+
+**Visigoths**
+≠
+**Visigothic Kingdom**
+
+**Franks**
+≠
+**Frankish Kingdom / Francia**
+
+**Lombards**
+≠
+**Kingdom of the Lombards**
+
+**Norse**
+≠
+**Kingdom of Norway**
+
+**English**
+≠
+**Kingdom of England**
+
+**Portuguese**
+≠
+**Kingdom of Portugal**
+
+**Byzantine/Eastern Roman civilization**
+≠
+**Byzantine/Eastern Roman Empire as a political state**, although the relationship between Roman identity and the empire is unusually close and must be explained carefully.
+
+Civilization pages describe **people and cultural identity**.
+
+Realm pages describe **political institutions and territories**.
+
+They must link to one another but must never be treated as interchangeable.
+
+---
+
+# 2. DO NOT FORCE EVERY GROUP INTO THE SAME CATEGORY
+
+Historical identity is messy.
+
+The Civilizations system must be flexible enough to represent several kinds of entities.
+
+Examples include:
+
+### Peoples / Ethnocultural Groups
+- Goths
+- Franks
+- Lombards
+- Magyars
+- Serbs
+- Croats
+- Basques
+- Slavs
+
+### Broader Cultural Civilizations
+- Norse
+- Byzantine / Eastern Roman
+- Anglo-Saxon
+- Andalusi
+- Rus'
+
+### Developing Medieval Identities
+- English
+- Portuguese
+- French
+- Castilian
+- Scottish
+
+### Confederations
+- Alemanni
+- Franks
+- Saxons
+
+### Steppe Peoples
+- Huns
+- Avars
+- Pechenegs
+- Cumans
+- Mongols
+
+### Historical Cultural Phenomena
+
+Some important concepts should exist as historical-cultural pages even though they are not ethnicities.
+
+The most important example is:
+
+**Vikings**
+
+A Viking was not an ethnic group.
+
+“Viking” refers primarily to Scandinavian raiding, trading, warfare and expansion during the Viking Age.
+
+Therefore the architecture should distinguish:
+
+**Norse / North Germanic peoples**
+
+from:
+
+**Viking Age / Vikings**
+
+The Viking page should explain this explicitly.
+
+Do not write as though every Scandinavian was a Viking.
+
+---
+
+# 3. NEW TOP-LEVEL ARCHIVE SECTION
+
+Create:
+
+`/civilizations`
+
+or the equivalent route consistent with the current project architecture.
+
+The index should allow users to explore the major peoples and civilizations of medieval Europe.
+
+Civilization pages should use routes similar to:
+
+`/civilizations/goths`
+
+`/civilizations/norse`
+
+`/civilizations/byzantines`
+
+`/civilizations/english`
+
+`/civilizations/portuguese`
+
+`/civilizations/bulgarians`
+
+etc.
+
+Follow existing project routing conventions.
+
+---
+
+# 4. PERFORM AN ARCHIVE AUDIT FIRST
+
+Before creating anything, inspect the entire repository.
+
+Determine which relevant:
+
+- civilization pages
+- realms
+- people
+- rulers
+- battles
+- wars
+- houses
+- dynasties
+- locations
+- migrations
+- events
+
+already exist.
+
+Never duplicate entities.
+
+Examples:
+
+If an **Ostrogothic Kingdom** article exists, keep it.
+
+Create **Ostrogoths** separately and connect them.
+
+If **Theodoric the Great** already exists, enrich his relationships instead of creating another version.
+
+If **Kingdom of Portugal** exists, connect it to the emerging Portuguese civilization/identity.
+
+---
+
+# 5. MASTER CIVILIZATION COVERAGE
+
+The following is the minimum civilization audit.
+
+This is not merely a checklist to blindly generate.
+
+For every entry:
+
+1. determine historical relevance;
+2. determine whether a dedicated civilization page is appropriate;
+3. determine chronological boundaries;
+4. determine parent/child relationships;
+5. determine whether the identity changes substantially through time;
+6. identify related kingdoms;
+7. identify rulers;
+8. identify major battles/events;
+9. identify existing archive material;
+10. create missing high-value content.
+
+---
+
+# PART I — GERMANIC & MIGRATION PERIOD PEOPLES
+
+At minimum audit and include:
+
+## Goths
+
+Create an overarching Gothic civilization article.
+
+Connect:
+
+- Visigoths
+- Ostrogoths
+- Greuthungi where historically useful
+- Tervingi where historically useful
+- Gothic language
+- Ulfilas/Wulfila
+- Roman frontier
+- Huns
+- Adrianople
+- Alaric
+- Theodoric
+- Visigothic Kingdom
+- Ostrogothic Kingdom
+
+Do not portray Visigoths and Ostrogoths as two immutable ancient ethnic units that always existed in their later form.
+
+Explain the historical development of those identities.
+
+## Visigoths
+
+Full civilization page.
+
+Connect the entire trajectory:
+
+- Danube crossing
+- Roman relations
+- Adrianople
+- Alaric I
+- Sack of Rome
+- settlement in Gaul
+- Toulouse
+- Visigothic Kingdom
+- Catalaunian Plains
+- Euric
+- Vouillé
+- retreat into Hispania
+- Toledo
+- Leovigild
+- Reccared
+- conversion from Arian to Nicene Christianity
+- Visigothic law
+- royal councils
+- Byzantine presence in Hispania
+- Muslim conquest
+- Roderic
+- legacy in medieval Iberia
+
+Audit all major Visigothic rulers.
+
+## Ostrogoths
+
+Connect:
+
+- Gothic origins
+- Hunnic domination
+- Hunnic collapse
+- Amal dynasty
+- Theodoric the Great
+- Italy
+- Ravenna
+- Roman senatorial culture
+- Ostrogothic Kingdom
+- Justinian
+- Gothic War
+- Belisarius
+- Totila
+- Teia
+- Byzantine reconquest
+
+## Vandals
+
+Connect:
+
+- Hasdingi
+- Silingi
+- Rhine crossing
+- Gaul
+- Hispania
+- North Africa
+- Genseric
+- Carthage
+- Mediterranean naval power
+- Sack of Rome 455
+- Arian Christianity
+- Vandal Kingdom
+- Justinian
+- Belisarius
+- Vandalic War
+- Ad Decimum
+- Tricamarum
+
+## Lombards / Langobards
+
+Cover:
+
+- early origins
+- migration
+- Pannonia
+- Gepid conflicts
+- Alboin
+- invasion of Italy
+- Lombard duchies
+- Pavia
+- Kingdom of the Lombards
+- Byzantine relations
+- Theodelinda
+- Rothari
+- Liutprand
+- Aistulf
+- Desiderius
+- Charlemagne
+- Lombard legacy in Italy
+
+## Franks
+
+Include:
+
+- early confederation
+- Salian Franks
+- Ripuarian Franks
+- Roman military interaction
+- foederati
+- Childeric
+- Clovis
+- Soissons
+- Tolbiac
+- Vouillé
+- conversion
+- Merovingians
+- Austrasia
+- Neustria
+- Burgundy
+- Carolingian transition
+- Francia
+
+## Burgundians
+
+Include:
+
+- Rhine settlement
+- Roman relationship
+- early Burgundian kingdom
+- destruction by Hunnic/Roman forces
+- Rhône settlement
+- Kingdom of Burgundy
+- Gundobad
+- Burgundian law
+- Frankish conquest
+- later Burgundian historical identity
+
+## Suebi / Sueves
+
+Include:
+
+- Rhine crossing
+- Hispania
+- Gallaecia
+- Suebic Kingdom
+- Braga
+- conversion
+- relations with Visigoths
+- Visigothic conquest
+
+## Alemanni / Alamanni
+
+Include:
+
+- Roman frontier
+- confederation
+- Alemannia
+- warfare with Rome
+- Frankish conquest
+- Swabian legacy where appropriate
+
+## Gepids
+
+Include:
+
+- relation to Gothic world
+- Hunnic domination
+- Battle of Nedao
+- Carpathian Basin
+- Gepid kingdom
+- Lombard conflict
+- Avars
+- collapse
+
+## Heruli
+
+## Rugii / Rugi
+
+## Sciri
+
+## Thuringians
+
+## Frisians
+
+## Baiuvarii / Bavarians
+
+## Marcomanni where relevant
+
+## Quadi where relevant
+
+## Taifals where relevant
+
+Other late antique Germanic peoples should be included when they remain relevant to the transformation into medieval Europe.
+
+Do not create meaningless one-paragraph pages for obscure groups.
+
+---
+
+# PART II — THE NORSE WORLD
+
+This section is essential.
+
+The archive must contain a strong civilization-level treatment of:
+
+# NORSE / NORTH GERMANIC PEOPLES
+
+Explain:
+
+- Scandinavian Iron Age background
+- North Germanic languages
+- social structure
+- jarls
+- kings
+- free farmers
+- thralls
+- assemblies / Things
+- law
+- religion
+- seafaring
+- shipbuilding
+- trade
+- warfare
+- settlement
+- conversion to Christianity
+- kingship
+- development of Scandinavian kingdoms
+
+Connect to:
+
+- Denmark
+- Norway
+- Sweden
+- Iceland
+- Faroe Islands
+- Greenland
+- British Isles
+- Normandy
+- Rus'
+- Baltic
+- North Atlantic
+- Vinland where appropriate
+
+# VIKINGS
+
+Create a major separate page for:
+
+**Vikings**
+
+But explicitly state that Vikings were not a separate ethnicity.
+
+Explain the Old Norse term and the historical debate surrounding it.
+
+Cover:
+
+- raiding
+- trading
+- exploration
+- mercenary service
+- settlement
+- warfare
+- longships
+- river routes
+- eastern expansion
+- western expansion
+- North Atlantic expansion
+
+Major events should include:
+
+- Lindisfarne
+- Great Heathen Army
+- Siege of Paris
+- settlement of Normandy
+- Danelaw
+- Battle of Edington
+- Scandinavian conquest of England
+- Cnut's North Sea Empire
+- Icelandic settlement
+- Greenland
+- Vinland
+- Varangian routes
+- Viking involvement in Rus'
+- Stamford Bridge
+
+# DANES
+
+Create civilization/people treatment where useful.
+
+Connect to:
+
+- Denmark
+- Viking Age expansion
+- England
+- Danelaw
+- Harald Bluetooth
+- Sweyn Forkbeard
+- Cnut
+- North Sea Empire
+
+# NORWEGIANS
+
+Connect:
+
+- Harald Fairhair traditions
+- Norway
+- Atlantic expansion
+- Iceland
+- Greenland
+- Ireland
+- Scotland
+- Normandy connections where appropriate
+
+# SWEDES / SVEAR
+
+Connect:
+
+- Svealand
+- Götar where appropriate
+- Baltic trade
+- eastern Viking routes
+- Rus'
+- Varangians
+- Swedish kingdom formation
+
+# GEATS / GÖTAR
+
+Investigate whether a dedicated article is warranted.
+
+Do not confuse:
+
+**Goths**
+
+with:
+
+**Geats/Götar**
+
+Explain the distinction clearly.
+
+# VARANGIANS
+
+Create a page if absent.
+
+Connect:
+
+- Scandinavia
+- Rus'
+- Byzantium
+- Varangian Guard
+- eastern trade routes
+
+---
+
+# PART III — BRITISH ISLES
+
+The archive needs a complete civilization framework for Britain and Ireland.
+
+# ANGLO-SAXONS
+
+Major civilization page.
+
+Connect:
+
+- Angles
+- Saxons
+- Jutes
+- Frisians where relevant
+- post-Roman Britain
+- migration/settlement debate
+- Old English
+- paganism
+- Christianization
+- kingdoms
+- law
+- warfare
+- social structure
+- Viking invasions
+- Alfred
+- English unification
+
+# ANGLES
+
+Dedicated civilization/people article.
+
+# SAXONS
+
+Distinguish carefully between:
+
+- continental Saxons
+- Saxon migration to Britain
+- Anglo-Saxons
+- later Saxony
+
+Do not merge these identities into one timeless entity.
+
+# JUTES
+
+Create if historically justified.
+
+Connect to Kent, Isle of Wight and migration traditions while noting scholarly uncertainty.
+
+# ENGLISH
+
+This absolutely needs a separate page.
+
+The English identity is not simply identical to Anglo-Saxon identity.
+
+Explain development through:
+
+- Anglo-Saxon kingdoms
+- Christianization
+- West Saxon expansion
+- Viking settlement
+- Danelaw
+- political unification
+- Kingdom of England
+- Norman Conquest
+- integration of Norman aristocracy and English population
+- Middle English
+- Plantagenet England
+- development of later medieval English identity
+
+Connect rulers from:
+
+- Alfred
+- Æthelstan
+- Edgar
+- Æthelred
+- Cnut
+- Edward the Confessor
+- Harold Godwinson
+- William the Conqueror
+- Plantagenets
+
+appropriately through realms rather than pretending they share identical cultural contexts.
+
+# BRITONS / BRITTONIC PEOPLES
+
+Create a broad page where appropriate.
+
+Connect to:
+
+- post-Roman Britain
+- Welsh
+- Cornish
+- Cumbrians
+- Breton migration
+
+# WELSH / CYMRY
+
+Include:
+
+- post-Roman kingdoms
+- Gwynedd
+- Powys
+- Deheubarth
+- Welsh law
+- Norman conflict
+- English conquest
+- Llywelyn rulers
+
+# CORNISH
+
+Evaluate dedicated treatment.
+
+# BRETONS
+
+Include migration from Britain into Armorica and medieval Brittany.
+
+# PICTS
+
+Major early medieval civilization page.
+
+Connect:
+
+- northern Britain
+- Pictish kingdoms
+- Fortriu
+- Gaelic interaction
+- Viking pressure
+- emergence of Alba
+
+# GAELS
+
+Major cultural page.
+
+Connect:
+
+- Ireland
+- Dál Riata
+- Scotland
+- Gaelic language
+- kingship
+- monasteries
+- warfare
+
+# IRISH
+
+Create medieval Irish civilization page.
+
+Cover:
+
+- Gaelic Ireland
+- túatha
+- overkingship
+- High Kingship
+- monasteries
+- Viking settlements
+- Dublin
+- Brian Boru
+- Norman invasion
+- Gaelic-Norman interaction
+
+# SCOTS
+
+Explain development of medieval Scottish identity from:
+
+- Picts
+- Gaels
+- Britons
+- Anglo-Saxons
+- Norse
+- Norman influence
+
+Connect to:
+
+- Alba
+- Kingdom of Scotland
+- House of Dunkeld
+- Wars of Scottish Independence
+- Bruce
+- Balliol
+
+---
+
+# PART IV — IBERIAN PENINSULA
+
+Do not create a single timeless “Spanish civilization” beginning in Late Antiquity.
+
+The medieval Iberian world was much more complicated.
+
+Create the relevant identities separately and explain how later Portuguese and Spanish identities emerge.
+
+# HISPANO-ROMANS
+
+Evaluate a page explaining the late antique Roman population of Hispania and its interaction with Visigoths.
+
+# VISIGOTHS
+
+Already covered above but deeply integrated into Iberian history.
+
+# ANDALUSI / AL-ANDALUS
+
+Create a major civilization/cultural page.
+
+Explain that Andalusi society was multiethnic and multireligious.
+
+Cover:
+
+- Arab conquerors
+- Berbers
+- local converts
+- Christians
+- Jews
+- Umayyad Córdoba
+- Arabic culture
+- Mozarabs
+- Muladis
+- taifa period
+- Almoravids
+- Almohads
+- Granada
+
+Do not simply label everyone in al-Andalus “Arab.”
+
+# ARABS IN IBERIA
+
+Create separate broader Arab civilization coverage if architecture supports it.
+
+# BERBERS / AMAZIGH
+
+Absolutely include.
+
+Connect:
+
+- North Africa
+- conquest of Iberia
+- Almoravids
+- Almohads
+- military settlement
+- taifa politics
+
+# MOZARABS
+
+Evaluate dedicated civilization/community article.
+
+# MULADIS
+
+Evaluate dedicated identity page.
+
+# BASQUES
+
+Major civilization/people page.
+
+Include:
+
+- Vascones
+- Pyrenean geography
+- language
+- Navarre
+- relations with Franks
+- Iberian kingdoms
+
+Avoid simplistic claims of direct unchanged continuity where evidence is uncertain.
+
+# GALICIANS
+
+Include medieval Galicia and its cultural identity.
+
+Connect:
+
+- Gallaecia
+- Suebi
+- Kingdom of Galicia
+- León
+- Portugal
+- Galician-Portuguese culture
+
+# PORTUGUESE
+
+This must be a major page.
+
+Explain that Portuguese identity develops during the medieval period rather than existing unchanged since antiquity.
+
+Cover:
+
+- Roman/Lusitanian background only where relevant
+- Suebi
+- Visigoths
+- Muslim conquest
+- Christian northern polities
+- Galicia
+- County of Portugal
+- Portucale
+- Galician-Portuguese cultural context
+- Afonso Henriques
+- Kingdom of Portugal
+- Treaty of Zamora
+- Reconquista
+- consolidation of borders
+- Portuguese language
+- Burgundy dynasty
+- Avis dynasty
+- late medieval maritime expansion
+
+Connect all Portuguese monarchs already covered or missing.
+
+# LEONESE
+
+Include the Kingdom of León and Leonese identity where appropriate.
+
+# ASTURIANS
+
+Include:
+
+- Kingdom of Asturias
+- post-Visigothic Christian resistance traditions
+- Pelagius
+- Covadonga
+- expansion into León
+
+Avoid nationalist myth-making.
+
+# CASTILIANS
+
+Major civilization/cultural identity page.
+
+Connect:
+
+- County of Castile
+- Kingdom of Castile
+- León
+- Reconquista
+- Castilian language
+- Castilian monarchy
+- Crown of Castile
+
+# ARAGONESE
+
+Connect:
+
+- Aragón
+- Kingdom of Aragón
+- Crown of Aragón
+- Pyrenean origins
+- Mediterranean expansion
+
+# CATALANS
+
+Major regional civilization/cultural page.
+
+Connect:
+
+- Carolingian Spanish March
+- counties of Barcelona
+- Catalan language
+- Crown of Aragón
+- Mediterranean commerce
+
+# NAVARRESE
+
+Connect:
+
+- Pamplona
+- Kingdom of Navarre
+- Basque and Romance cultural interaction
+
+# “SPANISH”
+
+Create a page only if the architecture supports **late medieval emerging identities**.
+
+Do not represent “Spanish” as a single civilization throughout the entire period.
+
+Instead explain the gradual political and cultural consolidation of what eventually becomes Spain through:
+
+- Castile
+- León
+- Aragón
+- Catalonia
+- Navarre
+- Galicia
+- Basque regions
+- al-Andalus
+- Granada
+
+The dynastic union of Castile and Aragón is an important late medieval development but should not be projected backward.
+
+---
+
+# PART V — FRANCE AND THE LOW COUNTRIES
+
+# GALLO-ROMANS
+
+Include where useful for transition from Roman Gaul to Frankish rule.
+
+# FRANKS
+
+Covered above.
+
+# FRENCH
+
+Create a later medieval civilization/cultural identity page.
+
+Explain development from:
+
+- Gallo-Romans
+- Franks
+- West Francia
+- Capetian monarchy
+- langue d'oïl cultures
+- territorial consolidation
+- Hundred Years' War and strengthening of French identity
+
+Do not treat Clovis as culturally identical to a 14th-century Frenchman.
+
+# NORMANS
+
+Absolutely create.
+
+Connect:
+
+- Norse settlers
+- Normandy
+- Rollo
+- Christianization
+- French linguistic assimilation
+- England
+- Sicily
+- southern Italy
+- Crusades
+- Byzantine relations
+
+Normans are one of the most important cross-European medieval cultural groups.
+
+# FLEMINGS / FLEMISH
+
+Evaluate dedicated page due to major economic, military and political significance.
+
+# DUTCH / LOW FRANCONIAN PEOPLES
+
+Use chronological caution.
+
+Late medieval Dutch identity can be discussed but should not be projected backward.
+
+# FRISIANS
+
+Major regional civilization page.
+
+---
+
+# PART VI — GERMAN & CENTRAL EUROPEAN PEOPLES
+
+Do not create a timeless “German civilization” from antiquity onward.
+
+Explain the gradual emergence of German-speaking medieval identities within East Francia and the Holy Roman Empire.
+
+# GERMANS / MEDIEVAL GERMAN PEOPLES
+
+Create a contextual civilization page covering:
+
+- East Francia
+- German stem duchies
+- Holy Roman Empire
+- German language development
+- regional identities
+
+Link major subgroups rather than erasing them.
+
+# SAXONS
+
+Continental Saxons deserve full treatment.
+
+Connect:
+
+- Old Saxony
+- Charlemagne
+- Saxon Wars
+- Christianization
+- Duchy of Saxony
+- Ottonians
+
+# BAVARIANS
+
+Connect:
+
+- Baiuvarii
+- Bavaria
+- Agilolfings
+- Carolingians
+- Holy Roman Empire
+
+# SWABIANS
+
+Explain connections to Alemanni and medieval Swabia.
+
+# THURINGIANS
+
+# FRANCONIANS
+
+Evaluate medieval regional identity.
+
+# AUSTRIANS
+
+Do not project modern Austrian identity too early.
+
+Discuss emergence around:
+
+- Bavarian eastern march
+- Babenbergs
+- Duchy of Austria
+- Habsburgs
+
+only where meaningful.
+
+---
+
+# PART VII — ITALIAN PENINSULA
+
+Italy requires especially careful treatment because there is no single unified medieval Italian political civilization.
+
+# ITALO-ROMANS / ROMAN ITALIANS
+
+Create a late antique bridge where useful.
+
+# LOMBARDS
+
+Already covered.
+
+# ITALIANS
+
+Create a medieval Italian cultural civilization page, but explicitly explain the enormous regional diversity.
+
+Cover gradual development through:
+
+- Roman heritage
+- Lombard and Byzantine rule
+- Papal territories
+- communes
+- city-states
+- Romance vernaculars
+- shared Latin/Christian culture
+- emerging Italian literary identity
+
+Do not imply that medieval Italy functioned as a unified nation-state.
+
+# VENETIANS
+
+Major civilization/cultural-political page.
+
+Connect:
+
+- Venice
+- lagoon settlement
+- Byzantium
+- maritime trade
+- Crusades
+- Venetian Empire
+- Genoese rivalry
+
+# GENOESE / LIGURIANS
+
+Create medieval Genoese identity page where useful.
+
+# TUSCANS
+
+Evaluate based on Florence and cultural importance.
+
+# FLORENTINES
+
+A civic identity rather than a broad civilization, but potentially appropriate as a culture page if the model permits urban cultures.
+
+# SICILIANS
+
+Important.
+
+Explain layers of:
+
+- Roman
+- Byzantine
+- Arab
+- Berber
+- Norman
+- Greek
+- Latin
+- Jewish
+
+influence.
+
+Connect:
+
+- Emirate of Sicily
+- Norman Sicily
+- Kingdom of Sicily
+
+# SARDINIANS
+
+Include due to distinct language, culture and Judicates.
+
+# SOUTHERN ITALIAN GREEKS
+
+Evaluate Byzantine/Greek population continuity.
+
+# NORMANS OF SOUTHERN ITALY
+
+Connect through the broader Norman civilization rather than creating unnecessary duplication.
+
+---
+
+# PART VIII — BYZANTINE / EASTERN ROMAN WORLD
+
+This is mandatory and should become one of the richest civilization pages.
+
+# ROMANS / EASTERN ROMANS / BYZANTINES
+
+Handle terminology with exceptional care.
+
+The inhabitants of the empire generally understood themselves as:
+
+**Romans — Rhomaioi**
+
+“Byzantine” is a later scholarly convention.
+
+Therefore the canonical article might be:
+
+**Eastern Romans (Byzantines)**
+
+or another solution consistent with the project's naming conventions.
+
+The page must explicitly explain the terminology.
+
+Cover:
+
+- continuity from Roman Empire
+- Constantinople
+- Roman identity
+- Greek language
+- Latin heritage
+- imperial government
+- Orthodox Christianity
+- law
+- military organization
+- themes
+- diplomacy
+- court culture
+- economy
+- art
+- education
+- relationship with western Europeans
+- relationship with Slavs
+- Bulgaria
+- Rus'
+- Crusaders
+- Arabs
+- Turks
+- Venice
+- Genoa
+- Ottoman conquest
+
+Important rulers must link naturally:
+
+- Constantine I where relevant
+- Justinian
+- Heraclius
+- Basil I
+- Basil II
+- Alexios I Komnenos
+- John II
+- Manuel I
+- emperors surrounding 1204
+- Palaiologoi
+- Constantine XI
+
+Do not imply that the Byzantine Empire was somehow “less Roman” because Greek became dominant.
+
+---
+
+# PART IX — THE BALKANS
+
+This area requires major expansion.
+
+# SOUTH SLAVS
+
+Create a broad parent civilization page.
+
+Connect:
+
+- Serbs
+- Croats
+- Slovenes
+- Bulgarians where Slavic component applies
+- Macedonian Slavic populations where historically appropriate
+- Byzantine interaction
+
+Do not assume modern ethnic categories map perfectly onto early medieval populations.
+
+# SERBS
+
+Major civilization page.
+
+Cover:
+
+- early Slavic settlement
+- principalities
+- Raška
+- Duklja
+- Nemanjić dynasty
+- Serbian Kingdom
+- Serbian Empire
+- Stefan Nemanja
+- Stefan Dušan
+- Orthodox Church
+- Byzantium
+- Kosovo
+- Ottoman expansion
+
+# CROATS
+
+Major civilization page.
+
+Cover:
+
+- early settlement
+- Croatian duchies
+- Kingdom of Croatia
+- Tomislav
+- relationship with Byzantium
+- Venice
+- Hungary
+- union with Hungary
+
+# SLOVENES / CARANTANIANS
+
+Include:
+
+- Carantania
+- Alpine Slavs
+- Christianization
+- Bavarian/Frankish influence
+
+Use historically appropriate terminology.
+
+# BOSNIANS
+
+Create a medieval Bosnian cultural/political page.
+
+Connect:
+
+- Banate of Bosnia
+- Kingdom of Bosnia
+- Bosnian Church
+- Serbia
+- Croatia
+- Hungary
+- Ottomans
+
+Avoid projecting modern ethnic identities backwards without evidence.
+
+# ALBANIANS
+
+Major civilization page.
+
+Handle origins carefully.
+
+Include:
+
+- earliest reliable medieval references
+- Albanian language
+- Byzantine world
+- principalities
+- Angevins
+- Serbs
+- Venice
+- Ottomans
+- Skanderbeg
+
+Avoid presenting disputed Illyrian continuity as indisputable fact.
+
+# DALMATIANS
+
+Evaluate a page for Romance-speaking medieval Dalmatian communities.
+
+Connect:
+
+- Roman cities
+- Byzantium
+- Croatia
+- Venice
+
+# VLACHS
+
+Major page.
+
+This is essential for Romanian/Balkan history.
+
+Explain the medieval term **Vlach** and its changing meanings.
+
+Cover:
+
+- Romance-speaking Balkan populations
+- pastoralism where relevant
+- Byzantium
+- Balkans
+- Carpathians
+- Wallachia
+- Moldavia
+
+Do not assume every source using “Vlach” refers to precisely the same population.
+
+# ROMANIANS
+
+Create a later medieval civilization page.
+
+Explain emergence carefully through:
+
+- Eastern Romance speakers
+- Vlachs
+- Transylvania
+- Wallachia
+- Moldavia
+- Hungarian Kingdom
+- Byzantine and Slavic influence
+- Orthodox Christianity
+
+Important figures should include:
+
+- Basarab I
+- Mircea the Elder
+- Vlad II Dracul
+- Vlad III Dracula
+- Stephen the Great
+
+where within chronological scope.
+
+Do not project modern Romanian nationalism backward into poorly documented centuries.
+
+---
+
+# PART X — BULGARIA AND THE BULGARIAN WORLD
+
+This deserves especially strong coverage.
+
+There should not simply be one “Bulgarian” article with everything collapsed into it.
+
+# BULGARS
+
+Create a civilization page for the early **Bulgars**.
+
+Explain:
+
+- steppe origins
+- likely Turkic linguistic background
+- Pontic-Caspian context
+- Old Great Bulgaria
+- Kubrat
+- Asparuh
+- migration into Balkans
+- interaction with Slavic populations
+
+Distinguish:
+
+**Bulgars**
+
+from later:
+
+**Bulgarians**
+
+# OLD GREAT BULGARIA
+
+Keep as realm/political entity, linked to Bulgars.
+
+# VOLGA BULGARS
+
+Create civilization branch or dedicated page.
+
+Connect:
+
+- Volga Bulgaria
+- Islam
+- trade
+- Rus'
+- steppe world
+- Mongol conquest
+
+Do not confuse them with Balkan Bulgarians.
+
+# DANUBE BULGARS
+
+Represent the Balkan Bulgar component appropriately.
+
+# BULGARIANS
+
+Create a major medieval Bulgarian civilization page.
+
+Explain formation through interaction and fusion of:
+
+- Bulgars
+- South Slavs
+- local Balkan populations
+- Byzantine cultural influence
+
+Cover:
+
+- First Bulgarian Empire
+- Christianization
+- Boris I
+- Simeon the Great
+- Preslav
+- Cyrillic literary culture
+- Byzantine conquest
+- Basil II
+- Bulgarian uprisings
+- Second Bulgarian Empire
+- Asen dynasty
+- Kaloyan
+- Ivan Asen II
+- Serbian interaction
+- Mongols
+- Ottoman conquest
+
+---
+
+# PART XI — HUNGARY & THE STEPPE-CARPATHIAN WORLD
+
+# MAGYARS
+
+Major civilization page.
+
+Cover:
+
+- Uralic linguistic origins
+- Pontic steppe
+- migration
+- Carpathian Basin
+- Hungarian conquest
+- raids into Europe
+- Lechfeld
+- Christianization
+- Stephen I
+- Kingdom of Hungary
+
+# HUNGARIANS
+
+Potentially distinguish later Christian medieval Hungarian civilization from earlier Magyars while making the continuity clear.
+
+Connect:
+
+- Árpád dynasty
+- Hungary
+- Croats
+- Cumans
+- Mongol invasion
+- Transylvania
+- Balkans
+- Habsburgs later
+
+# SZÉKELY
+
+Evaluate dedicated coverage where appropriate.
+
+# CUMANS / KIPCHAKS
+
+Major steppe civilization page.
+
+Connect:
+
+- Pontic steppe
+- Rus'
+- Hungary
+- Balkans
+- Mongols
+- Cuman settlement in Hungary
+
+# PECHENEGS
+
+Major page.
+
+Connect:
+
+- Byzantium
+- Rus'
+- Bulgaria
+- Hungary
+- steppe politics
+
+# AVARS
+
+Major civilization page.
+
+Cover:
+
+- Avar Khaganate
+- Carpathian Basin
+- Byzantium
+- Slavs
+- siege of Constantinople 626
+- Frankish conquest
+
+# HUNS
+
+Major page.
+
+Although primarily Late Antique, they are indispensable to Migration Period history.
+
+Connect:
+
+- Attila
+- Goths
+- Romans
+- Catalaunian Plains
+- Nedao
+
+Avoid simplistic ethnic continuity claims with later steppe peoples.
+
+---
+
+# PART XII — SLAVIC & CENTRAL/EASTERN EUROPE
+
+# SLAVS
+
+Create a major parent civilization article.
+
+Cover:
+
+- early sources
+- archaeology
+- linguistic expansion
+- settlement
+- social structure
+- religion
+- Christianization
+- Byzantine relations
+
+Explain subdivisions carefully.
+
+# WEST SLAVS
+
+Create parent grouping if useful.
+
+Connect:
+
+- Poles
+- Czechs
+- Moravians
+- Slovaks
+- Pomeranians
+- Polabian Slavs
+- Sorbs
+
+# POLES
+
+Major page.
+
+Connect:
+
+- West Slavs
+- Piasts
+- Mieszko I
+- Christianization
+- Bolesław I
+- Kingdom of Poland
+- fragmentation
+- Teutonic Order
+- Lithuania
+- Jagiellonians
+
+# CZECHS / BOHEMIANS
+
+Major page.
+
+Connect:
+
+- Bohemia
+- Přemyslids
+- Great Moravia
+- Holy Roman Empire
+- Luxembourg dynasty
+- Hussites
+
+# MORAVIANS
+
+Create page.
+
+Connect:
+
+- Great Moravia
+- Mojmirids
+- Cyril and Methodius
+- Slavic Christianity
+
+# SLOVAKS
+
+Use extreme chronological caution.
+
+Do not project modern Slovak identity directly into Great Moravia.
+
+Create only if historically justified within the project's model.
+
+# POMERANIANS
+
+Include.
+
+# POLABIAN SLAVS
+
+Include as parent identity.
+
+Connect:
+
+- Obotrites
+- Veleti/Lutici
+- Rani
+- Wendish Crusade
+- German eastward expansion
+
+# SORBS
+
+Evaluate.
+
+---
+
+# PART XIII — THE RUS' WORLD
+
+This is essential.
+
+# RUS'
+
+Create a major civilization page.
+
+Do not simply label early Rus' as “Russian.”
+
+Explain:
+
+- Varangian element
+- East Slavic populations
+- Finnic populations
+- trade networks
+- Dnieper route
+- Kyiv
+- Novgorod
+- Rurikid dynasty
+- Byzantium
+- Christianization
+- Vladimir the Great
+- Yaroslav the Wise
+- fragmentation
+- Mongol conquest
+
+# EAST SLAVS
+
+Parent civilization page where useful.
+
+# NOVGORODIANS
+
+Consider a regional civic/cultural page because Novgorod developed a distinctive medieval political culture.
+
+# RUTHENIANS
+
+Use terminology carefully.
+
+# RUSSIANS
+
+Do not use “Russian” indiscriminately for Kievan Rus'.
+
+Explain the gradual development of northeastern Rus' identities.
+
+Connect:
+
+- Vladimir-Suzdal
+- Moscow
+- Muscovy
+
+# UKRAINIAN & BELARUSIAN IDENTITIES
+
+Do not project modern national identities backward into the early medieval period.
+
+If discussed, explain their later historical development from the Rus' world.
+
+---
+
+# PART XIV — BALTIC PEOPLES
+
+The Baltic region needs substantial coverage.
+
+# BALTS
+
+Parent civilization page.
+
+# PRUSSIANS / OLD PRUSSIANS
+
+Major page.
+
+Connect:
+
+- Baltic paganism
+- Prussian tribes
+- Teutonic Order
+- Prussian Crusade
+- conquest and assimilation
+
+# LITHUANIANS
+
+Major page.
+
+Connect:
+
+- Baltic paganism
+- Grand Duchy of Lithuania
+- Mindaugas
+- Gediminas
+- Algirdas
+- Kęstutis
+- Jogaila
+- Christianization
+- Poland
+- Teutonic Order
+
+# LATGALIANS
+
+# SEMIGALLIANS
+
+# SELONIANS
+
+# CURONIANS
+
+Include major Baltic peoples involved in the Northern Crusades.
+
+# LIVONIANS
+
+Important Finnic people.
+
+Do not classify them as Baltic linguistically.
+
+---
+
+# PART XV — FINNIC & NORTHERN PEOPLES
+
+# FINNS
+
+Create medieval Finnic civilization page carefully.
+
+# ESTONIANS
+
+Include:
+
+- prehistoric/early medieval Estonia
+- Danish conquest
+- Livonian Crusade
+- Teutonic Order
+
+# LIVONIANS
+
+As above.
+
+# KARELIANS
+
+Include where relevant to Novgorod and Sweden.
+
+# SAMI
+
+Major indigenous northern European civilization page.
+
+Discuss:
+
+- geography
+- livelihoods
+- religion
+- relations with Norse
+- Finnic peoples
+- Scandinavian kingdoms
+- taxation
+
+Avoid reducing Sami history to their interactions with southern states.
+
+---
+
+# PART XVI — STEPPE & EURASIAN PEOPLES
+
+These peoples repeatedly transformed European history.
+
+# KHAZARS
+
+Major page.
+
+Connect:
+
+- Khazar Khaganate
+- Judaism of elite
+- steppe trade
+- Rus'
+- Byzantium
+- Arabs
+
+# ALANS
+
+Major page.
+
+Connect:
+
+- Iranian origins
+- Migration Period
+- Vandals
+- Caucasus
+- steppe
+
+# SARMATIANS
+
+Earlier background where relevant.
+
+Do not overextend scope.
+
+# MONGOLS
+
+Major civilization page.
+
+Cover:
+
+- Mongol Empire
+- invasion of Rus'
+- Poland
+- Hungary
+- Golden Horde
+- European diplomacy
+
+# TATARS
+
+Explain emergence from Mongol imperial context carefully.
+
+# GOLDEN HORDE CULTURAL WORLD
+
+Political realm remains separate but strongly linked.
+
+---
+
+# PART XVII — GREEK WORLD
+
+Do not assume “Greek” and “Byzantine” are perfect synonyms.
+
+# GREEKS
+
+Create a medieval Greek civilization page if architecture supports it.
+
+Explain:
+
+- Greek language
+- Eastern Roman identity
+- Orthodox Christianity
+- regional Greek populations
+- Byzantine state
+- Latin states after 1204
+- Ottoman conquest
+
+A Greek-speaking Byzantine generally considered himself Roman politically/culturally.
+
+The article must preserve that nuance.
+
+---
+
+# PART XVIII — MEDITERRANEAN & ISLAMIC CIVILIZATIONS
+
+Because medieval European history is impossible to understand in isolation.
+
+# ARABS
+
+Major civilization page.
+
+Cover:
+
+- Arabian origins
+- Islamic conquests
+- Umayyads
+- Abbasids
+- Iberia
+- Sicily
+- Mediterranean
+- Crusades
+
+# BERBERS / AMAZIGH
+
+Already noted, but give major treatment.
+
+# ANDALUSIS
+
+Major page.
+
+# SICILIAN MUSLIMS
+
+Link to broader Andalusi/Arab/Berber context where appropriate.
+
+# TURKS
+
+Create broad parent page carefully.
+
+# OGHUZ TURKS
+
+# SELJUK TURKS
+
+Major page.
+
+Connect:
+
+- Seljuk Empire
+- Anatolia
+- Manzikert
+- Byzantium
+- Crusades
+- Sultanate of Rum
+
+# OTTOMAN TURKS
+
+Relevant to late medieval period.
+
+Connect:
+
+- Anatolia
+- Balkans
+- Byzantium
+- Kosovo
+- Nicopolis
+- Constantinople 1453
+
+---
+
+# PART XIX — CRUSADER & LEVANTINE CULTURAL IDENTITIES
+
+Investigate whether the architecture benefits from:
+
+# FRANKS OF THE LEVANT
+
+Contemporary eastern sources often referred broadly to Latin crusaders as Franks.
+
+Explain this usage carefully.
+
+# OUTREMER LATINS
+
+Potential cultural page covering Latin Christian settler society in:
+
+- Kingdom of Jerusalem
+- Antioch
+- Tripoli
+- Edessa
+
+Do not treat this as an ancient ethnicity.
+
+# ARMENIANS
+
+Major civilization page.
+
+Armenian history is essential to:
+
+- Byzantium
+- Caucasus
+- Crusades
+- Cilicia
+- Seljuks
+- Mongols
+
+Include:
+
+- Armenian Kingdoms
+- Cilician Armenia
+- Armenian Apostolic Church
+
+# GEORGIANS
+
+Major page.
+
+Connect:
+
+- Georgian Kingdom
+- Bagratids
+- David IV
+- Tamar
+- Byzantium
+- Seljuks
+- Mongols
+
+---
+
+# PART XX — JEWISH MEDIEVAL COMMUNITIES
+
+The Codex should not present medieval Europe as entirely Christian and Muslim.
+
+Evaluate major cultural/community pages for:
+
+# ASHKENAZI JEWS
+
+# SEPHARDIC JEWS
+
+Explain:
+
+- settlement regions
+- language
+- religious life
+- economic roles without stereotypes
+- legal status
+- intellectual culture
+- persecution
+- expulsions
+- interactions with Christian and Muslim societies
+
+Do not treat Jewish communities as a single homogeneous medieval population.
+
+---
+
+# PART XXI — ROMANI
+
+The Roma arrive in Europe during the later medieval period.
+
+If within scope, create a historically careful article explaining:
+
+- South Asian origins
+- migration
+- Byzantine references
+- movement into Europe
+- late medieval presence
+
+Avoid reproducing stereotypes.
+
+---
+
+# PART XXII — CIVILIZATION ARTICLE STRUCTURE
+
+Every major civilization article should contain, where appropriate:
+
+## Overview
+
+Who they were.
+
+## Names and Identity
+
+Explain:
+
+- self-name/endonym
+- names used by outsiders
+- modern scholarly terminology
+- alternative spellings
+
+This is especially important for:
+
+- Byzantines
+- Rus'
+- Vlachs
+- Vikings
+- Bulgars
+- Goths
+
+## Origins
+
+Distinguish:
+
+- historical evidence
+- archaeology
+- linguistic evidence
+- later traditions
+- legend
+
+## Homeland / Geography
+
+## Migration and Expansion
+
+## Political Organization
+
+## Society
+
+## Social Hierarchy
+
+## Law
+
+## Warfare
+
+## Weapons and Armor
+
+Keep warfare sections consistent with Iron Codex historical standards.
+
+## Religion
+
+## Conversion / Religious Change
+
+## Language
+
+## Material Culture
+
+## Economy
+
+## Trade
+
+## Settlements and Architecture
+
+## Relations With Neighboring Peoples
+
+## Major Realms
+
+## Major Rulers
+
+## Important Women
+
+## Major Wars
+
+## Major Battles
+
+## Major Events
+
+## Cultural Transformation
+
+## Decline / Assimilation / Successor Identities
+
+## Legacy
+
+## Timeline
+
+## Related Civilizations
+
+## Related People
+
+## Related Realms
+
+## Related Battles
+
+## Related Locations
+
+---
+
+# PART XXIII — PARENT / CHILD CIVILIZATION RELATIONSHIPS
+
+Support hierarchical relationships.
+
+Examples:
+
+Goths
+→ Visigoths
+→ Ostrogoths
+
+Norse
+→ Danes
+→ Norwegians
+→ Swedes
+→ Geats where appropriate
+
+Slavs
+→ West Slavs
+→ East Slavs
+→ South Slavs
+
+West Slavs
+→ Poles
+→ Czechs
+→ Moravians
+→ Polabian Slavs
+
+South Slavs
+→ Serbs
+→ Croats
+→ Slovenes/Carantanians
+
+Balts
+→ Lithuanians
+→ Old Prussians
+→ Latgalians
+→ Curonians
+→ Semigallians
+
+Rus'
+→ regional successor cultures and states
+
+The hierarchy must not imply biological purity or perfect descent.
+
+These are historical/cultural relationships.
+
+---
+
+# PART XXIV — IDENTITY CHANGES OVER TIME
+
+The system must be capable of representing cultural transformation.
+
+Examples:
+
+Norse settlers
+→ Normans
+
+Anglo-Saxons + Scandinavian settlement + Norman aristocracy
+→ medieval English identity
+
+Bulgars + Slavic populations
+→ medieval Bulgarians
+
+Romanized Balkan populations
+→ Vlach/Eastern Romance communities
+→ later Romanian identities
+
+Franks + Gallo-Roman populations
+→ medieval French populations
+
+Galician-Portuguese frontier society
+→ Portuguese identity
+
+Castilian, Leonese, Aragonese, Catalan, Navarrese and other Iberian identities
+→ later Spanish political identity
+
+The archive should explain these developments rather than pretending medieval peoples were immutable.
+
+---
+
+# PART XXV — RULER AUDIT
+
+For every civilization introduced, audit all rulers associated with its principal realms.
+
+Do not stop after adding famous kings.
+
+Systematically inspect royal succession lists.
+
+For each ruler determine:
+
+- Does the article exist?
+- Is the ruler correctly mapped?
+- Correct realm?
+- Correct civilization?
+- Correct dynasty?
+- Correct predecessor?
+- Correct successor?
+- Correct reign?
+- Correct major events?
+- Correct related battles?
+
+Create missing significant ruler articles.
+
+---
+
+# PART XXVI — QUEENS AND WOMEN
+
+Audit major female historical actors.
+
+Do not create an archive consisting almost exclusively of kings.
+
+Investigate:
+
+- reigning queens
+- regents
+- queen mothers
+- politically powerful consorts
+- dynastic heiresses
+- religious patrons
+- women central to succession crises
+
+Examples throughout the archive may include figures such as:
+
+- Amalasuntha
+- Theodelinda
+- Brunhilda
+- Matilda
+- Eleanor of Aquitaine
+- Urraca of León
+- Berengaria
+- Tamar of Georgia
+- Jadwiga
+- Margaret I
+- Isabella I
+- Olga of Kyiv
+
+where within scope and not already properly covered.
+
+---
+
+# PART XXVII — MAJOR EVENTS AUDIT
+
+For every civilization, identify events necessary to understand its history.
+
+Examples include:
+
+- migrations
+- invasions
+- conversions
+- civil wars
+- conquests
+- sacks
+- settlements
+- dynastic unions
+- kingdom foundations
+- collapses
+- important treaties
+
+Create missing event articles when historically significant.
+
+---
+
+# PART XXVIII — BATTLE AUDIT
+
+Civilization expansion will expose missing battle coverage.
+
+Audit major engagements involving each people.
+
+Examples include, but are absolutely not limited to:
+
+- Adrianople
+- Frigidus
+- Catalaunian Plains
+- Vouillé
+- Nedao
+- Soissons
+- Tolbiac
+- Tours/Poitiers
+- Lechfeld
+- Stamford Bridge
+- Edington
+- Brunanburh
+- Clontarf
+- Hastings
+- Manzikert
+- Kleidion
+- Kosovo
+- Bouvines
+- Grunwald/Tannenberg
+- Saule
+- Lake Peipus
+- Mohi
+- Legnica
+- Nicopolis
+- Varna
+- major Reconquista engagements
+- major Byzantine-Bulgarian battles
+- major Byzantine-Arab battles
+- major Rus'-steppe battles
+- major Northern Crusade engagements
+
+Do not create duplicates.
+
+Audit current coverage first.
+
+---
+
+# PART XXIX — WAR AUDIT
+
+Civilizations should connect naturally to wars.
+
+Examples:
+
+- Gothic War
+- Vandalic War
+- Saxon Wars
+- Byzantine-Bulgarian Wars
+- Arab-Byzantine Wars
+- Viking invasions of England
+- Norman Conquest
+- Reconquista campaigns
+- Northern Crusades
+- Byzantine-Seljuk wars
+- Crusades
+- Mongol invasions
+- Anglo-French wars
+- Hundred Years' War
+- Wars of Scottish Independence
+- Hussite Wars
+- Ottoman expansion
+
+---
+
+# PART XXX — REALM AUDIT
+
+Civilizations must link to their political manifestations.
+
+Examples:
+
+Norse
+→ Denmark
+→ Norway
+→ Sweden
+
+English
+→ Kingdom of England
+
+Portuguese
+→ County of Portugal
+→ Kingdom of Portugal
+
+Serbs
+→ Serbian principalities
+→ Kingdom of Serbia
+→ Serbian Empire
+
+Bulgarians
+→ First Bulgarian Empire
+→ Second Bulgarian Empire
+
+Rus'
+→ Kievan Rus'
+→ Novgorod
+→ Galicia-Volhynia
+→ Vladimir-Suzdal
+→ Moscow
+
+Lithuanians
+→ Grand Duchy of Lithuania
+
+Magyars/Hungarians
+→ Principality of Hungary
+→ Kingdom of Hungary
+
+Do not use political-state labels as civilization substitutes.
+
+---
+
+# PART XXXI — BIDIRECTIONAL LINKING
+
+Every relationship must be navigable both ways.
+
+Civilization → ruler
+Ruler → civilization
+
+Civilization → realm
+Realm → civilization
+
+Civilization → event
+Event → civilization
+
+Civilization → battle
+Battle → civilization where historically useful
+
+Civilization → location
+Location → civilization where meaningful
+
+Civilization → related civilization
+Related civilization → civilization
+
+No visible civilization field should be inert text when an article exists.
+
+---
+
+# PART XXXII — CIVILIZATION METADATA
+
+Extend existing schemas cleanly.
+
+Potential fields:
+
+- name
+- aliases
+- endonym
+- slug
+- entityType
+- civilizationType
+- parentCivilization
+- relatedCivilizations
+- predecessorCultures
+- successorCultures
+- chronology
+- earliestRecordedAppearance
+- primaryRegions
+- languages
+- religions
+- majorRealms
+- majorPeople
+- majorEvents
+- majorWars
+- majorBattles
+- summary
+
+Only add fields that provide real value.
+
+---
+
+# PART XXXIII — INDEX FILTERING
+
+The Civilizations index should be useful rather than merely alphabetical.
+
+Potential filters:
+
+## Period
+- Late Antiquity
+- Migration Period
+- Early Middle Ages
+- High Middle Ages
+- Late Middle Ages
+
+## Region
+- Scandinavia
+- British Isles
+- Iberia
+- France/Low Countries
+- Italy
+- Central Europe
+- Balkans
+- Eastern Europe
+- Baltic
+- Steppe
+- Mediterranean
+- Caucasus
+
+## Cultural Family
+- Germanic
+- Romance
+- Slavic
+- Baltic
+- Finnic
+- Turkic
+- Iranian
+- Semitic
+- Uralic
+- mixed / developing identity
+
+Do not force historically disputed populations into rigid modern racial categories.
+
+---
+
+# PART XXXIV — SEARCH
+
+Global search must understand aliases and historical terminology.
+
+Examples:
+
+Search:
+
+`Byzantines`
+
+should find:
+
+Eastern Romans / Byzantine civilization.
+
+Search:
+
+`Romans`
+
+should distinguish ancient/Western/Eastern Roman contexts appropriately.
+
+Search:
+
+`Vikings`
+
+should surface both:
+
+Vikings
+
+and:
+
+Norse
+
+Search:
+
+`Langobards`
+
+should resolve to:
+
+Lombards
+
+Search:
+
+`Suevi`
+
+should resolve to:
+
+Suebi
+
+Search:
+
+`Rus`
+
+should resolve to:
+
+Rus'
+
+Search:
+
+`Vlach`
+
+should resolve to:
+
+Vlachs
+
+Search:
+
+`Geiseric`
+
+and:
+
+`Genseric`
+
+must resolve to the same person.
+
+---
+
+# PART XXXV — HISTORICAL ACCURACY
+
+Do not create a 19th-century nationalist map disguised as medieval history.
+
+Avoid:
+
+- projecting modern nations backward;
+- treating ethnic groups as biologically fixed;
+- assuming migration means complete population replacement;
+- equating language, ethnicity and political allegiance automatically;
+- assuming kingdoms were nation-states;
+- assuming everyone within a realm belonged to its dominant cultural group;
+- treating origin legends as established fact.
+
+Use careful scholarly language.
+
+Examples:
+
+“Later tradition claimed…”
+
+“Modern scholarship debates…”
+
+“Contemporary sources describe…”
+
+“Archaeological evidence indicates…”
+
+“The identity appears to have developed…”
+
+“The term was used inconsistently…”
+
+---
+
+# PART XXXVI — PARTICULAR TERMINOLOGY WARNINGS
+
+## Vikings
+
+Not an ethnicity.
+
+## Byzantines
+
+Modern historiographical term; they called themselves Romans.
+
+## Spanish
+
+Do not project a unified Spanish identity across the medieval peninsula.
+
+## Italians
+
+Recognize common cultural development but enormous political/regional fragmentation.
+
+## Germans
+
+Do not treat modern Germany as existing in the Carolingian or Ottonian period.
+
+## Russians
+
+Do not use indiscriminately for Kievan Rus'.
+
+## Romanians
+
+Do not project modern Romanian national identity unchanged into poorly documented early medieval centuries.
+
+## Bulgars vs Bulgarians
+
+Must remain distinct.
+
+## Goths vs Geats
+
+Must remain distinct.
+
+## Saxons
+
+Continental Saxons and Anglo-Saxon contexts need careful distinction.
+
+## Franks vs French
+
+Do not treat them as identical.
+
+---
+
+# PART XXXVII — CIVILIZATION MAPS
+
+If the project supports map visualization, civilization pages should eventually support changing geographic distribution over time.
+
+Examples:
+
+Visigoths:
+
+Danube
+→ Balkans
+→ Italy
+→ Gaul
+→ Hispania
+
+Vandals:
+
+Central Europe
+→ Rhine
+→ Gaul
+→ Hispania
+→ North Africa
+
+Norse:
+
+Scandinavia
+→ North Atlantic
+→ British Isles
+→ Normandy
+→ Baltic
+→ Rus'
+
+This should be treated as a future-compatible design consideration even if full dynamic maps are not implemented during this milestone.
+
+---
+
+# PART XXXVIII — TIMELINES
+
+Civilization pages should include useful chronological timelines.
+
+Example:
+
+## Visigoths
+
+376 — Goths cross Danube
+378 — Adrianople
+410 — Sack of Rome
+418 — settlement in Aquitaine
+451 — Catalaunian Plains
+507 — Vouillé
+589 — Reccared converts
+711 — Muslim conquest begins
+
+Timelines should link to existing event articles.
+
+---
+
+# PART XXXIX — CIVILIZATION CARDS
+
+Index cards might contain:
+
+**Name**
+
+**Period**
+
+**Primary Region**
+
+**Cultural Family**
+
+**Major Realms**
+
+**Short Description**
+
+Keep cards visually consistent with the rest of the Codex.
+
+---
+
+# PART XL — CIVILIZATION PAGE RELATIONSHIP SECTIONS
+
+Civilization pages should prominently surface:
+
+### Related Civilizations
+
+### Major Realms
+
+### Major Rulers
+
+### Major Women
+
+### Major Battles
+
+### Major Wars
+
+### Major Events
+
+### Major Locations
+
+Use existing components wherever possible.
+
+---
+
+# PART XLI — CLAUDE.MD UPDATE
+
+This expansion must permanently change archive-generation rules.
+
+Update `CLAUDE.md`.
+
+Add explicit rules stating:
+
+1. Civilizations are first-class archive entities.
+2. Civilization and political realm are separate concepts.
+3. Every relevant ruler should link to civilization(s).
+4. Every relevant realm should link to civilization(s).
+5. Major events may link to civilizations.
+6. Relationships should be bidirectional.
+7. Existing archive content must always be audited before creating new entities.
+8. Alternative names should use aliases rather than duplicate entries.
+9. Modern national identities must never be projected backward without evidence.
+10. Historical identity may change over time.
+11. Parent/child civilization relationships should be represented where useful.
+12. New rulers must automatically be connected to relevant civilization pages.
+13. New realm articles must connect to relevant civilizations.
+14. Civilization pages should automatically surface related archive content where architecture allows.
+15. Civilizations must appear in global search and sitemap generation.
+
+---
+
+# PART XLII — INITIAL AUDIT REPORT
+
+Create an internal working audit similar to:
+
+| Civilization | Exists | Realm Coverage | People Coverage | Battle Coverage | Event Coverage | Action |
+|---|---|---|---|---|---|---|
+
+Group by region.
+
+For example:
+
+### Scandinavia
+
+Norse
+Danes
+Norwegians
+Swedes
+Geats
+Vikings
+Varangians
+
+### British Isles
+
+Britons
+Picts
+Gaels
+Irish
+Anglo-Saxons
+Angles
+Saxons
+Jutes
+English
+Welsh
+Scots
+Bretons
+
+### Iberia
+
+Visigoths
+Andalusis
+Arabs
+Berbers
+Asturians
+Galicians
+Portuguese
+Leonese
+Castilians
+Aragonese
+Catalans
+Basques
+Navarrese
+
+etc.
+
+---
+
+# PART XLIII — IMPLEMENTATION PHASES
+
+This feature is enormous.
+
+Do not attempt it as an uncontrolled mass generation pass.
+
+## PHASE 1 — Architecture
+
+Create:
+
+- civilization schema
+- routing
+- index page
+- article template
+- aliases
+- parent-child relationships
+- related-content relationships
+- SEO support
+- search integration
+- navigation
+- sitemap support
+
+## PHASE 2 — EXISTING ARCHIVE AUDIT
+
+Scan:
+
+- people
+- realms
+- battles
+- events
+- wars
+- locations
+- houses
+
+Build an internal relationship map.
+
+## PHASE 3 — FOUNDATIONAL CIVILIZATIONS
+
+Prioritize the most important foundational pages:
+
+- Romans / Eastern Romans
+- Goths
+- Visigoths
+- Ostrogoths
+- Franks
+- Lombards
+- Vandals
+- Norse
+- Vikings
+- Anglo-Saxons
+- Slavs
+- Rus'
+- Byzantines / Eastern Romans
+- Bulgars
+- Bulgarians
+- Magyars
+- Arabs
+- Berbers
+- Turks
+
+## PHASE 4 — REGIONAL EXPANSION
+
+Complete:
+
+- Scandinavia
+- British Isles
+- Iberia
+- France
+- Low Countries
+- Italy
+- German/Central Europe
+- Balkans
+- Eastern Europe
+- Baltic
+- Steppe
+- Caucasus
+- Mediterranean
+
+## PHASE 5 — RULER AUDIT
+
+For each civilization:
+
+audit the royal succession of associated realms.
+
+Create missing major ruler articles.
+
+## PHASE 6 — BATTLE & EVENT AUDIT
+
+Identify all obvious missing engagements.
+
+Add major missing battles and events.
+
+## PHASE 7 — RELATIONSHIP REPAIR
+
+Ensure every relevant:
+
+- person
+- kingdom
+- war
+- battle
+- event
+
+links back into the civilization system.
+
+## PHASE 8 — HISTORICAL QA
+
+Check:
+
+- chronology
+- naming
+- succession
+- cultural classification
+- anachronisms
+- aliases
+- disputed identities
+
+## PHASE 9 — TECHNICAL QA
+
+Check:
+
+- TypeScript
+- build
+- lint
+- tests
+- broken links
+- orphan pages
+- duplicate slugs
+- mobile layout
+- desktop layout
+- search
+- sitemap
+- metadata
+- SEO
+
+---
+
+# PART XLIV — PRIORITY LEVELS
+
+Not every civilization requires equal article depth.
+
+Use three levels.
+
+## LEVEL I — Major Civilization
+
+Extensive article.
+
+Examples:
+
+- Byzantines / Eastern Romans
+- Norse
+- Anglo-Saxons
+- English
+- Franks
+- French
+- Visigoths
+- Ostrogoths
+- Portuguese
+- Castilians
+- Slavs
+- Rus'
+- Bulgarians
+- Serbs
+- Magyars/Hungarians
+- Poles
+- Lithuanians
+- Arabs
+- Turks
+
+## LEVEL II — Significant Regional Civilization
+
+Moderate-to-large article.
+
+Examples:
+
+- Suebi
+- Burgundians
+- Alemanni
+- Picts
+- Welsh
+- Catalans
+- Basques
+- Croats
+- Vlachs
+- Moravians
+- Old Prussians
+- Cumans
+- Pechenegs
+
+## LEVEL III — Smaller Historically Relevant People
+
+Shorter but substantive article.
+
+Only create when enough reliable information exists.
+
+No worthless stubs.
+
+---
+
+# PART XLV — IMPORTANT CONTENT RULE
+
+Do not create articles merely because a name exists on the master list.
+
+The master list is an **audit scope**, not an instruction to fabricate certainty.
+
+If a particular identity:
+
+- is poorly attested;
+- is anachronistic;
+- overlaps almost completely with another page;
+- has insufficient historical evidence;
+
+document the reason and use another structure instead.
+
+Historical correctness outranks numerical completeness.
+
+---
+
+# PART XLVI — SOURCE QUALITY
+
+Use serious historical scholarship.
+
+Prioritize:
+
+- academic monographs
+- university publications
+- Cambridge histories
+- Oxford histories
+- archaeological studies
+- peer-reviewed scholarship
+- reputable historical reference works
+
+Primary sources should be contextualized.
+
+Potential sources include:
+
+- Ammianus Marcellinus
+- Jordanes
+- Procopius
+- Gregory of Tours
+- Bede
+- Paul the Deacon
+- Einhard
+- Constantine VII
+- Anna Komnene
+- Byzantine chroniclers
+- Anglo-Saxon Chronicle
+- Rus' Primary Chronicle
+- Iberian chronicles
+- Arabic chroniclers
+- Scandinavian sagas
+
+Never treat medieval chronicles as perfectly objective factual databases.
+
+---
+
+# PART XLVII — ARTICLE WRITING QUALITY
+
+Avoid AI filler.
+
+Never pad articles with sentences such as:
+
+“played an important role in shaping European history”
+
+unless the article immediately explains how.
+
+Prefer:
+
+specific ruler
+specific event
+specific location
+specific change
+specific consequence
+
+Every paragraph should teach something.
+
+---
+
+# PART XLVIII — FINAL COMPLETION REPORT
+
+At completion provide a comprehensive report.
+
+Include:
+
+## Civilizations Architecture
+
+What was added.
+
+## Civilization Articles Created
+
+Every new civilization article.
+
+Group by region.
+
+## Existing Civilization Articles Updated
+
+## People Created
+
+## People Updated
+
+## Queens / Female Figures Added
+
+## Realms Updated
+
+## New Realms Added
+
+## Battles Added
+
+## Battles Updated
+
+## Wars Added or Updated
+
+## Events Added
+
+## Locations Updated
+
+## Search Improvements
+
+## SEO Changes
+
+## Taxonomy Decisions
+
+Explicitly explain difficult cases such as:
+
+- Vikings
+- Byzantines
+- Spanish identity
+- Rus'
+- Bulgars/Bulgarians
+- Vlachs/Romanians
+- Franks/French
+- Anglo-Saxons/English
+- Norse/Scandinavian identities
+
+## Remaining Gaps
+
+List anything intentionally deferred.
+
+## Validation
+
+Report:
+
+- build
+- lint
+- tests
+- TypeScript
+- broken links
+- orphan pages
+- duplicate entities
+- responsive layout
+- SEO
+- sitemap
+- search
+
+---
+
+# FINAL VISION
+
+The Civilizations archive should eventually allow a user to begin with:
+
+**Goths**
+
+and travel naturally through:
+
+Goths
+→ Visigoths
+→ Alaric I
+→ Sack of Rome
+→ Visigothic Kingdom
+→ Euric
+→ Battle of Vouillé
+→ Franks
+→ Clovis
+→ Francia
+
+Or begin with:
+
+**Norse**
+
+and travel:
+
+Norse
+→ Vikings
+→ Danes
+→ Great Heathen Army
+→ Danelaw
+→ Alfred the Great
+→ Anglo-Saxons
+→ English
+→ Kingdom of England
+→ Norman Conquest
+→ Normans
+
+Or:
+
+**Bulgars**
+
+→ Old Great Bulgaria
+→ Asparuh
+→ First Bulgarian Empire
+→ Bulgarians
+→ Boris I
+→ Simeon I
+→ Byzantines
+→ Basil II
+→ Second Bulgarian Empire
+→ Asen dynasty
+
+Or:
+
+**Galicians**
+
+→ Galicia
+→ County of Portugal
+→ Portuguese
+→ Afonso Henriques
+→ Kingdom of Portugal
+→ Reconquista
+→ Avis dynasty
+
+Or:
+
+**Rus'**
+
+→ Varangians
+→ Kyiv
+→ Vladimir the Great
+→ Christianization of Rus'
+→ Novgorod
+→ Vladimir-Suzdal
+→ Mongol invasion
+→ Golden Horde
+→ Moscow
+
+That is the standard.
+
+The user should be able to enter virtually any major medieval civilization, people, culture or emerging national identity and understand:
+
+- where they came from;
+- what they called themselves;
+- what outsiders called them;
+- how their identity developed;
+- where they lived;
+- what language they spoke;
+- what they believed;
+- how they organized society;
+- how they fought;
+- whom they traded with;
+- what kingdoms they established;
+- who ruled them;
+- whom they fought;
+- what major events shaped them;
+- what happened to them;
+- which later peoples or cultures emerged from them.
+
+And every relevant ruler, dynasty, kingdom, battle, war, migration, event and location already represented by **the-iron-codex** should connect into that network.
+
+This feature is not simply another archive category.
+
+It is the **cultural backbone of The Iron Codex**.
+
+Build it accordingly.
+
+
+---
+
+# APPENDIX D — Growth and paid acquisition plan
+
+> Folded into this file on 2026-09-16 from `MARKETING.md`, which was then deleted.
+> **Owned by:** no queue item — awaiting an owner decision. **Status:** PROPOSAL, NOT ACTIVATED. No account, no budget, no billing, no campaign.
+> The text below is the original, unaltered.
+
+# Growth plan — The Iron Codex
+
+**Status: proposal only.** Nothing here has been activated, no account has been
+created, no budget has been set and no billing has been touched. Track C M15 is a
+full stop: none of the paid section happens without an explicit decision.
+
+Written 2026-09-08, immediately after the technical SEO work of M1–M10.
+
+---
+
+## The honest starting position
+
+- **809 indexable pages**, all with real metadata, structured data and crawlable
+  text as of today.
+- **Zero external links.** No other site on the internet links here.
+- **Zero search history.** The domain was submitted to Google today.
+- **Zero brand awareness.** Nobody is searching for "Iron Codex".
+
+The technical work removed every *technical* reason not to rank. It cannot
+manufacture authority, and authority is what ranking for competitive history
+terms requires. That gap is what this document is about.
+
+---
+
+## Recommendation, stated up front
+
+**Do not spend money yet.** Not because paid acquisition is wrong in principle,
+but because right now it would buy traffic to a site with no reason for anyone to
+return, and would teach us nothing we cannot learn for free in the same period.
+
+Do the organic work in Part 2 for **three months**, watch what actually gets
+impressions in Search Console, and revisit paid in December with real query data.
+At that point a small test budget would be informed rather than speculative.
+
+If the owner wants to spend sooner, Part 1 says exactly how — but this is the
+recommendation.
+
+---
+
+# Part 1 — Paid acquisition (proposal, NOT activated)
+
+## Channels considered
+
+| Channel | Verdict | Why |
+| --- | --- | --- |
+| **Google Ads (Search)** | Possible later | Reaches people already searching for medieval history. Expensive per click for a site with nothing to sell. |
+| **Microsoft Advertising** | Better first test | Meaningfully cheaper clicks than Google, and the audience skews older, which matches a history-reading audience. |
+| **Reddit Ads** | Best paid fit | r/history, r/MedievalHistory, r/AskHistorians adjacencies. Cheap, and the audience is exactly right. |
+| **Meta / Instagram** | Poor fit | Interest targeting for "history" is broad and low-intent. |
+| **AdSense** | **Not applicable** | AdSense is publisher *monetisation* — it sells space *on* the site, it does not buy traffic *for* it. Named here because the brief flags the confusion. No third-party advertising will be placed on the Codex unless monetisation is separately requested. |
+
+## If a test is approved
+
+The smallest experiment that would actually teach us something:
+
+- **Reddit Ads, €150 over three weeks**, one campaign, targeting history
+  subreddits, pointing at the **topic pages** rather than the home page — those
+  are the pages with a subject a reader chose.
+- **Success measure is not clicks.** It is pages-per-session and return visits.
+  Traffic that bounces immediately proves nothing except that ads work.
+- **Stop condition written in advance:** if pages-per-session is under 2.0 after
+  €150, stop. The problem would be the offer, not the channel.
+
+**Nothing above is running.** It requires an explicit go-ahead, an account, and a
+payment method — none of which exist.
+
+---
+
+# Part 2 — Organic growth (the actual plan)
+
+This is where a site like this wins, and it costs time rather than money.
+
+## 2.1 Rank for what nobody else covers well
+
+The archive's real advantage is depth on subjects with thin coverage elsewhere.
+Competing for "Battle of Hastings" against Wikipedia and Britannica is a losing
+proposition for years. Competing for **"Battle of Bapheus"**, **"Kilij Arslan
+II"**, **"Order of St Thomas of Acre"** or **"Battle of Myriokephalon"** is
+winnable *now*, because the competition is one thin Wikipedia stub.
+
+**Action:** in Search Console, watch **Performance → Queries** monthly. The first
+queries to produce impressions are the winnable ones. Write more in those areas.
+
+This is also the argument for finishing the stub backlog: 233 articles under
+2,000 characters are 233 pages that cannot rank for anything.
+
+## 2.2 The topic pages are the ranking assets
+
+`/topics/viking-age` and its siblings target subjects people actually search,
+carry real prose, and link 20–70 articles each. They are more likely to rank than
+any individual article and they distribute crawl authority to everything they
+link.
+
+**Action:** as the archive grows, add topics rather than only articles. Candidates
+already supportable by the data: the Wars of Scottish Independence, the Rus
+principalities, medieval siege warfare, the Ottoman rise.
+
+## 2.3 Wikipedia, done properly
+
+Wikipedia is where people researching these subjects already are, and its external
+links are followed by readers even though they are `nofollow`.
+
+**The rule: only where the Codex genuinely adds something Wikipedia does not.**
+Adding links to promote a site is spam, will be reverted, and can get a domain
+blacklisted. Adding a link from a two-paragraph stub to a 4,000-word researched
+article is a real contribution.
+
+Legitimate candidates from this archive's own work: Bapheus, Myriokephalon,
+Kilij Arslan II, the Order of St Lazarus, the Rashidun Caliphate article.
+
+**Do a few, months apart, and only ones you would defend on the talk page.**
+
+## 2.4 Reddit and forums — participate, don't post links
+
+Same principle. Answering a question in r/AskHistorians properly and linking the
+relevant article as a source is welcome. Dropping links is not, and both
+communities are unusually good at spotting it.
+
+## 2.5 The one structural thing still missing: nobody links here
+
+Zero external links is the single biggest constraint. The realistic sources, in
+order of value:
+
+1. **Wikipedia** (2.3) — highest value, slowest, needs genuine merit
+2. **History subreddits and forums** — earned by participating
+3. **Medieval history blogs and podcasts** — a personal email offering the
+   archive as a reference is worth more than any broadcast
+4. **University and library subject guides** — these link to good free
+   resources and are worth writing to directly
+
+## 2.6 What NOT to do
+
+- **Do not buy links.** It is the one thing that can get a domain penalised
+  outright rather than merely ignored.
+- **Do not spin up social accounts you will not maintain.** A dead Twitter
+  account is worse than none.
+- **Do not rewrite titles and descriptions repeatedly** chasing rankings in the
+  first months. It resets Google's understanding of the page.
+- **Do not add articles thinner than the ones already here.** 233 stubs is
+  already the archive's biggest quality liability.
+
+---
+
+## Timeline and what to expect
+
+| Month | Expect |
+| --- | --- |
+| 1 | Indexing climbs toward 809. Impressions near zero. Normal. |
+| 2 | First impressions for long-tail queries. Few clicks. |
+| 3 | Query data worth reading. **Revisit paid here.** |
+| 4–6 | Rankings for specific low-competition subjects. First real traffic. |
+| 6–12 | Compounding, *if* external links have started to arrive. |
+
+**The honest summary:** the technical foundation is now good, the content is
+genuinely strong, and the missing ingredient is time plus a handful of real
+external links. Nothing on this page is a shortcut past that.
+
+
+---
+
+# APPENDIX E — How to check the SEO is working
+
+> Folded into this file on 2026-09-16 from `SEO_TESTING.md`, which was then deleted.
+> **Owned by:** reference for the owner. **Status:** REFERENCE — a how-to, not a work list. Level 1 runs automatically in the build.
+> The text below is the original, unaltered.
+
+# How to check the SEO is actually working
+
+> **Status 2026-09-15:** Google Search Console and Bing setup are done. The page
+> counts below are out of date: the archive now has 839 articles and 856 sitemap
+> URLs. The checks themselves still apply.
+
+Written for someone who has not done SEO before. Nothing here needs paid tools.
+
+There are **three levels**, and they answer different questions:
+
+| Level | Question it answers | How long |
+| --- | --- | --- |
+| 1. Automatic gate | Did we build the pages correctly? | nothing to do |
+| 2. Live spot checks | Is the deployed site serving them correctly? | 5 minutes |
+| 3. Google's own tools | Is Google actually indexing and ranking us? | weeks |
+
+**The important thing to understand up front:** levels 1 and 2 are pass/fail and
+answer today. Level 3 is the real outcome, and it is *slow* — Google takes days to
+weeks to crawl a new site and months to rank it. Do not judge the work by level 3
+in the first fortnight. Nothing is wrong if traffic is zero in week one.
+
+---
+
+## Level 1 — the automatic gate (nothing for you to do)
+
+**This runs itself. You never need to run a command for it.**
+
+`scripts/check-seo.mjs` is wired into the build in `vercel.json`, so it runs on
+**every deployment**, and a failure **fails the deploy**. A build that would ship
+809 pages with a broken title, a missing canonical or an invalid sitemap cannot
+reach production — it stops at Vercel with a red build instead.
+
+It checks every one of the 800 article pages for: a unique title, a canonical
+URL, a description of reasonable length, a social share image, structured data
+that actually parses, at least 200 characters of crawlable text, and membership
+in the sitemap. It also verifies the two `vercel.json` settings the whole scheme
+depends on.
+
+If you ever *want* to run it by hand, `npm run build` includes it and prints:
+
+```
+SEO check passed: 800 article pages, 809 sitemap URLs, robots.txt and 404 in place.
+```
+
+But the point is that you should not have to. **If a deploy goes green, level 1
+passed.**
+
+---
+
+## Level 2 — is the live site serving it? (5 minutes)
+
+### 2a. The single most important test: view source, not the page
+
+In a browser, open any article, then press **Ctrl+U** (Windows) or **Cmd+Option+U**
+(Mac). That shows the **raw HTML the server sent**, before JavaScript runs — which
+is what a crawler sees.
+
+Near the top you should see a real title and description for *that article*:
+
+```html
+<title>Eric Bloodaxe — king of Norway and Northumbria | The Iron Codex</title>
+<meta name="description" content="Eric Bloodaxe was a tenth-century Norwegian king…" />
+<link rel="canonical" href="https://www.theironcodex.org/people/eric-bloodaxe" />
+```
+
+**Red flag:** if every article shows `<title>The Iron Codex</title>`, the
+prerendering has broken.
+
+Scroll further and you should see the article's actual prose inside
+`<div id="root">`. That is the text search engines read.
+
+### 2b. Status codes — the thing most sites get wrong
+
+Paste this into a terminal:
+
+```bash
+S=https://www.theironcodex.org
+for u in / /people /people/eric-bloodaxe /archive /robots.txt /sitemap.xml; do
+  printf 'want 200  %-30s ' "$u"; curl -s -o /dev/null -w '%{http_code}\n' "$S$u"
+done
+for u in /this-does-not-exist /people/not-a-real-person; do
+  printf 'want 404  %-30s ' "$u"; curl -s -o /dev/null -w '%{http_code}\n' "$S$u"
+done
+for u in /characters/eric-bloodaxe /artifacts/joyeuse; do
+  printf 'want 30x  %-30s ' "$u"; curl -s -o /dev/null -w '%{http_code}\n' "$S$u"
+done
+```
+
+Every line must match what it says it wants.
+
+**Why 404 matters so much:** before this work, *every* URL returned 200 —
+including ones that did not exist. Google calls that a "soft 404" and counts it
+against the whole site's quality. A page that does not exist must say so.
+
+### 2c. Social sharing — the part that is invisible until it embarrasses you
+
+Social networks do **not** run JavaScript, so this was completely broken before
+and would never have shown up in Google.
+
+The easiest test: **paste an article link into a WhatsApp, Slack or Discord
+message and look at the preview before you send it.** You should see the article
+title, its description and its image. Not "The Iron Codex" with a blank square.
+
+Official validators, which show you exactly what each network sees:
+
+- **Facebook / WhatsApp:** https://developers.facebook.com/tools/debug/
+- **LinkedIn:** https://www.linkedin.com/post-inspector/
+- **X/Twitter:** https://cards-dev.twitter.com/validator (login required)
+
+If you change a page's image or title later, use the Facebook debugger's
+**"Scrape Again"** button — these networks cache previews aggressively.
+
+### 2d. Structured data
+
+Paste any article URL into **https://validator.schema.org/** or Google's
+**https://search.google.com/test/rich-results**.
+
+You should see `Person`, `Event`, `Place`, `Organization` or `CreativeWork`
+detected, plus a `BreadcrumbList`. Warnings about optional fields are fine.
+**Errors** are not.
+
+### 2e. Robots and sitemap
+
+Open both in a browser:
+
+- https://www.theironcodex.org/robots.txt — plain text, ends with a `Sitemap:` line
+- https://www.theironcodex.org/sitemap.xml — XML with 809 `<loc>` entries
+
+**Red flag:** if either renders as the website instead of as text/XML, the
+routing has regressed.
+
+---
+
+## Level 3 — Google's own tools (the real answer, slowly)
+
+This is where you find out whether it worked. **It requires setup that only you
+can do**, because it proves you own the domain.
+
+### Step 1 — Google Search Console (do this first, it is the whole game)
+
+Full click-by-click walkthrough below. **Your DNS is hosted at Vercel**
+(nameservers `ns1.vercel-dns.com` / `ns2.vercel-dns.com`), *not* at your
+registrar — so the TXT record is added in the Vercel dashboard. This is the part
+most guides get wrong for this setup, because they assume you edit DNS wherever
+you bought the domain.
+
+#### 1a. Create the property
+
+1. Go to https://search.google.com/search-console and sign in with
+   **rui.palma.baiao@gmail.com**.
+2. If this is your first property you land straight on the "Select property
+   type" screen. Otherwise: click the property dropdown at the **top left** →
+   **+ Add property**.
+3. You get two boxes side by side. Choose the **left one, "Domain"**.
+   - **Domain** covers `theironcodex.org`, `www.theironcodex.org`, http and
+     https, all in one property. This is what you want.
+   - "URL prefix" (right box) would only cover the exact address you type, so
+     `www` and the apex would be separate properties. Avoid it.
+4. Type `theironcodex.org` — **no `https://`, no `www`**, just the bare domain.
+5. Click **Continue**.
+
+Google now shows a box titled "Verify domain ownership via DNS record" with a
+string that looks like:
+
+```
+google-site-verification=AbCdEf123456...
+```
+
+Click **Copy**. Leave this browser tab open — you come back to it in 1c.
+
+#### 1b. Add the TXT record in Vercel
+
+1. Go to https://vercel.com/dashboard and sign in.
+2. In the **top navigation bar**, click **Domains**. (This is an account-level
+   page — it is *not* inside the project. Project → Settings → Domains only
+   controls which domain points at which project, not the DNS records.)
+3. Click **`theironcodex.org`** in the list.
+4. You land on the DNS records view. Click **Add** (or "Add Record").
+5. Fill in exactly:
+
+   | Field | What to enter |
+   | --- | --- |
+   | **Name** | leave **blank** (some versions show `@` — either means the root domain) |
+   | **Type** | `TXT` |
+   | **Value** | paste the whole `google-site-verification=…` string |
+   | **TTL** | leave the default (60) |
+
+   **Do not** type `theironcodex.org` in the Name field. Vercel appends the
+   domain automatically, so that would create a record for
+   `theironcodex.org.theironcodex.org`, which verifies nothing. This is the
+   single most common mistake here.
+
+6. Click **Add** / **Save**.
+
+#### 1c. Verify
+
+Vercel's DNS uses a 60-second TTL, so this is fast — usually under two minutes,
+not the "up to 72 hours" the generic warnings mention.
+
+Optional but reassuring — check it yourself from a terminal:
+
+```bash
+dig +short TXT theironcodex.org
+```
+
+When it returns your `"google-site-verification=…"` string, you are ready.
+
+Go back to the Search Console tab and click **Verify**. You should get
+"Ownership verified".
+
+If it fails, wait a minute and click Verify again — Google sometimes caches a
+negative lookup. **Do not delete the TXT record afterwards.** Google re-checks it
+periodically and will unverify the property if it disappears.
+
+#### 1d. Submit the sitemap
+
+1. In Search Console, make sure `theironcodex.org` is selected in the property
+   dropdown (top left).
+2. In the **left sidebar**, find the **Indexing** group → click **Sitemaps**.
+3. There is a field labelled **"Add a new sitemap"** reading *"Enter sitemap URL"*.
+4. Paste the **complete URL**:
+
+   ```
+   https://www.theironcodex.org/sitemap.xml
+   ```
+
+   **Use `www`** — that is what the site canonicalises to (the apex 308-redirects
+   to it) and what all 809 URLs inside the sitemap use.
+
+   **Why the full URL and not just `sitemap.xml`:** this property is a **Domain**
+   property, which covers the apex, `www`, http and https together, so Search
+   Console cannot assume a hostname and gives you an empty field. Only
+   *URL-prefix* properties show a fixed grey `https://…/` prefix with just the
+   path to fill in. Guides that say "type only the filename" are describing a
+   URL-prefix property.
+5. Click **SUBMIT**.
+
+**What you should see**, in the "Submitted sitemaps" table below:
+
+| Column | Expected |
+| --- | --- |
+| Status | **Success** |
+| Discovered URLs | **809** |
+| Type | Sitemap |
+
+If it says **"Couldn't fetch"**, do not panic and do not resubmit repeatedly.
+That status very often appears immediately after submission and resolves itself
+within a few hours once Google actually fetches the file. Check the file is fine
+yourself by opening https://www.theironcodex.org/sitemap.xml in a browser — if
+XML loads, the sitemap is good and the status will catch up.
+
+You only ever submit a sitemap **once**. Google re-reads it automatically from
+then on, including after every deploy.
+
+#### 1e. URL Inspection — proving Google sees the content
+
+This is the definitive test, and there is an important detail: **which button you
+press depends on whether Google has crawled the page yet.** On a new site it has
+not, so the "View crawled page" option will not exist — you use the live test
+instead.
+
+1. At the **very top** of Search Console there is a wide search bar reading
+   *"Inspect any URL in https://www.theironcodex.org"*.
+2. Paste a **full article URL**, including `https://www.` — for example:
+   `https://www.theironcodex.org/people/eric-bloodaxe`
+3. Press **Enter** and wait 10–30 seconds.
+
+You will see one of two results:
+
+- **"URL is not on Google"** — expected for weeks on a new site. It is not an
+  error. It means "not indexed yet", not "something is broken".
+- **"URL is on Google"** — indexed.
+
+**Now the actual test.** Click **TEST LIVE URL** at the top right. This makes
+Google fetch and render the page *right now*, regardless of indexing status.
+Wait ~30 seconds, then:
+
+4. Click **VIEW TESTED PAGE** (right-hand side).
+5. Select the **HTML** tab.
+
+This is the exact HTML Googlebot received. Search it (Ctrl+F / Cmd+F) for:
+
+| Search for | You should find |
+| --- | --- |
+| `<title>` | `Eric Bloodaxe — king of Norway and Northumbria \| The Iron Codex` |
+| `canonical` | `https://www.theironcodex.org/people/eric-bloodaxe` |
+| `og:image` | a real image URL |
+| `Bloodaxe was a son of` | the article's actual prose |
+
+If all four are there, Google is receiving everything it needs. That is the
+definitive answer to "is our SEO actually working".
+
+Also check the **Screenshot** tab — it shows the page as Googlebot rendered it,
+which confirms the JavaScript app loads correctly for Google too.
+
+Once Google *has* crawled a page (weeks later), a **"View crawled page"** option
+appears alongside, showing the stored copy rather than a live fetch. Same tabs,
+same things to look for.
+
+**"Request indexing"**: on the inspection result there is a *Request indexing*
+link. It pushes one URL to the front of the queue. Use it for a handful of
+important pages — the home page, `/archive`, two or three strong articles. There
+is a daily quota, and it is not a way to index 809 pages. The sitemap does that.
+
+**What to look at afterwards, and what "good" looks like:**
+
+| Report | What it tells you | Healthy sign |
+| --- | --- | --- |
+| **Pages** (Indexing) | How many of the 809 URLs Google has indexed | Climbing toward 809 over weeks |
+| **Sitemaps** | Whether the sitemap parsed | "Success", 809 discovered |
+| **Performance** | Actual searches you appear in | Impressions appearing at all |
+| **URL Inspection** (top bar) | Everything about one specific URL | "URL is on Google" |
+
+**The single most useful tool** is **URL Inspection**. Paste any article URL into
+the search bar at the top. It tells you whether Google has it, when it last
+crawled it, and — via **"View crawled page"** — the exact HTML Google received.
+That is the definitive answer to "does Google see our content?".
+
+If a page is not indexed yet, press **"Request indexing"**. Useful for a handful
+of pages; not something to do 809 times.
+
+### Step 2 — Bing Webmaster Tools (5 minutes, worth it)
+
+
+https://www.bing.com/webmasters — it can **import directly from Google Search
+Console**, so once step 1 is done this is a two-click job. Bing also feeds
+DuckDuckGo and ChatGPT search.
+
+### Step 3 — the crude reality check
+
+Search Google for:
+
+```
+site:theironcodex.org
+```
+
+That lists what Google has indexed. Early on it will show few or no results.
+The number climbing over the following weeks is the signal that this worked.
+
+---
+
+## When you add new articles
+
+**Almost all of this is automatic.** Every deploy regenerates the whole SEO
+surface from `history.json`, so a new article gets its page, metadata, structured
+data, sitemap entry, hub link and topic membership without anyone doing anything.
+
+What the build runs, in order, on every deploy:
+
+```
+build-topics.mjs   ->  rebuilds the seven topic clusters
+vite build         ->  the app
+prerender.mjs      ->  regenerates all 823 pages + sitemap.xml + robots.txt
+check-seo.mjs      ->  fails the deploy if anything is wrong
+```
+
+So a new article automatically gets:
+
+- its own prerendered page with title, description, canonical, Open Graph,
+  Twitter card and JSON-LD
+- a `<loc>` entry in `sitemap.xml`
+- a link from its collection hub and from `/archive`
+- membership in a topic, **if** an existing article in that topic links to it
+  (membership expands one hop through `relatedEntries`)
+
+### The one command to run when you add content
+
+```bash
+npm run content
+```
+
+This does two things that cannot run on Vercel:
+
+1. **Updates `content-dates.json`** — per-article last-modified dates. Without
+   it the sitemap would stamp every URL with the build date, telling Google all
+   817 pages changed on every deploy. Google treats `lastmod` as a hint and
+   stops trusting a site that obviously lies, which costs the one thing the field
+   is for: prompt recrawling of the pages that *did* change. This hashes each
+   article and only re-dates the ones whose content actually moved.
+2. **Generates social cards** for any new locally hosted image over ~600 KB, the
+   WhatsApp preview limit.
+
+Commit the changed files along with the content. **If you forget, the build
+fails and tells you** — the oversized-image check is a hard gate, so nothing
+broken can ship.
+
+### Do you need to touch Search Console?
+
+**No.** Google re-reads your sitemap on its own schedule and will find new URLs
+there. The only reason to open Search Console is if you publish something you
+particularly want indexed quickly — then use **Request indexing** on that one
+URL. There is a daily quota of around ten, so it is for a handful of pages, never
+for a batch.
+
+### If you add a new *topic*
+
+Topics are defined in `scripts/build-topics.mjs`, with hand-picked seed articles
+and hand-written prose. Adding one is a code change, not a content change — ask
+me and I will do it. The gate requires 400+ characters of prose and 10+ linked
+articles, so a thin topic page cannot ship.
+
+## Troubleshooting: what the scary messages actually mean
+
+| Message in Search Console | Means | Action |
+| --- | --- | --- |
+| **"URL is not on Google"** | Not indexed *yet* | None. Normal for weeks. |
+| **"Discovered — currently not indexed"** | Google found it, hasn't got to it | None. Normal for a new site. |
+| **"Crawled — currently not indexed"** | Crawled, not judged worth indexing yet | None early on. Watch if it persists past ~2 months. |
+| **"Indexing request rejected"** | Live test found a problem | Click **View live test**, not Dismiss. It names the real reason. |
+| **"Page cannot be indexed: Soft 404"** | Google rendered the page and saw **nothing** | Real problem. See below. |
+| **"Blocked by robots.txt"** | Self-explanatory | Real problem. |
+| **"Server error (5xx)"** | The site failed | Real problem. |
+
+### The soft-404 trap, which we hit on 2026-09-08
+
+`/archive` reported **"Page cannot be indexed: Soft 404"** while showing
+*Crawl allowed: Yes, Page fetch: Successful, Indexing allowed: Yes*. The page
+was fine. `robots.txt` was not: it carried `Disallow: /api/`.
+
+**Googlebot obeys robots.txt for the resources a page fetches while rendering.**
+Every hub page gets its data from `/api`, so Googlebot rendered them empty:
+
+```
+/archive   785 links, 26,554 chars   ->   1 link, 238 chars
+/people    full list                 ->   0 links, 0 characters
+```
+
+Google saw a blank page and correctly called it an error page.
+
+**Two lessons worth keeping:**
+
+1. **Never block resources a page needs to render** — APIs, CSS, JavaScript. To
+   keep JSON out of the *index* while still allowing it to be *fetched*, use an
+   `X-Robots-Tag: noindex` response header. robots.txt cannot express that
+   distinction; it only blocks fetching.
+2. **A local browser check cannot catch this**, because Chrome ignores
+   robots.txt. Every headless render looked perfect. Only Google's own verdict
+   exposed it — which is the argument for actually doing the Search Console
+   checks rather than trusting the build gate alone.
+
+## What to expect, honestly
+
+| When | What is normal |
+| --- | --- |
+| Day 1 | `site:` search shows almost nothing. Correct. |
+| Week 1–2 | Google discovers the sitemap and starts crawling. Indexed count begins to climb. |
+| Month 1–2 | Most pages indexed. First impressions in the Performance report. |
+| Month 3–6 | Rankings develop for specific, low-competition phrases. |
+
+A new site has no authority, and that is the one thing technical SEO cannot buy.
+What this work did was remove every *technical* reason for the site not to rank.
+Growing authority is Track C's later milestones — internal linking, landing pages
+and promotion.
+
+**One caution:** do not repeatedly change titles and descriptions to chase
+rankings in the first months. It resets Google's understanding of the page.
+
+---
+
+## The five-second version
+
+**Before a deploy: nothing.** The gate runs in the build and blocks the deploy if
+anything is wrong. A green deployment means the SEO checks passed.
+
+**After a deploy, occasionally:** view source on one article (Cmd+Option+U) and
+confirm the title is that article's title and not "The Iron Codex".
+
+**Once a week:** open Search Console and see whether the indexed page count is
+going up. That is the only number that really matters.

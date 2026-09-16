@@ -98,6 +98,25 @@ The personality rules above still apply — brevity is not coldness, and a good
 line still lands. But wit is compression, not addition: if a joke costs a
 paragraph, drop the joke.
 
+## One work list: QUEUE.md (owner rule, 2026-09-16)
+
+The repo had eight planning files and the owner could not tell which one was
+being worked on, or how close any was to done. So:
+
+- **`QUEUE.md` is the only work list.** Every plan, spec and programme lives
+  there. The rulers programme, the UI/UX refinement, the civilizations
+  expansion, the growth plan and the SEO how-to were folded in as **Appendices
+  A–E** on 2026-09-16 and their files deleted.
+- **Never create a new planning markdown file.** A new programme becomes a queue
+  item, and its spec becomes an appendix in the same file.
+- **Four files are never folded in and never deleted:** `CLAUDE.md`, `CODEX.md`,
+  `CONTENT_GUIDELINES.md` (standards, not work) and `COMPLETED_ROADMAP.md` (the
+  record). `README.md` also stays — it is repo documentation (install steps, auth
+  environment, OAuth redirect URIs), not a plan.
+- **Every item carries its status where it can be seen.** QUEUE.md opens with a
+  table saying where each big programme stands, and each appendix says which
+  queue item owns it and whether it is started.
+
 ## Finished plans move to COMPLETED_ROADMAP.md (owner rule, 2026-09-16)
 
 The repo carries a lot of planning markdown, and a file whose work is done still

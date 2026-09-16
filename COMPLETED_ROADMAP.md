@@ -49,6 +49,31 @@ gained Montfort as a linked commander and lost the "no biography yet" notes.
 `eventSortDates` gained Neville's Cross (17 October 1346), which shared 1346 with
 Crécy.
 
+## Houses / dynasties — a sixth collection — M0–M5, complete 2026-09-15
+
+`HOUSES_PLAN.md`'s work, finished and the file deleted on 2026-09-16. **70 houses
+are in the archive**, from House of Wessex and Plantagenet to the Rurikids,
+Komnenos, Palaiologos and House of Osman.
+
+What was built: `houses` as a sixth collection beside events, characters,
+locations, artifacts and weaponsArmor — the collection key and the URL slug are
+the same word, so every slug map fell through unchanged and the only genuinely new
+UI was the `HouseHero` / `HouseContent` render path in `DetailPage`. The schema
+carries `founder`, `notableMembers`, `cadetBranches`, `familyTree`, `seats`,
+`arms` and a timeline, with the `{ personSlug, displayName, note }` convention
+reused from succession so a named-but-unwritten member is never a broken link.
+Both validators gained house rules, and house↔ruler navigation is bidirectional.
+
+Two things it deliberately did not do: chain into post-1453 branches (Tudor,
+Bourbon, later Habsburg are named in prose as continuations), and merge
+historically distinct houses through careless aliasing — "House of Anjou" is
+claimed by both the Plantagenets and the Capetian House of Anjou, so it is
+denylisted and resolves to neither.
+
+**Still open, tracked in QUEUE 0m:** four roster houses never got articles —
+Ottonian/Salian, Habsburg, House of Barcelona and Piast. They are prerequisites
+for the rulers programme.
+
 ## Mention rewrites and the Scottish wars hub — 2026-09-16 (`d97dd2a`, `d1ec15b`)
 
 The 29 drafted rewrites from the Falkirk and Lewes batches, applied: 14 files, 32
