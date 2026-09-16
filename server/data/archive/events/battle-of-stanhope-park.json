@@ -1,0 +1,329 @@
+{
+  "id": "battle-of-stanhope-park",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Stanhope Park",
+  "year": 1327,
+  "location": "Stanhope, Weardale, County Durham, England",
+  "eventLocation": "The English camp on the Wear opposite the Scottish position in the bishop of Durham's park at Stanhope",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Stanhope_Park.jpg",
+  "imageInfo": {
+    "caption": "The Weardale campaign of 1327 in the Froissart made for Louis of Gruuthuse, illuminated by Loyset Liedet at Bruges in the 1470s.",
+    "creator": "Loyset Liedet",
+    "date": "1470s; shows August 1327",
+    "source": "Wikimedia Commons (Bibliotheque nationale de France, MS Francais 2643)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Stanhope_Park.jpg",
+    "note": "Painted about 145 years after the campaign for a Flemish bibliophile, so the armour, the tents and the guns are of the illuminator's own day rather than of 1327. What it does record faithfully is the shape of the confrontation the chronicles describe: the Scots holding high ground behind the Wear under the royal banner of Scotland, the river between, and the English encamped in strength on the other side. Public domain.",
+    "aiGenerated": false
+  },
+  "sectionImages": [
+    {
+      "section": "The campaign: a fortnight of chasing smoke",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Scottish_soldiers_in_the_14thC.jpg",
+      "caption": "An English herald sent across to the Scottish position, a detail of the same Froissart miniature by Loyset Liedet, illuminated in the 1470s.",
+      "creator": "Loyset Liedet",
+      "date": "1470s; shows August 1327",
+      "source": "Wikimedia Commons (Bibliotheque nationale de France, MS Francais 2643)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scottish_soldiers_in_the_14thC.jpg",
+      "note": "The detail is worth separating out because the exchange of heralds is the campaign in miniature: the English asked the Scots to come down and fight a pitched battle on level ground, and were told that they would not. Fifteenth-century dress and equipment throughout. Public domain.",
+      "aiGenerated": false
+    }
+  ],
+  "summary": "James Douglas rode into the sleeping camp of the fifteen-year-old Edward III in Weardale on the night of 3-4 August 1327, cut down the tent ropes of the king's own pavilion, and rode out again.",
+  "details": "The last campaign of the First War of Scottish Independence ended in farce for England: a large, costly army spent a fortnight failing to bring a Scottish raiding force to battle, was raided in its own camp at midnight, and then watched the Scots walk away across marsh it had thought impassable. The bill came to some 70,000 pounds, and within eight months the regency of Isabella and Roger Mortimer bought peace by recognising Robert the Bruce as king of an independent Scotland.",
+  "outcome": "Scottish success. The raid caused heavy confusion and losses in the English camp without deciding a battle; the Scots withdrew intact three nights later, and the failed campaign led directly to the Treaty of Edinburgh-Northampton in 1328.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Edward III of England",
+      "faction": "English",
+      "personId": "edward-iii-of-england"
+    },
+    {
+      "name": "James Douglas",
+      "faction": "Scots"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Scottish army",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "James Douglas, Lord of Douglas",
+          "type": "person",
+          "note": "Robert the Bruce's most feared lieutenant, who led the night attack in person. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders, alongside the other Scottish commanders of this campaign."
+        },
+        {
+          "name": "Thomas Randolph, Earl of Moray",
+          "type": "person",
+          "note": "Joint commander of the raiding army and Guardian of Scotland after Bruce's death. No biography in the Codex yet, though he appears in this archive taking Edinburgh Castle by night escalade before the Battle of Bannockburn."
+        },
+        {
+          "name": "Donald, Earl of Mar",
+          "type": "person",
+          "note": "The third of the Scottish commanders in Weardale, raised at the English court and later Guardian of Scotland. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000 mounted raiders, with 200-500 in the night attack",
+        "confidence": "debated",
+        "note": "Chronicle figures run to 20,000 and are not credible. The modern estimate of about 10,000 rests on the size of the country the Scots were able to burn at once rather than on any roll, and the accounts of the raid itself give between 200 and 500 men-at-arms crossing the Wear with Douglas."
+      }
+    },
+    {
+      "side": "English army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward III of England",
+          "title": "Edward III of England",
+          "type": "person",
+          "slug": "edward-iii-of-england"
+        },
+        {
+          "name": "Roger Mortimer, Earl of March",
+          "type": "person",
+          "note": "The real commander of the campaign and, with Queen Isabella, the government of England during the young king's minority. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders."
+        },
+        {
+          "name": "John of Hainault, Lord of Beaumont",
+          "type": "person",
+          "note": "Captain of the Hainault contingent, whose retinue included the chronicler Jean le Bel, the campaign's eyewitness. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "Fewer than 10,000, including some 780 Hainault men-at-arms",
+        "confidence": "debated",
+        "note": "The chronicles claim 30,000 to 40,000, which the Battlefields Trust rejects; fewer than 10,000 is the defensible figure. The Hainault contingent is the best documented part of the army because it was paid by contract, and it later billed the crown 41,000 pounds."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "In the small hours of 4 August 1327 James Douglas took a few hundred Scottish men-at-arms across the River Wear into the camp of the English army in Weardale, killed the sentries, rode through the lines shouting his own name, and cut the ropes of the pavilion of Edward III, a king of fourteen who had been crowned six months earlier. He was driven out when the camp rallied, and he had not destroyed the army. He had done something more useful to Scotland: he had shown that England could put a large and expensive host into the field for a month and be unable to protect its king in his own bed.",
+        "Stanhope Park was the last significant action of the First War of Scottish Independence. No pitched battle was fought in Weardale - that was the whole Scottish point - but the campaign cost the English crown roughly 70,000 pounds at a time when its ordinary revenue was near 30,000, achieved nothing, and ended with the Scots walking home unmolested. Eight months later the regency government of Isabella and Roger Mortimer signed the Treaty of Edinburgh-Northampton, renouncing every English claim over Scotland."
+      ]
+    },
+    {
+      "title": "Background: a new king and an old war",
+      "paragraphs": [
+        "Edward II had been deposed in January 1327 and his son crowned in his place, with real power held by the queen, Isabella of France, and her ally Roger Mortimer. The new regime was vulnerable in exactly the place the old one had been beaten: the north. Robert the Bruce, unrecognised by England since the Battle of Bannockburn thirteen years earlier and now ill, had no intention of letting a minority government settle in peace, and in the summer of 1327 sent an army into England under his best commanders.",
+        "It was not an army of conquest but a raiding force, mounted on the small hardy horses the border called hobbins, carrying oatmeal and a griddle plate instead of a baggage train, burning its way across a seventy-mile front in County Durham and Northumberland. The English response was conventional and expensive: a great feudal host mustered at York, stiffened by 780 men-at-arms hired from Hainault under John of Hainault, and marched out on 1 July to catch and destroy the raiders. Among the Hainaulters was Jean le Bel, a canon of Liege who wrote down what he saw and thereby gave this campaign an eyewitness."
+      ]
+    },
+    {
+      "title": "The campaign: a fortnight of chasing smoke",
+      "paragraphs": [
+        "The chase was a catastrophe of logistics. The English marched north-west into the Pennines guided by burning villages, forded rivers in flood, lost their supply train, went hungry, and at one point spent a night in arms in the rain on a moor having convinced themselves the Scots were upon them. When they finally located the raiders in Weardale in late July the Scots were drawn up on the north bank of the Wear on a steep slope with the river in front of them, and there they stayed.",
+        "Edward's commanders sent heralds across to propose that the Scots withdraw to level ground and fight a proper battle, since the honour of chivalry required it. The reply, as le Bel records it, was that the king of England knew they were in his kingdom and had burned it, and that if this displeased him he was welcome to come across and do something about it. The English, having tried the crossing once and found it murderous, sat down opposite instead, and the two armies watched each other for days. On the night of 31 July the Scots quietly shifted upstream to a stronger position inside Stanhope Park, the bishop of Durham's enclosed hunting ground, and the English followed and camped facing them again."
+      ]
+    },
+    {
+      "title": "The night attack",
+      "paragraphs": [
+        "At about midnight on 3 August, in bright moonlight, Douglas took his men-at-arms - somewhere between two and five hundred, by accounts that do not agree - across a ford downstream and rode straight into the English camp. The sentries were cut down before they could give a proper alarm. He went through the lines shouting \"Douglas! Douglas! Die, my English masters\", which in a camp already sleeping in its armour after a fortnight of false alarms produced exactly the confusion he wanted, and made directly for the largest tent.",
+        "The pavilion was the king's. Three of its ropes were cut and it came down, with the boy inside it by every account; his chaplain and several of his household were killed defending the entrance. The English recovered faster than Douglas can have hoped - the camp was awake, armed and far larger than his party - and he pulled out and rode back across the river with the whole business over in about an hour. The English never recorded their dead; the French account of the raid puts them at about three hundred, while the Battlefields Trust notes only that they were heavier than the Scottish losses, which were probably few."
+      ]
+    },
+    {
+      "title": "The Scots walk home",
+      "paragraphs": [
+        "The English drew the obvious lesson and tightened their watch, which is to say they settled down to starve out an enemy they could not attack. It did not work either. On the night of 6 August the Scots lit their fires as usual, left them burning, and moved out northwards through a stretch of bog the English scouts had written off as impassable, having laid brushwood hurdles over the worst of it. By the time the trick was discovered on the morning of the 7th they were hours away and moving fast; nobody followed.",
+        "The English army disbanded and went home. Its bills came in over the following months: something like 70,000 pounds for a campaign in which a shot was barely fired, with 41,000 of it owed to the Hainault contingent alone, and the devastated northern counties in no condition to be taxed - several were given relief instead. For a regency whose legitimacy rested on having replaced an incompetent king, the political damage of Weardale was worse than the money."
+      ]
+    },
+    {
+      "title": "Aftermath: the peace of 1328",
+      "paragraphs": [
+        "Negotiations opened in the autumn and moved fast because both sides wanted them to: Bruce was a dying man who needed his son's inheritance secured, and Mortimer needed the northern war closed before it closed his government. The terms agreed at Edinburgh on 17 March 1328 and ratified by the English parliament at Northampton on 1 May gave Scotland everything the war had been about - recognition of Robert the Bruce as king of an independent kingdom, renunciation of the English overlordship claimed since 1296, and the marriage of Bruce's son David to Edward III's sister Joan - in exchange for 20,000 pounds.",
+        "In England it was called the shameful peace, and Edward III repudiated it as soon as he had overthrown Mortimer and taken the government into his own hands in 1330. The war resumed within five years by proxy, when Edward Balliol and the disinherited English claimants invaded and destroyed a much larger Scottish army at the Battle of Dupplin Moor in 1332, opening the Second War of Scottish Independence; Edward himself took the field at the Battle of Halidon Hill the following year. The generation of Scottish commanders who had won the first war did not see it. Douglas died in Spain in 1330 carrying Bruce's heart on crusade, and Randolph in 1332."
+      ]
+    },
+    {
+      "title": "Significance and the sources",
+      "paragraphs": [
+        "Stanhope Park is the clearest demonstration in the whole war of what mounted raiders could do to a conventional army, and of how little a conventional army could do back. The Scots never had to risk the pitched battle that would have destroyed them; the English could not force one, could not feed themselves in their own country, and could not keep an armed enemy out of their camp at night. Everything about the campaign argued for the settlement England signed the following spring.",
+        "It is also, unusually for a medieval action, a well-witnessed one. Jean le Bel rode with the Hainault contingent and wrote it up decades later in his \"Vrayes Chroniques\", refusing to record anything he or his informants had not seen, and Froissart afterwards took his account over almost word for word - which is why a scene from a Durham dale ended up illuminated in a Flemish workshop for a bibliophile of Bruges in the 1470s. The Lanercost chronicle, compiled at an Augustinian priory on the border within living memory of the raid, supplies the English view of the same fortnight. The disagreements between them are about numbers and casualties, never about what happened: that a Scottish force could not be caught, and that Douglas got into the king of England's tent."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The peace that did not hold",
+    "battleSlug": "battle-of-dupplin-moor",
+    "relationship": "chronological-follow-up",
+    "reason": "Weardale forced the Treaty of Edinburgh-Northampton in 1328, and Edward III repudiated it as soon as he threw off Mortimer in 1330. In 1332 Edward Balliol and the disinherited landed in Fife and destroyed a far larger Scottish army at Dupplin Moor, reopening the war this campaign had ended."
+  },
+  "timeline": [
+    {
+      "date": "1 February 1327",
+      "title": "Edward III crowned",
+      "description": "The fourteen-year-old king succeeds his deposed father, with Isabella of France and Roger Mortimer holding power."
+    },
+    {
+      "date": "June 1327",
+      "title": "The Scots cross the border",
+      "description": "A mounted raiding army under James Douglas, the Earl of Moray and the Earl of Mar burns its way through Durham and Northumberland."
+    },
+    {
+      "date": "1 July 1327",
+      "title": "The English army leaves York",
+      "description": "A great host, stiffened by 780 Hainault men-at-arms under John of Hainault, marches north to bring the raiders to battle."
+    },
+    {
+      "date": "Late July 1327",
+      "title": "Contact on the Wear",
+      "description": "After a fortnight of hunger, floods and false alarms the English find the Scots drawn up on the far bank and refusing to come down."
+    },
+    {
+      "date": "31 July 1327",
+      "title": "The Scots move into Stanhope Park",
+      "description": "They shift by night into the bishop of Durham's park, a stronger position still, and the English camp opposite them again."
+    },
+    {
+      "date": "Night of 3-4 August 1327",
+      "title": "Douglas raids the camp",
+      "description": "Between two and five hundred men-at-arms cross the ford at midnight, cut down the sentries and bring down the king's pavilion with him inside."
+    },
+    {
+      "date": "Night of 6-7 August 1327",
+      "title": "The Scots slip away",
+      "description": "Leaving the campfires burning, they cross a bog the English had judged impassable on brushwood hurdles; nobody pursues."
+    },
+    {
+      "date": "Autumn 1327",
+      "title": "The bill and the talks",
+      "description": "The campaign has cost some 70,000 pounds, the north needs tax relief, and the regency opens negotiations with Robert the Bruce."
+    },
+    {
+      "date": "17 March 1328",
+      "title": "Treaty agreed at Edinburgh",
+      "description": "England renounces its claim to overlordship and recognises Robert the Bruce as king of an independent Scotland."
+    },
+    {
+      "date": "1 May 1328",
+      "title": "Ratified at Northampton",
+      "description": "The English parliament confirms the treaty, sealed by the marriage of Bruce's son David to Edward III's sister Joan."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Nominal commander, and nearly taken in his own tent"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Sent the raiding army that forced the peace"
+      },
+      {
+        "title": "Isabella of France",
+        "type": "person",
+        "slug": "isabella-of-france",
+        "label": "With Mortimer, the government that paid for the campaign"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Invaded, and unable to defend the north"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      }
+    ],
+    "events": [
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "The peace this campaign produced, in 1328"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "The victory England had still not accepted"
+      },
+      {
+        "title": "Battle of Dupplin Moor",
+        "type": "event",
+        "slug": "battle-of-dupplin-moor",
+        "label": "The war reopened four years later"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Stanhope_Park.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record (herald detail)",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Scottish_soldiers_in_the_14thC.jpg"
+    },
+    {
+      "title": "Weardale campaign - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Weardale_campaign"
+    },
+    {
+      "title": "The Battle of Stanhope Park - UK Battlefields Resource Centre",
+      "author": "The Battlefields Trust",
+      "type": "battlefield study",
+      "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=97"
+    },
+    {
+      "title": "Vrayes Chroniques",
+      "author": "Jean le Bel, who rode on the campaign",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Jean_le_Bel"
+    },
+    {
+      "title": "The Chronicle of Lanercost, 1272-1346",
+      "author": "Lanercost Priory, translated by Herbert Maxwell",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Lanercost_Chronicle"
+    }
+  ]
+}

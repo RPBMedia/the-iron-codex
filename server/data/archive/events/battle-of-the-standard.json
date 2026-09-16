@@ -1,0 +1,318 @@
+{
+  "id": "battle-of-the-standard",
+  "type": "event",
+  "name": "Battle of the Standard",
+  "aliases": [
+    "Battle of Northallerton"
+  ],
+  "year": 1138,
+  "location": "Cowton Moor, near Northallerton, Yorkshire, England",
+  "eventType": "Battle",
+  "conflict": "The Anarchy",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Chronicle_of_England_-_Page_144_-_The_Oath_of_Walter_l'Espec.jpg",
+  "imageInfo": {
+    "caption": "Walter Espec and William of Aumale swear before the Standard — a ship’s mast of consecrated banners lashed to a cart. A colour chromolithograph made in 1864 for Doyle’s A Chronicle of England.",
+    "creator": "James William Edmund Doyle, colour-printed by Edmund Evans",
+    "date": "1864; shows 22 August 1138",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Chronicle_of_England_-_Page_144_-_The_Oath_of_Walter_l'Espec.jpg",
+    "note": "A Victorian reconstruction, not a period source: no contemporary depiction of the battle survives. Doyle drew the cart, the mast and the hanging banners from the chroniclers’ descriptions, and the oath itself is Ailred of Rievaulx’s, written about fifteen years afterwards. Public domain (the artist died in 1892)."
+  },
+  "sectionImages": [
+    {
+      "section": "The Standard",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_the_Standard_(British_Library_MS_Royal_14_C_II,_folio_88).jpg",
+      "caption": "The Standard drawn in the margin of an English manuscript of about 1200: a mast on a four-wheeled cart, flying banners, with the word standard written beside it in red.",
+      "creator": "Unknown English illuminator",
+      "date": "about 1199–1202; shows the device of 1138",
+      "source": "British Library, Royal MS 14 C II, folio 88, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_the_Standard_(British_Library_MS_Royal_14_C_II,_folio_88).jpg",
+      "note": "The nearest thing to a contemporary picture of the device, drawn some sixty years after the battle by a scribe who had read about it rather than seen it. It shows the cart and the mast but not the pyx, and the banners are generic. Public domain (PD-Art)."
+    }
+  ],
+  "summary": "An army raised by Archbishop Thurstan of York around a cart of consecrated banners broke David I of Scotland’s invasion on Cowton Moor near Northallerton on 22 August 1138 — and then lost the peace, because David kept Carlisle and his son gained Northumberland within eight months.",
+  "details": "On 22 August 1138 the barons and levies of Yorkshire met David I of Scotland’s invading army on Cowton Moor, two miles north of Northallerton, drawn up around a ship’s mast lashed upright to a four-wheeled cart and flying the consecrated banners of the minsters of York, Beverley and Ripon. The unarmoured Galwegians who had demanded the right to strike first were shot to pieces by English archers; when the men of Lothian broke and Prince Henry’s mounted charge was left unsupported, the Scottish army came apart. David withdrew in order to Carlisle, and in April 1139 secured by treaty most of what he had invaded to take.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "David I of Scotland",
+      "faction": "Scots"
+    },
+    {
+      "name": "William of Aumale",
+      "faction": "English"
+    },
+    {
+      "name": "Walter Espec",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Decisive English tactical victory: the Scottish army was broken in about three hours for negligible English loss. It settled nothing strategically — David I kept Cumberland and Carlisle, and the Second Treaty of Durham gave his son Henry the earldom of Northumberland in April 1139.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "David I of Scotland",
+          "type": "person",
+          "note": "King of Scots from 1124 to 1153, the reforming king who planted Anglo-Norman families, burghs and sheriffdoms on the kingdom, and who invaded England four times between 1136 and 1138. No biography in the Codex yet."
+        },
+        {
+          "name": "Henry, Earl of Huntingdon",
+          "type": "person",
+          "note": "David’s son and heir, who led the one Scottish charge that broke into the English position and who gained the earldom of Northumberland by the treaty of 1139. He died in 1152, before his father. No biography in the Codex yet."
+        },
+        {
+          "name": "The Galwegian leaders Domnall and Ulgric",
+          "type": "person",
+          "note": "Named by Ailred of Rievaulx as the lords who led the Galwegian vanguard and fell with it. Nothing else about either man is securely recorded, so neither can carry an article."
+        }
+      ],
+      "strength": {
+        "display": "c. 16,000 by modern estimate; Richard of Hexham claims 26,000",
+        "confidence": "debated",
+        "note": "No muster roll survives. The army was a composite of Galwegians, men of Lothian, Teviotdale and Cumbria, islanders and men of Lorne, the men of Scotia and Moray, and perhaps two hundred mailed knights of David’s Anglo-Norman following; the chronicle totals come from the winning side."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William of Aumale",
+          "type": "person",
+          "note": "Lord of Holderness, whom Stephen made earl of York for this day’s work; the senior commander on the field. No biography in the Codex yet: he belongs to a group of Anarchy-era English magnates the archive has not yet built out."
+        },
+        {
+          "name": "Walter Espec",
+          "type": "person",
+          "note": "Lord of Helmsley, founder of Rievaulx Abbey, and — in Ailred’s telling — the speaker of the pre-battle oration. No biography in the Codex yet; he is remembered chiefly through his monastic foundations and this battle."
+        },
+        {
+          "name": "Thurstan, Archbishop of York",
+          "type": "person",
+          "note": "Raised, blessed and supplied the army and made the war a religious cause, but at about seventy and in poor health he did not command on the field; Henry of Huntingdon has Ralph Nowell, titular bishop of Orkney, speak in his place. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000, mostly Yorkshire levies with baronial retinues and a small contingent sent by Stephen",
+        "confidence": "debated",
+        "note": "The figure is a modern reading of the chronicles rather than a record: the army was raised by parish and by honour at about a fortnight’s notice. What the sources agree on is its composition — dismounted men-at-arms stiffened with archers, and no significant force of horse."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of the Standard, fought on 22 August 1138 on Cowton Moor about two miles north of Northallerton, was the largest clash between English and Scottish armies since the Norman Conquest, and it is named after a piece of equipment rather than a place. The English centre was a ship’s mast lashed upright to a four-wheeled cart, with a silver pyx holding the consecrated host at its head and the banners of the minsters of York, Beverley and Ripon hanging below. Richard, prior of Hexham, writing within a few years of the battle, preserved the verse that explains the name: dicitur a stando standardum, quod stetit illic — it is called a standard from standing, because it stood there.",
+        "The fighting lasted perhaps three hours and ended in a rout. The campaign did not. David I of Scotland regrouped at Carlisle with his army beaten but his position intact, kept Cumberland, and in April 1139 secured the Second Treaty of Durham, which handed his son Henry the earldom of Northumberland. The Standard was an English tactical victory and a Scottish strategic success, which is why it has never fitted comfortably into either country’s account of itself."
+      ]
+    },
+    {
+      "title": "A Scottish king and an English civil war",
+      "paragraphs": [
+        "David I had sworn in 1127, with the rest of Henry I’s magnates, to accept the king’s daughter Matilda as his heir. When Henry died in December 1135 and Stephen of England took the throne instead, David invaded — for the oath, and for Northumberland. The claim was his son’s: Henry’s mother Maud was the daughter of Waltheof, the last English earl of Northumbria, and David had wanted the earldom since Henry I’s reign. The first campaign took Carlisle, Wark, Alnwick, Norham and Newcastle within weeks, and the First Treaty of Durham of February 1136 bought him off with Carlisle, Doncaster and the honour of Huntingdon for his son — everything except the earldom he had come for.",
+        "He came back for it twice in 1138, in January and in April, and then in the summer with the whole strength of the kingdom. The timing was deliberate: Robert of Gloucester had renounced his allegiance to Stephen that spring and the empress’s war was beginning, so the king had the south to hold and nothing to spare for Yorkshire. Richard of Hexham’s account of the Scottish advance — churches burned, captives driven north into slavery, children killed — is the most quoted passage on the campaign and the most carefully handled, because Richard was a canon of Hexham writing about the army that had plundered his own church, and his purpose was to explain why God had given the victory to the other side."
+      ]
+    },
+    {
+      "title": "The Standard",
+      "paragraphs": [
+        "Thurstan, archbishop of York, was about seventy and too ill to take the field, but the army was his. He preached resistance to the Scots as work done for God, sent the parish clergy north with their crosses and banners, and had the device that named the battle raised on the moor: the mast of a ship, mounted on a four-wheeled cart, crowned with a silver pyx containing the consecrated host, with the banners of Saint Peter of York, Saint John of Beverley and Saint Wilfrid of Ripon hanging from a crosspiece. Henry of Huntingdon records that Ralph Nowell, the titular bishop of Orkney, addressed the army in the archbishop’s name and promised absolution to the fallen.",
+        "The cart was a borrowed idea. Italian communes fought around a carroccio — Milan’s stood at the centre of the Lombard League’s line at the Battle of Legnano in 1176 — and the English version worked the same way as a rallying point visible across a moor, with one difference that mattered to everyone present. The pyx at the masthead made the army’s centre an altar. Men who could not read a banner understood that they were standing in the presence of the sacrament, and that the men opposite had burned churches to get there. It was the cheapest and most effective thing Thurstan did."
+      ]
+    },
+    {
+      "title": "The quarrel over the vanguard",
+      "paragraphs": [
+        "David wanted his mailed knights in front, where armour would tell against the English spears. The Galwegians claimed the first line as their customary right and would not give it up. Ailred of Rievaulx reports the argument: a Scottish mormaer — Malise, earl of Strathearn, on the usual modern identification, though Ailred does not name him — demanded to know why the king listened to foreigners when no man in mail would go further that day than one who wore none, and Alan de Percy, a Norman in David’s service, told him it was a great word and one he could not make good. David gave way. Ailred wrote his account about 1153 for an audience that included David’s own court, and the speeches in it are compositions rather than transcripts; what they preserve is the fault line in the Scottish army, which is corroborated by what happened next.",
+        "The Scots formed in four lines: the Galwegians, then Prince Henry with the knights, the archers and the men of Cumbria and Teviotdale, then the men of Lothian with islanders and men of Lorne, and last the king with the men of Scotia and Moray and his household. The English stood in one dense body on the ridge, men-at-arms dismounted among the spearmen with archers between them and the horses held to the rear. That arrangement — knights on foot, stiffened with bowmen, waiting to be attacked — is the earliest well-recorded English use of the formation that would win the Battle of Dupplin Moor in 1332 and the Battle of Halidon Hill in 1333, and nobody at Northallerton knew they had invented anything."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Galwegians attacked at first light with a triple war-shout and struck hard enough to force the front rank of spearmen back before the men-at-arms closed the gap. Then the archery began, and it decided the battle within the hour. Ailred’s image of what it did to unarmoured men has outlived every other sentence written about the day: like a hedgehog with its quills, so you would see a Galwegian bristling all round with arrows, and still brandishing his sword and rushing forward in blind fury to strike a foe. When Domnall and Ulgric fell, the column broke and ran back through the lines behind it.",
+        "Prince Henry saved the Scottish honour and nothing else. He charged with his knights, broke clean through the English left and scattered the horse-holders in the rear, then found no second line following him and had to cut his way out. On the other flank the men of Lothian gave way when their lord was killed by an arrow. David’s household formed around him and tried to hold the field; his companions put him on a horse and took him off it. The English did not pursue far — they were infantry, and their commanders knew what a broken army does to loose pursuers. Henry reached Carlisle on foot with a single knight beside him, and the survivors came in over the following days."
+      ]
+    },
+    {
+      "title": "The dead, and the numbers",
+      "paragraphs": [
+        "English losses were very light: Richard of Hexham names one knight killed. Scottish losses are impossible to fix. Richard says that more than ten thousand men were missing when David counted the survivors, and John of Worcester gives nearly ten thousand dead with about fifty of the king’s picked men taken prisoner. Both are figures from the winning side, arrived at by a method nobody records, and they should be read as a way of saying that the army was wrecked rather than as a count.",
+        "One detail does read like a count, and it is the most telling in the sources: of the roughly two hundred mailed knights in David’s army, nineteen came away still wearing their hauberks. The rest had thrown away the most expensive object they owned to run faster, or lost it to a scavenger on the moor. That single number says more about the state of the Scottish army on the evening of 22 August than the ten thousand does — and it is also a reminder that the men who fought here were not an army in any later sense, but a kingdom’s worth of lordships, each of which went home when its lord did."
+      ]
+    },
+    {
+      "title": "Aftermath: the peace David won",
+      "paragraphs": [
+        "There was no pursuit into the north and no attempt to follow up. The Yorkshire levies went home to the harvest, and David re-formed at Carlisle and kept the siege of Wark going as though nothing had happened. On 26 September the papal legate, Cardinal Alberic of Ostia, reached Carlisle and talked him into a truce until Martinmas; when it expired in November, Wark surrendered on the written instruction of its own lord, Walter Espec, and David gave the starved garrison horses and let them ride out with their arms.",
+        "The settlement came on 9 April 1139 at Durham, negotiated on Stephen’s side by his queen, Matilda of Boulogne, who was David’s niece. Prince Henry received the earldom of Northumberland, less the royal castles of Bamburgh and Newcastle, and did homage for his English lands; David kept Carlisle and Cumberland, with the silver of the Alston mines to strike his coinage. For nearly twenty years the north of England was governed from Scotland and stayed out of the worst of the Anarchy, while the rest of the kingdom tore itself apart through the Battle of Lincoln in 1141 and the years that followed. The gains outlived David, who died in 1153, by four years: in 1157 his grandson Malcolm IV surrendered the northern counties to Henry II at Chester and took the honour of Huntingdon in exchange. A stone obelisk beside the A167 north of Northallerton marks the traditional site of the fighting."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The next Scottish bid for Northumbria",
+    "battleSlug": "battle-of-alnwick",
+    "relationship": "same-region",
+    "reason": "David I lost the battle and won the border, holding Northumberland and Cumberland until Malcolm IV surrendered them in 1157. The next Scottish king to invade for them, William the Lion, was caught in the fog outside Alnwick in 1174 and ransomed his kingdom’s independence away for fifteen years."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Stephen of England",
+        "type": "person",
+        "slug": "stephen-of-england",
+        "label": "The king in whose name the army fought, absent in the south"
+      },
+      {
+        "title": "Matilda of Boulogne",
+        "type": "person",
+        "slug": "matilda-of-boulogne",
+        "label": "Negotiated the Treaty of Durham that settled the war in 1139"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Alnwick (1174)",
+        "type": "event",
+        "slug": "battle-of-alnwick",
+        "label": "The next Scottish invasion for Northumbria"
+      },
+      {
+        "title": "Battle of Carham",
+        "type": "event",
+        "slug": "battle-of-carham",
+        "label": "The earlier Scottish push to the Tweed, 1018"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "January 1136",
+      "title": "David I invades",
+      "description": "Six weeks after Henry I’s death, the Scots take Carlisle, Wark, Alnwick, Norham and Newcastle in Matilda’s name and in pursuit of Northumberland."
+    },
+    {
+      "date": "February 1136",
+      "title": "First Treaty of Durham",
+      "description": "Stephen buys David off with Carlisle, Doncaster and the honour of Huntingdon for Prince Henry — everything but the earldom of Northumberland."
+    },
+    {
+      "date": "January and April 1138",
+      "title": "Two more invasions",
+      "description": "David raids Northumberland twice while Stephen is held in the south by the beginning of the empress’s war."
+    },
+    {
+      "date": "Summer 1138",
+      "title": "Thurstan raises Yorkshire",
+      "description": "The archbishop of York preaches the campaign as God’s work and sends the parish clergy north with their banners to muster the shire."
+    },
+    {
+      "date": "22 August 1138",
+      "title": "The Standard raised on Cowton Moor",
+      "description": "A ship’s mast on a four-wheeled cart, carrying the host in a silver pyx and the banners of York, Beverley and Ripon, is set up as the English rallying point."
+    },
+    {
+      "date": "22 August 1138",
+      "title": "The Galwegian charge is shot down",
+      "description": "Given the vanguard by right of custom, the unarmoured Galwegians break the front spearmen, are stopped by the men-at-arms and destroyed by archery; Domnall and Ulgric fall."
+    },
+    {
+      "date": "22 August 1138",
+      "title": "Prince Henry’s charge, and the rout",
+      "description": "Henry breaks through the English left but is unsupported; the men of Lothian give way and David is put on a horse and taken off the field."
+    },
+    {
+      "date": "26 September 1138",
+      "title": "Cardinal Alberic at Carlisle",
+      "description": "The papal legate reaches David’s reassembled army and negotiates a truce until Martinmas, leaving the siege of Wark in place."
+    },
+    {
+      "date": "November 1138",
+      "title": "Wark surrenders",
+      "description": "The garrison gives up on the written order of its own lord, Walter Espec; David remounts the starving men and lets them ride out under arms."
+    },
+    {
+      "date": "9 April 1139",
+      "title": "Second Treaty of Durham",
+      "description": "Queen Matilda of Boulogne agrees terms with her uncle: Prince Henry gets the earldom of Northumberland, David keeps Carlisle and Cumberland."
+    },
+    {
+      "date": "1157",
+      "title": "The gains surrendered",
+      "description": "Malcolm IV gives the northern counties back to Henry II at Chester and takes the honour of Huntingdon in exchange."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:A_Chronicle_of_England_-_Page_144_-_The_Oath_of_Walter_l'Espec.jpg"
+    },
+    {
+      "title": "Relatio de Standardo",
+      "author": "Ailred of Rievaulx",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Relatio_de_Standardo"
+    },
+    {
+      "title": "Historia de gestis regis Stephani et de bello Standardii",
+      "author": "Richard, prior of Hexham",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Richard_of_Hexham"
+    },
+    {
+      "title": "Battle of the Standard — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_the_Standard"
+    },
+    {
+      "title": "Battle of Northallerton 1138 — registered battlefield",
+      "author": "Historic England",
+      "type": "reference work",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000027"
+    },
+    {
+      "title": "The Battle of the Standard (The Battle of Northallerton)",
+      "author": "Historic UK",
+      "type": "reference work",
+      "url": "https://www.historic-uk.com/HistoryMagazine/DestinationsUK/The-Battle-of-the-Standard/"
+    }
+  ]
+}

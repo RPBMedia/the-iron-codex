@@ -342,6 +342,7 @@ const eventSortDates = {
   'battle-of-bannockburn': { year: 1314, month: 6, day: 23 },
   'hundred-years-war': { year: 1337 },
   'battle-of-crecy': { year: 1346, month: 8, day: 26 },
+  'battle-of-nevilles-cross': { year: 1346, month: 10, day: 17 },
   'black-death-europe': { year: 1347 },
   'battle-of-poitiers': { year: 1356, month: 9, day: 19 },
   'battle-of-kosovo': { year: 1389, month: 6, day: 15 },

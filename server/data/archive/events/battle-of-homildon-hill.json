@@ -1,0 +1,295 @@
+{
+  "id": "battle-of-homildon-hill",
+  "type": "event",
+  "name": "Battle of Homildon Hill",
+  "aliases": [
+    "Battle of Humbleton Hill"
+  ],
+  "year": 1402,
+  "location": "Homildon Hill, near Wooler, Northumberland, England",
+  "eventType": "Battle",
+  "conflict": "Anglo-Scottish Wars",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter_Paget_-_Charge_of_the_Scots_at_Homildon_Hill_AD_1402.jpg",
+  "imageInfo": {
+    "caption": "Charge of the Scots at Homildon Hill, a wood engraving by Walter Paget for Cassell’s History of England, 1909, showing the Scots riding down at English archers who are still shooting.",
+    "creator": "Walter Paget",
+    "date": "1909; shows 14 September 1402",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walter_Paget_-_Charge_of_the_Scots_at_Homildon_Hill_AD_1402.jpg",
+    "note": "An Edwardian illustrator’s reconstruction, not evidence: no contemporary depiction of the battle exists, and the whole Commons category for it holds three files — this engraving, a second Victorian plate about Hotspur, and a photograph of the Bendor Stone. Paget has the charge meeting the archers, which is what Bower describes of Swinton’s attack, though the armour he draws is of his own imagining. Public domain (the artist died in 1935)."
+  },
+  "sectionImages": [
+    {
+      "section": "What the ground keeps",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Standing_Stone,_Bendor_-_geograph.org.uk_-_411811.jpg",
+      "caption": "The Bendor Stone below Homildon Hill, a prehistoric standing stone that local tradition made the battle’s memorial. A 2007 photograph by Lisa Jarvis.",
+      "creator": "Lisa Jarvis",
+      "date": "2007",
+      "source": "Geograph Britain and Ireland, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standing_Stone,_Bendor_-_geograph.org.uk_-_411811.jpg",
+      "note": "The stone is Bronze Age — a cist of that date was found beside it — and has nothing to do with 1402 except the name the neighbourhood gave it. It is shown here as the memory the ground kept, not as a monument raised for the battle. Licensed CC BY-SA 2.0."
+    }
+  ],
+  "summary": "On 14 September 1402 English archers destroyed a Scottish raiding army standing motionless on Homildon Hill near Wooler, and the quarrel over the ransoms of the earls taken there drove the Percys into revolt against Henry IV within a year.",
+  "details": "Archibald, 4th Earl of Douglas, brought a large Scottish force home from a raid as far as Newcastle and found the road north blocked by the Percys near Wooler. He took position on the slope of Homildon Hill; the English archers walked to within bowshot and shot into the packed Scottish formations, which stood and took it. Sir John Swinton led about a hundred men down at the bowmen and was killed with all of them. The rest broke, and Douglas — wounded five times and blinded in one eye — was taken with the earls of Fife, Moray, Angus and Orkney. Henry IV forbade their ransom, and the Percys, who had captured them, rebelled in 1403.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Archibald Douglas, 4th Earl of Douglas",
+      "faction": "Scots"
+    },
+    {
+      "name": "Henry Percy, 1st Earl of Northumberland",
+      "faction": "English"
+    },
+    {
+      "name": "Henry Percy (Hotspur)",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Crushing English victory won almost entirely by archery, with the Scottish command captured rather than killed: Douglas and four earls were taken prisoner, and Henry IV’s refusal to let the Percys ransom them turned a victory into the grievance behind the Percy revolt of 1403.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Archibald Douglas, 4th Earl of Douglas",
+          "type": "person",
+          "note": "Head of the Black Douglases, taken here and again at Shrewsbury in 1403, later Duke of Touraine and killed commanding the Scots in France at Verneuil in 1424. No biography in the Codex yet; he is the archive’s documented gap on the Scottish side at Verneuil too."
+        },
+        {
+          "name": "Murdoch Stewart, Earl of Fife",
+          "type": "person",
+          "note": "Son of the Duke of Albany, the regent of Scotland; captured here and held in England until 1416. No biography in the Codex yet."
+        },
+        {
+          "name": "Sir John Swinton",
+          "type": "person",
+          "note": "The knight who led the one Scottish counter-attack of the day and died in it with every man who followed him. No biography in the Codex yet: he is recorded almost entirely through this charge and his family’s Berwickshire lands."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000, a raiding army coming home loaded with plunder",
+        "confidence": "debated",
+        "note": "The Scottish total is a modern reading of the chronicles; figures up to 12,000 are also printed, and no muster roll survives. The composition matters more than the total — this was a full noble host, which is why five earls could be taken in one afternoon."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry Percy, 1st Earl of Northumberland",
+          "type": "person",
+          "note": "Warden of the East March and the greatest lord in the north, who had helped put Henry IV on the throne in 1399 and rebelled against him in 1403. No biography in the Codex yet."
+        },
+        {
+          "name": "Henry Percy (Hotspur)",
+          "type": "person",
+          "note": "Northumberland’s son, taken prisoner by the Scots at the Battle of Otterburn in 1388 and the victor here; killed leading the Percy revolt at Shrewsbury in 1403. No biography in the Codex yet, although he appears in the archive through Henry IV’s reign."
+        },
+        {
+          "name": "George Dunbar, Earl of March",
+          "type": "person",
+          "note": "A Scottish earl who had defected to England in 1400 and who is credited with the advice that kept the English men-at-arms out of the fight while the archers worked. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "Not recorded; a Percy border army in which the archers did nearly all the fighting",
+        "confidence": "unknown",
+        "note": "No figure survives for the English force and none should be invented. What the sources do say is that the men-at-arms barely engaged: the Battlefields Trust summarises the accounts as showing that troops other than the archers took very little part in the action."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Homildon Hill was fought on 14 September 1402 on the slope of a hill near Wooler in Northumberland, now called Humbleton, and it is the clearest demonstration in the whole Anglo-Scottish war of what happened to men who stood still in front of English archers. A Scottish army under Archibald, 4th Earl of Douglas, coming home from a raid, found the Percys across its road, took the high ground as Scottish armies had been doing since the Battle of Falkirk in 1298, and waited. The English did not attack it. They sent their archers to within bowshot and shot into the packed formations until the formations disintegrated.",
+        "The battle produced almost no English casualties, very few named Scottish dead, and an extraordinary haul of prisoners: Douglas himself, wounded five times and blinded in one eye, with the earls of Fife, Moray, Angus and Orkney and some eighty knights. Those prisoners are why the battle matters beyond the tactics. Henry IV, who had not been there, forbade the Percys to ransom them, and the family that had put him on the throne three years earlier went into open revolt within eleven months."
+      ]
+    },
+    {
+      "title": "The raid and the blocked road",
+      "paragraphs": [
+        "The campaign began as a reprisal. In June 1402 a Scottish raiding party was destroyed at Nesbit Moor by George Dunbar, Earl of March — a Scottish magnate who had changed sides and taken service with Henry IV in 1400 after the Douglases outbid him for a royal marriage, and who knew exactly how Scottish armies fought because he had commanded one at the Battle of Otterburn. Douglas answered in September with a full noble host, crossed the border, and rode as far as Newcastle without meeting an army.",
+        "The trouble came on the way back. The Percys — the Earl of Northumberland and his son Hotspur, with Dunbar advising — gathered the northern levies and put themselves between the Scots and the Tweed near Milfield, where Douglas had camped in the low ground with his plunder. Seeing the English come on, the Scots gave up the flat and climbed the slope of Homildon Hill, which is the decision the whole battle turns on: it was the correct move against cavalry and the worst possible one against archery."
+      ]
+    },
+    {
+      "title": "Shot down like deer",
+      "paragraphs": [
+        "Hotspur wanted to charge up the hill. Dunbar, by the account in Walter Bower’s Scotichronicon, took his bridle and stopped him, and the English archers went forward instead, climbing the neighbouring slope until the Scottish formations were inside their range. The Scots were drawn up densely on open ground with their own archers few and outranged, and they had nothing to shoot back with. Thomas Walsingham, writing at St Albans, describes arrows falling so thickly that they pierced armour, which is the standard claim of every English chronicler about every English victory and should be read as an impression of volume rather than a ballistic report; what is not in doubt is that the Scots stood and were shot, because there is no account of the English men-at-arms doing any serious fighting at all.",
+        "One man refused to wait. Sir John Swinton — in Bower’s telling, which was written some four decades later — called out that it was better to die in the melee than to be shot down like deer, and rode at the archers with about a hundred followers, Sir Adam Gordon among them. They were killed to a man. After that the hill emptied: the formations broke, men ran for the Tweed and drowned in it, and the English rode down the rest. Douglas, who had a suit of plate said to have taken three years to make, was hit five times and lost an eye."
+      ]
+    },
+    {
+      "title": "The prisoners",
+      "paragraphs": [
+        "What the English took at Homildon Hill was not ground, or a campaign, but people. Douglas was captured, and with him Murdoch Stewart, Earl of Fife and son of the governor of Scotland; Thomas Dunbar, Earl of Moray, whose kinsman had helped destroy him; George Douglas, Earl of Angus; Henry Sinclair, Earl of Orkney; and about eighty knights. Scotland’s dead were fewer than its captured, and the losses that hurt were the ones that walked south alive.",
+        "Prisoners of that rank were, in the ordinary course of border war, the point of fighting. A captor kept his prisoner’s ransom, and the Percys had just taken the most valuable collection of Scots since David II of Scotland was led off the field at the Battle of Neville’s Cross in 1346. The crown’s right to reserve prisoners of royal blood or strategic importance was real, but it was exercised in return for compensation, and everyone in the north knew what the Percys expected."
+      ]
+    },
+    {
+      "title": "The quarrel that made a revolt",
+      "paragraphs": [
+        "Henry IV forbade the ransoms. His reason was defensible — he did not want Douglas and four earls back in Scotland with armies at their backs while he was fighting Owain Glyndŵr in Wales — and the order was given at the parliament that met that autumn, where he had the prisoners brought to him. To the Percys it was the last of a run of injuries: they were owed large sums for wardenship of the marches, the crown was slow paying for a war it wanted fought, and Hotspur’s brother-in-law Edmund Mortimer had been left to rot in Welsh captivity without royal help while the king took the prisoners Hotspur had won.",
+        "In July 1403 the Percys rose. Hotspur released Douglas, who a year earlier had been his prisoner, and took him along as an ally; Northumberland failed to arrive; and at Shrewsbury on 21 July Hotspur was killed by an arrow, the young Prince of Wales was hit in the face by another and survived, and Douglas was captured for the second time in eleven months. The house that had made Henry IV king was broken in stages after that — Bramham Moor in 1408 finished it."
+      ]
+    },
+    {
+      "title": "What the ground keeps",
+      "paragraphs": [
+        "Homildon settled nothing between the kingdoms. There was no invasion of Scotland behind it, no treaty, no transfer of territory; the border went on as it had, with wardens, raids and ransoms. Its consequences were all internal to England, and they ran through Shrewsbury to the long Lancastrian insecurity that Shakespeare later mined: Henry IV, Part 1 opens with the news arriving from \"Holmedon\", the king envying Northumberland such a son and grudging him the prisoners in the same breath, which is a fair summary of what actually happened.",
+        "Douglas’s own road ran on much further. Ransomed at last, he took a Scottish army to France for Charles VII, was made Duke of Touraine, and was killed at the Battle of Verneuil on 17 August 1424 by the same combination that had beaten him at Wooler — massed archery against a force that came on into it. On the hill itself there is a Bronze Age standing stone, the Bendor Stone, that the neighbourhood long pointed out as the battle’s memorial; it stood there two thousand years before Douglas did."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow Douglas to France",
+    "battleSlug": "battle-of-verneuil",
+    "relationship": "same-factions",
+    "reason": "Archibald, 4th Earl of Douglas, was taken on this hill, taken again at Shrewsbury in 1403, and finally ransomed — and in 1424 he led a Scottish army in French service at Verneuil, where English archery destroyed it and killed him. Homildon is where the lesson was taught and Verneuil is where the bill came in."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry IV of England",
+        "type": "person",
+        "slug": "henry-iv-of-england",
+        "label": "Refused the Percys the ransoms, and lost the Percys"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Otterburn",
+        "type": "event",
+        "slug": "battle-of-otterburn",
+        "label": "The same families, fourteen years earlier, with the result reversed"
+      },
+      {
+        "title": "Battle of Verneuil",
+        "type": "event",
+        "slug": "battle-of-verneuil",
+        "label": "Where Douglas met English archery again, and died, 1424"
+      },
+      {
+        "title": "Battle of Falkirk",
+        "type": "event",
+        "slug": "battle-of-falkirk",
+        "label": "The first demonstration of archery against standing Scottish spearmen, 1298"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "June 1402",
+      "title": "The rout at Nesbit Moor",
+      "description": "George Dunbar, Earl of March, in English service since 1400, destroys a Scottish raiding party in the Merse and provokes a full-scale answer."
+    },
+    {
+      "date": "September 1402",
+      "title": "Douglas raids to Newcastle",
+      "description": "Archibald, 4th Earl of Douglas, brings a noble host over the border and returns north unopposed, loaded with plunder."
+    },
+    {
+      "date": "14 September 1402",
+      "title": "The road home blocked",
+      "description": "The Percys and Dunbar bring the northern levies up to Milfield; the Scots abandon the low ground and form on the slope of Homildon Hill."
+    },
+    {
+      "date": "14 September 1402",
+      "title": "Hotspur is stopped from charging",
+      "description": "Dunbar talks him out of an uphill attack, and the English archers go forward alone to shoot into the massed Scottish formations."
+    },
+    {
+      "date": "14 September 1402",
+      "title": "Swinton’s charge",
+      "description": "Sir John Swinton rides down at the bowmen with about a hundred men, Sir Adam Gordon among them; all are killed and the Scottish line breaks."
+    },
+    {
+      "date": "14 September 1402",
+      "title": "Five earls taken",
+      "description": "Douglas is captured with five wounds and a lost eye, along with the earls of Fife, Moray, Angus and Orkney and some eighty knights."
+    },
+    {
+      "date": "Autumn 1402",
+      "title": "Henry IV forbids the ransoms",
+      "description": "The king has the prisoners brought to parliament and refuses to let their captors sell them back, on top of unpaid wardenship wages."
+    },
+    {
+      "date": "21 July 1403",
+      "title": "Shrewsbury",
+      "description": "The Percys revolt with Douglas — Hotspur’s former prisoner — at their side; Hotspur is killed and Douglas is captured for the second time in a year."
+    },
+    {
+      "date": "17 August 1424",
+      "title": "Douglas killed at Verneuil",
+      "description": "Ransomed and made Duke of Touraine, he takes a Scottish army into French service and is destroyed by English archery in Normandy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Walter_Paget_-_Charge_of_the_Scots_at_Homildon_Hill_AD_1402.jpg"
+    },
+    {
+      "title": "Battle of Homildon Hill — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Homildon_Hill"
+    },
+    {
+      "title": "The Battle of Homildon Hill — The Battlefields Trust",
+      "author": "The Battlefields Trust",
+      "type": "reference work",
+      "url": "https://www.battlefieldstrust.com/resource-centre/battleview.asp?BattleFieldId=18"
+    },
+    {
+      "title": "Battle of Homildon Hill 1402, Akeld — registered battlefield",
+      "author": "Historic England",
+      "type": "reference work",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000014"
+    },
+    {
+      "title": "Scotichronicon",
+      "author": "Walter Bower",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Scotichronicon"
+    }
+  ]
+}

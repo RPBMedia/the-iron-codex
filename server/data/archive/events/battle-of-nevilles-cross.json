@@ -1,0 +1,333 @@
+{
+  "id": "battle-of-nevilles-cross",
+  "type": "event",
+  "name": "Battle of Neville's Cross",
+  "aliases": [
+    "Battle of Neville’s Cross",
+    "Neville’s Cross"
+  ],
+  "year": 1346,
+  "location": "Neville's Cross, half a mile west of Durham, England",
+  "eventType": "Battle",
+  "conflict": "Second War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BNMsFr2643FroissartFol97vBatNevilleCross.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Neville’s Cross fought under the walls of Durham, in a fifteenth-century miniature from a manuscript of Froissart’s Chronicles.",
+    "creator": "Unknown Flemish illuminator, for the Chronicles of Jean Froissart",
+    "date": "15th century; shows 17 October 1346",
+    "source": "Bibliothèque nationale de France, MS Français 2643, folio 97v, via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BNMsFr2643FroissartFol97vBatNevilleCross.jpg",
+    "note": "Painted about a century after the battle, so the plate armour, the barded horses and the walled city are the illuminator’s own world rather than 1346; the fighting was in fact on broken ground half a mile outside the city. The crowned woman among the horsemen is Queen Philippa, whose presence is Froissart’s invention and not supported by English sources. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "What the name remembers",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Neville's_Cross_-_geograph.org.uk_-_883804.jpg",
+      "caption": "What survives of Neville’s Cross: a weathered stump on its base behind railings on Crossgate Peth in Durham. A 2008 photograph by Gordon Griffiths.",
+      "creator": "Gordon Griffiths",
+      "date": "2008",
+      "source": "Geograph Britain and Ireland, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neville's_Cross_-_geograph.org.uk_-_883804.jpg",
+      "note": "A cross already stood here before the battle, marking the point where pilgrims coming from the west first saw Durham Cathedral; Ralph Neville rebuilt it more lavishly afterwards and gave the battle its name. It was broken down in the sixteenth century and only the base and a fragment of shaft remain. Licensed CC BY-SA 2.0."
+    }
+  ],
+  "summary": "David II of Scotland invaded England for his French allies after Crécy, was beaten outside Durham on 17 October 1346, and was captured with two arrow wounds in his face — the beginning of eleven years in English custody.",
+  "details": "Answering an appeal from Philip VI, who had just lost at Crécy and wanted England distracted, David II crossed the border on 7 October 1346 with the best-equipped Scottish army in a generation. Ten days later, half a mile west of Durham, his three divisions stumbled into an English force raised by the Archbishop of York and the border wardens on ground broken by walls and ditches. English archers pulled the Scottish formations apart; the Earl of Moray was killed, the third division under Robert Stewart left the field, and David fought on with an arrowhead lodged in his face until he was taken by John de Coupland. He did not see Scotland again for eleven years.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "David II of Scotland",
+      "faction": "Scots",
+      "personId": "david-ii-of-scotland"
+    },
+    {
+      "name": "Robert Stewart",
+      "faction": "Scots",
+      "personId": "robert-ii-of-scotland"
+    },
+    {
+      "name": "Ralph Neville",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Decisive English victory. The king of Scots was captured along with much of his nobility, the Scottish field army ceased to exist, and the eleven-year captivity and 100,000-mark ransom that followed shaped Scottish politics and finance for a generation.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "David II of Scotland",
+          "title": "David II of Scotland",
+          "type": "person",
+          "slug": "david-ii-of-scotland"
+        },
+        {
+          "name": "Robert Stewart, the Steward of Scotland",
+          "title": "Robert II of Scotland",
+          "type": "person",
+          "slug": "robert-ii-of-scotland"
+        },
+        {
+          "name": "John Randolph, 3rd Earl of Moray",
+          "type": "person",
+          "note": "Commanded the leading Scottish division and was killed when it broke on the walls and ditches in front of the English line. No biography in the Codex yet."
+        },
+        {
+          "name": "Sir William Douglas of Liddesdale",
+          "type": "person",
+          "note": "The Knight of Liddesdale, whose 500 men blundered into the English army in the morning mist and who was taken prisoner in the battle. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000, the best-equipped Scottish army for many years",
+        "confidence": "debated",
+        "note": "A modern reading of the chronicles rather than a muster roll. The equipment is better evidenced than the total: the army carried French-supplied arms and had a few French knights with it, which is what the alliance was for."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Ralph Neville, 2nd Baron Neville de Raby",
+          "type": "person",
+          "note": "Commanded the English army and afterwards rebuilt the wayside cross that gave the battle its name. No biography in the Codex yet: he belongs to the northern English magnate families the archive has not built out."
+        },
+        {
+          "name": "Henry Percy, 2nd Baron Percy",
+          "type": "person",
+          "note": "Warden of the march and commander of the first English division; grandfather of the Percys who fought at the Battle of Otterburn. No biography in the Codex yet."
+        },
+        {
+          "name": "William Zouche, Archbishop of York",
+          "type": "person",
+          "note": "Lord Warden of the Marches as well as archbishop; he raised the army while Edward III was besieging Calais and commanded the third division. No biography in the Codex yet."
+        },
+        {
+          "name": "John de Coupland",
+          "type": "person",
+          "note": "The Northumbrian squire who took the king prisoner, losing two teeth to him in the process, and was knighted and given £500 a year for life. No biography in the Codex yet; he is known almost entirely through this capture and his murder in 1363."
+        }
+      ],
+      "strength": {
+        "display": "c. 6,000–7,000, including about 1,200 Lancashire archers",
+        "confidence": "estimated",
+        "note": "Raised at short notice from Cumberland, Northumberland, Lancashire and Yorkshire while the king and the main army were in France. The Lancashire archers were paid a bonus of £10 a man afterwards, which is the firmest single detail in the English accounts."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Neville’s Cross was fought on 17 October 1346 on rough ground half a mile west of Durham, and it is the clearest single demonstration of what the Auld Alliance cost Scotland. David II of Scotland had invaded England because Philip VI of France asked him to, six weeks after the French army was destroyed at the Battle of Crécy and while Edward III was sitting down in front of Calais. The English north was supposed to be empty. It was not: the Archbishop of York and the border wardens had an army in the field within days.",
+        "The battle destroyed the Scottish leadership in an afternoon. The Earl of Moray and the Earl of Strathearn were killed, the Constable and the Marischal and the Chancellor of Scotland with them; four earls were taken prisoner, and so was the king, fighting on with an arrowhead in his face that his surgeons never managed to remove. David spent eleven years in English custody and came home in 1357 owing a ransom of 100,000 marks. The Second War of Scottish Independence effectively ended on that ground."
+      ]
+    },
+    {
+      "title": "The French appeal after Crécy",
+      "paragraphs": [
+        "The alliance between Scotland and France, first sworn in 1295 and renewed in 1326, was a mutual obligation to make war on England whenever the other party was attacked, and it worked in both directions: it was why Scotland was rarely left alone, and why France could reliably open a second front. In July 1346 Edward III landed in Normandy; on 26 August he destroyed Philip VI’s army at Crécy; on 4 September he began the siege of Calais. Philip’s appeals to David grew urgent, and they came with a piece of intelligence that turned out to be wrong — that northern England had been stripped of fighting men and lay open.",
+        "The Anglo-Scottish truce expired on 29 September 1346 and David crossed the border on 7 October with the strongest army Scotland had put in the field in years, carrying French-supplied weapons and accompanied by a few French knights. He had his own reasons beyond the alliance. Crowned at five, driven into French exile at ten after the Battle of Halidon Hill, and restored only in 1341, he had spent his adult life in the shadow of his father’s reputation and of Edward Balliol’s claim. A profitable invasion of England was the obvious way to make a reign of his own."
+      ]
+    },
+    {
+      "title": "The march to Durham",
+      "paragraphs": [
+        "The Scots took Liddell Strength, sacked the Augustinian priory at Hexham, and moved down through Northumberland toward Durham, burning and lifting what they could as they went; the Lanercost chronicler, whose own house had been plundered in earlier raids, records the damage with feeling. At Durham the Scots settled at Bearpark and negotiated with the city for a payment of £1,000 to leave it alone, with the money due on 18 October. It was never paid, because the English army arrived first.",
+        "What David did not know was that William Zouche, Archbishop of York and Lord Warden of the Marches, had been raising troops from the moment the truce expired and had joined with the border commanders Ralph Neville and Henry Percy at Bishop Auckland — around 6,000 to 7,000 men, a mixture of northern levies, hobelars and about 1,200 archers from Lancashire. On the morning of 17 October the two armies found each other by accident: a Scottish raiding party of some 500 men under William Douglas of Liddesdale rode into the English in the mist near Merrington, lost about 300, and ran back to camp with the news."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "David formed three divisions on ground he had not chosen, a slope west of the city broken up by stone walls, ditches and enclosures that made it almost impossible to keep a formation together while moving. The English, all dismounted, formed three divisions of their own with men-at-arms in the centre and archers on the wings, and then did the sensible thing, which was nothing at all. For much of the day the two armies stood and looked at each other; the Scots would not attack into the obstacles, and the English had no reason to leave good ground.",
+        "The deadlock was broken by the archers, sent forward to shoot into the Scottish ranks until someone lost patience. Someone did. John Graham, Earl of Menteith, asked for horse to ride the bowmen down, got almost none, charged anyway and was unhorsed and captured. Moray’s division then went forward and came apart on the walls and ditches exactly as the ground promised; the archers fell back behind their own men-at-arms and the two lines met. Moray was killed, and with him the Earl of Strathearn, the Constable David de la Hay, the Marischal Robert Keith and the Chancellor Thomas Charteris. On the Scottish left the third division under Robert Stewart, the king’s nephew and heir, and Patrick, Earl of March, broke off and left the field largely intact. That withdrawal has been argued about in Scotland ever since, exactly as the flight of the horse from the Battle of Falkirk has: what can be said is that Stewart got most of his men home and became king twenty-five years later."
+      ]
+    },
+    {
+      "title": "The king taken",
+      "paragraphs": [
+        "David’s own division was left alone against the whole English army and fought until it disintegrated. The king was hit twice in the face by arrows. Surgeons got one out; the head of the second stayed in the bone and gave him headaches for the rest of his life, which is the sort of detail that survives because it was still visible to everyone who met him afterwards. He got clear of the rout wounded and hid under a bridge over the River Browney, where — by the chronicle story — an English party spotted his reflection in the water.",
+        "The man who took him was John de Coupland, a Northumbrian squire, and David knocked out two of his teeth before he was secured. Edward III knighted Coupland for it and settled £500 a year on him for life. Durham tradition adds that the monks of the cathedral climbed the tower to sing and pray while the battle was fought, and that the Corpus Christi procession which followed for centuries commemorated the victory; it is a tradition of long standing rather than a contemporary record, and it is how the city has remembered the day."
+      ]
+    },
+    {
+      "title": "Eleven years in England",
+      "paragraphs": [
+        "David was held first at Wark and Bamburgh, then moved to the Tower of London in January 1347, and afterwards to Windsor and to Odiham Castle in Hampshire. Captivity for a king of his rank was comfortable and political rather than punitive: he hunted, he was visited, and he negotiated. Three times Edward III offered release on the condition that one of his own sons be accepted as heir to the Scottish throne, and three times the offer was refused — by David or by a Scottish parliament that could be relied on to refuse, which may have been the point.",
+        "The Treaty of Berwick of 3 October 1357 finally ransomed him for 100,000 marks, payable at 10,000 a year, with a truce attached. The instalments dominated Scottish public finance for the rest of his reign and were never fully paid. He returned an experienced and unsentimental politician, faced down the Steward in 1363, taxed and administered the kingdom with a competence his contemporaries did not expect, and died childless in 1371, leaving the crown to the nephew who had walked off the field at Neville’s Cross."
+      ]
+    },
+    {
+      "title": "What the name remembers",
+      "paragraphs": [
+        "The battle is named after a stone cross that was already standing when it was fought. It marked the spot on the western approach where pilgrims first caught sight of Durham Cathedral, and it carried the name of the Neville family, who held land in the county and had built or endowed it. After the victory Ralph Neville rebuilt it on a grander scale south of the fighting; it was pulled down in the sixteenth century, and a worn stump on its base is all that stands on Crossgate Peth today. Neville himself was the first layman buried inside Durham Cathedral.",
+        "The other thing the name carries is a story that did not happen. Froissart has Queen Philippa of Hainault ride out to Neville’s Cross, draw up the army in four divisions and appeal to the men to fight for her absent husband — a set piece that English sources do not support, and one that later painters liked enough to keep alive; the crowned woman among the horsemen in the miniature at the head of this article is her. Froissart is the indispensable source for this war and an unreliable witness to this battle, and the two facts have to be held together."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The border war the ransom did not end",
+    "battleSlug": "battle-of-otterburn",
+    "relationship": "same-factions",
+    "reason": "Neville’s Cross broke the Scottish field army and bought forty years of comparative quiet on the border. When the fighting resumed in earnest in 1388 it was smaller and personal: James, Earl of Douglas, met Henry Percy in a night battle at Otterburn, and this time the Scots won and took the English commander."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "Commanded, was wounded and captured here"
+      },
+      {
+        "title": "Robert II of Scotland",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "Led the division that left the field, and became king in 1371"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Besieging Calais while his northern counties won the battle"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "The French defeat seven weeks earlier that prompted the invasion"
+      },
+      {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "The defeat that sent David II into exile as a boy, 1333"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war this battle effectively ended"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "26 August 1346",
+      "title": "Crécy",
+      "description": "Edward III destroys the French army in Picardy, and Philip VI begins pressing his Scottish ally to open a second front."
+    },
+    {
+      "date": "29 September 1346",
+      "title": "The truce expires",
+      "description": "With the Anglo-Scottish truce at an end, David II musters at Perth on the understanding that northern England is undefended."
+    },
+    {
+      "date": "7 October 1346",
+      "title": "The invasion",
+      "description": "The Scots cross the border, take Liddell Strength and sack the priory at Hexham on the way south."
+    },
+    {
+      "date": "16 October 1346",
+      "title": "Bearpark",
+      "description": "The army camps outside Durham and agrees a payment of £1,000 from the city, due on the 18th; it is never collected."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "Contact in the mist",
+      "description": "William Douglas of Liddesdale rides into the English army near Merrington, loses about 300 men and carries the alarm back to camp."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "The archers break the deadlock",
+      "description": "After hours of standing, English bowmen shoot into the Scottish divisions; Menteith’s counter-charge fails and Moray’s division comes apart on the walls and ditches."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "Moray killed, the third division withdraws",
+      "description": "John Randolph and the Earl of Strathearn are killed with the Constable, the Marischal and the Chancellor; Robert Stewart and the Earl of March leave the field."
+    },
+    {
+      "date": "17 October 1346",
+      "title": "The king captured",
+      "description": "Wounded by two arrows in the face, David II is found near the River Browney and taken by John de Coupland, who is knighted and given £500 a year."
+    },
+    {
+      "date": "January 1347",
+      "title": "Moved to the Tower",
+      "description": "After Wark and Bamburgh the king is taken to the Tower of London, and later to Windsor and Odiham Castle."
+    },
+    {
+      "date": "3 October 1357",
+      "title": "Treaty of Berwick",
+      "description": "David is released for a ransom of 100,000 marks payable at 10,000 a year, after eleven years and three refused offers to make an English prince his heir."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:BNMsFr2643FroissartFol97vBatNevilleCross.jpg"
+    },
+    {
+      "title": "Battle of Neville's Cross — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Neville's_Cross"
+    },
+    {
+      "title": "The Chronicle of Lanercost, 1272–1346",
+      "author": "Anonymous, translated by Herbert Maxwell",
+      "type": "primary source",
+      "url": "https://www.medievalists.net/2024/12/the-battle-of-nevilles-cross-1346-according-to-the-lanercost-chronicle/"
+    },
+    {
+      "title": "The Battle of Neville's Cross, 1346",
+      "author": "David Rollason and Michael Prestwich (eds.)",
+      "type": "book"
+    },
+    {
+      "title": "The Battle of Neville's Cross, 1346 — Historic UK",
+      "author": "Historic UK",
+      "type": "reference work",
+      "url": "https://www.historic-uk.com/HistoryMagazine/DestinationsUK/The-Battle-of-Nevilles-Cross/"
+    }
+  ]
+}

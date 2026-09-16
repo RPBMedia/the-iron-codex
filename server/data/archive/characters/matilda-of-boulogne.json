@@ -99,7 +99,7 @@
     {
       "title": "Queen and diplomat",
       "paragraphs": [
-        "Matilda was crowned queen at Westminster on 22 March 1136. When rebellion broke out in 1138 after Robert of Gloucester renounced his allegiance, she besieged Dover by land while ships from Boulogne blockaded the harbour, and the castle surrendered to her that summer. Later that year she worked with the papal legate Alberic of Ostia to make peace with her uncle David I of Scotland, whose army had been beaten at the battle of the Standard, and she saw the Treaty of Durham agreed on 9 April 1139, which gave David's son Henry the earldom of Northumbria.",
+        "Matilda was crowned queen at Westminster on 22 March 1136. When rebellion broke out in 1138 after Robert of Gloucester renounced his allegiance, she besieged Dover by land while ships from Boulogne blockaded the harbour, and the castle surrendered to her that summer. Later that year she worked with the papal legate Alberic of Ostia to make peace with her uncle David I of Scotland, whose army had been beaten at the Battle of the Standard, and she saw the Treaty of Durham agreed on 9 April 1139, which gave David's son Henry the earldom of Northumbria.",
         "In 1140 she went to France and arranged the marriage of her son Eustace to Constance, sister of Louis VII of France, strengthening Stephen's ties with the French crown."
       ]
     },
@@ -266,6 +266,14 @@
         "type": "house",
         "slug": "house-of-boulogne",
         "label": "Family of her birth"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of the Standard",
+        "type": "event",
+        "slug": "battle-of-the-standard",
+        "label": "The defeat of her uncle David I that she turned into the Treaty of Durham"
       }
     ]
   }

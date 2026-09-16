@@ -89,7 +89,8 @@
         {
           "name": "Simon de Montfort, Earl of Leicester",
           "type": "person",
-          "note": "No biography in the Codex yet: the leader of the reform party, who commanded the reserve here and was killed at Evesham fifteen months later."
+          "title": "Simon de Montfort, 6th Earl of Leicester",
+          "slug": "simon-de-montfort"
         },
         {
           "name": "Gilbert de Clare, Earl of Gloucester",
@@ -194,6 +195,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Simon de Montfort, 6th Earl of Leicester",
+        "type": "person",
+        "slug": "simon-de-montfort",
+        "label": "His victory, and the capture of the king"
+      },
       {
         "title": "Henry III of England",
         "type": "person",

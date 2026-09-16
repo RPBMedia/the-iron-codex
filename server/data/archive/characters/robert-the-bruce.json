@@ -216,7 +216,14 @@
     {
       "date": "1306-1307",
       "title": "Defeat, flight, and recovery",
-      "description": "After defeats at Methven and Dalrigh, Bruce survived through flight, western support, and renewed mobile warfare against enemies in Scotland."
+      "description": "After defeats at Methven and Dalrigh, Bruce survived through flight, western support, and renewed mobile warfare against enemies in Scotland.",
+      "links": [
+        {
+          "title": "Battle of Loudoun Hill",
+          "type": "event",
+          "slug": "battle-of-loudoun-hill"
+        }
+      ]
     },
     {
       "date": "1314",
@@ -319,6 +326,12 @@
         "type": "event",
         "slug": "battle-of-methven",
         "label": "The defeat that made him a fugitive"
+      },
+      {
+        "title": "Battle of Loudoun Hill",
+        "type": "event",
+        "slug": "battle-of-loudoun-hill",
+        "label": "His first victory in the open, 1307"
       }
     ],
     "people": [

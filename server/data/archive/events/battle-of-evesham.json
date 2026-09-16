@@ -139,7 +139,8 @@
         {
           "name": "Simon de Montfort, Earl of Leicester",
           "type": "person",
-          "note": "No biography in the Codex yet: leader of the reform party and ruler of England since Lewes, killed and mutilated here."
+          "title": "Simon de Montfort, 6th Earl of Leicester",
+          "slug": "simon-de-montfort"
         },
         {
           "name": "Henry de Montfort",
@@ -219,6 +220,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Simon de Montfort, 6th Earl of Leicester",
+        "type": "person",
+        "slug": "simon-de-montfort",
+        "label": "Killed and dismembered here"
+      },
       {
         "title": "Edward I of England",
         "type": "person",

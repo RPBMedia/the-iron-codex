@@ -48,6 +48,14 @@ const BATTLE_BACKLOG = new Set([
   'battle of visby', 'siege of acre',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
   'battle of ars', 'battle of largs.', 'battle of visby finds', 'battle of visby find',
+  // Found 2026-09-16 by the bare-name check below: real engagements the archive
+  // names without the words "Battle of", so the phrase regex never saw them.
+  'battle of cortenuova', 'battle of courtrai', 'battle of dandanaqan',
+  'battle of heavenfield', 'battle of la forbie', 'battle of lechfeld',
+  'battle of mansurah', 'battle of nechtansmere', 'battle of ponza',
+  'battle of soissons', 'battle of the trent', 'battle of velbazhd',
+  'battle of the zab', 'battle of val-ès-dunes', 'battle of bornhöved',
+  'battle of åsle', 'battle of épila',
 ])
 // Name particles that may sit BETWEEN capitalised name-words (not swallow the
 // following common word): "Las Navas de Tolosa", "Río Salado". A capitalised
@@ -63,7 +71,50 @@ function battlePhraseResolves(phrase) {
   }
   return false
 }
+// The BARE form: "Falkirk (1298)" — a battle named without the words "Battle of",
+// which is how the Falkirk gap stayed invisible until a reader found it.
+// Shape alone is useless here: the archive holds 347 "Name (YYYY)" mentions and
+// 251 of them name no battle at all (Domesday Book (1086), a university founded
+// at Caen (1432), Otto III hosted at Gniezno (1000)). So the match requires the
+// engagement idiom — a fighting word within 55 characters to the LEFT of
+// "at/near/outside/before <Name> (<year>)". That cuts 347 to 34, of which 32 are
+// real engagements.
+const barePlaceBattleRe = /\b(?:at|near|outside|before)\s+(?:the\s+)?([A-ZÀ-Þ][\wÀ-ÿ'’-]*(?:[ -](?:(?:of|de|del|la|le|es|ès|sur) )?[A-ZÀ-Þ][\wÀ-ÿ'’-]*){0,3})\s\((\d{3,4})\)/g
+const bareFightRe = /\b(?:battles?|fought|fighting|victor(?:y|ies)|defeats?|defeated|won|lost|routed|rout|crushed|smashed|annihilated|destroyed|broke|beaten|beat|slaughtered|massacre|armies|army|knights|host|levies|disaster|catastrophe|captured)\b/i
+// A fighting word often sits beside something that was not a battle: Comyn was
+// killed at Dumfries in a church, Eric V stabbed at Finderup in a barn, Conradin
+// beheaded at Naples. Suppressing these costs at worst a missed backlog entry;
+// letting them through would fail the build on correct prose.
+const bareExcludeRe = /\b(?:killing|killed|stabbed|murdered|assassinated|beheaded|executed|crowned|coronation|council|congress|synod|treaty|founded|university|martyrdom|submission|knelt|penance|hosted|married)\b/i
+// Documents and assemblies carry a date exactly the way a battle does.
+// "Battle"/"Siege" lead: the phrase regex above already owns those, and letting
+// them through here builds the nonsense key "battle of battle of tours".
+const bareNonBattleNameRe = /^(?:Battle|Siege|Peace|Treaty|Council|Synod|Diet|Congress|Union|Ordinatio|Declaration|Donation|Mise|Provisions)\b/
+function validateBareBattleReference(text, label, path, findings) {
+  let bm
+  barePlaceBattleRe.lastIndex = 0
+  while ((bm = barePlaceBattleRe.exec(text))) {
+    const name = bm[1]
+    const year = Number(bm[2])
+    if (year < 400 || year > 1500) continue
+    if (bareNonBattleNameRe.test(name)) continue
+    const left = text.slice(Math.max(0, bm.index - 55), bm.index)
+    if (!bareFightRe.test(left) || bareExcludeRe.test(left)) continue
+    const lower = name.toLowerCase()
+    // "the Standard" is Battle of the Standard; "Zab" is Battle of the Zab.
+    const keys = [`battle of ${lower}`, `battle of the ${lower}`, `siege of ${lower}`]
+    if (keys.some((k) => battleArticleNames.has(k) || linkableTerms.has(k) || BATTLE_BACKLOG.has(k))) continue
+    findings.push({
+      collection: 'links',
+      article: label,
+      path,
+      pattern: `battle named without "Battle of": "${name} (${bm[2]})" has no article and is not on the documented backlog — write the article or add it to BATTLE_BACKLOG`,
+      snippet: `${name} (${bm[2]})`,
+    })
+  }
+}
 function validateBattleLinking(text, label, path, findings) {
+  validateBareBattleReference(text, label, path, findings)
   let mm
   battlePhraseRe.lastIndex = 0
   while ((mm = battlePhraseRe.exec(text))) {

@@ -362,6 +362,7 @@ export const entityLinks = [
   { label: "Sibylla of Jerusalem", aliases: ["Sibylla, Queen of Jerusalem"], type: "person", slug: "sibylla-of-jerusalem" },
   { label: "Sigismund of Luxembourg", aliases: ["Sigismund of Hungary","Emperor Sigismund"], type: "person", slug: "sigismund-of-luxembourg" },
   { label: "Sigurd the Crusader", aliases: ["Sigurd of Norway","Sigurd Jorsalfar"], type: "person", slug: "sigurd-of-norway" },
+  { label: "Simon de Montfort, 6th Earl of Leicester", aliases: ["Simon de Montfort, Earl of Leicester","Earl Simon"], type: "person", slug: "simon-de-montfort" },
   { label: "Skirgaila", aliases: ["Ivan (baptismal name)"], type: "person", slug: "skirgaila" },
   { label: "Sophia (wife of Justin II)", aliases: ["Empress Sophia","Aelia Sophia"], type: "person", slug: "sophia-wife-of-justin-ii" },
   { label: "Stefan Lazarević", aliases: ["Stephen Lazarević","Stefan the Tall"], type: "person", slug: "stefan-lazarevic" },
@@ -436,6 +437,7 @@ export const entityLinks = [
   { label: "Battle of Halidon Hill", aliases: ["Halidon Hill"], type: "event", slug: "battle-of-halidon-hill" },
   { label: "Battle of Hastings", type: "event", slug: "battle-of-hastings" },
   { label: "Battle of Hattin", aliases: ["Hattin"], type: "event", slug: "battle-of-hattin" },
+  { label: "Battle of Homildon Hill", aliases: ["Battle of Humbleton Hill","Homildon Hill"], type: "event", slug: "battle-of-homildon-hill" },
   { label: "Battle of Kleidion", aliases: ["Battle of Belasitsa","Battle of the Kleidion Pass","Kleidion"], type: "event", slug: "battle-of-kleidion" },
   { label: "Battle of Kosovo", aliases: ["Kosovo"], type: "event", slug: "battle-of-kosovo" },
   { label: "Battle of Lalakaon", aliases: ["Battle of Poson","Battle of Porson","Lalakaon"], type: "event", slug: "battle-of-lalakaon" },
@@ -444,13 +446,16 @@ export const entityLinks = [
   { label: "Battle of Legnica", aliases: ["Battle of Liegnitz","Battle of Wahlstatt","Legnica"], type: "event", slug: "battle-of-legnica" },
   { label: "Battle of Levounion", aliases: ["Battle of Mount Levounion","Levounion"], type: "event", slug: "battle-of-levounion" },
   { label: "Battle of Lewes", aliases: ["Lewes"], type: "event", slug: "battle-of-lewes" },
+  { label: "Battle of Loudoun Hill", aliases: ["Loudoun Hill"], type: "event", slug: "battle-of-loudoun-hill" },
   { label: "Battle of Manzikert", type: "event", slug: "battle-of-manzikert" },
   { label: "Battle of Methven", aliases: ["Methven"], type: "event", slug: "battle-of-methven" },
   { label: "Battle of Mohi", type: "event", slug: "battle-of-mohi" },
   { label: "Battle of Mons Lactarius", aliases: ["Mons Lactarius"], type: "event", slug: "battle-of-mons-lactarius" },
   { label: "Battle of Myriokephalon", aliases: ["Battle of Myriocephalum","Düzbel","Miryokefalon","Myriokephalon"], type: "event", slug: "battle-of-myriokephalon" },
+  { label: "Battle of Neville's Cross", aliases: ["Battle of Neville’s Cross","Neville’s Cross","Neville's Cross"], type: "event", slug: "battle-of-nevilles-cross" },
   { label: "Battle of Nicopolis", aliases: ["Nicopolis"], type: "event", slug: "battle-of-nicopolis" },
   { label: "Battle of Nineveh", aliases: ["Nineveh"], type: "event", slug: "battle-of-nineveh" },
+  { label: "Battle of Otterburn", aliases: ["Battle of Chevy Chase","Otterburn"], type: "event", slug: "battle-of-otterburn" },
   { label: "Battle of Ourique", aliases: ["Ourique"], type: "event", slug: "battle-of-ourique" },
   { label: "Battle of Patay", aliases: ["Patay"], type: "event", slug: "battle-of-patay" },
   { label: "Battle of Pelagonia", aliases: ["Battle of Kastoria","Pelagonia"], type: "event", slug: "battle-of-pelagonia" },
@@ -460,12 +465,14 @@ export const entityLinks = [
   { label: "Battle of Simancas", type: "event", slug: "battle-of-simancas" },
   { label: "Battle of Sirmium", aliases: ["Battle of Semlin","Battle of Zemun","Sirmium"], type: "event", slug: "battle-of-sirmium" },
   { label: "Battle of Stamford Bridge", type: "event", slug: "battle-of-stamford-bridge" },
+  { label: "Battle of Stanhope Park", aliases: ["Stanhope Park"], type: "event", slug: "battle-of-stanhope-park" },
   { label: "Battle of Stiklestad", type: "event", slug: "battle-of-stiklestad" },
   { label: "Battle of Stirling Bridge", aliases: ["Stirling Bridge"], type: "event", slug: "battle-of-stirling-bridge" },
   { label: "Battle of Svolder", type: "event", slug: "battle-of-svolder" },
   { label: "Battle of Taginae", aliases: ["Taginae"], type: "event", slug: "battle-of-taginae" },
   { label: "Battle of the Kalka River", aliases: ["Battle of Kalka","Battle on the Kalka","Battle of the Kalka","the Kalka River"], type: "event", slug: "battle-of-the-kalka-river" },
   { label: "Battle of the Sit River", aliases: ["Battle of the Sit","Battle on the Sit River","the Sit River"], type: "event", slug: "battle-of-the-sit-river" },
+  { label: "Battle of the Standard", aliases: ["Battle of Northallerton","the Standard"], type: "event", slug: "battle-of-the-standard" },
   { label: "Battle of Tours", type: "event", slug: "battle-of-tours" },
   { label: "Battle of Tricamarum", aliases: ["Tricamarum"], type: "event", slug: "battle-of-tricamarum" },
   { label: "Battle of Varna", aliases: ["Varna"], type: "event", slug: "battle-of-varna" },
@@ -577,7 +584,7 @@ export const entityLinks = [
   { label: "Horodok", type: "location", slug: "horodok" },
   { label: "Hustad", type: "location", slug: "hustad" },
   { label: "Iskorosten", type: "location", slug: "iskorosten" },
-  { label: "Jalbolung", type: "location", slug: "jalbolung" },
+  { label: "Jälbolung", aliases: ["Jalbolung","Järbolung"], type: "location", slug: "jalbolung" },
   { label: "Jelling", type: "location", slug: "jelling" },
   { label: "Kalmar Union", type: "location", slug: "kalmar-union" },
   { label: "Kerak", aliases: ["al-Karak","Karak","Kerak Castle","Karak Castle","Crac des Moabites","Petra Deserti"], type: "location", slug: "kerak" },
@@ -788,6 +795,26 @@ export const entityLinks = [
 ]
 
 export const ambiguousEntityAliases = [
+  {
+    // "the Standard" names the 1138 battle only in a paragraph about the battle.
+    // Everywhere else it is ordinary English: the phrase occurs 86 times across
+    // 68 archive files — "set the standard", "the standard weapon of the
+    // dismounted man-at-arms" — and every one of those would otherwise become a
+    // link to a battle fought near Northallerton. resolveAmbiguousAlias returns
+    // null when no hint matches, so those stay plain text and the three real
+    // mentions link through the full "Battle of the Standard" label.
+    terms: ["the Standard"],
+    possibleTargets: [
+      {
+        title: "Battle of the Standard",
+        label: "Battle of the Standard",
+        type: "event",
+        slug: "battle-of-the-standard",
+        date: "1138",
+        contextHints: ["1138", "Northallerton", "Cowton Moor", "Thurstan", "David I", "Galwegian", "Walter Espec", "Aumale", "Anarchy", "Prince Henry", "Yorkshire levies"]
+      }
+    ]
+  },
   {
     // Bare "Nicaea" is usually the city: the councils, the crusader siege of 1097,
     // Orhan's conquest of 1331. Link the Empire of Nicaea only in a paragraph about

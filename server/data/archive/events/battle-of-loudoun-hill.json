@@ -1,0 +1,291 @@
+{
+  "id": "battle-of-loudoun-hill",
+  "type": "event",
+  "eventType": "Battle",
+  "name": "Battle of Loudoun Hill",
+  "year": 1307,
+  "location": "Loudoun Hill, Ayrshire, Scotland",
+  "eventLocation": "The old highway below Loudoun Hill, between the bogs of the Irvine valley east of Darvel",
+  "conflict": "First War of Scottish Independence",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_Battle_of_Loudoun_Hill.svg",
+  "imageInfo": {
+    "caption": "A 2019 tactical map of the Battle of Loudoun Hill: bog on either side of the highway, Bruce's ditches cut across it, and the Scottish spearmen waiting on the rising ground.",
+    "creator": "Go-Chlodio (Wikimedia Commons)",
+    "date": "2019; shows 10 May 1307",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Battle_of_Loudoun_Hill.svg",
+    "note": "A modern reconstruction, not a period plan: no contemporary depiction of the battle survives. The bogs and the narrowed front are agreed by every account; the three ditches come from John Barbour's poem of about 1375 and cannot be checked against anything else. Released by its author under CC BY-SA 4.0.",
+    "aiGenerated": false
+  },
+  "sectionImages": [
+    {
+      "section": "Significance",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Spirit_of_Scotland_-_geograph.org.uk_-_3394296.jpg",
+      "caption": "The Spirit of Scotland, a steel sculpture raised below Loudoun Hill in 2004 to the battles fought there, photographed in 2013.",
+      "creator": "Richard Price (sculptor); photograph by Alan O'Dowd",
+      "date": "sculpture 2004; photograph 2013",
+      "source": "Wikimedia Commons (Geograph Britain and Ireland)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Spirit_of_Scotland_-_geograph.org.uk_-_3394296.jpg",
+      "note": "Over five metres of fabricated steel by a local artist, erected by the Irvine Valley Regeneration Partnership and carrying lines from Blind Harry's fifteenth-century poem on Wallace. It commemorates both the fight tradition assigns to Wallace at this place and Bruce's victory of 1307, and is evidence of local memory rather than of the battle. Released under CC BY-SA 2.0.",
+      "aiGenerated": false
+    }
+  ],
+  "summary": "Robert the Bruce narrowed the ground with bogs and ditches below Loudoun Hill on 10 May 1307 and broke Aymer de Valence's cavalry, winning his first victory in the open since his coronation.",
+  "details": "Eleven months after Aymer de Valence scattered his army at Methven, Bruce chose the battlefield himself: a stretch of highway between two morasses, narrowed further by ditches dug outwards from the bogs, so that a far larger mounted force had to come at his spearmen a few ranks wide. The English van foundered, the rear fled, and Valence rode for Bothwell Castle.",
+  "outcome": "Scottish victory. The English cavalry could not deploy, lost over a hundred men by the accounts that survive, and withdrew; Valence escaped to Bothwell Castle and lost the Scottish command soon afterwards.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Robert the Bruce",
+      "faction": "Scots",
+      "personId": "robert-the-bruce"
+    },
+    {
+      "name": "Aymer de Valence",
+      "faction": "English"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Robert the Bruce",
+          "title": "Robert the Bruce",
+          "type": "person",
+          "slug": "robert-the-bruce"
+        }
+      ],
+      "strength": {
+        "display": "c. 600-1,000, almost all spearmen on foot",
+        "confidence": "debated",
+        "note": "No muster survives. The figure of 600 repeated in popular accounts descends from Barbour's poem of about 1375 rather than from a record, and Bruce's numbers had been rising since the Glen Trool skirmish a month earlier; what every account agrees is that he was heavily outnumbered and had almost no cavalry."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Aymer de Valence",
+          "type": "person",
+          "note": "Edward I's lieutenant in Scotland and shortly afterwards Earl of Pembroke, the same commander who had destroyed Bruce's army at the Battle of Methven in 1306. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders."
+        }
+      ],
+      "strength": {
+        "display": "c. 1,500-3,000, the striking power in armoured horse",
+        "confidence": "debated",
+        "note": "The round 3,000 given in most retellings has no muster behind it either. The balance is what matters and is not in doubt: Valence commanded the mounted arm of an occupying army against a force with none, and the ground stopped him using it."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "On 10 May 1307 Robert the Bruce beat an English army under Aymer de Valence on the old road below Loudoun Hill in Ayrshire. It was his first victory in open battle since his coronation at Scone fourteen months earlier, and it was won before a blow was struck, by picking a stretch of highway hemmed in by bog and then narrowing it further with ditches so that Valence's cavalry had to come on a few ranks at a time.",
+        "The battle matters out of all proportion to its size. Bruce had been a hunted man since the Battle of Methven in June 1306, moving between the western isles and the Galloway hills with a following that could be counted in hundreds; Loudoun Hill showed that he could beat an English field force rather than merely survive one. Eight weeks later Edward I died on the Solway marshes on his way north, and the war changed shape."
+      ]
+    },
+    {
+      "title": "Background: the fugitive year",
+      "paragraphs": [
+        "Bruce had been crowned at Scone on 25 March 1306, twelve weeks after killing John Comyn in the Greyfriars church at Dumfries, and the coronation was followed by catastrophe. Valence surprised his camp at Methven that June and scattered it; a second defeat at Dalrigh in Argyll broke up what was left; his wife, his daughter Marjorie and his sisters were seized, three of his brothers were executed, and he vanished from the record over the winter of 1306 into the western seaboard and Irish waters, which is where the later legend of the spider belongs.",
+        "He came back to Carrick in February 1307 with a strategy that was the opposite of Methven's. He would not stand where an English commander could find him, would fight only on ground he had chosen, and would take castles by surprise rather than by siege. In April his men ambushed a mounted English force in the steep-sided pass of Glen Trool, a small affair that cost the English little but brought Bruce recruits and a reputation for winning. He moved north into Ayrshire in early May, and Valence came out of Bothwell to finish the business."
+      ]
+    },
+    {
+      "title": "The ground and the ditches",
+      "paragraphs": [
+        "Loudoun Hill is a volcanic plug standing over the upper Irvine valley, and the road from Ayr to the east passed below it on a firm strip between wet ground. Bruce drew his spearmen up across that strip, on the rise, with morass on both flanks so that nothing could come at him except frontally and nothing could ride round him at all. It is the same tactical idea as the causeway at Stirling Bridge nine years earlier, arranged deliberately rather than found by luck.",
+        "According to John Barbour he then improved on it, cutting three ditches across the open ground in succession, each running outwards from the bog and each leaving only a narrow gap at the road, so that a mounted charge would be funnelled, checked, and funnelled again. Barbour has Bruce explain the arithmetic himself: if the first line did not hold he would have the second, and then the third. The ditches are plausible, every modern account repeats them, and they rest on a single source written about 1375 by an archdeacon of Aberdeen composing a verse epic some seventy years after the event for a Scottish court that wanted one. There is no archaeology and no English account of them.",
+        "The English army was the more formidable on paper and quite unable to use it. Valence commanded the mounted strength of the occupation, men-at-arms in mail on barded horses, the arm that had ridden down Wallace's archers at the Battle of Falkirk and caught Bruce asleep at Methven. Against a hedge of spears in a gap a bowshot wide, with soft ground on either hand and cut ditches in front, that strength was worth nothing at all."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Valence came up the road and attacked, because there was no other way to attack. The leading squadrons had to compress to pass the gaps, and they met the Scottish spears at a standstill with the men behind them still closing up; horses went down in the ditches and on the broken ground, and the press behind stopped the front ranks from withdrawing to reform. Barbour's line - that the king's men met them at the dyke so stoutly that the strongest of them went to the ground - is the only narrative of the fighting anyone has.",
+        "The Scots then did the thing that decides battles of this shape: they came forward. Spearmen pressing downhill into stalled cavalry took the momentum away for good, the rear ranks of the English column began to peel off and ride, and the withdrawal became general. Over a hundred English men-at-arms were reported killed, a heavy toll for a force of that kind, and Aymer de Valence left the field and rode to Bothwell Castle. Scottish losses were light enough that no account bothers to give a figure."
+      ]
+    },
+    {
+      "title": "Aftermath: the death of Edward I",
+      "paragraphs": [
+        "Bruce did not stop. Within days he faced a second English force in Ayrshire, by most accounts under the Earl of Gloucester, and drove it back into Ayr; the momentum of May 1307 is the real result of Loudoun Hill rather than the casualties. Valence, beaten in the field by the man he had twice hunted to the edge of extinction, was replaced in the Scottish command soon afterwards, though his career continued under Edward II, through the Ordinances, the killing of Piers Gaveston and the rout at the Battle of Bannockburn, until his death on an embassy in France in 1324.",
+        "The larger event was at Burgh by Sands. Edward I, sixty-eight and ill, had come north again to crush the rebellion in person, and died on the Solway shore within sight of Scotland on 7 July 1307, eight weeks after Loudoun Hill. His son took the army a short way into Scotland, achieved nothing, and turned back to the politics of his own court. Bruce spent the next six years destroying his Scottish enemies - the Comyn earldom of Buchan first - and taking English-held castles one by one, and never again faced the sustained royal pressure that had nearly killed his cause in 1306."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Loudoun Hill is the hinge of Bruce's war. Before it he was a claimant in hiding whose rising had failed; after it he was a king whose army had beaten the occupation's best troops in the open, and men who had been waiting to see began to come in. The tactical lesson was the one he had learned the hard way at Methven and would apply again on a far larger scale at the Battle of Bannockburn in 1314: never fight where the enemy's advantage can be brought to bear, and prepare the ground before the enemy arrives - at Bannockburn with pits dug in the approaches to the Scottish position, in the same spirit as the ditches here.",
+        "The battlefield has never been located precisely and no excavation has confirmed the ditches. What stands there now is memory rather than evidence: a granite slab hauled up in the twentieth century recording the first victory of King Robert the Bruce, and since 2004 a five-metre steel sculpture below the crag, raised to the fighting associated with both Wallace and Bruce at this place. The reliance on a poet is the central difficulty of the battle and worth stating plainly - almost everything anyone knows about how Loudoun Hill was won comes from a verse epic written seventy years later, and the parts of it that can be tested, the terrain and the outcome, are the parts that hold up."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The victory that settled the war",
+    "battleSlug": "battle-of-bannockburn",
+    "relationship": "same-war",
+    "reason": "Loudoun Hill proved Robert the Bruce could beat an English field army by choosing and preparing the ground. Seven years of castle-taking later he did it again at Bannockburn on 23 and 24 June 1314, on ground pitted and chosen the same way, and destroyed the army Edward II brought to relieve Stirling."
+  },
+  "timeline": [
+    {
+      "date": "25 March 1306",
+      "title": "Bruce crowned at Scone",
+      "description": "Robert the Bruce is inaugurated king of Scots twelve weeks after killing John Comyn at Dumfries."
+    },
+    {
+      "date": "19 June 1306",
+      "title": "Disaster at Methven",
+      "description": "Aymer de Valence surprises the new king's camp near Perth and scatters his army, beginning the fugitive year."
+    },
+    {
+      "date": "February 1307",
+      "title": "Bruce returns to Carrick",
+      "description": "He lands in his own earldom after a winter in the western seas and begins fighting on ground of his own choosing."
+    },
+    {
+      "date": "April 1307",
+      "title": "Ambush at Glen Trool",
+      "description": "A mounted English force is caught in the narrow pass above the loch, bringing Bruce recruits and the reputation of a winner."
+    },
+    {
+      "date": "Early May 1307",
+      "title": "The armies converge in Ayrshire",
+      "description": "Bruce moves north into Ayrshire and Valence comes out of Bothwell Castle to bring him to battle."
+    },
+    {
+      "date": "10 May 1307",
+      "title": "The ground prepared",
+      "description": "The Scots form across the highway below the hill with bog on both flanks and ditches cut outwards from the marsh."
+    },
+    {
+      "date": "10 May 1307",
+      "title": "The battle",
+      "description": "The English cavalry are funnelled into the gaps, stalled at the spears, and driven off; Valence rides for Bothwell Castle."
+    },
+    {
+      "date": "Mid-May 1307",
+      "title": "A second English force turned back",
+      "description": "Bruce follows up in Ayrshire against a force usually identified as the Earl of Gloucester's and drives it into Ayr."
+    },
+    {
+      "date": "7 July 1307",
+      "title": "Edward I dies at Burgh by Sands",
+      "description": "The king dies on the Solway shore on his way north, and the sustained royal pressure on Bruce dies with him."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Commander, and his first victory in the open"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Died eight weeks later on his way north"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Methven",
+        "type": "event",
+        "slug": "battle-of-methven",
+        "label": "The defeat whose lesson was applied here"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "The same method at full scale, seven years later"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_of_Battle_of_Loudoun_Hill.svg"
+    },
+    {
+      "title": "Wikimedia Commons image record (Spirit of Scotland sculpture)",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Spirit_of_Scotland_-_geograph.org.uk_-_3394296.jpg"
+    },
+    {
+      "title": "Battle of Loudoun Hill - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Loudoun_Hill"
+    },
+    {
+      "title": "How Did Robert the Bruce Defeat the English at Loudoun Hill?",
+      "author": "History Hit",
+      "type": "article",
+      "url": "https://www.historyhit.com/how-did-robert-the-bruce-defeat-the-english-at-loudoun-hill/"
+    },
+    {
+      "title": "Loudon Hill, 10 May 1307 - English Monarchs",
+      "author": "English Monarchs",
+      "type": "reference work",
+      "url": "https://www.englishmonarchs.co.uk/battle_loudon_hill.html"
+    },
+    {
+      "title": "The Bruce",
+      "author": "John Barbour, c. 1375",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/The_Brus"
+    },
+    {
+      "title": "Robert Bruce and the Community of the Realm of Scotland",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ]
+}

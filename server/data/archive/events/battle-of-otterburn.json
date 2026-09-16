@@ -1,0 +1,298 @@
+{
+  "id": "battle-of-otterburn",
+  "type": "event",
+  "name": "Battle of Otterburn",
+  "aliases": [
+    "Battle of Chevy Chase"
+  ],
+  "year": 1388,
+  "location": "Otterburn, Redesdale, Northumberland, England",
+  "eventType": "Battle",
+  "conflict": "Anglo-Scottish Wars",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Otterburn_Battle.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Otterburn in a miniature painted about 1470 for a manuscript of Froissart’s Chronicles. The illuminator gives it broad daylight; the fighting was at night.",
+    "creator": "The Master of Antoine of Burgundy and collaborators",
+    "date": "about 1470–1475; shows 5 August 1388",
+    "source": "Bibliothèque nationale de France, MS Français 2645, folio 347r, via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otterburn_Battle.jpg",
+    "note": "Painted some eighty years after the battle for a luxury Froissart made in Bruges, so the armour, the bucklers and the walled town are those of the illuminator’s own day rather than 1388. It is a picture of how the battle was remembered at the Burgundian court, and the daylight is the clearest sign of it. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "The ballads, and what they did with it",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Percy's_Cross,_Otterburn_-_geograph.org.uk_-_5184718.jpg",
+      "caption": "Percy’s Cross in its plantation beside the old road at Otterburn, the monument that marks the traditional site of the battle. A 2016 photograph by Anthony Foster.",
+      "creator": "Anthony Foster",
+      "date": "2016",
+      "source": "Geograph Britain and Ireland, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Percy's_Cross,_Otterburn_-_geograph.org.uk_-_5184718.jpg",
+      "note": "The present shaft is an eighteenth-century re-erection on an older base, moved when the turnpike was built, so it marks the tradition rather than a surveyed spot on the field. Its name commemorates the Percys, though the battle was their defeat. Licensed CC BY-SA 2.0."
+    }
+  ],
+  "summary": "James, 2nd Earl of Douglas, beat Henry Percy — Hotspur — in a night battle at Otterburn on 5 August 1388: Douglas was killed and both Percy brothers were taken prisoner, and the fight passed into the ballad of Chevy Chase.",
+  "details": "A Scottish raiding column under James, 2nd Earl of Douglas, skirmished with Henry Percy at the barriers of Newcastle and carried off his pennon, then withdrew to camp at Otterburn in Redesdale. Percy followed with a larger force, marched all day and attacked at dusk on 5 August 1388 without waiting for the Bishop of Durham. The battle was fought by moonlight; Douglas was killed leading a flank attack and his death went unnoticed by his own men until morning, while Hotspur and his brother Ralph were both captured. The Scots held the field, and the ballad tradition has been rearranging the story ever since.",
+  "factions": [
+    "Kingdom of Scotland",
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "James Douglas, 2nd Earl of Douglas",
+      "faction": "Scots"
+    },
+    {
+      "name": "Henry Percy (Hotspur)",
+      "faction": "English"
+    }
+  ],
+  "outcome": "Scottish victory at the cost of the Scottish commander: Douglas was killed, the English army was broken in the dark, and Hotspur and Ralph Percy were taken and ransomed. Neither kingdom gained ground, and a three-year truce followed in 1389.",
+  "participants": [
+    {
+      "side": "Scots",
+      "factions": [
+        {
+          "name": "Kingdom of Scotland",
+          "title": "Kingdom of Scotland",
+          "type": "location",
+          "slug": "kingdom-of-scotland"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "James Douglas, 2nd Earl of Douglas",
+          "type": "person",
+          "note": "Commander of the eastern column and the victor of the battle he died in, aged about thirty. No biography in the Codex yet: the Black Douglases are a documented gap on the Scottish side of the archive."
+        },
+        {
+          "name": "John Dunbar, Earl of Moray",
+          "type": "person",
+          "note": "Held the Scottish front while Douglas took the flanking route around the hill. No biography in the Codex yet."
+        },
+        {
+          "name": "Sir John Montgomery of Eaglesham",
+          "type": "person",
+          "note": "Took Hotspur prisoner and is said to have built Polnoon Castle with the ransom. No biography in the Codex yet; he is recorded chiefly through this capture."
+        }
+      ],
+      "strength": {
+        "display": "up to c. 6,000 in the eastern column",
+        "confidence": "debated",
+        "note": "Froissart’s figure, and the only one available. It covers the smaller of two Scottish columns — the main army under Archibald, 3rd Earl of Douglas, and Robert Stewart, Earl of Fife, was raiding toward Carlisle in the west and never reached Northumberland."
+      }
+    },
+    {
+      "side": "English",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry Percy (Hotspur)",
+          "type": "person",
+          "note": "Son of the Earl of Northumberland, captured here and the victor of the Battle of Homildon Hill fourteen years later; killed in revolt against Henry IV at Shrewsbury in 1403. No biography in the Codex yet, although he appears in the archive through Henry IV’s reign."
+        },
+        {
+          "name": "Sir Ralph Percy",
+          "type": "person",
+          "note": "Hotspur’s younger brother, wounded and taken prisoner in the same action. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "up to c. 8,000, arriving after a long day’s march",
+        "confidence": "debated",
+        "note": "Again Froissart’s figure. Whatever the true total, the English advantage in numbers was undone by the state the men were in: Percy attacked at dusk after marching from Newcastle rather than wait for the Bishop of Durham’s force coming up behind him."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Otterburn was fought in Redesdale, Northumberland, on the night of 5 August 1388 — the date given by the Scottish sources, where the English chronicles say 19 August, and nothing survives that settles the argument. A Scottish raiding column under James, 2nd Earl of Douglas, was camped near Otterburn on its way home when Henry Percy, called Hotspur, came up from Newcastle and attacked at dusk without waiting for the force marching behind him. The fighting went on by moonlight, which is rare enough in medieval warfare to be the first thing every account mentions.",
+        "It ended as a Scottish victory that cost the Scots their commander and gave them both Percy brothers as prisoners. Douglas was killed in the melee and his own men did not learn of it until daylight. Because Froissart wrote it up at length, and because two ballads grew out of it, Otterburn is one of the best-known small battles of the Middle Ages and one of the most misremembered: the ballad that carried it furthest, Chevy Chase, turns the campaign into a quarrel over a hunting party and kills Percy along with Douglas."
+      ]
+    },
+    {
+      "title": "The invasion of 1388",
+      "paragraphs": [
+        "The raid answered an older one. Richard II had invaded Scotland in 1385 and burned the border abbeys and Edinburgh, and the Scots had been waiting for a moment to reply. It came in 1388, when England was tearing at itself: the Lords Appellant had taken control of the government and the Merciless Parliament had spent the spring destroying the king’s friends. Scottish captains who had taken English prisoners learned from them how divided the north was, and a council at Aberdeen planned an invasion on two fronts.",
+        "The main army went west under Archibald, 3rd Earl of Douglas, and Robert Stewart, Earl of Fife, toward Carlisle. The smaller eastern column — the one that fought at Otterburn — was led by James, 2nd Earl of Douglas, with John Dunbar, Earl of Moray, and George Dunbar, Earl of March, and it rode down through Northumberland into Durham, burning as it went, before turning back on Newcastle. Splitting the effort was deliberate: two columns forced the Percys to guard two roads, and the eastern one was meant to provoke exactly the pursuit it got."
+      ]
+    },
+    {
+      "title": "Newcastle and the pennon",
+      "paragraphs": [
+        "At Newcastle the Scots skirmished at the barriers outside the walls, and Douglas and Hotspur fought each other hand to hand. Douglas took the silk pennon from Percy’s lance and — in Froissart’s telling — announced that he would fly it from his castle at Dalkeith, at which Hotspur swore he would never leave Northumberland without it. Froissart then has Douglas obligingly halt at Otterburn to give him the chance, which is the chivalric convention his audience expected rather than a plan of campaign.",
+        "What the sources agree on beneath the romance is simpler. The Scots left Newcastle, stormed the tower at Ponteland, tried and failed to take the castle at Otterburn, and camped there in a strong position with their plunder and their cattle; and Hotspur came after them fast, against the advice of men who wanted to wait for the Bishop of Durham. A commander who has just lost his pennon in front of a garrison town has reasons to hurry that need no formal agreement with the enemy."
+      ]
+    },
+    {
+      "title": "The night battle",
+      "paragraphs": [
+        "The English arrived at dusk and went straight in. The first attack struck the part of the camp held by servants and drovers, which bought the Scottish men-at-arms the minutes they needed to get their armour on — the single luckiest accident of the night for Douglas. Moray’s division met the English attack head-on while Douglas took a body of men around the hill and came in on the flank, and from there the battle turned into a long confused melee in the dark that lasted, by every account, most of the night.",
+        "Moonlight flattens formations and ruins command. Men fought in small groups, could not tell who was winning, and in places stopped and started again as they found each other; the English, who had marched all day and attacked without eating, wore out first. By the time it was light the English force had broken up, the survivors were streaming back toward Newcastle, and the Bishop of Durham’s relieving force came within sight of the Scottish position, judged it too strong, and turned round."
+      ]
+    },
+    {
+      "title": "The death of Douglas",
+      "paragraphs": [
+        "Douglas was killed in the middle of the fighting, in the front of his own attack and wearing — Froissart says — no bascinet visor and less armour than he should have. Froissart’s version, which is the only detailed one, has him struck down by three spear wounds, found dying by his chaplain and a few companions, and using his last minutes to order them to hide his body, raise his banner and shout his war cry, so that neither army would know the Douglas had fallen. His men did exactly that, and the Scots fought on believing their earl was alive somewhere in the dark.",
+        "The chronicles agree only on the outline: he died, and his death was not generally known until morning. The rest is Froissart writing for an audience that valued a good death more than an accurate one, and he revised the chapter more than once as new informants reached him. He did talk to men who had been there, on both sides, which makes him a genuine source and not a romance; it does not make him a transcript. The body was carried north and buried at Melrose Abbey."
+      ]
+    },
+    {
+      "title": "The Percys taken, and the reckoning",
+      "paragraphs": [
+        "Hotspur was taken by Sir John Montgomery of Eaglesham, who is said to have paid for Polnoon Castle out of the ransom; Ralph Percy was wounded and captured in the same fight. A ransom of that size was beyond even the Percys, and much of Hotspur’s was met from public funds — the war on that border was a national charge, and the family’s standing in the north made it everyone’s business. His reputation survived the defeat entirely intact, which says something about how the fourteenth century scored these things.",
+        "The casualty figures are a mess and should be shown as one. Froissart reports 1,860 English dead and 1,040 taken against about a hundred Scots killed and two hundred captured; the Westminster Chronicle puts the Scottish dead nearer five hundred. Both sides had reasons to shape the numbers and neither counted. A three-year truce followed in 1389, and the border went back to what it had been: wardens, raids, ransoms, and the next reckoning fourteen years later at the Battle of Homildon Hill, where Hotspur took his revenge on a Douglas army and started a chain of events that killed him."
+      ]
+    },
+    {
+      "title": "The ballads, and what they did with it",
+      "paragraphs": [
+        "Two ballads came out of Otterburn and they are not the same poem. The Battle of Otterburn, Child 161, follows the chronicle outline reasonably closely — the raid, the pennon, the night fight, Douglas dying and his death concealed. The Hunting of the Cheviot, better known as Chevy Chase and catalogued as Child 162, is the famous one and the loose one: its earliest text survives in a manuscript of about 1550 and it may have been composed as early as the 1430s, and it recasts the whole affair as a hunt in the Cheviot hills that Percy holds in defiance of Douglas, ending with both leaders dead. Hotspur, who was captured and lived another fifteen years, dies in the ballad because a ballad wants symmetry.",
+        "That is worth stating plainly, because Chevy Chase became one of the most popular poems in English and carried its version of Otterburn far beyond the reach of any chronicle. Sir Philip Sidney wrote in his Defence of Poesy that he never heard the old song of Percy and Douglas without finding his heart moved as by a trumpet, even sung by some blind fiddler in a rough voice — the tribute of a poet, not a historian. The ballads are evidence of how the border remembered its wars, and the battle itself has to be read out of Froissart and the chronicles, not out of them."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Hotspur’s revenge, fourteen years on",
+    "battleSlug": "battle-of-homildon-hill",
+    "relationship": "same-war",
+    "reason": "Otterburn cost Henry Percy his freedom and a ransom; in 1402 he and his father caught another Douglas army at Homildon Hill near Wooler and destroyed it with archery, taking five earls prisoner. The quarrel with Henry IV over those prisoners drove the Percys into the revolt that killed Hotspur in 1403."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "His 1385 invasion of Scotland was the provocation"
+      },
+      {
+        "title": "Robert II of Scotland",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "King of Scots when the raid was planned; his son took the western column"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Homildon Hill",
+        "type": "event",
+        "slug": "battle-of-homildon-hill",
+        "label": "The same families, 1402, with the result reversed"
+      },
+      {
+        "title": "Battle of Neville’s Cross",
+        "type": "event",
+        "slug": "battle-of-nevilles-cross",
+        "label": "The last full Scottish invasion of England, 1346"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1385",
+      "title": "Richard II burns the border",
+      "description": "An English royal army sacks Melrose, Dryburgh and Edinburgh, leaving a debt the Scottish magnates intend to collect."
+    },
+    {
+      "date": "Summer 1388",
+      "title": "A council at Aberdeen plans two columns",
+      "description": "Learning how far the Lords Appellant have divided England, the Scots send their main army west toward Carlisle and a smaller force east under James, 2nd Earl of Douglas."
+    },
+    {
+      "date": "Early August 1388",
+      "title": "The skirmish at Newcastle",
+      "description": "Douglas and Henry Percy fight hand to hand at the barriers, and Douglas carries off Percy’s pennon."
+    },
+    {
+      "date": "Early August 1388",
+      "title": "Ponteland and Otterburn",
+      "description": "The Scots storm the tower at Ponteland, fail to take Otterburn castle, and camp beside it with their plunder."
+    },
+    {
+      "date": "5 August 1388",
+      "title": "Percy attacks at dusk",
+      "description": "Hotspur marches from Newcastle and goes in without waiting for the Bishop of Durham; the first assault hits the servants’ camp and the Scots get time to arm."
+    },
+    {
+      "date": "5–6 August 1388",
+      "title": "The night fighting",
+      "description": "Moray holds the front while Douglas swings around the hill onto the English flank; the melee runs on by moonlight for most of the night."
+    },
+    {
+      "date": "5–6 August 1388",
+      "title": "Douglas killed, his death hidden",
+      "description": "The earl falls in his own attack; by Froissart’s account his companions conceal the body and raise his banner, and the Scots fight on unaware."
+    },
+    {
+      "date": "6 August 1388",
+      "title": "Both Percys taken",
+      "description": "Hotspur is captured by Sir John Montgomery and Ralph Percy is wounded and taken; the Bishop of Durham’s relief force arrives, looks at the Scottish position and withdraws."
+    },
+    {
+      "date": "1389",
+      "title": "A three-year truce",
+      "description": "England and Scotland agree terms; no ground changes hands, and Hotspur’s ransom is met largely from public funds."
+    },
+    {
+      "date": "about 1550",
+      "title": "Chevy Chase written down",
+      "description": "The earliest surviving text of The Hunting of the Cheviot, possibly composed a century earlier, turns the campaign into a hunting quarrel and kills Percy as well as Douglas."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Otterburn_Battle.jpg"
+    },
+    {
+      "title": "Chroniques, Book III",
+      "author": "Jean Froissart",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Froissart%27s_Chronicles"
+    },
+    {
+      "title": "Battle of Otterburn — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Otterburn"
+    },
+    {
+      "title": "The Battle of Otterburn — The Battlefields Trust",
+      "author": "The Battlefields Trust",
+      "type": "reference work",
+      "url": "https://www.battlefieldstrust.com/resource-centre/viking/battleview.asp?BattleFieldId=34"
+    },
+    {
+      "title": "The Hunting of the Cheviot (Chevy Chase), Child 162",
+      "author": "Francis James Child (ed.)",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chevy_Chase_(ballad)"
+    }
+  ]
+}

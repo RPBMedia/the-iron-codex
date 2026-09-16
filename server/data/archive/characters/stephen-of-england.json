@@ -200,7 +200,14 @@
         "label": "Father"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of the Standard",
+        "type": "event",
+        "slug": "battle-of-the-standard",
+        "label": "Won in his name while he held the south, 1138"
+      }
+    ]
   },
   "sources": [
     {
