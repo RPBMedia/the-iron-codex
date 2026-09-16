@@ -3,7 +3,7 @@
   "generated": "2026-09-16",
   "polities": {
     "kingdom-of-england": {
-      "missing": 14,
+      "missing": 9,
       "of": 22,
       "names": [
         "Eadred of England",
@@ -11,13 +11,8 @@
         "Edgar the Peaceful",
         "Edmund I of England",
         "Edmund Ironside",
-        "Edward the Confessor",
         "Edward the Martyr",
         "Harold Harefoot",
-        "Henry III of England",
-        "Henry IV of England",
-        "Richard II of England",
-        "Stephen of England",
         "William II of England",
         "Æthelred the Unready"
       ]
@@ -30,13 +25,11 @@
       ]
     },
     "byzantine-empire": {
-      "missing": 6,
+      "missing": 4,
       "of": 10,
       "names": [
         "Constantine X Doukas",
         "Isaac I Komnenos",
-        "Manuel I Komnenos",
-        "Manuel II Palaiologos",
         "Michael VII Doukas",
         "Nikephoros III Botaneiates"
       ]
@@ -49,107 +42,56 @@
         "Æthelberht of Wessex"
       ]
     },
-    "kingdom-of-france": {
-      "missing": 9,
-      "of": 12,
-      "names": [
-        "Charles IV of France",
-        "Charles V of France",
-        "Charles VI of France",
-        "Charles VII of France",
-        "John II of France",
-        "Louis VI of France",
-        "Louis VIII of France",
-        "Philip III of France",
-        "Philip VI of France"
-      ]
-    },
     "kingdom-of-denmark": {
-      "missing": 20,
+      "missing": 13,
       "of": 25,
       "names": [
         "Abel of Denmark",
         "Christopher I of Denmark",
         "Christopher II of Denmark",
-        "Cnut IV of Denmark",
         "Cnut VI of Denmark",
-        "Eric I of Denmark",
         "Eric II of Denmark",
         "Eric III of Denmark",
         "Eric IV of Denmark",
-        "Eric V of Denmark",
         "Eric VI of Denmark",
         "Harald II of Denmark",
         "Harald III of Denmark",
-        "Magnus the Good",
         "Niels of Denmark",
         "Olaf IV of Norway",
-        "Sweyn II Estridsson",
-        "Sweyn III of Denmark",
-        "Valdemar I of Denmark",
-        "Valdemar II of Denmark"
+        "Sweyn III of Denmark"
       ]
     },
     "kingdom-of-norway": {
-      "missing": 12,
+      "missing": 6,
       "of": 21,
       "names": [
         "Eric II of Norway",
-        "Haakon IV Haakonsson",
-        "Haakon V Magnusson",
         "Harald Greycloak",
         "Håkon III Sverresson",
         "Inge II Bårdsson",
-        "Jarl Håkon Sigurdsson",
-        "Magnus Barefoot",
         "Magnus II of Norway",
-        "Magnus VI Lawmender",
-        "Sigurd the Crusader",
         "Øystein I of Norway"
       ]
     },
-    "kingdom-of-castile": {
-      "missing": 1,
-      "of": 3,
-      "names": [
-        "Sancho III of Castile"
-      ]
-    },
     "kingdom-of-jerusalem": {
-      "missing": 8,
+      "missing": 3,
       "of": 13,
       "names": [
-        "Amalric I of Jerusalem",
-        "Baldwin I of Jerusalem",
-        "Baldwin III of Jerusalem",
         "Baldwin V of Jerusalem",
-        "Henry II of Champagne",
         "Maria of Montferrat",
-        "Raymond III of Tripoli",
-        "Sibylla of Jerusalem"
-      ]
-    },
-    "grand-duchy-of-lithuania": {
-      "missing": 2,
-      "of": 3,
-      "names": [
-        "Skirgaila",
-        "Švitrigaila"
+        "Raymond III of Tripoli"
       ]
     },
     "kingdom-of-sweden": {
-      "missing": 9,
+      "missing": 6,
       "of": 21,
       "names": [
         "Charles VII Sverkersson",
         "Emund the Old",
-        "Eric IX of Sweden",
-        "Eric XI Eriksson",
         "Inge the Younger",
         "John I Sverkersson",
         "Philip Halstensson",
-        "Ulf Fase",
-        "Valdemar of Sweden"
+        "Ulf Fase"
       ]
     },
     "county-of-flanders": {
@@ -160,27 +102,16 @@
       ]
     },
     "kingdom-of-portugal": {
-      "missing": 4,
+      "missing": 1,
       "of": 13,
       "names": [
-        "Afonso V of Portugal",
-        "Edward of Portugal",
-        "John II of Portugal",
-        "Sancho II of Portugal"
-      ]
-    },
-    "kingdom-of-leon": {
-      "missing": 1,
-      "of": 1,
-      "names": [
-        "Ramiro II of León"
+        "John II of Portugal"
       ]
     },
     "kingdom-of-hungary": {
-      "missing": 2,
+      "missing": 1,
       "of": 3,
       "names": [
-        "Andrew II of Hungary",
         "Emeric of Hungary"
       ]
     },

@@ -59,13 +59,17 @@
       "title": "Major rulers",
       "paragraphs": [
         "Godfrey of Bouillon, 1099–1100 — Advocate of the Holy Sepulchre: the uncrowned founder.",
-        "Baldwin I, 1100–1118 — the coast's conqueror and the crown's creator.",
-        "Melisende, 1131–1153 — queen-regnant of the kingdom's golden generation.",
-        "Baldwin III, 1143–1163 — Ascalon's conqueror (1153); the Byzantine alliance.",
-        "Amalric I, 1163–1174 — the Egyptian wars that summoned Saladin's age.",
+        "Baldwin I of Jerusalem, 1100–1118 — the coast's conqueror and the crown's creator.",
+        "Melisende of Jerusalem, 1131–1153 — queen-regnant of the kingdom's golden generation.",
+        "Baldwin III of Jerusalem, 1143–1163 — Ascalon's conqueror (1153); the Byzantine alliance.",
+        "Amalric I of Jerusalem, 1163–1174 — the Egyptian wars that summoned Saladin's age.",
         "Baldwin IV, 1174–1185 — the leper-king: Montgisard and the held line.",
+        "Sibylla of Jerusalem, 1186–1190 — the heiress who insisted on crowning her husband beside her, putting the kingdom into the hands that lost it.",
         "Guy of Lusignan, 1186–1192 — Hattin's loser; Cyprus's founder after.",
+        "Isabella I of Jerusalem, 1190–1205 — the legitimacy the kingdom had left, carried through four political marriages: Conrad of Montferrat, Henry II of Champagne and Amalric II of Lusignan each ruled by her hand.",
         "Conrad of Montferrat, king-elect 1192 — Tyre's savior, murdered days after election.",
+        "Henry II of Champagne, 1192–1197 — governed the coastal kingdom from Acre as Isabella’s husband after Conrad’s murder, and was never crowned.",
+        "Amalric II of Lusignan, 1197–1205 — Guy’s abler elder brother, who joined Cyprus to the Acre kingdom and bought it a decade of truce with the Ayyubids.",
         "John of Brienne, 1210–1225 — the soldier-king of the Fifth Crusade era.",
         "Frederick II, 1225–1243 (by marriage) — the excommunicate's treaty-crown (1229)."
       ]
@@ -146,6 +150,18 @@
         "type": "person",
         "slug": "saladin",
         "label": "Hattin's victor"
+      },
+      {
+        "type": "person",
+        "title": "Baldwin I of Jerusalem",
+        "slug": "baldwin-i-of-jerusalem",
+        "label": "The coast conquered and the crown created"
+      },
+      {
+        "type": "person",
+        "title": "Isabella I of Jerusalem",
+        "slug": "isabella-i-of-jerusalem",
+        "label": "The succession after Hattin"
       }
     ],
     "locations": [

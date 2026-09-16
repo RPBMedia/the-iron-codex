@@ -70,13 +70,19 @@
       "paragraphs": [
         "Harald Fairhair, c. 872–930 — Hafrsfjord's victor; unification's legendary founder.",
         "Haakon the Good, c. 934–961 — the Christian fosterling of Æthelstan; died defending the realm at Fitjar.",
+        "Jarl Håkon Sigurdsson, c. 975–995 — the last pagan lord to rule Norway, governing from Lade first in Denmark’s name and then in his own.",
         "Olaf Tryggvason, 995–1000 — the missionary sea-king; fell at Svolder.",
         "Olaf II Haraldsson, 1015–1028 — the law-Christianiser; Stiklestad's martyr, Norway's eternal king.",
         "Harald Hardrada, 1046–1066 — Byzantine Varangian, Oslo's founder, Stamford Bridge's casualty.",
+        "Magnus Barefoot, 1093–1103 — the last Norwegian king to campaign and die in the west, binding Orkney, the Hebrides and Man to the crown.",
+        "Sigurd the Crusader, 1103–1130 — the Norwegian Crusade: the first European king to reach Jerusalem, returning with the tithe and a bishopric-building programme.",
         "Sverre Sigurdsson, 1177–1202 — the Birkebeiner priest-pretender who out-argued and outfought church and rivals.",
-        "Håkon IV Håkonsson, 1217–1263 — the civil wars ended; the North Atlantic empire at its height.",
-        "Magnus VI Law-mender, 1263–1280 — the Landslov of 1274: one law for one realm.",
-        "Håkon V Magnusson, 1299–1319 — Oslo's king; the last of the old male line.",
+        "Haakon IV Haakonsson, 1217–1263 — the civil wars ended; the North Atlantic empire at its height.",
+        "Magnus VI Lawmender, 1263–1280 — the Landslov of 1274: one law for one realm.",
+        "Haakon V Magnusson, 1299–1319 — Oslo's king; the last of the old male line.",
+        "Magnus Eriksson, 1319–1364 — king of Norway and Sweden at once, the dual reign in which the drift toward union began.",
+        "Haakon VI of Norway, 1355–1380 — his marriage to Margaret of Denmark is the hinge on which Norway entered the union.",
+        "Olaf IV of Norway, 1380–1387 — the last king of the native Norwegian line; his death at seventeen left his mother ruling three realms.",
         "Margaret I, regent-queen from 1387 — the union-builder who folded Norway into Kalmar."
       ]
     },
@@ -154,6 +160,18 @@
         "type": "person",
         "slug": "margaret-i",
         "label": "The union-maker"
+      },
+      {
+        "type": "person",
+        "title": "Sigurd the Crusader",
+        "slug": "sigurd-of-norway",
+        "label": "The Norwegian Crusade to Jerusalem"
+      },
+      {
+        "type": "person",
+        "title": "Magnus VI Lawmender",
+        "slug": "magnus-vi-lawmender",
+        "label": "The Landslov of 1274"
       }
     ],
     "locations": [
