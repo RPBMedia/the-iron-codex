@@ -509,7 +509,7 @@ export const entityLinks = [
   { label: "Battle of the Kalka River", aliases: ["Battle of Kalka","Battle on the Kalka","Battle of the Kalka","the Kalka River"], type: "event", slug: "battle-of-the-kalka-river" },
   { label: "Battle of the Sit River", aliases: ["Battle of the Sit","Battle on the Sit River","the Sit River"], type: "event", slug: "battle-of-the-sit-river" },
   { label: "Battle of the Standard", aliases: ["Battle of Northallerton","the Standard"], type: "event", slug: "battle-of-the-standard" },
-  { label: "Battle of Tours", type: "event", slug: "battle-of-tours" },
+  { label: "Battle of Tours", aliases: ["Tours-Poitiers"], type: "event", slug: "battle-of-tours" },
   { label: "Battle of Tricamarum", aliases: ["Tricamarum"], type: "event", slug: "battle-of-tricamarum" },
   { label: "Battle of Varna", aliases: ["Varna"], type: "event", slug: "battle-of-varna" },
   { label: "Battle of Verneuil", aliases: ["Verneuil"], type: "event", slug: "battle-of-verneuil" },
@@ -1449,6 +1449,158 @@ export const ambiguousEntityAliases = [
         slug: "battle-of-najera",
         date: "1367",
         contextHints: ["1367", "Black Prince", "Peter of Castile", "Henry II", "Trastámara", "du Guesclin", "Anglo-Gascon", "Castilian civil war", "Montiel"]
+      }
+    ]
+  },
+
+  /*
+   * The six below were found together on 2026-09-17 by a systematic sweep rather
+   * than one at a time by accident, which is how every earlier guard in this file
+   * was found. The test is narrow and worth repeating: a link term that is ALSO
+   * the name or alias of a different article. Frequency proves nothing — the
+   * most-used terms in the archive (England, France, Constantinople) are the most
+   * correct ones — but a name collision is structural.
+   */
+  {
+    // THREE shared epithets, two contemporary Iberian kings, and the archive gave
+    // both men all three. Peter of Castile (1334-1369) and Peter I of Portugal
+    // (1320-1367) each carry "Pedro I", "Peter the Cruel" AND "Peter the Just".
+    // They reigned at the same time in neighbouring realms, so context decides or
+    // nothing does.
+    terms: ["Pedro I", "Peter the Cruel", "Peter the Just"],
+    possibleTargets: [
+      {
+        title: "Peter of Castile",
+        label: "Peter of Castile",
+        type: "person",
+        slug: "peter-of-castile",
+        date: "r. 1350–1369",
+        contextHints: ["Castile", "Castilian", "Trastámara", "Henry II", "Montiel", "Nájera", "du Guesclin", "Black Prince", "Seville", "María de Padilla", "1350", "1369"]
+      },
+      {
+        title: "Peter I of Portugal",
+        label: "Peter I of Portugal",
+        type: "person",
+        slug: "peter-i-of-portugal",
+        date: "r. 1357–1367",
+        contextHints: ["Portugal", "Portuguese", "Inês de Castro", "Coimbra", "Afonso IV", "Alcobaça", "John I of Portugal", "1357", "1367"]
+      }
+    ]
+  },
+  {
+    // "John the Good" is the standard English epithet of the Valois king captured
+    // at Poitiers in 1356, and it is also how the Byzantines remembered John II
+    // Komnenos (Kaloioannes). Two centuries apart.
+    terms: ["John the Good"],
+    possibleTargets: [
+      {
+        title: "John II of France",
+        label: "John II of France",
+        type: "person",
+        slug: "john-ii-of-france",
+        date: "r. 1350–1364",
+        contextHints: ["France", "French", "Valois", "Poitiers", "1356", "captured", "ransom", "Charles V", "Philip VI", "Brétigny"]
+      },
+      {
+        title: "John II Komnenos",
+        label: "John II Komnenos",
+        type: "person",
+        slug: "john-ii-komnenos",
+        date: "r. 1118–1143",
+        contextHints: ["Byzantine", "Komnenos", "Constantinople", "Anatolia", "Alexios I", "Manuel I", "1118", "1143", "Kaloïōannēs"]
+      }
+    ]
+  },
+  {
+    // Birger Jarl's own name WAS Birger Magnusson, and so was his descendant's,
+    // the king who died in 1321. The jarl carries it as an alias; the king carries
+    // it as his label.
+    terms: ["Birger Magnusson"],
+    possibleTargets: [
+      {
+        title: "Birger Jarl",
+        label: "Birger Jarl",
+        type: "person",
+        slug: "birger-jarl",
+        date: "d. 1266",
+        contextHints: ["jarl", "Bjälbo", "regent", "de facto", "Stockholm", "Valdemar", "1250", "1266", "Folkung"]
+      },
+      {
+        title: "Birger Magnusson",
+        label: "Birger Magnusson",
+        type: "person",
+        slug: "birger-magnusson",
+        date: "r. 1290–1318",
+        contextHints: ["king of Sweden", "Nyköping", "Håtuna", "brothers", "Eric", "1290", "1318", "1321", "deposed"]
+      }
+    ]
+  },
+  {
+    // "Eadweard" is simply the Old English for Edward, and the archive gives it to
+    // two kings fifty years apart: Edward the Elder (899-924) and Edward the
+    // Martyr (975-978).
+    terms: ["Eadweard"],
+    possibleTargets: [
+      {
+        title: "Edward the Elder",
+        label: "Edward the Elder",
+        type: "person",
+        slug: "edward-the-elder",
+        date: "r. 899–924",
+        contextHints: ["Æthelflæd", "Mercia", "East Anglia", "Alfred", "burh", "899", "924", "Danelaw"]
+      },
+      {
+        title: "Edward the Martyr",
+        label: "Edward the Martyr",
+        type: "person",
+        slug: "edward-the-martyr",
+        date: "r. 975–978",
+        contextHints: ["Corfe", "martyr", "Shaftesbury", "Æthelred", "Ælfthryth", "975", "978", "murder"]
+      }
+    ]
+  },
+  {
+    // The battle and the village both answer to "Crécy". `gen-entity-links` is
+    // supposed to refuse a bare battle suffix that collides with a location, and
+    // it minted this one anyway — the location's NAME is "Crecy" without the
+    // accent, while the colliding string is its ALIAS, which the collision check
+    // appears not to read. Guarded here rather than left to array order, which is
+    // what currently decides it.
+    terms: ["Crécy"],
+    possibleTargets: [
+      {
+        title: "Battle of Crécy",
+        label: "Battle of Crécy",
+        type: "event",
+        slug: "battle-of-crecy",
+        date: "1346",
+        contextHints: ["1346", "Edward III", "Philip VI", "longbow", "Hundred Years", "Black Prince", "battle", "Calais"]
+      },
+      {
+        title: "Crecy",
+        label: "Crecy",
+        type: "location",
+        slug: "crecy",
+        date: "Ponthieu",
+        contextHints: ["village", "Ponthieu", "Somme", "forest", "Crécy-en-Ponthieu", "today", "commune"]
+      }
+    ]
+  },
+  {
+    // Phokas is a FAMILY as well as an emperor. The bare alias belongs to the
+    // usurper of 602-610, but the archive writes "the Phokas family", "Leo Phokas"
+    // and "Bardas Phokas" across eighteen articles about the tenth century.
+    // Neither Leo nor Bardas has an article, so outside its own context this
+    // should link to nothing rather than to the wrong man by four centuries.
+    terms: ["Phokas"],
+    possibleTargets: [
+      {
+        title: "Phocas",
+        label: "Phocas",
+        type: "person",
+        slug: "phocas",
+        date: "r. 602–610",
+        contextHints: ["602", "610", "Maurice", "Heraclius", "usurper", "mutiny", "Danube", "centurion", "Khosrow"]
       }
     ]
   }
