@@ -131,6 +131,7 @@ export const entityLinks = [
   { label: "Emma of Normandy", aliases: ["Queen Emma","Emma"], type: "person", slug: "emma-of-normandy" },
   { label: "Empress Matilda", aliases: ["Empress Maud","Maud","Matilda of England","Matilda the Empress","Domina Anglorum","Lady of the English"], type: "person", slug: "empress-matilda" },
   { label: "Emund the Old", aliases: ["Emund den gamle"], type: "person", slug: "emund-the-old" },
+  { label: "Engelbrekt Engelbrektsson", aliases: ["Engelbrekt","Engelbrecht Engelbrechtsson"], type: "person", slug: "engelbrekt-engelbrektsson" },
   { label: "Enrico Dandolo", aliases: ["Henry Dandolo"], type: "person", slug: "enrico-dandolo" },
   { label: "Eric Bloodaxe", aliases: ["Eirik Haraldsson"], type: "person", slug: "eric-bloodaxe" },
   { label: "Eric I of Denmark", aliases: ["Eric Evergood","Erik Ejegod","Eric I the Good"], type: "person", slug: "eric-i-of-denmark" },
