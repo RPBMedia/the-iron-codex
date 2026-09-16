@@ -1596,10 +1596,20 @@ p.article-deck a:focus-visible {
    section, rather than in the hero (see EventHero in DetailPage.jsx). On the page
    surface rather than the hero's near-black, the cards need a slightly firmer
    edge and their own breathing room. */
+/* Factions, leaders and outcome. It sits in the hero's SECOND column, under the
+   year/location/conflict strip and level with the contents rail — moved out of
+   the article body on 2026-09-16, because that strip is three short cards and
+   stopped well above the image, leaving black space the reader had to scroll
+   past to reach who actually fought (owner report on battle-of-lechfeld).
+
+   At 860px the hero itself collapses to one column, so `grid-column` stops
+   applying and this stacks in source order without needing its own override. */
 .event-intel {
   display: grid;
+  grid-column: 2;
+  min-width: 0;
   gap: 10px;
-  margin: 28px 0;
+  margin: clamp(16px, 2.4vw, 26px) 0 28px;
 }
 
 .info-block {
@@ -3714,9 +3724,14 @@ a.tree-person:hover .tree-person-name {
   font-size: 0.95rem;
 }
 
+/* `align-items: start` is the fix for the owner's report that Referrers showed
+   one line and then an absurd empty space to the bottom: grid items stretch to
+   the row's height by default, so a one-row table was being pulled to match the
+   tallest panel beside it. Each panel is now only as tall as its own content. */
 .insights-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: start;
   gap: 20px;
   margin-top: 26px;
 }

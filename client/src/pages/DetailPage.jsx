@@ -174,6 +174,12 @@ export default function DetailPage({ article: providedArticle = null }) {
             siblings can be reordered, and §25 puts "On this page" AFTER the
             metadata on a phone. */}
         <ContentsRail article={article} />
+        {/* Factions, leaders and outcome sit in the hero's right column beneath
+            the year/location/conflict strip, level with the contents rail. That
+            strip is three short cards and stopped well above the image, leaving
+            black space the reader had to scroll past to reach who actually
+            fought (owner report on battle-of-lechfeld). */}
+        {article.type === 'event' && <EventIntel article={article} />}
         {/* Option B (owner, 2026-09-16): a person's facts are a full-width band
             beneath BOTH hero columns, not a stack inside the right one. With
             everything except the image in the right column, that column ran to
@@ -870,6 +876,15 @@ function splitOutcome(outcome) {
   const clause = outcome.match(/^([^;:]{3,90})[;:]\s*([\s\S]+)$/)
   if (clause) return [clause[1].trim(), clause[2].trim()]
 
+  // A verdict closed with a FULL STOP — "Decisive German victory. The Magyar
+  // army was destroyed in the pursuit…". This was the missing shape: the owner
+  // reported Lechfeld's victor rendering unbolded, and it turned out six battles
+  // wrote their outcome this way and none of them bolded the winner. The verdict
+  // guard matters here more than above, because plenty of first sentences are
+  // not verdicts at all.
+  const sentence = outcome.match(/^([^.;:]{3,90})\.\s+([\s\S]+)$/)
+  if (sentence && VERDICT_WORDS.test(sentence[1])) return [sentence[1].trim(), sentence[2].trim()]
+
   const comma = outcome.match(/^([^,]{3,60}),\s*([\s\S]+)$/)
   if (comma && VERDICT_WORDS.test(comma[1])) return [comma[1].trim(), comma[2].trim()]
 
@@ -974,13 +989,12 @@ function EventContent({ article }) {
 
   return (
     <>
-      {/* Who fought and how it ended comes after the opening section, so the
-          reader meets the battle before its order of battle. */}
-      {sections.map((section, index) => (
-        <Fragment key={section.title}>
-          <ArticleSection title={section.title} paragraphs={section.paragraphs} article={article} />
-          {index === 0 && <EventIntel article={article} />}
-        </Fragment>
+      {/* EventIntel used to sit here, after the opening section. It moved into
+          the hero (owner, 2026-09-16): the fact strip ended early and left a slab
+          of black under it, while factions, leaders and outcome waited below the
+          prose. They now fill that space beside the contents rail. */}
+      {sections.map((section) => (
+        <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
       ))}
       {/* The next battle belongs at the end, where the reader has finished this
           one, not in the hero before they have started it. */}
@@ -2118,6 +2132,14 @@ function renderEventLocation(article) {
 function renderKingdom(article) {
   if (article.kingdomId) {
     return <Link to={`/locations/${article.kingdomId}`}>{article.kingdom}</Link>
+  }
+
+  // Resolved server-side by `withKingdomLocation` for the 114 locations that name
+  // a realm without storing its id. Same exact-name rules as dynasty and realm:
+  // a name two locations claim resolves to neither, because a wrong link is
+  // worse than a missing one.
+  if (article.kingdomLocation?.slug) {
+    return <Link to={`/locations/${article.kingdomLocation.slug}`}>{article.kingdom}</Link>
   }
 
   return article.kingdom

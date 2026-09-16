@@ -119,6 +119,19 @@ export function withRealmLocation(article, data) {
   return { ...article, realmLocation: location }
 }
 
+// A location's parent realm, resolved to its polity article so the "Kingdom"
+// fact links like any other name (CLAUDE.md rule 5). Only 22 of 136 locations
+// with a `kingdom` value carry a `kingdomId`, so the rest rendered as dead text —
+// Uppsala naming the Kingdom of Sweden and going nowhere (owner, 2026-09-16).
+// Reuses the realm map, so the same exact-name, no-ambiguity rules apply: a name
+// claimed by two locations resolves to neither.
+export function withKingdomLocation(article, data) {
+  if (article.type !== 'location' || !article.kingdom || article.kingdomId) return article
+  const location = realmLocationMap(data).get(normalizeDynastyKey(article.kingdom))
+  if (!location || location.slug === article.id) return article
+  return { ...article, kingdomLocation: location }
+}
+
 export function withOrderLinks(article, data) {
   if (article.type !== 'character') return article
   const map = orderNameMap(data)
@@ -130,8 +143,11 @@ export function withOrderLinks(article, data) {
 
 /** Exactly what `GET /api/:collection/:id` returns. */
 export function enrichArticle(article, data) {
-  return withRealmLocation(
-    withOrderLinks(withDynastyHouse(withBattleContinuityTarget(article, data), data), data),
+  return withKingdomLocation(
+    withRealmLocation(
+      withOrderLinks(withDynastyHouse(withBattleContinuityTarget(article, data), data), data),
+      data
+    ),
     data
   )
 }
