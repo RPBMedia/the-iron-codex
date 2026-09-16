@@ -88,6 +88,76 @@ export const LOCATOR_MAPS = {
     width: 1000,
     height: 1400,
     bounds: { top: 69.5, bottom: 55.1, left: 10.4, right: 24.6 }
+  },
+
+  /*
+   * The rest of 0k's regions, added 2026-09-17 by the same bounds route, and
+   * carrying the same modern-outline caveat in their captions.
+   *
+   * Spain needed care, and is the reason this comment exists. Its module
+   * publishes `left = -26.925`, which is NOT the map's western edge: it belongs
+   * to the Canary Islands, grafted into the corner by a formula that branches at
+   * longitude -10. The mainland branch is plain and linear --
+   *   x = 100*(lon + 9.9) / (4.8 + 9.9)
+   *   y = 100*(44.4 - lat) / (44.4 - 34.7)
+   * -- so the mainland box is the one used below. Every Iberian place in the
+   * archive lies east of -10 and so never touches the inset branch. Taking the
+   * published -26.925 at face value would have crushed Iberia into a fifth of the
+   * frame and dropped every marker into the Atlantic.
+   *
+   * Portugal gets its own map rather than riding Spain's. Lisbon does fall inside
+   * Spain's box, but on a map of Spain it lands in a blank unshaded neighbour,
+   * which tells a reader roughly nothing.
+   */
+  spain: {
+    title: 'Spain',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Spain_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Spain_adm_location_map.svg',
+    modernBorders: true,
+    width: 1183,
+    height: 1015,
+    bounds: { top: 44.4, bottom: 34.7, left: -9.9, right: 4.8 }
+  },
+  portugal: {
+    title: 'Portugal',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Portugal_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Portugal_location_map.svg',
+    modernBorders: true,
+    width: 612,
+    height: 1173,
+    bounds: { top: 42.3, bottom: 36.7, left: -9.8, right: -6.0 }
+  },
+  germany: {
+    title: 'Germany',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Germany_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Germany_adm_location_map.svg',
+    modernBorders: true,
+    width: 1073,
+    height: 1272,
+    bounds: { top: 55.1, bottom: 47.2, left: 5.5, right: 15.5 }
+  },
+  italy: {
+    title: 'Italy',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Italy_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Italy_location_map.svg',
+    modernBorders: true,
+    width: 1030,
+    height: 1295,
+    bounds: { top: 47.4, bottom: 35.3, left: 6.2, right: 19.0 }
+  },
+  turkey: {
+    title: 'Anatolia and Thrace',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Turkey_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Turkey_adm_location_map.svg',
+    modernBorders: true,
+    width: 1578,
+    height: 721,
+    bounds: { top: 42.5, bottom: 35.5, left: 25.4, right: 45.0 }
   }
 }
 
@@ -108,7 +178,12 @@ export const COUNTRY_TO_MAP = {
   NL: 'france',
   DK: 'denmark',
   NO: 'norway',
-  SE: 'sweden'
+  SE: 'sweden',
+  ES: 'spain',
+  PT: 'portugal',
+  DE: 'germany',
+  IT: 'italy',
+  TR: 'turkey'
 }
 
 /**
