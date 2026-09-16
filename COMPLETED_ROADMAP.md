@@ -7,6 +7,46 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## Person–place mentions — queue item 0u — closed 2026-09-17
+
+The survey reported **85 person-place pairs** where a birth or death place never
+mentions the person. **Three were real.** The rest were either correct as they
+stood or artefacts of the survey's own matcher, and finding that out was most of
+the work.
+
+**What was added.** Dunfermline Abbey now records that Robert the Bruce's heir
+David II was born there on 5 March 1324, five years before his father was
+carried into the choir. Roskilde records that Eric VI died in the town on 13
+November 1319 and was carried to Ringsted for burial — not every king who died
+there stayed in it. Rouen records that the Empress Matilda advised Henry II from
+the city and died near it on 10 September 1167, buried at Bec-Hellouin. Each is
+a fact about the **place**, not a biography line, and each location now lists the
+person in `relatedEntries`.
+
+**The matcher was the bug, twice.** A first-name match called Oslo a hit because
+the article names Haakon V; a full-name match called Kirkwall a *gap* while that
+article carries a section titled "The death of Haakon IV" — the character is
+titled `Haakon IV Haakonsson`, and **the survey never searched section titles at
+all**, which is where a large share of real mentions live. Agincourt was flagged
+because `Charles d'Albret` in the data uses a straight apostrophe and the prose a
+typographic one. Anyone re-running this kind of survey should search titles and
+timelines, normalise apostrophes, and match on the regnal core as well as the
+full name.
+
+**Three real ones were deliberately left alone**, and that is the item's actual
+lesson: *lombardy* ← Guido da Landriano, whose own article says only "associated
+with Lombardy", so asserting a birth there invents precision the sources lack;
+*oxford* ← Edward the Confessor, who was born at **Islip**, with `oxford` merely
+the nearest-article slug, so "born here" would be false; and Rome, Paris and
+Constantinople, which cannot name every ruler born or dead in them without
+becoming registers.
+
+**No gate was added, on purpose.** The original entry warned that a gate would
+have to exclude polity-type locations and cap by article size or it would demand
+padding — and the no-filler rules forbid exactly that. The judgement is per-pair,
+and a rule that fires on all 85 would be worse than the drift it polices.
+
+
 ## House members linked, and the four that were not — queue item 0t — closed 2026-09-17
 
 A survey found 11 house members named in `notableMembers` or a family tree whose
