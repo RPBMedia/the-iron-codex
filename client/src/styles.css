@@ -1498,15 +1498,19 @@ button.back-link:focus-visible {
   text-transform: uppercase;
 }
 
+/* Factions, leaders and the outcome sit in the article body, after the opening
+   section, rather than in the hero (see EventHero in DetailPage.jsx). On the page
+   surface rather than the hero's near-black, the cards need a slightly firmer
+   edge and their own breathing room. */
 .event-intel {
   display: grid;
   gap: 10px;
-  margin: 22px 0;
+  margin: 28px 0;
 }
 
 .info-block {
   min-width: 0;
-  border: 1px solid rgba(141, 147, 159, 0.32);
+  border: 1px solid rgba(141, 147, 159, 0.38);
   border-radius: 6px;
   padding: 14px;
   background: rgba(255, 250, 240, 0.72);

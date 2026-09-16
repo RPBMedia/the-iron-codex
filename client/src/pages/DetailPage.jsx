@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { SITE_NAME, articleTitle, notFoundTitle } from '../lib/pageTitles.js'
 import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { Link, useNavigate, useLocation, useParams } from 'react-router-dom'
@@ -689,16 +689,28 @@ function OrderContent({ article }) {
   )
 }
 
+/**
+ * The hero carries the event's core facts and nothing else.
+ *
+ * It used to carry the factions, leaders, outcome and the continuity card as
+ * well, stacked under the fact strip. Because the hero is a two-column grid with
+ * `align-items: start`, that made the text column far taller than the image
+ * column beside it, and the hero's own near-black backdrop showed through the
+ * gap: on the Battle of Brunanburh about 810px of dead black under a 417px
+ * image, which the owner reported on 2026-09-15. It was not a one-page problem —
+ * 86 of 95 event pages had a text column more than 300px taller, and raising the
+ * image height would not have closed it (the same 86 overflow even at the
+ * maximum image height, and enlarging images fights the whole-object and
+ * no-margins rules). So the metadata moved into the article body, where it reads
+ * as part of the article, and the hero balances against the image.
+ *
+ * The duplicated type label went with it: `articleTypeLabel` already prints
+ * "Battle" as the eyebrow above the title, and this printed it again directly
+ * under the Favorite control on 93 of 95 events.
+ */
 function EventHero({ article }) {
-  const participants = normalizedParticipants(article)
-  const hasEventIntel = participants.length > 0 || article.outcome
-
   return (
     <div className="event-profile">
-      {article.eventType && article.eventType !== 'Other' && (
-        <p className="article-subtitle">{article.eventType}</p>
-      )}
-
       <dl className="fact-strip">
         {article.year && (
           <div>
@@ -719,10 +731,23 @@ function EventHero({ article }) {
           </div>
         )}
       </dl>
+    </div>
+  )
+}
 
-      {hasEventIntel && (
-        <div className="event-intel">
-          <InfoBlock title="Factions">
+/**
+ * Who fought, who led them, and how it ended — rendered in the article body,
+ * after the opening section, rather than stacked in the hero. The continuity
+ * card is no longer part of this block: it belongs at the end of the article,
+ * where a reader who has finished is ready for the next battle.
+ */
+function EventIntel({ article }) {
+  const participants = normalizedParticipants(article)
+  if (!participants.length && !article.outcome) return null
+
+  return (
+    <div className="event-intel">
+      <InfoBlock title="Factions">
             <div className="event-side-grid">
               {participants.map((participant) => (
                 <section className="event-side-card" key={participant.side}>
@@ -780,9 +805,6 @@ function EventHero({ article }) {
               {article.outcomeDetail && <p>{renderLinkedText(article.outcomeDetail, article)}</p>}
             </InfoBlock>
           )}
-          <BattleContinuity article={article} />
-        </div>
-      )}
     </div>
   )
 }
@@ -872,9 +894,17 @@ function EventContent({ article }) {
     <>
       <p className="standfirst">{renderLinkedText(article.summary, article)}</p>
 
-      {sections.map((section) => (
-        <ArticleSection key={section.title} title={section.title} paragraphs={section.paragraphs} article={article} />
+      {/* Who fought and how it ended comes after the opening section, so the
+          reader meets the battle before its order of battle. */}
+      {sections.map((section, index) => (
+        <Fragment key={section.title}>
+          <ArticleSection title={section.title} paragraphs={section.paragraphs} article={article} />
+          {index === 0 && <EventIntel article={article} />}
+        </Fragment>
       ))}
+      {/* The next battle belongs at the end, where the reader has finished this
+          one, not in the hero before they have started it. */}
+      <BattleContinuity article={article} />
       <Timeline items={article.timeline} />
       <SourcesList sources={article.sources} />
       <TopicLinks id={article.id} />
