@@ -1,42 +1,74 @@
 {
   "id": "agincourt",
   "type": "location",
-  "locationType": "Town",
+  "locationType": "Village",
   "kingdom": "Kingdom of France",
   "name": "Agincourt",
-  "year": 1200,
+  "year": "1165",
   "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Battle_of_Agincourt%2C_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg",
-  "summary": "A northern French village near the battlefield of Henry V's famous victory.",
+  "summary": "Azincourt in the Pas-de-Calais, a village of a few hundred people whose vanished castle gave its name to Henry V’s victory of 25 October 1415 — fought in the ploughland between Azincourt, Tramecourt and Maisoncelle, and commemorated today by the Centre Historique Médiéval opened in 2001.",
   "overview": [
-    "Agincourt was a small settlement in northern France whose surrounding fields became famous during the Hundred Years' War.",
-    "The muddy terrain and narrow battlefield shaped the English victory over French forces in 1415."
+    "Agincourt was a small settlement in northern France whose surrounding fields became famous during the Hundred Years’ War.",
+    "The muddy terrain and narrow battlefield shaped the English victory over French forces in 1415.",
+    "The village stands on the chalk plateau of the Ternois, between Hesdin and Fruges. It is first recorded as Aisincurt in 1165, and the battle took the name of its castle, which has since disappeared entirely."
   ],
   "knownFor": [
-    "Battle of Agincourt in 1415",
-    "Hundred Years' War memory",
-    "English longbowmen and muddy battlefield conditions"
+    "The Battle of Agincourt, fought in the fields below the village on 25 October 1415",
+    "A vanished castle that gave the battle its name",
+    "Regnault d’Azincourt, lord of the place, killed in the battle",
+    "The narrow strip of ploughland between Azincourt, Tramecourt and Maisoncelle",
+    "The Centre Historique Médiéval, opened in 2001 and rebuilt as Azincourt 1415 in 2019"
   ],
   "imageInfo": {
-    "caption": "Battle of Agincourt in the St Albans Chronicle.",
-    "creator": "Unknown manuscript artist",
-    "date": "15th century",
-    "source": "Wikimedia Commons",
-    "note": "A manuscript depiction close to the period, but stylized and not a literal battlefield record.",
+    "caption": "The Battle of Agincourt in the St Albans Chronicle of Thomas Walsingham, an English manuscript with Flemish illumination of about 1422.",
+    "creator": "Unknown illuminator, English manuscript with Flemish work",
+    "date": "about 1422, within seven years of the battle",
+    "source": "Lambeth Palace Library, MS 6, f. 243, via Wikimedia Commons (public domain)",
+    "note": "Close in date to the battle but not a record of it: the armies are reduced to a few figures, the archers are emblematic, and the ground gives no sense of the narrow wet field between the woods.",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Agincourt%2C_St._Alban%27s_Chronicle_by_Thomas_Walsingham.jpg"
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Agincourt (Azincourt) in northern France was the site of the Battle of Agincourt on 25 October 1415, where Henry V of England defeated a much larger French force commanded by Charles d'Albret during the Hundred Years' War.",
-        "The battle became one of the defining military events of the fifteenth century and shaped English memory of the war."
+        "Agincourt (Azincourt) in northern France was the site of the Battle of Agincourt on 25 October 1415, where Henry V of England defeated a much larger French force commanded by Charles d’Albret during the Hundred Years’ War.",
+        "The battle became one of the defining military events of the fifteenth century and shaped English memory of the war.",
+        "The village itself sits on the open chalk of the Ternois in the Pas-de-Calais, on the road between Hesdin and Fruges, about nineteen kilometres north-west of Saint-Pol-sur-Ternoise. It is small now and was smaller then: a castle, a church and the farms that worked the surrounding fields."
+      ]
+    },
+    {
+      "title": "The village and its lords",
+      "paragraphs": [
+        "The name appears as Aisincurt in 1165 and runs through a series of forms — Azincurt, Aisincourt — before settling as Azincourt, the spelling made official in 1793. Like the many -court names of Picardy and Artois it is Gallo-Roman in formation, from cortem, a farm or estate, preceded by a Germanic personal name, generally read as Aizo.",
+        "The lordship was held in 1415 by Regnault d’Azincourt, lord of Azincourt and Rutel, born about 1358, who was killed in the battle along with his kinsmen Jean and Walerand d’Azincourt. The castle from which the family took its name, and which gave the battle its name, stood near the village and has left nothing above ground; by the nineteenth century the place was a cluster of farmhouses and cottages, and the settlement itself had only taken the castle’s name in the seventeenth century."
+      ]
+    },
+    {
+      "title": "The ground of 1415",
+      "paragraphs": [
+        "The fighting took place about halfway between the villages of Azincourt, Tramecourt and Maisoncelle, in a strip of open field roughly a kilometre wide with woods closing it on either side. That constriction is the whole tactical story of the day: the French could not use their numbers, and the English archers on the flanks shot into a column that had nowhere to spread.",
+        "The field had been newly sown and was soaked by rain the night before the battle, and heavy ground is what the chroniclers remember most vividly. Men-at-arms in full harness advancing several hundred yards through wet clay arrived exhausted, and those who fell in the press could not rise."
       ]
     },
     {
       "title": "The battle",
       "paragraphs": [
-        "Henry V's army was exhausted, depleted by dysentery, and outnumbered when the battle began. The French cavalry advance across muddy terrain into concentrated English archery created catastrophic losses among the French nobility. Thousands of French prisoners were killed during the battle.",
-        "The French dead included Charles d'Albret and many of France's leading nobles. Henry's victory led to the Treaty of Troyes in 1420, which recognized him as heir to the French throne, though the agreement collapsed after his death in 1422."
+        "Henry V’s army was exhausted, depleted by dysentery, and outnumbered when the battle began. The French cavalry advance across muddy terrain into concentrated English archery created catastrophic losses among the French nobility. Thousands of French prisoners were killed during the battle.",
+        "The French dead included Charles d’Albret and many of France’s leading nobles. Henry’s victory led to the Treaty of Troyes in 1420, which recognized him as heir to the French throne, though the agreement collapsed after his death in 1422."
+      ]
+    },
+    {
+      "title": "The field since the battle",
+      "paragraphs": [
+        "The dead were buried in pits on the field and at the nearby abbey of Auchy and the churches of the district; the grave pits have never been securely located, and the survey work done on the battlefield has produced very little metalwork, since the ground was stripped of armour and weapons immediately and has been ploughed ever since. A calvary and other memorials stand on the field, and a modern viewing point looks over it from the Azincourt side.",
+        "A museum of the battle opened in the village in 2001 as the Centre Historique Médiéval, in a building whose roofline was designed to suggest a drawn longbow, with models, films and reconstructed equipment; it was rebuilt and reopened as Azincourt 1415 on 29 August 2019. A medieval festival has been held in the village since 2004."
+      ]
+    },
+    {
+      "title": "A name larger than the place",
+      "paragraphs": [
+        "Agincourt is one of the few villages whose name became a word. English writing took it up almost at once, and Shakespeare’s Henry V fixed it in a form that has shaped how the battle is remembered far more than any chronicle: the phrase about the happy few belongs to 1599, not to 1415.",
+        "What the visitor finds is a working farming village of a few hundred people on an exposed plateau, with the woods of Tramecourt still marking one edge of the field. The scale of the place against the scale of its fame is the point that the ground itself makes best."
       ]
     }
   ],
@@ -54,10 +86,20 @@
       "url": "https://www.britannica.com/event/Battle-of-Agincourt"
     },
     {
-      "title": "World History Encyclopedia: Middle Ages",
-      "author": "World History Encyclopedia",
-      "type": "modern history",
-      "url": "https://www.worldhistory.org/Middle_Ages/"
+      "title": "Azincourt",
+      "author": "French Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://fr.wikipedia.org/wiki/Azincourt"
+    },
+    {
+      "title": "Azincourt",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Azincourt"
+    },
+    {
+      "title": "Battle of Agincourt",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Agincourt"
     }
   ],
   "relatedEntries": {
@@ -66,21 +108,33 @@
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt",
-        "label": "Battle fought here"
+        "label": "Fought in the fields below the village, 1415"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war the campaign belonged to"
       }
     ],
     "people": [
       {
-        "title": "Charles d'Albret",
-        "type": "person",
-        "slug": "charles-d-albret",
-        "label": "Death of Charles d'Albret"
-      },
-      {
         "title": "Henry V of England",
         "type": "person",
         "slug": "henry-v-of-england",
-        "label": "Fought here"
+        "label": "Commanded the English army here"
+      },
+      {
+        "title": "Charles d’Albret",
+        "type": "person",
+        "slug": "charles-d-albret",
+        "label": "Constable of France, killed on this field"
+      },
+      {
+        "title": "John the Fearless",
+        "type": "person",
+        "slug": "john-the-fearless",
+        "label": "Duke of Burgundy, who kept away and lost two brothers here"
       }
     ],
     "locations": [
@@ -94,7 +148,13 @@
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
-        "label": "Combatant here"
+        "label": "Realm of the invading army"
+      },
+      {
+        "title": "Crecy",
+        "type": "location",
+        "slug": "crecy",
+        "label": "The earlier Picard field of the same war"
       }
     ]
   },
@@ -102,5 +162,54 @@
     "lat": 50.4631,
     "lon": 2.1281
   },
-  "modernCountry": "FR"
+  "modernCountry": "FR",
+  "kingdomId": "kingdom-of-france",
+  "aliases": [
+    "Azincourt",
+    "Aisincurt"
+  ],
+  "timeline": [
+    {
+      "date": "1165",
+      "title": "Aisincurt",
+      "description": "The earliest recorded form of the village’s name."
+    },
+    {
+      "date": "25 October 1415",
+      "title": "Battle of Agincourt",
+      "description": "Henry V destroys a much larger French army in the fields between Azincourt, Tramecourt and Maisoncelle.",
+      "links": [
+        {
+          "title": "Battle of Agincourt",
+          "type": "event",
+          "slug": "battle-of-agincourt"
+        }
+      ]
+    },
+    {
+      "date": "25 October 1415",
+      "title": "The lord of the place killed",
+      "description": "Regnault d’Azincourt dies in the battle, with his kinsmen Jean and Walerand."
+    },
+    {
+      "date": "1420",
+      "title": "Treaty of Troyes",
+      "description": "The victory helps Henry V win recognition as heir to the French throne."
+    },
+    {
+      "date": "17th century",
+      "title": "The village takes the castle’s name",
+      "description": "The settlement adopts the name of the vanished castle of Azincourt."
+    },
+    {
+      "date": "2001",
+      "title": "Centre Historique Médiéval",
+      "description": "A museum of the battle opens in the village, its roofline shaped like a drawn bow."
+    },
+    {
+      "date": "29 August 2019",
+      "title": "Azincourt 1415",
+      "description": "The rebuilt museum reopens on the same site."
+    }
+  ]
 }

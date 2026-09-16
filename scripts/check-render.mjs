@@ -177,7 +177,8 @@ for (const [id, collection, expectRail] of [
   ['battle-of-brunanburh', 'events', true],
   ['simon-de-montfort', 'characters', true],
   ['jalbolung', 'locations', true],
-  ['wantage', 'locations', false],
+  ['wantage', 'locations', true],
+  ['bouvines', 'locations', false],
   ['treaty-of-zamora', 'events', false]
 ]) {
   const article = findIn(collection, (a) => a.id === id)
