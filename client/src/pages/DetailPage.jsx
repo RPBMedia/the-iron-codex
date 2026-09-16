@@ -883,8 +883,17 @@ function EventContent({ article }) {
   )
 }
 
-// Polities carry a founding year; everything else sits inside one.
-const POLITY_LOCATION_TYPES = new Set(['kingdom', 'empire', 'caliphate'])
+// Polities carry their own dates; everything else sits inside one. The set matches
+// the kingdom-type list in scripts/check-images.mjs, so a Sultanate, Duchy or
+// Khanate shows dates the way a Kingdom does. Reported by the owner on
+// 2026-09-16: the Ayyubid Sultanate showed no dates at all, because "Sultanate"
+// was not one of the three types listed here, so it fell through to the parent
+// "Kingdom" card instead.
+const POLITY_LOCATION_TYPES = new Set([
+  'kingdom', 'empire', 'caliphate', 'sultanate', 'principality', 'grand duchy', 'duchy',
+  'county', 'khanate', 'despotate', 'polity', 'imperial realm', 'league', 'military order',
+  'region / duchy'
+])
 
 // A card with nothing in it is removed, never shown blank (owner rule,
 // 2026-09-15). 34 non-kingdom locations record no parent kingdom; Danelaw's
@@ -894,10 +903,13 @@ function LocationHero({ article }) {
   const rawType = String(article.locationType ?? '').trim()
   const typeLabel = rawType ? rawType.charAt(0).toUpperCase() + rawType.slice(1) : null
   const isPolity = POLITY_LOCATION_TYPES.has(rawType.toLowerCase())
+  // A polity that records when it ended shows the span it was active; one that
+  // does not keeps its founding year alone rather than inventing an end.
+  const hasSpan = Boolean(article.year && article.endYear)
   const facts = [
     { label: 'Type', value: typeLabel },
     isPolity
-      ? { label: 'Established', value: article.year }
+      ? { label: hasSpan ? 'Active' : 'Established', value: hasSpan ? `${article.year}–${article.endYear}` : article.year }
       : { label: 'Kingdom', value: article.kingdom ? renderKingdom(article) : null }
   ].filter((fact) => fact.value)
   const subtitle = !isPolity && article.kingdom && typeLabel ? `${typeLabel} in ${article.kingdom}` : typeLabel
