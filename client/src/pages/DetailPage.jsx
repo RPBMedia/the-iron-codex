@@ -1333,7 +1333,10 @@ function PersonSubtitle({ article }) {
 
   return (
     <div className="person-subtitle">
-      {roles.length > 0 && <p>{roles.join(' · ')}</p>}
+      {/* .person-role so the hero ink rule can exclude it: without the class it
+          ties `.detail-body p:not(.eyebrow)` and loses on order, so the gold this
+          line is meant to be rendered as near-black body ink (owner, 2026-09-16). */}
+      {roles.length > 0 && <p className="person-role">{roles.join(' · ')}</p>}
       {article.roleNote && <span>{article.roleNote}</span>}
     </div>
   )

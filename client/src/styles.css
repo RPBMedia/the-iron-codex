@@ -1547,7 +1547,7 @@ p.article-deck a:focus-visible {
    sat later — which is this one, painting the deck body ink on the dark hero. Saying
    which paragraphs get ink is clearer than out-weighting the rule that shouldn't
    have applied. */
-.detail-body p:not(.eyebrow):not(.article-deck) {
+.detail-body p:not(.eyebrow):not(.article-deck):not(.person-role) {
   color: #3f4249;
   font-size: 1.05rem;
   overflow-wrap: anywhere;
