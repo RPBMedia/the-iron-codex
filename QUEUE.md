@@ -1045,11 +1045,10 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 0q. **BARE-NAMED BATTLES — nine written 2026-09-16 (`0dda0e3`), the rest still open.** The owner found that the archive named Falkirk 14 times across 7 articles with no article behind it. The cause: `validateBattleLinking` only scans for the phrase "Battle of X", and the prose said "at Falkirk", "Falkirk (1298)", "Defeat at Falkirk". Not on `BATTLE_BACKLOG` either, so nothing was watching.
    **Written:** `battle-of-falkirk` (1298), `battle-of-dunbar` (1296), `battle-of-methven` (1306), `battle-of-dupplin-moor` (1332), `battle-of-halidon-hill` (1333), `battle-of-carham` (1018), `battle-of-lewes` (1264), `battle-of-evesham` (1265), `battle-of-alnwick` (1174). Stirling Bridge's continuity was re-pointed to Falkirk, as the gate from `cd7a266` now requires.
    **Naming hazards handled:** Evesham and Alnwick are titled with their years (a bare alias would have hit the abbey on `edith-of-wessex` and the 1093 battle on `matilda-of-scotland`); bare "Falkirk" and "Dunbar" carry `ambiguousEntityAliases` context guards, because Edward II marched through both towns in 1314.
+   **Gate widened and all six remaining battles written 2026-09-16 (`4a41a65`), with Simon de Montfort — recorded in `COMPLETED_ROADMAP.md`.** The bare form now hard-fails like the full phrase; the widened scan surfaced 17 further unwritten battles, all on `BATTLE_BACKLOG`.
    **Still open:**
-   - **Widen the gate** so a bare name plus a year ("Falkirk (1298)") is caught like the full phrase, with the same create-or-document rule. Ship it with `BATTLE_BACKLOG` entries for the battles below, or the build fails.
-   - **Still unwritten, by mentions:** Neville's Cross (1346), Otterburn (1388), Homildon Hill (1402), the Battle of the Standard (1138), Loudoun Hill (1307, also its own queue item), Stanhope Park (1327).
-   - **30 mention rewrites** from the Falkirk and Lewes batches are drafted but unapplied (`scratchpad/r29/mentions.md`, `r31/mentions.md`): prose that should name the battles in full. The alias guards mean the mentions link correctly meanwhile.
-   - **The commanders are the bigger gap:** none of these has an article, ranked by mentions — Malcolm II (20), Simon de Montfort (18, the central figure of Lewes and Evesham), Edward Balliol (14), Malcolm III (11), Owain of Strathclyde (5), John de Warenne (4), William the Lion (3), Archibald Douglas (3), Aymer de Valence (2).
+   - **30 mention rewrites** from the Falkirk and Lewes batches are drafted but unapplied (`scratchpad/r29/mentions.md`, `r31/mentions.md`): prose that should name the battles in full. The alias guards mean the mentions link correctly meanwhile. The r32/r33 mention lists are applied.
+   - **The commanders are the bigger gap:** none of these has an article, ranked by mentions — Malcolm II (20), Edward Balliol (14), Malcolm III (11), Owain of Strathclyde (5), John de Warenne (4), William the Lion (3), Archibald Douglas (3), Aymer de Valence (2). Simon de Montfort (18) was written 2026-09-16.
 
 0p. **OWNER-APPROVED 2026-09-15: SCAN EVERY ARCHIVE IMAGE FOR BLANK BORDERS BAKED INTO THE FILE.** The CSS stopped padding images in `e3372f7` (owner rule: no margins around images, whatsoever), but a file can still carry its own margin. The Hélyot scan on `order-of-st-thomas-of-acre` had a wide page border; it is now cropped and self-hosted. `node scripts/audit-image-borders.mjs --out <file>` fetches every render image, flattens it over the dark frame and measures blank light edges. It reports three classes: `frame` (three or four sides), `pair` (two sides) and `single` (one side at 8% or more, often a plain sky). Steps:
    1. Run the scan.
@@ -1709,90 +1708,6 @@ without checking they still read correctly at both sizes.
   points.
 - Prerendered pages must still pass `npm run check:content-quality` and
   `npm run check:images`.
-
-
-### NEW ARTICLE + ARCHIVE AUDIT — Battle of Loudoun Hill (1307)
-
-**Queued by the owner 2026-09-09. Not started.** Two halves, and the second is
-the one that usually gets skipped: the article, then a full archive audit so
-every existing plain-text mention of the battle becomes navigable to it.
-
-**1. The article.** Follow the strongest existing battle articles for structure,
-tone, metadata and sourcing — inspect them first and match, do not invent a
-pattern. Cover, where the evidence supports it: date, location, wider conflict,
-belligerents, commanders, approximate forces (clearly caveated), outcome,
-strategic significance, background, lead-up, terrain and tactical context, the
-course of the battle, Robert the Bruce's role, Aymer de Valence / Pembroke's
-role, aftermath, the effect on Bruce's campaign and consolidation, and the
-relationship to the wider Wars of Scottish Independence.
-
-**Separate four registers explicitly:** securely attested fact, reasonable
-historical interpretation, later chronicler tradition, and disputed detail. Do
-not reconstruct thin evidence as fact or overstate uncertain numbers.
-
-**2. Positioning.** Loudoun Hill was an important early victory in Bruce's
-recovery from the setbacks of 1306. Explain the battlefield context carefully —
-especially the constrained terrain and prepared ground that blunted the English
-mounted force — WITHOUT turning it into cinema, and without implying certainty
-where the tactical reconstruction rests on later sources. The article must
-answer **why it mattered**, not merely that Bruce won.
-
-**3. Internal links out.** Robert the Bruce, Aymer de Valence, Edward I,
-Edward II where contextually relevant, Scotland, England, Wars of Scottish
-Independence, plus any relevant houses, realms, places, battles, people and
-campaign pages already in the archive. Follow current link conventions exactly,
-and **do not create a duplicate for an entity that already exists under another
-slug**.
-
-**4. The archive audit — links in.** Search the whole archive for "Battle of
-Loudoun Hill", "Loudoun Hill", name variants, and prose that plainly describes
-the 1307 battle without naming it. Make every relevant mention link to the new
-article: Robert the Bruce's page, English commanders' biographies, campaign and
-war articles, Scottish history articles, timeline entries, related battles,
-house and realm pages.
-
-**5. Do NOT over-link.** Only references to the 1307 battle itself. Not
-geographic mentions of the hill, not later events at the same place, not
-ambiguous references. Respect the existing rule against repeating a link within
-one section or paragraph.
-
-**6. Both directions.** The battle links out to people and context; those pages
-link back. **Verify the Robert the Bruce article specifically** and confirm its
-Loudoun Hill mention is navigable.
-
-**7. Slug and routing.** Prefer `/battles/battle-of-loudoun-hill` unless current
-routing says otherwise. Inspect comparable battle articles first and match their
-implementation — no one-off pattern.
-
-**8. Image.** If a hero image is needed, follow the current image rules: early
-14th-century Scotland, correct armour, shields and weapons for 1307; NO later
-14th/15th-century plate, no fantasy, no Victorian romanticism, no anachronistic
-heraldry, terrain consistent with Loudoun Hill. Historical plausibility over
-spectacle. **AI images must disclose themselves in the caption** per the
-existing rule.
-
-**9. Metadata.** Match current battle conventions — title, subtitle/summary,
-date, location, conflict, participants, outcome, SEO title, meta description,
-tags, related people/places/battles, realm and faction associations. Confirm it
-appears in the battle indexes, filters, search, timelines and relationship
-views.
-
-**10. Convention, if not already written down.** The archive should enforce:
-*when a new battle article is created, audit the archive for plain-text mentions
-and convert the relevant ones into links; and a new person or historical article
-mentioning an existing battle links to it.* **Strengthen the existing rule if
-one exists rather than adding a second copy** — `CLAUDE.md` and
-`CONTENT_GUIDELINES.md` already carry linking rules, so check before writing.
-
-**11. Validation before finishing.** Article renders; route resolves; appears in
-the right indexes; the Robert the Bruce link works; every other discovered
-reference navigates; no broken links; no duplicate Loudoun Hill article;
-metadata follows convention; `npm run check:content-quality` and
-`npm run check:images` pass.
-
-**Report at the end:** files created, files modified, every article where a link
-was added or corrected, whether the project docs were updated, and any reference
-left unlinked with the reason.
 
 
 - **DONE 2026-09-09 — the three topic pages are submitted and Search Console is
