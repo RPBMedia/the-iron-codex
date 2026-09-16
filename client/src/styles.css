@@ -1510,13 +1510,36 @@ button.back-link:focus-visible {
  * locations, people, houses, orders, weapons and artifacts this is the first time
  * that sentence appears on the page.
  */
-.article-deck {
+/*
+ * Written as `p.article-deck`, not `.article-deck`, on purpose. `.detail-body
+ * p:not(.eyebrow)` below paints hero paragraphs in body ink (#3f4249) and beats a
+ * single class on both specificity and order, so the deck rendered near-black on
+ * the near-black hero — unreadable, and on every article type (owner report,
+ * 2026-09-16). Matching that rule's weight and sitting after it puts the deck back
+ * on the palette: ivory on the dark ground, gold for its links, as the hero's own
+ * captions already do.
+ */
+p.article-deck {
   max-width: 62ch;
   margin: 10px 0 0;
-  color: var(--silver);
+  color: var(--paper);
   font-size: 1.12rem;
   line-height: 1.5;
   overflow-wrap: anywhere;
+}
+
+p.article-deck a {
+  color: var(--gold-soft);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(248, 217, 130, 0.45);
+  text-underline-offset: 0.16em;
+}
+
+p.article-deck a:hover,
+p.article-deck a:focus-visible {
+  color: var(--paper);
+  text-decoration-color: currentColor;
 }
 
 .detail-body p:not(.eyebrow) {
