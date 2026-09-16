@@ -49,6 +49,37 @@ gained Montfort as a linked commander and lost the "no biography yet" notes.
 `eventSortDates` gained Neville's Cross (17 October 1346), which shared 1346 with
 Crécy.
 
+## Owner reports and batches from 2026-09-15 to 16 — queue items 0a-0c, 0f-0l, 0p
+
+Nine finished queue items, moved here on 2026-09-16 and deleted from QUEUE.md.
+
+- **0a — `harald-greycloak`'s main image.** Redone on the owner's rule that
+  "anything is better than a random landscape": a person with no likeness leads
+  with something that depicts them, however symbolic, never scenery.
+- **0b — Danelaw, Kingdom of York, Kingdom of East Anglia.** Maps and emblems,
+  each captioned honestly where the realm bore no coat of arms.
+- **0c — the Plantagenet batch**, plus articles for queens and consorts who had
+  been named across the archive without pages.
+- **0f — empty cards no longer render.** Reported on `danelaw`, whose "Kingdom"
+  card sat blank under a "Region in undefined" subtitle. Every hero fact strip
+  now builds a list, filters empties, and renders nothing when none remain.
+- **0h — empty Key Achievements.** 48 people stored achievements as plain
+  sentences, each rendering as a card with no text.
+- **0i — 15 person pages showed only a name.** Found on `el-cid`.
+- **0j — `sigurd-of-norway`'s crusade section**, 437 to 2,870 characters, with
+  the timeline from 7 to 12 entries.
+- **0l — follow-ups found while fixing el-cid.**
+- **0p — the blank-border image scan.** 1,109 images scanned: 98 frame, 50 pair,
+  36 single. **28 real margins** cropped and self-hosted; the rest were
+  legitimate — coins and seals the owner decided to keep on white, objects
+  photographed on white, light seas, white skies inside engravings, parchment.
+  Two decisions closed it: coins and seals stay as they are, and **no baseline
+  gate** — it would fail roughly six times wrongly per true catch and would need
+  an allowlist longer than the problem, while contradicting the owner's own
+  choice on coins. `scripts/audit-image-borders.mjs` stays an on-demand audit.
+  The three washed-out maps flagged inside it (`vandal-kingdom`,
+  `mongol-empire`, `sasanian-empire`) were replaced in the batch-4 work.
+
 ## Houses / dynasties — a sixth collection — M0–M5, complete 2026-09-15
 
 `HOUSES_PLAN.md`'s work, finished and the file deleted on 2026-09-16. **70 houses
