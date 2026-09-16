@@ -130,7 +130,14 @@
     {
       "date": "1402",
       "title": "Catastrophe at Ankara",
-      "description": "Timur destroys the Ottoman army and captures Bayezid I; the empire fragments."
+      "description": "Timur destroys the Ottoman army and captures Bayezid I; the empire fragments.",
+      "links": [
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
+        }
+      ]
     },
     {
       "date": "1402–1413",
@@ -203,7 +210,14 @@
         "label": "His son and successor"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "Escaped the rout that began the Interregnum"
+      }
+    ]
   },
   "sources": [
     {

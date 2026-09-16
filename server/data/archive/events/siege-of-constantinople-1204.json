@@ -192,10 +192,10 @@
     }
   ],
   "battleContinuity": {
-    "label": "Continue to the fight over the wreckage",
-    "battleSlug": "battle-of-pelagonia",
-    "relationship": "same-war",
-    "reason": "The sack broke the empire into rival successor states; Pelagonia in 1259 decided which of them would put it back together."
+    "label": "Continue to the reckoning a year later",
+    "battleSlug": "battle-of-adrianople",
+    "relationship": "chronological-follow-up",
+    "reason": "The conquest of April 1204 was undone as a military proposition within twelve months: at Adrianople in April 1205 the Bulgarians and their Cuman allies destroyed the Latin field army and captured the emperor Baldwin I, and the new empire never again fought from strength."
   },
   "relatedEntries": {
     "events": [

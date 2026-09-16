@@ -202,6 +202,12 @@
         "type": "event",
         "slug": "battle-of-la-forbie",
         "label": "1244 — the field army lost for good"
+      },
+      {
+        "title": "Siege of Acre",
+        "type": "event",
+        "slug": "siege-of-acre",
+        "label": "Won the capital of the rump kingdom, 1191"
       }
     ],
     "orders": [
@@ -242,7 +248,14 @@
     {
       "date": "12 July 1191",
       "title": "Acre retaken",
-      "description": "The Third Crusade rebuilds the kingdom on the coast."
+      "description": "The Third Crusade rebuilds the kingdom on the coast.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     },
     {
       "date": "18 February 1229",

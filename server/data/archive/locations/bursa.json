@@ -251,6 +251,12 @@
         "type": "event",
         "slug": "battle-of-nicopolis",
         "label": "By tradition paid for the Great Mosque"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "The defeat that opened the city to Timur"
       }
     ],
     "houses": [
@@ -328,7 +334,14 @@
     {
       "date": "1402",
       "title": "Timur's sack",
-      "description": "After Ankara, Timur's grandson Muhammad Sultan plunders and burns the city."
+      "description": "After Ankara, Timur's grandson Muhammad Sultan plunders and burns the city.",
+      "links": [
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
+        }
+      ]
     },
     {
       "date": "1403",

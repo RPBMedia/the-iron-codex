@@ -157,6 +157,12 @@
         "title": "Battle of Manzikert",
         "type": "event",
         "slug": "battle-of-manzikert"
+      },
+      {
+        "title": "Battle of Dandanaqan",
+        "type": "event",
+        "slug": "battle-of-dandanaqan",
+        "label": "The battle the empire dates from"
       }
     ]
   },
@@ -165,7 +171,14 @@
     {
       "date": "1040",
       "title": "Dandanaqan",
-      "description": "The Ghaznavid army breaks; Tughril and Chaghri divide the east."
+      "description": "The Ghaznavid army breaks; Tughril and Chaghri divide the east.",
+      "links": [
+        {
+          "title": "Battle of Dandanaqan",
+          "type": "event",
+          "slug": "battle-of-dandanaqan"
+        }
+      ]
     },
     {
       "date": "1055",

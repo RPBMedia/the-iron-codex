@@ -1,0 +1,322 @@
+{
+  "id": "battle-of-shrewsbury",
+  "type": "event",
+  "name": "Battle of Shrewsbury",
+  "year": 1403,
+  "location": "Battlefield, three miles north of Shrewsbury, Shropshire, England",
+  "eventType": "Battle",
+  "conflict": "The Percy revolt against Henry IV",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Chronicle_of_England_-_Page_349_-_The_Death_of_Hotspur.jpg",
+  "imageInfo": {
+    "caption": "The death of Hotspur, a colour-printed wood engraving by James Doyle for his Chronicle of England, 1864.",
+    "creator": "James William Edmund Doyle, colour-printed by Edmund Evans",
+    "date": "1864; shows 21 July 1403",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Chronicle_of_England_-_Page_349_-_The_Death_of_Hotspur.jpg",
+    "note": "A Victorian reconstruction, not evidence: no contemporary depiction of the battle survives, and the armour Doyle draws is his own century’s idea of 1403. Doyle himself flagged an error in his plate — the mullets in the first quarter of the Douglas shield should be argent. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "What the field became",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Church_of_St_Mary_Magdalene_-_Battlefield_Church_-_geograph.org.uk_-_7289584.jpg",
+      "caption": "The Church of St Mary Magdalene at Battlefield, raised over the grave pit dug after the battle; a 2022 photograph.",
+      "creator": "David Dixon",
+      "date": "2022",
+      "source": "Geograph Britain and Ireland, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Church_of_St_Mary_Magdalene_-_Battlefield_Church_-_geograph.org.uk_-_7289584.jpg",
+      "note": "Henry IV licensed a chantry college here in 1406 so that priests would pray for the dead of both armies. The church is the reason the hamlet is called Battlefield, and it fixes the only point on the ground that can be tied to the fighting with confidence. Licensed CC BY-SA 2.0."
+    }
+  ],
+  "summary": "On 21 July 1403 Henry IV destroyed the Percy revolt outside Shrewsbury in the first English battle where massed longbowmen shot at each other; Hotspur was killed by an arrow, the sixteen-year-old Prince of Wales took one in the face and lived, and the rebellion ended with its commander.",
+  "details": "Henry Percy — Hotspur — raised Cheshire against the king he had helped crown in 1399, over unpaid wardenship wages, the Homildon Hill prisoners Henry IV had refused to let him ransom, and the king’s refusal to ransom his brother-in-law Edmund Mortimer from Owain Glyndŵr. His father Northumberland never arrived and the Welsh never came. The two armies met on a ridge three miles north of Shrewsbury, and the opening archery exchange — both sides shooting longbows at close range — tore both lines apart before the men-at-arms closed. Hotspur charged the royal standard, failed to reach the king, and was killed by an arrow; his army left the field as the news spread.",
+  "factions": [
+    "Kingdom of England"
+  ],
+  "leaders": [
+    {
+      "name": "Henry IV",
+      "faction": "Royal army",
+      "personId": "henry-iv-of-england"
+    },
+    {
+      "name": "Henry, Prince of Wales",
+      "faction": "Royal army",
+      "personId": "henry-v-of-england"
+    },
+    {
+      "name": "Henry Percy (Hotspur)",
+      "faction": "Percy rebels"
+    }
+  ],
+  "outcome": "Decisive royal victory that ended the revolt in a single afternoon. Hotspur was killed and his army dissolved; Thomas Percy, Earl of Worcester, was beheaded two days later; Hotspur’s body was exhumed, salted and displayed in Shrewsbury market to disprove rumours that he lived, then quartered and sent to four cities with his head to York.",
+  "participants": [
+    {
+      "side": "Royal army",
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry IV",
+          "type": "person",
+          "slug": "henry-iv-of-england"
+        },
+        {
+          "name": "Henry, Prince of Wales",
+          "type": "person",
+          "slug": "henry-v-of-england"
+        },
+        {
+          "name": "George Dunbar, Earl of March",
+          "type": "person",
+          "note": "Scottish exile in English service who pulled the king clear of Hotspur’s charge."
+        },
+        {
+          "name": "Sir Walter Blount",
+          "type": "person",
+          "note": "Royal standard-bearer, killed wearing the king’s arms."
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000–14,000",
+        "confidence": "debated",
+        "note": "The figure comes from the chronicle tradition and is probably generous; what the sources agree on is that the king had the larger and better-organised force, most of it marched up together from the south, and that he still very nearly lost the day to one charge.",
+        "min": 12000,
+        "max": 14000
+      }
+    },
+    {
+      "side": "Percy rebels",
+      "factions": [
+        {
+          "name": "The Percy affinity and the men of Cheshire",
+          "title": "The Percy affinity and the men of Cheshire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry Percy (Hotspur)",
+          "type": "person",
+          "note": "Warden of the East March who led the revolt and was killed on the field."
+        },
+        {
+          "name": "Thomas Percy, Earl of Worcester",
+          "type": "person",
+          "note": "Hotspur’s uncle and Admiral of England, beheaded two days after the battle."
+        },
+        {
+          "name": "Archibald Douglas, 4th Earl of Douglas",
+          "type": "person",
+          "note": "Hotspur’s prisoner from Homildon Hill, released to fight beside him and captured again here."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000, the core of it Cheshire archers",
+        "confidence": "debated",
+        "note": "No muster roll survives. The number matters less than the composition: Hotspur had recruited in Cheshire, whose archers had been Richard II’s retained bodyguard and were reckoned the best in England, which is why the royal archers lost the opening exchange.",
+        "min": 10000,
+        "max": 10000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Shrewsbury was fought on 21 July 1403 in open country about three miles north of the town, between Henry IV and the family whose swords had put him on the throne four years earlier. It is the first battle on English soil in which massed English archers shot at each other, and that is what contemporaries remembered about it: the opening exchange was fought at close range by the best bowmen in the kingdom on both sides, and it wrecked both lines before the men-at-arms had closed.",
+        "The revolt died with the man who led it. Hotspur was killed by an arrow in the confusion of the melee, and his army quit the field as soon as the news travelled along it. The king’s sixteen-year-old son, the future Henry V, was hit in the face by an arrow that went six inches into the bone and survived the surgery; Hotspur’s uncle Worcester was beheaded two days later, and Hotspur’s own corpse was dug up, salted and propped between two millstones in Shrewsbury market because the country would not believe he was dead."
+      ]
+    },
+    {
+      "title": "Why the Percys turned",
+      "paragraphs": [
+        "No family had done more to make Henry IV king. When Henry Bolingbroke landed in 1399 to reclaim the Lancastrian inheritance Richard II had confiscated, Henry Percy, Earl of Northumberland, and his son Hotspur joined him at Doncaster and marched south with him, and they were paid in offices: Northumberland became Constable of England and Warden of the West March, Hotspur Warden of the East March and justiciar of north Wales, and Worcester Admiral of England. Within three years every one of those offices had become a grievance, because the crown expected the north to be defended and was slow to pay for it.",
+        "Three specific injuries turned complaint into revolt. The wardenship wages for holding the Scottish border went unpaid while the king shifted the cost of his 1401 Scottish campaign onto the northern lords. After the Battle of Homildon Hill in September 1402 Henry forbade the Percys to ransom the earls they had captured and had the prisoners brought to him instead — taking the profit of a victory he had not been at. And Edmund Mortimer, Hotspur’s brother-in-law, had been captured by Owain Glyndŵr in June 1402 and left in Welsh hands without a royal penny towards his release. The manifesto the Percys issued charged the king with perjury for taking the crown as well as his lands, with taxing after promising not to, and with Richard II’s death."
+      ]
+    },
+    {
+      "title": "The race for the town",
+      "paragraphs": [
+        "Hotspur moved first and fast, which was how he had earned the name. In early July 1403 he rode south from Chester raising the Cheshire archers, joined his uncle Worcester, and made for Shrewsbury, where he expected to meet Glyndŵr’s Welshmen and where the Prince of Wales sat with a small force. The plan depended on three scattered armies converging: Northumberland’s in the north, Glyndŵr’s somewhere to the south-west, and Hotspur’s in between.",
+        "Henry IV was at Burton-on-Trent when he learned of the betrayal, and he covered the ground faster than anyone expected — Stafford on 18 July, then thirty-two miles to Shrewsbury on 20 July, reaching the town before the rebels and joining his son inside it. Hotspur, shut out, fell back north-west to Berwick for the night and sent scouts over the Severn looking for the Welsh, who never came and whose whereabouts he never learned. On the morning of 21 July, with the royal army closing and the river at his back, he drew up on a ridge three miles to the north-east across a front of about eight hundred yards, a little north of where Battlefield Church now stands."
+      ]
+    },
+    {
+      "title": "Archers against archers",
+      "paragraphs": [
+        "The Abbot of Shrewsbury spent several hours carrying terms between the two lines, and when that failed the king ordered the attack. Henry sent his archers forward first and they were shot to pieces: the Cheshire men opposite had been Richard II’s retained bowmen, the most practised in England, and the royal archers fell back under a weight of arrows they could not answer. This is the passage that made the battle notorious. English commanders had spent sixty years using massed archery on French and Scottish armies that had no equivalent, and at Shrewsbury they discovered what it did to troops who did.",
+        "Hotspur read the gap and pushed his men-at-arms into it, driving the royal line back several hundred yards. Then he gambled: with the Earl of Douglas and about thirty men he charged straight for the royal standard, meaning to end the battle by killing the king. They cut down Sir Walter Blount, who was carrying the king’s arms, and the chronicles say other men in royal livery died in the same rush — but Dunbar had seen the charge coming and moved Henry out of its path, so the blow fell on an empty space. On the other flank the prince’s division was pushing the rebel right back and working round behind the rebel centre, and the outnumbered rebels began to find themselves enclosed."
+      ]
+    },
+    {
+      "title": "Two arrows",
+      "paragraphs": [
+        "The Prince of Wales was hit in the face by an arrow that lodged six inches deep beside his nose, and by every account he refused to leave the field. The wound is the best-documented injury of the medieval English battlefield, because the surgeon who dealt with it wrote it up: John Bradmore designed a threaded probe that could be screwed into the socket of the arrowhead and drawn out with it, cleaned the wound with honey and wine over some weeks, and kept his patient alive. The boy who survived that is the king who commanded at the Battle of Agincourt twelve years later.",
+        "Hotspur was killed by an arrow at about the same time, and how it happened nobody could say. Thomas Walsingham wrote only that he was cut down while pushing rashly into the enemy host, and that by whose hand was not known; another tradition has him struck in the face after raising his visor to see. What is certain is the effect: as word of his death moved along the rebel line the whole of it collapsed, and the royal army pursued for three miles. The famous version — Hotspur killed in single combat by Prince Hal — is Shakespeare’s, written nearly two centuries later, and it requires the two men to be the same age when in fact Hotspur was twenty-two years the elder."
+      ]
+    },
+    {
+      "title": "The reprisals",
+      "paragraphs": [
+        "Worcester was beheaded on 23 July, and Sir Richard Venables, Sir Richard Vernon and Sir Henry Boynton were hanged, drawn and quartered in Shrewsbury the same day. Hotspur was buried with honours at Whitchurch by his cousin Thomas Neville, Lord Furnivall — and then the rumours began that he was alive, which for a dynasty four years old was a real danger. Henry had the body dug up, salted, and set upright between two millstones in the Shrewsbury market pillory with an armed guard beside it, so that anyone could come and look.",
+        "After that it was quartered and distributed: the four quarters to London, Bristol, Newcastle and Chester, the head to York, impaled on Micklegate Bar facing the Percy country. The remains went back to his widow Elizabeth Mortimer in November and were buried in York Minster, and in January 1404 he was attainted and his titles and lands declared forfeit. Northumberland, who had never reached the field, submitted and was spared for the moment; he rebelled twice more and was killed at Bramham Moor in 1408, which ended the Percy challenge for a generation."
+      ]
+    },
+    {
+      "title": "What the field became",
+      "paragraphs": [
+        "The dead of both armies went into a common pit on the ridge, and in 1406 Henry IV licensed a chantry college over it so that priests would pray for them. The Church of St Mary Magdalene still stands there, the hamlet around it is called Battlefield, and it is the one point on the ground that can be tied to the fighting with any confidence — the front itself is farmland, and the viewing point the road signs lead to sits beside a dual carriageway opposite an industrial estate.",
+        "What Shrewsbury settled was narrow and real. It did not end the Welsh war, which ran on for years, and it did not make the Lancastrian throne comfortable; Henry IV spent the rest of his reign short of money and short of health. It did break the one combination that could have destroyed him — the Percys, the Mortimer claim and Glyndŵr acting together — by killing the man who was holding it together, and it taught the English command something it had not wanted to learn about its own best weapon."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the wounded prince",
+    "battleSlug": "battle-of-agincourt",
+    "relationship": "same-factions",
+    "reason": "The arrow that lodged six inches into the sixteen-year-old Prince of Wales’s face here was drawn out by the surgeon John Bradmore, and the boy who survived it commanded at Agincourt in 1415 — where the massed archery that had wrecked both armies at Shrewsbury was turned on a French army that had no answer to it."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry IV of England",
+        "type": "person",
+        "slug": "henry-iv-of-england",
+        "label": "Won the battle that saved his throne"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Wounded in the face here at sixteen"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Homildon Hill",
+        "type": "event",
+        "slug": "battle-of-homildon-hill",
+        "label": "The prisoners quarrel that caused the revolt, 1402"
+      },
+      {
+        "title": "Battle of Otterburn",
+        "type": "event",
+        "slug": "battle-of-otterburn",
+        "label": "Where Hotspur had himself been taken, 1388"
+      },
+      {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "The wounded prince’s own victory, 1415"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The realm both armies claimed to serve"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1399",
+      "title": "The Percys make a king",
+      "description": "Northumberland and Hotspur join Henry Bolingbroke at Doncaster and are rewarded with the wardenships of the marches and the constableship of England."
+    },
+    {
+      "date": "June 1402",
+      "title": "Mortimer left in Welsh hands",
+      "description": "Owain Glyndŵr captures Hotspur’s brother-in-law Edmund Mortimer, and the king declines to contribute to his ransom."
+    },
+    {
+      "date": "14 September 1402",
+      "title": "Homildon Hill",
+      "description": "The Percys destroy a Scottish army and take Douglas and four earls; Henry IV then forbids them to ransom the prisoners."
+    },
+    {
+      "date": "Early July 1403",
+      "title": "Hotspur raises Cheshire",
+      "description": "He rides south from Chester recruiting the archers Richard II had retained, and is joined by his uncle the Earl of Worcester."
+    },
+    {
+      "date": "20 July 1403",
+      "title": "The king wins the race",
+      "description": "Henry IV covers thirty-two miles from Stafford in a day and reaches Shrewsbury before the rebels, joining his son inside the town."
+    },
+    {
+      "date": "21 July 1403",
+      "title": "The archery exchange",
+      "description": "Talks through the Abbot of Shrewsbury fail; the royal archers advance and are driven back by the Cheshire bowmen in the first such exchange on English soil."
+    },
+    {
+      "date": "21 July 1403",
+      "title": "The charge at the standard",
+      "description": "Hotspur and Douglas ride at the royal banner with about thirty men, kill the standard-bearer Sir Walter Blount, and miss the king, whom Dunbar has moved."
+    },
+    {
+      "date": "21 July 1403",
+      "title": "Hotspur falls",
+      "description": "An arrow kills him in the melee — Walsingham says by whose hand was not known — and the rebel line collapses as the news spreads."
+    },
+    {
+      "date": "23 July 1403",
+      "title": "Worcester beheaded",
+      "description": "Thomas Percy is executed at Shrewsbury with Venables, Vernon and Boynton, and their heads are put on display."
+    },
+    {
+      "date": "Autumn 1403",
+      "title": "The body between the millstones",
+      "description": "To end rumours that Hotspur lived, the king has him exhumed, salted and propped upright in Shrewsbury market, then quartered and sent to four cities."
+    },
+    {
+      "date": "1406",
+      "title": "A church over the grave pit",
+      "description": "Henry IV licenses a chantry college on the field, and St Mary Magdalene at Battlefield is built above the common burial."
+    },
+    {
+      "date": "1408",
+      "title": "Bramham Moor",
+      "description": "Northumberland, who never reached Shrewsbury, is killed in his last rising, ending the Percy challenge for a generation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:A_Chronicle_of_England_-_Page_349_-_The_Death_of_Hotspur.jpg"
+    },
+    {
+      "title": "Battle of Shrewsbury — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Shrewsbury"
+    },
+    {
+      "title": "Henry Percy (Hotspur) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_Percy_(Hotspur)"
+    },
+    {
+      "title": "The Battle of Shrewsbury — The Battlefields Trust",
+      "author": "The Battlefields Trust",
+      "type": "reference work",
+      "url": "https://www.battlefieldstrust.com/resource-centre/medieval/battleview.asp?BattleFieldId=32"
+    },
+    {
+      "title": "Historia Anglicana",
+      "author": "Thomas Walsingham",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Walsingham"
+    }
+  ]
+}

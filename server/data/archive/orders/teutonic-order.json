@@ -127,7 +127,14 @@
     {
       "date": "1190/1198",
       "title": "Founded and knighted",
-      "description": "The Acre hospital becomes a military order by papal charter."
+      "description": "The Acre hospital becomes a military order by papal charter.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     },
     {
       "date": "1226/1234",
@@ -396,7 +403,8 @@
       "date": "13 Jul 1260",
       "role": "A great Livonian defeat that sparked the second Prussian revolt.",
       "opponent": "Samogitians",
-      "outcome": "Catastrophic defeat"
+      "outcome": "Catastrophic defeat",
+      "slug": "battle-of-durbe"
     },
     {
       "name": "Rudau",
@@ -535,6 +543,18 @@
         "type": "event",
         "slug": "battle-of-la-forbie",
         "label": "1244 — three brothers came away from the Holy Land disaster"
+      },
+      {
+        "title": "Siege of Acre",
+        "type": "event",
+        "slug": "siege-of-acre",
+        "label": "Founded here as a field hospital in 1190"
+      },
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The defeat that touched off the Prussian rising"
       }
     ],
     "orders": [

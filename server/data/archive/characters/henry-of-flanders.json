@@ -116,7 +116,14 @@
     {
       "date": "April 1205",
       "title": "Regent after Adrianople",
-      "description": "Takes over the collapsing empire when Baldwin I is captured by Kaloyan."
+      "description": "Takes over the collapsing empire when Baldwin I is captured by Kaloyan.",
+      "links": [
+        {
+          "title": "Battle of Adrianople",
+          "type": "event",
+          "slug": "battle-of-adrianople"
+        }
+      ]
     },
     {
       "date": "20 August 1206",
@@ -168,7 +175,14 @@
         "label": "The state the crusade had partitioned"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Adrianople",
+        "type": "event",
+        "slug": "battle-of-adrianople",
+        "label": "The defeat that made him regent, then emperor"
+      }
+    ]
   },
   "sources": [
     {

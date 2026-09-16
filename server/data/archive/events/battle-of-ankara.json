@@ -1,0 +1,349 @@
+{
+  "id": "battle-of-ankara",
+  "type": "event",
+  "name": "Battle of Ankara",
+  "aliases": [
+    "Battle of Angora",
+    "Battle of Ankara (1402)"
+  ],
+  "year": 1402,
+  "location": "The Çubuk plain, north-east of Ankara in Anatolia",
+  "eventType": "Battle",
+  "conflict": "Timur's invasion of Anatolia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Timur%20Review%20His%20Troops%20Before%20the%20Battle%20of%20Ankara%2C%20Zafarnama%201436.jpg",
+  "imageInfo": {
+    "caption": "Timur reviewing his army before Ankara, painted about 1435–36 for a Shiraz copy of the Zafarnama, the official history of his reign.",
+    "creator": "Unknown painter of the Shiraz school",
+    "date": "c. 1435–36; shows 1402",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timur_Review_His_Troops_Before_the_Battle_of_Ankara,_Zafarnama_1436.jpg",
+    "note": "Made a generation after the battle for Sharaf al-Din Ali Yazdi's Zafarnama, a work written for Timur's descendants, so it shows the victor as his own dynasty wished him remembered rather than the field as it was. No Ottoman image of the day survives. Public domain."
+  },
+  "summary": "Timur destroyed the Ottoman army on the Çubuk plain outside Ankara in July 1402 and took Sultan Bayezid I alive; the sultan died in captivity within eight months and his sons fought each other for eleven years.",
+  "details": "Bayezid I broke off his blockade of Constantinople to meet Timur in Anatolia and arrived after a long midsummer march to find the wells held against him. The Anatolian cavalry he had conscripted from the beyliks he had annexed changed sides during the fighting, and only the janissaries and Stefan Lazarević's Serbian horsemen held. Bayezid was run down in the hills after nightfall, and the empire he had built in a decade came apart into a civil war between his sons.",
+  "factions": [
+    "Ottoman Empire",
+    "Timurid Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Bayezid I",
+      "faction": "Ottoman army",
+      "personId": "bayezid-i"
+    },
+    {
+      "name": "Mehmed I",
+      "faction": "Ottoman army",
+      "personId": "mehmed-i"
+    },
+    {
+      "name": "Stefan Lazarević",
+      "faction": "Ottoman army",
+      "personId": "stefan-lazarevic"
+    },
+    {
+      "name": "Timur",
+      "faction": "Timurid army"
+    }
+  ],
+  "outcome": "Overwhelming Timurid victory. The Ottoman field army was destroyed, Bayezid I was captured and died a prisoner in March 1403, Timur restored the Anatolian beyliks Bayezid had annexed, and the Ottoman state broke into the eleven-year civil war between his sons known as the Interregnum. Constantinople, blockaded since 1394, was left alone for another half-century.",
+  "participants": [
+    {
+      "side": "Ottoman army",
+      "factions": [
+        {
+          "name": "Ottoman Empire",
+          "title": "Ottoman Empire",
+          "type": "location",
+          "slug": "ottoman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Bayezid I",
+          "type": "person",
+          "slug": "bayezid-i"
+        },
+        {
+          "name": "Mehmed I",
+          "type": "person",
+          "slug": "mehmed-i",
+          "note": "Commanded a wing as a prince and escaped the field."
+        },
+        {
+          "name": "Stefan Lazarević",
+          "type": "person",
+          "slug": "stefan-lazarevic",
+          "note": "Led the Serbian vassal cavalry on the Ottoman right."
+        },
+        {
+          "name": "Süleyman Çelebi",
+          "type": "person",
+          "note": "Bayezid's eldest son, who commanded the left and got away to Europe."
+        }
+      ],
+      "strength": {
+        "display": "c. 60,000–85,000, many of them unwilling",
+        "confidence": "debated",
+        "note": "German and English summaries of the modern literature give 60,000–90,000 and 85,000–120,000; contemporary writers claim 200,000 and more. One estimate puts only about 25,000 men, including some 5,000 janissaries, in a condition to fight after the march.",
+        "min": 60000,
+        "max": 85000
+      }
+    },
+    {
+      "side": "Timurid army",
+      "factions": [
+        {
+          "name": "Timurid Empire",
+          "note": "No article yet in this archive: the empire Timur built from Samarkand between 1370 and 1405, which outlived him in Iran and Central Asia until 1507."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Timur",
+          "type": "person",
+          "note": "Ruler of the Timurid empire and commander in chief; no biography in the Codex yet."
+        },
+        {
+          "name": "Miran Shah",
+          "type": "person",
+          "note": "Timur's son, commanding a wing."
+        },
+        {
+          "name": "Shah Rukh",
+          "type": "person",
+          "note": "Timur's youngest son, commanding a wing."
+        }
+      ],
+      "strength": {
+        "display": "c. 100,000–140,000, with war elephants",
+        "confidence": "debated",
+        "note": "Modern estimates cluster between 100,000 and 140,000 horsemen with a corps of elephants brought from India. The Bavarian captive Johann Schiltberger, who was on the field, and other contemporaries give figures up to 1.6 million, which no sixteenth-century army could have supplied, let alone a fourteenth-century one.",
+        "min": 100000,
+        "max": 140000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Ankara was fought on the Çubuk plain north-east of the town in late July 1402 between Sultan Bayezid I and Timur, and it is the only battle in Ottoman history in which a reigning sultan was taken alive. Bayezid had spent a decade swallowing the independent Turkish emirates of Anatolia and grinding down the Balkans; Timur had spent the same decade conquering Iran, sacking Delhi and taking Baghdad, and the rulers Bayezid had dispossessed went to him for redress. The two met with a dispute over frontier princes that neither would settle by letter. The day is disputed: most modern accounts, and this archive, give 28 July, while an older tradition followed by several reference works gives 20 July.",
+        "The battle destroyed the Ottoman army in a day. Bayezid died a prisoner the following March, his four surviving sons fought one another for eleven years, and the beyliks he had annexed were handed back by the conqueror. It did not, however, destroy the Ottoman state: the family kept its European provinces, Mehmed I reunited the rest by 1413, and within fifty years his grandson took Constantinople."
+      ]
+    },
+    {
+      "title": "Two empires and one frontier",
+      "paragraphs": [
+        "Bayezid earned the name Yıldırım, the Thunderbolt, by moving faster than his enemies expected. He annexed Aydın, Saruhan, Menteşe, Germiyan and finally Karaman in Anatolia, ended the Bulgarian tsardom at Tarnovo in 1393, annihilated the crusade at the Battle of Nicopolis in 1396, and from 1394 kept Constantinople under a blockade that starved it for eight years. Each conquest made an exile, and the dispossessed emirs of western Anatolia found a patron in the east.",
+        "Timur had his own reason to look west. The Turkmen chief Qara Yusuf and the Jalayirid sultan Ahmad had taken refuge with Bayezid, and Timur regarded them as his to punish. The two rulers exchanged letters of studied insult, each addressing the other as an upstart; Timur took Sivas in 1400 and massacred its garrison, and in the summer of 1402 he moved on Ankara. Bayezid lifted the blockade of Constantinople and marched to meet him."
+      ]
+    },
+    {
+      "title": "The armies and the march",
+      "paragraphs": [
+        "Bayezid's army was a coalition held together by conquest. Its core was the sultan's household: the janissaries, slave-soldiers of the infantry corps, and the sipahis of the Rumelian fief-holders who had fought his Balkan wars. Around them rode the Anatolian cavalry of the annexed beyliks, serving the man who had taken their lords' lands, and a contingent of Tatars settled in Anatolia. His Serbian vassal Stefan Lazarević brought a body of armoured horsemen who were, by every account of the battle, the best troops on the Ottoman side.",
+        "Timur's army was larger, rested, and built around mounted archers who could shoot and manoeuvre together for hours, with an elephant corps brought back from the Indian campaign. He also chose the ground. He reached Ankara first, drew the Ottomans out by threatening the town, and had the water of the Çubuk stream diverted into a reservoir so that Bayezid's men arrived at a position without wells. The Ottoman commanders are said to have advised waiting on the defensive; Bayezid attacked."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The fighting began early and lasted most of the day. Timur's wings enveloped both Ottoman flanks while his centre held, and the first collapse came not from the pressure but from within: the Anatolian sipahis of the annexed beyliks, seeing their own former lords in Timur's line, rode across to them, and the Tatar contingent went the same way. The Ottoman left under Süleyman Çelebi broke; Mehmed Çelebi, commanding in the rear, cut his way clear.",
+        "The Serbs under Stefan Lazarević fought their way into the Timurid ranks three times, an effort Timur is reported to have admired aloud, and they got one of the sultan's sons and the treasury off the field. Bayezid stayed with the janissaries on a hill until nightfall, then tried to break out with a few hundred horsemen. Timur's riders ran him down in the dark. The corps that had made the Ottoman army — the janissaries and the Rumelian sipahis — were destroyed where they stood."
+      ]
+    },
+    {
+      "title": "The captivity and death of Bayezid",
+      "paragraphs": [
+        "Timur kept the captive sultan with his camp and treated him, by the Timurid account, with the courtesy due a defeated ruler. Bayezid died on 8 March 1403, eight months after the battle, having been carried across Anatolia with the army; the sources disagree over whether illness or his own hand killed him. The story that he was displayed in an iron cage grew later and is not in the earliest accounts: it comes through Timurid and European retellings that wanted the humiliation to be visible, and Christopher Marlowe made it famous two centuries afterwards.",
+        "Timur spent the winter dismantling what Bayezid had built. His grandson sacked Bursa, the Ottoman capital in Asia, and burned the dynasty's tombs; the Knights Hospitaller were stormed out of Smyrna in a fortnight; and the beyliks of Aydın, Saruhan, Menteşe, Germiyan and Karaman were restored to their old houses as Timurid clients. Then he turned east for a campaign against China and died on the road in 1405."
+      ]
+    },
+    {
+      "title": "The Interregnum",
+      "paragraphs": [
+        "Bayezid left four sons with armies and no rule to divide them. Süleyman held Edirne and the European provinces, İsa held Bursa, Mehmed held Amasya in the north-east, and Musa was released from captivity to fight for the family's Balkan lands. The eleven years that followed are called the Interregnum, and they were a real civil war: İsa was killed about 1406, Musa had Süleyman killed in 1411, and Mehmed finally beat Musa at Çamurlu in July 1413 and ruled alone.",
+        "Two things kept the state alive through it. The Ottoman timar system in the Balkans, which paid cavalrymen with the revenue of land they did not own, survived the collapse of the dynasty's authority because the fief-holders had every reason to keep it working. And the Christian powers around them could not agree to finish the job: Byzantium, Venice, Hungary and the Serbian despotate each backed a different brother, and the despot Stefan Lazarević, freed from Bayezid's overlordship, used the interval to make himself a genuinely independent prince at Belgrade."
+      ]
+    },
+    {
+      "title": "What Ankara actually settled",
+      "paragraphs": [
+        "Ankara is often written up as the end of Ottoman power, and the evidence does not support it. The dynasty lost its Anatolian conquests, its capital in Asia, its army and its sultan, and it still held Thrace, Macedonia, Bulgaria and the Byzantine tribute a generation later. Mehmed I reunited the state in 1413; Murad II retook most of the beyliks and beat the crusade at the Battle of Varna in 1444; Mehmed II took Constantinople in 1453. Fifty-one years separate the destruction of the Ottoman army from the fall of the city it had been blockading when the news of Timur arrived.",
+        "What the battle did buy was time, and Constantinople is where that shows. The blockade of 1394–1402 had brought the city to eating its draught animals, and Manuel II was touring the courts of the west begging for help when Ankara relieved him. The reprieve lasted long enough for the Byzantines to recover Thessalonica for a while and to negotiate with each Ottoman claimant in turn. It also shows what the Ottomans had become: a state that could lose its army, its treasury and its ruler on one afternoon and still be there when the dust settled."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The captivity and death of Bayezid",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Folio%20413.%20Bayazid%20I%20brought%20before%20Timur%20after%20the%20battle%20of%20Ankara%20(1402).%20Zafarnama%2C%201552%20(British%20Library%2C%20Or.%201359).jpg",
+      "caption": "The captive Bayezid I brought before Timur, in a sixteenth-century Safavid painting from a Shiraz copy of the Zafarnama.",
+      "creator": "Unknown Safavid painter",
+      "date": "Sixteenth century; shows 1402",
+      "source": "British Library (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Folio_413._Bayazid_I_brought_before_Timur_after_the_battle_of_Ankara_(1402)._Zafarnama,_1552_(British_Library,_Or._1359).jpg",
+      "note": "The Commons record dates the painting 1533 while the file name gives a 1552 manuscript; both are sixteenth-century Shiraz copies of Yazdi's Zafarnama, which is why the caption gives the century rather than a year. Like the main image it is Timurid court history, and it shows the presentation as a scene of magnanimity. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The empire that came back",
+    "battleSlug": "battle-of-varna",
+    "relationship": "same-factions",
+    "reason": "Ankara left the Ottoman state without an army, a capital in Asia or a sultan; forty-two years later Murad II destroyed the crusade of Władysław III at Varna, which is the measure of how completely the dynasty had rebuilt what Timur took apart."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Bayezid I",
+        "type": "person",
+        "slug": "bayezid-i",
+        "label": "Captured here; died in captivity in 1403"
+      },
+      {
+        "title": "Mehmed I",
+        "type": "person",
+        "slug": "mehmed-i",
+        "label": "Escaped the field and reunited the state by 1413"
+      },
+      {
+        "title": "Stefan Lazarević",
+        "type": "person",
+        "slug": "stefan-lazarevic",
+        "label": "Commanded the Serbian contingent"
+      },
+      {
+        "title": "Manuel II Palaiologos",
+        "type": "person",
+        "slug": "manuel-ii-palaiologos",
+        "label": "The blockade of his capital was lifted by the defeat"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Bayezid's victory six years earlier"
+      },
+      {
+        "title": "Battle of Varna",
+        "type": "event",
+        "slug": "battle-of-varna",
+        "label": "The recovered empire, forty-two years on"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The state that fractured and re-formed"
+      },
+      {
+        "title": "Bursa",
+        "type": "location",
+        "slug": "bursa",
+        "label": "Sacked by Timur after the battle"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Süleyman's capital during the Interregnum"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Osman",
+        "type": "house",
+        "slug": "house-of-osman",
+        "label": "The dynasty that split into civil war"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1394",
+      "title": "The blockade of Constantinople begins",
+      "description": "Bayezid I closes the land approaches to the Byzantine capital and builds the castle of Anadoluhisarı on the Bosphorus."
+    },
+    {
+      "date": "25 September 1396",
+      "title": "Nicopolis",
+      "description": "Bayezid destroys the crusading army on the Danube, which makes his reputation in Europe and his confidence in the field."
+    },
+    {
+      "date": "1397–1398",
+      "title": "Karaman annexed",
+      "description": "The last independent Anatolian beylik is absorbed; its dispossessed house and the others look east for a protector."
+    },
+    {
+      "date": "1400",
+      "title": "Timur takes Sivas",
+      "description": "The eastern frontier city falls and its garrison is massacred, a warning Bayezid answers with defiance rather than terms."
+    },
+    {
+      "date": "July 1402",
+      "title": "The march to Ankara",
+      "description": "Bayezid lifts the blockade of Constantinople and marches east; Timur reaches Ankara first and diverts the Çubuk stream."
+    },
+    {
+      "date": "28 July 1402",
+      "title": "The Anatolian cavalry changes sides",
+      "description": "The sipahis of the annexed beyliks and the Tatar contingent ride over to Timur, opening both Ottoman flanks."
+    },
+    {
+      "date": "28 July 1402",
+      "title": "Bayezid is taken",
+      "description": "The sultan holds a hill with the janissaries until dark, then is run down attempting to break out."
+    },
+    {
+      "date": "Winter 1402–1403",
+      "title": "Bursa and Smyrna",
+      "description": "Timur's forces sack the Ottoman capital in Asia and storm the Hospitaller castle at Smyrna; the beyliks are restored."
+    },
+    {
+      "date": "8 March 1403",
+      "title": "Death of Bayezid I",
+      "description": "The captive sultan dies with the Timurid army in Anatolia; the iron-cage story belongs to later retellings."
+    },
+    {
+      "date": "1403–1413",
+      "title": "The Interregnum",
+      "description": "Süleyman, İsa, Musa and Mehmed fight for the succession until Mehmed I wins at Çamurlu and rules alone."
+    },
+    {
+      "date": "1453",
+      "title": "Constantinople falls",
+      "description": "The city spared by the defeat is taken by Mehmed II fifty-one years later, the measure of the Ottoman recovery."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Timur_Review_His_Troops_Before_the_Battle_of_Ankara,_Zafarnama_1436.jpg"
+    },
+    {
+      "title": "Battle of Ankara — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ankara"
+    },
+    {
+      "title": "Schlacht bei Ankara — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_bei_Ankara"
+    },
+    {
+      "title": "Battle of Ankara (1402) — Encyclopaedia Britannica",
+      "author": "Encyclopaedia Britannica",
+      "type": "encyclopedia",
+      "url": "https://www.britannica.com/event/Battle-of-Ankara-1402"
+    }
+  ]
+}

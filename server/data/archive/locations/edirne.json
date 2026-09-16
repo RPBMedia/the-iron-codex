@@ -298,6 +298,18 @@
         "type": "event",
         "slug": "fall-of-constantinople",
         "label": "Prepared from Edirne in 1451–1453"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "After it, the capital of the divided state"
+      },
+      {
+        "title": "Battle of Adrianople",
+        "type": "event",
+        "slug": "battle-of-adrianople",
+        "label": "Kaloyan's victory outside the walls, 1205"
       }
     ],
     "houses": [
@@ -365,7 +377,14 @@
     {
       "date": "14 April 1205",
       "title": "Kaloyan's victory",
-      "description": "The Latin emperor Baldwin is captured by the Bulgarians and Cumans outside the city."
+      "description": "The Latin emperor Baldwin is captured by the Bulgarians and Cumans outside the city.",
+      "links": [
+        {
+          "title": "Battle of Adrianople",
+          "type": "event",
+          "slug": "battle-of-adrianople"
+        }
+      ]
     },
     {
       "date": "about 1369",

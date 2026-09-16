@@ -1,0 +1,349 @@
+{
+  "id": "battle-of-rio-salado",
+  "type": "event",
+  "name": "Battle of Río Salado",
+  "aliases": [
+    "Battle of Salado",
+    "Battle of the Salado",
+    "Battle of Tarifa"
+  ],
+  "year": 1340,
+  "location": "The Salado stream between Tarifa and the sea, Cádiz, southern Castile",
+  "eventType": "Battle",
+  "conflict": "Reconquista — the Marinid invasions of Iberia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Batalha_do_Salado_%28Roque_Gameiro%2C_Quadros_da_Hist%C3%B3ria_de_Portugal%2C_1917%29.png",
+  "imageInfo": {
+    "caption": "The Battle of Salado in a 1917 colour illustration by Roque Gameiro for Quadros da História de Portugal.",
+    "creator": "Alfredo Roque Gameiro",
+    "date": "1917; shows 30 October 1340",
+    "source": "Quadros da História de Portugal (1917), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batalha_do_Salado_(Roque_Gameiro,_Quadros_da_Hist%C3%B3ria_de_Portugal,_1917).png",
+    "note": "A Portuguese national-history illustration made 577 years after the event, so the armour and the massed white robes are Gameiro’s composition rather than evidence. No contemporary depiction of the battle survives; the seventeenth-century canvas that is sometimes reproduced is both later and too small to read. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "What it ended",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Padr%C3%A3o_do_Salado%2C_Guimar%C3%A3es.jpg",
+      "caption": "The Padrão do Salado at Guimarães, the Gothic monument Afonso IV raised to the victory; a 2015 photograph.",
+      "creator": "Jl FilpoC",
+      "date": "2015; monument of 1340s",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padr%C3%A3o_do_Salado,_Guimar%C3%A3es.jpg",
+      "note": "Raised by Afonso IV in front of the church of Nossa Senhora da Oliveira and the only monument put up at the time to commemorate the battle, which is why it matters more than any of the later paintings. Licensed CC BY-SA 4.0."
+    }
+  ],
+  "summary": "On 30 October 1340 Alfonso XI of Castile and Afonso IV of Portugal destroyed the army of the Marinid sultan Abu al-Hasan Ali and Yusuf I of Granada beside the Salado near Tarifa, ending the last great African invasion of the Iberian Peninsula and handing control of the Strait of Gibraltar to the Christian kingdoms.",
+  "details": "The Marinid sultan Abu al-Hasan Ali destroyed the Castilian fleet off Gibraltar in April 1340, crossed the strait in August with the largest army North Africa had sent to Spain in a century, and laid siege to Tarifa in September. He then made the error the campaign turned on: believing Castile could not rebuild a fleet quickly, he laid up most of his galleys. Castilian, Portuguese, Aragonese and Genoese ships closed the strait in October and cut his supply line. Alfonso XI and his father-in-law Afonso IV marched from Seville and attacked on 30 October, the Castilians against the sultan and the Portuguese against Granada. The Tarifa garrison, slipped into the town the night before, came out onto the sultan’s undefended camp, and the Marinid army broke in about three hours.",
+  "factions": [
+    "Kingdom of Castile",
+    "Kingdom of Portugal"
+  ],
+  "leaders": [
+    {
+      "name": "Alfonso XI of Castile",
+      "faction": "Castilian and Portuguese army",
+      "personId": "alfonso-xi-of-castile"
+    },
+    {
+      "name": "Afonso IV of Portugal",
+      "faction": "Castilian and Portuguese army",
+      "personId": "afonso-iv-of-portugal"
+    },
+    {
+      "name": "Abu al-Hasan Ali",
+      "faction": "Marinid and Granadan army"
+    }
+  ],
+  "outcome": "Decisive Castilian and Portuguese victory. The Marinid army was destroyed and its camp plundered, Abu al-Hasan fled by way of Gibraltar to Ceuta the same night, and no North African army ever invaded the Iberian Peninsula again. Castile took Algeciras after a two-year siege in 1344 and held the strait; Granada survived as a tributary for another 150 years.",
+  "participants": [
+    {
+      "side": "Castilian and Portuguese army",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        },
+        {
+          "name": "Kingdom of Portugal",
+          "title": "Kingdom of Portugal",
+          "type": "location",
+          "slug": "kingdom-of-portugal"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Alfonso XI of Castile",
+          "type": "person",
+          "slug": "alfonso-xi-of-castile"
+        },
+        {
+          "name": "Afonso IV of Portugal",
+          "type": "person",
+          "slug": "afonso-iv-of-portugal"
+        },
+        {
+          "name": "Juan Núñez de Lara",
+          "type": "person",
+          "note": "Led the Castilian vanguard that forced the crossing of the Salado."
+        },
+        {
+          "name": "Gil Álvarez Carrillo de Albornoz",
+          "type": "person",
+          "note": "Archbishop of Toledo, who seized the king’s bridle to stop him charging."
+        },
+        {
+          "name": "Manuel Pessanha",
+          "type": "person",
+          "note": "Admiral of Portugal, whose fleet helped close the strait before the battle."
+        }
+      ],
+      "strength": {
+        "display": "c. 20,000, including about 1,000 Portuguese knights",
+        "confidence": "estimated",
+        "note": "The Castilian contribution is usually given as some 8,000 horse and 12,000 foot, the foot largely town militias, with a further 1,000 men in the Tarifa garrison who fought. The Portuguese contingent was small but was given the whole Granadan wing to face, which is why Afonso IV’s share of the credit is larger than his numbers suggest.",
+        "min": 18000,
+        "max": 22000
+      }
+    },
+    {
+      "side": "Marinid and Granadan army",
+      "factions": [
+        {
+          "name": "The Marinid Sultanate"
+        },
+        {
+          "name": "Granada",
+          "title": "Granada",
+          "type": "location",
+          "slug": "granada"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Abu al-Hasan Ali",
+          "type": "person",
+          "note": "Marinid sultan of Fez, who crossed the strait in person and fled to Ceuta the same night."
+        },
+        {
+          "name": "Yusuf I of Granada",
+          "type": "person",
+          "note": "Nasrid emir commanding the Granadan wing against the Portuguese."
+        }
+      ],
+      "strength": {
+        "display": "Chronicle totals of 40,000 horse and 400,000 foot; modern estimates put the Marinid army at up to 60,000 with 7,000 Granadan horse",
+        "confidence": "chronicle-claim",
+        "note": "The Castilian chronicles compete with each other — one gives 53,000 horse and 600,000 foot, another 70,000 and 400,000 — and Joseph O’Callaghan dismisses the lot as greatly exaggerated. The defensible statement is that the Marinid army was the largest force North Africa had landed in Spain for a century and was substantially bigger than the Christian one.",
+        "min": 40000,
+        "max": 60000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Río Salado, fought on 30 October 1340 on a stream between Tarifa and the sea, is the battle that closed the Strait of Gibraltar. For sixty years the Marinid sultans of Fez had been landing armies in Spain, propping up Granada and fighting for the ports on both sides of the crossing; in 1340 Abu al-Hasan Ali brought over the largest of them and besieged Tarifa. Alfonso XI of Castile and his father-in-law Afonso IV of Portugal marched to relieve it, and in about three hours destroyed the sultan’s army and plundered his camp.",
+        "The victory is remembered in both kingdoms as a rescue, and the alarm had been real: a Castilian fleet had already been annihilated in the strait that April, leaving the crossing open. But the point of Salado is what it ended rather than what it saved. No North African army ever invaded the Iberian Peninsula again. The war with Granada went on for another century and a half, and Granada fell in 1492 to Castilian armies rather than to anything decided in 1340 — what stopped in 1340 was the African intervention that had kept al-Andalus alive since the eleventh century."
+      ]
+    },
+    {
+      "title": "The strait and the sultan",
+      "paragraphs": [
+        "Control of the crossing was the whole strategic question of fourteenth-century Iberia. Whoever held Tarifa, Algeciras and Gibraltar controlled whether African troops could reach Spain, and the Marinids had spent two generations buying and fighting their way into those ports. Abu al-Hasan came to the throne in 1331 and pushed the policy hardest: he sent 5,000 men to Algeciras in 1333 who helped Granada take Gibraltar from Castile in under two months, and then began assembling in Morocco the army that would reverse the previous century’s Christian gains outright.",
+        "The naval war came first, and Castile lost it. On 8 April 1340 the Castilian fleet under Admiral Alfonso Jofre Tenorio met a larger Marinid force off Gibraltar at Getares; Tenorio was killed, twenty-eight galleys and seven naos were taken, and only a handful of ships escaped to Cartagena. Abu al-Hasan crossed on 14 August with the strait effectively his, ferried troops and supplies over all summer, and formally invested Tarifa on 22 September with Yusuf I of Granada beside him."
+      ]
+    },
+    {
+      "title": "A marriage, a letter, and an alliance",
+      "paragraphs": [
+        "Alfonso XI needed Portugal, and Portugal had every reason to refuse him. His queen was Maria, Afonso IV’s daughter, and he had humiliated her for years in favour of his mistress Leonor de Guzmán, by whom he had the sons who would eventually tear Castile apart. When Maria was sent to plead with her father, Afonso IV sent back word that if the King of Castile wanted help he could ask for it himself. Alfonso swallowed it and wrote the letter, and the Portuguese came.",
+        "What Portugal contributed was partly naval and decisive. Afonso IV sent a fleet under Manuel Pessanha, the Genoese-descended Admiral of Portugal, and paid for fifteen Genoese galleys under Gil Bocanegra; twenty-seven more ships were finished in a hurry at Seville, and an Aragonese squadron joined them. By October these squadrons were in the strait in force. That mattered because of the mistake Abu al-Hasan had already made: assuming Castile could not rebuild a fleet for months, and wanting to save the expense of maintaining his own, he had laid up most of his galleys and sent his allies’ home, keeping only twelve at Algeciras. His army besieging Tarifa depended on supplies from Morocco, and the sea route was now cut."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Alfonso XI left Seville on 15 October and joined Afonso IV the next day; on 26 October the combined army crossed into enemy country, and on the 29th it halted at Peña del Ciervo, five miles from Tarifa, with a valley and the streams of La Jara and the Salado between it and the enemy. The council of war divided the work: the Castilians would go for the sultan, the Portuguese — reinforced with 3,000 Castilian knights and the military orders of Alcántara and Calatrava — would take Yusuf I. That night Alfonso slipped 1,000 horse and 4,000 foot past the Marinid screen and into Tarifa. The officer commanding the covering light cavalry reported that nothing had got through. Whether he was lying to save himself or genuinely believed it is not recoverable, but the sultan went into the battle thinking his camp was safe.",
+        "They attacked at nine in the morning on 30 October. Abu al-Hasan had left the Jara crossing open but held the Salado hard, and Juan Núñez de Lara’s vanguard could not get over until Alfonso fed another 1,500 knights into it. Once across, the Castilian centre with the knights of Santiago drove up the hill towards the sultan’s camp — and at that moment the troops hidden in Tarifa came out and hit the camp from the other side. Its garrison broke; half ran for Algeciras. Alfonso, meanwhile, was dangerously exposed in the middle with his vanguard gone up the hill, and was about to fight hand to hand when Archbishop Gil Álvarez Carrillo de Albornoz took hold of his reins and stopped him. The Castilian rearguard arrived, the men who had been sacking the camp came back down the slope into the enemy’s rear, and the sultan’s army broke. On the other wing the Portuguese crossed the Salado and the whole Granadan contingent left the field. It was over by noon."
+      ]
+    },
+    {
+      "title": "The camp and the pursuit",
+      "paragraphs": [
+        "The pursuit ran six kilometres to the Guadamecí, and much of the victorious army never joined it because the sultan’s camp was the richest prize anyone in Iberia had seen. Abu al-Hasan had brought his household with him. His first wife Fatimah, daughter of the sultan of Tunis, was killed in the camp along with other women of his family; his sister Umalfat, his son Abu Umar Tasufin and his nephew Ali were taken. Among the dead were senior Marinid officers and the Granadan writer Abdullah ben Salmun. The plunder was so large that Alfonso sent a share to the Pope, and Castilian coinage felt the injection of Moroccan gold.",
+        "Both rulers got away. Abu al-Hasan and Yusuf reached Algeciras; the sultan went on to Gibraltar and crossed to Ceuta in a single galley that same night. He never came back. His attention turned east to Tunis, and the Marinid state that had been able to intervene in Spain for sixty years was finished as an Iberian power — not because it was destroyed at Salado, but because after Salado it stopped trying."
+      ]
+    },
+    {
+      "title": "What it ended",
+      "paragraphs": [
+        "Alfonso XI spent the victory immediately and sensibly. He besieged Algeciras, the Marinid bridgehead, from 1342 and took it in 1344 after a siege famous enough to draw volunteers from across Europe; a later attempt on Gibraltar failed, and he died of plague in his camp before its walls in 1350. But the strait was Castilian and Genoese from 1340 onwards, and that is the change. Granada survived because Castile chose tribute and truces over conquest, not because Africa could still reinforce it.",
+        "The commemoration was Portuguese as much as Castilian. Afonso IV, who had had to be asked twice, raised the Padrão do Salado in front of the church of Nossa Senhora da Oliveira at Guimarães, and it still stands — the only monument put up at the time for the battle, and a better guide to how the victory was understood than any of the paintings made centuries later. Within eight years the Black Death had reached both kingdoms, and within a generation Castile and Portugal were at war with each other; the alliance that won at the Salado did not outlive the men who made it."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "When the two allies turned on each other",
+    "battleSlug": "battle-of-aljubarrota",
+    "relationship": "same-factions",
+    "reason": "Castile and Portugal fought side by side at the Salado because Afonso IV was Alfonso XI’s father-in-law and the Marinid landing threatened both. Forty-five years later the same two crowns met at Aljubarrota in 1385, where a Castilian king claiming the Portuguese throne was destroyed and Portuguese independence was settled for good."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Alfonso XI of Castile",
+        "type": "person",
+        "slug": "alfonso-xi-of-castile",
+        "label": "Commanded the Castilian army"
+      },
+      {
+        "title": "Afonso IV of Portugal",
+        "type": "person",
+        "slug": "afonso-iv-of-portugal",
+        "label": "Commanded the Portuguese wing against Granada"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The earlier African invasion broken, 1212"
+      },
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "The two Salado allies at war with each other, 1385"
+      },
+      {
+        "title": "Fall of Granada",
+        "type": "event",
+        "slug": "fall-of-granada",
+        "label": "The end of the al-Andalus this battle isolated"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Bore the main weight of the battle"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "Sent the fleet and the knights that faced Granada"
+      },
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "The Marinids’ ally, left without African support"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1333",
+      "title": "Gibraltar lost",
+      "description": "Marinid troops sent by Abu al-Hasan help Granada take Gibraltar from Castile in under two months."
+    },
+    {
+      "date": "8 April 1340",
+      "title": "Disaster at Getares",
+      "description": "The Castilian fleet is destroyed off Gibraltar and Admiral Alfonso Jofre Tenorio is killed, leaving the strait open."
+    },
+    {
+      "date": "14 August 1340",
+      "title": "The sultan crosses",
+      "description": "Abu al-Hasan Ali lands in Spain and spends the summer ferrying over the largest African army sent to Iberia in a century."
+    },
+    {
+      "date": "22 September 1340",
+      "title": "Tarifa besieged",
+      "description": "The Marinid and Granadan armies formally invest the town, the westernmost Castilian hold on the strait."
+    },
+    {
+      "date": "Autumn 1340",
+      "title": "The galleys laid up",
+      "description": "Expecting no Castilian fleet for months, the sultan dismisses his allies’ ships and lays up most of his own, keeping twelve at Algeciras."
+    },
+    {
+      "date": "October 1340",
+      "title": "The strait closed",
+      "description": "Portuguese, Genoese, Aragonese and newly built Castilian squadrons appear in force and cut the supply route from Morocco."
+    },
+    {
+      "date": "15–26 October 1340",
+      "title": "The relief march",
+      "description": "Alfonso XI leaves Seville, joins Afonso IV the next day, and the combined army crosses into enemy territory on the 26th."
+    },
+    {
+      "date": "Night of 29 October 1340",
+      "title": "Five thousand into Tarifa",
+      "description": "A thousand horse and four thousand foot slip past the Marinid screen into the town; the covering commander reports that nobody got through."
+    },
+    {
+      "date": "30 October 1340",
+      "title": "The crossing of the Salado",
+      "description": "Juan Núñez de Lara’s vanguard forces the stream after Alfonso reinforces it, and the Castilian centre drives up towards the sultan’s camp."
+    },
+    {
+      "date": "30 October 1340",
+      "title": "The garrison sortie",
+      "description": "The troops hidden in Tarifa fall on the camp from the rear; the archbishop of Toledo grabs the king’s bridle to keep him out of the melee, and the Marinid army breaks by noon."
+    },
+    {
+      "date": "30 October 1340",
+      "title": "Flight to Ceuta",
+      "description": "Abu al-Hasan reaches Algeciras, then Gibraltar, and crosses to Africa that night, leaving his family and his treasury behind."
+    },
+    {
+      "date": "1342–1344",
+      "title": "Algeciras taken",
+      "description": "Alfonso XI besieges the Marinid bridgehead for two years and captures it, completing Christian control of the strait."
+    },
+    {
+      "date": "1350",
+      "title": "Death before Gibraltar",
+      "description": "Alfonso XI dies of plague in his camp while besieging Gibraltar, the one place on the strait he never recovered."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Batalha_do_Salado_(Roque_Gameiro,_Quadros_da_Hist%C3%B3ria_de_Portugal,_1917).png"
+    },
+    {
+      "title": "Battle of Río Salado — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_R%C3%ADo_Salado"
+    },
+    {
+      "title": "Batalla del Salado — Spanish Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://es.wikipedia.org/wiki/Batalla_del_Salado"
+    },
+    {
+      "title": "Batalha do Salado — Portuguese Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://pt.wikipedia.org/wiki/Batalha_do_Salado"
+    },
+    {
+      "title": "The Gibraltar Crusade: Castile and the Battle for the Strait",
+      "author": "Joseph F. O’Callaghan",
+      "type": "reference work",
+      "url": "https://www.upenn.edu/pennpress/book/14755.html"
+    }
+  ]
+}

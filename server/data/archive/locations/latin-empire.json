@@ -92,7 +92,14 @@
     {
       "date": "1205",
       "title": "Adrianople",
-      "description": "Baldwin is captured by the Bulgarian tsar Kaloyan and dies in captivity."
+      "description": "Baldwin is captured by the Bulgarian tsar Kaloyan and dies in captivity.",
+      "links": [
+        {
+          "title": "Battle of Adrianople",
+          "type": "event",
+          "slug": "battle-of-adrianople"
+        }
+      ]
     },
     {
       "date": "1206–1216",
@@ -148,6 +155,12 @@
         "type": "event",
         "slug": "recovery-of-constantinople",
         "label": "Where it ended, without a battle"
+      },
+      {
+        "title": "Battle of Adrianople",
+        "type": "event",
+        "slug": "battle-of-adrianople",
+        "label": "Where the empire lost its field army"
       }
     ],
     "locations": [

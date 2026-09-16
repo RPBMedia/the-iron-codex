@@ -429,12 +429,14 @@ export const entityLinks = [
   { label: "Yaropolk I of Kiev", aliases: ["Yaropolk Sviatoslavich","Yaropolk I"], type: "person", slug: "yaropolk-i-of-kiev" },
   { label: "Yusuf ibn Tashfin", aliases: ["Yusuf ibn Tashufin","Yusuf ben Tachfin"], type: "person", slug: "yusuf-ibn-tashfin" },
   { label: "Battle of Ad Decimum", aliases: ["Ad Decimum"], type: "event", slug: "battle-of-ad-decimum" },
+  { label: "Battle of Adrianople", aliases: ["Battle of Adrianople (1205)","Adrianople"], type: "event", slug: "battle-of-adrianople" },
   { label: "Battle of Agincourt", type: "event", slug: "battle-of-agincourt" },
   { label: "Battle of Ain Jalut", aliases: ["Battle of Ayn Jalut","Ain Jalut","Ayn Jalut"], type: "event", slug: "battle-of-ain-jalut" },
   { label: "Battle of Akroinon", aliases: ["Battle of Akroinos","Akroinon"], type: "event", slug: "battle-of-akroinon" },
   { label: "Battle of Alarcos", aliases: ["al-Arak","Battle of al-Arak"], type: "event", slug: "battle-of-alarcos" },
   { label: "Battle of Aljubarrota", aliases: ["Aljubarrota"], type: "event", slug: "battle-of-aljubarrota" },
   { label: "Battle of Alnwick (1174)", aliases: ["Battle of Alnwick","Capture of William the Lion","Alnwick (1174)"], type: "event", slug: "battle-of-alnwick" },
+  { label: "Battle of Ankara", aliases: ["Battle of Angora","Battle of Ankara (1402)","Ankara"], type: "event", slug: "battle-of-ankara" },
   { label: "Battle of Arsuf", aliases: ["Arsuf"], type: "event", slug: "battle-of-arsuf" },
   { label: "Battle of Atoleiros", aliases: ["Atoleiros"], type: "event", slug: "battle-of-atoleiros" },
   { label: "Battle of Bannockburn", type: "event", slug: "battle-of-bannockburn" },
@@ -442,14 +444,17 @@ export const entityLinks = [
   { label: "Battle of Beroia", aliases: ["Battle of Beroe","Beroia"], type: "event", slug: "battle-of-beroia" },
   { label: "Battle of Bouvines", type: "event", slug: "battle-of-bouvines" },
   { label: "Battle of Brunanburh", aliases: ["Brunanburh"], type: "event", slug: "battle-of-brunanburh" },
+  { label: "Battle of Brunkeberg", aliases: ["Slaget vid Brunkeberg","Brunkeberg"], type: "event", slug: "battle-of-brunkeberg" },
   { label: "Battle of Carham", aliases: ["Battle of Carham on Tweed","Carham"], type: "event", slug: "battle-of-carham" },
   { label: "Battle of Castillon", aliases: ["Castillon"], type: "event", slug: "battle-of-castillon" },
   { label: "Battle of Cortenuova", aliases: ["Cortenuova","Battaglia di Cortenuova"], type: "event", slug: "battle-of-cortenuova" },
   { label: "Battle of Courtrai", aliases: ["Battle of the Golden Spurs","Golden Spurs","Guldensporenslag","Battle of Kortrijk","Courtrai"], type: "event", slug: "battle-of-courtrai" },
   { label: "Battle of Covadonga", type: "event", slug: "battle-of-covadonga" },
   { label: "Battle of Crécy", aliases: ["Crécy"], type: "event", slug: "battle-of-crecy" },
+  { label: "Battle of Dandanaqan", aliases: ["Battle of Dandanqan","Battle of Dandanakan","Dandanaqan"], type: "event", slug: "battle-of-dandanaqan" },
   { label: "Battle of Dunbar", aliases: ["Dunbar"], type: "event", slug: "battle-of-dunbar" },
   { label: "Battle of Dupplin Moor", aliases: ["Dupplin Moor"], type: "event", slug: "battle-of-dupplin-moor" },
+  { label: "Battle of Durbe", aliases: ["Durbe"], type: "event", slug: "battle-of-durbe" },
   { label: "Battle of Edington", aliases: ["Edington"], type: "event", slug: "battle-of-edington" },
   { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
   { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
@@ -478,7 +483,9 @@ export const entityLinks = [
   { label: "Battle of Methven", aliases: ["Methven"], type: "event", slug: "battle-of-methven" },
   { label: "Battle of Mohi", type: "event", slug: "battle-of-mohi" },
   { label: "Battle of Mons Lactarius", aliases: ["Mons Lactarius"], type: "event", slug: "battle-of-mons-lactarius" },
+  { label: "Battle of Montiel", aliases: ["Montiel"], type: "event", slug: "battle-of-montiel" },
   { label: "Battle of Myriokephalon", aliases: ["Battle of Myriocephalum","Düzbel","Miryokefalon","Myriokephalon"], type: "event", slug: "battle-of-myriokephalon" },
+  { label: "Battle of Nájera", aliases: ["Battle of Navarrete","Nájera"], type: "event", slug: "battle-of-najera" },
   { label: "Battle of Neville's Cross", aliases: ["Battle of Neville’s Cross","Neville’s Cross","Neville's Cross"], type: "event", slug: "battle-of-nevilles-cross" },
   { label: "Battle of Nicopolis", aliases: ["Nicopolis"], type: "event", slug: "battle-of-nicopolis" },
   { label: "Battle of Nineveh", aliases: ["Nineveh"], type: "event", slug: "battle-of-nineveh" },
@@ -487,8 +494,10 @@ export const entityLinks = [
   { label: "Battle of Patay", aliases: ["Patay"], type: "event", slug: "battle-of-patay" },
   { label: "Battle of Pelagonia", aliases: ["Battle of Kastoria","Pelagonia"], type: "event", slug: "battle-of-pelagonia" },
   { label: "Battle of Poitiers", type: "event", slug: "battle-of-poitiers" },
+  { label: "Battle of Río Salado", aliases: ["Battle of Salado","Battle of the Salado","Battle of Tarifa","Río Salado"], type: "event", slug: "battle-of-rio-salado" },
   { label: "Battle of Sagrajas", aliases: ["Sagrajas","az-Zallaqah","al-Zallaqa","Battle of Zallaqa","Battle of az-Zallaqah","Battle of Zalaca","Zalaca"], type: "event", slug: "battle-of-sagrajas" },
   { label: "Battle of São Mamede", aliases: ["São Mamede"], type: "event", slug: "battle-of-sao-mamede" },
+  { label: "Battle of Shrewsbury", aliases: ["Shrewsbury"], type: "event", slug: "battle-of-shrewsbury" },
   { label: "Battle of Simancas", type: "event", slug: "battle-of-simancas" },
   { label: "Battle of Sirmium", aliases: ["Battle of Semlin","Battle of Zemun","Sirmium"], type: "event", slug: "battle-of-sirmium" },
   { label: "Battle of Stamford Bridge", type: "event", slug: "battle-of-stamford-bridge" },
@@ -526,6 +535,7 @@ export const entityLinks = [
   { label: "Recovery of Constantinople", aliases: ["Reconquest of Constantinople","Byzantine recovery of Constantinople"], type: "event", slug: "recovery-of-constantinople" },
   { label: "Sack of Aleppo", aliases: ["Sack of Aleppo (962)","Byzantine capture of Aleppo"], type: "event", slug: "siege-of-aleppo-962" },
   { label: "Siege and Sack of Constantinople", aliases: ["Sack of Constantinople","Sack of Constantinople (1204)","The sack of 1204"], type: "event", slug: "siege-of-constantinople-1204" },
+  { label: "Siege of Acre", aliases: ["Siege of Acre (1189–1191)","Siege of Saint-Jean-d’Acre"], type: "event", slug: "siege-of-acre" },
   { label: "Siege of Antioch (969)", aliases: ["Byzantine recovery of Antioch","Fall of Antioch (969)"], type: "event", slug: "siege-of-antioch-969" },
   { label: "Siege of Chandax", aliases: ["Byzantine reconquest of Crete","Siege of Candia (961)","Fall of Chandax"], type: "event", slug: "siege-of-chandax" },
   { label: "Siege of Constantinople (626)", aliases: ["Avar siege of Constantinople","Avar–Persian siege of Constantinople"], type: "event", slug: "siege-of-constantinople-626" },
@@ -1383,6 +1393,62 @@ export const ambiguousEntityAliases = [
           "1128",
           "1130"
         ]
+      }
+    ]
+  },
+  {
+    // "Shrewsbury" is an EARLDOM before it is a battle. `safeBattleSuffix` minted
+    // the bare alias when battle-of-shrewsbury landed (2026-09-17), and the
+    // archive carries it 13 times in `john-talbot` alone — he is the Earl of
+    // Shrewsbury — plus 6 in margaret-of-anjou and 5 in henry-vi-of-england,
+    // most of them the Talbot Shrewsbury Book, and one in Richard II's
+    // parliament of 1398. Unguarded, a commander with his own article points at
+    // a battle fought the year before he was born.
+    terms: ["Shrewsbury"],
+    possibleTargets: [
+      {
+        title: "Battle of Shrewsbury",
+        label: "Battle of Shrewsbury",
+        type: "event",
+        slug: "battle-of-shrewsbury",
+        date: "1403",
+        contextHints: ["1403", "Hotspur", "Percy", "Henry IV", "Prince of Wales", "Worcester", "Douglas", "Battlefield Church", "rebels", "archers"]
+      }
+    ]
+  },
+  {
+    // "Adrianople" is overwhelmingly the CITY, and the city is filed as `edirne`,
+    // so it never claimed the name and the bare alias was minted for the 1205
+    // battle. Edirne's own prose uses it 11 times, henry-of-flanders 5, orhan and
+    // ottoman-empire 3 each — and `nikephoros-i` once, four centuries early.
+    // The Ottoman capture of 1361 and Valens in 378 are both "Adrianople" and
+    // neither is this battle.
+    terms: ["Adrianople"],
+    possibleTargets: [
+      {
+        title: "Battle of Adrianople",
+        label: "Battle of Adrianople",
+        type: "event",
+        slug: "battle-of-adrianople",
+        date: "1205",
+        contextHints: ["1205", "Kaloyan", "Baldwin", "Cuman", "Latin Empire", "Bulgarian", "Vlach", "Villehardouin", "Dandolo", "Tarnovo"]
+      }
+    ]
+  },
+  {
+    // "Nájera" is a town in the Rioja with its own history: kingdom-of-navarre
+    // names it twice, for Sancho I taking it and for Santa María la Real. The
+    // battle of 1367 was fought there, which is exactly why the bare name is
+    // ambiguous rather than safe.
+    terms: ["Nájera"],
+    possibleTargets: [
+      {
+        title: "Battle of Nájera",
+        label: "Battle of Nájera",
+        type: "event",
+        slug: "battle-of-najera",
+        date: "1367",
+        contextHints: ["1367", "Black Prince", "Peter of Castile", "Henry II", "Trastámara", "du Guesclin", "Anglo-Gascon", "Castilian civil war", "Montiel"]
       }
     ]
   }

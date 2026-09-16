@@ -155,6 +155,11 @@
           "title": "Ottoman Empire",
           "type": "location",
           "slug": "ottoman-empire"
+        },
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
         }
       ]
     },
@@ -209,6 +214,12 @@
         "type": "event",
         "slug": "battle-of-kosovo",
         "label": "Where his father fell, shaping his reign"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "Commanded the Serbian cavalry, 1402"
       }
     ]
   },

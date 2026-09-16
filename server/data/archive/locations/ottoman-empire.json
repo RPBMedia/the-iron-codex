@@ -75,6 +75,12 @@
         "title": "Fall of Constantinople",
         "type": "event",
         "slug": "fall-of-constantinople"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "The 1402 collapse the empire survived"
       }
     ]
   },
@@ -220,7 +226,14 @@
     {
       "date": "28 July 1402",
       "title": "Ankara",
-      "description": "Timur destroys and captures Bayezid; the Interregnum tears the state."
+      "description": "Timur destroys and captures Bayezid; the Interregnum tears the state.",
+      "links": [
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
+        }
+      ]
     },
     {
       "date": "1413",

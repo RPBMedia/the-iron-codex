@@ -138,7 +138,14 @@
     {
       "date": "28 July 1402",
       "title": "Ankara",
-      "description": "Timur envelops the Ottoman army; the beylik troops defect and the sultan is captured."
+      "description": "Timur envelops the Ottoman army; the beylik troops defect and the sultan is captured.",
+      "links": [
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
+        }
+      ]
     },
     {
       "date": "8 March 1403",
@@ -205,6 +212,12 @@
         "type": "event",
         "slug": "battle-of-nicopolis",
         "label": "His victory over the great crusade, 1396"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "Captured here by Timur, 1402"
       }
     ]
   },

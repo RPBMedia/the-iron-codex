@@ -1,0 +1,316 @@
+{
+  "id": "battle-of-montiel",
+  "type": "event",
+  "name": "Battle of Montiel",
+  "year": 1369,
+  "location": "Montiel, in the Campo de Montiel, Castile",
+  "eventType": "Battle",
+  "conflict": "The Castilian civil war of 1366–1369",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Montiel.jpg",
+  "imageInfo": {
+    "caption": "Montiel in a Froissart manuscript illuminated by Loyset Liédet about 1470, the fighting set below the castle rock.",
+    "creator": "Loyset Liédet",
+    "date": "c. 1470; shows 14 March 1369",
+    "source": "Bibliothèque nationale de France, MS Fr. 2643, fol. 328v (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Montiel.jpg",
+    "note": "Painted a century later for a Burgundian library; the harness is fifteenth-century and the castle is a generic one. Its value is that it places the battle against the rock Peter retreated to, which is the geography the whole episode turns on. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "The killing in the tent",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Montiel_froissart.jpg",
+      "caption": "The death of Peter of Castile in a fifteenth-century Froissart manuscript, the struggle set outside a pink-walled building.",
+      "creator": "Unknown illuminator",
+      "date": "15th century",
+      "source": "Morgan Library & Museum, MS M.804, fol. 202v (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Montiel_froissart.jpg",
+      "note": "The illuminator has staged the killing in the open beside a building rather than inside du Guesclin’s tent, one more variation in a story no two accounts tell the same way. Public domain."
+    }
+  ],
+  "summary": "On 14 March 1369 Henry of Trastámara and Bertrand du Guesclin beat Peter of Castile outside Montiel and penned him in its castle; nine days later Peter was lured into du Guesclin’s tent and stabbed to death by his half-brother, ending the Castilian civil war and founding the Trastámara dynasty.",
+  "details": "Two years after Nájera the Black Prince was gone, unpaid, and Henry was back in Castile with French companies at his back. He caught Peter’s army — Castilian loyalists with a Granadan contingent — in the open near Montiel on 14 March 1369 and broke it. Peter escaped into the castle of Montiel, which had no water, and opened secret negotiations with du Guesclin to buy his way out. Whether du Guesclin took the bribe and betrayed him, or was told to play along from the start, is exactly what the sources disagree about. Peter came to the tent, the half-brothers recognised each other, they fought on the floor, and Henry killed him with a dagger on 23 March.",
+  "factions": [
+    "Kingdom of Castile",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "Henry of Trastámara",
+      "faction": "Franco-Castilian army",
+      "personId": "henry-ii-of-castile"
+    },
+    {
+      "name": "Peter of Castile",
+      "faction": "Castilian and Granadan army",
+      "personId": "peter-of-castile"
+    }
+  ],
+  "outcome": "Decisive victory for Henry of Trastámara, completed by murder. Peter’s field army was destroyed and he was besieged in Montiel castle, then killed in person by Henry on 23 March 1369. The direct line of the Castilian royal house ended, Henry ruled as Henry II, and the Trastámara dynasty he founded held Castile for the rest of the Middle Ages.",
+  "participants": [
+    {
+      "side": "Franco-Castilian army",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry of Trastámara",
+          "type": "person",
+          "slug": "henry-ii-of-castile"
+        },
+        {
+          "name": "Bertrand du Guesclin",
+          "type": "person",
+          "note": "Breton captain commanding the French companies, and the owner of the tent."
+        }
+      ],
+      "strength": {
+        "display": "c. 5,000–6,000, with the French companies as its core",
+        "confidence": "debated",
+        "note": "Montiel is far worse recorded than Nájera and no reliable muster survives for either side. What the accounts agree on is the shape rather than the size: Henry had the harder professional troops, and the mass of Peter’s force dissolved rather than fought.",
+        "min": 4000,
+        "max": 7000
+      }
+    },
+    {
+      "side": "Castilian and Granadan army",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        },
+        {
+          "name": "Granada",
+          "title": "Granada",
+          "type": "location",
+          "slug": "granada"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Peter of Castile",
+          "type": "person",
+          "slug": "peter-of-castile"
+        },
+        {
+          "name": "Fernando de Castro",
+          "type": "person",
+          "note": "Peter’s chief Galician supporter, who held out after the king’s death."
+        },
+        {
+          "name": "The Granadan contingent’s commanders (not named in the Castilian accounts)",
+          "type": "person",
+          "note": "Troops sent by Muhammad V of Granada, Peter’s ally against the Trastámaras."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; larger on paper than Henry’s, and it broke quickly",
+        "confidence": "unknown",
+        "note": "No dependable figure survives. Ayala, the one detailed source, was Henry’s chancellor and had no interest in making Peter’s defeat look close; the Granadan contingent in particular is described in the Castilian accounts without numbers of any kind."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Montiel, fought on 14 March 1369 in the Campo de Montiel in what is now Ciudad Real, ended the Castilian civil war and replaced the royal house. Henry of Trastámara, beaten two years earlier at the Battle of Nájera and driven over the Pyrenees, had come back with French money and French companies under Bertrand du Guesclin; Peter of Castile met him with Castilian loyalists and a contingent sent by Muhammad V of Granada, and lost.",
+        "The battle itself was short and is poorly recorded. What made Montiel famous happened nine days afterwards, when Peter — trapped in a waterless castle — tried to buy his way out through du Guesclin and was killed in du Guesclin’s tent by Henry himself. It is the only time in medieval Iberia that one king killed another with his own hands, and the accounts of how it happened contradict each other at almost every point."
+      ]
+    },
+    {
+      "title": "How Henry got back",
+      "paragraphs": [
+        "Nájera had settled nothing because Henry escaped it. He reached France, where Charles V had every reason to keep him supplied: a Trastámara Castile meant the Castilian fleet in French service against England. Meanwhile the alliance that had beaten him fell apart on its own. Peter never paid Edward, the Black Prince, the money or the territory agreed at Bayonne, and the Prince withdrew to Aquitaine sick and bankrupt, taking with him the only army that could have protected his ally.",
+        "Peter’s own methods finished the job. He had executed enough of the Castilian nobility to earn the name his enemies used for him, and the great houses had learned at Nájera that Henry would pay them in land — the grants later called the Mercedes Enriqueñas — for changing sides. By 1368 Henry was besieging Toledo and holding most of the north. Peter’s remaining strength lay in Andalusia and in his alliance with Granada, which cost him more support than it bought: a Castilian king fighting other Castilians with Muslim troops was the easiest thing in the world for his enemies to describe."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Peter marched north-east from Andalusia in March 1369 to relieve the pressure on his supporters, and Henry moved to intercept him with du Guesclin. The two forces met in the open near Montiel on 14 March. The French men-at-arms, veterans of twenty years of war, went through Peter’s line quickly; the Castilian troops on Peter’s side had little appetite for dying for him, and the army came apart rather than being destroyed in place.",
+        "Peter got away with a small escort into the castle of Montiel, on its rock above the town, and that was the trap. The castle was strong and could not be stormed, but it had no water supply worth the name, and Henry simply ringed it and waited. Within a week the position was hopeless, and Peter began sending messages down to the one man in the besieging army who was not a Castilian with a grievance against him: Bertrand du Guesclin."
+      ]
+    },
+    {
+      "title": "The killing in the tent",
+      "paragraphs": [
+        "The offer Peter made du Guesclin was enormous — towns, lordships, cash — in exchange for helping him slip out of the ring. On the night of 23 March 1369 Peter came down to du Guesclin’s tent. Henry was there. The two half-brothers had not seen each other in years and, by several accounts, did not immediately recognise one another in the dark; when they did, they grappled and went down on the floor of the tent, and Henry stabbed Peter to death with a dagger.",
+        "Almost every other detail is disputed. Pero López de Ayala, the fullest source, had fought for Peter at Nájera, been captured, and then become Henry’s chancellor, and his chronicle is the foundation of Peter’s reputation as “the Cruel”; Froissart, writing from the French side and at second hand, tells it differently again. The accounts split over whether du Guesclin genuinely accepted the bribe and betrayed Peter or was working for Henry from the first message; over whether Peter was recognised at once or only after the struggle started; and over whether a bystander — du Guesclin in most retellings — turned the two men over so that Henry, who was underneath, ended on top. The line always quoted for that moment, that he neither removed nor installed kings but served his lord, is not in the early sources at all and appears only in much later Spanish tradition. The safest thing that can be said is that Peter died in or beside that tent, that Henry did it in person, and that the version we know best was written by the winner’s own official."
+      ]
+    },
+    {
+      "title": "A new dynasty",
+      "paragraphs": [
+        "With Peter dead the war stopped. The direct male line of the Castilian house that had ruled since the eleventh century ended on the floor of a Breton mercenary’s tent, and Henry ruled as Henry II. His difficulty was that everyone knew he was illegitimate and a usurper, and his answer was to buy the nobility outright: the Mercedes Enriqueñas handed out royal land and rights on a scale that made a handful of families permanently powerful and left the crown poorer for a century. Du Guesclin was paid too, with the duchy of Molina.",
+        "The foreign consequence was immediate and lasting. Henry II tied Castile to France, and the fleet that England and France had been fighting over since 1366 went to work: in 1372 Castilian galleys destroyed an English fleet at La Rochelle, and Castilian ships raided the English coast through the 1370s. The Trastámara line held Castile until it merged into the Spanish monarchy, and its claim ran through Peter’s killing at Montiel — which is why Peter’s descendants, through his daughters’ English marriages, mattered enough for a Lancastrian army to come and press their claim at the Battle of Aljubarrota sixteen years later."
+      ]
+    },
+    {
+      "title": "The two Peters",
+      "paragraphs": [
+        "Peter’s reputation was settled by the men who killed him. Ayala’s chronicle gave Europe “Pedro el Cruel”, and the executions and judicial killings it records are real: Peter did have his half-brother Fadrique beaten to death, and a long list of nobles and at least one queen’s household went the same way. But the same acts were later read the other way — as a king enforcing law against magnates who thought themselves beyond it — and from the fifteenth century the alternative name “el Justiciero”, the Justice-dealer, circulated alongside the older one.",
+        "The archive carries both bynames on his article for that reason, and Montiel is where the argument starts. A king killed by his illegitimate brother in a tent, with the surviving account written by that brother’s chancellor, is not a case where the sources can be weighed against each other in the ordinary way, because on the decisive points there is effectively one source with an interest. That is a specific and stateable problem, and it is better to say so than to retell the most dramatic version as though it were reported."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Where the new dynasty was tested",
+    "battleSlug": "battle-of-aljubarrota",
+    "relationship": "same-factions",
+    "reason": "Montiel put the Trastámaras on the Castilian throne, and the line spent the next twenty years defending that title. Henry II’s son John I of Castile pressed the family’s claim to Portugal and was broken at Aljubarrota in 1385 — the first hard limit found by the dynasty founded in du Guesclin’s tent."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry II of Castile",
+        "type": "person",
+        "slug": "henry-ii-of-castile",
+        "label": "Won here and killed his half-brother in person"
+      },
+      {
+        "title": "Peter of Castile",
+        "type": "person",
+        "slug": "peter-of-castile",
+        "label": "Defeated, besieged and murdered, 1369"
+      },
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "The ally whose withdrawal made this possible"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Nájera",
+        "type": "event",
+        "slug": "battle-of-najera",
+        "label": "The victory two years earlier that settled nothing"
+      },
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "Where the Trastámara claim met its limit, 1385"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider war that paid for both armies"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The crown that changed houses here"
+      },
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "Sent the contingent that fought for Peter"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "3 April 1367",
+      "title": "Nájera",
+      "description": "The Black Prince destroys Henry’s army but fails to catch him; Henry escapes over the Pyrenees to France."
+    },
+    {
+      "date": "1367–1368",
+      "title": "The alliance collapses",
+      "description": "Peter fails to pay the Prince, who withdraws to Aquitaine sick and bankrupt, leaving Castile without foreign protection."
+    },
+    {
+      "date": "1368",
+      "title": "Henry returns",
+      "description": "Backed by Charles V and leading French companies under du Guesclin, he retakes most of northern Castile and besieges Toledo."
+    },
+    {
+      "date": "March 1369",
+      "title": "Peter marches north",
+      "description": "He moves out of Andalusia with Castilian loyalists and a Granadan contingent to relieve the pressure on his supporters."
+    },
+    {
+      "date": "14 March 1369",
+      "title": "The battle",
+      "description": "The French men-at-arms break Peter’s line near Montiel; his army disperses rather than fighting it out."
+    },
+    {
+      "date": "14–22 March 1369",
+      "title": "Trapped on the rock",
+      "description": "Peter takes refuge in Montiel castle, which is too strong to storm and has almost no water; Henry rings it and waits."
+    },
+    {
+      "date": "23 March 1369",
+      "title": "The tent",
+      "description": "Peter comes down to bargain with du Guesclin for his escape, is confronted by Henry, and is stabbed to death after a struggle on the floor."
+    },
+    {
+      "date": "1369",
+      "title": "The Mercedes Enriqueñas",
+      "description": "Henry II secures the nobility with grants of royal land and rights on a scale that impoverishes the crown for generations."
+    },
+    {
+      "date": "1369",
+      "title": "Du Guesclin paid",
+      "description": "The Breton captain is made Duke of Molina, and Castile is formally tied to Charles V of France."
+    },
+    {
+      "date": "1372",
+      "title": "La Rochelle",
+      "description": "Castilian galleys in French service destroy an English fleet, delivering the naval advantage the civil war had been fought over."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Montiel.jpg"
+    },
+    {
+      "title": "Battle of Montiel — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Montiel"
+    },
+    {
+      "title": "Batalla de Montiel — Spanish Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://es.wikipedia.org/wiki/Batalla_de_Montiel"
+    },
+    {
+      "title": "Crónica del rey don Pedro",
+      "author": "Pero López de Ayala",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Pero_L%C3%B3pez_de_Ayala"
+    },
+    {
+      "title": "Encyclopedia of the Hundred Years War",
+      "author": "John A. Wagner",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Hundred_Years%27_War"
+    }
+  ]
+}

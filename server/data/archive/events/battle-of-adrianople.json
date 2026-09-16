@@ -1,0 +1,340 @@
+{
+  "id": "battle-of-adrianople",
+  "type": "event",
+  "name": "Battle of Adrianople",
+  "aliases": [
+    "Battle of Adrianople (1205)"
+  ],
+  "year": 1205,
+  "location": "Outside Adrianople in Thrace, on the broken ground north-east of the city",
+  "eventType": "Battle",
+  "conflict": "The Bulgarian–Latin war",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Adrianople%20(1205).png",
+  "imageInfo": {
+    "caption": "A 2009 battle plan of 14 April 1205: the Latin camp below Adrianople, the Cuman feigned retreat north-east, and the pits dug where the knights were caught.",
+    "creator": "Kandi (Wikimedia Commons)",
+    "date": "2009; shows 13–14 April 1205",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Adrianople_(1205).png",
+    "note": "A modern reconstruction rather than a period document, drawn from Villehardouin and Niketas Choniates; no contemporary depiction of the battle survives. The ground it shows is the point both chroniclers stress — that the Latins were drawn away from their siege lines into country chosen by Kaloyan. Released into the public domain by its author."
+  },
+  "summary": "Kaloyan of Bulgaria destroyed the field army of the Latin Empire outside Adrianople on 14 April 1205 and captured the emperor Baldwin I, who died in Bulgarian captivity; the empire founded a year earlier never replaced the knights it lost.",
+  "details": "This is the battle of 1205, not the Roman defeat of 378 on the same ground. A year after the Fourth Crusade took Constantinople, the Greek towns of Thrace rose against their new Latin lords and called in the Bulgarian tsar. Baldwin I besieged Adrianople with a few hundred knights; Kaloyan came to relieve it with a Bulgarian and Vlach army and some fourteen thousand Cuman horse-archers, who drew the Latin cavalry into pits dug for them. Count Louis of Blois was killed, Baldwin was taken, and the aged doge Enrico Dandolo brought the survivors out by night.",
+  "factions": [
+    "Latin Empire",
+    "Second Bulgarian Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Baldwin I",
+      "faction": "Latin army",
+      "personId": "baldwin-i-latin-emperor"
+    },
+    {
+      "name": "Enrico Dandolo",
+      "faction": "Latin army",
+      "personId": "enrico-dandolo"
+    },
+    {
+      "name": "Kaloyan",
+      "faction": "Bulgarian and Cuman army"
+    }
+  ],
+  "outcome": "Decisive Bulgarian victory. The Latin Empire's field army was destroyed, Louis of Blois and much of the crusading nobility were killed, and Baldwin I was carried to Tarnovo and died there in circumstances the sources do not agree on. His brother Henry of Flanders took the regency and then the crown, and the empire spent the rest of its sixty years unable to put a comparable force in the field.",
+  "participants": [
+    {
+      "side": "Latin army",
+      "factions": [
+        {
+          "name": "Latin Empire",
+          "title": "Latin Empire",
+          "type": "location",
+          "slug": "latin-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Baldwin I",
+          "type": "person",
+          "slug": "baldwin-i-latin-emperor"
+        },
+        {
+          "name": "Enrico Dandolo",
+          "type": "person",
+          "slug": "enrico-dandolo",
+          "note": "Doge of Venice, who commanded the night retreat."
+        },
+        {
+          "name": "Louis I of Blois",
+          "type": "person",
+          "note": "Count of Blois, killed leading the charge that lost the battle."
+        },
+        {
+          "name": "Geoffrey of Villehardouin",
+          "type": "person",
+          "note": "Marshal of the army and the chronicler of the campaign."
+        }
+      ],
+      "strength": {
+        "display": "c. 300 knights in a force of some 3,000–4,000",
+        "confidence": "estimated",
+        "note": "Villehardouin, who was the marshal of this army, counts the knights himself and his figure is the firmest number in the battle; the totals for sergeants, Venetians and camp followers are modern reconstructions around it.",
+        "min": 3000,
+        "max": 4000
+      }
+    },
+    {
+      "side": "Bulgarian and Cuman army",
+      "factions": [
+        {
+          "name": "Second Bulgarian Empire",
+          "note": "No article yet in this archive: the tsardom re-founded by the Asen brothers in 1185 and ruled from Tarnovo until 1396."
+        },
+        {
+          "name": "Cumans",
+          "title": "Cumans",
+          "type": "location",
+          "slug": "cumans"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Kaloyan",
+          "type": "person",
+          "note": "Tsar of Bulgaria, who planned the ambush; no biography in the Codex yet."
+        },
+        {
+          "name": "The Cuman captains",
+          "type": "person",
+          "note": "Commanders of the horse-archers, not named in the sources."
+        }
+      ],
+      "strength": {
+        "display": "c. 14,000 Cuman horse-archers with a larger Bulgarian and Vlach army",
+        "confidence": "chronicle-claim",
+        "note": "Villehardouin gives the Cumans as fourteen thousand and the whole host as about fifty-four thousand. The first figure is repeated by modern accounts; the second is a defeated eyewitness measuring the enemy, and should be read as \"far more than we had\" rather than a count.",
+        "min": 14000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Adrianople of 14 April 1205 was fought between the Latin Empire founded by the Fourth Crusade and the Bulgarian tsar Kaloyan. It is not the Battle of Adrianople of 378, in which the Goths destroyed the emperor Valens on the same Thracian plain; the two are separated by more than eight centuries and are constantly confused because the city kept its name. This one killed no emperor outright. It did something the Latins found harder to survive: it took their army and their ruler in an afternoon.",
+        "Baldwin I had been crowned in Constantinople less than a year before. When the Greek population of Thrace rebelled and called in Kaloyan, Baldwin marched on Adrianople with whatever knights were not garrisoning the new conquests. Kaloyan used his Cuman allies exactly as steppe cavalry had always been used against western knights: a shower of arrows, a feigned flight, and prepared ground at the end of the pursuit."
+      ]
+    },
+    {
+      "title": "A year-old empire and an angry neighbour",
+      "paragraphs": [
+        "The crusaders who stormed Constantinople in April 1204 partitioned an empire they had not conquered. Baldwin of Flanders took the imperial title and a strip of Thrace, Boniface of Montferrat took Thessalonica, the Venetians took the ports, and the Greek aristocracy of the provinces was expected to accept new lords who held their lands by conquest and would not confirm their privileges. In the spring of 1205 the towns of Thrace rose, beginning with Adrianople, and drove out or killed the Latin garrisons.",
+        "Kaloyan had already offered the Latins an alliance and been refused in terms that made an enemy of him: his ambassadors were told he was a subject rebelling against his rightful lords. He had spent a decade making Bulgaria a power again, had taken a crown from a papal legate at Tarnovo in November 1204, and he had the Cuman confederation of the Danube steppe on retainer. When the Thracian Greeks asked for help, he had both the motive and the cavalry."
+      ]
+    },
+    {
+      "title": "The siege and the first day",
+      "paragraphs": [
+        "Baldwin invested Adrianople in late March with a force too small for the work: siege engines against a walled city, a mine under one tower, and not enough men to close the circuit. Kaloyan reached the area on about 10 April and camped some twenty-five kilometres off. On 13 April a Cuman raiding party rode up to the Latin camp, shot into it, and withdrew when the knights came out; the pursuit went several kilometres and achieved nothing.",
+        "That was the rehearsal. Baldwin called a council, and it agreed the obvious discipline: no one was to break ranks, whatever provocation the horse-archers offered. Villehardouin, who was there as marshal, records the order and records that it was given twice."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "On the morning of 14 April, Easter Thursday by the Latin reckoning, the Cumans came again and shot into the camp while the army was at its devotions. Count Louis of Blois, who had been ill and was carried to his horse, treated the interruption as a sacrilege and charged with his own knights. Baldwin followed him rather than leave him unsupported, with perhaps two hundred more. The Cumans fled for about four kilometres, the standard distance of a steppe feint, and the pursuit strung itself out across country the Bulgarians had prepared.",
+        "Where the ground broke, the Latins met pits dug and covered to catch horses, and the Cumans turned. Kaloyan's Bulgarian and Vlach infantry came out of the ravines behind them, and the fighting became what heavy cavalry most feared: dismounted knights, in small groups, surrounded on foot. Villehardouin and Niketas Choniates agree on the method used to unhorse them, with ropes and hooked poles. Louis of Blois was killed with Renaud de Montmirail, Stephen du Perche and most of the knights who had ridden out. Baldwin was pulled down and taken alive.",
+        "In the camp the marshal and the doge held the remaining troops together. Enrico Dandolo, blind and past ninety, organised a retreat that began after nightfall and did not stop until it reached the sea at Rodosto. He died some weeks later at Constantinople, worn out by it, and was buried in Hagia Sophia."
+      ]
+    },
+    {
+      "title": "Baldwin in Tarnovo",
+      "paragraphs": [
+        "Baldwin was taken to Tarnovo and imprisoned in the Tsarevets fortress; the tower shown to visitors there is still called Baldwin's Tower, though the structure was rebuilt in 1930. What happened to him afterwards is genuinely unrecoverable. Kaloyan wrote to Pope Innocent III that the emperor had died in captivity, and his brother Henry accepted it and took the crown; nothing in the record fixes the date or the cause.",
+        "The chroniclers then went to work on the gap. Niketas Choniates has him tortured and killed; George Akropolites has his skull made into a drinking cup, which is what Byzantine writers had said of Nikephoros I and Khan Krum four centuries earlier and is a literary formula rather than evidence; a later western tale has him executed for making advances to Kaloyan's wife. Henry of Flanders, who had every reason to blacken Kaloyan, reported instead that his brother had been treated with respect. A man who turned up in Flanders in 1225 claiming to be Baldwin was hanged as an impostor, which is its own comment on how unfinished the story felt."
+      ]
+    },
+    {
+      "title": "What it cost the Latin Empire",
+      "paragraphs": [
+        "The Latin Empire never rebuilt the force it lost on 14 April. Its strength had always been a few thousand western knights who could not be replaced from the country they ruled, and after Adrianople it fought its wars with hired men, Venetian ships and whatever crusading parties passed through. Henry of Flanders, regent from 1205 and emperor from 1206, proved much the better ruler of the two brothers — he beat the Bulgarians in the field, made terms with the Greek aristocracy his brother had alienated, and held the thing together until his death in 1216 — but he was managing a shortage rather than ending it.",
+        "The beneficiary was Nicaea. While the Latins spent their field army in Thrace, Theodore Laskaris was consolidating the strongest of the Greek successor states in Asia, and it was his line's general who walked into Constantinople in 1261. Kaloyan gained less than the victory promised: he took Serres, ravaged Thrace and Macedonia, adopted the title Romanoktonos — Roman-slayer, a deliberate answer to Basil II's Bulgar-slayer — and was dead outside Thessalonica in October 1207, of pleurisy by one account and by a lance from Saint Demetrius in another."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Baldwin in Tarnovo",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bulgaria%20Bulgaria-0992%20-%20Baldwin%27s%20Tower%20(7433563024).jpg",
+      "caption": "Baldwin's Tower at the Tsarevets fortress in Veliko Tarnovo, photographed in 2012; the tower was rebuilt in 1930 on the medieval foundations.",
+      "creator": "Dennis G. Jarvis",
+      "date": "2012 photograph; the fortress is thirteenth-century, the tower a 1930 reconstruction",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulgaria_Bulgaria-0992_-_Baldwin%27s_Tower_(7433563024).jpg",
+      "note": "The association with Baldwin is local tradition rather than documented fact: the sources say only that he was held and died at Tarnovo. Licensed CC BY-SA 2.0."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the empire this defeat crippled",
+    "battleSlug": "battle-of-pelagonia",
+    "relationship": "same-factions",
+    "reason": "Adrianople took the Latin Empire's knights in a single afternoon and it never replaced them; at Pelagonia in 1259 the Nicaeans destroyed the last western coalition assembled to defend the conquest, and Constantinople fell back into Greek hands two years later."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Baldwin I, Latin Emperor",
+        "type": "person",
+        "slug": "baldwin-i-latin-emperor",
+        "label": "Captured here; died in Bulgarian captivity"
+      },
+      {
+        "title": "Enrico Dandolo",
+        "type": "person",
+        "slug": "enrico-dandolo",
+        "label": "Commanded the retreat; died weeks later"
+      },
+      {
+        "title": "Henry of Flanders",
+        "type": "person",
+        "slug": "henry-of-flanders",
+        "label": "Regent after the defeat, then his brother's successor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Constantinople (1204)",
+        "type": "event",
+        "slug": "siege-of-constantinople-1204",
+        "label": "The conquest this defeat undermined"
+      },
+      {
+        "title": "Fourth Crusade",
+        "type": "event",
+        "slug": "fourth-crusade",
+        "label": "The campaign that created the Latin Empire"
+      },
+      {
+        "title": "Battle of Pelagonia",
+        "type": "event",
+        "slug": "battle-of-pelagonia",
+        "label": "The next collapse of Latin power in Greece"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Latin Empire",
+        "type": "location",
+        "slug": "latin-empire",
+        "label": "Lost its field army here"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Medieval Adrianople, the city under siege"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Flanders-Hainaut",
+        "type": "house",
+        "slug": "house-of-flanders-hainaut",
+        "label": "The dynasty that lost one emperor and gained another"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "13 April 1204",
+      "title": "Constantinople stormed",
+      "description": "The Fourth Crusade takes the city; Baldwin of Flanders is elected emperor a month later."
+    },
+    {
+      "date": "November 1204",
+      "title": "Kaloyan crowned at Tarnovo",
+      "description": "A papal legate crowns the Bulgarian tsar, whose offer of alliance the Latins have already refused."
+    },
+    {
+      "date": "February–March 1205",
+      "title": "The Thracian towns rise",
+      "description": "Adrianople and its neighbours expel their Latin garrisons and ask Kaloyan for protection."
+    },
+    {
+      "date": "Late March 1205",
+      "title": "Baldwin besieges Adrianople",
+      "description": "The emperor arrives with too few men to close the circuit and begins mining a tower."
+    },
+    {
+      "date": "10 April 1205",
+      "title": "Kaloyan comes up",
+      "description": "The Bulgarian army camps some twenty-five kilometres from the Latin siege lines."
+    },
+    {
+      "date": "13 April 1205",
+      "title": "The first Cuman raid",
+      "description": "Horse-archers shoot into the camp and withdraw; the pursuit gains nothing and the council forbids another."
+    },
+    {
+      "date": "14 April 1205",
+      "title": "Louis of Blois charges",
+      "description": "The Cumans return during the Easter observance; Louis breaks the order and Baldwin follows to support him."
+    },
+    {
+      "date": "14 April 1205",
+      "title": "The pits and the encirclement",
+      "description": "The feigned retreat ends in prepared ground; the knights are unhorsed, Louis of Blois is killed and Baldwin is taken."
+    },
+    {
+      "date": "14–15 April 1205",
+      "title": "Dandolo's night march",
+      "description": "The blind doge brings the survivors out of Thrace to the coast at Rodosto."
+    },
+    {
+      "date": "June 1205",
+      "title": "Death of Enrico Dandolo",
+      "description": "The doge dies at Constantinople, worn out by the retreat, and is buried in Hagia Sophia."
+    },
+    {
+      "date": "1205–1206",
+      "title": "Henry takes the regency, then the crown",
+      "description": "Baldwin's brother governs in his name, and is crowned emperor on 20 August 1206 once the death is accepted."
+    },
+    {
+      "date": "October 1207",
+      "title": "Kaloyan dies at Thessalonica",
+      "description": "The victor of Adrianople dies besieging the city, by one account of pleurisy and by another at the lance of Saint Demetrius."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Adrianople_(1205).png"
+    },
+    {
+      "title": "Battle of Adrianople (1205) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Adrianople_(1205)"
+    },
+    {
+      "title": "Bataille d'Andrinople (1205) — French Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://fr.wikipedia.org/wiki/Bataille_d%27Andrinople_(1205)"
+    },
+    {
+      "title": "Kaloyan of Bulgaria — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Kaloyan_of_Bulgaria"
+    },
+    {
+      "title": "Geoffrey of Villehardouin, La Conquête de Constantinople",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Geoffrey_of_Villehardouin"
+    }
+  ]
+}

@@ -115,7 +115,14 @@
     {
       "date": "1189",
       "title": "Killed at Acre",
-      "description": "Dies fighting at the siege of Acre."
+      "description": "Dies fighting at the siege of Acre.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     }
   ],
   "relatedEntries": {
@@ -136,6 +143,12 @@
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin"
+      },
+      {
+        "title": "Siege of Acre",
+        "type": "event",
+        "slug": "siege-of-acre",
+        "label": "Killed in the battle of 4 October 1189"
       }
     ],
     "orders": [

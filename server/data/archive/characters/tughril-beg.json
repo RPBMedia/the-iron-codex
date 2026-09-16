@@ -111,7 +111,14 @@
     {
       "date": "May 1040",
       "title": "Dandanaqan",
-      "description": "With Chaghri, destroys the Ghaznavid army; the brothers divide the east."
+      "description": "With Chaghri, destroys the Ghaznavid army; the brothers divide the east.",
+      "links": [
+        {
+          "title": "Battle of Dandanaqan",
+          "type": "event",
+          "slug": "battle-of-dandanaqan"
+        }
+      ]
     },
     {
       "date": "1040s–1050s",
@@ -168,6 +175,12 @@
         "type": "event",
         "slug": "battle-of-manzikert",
         "label": "Fought by his nephew with the empire he built"
+      },
+      {
+        "title": "Battle of Dandanaqan",
+        "type": "event",
+        "slug": "battle-of-dandanaqan",
+        "label": "The victory that made him sultan, 1040"
       }
     ]
   },

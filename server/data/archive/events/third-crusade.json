@@ -246,6 +246,14 @@
         "slug": "order-of-st-thomas-of-acre",
         "label": "Founded during this crusade to bury and care for English crusaders"
       }
+    ],
+    "events": [
+      {
+        "title": "Siege of Acre",
+        "type": "event",
+        "slug": "siege-of-acre",
+        "label": "The twenty-three months that consumed the crusade"
+      }
     ]
   },
   "timeline": [
@@ -269,7 +277,14 @@
     {
       "date": "1189",
       "title": "The siege of Acre begins",
-      "description": "Guy of Lusignan invests the city with a force too small to take it."
+      "description": "Guy of Lusignan invests the city with a force too small to take it.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     },
     {
       "date": "June 1190",
@@ -284,7 +299,14 @@
     {
       "date": "July 1191",
       "title": "Acre falls",
-      "description": "The city surrenders after two years; Philip II leaves for France within weeks."
+      "description": "The city surrenders after two years; Philip II leaves for France within weeks.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     },
     {
       "date": "August 1191",

@@ -117,7 +117,14 @@
     {
       "date": "1205",
       "title": "Captured at Adrianople",
-      "description": "Bulgarian forces captured him during a disastrous battle."
+      "description": "Bulgarian forces captured him during a disastrous battle.",
+      "links": [
+        {
+          "title": "Battle of Adrianople",
+          "type": "event",
+          "slug": "battle-of-adrianople"
+        }
+      ]
     },
     {
       "date": "1205",
@@ -160,6 +167,12 @@
         "title": "First Crusade Proclaimed",
         "type": "event",
         "slug": "first-crusade-called"
+      },
+      {
+        "title": "Battle of Adrianople",
+        "type": "event",
+        "slug": "battle-of-adrianople",
+        "label": "Captured here in 1205"
       }
     ]
   },

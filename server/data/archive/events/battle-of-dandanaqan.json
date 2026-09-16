@@ -1,0 +1,305 @@
+{
+  "id": "battle-of-dandanaqan",
+  "type": "event",
+  "name": "Battle of Dandanaqan",
+  "aliases": [
+    "Battle of Dandanqan",
+    "Battle of Dandanakan"
+  ],
+  "year": 1040,
+  "location": "Dandanaqan, on the desert road between Sarakhs and Merv in Khurasan",
+  "eventType": "Battle",
+  "conflict": "The Seljuk–Ghaznavid war for Khurasan",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul%20Military%20Museum%20Historic%20images%20Battle%20of%20Dandanakan%20in%202012%2001%206498.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Dandanaqan as painted for the Istanbul Military Museum, photographed in 2012: Turkmen horse-archers shooting into the Ghaznavid elephant corps.",
+    "creator": "Museum painting, artist unrecorded; photograph by Dosseman",
+    "date": "Modern museum painting, photographed 2012; shows 23 May 1040",
+    "source": "Istanbul Military Museum (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istanbul_Military_Museum_Historic_images_Battle_of_Dandanakan_in_2012_01_6498.jpg",
+    "note": "A modern Turkish national-history painting, not evidence for how the battle looked: it stages the elephants and the mounted archery that the written sources do describe, in the heroic register such museum commissions use. No medieval depiction of Dandanaqan is known. Photograph licensed CC BY-SA 4.0."
+  },
+  "summary": "The Seljuk brothers broke a much larger Ghaznavid army at Dandanaqan on 23 May 1040 after wearing it down for weeks without water or supplies; Tughril Beg was proclaimed ruler of Khurasan, and the Seljuk Empire dates from that day.",
+  "details": "Sultan Mas'ud I marched from Sarakhs toward Merv with the strongest army in the eastern Islamic world and arrived at Dandanaqan with it starving. Seljuk raiders had burned the fodder, fouled or held the wells and refused battle for weeks. When the fighting finally came it lasted three days, Ghaznavid detachments changed sides during it, and the sultan escaped toward Ghazna with a hundred horsemen. Khurasan, with Nishapur, Merv and Herat, passed to the Seljuks and never came back.",
+  "factions": [
+    "Seljuk Turks",
+    "Ghaznavid Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Tughril Beg",
+      "faction": "Seljuk army",
+      "personId": "tughril-beg"
+    },
+    {
+      "name": "Chaghri Beg",
+      "faction": "Seljuk army"
+    },
+    {
+      "name": "Mas'ud I of Ghazni",
+      "faction": "Ghaznavid army"
+    }
+  ],
+  "outcome": "Decisive Seljuk victory. Tughril Beg was proclaimed sultan of Khurasan and had the caliph named in the prayers of Nishapur, the Ghaznavids lost the western half of their empire permanently and fell back on Ghazna and northern India, and within fifteen years Tughril entered Baghdad as protector of the Abbasid caliph.",
+  "participants": [
+    {
+      "side": "Seljuk army",
+      "factions": [
+        {
+          "name": "Seljuk Turks",
+          "title": "Seljuk Turks",
+          "type": "location",
+          "slug": "seljuk-turks"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Tughril Beg",
+          "type": "person",
+          "slug": "tughril-beg"
+        },
+        {
+          "name": "Chaghri Beg",
+          "type": "person",
+          "note": "Tughril's brother and the field commander of the Khurasan campaign."
+        },
+        {
+          "name": "Musa Yabghu",
+          "type": "person",
+          "note": "Uncle of the two brothers and the third leader of the confederation."
+        }
+      ],
+      "strength": {
+        "display": "c. 16,000–20,000 horsemen",
+        "confidence": "estimated",
+        "note": "English and German summaries of the modern literature give sixteen and twenty thousand; the figure matters less than the fact that the Seljuks fought an enemy they had already emptied of water and food.",
+        "min": 16000,
+        "max": 20000
+      }
+    },
+    {
+      "side": "Ghaznavid army",
+      "factions": [
+        {
+          "name": "Ghaznavid Empire",
+          "note": "No article yet in this archive: the Turkic dynasty founded at Ghazna in 977 that ruled Khurasan and north-western India until 1186."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Mas'ud I of Ghazni",
+          "type": "person",
+          "note": "Sultan of Ghazna, who commanded in person and fled the field."
+        },
+        {
+          "name": "Sübaşı",
+          "type": "person",
+          "note": "Ghaznavid general in Khurasan, beaten by the Seljuks the year before."
+        }
+      ],
+      "strength": {
+        "display": "c. 30,000–50,000 with a corps of war elephants",
+        "confidence": "debated",
+        "note": "Estimates run from about thirty thousand to fifty thousand, with figures of one to three hundred elephants. The number is close to meaningless by the third day: the army had marched for weeks on short water, and units were deserting during the battle itself.",
+        "min": 30000,
+        "max": 50000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Dandanaqan was fought on 23 May 1040 at a caravan station on the waterless road between Sarakhs and Merv, and it transferred the richest province of the eastern Islamic world from one Turkish dynasty to another. The Ghaznavids had ruled Khurasan for two generations from Ghazna in what is now Afghanistan; the Seljuks were Oghuz Turkmen who had crossed the Oxus as migrants and mercenaries a decade earlier, and who had been raiding the province while refusing every offer of a pitched battle.",
+        "The victory made a nomadic confederation into a state. Tughril Beg was proclaimed ruler in Nishapur, and within fifteen years he had taken Baghdad and made the Abbasid caliph a client in his own capital. Alp Arslan, the son of the brother who commanded at Dandanaqan, would beat a Byzantine emperor at the Battle of Manzikert thirty-one years later and open Anatolia to Turkish settlement. The chain that ends in that battle begins on this road."
+      ]
+    },
+    {
+      "title": "How the Seljuks got into Khurasan",
+      "paragraphs": [
+        "The Seljuks were the followers of the house of Seljuk, Oghuz Turks from the Aral steppes who adopted Sunni Islam around the turn of the millennium and drifted south into Transoxiana as pastoralists and hired soldiers. Mahmud of Ghazna had settled a body of them in Khurasan and then tried to break them when they proved ungovernable. By the 1030s Tughril, his brother Chaghri and their uncle Musa were operating in the province with thousands of horsemen, taking Nishapur in 1038 and being driven out again.",
+        "Mas'ud I inherited a formidable machine from his father Mahmud and spent it badly. His attention was on India, where campaigning paid; the Khurasanian cities wanted a garrison that could actually protect their trade; and his general Sübaşı was beaten by the Seljuks in 1039 at Sarakhs. By the spring of 1040 the sultan had concluded that the problem needed his own presence and his whole field army, and he marched from Herat with the elephants."
+      ]
+    },
+    {
+      "title": "The march that lost the battle",
+      "paragraphs": [
+        "The Ghaznavid army was built for set-piece war: armoured cavalry, Indian elephants, a baggage train and the court that travelled with a sultan. The Seljuks were built to avoid exactly that, and they did. They shadowed the column across the sixty waterless miles between Sarakhs and Merv, burned the grazing in front of it, cut the supply line behind it and held the wells on the route. Men and horses arrived at Dandanaqan after days on short rations, in May heat, having been shot at without being able to close.",
+        "The Ghaznavid historian Abu'l-Fazl Bayhaqi, who served in Mas'ud's chancery and wrote the fullest account, describes an army already breaking before it fought: troops fighting each other over water, officers advising retreat and the sultan refusing it. The three days of fighting that followed were less a battle than the collapse of a force that could no longer feed itself, and the Ghaznavid cavalry began going over to the Seljuks in the middle of it."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The engagement opened on 22 May and was decided on the 23rd. Seljuk horse-archers worked the flanks of a line that could not reach them, and the Ghaznavid wings, sent out to drive them off, were drawn apart and cut up in detail. The elephant corps, which needed water above all, was useless in the dust; the cavalry of the right wing deserted with its commanders.",
+        "Mas'ud fought on foot when his horse was killed and then got away toward Ghazna with a hundred riders, the treasury and camp lost behind him. The Seljuk leaders divided what they had taken: Tughril took the title of sultan and the western lands, Chaghri took Merv and the east, and Musa took Herat and the south. Then they sent to the caliph in Baghdad to have the arrangement recognised."
+      ]
+    },
+    {
+      "title": "The end of Ghaznavid Khurasan",
+      "paragraphs": [
+        "Mas'ud did not survive the defeat politically. He gathered what remained and set out for India with the treasury; his own troops mutinied on the road early in 1041, put his blinded brother Muhammad on the throne, and killed him in prison. The dynasty held Ghazna and the Punjab for another century and a half and produced able rulers, but it was a power in Afghanistan and northern India from that point on, not in Iran.",
+        "For the cities of Khurasan the change was less catastrophic than the campaign had been. Nishapur, Merv and Herat had been fought over and requisitioned by both sides; the Seljuks, once they were a government rather than a raiding confederation, needed the tax revenue and the Persian administrative class that collected it. Within a generation the vizier Nizam al-Mulk was running an empire from Isfahan with Persian bureaucrats and endowed colleges, which is the shape Seljuk rule kept."
+      ]
+    },
+    {
+      "title": "Why it mattered beyond Iran",
+      "paragraphs": [
+        "Dandanaqan is the reason the Seljuk Empire has a starting date. It converted a mobile confederation with no fixed territory into the ruling power of Khurasan, gave it the revenue of the Silk Road cities, and set it looking west. Tughril entered Baghdad in December 1055, ended the Shia Buyid protectorate over the Abbasid caliphs and was named sultan by the caliph himself — the settlement that gave the Sunni caliphate a Turkish military guardian for the rest of the Middle Ages.",
+        "It also started a migration. The Turkmen bands whose raiding had won the battle were not soldiers the new sultanate could easily pay or restrain, and their answer to that problem was to push them at the frontier with the Byzantines. That policy filled Armenia and then Anatolia with Turkish pastoralists in the decades after 1040, and it is the background to Manzikert, to the Sultanate of Rum and to the Anatolian beyliks from which the Ottomans later emerged."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Why it mattered beyond Iran",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Seljuk%20Empire%20correct%20locator%20map.png",
+      "caption": "The Great Seljuk Empire at its height, on a modern map marking Dandanaqan in 1040 at its eastern edge and Manzikert in 1071 at its western.",
+      "creator": "MapMaster and Nihil scimus, after William Shepherd",
+      "date": "2025 revision of a 2008 map; shows the empire c. 1092",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seljuk_Empire_correct_locator_map.png",
+      "note": "A modern reconstruction on present-day coastlines and borders; the shaded frontiers of a nomadic-military empire were never as firm as a map line. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Seljuks west",
+    "battleSlug": "battle-of-manzikert",
+    "relationship": "same-factions",
+    "reason": "Dandanaqan gave the Seljuks Khurasan and a state; thirty-one years later Chaghri Beg's son Alp Arslan used that state's cavalry to destroy a Byzantine emperor's army at Manzikert and open Anatolia to Turkish settlement."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Tughril Beg",
+        "type": "person",
+        "slug": "tughril-beg",
+        "label": "Proclaimed sultan after the victory"
+      },
+      {
+        "title": "Alp Arslan",
+        "type": "person",
+        "slug": "alp-arslan",
+        "label": "Son of Chaghri Beg, and the victor of Manzikert thirty-one years later"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "Where the empire founded here reached Anatolia"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "The empire that dates from this battle"
+      },
+      {
+        "title": "Sultanate of Rum",
+        "type": "location",
+        "slug": "sultanate-of-rum",
+        "label": "The Anatolian branch of the Seljuk house"
+      },
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Taken under Seljuk protection fifteen years later"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Seljuk",
+        "type": "house",
+        "slug": "house-of-seljuk",
+        "label": "The dynasty the victory established"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "c. 1025",
+      "title": "The Seljuks cross the Oxus",
+      "description": "Oghuz Turkmen under the house of Seljuk move into Ghaznavid Khurasan as pastoralists and hired horsemen."
+    },
+    {
+      "date": "1030",
+      "title": "Mas'ud I takes Ghazna",
+      "description": "Mahmud's son seizes the throne from his brother Muhammad and inherits the strongest army in the eastern Islamic world."
+    },
+    {
+      "date": "1035",
+      "title": "Nasa",
+      "description": "A Ghaznavid force sent to expel the newcomers is beaten, and the Seljuks are granted lands in the province instead."
+    },
+    {
+      "date": "1038",
+      "title": "Nishapur taken",
+      "description": "Tughril Beg is proclaimed in the great city of Khurasan, and is driven out again soon afterwards."
+    },
+    {
+      "date": "1039",
+      "title": "Sarakhs",
+      "description": "Mas'ud's general Sübaşı is defeated, and the sultan decides to bring his own army into the province."
+    },
+    {
+      "date": "Spring 1040",
+      "title": "The march from Sarakhs",
+      "description": "The Ghaznavid army sets out for Merv; Seljuk raiders burn the grazing, cut the supply line and hold the wells."
+    },
+    {
+      "date": "22–23 May 1040",
+      "title": "Dandanaqan",
+      "description": "Three days of fighting end with Ghaznavid units deserting and the army destroyed at the caravan station."
+    },
+    {
+      "date": "May 1040",
+      "title": "The partition",
+      "description": "Tughril takes the sultanate and the west, Chaghri takes Merv and the east, Musa takes Herat and the south."
+    },
+    {
+      "date": "January 1041",
+      "title": "Mas'ud murdered",
+      "description": "His own troops mutiny on the road to India, enthrone his blinded brother Muhammad and kill him in prison."
+    },
+    {
+      "date": "December 1055",
+      "title": "Tughril enters Baghdad",
+      "description": "The Abbasid caliph names him sultan and the Buyid protectorate ends, fifteen years after Dandanaqan."
+    },
+    {
+      "date": "26 August 1071",
+      "title": "Manzikert",
+      "description": "Alp Arslan destroys the Byzantine field army, and Turkish settlement of Anatolia follows."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Istanbul_Military_Museum_Historic_images_Battle_of_Dandanakan_in_2012_01_6498.jpg"
+    },
+    {
+      "title": "Battle of Dandanaqan — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dandanaqan"
+    },
+    {
+      "title": "Schlacht von Dandanqan — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_von_Dandanqan"
+    },
+    {
+      "title": "Abu'l-Fazl Bayhaqi, Tarikh-i Bayhaqi",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Abu%27l-Fazl_Bayhaqi"
+    }
+  ]
+}

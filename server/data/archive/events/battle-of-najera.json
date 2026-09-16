@@ -1,0 +1,358 @@
+{
+  "id": "battle-of-najera",
+  "type": "event",
+  "name": "Battle of Nájera",
+  "aliases": [
+    "Battle of Navarrete"
+  ],
+  "year": 1367,
+  "location": "North-east of Nájera, on the Najerilla in La Rioja, Castile",
+  "eventType": "Battle",
+  "conflict": "The Castilian civil war of 1366–1369",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_najera_froissart.jpg",
+  "imageInfo": {
+    "caption": "Nájera in a Froissart manuscript illuminated by Loyset Liédet about 1470, with English archers shooting beneath the banner of Castile.",
+    "creator": "Loyset Liédet",
+    "date": "c. 1470; shows 3 April 1367",
+    "source": "Bibliothèque nationale de France, MS Fr. 2643, fol. 312v (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_najera_froissart.jpg",
+    "note": "Painted a century after the battle for a Burgundian patron, so the plate armour and the walled town behind are the illuminator’s own world rather than 1367. It is evidence for how the Froissart tradition pictured the fight — archery deciding it — not for what the field looked like. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Najera.jpg",
+      "caption": "A second fifteenth-century Froissart miniature of Nájera, its rubric reading “la bataille de nazree en espaigne”.",
+      "creator": "Unknown illuminator",
+      "date": "15th century",
+      "source": "Morgan Library & Museum, MS M.804, fol. 197r (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Najera.jpg",
+      "note": "Shows the two crowned half-brothers fighting in person under the arms of Castile, which is how the chronicle tradition preferred to imagine a dynastic war; neither king met the other on the field. Public domain."
+    }
+  ],
+  "summary": "On 3 April 1367 Edward, the Black Prince, destroyed Henry of Trastámara’s army near Nájera and put Peter of Castile back on his throne — and got nothing for it: Henry escaped, Peter never paid, and the campaign wrecked the Prince’s health, his finances and the English position in Aquitaine.",
+  "details": "Castile’s civil war drew in England and France because both wanted its fleet. The Black Prince crossed the Pyrenees through Navarre with an army of Gascon, English and free-company mercenaries, and on 3 April 1367 caught Henry of Trastámara drawn up with the river Najerilla at his back. Bertrand du Guesclin’s vanguard fought hard and was surrounded; the Castilian light horse was shot down by English archers; the rest of Henry’s army broke and drowned or was cut down at the bridge of Nájera. Du Guesclin was captured. Henry got away over the Pyrenees, which is why the Prince, told that his enemy was neither dead nor taken, said in Gascon that nothing had been done.",
+  "factions": [
+    "Kingdom of England",
+    "Kingdom of Castile"
+  ],
+  "leaders": [
+    {
+      "name": "Edward, the Black Prince",
+      "faction": "Anglo-Gascon army",
+      "personId": "edward-the-black-prince"
+    },
+    {
+      "name": "Peter of Castile",
+      "faction": "Anglo-Gascon army",
+      "personId": "peter-of-castile"
+    },
+    {
+      "name": "Henry of Trastámara",
+      "faction": "Trastámaran army",
+      "personId": "henry-ii-of-castile"
+    }
+  ],
+  "outcome": "Crushing Anglo-Gascon victory that restored Peter of Castile and settled nothing. Henry of Trastámara escaped to France and returned within two years; Bertrand du Guesclin was captured and ransomed; Peter never paid the Prince the promised money or territory, the alliance collapsed, and the Prince went home with a ruined treasury and the illness that ended his career.",
+  "participants": [
+    {
+      "side": "Anglo-Gascon army",
+      "factions": [
+        {
+          "name": "Principality of Aquitaine",
+          "title": "Aquitaine",
+          "type": "location",
+          "slug": "aquitaine"
+        },
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        },
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward, the Black Prince",
+          "type": "person",
+          "slug": "edward-the-black-prince"
+        },
+        {
+          "name": "Peter of Castile",
+          "type": "person",
+          "slug": "peter-of-castile"
+        },
+        {
+          "name": "John of Gaunt",
+          "type": "person",
+          "note": "The Prince’s brother, who commanded a division of the vanguard."
+        },
+        {
+          "name": "Sir John Chandos",
+          "type": "person",
+          "note": "Constable of Aquitaine and the Prince’s senior captain in the vanguard."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000, most of them mercenaries of the free companies",
+        "confidence": "debated",
+        "note": "The figure follows Pero López de Ayala, who was on the other side and was captured in the battle. Froissart gives 24,000, which he took from the Chandos Herald and which no modern historian accepts; the army’s character matters more than its size, since it was assembled from the companies that had been ravaging France since Brétigny.",
+        "min": 8000,
+        "max": 10000
+      }
+    },
+    {
+      "side": "Trastámaran army",
+      "factions": [
+        {
+          "name": "Kingdom of Castile",
+          "title": "Kingdom of Castile",
+          "type": "location",
+          "slug": "kingdom-of-castile"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry of Trastámara",
+          "type": "person",
+          "slug": "henry-ii-of-castile"
+        },
+        {
+          "name": "Bertrand du Guesclin",
+          "type": "person",
+          "note": "Breton captain commanding Henry’s vanguard, captured on the field."
+        },
+        {
+          "name": "Don Tello",
+          "type": "person",
+          "note": "Henry’s brother, who led the Castilian light horse and left the field."
+        }
+      ],
+      "strength": {
+        "display": "c. 4,500, of whom about 1,000 were French and Breton men-at-arms",
+        "confidence": "debated",
+        "note": "Ayala’s figure again, and the more credible one. Froissart’s 76,000 — raised by some later English writers to 86,000 — is a chronicle fantasy; the point the reliable sources make is that Henry was outnumbered roughly two to one and chose to fight anyway, against du Guesclin’s advice.",
+        "min": 4000,
+        "max": 6000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Nájera, fought on 3 April 1367 in La Rioja and also called the Battle of Navarrete, was the last great field victory of Edward, the Black Prince, and the one that destroyed him. It was fought to decide the Castilian civil war between Peter of Castile and his illegitimate half-brother Henry of Trastámara, and it was fought by English and French soldiers because both crowns wanted control of the Castilian war fleet, the largest in the Atlantic.",
+        "Tactically it went perfectly. Henry’s army was caught with a river behind it, his light cavalry was shot off the field by English archers, his vanguard was surrounded, and his best commander was taken prisoner. Strategically it was a catastrophe for the winners. Henry himself escaped, Peter never paid a penny of what he had promised, and the Prince returned to Aquitaine with an empty treasury, a sick body and the tax demands that would push his Gascon lords into appealing to the King of France."
+      ]
+    },
+    {
+      "title": "Why England and France cared about Castile",
+      "paragraphs": [
+        "The Treaty of Brétigny in 1360 had paused the war between England and France and left both kingdoms with the same problem: thousands of unemployed soldiers of the free companies living off whatever countryside they were standing in. In late 1365 Charles V of France, helped by Pope Urban V, paid to send most of them over the Pyrenees under the pretext of a crusade against Granada, and then France and Aragon paid to turn them into an army for Henry of Trastámara. It removed the companies from France and put a French client on the Castilian throne in the same stroke, and by 1366 Peter had been driven out of his kingdom.",
+        "What made Castile worth this trouble was its navy. Castilian galleys outnumbered and outclassed anything England or France could put to sea, and whichever side had them could dominate the Channel approaches and the Gascon wine route. Peter fled to Bayonne and asked the Black Prince for help; the Prince, who ruled Aquitaine and needed both money and employment for his own soldiers, agreed at a meeting with Peter and Charles II of Navarre in 1366 on terms that were never going to be honoured — Peter would repay the whole cost of the army and hand over Castilian territory to Aquitaine."
+      ]
+    },
+    {
+      "title": "The march and the first defeat",
+      "paragraphs": [
+        "Getting into Castile meant crossing Navarre, whose king Charles II had promised the pass to both sides and was paid by both. He solved the problem by arranging his own capture during a hunt so that he could not be expected to fight for anyone. The Prince’s army came through in February 1367 and found Henry doing exactly what he had been advised to do: refusing battle and wearing the invaders down in a hungry country.",
+        "That strategy worked while it lasted. In the third week of March, at Ariñez in the Basque country, Henry’s light horse under Don Tello and his French knights destroyed a reconnaissance detachment under Sir Thomas Felton; Sir William Felton was killed and several English captains taken. It was the first defeat the Prince’s army had suffered and it shook its confidence. But avoiding battle looked like cowardice to the Castilian nobility whose support Henry needed, and when the Prince crossed the Ebro at Logroño, Henry gave up the line of the Najerilla and came out to fight in the open — over the objections of du Guesclin and every one of his field commanders."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Prince did not attack from the direction Henry was watching. According to the Chandos Herald his army marched from Navarrete by night on a roundabout route and came over a hill at first light on the north-east flank of an army still facing east. Henry’s vanguard under du Guesclin wheeled to meet it, but behind them the line was breaking up in the confusion, and some Castilian horse and a larger body of foot went over to the enemy. Rather than let the collapse spread, du Guesclin charged with the best Castilian troops and the French companies, and drove the English vanguard under John of Gaunt and Chandos back until the two sides were too close for spears and fought with swords, axes and daggers.",
+        "The battle was decided on the wings by archery. The Gascon companies began to work round du Guesclin’s flanks; Don Tello brought the Castilian light horse across to stop them and was met by the English archers, against whom lightly armoured horsemen had no protection at all, and his squadrons fled. Henry charged the Gascons himself several times and lost his horses to the same arrows. With the vanguard flanked and surrounded it was crushed, and the main body of Henry’s army — much of which had not fought — ran for the single narrow bridge over the Najerilla at Nájera. Most of the day’s casualties happened there, in the water and at the bridgehead, with the Majorcan and Aragonese horse riding them down. The victors then sacked the town."
+      ]
+    },
+    {
+      "title": "Nothing then is done",
+      "paragraphs": [
+        "When it was over the Prince asked whether Henry had been killed or captured. Told that he had not, he said — in the Gascon of his own duchy — “non ay res fait”: nothing then is done. It is the most honest verdict anyone gave on the battle. Henry had stood up to the most formidable army in Europe in the open field, which made his reputation with the Castilian nobility, and he got over the Pyrenees alive. The nobles captured with him mostly bought their way out of the mercenaries’ hands within months and went straight back to the war.",
+        "Peter, restored, did not pay. Whether he could not — his kingdom was still contested — or never meant to is argued either way, and he did write to Castilian towns demanding money for the Prince. What is certain is that the Prince got neither his costs nor the promised territory, that the English alliance with Castile ended there, and that Peter was left without a foreign protector. Two years later he was dead at the Battle of Montiel, killed by the half-brother he had beaten here."
+      ]
+    },
+    {
+      "title": "What it cost the winner",
+      "paragraphs": [
+        "The Prince came out of Spain with dysentery he never shook off; he was an invalid within a few years and dead in 1376, at forty-five. The campaign had been financed on credit against a repayment that never arrived, and the bill landed on Aquitaine. The hearth tax he imposed to cover it gave his Gascon lords a grievance and gave Charles V the opening he had been waiting for: in 1369 the appeals of the Gascon nobility were heard in Paris, the French declared the duchy forfeit, and the war that Brétigny had paused began again — this time with the French winning most of it.",
+        "The strategic prize went to the other side as well. Henry II, once secure, allied Castile to France, and the Castilian galleys the whole business had been about went into French service: in 1372 they destroyed an English fleet at La Rochelle. Nájera is therefore the clearest case in the Hundred Years’ War of a battle won completely and lost entirely — the tactics flawless, the archers decisive, and every political object of the campaign forfeited within five years."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The war’s last act",
+    "battleSlug": "battle-of-montiel",
+    "relationship": "same-war",
+    "reason": "Nájera put Peter of Castile back on the throne but left Henry of Trastámara alive and the Black Prince unpaid. When the Prince withdrew, Henry came back over the Pyrenees with French support, and in March 1369 at Montiel he beat Peter and then killed him in a tent — which is what Nájera had failed to prevent."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Commanded the victorious army"
+      },
+      {
+        "title": "Peter of Castile",
+        "type": "person",
+        "slug": "peter-of-castile",
+        "label": "Restored to his throne by the victory"
+      },
+      {
+        "title": "Henry II of Castile",
+        "type": "person",
+        "slug": "henry-ii-of-castile",
+        "label": "Beaten here, and king within two years"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Montiel",
+        "type": "event",
+        "slug": "battle-of-montiel",
+        "label": "Where the civil war actually ended, 1369"
+      },
+      {
+        "title": "Battle of Poitiers",
+        "type": "event",
+        "slug": "battle-of-poitiers",
+        "label": "The Prince’s earlier and more profitable victory, 1356"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider war the Castilian conflict fed into"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The throne being fought over"
+      },
+      {
+        "title": "Aquitaine",
+        "type": "location",
+        "slug": "aquitaine",
+        "label": "The principality the campaign bankrupted"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "Late 1365",
+      "title": "The companies sent to Spain",
+      "description": "Charles V and Pope Urban V pay to move the free companies out of France over the Pyrenees, ostensibly to crusade against Granada."
+    },
+    {
+      "date": "1366",
+      "title": "Peter driven out",
+      "description": "Henry of Trastámara, backed by the companies under du Guesclin, takes Castile; Peter flees to Bayonne and appeals to the Black Prince."
+    },
+    {
+      "date": "August 1366",
+      "title": "The bargain at Bayonne",
+      "description": "Peter, the Black Prince and Charles II of Navarre agree terms: passage through Navarre, and repayment of the whole cost of the army in money and Castilian land."
+    },
+    {
+      "date": "February 1367",
+      "title": "Over the Pyrenees",
+      "description": "The Prince’s army crosses Navarre after Charles II stages his own capture to avoid having to choose a side."
+    },
+    {
+      "date": "Third week of March 1367",
+      "title": "Ariñez",
+      "description": "Henry’s light horse and French knights wipe out Sir Thomas Felton’s reconnaissance force, the first defeat the Prince’s army suffers."
+    },
+    {
+      "date": "Late March 1367",
+      "title": "Henry leaves the river line",
+      "description": "Against du Guesclin’s advice he abandons the Najerilla position and offers open battle to keep the Castilian nobility behind him."
+    },
+    {
+      "date": "3 April 1367",
+      "title": "The flank march",
+      "description": "The Prince marches from Navarrete by night and appears at dawn on Henry’s north-eastern flank, against an army facing the wrong way."
+    },
+    {
+      "date": "3 April 1367",
+      "title": "The archers break the horse",
+      "description": "Don Tello’s light cavalry is shot off the field, du Guesclin’s vanguard is flanked and surrounded, and he is taken prisoner."
+    },
+    {
+      "date": "3 April 1367",
+      "title": "The bridge at Nájera",
+      "description": "Henry’s main body runs for the single bridge over the Najerilla and suffers most of the army’s losses there; the town is sacked."
+    },
+    {
+      "date": "3 April 1367",
+      "title": "“Nothing then is done”",
+      "description": "Told that Henry has escaped, the Prince gives his verdict on the victory in Gascon: non ay res fait."
+    },
+    {
+      "date": "1369",
+      "title": "The bill arrives",
+      "description": "Unpaid by Peter, the Prince taxes Aquitaine; the Gascon lords appeal to Charles V, who declares the duchy forfeit and restarts the war."
+    },
+    {
+      "date": "1372",
+      "title": "La Rochelle",
+      "description": "The Castilian fleet, now allied to France, destroys an English fleet — the naval prize the whole campaign had been fought for."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_najera_froissart.jpg"
+    },
+    {
+      "title": "Battle of Nájera — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_N%C3%A1jera"
+    },
+    {
+      "title": "Batalla de Nájera — Spanish Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://es.wikipedia.org/wiki/Batalla_de_N%C3%A1jera"
+    },
+    {
+      "title": "Crónicas de los Reyes de Castilla",
+      "author": "Pero López de Ayala",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Pero_L%C3%B3pez_de_Ayala"
+    },
+    {
+      "title": "The Life of the Black Prince by the Herald of Sir John Chandos",
+      "author": "Chandos Herald",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chandos_Herald"
+    },
+    {
+      "title": "The Hundred Years War II: Trial by Fire",
+      "author": "Jonathan Sumption",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Sumption"
+    }
+  ]
+}

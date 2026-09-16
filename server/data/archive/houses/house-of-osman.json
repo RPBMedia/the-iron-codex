@@ -232,6 +232,11 @@
           "title": "Bayezid I",
           "type": "person",
           "slug": "bayezid-i"
+        },
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
         }
       ]
     },
@@ -305,6 +310,12 @@
         "type": "event",
         "slug": "battle-of-varna",
         "label": "Secured Ottoman Europe, 1444"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "Where the dynasty lost its sultan and its army"
       }
     ],
     "locations": [

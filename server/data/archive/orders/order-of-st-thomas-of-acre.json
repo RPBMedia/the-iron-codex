@@ -104,7 +104,14 @@
     {
       "date": "c. 1191",
       "title": "Founded at Acre",
-      "description": "English crusaders form a hospital and burial confraternity dedicated to St Thomas Becket."
+      "description": "English crusaders form a hospital and burial confraternity dedicated to St Thomas Becket.",
+      "links": [
+        {
+          "title": "Siege of Acre",
+          "type": "event",
+          "slug": "siege-of-acre"
+        }
+      ]
     },
     {
       "date": "c. 1228",
@@ -175,6 +182,14 @@
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "The other Acre-based order"
+      }
+    ],
+    "events": [
+      {
+        "title": "Siege of Acre",
+        "type": "event",
+        "slug": "siege-of-acre",
+        "label": "Founded here to bury the English dead"
       }
     ]
   }

@@ -139,7 +139,8 @@
       "date": "13 Jul 1260",
       "role": "A crushing defeat that sparked Baltic revolts.",
       "opponent": "Samogitians",
-      "outcome": "Catastrophic defeat"
+      "outcome": "Catastrophic defeat",
+      "slug": "battle-of-durbe"
     },
     {
       "slug": "battle-of-grunwald",
@@ -193,7 +194,14 @@
     {
       "date": "1260",
       "title": "Durbe",
-      "description": "A great defeat by the Samogitians sparks revolts across the Baltic."
+      "description": "A great defeat by the Samogitians sparks revolts across the Baltic.",
+      "links": [
+        {
+          "title": "Battle of Durbe",
+          "type": "event",
+          "slug": "battle-of-durbe"
+        }
+      ]
     },
     {
       "date": "1410",
@@ -265,6 +273,12 @@
         "type": "event",
         "slug": "battle-of-grunwald",
         "label": "1410 — a Livonian contingent fought"
+      },
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "Where the Livonian master and his army were destroyed"
       }
     ],
     "locations": [

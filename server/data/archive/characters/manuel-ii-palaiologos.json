@@ -155,7 +155,14 @@
     {
       "date": "1402",
       "title": "Reprieve at Ankara",
-      "description": "Timur destroys Bayezid I at Ankara, lifting the siege and saving the city."
+      "description": "Timur destroys Bayezid I at Ankara, lifting the siege and saving the city.",
+      "links": [
+        {
+          "title": "Battle of Ankara",
+          "type": "event",
+          "slug": "battle-of-ankara"
+        }
+      ]
     },
     {
       "date": "21 July 1425",
@@ -200,7 +207,14 @@
         "label": "The Ottoman sultan who besieged Constantinople"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "The defeat that lifted the blockade of Constantinople"
+      }
+    ]
   },
   "sources": [
     {

@@ -46,22 +46,22 @@ const battleArticleNames = new Set(
 // tracked decision (create a full article later, or leave documented). Adding a
 // NEW unlinked battle reference not on this list fails the check.
 const BATTLE_BACKLOG = new Set([
-  'battle of aclea', 'battle of adrianople', 'battle of alfarrobeira',
-  'battle of ankara', 'battle of ashdown', 'battle of atoleiros', 'battle of ellandun',
+  'battle of aclea', 'battle of alfarrobeira',
+  'battle of ashdown', 'battle of atoleiros', 'battle of ellandun',
   'battle of ellendun', 'battle of ethandun', 'battle of falköping', 'battle of fimreite',
   'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
   'battle of hova', 'battle of la higueruela', 'battle of largs', 'battle of lincoln',
-  'battle of montiel', 'battle of nájera', 'battle of río salado', 'battle of salado',
-  'battle of brunkeberg', 'battle of shrewsbury', 'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
+  'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
   'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
-  'battle of visby', 'siege of acre',
+  'battle of visby',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
   'battle of ars', 'battle of largs.', 'battle of visby finds', 'battle of visby find',
   // Found 2026-09-16 by the bare-name check below: real engagements the archive
   // names without the words "Battle of", so the phrase regex never saw them.
   // Written 2026-09-16 and removed from this list: ain jalut, cortenuova,
   // courtrai, la forbie, lechfeld, mansurah. The list is for UNWRITTEN battles.
-  'battle of dandanaqan',
+  // Written 2026-09-17 and removed: siege of acre (the 1189-91 siege of the Third
+  // Crusade), adrianople (1205, not 378), ankara, dandanaqan, durbe.
   'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
   // Added 2026-09-16 with the four founding rulers of Lithuania (Mindaugas,
   // Gediminas, Algirdas, Kęstutis). Each is a real engagement their articles must
@@ -74,7 +74,7 @@ const BATTLE_BACKLOG = new Set([
   // Blue Waters is the strongest candidate of the five for a full article: the
   // first serious reversal the Horde suffered in the Rus' lands, eighteen years
   // before Kulikovo.
-  'battle of blue waters', 'battle of durbe', 'battle of saule',
+  'battle of blue waters', 'battle of saule',
   'battle of rudau', 'battle of strėva',
   'battle of soissons', 'battle of the trent', 'battle of velbazhd',
   'battle of the zab', 'battle of val-ès-dunes', 'battle of bornhöved',

@@ -376,7 +376,17 @@ const eventSortDates = {
   'battle-of-courtrai': { year: 1302, month: 7, day: 11 },
   'battle-of-bapheus': { year: 1302, month: 7, day: 27 },
   'battle-of-cortenuova': { year: 1237, month: 11, day: 27 },
-  'siege-of-ryazan': { year: 1237, month: 12, day: 21 }
+  'siege-of-ryazan': { year: 1237, month: 12, day: 21 },
+  // r54 battle batch. Every one of the three new battles shares a year with an
+  // event already in the archive, so its year-mate is added here as well:
+  // Arsuf (1191), Ain Jalut (1260) and Homildon Hill (1402) were all sorting to
+  // 1 January and jumping the queue.
+  'siege-of-acre': { year: 1191, month: 7, day: 12 }, // the day the city surrendered; the siege opened 28 August 1189
+  'battle-of-arsuf': { year: 1191, month: 9, day: 7 },
+  'battle-of-durbe': { year: 1260, month: 7, day: 13 },
+  'battle-of-ain-jalut': { year: 1260, month: 9, day: 3 },
+  'battle-of-ankara': { year: 1402, month: 7, day: 28 }, // 28 July is the usual modern date; some reference works give 20 July
+  'battle-of-homildon-hill': { year: 1402, month: 9, day: 14 }
 }
 
 function numericYear(value) {

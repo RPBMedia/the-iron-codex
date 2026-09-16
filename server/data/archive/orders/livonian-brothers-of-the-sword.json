@@ -208,6 +208,14 @@
         "slug": "teutonic-order",
         "label": "The order that absorbed it"
       }
+    ],
+    "events": [
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The Samogitians who had destroyed them, a generation on"
+      }
     ]
   }
 }

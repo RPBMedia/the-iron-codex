@@ -1,0 +1,302 @@
+{
+  "id": "battle-of-brunkeberg",
+  "type": "event",
+  "name": "Battle of Brunkeberg",
+  "aliases": [
+    "Slaget vid Brunkeberg"
+  ],
+  "year": 1471,
+  "location": "The Brunkeberg ridge north of Stockholm, Sweden",
+  "eventType": "Battle",
+  "conflict": "The Swedish wars of the Kalmar Union",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Entry_of_Sten_Sture_the_Elder_into_Stockholm_%28Georg_von_Rosen%29_-_Nationalmuseum_-_19214.tif?width=1600",
+  "imageInfo": {
+    "caption": "Sten Sture the Elder’s entry into Stockholm after Brunkeberg, an oil painting by Georg von Rosen, 1864.",
+    "creator": "Georg von Rosen",
+    "date": "1864; shows October 1471",
+    "source": "Nationalmuseum, Stockholm (inv. 19214), via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Entry_of_Sten_Sture_the_Elder_into_Stockholm_(Georg_von_Rosen)_-_Nationalmuseum_-_19214.tif",
+    "note": "Painted four centuries later at the height of Swedish national romanticism, and it shows the victors’ entry rather than the fighting: no contemporary depiction of the battle survives. It is best read as evidence for how nineteenth-century Sweden wanted 1471 to look, which is itself part of this battle’s story. Public domain."
+  },
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Schwedische_Karte_zur_Schlacht_am_Brunkeberg_1471.jpg",
+      "caption": "The dispositions at Brunkeberg, a map printed in Carl Grimberg’s Svenska folkets underbara öden before 1913.",
+      "creator": "Unknown draughtsman for Carl Grimberg",
+      "date": "before 1913",
+      "source": "Carl Grimberg, Svenska folkets underbara öden, vol. 1, p. 494 (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwedische_Karte_zur_Schlacht_am_Brunkeberg_1471.jpg",
+      "note": "A popular-history reconstruction rather than a survey, but it shows the three-pronged plan clearly — Sten Sture from the west, Nils Sture from Ladugårdsgärdet in the east, Knut Posse out of the city — and the Klara monastery where the union troops were cut off. Public domain."
+    }
+  ],
+  "summary": "On 10 October 1471 the forces of the regent Sten Sture the Elder beat King Christian I of Denmark on the ridge north of Stockholm, wounding him in the face with a handgun shot and leaving the Kalmar Union a name rather than a government in Sweden; most of the men on both sides were Swedes.",
+  "details": "Christian I sailed to Sweden to unseat Sten Sture, who had been elected regent at Arboga in May 1471, anchored his ships off Skeppsholmen and camped on the Brunkeberg ridge outside the small island town of Stockholm. Sture broke off negotiations and attacked on 10 October with a three-part plan: his own force from the west, his kinsman Nils Bosson Sture from the east, and Knut Posse sallying out of the city. Christian was hit in the face by a handgun ball and lost several teeth. When Nils Sture came out of the woods north of the ridge and Posse struck from the town, a body of union troops was cut off at the Klara monastery; Christian fell back towards Käpplingen, the improvised bridge was destroyed behind him, and many drowned.",
+  "factions": [
+    "Kingdom of Sweden",
+    "Kalmar Union"
+  ],
+  "leaders": [
+    {
+      "name": "Sten Sture the Elder",
+      "faction": "Sture’s Swedish army"
+    },
+    {
+      "name": "Christian I of Denmark",
+      "faction": "Union army",
+      "personId": "christian-i-of-denmark"
+    }
+  ],
+  "outcome": "Decisive victory for Sture’s party. Christian I was wounded and withdrew to Denmark, and Sten Sture governed Sweden as regent for most of the next thirty years while the Kalmar Union continued on paper. The union was not dissolved — no Swedish king was elected and Danish claims stood — but after 1471 no union monarch ruled in Sweden without fighting for it.",
+  "participants": [
+    {
+      "side": "Sture’s Swedish army",
+      "factions": [
+        {
+          "name": "Kingdom of Sweden",
+          "title": "Kingdom of Sweden",
+          "type": "location",
+          "slug": "kingdom-of-sweden"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Sten Sture the Elder",
+          "type": "person",
+          "note": "Elected Lord Protector of Sweden at Arboga in May 1471 and the victor here."
+        },
+        {
+          "name": "Nils Bosson Sture",
+          "type": "person",
+          "note": "His kinsman, who brought the eastern column out of the woods onto the ridge."
+        },
+        {
+          "name": "Knut Posse",
+          "type": "person",
+          "note": "Commander in Stockholm, who sallied from the town into the union rear."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the larger army, built on peasant levies from Uppland and Bergslagen with the Stockholm burghers",
+        "confidence": "unknown",
+        "note": "No muster roll survives for either side and the figures in later accounts are patriotic rather than documentary. The Swedish sources agree that Sture believed he had the bigger force, which is why he broke off the negotiations and attacked rather than settling."
+      }
+    },
+    {
+      "side": "Union army",
+      "factions": [
+        {
+          "name": "Kalmar Union",
+          "title": "Kalmar Union",
+          "type": "location",
+          "slug": "kalmar-union"
+        },
+        {
+          "name": "Kingdom of Denmark",
+          "title": "Kingdom of Denmark",
+          "type": "location",
+          "slug": "kingdom-of-denmark"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Christian I of Denmark",
+          "type": "person",
+          "slug": "christian-i-of-denmark"
+        }
+      ],
+      "strength": {
+        "display": "Unknown; Danes, north Germans and a large Swedish contingent of nobility and Uppland peasants",
+        "confidence": "unknown",
+        "note": "No reliable figure survives. The composition is the point and is well attested: a substantial part of Christian’s army was Swedish, which is the fact that the later national account of the battle had to leave out."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Brunkeberg was fought on 10 October 1471 on the sandy ridge that ran north of Stockholm, in what is now the middle of the city. On one side was Sten Sture the Elder, elected regent of Sweden five months earlier; on the other King Christian I of Denmark, who had sailed over to remove him and to make the Kalmar Union mean something again in its largest kingdom. Christian was shot in the face, his army was cut in two, and he went home.",
+        "The victory fixed Sweden’s position for a generation: Sture governed as regent for most of the next thirty years, and no union king ruled in Sweden again without fighting for it. It also became the most heavily mythologised battle in Swedish history, which is a separate matter and needs to be kept separate — because the largest single fact about Brunkeberg is that most of the men on both sides were Swedes."
+      ]
+    },
+    {
+      "title": "What the war was actually about",
+      "paragraphs": [
+        "The Kalmar Union had joined Denmark, Norway and Sweden under one monarch since 1397, and in Sweden it had never stopped being contested. The quarrel was not primarily about nationality; it was about money and who collected it. Union kings governed Sweden through bailiffs who took the revenues, and they ran a foreign policy centred on the Sound tolls and on Denmark’s relations with the Hanseatic towns. The iron and copper of Bergslagen went out through Stockholm to Lübeck and the other German cities, and the mining districts and the merchants who handled that trade wanted a government that would not sacrifice it to Danish diplomacy.",
+        "That is why Sweden’s revolts kept coming from the same places. The rising of Engelbrekt Engelbrektsson in 1434–36 began among the miners and peasants of Bergslagen; Charles VIII of Sweden was crowned and expelled three times; and when he died in 1470 he left his lands and Stockholm castle to his nephew Sten Sture, whom a meeting of the estates at Arboga elected regent on 1 May 1471. Sture’s support came from the peasantry, the mining region and the capital. Much of the higher nobility, whose estates and interests straddled the union, went the other way — and fought for Christian."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Christian sailed into Lake Mälaren’s outlet and anchored off Skeppsholmen, then camped his army on Brunkebergsåsen, the ridge north of the town. Stockholm at that date was only the island that is now Gamla Stan, so the ridge overlooked it from open ground. Negotiations for a settlement were under way and were broken off on Sture’s initiative: he had gathered the larger force and judged that he would do better by fighting.",
+        "The plan was to catch the union army in a vice. Sture would come at the ridge from the west, his kinsman Nils Bosson Sture from the east out of the woods towards Ladugårdsgärdet, and Knut Posse would sally from the city into the rear. It worked, though not quickly. Early in the fighting Christian was struck in the face by a shot from a handgun and lost several teeth, and had to leave the field — one of the earliest well-attested occasions on which a reigning king was wounded by a firearm. The decision came when Nils Sture’s column finally broke out of the forest north of the ridge at the same moment as Posse attacked from the town, cutting off a body of union troops at the Klara monastery. Christian pulled back east towards Käpplingen, the island now buried under Blasieholmen; Sture’s men destroyed the makeshift bridge his troops had thrown across, and a great many of them drowned."
+      ]
+    },
+    {
+      "title": "The saint and the story",
+      "paragraphs": [
+        "Sture is said to have prayed to Saint George before the battle, and in 1489 he paid Bernt Notke of Lübeck for the enormous oak group of Saint George and the Dragon that still stands in Storkyrkan in Stockholm, with an altar dedicated to the saint beside it. The horse carries Sture’s arms, and the group was made to serve as a funeral monument for him and his wife as well as a thanksgiving. Reading the dragon as Denmark is an old and natural interpretation, but it is a tradition rather than a documented intention, and the monument works perfectly well as a saint’s image in a parish church.",
+        "That statue is the beginning of the mythology. Over the following centuries Brunkeberg was rewritten as a national war of liberation in which a Swedish people threw off Danish oppression, and the rewriting was useful to every regime that did it — to the Vasa monarchy, to eighteenth-century patriots, and to the nineteenth-century painters and historians who gave it the images most Swedes still carry. Georg von Rosen’s canvas of Sture riding into Stockholm, painted in 1864, is a fine picture and a poor witness. A copy of Notke’s group was unveiled at Köpmantorget in 1912 on the 441st anniversary, which is a good indication of how carefully the date was still being kept."
+      ]
+    },
+    {
+      "title": "Separating the battle from the myth",
+      "paragraphs": [
+        "The correction historians make is not that the battle was unimportant but that it was a Swedish civil conflict fought inside a dynastic union, and the national reading gets the sides wrong. Christian’s army contained Swedish nobles and Uppland peasants in large numbers; Sture’s contained German mercenaries and depended on merchants whose interests were tied to Lübeck. What divided them was whether Sweden’s revenues and its Baltic trade would be governed from Copenhagen or from Stockholm, and which Swedish families would profit either way.",
+        "It is also worth being exact about what changed. The union was not ended in 1471, and Sweden did not become independent that day: no Swedish king was elected, Christian and his heirs kept their claim, and Sture himself governed in the union’s name while refusing its king. Hans of Denmark beat Sture’s peasant army at Rotebro in 1497 and was crowned; Sture rose again in 1501; the struggle ran on to the killings in Stockholm in 1520 and Gustav Vasa’s election in 1523. Brunkeberg made the arrangement a military fact rather than a legal one, and that is a real and dateable achievement without any of the flags."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Return to the Baltic’s earlier reckoning",
+    "battleSlug": "battle-of-grunwald",
+    "relationship": "earlier-context",
+    "reason": "Nothing later stands in the archive: the Codex era closes in 1453 and Brunkeberg is already past it. Grunwald in 1410 is the closest match in kind — the other occasion when a supranational power in the Baltic, the Teutonic Order, was broken in the field by a regional coalition and went on existing for decades as a shell, which is what happened to the Kalmar Union after 1471."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Christian I of Denmark",
+        "type": "person",
+        "slug": "christian-i-of-denmark",
+        "label": "Wounded and defeated here, 1471"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Gestilren",
+        "type": "event",
+        "slug": "battle-of-gestilren",
+        "label": "An earlier Swedish crown decided in battle, 1210"
+      },
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "The Baltic’s other supranational power broken, 1410"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Stockholm",
+        "type": "location",
+        "slug": "stockholm",
+        "label": "The town the ridge overlooked, and the prize"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "The union left a name rather than a government"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Governed by regents for thirty years after this"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Christian I’s realm and the union’s centre"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1434–1436",
+      "title": "The Engelbrekt rising",
+      "description": "Miners and peasants of Bergslagen revolt against union bailiffs and Sound-politics, setting the pattern for Swedish resistance."
+    },
+    {
+      "date": "1470",
+      "title": "Charles VIII dies",
+      "description": "Thrice crowned and thrice expelled, he leaves his lands and Stockholm castle to his nephew Sten Sture."
+    },
+    {
+      "date": "1 May 1471",
+      "title": "Elected at Arboga",
+      "description": "A meeting of the estates elects Sten Sture the Elder regent of Sweden, with support from the peasantry, Bergslagen and the capital."
+    },
+    {
+      "date": "Summer 1471",
+      "title": "Christian I sails",
+      "description": "The king brings over a force of Danes, north Germans and Swedish nobles to unseat Sture, anchoring off Skeppsholmen."
+    },
+    {
+      "date": "Autumn 1471",
+      "title": "Camp on the ridge",
+      "description": "The union army fortifies Brunkebergsåsen north of the island town while negotiations for a settlement continue."
+    },
+    {
+      "date": "10 October 1471",
+      "title": "Sture breaks off talks",
+      "description": "Judging his levy the larger force, he abandons the negotiations and attacks in three columns from west, east and the city."
+    },
+    {
+      "date": "10 October 1471",
+      "title": "The king shot in the face",
+      "description": "A handgun ball strikes Christian I, costing him several teeth and forcing him out of the battle."
+    },
+    {
+      "date": "10 October 1471",
+      "title": "The vice closes",
+      "description": "Nils Bosson Sture breaks out of the woods as Knut Posse sallies from the town, cutting off union troops at the Klara monastery."
+    },
+    {
+      "date": "10 October 1471",
+      "title": "The broken bridge",
+      "description": "Christian withdraws towards Käpplingen; his makeshift bridge is destroyed behind him and many of his men drown."
+    },
+    {
+      "date": "1489",
+      "title": "Saint George in Storkyrkan",
+      "description": "Sture commissions Bernt Notke’s oak group of Saint George and the Dragon, a thanksgiving and his own funeral monument."
+    },
+    {
+      "date": "1497",
+      "title": "Rotebro",
+      "description": "Hans of Denmark defeats Sture’s peasant army and is crowned, showing how little 1471 had settled in law."
+    },
+    {
+      "date": "1523",
+      "title": "The union ends in Sweden",
+      "description": "After the Stockholm killings of 1520, Gustav Vasa is elected king and the Kalmar Union finally loses its largest kingdom."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Entry_of_Sten_Sture_the_Elder_into_Stockholm_(Georg_von_Rosen)_-_Nationalmuseum_-_19214.tif"
+    },
+    {
+      "title": "Battle of Brunkeberg — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Brunkeberg"
+    },
+    {
+      "title": "Slaget vid Brunkeberg — Swedish Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/Slaget_vid_Brunkeberg"
+    },
+    {
+      "title": "Svenska folkets underbara öden, vol. 1",
+      "author": "Carl Grimberg",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Carl_Grimberg"
+    },
+    {
+      "title": "Battles of the Medieval World",
+      "author": "Kelly DeVries",
+      "type": "reference work",
+      "url": "https://en.wikipedia.org/wiki/Kelly_DeVries"
+    }
+  ]
+}

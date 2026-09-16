@@ -170,7 +170,14 @@
     {
       "date": "13 July 1260",
       "title": "The Order broken at Durbe",
-      "description": "A Samogitian victory kills the Livonian master and touches off the Great Prussian Uprising that September."
+      "description": "A Samogitian victory kills the Livonian master and touches off the Great Prussian Uprising that September.",
+      "links": [
+        {
+          "title": "Battle of Durbe",
+          "type": "event",
+          "slug": "battle-of-durbe"
+        }
+      ]
     },
     {
       "date": "1261",
@@ -218,6 +225,14 @@
         "type": "order",
         "slug": "teutonic-order",
         "label": "Bought in 1251, broken with in 1261"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The defeat after which he broke with the Order"
       }
     ]
   },

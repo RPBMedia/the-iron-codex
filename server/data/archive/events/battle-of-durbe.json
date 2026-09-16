@@ -1,0 +1,322 @@
+{
+  "id": "battle-of-durbe",
+  "type": "event",
+  "name": "Battle of Durbe",
+  "aliases": [
+    "Durbe"
+  ],
+  "year": 1260,
+  "location": "Marshy ground near Durbe in Courland, east of modern Liepāja",
+  "eventType": "Battle",
+  "conflict": "The Baltic crusade in Courland and Prussia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Teutonic%20Order%201260.png",
+  "imageInfo": {
+    "caption": "The monastic state of the Teutonic Order in 1260 on a modern German map, with the crossed swords of Durbe marked on the Courland coast.",
+    "creator": "S. Bollmann, after Dieter Zimmerling",
+    "date": "2010 map; shows the Order’s lands in 1260",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teutonic_Order_1260.png",
+    "note": "A modern reconstruction, not a medieval document. It shows what the battle threatened: a state of castles strung along the coast between Prussia and Livonia, with the unconquered Samogitians holding the land bridge between them. Licensed CC BY-SA 3.0."
+  },
+  "summary": "A Samogitian army destroyed the combined Livonian and Prussian forces of the Teutonic Order near Durbe on 13 July 1260, killing both commanders and about 150 brother knights; the Great Prussian Uprising began ten weeks later and took the Order fourteen years to crush.",
+  "details": "The Order marched into Courland to relieve its castle at Georgenburg and met the Samogitians on marshy ground where its heavy cavalry could not work. The allied contingents settled their grievances first: the Curonians left after the brothers refused to free their captured kinsmen, and the Estonians followed. The Livonian master Burchard von Hornhausen and the Prussian marshal Heinrich Botel were both killed with the bulk of their knights, and the news set the whole eastern Baltic alight.",
+  "factions": [
+    "Livonian Order",
+    "Teutonic Order",
+    "Grand Duchy of Lithuania"
+  ],
+  "leaders": [
+    {
+      "name": "Burchard von Hornhausen",
+      "faction": "Order army"
+    },
+    {
+      "name": "Heinrich Botel",
+      "faction": "Order army"
+    },
+    {
+      "name": "The Samogitian elders",
+      "faction": "Samogitian army"
+    }
+  ],
+  "outcome": "Crushing Samogitian victory, and the heaviest defeat the Order suffered in the thirteenth century. Both commanders and about 150 brother knights were killed. Within months the Prussians rose in the revolt known as the Great Prussian Uprising, the Curonians, Semigallians and Oeselians rebelled, and Mindaugas of Lithuania broke with the Order and returned to war; the reconquest of Prussia took until 1274.",
+  "participants": [
+    {
+      "side": "Order army",
+      "factions": [
+        {
+          "name": "Livonian Order",
+          "title": "Livonian Order",
+          "type": "order",
+          "slug": "livonian-order"
+        },
+        {
+          "name": "Teutonic Order",
+          "title": "Teutonic Order",
+          "type": "order",
+          "slug": "teutonic-order"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Burchard von Hornhausen",
+          "type": "person",
+          "note": "Livonian master of the Order, killed in the battle."
+        },
+        {
+          "name": "Heinrich Botel",
+          "type": "person",
+          "note": "Marshal of Prussia, who brought the Prussian contingent and was killed with him."
+        },
+        {
+          "name": "Karl of Sweden",
+          "type": "person",
+          "note": "Swedish duke serving with the crusading contingent; killed on the field."
+        }
+      ],
+      "strength": {
+        "display": "c. 3,000–8,000 with about 190 brother knights",
+        "confidence": "debated",
+        "note": "German and English summaries give roughly 3,000 and 8,000 for the whole force and put the brother knights at about 190 to 200. The brothers are the meaningful figure: they were the professional core, and about 150 of them died.",
+        "min": 3000,
+        "max": 8000
+      }
+    },
+    {
+      "side": "Samogitian army",
+      "factions": [
+        {
+          "name": "Samogitia",
+          "note": "No article yet in this archive: the western Lithuanian region that resisted the Order for two centuries and was ceded and recovered repeatedly before 1422."
+        },
+        {
+          "name": "Grand Duchy of Lithuania",
+          "title": "Grand Duchy of Lithuania",
+          "type": "location",
+          "slug": "grand-duchy-of-lithuania"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "The Samogitian elders",
+          "type": "person",
+          "note": "Elected war-leaders of the Samogitian districts, whose command is disputed in the sources."
+        },
+        {
+          "name": "Treniota",
+          "type": "person",
+          "note": "Mindaugas's nephew, named as commander only by a sixteenth-century chronicle."
+        }
+      ],
+      "strength": {
+        "display": "c. 4,000, most of them mounted",
+        "confidence": "estimated",
+        "note": "Both the German and English summaries settle on about four thousand, which would make this one of the rare medieval battles where the smaller army is the one with the professional core.",
+        "min": 4000,
+        "max": 4000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Durbe was fought on 13 July 1260 on marshy ground in Courland between the Teutonic Order and the Samogitians, and it was the worst day the Order had in the thirteenth century. About 150 brother knights were killed, along with the Livonian master Burchard von Hornhausen, the marshal of Prussia Heinrich Botel and a Swedish duke serving with the crusade. The Order lost more of its professional membership in an afternoon than in any engagement before the Battle of Grunwald a hundred and fifty years later.",
+        "What made it a catastrophe rather than a reverse was the timing and the audience. The Order governed a conquered population held down by castles and garrisons, and it had just demonstrated in front of them that its field army could be destroyed. The Prussians rose in September, the Curonians, Semigallians and Oeselians followed, and Mindaugas — baptised in 1251 and crowned a Christian king in 1253 — broke with the Order and went back to war."
+      ]
+    },
+    {
+      "title": "The land bridge the Order needed",
+      "paragraphs": [
+        "By 1260 the Order held two conquered provinces that did not touch each other. Prussia had been subdued between 1230 and the treaty of Christburg in 1249; Livonia had come in with the absorption of the beaten Sword-Brothers in 1237, after the Samogitians destroyed them at Saule in 1236. Between the two lay Samogitia, pagan, unconquered, and exactly the corridor that would have joined the Order's state into one country.",
+        "Mindaugas had ceded Samogitia to the Order on parchment as part of the price of his baptism and his crown, which is a different thing from the Samogitians accepting it. They had beaten a Livonian force at Skuodas in 1259, and the Order answered by building castles at Georgenburg and Karšuva to hold the district down. When the Samogitians besieged Georgenburg, the masters of Livonia and Prussia combined to relieve it."
+      ]
+    },
+    {
+      "title": "The army that would not fight together",
+      "paragraphs": [
+        "The relief force was a coalition of everything the Order could raise: brother knights from both provinces, Danish troops from Estonia, Swedish crusaders under Duke Karl, and levies of subject Curonians and Estonians who had been conquered themselves within living memory. Its weaknesses were argued over before the fighting started. The Danish cavalry refused to dismount on ground where mounted men could not manoeuvre, and there was a quarrel between the Curonians and the Prussians over precedence.",
+        "The decisive grievance was simpler. The Curonians asked that their kinsmen taken prisoner by the Samogitians be included in any settlement, and the brothers refused. The Curonians left the field, and Peter von Dusburg, writing for the Order two generations later, says they turned and attacked it as they went. The Estonians left after them. Whether the Curonians actually struck the Order or merely walked away, the line had a hole in it before the Samogitians closed."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "With their auxiliaries gone, the brothers and the remaining crusaders were left in the open on ground of the Samogitians’ choosing, marsh on one side and no room to build momentum for a charge. Samogitian horsemen enveloped them. The fighting was short: encircled heavy cavalry in soft ground could neither ride down its attackers nor get away from them, and the mail-clad brothers were killed where they were held.",
+        "Burchard von Hornhausen and Heinrich Botel died with the mass of their knights, and about fifteen more brothers were taken alive — a worse fate, since captured crusaders in the Baltic wars were commonly burned as offerings. The Order had lost, in one engagement, the command of both its provinces and the better part of two years’ recruitment."
+      ]
+    },
+    {
+      "title": "The Great Prussian Uprising",
+      "paragraphs": [
+        "The rising that followed began on 20 September 1260 and lasted fourteen years. Five Prussian clans rose with their own leaders — the Natangians under Herkus Monte, who had been raised and educated in Germany, the Sambians under Glande, the Bartians under Diwanus, the Warmians under Glappe and the Pogesanians under Auktume — and the absence of a single commander among them is the main reason the Order survived. Herkus Monte destroyed a relieving force at Pokarwis in January 1261, and at Löbau in 1263 the Prussians killed the Order’s master and marshal in the field for the second time in three years.",
+        "The Order was reduced at the worst point to a handful of its strongest castles, and it was rescued by what the Prussians could not match: a steady flow of crusading reinforcements from Germany after 1265, and the papal and imperial machinery that kept sending them. The rebel leaders were captured and killed one by one, and the last strongholds fell in 1274. In Livonia the Semigallians held out even longer, and Courland and Semigallia were not finally subdued until the 1290s."
+      ]
+    },
+    {
+      "title": "What Durbe changed",
+      "paragraphs": [
+        "For Lithuania the battle was the hinge of a reign. Mindaugas had accepted baptism and a crown in order to buy off the Order, and the price had been Samogitia and other western lands. After Durbe he repudiated the settlement, sent armies back against Livonia and, according to the Livonian Rhymed Chronicle, returned to the old religion; the Christian kingdom of Lithuania ended with him when he was murdered by rivals in 1263, and the country stayed officially pagan for another century.",
+        "For the Order the lesson was about what its state actually rested on. Its power was a network of brick and stone castles garrisoned by a few hundred professional brothers, and the field army it could assemble was small enough that one bad day in a marsh could erase it. It rebuilt, conquered Prussia a second time and went on to two more centuries of annual raiding into Lithuania — but the Samogitian corridor it had gone to Durbe to secure stayed unconquered, and it was still unconquered when the Order marched to Grunwald in 1410."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "What Durbe changed",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Durbes%20kaujas%20piemi%C5%86as%20z%C4%ABme%20Durb%C4%93%201999-09-03%20-%20panoramio.jpg",
+      "caption": "The memorial post raised at Durbe in 1990, photographed in 1999: a carved Latvian and Lithuanian inscription honouring the Samogitians and Curonians who beat the Order on 13 July 1260.",
+      "creator": "J. Sedols",
+      "date": "1999 photograph; the monument was raised in 1990",
+      "source": "Wikimedia Commons (via Panoramio)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Durbes_kaujas_piemi%C5%86as_z%C4%ABme_Durb%C4%93_1999-09-03_-_panoramio.jpg",
+      "note": "Put up in the year Lithuania declared independence from the Soviet Union, so it is evidence for how the battle is remembered in the modern Baltic states rather than for the battle itself. The exact site of the fighting is not established. Licensed CC BY 3.0."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The corridor the Order never took",
+    "battleSlug": "battle-of-grunwald",
+    "relationship": "same-factions",
+    "reason": "Durbe was fought to secure Samogitia and failed; a century and a half later the Order marched against a Poland and Lithuania joined by the same dispute and lost its grand master and its field army at Grunwald, and Samogitia was still not its own."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Mindaugas",
+        "type": "person",
+        "slug": "mindaugas",
+        "label": "Broke with the Order after the victory"
+      },
+      {
+        "title": "Kęstutis",
+        "type": "person",
+        "slug": "kestutis",
+        "label": "His forty-year war with the Order turned on the same Samogitian corridor"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "The Order's greater disaster, 1410"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order",
+        "label": "Lost its master and its army here"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Lost the marshal of Prussia and fourteen years to the rising"
+      },
+      {
+        "title": "Livonian Brothers of the Sword",
+        "type": "order",
+        "slug": "livonian-brothers-of-the-sword",
+        "label": "Destroyed by the same Samogitians at Saule in 1236"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "The power the victory freed from its treaty"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1236",
+      "title": "Saule",
+      "description": "The Samogitians destroy the Livonian Brothers of the Sword, whose survivors are absorbed into the Teutonic Order the next year."
+    },
+    {
+      "date": "1249",
+      "title": "The Treaty of Christburg",
+      "description": "The first Prussian risings end in a settlement guaranteeing converted Prussians rights the Order later ignores."
+    },
+    {
+      "date": "6 July 1253",
+      "title": "Mindaugas crowned",
+      "description": "The Lithuanian ruler takes a crown as a Christian king, having ceded Samogitia and other lands to the Order."
+    },
+    {
+      "date": "1259",
+      "title": "Skuodas",
+      "description": "A Livonian force is beaten by the Samogitians, and the Order builds castles at Georgenburg and Karšuva to hold the district."
+    },
+    {
+      "date": "Summer 1260",
+      "title": "Georgenburg besieged",
+      "description": "The Samogitians invest the new castle, and the masters of Livonia and Prussia combine to relieve it."
+    },
+    {
+      "date": "13 July 1260",
+      "title": "The Curonians leave the field",
+      "description": "Refused the release of their captured kinsmen, the Curonian levy withdraws; the Estonians follow."
+    },
+    {
+      "date": "13 July 1260",
+      "title": "The Order destroyed",
+      "description": "About 150 brother knights are killed with Burchard von Hornhausen, Heinrich Botel and Duke Karl of Sweden."
+    },
+    {
+      "date": "20 September 1260",
+      "title": "The Great Prussian Uprising begins",
+      "description": "Five Prussian clans rise under their own leaders, among them Herkus Monte of the Natangians."
+    },
+    {
+      "date": "January 1261",
+      "title": "Pokarwis",
+      "description": "Herkus Monte destroys a German relief force, and the Order is reduced to holding its strongest castles."
+    },
+    {
+      "date": "1263",
+      "title": "Mindaugas murdered",
+      "description": "The Lithuanian king, who had repudiated his settlement with the Order after Durbe, is killed by rivals."
+    },
+    {
+      "date": "1274",
+      "title": "The rising crushed",
+      "description": "The Order takes the last rebel stronghold after fourteen years; Semigallia and Courland hold out into the 1290s."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Teutonic_Order_1260.png"
+    },
+    {
+      "title": "Battle of Durbe — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Durbe"
+    },
+    {
+      "title": "Schlacht an der Durbe — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_an_der_Durbe"
+    },
+    {
+      "title": "Great Prussian Uprising — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Great_Prussian_Uprising"
+    },
+    {
+      "title": "The Livonian Rhymed Chronicle",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Livonian_Rhymed_Chronicle"
+    }
+  ]
+}

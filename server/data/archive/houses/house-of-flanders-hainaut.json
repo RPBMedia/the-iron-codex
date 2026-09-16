@@ -106,7 +106,14 @@
     {
       "date": "1205",
       "title": "Disaster at Adrianople",
-      "description": "Baldwin is captured by the Bulgarians and dies."
+      "description": "Baldwin is captured by the Bulgarians and dies.",
+      "links": [
+        {
+          "title": "Battle of Adrianople",
+          "type": "event",
+          "slug": "battle-of-adrianople"
+        }
+      ]
     },
     {
       "date": "1216",
@@ -150,6 +157,14 @@
         "type": "house",
         "slug": "house-of-palaiologos",
         "label": "Recovered Constantinople in 1261"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Adrianople",
+        "type": "event",
+        "slug": "battle-of-adrianople",
+        "label": "Where Baldwin I was lost and Henry inherited"
       }
     ]
   },

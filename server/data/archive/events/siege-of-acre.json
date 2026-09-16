@@ -1,0 +1,420 @@
+{
+  "id": "siege-of-acre",
+  "type": "event",
+  "name": "Siege of Acre",
+  "aliases": [
+    "Siege of Acre (1189–1191)",
+    "Siege of Saint-Jean-d’Acre"
+  ],
+  "year": 1191,
+  "location": "Acre, on the coast of the Kingdom of Jerusalem",
+  "eventType": "Siege",
+  "conflict": "Third Crusade",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Prise%20de%20Saint-Jean-d%27Acre%20(1191).jpg",
+  "imageInfo": {
+    "caption": "The fall of Acre in a French manuscript illumination of the last quarter of the fourteenth century, from a copy of the Grandes Chroniques de France.",
+    "creator": "Unknown illuminator",
+    "date": "Last quarter of the fourteenth century; shows July 1191",
+    "source": "British Library, Royal MS 16 G VI, f. 352v (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prise_de_Saint-Jean-d%27Acre_(1191).jpg",
+    "note": "Painted two centuries after the siege and showing fourteenth-century French mail and surcoats rather than the equipment of 1191, so it is evidence for how the victory was remembered at the Valois court. No contemporary depiction of the siege survives. Public domain."
+  },
+  "summary": "The Third Crusade spent nearly two years and tens of thousands of lives retaking Acre, from Guy of Lusignan’s gamble in August 1189 to the surrender of 12 July 1191; five weeks later Richard I had the garrison of some 2,700 men killed in front of Saladin’s army.",
+  "details": "Guy of Lusignan, a king without a kingdom after Hattin, sat down in front of Acre with a force too small to take it, and Saladin arrived to besiege the besiegers. Neither side could finish the other, and the crusaders held their lines through two winters of famine and disease while fleets brought in replacements. Philip II landed in April 1191 and Richard I in June; the city surrendered in July on terms of ransom, prisoners and the True Cross. When the first instalment was disputed, Richard had the prisoners beheaded at Ayyadieh.",
+  "factions": [
+    "Kingdom of Jerusalem",
+    "Ayyubid Sultanate"
+  ],
+  "leaders": [
+    {
+      "name": "Guy of Lusignan",
+      "faction": "Crusader army",
+      "personId": "guy-of-lusignan"
+    },
+    {
+      "name": "Richard the Lionheart",
+      "faction": "Crusader army",
+      "personId": "richard-the-lionheart"
+    },
+    {
+      "name": "Philip II of France",
+      "faction": "Crusader army",
+      "personId": "philip-ii-of-france"
+    },
+    {
+      "name": "Conrad of Montferrat",
+      "faction": "Crusader army",
+      "personId": "conrad-of-montferrat"
+    },
+    {
+      "name": "Saladin",
+      "faction": "Ayyubid army",
+      "personId": "saladin"
+    }
+  ],
+  "outcome": "Crusader victory after twenty-three months. Acre became the capital of the rump Kingdom of Jerusalem for the next hundred years, and the crusade gained the base it needed for the march on Jaffa. The cost was ruinous on both sides: two kings, a Holy Roman Emperor’s son, a queen of Jerusalem, two grand masters and tens of thousands of others died before the walls, the garrison was massacred after the surrender, and Jerusalem itself was never retaken.",
+  "participants": [
+    {
+      "side": "Crusader army",
+      "factions": [
+        {
+          "name": "Kingdom of Jerusalem",
+          "title": "Kingdom of Jerusalem",
+          "type": "location",
+          "slug": "kingdom-of-jerusalem"
+        },
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guy of Lusignan",
+          "type": "person",
+          "slug": "guy-of-lusignan",
+          "note": "King of Jerusalem, who began the siege with too few men."
+        },
+        {
+          "name": "Richard the Lionheart",
+          "type": "person",
+          "slug": "richard-the-lionheart",
+          "note": "King of England, who arrived in June 1191 and forced the surrender."
+        },
+        {
+          "name": "Philip II of France",
+          "type": "person",
+          "slug": "philip-ii-of-france",
+          "note": "King of France, who took charge of the siege works from April 1191."
+        },
+        {
+          "name": "Conrad of Montferrat",
+          "type": "person",
+          "slug": "conrad-of-montferrat",
+          "note": "Defender of Tyre and Guy’s rival, who negotiated the surrender terms."
+        },
+        {
+          "name": "Gerard de Ridefort",
+          "type": "person",
+          "slug": "gerard-de-ridefort",
+          "note": "Templar grand master, killed in the battle of 4 October 1189."
+        },
+        {
+          "name": "Leopold V of Austria",
+          "type": "person",
+          "note": "Duke of Austria, whose banner was thrown down from the walls after the surrender."
+        },
+        {
+          "name": "Frederick VI of Swabia",
+          "type": "person",
+          "note": "Barbarossa’s son, who led the German remnant to the siege and died there in January 1191."
+        }
+      ],
+      "strength": {
+        "display": "c. 25,000–30,000 at its height, rebuilt by sea after each winter",
+        "confidence": "debated",
+        "note": "Guy began with something like 7,000–10,000 foot and 400–700 knights; German summaries put the besieging army around 25,000 and English ones considerably higher. No single figure holds, because famine and disease killed thousands each winter and fresh fleets replaced them each spring.",
+        "min": 25000,
+        "max": 30000
+      }
+    },
+    {
+      "side": "Ayyubid army and the Acre garrison",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Saladin",
+          "type": "person",
+          "slug": "saladin",
+          "note": "Sultan of Egypt and Syria, who besieged the besiegers from outside their lines."
+        },
+        {
+          "name": "Baha al-Din Qaraqush",
+          "type": "person",
+          "note": "Saladin’s governor in Acre, who commanded the garrison and negotiated its surrender."
+        }
+      ],
+      "strength": {
+        "display": "Garrison c. 6,000–10,000; Saladin’s field army c. 20,000–40,000 outside the lines",
+        "confidence": "debated",
+        "note": "The garrison figure comes from the surrender terms and the prisoner count rather than a muster roll. Saladin’s relief army was not a standing force: contingents from Egypt, Syria and the Jazira came and went with the seasons and their emirs’ obligations, so its size on any given day is unrecoverable.",
+        "min": 20000,
+        "max": 40000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The siege of Acre ran from 28 August 1189 to 12 July 1191 and was the longest and costliest operation of the Third Crusade. Acre was the best harbour on the coast of the Kingdom of Jerusalem and the key to any reconquest, and Saladin had taken it within weeks of the Battle of Hattin in 1187. Guy of Lusignan, released from captivity and refused entry to Tyre by Conrad of Montferrat, marched on it with a few thousand men in what looked like an act of desperation and became the fixed point around which the whole crusade assembled.",
+        "The result was a siege inside a siege: the crusaders pinned the city, Saladin pinned the crusaders, and for twenty-three months neither could dislodge the other while both starved and sickened. It was settled when Philip II and Richard I arrived with the siege equipment and the money of two western kingdoms. The city surrendered on terms, and five weeks later, with the terms in dispute, Richard had the prisoners killed within sight of Saladin’s army."
+      ]
+    },
+    {
+      "title": "A king with no kingdom",
+      "paragraphs": [
+        "Guy of Lusignan had lost the field army of Jerusalem at Hattin and been Saladin’s prisoner for a year. Released in 1188 on an oath not to bear arms against the sultan — which a churchman promptly dispensed him from — he found the only city left in Frankish hands, Tyre, held against him by Conrad of Montferrat, who had saved it and was not minded to hand it to the man who had lost everything else. Guy had a crown, a wife with the better title, and no base.",
+        "His answer in August 1189 was to march south with perhaps 10,000 men and sit down in front of Acre, a walled port with a garrison and the whole Ayyubid army within reach. It should have been the end of him. Instead it worked as a rallying signal: Pisan ships were already off the coast, and contingents from Denmark, Flanders, Champagne, Germany, England and Italy came in through the autumn. By late September there were tens of thousands of crusaders entrenched on the plain, and Saladin had brought his army up behind them."
+      ]
+    },
+    {
+      "title": "The siege within a siege",
+      "paragraphs": [
+        "The crusaders dug a double line: one facing the walls of Acre, one facing outward at Saladin. It was the decisive engineering decision of the campaign, because it meant the besiegers could not be swept away by the relief army, only starved, and they could be fed from the sea whenever a Christian fleet controlled the water. Control of the water changed hands repeatedly. Egyptian squadrons broke through in October and December 1189 to reinforce and revictual the garrison, and the crusader camp went hungry whenever they did.",
+        "The one large field battle came on 4 October 1189, when the crusaders attacked Saladin’s camp. The Templars broke his right, then scattered to plunder, and Saladin’s light cavalry cut the pursuit apart while the Acre garrison sortied into the crusader rear. Gerard de Ridefort, the Templar grand master who had already led the order into catastrophe at Hattin, was killed. Casualties ran into thousands, and after it both sides settled into a war of trenches, mines, towers and disease."
+      ]
+    },
+    {
+      "title": "The winters",
+      "paragraphs": [
+        "What killed most of the people who died at Acre was not fighting. The crusader camp sat between a marsh and its own latrines for two years; the winter of 1190–91 brought famine after storms cut the sea route, and prices in the camp reached the point where men ate their horses and worse. Typhus, dysentery and scurvy did the rest, and the chroniclers on both sides describe corpse-carts and mass graves rather than heroics.",
+        "The dead included most of the leadership the crusade had begun with. Queen Sibylla of Jerusalem died in the camp in 1190 with both her daughters, which destroyed the basis of Guy’s kingship and opened the succession quarrel that dominated the rest of the crusade — Conrad of Montferrat married the heiress Isabella I within weeks. Frederick VI of Swabia, who had brought the surviving Germans overland after his father drowned in the Saleph, died in January 1191. Philip of Alsace, count of Flanders, died on 1 June 1191, days before Richard landed."
+      ]
+    },
+    {
+      "title": "The kings arrive",
+      "paragraphs": [
+        "Philip II landed on 20 April 1191 with engineers and siege machines and began systematically battering the north-eastern angle of the walls. Richard I arrived on 8 June, having taken Cyprus on the way and married Berengaria of Navarre at Limassol, and brought money, ships and two great stone-throwers his men nicknamed God’s Own Catapult and Bad Neighbour. Both kings fell ill with the wasting sickness the crusaders called arnaldia, and both went on directing the assault from litters.",
+        "The pressure told quickly. A breach opened on 3 July, and though the assault through it was thrown back, the garrison had been fighting for two years with no prospect of relief: Saladin’s emirs would not risk a general action against entrenched lines, and his letters to Baghdad and Cairo asking for troops were producing less each season. On 11 July the garrison sent out its terms, and on 12 July, with Conrad of Montferrat handling the negotiation at Saladin’s own request, Acre surrendered."
+      ]
+    },
+    {
+      "title": "The terms and the massacre at Ayyadieh",
+      "paragraphs": [
+        "The agreement was specific: 200,000 dinars, the return of the True Cross taken at Hattin, and the release of some 1,500 Christian captives, against which the garrison of about 2,700 men, with their families, would be freed. It was to be paid in instalments, and the garrison was held as security. Saladin had not negotiated it — his own governor had, under duress, and the sultan found himself bound to terms agreed over his head, with the cross in Damascus and the money and the named captives not readily to hand.",
+        "The first instalment came on 11 August and was refused: Richard demanded the specific nobles he had listed, and the sums and prisoners on offer did not match. Both sides had reason to stall, and both were stalling. On 20 August Richard marched the prisoners out to the hill of Ayyadieh, in full view of Saladin’s outposts, and had about 2,700 of them beheaded, with their wives and children. The high-value captives were kept back for ransom, which says plainly that this was calculation and not fury.",
+        "It was Richard’s act and the article will not shade it: he killed thousands of disarmed prisoners to unblock a negotiation and to free his army to march south. Saladin killed his own Christian prisoners in reprisal. The one thing the episode is not is proof of simple bad faith on Saladin’s side; the historian Hannes Möhring reads the massacre as a deliberate warning to future garrisons, and Saladin’s subsequent policy — demolishing the fortifications of Ascalon and other towns rather than defending them — suggests he took the warning exactly as it was meant."
+      ]
+    },
+    {
+      "title": "What the siege decided",
+      "paragraphs": [
+        "Acre gave the crusade a port, a capital and a base of operations, and it was from there that Richard marched down the coast in the campaign that produced the victory at the Battle of Arsuf in September. It also broke the crusade politically. Philip II sailed for France within weeks of the surrender, having secured what he came for and quarrelled irreparably with Richard; Leopold V of Austria went home after his banner was thrown off the walls, an insult he repaid by arresting Richard on his way back to England. The succession was settled against Guy, who was compensated with Cyprus.",
+        "The kingdom that Acre bought was a coastal strip from Tyre to Jaffa with its capital at the port and Jerusalem still in Muslim hands, formalised in the truce Richard and Saladin agreed in September 1192. That rump state survived exactly a century. When the Mamluk sultan al-Ashraf Khalil stormed Acre in May 1291, it ended the crusader mainland altogether — a second and different siege of the same city, and the one the archive means when it writes of the fall of Acre."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The kings arrive",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Philippe%20Auguste%20et%20Richard%20Acre.jpg",
+      "caption": "Philip II and Richard I receiving the keys of Acre, in an illumination made about 1375–80 for the Grandes Chroniques de France.",
+      "creator": "Unknown illuminator",
+      "date": "c. 1375–80; shows 12 July 1191",
+      "source": "Bibliothèque nationale de France, MS Français 2813, f. 238v (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippe_Auguste_et_Richard_Acre.jpg",
+      "note": "A French royal manuscript showing the two kings as equals sharing a triumph, which is how the Valois court preferred to remember a campaign the two men spent quarrelling. Public domain."
+    },
+    {
+      "section": "The terms and the massacre at Ayyadieh",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/SaracensBeheaded.jpg",
+      "caption": "The killing of the Acre garrison, engraved by Alphonse de Neuville for an 1883 edition of Guizot’s history of France.",
+      "creator": "Alphonse de Neuville",
+      "date": "1883; shows 20 August 1191",
+      "source": "François Guizot, The History of France (London, 1883), p. 447 (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SaracensBeheaded.jpg",
+      "note": "A nineteenth-century illustration, not a source for the event: it stages the massacre as a scene of royal resolve for a popular French history. It is used here because the archive holds no contemporary image of the episode and the article should not describe it without showing how it has been pictured. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Continue the march south",
+    "battleSlug": "battle-of-arsuf",
+    "relationship": "same-campaign",
+    "reason": "Acre gave Richard the Lionheart the port he needed and freed his army to move; eight weeks after the massacre at Ayyadieh he fought Saladin on the coast road at Arsuf, the first field victory of the Third Crusade and the direct sequel to the siege."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Forced the surrender and ordered the massacre"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Directed the siege works from April 1191"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Besieged the besiegers for two years"
+      },
+      {
+        "title": "Guy of Lusignan",
+        "type": "person",
+        "slug": "guy-of-lusignan",
+        "label": "Began the siege in August 1189"
+      },
+      {
+        "title": "Conrad of Montferrat",
+        "type": "person",
+        "slug": "conrad-of-montferrat",
+        "label": "Negotiated the surrender terms"
+      }
+    ],
+    "events": [
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "The campaign the siege consumed"
+      },
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "The defeat that lost Acre in 1187"
+      },
+      {
+        "title": "Battle of Arsuf",
+        "type": "event",
+        "slug": "battle-of-arsuf",
+        "label": "The march south that followed the surrender"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Ruled from Acre for the next century"
+      },
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "Saladin’s realm, which lost the port"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Founded as a field hospital in these siege lines"
+      },
+      {
+        "title": "Order of St Thomas of Acre",
+        "type": "order",
+        "slug": "order-of-st-thomas-of-acre",
+        "label": "Founded here to bury the English dead"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "4 July 1187",
+      "title": "Hattin",
+      "description": "Saladin destroys the field army of Jerusalem; Acre surrenders to him within days and Guy of Lusignan is taken prisoner."
+    },
+    {
+      "date": "28 August 1189",
+      "title": "Guy sits down before Acre",
+      "description": "Refused entry to Tyre, the released king invests the port with a force far too small to take it."
+    },
+    {
+      "date": "September 1189",
+      "title": "Saladin closes in",
+      "description": "The Ayyubid army arrives behind the crusaders, who dig a second line facing outward and hold both fronts."
+    },
+    {
+      "date": "4 October 1189",
+      "title": "The battle before the camp",
+      "description": "A crusader attack breaks Saladin’s right, then dissolves into plunder; Gerard de Ridefort is killed and thousands die on both sides."
+    },
+    {
+      "date": "1190",
+      "title": "Sibylla dies in the camp",
+      "description": "The queen of Jerusalem dies of disease with both daughters, destroying Guy’s title and opening the succession quarrel."
+    },
+    {
+      "date": "October 1190",
+      "title": "The German remnant arrives",
+      "description": "Frederick VI of Swabia brings in the survivors of his father’s overland army; a field hospital founded by Lübeck and Bremen men becomes the Teutonic Order."
+    },
+    {
+      "date": "Winter 1190–91",
+      "title": "Famine",
+      "description": "Storms cut the sea route and the camp starves; disease kills more of the crusaders than the fighting has."
+    },
+    {
+      "date": "20 April 1191",
+      "title": "Philip II lands",
+      "description": "The French king brings engineers and siege machines and begins battering the north-eastern walls."
+    },
+    {
+      "date": "8 June 1191",
+      "title": "Richard I lands",
+      "description": "The English king arrives from Cyprus with money, ships and the stone-throwers his men call God’s Own Catapult and Bad Neighbour."
+    },
+    {
+      "date": "3 July 1191",
+      "title": "The breach",
+      "description": "A section of wall comes down; the assault through it fails, but the garrison has no prospect of relief."
+    },
+    {
+      "date": "12 July 1191",
+      "title": "Acre surrenders",
+      "description": "Terms of 200,000 dinars, the True Cross and 1,500 Christian captives, with the garrison held as security."
+    },
+    {
+      "date": "20 August 1191",
+      "title": "Ayyadieh",
+      "description": "With the first instalment disputed, Richard has about 2,700 prisoners beheaded in sight of Saladin’s army; Saladin kills his Christian prisoners in reprisal."
+    },
+    {
+      "date": "7 September 1191",
+      "title": "Arsuf",
+      "description": "The army freed by the surrender beats Saladin on the coast road south, the crusade’s first field victory."
+    },
+    {
+      "date": "September 1192",
+      "title": "The Treaty of Jaffa",
+      "description": "A three-year truce leaves the coast Frankish and Jerusalem Muslim, with Acre the capital of the rump kingdom."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Prise_de_Saint-Jean-d%27Acre_(1191).jpg"
+    },
+    {
+      "title": "Siege of Acre (1189–1191) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Acre_(1189%E2%80%931191)"
+    },
+    {
+      "title": "Belagerung von Akkon (1189–1191) — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Belagerung_von_Akkon_(1189%E2%80%931191)"
+    },
+    {
+      "title": "Baha al-Din ibn Shaddad, The Rare and Excellent History of Saladin",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Baha_ad-Din_ibn_Shaddad"
+    }
+  ]
+}
