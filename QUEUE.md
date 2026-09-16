@@ -1232,26 +1232,6 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - `tests/locator-maps.test.mjs` checks 8 measured markers, that every `locatorMap` article lands on its map, and that the window clamps.
    **Levant extension shipped 2026-09-15 (owner away):** `sidon` (33.5571, 35.3729) and `damascus` (33.5106, 36.3065) now carry locator maps on the same base, so all three archive cities on this map have one. No other city article lies on it; Acre, Tyre, Jerusalem and Tripoli have no articles.
    **Next:** coordinates for `sidon`, `damascus`, `antioch` and the other Levant cities on this map. Antioch lies north of this map's edge, so it needs a northern crusader-states base. Then base maps for the other regions (a medieval one wherever possible), then the gate that every city has a map.
-0g. **OWNER REQUEST 2026-09-15, extended 2026-09-16: sweep the repo's markdown files, and move finished work to `COMPLETED_ROADMAP.md`.** The owner's rule, now in CLAUDE.md: when a planning file's work is all done, move a condensed record of what was built into `COMPLETED_ROADMAP.md` (create it the first time) and delete the original; a partly finished file keeps only its open items. `CLAUDE.md`, `CODEX.md` and `CONTENT_GUIDELINES.md` are never deleted. The original request follows. **Sweep the repo's
-   markdown files for work already done.** Keep `CLAUDE.md` and `CODEX.md` as they
-   are. For every other planning or work-list file, check each item against the code, the data
-   and `git log`:
-   - **Everything in a file is done:** delete the file.
-   - **Part of it is done:** mark those items complete, so no session re-reads
-     finished work.
-   This includes pruning finished entries out of `QUEUE.md` itself, which has grown
-   to about 2,000 lines. Candidates as of today, with the date each last changed:
-   - `HOUSES_PLAN.md`: **done, folded into COMPLETED_ROADMAP.md and deleted 2026-09-16.** Its 4 missing houses are tracked in 0m.
-   - `WEAPONS_ARMOR_EDITORIAL_AUDIT.md` (09-06): **deleted 2026-09-15.** Its open items are in the W&A backlog.
-   - `WEAPONS_ARMOR_AI_PROMPTS.md` (09-06): **deleted 2026-09-15.** All eight images shipped.
-   - `WEAPONS_ARMOR_COVERAGE_GAPS.md` (09-07): **deleted 2026-09-15.** Every recommended tier shipped.
-   - `SEO_TESTING.md` (09-08): folded in as **Appendix E** 2026-09-16.
-   - `MARKETING.md` (09-08): folded in as **Appendix D** 2026-09-16; still an unactivated proposal.
-   - `CONTENT_GUIDELINES.md` (06-20; a standards file, so check whether `CLAUDE.md`
-     has absorbed it rather than whether it is "done")
-   Out of scope, since they are not work lists: `README.md`, the `.claude/agents/*.md`
-   definitions, and the civilizations spec, now **Appendix C** (item 0e, not started).
-   Propose the delete list to the owner before deleting.
 0d. **OWNER REQUEST 2026-09-15 — every kingdom gets BOTH a territory map AND
    ✅ **ESSENTIALLY DONE — measured 2026-09-16.** Of 58 polities, **zero lack a main image** and only **two** lack an arms panel: `emirate-of-crete` and `emirate-of-melitene`. The Hamdanid Emirate of Aleppo gained one on 2026-09-16 (`1715ed1`) — a gold dinar naming Nasir al-Dawla and Sayf al-Dawla, matching the coin convention the other Islamic polities use. **Crete and Melitene have no coin on Commons**, and both sit OUTSIDE the arms gate, whose `polityLocationTypePattern` in `scripts/check-images.mjs` covers kingdom, empire, caliphate, sultanate, principality, duchy, county, khanate and despotate but **not "emirate"**. So they are neither failing nor forgotten — a deliberate remainder. Either find coinage, or widen the pattern to include emirates and put these two on the backlog file.
    its arms or flag.** Reported on `kingdom-of-castile` (map, no arms) and

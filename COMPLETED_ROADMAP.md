@@ -113,6 +113,29 @@ earlier and nobody had marked them, so the queue overstated what was left. A
 finished item that still reads as open costs a future session the same
 investigation twice.
 
+## The markdown sweep — queue item 0g — closed 2026-09-16
+
+The repo carried eight planning files and the owner could not tell which one was
+being worked on. It now holds **six markdown files**: `CLAUDE.md`, `CODEX.md`,
+`CONTENT_GUIDELINES.md` and `COMPLETED_ROADMAP.md` — the protected set that is
+never folded in or deleted — plus `QUEUE.md` as the single work list and
+`README.md` as repo documentation.
+
+What the sweep did: folded the rulers programme, the UI/UX refinement, the
+civilizations expansion, the growth plan and the SEO how-to into QUEUE.md as
+**Appendices A–E**, verbatim and verified byte-for-byte before the originals were
+deleted; rewrote all 14 in-file pointers so none dangles; and gave QUEUE.md a
+dashboard saying where each programme stands, which was the thing actually
+missing. `HOUSES_PLAN.md` was finished work and its record moved here.
+
+CLAUDE.md carries the rule that keeps it from regrowing: never create a new
+planning file — a new programme is a queue item and its spec is an appendix.
+
+**The habit it established matters more than the tidy-up.** Since then 0n, 0p and
+0g itself have all been retired the same way: a condensed record here, the item
+deleted there. Ten items have left the queue, and four of those were closed by
+verifying that work already done had simply never been marked.
+
 ## Houses / dynasties — a sixth collection — M0–M5, complete 2026-09-15
 
 `HOUSES_PLAN.md`'s work, finished and the file deleted on 2026-09-16. **70 houses
