@@ -7,9 +7,9 @@
     "al-Murabitun",
     "Almoravid Empire"
   ],
-  "originYear": 1040,
+  "originYear": 1050,
   "endYear": 1147,
-  "reignSpan": "1040s–1147 (Maghreb and al-Andalus)",
+  "reignSpan": "1050s-1147 (the Maghreb and al-Andalus)",
   "region": "The Maghreb & al-Andalus",
   "originPlace": "The western Sahara",
   "arms": "Almoravid gold dinar coinage",
@@ -27,68 +27,173 @@
   ],
   "notableMembers": [
     {
+      "displayName": "Abdallah ibn Yasin",
+      "note": "The religious founder of the movement; killed fighting the Barghawata in 1059."
+    },
+    {
+      "displayName": "Abu Bakr ibn Umar",
+      "note": "Lamtuna commander who founded Marrakesh about 1070 and returned to lead the Saharan wing."
+    },
+    {
       "personSlug": "yusuf-ibn-tashfin",
       "displayName": "Yusuf ibn Tashfin",
-      "note": "Great emir; victor of Sagrajas; founder of Marrakesh."
+      "note": "Built the empire in the north; victor of Sagrajas in 1086; died 1106."
     },
     {
       "displayName": "Ali ibn Yusuf",
-      "note": "His son; ruled the empire at its height (r. 1106–1143)."
+      "note": "His son; ruled the empire at its height, 1106-1143, and struck the dinar shown here."
     },
     {
       "displayName": "Tashfin ibn Ali",
-      "note": "Late Almoravid ruler, defeated by the Almohads."
+      "note": "Ruled 1143-1145; killed near Oran while fighting the Almohads."
+    },
+    {
+      "displayName": "Ishaq ibn Ali",
+      "note": "The last Almoravid ruler, a boy, killed when the Almohads took Marrakesh in 1147."
     }
   ],
-  "familyTree": {},
+  "familyTree": {
+    "caption": "The Almoravid line from Yusuf ibn Tashfin, who made the emirate an empire, to Ishaq ibn Ali, killed at the fall of Marrakesh in 1147. Abdallah ibn Yasin and Abu Bakr ibn Umar, who founded the movement and the capital, were not of this family and are described in the text.",
+    "root": {
+      "name": "Yusuf ibn Tashfin",
+      "personSlug": "yusuf-ibn-tashfin",
+      "note": "Emir c. 1061-1106; united the Maghreb and al-Andalus",
+      "children": [
+        {
+          "name": "Ali ibn Yusuf",
+          "note": "r. 1106-1143; the empire at its greatest extent",
+          "children": [
+            {
+              "name": "Tashfin ibn Ali",
+              "note": "r. 1143-1145; died fighting the Almohads",
+              "children": [
+                {
+                  "name": "Ibrahim ibn Tashfin",
+                  "note": "Briefly emir in 1146, deposed as a child"
+                },
+                {
+                  "name": "Ishaq ibn Ali",
+                  "note": "Last emir, 1146-1147; killed at Marrakesh"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "The Almoravid dynasty, in Arabic al-Murabitun, arose from a puritanical Sunni reform movement among the Sanhaja Berbers of the western Sahara in the mid-eleventh century. Under Yusuf ibn Tashfin it became an empire spanning Morocco and, after 1086, Muslim Spain.",
-        "From their capital at Marrakesh the Almoravids ruled a vast territory on both sides of the Strait of Gibraltar, imposing a stricter religious order on the sophisticated society of al-Andalus and holding back the Christian advance for a generation."
+        "The Almoravids — in Arabic al-Murabitun — were a Berber dynasty of the Sanhaja confederation who rose out of a religious reform movement in the western Sahara in the middle of the eleventh century and, within forty years, ruled from the Senegal river to the Ebro.",
+        "Their importance to European history is specific: they arrived in Spain in 1086 at the invitation of the taifa kings, stopped the Christian advance that had just taken Toledo, and then abolished the taifa kingdoms altogether. Muslim Spain, which had been a set of small rival states easy for Castile and Aragon to play against one another, became for fifty years a province of a North African empire."
       ]
     },
     {
-      "title": "Rise and fall",
+      "title": "The movement in the desert",
       "paragraphs": [
-        "Called into Iberia by the taifa kings, the Almoravids won at Sagrajas in 1086 and then absorbed the taifa kingdoms themselves, uniting al-Andalus under their rule. At their height under Ali ibn Yusuf the empire was the dominant power of the western Mediterranean.",
-        "By the 1140s Almoravid power was crumbling under a new Berber reform movement, the Almohads, who took Marrakesh in 1147 and destroyed the dynasty, inheriting its empire in both the Maghreb and Spain."
+        "The movement began with Abdallah ibn Yasin, a Maliki scholar brought to the Lamtuna of the western Sahara in the 1040s to teach a people whose Islam he judged inadequate. His preaching was strict and unpopular, and the name al-Murabitun probably derives from the ribat, the fortified retreat where a disciplined religious community trained — though the exact sense of the word was already debated in the Middle Ages.",
+        "Ibn Yasin supplied doctrine and the Lamtuna supplied force, first under Yahya ibn Umar and then his brother Abu Bakr ibn Umar. In 1054 and 1055 they took Sijilmasa at the northern end of the Saharan gold road and Awdaghust at its southern end, which gave the movement control of the trade in West African gold and, with it, the means to pay armies. Ibn Yasin was killed in 1059 fighting the heterodox Barghawata of the Atlantic plain."
+      ]
+    },
+    {
+      "title": "Marrakesh and the Maghreb",
+      "paragraphs": [
+        "Aghmat was taken in 1058, and about 1070 the Almoravids founded a new capital on the plain below the High Atlas at Marrakesh, a city that gave its name to the country. Abu Bakr ibn Umar then went back south to hold the desert and left his cousin Yusuf ibn Tashfin in command of the north — a temporary arrangement that became permanent, and the point at which the Almoravid state acquired a single ruler.",
+        "Yusuf spent the 1070s and 1080s conquering the rest of the Maghreb: Fez, then Tlemcen and Oujda in 1081, Algiers in 1082, and Ceuta on the strait by 1084. He never took the title of caliph, styling himself amir al-muslimin, commander of the Muslims, and acknowledging the Abbasid caliph in Baghdad — a modesty that bought him legitimacy at no cost."
+      ]
+    },
+    {
+      "title": "Al-Andalus",
+      "paragraphs": [
+        "When Alfonso VI of León and Castile took Toledo in 1085, the taifa kings of the south concluded that they could not survive alone. Al-Mutamid of Seville led the appeal to Yusuf, reportedly saying he would rather herd camels in Africa than herd swine in Castile. Yusuf crossed the strait and destroyed Alfonso's army at the Battle of Sagrajas in 1086.",
+        "He then drew the obvious conclusion about the men who had invited him. Backed by legal opinions from the Maliki jurists, who regarded the taifa rulers as illegitimate and their taxes as unlawful, he annexed their kingdoms one after another: Granada in September 1090, Córdoba early in 1091, Seville that September, and Almería and Murcia by the end of the year. Al-Mutamid ended his life in exile in Morocco. Valencia, held by the widow of El Cid after his death, fell in 1102, and Zaragoza was absorbed in 1110."
+      ]
+    },
+    {
+      "title": "Decline and the Almohads",
+      "paragraphs": [
+        "Yusuf died in 1106 and was succeeded by his son Ali ibn Yusuf, under whom the empire reached its greatest extent and then began to fail at both ends. Zaragoza was lost to Aragon in 1118, and an Almoravid army was beaten at Cutanda in 1120; in the west the new Portuguese county broke them at Ourique in 1139. The regime's reliance on the Maliki jurists, and its unpopularity with an Andalusi population that found its Saharan soldiers uncultivated, cost it support in Spain.",
+        "The fatal challenge came from within the Maghreb. Ibn Tumart, a Masmuda Berber preacher who declared himself the mahdi and condemned the Almoravids as anthropomorphists and bad Muslims, founded the Almohad movement in the 1120s. His successors took the Atlas, then the plains; Tashfin ibn Ali was killed near Oran in 1145, and in 1147 the Almohads stormed Marrakesh and killed the last emir, the boy Ishaq ibn Ali. An Almoravid remnant, the Banu Ghaniya, held the Balearics and fought on in North Africa for decades afterwards."
       ]
     }
   ],
   "timeline": [
     {
-      "date": "c. 1040",
-      "title": "Movement founded",
-      "description": "The Almoravid reform movement begins among the Saharan Sanhaja."
+      "date": "c. 1040s",
+      "title": "Abdallah ibn Yasin preaches",
+      "description": "A Maliki scholar brings a strict reform movement to the Lamtuna of the western Sahara."
+    },
+    {
+      "date": "1054-1055",
+      "title": "The gold road taken",
+      "description": "Sijilmasa and Awdaghust fall, giving the movement both ends of the trans-Saharan gold trade."
+    },
+    {
+      "date": "c. 1070",
+      "title": "Marrakesh founded",
+      "description": "A new capital is built below the High Atlas; Yusuf ibn Tashfin is left to command the north."
     },
     {
       "date": "1086",
-      "title": "Battle of Sagrajas",
-      "description": "Almoravid victory over Alfonso VI opens their intervention in Iberia."
+      "title": "Sagrajas",
+      "description": "Invited by the taifa kings after the loss of Toledo, Yusuf destroys Alfonso VI's army at the Battle of Sagrajas."
+    },
+    {
+      "date": "1090-1091",
+      "title": "The taifas annexed",
+      "description": "Granada, Córdoba, Seville, Almería and Murcia are absorbed; al-Mutamid is exiled to Morocco."
+    },
+    {
+      "date": "1102",
+      "title": "Valencia taken",
+      "description": "The city held after El Cid's death by his widow Jimena passes to the Almoravids."
+    },
+    {
+      "date": "1106",
+      "title": "Ali ibn Yusuf succeeds",
+      "description": "Yusuf ibn Tashfin dies; his son rules the empire at its height until 1143."
+    },
+    {
+      "date": "1118-1139",
+      "title": "Losses at both ends",
+      "description": "Zaragoza falls to Aragon, an army is beaten at Cutanda in 1120, and the Portuguese win at Ourique in 1139."
     },
     {
       "date": "1147",
-      "title": "Fall to the Almohads",
-      "description": "The Almohads take Marrakesh and end the dynasty."
+      "title": "The Almohads take Marrakesh",
+      "description": "The last emir, the boy Ishaq ibn Ali, is killed and the dynasty ends; the Banu Ghaniya fight on from the Balearics."
     }
   ],
   "imageInfo": {
-    "caption": "An Almoravid gold dinar struck at Seville (1116), coinage of the dynasty that ruled Morocco and al-Andalus.",
-    "creator": "Almoravid mint; British Museum, Wikimedia Commons",
-    "date": "1116 coin",
-    "source": "Wikimedia Commons",
+    "caption": "An Almoravid gold dinar struck at Seville in 1116, in a 2008 photograph of the British Museum specimen.",
+    "creator": "Coin struck for Ali ibn Yusuf; photograph by PHGCOM",
+    "date": "Coin 1116; photograph 2008",
+    "source": "British Museum, via Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Almoravid_gold_dinar_coin_from_Seville,_Spain,_1116_British_Museum.jpg",
-    "license": "Creative Commons",
-    "note": "Almoravid dinars set the standard for gold coinage across the medieval western Mediterranean."
+    "license": "CC BY-SA 3.0",
+    "note": "The dynasty bore no heraldry, and its coinage is the emblem the sources actually give it. Almoravid dinars were struck to a consistent weight and fineness from West African gold brought across the Sahara, and they were trusted far beyond the dynasty's own territory: Christian Iberia imitated them as the maravedí, a currency name taken directly from al-Murabitun."
   },
   "sources": [
     {
+      "title": "Wikimedia Commons image record: Almoravid dinar of 1116",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Almoravid_gold_dinar_coin_from_Seville,_Spain,_1116_British_Museum.jpg"
+    },
+    {
       "title": "Almoravid dynasty",
       "author": "Wikipedia",
-      "type": "reference",
-      "url": "https://en.wikipedia.org/wiki/Almoravid_dynasty"
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Almoravid_dynasty",
+      "note": "Gives the ruler list, the conquests with dates, and the fall of Marrakesh in 1147."
+    },
+    {
+      "title": "Yusuf ibn Tashfin",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Yusuf_ibn_Tashfin"
     }
   ],
   "relatedEntries": {
@@ -97,7 +202,7 @@
         "title": "Yusuf ibn Tashfin",
         "type": "person",
         "slug": "yusuf-ibn-tashfin",
-        "label": "The dynasty's great emir"
+        "label": "The emir who made the movement an empire"
       }
     ],
     "events": [
@@ -105,7 +210,7 @@
         "title": "Battle of Sagrajas",
         "type": "event",
         "slug": "battle-of-sagrajas",
-        "label": "The victory that opened their rule in Iberia"
+        "label": "The victory of 1086 that opened their rule in Iberia"
       }
     ],
     "locations": [
@@ -126,6 +231,12 @@
         "type": "location",
         "slug": "marrakesh",
         "label": "Capital founded about 1070"
+      },
+      {
+        "title": "Almohad Caliphate",
+        "type": "location",
+        "slug": "almohad-caliphate",
+        "label": "The movement that destroyed them in 1147"
       }
     ]
   }

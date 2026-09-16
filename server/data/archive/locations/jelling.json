@@ -1,43 +1,73 @@
 {
   "type": "location",
   "locationType": "Town / royal monument site",
-  "year": "Medieval period",
+  "year": 965,
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Gorm the Old",
-    "Harald Bluetooth",
-    "Jelling stones"
+    "The two Jelling stones of Gorm the Old and Harald Bluetooth",
+    "The earliest depiction of Christ in Scandinavian art",
+    "The two great burial mounds and the timber chamber of 958-959",
+    "A UNESCO World Heritage Site since 1994"
   ],
   "overview": [
-    "Jelling stones and royal monuments associated with Gorm the Old and Harald Bluetooth."
+    "Jelling was the monumental seat of the first historical Danish royal dynasty: two runestones, two great mounds, a church and a vast enclosure.",
+    "Harald Bluetooth's stone, raised about 965, claims that he won all Denmark and Norway and made the Danes Christian, and is often called Denmark's certificate of baptism."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Jelling in central Jutland was one of the most important royal sites in Viking Age Denmark. The Jelling stones — two large runestones erected by Gorm the Old and Harald Bluetooth — are among the most significant monuments of Scandinavian early medieval history.",
-        "Harald Bluetooth's larger stone, raised around 965, declares the Christianization of Denmark and is often called \"Denmark's birth certificate.\""
+        "Jelling lies in central Jutland, north-west of Vejle. The site holds two of the largest burial mounds in Denmark, a stone church, and between them the two carved stones that make the place famous. It was the monumental centre of the dynasty that ruled Denmark at the point where it becomes visible in written history.",
+        "Excavation has shown the monuments to be parts of one deliberate scheme rather than an accumulation. Together they represent a royal statement, made in stone and earth at enormous cost, about a kingdom and a religion that were both new."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The two stones",
       "paragraphs": [
-        "The Jelling complex includes two burial mounds, a church, and the two runestones. Gorm the Old's mound and Harald's monument together mark the transition from pagan Norse kingship to Christian Danish kingship. The site is a UNESCO World Heritage Site and remains the primary archaeological expression of early Danish royal identity."
+        "The smaller stone was raised by Gorm the Old for his wife: \"King Gorm made these monuments in memory of Thyra, his wife, Denmark's adornment.\" It is the first use of the name Denmark on a monument inside the country.",
+        "The larger stone was raised by their son Harald about 965 and carries a longer claim: \"King Harald ordered these monuments made in memory of Gorm, his father, and in memory of Thyra, his mother; that Harald who won for himself all of Denmark and Norway and made the Danes Christian.\" Its three faces carry the runes, a great beast entwined with a serpent, and a figure of Christ with arms outstretched and bound in interlace rather than nailed to a cross — the earliest image of Christ in Scandinavian art, and one that fits him into the visual language of Norse carving rather than replacing it."
+      ]
+    },
+    {
+      "title": "The mounds and the church",
+      "paragraphs": [
+        "The north mound contained a timber burial chamber whose planks have been dated by dendrochronology to 958 or 959, the right date for Gorm's death. The chamber was richly furnished but the body was gone, removed in antiquity rather than robbed.",
+        "The likely explanation was found in 1978 beneath the church, where a grave containing the bones of a middle-aged man of high status was excavated. The usual reading is that Harald, having converted, had his father taken out of a pagan mound and reburied in consecrated ground inside the first church at Jelling — an act that matches the claim on his stone exactly. The south mound, despite its size, contained no burial at all and may have been a platform or a monument."
+      ]
+    },
+    {
+      "title": "The enclosure",
+      "paragraphs": [
+        "Geophysical survey and excavation since 2006 have shown that the mounds and stones stood inside a huge rhomboid palisade, roughly 360 metres on each side and enclosing about twelve and a half hectares, with large timber halls inside it.",
+        "A stone ship setting nearly 350 metres long ran through the complex, its lines partly buried by the later mounds. The scale of the works — the timber alone required a substantial forest — is the clearest measure available of what Harald Bluetooth could command, and it supports rather than contradicts the boast carved on his stone."
+      ]
+    },
+    {
+      "title": "Afterwards",
+      "paragraphs": [
+        "Harald was driven out by his son Sweyn Forkbeard and died about 986. The dynasty he consolidated went on to rule England under Sweyn and Cnut the Great, and Jelling itself declined into an ordinary parish once the royal centre moved to Roskilde and elsewhere.",
+        "The site was declared a UNESCO World Heritage Site in 1994, and the stones were enclosed in climate-controlled glass casings in 2011 after weathering and lichen had begun to erode the carving. Harald's byname was borrowed in 1997 for the Bluetooth wireless standard, whose logo combines his initials in runes."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Jelling",
+      "title": "Wikimedia Commons image record: the Jelling stones",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Jellingstenene_2011.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Runensteine_Gorm_Blauzahn.jpg"
     },
     {
-      "title": "Jelling reference page",
-      "author": "Reference source",
+      "title": "Jelling stones",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Jelling_stones"
+    },
+    {
+      "title": "Jelling Mounds, Runic Stones and Church",
+      "author": "UNESCO World Heritage Centre",
       "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Jelling"
+      "url": "https://whc.unesco.org/en/list/697/"
     }
   ],
   "relatedEntries": {
@@ -46,18 +76,19 @@
         "title": "Gorm the Old",
         "type": "person",
         "slug": "gorm-the-old",
-        "label": "Death of Gorm the Old"
+        "label": "Raised the smaller stone and was buried in the north mound"
       },
       {
         "title": "Harald Bluetooth",
         "type": "person",
-        "slug": "harald-bluetooth"
+        "slug": "harald-bluetooth",
+        "label": "Raised the larger stone about 965"
       },
       {
         "title": "Thyra",
         "type": "person",
         "slug": "thyra",
-        "label": "Queen commemorated at Jelling"
+        "label": "Commemorated on both stones"
       }
     ],
     "locations": [
@@ -65,33 +96,71 @@
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
+        "label": "The kingdom the larger stone claims"
       }
     ],
     "artifacts": [
       {
         "title": "Jelling Stones",
         "type": "artifact",
-        "slug": "jelling-stones"
+        "slug": "jelling-stones",
+        "label": "The monuments themselves"
       }
     ]
   },
   "id": "jelling",
   "name": "Jelling",
   "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Runensteine_Gorm_Blauzahn.jpg",
-  "summary": "Jelling stones and royal monuments associated with Gorm the Old and Harald Bluetooth.",
+  "summary": "The royal centre in central Jutland where Gorm the Old and Harald Bluetooth raised the two Jelling stones, the larger of which records the conversion of the Danes about 965.",
   "imageInfo": {
-    "caption": "The Jelling stones in Denmark, raised by Gorm the Old and Harald Bluetooth — monuments of early Danish kingship.",
+    "caption": "The two Jelling stones beside the church in a 2003 photograph: Gorm the Old's smaller stone at left, and Harald Bluetooth's larger stone of about 965.",
     "creator": "Jürgen Howaldt",
-    "date": "2003",
+    "date": "2003; the stones were raised in the tenth century",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Runensteine_Gorm_Blauzahn.jpg",
     "license": "CC BY-SA 2.0 de",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Photographed in their open-air position between the church and the south mound, where they have stood since the Middle Ages. Protective glass casings were built over both stones in 2011, so this view shows them as they were displayed for centuries rather than as a visitor sees them now."
   },
   "coordinates": {
     "lat": 55.7558,
     "lon": 9.4194
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "timeline": [
+    {
+      "date": "c. 958-959",
+      "title": "The north mound chamber",
+      "description": "Timber felled for the burial chamber is dated by dendrochronology, matching the death of Gorm the Old."
+    },
+    {
+      "date": "Mid tenth century",
+      "title": "Gorm raises the smaller stone",
+      "description": "The king commemorates Thyra, using the name Denmark on a monument for the first time in the country."
+    },
+    {
+      "date": "c. 965",
+      "title": "Harald raises the larger stone",
+      "description": "Harald Bluetooth claims all Denmark and Norway and the conversion of the Danes, with a carved Christ on one face."
+    },
+    {
+      "date": "c. 965-970",
+      "title": "Gorm reburied",
+      "description": "The body is removed from the pagan mound, most probably to the church, where a high-status grave was found in 1978."
+    },
+    {
+      "date": "c. 986",
+      "title": "Death of Harald",
+      "description": "Driven out by his son Sweyn Forkbeard, Harald dies and the royal centre begins to move elsewhere."
+    },
+    {
+      "date": "1994",
+      "title": "World Heritage listing",
+      "description": "The mounds, stones and church are inscribed by UNESCO."
+    },
+    {
+      "date": "From 2006",
+      "title": "The palisade found",
+      "description": "Survey reveals a rhomboid enclosure of about twelve and a half hectares with great halls and a long ship setting."
+    }
+  ]
 }

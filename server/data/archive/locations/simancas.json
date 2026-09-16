@@ -8,48 +8,109 @@
   ],
   "year": "10th century",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castillo%20de%20Simancas%202017.jpg",
-  "summary": "A fortress town on the Duero near Valladolid, site of Ramiro II's great victory over Abd al-Rahman III in 939 and, much later, the archive of the Spanish crown.",
-  "overview": "Simancas guarded a crossing of the Duero on the tenth-century frontier between León and al-Andalus, and its name is bound to the battle fought there in 939.",
+  "summary": "A fortress town on the Duero near Valladolid where Ramiro II of León destroyed the caliphal army of Abd al-Rahman III in 939, and which later housed the central archive of the Spanish crown.",
+  "overview": "Simancas guarded a crossing of the Duero on the tenth-century frontier between León and the Caliphate of Córdoba, and its name belongs to the greatest Christian victory of that century.",
   "knownFor": [
-    "The Battle of Simancas (939) and the later royal Archivo General de Simancas"
+    "The Battle of Simancas in July 939",
+    "The frontier of the Duero between León and Córdoba",
+    "The castle that became the General Archive of Simancas",
+    "The last campaign Abd al-Rahman III led in person"
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Simancas — the Roman Septimanca — is a fortified town on the river Duero near Valladolid, on what in the tenth century was the tense frontier between the Kingdom of León and the Caliphate of Córdoba. Its strategic crossing made it a natural point of concentration and conflict.",
-        "The town is remembered above all for the battle of 939, in which Ramiro II of León and his allies destroyed the campaigning army of Abd al-Rahman III nearby, one of the great Christian victories of the age."
+        "Simancas — the Roman Septimanca — stands above the Duero a little downstream of Valladolid, at a crossing that mattered because the river was the frontier. In the tenth century the line of the Duero divided the Kingdom of León from the Caliphate of Córdoba, and Simancas was one of the strongpoints holding it.",
+        "The town is remembered for a single summer. In July 939 the campaigning army of Abd al-Rahman III came north to break the Leonese frontier and was destroyed near the town, in a defeat so complete that the caliph never again took the field in person."
       ]
     },
     {
-      "title": "The castle and archive",
+      "title": "The campaign of 939",
       "paragraphs": [
-        "The medieval castle of Simancas, rebuilt in later centuries, still crowns the town. In the sixteenth century it was chosen to hold the central records of the Spanish monarchy, and the Archivo General de Simancas remains one of the great state archives of Europe.",
-        "That later role has kept the name Simancas famous far beyond the battle, but for the history of the Reconquista it is the fighting of 939 on the Duero that matters."
+        "Abd al-Rahman III had proclaimed himself caliph in 929 and spent the following decade making Córdoba the dominant power in the peninsula. The expedition of 939 was conceived on a grand scale, a campaign of overwhelming force intended to settle the northern frontier, and the caliph led it himself.",
+        "Against him Ramiro II of León assembled an unusually broad coalition: his own forces, the Castilian count Fernán González, and García Sánchez I of Pamplona. The armies met near Simancas around 19 July 939. Both sides recorded a solar eclipse as the fighting began, which unnerved them equally — and which gives the battle one of the few independently checkable dates in tenth-century Iberian warfare."
+      ]
+    },
+    {
+      "title": "The rout and the ditch",
+      "paragraphs": [
+        "The caliphal army broke after several days of fighting and was pursued south-east across the plain. The pursuit ended at a ravine the Arabic sources call al-Khandaq, the ditch of Alhándega, where a large part of the retreating force was trapped and killed.",
+        "Abd al-Rahman escaped narrowly, and the extent of the disaster is measured by what he left behind: his personal copy of the Qur'an and his gilded coat of mail were taken on the field. He had several hundred of his own commanders crucified afterwards for their conduct, among them Fortún ibn Muhammad, the governor of Huesca, who had held his troops back from the battle."
+      ]
+    },
+    {
+      "title": "What it settled, and did not",
+      "paragraphs": [
+        "The victory secured the Duero line for a generation and allowed León and Castile to consolidate settlement south of the river. Ramiro II's reputation rested on it for the rest of his reign.",
+        "It did not break Córdoba. The caliphate recovered, and under the chamberlain al-Mansur in the later tenth century it raided Christian Spain more destructively than ever, sacking León, Barcelona and Santiago de Compostela. What Simancas changed permanently was the caliph's own practice: after 939 Abd al-Rahman III directed campaigns through his generals and never commanded in the field again."
+      ]
+    },
+    {
+      "title": "The castle and the archive",
+      "paragraphs": [
+        "The medieval castle was rebuilt in the fifteenth century by the Enríquez admirals of Castile and passed to the crown. In 1540 Charles V ordered the royal papers to be gathered there, and Philip II's instruction of 1561 turned it into a permanent, purpose-organised institution — the first state archive of its kind in Europe.",
+        "The General Archive of Simancas still holds the central records of the Castilian and Spanish monarchy from the fifteenth to the eighteenth centuries. For a place whose fame rests on one battle, it is a peculiar afterlife: the fortress that guarded a frontier became the building in which the empire that grew out of that frontier kept its memory."
       ]
     }
   ],
   "timeline": [
     {
-      "date": "939",
+      "date": "929",
+      "title": "Abd al-Rahman III takes the caliphal title",
+      "description": "Córdoba asserts itself as a caliphate and presses the northern frontier through the 930s."
+    },
+    {
+      "date": "July 939",
       "title": "Battle of Simancas",
-      "description": "Ramiro II defeats Abd al-Rahman III near the town."
+      "description": "Ramiro II, with Fernán González and García Sánchez I, destroys the caliphal army near the town."
+    },
+    {
+      "date": "July 939",
+      "title": "The ditch of Alhándega",
+      "description": "The pursuit traps much of the retreating army in a ravine; the caliph loses his Qur'an and mail."
+    },
+    {
+      "date": "After 939",
+      "title": "The crucifixions",
+      "description": "Abd al-Rahman executes commanders he blames for the defeat and never again leads an army in person."
+    },
+    {
+      "date": "15th century",
+      "title": "The castle rebuilt",
+      "description": "The Enríquez family reconstructs the fortress, which later passes to the crown."
+    },
+    {
+      "date": "1540-1561",
+      "title": "The royal archive",
+      "description": "Charles V orders the crown papers gathered here and Philip II makes the archive permanent."
     }
   ],
   "imageInfo": {
-    "caption": "The castle of Simancas above the town on the Duero, near the site of the 939 battle.",
-    "creator": "Photograph, Wikimedia Commons",
-    "date": "Medieval castle (later rebuilt); photograph 2017",
+    "caption": "The castle of Simancas above the town on the Duero, rebuilt in the fifteenth century and later the seat of the crown archive, in a 2017 photograph.",
+    "creator": "Heparina1985 (Wikimedia Commons)",
+    "date": "24 July 2017",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castillo_de_Simancas_2017.jpg",
-    "license": "Creative Commons",
-    "note": "The surviving fortress marks the frontier stronghold around which the battle was fought."
+    "license": "CC BY-SA 4.0",
+    "note": "The fabric shown is later than the battle. The tenth-century stronghold that Ramiro II defended was rebuilt as a fifteenth-century castle by the Enríquez family and remodelled again in the sixteenth century to hold the royal records, so the towers here belong to the archive rather than to the frontier fortress of 939."
   },
   "sources": [
     {
+      "title": "Wikimedia Commons image record: castle of Simancas",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Castillo_de_Simancas_2017.jpg"
+    },
+    {
+      "title": "Battle of Simancas",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Simancas"
+    },
+    {
       "title": "Simancas",
       "author": "Wikipedia",
-      "type": "reference",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Simancas"
     }
   ],
@@ -59,7 +120,7 @@
         "title": "Battle of Simancas",
         "type": "event",
         "slug": "battle-of-simancas",
-        "label": "Fought near the town"
+        "label": "Fought near the town in 939"
       }
     ],
     "people": [
@@ -68,6 +129,12 @@
         "type": "person",
         "slug": "ramiro-ii-of-leon",
         "label": "Victor here in 939"
+      },
+      {
+        "title": "Abd al-Rahman III",
+        "type": "person",
+        "slug": "abd-al-rahman-iii",
+        "label": "Defeated here; never led an army again"
       }
     ],
     "locations": [

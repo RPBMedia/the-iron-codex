@@ -3,63 +3,106 @@
   "type": "location",
   "name": "Lombardy",
   "locationType": "Region",
-  "year": "Medieval period",
+  "year": 1167,
   "kingdom": "Northern Italy",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Map_of_Metropolitan_city_of_Milan_%28region_Lombardy%2C_Italy%29.svg",
-  "summary": "A northern Italian region of communes, bishops, and imperial politics central to the Lombard League world.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iron%20Crown.JPG?width=1600",
+  "summary": "The plain of the Po, named for the Lombards who ruled it from Pavia, and in the twelfth century the densest network of self-governing cities in Europe — the Lombard League that fought Frederick Barbarossa.",
   "overview": [
-    "A northern Italian region of communes, bishops, and imperial politics central to the Lombard League world."
+    "Lombardy is the region of northern Italy between the Alps and the Po, named for the Lombard kingdom that ruled it from 568 until Charlemagne took Pavia in 774.",
+    "Its cities became the wealthiest and most independent communes in Latin Europe, and their league beat an emperor in the field at Legnano in 1176."
   ],
   "knownFor": [
-    "Lombard League",
-    "Milanese communal politics",
-    "Frederick Barbarossa"
+    "The Lombard kingdom and its capital at Pavia",
+    "The Iron Crown, regalia of the medieval kingdom of Italy",
+    "The Lombard League and the Battle of Legnano in 1176",
+    "The Peace of Constance of 1183, which conceded communal self-government",
+    "Lombard bankers, whose name became a word for moneylending"
   ],
   "imageInfo": {
-    "caption": "Lombardy in northern Italy, heartland of the Lombard League’s resistance to imperial authority.",
-    "creator": "Vonvikken",
-    "date": "2010-12-06",
+    "caption": "The Iron Crown of the Lombards in the cathedral at Monza, gold with cloisonné enamel and garnets, photographed in 2008.",
+    "creator": "James Steakley",
+    "date": "2008; the crown's components date between the fifth and the tenth centuries",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_Metropolitan_city_of_Milan_(region_Lombardy%2C_Italy).svg",
-    "license": "Public domain",
-    "note": "Map/diagram used to show extent or location."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iron_Crown.JPG",
+    "license": "CC BY-SA 3.0",
+    "note": "The regalia of the medieval kingdom of Italy, kept in the Chapel of Theodelinda at Monza in Lombardy. Six hinged gold plates carry twenty-two stones and green and blue enamel; the narrow inner band was traditionally said to be beaten from a nail of the Crucifixion, though analysis in 1993 found it to be silver and not iron at all. Otto III was crowned with it at Pavia in 996, Conrad II in 1026 and Frederick Barbarossa in 1155. It replaces a modern administrative map of the metropolitan city of Milan."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Lombardy was the most contested region of northern Italy throughout the medieval period, combining wealthy communes, imperial ambitions, and papal politics in repeated conflict. The Lombard League — a coalition of northern Italian cities — confronted Frederick I Barbarossa at the Battle of Legnano in 1176 and forced him to recognize communal autonomy."
+        "Lombardy is the fertile plain between the southern Alps and the river Po, watered by Alpine rivers and crossed by the roads running from the passes down to Milan, Pavia and the Adriatic. It takes its name from the Lombards, the Germanic people who entered Italy in 568 and ruled most of the peninsula from Pavia until Charlemagne deposed their last king in 774.",
+        "Its medieval importance is a matter of density. No comparable area of Europe held so many large, rich and independent cities so close together, and the contest between those cities and whoever claimed to rule Italy dominates the region's history from the eleventh century to the thirteenth."
       ]
     },
     {
-      "title": "Historical significance",
+      "title": "From kingdom to communes",
       "paragraphs": [
-        "Lombardy's medieval political geography was shaped by the conflict between the Holy Roman Emperor's claims to Italy and the independence of its cities. Milan, the largest Lombard city, was repeatedly the focus of imperial siege and communal resistance. The region's wealth from trade and manufacture made it both a prize and a theater of Italian politics through the thirteenth century.",
-        "Lombard merchants and bankers played crucial roles in medieval European credit networks, and the term \"Lombard\" became synonymous with moneylending across Europe — a reflection of the region's commercial dominance."
+        "After 774 the Lombard kingdom became the kingdom of Italy under Frankish and then German kings, and the Iron Crown at Monza remained the symbol of that title. But the kings were mostly absent, and real authority settled on bishops and then, from the late eleventh century, on sworn associations of citizens — the communes.",
+        "By about 1100 Milan, Cremona, Brescia, Bergamo, Piacenza, Lodi and their neighbours were governing themselves through elected consuls, minting coin, waging their own wars and quarrelling ferociously with one another. They did not deny that the emperor was their lord; they simply did not expect him to exercise it."
+      ]
+    },
+    {
+      "title": "Barbarossa and the Lombard League",
+      "paragraphs": [
+        "Frederick I Barbarossa was not prepared to accept that. At the Diet of Roncaglia in 1158 he had jurists define the imperial regalia — tolls, mints, courts, the appointment of magistrates — and claimed them all back. When Milan resisted he besieged it and in 1162 destroyed the city, dispersing its people into four settlements.",
+        "The response came in stages: the Veronese League of 1164 in the east, and then on 7 April 1167 the oath of Pontida, which bound the Lombard cities together in the Lombard League. Milan was rebuilt, and in 1168 the allies founded a new fortress city in the west and named it Alessandria after Pope Alexander III, the emperor's other great opponent. On 29 May 1176 the league's infantry and the Company of Death held the imperial cavalry at the Battle of Legnano and broke it, in one of the very few medieval battles in which communal militia defeated a feudal army outright."
+      ]
+    },
+    {
+      "title": "Constance and the second war",
+      "paragraphs": [
+        "Legnano forced negotiation. The Truce of Venice in 1177 reconciled Frederick with the pope, and the Peace of Constance on 25 June 1183 settled the cities' position: they acknowledged imperial overlordship and paid for it, and in exchange kept their consuls, their courts, their walls and their leagues. It is the clearest formal recognition of urban self-government anywhere in twelfth-century Europe.",
+        "The quarrel revived under Frederick's grandson. The league re-formed against Frederick II, who beat it heavily at the Battle of Cortenuova in 1237 and captured its carroccio, the ox-drawn war-altar that carried each city's standard. His fortunes turned at Parma in 1248, when the besieged citizens broke out and sacked the imperial camp while he was hunting, and the league outlasted him: he died in 1250 and it dissolved shortly afterwards, its cities effectively independent."
+      ]
+    },
+    {
+      "title": "Cloth, credit and arms",
+      "paragraphs": [
+        "The wealth underneath the politics came from water, wool and trade. Irrigation works — many of them monastic in origin, later extended by the communes — made the plain one of the most productive agricultural regions in Europe, and the cities worked wool and fustian and later silk.",
+        "Lombard merchants financed that trade and then other people's. They were lending across the Alps from the twelfth century, and \"Lombard\" became a general European word for a moneylender and a pawnbroker, surviving in street names from London to Amsterdam. In the fourteenth and fifteenth centuries Milanese workshops became the leading armour producers of Europe, exporting harness to England, France and Spain."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Lombardy",
+      "title": "Wikimedia Commons image record: the Iron Crown",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Lombardia_in_Italy.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Iron_Crown.JPG"
     },
     {
-      "title": "Lombardy reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Lombard League",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lombard_League"
+    },
+    {
+      "title": "Iron Crown of Lombardy",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Iron_Crown_of_Lombardy"
+    },
+    {
+      "title": "Lombardy",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Lombardy"
     }
   ],
   "relatedEntries": {
     "people": [
       {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Fought the league for twenty-five years"
+      },
+      {
         "title": "Guido da Landriano",
         "type": "person",
         "slug": "guido-da-landriano",
-        "label": "Birthplace of Guido da Landriano"
+        "label": "Milanese commander of the league's forces"
       }
     ],
     "locations": [
@@ -67,15 +110,75 @@
         "title": "Lombard League",
         "type": "location",
         "slug": "lombard-league",
-        "label": "Realm of Guido da Landriano"
+        "label": "The alliance of its cities"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "The overlordship the cities acknowledged at Constance"
       }
     ],
     "events": [
       {
         "title": "Battle of Legnano",
         "type": "event",
-        "slug": "battle-of-legnano"
+        "slug": "battle-of-legnano",
+        "label": "The league's victory in 1176"
+      },
+      {
+        "title": "Battle of Cortenuova",
+        "type": "event",
+        "slug": "battle-of-cortenuova",
+        "label": "Frederick II's defeat of the revived league in 1237"
       }
     ]
-  }
+  },
+  "timeline": [
+    {
+      "date": "568",
+      "title": "The Lombards enter Italy",
+      "description": "Alboin leads his people over the Alps; the kingdom they found is ruled from Pavia."
+    },
+    {
+      "date": "774",
+      "title": "Charlemagne takes Pavia",
+      "description": "The Lombard kingdom ends and becomes the kingdom of Italy under Frankish and then German kings."
+    },
+    {
+      "date": "1158",
+      "title": "The Diet of Roncaglia",
+      "description": "Frederick Barbarossa has the imperial regalia defined and reclaims them from the communes."
+    },
+    {
+      "date": "1162",
+      "title": "Milan destroyed",
+      "description": "The emperor razes the city after a long siege and disperses its population."
+    },
+    {
+      "date": "7 April 1167",
+      "title": "The oath of Pontida",
+      "description": "The Lombard cities bind themselves into a league; Milan is rebuilt and Alessandria founded the next year."
+    },
+    {
+      "date": "29 May 1176",
+      "title": "Legnano",
+      "description": "The league's militia defeats the imperial army at the Battle of Legnano."
+    },
+    {
+      "date": "25 June 1183",
+      "title": "The Peace of Constance",
+      "description": "The cities acknowledge the emperor and keep their consuls, courts and leagues."
+    },
+    {
+      "date": "1237",
+      "title": "Cortenuova",
+      "description": "Frederick II defeats the revived league at the Battle of Cortenuova and takes its carroccio."
+    },
+    {
+      "date": "1248",
+      "title": "The camp at Parma",
+      "description": "Besieged citizens sack the imperial camp, and Frederick II's position in Lombardy never recovers."
+    }
+  ]
 }

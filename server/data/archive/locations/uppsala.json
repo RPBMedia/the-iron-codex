@@ -1,42 +1,81 @@
 {
   "type": "location",
   "locationType": "Town / ecclesiastical center",
-  "year": "Medieval period",
+  "year": 1164,
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Eric IX of Sweden",
-    "Swedish royal cult",
-    "Gamla Uppsala"
+    "The Swedish archbishopric, founded at Gamla Uppsala in 1164",
+    "The transfer of the see to Östra Aros in 1273, which took the name Uppsala with it",
+    "The shrine of Saint Eric and the royal cult",
+    "Uppsala University, founded in 1477"
   ],
   "overview": [
-    "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition."
+    "Two places carry the name. Gamla Uppsala was the old cult, assembly and archiepiscopal centre; the present city, called Östra Aros until 1273, took both the see and the name in that year.",
+    "Eric IX was killed at Östra Aros in 1160 and buried at Gamla Uppsala, and his relics travelled south with the archbishopric a century later."
   ],
   "contentSections": [
     {
-      "title": "Overview",
+      "title": "Two places, one name",
       "paragraphs": [
-        "Uppsala was medieval Sweden's foremost religious and ceremonial center. An archbishopric was established in 1164 at Gamla Uppsala, about five kilometres north, making it the seat of the Swedish church; the see moved to the present site, then called Ostra Aros, only in 1273. Uppsala's cathedral became the site of royal burials and archiepiscopal authority throughout the medieval period."
+        "Almost everything confusing about medieval Uppsala follows from the fact that the name moved. The older centre, now called Gamla Uppsala — Old Uppsala — lies about five kilometres north of the modern city and was the religious and ceremonial heart of the Svear, with its great burial mounds, its assembly and, from 1164, its archbishop.",
+        "The present city was a separate settlement at the mouth of the Fyris river, called Östra Aros, eastern river mouth. In 1273 the archiepiscopal seat was transferred there, and the name Uppsala was transferred with it at papal request. Statements about \"Uppsala\" before 1273 therefore usually mean the old site, and statements after it usually mean the new one."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Gamla Uppsala",
       "paragraphs": [
-        "Eric IX of Sweden was killed at Gamla Uppsala in 1160, reportedly after Mass, by a Danish-backed rival. His cult as a royal martyr made Uppsala the center of Swedish royal sainthood, and his tomb in the cathedral became a pilgrimage site. Uppsala's combination of royal martyrdom, archiepiscopal authority, and later university made it the symbolic capital of Swedish Christian identity."
+        "The old site was the most important cult centre in eastern Scandinavia. Adam of Bremen, writing in the 1070s, described a temple there hung with gold and a grove in which men and animals were sacrificed every ninth year. He was a hostile witness who never visited, writing to justify a missionary programme, and modern archaeologists are cautious: excavation beneath the church found remains of one or more large timber buildings, but whether they are a temple, a hall, or an earlier church is disputed.",
+        "What is not disputed is the scale of the place. Three great mounds of the sixth century, an enormous hall platform, and a processional row of posts running for nearly a kilometre mark it as a royal centre for centuries before Christianity. The Christian church built there was made the seat of Sweden's first archbishop in 1164, when the Swedish church was finally separated from the archdiocese of Lund."
+      ]
+    },
+    {
+      "title": "The killing of Eric IX",
+      "paragraphs": [
+        "Eric IX was killed on 18 May 1160, the feast of the Ascension, at Östra Aros — the site of the present city — having heard Mass. His enemies, led by the Danish prince Magnus Henriksson, came upon him outside the church; the account has him finishing the service, arming the few men at hand, going out to meet them, being pulled from his horse and killed.",
+        "He was buried at the church of Gamla Uppsala, and a cult grew quickly around him. The detail of the story should be treated carefully: the narrative comes from a legend written more than a century later, and the only near-contemporary confirmation is a papal letter acknowledging that he was killed by enemies. He was never formally canonised by Rome, but he became the patron saint of Sweden regardless, and his feast on 18 May was kept throughout the medieval province."
+      ]
+    },
+    {
+      "title": "The move of 1273",
+      "paragraphs": [
+        "A fire in 1240 damaged the cathedral at the old site badly enough that its nave and transepts were removed, and the practical case for staying was weak: Östra Aros was the working town, with the river traffic, the market and the population.",
+        "In 1273 the archbishopric and the relics of Saint Eric were moved to Östra Aros, which took the name Uppsala. Work on a wholly new cathedral in brick, on the French Gothic model and the largest church in Scandinavia, had already begun; it was consecrated in 1435. The shrine of Saint Eric stands in it, and the reliquary was examined in modern times, its bones showing injuries to the neck consistent with the manner of death the legend describes."
+      ]
+    },
+    {
+      "title": "The medieval city",
+      "paragraphs": [
+        "As an archiepiscopal city Uppsala held the provincial councils of the Swedish church, and its archbishop was the senior churchman of the realm, involved in every royal election and dynastic quarrel of the later Middle Ages. The cathedral became a royal burial church, and the shrine drew pilgrims from across the province.",
+        "In 1477 Archbishop Jakob Ulvsson secured a papal bull founding a university at Uppsala, the first in Scandinavia, on the model of Bologna and Paris. It struggled and effectively lapsed during the Reformation before being refounded, but its establishment completed the transfer of every institution that mattered from the old site to the new."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Uppsala",
+      "title": "Wikimedia Commons image record: Gamla Uppsala church",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Gamla_Uppsala_kyrka.jpg"
     },
     {
-      "title": "Uppsala reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Uppsala"
+      "title": "Gamla Uppsala",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Gamla_Uppsala",
+      "note": "Gives the archbishopric of 1164 and the transfer of the seat to Östra Aros in 1273."
+    },
+    {
+      "title": "Eric IX of Sweden",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_IX_of_Sweden",
+      "note": "Places the killing of 18 May 1160 at Östra Aros and the burial at the church of Old Uppsala."
+    },
+    {
+      "title": "Gesta Hammaburgensis ecclesiae pontificum",
+      "author": "Adam of Bremen",
+      "type": "primary source",
+      "note": "The 1070s description of the temple and sacrifices at the old site, written by a hostile witness who never went there."
     }
   ],
   "relatedEntries": {
@@ -45,17 +84,19 @@
         "title": "Eric IX of Sweden",
         "type": "person",
         "slug": "eric-ix-of-sweden",
-        "label": "Death of Eric IX of Sweden"
+        "label": "Killed at Östra Aros in 1160; buried at Gamla Uppsala"
       },
       {
         "title": "Sverker I of Sweden",
         "type": "person",
-        "slug": "sverker-i-of-sweden"
+        "slug": "sverker-i-of-sweden",
+        "label": "His rival predecessor in the dynastic struggle"
       },
       {
         "title": "Knut Eriksson",
         "type": "person",
-        "slug": "knut-eriksson"
+        "slug": "knut-eriksson",
+        "label": "His son, who promoted the royal cult"
       }
     ],
     "locations": [
@@ -70,19 +111,51 @@
   "id": "uppsala",
   "name": "Uppsala",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamla_Uppsala_kyrka.jpg",
-  "summary": "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition.",
+  "summary": "The ecclesiastical capital of medieval Sweden — an archbishopric founded at Gamla Uppsala in 1164, moved five kilometres south to the present city in 1273, and the shrine of Saint Eric.",
   "imageInfo": {
-    "caption": "A major Swedish cult, assembly, and ecclesiastical center tied to royal memory and Eric IX's death tradition.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "Gamla Uppsala church, the surviving choir and tower of the twelfth-century cathedral five kilometres north of the present city, in a 2013 photograph.",
+    "creator": "Szilas (Wikimedia Commons)",
+    "date": "8 July 2013",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gamla_Uppsala_kyrka.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "Public domain",
+    "note": "This is the old site, not the present city. The building was the cathedral of the archbishopric founded in 1164; after a fire in 1240 its nave and transepts were taken down, leaving the choir and central tower that stand today, and in 1273 the see moved south to Östra Aros. The great mounds of the pre-Christian cemetery lie immediately beside it."
   },
   "coordinates": {
     "lat": 59.8498,
     "lon": 17.6389
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "timeline": [
+    {
+      "date": "18 May 1160",
+      "title": "Eric IX killed at Östra Aros",
+      "description": "The king is killed after Mass on the site of the present city, and buried at Gamla Uppsala."
+    },
+    {
+      "date": "1164",
+      "title": "The archbishopric founded",
+      "description": "Sweden gains its own archbishop, seated at Gamla Uppsala and separated from the archdiocese of Lund."
+    },
+    {
+      "date": "1240",
+      "title": "Fire at the old cathedral",
+      "description": "The nave and transepts are taken down afterwards, leaving the choir and tower that survive."
+    },
+    {
+      "date": "1273",
+      "title": "The see moves south",
+      "description": "The archbishopric and Saint Eric's relics are transferred to Östra Aros, which is renamed Uppsala."
+    },
+    {
+      "date": "1435",
+      "title": "The new cathedral consecrated",
+      "description": "The brick Gothic cathedral, the largest church in Scandinavia, is dedicated on the new site."
+    },
+    {
+      "date": "1477",
+      "title": "The university founded",
+      "description": "Archbishop Jakob Ulvsson obtains a papal bull for the first university in Scandinavia."
+    }
+  ]
 }

@@ -1,42 +1,80 @@
 {
   "type": "location",
   "locationType": "Town",
-  "year": "Medieval period",
-  "kingdom": "Orkney",
+  "year": 1263,
+  "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Haakon IV Haakonsson",
-    "Orkney",
-    "St Magnus Cathedral"
+    "St Magnus Cathedral, begun in 1137",
+    "The death of Haakon IV of Norway in December 1263",
+    "The Norse earldom of Orkney and the Orkneyinga saga",
+    "The pledging of Orkney and Shetland to Scotland in 1468-1469"
   ],
   "overview": [
-    "The Orkney town where Haakon IV died after his western campaign in 1263."
+    "Kirkwall — Kirkjuvágr, church bay — was the chief town of the Norwegian earldom of Orkney and the seat of its cathedral.",
+    "Haakon IV of Norway died in the Bishop's Palace there on 16 December 1263, wintering after the Largs campaign, and the islands passed to Scotland two centuries later."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Kirkwall is the main town of Orkney, then under Norwegian sovereignty, and the site where Haakon IV Haakonsson of Norway died in December 1263 after the western campaign that followed the Battle of Largs. His death there ended Norwegian ambitions to reassert control over the Scottish islands."
+        "Kirkwall stands at the head of a sheltered bay on the Orkney Mainland, and its name is Old Norse: Kirkjuvágr, church bay. The town grew as the administrative centre of the Norwegian earldom of Orkney, which also held Shetland and, for long periods, Caithness on the Scottish mainland.",
+        "It first appears in the Orkneyinga saga under the year 1046 as the residence of Earl Rögnvald Brusason, who was killed there by his uncle Thorfinn the Mighty. For four centuries after that it was a Norse town under a Norwegian crown, and Scots law and Scots speech arrived only at the very end of the Middle Ages."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "St Magnus Cathedral",
       "paragraphs": [
-        "Haakon IV's death at Kirkwall and his body's return to Bergen for burial marked the beginning of a process that ended Norwegian sovereignty over Orkney and Shetland. The Treaty of Perth in 1266 transferred the Hebrides and Man to Scotland. Orkney and Shetland remained Norwegian until 1468–1469, when they were pledged to Scotland as dowry."
+        "Earl Magnus Erlendsson, who ruled jointly and uneasily with his cousin Haakon Paulsson, was killed on the island of Egilsay about 1116 or 1117 in a quarrel dressed as a peace conference. He was quickly venerated as a martyr, and miracles were reported at his grave.",
+        "His nephew Earl Rögnvald Kali Kolsson founded a cathedral in his honour at Kirkwall in 1137, built in banded red and yellow sandstone by masons who had worked at Durham. The relics of both Magnus and Rögnvald are in its piers, discovered in the nineteenth and twentieth centuries, and the building gave the town its name and its rank."
+      ]
+    },
+    {
+      "title": "The death of Haakon IV",
+      "paragraphs": [
+        "In July 1263 Haakon IV of Norway sailed west with a leidang fleet of at least a hundred and twenty ships to defend Norwegian lordship over the Hebrides against the pressure of Alexander III of Scotland. The fleet reached Shetland and Orkney in August and moved down through the Isles to the Firth of Clyde.",
+        "The confused fighting at the Battle of Largs on 2 October 1263 settled nothing militarily, but autumn gales and the loss of ships did. Haakon withdrew to Orkney to winter and resume the campaign in the spring, took up residence in the Bishop's Palace at Kirkwall, fell ill there and died in the early hours of 16 December 1263. He was buried in St Magnus Cathedral for the winter and taken home in the spring to Bergen."
+      ]
+    },
+    {
+      "title": "From Norway to Scotland",
+      "paragraphs": [
+        "Haakon's son Magnus VI Lawmender inherited a position that could not be held and settled it by treaty. At Perth in 1266 Norway ceded the Hebrides and the Isle of Man to Scotland for a lump sum and an annual payment, keeping Orkney and Shetland.",
+        "The northern islands stayed Norwegian for another two centuries. They passed to Scotland in 1468 and 1469, pledged by Christian I of Denmark and Norway against the unpaid dowry of his daughter Margaret on her marriage to James III. The pledge was never redeemed, and the islands were annexed to the Scottish crown in 1472."
+      ]
+    },
+    {
+      "title": "The palaces",
+      "paragraphs": [
+        "Two ruined palaces stand beside the cathedral. The Bishop's Palace, where Haakon died, is the older: a twelfth-century hall range, much rebuilt in the sixteenth century, with a round tower added by Bishop Robert Reid.",
+        "Beside it is the Earl's Palace, built about 1607 for Patrick Stewart, Earl of Orkney, and often called the finest Renaissance domestic building in Scotland. The pairing is a fair summary of the town's history: a Norse and medieval ecclesiastical centre overlaid by the Scottish earldom that replaced the Norwegian one."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Kirkwall",
+      "title": "Wikimedia Commons image record: St Magnus Cathedral",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:St_Magnus_Cathedral_Kirkwall.jpg"
     },
     {
-      "title": "Kirkwall reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Kirkwall",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Kirkwall"
+    },
+    {
+      "title": "Haakon IV of Norway",
+      "author": "Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Haakon_IV_of_Norway",
+      "note": "Gives the death in the Bishop's Palace in the early hours of 16 December 1263."
+    },
+    {
+      "title": "Orkneyinga saga",
+      "author": "Anonymous, about 1200",
+      "type": "primary source",
+      "note": "The narrative source for the earldom, the killing of Magnus and the founding of the cathedral."
     }
   ],
   "relatedEntries": {
@@ -45,17 +83,13 @@
         "title": "Haakon IV Haakonsson",
         "type": "person",
         "slug": "haakon-iv-haakonsson",
-        "label": "Death of Haakon IV Haakonsson"
-      },
-      {
-        "title": "Sverre Sigurdsson",
-        "type": "person",
-        "slug": "sverre-sigurdsson"
+        "label": "Died here in December 1263"
       },
       {
         "title": "Magnus VI Lawmender",
         "type": "person",
-        "slug": "magnus-vi-lawmender"
+        "slug": "magnus-vi-lawmender",
+        "label": "His son, who settled with Scotland in 1266"
       }
     ],
     "locations": [
@@ -63,26 +97,69 @@
         "title": "Kingdom of Norway",
         "type": "location",
         "slug": "kingdom-of-norway",
-        "label": "Realm of Haakon IV Haakonsson"
+        "label": "The realm that held Orkney"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Gained the Hebrides in 1266 and the islands in 1468-1469"
       }
     ]
   },
   "id": "kirkwall",
   "name": "Kirkwall",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St_Magnus_Cathedral_Kirkwall.jpg",
-  "summary": "The Orkney town where Haakon IV died after his western campaign in 1263.",
+  "summary": "The Norse town of Orkney, seat of St Magnus Cathedral, where Haakon IV of Norway died in December 1263 after the campaign that ended Norwegian power in the Hebrides.",
   "imageInfo": {
-    "caption": "The Orkney town where Haakon IV died after his western campaign in 1263.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
-    "source": "Wikimedia Commons",
+    "caption": "St Magnus Cathedral at Kirkwall, begun in 1137 in red and yellow sandstone for the Norse earls of Orkney, in a modern photograph.",
+    "creator": "Robert Scarth",
+    "date": "Modern photograph; the cathedral was begun in 1137",
+    "source": "Wikimedia Commons, from Flickr",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Magnus_Cathedral_Kirkwall.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 2.0",
+    "note": "The cathedral is the one substantial medieval survival at Kirkwall and the building in which Haakon IV lay buried over the winter of 1263-64. Its Romanesque core was begun in 1137 and the church was extended eastward in the thirteenth and fourteenth centuries, so the fabric spans the whole period of Norse and then Scottish rule in the islands."
   },
   "coordinates": {
     "lat": 58.9811,
     "lon": -2.96
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "timeline": [
+    {
+      "date": "1046",
+      "title": "First appearance in the saga",
+      "description": "The Orkneyinga saga names Kirkwall as the residence of Earl Rögnvald Brusason, killed there by Thorfinn the Mighty."
+    },
+    {
+      "date": "c. 1116",
+      "title": "Killing of Earl Magnus",
+      "description": "Magnus Erlendsson is killed on Egilsay and is soon venerated as a martyr."
+    },
+    {
+      "date": "1137",
+      "title": "St Magnus Cathedral begun",
+      "description": "Earl Rögnvald Kali Kolsson founds the cathedral in his uncle's honour, built by masons trained at Durham."
+    },
+    {
+      "date": "2 October 1263",
+      "title": "Largs",
+      "description": "The indecisive Battle of Largs, followed by autumn storms, ends Haakon IV's western campaign."
+    },
+    {
+      "date": "16 December 1263",
+      "title": "Death of Haakon IV",
+      "description": "The king dies in the Bishop's Palace at Kirkwall and is buried in the cathedral for the winter."
+    },
+    {
+      "date": "1266",
+      "title": "The Hebrides ceded",
+      "description": "Magnus VI settles with Scotland at Perth, giving up the Hebrides and Man but keeping Orkney and Shetland."
+    },
+    {
+      "date": "1468-1469",
+      "title": "Orkney pledged to Scotland",
+      "description": "The islands are pledged against Margaret of Denmark's dowry, and are annexed to the Scottish crown in 1472."
+    }
+  ]
 }
