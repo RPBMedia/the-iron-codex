@@ -1553,8 +1553,48 @@ p.article-deck a:focus-visible {
   overflow-wrap: anywhere;
 }
 
-.person-profile {
-  margin-top: 18px;
+/* Option B (owner, 2026-09-16). The person fact strip is a full-width band under
+   both hero columns. It used to sit in the right column under the deck, so that
+   column ran to roughly 810px against a 590px portrait and left about 220px of
+   dead black beneath the image on every person page. `grid-column: 1 / -1` is
+   the same escape hatch `.detail-content-inner` already uses. */
+.person-hero-band {
+  grid-column: 1 / -1;
+  margin-top: clamp(18px, 2.6vw, 30px);
+  min-width: 0;
+}
+
+/* Three across, because the band is now the full hero width rather than half of
+   it. `.person-facts` and `.rich-facts` set 3 and 2 columns at (0,1,0) and lose
+   to this at (0,2,0) whatever the source order. */
+.person-hero-band .fact-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+}
+
+.person-hero-band .fact-wide {
+  grid-column: 1 / -1;
+}
+
+/* Predecessor and Successor stay a pair: the succession list also carries
+   `.fact-strip`, so without this it would inherit the three-column band. */
+.person-hero-band .succession-strip {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* The hero collapses to one column at 820px, where the band spans the full page
+   and two cards still read comfortably; one column only on phones. */
+@media (max-width: 820px) {
+  .person-hero-band .fact-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .person-hero-band .fact-strip,
+  .person-hero-band .succession-strip {
+    grid-template-columns: 1fr;
+  }
 }
 
 .article-subtitle {

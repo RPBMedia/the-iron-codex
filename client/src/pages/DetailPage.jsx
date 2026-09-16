@@ -149,13 +149,20 @@ export default function DetailPage() {
             <p className="article-deck">{renderLinkedText(article.summary, article)}</p>
           )}
           <FavoriteAction article={articleWithIdentity} />
-          {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
           {article.type === 'event' && <EventHero article={article} />}
           {article.type === 'house' && <HouseHero article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
           {article.type === 'order' && <OrderHero article={article} />}
         </div>
+        {/* Option B (owner, 2026-09-16): a person's facts are a full-width band
+            beneath BOTH hero columns, not a stack inside the right one. With
+            everything except the image in the right column, that column ran to
+            about 810px against a 590px portrait and left a slab of dead black
+            under the picture on every person page with more than four facts.
+            This is the move the battle pages already got: the hero introduces,
+            the band records. */}
+        {article.type === 'character' && <PersonFactBand article={article} />}
       </section>
 
       <section className="detail-content">
@@ -1241,9 +1248,9 @@ function HouseCadetBranches({ branches, article }) {
   )
 }
 
-function PersonHero({ article }) {
+function PersonFactBand({ article }) {
   return (
-    <div className="person-profile">
+    <div className="person-hero-band">
       <PersonQuickFacts article={article} />
       <RulerSuccession article={article} />
     </div>
@@ -1387,13 +1394,15 @@ function PersonQuickFacts({ article }) {
     { label: 'Realm / polity', value: renderRealm(article) },
     { label: 'Dynasty / house', value: renderDynastyHouse(article) },
     { label: 'Culture', value: article.quickFacts?.culture },
-    { label: 'Known for', value: renderLinkedText(article.quickFacts?.knownFor, article) }
+    // Known for is a sentence, not a datum: it spans the band rather than being
+    // squeezed into a third of it beside two-word values like "Anglo-French".
+    { label: 'Known for', value: renderLinkedText(article.quickFacts?.knownFor, article), wide: true }
   ].filter((fact) => fact.value)
 
   return (
     <dl className="fact-strip person-facts rich-facts">
       {facts.map((fact) => (
-        <div key={fact.label}>
+        <div key={fact.label} className={fact.wide ? 'fact-wide' : undefined}>
           <dt>{fact.label}</dt>
           <dd>{fact.value}</dd>
         </div>
