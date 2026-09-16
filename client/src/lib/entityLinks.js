@@ -455,7 +455,7 @@ export const entityLinks = [
   { label: "Battle of Dunbar", aliases: ["Dunbar"], type: "event", slug: "battle-of-dunbar" },
   { label: "Battle of Dupplin Moor", aliases: ["Dupplin Moor"], type: "event", slug: "battle-of-dupplin-moor" },
   { label: "Battle of Durbe", aliases: ["Durbe"], type: "event", slug: "battle-of-durbe" },
-  { label: "Battle of Edington", aliases: ["Edington"], type: "event", slug: "battle-of-edington" },
+  { label: "Battle of Edington", aliases: ["Edington","Ethandun","Battle of Ethandun","Ethandune"], type: "event", slug: "battle-of-edington" },
   { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
   { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
   { label: "Battle of Formigny", aliases: ["Formigny"], type: "event", slug: "battle-of-formigny" },

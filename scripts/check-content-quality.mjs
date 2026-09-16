@@ -47,8 +47,8 @@ const battleArticleNames = new Set(
 // NEW unlinked battle reference not on this list fails the check.
 const BATTLE_BACKLOG = new Set([
   'battle of aclea', 'battle of alfarrobeira',
-  'battle of ashdown', 'battle of atoleiros', 'battle of ellandun',
-  'battle of ellendun', 'battle of ethandun', 'battle of falköping', 'battle of fimreite',
+  'battle of ashdown', 'battle of ellandun',
+  'battle of ellendun', 'battle of falköping', 'battle of fimreite',
   'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
   'battle of hova', 'battle of la higueruela', 'battle of largs', 'battle of lincoln',
   'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
@@ -60,6 +60,10 @@ const BATTLE_BACKLOG = new Set([
   // names without the words "Battle of", so the phrase regex never saw them.
   // Written 2026-09-16 and removed from this list: ain jalut, cortenuova,
   // courtrai, la forbie, lechfeld, mansurah. The list is for UNWRITTEN battles.
+  // Removed 2026-09-17 as STALE, not written: ethandun (it is Edington, which
+  // has had an article all along and now carries the alias) and atoleiros
+  // (written long since). Nothing checks this list for entries that have
+  // gained articles, so both sat here unnoticed.
   // Written 2026-09-17 and removed: siege of acre (the 1189-91 siege of the Third
   // Crusade), adrianople (1205, not 378), ankara, dandanaqan, durbe.
   'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
