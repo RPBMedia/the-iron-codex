@@ -38,7 +38,7 @@ let the user test live.
 
 _Last updated: 2026-09-17, during an owner-away run. **Forward-looking only — the history is in `git log`.**_
 
-**Shipped today (19 commits).** Ten backlog battles with three alias guards; four
+**Shipped today.** Twenty backlog battles with six alias guards; four Leonese rulers and Engelbrekt Engelbrektsson; **0k CLOSED at 100 places carrying a locator**, up from 50 in the morning; queue items **0d, 0g, 0t and 0u closed**; 0o reduced to its two owner-verified milestones; and the wrong-link failure class shut with a test that fails the build on any unguarded collision.
 Leonese rulers and Engelbrekt Engelbrektsson; locator maps for eleven regions,
 taking the archive from 50 places with an inset to **99**; queue items **0d, 0t
 and 0u closed**; and the wrong-link failure class shut with a test.
@@ -54,7 +54,7 @@ and 0u closed**; and the wrong-link failure class shut with a test.
   Rashidun banner box, Leo III's main image, the Sasanian map's eastern border,
   and Gestilren's memorial stone.
 
-**In flight:** two agents writing the Norse (Fimreite, Fotevik, Grathe Heath,
+**In flight:** two agents writing the Baltic crusade batch (Saule, Blue Waters, Strėva, Rudau, Bornhöved) and the Frankish and Norman batch (Soissons, Tertry, Fontenoy, Val-ès-Dunes, Tinchebrai). About 26 distinct battles remain on `BATTLE_BACKLOG` before them.
 Fýrisvellir, Largs) and Anglo-Saxon (Ellandun, Aclea, Ashdown, Tettenhall,
 Heavenfield) battle batches. About 38 distinct battles remain on
 `BATTLE_BACKLOG` after them.
