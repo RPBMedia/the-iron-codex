@@ -1686,6 +1686,65 @@ function validatePersonTimeline(person) {
     }
   }
 
+  // Hard failure: a house member who NAMES a person that now has an article but
+  // is still plain text — the House-side twin of the stale succession-endpoint
+  // check below. validateHouseTree already walked these structures, so the drift
+  // was in plain sight with nothing watching for it.
+  //
+  // AMBIGUOUS_HOUSE_MEMBERS is why this is a gate and not a fix-it script. A
+  // survey on 2026-09-16 flagged 11 members; three were a DIFFERENT man who
+  // happens to share a name with someone in the archive, and linking them would
+  // have been far worse than the gap:
+  //   house-of-courtenay "Baldwin II" is the last Latin Emperor (lost the city in
+  //     1261), not Baldwin II of Jerusalem, who died in 1131. He has no article.
+  //   house-of-hauteville "Tancred of Hauteville" is the patriarch whose sons took
+  //     southern Italy, not his descendant Tancred, Prince of Galilee (1075-1112).
+  //   house-of-welf "Henry V" is the Count Palatine of the Rhine, not Henry V of
+  //     England.
+  // Keyed by house id, so each name stays linkable everywhere else in the archive.
+  const AMBIGUOUS_HOUSE_MEMBERS = new Set([
+    'house-of-courtenay|baldwin ii',
+    'house-of-hauteville|tancred of hauteville',
+    'house-of-welf|henry v'
+  ])
+  const personIdByName = new Map()
+  for (const c of data.characters ?? []) {
+    for (const n of [c.name, ...(c.aliases ?? [])]) {
+      const k = normDyn(n)
+      if (!k) continue
+      // A name is only ambiguous when two DIFFERENT people answer to it. One
+      // person carrying both "Yaqub al-Mansur" and "Ya'qub al-Mansur" is not a
+      // clash, and an earlier draft of this survey wrongly called it one.
+      if (personIdByName.has(k) && personIdByName.get(k) !== c.id) personIdByName.set(k, null)
+      else personIdByName.set(k, c.id)
+    }
+  }
+  for (const h of houses) {
+    const members = []
+    for (const m of h.notableMembers ?? []) members.push(['notableMembers', m])
+    ;(function walk(n) {
+      if (!n) return
+      members.push(['familyTree', n])
+      for (const s of [].concat(n.spouse ?? [])) if (s) members.push(['familyTree spouse', s])
+      ;(n.children ?? []).forEach(walk)
+    })(h.familyTree?.root)
+    for (const [where, node] of members) {
+      if (node.personSlug) continue
+      const name = node.displayName ?? node.name
+      const k = normDyn(name)
+      if (!k || AMBIGUOUS_HOUSE_MEMBERS.has(`${h.id}|${k}`)) continue
+      const id = personIdByName.get(k)
+      if (!id) continue
+      findings.push({
+        collection: 'houses',
+        article: h.name,
+        path: `${where} "${name}"`,
+        pattern: `house member "${name}" matches an existing article (${id}) but is unlinked — verify it is the same person and add personSlug, or record the reason in AMBIGUOUS_HOUSE_MEMBERS`,
+        snippet: id
+      })
+    }
+  }
+
   // Hard failure: chronological sort dates for events that share a year.
   //
   // The events index sorts off `eventSortDates` in server/index.js, a
