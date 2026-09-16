@@ -799,13 +799,48 @@ function EventIntel({ article }) {
               ))}
             </div>
           </InfoBlock>
-          {article.outcome && (
-            <InfoBlock title="Outcome">
-              <p>{renderLinkedText(article.outcome, article)}</p>
-              {article.outcomeDetail && <p>{renderLinkedText(article.outcomeDetail, article)}</p>}
-            </InfoBlock>
-          )}
+          <OutcomeBlock article={article} />
     </div>
+  )
+}
+
+/**
+ * The verdict first and bold, the explanation beneath it (owner, 2026-09-16):
+ * "Decisive Byzantine victory" should be findable at a glance rather than read as
+ * the opening words of a paragraph.
+ *
+ * 88 of the archive's 98 outcomes put the verdict before a semicolon, and one uses
+ * a colon. Nine more are single sentences — "Frankish victory, generally treated as
+ * decisive for Charles Martel's authority" — where splitting on the full stop would
+ * embolden the whole line, so those split on the comma only when the opening
+ * actually names a result. Anything else stays plain rather than being mangled.
+ * `outcomeDetail` is in the schema but empty on every event, so the split comes
+ * from the outcome string itself.
+ */
+const VERDICT_WORDS = /\b(victor|victories|defeat|success|stalemate|truce|withdrawal|surrender|captured?|repulsed|fell|failed|inconclusive)/i
+
+function splitOutcome(outcome) {
+  const clause = outcome.match(/^([^;:]{3,90})[;:]\s*([\s\S]+)$/)
+  if (clause) return [clause[1].trim(), clause[2].trim()]
+
+  const comma = outcome.match(/^([^,]{3,60}),\s*([\s\S]+)$/)
+  if (comma && VERDICT_WORDS.test(comma[1])) return [comma[1].trim(), comma[2].trim()]
+
+  return [null, outcome]
+}
+
+function OutcomeBlock({ article }) {
+  const outcome = String(article.outcome ?? '').trim()
+  if (!outcome) return null
+
+  const [verdict, rest] = splitOutcome(outcome)
+
+  return (
+    <InfoBlock title="Outcome" className="info-block-outcome">
+      {verdict && <p className="event-outcome-verdict">{renderLinkedText(verdict, article)}</p>}
+      <p className="event-outcome-rest">{renderLinkedText(rest, article)}</p>
+      {article.outcomeDetail && <p className="event-outcome-rest">{renderLinkedText(article.outcomeDetail, article)}</p>}
+    </InfoBlock>
   )
 }
 
@@ -1354,9 +1389,9 @@ function PersonQuickFacts({ article }) {
   )
 }
 
-function InfoBlock({ title, children }) {
+function InfoBlock({ title, children, className = '' }) {
   return (
-    <section className="info-block">
+    <section className={`info-block${className ? ` ${className}` : ''}`}>
       <h2>{title}</h2>
       {children}
     </section>

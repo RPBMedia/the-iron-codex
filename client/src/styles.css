@@ -1529,6 +1529,35 @@ button.back-link:focus-visible {
   text-transform: uppercase;
 }
 
+/* The outcome is the answer to the question a battle page asks, so it is set
+   larger than the other blocks and its verdict is bold (owner, 2026-09-16). */
+.info-block-outcome h2 {
+  margin-bottom: 12px;
+  color: #5c6069;
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+}
+
+.event-outcome-verdict {
+  margin: 0 0 6px;
+  color: var(--black);
+  font-size: 1.24rem;
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+
+.event-outcome-rest {
+  margin: 0;
+  max-width: 72ch;
+  font-size: 1.06rem;
+  line-height: 1.55;
+}
+
+.event-outcome-rest + .event-outcome-rest {
+  margin-top: 10px;
+}
+
 .info-block p {
   margin: 0;
 }

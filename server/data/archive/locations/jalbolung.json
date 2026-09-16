@@ -4,39 +4,71 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Birger Jarl",
-    "Bjälbo dynasty",
-    "Swedish aristocratic power"
+    "The place where Birger Jarl died, 21 October 1266",
+    "Named only by the Erikskrönikan, and never located",
+    "Usually placed in Lung bo in Västergötland, with Lagmanstorp as the candidate site"
   ],
-  "overview": [
-    "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape."
-  ],
+  "overview": "A place with a date and no map reference: the chronicle knows when Sweden’s ruler died there, and nobody knows where it was.",
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Jalbolung was a medieval location in the Swedish royal geography, connected to events in the dynastic history of thirteenth-century Sweden."
+        "Jälbolung is the place where Birger Jarl, the jarl who ruled Sweden for his son, died on 21 October 1266. The Erikskrönikan, written some sixty years later, gives the name and the date; no other source adds to it, and no settlement called Jälbolung survives on any map.",
+        "The usual placing, offered with reservations rather than confidence, is Lung bo in Västergötland — one of the old bon, an early administrative division of the province. Lagmanstorp in Longs parish, just outside Vara, is the site most often named. Neither can be proved, and the article that claims otherwise is guessing."
+      ]
+    },
+    {
+      "title": "The name, and a place it is not",
+      "paragraphs": [
+        "In 1920 the philologist Hjalmar Lindroth read the name as two parts, Jälbo and Lung: a settlement called Jälbo, with the district name Lung attached to distinguish it from the other places of that name. The construction is a common one — the Husby names work the same way, and Uppland and Västmanland hold several Järlebo and similar forms. Birger’s son Bengt, later duke and bishop, sold inherited land in Lung, which fits a family holding in the district.",
+        "Jälbolung is not Bjälbo. Bjälbo lies in Östergötland, was the seat of Birger’s family — the House of Bjälbo, which the later sources call the Folkungs — and is where he was born about 1210. The two names look alike and the archive itself once confused them: this article previously illustrated the death place with a photograph of Bjälbo church, in the wrong province."
+      ]
+    },
+    {
+      "title": "The death of Birger Jarl",
+      "paragraphs": [
+        "Birger was the dominant figure in thirteenth-century Sweden without ever being its king. He became jarl in 1248, and when his son Valdemar was elected king in 1250 he governed in his name, first as regent and then alongside him, styling himself duke of the Swedes and the Geats. He led the campaign into Finland that Swedish tradition calls the Second Crusade, and later tradition credits him with founding Stockholm about 1252.",
+        "He died at Jälbolung in October 1266, and was carried to the Cistercian abbey of Varnhem for burial. The grave slab there, the Mechtild stone, covers him with his second wife Mechtild, who died in 1288, and his son Duke Erik, who died in 1275. It is the one place connected with his death that a visitor can still stand in."
       ]
     },
     {
       "title": "Legacy",
       "paragraphs": [
-        "The site's significance in IronCodex is as a geographic anchor for events in Swedish royal history during the period of conflict between the Sverker and Erik dynastic lines."
+        "Birger’s death ended the arrangement that had held Sweden together for sixteen years, and his sons fell out almost at once: Valdemar kept the crown until his brother Magnus, later called Ladulås, took it from him in 1275. The House of Bjälbo ruled Sweden for another century.",
+        "Jälbolung itself survives only as a word in a chronicle. It is a reminder of how thin the medieval Swedish record is: the death of the man who governed the kingdom is fixed to a day and not to a place, and the best modern scholarship can offer is a district and a candidate farm."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Jalbolung",
-      "author": "Wikimedia Commons",
-      "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Bj%C3%A4lbo_kyrka.jpg"
+      "title": "Jälbolung",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/J%C3%A4lbolung"
     },
     {
-      "title": "Jalbolung reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Jalbolung"
+      "title": "Birger jarl",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/Birger_jarl"
+    },
+    {
+      "title": "Birger Jarl",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Birger_jarl"
+    },
+    {
+      "title": "Erikskrönikan",
+      "author": "Anonymous, about 1320-1335",
+      "type": "primary source",
+      "note": "The only source naming Jälbolung as the place of Birger’s death."
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Birger_Jarl_(d._1266)%2C_Mechtild_(d._1288)_%26_hertig_Erik_(d._1275).jpg"
     }
   ],
   "relatedEntries": {
@@ -45,7 +77,7 @@
         "title": "Birger Jarl",
         "type": "person",
         "slug": "birger-jarl",
-        "label": "Death of Birger Jarl"
+        "label": "Died here in 1266"
       },
       {
         "title": "Valdemar of Sweden",
@@ -68,16 +100,56 @@
     ]
   },
   "id": "jalbolung",
-  "name": "Jalbolung",
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%A4lbo_kyrka.jpg",
-  "summary": "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape.",
+  "name": "Jälbolung",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birger_Jarl_(d._1266)%2C_Mechtild_(d._1288)_%26_hertig_Erik_(d._1275).jpg",
+  "summary": "The place where Birger Jarl died on 21 October 1266, named by the Erikskrönikan and never securely identified since.",
   "imageInfo": {
-    "caption": "A traditional place association for Birger Jarl's death, represented through the Bjälbo dynastic landscape.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
-    "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bj%C3%A4lbo_kyrka.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
-  }
+    "caption": "The Mechtild stone at Varnhem Abbey, the thirteenth-century grave slab over Birger Jarl, his second wife Mechtild and his son Duke Erik, in a modern photograph.",
+    "creator": "Bert Hoflund",
+    "date": "Slab carved in the thirteenth century; photograph modern",
+    "source": "Wikimedia Commons, CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Birger_Jarl_(d._1266)%2C_Mechtild_(d._1288)_%26_hertig_Erik_(d._1275).jpg",
+    "note": "Birger Jarl died at Jälbolung and was buried at Varnhem in Västergötland, about sixty kilometres away, so this shows where he lies rather than where he died. Nothing on Commons depicts Jälbolung, which has never been located. The slab names three burials: Birger (died 1266), Mechtild (died 1288) and Duke Erik (died 1275). It replaces a photograph of Bjälbo church in Östergötland, which is a different place entirely — Birger’s birthplace and his family’s seat, not his death place. Released CC0."
+  },
+  "aliases": [
+    "Jalbolung",
+    "Järbolung"
+  ],
+  "timeline": [
+    {
+      "date": "c. 1210",
+      "title": "Born at Bjälbo",
+      "description": "Birger is born at Bjälbo in Östergötland, his family’s seat — a different place from Jälbolung, and often confused with it."
+    },
+    {
+      "date": "1248",
+      "title": "Jarl of Sweden",
+      "description": "Birger becomes jarl, the office from which he governed the kingdom."
+    },
+    {
+      "date": "1250",
+      "title": "Regent for Valdemar",
+      "description": "His son Valdemar is elected king; Birger rules in his name and then beside him."
+    },
+    {
+      "date": "c. 1252",
+      "title": "Stockholm",
+      "description": "Later tradition credits Birger with the founding of Stockholm."
+    },
+    {
+      "date": "21 October 1266",
+      "title": "Death at Jälbolung",
+      "description": "The Erikskrönikan records that Birger died at Jälbolung; the place has never been identified."
+    },
+    {
+      "date": "After 1266",
+      "title": "Buried at Varnhem",
+      "description": "He is buried at Varnhem Abbey, under the slab that also covers Mechtild and Duke Erik."
+    },
+    {
+      "date": "1920",
+      "title": "Lindroth’s reading",
+      "description": "Hjalmar Lindroth proposes that the name is Jälbo plus the district name Lung, placing it in Västergötland."
+    }
+  ]
 }
