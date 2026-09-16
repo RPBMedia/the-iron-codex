@@ -1,0 +1,234 @@
+{
+  "id": "battle-of-heavenfield",
+  "type": "event",
+  "name": "Battle of Heavenfield",
+  "year": 634,
+  "location": "Heavenfield, near Hexham, Northumberland",
+  "eventLocation": "The ridge above Hadrian's Wall, about four miles north of Hexham",
+  "eventType": "Battle",
+  "conflict": "Cadwallon ap Cadfan's war on Northumbria",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cross%20at%20Heavenfield%20(geograph%203191606).jpg",
+  "imageInfo": {
+    "caption": "The wooden cross at Heavenfield, photographed in 2012, standing where Bede says Oswald raised a cross before the battle. St Oswald's church sits on the ridge beyond.",
+    "creator": "David Dixon",
+    "date": "2012",
+    "source": "Geograph, via Wikimedia Commons (CC BY-SA 2.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cross%20at%20Heavenfield%20(geograph%203191606).jpg",
+    "note": "The cross is a modern memorial on the traditional site, not Oswald's own; the church on the ridge is medieval in origin and still carries his dedication. No image of the battle survives from anywhere near its date."
+  },
+  "summary": "Oswald of Northumbria destroyed the army of Cadwallon ap Cadfan of Gwynedd near Hexham in 633 or 634, ending the year in which Northumbria had been broken apart and beginning the kingdom's Christian ascendancy.",
+  "details": "Returning from exile among the Irish of Dal Riata, Oswald met Cadwallon of Gwynedd — who had killed Edwin of Northumbria and two of his successors within a year — on a narrow front between Hadrian's Wall and the crag to the north. The British army broke, and Cadwallon was run down and killed some ten miles south at a place Bede calls Denisesburna.",
+  "factions": [
+    "Kingdom of Northumbria (Bernicia)",
+    "Kingdom of Gwynedd"
+  ],
+  "leaders": [
+    {
+      "name": "Oswald of Northumbria",
+      "faction": "Northumbrians"
+    },
+    {
+      "name": "Cadwallon ap Cadfan",
+      "faction": "Gwynedd"
+    }
+  ],
+  "outcome": "Decisive Northumbrian victory; Cadwallon was killed in the pursuit and Oswald took the reunited kingdom of Bernicia and Deira.",
+  "participants": [
+    {
+      "side": "Northumbrians",
+      "strength": {
+        "display": "Unknown; Bede calls it a small army and gives no figure",
+        "confidence": "unknown",
+        "note": "Bede says only that Oswald came with an army small in numbers. No source counts either force, and the figures of roughly 700 against 1,000 that circulate in modern accounts are reconstructions from the width of the ground, not testimony."
+      },
+      "factions": [
+        {
+          "name": "Northumbria",
+          "title": "Northumbria",
+          "type": "location",
+          "slug": "northumbria"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Oswald of Northumbria",
+          "title": "Oswald of Northumbria",
+          "type": "person",
+          "note": "No article yet: the exiled Bernician prince who took the reunited kingdom after this victory, and was killed at Maserfield in 642 and venerated as a saint."
+        }
+      ]
+    },
+    {
+      "side": "Gwynedd and its allies",
+      "strength": {
+        "display": "Unknown; recorded only as the larger army",
+        "confidence": "unknown",
+        "note": "Bede and the Welsh tradition agree only that Cadwallon had the larger army; no figure is recorded, and his force had been campaigning in Northumbria for a year and may have been dispersed in winter quarters."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Gwynedd",
+          "title": "Kingdom of Gwynedd",
+          "note": "No Codex article yet: the north Welsh kingdom Cadwallon ruled from Anglesey and the Snowdonian coast."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Cadwallon ap Cadfan",
+          "title": "Cadwallon ap Cadfan",
+          "type": "person",
+          "note": "No article yet: king of Gwynedd, the British ruler who killed Edwin of Northumbria and two of his successors before falling here."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Heavenfield, fought in 633 or 634 on the ridge where Hadrian's Wall runs north of Hexham, put Northumbria back together after a year in which it had effectively ceased to exist. Oswald, who had spent some seventeen years in exile among the Irish of Dal Riata, came south with a small following and destroyed the army of Cadwallon ap Cadfan of Gwynedd, the British king who had killed Edwin at Hatfield Chase in 633 and then killed two Northumbrian kings in turn.",
+        "The victory gave Oswald both Bernicia and Deira, and he ruled the reunited kingdom until Penda of Mercia killed him at Maserfield in 642. Its longer consequence was ecclesiastical: Oswald sent to Iona rather than to Canterbury for a bishop, and the monk Aidan came and founded Lindisfarne, binding the Northumbrian church to Irish practice for a generation."
+      ]
+    },
+    {
+      "title": "Background: the year Northumbria fell apart",
+      "paragraphs": [
+        "Edwin of Northumbria was killed at Hatfield Chase in 633 by Cadwallon of Gwynedd and Penda of Mercia, an alliance of a Christian British king with a pagan English one against a Christian English one. The kingdom split back into its two halves: Osric took Deira, and Oswald's brother Eanfrith took Bernicia. Cadwallon destroyed both inside a year — Osric was killed besieging him, and Eanfrith was cut down after coming to negotiate with a bodyguard of twelve.",
+        "Bede found that year so distasteful that he records how writers assigned it to Oswald's reign instead of naming its two kings, who had both abandoned the Christianity Edwin adopted. Cadwallon wintered in Northumbria as its conqueror. Bede accuses him of setting out to wipe out the English population of the north altogether — a charge from a hostile English source written ninety years later, which no Welsh text supports."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "Oswald had been an exile since about 616, when Edwin took the Northumbrian throne and the sons of Aethelfrith fled north. He was baptised among the Irish, and returned with what Bede calls an army small in numbers — in practice his own warband, probably thickened by Irish or Pictish followers acquired during the exile. Nothing in the record allows a count of either side.",
+        "Cadwallon ap Cadfan had been the most effective enemy Northumbria ever faced. Inside twelve months he had beaten Edwin, Osric and Eanfrith, and he held the north as an occupying power. Both the English and the Welsh traditions agree that his army was the larger of the two, which is the single point on which the hostile source and the sympathetic one coincide."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Oswald took ground where the approach was narrow, hemmed between the Roman Wall to the south and the crag to the north, so that a larger army could not spread out or work around his flank. Bede says he raised a wooden cross before the fighting, holding the shaft upright himself while his men packed earth around the base, and had the whole army kneel and pray. The place was already called Hefenfeld, the heavenly field, a name Bede is careful to say predated the battle.",
+        "Almost everything known about the fighting comes from Bede, writing at Jarrow around 731, and Bede is not writing military history. The Ecclesiastical History is building a case for Oswald as a saint, so the cross, the prayer and the triumph of the smaller Christian force are the point of the episode rather than incidental colour; he gives no formation, no phase, and no duration. Adomnan's Life of Columba, written on Iona, adds a vision in which Columba promises Oswald the victory, reported at second hand through Abbot Segene. What is agreed is the outcome: the British line broke, and Cadwallon was pursued roughly ten miles south and killed at a place Bede names Denisesburna, usually identified with the Rowley Burn near Whitley Chapel."
+      ]
+    },
+    {
+      "title": "Aftermath: Oswald, Aidan and Lindisfarne",
+      "paragraphs": [
+        "Cadwallon's death ended the British threat to Northumbria for good; no Welsh king again campaigned that far north. Oswald took both Bernicia and Deira and held an overlordship that Bede reckoned to extend over all the peoples of Britain, though that claim belongs to the same admiring account as the rest.",
+        "He asked Iona for a bishop. The first missionary sent proved too severe and went home; the second was Aidan, who was given the island of Lindisfarne and worked with Oswald interpreting for him, since Aidan's English was poor and Oswald's Irish was fluent from exile. That Irish connection set Northumbrian practice at odds with Rome over the dating of Easter and the form of the tonsure, an argument settled in Rome's favour at the Synod of Whitby in 664."
+      ]
+    },
+    {
+      "title": "Significance and later memory",
+      "paragraphs": [
+        "Heavenfield entered English memory as a holy victory rather than a battle, and that is Bede's doing. He reports that the monks of Hexham came annually to keep its vigil, that splinters cut from the cross were dropped into water to heal the sick, and that the site had become a place of pilgrimage within living memory of the fight. A church dedicated to Oswald still stands on the ridge, and a cross still marks the spot.",
+        "The Welsh remembered the same day without the sanctity. The Annales Cambriae enter it as the Bellum Cantscaul and the Historia Brittonum calls it Catscaul, recording simply that Cadwallon fell there — the loss of the one British king of the age who had beaten the English at their own game. The two traditions do not even agree on the year: the Welsh annals place it in 631, and modern accounts divide between 633 and 634 depending on how Bede's dating of Edwin's death is reconciled with the length of the intervening reigns."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "633",
+      "title": "Edwin killed at Hatfield Chase",
+      "description": "Cadwallon of Gwynedd and Penda of Mercia destroy the Northumbrian army; the kingdom splits back into Bernicia and Deira."
+    },
+    {
+      "date": "633–634",
+      "title": "Cadwallon destroys two kings",
+      "description": "Osric of Deira is killed besieging him, and Oswald's brother Eanfrith is cut down after coming to negotiate with twelve companions."
+    },
+    {
+      "date": "633 or 634",
+      "title": "Oswald returns from exile",
+      "description": "After some seventeen years among the Irish of Dal Riata, where he was baptised, Oswald marches south with a small warband."
+    },
+    {
+      "date": "The night before the battle",
+      "title": "The cross at Hefenfeld",
+      "description": "Bede says Oswald raised a wooden cross, holding it while his men packed the earth, and had the army pray for victory."
+    },
+    {
+      "date": "633 or 634",
+      "title": "The battle and the pursuit",
+      "description": "The British line breaks on the narrow front by the Roman Wall; Cadwallon is run down some ten miles south and killed at Denisesburna."
+    },
+    {
+      "date": "635",
+      "title": "Aidan comes from Iona",
+      "description": "Oswald gives the Irish monk the island of Lindisfarne and interprets his preaching, tying Northumbria to Iona rather than Canterbury."
+    },
+    {
+      "date": "642",
+      "title": "Oswald killed at Maserfield",
+      "description": "Penda of Mercia defeats and dismembers him; his cult spreads across England and into the Low Countries and Germany."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the overlordship south to Ellandun",
+    "battleSlug": "battle-of-ellandun",
+    "relationship": "chronological-follow-up",
+    "reason": "Heavenfield made Northumbria the dominant English kingdom; that supremacy passed to Mercia under Penda and Offa, and was broken in turn in 825, when Ecgberht of Wessex destroyed Beornwulf at Ellandun and made Wessex the leading power in England."
+  },
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The kingdom reunited by this victory"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ellandun",
+        "type": "event",
+        "slug": "battle-of-ellandun",
+        "label": "Where English supremacy passed to Wessex, 825"
+      },
+      {
+        "title": "Battle of Tettenhall",
+        "type": "event",
+        "slug": "battle-of-tettenhall",
+        "label": "Fought after Oswald's relics were moved to Gloucester, 910"
+      },
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "The later fight for mastery north of the Humber, 937"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Cross%20at%20Heavenfield%20(geograph%203191606).jpg"
+    },
+    {
+      "title": "Ecclesiastical History of the English People, book III, chapters 1–2",
+      "author": "Bede",
+      "type": "primary source",
+      "note": "The only narrative account, written at Jarrow about 731 and shaped throughout by the case for Oswald as a saint."
+    },
+    {
+      "title": "Life of Columba, book I",
+      "author": "Adomnan of Iona",
+      "type": "primary source",
+      "note": "Reports Oswald's vision of Columba before the battle, at second hand through Abbot Segene."
+    },
+    {
+      "title": "Battle of Heavenfield — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Heavenfield"
+    }
+  ],
+  "aliases": [
+    "Hefenfelth",
+    "Bellum Cantscaul",
+    "Battle of Denisesburna",
+    "Heavenfeld"
+  ]
+}

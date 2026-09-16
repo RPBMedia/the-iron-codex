@@ -1,0 +1,270 @@
+{
+  "id": "battle-of-ashdown",
+  "type": "event",
+  "name": "Battle of Ashdown",
+  "year": 871,
+  "location": "Ashdown, on the Berkshire downs",
+  "eventLocation": "The Berkshire downs; the precise site is disputed",
+  "eventType": "Battle",
+  "conflict": "Viking invasions of Wessex",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle%20of%20Ashdown.jpg",
+  "imageInfo": {
+    "caption": "The Battle of Ashdown as imagined by Richard Doyle in a wood-engraved illustration of 1859, made for Thomas Hughes's book about the Berkshire downland where the battle was fought. It is Victorian invention, not evidence.",
+    "creator": "Richard Doyle",
+    "date": "1859",
+    "source": "Wikimedia Commons (public domain)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle%20of%20Ashdown.jpg",
+    "note": "No depiction of Ashdown survives from anywhere near its date, and no colour one exists at all. Doyle's mounted knights, kite shields and mail are nineteenth-century imagination: ninth-century English and Danish armies fought on foot in shield-walls."
+  },
+  "summary": "Æthelred I of Wessex and his brother Alfred beat the Great Heathen Army on the Berkshire downs on 8 January 871, killing a Danish king and five jarls — one victory inside a year of West Saxon defeats.",
+  "details": "Four days after a failed attack on the Danish camp at Reading, the West Saxon army caught the invaders on the downs. Asser says the Danes held the higher ground and both armies split into two divisions, and that Alfred attacked uphill while Æthelred stayed in his tent to finish hearing Mass. King Bagsecg and five named jarls were killed and the Danes were pursued until nightfall.",
+  "factions": [
+    "Kingdom of Wessex",
+    "The Great Heathen Army (Danes)"
+  ],
+  "leaders": [
+    {
+      "name": "Æthelred I of Wessex",
+      "faction": "West Saxons",
+      "personId": "aethelred-i-of-wessex"
+    },
+    {
+      "name": "Alfred the Great",
+      "faction": "West Saxons",
+      "personId": "alfred-the-great"
+    },
+    {
+      "name": "Bagsecg",
+      "faction": "Danes"
+    },
+    {
+      "name": "Halfdan Ragnarsson",
+      "faction": "Danes"
+    }
+  ],
+  "outcome": "West Saxon victory; King Bagsecg and five jarls were killed, but the Danes held Reading and beat Wessex twice within ten weeks.",
+  "participants": [
+    {
+      "side": "West Saxons",
+      "strength": {
+        "display": "Unknown; no source counts the West Saxon levy",
+        "confidence": "unknown",
+        "note": "Neither the Chronicle nor Asser counts the West Saxon army. It was the levy Æthelred and Alfred had kept in the field continuously since late December, fighting its fourth engagement in six weeks, so it was probably tired and under strength — but that is reasoning from the campaign, not a recorded figure."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Æthelred I of Wessex",
+          "title": "Æthelred I of Wessex",
+          "type": "person",
+          "slug": "aethelred-i-of-wessex"
+        },
+        {
+          "name": "Alfred the Great",
+          "title": "Alfred the Great",
+          "type": "person",
+          "slug": "alfred-the-great"
+        }
+      ]
+    },
+    {
+      "side": "Danes",
+      "strength": {
+        "display": "Unknown; the sources count leaders, not men",
+        "confidence": "unknown",
+        "note": "No figure survives. The army was the part of the Great Heathen Army that had moved on Wessex from Reading, and the sources count its leaders rather than its men: two kings and at least five jarls, which implies several combined war bands but converts into no reliable total."
+      },
+      "factions": [
+        {
+          "name": "The Great Heathen Army",
+          "title": "Danelaw",
+          "type": "location",
+          "slug": "danelaw"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Bagsecg",
+          "title": "Bagsecg",
+          "type": "person",
+          "note": "No article yet: one of the two Danish kings at Ashdown, killed in the battle."
+        },
+        {
+          "name": "Halfdan Ragnarsson",
+          "title": "Halfdan Ragnarsson",
+          "type": "person",
+          "note": "No article yet: the other Danish king here, who later led half the great army north and shared out Northumbria for settlement in 876."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Ashdown was fought on the Berkshire downs on about 8 January 871 between the West Saxon army under King Æthelred I and his younger brother Alfred, and the Danish Great Heathen Army that had invaded Wessex from its base at Reading. The West Saxons won, killing King Bagsecg and five named jarls, and pursued the beaten army until dark.",
+        "It is the most celebrated English victory of the year and it changed very little. Ashdown was the third of at least nine engagements the Chronicle counts south of the Thames in 871, and Wessex lost most of them: the Danes were beaten on the downs and still held Reading a fortnight later, still won at Basing in January and at Meretun in March, and were still strong enough in the autumn to force the new king to buy peace."
+      ]
+    },
+    {
+      "title": "Background: the invasion of Wessex",
+      "paragraphs": [
+        "The Great Heathen Army had landed in East Anglia in 865 and spent five years dismantling the English kingdoms one at a time. York fell in 866 and the Northumbrian kings were killed attacking it; East Anglia was overrun and King Edmund killed in 869; Mercia had bought peace. At the end of 870 the army moved on the last kingdom standing and seized Reading, where the Kennet meets the Thames, and threw up a rampart between the two rivers.",
+        "The campaign that followed was fought at a pace that is easy to miss. The ealdorman of Berkshire beat a Danish foraging party at Englefield on 31 December. Æthelred and Alfred brought the main West Saxon army up and attacked the Reading camp itself on 4 January and were driven off with loss. Four days later the two armies met in the open on the downs above."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "Æthelred I had been king since 865 and had spent his whole reign at war. Alfred was about twenty-two, his fourth brother and heir presumptive, with no command of his own and no expectation of the throne — three older brothers had already worn it. Both fought on foot in the shield-wall, as English and Danish armies of the period did; the mounted knights of later illustrations belong to a different century.",
+        "The Danish side was unusually well documented for once, because the English recorded who they killed. Two kings were present, Bagsecg and Halfdan Ragnarsson, and the jarls are named: Sidroc the Old, Sidroc the Younger, Osbearn, Fræna and Harold. Two kings and five jarls indicate a coalition of war bands rather than a single retinue, which is what the great army had been since it landed. No source gives a number for either force."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Asser, whose account is the fullest, says the Danes reached the high ground first and drew up in two divisions, one under the two kings and one under the jarls, and that the West Saxons matched them division for division. Then comes the anecdote the battle is remembered for: Æthelred was in his tent hearing Mass and refused to come out until the priest had finished, so Alfred, finding the enemy advancing, led his division uphill \"like a wild boar\" rather than wait.",
+        "That story needs weighing. Asser was writing around 893 as Alfred's own biographer, at Alfred's court and for Alfred's reputation, and the contrast between the praying king and the decisive young brother does exactly the work such a book is written to do. The Anglo-Saxon Chronicle, compiled in the same reign, says only that the brothers fought and the Danes were put to flight. Asser adds that the fighting turned around a lone thorn tree on the slope, which he says he had seen himself.",
+        "Whatever the sequence, the Danish line broke. Bagsecg was killed with all five named jarls, and the West Saxons pursued the survivors across the downs until nightfall, cutting them down as they ran. The beaten army got back to Reading."
+      ]
+    },
+    {
+      "title": "Aftermath: a victory inside a losing year",
+      "paragraphs": [
+        "The Danes were beaten but not broken, and the campaign resumed at once. On about 22 January the West Saxons were defeated at Basing. In March they were defeated again at Meretun, where Bishop Heahmund of Sherborne was killed; the Chronicle admits the English held the field early in the day and lost it by the end. Shortly after Easter Æthelred died — of illness or of wounds, the sources do not say — and was buried at Wimborne.",
+        "Alfred became king in the middle of the war, aged about twenty-two, with his brother's young sons passed over because the kingdom could not afford a child. A fresh Danish fleet, the \"summer army\", arrived to reinforce the invaders. Alfred fought them at Wilton in May, nearly won, and lost. Before the year was out he made peace on terms that almost certainly meant paying them to leave, and the Danes withdrew to London."
+      ]
+    },
+    {
+      "title": "Significance, and what Ashdown did not decide",
+      "paragraphs": [
+        "Ashdown mattered for morale and for the record. It was the first time the great army — which had destroyed three kingdoms without a serious reverse — was beaten in a set-piece battle, and the deaths of a king and five jarls were real losses to a leadership that could not easily be replaced. Wessex learned that the invaders could be beaten in the open field, which is the knowledge that made the next seven years of resistance thinkable.",
+        "What it did not do was save Wessex, or make Alfred. The kingdom still came within weeks of destruction in 878, when a surprise midwinter attack drove Alfred into the Somerset marshes; the victory that settled the war was Edington, seven years later and fought by Alfred as king in his own right. Ashdown's later fame owes a great deal to Asser's anecdote and to the Victorian rediscovery of Alfred as a national founder — Thomas Hughes's book of 1859, which produced the illustration on this page, is part of that revival rather than evidence about 871."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "Late 870",
+      "title": "The Danes seize Reading",
+      "description": "The great army fortifies the ground between the Thames and the Kennet and begins raiding into Wessex."
+    },
+    {
+      "date": "31 December 870",
+      "title": "The skirmish at Englefield",
+      "description": "Æthelwulf, ealdorman of Berkshire, catches a Danish foraging party and beats it — the first West Saxon success of the campaign."
+    },
+    {
+      "date": "4 January 871",
+      "title": "The attack on Reading fails",
+      "description": "Æthelred and Alfred assault the Danish camp itself and are driven off with heavy loss, the ealdorman of Berkshire among the dead."
+    },
+    {
+      "date": "8 January 871",
+      "title": "The battle on the downs",
+      "description": "King Bagsecg and five named jarls are killed and the Danes are pursued until nightfall; the survivors regain Reading."
+    },
+    {
+      "date": "22 January 871",
+      "title": "Defeat at Basing",
+      "description": "A fortnight after the victory the West Saxons are beaten, showing how little Ashdown had cost the invaders."
+    },
+    {
+      "date": "March 871",
+      "title": "Defeat at Meretun",
+      "description": "The English hold the field for much of the day and lose it; Bishop Heahmund of Sherborne is among the dead."
+    },
+    {
+      "date": "After Easter 871",
+      "title": "Æthelred dies and Alfred succeeds",
+      "description": "Alfred takes the throne mid-war over his brother's infant sons, then fights at Wilton in May and buys peace before the year ends."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The war runs on to Edington",
+    "battleSlug": "battle-of-edington",
+    "relationship": "same-war",
+    "reason": "Ashdown proved the great army could be beaten but did not stop it. Seven years later, after a midwinter attack drove him into the Somerset marshes, Alfred fought the same enemy at Edington in 878 and forced the surrender and baptism of Guthrum."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Æthelred I of Wessex",
+        "type": "person",
+        "slug": "aethelred-i-of-wessex",
+        "label": "Commanded the West Saxons here"
+      },
+      {
+        "title": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great",
+        "label": "Fought here as his brother's heir, four months before becoming king"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "The last English kingdom still standing"
+      }
+    ],
+    "events": [
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The invasion force beaten here"
+      },
+      {
+        "title": "Battle of Aclea",
+        "type": "event",
+        "slug": "battle-of-aclea",
+        "label": "The earlier West Saxon victory over a Danish army, 851"
+      },
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "The victory that settled the war, 878"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle%20of%20Ashdown.jpg"
+    },
+    {
+      "title": "Life of King Alfred, chapters 37–39",
+      "author": "Asser",
+      "type": "primary source",
+      "note": "The fullest account, including the Mass anecdote and the thorn tree; written about 893 by Alfred's own biographer at his court."
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annal 871",
+      "author": "Chronicle compilers",
+      "type": "primary source",
+      "note": "Lists the engagements of the year and names the Danish king and jarls killed, but says only that the brothers fought and the Danes fled."
+    },
+    {
+      "title": "Battle of Ashdown — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ashdown"
+    }
+  ],
+  "aliases": [
+    "Æscesdun",
+    "Aescesdun"
+  ]
+}

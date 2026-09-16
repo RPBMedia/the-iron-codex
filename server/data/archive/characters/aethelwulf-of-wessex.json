@@ -208,7 +208,20 @@
         "label": "His youngest son"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Ellandun",
+        "type": "event",
+        "slug": "battle-of-ellandun",
+        "label": "His father's victory, after which he took Kent"
+      },
+      {
+        "title": "Battle of Aclea",
+        "type": "event",
+        "slug": "battle-of-aclea",
+        "label": "His victory over the Danish army, 851"
+      }
+    ]
   },
   "sources": [
     {

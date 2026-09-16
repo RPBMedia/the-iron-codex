@@ -1,0 +1,250 @@
+{
+  "id": "battle-of-aclea",
+  "type": "event",
+  "name": "Battle of Aclea",
+  "year": 851,
+  "location": "Aclea, probably in Surrey",
+  "eventLocation": "Somewhere south of the Thames; the site has never been identified",
+  "eventType": "Battle",
+  "conflict": "Viking invasions of Wessex",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gold%20%C3%86thelwulf%20Finger%20Ring.jpg",
+  "imageInfo": {
+    "caption": "The gold and niello finger ring made for Æthelwulf of Wessex and inscribed ÆTHELVVLF REX, now in the British Museum. It was made during his reign, between 839 and 858.",
+    "creator": "Anglo-Saxon goldsmith, maker unknown; photograph by the British Museum",
+    "date": "ring 839–858; photograph 2019",
+    "source": "British Museum, via Wikimedia Commons (CC BY-SA 4.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold%20%C3%86thelwulf%20Finger%20Ring.jpg",
+    "note": "Nothing depicting the battle survives, and no image of Æthelwulf was made in his lifetime. The ring, found in a cart rut at Laverstock in Wiltshire, is one of the very few surviving objects that names him."
+  },
+  "summary": "Æthelwulf of Wessex and his son Æthelbald destroyed a large Danish army at Aclea in 851, the year a Viking fleet first stormed both Canterbury and London and routed the king of Mercia.",
+  "details": "The Anglo-Saxon Chronicle reports a fleet of 350 ships entering the Thames in 851. Its army took Canterbury and London and put Berhtwulf of Mercia to flight, then crossed the Thames into Surrey, where Æthelwulf and Æthelbald met it at a place called Aclea and, in the Chronicle's words, made the greatest slaughter of a heathen army that had been heard of to that day.",
+  "factions": [
+    "Kingdom of Wessex",
+    "The Danish army of 851"
+  ],
+  "leaders": [
+    {
+      "name": "Æthelwulf of Wessex",
+      "faction": "West Saxons",
+      "personId": "aethelwulf-of-wessex"
+    },
+    {
+      "name": "Æthelbald of Wessex",
+      "faction": "West Saxons",
+      "personId": "aethelbald-of-wessex"
+    }
+  ],
+  "outcome": "Decisive West Saxon victory; the Chronicle claims the greatest slaughter of a Viking army recorded to that date, and no Danish force wintered in England for another fourteen years.",
+  "participants": [
+    {
+      "side": "West Saxons",
+      "strength": {
+        "display": "Unknown; the Chronicle gives no figure for the West Saxons",
+        "confidence": "unknown",
+        "note": "No figure survives for Æthelwulf's army. It was the levy of Wessex fighting close to home with both the king and his eldest ruling son present, which suggests a full mobilisation rather than a shire force, but the Chronicle counts only the enemy ships."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Æthelwulf of Wessex",
+          "title": "Æthelwulf of Wessex",
+          "type": "person",
+          "slug": "aethelwulf-of-wessex"
+        },
+        {
+          "name": "Æthelbald of Wessex",
+          "title": "Æthelbald of Wessex",
+          "type": "person",
+          "slug": "aethelbald-of-wessex"
+        }
+      ]
+    },
+    {
+      "side": "Danes",
+      "strength": {
+        "display": "Chronicle claim: a fleet of 350 ships; the army that fought at Aclea is not counted",
+        "confidence": "chronicle-claim",
+        "note": "The 350 ships are the Chronicle's figure for the fleet that entered the Thames, not for the force engaged inland. Even taken at face value it cannot be converted into a headcount, since crew numbers per ship are unknown and part of the army had already been fighting in Kent, London and Mercia. Ship totals in the Chronicle are round and rhetorical, and modern historians treat this one as an impression of unprecedented size rather than a count."
+      },
+      "factions": [
+        {
+          "name": "The Danish army of 851",
+          "title": "The Danish army of 851",
+          "note": "The host the Chronicle says arrived in 350 ships; no Codex article, and no source names its leaders or its origin."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "The Danish commanders (not named in the sources)",
+          "title": "The Danish commanders (not named in the sources)",
+          "type": "person",
+          "note": "Not a gap in this archive: neither the Anglo-Saxon Chronicle nor Asser names any leader of the army that took Canterbury and London in 851."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Aclea, fought in 851, was the West Saxon answer to the worst year of Viking attack England had yet seen. A fleet the Anglo-Saxon Chronicle numbers at 350 ships came into the mouth of the Thames, stormed Canterbury and London — the first time either had fallen — and routed Berhtwulf of Mercia and his army. It then crossed the Thames into Surrey, and there Æthelwulf of Wessex and his son Æthelbald destroyed it.",
+        "The Chronicle calls it the greatest slaughter of a heathen army that had been heard of to that day, which is a West Saxon judgement on a West Saxon victory rather than a measurement. What can be checked is the consequence: after 851 no Viking army wintered in England again until 865, and when the great army finally came, Wessex was the only English kingdom that had beaten a large Danish force in the open field."
+      ]
+    },
+    {
+      "title": "Background: the year of 350 ships",
+      "paragraphs": [
+        "Viking raiding on England had been growing for half a century, but until 851 it had been seasonal: fleets came, took what they could, and left before winter. That year broke the pattern twice over. A Danish force wintered on Thanet over 850–851, the first recorded overwintering on English soil, and the fleet that arrived in 851 was on a scale nobody had described before.",
+        "The campaign that followed hit all three of the leading southern powers in turn. Canterbury, the seat of the English church, was stormed. London, the great trading town of the Thames and a Mercian possession, was stormed after it. Berhtwulf of Mercia brought an army against the Danes and was put to flight — the same Mercian weakness that Ellandun had exposed a generation earlier, now exposed by a different enemy. Only then did the army turn south across the Thames into Wessex."
+      ]
+    },
+    {
+      "title": "Forces, leaders and the problem of the site",
+      "paragraphs": [
+        "Æthelwulf had been king since 839 and fought alongside Æthelbald, his eldest surviving son, who would rebel against him seven years later and take the western half of the kingdom. Both are named in the Chronicle, which is unusual enough to suggest the whole strength of the dynasty was committed. Earlier the same year Æthelwulf's eldest son, the under-king of Kent, and the ealdorman Ealhhere had taken nine Danish ships in a sea fight off Sandwich — so Wessex had already drawn blood before Aclea.",
+        "Where Aclea was is unknown. Asser glosses the name as \"oak field\", which fits a great many places. Ockley in Surrey is the usual candidate, because a Danish force following Stane Street south from London Bridge would meet a West Saxon army coming north through the gap in the North Downs near Dorking. Oakley in Hampshire is the other, argued from burial mounds, early medieval skeletons found beneath a church floor and Anglo-Saxon jewellery associated with Æthelwulf found some miles away. Neither is more than a plausible reading of a common place-name."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "There is no narrative of the fighting. The Chronicle gives the meeting, the slaughter and the victory in a single sentence, and Asser, writing forty years later, adds nothing tactical — he repeats the Chronicle and translates the place-name. No source describes the ground, the formations, the length of the engagement or how the Danish army was brought to battle at all.",
+        "What the silence still allows is an inference about the outcome. A raiding army that had beaten the Mercians and taken two walled towns did not merely withdraw after Aclea; it disappears from the record. The Chronicle's next Viking entries concern fleets elsewhere, and the fourteen-year gap before another army wintered in England is the strongest evidence that the defeat was as heavy as the compiler claimed."
+      ]
+    },
+    {
+      "title": "The \"greatest slaughter\": what the Chronicle actually claims",
+      "paragraphs": [
+        "The famous phrase needs reading carefully. The Chronicle says the West Saxons \"there made the greatest slaughter of a heathen raiding-army that we have heard tell of up to the present day, and there took the victory\". Every part of that is a claim about the compiler's knowledge, not a body count: it is superlative relative to what he had heard, it was written down in Wessex, and the annal for 851 was compiled decades after the event as part of a record built around the West Saxon royal house.",
+        "It is also not a figure, and it should not be turned into one. The only number in the entry is the 350 ships of the fleet, which belongs to the arrival in the Thames rather than to the army engaged inland, and which follows the Chronicle's habit of round hundreds. The honest position is that Aclea was a heavy Danish defeat whose scale impressed the people who recorded it, and that no source permits an estimate of how many died on either side."
+      ]
+    },
+    {
+      "title": "Aftermath and significance",
+      "paragraphs": [
+        "Æthelwulf reigned for another seven years, secure enough by 855 to leave the kingdom altogether for a year-long pilgrimage to Rome, taking his youngest son Alfred with him. That absence cost him: Æthelbald, his co-victor at Aclea, led a rebellion during it, and on his father's return the kingdom was divided rather than fought over, with Æthelbald keeping the west.",
+        "Aclea's longer importance is what it bought. The fourteen years of relative respite let Wessex enter the crisis of the 860s intact, with its dynasty, its shire system and its reputation undamaged, while Northumbria, East Anglia and Mercia were all destroyed or reduced to client kingdoms within a decade of the great army's landing in 865. Æthelwulf's sons inherited a kingdom that had already proved a Viking army could be broken in the field — the knowledge Æthelred and Alfred fought on at Ashdown, and Alfred at Edington."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "850–851",
+      "title": "The Danes winter on Thanet",
+      "description": "For the first time a Viking force stays in England through the winter instead of sailing home with its plunder."
+    },
+    {
+      "date": "851",
+      "title": "The fleet enters the Thames",
+      "description": "The Anglo-Saxon Chronicle numbers it at 350 ships, the largest force it had yet recorded in English waters."
+    },
+    {
+      "date": "851",
+      "title": "Canterbury and London stormed",
+      "description": "The seat of the English church and the chief trading town of the Thames both fall to the same army."
+    },
+    {
+      "date": "851",
+      "title": "Berhtwulf of Mercia routed",
+      "description": "The Mercian king brings an army against the Danes and is put to flight, leaving the south-east open."
+    },
+    {
+      "date": "851",
+      "title": "The sea fight off Sandwich",
+      "description": "Æthelwulf's eldest son, under-king of Kent, and the ealdorman Ealhhere take nine Danish ships and drive off the rest."
+    },
+    {
+      "date": "851",
+      "title": "The battle at Aclea",
+      "description": "Æthelwulf and Æthelbald meet the army south of the Thames and destroy it; the Chronicle claims the greatest slaughter of Vikings yet known."
+    },
+    {
+      "date": "855–856",
+      "title": "Æthelwulf goes to Rome",
+      "description": "He leaves Wessex for a year with his youngest son Alfred; Æthelbald rebels in his absence and keeps the western half of the kingdom."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The war resumes twenty years on at Ashdown",
+    "battleSlug": "battle-of-ashdown",
+    "relationship": "same-war",
+    "reason": "Aclea bought Wessex fourteen years without a Viking army on English soil. When the great army finally invaded the kingdom in 871, Æthelwulf's sons Æthelred and Alfred fought it on the Berkshire downs at Ashdown."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Æthelwulf of Wessex",
+        "type": "person",
+        "slug": "aethelwulf-of-wessex",
+        "label": "Commanded the West Saxons here"
+      },
+      {
+        "title": "Æthelbald of Wessex",
+        "type": "person",
+        "slug": "aethelbald-of-wessex",
+        "label": "Fought beside his father in this battle"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "The kingdom that met the fleet of 851"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Ellandun",
+        "type": "event",
+        "slug": "battle-of-ellandun",
+        "label": "The victory that made Wessex supreme, 825"
+      },
+      {
+        "title": "Battle of Ashdown",
+        "type": "event",
+        "slug": "battle-of-ashdown",
+        "label": "The next great engagement of the Viking wars, 871"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The invasion that came fourteen years later"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Gold%20%C3%86thelwulf%20Finger%20Ring.jpg"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annal 851",
+      "author": "Chronicle compilers",
+      "type": "primary source",
+      "note": "The source of both the 350 ships and the \"greatest slaughter\" claim; compiled in Wessex decades later and organised around the West Saxon royal house."
+    },
+    {
+      "title": "Life of King Alfred, chapter 5",
+      "author": "Asser",
+      "type": "primary source",
+      "note": "Repeats the Chronicle and glosses Aclea as \"oak field\"; adds nothing about the fighting."
+    },
+    {
+      "title": "Battle of Aclea — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Aclea"
+    }
+  ]
+}

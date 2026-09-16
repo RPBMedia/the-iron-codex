@@ -1,0 +1,242 @@
+{
+  "id": "battle-of-ellandun",
+  "type": "event",
+  "name": "Battle of Ellandun",
+  "year": 825,
+  "location": "Ellandun, probably Wroughton, Wiltshire",
+  "eventLocation": "The Wiltshire downs south of modern Swindon",
+  "eventType": "Battle",
+  "conflict": "The Mercian–West Saxon struggle for supremacy in southern England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egbert%20of%20Wessex%20in%20the%20Brief%20Abridgement%20of%20the%20Chronicles%20of%20England.jpg",
+  "imageInfo": {
+    "caption": "King Egbert of Wessex in a thirteenth-century manuscript illumination by Matthew Paris, labelled \"Egbertus\". It is a conventional image of kingship drawn some four centuries after his reign, not a likeness.",
+    "creator": "Matthew Paris",
+    "date": "c. 1250",
+    "source": "British Library, via Wikimedia Commons (public domain)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egbert%20of%20Wessex%20in%20the%20Brief%20Abridgement%20of%20the%20Chronicles%20of%20England.jpg",
+    "note": "No depiction of the battle or of either king survives from the ninth century. Matthew Paris drew the West Saxon kings as a series of enthroned figures for a chronicle of English history, distinguished by their labels rather than by their features."
+  },
+  "summary": "Egbert of Wessex destroyed the Mercian army of Beornwulf at Ellandun in 825, ending more than a century of Mercian supremacy in southern England and bringing Kent, Surrey, Sussex and Essex under West Saxon rule.",
+  "details": "In 825 Egbert met Beornwulf of Mercia on the Wiltshire downs, at a place the Anglo-Saxon Chronicle calls Ellandun and later writers usually identify with Wroughton south of Swindon. The Mercian army was destroyed. Egbert sent his son Æthelwulf straight into Kent, whose king fled, and the south-eastern kingdoms transferred their allegiance to Wessex.",
+  "factions": [
+    "Kingdom of Wessex",
+    "Kingdom of Mercia"
+  ],
+  "leaders": [
+    {
+      "name": "Egbert of Wessex",
+      "faction": "West Saxons",
+      "personId": "egbert-of-wessex"
+    },
+    {
+      "name": "Beornwulf of Mercia",
+      "faction": "Mercians"
+    }
+  ],
+  "outcome": "Decisive West Saxon victory; Mercian overlordship of southern England ended and Kent, Surrey, Sussex and Essex submitted to Wessex.",
+  "participants": [
+    {
+      "side": "West Saxons",
+      "strength": {
+        "display": "Unknown; the Chronicle records the victory without any numbers",
+        "confidence": "unknown",
+        "note": "The Anglo-Saxon Chronicle disposes of the battle in a sentence and counts nobody. Egbert had ruled for twenty-three years and drew on the shire levies of a kingdom running from Kent to the Cornish border, but no figure of any kind survives."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Egbert of Wessex",
+          "title": "Egbert of Wessex",
+          "type": "person",
+          "slug": "egbert-of-wessex"
+        }
+      ]
+    },
+    {
+      "side": "Mercians",
+      "strength": {
+        "display": "Unknown; no contemporary source counts the Mercian army",
+        "confidence": "unknown",
+        "note": "No figure is recorded. This was the field army of the kingdom that had dominated southern England since Æthelbald and Offa, and the scale of the political collapse that followed suggests a heavy defeat rather than a skirmish — but that is an inference from consequences, not a count."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Mercia",
+          "title": "Kingdom of Mercia",
+          "note": "No Codex article yet: the midland kingdom that had held southern England in subjection since the reign of Offa."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Beornwulf of Mercia",
+          "title": "Beornwulf of Mercia",
+          "type": "person",
+          "note": "No article yet: king of Mercia from 823, beaten here and killed the next year fighting the East Angles."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Ellandun, fought in 825 on the Wiltshire downs, ended the Mercian supremacy that had governed southern England for over a century. Egbert of Wessex met Beornwulf of Mercia and destroyed his army; within months the kingdoms of Kent, Surrey, Sussex and Essex had passed from Mercian to West Saxon lordship, roughly doubling the territory Egbert controlled.",
+        "It did not make Wessex the ruler of England — Mercia recovered its independence within five years and kept it for two generations. What Ellandun settled was which of the two kingdoms would lead: every later step towards a single English realm, from Alfred's survival to Æthelstan's conquests, was taken by the dynasty Egbert founded rather than by the midland kings who had looked unassailable in 820."
+      ]
+    },
+    {
+      "title": "Background: a century of Mercian supremacy",
+      "paragraphs": [
+        "From the reign of Æthelbald in the 730s and above all under Offa, who died in 796, Mercia had been the dominant English kingdom south of the Humber. Offa took the revenues of Kent, married his daughters to the kings of Wessex and Northumbria, obtained a separate archbishopric at Lichfield to break Canterbury's hold on the Mercian sees, and built the dyke that still carries his name along the Welsh border.",
+        "Egbert came to the West Saxon throne in 802 after years of exile at the court of Charlemagne, which he had reached by way of Offa's hostility. For the first two decades of his reign he made no move against Mercia at all, campaigning instead against the Britons of Cornwall and consolidating at home. Ellandun came in the twenty-fourth year of that patient reign, and the Chronicle gives no hint of what provoked it."
+      ]
+    },
+    {
+      "title": "Forces, leaders and the site",
+      "paragraphs": [
+        "Egbert commanded the West Saxon levies; Beornwulf had held Mercia for barely two years, having taken the throne in 823 in a kingdom that had run through four kings in a decade. That instability is the likeliest reason a Mercian army was beaten so completely by a kingdom it had dominated for a century, though no source says so.",
+        "Where Ellandun was is not settled. William Camden in 1610 put it near Wilton west of Salisbury; Charles Oman argued for Wroughton, four miles south of Swindon, which is the identification most often repeated and rests on the place-name; another proposal puts it in the grounds of Lydiard Park. All that is certain is that it lay in Wiltshire. The Chronicle also misdates the battle: the annal stands under 823, and the corrected date of 825 comes from reconciling it with the surrounding entries."
+      ]
+    },
+    {
+      "title": "The battle and the conquest of the south-east",
+      "paragraphs": [
+        "No account of the fighting survives — the Chronicle records the meeting, the victory and nothing else, and there is no Mercian chronicle to set against it. What the sources do describe is the speed of the exploitation, which is the real measure of the result.",
+        "Egbert did not follow the beaten army into Mercia. He sent his son Æthelwulf south-east instead, with Bishop Ealhstan of Sherborne and the ealdorman Wulfheard, into Kent. Baldred, the king holding Kent for Mercia, was driven out across the Thames, and the men of Kent, Surrey, Sussex and Essex submitted — the Chronicle says they turned to Egbert because they had been wrongly forced from his kin, a West Saxon gloss on a straightforward transfer of allegiance to the winner. In the same year the East Angles appealed to Egbert for protection against Mercia."
+      ]
+    },
+    {
+      "title": "Aftermath: the collapse and recovery of Mercia",
+      "paragraphs": [
+        "Beornwulf tried to recover his position by attacking the East Angles in 826 and was killed. His successor Ludeca invaded them in turn in 827 and was killed as well, along with five of his ealdormen. In three years Mercia lost the south-east, two kings and its standing.",
+        "Egbert pressed the advantage in 829, overrunning Mercia outright, driving out King Wiglaf and taking the London mint, then leading his army north until the Northumbrians met him at Dore and acknowledged his overlordship. The Chronicle rewards him with the title Bretwalda, ruler of Britain, listing him as the eighth such king. The supremacy lasted a year: Wiglaf recovered Mercia in 830, probably by rebellion, and ruled it independently again."
+      ]
+    },
+    {
+      "title": "What Ellandun settled",
+      "paragraphs": [
+        "The Bretwalda claim of 829 was a flourish that collapsed almost at once, and it is a mistake to read Ellandun as the moment England was unified. Mercia remained a real kingdom until the Danish army broke it in the 870s, and Wessex never recovered Egbert's brief northern overlordship in his lifetime.",
+        "The permanent change was the south-east. Kent, Surrey, Sussex and Essex stayed West Saxon, and with them came the wealth of Canterbury, the Channel ports and a frontier on the Thames estuary. When the Viking fleets arrived in force a generation later, Wessex was the one English kingdom with the territory and revenue to survive them — which is why Egbert's grandson Alfred had a kingdom to defend at all."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "802",
+      "title": "Egbert becomes king of Wessex",
+      "description": "He returns from exile at the Frankish court on the death of Beorhtric and takes a kingdom still overshadowed by Mercia."
+    },
+    {
+      "date": "815–825",
+      "title": "The Cornish campaigns",
+      "description": "Egbert spends two decades securing the west against the Britons of Cornwall rather than challenging the midland kingdom."
+    },
+    {
+      "date": "823",
+      "title": "Beornwulf takes Mercia",
+      "description": "He becomes the fourth Mercian king in a decade, inheriting a throne that had grown unstable since the death of Coenwulf."
+    },
+    {
+      "date": "825",
+      "title": "The battle at Ellandun",
+      "description": "Egbert destroys the Mercian army on the Wiltshire downs; the Chronicle enters it under 823 and records no detail of the fighting."
+    },
+    {
+      "date": "825",
+      "title": "Æthelwulf takes Kent",
+      "description": "Egbert sends his son with Bishop Ealhstan and ealdorman Wulfheard; King Baldred is driven out and Kent, Surrey, Sussex and Essex submit."
+    },
+    {
+      "date": "826",
+      "title": "Beornwulf killed",
+      "description": "He invades East Anglia to recover the overlordship lost at Ellandun and dies there; his successor Ludeca is killed the same way in 827."
+    },
+    {
+      "date": "829–830",
+      "title": "Mercia overrun, then lost again",
+      "description": "Egbert takes Mercia and the London mint and receives Northumbrian submission at Dore, but Wiglaf recovers the midland kingdom within a year."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The kingdom Ellandun made faces the Vikings at Aclea",
+    "battleSlug": "battle-of-aclea",
+    "relationship": "chronological-follow-up",
+    "reason": "Ellandun made Wessex the leading English kingdom and handed Kent to Egbert's son Æthelwulf. Twenty-six years later that same Æthelwulf, now king, met the largest Viking fleet yet recorded in English waters at Aclea in 851."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Egbert of Wessex",
+        "type": "person",
+        "slug": "egbert-of-wessex",
+        "label": "Commanded the West Saxons here"
+      },
+      {
+        "title": "Æthelwulf of Wessex",
+        "type": "person",
+        "slug": "aethelwulf-of-wessex",
+        "label": "Sent into Kent after the victory"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "The kingdom this victory made supreme"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Aclea",
+        "type": "event",
+        "slug": "battle-of-aclea",
+        "label": "The next great test of West Saxon power, 851"
+      },
+      {
+        "title": "Battle of Heavenfield",
+        "type": "event",
+        "slug": "battle-of-heavenfield",
+        "label": "The earlier Northumbrian supremacy, 633 or 634"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Egbert%20of%20Wessex%20in%20the%20Brief%20Abridgement%20of%20the%20Chronicles%20of%20England.jpg"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annals 823 (recte 825) and 829",
+      "author": "Chronicle compilers",
+      "type": "primary source",
+      "note": "The only contemporary record, written in Wessex and favourable to Egbert; it gives the victory and the submissions but no account of the fighting."
+    },
+    {
+      "title": "Battle of Ellandun — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ellandun"
+    },
+    {
+      "title": "Wessex in the Early Middle Ages",
+      "author": "Barbara Yorke",
+      "type": "book"
+    }
+  ],
+  "aliases": [
+    "Ellendun",
+    "Battle of Ellendun",
+    "Battle of Wroughton",
+    "Ellandune"
+  ]
+}

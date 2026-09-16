@@ -428,6 +428,7 @@ export const entityLinks = [
   { label: "Yaqub al-Mansur", aliases: ["Abu Yusuf Yaqub al-Mansur","Ya'qub al-Mansur","Almanzor (Almohad)","al-Mansur (Almohad)"], type: "person", slug: "yaqub-al-mansur" },
   { label: "Yaropolk I of Kiev", aliases: ["Yaropolk Sviatoslavich","Yaropolk I"], type: "person", slug: "yaropolk-i-of-kiev" },
   { label: "Yusuf ibn Tashfin", aliases: ["Yusuf ibn Tashufin","Yusuf ben Tachfin"], type: "person", slug: "yusuf-ibn-tashfin" },
+  { label: "Battle of Aclea", aliases: ["Aclea"], type: "event", slug: "battle-of-aclea" },
   { label: "Battle of Ad Decimum", aliases: ["Ad Decimum"], type: "event", slug: "battle-of-ad-decimum" },
   { label: "Battle of Adrianople", aliases: ["Battle of Adrianople (1205)","Adrianople"], type: "event", slug: "battle-of-adrianople" },
   { label: "Battle of Agincourt", type: "event", slug: "battle-of-agincourt" },
@@ -438,6 +439,7 @@ export const entityLinks = [
   { label: "Battle of Alnwick (1174)", aliases: ["Battle of Alnwick","Capture of William the Lion","Alnwick (1174)"], type: "event", slug: "battle-of-alnwick" },
   { label: "Battle of Ankara", aliases: ["Battle of Angora","Battle of Ankara (1402)","Ankara"], type: "event", slug: "battle-of-ankara" },
   { label: "Battle of Arsuf", aliases: ["Arsuf"], type: "event", slug: "battle-of-arsuf" },
+  { label: "Battle of Ashdown", aliases: ["Æscesdun","Aescesdun","Ashdown"], type: "event", slug: "battle-of-ashdown" },
   { label: "Battle of Atoleiros", aliases: ["Atoleiros"], type: "event", slug: "battle-of-atoleiros" },
   { label: "Battle of Bannockburn", type: "event", slug: "battle-of-bannockburn" },
   { label: "Battle of Bapheus", aliases: ["Battle of Koyunhisar","Bapheus 1302","Bapheus"], type: "event", slug: "battle-of-bapheus" },
@@ -456,6 +458,7 @@ export const entityLinks = [
   { label: "Battle of Dupplin Moor", aliases: ["Dupplin Moor"], type: "event", slug: "battle-of-dupplin-moor" },
   { label: "Battle of Durbe", aliases: ["Durbe"], type: "event", slug: "battle-of-durbe" },
   { label: "Battle of Edington", aliases: ["Edington","Ethandun","Battle of Ethandun","Ethandune"], type: "event", slug: "battle-of-edington" },
+  { label: "Battle of Ellandun", aliases: ["Ellendun","Battle of Ellendun","Battle of Wroughton","Ellandune","Ellandun"], type: "event", slug: "battle-of-ellandun" },
   { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
   { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
   { label: "Battle of Fimreite", aliases: ["Slaget ved Fimreite","Fimreite"], type: "event", slug: "battle-of-fimreite" },
@@ -470,6 +473,7 @@ export const entityLinks = [
   { label: "Battle of Halidon Hill", aliases: ["Halidon Hill"], type: "event", slug: "battle-of-halidon-hill" },
   { label: "Battle of Hastings", type: "event", slug: "battle-of-hastings" },
   { label: "Battle of Hattin", aliases: ["Hattin"], type: "event", slug: "battle-of-hattin" },
+  { label: "Battle of Heavenfield", aliases: ["Hefenfelth","Bellum Cantscaul","Battle of Denisesburna","Heavenfeld","Heavenfield"], type: "event", slug: "battle-of-heavenfield" },
   { label: "Battle of Homildon Hill", aliases: ["Battle of Humbleton Hill","Homildon Hill"], type: "event", slug: "battle-of-homildon-hill" },
   { label: "Battle of Kleidion", aliases: ["Battle of Belasitsa","Battle of the Kleidion Pass","Kleidion"], type: "event", slug: "battle-of-kleidion" },
   { label: "Battle of Kosovo", aliases: ["Kosovo"], type: "event", slug: "battle-of-kosovo" },
@@ -511,6 +515,7 @@ export const entityLinks = [
   { label: "Battle of Stirling Bridge", aliases: ["Stirling Bridge"], type: "event", slug: "battle-of-stirling-bridge" },
   { label: "Battle of Svolder", type: "event", slug: "battle-of-svolder" },
   { label: "Battle of Taginae", aliases: ["Taginae"], type: "event", slug: "battle-of-taginae" },
+  { label: "Battle of Tettenhall", aliases: ["Battle of Wednesfield","Wodnesfeld","Battle of Wodnesfeld","Tettenhall"], type: "event", slug: "battle-of-tettenhall" },
   { label: "Battle of the Kalka River", aliases: ["Battle of Kalka","Battle on the Kalka","Battle of the Kalka","the Kalka River"], type: "event", slug: "battle-of-the-kalka-river" },
   { label: "Battle of the Sit River", aliases: ["Battle of the Sit","Battle on the Sit River","the Sit River"], type: "event", slug: "battle-of-the-sit-river" },
   { label: "Battle of the Standard", aliases: ["Battle of Northallerton","the Standard"], type: "event", slug: "battle-of-the-standard" },
@@ -1634,6 +1639,40 @@ export const ambiguousEntityAliases = [
           "Norwegian",
           "Isle of Man"
         ]
+      }
+    ]
+  },
+  {
+    // "Ashdown" is Ashdown Forest in Sussex, Ashdown House, and a surname, before
+    // it is the Berkshire downs where Wessex beat the Great Heathen Army in 871.
+    // Every occurrence in the archive today means the battle, so this is placed
+    // before the damage — but the name is common enough that it will not stay
+    // that way.
+    terms: ["Ashdown"],
+    possibleTargets: [
+      {
+        title: "Battle of Ashdown",
+        label: "Battle of Ashdown",
+        type: "event",
+        slug: "battle-of-ashdown",
+        date: "871",
+        contextHints: ["871", "Æthelred", "Aethelred", "Alfred", "Berkshire", "Bagsecg", "Halfdan", "Reading", "Danes", "Great Heathen Army", "Wessex"]
+      }
+    ]
+  },
+  {
+    // "Tettenhall" is a suburb of Wolverhampton, with Tettenhall Wood and
+    // Tettenhall College, before it is the field where Edward the Elder's armies
+    // destroyed the last Northumbrian Danish army in 910.
+    terms: ["Tettenhall"],
+    possibleTargets: [
+      {
+        title: "Battle of Tettenhall",
+        label: "Battle of Tettenhall",
+        type: "event",
+        slug: "battle-of-tettenhall",
+        date: "910",
+        contextHints: ["910", "Staffordshire", "Eowils", "Healfdene", "Ingwær", "Edward the Elder", "Mercian", "Mercia", "Danelaw", "Northumbrian", "Æthelflæd"]
       }
     ]
   }

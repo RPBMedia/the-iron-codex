@@ -228,6 +228,36 @@ export const LOCATOR_MAPS = {
     height: 1263,
     bounds: { top: 37.7, bottom: 28.4, left: 38.4, right: 48.9 }
   },
+  /*
+   * Novgorod, added 2026-09-17, the last place in the archive with coordinates
+   * and no frame.
+   *
+   * It needed its own entry rather than a country map. European Russia's module
+   * is a projected map driven by formulas, not a degree box, and a full Russia
+   * map would crop to roughly 45 degrees of longitude — a region, not a locator.
+   * The oblast box is small enough to be useful: a 340px window spans about
+   * 140km, and Lake Ilmen makes the ground recognisable.
+   *
+   * NOT in COUNTRY_TO_MAP on purpose. Mapping RU to this would hand an oblast
+   * map to any future Russian place hundreds of miles outside it, so `novgorod`
+   * names it directly.
+   *
+   * One caveat, recorded rather than hidden: the file declares a conformal
+   * projection with a standard parallel of 58°12′N, so a linear box is an
+   * approximation. Over an extent this small it holds — the image aspect is
+   * 1.272 against the 1.273 the box predicts — and the marker lands where
+   * Wikipedia's own pin templates put it, since they use these same bounds.
+   */
+  'novgorod-oblast': {
+    title: 'the Novgorod region',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Relief_Map_of_Novgorod_Oblast.jpg',
+    source: 'Wikimedia Commons (Виктор В, CC BY-SA 2.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Relief_Map_of_Novgorod_Oblast.jpg',
+    modernBorders: true,
+    width: 1000,
+    height: 786,
+    bounds: { top: 59.6, bottom: 56.7, left: 29.5, right: 36.5 }
+  },
   'central-balkans': {
     title: 'the central Balkans',
     src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Serbia_adm_location_map.svg',

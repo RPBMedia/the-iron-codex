@@ -1,0 +1,293 @@
+{
+  "id": "battle-of-tettenhall",
+  "type": "event",
+  "name": "Battle of Tettenhall",
+  "year": 910,
+  "location": "Tettenhall, Staffordshire",
+  "eventLocation": "Tettenhall, near Wolverhampton; some sources call it Wednesfield",
+  "eventType": "Battle",
+  "conflict": "Consolidation of the Kingdom of England",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Oswald's%20Priory%2C%20Gloucester%20-%20geograph.org.uk%20-%20443171.jpg",
+  "imageInfo": {
+    "caption": "The surviving arcade of St Oswald's Priory at Gloucester, photographed in 2007. Æthelred and Æthelflæd of Mercia founded the minster about 900 and brought the relics of St Oswald here in 909.",
+    "creator": "Philip Halling",
+    "date": "2007",
+    "source": "Geograph, via Wikimedia Commons (CC BY-SA 2.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St%20Oswald's%20Priory%2C%20Gloucester%20-%20geograph.org.uk%20-%20443171.jpg",
+    "note": "The standing arches are largely later medieval rebuilding of the Mercian minster. The 909 translation of Oswald's relics to this church followed the raid into Danish Northumbria that provoked the counter-raid destroyed at Tettenhall the next summer; nothing depicting the battle itself survives."
+  },
+  "summary": "A combined West Saxon and Mercian army destroyed a Northumbrian Danish raiding force at Tettenhall on 5 August 910, killing three Danish kings and ending northern intervention in the midlands for a generation.",
+  "details": "A Danish army from Northumbria raided deep into Mercia in the summer of 910, reaching the Avon near Bristol and harrying back along the Severn. Caught on its way home by the armies of Wessex and Mercia, it was destroyed. The Anglo-Saxon Chronicle names the kings Eowils and Healfdene among the dead, and Æthelweard adds a third, Ingwær.",
+  "factions": [
+    "Kingdom of Wessex",
+    "Mercia",
+    "The Danes of Northumbria"
+  ],
+  "leaders": [
+    {
+      "name": "Edward the Elder",
+      "faction": "West Saxons and Mercians",
+      "personId": "edward-the-elder"
+    },
+    {
+      "name": "Eowils",
+      "faction": "Danes"
+    },
+    {
+      "name": "Healfdene",
+      "faction": "Danes"
+    },
+    {
+      "name": "Ingwær",
+      "faction": "Danes"
+    }
+  ],
+  "outcome": "Decisive English victory; three Danish kings were killed and no army came south from Northumbria again for a generation.",
+  "participants": [
+    {
+      "side": "West Saxons and Mercians",
+      "strength": {
+        "display": "Unknown; the Chronicle credits both peoples and counts neither",
+        "confidence": "unknown",
+        "note": "No figure survives for either army. The force was the combined levy of Wessex and Mercia — the Chronicle credits the victory to both peoples rather than to a commander — but nothing indicates how many men either kingdom put in the field."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of Wessex",
+          "title": "Kingdom of Wessex",
+          "type": "location",
+          "slug": "kingdom-of-wessex"
+        },
+        {
+          "name": "Mercia under Æthelred and Æthelflæd",
+          "title": "Mercia under Æthelred and Æthelflæd",
+          "note": "No Codex article yet: the English half of Mercia, ruled from Gloucester and by 910 governed in practice by Æthelflæd during her husband's illness."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Edward the Elder",
+          "title": "Edward the Elder",
+          "type": "person",
+          "slug": "edward-the-elder"
+        },
+        {
+          "name": "The English commanders on the field (not named in the sources)",
+          "title": "The English commanders on the field (not named in the sources)",
+          "type": "person",
+          "note": "Not a gap in this archive: the Chronicle credits \"the armies of the West Saxons and the Mercians\" and names no leader present at the battle."
+        }
+      ]
+    },
+    {
+      "side": "The Danes of Northumbria",
+      "strength": {
+        "display": "Unknown; casualties are described as many thousands, which is rhetoric",
+        "confidence": "unknown",
+        "note": "No count survives. The Chronicle describes losses of many thousands, which is a rhetorical scale rather than a figure, and the army is identifiable only by the unusual number of kings who died in it — three, which suggests a combined force drawn from more than one Northumbrian warband."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of York",
+          "title": "Kingdom of York",
+          "type": "location",
+          "slug": "kingdom-of-york"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Eowils",
+          "title": "Eowils",
+          "type": "person",
+          "note": "No article yet: one of the Danish kings of Northumbria, named among the dead by the Anglo-Saxon Chronicle."
+        },
+        {
+          "name": "Healfdene",
+          "title": "Healfdene",
+          "type": "person",
+          "note": "No article yet: the second Danish king named among the dead by the Chronicle, ruling Northumbria jointly with Eowils."
+        },
+        {
+          "name": "Ingwær",
+          "title": "Ingwær",
+          "type": "person",
+          "note": "No article yet: a third king killed here, named not by the Chronicle but by Æthelweard's Latin Chronicon."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Tettenhall, fought in Staffordshire on 5 August 910, destroyed the last Danish army able to strike south out of Northumbria. A raiding force that had spent the summer plundering Mercia was intercepted on its way home by the combined armies of Wessex and Mercia and broken, and three of its kings were killed — an unusually heavy loss of leadership even by the standards of Viking-age warfare.",
+        "The victory is easy to overlook beside Edington and Brunanburh, but it is what made the English reconquest of the Danelaw possible. With the north unable to intervene, Edward the Elder and his sister Æthelflæd could spend the following decade pushing fortified burhs into the Danish midlands without ever having to fight on two fronts."
+      ]
+    },
+    {
+      "title": "Background: the raid of 909 and the relics of St Oswald",
+      "paragraphs": [
+        "Edward the Elder had succeeded Alfred in 899 and spent his first decade securing his throne against his cousin Æthelwold and the East Anglian Danes. By 909 he was strong enough to take the offensive, and he sent a joint West Saxon and Mercian force into Danish Northumbria, where it raided for five weeks.",
+        "The expedition came home with a prize that was political as much as religious: the relics of St Oswald, the seventh-century Northumbrian king and saint, taken from Bardney in Lincolnshire. Æthelflæd had them translated to the new minster she and her husband Æthelred had founded at Gloucester, which was rededicated to Oswald in his honour. Removing a Northumbrian royal saint to a Mercian church was a claim of lordship over the north, and the Danes of Northumbria answered it the next summer."
+      ]
+    },
+    {
+      "title": "Forces and leaders",
+      "paragraphs": [
+        "The Danish army came from Northumbria under three kings — Eowils and Healfdene, named by the Anglo-Saxon Chronicle, and Ingwær, added by the ealdorman Æthelweard in the Latin chronicle he compiled at the end of the tenth century. Three kings in one army points to a coalition of warbands rather than a single kingdom's levy.",
+        "On the English side no commander is named anywhere. The Chronicle credits the victory to the armies of the West Saxons and the Mercians as peoples. Edward the Elder had ordered the campaign but was in Kent waiting for a fleet he had summoned, and cannot have been present; Æthelred, Lord of the Mercians, had been in declining health for years and died the following spring; Æthelflæd was governing Mercia in practice, but no source places her on the field either. The honest position is that Tettenhall was won by an army whose commander history does not record."
+      ]
+    },
+    {
+      "title": "The campaign and the battle",
+      "paragraphs": [
+        "The Danish force crossed into Mercia and raided far to the south-west, reaching the Avon near Bristol before turning and harrying north along the Severn as far as the Bridgnorth area. Deep raids like this depended on getting home before a defending army could concentrate, and this one misjudged it: the West Saxon and Mercian levies gathered while the Danes were still loaded with plunder and strung out on the return march.",
+        "The armies met on 5 August, the date given by Æthelweard. No account of the fighting survives — the sources record the interception, the destruction and the names of the dead kings, and nothing of how the battle was fought. Where it happened is not quite settled either: it is usually placed at Tettenhall near Wolverhampton, but some sources call it the battle of Wednesfield, a few miles east, and the two names may preserve a running fight across the ground between them."
+      ]
+    },
+    {
+      "title": "Aftermath: the reconquest of the Danelaw",
+      "paragraphs": [
+        "Æthelred of Mercia died in 911 and Æthelflæd ruled in her own name as Lady of the Mercians. From that year she and Edward advanced in step behind lines of new fortresses — she on the Mercian side with burhs at Tamworth, Stafford and Derby, he up the eastern flank at Hertford, Witham, Buckingham, Bedford and Maldon.",
+        "The Danish south collapsed under the pressure. Æthelflæd took Derby in 917 and Leicester in 918; Edward received the submission of the East Anglian and midland armies in 917; and by 920 every Danish army south of the Humber had accepted him as lord. None of it was interrupted from the north, because after Tettenhall there was no northern army left to do the interrupting."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Tettenhall settled a strategic question rather than a dynastic one. Since 865 the Danish settlements of Northumbria, the midlands and East Anglia had been able to reinforce one another, and it was that capacity — not any single army — that had destroyed three English kingdoms. Killing three kings in one afternoon removed Northumbria from the equation for a generation.",
+        "What followed was the making of England as a single kingdom, and it was built on ground Tettenhall cleared: Edward's burhs, Æthelflæd's Mercian campaigns, and the submission of the Danelaw armies between 917 and 920. Edward's son Æthelstan took York itself in 927 and defended the result against a Norse and Celtic coalition at Brunanburh in 937."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "899",
+      "title": "Edward the Elder succeeds Alfred",
+      "description": "He inherits Wessex and spends his first decade putting down his cousin Æthelwold and the East Anglian Danes who backed him."
+    },
+    {
+      "date": "909",
+      "title": "The five-week raid into Northumbria",
+      "description": "A joint West Saxon and Mercian force harries the Danish north and carries off the relics of St Oswald from Bardney."
+    },
+    {
+      "date": "909",
+      "title": "Oswald's relics translated to Gloucester",
+      "description": "Æthelflæd installs them in the minster she and Æthelred founded, which is rededicated to him — a claim of lordship over the north."
+    },
+    {
+      "date": "Summer 910",
+      "title": "The Danish counter-raid",
+      "description": "A Northumbrian army under three kings plunders Mercia as far as the Avon near Bristol, then harries north along the Severn."
+    },
+    {
+      "date": "5 August 910",
+      "title": "The battle in Staffordshire",
+      "description": "The West Saxon and Mercian armies catch the raiders on the road home and destroy them; Eowils, Healfdene and Ingwær are all killed."
+    },
+    {
+      "date": "911",
+      "title": "Æthelflæd becomes Lady of the Mercians",
+      "description": "Her husband Æthelred dies after years of illness and she rules Mercia in her own name, building burhs at Tamworth, Stafford and Derby."
+    },
+    {
+      "date": "917–920",
+      "title": "The Danelaw submits",
+      "description": "Æthelflæd takes Derby and Leicester, and by 920 every Danish army south of the Humber has accepted Edward as lord."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The united kingdom is defended at Brunanburh",
+    "battleSlug": "battle-of-brunanburh",
+    "relationship": "same-war",
+    "reason": "Tettenhall removed Northumbria from the war and let Edward and Æthelflæd take the Danelaw by 920. In 937 his son Æthelstan defended the single English kingdom that conquest had created, destroying a Norse, Scottish and Strathclyde coalition at Brunanburh."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Ordered the campaign; the Chronicle places him in Kent"
+      },
+      {
+        "title": "Æthelstan",
+        "type": "person",
+        "slug": "aethelstan",
+        "label": "His grandson, who took York in 927"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The Danish-ruled England this victory opened to reconquest"
+      },
+      {
+        "title": "Kingdom of York",
+        "type": "location",
+        "slug": "kingdom-of-york",
+        "label": "The Northumbrian Danish kingdom that lost three kings here"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "The victory of Edward's father that saved Wessex, 878"
+      },
+      {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "The defence of the united kingdom, 937"
+      },
+      {
+        "title": "Battle of Heavenfield",
+        "type": "event",
+        "slug": "battle-of-heavenfield",
+        "label": "Where St Oswald, whose relics provoked this campaign, won his kingdom"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:St%20Oswald's%20Priory%2C%20Gloucester%20-%20geograph.org.uk%20-%20443171.jpg"
+    },
+    {
+      "title": "The Anglo-Saxon Chronicle, annals 909–911",
+      "author": "Chronicle compilers",
+      "type": "primary source",
+      "note": "Records the raid, the battle and the kings Eowils and Healfdene among the dead, and credits the victory to the two peoples rather than to any commander."
+    },
+    {
+      "title": "Chronicon",
+      "author": "Æthelweard",
+      "type": "primary source",
+      "note": "A late tenth-century Latin version of the Chronicle; the source of the 5 August date and of the third king, Ingwær."
+    },
+    {
+      "title": "Anglo-Saxon England",
+      "author": "Frank Stenton",
+      "type": "book",
+      "note": "Standard account of the three kings killed and of the battle's place in the reconquest of the Danelaw."
+    },
+    {
+      "title": "Battle of Tettenhall — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tettenhall"
+    }
+  ],
+  "aliases": [
+    "Battle of Wednesfield",
+    "Wodnesfeld",
+    "Battle of Wodnesfeld"
+  ]
+}

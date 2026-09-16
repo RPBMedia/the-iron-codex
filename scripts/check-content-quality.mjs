@@ -46,12 +46,11 @@ const battleArticleNames = new Set(
 // tracked decision (create a full article later, or leave documented). Adding a
 // NEW unlinked battle reference not on this list fails the check.
 const BATTLE_BACKLOG = new Set([
-  'battle of aclea', 'battle of alfarrobeira',
-  'battle of ashdown', 'battle of ellandun',
-  'battle of ellendun', 'battle of falköping',
+  'battle of alfarrobeira',
+  'battle of falköping',
   'battle of fontenoy',
   'battle of hova', 'battle of la higueruela', 'battle of lincoln',
-  'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
+  'battle of sparrsätra', 'battle of tertry',
   'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
   'battle of visby',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
@@ -66,10 +65,14 @@ const BATTLE_BACKLOG = new Set([
   // gained articles, so both sat here unnoticed.
   // Written 2026-09-17 and removed: siege of acre (the 1189-91 siege of the Third
   // Crusade), adrianople (1205, not 378), ankara, dandanaqan, durbe.
+  // Written 2026-09-17 and removed (Anglo-Saxon batch): aclea, ashdown, heavenfield,
+  // tettenhall, and BOTH Ellandun spellings — ellandun and ellendun were never two
+  // battles, so there is one article, battle-of-ellandun, carrying "Ellendun" as an
+  // alias.
   // Written 2026-09-17 and removed: fimreite, fotevik, fýrisvellir, grathe
   // heath and largs (the r60 Scandinavian batch), plus the 'battle of largs.'
   // boundary artifact, whose key is unreachable now that the article exists.
-  'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
+  'battle of nechtansmere', 'battle of ponza',
   // Added 2026-09-16 with the four founding rulers of Lithuania (Mindaugas,
   // Gediminas, Algirdas, Kęstutis). Each is a real engagement their articles must
   // name, and none has an article yet: Blue Waters (1362, Algirdas breaks the
