@@ -10,14 +10,14 @@
   ],
   "kingdom": "Principality of Achaea",
   "year": 1205,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20the%20Kastro%20Medieval%20Castle%20and%20Museum%20on%20Peloponnese%2C%20Greece%20(51223833204).jpg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greece_in_1278.svg?width=700",
   "imageInfo": {
-    "caption": "Chlemoutsi, the castle the Villehardouin princes built above the western coast of the Morea in the 1220s.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "photographed 2021; the castle of the 1220s",
+    "caption": "Modern map of southern Greece in 1278, with the Principality of Achaea across the Morea, the Byzantine province around Mystras in the south-east and the Duchy of Athens to the north.",
+    "creator": "Constantine Plakidas (Wikimedia Commons)",
+    "date": "2017; shows about 1278",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Kastro_Medieval_Castle_and_Museum_on_Peloponnese,_Greece_(51223833204).jpg",
-    "note": "The best-preserved Frankish castle in Greece, built by Geoffrey I of Villehardouin — reportedly with money seized from the church — and the seat from which the principality was governed at its height. Licensed CC BY-SA 4.0."
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greece_in_1278.svg",
+    "note": "A modern reconstruction, not a period document: the file redraws William Miller's political map of 1908 and corrects it from Antoine Bon's La Morée franque and Kenneth Setton's The Papacy and the Levant, and its author states that the Byzantine boundaries inside the Morea are uncertain. The year is the one William II of Villehardouin died, so the map shows the principality after Pelagonia, with Mystras, Monemvasia and Maina — ceded in 1262 to buy his release — already Byzantine and shaded with the empire. Venetian Modon and Coron, the Angevin possessions, the County Palatine of Cephalonia and the Duchy of Naxos are picked out separately, and the legend and place names are English. Licensed CC BY-SA 4.0."
   },
   "summary": "The Principality of Achaea was the crusader state in the Peloponnese, the most successful of the Latin conquests in Greece, and the one that lost Mystras to Byzantium as a prince's ransom.",
   "overview": "A French principality in the Morea that outlived the empire it belonged to and lost its dominance in a single battle.",
@@ -173,6 +173,39 @@
       "url": "https://www.doaks.org/research/byzantine",
       "type": "academic resource",
       "institution": "Dumbarton Oaks"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Greece_in_1278.svg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Blason_famille_de_Villehardouin.svg"
+    }
+  ],
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Blason_famille_de_Villehardouin.svg?width=700",
+  "armsImageInfo": {
+    "caption": "The arms of the Villehardouin princes of Achaea, gules a cross moline or, in a 2022 drawing; the same cross fills the shield on Geoffrey of Villehardouin's thirteenth-century seal.",
+    "creator": "Thom Lanaud (Wikimedia Commons)",
+    "date": "2022; the arms borne from the 13th century",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blason_famille_de_Villehardouin.svg",
+    "note": "A modern vector drawing, not a medieval painting. The period attestation is the seal of Geoffrey of Villehardouin, whose matrix shows a shield charged with this cross inside a legend naming him, reproduced by Gustave Schlumberger in the Bulletin Monumental in 1897; the blazon itself, de gueules à la croix ancrée d'or, is recorded for the family in Johannes Rietstap's Armorial général and in the Salles des Croisades armorials at Versailles, both nineteenth-century compilations. The princes' own coins, the deniers tournois struck at Glarentza, copy the cross and castle of Tours rather than these arms, and the later Angevin, Savoyard and Zaccaria princes each brought their own. Licensed CC BY-SA 4.0."
+  },
+  "sectionImages": [
+    {
+      "section": "Major rulers",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_view_of_the_Kastro_Medieval_Castle_and_Museum_on_Peloponnese%2C_Greece_(51223833204).jpg?width=1600",
+      "caption": "Chlemoutsi, the castle the Villehardouin princes built above the western coast of the Morea in the 1220s.",
+      "creator": "Wikimedia Commons contributor",
+      "date": "photographed 2021; the castle of the 1220s",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Kastro_Medieval_Castle_and_Museum_on_Peloponnese,_Greece_(51223833204).jpg",
+      "note": "The best-preserved Frankish castle in Greece, built by Geoffrey I of Villehardouin — reportedly with money seized from the church — and the seat from which the principality was governed at its height. Licensed CC BY-SA 4.0."
     }
   ]
 }

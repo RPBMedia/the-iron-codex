@@ -8,19 +8,19 @@
     "East Angles"
   ],
   "year": 571,
-  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_kingdom_of_East_Anglia_(Early_Saxon_period).svg",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_kingdom_of_East_Anglia_(Early_Saxon_period).svg?width=700",
   "imageInfo": {
-    "caption": "The kingdom of East Anglia in the early Anglo-Saxon period, with its monasteries, Sutton Hoo, and the battlefield of Bulcamp where King Anna fell.",
-    "creator": "Amitchell125 (English Wikipedia)",
-    "date": "modern map (2010)",
-    "source": "Wikimedia Commons (CC BY-SA 1.0)",
+    "caption": "The kingdom of East Anglia in the seventh century, with its monasteries, Sutton Hoo and the battlefield of Bulcamp, in a map drawn in 2010.",
+    "creator": "Amitchell125 (Wikimedia Commons)",
+    "date": "2010; shows the kingdom in the 7th century",
+    "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_kingdom_of_East_Anglia_(Early_Saxon_period).svg",
-    "note": "A modern reconstruction of the seventh-century kingdom. Its western boundary ran through the fens and the Devil's Dyke and was never precisely fixed."
+    "note": "A modern reconstruction, not a period document; its author compiled it from a Suffolk coastal survey, the Devil's Dyke project, a pre-drainage map of the fens and elevation data, all listed on the file page. It draws the coast and wetland as they were before drainage, so the Wash reaches far inland and the Great Estuary cuts Flegg off as an island, and it prints the Old English names beside the modern ones — Beodricesworth for Bury St Edmunds, Gipeswic for Ipswich, Cnobheresburg for Burgh Castle. The western boundary through the fens and the Devil's Dyke was never a fixed line, Dommoc at Dunwich carries a question mark because the site of Felix's see is disputed, and nothing later than the seventh century is shown: the Danish kingdom of 880 to 917 lies outside it. Licensed CC BY-SA 1.0."
   },
   "sectionImages": [
     {
       "section": "The Wuffing kings",
-      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Saxon_Shoulder_Clasp_from_Sutton_Hoo_Burial%2C_625-630_AD.jpg",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Saxon_Shoulder_Clasp_from_Sutton_Hoo_Burial%2C_625-630_AD.jpg?width=1600",
       "caption": "One of the gold and garnet shoulder clasps from the Sutton Hoo ship burial, made for an East Anglian king in the early seventh century.",
       "creator": "Gary Todd (photograph)",
       "date": "photograph, 2017 (object c. 625)",
@@ -171,6 +171,12 @@
       "title": "Kingdom of East Anglia",
       "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Kingdom_of_East_Anglia"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Late_Saxon_coin_(FindID_500347-379345).jpg"
     }
   ],
   "relatedEntries": {
@@ -211,5 +217,14 @@
         "label": "From the royal ship burial"
       }
     ]
+  },
+  "armsImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Late_Saxon_coin_(FindID_500347-379345).jpg",
+  "armsImageInfo": {
+    "caption": "East Anglia bore no coat of arms; this silver penny of King Edmund comes from a hoard of twenty-three of his coins buried in Norfolk about 869.",
+    "creator": "Moneyer of Edmund of East Anglia; photographed by Erica Darch for Norfolk County Council",
+    "date": "struck before 869; photographed 2012",
+    "source": "Portable Antiquities Scheme, via Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Late_Saxon_coin_(FindID_500347-379345).jpg",
+    "note": "Coinage, not heraldry: no English kingdom bore arms in the ninth century, and the azure shield with three gold crowns sold as the arms of East Anglia is a post-medieval attribution fixed on the kingdom by heralds centuries after it ended. The penny sets the king's name and title around a large letter in the centre, the commonest of his types, with a cross and pellets on the reverse. It belongs to a scatter of twenty-three of Edmund's pennies recorded in Norfolk as a dispersed hoard; the absence of any later coin ties its burial to the Great Heathen Army's invasion of 869 and the king's death that November. The Commons file carries the object name of a brooch from the same find record, a cataloguing slip in the upload. Licensed CC BY-SA 2.0."
   }
 }
