@@ -4,39 +4,75 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Haakon V Magnusson",
-    "Norwegian royal government",
-    "Slottsfjell"
+    "Tunsberghus on Slottsfjellet, the largest castle in thirteenth-century Norway",
+    "A twenty-week siege during the civil wars in the winter of 1201",
+    "Death of Haakon V Magnusson on 8 May 1319",
+    "The burning of the castle by a Swedish force in 1503"
   ],
   "overview": [
-    "A Norwegian town and royal center associated with Haakon V's death in 1319."
+    "A Norwegian town and royal center associated with Haakon V’s death in 1319."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Tonsberg on the Oslofjord was one of Norway's oldest and most important royal towns. Haakon V Magnusson died there in 1319 without a male heir, leading Norway into a personal union with Sweden under the infant Magnus Eriksson."
+        "Tonsberg on the Oslofjord was one of Norway’s oldest and most important royal towns. Haakon V Magnusson died there in 1319 without a male heir, leading Norway into a personal union with Sweden under the infant Magnus Eriksson.",
+        "The town sits at the mouth of the Oslofjord with a steep rock, Slottsfjellet, rising directly behind it. That pairing — a sheltered harbour on the sailing route and a defensible height over it — is the whole explanation of the place."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The oldest town",
       "paragraphs": [
-        "Tonsberg's importance as a royal administrative center dated from the high medieval period; several Norwegian kings held court and died there. Haakon V's death ending the separate Norwegian Haakonssonline meant Norwegian political identity had to be maintained within a union framework increasingly dominated by Swedish dynastic interests."
+        "Snorri Sturluson wrote that Tønsberg already existed before the Battle of Hafrsfjord, which he dated to 871, and the claim to be Norway’s oldest town rests on that passage. It is saga evidence for an event three centuries before the writer, and archaeology has found a trading settlement of the ninth century, which supports an early date without confirming Snorri’s.",
+        "Through the high Middle Ages it was one of the four or five towns where the Norwegian crown actually resided, with royal chapels, a Franciscan house and the round church of St Olav’s abbey, the largest building of its kind in Scandinavia."
+      ]
+    },
+    {
+      "title": "Tunsberghus",
+      "paragraphs": [
+        "Slottsfjellet carried a stronghold through the civil wars of the twelfth and thirteenth centuries: the Birkebeiners besieged the Baglers on the rock for twenty weeks in the winter of 1201 before the defenders surrendered, which says most of what needs saying about the position.",
+        "Haakon IV Haakonsson turned it into Castrum Tunsbergis, the largest castle in thirteenth-century Norway, with a great hall, a curtain wall running round the summit and the royal chapel of St Michael inside it. Magnus VI Lawmender, who gave the Norwegian towns their law, continued the work."
+      ]
+    },
+    {
+      "title": "The death of Haakon V, 1319",
+      "paragraphs": [
+        "Haakon V Magnusson used Tønsberg as a residence and died there on 8 May 1319. He left no legitimate son. The crown passed to his grandson Magnus Eriksson, a child of three who had been elected king of Sweden weeks earlier, and Norway entered a union governed from outside its own borders.",
+        "Tonsberg’s importance as a royal administrative center dated from the high medieval period; several Norwegian kings held court and died there. The end of the male line of Haakon’s house meant that Norwegian political identity had to be maintained within a union framework increasingly dominated by Swedish dynastic interests."
+      ]
+    },
+    {
+      "title": "The end of the castle",
+      "paragraphs": [
+        "The castle was taken and burned by a Swedish force in 1503, during the wars that broke the Kalmar Union, and it was never rebuilt. Its stone was carted away for other buildings, and the summit was left bare.",
+        "What stands on the rock today is the lookout tower of 1888, a nineteenth-century monument rather than a medieval one, among the excavated footings of the hall, the chapel and the curtain wall. The Slottsfjell Museum below holds the finds."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Tonsberg",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:T%C3%B8nsberg_Slottsfjell.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Slottsfjellet_2011.jpg"
     },
     {
-      "title": "Tonsberg reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Tonsberg"
+      "title": "Tønsberg",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/T%C3%B8nsberg"
+    },
+    {
+      "title": "Tønsberg Fortress",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/T%C3%B8nsberg_Fortress"
+    },
+    {
+      "title": "Haakon V of Norway",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Haakon_V_of_Norway"
     }
   ],
   "relatedEntries": {
@@ -45,12 +81,31 @@
         "title": "Haakon V Magnusson",
         "type": "person",
         "slug": "haakon-v-magnusson",
-        "label": "Death of Haakon V Magnusson"
+        "label": "Died here on 8 May 1319"
+      },
+      {
+        "title": "Haakon IV Haakonsson",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
+        "label": "Built the castle on Slottsfjellet"
+      },
+      {
+        "title": "Magnus VI Lawmender",
+        "type": "person",
+        "slug": "magnus-vi-lawmender",
+        "label": "Continued the building and gave the towns their law"
+      },
+      {
+        "title": "Magnus Eriksson",
+        "type": "person",
+        "slug": "magnus-eriksson",
+        "label": "Inherited Norway as a child on Haakon V’s death here"
       },
       {
         "title": "Eric II of Norway",
         "type": "person",
-        "slug": "eric-ii-of-norway"
+        "slug": "eric-ii-of-norway",
+        "label": "Haakon V’s brother and predecessor"
       }
     ],
     "locations": [
@@ -59,25 +114,68 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Containing realm"
+      },
+      {
+        "title": "Oslo",
+        "type": "location",
+        "slug": "oslo",
+        "label": "The royal centre Haakon V favoured over Tønsberg"
       }
     ]
   },
   "id": "tonsberg",
   "name": "Tonsberg",
   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Slottsfjellet_2011.jpg",
-  "summary": "A Norwegian town and royal center associated with Haakon V's death in 1319.",
+  "summary": "The town under the castle rock on the Oslofjord, claimed as Norway’s oldest, where Haakon V died in 1319 and left the kingdom to a three-year-old already king of Sweden.",
   "imageInfo": {
-    "caption": "The Slottsfjellet (Castle Hill) at Tønsberg, one of Norway’s oldest royal towns.",
-    "creator": "Bernt Rostad from Oslo, Norway",
-    "date": "2011-04-24 08:26",
+    "caption": "Slottsfjellet at Tønsberg, the rock that carried the castle of Tunsberghus, with the lookout tower of 1888, photographed in 2011.",
+    "creator": "Bernt Rostad",
+    "date": "photograph, 24 April 2011 (of a site fortified from the twelfth century)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Slottsfjellet_2011.jpg",
     "license": "CC BY 2.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Modern colour photograph seen from Frodeeåsen to the north. The prominent tower is the lookout of 1888, not medieval; the castle was burned in 1503 and survives only as excavated footings on the summit."
   },
   "coordinates": {
     "lat": 59.267,
     "lon": 10.409
   },
-  "modernCountry": "NO"
+  "modernCountry": "NO",
+  "timeline": [
+    {
+      "date": "Ninth century",
+      "title": "A trading place",
+      "description": "Archaeology finds a settlement at the harbour; Snorri later claims the town predates the Battle of Hafrsfjord."
+    },
+    {
+      "date": "Winter 1201",
+      "title": "Twenty weeks under siege",
+      "description": "The Birkebeiners besiege the Baglers on Slottsfjellet until the defenders surrender."
+    },
+    {
+      "date": "Thirteenth century",
+      "title": "Castrum Tunsbergis",
+      "description": "Haakon IV Haakonsson builds the largest castle in Norway on the rock, with a great hall and St Michael’s chapel."
+    },
+    {
+      "date": "8 May 1319",
+      "title": "Death of Haakon V",
+      "description": "The king dies at Tønsberg leaving no legitimate son."
+    },
+    {
+      "date": "1319",
+      "title": "Union with Sweden",
+      "description": "The three-year-old Magnus Eriksson, already elected in Sweden, inherits the Norwegian crown."
+    },
+    {
+      "date": "1503",
+      "title": "The castle burned",
+      "description": "A Swedish force takes and burns Tunsberghus during the wars that break the Kalmar Union."
+    },
+    {
+      "date": "1888",
+      "title": "The lookout tower",
+      "description": "A tower is raised on the empty summit, the structure visitors see today."
+    }
+  ]
 }

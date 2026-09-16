@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Scania / Danish realm",
   "knownFor": [
-    "Olaf IV of Norway",
-    "Scania herring markets",
-    "Kalmar Union prelude"
+    "The Scania Market, the greatest herring fair in medieval northern Europe",
+    "Hanseatic booth grounds leased to Lübeck and the other Baltic towns",
+    "Falsterbohus, the Danish royal castle that policed the market",
+    "Death of Olaf IV of Norway there on 3 August 1387"
   ],
   "overview": [
     "A Scanian town and market landscape where Olaf IV died suddenly in 1387."
@@ -15,28 +16,70 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Falsterbo on the Scanian coast (then part of Denmark) was one of the most commercially significant seasonal markets in the Baltic region, dominated by the Hanseatic League's herring trade. Olaf IV of Norway died there suddenly in 1387."
+        "Falsterbo on the Scanian coast (then part of Denmark) was one of the most commercially significant seasonal markets in the Baltic region, dominated by the Hanseatic League’s herring trade. Olaf IV of Norway died there suddenly in 1387.",
+        "The place is a low sand peninsula at the extreme south-west of Scania, where the Baltic meets the approaches to the Sound. Nothing there sustains a large town; for about ten weeks a year in the late Middle Ages it held one anyway, because that was where the herring were."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The market on the sand",
       "paragraphs": [
-        "Olaf IV's unexpected death at Falsterbo — he was only about seventeen — created the succession crisis that Margaret I exploited to consolidate her position as ruler of Denmark, Norway, and eventually Sweden. The Kalmar Union, which she engineered in 1397, was the direct political consequence of Olaf's death at Falsterbo."
+        "The Scania Market was held on the beach between Falsterbo and its neighbour Skanör from about 1200, running in its classic form from around 24 August to early October, when the herring shoals passed through the Sound in numbers that astonished every foreigner who wrote about them. In a good year something like three hundred thousand barrels were salted and shipped out.",
+        "Herring was not a luxury but the protein of Lenten Europe, and the trade turned on salt as much as on fish: the barrels were packed with salt brought from Lüneburg, which is why the north German towns and not the Scanian fishermen took the profit. Horses, butter, iron, grain and cloth were traded alongside the fish, drawing merchants from England, Scotland, Flanders and Normandy as well as from the Baltic."
+      ]
+    },
+    {
+      "title": "Booths, tolls and the Danish crown",
+      "paragraphs": [
+        "The Danish king let out measured plots of the shore — the fitte, or fed — to individual Hanseatic towns, each with its own booths, its own officers and its own jurisdiction over its people for the season. Lübeck held the largest. The arrangement made the beach a map of the Hanseatic world for two months every year.",
+        "For the crown the attraction was the toll. In the fourteenth century something approaching a third of the Danish king’s income is reckoned to have come from the Scania Market, which explains both why Danish kings defended it and why the Hanseatic towns were willing to go to war over the terms. The war of the 1360s ended with the Treaty of Stralsund in 1370, which handed the league castles on the Sound and a share of the market’s revenue for fifteen years."
+      ]
+    },
+    {
+      "title": "Falsterbohus",
+      "paragraphs": [
+        "A royal castle stood on the peninsula from the middle of the thirteenth century to police the market and collect what was owed. It was destroyed in 1311 by the Hanseatic towns of Rostock, Wismar and Greifswald during their war with Eric VI of Denmark, and a new and larger castle called Falsterbohus was raised in 1318.",
+        "As trade shifted from Skanör towards Falsterbo, that better-fortified castle became the seat of the royal bailiff for the whole market by the end of the fourteenth century. Its low ruins are what survives of the whole enterprise."
+      ]
+    },
+    {
+      "title": "The death of Olaf IV, 1387",
+      "paragraphs": [
+        "Olaf IV’s unexpected death at Falsterbo — he was only about seventeen — created the succession crisis that Margaret I exploited to consolidate her position as ruler of Denmark, Norway, and eventually Sweden. The Kalmar Union, which she engineered in 1397, was the direct political consequence of Olaf’s death at Falsterbo.",
+        "He died on 3 August 1387, king of Norway in his own right and king of Denmark by election, with his mother governing in his name. Because he died young, suddenly and far from any capital, the death bred the inevitable rumour: in 1402 a man appeared in the Baltic claiming to be Olaf, and was burned as an impostor."
+      ]
+    },
+    {
+      "title": "The herring fails",
+      "paragraphs": [
+        "The shoals thinned at the beginning of the fifteenth century and did not come back in the old numbers, and the market that depended on them declined with them. Dutch fishermen, salting at sea rather than on a beach, took the trade.",
+        "Skanör and Falsterbo were eventually merged into a single town. The beach where the booths stood is now dune and bird reserve, and the castle is a ruin in the grass."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Falsterbo",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Falsterbohus_ruin.jpg"
     },
     {
-      "title": "Falsterbo reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Falsterbo",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Falsterbo"
+    },
+    {
+      "title": "Scania Market",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Scania_Market"
+    },
+    {
+      "title": "Olaf IV Haakonsson",
+      "author": "Encyclopaedia Britannica",
+      "type": "reference work",
+      "url": "https://www.britannica.com/biography/Olaf-IV-Haakonsson"
     }
   ],
   "relatedEntries": {
@@ -45,12 +88,25 @@
         "title": "Olaf IV of Norway",
         "type": "person",
         "slug": "olaf-iv-of-norway",
-        "label": "Death of Olaf IV of Norway"
+        "label": "Died here on 3 August 1387"
+      },
+      {
+        "title": "Margaret I",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "His mother, who took power after his death here"
       },
       {
         "title": "Valdemar IV Atterdag",
         "type": "person",
-        "slug": "valdemar-iv-atterdag"
+        "slug": "valdemar-iv-atterdag",
+        "label": "Fought the Hanseatic towns over the Scania market"
+      },
+      {
+        "title": "Eric VI of Denmark",
+        "type": "person",
+        "slug": "eric-vi-of-denmark",
+        "label": "Lost the first castle to the Hanseatic towns in 1311"
       }
     ],
     "locations": [
@@ -58,26 +114,80 @@
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
-        "label": "Realm of Olaf IV of Norway"
+        "label": "The realm that held Scania and taxed the market"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "The union that followed from Olaf’s death here"
+      },
+      {
+        "title": "Helsingborg",
+        "type": "location",
+        "slug": "helsingborg",
+        "label": "One of the Sound castles pledged to the Hanse in 1370"
       }
     ]
   },
   "id": "falsterbo",
   "name": "Falsterbo",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Falsterbohus_ruin.jpg",
-  "summary": "A Scanian town and market landscape where Olaf IV died suddenly in 1387.",
+  "summary": "The sand spit at the south-western corner of Scania where the greatest herring market in northern Europe was held each autumn, and where Olaf IV died in 1387, opening the way to the Kalmar Union.",
   "imageInfo": {
-    "caption": "A Scanian town and market landscape where Olaf IV died suddenly in 1387.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "The ruins of Falsterbohus, the Danish royal castle that policed the Scania herring market, photographed in 2007.",
+    "creator": "Hedning",
+    "date": "photograph, summer 2007 (of a castle rebuilt in 1318)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falsterbohus_ruin.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 4.0",
+    "note": "Modern colour photograph of the excavated and consolidated footings. Only low walls survive; the castle stood to full height as the seat of the royal bailiff of the market until the later Middle Ages."
   },
   "coordinates": {
     "lat": 55.3939,
     "lon": 12.835
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "timeline": [
+    {
+      "date": "From about 1200",
+      "title": "The market begins",
+      "description": "An autumn herring fair is held on the shore between Skanör and Falsterbo."
+    },
+    {
+      "date": "Mid-thirteenth century",
+      "title": "The first castle",
+      "description": "A Danish royal castle is built on the peninsula to police the market and levy the toll."
+    },
+    {
+      "date": "1311",
+      "title": "The castle destroyed",
+      "description": "Rostock, Wismar and Greifswald destroy the castle in their war with Eric VI of Denmark."
+    },
+    {
+      "date": "1318",
+      "title": "Falsterbohus raised",
+      "description": "A new and larger royal castle is built, later the seat of the bailiff of the whole market."
+    },
+    {
+      "date": "1370",
+      "title": "Treaty of Stralsund",
+      "description": "The Hanseatic towns win castles on the Sound and a share of the Scania revenues for fifteen years."
+    },
+    {
+      "date": "3 August 1387",
+      "title": "Death of Olaf IV",
+      "description": "The young king of Norway and Denmark dies suddenly at Falsterbo, leaving Margaret I without an heir."
+    },
+    {
+      "date": "1397",
+      "title": "The Kalmar Union",
+      "description": "Margaret I brings Denmark, Norway and Sweden under one crown a decade after her son’s death here."
+    },
+    {
+      "date": "Early fifteenth century",
+      "title": "The herring thins",
+      "description": "The shoals fail, and the market that had drawn half of northern Europe declines."
+    }
+  ]
 }

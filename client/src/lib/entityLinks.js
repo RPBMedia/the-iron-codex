@@ -810,6 +810,31 @@ export const entityLinks = [
 
 export const ambiguousEntityAliases = [
   {
+    // The archive's `alexander` is Alexander of Byzantium, who reigned for
+    // thirteen months and died in 913. His entry carries the BARE label
+    // "Alexander", and the matcher works on word boundaries — so every
+    // "Alexander III" on the Scottish succession pages, and every "Alexander
+    // Nevsky" on Nevsky's own article, resolved to him. 70 strings across the
+    // archive name a numbered or other Alexander (found 2026-09-16).
+    //
+    // A guard rather than a relabel, because none of the Scottish Alexanders has
+    // an article yet: the bare name must link to the Byzantine emperor only in a
+    // passage that is actually about him, and to nothing otherwise. When
+    // Alexander II or III of Scotland is written, they get their own entries and
+    // this keeps the emperor from swallowing them.
+    terms: ["Alexander"],
+    possibleTargets: [
+      {
+        title: "Alexander",
+        label: "Alexander",
+        type: "person",
+        slug: "alexander",
+        date: "r. 912–913",
+        contextHints: ["Byzantium", "Byzantine", "Constantinople", "912", "913", "Leo VI", "Zoe", "Macedonian dynasty", "Simeon of Bulgaria"]
+      }
+    ]
+  },
+  {
     // TWO Ayyubid rulers called as-Salih Ismail, sixty-three years apart. The
     // archive's article is Nur ad-Din's son, who died in 1181. The man who
     // allied with the crusaders before La Forbie in 1244 and lost Damascus in

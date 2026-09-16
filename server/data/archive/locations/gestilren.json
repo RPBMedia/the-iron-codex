@@ -4,39 +4,75 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Battle of Gestilren",
-    "Sverker II of Sweden",
-    "Erik dynasty rivalry"
+    "The Battle of Gestilren of 17 July 1210, where Sverker II was killed",
+    "A place name recorded by the annals and never located",
+    "The rival identifications in Västergötland and in Uppland",
+    "The memorial stone raised at Varv in 1910"
   ],
   "overview": [
-    "The uncertain battlefield associated with Sverker II's death in 1210."
+    "The uncertain battlefield associated with Sverker II’s death in 1210."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Gestilren in Västergötland was the site of the Battle of Gestilren in 1210, where Sverker II of Sweden was killed by forces supporting the rival Erik line. The battle settled one phase of the prolonged dynastic conflict between the Sverker and Erik families."
+        "Gestilren in Västergötland was the site of the Battle of Gestilren in 1210, where Sverker II of Sweden was killed by forces supporting the rival Erik line. The battle settled one phase of the prolonged dynastic conflict between the Sverker and Erik families.",
+        "That is the traditional placing, and it is worth stating at the outset that it is a placing rather than a fact. Gestilren is a name in a handful of Latin annal entries and nowhere else. No settlement of the name survives, no excavation has found the ground, and the identification of the province itself is argued over."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "A place named only by a battle",
       "paragraphs": [
-        "Gestilren effectively ended the Sverker line's claim to Swedish kingship after Sverker II's death in battle. Erik Knutsson became king afterward, though Swedish dynastic stability remained fragile. The battle is one of several engagements that punctuated the century-long alternation of power between the two rival dynasties."
+        "The earliest witnesses are brief to the point of silence about everything except who died. The Lund annals record a battle, bellum Gestilren, in which King Sverker and Duke Folke fell; the Skänninge annals write the place as Gestrylen; the Annales Dano-Svecani give it as Gyllstenreen and close with the victory to the Swedes.",
+        "Three spellings in three annals is the whole of the contemporary evidence for the name. They do not agree on the day either: 17 July is the conventional date, and the Lund annals imply another. Nothing written at the time describes the battle itself."
+      ]
+    },
+    {
+      "title": "The case for Västergötland",
+      "paragraphs": [
+        "The traditional answer rests on a single phrase added to the king-list of the Västgöta law, which says Sverker fell at Gestilren between Dala and Lena — two places in Västergötland near the ground where the fighting of 1208 had happened. That addition is from the fifteenth century, more than two hundred years after the event.",
+        "In the eighteenth century the clergyman Thore Odhelius identified Gestilren with Gislared, and so with Varv parish in what is now Tidaholm municipality. The memorial stone raised there in 1910 carries an inscription saying that seven hundred years after the battle the people of Västergötland set up this stone, and it has fixed the traditional location in the public mind ever since."
+      ]
+    },
+    {
+      "title": "The case for Uppland",
+      "paragraphs": [
+        "In 1996 the regional archivist Lars Otto Berg found the name Gestilren in Uppland: the farm name appears fifteen times in local church records between 1580 and 1630, and an annotation of the early seventeenth century refers to King Sverker’s three farms, one of them Gestilren, and to his burial in the Sverker mound.",
+        "The modern Uppland candidate is Gästre. It has the advantage of being an actual place with the actual name, which the Västergötland identification is not; it has the disadvantage of resting on records four centuries after the battle. Other historians have argued for Östergötland, or doubted that Gestilren is a place name at all."
+      ]
+    },
+    {
+      "title": "What can be said",
+      "paragraphs": [
+        "Gestilren effectively ended the Sverker line’s claim to Swedish kingship after Sverker II’s death in battle. Erik Knutsson became king afterward, though Swedish dynastic stability remained fragile. The battle is one of several engagements that punctuated the century-long alternation of power between the two rival dynasties.",
+        "Sverker was buried at Alvastra, the Cistercian abbey his family had founded and where his house lay. Erik was crowned at Gamla Uppsala in November 1210, in what is usually counted the first securely recorded coronation of a Swedish king. The place where the decisive fighting happened, meanwhile, has never been found — one of the clearest cases in this archive of a battle that changed a kingdom and left no address."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Gestilren",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Swedish_landscape_V%C3%A4sterg%C3%B6tland.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_Gestilren_memorial.jpg"
     },
     {
-      "title": "Gestilren reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Gestilren"
+      "title": "Battle of Gestilren",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Gestilren"
+    },
+    {
+      "title": "Gestilren",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/Gestilren"
+    },
+    {
+      "title": "Annals of Lund and the Västgöta law king-list",
+      "author": "Medieval Swedish and Danish annals",
+      "type": "primary source",
+      "note": "The only medieval sources naming the place, in three different spellings."
     }
   ],
   "relatedEntries": {
@@ -45,7 +81,21 @@
         "title": "Battle of Gestilren",
         "type": "event",
         "slug": "battle-of-gestilren",
-        "label": "Battle fought here"
+        "label": "The battle that gives the place its only record"
+      }
+    ],
+    "people": [
+      {
+        "title": "Sverker II of Sweden",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden",
+        "label": "Killed here in 1210"
+      },
+      {
+        "title": "Erik Knutsson",
+        "type": "person",
+        "slug": "erik-knutsson",
+        "label": "Won here and was crowned four months later"
       }
     ],
     "locations": [
@@ -54,34 +104,95 @@
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
-      }
-    ],
-    "people": [
-      {
-        "title": "Sverker II of Sweden",
-        "type": "person",
-        "slug": "sverker-ii-of-sweden",
-        "label": "Death of Sverker II of Sweden"
       },
       {
-        "title": "Erik Knutsson",
-        "type": "person",
-        "slug": "erik-knutsson",
-        "label": "Fought here"
+        "title": "Alvastra",
+        "type": "location",
+        "slug": "alvastra",
+        "label": "The abbey where Sverker II was buried"
+      },
+      {
+        "title": "Uppsala",
+        "type": "location",
+        "slug": "uppsala",
+        "label": "Where Erik Knutsson was crowned in November 1210"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Sverker",
+        "type": "house",
+        "slug": "house-of-sverker",
+        "label": "The dynasty whose claim ended here"
+      },
+      {
+        "title": "House of Erik",
+        "type": "house",
+        "slug": "house-of-erik",
+        "label": "The rival line that won the day"
       }
     ]
   },
   "id": "gestilren",
   "name": "Gestilren",
-  "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Surtesweden.JPG",
-  "summary": "The uncertain battlefield associated with Sverker II's death in 1210.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Battle_of_Gestilren_memorial.jpg",
+  "summary": "A place known only from the battle fought there on 17 July 1210, where Sverker II was killed: the annals name it, and nobody has ever established where it was.",
   "imageInfo": {
-    "caption": "The Västergötland landscape, region of the 1210 Battle of Gestilren.",
-    "creator": "Mossbergswe",
-    "date": "2008-04-25 21:34:02",
+    "caption": "The memorial stone at Varv in Västergötland, raised in 1910 on the traditionally identified site of the battle of 1210.",
+    "creator": "Harri Blomberg",
+    "date": "photograph, 2006 (of a monument raised in 1910)",
     "source": "Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surtesweden.JPG",
-    "license": "Public domain",
-    "note": "Modern photograph of the place or a surviving historical site there."
-  }
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Gestilren_memorial.jpg",
+    "license": "CC BY-SA 3.0",
+    "note": "The inscription reads, in translation, that seven hundred years after the Battle of Gestilren the people of Västergötland erected this stone in 1910. It marks the traditional identification with Varv parish, which is disputed: the site has never been established."
+  },
+  "timeline": [
+    {
+      "date": "1208",
+      "title": "The fighting at Lena",
+      "description": "Erik Knutsson defeats Sverker II at Lena in Västergötland; Sverker flees to Denmark."
+    },
+    {
+      "date": "Summer 1210",
+      "title": "Sverker returns",
+      "description": "Sverker comes back to recover the crown, with Danish support of disputed size."
+    },
+    {
+      "date": "17 July 1210",
+      "title": "The battle",
+      "description": "Sverker II and Duke Folke are killed at the place the annals call Gestilren.",
+      "links": [
+        {
+          "title": "Battle of Gestilren",
+          "type": "event",
+          "slug": "battle-of-gestilren"
+        }
+      ]
+    },
+    {
+      "date": "November 1210",
+      "title": "Erik crowned",
+      "description": "Erik Knutsson is crowned at Gamla Uppsala, the first securely recorded Swedish coronation."
+    },
+    {
+      "date": "Fifteenth century",
+      "title": "Between Dala and Lena",
+      "description": "An addition to the Västgöta law king-list places the battle between two Västergötland villages."
+    },
+    {
+      "date": "Eighteenth century",
+      "title": "Odhelius’s identification",
+      "description": "Thore Odhelius identifies Gestilren with Gislared in Varv parish."
+    },
+    {
+      "date": "1910",
+      "title": "The memorial stone",
+      "description": "A stone is raised at Varv for the seven-hundredth anniversary of the battle."
+    },
+    {
+      "date": "1996",
+      "title": "The Uppland candidate",
+      "description": "Lars Otto Berg finds the name Gestilren in Uppland church records and proposes Gästre instead."
+    }
+  ]
 }

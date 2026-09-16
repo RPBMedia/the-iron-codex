@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Baltic / Scandinavian waters",
   "knownFor": [
-    "Battle of Svolder",
-    "Olaf Tryggvason",
-    "Saga tradition"
+    "The Battle of Svolder, fought about September 1000",
+    "A location the medieval sources place in at least three different seas",
+    "The skaldic phrase that may make it a river mouth rather than an island",
+    "One of the few famous medieval battles whose site is wholly unknown"
   ],
   "overview": [
     "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000."
@@ -15,28 +16,63 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Svolder was the site of a major naval battle around 1000 where Olaf Tryggvason of Norway was defeated and killed by a coalition of Danish, Swedish, and Norwegian forces loyal to Sweyn Forkbeard of Denmark. The exact location remains disputed among scholars."
+        "Svolder was the site of a major naval battle around 1000 where Olaf Tryggvason of Norway was defeated and killed by a coalition of Danish, Swedish, and Norwegian forces loyal to Sweyn Forkbeard of Denmark. The exact location remains disputed among scholars.",
+        "It is disputed in an unusually complete way. The candidates are not variants of one place but different seas: the Øresund between Zealand and Scania, the Baltic coast off Rügen, and the mouth of the Schlei in Schleswig. Several hundred kilometres separate them."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "What the sources say",
       "paragraphs": [
-        "Olaf Tryggvason's death at Svolder — leaping into the sea from his flagship Long Serpent rather than surrendering — became one of the most celebrated episodes in Norse tradition, depicted in several sagas and skaldic poems. His defeat ended Norwegian independence for over a decade, with Denmark and Sweden dividing control of Norway."
+        "The earliest writers put the battle in the Øresund. Adam of Bremen places it there in the 1070s, and the Ágrip and the Historia Norwegie locate it off Zealand. The Danish Annales Ryenses, alone, puts it in the Schlei.",
+        "The Norse saga tradition takes it south instead. Theodoricus writes that it happened beside the island called Svöldr, which lies near Slavia — the Wendish coast; Fagrskinna calls it an island off the coast of Vinðland; Oddr Snorrason and Snorri Sturluson’s Heimskringla agree on the island’s name without locating it. The tradition is unanimous that there was a place called Svolder and cannot agree where."
+      ]
+    },
+    {
+      "title": "An island, or a river",
+      "paragraphs": [
+        "There is a further complication in the oldest layer of evidence. A verse by Skúli Þorsteinsson, who fought in the battle aboard Eric Hákonarson’s ship, refers to the mouth of Svolder, which suggests a river rather than an island.",
+        "If the skald is right — and he is the only witness in the whole dossier who was actually present — then the island of the sagas may be a later misunderstanding of a name that originally belonged to a waterway, and the search for an island has been looking for the wrong kind of thing."
+      ]
+    },
+    {
+      "title": "Øresund or Rügen",
+      "paragraphs": [
+        "Modern historians are divided, some locating the confrontation near the German island of Rügen and others preferring the Øresund. Each reading has a logic: the Øresund is where an ambush of a fleet sailing home to Norway from the southern Baltic makes strategic sense, and it is what the earliest writers say; the Wendish coast is where the saga tradition puts it and where Olaf’s voyage had taken him.",
+        "Neither can be made to fit all the evidence, and no material trace has ever been recovered — which is unsurprising for a sea fight, where what sinks is dispersed and what floats goes home with the winners."
+      ]
+    },
+    {
+      "title": "The place and the story",
+      "paragraphs": [
+        "Olaf Tryggvason’s death at Svolder — leaping into the sea from his flagship Long Serpent rather than surrendering — became one of the most celebrated episodes in Norse tradition, depicted in several sagas and skaldic poems. His defeat ended Norwegian independence for over a decade, with Denmark and Sweden dividing control of Norway.",
+        "The unlocatable place is part of why the story kept growing. A battle with no map reference resists the discipline that ground imposes on a narrative, and the accounts accordingly became more vivid and more detailed as they got further from the event. For the battle itself — the lashed ships, Einar’s broken bow, Eric Hákonarson working inward along the line — see the Battle of Svolder."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Svolder",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Oseberg_ship_-_IMG_9129.jpg"
     },
     {
-      "title": "Svolder reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Svolder"
+      "title": "Battle of Svolder",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Svolder"
+    },
+    {
+      "title": "Adam of Bremen, Gesta Hammaburgensis",
+      "author": "Adam of Bremen, about 1075",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Adam_of_Bremen"
+    },
+    {
+      "title": "Snorri Sturluson, Heimskringla: the saga of Olaf Tryggvason",
+      "author": "Snorri Sturluson, about 1230",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Heimskringla"
     }
   ],
   "relatedEntries": {
@@ -45,7 +81,7 @@
         "title": "Battle of Svolder",
         "type": "event",
         "slug": "battle-of-svolder",
-        "label": "Battle fought here"
+        "label": "The battle fought at this unlocated place"
       }
     ],
     "people": [
@@ -53,7 +89,19 @@
         "title": "Olaf Tryggvason",
         "type": "person",
         "slug": "olaf-tryggvason",
-        "label": "Death of Olaf Tryggvason"
+        "label": "Killed or lost overboard here about 1000"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "Led the allied fleet against him"
+      },
+      {
+        "title": "Olof Skötkonung",
+        "type": "person",
+        "slug": "olof-skotkonung",
+        "label": "Swedish king in the coalition"
       }
     ],
     "locations": [
@@ -61,20 +109,61 @@
         "title": "Kingdom of Norway",
         "type": "location",
         "slug": "kingdom-of-norway",
-        "label": "Combatant here"
+        "label": "The kingdom lost by the defeat"
+      },
+      {
+        "title": "Schlei",
+        "type": "location",
+        "slug": "schlei",
+        "label": "One of the proposed locations, named by the Danish annals"
       }
     ]
   },
   "id": "svolder",
   "name": "Svolder",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oseberg_ship_-_IMG_9129.jpg",
-  "summary": "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000.",
+  "summary": "The unlocated place where Olaf Tryggvason was destroyed about the year 1000: an island, a river mouth or a strait, placed by different medieval sources in the Øresund, off Rügen, or at the mouth of the Schlei.",
   "imageInfo": {
-    "caption": "The Oseberg ship, used to evoke the Viking naval setting associated with Svolder.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "modern photograph of a Viking Age ship burial",
+    "caption": "The Oseberg ship of about 820, excavated in Vestfold and displayed in Oslo, photographed in 2009.",
+    "creator": "Daderot",
+    "date": "photograph, 12 September 2009 (of a ship built about 820)",
     "source": "Wikimedia Commons",
-    "note": "Associated archaeological image; Svolder’s exact location is uncertain.",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oseberg_ship_-_IMG_9129.jpg"
-  }
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oseberg_ship_-_IMG_9129.jpg",
+    "license": "Public domain",
+    "note": "The Oseberg ship is a ninth-century burial ship, not a warship of the kind fought at Svolder, and it has no connection to the battle. It stands here for the vessels of the northern seas because Svolder itself has never been located and nothing depicts it."
+  },
+  "timeline": [
+    {
+      "date": "About September 1000",
+      "title": "The battle",
+      "description": "Olaf Tryggvason is overwhelmed by the allied fleets and vanishes overboard; the year is sometimes reckoned 999.",
+      "links": [
+        {
+          "title": "Battle of Svolder",
+          "type": "event",
+          "slug": "battle-of-svolder"
+        }
+      ]
+    },
+    {
+      "date": "About 1075",
+      "title": "Adam of Bremen",
+      "description": "The earliest surviving account places the battle in the Øresund."
+    },
+    {
+      "date": "About 1180–1190",
+      "title": "Theodoricus and the Ágrip",
+      "description": "Theodoricus puts the island near the Wendish coast; the Ágrip keeps it off Zealand."
+    },
+    {
+      "date": "Thirteenth century",
+      "title": "The Danish annals",
+      "description": "The Annales Ryenses alone place the battle in the Schlei."
+    },
+    {
+      "date": "About 1230",
+      "title": "Heimskringla",
+      "description": "Snorri Sturluson gives the battle its final literary shape without settling where it was fought."
+    }
+  ]
 }

@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Murder of Eric V",
-    "Danish succession conflict",
-    "Finderup barn tradition"
+    "The killing of Eric V of Denmark on the night of 22 November 1286",
+    "The outlawing of Marshal Stig Andersen Hvide and eight others in 1287",
+    "The chapel of penance later built on the site",
+    "The memorial cross raised in 1891 on the six hundred and fifth anniversary"
   ],
   "overview": [
     "The village associated with the 1286 murder of Eric V of Denmark."
@@ -15,27 +16,62 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Finderup in central Jutland became infamous as the site of the murder of Eric V of Denmark on 22 November 1286. Eric was killed in his bed by noble conspirators, one of the most politically significant assassinations in medieval Danish history."
+        "Finderup in central Jutland became infamous as the site of the murder of Eric V of Denmark on 22 November 1286. Eric was killed in his bed by noble conspirators, one of the most politically significant assassinations in medieval Danish history.",
+        "The village lies about ten kilometres south-west of Viborg, which is the reason the king was there at all: Viborg was the assembly place of Jutland, where kings were acclaimed and the provincial thing met, and Finderup was a night’s lodging on the road to it."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The night of 22 November 1286",
       "paragraphs": [
-        "Eric's murder at Finderup remained officially unsolved, though Marshal Stig Andersen was widely blamed and forced into exile. The killing reflected deep conflict between the Danish crown and the aristocracy over royal authority and noble privilege. The fallout shaped Danish constitutional conflict for a generation."
+        "The king had been hunting and took shelter for the night in a barn at Finderup. Armed men came in during the night and killed him where he lay. The tradition that the body was found riddled with wounds belongs to the ballads and the later chronicles rather than to any surviving record of the corpse, and the number of wounds usually quoted cannot be traced to a contemporary source.",
+        "What is not in doubt is the fact and the date. Eric V was buried in Viborg Cathedral, a few hours’ ride from where he died, and Denmark had a nine-year-old king in Eric VI and a regency under his mother."
+      ]
+    },
+    {
+      "title": "Who killed the king",
+      "paragraphs": [
+        "At the assembly held at Nyborg at Whitsun 1287 nine men were condemned in absentia for the killing, among them Marshal Stig Andersen Hvide and Count Jacob of Halland. They were outlawed and their lands forfeited; they fled to Norway, were given shelter there, and spent the following years raiding the Danish coast from the island fortress of Hjelm.",
+        "The verdict was political rather than forensic. The reign had been a long quarrel between a crown trying to tax and judge and a nobility that had forced the charter of 1282 on the king, and the men condemned were the leaders of that opposition. Danish historians have argued ever since over whether the court convicted the guilty or the inconvenient, and the surviving evidence does not settle it."
+      ]
+    },
+    {
+      "title": "The chapel, the cross and the barn",
+      "paragraphs": [
+        "A chapel of penance was built at the site during the fourteenth century, of the kind raised where a great crime needed expiation, and it stood until the crown gave permission to demolish it in the middle of the sixteenth century.",
+        "The barn itself has never been located. A modern reading of the evidence holds that the original parish church of Finderup stood where the memorial cross now is — excavation there found the remains of a church-like building about 25 by 9 metres — and that the present parish church is the old chapel of penance. If that is right, the altar of today’s church stands where the king was killed; it is an argument from buildings, not a proof."
+      ]
+    },
+    {
+      "title": "The site today",
+      "paragraphs": [
+        "A memorial cross stands on the western edge of the village, paid for by the poet Thor Lange and unveiled on 22 November 1891, six hundred and five years to the day after the killing.",
+        "Eric’s murder at Finderup remained officially unsolved, though Marshal Stig Andersen was widely blamed and forced into exile. The killing reflected deep conflict between the Danish crown and the aristocracy over royal authority and noble privilege. The fallout shaped Danish constitutional conflict for a generation."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Finderup",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Finderup_lade.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Finderup_Kirke.JPG"
     },
     {
-      "title": "Finderup reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Finderup",
+      "author": "Danish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://da.wikipedia.org/wiki/Finderup"
+    },
+    {
+      "title": "Eric V of Denmark",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_V_of_Denmark"
+    },
+    {
+      "title": "Finderup",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Finderup"
     }
   ],
@@ -45,17 +81,25 @@
         "title": "Eric V of Denmark",
         "type": "person",
         "slug": "eric-v-of-denmark",
-        "label": "Death of Eric V of Denmark"
+        "label": "Killed here on 22 November 1286"
       },
       {
-        "title": "Christopher I of Denmark",
+        "title": "Eric VI of Denmark",
         "type": "person",
-        "slug": "christopher-i-of-denmark"
+        "slug": "eric-vi-of-denmark",
+        "label": "Succeeded at nine and pursued the outlawed killers"
       },
       {
         "title": "Christopher II of Denmark",
         "type": "person",
-        "slug": "christopher-ii-of-denmark"
+        "slug": "christopher-ii-of-denmark",
+        "label": "His younger son, who inherited the quarrel with the nobility"
+      },
+      {
+        "title": "Christopher I of Denmark",
+        "type": "person",
+        "slug": "christopher-i-of-denmark",
+        "label": "His father, whose conflict with the church began the crisis"
       }
     ],
     "locations": [
@@ -65,24 +109,74 @@
         "slug": "kingdom-of-denmark",
         "label": "Containing realm"
       }
+    ],
+    "houses": [
+      {
+        "title": "House of Estridsen",
+        "type": "house",
+        "slug": "house-of-estridsen",
+        "label": "The dynasty whose king was killed here"
+      }
     ]
   },
   "id": "finderup",
   "name": "Finderup",
   "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Finderup_Kirke.JPG",
-  "summary": "The village associated with the 1286 murder of Eric V of Denmark.",
+  "summary": "The Jutland village where Eric V of Denmark was killed in a barn on the night of 22 November 1286 — a crime never solved in law, marked since 1891 by a cross on the supposed spot.",
   "imageInfo": {
-    "caption": "Finderup in Jutland, where Eric V of Denmark was murdered in 1286.",
+    "caption": "Finderup parish church near Viborg, which may itself be the chapel of penance built after the killing of 1286, photographed in 2009.",
     "creator": "Calvin",
-    "date": "2009-04-14",
+    "date": "photograph, 14 April 2009 (of a church of medieval origin)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finderup_Kirke.JPG",
     "license": "Public domain",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Modern colour photograph. The identification of this building as the former chapel of penance is a modern argument from excavation, not a documented fact; the barn where Eric V died has never been located."
   },
   "coordinates": {
     "lat": 56.4128,
     "lon": 9.2854
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "timeline": [
+    {
+      "date": "1282",
+      "title": "The charter",
+      "description": "Eric V is forced to grant a charter binding the king to hold a yearly assembly and to rule by law."
+    },
+    {
+      "date": "22 November 1286",
+      "title": "The killing",
+      "description": "The king is killed in a barn at Finderup during the night while lodging on the road to Viborg."
+    },
+    {
+      "date": "Late 1286",
+      "title": "Burial at Viborg",
+      "description": "Eric V is buried in Viborg Cathedral; his nine-year-old son succeeds as Eric VI."
+    },
+    {
+      "date": "Whitsun 1287",
+      "title": "The outlawry",
+      "description": "Nine men, including Marshal Stig Andersen Hvide, are condemned in absentia at the assembly at Nyborg."
+    },
+    {
+      "date": "From 1289",
+      "title": "Raids from Hjelm",
+      "description": "The outlawed men, sheltered in Norway, raid the Danish coast from the island fortress of Hjelm."
+    },
+    {
+      "date": "Fourteenth century",
+      "title": "A chapel of penance",
+      "description": "A chapel is built at the site of the killing as expiation."
+    },
+    {
+      "date": "Mid-sixteenth century",
+      "title": "The chapel demolished",
+      "description": "The crown grants permission to pull the chapel down."
+    },
+    {
+      "date": "22 November 1891",
+      "title": "The memorial cross",
+      "description": "A cross funded by the poet Thor Lange is unveiled on the six hundred and fifth anniversary."
+    }
+  ]
 }

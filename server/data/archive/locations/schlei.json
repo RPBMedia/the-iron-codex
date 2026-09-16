@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Eric IV of Denmark",
-    "Schleswig politics",
-    "Baltic routes"
+    "The sea road to Hedeby, the greatest Viking-age trading place in the north",
+    "The eastern anchor of the Danevirke, the Danish frontier rampart",
+    "The killing of Eric IV of Denmark on its water in 1250",
+    "The contested Danish and German borderland of Schleswig"
   ],
   "overview": [
     "A Baltic inlet in Schleswig associated with the murder tradition of Eric IV of Denmark."
@@ -15,28 +16,63 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "The Schlei is a fjord in Schleswig defining the southern boundary of the Danish peninsula near the historic town of Schleswig. The region was historically contested between Danish royal authority and German imperial influence."
+        "The Schlei is a fjord in Schleswig defining the southern boundary of the Danish peninsula near the historic town of Schleswig. The region was historically contested between Danish royal authority and German imperial influence.",
+        "It is not a point on a map but a narrow arm of the Baltic running roughly thirty kilometres inland, from the sea at Schleimünde to the town of Schleswig at its head, dividing the peninsula of Angeln to the north from Schwansen to the south. Its Danish name is Slien. Shallow, sheltered and full of small bays, it let a shallow-draught ship sail deep into the land without meeting open sea."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The sea road to Hedeby",
       "paragraphs": [
-        "The Schleswig corridor where the Schlei sits was the focus of repeated political and military conflict between Denmark and the Duchy of Holstein. Margaret I's operations in the region during the 1380s and 1390s reflected her effort to stabilize the southern border of Danish power as she consolidated the Kalmar Union."
+        "That geography made the head of the Schlei one of the most valuable places in early medieval Europe. Hedeby, at the inlet’s western end, was the greatest trading settlement of the Viking-age north, precisely because it sat at the narrowest part of the Jutland peninsula: goods could be landed there from the Baltic and carried a short way overland to the North Sea rivers, avoiding the long and dangerous passage round Skagen.",
+        "The Danevirke, the earthwork rampart that Danish kings extended across the peninsula from the ninth century onwards, met the water at this end. The Schlei was its eastern flank, which is the clearest measure of what the inlet was worth: the Danish crown fortified the whole neck of the peninsula rather than lose the harbour at the top of it."
+      ]
+    },
+    {
+      "title": "From Hedeby to Schleswig",
+      "paragraphs": [
+        "Hedeby was abandoned in the eleventh century after raiding and fire, and the town of Schleswig on the north bank took over its trade and its name for the region. A bishopric and a ducal residence followed, and the duchy of Schleswig grew up as a Danish fief along the inlet and the land south of it.",
+        "The Eider, a short way further south, was the boundary of the Holy Roman Empire. That left the Schlei sitting inside a permanently contested strip: Danish by lordship, German by neighbourhood, and disputed by both for the rest of the Middle Ages, particularly after the duchy passed as a fief to the counts of Holstein in the later fourteenth century."
+      ]
+    },
+    {
+      "title": "The killing of Eric IV, 1250",
+      "paragraphs": [
+        "On 10 August 1250 Eric IV of Denmark, returning from Estonia, accepted his brother Abel’s hospitality at Gottorp on the Schlei. That evening, while the king was playing at dice with a German knight, the duke’s chamberlain broke in with armed men and took him prisoner.",
+        "He was bound and carried out to a boat on the inlet. A second boat came after them across the water, and when Eric heard the voice of Lave Gudmundsen in it he understood what was coming. He was beheaded in the boat and his body thrown into the Schlei. Fishermen dragged the headless corpse up in a net the next morning and carried it to the Dominican house at Schleswig; it was moved to Ringsted in 1257. Abel took the throne insisting he had nothing to do with it, and was killed himself within eighteen months."
+      ]
+    },
+    {
+      "title": "A frontier of the realm",
+      "paragraphs": [
+        "The Schleswig corridor where the Schlei sits was the focus of repeated political and military conflict between Denmark and the Duchy of Holstein. Margaret I’s operations in the region during the 1380s and 1390s reflected her effort to stabilize the southern border of Danish power as she consolidated the Kalmar Union.",
+        "The inlet’s importance had by then changed in kind. It was no longer the artery of a trading emporium but the line along which a frontier was argued over, and it stayed one of the most disputed borders in Europe into the nineteenth century."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Schlei",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Schlei_Sieseby.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:SchleiSlien.png"
     },
     {
-      "title": "Schlei reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Schlei",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Schlei"
+    },
+    {
+      "title": "Eric IV of Denmark",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_IV_of_Denmark"
+    },
+    {
+      "title": "Hedeby",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hedeby"
     }
   ],
   "relatedEntries": {
@@ -45,17 +81,31 @@
         "title": "Eric IV of Denmark",
         "type": "person",
         "slug": "eric-iv-of-denmark",
-        "label": "Death of Eric IV of Denmark"
+        "label": "Killed on the water here in 1250"
       },
       {
-        "title": "Valdemar II of Denmark",
+        "title": "Abel of Denmark",
         "type": "person",
-        "slug": "valdemar-ii-of-denmark"
+        "slug": "abel-of-denmark",
+        "label": "His brother, whose men seized him at Gottorp"
       },
       {
         "title": "Christopher I of Denmark",
         "type": "person",
-        "slug": "christopher-i-of-denmark"
+        "slug": "christopher-i-of-denmark",
+        "label": "Took the throne after Abel’s death"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Father of both, whose partition set the quarrel going"
+      },
+      {
+        "title": "Margaret I",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Fought to stabilise the Schleswig frontier in the 1380s and 1390s"
       }
     ],
     "locations": [
@@ -64,20 +114,63 @@
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Containing realm"
+      },
+      {
+        "title": "Flensburg Fjord",
+        "type": "location",
+        "slug": "flensburg-fjord",
+        "label": "The next inlet north, in the same contested borderland"
       }
     ]
   },
   "id": "schlei",
   "name": "Schlei",
   "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/SchleiSlien.png",
-  "summary": "A Baltic inlet in Schleswig associated with the murder tradition of Eric IV of Denmark.",
+  "summary": "The long Baltic inlet reaching inland to Schleswig: the waterway that carried Hedeby’s trade, the line the Danevirke defended, and the water in which Eric IV of Denmark was killed in 1250.",
   "imageInfo": {
-    "caption": "The Schlei inlet in Schleswig, the contested Danish–German borderland.",
+    "caption": "A map of the Schlei, the Baltic inlet running inland to Schleswig, labelled with its German and Danish place names.",
     "creator": "EstherJoh",
-    "date": "2014-01-18 19:40:31",
+    "date": "map drawn 2014",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SchleiSlien.png",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
-  }
+    "note": "A modern map, not a photograph and not a medieval one: the settlements and boundaries shown are present-day. It is used because the Schlei is a thirty-kilometre waterway rather than a single site, and its shape is what the article is about."
+  },
+  "timeline": [
+    {
+      "date": "Eighth to eleventh century",
+      "title": "Hedeby",
+      "description": "The trading settlement at the head of the Schlei becomes the largest in the Viking-age north."
+    },
+    {
+      "date": "Ninth century onward",
+      "title": "The Danevirke",
+      "description": "The Danish frontier rampart is extended across the peninsula, meeting the water at the Schlei."
+    },
+    {
+      "date": "Eleventh century",
+      "title": "Schleswig succeeds Hedeby",
+      "description": "Hedeby is abandoned and the town of Schleswig on the north bank takes over its trade."
+    },
+    {
+      "date": "10 August 1250",
+      "title": "Eric IV killed",
+      "description": "The king is seized at Gottorp, beheaded in a boat on the Schlei and his body thrown into the water."
+    },
+    {
+      "date": "1257",
+      "title": "Translation to Ringsted",
+      "description": "Eric IV’s remains are moved from the Dominican house at Schleswig to Ringsted."
+    },
+    {
+      "date": "Later fourteenth century",
+      "title": "Schleswig to Holstein",
+      "description": "The duchy along the inlet passes as a fief to the counts of Holstein, sharpening the frontier dispute."
+    },
+    {
+      "date": "1380s–1390s",
+      "title": "Margaret I on the southern border",
+      "description": "Margaret I works to stabilise Danish authority in the Schleswig corridor while building the Kalmar Union."
+    }
+  ]
 }

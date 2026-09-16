@@ -4,39 +4,75 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Øystein I of Norway",
-    "Norwegian co-kingship",
-    "Coastal Norway"
+    "Death of Øystein I of Norway on 29 August 1123",
+    "A royal estate first recorded at the moment of that death",
+    "The end of the twenty-year joint reign with Sigurd the Crusader",
+    "One of several Norwegian farms called Hustad, so the identification rests on tradition"
   ],
   "overview": [
-    "A Norwegian locality associated with Øystein I's death in 1123."
+    "A Norwegian royal estate on the Romsdal coast associated with Øystein I’s death in 1123."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Hustad in Møre og Romsdal on the Norwegian coast was where Øystein I of Norway died in 1123, before his co-ruling brother Sigurd the Crusader. His death ended the cooperative joint reign that had characterized Norwegian kingship during the brothers' shared rule."
+        "Hustad in Møre og Romsdal on the Norwegian coast was where Øystein I of Norway died in 1123, before his co-ruling brother Sigurd the Crusader. His death ended the cooperative joint reign that had characterized Norwegian kingship during the brothers’ shared rule.",
+        "The place was a kongsgård, a royal farm: one of the estates the crown held directly up and down the coast, where a travelling king and his household could be fed and housed. Norwegian kingship in this period had no capital and worked by moving between such places, so dying at one of them was the ordinary way for a king to die."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Which Hustad",
       "paragraphs": [
-        "Øystein I is remembered for domestic building projects — roads, harbors, and churches — during his reign alongside Sigurd, contrasting with Sigurd's crusading campaigns. His death at Hustad left Sigurd as sole ruler and set the conditions for the succession instability that followed Sigurd's own death in 1130."
+        "Hustad is not a rare name. It means, plainly, the house-stead, and farms of the name are scattered across Norway. The sagas record only that Øystein died at Hustad, without naming a district, so the identification of the place is a matter of which Hustad the later record supports.",
+        "The tradition attaches to the royal estate in Romsdal, on the exposed coast of what is now Hustadvika municipality: it is documented as a kongsgård, it remained a noble seat for centuries afterwards — passing to the Rosenkrantz family in the sixteenth century and later to the Urne and Frimann families — and its earliest notice in the record is precisely the king’s death there in 1122 or 1123. The confusion that does arise is with Hustad in Inderøy, in Trøndelag, a medieval chieftain’s seat beside its own medieval church, which produced an archbishop of Nidaros in the thirteenth century. The Romsdal estate is the one the tradition names; the Trøndelag farm is the one it is most often mistaken for."
+      ]
+    },
+    {
+      "title": "The death of Øystein, 1123",
+      "paragraphs": [
+        "By the saga accounts the king was taken ill at a feast at Hustad and died there on 29 August 1123, in his mid-thirties. His body was carried to Nidaros and buried in the cathedral church.",
+        "Snorri Sturluson wrote that no man’s grave in Norway was ever stood over by so many mourners as Øystein’s. That is a saga writer’s judgement a century later rather than a count, but it fits the reputation the same sources give him, and it is the closest thing to an epitaph the place has."
+      ]
+    },
+    {
+      "title": "The king who stayed at home",
+      "paragraphs": [
+        "Øystein I is remembered for domestic building projects — roads, harbors, and churches — during his reign alongside Sigurd, contrasting with Sigurd’s crusading campaigns. The saga tradition sets the two brothers against each other deliberately, and even stages a formal contest of boasting between them.",
+        "The works credited to Øystein are specific enough to be checked against the landscape: the church and the fishermen’s booths at Vågan in Lofoten, the harbour at Agdenes at the mouth of the Trondheimsfjord, shelters for travellers crossing the Dovre mountains at Hjerkinn, the royal hall and Munkeliv abbey at Bergen, and dry docks at Nidaros. They are the acts of a king investing in the coast his ships and his fishermen used."
+      ]
+    },
+    {
+      "title": "After the joint reign",
+      "paragraphs": [
+        "His death at Hustad left Sigurd as sole ruler and set the conditions for the succession instability that followed Sigurd’s own death in 1130. The joint rule of the brothers from 1103 had lasted twenty years, the longest in Norwegian history, and it had worked.",
+        "What came after it did not. The civil wars that opened in 1130 ran, with intervals, for more than a century, and the orderly sharing of a kingdom between brothers that Øystein and Sigurd managed was never repeated. Nothing of the royal estate survives above ground today."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Hustad",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Hustadvika.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Hustadvika_lub_2025-07-26_img01.jpg"
     },
     {
-      "title": "Hustad reference page",
-      "author": "Reference source",
+      "title": "Eystein I of Norway",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eystein_I_of_Norway"
+    },
+    {
+      "title": "Hustad — gård i Romsdal",
+      "author": "Store norske leksikon",
       "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Hustad"
+      "url": "https://snl.no/Hustad_-_g%C3%A5rd_i_Romsdal"
+    },
+    {
+      "title": "Snorri Sturluson, Heimskringla: the saga of the sons of Magnus",
+      "author": "Snorri Sturluson, about 1230",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Heimskringla"
     }
   ],
   "relatedEntries": {
@@ -45,17 +81,19 @@
         "title": "Øystein I of Norway",
         "type": "person",
         "slug": "oystein-i-of-norway",
-        "label": "Death of Øystein I of Norway"
-      },
-      {
-        "title": "Magnus Barefoot",
-        "type": "person",
-        "slug": "magnus-barefoot"
+        "label": "Died here on 29 August 1123"
       },
       {
         "title": "Sigurd the Crusader",
         "type": "person",
-        "slug": "sigurd-of-norway"
+        "slug": "sigurd-of-norway",
+        "label": "Co-king, left as sole ruler by the death here"
+      },
+      {
+        "title": "Magnus Barefoot",
+        "type": "person",
+        "slug": "magnus-barefoot",
+        "label": "Their father, whose death in Ulster gave them the kingdom"
       }
     ],
     "locations": [
@@ -64,25 +102,74 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Containing realm"
+      },
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "Where Øystein built the royal hall and Munkeliv abbey"
+      },
+      {
+        "title": "Ulster",
+        "type": "location",
+        "slug": "ulster",
+        "label": "Where his father was killed in 1103"
       }
     ]
   },
   "id": "hustad",
   "name": "Hustad",
   "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Hustadvika_lub_2025-07-26_img01.jpg",
-  "summary": "A Norwegian locality associated with Øystein I's death in 1123.",
+  "summary": "The royal estate on the Romsdal coast where Øystein I died in 1123, ending the longest joint reign in Norwegian history — one of several farms of the name, and identified by tradition rather than by the sagas.",
   "imageInfo": {
-    "caption": "The Hustadvika coast in Møre og Romsdal, near where Øystein I of Norway died in 1123.",
+    "caption": "The Hustadvika coast in Møre og Romsdal, the shore beside the royal estate where Øystein I died in 1123, photographed in 2025.",
     "creator": "Lukas Beck",
-    "date": "2025-07-26 21:32:42",
+    "date": "photograph, 26 July 2025 (of the coast beside a royal estate recorded in 1123)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hustadvika_lub_2025-07-26_img01.jpg",
     "license": "CC BY 4.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Modern colour photograph of the coastal landscape. Nothing of the royal estate survives above ground, and this shows the setting rather than the site; the sagas name Hustad without naming its district."
   },
   "coordinates": {
     "lat": 62.9556,
     "lon": 7.0889
   },
-  "modernCountry": "NO"
+  "modernCountry": "NO",
+  "timeline": [
+    {
+      "date": "1103",
+      "title": "The brothers succeed",
+      "description": "On Magnus Barefoot’s death in Ireland his sons Øystein, Sigurd and Olaf take the kingdom jointly."
+    },
+    {
+      "date": "1107–1111",
+      "title": "Sigurd’s crusade",
+      "description": "Sigurd sails for Jerusalem while Øystein governs Norway alone."
+    },
+    {
+      "date": "1115",
+      "title": "Olaf dies",
+      "description": "The youngest brother dies before reaching adulthood, leaving Øystein and Sigurd as co-kings."
+    },
+    {
+      "date": "1122–1123",
+      "title": "The estate recorded",
+      "description": "The royal farm at Hustad enters the record at the moment of the king’s stay there."
+    },
+    {
+      "date": "29 August 1123",
+      "title": "Death of Øystein I",
+      "description": "The king falls ill at a feast at Hustad and dies; Sigurd becomes sole ruler."
+    },
+    {
+      "date": "After 1123",
+      "title": "Burial at Nidaros",
+      "description": "Øystein’s body is carried to Nidaros and buried in the cathedral church."
+    },
+    {
+      "date": "1130",
+      "title": "Death of Sigurd",
+      "description": "Sigurd dies and the Norwegian civil wars begin, ending the stability the brothers had kept."
+    }
+  ]
 }

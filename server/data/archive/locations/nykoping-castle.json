@@ -4,58 +4,102 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Valdemar of Sweden",
-    "Nyköping Banquet",
-    "Swedish dynastic politics"
+    "The Nyköping Banquet of 11 December 1317",
+    "The deaths of Dukes Erik and Valdemar Magnusson in the castle cellar in 1318",
+    "The confinement of King Birger there after the Håtuna games of 1306",
+    "The surviving King’s Tower, rebuilt as a Renaissance palace by Duke Charles"
   ],
   "overview": [
-    "A Swedish royal castle associated with Valdemar of Sweden's confinement and later dynastic conflict."
+    "A Swedish royal castle associated with Valdemar of Sweden’s confinement and later dynastic conflict."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Nyköping Castle in Södermanland was the site of the Nyköping Banquet in December 1317, when King Birger of Sweden imprisoned his brothers Valdemar and Erik at a Christmas feast. Their subsequent confinement and death became one of the most infamous episodes of treachery in Swedish royal history."
+        "Nyköping Castle in Södermanland was the site of the Nyköping Banquet in December 1317, when King Birger of Sweden imprisoned his brothers Valdemar and Erik at a Christmas feast. Their subsequent confinement and death became one of the most infamous episodes of treachery in Swedish royal history.",
+        "The castle began as a defensive tower at the river mouth in the late twelfth or early thirteenth century, guarding the approach from the Baltic to Södermanland, and grew into one of the principal royal castles of the kingdom in the Bjälbo century."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Three brothers and one crown",
       "paragraphs": [
-        "The Nyköping Banquet destroyed Birger's political position. His brothers' deaths provoked a Swedish noble uprising that deposed him and led to the accession of Magnus Eriksson in 1319. The castle's name became synonymous with royal betrayal in Swedish historical memory."
+        "Magnus III of Sweden left three sons: Birger, who was crowned king, and the dukes Erik and Valdemar, who held great territorial lordships and behaved as rulers in their own right. The quarrel between them ran for twenty years and used this castle repeatedly.",
+        "In 1306, at the Håtuna games, the dukes seized the king at a royal estate in Uppland and carried him off as a prisoner to Nyköping. He was released in 1308, and by the settlement made at Helsingborg in 1310 the kingdom was carved into three lordships — a partition that satisfied nobody and left the king the weakest of the three."
+      ]
+    },
+    {
+      "title": "The banquet, 11 December 1317",
+      "paragraphs": [
+        "On 11 December 1317 Birger invited his brothers to keep Christmas with him at Nyköping. They came with a small following, as guests, and were seized in the night and thrown into the cellar of the castle tower.",
+        "The trap worked in the narrow sense that the dukes never came out. They died there in 1318 — starved, by the tradition that gave the episode its lasting horror, though the manner of their deaths is not documented. The invitation and the arrest, however, are: the king had used the obligation of hospitality as a weapon, and in a political culture built on guest-right that was the unforgivable part."
+      ]
+    },
+    {
+      "title": "The reckoning",
+      "paragraphs": [
+        "The Nyköping Banquet destroyed Birger’s political position. His brothers’ deaths provoked a Swedish noble uprising that deposed him and led to the accession of Magnus Eriksson in 1319. The castle’s name became synonymous with royal betrayal in Swedish historical memory.",
+        "Birger fled to Denmark and died there in 1321. His son and heir Magnus Birgersson was captured and executed at Stockholm in 1320, so the line was ended as well as the reign. The three-year-old elected in his place was Duke Erik’s son, who was also king of Norway: the murders at Nyköping put a Norwegian-Swedish union on the throne."
+      ]
+    },
+    {
+      "title": "The later castle",
+      "paragraphs": [
+        "An earlier royal prisoner had already died within these walls: Valdemar of Sweden, deposed by his brother Magnus in 1275, ended his life in confinement at Nyköping in 1302, which makes the castle the scene of two separate dynastic eliminations a generation apart.",
+        "At the end of the sixteenth century Duke Charles, later Charles IX, rebuilt the medieval fortress as a Renaissance palace. It burned with the town in 1665 and was not restored; some of its brick went into the building of the royal palace at Stockholm. The King’s Tower and the gatehouse survive, and hold the Sörmland museum."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Nykoping Castle",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Nyk%C3%B6pingshus_2014.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:NykopingsHus_hus_2_Porthus_ut3.jpg"
     },
     {
-      "title": "Nykoping Castle reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Nykoping_Castle"
+      "title": "Nyköping Castle",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nyk%C3%B6ping_Castle"
+    },
+    {
+      "title": "Birger, King of Sweden",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Birger,_King_of_Sweden"
+    },
+    {
+      "title": "Nyköping Banquet",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Nyk%C3%B6ping_Banquet"
     }
   ],
   "relatedEntries": {
     "people": [
       {
+        "title": "Birger Magnusson",
+        "type": "person",
+        "slug": "birger-magnusson",
+        "label": "Seized his brothers here in 1317 and lost his throne for it"
+      },
+      {
         "title": "Valdemar of Sweden",
         "type": "person",
         "slug": "valdemar-of-sweden",
-        "label": "Death of Valdemar of Sweden"
+        "label": "Died in confinement here in 1302"
       },
       {
         "title": "Magnus III of Sweden",
         "type": "person",
-        "slug": "magnus-iii-of-sweden"
+        "slug": "magnus-iii-of-sweden",
+        "label": "Father of the three brothers whose quarrel the castle staged"
       },
       {
-        "title": "Birger Magnusson",
+        "title": "Magnus Eriksson",
         "type": "person",
-        "slug": "birger-magnusson"
+        "slug": "magnus-eriksson",
+        "label": "Son of Duke Erik, elected king after the killings"
       }
     ],
     "locations": [
@@ -64,25 +108,86 @@
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
+      },
+      {
+        "title": "Stockholm",
+        "type": "location",
+        "slug": "stockholm",
+        "label": "Where Birger’s heir was executed in 1320"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Bjälbo",
+        "type": "house",
+        "slug": "house-of-bjalbo",
+        "label": "The dynasty that tore itself apart in this castle"
       }
     ]
   },
   "id": "nykoping-castle",
   "name": "Nykoping Castle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/NykopingsHus_hus_2_Porthus_ut3.jpg",
-  "summary": "A Swedish royal castle associated with Valdemar of Sweden's confinement and later dynastic conflict.",
+  "summary": "The Swedish royal castle on the Nyköpingsån where King Birger seized his two brothers at a Christmas feast in 1317 and left them to die in the cellar — the act that destroyed his own reign.",
   "imageInfo": {
-    "caption": "Nyköping Castle (Nyköpingshus), site of the 1317 Nyköping Banquet.",
+    "caption": "Nyköpingshus, the Swedish royal castle where Birger seized his brothers at the banquet of 1317, photographed in 2011.",
     "creator": "Lintoncat",
-    "date": "2011-09-26",
+    "date": "photograph, 26 September 2011 (of a medieval castle rebuilt about 1600)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:NykopingsHus_hus_2_Porthus_ut3.jpg",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Modern colour photograph of the gatehouse range seen from outside. The rendered and gabled elevation is the Renaissance rebuilding carried out for Duke Charles at the end of the sixteenth century, over the medieval fabric."
   },
   "coordinates": {
     "lat": 58.7485,
     "lon": 17.0117
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "timeline": [
+    {
+      "date": "About 1200",
+      "title": "The first tower",
+      "description": "A defensive tower is raised at the mouth of the Nyköpingsån to guard the approach from the Baltic."
+    },
+    {
+      "date": "1302",
+      "title": "Death of Valdemar of Sweden",
+      "description": "The deposed king dies in confinement at Nyköping, having lost the throne to his brother in 1275."
+    },
+    {
+      "date": "1306",
+      "title": "The Håtuna games",
+      "description": "Dukes Erik and Valdemar seize King Birger and imprison him at Nyköping."
+    },
+    {
+      "date": "1310",
+      "title": "The partition at Helsingborg",
+      "description": "The settlement divides Sweden between the king and his brothers."
+    },
+    {
+      "date": "11 December 1317",
+      "title": "The Nyköping Banquet",
+      "description": "Birger seizes his brothers at a Christmas feast and throws them into the castle cellar."
+    },
+    {
+      "date": "1318",
+      "title": "The dukes die",
+      "description": "Erik and Valdemar die in the cellar; the kingdom rises against the king."
+    },
+    {
+      "date": "1319",
+      "title": "A new king",
+      "description": "Birger is deposed and flees to Denmark; the three-year-old Magnus Eriksson is elected."
+    },
+    {
+      "date": "1320",
+      "title": "The heir executed",
+      "description": "Birger’s son Magnus Birgersson is executed at Stockholm, ending the line."
+    },
+    {
+      "date": "1665",
+      "title": "Fire",
+      "description": "The castle burns with the town and is never rebuilt; its brick is reused at Stockholm."
+    }
+  ]
 }

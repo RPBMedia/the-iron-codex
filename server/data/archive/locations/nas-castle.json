@@ -4,39 +4,75 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Sweden",
   "knownFor": [
-    "Erik Knutsson",
-    "Visingso",
-    "Swedish kingship"
+    "Called Sweden’s first castle of the realm, and a royal treasury",
+    "Four kings died there: Charles VII Sverkersson, Erik Knutsson, John I Sverkersson and Magnus III of Sweden",
+    "Held in turn by the rival houses of Sverker and Erik",
+    "Pledged to Denmark and burned in 1318"
   ],
   "overview": [
-    "A royal castle site on Visingso where Erik Knutsson died in 1216."
+    "A royal castle on the southern tip of Visingsö where Erik Knutsson died in 1216."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Nas Castle was a Swedish royal fortress on the island of Visingsö in Lake Vättern, serving as an important administrative residence for medieval Swedish kings. Erik Knutsson died there in 1216, leaving a young heir and prolonging Swedish dynastic instability."
+        "Näs Castle was a Swedish royal fortress on the island of Visingsö in Lake Vättern, serving as an important administrative residence for medieval Swedish kings. Erik Knutsson died there in 1216, leaving a young heir and prolonging Swedish dynastic instability.",
+        "It stood at the southern tip of the island, where the water is widest and a garrison could see anyone coming for half a day. Swedish historians have called it the first riksborg, the first castle built for the kingdom rather than for a district, and the kings kept the realm’s valuables there."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "An island in the middle of the kingdom",
       "paragraphs": [
-        "Visingsö and its castle remained a Swedish royal center through the thirteenth century before declining in importance as Stockholm grew. Nas Castle's connection to the Erik-Sverker dynastic conflict makes it a site of the contested Swedish succession that characterized the period."
+        "Visingsö lies in the middle of Lake Vättern, between Götaland and Småland, and a lake in the twelfth century was a road rather than a barrier. A castle on the island sat in the middle of the traffic and out of reach of any force without boats, which is exactly what a king with domestic enemies wanted.",
+        "The building is dated to the twelfth century and attributed either to Sverker the Elder or to his son Charles VII Sverkersson. It was a royal seat, a treasury and a refuge, and both of the families contesting the Swedish crown used it in turn."
+      ]
+    },
+    {
+      "title": "The kings who died at Näs",
+      "paragraphs": [
+        "Four kings died on the island, which is a remarkable concentration for a kingdom whose rulers usually died on campaign or in bed at a dozen scattered estates. Charles VII Sverkersson, who had made the castle his residence, was killed on Visingsö on 12 April 1167 by men supporting Knut Eriksson, who took the crown from him.",
+        "Erik Knutsson died at Näs on 10 April 1216, of illness, at the height of his success and a few years after winning the crown in the field at Gestilren. His son was born after his death, so the throne passed to his rival’s son John I Sverkersson — who died at Näs in turn on 10 March 1222, aged about twenty and the last of his house. Magnus III of Sweden, known as Magnus Ladulås, died there on 18 December 1290."
+      ]
+    },
+    {
+      "title": "The end of the castle, 1318",
+      "paragraphs": [
+        "The castle’s working life ended in the wreck of Birger Magnusson’s reign. In 1318, with the kingdom in revolt against him after the killing of his brothers at Nyköping, Birger pledged Näs to the Danish king, and the castle was burned after fighting on the island that same year while Birger was in exile.",
+        "Nothing was rebuilt. Swedish royal power had by then moved to Stockholm and the castles of the Mälaren, and an island fortress in Vättern had no further use."
+      ]
+    },
+    {
+      "title": "The ruin today",
+      "paragraphs": [
+        "The remains measure roughly 32 by 12 metres: a round tower and a four-sided tower joined by a length of wall, built of slate and sandstone, standing three to four metres high and between one and one and a half metres thick.",
+        "The ruin has been consolidated and restored, and is a protected ancient monument. It is the oldest surviving royal castle ruin in Sweden, and the only medieval structure on an island otherwise known for its seventeenth-century oak plantations."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Nas Castle",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:N%C3%A4s_slottsruin_Visings%C3%B6.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Naas_slottsruin.jpg"
     },
     {
-      "title": "Nas Castle reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Nas_Castle"
+      "title": "Näs Castle",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/N%C3%A4s_Castle"
+    },
+    {
+      "title": "Näs slott, Visingsö",
+      "author": "Swedish Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://sv.wikipedia.org/wiki/N%C3%A4s_slott"
+    },
+    {
+      "title": "Erik Knutsson",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Eric_X_of_Sweden"
     }
   ],
   "relatedEntries": {
@@ -45,15 +81,40 @@
         "title": "Erik Knutsson",
         "type": "person",
         "slug": "erik-knutsson",
-        "label": "Death of Erik Knutsson"
+        "label": "Died here in 1216"
+      },
+      {
+        "title": "Charles VII Sverkersson",
+        "type": "person",
+        "slug": "charles-vii-sverkersson",
+        "label": "Made Näs his residence and was killed on the island in 1167"
+      },
+      {
+        "title": "John I Sverkersson",
+        "type": "person",
+        "slug": "john-i-sverkersson",
+        "label": "Died here in 1222, the last of his house"
+      },
+      {
+        "title": "Magnus III of Sweden",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden",
+        "label": "Died here in 1290"
       },
       {
         "title": "Sverker II of Sweden",
         "type": "person",
-        "slug": "sverker-ii-of-sweden"
+        "slug": "sverker-ii-of-sweden",
+        "label": "Rival of Erik Knutsson for the crown"
       }
     ],
     "locations": [
+      {
+        "title": "Visingsö",
+        "type": "location",
+        "slug": "visingso",
+        "label": "The island the castle stood on"
+      },
       {
         "title": "Kingdom of Sweden",
         "type": "location",
@@ -65,26 +126,59 @@
       {
         "title": "Battle of Gestilren",
         "type": "event",
-        "slug": "battle-of-gestilren"
+        "slug": "battle-of-gestilren",
+        "label": "Won by Erik Knutsson six years before he died here"
       }
     ]
   },
   "id": "nas-castle",
   "name": "Nas Castle",
   "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Naas_slottsruin.jpg",
-  "summary": "A royal castle site on Visingso where Erik Knutsson died in 1216.",
+  "summary": "The royal castle on the southern tip of Visingsö in Lake Vättern, called Sweden’s first castle of the realm, where four kings died between 1167 and 1290.",
   "imageInfo": {
-    "caption": "The ruins of Näs Castle on Visingsö, a medieval Swedish royal residence.",
-    "creator": "User Marcus Bornestav on sv.wikipedia",
-    "date": "2005-10-15",
+    "caption": "The ruin of Näs on the southern tip of Visingsö, the twelfth-century royal castle in Lake Vättern, photographed in 2005.",
+    "creator": "Marcus Bornestav",
+    "date": "photograph, 15 October 2005 (of a castle built in the twelfth century)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naas_slottsruin.jpg",
     "license": "CC BY-SA 3.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
+    "note": "Modern colour photograph of the consolidated ruin, registered as ancient monument Visingsö 72:1. The standing masonry is three to four metres high; the walls were restored in modern times and the castle’s upper works are gone entirely."
   },
   "coordinates": {
     "lat": 57.9981,
     "lon": 14.2911
   },
-  "modernCountry": "SE"
+  "modernCountry": "SE",
+  "timeline": [
+    {
+      "date": "Twelfth century",
+      "title": "The castle built",
+      "description": "A royal castle is raised on the southern tip of Visingsö, attributed to Sverker the Elder or to Charles VII Sverkersson."
+    },
+    {
+      "date": "12 April 1167",
+      "title": "Charles VII killed",
+      "description": "Charles VII Sverkersson is killed on Visingsö by supporters of Knut Eriksson, who succeeds him."
+    },
+    {
+      "date": "10 April 1216",
+      "title": "Death of Erik Knutsson",
+      "description": "Erik Knutsson dies of illness at Näs, leaving an unborn son and an open succession."
+    },
+    {
+      "date": "10 March 1222",
+      "title": "Death of John I",
+      "description": "John I Sverkersson dies at Näs at about twenty, the last king of the house of Sverker."
+    },
+    {
+      "date": "18 December 1290",
+      "title": "Death of Magnus III",
+      "description": "Magnus III of Sweden, called Magnus Ladulås, dies at the castle."
+    },
+    {
+      "date": "1318",
+      "title": "Pledged and burned",
+      "description": "Birger Magnusson pledges Näs to the Danish crown; the castle burns after fighting on the island."
+    }
+  ]
 }

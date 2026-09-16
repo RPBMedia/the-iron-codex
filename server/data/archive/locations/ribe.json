@@ -4,39 +4,82 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Ribe Cathedral",
-    "Danish church politics",
-    "Christopher I of Denmark"
+    "A laid-out market town from the early eighth century, the oldest in Denmark",
+    "Ansgar’s church of about 855 and the bishopric founded in 948",
+    "Ribe Cathedral, begun about 1150 in imported Rhenish tufa",
+    "The death of Christopher I of Denmark there in 1259"
   ],
   "overview": [
-    "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259."
+    "One of Denmark’s oldest towns and bishoprics, associated with Christopher I’s death in 1259."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Ribe in southwestern Jutland was one of the earliest urban and market centers in Scandinavia, developing as a trading site in the early eighth century. Denmark's oldest surviving city, it also became an early episcopal center during Scandinavian Christianization."
+        "Ribe in southwestern Jutland was one of the earliest urban and market centers in Scandinavia, developing as a trading site in the early eighth century. Denmark’s oldest surviving city, it also became an early episcopal center during Scandinavian Christianization.",
+        "It stands a few kilometres inland on the Ribe Å, behind the tidal flats of the Wadden Sea — close enough to the North Sea for shipping, far enough up the river for safety. That made it Denmark’s door to Frisia, the Rhine mouths and England, and the only significant medieval Danish port that faced west rather than into the Baltic."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The market by the river",
       "paragraphs": [
-        "Ribe's early bishopric, established in the ninth century, made it a center of Christian mission in Scandinavia. Ansgar, the \"Apostle of the North,\" used it as an access point for missionary activity. Its role as both a commercial and ecclesiastical center made it important in the formation of the Danish church and urban network."
+        "Excavation has found something remarkable for the early eighth century: not a village that grew, but a market laid out deliberately in measured plots along the river, in use seasonally and then permanently. Coins may have been struck there around 720.",
+        "More than two hundred sceattas, small silver coins mostly of Frisian type, have been found in and around the town, which is the clearest measure of what it was for. Ribe was where the North Sea trade in furs, amber, glass and quernstones met the Jutland peninsula, a generation or more before the Viking raids began."
+      ]
+    },
+    {
+      "title": "Ansgar’s church and the bishopric",
+      "paragraphs": [
+        "Ribe’s early bishopric, established in the ninth century, made it a center of Christian mission in Scandinavia. Ansgar, the “Apostle of the North,” used it as an access point for missionary activity. Its role as both a commercial and ecclesiastical center made it important in the formation of the Danish church and urban network.",
+        "Ansgar obtained permission to build a church at Ribe around 855; the see itself was formally established in 948, when Leofdag was consecrated as its first bishop. Between two and three thousand Christian graves of the ninth century have been excavated, which shows a settled Christian community living alongside pagan neighbours a century and a half before the kingdom was officially converted."
+      ]
+    },
+    {
+      "title": "The cathedral",
+      "paragraphs": [
+        "Work on Ribe Cathedral began about 1150 on the site of Ansgar’s earlier church. It was built largely of tufa, a light volcanic stone quarried in the Rhineland and shipped north — an expensive choice that says a good deal about the trade routes the town commanded.",
+        "The best-known feature is the Cat’s Head Door on the south side, a Romanesque portal with a carved tympanum, one of the finest twelfth-century sculptural works in Denmark. Flood marks cut into the cathedral wall record how often the sea has come inland, the worst of them from the great flood of 1634."
+      ]
+    },
+    {
+      "title": "Riberhus and the royal town",
+      "paragraphs": [
+        "A royal castle, Riberhus, stood on a mound outside the town. The dating is not settled — it is usually associated with Eric V in the 1260s, though an earlier twelfth-century origin has been argued — and the name is first recorded in 1320, in the charter that obliged the king to demolish his Jutland castles apart from Skanderborg, Koldinghus and Riberhus.",
+        "The town was a royal residence as well as a bishop’s seat: Valdemar II brought his bride Dagmar of Bohemia there in 1205, and she is remembered in Danish ballads more warmly than most queens. Nothing of the castle survives but the earthwork."
+      ]
+    },
+    {
+      "title": "The death of Christopher I, 1259",
+      "paragraphs": [
+        "Christopher I died at Ribe on 29 May 1259, suddenly, shortly after receiving communion, in the middle of the bitterest church-and-crown quarrel of the century: he had arrested Archbishop Jakob Erlandsen and had the kingdom placed under interdict for it.",
+        "The obvious rumour followed at once — that the wine had been poisoned by Abbot Arnfast of Ryd in revenge for the archbishop — and his supporters called him Krist-Offer, Christ’s sacrifice. Sudden death after communion in the middle of an interdict invites exactly that story, and there is no evidence for it beyond the coincidence; a natural cause is the likelier explanation. He was buried before the high altar of the cathedral."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Ribe",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Ribe_Domkirke.jpg"
     },
     {
-      "title": "Ribe reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Ribe",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Ribe"
+    },
+    {
+      "title": "Riberhus",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Riberhus"
+    },
+    {
+      "title": "Christopher I of Denmark",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Christopher_I_of_Denmark"
     }
   ],
   "relatedEntries": {
@@ -45,17 +88,25 @@
         "title": "Christopher I of Denmark",
         "type": "person",
         "slug": "christopher-i-of-denmark",
-        "label": "Death of Christopher I of Denmark"
+        "label": "Died here in 1259 and was buried in the cathedral"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Resided at Riberhus with Queen Dagmar from 1205"
       },
       {
         "title": "Eric IV of Denmark",
         "type": "person",
-        "slug": "eric-iv-of-denmark"
+        "slug": "eric-iv-of-denmark",
+        "label": "Christopher’s brother, killed in the same dynastic quarrel"
       },
       {
         "title": "Eric V of Denmark",
         "type": "person",
-        "slug": "eric-v-of-denmark"
+        "slug": "eric-v-of-denmark",
+        "label": "Christopher’s son, who inherited the war with the church"
       }
     ],
     "locations": [
@@ -64,25 +115,74 @@
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Containing realm"
+      },
+      {
+        "title": "Jelling",
+        "type": "location",
+        "slug": "jelling",
+        "label": "The dynastic centre of the kings who converted the country"
+      },
+      {
+        "title": "Roskilde",
+        "type": "location",
+        "slug": "roskilde",
+        "label": "The other great Danish see of the period"
       }
     ]
   },
   "id": "ribe",
   "name": "Ribe",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ribe_Domkirke.jpg",
-  "summary": "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259.",
+  "summary": "Denmark’s oldest town: an eighth-century market on the Wadden Sea, the first Scandinavian bishopric, and the place where Christopher I died after taking communion in 1259.",
   "imageInfo": {
-    "caption": "One of Denmark's oldest towns and bishoprics, associated with Christopher I's death in 1259.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "Ribe Cathedral seen along Overdammen in the old town, the church begun about 1150 in Rhenish tufa, photographed in 2007.",
+    "creator": "Arne List",
+    "date": "photograph, 13 October 2007 (of a cathedral begun about 1150)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ribe_Domkirke.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 3.0",
+    "note": "Modern colour photograph down a street of the old town. The houses in the foreground are post-medieval; the tower is a later addition to the twelfth-century church, whose Romanesque core and Cat’s Head Door survive."
   },
   "coordinates": {
     "lat": 55.3272,
     "lon": 8.7631
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "timeline": [
+    {
+      "date": "About 705–720",
+      "title": "The market laid out",
+      "description": "A market of measured plots is established on the river, the earliest town in Denmark; coins may be struck there."
+    },
+    {
+      "date": "About 855",
+      "title": "Ansgar’s church",
+      "description": "Ansgar receives permission to build a church at Ribe, among the first in Scandinavia."
+    },
+    {
+      "date": "948",
+      "title": "The bishopric",
+      "description": "The see of Ribe is established with Leofdag as its first bishop."
+    },
+    {
+      "date": "About 1150",
+      "title": "The cathedral begun",
+      "description": "Building starts on the cathedral in tufa imported from the Rhineland."
+    },
+    {
+      "date": "1205",
+      "title": "Queen Dagmar",
+      "description": "Valdemar II brings his bride Dagmar of Bohemia to Ribe, where the couple reside at the royal castle."
+    },
+    {
+      "date": "29 May 1259",
+      "title": "Death of Christopher I",
+      "description": "The king dies suddenly after taking communion, amid the quarrel with Archbishop Jakob Erlandsen."
+    },
+    {
+      "date": "1320",
+      "title": "Riberhus named",
+      "description": "The royal castle is first recorded by name, in the charter limiting the king’s castles in Jutland."
+    }
+  ]
 }

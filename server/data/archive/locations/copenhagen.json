@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Denmark",
   "knownFor": [
-    "Danish monarchy",
-    "Øresund trade",
-    "Oldenburg dynasty"
+    "Absalon’s castle of 1167 on the islet of Slotsholmen",
+    "Two centuries of lordship by the bishops of Roskilde",
+    "The castle razed by the Hanseatic towns in 1369",
+    "Taken by the crown under Eric of Pomerania in 1417 and made the royal seat"
   ],
   "overview": [
     "A royal and commercial city on the Øresund that became central to late medieval Denmark."
@@ -15,28 +16,70 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Copenhagen developed from a fishing village and episcopal center into the primary seat of Danish royal power during the later medieval period. Its natural harbor on the Øresund made it an increasingly important commercial and administrative center from the twelfth century."
+        "Copenhagen developed from a fishing village and episcopal center into the primary seat of Danish royal power during the later medieval period. Its natural harbor on the Øresund made it an increasingly important commercial and administrative center from the twelfth century.",
+        "The advantage was position rather than size. The town sat at the narrowest useful point of the Sound, on the sheltered water behind a chain of islets, where every ship passing between the Baltic and the North Sea could be watched, taxed or stopped. Everything that happened to the place for four hundred years follows from that."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Havn and Absalon’s castle",
       "paragraphs": [
-        "Christian I's residence and death at Copenhagen Castle in 1481 reflects the city's role as the center of Oldenburg dynastic rule. By the late fifteenth century Copenhagen had displaced older centers like Roskilde as the effective political capital, a position it has held continuously."
+        "Archaeology has found a town on the site from the eleventh century, two settlements beside a landing place that Latin writers called Portus Mercatorum, the merchants’ harbour — Køpmannhæfn in Danish, which is the name the city still carries.",
+        "In 1167 Bishop Absalon, granted the district by Valdemar I, built a castle on the islet now called Slotsholmen to hold the harbour against Wendish raiders. That fortification is the conventional foundation date of the city, and the castle site has been continuously occupied by the seat of Danish power ever since."
+      ]
+    },
+    {
+      "title": "The bishops’ town",
+      "paragraphs": [
+        "Absalon gave the town to the see of Roskilde, and for the next two hundred and fifty years Copenhagen belonged to the bishops rather than to the king — an arrangement that suited nobody once the harbour became rich. The herring trade of the Sound paid for churches, abbeys and a stone wall in the thirteenth century, and from about 1290 all traffic in and out passed through one of four gates or the harbour itself.",
+        "The crown wanted the town; the bishops held it; and the German towns wanted the Sound open on their own terms. Copenhagen was attacked repeatedly in those quarrels, which is the ordinary condition of a rich port with three claimants."
+      ]
+    },
+    {
+      "title": "The castle razed, 1369",
+      "paragraphs": [
+        "In 1369, in the settlement that followed the Hanseatic war against Valdemar IV, the league took the castle and pulled it down. The demolition was a political act as much as a military one: the fortification that controlled the Sound was to be removed rather than captured.",
+        "A new stronghold was built in the years that followed and was substantially complete by 1387. It still belonged to the bishops, and it still commanded the strait, so the underlying argument had not been settled at all."
+      ]
+    },
+    {
+      "title": "The crown takes the city, 1417",
+      "paragraphs": [
+        "Eric of Pomerania took Copenhagen and its castle from the bishops of Roskilde in 1417, ending more than two centuries of dispute, and made it a royal residence. His successors confirmed the choice: Christopher of Bavaria moved his court there in 1443 after his residence at Roskilde burned.",
+        "The city’s institutions followed the crown. The University of Copenhagen was founded in 1479, the administration settled in the castle, and the king’s command of the Sound toll became one of the most valuable assets in northern Europe."
+      ]
+    },
+    {
+      "title": "A capital by 1481",
+      "paragraphs": [
+        "Christian I’s residence and death at Copenhagen Castle in 1481 reflects the city’s role as the center of Oldenburg dynastic rule. By the late fifteenth century Copenhagen had displaced older centers like Roskilde as the effective political capital, a position it has held continuously.",
+        "Roskilde kept the cathedral and the royal graves; Copenhagen took the government, the university, the mint and the fleet. The medieval castle was rebuilt repeatedly and finally demolished in the eighteenth century, and Christiansborg now stands on Absalon’s islet, with the foundations of both earlier castles preserved beneath it."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Copenhagen",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Copenhagen_Castle_1698.jpg"
     },
     {
-      "title": "Copenhagen reference page",
-      "author": "Reference source",
-      "type": "reference work",
-      "url": "https://en.wikipedia.org/wiki/Copenhagen"
+      "title": "History of Copenhagen",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_Copenhagen"
+    },
+    {
+      "title": "Copenhagen Castle",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Copenhagen_Castle"
+    },
+    {
+      "title": "Absalon",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Absalon"
     }
   ],
   "relatedEntries": {
@@ -45,7 +88,25 @@
         "title": "Christian I of Denmark",
         "type": "person",
         "slug": "christian-i-of-denmark",
-        "label": "Death of Christian I of Denmark"
+        "label": "Died at Copenhagen Castle in 1481"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Took the city from the bishops in 1417"
+      },
+      {
+        "title": "Christopher of Bavaria",
+        "type": "person",
+        "slug": "christopher-of-bavaria",
+        "label": "Moved the royal court here in 1443"
+      },
+      {
+        "title": "Margaret I",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Built the union the city became the centre of"
       }
     ],
     "locations": [
@@ -56,33 +117,88 @@
         "label": "Containing realm"
       },
       {
-        "title": "Kingdom of Sweden",
+        "title": "Roskilde",
         "type": "location",
-        "slug": "kingdom-of-sweden"
+        "slug": "roskilde",
+        "label": "The see that owned the town, and the older royal centre it displaced"
       },
       {
         "title": "Kalmar Union",
         "type": "location",
-        "slug": "kalmar-union"
+        "slug": "kalmar-union",
+        "label": "Governed largely from Copenhagen in the fifteenth century"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Union partner and rival for control of the Sound"
       }
     ]
   },
   "id": "copenhagen",
   "name": "Copenhagen",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Copenhagen_Castle_1698.jpg",
-  "summary": "A royal and commercial city on the Øresund that became central to late medieval Denmark.",
+  "summary": "The merchants’ harbour on the Øresund that Absalon fortified in 1167: a bishops’ town for two and a half centuries, seized by the crown in 1417, and the Danish capital by the death of Christian I in 1481.",
   "imageInfo": {
-    "caption": "A royal and commercial city on the Øresund that became central to late medieval Denmark.",
-    "creator": "Wikimedia Commons",
-    "date": "1698 (historical view)",
+    "caption": "Copenhagen Castle on Slotsholmen, the royal castle that stood on the site of Absalon’s fortress, in a painting of 1698.",
+    "creator": "Unknown painter",
+    "date": "painting, 1698 (of a castle on the site fortified in 1167)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copenhagen_Castle_1698.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "A late-17th-century view of Copenhagen Castle, predating the modern city."
+    "license": "Public domain",
+    "note": "A view of 1698, two centuries after the Middle Ages: the square Blue Tower and the ornamented ranges are post-medieval work, and the whole castle was demolished in the eighteenth century. It shows the site — Absalon’s islet — rather than the medieval building."
   },
   "coordinates": {
     "lat": 55.6761,
     "lon": 12.5689
   },
-  "modernCountry": "DK"
+  "modernCountry": "DK",
+  "timeline": [
+    {
+      "date": "Eleventh century",
+      "title": "The harbour town",
+      "description": "A settlement grows beside the landing place later called Portus Mercatorum, the merchants’ harbour."
+    },
+    {
+      "date": "1167",
+      "title": "Absalon’s castle",
+      "description": "Bishop Absalon fortifies the islet of Slotsholmen against Wendish raiders, the conventional foundation of the city."
+    },
+    {
+      "date": "Thirteenth century",
+      "title": "Walls and gates",
+      "description": "A stone wall encloses the town; from about 1290 all traffic passes through four gates or the harbour."
+    },
+    {
+      "date": "1369",
+      "title": "The castle razed",
+      "description": "The Hanseatic towns demolish the castle after their war with Valdemar IV."
+    },
+    {
+      "date": "By 1387",
+      "title": "Rebuilt",
+      "description": "A new castle is substantially complete on the same islet, still in the bishops’ hands."
+    },
+    {
+      "date": "1417",
+      "title": "The crown takes the city",
+      "description": "Eric of Pomerania seizes Copenhagen from the bishops of Roskilde and makes it a royal residence."
+    },
+    {
+      "date": "1443",
+      "title": "The court moves in",
+      "description": "Christopher of Bavaria settles his court at Copenhagen after his Roskilde residence burns."
+    },
+    {
+      "date": "1479",
+      "title": "The university founded",
+      "description": "The University of Copenhagen is established, confirming the city as the kingdom’s centre."
+    },
+    {
+      "date": "1481",
+      "title": "Death of Christian I",
+      "description": "The first Oldenburg king dies at Copenhagen Castle, by then the working capital of Denmark."
+    }
+  ]
 }

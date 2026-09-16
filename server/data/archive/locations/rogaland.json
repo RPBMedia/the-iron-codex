@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Harald Fairhair",
-    "Hafrsfjord tradition",
-    "Western Norway"
+    "Rygjafylke, the province of the Rygir in the Viking age",
+    "Avaldsnes on Karmøy, a royal seat commanding the inner sailing route",
+    "The Battle of Hafrsfjord tradition of about 872",
+    "Stavanger cathedral and bishopric, founded about 1125"
   ],
   "overview": [
     "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship."
@@ -15,28 +16,63 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Rogaland on Norway's southwestern coast was a key region in the unification of Norway. The Battle of Hafrsfjord, traditionally dated to around 872, brought Rogaland's petty kingdoms under centralized Norwegian rule and is associated with the beginning of Harald Fairhair's unified kingship."
+        "Rogaland on Norway’s southwestern coast was a key region in the unification of Norway. The Battle of Hafrsfjord, traditionally dated to around 872, brought Rogaland’s petty kingdoms under centralized Norwegian rule and is associated with the beginning of Harald Fairhair’s unified kingship.",
+        "The province takes its Old Norse name, Rygjafylke, from the Rygir, the people who lived there. It is a coast of low islands and open fjords with unusually good farmland behind them — a combination that made it rich early, and worth fighting over."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "Avaldsnes and the sailing route",
       "paragraphs": [
-        "The Hafrsfjord battle and Rogaland's subjugation became foundation narratives of Norwegian kingship, though the date and scale are disputed in modern scholarship. The region's fertile land and fjord access made it one of the wealthiest agricultural and maritime areas of western Norway."
+        "The strategic point of the province is Karmsundet, the narrow sound inside the island of Karmøy through which ships passed to avoid the open sea. The name Norðvegr, the north way, that eventually became the name of the country, describes exactly this kind of inner lead.",
+        "Avaldsnes stands on the sound, and saga tradition makes it one of Harald Fairhair’s principal seats. A king holding Avaldsnes could tax or stop every vessel working up the coast, which is a better explanation of early Norwegian royal power than any amount of talk about unification."
+      ]
+    },
+    {
+      "title": "Hafrsfjord and the tradition of unification",
+      "paragraphs": [
+        "The Hafrsfjord battle and Rogaland’s subjugation became foundation narratives of Norwegian kingship, though the date and scale are disputed in modern scholarship. The region’s fertile land and fjord access made it one of the wealthiest agricultural and maritime areas of western Norway.",
+        "The one near-contemporary source, the skaldic poem Haraldskvæði, confirms a hard sea-fight at Hafrsfjord against kings from the south. Everything tidier than that — a single decisive day, a country unified at a stroke — belongs to Snorri Sturluson and the saga writers of three centuries later. Saga tradition also places Harald’s own death, about 932, in Rogaland, and his burial mound at Haugar by Karmsundet, where a national monument was raised in 1872 for the millennium of the battle."
+      ]
+    },
+    {
+      "title": "Law, church and lordship",
+      "paragraphs": [
+        "Rogaland lay within the Gulating, the law province of western Norway whose assembly was the oldest and most important in the country, and whose law code was written down in the twelfth century. Law in Norway was regional before it was royal, and the Gulating was the institution a king of the west had to work with.",
+        "The greatest man of the district in the early eleventh century was Erling Skjalgsson of Sola, who held the south-west almost as a prince and was killed in 1028; the stone cross raised in his memory at Sola is reckoned the oldest national monument in Norway. About 1125 the bishopric was established at Stavanger under Bishop Reinald, an Englishman, and the cathedral begun there is the best-preserved medieval cathedral in the country. Utstein Abbey on Mosterøy, founded later in the Middle Ages, is the most complete monastic building to survive in Norway."
+      ]
+    },
+    {
+      "title": "The monument at Hafrsfjord",
+      "paragraphs": [
+        "Three bronze swords twenty metres high were set into the rock at the edge of Hafrsfjord in 1983, hilts up, as a monument to the battle tradition and to the peace that supposedly followed it.",
+        "The monument is modern and the event it marks is only half recoverable, which is a fair summary of what Rogaland offers the historian: an unusually rich archaeological and legal record on the ground, and a national origin story attached to it that the evidence supports in outline and not in detail."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Rogaland",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Hafrsfjord_Bru.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:Hafrsfjord_IMG_5997.jpg"
     },
     {
-      "title": "Rogaland reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Rogaland",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Rogaland"
+    },
+    {
+      "title": "Avaldsnes",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Avaldsnes"
+    },
+    {
+      "title": "Stavanger Cathedral",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stavanger_Cathedral"
     }
   ],
   "relatedEntries": {
@@ -45,12 +81,27 @@
         "title": "Harald Fairhair",
         "type": "person",
         "slug": "harald-fairhair",
-        "label": "Death of Harald Fairhair"
+        "label": "Held Avaldsnes, and by tradition died in Rogaland"
       },
       {
         "title": "Eric Bloodaxe",
         "type": "person",
-        "slug": "eric-bloodaxe"
+        "slug": "eric-bloodaxe",
+        "label": "His son and successor in the western kingdom"
+      },
+      {
+        "title": "Haakon the Good",
+        "type": "person",
+        "slug": "haakon-the-good",
+        "label": "Ruled the west from the same coastal seats"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hafrsfjord",
+        "type": "event",
+        "slug": "battle-of-hafrsfjord",
+        "label": "Fought in the fjord by Stavanger"
       }
     ],
     "locations": [
@@ -59,20 +110,71 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Containing realm"
+      },
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "The western capital that later drew the coast’s trade"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Fairhair",
+        "type": "house",
+        "slug": "house-of-fairhair",
+        "label": "The dynasty whose origin tradition is set here"
       }
     ]
   },
   "id": "rogaland",
   "name": "Rogaland",
   "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Hafrsfjord_IMG_5997.jpg",
-  "summary": "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship.",
+  "summary": "The south-western Norwegian province of the Rygir: Avaldsnes on the sailing route, the fjord where saga tradition places Harald Fairhair’s decisive victory, and the bishopric founded at Stavanger about 1125.",
   "imageInfo": {
-    "caption": "The Sverd i fjell (“Swords in Rock”) monument at Hafrsfjord in Rogaland, commemorating Harald Fairhair’s unification of Norway.",
-    "creator": "Mathieu Marquer from Paris, FRANCE",
-    "date": "2013-02-12 11:02",
+    "caption": "The Sverd i fjell monument at Hafrsfjord in Rogaland, three bronze swords set into the rock in 1983, photographed in 2013.",
+    "creator": "Mathieu Marquer",
+    "date": "photograph, 12 February 2013 (of a monument raised in 1983)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hafrsfjord_IMG_5997.jpg",
     "license": "CC BY-SA 2.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
-  }
+    "note": "Modern colour photograph of a modern monument, not a medieval object: the swords were designed by Fritz Røed and unveiled in 1983 beside the fjord where saga tradition places the battle."
+  },
+  "timeline": [
+    {
+      "date": "About 872",
+      "title": "Hafrsfjord",
+      "description": "Saga tradition places Harald Fairhair’s decisive sea-battle against the south-western kings in the fjord near Stavanger."
+    },
+    {
+      "date": "About 932",
+      "title": "Death of Harald Fairhair",
+      "description": "Tradition places the king’s death in Rogaland and his burial mound at Haugar by Karmsundet."
+    },
+    {
+      "date": "1028",
+      "title": "Erling Skjalgsson killed",
+      "description": "The great magnate of Sola dies; a stone cross raised for him survives as the oldest national monument in Norway."
+    },
+    {
+      "date": "About 1125",
+      "title": "The bishopric of Stavanger",
+      "description": "The see is founded under Bishop Reinald and the cathedral begun."
+    },
+    {
+      "date": "Thirteenth century",
+      "title": "Utstein Abbey",
+      "description": "The Augustinian house on Mosterøy is built, and survives as the most complete medieval monastery in Norway."
+    },
+    {
+      "date": "1872",
+      "title": "Haraldshaugen",
+      "description": "A national monument is raised by Karmsundet for the millennium of the battle."
+    },
+    {
+      "date": "1983",
+      "title": "Sverd i fjell",
+      "description": "Three bronze swords are set into the rock at Hafrsfjord to commemorate the battle tradition."
+    }
+  ]
 }

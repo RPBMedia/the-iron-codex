@@ -4,39 +4,82 @@
   "year": "Medieval period",
   "kingdom": "Kingdom of Norway",
   "knownFor": [
-    "Battle of Stiklestad",
-    "Saint Olaf",
-    "Christianization of Norway"
+    "The ground where Olaf II Haraldsson was killed on 29 July 1030",
+    "Stiklestad Church, whose altar is said to stand over the stone the king died against",
+    "Olsok, the feast of Saint Olaf kept here every 29 July",
+    "The Saint Olaf Drama, performed in an open-air theatre since 1954"
   ],
   "overview": [
-    "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult."
+    "The battlefield and church landscape associated with Olaf II Haraldsson’s death and later cult."
   ],
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Stiklestad in Trøndelag was the site of the Battle of Stiklestad on 29 July 1030, where King Olaf II Haraldsson of Norway was killed fighting to reclaim his throne from Cnut the Great and his Norwegian allies."
+        "Stiklestad in Trøndelag was the site of the Battle of Stiklestad on 29 July 1030, where King Olaf II Haraldsson of Norway was killed fighting to reclaim his throne from Cnut the Great and his Norwegian allies.",
+        "The place itself is unremarkable farmland: a village in Verdal municipality about four kilometres east of the town of Verdalsøra, on the gentle slope between the fjord and the hills. Nothing about the ground explains why it is famous. What made it a national site is what was built on it afterwards, and the fact that people have kept coming back to it for a thousand years."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The ground and the battle",
       "paragraphs": [
-        "Olaf's death at Stiklestad transformed a military defeat into a royal martyrdom. Reports of miracles at his burial site at Nidaros led to his canonization in 1031, making him the patron saint of Norway. Stiklestad became a pilgrimage site, and Saint Olaf's cult shaped Norwegian royal ideology and Christian identity for centuries."
+        "Olaf came down through Sweden into Trøndelag in the summer of 1030 with a small force, and met an army of local magnates and the farmers they led — the heartland of the opposition to him. He was killed in the fighting, and his body was carried away and buried in secret at Nidaros.",
+        "No trace of the battle has ever been found in the soil. Everything vivid about the day comes from Snorri Sturluson and the other saga writers of the twelfth and thirteenth centuries, writing two hundred years later about a man who by then was a saint, so the detail of where each stroke fell is literature rather than survey. The Codex account of the engagement belongs with the battle article; what belongs here is the ground and what stands on it."
+      ]
+    },
+    {
+      "title": "The church and the stone",
+      "paragraphs": [
+        "Stiklestad Church is a Romanesque building in stone whose chancel was raised between about 1150 and 1180, in the years when Archbishop Øystein Erlendsson was organising the cult of Saint Olaf from Nidaros, with the nave finished around 1200. It stands, by tradition, on the exact spot where the king fell.",
+        "The tradition is specific rather than vague: the stone Olaf is said to have leaned against as he died was built into the altar, and is held to be inside it still. The claim cannot be tested without taking the altar apart, and it has never been tested. The church was extended in the fifteenth century with stone taken from a demolished church nearby, given a baroque altarpiece in 1655, and thoroughly restored between 1928 and 1930 for the nine-hundredth anniversary of the battle."
+      ]
+    },
+    {
+      "title": "Olsok and pilgrimage",
+      "paragraphs": [
+        "Olaf was declared holy by Bishop Grimkell on 3 August 1031 and enshrined at Nidaros, which became the greatest pilgrimage destination in northern Europe. Stiklestad kept the lesser but more particular role of the death place, marked each year at Olsok, the feast of Saint Olaf on 29 July.",
+        "The pilgrim routes to Nidaros that were revived in the late twentieth century run past it, so the modern walker approaches Trondheim the way medieval pilgrims did, through the place where the saint was killed rather than around it."
+      ]
+    },
+    {
+      "title": "The drama and the culture centre",
+      "paragraphs": [
+        "Since 1954 the Saint Olaf Drama, Spelet om Heilag Olav, has been staged every summer in a purpose-built open-air amphitheatre on the site, with a cast drawn largely from the district — one of the largest outdoor productions in Europe and the main reason most Norwegians have heard of the village.",
+        "The Stiklestad National Culture Centre, established in 1995, runs the theatre together with a folk museum and a reconstructed medieval farm, and manages the memorial park laid out around the church."
+      ]
+    },
+    {
+      "title": "A contested symbol",
+      "paragraphs": [
+        "A site that stands for the nation attracts people who want to define it. Between 1934 and 1944 Vidkun Quisling’s Nasjonal Samling held party rallies at Stiklestad, claiming the saint-king as a Norse national figure, and in July 1944 the party raised a monument there.",
+        "It was demolished the year after the German occupation collapsed. The episode is part of the place’s history and is treated as such by the culture centre rather than being quietly left out of it."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Stiklestad",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke.jpg"
     },
     {
-      "title": "Stiklestad reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Stiklestad",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Stiklestad"
+    },
+    {
+      "title": "Stiklestad Church",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Stiklestad_Church"
+    },
+    {
+      "title": "Snorri Sturluson, Heimskringla: Saint Olaf’s Saga",
+      "author": "Snorri Sturluson, about 1230",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Heimskringla"
     }
   ],
   "relatedEntries": {
@@ -45,7 +88,7 @@
         "title": "Battle of Stiklestad",
         "type": "event",
         "slug": "battle-of-stiklestad",
-        "label": "Battle fought here"
+        "label": "Fought on this ground on 29 July 1030"
       }
     ],
     "people": [
@@ -53,7 +96,25 @@
         "title": "Olaf II Haraldsson",
         "type": "person",
         "slug": "olaf-ii-haraldsson",
-        "label": "Death of Olaf II Haraldsson"
+        "label": "Killed here, and buried at Nidaros"
+      },
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Funded the opposition that met Olaf here"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada",
+        "label": "Fought here at fifteen and fled into exile"
+      },
+      {
+        "title": "Magnus the Good",
+        "type": "person",
+        "slug": "magnus-the-good",
+        "label": "Olaf’s son, restored to Norway five years later"
       }
     ],
     "locations": [
@@ -68,19 +129,73 @@
   "id": "stiklestad",
   "name": "Stiklestad",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stiklestad_kirke.jpg",
-  "summary": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult.",
+  "summary": "The farm landscape in Verdal where Olaf II Haraldsson was killed in 1030, and the church, pilgrimage and open-air drama that have kept the place in use as a national site ever since.",
   "imageInfo": {
-    "caption": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult.",
-    "creator": "Wikimedia Commons",
-    "date": "Modern photograph",
+    "caption": "Stiklestad Church in Verdal, whose stone chancel was built between about 1150 and 1180 on the traditional spot of Olaf’s death, photographed in 2007.",
+    "creator": "Robert Eliassen",
+    "date": "photograph, 29 May 2007 (of a church begun about 1150)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stiklestad_kirke.jpg",
-    "license": "See Commons file page for licensing",
-    "note": "Modern photograph of a surviving historical site at or near the medieval place."
+    "license": "CC BY-SA 3.0",
+    "note": "Modern colour photograph of the medieval church. The white exterior render and the tower are later work; the Romanesque core is twelfth-century. The tradition that the stone Olaf died against is inside the altar cannot be verified."
   },
   "coordinates": {
     "lat": 63.7961,
     "lon": 11.5606
   },
-  "modernCountry": "NO"
+  "modernCountry": "NO",
+  "timeline": [
+    {
+      "date": "29 July 1030",
+      "title": "The battle",
+      "description": "Olaf II Haraldsson is killed at Stiklestad attempting to recover the Norwegian throne.",
+      "links": [
+        {
+          "title": "Battle of Stiklestad",
+          "type": "event",
+          "slug": "battle-of-stiklestad"
+        }
+      ]
+    },
+    {
+      "date": "3 August 1031",
+      "title": "Olaf declared holy",
+      "description": "Bishop Grimkell proclaims the dead king a saint at Nidaros, a year and five days after the battle."
+    },
+    {
+      "date": "About 1150–1180",
+      "title": "The chancel built",
+      "description": "The stone chancel of Stiklestad Church is raised on the spot where the king is said to have fallen."
+    },
+    {
+      "date": "About 1200",
+      "title": "The nave finished",
+      "description": "The Romanesque nave completes the church that marks the death place."
+    },
+    {
+      "date": "1655",
+      "title": "The altarpiece",
+      "description": "A baroque altarpiece is installed above the altar said to contain Olaf’s stone."
+    },
+    {
+      "date": "1928–1930",
+      "title": "Restoration for the jubilee",
+      "description": "The church is restored for the nine-hundredth anniversary of the battle."
+    },
+    {
+      "date": "1934–1944",
+      "title": "Party rallies",
+      "description": "Nasjonal Samling holds rallies at the site and raises a monument in July 1944, demolished after the occupation ends."
+    },
+    {
+      "date": "1954",
+      "title": "The Saint Olaf Drama",
+      "description": "The open-air play is performed at Stiklestad for the first time, and has been staged every summer since."
+    },
+    {
+      "date": "1995",
+      "title": "National culture centre",
+      "description": "The Stiklestad National Culture Centre is established, with a folk museum and a reconstructed medieval farm."
+    }
+  ]
 }

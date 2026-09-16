@@ -5,51 +5,87 @@
   "name": "Sheen Palace",
   "year": 1377,
   "image": "/images/locations/sheen-palace.jpg",
-  "summary": "A royal residence at Sheen, later Richmond, where Edward III died in 1377.",
+  "summary": "The royal house on the Thames where Edward III died in 1377 and Anne of Bohemia in 1394 — pulled down by a grieving Richard II, rebuilt by Henry V, and renamed Richmond after a fire in 1497.",
   "overview": [
     "Sheen Palace was a royal residence on the Thames, later associated with Richmond Palace.",
     "Edward III died there in 1377 after a long reign dominated by war with France."
   ],
   "knownFor": [
-    "Death of Edward III",
-    "English royal residence",
-    "Later Richmond Palace site"
+    "Death of Edward III of England on 21 June 1377",
+    "Death of Anne of Bohemia there in 1394, after which Richard II had the palace destroyed",
+    "Rebuilt by Henry V from 1414, with the Carthusian house of Jesus of Bethlehem beside it",
+    "Renamed Richmond Palace after the fire of 1497"
   ],
   "imageInfo": {
-    "caption": "Sheen Palace (later Richmond Palace) on the Thames, a Plantagenet royal residence.",
-    "creator": "Wikimedia Commons",
-    "date": "2006-03-26 16:02:43",
+    "caption": "Richmond Palace, the Tudor rebuilding of the royal house at Sheen, in an engraved view published in 1765.",
+    "creator": "Unknown engraver",
+    "date": "engraving published 1765 (of a palace rebuilt from 1498)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_View_of_Richmond_Palace_published_in_1765.jpg",
     "license": "Public domain",
-    "note": "Modern photograph of the place or a surviving historical site there. The Codex copy is cropped to remove the blank border of the source scan (owner rule: no margins around images)."
+    "note": "An eighteenth-century engraving, not a medieval view and not a photograph: it shows Henry VII’s palace of about 1500, which replaced the medieval house of Edward III and Henry V on the same site. The Codex copy is cropped to remove the blank border of the source scan (owner rule: no margins around images)."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Sheen Palace (later Richmond Palace) on the Thames in Surrey was a significant English royal residence. Richard II ordered it demolished after the death of his queen, Anne of Bohemia, there in 1394; it was later rebuilt by Henry V."
+        "Sheen Palace (later Richmond Palace) on the Thames in Surrey was a significant English royal residence. Richard II ordered it demolished after the death of his queen, Anne of Bohemia, there in 1394; it was later rebuilt by Henry V.",
+        "Its attraction was the river. Sheen lay a day’s easy barge journey upstream from Westminster, far enough for clean air and hunting, close enough that the government could follow the king there — the same calculation that put Windsor, Hampton Court and Greenwich on the same water."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The manor on the Thames",
       "paragraphs": [
-        "Sheen's destruction by Richard II following Anne's death illustrates the personal dimension of royal grief and decision-making in the late fourteenth century. The palace's subsequent rebuilding under the Lancastrian kings reflects the continuity of the Thames river corridor as the primary landscape of English royal residence."
+        "A manor house stood at Sheen by 1125, on land granted by Henry I to a Norman knight, and the crown took it into its own hands under Edward I in 1299. For most of the fourteenth century it was one royal house among many.",
+        "Edward III changed that. He rebuilt the manor into a palace substantial enough to be his principal residence in old age, and he died there on 21 June 1377, in his sixty-fifth year and fiftieth as king, after a last decade in which the French war he had won at Crécy had gone steadily against him."
+      ]
+    },
+    {
+      "title": "Richard II and Anne of Bohemia",
+      "paragraphs": [
+        "Richard II made Sheen his favourite house from 1383 and spent much of his reign there with his queen, Anne of Bohemia, whom he had married the year before. The court at Sheen became the setting for the cultivated, ceremonious style of kingship that his enemies later held against him.",
+        "Anne died of plague at Sheen on 7 June 1394. Richard’s reaction was extreme and is well recorded: he could not bear the house where it had happened, and ordered the buildings thrown down and defaced. The palace of Edward III was destroyed by the grief of his grandson, and the site lay in ruins for twenty years."
+      ]
+    },
+    {
+      "title": "Henry V rebuilds",
+      "paragraphs": [
+        "Henry V began rebuilding at Sheen in 1414, in the same burst of activity that produced his religious foundations: the Carthusian house of Jesus of Bethlehem was established beside the palace, and the Bridgettine abbey of Syon across the river.",
+        "The pairing was deliberate. A king who was about to invade France surrounded his own residence with houses of the two strictest orders in England, endowed to pray for him, and the arrangement survived him by more than a century."
+      ]
+    },
+    {
+      "title": "From Sheen to Richmond",
+      "paragraphs": [
+        "A fire on 23 December 1497 destroyed most of the timber buildings while Henry VII was keeping Christmas there. He rebuilt the palace from 1498 on a grander plan and renamed it Richmond, after the Yorkshire earldom he had held before he was king.",
+        "Richmond Palace was one of the great houses of Tudor England and the place where Elizabeth I died in 1603. It was sold and largely demolished after the civil wars, and only fragments of the gatehouse and wardrobe survive; the medieval palace beneath it has left nothing above ground at all."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Sheen Palace",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Richmond_Palace_1765.jpg"
+      "url": "https://commons.wikimedia.org/wiki/File:A_View_of_Richmond_Palace_published_in_1765.jpg"
     },
     {
-      "title": "Sheen Palace reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Richmond Palace",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Richmond_Palace"
+    },
+    {
+      "title": "Edward III of England",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Edward_III_of_England"
+    },
+    {
+      "title": "Anne of Bohemia",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Anne_of_Bohemia"
     }
   ],
   "relatedEntries": {
@@ -58,7 +94,25 @@
         "title": "Edward III of England",
         "type": "person",
         "slug": "edward-iii-of-england",
-        "label": "Death of Edward III of England"
+        "label": "Rebuilt the palace and died here in 1377"
+      },
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "Made it his favourite house, then had it destroyed"
+      },
+      {
+        "title": "Anne of Bohemia",
+        "type": "person",
+        "slug": "anne-of-bohemia",
+        "label": "Died here of plague in 1394"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Rebuilt the palace from 1414 with a charterhouse beside it"
       }
     ],
     "locations": [
@@ -66,19 +120,27 @@
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
-        "label": "Realm of Edward III of England"
+        "label": "Realm of its royal occupants"
+      },
+      {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "The seat of government a short journey downstream"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
+        "title": "Hundred Years’ War",
         "type": "event",
-        "slug": "hundred-years-war"
+        "slug": "hundred-years-war",
+        "label": "The war that dominated the reigns of its occupants"
       },
       {
         "title": "Battle of Crécy",
         "type": "event",
-        "slug": "battle-of-crecy"
+        "slug": "battle-of-crecy",
+        "label": "Edward III’s victory, three decades before he died here"
       }
     ]
   },
@@ -86,5 +148,52 @@
     "lat": 51.4604,
     "lon": -0.3102
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "timeline": [
+    {
+      "date": "By 1125",
+      "title": "The manor",
+      "description": "A manor house at Sheen is held from the crown, on land granted by Henry I."
+    },
+    {
+      "date": "1299",
+      "title": "Taken by the crown",
+      "description": "Edward I brings the manor of Sheen into royal hands."
+    },
+    {
+      "date": "21 June 1377",
+      "title": "Death of Edward III",
+      "description": "Edward III dies at the palace he had rebuilt, in the fiftieth year of his reign."
+    },
+    {
+      "date": "1383",
+      "title": "Richard II’s favourite house",
+      "description": "Richard II makes Sheen his principal residence with Anne of Bohemia."
+    },
+    {
+      "date": "7 June 1394",
+      "title": "Death of Anne of Bohemia",
+      "description": "The queen dies of plague at Sheen."
+    },
+    {
+      "date": "1395",
+      "title": "The palace destroyed",
+      "description": "Richard II orders the buildings thrown down, unable to use the house where she died."
+    },
+    {
+      "date": "1414",
+      "title": "Henry V rebuilds",
+      "description": "Henry V restores the palace and founds the Carthusian house of Jesus of Bethlehem beside it."
+    },
+    {
+      "date": "23 December 1497",
+      "title": "The fire",
+      "description": "Most of the timber buildings burn while Henry VII keeps Christmas there."
+    },
+    {
+      "date": "From 1498",
+      "title": "Renamed Richmond",
+      "description": "Henry VII rebuilds the palace and renames it after his earldom of Richmond."
+    }
+  ]
 }

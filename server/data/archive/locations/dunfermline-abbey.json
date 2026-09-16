@@ -5,49 +5,94 @@
   "name": "Dunfermline Abbey",
   "year": 1329,
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunfermline_Abbey_nave.jpg",
-  "summary": "Dunfermline Abbey was a major Scottish royal monastery and burial church, including the burial place of Robert the Bruce’s body.",
+  "summary": "The Benedictine abbey in Fife that held the shrine of Saint Margaret and the graves of Scotland’s kings, including Robert the Bruce — buried there in 1329 without his heart.",
   "overview": [
     "Dunfermline Abbey was one of medieval Scotland’s most important royal churches. It was associated with royal patronage, monastic life, and the burial memory of Scottish kings and queens.",
     "Robert the Bruce’s body was buried there after his death in 1329, tying the abbey to the memory of restored Scottish kingship."
   ],
   "knownFor": [
-    "Royal burial church",
-    "Robert the Bruce’s burial"
+    "The shrine of Saint Margaret, canonised in 1250",
+    "The Romanesque nave of the twelfth century, with its carved drum piers",
+    "The burial place of Scottish kings, among them Malcolm III and David I",
+    "The grave of Robert the Bruce, rediscovered in 1818"
   ],
   "imageInfo": {
-    "caption": "Dunfermline Abbey nave.",
-    "creator": "Wikimedia Commons contributor",
-    "date": "Modern photograph",
+    "caption": "The Romanesque nave of Dunfermline Abbey, built in the twelfth century with drum piers cut in spiral and chevron patterns, photographed in 2011.",
+    "creator": "Kim Traynor",
+    "date": "photograph, 14 October 2011 (of a nave built in the twelfth century)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunfermline_Abbey_nave.jpg",
-    "note": "Modern photograph of a medieval site or associated place."
+    "license": "CC BY-SA 3.0",
+    "note": "Modern colour photograph of the surviving medieval nave, which was repaired in 1570 and kept as a parish church. The eastern arm that held Saint Margaret’s shrine and the royal graves was ruined after 1560 and replaced by a nineteenth-century church."
   },
   "contentSections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Dunfermline Abbey combined religious authority with royal memory. Its status as a burial place made it a central site in the sacred geography of Scottish monarchy."
+        "Dunfermline Abbey combined religious authority with royal memory. Its status as a burial place made it a central site in the sacred geography of Scottish monarchy.",
+        "It served the Scottish crown roughly as Saint-Denis served the French and Westminster the English: the church where the dynasty prayed, buried its dead and kept its saint. The difference is that Dunfermline’s saint was a queen."
       ]
     },
     {
-      "title": "Medieval history",
+      "title": "Margaret’s church",
       "paragraphs": [
-        "The abbey developed from earlier royal religious patronage and became especially associated with Queen Margaret and later Scottish dynastic commemoration. Its architecture and burial traditions placed monarchy within a monastic setting."
+        "Malcolm III of Scotland married the English princess Margaret about 1070, and she founded a church at Dunfermline served by Benedictine monks from Canterbury — an importation of the reformed monasticism of the continent into a Scottish church that had run on older Gaelic lines.",
+        "Their son David I refounded the house as a full abbey in 1128 and endowed it richly. The great Romanesque nave built over the following decades still stands, its massive drum piers cut with spiral and chevron patterns in the manner of Durham, from which its masons plainly came."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The shrine of Saint Margaret",
       "paragraphs": [
-        "Bruce’s burial at Dunfermline made the abbey part of Scotland’s independence memory. The site continues to link medieval kingship, sanctity, and national commemoration."
+        "From 1245 pilgrims reported lights at Margaret’s tomb, and the Scottish bishops petitioned Rome. Pope Innocent IV canonised her, and in 1250 her relics were lifted into a new shrine at the east end of the church, the choir having been extended the year before to receive it.",
+        "The shrine made Dunfermline the chief pilgrimage church of Scotland and gave the monarchy something few dynasties had: a royal saint of its own blood, whose cult the kings could patronise as heirs rather than as mere devotees."
+      ]
+    },
+    {
+      "title": "A royal mausoleum",
+      "paragraphs": [
+        "The abbey developed from earlier royal religious patronage and became especially associated with Queen Margaret and later Scottish dynastic commemoration. Its architecture and burial traditions placed monarchy within a monastic setting.",
+        "Malcolm III and Margaret were buried there, and so were their sons and a long line of their successors, among them David I, Malcolm IV and the king killed in a fall from his horse at Kinghorn in 1286 whose death opened the succession crisis. It is the largest concentration of Scottish royal graves anywhere."
+      ]
+    },
+    {
+      "title": "War, and Bruce’s grave",
+      "paragraphs": [
+        "Edward I of England held his court at the abbey through the winter of 1303 and burned most of the monastic buildings when he left — an act aimed precisely at the dynastic memory the place held. The church survived.",
+        "Robert the Bruce was buried in the choir in 1329, his body brought from the manor of Cardross. His heart had been removed to be carried on crusade and was eventually buried at Melrose Abbey. In 1818 workmen clearing the ruined choir for a new parish church found a tomb containing a skeleton whose breastbone had been sawn open — the standard method when a heart was taken for separate burial — and the grave was identified as the king’s."
+      ]
+    },
+    {
+      "title": "Reformation and after",
+      "paragraphs": [
+        "The abbey was sacked in March 1560 during the Scottish Reformation, and the eastern arm fell into ruin; the nave was repaired in 1570 and kept in use as a parish church.",
+        "Bruce’s burial at Dunfermline made the abbey part of Scotland’s independence memory. The site continues to link medieval kingship, sanctity, and national commemoration — the nineteenth-century church raised over the old choir carries the words KING ROBERT THE BRUCE cut in stone letters round the top of its tower."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Dunfermline Abbey",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
       "url": "https://commons.wikimedia.org/wiki/File:Dunfermline_Abbey_nave.jpg"
+    },
+    {
+      "title": "Dunfermline Abbey",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Dunfermline_Abbey"
+    },
+    {
+      "title": "Dunfermline Abbey and Palace: history",
+      "author": "Historic Environment Scotland",
+      "type": "museum",
+      "url": "https://www.historicenvironment.scot/visit-a-place/places/dunfermline-abbey-and-palace/history/"
+    },
+    {
+      "title": "Robert the Bruce",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Robert_the_Bruce"
     }
   ],
   "relatedEntries": {
@@ -55,26 +100,60 @@
       {
         "title": "Robert the Bruce",
         "type": "person",
-        "slug": "robert-the-bruce"
-      }
-    ],
-    "events": [
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence"
+        "slug": "robert-the-bruce",
+        "label": "Buried in the choir in 1329"
       },
       {
-        "title": "Battle of Bannockburn",
-        "type": "event",
-        "slug": "battle-of-bannockburn"
+        "title": "Malcolm III of Scotland",
+        "type": "person",
+        "slug": "malcolm-iii-of-scotland",
+        "label": "Founded the church here with Queen Margaret"
+      },
+      {
+        "title": "Matilda of Scotland",
+        "type": "person",
+        "slug": "matilda-of-scotland",
+        "label": "Daughter of Malcolm and Margaret, born at Dunfermline"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Wintered here in 1303 and burned the monastic buildings"
       }
     ],
     "locations": [
       {
         "title": "Kingdom of Scotland",
         "type": "location",
-        "slug": "kingdom-of-scotland"
+        "slug": "kingdom-of-scotland",
+        "label": "The realm whose kings were buried here"
+      },
+      {
+        "title": "Melrose Abbey",
+        "type": "location",
+        "slug": "melrose-abbey",
+        "label": "Where Bruce’s heart was buried"
+      },
+      {
+        "title": "Manor of Cardross",
+        "type": "location",
+        "slug": "manor-of-cardross",
+        "label": "Where Bruce died, and from which his body was brought"
+      }
+    ],
+    "events": [
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war that brought Edward I to the abbey"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "The victory of the king buried here"
       }
     ]
   },
@@ -82,5 +161,42 @@
     "lat": 56.0697,
     "lon": -3.4635
   },
-  "modernCountry": "GB"
+  "modernCountry": "GB",
+  "timeline": [
+    {
+      "date": "About 1070",
+      "title": "Margaret’s foundation",
+      "description": "Malcolm III marries Margaret, who founds a church at Dunfermline served by Benedictines from Canterbury."
+    },
+    {
+      "date": "1128",
+      "title": "David I’s abbey",
+      "description": "David I raises the priory to an abbey and endows it; the Romanesque nave follows."
+    },
+    {
+      "date": "1245–1250",
+      "title": "Margaret canonised",
+      "description": "Reports of lights at her tomb lead to canonisation, and her relics are translated to a new shrine in 1250."
+    },
+    {
+      "date": "Winter 1303",
+      "title": "Edward I at Dunfermline",
+      "description": "The English king holds court at the abbey and burns the monastic buildings on leaving."
+    },
+    {
+      "date": "1329",
+      "title": "Bruce buried",
+      "description": "Robert the Bruce is buried in the choir, his heart removed for the crusade vow."
+    },
+    {
+      "date": "March 1560",
+      "title": "The abbey sacked",
+      "description": "The buildings are attacked in the Reformation; the nave is repaired for parish use in 1570."
+    },
+    {
+      "date": "1818",
+      "title": "The grave found",
+      "description": "Workmen uncover a tomb with the breastbone sawn open, identified as Robert the Bruce."
+    }
+  ]
 }

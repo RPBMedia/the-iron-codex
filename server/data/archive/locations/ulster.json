@@ -4,9 +4,10 @@
   "year": "Medieval period",
   "kingdom": "Ireland",
   "knownFor": [
-    "Magnus Barefoot",
-    "Irish Sea politics",
-    "Norwegian campaigning"
+    "Death of Magnus Barefoot near Downpatrick on 24 August 1103",
+    "The over-kingdom of the Ulaid in the east of the province",
+    "The last Norwegian royal campaign in Ireland",
+    "Magnus’s burial near St Patrick’s church at Down"
   ],
   "overview": [
     "The northern Irish region where Magnus Barefoot was killed during campaigning in 1103."
@@ -15,28 +16,63 @@
     {
       "title": "Overview",
       "paragraphs": [
-        "Ulster, the northern Irish province, was the site where Magnus Barefoot of Norway was killed in 1103 during a campaign to extend Norwegian power in the Irish Sea region. His death ended Norwegian royal adventurism in Ireland."
+        "Ulster, the northern Irish province, was the site where Magnus Barefoot of Norway was killed in 1103 during a campaign to extend Norwegian power in the Irish Sea region. His death ended Norwegian royal adventurism in Ireland.",
+        "Ulster in this period is a region rather than a state, and not one with a single ruler. Its eastern part, roughly modern Down and Antrim, was the over-kingdom of the Ulaid, the people whose name the province carries; the north-west was held by the Cénel nEógain and other branches of the northern Uí Néill. The article covers the province because that is where the Norwegian king died, not because he ever held any of it."
       ]
     },
     {
-      "title": "Legacy",
+      "title": "The Irish Sea world",
       "paragraphs": [
-        "Magnus Barefoot's campaigns in Scotland, Man, and Ireland represent the last phase of active Norwegian royal involvement in the Irish Sea world. After his death in Ulster, Norwegian influence in the region declined, though Orkney and the Western Isles remained under Norwegian sovereignty until the later medieval period."
+        "The Irish Sea in the eleventh and twelfth centuries was a Norse space as much as an Irish or Scottish one, with Dublin, the Isle of Man, the Hebrides and Galloway linked by sailing routes and by families that had interests in several of them at once. A Norwegian king with a fleet could make himself felt anywhere along it.",
+        "Magnus Barefoot did exactly that. His expeditions of 1098 and 1102–1103 took the Orkneys, the Hebrides and Man under direct royal control, and he wintered in Ireland having made terms with Muirchertach Ua Briain, the most powerful Irish king of the day, whose daughter was married to Magnus’s son Sigurd."
+      ]
+    },
+    {
+      "title": "The ambush of 1103",
+      "paragraphs": [
+        "On 24 August 1103, St Bartholomew’s Day, Magnus went inland from his ships near the River Quoile, close to Downpatrick, to collect provisions for the voyage home to Norway. The Ulaid were waiting in the bogs and broken ground, and a large force came out of hiding onto men who were strung out and not in battle order.",
+        "The Norse accounts describe the king pierced by a spear through both thighs above the knee, and finished by an axe blow to the neck. Whether Muirchertach had arranged the ambush, or merely failed to prevent it, is not recoverable: the Irish annals and the Norse sagas each tell the story from their own side, and neither is disinterested."
+      ]
+    },
+    {
+      "title": "The grave at Down",
+      "paragraphs": [
+        "By the account in the Chronicles of the Kings of Mann and the Isles, Magnus was buried near the church of St Patrick at Down — the last king of Norway to be buried outside his kingdom. A mound on an island in the marshes about two miles south of Downpatrick cathedral is pointed out as the site, and a runestone was raised there in 2003 for the nine-hundredth anniversary.",
+        "The identification rests on local tradition rather than on excavation. What is certain from both the Irish and Norse records is that the king died in Ulster and did not come home."
+      ]
+    },
+    {
+      "title": "After 1103",
+      "paragraphs": [
+        "Magnus Barefoot’s campaigns in Scotland, Man, and Ireland represent the last phase of active Norwegian royal involvement in the Irish Sea world. After his death in Ulster, Norwegian influence in the region declined, though Orkney and the Western Isles remained under Norwegian sovereignty until the later medieval period.",
+        "The dates of that long retreat are precise at each end: the Western Isles and Man were ceded to the Scottish crown by treaty in 1266, and Orkney and Shetland passed to Scotland in 1468 as security for an unpaid dowry. Ireland itself was never again the object of a Norwegian royal expedition."
       ]
     }
   ],
   "sources": [
     {
-      "title": "Wikimedia Commons image metadata: Ulster",
+      "title": "Wikimedia Commons image record",
       "author": "Wikimedia Commons",
       "type": "image metadata",
-      "url": "https://commons.wikimedia.org/wiki/File:Ulster_location_map.svg"
+      "url": "https://commons.wikimedia.org/wiki/File:Dunluce_Castle_Northern_Ireland_1.jpg"
     },
     {
-      "title": "Ulster reference page",
-      "author": "Reference source",
-      "type": "reference work",
+      "title": "Ulster",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
       "url": "https://en.wikipedia.org/wiki/Ulster"
+    },
+    {
+      "title": "Magnus Barefoot",
+      "author": "English Wikipedia",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Magnus_Barefoot"
+    },
+    {
+      "title": "Chronicles of the Kings of Mann and the Isles",
+      "author": "Anonymous, thirteenth century",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chronicles_of_Mann"
     }
   ],
   "relatedEntries": {
@@ -45,17 +81,25 @@
         "title": "Magnus Barefoot",
         "type": "person",
         "slug": "magnus-barefoot",
-        "label": "Death of Magnus Barefoot"
+        "label": "Killed here in 1103 and buried at Down"
       },
       {
-        "title": "Harald Hardrada",
+        "title": "Sigurd the Crusader",
         "type": "person",
-        "slug": "harald-hardrada"
+        "slug": "sigurd-of-norway",
+        "label": "Left as king in the Isles by his father, and married to Muirchertach’s daughter"
       },
       {
         "title": "Øystein I of Norway",
         "type": "person",
-        "slug": "oystein-i-of-norway"
+        "slug": "oystein-i-of-norway",
+        "label": "Succeeded with his brothers on the news of Magnus’s death"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada",
+        "label": "Magnus’s great-grandfather, the last Norwegian king to die invading abroad"
       }
     ],
     "locations": [
@@ -64,20 +108,58 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Realm of Magnus Barefoot"
+      },
+      {
+        "title": "Kirkwall",
+        "type": "location",
+        "slug": "kirkwall",
+        "label": "Orkney seat of the Norse earls on the route west"
       }
     ]
   },
   "id": "ulster",
   "name": "Ulster",
   "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Dunluce_Castle_Northern_Ireland_1.jpg",
-  "summary": "The northern Irish region where Magnus Barefoot was killed during campaigning in 1103.",
+  "summary": "The northern Irish province where Magnus Barefoot was ambushed and killed in 1103, ending the last Norwegian royal campaign in Ireland.",
   "imageInfo": {
-    "caption": "Dunluce Castle in Ulster; the northern Irish province where Magnus Barefoot of Norway was killed in 1103.",
+    "caption": "Dunluce Castle on the north Antrim coast of Ulster, photographed in 2018.",
     "creator": "Iain Irwin",
-    "date": "2018-03-03",
+    "date": "photograph, 3 March 2018 (of a castle whose standing fabric is largely sixteenth-century)",
     "source": "Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunluce_Castle_Northern_Ireland_1.jpg",
     "license": "CC BY-SA 4.0",
-    "note": "Modern photograph of the place or a surviving historical site there."
-  }
+    "note": "Modern colour photograph of a coastal stronghold of the province. The standing castle is four centuries later than Magnus Barefoot’s campaign and has no connection to it; it stands here for the Ulster coast, as nothing survives at the ambush site near Downpatrick."
+  },
+  "timeline": [
+    {
+      "date": "1098",
+      "title": "First western expedition",
+      "description": "Magnus Barefoot brings Orkney, the Hebrides and Man under direct Norwegian royal control."
+    },
+    {
+      "date": "1102",
+      "title": "Terms with Muirchertach",
+      "description": "Magnus makes peace with Muirchertach Ua Briain of Munster and winters in Ireland; the alliance is sealed by his son Sigurd’s marriage."
+    },
+    {
+      "date": "24 August 1103",
+      "title": "The ambush",
+      "description": "Foraging inland near the River Quoile, Magnus is surprised by the Ulaid and killed."
+    },
+    {
+      "date": "After 1103",
+      "title": "Burial at Down",
+      "description": "The Manx chronicle records Magnus buried near the church of St Patrick at Down."
+    },
+    {
+      "date": "1266",
+      "title": "The Isles ceded",
+      "description": "Man and the Western Isles pass from the Norwegian crown to Scotland by treaty."
+    },
+    {
+      "date": "1468",
+      "title": "Orkney pledged",
+      "description": "Orkney and Shetland are pledged to Scotland against an unpaid dowry, ending Norse rule in the islands."
+    }
+  ]
 }
