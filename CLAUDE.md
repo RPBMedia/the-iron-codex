@@ -58,14 +58,39 @@ needed correcting. If a batch has a weak point, that is the one to hand over.
 Reviewing green validator output proves the rules ran, not that the writing is any
 good.
 
-**Ship one thing, then stop (owner rule, 2026-09-15, stated twice).** Every time
-something ships (an article batch, a fix, a code change), hand over **one test case**
-for the owner to review: a link and what to check. Then **end the turn**. Do not start,
-apply or ship anything else, whether the next queue item, the next batch or work on another
-project, until the owner has confirmed that specific ship. "Go" or "continue" means
-carry on with the current item, never open a new one. Background drafting that
-changes nothing live may continue, but it stays unshipped until the owner has
-confirmed the previous ship and says to proceed.
+**Away mode (owner rule, 2026-09-16).** When the owner says **"I will be away for
+&lt;x amount of time&gt;"** — or any equivalent ("leaving for the afternoon", "back
+tomorrow") — that is an instruction to **build continuously for that whole period
+without stopping**, and to **hand over every test case at the end, in one list**.
+
+- Do not pause for review, confirmation or a test case mid-run. Keep taking the
+  next queue item.
+- Keep both gates green on every commit, as always. Away mode raises the pace, it
+  does not lower the bar.
+- **Compile the test cases as you go** and deliver them together when the owner
+  returns: one line per ship, with a direct link and what to check.
+- Anything genuinely irreversible, or a decision only the owner can make (a design
+  choice between real alternatives, a historical judgement, a change of scope),
+  is the one thing to hold — collect those as questions and ask them all at the
+  end rather than stalling the run.
+
+**Review cadence (owner rule, 2026-09-16 — SUPERSEDES "ship one thing, then stop").**
+The owner now reviews at **two checkpoints only**:
+
+1. a **prototype of a new type of page** (a new article family, a new layout pattern), and
+2. a **major feature** shipping.
+
+Routine fixes, article batches and follow-ups do **not** stop for a test case. Work
+through the queue, keep both gates green on every commit, and save the test cases
+for the checkpoint rather than the step.
+
+**Why it changed:** one-at-a-time review made the owner the throughput bottleneck.
+The 2026-09-16 estimate put the remaining programme at 8–14 months, and review
+cadence was the single largest constraint on it.
+
+**Still stop immediately** for anything genuinely irreversible, and for decisions
+only the owner can make: a design choice between real alternatives, a historical
+judgement call, or a change of scope. Ask then, rather than guessing.
 
 **Agent concurrency (owner rule, 2026-09-15).** At most **four subagents running at
 once, and never more** (the owner raised the cap from two to four the same day); the full

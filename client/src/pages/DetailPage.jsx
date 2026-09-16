@@ -69,18 +69,32 @@ function TopicLinks({ id }) {
   )
 }
 
-export default function DetailPage() {
-  const { collection, id } = useParams()
+/**
+ * `article` is supplied only by the render gate (`scripts/check-render.mjs`),
+ * which renders each article family to markup in node and asserts its structure.
+ * The browser never passes it.
+ *
+ * It exists because this component's data arrives through an effect, and effects
+ * do not run during static rendering — so without a prop the gate would only
+ * ever see `LoadingState`. Shimming a fake `document` to feed the `__ARTICLE__`
+ * path would work too, but a global shim is a worse thing to depend on than one
+ * optional prop that is obvious at the call site.
+ */
+export default function DetailPage({ article: providedArticle = null }) {
+  const { collection: routeCollection, id: routeId } = useParams()
+  const collection = providedArticle ? providedArticle.collection ?? routeCollection : routeCollection
+  const id = providedArticle ? providedArticle.id ?? routeId : routeId
   const navigate = useNavigate()
   const routerLocation = useLocation()
   // Seeded from the prerendered payload on a first load, so the very first
   // render is the finished article rather than a spinner — no API round-trip,
   // and nothing for a crawler to miss.
-  const [preloaded] = useState(() => takeInlined(collection, id))
+  const [preloaded] = useState(() => providedArticle ?? takeInlined(collection, id))
   const [article, setArticle] = useState(preloaded)
   const [status, setStatus] = useState(preloaded ? 'ready' : 'loading')
 
   useEffect(() => {
+    if (providedArticle) return undefined
     let cancelled = false
     const inlined = article && article.id === id ? article : takeInlined(collection, id)
     if (inlined) {

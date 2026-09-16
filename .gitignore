@@ -8,3 +8,6 @@ npm-debug.log*
 
 # Agent git worktrees (never commit)
 .claude/worktrees/
+
+# Render-gate SSR bundle (built by npm run check:render)
+client/.render-gate/
