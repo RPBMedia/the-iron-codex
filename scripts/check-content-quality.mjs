@@ -518,6 +518,28 @@ function validateBattleContinuity(entry, label) {
       findings.push({ collection: 'events', article: label, path: 'battleContinuity.label', pattern: 'backward continuity link labelled as "next"', snippet: c.label ?? '' })
     }
   }
+
+  // The link must go to the NEXT engagement, never past one (owner rule,
+  // 2026-09-16). Continuity exists to give the reader continuity, so pointing at
+  // the famous battle further on and skipping the one in between defeats it.
+  // Reported on battle-of-stirling-bridge (1297), which pointed at Bannockburn
+  // (1314) over Falkirk (1298). This also makes the obligation permanent: adding
+  // a battle article fails the build until every link that now skips over it is
+  // re-pointed, which is exactly when that repair is cheapest.
+  if (target?.year && entry.year && target.year > entry.year && entry.conflict) {
+    const skipped = militaryEvents
+      .filter((e) => e.id !== entry.id && e.id !== target.id && e.conflict === entry.conflict && e.year > entry.year && e.year < target.year)
+      .sort((a, b) => a.year - b.year)
+    if (skipped.length) {
+      findings.push({
+        collection: 'events',
+        article: label,
+        path: 'battleContinuity.battleSlug',
+        pattern: `continuity skips ${skipped.length} ${entry.conflict} engagement(s) between ${entry.year} and ${target.year}: point it at ${skipped[0].id} (${skipped[0].year}) instead of ${target.id}`,
+        snippet: skipped.map((e) => `${e.id} (${e.year})`).join(', ')
+      })
+    }
+  }
 }
 
 // Hard failure: army size / estimated strength on Battle & Siege articles.

@@ -625,6 +625,21 @@ Every **military event** article (`events` entries with `eventType: "Battle"` or
 
 `relationship` is one of: `same-war`, `same-campaign`, `same-crisis`, `same-region`, `same-factions`, `chronological-follow-up`, `tactical-comparison`, `nearest-relevant-battle`, `earlier-context`. The server (`withBattleContinuityTarget` in `server/index.js`) resolves the target's name/year/image at serve time — store only the slug, label, relationship, and reason. The UI block (`BattleContinuity` in `DetailPage.jsx`) renders directly under the Outcome card on Battle and Siege pages.
 
+**The link goes to the NEXT engagement, never past one (owner rule, 2026-09-16).**
+Continuity exists to give the reader a sense of continuity, so it must hand them
+the battle that actually came next in that war, not the famous one further on.
+Reported on `battle-of-stirling-bridge` (1297), which pointed at Bannockburn
+(1314) and skipped Falkirk (1298), the next major engagement of the same war and
+the one that ended Wallace's ascendancy.
+
+**This is a standing obligation, not a one-time fix: whenever a battle article is
+added, every existing continuity link that now skips over it must be re-pointed
+in the same ship.** Adding Falkirk without moving Stirling Bridge's link leaves
+the archive worse than before, because the gap is now visible. Enforced by
+`npm run check:content-quality` (`validateBattleContinuity`), which hard-fails
+when another military event of the same conflict sits strictly between a battle's
+year and its continuity target's year.
+
 **Selection priority (use the strongest available):**
 1. Next major battle/siege/military event **later** in the same war or conflict.
 2. Next major military event in the same campaign or immediate crisis (e.g. the 1066 sequence).
