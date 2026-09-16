@@ -18,7 +18,7 @@
 | Track | Item | Full spec | Status |
 |---|---|---|---|
 | Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
-| Article UI / UX | 0o | Appendix B | In progress — U1–U3 and the hero band done; U4–U7 open |
+| Article UI / UX | 0o | Appendix B | Nearly done — U0–U3, U5 and U7 shipped; U4 and U6 need a live page and are the owner's to verify |
 | Civilizations | 0e | Appendix C | Not started — a new archive category |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
@@ -36,27 +36,31 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-16, early morning, at the end of an owner-away hour. Shipped and verified live:
-- Kingdom batches 4a (`943b214`), 4b (`a634e33`) and 4c (`d5d79ea`), bringing 0d to 44 of 54.
-- The kingdom arms gate (`9179aef`).
-- Insights #2, favourites by period (`937cf4b`).
-- New main images for Stiklestad, Gestilren, the Zengids and Teias (`c69434e`).
-- The `pope-leo-iii` article (`1b37a7d`).
+_Last updated: 2026-09-17, during an owner-away run. **Forward-looking only — the history is in `git log`.**_
 
-Owner rulings: coins, seals and objects on white keep their white ground, and historical errors are always corrected. Open questions are listed in the handoff: the Rashidun banner box, Leo III's main image, the Sasanian map's eastern border, and Gestilren's memorial stone. Next: the last 10 polities in 0d, then 0o U0.
+**Shipped today (19 commits).** Ten backlog battles with three alias guards; four
+Leonese rulers and Engelbrekt Engelbrektsson; locator maps for eleven regions,
+taking the archive from 50 places with an inset to **99**; queue items **0d, 0t
+and 0u closed**; and the wrong-link failure class shut with a test.
 
-Earlier that night the Order of Montjoy's history was corrected against the Catalan, Spanish and English Wikipedia articles (`f019003`; owner rule: historical errors are always corrected). 0p ship 1 is next: 28 margin crops, self-hosted. Earlier that night: the owner confirmed the no-margins ship (`e3372f7`: CSS padding removed site-wide, Malbork drone and Tomar convent photographs, St Thomas of Acre plate cropped). Order of Montjoy now leads with Monfragüe castle instead of its white shield. Queued 0p, the scan for borders baked into image files (owner-approved; the script is `scripts/audit-image-borders.mjs`). Earlier: queued 0o, the global article UI/UX refinement track (spec in the repo root; U0 audit first). Earlier that evening:
+**Waiting on the owner — nothing else blocks these:**
+- **Sten Sture the Elder is written, gated green and HELD.** His regency begins
+  in 1470, and CLAUDE.md excludes a rule beginning after 1453 *"whatever a task
+  spec says"*, while queue item 0s names him. Two instructions conflict and the
+  call is not the assistant's. One command ships him.
+- **0o U4's visual sweep and U6's regression** need a live page at each width.
+- **0r (spelling-tolerant search)** is marked *to discuss before building*.
+- Older open questions, carried over and unverified since 2026-09-16: the
+  Rashidun banner box, Leo III's main image, the Sasanian map's eastern border,
+  and Gestilren's memorial stone.
 
-**Owner answers on the away-mode questions:**
-- 1453 wins, and CLAUDE.md now says so.
-- Kingdoms batch 3 and city batch 3 are approved.
-- Harald Greycloak gets a monument image.
-- Favourites are charted by period.
-- The three finished markdown files are deleted.
+**In flight:** two agents writing the Norse (Fimreite, Fotevik, Grathe Heath,
+Fýrisvellir, Largs) and Anglo-Saxon (Ellandun, Aclea, Ashdown, Tettenhall,
+Heavenfield) battle batches. About 38 distinct battles remain on
+`BATTLE_BACKLOG` after them.
 
-The owner also reported four fixes, listed under 0n. Known-for linking ships first.
-
-Before that, 0m was queued: the complete medieval rulers program, with its spec in the repo root and M0 first. Earlier, with the owner away, these shipped and were verified live: the Insights per-bar tooltip and accounts-created series; monuments leading for yusuf-ibn-tashfin, muhammad-al-nasir and baraka-khan, with Baraka's death place corrected to Kerak; 0d kingdoms batches 1 and 2, maps and arms for 16 kingdoms, plus the Navarre chains legend fix. Also new: the Siege of Sidon (1110), 11,000 characters, and a Sidon city page, 7,400 characters with 14 timeline entries. Sigurd's prose and timeline now link the siege, and 'siege of sidon' is off BATTLE_BACKLOG. **Next: the owner reviews the away-mode test suite and answers the compiled questions** (al-Adil II and al-Mansur Ali, the Denmark diocesan map, the md-file deletions, the next kingdom batches) before more bulk work. Previously 2026-09-15 (empty cards removed site-wide and the queens' "Undefined" related group fixed; spouse batch B of 21 shipped, so every house-tree spouse now links; previously: step 2's first batch shipped: ten stubs rewritten, event timelines now render, auto-linker hazards fixed at the generator. **Next: step 3, the infra pass.** The owner added item 0 (no article under 2,000 chars; locations to 5,000 with two images; a city standard) and item 0b (a Danelaw article)) — previously 2026-09-15 (session handoff) and 2026-09-14 (step 1 shipped: blank cards, tab titles, Shroud of Turin, template-prose gate)._
+**Next without the owner:** 0q's remaining clusters. 0m (rulers) and 0e
+(civilizations) are deferred by owner decision until the structural work is done.
 
 ---
 
