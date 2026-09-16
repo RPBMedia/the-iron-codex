@@ -180,6 +180,12 @@
         "type": "event",
         "slug": "siege-of-sidon-1110",
         "label": "Conquest that created the Lordship of Sidon, 1110"
+      },
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "1244 — the field army lost for good"
       }
     ],
     "orders": [
@@ -230,7 +236,14 @@
     {
       "date": "17 October 1244",
       "title": "La Forbie",
-      "description": "The barons' army is annihilated — Hattin's repetition."
+      "description": "The barons' army is annihilated — Hattin's repetition.",
+      "links": [
+        {
+          "title": "Battle of La Forbie",
+          "type": "event",
+          "slug": "battle-of-la-forbie"
+        }
+      ]
     },
     {
       "date": "1265–1271",

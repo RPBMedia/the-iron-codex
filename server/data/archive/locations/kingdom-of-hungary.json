@@ -97,7 +97,14 @@
     {
       "date": "955",
       "title": "Defeat on the Lechfeld",
-      "description": "Otto I destroys a Magyar raiding army near Augsburg, ending the westward raids and pushing the ruling house towards Christian settlement."
+      "description": "Otto I destroys a Magyar raiding army near Augsburg, ending the westward raids and pushing the ruling house towards Christian settlement.",
+      "links": [
+        {
+          "title": "Battle of Lechfeld",
+          "type": "event",
+          "slug": "battle-of-lechfeld"
+        }
+      ]
     },
     {
       "date": "c. 1000–1001",
@@ -179,6 +186,12 @@
         "type": "event",
         "slug": "battle-of-sirmium",
         "label": "Where its army was destroyed and it accepted Byzantine overlordship in 1167"
+      },
+      {
+        "title": "Battle of Lechfeld",
+        "type": "event",
+        "slug": "battle-of-lechfeld",
+        "label": "The 955 defeat that ended the western raids"
       }
     ],
     "locations": [

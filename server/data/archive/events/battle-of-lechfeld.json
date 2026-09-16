@@ -1,0 +1,302 @@
+{
+  "id": "battle-of-lechfeld",
+  "type": "event",
+  "name": "Battle of Lechfeld",
+  "aliases": [
+    "Battle of the Lechfeld",
+    "Lechfeld"
+  ],
+  "year": 955,
+  "location": "The Lechfeld, south of Augsburg, Bavaria",
+  "eventType": "Battle",
+  "conflict": "Magyar raids on the Latin west",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lechfeld%20955%20Hektor%20M%C3%BClich%201457.jpg",
+  "imageInfo": {
+    "caption": "The Lechfeld in a 1457 illustration by Hektor Mülich, its fighters armoured in fifteenth-century plate rather than tenth-century mail.",
+    "creator": "Hektor Mülich (d. 1490)",
+    "date": "1457; shows 10 August 955",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lechfeld_955_Hektor_M%C3%BClich_1457.jpg",
+    "note": "Made for Sigismund Meisterlin's chronicle five centuries after the battle, so it is evidence for how fifteenth-century Augsburg pictured its deliverance, not for what the fighting looked like. No contemporary image of the battle survives. Public domain."
+  },
+  "summary": "Otto I destroyed the Magyar army on the Lechfeld near Augsburg on 10 August 955, ending fifty years of Hungarian raiding into the Latin west and making him emperor in his soldiers’ eyes.",
+  "details": "On 10 August 955 Otto I brought a German army of about eight contingents against the Magyar host besieging Augsburg. The Magyars opened the day by riding round the German column and plundering its baggage; Conrad the Red drove them off and was killed by an arrow soon afterwards. The pursuit over the next two days, across rivers swollen with rain, killed or captured more of the Magyars than the battle itself, and their three named leaders were hanged at Regensburg.",
+  "factions": [
+    "Holy Roman Empire",
+    "Kingdom of Hungary"
+  ],
+  "leaders": [
+    {
+      "name": "Otto I",
+      "faction": "German army"
+    },
+    {
+      "name": "Conrad the Red",
+      "faction": "German army"
+    },
+    {
+      "name": "Bulcsú",
+      "faction": "Magyars"
+    }
+  ],
+  "outcome": "Decisive German victory. The Magyar army was destroyed in the pursuit rather than on the field, its commanders were hanged at Regensburg, and Magyar raiding into the Latin west stopped; Otto was acclaimed emperor by his army and crowned in Rome seven years later.",
+  "participants": [
+    {
+      "side": "German army",
+      "factions": [
+        {
+          "name": "Holy Roman Empire",
+          "title": "Holy Roman Empire",
+          "type": "location",
+          "slug": "holy-roman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Otto I",
+          "type": "person",
+          "note": "King of the East Franks, who was acclaimed emperor by his army on the field and crowned at Rome in 962. No biography in the Codex yet; his reign is covered in the Holy Roman Empire article."
+        },
+        {
+          "name": "Conrad the Red",
+          "type": "person",
+          "note": "Duke of Lotharingia, recently in rebellion against Otto and restored to favour, who recovered the plundered baggage train and was killed by an arrow through the throat. No biography in the Codex yet."
+        },
+        {
+          "name": "Burchard III of Swabia",
+          "type": "person",
+          "note": "Commanded the two Swabian contingents that took the first Magyar attack. No biography in the Codex yet; the Swabian dukes are a gap the archive has not yet filled."
+        },
+        {
+          "name": "Boleslav I of Bohemia",
+          "type": "person",
+          "note": "Sent the thousand Bohemians who guarded the baggage and were ridden down first. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 7,000–9,000 in eight contingents",
+        "confidence": "debated",
+        "note": "Widukind of Corvey counts eight legiones — three Bavarian, two Swabian, one Franconian, one Bohemian and Otto’s own — and sizes only two of them, at about a thousand men each. Modern estimates built on that run from roughly 3,000 to 9,000; the chronicle tradition goes far higher.",
+        "min": 3000,
+        "max": 9000
+      }
+    },
+    {
+      "side": "Magyars",
+      "factions": [
+        {
+          "name": "Kingdom of Hungary",
+          "title": "Kingdom of Hungary",
+          "type": "location",
+          "slug": "kingdom-of-hungary"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Bulcsú",
+          "type": "person",
+          "note": "The harka, second man of the Magyar confederation, captured in the pursuit and hanged at Regensburg. No biography in the Codex yet; he is known almost entirely through Byzantine and German accounts of his raids."
+        },
+        {
+          "name": "Lél",
+          "type": "person",
+          "note": "One of the two chieftains hanged beside Bulcsú, and the subject of a famous late Hungarian legend about a horn. No biography in the Codex yet."
+        },
+        {
+          "name": "Súr",
+          "type": "person",
+          "note": "The third captured chieftain executed at Regensburg. No biography in the Codex yet: he is a name in the chronicles and nothing more."
+        }
+      ],
+      "strength": {
+        "display": "c. 8,000–10,000 horse archers; chronicle totals far higher",
+        "confidence": "debated",
+        "note": "No Magyar account survives. Modern estimates put the raiding army at eight to ten thousand horsemen with a siege train; medieval writers offer figures up to a hundred thousand, which the ground near Augsburg could not have fed.",
+        "min": 8000,
+        "max": 10000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of the Lechfeld, fought on 10 August 955 on the plain south of Augsburg, was the last great Magyar raid into the Latin west and the battle that ended the practice. Hungarian horsemen had ridden into Germany, Italy, Burgundy and as far as the Atlantic coast for half a century, arriving faster than armies could gather and leaving before they could be caught. In 955 they came to besiege Augsburg, Otto I came to relieve it, and for once the raiders accepted a pitched battle.",
+        "They lost it, and then lost far more in the retreat. Bulcsú, Lél and Súr, the three leaders taken alive, were hanged at Regensburg, and no Magyar army rode west again. Otto’s soldiers acclaimed him on the field in terms the chroniclers rendered as emperor and father of the fatherland; the coronation in Rome followed seven years later, and the Saxon dynasty built its imperial claim on this day."
+      ]
+    },
+    {
+      "title": "Background: fifty years of raiding",
+      "paragraphs": [
+        "Magyar groups had occupied the Carpathian basin from about 895 and turned raiding into a system. Their armies moved on remounts, avoided fortified places they could not rush, and were paid off as often as they were fought; East Francia bought a nine-year truce in 926, and the tribute habit spread. Henry the Fowler, Otto’s father, broke that pattern by refusing payment and beating a Magyar force at Riade in 933, and he spent the years before his death fortifying towns and training horsemen to meet them.",
+        "The 955 campaign caught Otto at his weakest moment. He had just suppressed the revolt of his son Liudolf and his son-in-law Conrad the Red, and the Magyars are said to have been invited in by the rebels or at least to have judged the kingdom too divided to respond. They rode to Augsburg and began to press the walls, which Bishop Ulrich held with a garrison and a town militia through the first days of August while Otto assembled a relief army at Ulm and moved down the Danube."
+      ]
+    },
+    {
+      "title": "The armies",
+      "paragraphs": [
+        "Widukind of Corvey, writing within a generation, describes Otto’s army as eight legiones: three of Bavarians, two of Swabians under Duke Burchard III, one of Franconians under Conrad the Red, a thousand Bohemians sent by Duke Boleslav I, and the royal contingent of Saxons and Thuringians around the king. He gives a size for only two of them, at about a thousand men each, which is why modern estimates of the whole force sit between three and nine thousand rather than at a figure anyone can defend precisely.",
+        "The Magyar host was a mounted army of archers, probably eight to ten thousand strong, carrying a siege train it had used against Augsburg. Its advantage was mobility and shooting on the move; its weakness was that a force of that kind, caught against rivers in flood with its remounts scattered, could not disengage. Both of those things happened in the same two days."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Magyars opened well. Rather than wait for the German column to deploy, a large body crossed the Lech, rode round its flank and fell on the rear, where the Bohemians were guarding the baggage. The Bohemian contingent was ridden down, the two Swabian contingents were badly mauled, and the attackers stopped to plunder the train — the habit that cost them the day. Otto sent Conrad the Red back with the Franconians, and Conrad recovered the baggage and scattered the looters.",
+        "With his rear cleared, Otto turned the main body against the Magyar centre and drove it back toward the river in close fighting where armoured horsemen had the advantage over archers at short range. Conrad, who had loosened his mail in the August heat, was killed by an arrow through the throat at the moment the line broke. Otto did not press the pursuit that evening. He returned to Augsburg, and the killing resumed in the morning."
+      ]
+    },
+    {
+      "title": "The pursuit and the hangings",
+      "paragraphs": [
+        "What turned a victory into an annihilation was the retreat. Heavy rain had swollen the Lech and the streams feeding it; the fords were guarded, the garrisons of the Bavarian towns had been warned, and fugitives who got past one river met another. Local levies hunted the survivors for days across the country between Augsburg and the Enns, and captives were killed or mutilated — some, the German sources say with satisfaction, were sent home to their prince without ears or noses.",
+        "Bulcsú, Lél and Súr were taken alive and handed to Henry I, Duke of Bavaria, who had them hanged at Regensburg. Executing captured commanders rather than ransoming them was a deliberate statement about what the Magyars were held to be: not enemies within the rules of war, but raiders outside them. The Hungarian tradition that grew up around Lél — that he asked for his horn, and used it to strike down the emperor before he died — is a much later story, first written down in the fourteenth century."
+      ]
+    },
+    {
+      "title": "What actually changed",
+      "paragraphs": [
+        "The claim that the Lechfeld ended the Magyar raids is true of the Latin west and only of the Latin west. No Hungarian army rode into Germany, Italy or France again, and that is a real and dated change. But raiding continued elsewhere for another fifteen years: Magyar contingents fought in the Balkans and against the Byzantine empire until they were beaten at Arcadiopolis in 970, which suggests the ruling house had redirected the practice rather than abandoned it under a single shock.",
+        "It is also worth saying what the battle was not. Otto did not conquer Hungary or impose terms; there was no treaty. What the Lechfeld destroyed was a generation of the warrior aristocracy that lived by raiding, and the dynasty that survived the loss chose a different course — Géza asked Otto for missionaries, and his son Stephen took a crown from the pope and a Bavarian wife. Historians also note that the raids had already been thinning in the decade before 955, so the battle confirmed and enforced a shift that had begun, rather than reversing a tide at a stroke."
+      ]
+    },
+    {
+      "title": "The imperial claim",
+      "paragraphs": [
+        "Otto’s army acclaimed him on the field in terms the chroniclers give as imperator and pater patriae. That acclamation had no constitutional force — the imperial title came from the pope, and John XII crowned him in Rome on 2 February 962 — but it gave the claim a battlefield origin that mattered more than any document. A king who had just saved Latin Christendom from the eastern raiders could present himself as the heir of Charlemagne with a straight face, and the Carolingian Empire was exactly the model he invoked.",
+        "The victory also settled Germany. Otto had spent the previous two years fighting his own son and son-in-law; one of them died on the Lechfeld in his service, and the dukes who brought contingents to Augsburg had been in arms against him the year before. The battle is remembered as the founding victory of the Holy Roman Empire because it did both jobs at once: it ended an external danger and it bound the duchies to the Saxon king who had ended it."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Lechfeldschlacht%20in%20der%20S%C3%A4chsischen%20Weltchronik%20002.jpg",
+      "caption": "The earliest surviving depiction, drawn about 1270 in the Saxon World Chronicle: Hungarian horsemen carry off the German baggage train.",
+      "creator": "Unknown illuminator",
+      "date": "c. 1270",
+      "source": "Forschungs- und Landesbibliothek Gotha, Ms. Memb. I 90, fol. 87v (via Wikimedia Commons)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lechfeldschlacht_in_der_S%C3%A4chsischen_Weltchronik_002.jpg",
+      "note": "Drawn about three centuries after the event and showing thirteenth-century equipment, but valuable as the oldest picture of the battle and for choosing the plundering of the baggage as the moment worth drawing. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "When the raiders became the raided",
+    "battleSlug": "battle-of-mohi",
+    "relationship": "same-factions",
+    "reason": "The Magyars broken on the Lechfeld settled, took a crown and became the Kingdom of Hungary; in 1241 at Mohi a new steppe army under Batu Khan and Subutai did to Béla IV’s kingdom what Magyar horsemen had done to the west for fifty years."
+  },
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "The empire the victory founded"
+      },
+      {
+        "title": "Kingdom of Hungary",
+        "type": "location",
+        "slug": "kingdom-of-hungary",
+        "label": "The defeated, who turned west after 955"
+      },
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The imperial title Otto revived"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi",
+        "label": "Hungary on the receiving end, 1241"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "The empire’s Italian limits, two centuries on"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "c. 895",
+      "title": "The Magyars enter the Carpathian basin",
+      "description": "Groups under Árpád settle the plain and begin raiding westward within a decade."
+    },
+    {
+      "date": "933",
+      "title": "Riade",
+      "description": "Henry the Fowler refuses further tribute and beats a Magyar force, beginning the fortification programme his son inherited."
+    },
+    {
+      "date": "953–954",
+      "title": "Liudolf’s revolt",
+      "description": "Otto I fights his son Liudolf and his son-in-law Conrad the Red; the kingdom is still unsettled when the Magyars come."
+    },
+    {
+      "date": "Early August 955",
+      "title": "Augsburg besieged",
+      "description": "The Magyar army invests the city, which Bishop Ulrich holds with its garrison and townsmen while Otto gathers a relief force."
+    },
+    {
+      "date": "10 August 955",
+      "title": "The attack on the baggage",
+      "description": "Magyar horsemen cross the Lech, ride round the German column and rout the Bohemians guarding the train before stopping to plunder it."
+    },
+    {
+      "date": "10 August 955",
+      "title": "Conrad the Red falls",
+      "description": "Conrad recovers the baggage and scatters the looters, then is killed by an arrow through the throat as the Magyar centre breaks."
+    },
+    {
+      "date": "11–12 August 955",
+      "title": "The pursuit",
+      "description": "Rivers in flood and warned garrisons turn the retreat into a slaughter across the country between Augsburg and the Enns."
+    },
+    {
+      "date": "August 955",
+      "title": "Regensburg",
+      "description": "Bulcsú, Lél and Súr are hanged by Henry I of Bavaria rather than ransomed."
+    },
+    {
+      "date": "2 February 962",
+      "title": "Otto crowned emperor",
+      "description": "John XII crowns Otto in Rome, giving the title the Lechfeld acclamation had anticipated."
+    },
+    {
+      "date": "970",
+      "title": "Arcadiopolis",
+      "description": "Magyar contingents are beaten in the Balkans, the last phase of the raiding the Lechfeld had driven out of the west."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Lechfeld_955_Hektor_M%C3%BClich_1457.jpg"
+    },
+    {
+      "title": "Battle of Lechfeld (955) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Lechfeld_(955)"
+    },
+    {
+      "title": "Schlacht auf dem Lechfeld — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_auf_dem_Lechfeld"
+    },
+    {
+      "title": "Widukind of Corvey, Res gestae Saxonicae",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Widukind_of_Corvey"
+    }
+  ]
+}

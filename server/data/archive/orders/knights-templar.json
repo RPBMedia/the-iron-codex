@@ -287,14 +287,16 @@
       "date": "17 Oct 1244",
       "role": "Field army annihilated; the master lost.",
       "opponent": "Ayyubid–Khwarezmian army",
-      "outcome": "Catastrophic defeat"
+      "outcome": "Catastrophic defeat",
+      "slug": "battle-of-la-forbie"
     },
     {
       "name": "Mansurah",
       "date": "8–11 Feb 1250",
       "role": "Vanguard mauled in the streets of the town.",
       "opponent": "Ayyubids of Egypt",
-      "outcome": "Crusader defeat"
+      "outcome": "Crusader defeat",
+      "slug": "battle-of-mansurah"
     }
   ],
   "strongholds": [
@@ -368,7 +370,14 @@
     {
       "date": "1244",
       "title": "La Forbie",
-      "description": "The order’s field army is annihilated alongside the barons of Outremer."
+      "description": "The order’s field army is annihilated alongside the barons of Outremer.",
+      "links": [
+        {
+          "title": "Battle of La Forbie",
+          "type": "event",
+          "slug": "battle-of-la-forbie"
+        }
+      ]
     },
     {
       "date": "1291",
@@ -521,6 +530,18 @@
         "type": "event",
         "slug": "battle-of-las-navas-de-tolosa",
         "label": "1212 — crusading in Iberia"
+      },
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "1244 — thirty-three brothers survived"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "1250 — five of some 290 brothers came out of the town"
       }
     ],
     "locations": [

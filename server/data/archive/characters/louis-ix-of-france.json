@@ -117,7 +117,14 @@
     {
       "date": "1250",
       "title": "Captured after Mansurah",
-      "description": "The Egyptian campaign collapsed and Louis was ransomed."
+      "description": "The Egyptian campaign collapsed and Louis was ransomed.",
+      "links": [
+        {
+          "title": "Battle of Mansurah",
+          "type": "event",
+          "slug": "battle-of-mansurah"
+        }
+      ]
     },
     {
       "date": "1270",
@@ -166,6 +173,12 @@
         "title": "Third Crusade",
         "type": "event",
         "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "The battle that wrecked his Egyptian crusade"
       }
     ],
     "people": [

@@ -107,7 +107,14 @@
     {
       "date": "1248",
       "title": "Joins Seventh Crusade",
-      "description": "He accompanied Louis IX to Egypt."
+      "description": "He accompanied Louis IX to Egypt.",
+      "links": [
+        {
+          "title": "Battle of Mansurah",
+          "type": "event",
+          "slug": "battle-of-mansurah"
+        }
+      ]
     },
     {
       "date": "1266",
@@ -148,6 +155,12 @@
         "title": "Third Crusade",
         "type": "event",
         "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "Fought there with his brothers in 1250"
       }
     ]
   },

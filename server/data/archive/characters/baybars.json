@@ -111,7 +111,14 @@
     {
       "date": "1260",
       "title": "Fights at Ain Jalut",
-      "description": "Baybars helped defeat the Mongols in a battle with major regional consequences."
+      "description": "Baybars helped defeat the Mongols in a battle with major regional consequences.",
+      "links": [
+        {
+          "title": "Battle of Ain Jalut",
+          "type": "event",
+          "slug": "battle-of-ain-jalut"
+        }
+      ]
     },
     {
       "date": "1268",
@@ -159,6 +166,24 @@
         "title": "Third Crusade",
         "type": "event",
         "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "Commanded the Egyptian troops in the 1244 victory"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "Led the mamluks who destroyed the crusader vanguard"
+      },
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "Commanded the vanguard that drew in Kitbuqa"
       }
     ]
   },

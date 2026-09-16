@@ -1,0 +1,310 @@
+{
+  "id": "battle-of-courtrai",
+  "type": "event",
+  "name": "Battle of Courtrai",
+  "aliases": [
+    "Battle of the Golden Spurs",
+    "Golden Spurs",
+    "Guldensporenslag",
+    "Battle of Kortrijk"
+  ],
+  "year": 1302,
+  "location": "Outside Kortrijk (Courtrai), County of Flanders",
+  "eventType": "Battle",
+  "conflict": "Franco-Flemish War",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GCF%20-%20Battle%20of%20the%20Golden%20Spurs.png",
+  "imageInfo": {
+    "caption": "French knights in fleur-de-lis surcoats going down before Flemish footmen, in a Grandes Chroniques de France miniature of about 1390–1401.",
+    "creator": "Anonymous illuminator",
+    "date": "c. 1390–1401; shows 11 July 1302",
+    "source": "Bibliothèque nationale de France, MS Français 2608, fol. 377v (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GCF_-_Battle_of_the_Golden_Spurs.png",
+    "note": "Painted for the French royal chronicle about ninety years after the battle, and unusually candid for it: the French are shown in rout and the Flemish foot are cutting down the knights. Equipment is late fourteenth-century, not 1302. Public domain."
+  },
+  "summary": "Flemish town militias destroyed the French royal cavalry outside Kortrijk on 11 July 1302, stripping some five hundred pairs of gilded spurs from the dead and giving the battle its name.",
+  "details": "On 11 July 1302 the communal militias of Bruges, Ypres and the Flemish towns, stiffened by a few hundred knights fighting on foot, stood behind the brooks and ditches outside Kortrijk and broke a French army that had been sent to crush the rising after the Bruges Matins. Robert II of Artois pulled back his own infantry to give his cavalry room, the charge foundered in the wet ground, and the Constable of France, two Marshals and some seventy-five nobles were killed with him.",
+  "factions": [
+    "County of Flanders",
+    "Kingdom of France"
+  ],
+  "leaders": [
+    {
+      "name": "William of Jülich",
+      "faction": "Flemish militias"
+    },
+    {
+      "name": "Guy of Namur",
+      "faction": "Flemish militias"
+    },
+    {
+      "name": "Robert II of Artois",
+      "faction": "French royal army"
+    }
+  ],
+  "outcome": "Decisive Flemish victory. The French field army was destroyed with its commander, the Constable and two Marshals, and French occupation of Flanders collapsed — but the war ran on, and Flanders was beaten at Mons-en-Pévèle in 1304 and forced to harsh terms in 1305.",
+  "participants": [
+    {
+      "side": "Flemish militias",
+      "factions": [
+        {
+          "name": "County of Flanders",
+          "title": "County of Flanders",
+          "type": "location",
+          "slug": "county-of-flanders"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William of Jülich",
+          "type": "person",
+          "note": "Grandson of Count Guy of Dampierre and the rising’s military head, killed two years later at Mons-en-Pévèle. No biography in the Codex yet; the Dampierre family is a gap the archive has not filled."
+        },
+        {
+          "name": "Guy of Namur",
+          "type": "person",
+          "note": "Son of the imprisoned count, who commanded with William of Jülich and knighted men on the field before the fighting. No biography in the Codex yet."
+        },
+        {
+          "name": "Jan van Renesse",
+          "type": "person",
+          "note": "The Zeeland nobleman who commanded the reserve and committed it at the moment the French reached the Flemish line. No biography in the Codex yet."
+        },
+        {
+          "name": "Pieter de Coninck",
+          "type": "person",
+          "note": "The Bruges weaver-dean who led the guilds in the rising and was knighted before the battle. No biography in the Codex yet: he is documented through the town’s revolt rather than a career."
+        }
+      ],
+      "strength": {
+        "display": "c. 8,000–11,000 foot, including some 400–500 nobles fighting dismounted",
+        "confidence": "estimated",
+        "note": "Militia contingents were raised by town and guild and are better recorded than most medieval armies, though totals still vary: roughly 8,000 to 11,000 foot with about 900 crossbowmen, and several hundred knights and squires who sent their horses to the rear.",
+        "min": 8000,
+        "max": 11000
+      }
+    },
+    {
+      "side": "French royal army",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Robert II of Artois",
+          "type": "person",
+          "note": "The king’s commander in Flanders, a veteran of Italy and Gascony, killed in the centre of the Flemish line. No biography in the Codex yet; he is not to be confused with the Robert of Artois killed at Mansurah in 1250, his father."
+        },
+        {
+          "name": "Raoul de Nesle",
+          "type": "person",
+          "note": "Constable of France, killed in the charge he is said to have advised against. No biography in the Codex yet."
+        },
+        {
+          "name": "Jacques de Châtillon",
+          "type": "person",
+          "note": "Philip IV’s governor of Flanders, whose taxation provoked the rising and who died in the rout. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 8,000–8,500, of them some 2,300–2,500 armoured horse",
+        "confidence": "estimated",
+        "note": "French pay records give a firmer basis here than for most battles of the period: around 2,300 to 2,500 men-at-arms, about 1,000 crossbowmen, and several thousand infantry including Lombard and Spanish mercenaries.",
+        "min": 8000,
+        "max": 8500
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Courtrai, fought outside Kortrijk on 11 July 1302, is the battle in which the richest urban society in northern Europe destroyed a French royal army with its own townsmen. Philip IV had annexed Flanders in all but name; the towns rose in May, massacred the French garrison of Bruges, and in July met the army sent to punish them on ground of their own choosing, laced with brooks and drainage ditches that no cavalry charge could cross in order.",
+        "They killed Robert II of Artois, the Constable of France, two Marshals and some seventy-five other nobles, took no prisoners, and hung about five hundred pairs of gilded spurs stripped from the dead in the church of Our Lady in Kortrijk. The result stunned Europe. It did not, however, win the war: the same towns were beaten at Mons-en-Pévèle two years later, and the peace of 1305 cost Flanders Lille, Douai and Béthune and a crushing indemnity."
+      ]
+    },
+    {
+      "title": "Background: the Bruges Matins",
+      "paragraphs": [
+        "Flanders was a French fief whose wealth depended on English wool, which made its politics permanently unstable. Count Guy of Dampierre allied with Edward I of England in 1297; Philip IV invaded, imprisoned the count and his heir, and by 1300 governed the county directly through Jacques de Châtillon. Direct rule meant new taxes, and it fell hardest on the weavers and fullers who had already been fighting the patrician families that ran the towns.",
+        "On 18 May 1302 the guildsmen of Bruges, led by the weaver-dean Pieter de Coninck and the butcher Jan Breydel, killed the French garrison and every Frenchman they could find in the streets before dawn. The killing became known as the Bruges Matins, and it made accommodation impossible. Within weeks most of Flanders was in arms, Guy of Namur and William of Jülich had taken command, and a royal army was mustering to restore order."
+      ]
+    },
+    {
+      "title": "The ground and the weapons",
+      "paragraphs": [
+        "The Flemish army placed itself with the town of Kortrijk and its castle behind it, and in front a belt of streams — the Groeningebeek among them — and the ditches of worked farmland. The position could not be turned without a long march, and it could not be charged without first crossing broken, waterlogged ground that forced horses to slow and bunch. That was the whole tactical idea, and the Flemish commanders knew it: they told their men to stand, to kill the horses, and to take no prisoners for ransom.",
+        "The militias carried pikes and the goedendag, a heavy iron-shod staff with a spike, which was useless at reach against a lance but lethal against a horse or a man already down. Crossbowmen and about four hundred nobles fighting on foot filled out the line. The idea that the guilds fought as an untrained mob is wrong: militia service was a civic obligation organised by guild, with equipment requirements and musters, and Flanders had been fighting for five years."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The fighting opened with missiles, and the French had the better of it: their thousand crossbowmen pushed the Flemish shooters back, and the French infantry began to press the line. Robert of Artois then made the decision the battle is remembered for. He recalled his own infantry and crossbowmen — who were winning — to clear a lane for the cavalry, and sent the men-at-arms forward across the brooks.",
+        "The charge arrived slowed, disordered and in places dismounted by the ditches, and it struck a formation that did not break. Horses went down, riders were killed on the ground with the goedendag, and the Flemish line held long enough for the reserve under Jan van Renesse to come in where the French had bitten deepest. Artois rode into the centre himself, reached the Flemish banner, and was pulled down and killed. With him died the Constable Raoul de Nesle, two Marshals, Jacques de Châtillon and some seventy-five other lords; the French lost over a thousand men, the Flemish a few hundred."
+      ]
+    },
+    {
+      "title": "The golden spurs, and what they mean",
+      "paragraphs": [
+        "The name comes from a real trophy. Gilded spurs were knightly equipment, and about five hundred pairs taken from the French dead were hung in the church of Our Lady in Kortrijk as an offering. The French took them back after they won at Mons-en-Pévèle in 1304, which is a useful corrective to the way the story is usually told. The Dutch name Guldensporenslag and the battle’s standing as a national symbol are far later: Hendrik Conscience’s novel The Lion of Flanders of 1838 made it the founding myth of the Flemish movement, and 11 July became the Flemish Community’s official holiday only in 1973.",
+        "The other familiar reading — that common infantry beat the flower of chivalry and ended the age of the knight — needs the same care. Flemish knights and nobles fought in the line and commanded it; the terrain did as much as the goedendag; and the decisive error was French, when Artois withdrew infantry that was already winning. Heavy cavalry was not made obsolete in 1302, as the same French army demonstrated two years later. What Courtrai proved is narrower and still important: disciplined foot on chosen ground, told to hold and given a reason to, could destroy a mounted charge."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "The immediate result was total. French administration in Flanders collapsed, the towns took the government of the county, and Philip IV had to fight for four more years to recover his position. But the French crown had more men and more money, and it used both: the Flemish were checked at Arques in 1303, beaten at sea off Zierikzee in 1304, and defeated at Mons-en-Pévèle in August 1304, where William of Jülich was killed.",
+        "The Treaty of Athis-sur-Orge in June 1305 set the terms. Flanders kept its count and its identity as a fief rather than a province, which is what the rising had been about; it paid an enormous indemnity, accepted the destruction of Bruges’s walls, and lost Lille, Douai and Béthune to the royal domain. The county that had humiliated the French monarchy in 1302 spent the next generation paying for it, and the grievance fed straight into the Flemish alliances with England at the opening of the Hundred Years’ War."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ms%20659%20f.137%20r.%20The%20Flemish%20defeat%20the%20French%20Army%20at%20the%20Battle%20of%20the%20Golden%20Spurs%20near%20Courtrai%20in%201302.png",
+      "caption": "Flemish foot closing over the fallen with levelled spears, in a manuscript miniature of 1477 (Ms 659, fol. 137r).",
+      "creator": "Anonymous illuminator",
+      "date": "1477; shows 11 July 1302",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ms_659_f.137_r._The_Flemish_defeat_the_French_Army_at_the_Battle_of_the_Golden_Spurs_near_Courtrai_in_1302.png",
+      "note": "A late fifteenth-century image, so the armour is of its own day, but it shows the thing the written sources stress: a dense hedge of spear points held by men on foot, with the mounted enemy already on the ground. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The same charge, forty-four years later",
+    "battleSlug": "battle-of-crecy",
+    "relationship": "same-factions",
+    "reason": "Courtrai showed the French monarchy what happened when armoured horse was sent piecemeal against prepared infantry; in 1346 at Crécy, Philip VI repeated it against Edward III’s dismounted men-at-arms and archers, and lost an army the same way on a far larger scale."
+  },
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "County of Flanders",
+        "type": "location",
+        "slug": "county-of-flanders",
+        "label": "The rebel county"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The defeated crown"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Bouvines",
+        "type": "event",
+        "slug": "battle-of-bouvines",
+        "label": "The earlier Flemish reckoning with France, 1214"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "The lesson not learned"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Where the Flemish grievance led"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "Pike",
+        "type": "weaponArmor",
+        "slug": "pike",
+        "label": "The weapon of the militia blocks"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1297",
+      "title": "Guy of Dampierre allies with England",
+      "description": "The count backs Edward I over the wool trade, and Philip IV invades Flanders."
+    },
+    {
+      "date": "1300",
+      "title": "Direct French rule",
+      "description": "The count is imprisoned and Jacques de Châtillon governs the county for the crown, raising new taxes."
+    },
+    {
+      "date": "18 May 1302",
+      "title": "The Bruges Matins",
+      "description": "Guildsmen under Pieter de Coninck kill the French garrison of Bruges before dawn, making a settlement impossible."
+    },
+    {
+      "date": "June 1302",
+      "title": "Flanders in arms",
+      "description": "William of Jülich and Guy of Namur take command as the towns rise; a royal army musters under Robert II of Artois."
+    },
+    {
+      "date": "9–10 July 1302",
+      "title": "The Flemish take position",
+      "description": "The militias form outside Kortrijk behind the Groeningebeek and the field ditches, with the town at their back."
+    },
+    {
+      "date": "11 July 1302",
+      "title": "Artois recalls his infantry",
+      "description": "Winning the missile fight, the French commander pulls back his own foot and crossbowmen to give the cavalry room to charge."
+    },
+    {
+      "date": "11 July 1302",
+      "title": "The charge breaks",
+      "description": "The horsemen cross the brooks in disorder, the Flemish line holds, and Jan van Renesse commits the reserve."
+    },
+    {
+      "date": "11 July 1302",
+      "title": "Artois killed",
+      "description": "The French commander reaches the Flemish banner and is pulled down; the Constable, two Marshals and some seventy-five nobles die with him."
+    },
+    {
+      "date": "July 1302",
+      "title": "The spurs hung up",
+      "description": "About five hundred pairs of gilded spurs taken from the dead are offered in the church of Our Lady at Kortrijk."
+    },
+    {
+      "date": "August 1304",
+      "title": "Mons-en-Pévèle",
+      "description": "The French beat the Flemish army and recover the spurs; William of Jülich is killed."
+    },
+    {
+      "date": "June 1305",
+      "title": "Treaty of Athis-sur-Orge",
+      "description": "Flanders keeps its count but pays a huge indemnity and loses Lille, Douai and Béthune to the royal domain."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:GCF_-_Battle_of_the_Golden_Spurs.png"
+    },
+    {
+      "title": "Battle of the Golden Spurs — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_the_Golden_Spurs"
+    },
+    {
+      "title": "Franco-Flemish War — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Franco-Flemish_War"
+    },
+    {
+      "title": "The Art of Warfare in Western Europe during the Middle Ages",
+      "author": "J. F. Verbruggen",
+      "type": "book"
+    }
+  ]
+}

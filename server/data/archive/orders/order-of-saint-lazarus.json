@@ -137,14 +137,16 @@
       "date": "17 Oct 1244",
       "role": "The order’s knights almost annihilated with the army of Outremer.",
       "opponent": "Ayyubid–Khwarezmian army",
-      "outcome": "Catastrophic defeat"
+      "outcome": "Catastrophic defeat",
+      "slug": "battle-of-la-forbie"
     },
     {
       "name": "Mansurah",
       "date": "8–11 Feb 1250",
       "role": "Lazarite brothers lost in Louis IX’s Egyptian crusade.",
       "opponent": "Ayyubids of Egypt",
-      "outcome": "Crusader defeat"
+      "outcome": "Crusader defeat",
+      "slug": "battle-of-mansurah"
     },
     {
       "name": "Acre (1291)",
@@ -195,7 +197,14 @@
     {
       "date": "1244",
       "title": "La Forbie",
-      "description": "The order’s contingent is almost destroyed alongside the army of the Latin East."
+      "description": "The order’s contingent is almost destroyed alongside the army of the Latin East.",
+      "links": [
+        {
+          "title": "Battle of La Forbie",
+          "type": "event",
+          "slug": "battle-of-la-forbie"
+        }
+      ]
     },
     {
       "date": "1253",
@@ -300,6 +309,20 @@
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "The great hospitaller order alongside it"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "1244 — the order’s contingent almost annihilated"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "1250 — Lazarite brothers lost on Louis IX’s crusade"
       }
     ]
   }

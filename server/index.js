@@ -368,7 +368,15 @@ const eventSortDates = {
   'battle-of-myriokephalon': { year: 1176, month: 9, day: 17 },
   'siege-of-vladimir': { year: 1238, month: 2, day: 7 }, // the day the city fell; the assault began on the 3rd
   'battle-of-the-sit-river': { year: 1238, month: 3, day: 4 },
-  'battle-of-legnica': { year: 1241, month: 4, day: 9 }
+  'battle-of-legnica': { year: 1241, month: 4, day: 9 },
+  // r38 battle batch. Two of the new battles share a year with an existing
+  // event, and the rule is that when two events share a year, EVERY event of
+  // that year needs an entry — so Bapheus and Ryazan are added too. Both were
+  // silently sorting to 1 January before this.
+  'battle-of-courtrai': { year: 1302, month: 7, day: 11 },
+  'battle-of-bapheus': { year: 1302, month: 7, day: 27 },
+  'battle-of-cortenuova': { year: 1237, month: 11, day: 27 },
+  'siege-of-ryazan': { year: 1237, month: 12, day: 21 }
 }
 
 function numericYear(value) {

@@ -140,6 +140,11 @@
           "type": "person",
           "slug": "baybars",
           "label": "Qutuz's lieutenant and eventual successor"
+        },
+        {
+          "title": "Battle of Ain Jalut",
+          "type": "event",
+          "slug": "battle-of-ain-jalut"
         }
       ]
     }
@@ -167,7 +172,14 @@
         "label": "The Mamluk sultan who soon dominated the state"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "The victory his deposition was justified by"
+      }
+    ]
   },
   "sources": [
     {

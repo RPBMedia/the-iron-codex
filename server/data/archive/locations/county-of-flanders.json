@@ -170,6 +170,12 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The wool war's great frame"
+      },
+      {
+        "title": "Battle of Courtrai",
+        "type": "event",
+        "slug": "battle-of-courtrai",
+        "label": "1302: the militias destroy the French cavalry"
       }
     ]
   },
@@ -203,7 +209,14 @@
     {
       "date": "11 July 1302",
       "title": "Courtrai — the Golden Spurs",
-      "description": "Communal infantry destroys the French royal cavalry; five hundred pairs of spurs hang in the church."
+      "description": "Communal infantry destroys the French royal cavalry; five hundred pairs of spurs hang in the church.",
+      "links": [
+        {
+          "title": "Battle of Courtrai",
+          "type": "event",
+          "slug": "battle-of-courtrai"
+        }
+      ]
     },
     {
       "date": "1338–1345",

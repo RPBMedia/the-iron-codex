@@ -1,0 +1,301 @@
+{
+  "id": "battle-of-ain-jalut",
+  "type": "event",
+  "name": "Battle of Ain Jalut",
+  "aliases": [
+    "Battle of Ayn Jalut",
+    "Ain Jalut",
+    "Ayn Jalut"
+  ],
+  "year": 1260,
+  "location": "Ain Jalut, the spring of Harod in the Jezreel valley, Galilee",
+  "eventType": "Battle",
+  "conflict": "The Mongol invasion of Syria",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Campaign%20of%20the%20Battle%20of%20Ain%20Jalut%201260.svg",
+  "imageInfo": {
+    "caption": "A 2008 campaign map of the Ain Jalut year: Kitbuqa’s Mongols moving down from Baalbek, the Mamluk army marching up from Egypt past Frankish Acre.",
+    "creator": "MapMaster (Wikimedia Commons)",
+    "date": "2008; shows the campaign of 1260",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campaign_of_the_Battle_of_Ain_Jalut_1260.svg",
+    "note": "A modern reconstruction of the two approach marches, not a period document; no contemporary depiction of the battle survives. It shows the point the written sources stress — that the Mamluks came up the coast through territory the Franks of Acre chose not to defend. Licensed CC BY 3.0."
+  },
+  "summary": "The Mamluks of Egypt destroyed a Mongol army under Kitbuqa at the spring of Ain Jalut in Galilee on 3 September 1260, recovering Syria and making their sultanate the dominant power of the Near East.",
+  "details": "With Hulagu withdrawn east and Kitbuqa left holding Syria with a reduced force, Sultan Qutuz marched from Egypt, secured passage past Frankish Acre and met the Mongols in the Jezreel valley on 3 September 1260. Baybars drew Kitbuqa forward with a feigned retreat into ground where the main Mamluk army was waiting; the Mongol left broke the Mamluk wing before Qutuz rallied it in person. Kitbuqa was captured and executed, and Damascus and Aleppo fell back to Cairo within weeks.",
+  "factions": [
+    "Mongol Empire"
+  ],
+  "leaders": [
+    {
+      "name": "Qutuz",
+      "faction": "Mamluk Sultanate",
+      "personId": "qutuz"
+    },
+    {
+      "name": "Baybars",
+      "faction": "Mamluk Sultanate",
+      "personId": "baybars"
+    },
+    {
+      "name": "Kitbuqa",
+      "faction": "Mongols"
+    }
+  ],
+  "outcome": "Decisive Mamluk victory. Kitbuqa was killed, Mongol rule in Syria collapsed within weeks, and the Mamluk sultanate became the leading power of the Near East — though the war with the Ilkhanate ran on for another sixty years.",
+  "participants": [
+    {
+      "side": "Mamluk Sultanate",
+      "factions": [
+        {
+          "name": "Mamluk Sultanate of Egypt",
+          "note": "No article yet in this archive: the regime the Bahri mamluks took from the Ayyubids after the murder of Turanshah in 1250, and which ruled Egypt and Syria until 1517."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Qutuz",
+          "title": "Qutuz",
+          "type": "person",
+          "slug": "qutuz"
+        },
+        {
+          "name": "Baybars",
+          "title": "Baybars",
+          "type": "person",
+          "slug": "baybars"
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000–20,000, probably the larger army",
+        "confidence": "debated",
+        "note": "Arabic accounts describe the composition and the march rather than counting the army. Most modern estimates put both forces in the same range and give the Mamluks the advantage in numbers, which is the reverse of how the battle is usually remembered.",
+        "min": 10000,
+        "max": 20000
+      }
+    },
+    {
+      "side": "Mongols",
+      "factions": [
+        {
+          "name": "Mongol Empire",
+          "title": "Mongol Empire",
+          "type": "location",
+          "slug": "mongol-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Kitbuqa",
+          "type": "person",
+          "note": "A Naiman Christian and one of Hulagu’s senior generals, left to hold Syria and executed after being unhorsed and captured. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000–20,000: one tumen with Armenian, Georgian and Syrian auxiliaries",
+        "confidence": "debated",
+        "note": "Hulagu left Kitbuqa a single tumen — ten thousand men at nominal strength and usually fewer — supplemented by Armenian and Georgian contingents and troops raised from newly submitted Syrian towns. This was an occupation force, not the field army that had taken Baghdad.",
+        "min": 10000,
+        "max": 20000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Ain Jalut, fought on 3 September 1260 beside the spring of Harod in the Jezreel valley, is the battle in which a Mongol army in the west was destroyed and the ground it had taken was held. The Mamluks of Egypt — slave soldiers who had seized the Egyptian state ten years earlier — marched into Palestine under Sultan Qutuz, met Kitbuqa’s force in open country, and broke it. Kitbuqa was captured and executed; Damascus and Aleppo returned to Cairo’s obedience within weeks.",
+        "The battle is usually told as the moment the invincible Mongols were stopped for the first time, which is not what happened and undersells what did. Mongol armies had suffered reverses before, and the force at Ain Jalut was an occupation garrison rather than the army that had sacked Baghdad two years earlier, because Hulagu had taken the bulk of his troops east months before. What Ain Jalut settled was who would govern Syria, and the answer — Cairo — held for two and a half centuries."
+      ]
+    },
+    {
+      "title": "Background: the Mongols in Syria",
+      "paragraphs": [
+        "Hulagu came west with a mandate from his brother, the Great Khan Möngke, to subdue the Islamic lands. He destroyed the Assassins’ castles in 1256, took Baghdad in 1258 and killed the last Abbasid caliph, and in January 1260 stormed Aleppo. Damascus surrendered without a siege that March, its last Ayyubid ruler having fled; Kitbuqa entered the city, and a Christian mass was celebrated in the Umayyad Mosque, which tells you how completely the order of the Near East had been overturned.",
+        "Egypt was next, and Hulagu sent envoys to Cairo with a demand for submission phrased with the usual studied contempt — fortresses will not detain us, armies will not stop us, where will you flee. Qutuz, who had deposed the boy-sultan al-Mansur Ali in 1259 on the argument that a child could not lead the defence against the Mongols, had the envoys killed and their heads displayed on a gate of Cairo. That made the war unavoidable, which was the point."
+      ]
+    },
+    {
+      "title": "Hulagu’s withdrawal",
+      "paragraphs": [
+        "The single most important fact about Ain Jalut happened before it. Möngke died in August 1259, and the succession fell into dispute between Kublai and Ariq Böke. Hulagu turned back east with the greater part of his army to be in reach of the politics, leaving Kitbuqa one tumen — ten thousand at establishment, in practice fewer — with Armenian, Georgian and locally raised auxiliaries to hold everything from the Euphrates to Gaza.",
+        "The succession crisis is the reason usually given and it is genuine, but historians add a second that is less dramatic and probably as important: Syria could not feed the horses. A Mongol field army needed enormous pasturage, several remounts per man, and it was standard practice to summer in cooler highland grazing. The Syrian interior in summer could not support the whole force whatever was happening in Mongolia. Both explanations point the same way, and the honest statement is that Hulagu left because the political crisis made it urgent and the logistics made it sensible — not that a Mongol army fled from the Mamluks."
+      ]
+    },
+    {
+      "title": "The march and the Frankish decision",
+      "paragraphs": [
+        "Qutuz took the army out of Egypt in July 1260 and up the coast, which meant passing the territory of the Kingdom of Jerusalem. The Franks of Acre had a choice, and they had been offered both sides: the Mongols had demanded their submission, and some crusader lords further north — Bohemond VI of Antioch above all — had already accepted Mongol overlordship. The barons of Acre decided on neutrality favourable to Cairo. They refused an alliance but allowed the Mamluk army to camp outside the city, buy supplies and pass unmolested.",
+        "It was a coldly practical judgement: the Mongols had killed a Frankish contingent near Sidon shortly before, and the Franks reckoned a Muslim neighbour they knew was less dangerous than a Mongol one they did not. It also meant the Mamluks arrived in Galilee rested and supplied rather than after a fighting march. Within eight years the sultan they had helped on his way would begin taking their cities apart."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The armies met on 3 September in the Jezreel valley by the spring the Arabic sources call Ain Jalut, the Goliath’s spring. Baybars commanded the Mamluk vanguard, and the tactic was one the Mongols themselves had used across two continents: he engaged, then pulled back in what looked like a broken retreat, drawing Kitbuqa after him into the valley where the main Mamluk army was waiting in the hills on either side.",
+        "The trap did not close cleanly. Kitbuqa drove his charge home hard enough to break the Mamluk left wing, and for a period the battle could have gone either way. What the Arabic accounts describe next is Qutuz throwing off his helmet so his men could see his face, crying out for Islam, and leading the rally in person that closed the line again. The Mongols, outnumbered and now enveloped, broke. Kitbuqa was unhorsed, taken alive and executed — defiant to the end, according to the sources, telling his captors that the khan’s vengeance would come."
+      ]
+    },
+    {
+      "title": "What it settled, and what it did not",
+      "paragraphs": [
+        "It settled Syria. Damascus rose against its Mongol garrison within days and Aleppo followed; the frontier stabilised roughly on the Euphrates and stayed there. It also settled Egypt’s politics in the most direct way available: on the road back to Cairo in October, Qutuz was murdered in a conspiracy that included Baybars, who took the throne and ruled for seventeen years. The victory of Ain Jalut became the foundation of the Mamluk regime’s legitimacy, and Baybars spent the credit on the crusader states — Caesarea, Safed, Antioch in 1268.",
+        "What it did not do is end the Mongol threat, and the claim that the Mongols were invincible until this day does not survive contact with the record either. Reverses had happened before, in India and elsewhere, and this was a detachment rather than Hulagu’s main force. The Ilkhanate came back repeatedly: the Mamluks beat a second Mongol army at Homs in December 1260 and another at Elbistan in 1277, and in 1299 they were badly beaten at Wadi al-Khazandar, after which the Mongols held Damascus for a few months. The fighting only really stopped with the peace of 1323. Ain Jalut’s claim on the memory is narrower and solid: it was the first time a Mongol army in the west was destroyed in the field by a power that then kept the ground."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "What it settled, and what it did not",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Qutuz%20gold%20dinar%20obverse.jpg",
+      "caption": "Gold dinar of Sultan Qutuz struck at Alexandria in 1260, the year he marched to Ain Jalut and was murdered on the road home.",
+      "creator": "American Numismatic Society",
+      "date": "Coin struck 1260; museum photograph",
+      "source": "American Numismatic Society",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qutuz_gold_dinar_obverse.jpg",
+      "note": "Mamluk coinage is aniconic, so the dinar carries the sultan’s titles rather than his face; it is evidence for the reign, not a likeness. Released CC0 by the American Numismatic Society."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Where these Mamluks came from",
+    "battleSlug": "battle-of-mansurah",
+    "relationship": "earlier-context",
+    "reason": "The regiments that destroyed Kitbuqa were the same Bahri mamluks who had trapped Louis IX’s vanguard in the streets of Mansurah ten years before, then murdered Sultan Turanshah and took Egypt for themselves; Baybars commanded in both battles."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Qutuz",
+        "type": "person",
+        "slug": "qutuz",
+        "label": "Commander; murdered weeks after the victory"
+      },
+      {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "Commanded the vanguard, then took the throne"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire",
+        "label": "The defeated"
+      },
+      {
+        "title": "Damascus",
+        "type": "location",
+        "slug": "damascus",
+        "label": "Mongol in March 1260, Mamluk by September"
+      },
+      {
+        "title": "Crusader States",
+        "type": "location",
+        "slug": "crusader-states",
+        "label": "The Franks of Acre, who let the Mamluks pass"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "Where these mamluk regiments made their name"
+      },
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi",
+        "label": "The Mongol war machine at its height, 1241"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1258",
+      "title": "Baghdad destroyed",
+      "description": "Hulagu storms the city and kills the last Abbasid caliph, ending five centuries of the caliphate in Iraq."
+    },
+    {
+      "date": "August 1259",
+      "title": "Möngke dies",
+      "description": "The Great Khan’s death opens a succession struggle between Kublai and Ariq Böke."
+    },
+    {
+      "date": "1259",
+      "title": "Qutuz takes the throne",
+      "description": "He deposes the boy-sultan al-Mansur Ali, arguing that a child cannot lead the defence of Egypt against the Mongols."
+    },
+    {
+      "date": "January 1260",
+      "title": "Aleppo stormed",
+      "description": "The Mongols take the city after a short siege and massacre much of its population."
+    },
+    {
+      "date": "March 1260",
+      "title": "Damascus surrenders",
+      "description": "Kitbuqa enters without a siege after the last Ayyubid ruler of Syria flees."
+    },
+    {
+      "date": "Spring 1260",
+      "title": "Hulagu withdraws east",
+      "description": "He takes the bulk of the army toward Persia and Mongolia, leaving Kitbuqa one tumen and local auxiliaries to hold Syria."
+    },
+    {
+      "date": "1260",
+      "title": "The envoys killed",
+      "description": "Qutuz executes the Mongol embassy demanding Egypt’s submission and displays their heads on a gate of Cairo."
+    },
+    {
+      "date": "July–August 1260",
+      "title": "The march up the coast",
+      "description": "The Mamluk army moves through Palestine; the Franks of Acre refuse an alliance but allow it to camp and resupply."
+    },
+    {
+      "date": "3 September 1260",
+      "title": "The feigned retreat",
+      "description": "Baybars draws Kitbuqa into the Jezreel valley, where the main Mamluk army is waiting in the hills."
+    },
+    {
+      "date": "3 September 1260",
+      "title": "Qutuz rallies the line",
+      "description": "The Mongol charge breaks the Mamluk left before the sultan throws off his helmet and restores the line; Kitbuqa is captured and executed."
+    },
+    {
+      "date": "October 1260",
+      "title": "Qutuz murdered",
+      "description": "On the road back to Cairo he is killed in a conspiracy including Baybars, who becomes sultan."
+    },
+    {
+      "date": "December 1260",
+      "title": "Homs",
+      "description": "A second Mongol army is beaten in Syria, confirming that the frontier would hold on the Euphrates."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Campaign_of_the_Battle_of_Ain_Jalut_1260.svg"
+    },
+    {
+      "title": "Battle of Ain Jalut — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+    },
+    {
+      "title": "Hulegu Khan — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Hulegu_Khan"
+    },
+    {
+      "title": "The Mamluk-Ilkhanid War",
+      "author": "Reuven Amitai-Preiss",
+      "type": "book"
+    }
+  ]
+}

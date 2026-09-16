@@ -1,0 +1,279 @@
+{
+  "id": "battle-of-cortenuova",
+  "type": "event",
+  "name": "Battle of Cortenuova",
+  "aliases": [
+    "Cortenuova",
+    "Battaglia di Cortenuova"
+  ],
+  "year": 1237,
+  "location": "Cortenuova, on the Oglio between Bergamo and Brescia, Lombardy",
+  "eventType": "Battle",
+  "conflict": "The wars of Frederick II and the Lombard League",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erbeutung%20des%20Mail%C3%A4nder%20Carroccios.jpg",
+  "imageInfo": {
+    "caption": "The captured Milanese carroccio led away after Cortenuova, in a fourteenth-century illustrated copy of Giovanni Villani’s Nuova Cronica.",
+    "creator": "Illuminator of Giovanni Villani’s Nuova Cronica",
+    "date": "14th century; shows 27 November 1237",
+    "source": "Biblioteca Apostolica Vaticana, Cod. Chigi L VIII 296, fol. 76v (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erbeutung_des_Mail%C3%A4nder_Carroccios.jpg",
+    "note": "A Florentine chronicle illustration made about a century after the battle. It picks the moment that mattered politically rather than militarily: the war-wagon of Milan, with the imperial eagle carried beside it, being brought in as a trophy. Public domain."
+  },
+  "summary": "Frederick II caught the Lombard League’s army in retreat at Cortenuova on 27 November 1237 and destroyed it, taking the Milanese carroccio and parading it in triumph at Cremona.",
+  "details": "Frederick II announced he was going into winter quarters, waited for the League army to start for home, and fell on its column at Cortenuova on 27 November 1237. The Milanese formed around their carroccio and the rearguard held until dark; overnight the army dissolved, many drowning in the swollen Oglio and Serio. The war-wagon was taken the next morning, drawn into Cremona behind an elephant with the podestà of Milan bound to its mast, and later sent to Rome as a gift to the Roman commune.",
+  "factions": [
+    "Holy Roman Empire",
+    "Lombard League"
+  ],
+  "leaders": [
+    {
+      "name": "Frederick II",
+      "faction": "Imperial army",
+      "personId": "frederick-ii-holy-roman-emperor"
+    },
+    {
+      "name": "Pietro Tiepolo",
+      "faction": "Lombard League"
+    }
+  ],
+  "outcome": "Crushing imperial victory, with thousands killed or drowned and several thousand captured. It did not end the war: Milan refused the unconditional surrender Frederick demanded, his siege of Brescia failed the next year, and the papal excommunication of 1239 reopened the whole conflict.",
+  "participants": [
+    {
+      "side": "Imperial army",
+      "factions": [
+        {
+          "name": "Holy Roman Empire",
+          "title": "Holy Roman Empire",
+          "type": "location",
+          "slug": "holy-roman-empire"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Frederick II",
+          "title": "Frederick II",
+          "type": "person",
+          "slug": "frederick-ii-holy-roman-emperor"
+        },
+        {
+          "name": "Ezzelino III da Romano",
+          "type": "person",
+          "note": "The emperor’s chief partisan in the Veneto, whose local knowledge and troops made the interception possible. No biography in the Codex yet, though he is one of the best-documented Italian lords of the century."
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000–20,000, including some 3,000 German heavy cavalry and the Saracen archers of Lucera",
+        "confidence": "debated",
+        "note": "Estimates differ by a third between the Italian and German accounts. The composition matters more than the total: German knights, Muslim archers from the colony Frederick had planted at Lucera, and contingents from Cremona, Bergamo, Parma and Modena.",
+        "min": 12000,
+        "max": 20000
+      }
+    },
+    {
+      "side": "Lombard League",
+      "factions": [
+        {
+          "name": "Lombard League",
+          "title": "Lombard League",
+          "type": "location",
+          "slug": "lombard-league"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Pietro Tiepolo",
+          "type": "person",
+          "note": "Podestà of Milan and son of the Doge of Venice, captured at the carroccio and hanged at Trani years later. No biography in the Codex yet."
+        },
+        {
+          "name": "Bonifacio II of Montferrat",
+          "type": "person",
+          "note": "Marquess of Montferrat, one of the League’s field commanders in the campaign. No biography in the Codex yet; he is not the Boniface of Montferrat of the Fourth Crusade, who was his grandfather."
+        }
+      ],
+      "strength": {
+        "display": "c. 8,000–15,000, the core Milanese with contingents from the allied communes",
+        "confidence": "debated",
+        "note": "Italian accounts give roughly 6,000 foot and 2,000 horse; others put the army as high as 15,000. Communal armies were raised by city quarter and guild, so totals moved with how many cities had sent contingents that season.",
+        "min": 8000,
+        "max": 15000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Cortenuova, fought on 27 November 1237 on the Oglio, was the most complete victory Frederick II ever won in Italy and the clearest demonstration that winning battles was not how the Lombard question would be settled. He tricked the League army into believing the campaigning season was over, caught its column strung out on the march, and broke it. Thousands were killed or drowned in the flooded rivers, several thousand were captured, and the carroccio of Milan — the ox-drawn war-wagon that carried the commune’s banner and altar — fell into his hands.",
+        "He then did something more interesting than the battle. He staged a Roman triumph at Cremona, with the carroccio drawn by an elephant and the captured podestà of Milan tied to its mast, and afterwards sent the wagon to Rome as a gift to the Roman commune, to be displayed on the Capitol. It was a statement about what kind of emperor he claimed to be. Within a year the campaign had stalled before the walls of Brescia, and within two he was excommunicated and fighting for his position across the whole of Italy."
+      ]
+    },
+    {
+      "title": "Background: the second Lombard League",
+      "paragraphs": [
+        "The northern Italian communes had beaten Frederick Barbarossa at Legnano in 1176 and won the settlement at Constance in 1183 that let them govern themselves while acknowledging imperial overlordship. His grandson meant to reverse the substance of that. Frederick II came north with a programme of restoring imperial rights — taxation, the appointment of officials, the regalian claims — and in 1226 the cities re-formed their alliance, Milan at its head with Bologna, Brescia, Piacenza and their neighbours, and closed the Alpine passes against the imperial diet summoned to Cremona.",
+        "The quarrel was sharpened by the papacy, which regarded an emperor who ruled Sicily in the south and Germany in the north as a strategic threat to the papal lands between them. Gregory IX excommunicated Frederick in 1227 over a delayed crusade and again backed the communes as his leverage. By 1237 Frederick had settled Germany, brought his son Enzo and an army of German knights into Italy, and was campaigning to force the League to accept unconditional imperial authority."
+      ]
+    },
+    {
+      "title": "The trap",
+      "paragraphs": [
+        "The League army had come out to shadow the imperial force and block its march west toward Milan, and the two armies manoeuvred through the autumn without either being able to force a decision. In late November Frederick announced that he was ending the campaign and moving into winter quarters at Cremona, and began marching in that direction. It was plausible — the season was over, the rains had come — and the League believed it, broke up its concentration and started its own contingents home.",
+        "He turned the column round and came back fast. On 27 November the imperial army caught the Milanese and their allies strung out on the road near Cortenuova, in country cut by the Oglio and the Serio and soaked by autumn rain. The intelligence that made this possible came from Ezzelino III da Romano and from Frederick’s allies among the cities that hated Milan — Cremona above all, which had been Milan’s rival for a century."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Milanese did what communal armies did when caught: they halted around the carroccio and made a stand. The wagon was not a piece of equipment but the commune’s honour on wheels, carrying its banner and a mass altar, and abandoning it was unthinkable, which is precisely why it worked as an anchor for a rearguard. German knights and the Saracen archers from Lucera came in against it, and the fighting around the wagon went on until dark, with the Milanese giving ground slowly and holding.",
+        "The army broke in the night rather than in the battle. Once darkness stopped the fighting, contingents began slipping away toward home; the retreat lost its shape, and the rivers that had been the position’s protection became its killer, with men drowning in the flooded Oglio and Serio in the dark. In the morning the imperial troops took the abandoned carroccio and its escort. Perhaps three to four thousand were dead, and four to five thousand were prisoners, among them Pietro Tiepolo."
+      ]
+    },
+    {
+      "title": "The triumph at Cremona",
+      "paragraphs": [
+        "On 1 December Frederick entered Cremona in a procession consciously modelled on a Roman triumph: the captured carroccio drawn through the streets by an elephant from his menagerie, with Pietro Tiepolo bound to the mast where the banner should have flown. The theatre was the point. Frederick’s whole claim was that he was the Roman emperor restored, not merely a German king with Italian ambitions, and a triumph was the most legible way of saying so to an Italian audience.",
+        "He then sent the carroccio to Rome, as a gift to the Senate and people, where it was set up on the Capitol with an inscription recording that Caesar had sent it. This was aimed at Gregory IX: an emperor honouring the Roman commune over the head of the pope who claimed the city. Tiepolo, whose father was the Doge of Venice, was kept as a hostage against Venetian policy and eventually hanged at Trani in 1249. The elephant, the inscription and the hostage all belong to the same argument about who the emperor was."
+      ]
+    },
+    {
+      "title": "Why the victory did not hold",
+      "paragraphs": [
+        "Frederick made the mistake of treating a battlefield result as a political surrender. When Milan opened negotiations he demanded unconditional submission, which no commune could grant and survive as a commune; the city refused, and the war that might have ended in the winter of 1237 went on. As one modern assessment puts it, Milan could lose thousands of men, its podestà and its carroccio without losing its walls, its government, its money or its ability to raise another army next year.",
+        "The next season showed what that meant. The siege of Brescia through the summer and autumn of 1238 failed outright, and the spell of invincibility broke with it. Gregory IX excommunicated Frederick again in March 1239 and the conflict widened into a war for Italy: the deposition pronounced at the Council of Lyon in 1245, the loss of his siege-city Vittoria to a sortie from Parma in 1248, the capture of his son Enzo at Fossalta in 1249. Frederick died in December 1250 with the Lombard question exactly where Cortenuova had failed to settle it, and the Hohenstaufen cause in Italy did not outlive his sons."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Where the Staufer cause ended up",
+    "battleSlug": "battle-of-pelagonia",
+    "relationship": "same-factions",
+    "reason": "Cortenuova was meant to make imperial Italy permanent; twenty-two years later Frederick’s son Manfred could contribute only a contingent of German knights to a coalition in Greece, and its destruction at Pelagonia in 1259 marked how far the Hohenstaufen position had fallen."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Frederick II",
+        "type": "person",
+        "slug": "frederick-ii-holy-roman-emperor",
+        "label": "Commander"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "The defeated alliance"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "The imperial claim being enforced"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Gregory IX, who reopened the war in 1239"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "The communes’ victory of 1176 this was meant to reverse"
+      },
+      {
+        "title": "Battle of Pelagonia",
+        "type": "event",
+        "slug": "battle-of-pelagonia",
+        "label": "The Hohenstaufen cause two decades on"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1183",
+      "title": "Peace of Constance",
+      "description": "After Legnano, the communes win self-government under a nominal imperial overlordship — the settlement Frederick II set out to reverse."
+    },
+    {
+      "date": "1226",
+      "title": "The League re-formed",
+      "description": "Milan, Bologna, Brescia, Piacenza and their allies renew the alliance and close the Alpine passes against the imperial diet."
+    },
+    {
+      "date": "1237",
+      "title": "Frederick campaigns in Lombardy",
+      "description": "With German knights and Sicilian troops he manoeuvres against the League army through the autumn without forcing a battle."
+    },
+    {
+      "date": "Late November 1237",
+      "title": "The false winter quarters",
+      "description": "Frederick announces the season is over and marches for Cremona; the League disperses its concentration."
+    },
+    {
+      "date": "27 November 1237",
+      "title": "The column caught",
+      "description": "The imperial army turns back and strikes the Milanese on the march near Cortenuova, in country cut by the Oglio and Serio."
+    },
+    {
+      "date": "27 November 1237",
+      "title": "The stand at the carroccio",
+      "description": "The Milanese form around their war-wagon and hold against German knights and the Saracen archers of Lucera until dark."
+    },
+    {
+      "date": "28 November 1237",
+      "title": "The army dissolves",
+      "description": "The retreat breaks up in the night, many drown in the flooded rivers, and the carroccio is taken in the morning."
+    },
+    {
+      "date": "1 December 1237",
+      "title": "The triumph at Cremona",
+      "description": "The carroccio is drawn through the city by an elephant with Pietro Tiepolo bound to its mast, and is later sent to Rome for the Capitol."
+    },
+    {
+      "date": "1238",
+      "title": "Brescia holds",
+      "description": "Frederick demands unconditional surrender from Milan, is refused, and fails in a long siege of Brescia."
+    },
+    {
+      "date": "March 1239",
+      "title": "Excommunication",
+      "description": "Gregory IX excommunicates Frederick again and the Lombard war widens into a struggle for Italy."
+    },
+    {
+      "date": "1248",
+      "title": "Vittoria burned",
+      "description": "A sortie from Parma destroys the siege-city Frederick had built, undoing what remained of the Cortenuova ascendancy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Erbeutung_des_Mail%C3%A4nder_Carroccios.jpg"
+    },
+    {
+      "title": "Battle of Cortenuova — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Cortenuova"
+    },
+    {
+      "title": "Battaglia di Cortenuova — Italian Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://it.wikipedia.org/wiki/Battaglia_di_Cortenuova"
+    },
+    {
+      "title": "Frederick II: A Medieval Emperor",
+      "author": "David Abulafia",
+      "type": "book"
+    }
+  ]
+}

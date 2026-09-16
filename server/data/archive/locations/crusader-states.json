@@ -161,6 +161,12 @@
         "title": "Third Crusade",
         "type": "event",
         "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "1260 — fought past Acre, with Frankish consent"
       }
     ]
   },
@@ -204,7 +210,14 @@
     {
       "date": "3 September 1260",
       "title": "Ain Jalut",
-      "description": "The Mamluks stop the Mongols and inherit the jihad."
+      "description": "The Mamluks stop the Mongols and inherit the jihad.",
+      "links": [
+        {
+          "title": "Battle of Ain Jalut",
+          "type": "event",
+          "slug": "battle-of-ain-jalut"
+        }
+      ]
     },
     {
       "date": "1268/1289",

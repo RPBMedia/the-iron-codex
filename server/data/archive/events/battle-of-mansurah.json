@@ -1,0 +1,341 @@
+{
+  "id": "battle-of-mansurah",
+  "type": "event",
+  "name": "Battle of Mansurah",
+  "aliases": [
+    "Battle of Al Mansurah",
+    "Mansurah",
+    "Mansura"
+  ],
+  "year": 1250,
+  "location": "Mansurah, on the Bahr as-Saghir in the Nile Delta, Egypt",
+  "eventType": "Battle",
+  "conflict": "Seventh Crusade",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mansura.jpg",
+  "imageInfo": {
+    "caption": "Crusaders and Egyptian troops fighting at Mansurah, in a French manuscript of about 1330–1340 (BnF, MS Français 5716).",
+    "creator": "Unknown illuminator",
+    "date": "c. 1330–1340; shows February 1250",
+    "source": "Bibliothèque nationale de France, MS Français 5716 (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mansura.jpg",
+    "note": "Painted some eighty years after the campaign for a French audience that remembered Louis IX as a saint; the crowned figure at the right belongs to that reading rather than to the fighting in the streets. Public domain."
+  },
+  "summary": "Louis IX’s crusade was wrecked at Mansurah on 8–11 February 1250, when his brother’s vanguard charged into the town and was destroyed, taking all but five of some 290 Templars with it.",
+  "details": "A local guide showed the crusaders a ford across the Bahr as-Saghir, and on 8 February 1250 the vanguard under Robert of Artois crossed first, overran the Egyptian camp and killed the commander Fakhr ad-Din. Instead of waiting for Louis IX, Robert pursued into Mansurah itself, where the streets made his cavalry useless and the mamluk regiments under Baybars closed on them. Robert was killed with William Longespee and nearly the whole Templar contingent; the crusader camp held off an Egyptian counterattack on 11 February but could not advance again.",
+  "factions": [
+    "Kingdom of France",
+    "Ayyubid Sultanate"
+  ],
+  "leaders": [
+    {
+      "name": "Louis IX of France",
+      "faction": "Crusaders",
+      "personId": "louis-ix-of-france"
+    },
+    {
+      "name": "Charles of Anjou",
+      "faction": "Crusaders",
+      "personId": "charles-of-anjou"
+    },
+    {
+      "name": "Baybars",
+      "faction": "Egyptians",
+      "personId": "baybars"
+    }
+  ],
+  "outcome": "Egyptian victory. The crusader vanguard and the Templar contingent were destroyed in the town, the army was left stranded south of Damietta, and within two months Louis IX had lost his army at Fariskur and been taken prisoner.",
+  "participants": [
+    {
+      "side": "Crusaders",
+      "factions": [
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        },
+        {
+          "name": "Knights Templar",
+          "title": "Knights Templar",
+          "type": "order",
+          "slug": "knights-templar"
+        },
+        {
+          "name": "Order of Saint Lazarus",
+          "title": "Order of Saint Lazarus",
+          "type": "order",
+          "slug": "order-of-saint-lazarus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Louis IX of France",
+          "title": "Louis IX of France",
+          "type": "person",
+          "slug": "louis-ix-of-france"
+        },
+        {
+          "name": "Charles of Anjou",
+          "title": "Charles of Anjou",
+          "type": "person",
+          "slug": "charles-of-anjou"
+        },
+        {
+          "name": "Robert of Artois",
+          "type": "person",
+          "note": "The king’s brother, who led the vanguard into the town against advice and was killed there. No biography in the Codex yet; he is the father of the Robert II of Artois killed at Courtrai in 1302."
+        },
+        {
+          "name": "Guillaume de Sonnac",
+          "type": "person",
+          "note": "Grand Master of the Temple, who lost an eye in the town and was killed in the fighting of 11 February. No biography in the Codex yet; the Templar masters of the 1240s are a documented gap."
+        },
+        {
+          "name": "William Longespee",
+          "type": "person",
+          "note": "Commander of the English contingent, killed in the streets with Robert of Artois. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 15,000 foot, 2,400–2,800 knights and some 5,000 crossbowmen",
+        "confidence": "debated",
+        "note": "Louis’s crusade is better documented than most, through his own accounts and Joinville, but the figures are still reconstructions: the army that landed at Damietta was already reduced by garrison duty and sickness before it reached Mansurah.",
+        "min": 15000,
+        "max": 23000
+      }
+    },
+    {
+      "side": "Egyptians",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Baybars",
+          "title": "Baybars",
+          "type": "person",
+          "slug": "baybars"
+        },
+        {
+          "name": "Fakhr ad-Din Yusuf",
+          "type": "person",
+          "note": "The Egyptian commander-in-chief, caught unprepared in the camp at Gideila on 8 February and killed in the first attack. No biography in the Codex yet."
+        },
+        {
+          "name": "Shajar al-Durr",
+          "type": "person",
+          "note": "Widow of Sultan as-Salih Ayyub, who concealed his death in November 1249 and kept the Egyptian war effort running in his name. Not a field commander, and no biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 12,000, including 800–1,000 elite mamluks",
+        "confidence": "debated",
+        "note": "Arabic accounts are concerned with the political crisis in Cairo rather than with musters. What the sources agree on is the quality of the Bahri mamluk regiments, not their number.",
+        "min": 10000,
+        "max": 14000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Mansurah was the battle that destroyed the Seventh Crusade, though it did not look like a defeat on the day it was fought. On 8 February 1250 a crusader vanguard crossed a ford on the Bahr as-Saghir, overran the Egyptian camp and killed the Egyptian commander. Then Robert of Artois, the king’s brother, rode into the town of Mansurah after the fleeing enemy, and the streets closed around him.",
+        "Of some 290 Templars who went in, five came out. Robert of Artois and William Longespee were killed; the Grand Master Guillaume de Sonnac lost an eye and died three days later. Louis IX held the ground and beat off an Egyptian attack on 11 February, so the battle can be scored a technical victory. It left him with an army that could not advance, on the wrong side of a river, in front of a city he could not take — and the surrender came eight weeks later."
+      ]
+    },
+    {
+      "title": "Background: the road from Damietta",
+      "paragraphs": [
+        "Louis IX had taken the cross after a near-fatal illness in 1244, in the same season that the Khwarazmians sacked Jerusalem and the army of the Kingdom of Jerusalem was destroyed at La Forbie. His plan was the one crusaders had settled on since the Fifth Crusade: take Egypt, the richest Ayyubid province, and trade it for the holy places. He landed in June 1249 and took Damietta almost without a fight when the garrison abandoned it.",
+        "Then he waited five months for the Nile flood to fall and for his brother Alphonse of Poitiers to arrive, which gave Egypt time to recover. When the army finally moved south in November it was slow, tied to its river fleet, and short of the local knowledge it needed. In front of Mansurah it stopped at the Bahr as-Saghir, a canal it could not bridge under fire, and spent six weeks trying. Sultan as-Salih Ayyub died in the middle of that stand-off; his widow Shajar al-Durr concealed the death and ran the war in his name until his son Turanshah could be brought from Syria."
+      ]
+    },
+    {
+      "title": "The ford and the charge",
+      "paragraphs": [
+        "The deadlock broke when a local guide — described in the sources variously as a Bedouin and as a Copt, and paid handsomely either way — showed the crusaders a ford downstream at Salamun. On the morning of 8 February the vanguard crossed: Robert of Artois with the Templars under Guillaume de Sonnac and the English under William Longespee. Surprise was complete. They rode into the Egyptian camp at Gideila and killed Fakhr ad-Din, who according to the Arabic accounts was caught at his bath.",
+        "The order was to hold the far bank until the king’s division came over. Robert refused it. Joinville, who was on the campaign, records the argument — the Templars and Longespee urging him to wait, Robert accusing them of cowardice — and it ended with the vanguard galloping after the fugitives into the town. Mansurah was not a fortress to be stormed but a city of narrow lanes, and the mamluk regiments regrouping inside it under Baybars simply let the horsemen in and shut the trap. Cavalry cannot charge in a street. Almost none of them came out."
+      ]
+    },
+    {
+      "title": "The fighting of 8 and 11 February",
+      "paragraphs": [
+        "While the vanguard was dying, Louis IX brought the main body across the ford into a battle he had not chosen, fought on open ground against mamluk cavalry and archers with his crossbowmen still arriving. The sources describe a long, confused day in which the king held the far bank by refusing to give it up; Joinville’s account of Louis riding into the fighting, a head taller than the men around him, belongs to this afternoon. By evening the crusaders held the Egyptian camp.",
+        "On 11 February the Egyptians came at the camp in strength, using Greek fire against the wooden defences, and were beaten off after hard fighting in which Guillaume de Sonnac was killed. That is the engagement’s formal result: the crusaders kept the field. But the vanguard was gone, the Templars had been gutted as a fighting force, and the army was now camped in a delta in February with a city in front of it and a river behind."
+      ]
+    },
+    {
+      "title": "What happened afterwards — and why it is a separate story",
+      "paragraphs": [
+        "The capture of Louis IX did not happen at Mansurah, and treating the two as one event obscures how the crusade was actually lost. Turanshah arrived in late February, and instead of attacking the camp he had galleys carried overland and launched below it, cutting the river route to Damietta. Supplies stopped. Through March the camp starved and sickened — the descriptions of bleeding gums and rotting flesh are scurvy, running alongside dysentery — and Louis, himself ill, negotiated for the exchange of Damietta and was refused.",
+        "The retreat began on the night of 5 April and collapsed almost at once. On 6 April the army was caught and destroyed at Fariskur, and the king was taken prisoner in a village nearby with his surviving brothers. His release cost 400,000 livres tournois, half paid at once, and the surrender of Damietta. Then the victors turned on their own: in May 1250 the Bahri mamluks murdered Turanshah, and the Ayyubid sultanate of Egypt passed to the soldiers who had won the battle. Ten years later two of them, Qutuz and Baybars, stopped the Mongols in Galilee."
+      ]
+    },
+    {
+      "title": "Significance",
+      "paragraphs": [
+        "Mansurah ended the era in which a great western king could expect to change the Levant by bringing an army to it. Louis IX spent four more years in the East, fortifying Acre, Caesarea, Jaffa and Sidon and negotiating from a position no stronger than the local barons’, and the crusade he launched in 1270 died of disease outside Tunis before it reached Egypt at all. No comparable expedition followed.",
+        "For Egypt the battle was the making of a regime. The mamluk regiments that fought in the streets of Mansurah discovered within months that they, not the Ayyubid house, were the state; the murder of Turanshah followed, then a decade of coups, and then the sultanate that would take Antioch in 1268 and Acre in 1291. The military orders paid the heaviest single price in the town itself, six years after La Forbie had already destroyed their field strength, and never recovered the manpower."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow these mamluks to Galilee",
+    "battleSlug": "battle-of-ain-jalut",
+    "relationship": "same-region",
+    "reason": "The Bahri mamluk regiments that trapped Robert of Artois in the streets murdered Sultan Turanshah three months later and took Egypt for themselves; in September 1260 the same soldiers, under Qutuz and Baybars, destroyed a Mongol army at Ain Jalut."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Commander"
+      },
+      {
+        "title": "Charles of Anjou",
+        "type": "person",
+        "slug": "charles-of-anjou",
+        "label": "Commander; the king’s brother"
+      },
+      {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "Commander of the mamluks in the town"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "The state that won and then fell to its own army"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "The crusade’s intended beneficiary"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "The 1244 disaster that brought Louis IX east"
+      },
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "What the victors did next"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "All but five of its contingent died in the town"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "June 1249",
+      "title": "Damietta taken",
+      "description": "The garrison abandons the city and Louis IX occupies it almost without fighting."
+    },
+    {
+      "date": "November 1249",
+      "title": "The advance south",
+      "description": "The army finally moves on Cairo, tied to its river fleet, after waiting out the Nile flood."
+    },
+    {
+      "date": "November 1249",
+      "title": "As-Salih Ayyub dies",
+      "description": "Shajar al-Durr conceals the sultan’s death and runs the war in his name until his son Turanshah arrives."
+    },
+    {
+      "date": "December 1249 – February 1250",
+      "title": "Stalemate at the canal",
+      "description": "Six weeks of failed attempts to bridge the Bahr as-Saghir under Egyptian fire."
+    },
+    {
+      "date": "8 February 1250",
+      "title": "The ford at Salamun",
+      "description": "A local guide reveals a crossing; the vanguard under Robert of Artois overruns the Egyptian camp and kills Fakhr ad-Din."
+    },
+    {
+      "date": "8 February 1250",
+      "title": "The charge into the town",
+      "description": "Against the advice of the Templars and William Longespee, Robert pursues into Mansurah; five of some 290 Templars survive."
+    },
+    {
+      "date": "8 February 1250",
+      "title": "Louis holds the bank",
+      "description": "The king brings the main body across and keeps the ground until the crossbowmen arrive."
+    },
+    {
+      "date": "11 February 1250",
+      "title": "The Egyptian counterattack",
+      "description": "An assault on the crusader camp is beaten off; Guillaume de Sonnac is killed."
+    },
+    {
+      "date": "March 1250",
+      "title": "The river cut",
+      "description": "Turanshah has galleys carried overland below the camp, severing supply from Damietta; scurvy and dysentery spread."
+    },
+    {
+      "date": "6 April 1250",
+      "title": "Fariskur and the capture",
+      "description": "The retreating army is destroyed and Louis IX is taken prisoner; his ransom is 400,000 livres and the surrender of Damietta."
+    },
+    {
+      "date": "May 1250",
+      "title": "Turanshah murdered",
+      "description": "The Bahri mamluks kill the sultan and take the Egyptian state for themselves."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Mansura.jpg"
+    },
+    {
+      "title": "Battle of Mansurah (1250) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Mansurah_(1250)"
+    },
+    {
+      "title": "Seventh Crusade — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Seventh_Crusade"
+    },
+    {
+      "title": "Battle of Mansura, 8 February 1250",
+      "author": "historyofwar.org",
+      "type": "reference work",
+      "url": "https://www.historyofwar.org/articles/battles_mansura.html"
+    },
+    {
+      "title": "The Life of Saint Louis",
+      "author": "Jean de Joinville",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Jean_de_Joinville"
+    }
+  ]
+}

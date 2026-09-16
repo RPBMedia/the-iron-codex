@@ -144,6 +144,12 @@
         "type": "event",
         "slug": "battle-of-legnano",
         "label": "1176"
+      },
+      {
+        "title": "Battle of Cortenuova",
+        "type": "event",
+        "slug": "battle-of-cortenuova",
+        "label": "1237 — the League army broken and the carroccio taken"
       }
     ]
   },
@@ -192,7 +198,14 @@
     {
       "date": "27 November 1237",
       "title": "Cortenuova",
-      "description": "Frederick II's great victory; the carroccio is sent to Rome in triumph."
+      "description": "Frederick II's great victory; the carroccio is sent to Rome in triumph.",
+      "links": [
+        {
+          "title": "Battle of Cortenuova",
+          "type": "event",
+          "slug": "battle-of-cortenuova"
+        }
+      ]
     },
     {
       "date": "18 February 1248",

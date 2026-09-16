@@ -116,7 +116,14 @@
     {
       "date": "1260",
       "title": "Wins at Ain Jalut",
-      "description": "His army defeated the Mongols in a battle with major regional consequences."
+      "description": "His army defeated the Mongols in a battle with major regional consequences.",
+      "links": [
+        {
+          "title": "Battle of Ain Jalut",
+          "type": "event",
+          "slug": "battle-of-ain-jalut"
+        }
+      ]
     },
     {
       "date": "1260",
@@ -147,6 +154,12 @@
         "title": "Third Crusade",
         "type": "event",
         "slug": "third-crusade"
+      },
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "The victory that defined his short reign"
       }
     ]
   },

@@ -129,7 +129,14 @@
     {
       "date": "1260",
       "title": "Ain Jalut",
-      "description": "The Mamluks of Egypt halt the Mongol advance in the Levant."
+      "description": "The Mamluks of Egypt halt the Mongol advance in the Levant.",
+      "links": [
+        {
+          "title": "Battle of Ain Jalut",
+          "type": "event",
+          "slug": "battle-of-ain-jalut"
+        }
+      ]
     },
     {
       "date": "1259–1260",
@@ -185,6 +192,12 @@
         "title": "Battle of Mohi",
         "type": "event",
         "slug": "battle-of-mohi"
+      },
+      {
+        "title": "Battle of Ain Jalut",
+        "type": "event",
+        "slug": "battle-of-ain-jalut",
+        "label": "1260 — the end of the advance into Syria"
       }
     ],
     "locations": [

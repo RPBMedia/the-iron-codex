@@ -37,7 +37,7 @@ const battleArticleNames = new Set(
 // tracked decision (create a full article later, or leave documented). Adding a
 // NEW unlinked battle reference not on this list fails the check.
 const BATTLE_BACKLOG = new Set([
-  'battle of aclea', 'battle of adrianople', 'battle of ain jalut', 'battle of alfarrobeira',
+  'battle of aclea', 'battle of adrianople', 'battle of alfarrobeira',
   'battle of ankara', 'battle of ashdown', 'battle of atoleiros', 'battle of ellandun',
   'battle of ellendun', 'battle of ethandun', 'battle of falköping', 'battle of fimreite',
   'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
@@ -50,9 +50,10 @@ const BATTLE_BACKLOG = new Set([
   'battle of ars', 'battle of largs.', 'battle of visby finds', 'battle of visby find',
   // Found 2026-09-16 by the bare-name check below: real engagements the archive
   // names without the words "Battle of", so the phrase regex never saw them.
-  'battle of cortenuova', 'battle of courtrai', 'battle of dandanaqan',
-  'battle of heavenfield', 'battle of la forbie', 'battle of lechfeld',
-  'battle of mansurah', 'battle of nechtansmere', 'battle of ponza',
+  // Written 2026-09-16 and removed from this list: ain jalut, cortenuova,
+  // courtrai, la forbie, lechfeld, mansurah. The list is for UNWRITTEN battles.
+  'battle of dandanaqan',
+  'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
   'battle of soissons', 'battle of the trent', 'battle of velbazhd',
   'battle of the zab', 'battle of val-ès-dunes', 'battle of bornhöved',
   'battle of åsle', 'battle of épila',

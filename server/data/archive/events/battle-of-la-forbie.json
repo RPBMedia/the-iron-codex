@@ -1,0 +1,338 @@
+{
+  "id": "battle-of-la-forbie",
+  "type": "event",
+  "name": "Battle of La Forbie",
+  "aliases": [
+    "Battle of Harbiyah",
+    "La Forbie",
+    "Harbiyah"
+  ],
+  "year": 1244,
+  "location": "La Forbie (Harbiyah), north-east of Gaza",
+  "eventType": "Battle",
+  "conflict": "The Ayyubid succession war and the Khwarazmian invasion",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Forbie.jpg",
+  "imageInfo": {
+    "caption": "Matthew Paris drew the defeat into his Chronica Majora about 1250: Khwarazmian horsemen shooting down the Frankish knights, with captives at the left.",
+    "creator": "Matthew Paris",
+    "date": "c. 1250; shows 17–18 October 1244",
+    "source": "Cambridge, Corpus Christi College, MS 16II (via Wikimedia Commons)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Forbie.jpg",
+    "note": "Drawn in St Albans within about six years of the battle, from reports reaching England, which makes it the closest thing to a contemporary depiction. The tinted drawing sits in the lower margin of the page beside the letters reporting the disaster. Public domain."
+  },
+  "summary": "The field army of the Kingdom of Jerusalem and its Syrian Muslim allies was destroyed near Gaza on 17–18 October 1244, a defeat as complete as Hattin and far less remembered.",
+  "details": "Three months after Khwarazmian horsemen hired by Egypt sacked Jerusalem, the barons of the Kingdom of Jerusalem marched south with the military orders and the armies of Damascus and Homs to meet the Egyptian army near Gaza. Al-Mansur Ibrahim of Homs advised fortifying a camp and waiting; the Frankish leadership insisted on battle. The Syrian contingents broke first, the Franks were surrounded, and of the orders only thirty-three Templars, twenty-seven Hospitallers and three Teutonic Knights came away.",
+  "factions": [
+    "Kingdom of Jerusalem",
+    "Ayyubid Sultanate"
+  ],
+  "leaders": [
+    {
+      "name": "Walter IV of Brienne",
+      "faction": "Franks and Syrian allies"
+    },
+    {
+      "name": "Baybars",
+      "faction": "Egyptians and Khwarazmians",
+      "personId": "baybars"
+    }
+  ],
+  "outcome": "Decisive Egyptian and Khwarazmian victory. The Kingdom of Jerusalem lost its field army and never again mounted an offensive campaign; the military orders were reduced to a few dozen surviving brothers each, and Jerusalem, sacked that summer, was never recovered.",
+  "participants": [
+    {
+      "side": "Franks and Syrian allies",
+      "factions": [
+        {
+          "name": "Kingdom of Jerusalem",
+          "title": "Kingdom of Jerusalem",
+          "type": "location",
+          "slug": "kingdom-of-jerusalem"
+        },
+        {
+          "name": "Knights Templar",
+          "title": "Knights Templar",
+          "type": "order",
+          "slug": "knights-templar"
+        },
+        {
+          "name": "Knights Hospitaller",
+          "title": "Knights Hospitaller",
+          "type": "order",
+          "slug": "knights-hospitaller"
+        },
+        {
+          "name": "Teutonic Order",
+          "title": "Teutonic Order",
+          "type": "order",
+          "slug": "teutonic-order"
+        },
+        {
+          "name": "Order of Saint Lazarus",
+          "title": "Order of Saint Lazarus",
+          "type": "order",
+          "slug": "order-of-saint-lazarus"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Walter IV of Brienne",
+          "type": "person",
+          "note": "Count of Jaffa and the driving voice for battle, captured on the field and later killed by his captors. No biography in the Codex yet; the Brienne family is a documented gap in the archive."
+        },
+        {
+          "name": "Philip of Montfort",
+          "type": "person",
+          "note": "Lord of Toron, one of the few Frankish commanders to escape, who carried the news to Acre. No biography in the Codex yet."
+        },
+        {
+          "name": "Armand de Périgord",
+          "type": "person",
+          "note": "Grand Master of the Temple, lost in the battle; the sources disagree over whether he was killed outright or died in captivity. No biography in the Codex yet."
+        },
+        {
+          "name": "Guillaume de Châteauneuf",
+          "type": "person",
+          "note": "Grand Master of the Hospital, captured and held in Cairo until 1250. No biography in the Codex yet, though the order’s article records his captivity."
+        },
+        {
+          "name": "Ismail of Damascus",
+          "type": "person",
+          "note": "The Ayyubid ruler of Damascus, who allied with the Franks against his kinsman in Cairo and whose contingent broke early. Not to be confused with the as-Salih Ismail who died in 1181, the son of Nur ad-Din, who has an article here; no biography of the Damascene yet."
+        },
+        {
+          "name": "al-Mansur Ibrahim of Homs",
+          "type": "person",
+          "note": "The ablest soldier in the allied army, who urged a fortified camp rather than open battle and was overruled. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 10,000–11,000: about 1,000–1,200 Frankish knights and 6,000 foot, with some 4,000 Syrian and Bedouin horse",
+        "confidence": "debated",
+        "note": "The Frankish component is the best attested, because the orders counted their own dead: the kingdom had not fielded an army of this size since Hattin. The Damascene, Homs and Bedouin contingents are given only in round numbers.",
+        "min": 10000,
+        "max": 11000
+      }
+    },
+    {
+      "side": "Egyptians and Khwarazmians",
+      "factions": [
+        {
+          "name": "Ayyubid Sultanate",
+          "title": "Ayyubid Sultanate",
+          "type": "location",
+          "slug": "ayyubid-sultanate"
+        },
+        {
+          "name": "Khwarazmian horsemen",
+          "note": "No article yet in this archive: the displaced cavalry of the last Khwarazmshah, broken by the Mongols in 1231 and selling their service across Syria ever since."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Baybars",
+          "title": "Baybars",
+          "type": "person",
+          "slug": "baybars"
+        },
+        {
+          "name": "Husam al-Din Berke Khan",
+          "type": "person",
+          "note": "Leader of the Khwarazmian horsemen, who had sacked Jerusalem that summer in Egyptian pay. No biography in the Codex yet."
+        }
+      ],
+      "strength": {
+        "display": "c. 5,000 Egyptian troops with about 10,000 Khwarazmian horsemen",
+        "confidence": "debated",
+        "note": "The Khwarazmian figure of around ten thousand riders is repeated across the sources for the whole of their time in Syria and should be read as an order of magnitude. The Egyptian force under Baybars is not separately counted.",
+        "min": 12000,
+        "max": 15000
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "La Forbie, fought on 17 and 18 October 1244 on the coastal plain north-east of Gaza, destroyed the field army of the Kingdom of Jerusalem. The kingdom had put together its largest force since Hattin and had done something unprecedented to do it: allied openly with the Ayyubid rulers of Damascus and Homs against the Ayyubid sultan of Egypt. The combined army met the Egyptians and their Khwarazmian mercenaries south of Gaza, and by the second day it had ceased to exist.",
+        "The casualty lists are the measure of it. Around five thousand of the Christian army were killed and eight hundred taken prisoner; of the military orders, thirty-three Templars, twenty-seven Hospitallers and three Teutonic Knights survived. The Templar Grand Master was lost, the Hospitaller Grand Master spent six years in a Cairo prison, and the Count of Jaffa who had argued for the battle was captured and killed. The kingdom never again took the field offensively, and it held on for another forty-seven years on walls, treaties and other people’s crusades."
+      ]
+    },
+    {
+      "title": "The Khwarazmians and the sack of Jerusalem",
+      "paragraphs": [
+        "The Khwarazmians were a consequence of the Mongols. When Genghis Khan’s armies destroyed the empire of Khwarazm and its last shah, Jalal al-Din, died in 1231, some ten thousand of his horsemen were left in northern Syria with no state, no land and one marketable skill. For a decade they sold it to whoever was fighting, and in 1244 the buyer was as-Salih Ayyub, sultan of Egypt, who was losing a family war against his uncle Ismail in Damascus and his cousin in Homs — both of whom had allied with the Franks.",
+        "He turned them loose on Jerusalem. The city had been in Frankish hands since Frederick II’s treaty of 1229, undefended in any serious sense; the Khwarazmians entered on 11 July 1244, slaughtered the Christian population, desecrated the Church of the Holy Sepulchre and broke open the tombs of the kings of Jerusalem. The citadel held out until 23 August. Of the six thousand who left under a safe conduct, some three hundred reached Jaffa. Jerusalem would not be in Christian hands again for seven centuries, and the news of the sack is what put Louis IX on the road to Egypt."
+      ]
+    },
+    {
+      "title": "An alliance with Damascus",
+      "paragraphs": [
+        "The response was the strangest coalition in the kingdom’s history. The barons of Acre, with the Templars, Hospitallers, Teutonic Knights and the Lazarites, marched in company with the armies of Damascus and Homs — Muslim Ayyubid princes fighting alongside Frankish knights against another Muslim Ayyubid prince. It was not as odd as it sounds: the Latin kingdom had been treating Cairo and Damascus as rival powers to be played against each other for two generations, and the sack of Jerusalem had made the choice of partner obvious.",
+        "What the alliance lacked was a single command. Walter IV of Brienne, Count of Jaffa, carried the most weight among the Franks; al-Mansur Ibrahim of Homs was the most experienced field commander present; and the contingents kept their own formations and their own counsel. That arrangement worked while the army was marching south, and failed on the day it had to fight."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The armies met near the village of La Forbie, which Arabic sources call Harbiyah. Al-Mansur Ibrahim of Homs argued for the cautious course: fortify a camp, stay in it, and let the Khwarazmians — who had no supply system and lived off the country — exhaust themselves and disperse. It was almost certainly the right advice. The Frankish leadership, with Walter of Brienne prominent, rejected it and insisted on attacking. Whether the motive was confidence, impatience or the political impossibility of standing still while Jerusalem’s ashes were fresh, the sources do not agree.",
+        "The allied army drew up with the Franks on the right by the sea, Damascus in the centre and Homs on the left. The Khwarazmian charge fell on the Damascene contingent, which gave way; the Homs troops on the flank were driven off the field with al-Mansur Ibrahim; and the Frankish divisions, left standing alone on open ground against horse archers, were enveloped. The fighting went on into a second day, and ended with the Frankish army destroyed where it stood."
+      ]
+    },
+    {
+      "title": "Hattin’s forgotten twin",
+      "paragraphs": [
+        "The comparison with Hattin is fair on the arithmetic and instructive on the differences. Both battles destroyed the kingdom’s entire field army in a single engagement; after both, the orders were reduced to a handful of surviving brothers. In some ways La Forbie was worse, because in 1187 the kingdom could still hope to be rescued — and was, by the Third Crusade — whereas after 1244 no recovery followed, and the loss of Jerusalem that preceded it was permanent.",
+        "It is forgotten because of what did not happen. No king was captured, since the crown was an absentee title held by the Hohenstaufen; no relic of the True Cross was lost, because that had gone at Hattin; and no great crusade arrived to reverse it, since Louis IX’s expedition went to Egypt and broke at Mansurah. Saladin was a figure the West kept writing about; as-Salih Ayyub was not. A defeat needs a story to be remembered, and this one had no protagonists the chroniclers wanted."
+      ]
+    },
+    {
+      "title": "Aftermath",
+      "paragraphs": [
+        "Egypt collected the winnings. Damascus fell to as-Salih Ayyub in 1245, ending the Syrian coalition, and Ascalon — the last Frankish fortress in the south — was taken in 1247. The Khwarazmians, having served their purpose, fell out with their employer and were broken up by the Syrian Ayyubids in 1246; as a political force they disappear from the record, having changed the history of the Latin East in three years of paid destruction.",
+        "For the kingdom, the strategic consequence was a change of category. It had begun as a state with an army that could march inland and fight for territory. After La Forbie it was a coastal strip of fortified cities defended by the orders’ castles, western subsidies and the diplomacy of playing Cairo against Damascus, which worked until a single power held both. When Baybars — who had commanded the Egyptian troops here as a young mamluk — ruled that single power, the end came quickly."
+      ]
+    }
+  ],
+  "battleContinuity": {
+    "label": "The crusade the disaster summoned",
+    "battleSlug": "battle-of-mansurah",
+    "relationship": "chronological-follow-up",
+    "reason": "News of the sack of Jerusalem and the destruction of the kingdom’s army at La Forbie is what moved Louis IX to take the cross; his crusade struck at Egypt, the power that had won here, and was wrecked at Mansurah in February 1250."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "Commander of the Egyptian troops"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Lost its field army here"
+      },
+      {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate",
+        "label": "The Egyptian victor, and the Syrian princes who fought beside the Franks"
+      },
+      {
+        "title": "Crusader States",
+        "type": "location",
+        "slug": "crusader-states",
+        "label": "The wider Outremer after 1244"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "The 1187 disaster it is measured against"
+      },
+      {
+        "title": "Battle of Mansurah",
+        "type": "event",
+        "slug": "battle-of-mansurah",
+        "label": "Louis IX’s answer, six years later"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Thirty-three brothers survived"
+      },
+      {
+        "title": "Knights Hospitaller",
+        "type": "order",
+        "slug": "knights-hospitaller",
+        "label": "Twenty-seven survived; the Grand Master was captured"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1231",
+      "title": "The Khwarazmians are cut loose",
+      "description": "The last Khwarazmshah dies fighting the Mongols, leaving some ten thousand horsemen in Syria with no state to serve."
+    },
+    {
+      "date": "1239–1243",
+      "title": "The Ayyubid family war",
+      "description": "As-Salih Ayyub of Egypt fights his uncle Ismail of Damascus and his cousin at Homs, who seek Frankish support."
+    },
+    {
+      "date": "11 July 1244",
+      "title": "The Khwarazmians enter Jerusalem",
+      "description": "Hired by Egypt, they storm the city, kill its Christian population and desecrate the Holy Sepulchre."
+    },
+    {
+      "date": "23 August 1244",
+      "title": "The citadel surrenders",
+      "description": "Of some six thousand who leave under safe conduct, about three hundred reach Jaffa."
+    },
+    {
+      "date": "Autumn 1244",
+      "title": "The coalition marches",
+      "description": "The barons and the military orders take the field alongside the armies of Damascus and Homs."
+    },
+    {
+      "date": "17 October 1244",
+      "title": "Homs advises a fortified camp",
+      "description": "Al-Mansur Ibrahim urges waiting out the Khwarazmians; the Frankish leadership insists on battle."
+    },
+    {
+      "date": "17 October 1244",
+      "title": "The Syrian wing breaks",
+      "description": "The Khwarazmian charge routs the Damascene centre and drives the Homs contingent from the field."
+    },
+    {
+      "date": "18 October 1244",
+      "title": "The Frankish army destroyed",
+      "description": "Surrounded on open ground, the orders and the barons are killed or taken; thirty-three Templars, twenty-seven Hospitallers and three Teutonic Knights survive."
+    },
+    {
+      "date": "1245",
+      "title": "Damascus falls to Egypt",
+      "description": "As-Salih Ayyub takes the city, ending the coalition that fought at La Forbie."
+    },
+    {
+      "date": "1247",
+      "title": "Ascalon taken",
+      "description": "The last Frankish stronghold in the south falls, closing the southern frontier for good."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:La_Forbie.jpg"
+    },
+    {
+      "title": "Battle of La Forbie — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_La_Forbie"
+    },
+    {
+      "title": "The Khwarazmian sack of Jerusalem, 1244 — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(1244)"
+    },
+    {
+      "title": "Chronica Majora",
+      "author": "Matthew Paris",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Chronica_Majora"
+    }
+  ]
+}

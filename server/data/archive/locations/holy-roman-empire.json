@@ -177,6 +177,18 @@
         "title": "Battle of Bouvines",
         "type": "event",
         "slug": "battle-of-bouvines"
+      },
+      {
+        "title": "Battle of Lechfeld",
+        "type": "event",
+        "slug": "battle-of-lechfeld",
+        "label": "The empire’s formative victory, 955"
+      },
+      {
+        "title": "Battle of Cortenuova",
+        "type": "event",
+        "slug": "battle-of-cortenuova",
+        "label": "Frederick II’s Lombard triumph, 1237"
       }
     ]
   },
@@ -189,7 +201,14 @@
     {
       "date": "10 August 955",
       "title": "The Lechfeld",
-      "description": "Otto I destroys the Magyar host; the eastern terror ends."
+      "description": "Otto I destroys the Magyar host; the eastern terror ends.",
+      "links": [
+        {
+          "title": "Battle of Lechfeld",
+          "type": "event",
+          "slug": "battle-of-lechfeld"
+        }
+      ]
     },
     {
       "date": "2 February 962",
