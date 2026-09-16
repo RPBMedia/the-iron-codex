@@ -80,6 +80,39 @@ Nine finished queue items, moved here on 2026-09-16 and deleted from QUEUE.md.
   The three washed-out maps flagged inside it (`vandal-kingdom`,
   `mongol-empire`, `sasanian-empire`) were replaced in the batch-4 work.
 
+## Owner reports from the first away run — queue item 0n — closed 2026-09-16
+
+Seven reports the owner made while testing the 2026-09-15 away-mode ships. All
+seven are closed; the item is deleted from QUEUE.md.
+
+- **Known for must link.** Names, places and events in any article's Known for are
+  navigable like body prose — `renderLinkedText` on `quickFacts.knownFor`, and
+  `KnownForBlock` receives the article.
+- **Insights ran onto the light body.** The cause was in the SHARED rule, not the
+  Insights page: `.page-section::before` paints its ground with an `auto` bottom
+  and a fixed `min-height`, making it a band rather than the page's height.
+  Insights is the only page-section long enough to outrun it. Fixed by clearing
+  the min-height for that page alone, so Collection, Search, Index and Topics keep
+  the band that is correct for them.
+- **`baraka-khan`'s death place had no page.** `kerak` was written: 13,000
+  characters, 13 sections, 17 timeline entries.
+- **`kingdom-of-jerusalem`'s Conder map was unreadable.** Replaced with
+  "Principal locations in the Kingdom of Jerusalem", which later became the one
+  calibrated base map behind the city locator feature.
+- **`pope-leo-iii`** was written that night.
+- **`kerak`'s main image was black and white with the ruins barely visible.** It
+  now leads with a 2012 colour photograph of the curtain walls and towers along
+  the crest of the spur, the castle filling the frame.
+- **`louis-ix-of-france` led with a church.** It now leads with the Bible
+  moralisée made in Paris for him and his mother Blanche of Castile, about
+  1227–1234 — a contemporary manuscript depicting the man.
+
+**Worth recording about this item rather than its contents:** four of the seven
+were closed by *verifying* them, not by doing work. They had been fixed days
+earlier and nobody had marked them, so the queue overstated what was left. A
+finished item that still reads as open costs a future session the same
+investigation twice.
+
 ## Houses / dynasties — a sixth collection — M0–M5, complete 2026-09-15
 
 `HOUSES_PLAN.md`'s work, finished and the file deleted on 2026-09-16. **70 houses
