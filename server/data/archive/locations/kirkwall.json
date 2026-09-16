@@ -105,6 +105,14 @@
         "slug": "kingdom-of-scotland",
         "label": "Gained the Hebrides in 1266 and the islands in 1468-1469"
       }
+    ],
+    "events": [
+      {
+        "title": "Battle of Largs",
+        "type": "event",
+        "slug": "battle-of-largs",
+        "label": "Haakon withdrew here after the battle and died ten weeks later"
+      }
     ]
   },
   "id": "kirkwall",

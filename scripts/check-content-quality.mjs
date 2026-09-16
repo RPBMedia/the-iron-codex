@@ -48,14 +48,14 @@ const battleArticleNames = new Set(
 const BATTLE_BACKLOG = new Set([
   'battle of aclea', 'battle of alfarrobeira',
   'battle of ashdown', 'battle of ellandun',
-  'battle of ellendun', 'battle of falköping', 'battle of fimreite',
-  'battle of fontenoy', 'battle of fotevik', 'battle of fýrisvellir', 'battle of grathe heath',
-  'battle of hova', 'battle of la higueruela', 'battle of largs', 'battle of lincoln',
+  'battle of ellendun', 'battle of falköping',
+  'battle of fontenoy',
+  'battle of hova', 'battle of la higueruela', 'battle of lincoln',
   'battle of sparrsätra', 'battle of tertry', 'battle of tettenhall',
   'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
   'battle of visby',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
-  'battle of ars', 'battle of largs.', 'battle of visby finds', 'battle of visby find',
+  'battle of ars', 'battle of visby finds', 'battle of visby find',
   // Found 2026-09-16 by the bare-name check below: real engagements the archive
   // names without the words "Battle of", so the phrase regex never saw them.
   // Written 2026-09-16 and removed from this list: ain jalut, cortenuova,
@@ -66,6 +66,9 @@ const BATTLE_BACKLOG = new Set([
   // gained articles, so both sat here unnoticed.
   // Written 2026-09-17 and removed: siege of acre (the 1189-91 siege of the Third
   // Crusade), adrianople (1205, not 378), ankara, dandanaqan, durbe.
+  // Written 2026-09-17 and removed: fimreite, fotevik, fýrisvellir, grathe
+  // heath and largs (the r60 Scandinavian batch), plus the 'battle of largs.'
+  // boundary artifact, whose key is unreachable now that the article exists.
   'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
   // Added 2026-09-16 with the four founding rulers of Lithuania (Mindaugas,
   // Gediminas, Algirdas, Kęstutis). Each is a real engagement their articles must

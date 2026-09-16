@@ -190,7 +190,14 @@
         "label": "His rival, victor at Grathe Heath, and successor"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Grathe Heath",
+        "type": "event",
+        "slug": "battle-of-grathe-heath",
+        "label": "Defeated and killed here in 1157"
+      }
+    ]
   },
   "sources": [
     {

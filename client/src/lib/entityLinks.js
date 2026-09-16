@@ -458,9 +458,13 @@ export const entityLinks = [
   { label: "Battle of Edington", aliases: ["Edington","Ethandun","Battle of Ethandun","Ethandune"], type: "event", slug: "battle-of-edington" },
   { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
   { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
+  { label: "Battle of Fimreite", aliases: ["Slaget ved Fimreite","Fimreite"], type: "event", slug: "battle-of-fimreite" },
   { label: "Battle of Formigny", aliases: ["Formigny"], type: "event", slug: "battle-of-formigny" },
+  { label: "Battle of Fotevik", aliases: ["Battle of Fodevig","Fodevig","Slaget ved Fodevig","Fotevik"], type: "event", slug: "battle-of-fotevik" },
   { label: "Battle of Fulford", aliases: ["Fulford"], type: "event", slug: "battle-of-fulford" },
+  { label: "Battle of Fýrisvellir", aliases: ["Fyrisvellir","Battle of Fyrisvellir","Battle of Fyrisvall","Slaget på Fyrisvallarna","Fýrisvellir"], type: "event", slug: "battle-of-fyrisvellir" },
   { label: "Battle of Gestilren", type: "event", slug: "battle-of-gestilren" },
+  { label: "Battle of Grathe Heath", aliases: ["Battle of Grathe Hede","Grathe Hede","Slaget på Grathe Hede","Grathe Heath"], type: "event", slug: "battle-of-grathe-heath" },
   { label: "Battle of Grunwald", type: "event", slug: "battle-of-grunwald" },
   { label: "Battle of Hafrsfjord", aliases: ["Hafrsfjord"], type: "event", slug: "battle-of-hafrsfjord" },
   { label: "Battle of Halidon Hill", aliases: ["Halidon Hill"], type: "event", slug: "battle-of-halidon-hill" },
@@ -471,6 +475,7 @@ export const entityLinks = [
   { label: "Battle of Kosovo", aliases: ["Kosovo"], type: "event", slug: "battle-of-kosovo" },
   { label: "Battle of La Forbie", aliases: ["Battle of Harbiyah","La Forbie","Harbiyah"], type: "event", slug: "battle-of-la-forbie" },
   { label: "Battle of Lalakaon", aliases: ["Battle of Poson","Battle of Porson","Lalakaon"], type: "event", slug: "battle-of-lalakaon" },
+  { label: "Battle of Largs", aliases: ["Slaget ved Largs","Largs"], type: "event", slug: "battle-of-largs" },
   { label: "Battle of Las Navas de Tolosa", type: "event", slug: "battle-of-las-navas-de-tolosa" },
   { label: "Battle of Lechfeld", aliases: ["Battle of the Lechfeld","Lechfeld"], type: "event", slug: "battle-of-lechfeld" },
   { label: "Battle of Legnano", type: "event", slug: "battle-of-legnano" },
@@ -1597,6 +1602,38 @@ export const ambiguousEntityAliases = [
         slug: "phocas",
         date: "r. 602–610",
         contextHints: ["602", "610", "Maurice", "Heraclius", "usurper", "mutiny", "Danube", "centurion", "Khosrow"]
+      }
+    ]
+  },
+  {
+    // "Largs" is a burgh on the Firth of Clyde before it is a battle, and
+    // safeBattleSuffix minted the bare alias the moment battle-of-largs landed
+    // (2026-09-17). All 15 occurrences in the archive today mean the 1263
+    // engagement or its campaign, so this is a guard placed BEFORE the damage,
+    // like the Stephen I entry above — the first article to describe the town,
+    // or a `largs` location article, would otherwise send the place to a battle.
+    terms: ["Largs"],
+    possibleTargets: [
+      {
+        title: "Battle of Largs",
+        label: "Battle of Largs",
+        type: "event",
+        slug: "battle-of-largs",
+        date: "1263",
+        contextHints: [
+          "1263",
+          "Haakon",
+          "Håkon",
+          "Hebrides",
+          "Alexander III",
+          "Treaty of Perth",
+          "Firth of Clyde",
+          "leidang",
+          "Kirkwall",
+          "Orkney",
+          "Norwegian",
+          "Isle of Man"
+        ]
       }
     ]
   }
