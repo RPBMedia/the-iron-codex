@@ -7,6 +7,35 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## House members linked, and the four that were not — queue item 0t — closed 2026-09-17
+
+A survey found 11 house members named in `notableMembers` or a family tree whose
+name matches an existing article while carrying no `personSlug`. Seven were the
+same person and were linked: Æthelwulf (Wessex), Charles I of Anjou, Lazar
+Hrebeljanović on both surfaces, Alexander (Macedonian), Yaqub al-Mansur, Theodora
+wife of Theophilos, Milica of Serbia, and John I of Portugal — identified by his
+position in the tree as Pedro I's illegitimate son, not by his name.
+
+**Four would have been wrong links, which is the whole point of the item.**
+Courtenay's Baldwin II is the last Latin Emperor, who lost Constantinople in
+1261; the archive's only Baldwin II is the king of Jerusalem who died in 1131.
+Hauteville's Tancred is the patriarch whose sons took southern Italy, not his
+descendant Tancred of Galilee. Welf's Henry V is the Count Palatine of the Rhine,
+not the victor of Agincourt. Burgundy-Portugal's John I resolved by name to John
+I Tzimiskes, a Byzantine emperor. A mechanical sweep would have written all four.
+
+The new check in `check-content-quality.mjs` gates this as the House-side twin of
+the stale succession-endpoint check: a member who gains an article can no longer
+sit unlinked unnoticed, and every refusal is recorded in
+`AMBIGUOUS_HOUSE_MEMBERS` with its reason instead of being silently skipped. It
+compares character IDs rather than name keys — one person carrying both "Yaqub
+al-Mansur" and "Ya'qub al-Mansur" is not a name clash, and the first draft of the
+survey wrongly called it one.
+
+The standing lesson is the one CLAUDE.md already states, paid for again here: **a
+wrong link is worse than a missing link.**
+
+
 ## The battle gap — seven articles and a gate — 2026-09-16 (`4a41a65`)
 
 Six battles the archive named but had never written, plus the commander who
