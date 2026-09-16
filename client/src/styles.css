@@ -1519,7 +1519,7 @@ button.back-link:focus-visible {
  * on the palette: ivory on the dark ground, gold for its links, as the hero's own
  * captions already do.
  */
-p.article-deck {
+.detail-body p.article-deck {
   max-width: 62ch;
   margin: 10px 0 0;
   color: var(--paper);
@@ -1528,7 +1528,7 @@ p.article-deck {
   overflow-wrap: anywhere;
 }
 
-p.article-deck a {
+.detail-body p.article-deck a {
   color: var(--gold-soft);
   font-weight: 700;
   text-decoration: underline;
@@ -1542,7 +1542,12 @@ p.article-deck a:focus-visible {
   text-decoration-color: currentColor;
 }
 
-.detail-body p:not(.eyebrow) {
+/* The deck is excluded here rather than fought over with specificity: this rule
+   and `.detail-body p.article-deck` both score (0,2,1), so the tie went to whichever
+   sat later — which is this one, painting the deck body ink on the dark hero. Saying
+   which paragraphs get ink is clearer than out-weighting the rule that shouldn't
+   have applied. */
+.detail-body p:not(.eyebrow):not(.article-deck) {
   color: #3f4249;
   font-size: 1.05rem;
   overflow-wrap: anywhere;
