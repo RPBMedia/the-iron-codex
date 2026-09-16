@@ -119,6 +119,48 @@ test('the hazards found by hand stay guarded', () => {
   }
 })
 
+test('no link term is claimed by two articles without a guard', () => {
+  // This is the whole failure class, stated once. Every wrong-link bug found in
+  // this archive has the same shape: one string that two different articles
+  // answer to, resolved by array order rather than by meaning. Peter of Castile
+  // and Peter I of Portugal both held "Pedro I", "Peter the Cruel" AND "Peter the
+  // Just"; the Crécy battle and the Crécy village both held "Crécy"; Birger Jarl
+  // and his descendant both held "Birger Magnusson".
+  //
+  // A collision is allowed ONLY when a guard exists to arbitrate it. A new
+  // article that happens to share a name with an old one now fails the build
+  // instead of quietly stealing its links.
+  const guarded = new Set()
+  for (const entry of ambiguousEntityAliases) {
+    for (const term of entry.terms ?? []) guarded.add(term.toLowerCase())
+  }
+
+  const claims = new Map()
+  for (const entry of entityLinks) {
+    for (const term of [entry.label, ...(entry.aliases ?? [])]) {
+      if (!term) continue
+      const key = term.toLowerCase()
+      if (!claims.has(key)) claims.set(key, new Set())
+      claims.get(key).add(`${entry.type}/${entry.slug}`)
+    }
+  }
+
+  const unguarded = []
+  for (const [term, owners] of claims) {
+    if (owners.size > 1 && !guarded.has(term)) {
+      unguarded.push(`"${term}" claimed by ${[...owners].join(' and ')}`)
+    }
+  }
+
+  assert.deepEqual(
+    unguarded,
+    [],
+    'these link terms are claimed by more than one article with nothing to arbitrate, ' +
+      'so which one wins depends on the order of the entityLinks array. Add an ' +
+      `ambiguousEntityAliases guard with contextHints, or drop the duplicate alias:\n  ${unguarded.join('\n  ')}`
+  )
+})
+
 test('every guarded term is a live link term, or the guard is dead code', () => {
   // Precedence, read from findEntityMatches in DetailPage.jsx: candidates are
   // built from entityLinks labels and aliases FIRST, and resolveAmbiguousAlias

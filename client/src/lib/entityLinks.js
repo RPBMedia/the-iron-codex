@@ -558,7 +558,7 @@ export const entityLinks = [
   { label: "Abbasid Caliphate", aliases: ["Abbasids","Abbasid Empire"], type: "location", slug: "abbasid-caliphate" },
   { label: "Agincourt", aliases: ["Azincourt","Aisincurt"], type: "location", slug: "agincourt" },
   { label: "al-Andalus", aliases: ["Muslim Iberia","Moorish Spain","Andalus"], type: "location", slug: "al-andalus" },
-  { label: "Alarcos", aliases: ["al-Arak","Alarcos (Ciudad Real)"], type: "location", slug: "alarcos" },
+  { label: "Alarcos", aliases: ["Alarcos (Ciudad Real)"], type: "location", slug: "alarcos" },
   { label: "Almohad Caliphate", type: "location", slug: "almohad-caliphate" },
   { label: "Alvastra", aliases: ["Alvastra Abbey","Alvastra kloster"], type: "location", slug: "alvastra" },
   { label: "Antioch", aliases: ["Antakya","Antioch on the Orontes","Antiocheia"], type: "location", slug: "antioch" },
