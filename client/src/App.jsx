@@ -20,10 +20,14 @@ export default function App() {
   return (
     <AuthProvider>
       <div className="app-shell">
+        {/* Keyboard and screen-reader users otherwise tab through the whole
+            header — brand, search, every nav item, the account chip — on every
+            page before reaching the article. Visually hidden until focused. */}
+        <a className="skip-link" href="#main-content">Skip to content</a>
         <ScrollToTop />
       <PageViewBeacon />
         <Header />
-        <main>
+        <main id="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<CollectionPage collection="events" />} />

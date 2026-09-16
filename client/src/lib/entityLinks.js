@@ -805,6 +805,29 @@ export const entityLinks = [
 
 export const ambiguousEntityAliases = [
   {
+    // TWO Ayyubid rulers called as-Salih Ismail, sixty-three years apart. The
+    // archive's article is Nur ad-Din's son, who died in 1181. The man who
+    // allied with the crusaders before La Forbie in 1244 and lost Damascus in
+    // 1245 is a different ruler entirely, and he has no article.
+    //
+    // Writing the name in its natural form would send a reader to the wrong man
+    // — and no gate catches a wrong link, only a missing one. The La Forbie
+    // article therefore calls him "Ismail of Damascus" throughout, and these
+    // hints make sure the bare name resolves to the 1181 ruler only where the
+    // surrounding text is actually about him.
+    terms: ["as-Salih Ismail", "al-Salih Ismail"],
+    possibleTargets: [
+      {
+        title: "As-Salih Ismail",
+        label: "As-Salih Ismail",
+        type: "person",
+        slug: "as-salih-ismail",
+        date: "d. 1181",
+        contextHints: ["1181", "1174", "Nur ad-Din", "Nur al-Din", "Zengid", "Aleppo", "son of Nur ad-Din", "Saladin's siege"]
+      }
+    ]
+  },
+  {
     // "the Standard" names the 1138 battle only in a paragraph about the battle.
     // Everywhere else it is ordinary English: the phrase occurs 86 times across
     // 68 archive files — "set the standard", "the standard weapon of the

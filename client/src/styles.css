@@ -3155,6 +3155,60 @@ a.tree-person:hover .tree-person-name {
   }
 }
 
+/* ---- Skip link (0o U5) ----
+   Hidden until focused, then a real target at the top-left. Without it a
+   keyboard user tabs through the brand, the search field, every nav item and
+   the account chip before reaching the article, on every single page.
+   `clip-path` rather than `display: none`, because a hidden element must stay
+   focusable to be reachable at all. */
+.skip-link {
+  position: absolute;
+  z-index: 100;
+  top: 8px;
+  left: 8px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border-radius: 5px;
+  background: var(--gold);
+  color: var(--black);
+  font-size: 0.9rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.skip-link:focus-visible {
+  width: auto;
+  height: auto;
+  clip-path: none;
+  padding: 10px 16px;
+  outline: 2px solid var(--paper);
+  outline-offset: 2px;
+}
+
+/* ---- Reduced motion (0o U5) ----
+   The stylesheet asks for smooth scrolling and animates colour, borders and
+   transforms in several places. A reader who has asked their system for less
+   motion should get none of it — the contents rail's jump in particular, which
+   scrolls the whole page. Kept narrow rather than a blanket `* { all: unset }`:
+   this removes motion, not the interface's feedback. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 /* ---- "On this page": the contents rail under the hero image ----
    Appendix B §5. The hero's left column holds an image that ends early while the
    right column runs on, so this fills the one space every article type has
