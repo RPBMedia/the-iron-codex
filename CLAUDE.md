@@ -667,6 +667,31 @@ Rules:
 **Bad:** linking Battle of Poitiers (732) to Battle of Poitiers (1356).
 **Good:** separate articles — Battle of Tours (732) and Battle of Poitiers (1356) — each linked to the right one.
 
+#### A new article may not quietly take an existing article's name (2026-09-17)
+
+Every wrong-link bug this archive has had is one string that two articles answer
+to, resolved by the order of the `entityLinks` array rather than by meaning.
+`gen-entity-links.mjs` mints a bare short-form alias from "Battle of X" whenever
+no other article claims X, so a new battle named after a place, a title or a
+person goes live the moment it lands.
+
+**`tests/entity-link-guards.test.mjs` now hard-fails on any link term claimed by
+two or more articles with no guard to arbitrate it.** When it fires, the fix is
+one of three, never a shrug:
+
+1. **Guard it** — add an `ambiguousEntityAliases` entry with `contextHints` for
+   each possible target, so the bare name links only where the surrounding text is
+   actually about that subject, and to nothing otherwise.
+2. **Drop the duplicate alias**, where one article's claim is stale or wrong. The
+   Alarcos location carried "al-Arak" as a leftover curated alias while the
+   archive declares it on the battle, where it belongs.
+3. **Rename or year-qualify** the new article, as Evesham and Alnwick already are.
+
+**Before writing any battle whose short name is also a place, a title or a
+person, check first.** Shrewsbury is an earldom; Adrianople is a city; Nájera is
+a town in the Rioja. A wrong link is worse than a missing link, and no other gate
+catches one.
+
 ## Battle Continuity Links
 
 Every **military event** article (`events` entries with `eventType: "Battle"` or `"Siege"`) must include one curated continuity link to another military event article — the single best "read next" step. This applies **only** to Battles and Sieges; never add it to People, Locations, Kingdoms/Polities, Artifacts, Weapons & Armor, Orders & Institutions, Documents, Concepts, or non-military events (a War overview is not a valid target). Enforced by `npm run check:content-quality`, which hard-fails on a missing field, broken/self/non-military target, missing label, generic reason, backward links where a later same-conflict option exists, backward links labelled "next", and the specific regression `battle-of-agincourt -> battle-of-crecy`. Future Battle/Siege articles are **not complete** until this field is present.

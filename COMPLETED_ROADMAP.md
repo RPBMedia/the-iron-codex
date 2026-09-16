@@ -7,6 +7,68 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## Wrong links: the class closed — 2026-09-17
+
+`check-content-quality` hard-fails on a MISSING link and never on a WRONG one,
+so the worst failure the archive can produce — sending a reader to a different
+person, place or century — had no gate at all. Five had been found by accident,
+one at a time: Alexander (70 strings), Teresa of Portugal, Shrewsbury,
+Adrianople, Nájera.
+
+**The method that failed, recorded so nobody repeats it.** Ranking short link
+terms by how many articles contain them is useless: the top of that list is
+England, France, Constantinople, Denmark, Rome and Scotland — the most-used and
+most-CORRECT links in the archive. 422 terms flagged, near-zero precision.
+
+**The method that worked** is one line: *a link term that is also the name or
+alias of a different article*. Frequency proves nothing; a name collision is
+structural. It found six in a single pass, each verified by dates before being
+guarded:
+
+- **Pedro I / Peter the Cruel / Peter the Just** — three shared epithets across
+  two contemporary Iberian kings. Peter of Castile (1334–1369) and Peter I of
+  Portugal (1320–1367) each carried all three.
+- **John the Good** — the Valois king captured at Poitiers in 1356, and also how
+  Byzantium remembered John II Komnenos.
+- **Birger Magnusson** — Birger Jarl's own name, and his descendant the king's.
+- **Eadweard** — Old English for Edward, held by both the Elder and the Martyr.
+- **Crécy** — the battle and the village.
+- **Phokas** — a family as well as an emperor; eighteen articles write "the
+  Phokas family", "Leo Phokas" and "Bardas Phokas" about the tenth century, while
+  the bare alias belonged to the usurper of 602–610.
+
+**Two bugs in the generator sat underneath them.** `safeBattleSuffix` promised in
+its own comment that Crécy, Stiklestad and Bannockburn were left to their full
+form because they are also location articles — but it read only `a.name`, never
+aliases, and the Crécy location is *named* the unaccented "Crecy". It now reads
+names and aliases, keyed by claimant id: a first attempt without the id
+suppressed nine good suffixes, because most battles carry their own suffix and so
+collided with themselves. Fixing the check was still not enough, because a suffix
+baked into `entityLinks.js` by an earlier run reads back as a curated alias and
+survives regeneration — the same trap the file already handled for stale
+"Siege of X" suffixes, and now handles for battles.
+
+**`tests/entity-link-guards.test.mjs` closes the class.** A term claimed by two
+or more link entries is allowed only when a guard exists to arbitrate it, so a
+future article that shares a name with an existing one fails the build instead of
+quietly stealing its links. The test also locks the hazards found by hand, checks
+every guard is well formed and points at a real article, and catches a guard that
+can never fire.
+
+It earned its place three times on the day it was written. Its first version
+asserted the opposite of the truth — that a guarded term must NOT also be a
+minted alias — and every guard in the file failed it; `resolveAmbiguousAlias`
+runs *on top of* the match, so a guarded term absent from the table guards
+nothing. Corrected, it caught a genuinely dead guard ("Tours-Poitiers", guarded
+but never minted, so it linked to nothing) and a duplicate one ("Alexander",
+guarded twice with different contextHints, so whichever lost the array-order race
+discarded half its disambiguation).
+
+**One process failure worth keeping.** One commit in this sequence shipped with a
+failing test, because the chain that ran it piped the test through `tail`, which
+masks the exit code. Never pipe a gate through `tail`.
+
+
 ## Person–place mentions — queue item 0u — closed 2026-09-17
 
 The survey reported **85 person-place pairs** where a birth or death place never
