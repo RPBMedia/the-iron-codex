@@ -90,6 +90,35 @@ export function orderNameMap(data) {
   return map
 }
 
+// A person's Realm/polity names a polity the archive usually holds an article
+// for, and "every name in a fact links, like prose" (CLAUDE.md rule 5). It was
+// plain text unless the realm was a military order, so Henry III's "Kingdom of
+// England" went nowhere while his "House of Plantagenet" linked (owner,
+// 2026-09-16). Resolved on exact names and aliases only, and a label claimed by
+// two locations resolves to neither — a wrong link is worse than no link.
+export function realmLocationMap(data) {
+  const map = new Map()
+  const ambiguous = new Set()
+  for (const location of data.locations ?? []) {
+    for (const label of [location.name, ...(location.aliases ?? [])]) {
+      const key = normalizeDynastyKey(label)
+      if (!key) continue
+      const held = map.get(key)
+      if (held && held.slug !== location.id) ambiguous.add(key)
+      else if (!held) map.set(key, { slug: location.id, name: location.name })
+    }
+  }
+  for (const key of ambiguous) map.delete(key)
+  return map
+}
+
+export function withRealmLocation(article, data) {
+  if (article.type !== 'character' || !article.quickFacts?.realm) return article
+  const location = realmLocationMap(data).get(normalizeDynastyKey(article.quickFacts.realm))
+  if (!location) return article
+  return { ...article, realmLocation: location }
+}
+
 export function withOrderLinks(article, data) {
   if (article.type !== 'character') return article
   const map = orderNameMap(data)
@@ -101,5 +130,8 @@ export function withOrderLinks(article, data) {
 
 /** Exactly what `GET /api/:collection/:id` returns. */
 export function enrichArticle(article, data) {
-  return withOrderLinks(withDynastyHouse(withBattleContinuityTarget(article, data), data), data)
+  return withRealmLocation(
+    withOrderLinks(withDynastyHouse(withBattleContinuityTarget(article, data), data), data),
+    data
+  )
 }

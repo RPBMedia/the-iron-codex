@@ -760,6 +760,11 @@ function EventIntel({ article }) {
   const participants = normalizedParticipants(article)
   if (!participants.length && !article.outcome) return null
 
+  // Whether the ARTICLE names any commander, regardless of which side the
+  // grouping managed to file them under.
+  const hasNamedLeaders =
+    (article.leaders ?? []).length > 0 || participants.some((p) => p.leaders?.length)
+
   return (
     <div className="event-intel">
       <InfoBlock title="Factions">
@@ -807,7 +812,15 @@ function EventIntel({ article }) {
                         </li>
                       ))}
                     </ul>
-                  ) : (
+                  ) : hasNamedLeaders ? null : (
+                    /* Only say this when the article really names no commander.
+                       It is grouped by matching `leader.faction` to the side's
+                       name, so a vocabulary mismatch used to strand every leader
+                       and print this under BOTH sides — the Wars of Scottish
+                       Independence claimed no commander was securely represented
+                       while listing Wallace, Bruce and both Edwards (owner,
+                       2026-09-16). A grouping failure must not become a
+                       historical assertion. */
                     <p className="event-uncertain-note">No single named commander is securely represented.</p>
                   )}
                 </section>
@@ -1380,6 +1393,11 @@ function renderRealm(article) {
   if (!realm) return null
   if (article.orderLinks?.realm?.slug) {
     return <Link to={`/orders/${article.orderLinks.realm.slug}`}>{realm}</Link>
+  }
+  // The order check stays first: a Teutonic Knight's realm is the order, not a
+  // kingdom. Otherwise the realm links to its polity article when one exists.
+  if (article.realmLocation?.slug) {
+    return <Link to={`/locations/${article.realmLocation.slug}`}>{realm}</Link>
   }
   return realm
 }

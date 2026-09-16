@@ -16,23 +16,38 @@
   "leaders": [
     {
       "name": "Robert the Bruce",
-      "faction": "Scottish royal cause",
+      "faction": "Kingdom of Scotland",
       "personId": "robert-the-bruce"
     },
     {
+      "name": "William Wallace",
+      "faction": "Kingdom of Scotland",
+      "personId": "william-wallace"
+    },
+    {
+      "name": "Andrew Moray",
+      "faction": "Kingdom of Scotland",
+      "personId": "andrew-moray"
+    },
+    {
+      "name": "David II of Scotland",
+      "faction": "Kingdom of Scotland",
+      "personId": "david-ii-of-scotland"
+    },
+    {
       "name": "Edward I of England",
-      "faction": "English crown",
+      "faction": "Kingdom of England",
       "personId": "edward-i-of-england"
     },
     {
       "name": "Edward II of England",
-      "faction": "English crown",
+      "faction": "Kingdom of England",
       "personId": "edward-ii-of-england"
     },
     {
-      "name": "William Wallace",
-      "faction": "Scottish resistance",
-      "personId": "william-wallace"
+      "name": "Edward III of England",
+      "faction": "Kingdom of England",
+      "personId": "edward-iii-of-england"
     }
   ],
   "eventLocation": {

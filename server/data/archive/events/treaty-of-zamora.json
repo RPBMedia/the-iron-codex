@@ -23,17 +23,17 @@
   ],
   "leaders": [
     {
+      "name": "Cardinal Guido de Vico, papal legate",
+      "faction": "Papacy"
+    },
+    {
       "name": "Afonso Henriques",
-      "faction": "Portugal",
+      "faction": "Kingdom of Portugal",
       "personId": "afonso-i-of-portugal"
     },
     {
       "name": "Alfonso VII of León-Castile",
-      "faction": "León"
-    },
-    {
-      "name": "Cardinal Guido de Vico, papal legate",
-      "faction": "Papacy"
+      "faction": "Kingdom of León"
     }
   ],
   "outcome": "Leonese recognition of Afonso Henriques's kingship in Portugal; Portugal commended itself to the papacy.",
