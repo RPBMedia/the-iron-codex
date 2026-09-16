@@ -148,7 +148,6 @@ export default function DetailPage({ article: providedArticle = null }) {
           <ImageWithCaption article={article} />
           {(article.type === 'house' || article.type === 'location') && <ArmsImage article={article} />}
           {article.type === 'order' && <OrderSigilImage article={article} />}
-          <ContentsRail article={article} />
         </div>
         <div className="detail-body">
           <BackToArchiveLink collection={collection} routerLocation={routerLocation} navigate={navigate} />
@@ -170,6 +169,11 @@ export default function DetailPage({ article: providedArticle = null }) {
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
           {article.type === 'order' && <OrderHero article={article} />}
         </div>
+        {/* A grid child in column 1, landing under the image, rather than nested
+            inside the media column. It reads identically on desktop, but only
+            siblings can be reordered, and §25 puts "On this page" AFTER the
+            metadata on a phone. */}
+        <ContentsRail article={article} />
         {/* Option B (owner, 2026-09-16): a person's facts are a full-width band
             beneath BOTH hero columns, not a stack inside the right one. With
             everything except the image in the right column, that column ran to
