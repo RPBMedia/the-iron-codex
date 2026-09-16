@@ -1082,7 +1082,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    1. Run the scan.
    2. Review the frame and pair hits by eye on contact sheets.
    3. Fix each one: choose a borderless file, or crop and self-host it under `client/public/<collection>/` with the Commons page kept as `sourceUrl`.
-   4. Decide whether a baseline gate is worth keeping.
+   4. ✅ **Decided 2026-09-16: NO baseline gate. `scripts/audit-image-borders.mjs` stays as an on-demand audit.** The scan's own numbers are the argument: 184 hits (98 frame, 50 pair, 36 single) of which **28 were real margins**. Everything else is legitimate — the coins and seals the owner decided to keep on white, objects photographed on white, maps with light seas, white skies inside engravings, and manuscript parchment. A gate on that signal fails roughly six times wrongly for every true catch, and the only way to hold it green is an allowlist longer than the problem it polices. Worse, it would fight the owner's own decision: a tight-cropped coin would pass and the version he chose would fail. Run the script when images are added in bulk; do not wire it into the build.
 
    The Order of Montjoy image replacement ships first; the owner approved swapping its white shield for a photograph.
 
