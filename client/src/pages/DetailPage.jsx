@@ -1659,7 +1659,7 @@ function LocatorMap({ article }) {
         className="locator-window"
         style={{ aspectRatio: `${view.viewW} / ${view.viewH}` }}
         role="img"
-        aria-label={`Map of the ${map.title}, with ${article.name} marked in red`}
+        aria-label={`Map of ${map.title}, with ${article.name} marked in red`}
       >
         <img
           src={map.src}

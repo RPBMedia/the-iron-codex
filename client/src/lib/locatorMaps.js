@@ -158,6 +158,85 @@ export const LOCATOR_MAPS = {
     width: 1578,
     height: 721,
     bounds: { top: 42.5, bottom: 35.5, left: 25.4, right: 45.0 }
+  },
+
+  /*
+   * The outliers, added 2026-09-17: places that had coordinates but no frame.
+   *
+   * Every box below was checked against its image's aspect ratio before being
+   * trusted -- an equirectangular image of a box should be about
+   * (dlon * cos(midlat)) : dlat, and all six agree to within 4%. That is the
+   * cheap way to catch a wrong box, and it is what would have caught Spain.
+   *
+   * `central-balkans` is deliberately not called "Serbia". Kosovo Field and
+   * Prilepac lie in modern Kosovo, whose status is disputed, and captioning a
+   * battlefield with a contested border claim is not this archive's business.
+   * Kosovo's own published box would also crop to about 58km across -- below the
+   * range where a locator is recognisable -- while this frame gives about 173km.
+   *
+   * Russia is still absent on purpose: Novgorod on a full Russia map would crop
+   * to roughly 45 degrees of longitude, which is a region, not a locator. It
+   * needs a European Russia base map.
+   */
+  poland: {
+    title: 'Poland',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Poland_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Poland_adm_location_map.svg',
+    modernBorders: true,
+    width: 861,
+    height: 837,
+    bounds: { top: 55.2, bottom: 48.7, left: 13.8, right: 24.5 }
+  },
+  ukraine: {
+    title: 'Ukraine',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ukraine_administrative_locations_map,_improved.svg',
+    source: 'Wikimedia Commons (Yakiv Gluck, TUBS, CC BY-SA 4.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Ukraine_administrative_locations_map,_improved.svg',
+    modernBorders: true,
+    width: 3780,
+    height: 2540,
+    bounds: { top: 52.7, bottom: 44.1, left: 21.5, right: 40.7 }
+  },
+  lithuania: {
+    title: 'Lithuania',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lithuania_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Lithuania_adm_location_map.svg',
+    modernBorders: true,
+    width: 1642,
+    height: 1268,
+    bounds: { top: 56.7, bottom: 53.7, left: 20.4, right: 27.2 }
+  },
+  morocco: {
+    title: 'Morocco',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Morocco_location_map.svg',
+    source: 'Wikimedia Commons (Eric Gaba, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Morocco_location_map.svg',
+    modernBorders: true,
+    width: 1223,
+    height: 995,
+    bounds: { top: 36.25, bottom: 27.3, left: -13.55, right: -0.6 }
+  },
+  iraq: {
+    title: 'Iraq',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Iraq_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Iraq_adm_location_map.svg',
+    modernBorders: true,
+    width: 1240,
+    height: 1263,
+    bounds: { top: 37.7, bottom: 28.4, left: 38.4, right: 48.9 }
+  },
+  'central-balkans': {
+    title: 'the central Balkans',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Serbia_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0 de)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Serbia_adm_location_map.svg',
+    modernBorders: true,
+    width: 725,
+    height: 1037,
+    bounds: { top: 46.3, bottom: 41.7, left: 18.7, right: 23.2 }
   }
 }
 
@@ -183,7 +262,14 @@ export const COUNTRY_TO_MAP = {
   PT: 'portugal',
   DE: 'germany',
   IT: 'italy',
-  TR: 'turkey'
+  TR: 'turkey',
+  PL: 'poland',
+  UA: 'ukraine',
+  LT: 'lithuania',
+  MA: 'morocco',
+  IQ: 'iraq',
+  RS: 'central-balkans',
+  XK: 'central-balkans'
 }
 
 /**
