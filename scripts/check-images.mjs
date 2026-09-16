@@ -14,7 +14,12 @@ const vagueCaptionsSeen = new Set()
 // lib/polity-arms-backlog.json, which only shrinks, like the vague-caption baseline.
 const polityArmsBacklog = new Set(JSON.parse(fs.readFileSync(new URL('./lib/polity-arms-backlog.json', import.meta.url), 'utf8')))
 const polityArmsSeen = new Set()
-const polityLocationTypePattern = /^(kingdom|empire|caliphate|sultanate|principality|grand duchy|duchy|county|khanate|despotate|polity|imperial realm|league|military order|region \/ duchy)$/i
+// "emirate" added 2026-09-17, closing QUEUE 0d's last remainder. The three
+// emirate-type polities sat outside this pattern, so they were neither failing
+// nor tracked: Hamdanid Aleppo happened to have an arms panel, while Crete and
+// Melitene had none and nothing was watching. They are now in scope and listed
+// in polity-arms-backlog.json, which the gate does watch.
+const polityLocationTypePattern = /^(kingdom|empire|caliphate|sultanate|emirate|principality|grand duchy|duchy|county|khanate|despotate|polity|imperial realm|league|military order|region \/ duchy)$/i
 
 const repoRoot = new URL('..', import.meta.url)
 const data = loadArchive()
