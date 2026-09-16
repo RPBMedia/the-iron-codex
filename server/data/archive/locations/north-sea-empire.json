@@ -3,7 +3,7 @@
   "type": "location",
   "name": "North Sea Empire",
   "locationType": "Imperial realm",
-  "year": "1016-1035",
+  "year": "1016",
   "kingdom": "North Sea world",
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cnut_lands.svg",
   "summary": "A modern historical term for Cnut’s rule over England, Denmark, Norway, and related territories.",
@@ -197,5 +197,6 @@
     "source": "Yorkshire Museum, York (YORYM 2000.646), via Wikimedia Commons",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silver_penny_of_Cnut_the_Great_(YORYM_2000_646)_obverse.jpg",
     "note": "A genuine coin of Cnut's reign in a modern museum photograph; the bust is a conventional royal image, not a likeness. Heraldry began in the 12th century, so Cnut's realms had no coat of arms, and no seal of his survives; his coinage and his title are the attested royal emblems. The Quatrefoil type was the first of his three main English issues, and its legend reads CNUT REX ANGLORU(M), king of the English. The raven banner that the Encomium Emmae Reginae gives his army at Assandun survives only as a written description. Licensed CC BY-SA 4.0."
-  }
+  },
+  "endYear": "1035"
 }
