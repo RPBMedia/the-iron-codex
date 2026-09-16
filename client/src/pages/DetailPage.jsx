@@ -1670,7 +1670,19 @@ function LocatorMap({ article }) {
         />
         <span className="locator-marker" style={{ left: `${view.markerLeftPct}%`, top: `${view.markerTopPct}%` }} />
       </div>
-      <ImageCredit info={{ caption: `${article.name} marked in red on a modern map of the ${map.title}.`, source: map.source, sourceUrl: map.sourceUrl }} />
+      {/* "modern map" only when the base map actually has modern borders. The
+          Jerusalem map is a twelfth-century one, and calling it modern was
+          wrong on all three of its places (found 2026-09-16 while adding the
+          bounds maps, which ARE modern outlines and must say so). */}
+      <ImageCredit
+        info={{
+          caption: map.modernBorders
+            ? `${article.name} marked in red on a modern map of ${map.title}; the borders are today's, not those of the Middle Ages.`
+            : `${article.name} marked in red on ${map.title}.`,
+          source: map.source,
+          sourceUrl: map.sourceUrl
+        }}
+      />
     </figure>
   )
 }

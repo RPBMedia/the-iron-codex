@@ -25,10 +25,119 @@ export const LOCATOR_MAPS = {
     width: 589.99,
     height: 1288.1,
     calibration: { a: 161.23890573857665, b: -5387.373143225597, c: -9343.211834237816, d: 6243.789933821397 }
+  },
+
+  /*
+   * Bounds maps, added 2026-09-16 for QUEUE 0k Option 1.
+   *
+   * These are MODERN outlines, which the owner's rule allows as a fallback where
+   * no medieval base map can be used — and the caption must say the borders are
+   * modern. They are here because calibrating a medieval map from its own town
+   * labels was proven unworkable: 102 units of error on a 1405-wide map, with the
+   * projection ruled out as the cause. A documented degree box is exact.
+   *
+   * Every box is the one Wikipedia's Module:Location map/data/<country> publishes
+   * for that image, so a marker lands where its own pin templates would put it.
+   */
+  'british-isles': {
+    title: 'The British Isles',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/United_Kingdom_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:United_Kingdom_adm_location_map.svg',
+    modernBorders: true,
+    width: 1000,
+    height: 1200,
+    bounds: { top: 61, bottom: 49, left: -11, right: 2.2 }
+  },
+  france: {
+    title: 'France and the Low Countries',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/France_location_map-Regions_and_departements-2016.svg',
+    source: 'Wikimedia Commons (Eric Gaba, CC BY-SA 4.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:France_location_map-Regions_and_departements-2016.svg',
+    modernBorders: true,
+    width: 1000,
+    height: 1000,
+    bounds: { top: 51.5, bottom: 41.0, left: -5.8, right: 10.0 }
+  },
+  denmark: {
+    title: 'Denmark',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Denmark_adm_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Denmark_adm_location_map.svg',
+    modernBorders: true,
+    width: 1000,
+    height: 900,
+    bounds: { top: 57.9, bottom: 54.3, left: 7.8, right: 15.4 }
+  },
+  norway: {
+    title: 'Norway',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Norway_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Norway_location_map.svg',
+    modernBorders: true,
+    width: 1000,
+    height: 1200,
+    bounds: { top: 71.5, bottom: 57.6, left: 4.1, right: 31.6 }
+  },
+  sweden: {
+    title: 'Sweden',
+    src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Sweden_location_map.svg',
+    source: 'Wikimedia Commons (NordNordWest, CC BY-SA 3.0)',
+    sourceUrl: 'https://commons.wikimedia.org/wiki/File:Sweden_location_map.svg',
+    modernBorders: true,
+    width: 1000,
+    height: 1400,
+    bounds: { top: 69.5, bottom: 55.1, left: 10.4, right: 24.6 }
   }
 }
 
+/**
+ * Which base map a place should use, by its modern country.
+ *
+ * Assignment cannot be "the first box that contains the point": the boxes
+ * overlap heavily — Hastings and Agincourt sit inside both the British Isles and
+ * France, and Oslo, Copenhagen and Falsterbo inside all three Nordic boxes. The
+ * country a place is actually in settles it, and `modernCountry` already records
+ * that from the coordinates pass.
+ */
+export const COUNTRY_TO_MAP = {
+  GB: 'british-isles',
+  IE: 'british-isles',
+  FR: 'france',
+  BE: 'france',
+  NL: 'france',
+  DK: 'denmark',
+  NO: 'norway',
+  SE: 'sweden'
+}
+
+/**
+ * Two kinds of base map, because fitting a projection to a historical map turned
+ * out to be unreliable (2026-09-16).
+ *
+ * `calibration` — coefficients fitted against towns the map itself marks. Exact
+ * when the map's marker positions are machine-readable, as on the Jerusalem map:
+ * 23 towns, worst error 7 units.
+ *
+ * `bounds` — the map's edges in degrees, so a point is placed by proportion with
+ * no fitting at all: correct by construction. This exists because calibrating
+ * `France 1154-en.svg` from its 44 town LABELS failed at 102 units on a 1405-wide
+ * map, and the projection was not the cause — Mercator, equirectangular and a
+ * quadratic all landed within 2% of each other. A label sits left, right, above
+ * or below its dot depending on space, and that scatter (~40 units) is the floor.
+ * No projection choice escapes it.
+ *
+ * Bounds maps use the degree box Wikipedia's Module:Location map/data/<country>
+ * publishes for each base image — the same numbers its own pin templates use.
+ */
 export function projectOnMap(map, { lat, lon }) {
+  if (map.bounds) {
+    const { top, bottom, left, right } = map.bounds
+    return {
+      x: ((lon - left) / (right - left)) * map.width,
+      y: ((top - lat) / (top - bottom)) * map.height
+    }
+  }
   const { a, b, c, d } = map.calibration
   return { x: a * lon + b, y: c * mercY(lat) + d }
 }
