@@ -1508,7 +1508,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    index, search, sitemap, link type, relationship fields) plus an audit report,
    no content; Phase 1, a vertical slice proving the model (Goths, Visigoths,
    Ostrogoths, Norse, Vikings); then region by region, each batch proposed first.
-1. **Stub backlog — 228 articles under 2,000 chars, 134 with no timeline.**
+1. **Stub backlog — 146 articles under 2,000 chars (76 under 1,000), measured 2026-09-16.** By collection: locations 81, houses 34, events 15, characters 7, artifacts 7, orders 2; 60 of 104 events carry no timeline. Worst by inbound links: `charlemagne-crowned` (11 links, 1,334 chars), `treaty-of-edinburgh-northampton` (10), `ferdinand-iii-of-castile` (9), `siege-of-kyiv` (8), `almoravid-dynasty` (7), `scone` (6, 679 chars), `oslo` (5, 253 chars). The older count follows. **228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the
    worst offenders are famous battles people actually search. By inbound links:
@@ -1517,7 +1517,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    (23), `wars-of-scottish-independence` (21), `battle-of-crecy` (21), `rouen`
    (13 links, **911 chars**), `battle-of-svolder` (11 links, **941 chars**).
    Re-run `node scripts/audit-stubs.mjs` for the current list.
-2. **Template prose — 86 articles carry 24 name-substituted generator
+2. **Template prose — 4 articles left on the shrink-only baseline (measured 2026-09-16), down from 86 when it was found. Most were rewritten by the stub and batch work since. The original entry follows. 86 articles carry 24 name-substituted generator
    templates.** Found 2026-09-14. The content gate compared paragraphs verbatim,
    and a template that writes each article's own name into the sentence makes
    every copy unique, so none of it was ever flagged. Masking the subject's name
