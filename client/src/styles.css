@@ -1354,20 +1354,37 @@ button.back-link:focus-visible {
   margin-top: 20px;
 }
 
+/* Favourite is a quiet secondary action, not the page's call to action (0o U2).
+   It was a filled gold button at weight 900, which read as the most important
+   control on an article about a battle. The hit target and the pressed state are
+   unchanged — only its weight in the page is. */
 .article-actions button {
-  border: 1px solid #b88a22;
+  border: 1px solid rgba(215, 217, 221, 0.28);
   border-radius: 6px;
-  padding: 10px 14px;
-  background: #3a2b12;
-  color: var(--paper);
+  padding: 9px 13px;
+  background: transparent;
+  color: var(--silver);
   font: inherit;
-  font-weight: 900;
+  font-weight: 600;
   cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
 }
 
 .article-actions button:hover {
-  border-color: var(--gold);
-  background: #4a3717;
+  border-color: rgba(242, 193, 78, 0.55);
+  background: rgba(242, 193, 78, 0.08);
+  color: var(--paper);
+}
+
+.article-actions button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Saved is a state worth seeing, so it keeps the gold — as an outline, not a fill. */
+.article-actions button[aria-pressed="true"] {
+  border-color: rgba(242, 193, 78, 0.7);
+  color: var(--gold-soft);
 }
 
 .article-actions span {
@@ -1478,10 +1495,27 @@ button.back-link:focus-visible {
   text-decoration: underline;
 }
 
-.standfirst {
-  color: #1f2025;
-  font-size: 1.2rem;
-  font-weight: 760;
+/* `.standfirst` lived here until 0o U2. Events were its only user, printing the
+   summary at the top of the body; that sentence is now the hero deck below, so the
+   rule had nothing left to style and was removed rather than left to rot. */
+
+/*
+ * The article deck: the summary, read at a glance under the title (owner,
+ * 2026-09-16 — "the idea is to read it as soon as the page loads"). It sits in the
+ * hero, on the dark ground, so it takes the hero's light colours rather than the
+ * body's ink.
+ *
+ * It replaces the body standfirst rather than joining it: the owner asked for no
+ * redundancy. Events were the only type that printed the summary at all, so for
+ * locations, people, houses, orders, weapons and artifacts this is the first time
+ * that sentence appears on the page.
+ */
+.article-deck {
+  max-width: 62ch;
+  margin: 10px 0 0;
+  color: var(--silver);
+  font-size: 1.12rem;
+  line-height: 1.5;
   overflow-wrap: anywhere;
 }
 

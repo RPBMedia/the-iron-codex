@@ -140,6 +140,14 @@ export default function DetailPage() {
           <p className="eyebrow">{articleTypeLabel(article)}</p>
           <h1>{article.name}</h1>
           {article.type === 'character' && <PersonSubtitle article={article} />}
+          {/* The deck, under the title, where it reads on load (owner, 2026-09-16).
+              Every type has a summary — 175 of 176 locations, all houses, orders,
+              weapons and artifacts — but only events ever printed one, at the top
+              of the body. It moves here rather than being copied, so nothing is
+              said twice. */}
+          {String(article.summary ?? '').trim() && (
+            <p className="article-deck">{renderLinkedText(article.summary, article)}</p>
+          )}
           <FavoriteAction article={articleWithIdentity} />
           {article.type === 'character' && <PersonHero article={article} />}
           {article.type === 'location' && <LocationHero article={article} />}
@@ -927,8 +935,6 @@ function EventContent({ article }) {
 
   return (
     <>
-      <p className="standfirst">{renderLinkedText(article.summary, article)}</p>
-
       {/* Who fought and how it ended comes after the opening section, so the
           reader meets the battle before its order of battle. */}
       {sections.map((section, index) => (
@@ -977,7 +983,11 @@ function LocationHero({ article }) {
       ? { label: hasSpan ? 'Active' : 'Established', value: hasSpan ? `${article.year}–${article.endYear}` : article.year }
       : { label: 'Kingdom', value: article.kingdom ? renderKingdom(article) : null }
   ].filter((fact) => fact.value)
-  const subtitle = !isPolity && article.kingdom && typeLabel ? `${typeLabel} in ${article.kingdom}` : typeLabel
+  // The eyebrow above the title already prints the type, so the subtitle earns its
+  // place only when it adds the parent realm ("City in Kingdom of France"). Printed
+  // bare it repeated the eyebrow on all 176 location pages, exactly as it did under
+  // the Favorite control on events (owner report, 2026-09-15; U0 audit §2.4).
+  const subtitle = !isPolity && article.kingdom && typeLabel ? `${typeLabel} in ${article.kingdom}` : null
 
   return (
     <div className="location-profile">
