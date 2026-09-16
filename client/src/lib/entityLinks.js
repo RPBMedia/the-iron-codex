@@ -138,7 +138,7 @@ export const entityLinks = [
   { label: "Eric IV of Denmark", aliases: ["Eric Ploughpenny","Erik Plovpenning"], type: "person", slug: "eric-iv-of-denmark" },
   { label: "Eric IX of Sweden", aliases: ["Saint Erik","Erik Jedvardsson"], type: "person", slug: "eric-ix-of-sweden" },
   { label: "Eric of Pomerania", aliases: ["Erik of Pomerania","Eric VII of Denmark","Eric XIII of Sweden","Eric III of Norway"], type: "person", slug: "eric-of-pomerania" },
-  { label: "Eric the Victorious", aliases: ["Erik Segersäll"], type: "person", slug: "eric-the-victorious" },
+  { label: "Eric the Victorious", aliases: ["Erik Segersäll","Erik the Victorious","Eric Segersäll","Erik VI"], type: "person", slug: "eric-the-victorious" },
   { label: "Eric V of Denmark", aliases: ["Eric Klipping","Erik Glipping"], type: "person", slug: "eric-v-of-denmark" },
   { label: "Eric VI of Denmark", aliases: ["Eric Menved","Erik Menved"], type: "person", slug: "eric-vi-of-denmark" },
   { label: "Eric XI Eriksson", aliases: ["Erik Eriksson","Eric the Lisp and Lame","Erik läspe och halte"], type: "person", slug: "eric-xi-eriksson" },

@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import { maskedParagraphs, templateHash } from './lib/template-prose.mjs'
+import { coverageFor, isPolity } from './lib/polity-ruler-coverage.mjs'
 import { loadArchive } from '../server/data/archive.mjs'
 
 const data = loadArchive()
@@ -14,6 +15,14 @@ const allCharacters = new Map((data.characters ?? []).map((c) => [c.id, c]))
 const templateBaseline = JSON.parse(
   fs.readFileSync(new URL('./lib/template-prose-baseline.json', import.meta.url), 'utf8')
 ).templates ?? {}
+
+// Rulers who have articles but are never named on the page of the realm they
+// ruled. Shrink-only, read here at module top for the same temporal-dead-zone
+// reason as above. See scripts/baseline-polity-rulers.mjs for why this is a
+// baseline rather than a demand for completeness.
+const polityRulerBaseline = JSON.parse(
+  fs.readFileSync(new URL('./lib/polity-ruler-baseline.json', import.meta.url), 'utf8')
+).polities ?? {}
 
 // ── Battle-reference linking (see CLAUDE.md "Battle Reference Linking Rules") ──
 // Parse entityLinks so we can tell which "Battle of X" / "Siege of X" phrases the
@@ -1508,6 +1517,52 @@ for (const [hash, { articles, sample }] of Object.entries(templateBaseline)) {
       path: 'scripts/lib/template-prose-baseline.json',
       pattern: 'template-prose baseline is stale: these articles no longer carry the template — run `node scripts/baseline-template-prose.mjs` to record the fix',
       snippet: String(sample ?? '').slice(0, 160)
+    })
+  }
+}
+
+/**
+ * A polity must not fall further behind on naming its own rulers.
+ *
+ * The owner asked why Eric the Victorious was not among Sweden's famous rulers.
+ * He had a full article and the page simply never named him — and a survey found
+ * 88 such omissions across 13 polities, Denmark naming 4 of its 25. Nothing was
+ * watching, because no rule connected "this person ruled X" to "X's page should
+ * say so".
+ *
+ * Shrink-only rather than a demand for completeness: "Major rulers" is a curated
+ * teaching list, not an index, so forcing every name in would produce exactly the
+ * padding the no-filler rules forbid. What this catches is the real failure — a
+ * new ruler article appearing while its realm never mentions it.
+ */
+for (const location of data.locations ?? []) {
+  if (!isPolity(location)) continue
+  const { total, missing } = coverageFor(location, data)
+  if (!total) continue
+
+  const recorded = polityRulerBaseline[location.id]?.missing ?? 0
+
+  if (missing.length > recorded) {
+    findings.push({
+      collection: 'locations',
+      article: labelFor(location),
+      path: 'contentSections (Major rulers)',
+      pattern:
+        `polity names fewer of its own rulers than the baseline allows: ${missing.length} unnamed, baseline ${recorded}. ` +
+        `Name them on the page, or run \`node scripts/baseline-polity-rulers.mjs\` only if the new article genuinely does not belong`,
+      snippet: missing.map((m) => m.name).slice(0, 6).join(', ')
+    })
+  }
+
+  if (missing.length < recorded) {
+    findings.push({
+      collection: 'locations',
+      article: labelFor(location),
+      path: 'scripts/lib/polity-ruler-baseline.json',
+      pattern:
+        `polity-ruler baseline is stale: ${location.id} now names more of its rulers (${missing.length} unnamed, baseline ${recorded}) — ` +
+        'run `node scripts/baseline-polity-rulers.mjs` to record the improvement',
+      snippet: `${total - missing.length} of ${total} named`
     })
   }
 }
