@@ -3137,6 +3137,64 @@ a.tree-person:hover .tree-person-name {
   }
 }
 
+/* ---- "On this page": the contents rail under the hero image ----
+   Appendix B §5. The hero's left column holds an image that ends early while the
+   right column runs on, so this fills the one space every article type has
+   spare. It renders at four or more sections (owner, 2026-09-16); the threshold
+   lives in DetailPage.jsx with the reasoning.
+
+   Deliberately quiet: this is a map of the page, not a feature competing with
+   the title beside it. Ivory at 78%, gold only on hover and focus. */
+.contents-rail {
+  border-top: 1px solid rgba(215, 217, 221, 0.18);
+  padding-top: 14px;
+}
+
+.contents-rail h2 {
+  margin: 0 0 10px;
+  color: rgba(245, 241, 232, 0.45);
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.contents-rail ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
+}
+
+.contents-rail li + li {
+  margin-top: 2px;
+}
+
+.contents-rail a {
+  display: block;
+  padding: 5px 0 5px 10px;
+  border-left: 2px solid rgba(215, 217, 221, 0.16);
+  color: rgba(245, 241, 232, 0.78);
+  font-size: 0.86rem;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: color 120ms ease, border-color 120ms ease;
+}
+
+.contents-rail a:hover,
+.contents-rail a:focus-visible {
+  border-left-color: var(--gold);
+  color: var(--gold-soft);
+}
+
+/* The anchor lands the heading under the sticky header rather than behind it.
+   `html { scroll-behavior: smooth }` is already declared at the top of this file,
+   and archive scroll restoration deliberately passes `behavior: 'instant'` to
+   bypass it — so do not redeclare it here. */
+.bio-section[id] {
+  scroll-margin-top: 96px;
+}
+
 /* ---- House pages: media column + coat-of-arms image ---- */
 .detail-media-col {
   display: flex;

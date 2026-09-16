@@ -134,6 +134,7 @@ export default function DetailPage() {
           <ImageWithCaption article={article} />
           {(article.type === 'house' || article.type === 'location') && <ArmsImage article={article} />}
           {article.type === 'order' && <OrderSigilImage article={article} />}
+          <ContentsRail article={article} />
         </div>
         <div className="detail-body">
           <BackToArchiveLink collection={collection} routerLocation={routerLocation} navigate={navigate} />
@@ -1261,6 +1262,40 @@ function HouseCadetBranches({ branches, article }) {
   )
 }
 
+// "On this page" under the hero image — the spec's fix for the dead left column
+// (Appendix B §5). The left column holds an image that stops early while the
+// right column runs on, so the space under the picture is the one place every
+// article type has to spare.
+//
+// Shown at FOUR OR MORE sections (owner decision, 2026-09-16, chosen from four
+// measured options). The archive is bimodal — 15.7% of articles have 1–3
+// sections, 77% have 5–8 — so the cut lands in a real gap rather than an
+// arbitrary one: only 29 of 857 articles sit exactly at 4. Below the threshold
+// a rail would be two or three links, which is a label pretending to be
+// navigation, and it is shortest precisely where the article is shortest.
+const CONTENTS_RAIL_MIN_SECTIONS = 4
+
+function ContentsRail({ article }) {
+  const entries = (article.contentSections ?? [])
+    .map((section) => ({ title: section.title, id: sectionAnchorId(section.title) }))
+    .filter((entry) => entry.title && entry.id)
+
+  if (entries.length < CONTENTS_RAIL_MIN_SECTIONS) return null
+
+  return (
+    <nav className="contents-rail" aria-label="On this page">
+      <h2>On this page</h2>
+      <ol>
+        {entries.map((entry) => (
+          <li key={entry.id}>
+            <a href={`#${entry.id}`}>{entry.title}</a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}
+
 function PersonFactBand({ article }) {
   return (
     <div className="person-hero-band">
@@ -1441,9 +1476,23 @@ function InfoBlock({ title, children, className = '' }) {
 // sideFigure puts a figure in its own column to the right of the whole section
 // text (the city locator map), rather than floating it in part-way down, which
 // left dead space beside and under short text (owner, 2026-09-15).
+// Anchor id for a section heading, so the contents rail can jump to it. Derived
+// from the title rather than stored, because section titles are the only stable
+// identifier the data gives us and adding ids to 857 articles to support a
+// navigation aid would be a mass data edit the UI spec forbids (§2).
+export function sectionAnchorId(title) {
+  const slug = String(title ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+  return slug ? `section-${slug}` : null
+}
+
 function ArticleSection({ title, paragraphs, className = '', article, sideFigure = null }) {
   const sectionImages = sectionImagesFor(article, title)
   if (!(paragraphs ?? []).filter(Boolean).length && !sectionImages.length) return null
+
+  const anchorId = sectionAnchorId(title)
 
   const text = (paragraphs ?? []).filter(Boolean).map((paragraph, index) => (
     <FragmentWithImages
@@ -1457,7 +1506,7 @@ function ArticleSection({ title, paragraphs, className = '', article, sideFigure
 
   if (sideFigure) {
     return (
-      <section className={`bio-section ${className}`}>
+      <section className={`bio-section ${className}`} id={anchorId ?? undefined}>
         <h2>{title}</h2>
         <div className="section-with-side-figure">
           <div className="section-text">{text}</div>
@@ -1468,7 +1517,7 @@ function ArticleSection({ title, paragraphs, className = '', article, sideFigure
   }
 
   return (
-    <section className={`bio-section ${className}`}>
+    <section className={`bio-section ${className}`} id={anchorId ?? undefined}>
       <h2>{title}</h2>
       {text}
       {!(paragraphs ?? []).filter(Boolean).length && sectionImages.map((image) => (
