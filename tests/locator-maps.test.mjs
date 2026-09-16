@@ -51,3 +51,33 @@ test('the crop window keeps the marker inside and never runs off the map', () =>
   }
   assert.equal(locatorFor({ coordinates: { lat: 51.5, lon: -0.12 }, locatorMap: 'kingdom-of-jerusalem' }), null)
 })
+
+test('every mapped place puts its marker inside the visible inset', () => {
+  // The test above proves a marker falls somewhere on the base map. That is not
+  // the same as being VISIBLE: the reader sees a 340x320 crop of it, and a place
+  // near a box edge can sit on the map while its dot is clipped out of the
+  // window. Checked across all 100 mapped places on 2026-09-17, when 0k closed —
+  // none was off the inset, and none was even within 8% of its edge.
+  const data = loadArchive()
+  const mapped = data.locations.filter((a) => a.locatorMap)
+  assert.ok(mapped.length > 0, 'no location uses a locator map')
+
+  for (const article of mapped) {
+    const locator = locatorFor(article)
+    assert.ok(locator, `${article.id} has no marker on ${article.locatorMap}`)
+    const view = cropWindow(locator.map, locator.x, locator.y)
+    assert.ok(
+      view.markerLeftPct >= 0 && view.markerLeftPct <= 100,
+      `${article.id} marker is ${view.markerLeftPct.toFixed(1)}% across its inset — outside the visible crop`
+    )
+    assert.ok(
+      view.markerTopPct >= 0 && view.markerTopPct <= 100,
+      `${article.id} marker is ${view.markerTopPct.toFixed(1)}% down its inset — outside the visible crop`
+    )
+    // The window is clamped to the map, so it must never start past the edge.
+    assert.ok(
+      view.imgLeftPct <= 0 && view.imgTopPct <= 0,
+      `${article.id} crop window starts outside ${article.locatorMap}`
+    )
+  }
+})
