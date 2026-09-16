@@ -333,7 +333,7 @@ export const TOPICS = [
           "id": "gainsborough",
           "name": "Gainsborough",
           "depth": 1,
-          "summary": "An English town on the River Trent associated in tradition with the death of Sweyn Forkbeard."
+          "summary": "A tidal inland port on the Trent in Lindsey, where Sweyn Forkbeard based his conquest of England in 1013 and died on 3 February 1014."
         },
         {
           "id": "kingdom-of-denmark",
@@ -393,19 +393,19 @@ export const TOPICS = [
           "id": "rogaland",
           "name": "Rogaland",
           "depth": 1,
-          "summary": "A western Norwegian region central to saga traditions about Harald Fairhair and early Norwegian kingship."
+          "summary": "The south-western Norwegian province of the Rygir: Avaldsnes on the sailing route, the fjord where saga tradition places Harald Fairhair’s decisive victory, and the bishopric founded at Stavanger about 1125."
         },
         {
           "id": "shaftesbury",
           "name": "Shaftesbury",
           "depth": 1,
-          "summary": "An English town and religious center associated with the death of Cnut the Great."
+          "summary": "A hilltop burh of Alfred the Great in Dorset, and the site of the nunnery he founded in 888 for his daughter Æthelgifu: the shrine of Edward the Martyr, the richest house of nuns in England, a town with three royal mints, and the place where Cnut the Great died on 12 November 1035."
         },
         {
           "id": "stainmore",
           "name": "Stainmore",
           "depth": 1,
-          "summary": "A northern English upland route traditionally associated with Eric Bloodaxe's death."
+          "summary": "The bleak Pennine crossing between the Eden valley and Teesdale, a Roman road, a frontier marked by the Rey Cross, and the place where Eric Bloodaxe is said to have been killed in 954."
         },
         {
           "id": "stamford-bridge",
@@ -417,13 +417,13 @@ export const TOPICS = [
           "id": "stiklestad",
           "name": "Stiklestad",
           "depth": 1,
-          "summary": "The battlefield and church landscape associated with Olaf II Haraldsson's death and later cult."
+          "summary": "The farm landscape in Verdal where Olaf II Haraldsson was killed in 1030, and the church, pilgrimage and open-air drama that have kept the place in use as a national site ever since."
         },
         {
           "id": "svolder",
           "name": "Svolder",
           "depth": 1,
-          "summary": "The uncertain location of the Battle of Svolder, where Olaf Tryggvason died or disappeared in 1000."
+          "summary": "The unlocated place where Olaf Tryggvason was destroyed about the year 1000: an island, a river mouth or a strait, placed by different medieval sources in the Øresund, off Rügen, or at the mouth of the Schlei."
         },
         {
           "id": "winchester",
@@ -485,6 +485,18 @@ export const TOPICS = [
           "summary": "The Third Crusade (1189–1192) was western Europe's answer to Saladin's capture of Jerusalem: three kings set out, one drowned, one went home, and the third failed to take the city and settled for access to it."
         },
         {
+          "id": "battle-of-adrianople",
+          "name": "Battle of Adrianople",
+          "depth": 1,
+          "summary": "Kaloyan of Bulgaria destroyed the field army of the Latin Empire outside Adrianople on 14 April 1205 and captured the emperor Baldwin I, who died in Bulgarian captivity; the empire founded a year earlier never replaced the knights it lost."
+        },
+        {
+          "id": "battle-of-ain-jalut",
+          "name": "Battle of Ain Jalut",
+          "depth": 1,
+          "summary": "The Mamluks of Egypt destroyed a Mongol army under Kitbuqa at the spring of Ain Jalut in Galilee on 3 September 1260, recovering Syria and making their sultanate the dominant power of the Near East."
+        },
+        {
           "id": "battle-of-alnwick",
           "name": "Battle of Alnwick (1174)",
           "depth": 1,
@@ -497,16 +509,34 @@ export const TOPICS = [
           "summary": "Richard the Lionheart defeated Saladin at Arsuf in 1191, the first major field victory of the Third Crusade and proof that Saladin could be beaten in open battle."
         },
         {
+          "id": "battle-of-durbe",
+          "name": "Battle of Durbe",
+          "depth": 1,
+          "summary": "A Samogitian army destroyed the combined Livonian and Prussian forces of the Teutonic Order near Durbe on 13 July 1260, killing both commanders and about 150 brother knights; the Great Prussian Uprising began ten weeks later and took the Order fourteen years to crush."
+        },
+        {
           "id": "battle-of-grunwald",
           "name": "Battle of Grunwald",
           "depth": 1,
           "summary": "On 15 July 1410 the armies of Władysław II Jagiełło and Vytautas destroyed the Teutonic Order's field army in Prussia, killing Grand Master Ulrich von Jungingen and most of his commanders."
         },
         {
+          "id": "battle-of-la-forbie",
+          "name": "Battle of La Forbie",
+          "depth": 1,
+          "summary": "The field army of the Kingdom of Jerusalem and its Syrian Muslim allies was destroyed near Gaza on 17–18 October 1244, a defeat as complete as Hattin and far less remembered."
+        },
+        {
           "id": "battle-of-las-navas-de-tolosa",
           "name": "Battle of Las Navas de Tolosa",
           "depth": 1,
           "summary": "On 16 July 1212 the kings of Castile, Aragon and Navarre broke the army of the Almohad caliph Muhammad al-Nasir in the passes of the Sierra Morena, opening al-Andalus to the conquests of the next forty years."
+        },
+        {
+          "id": "battle-of-mansurah",
+          "name": "Battle of Mansurah",
+          "depth": 1,
+          "summary": "Louis IX’s crusade was wrecked at Mansurah on 8–11 February 1250, when his brother’s vanguard charged into the town and was destroyed, taking all but five of some 290 Templars with it."
         },
         {
           "id": "battle-of-pelagonia",
@@ -525,6 +555,12 @@ export const TOPICS = [
           "name": "Recovery of Constantinople",
           "depth": 1,
           "summary": "On 25 July 1261 a Byzantine force of about eight hundred men walked into Constantinople through an undefended gate while the Latin fleet was away. The empire was restored without a battle."
+        },
+        {
+          "id": "siege-of-acre",
+          "name": "Siege of Acre",
+          "depth": 1,
+          "summary": "The Third Crusade spent nearly two years and tens of thousands of lives retaking Acre, from Guy of Lusignan’s gamble in August 1189 to the surrender of 12 July 1191; five weeks later Richard I had the garrison of some 2,700 men killed in front of Saladin’s army."
         },
         {
           "id": "siege-of-sidon-1110",
@@ -568,7 +604,7 @@ export const TOPICS = [
           "id": "chalus",
           "name": "Chalus",
           "depth": 1,
-          "summary": "A castle town in Aquitaine remembered as the place where Richard the Lionheart was mortally wounded."
+          "summary": "A small town of the Limousin with two castles, where Richard the Lionheart was hit by a crossbow bolt while besieging Châlus-Chabrol on 26 March 1199 and died of the wound eleven days later — the end of a reign, and of the Angevin hold on Aquitaine as his family had known it."
         },
         {
           "id": "constantinople",
@@ -664,7 +700,7 @@ export const TOPICS = [
           "id": "tikrit",
           "name": "Tikrit",
           "depth": 1,
-          "summary": "A city on the Tigris remembered as the birthplace of Saladin."
+          "summary": "A fortress town on the Tigris between Mosul and Baghdad, long a centre of Syriac Christianity, and the birthplace of Saladin in about 1137."
         }
       ],
       "orders": [
@@ -825,42 +861,6 @@ export const TOPICS = [
           "name": "Frederick II, Holy Roman Emperor",
           "depth": 1,
           "summary": "Frederick II was Holy Roman Emperor, king of Sicily, and a crusader who recovered Jerusalem by treaty rather than battle during the Sixth Crusade."
-        },
-        {
-          "id": "fulcher-of-chartres",
-          "name": "Fulcher of Chartres",
-          "depth": 1,
-          "summary": "Fulcher of Chartres was a cleric and chronicler whose account of the First Crusade and early Kingdom of Jerusalem is one of the core Latin narratives for the movement."
-        },
-        {
-          "id": "gerard-de-ridefort",
-          "name": "Gérard de Ridefort",
-          "depth": 1,
-          "summary": "Gérard de Ridefort was Grand Master of the Knights Templar in the years of catastrophe, whose reckless counsel helped drive the Kingdom of Jerusalem to its destruction at the Battle of Hattin in 1187."
-        },
-        {
-          "id": "gerard-thom",
-          "name": "Gerard Thom",
-          "depth": 1,
-          "summary": "Gerard Thom, often called Blessed Gerard, was associated with the hospital in Jerusalem that became the foundation of the Knights Hospitaller."
-        },
-        {
-          "id": "godfrey-of-bouillon",
-          "name": "Godfrey of Bouillon",
-          "depth": 1,
-          "summary": "Godfrey of Bouillon was a Lotharingian noble and one of the most prominent lay leaders of the First Crusade. After the capture of Jerusalem in 1099, he became the first Latin ruler of the city, using the title Advocate of the Holy Sepulchre rather than king."
-        },
-        {
-          "id": "guillaume-de-beaujeu",
-          "name": "Guillaume de Beaujeu",
-          "depth": 1,
-          "summary": "Guillaume de Beaujeu was Grand Master of the Knights Templar in the last years of the Crusader states, a well-connected diplomat-soldier who tried to hold the Latin East together and died leading the defence of Acre in 1291."
-        },
-        {
-          "id": "guy-of-lusignan",
-          "name": "Guy of Lusignan",
-          "depth": 1,
-          "summary": "Guy of Lusignan was king of Jerusalem through marriage to Sibylla and the ruler whose defeat at Hattin preceded Saladin’s capture of Jerusalem."
         }
       ],
       "artifacts": [
@@ -1001,7 +1001,7 @@ export const TOPICS = [
           "id": "manzikert",
           "name": "Manzikert",
           "depth": 1,
-          "summary": "A town and battlefield in eastern Anatolia remembered for the Byzantine defeat of 1071."
+          "summary": "A walled town on the Murat plain north of Lake Van, fortified and fought over for centuries before the battle of 1071 made its name a turning point."
         },
         {
           "id": "ostrogothic-kingdom",
@@ -1490,7 +1490,7 @@ export const TOPICS = [
           "id": "agincourt",
           "name": "Agincourt",
           "depth": 1,
-          "summary": "A northern French village near the battlefield of Henry V's famous victory."
+          "summary": "Azincourt in the Pas-de-Calais, a village of a few hundred people whose vanished castle gave its name to Henry V’s victory of 25 October 1415 — fought in the ploughland between Azincourt, Tramecourt and Maisoncelle, and commemorated today by the Centre Historique Médiéval opened in 2001."
         },
         {
           "id": "aquitaine",
@@ -1502,13 +1502,13 @@ export const TOPICS = [
           "id": "crecy",
           "name": "Crecy",
           "depth": 1,
-          "summary": "A northern French battlefield famous for English longbow tactics in 1346."
+          "summary": "Crécy-en-Ponthieu in Picardy, a small town of the county of Ponthieu with a great forest behind it, which gave its name to the English victory of 26 August 1346 — a field traditionally placed between Crécy and Wadicourt, and relocated several miles away by an argument published in 2022."
         },
         {
           "id": "domremy",
           "name": "Domremy",
           "depth": 1,
-          "summary": "The village in northeastern France where Joan of Arc was born."
+          "summary": "The village on the upper Meuse where Joan of Arc was born about 1412, a loyalist island in Burgundian country whose inhabitants testified about her childhood forty years later."
         },
         {
           "id": "duchy-of-normandy",
@@ -1747,7 +1747,7 @@ export const TOPICS = [
           "id": "falaise",
           "name": "Falaise",
           "depth": 1,
-          "summary": "A Norman town and castle site traditionally associated with William the Conqueror's birth."
+          "summary": "The Norman town whose castle was the birthplace of William the Conqueror, the prison in which William the Lion of Scotland agreed the Treaty of Falaise, and a key fortress lost by King John in 1204."
         },
         {
           "id": "hastings",
@@ -2063,7 +2063,7 @@ export const TOPICS = [
           "id": "las-navas-de-tolosa",
           "name": "Las Navas de Tolosa",
           "depth": 1,
-          "summary": "A battlefield in the Sierra Morena linked to a major Christian victory over the Almohads."
+          "summary": "High ground in the eastern Sierra Morena, beyond the Despeñaperros gorge, where the Christian kings broke the Almohad army on 16 July 1212 — called al-ʿUqāb in Arabic."
         },
         {
           "id": "lisbon",
@@ -2802,6 +2802,18 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "battle-of-adrianople": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
+  "battle-of-ain-jalut": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "battle-of-alnwick": [
     {
       "slug": "crusades",
@@ -2814,7 +2826,19 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "battle-of-durbe": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
   "battle-of-grunwald": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    }
+  ],
+  "battle-of-la-forbie": [
     {
       "slug": "crusades",
       "title": "The Crusades"
@@ -2828,6 +2852,12 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "reconquista",
       "title": "The Reconquista"
+    }
+  ],
+  "battle-of-mansurah": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
     }
   ],
   "battle-of-pelagonia": [
@@ -2862,6 +2892,12 @@ export const TOPICS_BY_ARTICLE = {
     {
       "slug": "byzantine-warfare",
       "title": "The Byzantine Empire at War"
+    }
+  ],
+  "siege-of-acre": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
     }
   ],
   "siege-of-sidon-1110": [
@@ -3203,42 +3239,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "frederick-ii-holy-roman-emperor": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "fulcher-of-chartres": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "gerard-de-ridefort": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "gerard-thom": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "godfrey-of-bouillon": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "guillaume-de-beaujeu": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    }
-  ],
-  "guy-of-lusignan": [
     {
       "slug": "crusades",
       "title": "The Crusades"
