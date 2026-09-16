@@ -1,0 +1,315 @@
+{
+  "id": "malcolm-iii-of-scotland",
+  "type": "character",
+  "name": "Malcolm III of Scotland",
+  "aliases": [
+    "Malcolm III",
+    "Malcolm Canmore",
+    "Máel Coluim III",
+    "Máel Coluim mac Donnchada",
+    "Mael Coluim mac Donnchada"
+  ],
+  "born": 1031,
+  "died": 1093,
+  "deathAge": "about 62",
+  "causeOfDeath": "Killed in an ambush near Alnwick during his last invasion of England",
+  "restingPlace": "Dunfermline Abbey, after first burial at Tynemouth",
+  "location": "Kingdom of Scotland",
+  "title": "king of Scots",
+  "roles": [
+    "King of Scots",
+    "Founder of the ruling line of Dunkeld"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Malcolm_III_'Canmore'%2C_King_of_Scotland_(1057-93)_-_RCIN_403310_-_Royal_Collection.jpg",
+  "imageInfo": {
+    "caption": "Malcolm III, crowned and bearded, from the imaginary royal portraits Jacob de Wet II painted for Holyroodhouse between 1684 and 1686. No likeness made in his own lifetime survives.",
+    "creator": "Jacob de Wet II",
+    "date": "between 1684 and 1686",
+    "source": "Wikimedia Commons (Royal Collection, RCIN 403310)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Malcolm_III_'Canmore'%2C_King_of_Scotland_(1057-93)_-_RCIN_403310_-_Royal_Collection.jpg",
+    "note": "Painted for the long gallery at Holyroodhouse from a king-list rather than from any image, nearly six centuries after Malcolm died: the face is invented and the inscribed date of 1057 marks his accession, not the picture. Searched first for a contemporary depiction — no portrait, seal or portrait coin of Malcolm III is known — so the ranked fallback in CLAUDE.md lands on later artwork. Public domain.",
+    "aiGenerated": false
+  },
+  "sectionImages": [
+    {
+      "section": "Legacy",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_King_Malcolm_III%2C_Scottish_National_Portrait_Gallery.jpg",
+      "caption": "Malcolm III as a mailed warrior-king, in the sandstone figure John Rhind carved for the facade of the Scottish National Portrait Gallery in Edinburgh in the 1890s.",
+      "creator": "John Rhind (sculptor); photograph by Stephencdickson",
+      "date": "statue 1890s; photograph 2018",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_King_Malcolm_III%2C_Scottish_National_Portrait_Gallery.jpg",
+      "note": "A Victorian imagining rather than evidence: Rhind gave him mail, a conical helm and a beard because that is how the nineteenth century pictured an eleventh-century king. It belongs in the article as an example of the national memory discussed in the Legacy section. Licensed CC BY-SA 4.0.",
+      "aiGenerated": false
+    }
+  ],
+  "summary": "Malcolm III took the Scottish throne in 1058 by killing Macbeth and then Macbeth's stepson Lulach, married the English princess Margaret, invaded England five times, submitted to William the Conqueror at Abernethy in 1072, and was killed in an ambush near Alnwick in 1093.",
+  "details": "Máel Coluim mac Donnchada ruled for thirty-five years and founded the line that held Scotland until 1290. His reign turned the kingdom southwards and outwards — through an English marriage that reshaped the court and the church, and through five invasions of northern England that finally killed him — while the byname he is known by, Canmore, was fastened on him only by later writers.",
+  "birth": {
+    "date": "c. 1031",
+    "place": {
+      "name": "Unrecorded"
+    },
+    "note": "Eldest son of Duncan I. The year 1031 is the usual figure, consistent with the age of about 62 reported at his death, but no source records the birth itself."
+  },
+  "death": {
+    "date": "13 November 1093",
+    "place": {
+      "name": "Near Alnwick, Northumberland"
+    },
+    "circumstance": "Caught by the forces of Robert de Mowbray, Earl of Northumbria, while raiding on his fifth invasion of England, and killed — by the Durham tradition at the hand of Mowbray's steward Morel of Bamburgh. It was an ambush, not a pitched battle, and his eldest son by Margaret, Edward, was mortally wounded in the same action."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Scotland",
+    "dynasty": "House of Dunkeld",
+    "culture": "Gaelic Scottish, with an increasingly English and Anglo-Norman court",
+    "knownFor": "killing Macbeth, marrying Saint Margaret, and the submission at Abernethy"
+  },
+  "epithets": [
+    {
+      "name": "Canmore",
+      "type": "later epithet",
+      "note": "Gaelic ceann mòr, \"great chief\" or \"big head\". Applied to him only by later sources; historians have argued it belonged first to his great-grandson Malcolm IV."
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of Scots",
+    "predecessor": {
+      "displayName": "Lulach",
+      "note": "Macbeth's stepson, king for some seven months after Macbeth fell in August 1057, killed by Malcolm at Essie in Strathbogie on 17 March 1058. No biography in this archive."
+    },
+    "successor": {
+      "displayName": "Donald III",
+      "note": "Domnall Bán, Malcolm's own brother, who seized the kingdom on his death in November 1093 and drove out Malcolm's sons; deposed and blinded by Malcolm's son Edgar in 1097. No biography in this archive."
+    }
+  },
+  "overview": [
+    "Malcolm III was king of Scots from 1058 to 1093, and both ends of that reign were violent. He took the throne by killing Macbeth in 1057 and Macbeth's stepson Lulach the following spring, avenging a father he had lost as a boy; he lost it thirty-five years later in an ambush in Northumberland, on the fifth of the invasions of England that shaped his foreign policy and finally ended him.",
+    "Between those killings lies the reign that mattered. His second marriage, to the English princess Margaret of Wessex, brought a reforming queen, Benedictine monks, and a court that increasingly spoke and named its children in English; his sons ruled Scotland for the next two centuries. His submission to William the Conqueror at Abernethy in 1072 gave later English kings a precedent they would use for three hundred years, though no one can now say what Malcolm thought he was conceding."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Malcolm III was king of Scots from 1058 to 1093, and both ends of that reign were violent. He took the throne by killing Macbeth in 1057 and Macbeth's stepson Lulach the following spring, avenging a father he had lost as a boy; he lost it thirty-five years later in an ambush in Northumberland, on the fifth of the invasions of England that shaped his foreign policy and finally ended him.",
+        "Between those killings lies the reign that mattered. His second marriage, to the English princess Margaret of Wessex, brought a reforming queen, Benedictine monks, and a court that increasingly spoke and named its children in English; his sons ruled Scotland for the next two centuries. His submission to William the Conqueror at Abernethy in 1072 gave later English kings a precedent they would use for three hundred years, though no one can now say what Malcolm thought he was conceding."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 1031, the eldest son of Duncan I, the grandson whom Malcolm II had installed as his heir. On 15 August 1040 Macbeth killed Duncan, and Malcolm — probably nine years old — lost both a father and a kingdom in a single day. What happened to him next is one of the reign's genuine blanks. One tradition sends him to the court of Edward the Confessor in England; another, followed by Undiscovered Scotland, has him take refuge with Siward, earl of Northumbria, a kinsman on his mother's side. The two cannot both be wholly right and neither is securely documented.",
+        "The exile lasted fourteen years, which is a long apprenticeship in patience for a man later remembered chiefly for aggression. In 1054 Siward led an English army into Scotland and defeated Macbeth, and a \"Máel Coluim\" was set up in the conquered south. Whether that was this Malcolm is disputed by modern historians, and the article does not assume it; what is clear is that by the mid-1050s the exiled heir had English backing and Macbeth had lost control of southern Scotland.",
+        "The end came in 1057. Malcolm caught Macbeth at Lumphanan in Aberdeenshire on 15 August 1057, seventeen years to the day after Duncan's death, and killed him. The kingship passed not to Malcolm but to Macbeth's stepson Lulach, son of Gruoch by her first husband, who was inaugurated at Scone about three weeks later and held the title for roughly seven months. Malcolm killed him too, at Essie in Strathbogie on 17 March 1058, and was inaugurated king at Scone on 25 April 1058."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The fullest portrait of Malcolm comes from a source written to praise somebody else. The Life of Margaret, commissioned by their daughter and usually attributed to Turgot, prior of Durham, needed a queen who civilised a rough court, and it supplies a husband to match: illiterate, unable to read the devotional books he loved his wife for owning, and so devoted to her that he had them bound in jewelled covers as gifts he could not himself open. The detail is affectionate and it is also useful propaganda — the more unlettered the king, the more transformative the queen. It should be read as both.",
+        "English and Durham writers, whose lands his armies crossed five times, remembered something harsher. Malcolm's invasions were slaving raids as much as campaigns of conquest, driving captives north in numbers that chroniclers claimed left no Scottish household without English servants; Symeon of Durham's tradition is unforgiving about what the northern shires suffered. Against that, the same king kept Edgar Ætheling and his sisters when sheltering them meant defying the Conqueror, gave up that protection under military pressure at Abernethy, and then took Edgar back afterwards — loyalty and calculation in roughly equal measure.",
+        "Scottish tradition later gave him the byname Canmore, and it is worth being exact about what that is worth. It is not contemporary: the name appears in later sources, and historians have argued it originally belonged to his great-grandson Malcolm IV rather than to him. The man the record actually shows is neither the saint's uncouth husband nor the national founder of Victorian statuary, but a long-lived and tenacious dynast who waited fourteen years for his throne, killed twice to reach it, accepted humiliation in 1072 when the odds demanded it, and went back over the border four more times anyway."
+      ]
+    },
+    {
+      "title": "Margaret and the turning of the court",
+      "paragraphs": [
+        "Malcolm's first marriage was northern and political: Ingibiorg Finnsdottir, widow of Thorfinn Sigurdsson, the great earl of Orkney, a match that settled his relations with the Norse north and gave him the son who would briefly reign as Duncan II. His second marriage pointed the other way entirely. After the Norman conquest of England, Edgar Ætheling — the last male claimant of the house of Wessex — fled north with his sisters, and by the end of 1070 Malcolm had married one of them, Margaret.",
+        "Margaret's influence on the Scottish church is the part of this reign with the longest reach. She favoured Roman usage over the older Gaelic practice of the Céli Dé, brought Benedictine monks from Canterbury, founded the church at Dunfermline that became the abbey and the burial place of Scottish kings, and built the chapel on the rock at Edinburgh that still carries her name. She held councils on observance, and she did it as a queen rather than through the bishops, which is why the reform is remembered as hers. She was canonised in 1249.",
+        "The subtler change was in the nursery. Malcolm's sons by Ingibiorg carried Gaelic names; the sons by Margaret were called Edward, Edmund, Ethelred, Edgar, Alexander and David — the roll of the old English royal house. Naming children is a statement about inheritance, and the statement was that this branch descended from the kings of Wessex as well as from the kings of Alba. Four of those sons became kings of Scots, the court's language and manners moved steadily towards English and then Anglo-Norman forms, and through their daughter Matilda of Scotland the line married back into the English monarchy within seven years of Malcolm's death."
+      ]
+    },
+    {
+      "title": "Five invasions and the submission at Abernethy",
+      "paragraphs": [
+        "Malcolm invaded England five times — in 1061, 1070, 1079, 1091 and 1093 — and the pattern is consistent enough to read as policy rather than temper. He went south when England was distracted, took plunder and captives out of the northern shires, and pressed a claim to lands and influence in Cumbria and Northumberland that Scottish kings had been asserting since Carham. The raid of 1070 was the most destructive, and it came while the Conqueror was busy breaking the north himself.",
+        "It also provoked the reckoning. In 1072 William the Conqueror brought an army and a fleet north, and at Abernethy Malcolm submitted: he became William's man, handed over his son Duncan as a hostage, and agreed to expel Edgar Ætheling from his court. In return he appears to have received estates in England. No document of the agreement survives, and that absence is the whole problem with it — later English kings treated Abernethy as an admission that Scotland itself was held of England, while the terms as described are equally consistent with homage for English lands alone. Historians still argue the point and it cannot be settled from the evidence.",
+        "The last campaign was about exactly that ambiguity. Malcolm went to Gloucester in 1093 expecting to have his English estates and his grievances heard by William II of England; the king refused to negotiate on the terms Malcolm expected, and Malcolm went home and invaded. It was the fifth crossing and the shortest."
+      ]
+    },
+    {
+      "title": "Death",
+      "paragraphs": [
+        "On 13 November 1093 Malcolm was caught in Northumberland by the forces of Robert de Mowbray, Earl of Northumbria, while raiding near Alnwick. It was not a pitched battle — the sources describe a surprise attack on a raiding force — and the blow is attributed by Durham tradition to Mowbray's steward, Morel of Bamburgh. Malcolm was killed, and Edward, his eldest son by Margaret and his intended heir, was mortally wounded in the same action and died shortly afterwards. Care is needed with the name of the place: a separate and much better-known battle was fought outside Alnwick eighty-one years later, in 1174, when William the Lion was captured, and the two are constantly confused.",
+        "Margaret was ill at Edinburgh when the news reached her, and she died within days, on 16 November. Malcolm's body was taken to Tynemouth Priory and buried there; it was moved later to Dunfermline Abbey, the church his wife had founded, where their remains lay together.",
+        "The kingdom went to pieces almost immediately. Malcolm's brother Donald III seized the throne and drove out the sons of Margaret; in 1094 Duncan II — the son given as a hostage at Abernethy twenty-two years earlier — returned with Anglo-Norman troops, ruled for months and was killed that November; Donald took the kingdom back and held it until 1097, when Malcolm's son Edgar deposed and blinded him with English help. Three of Margaret's sons ruled in the end, and the last of them, David I, remade the kingdom."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "Every king of Scots from 1097 to 1290 descended from Malcolm III, and the Great Cause that followed was argued between competitors tracing their claims through his line. The house of Dunkeld is sometimes called the Canmore dynasty for him, and its long work — burghs, sheriffs, reformed monasteries, Anglo-Norman landholding — was begun in his household even where it was finished by his son David I. The southward tilt of the Scottish kingdom, its English marriages and its English quarrels alike, starts with the decision to marry Edgar Ætheling's sister.",
+        "The darker inheritance was Abernethy. An undocumented submission made under military duress in 1072 became, in English royal archives, evidence that the kings of Scots held their kingdom of the kings of England — the argument Edward I would deploy in 1291 to make himself arbiter of the Scottish succession, and which the Wars of Independence were fought to destroy. Malcolm, kneeling to save a campaign season, cannot have imagined what the gesture would be made to carry.",
+        "Later ages remembered him mostly through other people's stories. Shakespeare gave him a walk-on part as the avenging son in Macbeth, drawing on the chronicle tradition rather than on the record; Victorian Scotland put him on public buildings, as in John Rhind's statue on the Scottish National Portrait Gallery, mailed and helmed in a costume no eleventh-century king wore. His wife outshone him even in death: Margaret became a saint with a shrine and a cult, and Malcolm survives in the documents mainly as her husband, the illiterate king who had her books bound in jewels."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1031",
+      "title": "Born to Duncan I",
+      "description": "Eldest son of the king whom Malcolm II had installed as heir, in the first generation of the house of Dunkeld."
+    },
+    {
+      "date": "15 August 1040",
+      "title": "His father killed by Macbeth",
+      "description": "Duncan I dies at Macbeth's hands and the boy Malcolm goes into an exile of fourteen years, by rival traditions in England or with Siward of Northumbria."
+    },
+    {
+      "date": "15 August 1057",
+      "title": "Kills Macbeth at Lumphanan",
+      "description": "Seventeen years to the day after his father's death, Malcolm catches and kills Macbeth in Aberdeenshire — but the kingship passes first to Macbeth's stepson."
+    },
+    {
+      "date": "17 March 1058",
+      "title": "Kills Lulach, and takes the kingdom",
+      "description": "Lulach is killed at Essie in Strathbogie after some seven months as king; Malcolm is inaugurated at Scone on 25 April.",
+      "links": [
+        {
+          "title": "Scone",
+          "type": "location",
+          "slug": "scone"
+        }
+      ]
+    },
+    {
+      "date": "by the end of 1070",
+      "title": "Marries Margaret of Wessex",
+      "description": "The sister of Edgar Ætheling becomes queen, bringing Benedictine monks, Roman usage, the foundation at Dunfermline and English names for their sons."
+    },
+    {
+      "date": "1072",
+      "title": "Submits at Abernethy",
+      "description": "Facing William the Conqueror's army and fleet, Malcolm becomes his man, gives his son Duncan as a hostage and expels Edgar Ætheling; no document of the terms survives.",
+      "links": [
+        {
+          "title": "William the Conqueror",
+          "type": "person",
+          "slug": "william-the-conqueror"
+        }
+      ]
+    },
+    {
+      "date": "1091",
+      "title": "The fourth invasion",
+      "description": "Malcolm pushes south towards Newcastle to advance the Scottish frontier, and is bought off rather than beaten."
+    },
+    {
+      "date": "13 November 1093",
+      "title": "Killed in an ambush near Alnwick",
+      "description": "Raiding on his fifth invasion, he is surprised by Robert de Mowbray's men and killed together with his son Edward; Margaret dies three days later.",
+      "links": [
+        {
+          "title": "William II of England",
+          "type": "person",
+          "slug": "william-ii-of-england"
+        }
+      ]
+    },
+    {
+      "date": "1093–1097",
+      "title": "The succession collapses",
+      "description": "His brother Donald III seizes the throne and expels Margaret's sons; Duncan II reigns and is killed in 1094; Edgar deposes Donald in 1097."
+    }
+  ],
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Matilda of Scotland",
+        "type": "person",
+        "slug": "matilda-of-scotland",
+        "label": "Daughter, who married Henry I of England"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Received his submission at Abernethy in 1072"
+      },
+      {
+        "title": "William II of England",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "The king whose earl's men killed him in 1093"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Backed his return from exile against Macbeth"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The realm he ruled for thirty-five years"
+      },
+      {
+        "title": "Dunfermline Abbey",
+        "type": "location",
+        "slug": "dunfermline-abbey",
+        "label": "Founded by his queen, and his final burial place"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The earldom he invaded five times, and died in"
+      },
+      {
+        "title": "Scone",
+        "type": "location",
+        "slug": "scone",
+        "label": "Inaugurated king there in April 1058"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Malcolm III of Scotland — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Malcolm_III_of_Scotland"
+    },
+    {
+      "title": "King Malcolm III Canmore — Undiscovered Scotland",
+      "author": "Undiscovered Scotland",
+      "type": "reference work",
+      "url": "https://www.undiscoveredscotland.co.uk/usbiography/monarchs/malcolmiii.html"
+    },
+    {
+      "title": "Treaty of Abernethy — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Abernethy",
+      "note": "Sets out the 1072 terms and the standing dispute over whether the homage covered Scotland or only English estates."
+    },
+    {
+      "title": "Life of Saint Margaret, attributed to Turgot of Durham",
+      "author": "Turgot, prior of Durham (attributed)",
+      "type": "primary source",
+      "note": "Written for Malcolm's daughter and the source of the jewelled bindings and the illiterate husband; a hagiography of the queen, not a life of the king."
+    },
+    {
+      "title": "The Kingship of the Scots, 842–1292",
+      "author": "A. A. M. Duncan",
+      "type": "book",
+      "note": "On the exile, the disputed 1054 campaign, and what Abernethy did and did not concede."
+    },
+    {
+      "title": "Wikimedia Commons image record — de Wet portrait of Malcolm III",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacob_Jacobsz_de_Wet_II_(Haarlem_1641-2_-_Amsterdam_1697)_-_Malcolm_III_'Canmore',_King_of_Scotland_(1057-93)_-_RCIN_403310_-_Royal_Collection.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record — Rhind statue of Malcolm III",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Statue_of_King_Malcolm_III,_Scottish_National_Portrait_Gallery.jpg"
+    }
+  ]
+}

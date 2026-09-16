@@ -46,7 +46,8 @@
     },
     {
       "displayName": "Edward Balliol",
-      "note": "His son; puppet claimant crowned with English help in 1332"
+      "note": "His son; puppet claimant crowned with English help in 1332",
+      "personSlug": "edward-balliol"
     },
     {
       "displayName": "Dervorguilla of Galloway",
@@ -62,7 +63,8 @@
       "children": [
         {
           "name": "Edward Balliol",
-          "note": "crowned 1332 with English backing; never secure"
+          "note": "crowned 1332 with English backing; never secure",
+          "personSlug": "edward-balliol"
         }
       ]
     }
@@ -121,6 +123,12 @@
         "type": "person",
         "slug": "john-balliol",
         "label": "King of Scots, 1292–1296"
+      },
+      {
+        "title": "Edward Balliol",
+        "type": "person",
+        "slug": "edward-balliol",
+        "label": "His son, crowned in 1332 and bought out in 1356"
       }
     ],
     "locations": [

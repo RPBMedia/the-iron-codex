@@ -28,7 +28,8 @@
   "leaders": [
     {
       "name": "Máel Coluim II",
-      "faction": "Scots and men of Strathclyde"
+      "faction": "Scots and men of Strathclyde",
+      "personId": "malcolm-ii-of-scotland"
     },
     {
       "name": "Owain the Bald",
@@ -59,7 +60,8 @@
         {
           "name": "Máel Coluim II",
           "type": "person",
-          "note": "King of Alba from 1005 to 1034, named by Symeon of Durham as the victor and the last of his line in the male succession. No biography in the archive yet."
+          "title": "Malcolm II of Scotland",
+          "slug": "malcolm-ii-of-scotland"
         },
         {
           "name": "Owain the Bald",
@@ -202,6 +204,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Malcolm II of Scotland",
+        "type": "person",
+        "slug": "malcolm-ii-of-scotland",
+        "label": "King of Alba, who commanded the victorious army"
+      },
       {
         "title": "Cnut the Great",
         "type": "person",

@@ -50,11 +50,12 @@
     },
     {
       "displayName": "Malcolm II",
-      "note": "Last king of the male line; secured the southern border, d. 1034"
+      "note": "Last king of the male line; secured the southern border, d. 1034",
+      "personSlug": "malcolm-ii-of-scotland"
     }
   ],
   "familyTree": {
-    "caption": "The kings of Alba of the house of Alpin from Kenneth MacAlpin to Malcolm II, reconstructed from the king-lists; only Constantine II has a Codex article so far.",
+    "caption": "The kings of Alba of the house of Alpin from Kenneth MacAlpin to Malcolm II, reconstructed from the king-lists.",
     "root": {
       "name": "Kenneth MacAlpin",
       "note": "first king of Alba, d. 858",
@@ -70,7 +71,8 @@
             },
             {
               "name": "Malcolm II",
-              "note": "last of the male line, d. 1034"
+              "note": "last of the male line, d. 1034",
+              "personSlug": "malcolm-ii-of-scotland"
             }
           ]
         }
@@ -131,6 +133,12 @@
         "type": "person",
         "slug": "constantine-ii-of-scotland",
         "label": "The great king of Alba"
+      },
+      {
+        "title": "Malcolm II of Scotland",
+        "type": "person",
+        "slug": "malcolm-ii-of-scotland",
+        "label": "The last king of the male line"
       }
     ],
     "events": [

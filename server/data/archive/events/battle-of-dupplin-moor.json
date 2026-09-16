@@ -32,7 +32,8 @@
     },
     {
       "name": "Edward Balliol",
-      "faction": "The Disinherited"
+      "faction": "The Disinherited",
+      "personId": "edward-balliol"
     },
     {
       "name": "Henry de Beaumont",
@@ -83,7 +84,8 @@
         {
           "name": "Edward Balliol",
           "type": "person",
-          "note": "Son of King John Balliol and claimant to the Scottish throne, crowned at Scone six weeks after this victory and driven out of Scotland three times. No biography in the archive yet."
+          "title": "Edward Balliol",
+          "slug": "edward-balliol"
         },
         {
           "name": "Henry de Beaumont",
@@ -210,6 +212,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Edward Balliol",
+        "type": "person",
+        "slug": "edward-balliol",
+        "label": "Claimant king of Scots, who commanded here"
+      },
       {
         "title": "John Balliol",
         "type": "person",

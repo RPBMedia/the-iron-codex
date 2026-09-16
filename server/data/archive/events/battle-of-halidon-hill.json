@@ -41,7 +41,8 @@
     },
     {
       "name": "Edward Balliol",
-      "faction": "English army"
+      "faction": "English army",
+      "personId": "edward-balliol"
     },
     {
       "name": "Sir Archibald Douglas",
@@ -70,7 +71,8 @@
         {
           "name": "Edward Balliol",
           "type": "person",
-          "note": "Claimant king of Scots, whose siege of Berwick Edward III had joined in May 1333 and whose restoration the victory secured for a year. No biography in the archive yet."
+          "title": "Edward Balliol",
+          "slug": "edward-balliol"
         }
       ],
       "strength": {
@@ -216,6 +218,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Edward Balliol",
+        "type": "person",
+        "slug": "edward-balliol",
+        "label": "Claimant king of Scots, who commanded here"
+      },
       {
         "title": "Edward III of England",
         "type": "person",

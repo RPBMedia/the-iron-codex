@@ -42,7 +42,8 @@
   "notableMembers": [
     {
       "displayName": "Malcolm III \"Canmore\"",
-      "note": "Avenged his father on Macbeth; married the future St Margaret"
+      "note": "Avenged his father on Macbeth; married the future St Margaret",
+      "personSlug": "malcolm-iii-of-scotland"
     },
     {
       "displayName": "David I",
@@ -59,7 +60,7 @@
     }
   ],
   "familyTree": {
-    "caption": "The Dunkeld kings from Duncan I through the reforming David I to the last of the line, the child-queen Margaret; only Margaret has a Codex article so far.",
+    "caption": "The Dunkeld kings from Duncan I through Malcolm III and the reforming David I to the last of the line, the child-queen Margaret.",
     "root": {
       "name": "Duncan I",
       "note": "first Dunkeld king, d. 1040",
@@ -86,7 +87,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "personSlug": "malcolm-iii-of-scotland"
         }
       ]
     }
@@ -140,6 +142,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "Malcolm III of Scotland",
+        "type": "person",
+        "slug": "malcolm-iii-of-scotland",
+        "label": "The king the dynasty is named for"
+      },
       {
         "title": "Margaret, Maid of Norway",
         "type": "person",
