@@ -174,20 +174,70 @@
     ],
     "events": [
       {
-        "title": "Battle of Bannockburn",
+        "title": "Battle of Dunbar",
         "type": "event",
-        "slug": "battle-of-bannockburn"
-      },
-      {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton"
+        "slug": "battle-of-dunbar",
+        "label": "Edward I destroys the Scottish host, 1296"
       },
       {
         "title": "Battle of Stirling Bridge",
         "type": "event",
         "slug": "battle-of-stirling-bridge",
         "label": "First great Scottish victory, 1297"
+      },
+      {
+        "title": "Battle of Falkirk",
+        "type": "event",
+        "slug": "battle-of-falkirk",
+        "label": "Edward I's archers break the schiltrons, 1298"
+      },
+      {
+        "title": "Battle of Methven",
+        "type": "event",
+        "slug": "battle-of-methven",
+        "label": "Bruce routed weeks after his coronation, 1306"
+      },
+      {
+        "title": "Battle of Loudoun Hill",
+        "type": "event",
+        "slug": "battle-of-loudoun-hill",
+        "label": "Bruce’s first victory after exile, 1307"
+      },
+      {
+        "title": "Battle of Bannockburn",
+        "type": "event",
+        "slug": "battle-of-bannockburn",
+        "label": "Bruce breaks the English army, 1314"
+      },
+      {
+        "title": "Battle of Stanhope Park",
+        "type": "event",
+        "slug": "battle-of-stanhope-park",
+        "label": "Douglas raids Edward III's camp, 1327"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "England renounces its claim, 1328"
+      },
+      {
+        "title": "Battle of Dupplin Moor",
+        "type": "event",
+        "slug": "battle-of-dupplin-moor",
+        "label": "The disinherited reopen the war, 1332"
+      },
+      {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "Archery repeats Dupplin Moor, 1333"
+      },
+      {
+        "title": "Battle of Neville's Cross",
+        "type": "event",
+        "slug": "battle-of-nevilles-cross",
+        "label": "David II captured for eleven years, 1346"
       }
     ],
     "artifacts": [
