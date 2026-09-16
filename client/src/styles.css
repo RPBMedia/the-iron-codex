@@ -591,12 +591,6 @@ h2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.collection-tools {
-  display: flex;
-  justify-content: flex-end;
-  margin: -2px 0 18px;
-}
-
 .archive-controls {
   display: grid;
   gap: 14px;
@@ -610,14 +604,6 @@ h2 {
 
 .archive-search,
 .archive-select,
-.sort-control {
-  display: flex;
-  gap: 10px;
-  color: var(--paper);
-  font-size: 0.82rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
 
 .archive-search {
   flex-direction: column;
@@ -635,15 +621,6 @@ h2 {
 
 .archive-search input,
 .archive-select select,
-.sort-control select {
-  border: 1px solid rgba(242, 193, 78, 0.48);
-  border-radius: 6px;
-  padding: 10px 36px 10px 12px;
-  background: #fffaf0;
-  color: var(--black);
-  font: inherit;
-  text-transform: none;
-}
 
 .archive-search input {
   width: 100%;
@@ -652,14 +629,6 @@ h2 {
 .archive-select select {
   width: 100%;
   min-width: 0;
-}
-
-.sort-control {
-  align-items: center;
-}
-
-.sort-control select {
-  min-width: 210px;
 }
 
 .archive-count {
@@ -1918,7 +1887,6 @@ p.article-deck a:focus-visible {
   line-height: 1.4;
 }
 
-.inline-list,
 .leader-list {
   display: grid;
   gap: 8px;
@@ -1927,7 +1895,6 @@ p.article-deck a:focus-visible {
   list-style: none;
 }
 
-.inline-list li,
 .leader-list li {
   color: #292a30;
   font-weight: 760;
@@ -2130,8 +2097,10 @@ p.article-deck a:focus-visible {
   top: 98px;
 }
 
+/* `.reliability-note` was dropped from this list in 0o U7: the
+   HistoricalReliabilityNote component was removed permanently (CLAUDE.md), so
+   nothing renders that class. The other two are live and keep the rule. */
 .key-achievements h2,
-.reliability-note h2,
 .sources-list h2 {
   margin-bottom: 16px;
 }
@@ -2832,26 +2801,8 @@ p.article-deck a:focus-visible {
     width: min(100% - 24px, 1180px);
   }
 
-  .collection-tools {
-    justify-content: stretch;
-  }
-
   .archive-filter-row {
     grid-template-columns: 1fr;
-  }
-
-  .sort-control,
-  .sort-control select {
-    width: 100%;
-  }
-
-  .sort-control {
-    align-items: stretch;
-    flex-direction: column;
-  }
-
-  .sort-control select {
-    min-width: 0;
   }
 
   .global-search {
@@ -3314,11 +3265,6 @@ a.tree-person:hover .tree-person-name {
 .wa-knownfor { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; }
 .wa-knownfor li { position: relative; padding-left: 1.25rem; line-height: 1.5; }
 .wa-knownfor li::before { content: "▪"; position: absolute; left: 0; opacity: 0.6; }
-
-.wa-specs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 0.5rem 1.5rem; margin: 0; }
-.wa-specs > div { display: flex; justify-content: space-between; gap: 1rem; padding: 0.5rem 0; border-bottom: 1px solid rgba(128,128,128,0.18); }
-.wa-specs dt { opacity: 0.7; font-size: 0.85rem; }
-.wa-specs dd { margin: 0; text-align: right; font-weight: 600; }
 
 .wa-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .wa-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }

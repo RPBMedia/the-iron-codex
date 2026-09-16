@@ -33,7 +33,8 @@
     },
     {
       "name": "Owain the Bald",
-      "faction": "Scots and men of Strathclyde"
+      "faction": "Scots and men of Strathclyde",
+      "personId": "owain-of-strathclyde"
     },
     {
       "name": "Uhtred of Bamburgh or Eadwulf Cudel",
@@ -66,7 +67,8 @@
         {
           "name": "Owain the Bald",
           "type": "person",
-          "note": "The last king of Strathclyde on record, called rex Clutinensium in the Historia regum Anglorum; whether he fell here or survived it is not stated anywhere. No biography in the archive yet."
+          "title": "Owain the Bald",
+          "slug": "owain-of-strathclyde"
         }
       ],
       "strength": {
@@ -215,6 +217,12 @@
         "type": "person",
         "slug": "cnut-the-great",
         "label": "King of England in 1018, who did not intervene in the north"
+      },
+      {
+        "title": "Owain the Bald",
+        "type": "person",
+        "slug": "owain-of-strathclyde",
+        "label": "King of Strathclyde, who fought here beside Máel Coluim II"
       }
     ],
     "events": [

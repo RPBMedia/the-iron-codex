@@ -122,7 +122,8 @@
         {
           "name": "William the Lion, King of Scots",
           "type": "person",
-          "note": "No biography in the Codex yet: king of Scots from 1165 to 1214, captured here and freed only on the terms of the Treaty of Falaise."
+          "title": "William the Lion",
+          "slug": "william-the-lion"
         }
       ]
     }
@@ -192,6 +193,12 @@
   ],
   "relatedEntries": {
     "people": [
+      {
+        "title": "William the Lion",
+        "type": "person",
+        "slug": "william-the-lion",
+        "label": "The king taken prisoner here"
+      },
       {
         "title": "Henry II of England",
         "type": "person",

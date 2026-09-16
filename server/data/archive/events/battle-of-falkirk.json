@@ -94,7 +94,8 @@
         {
           "name": "John de Warenne, Earl of Surrey",
           "type": "person",
-          "note": "The beaten commander of the Battle of Stirling Bridge, serving again under the king. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders."
+          "title": "John de Warenne, 6th Earl of Surrey",
+          "slug": "john-de-warenne"
         }
       ],
       "strength": {
@@ -179,6 +180,12 @@
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Commander"
+      },
+      {
+        "title": "John de Warenne, 6th Earl of Surrey",
+        "type": "person",
+        "slug": "john-de-warenne",
+        "label": "Commanded the second division under Edward I"
       }
     ],
     "locations": [

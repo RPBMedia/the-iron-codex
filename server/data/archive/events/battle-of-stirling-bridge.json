@@ -33,7 +33,8 @@
     },
     {
       "name": "John de Warenne, Earl of Surrey",
-      "faction": "English"
+      "faction": "English",
+      "personId": "john-de-warenne"
     }
   ],
   "outcome": "Decisive Scottish victory; the English army was routed and driven from central Scotland.",
@@ -85,7 +86,8 @@
         {
           "name": "John de Warenne, Earl of Surrey",
           "type": "person",
-          "note": "No article yet: the English commander, who let half his army cross a narrow bridge before the other half could follow."
+          "title": "John de Warenne, 6th Earl of Surrey",
+          "slug": "john-de-warenne"
         }
       ]
     }
@@ -149,6 +151,12 @@
         "name": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england"
+      },
+      {
+        "title": "John de Warenne, 6th Earl of Surrey",
+        "type": "person",
+        "slug": "john-de-warenne",
+        "label": "His defeat, and his flight to Berwick"
       }
     ],
     "locations": [

@@ -46,7 +46,8 @@
     },
     {
       "name": "Sir Archibald Douglas",
-      "faction": "Scottish army"
+      "faction": "Scottish army",
+      "personId": "archibald-douglas-guardian"
     }
   ],
   "outcome": "Crushing English victory; Berwick surrendered the following day and remained English, and Edward Balliol was restored as king of Scots.",
@@ -97,7 +98,8 @@
         {
           "name": "Sir Archibald Douglas",
           "type": "person",
-          "note": "Guardian of Scotland for the exiled David II, brother of the James Douglas who had carried Bruce's heart on crusade, and mortally wounded here. No biography in the archive yet."
+          "title": "Sir Archibald Douglas, Guardian of Scotland",
+          "slug": "archibald-douglas-guardian"
         }
       ],
       "strength": {
@@ -235,6 +237,12 @@
         "type": "person",
         "slug": "david-ii-of-scotland",
         "label": "The child king sent to France after the defeat"
+      },
+      {
+        "title": "Sir Archibald Douglas, Guardian of Scotland",
+        "type": "person",
+        "slug": "archibald-douglas-guardian",
+        "label": "Commanded the Scottish army and was killed here"
       }
     ],
     "events": [

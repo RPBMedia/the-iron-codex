@@ -45,7 +45,8 @@
     },
     {
       "name": "Aymer de Valence",
-      "faction": "English"
+      "faction": "English",
+      "personId": "aymer-de-valence"
     }
   ],
   "participants": [
@@ -87,7 +88,8 @@
         {
           "name": "Aymer de Valence",
           "type": "person",
-          "note": "Edward I's lieutenant in Scotland and shortly afterwards Earl of Pembroke, the same commander who had destroyed Bruce's army at the Battle of Methven in 1306. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders."
+          "title": "Aymer de Valence, Earl of Pembroke",
+          "slug": "aymer-de-valence"
         }
       ],
       "strength": {
@@ -208,6 +210,12 @@
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Died eight weeks later on his way north"
+      },
+      {
+        "title": "Aymer de Valence, Earl of Pembroke",
+        "type": "person",
+        "slug": "aymer-de-valence",
+        "label": "His defeat by the same man eleven months later"
       }
     ],
     "locations": [

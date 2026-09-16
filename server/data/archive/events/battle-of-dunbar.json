@@ -24,7 +24,8 @@
   "leaders": [
     {
       "name": "John de Warenne, Earl of Surrey",
-      "faction": "English"
+      "faction": "English",
+      "personId": "john-de-warenne"
     }
   ],
   "outcome": "Decisive English victory; Scottish resistance in the field collapsed, the castle surrendered the following day, and John Balliol abdicated in July 1296.",
@@ -71,7 +72,8 @@
         {
           "name": "John de Warenne, Earl of Surrey",
           "type": "person",
-          "note": "Commanded the detachment Edward I sent to reduce Dunbar, and — as John Balliol's father-in-law — destroyed his son-in-law's army. No biography in the Codex yet; he is on the archive's documented backlog of unlinked battle leaders, and he commanded again, disastrously, at the Battle of Stirling Bridge."
+          "title": "John de Warenne, 6th Earl of Surrey",
+          "slug": "john-de-warenne"
         }
       ],
       "strength": {
@@ -150,6 +152,12 @@
         "type": "person",
         "slug": "andrew-moray",
         "label": "Taken prisoner here, and escaped"
+      },
+      {
+        "title": "John de Warenne, 6th Earl of Surrey",
+        "type": "person",
+        "slug": "john-de-warenne",
+        "label": "His victory, and the ruin of his son-in-law's kingdom"
       }
     ],
     "locations": [

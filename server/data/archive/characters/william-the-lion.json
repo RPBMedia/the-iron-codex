@@ -1,0 +1,393 @@
+{
+  "id": "william-the-lion",
+  "type": "character",
+  "name": "William the Lion",
+  "aliases": [
+    "William I of Scotland",
+    "William I, King of Scots"
+  ],
+  "born": 1142,
+  "died": 1214,
+  "deathAge": "about 72",
+  "causeOfDeath": "Illness at Stirling after a long decline",
+  "restingPlace": "Arbroath Abbey, before the high altar",
+  "location": "Kingdom of Scotland",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/William_I_of_Scotland_(Holyrood).jpg",
+  "summary": "King of Scots for forty-nine years, captured at Alnwick in 1174 and made Henry II's liegeman by the Treaty of Falaise, who bought his kingdom's independence back from Richard I for 10,000 merks in 1189.",
+  "overview": [
+    "William the Lion ruled Scotland from 1165 to 1214, the longest reign of any Scottish king before the union of the crowns. One badly judged morning outside Alnwick in July 1174 defined the first half of it: taken prisoner in a skirmish he had provoked, he bought his freedom with the Treaty of Falaise, which made him Henry II of England's liegeman for Scotland, put five royal castles under English garrisons paid for by Scotland, and subjected the Scottish church to the English one.",
+    "He spent the second half undoing it. In December 1189 Richard the Lionheart, raising money for crusade, sold the whole arrangement back for 10,000 merks; three years later a papal bull placed the Scottish church directly under Rome. William pushed royal authority into Galloway, Moray and Caithness, founded Arbroath Abbey for the murdered Thomas Becket, and left his son Alexander II a kingdom whose borders and institutions had hardened into the shape they would keep."
+  ],
+  "greatestFeats": [
+    "Bought Scotland out of the Treaty of Falaise with the Quitclaim of Canterbury in 1189",
+    "Obtained Cum universi in 1192, placing the Scottish church directly under Rome",
+    "Founded Arbroath Abbey in 1178",
+    "Broke the Mac William risings and forced the submission of Caithness",
+    "Reigned forty-nine years, the longest of any Scottish king before 1603"
+  ],
+  "title": "King of Scots",
+  "roles": [
+    "King of Scots",
+    "Earl of Northumbria (to 1157)"
+  ],
+  "epithets": [
+    {
+      "name": "the Lion",
+      "type": "later epithet",
+      "note": "Not contemporary. It follows the lion rampant he used on his standard, and John of Fordun, writing about 1380, who called him the Lion of Justice."
+    }
+  ],
+  "isRuler": true,
+  "succession": {
+    "office": "King of Scots",
+    "predecessor": {
+      "displayName": "Malcolm IV",
+      "note": "His elder brother, king from 1153 and called the Maiden, who died unmarried at Jedburgh on 9 December 1165 aged twenty-four. No article in this archive yet."
+    },
+    "successor": {
+      "displayName": "Alexander II",
+      "note": "His only surviving legitimate son, born at Haddington in 1198 and inaugurated at Scone two days after his father's death. No article in this archive yet."
+    }
+  },
+  "birth": {
+    "date": "c. 1142",
+    "place": {
+      "name": "Kingdom of Scotland",
+      "slug": "kingdom-of-scotland"
+    },
+    "note": "Second son of Henry, Earl of Northumberland, and Ada de Warenne, and a grandson of David I. The year is an estimate; no record of the birth survives."
+  },
+  "death": {
+    "date": "4 December 1214",
+    "place": {
+      "name": "Stirling",
+      "slug": "kingdom-of-scotland"
+    },
+    "circumstance": "Died at Stirling after a long illness, in the forty-ninth year of his reign, and was buried before the high altar of the abbey he had founded at Arbroath."
+  },
+  "quickFacts": {
+    "realm": "Kingdom of Scotland",
+    "dynasty": "House of Dunkeld",
+    "culture": "Scottish",
+    "knownFor": "The capture at Alnwick, the Treaty of Falaise, and buying Scottish independence back in 1189"
+  },
+  "imageInfo": {
+    "caption": "William the Lion in a bust-length oil painted by Jacob de Wet II in the 1680s for the Great Gallery at Holyroodhouse, inscribed GUILIELMUS COGNOMENTO LEO. No likeness made in his lifetime survives.",
+    "creator": "Jacob Jacobsz de Wet II (1641/2-1697)",
+    "date": "painted 1684-1686",
+    "source": "Wikimedia Commons (Royal Collection, Palace of Holyroodhouse)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_I_of_Scotland_(Holyrood).jpg",
+    "note": "One of ninety-three bust-length kings de Wet painted under contract for Charles II's gallery at Holyrood, five centuries after the sitter died and from no source but the painter's invention. It is evidence of how the Stuart court wished the line of Scottish kings to look, not of William's face. Public domain.",
+    "aiGenerated": false
+  },
+  "sectionImages": [
+    {
+      "section": "The revolt of 1173-1174 and the capture",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/William_I%2C_King_of_Scotland_(Cambridge_Corpus_Christi_College_26%2C_folio_134r).jpg",
+      "caption": "The capture of the king of Scots, drawn in the margin of Matthew Paris's Chronica Maiora about 1250 and labelled Willelmus rex.",
+      "creator": "Matthew Paris (attributed)",
+      "date": "about 1250",
+      "source": "Wikimedia Commons (Cambridge, Corpus Christi College, MS 26, folio 134r)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:William_I%2C_King_of_Scotland_(Cambridge_Corpus_Christi_College_26%2C_folio_134r).jpg",
+      "note": "Drawn at St Albans some seventy-five years after the event by a chronicler who knew the story rather than the man; the tinted heads are a narrative shorthand, not portraits. It is nonetheless the closest thing to a contemporary image of William that survives. Public domain.",
+      "aiGenerated": false
+    },
+    {
+      "section": "Arbroath Abbey",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Arbroath_Abbey_-_view_of_choir.jpg",
+      "caption": "The choir wall of Arbroath Abbey, the house William founded in 1178 and was buried in, photographed in 2015.",
+      "creator": "Photograph by Tom Parnell",
+      "date": "2015",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arbroath_Abbey_-_view_of_choir.jpg",
+      "note": "The red sandstone shell standing today is largely thirteenth-century work, built and rebuilt after William's death and ruined after the Reformation; the high altar he was buried before is gone, and the grave has never been securely identified. Released under CC BY-SA 4.0.",
+      "aiGenerated": false
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "William the Lion ruled Scotland from 1165 to 1214, the longest reign of any Scottish king before the union of the crowns. One badly judged morning outside Alnwick in July 1174 defined the first half of it: taken prisoner in a skirmish he had provoked, he bought his freedom with the Treaty of Falaise, which made him Henry II of England's liegeman for Scotland, put five royal castles under English garrisons paid for by Scotland, and subjected the Scottish church to the English one.",
+        "He spent the second half undoing it. In December 1189 Richard the Lionheart, raising money for crusade, sold the whole arrangement back for 10,000 merks; three years later a papal bull placed the Scottish church directly under Rome. William pushed royal authority into Galloway, Moray and Caithness, founded Arbroath Abbey for the murdered Thomas Becket, and left his son Alexander II a kingdom whose borders and institutions had hardened into the shape they would keep."
+      ]
+    },
+    {
+      "title": "Birth and early life",
+      "paragraphs": [
+        "He was born about 1142, the second son of Henry, Earl of Northumberland, and Ada de Warenne, and a grandson of David I. His father died in 1152 and his grandfather a year later, so the crown passed to William's elder brother Malcolm IV at twelve while William took Northumbria, the earldom his father had held. It was the richest thing he would ever possess and he held it for four years.",
+        "In 1157 Henry II of England, secure at last after the English civil war, required Malcolm IV to give back the northern counties his family had taken from Stephen. Malcolm submitted and William lost Northumbria, receiving the earldom of Huntingdon as compensation for a patrimony worth many times more. Everything he did on the border for the next twenty years followed from that exchange, and contemporaries said so: he wanted Northumbria, and he never stopped wanting it."
+      ]
+    },
+    {
+      "title": "Character and Personality",
+      "paragraphs": [
+        "The chroniclers who watched him are English and unflattering about his judgement rather than his person. Jordan Fantosme, who wrote a verse account of the 1173-1174 war within a few years of it, gives a king impatient with counsel, unable to hold an army together once it began to plunder, and reckless enough to charge four hundred knights with sixty companions; the recklessness is not a literary flourish, since it is exactly what the record of the capture describes. William of Newburgh, writing a generation later, treats the whole Scottish invasion as vanity punished, which is the moral a Yorkshire canon would draw.",
+        "Scottish tradition saw what came afterwards instead. John of Fordun, writing in the later fourteenth century, called him the Lion of Justice and made the byname stick - and the epithet is genuinely later, not contemporary: nobody in his lifetime called him the Lion. What the record of his own government shows is a man with an unusually long memory and unusual patience, who spent twenty years pressing a claim to Northumbria, fifteen years under a treaty he had signed at Falaise, and then bought his way out of it the moment a crusading English king needed cash.",
+        "Both readings can be true at once, and the reign argues that they are. The same king who lost his kingdom's independence in a morning recovered it by outliving the man who took it, kept his church out of York's hands by patient litigation at Rome rather than by arms, and pursued the Mac Williams and the earls of Orkney with a persistence that looks nothing like impulsiveness. He was a bad soldier and a formidably durable politician, and the second mattered more over forty-nine years."
+      ]
+    },
+    {
+      "title": "King of Scots, 1165-1173",
+      "paragraphs": [
+        "Malcolm IV died at Jedburgh on 9 December 1165 and William was inaugurated at Scone on Christmas Eve. His first years were spent in the ordinary business of a twelfth-century Scottish king: confirming the sheriffdoms and burghs his grandfather David I had planted, endowing religious houses, and pressing the claim to the northern English counties by diplomacy rather than war. In 1168 he negotiated with Louis VII of France, an early sign of the standing arrangement between Scotland and France that later centuries would call the Auld Alliance.",
+        "The claim went nowhere while Henry II was strong. William's opening came in 1173, when Henry's eldest son rebelled against him with the backing of his mother Eleanor of Aquitaine, his brothers, the king of France and a large part of the Angevin baronage. The Young King offered William Northumbria for his support. William took the offer."
+      ]
+    },
+    {
+      "title": "The revolt of 1173-1174 and the capture",
+      "paragraphs": [
+        "He invaded in 1173 and again in 1174, and the campaigns exposed what he could not do. His army could burn Northumberland but not take its castles: he failed before Wark, Carlisle and Prudhoe in turn, and his unpaid host worked by spreading out to plunder rather than by concentrating. On the morning of 13 July 1174 he was sitting outside Alnwick with a few dozen companions while the bulk of his men were away raiding, and a column of about four hundred knights that had ridden north from Newcastle in the dark came out of the fog in front of him.",
+        "What followed was the Battle of Alnwick, and it lasted minutes. William charged, had his horse killed under him, and was taken. He was carried south with his feet tied beneath a horse's belly, shown to Henry II at Northampton, and shipped to Normandy as a prisoner. The revolt in England collapsed within weeks, and the capture of the king of Scots was read on both sides of the border as the judgement of God on the whole enterprise."
+      ]
+    },
+    {
+      "title": "The Treaty of Falaise",
+      "paragraphs": [
+        "The terms were issued at Valognes on 8 December 1174 and sworn again publicly at York on 10 August 1175, in front of William's brother David and a crowd of Scottish magnates. William became Henry's liegeman for Scotland itself, not merely for English lands: for the first time English overlordship of the Scottish kingdom was written down. Five castles - Roxburgh, Berwick, Jedburgh, Edinburgh and Stirling - passed into English hands, garrisoned at the Scottish king's expense, and hostages were taken, his brother David among them. The Scottish bishops were required to acknowledge the English church.",
+        "The church clause proved the hardest to enforce and the most damaging to attempt. Scottish bishops had refused the authority of the archbishop of York for a century, and they went on refusing it; William, meanwhile, fought a long, bitter and unwinnable quarrel with the papacy over his own candidate for the see of St Andrews, which at one point left him excommunicated and his kingdom under interdict. Fifteen years of overlordship cost Scotland money, castles and prestige, and left the church question exactly where it had been."
+      ]
+    },
+    {
+      "title": "The Quitclaim of Canterbury, 1189",
+      "paragraphs": [
+        "Henry II died in July 1189 and his heir wanted money more than he wanted Scotland. Richard the Lionheart was raising every mark he could for the Third Crusade, and on 5 December 1189 at Canterbury he cancelled the Treaty of Falaise outright: the homage for the kingdom was released, Roxburgh and Berwick castles went back to William, and the relationship reverted to the older, looser personal fealty a Scottish king owed for his English estates. The price was 10,000 merks of silver.",
+        "It was the best money any Scottish king ever spent, and it was a real bargain rather than a gesture: Richard was selling offices and charters across his dominions that winter, and he took Scotland's payment in the same spirit. The quitclaim also left a document trail that mattered a century later. When Edward I of England revived the claim to overlordship after 1290, he was reaching past 1189 to the terms of 1174, and Scottish lawyers answered him with the deed Richard had sealed at Canterbury."
+      ]
+    },
+    {
+      "title": "A church answerable to Rome",
+      "paragraphs": [
+        "The second recovery was ecclesiastical and took three more years. On 13 March 1192 Pope Celestine III issued the bull Cum universi, declaring the Scottish church - the nine dioceses of St Andrews, Glasgow, Dunkeld, Dunblane, Brechin, Aberdeen, Moray, Ross and Caithness - a \"special daughter\" of the apostolic see, subject to no authority but the pope or a legate he sent. York's claim to metropolitan jurisdiction over Scotland was finished.",
+        "The bull did not give Scotland an archbishop of its own, and for three centuries Scottish bishops went on working as a college of equals answerable directly to Rome, a genuinely unusual arrangement in Latin Christendom. Its practical value was immediate: no interdict could be laid on the kingdom except by Rome, and Scottish church disputes stayed in Scotland. Taken with the quitclaim of 1189, it meant that by the end of William's reign neither the English crown nor the English church held any recognised authority north of the Tweed."
+      ]
+    },
+    {
+      "title": "Galloway, Moray and Caithness",
+      "paragraphs": [
+        "The English quarrel was only half his work. Galloway rose on the news of his capture in 1174, killed the king's officers and drove out his sheriffs, and was not fully brought back under royal control until the 1180s. Far more dangerous were the Mac Williams, descendants of Duncan II with a claim to the throne at least as good as William's by the older reckoning: Donald Mac William held Moray and Ross against the king through the early 1180s and was defeated and killed in Ross in 1187.",
+        "In the north William dealt with Harald Maddadsson, earl of Orkney and Caithness, whose power ran from Norway's islands into the Scottish mainland. The king forced his submission at the end of the 1190s and again in 1202, after a campaign that put a royal army into Caithness in strength. None of it produced a famous battle, and all of it did more for the shape of the kingdom than Northumbria ever would have: the reign is the point at which royal authority in Scotland becomes something that reaches the far north as a matter of routine."
+      ]
+    },
+    {
+      "title": "Arbroath Abbey",
+      "paragraphs": [
+        "In 1178 William founded an abbey at Arbroath on the Angus coast and gave it to Tironensian monks from Kelso. He dedicated it to Thomas Becket, murdered at Canterbury eight years earlier and canonised in 1173 - a man William had met at the English court, and a saint whose cult was, at that moment, the loudest possible statement about kings who lay hands on the church. The endowment was enormous: the income of twenty-four parishes, land in every royal burgh, harbour and market rights, and trading privileges in England granted later by King John.",
+        "The abbey was consecrated in 1197 and William was buried before its high altar in December 1214. It is where the reign's two halves meet - the penitent founder and the king who spent twenty years keeping his bishops out of English hands - and it is why the most famous document in Scottish history carries the town's name. The Declaration of Arbroath was drawn up there in 1320 by an abbot who was Robert the Bruce's chancellor."
+      ]
+    },
+    {
+      "title": "Last years and the Treaty of Norham",
+      "paragraphs": [
+        "William married late. On 5 September 1186, at forty-four and under pressure from Henry II, he took Ermengarde de Beaumont at Woodstock; Edinburgh Castle, held by an English garrison since Falaise, came back to Scotland as part of her dowry. Their son Alexander was born at Haddington in 1198, after three daughters, and William spent his last years securing the boy's inheritance.",
+        "That meant managing King John, who was harder to manage than Richard had been. The two kings came close to war over the border and over Scottish claims in Northumberland, and in August 1209 William, old and ill, accepted the Treaty of Norham: a very large payment, fifteen thousand merks, and his daughters Margaret and Isabella handed over for John to marry off. It was an expensive peace bought by a king who could no longer campaign, and it held. He died at Stirling on 4 December 1214, and Alexander II was inaugurated at Scone two days later without a challenge."
+      ]
+    },
+    {
+      "title": "Legacy",
+      "paragraphs": [
+        "The forty-nine years are the reign in which Scotland's institutions set. Sheriffs, burghs, royal justice and a coinage of his own spread under William as they had begun under David I, the church acquired a legal identity answerable only to Rome, and the northern earldoms were brought under a crown that could reach them. The red lion rampant he used became the arms of the kingdom, first securely recorded on the seal of his son Alexander II in the 1220s.",
+        "The Falaise homage outlived him, in the worst way. It was cancelled, paid off and superseded, but it had been written, and after the death of the Maid of Norway in 1290 Edward I's lawyers went looking for exactly such a document. The archive's own entry on his capture follows that thread to its end: the overlordship first conceded in 1174 was the precedent the Scots answered at the Battle of Stirling Bridge in 1297. William's own answer had been simpler and, for a century, sufficient - he bought it back."
+      ]
+    }
+  ],
+  "keyAchievements": [
+    {
+      "title": "The Quitclaim of Canterbury, 1189",
+      "description": "Paid Richard the Lionheart 10,000 merks to cancel the Treaty of Falaise, recovering Roxburgh and Berwick and ending English overlordship of the kingdom."
+    },
+    {
+      "title": "Cum universi, 1192",
+      "description": "Secured a papal bull making the Scottish church a special daughter of Rome, answerable to no archbishop of York."
+    },
+    {
+      "title": "The foundation of Arbroath Abbey, 1178",
+      "description": "Endowed a Tironensian abbey dedicated to Thomas Becket with the income of twenty-four parishes; it became his burial place."
+    },
+    {
+      "title": "Royal authority in the north",
+      "description": "Broke Donald Mac William in Ross in 1187 and forced the submission of Harald Maddadsson of Orkney and Caithness."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 1142",
+      "title": "Born",
+      "description": "Second son of Henry, Earl of Northumberland, and Ada de Warenne, and grandson of David I."
+    },
+    {
+      "date": "1157",
+      "title": "Loses Northumbria",
+      "description": "Henry II requires the northern counties back from Malcolm IV; William is compensated with the earldom of Huntingdon."
+    },
+    {
+      "date": "9-24 December 1165",
+      "title": "Becomes king of Scots",
+      "description": "Succeeds his brother Malcolm IV, who dies at Jedburgh, and is inaugurated at Scone on Christmas Eve."
+    },
+    {
+      "date": "13 July 1174",
+      "title": "Captured at Alnwick",
+      "description": "Charges a raiding column of English knights out of the fog with a few dozen companions, and is taken prisoner.",
+      "links": [
+        {
+          "title": "Battle of Alnwick (1174)",
+          "type": "event",
+          "slug": "battle-of-alnwick"
+        }
+      ]
+    },
+    {
+      "date": "8 December 1174",
+      "title": "The Treaty of Falaise",
+      "description": "Becomes Henry II's liegeman for Scotland; five castles pass to English garrisons paid for by the Scots."
+    },
+    {
+      "date": "1178",
+      "title": "Founds Arbroath Abbey",
+      "description": "Endows a Tironensian house from Kelso and dedicates it to the murdered Thomas Becket."
+    },
+    {
+      "date": "5 September 1186",
+      "title": "Marries Ermengarde de Beaumont",
+      "description": "Married at Woodstock under Henry II's direction; Edinburgh Castle returns to Scotland with her dowry."
+    },
+    {
+      "date": "1187",
+      "title": "Donald Mac William killed",
+      "description": "The rival claimant who had held Moray and Ross against the crown is defeated and killed in Ross."
+    },
+    {
+      "date": "5 December 1189",
+      "title": "The Quitclaim of Canterbury",
+      "description": "Richard the Lionheart, raising crusade money, cancels the Falaise homage for 10,000 merks and restores Roxburgh and Berwick."
+    },
+    {
+      "date": "13 March 1192",
+      "title": "Cum universi",
+      "description": "Celestine III declares the nine Scottish dioceses subject to Rome alone, ending York's claim over them."
+    },
+    {
+      "date": "August 1209",
+      "title": "The Treaty of Norham",
+      "description": "Buys peace from King John with fifteen thousand merks and his two daughters' marriages."
+    },
+    {
+      "date": "4 December 1214",
+      "title": "Died at Stirling",
+      "description": "Buried before the high altar at Arbroath; his son Alexander II is inaugurated at Scone two days later."
+    }
+  ],
+  "relatedEntries": {
+    "events": [
+      {
+        "title": "Battle of Alnwick (1174)",
+        "type": "event",
+        "slug": "battle-of-alnwick",
+        "label": "Captured here, and ransomed by the Treaty of Falaise"
+      }
+    ],
+    "people": [
+      {
+        "title": "Henry II of England",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "Took his homage for Scotland at Falaise"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Sold the overlordship back for 10,000 merks in 1189"
+      },
+      {
+        "title": "John of England",
+        "type": "person",
+        "slug": "john-of-england",
+        "label": "Bought off by the Treaty of Norham in 1209"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "His realm for forty-nine years"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The earldom he lost in 1157 and invaded to recover"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Held him prisoner in 1174 and claimed his homage until 1189"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Dunkeld",
+        "type": "house",
+        "slug": "house-of-dunkeld",
+        "label": "His dynasty, from Malcolm III to the Maid of Norway"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record (Royal Collection, Holyroodhouse)",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:William_I_of_Scotland_(Holyrood).jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record (Cambridge, Corpus Christi College MS 26)",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:William_I%2C_King_of_Scotland_(Cambridge_Corpus_Christi_College_26%2C_folio_134r).jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record (Arbroath Abbey)",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Arbroath_Abbey_-_view_of_choir.jpg"
+    },
+    {
+      "title": "William the Lion - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/William_the_Lion"
+    },
+    {
+      "title": "Treaty of Falaise - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Treaty_of_Falaise"
+    },
+    {
+      "title": "Cum universi - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Cum_universi"
+    },
+    {
+      "title": "Arbroath Abbey - Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Arbroath_Abbey"
+    },
+    {
+      "title": "The Kingship of the Scots, 842-1292: Succession and Independence",
+      "author": "A. A. M. Duncan",
+      "type": "book"
+    },
+    {
+      "title": "Kingship and Unity: Scotland 1000-1306",
+      "author": "G. W. S. Barrow",
+      "type": "book"
+    }
+  ]
+}
