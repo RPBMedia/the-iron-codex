@@ -53,10 +53,29 @@ function isCommaFragment(alias, allAliases, dataAliases) {
 
 // All article names/labels, lowercased, to detect suffix collisions (a battle
 // suffix that is ALSO a location or person name must NOT become an auto-alias).
-const allNamesLower = new Set()
+// Every name AND alias in the archive, mapped to the article ids that claim it.
+//
+// Names alone were not enough, and the comment below promised more than the code
+// delivered (found 2026-09-17). The Crécy location is *named* "Crecy" and carries
+// "Crécy" as an ALIAS, so a name-only check happily minted "Crécy" as a bare
+// battle suffix — precisely the collision this guard exists to prevent, and one
+// of the three cases the comment names.
+//
+// The map is keyed by claimant id because a battle must not block its own
+// suffix: "Ain Jalut" is an alias of battle-of-ain-jalut itself, and a naive
+// alias-aware check suppressed nine perfectly good links for that reason.
+const claimantsByName = new Map()
 for (const arr of Object.values(data)) {
   if (!Array.isArray(arr)) continue
-  for (const a of arr) { const n = (a.name || a.title || '').toLowerCase().trim(); if (n) allNamesLower.add(n) }
+  for (const a of arr) {
+    if (!a.id) continue
+    for (const raw of [a.name || a.title, ...(a.aliases || [])]) {
+      const k = String(raw || '').toLowerCase().trim()
+      if (!k) continue
+      if (!claimantsByName.has(k)) claimantsByName.set(k, new Set())
+      claimantsByName.get(k).add(a.id)
+    }
+  }
 }
 // A "Battle of X" suffix becomes a safe short-form alias only when no other
 // article is named X (so "Arsuf", "Hattin", "Aljubarrota" link to the battle,
@@ -65,12 +84,16 @@ for (const arr of Object.values(data)) {
 // Sieges are excluded: the X in "Siege of X" is a city, and a city's bare name
 // is not the siege. "Siege of Vladimir" made "Vladimir" link Vladimir the Great
 // to 1238, and "Siege of Orléans" made "Louis of Orléans" link to 1429.
-function safeBattleSuffix(name) {
+function safeBattleSuffix(name, id) {
   const m = (name || '').match(/^Battle of (.+)$/)
   if (!m) return null
   const s = m[1].trim()
   if (s.length < 5 || s.includes(',')) return null
-  if (allNamesLower.has(s.toLowerCase())) return null // collides with a location/person
+  // Unsafe when SOME OTHER article claims the name, by title or alias. The
+  // battle's own aliases must not count: most battles already carry their own
+  // suffix, so a self-inclusive check would suppress nine good links.
+  const claimants = claimantsByName.get(s.toLowerCase())
+  if (claimants && [...claimants].some((claimant) => claimant !== id)) return null
   return s
 }
 
@@ -90,9 +113,18 @@ for (const [col, arr] of Object.entries(data)) {
     // back as curated aliases; drop them unless the data itself declares one.
     const siegeSuffix = (label.match(/^Siege of (.+)$/) || [])[1]?.trim()
     const isBakedSiegeSuffix = (x) => siegeSuffix && x === siegeSuffix && !(a.aliases || []).includes(x)
-    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label) && !isCommaFragment(x, everyAlias, a.aliases || []) && !isBakedSiegeSuffix(x))
+    // The same trap for BATTLE suffixes that are no longer safe. "Crécy" was
+    // minted while the collision check read only names, so it missed the village
+    // whose name is the unaccented "Crecy" and whose ALIAS is the accented form.
+    // Fixing the check was not enough on its own: a value baked into the file by
+    // an earlier run reads back as curated and survives regeneration. Drop it
+    // unless the archive itself declares it (found 2026-09-17).
+    const battleSuffix = (label.match(/^Battle of (.+)$/) || [])[1]?.trim()
+    const isBakedUnsafeBattleSuffix = (x) =>
+      battleSuffix && x === battleSuffix && !safeBattleSuffix(label, a.id) && !(a.aliases || []).includes(x)
+    const fromCurated = (curated[a.id] || []).filter(x => keepAlias(x, label) && !isCommaFragment(x, everyAlias, a.aliases || []) && !isBakedSiegeSuffix(x) && !isBakedUnsafeBattleSuffix(x))
     const aliases = [...new Set([...fromCurated, ...fromData])]
-    if (col === 'events') { const suf = safeBattleSuffix(label); if (suf && !aliases.includes(suf)) aliases.push(suf) }
+    if (col === 'events') { const suf = safeBattleSuffix(label, a.id); if (suf && !aliases.includes(suf)) aliases.push(suf) }
     entries.push({ label, aliases, type, slug: a.id })
   }
 }

@@ -450,7 +450,7 @@ export const entityLinks = [
   { label: "Battle of Cortenuova", aliases: ["Cortenuova","Battaglia di Cortenuova"], type: "event", slug: "battle-of-cortenuova" },
   { label: "Battle of Courtrai", aliases: ["Battle of the Golden Spurs","Golden Spurs","Guldensporenslag","Battle of Kortrijk","Courtrai"], type: "event", slug: "battle-of-courtrai" },
   { label: "Battle of Covadonga", type: "event", slug: "battle-of-covadonga" },
-  { label: "Battle of Crécy", aliases: ["Crécy"], type: "event", slug: "battle-of-crecy" },
+  { label: "Battle of Crécy", type: "event", slug: "battle-of-crecy" },
   { label: "Battle of Dandanaqan", aliases: ["Battle of Dandanqan","Battle of Dandanakan","Dandanaqan"], type: "event", slug: "battle-of-dandanaqan" },
   { label: "Battle of Dunbar", aliases: ["Dunbar"], type: "event", slug: "battle-of-dunbar" },
   { label: "Battle of Dupplin Moor", aliases: ["Dupplin Moor"], type: "event", slug: "battle-of-dupplin-moor" },
@@ -864,7 +864,14 @@ export const ambiguousEntityAliases = [
     // an article yet: the bare name must link to the Byzantine emperor only in a
     // passage that is actually about him, and to nothing otherwise. When
     // Alexander II or III of Scotland is written, they get their own entries and
-    // this keeps the emperor from swallowing them.
+    // this keeps the emperor from swallowing them. The bare word also matches
+    // Pope Alexander III and Alexander the Great.
+    //
+    // MERGED 2026-09-17. "Alexander" was guarded TWICE, by two entries with the
+    // same target and DIFFERENT contextHints, so whichever lost the array-order
+    // race silently discarded half the disambiguation. The hints below are the
+    // union of both. tests/entity-link-guards.test.mjs now fails on any term
+    // guarded twice.
     terms: ["Alexander"],
     possibleTargets: [
       {
@@ -873,7 +880,22 @@ export const ambiguousEntityAliases = [
         type: "person",
         slug: "alexander",
         date: "r. 912–913",
-        contextHints: ["Byzantium", "Byzantine", "Constantinople", "912", "913", "Leo VI", "Zoe", "Macedonian dynasty", "Simeon of Bulgaria"]
+        contextHints: [
+          "Byzantium",
+          "Byzantine",
+          "Constantinople",
+          "Macedonian dynasty",
+          "Leo VI",
+          "Zoe",
+          "Zoe Karbonopsina",
+          "Simeon of Bulgaria",
+          "Symeon",
+          "Nicholas Mystikos",
+          "Constantine VII",
+          "Basil I",
+          "912",
+          "913"
+        ]
       }
     ]
   },
@@ -1227,32 +1249,6 @@ export const ambiguousEntityAliases = [
           "Plantagenet",
           "1189",
           "1199"
-        ]
-      }
-    ]
-  },
-  {
-    // "Alexander" is the label of the Byzantine emperor of 912–913, but the bare
-    // word also matches Alexander III of Scotland, Pope Alexander III and
-    // Alexander the Great. Link it only in a paragraph that is plainly about the
-    // emperor; everywhere else it stays plain text.
-    terms: ["Alexander"],
-    possibleTargets: [
-      {
-        title: "Alexander",
-        label: "Alexander",
-        type: "person",
-        slug: "alexander",
-        date: "r. 912–913",
-        contextHints: [
-          "Leo VI",
-          "Symeon",
-          "Nicholas Mystikos",
-          "Constantine VII",
-          "Zoe Karbonopsina",
-          "Basil I",
-          "912",
-          "913"
         ]
       }
     ]
