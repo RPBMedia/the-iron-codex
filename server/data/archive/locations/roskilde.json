@@ -47,7 +47,7 @@
       "paragraphs": [
         "Cnut the Great raised Roskilde to a bishopric in 1020, which fixed its rank for the rest of the Middle Ages: its bishops were among the greatest men in the kingdom and its diocese covered Zealand and, from the twelfth century, the new town of Copenhagen. Bishop Svend Nordmand built a Romanesque church of travertine about 1080 to replace the wooden one.",
         "The building that stands today was begun about 1170 in the episcopate of Absalon, the warrior bishop and adviser of Valdemar I, though recent work gives a larger share of the initiative to his successor Peder Sunesen. It was built of brick, a material then new in the north, and is among the earliest Gothic brick cathedrals in Scandinavia; the choir was consecrated in 1225, most of the work was finished by about 1280, and the western towers were completed in 1405. It became the model for brick church building around the Baltic and was made a UNESCO World Heritage Site in 1995.",
-        "The cathedral is the burial church of the Danish monarchy. Sweyn II Estridsson, who died in 1076, lies there; so does Margaret I, whose alabaster sarcophagus was carved by the Lübeck sculptor Johannes Junge in 1423, and Christopher of Bavaria, who died in 1448. By the time of the Reformation in 1536 the town had twelve churches and five monasteries around it."
+        "The cathedral is the burial church of the Danish monarchy. Sweyn II Estridsson, who died in 1076, lies there; so does Margaret I, whose alabaster sarcophagus was carved by the Lübeck sculptor Johannes Junge in 1423, and Christopher of Bavaria, who died in 1448. By the time of the Reformation in 1536 the town had twelve churches and five monasteries around it. Not every king who died at Roskilde stayed in it: Eric VI of Denmark died in the town on 13 November 1319 and was carried to Ringsted to be buried among the Valdemars whose reigns he had spent his own trying to match."
       ]
     },
     {
@@ -143,6 +143,12 @@
         "type": "person",
         "slug": "margaret-i",
         "label": "Entombed in the cathedral in 1413"
+      },
+      {
+        "title": "Eric VI of Denmark",
+        "type": "person",
+        "slug": "eric-vi-of-denmark",
+        "label": "Died in the town in 1319"
       }
     ],
     "locations": [

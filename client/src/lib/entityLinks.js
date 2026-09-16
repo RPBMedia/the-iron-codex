@@ -29,6 +29,8 @@ export const entityLinks = [
   { label: "Alexander", aliases: ["Alexander of Byzantium","Alexandros"], type: "person", slug: "alexander" },
   { label: "Alexander Nevsky", aliases: ["Aleksandr Nevsky","Alexander Yaroslavich","Saint Alexander Nevsky"], type: "person", slug: "alexander-nevsky" },
   { label: "Alexios I Komnenos", aliases: ["Alexius I Comnenus","Alexios Komnenos"], type: "person", slug: "alexios-i-komnenos" },
+  { label: "Alfonso IX of León", aliases: ["Alfonso IX","Adefonsus IX"], type: "person", slug: "alfonso-ix-of-leon" },
+  { label: "Alfonso V of León", aliases: ["Alfonso V","Adefonsus V"], type: "person", slug: "alfonso-v-of-leon" },
   { label: "Alfonso VI of León and Castile", aliases: ["Alfonso VI","Alfonso VI of Castile","Alfonso the Brave","Alfonso el Bravo"], type: "person", slug: "alfonso-vi-of-leon-and-castile" },
   { label: "Alfonso VIII of Castile", aliases: ["Alfonso the Noble","Alfonso VIII"], type: "person", slug: "alfonso-viii-of-castile" },
   { label: "Alfonso X of Castile", aliases: ["Alfonso X","Alfonso X the Wise","Alfonso X el Sabio","Alfonso el Sabio","Alfonso the Learned"], type: "person", slug: "alfonso-x-of-castile" },
@@ -168,7 +170,7 @@ export const entityLinks = [
   { label: "Guillaume de Beaujeu", aliases: ["William of Beaujeu"], type: "person", slug: "guillaume-de-beaujeu" },
   { label: "Guthrum", aliases: ["Guthrum the Old"], type: "person", slug: "guthrum" },
   { label: "Guy of Lusignan", aliases: ["Guy de Lusignan"], type: "person", slug: "guy-of-lusignan" },
-  { label: "Haakon IV Haakonsson", aliases: ["Haakon the Old"], type: "person", slug: "haakon-iv-haakonsson" },
+  { label: "Haakon IV Haakonsson", aliases: ["Haakon the Old","Haakon IV of Norway","Haakon IV"], type: "person", slug: "haakon-iv-haakonsson" },
   { label: "Haakon the Good", aliases: ["Haakon Haraldsson","Aðalsteinsfóstri"], type: "person", slug: "haakon-the-good" },
   { label: "Haakon V Magnusson", aliases: ["Haakon V of Norway"], type: "person", slug: "haakon-v-magnusson" },
   { label: "Haakon VI of Norway", aliases: ["Haakon Magnusson"], type: "person", slug: "haakon-vi-of-norway" },
@@ -317,6 +319,7 @@ export const entityLinks = [
   { label: "Olga of Kiev", aliases: ["Saint Olga","Olga the Wise","Helga (Norse equivalent name)","Equal-to-the-Apostles (Orthodox title)"], type: "person", slug: "olga-of-kiev" },
   { label: "Olof Skötkonung", aliases: ["Olaf the Swede"], type: "person", slug: "olof-skotkonung" },
   { label: "Oluf I of Denmark", aliases: ["Oluf Hunger","Olaf I","Oluf the Hungry"], type: "person", slug: "oluf-i-of-denmark" },
+  { label: "Ordoño II of León", aliases: ["Ordoño II","Ordonius II","Ordoño II of Galicia"], type: "person", slug: "ordono-ii-of-leon" },
   { label: "Orhan", aliases: ["Orhan Gazi","Orhan Bey"], type: "person", slug: "orhan" },
   { label: "Osman I", aliases: ["Osman Gazi","Osman Bey","Othman I"], type: "person", slug: "osman-i" },
   { label: "Otto IV", aliases: ["Otto IV, Holy Roman Emperor"], type: "person", slug: "otto-iv" },
@@ -409,6 +412,7 @@ export const entityLinks = [
   { label: "Tughril Beg", aliases: ["Toghrul I","Rukn al-Dunya wa-l-Din Tughril"], type: "person", slug: "tughril-beg" },
   { label: "Ulf Fase", aliases: ["Ulf Karlsson Fase","Ulf jarl"], type: "person", slug: "ulf-fase" },
   { label: "Ulrich von Jungingen", aliases: ["Ulrich of Jungingen"], type: "person", slug: "ulrich-von-jungingen" },
+  { label: "Urraca of León and Castile", aliases: ["Urraca of León","Urraca I of León","Urraca I"], type: "person", slug: "urraca-of-leon" },
   { label: "Valdemar I of Denmark", aliases: ["Valdemar the Great"], type: "person", slug: "valdemar-i-of-denmark" },
   { label: "Valdemar II of Denmark", aliases: ["Valdemar the Victorious","Valdemar Sejr"], type: "person", slug: "valdemar-ii-of-denmark" },
   { label: "Valdemar IV Atterdag", aliases: ["Valdemar Atterdag","Valdemar the Restorer"], type: "person", slug: "valdemar-iv-atterdag" },
@@ -1338,6 +1342,46 @@ export const ambiguousEntityAliases = [
           "Anglo-Gascon",
           "English",
           "French"
+        ]
+      }
+    ]
+  },
+  {
+    // TWO women called Teresa of Portugal, a century apart, and the archive holds
+    // only the earlier one. `teresa-of-leon` is Alfonso VI's daughter, countess of
+    // Portugal, mother of Afonso Henriques, who died in 1130 — and she carries
+    // "Teresa of Portugal" as an alias.
+    //
+    // Alfonso IX of León married a DIFFERENT Teresa in 1191: a daughter of King
+    // Sancho I of Portugal and his own first cousin, which is why the marriage was
+    // annulled for consanguinity. She has no article. Writing her name in its
+    // natural form would send a reader to Afonso Henriques's mother, sixty years
+    // dead by the wedding.
+    //
+    // Found while writing the Leonese rulers (2026-09-17). That article routes
+    // around the name — "his first cousin Teresa, a daughter of King Sancho I of
+    // Portugal" — but the next person to write her will not know to, and no gate
+    // catches a wrong link, only a missing one. So the bare alias resolves to the
+    // countess only where the surrounding text is actually about her.
+    terms: ["Teresa of Portugal"],
+    possibleTargets: [
+      {
+        title: "Teresa of León",
+        label: "Teresa of León",
+        type: "person",
+        slug: "teresa-of-leon",
+        date: "c. 1080–1130",
+        contextHints: [
+          "Afonso Henriques",
+          "Afonso I of Portugal",
+          "Henry of Burgundy",
+          "County of Portugal",
+          "São Mamede",
+          "Guimarães",
+          "Alfonso VI",
+          "Tarasia",
+          "1128",
+          "1130"
         ]
       }
     ]
