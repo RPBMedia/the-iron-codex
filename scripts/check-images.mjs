@@ -191,6 +191,18 @@ for (const [collection, entries] of Object.entries(data)) {
         metadata: image,
         articleSources: entry.sources
       })
+
+      // A section image renders only where its `section` matches a contentSections
+      // title exactly (ArticleSection in DetailPage.jsx). A near-miss title renders
+      // nothing at all and says nothing: the U0 audit found 16 images stranded this
+      // way, among them every Weapons & Armor "Regional variations and examples"
+      // against a section actually called "Regional variation".
+      const sectionTitles = (entry.contentSections ?? []).map((section) => section.title)
+      if (!stringValue(image.section)) {
+        addFinding(collection, article, `sectionImages[${imageIndex}].section`, 'section image has no section, so it renders nowhere; name the contentSections title it belongs beside')
+      } else if (!sectionTitles.includes(image.section)) {
+        addFinding(collection, article, `sectionImages[${imageIndex}].section`, `section image points at "${image.section}", which is not a section of this article, so it renders nowhere; the sections are: ${sectionTitles.map((title) => `"${title}"`).join(', ') || '(none)'}`)
+      }
     })
 
     // Military orders carry a sigil/seal image below the primary render image
