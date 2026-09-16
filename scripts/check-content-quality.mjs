@@ -63,6 +63,19 @@ const BATTLE_BACKLOG = new Set([
   // courtrai, la forbie, lechfeld, mansurah. The list is for UNWRITTEN battles.
   'battle of dandanaqan',
   'battle of heavenfield', 'battle of nechtansmere', 'battle of ponza',
+  // Added 2026-09-16 with the four founding rulers of Lithuania (Mindaugas,
+  // Gediminas, Algirdas, Kęstutis). Each is a real engagement their articles must
+  // name, and none has an article yet: Blue Waters (1362, Algirdas breaks the
+  // Horde's hold on Kiev), Durbe (1260, the defeat that triggered the Great
+  // Prussian Uprising and Mindaugas's breach with the Order), Saule (1236, the
+  // destruction of the Sword-Brothers, already referenced across the Baltic
+  // order articles without the words "Battle of"), and Rudau (1370) and Strėva
+  // (1348), the two set-piece defeats of Kęstutis's forty-year western war.
+  // Blue Waters is the strongest candidate of the five for a full article: the
+  // first serious reversal the Horde suffered in the Rus' lands, eighteen years
+  // before Kulikovo.
+  'battle of blue waters', 'battle of durbe', 'battle of saule',
+  'battle of rudau', 'battle of strėva',
   'battle of soissons', 'battle of the trent', 'battle of velbazhd',
   'battle of the zab', 'battle of val-ès-dunes', 'battle of bornhöved',
   'battle of åsle', 'battle of épila',

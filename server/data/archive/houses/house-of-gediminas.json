@@ -49,6 +49,11 @@
   ],
   "notableMembers": [
     {
+      "personSlug": "gediminas",
+      "displayName": "Gediminas",
+      "note": "Grand duke c. 1316–1341; the dynasty takes his name"
+    },
+    {
       "personSlug": "wladyslaw-ii-jagiello",
       "displayName": "Władysław II Jagiełło",
       "note": "Founder of the Jagiellonian royal line"
@@ -72,6 +77,16 @@
       "personSlug": "wladyslaw-iii-of-poland",
       "displayName": "Władysław III",
       "note": "King of Poland and Hungary; died at Varna in 1444"
+    },
+    {
+      "personSlug": "algirdas",
+      "displayName": "Algirdas",
+      "note": "Grand duke 1345–1377; took Kiev from the Golden Horde"
+    },
+    {
+      "personSlug": "kestutis",
+      "displayName": "Kęstutis",
+      "note": "Duke of Trakai and co-ruler; killed at Kreva in 1382"
     }
   ],
   "familyTree": {
@@ -110,7 +125,8 @@
               "personSlug": "svitrigaila",
               "note": "Grand Duke of Lithuania"
             }
-          ]
+          ],
+          "personSlug": "algirdas"
         },
         {
           "name": "Kęstutis",
@@ -121,9 +137,11 @@
               "personSlug": "vytautas",
               "note": "Grand Duke, d. 1430"
             }
-          ]
+          ],
+          "personSlug": "kestutis"
         }
-      ]
+      ],
+      "personSlug": "gediminas"
     }
   },
   "contentSections": [
@@ -218,6 +236,12 @@
         "type": "person",
         "slug": "wladyslaw-iii-of-poland",
         "label": "Died at Varna"
+      },
+      {
+        "title": "Gediminas",
+        "type": "person",
+        "slug": "gediminas",
+        "label": "The founder the house is named for"
       }
     ],
     "events": [
