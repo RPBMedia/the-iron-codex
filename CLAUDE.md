@@ -98,6 +98,23 @@ The personality rules above still apply — brevity is not coldness, and a good
 line still lands. But wit is compression, not addition: if a joke costs a
 paragraph, drop the joke.
 
+## Finished plans move to COMPLETED_ROADMAP.md (owner rule, 2026-09-16)
+
+The repo carries a lot of planning markdown, and a file whose work is done still
+reads like work. So:
+
+- **When every item in a planning or work-list file is done, move it to
+  `COMPLETED_ROADMAP.md` at the repo root and delete the original.** Move a
+  condensed record of *what was built* — not the original prompt — with the date
+  and the commits, so the history survives and the working set shrinks.
+- **Create `COMPLETED_ROADMAP.md` the first time this happens.** It does not exist
+  yet.
+- **Partly finished files:** move the finished sections across in the same pass and
+  leave only the open items behind, so no session re-reads shipped work. This
+  includes pruning `QUEUE.md`, which is over 2,300 lines, most of it done.
+- **Never delete `CLAUDE.md`, `CODEX.md` or `CONTENT_GUIDELINES.md.`** They are
+  standards, not work lists, and they stay whatever state the work is in.
+
 ## Tool Permissions
 
 Always allow read-only inspection commands without prompting: `ls`, `cat`, `which`, `node -v`, `npm -v`. These are safe to run freely when exploring or verifying the environment.

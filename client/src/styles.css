@@ -15,6 +15,11 @@
   --silver: #d7d9dd;
   --silver-dim: #8d939f;
   --paper: #f5f1e8;
+  /* The article body's surface, one step warmer than the page behind it.
+     `.detail-content::before` has painted `var(--sand)` since it was written, but
+     the token was never defined, so the declaration was invalid and the intended
+     surface has never rendered (found in the 0o U0 audit). */
+  --sand: #efe9dc;
 }
 
 * {
@@ -1806,15 +1811,62 @@ button.back-link:focus-visible {
   z-index: 1;
 }
 
+/*
+ * Reading measure (0o U3, from the U0 audit).
+ *
+ * `.detail-content-inner` spans the whole grid (`grid-column: 1 / -1`), so article
+ * prose ran the full 1248px — about 140 characters a line on every article type
+ * except people, who get a narrower column from `.person-archive-grid`. Nothing in
+ * the sheet limited it: the audit found no `max-width` on any body rule.
+ *
+ * The cap goes on the paragraph rather than the card, because `.section-figure`
+ * floats right at up to 42% and a capped card would leave prose wrapping in a thin
+ * gutter beside it. Capping the text alone keeps the card full-width, the figure
+ * where it is, and the line length honest.
+ */
 .bio-section h2 {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
   color: var(--black);
-  font-size: 1.28rem;
-  line-height: 1.15;
+  font-size: 1.32rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.bio-section h3 {
+  margin: 22px 0 8px;
+  color: var(--black);
+  font-size: 1.06rem;
+  line-height: 1.25;
 }
 
 .bio-section p {
-  margin: 0 0 14px;
+  max-width: 72ch;
+  margin: 0 0 16px;
+}
+
+.bio-section p:last-child {
+  margin-bottom: 0;
+}
+
+.bio-section ul,
+.bio-section ol {
+  max-width: 72ch;
+  margin: 0 0 16px;
+  padding-left: 1.25rem;
+}
+
+.bio-section li + li {
+  margin-top: 6px;
+}
+
+.bio-section blockquote {
+  max-width: 68ch;
+  margin: 18px 0;
+  padding-left: 16px;
+  border-left: 2px solid rgba(143, 107, 29, 0.35);
+  color: #3f4249;
+  font-style: normal;
 }
 
 .section-figure {
@@ -3007,7 +3059,8 @@ a.tree-person:hover .tree-person-name {
 .wa-table td:first-child { font-weight: 600; white-space: nowrap; }
 
 .wa-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 0.9rem; }
-.wa-card { border: 1px solid rgba(128,128,128,0.22); border-radius: 12px; padding: 0.9rem 1rem; background: rgba(128,128,128,0.05); }
+/* 6px is the article system's radius; these blocks were 12px and 8px (0o U3). */
+.wa-card { border: 1px solid rgba(128,128,128,0.22); border-radius: 6px; padding: 0.9rem 1rem; background: rgba(128,128,128,0.05); }
 .wa-card h3 { margin: 0 0 0.35rem; font-size: 1rem; }
 .wa-card p { margin: 0; line-height: 1.5; font-size: 0.92rem; }
 .wa-card-hl { border-color: rgba(196,150,74,0.6); background: rgba(196,150,74,0.1); }
@@ -3021,7 +3074,7 @@ a.tree-person:hover .tree-person-name {
 .wa-object-coll a { text-decoration: underline; }
 
 .wa-myths { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.7rem; }
-.wa-myths li { display: grid; gap: 0.2rem; padding: 0.7rem 0.9rem; border-left: 3px solid rgba(196,150,74,0.6); background: rgba(128,128,128,0.05); border-radius: 0 8px 8px 0; }
+.wa-myths li { display: grid; gap: 0.2rem; padding: 0.7rem 0.9rem; border-left: 3px solid rgba(196,150,74,0.6); background: rgba(128,128,128,0.05); border-radius: 0 6px 6px 0; }
 .wa-myth-claim { font-weight: 600; text-decoration: line-through; opacity: 0.72; }
 .wa-myth-real { line-height: 1.5; }
 

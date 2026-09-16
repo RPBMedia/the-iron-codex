@@ -1293,7 +1293,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    `knownFor`, `greatestFeats`, `aliases` or `roles` entry, or a non-object
    `contentSections`, `timeline`, `sources` or `sectionImages` entry. The earlier
    gate checked only that each field was an array.
-0g. **OWNER REQUEST 2026-09-15 (eventually, not urgent): sweep the repo's
+0g. **OWNER REQUEST 2026-09-15, extended 2026-09-16: sweep the repo's markdown files, and move finished work to `COMPLETED_ROADMAP.md`.** The owner's rule, now in CLAUDE.md: when a planning file's work is all done, move a condensed record of what was built into `COMPLETED_ROADMAP.md` (create it the first time) and delete the original; a partly finished file keeps only its open items. `CLAUDE.md`, `CODEX.md` and `CONTENT_GUIDELINES.md` are never deleted. The original request follows. **Sweep the repo's
    markdown files for work already done.** Keep `CLAUDE.md` and `CODEX.md` as they
    are. For every other planning or work-list file, check each item against the code, the data
    and `git log`:
