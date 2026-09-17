@@ -324,6 +324,102 @@ Whenever new entries are added to the codex **or** a full audit/review pass is c
 - This applies to: adding/replacing articles, image audits/replacements, content-quality passes, validation/script changes, and CLAUDE.md / guideline updates made as part of that work.
 - Standard order for such a task: make the changes → run validators (`check:images`, `check:content-quality`) → restart server + client → **commit and push to `main`**.
 
+## Civilizations (QUEUE 0e, Appendix C §XLI)
+
+Civilizations are a **first-class archive collection**, alongside people, events,
+locations, houses, orders, artifacts and weapons & armor. They live at
+`server/data/archive/civilizations/<id>.json`, type `civilization`, route
+`/civilizations/<id>`.
+
+### The rule the whole collection exists for: a civilization is not a state
+
+**The Ostrogoths are not the Ostrogothic Kingdom. The Franks are not Francia.
+The Norse are not the Kingdom of Norway. The English are not the Kingdom of
+England.**
+
+A civilization page describes **people and cultural identity** — origins,
+language, law, religion, society, material culture, and how an identity formed
+and changed. A location page describes **political institutions and territory**.
+They link to one another and are **never** merged, and neither is a substitute
+for the other. If a civilization article turns into a list of kings and their
+wars, it has drifted into being a kingdom article: stop and refocus on the
+people.
+
+Enforced mechanically where it can be: `validateCivilizationStandards` in
+`check-content-quality.mjs` hard-fails a civilization carrying `locationType`,
+and hard-fails one whose `name` exactly matches an existing location's.
+
+### Audit before creating, always
+
+**Never duplicate an entity.** Before writing any civilization, search the
+archive for the people, the polity, and every alias and spelling variant. If the
+polity exists, keep it and link to it. If something already behaves like a people
+page, resolve and upgrade it rather than creating a second article.
+
+`pechenegs` and `cumans` are the worked example: both are Polity-typed entries in
+`locations/` that already read as people pages. They are to be **resolved, not
+duplicated**, and the name-collision gate makes duplicating them impossible.
+
+### Not every group is the same kind of thing
+
+`civilizationType` is one of `people`, `cultural`, `developing-identity`,
+`confederation`, `steppe`, `phenomenon`, and it drives the label a reader sees on
+the card and in the article eyebrow.
+
+**Vikings is a `phenomenon`, not a people.** *Víkingr* described someone on a
+raiding voyage — something you did, not something you were — and the Viking page
+must say so explicitly. Norse is the people; Vikings is the activity and the era.
+Never write as though every Scandinavian was a Viking. `culturalFamily` is
+deliberately not required for a phenomenon, because forcing one into a linguistic
+family is the rigid-category error the spec warns against.
+
+### Required fields
+
+`period`, `region` and `culturalFamily` drive the index filters — a missing value
+does not error, it silently drops the article out of every filtered view.
+`chronology` is printed by both the hero and the archive card. `endonym` leads the
+hero as a subtitle where one is recorded, because for half these peoples the name
+the archive files them under is an outsider's word: the Byzantines called
+themselves Romans, and a page that never says so has already misled the reader.
+A "Names and Identity" section is required on Level I and II articles for the
+same reason.
+
+### Relationships are bidirectional
+
+Every relevant ruler, realm, war, battle, event and location links into the
+civilization system, and the civilization links back. A new ruler article
+connects to its civilization; a new realm article connects to the people whose
+realm it was. Aliases resolve to the canonical article — never a second entry for
+a name variant.
+
+### Historical accuracy
+
+- **Never project a modern national identity backward.** Tenth-century Norway is
+  not Norway; Carolingian Francia is not Germany or France.
+- **Identity changes over time, and is joinable.** Gothic identity absorbed
+  Alans, Sarmatians and Romans. Ethnic groups are not biologically fixed.
+- **Migration is not population replacement**, and grave goods are not
+  ethnicity.
+- **Origin legends are literature.** Jordanes' Scandza story is a sixth-century
+  construction written in Constantinople, not migration history.
+- Keep distinct: Bulgars/Bulgarians, Goths/Geats, Franks/French, continental
+  Saxons/Anglo-Saxons, Rus'/Russians.
+- Use scholarly hedging where evidence is thin: "Later tradition claimed…",
+  "Modern scholarship debates…", "Archaeological evidence indicates…".
+
+### Depth
+
+Three priority levels, with minimum sections and timeline entries enforced by the
+gate: **Level I** major (12 sections, 10 timeline), **Level II** significant
+regional (8 / 6), **Level III** smaller but substantive (5 / 4). Set
+`priorityLevel`; it defaults to 2.
+
+**Do not create an article merely because a name appears on the master list.**
+The list is an audit scope, not an instruction to fabricate certainty. Where an
+identity is poorly attested, anachronistic, or almost entirely overlaps another
+page, document the reason and use a different structure. Historical correctness
+outranks numerical completeness, and there are no worthless stubs.
+
 ## Kingdom and Polity Article Standards
 
 Kingdom/polity articles (locations typed Kingdom, Empire, Duchy, County, Caliphate, Sultanate, Principality, Polity, Grand duchy, League, Military order, Imperial realm) must be detailed **anchor articles**, not stubs. Enforced by `npm run check:content-quality` (`validatePolityStandards`): hard-fails on too few sections (6 for Kingdom/Empire/Caliphate, 4 for others), any section under 200 characters, a missing Major-rulers-style section (except collective polities allowlisted in `POLITY_NO_RULERS_OK`), and a timeline under 8 entries (5 for smaller polities) or with missing descriptions.

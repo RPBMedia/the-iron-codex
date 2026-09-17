@@ -1200,7 +1200,77 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **Final: global reconciliation and a completion report (§98–99).**
 
    The spec's special audits (§75–89) run inside their region's milestone. **When this starts, the first step is M0 and nothing else.**
-0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
+0e. **PHASE 0 SHIPPED 2026-09-17** (commits `63c646d`, `f484a9e`, `5b6d5ca`).
+   Architecture only, no content, per the recommended order. The collection is
+   registered in all eight places that matter — `index.json` + directory,
+   `collections()` in `server/index.js` (which also brings search and alias
+   resolution for free), the route, `COLLECTION_LABEL`, `collectionLabels`,
+   `CollectionPage` copy and filters, `gen-entity-links.mjs` `collectionToType`
+   (without which every civilization mentioned anywhere stays dead plain text),
+   and `prerender.mjs` blurb / schema type / `index0Image` / `TOPIC_GROUP_ORDER`.
+   `CivilizationHero` + `CivilizationContent` render it; `ArticleCard` labels it
+   by `civilizationType`. Index filters: Period, Region, Cultural family.
+   `validateCivilizationStandards` enforces depth by priority level and the two
+   mechanical halves of civilization≠state — **verified with a deliberately
+   invalid fixture, 14 findings, every rule fired**, then removed. An empty
+   collection hub is prerendered but `noindex` and withheld from the sitemap
+   (soft-404 trap, hit before on 2026-09-08); the SEO gate checks that as a pair
+   so a *populated* hub missing from the sitemap still fails.
+   `CLAUDE.md` now carries the permanent civilizations rules (§XLI).
+   **Still to do before content:** header nav and archive-index entries, both
+   deliberately withheld so no reader is handed a link to an empty page — they
+   land in the same commit as the first articles. Then Phase 1, the vertical
+   slice (Goths, Visigoths, Ostrogoths, Norse, Vikings).
+
+   **ARCHIVE AUDIT DONE 2026-09-17** (Appendix C §4 and §XLII, the precondition
+   for writing anything). 87 candidate peoples checked against all 916 articles.
+   Verdicts: **2 exist as people, 30 exist only as a state, 50 have nothing,
+   5 need an owner decision.**
+
+   - **Resolve, never duplicate:** `locations/pechenegs` and `locations/cumans`
+     are Polity-typed locations that are in substance people pages — they use
+     "Major figures" rather than "Major rulers", carry no "Political structure
+     and rule" section, and describe themselves in prose as peoples. Move them
+     into `civilizations/` keeping ids and aliases, drop `locationType`, and
+     re-type the inbound `type: "location"` related-entry references on
+     `kievan-rus` and on each other. The name gate now makes duplicating them
+     impossible, so this is the only legal path.
+   - **Names to reserve before minting any civilization alias**, each already
+     claimed by exactly one article and therefore passing the collision test
+     *today* — they start failing the moment a civilization claims them:
+     `Rus'` (`kievan-rus`), `Normans` (`house-of-normandy`), `Bulgaria`
+     (`first-bulgarian-empire`), `Magyar kingdom` (`kingdom-of-hungary`),
+     `Andalus` (`al-andalus`), and worst of all **`Moravian`, which currently
+     means *Serbian*** (`principality-of-serbia` alias "Moravian Serbia").
+   - **Corrected an audit finding rather than acting on it.** The audit reported
+     `"Ottomans"` and `"Seljuk"/"Seljuks"` as live two-article collisions. They
+     are not: `gen-entity-links.mjs` excludes `houses` from the link table, so
+     `house-of-osman`'s alias never enters it. `entityLinks.js` has exactly one
+     claimant for "Ottomans" and none for "Seljuks", and the guard test is right
+     to pass. The hazard is latent, not live — and becomes live if a
+     civilization claims either name.
+   - **Do not restate what already exists.** About two dozen articles carry
+     substantial ethnographic sections a civilization page would duplicate
+     verbatim — notably `danelaw` "Law and society", `mecklenburg` "Wendish
+     origins and the German turn", `al-andalus` "Learning", `avar-khaganate`
+     "Origins", `kingdom-of-hungary` "Settlement and Christianisation",
+     `kingdom-of-wessex` "Background and origins" (which already deconstructs
+     the Cerdic legend), and the "Religion, culture, and society" section on
+     every one of the 15+ `kingdom-of-*` articles. Summarise and link.
+   - **Widest gaps, where even the realm article is missing** so the
+     civilization page carries the whole subject: Visigoths (no Visigothic
+     Kingdom), Lombards (no Kingdom of the Lombards), Burgundians (no Burgundy
+     polity at all), **Huns (2 mentions archive-wide, Attila absent)**,
+     Venetians and Genoese (no republic articles), Czechs/Bohemians, Wallachians,
+     Swiss, and Sami/Slovaks/Jutes at zero mentions.
+   - **Five cases needing an owner decision before Phase 1** — collected in the
+     away-mode question list: `Turks`, `Seljuks`, `Moors`, `Andalusi`, and
+     `Lombards` (Germanic people vs Italian region vs league). `seljuk-turks` is
+     the sharpest: an article *named after a people* but *written as a state*.
+
+   The original request follows.
+
+   **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
    **Appendix C** at the end of this file (3,429 lines;
    about 150 peoples, c. 300–1500, plus an archive-wide knowledge-graph audit).

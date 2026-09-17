@@ -39,7 +39,16 @@ const TYPE_TO_COLLECTION = {
   artifact: 'artifacts',
   document: 'artifacts',
   weaponArmor: 'weaponsArmor',
-  order: 'orders'
+  order: 'orders',
+  // Civilizations (QUEUE 0e) will need guards more than any collection so far.
+  // A people and the state it built answer to overlapping names by their
+  // nature, and the archive already holds the other claimant for most of them:
+  // "Rus'" is an alias of kievan-rus, "Normans" of house-of-normandy, and
+  // "Moravian" currently resolves to SERBIA via principality-of-serbia's
+  // "Moravian Serbia". Each passes the collision test today because exactly one
+  // article claims it, and each starts failing the moment a civilization page
+  // claims it too — which is the test working, not breaking.
+  civilization: 'civilizations'
 }
 
 // Each of these was a real, documented wrong-link hazard. Removing a guard must
