@@ -7,6 +7,46 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## The fourteen approved rulers — queue item 0s — closed 2026-09-17
+
+All fourteen are written: Alfonso X of Castile, Stephen I of Hungary, Ine of
+Wessex and Fernán González (`e92b71f`); Mindaugas, Gediminas, Algirdas and
+Kęstutis (`bf5180c`); Ordoño II, Alfonso V, Urraca and Alfonso IX of León
+(`0613742`); Engelbrekt Engelbrektsson; and Sten Sture the Elder.
+
+**The regent question was answered both ways, and that is the right answer.**
+Engelbrekt is **not** marked a ruler and carries no succession box:
+*rikshövitsman* was a war command created in an emergency, Eric of Pomerania
+stayed crowned king of all three kingdoms throughout, and Engelbrekt settled with
+that king in October 1435 and took Örebro in fief from him. Sten Sture **is** a
+ruler: Sweden had no king at all from 1470, the regent exercised royal
+government, and the chain is documented on both sides. The `birger-jarl`
+precedent is not "regents get boxes" but "a named office of the realm, held as
+head of government, with a documented succession" — the same test producing
+different results.
+
+**The scope conflict was surfaced, not resolved quietly.** Sten Sture's regency
+begins in 1470, which CLAUDE.md's 1453 rule excludes *"whatever a task spec
+says"* — while this very item named him. Two owner instructions genuinely
+conflicted, so the article was written, gated green and **held** rather than
+shipped or dropped on the assistant's judgement. The owner ruled that he ships,
+and the override is now recorded beside the rule in CLAUDE.md so no future
+session deletes him by the letter of it.
+
+**Two corrections to the briefs, both kept.** Ordoño II did not move the capital
+from Oviedo to León — García I already held court there from about 910, and
+Ordoño made it irreversible by giving his palace for the cathedral. Alfonso IX's
+curia of 1188 is written as a *curia regia* widened by a king with a contested
+title, not a standing institution, with UNESCO's 2013 inscription quoted and the
+point made that the claim is documentary rather than evolutionary.
+
+The batch also produced the **"Teresa of Portugal"** guard: `teresa-of-leon`
+owns that alias, but Alfonso IX married a different Teresa in 1191 — Sancho I's
+daughter and his own first cousin, which is why it was annulled — and she has no
+article. The natural phrasing would have sent readers to Afonso Henriques's
+mother, sixty years dead by the wedding.
+
+
 ## City locator maps — queue item 0k — closed 2026-09-17
 
 **Every place in the archive that has coordinates now carries a locator: 100 of

@@ -550,6 +550,18 @@ Every ruler Person article has Predecessor and Successor boxes (see "Ruler Succe
 - A named predecessor/successor **inside** 476–1453 is in-scope and **must** be created as a full Person article and linked — not left as bare text.
 - **1453 wins over any later end date (owner decision, 2026-09-15).** A reign that **begins in or before 1453 is in scope for its whole length**, however late it ends. Mehmed II, sultan again from 1451 to 1481, is in scope, and so is anyone who began to rule in 1453 itself. A reign that begins in 1454 or later is outside scope, whatever a task spec says. That covers Henry IV of Castile (1454), Matthias Corvinus (1458), Ivan III (1462), and John II of Portugal and Hans of Denmark (both 1481): each is an `outside-scope` endpoint, not an article. This binds across the archive, including the complete rulers program (QUEUE 0m), whose spec runs to about 1500.
 
+**ONE DOCUMENTED EXCEPTION — Sten Sture the Elder (owner decision, 2026-09-17).**
+His regency begins in **1470**, which the rule above excludes. The conflict was
+surfaced rather than resolved quietly: CLAUDE.md said out of scope, queue item 0s
+named him to be written, and the owner ruled that he ships. He is live at
+`sten-sture-the-elder`, with `charles-viii-of-sweden` linking forward to him.
+
+**Do not delete him as out-of-scope.** The rule still binds for everyone else
+named above — Henry IV of Castile, Matthias Corvinus, Ivan III, John II of
+Portugal, Hans of Denmark — and this is a single override, not a loosening of the
+1453 line. When the same conflict appears again, surface it and let the owner
+decide; do not resolve it in either direction on your own.
+
 **Iterative chaining rule:** creating a missing in-scope predecessor/successor produces a **new ruler page, which must itself be audited** for its own predecessor and successor. Continue the chain outward until each end reaches one of: an already-linked ruler, a true first office-holder (`status: "none"`), an unknown/disputed succession (`status`), or a ruler outside the 476–1453 boundary (`status: "outside-scope"`). The Castilian worked example runs Peter of Castile → Henry II → John I → Henry III → John II and stops at Henry IV (r. 1454, outside scope).
 
 **Rules:**

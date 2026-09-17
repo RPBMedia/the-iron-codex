@@ -384,6 +384,7 @@ export const entityLinks = [
   { label: "Skirgaila", aliases: ["Ivan (baptismal name)"], type: "person", slug: "skirgaila" },
   { label: "Sophia (wife of Justin II)", aliases: ["Empress Sophia","Aelia Sophia"], type: "person", slug: "sophia-wife-of-justin-ii" },
   { label: "Stefan Lazarević", aliases: ["Stephen Lazarević","Stefan the Tall"], type: "person", slug: "stefan-lazarevic" },
+  { label: "Sten Sture the Elder", aliases: ["Sten Sture den äldre","Sten Gustavsson Sture"], type: "person", slug: "sten-sture-the-elder" },
   { label: "Stenkil", aliases: ["Steinkell"], type: "person", slug: "stenkil" },
   { label: "Stephen I of Hungary", aliases: ["Stephen I","Saint Stephen of Hungary","István I","Szent István","Vajk"], type: "person", slug: "stephen-i-of-hungary" },
   { label: "Stephen of England", aliases: ["Stephen of Blois","King Stephen"], type: "person", slug: "stephen-of-england" },
