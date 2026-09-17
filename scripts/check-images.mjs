@@ -210,6 +210,29 @@ for (const [collection, entries] of Object.entries(data)) {
       }
     })
 
+    // Civilizations: EVERY section carries an image about that section (owner
+    // rule, 2026-09-17, reported on `vikings` — nineteen sections, three
+    // images, and it read as a wall of text).
+    //
+    // A WARNING for now, not a hard failure, and deliberately so: 114 images
+    // are being added across nine articles as this lands, and failing the gate
+    // would block every run until the last one arrives — which would stop me
+    // verifying the earlier ones. Promote this to addFinding once coverage is
+    // complete. Leaving it a warning permanently would repeat the mistake this
+    // rule replaced: the superseded image ceiling drifted precisely because
+    // nothing enforced it.
+    if (collection === 'civilizations') {
+      const imaged = new Set((entry.sectionImages ?? []).map((image) => image.section))
+      const bare = (entry.contentSections ?? [])
+        .map((section) => section.title)
+        .filter((title) => title && !imaged.has(title))
+      if (bare.length) {
+        warnings.push(
+          `civilizations/${entry.id}: ${bare.length} section(s) carry no image — ${bare.slice(0, 4).map((t) => `"${t}"`).join(', ')}${bare.length > 4 ? ', …' : ''}. Every civilization section needs an image about that section (CLAUDE.md); where none honestly exists, merge the section rather than padding it.`
+        )
+      }
+    }
+
     // Military orders carry a sigil/seal image below the primary render image
     // (analogous to a House's coat of arms); validate it with its own metadata.
     if (entry.sigilImage !== undefined) {
