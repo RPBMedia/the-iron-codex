@@ -38,7 +38,7 @@ let the user test live.
 
 _Last updated: 2026-09-17, during an owner-away run. **Forward-looking only — the history is in `git log`.**_
 
-**Shipped today.** Twenty backlog battles with six alias guards; four Leonese rulers and Engelbrekt Engelbrektsson; **0k CLOSED at 100 places carrying a locator**, up from 50 in the morning; queue items **0d, 0g, 0t and 0u closed**; 0o reduced to its two owner-verified milestones; and the wrong-link failure class shut with a test that fails the build on any unguarded collision.
+**Shipped 2026-09-17.** **45 battles written**, taking the backlog from about 38 distinct to 16. Five rulers, including Sten Sture the Elder by owner override of the 1453 rule. **0k closed at 100 locators** and rebuilt to show whole countries rather than crops. Queue items **0d, 0g, 0k, 0s, 0t and 0u closed**. Three separate classes of silent drift now gated: stale house members, stale battle leaders, and wrong links from colliding names.
 Leonese rulers and Engelbrekt Engelbrektsson; locator maps for eleven regions,
 taking the archive from 50 places with an inset to **99**; queue items **0d, 0t
 and 0u closed**; and the wrong-link failure class shut with a test.
@@ -54,7 +54,7 @@ and 0u closed**; and the wrong-link failure class shut with a test.
   Rashidun banner box, Leo III's main image, the Sasanian map's eastern border,
   and Gestilren's memorial stone.
 
-**In flight:** two agents writing the Baltic crusade batch (Saule, Blue Waters, Strėva, Rudau, Bornhöved) and the Frankish and Norman batch (Soissons, Tertry, Fontenoy, Val-ès-Dunes, Tinchebrai). About 26 distinct battles remain on `BATTLE_BACKLOG` before them.
+**Nothing in flight.** Both battle batches landed on 2026-09-17: the Baltic crusade (Saule, Blue Waters, Strėva, Rudau, Bornhöved) and the Frankish and Norman set (Soissons, Tertry, Fontenoy, Val-ès-Dunes, Tinchebrai). About **16 distinct battles** remain on `BATTLE_BACKLOG`.
 Fýrisvellir, Largs) and Anglo-Saxon (Ellandun, Aclea, Ashdown, Tettenhall,
 Heavenfield) battle batches. About 38 distinct battles remain on
 `BATTLE_BACKLOG` after them.
@@ -1081,7 +1081,13 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    The medieval name-variant problem is broad: Eric/Erik/Erik, Olaf/Olav/Óláfr, Cnut/Canute/Knut, Valdemar/Waldemar, Æthelred/Ethelred/Aethelred, Sverker/Sverkir, Haakon/Håkon/Hakon, Louis/Ludwig/Lodewijk, and every ø/oe, æ/ae, å/aa pair. Aliases already cover the cases somebody thought of; this is about the ones nobody did.
    Candidate approaches, cheapest first: (1) fold diacritics and normalise the obvious consonant pairs (c↔k, v↔w, th↔d) in the search index only, never in stored data; (2) add a phonetic key per article — Double Metaphone handles Eric/Erik and Olaf/Olav well; (3) trigram or edit-distance fallback when an exact search returns nothing, which also catches typos. **The risk with all three is false matches** — "Eric" and "Erik" are the same man, but loose matching could equally collapse Henry I and Henry II, and a wrong search result is the same class of error as a wrong link. Whatever ships should show the reader WHY a result matched.
 
-0q. **BARE-NAMED BATTLES — 35 written; about 26 distinct battles still open.**
+0q. **BARE-NAMED BATTLES — 45 written; about 16 distinct battles still open.**
+   🐛 **CHECKER BUG, confirmed 2026-09-17 — `battlePhraseRe` silently truncates any battle name with a Latin Extended-A character, so those battles can never be linked OR flagged.** The character class is `[\wÀ-ÿ'’-]`, which stops at U+00FF. Tested directly: **"Battle of Strėva" is captured as "Battle of Str"** and **"Battle of Arsūf" as "Battle of Ars"**. Both then fail to resolve against any article, forever.
+   **This explains the `'battle of ars'` entry that has sat in `BATTLE_BACKLOG` for weeks under a comment calling it an "audit-regex boundary artifact".** It was never an artifact — it is this bug, and `'battle of str'` was added beside it on 2026-09-17 for the same reason. **Fixing the regex retires both keys.**
+   **Which characters break it:** ė ū ń ś ž č and the rest of Latin Extended-A (U+0100–U+017F). Characters in Latin-1 Supplement are fine — á å é ö ý ø all pass, which is why every Scandinavian, Iberian and French battle name has worked and nobody noticed. The exposure is Baltic, Polish, Czech and Turkish names.
+   **The fix, and why it was not done on the spot.** Widening the class to include `\u0100-\u017F` fixes Strėva, but it then newly captures **"Battle of Arsūf"** (in the Arsuf sources) and **"Köse Dağ (1243)"** in `seljuk-turks` — each a create-or-document decision the regex change would force open in the same commit. Do the widening and those two decisions together, then delete `'battle of ars'` and `'battle of str'` from the backlog.
+   **Related and unfixed: `validateBattleContinuity` has a blind spot of its own.** Its skip-check matches on an exact `conflict` string, so a link that steps over a new battle in a differently-named conflict stays green. That let Hastings keep pointing at Bouvines across Tinchebrai, and Durbe at Grunwald across Strėva and Rudau — **both caught by hand on 2026-09-17, neither by the gate.** Consider matching on year-range and region as well as the exact string.
+
    ⚠️ **FOLLOW-UP FROM SHIPPING STEN STURE (2026-09-17) — held only because two battle agents were mid-flight in the same files. Do this first when they land.** All three are measured, not suspected:
    1. **Twelve bare mentions of "Sten Sture" are dead text.** The label is `Sten Sture the Elder`, so the short form matches nothing: `stockholm` 7, `kingdom-of-sweden` 2, `battle-of-brunkeberg` 2, `kalmar-union` 1. The obvious fix is an alias — **but check before adding it.** Sten Sture the Younger, regent from 1512, is a different man, out of scope and unwritten, so the bare form is a future collision and may want an `ambiguousEntityAliases` guard rather than a plain alias. The new collision test will not catch it today, because only one article claims the name so far.
    2. **Six battle leaders are named without a slug although the article now exists** — the battle-leader twin of the house-member drift gated this morning: `battle-of-brunkeberg` (Sten Sture the Elder, recorded unlinked because he had no article when it was written), `fourth-crusade` and `siege-of-constantinople-1204` (Boniface of Montferrat, and Baldwin of Flanders which resolves to `baldwin-i-latin-emperor`), and `battle-of-dunbar` (John Balliol).

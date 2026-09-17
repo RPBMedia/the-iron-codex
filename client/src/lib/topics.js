@@ -1616,6 +1616,12 @@ export const TOPICS = [
           "name": "Battle of Stiklestad",
           "depth": 1,
           "summary": "The battle in 1030 where Olaf II Haraldsson was killed, later becoming central to the cult of Saint Olaf."
+        },
+        {
+          "id": "battle-of-val-es-dunes",
+          "name": "Battle of Val-ès-Dunes",
+          "depth": 1,
+          "summary": "In 1047 Duke William II of Normandy, about nineteen and barely in control of his own duchy, joined his overlord Henry I of France to defeat a rebellion of the viscounts of the Bessin and the Cotentin at Val-ès-Dunes east of Caen. The victory ended the anarchy of his minority and began the consolidation that made Normandy strong enough to invade England."
         }
       ],
       "people": [
@@ -1845,7 +1851,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 43
+    "count": 44
   },
   {
     "slug": "mongol-invasions",
@@ -3833,6 +3839,12 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "norman-conquest": [
+    {
+      "slug": "norman-conquest",
+      "title": "The Norman Conquest"
+    }
+  ],
+  "battle-of-val-es-dunes": [
     {
       "slug": "norman-conquest",
       "title": "The Norman Conquest"
