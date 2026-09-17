@@ -48,7 +48,8 @@ const collectionFor = {
   houses: 'houses',
   orders: 'orders',
   weaponsArmor: 'weapons-armor',
-  artifacts: 'artifacts'
+  artifacts: 'artifacts',
+  civilizations: 'civilizations'
 }
 
 const findIn = (collection, predicate) => (data[collection] ?? []).find(predicate)
@@ -136,6 +137,31 @@ const CASES = [
     collection: 'artifacts',
     pick: () => (data.artifacts ?? [])[0],
     expect: [['body sections', (h) => has(h, 'bio-section')]]
+  },
+  {
+    // CivilizationHero and CivilizationContent were written, compiled, shipped
+    // and covered by no gate at all — exactly the hole this file's header
+    // describes, and it went unnoticed because the prerendered page contains
+    // the article JSON, so grepping it for "Names and Identity" returns a hit
+    // whether or not a single component ran.
+    //
+    // The assertions are chosen for what is specific to a people rather than
+    // what any article has. The arms panel is the sharpest: these two carry an
+    // emblem (a grave axe, a kurgan stele) captioned to say the people bore no
+    // heraldry, and ArmsImage was gated on house/location, so a civilization
+    // would have dropped it silently.
+    label: 'civilization',
+    collection: 'civilizations',
+    pick: () => findIn('civilizations', (c) => c.id === 'pechenegs') ?? (data.civilizations ?? [])[0],
+    expect: [
+      ['hero image figure', (h) => has(h, 'detail-media')],
+      ['civilization hero renders', (h) => has(h, 'civilization-profile')],
+      ['hero fact strip', (h) => has(h, 'fact-strip')],
+      ['endonym subtitle, where one is recorded', (h) => has(h, 'article-subtitle')],
+      ['arms panel survives the type change', (h) => has(h, 'detail-media-arms')],
+      ['body sections', (h) => has(h, 'bio-section')],
+      ['NO polity-only markup leaked in', (h) => !has(h, 'locator-figure')]
+    ]
   }
 ]
 
