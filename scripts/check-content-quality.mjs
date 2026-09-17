@@ -368,7 +368,7 @@ for (const [col, arr] of Object.entries(data)) {
 // The panel prints one heading per group key, so a link filed under a key it does
 // not know renders under its own heading. The Plantagenet queens shipped seven
 // house links under "undefined" (2026-09-15) and showed an "Undefined" heading.
-const RELATED_GROUPS = new Set(['people', 'events', 'locations', 'artifacts', 'weaponsArmor', 'houses', 'orders'])
+const RELATED_GROUPS = new Set(['people', 'events', 'locations', 'artifacts', 'weaponsArmor', 'houses', 'orders', 'civilizations'])
 
 // Military orders link to their own articles (owner rule, 2026-09-15, reported on
 // ulrich-von-jungingen). Any reference to an order must carry type "order", or it

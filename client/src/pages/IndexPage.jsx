@@ -12,6 +12,7 @@ const indexGroups = [
   { key: 'battles', title: 'Battles', collection: 'events' },
   { key: 'events', title: 'Events', collection: 'events' },
   { key: 'locations', title: 'Locations', collection: 'locations' },
+  { key: 'civilizations', title: 'Civilizations', collection: 'civilizations' },
   { key: 'houses', title: 'Houses', collection: 'houses' },
   { key: 'artifacts', title: 'Artifacts', collection: 'artifacts' },
   { key: 'weaponsArmor', title: 'Weapons & Armor', collection: 'weapons-armor' }
@@ -135,6 +136,7 @@ function buildIndexGroups(collections, query) {
       'events'
     ),
     locations: normalizeEntries(collections.locations, 'locations'),
+    civilizations: normalizeEntries(collections.civilizations, 'civilizations'),
     houses: normalizeEntries(collections.houses, 'houses'),
     artifacts: normalizeEntries(collections.artifacts, 'artifacts'),
     weaponsArmor: normalizeEntries(collections.weaponsArmor, 'weapons-armor')

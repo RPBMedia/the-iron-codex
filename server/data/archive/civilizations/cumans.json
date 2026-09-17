@@ -1,16 +1,27 @@
 {
   "id": "cumans",
-  "type": "location",
-  "locationType": "Polity",
+  "type": "civilization",
+  "civilizationType": "steppe",
+  "priorityLevel": 2,
   "name": "Cumans",
+  "endonym": "Qıpçaq",
   "aliases": [
     "Polovtsy",
     "Kipchaks",
     "Cuman–Kipchak confederation",
     "Cumania"
   ],
-  "kingdom": "Cumans",
-  "year": 1050,
+  "culturalFamily": "Turkic",
+  "period": "High Middle Ages",
+  "region": "Steppe",
+  "chronology": "c. 1050 – 1241",
+  "languages": [
+    "Cuman, a Kipchak Turkic language, recorded in the Codex Cumanicus"
+  ],
+  "religions": [
+    "Tengrism",
+    "Christianity, among those settled in Hungary and Bulgaria after 1239"
+  ],
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/State_of_Cuman-Kipchak_(13.)_en.png?width=1600",
   "imageInfo": {
     "caption": "Modern map of the Cuman-Kipchak lands in the thirteenth century, running from the Danube to the Irtysh, with Hungary, the Rus' principalities and the Volga Bulgars on their borders.",
@@ -39,6 +50,14 @@
       ]
     },
     {
+      "title": "Names and Identity",
+      "paragraphs": [
+        "This people carries more names in the sources than almost any other in the archive, and the multiplicity is itself evidence: each neighbour met a different part of a confederation that had no collective word for itself in general use.",
+        "The Islamic geographers write Qıpçaq, and the great steppe they held is the Desht-i Qipchaq, the Kipchak plain — the name with the best claim to being what they called themselves. The Rus' chronicles say Polovtsy, from a root meaning pale or fallow, which the German sources echo as Falben and the Latin as Pallidi. The Byzantines and the Latin west say Cumani, whence the English Cumans. Hungarian has Kun, and the district in the Hungarian plain where the refugees of 1239 were settled is still called Kunság.",
+        "Modern scholarship generally treats Cuman and Kipchak as two wings of one confederation rather than as synonyms, with the Cumans the western group and the Kipchaks the eastern, but the sources use the words loosely and often interchangeably, and no line drawn between them survives close examination. The Codex Cumanicus, a phrasebook compiled by Italian merchants and German missionaries around 1300, is the only substantial record of the language and was written to sell things to them and convert them — which is to say that even the linguistic evidence reaches us through outsiders with an errand."
+      ]
+    },
+    {
       "title": "The steppe confederation",
       "paragraphs": [
         "Their organisation was the standard steppe pattern: clans grouped into larger units under khans, cooperating for large campaigns and operating separately the rest of the time.",
@@ -52,6 +71,14 @@
         "As with the Pechenegs, the named khans are the ones outsiders recorded, and the list reflects who fought whom rather than who mattered.",
         "Tugorkan and Bönek are the khans who led the Cuman force at Levounion in 1091 and then spent the following decade raiding the Rus' — Tugorkan was killed outside Pereyaslavl in 1096, having in the meantime married his daughter to the prince of Kiev.",
         "Köten is the last and most consequential: the khan who led the survivors of the Mongol invasion into Hungary in 1239, was granted lands in exchange for conversion, and was murdered in Pest by a mob who believed the Cumans were Mongol spies — shortly before the Mongols arrived and destroyed the Hungarian army at Mohi."
+      ]
+    },
+    {
+      "title": "Religion and conversion",
+      "paragraphs": [
+        "Cuman religion before the thirteenth century is known almost entirely from hostile description and from what was buried with the dead. The sources describe a Tengrist world of sky-worship, shamans and oath rituals — a peace sworn over a dog cut in half with a sabre appears in more than one Rus' account — and the kurgan steles, which hold a vessel at the waist with both hands, are usually read as ancestor figures fed by the living.",
+        "Latin Christendom came at them as a frontier to be worked. Dominican missionaries were active on the steppe from the 1220s, and in 1228 a bishopric of Cumania was founded in what is now Wallachia and Moldavia, with a Cuman chief baptised alongside his followers — an event the papacy treated as the opening of a new Christian province and the Hungarian crown as the basis of a claim to the territory.",
+        "Conversion in earnest came only with defeat. The price of asylum in Hungary in 1239 was baptism, and Köten accepted it; the Cumans settled on the plain were Christianised over generations, slowly enough that royal decrees were still legislating against pagan practice a century later. Those absorbed into the Golden Horde went the other way, into Islam, and the Kipchaks sold into Egypt became the Mamluk sultans of a Muslim state."
       ]
     },
     {
@@ -108,6 +135,11 @@
       "description": "A failed Rus' expedition against the Cumans becomes the most famous poem in early Slavic literature."
     },
     {
+      "date": "1228",
+      "title": "The bishopric of Cumania",
+      "description": "A Latin see is founded on the steppe frontier and a Cuman chief is baptised with his followers."
+    },
+    {
       "date": "1223",
       "title": "The Kalka River",
       "description": "A Mongol reconnaissance force destroys a combined Cuman and Rus' army.",
@@ -136,6 +168,14 @@
     }
   ],
   "relatedEntries": {
+    "civilizations": [
+      {
+        "title": "Pechenegs",
+        "type": "civilization",
+        "slug": "pechenegs",
+        "label": "Whom they drove west and then helped destroy"
+      }
+    ],
     "people": [
       {
         "title": "Alexios I Komnenos",
@@ -165,12 +205,6 @@
       }
     ],
     "locations": [
-      {
-        "title": "Pechenegs",
-        "type": "location",
-        "slug": "pechenegs",
-        "label": "Whom they drove west and then helped destroy"
-      },
       {
         "title": "Mongol Empire",
         "type": "location",
@@ -240,6 +274,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuman_statues_from_Ukraine_in_Neues_Museum,_Berlin.jpg",
       "note": "These are the Cumans' own work, which makes them rare: like the Pechenegs, the Cumans left no writing, and almost everything else known about them comes from the people they fought. The figures hold vessels at the waist and stood over burial mounds across the steppe. Licensed CC BY-SA 3.0."
     }
-  ],
-  "endYear": "1241"
+  ]
 }

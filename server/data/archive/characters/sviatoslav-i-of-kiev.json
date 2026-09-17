@@ -177,15 +177,16 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Paymaster, then enemy, at Dorostolon"
-      },
+      }
+    ],
+    "civilizations": [
       {
         "title": "Pechenegs",
-        "type": "location",
+        "type": "civilization",
         "slug": "pechenegs",
         "label": "Who killed him at the Dnieper cataracts in 972"
       }
-    ],
-    "events": []
+    ]
   },
   "sources": [
     {

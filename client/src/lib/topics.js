@@ -1963,12 +1963,6 @@ export const TOPICS = [
       ],
       "locations": [
         {
-          "id": "cumans",
-          "name": "Cumans",
-          "depth": 1,
-          "summary": "The Cumans were the Turkic confederation that ruled the steppe from the Danube to the Volga in the eleventh to thirteenth centuries, fought and served every power around them, and were shattered by the Mongols in 1223."
-        },
-        {
           "id": "kievan-rus",
           "name": "Kievan Rus’",
           "depth": 1,
@@ -2002,7 +1996,7 @@ export const TOPICS = [
         }
       ]
     },
-    "count": 21
+    "count": 20
   },
   {
     "slug": "reconquista",
@@ -4019,12 +4013,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "house-of-borjigin": [
-    {
-      "slug": "mongol-invasions",
-      "title": "The Mongol Invasions"
-    }
-  ],
-  "cumans": [
     {
       "slug": "mongol-invasions",
       "title": "The Mongol Invasions"

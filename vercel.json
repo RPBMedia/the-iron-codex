@@ -43,6 +43,16 @@
       "source": "/locations/teutonic-order",
       "destination": "/orders/teutonic-order",
       "permanent": true
+    },
+    {
+      "source": "/locations/pechenegs",
+      "destination": "/civilizations/pechenegs",
+      "permanent": true
+    },
+    {
+      "source": "/locations/cumans",
+      "destination": "/civilizations/cumans",
+      "permanent": true
     }
   ],
   "headers": [

@@ -190,12 +190,6 @@
         "type": "location",
         "slug": "kievan-rus",
         "label": "The Rus' world defeated here"
-      },
-      {
-        "title": "Cumans",
-        "type": "location",
-        "slug": "cumans",
-        "label": "Whose appeal for help brought the Rus' to the river"
       }
     ],
     "houses": [
@@ -204,6 +198,14 @@
         "type": "house",
         "slug": "house-of-borjigin",
         "label": "The Mongol ruling house"
+      }
+    ],
+    "civilizations": [
+      {
+        "title": "Cumans",
+        "type": "civilization",
+        "slug": "cumans",
+        "label": "Whose appeal for help brought the Rus' to the river"
       }
     ]
   }

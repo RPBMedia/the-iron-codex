@@ -132,7 +132,7 @@
         {
           "name": "Cumans",
           "title": "Cumans",
-          "type": "location",
+          "type": "civilization",
           "slug": "cumans"
         }
       ],
@@ -156,7 +156,7 @@
         {
           "name": "Pechenegs",
           "title": "Pechenegs",
-          "type": "location",
+          "type": "civilization",
           "slug": "pechenegs"
         }
       ],
@@ -204,22 +204,24 @@
     ],
     "locations": [
       {
-        "title": "Pechenegs",
+        "title": "Byzantine Empire",
         "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Whose recovery begins here"
+      }
+    ],
+    "civilizations": [
+      {
+        "title": "Pechenegs",
+        "type": "civilization",
         "slug": "pechenegs",
         "label": "Destroyed as a people here"
       },
       {
         "title": "Cumans",
-        "type": "location",
+        "type": "civilization",
         "slug": "cumans",
         "label": "Whose forty thousand horsemen decided it"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "Whose recovery begins here"
       }
     ]
   },

@@ -605,7 +605,6 @@ export const entityLinks = [
   { label: "Covadonga", type: "location", slug: "covadonga" },
   { label: "Crecy", aliases: ["Crécy","Crécy-en-Ponthieu","Crecy-en-Ponthieu"], type: "location", slug: "crecy" },
   { label: "Crusader States", aliases: ["Outremer","Latin East"], type: "location", slug: "crusader-states" },
-  { label: "Cumans", aliases: ["Polovtsy","Kipchaks","Cuman–Kipchak confederation","Cumania"], type: "location", slug: "cumans" },
   { label: "Damascus", type: "location", slug: "damascus" },
   { label: "Danelaw", aliases: ["Danelagh","Dena lagu"], type: "location", slug: "danelaw" },
   { label: "Despotate of Epirus", aliases: ["Epirus","Despotate of Arta"], type: "location", slug: "despotate-of-epirus" },
@@ -702,7 +701,6 @@ export const entityLinks = [
   { label: "Oxus region", aliases: ["Amu Darya","Jayhun","Oxus"], type: "location", slug: "oxus-region" },
   { label: "Papacy", aliases: ["Papal States","bishop of Rome"], type: "location", slug: "papacy" },
   { label: "Paris", type: "location", slug: "paris" },
-  { label: "Pechenegs", aliases: ["Patzinaks","Pecheneg confederation","Bisseni"], type: "location", slug: "pechenegs" },
   { label: "Poitiers", type: "location", slug: "poitiers" },
   { label: "Prilepac", type: "location", slug: "prilepac" },
   { label: "Principality of Achaea", aliases: ["Principality of the Morea","Achaea","Frankish Morea"], type: "location", slug: "principality-of-achaea" },
@@ -781,6 +779,7 @@ export const entityLinks = [
   { label: "Coat of Plates", aliases: ["Pair of plates"], type: "weaponArmor", slug: "coat-of-plates" },
   { label: "Coppergate Helmet", aliases: ["York Helmet","Coppergate helm"], type: "weaponArmor", slug: "coppergate-helmet" },
   { label: "Crossbow", aliases: ["Arbalest"], type: "weaponArmor", slug: "crossbow" },
+  { label: "Cumans", aliases: ["Polovtsy","Kipchaks","Cuman–Kipchak confederation","Cumania"], type: "civilization", slug: "cumans" },
   { label: "Dagger / Rondel Dagger", aliases: ["Rondel dagger","Medieval dagger"], type: "weaponArmor", slug: "rondel-dagger" },
   { label: "Dane Axe", aliases: ["Danish axe","Two-handed axe"], type: "weaponArmor", slug: "dane-axe" },
   { label: "Estoc", aliases: ["tuck","Panzerstecher","koncerz"], type: "weaponArmor", slug: "estoc" },
@@ -832,7 +831,6 @@ export const entityLinks = [
   { label: "Trebuchet", aliases: ["counterweight trebuchet","traction trebuchet","blide"], type: "weaponArmor", slug: "trebuchet" },
   { label: "Ulfberht Swords", aliases: ["+VLFBERHT+ swords","Vlfberht swords"], type: "weaponArmor", slug: "ulfberht-swords" },
   { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
-  { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
   { label: "War Hammer", aliases: ["Horseman’s hammer","horseman's pick","martel-de-fer"], type: "weaponArmor", slug: "war-hammer" },
   { label: "William Wallace's Sword", aliases: ["Wallace Sword","the Wallace sword"], type: "weaponArmor", slug: "wallace-sword" },
   { label: "Knights Hospitaller", aliases: ["The Knights Hospitaller","Hospitallers","The Hospitallers","Order of St John","Order of Saint John","Order of the Hospital","Knights of St John","Knights of Saint John","Order of St John of Jerusalem","Order of Malta","Knights of Malta"], type: "order", slug: "knights-hospitaller" },
@@ -850,6 +848,8 @@ export const entityLinks = [
   { label: "Order of San Jorge de Alfama", aliases: ["The Order of San Jorge de Alfama","Order of Saint George of Alfama","Order of Sant Jordi d’Alfama","Orde de Sant Jordi d’Alfama","Knights of St George of Alfama"], type: "order", slug: "order-of-san-jorge-de-alfama" },
   { label: "Order of Santiago", aliases: ["The Order of Santiago","Order of St James","Order of Saint James of the Sword","Order of Santiago de Compostela","Knights of Santiago","Orden de Santiago"], type: "order", slug: "order-of-santiago" },
   { label: "Order of St Thomas of Acre", aliases: ["The Order of St Thomas of Acre","Order of Saint Thomas of Acre","Order of St Thomas of Canterbury","Knights of St Thomas","Order of St Thomas the Martyr"], type: "order", slug: "order-of-st-thomas-of-acre" },
+  { label: "Pechenegs", aliases: ["Patzinaks","Pecheneg confederation","Bisseni"], type: "civilization", slug: "pechenegs" },
+  { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
   { label: "Teutonic Order", aliases: ["Teutonic Knights","The Teutonic Order","The Teutonic Knights","Order of the Teutonic Knights","Order of the German House of Saint Mary in Jerusalem","German Order","Deutscher Orden"], type: "order", slug: "teutonic-order" },
 ]
 
@@ -1440,7 +1440,22 @@ export const ambiguousEntityAliases = [
     // ottoman-empire 3 each — and `nikephoros-i` once, four centuries early.
     // The Ottoman capture of 1361 and Valens in 378 are both "Adrianople" and
     // neither is this battle.
-    terms: ["Adrianople"],
+    // The FULL PHRASE is guarded too, added 2026-09-17 with the civilizations
+    // work. The bare name was guarded; the label "Battle of Adrianople" was not,
+    // and findEntityMatches builds candidates from labels as well as aliases —
+    // so the phrase matched the 1205 article directly, with no guard consulted.
+    //
+    // That mattered the moment Gothic articles were drafted: Adrianople in 378,
+    // where Valens died and a Gothic army destroyed an eastern Roman field
+    // force, is written "Battle of Adrianople" by anyone describing it, and
+    // every such mention would have linked eight centuries forward to a battle
+    // between Bulgarians and the Latin Empire. No gate catches a wrong link —
+    // validateBattleLinking only asks whether a phrase resolves, and it does.
+    //
+    // 378 gets no article of its own: it falls outside the Codex's 476–1453
+    // window. So the phrase renders as plain text there, which is the correct
+    // outcome — a missing link is always better than a wrong one.
+    terms: ["Adrianople", "Battle of Adrianople"],
     possibleTargets: [
       {
         title: "Battle of Adrianople",

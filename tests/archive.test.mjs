@@ -29,7 +29,7 @@ const EXPECTED = ['events', 'characters', 'artifacts', 'locations', 'weaponsArmo
  * outlive its reason the way a comment would. When the first civilization
  * article lands, delete the id from this set — the suite will tell you to.
  */
-const ALLOWED_EMPTY = new Set(['civilizations'])
+const ALLOWED_EMPTY = new Set()
 
 test('the archive loads every collection, each with articles', () => {
   const data = loadArchive()

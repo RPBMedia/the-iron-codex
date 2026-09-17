@@ -1,15 +1,26 @@
 {
   "id": "pechenegs",
-  "type": "location",
-  "locationType": "Polity",
+  "type": "civilization",
+  "civilizationType": "steppe",
+  "priorityLevel": 2,
   "name": "Pechenegs",
+  "endonym": "Beçenek",
   "aliases": [
     "Patzinaks",
     "Pecheneg confederation",
     "Bisseni"
   ],
-  "kingdom": "Pechenegs",
-  "year": 890,
+  "culturalFamily": "Turkic",
+  "period": "Early Middle Ages",
+  "region": "Steppe",
+  "chronology": "c. 890 – 1122",
+  "languages": [
+    "Pecheneg, an Oghuz Turkic language"
+  ],
+  "religions": [
+    "Tengrism",
+    "Christianity, among those settled inside the empire after 1046"
+  ],
   "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pechenegs_c.1030.svg?width=700",
   "imageInfo": {
     "caption": "Modern map of the Pecheneg territories about 1030, reaching from the lower Danube to the Don between Kievan Rus', Hungary and the Byzantine Empire.",
@@ -35,6 +46,14 @@
         "The Pechenegs were a confederation of Turkic-speaking tribes who moved west onto the grasslands north of the Black Sea in the late ninth century and held them for roughly two hundred years.",
         "They had no cities, no written language and no single ruler — eight tribes under their own chieftains, in a confederation that acted together when it suited and separately when it did not.",
         "For the Byzantine Empire they were the central fact of the northern frontier: too dangerous to fight, too useful to destroy, and positioned so that they could be set against the Rus', the Magyars, the Bulgars or each other. That policy worked for a century and a half and then failed completely."
+      ]
+    },
+    {
+      "title": "Names and Identity",
+      "paragraphs": [
+        "Every name this people is known by was given to them by someone else. The Greeks wrote Patzinakoi, the Latin sources Bisseni, the Hungarians Besenyő, the Rus' chronicles Pechenegi — and it is the Slavic form, filtered through modern scholarship, that supplies the English word.",
+        "The self-designation is recoverable only indirectly. Mahmud al-Kashgari, compiling his dictionary of the Turkic languages at Baghdad in the 1070s, lists Beçenek as a Turkic people and treats their speech as a dialect of Oghuz, which is the closest thing to an endonym that survives. Whether the eight tribes Constantine VII names used it of themselves as a whole, or only of one group among them, cannot be settled.",
+        "That absence is the defining fact about them rather than a footnote to it. A people who wrote nothing are described entirely by the neighbours they raided, hired themselves to, or were annihilated by, and every characterisation in the Greek and Rus' sources was written by someone with a reason to make them look a particular way. Where this article says the Pechenegs were faithless or ungovernable, it is reporting what Byzantine writers said about them, not a finding."
       ]
     },
     {
@@ -138,6 +157,14 @@
     }
   ],
   "relatedEntries": {
+    "civilizations": [
+      {
+        "title": "Cumans",
+        "type": "civilization",
+        "slug": "cumans",
+        "label": "Who drove them west and then helped destroy them"
+      }
+    ],
     "people": [
       {
         "title": "Sviatoslav I of Kiev",
@@ -173,12 +200,6 @@
       }
     ],
     "locations": [
-      {
-        "title": "Cumans",
-        "type": "location",
-        "slug": "cumans",
-        "label": "Who drove them west and then helped destroy them"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -242,6 +263,5 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Pechenegs_defeating_the_Rus,_from_the_Skyllitzes_Matritensis,_fol._173r,_(Public_Domain)_via_Creative_Commons.jpg",
       "note": "A Byzantine manuscript image of the people this archive knows almost entirely through Byzantine eyes. The Pechenegs left no written record of their own. Public domain."
     }
-  ],
-  "endYear": "1122"
+  ]
 }

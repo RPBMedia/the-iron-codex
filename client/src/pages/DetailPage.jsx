@@ -147,7 +147,13 @@ export default function DetailPage({ article: providedArticle = null }) {
       <section className="detail-hero">
         <div className="detail-media-col">
           <ImageWithCaption article={article} />
-          {(article.type === 'house' || article.type === 'location') && <ArmsImage article={article} />}
+          {/* Civilizations included: a people that bore no heraldry still has an
+              emblem panel, and it is often the only object they made that
+              survives. The Pechenegs left an axe head from a grave and the
+              Cumans their kurgan steles — both already captioned to say the
+              people bore no coat of arms. Gating this on house/location alone
+              would drop those images silently when the articles move. */}
+          {(article.type === 'house' || article.type === 'location' || article.type === 'civilization') && <ArmsImage article={article} />}
           {article.type === 'order' && <OrderSigilImage article={article} />}
         </div>
         <div className="detail-body">

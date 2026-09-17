@@ -137,7 +137,7 @@
         {
           "name": "Pechenegs",
           "title": "Pechenegs",
-          "type": "location",
+          "type": "civilization",
           "slug": "pechenegs"
         }
       ],
@@ -191,16 +191,18 @@
     ],
     "locations": [
       {
-        "title": "Pechenegs",
-        "type": "location",
-        "slug": "pechenegs",
-        "label": "Ended as a people here"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Whose Danube frontier this secured"
+      }
+    ],
+    "civilizations": [
+      {
+        "title": "Pechenegs",
+        "type": "civilization",
+        "slug": "pechenegs",
+        "label": "Ended as a people here"
       }
     ]
   },

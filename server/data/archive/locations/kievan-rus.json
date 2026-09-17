@@ -136,18 +136,6 @@
         "type": "location",
         "slug": "grand-duchy-of-lithuania",
         "label": "Absorber of the western lands"
-      },
-      {
-        "title": "Cumans",
-        "type": "location",
-        "slug": "cumans",
-        "label": "Its steppe neighbours, enemies and in-laws for a century and a half"
-      },
-      {
-        "title": "Pechenegs",
-        "type": "location",
-        "slug": "pechenegs",
-        "label": "Who controlled its trade route to Constantinople"
       }
     ],
     "events": [
@@ -156,6 +144,20 @@
         "type": "event",
         "slug": "battle-of-the-kalka-river",
         "label": "The first Mongol defeat of the Rus'"
+      }
+    ],
+    "civilizations": [
+      {
+        "title": "Cumans",
+        "type": "civilization",
+        "slug": "cumans",
+        "label": "Its steppe neighbours, enemies and in-laws for a century and a half"
+      },
+      {
+        "title": "Pechenegs",
+        "type": "civilization",
+        "slug": "pechenegs",
+        "label": "Who controlled its trade route to Constantinople"
       }
     ]
   },

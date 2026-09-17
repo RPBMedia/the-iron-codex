@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
 | Article UI / UX | 0o | Appendix B | Nearly done — U0–U3, U5 and U7 shipped; U4 and U6 need a live page and are the owner's to verify |
-| Civilizations | 0e | Appendix C | **Phase 0 done** — collection, route, filters, link type, prerender and gates all live; no articles yet |
+| Civilizations | 0e | Appendix C | **Phase 0 done + first 2 articles live** — Pechenegs and Cumans resolved out of `locations`; Phase 1 drafts ready |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 
@@ -1267,6 +1267,41 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
      away-mode question list: `Turks`, `Seljuks`, `Moors`, `Andalusi`, and
      `Lombards` (Germanic people vs Italian region vs league). `seljuk-turks` is
      the sharpest: an article *named after a people* but *written as a state*.
+
+   **PHASE 1 DRAFTS READY 2026-09-17, NOT YET BUILT.** Two research agents
+   produced `drafts/civilizations-gothic.md` (1,600 lines — Goths, Visigoths,
+   Ostrogoths) and `drafts/civilizations-norse.md` (2,329 lines — Norse,
+   Vikings). `drafts/` is gitignored; these are working files, not archive
+   content. Both carry full section sets, metadata blocks, relationship lists
+   marked `[EXISTS: id]`/`[MISSING]` against the whole archive, Commons image
+   candidates verified by eye rather than by filename, and source lists.
+
+   **Owner decisions these surfaced, needed before Phase 1 is assembled:**
+   1. **The Ostrogoths/Ostrogothic Kingdom boundary.** The Gothic draft gives
+      identity, the *saio* and *comes Gothorum*, language and material culture
+      to the people, and leaves kings and campaigns to the realm. That split is
+      the model ~150 further civilizations will copy, so it is worth an eye
+      before it sets.
+   2. **Metadata format.** The two drafts diverge — Gothic uses a Markdown
+      table, Norse a YAML block — though the field names agree. Trivial to
+      reconcile, but pick one before assembly.
+   3. The five `AMBIGUOUS` audit cases: `Turks`, `Seljuks`, `Moors`,
+      `Andalusi`, `Lombards`.
+   4. Whether to commit on the Goffart land-versus-tax settlement debate; the
+      draft flags it both times rather than picking.
+
+   **Two philological claims to source-check before the Vikings article ships:**
+   the Bro stone (U 617) reading *víkinga vǫrðr*, and the c. 700 date of the
+   *wicing* gloss in the Épinal-Erfurt glossary. Both are standard in Jesch and
+   both do real work in "Names and Identity" — they are the evidence that the
+   word named enemies and predates the Viking Age.
+
+   **Gaps the drafts expose, worth queueing on their own merits:** no
+   `visigothic-kingdom`, no `theoderic-the-great` (already named as a leader in
+   existing battle articles), no `ravenna`, no Amalasuintha; and on the Norse
+   side no `anglo-saxon-chronicle` artifact and no Lindisfarne 793 event — the
+   conventional opening of the period, which both drafts need to link — plus
+   Rollo, Hedeby, Birka, Dublin, Iceland, Þingvellir and the Oseberg ship.
 
    The original request follows.
 

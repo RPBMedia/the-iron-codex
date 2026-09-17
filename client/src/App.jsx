@@ -43,6 +43,12 @@ export default function App() {
             <Route path="/orders" element={<CollectionPage collection="orders" />} />
             <Route path="/civilizations" element={<CollectionPage collection="civilizations" />} />
             <Route path="/locations/teutonic-order" element={<Navigate to="/orders/teutonic-order" replace />} />
+            {/* Both were Polity-typed locations that were in substance people
+                pages, and both are indexed at their old URLs. Moving them into
+                the civilizations collection without these would 404 every
+                inbound link and every search result. */}
+            <Route path="/locations/pechenegs" element={<Navigate to="/civilizations/pechenegs" replace />} />
+            <Route path="/locations/cumans" element={<Navigate to="/civilizations/cumans" replace />} />
             <Route path="/archive" element={<IndexPage />} />
             <Route path="/insights" element={<InsightsPage />} />
             <Route path="/topics" element={<TopicsIndex />} />
