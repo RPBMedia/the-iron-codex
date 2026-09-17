@@ -346,24 +346,18 @@ export function locatorFor(article) {
   return { map, x, y }
 }
 
-/**
- * A window of the base map around the marker, so the inset shows the region at a
- * size where the map's own town names stay readable. The marker sits a little
- * below centre (markerDown), so more of the region shows above it. The window is
- * clamped to the map's edges; every value is a percentage of the window, for CSS
- * positioning.
+/*
+ * `cropWindow()` lived here until 2026-09-17. It returned a 340x320 window of the
+ * base map around the marker, so the map's own town names stayed readable at
+ * inset size.
+ *
+ * The owner removed it, and was right to: a locator exists to answer "where in
+ * the country is this place", and a window onto part of the map cannot answer it.
+ * Toledo rendered as a red dot in an anonymous patch of provincial borders and
+ * rivers, with no coastline and no national outline anywhere in the frame.
+ *
+ * LocatorMap now renders the whole image and places the marker by proportion
+ * (x / width, y / height), which is the Wikipedia location-map convention this
+ * feature was always meant to follow. Do not reintroduce a crop: if a map is too
+ * tall for its column, cap the height in CSS and let the width shrink with it.
  */
-export function cropWindow(map, x, y, viewW = 340, viewH = 320, markerDown = 0.55) {
-  const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi)
-  const x0 = clamp(x - viewW / 2, 0, map.width - viewW)
-  const y0 = clamp(y - viewH * markerDown, 0, map.height - viewH)
-  return {
-    viewW,
-    viewH,
-    imgWidthPct: (map.width / viewW) * 100,
-    imgLeftPct: (-x0 / viewW) * 100,
-    imgTopPct: (-y0 / viewH) * 100,
-    markerLeftPct: ((x - x0) / viewW) * 100,
-    markerTopPct: ((y - y0) / viewH) * 100
-  }
-}

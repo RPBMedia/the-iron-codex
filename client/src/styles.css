@@ -3865,21 +3865,31 @@ a.tree-person:hover .tree-person-name {
   color: rgba(215, 217, 221, 0.7);
 }
 
-/* City locator inset (QUEUE 0k): a window of a medieval base map around the city,
-   with a red marker at its coordinates. The image position comes from cropWindow()
-   in lib/locatorMaps.js as percentages of the window, so it scales with the figure.
-   Floats and stacks like other section figures. */
+/* City locator inset (QUEUE 0k): the WHOLE base map, with a red marker at the
+   city's coordinates, placed by proportion of the full image so it stays exact at
+   any rendered size. It used to show a cropped window around the marker, which
+   the owner rightly rejected on 2026-09-17: a patch of provincial borders with no
+   coastline cannot tell you where in the country a city is. Floats and stacks
+   like other section figures. */
 .locator-figure .locator-window {
   position: relative;
   width: 100%;
+  /* Cap the HEIGHT of a tall map and let the width shrink with it, so the frame
+     keeps the map's own proportions. `--locator-ar` is the map's width/height,
+     set inline by LocatorMap; at 0.46 the Kingdom of Jerusalem map would
+     otherwise run to about 740px in this column. Centred when it shrinks. */
+  max-width: calc(560px * var(--locator-ar, 1));
+  margin-inline: auto;
   overflow: hidden;
   background: #bfe3f2;
 }
 
 .locator-figure .locator-window img {
   position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   max-width: none;
-  height: auto;
   max-height: none;
   object-fit: fill;
   filter: none;

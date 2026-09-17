@@ -9,7 +9,7 @@ import ZoomableImage from '../components/ZoomableImage.jsx'
 import { getArticle } from '../lib/api.js'
 import { ambiguousEntityAliases, entityLinks } from '../lib/entityLinks.js'
 import { reportArticleImageFailure } from '../lib/images.js'
-import { cropWindow, locatorFor } from '../lib/locatorMaps.js'
+import { locatorFor } from '../lib/locatorMaps.js'
 
 const collectionLabels = {
   events: 'Events',
@@ -1658,24 +1658,37 @@ function LocatorMap({ article }) {
   const locator = locatorFor(article)
   if (!locator || failed) return null
   const { map, x, y } = locator
-  const view = cropWindow(map, x, y)
+
+  // THE WHOLE MAP, NEVER A CROP (owner, 2026-09-17).
+  //
+  // This used to show a 340x320 window of the base map around the marker, to
+  // keep the map's own town names readable. That defeated the one job a locator
+  // has. The owner reported Toledo sitting in an anonymous patch of provincial
+  // borders and rivers, with no coastline and no national outline: you could see
+  // a red dot, but not where in Spain it was.
+  //
+  // A locator answers "where in the country is this place", and only the whole
+  // country can answer it — which is the Wikipedia location-map convention this
+  // was always meant to follow. The marker is placed by simple proportion of the
+  // full image, so it stays exact at any rendered size.
+  const leftPct = (x / map.width) * 100
+  const topPct = (y / map.height) * 100
+  const aspect = map.width / map.height
 
   return (
     <figure className="section-figure locator-figure">
       <div
         className="locator-window"
-        style={{ aspectRatio: `${view.viewW} / ${view.viewH}` }}
+        // A tall map (Portugal, Sweden, the Kingdom of Jerusalem) would run to
+        // 700px in this column. `--locator-ar` lets the CSS cap the HEIGHT and
+        // shrink the width proportionally, so the frame never distorts and the
+        // percentages above stay true.
+        style={{ '--locator-ar': aspect, aspectRatio: `${map.width} / ${map.height}` }}
         role="img"
         aria-label={`Map of ${map.title}, with ${article.name} marked in red`}
       >
-        <img
-          src={map.src}
-          alt=""
-          loading="lazy"
-          onError={() => setFailed(true)}
-          style={{ width: `${view.imgWidthPct}%`, left: `${view.imgLeftPct}%`, top: `${view.imgTopPct}%` }}
-        />
-        <span className="locator-marker" style={{ left: `${view.markerLeftPct}%`, top: `${view.markerTopPct}%` }} />
+        <img src={map.src} alt="" loading="lazy" onError={() => setFailed(true)} />
+        <span className="locator-marker" style={{ left: `${leftPct}%`, top: `${topPct}%` }} />
       </div>
       {/* "modern map" only when the base map actually has modern borders. The
           Jerusalem map is a twelfth-century one, and calling it modern was
