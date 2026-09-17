@@ -7,6 +7,72 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## City locator maps — queue item 0k — closed 2026-09-17
+
+**Every place in the archive that has coordinates now carries a locator: 100 of
+them, across 18 base maps.** It began the day at 50 and the feature at 4.
+
+**The route was bounds, not calibration, and that finding is the item.** Fitting
+a projection to a historical map's own town LABELS failed at 102 units of error
+on a 1405-wide map, and the projection was not the cause — Mercator,
+equirectangular and a quadratic all landed within 2% of each other. A label sits
+left, right, above or below its dot depending on space, and that scatter is the
+floor. So the maps use the degree box Wikipedia's `Module:Location map/data/`
+publishes for each image: correct by construction, no fitting at all.
+
+**Spain is the trap worth remembering.** Its module publishes `left = -26.925`,
+which is not the map's western edge at all — it belongs to the Canary Islands,
+grafted into the corner by a formula that branches at longitude -10. The mainland
+branch is plain and linear, giving a real box of -9.9 to 4.8. Taking the
+published number at face value would have crushed Iberia into a fifth of the
+frame and put every marker in the Atlantic. **Always check a published box
+against the image's aspect ratio** — `Δlon · cos(mid-lat) : Δlat` — before
+trusting it.
+
+**Novgorod closed it**, with its own oblast entry rather than a country map:
+European Russia's module is formula-driven rather than a degree box, and a full
+Russia map would crop to some 45° of longitude, which is a region and not a
+locator. It is deliberately absent from `COUNTRY_TO_MAP`, because mapping RU to
+an oblast map would hand it to any future Russian place far outside it.
+
+**`gestilren` is permanently excluded, not a gap.** Its own article says nobody
+has ever established where the 1210 battle was fought, and sets out the
+Västergötland and Uppland cases. A future pass must not "fix" it by inventing
+coordinates.
+
+Two tests gate it: every location naming a base map has coordinates that fall on
+it, and — added when the item closed — every marker lands inside the *visible
+crop*, not merely somewhere on the map. A place near a box edge could otherwise
+pass the first and still render with its dot clipped out of the inset.
+
+## Kingdom maps and arms — queue item 0d — closed 2026-09-17
+
+Every polity article leads with a territory map and shows its arms or an attested
+emblem. Of 58 polities, none lacks a main image.
+
+**Polities without heraldry get an attested object instead of an invented
+shield** — a Frankish solidus, a Carolingian denier, pennies of Alfred and
+Eadberht, a Cnut penny, a solidus of Constans II, a hyperpyron, dinars and
+dirhams, Vytautas's equestrian seal, a Volodymyr coin — each captioned to say
+plainly that the polity bore no coat of arms.
+
+**The last two were emirates, and they were invisible rather than finished.** The
+arms gate's type pattern did not include `emirate`, so Crete and Melitene were
+neither failing nor tracked while Hamdanid Aleppo happened to pass. The pattern
+now covers emirates and both sit on `polity-arms-backlog.json`, which the gate
+does watch: it fails if either later gains a panel and stays listed.
+
+Neither has usable coinage, and that was established by category rather than
+keyword — `Category:Emirate of Crete` holds only Madrid Skylitzes battle
+miniatures, which are Byzantine narrative illustration of the emirate's enemies
+rather than its own emblem, and Melitene has no category at all. The emirate did
+mint dinars; they are simply not published under a licence this archive can use.
+
+The shared-map defect closed with it: `England_878.svg` led `danelaw` and also
+sat on `kingdom-of-england`. Danelaw keeps it, since that map *is* the Danelaw,
+and England's origins section took a map of the kingdoms before unification.
+
+
 ## Wrong links: the class closed — 2026-09-17
 
 `check-content-quality` hard-fails on a MISSING link and never on a WRONG one,

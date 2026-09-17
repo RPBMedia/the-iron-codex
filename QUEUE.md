@@ -1085,7 +1085,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    The medieval name-variant problem is broad: Eric/Erik/Erik, Olaf/Olav/Óláfr, Cnut/Canute/Knut, Valdemar/Waldemar, Æthelred/Ethelred/Aethelred, Sverker/Sverkir, Haakon/Håkon/Hakon, Louis/Ludwig/Lodewijk, and every ø/oe, æ/ae, å/aa pair. Aliases already cover the cases somebody thought of; this is about the ones nobody did.
    Candidate approaches, cheapest first: (1) fold diacritics and normalise the obvious consonant pairs (c↔k, v↔w, th↔d) in the search index only, never in stored data; (2) add a phonetic key per article — Double Metaphone handles Eric/Erik and Olaf/Olav well; (3) trigram or edit-distance fallback when an exact search returns nothing, which also catches typos. **The risk with all three is false matches** — "Eric" and "Erik" are the same man, but loose matching could equally collapse Henry I and Henry II, and a wrong search result is the same class of error as a wrong link. Whatever ships should show the reader WHY a result matched.
 
-0q. **BARE-NAMED BATTLES — 25 written; about 38 distinct battles still open.**
+0q. **BARE-NAMED BATTLES — 35 written; about 26 distinct battles still open.**
    ✅ **TEN MORE WRITTEN 2026-09-17 (`4d329cf`):** Shrewsbury (1403), Nájera (1367), Montiel (1369), Río Salado (1340), Brunkeberg (1471), the Siege of Acre (1189–91), Ankara (1402), Adrianople (1205), Dandanaqan (1040) and Durbe (1260). Eleven backlog entries came off, both Salado spellings among them.
    **The three alias guards that shipped with them are the point.** `gen-entity-links` mints a bare short-form alias from "Battle of X" whenever no other article claims X, so every new battle name goes live the instant the article lands — and three named something else far more often. **Shrewsbury** is an earldom (13 occurrences in `john-talbot`, who holds it). **Adrianople** is the city, filed as `edirne`, which therefore never claimed the name — 11 occurrences in Edirne's own prose, and one in `nikephoros-i`, four centuries early. **Nájera** is a town in the Rioja. Each now resolves only where the surrounding text is about the battle. **Check this before writing any further battle whose short name is also a place, a title or a person.**
    **Count, re-measured 2026-09-17 after twenty battles shipped:** `BATTLE_BACKLOG` holds 30 strings — 27 real names plus 3 documented regex artifacts — so **about 26 distinct unwritten battles remain**. Twenty were written today: ten in the eastern/crusader and western/northern batches, five Norse (Fýrisvellir, Fotevik, Grathe Heath, Fimreite, Largs) and five Anglo-Saxon (Heavenfield, Ellandun, Aclea, Ashdown, Tettenhall). **Nothing checks this list for entries that have since gained articles**, unlike the arms backlog, so stale entries accumulate silently — `ethandun` and `atoleiros` were both found that way today.
@@ -1178,130 +1178,6 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    - **Final: global reconciliation and a completion report (§98–99).**
 
    The spec's special audits (§75–89) run inside their region's milestone. **When this starts, the first step is M0 and nothing else.**
-0k. **OWNER REQUEST 2026-09-15, a big one: a locator map in every city's Overview.**
-   **STATUS 2026-09-16.** The feature is BUILT — projection, crop window, `LocatorMap`, calibration tests. Coordinates are DONE: 97 locations carry `coordinates` + `modernCountry` (`2aa75fb`); 77 places could take a locator. What was missing is base maps: `LOCATOR_MAPS` held exactly one (Kingdom of Jerusalem), which is why only Damascus, Sidon, Kerak and Antioch showed an inset.
-   ✅ **OPTION 1 DELIVERED 2026-09-16 (`1715ed1`): 50 places now show a locator**, up from 4 — 18 British Isles, 16 France, 7 Denmark, 5 Sweden, 4 Norway. **The route is bounds, not calibration.** `projectOnMap` now accepts a `bounds` box (the degree box Wikipedia's `Module:Location map/data/<country>` publishes for each base image) and places a point by proportion, correct by construction. Assignment is by `modernCountry`, never by which box contains the point: the boxes overlap so badly that Hastings and Agincourt sit in both the British Isles and France, and Oslo, Copenhagen and Falsterbo in all three Nordic boxes. A place outside its map's bounds is left without a locator rather than clamped to an edge.
-   **These are modern outlines**, allowed as the documented fallback, and the caption says so. Crop windows land 140–450km across, which is the recognisable range — the objection to a single Europe-wide map does not apply at country scale.
-   ✅ **0k IS COMPLETE — 100 places carry a locator, every place in the archive that has coordinates.** Up from 50 at the start of the day. Spain, Portugal, Germany, Italy and Anatolia closed the region list; Poland, Ukraine, Lithuania, Morocco, Iraq and a central Balkans base closed the outliers; ten further places turned out to sit in already-mapped countries and had simply never had `locatorMap` written, which is what running assignment off `COUNTRY_TO_MAP` found.
-   **Novgorod closed it.** It needed its own entry rather than a country map: European Russia's module is a projected map driven by formulas rather than a degree box, and a full Russia map would crop to some 45° of longitude — a region, not a locator. The Novgorod Oblast box is small enough to be useful (a 340px window spans about 140km, and Lake Ilmen makes the ground readable), paired with the relief map rather than the 512px unlabelled outline. It is deliberately **not** in `COUNTRY_TO_MAP`: mapping RU to an oblast map would hand it to any future Russian place hundreds of miles outside it. *Gestilren* remains **permanently excluded, not a gap** — its own article says nobody has ever established where the 1210 battle was fought, and a future pass must not "fix" it by inventing coordinates.
-   **Sourcing note for any future map:** take the degree box from `Module:Location map/data/<country>`, then check it against the image aspect (`Δlon · cos(mid-lat) : Δlat`) before trusting it. Spain publishes `left = -26.925`, which is the Canary Islands inset grafted on by a formula branching at lon -10, not the map edge; taking it at face value would have put every Iberian marker in the Atlantic. Read attribution from the Commons API rather than copying a neighbouring entry: Morocco’s map is Eric Gaba’s and Ukraine’s is CC BY-SA 4.0, unlike the rest.
-   **OWNER DECISION 2026-09-16: Option 1 — three maps first.** British Isles (18 places), France and the Low Countries (22), Scandinavia (16). That is **56 of 77**, 73%, for three calibrations, and covers the regions where the recently enriched stubs live.
-   **QUEUED FOR A LATER ITERATION — the owner wants them all eventually:**
-   - **Iberia** (9 places: Las Navas de Tolosa, Medina del Campo, Madrigal, Lisbon, Toledo, Granada). Needs a DATE chosen before a map can be: the frontier moved constantly.
-   - **Byzantium and Anatolia** (6: Constantinople, Edirne, Bursa, Gebze, Kosovo Field, Manzikert). Also needs a date; Manzikert falls outside a tight Anatolia frame.
-   - **Germany and the Empire** (7: Aachen, Rupertsberg, Bermersheim, Legnano, Lechfeld). Overlaps France and Italy; one Empire map may serve all three at lower zoom.
-   - **Italy** (2: Rome, Legnano). Not worth its own map — fold into the Empire or a Mediterranean map.
-   - **The six outliers** with coordinates but no candidate frame: Tikrit, Manzikert, Grunwald, Marrakesh, Horodok, Novgorod. Either a very wide map or no locator, decided per place.
-   **CALIBRATION FINDING, 2026-09-16 — read this before sourcing any map.** I tried to calibrate `France 1154-en.svg` (already used on `aquitaine`) and failed, for a reason that will repeat on most candidates:
-   - The SVG has **85 text labels**, 44 of them towns, with positions readable from their `transform`. Fitting the linear model on 27 towns with known coordinates gave a **worst error of 102.6 units on a 1405-wide map — 7.3% of the width**. The Jerusalem map manages 7 units.
-   - It is **not the projection**. A full six-parameter affine fit (allowing for a conic projection) barely moved it: 99.2 units. So the model is not the problem.
-   - It is **not a constant offset** either. The signed residuals have a standard deviation of 35.6 and 21.2 units around a mean of zero, so there is no single label-anchor correction to subtract.
-   - The cause is that **a label's position is not its town's position**. Labels sit left, right, above or below their dot depending on space, giving an irreducible scatter of roughly ±40 units.
-   - The obvious fix — pair each label with its marker dot — **does not work on this file**: it has zero `<circle>` elements, and its 26 `<use>` elements are shared path symbols with `x="0" y="0"` and their offset in `transform`. Label-to-nearest-marker distance is a median of 203 units and a maximum of 656, so they are not town dots.
-   - On a 340-unit crop window, a 100-unit error puts the marker roughly a quarter of the window away from the true town. That fails the one job a locator has.
-   **What this means for the estimate:** the work is not "fit coefficients", it is **finding maps whose town positions are machine-readable at all** — an SVG with real `<circle>` markers, or a raster map with a printed graticule dense enough to measure. `Scandinavia-12th century.svg` is more promising: it carries a **labelled graticule** (0°/10°/20°/30° longitude, 55°/60°/65°/70° latitude) with exact positions, which beats town-matching. Its latitude labels alternate edges at inconsistent spacing, so test it for a conic projection before trusting it. `Norman-conquest-1066.svg` is unusable: **zero text elements**. The British Isles has no good SVG candidate yet — the Commons categories return early-modern engravings and rasters.
-
-   **Calibration is the real work, not the coordinates.** Each map needs `x = a·lon + b` and `y = c·mercY(lat) + d` fitted against towns the map itself marks, then checked against those markers by `tests/locator-maps.test.mjs`. The Jerusalem map was fitted on 23 towns from Akaba to Hama, worst error 7 units. A map with few labelled towns cannot be calibrated accurately however good it looks — prefer SVG sources, whose labels and markers can be read programmatically.
-   Each city, town and settlement article gets a map of the country it lies in today,
-   with the surrounding region and a marker showing where the city is. Example:
-   `antioch`, which is Antakya in southern Turkey near the Syrian border, not in
-   Israel as first described.
-   **Scope:** 67 city/town/port/settlement/village articles out of 174
-   locations. No location has coordinates today (0 carry a coordinates field).
-
-   **Recommended build: generated, not hand-picked images.**
-   1. Add `coordinates: { lat, lon }` to each location, sourced from Wikidata/Wikipedia
-      and spot-checked.
-   2. Add `modernCountry` (ISO code), used for the base map.
-   3. Build one `LocatorMap` component that draws the country outline and its
-      neighbours from bundled public-domain Natural Earth boundaries (a small
-      TopoJSON; no external requests, which fits the CSP) and pins the city.
-
-   Hundreds of consistent maps then cost one component. Picking a Commons locator
-   image per city would be slower, inconsistent in style, and brittle.
-
-   **Decide with the owner first:**
-   - Modern borders only, or modern borders with the medieval polity named in the
-     caption.
-   - Whether regions and castles also get one.
-   - The rendering: plain SVG, or a light d3-geo projection.
-
-   **Gate once it exists:** every city-type location has coordinates and renders a map.
-
-   **Owner decision 2026-09-15:** the map shows the medieval polity, not the modern country. Sidon gets the Kingdom of Jerusalem, not Lebanon. One high-quality regional map with well-readable city names may be reused for every city in that region. This replaces the modern-borders recommendation above wherever a city lies inside a mapped medieval polity. The Kingdom of Jerusalem map now being chosen, to replace the rejected Conder plate, is the first candidate base map.
-
-   **Owner follow-up 2026-09-15, reported on `kerak`: "we are missing an image of where in the Levant Kerak is located".** The owner attached an example: a Wikipedia-style location map with a pale base map of the region, borders, rivers and coast, one red dot, and the place named beside it ("Kerak Castle"). **Every city gets one, in its Overview, clearly showing where it lies in its region.** CLAUDE.md now carries this as a standing rule.
-   **Recommended build**, replacing the Natural Earth idea above:
-   - Use the base maps behind Wikipedia's location-map templates (Commons files such as `Jordan location map.svg` or a Levant or Near East map). Their corner coordinates are published in `Module:Location map/data/<map>`.
-   - Add `coordinates: { lat, lon }` to each city from Wikidata, spot-checked.
-   - Build one `LocatorMap` component that draws the base image and places the dot by linear interpolation between the corners, with the label beside it. No hand-made image per city, and no external requests beyond the Commons image.
-   - Pick the base map per region, favouring the medieval region the article belongs to. The earlier decision stands: a legible Kingdom of Jerusalem map is the base for crusader cities where it can carry a dot.
-   **Owner decision 2026-09-15: always medieval if possible.** The base map shows the medieval polity or region the city belonged to. A modern-borders base, like the Jordan map in the example, is used **only where no medieval base map is possible**. Where that fallback is used, the caption says the borders are modern.
-   **Pilot:** `kerak` first, then the other Levant cities (`sidon`, `damascus`, `antioch`), then every city-type location, with a gate that each has coordinates and renders a map.
-   **Pilot shipped 2026-09-15 on `kerak`.** Kerak now carries `coordinates` and `locatorMap: "kingdom-of-jerusalem"`.
-   - `client/src/lib/locatorMaps.js` registers the base map. Its Mercator calibration was fitted against 23 towns the map itself marks; the worst error is 7 SVG units, about the size of a marker. `locatorFor()` places the marker, and `cropWindow()` picks a 340×380-unit window with the marker 58% down, so the map's own labels stay readable.
-   - `LocatorMap` in DetailPage renders the window after the Overview's first paragraph, with a red marker and a Commons credit.
-   - `tests/locator-maps.test.mjs` checks 8 measured markers, that every `locatorMap` article lands on its map, and that the window clamps.
-   **Levant extension shipped 2026-09-15 (owner away):** `sidon` (33.5571, 35.3729) and `damascus` (33.5106, 36.3065) now carry locator maps on the same base, so all three archive cities on this map have one. No other city article lies on it; Acre, Tyre, Jerusalem and Tripoli have no articles.
-   **Next:** coordinates for `sidon`, `damascus`, `antioch` and the other Levant cities on this map. Antioch lies north of this map's edge, so it needs a northern crusader-states base. Then base maps for the other regions (a medieval one wherever possible), then the gate that every city has a map.
-0d. **OWNER REQUEST 2026-09-15 — every kingdom gets BOTH a territory map AND
-   ✅ **ESSENTIALLY DONE — measured 2026-09-16.** Of 58 polities, **zero lack a main image** and only **two** lack an arms panel: `emirate-of-crete` and `emirate-of-melitene`. The Hamdanid Emirate of Aleppo gained one on 2026-09-16 (`1715ed1`) — a gold dinar naming Nasir al-Dawla and Sayf al-Dawla, matching the coin convention the other Islamic polities use. **Crete and Melitene have no coin on Commons**, and both sit OUTSIDE the arms gate, whose `polityLocationTypePattern` in `scripts/check-images.mjs` covers kingdom, empire, caliphate, sultanate, principality, duchy, county, khanate and despotate but **not "emirate"**. So they are neither failing nor forgotten — a deliberate remainder. Either find coinage, or widen the pattern to include emirates and put these two on the backlog file.
-   its arms or flag.** Reported on `kingdom-of-castile` (map, no arms) and
-   `kingdom-of-navarre` (arms, no map). Heuristic audit of captions and
-   filenames across 54 kingdom-type articles: about 7 have both, 31 a map only,
-   16 neither (`kingdom-of-france`, `kingdom-of-poland`, `kingdom-of-portugal`,
-   `kingdom-of-leon`, `kingdom-of-hungary`, `kingdom-of-sicily` among them).
-   The heuristic reads words, not pictures, so verify each by eye. One image
-   leads; the other is a section image beside the section it explains. **Rules to
-   respect:** arms must be attested for the period (armorial rolls, royal seals,
-   coinage, surviving banners) and captioned with date and source. A modern
-   "flag of the Kingdom of X" SVG is usually an anachronistic reconstruction and
-   is either captioned as one or rejected. Byzantine, Islamic and steppe polities
-   bore no heraldry, and CLAUDE.md already forbids inventing a shield: use the
-   attested emblem instead (a banner described in the sources, a tamga, a seal or
-   a coin) and say plainly that the polity had no arms. Once done, gate it in
-   `check-images.mjs` for kingdom-type locations, with an allowlist for the
-   no-heraldry polities.
-   **BATCH 1 SHIPPED 2026-09-15 (owner away), 12 kingdoms:** Poland, Hungary, Sicily, Jerusalem, England, Scotland, France, Holy Roman Empire, Castile, León, Aragon and Navarre. Each now leads with a territory map (a pre-1900 atlas plate or a modern reconstruction, captioned as such) and shows its period arms in the arms panel (`armsImage`, rendered by `ArmsImage` in DetailPage). Replaced main images that were still good (Stephen I in the Chronicon Pictum, the Cappella Palatina, the 878 and Strathclyde maps, Alfonso IX in the Tumbo A) moved to section images. Two were dropped: France's Bourbon royal standard of 1638–1790, whose source link was broken, and Navarre's undated modern flag. The same ship corrected Navarre's prose and timeline, which had stated the Las Navas chains legend as fact. Every image was viewed by the agent that chose it. **BATCH 2 SHIPPED 2026-09-15 (owner away), 4 kingdoms:** Portugal (Shepherd 1911, quinas with the castle bordure of Afonso III), Denmark (Spruner-Menke diocesan map of 1880 plus the lions of Canute VI; the map is of dioceses, which the caption says), Norway (a reconstruction of about 1265 plus the lion with Saint Olaf's axe of about 1280) and Sweden (a reconstruction of 1323 plus the Folkung lion). Three were dropped: the modern locator maps for Denmark and Norway, and Brenner's tiny 1705 coin engraving for Sweden. Portugal's illuminated genealogy moved to "Major rulers". **BATCH 3 SHIPPED 2026-09-15 (owner away): 32 of 54 done.** The 16 polities are listed below.
-   - **Maps:** each leads with a map. The kept maps got real metadata; Northumbria's and the North Sea Empire's broken thumbnail and source links were fixed. Carolingian's modern-borders locator and the modern Normandy and Flanders flags were dropped.
-   - **Arms panel:** heraldic arms only where attested (Aquitaine, Normandy, Flanders, the Latin Empire). Every non-heraldic polity instead shows a coin or object of its own with a caption saying it bore no arms: a Frankish solidus, a Carolingian denier, pennies of Alfred and Eadberht, a Cnut penny, a solidus of Constans II, a hyperpyron of John III Vatatzes, an aspron trachy, the Cross of Victory, dinars and dirhams.
-   - **Open item:** `England_878.svg` now leads both `kingdom-of-wessex` and `danelaw`, and is a section image on `kingdom-of-england`. Give one of them a different map.
-   The batch 3 polities (approved 2026-09-15): `frankish-kingdom`, `carolingian-empire`, `kingdom-of-wessex`, `northumbria`, `aquitaine`, `duchy-of-normandy`, `county-of-flanders`, `north-sea-empire`, `byzantine-empire`, `empire-of-nicaea`, `latin-empire`, `despotate-of-epirus`, `kingdom-of-asturias`, `caliphate-of-cordoba`, `umayyad-caliphate` and `almohad-caliphate`. Polities without heraldry get an attested emblem, with a caption saying plainly that they bore no arms. **BATCH 4a SHIPPED 2026-09-15, night (owner away): 36 of 54 done.**
-   - `grand-duchy-of-lithuania`: map of the 13th–15th centuries; Vytautas's equestrian seal.
-   - `kalmar-union`: a legible map of 1397–1523 replaces an unlabelled locator; union arms after Eric of Pomerania's seal.
-   - `kievan-rus`: English-language map; a coin of Volodymyr the Great, captioned that the realm bore no arms.
-   - `principality-of-serbia`: 1355 relief map; the Despot's arms from the Prague Richental manuscript, cropped to the heading and shield.
-
-   **BATCH 4b SHIPPED 2026-09-15, night (owner away): 39 of 54 done.**
-   - `vandal-kingdom`: a bold 2014 reconstruction map; Hilderic's silver coin from Carthage.
-   - `mongol-empire`: Herrmann's 1935 plate of the khanates in 1290; the Met's iron paiza.
-   - `sasanian-empire`: a 2020 map of 620, noted as overstating the east; a drachm of Khosrow II.
-
-   The old washed-out maps are dropped.
-   **BATCH 4c SHIPPED 2026-09-16 (`d5d79ea`, owner away): 44 of 54 done.**
-   - `ottoman-empire`: Occitan map of 1307–1490; Mehmed II's tughra of 1468.
-   - `seljuk-turks`: 1092 relief map; Tughril Beg's gold dinar with its tamgha.
-   - `sultanate-of-rum`: Italian map of 1100–1240; Kaykhusraw II's sun-and-lion dirham.
-   - `ayyubid-sultanate`: map of 1174–1193 after Riley-Smith; Saladin's Damascus dirham.
-   - `rashidun-caliphate`: map kept; Arab-Sasanian drachm with "bism Allah".
-
-   **Open question for the owner:** the Rashidun map's corner legend shows a modern black "Rashidun banner" and a "Sunni Islam" label. It could not be cropped out without losing map, and no legible alternative exists: the conquests map already on the article has Arabic labels and is dim.
-   **Gate shipped (2026-09-15, night):** `check-images` fails on a kingdom-type location without an arms panel. The 18 still to do are in `scripts/lib/polity-arms-backlog.json`, a shrink-only list: a listed polity that gains a panel must leave the list. No separate no-heraldry allowlist was needed, because those polities carry an emblem in the same panel.
-   **BATCH 4e SHIPPED 2026-09-16: 49 of 54 done.** `pechenegs` (map of about 1030; a grave axe), `cumans` (thirteenth-century map; a stone burial figure), `principality-of-achaea` (Greece in 1278; the Villehardouin arms, attested by Geoffrey's seal), `kingdom-of-east-anglia` (map kept; a penny of King Edmund, with the three-crown arms noted as post-medieval) and `kingdom-of-york` (Britain about 886; the St Peter penny moved from the main image to the arms panel). Old photos and miniatures moved to the sections that discuss them.
-   **BATCH 4d SHIPPED 2026-09-16: 0d COMPLETE, 54 of 54.** `abbasid-caliphate` (map of about 850 promoted from its own section slot; Harun al-Rashid's purely epigraphic gold dinar of 787–8; the Samarra photo moves to "Losing power"), `first-bulgarian-empire` (map of about 896; the lead seal of Peter I and Irene Lekapene, sealed in the Byzantine manner; the Madara Rider moves to "The khans and the wars"), `ostrogothic-kingdom` (a legible 523 map replaces one where the sea and the Vandal kingdom shared a colour; Theodoric's monogram carved on a Ravenna capital), `lombard-league` (member cities of both leagues, English title and legend; the 1171 Porta Romana militia frieze) and `mecklenburg` (locator of 1250; the bull's head quartered with Rostock's griffin from Grünenberg's armorial of about 1483, cropped to Mecklenburg's own achievement — the page also shows Silesia's).
-   `scripts/lib/polity-arms-backlog.json` is now empty, so the gate covers every kingdom-type article with no exceptions.
-
-   **POLITY DATE SPANS SHIPPED 2026-09-16.** `LocationHero` shows "Active <year>–<endYear>" where an end is recorded and "Established <year>" where it is not, and the polity-type list it keys off now matches the arms gate's (a Sultanate, Duchy or Khanate had shown no dates at all). 31 polities carry an end year, researched against two sources each; 20 are deliberately unset because the realm ended in 1707–1946, is a continuing state, or the tempting medieval date is not an end (Castile 1230, Flanders 1384, Hungary, Navarre 1512). Owner decisions: Epirus 1449 (matching our timeline), the four articles whose `year` held a range split into clean start and end (Kievan Rus' 882–1240, Asturias 718–924, Córdoba 929–1031, North Sea Empire 1016–1035), and Aquitaine restarted at 507. The apply asserts that no polity with an end year still has a range in its start year. Several of these lead with a non-map image that becomes a section image.
-   - `lombard-league`
-   - `mecklenburg`
-   - `ostrogothic-kingdom`
-   - `abbasid-caliphate`
-   - `first-bulgarian-empire`
-   - `pechenegs`
-   - `cumans`
-   - `principality-of-achaea`
-   - `kingdom-of-east-anglia`
-   - `kingdom-of-york`
 0e. **OWNER REQUEST 2026-09-15 — CIVILIZATIONS, a new first-class archive
    category. The largest expansion the project has had.** The owner's full spec is
    **Appendix C** at the end of this file (3,429 lines;
