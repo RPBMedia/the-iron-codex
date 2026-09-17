@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
 | Article UI / UX | 0o | Appendix B | Nearly done — U0–U3, U5 and U7 shipped; U4 and U6 need a live page and are the owner's to verify |
-| Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles live.** Next: Phase 4 regional expansion, one region per batch |
+| Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles, 132/132 sections imaged.** Next: Phase 4 regional expansion, one region per batch |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 
@@ -1277,6 +1277,33 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    **Read `ostrogoths` first.** It is the article carrying the boundary rule
    against a realm article that already exists, so it is where people/state
    duplication would show.
+
+   **EVERY SECTION CARRIES AN IMAGE (owner rule, 2026-09-17, commit `4f79342`).**
+   114 images added so all 132 sections have one. `check-images.mjs` **hard-fails**
+   a civilization section with no image — armed after coverage was complete, and
+   proven both ways. Any new civilization article must ship fully imaged.
+
+   Practical notes for the next batch, each learned the hard way:
+   - **Commons rate-limits bursts.** A 429 is throttling, not a dead file. Pace
+     requests and retry; five images looked broken until checked serially.
+   - **Look at the image, never trust the filename.** Rejected in this batch: a
+     file named for the Arian Baptistery that is a photograph of a cat in a
+     doorway, a 20th-century imitation coin, a Codex Vigilanus folio of Adam and
+     Eve, and an Adrianople map labelling the combatants "Visigoth" — which
+     would have contradicted the very article arguing Tervingi ≠ Visigoths.
+   - **Agents working in parallel collide on images.** Two independently picked
+     the same Villani Totila miniature. Re-check reuse across the whole archive
+     immediately before committing, not only when each article is written.
+   - **A section image whose `section` does not exactly match a title renders
+     nowhere and reports nothing.** Gated, but check it.
+   - **Where no honest image exists, merge the section.** The no-filler rule
+     outranks the coverage rule, and the gate message says so.
+
+   **On prose length:** the target is "not exhausting to read", not a percentage.
+   A 20% cut was asked for and an agent delivered 5.7%, correctly refusing to go
+   further because what remained was named people, dates and source attributions.
+   Cut signpost sentences, self-referential asides, second hedges and duplicated
+   lists. Never cut facts to hit a number.
 
    **The boundary rule, as applied:** *if the sentence would still be true had a
    different dynasty ruled, it belongs to the people; if it depends on who was
