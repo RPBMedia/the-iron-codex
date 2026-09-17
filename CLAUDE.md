@@ -419,6 +419,48 @@ Never write as though every Scandinavian was a Viking. `culturalFamily` is
 deliberately not required for a phenomenon, because forcing one into a linguistic
 family is the rigid-category error the spec warns against.
 
+### Every section carries an image (owner rule, 2026-09-17)
+
+**Every single section of every civilization article must have an image about
+that section.** Not one lead image and a couple of section figures — every
+section. Reported on `vikings`, where nineteen sections carried three images and
+the page read as a wall of text.
+
+This **supersedes** the "1 main + 1–2 section images is the ceiling" line in the
+Major Figure Image Enrichment rules below. That ceiling still governs people,
+events and objects; civilizations are the exception, because these are long
+survey articles and the images are what make them navigable.
+
+**The image must be about THAT SECTION**, not about the civilization in general.
+A section on how they fought takes weapons or a battle depiction; a section on
+religion takes an amulet, a temple or a conversion scene; a section on trade
+takes a hoard, a coin or a market site. The existing bans still hold and are not
+softened by this rule: no decorative filler, nothing "vaguely medieval", no
+placeholder, no image reused from another article to fill a slot.
+
+**Where no genuinely relevant image exists, the section is wrong, not the rule.**
+Merge it into a neighbour, or restructure so the material sits under a heading
+something can illustrate. Never pad a section with a decorative image to satisfy
+this rule — that trades a wall of text for a wall of noise, and the no-filler
+standard outranks it.
+
+Captions follow the normal rules: name the medium and the date, never hedge with
+"medieval or later", two sentences maximum. Colour strongly preferred, subject
+large in the frame, no wide blank borders.
+
+### Length: these are read, not endured (owner rule, 2026-09-17)
+
+A civilization article is a survey and will be long, but **length must come from
+substance, not from saying a thing twice**. Reported alongside the image rule,
+on articles running to 40–58k characters of prose.
+
+When revising, take every chance to tighten while keeping the history intact:
+cut the sentence that restates the previous one, replace a clause hedging a
+point already hedged, and prefer the concrete detail over the general
+observation that introduces it. **Do not cut named people, dates, places,
+institutions or source attributions** — those are the substance, and the
+specificity rules still bind. What goes is connective padding, not content.
+
 ### Required fields
 
 `period`, `region` and `culturalFamily` drive the index filters — a missing value
@@ -1167,7 +1209,7 @@ Rules:
 - Images must never be decorative filler, "vaguely medieval" stock, placeholders, broken/unavailable files, or AI-generated fake historical portraits.
 - Every image needs accurate metadata: `src` (a renderable `Special:FilePath` URL or local asset), `caption`, `creator`, `date`, `source`, `sourceUrl` (the Commons file page), and an honest context `note` explaining what the image is and how reliable it is.
 - Later depictions, statues, tombs, coins, seals, maps, monuments, and associated places are acceptable when contemporary portraits do not exist — but the caption/note must say exactly what the image is ("19th-century history painting", "modern statue", "17th-century dynastic imagining"), never implying a later image is a portrait from life.
-- Verify every file against the Commons API (existence, dimensions, license) before shipping; do not overload articles — 1 main + 1–2 section images is the ceiling for now.
+- Verify every file against the Commons API (existence, dimensions, license) before shipping; do not overload articles — 1 main + 1–2 section images is the ceiling for now. **This ceiling does NOT apply to civilizations**, which require an image in every section — see the civilizations rules above.
 - Main and section images must render cleanly on desktop and mobile; captions sit below the image and must never cut into it (see "Image Caption and Layout Rules").
 - Where an image relates to another article (a battle, siege, polity), write the full entity name in the nearby section prose so the auto-linker resolves it — no dead links.
 
