@@ -1755,6 +1755,56 @@ function validatePersonTimeline(person) {
     }
   }
 
+  // Hard failure: a BATTLE LEADER named without a slug whose article exists.
+  //
+  // The third face of the same drift. Succession endpoints have had a check
+  // since Leo III's successor sat unlinked after M7 created Constantine V;
+  // houses got theirs on 2026-09-17; battle leaders had neither, so a commander
+  // who gained an article stayed plain text and nothing complained.
+  //
+  // Found the same day by shipping Sten Sture: battle-of-brunkeberg had recorded
+  // him as an unlinked `{name}` leader because he had no article when it was
+  // written, and nothing noticed when he got one. Five more were sitting in the
+  // same state — Boniface of Montferrat and Baldwin of Flanders on both Fourth
+  // Crusade articles, and John Balliol at Dunbar.
+  //
+  // AMBIGUOUS_BATTLE_LEADERS is the safety valve, and it is not decorative. The
+  // name "Baldwin of Flanders" is exactly the shape that made Courtenay's
+  // "Baldwin II" a wrong link: six Baldwins of Jerusalem sit in this archive. It
+  // was safe only because baldwin-i-latin-emperor carries that name as its OWN
+  // registered alias and the dates fit 1202-04. Verify before linking; when the
+  // answer is no, record it here with the reason rather than leaving a silent gap.
+  const AMBIGUOUS_BATTLE_LEADERS = new Set([])
+  const leaderIdByName = new Map()
+  for (const c of data.characters ?? []) {
+    for (const n of [c.name, ...(c.aliases ?? [])]) {
+      const k = normDyn(n)
+      if (!k) continue
+      // Only a clash when two DIFFERENT people answer to the name.
+      if (leaderIdByName.has(k) && leaderIdByName.get(k) !== c.id) leaderIdByName.set(k, null)
+      else leaderIdByName.set(k, c.id)
+    }
+  }
+  for (const event of data.events ?? []) {
+    for (const side of event.participants ?? []) {
+      for (const leader of side.leaders ?? []) {
+        if (leader.slug || leader.personId) continue
+        const name = leader.name ?? leader.title
+        const k = normDyn(name)
+        if (!k || AMBIGUOUS_BATTLE_LEADERS.has(`${event.id}|${k}`)) continue
+        const id = leaderIdByName.get(k)
+        if (!id) continue
+        findings.push({
+          collection: 'events',
+          article: event.name ?? event.id,
+          path: `participants leader "${name}"`,
+          pattern: `battle leader "${name}" matches an existing article (${id}) but is unlinked — verify it is the same person and add the slug, or record the reason in AMBIGUOUS_BATTLE_LEADERS`,
+          snippet: id
+        })
+      }
+    }
+  }
+
   // Hard failure: chronological sort dates for events that share a year.
   //
   // The events index sorts off `eventSortDates` in server/index.js, a

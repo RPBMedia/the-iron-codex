@@ -4,7 +4,8 @@
   "name": "Sten Sture the Elder",
   "aliases": [
     "Sten Sture den äldre",
-    "Sten Gustavsson Sture"
+    "Sten Gustavsson Sture",
+    "Sten Sture"
   ],
   "born": 1440,
   "died": 1503,
@@ -240,6 +241,14 @@
         "type": "person",
         "slug": "engelbrekt-engelbrektsson",
         "label": "Built the assembly machinery that elected him"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Brunkeberg",
+        "type": "event",
+        "slug": "battle-of-brunkeberg",
+        "label": "Commanded here"
       }
     ]
   },
