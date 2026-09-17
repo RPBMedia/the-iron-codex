@@ -1276,7 +1276,27 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    marked `[EXISTS: id]`/`[MISSING]` against the whole archive, Commons image
    candidates verified by eye rather than by filename, and source lists.
 
-   **Owner decisions these surfaced, needed before Phase 1 is assembled:**
+   **THE FIVE AMBIGUOUS CASES ARE DECIDED (owner, 2026-09-17).** The rule is
+   general and is now in `CLAUDE.md`: *a people is a civilization; the polity
+   they built, the region they held and the city they ruled from are all
+   locations.*
+
+   | Case | Resolution |
+   |---|---|
+   | **Seljuks** | A people → civilization. `seljuk-turks` is the *state* and becomes **Great Seljuk Empire** (it already carries that as an alias, so the rename mostly promotes it to the label). `house-of-seljuk` must give up `Seljuk`/`Seljuks`/`Seljuq` — a dynasty currently owns the ethnonym. 34 files reference `seljuk-turks`, so this is a slug migration with a 301, the same shape as Pechenegs. |
+   | **Turks** | A people → civilization, once the ethnonym is free. |
+   | **Romans** | A people → civilization, centred on Rome and the western empire while it mattered medievally. Rome stays a City; the Western Roman Empire stays a polity. |
+   | **Byzantines** | A **separate** civilization tied to Byzantium / the Eastern Roman Empire / Constantinople. Not merged with Romans. |
+   | **Lombards** | The Germanic people take the bare name → civilization. `lombardy` stays a Region, `lombard-league` a League. |
+   | **Andalusi** | A demonym derived *from* a place, not a people in its own right. No page; stays `al-andalus`, a Region. |
+   | **Moors** | A Christian exonym covering Arabs, Berbers and Andalusis together. Folds into those; never a page implying one group existed. |
+
+   Nothing in the archive currently claims `"Romans"`, `"Byzantines"` or
+   `"Eastern Romans"` as a link term, so those names are free — but **"Romans"
+   will need a guard**, because Byzantine prose uses the word constantly to mean
+   the Byzantines themselves.
+
+   **Still open (asked, not yet answered):**
    1. **The Ostrogoths/Ostrogothic Kingdom boundary.** The Gothic draft gives
       identity, the *saio* and *comes Gothorum*, language and material culture
       to the people, and leaves kings and campaigns to the realm. That split is
@@ -1285,9 +1305,7 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    2. **Metadata format.** The two drafts diverge — Gothic uses a Markdown
       table, Norse a YAML block — though the field names agree. Trivial to
       reconcile, but pick one before assembly.
-   3. The five `AMBIGUOUS` audit cases: `Turks`, `Seljuks`, `Moors`,
-      `Andalusi`, `Lombards`.
-   4. Whether to commit on the Goffart land-versus-tax settlement debate; the
+   3. Whether to commit on the Goffart land-versus-tax settlement debate; the
       draft flags it both times rather than picking.
 
    **Two philological claims to source-check before the Vikings article ships:**

@@ -349,6 +349,52 @@ Enforced mechanically where it can be: `validateCivilizationStandards` in
 `check-content-quality.mjs` hard-fails a civilization carrying `locationType`,
 and hard-fails one whose `name` exactly matches an existing location's.
 
+### The naming rule (owner decision, 2026-09-17)
+
+**A people is a civilization. The polity they built, the region they held and the
+city they ruled from are all locations.** One name, one article, and the article
+is whichever kind of thing the name actually denotes.
+
+| People → `civilizations` | Polity / region / city → `locations` |
+|---|---|
+| Seljuks | Great Seljuk Empire, Sultanate of Rum |
+| Romans | Rome, the Western Roman Empire |
+| Byzantines | Byzantine Empire, Constantinople |
+| Lombards | Lombardy, Lombard League |
+| Goths, Ostrogoths, Visigoths | Ostrogothic Kingdom, Visigothic Kingdom |
+| Franks | Francia, Frankish Kingdom |
+| Norse | Kingdom of Norway |
+
+**Romans and Byzantines are two civilizations, not one (owner decision,
+2026-09-17).** Romans is centred on Rome and the western empire for as long as
+that mattered in the medieval period — which in a 476–1453 archive means Roman
+identity surviving *under* barbarian rule: the senatorial families who served
+Theoderic, Roman law continuing for Romans, and the Gallo-, Hispano- and
+Italo-Roman identities beneath it. Byzantines is the separate civilization tied
+to Byzantium, the Eastern Roman Empire and Constantinople.
+
+**The Byzantines article must say, in its Names and Identity section, that they
+called themselves *Rhomaioi* — Romans** — and link across to the Romans page.
+Two pages named Romans and Byzantines otherwise read as a claim that the
+Byzantines were not Roman, which is the single commonest error about them and
+one the spec already warns against. Expect to need an `ambiguousEntityAliases`
+guard on "Romans", since the word appears constantly in Byzantine prose meaning
+the Byzantines themselves.
+
+This settles the case that prompted it: **`seljuk-turks` is an article named
+after a people but written as a state**, and it is the state. It becomes the
+Great Seljuk Empire and gives the ethnonym back.
+
+**Two corollaries, both from the same decision.**
+
+A demonym derived *from* a place is not a separate people. **Andalusi** means "of
+al-Andalus" — unlike Seljuks or Lombards, who are a people in their own right —
+so it stays the region article and gets no civilization page.
+
+An exonym covering several peoples is not a people either. **Moors** was a
+Christian label applied to Arabs, Berbers and Andalusis together; it folds into
+those, and never becomes a page that implies a single group existed.
+
 ### Audit before creating, always
 
 **Never duplicate an entity.** Before writing any civilization, search the
