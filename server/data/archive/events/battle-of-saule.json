@@ -1,0 +1,335 @@
+{
+  "id": "battle-of-saule",
+  "type": "event",
+  "name": "Battle of Saule",
+  "aliases": [
+    "Saule"
+  ],
+  "year": 1236,
+  "location": "Swampy ground at a river crossing in the land of Saule, most often placed near Jauniūnai in the Joniškis district of northern Lithuania",
+  "eventType": "Battle",
+  "conflict": "The Livonian crusade against Samogitia",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamps_of_Lithuania%2C_2011-31.jpg",
+  "imageInfo": {
+    "caption": "The battle on a Lithuanian postage stamp issued in 2011 for its 775th anniversary, showing a cavalry melee between the crusaders and the Samogitians.",
+    "creator": "Designed by A. Slapšys for the Post of Lithuania",
+    "date": "2011",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamps_of_Lithuania%2C_2011-31.jpg",
+    "note": "A modern commemorative design and not a historical source; no medieval picture of the battle exists. It is used here because the anniversary issue is itself part of how the victory is remembered in the Baltic states. Public domain."
+  },
+  "summary": "On 22 September 1236 the Samogitians and Semigallians trapped a crusading army in a swamp and destroyed the Livonian Brothers of the Sword, killing their master Volkwin and about fifty brother knights. The order could not recover, and in May 1237 what was left of it was absorbed into the Teutonic Order.",
+  "details": "The Sword-Brothers did not want the campaign. Volkwin told the pope his order was too weak for it, and went only because Gregory IX had proclaimed a crusade in February and a shipload of pilgrims from Holstein had arrived demanding a fight. The army was caught on the way home at a crossing where its heavy cavalry could not move, cut apart by light horsemen throwing javelins, and hunted by the Semigallians as it ran. The Livonian Rhymed Chronicle says only one crusader in ten got back to Riga.",
+  "factions": [
+    "Livonian Brothers of the Sword",
+    "Samogitians",
+    "Semigallians"
+  ],
+  "leaders": [
+    {
+      "name": "Volkwin",
+      "faction": "Crusader army"
+    },
+    {
+      "name": "The Samogitian war-leaders",
+      "faction": "Samogitian and Semigallian army"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Crusader army",
+      "factions": [
+        {
+          "name": "Livonian Brothers of the Sword",
+          "title": "Livonian Brothers of the Sword",
+          "type": "order",
+          "slug": "livonian-brothers-of-the-sword"
+        },
+        {
+          "name": "Pskov",
+          "note": "No article yet in this archive: the Rus’ republic that sent a contingent of about two hundred men with the crusaders."
+        },
+        {
+          "name": "Pilgrims from Holstein",
+          "note": "No article yet: the north German crusaders whose arrival at Riga forced the campaign, and who insisted on a battle."
+        },
+        {
+          "name": "Livonian, Latgallian and Estonian levies",
+          "note": "No article yet: subject peoples of the order’s own conquests, serving as auxiliaries and the first to leave the field."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Volkwin",
+          "type": "person",
+          "note": "Master of the Sword-Brothers from 1209, who argued against the campaign and was killed fighting on foot after his horse was cut down."
+        }
+      ],
+      "strength": {
+        "display": "About 3,000, including roughly 50 brother knights",
+        "confidence": "estimated",
+        "note": "The figure is a modern reconstruction from the known contingents rather than a chronicle total: the brothers themselves, townsmen from Riga, about two hundred men from Pskov and Navahrudak, the Holstein pilgrims, and levies of subject Livs, Latgallians and Estonians. The brothers are the number that mattered, because they were the professional core."
+      }
+    },
+    {
+      "side": "Samogitian and Semigallian army",
+      "factions": [
+        {
+          "name": "Samogitia",
+          "note": "No article yet: the western Lithuanian region that was the campaign’s target and remained unconquered for another two centuries."
+        },
+        {
+          "name": "Semigallia",
+          "note": "No article yet: the Baltic land south of the Daugava whose warriors cut off the retreat and then rose against the order themselves."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "The Samogitian war-leaders",
+          "type": "person",
+          "note": "No source of the battle names a commander on the winning side; the districts fought under their own elders."
+        },
+        {
+          "name": "Vykintas",
+          "type": "person",
+          "note": "A Samogitian duke often named as the victor, but only by inference from a later chronicle that says he killed many brothers; no source places him at the battle."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; no source gives a figure",
+        "confidence": "unknown",
+        "note": "The Livonian Rhymed Chronicle, which is the only substantial account, counts neither side. Figures of four or five thousand appear in reference works but have no source behind them. What the chronicle does describe is the tactical difference: light horsemen with javelins, on ground of their own choosing."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Saule was fought on 22 September 1236, the feast of Saint Maurice, when a returning crusader army was caught in marshy ground at a river crossing by the Samogitians and destroyed. The master of the Livonian Brothers of the Sword, Volkwin, was killed with about fifty of his brother knights — the professional core of an order that had perhaps a hundred and twenty in total. The Semigallians fell on the survivors as they fled.",
+        "No other defeat in the Baltic crusades did so much damage so quickly. Within months the Curonians, Semigallians, Selonians and Oeselians, all conquered within living memory, were in revolt, and roughly thirty years of conquest on the left bank of the Daugava were undone. The order itself simply ceased to exist: in May 1237 Pope Gregory IX folded its remnant into the Teutonic Order, and Livonia became the northern half of a two-province crusading state."
+      ]
+    },
+    {
+      "title": "The crusade Volkwin did not want",
+      "paragraphs": [
+        "By the 1230s the Sword-Brothers were in trouble. Founded at Riga in 1202 to give the bishopric a standing army, they had conquered the Livs, the Latgallians and much of Estonia, and had then fallen out with nearly everyone — with the bishops over the division of the conquered land, of which they kept the larger share, and with the papacy and the emperor over Estonia. Their finances were strained and their recruitment was thin.",
+        "On 19 February 1236 Gregory IX proclaimed a crusade against Lithuania. Volkwin’s reply was that his order was not strong enough and was at odds with the bishopric of Riga, which is a remarkable thing for a military order’s master to put in writing to a pope. He was overruled by circumstances rather than by argument: crusading pilgrims from Holstein arrived at Riga expecting the campaign they had taken the cross for, and would not be sent home without one.",
+        "The strategic aim was the one that governed the whole northern crusade for the next two centuries: to take the Samogitian coast and join Livonia to the Teutonic lands in Prussia. Saule was the first serious attempt on that corridor, and it failed so badly that the corridor was still open a hundred and seventy-four years later."
+      ]
+    },
+    {
+      "title": "The march and the swamp",
+      "paragraphs": [
+        "The army rode south into Samogitia and did what such armies did — burned settlements, took what could be carried, and turned for home before the weather closed in. The Samogitians gathered behind it and caught it at a river crossing on swampy ground on 22 September.",
+        "What happened next was argued over before it began. The Holstein crusaders refused to fight on foot in the marsh as evening came, on the grounds that they would lose their horses — the exact instinct that had killed heavy cavalry on soft ground from Courland to the Nile. The army halted for the night with the enemy in front of it and the bog around it. By morning the Samogitians had been reinforced and the position was hopeless."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The Livonian Rhymed Chronicle, written for the order two generations later, describes a one-sided killing. Lithuanian light cavalry threw javelins at short range into men who could not close with them or ride away, and the mail-clad knights, whose whole value lay in a charge they could not deliver, were shot and speared where they stood. In the swamp, the chronicler says, they could offer only weak resistance and were cut down like women.",
+        "The same source, hostile to the pilgrims and loyal to the brothers, keeps its respect for how the master died: Volkwin and his brothers fought until their horses were killed under them and then went on fighting on foot. The native auxiliaries broke and ran early, which the chronicler blames them for without noticing that they had less reason than anyone to die for the order.",
+        "The retreat was worse than the battle. The Semigallians, subjects of the order who were about to stop being subjects, waited on the road back and killed the fugitives as they came. Of the whole army, by the chronicle’s account, only one man in ten reached Riga. Casualty figures for the brothers themselves range from forty-eight to sixty, with a hundred and eighty men lost from the Pskov contingent alone."
+      ]
+    },
+    {
+      "title": "The end of the Sword-Brothers",
+      "paragraphs": [
+        "An order that had lost its master and half its knights in one afternoon could not hold a conquered province against a general rising, and the rising came at once. The survivors sent to Rome to ask for the merger they had resisted for years, and in May 1237 Gregory IX announced the incorporation in four letters — to the Teutonic Order, to its grand master Hermann von Salza, to the papal legate William of Modena, and to the bishops of Riga, Dorpat and Ösel. That summer Hermann Balk, the master of Prussia, rode into Riga to install his own men as commanders and administrators.",
+        "The Sword-Brothers thus became the Livonian Order, a largely self-governing branch of the Teutonic Order with its own master, and the Baltic crusade acquired the shape it kept until 1561: one institution holding two separated provinces, Prussia and Livonia, with pagan Samogitia between them. Every later campaign in this war, including the one that ended at Durbe in 1260, was in some sense an attempt to close that gap."
+      ]
+    },
+    {
+      "title": "The battle in the sources",
+      "paragraphs": [
+        "Almost everything above rests on one text: the Livonian Rhymed Chronicle, composed for the order in the 1290s, sixty years after the event. Hermann de Wartberge later located the battle in the terram Sauleorum, the land of the Saules, which is where the name comes from. There is no Lithuanian account at all, because thirteenth-century Lithuania did not write.",
+        "That has two consequences worth stating plainly. The first is that the winners are anonymous. The Samogitian duke Vykintas is regularly named as the victorious commander, and the attribution dates from the second half of the nineteenth century, resting on a remark in the Halych-Volhynian Chronicle that he had killed many brothers. No source of the battle names any commander on the pagan side, and it is likely the districts fought under their own elders rather than a single leader.",
+        "The second is that nobody is sure where it happened. Saule was long identified with Šiauliai, and a rival tradition placed it at Vecsaule near Bauska in Latvia. In 1965 Friedrich Benninghoven argued for Jauniūnai in the Joniškis district, at the confluence of the Mūša and the Tautinis, and that identification now has most support and a state-backed memorial; Edvardas Gudavičius argued instead for a site much further southwest, near Laukuva and Tverai, and the village of Pamūšis has its own claim. A battle whose location is disputed by a hundred kilometres is a reminder of how thin the evidence for the northern crusade’s early decades is.",
+        "What is not in doubt is the result, because the institutional consequence is documented in the papal chancery. An order that existed in September 1236 did not exist by the following summer."
+      ]
+    },
+    {
+      "title": "Baltic Unity Day",
+      "paragraphs": [
+        "The battle has had an unusually active afterlife. Because Samogitians and Semigallians — ancestors of modern Lithuanians and Latvians respectively — fought it side by side against a German crusading order, it became a natural symbol for both nations during and after the Soviet period. In 2000 the Lithuanian and Latvian parliaments jointly declared 22 September to be Baltic Unity Day.",
+        "The commemoration has concentrated on the Jauniūnai site, where the victory field was listed as a monument in 1987 and where a memorial has been built and re-enactments staged on the anniversary. It is worth keeping the two things apart: the modern memory is unambiguous and national, while the medieval evidence is a single chronicle written by the losers, in which the winners have no names."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Baltic Unity Day",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/2011_09_22Jauniunai11.JPG",
+      "caption": "A re-enactment of the battle staged at Jauniūnai in the Joniškis district, photographed on the anniversary in September 2011.",
+      "creator": "Photograph by Rimantas Lazdynas",
+      "date": "22 September 2011 photograph",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_09_22Jauniunai11.JPG",
+      "note": "Modern living history, not evidence for the battle: the equipment is reconstructed and the site itself is the most widely accepted of several competing identifications. Licensed CC BY-SA 3.0."
+    }
+  ],
+  "battleContinuity": {
+    "label": "The same enemy, a generation later",
+    "battleSlug": "battle-of-durbe",
+    "relationship": "same-factions",
+    "reason": "Saule destroyed the Sword-Brothers and forced their remnant into the Teutonic Order; twenty-four years later the Samogitians did almost the same thing to their successors at Durbe, killing both provincial commanders and setting off the Great Prussian Uprising."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Mindaugas",
+        "type": "person",
+        "slug": "mindaugas",
+        "label": "Rose to sole rule in Lithuania as the order collapsed"
+      },
+      {
+        "title": "Pope Gregory IX",
+        "type": "person",
+        "slug": "pope-gregory-ix",
+        "label": "Proclaimed the crusade, then dissolved the order into the Teutonic Order"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The Samogitians repeat the feat in 1260"
+      },
+      {
+        "title": "Battle of Bornhöved",
+        "type": "event",
+        "slug": "battle-of-bornhoved",
+        "label": "The Baltic shift that sent north German crusaders east"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Livonian Brothers of the Sword",
+        "type": "order",
+        "slug": "livonian-brothers-of-the-sword",
+        "label": "Destroyed here as an institution"
+      },
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order",
+        "label": "The successor created by the 1237 merger"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Absorbed the survivors and inherited Livonia"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "The pagan power whose resistance the victory secured"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1202",
+      "title": "The order founded",
+      "description": "Bishop Albert of Riga establishes the Sword-Brothers to give the Livonian mission a standing army."
+    },
+    {
+      "date": "1209–1236",
+      "title": "Volkwin's mastership",
+      "description": "The order conquers the Livs, Latgallians and much of Estonia, and quarrels with the bishops over the spoils."
+    },
+    {
+      "date": "19 February 1236",
+      "title": "The crusade proclaimed",
+      "description": "Gregory IX calls a crusade against Lithuania; Volkwin replies that his order is too weak to mount it."
+    },
+    {
+      "date": "Summer 1236",
+      "title": "The Holstein pilgrims arrive",
+      "description": "North German crusaders reach Riga and demand the campaign they have taken the cross for."
+    },
+    {
+      "date": "September 1236",
+      "title": "The raid into Samogitia",
+      "description": "The army burns its way south and turns for home before the autumn weather."
+    },
+    {
+      "date": "21 September 1236",
+      "title": "Caught at the crossing",
+      "description": "The Holstein contingent refuses to fight on foot in the marsh, and the army halts for the night."
+    },
+    {
+      "date": "22 September 1236",
+      "title": "The army destroyed",
+      "description": "Samogitian light horse cut the crusaders apart in the swamp; Volkwin and about fifty brothers are killed."
+    },
+    {
+      "date": "22 September 1236",
+      "title": "The pursuit",
+      "description": "Semigallians kill the fugitives on the road north; by the chronicle account one crusader in ten reaches Riga."
+    },
+    {
+      "date": "1236–1237",
+      "title": "The Baltic rises",
+      "description": "Curonians, Semigallians, Selonians and Oeselians revolt, reversing thirty years of conquest south of the Daugava."
+    },
+    {
+      "date": "May 1237",
+      "title": "The order dissolved",
+      "description": "Gregory IX announces the incorporation into the Teutonic Order in four letters; the remnant becomes the Livonian Order."
+    },
+    {
+      "date": "Summer 1237",
+      "title": "Hermann Balk in Riga",
+      "description": "The master of Prussia arrives to install Teutonic commanders in the Livonian castles."
+    },
+    {
+      "date": "2000",
+      "title": "Baltic Unity Day",
+      "description": "Lithuania and Latvia jointly declare 22 September a commemoration of the shared victory."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Stamps_of_Lithuania%2C_2011-31.jpg"
+    },
+    {
+      "title": "Battle of Saule — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Saule"
+    },
+    {
+      "title": "The Mythology of the Battle of Saule — Orbis Lituaniae, Vilnius University",
+      "author": "Orbis Lituaniae",
+      "type": "academic resource",
+      "url": "https://www.ldkistorija.lt/the-mythology-of-the-battle-of-saule/"
+    },
+    {
+      "title": "Livonian Brothers of the Sword — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Livonian_Brothers_of_the_Sword"
+    },
+    {
+      "title": "Livonian Order — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Livonian_Order"
+    },
+    {
+      "title": "The Livonian Rhymed Chronicle",
+      "type": "primary source",
+      "url": "https://en.wikipedia.org/wiki/Livonian_Rhymed_Chronicle"
+    }
+  ]
+}

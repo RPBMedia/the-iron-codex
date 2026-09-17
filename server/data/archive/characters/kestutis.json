@@ -244,6 +244,20 @@
         "slug": "teutonic-order",
         "label": "His enemy for forty years"
       }
+    ],
+    "events": [
+      {
+        "title": "Battle of Strėva",
+        "type": "event",
+        "slug": "battle-of-streva",
+        "label": "The 1348 defeat in which his brother Narimantas was killed"
+      },
+      {
+        "title": "Battle of Rudau",
+        "type": "event",
+        "slug": "battle-of-rudau",
+        "label": "The Order’s costliest victory over him, 1370"
+      }
     ]
   },
   "sectionImages": [

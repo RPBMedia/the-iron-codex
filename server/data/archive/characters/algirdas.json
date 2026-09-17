@@ -240,6 +240,20 @@
         "slug": "teutonic-order",
         "label": "The western enemy Kęstutis held for him"
       }
+    ],
+    "events": [
+      {
+        "title": "Battle of Blue Waters",
+        "type": "event",
+        "slug": "battle-of-blue-waters",
+        "label": "His victory of 1362, which took the Kyiv lands from the Horde"
+      },
+      {
+        "title": "Battle of Rudau",
+        "type": "event",
+        "slug": "battle-of-rudau",
+        "label": "His 1370 defeat in Samland, fought beside Kęstutis"
+      }
     ]
   },
   "sectionImages": [

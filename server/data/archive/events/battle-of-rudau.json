@@ -1,0 +1,319 @@
+{
+  "id": "battle-of-rudau",
+  "type": "event",
+  "name": "Battle of Rudau",
+  "aliases": [
+    "Rudau"
+  ],
+  "year": 1370,
+  "location": "Near Rudau in Samland, about seventeen kilometres north of Königsberg; now Melnikovo in the Kaliningrad region",
+  "eventType": "Battle",
+  "conflict": "The Teutonic Order's crusade against Lithuania",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Winrich_von_Kniprode.jpg",
+  "imageInfo": {
+    "caption": "Winrich von Kniprode, the grand master who commanded at Rudau, in Rudolf Siemering’s bronze statue of 1876 at Malbork castle, photographed in 2005.",
+    "creator": "Statue by Rudolf Siemering; photograph by Jan Jerszyński",
+    "date": "Statue cast in 1876; photographed in 2005",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winrich_von_Kniprode.jpg",
+    "note": "A nineteenth-century Prussian commemoration rather than a likeness: no contemporary portrait of Kniprode exists, and the statue belongs to the romantic restoration of Malbork that made the Order a German national symbol. Licensed CC BY-SA 2.5."
+  },
+  "summary": "On 17 February 1370 Algirdas and Kęstutis took an army into Samland and were beaten by the Teutonic Order at Rudau, north of Königsberg. The Order’s marshal Henning Schindekop was killed winning it, and no Lithuanian army seriously threatened Prussia again in that century.",
+  "details": "The Lithuanians opened the campaign by storming and burning the castle at Rudau, which forced the grand master Winrich von Kniprode to come out and fight rather than wait behind walls. The battle that followed was hard enough that the Order’s own chroniclers, normally expansive about their victories, say almost nothing about how it was won — and Kniprode founded a convent in thanksgiving, which is not what commanders do after easy days.",
+  "factions": [
+    "Teutonic Order",
+    "Grand Duchy of Lithuania"
+  ],
+  "leaders": [
+    {
+      "name": "Winrich von Kniprode",
+      "faction": "Order army"
+    },
+    {
+      "name": "Henning Schindekop",
+      "faction": "Order army"
+    },
+    {
+      "name": "Algirdas",
+      "faction": "Lithuanian army",
+      "personId": "algirdas"
+    },
+    {
+      "name": "Kęstutis",
+      "faction": "Lithuanian army",
+      "personId": "kestutis"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Order army",
+      "factions": [
+        {
+          "name": "Teutonic Order",
+          "title": "Teutonic Order",
+          "type": "order",
+          "slug": "teutonic-order"
+        },
+        {
+          "name": "Livonian Order",
+          "title": "Livonian Order",
+          "type": "order",
+          "slug": "livonian-order"
+        },
+        {
+          "name": "Crusading guests from western Europe",
+          "note": "No article yet: the foreign nobles wintering in Prussia for the season’s campaign, who fought as a distinct contingent."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Winrich von Kniprode",
+          "type": "person",
+          "note": "Grand master 1352–1382; the victory was reckoned the high point of his thirty-year rule."
+        },
+        {
+          "name": "Henning Schindekop",
+          "type": "person",
+          "note": "Marshal of the Order, mortally wounded in the fighting and dead before he reached Königsberg."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; chronicle totals near 40,000 are impossible and modern estimates run to about 10,000",
+        "confidence": "debated",
+        "note": "The Order’s state could not field forty thousand men and never did. German scholarship reconstructs something near ten thousand — brother knights, Prussian levies, western guests and a Livonian contingent — but the reconstruction is inference from what the Order could raise, not a figure from a source."
+      }
+    },
+    {
+      "side": "Lithuanian army",
+      "factions": [
+        {
+          "name": "Grand Duchy of Lithuania",
+          "title": "Grand Duchy of Lithuania",
+          "type": "location",
+          "slug": "grand-duchy-of-lithuania"
+        },
+        {
+          "name": "Samogitia",
+          "note": "No article yet: the western Lithuanian region the whole war was fought over, which supplied a large part of the army."
+        },
+        {
+          "name": "Tatar allies",
+          "note": "No article yet: horsemen from the steppe lands Algirdas had brought under Lithuanian authority, noted by the chroniclers as a distinct contingent."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Algirdas",
+          "type": "person",
+          "slug": "algirdas"
+        },
+        {
+          "name": "Kęstutis",
+          "type": "person",
+          "slug": "kestutis"
+        },
+        {
+          "name": "Vaišvilas",
+          "type": "person",
+          "note": "A Lithuanian noble presumed killed in the battle; nothing else about him is recorded."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; estimates range from about 2,000–3,000 to about 17,000",
+        "confidence": "debated",
+        "note": "The chronicles claim seventy thousand, which is fantasy. Beyond that the modern literature genuinely disagrees: English-language summaries argue for a few thousand on the grounds of what a raid of this kind involved, while German reconstructions allow up to seventeen thousand. The gap is a real scholarly disagreement, not a rounding difference."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Rudau was fought on 17 February 1370 — some Lithuanian accounts give the 18th — near the village of Rudau in Samland, about seventeen kilometres north of Königsberg. A Lithuanian army under the brothers Algirdas and Kęstutis had pushed into the Order’s Prussian heartland and taken the castle there; the grand master Winrich von Kniprode came out to meet it and won. The marshal of the Order, Henning Schindekop, was mortally wounded in the process.",
+        "It was the last time in the fourteenth century that a Lithuanian army was a serious danger to Prussia itself, and the Order treated it accordingly — as the vindication of the crusade and the summit of Kniprode’s long mastership. What it did not do was end the war, which ran on for another forty years until the Order took its own catastrophe at Grunwald in 1410."
+      ]
+    },
+    {
+      "title": "The war of raids",
+      "paragraphs": [
+        "Rudau came out of a period of unusually hard fighting. The Order had destroyed the brick castle at Kaunas after a siege in 1362 and taken Kęstutis prisoner in 1361, only for him to escape from Marienburg the following year, by one account in a Teutonic mantle. Between 1362 and 1370 the crusaders ran some twenty punitive expeditions into Lithuania. In August 1369 they burned a Lithuanian fort and killed more than a hundred of its people, and during truce talks Kęstutis warned them plainly that this would be answered.",
+        "The answer came in February 1370, and it was not a raid in the usual sense. Rather than burning a border district, the brothers took their army deep into Samland, the Order’s own core province, and attacked the castle at Rudau — close enough to Königsberg that the grand master could not ignore it without conceding that he could not defend his own country. They stormed and burned it. That was the point: to make the Order fight in the open."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Kniprode marched out and the armies met near the burned castle. The reconstructed course of the fighting, pieced together from later German accounts, has the Order’s cavalry riding over the Ruthenian foot on the Lithuanian left, the western crusading guests then pinned by Tatar archery on a flank, and a hard struggle in the centre where the Lithuanian horse had the better of it — until the Livonian and Danish-Estonian contingent drove off the Tatars and the guests came round onto the flank of Kęstutis’s cavalry and broke it.",
+        "It is worth saying how insecure that narrative is. The contemporary Teutonic sources, which are rarely shy about describing their victories, give almost no detail about how this one was won — an omission historians have found telling. The circumstantial evidence points the same way: the Order’s marshal was killed, and Kniprode founded an Augustinian convent at Heiligenbeil in thanksgiving to the Virgin for the victory. Neither is characteristic of a comfortable afternoon.",
+        "Afterwards Algirdas pulled his men into woodland and threw up timber barricades rather than retreat in the open, and Kęstutis withdrew into Lithuania. Casualty figures are as unreliable as everything else: the Order admitted twenty-six brother knights and something between one and three hundred other men, while German tradition counts about two hundred knights and three thousand in all, and the Lithuanian losses of nine thousand or more that the chronicles claim are rejected by modern scholars for the usual reason — Lithuania was campaigning again within the year."
+      ]
+    },
+    {
+      "title": "Hans von Sagan",
+      "paragraphs": [
+        "Königsberg remembered Rudau through a story about a shoemaker’s apprentice. When the Order’s banner fell with its bearer, so the tale goes, an apprentice named Hans von Sagan picked it up and held it aloft, rallying the line; for this he was ennobled — by the grand master in some versions, by the Emperor Charles IV in others — and the shoemakers of Königsberg were granted privileges that they were still citing centuries later.",
+        "The story is not good evidence for the battle, and its details shift with each telling, which is the signature of civic legend rather than record. It is very good evidence for something else: that Rudau mattered enormously to the city that lay a day’s ride from the field, and that the memory of the battle was cultivated there. It also quietly suggests the fight was closer than the official account allowed — a victory needs no rescued banner."
+      ]
+    },
+    {
+      "title": "After Rudau",
+      "paragraphs": [
+        "The strategic result was narrow but real. Lithuanian armies did not again penetrate to the neighbourhood of Königsberg in that century, and the Order kept the initiative in Prussia for the rest of Kniprode’s life. He died in 1382 after thirty years as grand master, remembered in the Order’s own tradition as the ruler under whom the Prussian state reached its height — the builder-administrator of Marienburg and the victor of Rudau.",
+        "What the victory did not change was the shape of the war. Samogitia, the land corridor between Prussia and Livonia that the Order had been trying to take since the 1230s, remained unconquered. Algirdas died in 1377 and Kęstutis was killed in 1382 in the succession struggle with his nephew Jogaila; three years later Jogaila’s marriage and the union with Poland removed the crusade’s justification at a stroke, and twenty-five years after that the Order lost its grand master and its field army at Grunwald."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The war of raids",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Teutonic_state_1455_with_Battle_of_Rudau_(2).png",
+      "caption": "The Teutonic Order’s state between 1308 and 1455 on a modern historical map, with Rudau marked in red on the Samland coast north of Königsberg.",
+      "creator": "Map by the Wikimedia contributors Space Cadet and Magister",
+      "date": "2007 map showing the years 1308 to 1455",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teutonic_state_1455_with_Battle_of_Rudau_(2).png",
+      "note": "A modern reconstruction, and it shows the Order’s territory at its fullest extent rather than in 1370: Samogitia, the gap between Prussia and Livonia that the war was about, is marked as held only from 1398. Public domain."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Forward to the Order’s reckoning",
+    "battleSlug": "battle-of-grunwald",
+    "relationship": "same-war",
+    "reason": "Rudau was the height of the Order’s war against pagan Lithuania; forty years later the same enemy came back Christian and allied to Poland, and at Grunwald the Order lost its grand master, its field army and the initiative it had held since this victory."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Algirdas",
+        "type": "person",
+        "slug": "algirdas",
+        "label": "Commanded the Lithuanian army with his brother"
+      },
+      {
+        "title": "Kęstutis",
+        "type": "person",
+        "slug": "kestutis",
+        "label": "His cavalry was broken in the decisive flank attack"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Strėva",
+        "type": "event",
+        "slug": "battle-of-streva",
+        "label": "The war’s earlier pitched battle, 1348"
+      },
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "The Order’s ruin, forty years later"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Won the battle and lost its marshal"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Its last deep raid into Prussia that century"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1361",
+      "title": "Kęstutis captured",
+      "description": "The Order takes the Lithuanian co-ruler prisoner; he escapes from Marienburg the following year."
+    },
+    {
+      "date": "1362",
+      "title": "Kaunas destroyed",
+      "description": "The crusaders take the brick castle on the Neman after a siege, opening the river line."
+    },
+    {
+      "date": "1362–1370",
+      "title": "Twenty punitive expeditions",
+      "description": "The Order raids Lithuania roughly twice a year through the decade."
+    },
+    {
+      "date": "August 1369",
+      "title": "The fort burned",
+      "description": "Crusaders destroy a Lithuanian fort and kill more than a hundred of its people; Kęstutis warns of a reply during truce talks."
+    },
+    {
+      "date": "February 1370",
+      "title": "Into Samland",
+      "description": "Algirdas and Kęstutis march into the Order’s own province rather than raiding the border."
+    },
+    {
+      "date": "February 1370",
+      "title": "Rudau castle stormed",
+      "description": "The Lithuanians take and burn the castle, forcing Kniprode to come out and fight."
+    },
+    {
+      "date": "17 February 1370",
+      "title": "The battle",
+      "description": "The Order breaks the Lithuanian line after a hard fight; Algirdas barricades himself in woodland and Kęstutis withdraws."
+    },
+    {
+      "date": "17 February 1370",
+      "title": "Schindekop mortally wounded",
+      "description": "The marshal is struck down and dies before reaching Königsberg."
+    },
+    {
+      "date": "After 1370",
+      "title": "The convent at Heiligenbeil",
+      "description": "Kniprode founds an Augustinian house in thanksgiving to the Virgin for the victory."
+    },
+    {
+      "date": "1382",
+      "title": "Kniprode dies",
+      "description": "The grand master ends thirty years in office remembered for Marienburg and for this battle."
+    },
+    {
+      "date": "1385",
+      "title": "The union with Poland",
+      "description": "Jogaila’s marriage and baptism remove the crusade’s justification, though the Order disputes its sincerity at Rome."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Winrich_von_Kniprode.jpg"
+    },
+    {
+      "title": "Battle of Rudau — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Rudau"
+    },
+    {
+      "title": "Schlacht bei Rudau — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_bei_Rudau"
+    },
+    {
+      "title": "Lithuanian Crusade — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lithuanian_Crusade"
+    },
+    {
+      "title": "Winrich von Kniprode — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Winrich_von_Kniprode"
+    }
+  ]
+}

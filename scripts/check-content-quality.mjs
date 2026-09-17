@@ -54,7 +54,7 @@ const BATTLE_BACKLOG = new Set([
   'battle of toro', 'battle of valverde',
   'battle of visby',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
-  'battle of ars', 'battle of visby finds', 'battle of visby find',
+  'battle of ars', 'battle of str', 'battle of visby finds', 'battle of visby find',
   // Found 2026-09-16 by the bare-name check below: real engagements the archive
   // names without the words "Battle of", so the phrase regex never saw them.
   // Written 2026-09-16 and removed from this list: ain jalut, cortenuova,
@@ -84,10 +84,10 @@ const BATTLE_BACKLOG = new Set([
   // Blue Waters is the strongest candidate of the five for a full article: the
   // first serious reversal the Horde suffered in the Rus' lands, eighteen years
   // before Kulikovo.
-  'battle of blue waters', 'battle of saule',
-  'battle of rudau', 'battle of strėva',
+  
+  
   'battle of the trent', 'battle of velbazhd',
-  'battle of the zab', 'battle of bornhöved',
+  'battle of the zab', 
   'battle of åsle', 'battle of épila',
 ])
 // Name particles that may sit BETWEEN capitalised name-words (not swallow the

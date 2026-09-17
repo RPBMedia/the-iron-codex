@@ -386,7 +386,12 @@ const eventSortDates = {
   'battle-of-durbe': { year: 1260, month: 7, day: 13 },
   'battle-of-ain-jalut': { year: 1260, month: 9, day: 3 },
   'battle-of-ankara': { year: 1402, month: 7, day: 28 }, // 28 July is the usual modern date; some reference works give 20 July
-  'battle-of-homildon-hill': { year: 1402, month: 9, day: 14 }
+  'battle-of-homildon-hill': { year: 1402, month: 9, day: 14 },
+  // Baltic battle batch. Saule (22 September 1236) shares its year with the
+  // conquest of Córdoba (29 June 1236), so BOTH need an entry: an event missing
+  // from this map sorts to 1 January and jumps ahead of its year-mates.
+  'battle-of-saule': { year: 1236, month: 9, day: 22 },
+  'conquest-of-cordoba': { year: 1236, month: 6, day: 29 }
 }
 
 function numericYear(value) {

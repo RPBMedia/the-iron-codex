@@ -1,0 +1,309 @@
+{
+  "id": "battle-of-blue-waters",
+  "type": "event",
+  "name": "Battle of Blue Waters",
+  "aliases": [
+    "Blue Waters",
+    "Syni Vody"
+  ],
+  "year": 1362,
+  "location": "On the Syniukha, a left tributary of the Southern Bug, usually placed near Torhovytsia in the Kirovohrad region of central Ukraine",
+  "eventType": "Battle",
+  "conflict": "Lithuanian expansion into the Rus' lands during the Horde's Great Troubles",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stamps_of_Lithuania%2C_2012-25.jpg",
+  "imageInfo": {
+    "caption": "Algirdas beside a map of the campaign, on a Lithuanian postage stamp issued in 2012 for the six hundred and fiftieth anniversary of the battle.",
+    "creator": "Designed by Martynas Gribauskas for Lietuvos paštas",
+    "date": "2012",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamps_of_Lithuania%2C_2012-25.jpg",
+    "note": "A modern commemorative design, not a historical source: no likeness of Algirdas survives and the stamp’s helmeted figure is an invention. It is reproduced here for what it shows about how the battle is remembered in Lithuania. Public domain."
+  },
+  "summary": "In the autumn of 1362 Algirdas of Lithuania beat three princes of the western Golden Horde on the Syniukha in what is now central Ukraine, and the Kyiv and Podolian lands passed out of the Horde’s control into his. It is the first serious reversal the Horde suffered in the Rus’ lands, eighteen years before Kulikovo — and the worst-documented major battle in this archive.",
+  "details": "The engagement is real: a chronicler writing in the 1390s records that Algirdas laid waste Blue Waters. Almost everything else — the deployment, the three named emirs, the numbers, even the year — comes from Lithuanian chronicles compiled seventy years later for a territorial argument, and from Maciej Stryjkowski, who wrote in 1582. The consequences are not in doubt: Kyiv went to Algirdas’s son Volodymyr and Podolia to his nephews, and Lithuania reached the Black Sea steppe.",
+  "factions": [
+    "Grand Duchy of Lithuania",
+    "Golden Horde"
+  ],
+  "leaders": [
+    {
+      "name": "Algirdas",
+      "faction": "Lithuanian army",
+      "personId": "algirdas"
+    },
+    {
+      "name": "Qutlugh Bugha",
+      "faction": "Horde army"
+    },
+    {
+      "name": "Hacıbey",
+      "faction": "Horde army"
+    },
+    {
+      "name": "Dmytro",
+      "faction": "Horde army"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Lithuanian army",
+      "factions": [
+        {
+          "name": "Grand Duchy of Lithuania",
+          "title": "Grand Duchy of Lithuania",
+          "type": "location",
+          "slug": "grand-duchy-of-lithuania"
+        },
+        {
+          "name": "The Rus' principalities under Lithuanian rule",
+          "note": "No article yet: the Ruthenian lands of the middle Dnieper, whose levies made up much of the army."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Algirdas",
+          "type": "person",
+          "slug": "algirdas"
+        },
+        {
+          "name": "The sons of Karijotas",
+          "type": "person",
+          "note": "Algirdas’s nephews, the Koriatovych princes, who were given Podolia after the campaign; the later chronicles name Yurii, Oleksandr, Kostiantyn and Fiodor."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; modern accounts guess about 20,000–25,000",
+        "confidence": "unknown",
+        "note": "No medieval source gives a figure for either army. The numbers repeated in reference works are modern reconstructions built on the assumed size of Algirdas’s realm, not on evidence, and should not be read as estimates in the ordinary sense."
+      }
+    },
+    {
+      "side": "Horde army",
+      "factions": [
+        {
+          "name": "Golden Horde",
+          "note": "No article yet in this archive: the western wing of the Horde, then in the succession war its own chroniclers called the Great Troubles."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Qutlugh Bugha",
+          "type": "person",
+          "note": "One of the three princes of the western Horde said to have been killed in the battle; known only from the later chronicles."
+        },
+        {
+          "name": "Hacıbey",
+          "type": "person",
+          "note": "The second of the three; the Black Sea anchorage later called Hacıbey, on the site of Odesa, carries the same name."
+        },
+        {
+          "name": "Dmytro",
+          "type": "person",
+          "note": "The third, whose Christian name suggests a Horde commander of the Rus’ borderland rather than a Chinggisid."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; modern accounts guess about 10,000–20,000",
+        "confidence": "unknown",
+        "note": "As with the Lithuanian side, no source counts them. What the sources do imply is that this was a regional force of the Horde’s western wing rather than a khan’s army: no khan was present, and the Horde was fighting itself at the time."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Blue Waters was fought in the autumn of 1362 on the Syniukha, a tributary of the Southern Bug in what is now central Ukraine, between Algirdas of Lithuania and the forces of three princes of the western Golden Horde. Algirdas won, the three princes were killed, and the Kyiv lands, Podolia and the steppe corridor towards the Black Sea passed under Lithuanian rule. It was the first time since the invasions of the 1240s that a European ruler took territory from the Horde and kept it.",
+        "It is also, by some distance, the most thinly evidenced battle in this archive. A single sentence written about thirty years afterwards says that Algirdas laid waste Blue Waters. The tactical account everyone quotes — six divisions in a crescent, Tatar archery, a Lithuanian charge that broke the line — was written in 1582 by Maciej Stryjkowski, two hundred and twenty years later. The article below keeps those two things apart, because the difference between them is the whole historical problem."
+      ]
+    },
+    {
+      "title": "Why the Horde was weak",
+      "paragraphs": [
+        "Berdi Beg Khan died in 1359 and the Golden Horde fell into a succession war that lasted until 1381 and that Rus’ chroniclers called the Great Troubles. Khans were raised and murdered in quick succession, the Volga and the western steppe fell to different factions, and real power in the west passed to the emir Mamai, who ruled through puppet khans and could not compel the princes of the Dnieper frontier.",
+        "That is the opening Algirdas used. The Kyiv lands had been tributary to the Horde since the 1240s, with Lithuanian influence growing there for a generation; what the Horde still had was the right to collect and the ability to punish. Between 1359 and 1362 it lost the second, and the first went with it. Blue Waters is best understood not as the moment a great empire was beaten in the field, but as the moment its western frontier was tested and found to be unheld."
+      ]
+    },
+    {
+      "title": "Algirdas moves south",
+      "paragraphs": [
+        "Algirdas had ruled since 1345 in a partnership with his brother Kęstutis that lasted thirty-two years without breaking: Kęstutis held the west and fought the Teutonic Order every year, which left Algirdas free to spend his reign facing east and south. That division of labour is the precondition for this campaign. A grand duke fighting on both fronts at once could not have marched to the Southern Bug.",
+        "The army that went south was accordingly a Lithuanian-Ruthenian one, drawn from the Rus’ principalities already under Algirdas’s authority as much as from Lithuania proper, and it was accompanied by the sons of his brother Karijotas, who would be installed in Podolia afterwards. The target was the belt of steppe between the Dnieper and the Dniester held by three Horde princes whom the later sources name Qutlugh Bugha, Hacıbey and Dmytro."
+      ]
+    },
+    {
+      "title": "The battle as Stryjkowski tells it",
+      "paragraphs": [
+        "The account that fills the reference works runs as follows. Algirdas drew up in six divisions in a curved line so that the Tatar horse archers could not work round his flanks. The Horde opened with archery, which did little against a formation that did not stay to absorb it; the Lithuanian and Ruthenian spearmen went forward, the Karijotas brothers struck the wings with crossbows, and the Horde line lost its cohesion and broke. The three princes were killed in the rout.",
+        "Every element of that is plausible and none of it is contemporary. It is the version of Maciej Stryjkowski, printed in 1582, and Stryjkowski is a writer who composed battles as much as he recorded them. The crescent deployment against encirclement is a piece of sixteenth-century military thinking; crossbows in the hands of Lithuanian princes on the steppe in 1362 are possible but unattested elsewhere. The honest position is that we know Algirdas won and do not know how."
+      ]
+    },
+    {
+      "title": "Kyiv and Podolia",
+      "paragraphs": [
+        "The consequences are firmer than the battle, because they are visible in charters and in who governed what afterwards. Algirdas installed his son Volodymyr in Kyiv, ending the tributary arrangement with the Horde over the city; the sons of Karijotas took Podolia and began building and fortifying there, and a Podolian principality under their rule appears in the record within a few years. Lithuanian authority now ran from the Baltic to the edge of the Black Sea steppe, making the Grand Duchy of Lithuania one of the largest states in Europe.",
+        "It also made Lithuania the Horde’s neighbour rather than its tributary’s neighbour, and Moscow’s direct rival for the inheritance of the Rus’ lands. Algirdas marched on Moscow three times — in 1368, 1370 and 1372 — and burned its suburbs without taking the Kremlin. The competition Blue Waters opened was not settled for another two centuries."
+      ]
+    },
+    {
+      "title": "How much of this is known",
+      "paragraphs": [
+        "The near-contemporary evidence is one line. The Rogozh chronicler, working in the Tver tradition and finishing about 1396, records under 1363 that Algirdas laid waste Blue Waters and its country. That is the whole of it: no commanders, no numbers, no course of the fighting, and a date a year later than the one usually given.",
+        "The narrative account comes from the Lithuanian chronicles, and specifically from the piece known as the Tale about Podolia, composed around 1432 to 1438. It was written to support a Lithuanian territorial claim to Podolia in a live dispute with Poland, by an author close to the grand-ducal chancery, and it dates the battle inconsistently: some copies place it in 1351. A source composed to win an argument about who owns a province is not neutral evidence about how the province was won.",
+        "Modern historiography has pulled the battle in opposite directions for reasons that are not always historical. Russian scholarship emphasised Kulikovo in 1380 as the decisive blow against the Horde and treated Blue Waters as a raid; Polish scholarship was unenthusiastic about a Lithuanian title to Podolia; Lithuanian and Ukrainian scholarship has argued for its importance, and the Lithuanian historian Tomas Baranauskas has set out how much of the disagreement is national rather than evidential. Vilnius University’s own Orbis Lituaniae project takes the deflationary view, reading the event as a large plundering expedition inflated by later propaganda into a civilisation-defining victory. The three conferences held on what Ukrainian historians simply call the Blue Waters problem, in 1997, 1998 and 2012, did not settle the date, the site or the scale.",
+        "What survives all of that is the outcome. Whatever happened on the Syniukha, the Horde did not collect from Kyiv afterwards and Algirdas’s son did."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "How much of this is known",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A1%D0%B8%D0%BD%D1%8E%D1%85%D0%B0_%D0%BC%D1%96%D0%B6_%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B8%D1%86%D0%B5%D1%8E_%D1%96_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%BC.jpg",
+      "caption": "The Syniukha between Torhovytsia and Novoarkhanhelsk in the Kirovohrad region, photographed in 2012; the battle is usually placed on this stretch of the river.",
+      "creator": "Photograph by the Wikimedia contributor Mr.Rosewater",
+      "date": "2012 photograph",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B8%D0%BD%D1%8E%D1%85%D0%B0_%D0%BC%D1%96%D0%B6_%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B8%D1%86%D0%B5%D1%8E_%D1%96_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%BC.jpg",
+      "note": "The identification of the site rests on the river name and on later tradition rather than on a source or on archaeology; other researchers place the fighting some kilometres away, near Dobrianka and Tyshkivka. Licensed CC BY-SA 3.0."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Cross to Algirdas's other frontier",
+    "battleSlug": "battle-of-rudau",
+    "relationship": "same-factions",
+    "reason": "Blue Waters was possible only because Kęstutis held the western frontier while Algirdas went south; eight years later the two brothers fought together in Prussia at Rudau, where the Teutonic Order beat them and ended the Lithuanian threat to Samland."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Algirdas",
+        "type": "person",
+        "slug": "algirdas",
+        "label": "Won the battle and took Kyiv"
+      },
+      {
+        "title": "Kęstutis",
+        "type": "person",
+        "slug": "kestutis",
+        "label": "Held the western war that made the southern campaign possible"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Rudau",
+        "type": "event",
+        "slug": "battle-of-rudau",
+        "label": "The brothers together, eight years later"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Reached the Black Sea steppe after this"
+      },
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Kyiv passed from Horde tribute to Lithuanian rule"
+      },
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire",
+        "label": "The Horde's western wing was the defeated power"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1245–1362",
+      "title": "Kyiv under tribute",
+      "description": "The Kyiv lands pay the Horde while Lithuanian influence on the middle Dnieper grows for a generation."
+    },
+    {
+      "date": "1345",
+      "title": "Algirdas and Kęstutis divide the realm",
+      "description": "The brothers agree a partnership in which Kęstutis takes the western war and Algirdas the east and south."
+    },
+    {
+      "date": "1359",
+      "title": "Berdi Beg dies",
+      "description": "The Golden Horde falls into the twenty-year succession war its neighbours called the Great Troubles."
+    },
+    {
+      "date": "Autumn 1362",
+      "title": "The march south",
+      "description": "Algirdas takes a Lithuanian and Ruthenian army to the Southern Bug with the sons of Karijotas."
+    },
+    {
+      "date": "Autumn 1362",
+      "title": "Blue Waters",
+      "description": "Three princes of the western Horde are beaten and killed on the Syniukha; the course of the fighting is not recorded by any near-contemporary source."
+    },
+    {
+      "date": "After 1362",
+      "title": "Kyiv given to Volodymyr",
+      "description": "Algirdas installs his son in Kyiv and the city stops paying the Horde."
+    },
+    {
+      "date": "After 1362",
+      "title": "Podolia to the Koriatovychi",
+      "description": "The sons of Karijotas take the Podolian lands and begin fortifying them."
+    },
+    {
+      "date": "1368, 1370 and 1372",
+      "title": "Three marches on Moscow",
+      "description": "Algirdas burns the suburbs of his new eastern rival without taking the city."
+    },
+    {
+      "date": "About 1396",
+      "title": "The one early notice",
+      "description": "The Rogozh chronicler records in a single line that Algirdas laid waste Blue Waters."
+    },
+    {
+      "date": "1432–1438",
+      "title": "The Tale about Podolia",
+      "description": "A Lithuanian chronicle written during a territorial dispute with Poland supplies the first narrative of the battle."
+    },
+    {
+      "date": "1582",
+      "title": "Stryjkowski's account",
+      "description": "The detailed tactical version that later reference works repeat is printed, two hundred and twenty years after the event."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Stamps_of_Lithuania%2C_2012-25.jpg"
+    },
+    {
+      "title": "Battle of Blue Waters — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Blue_Waters"
+    },
+    {
+      "title": "Синьоводська битва — Ukrainian Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%8C%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%8C%D0%BA%D0%B0_%D0%B1%D0%B8%D1%82%D0%B2%D0%B0"
+    },
+    {
+      "title": "The Battle of Blue Waters — Orbis Lituaniae, Vilnius University",
+      "author": "Orbis Lituaniae",
+      "type": "academic resource",
+      "url": "https://www.ldkistorija.lt/the-battle-of-blue-waters/"
+    },
+    {
+      "title": "Algirdas — Visuotinė lietuvių enciklopedija",
+      "author": "Visuotinė lietuvių enciklopedija",
+      "type": "encyclopedia",
+      "url": "https://www.vle.lt/straipsnis/algirdas/"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "id": "battle-of-bornhoved",
+  "type": "event",
+  "name": "Battle of Bornhöved",
+  "aliases": [
+    "Bornhöved"
+  ],
+  "year": 1227,
+  "location": "Open country near Bornhöved in Holstein, on the road running north towards the Danish frontier",
+  "eventType": "Battle",
+  "conflict": "The north German revolt against Valdemar II's Baltic empire",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Schlacht_bei_Bornh%C3%B6ved_(1227).jpg",
+  "imageInfo": {
+    "caption": "The battle of Bornhöved in a thirteenth-century manuscript miniature, showing mailed horsemen fighting under flat-topped great helms.",
+    "creator": "Unknown illuminator",
+    "date": "Thirteenth century, about 1250",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlacht_bei_Bornh%C3%B6ved_(1227).jpg",
+    "note": "Close in date to the battle, which is rare for a thirteenth-century engagement, but it is a conventional fighting scene rather than a record of what happened: the arms and helms are the artist’s own generation’s, and no figure is identifiable. Public domain by age."
+  },
+  "summary": "On 22 July 1227 a coalition of north German princes and the city of Lübeck beat Valdemar II of Denmark at Bornhöved in Holstein, ending the Danish empire that had held the southern Baltic coast for a quarter of a century and fixing the Danish frontier at the Eider.",
+  "details": "Valdemar II had been kidnapped by one of his own vassals in 1223 and had bought his freedom in 1225 by renouncing everything he held between the Eider and the Elbe. He came back in arms to take it, and at Bornhöved the Dithmarschen contingent of his army changed sides in the middle of the fighting. The king lost an eye and his ally Otto of Brunswick-Lüneburg was captured; Denmark never recovered its position on the German coast, and the towns that had beaten it went on to lead the Hanseatic trade of the Baltic.",
+  "factions": [
+    "Kingdom of Denmark",
+    "County of Holstein",
+    "Lübeck"
+  ],
+  "leaders": [
+    {
+      "name": "Valdemar II of Denmark",
+      "faction": "Danish army",
+      "personId": "valdemar-ii-of-denmark"
+    },
+    {
+      "name": "Adolf IV of Holstein",
+      "faction": "North German coalition"
+    },
+    {
+      "name": "Henry of Schwerin",
+      "faction": "North German coalition"
+    }
+  ],
+  "participants": [
+    {
+      "side": "North German coalition",
+      "factions": [
+        {
+          "name": "County of Holstein",
+          "note": "No article yet in this archive: the Schauenburg county the Danes had annexed in 1201 and Adolf IV was fighting to recover."
+        },
+        {
+          "name": "Lübeck",
+          "note": "No article yet: the Baltic port Frederick II had declared a free imperial city in 1226, fighting to stay out of Danish hands."
+        },
+        {
+          "name": "County of Schwerin",
+          "note": "No article yet: Henry of Schwerin’s county, the quarrel over whose inheritance began the whole crisis in 1223."
+        },
+        {
+          "name": "Archbishopric of Bremen",
+          "note": "No article yet: Archbishop Gerhard II brought the church’s contingent against the Danes."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Adolf IV of Holstein",
+          "type": "person",
+          "note": "Count of Holstein, who had spent four years recovering his county and commanded the coalition."
+        },
+        {
+          "name": "Henry of Schwerin",
+          "type": "person",
+          "note": "The count who had kidnapped Valdemar in 1223 and kept the alliance against him together."
+        },
+        {
+          "name": "Gerhard II of Bremen",
+          "type": "person",
+          "note": "Archbishop of Bremen, one of the princes who financed and joined the coalition."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; late chronicles give about 10,000–11,000",
+        "confidence": "chronicle-claim",
+        "note": "No contemporary source counts either army. The figures come from the Detmar chronicle and Hermann Korner’s Chronica novella, written in Lübeck in the fourteenth and fifteenth centuries, and are the round numbers such chronicles reach for. The one force whose size is described at all is the Dithmarschen contingent, put at about a thousand."
+      }
+    },
+    {
+      "side": "Danish army",
+      "factions": [
+        {
+          "name": "Kingdom of Denmark",
+          "title": "Kingdom of Denmark",
+          "type": "location",
+          "slug": "kingdom-of-denmark"
+        },
+        {
+          "name": "Dithmarschen",
+          "note": "No article yet: the peasant republic that marched with the Danes and changed sides during the battle."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Valdemar II of Denmark",
+          "type": "person",
+          "slug": "valdemar-ii-of-denmark"
+        },
+        {
+          "name": "Otto the Child",
+          "type": "person",
+          "note": "Duke of Brunswick-Lüneburg, Valdemar’s ally and nephew, captured on the field."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; late chronicles give about 14,000",
+        "confidence": "chronicle-claim",
+        "note": "The same late Lübeck chronicles that size the coalition, and no more reliable for the Danish side. What the sources agree on is the shape rather than the scale: Valdemar had the larger army until the Dithmarschen contingent left it."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Bornhöved was fought in Holstein on 22 July 1227 between Valdemar II of Denmark and a coalition of north German princes and towns led by Adolf IV of Holstein. It settled the ownership of the southern Baltic coast for the rest of the Middle Ages. Denmark had held Holstein, Hamburg, Lübeck, Mecklenburg and Pomerania since the first years of the century; after Bornhöved it held none of them, and the Danish frontier came back to the river Eider, where it stayed until 1806.",
+        "The battle is unusual in that the losing king had already signed away what he was fighting for. Valdemar had been abducted in 1223 by Count Henry of Schwerin, one of his own vassals, and had bought his release in 1225 by renouncing every German land he held. He then obtained papal absolution from an oath sworn in captivity and marched to take it all back. Bornhöved decided whether a treaty extracted from a prisoner would stand, and it did."
+      ]
+    },
+    {
+      "title": "The Baltic empire Valdemar built",
+      "paragraphs": [
+        "Between 1201 and 1219 Valdemar II turned Denmark into the dominant power of the Baltic. He took Holstein from the Schauenburg counts in 1201, occupied Hamburg and Lübeck, received the homage of the Wendish princes of Mecklenburg and Pomerania, and in 1214 got a golden bull from Frederick II conceding everything north of the Elbe and the Elde. In 1219 he crossed to Estonia, won at Lyndanisse and founded the castle that became Reval. Danish lordship ran round three sides of the sea.",
+        "It was an empire of overlordships rather than of administration, and that was its weakness. Valdemar ruled Holstein through a resentful dispossessed comital family, Lübeck through a city that wanted its own trade, and Mecklenburg through princes whose loyalty was personal and temporary. None of it was held by garrisons in the way the crusading orders held Livonia. It needed the king to be present, solvent and credible, and in 1223 he abruptly stopped being any of the three."
+      ]
+    },
+    {
+      "title": "Kidnapped on Lyø",
+      "paragraphs": [
+        "On the night of 6–7 May 1223 Valdemar and his eldest son were hunting on the small Danish island of Lyø, without a bodyguard, as the guests of Count Henry I of Schwerin. Henry had a grievance: he had returned from a pilgrimage to find part of his county in the king’s hands and his claim on the rest ignored. He seized both Valdemars, shipped them to Germany, and held them first at Lenzen, then in the tower at Dannenberg, and finally at Schwerin itself. It is one of the very few medieval cases of a reigning king taken prisoner by his own vassal in peacetime.",
+        "Denmark and Pope Honorius III both demanded his release and neither got it, because Henry had the backing of the princes who wanted the Danish position broken: Adolf IV of Holstein, Archbishop Gerhard II of Bremen and Henry Borwin II of Mecklenburg. While the king sat in a tower his empire came apart. A Danish army sent to restore the position in the north was beaten at Mölln in January 1225.",
+        "The treaty that freed him, sworn at Bardowick late in 1225, was correspondingly brutal: 45,000 marks of silver, the surrender of every claim between the Eider and the Elbe, the renunciation of his overlordship over the German princes except in Rügen, and three of his sons left behind as hostages. Valdemar was released, appealed to Rome that an oath taken in prison did not bind him, was absolved, and reopened the war in 1226."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The campaign of 1227 went well at first — the Danes had the better of the fighting around Rendsburg in 1226 — and in July Valdemar moved south into Holstein against Adolf IV, who had already recovered most of his county. The coalition army marched out of Lübeck and met him near the village of Bornhöved on 22 July.",
+        "The fighting was long and, by every account, exceptionally bloody; the later Lübeck chroniclers say the combatants fought knee-deep in blood, which is a formula rather than an observation but carries the memory of a grinding engagement rather than a rout. Valdemar had the larger force and was winning until the Dithmarschen contingent — peasant levies from the marshes who owed him nothing beyond the moment — changed sides in the middle of the battle and turned on the Danish flank.",
+        "That decided it. The Danish line broke, Valdemar had several horses killed under him and lost an eye, and he escaped only because his household got him off the field. Otto the Child, duke of Brunswick-Lüneburg and his chief German ally, was captured, as was the bishop of Ribe. The king reached Denmark with an army that no longer existed as a fighting force."
+      ]
+    },
+    {
+      "title": "Saint Mary Magdalene's day",
+      "paragraphs": [
+        "The 22nd of July is the feast of Mary Magdalene, and Lübeck decided that the saint had won the battle. The story that grew up in the city held that a cloud or a sudden blaze of sunlight blinded the Danes while leaving the Germans able to see, and that the Magdalene had appeared to the army as it knelt before the fighting. The date became a civic festival, kept annually in a town whose independence was reckoned to date from that afternoon.",
+        "The legend was painted where the city governed itself. Four of the fifteen wall paintings in the Hörkammer of Lübeck’s town hall, made before 1444, showed the Magdalene and the battle; most are now covered or destroyed, though their inscriptions survive. It is a useful reminder of what Bornhöved meant to the winners: not a frontier adjustment, but the moment a merchant city stopped belonging to a king."
+      ]
+    },
+    {
+      "title": "The Eider border",
+      "paragraphs": [
+        "Valdemar did not try again. The Danish-German border returned to the Eider and stayed there for close to six centuries; Holstein went back to Adolf IV, and Dithmarschen kept a practical independence it defended for another two hundred and fifty years. Of the whole southern Baltic empire, only the principality of Rügen remained Danish. The king turned inward and spent his last years on law and administration, issuing the Code of Jutland in 1241, the year he died — a legal monument that outlasted the empire by centuries and was Denmark’s law until 1683.",
+        "The winners gained more than the loser lost. Lübeck, declared a free imperial city by Frederick II in 1226 and now beyond Danish reach, was left free to organise the Baltic trade on its own account, and it became the leading city of the Hanseatic towns; the Wendish ports of Rostock, Wismar and Stralsund followed it. Adolf IV kept the vow he had made during the fighting: he founded religious houses, entered a Franciscan friary in 1238, was ordained priest at Rome in 1244, and died a friar at Kiel in 1261.",
+        "For the Baltic as a whole, Bornhöved moved the initiative from kings to corporations. The sea’s next century belonged to the German merchant cities and to the crusading orders in Prussia and Livonia rather than to a Danish crown — a shift visible nine years later at Saule, where a crusading army that included pilgrims from Holstein was destroyed by the Samogitians."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Saint Mary Magdalene's day",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/FrescoHoerkammer.jpg",
+      "caption": "Saint Mary Magdalene appearing to the kneeling army before Bornhöved, in a wall painting made before 1444 in the Hörkammer of Lübeck’s town hall.",
+      "creator": "Unknown Lübeck painter; photograph by the Wikimedia contributor Concord",
+      "date": "Painted before 1444; photographed in 2010",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FrescoHoerkammer.jpg",
+      "note": "Evidence for how Lübeck remembered the battle two centuries later, not for the battle. The Commons file description dates the engagement to 1226; it was fought on 22 July 1227, the Magdalene’s feast, which is the point of the picture. Licensed CC BY-SA 3.0."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Baltic into the crusade",
+    "battleSlug": "battle-of-saule",
+    "relationship": "same-region",
+    "reason": "Bornhöved took the southern Baltic away from the Danish crown and left it to the German towns and the crusading orders; nine years later the other half of that shift showed at Saule, where a crusading army including pilgrims from Holstein was destroyed and the Sword-Brothers ceased to exist."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Lost his German lands and an eye here"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Saule",
+        "type": "event",
+        "slug": "battle-of-saule",
+        "label": "The Baltic crusade nine years later"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "The realm whose Baltic empire ended here"
+      },
+      {
+        "title": "Mecklenburg",
+        "type": "location",
+        "slug": "mecklenburg",
+        "label": "Threw off Danish overlordship after the defeat"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "The princes and the free city that beat the Danes"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1201",
+      "title": "Holstein annexed",
+      "description": "Valdemar II takes Holstein from the Schauenburg counts and occupies Hamburg and Lübeck."
+    },
+    {
+      "date": "1214",
+      "title": "The golden bull",
+      "description": "Frederick II concedes Danish rule over the lands north of the Elbe and the Elde."
+    },
+    {
+      "date": "1219",
+      "title": "Estonia",
+      "description": "Valdemar wins at Lyndanisse and founds the castle that becomes Reval, extending Danish power across the sea."
+    },
+    {
+      "date": "6–7 May 1223",
+      "title": "Seized on Lyø",
+      "description": "Count Henry I of Schwerin abducts Valdemar and his eldest son from a hunting party and holds them in Germany."
+    },
+    {
+      "date": "January 1225",
+      "title": "Mölln",
+      "description": "A Danish army sent to hold the German lands is beaten while the king is still a prisoner."
+    },
+    {
+      "date": "Late 1225",
+      "title": "The Bardowick terms",
+      "description": "Valdemar buys his freedom for 45,000 marks, all his lands between Eider and Elbe, and three sons as hostages."
+    },
+    {
+      "date": "1226",
+      "title": "Lübeck made free",
+      "description": "Frederick II declares Lübeck a free imperial city; Valdemar is absolved of his oath and reopens the war."
+    },
+    {
+      "date": "22 July 1227",
+      "title": "The Dithmarschen change sides",
+      "description": "Mid-battle at Bornhöved the Dithmarschen levies turn on the Danish flank and the line collapses."
+    },
+    {
+      "date": "22 July 1227",
+      "title": "Valdemar beaten",
+      "description": "The king loses an eye and escapes; Otto the Child and the bishop of Ribe are captured."
+    },
+    {
+      "date": "1238",
+      "title": "Adolf IV's vow",
+      "description": "The victorious count enters a Franciscan friary in fulfilment of an oath sworn during the fighting."
+    },
+    {
+      "date": "1241",
+      "title": "The Code of Jutland",
+      "description": "Valdemar issues the law book that governs Denmark until 1683, and dies the same year."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Schlacht_bei_Bornh%C3%B6ved_(1227).jpg"
+    },
+    {
+      "title": "Battle of Bornhöved (1227) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Bornh%C3%B6ved_(1227)"
+    },
+    {
+      "title": "Schlacht bei Bornhöved (1227) — German Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://de.wikipedia.org/wiki/Schlacht_bei_Bornh%C3%B6ved_(1227)"
+    },
+    {
+      "title": "Henry I, Count of Schwerin — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Henry_I,_Count_of_Schwerin"
+    },
+    {
+      "title": "Die Schlacht von Bornhöved und die Legende der Maria Magdalena — Hansestadt Lübeck",
+      "author": "Hansestadt Lübeck",
+      "type": "municipal history resource",
+      "url": "https://www.luebeck.de/de/presse/pressemeldungen/view/137961"
+    }
+  ]
+}

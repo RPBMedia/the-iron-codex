@@ -1,0 +1,296 @@
+{
+  "id": "battle-of-streva",
+  "type": "event",
+  "name": "Battle of Strėva",
+  "aliases": [
+    "Strėva"
+  ],
+  "year": 1348,
+  "location": "On the Strėva, a tributary of the Neman, probably near Žiežmariai between Kaunas and Vilnius",
+  "eventType": "Battle",
+  "conflict": "The Teutonic Order's crusade against Lithuania",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Str%C4%97vos_m%C5%AB%C5%A1io_atminimo_vieta.JPG",
+  "imageInfo": {
+    "caption": "The commemoration site of the battle at the Maisiejūnai hillfort in the Kaišiadorys district, photographed in 2012, with a weathered steel sculpture marking the spot.",
+    "creator": "Photograph by the Wikimedia contributor Vilensija",
+    "date": "2012 photograph of a modern memorial",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Str%C4%97vos_m%C5%AB%C5%A1io_atminimo_vieta.JPG",
+    "note": "A memorial site rather than an established battlefield: the sources place the fighting on the Strėva without fixing a spot, and this hillfort was chosen as the commemoration point. Licensed CC BY-SA 3.0."
+  },
+  "summary": "On 2 February 1348 a Teutonic raiding army caught a Lithuanian force at the Strėva river and broke it, killing Narimantas and Manvydas, two sons of Gediminas. The Order’s chronicler claimed eighteen thousand Lithuanian dead against sixty-eight of his own, a figure no historian accepts.",
+  "details": "Winrich von Kniprode had spent a week burning central Lithuania when the Lithuanians came up with him at a river the crusaders could cross only a few men at a time. The Lithuanians opened with arrows and spears and did real damage, but the heavy cavalry counter-charge broke their formation, and the pursuit turned into the slaughter the Order remembered so fondly. The victory bought the Order a decade of advantage; the Black Death and a change of grand master kept it from cashing that in.",
+  "factions": [
+    "Teutonic Order",
+    "Grand Duchy of Lithuania"
+  ],
+  "leaders": [
+    {
+      "name": "Winrich von Kniprode",
+      "faction": "Teutonic army"
+    },
+    {
+      "name": "Kęstutis",
+      "faction": "Lithuanian army",
+      "personId": "kestutis"
+    },
+    {
+      "name": "Narimantas",
+      "faction": "Lithuanian army"
+    }
+  ],
+  "participants": [
+    {
+      "side": "Teutonic army",
+      "factions": [
+        {
+          "name": "Teutonic Order",
+          "title": "Teutonic Order",
+          "type": "order",
+          "slug": "teutonic-order"
+        },
+        {
+          "name": "Crusading guests from western Europe",
+          "note": "No article yet: the seasonal volunteers from Germany, England, France and Bohemia who joined the winter raids as an act of penitential warfare."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Winrich von Kniprode",
+          "type": "person",
+          "note": "Grand commander of the Order, who led the raid and won the battle; grand master from 1352."
+        },
+        {
+          "name": "Heinrich Dusemer",
+          "type": "person",
+          "note": "Grand master 1345–1351, who ordered the campaign; the sources do not place him in the fighting."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; a raiding column rather than a field army",
+        "confidence": "unknown",
+        "note": "Neither the Order’s chronicles nor the Lithuanian tradition counts the crusaders. The only structural clue is the campaign’s form — a winter reise that split into two divisions to burn a district and then withdrew — which implies a mobile force of some thousands, not a mustered army."
+      }
+    },
+    {
+      "side": "Lithuanian army",
+      "factions": [
+        {
+          "name": "Grand Duchy of Lithuania",
+          "title": "Grand Duchy of Lithuania",
+          "type": "location",
+          "slug": "grand-duchy-of-lithuania"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Kęstutis",
+          "type": "person",
+          "slug": "kestutis"
+        },
+        {
+          "name": "Narimantas",
+          "type": "person",
+          "note": "Son of Gediminas and prince of Pinsk, killed in the battle; some accounts give him rather than Kęstutis the command."
+        },
+        {
+          "name": "Manvydas",
+          "type": "person",
+          "note": "Another son of Gediminas, killed with his brother; also written Mantvydas."
+        }
+      ],
+      "strength": {
+        "display": "Unknown; the chronicle claim of 18,000 dead is not usable",
+        "confidence": "unknown",
+        "note": "Wigand of Marburg put the Lithuanian dead at about eighteen thousand against eight brother knights and sixty other men. A loss ratio of that order is a rhetorical device rather than a count, and Lithuania’s continued capacity to campaign in the following years rules it out."
+      }
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Strėva was fought on 2 February 1348 on the banks of the Strėva, a tributary of the Neman east of Kaunas, between a Teutonic raiding army under the grand commander Winrich von Kniprode and a Lithuanian force that came up to intercept it. The Lithuanians were beaten, and two sons of Gediminas — Narimantas and Manvydas — were killed. It was the largest open-field defeat Lithuania suffered in the middle of the fourteenth century.",
+        "The battle matters less for what it decided than for what it shows. The war between the Order and Lithuania was not a war of battles at all: it was a hundred and forty years of raiding in which two or three set-piece engagements stand out precisely because they were rare. Strėva is one of them, and the way the Order’s chronicler wrote it up — eighteen thousand enemy dead against sixty-eight of his own — is itself evidence of how much such a day was worth to a crusading order that spent most of its war burning villages."
+      ]
+    },
+    {
+      "title": "The reisen",
+      "paragraphs": [
+        "By the 1340s the Order’s war had settled into an annual rhythm. Twice a year, in winter when the marshes froze and in high summer when they dried, columns went out from Prussia and Livonia into Samogitia and the Lithuanian interior to burn settlements, seize livestock and people, and destroy the timber forts. Between 1305 and 1409 the Order mounted something like three hundred of these campaigns; the Lithuanians answered with about forty-five of their own. Almost none produced a battle, because neither side gained by fighting one.",
+        "The raids were also a social institution in Latin Europe. Nobles from Germany, England, France and Bohemia came to Prussia for a season’s crusading against the last pagan power on the continent, were feasted at Marienburg and Königsberg, and went home with the prestige of having fought the heathen. The Order needed them for manpower and for the political cover they gave, and the winter campaign of 1347–48 was one of the large ones, with foreign guests riding in the column."
+      ]
+    },
+    {
+      "title": "The raid of 1348",
+      "paragraphs": [
+        "The army crossed into central Lithuania early in 1348 under Winrich von Kniprode, then grand commander of the Order, serving the grand master Heinrich Dusemer. It split into two divisions and spent about a week burning the country, which was the point of the exercise. The Lithuanians shadowed it and gathered a force to catch it on the way home.",
+        "They caught it at the Strėva on 2 February. Winter had done to the river what winter does in Lithuania, and the ground favoured the defenders: the crusaders could get across only a few at a time, with Lithuanian archers on the far bank. For a while it worked, and the Order’s chronicler concedes that the missile fire hurt."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "What the Lithuanians could not do was finish it. Their strength was mobility and missiles, and against armoured horsemen those win a skirmish rather than a battle. When enough crusaders were across, the heavy cavalry counter-charged, the Lithuanian formation lost its order, and the fight turned into a pursuit — the phase of a medieval battle in which nearly all the casualties are inflicted.",
+        "Narimantas, Gediminas’s son and prince of Pinsk, was killed, and so was his brother Manvydas. Whether Kęstutis commanded in person is not certain: the Lithuanian tradition names him or Narimantas, and later accounts add his brother Algirdas, whose presence no source establishes. What is certain is that the Gediminid house lost two of its generation in an afternoon.",
+        "The Order’s account adds that so many Lithuanians drowned that the knights could afterwards cross the river dry-shod on the bodies. This is the detail that has attracted the most criticism, and rightly: the Strėva is a shallow stream, shallower still in February, and it cannot drown an army. The image is a literary one — it recurs in medieval battle writing wherever a river is present — and its survival into modern accounts is a good illustration of how a chronicle’s rhetoric becomes a textbook’s fact."
+      ]
+    },
+    {
+      "title": "Wigand's eighteen thousand",
+      "paragraphs": [
+        "The numbers come from Wigand of Marburg, the Order’s herald and chronicler, who gives about eighteen thousand Lithuanians killed or drowned against eight brother knights and sixty other men. Nothing about that survives examination. An army of eighteen thousand is larger than anything fourteenth-century Lithuania is likely to have put in the field at short notice to chase a raiding column, and a defeat on that scale would have ended its capacity to fight for a generation.",
+        "It did not. Lithuania was raiding Prussia again within a few years and fought the Order for another six decades. The right way to read Wigand here is as an official account written to be read aloud to the Order’s patrons and guests, in which the ratio is the message: our losses were nothing, theirs were annihilation, and God was plainly on the side of the brothers. The battle was a real and serious Lithuanian defeat; it was not the one Wigand describes."
+      ]
+    },
+    {
+      "title": "What followed",
+      "paragraphs": [
+        "The immediate consequences were felt in the east rather than the west. Lithuania’s grip on its Rus’ dependencies loosened: its influence in Pskov went in 1348 and in Novgorod the same year, and Smolensk drifted afterwards. The Order followed up by destroying the fort at Veliuona and raiding the Šiauliai country more or less unopposed.",
+        "What it could not do was convert the victory into conquest. Heinrich Dusemer resigned the mastership in 1351 and Kniprode succeeded him in 1352; more decisively, the Black Death reached the Baltic and took out the manpower and the flow of crusading guests on which the reisen depended. The corridor through Samogitia the Order had been trying to open since the 1230s stayed shut, and the next set-piece meeting of the two powers was fought at Rudau in 1370 with the same two brothers on the Lithuanian side."
+      ]
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The battle",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Streva.jpg",
+      "caption": "The Strėva near Semeliškės in a photograph published in 2008, showing the shallow, reed-choked stream that the Order’s chronicler claimed had drowned an army.",
+      "creator": "Photograph by the Lithuanian Wikipedia contributor Italas",
+      "date": "Photograph published in 2008",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Streva.jpg",
+      "note": "Not the battle site, which is not established, but the same river a few tens of kilometres away; it is included because the river’s character is itself the argument against the chronicle’s casualty story. Released into the public domain by the photographer."
+    }
+  ],
+  "battleContinuity": {
+    "label": "On to the next set-piece battle",
+    "battleSlug": "battle-of-rudau",
+    "relationship": "same-war",
+    "reason": "Strėva and Rudau are the two pitched battles of a war otherwise fought by raiding; twenty-two years after the Strėva, Kęstutis and Algirdas took an army into Samland and were beaten by the same commander, Winrich von Kniprode, by then grand master."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Kęstutis",
+        "type": "person",
+        "slug": "kestutis",
+        "label": "Commanded, and lost two brothers here"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Rudau",
+        "type": "event",
+        "slug": "battle-of-rudau",
+        "label": "The war’s other pitched battle, 1370"
+      },
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The earlier disaster in the same Samogitian war"
+      }
+    ],
+    "orders": [
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Its grand commander won the battle"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Lost two Gediminid princes and its eastern influence"
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "1345",
+      "title": "The brothers divide the realm",
+      "description": "Algirdas takes the grand-ducal title and the eastern lands; Kęstutis takes Trakai and the war with the Order."
+    },
+    {
+      "date": "Winter 1347–48",
+      "title": "The reise sets out",
+      "description": "A crusading column with foreign guests rides into central Lithuania under Winrich von Kniprode."
+    },
+    {
+      "date": "Late January 1348",
+      "title": "A week of burning",
+      "description": "The army splits into two divisions and destroys the country around it before turning for home."
+    },
+    {
+      "date": "2 February 1348",
+      "title": "The crossing",
+      "description": "The Lithuanians catch the column at the Strėva, where only a few crusaders can cross at once, and open with arrows and spears."
+    },
+    {
+      "date": "2 February 1348",
+      "title": "The counter-charge",
+      "description": "Teutonic heavy cavalry breaks the Lithuanian formation and the fight becomes a pursuit."
+    },
+    {
+      "date": "2 February 1348",
+      "title": "Two sons of Gediminas killed",
+      "description": "Narimantas of Pinsk and his brother Manvydas die in the rout."
+    },
+    {
+      "date": "1348",
+      "title": "The eastern losses",
+      "description": "Lithuanian influence collapses in Pskov and Novgorod, and later weakens in Smolensk."
+    },
+    {
+      "date": "1348",
+      "title": "Veliuona destroyed",
+      "description": "The Order follows up by razing the Neman fort and raiding the Šiauliai district."
+    },
+    {
+      "date": "1351–1352",
+      "title": "Kniprode takes the mastership",
+      "description": "Heinrich Dusemer resigns and the victor of the Strėva becomes grand master."
+    },
+    {
+      "date": "1350s",
+      "title": "The plague reaches the Baltic",
+      "description": "The Black Death cuts the manpower and the flow of crusading guests the raids depended on."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Str%C4%97vos_m%C5%AB%C5%A1io_atminimo_vieta.JPG"
+    },
+    {
+      "title": "Battle of Strėva — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Str%C4%97va"
+    },
+    {
+      "title": "Strėvos mūšis — Lithuanian Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://lt.wikipedia.org/wiki/Str%C4%97vos_m%C5%AB%C5%A1is"
+    },
+    {
+      "title": "Lithuanian Crusade — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Lithuanian_Crusade"
+    },
+    {
+      "title": "Heinrich Dusemer — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Heinrich_Dusemer"
+    }
+  ]
+}
