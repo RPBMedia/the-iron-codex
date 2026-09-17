@@ -101,13 +101,29 @@ function labelFor(article) {
     return 'Military order'
   }
 
+  // The card label carries the civilization/state distinction into the archive
+  // grid and search results, which is where most readers meet these articles
+  // first. Vikings reading "Historical phenomenon" beside Norse reading
+  // "People" is the whole argument, made without a word of prose.
+  if (article.type === 'civilization') {
+    return {
+      people: 'People',
+      cultural: 'Cultural world',
+      'developing-identity': 'Developing identity',
+      confederation: 'Confederation',
+      steppe: 'Steppe people',
+      phenomenon: 'Historical phenomenon'
+    }[article.civilizationType] ?? 'People'
+  }
+
   return {
     event: 'Event',
     location: 'Location',
     artifact: 'Artifact',
     weaponArmor: 'Weapons & Armor',
     house: 'Dynasty',
-    order: 'Military order'
+    order: 'Military order',
+    civilization: 'People'
   }[article.type] ?? 'Article'
 }
 
@@ -132,6 +148,13 @@ function formatDate(article) {
     return article.founded ?? `${article.originYear ?? ''}`
   }
 
+  // A people has a span, not a year. Falling through to `${article.year}` would
+  // print the string "undefined" on every civilization card, since these
+  // articles carry `chronology` ("c. 200 – 711") instead.
+  if (article.type === 'civilization') {
+    return article.chronology ?? article.period ?? ''
+  }
+
   return `${article.year}`
 }
 
@@ -152,6 +175,10 @@ function cardSubtitle(article) {
 
   if (article.type === 'weaponArmor') {
     return [article.material, article.region].filter(Boolean).join(' · ')
+  }
+
+  if (article.type === 'civilization') {
+    return [article.culturalFamily, article.region].filter(Boolean).join(' · ')
   }
 
   return ''

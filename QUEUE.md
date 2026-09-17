@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
 | Article UI / UX | 0o | Appendix B | Nearly done — U0–U3, U5 and U7 shipped; U4 and U6 need a live page and are the owner's to verify |
-| Civilizations | 0e | Appendix C | Not started — a new archive category |
+| Civilizations | 0e | Appendix C | **Phase 0 done** — collection, route, filters, link type, prerender and gates all live; no articles yet |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 

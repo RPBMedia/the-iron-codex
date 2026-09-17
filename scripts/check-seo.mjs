@@ -105,6 +105,23 @@ for (const collection of Object.keys(data).filter((k) => Array.isArray(data[k]))
   const rel = `${pub(collection)}.html`
   const html = read(rel)
   if (!html) { fail(rel, 'collection page missing'); continue }
+
+  // An empty collection hub is prerendered — the route must resolve — but it is
+  // a soft 404, so the prerenderer marks it noindex and withholds it from the
+  // sitemap. Checked as a PAIR rather than simply skipped: an empty hub that is
+  // somehow indexable, or a populated one missing from the sitemap, both still
+  // fail. Skipping outright would blind this gate to the second case, which is
+  // the one that silently costs a collection its indexing.
+  if (data[collection].length === 0) {
+    if (sitemapUrls.has(`${SITE}/${pub(collection)}`)) {
+      fail(rel, 'empty collection page is in the sitemap — it is a soft 404')
+    }
+    if (!/<meta name="robots" content="noindex/.test(html)) {
+      fail(rel, 'empty collection page is not marked noindex')
+    }
+    continue
+  }
+
   if (!sitemapUrls.has(`${SITE}/${pub(collection)}`)) fail(rel, 'collection page not in sitemap')
   // Each hub must link every article in it, so all 800 are reachable by crawl
   // and not only by sitemap.

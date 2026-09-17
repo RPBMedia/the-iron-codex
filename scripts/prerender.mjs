@@ -297,13 +297,25 @@ for (const [collection, arr] of Object.entries(data)) {
     .map((a) => ({ label: a.name, href: `/${pub}/${a.id}` }))
     .sort((x, y) => x.label.localeCompare(y.label))
 
+  // A collection hub with no articles is a soft 404, and advertising one in the
+  // sitemap is worse than not having the page: it spends crawl budget on an
+  // empty result for a site whose indexing is already the binding constraint.
+  // This site has hit exactly that trap before (2026-09-08, written up in the
+  // SEO appendix), so an empty hub is prerendered — the route must resolve —
+  // but marked noindex and withheld from the sitemap.
+  //
+  // Self-correcting by construction: the moment the collection has an article,
+  // it indexes like any other. Nothing has to remember to undo this.
+  const isEmpty = arr.length === 0
+
   writePage(`${pub}.html`, {
     head: buildHead({
       title: pageTitle(label),
       description,
       canonical: url,
       image: arr.find((a) => a.image)?.image,
-      jsonLd: [{
+      noindex: isEmpty,
+      jsonLd: isEmpty ? [] : [{
         '@context': 'https://schema.org',
         '@type': 'CollectionPage',
         name: label,
@@ -314,7 +326,7 @@ for (const [collection, arr] of Object.entries(data)) {
     }),
     body: buildBody({ heading: label, lead: COLLECTION_BLURB[pub], links })
   })
-  urls.push({ loc: url, priority: '0.9' })
+  if (!isEmpty) urls.push({ loc: url, priority: '0.9' })
   pages++
 }
 
