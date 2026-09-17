@@ -1364,17 +1364,20 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    will need a guard**, because Byzantine prose uses the word constantly to mean
    the Byzantines themselves.
 
-   **Still open (asked, not yet answered):**
-   1. **The Ostrogoths/Ostrogothic Kingdom boundary.** The Gothic draft gives
-      identity, the *saio* and *comes Gothorum*, language and material culture
-      to the people, and leaves kings and campaigns to the realm. That split is
-      the model ~150 further civilizations will copy, so it is worth an eye
-      before it sets.
-   2. **Metadata format.** The two drafts diverge — Gothic uses a Markdown
-      table, Norse a YAML block — though the field names agree. Trivial to
-      reconcile, but pick one before assembly.
-   3. Whether to commit on the Goffart land-versus-tax settlement debate; the
-      draft flags it both times rather than picking.
+   **APPROVED 2026-09-17, both now in `CLAUDE.md` as decisions rather than
+   defaults:**
+   1. **The people/realm boundary test** — *if the sentence would still be true
+      had a different dynasty ruled, it belongs to the people; if it depends on
+      who was king, it belongs to the realm.* Measured before approval: highest
+      phrase overlap across twelve people/realm pairs is 0.3%, seven pairs at
+      zero.
+   2. **Metadata format is YAML**, not a Markdown table. It maps structurally to
+      the JSON these become and holds reasoning a table cell forces you to cut.
+
+   **Still open:**
+   - Whether to commit on the Goffart land-versus-tax settlement debate; the
+     draft flags it both ways rather than picking. Low stakes — a live scholarly
+     dispute, and presenting both is defensible indefinitely.
 
    **Two philological claims to source-check before the Vikings article ships:**
    the Bro stone (U 617) reading *víkinga vǫrðr*, and the c. 700 date of the

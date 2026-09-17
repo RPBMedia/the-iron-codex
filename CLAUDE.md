@@ -395,6 +395,36 @@ An exonym covering several peoples is not a people either. **Moors** was a
 Christian label applied to Arabs, Berbers and Andalusis together; it folds into
 those, and never becomes a page that implies a single group existed.
 
+### The people/realm boundary test (owner-approved, 2026-09-17)
+
+**If the sentence would still be true had a different dynasty ruled, it belongs
+to the people. If it depends on who was king, it belongs to the realm.**
+
+So the people take identity and ethnogenesis, language, law as a system,
+religion as a social division, material culture, and the institutions that
+express who they were — the `saio`, the `comes Gothorum` sitting with a Roman
+`prudens`. The realm keeps reigns, campaigns, succession crises and wars.
+
+Where a realm article already exists, a "Major rulers" section on the people's
+page is the warning sign: reduce it to a pointer at the realm plus any ruler who
+carries an *identity* fact. Amalasuintha belongs to the Ostrogoths because Gothic
+nobles blocked her son's Roman schooling as unfitting him for war — that is a
+collision between two halves of an identity, fought over a child's education.
+The other six Ostrogothic kings belong to the kingdom.
+
+**This was measured before it was approved.** Eight-word phrase overlap between
+every people article and its nearest realm articles, twelve pairs: the highest
+anywhere is 0.3%, seven pairs are at zero, and Norse and Vikings share no
+phrasing at all with `kingdom-of-norway`, `danelaw` or `kingdom-of-york`.
+
+### Metadata format: YAML (owner-approved, 2026-09-17)
+
+Research drafts record civilization metadata as a **YAML block**, not a Markdown
+table. YAML maps structurally to the JSON these become — lists stay lists — and
+it holds the multi-sentence reasoning a table cell forces you to cut. Several
+values need that room: an `endonym` field explaining that a people had no
+collective self-name is a finding, not an omission.
+
 ### Audit before creating, always
 
 **Never duplicate an entity.** Before writing any civilization, search the
