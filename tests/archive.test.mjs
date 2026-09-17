@@ -13,13 +13,41 @@ import { tmpdir } from 'node:os'
 import path from 'node:path'
 import { ARCHIVE_DIR, loadArchive, saveArchive } from '../server/data/archive.mjs'
 
-const EXPECTED = ['events', 'characters', 'artifacts', 'locations', 'weaponsArmor', 'houses', 'orders']
+const EXPECTED = ['events', 'characters', 'artifacts', 'locations', 'weaponsArmor', 'houses', 'orders', 'civilizations']
+
+/**
+ * Collections allowed to be registered but still empty.
+ *
+ * `civilizations` (QUEUE 0e) is built architecture-first by instruction: the
+ * collection, route, index, filters, entity-link type and prerender support all
+ * land before a single article does, so that the first article is written
+ * against a finished surface rather than the surface being retrofitted around
+ * it. Between those two moments the collection is legitimately empty.
+ *
+ * The exemption is self-removing, which is the point. The second test below
+ * fails the moment this collection HAS articles, so the allowance cannot quietly
+ * outlive its reason the way a comment would. When the first civilization
+ * article lands, delete the id from this set — the suite will tell you to.
+ */
+const ALLOWED_EMPTY = new Set(['civilizations'])
 
 test('the archive loads every collection, each with articles', () => {
   const data = loadArchive()
   for (const collection of EXPECTED) {
     assert.ok(Array.isArray(data[collection]), `${collection} is missing`)
+    if (ALLOWED_EMPTY.has(collection)) continue
     assert.ok(data[collection].length > 0, `${collection} is empty`)
+  }
+})
+
+test('no collection is still exempted from the empty check once it has articles', () => {
+  const data = loadArchive()
+  for (const collection of ALLOWED_EMPTY) {
+    assert.equal(
+      data[collection]?.length ?? 0,
+      0,
+      `${collection} now has articles — remove it from ALLOWED_EMPTY in this file so the empty check guards it again`
+    )
   }
 })
 

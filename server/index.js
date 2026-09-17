@@ -129,7 +129,12 @@ function collections() {
     artifacts: data.artifacts,
     weaponsArmor: data.weaponsArmor ?? [],
     houses: data.houses ?? [],
-    orders: data.orders ?? []
+    orders: data.orders ?? [],
+    // Civilizations (QUEUE 0e) — peoples and cultural identities, kept
+    // deliberately separate from the polities in `locations`. The Ostrogoths
+    // are not the Ostrogothic Kingdom, and the two link to each other rather
+    // than being merged.
+    civilizations: data.civilizations ?? []
   }
 }
 

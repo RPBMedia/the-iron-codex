@@ -11,3 +11,6 @@ npm-debug.log*
 
 # Render-gate SSR bundle (built by npm run check:render)
 client/.render-gate/
+
+# Agent draft output (working files, not archive content)
+drafts/

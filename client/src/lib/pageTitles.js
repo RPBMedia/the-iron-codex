@@ -33,7 +33,8 @@ export const COLLECTION_LABEL = {
   artifacts: 'Artifacts',
   'weapons-armor': 'Weapons & Armor',
   houses: 'Houses',
-  orders: 'Orders'
+  orders: 'Orders',
+  civilizations: 'Civilizations'
 }
 
 /**

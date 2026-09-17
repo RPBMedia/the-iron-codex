@@ -18,7 +18,8 @@ const collectionLabels = {
   houses: 'Houses',
   artifacts: 'Artifacts',
   'weapons-armor': 'Weapons & Armor',
-  orders: 'Military Orders'
+  orders: 'Military Orders',
+  civilizations: 'Civilizations'
 }
 
 /**
@@ -168,6 +169,7 @@ export default function DetailPage({ article: providedArticle = null }) {
           {article.type === 'house' && <HouseHero article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardHero article={article} />}
           {article.type === 'order' && <OrderHero article={article} />}
+          {article.type === 'civilization' && <CivilizationHero article={article} />}
         </div>
         {/* A grid child in column 1, landing under the image, rather than nested
             inside the media column. It reads identically on desktop, but only
@@ -198,6 +200,7 @@ export default function DetailPage({ article: providedArticle = null }) {
           {article.type === 'house' && <HouseContent article={article} />}
           {(article.type === 'artifact' || article.type === 'weaponArmor') && <StandardContent article={article} />}
           {article.type === 'order' && <OrderContent article={article} />}
+          {article.type === 'civilization' && <CivilizationContent article={article} />}
         </div>
       </section>
     </article>
@@ -280,6 +283,21 @@ function ImageWithCaption({ article }) {
   )
 }
 
+/**
+ * Civilizations are not all the same kind of entity (Appendix C §2), and the
+ * label says which. A Viking was someone on a raiding voyage, not a member of
+ * an ethnic group — calling that page "People" would restate the myth it
+ * exists to correct.
+ */
+const CIVILIZATION_TYPE_LABEL = {
+  people: 'People',
+  cultural: 'Cultural world',
+  'developing-identity': 'Developing identity',
+  confederation: 'Confederation',
+  steppe: 'Steppe people',
+  phenomenon: 'Historical phenomenon'
+}
+
 function articleTypeLabel(article) {
   if (article.type === 'character') {
     return 'Historical figure'
@@ -291,6 +309,14 @@ function articleTypeLabel(article) {
 
   if (article.type === 'location') {
     return article.locationType
+  }
+
+  // The eyebrow carries the civilization/state distinction where the reader
+  // meets it first. "People", "Confederation" and "Historical phenomenon" are
+  // genuinely different kinds of thing, and Vikings being labelled a phenomenon
+  // rather than a people is the entire point of that article existing.
+  if (article.type === 'civilization') {
+    return CIVILIZATION_TYPE_LABEL[article.civilizationType] ?? 'People'
   }
 
   if (article.type === 'weaponArmor') {
@@ -1112,6 +1138,108 @@ function LocationHero({ article }) {
         </dl>
       )}
     </div>
+  )
+}
+
+/**
+ * A people, not a state (QUEUE 0e, Appendix C §1).
+ *
+ * The hero's job is to answer "who were these people, when, and where" before
+ * the reader reads a word of prose — and to make the civilization/state
+ * distinction visible rather than merely asserted in the Overview. That is what
+ * the "Realms" fact is for: the Ostrogoths link out to the Ostrogothic Kingdom
+ * from the top of the page, so the two are legible as different things at a
+ * glance.
+ *
+ * The endonym leads as a subtitle wherever one is recorded, because for half
+ * these peoples the name the archive files them under is an outsider's word.
+ * The Byzantines called themselves Romans, and a page that never says so has
+ * already misled the reader.
+ *
+ * Every fact is filtered before rendering: an empty card under a label is a
+ * defect (owner rule), and these articles will routinely lack a religion, a
+ * recorded endonym or a securely attested homeland.
+ */
+function CivilizationHero({ article }) {
+  const realms = asList(article.majorRealms).slice(0, 3)
+
+  const facts = [
+    { label: 'Period', value: article.chronology ?? article.period },
+    { label: 'Region', value: article.region },
+    { label: 'Cultural family', value: article.culturalFamily },
+    { label: 'Language', value: asList(article.languages).join(', ') || null },
+    { label: 'Religion', value: asList(article.religions).join(', ') || null },
+    {
+      label: realms.length === 1 ? 'Realm' : 'Realms',
+      value: realms.length
+        ? realms.map((realm, index) => {
+            const slug = typeof realm === 'string' ? null : realm.slug
+            const name = typeof realm === 'string' ? realm : realm.name
+            return (
+              <span key={name}>
+                {index > 0 && ', '}
+                {slug
+                  ? <EntryLink entry={{ type: 'location', slug, title: name }}>{name}</EntryLink>
+                  : name}
+              </span>
+            )
+          })
+        : null
+    }
+  ].filter((fact) => fact.value)
+
+  return (
+    <div className="civilization-profile">
+      {article.endonym && (
+        <p className="article-subtitle">
+          Called themselves <em>{article.endonym}</em>
+        </p>
+      )}
+      {facts.length > 0 && (
+        <dl className="fact-strip rich-facts">
+          {facts.map((fact) => (
+            <div key={fact.label}>
+              <dt>{fact.label}</dt>
+              <dd>{fact.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+    </div>
+  )
+}
+
+function CivilizationContent({ article }) {
+  const sections = article.contentSections?.length
+    ? article.contentSections
+    : [{ title: 'Overview', paragraphs: article.overview }]
+
+  return (
+    <>
+      {sections.map((section, index) => (
+        <ArticleSection
+          key={section.title}
+          className={index === 0 ? 'overview-section' : ''}
+          title={section.title}
+          paragraphs={section.paragraphs}
+          article={article}
+        />
+      ))}
+      {asList(article.knownFor).length > 0 && (
+        <section className="bio-section">
+          <h2>Known for</h2>
+          <ul className="feat-list">
+            {asList(article.knownFor).map((fact) => (
+              <li key={fact}>{renderLinkedText(fact, article)}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <Timeline items={article.timeline} />
+      <SourcesList sources={article.sources} />
+      <TopicLinks id={article.id} />
+      <RelatedEntries groups={article.relatedEntries} />
+    </>
   )
 }
 

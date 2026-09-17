@@ -114,14 +114,20 @@ const COLLECTION_BLURB = {
   artifacts: 'Surviving objects, documents and relics of the Middle Ages.',
   'weapons-armor': 'European medieval weapons, armor, shields, helmets, and famous surviving arms.',
   houses: 'The royal and noble dynasties of medieval Europe and its neighbours.',
-  orders: 'The military and religious orders of the medieval world.'
+  orders: 'The military and religious orders of the medieval world.',
+  civilizations: 'The peoples and cultures of the medieval world, distinct from the states they built.'
 }
 
 /** schema.org type per collection. */
 const SCHEMA_TYPE = {
   people: 'Person', events: 'Event', locations: 'Place',
   artifacts: 'CreativeWork', 'weapons-armor': 'CreativeWork',
-  houses: 'Organization', orders: 'Organization'
+  houses: 'Organization', orders: 'Organization',
+  // schema.org has no type for an ethnocultural group. `Organization` would be
+  // wrong — the Goths were not an organisation — and `Place` conflates the
+  // people with the territory, which is the one mistake these pages exist to
+  // avoid. `Thing` is the honest parent when nothing narrower fits.
+  civilizations: 'Thing'
 }
 
 // --- page assembly ---------------------------------------------------------
@@ -375,7 +381,7 @@ pages++
 
 /** A topic has no image of its own; borrow the first member article's. */
 function index0Image(topic) {
-  for (const k of ['events', 'people', 'locations', 'weapons-armor', 'houses', 'orders', 'artifacts']) {
+  for (const k of ['events', 'people', 'locations', 'weapons-armor', 'houses', 'orders', 'civilizations', 'artifacts']) {
     for (const m of topic.members[k] ?? []) {
       const found = (data[k === 'people' ? 'characters' : k === 'weapons-armor' ? 'weaponsArmor' : k] ?? [])
         .find((a) => a.id === m.id)
@@ -394,7 +400,7 @@ function index0Image(topic) {
 // No inlined data payload is needed: the SPA imports the topics as a generated
 // module, so it renders them with no API call at all.
 
-const TOPIC_GROUP_ORDER = ['events', 'people', 'locations', 'houses', 'orders', 'weapons-armor', 'artifacts']
+const TOPIC_GROUP_ORDER = ['events', 'people', 'locations', 'civilizations', 'houses', 'orders', 'weapons-armor', 'artifacts']
 
 for (const topic of topics) {
   const url = `${SITE}/topics/${topic.slug}`

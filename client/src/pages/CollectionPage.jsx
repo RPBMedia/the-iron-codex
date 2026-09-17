@@ -46,6 +46,11 @@ const collectionCopy = {
     eyebrow: 'Military religious orders',
     title: 'Military Orders',
     description: 'The warrior-monk brotherhoods — Templars, Hospitallers, Teutonic Knights, and their kin — that fought the Crusades and the Reconquista.'
+  },
+  civilizations: {
+    eyebrow: 'Peoples and cultures',
+    title: 'Civilizations',
+    description: 'The peoples, cultures and identities of the medieval world — Goths, Norse, Byzantines, Magyars and their neighbours. A people is not the same thing as the state it built, and these pages describe the people.'
   }
 }
 
@@ -384,6 +389,36 @@ function getFilterConfigs(items, collection) {
     })
   }
 
+  // Civilizations (QUEUE 0e, Appendix C §XXXIII). An alphabetical list of a
+  // hundred and fifty peoples is a wall; these three axes are how a reader
+  // actually arrives — by when, by where, or by kinship of culture.
+  //
+  // `culturalFamily` is deliberately coarse and carries "mixed / developing
+  // identity" as a real value, because forcing contested populations into tidy
+  // linguistic boxes is the exact failure mode the spec warns against.
+  if (collection === 'civilizations') {
+    configs.push({
+      key: 'period',
+      label: 'Period',
+      getValue: (item) => item.period,
+      options: uniqueOptions(items.map((item) => item.period).filter(Boolean))
+    })
+
+    configs.push({
+      key: 'region',
+      label: 'Region',
+      getValue: (item) => item.region,
+      options: uniqueOptions(items.map((item) => item.region).filter(Boolean))
+    })
+
+    configs.push({
+      key: 'family',
+      label: 'Cultural family',
+      getValue: (item) => item.culturalFamily,
+      options: uniqueOptions(items.map((item) => item.culturalFamily).filter(Boolean))
+    })
+  }
+
   return configs.filter((config) => config.options.length > 0)
 }
 
@@ -405,6 +440,11 @@ function searchableText(item, collection) {
     item.quickFacts?.realm,
     item.quickFacts?.culture,
     item.quickFacts?.knownFor,
+    // Civilizations: the endonym is often what a reader actually types
+    // (Gutthiuda, Rhomaioi), and it is not an alias of the modern name.
+    item.endonym,
+    item.civilizationType,
+    item.culturalFamily,
     ...(item.aliases ?? []),
     ...(item.roles ?? []),
     ...(item.knownFor ?? []),

@@ -14,7 +14,7 @@ const data = loadArchive()
 const outPath = path.join(__dirname, '../client/src/lib/entityLinks.js')
 const existing = fs.readFileSync(outPath, 'utf8')
 
-const collectionToType = { characters: 'person', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', orders: 'order' }
+const collectionToType = { characters: 'person', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', orders: 'order', civilizations: 'civilization' }
 
 // Parse existing curated aliases: { slug -> [aliases] }
 const curated = {}
