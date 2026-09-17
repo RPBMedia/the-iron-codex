@@ -1378,6 +1378,33 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    index, search, sitemap, link type, relationship fields) plus an audit report,
    no content; Phase 1, a vertical slice proving the model (Goths, Visigoths,
    Ostrogoths, Norse, Vikings); then region by region, each batch proposed first.
+0t. **Eleven articles the civilizations work proved missing (2026-09-17).** Each
+   verified genuinely absent, not assumed. These are named in prose across the
+   nine live civilization articles and cannot be linked, which is the archive's
+   "dead plain text" failure for subjects this central.
+
+   **Do `theoderic-the-great` first.** It is the worst gap in the archive right
+   now: `ostrogothic-kingdom` leans on him throughout, he is central to
+   `civilizations/ostrogoths` and to `civilizations/romans`, and he is already
+   named as a leader in existing battle articles. A ruler article, so it needs a
+   succession box and the iterative chaining that follows from it.
+
+   | Article | Collection | Why it matters |
+   |---|---|---|
+   | `theoderic-the-great` | characters | Named across four live articles; a ruler, so succession chaining applies |
+   | `amalasuintha` | characters | Carries the identity collision the Ostrogoths article turns on — her son's Roman schooling blocked by Gothic nobles |
+   | `boethius`, `cassiodorus`, `symmachus` | characters | The Roman senatorial elite under Gothic rule; the whole argument of `civilizations/romans` |
+   | `visigothic-kingdom` | locations | The only major Gothic realm with no article; `visigoths` currently carries the whole subject |
+   | `ravenna` | locations | Theoderic's capital, its mosaics, and the Sant'Apollinare Nuovo erasure |
+   | `lindisfarne-793` | events | The conventional opening of the Viking Age. Both `norse` and `vikings` must name it unlinked |
+   | `anglo-saxon-chronicle` | artifacts | The source for 793 and for most of the Danelaw narrative |
+   | `rollo` | characters | `duchy-of-normandy` and `house-of-normandy` both exist and point at him |
+   | `hedeby`, `birka` | locations | The two trade sites the Norse economy and slave trade run through |
+   | `brian-boru` | characters | Named unlinked in `vikings` |
+
+   Where a subject falls outside 476–1453 it does not get an article — the same
+   rule that keeps Adrianople 378 unwritten.
+
 1. **Stub backlog — 146 articles under 2,000 chars (76 under 1,000), measured 2026-09-16.** By collection: locations 81, houses 34, events 15, characters 7, artifacts 7, orders 2; 60 of 104 events carry no timeline. Worst by inbound links: `charlemagne-crowned` (11 links, 1,334 chars), `treaty-of-edinburgh-northampton` (10), `ferdinand-iii-of-castile` (9), `siege-of-kyiv` (8), `almoravid-dynasty` (7), `scone` (6, 679 chars), `oslo` (5, 253 chars). The older count follows. **228 articles under 2,000 chars, 134 with no timeline.**
    Median article is 3,044. This is now the highest-value content work because
    the site is indexed: a 1,800-character page cannot rank for anything, and the
