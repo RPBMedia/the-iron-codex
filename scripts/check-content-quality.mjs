@@ -228,7 +228,7 @@ for (const [collection, entries] of Object.entries(data)) {
 // its layout from `type`, so 15 people typed "person" instead of "character"
 // rendered only a name, an image and the favourite button (El Cid, reported
 // 2026-09-15).
-const COLLECTION_TYPES = { characters: 'character', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', houses: 'house', orders: 'order' }
+const COLLECTION_TYPES = { characters: 'character', events: 'event', locations: 'location', artifacts: 'artifact', weaponsArmor: 'weaponArmor', houses: 'house', orders: 'order', civilizations: 'civilization' }
 for (const [collection, entries] of Object.entries(data)) {
   if (!Array.isArray(entries) || !COLLECTION_TYPES[collection]) continue
   for (const entry of entries) {
@@ -357,7 +357,8 @@ const relTypeToCollection = {
   location: 'locations', place: 'locations', kingdom: 'locations', polity: 'locations',
   artifact: 'artifacts', document: 'artifacts', weaponArmor: 'weaponsArmor', weapon: 'weaponsArmor',
   armor: 'weaponsArmor', shield: 'weaponsArmor', helmet: 'weaponsArmor', famousWeapon: 'weaponsArmor', famousArmor: 'weaponsArmor',
-  house: 'houses', dynasty: 'houses', order: 'orders'
+  house: 'houses', dynasty: 'houses', order: 'orders',
+  civilization: 'civilizations', people: 'civilizations', culture: 'civilizations'
 }
 const idsByCollection = {}
 for (const [col, arr] of Object.entries(data)) {
@@ -1421,6 +1422,111 @@ function validatePolityStandards(entry, label) {
   }
 }
 
+/**
+ * Civilizations (QUEUE 0e, Appendix C).
+ *
+ * Two jobs, and the second is the one that earns its place.
+ *
+ * First, depth. The spec sets three priority levels and says plainly that a
+ * LEVEL III people gets "shorter but substantive — no worthless stubs". A new
+ * collection with no depth gate is how 146 stubs accumulated in the older ones,
+ * and the cheapest moment to prevent that is before the first article lands.
+ *
+ * Second, and more important: CIVILIZATION IS NOT STATE. That rule is the
+ * reason the collection exists, and most of it is a matter of judgement no
+ * script can check. But two violations ARE mechanical, and both are the kind of
+ * mistake that looks fine until a reader follows a link:
+ *
+ *   - A civilization carrying `locationType` is a polity wearing a people's
+ *     clothes.
+ *   - A civilization whose name exactly matches a location's is a duplicate
+ *     entity, which the spec forbids outright. It is also how this archive gets
+ *     wrong links: one string that two articles answer to, resolved by array
+ *     order rather than meaning. Lombards the people against Lombardy the
+ *     region is the shape to watch.
+ */
+const CIVILIZATION_TYPES = new Set([
+  'people', 'cultural', 'developing-identity', 'confederation', 'steppe', 'phenomenon'
+])
+
+// Sections and timeline entries by priority level (Appendix C §XLIV).
+const CIVILIZATION_MINIMUMS = {
+  1: { sections: 12, timeline: 10 },
+  2: { sections: 8, timeline: 6 },
+  3: { sections: 5, timeline: 4 }
+}
+
+let locationNamesLower = null
+
+function validateCivilizationStandards(entry, label) {
+  const where = 'civilizations'
+  const sections = entry.contentSections ?? []
+  const level = CIVILIZATION_MINIMUMS[entry.priorityLevel] ? entry.priorityLevel : 2
+  const min = CIVILIZATION_MINIMUMS[level]
+
+  if (!CIVILIZATION_TYPES.has(entry.civilizationType)) {
+    findings.push({ collection: where, article: label, path: 'civilizationType', pattern: `must be one of ${[...CIVILIZATION_TYPES].join(', ')}`, snippet: String(entry.civilizationType) })
+  }
+
+  // The index filters read these three. A missing value does not error — it
+  // quietly drops the article out of every filtered view, which is worse.
+  if (!entry.period) {
+    findings.push({ collection: where, article: label, path: 'period', pattern: 'missing — the Civilizations index filters on it', snippet: '' })
+  }
+  if (!entry.region) {
+    findings.push({ collection: where, article: label, path: 'region', pattern: 'missing — the Civilizations index filters on it', snippet: '' })
+  }
+  // A phenomenon has no cultural family, and forcing one would be exactly the
+  // rigid-category error the spec warns against. Every actual people needs one.
+  if (!entry.culturalFamily && entry.civilizationType !== 'phenomenon') {
+    findings.push({ collection: where, article: label, path: 'culturalFamily', pattern: 'missing — required for every civilization except a phenomenon', snippet: '' })
+  }
+  if (!entry.chronology) {
+    findings.push({ collection: where, article: label, path: 'chronology', pattern: 'missing — the hero and the archive card both print it', snippet: '' })
+  }
+
+  if (entry.locationType) {
+    findings.push({ collection: where, article: label, path: 'locationType', pattern: 'a civilization is not a polity — territory and institutions belong on the realm article it links to', snippet: String(entry.locationType) })
+  }
+
+  if (locationNamesLower === null) {
+    locationNamesLower = new Map(
+      (data.locations ?? []).map((l) => [String(l.name ?? '').trim().toLowerCase(), l.id])
+    )
+  }
+  const clash = locationNamesLower.get(String(entry.name ?? '').trim().toLowerCase())
+  if (clash) {
+    findings.push({ collection: where, article: label, path: 'name', pattern: `duplicates the location "${clash}" — resolve the existing article or rename; never two entities for one name`, snippet: String(entry.name) })
+  }
+
+  if (sections.length < min.sections) {
+    findings.push({ collection: where, article: label, path: 'contentSections', pattern: `level ${level} civilization has ${sections.length} sections (minimum ${min.sections})`, snippet: '' })
+  }
+  for (const s of sections) {
+    const text = (s.paragraphs ?? []).join(' ')
+    if (text.trim().length < 200) {
+      findings.push({ collection: where, article: label, path: `contentSections "${s.title}"`, pattern: 'civilization section too thin (<200 chars)', snippet: text.slice(0, 120) })
+    }
+  }
+
+  // Half these peoples are filed under a name outsiders gave them — the
+  // Byzantines called themselves Romans — so the section that separates endonym
+  // from exonym is not optional on a substantial article.
+  if (level <= 2 && !sections.some((s) => /names?\s+and\s+identity/i.test(s.title ?? ''))) {
+    findings.push({ collection: where, article: label, path: 'contentSections', pattern: 'missing a "Names and Identity" section, where endonym and outsider names are separated', snippet: '' })
+  }
+
+  const tl = entry.timeline ?? []
+  if (tl.length < min.timeline) {
+    findings.push({ collection: where, article: label, path: 'timeline', pattern: `level ${level} civilization timeline has ${tl.length} entries (minimum ${min.timeline})`, snippet: '' })
+  }
+  for (const item of tl) {
+    if (!item.description || !String(item.description).trim()) {
+      findings.push({ collection: where, article: label, path: `timeline "${item.title}"`, pattern: 'civilization timeline entry missing description', snippet: item.date ?? '' })
+    }
+  }
+}
+
 // Cross-article duplicate paragraph detection: a paragraph reused verbatim across
 // 2+ different articles is templated filler and fails the specificity test.
 const paragraphArticles = new Map() // normalized text -> Set(articleKey)
@@ -1455,6 +1561,10 @@ for (const [collection, entries] of Object.entries(data)) {
 
     if (collection === 'weaponsArmor') {
       validateWeaponsArmorDepth(entry, labelFor(entry))
+    }
+
+    if (collection === 'civilizations') {
+      validateCivilizationStandards(entry, labelFor(entry))
     }
 
     validatePeriodLabel(collection, entry, labelFor(entry))
