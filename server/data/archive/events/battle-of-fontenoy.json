@@ -1,0 +1,265 @@
+{
+  "id": "battle-of-fontenoy",
+  "type": "event",
+  "name": "Battle of Fontenoy",
+  "year": 841,
+  "location": "Fontenoy-en-Puisaye, west of Auxerre in Burgundy",
+  "eventLocation": "The valleys and ridges around Fontenoy and Thury",
+  "eventType": "Battle",
+  "conflict": "The Carolingian civil war of 840–843",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitva%20u%20Fontenay841.jpg",
+  "imageInfo": {
+    "caption": "The battle of Fontenoy in a miniature by Jean Fouquet for the Grandes Chroniques de France, painted in the fifteenth century. Fouquet gave the Carolingian armies the plate armour and fleur-de-lis banners of his own day.",
+    "creator": "Jean Fouquet",
+    "date": "15th century (c. 1455–1460)",
+    "source": "Bibliothèque nationale de France, via Wikimedia Commons (public domain)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bitva_u_Fontenay841.jpg",
+    "note": "No ninth-century image of Fontenoy exists. Fouquet illustrated the Grandes Chroniques for the French court some six centuries afterwards, and every visible detail — visored helmets, full plate, the fleurs-de-lis of the Capetian and Valois kings — belongs to the fifteenth century rather than the ninth. The image is evidence of how late medieval France remembered the battle, not of the battle."
+  },
+  "summary": "On 25 June 841 the emperor Lothair I was defeated at Fontenoy-en-Puisaye by his brothers Louis the German and Charles the Bald. The slaughter shocked contemporaries into treating the war as a sin requiring penance, and it forced the settlement that divided Charlemagne’s empire: the Oaths of Strasbourg in 842 and the Treaty of Verdun in 843.",
+  "details": "Louis the Pious died in June 840 leaving an empire and three surviving sons who could not agree how to share it. Lothair, the eldest and already emperor, claimed authority over the whole; Louis the German in the east and Charles the Bald in the west allied against him. They met at Fontenoy, near Auxerre, a year to the week after their father’s death. Lothair lost the field, and with it the argument that one emperor could hold the inheritance together.",
+  "factions": [
+    "Lothair I and Pepin II of Aquitaine",
+    "Louis the German and Charles the Bald"
+  ],
+  "leaders": [
+    {
+      "name": "Lothair I",
+      "faction": "Imperial army",
+      "personId": "lothair-i"
+    },
+    {
+      "name": "Louis the German",
+      "faction": "Allied kings"
+    },
+    {
+      "name": "Charles the Bald",
+      "faction": "Allied kings"
+    }
+  ],
+  "outcome": "Decisive victory for Louis the German and Charles the Bald. Lothair withdrew to Aachen and lost the war of position that followed; the brothers swore the Oaths of Strasbourg in 842 and partitioned the empire at Verdun in 843.",
+  "participants": [
+    {
+      "side": "Lothair I and Pepin II of Aquitaine",
+      "strength": {
+        "display": "Chronicle claims run to tens of thousands; modern estimates are far lower",
+        "confidence": "chronicle-claim",
+        "note": "Nithard, who fought on the other side and wrote within two years, gives no figures at all. The numbers attached to Fontenoy are casualty claims from later writers — Agnellus of Ravenna’s 40,000 dead, and the 100,000 repeated afterwards — and modern historians read them as expressions of magnitude rather than counts. Field armies of a few thousand a side are the usual modern reckoning for Carolingian campaigns of this kind."
+      },
+      "factions": [
+        {
+          "name": "The emperor’s following",
+          "title": "The emperor’s following",
+          "note": "No Codex article: the magnates of the middle kingdom and Italy who backed Lothair’s claim to authority over the whole empire, with the Aquitainians of Pepin II."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Lothair I",
+          "title": "Lothair I",
+          "type": "person",
+          "slug": "lothair-i"
+        },
+        {
+          "name": "Pepin II of Aquitaine",
+          "title": "Pepin II of Aquitaine",
+          "type": "person",
+          "note": "No Codex article: Lothair’s nephew, fighting to keep Aquitaine out of Charles the Bald’s hands."
+        }
+      ]
+    },
+    {
+      "side": "Louis the German and Charles the Bald",
+      "strength": {
+        "display": "Chronicle claims run to tens of thousands; modern estimates are far lower",
+        "confidence": "chronicle-claim",
+        "note": "The same problem from the winning side: Nithard, a participant and Charles’s cousin, counts nobody. Later accounts supply huge casualty totals for the battle as a whole rather than strengths for either army, and none of them is usable. That the two kings combined their forces, and that Lothair still gave battle, is about as much as the sources support."
+      },
+      "factions": [
+        {
+          "name": "The allied kings’ following",
+          "title": "The allied kings’ following",
+          "note": "No Codex article: the East Frankish magnates who followed Louis the German and the west Frankish and Burgundian magnates who followed Charles the Bald."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Louis the German",
+          "title": "Louis the German",
+          "type": "person",
+          "note": "No Codex article yet: king in Bavaria and the east, who took East Francia at Verdun in 843."
+        },
+        {
+          "name": "Charles the Bald",
+          "title": "Charles the Bald",
+          "type": "person",
+          "note": "No Codex article yet: youngest of the brothers, who took West Francia at Verdun and later became emperor."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Fontenoy was fought on 25 June 841 near Auxerre, between the emperor Lothair I and his younger brothers Louis the German and Charles the Bald. It was the decisive engagement of the war that broke out on the death of their father Louis the Pious, and it was the largest battle Franks had fought against Franks in living memory.",
+        "The victors did not celebrate it. The bishops with the army declared that the war had been a judgement and imposed a three-day fast; a poem by Angilbert, who fought in it, calls the field accursed and refuses to dress the killing up as glory. Fontenoy settled that no one brother could hold Charlemagne’s empire, and the partitions that followed — Strasbourg in 842, Verdun in 843 — drew the outline of a divided Francia that never came back together."
+      ]
+    },
+    {
+      "title": "Background: the inheritance nobody could divide",
+      "paragraphs": [
+        "Louis the Pious had tried to settle the succession as early as 817, when the Ordinatio imperii made Lothair co-emperor and gave his brothers subordinate kingdoms. The birth of a fourth son, Charles, to his second wife Judith wrecked the arrangement, because providing for Charles meant taking from brothers who had already been promised their shares. The result was two decades of revolt, including the humiliation of 833 on the Rotfeld — the Field of Lies — where the emperor’s support melted away and he was forced into public penance at Soissons.",
+        "When Louis the Pious died on 20 June 840 the quarrel had no arbiter left. Lothair claimed that the imperial title carried authority over his brothers’ kingdoms and moved to make it real, first against Louis the German in Bavaria and then against Charles in the west. The two younger brothers, who had spent the 830s on opposite sides, allied because Lothair’s claim threatened both of them equally."
+      ]
+    },
+    {
+      "title": "The campaign and the battle",
+      "paragraphs": [
+        "Through the spring of 841 the armies manoeuvred for position and for allies, with Lothair delaying while he waited for Pepin II of Aquitaine and Charles and Louis marching to join forces before he could fight them separately. The junction happened, and the two sides came within reach of each other near Fontenoy-en-Puisaye. Negotiations went on until the last day; Nithard, who was there, records offers, a truce and an ultimatum before the fighting began at first light on 25 June.",
+        "The battle was fought in several separate actions across broken country rather than as one line meeting another. Louis the German’s wing broke the troops facing it, Charles’s wing drove off Pepin’s Aquitainians, and Lothair’s centre held longest before giving way. Lothair left the field and rode for Aachen. Beyond that outline the tactical detail is thin: Nithard is a participant writing to justify his own side, and the other accounts are shorter still."
+      ]
+    },
+    {
+      "title": "The dead, and the numbers that are not evidence",
+      "paragraphs": [
+        "Fontenoy is remembered for its casualties, and the figures usually quoted are worthless as counts. Agnellus of Ravenna, writing not long after, gives 40,000 dead; later writers raise it to 100,000. Nithard, the only eyewitness historian, supplies no total at all, which is itself telling — the number grew in the retelling because the shock of the battle demanded a large one.",
+        "What is solidly attested is the reaction. The victorious kings did not claim a triumph: their bishops ruled that those who had fought with a right intention were absolved but imposed a three-day fast for the whole army, treating Frankish dead as a collective sin rather than an enemy loss. Angilbert’s Latin lament on the battle, written by a man who survived it on the losing side, curses the day and asks that it be struck from the calendar. For an aristocracy that understood itself as one Christian people under one dynasty, killing on this scale within the family was a scandal, not a victory."
+      ]
+    },
+    {
+      "title": "From Fontenoy to Verdun",
+      "paragraphs": [
+        "Fontenoy did not end the war, but it ended Lothair’s ability to win it. Louis and Charles pursued him through the following winter and cemented their alliance at Strasbourg in February 842, where each king swore his oath in the other’s vernacular — Louis in Romance, Charles in Old High German, with the armies swearing in their own tongues. The texts Nithard copied into his history are the earliest substantial surviving pieces of both languages, preserved because two brothers needed each other’s soldiers to understand what was being promised.",
+        "With Aachen lost and his support draining, Lothair negotiated. The Treaty of Verdun in August 843 divided the empire three ways: Charles took the west, Louis the east, and Lothair kept the imperial title with a long middle strip from Frisia to Italy. The middle kingdom had no natural coherence and was divided again after Lothair died in 855, and its debris — Lotharingia, Burgundy, the Low Countries, northern Italy — stayed contested between its western and eastern neighbours for a thousand years."
+      ]
+    },
+    {
+      "title": "What Fontenoy cost",
+      "paragraphs": [
+        "The immediate cost was the aristocracy of a single political community turned against itself, at a moment when it needed to face outward. Viking fleets were already raiding the Frankish coasts and rivers; within four years of Verdun they were in Paris. A divided Francia met that pressure with divided resources and with kings who had reason to watch each other.",
+        "The long cost was conceptual. Before 841 it was still possible to argue that the empire was one thing, temporarily administered in parts. After Fontenoy and Verdun the parts had their own armies, their own oaths and, as Strasbourg showed, their own languages. The three-way partition is the reason the later Middle Ages has a kingdom of France and a German empire with a disputed borderland between them, rather than the single Carolingian realm Charlemagne was crowned to rule in 800."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "817",
+      "title": "The Ordinatio imperii",
+      "description": "Louis the Pious names Lothair co-emperor and gives his other sons subordinate kingdoms, a settlement the birth of Charles the Bald undoes."
+    },
+    {
+      "date": "833",
+      "title": "The Field of Lies",
+      "description": "Louis the Pious is abandoned by his supporters on the Rotfeld and forced into public penance at Soissons before being restored within the year."
+    },
+    {
+      "date": "20 June 840",
+      "title": "Louis the Pious dies",
+      "description": "Lothair claims authority over the whole empire as emperor, and his younger brothers ally against the claim."
+    },
+    {
+      "date": "25 June 841",
+      "title": "The battle at Fontenoy",
+      "description": "Lothair is beaten in a day-long fight across broken country and withdraws to Aachen; the bishops afterwards impose a three-day fast on the victors."
+    },
+    {
+      "date": "841",
+      "title": "Angilbert’s lament",
+      "description": "A combatant writes a Latin poem cursing the day of the battle and refusing to call the slaughter of Franks by Franks a victory."
+    },
+    {
+      "date": "14 February 842",
+      "title": "The Oaths of Strasbourg",
+      "description": "Louis and Charles swear alliance in each other’s vernacular, leaving the earliest substantial texts in Romance and Old High German."
+    },
+    {
+      "date": "August 843",
+      "title": "The Treaty of Verdun",
+      "description": "The empire is divided three ways: West Francia to Charles, East Francia to Louis, and a middle kingdom with the imperial title to Lothair."
+    },
+    {
+      "date": "855",
+      "title": "Lothair dies and the middle kingdom splits again",
+      "description": "His own three sons partition the central strip, beginning the long contest over Lotharingia between its western and eastern neighbours."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the East Frankish kingdom to the Lechfeld",
+    "battleSlug": "battle-of-lechfeld",
+    "relationship": "same-region",
+    "reason": "Fontenoy broke the unity of Charlemagne’s empire and left Louis the German holding the east as a kingdom in its own right. Defending it became a German problem rather than an imperial one: in 955 Otto I destroyed the Magyar army on the Lechfeld and turned that eastern realm into the core of a new empire."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Lothair I",
+        "type": "person",
+        "slug": "lothair-i",
+        "label": "Commanded the imperial army and lost here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The empire this battle divided"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The western kingdom that emerged from the partition"
+      }
+    ],
+    "events": [
+      {
+        "title": "Treaty of Verdun",
+        "type": "event",
+        "slug": "treaty-of-verdun",
+        "label": "The settlement Fontenoy forced, 843"
+      },
+      {
+        "title": "Battle of Lechfeld",
+        "type": "event",
+        "slug": "battle-of-lechfeld",
+        "label": "The eastern kingdom defending itself a century later"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Carolingian dynasty",
+        "type": "house",
+        "slug": "house-of-carolingian",
+        "label": "The family that fought this war against itself"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Bitva_u_Fontenay841.jpg"
+    },
+    {
+      "title": "Histories (De dissensionibus filiorum Ludovici Pii), Books II–III",
+      "author": "Nithard",
+      "type": "primary source",
+      "note": "Written within two years by a grandson of Charlemagne who fought on Charles the Bald’s side. The fullest account of the campaign and the Strasbourg oaths, and openly partisan; it gives no army sizes and no casualty totals."
+    },
+    {
+      "title": "Battle of Fontenoy (841) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Fontenoy_(841)"
+    },
+    {
+      "title": "The Frankish Kingdoms under the Carolingians, 751–987",
+      "author": "Rosamond McKitterick",
+      "type": "book",
+      "note": "Sets the civil war and the Verdun partition in the context of Carolingian government, and treats the chronicle casualty figures as rhetoric rather than data."
+    }
+  ]
+}

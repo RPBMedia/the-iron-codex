@@ -463,6 +463,7 @@ export const entityLinks = [
   { label: "Battle of Evesham (1265)", aliases: ["Battle of Evesham","Evesham (1265)"], type: "event", slug: "battle-of-evesham" },
   { label: "Battle of Falkirk", aliases: ["Falkirk"], type: "event", slug: "battle-of-falkirk" },
   { label: "Battle of Fimreite", aliases: ["Slaget ved Fimreite","Fimreite"], type: "event", slug: "battle-of-fimreite" },
+  { label: "Battle of Fontenoy", aliases: ["Fontenoy"], type: "event", slug: "battle-of-fontenoy" },
   { label: "Battle of Formigny", aliases: ["Formigny"], type: "event", slug: "battle-of-formigny" },
   { label: "Battle of Fotevik", aliases: ["Battle of Fodevig","Fodevig","Slaget ved Fodevig","Fotevik"], type: "event", slug: "battle-of-fotevik" },
   { label: "Battle of Fulford", aliases: ["Fulford"], type: "event", slug: "battle-of-fulford" },
@@ -510,18 +511,22 @@ export const entityLinks = [
   { label: "Battle of Shrewsbury", aliases: ["Shrewsbury"], type: "event", slug: "battle-of-shrewsbury" },
   { label: "Battle of Simancas", type: "event", slug: "battle-of-simancas" },
   { label: "Battle of Sirmium", aliases: ["Battle of Semlin","Battle of Zemun","Sirmium"], type: "event", slug: "battle-of-sirmium" },
+  { label: "Battle of Soissons", aliases: ["Soissons"], type: "event", slug: "battle-of-soissons" },
   { label: "Battle of Stamford Bridge", type: "event", slug: "battle-of-stamford-bridge" },
   { label: "Battle of Stanhope Park", aliases: ["Stanhope Park"], type: "event", slug: "battle-of-stanhope-park" },
   { label: "Battle of Stiklestad", type: "event", slug: "battle-of-stiklestad" },
   { label: "Battle of Stirling Bridge", aliases: ["Stirling Bridge"], type: "event", slug: "battle-of-stirling-bridge" },
   { label: "Battle of Svolder", type: "event", slug: "battle-of-svolder" },
   { label: "Battle of Taginae", aliases: ["Taginae"], type: "event", slug: "battle-of-taginae" },
+  { label: "Battle of Tertry", aliases: ["Tertry"], type: "event", slug: "battle-of-tertry" },
   { label: "Battle of Tettenhall", aliases: ["Battle of Wednesfield","Wodnesfeld","Battle of Wodnesfeld","Tettenhall"], type: "event", slug: "battle-of-tettenhall" },
   { label: "Battle of the Kalka River", aliases: ["Battle of Kalka","Battle on the Kalka","Battle of the Kalka","the Kalka River"], type: "event", slug: "battle-of-the-kalka-river" },
   { label: "Battle of the Sit River", aliases: ["Battle of the Sit","Battle on the Sit River","the Sit River"], type: "event", slug: "battle-of-the-sit-river" },
   { label: "Battle of the Standard", aliases: ["Battle of Northallerton","the Standard"], type: "event", slug: "battle-of-the-standard" },
+  { label: "Battle of Tinchebrai", aliases: ["Battle of Tinchebray","Tinchebray","Tinchebrai"], type: "event", slug: "battle-of-tinchebrai" },
   { label: "Battle of Tours", aliases: ["Tours-Poitiers"], type: "event", slug: "battle-of-tours" },
   { label: "Battle of Tricamarum", aliases: ["Tricamarum"], type: "event", slug: "battle-of-tricamarum" },
+  { label: "Battle of Val-ès-Dunes", aliases: ["Val-es-Dunes","Battle of Val-es-Dunes","Battle of Valdesdunes","Val-ès-Dunes"], type: "event", slug: "battle-of-val-es-dunes" },
   { label: "Battle of Varna", aliases: ["Varna"], type: "event", slug: "battle-of-varna" },
   { label: "Battle of Verneuil", aliases: ["Verneuil"], type: "event", slug: "battle-of-verneuil" },
   { label: "Battle of Yarmouk", aliases: ["Battle of the Yarmuk","Yarmuk 636","Yarmouk"], type: "event", slug: "battle-of-yarmouk" },
@@ -1674,6 +1679,28 @@ export const ambiguousEntityAliases = [
         slug: "battle-of-tettenhall",
         date: "910",
         contextHints: ["910", "Staffordshire", "Eowils", "Healfdene", "Ingwær", "Edward the Elder", "Mercian", "Mercia", "Danelaw", "Northumbrian", "Æthelflæd"]
+      }
+    ]
+  },
+  {
+    // Soissons is a CITY first, and unlike the other guards here it was already a
+    // majority-wrong link on the day the battle landed (2026-09-17): of eleven
+    // bare mentions in the archive, SIX are the city and five the battle. The
+    // city carries Pepin's anointing in 751 and his election, Carloman crowned in
+    // 768, Louis the Pious's penance in 833, and the sergeants of Bouvines in
+    // 1214 — none of which is a battle in 486.
+    //
+    // The city has no article, so outside battle context this correctly links to
+    // nothing rather than to the wrong thing.
+    terms: ["Soissons"],
+    possibleTargets: [
+      {
+        title: "Battle of Soissons",
+        label: "Battle of Soissons",
+        type: "event",
+        slug: "battle-of-soissons",
+        date: "486",
+        contextHints: ["486", "Clovis", "Syagrius", "Aegidius", "Ragnachar", "Salian", "Roman rule", "last Roman", "Gaul", "Frankish victory"]
       }
     ]
   }

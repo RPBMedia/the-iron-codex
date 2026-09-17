@@ -1,0 +1,260 @@
+{
+  "id": "battle-of-tertry",
+  "type": "event",
+  "name": "Battle of Tertry",
+  "year": 687,
+  "location": "Tertry, on the Somme in the Vermandois",
+  "eventLocation": "The Somme crossing at Tertry, near Saint-Quentin",
+  "eventType": "Battle",
+  "conflict": "The wars between Austrasia and Neustria for mastery of the Frankish kingdoms",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Michel%20Moreau%20-%20Pepin%20of%20Herstal%20after%20the%20battle%20of%20Tertry%20in%20687.jpg",
+  "imageInfo": {
+    "caption": "Pepin of Herstal after the victory at Tertry, engraved by Jean-Michel Moreau for Figures de l’histoire de France in 1790. No medieval depiction of the battle or of Pepin survives.",
+    "creator": "Jean-Michel Moreau (Moreau le Jeune)",
+    "date": "1790",
+    "source": "Figures de l’histoire de France (1790), via Wikimedia Commons (public domain)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean_Michel_Moreau_-_Pepin_of_Herstal_after_the_battle_of_Tertry_in_687.jpg",
+    "note": "A late eighteenth-century imagining, not a record: the armour, the tents and the palisade are Moreau’s own century’s idea of the seventh, and the submission scene is invented. It is used because nothing medieval depicts Tertry, and the only monument on the site is a commemorative stone cut for the battle’s 1,300th anniversary in 1987."
+  },
+  "summary": "At Tertry in 687 the Austrasian mayor Pepin of Herstal destroyed the Neustrian army of King Theuderic III and the mayor Berchar. Pepin took the king and the treasury into his own keeping and became mayor of the palace in Austrasia, Neustria and Burgundy together — the moment the Arnulfing family became the real government of the Franks.",
+  "details": "Neustria and Austrasia had fought for supremacy for two generations, each governed in practice by its mayor of the palace. Pepin of Herstal had led Austrasia since about 680; Berchar had held Neustria for barely a year when Pepin crossed the Somme at Tertry. The Neustrian army broke, Berchar fled and was murdered within a year, and Pepin governed through Theuderic III and a succession of child kings until his death in 714.",
+  "factions": [
+    "Austrasians",
+    "Neustrians and Burgundians"
+  ],
+  "leaders": [
+    {
+      "name": "Pepin of Herstal",
+      "faction": "Austrasians",
+      "personId": "pepin-of-herstal"
+    },
+    {
+      "name": "Theuderic III",
+      "faction": "Neustrians"
+    },
+    {
+      "name": "Berchar",
+      "faction": "Neustrians"
+    }
+  ],
+  "outcome": "Decisive Austrasian victory. Pepin of Herstal took possession of King Theuderic III and the royal treasure and made himself mayor of the palace in all three Frankish kingdoms, leaving the Merovingian kings as the source of legitimacy rather than of power.",
+  "participants": [
+    {
+      "side": "Austrasians",
+      "strength": {
+        "display": "Unknown; no source counts Pepin’s army",
+        "confidence": "unknown",
+        "note": "The Liber Historiae Francorum and the continuations of Fredegar dispose of the battle in a few sentences and give no numbers. What Pepin commanded was the following of the great landed families of the Meuse and Moselle, summoned for a campaign season; any figure in the thousands is a modern guess with nothing behind it."
+      },
+      "factions": [
+        {
+          "name": "Austrasia",
+          "title": "Austrasia",
+          "note": "No Codex article: the eastern Frankish kingdom on the Meuse, Moselle and middle Rhine, whose mayors were the Arnulfings."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Pepin of Herstal",
+          "title": "Pepin of Herstal",
+          "type": "person",
+          "slug": "pepin-of-herstal"
+        }
+      ]
+    },
+    {
+      "side": "Neustrians and Burgundians",
+      "strength": {
+        "display": "Unknown; the royal army’s size is nowhere recorded",
+        "confidence": "unknown",
+        "note": "No figure survives for the army that fought under the king’s name. It was drawn from the richer, more densely settled lands between the Seine and the Loire, which is why older accounts assume it was the larger force — an inference from the kingdom’s resources, not from any count."
+      },
+      "factions": [
+        {
+          "name": "Neustria and Burgundy",
+          "title": "Neustria and Burgundy",
+          "note": "No Codex article: the western and southern Frankish kingdoms, ruled from Paris and Soissons, whose mayoralty Berchar held."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Theuderic III",
+          "title": "Theuderic III",
+          "type": "person",
+          "note": "No Codex article yet: Merovingian king of Neustria, Burgundy and (after 679) Austrasia, present with the army and kept on his throne by the victor."
+        },
+        {
+          "name": "Berchar",
+          "title": "Berchar",
+          "type": "person",
+          "note": "No Codex article: mayor of the palace of Neustria from 686, who commanded the defeated army and was murdered within the year."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Tertry, fought on the Somme in 687, decided which of the Frankish kingdoms would govern the others and which family would govern them all. Pepin of Herstal, mayor of the palace in Austrasia, destroyed the Neustrian army commanded by the mayor Berchar in the name of King Theuderic III, and took both the king and the royal treasury into his own hands.",
+        "The dynasty was untouched: Theuderic III remained king, and Merovingians went on reigning for another sixty-four years. What changed was where power sat. From 687 the mayoralty of all three kingdoms was held by one man from one Austrasian family, and it passed to his descendants — to Charles Martel, to Pepin the Short, and finally to Charlemagne."
+      ]
+    },
+    {
+      "title": "Background: two kingdoms and their mayors",
+      "paragraphs": [
+        "By the later seventh century the Frankish world was divided between Neustria in the west, Burgundy in the south-east and Austrasia in the east, each with a Merovingian king and each governed day to day by a mayor of the palace who controlled patronage, the royal estates and the summons to war. The mayoralty had become the prize, and the office was increasingly hereditary in a few great families.",
+        "Austrasia’s mayors came from the line later called the Arnulfings, descended from Bishop Arnulf of Metz and Pepin of Landen. Their first attempt on the throne itself had failed badly: in the 650s Grimoald put his own son on the Austrasian throne and was handed to the Neustrians and killed. Pepin of Herstal, who emerged as Austrasian leader about 680, therefore had a family memory of exactly how a usurpation ended, which is part of why his settlement after Tertry left the king in place.",
+        "Neustria under the mayor Ebroin had been the stronger party and had beaten the Austrasians near Laon around 680, killing Pepin’s colleague Martin. Ebroin was murdered soon afterwards, and the Neustrian mayoralty passed through Waratto and his son-in-law Berchar, who quarrelled with the Neustrian magnates. Some of them invited Pepin in."
+      ]
+    },
+    {
+      "title": "The campaign and the fighting",
+      "paragraphs": [
+        "Pepin marched west and crossed the Somme at Tertry, a few miles from Saint-Quentin, where the royal army under Theuderic III and Berchar met him. The sources are unusually thin even by the standards of the period: the Liber Historiae Francorum, written in Neustria about 727, and the continuations of the chronicle of Fredegar record the outcome and almost nothing else. There is no account of the ground, the formations or the losses.",
+        "The date is given as 687 by the Liber Historiae Francorum, and that is what most modern accounts use, though the chronology of these years is loose enough that 688 has been argued. The engagement itself seems to have been decided quickly; Berchar fled the field and Theuderic III was taken. Pepin did not pursue a war of extermination against the Neustrian nobility, and that restraint is a better guide to his aims than the fighting is."
+      ]
+    },
+    {
+      "title": "The settlement: one mayor for three kingdoms",
+      "paragraphs": [
+        "Pepin kept Theuderic III as king and ruled in his name. He took the treasury, appointed his own man Nordebert to run Neustria under him, and within a year Berchar had been murdered — by his own mother-in-law’s faction, the Liber Historiae Francorum says. When Theuderic III died in 690 or 691 Pepin simply continued through his sons Clovis IV, Childebert III and then Dagobert III, each raised to the throne as a child.",
+        "He took the style dux et princeps Francorum, duke and prince of the Franks, a description of real power rather than a royal title. With the west secured he spent the next twenty-five years on the frontiers: Frisians, Alemanni and Bavarians. He died at Jupille in 714, and the succession crisis that followed — fought out between his widow Plectrude and his son by another union, Charles Martel — showed how completely the family’s position, not the king’s, was now the thing worth fighting over."
+      ]
+    },
+    {
+      "title": "The kings who did not rule",
+      "paragraphs": [
+        "Tertry is often said to have turned the Merovingians into rois fainéants, do-nothing kings, overnight. That phrase comes from Carolingian propaganda, above all Einhard’s life of Charlemagne, written to justify the dynasty his patrons had replaced: Einhard’s king with the long hair riding in an ox-cart is a portrait drawn by the winners more than a century later.",
+        "Modern historians, Paul Fouracre in particular, read the evidence more carefully. The kings after 687 still issued charters, still gave judgment, and were still necessary — Pepin governed through them because Frankish legitimacy ran through Merovingian blood, and the one attempt to bypass it had killed his ancestor. The hollowing-out was real but gradual: it took the failed regency of 714, Charles Martel’s conquest of his own family’s position, and a papal ruling in 751 before Pepin the Short could put Childeric III in a monastery and take the crown."
+      ]
+    },
+    {
+      "title": "What Tertry made possible",
+      "paragraphs": [
+        "The immediate consequence was the end of the Neustrian–Austrasian wars as a contest between equals. One family now controlled the armies, the estates and the appointments of the whole Frankish world, and could direct its resources outward instead of against itself.",
+        "The long consequence was the Carolingian empire. Pepin’s son Charles Martel used the united Frankish army to stop the Umayyad raid into Gaul at the Battle of Tours in 732 and to reconquer the south; Charles’s son took the crown in 751; his grandson was crowned emperor in Rome in 800. Every one of those steps was taken from the position Pepin of Herstal secured on the Somme in 687."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 656",
+      "title": "Grimoald’s coup fails",
+      "description": "The Austrasian mayor puts his own son on the throne, is handed over to the Neustrians and killed — the family’s lesson in what usurpation costs."
+    },
+    {
+      "date": "c. 680",
+      "title": "Ebroin beats the Austrasians near Laon",
+      "description": "Pepin’s colleague Martin is killed, leaving Pepin the sole Austrasian leader against a stronger Neustria."
+    },
+    {
+      "date": "680 or 681",
+      "title": "Ebroin murdered",
+      "description": "The Neustrian mayor is killed by a man he had dispossessed, and the western mayoralty passes to Waratto."
+    },
+    {
+      "date": "686",
+      "title": "Berchar becomes mayor of Neustria",
+      "description": "Waratto’s son-in-law takes the office and quarrels with the Neustrian magnates, some of whom appeal to Pepin."
+    },
+    {
+      "date": "687",
+      "title": "The battle at Tertry",
+      "description": "Pepin crosses the Somme and destroys the royal army; Berchar flees and King Theuderic III is taken into Pepin’s keeping."
+    },
+    {
+      "date": "688",
+      "title": "Berchar murdered; Pepin mayor of all three kingdoms",
+      "description": "With his rival dead, Pepin installs his own deputy in Neustria and governs Austrasia, Neustria and Burgundy together."
+    },
+    {
+      "date": "690 or 691",
+      "title": "Theuderic III dies",
+      "description": "Pepin continues to rule in the name of the dead king’s young sons, Clovis IV and then Childebert III."
+    },
+    {
+      "date": "16 December 714",
+      "title": "Pepin dies at Jupille",
+      "description": "The fight over his position, not the king’s, opens the crisis from which Charles Martel emerged as ruler of the Franks."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Frankish army to Tours",
+    "battleSlug": "battle-of-tours",
+    "relationship": "chronological-follow-up",
+    "reason": "Tertry put one Austrasian family in permanent command of the whole Frankish army. Forty-five years later Pepin’s son Charles Martel used that army to stop the Umayyad raid between Tours and Poitiers, the victory that made the family’s eventual seizure of the crown politically possible."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Pepin of Herstal",
+        "type": "person",
+        "slug": "pepin-of-herstal",
+        "label": "Commanded the Austrasians and won here"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "The realm whose government changed hands"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Soissons",
+        "type": "event",
+        "slug": "battle-of-soissons",
+        "label": "Where the Merovingian kingdom began, 486"
+      },
+      {
+        "title": "Battle of Tours",
+        "type": "event",
+        "slug": "battle-of-tours",
+        "label": "Pepin’s son commanding the army Tertry won, 732"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Merovingian dynasty",
+        "type": "house",
+        "slug": "merovingian-dynasty",
+        "label": "The kings left reigning without ruling"
+      },
+      {
+        "title": "Carolingian dynasty",
+        "type": "house",
+        "slug": "house-of-carolingian",
+        "label": "The family whose power begins here"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean_Michel_Moreau_-_Pepin_of_Herstal_after_the_battle_of_Tertry_in_687.jpg"
+    },
+    {
+      "title": "Liber Historiae Francorum, chapters 46–48",
+      "author": "Anonymous Neustrian compiler",
+      "type": "primary source",
+      "note": "Written about 727, forty years after the battle and from the losing kingdom’s side. It supplies the date and the outcome, no numbers, and no description of the fighting."
+    },
+    {
+      "title": "Battle of Tertry — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tertry"
+    },
+    {
+      "title": "The Age of Charles Martel",
+      "author": "Paul Fouracre",
+      "type": "book",
+      "note": "Argues against the traditional reading of Tertry as the instant end of Merovingian power, and traces how slowly the Arnulfing position was actually consolidated."
+    }
+  ]
+}

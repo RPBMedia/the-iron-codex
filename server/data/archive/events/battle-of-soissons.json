@@ -1,0 +1,247 @@
+{
+  "id": "battle-of-soissons",
+  "type": "event",
+  "name": "Battle of Soissons",
+  "year": 486,
+  "location": "Soissons, on the Aisne in northern Gaul",
+  "eventLocation": "Somewhere near Soissons; no source gives the ground",
+  "eventType": "Battle",
+  "conflict": "Clovis's conquest of the Roman command in northern Gaul",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vengeance%20de%20Clovis.jpg",
+  "imageInfo": {
+    "caption": "Clovis kills the warrior who broke the vase of Soissons, in a fourteenth-century miniature from the Grandes Chroniques de France. It illustrates Gregory of Tours’s sequel to the battle, painted some 800 years after it.",
+    "creator": "Anonymous illuminator, Grandes Chroniques de France of Charles V",
+    "date": "14th century",
+    "source": "Bibliothèque nationale de France, via Wikimedia Commons (public domain)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vengeance_de_Clovis.jpg",
+    "note": "Nothing depicting the battle survives from the fifth century, or from anywhere near it. This miniature illustrates the vase story that Gregory of Tours tells as the battle’s sequel, and shows Clovis crowned and robed in fleurs-de-lis as a French king of the fourteenth century, which is how the Capetian court wished to remember him."
+  },
+  "summary": "In 486 Clovis I destroyed the army of Syagrius near Soissons and ended the last Roman command in northern Gaul, ten years after the deposition of the last western emperor. Syagrius fled to the Visigoths, was handed back, and was killed; his territory between the Somme and the Loire became the core of the Merovingian kingdom.",
+  "details": "Syagrius ruled the lands around Soissons as the heir of his father Aegidius, a Roman general who had broken with Ravenna in 461 and governed northern Gaul on his own authority. Clovis, king of the Salian Franks at Tournai and about twenty years old, attacked him in 486 with his kinsman Ragnachar of Cambrai. Gregory of Tours, writing a century later, says Syagrius saw his army destroyed and fled south to Alaric II at Toulouse, who surrendered him rather than face a Frankish war.",
+  "factions": [
+    "Franks of Clovis",
+    "The Roman command at Soissons"
+  ],
+  "leaders": [
+    {
+      "name": "Clovis I",
+      "faction": "Franks"
+    },
+    {
+      "name": "Syagrius",
+      "faction": "Romans"
+    }
+  ],
+  "outcome": "Decisive Frankish victory. Syagrius fled to the Visigothic court, was given up to Clovis and executed; Soissons became a royal seat and the last Roman-administered territory in northern Gaul passed to the Franks.",
+  "participants": [
+    {
+      "side": "Franks of Clovis",
+      "strength": {
+        "display": "Unknown; no source of any date counts either army",
+        "confidence": "unknown",
+        "note": "Gregory of Tours is the only narrative and gives no figures, no formations and no casualties. Clovis in 486 ruled one Salian kingship among several, based on Tournai, and fought alongside Ragnachar of Cambrai: that political base implies a war-band rather than a field army, but no number of any kind survives."
+      },
+      "factions": [
+        {
+          "name": "Frankish Kingdom",
+          "title": "Frankish Kingdom",
+          "type": "location",
+          "slug": "frankish-kingdom"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Clovis I",
+          "title": "Clovis I",
+          "type": "person",
+          "note": "No Codex article yet: king of the Salian Franks from 481 and founder of the Merovingian kingdom."
+        },
+        {
+          "name": "Ragnachar",
+          "title": "Ragnachar",
+          "type": "person",
+          "note": "No Codex article: Frankish king of Cambrai and Clovis’s kinsman, who joined the campaign and was killed by him years later."
+        }
+      ]
+    },
+    {
+      "side": "The Roman command at Soissons",
+      "strength": {
+        "display": "Unknown; nothing records the size of the last Gallic command",
+        "confidence": "unknown",
+        "note": "No muster roll, chronicle figure or archaeological estimate survives. What Syagrius commanded was whatever remained of the Roman field forces of northern Gaul after twenty-five years without an emperor to pay them — units gone local, federate contingents and city levies — and its size is simply not recoverable."
+      },
+      "factions": [
+        {
+          "name": "The realm of Syagrius",
+          "title": "The realm of Syagrius",
+          "note": "No Codex article: the Roman-administered territory between the Somme and the Loire, governed from Soissons. \"Kingdom of Soissons\" is a modern label, not a title anyone used at the time."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Syagrius",
+          "title": "Syagrius",
+          "type": "person",
+          "note": "No Codex article yet: son of Aegidius and last Roman commander in northern Gaul, called \"king of the Romans\" by Gregory of Tours."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Battle of Soissons in 486 ended Roman political authority in northern Gaul. Clovis I, about twenty years old and king of the Salian Franks at Tournai, marched against Syagrius, who ruled the country around Soissons as the heir of his father Aegidius. Syagrius lost the field, fled to the Visigothic king Alaric II at Toulouse, and was surrendered and killed.",
+        "What ended was an administration rather than an empire. The territory between the Somme and the Loire still ran on Roman lines in 486 — civitates, bishops, tax registers, Latin — a decade after the last western emperor was deposed in Italy. Taking it in a single campaign turned a regional Frankish kingship into the power that would beat the Alemanni, break the Visigoths at Vouillé in 507, and rule from Paris."
+      ]
+    },
+    {
+      "title": "Background: a Roman command without an empire",
+      "paragraphs": [
+        "Aegidius, master of the soldiers in Gaul under the emperor Majorian, quarrelled with Ricimer after Majorian’s murder in 461 and held the north on his own authority until he died in 464 or 465. His son Syagrius inherited the position rather than an office: no emperor appointed him, and no title he used is recorded. Gregory of Tours calls him rex Romanorum, \"king of the Romans\", which modern historians read as a Frankish way of describing him rather than his own style.",
+        "The Franks were not outsiders to this world. Childeric I, Clovis’s father, had campaigned as an ally of Aegidius against Visigoths and Saxons, and was buried at Tournai in 481 or 482 with a signet ring naming him CHILDIRICI REGIS and a cloak of gold cicadas — a Roman officer’s burial and a barbarian king’s at once. The war of 486 was fought between two heirs of the same late Roman military establishment, one Frankish and one Gallo-Roman."
+      ]
+    },
+    {
+      "title": "The armies and the fighting",
+      "paragraphs": [
+        "Gregory of Tours, writing about a century afterwards in the second book of his Histories, supplies the entire narrative in a few lines: Clovis came with Ragnachar, sent word to Syagrius to choose a field, and when Syagrius saw his army broken he rode for Toulouse. There is no account of the fighting, no place-name more precise than Soissons, and no figure for either side.",
+        "Nothing else fills the gap. There is no Gallo-Roman chronicle of the campaign, no archaeology identified with the battlefield, and no letter written while it was happening. Historians who describe a clash of cavalry or a Roman infantry line are reconstructing from what armies in Gaul generally looked like, not from evidence about this one. The honest position is that the result is certain and the battle itself is not recoverable."
+      ]
+    },
+    {
+      "title": "The death of Syagrius",
+      "paragraphs": [
+        "Alaric II, Gregory says, was afraid the Franks would make war on him, so he had Syagrius bound and handed over. Clovis kept him under guard and then had him killed in secret, which Gregory reports without approving of it. The episode shows how little protection a Roman title still offered in 486: the Visigothic king treated the last Roman commander in Gaul as a bargaining counter.",
+        "Clovis moved his centre of gravity south to the conquered lands, and Soissons became a royal residence; Paris followed after 508. The Gallo-Roman church reached an accommodation at once. A letter from Remigius, bishop of Reims, congratulates Clovis on taking over the administration of Belgica Secunda and urges him to govern with his bishops’ counsel — the earliest surviving document of his rule, and evidence that the men who ran the province simply transferred their dealings to the new master."
+      ]
+    },
+    {
+      "title": "The vase of Soissons",
+      "paragraphs": [
+        "The best-known story attached to the battle is its sequel. Gregory records that a large silver vessel was taken from a church in the plunder — Reims, in the usual reading — and that Clovis asked his warriors to let him have it beyond his share so he could return it to the bishop. One man smashed it with his axe and said the king would get no more than the lot fell to him. A year later, at the spring muster, Clovis found the same warrior’s weapons ill-kept, threw his axe to the ground and split his skull, saying: thus you did to the vase at Soissons.",
+        "It is a moral tale as Gregory tells it, shaped to show a king defending church property and avenging an insult, and it cannot be checked against anything. It is still worth reading closely, because it describes how a Frankish king’s authority was understood to work in the years after the conquest: plunder was divided by lot and not by command, a king could not simply take, and a king could kill."
+      ]
+    },
+    {
+      "title": "What Soissons settled",
+      "paragraphs": [
+        "Soissons did not destroy Roman Gaul; it transferred it. The cities kept their bishops, the estates kept their owners, Latin remained the language of record, and Clovis issued the Salic law in it. What changed was who collected the revenue and commanded the soldiers between the Somme and the Loire.",
+        "That base made everything after it possible. With the north in hand Clovis could turn on the Alemanni, accept Catholic baptism from Remigius at Reims — a conversion that put him on the same side as his Gallo-Roman subjects and against the Arian Visigoths and Burgundians — and then take Aquitaine by beating Alaric II at Vouillé in 507. When he died at Paris in 511 the kingdom was divided among four sons, and the dynasty he founded held it for another two and a half centuries, until Tertry and its consequences hollowed the kingship out from the inside."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "461",
+      "title": "Aegidius breaks with Ravenna",
+      "description": "After the murder of the emperor Majorian, the master of the soldiers in Gaul refuses Ricimer’s authority and governs the north independently."
+    },
+    {
+      "date": "c. 465",
+      "title": "Syagrius inherits his father’s command",
+      "description": "Aegidius dies and his son takes over the territory around Soissons, with no imperial appointment and no recorded title."
+    },
+    {
+      "date": "481",
+      "title": "Clovis succeeds Childeric I",
+      "description": "At about fifteen he inherits the Salian Frankish kingship at Tournai, one of several Frankish kingdoms in northern Gaul."
+    },
+    {
+      "date": "486",
+      "title": "The battle at Soissons",
+      "description": "Clovis and Ragnachar destroy Syagrius’s army; Gregory of Tours records the result in a few lines and nothing of the fighting."
+    },
+    {
+      "date": "486 or 487",
+      "title": "Syagrius surrendered and killed",
+      "description": "Alaric II hands him over rather than risk a Frankish war, and Clovis has him put to death in captivity."
+    },
+    {
+      "date": "c. 496",
+      "title": "The Alemanni beaten, and baptism at Reims",
+      "description": "Clovis defeats the Alemanni at Tolbiac and is baptised a Catholic by Remigius; the date of both is debated, and 508 has also been argued."
+    },
+    {
+      "date": "507",
+      "title": "Vouillé and the conquest of Aquitaine",
+      "description": "Clovis kills Alaric II in battle near Poitiers and takes the Visigothic lands north of the Pyrenees."
+    },
+    {
+      "date": "511",
+      "title": "Clovis dies at Paris",
+      "description": "The kingdom built on the Soissons conquest is divided among his four sons, beginning the Merovingian pattern of partition."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Merovingian kingdom to Tertry",
+    "battleSlug": "battle-of-tertry",
+    "relationship": "chronological-follow-up",
+    "reason": "The kingdom Clovis won at Soissons outlasted him by two centuries, but his descendants did not keep control of it. At Tertry in 687 the Austrasian mayor Pepin of Herstal beat the Neustrian royal army, took custody of the king, and began the process that left the Merovingians reigning without ruling."
+  },
+  "relatedEntries": {
+    "locations": [
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "The realm this victory founded"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris",
+        "label": "Clovis’s capital after 508"
+      }
+    ],
+    "events": [
+      {
+        "title": "Fall of Western Rome",
+        "type": "event",
+        "slug": "fall-of-western-rome",
+        "label": "The deposition of 476, ten years earlier"
+      },
+      {
+        "title": "Battle of Tertry",
+        "type": "event",
+        "slug": "battle-of-tertry",
+        "label": "Where the dynasty founded here lost real power, 687"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Merovingian dynasty",
+        "type": "house",
+        "slug": "merovingian-dynasty",
+        "label": "The line Clovis established"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Vengeance_de_Clovis.jpg"
+    },
+    {
+      "title": "Histories (Decem Libri Historiarum), Book II, chapters 27 and 40–42",
+      "author": "Gregory of Tours",
+      "type": "primary source",
+      "note": "Written about a century after the battle and the only narrative of it. Gregory is a bishop writing to show God’s favour to a Catholic dynasty, gives no numbers, and tells the vase story as a moral exemplum."
+    },
+    {
+      "title": "Battle of Soissons (486) — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Soissons_(486)"
+    },
+    {
+      "title": "The Merovingian Kingdoms, 450–751",
+      "author": "Ian Wood",
+      "type": "book",
+      "note": "The standard account of how Roman administration in northern Gaul passed to Frankish rule, and of how little Gregory’s narrative can bear."
+    }
+  ]
+}

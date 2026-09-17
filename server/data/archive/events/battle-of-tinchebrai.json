@@ -1,0 +1,287 @@
+{
+  "id": "battle-of-tinchebrai",
+  "type": "event",
+  "name": "Battle of Tinchebrai",
+  "year": 1106,
+  "location": "Tinchebray, in the Norman Bocage south-west of Falaise",
+  "eventLocation": "Open ground below the castle of Tinchebray",
+  "eventType": "Battle",
+  "conflict": "The Anglo-Norman succession war between the sons of William the Conqueror",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bog%20Oak%20Effigy%20of%20Robert%20Curthose%20%28c.%201051%E2%80%931134%29%2C%20Gloucester%20Cathedral%20-%20geograph.org.uk%20-%208239942.jpg",
+  "imageInfo": {
+    "caption": "The painted bog-oak effigy of Robert Curthose in Gloucester Cathedral, carved in the thirteenth century, roughly a century after his death. Captured at Tinchebrai, he spent his last 28 years as his brother’s prisoner.",
+    "creator": "Brian Deegan (photograph, 2026); the effigy is by an unknown thirteenth-century carver",
+    "date": "Effigy 13th century; photograph 2026",
+    "source": "Geograph Britain and Ireland, via Wikimedia Commons (CC BY-SA 2.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bog_Oak_Effigy_of_Robert_Curthose_(c._1051%E2%80%931134),_Gloucester_Cathedral_-_geograph.org.uk_-_8239942.jpg",
+    "note": "Not a likeness. The effigy was carved for Robert’s tomb in the abbey church at Gloucester more than a hundred years after he died there in 1134, and the paintwork and the heraldic chest beneath it are later restorations — the arms shown were not borne by him. It is used because nothing depicting the battle survives."
+  },
+  "summary": "On 28 September 1106, forty years to the day after their father landed in England, Henry I of England defeated and captured his eldest brother Robert Curthose at Tinchebrai. Henry annexed Normandy, held Robert prisoner until his death in 1134, and reunited the realm William the Conqueror had divided between his sons.",
+  "details": "William the Conqueror left Normandy to Robert and England to William Rufus, and the two halves had been at odds ever since. Henry seized the English throne in 1100 when Rufus was killed, then spent five years buying and fighting his way into Normandy, where Robert’s government had collapsed into private war. The armies met below Tinchebray castle; the fighting lasted about an hour, and Robert, William of Mortain and several hundred knights were taken.",
+  "factions": [
+    "Henry I of England",
+    "Robert Curthose, Duke of Normandy"
+  ],
+  "leaders": [
+    {
+      "name": "Henry I of England",
+      "faction": "English and allied Normans",
+      "personId": "henry-i-of-england"
+    },
+    {
+      "name": "Robert Curthose",
+      "faction": "Ducal army"
+    }
+  ],
+  "outcome": "Decisive victory for Henry I. Robert Curthose, William of Mortain and Robert of Estéouteville were captured; Normandy passed under Henry’s rule and England and the duchy were governed together again until his death in 1135.",
+  "participants": [
+    {
+      "side": "Henry I of England",
+      "strength": {
+        "display": "Disputed; chronicle totals reach tens of thousands, modern estimates a few thousand",
+        "confidence": "debated",
+        "note": "Orderic Vitalis and Henry of Huntingdon give figures in the tens of thousands, which modern historians reject as conventional magnitudes. The most circumstantial contemporary account, a letter written by a priest of Fécamp shortly afterwards, describes a force built around several hundred knights fighting on foot with infantry levies, and a mounted reserve of Bretons and Manceaux — a scale of a few thousand, with Henry’s army the larger."
+      },
+      "factions": [
+        {
+          "name": "Kingdom of England",
+          "title": "Kingdom of England",
+          "type": "location",
+          "slug": "kingdom-of-england"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Henry I of England",
+          "title": "Henry I of England",
+          "type": "person",
+          "slug": "henry-i-of-england"
+        },
+        {
+          "name": "Elias I of Maine",
+          "title": "Elias I, Count of Maine",
+          "type": "person",
+          "note": "No Codex article: led the mounted reserve whose flank charge decided the battle."
+        },
+        {
+          "name": "Alan IV of Brittany",
+          "title": "Alan IV, Duke of Brittany",
+          "type": "person",
+          "note": "No Codex article: brought the Breton contingent to Henry’s army."
+        }
+      ]
+    },
+    {
+      "side": "Robert Curthose, Duke of Normandy",
+      "strength": {
+        "display": "Disputed; smaller than Henry’s army, but no usable figure survives",
+        "confidence": "debated",
+        "note": "The chroniclers who inflate Henry’s numbers inflate Robert’s too. What the accounts agree on is that the duke was outnumbered and that his cause had been draining away for years as Norman magnates went over to Henry; the roughly 225 knights reported captured with him is the one figure of the day that reads like a count rather than a flourish."
+      },
+      "factions": [
+        {
+          "name": "Duchy of Normandy",
+          "title": "Duchy of Normandy",
+          "type": "location",
+          "slug": "duchy-of-normandy"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Robert Curthose",
+          "title": "Robert Curthose, Duke of Normandy",
+          "type": "person",
+          "note": "No Codex article yet: eldest son of William the Conqueror, duke from 1087 and a leader of the First Crusade; captured here and imprisoned for the rest of his life."
+        },
+        {
+          "name": "Robert of Bellême",
+          "title": "Robert of Bellême",
+          "type": "person",
+          "note": "No Codex article: the most powerful and most feared of the Norman magnates, who commanded a wing and escaped the field."
+        },
+        {
+          "name": "William, Count of Mortain",
+          "title": "William, Count of Mortain",
+          "type": "person",
+          "note": "No Codex article: Robert’s chief supporter, captured here and imprisoned in England for life."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Tinchebrai was fought on 28 September 1106 in the Bocage of southern Normandy, between Henry I of England and his eldest brother Robert Curthose, Duke of Normandy. It lasted about an hour. Robert was captured on the field, along with the count of Mortain and some two hundred knights, and Henry took the duchy.",
+        "The date was not lost on contemporaries: it was forty years to the day since William the Conqueror had landed at Pevensey. Orderic Vitalis, writing in a Norman abbey, remarked that England had been won on that day and Normandy lost on it, and the symmetry gave the battle a weight in memory that its scale alone would not have earned."
+      ]
+    },
+    {
+      "title": "Background: the Conqueror’s division",
+      "paragraphs": [
+        "William the Conqueror died in 1087 having split his inheritance: Normandy, the patrimony, to his eldest son Robert; England, the conquest, to his second surviving son William Rufus; and a large sum of silver to the youngest, Henry, with no land at all. The two halves were governed by rival brothers while most of the great families held estates in both, which left every magnate with a divided allegiance and a reason to play one ruler against the other.",
+        "Robert was a competent soldier with no talent for government — generous, easily led, and unable to hold his barons to any settlement. In 1096 he pawned the duchy to Rufus for 10,000 marks and went on the First Crusade, where he fought with real distinction at Antioch and Jerusalem. He came home in 1100 with a reputation and a wealthy wife, to find that Rufus had been shot dead in the New Forest and Henry had taken the treasury at Winchester and the crown within three days."
+      ]
+    },
+    {
+      "title": "The war of 1101–1106",
+      "paragraphs": [
+        "Robert invaded England in 1101 and got as far as a negotiated settlement at Alton: he renounced his claim to the throne for an annuity, and both sides promised to restore disinherited supporters. Neither kept faith. Henry systematically destroyed Robert’s partisans in England — Robert of Bellême was stripped of his English lands and exiled in 1102 — and then began buying Norman barons with English money.",
+        "Normandy meanwhile fell apart. Churches were plundered, castles multiplied, and the duke could neither protect his own domains nor punish those who raided them; clerical opinion, which Henry carefully cultivated, came to see intervention as a rescue. Henry campaigned in the duchy from 1104, burned Bayeux and took Caen in 1105, and in 1106 was besieging the castle of Tinchebray, held for William of Mortain, when Robert brought his army to relieve it."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "Henry offered terms and Robert refused them, which the sources present as the duke’s last free choice. Henry then fought the battle in a way that was unusual for the period and characteristic of him: he dismounted the bulk of his knights to fight on foot alongside the infantry in close formation, keeping only a mounted force under Elias of Maine out of sight on the flank.",
+        "Robert’s front charged and drove into the dismounted line without breaking it. While the fight was locked, Elias brought the reserve in from the side; the ducal army collapsed almost at once. Robert of Bellême, commanding the rear, rode off without engaging — the one decision of his career that everyone recorded. The duke himself was taken, and so was William of Mortain, whom Henry never forgave and kept imprisoned for the rest of his life.",
+        "The account that carries the most weight is a letter written immediately afterwards by a priest of Fécamp who had his information locally; Orderic Vitalis and Henry of Huntingdon wrote later and inflate the numbers. Together they give an unusually clear picture of an early twelfth-century field action — dismounted knights holding, a hidden mounted reserve deciding it — which is why the battle interests military historians out of proportion to its size."
+      ]
+    },
+    {
+      "title": "Aftermath: a duke in custody for 28 years",
+      "paragraphs": [
+        "Robert was shipped to England and held for the rest of his life, at Devizes and then at Cardiff, in honourable but absolute confinement; he died in 1134 in his early eighties and was buried at Gloucester, where the painted effigy still lies. He was never tried, never deposed by any formal act, and never released, which troubled contemporaries enough that Henry took care to have the Norman magnates acknowledge his own rule as lawful.",
+        "The claim did not die with Robert’s liberty. His son William Clito, three years old in 1106 and allowed to go free, became the standing alternative to Henry for twenty years: backed at different times by Flanders, Anjou and Louis VI of France, he made Henry fight for Normandy again at Brémule in 1119 and was only removed by his death at the siege of Aalst in 1128."
+      ]
+    },
+    {
+      "title": "What Tinchebrai settled, and what it did not",
+      "paragraphs": [
+        "It reunited the Anglo-Norman realm and kept it together for a generation. Henry governed England and Normandy as one political unit from 1106 to 1135, developing the administrative machinery — the exchequer, the itinerant justices, a treasury that could pay for allies rather than fight for them — that made the English crown the most effectively governed in western Europe.",
+        "What it could not settle was the succession. Henry’s only legitimate son drowned in the White Ship in 1120; he compelled his barons to swear to accept his daughter Matilda, and at his death in 1135 they took his nephew Stephen instead. The union Tinchebrai forced together came apart within months, and the war that followed — the Anarchy, fought out at engagements such as the Battle of the Standard in 1138 — ended with Normandy in the hands of the counts of Anjou."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1087",
+      "title": "The Conqueror divides his inheritance",
+      "description": "Robert receives Normandy and William Rufus England, while the youngest son Henry is left silver and no land."
+    },
+    {
+      "date": "1096",
+      "title": "Robert pawns Normandy for a crusade",
+      "description": "He mortgages the duchy to Rufus for 10,000 marks and goes east, where he fights with distinction at Antioch and Jerusalem."
+    },
+    {
+      "date": "1100",
+      "title": "Henry seizes England",
+      "description": "Rufus is killed by an arrow in the New Forest and Henry takes the Winchester treasury and the crown within three days."
+    },
+    {
+      "date": "1101",
+      "title": "The settlement at Alton",
+      "description": "Robert invades England, then accepts an annuity to renounce his claim to the throne; neither brother keeps the terms."
+    },
+    {
+      "date": "1104–1105",
+      "title": "Henry campaigns in Normandy",
+      "description": "Buying Norman barons with English silver, he burns Bayeux and takes Caen as the duke’s government collapses."
+    },
+    {
+      "date": "28 September 1106",
+      "title": "The battle at Tinchebrai",
+      "description": "Henry dismounts his knights and holds; the hidden mounted reserve under Elias of Maine breaks the ducal army in about an hour."
+    },
+    {
+      "date": "1106–1134",
+      "title": "Robert Curthose in captivity",
+      "description": "Held at Devizes and then Cardiff for twenty-eight years, he dies in his eighties and is buried at Gloucester."
+    },
+    {
+      "date": "1120",
+      "title": "The White Ship",
+      "description": "Henry’s only legitimate son drowns in the Channel, undoing the succession that Tinchebrai had made possible."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the reunited realm into the Anarchy",
+    "battleSlug": "battle-of-the-standard",
+    "relationship": "chronological-follow-up",
+    "reason": "Tinchebrai put England and Normandy back under one ruler, but Henry I’s heir drowned in 1120 and the succession he arranged for his daughter Matilda collapsed the moment he died. The Standard in 1138 is the war that followed, fought by the barons Tinchebrai had made subjects of a single crown."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "Henry I of England",
+        "type": "person",
+        "slug": "henry-i-of-england",
+        "label": "Won here and took Normandy from his brother"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "The duchy annexed by the victor"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The kingdom reunited with the duchy"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings",
+        "label": "Fought forty years earlier to the day"
+      },
+      {
+        "title": "Battle of the Standard",
+        "type": "event",
+        "slug": "battle-of-the-standard",
+        "label": "The Anarchy that followed Henry I’s death"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Normandy",
+        "type": "house",
+        "slug": "house-of-normandy",
+        "label": "The brothers whose quarrel this ended"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Bog_Oak_Effigy_of_Robert_Curthose_(c._1051%E2%80%931134),_Gloucester_Cathedral_-_geograph.org.uk_-_8239942.jpg"
+    },
+    {
+      "title": "Letter of a priest of Fécamp on the battle of Tinchebrai",
+      "author": "Anonymous",
+      "type": "primary source",
+      "note": "Written within weeks and the most circumstantial account of the fighting: the dismounted knights, the hidden reserve and the roughly 225 knights captured with the duke. Its figures are far smaller than the chroniclers’ and are the ones modern historians prefer."
+    },
+    {
+      "title": "Historia Ecclesiastica, Book XI",
+      "author": "Orderic Vitalis",
+      "type": "primary source",
+      "note": "Written a generation later at Saint-Évroul. The fullest narrative of the war and the source of the forty-years-to-the-day observation, but his army totals are conventional exaggerations."
+    },
+    {
+      "title": "Battle of Tinchebray — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Tinchebray"
+    },
+    {
+      "title": "Henry I",
+      "author": "C. Warren Hollister",
+      "type": "book",
+      "note": "The standard modern biography, with the detailed reconstruction of the battle and of Robert’s long captivity."
+    }
+  ],
+  "aliases": [
+    "Battle of Tinchebray",
+    "Tinchebray",
+    "Tinchebrai"
+  ]
+}

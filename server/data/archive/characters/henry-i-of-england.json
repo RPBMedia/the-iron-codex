@@ -216,7 +216,14 @@
         "label": "First queen"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Tinchebrai",
+        "type": "event",
+        "slug": "battle-of-tinchebrai",
+        "label": "Captured his brother here and took Normandy"
+      }
+    ]
   },
   "sources": [
     {

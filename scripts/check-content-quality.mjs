@@ -48,10 +48,10 @@ const battleArticleNames = new Set(
 const BATTLE_BACKLOG = new Set([
   'battle of alfarrobeira',
   'battle of falköping',
-  'battle of fontenoy',
+  
   'battle of hova', 'battle of la higueruela', 'battle of lincoln',
-  'battle of sparrsätra', 'battle of tertry',
-  'battle of tinchebrai', 'battle of tinchebray', 'battle of toro', 'battle of valverde',
+  'battle of sparrsätra', 
+  'battle of toro', 'battle of valverde',
   'battle of visby',
   // audit-regex boundary artifacts (a longer real article name gets truncated / over-captured)
   'battle of ars', 'battle of visby finds', 'battle of visby find',
@@ -86,8 +86,8 @@ const BATTLE_BACKLOG = new Set([
   // before Kulikovo.
   'battle of blue waters', 'battle of saule',
   'battle of rudau', 'battle of strėva',
-  'battle of soissons', 'battle of the trent', 'battle of velbazhd',
-  'battle of the zab', 'battle of val-ès-dunes', 'battle of bornhöved',
+  'battle of the trent', 'battle of velbazhd',
+  'battle of the zab', 'battle of bornhöved',
   'battle of åsle', 'battle of épila',
 ])
 // Name particles that may sit BETWEEN capitalised name-words (not swallow the

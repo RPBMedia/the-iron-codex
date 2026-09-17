@@ -198,7 +198,14 @@
         "label": "His grandfather, whose empire was partitioned"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Fontenoy",
+        "type": "event",
+        "slug": "battle-of-fontenoy",
+        "label": "Defeated here by his brothers in 841"
+      }
+    ]
   },
   "sources": [
     {

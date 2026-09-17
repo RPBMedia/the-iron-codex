@@ -204,7 +204,14 @@
         "label": "His overmighty vassal, Duke of Normandy"
       }
     ],
-    "events": []
+    "events": [
+      {
+        "title": "Battle of Val-ès-Dunes",
+        "type": "event",
+        "slug": "battle-of-val-es-dunes",
+        "label": "Led the royal army that rescued his young vassal"
+      }
+    ]
   },
   "sources": [
     {

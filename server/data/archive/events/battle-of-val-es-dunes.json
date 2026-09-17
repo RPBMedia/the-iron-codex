@@ -1,0 +1,296 @@
+{
+  "id": "battle-of-val-es-dunes",
+  "type": "event",
+  "name": "Battle of Val-ès-Dunes",
+  "year": 1047,
+  "location": "The plain of Val-ès-Dunes, east of Caen in Normandy",
+  "eventLocation": "Open country between the Orne and the Muance, near Bellengreville",
+  "eventType": "Battle",
+  "conflict": "The revolt of the Norman viscounts against Duke William II",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Val%20%C3%A8s%20Dunes%20battle-en.svg",
+  "imageInfo": {
+    "caption": "A modern map of the Val-ès-Dunes campaign, drawn in 2009 from nineteenth-century reconstructions. It shows William and King Henry I of France converging from the east and the rebels breaking back towards Caen.",
+    "creator": "Pethrus (Wikimedia Commons)",
+    "date": "2009",
+    "source": "Wikimedia Commons (CC BY-SA 3.0)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val_%C3%A8s_Dunes_battle-en.svg",
+    "note": "Drawn from Edward A. Freeman’s narrative of the Norman conquest (1868) and Arcisse de Caumont’s topographical survey of Calvados (1850). No contemporary map or picture of the battle exists; the arrows are a reconstruction from William of Jumièges, William of Poitiers and Wace, who disagree, and the most circumstantial of those, Wace, wrote more than a century later."
+  },
+  "summary": "In 1047 Duke William II of Normandy, about nineteen and barely in control of his own duchy, joined his overlord Henry I of France to defeat a rebellion of the viscounts of the Bessin and the Cotentin at Val-ès-Dunes east of Caen. The victory ended the anarchy of his minority and began the consolidation that made Normandy strong enough to invade England.",
+  "details": "William had been duke since 1035, when his father Robert I died returning from Jerusalem and left a boy of about eight. His guardians were murdered one after another while the great families fought over the duchy. In 1046 the western lords, led by his cousin Guy of Burgundy, conspired to kill or replace him; William escaped from Valognes by night, appealed to King Henry I, and the two met the rebels in the open country of Val-ès-Dunes.",
+  "factions": [
+    "Duke William and King Henry I of France",
+    "The rebel viscounts of western Normandy"
+  ],
+  "leaders": [
+    {
+      "name": "William the Conqueror",
+      "faction": "Ducal and royal army",
+      "personId": "william-the-conqueror"
+    },
+    {
+      "name": "Henry I of France",
+      "faction": "Ducal and royal army",
+      "personId": "henry-i-of-france"
+    },
+    {
+      "name": "Guy of Burgundy",
+      "faction": "Rebels"
+    }
+  ],
+  "outcome": "Victory for William and Henry I. The rebel line broke and many were drowned crossing the Orne; Guy of Burgundy held Brionne for up to three years before surrendering and going into exile, and William began two decades of consolidation in Normandy.",
+  "participants": [
+    {
+      "side": "Duke William and King Henry I of France",
+      "strength": {
+        "display": "Unknown; no source counts the ducal and royal forces",
+        "confidence": "unknown",
+        "note": "None of the three narratives gives a figure. What they describe is a cavalry action between mounted retinues, which sets the scale in hundreds rather than thousands of knights on each side, with the royal army the larger contingent — but that is an inference from how the fighting is described, not a count anyone recorded."
+      },
+      "factions": [
+        {
+          "name": "Duchy of Normandy",
+          "title": "Duchy of Normandy",
+          "type": "location",
+          "slug": "duchy-of-normandy"
+        },
+        {
+          "name": "Kingdom of France",
+          "title": "Kingdom of France",
+          "type": "location",
+          "slug": "kingdom-of-france"
+        }
+      ],
+      "leaders": [
+        {
+          "name": "William the Conqueror",
+          "title": "William II, Duke of Normandy",
+          "type": "person",
+          "slug": "william-the-conqueror"
+        },
+        {
+          "name": "Henry I of France",
+          "title": "Henry I of France",
+          "type": "person",
+          "slug": "henry-i-of-france"
+        }
+      ]
+    },
+    {
+      "side": "The rebel viscounts of western Normandy",
+      "strength": {
+        "display": "Unknown; the rebel contingents are named but never counted",
+        "confidence": "unknown",
+        "note": "The sources name the leaders and their regions — the Bessin, the Cotentin, the Cinglais — without numbering their followings. The defection of Ralph Tesson of Thury before the fighting is presented as materially weakening them, which suggests contingents small enough for one lord’s change of side to matter."
+      },
+      "factions": [
+        {
+          "name": "The lords of the Bessin, the Cotentin and the Cinglais",
+          "title": "The lords of the Bessin, the Cotentin and the Cinglais",
+          "note": "No Codex article: the western Norman lordships that repudiated the young duke’s authority, the part of Normandy furthest from ducal control during the minority."
+        }
+      ],
+      "leaders": [
+        {
+          "name": "Guy of Burgundy",
+          "title": "Guy of Burgundy",
+          "type": "person",
+          "note": "No Codex article: William’s cousin, lord of Brionne and Vernon, whom the rebels intended to make duke."
+        },
+        {
+          "name": "Nigel, viscount of the Cotentin",
+          "title": "Nigel, viscount of the Cotentin",
+          "type": "person",
+          "note": "No Codex article: leader of the Cotentin contingent, later reconciled to William."
+        },
+        {
+          "name": "Ranulf, viscount of the Bessin",
+          "title": "Ranulf, viscount of the Bessin",
+          "type": "person",
+          "note": "No Codex article: lord of Bayeux country and one of the principal conspirators of 1046."
+        },
+        {
+          "name": "Haimo Dentatus of Creully",
+          "title": "Haimo Dentatus of Creully",
+          "type": "person",
+          "note": "No Codex article: rebel lord killed in the fighting, remembered for attacking the king’s person."
+        }
+      ]
+    }
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Val-ès-Dunes was fought in 1047 on open ground east of Caen, between the young Duke William II of Normandy supported by his overlord King Henry I of France, and a confederacy of the viscounts of western Normandy who wanted him replaced by his cousin Guy of Burgundy. The rebels were broken and driven back towards the Orne, where the sources say many drowned at the crossings.",
+        "It was not a large battle by the standards of the century, and it did not end resistance at a stroke — Brionne held out for years afterwards, and William spent the 1050s fighting Anjou and eventually the same King Henry who saved him here. What it ended was the possibility that the duchy would dissolve. From 1047 William was a duke who could enforce his will, and nineteen years later that duchy launched the invasion of England."
+      ]
+    },
+    {
+      "title": "Background: a duke who was a child",
+      "paragraphs": [
+        "William became duke in 1035, aged about eight, when his father Robert I died at Nicaea on the way back from Jerusalem. He was illegitimate, the son of Herleva of Falaise, and his succession depended on oaths Robert had extracted from the Norman magnates before he left. Those oaths held only as long as the men who guaranteed them lived.",
+        "They did not live long. His guardian Alan of Brittany died in 1040, probably poisoned; Gilbert of Brionne was murdered; Turchetil was killed; and Osbern the steward had his throat cut in the duke’s own chamber at Vaudreuil while the boy slept nearby. The ducal demesne was plundered, castles went up without licence, and private war became normal. The Normandy of these years was not a principality in crisis so much as a collection of lordships doing as they pleased."
+      ]
+    },
+    {
+      "title": "The conspiracy of 1046",
+      "paragraphs": [
+        "By 1046 the western lords had settled on a candidate. Guy of Burgundy was William’s first cousin through his aunt Adeliza, held Brionne and Vernon by William’s own grant, and had a legitimate birth to set against the duke’s bastardy. Ranulf of the Bessin, Nigel of the Cotentin, Haimo Dentatus of Creully and Grimoald of Plessis joined him.",
+        "The plot came to a head while William was hunting near Valognes, deep in hostile country. Warned at night — by a fool named Golet in Wace’s twelfth-century telling, which is the only account of the detail — he rode alone through the dark, forded the Vire at low tide, avoided Bayeux, and reached Falaise. He then did the one thing that could change the odds: he went to his overlord. Henry I of France had every reason to prefer a dependent young duke to a strong confederacy on his border, and brought the royal army into Normandy."
+      ]
+    },
+    {
+      "title": "The battle",
+      "paragraphs": [
+        "The two forces met in the treeless rolling country between the Orne and the Muance, near the villages of Bellengreville and Conteville. The fighting was a cavalry affair, decided in a series of charges rather than by manoeuvre: the sources describe individual encounters, not lines. Haimo Dentatus unhorsed the king and was killed by the royal household; William is credited with unseating a Cotentin knight in the first shock.",
+        "Two things decided it. Ralph Tesson of Thury, who had sworn with the rebels, changed sides before the engagement — by Wace’s account he kept his oath to strike William by tapping him with his glove, which is the kind of story that survives because it is memorable rather than because it is documented. And the rebel leaders never fought as one body: Guy’s contingent held longest, the others broke, and the retreat westward funnelled into the Orne crossings where the mills at Borbillon are said to have choked with bodies."
+      ]
+    },
+    {
+      "title": "Aftermath: the Truce of God and the siege of Brionne",
+      "paragraphs": [
+        "William did not exterminate the beaten. Nigel of the Cotentin was eventually reconciled and kept his viscounty; the confiscations were real but limited. Guy of Burgundy shut himself in Brionne, which William besieged — the accounts differ on whether for months or three years — with siege castles on both banks of the Risle until it surrendered; Guy was allowed to leave for Burgundy.",
+        "The more lasting instrument was the Truce of God proclaimed at the council of Caen in 1047, under the duke’s authority as much as the church’s. It banned private war from Wednesday evening to Monday morning and protected clergy, churches and the unarmed, and William’s enforcement of it made ducal peace a matter of ducal power rather than pious hope. The pattern of his later rule — legality asserted loudly, force applied without hesitation — is already visible in 1047."
+      ]
+    },
+    {
+      "title": "What it made possible",
+      "paragraphs": [
+        "The years after Val-ès-Dunes were not quiet. William took Domfront and Alençon from the count of Anjou, married Matilda of Flanders against papal objection, and then had to fight his rescuer: Henry I of France, alarmed at what he had helped create, invaded Normandy and was beaten at Mortemer in 1054 and again at Varaville in 1057.",
+        "Out of twenty years of that came the thing that mattered in 1066: a duchy whose castles were licensed, whose magnates campaigned where the duke sent them, and whose mounted retinues had spent a generation fighting together. The army that crossed the Channel to win the Battle of Hastings was built in the wars that began on the plain east of Caen."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "1035",
+      "title": "William succeeds as a child",
+      "description": "Robert I dies at Nicaea returning from Jerusalem, leaving his illegitimate son of about eight as duke under sworn guardians."
+    },
+    {
+      "date": "1040–1045",
+      "title": "The guardians are killed",
+      "description": "Alan of Brittany, Gilbert of Brionne and Turchetil die in quick succession, and Osbern the steward is murdered in the young duke’s own chamber."
+    },
+    {
+      "date": "1046",
+      "title": "The western lords conspire",
+      "description": "Guy of Burgundy, Ranulf of the Bessin, Nigel of the Cotentin and Haimo Dentatus plan to replace William with Guy."
+    },
+    {
+      "date": "1046",
+      "title": "The night ride from Valognes",
+      "description": "Warned while hunting in hostile country, William rides alone to Falaise and then appeals to his overlord for the royal army."
+    },
+    {
+      "date": "1047",
+      "title": "The battle at Val-ès-Dunes",
+      "description": "The rebel cavalry breaks after Ralph Tesson changes sides, and the retreat is cut up at the Orne crossings."
+    },
+    {
+      "date": "1047",
+      "title": "The Truce of God at Caen",
+      "description": "A council under ducal authority bans private war for most of the week and puts the duke behind the peace of the church."
+    },
+    {
+      "date": "1047–1050",
+      "title": "Brionne besieged, Guy exiled",
+      "description": "William reduces Guy of Burgundy’s stronghold on the Risle with siege castles and lets him withdraw to Burgundy."
+    },
+    {
+      "date": "1054",
+      "title": "Henry I turns on Normandy",
+      "description": "The king who saved William at Val-ès-Dunes invades the duchy and is beaten at Mortemer, and again three years later at Varaville."
+    }
+  ],
+  "battleContinuity": {
+    "label": "Follow the Norman army to Hastings",
+    "battleSlug": "battle-of-hastings",
+    "relationship": "chronological-follow-up",
+    "reason": "Val-ès-Dunes gave William a duchy he actually controlled, and the twenty years of frontier war that followed turned its mounted retinues into a single instrument. In 1066 he used that instrument across the Channel, and the Battle of Hastings is what it was finally for."
+  },
+  "relatedEntries": {
+    "people": [
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Won his first battle here, aged about nineteen"
+      },
+      {
+        "title": "Henry I of France",
+        "type": "person",
+        "slug": "henry-i-of-france",
+        "label": "Brought the royal army to his vassal’s rescue"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "The duchy whose collapse this battle halted"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The overlord who intervened, and later invaded"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings",
+        "label": "What the army built after 1047 was used for"
+      }
+    ],
+    "houses": [
+      {
+        "title": "House of Normandy",
+        "type": "house",
+        "slug": "house-of-normandy",
+        "label": "The ducal line whose survival was at stake"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image source",
+      "url": "https://commons.wikimedia.org/wiki/File:Val_%C3%A8s_Dunes_battle-en.svg"
+    },
+    {
+      "title": "Gesta Normannorum Ducum, Book VII",
+      "author": "William of Jumièges",
+      "type": "primary source",
+      "note": "The earliest account, written within a generation and very brief. It establishes the rebellion, the royal intervention and the result, and supplies none of the anecdotes later writers are known for."
+    },
+    {
+      "title": "Roman de Rou",
+      "author": "Wace",
+      "type": "primary source",
+      "note": "Written more than a century later in verse, and the source of the best-known details — the night ride from Valognes, Ralph Tesson’s glove, the drowned men at the Orne mills. Wace knew the country and used local memory, but these episodes cannot be checked against anything contemporary."
+    },
+    {
+      "title": "Battle of Val-ès-Dunes — Wikipedia",
+      "author": "Wikipedia contributors",
+      "type": "encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Val-%C3%A8s-Dunes"
+    },
+    {
+      "title": "William the Conqueror",
+      "author": "David Bates",
+      "type": "book",
+      "note": "The standard modern biography, cautious about the Wace anecdotes and about how completely the victory settled the duchy."
+    }
+  ],
+  "aliases": [
+    "Val-es-Dunes",
+    "Battle of Val-es-Dunes",
+    "Battle of Valdesdunes"
+  ]
+}
