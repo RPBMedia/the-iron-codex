@@ -19,7 +19,7 @@
 |---|---|---|---|
 | Rulers programme | 0m | Appendix A | Not started — M0 to M13, the largest content programme |
 | Article UI / UX | 0o | Appendix B | Nearly done — U0–U3, U5 and U7 shipped; U4 and U6 need a live page and are the owner's to verify |
-| Civilizations | 0e | Appendix C | **Phase 0 done + first 2 articles live** — Pechenegs and Cumans resolved out of `locations`; Phase 1 drafts ready |
+| Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles live.** Next: Phase 4 regional expansion, one region per batch |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 
@@ -1268,13 +1268,54 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
      `Lombards` (Germanic people vs Italian region vs league). `seljuk-turks` is
      the sharpest: an article *named after a people* but *written as a state*.
 
-   **PHASE 1 DRAFTS READY 2026-09-17, NOT YET BUILT.** Two research agents
-   produced `drafts/civilizations-gothic.md` (1,600 lines — Goths, Visigoths,
-   Ostrogoths) and `drafts/civilizations-norse.md` (2,329 lines — Norse,
-   Vikings). `drafts/` is gitignored; these are working files, not archive
-   content. Both carry full section sets, metadata blocks, relationship lists
-   marked `[EXISTS: id]`/`[MISSING]` against the whole archive, Commons image
-   candidates verified by eye rather than by filename, and source lists.
+   **PHASE 1 SHIPPED 2026-09-17** (commit `b066af3`). Nine articles live:
+   Pechenegs, Cumans, Goths, Visigoths, Ostrogoths, Norse, Vikings, Romans,
+   Byzantines. Built by three agents from research drafts in `drafts/`
+   (gitignored working files, kept for the relationship lists and rejected
+   image candidates).
+
+   **Read `ostrogoths` first.** It is the article carrying the boundary rule
+   against a realm article that already exists, so it is where people/state
+   duplication would show.
+
+   **The boundary rule, as applied:** *if the sentence would still be true had a
+   different dynasty ruled, it belongs to the people; if it depends on who was
+   king, it belongs to the realm.* Ostrogoths' "Major Rulers" was cut from seven
+   kings to a pointer at `ostrogothic-kingdom` plus Amalasuintha, whose Roman
+   education of her son was blocked by Gothic nobles because it would unfit him
+   for war. **~150 further civilizations copy this split — it is still worth the
+   owner's eye.**
+
+   **Four things the gates caught, worth knowing before the next batch:**
+   1. `relTypeToCollection` declared `people` twice (mine), silently routing that
+      type to civilizations instead of characters. Latent — no article uses it.
+   2. `"Northmen"` claimed by both Norse and Vikings — the only unguarded
+      collision in 853 entries. Dropped from Vikings: *Nordmanni* named the
+      people, not the activity. **Note:** `gen-entity-links.mjs` re-reads curated
+      aliases from the previous generated file, so removing an alias from the
+      archive JSON alone does NOT clear it — it must also come out of
+      `entityLinks.js`.
+   3. **Filter drift.** Six of nine came back outside the closed sets ("Northern
+      Europe", "Iberia and Gaul", "Early to Late Middle Ages"). A free-text
+      filter axis does not fail, it fragments. `period`, `region` and
+      `culturalFamily` are now **enum-enforced** in the validator. A span goes in
+      `chronology`, never in `period`.
+   4. A render assertion of mine was wrong: it required an arms panel on every
+      civilization, generalising from the two steppe peoples who carry an object
+      standing in for heraldry. The Ostrogoths have none.
+
+   **`"Romans"` is guarded** — 65 articles contain the bare word, 20 inside
+   `byzantines` meaning the Byzantines themselves and 6 each in `pope-leo-iii`
+   and `sigismund-of-luxembourg` meaning the imperial title. Two targets, ties
+   return null.
+
+   **Gaps these articles exposed, each worth its own queue item:** no
+   `theoderic-the-great` (conspicuous — `ostrogothic-kingdom` leans on him and he
+   is central to the Romans article), no `visigothic-kingdom`, no `ravenna`, no
+   Amalasuintha, no Boethius/Cassiodorus/Symmachus, no Gregory the Great; and on
+   the Norse side no Lindisfarne 793 event and no `anglo-saxon-chronicle`
+   artifact — the conventional opening of the period, which both articles need to
+   link — plus Rollo, Hedeby, Birka, Brian Boru and Vladimir of Kyiv.
 
    **THE FIVE AMBIGUOUS CASES ARE DECIDED (owner, 2026-09-17).** The rule is
    general and is now in `CLAUDE.md`: *a people is a civilization; the polity
