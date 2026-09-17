@@ -214,21 +214,24 @@ for (const [collection, entries] of Object.entries(data)) {
     // rule, 2026-09-17, reported on `vikings` — nineteen sections, three
     // images, and it read as a wall of text).
     //
-    // A WARNING for now, not a hard failure, and deliberately so: 114 images
-    // are being added across nine articles as this lands, and failing the gate
-    // would block every run until the last one arrives — which would stop me
-    // verifying the earlier ones. Promote this to addFinding once coverage is
-    // complete. Leaving it a warning permanently would repeat the mistake this
-    // rule replaced: the superseded image ceiling drifted precisely because
-    // nothing enforced it.
+    // ARMED as a hard failure on 2026-09-17, once all 132 sections across the
+    // nine live articles carried an image. It shipped as a warning for exactly
+    // one batch, while 114 images were being added, so that an incomplete run
+    // could not block verification of the parts already done. That reason is
+    // spent, and leaving it a warning would repeat the failure of the rule it
+    // replaced: the superseded "1 main + 1-2 section images" ceiling drifted
+    // precisely because nothing enforced it.
     if (collection === 'civilizations') {
       const imaged = new Set((entry.sectionImages ?? []).map((image) => image.section))
       const bare = (entry.contentSections ?? [])
         .map((section) => section.title)
         .filter((title) => title && !imaged.has(title))
       if (bare.length) {
-        warnings.push(
-          `civilizations/${entry.id}: ${bare.length} section(s) carry no image — ${bare.slice(0, 4).map((t) => `"${t}"`).join(', ')}${bare.length > 4 ? ', …' : ''}. Every civilization section needs an image about that section (CLAUDE.md); where none honestly exists, merge the section rather than padding it.`
+        addFinding(
+          collection,
+          article,
+          'sectionImages',
+          `${bare.length} section(s) carry no image — ${bare.slice(0, 4).map((t) => `"${t}"`).join(', ')}${bare.length > 4 ? ', …' : ''}. Every civilization section needs an image about that section (CLAUDE.md). Where none honestly exists, merge the section rather than padding it: the no-filler rule outranks this one.`
         )
       }
     }
