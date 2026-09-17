@@ -1,0 +1,678 @@
+{
+  "id": "norse",
+  "type": "civilization",
+  "civilizationType": "cultural",
+  "priorityLevel": 1,
+  "name": "Norse",
+  "endonym": "dǫnsk tunga",
+  "aliases": [
+    "North Germanic peoples",
+    "Norsemen",
+    "Nordmenn",
+    "Northmen",
+    "Scandinavians of the Viking Age"
+  ],
+  "culturalFamily": "Germanic",
+  "period": "Early Middle Ages",
+  "region": "Scandinavia",
+  "chronology": "c. 550 – c. 1150",
+  "languages": [
+    "Proto-Norse, written in the Elder Futhark from about the second century",
+    "Old Norse, split into Old West Norse and Old East Norse, written in the Younger Futhark from about 800",
+    "Norn, the Norse of Orkney and Shetland, spoken into the eighteenth century",
+    "Latin, from the conversion onward, as a written and liturgical language"
+  ],
+  "religions": [
+    "forn siðr, the old custom — a practice with no scripture, no creed and no priesthood",
+    "Latin Christianity, adopted between the ninth and twelfth centuries at very different speeds in different places"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Osebergskipet_2016.jpg?width=1600",
+  "imageInfo": {
+    "caption": "The Oseberg ship, photographed in the Viking Ship Museum in Oslo in 2016. Built of oak about 820 and buried in a Vestfold mound in 834 as the grave of two women.",
+    "creator": "Petter Ulleland (Wikimedia Commons)",
+    "date": "photographed 30 November 2016; the ship built about 820, buried 834",
+    "source": "Wikimedia Commons (Viking Ship Museum, Oslo)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osebergskipet_2016.jpg",
+    "note": "The single best surviving object of Norse material culture, and the right image for a people rather than a raid: the Oseberg vessel was a grave, not a warship, and the two women buried in it — one aged roughly seventy to eighty, one about fifty — were accompanied by a cart, sledges, beds, looms, textiles and fifteen horses. The hull's overlapping clinker-laid strakes and shallow draught are the technology the whole Norse world rested on, and the carved prow gives its name to the earliest of the Norse animal-art styles. Dendrochronology dates the ship's construction to about 820 and the burial to 834. Licensed CC BY-SA 4.0."
+  },
+  "summary": "The Norse were the North Germanic peoples of Scandinavia and their overseas settlements between roughly 550 and 1150 — a society of scattered farms, assemblies, shipwrights and slaveholders whose language, law and custom reached from Greenland to Kyiv. Most Norse people never raided anything.",
+  "overview": "A farming society with no state, no scripture and no capital, which produced the finest ships in Europe and used them to reach four continents.",
+  "knownFor": [
+    "Built the clinker-hulled, shallow-draught sailing ship that turned the sea from a barrier into a road.",
+    "Settled the Faroes, Iceland and Greenland, and reached Newfoundland, where wood was cut at L'Anse aux Meadows in 1021.",
+    "Governed by assembly rather than decree: Iceland ran courts and a national parliament for three centuries with no king and no executive.",
+    "Held slavery at the centre of the economy, and supplied the markets at Dublin and Hedeby.",
+    "Left roughly six thousand runestones, most of them raised after the conversion, and the Icelandic manuscripts without which Norse myth would be fragments."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Norse were the North Germanic peoples of Scandinavia and the lands they settled between roughly 550 and 1150: a society of scattered farmsteads and very long coastlines, bound together not by a state but by a shared language, a common body of custom, a religious practice with no priesthood, and an extraordinary competence in wood and water. At its widest extent the Norse world reached from a turf farmhouse at L'Anse aux Meadows in Newfoundland to the runic graffiti a bored guardsman scratched into a marble parapet in Hagia Sophia.",
+        "The great majority of Norse people spent their lives within a day's walk of the farm where they were born. They kept cattle and sheep, grew barley and oats on thin soils, smelted iron out of bog ore, wove wool through the winter, argued their disputes at local assemblies, and owned or were owned. A minority went to sea for profit, and a minority of those went to sea for plunder. That minority gave the age its English name, and this article is deliberately not about them: a víkingr was a man on a raiding voyage, an occupation rather than an ancestry, and the phenomenon has its own page.",
+        "What makes the Norse a civilization rather than three national histories is the reach and coherence of the culture. A trader at Hedeby, a Gotlandic farmer with a chest of Islamic dirhams under his floor, an Icelandic lawspeaker reciting a third of the law from memory at the Lögberg, and a Varangian drawing Byzantine pay all spoke mutually intelligible dialects of one language, reckoned kinship and compensation in comparable ways, and recognised the same assembly principle. They also raided and enslaved one another. Norse identity was a family resemblance, not a nation."
+      ]
+    },
+    {
+      "title": "Names and Identity",
+      "paragraphs": [
+        "No Viking-Age Scandinavian described himself as Norse. The word is a modern English borrowing by way of Dutch, and it works here as a scholarly convenience — a label for a cultural community whose members carved themselves up quite differently. They named themselves by region and descent: Danir, Svíar, Norðmenn (men of the north way), Gautar, Gotar. Local loyalty ran deeper still, down to the assembly district and the kin-group, the ætt.",
+        "The most revealing self-description is linguistic. Across the whole Norse world the shared language was called dǫnsk tunga, the Danish tongue — used by Icelanders with no Danish loyalty whatsoever, and appearing in the law book Grágás as a legal category rather than a compliment to Denmark. The alternative, norrœnt mál, northern speech, is geographic rather than ethnic. It is characteristic of this society that the nearest thing it had to a name for itself was a name for the way it spoke.",
+        "Outsiders were less careful and far more prolific, and the number of names is itself evidence of how the Norse were met — piecemeal, from the sea, by people with no interest in ethnographic precision. Frankish and English writers called them Dani, Danes, regardless of where they came from, so that the Danes of Northumbria in the Anglo-Saxon Chronicle may well have been Norwegians. The Frankish annalists wrote Nordmanni, north-men, a word that drifted into the name of a French duchy and then of the people who conquered England. Old English and Latin sources often identified them by religion instead: hæþene men, pagani, the heathen men who destroyed Lindisfarne. That is the vocabulary of the victims.",
+        "Further afield the labels get stranger. Irish annals called them gaill, foreigners, distinguishing Finngaill from Dubgaill, fair and dark foreigners; these were long read as Norwegians and Danes, but Clare Downham has argued that they are dynastic labels attached to rival groups rather than ethnic ones, and the older reading should now be treated as superseded rather than settled. Andalusi and North African writers reached for al-Majūs, the legal-religious term for fire-worshippers, when the fleets took Seville in 844, because they had no other word. Adam of Bremen records Ascomanni, ash-men, from the ash wood of their ships. In the east, Greek, Slavic and Arabic writers wrote Rhos and Rūs, probably from Old Norse róðr, rowing, by way of Finnic Ruotsi, still the Finnish word for Sweden — and within three generations that name belonged to a Slavic-speaking polity. Those in contracted Byzantine service were Væringjar, Varangoi, sworn men, from vár, a pledge.",
+        "One negative point matters more than all of these. The word víkingr was never a name for this people. It named an activity with a beginning and an end — one went í víking, on a raiding voyage, and came back from it — and it is not how anyone described the population of a Scandinavian valley. Even where Scandinavians carved the word themselves it carries no ethnic sense: the Bro stone in Uppland, raised in the eleventh century by Ginnlaug for her husband Ôzurr, son of Jarl Hákon, says that he was víkinga vǫrðr, which is either a guard against vikings or a guardian of them, meaning their commander. Runologists have not settled which, and the honest reading is that the word described what men did at sea, not who they were. In England the word was in use before any Scandinavian fleet gave the English cause for it: the Épinal-Erfurt glossary, copied about 700 or at latest in the early eighth century, glosses Latin piraticum with the Old English compound wīcingsceaða, a piratical raider, nearly a century before Lindisfarne."
+      ]
+    },
+    {
+      "title": "Origins",
+      "paragraphs": [
+        "The Norse did not arrive in Scandinavia. There is no migration to narrate and no origin legend that survives scrutiny: the genealogies in Ynglingatal and Heimskringla that run Scandinavian kings back to the god Freyr are dynastic literature, and Snorri Sturluson's rationalising claim that the Æsir were migrants out of Asia Minor is a thirteenth-century Christian author explaining away gods he did not believe in.",
+        "What the evidence shows is long local development. The Roman Iron Age left Scandinavia rich in imports — glass, bronze vessels, denarii — and in weapon deposits like Illerup Ådal and Nydam, where defeated armies' equipment was deliberately destroyed and sunk in bogs, including the Nydam oak ship of about 320, a large rowing vessel with no mast. The Migration Period that followed was violent: gold hoards multiply, hillforts appear, and the ring-fort at Sandby borg on Öland preserves a massacre left unburied around 500.",
+        "Then, around 536, something went badly wrong. A dust veil, probably volcanic and compounded by a second eruption in 539 or 540, cut northern summers for years; tree rings and Greenland ice cores record it, and Mediterranean writers describe a dimmed sun. Scandinavian pollen sequences show farms abandoned over large areas, and gold deposition spikes as though people were making increasingly desperate offerings. Bo Gräslund and Neil Price have argued that this is the historical kernel behind the fimbulvetr, the great winter before Ragnarök in later myth. The literary link is suggestive rather than proven, since six centuries separate the eruption from the poem, but the demographic shock itself is not in doubt.",
+        "Out of the recovery came the world the Norse inherited. In Uppland the boat-graves at Vendel and Valsgärde hold helmets, ring-swords and horse gear matching the Sutton Hoo burial in Suffolk, evidence of a warrior elite in regular contact with the North Sea world. In Jutland the Kanhave canal was cut across Samsø in 726 and the main phase of the Danevirke rampart built in 737, both dated by their timbers, both demanding mobilised labour on a scale implying real authority long before any king can be securely named. And the ships changed: the decisive innovation was not the hull but the sail, which appears late — no Scandinavian find before the Gotland picture stones of roughly the seventh century shows a mast — and everything that follows depends on it."
+      ]
+    },
+    {
+      "title": "Homeland and geography",
+      "paragraphs": [
+        "Two facts about Scandinavia explain most of what follows: there is not much good farmland, and there is an enormous amount of coast.",
+        "Denmark — Jutland, Funen, Zealand, and the provinces of Skåne, Halland and Blekinge, which were Danish throughout the Middle Ages and became Swedish only in 1658 — is the agricultural heart. It is low, fertile and easily crossed, which made it the first part of the Norse world to develop something resembling a state and also the most exposed to Frankish and later German pressure. The Danevirke exists because the Danish realm had a land frontier and nobody else did.",
+        "Norway is the opposite: a coast of fjords and islands running some 2,500 kilometres, with arable pockets at the fjord heads and mountains behind, so that settlement strung itself along the water. The country's name is a sailing direction — Norðvegr, the north way, the sheltered inner lead running behind the skerries from Viken up to Hålogaland. A society whose name is a shipping route is a society organised by ships. Sweden divided between Svealand around Lake Mälaren, then a navigable inlet of the Baltic rather than a lake, and Götaland to the south; east of both lay Gotland, an island of farmer-merchants whose soil has given up some seven hundred silver hoards.",
+        "What the region exported was not food. Iron came from bog ore smelted in Norwegian and Swedish forests; soapstone was quarried for cooking vessels; whetstones from Eidsborg in Telemark crossed the North Sea in bulk; and from the far north and the Atlantic islands came furs, antler, walrus ivory, walrus-hide ship rope, eiderdown and dried fish. The Norse sold what the forest, the mountain and the sea produced, and bought silver, silk, glass, wine and weapons."
+      ]
+    },
+    {
+      "title": "Migration and settlement",
+      "paragraphs": [
+        "Norse expansion between about 790 and 1050 was not one movement and had no single direction. It is better understood as four separate enterprises carried out by people who happened to speak the same language.",
+        "The North Atlantic was colonisation of empty or nearly empty land. The Faroes came first — the monk Dicuil claimed in 825 that Irish hermits had preceded the Norse, and recent palaeoecological work supports some pre-Norse presence. Iceland's landnám began around 870; Íslendingabók and Landnámabók name Ingólfr Arnarson as the first settler and give 874, which is twelfth- and thirteenth-century tradition, but the tephra layer from the Vatnaöldur eruption of 877 lies at or beneath the base of the earliest settlement horizons and brackets the date well. Greenland followed in 985 or 986 under Erik the Red, and from Greenland came the voyages to Helluland, Markland and Vinland, whose one excavated proof is the turf building complex at L'Anse aux Meadows, where wood cut with metal tools has been dated to exactly 1021 by matching the cosmic-ray spike of 993 in the tree rings.",
+        "The British Isles and Ireland saw raiding become conquest and then settlement. Orkney and Shetland were so thoroughly settled that they spoke Norn into the modern era and retain almost no pre-Norse place-names. The Danelaw's place-names in -by, -thorpe, -thwaite and -toft map a dense rural population rather than a garrison. In Ireland, Norse settlement produced the island's first towns — Dublin above all, founded as a longphort in 841 — and a lasting Norse-Gaelic population whose dynasties ruled in Dublin, the Isles and York.",
+        "Normandy was a grant rather than a conquest. Around 911 the Frankish king Charles the Simple came to terms with a Scandinavian leader named Rollo on the lower Seine, in an agreement conventionally called the treaty of Saint-Clair-sur-Epte. No text of it survives, and the fullest account comes from Dudo of Saint-Quentin writing a century later as a paid panegyrist of Rollo's descendants, so the ceremony reported there is not evidence. The outcome is not in doubt: within four generations those settlers spoke French, held land by Frankish custom and fought on horseback.",
+        "The East was primarily commercial. Scandinavians were at Staraya Ladoga from around 750, before Lindisfarne, drawn first by furs and then by Islamic silver, and worked the Volga to the Bulgars and the Caspian and the Dnieper to Constantinople. Settlement there was thin and assimilation fast: Helgi, Helga and Ingvarr appear in the ruling house of the Rus' as Oleg, Olga and Igor, and Igor's son carries the Slavic name Svyatoslav. One correction is worth making plainly, because the popular image gets it backwards: the ship that carried settlers was not the longship. Families, livestock and cargo crossed the Atlantic in the knarr, a broader, deeper, higher-sided vessel that sailed rather than rowed, the type represented by Skuldelev 1, one of five ships scuttled in Roskilde Fjord around 1070 as a blockade and raised in 1962."
+      ]
+    },
+    {
+      "title": "Political organization",
+      "paragraphs": [
+        "There were no Norse states in the ninth century, and the word kingdom flatters what existed. Power was personal, local and revocable. Above the assembly stood men who could attract and keep followers: hersar and goðar with local standing, jarlar with regional command, and konungar, kings, of whom there were a great many — Norway alone had a dozen or more petty kings at various times.",
+        "Kingship was not straightforwardly hereditary. Any man descended in the male line from a royal ancestor could claim, including sons born outside marriage, which mattered enormously; and a claim had to be made good by acclamation at an assembly and by the ability to feed and pay a following. That is why Norse political history reads as a long series of succession wars. The system had no rule for excluding candidates, and it produced the Norwegian civil wars of 1130 to 1240 as surely as it produced Harald Hardrada.",
+        "Denmark consolidated first and furthest. Godfred, who confronted Charlemagne between 804 and his death in 810, moved the merchants of Reric to his own emporium and reinforced the Danevirke, and the Royal Frankish Annals treat him as a ruler with whom an emperor must negotiate. By the 960s Harald Bluetooth was capable of something more impressive still: the ring fortresses at Trelleborg, Fyrkat, Aggersborg, Nonnebakken and Borgring share one design of exacting geometric precision, and their timbers were felled in 980 and 981 — a programme executed across the whole realm in two seasons. Whatever Harald's authority actually was, it could command labour, timber and surveying on a scale no saga conveys.",
+        "Norway's unification is a much weaker story than the tradition allows. Heimskringla has Harald Fairhair conquer the country and win it at the Battle of Hafrsfjord, conventionally placed about 872. The battle probably happened; the consolidated kingdom did not. Harald's real power was regional, the Jarls of Lade in Trøndelag remained effectively independent for generations, and Norway was not governed as a unit before the eleventh century at the earliest. Sweden consolidated last of all: kings of the Svear at Uppsala and kings of the Götar are attested separately well into the eleventh century. Iceland is the outlier and the most interesting case — courts, law and a national assembly, with no king, no army and no executive at all, from the landnám until it accepted the Norwegian crown in 1262."
+      ]
+    },
+    {
+      "title": "The household",
+      "paragraphs": [
+        "The unit of Norse society was the farm and the household on it, and the unit of politics was the kin-group. A household meant the farmer and his wife, their children, dependent relatives, hired workers and slaves, living largely in one building, and expected to be self-sufficient in food, cloth, iron and timber. The annual round — lambing, sowing, the summer pasture, haymaking, autumn slaughter, and the long indoor winter of weaving and repair — structured everything else.",
+        "Within the household, authority divided in a way that is consistently attested rather than romantic. The farmer controlled land, external dealings and the assembly. The húsfreyja, the mistress of the house, controlled the interior economy: food stores, dairy, textile production, and the keys, which appear so often in women's graves that they function as a status marker. Textile work was not a minor domestic craft. A single large sail represented a colossal investment of woollen yarn and years of labour, which means Norse maritime expansion rested on women's work as surely as on shipwrights'.",
+        "Honour governed conduct between households. Insult, níð, required an answer; killing required either compensation or vengeance; and both were negotiable at law. The formal duel, hólmganga, appears throughout the sagas and was prohibited in Iceland in the early eleventh century according to later tradition. Feud was not disorder but a system, with its own arbitrators and a strong social preference for settlement over escalation — and the Icelandic sagas are in large part a literature about how badly it goes when honour outruns interest.",
+        "Marriage was a contract between families involving a bride-price, mundr, paid by the groom's family, and a dowry, heimanfylgja, from the bride's, both of which remained the woman's property. Icelandic law permitted a woman to divorce, and the sagas depict women doing so. Concubinage was common and the children of concubines could inherit status, which is one reason royal succession was so violently contested."
+      ]
+    },
+    {
+      "title": "Rank, and the people who were owned",
+      "paragraphs": [
+        "Norse law codes recognise three broad conditions, and the Eddic poem Rígsþula dramatises them as three sons fathered by the god Rígr: Þræll the slave, dark and thick-handed; Karl the farmer; and Jarl the noble, who learns runes and war. Preserved in a fourteenth-century manuscript, it is an ideological scheme rather than a census — but the three ranks it names are the ones the laws use.",
+        "The elite was a thin stratum of families with inherited land, followings and ships, whose wealth came from land rent, tribute, trade and plunder and was displayed by giving it away: feasting, arm-rings, weapons, and burials like Oseberg. Skaldic poetry was court art, and a skald in a lord's hall was entertainment and public relations at once. Beneath them the bœndr, the free farmers, were the backbone of the system: they held land, bore arms, attended the þing, and their consent was the currency of political power. They ranged from substantial landowners to tenants scraping a living.",
+        "Slavery was not marginal to this society; it was one of its structural foundations, and popular accounts almost invariably leave it out. A þræll, or a female ambátt, was property — could be sold, could be killed by an owner with limited consequence, and appears in the law codes as a valued object rather than a person with standing. People became slaves by capture, by birth, by debt and by judicial sentence, and were freed as leysingjar, freedmen who remained bound by continuing obligations to their former owners for generations.",
+        "The evidence for the scale of it is commercial. Dublin, founded in 841, became one of the major slave markets of western Europe, supplied by raiding in Ireland and Britain and selling on to the Continent and beyond. Hedeby moved people south from the base of Jutland. Arabic geographers including Ibn Ḥawqal describe the flow of ṣaqāliba — a word meaning Slavs that had broadened to mean slaves generally — north to south into the caliphates, and Ibn Fadlan, watching Rus' merchants camped on the Volga in 922, lists enslaved girls among their goods. When this article describes the silver in Scandinavian hoards, it is describing, in large part, the price of people."
+      ]
+    },
+    {
+      "title": "Law and the assembly",
+      "paragraphs": [
+        "Norse law was spoken before it was written, and it was made by assemblies rather than by rulers. This is the most genuinely distinctive institution the culture produced.",
+        "The þing met at fixed places and times — a local one for a district, a regional one for a province. Free men attended, cases were pleaded, verdicts were delivered by panels of neighbours, and settlements were agreed. Norway's four great provincial assemblies, the Gulaþing, Frostaþing, Eiðsivaþing and Borgarþing, each gave its name to a law; Denmark had landsting at Viborg, Ringsted and Lund; Sweden elected its kings at the Mora stone, after which the new king rode the Eriksgata to be accepted province by province. That a king could be accepted by assemblies, and in principle refused, is the essential point.",
+        "Iceland took the principle furthest. From about 930 the Alþingi met each June at Þingvellir, in the rift valley east of modern Reykjavík, where the Lögberg, the Law Rock, gave an assembly the acoustics of a natural amphitheatre. A lǫgsǫgumaðr, lawspeaker, was elected for three years and recited one third of the law aloud from memory each year, so the entire legal corpus was performed in public every three years. There were courts of increasing seniority and, after about 1005, a Fifth Court for deadlocked cases. There was no king, no executive and no police: judgments were enforced by the winning party and its allies, which worked until the parties grew too powerful, at which point it produced the thirteenth-century Sturlung Age and the end of the Commonwealth.",
+        "The law itself was written down in Iceland in the winter of 1117 to 1118 according to Ari Þorgilsson, and survives as Grágás, grey goose, in two thirteenth-century manuscripts, Konungsbók and Staðarhólsbók. It is vast, intricate and startlingly specific — on inheritance, on tithes, on the rights of dependants, on the killing of another man's slave, and on who is entitled to what share of a beached whale. Its two grades of outlawry organise the penalties: fjǫrbaugsgarðr, lesser outlawry, meant three years' exile, while skóggangr, full outlawry, meant permanent exclusion from law and society, with the outlaw's killing legal and his maintenance a crime."
+      ]
+    },
+    {
+      "title": "Warfare",
+      "paragraphs": [
+        "Norse warfare was amphibious, seasonal and organised around ships and followings rather than standing forces. The basic unit was the lið, the war-band a leader could raise and feed, bound to him by gift, oath and the expectation of plunder; larger campaigns were coalitions of such bands, which could and regularly did break up.",
+        "The one genuinely institutional structure is the leiðangr, the Danish leding, a naval levy under which coastal districts — skipreiður in Norway — were each obliged to furnish, man and provision a ship for a set period. It is described clearly in the eleventh- and twelfth-century provincial laws and is probably older in practice than in text. It turned a maritime society into a mobilisation system, and it is the mechanism behind fleets of the size the sources report for Cnut the Great and Harald Hardrada.",
+        "On land, Norse armies fought on foot in a shield wall, the skjaldborg, shields overlapping, spears in the front rank, with missiles and insults preceding contact. Later Icelandic sources describe a wedge formation, the svinfylking or boar's snout, attributed to Odin, though how much of that is tactical description and how much learned borrowing from Roman literature is disputed. Cavalry was not a Norse arm at all — worth stating, because the Normans who won at Hastings in 1066 were the descendants of Norse settlers fighting in a way no Viking-Age Scandinavian army ever did.",
+        "At sea, battle was not manoeuvre but boarding: fleets lashed their ships together to make fighting platforms and contested them like a field, which is how the sources describe Svolder in 1000 and Nissa in 1062. Ships were transport and mobility, not weapons, and ramming was not a Norse tactic. As for berserkir, the word appears in ninth-century skaldic verse, in Þórbjǫrn hornklofi's Haraldskvæði, alongside úlfheðnar, wolf-coats, and later prose presents them as warriors in a transformed and frenzied state associated with Odin. Icelandic law banned going berserk, which suggests the behaviour was socially real in some form. The familiar explanation that they ate fly agaric is a nineteenth-century conjecture with no support in any medieval source."
+      ]
+    },
+    {
+      "title": "Weapons and armour",
+      "paragraphs": [
+        "Weapons were legal and social objects as much as military ones. Free men were expected to own them, law codes specify the minimum a man should bring to the levy, and they are the commonest grave goods in male burials. The spear, spjót, was the most widespread — cheap, effective in a shield wall, and the weapon of Odin, whose Gungnir is thrown over an enemy host to dedicate it — and socketed iron heads survive in great numbers, some with silver-inlaid sockets.",
+        "The sword was expensive and prestigious: double-edged, about ninety centimetres overall, worn on a baldric. Early blades were pattern-welded, and from the ninth century the best were Frankish imports, a substantial group carrying the inlaid blade inscription of the Ulfberht group. These were made in the Rhineland and reached Scandinavia in quantity despite the Capitulary of Diedenhofen of 805, which forbade the export of arms to the north — evidence both that the trade existed and that it was hard to stop. Jan Petersen's 1919 typology of hilts remains the standard framework for sorting them.",
+        "The axe was the weapon of the poor and, later, of the elite. The bearded axe of the ninth and tenth centuries gave way in the eleventh to the great two-handed Dane axe carried by the housecarls of Cnut and Harold Godwinson and shown repeatedly on the Bayeux Tapestry. The Mammen axe, from a chamber grave in Jutland whose timbers were felled in the winter of 970 to 971, is inlaid with silver and is the type object of an entire art style. Shields were round, about eighty to ninety-five centimetres across, made of butted lime or fir boards with an iron boss over a central hand-grip; sixty-four of them were found with the Gokstad ship, mounted along the sheer strake and painted alternately yellow and black.",
+        "Body armour was rare. Mail required thousands of individually riveted rings and was correspondingly expensive, so most men fought in ordinary clothing, perhaps with a padded garment. Helmets are scarcer still. There is exactly one substantially preserved helmet from Viking-Age Scandinavia — the iron helmet from Gjermundbu in Ringerike, from a grave of about 950 to 1000, with a rounded cap of four plates, a spectacle guard over the eyes, and no horns. Nothing in the entire corpus of Viking-Age finds or contemporary depictions shows a horned war helmet. The horns were supplied by the nineteenth century: Carl Emil Doepler designed horned headgear for the first complete Ring cycle at Bayreuth in 1876, and Scandinavian Romantic illustration, including Gustav Malmström's images for Tegnér's Frithiofs saga, had been putting horns and wings on Norse heroes for decades before that. Horned helmets do exist in Scandinavia, such as the pair from Veksø in Denmark, but they are Bronze Age ceremonial objects roughly a thousand years older than any Viking."
+      ]
+    },
+    {
+      "title": "Religion before Christianity",
+      "paragraphs": [
+        "What the Norse practised before Christianity was not a religion in the sense the word usually carries. There was no scripture, no creed, no doctrine of salvation, no institutional church, and no word for religion. The term the sources use is siðr, custom — and after the conversion people distinguished forn siðr, the old custom, from inn nýi siðr, the new one. It was something you did, at particular places, for particular outcomes.",
+        "Practice was local and led by men who already held secular power: a chieftain or goði presided over sacrifice, blót, as part of his authority, and the hall rather than a temple was the ordinary setting. Offerings secured good harvests, victory and peace, and the ritual meal shared afterwards was the point of the gathering. Domestic and landscape cult mattered as much as anything grander — offerings to land-spirits, the landvættir, to ancestors at grave mounds, and to the dísir.",
+        "The gods as we know them come overwhelmingly from Iceland two centuries later, and that has to be said every time they are named. Óðinn, god of poetry, kingship, war and knowledge bought at a price; Þórr, defender of gods and men, whose hammer Mjǫllnir appears as a pendant amulet in growing numbers through the tenth century, very plausibly as a deliberate counterpart to the cross — a soapstone mould from Trendgården in Jutland casts hammers and crosses side by side, which tells you exactly what the religious market looked like at that moment. Freyr and Freyja, associated with fertility, wealth and seafaring. Loki, who is not a devil and whose narrative function is to generate trouble and then resolve it.",
+        "Magic was real and gendered. Seiðr, a divinatory and manipulative practice, belonged principally to women, and for a man to perform it attracted the charge of ergi, unmanliness — Snorri says so explicitly even while attributing the art to Odin. Neil Price has connected this to a recognisable archaeological category: graves of women buried with iron staffs, such as Fyrkat grave 4 in Denmark, which also held henbane seeds and a silver amulet. Burial practice itself was extraordinarily varied — cremation and inhumation, flat graves and mounds, boat and ship burials, chamber graves — and the variation is the finding, because there was no orthodoxy to enforce uniformity. The most detailed description of any Norse funeral was written by a hostile outsider: Ahmad ibn Fadlan watched Rus' merchants cremate a chieftain in his ship on the Volga in 922 and recorded the ten days of preparation, the drinking, the sexual rituals, the killing of an enslaved girl by an old woman called the Angel of Death, and a Rus' man's mocking remark that Arabs were fools to bury their dead in the earth to be eaten by worms. It is unique, vivid, and evidence for exactly one funeral of Rus' on the Volga — never a template for Scandinavian practice."
+      ]
+    },
+    {
+      "title": "The conversion",
+      "paragraphs": [
+        "Christianity did not arrive in Scandinavia as a revelation. It arrived as diplomacy, trade, warfare and royal calculation, over roughly three centuries, and it was resisted, adopted, reversed and adopted again. The first sustained mission was Ansgar's: sent from the court of Louis the Pious, he reached Birka in 829 or 830 and returned in the early 850s, and his biographer Rimbert, writing in the 870s, describes a congregation of a few converts, a mission entirely dependent on royal permission, and a community that lapsed between visits. Harald Klak, a Danish claimant, had already been baptised in 826 in the emperor's presence as the price of Frankish backing — the pattern that would recur for two centuries.",
+        "The turning point in Denmark was Harald Bluetooth. On the larger of the two Jelling stones, raised about 965, the inscription records that Harald had the monument made for Gorm his father and Þyrvé his mother — that Harald who won for himself all Denmark and Norway, and made the Danes Christian. It is the earliest Scandinavian royal statement of Christianisation, and it is also a boast carved by the interested party: it records a policy, not a completed conversion. Widukind of Corvey adds the tale that a priest named Poppo convinced Harald by carrying hot iron unharmed, which is a conversion topos told of many rulers.",
+        "Norway's conversion was imposed by force and consolidated by a cult. Olaf Tryggvason, who ruled from 995 to 1000, and Olaf II Haraldsson, from 1015 to 1028, both used violence and both failed politically: Tryggvason died at Svolder in 1000 and Haraldsson was driven out and killed at the Battle of Stiklestad in 1030 attempting to return. Then the remarkable thing happened. Within a year of Stiklestad, Olaf was venerated as a saint, his relics were enshrined at Nidaros, and the Norwegian church and monarchy were both built on his cult. A defeated king became the perpetual king of Norway.",
+        "Iceland converted by a vote. In 999 or 1000, with the island split between Christian and heathen parties and armed confrontation at the Alþingi a real prospect, both sides agreed to submit the question to the lawspeaker Þorgeirr Ljósvetningagoði, who was himself a heathen. According to Ari Þorgilsson's Íslendingabók, written about 1122 to 1133 and the earliest and soberest account, Þorgeirr lay under his cloak for a day and a night and then declared that all should be baptised and that there should be one law, since a country with two laws would be torn apart; private sacrifice, the eating of horseflesh and the exposure of infants were permitted to continue for a time. Whatever one makes of the cloak, a society resolved a religious crisis by legal procedure in order to preserve its own legal unity, which is genuinely unusual in European religious history.",
+        "Sweden was last and slowest. Olof Skötkonung was baptised around 1008, but Uppsala remained a centre of the old practice into the later eleventh century — which is when Adam of Bremen describes a temple roofed in gold and a nine-yearly sacrifice of nine males of every living kind hung in a sacred grove. Adam never went there, wrote from hostile informants, and had a strong professional interest in depicting an unfinished mission field; excavation at Gamla Uppsala has found enormous mounds, a great hall and a kilometre-long row of massive posts, a monumental cult landscape, but not Adam's golden temple. Conversion did not erase the old world so much as file it: the Gosforth Cross in Cumbria carries scenes read as Ragnarök on the same shaft as the Crucifixion, and the Middleton crosses in Yorkshire show an armed warrior with his weapons on a Christian monument."
+      ]
+    },
+    {
+      "title": "Language and writing",
+      "paragraphs": [
+        "Old Norse is the best-documented early Germanic language after Old English, and it is documented in two very different ways: thousands of short runic inscriptions carved by people who spoke it, and a large body of manuscript literature written down centuries later in Iceland.",
+        "Proto-Norse is attested in Elder Futhark inscriptions of twenty-four characters from about the second century — the Gallehus horn inscription of around 400, the Tune stone, the Einang stone. Between roughly 500 and 700 the language changed drastically: unstressed syllables were lost, vowels shifted under umlaut, and words shortened sharply. The runic alphabet changed at the same time and in a way nobody has fully explained: the Younger Futhark reduced from twenty-four characters to sixteen precisely when the sound inventory was growing more complex, so a single rune had to serve several sounds. Writing became harder to read as the language became harder to spell.",
+        "By 800 the language was Old Norse, and still close enough to Old English that the two were partially mutually intelligible — which is why contact in the Danelaw produced borrowing of a depth normally seen only where communities merge. English took law, egg, sky, knife, skin, window from vindauga, wind-eye, along with husband, fellow, anger, take, die, ill, and the everyday pair are and both. Most remarkably it took the pronouns they, them and their, displacing the native forms. Languages borrow nouns easily and pronouns almost never, so that one borrowing is a measure of how intimate Anglo-Scandinavian contact was.",
+        "Runestones are the everyday written record — roughly six thousand of them, the great majority in Sweden and more than a thousand in Uppland alone. Most are memorials, and most were raised in the eleventh century, after the conversion, so the runestone fashion is largely a Christian-era phenomenon, which regularly surprises readers. They record inheritance, bridge-building, travel and death abroad: about twenty-five Uppland stones commemorate men who went east with Ingvar and did not come back from an expedition of around 1041. The manuscript literature came later and almost all of it from Iceland — the Poetic Edda in the Codex Regius compiled around 1270, Snorri Sturluson's Prose Edda of about 1220 and Heimskringla of about 1230, the Íslendingasögur, the law books, Landnámabók. Without Icelandic scribes working two to three centuries after the fact, Norse mythology and most of Norse narrative would be lost, and that debt is also the problem: they are the filter through which almost everything is seen."
+      ]
+    },
+    {
+      "title": "Material culture",
+      "paragraphs": [
+        "Norse art is above all an art of surfaces: interlace, gripping beasts and ribbon-bodied animals covering ship prows, wagon panels, brooches, weapons and stone. The styles form a usable chronology, which makes decorated objects datable and the sequence worth naming — Oseberg and Broa in the early ninth century, with gripping beasts and clutching paws; Borre from the late ninth into the tenth, the ring-chain pattern and backward-looking beasts, the most widely exported of the styles and found from Ireland to Russia; Jellinge in the tenth century, with sinuous ribbon animals in profile; Mammen in the late tenth, named from the silver-inlaid axe and dated by its grave timbers to the winter of 970 to 971; Ringerike in the early eleventh, with long tendrils and lobed leaves; and Urnes, the last and most refined, elegantly thin animals in figure-of-eight loops, named from the carved portal reused in the stave church at Urnes on the Sognefjord.",
+        "Dress is where identity is most legible. Scandinavian women wore a strap dress fastened at the shoulders by a pair of oval tortoise brooches, and because that costume was specific and its fittings durable, the distribution of oval brooches maps the presence of Scandinavian women in the settlements — a far better index of family migration than weapon graves are. Trefoil brooches were adapted from Carolingian sword-belt mounts, which is to say that a piece of plundered or traded Frankish military fitting became a standard item of Norse women's dress.",
+        "The Gotland picture stones are a class of their own: upright limestone slabs carved in low relief from the fifth to the eleventh century, showing ships under sail with chequered rigging, riders greeted by women with drinking horns, and scenes that appear to be mythological. They are the only substantial pictorial narrative art the Norse produced, and they are contemporary, which makes them evidence in a way the sagas are not — even though what they depict is often argued over.",
+        "Ordinary objects are as informative as spectacular ones: antler combs made in the towns to standard patterns and carried everywhere, soapstone bowls, glass beads, iron cauldrons. And the imports show the reach of the routes — silk from the Oseberg burial, almost certainly carried up from Byzantium or Central Asia, and a small bronze Buddha from Helgö in Sweden, which arrived from north-western India by a route nobody can reconstruct."
+      ]
+    },
+    {
+      "title": "Economy and silver",
+      "paragraphs": [
+        "The Norse economy was agrarian at its base and silver-weighted at its top, and ships connected the two. Farming was mixed and marginal: barley was the main cereal, with oats and some rye, and in Iceland and the Atlantic colonies grain barely grew at all, so stock farming dominated. Cattle were the measure of wealth — Icelandic law reckons value in kúgildi, cow-equivalents — and sheep gave the wool that clothed everyone and rigged every ship. Fishing, sealing, fowling and stranded whales supplemented all of it, and in the north they were the economy.",
+        "One contemporary account survives from a Norse producer's own mouth. Around 890 a Norwegian called Ohthere visited King Alfred the Great's court and described his estate in Hålogaland far up the coast: he told Alfred he was among the foremost men in that country, that his wealth lay chiefly in six hundred tame reindeer, that he had little ploughland, and that the tribute he collected from the Sámi came as furs, feathers, whalebone and ship-ropes of walrus and seal hide. His account was inserted into the Old English translation of Orosius, and it is worth more than any saga for how a northern magnate actually made a living.",
+        "Above this ran a silver economy that was weighed rather than counted. For most of the period coins were bullion: cut into fragments, nicked to test the metal, and balanced against standardised cubo-octahedral weights on small folding scales that turn up in graves across the Norse world. The silver came first and overwhelmingly from the Islamic world, hundreds of thousands of dirhams moving north up the Volga from the late eighth century, and later from western Europe as tribute and plunder. The hoards are spectacular: the Spillings hoard on Gotland, buried in the 870s, weighs about sixty-seven kilograms, and the Cuerdale hoard from Lancashire, deposited around 905 to 910, holds some 8,600 items of coin and hack-silver.",
+        "Then the supply failed. The flow of dirhams dries up in the later tenth century as the Central Asian mines faltered, and the Norse economy reoriented westward toward English and German silver — a shift that helps explain the renewed concentration of Scandinavian attention on England around 980. Native coinage appears late and as an act of kingship: Olof Skötkonung struck coins at Sigtuna around 995 and Sweyn Forkbeard in Denmark at about the same time, both imitating English types and employing English moneyers. And the trade in people ran through all of it, because slaves were among the most valuable things this economy moved."
+      ]
+    },
+    {
+      "title": "Trade and the towns",
+      "paragraphs": [
+        "Norse trade ran along three great axes and created a network of towns where none had existed. Ribe in south-west Jutland is the earliest, with dated activity from about 704 to 710 — a laid-out market with plot divisions, working amber, bronze and glass. Hedeby followed at the head of the Schlei inlet on the narrow neck of Jutland, exactly where cargo could be moved between the Baltic and the North Sea without the long and dangerous passage around Skagen; it grew to some twenty-four hectares behind a semicircular rampart, with a harbour, a mint, workshops and one of northern Europe's principal slave markets. Birka, on the island of Björkö in Lake Mälaren, ran from about 750 to the 970s, with more than three thousand graves excavated in its cemeteries and a garrison area on the hillside, and was abandoned in favour of Sigtuna. Kaupang in Vestfold served the Oslofjord from about 800, while in the west Dublin from 841 and Jórvík — York, where the Coppergate excavations of 1976 to 1981 recovered whole timber-lined tenements with their workshops and rubbish — were the Norse world's urban centres in the British Isles.",
+        "The eastern rivers carried the most valuable traffic. From Staraya Ladoga, the Norse Aldeigjuborg, founded around 750, routes ran to Novgorod and then either east down the Volga to the Bulgar market and the Caspian, or south down the Dnieper to Kyiv and Constantinople. The Dnieper route meant portaging around seven cataracts, and it is described in detail by the emperor Constantine VII Porphyrogennetos in De administrando imperio around 950, who lists each rapid by both its Rhos and its Slavic name. The Rhos names are transparently Norse — Gellandri, the yelling one; Baruforos, the wave-force — which is about as close to documentary proof of Scandinavians on the Dnieper as tenth-century evidence gets, and it comes from an emperor rather than a saga.",
+        "Outside observers supply much of the rest, and their value is precisely that they are independent of both the Scandinavian and the Latin Christian traditions. Ibn Fadlan met Rus' traders on the Volga in 921 and 922. Ibn Rusta described their island settlement, their trade in furs and slaves, and their burial customs. Ibn Ḥawqal and al-Muqaddasī record the goods moving through. These are alien and frequently hostile accounts, written by literate Muslims about people they considered barbarous.",
+        "One much-repeated episode deserves caution. After the raid on Seville in 844, the Umayyad emir Abd al-Rahman II is said to have sent the poet and diplomat Yahya ibn Hakam al-Ghazal on an embassy to a king of the Majūs, where he is described charming a queen called Nud. The story reaches us through Ibn Dihya in the thirteenth century, citing a lost earlier source, and scholars have long divided over it: some accept a genuine Andalusi embassy to a Scandinavian ruler, others think the account has been confused with al-Ghazal's much better attested mission to Byzantium. It is worth telling and not worth asserting."
+      ]
+    },
+    {
+      "title": "Building and settlement",
+      "paragraphs": [
+        "The characteristic Norse building was the longhouse: a three-aisled hall with two rows of internal posts carrying the roof, walls of timber, wattle or turf according to what the site offered, a long hearth down the centre, benches along the sides, and in many cases a byre for cattle at one end under the same roof. Size tracked status directly — the chieftain's hall at Borg in Lofoten in northern Norway reached about eighty-three metres, the largest known, while ordinary farms were a fifth of that.",
+        "Settlement was dispersed. Norse country did not have nucleated villages of the kind found across much of continental Europe; it had farms, each with its home field, and the excavated sequence at Vorbasse in Jutland shows those farms being laid out, enlarged and periodically reorganised over centuries, with fenced plots and outbuildings — a picture of agricultural management rather than subsistence drift.",
+        "In the treeless Atlantic colonies people built in turf, cutting thick blocks and stacking them in herringbone courses around a timber frame, a technique that made Iceland and Greenland habitable and stayed in use into the twentieth century. The Greenland settlements left their farms and their churches, including Hvalsey in the Eastern Settlement, whose stone church still stands nearly to the wall-head and is the site of the last securely documented event in Norse Greenland: a wedding in 1408, attested in letters written in Iceland shortly afterwards.",
+        "Royal power built differently. The Danevirke closed the Jutland isthmus with a rampart whose main phase used timber felled in 737; the Kanhave canal of 726 cut Samsø in two so ships could cross the island; and the five ring fortresses of Harald Bluetooth's reign were laid out around 980 as exact circles with four gates at the cardinal points and longhouses arranged in squares inside, built to a single specification across the realm. Towns, when they came, were new: Sigtuna replaced Birka, and Lund, Roskilde, Oslo, Bergen and Trondheim grew as royal and ecclesiastical centres in the eleventh century. Then came stone — cathedrals at Lund and Roskilde, and in Norway the timber stave churches, of which Urnes on the Sognefjord matters most because its north portal preserves carvings from an earlier building of about 1070: Norse animal art, in place, on a Christian church."
+      ]
+    },
+    {
+      "title": "Women, and Birka grave Bj 581",
+      "paragraphs": [
+        "Named Norse women are recoverable in three different ways, and the differences matter. Thyra is named on both Jelling stones as Gorm's wife and Harald Bluetooth's mother, and on the smaller stone is given the epithet tanmarkar bót, Denmark's adornment or Denmark's remedy — contemporary monumental testimony. Emma of Normandy, married first to Æthelred the Unready and then to Cnut the Great and mother of kings by both, commissioned the Encomium Emmae Reginae in the 1040s and is one of very few medieval women to commission an account of her own political career. Olga of Kiev, a Norse-named ruler, governed a Slavic polity as regent and was baptised in Constantinople. Against these stand figures like Aud the Deep-Minded of Laxdœla saga and Landnámabók, who had a ship built in secret, led her household from Scotland to Iceland and distributed land to her followers: she is what thirteenth-century Icelanders thought a founding settler looked like, which is a different kind of fact.",
+        "The richest burial the Norse world produced was made for two women. The Oseberg mound held a queen or priestess and a companion or attendant — the interpretations remain unresolved — with a carved ship, a cart, sledges, beds, looms and fifteen horses. Whoever they were, the highest honours this culture could pay were paid to women.",
+        "Birka chamber grave Bj 581 has to be stated precisely, because it is regularly overstated in both directions. Excavated by Hjalmar Stolpe in 1878, it contained a sword, an axe, a fighting knife, a spear, two shields, a quiver of armour-piercing arrows, two horses, and a set of gaming pieces and a board; on those contents it was described for over a century as the grave of a high-status male warrior. In 2017 a team led by Charlotte Hedenstierna-Jonson published genomic analysis showing two X chromosomes and no Y, confirming an osteological reassessment by Anna Kjellström, and a follow-up paper in Antiquity in 2019 with Neil Price among its authors answered the principal objections about mismatched bones and multiple occupants.",
+        "What that establishes is that a biologically female individual was buried at Birka with the complete equipment of a mounted commander, including the gaming set generally read as a marker of tactical command, and that whoever buried her intended that reading. It does not establish that she fought, because grave goods are statements made by the living about the dead, and the 2019 paper concedes the point explicitly. Still less does it establish that women commonly fought. The skjaldmær, the shieldmaiden, is overwhelmingly a literary figure: she appears in Saxo Grammaticus's Gesta Danorum around 1200, in the legendary fornaldarsögur and in the valkyrie tradition — the genres most given to depicting an exotic heroic past — and Judith Jesch, who wrote the standard book on Viking-Age women in 1991, has been consistently sceptical that these figures describe a social reality. One exceptional burial is now securely known to be a woman's; the distance between that and a class of female warriors is not bridged by the evidence."
+      ]
+    },
+    {
+      "title": "Neighbours",
+      "paragraphs": [
+        "The Norse world's southern neighbour was also its most dangerous. Charlemagne's conquest of the Saxons between 772 and 804 brought Frankish power to the Danish border, and King Godfred answered with force and fortification before his death in 810. Thereafter the relationship ran through raiding, tribute and clientage: Danish claimants were baptised at Frankish courts and granted Frisian lands as benefices, as Rorik of Dorestad was, while Frankish rulers bought off fleets. Charles the Bald's Edict of Pîtres in 864 — fortified bridges on the rivers, a ban on selling horses and weapons to the Northmen — is the clearest statement of a defensive policy that eventually worked.",
+        "The longest and most consequential relationship was with the Anglo-Saxons, running from the raid on Portland about 789 through the Great Heathen Army of 865, Alfred's survival and his victory at the Battle of Edington in 878, the partition that created the Danelaw, the tenth-century English reconquest, the renewed attacks under Æthelred, and the Danish conquest of England by Sweyn Forkbeard in 1013 and Cnut in 1016. It ends with two Norse-descended armies fighting each other on English soil within three weeks in 1066, at the Battle of Stamford Bridge and then at the Battle of Hastings.",
+        "In Ireland, raiding from 795 became settlement, and settlement produced the island's first towns and a mixed Norse-Gaelic population whose dynasties — above all the Uí Ímair — ruled in Dublin, the Isles and York. Norse-Gaelic identity in the Hebrides, Man and Galloway long outlived the Viking Age. In the far north, Norse settlement lived alongside, traded with and taxed Sámi communities, as Ohthere's account makes explicit, in a relationship that included exchange, tribute, intermarriage and a Norse tradition crediting the Sámi with superior magical knowledge. On the southern Baltic shore, Wolin at the mouth of the Oder was a major emporium in a zone of trade, raiding and intermarriage, and the later Icelandic tradition of a warrior brotherhood at Jómsborg is romance built on a real place.",
+        "Eastward the relationship became institutional. Scandinavians attacked Constantinople in 860, and the Rus'-Byzantine treaties of 907, 911 and 944 preserved in the Primary Chronicle list negotiators with Norse names. In 988 Vladimir of Kyiv sent six thousand men to Basil II, and those men became the Varangian Guard, the emperor's axe-bearing household troops, in which Harald Hardrada served before returning north to claim Norway. Two Scandinavians left their marks on the buildings themselves: runes scratched into a marble parapet in the gallery of Hagia Sophia, where the damaged name is generally read as Halfdan, and a longer inscription carved into the flank of the marble lion that once stood at Piraeus and now guards the Venetian Arsenal."
+      ]
+    },
+    {
+      "title": "Becoming Danes, Normans, Rus and English",
+      "paragraphs": [
+        "The most important thing the Norse world did was change into something else, and it did so in several directions at once. On the Seine the transformation was almost absurdly fast: Rollo's followers arrived around 911 speaking Old Norse and worshipping their own gods, and by the time of Duke Richard I in the later tenth century the ducal family was Christian and French-speaking. By 1066 the Normans were the most effective heavy cavalry in Europe, fighting in a style with no Scandinavian precedent whatsoever. William the Conqueror was Rollo's great-great-great-grandson, and there is nothing Norse about how he fought at Hastings.",
+        "In the east, a Scandinavian trading and tribute-taking elite was absorbed within three generations. The dynastic names tell the story on their own — Helgi, Helga and Ingvarr become Oleg, Olga and Igor, and Igor's son is Svyatoslav — and by Vladimir's conversion in 988 the polity is Slavic and Orthodox. In England, the Scandinavian settlers of the Danelaw did not remain a separate people either: they contributed law, administrative vocabulary, a dense layer of place-names, a large body of everyday words and the pronoun system, and were absorbed into a population that by the twelfth century thought of itself simply as English.",
+        "Scandinavia itself joined Latin Europe. By the middle of the twelfth century the three realms had archbishoprics at Lund in 1103 or 1104, Nidaros in 1152 or 1153 and Uppsala in 1164, along with dioceses, tithes, stone cathedrals, royal coinage, written law in Latin letters, and dynasties marrying into the rest of Europe. Assemblies survived, but under kings, and the leiðangr became a tax. The change was not a rupture — the Urnes portal is Norse animal art on a church — but it was decisive, and it is why this article stops around 1150 rather than at any event.",
+        "Only one branch actually ended. The two Greenland settlements founded in 985 and 986 sustained several thousand people, about four hundred farms and a bishop at Garðar from 1126; the Western Settlement was gone by the mid-fourteenth century, and the Eastern Settlement's last documented moment is the wedding at Hvalsey in 1408. The causes are genuinely debated and worth laying out rather than reducing to a villain: the onset of the Little Ice Age shortened growing seasons and increased sea ice on the routes; the colony's one valuable export, walrus ivory, collapsed in value when African elephant ivory returned to European markets, a dependence isotope work on walrus rostra in European collections has since confirmed; soil erosion and overgrazing degraded limited pasture; the Thule Inuit moving south from the thirteenth century were better adapted, and contact is attested archaeologically though conflict is not; and people may simply have left in ones and twos. The older popular account, that the Norse starved because they stubbornly refused to eat like Inuit, has been substantially undercut by Jette Arneborg's isotope analyses, which show the Greenlanders' diet shifting heavily toward marine food across the settlement's life. They adapted. It was not enough."
+      ]
+    },
+    {
+      "title": "Legacy, and the nineteenth-century invention",
+      "paragraphs": [
+        "The single greatest Norse legacy is a body of literature written after the Norse period, in Iceland, by Christians. The Codex Regius of the Poetic Edda, compiled around 1270, preserves the mythological and heroic poems without which Norse myth would be fragments. Snorri Sturluson — chieftain, lawspeaker, and a thoroughly political man murdered in the cellar of his house at Reykholt in 1241 — wrote the Prose Edda as a handbook for poets around 1220 and Heimskringla, the history of the Norwegian kings, around 1230. The Íslendingasögur, written through the thirteenth and fourteenth centuries, are one of medieval Europe's major prose achievements. Every popular image of the Viking Age descends from these books, which is exactly why they have to keep being labelled as what they are: thirteenth-century Icelandic literature about the ninth and tenth centuries, written by Christians about pagans.",
+        "The assemblies left a longer institutional shadow than the kings did. The Alþingi at Þingvellir met in the open until 1798, and the modern Icelandic parliament takes its name and its claim of descent from it; the Manx Tynwald makes a similar claim. Both claims smooth over real discontinuities, but the underlying idea — that law is declared before, and by, an assembly of free men — is genuinely Norse. Language and landscape carry the rest: several hundred everyday English words and, unusually, English pronouns, and a map of northern and eastern England, the Northern Isles, the Hebrides, Ireland's port towns and Normandy's coast that is Scandinavian in its place-names.",
+        "Most of what the modern world knows about this culture, however, was made between about 1820 and 1900, when Romantic nationalism in Scandinavia, Britain and Germany found in the Norse past a usable heroic ancestry. That is when the horned helmet appears, when Wagner's Ring fuses Norse and continental German material into a single mythology in the public mind, and when Viking becomes the name of a people rather than a description of a voyage. Norse symbols have since been appropriated by white-nationalist movements, sometimes symbols that are not Norse at all: the vegvísir is first attested in the Icelandic Huld manuscript of 1860, and the ægishjálmur comes from early modern grimoires. Contemporary Norse-pagan organisations in Iceland and elsewhere have publicly repudiated that use.",
+        "Against all of it stands the archaeology, which keeps sharpening. L'Anse aux Meadows proved the Atlantic crossing and is now dated to 1021 to the year. Bj 581 forced a century-old assumption about a single grave to be re-examined and answered. Isotope work has rewritten the Greenland story from stubbornness to market failure. The Norse are one of the few medieval subjects where the evidence is still visibly moving, and where the nineteenth century's version keeps losing ground to it."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 400",
+      "title": "The Gallehus horns",
+      "description": "Gold horns are made in southern Jutland carrying one of the fullest Proto-Norse inscriptions, in a language already recognisably ancestral to Old Norse. The horns were stolen and melted down in 1802 but had been recorded."
+    },
+    {
+      "date": "536–540",
+      "title": "The dust veil",
+      "description": "A volcanic dust veil, compounded by a second eruption, cuts northern summers for years. Scandinavian pollen records show farms abandoned across large areas and gold deposition spikes."
+    },
+    {
+      "date": "704–710",
+      "title": "Ribe laid out",
+      "description": "The earliest dated activity at Ribe in south-west Jutland: a market with surveyed plot divisions, working amber, bronze and glass — the first town in Scandinavia.",
+      "links": [
+        {
+          "title": "Ribe",
+          "type": "location",
+          "slug": "ribe"
+        }
+      ]
+    },
+    {
+      "date": "726 and 737",
+      "title": "Canal and rampart",
+      "description": "The Kanhave canal is cut across Samsø so ships can pass, and the main phase of the Danevirke closes the Jutland isthmus. Both are dated by their timbers and both imply authority able to mobilise labour before any king can be securely named."
+    },
+    {
+      "date": "793",
+      "title": "Lindisfarne",
+      "description": "Raiders destroy the monastery on Lindisfarne, and Alcuin of York writes to King Æthelred of Northumbria and Bishop Higbald about it within months. The conventional start of the Viking Age, and a raid rather than a migration."
+    },
+    {
+      "date": "804–810",
+      "title": "Godfred faces Charlemagne",
+      "description": "The Danish king Godfred moves the merchants of Reric to his own emporium and reinforces the Danevirke, and the Royal Frankish Annals treat him as a ruler with whom an emperor must negotiate.",
+      "links": [
+        {
+          "title": "Godfred of Denmark",
+          "type": "person",
+          "slug": "godfred-of-denmark"
+        }
+      ]
+    },
+    {
+      "date": "834",
+      "title": "The Oseberg burial",
+      "description": "A ship built about 820 is buried in a Vestfold mound with two women, a cart, sledges, looms, textiles and fifteen horses — the richest grave the Norse world produced, and made for women."
+    },
+    {
+      "date": "c. 870",
+      "title": "The settlement of Iceland",
+      "description": "The landnám begins. Íslendingabók and Landnámabók name Ingólfr Arnarson and give 874, but the tephra layer from the Vatnaöldur eruption of 877 brackets the archaeological horizon independently."
+    },
+    {
+      "date": "c. 872",
+      "title": "Hafrsfjord",
+      "description": "The engagement that later tradition made the moment Harald Fairhair won Norway. The battle probably happened; the unified kingdom it is credited with did not follow for generations.",
+      "links": [
+        {
+          "title": "Battle of Hafrsfjord",
+          "type": "event",
+          "slug": "battle-of-hafrsfjord"
+        }
+      ]
+    },
+    {
+      "date": "878",
+      "title": "Edington and the Danelaw",
+      "description": "Alfred defeats Guthrum, who is baptised, and the partition that follows creates the Danelaw — where Scandinavian rural settlement is written into the map in place-names ending -by, -thorpe and -toft.",
+      "links": [
+        {
+          "title": "Battle of Edington",
+          "type": "event",
+          "slug": "battle-of-edington"
+        },
+        {
+          "title": "Danelaw",
+          "type": "location",
+          "slug": "danelaw"
+        }
+      ]
+    },
+    {
+      "date": "c. 930",
+      "title": "The Alþingi founded",
+      "description": "Iceland's national assembly begins meeting each June at Þingvellir, with a lawspeaker elected for three years who recites one third of the law aloud from memory each year."
+    },
+    {
+      "date": "c. 965",
+      "title": "The large Jelling stone",
+      "description": "Harald Bluetooth raises a monument to Gorm and Thyra whose inscription claims he won all Denmark and Norway and made the Danes Christian — a royal policy statement, not a completed conversion.",
+      "links": [
+        {
+          "title": "Jelling Stones",
+          "type": "artifact",
+          "slug": "jelling-stones"
+        },
+        {
+          "title": "Harald Bluetooth",
+          "type": "person",
+          "slug": "harald-bluetooth"
+        }
+      ]
+    },
+    {
+      "date": "980–981",
+      "title": "The ring fortresses",
+      "description": "Trelleborg, Fyrkat, Aggersborg, Nonnebakken and Borgring are built to one exacting circular specification across the Danish realm in two felling seasons."
+    },
+    {
+      "date": "999/1000",
+      "title": "Iceland converts by vote",
+      "description": "With the Alþingi split and armed confrontation likely, both parties submit the question to the heathen lawspeaker Þorgeirr, who rules for baptism and one law — a religious crisis resolved by legal procedure."
+    },
+    {
+      "date": "1021",
+      "title": "Wood cut at L'Anse aux Meadows",
+      "description": "Timber is felled with metal tools in Newfoundland, dated to the exact year by the 993 cosmic-ray spike in the tree rings. The only absolute date for the Norse in the Americas."
+    },
+    {
+      "date": "1030",
+      "title": "Stiklestad",
+      "description": "Olaf II Haraldsson is killed trying to regain Norway, and within a year is venerated as a saint with his relics enshrined at Nidaros. A defeated king becomes the kingdom's patron.",
+      "links": [
+        {
+          "title": "Battle of Stiklestad",
+          "type": "event",
+          "slug": "battle-of-stiklestad"
+        },
+        {
+          "title": "Olaf II Haraldsson",
+          "type": "person",
+          "slug": "olaf-ii-haraldsson"
+        }
+      ]
+    },
+    {
+      "date": "1066",
+      "title": "Stamford Bridge",
+      "description": "Harald Hardrada is killed in Yorkshire, and three weeks later the descendants of Norse settlers in Normandy win at Hastings fighting on horseback — a way of war no Viking-Age Scandinavian army used.",
+      "links": [
+        {
+          "title": "Battle of Stamford Bridge",
+          "type": "event",
+          "slug": "battle-of-stamford-bridge"
+        },
+        {
+          "title": "Harald Hardrada",
+          "type": "person",
+          "slug": "harald-hardrada"
+        }
+      ]
+    },
+    {
+      "date": "1117–1118",
+      "title": "Icelandic law written down",
+      "description": "According to Ari Þorgilsson the law is committed to writing over one winter, surviving as Grágás in two thirteenth-century manuscripts — vast, intricate, and specific down to shares of a beached whale."
+    },
+    {
+      "date": "1152/53",
+      "title": "An archbishopric at Nidaros",
+      "description": "Norway gains its own metropolitan see, following Lund in 1103 or 1104 and preceding Uppsala in 1164. Scandinavia now has the institutions of Latin Christendom, and Norse becomes a less useful label than Norwegian."
+    },
+    {
+      "date": "1262–1264",
+      "title": "Iceland accepts the Norwegian crown",
+      "description": "After the violence of the Sturlung Age, the Commonwealth that had run for three centuries without a king submits to one. Enforcement by the winning party had finally failed."
+    }
+  ],
+  "relatedEntries": {
+    "civilizations": [
+      {
+        "title": "Vikings",
+        "type": "civilization",
+        "slug": "vikings",
+        "label": "The raiding voyage a minority of this people went on, and the era named after it"
+      }
+    ],
+    "people": [
+      {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth",
+        "label": "Raised the Jelling stone and built the ring fortresses"
+      },
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
+        "label": "The unification of Norway credited to him by later tradition"
+      },
+      {
+        "title": "Olaf II Haraldsson",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Imposed Christianity, lost, and became Norway's patron saint within a year"
+      },
+      {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Ruled England, Denmark and Norway as a Christian king, not a raider"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada",
+        "label": "Varangian service in Byzantium, then the Norwegian throne"
+      },
+      {
+        "title": "Thyra",
+        "type": "person",
+        "slug": "thyra",
+        "label": "Named on both Jelling stones, and called Denmark's adornment"
+      },
+      {
+        "title": "Olof Skötkonung",
+        "type": "person",
+        "slug": "olof-skotkonung",
+        "label": "Baptised about 1008 and struck the first Swedish coins at Sigtuna"
+      },
+      {
+        "title": "Ragnar Lothbrok",
+        "type": "person",
+        "slug": "ragnar-lothbrok",
+        "label": "A figure of the later literary tradition rather than a documented ruler"
+      }
+    ],
+    "events": [
+      {
+        "title": "Battle of Hafrsfjord",
+        "type": "event",
+        "slug": "battle-of-hafrsfjord",
+        "label": "The engagement tradition turned into the founding of a kingdom"
+      },
+      {
+        "title": "Battle of Stiklestad",
+        "type": "event",
+        "slug": "battle-of-stiklestad",
+        "label": "Where the conversion of Norway was lost and then won by cult"
+      },
+      {
+        "title": "Battle of Svolder",
+        "type": "event",
+        "slug": "battle-of-svolder",
+        "label": "Ships lashed together as fighting platforms, the Norse way of sea battle"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "When raiding became conquest and then rural settlement in England"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "The realm that consolidated first, and the only one with a land frontier"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The polity that grew out of the north way, long after the people"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Svear and Götar were ruled separately well into the eleventh century"
+      },
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "Dense Scandinavian rural settlement, readable in the place-names"
+      },
+      {
+        "title": "Kievan Rus",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Where a Scandinavian elite was absorbed within three generations"
+      },
+      {
+        "title": "Jelling",
+        "type": "location",
+        "slug": "jelling",
+        "label": "The Danish royal monument complex of the tenth century"
+      },
+      {
+        "title": "Ribe",
+        "type": "location",
+        "slug": "ribe",
+        "label": "The earliest town in Scandinavia, laid out about 704 to 710"
+      }
+    ],
+    "houses": [
+      {
+        "title": "Jarls of Lade",
+        "type": "house",
+        "slug": "jarls-of-lade",
+        "label": "Trøndelag's rulers, effectively independent of the Norwegian kings for generations"
+      },
+      {
+        "title": "House of Uí Ímair",
+        "type": "house",
+        "slug": "house-of-ui-imair",
+        "label": "The Norse-Gaelic dynasty ruling in Dublin, the Isles and York"
+      }
+    ],
+    "artifacts": [
+      {
+        "title": "Jelling Stones",
+        "type": "artifact",
+        "slug": "jelling-stones",
+        "label": "The earliest Scandinavian royal claim to have Christianised a people"
+      }
+    ],
+    "weaponsArmor": [
+      {
+        "title": "Gjermundbu Helmet",
+        "type": "weaponArmor",
+        "slug": "gjermundbu-helmet",
+        "label": "The one substantially preserved Viking-Age helmet, and it has no horns"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword",
+        "label": "Expensive, prestigious, and often a Frankish import"
+      },
+      {
+        "title": "Dane Axe",
+        "type": "weaponArmor",
+        "slug": "dane-axe",
+        "label": "The two-handed axe of eleventh-century housecarls"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Neil Price, The Children of Ash and Elm: A History of the Vikings (2020)",
+      "url": "https://en.wikipedia.org/wiki/Neil_Price_(archaeologist)",
+      "type": "book"
+    },
+    {
+      "title": "Judith Jesch, The Viking Diaspora (2015) and Women in the Viking Age (1991)",
+      "url": "https://en.wikipedia.org/wiki/Judith_Jesch",
+      "type": "book"
+    },
+    {
+      "title": "Anders Winroth, The Conversion of Scandinavia (2012)",
+      "url": "https://en.wikipedia.org/wiki/Anders_Winroth",
+      "type": "book"
+    },
+    {
+      "title": "N. Price et al., Viking warrior women? Reassessing Birka chamber grave Bj.581, Antiquity 93 (2019)",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/viking-warrior-women-reassessing-birka-chamber-grave-bj581/6DBBCB076FF0A7D855042B0248BEAE83",
+      "type": "journal article"
+    },
+    {
+      "title": "M. Kuitems et al., Evidence for European presence in the Americas in AD 1021, Nature 601 (2021)",
+      "url": "https://www.nature.com/articles/s41586-021-03972-8",
+      "type": "journal article"
+    },
+    {
+      "title": "Grágás and the Icelandic law tradition",
+      "url": "https://en.wikipedia.org/wiki/Gr%C3%A1g%C3%A1s",
+      "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Osebergskipet_2016.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Jellingsten_stor_1.jpg"
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The conversion",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Jellingsten_stor_1.jpg?width=1400",
+      "caption": "The larger Jelling stone, raised in Denmark about 965, photographed for the National Museum of Denmark in 2010. Its inscription claims Harald Bluetooth made the Danes Christian.",
+      "creator": "Roberto Fortuna, for the National Museum of Denmark",
+      "date": "photographed 2010; the stone raised about 965",
+      "source": "Wikimedia Commons (National Museum of Denmark)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jellingsten_stor_1.jpg",
+      "note": "The earliest Scandinavian royal statement of Christianisation, and a boast by the interested party rather than a description of a completed conversion. The runic text records that Harald had the monument made in memory of Gorm his father and Þyrvé his mother, and describes himself as the Harald who won for himself all Denmark and Norway and made the Danes Christian. Studio lighting, colour, stone filling the frame. Licensed CC BY-SA 3.0."
+    },
+    {
+      "section": "Weapons and armour",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Gjermundbu_helmet_-_cropped.jpg?width=736",
+      "caption": "The iron helmet from the Gjermundbu grave in Ringerike, Norway, from a burial of about 950 to 1000, photographed in 2010 at the NTNU Vitenskapsmuseet.",
+      "creator": "NTNU Vitenskapsmuseet (Wikimedia Commons)",
+      "date": "photographed 2010; the helmet from a grave of about 950 to 1000",
+      "source": "Wikimedia Commons (NTNU Vitenskapsmuseet)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gjermundbu_helmet_-_cropped.jpg",
+      "note": "The only substantially preserved helmet from Viking-Age Scandinavia, and the direct answer to the horned-helmet myth: a rounded cap of four riveted plates with a spectacle guard over the eyes, and no horns of any kind. Nothing in the Viking-Age corpus or in contemporary depictions shows a horned war helmet. The word cropped in the filename means the photograph was tightened onto the object. Licensed CC BY 2.0."
+    },
+    {
+      "section": "Law and the assembly",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%B6gberg_at_Thingvellir_-_panoramio.jpg?width=700",
+      "caption": "The Lögberg, the Law Rock, at Þingvellir in Iceland, photographed in June 2008. The Alþingi met here each summer from about 930, and the lawspeaker recited the law aloud from memory.",
+      "creator": "Panoramio contributor (Wikimedia Commons)",
+      "date": "photographed 28 June 2008",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%B6gberg_at_Thingvellir_-_panoramio.jpg",
+      "note": "The site rather than a reconstruction: a rift-valley wall that gave an open-air assembly the acoustics of a natural amphitheatre. The exact position of the Lögberg within Þingvellir is debated, and the flagpole in the photograph marks the traditional identification rather than an excavated one. Colour, 700 by 467 pixels, which is modest but adequate at section-image size. Licensed CC BY 3.0."
+    },
+    {
+      "section": "Material culture",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Carvings_in_north_wall_portal%2C_Urnes_Stave_Church-1.jpg?width=1600",
+      "caption": "The carved north portal of Urnes stave church on the Sognefjord, photographed in 2016. The woodwork was made about 1070 and reused in the present church.",
+      "creator": "Bjørn Erik Pedersen (Wikimedia Commons)",
+      "date": "photographed 10 August 2016; the carving made about 1070",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carvings_in_north_wall_portal,_Urnes_Stave_Church-1.jpg",
+      "note": "The type object of the Urnes style, the last and most refined phase of Norse animal art: elegantly thin animals in figure-of-eight loops, carved for a Christian building. It is the clearest single illustration of what the conversion did to Norse art, which was to continue it rather than end it. Colour, high resolution, the carving filling the frame. Licensed CC BY-SA 4.0."
+    }
+  ]
+}

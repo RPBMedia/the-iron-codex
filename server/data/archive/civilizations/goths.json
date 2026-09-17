@@ -1,0 +1,408 @@
+{
+  "id": "goths",
+  "type": "civilization",
+  "civilizationType": "people",
+  "priorityLevel": 1,
+  "name": "Goths",
+  "endonym": "Gut-þiuda",
+  "aliases": [
+    "Gothi",
+    "Gotthi",
+    "Gutans",
+    "Gutthiuda",
+    "Gutþiuda",
+    "Gotones",
+    "Gutones",
+    "Gythones"
+  ],
+  "culturalFamily": "Germanic",
+  "period": "Migration Period",
+  "region": "Central Europe",
+  "chronology": "c. 230 – 1562",
+  "languages": [
+    "Gothic, an East Germanic language and the earliest substantially attested Germanic speech",
+    "Latin and Greek for written administration",
+    "Crimean Gothic, recorded as late as 1562"
+  ],
+  "religions": [
+    "Pre-Christian practice, very poorly attested",
+    "Homoian (\"Arian\") Christianity from the fourth century",
+    "Nicene Christianity in Hispania after 589"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Codex%20Argenteus%20fol%2097.jpg?width=900",
+  "imageInfo": {
+    "caption": "A page of the Codex Argenteus, the Gothic gospel book written in silver and gold ink on purple-stained parchment in about 500.",
+    "creator": "Unknown Gothic scribe, working in northern Italy or southern Gaul",
+    "date": "about 500",
+    "source": "Wikimedia Commons (Uppsala University Library)",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Codex_Argenteus_fol_97.jpg",
+    "note": "The single most important object the Gothic language left behind: Ulfilas' fourth-century translation copied about 500 in luxury materials, silver and gold on parchment dyed purple, a combination otherwise reserved for imperial books. 188 of the original 336 leaves survive, most of them at Uppsala. The arcaded canon references run across the foot of the page. Public domain; the manuscript's makers are anonymous and the attribution to Ostrogothic Italy rests on script and decoration rather than on any colophon."
+  },
+  "summary": "The Goths were an East Germanic-speaking people who broke a Roman field army at Adrianople in 378, produced the earliest substantially recorded Germanic language, and founded the two largest successor kingdoms of the western Roman world.",
+  "overview": "A name people could join, carried by a language, a book and a quarrel about the Trinity.",
+  "knownFor": [
+    "Destroyed an eastern Roman field army at Adrianople in 378, killing the emperor Valens.",
+    "Produced the Codex Argenteus and the earliest substantially attested Germanic language.",
+    "Converted to Homoian Christianity in the 340s, which the empire later reclassified as heresy.",
+    "Founded the Ostrogothic Kingdom in Italy and the Visigothic kingdom that ended at Toledo.",
+    "Their speech survived in the Crimea until a Habsburg ambassador wrote it down in 1562."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Goths appear on the Roman Danube in the third century as raiders, become federates, and within a century and a half hold the two largest successor states of the western empire — one in Italy, one that ended at Toledo. They matter out of proportion to their numbers for three reasons. They were the first barbarian people to destroy a Roman field army and survive the political consequences. They produced the earliest Germanic language recorded in quantity, which makes them foundational to the study of every Germanic language that followed. And their conversion to Homoian Christianity in the 340s set Arian rulers over Nicene subjects, which was the problem both Gothic kingdoms had to solve or fail.",
+        "\"The Goths\" is best understood as a name people could join rather than a bloodline. The force Alaric led into Italy absorbed Alans, Huns, Roman deserters and escaped slaves; the army Theoderic took into Italy in 489 had been welded together in the Balkans out of two rival Gothic followings plus Rugi and others. Gothic identity was a political and military allegiance carried by a language and a royal tradition, and it changed shape every time its circumstances changed."
+      ]
+    },
+    {
+      "title": "Names and Identity",
+      "paragraphs": [
+        "The endonym is recoverable from the language itself. A surviving fragment of the Gothic calendar gives Gut-þiuda, \"the Gothic people\", with gutisk as the adjective. Latin writers used Gothi and Greek writers Gotthoi, so for once the outsiders' word and the insiders' word are close relatives rather than strangers.",
+        "The other labels came from outside. Ammianus Marcellinus, the best contemporary witness to the fourth century, writes of Tervingi north of the lower Danube and Greuthungi north of the Black Sea; both names fall out of use after about 400. Vesi or Visi and Ostrogothi appear in fourth-century Latin sources such as the Notitia Dignitatum and the poems of Claudian, but the neat pairing of Visigothi and Ostrogothi as \"western\" and \"eastern\" Goths is Cassiodorus' sixth-century arrangement, passed on by Jordanes. The older sense of Ostrogothi was probably \"Goths of the rising sun\", a poetic epithet rather than a compass bearing.",
+        "The oldest puzzle is the Gutones question. Tacitus names Gotones east of the Vistula in the Germania of about 98, Pliny has Gutones and Ptolemy Gythones. The names are plausibly related to the later Gothic one and the Wielbark archaeology sits in roughly the right place, but the equation rests on philology and geography rather than on any source connecting the two populations. \"Probably related\" is as far as the evidence reaches, and this archive stops there.",
+        "Jordanes goes much further, and deliberately. His Getica conflates the Goths with the Getae, a Thracian people described by Herodotus, and with the Scythians. That was not confusion: it handed the Goths a classical pedigree reaching back before Rome and made a Gothic king's ancestors the equals of figures in Greek historiography. Everything he says about deep Gothic antiquity has to be read as that kind of claim.",
+        "How much Gothic identity predates the Roman frontier is the live disagreement in the field, and it is worth naming rather than smoothing over. Michael Kulikowski presses hardest that the later Gothic peoples were created inside the empire and that their earlier history as distinct groups is retrojection. Peter Heather allows more continuity, arguing that recognisable cores held together through the crises. Herwig Wolfram's Traditionskern model sits between, proposing a small leading kernel that carried a genuine tradition which others joined. Guy Halsall and Walter Pohl treat ethnicity as situational and political, asserted more strongly at some moments than others. Walter Goffart goes furthest the other way, reading the Getica as essentially a literary product of Justinianic Constantinople."
+      ]
+    },
+    {
+      "title": "The origin story and what the evidence supports",
+      "paragraphs": [
+        "Later tradition gives a tidy account. Jordanes reports that the Goths left Scandza in three ships under King Berig, landed at a place called Gothiscandza, and moved on to Oium in Scythia. It was written at Constantinople in 551, as an epitome of Cassiodorus' lost Gothic History, for an audience that included Goths in imperial service and Roman aristocrats who might marry them. It is a sixth-century origin legend composed for a Gothic-Roman readership, and it is not a migration record.",
+        "Archaeology points in a related but much vaguer direction. The Wielbark culture of the lower Vistula in the first and second centuries and the Chernyakhov, or Sântana de Mureș, culture of the third and fourth between the Danube and the Dnieper share burial practices, brooch types and pottery in ways that indicate real movement of people and material southeast toward the Black Sea. But Chernyakhov is emphatically multi-ethnic: it contains Sarmatian, Dacian and Roman-provincial elements, and its wheel-thrown grey pottery owes more to provincial Roman workshops than to anything northern.",
+        "The limit of the evidence is worth stating precisely, because it is routinely overrun. Grave goods carry no ethnic labels. Reading costume and assemblages as national markers was the method associated with Gustaf Kossinna and it has been abandoned; Halsall argues that a furnished grave displays status, gender and family claims at the moment of burial rather than the buried person's sense of who they were. So the honest summary is narrow: the material supports movement of population and styles from the Vistula toward the Pontic steppe, and it does not support a single people migrating intact out of Scandinavia."
+      ]
+    },
+    {
+      "title": "The frontier: raid, treaty and dependence",
+      "paragraphs": [
+        "Gothic raiding began in the 230s and escalated quickly. In 251 at Abritus a Gothic force under Cniva destroyed a Roman army and killed the emperor Decius, the first Roman emperor to die fighting a foreign enemy. Seaborne raids reached the Aegean, sacking the temple of Artemis at Ephesus and striking Athens in 267 or 268. The counterstroke came at Naissus in 268 or 269, after which Claudius II took the victory title Gothicus.",
+        "Rome's abandonment of Dacia under Aurelian in 271 removed the province that had stood between the empire and these groups, and left the Danube as the line. Constantine imposed a treaty in 332 that bound Gothic groups to supply troops and gave them trading access across the frontier. That arrangement is the hinge of the whole third- and fourth-century relationship: it made Gothic society dependent on Roman subsidy and Roman markets.",
+        "Dependence cut both ways, and the Romans knew it. Closing the frontier markets was a usable political weapon, which is why the mismanagement of supply in 376 turned a refugee crisis into a war rather than a hardship. Gothic exports were agricultural produce, slaves taken in raiding, and above all military manpower paid for in gold and rations under treaty. Treating this economy as self-sufficient misses the mechanism that bound the two sides together."
+      ]
+    },
+    {
+      "title": "376: the crossing and the war that followed",
+      "paragraphs": [
+        "The break came from the east. In about 375 the Huns shattered the Greuthungi. Ammianus says their king Ermanaric killed himself; Jordanes supplies instead a story of the Rosomoni and a woman named Sunilda torn apart by horses, a tale that resurfaces centuries later in Norse legend as Jörmunrekkr. What is certain is that the political order north of the Black Sea collapsed within a few years.",
+        "In 376 large numbers of Tervingi under Fritigern and Alavivus asked to cross the Danube and were admitted. Ammianus' account of what followed is the crucial passage in the whole story: the Roman officers Lupicinus and Maximus profiteered on the refugees, selling dog meat at the price of a child sold into slavery. The revolt that resulted produced the catastrophe at Adrianople on 9 August 378, where the emperor Valens was killed and, by Ammianus' reckoning, two-thirds of the eastern field army died with him.",
+        "The settlement of 382 under Theodosius I is as important as the battle and much less remembered. It placed the survivors inside the empire by treaty, on terms that left them as a recognisable armed community rather than dispersing them among the provinces. Nothing quite like that had been conceded before, and it established the precedent on which every later Gothic negotiation with Roman authority was built."
+      ]
+    },
+    {
+      "title": "Politics before kingship",
+      "paragraphs": [
+        "Fourth-century Gothic politics were not monarchical, and calling their leaders kings obscures what the sources actually describe. The Tervingi were led by a iudex, a judge — Ammianus' term for Athanaric's position — presiding over a league of lesser rulers, the reiks. It was a confederation with a temporary supreme arbiter, not a state with a crown, and its leaders had no machinery for compelling anyone who chose to walk away.",
+        "Unified Gothic kingship was made inside the Roman empire, under the pressure of negotiating with it. Alaric's elevation as king in 395, over a following drawn from several groups, is the first durable example. The dynastic lines that later justified such kingship — the Balthi among the Visigoths, the Amals among the Ostrogoths — were given their genealogical depth retrospectively by court writers who needed a Gothic king to look like an ancient one.",
+        "Wolfram's formulation is the useful one: the Gothic kingdoms were created by Roman service and by opposition to Rome, not carried out of a northern forest ready-made. The institution that ruled Italy and Hispania was a product of the frontier, not an import across it."
+      ]
+    },
+    {
+      "title": "An identity people could join",
+      "paragraphs": [
+        "The armies that crossed the Danube and the force that entered Rome in 410 absorbed Alans, Huns, Sarmatians, Roman deserters, provincials and runaway slaves; Alaric's following swelled with escaped slaves during the blockades of Rome. This is not a marginal detail about recruitment. It is the reason Gothic numbers can never be treated as a population figure, and the reason the group that received land in Aquitaine in 418 was not the group that crossed the river in 376.",
+        "Free Gothic warriors formed a political assembly as well as an army, and a leader who could not deliver supply, pay or land lost them. That is why Gothic history reads as a sequence of negotiations with Roman authority punctuated by violence: the negotiating was the mechanism by which a Gothic leader stayed a leader, and the violence was what he had to threaten in order to negotiate at all.",
+        "Below the iudex and the reiks stood free warrior households, then dependents, then slaves both captured and inherited. The Passion of St Saba, written about 372, shows a village community with enough collective authority to press sacrificial meat on suspected Christians and to expel or kill those who refused — evidence of real governance at village level rather than a simple warband structure. Saba himself was drowned in the river Musaeus for refusing."
+      ]
+    },
+    {
+      "title": "Ulfilas and the timing of a conversion",
+      "paragraphs": [
+        "Ulfilas, or Wulfila, who lived from about 311 to 383, is the pivotal figure. He was descended in part from Christian captives taken from Cappadocia, was consecrated bishop for the Goths in about 341 by Eusebius of Nicomedia, and after persecution led his converts across the Danube into Moesia around 348, where they settled near Nicopolis ad Istrum.",
+        "The decisive fact about his mission is one of timing rather than theology. Ulfilas' Christianity was the Homoian position dominant at the imperial court in the 340s and 350s — the position its opponents later labelled Arian. The Goths converted to the version of Christianity the empire was at that moment teaching them. When the Nicene settlement hardened under Theodosius I, their faith was retrospectively reclassified as heresy.",
+        "A doctrinal accident of the mid-fourth century therefore became the political fault line running through both Gothic kingdoms for two hundred years. Calling the Gothic church Arian adopts the vocabulary of the side that won; Homoian is the accurate term, and the distinction matters because it removes the implication that the Goths chose a heresy. They chose the court's theology and the court moved."
+      ]
+    },
+    {
+      "title": "The Gothic language",
+      "paragraphs": [
+        "Gothic is East Germanic and the earliest substantially attested Germanic language, which makes it the cornerstone of comparative Germanic philology: it supplies much of the evidence for reconstructing forms that every later Germanic language had already lost by the time it was written down.",
+        "The surviving corpus is small but rich. The Codex Argenteus at Uppsala University Library is a gospel book written in silver and gold ink on purple-stained parchment, produced around 500 and almost certainly in Ostrogothic Italy; 188 of its original 336 leaves survive. The Skeireins is a commentary on John's gospel. Fragments of a Gothic calendar survive, along with the Bologna and Speyer fragments. The Naples and Arezzo deeds carry Gothic signatures of Arian clergy on Italian legal documents, which shows the language in ordinary administrative use rather than only in scripture.",
+        "Ulfilas' translation is itself historical evidence. To render Greek theological vocabulary he had to build a Christian register in Gothic from nothing, through calques and loanwords, and the depth of that work indicates a mission of real ambition rather than a gesture. Philostorgius reports that he omitted the Books of Kings on the grounds that the Goths needed no encouragement toward war; it is a good story, it comes from a later writer, and it should be read as tradition rather than fact.",
+        "The last trace is Crimean Gothic, recorded in 1562 by the Habsburg ambassador Ogier Ghiselin de Busbecq, who took roughly eighty words from two informants he met at Constantinople. Whether that speech descended directly from Ulfilas' Gothic is debated. It is nonetheless the reason this article's chronology runs a thousand years past the last Gothic kingdom: the polities ended long before the language did."
+      ]
+    },
+    {
+      "title": "Arian and Nicene as a social boundary",
+      "paragraphs": [
+        "The division between the Homoian church of the Goths and the Nicene church of the populations they ruled was not primarily an argument about the Trinity as far as most people experienced it. It was a matter of separate bishops, separate clergy, separate buildings and separate baptisms. The Gothic church rebaptised converts coming from the Nicene side, and that single practice is what made the boundary unbridgeable in daily life: it declared the other church's central rite void.",
+        "The political cost was constant and structural. A Gothic king could not be the religious head of the majority of his subjects. Nicene bishops were natural channels for the influence of a hostile foreign power. And any Gothic dissident could find allies simply by changing sides in the religious argument, which is exactly what happened in Hispania in the 580s.",
+        "Every serious crisis in Visigothic and Ostrogothic politics ran along that line until Reccared removed it at Toledo in 589. In Italy it was never removed, and Justinian was able to present his war as the liberation of Catholic Italy from heretics — which is the clearest demonstration of what the division was worth to an enemy."
+      ]
+    },
+    {
+      "title": "Gold, garnet and the Pietroasa hoard",
+      "paragraphs": [
+        "The Pietroasa hoard, found at Pietroassa in Romania in 1837, is the outstanding Gothic-associated find. It originally comprised twenty-two pieces of late fourth- or early fifth-century goldwork, of which twelve survive after the theft and damage of 1875. It includes a great gold dish, eagle-headed fibulae set with garnets, and a neck-ring carrying a runic inscription.",
+        "The ring inscription deserves care rather than confidence. It reads gutaniowi hailag or something close to it, and the proposed translations — \"sacred to the Goths' Jove\", \"holy property of the Goths\", and several others — depend on how the damaged and partly cut letters are divided into words. It is genuinely contested, and presenting any one reading as settled misrepresents the object.",
+        "The hoard is usually connected with the Gothic elite of the Danube region and sometimes specifically with Athanaric's treasure, but that attribution is inferred from date and findspot rather than documented by any source. More broadly, the polychrome cloisonné style of the Danubian and Pontic world — gold cells set with garnets — is the visual signature of the era, and eagle fibulae later became a marker of Gothic-associated elite dress in both Italy and Spain.",
+        "Everyday material culture was far plainer. Chernyakhov society was agricultural, producing grain, working iron and manufacturing bone combs, and its villages were open settlements of sunken-featured buildings and long houses without walls or planning. There is no Gothic urbanism before the kingdoms: afterwards the Goths did not build cities but inherited them, taking over Ravenna, Toulouse and Toledo with their walls, aqueducts and churches already standing."
+      ]
+    },
+    {
+      "title": "War on foot, and the myth of 378",
+      "paragraphs": [
+        "Fourth-century Gothic armies fought mainly on foot with cavalry in support, and used the carrago, a laager of wagons, as a field fortification. It is what Fritigern's people sheltered behind before the fighting in 378. Their equipment was largely of Roman-provincial manufacture: the spatha, the long double-edged sword of the late Roman army; spears for throwing and thrusting; a round shield; and body armour that was scarce enough to be a mark of status rather than standard issue. Chernyakhov graves yield spearheads, shield bosses and knives, and the ridge and spangenhelm forms circulating in the Danubian world are the plausible helmet types.",
+        "One correction belongs here, because it is the most repeated error about the Goths. Following Charles Oman's nineteenth-century account, Adrianople was long presented as the victory of cavalry over infantry and the beginning of a thousand years of mounted dominance. Modern work has dismantled that reading: the Gothic infantry did the fighting, the returning cavalry arrived at a decisive moment rather than deciding the battle by its nature, and Roman armies went on relying on infantry for centuries afterwards.",
+        "What happened in 378 was a catastrophic Roman defeat caused by exhaustion, poor reconnaissance and a premature engagement begun before the western army arrived. That is a more useful lesson than a technological revolution, and it is also what the contemporary source actually describes."
+      ]
+    },
+    {
+      "title": "Two endings: Italy and Hispania",
+      "paragraphs": [
+        "The two Gothic kingdoms ended in opposite ways, and the contrast is the most illuminating thing in Gothic history. In Italy, the Gothic War of 535 to 554 annihilated the Gothic army and with it the Gothic name as a political category. The survivors were absorbed or left, and no Ostrogothic successor identity exists anywhere afterwards.",
+        "In Hispania the outcome was the reverse. Conversion at Toledo in 589 removed the religious boundary, and territorial law in 654 removed the legal one, fusing Goths and Romans into a single Hispano-Gothic elite. When the Umayyad conquest destroyed the kingdom from 711, that identity survived the polity by several centuries — as a claim to legitimacy rather than as a state.",
+        "The kings of Asturias and later León presented themselves as heirs of the Goths, and the Gothic past became an argument about who had the right to rule Iberia. A people whose kingdom fell in five years thereby supplied the political vocabulary of the peninsula for another seven hundred."
+      ]
+    },
+    {
+      "title": "What outlasted the kingdoms",
+      "paragraphs": [
+        "Four legacies, each concrete. The language: Gothic is the cornerstone of Germanic philology and the Codex Argenteus its greatest monument, which means every reconstruction of early Germanic grammar still runs through a book made for Gothic Arians. The law: the Liber Iudiciorum was translated into Castilian as the Fuero Juzgo and used in Iberian courts for centuries after the kingdom that issued it had gone.",
+        "The claim: neo-Gothic legitimacy shaped the political self-understanding of the Asturian and Leonese kingdoms and, through them, of Castile. The buildings: the mausoleum and mosaics of Ravenna, and the seventh-century churches of the Castilian meseta with their horseshoe arches.",
+        "And the speech itself outlasted every institution built on it. Crimean Gothic was still spoken when Busbecq wrote down his eighty words in 1562, roughly a thousand years after the last Gothic king in Italy and eight hundred after the last in Hispania."
+      ]
+    },
+    {
+      "title": "Three names that are not the Goths",
+      "paragraphs": [
+        "Goths are not Geats. Old Norse Gautar and Old English Gēatas — Beowulf's people — are a distinct group in southern Sweden. The conflation runs through older scholarship and a long tradition of Beowulf criticism, encouraged by Jordanes listing both Gautigoth and Ostrogothae among the peoples of Scandza. The names may share a distant root, but a shared etymology is not a shared people, and this archive keeps them separate. The Gutes of Gotland, the Gutar of the Gutasaga, are a third group with a similar name and must not be merged with either.",
+        "\"Gothic\" architecture has nothing to do with the Goths. The label was coined as an insult by Italian Renaissance writers, Vasari among them, to dismiss the pointed-arch style of northern Europe as barbarous. In this archive the word most often means something later still: gothic plate armour is a fifteenth-century German style dated around 1480, roughly nine hundred years after the last Gothic kingdom in Italy fell.",
+        "One further misuse should be named and rejected. The nineteenth- and twentieth-century appropriation of Gothic archaeology by Germanic nationalism, culminating in Nazi interest in a Crimean \"Gotenland\", is a chapter in modern European politics rather than in Gothic history. It is also the clearest illustration of why grave goods are not ethnicity: the method that made that appropriation possible is the one the field abandoned."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 98",
+      "title": "Tacitus names the Gotones",
+      "description": "The Germania places a people called the Gotones east of the Vistula. The connection to the later Goths is probable on philological grounds and documented by nothing."
+    },
+    {
+      "date": "c. 238",
+      "title": "Raiding across the Danube begins",
+      "description": "Gothic groups start raiding Roman territory in earnest, opening three decades of pressure on the lower Danube and the Black Sea coasts."
+    },
+    {
+      "date": "251",
+      "title": "Abritus",
+      "description": "A Gothic force under Cniva destroys a Roman army and kills the emperor Decius — the first Roman emperor to die fighting a foreign enemy."
+    },
+    {
+      "date": "268 or 269",
+      "title": "Naissus",
+      "description": "A major Roman victory checks the seaborne raids of the 260s, after which Claudius II takes the victory title Gothicus."
+    },
+    {
+      "date": "271",
+      "title": "Rome abandons Dacia",
+      "description": "Aurelian withdraws the province north of the Danube, removing the buffer between the empire and the Gothic groups and making the river the frontier."
+    },
+    {
+      "date": "332",
+      "title": "Constantine's treaty",
+      "description": "Gothic groups are bound to supply troops in return for trading access across the frontier, making Gothic society dependent on Roman subsidy and Roman markets."
+    },
+    {
+      "date": "c. 341",
+      "title": "Ulfilas consecrated bishop",
+      "description": "Eusebius of Nicomedia consecrates Ulfilas bishop for the Goths. His Homoian theology is the position then dominant at the imperial court."
+    },
+    {
+      "date": "c. 348",
+      "title": "The mission resettles in Moesia",
+      "description": "After persecution north of the river, Ulfilas leads his converts across the Danube and settles them near Nicopolis ad Istrum."
+    },
+    {
+      "date": "c. 369–372",
+      "title": "Athanaric's persecution",
+      "description": "Gothic Christians are persecuted north of the Danube. The Passion of St Saba, describing Saba's drowning in the river Musaeus, comes from this episode."
+    },
+    {
+      "date": "c. 375",
+      "title": "The Huns break the Greuthungi",
+      "description": "Hunnic attacks collapse the Gothic political order north of the Black Sea. Ammianus says Ermanaric killed himself; Jordanes tells a different and more literary story."
+    },
+    {
+      "date": "376",
+      "title": "The Danube crossing",
+      "description": "Tervingi under Fritigern and Alavivus are admitted into the empire. Roman officers profiteer on the refugees, selling dog meat at the price of a child sold into slavery."
+    },
+    {
+      "date": "378",
+      "title": "Adrianople",
+      "description": "On 9 August the emperor Valens is killed and, by Ammianus' reckoning, two-thirds of the eastern field army dies with him."
+    },
+    {
+      "date": "382",
+      "title": "Theodosius settles the Goths",
+      "description": "A treaty places the survivors inside the empire as a recognisable armed community rather than dispersing them — the precedent for every later Gothic negotiation."
+    },
+    {
+      "date": "395",
+      "title": "Alaric made king",
+      "description": "Alaric is raised as king over a following drawn from several groups: the first durable example of unified Gothic kingship, and it is made inside the empire."
+    },
+    {
+      "date": "410",
+      "title": "The sack of Rome",
+      "description": "Alaric's Goths enter Rome after three blockades. The shock to Roman self-understanding prompted Augustine to begin The City of God."
+    },
+    {
+      "date": "451",
+      "title": "The Catalaunian Plains",
+      "description": "Gothic troops fight on both sides — with Aetius against Attila, and in Attila's army — the clearest demonstration that \"Goth\" was never a single political allegiance."
+    },
+    {
+      "date": "489–493",
+      "title": "Theoderic takes Italy",
+      "description": "The Amal-led Goths conquer Italy and found the kingdom at Ravenna, the most successful post-Roman experiment in government anywhere in the west."
+    },
+    {
+      "date": "589",
+      "title": "The Third Council of Toledo",
+      "description": "Reccared and the Gothic nobility accept the Nicene creed, removing the religious boundary that had divided rulers from ruled for two centuries."
+    },
+    {
+      "date": "711",
+      "title": "Guadalete",
+      "description": "Roderic is killed and the Toledo kingdom collapses within about five years, ending the last Gothic polity."
+    },
+    {
+      "date": "1562",
+      "title": "Busbecq records Crimean Gothic",
+      "description": "The Habsburg ambassador Ogier Ghiselin de Busbecq takes roughly eighty words of Gothic speech from two Crimean informants at Constantinople — the last recorded trace."
+    }
+  ],
+  "relatedEntries": {
+    "civilizations": [
+      {
+        "title": "Visigoths",
+        "type": "civilization",
+        "slug": "visigoths",
+        "label": "The Gothic people who formed inside the empire and ended at Toledo"
+      },
+      {
+        "title": "Ostrogoths",
+        "type": "civilization",
+        "slug": "ostrogoths",
+        "label": "The Gothic people assembled in the Balkans who took Italy"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The Gothic realm in Italy, 493 to 553"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Sacked by Alaric's Goths in 410"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Where Jordanes wrote the Getica, and where Busbecq heard Gothic in 1562"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Employer, enemy and model across three centuries"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "Justinian's reconquest, which ended the Gothic name in Italy"
+      },
+      {
+        "title": "Fall of the Western Roman Empire",
+        "type": "event",
+        "slug": "fall-of-western-rome",
+        "label": "The collapse in which the Gothic kingdoms became successor states"
+      }
+    ],
+    "people": [
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "The Gothic king who nearly reversed the reconquest"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Whose war destroyed the Gothic army in Italy"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Herwig Wolfram, History of the Goths (California, 1988)",
+      "url": "https://en.wikipedia.org/wiki/Herwig_Wolfram",
+      "type": "book"
+    },
+    {
+      "title": "Peter Heather, The Goths (Blackwell, 1996) and Goths and Romans 332–489 (Oxford, 1991)",
+      "url": "https://en.wikipedia.org/wiki/Peter_Heather",
+      "type": "book"
+    },
+    {
+      "title": "Michael Kulikowski, Rome's Gothic Wars from the Third Century to Alaric (Cambridge, 2007)",
+      "url": "https://en.wikipedia.org/wiki/Michael_Kulikowski",
+      "type": "book"
+    },
+    {
+      "title": "Guy Halsall, Barbarian Migrations and the Roman West, 376–568 (Cambridge, 2007)",
+      "url": "https://en.wikipedia.org/wiki/Guy_Halsall",
+      "type": "book"
+    },
+    {
+      "title": "Ammianus Marcellinus, Res Gestae, books XXVI–XXXI",
+      "url": "https://en.wikipedia.org/wiki/Ammianus_Marcellinus",
+      "type": "primary source"
+    },
+    {
+      "title": "Jordanes, Getica — to be read as a sixth-century construction",
+      "url": "https://en.wikipedia.org/wiki/Getica",
+      "type": "primary source"
+    },
+    {
+      "title": "Codex Argenteus, Uppsala University Library",
+      "url": "https://en.wikipedia.org/wiki/Codex_Argenteus",
+      "type": "encyclopedia"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Codex_Argenteus_fol_97.jpg"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Tesoro_di_pietroasele,_missorio,_IV-V_sec_(1).jpg"
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "Gold, garnet and the Pietroasa hoard",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tesoro%20di%20pietroasele%2C%20missorio%2C%20IV-V%20sec%20(1).jpg?width=1200",
+      "caption": "The great gold dish from the Pietroasa hoard, made in the fourth or fifth century and photographed in 2012.",
+      "creator": "Unknown late antique goldsmith; photographed by Asybaris01 (Wikimedia Commons)",
+      "date": "the dish fourth or fifth century; photographed 2012",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tesoro_di_pietroasele,_missorio,_IV-V_sec_(1).jpg",
+      "note": "The largest surviving piece of the hoard found at Pietroassa in Romania in 1837, of which twelve of the original twenty-two objects remain after the theft and damage of 1875. The splits across the dish date from that theft; the object is complete in outline. Its association with the Gothic elite of the Danube region is inferred from date and findspot, not documented by any source. CC BY-SA 3.0."
+    }
+  ]
+}

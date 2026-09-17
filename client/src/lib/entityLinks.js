@@ -554,27 +554,6 @@ export const entityLinks = [
   { label: "Magna Carta Sealed", type: "event", slug: "magna-carta" },
   { label: "Norman Conquest of England", type: "event", slug: "norman-conquest" },
   { label: "Recovery of Constantinople", aliases: ["Reconquest of Constantinople","Byzantine recovery of Constantinople"], type: "event", slug: "recovery-of-constantinople" },
-  { label: "Sack of Aleppo", aliases: ["Sack of Aleppo (962)","Byzantine capture of Aleppo"], type: "event", slug: "siege-of-aleppo-962" },
-  { label: "Siege and Sack of Constantinople", aliases: ["Sack of Constantinople","Sack of Constantinople (1204)","The sack of 1204"], type: "event", slug: "siege-of-constantinople-1204" },
-  { label: "Siege of Acre", aliases: ["Siege of Acre (1189–1191)","Siege of Saint-Jean-d’Acre"], type: "event", slug: "siege-of-acre" },
-  { label: "Siege of Antioch (969)", aliases: ["Byzantine recovery of Antioch","Fall of Antioch (969)"], type: "event", slug: "siege-of-antioch-969" },
-  { label: "Siege of Chandax", aliases: ["Byzantine reconquest of Crete","Siege of Candia (961)","Fall of Chandax"], type: "event", slug: "siege-of-chandax" },
-  { label: "Siege of Constantinople (626)", aliases: ["Avar siege of Constantinople","Avar–Persian siege of Constantinople"], type: "event", slug: "siege-of-constantinople-626" },
-  { label: "Siege of Constantinople (717–718)", aliases: ["Umayyad siege of Constantinople","Arab siege of Constantinople"], type: "event", slug: "siege-of-constantinople-717" },
-  { label: "Siege of Kyiv", aliases: ["Siege of Kiev","Sack of Kyiv","Fall of Kyiv (1240)"], type: "event", slug: "siege-of-kyiv" },
-  { label: "Siege of Lisbon", type: "event", slug: "siege-of-lisbon" },
-  { label: "Siege of Orléans", type: "event", slug: "siege-of-orleans" },
-  { label: "Siege of Rome", type: "event", slug: "siege-of-rome-537" },
-  { label: "Siege of Rouen", type: "event", slug: "siege-of-rouen" },
-  { label: "Siege of Ryazan", aliases: ["Sack of Ryazan","Fall of Ryazan"], type: "event", slug: "siege-of-ryazan" },
-  { label: "Siege of Sidon (1110)", aliases: ["Siege of Sidon","Capture of Sidon (1110)","Fall of Sidon (1110)"], type: "event", slug: "siege-of-sidon-1110" },
-  { label: "Siege of Vladimir", aliases: ["Sack of Vladimir","Fall of Vladimir"], type: "event", slug: "siege-of-vladimir" },
-  { label: "Third Crusade", type: "event", slug: "third-crusade" },
-  { label: "Treaty of Edinburgh-Northampton", aliases: ["Treaty of Edinburgh Northampton"], type: "event", slug: "treaty-of-edinburgh-northampton" },
-  { label: "Treaty of Verdun", type: "event", slug: "treaty-of-verdun" },
-  { label: "Treaty of Zamora", type: "event", slug: "treaty-of-zamora" },
-  { label: "Vandalic War", type: "event", slug: "vandalic-war" },
-  { label: "Wars of Scottish Independence", aliases: ["First War of Scottish Independence"], type: "event", slug: "wars-of-scottish-independence" },
   { label: "Aachen", type: "location", slug: "aachen" },
   { label: "Abbasid Caliphate", aliases: ["Abbasids","Abbasid Empire"], type: "location", slug: "abbasid-caliphate" },
   { label: "Agincourt", aliases: ["Azincourt","Aisincurt"], type: "location", slug: "agincourt" },
@@ -630,6 +609,7 @@ export const entityLinks = [
   { label: "Gestilren", type: "location", slug: "gestilren" },
   { label: "Granada", aliases: ["Gharnata","Emirate of Granada"], type: "location", slug: "granada" },
   { label: "Grand Duchy of Lithuania", type: "location", slug: "grand-duchy-of-lithuania" },
+  { label: "Great Seljuk Empire", aliases: ["Seljuk Empire","Seljuk forces","Seljuk Turks"], type: "location", slug: "seljuk-turks" },
   { label: "Grunwald", aliases: ["Grünfelde","Grunfelde"], type: "location", slug: "grunwald" },
   { label: "Gurre Castle", aliases: ["Gurre Slot","Gurre Slotsruin"], type: "location", slug: "gurre-castle" },
   { label: "Gutierre-Munoz", type: "location", slug: "gutierre-munoz" },
@@ -719,7 +699,6 @@ export const entityLinks = [
   { label: "Sasanian Empire", aliases: ["Sassanid Empire","Eranshahr","Persian Empire"], type: "location", slug: "sasanian-empire" },
   { label: "Schlei", type: "location", slug: "schlei" },
   { label: "Scone", type: "location", slug: "scone" },
-  { label: "Seljuk Turks", aliases: ["Great Seljuk Empire","Seljuk Empire","Seljuk forces"], type: "location", slug: "seljuk-turks" },
   { label: "Senieji Trakai", type: "location", slug: "senieji-trakai" },
   { label: "Seville", aliases: ["Hispalis","Ishbiliya","Sevilla"], type: "location", slug: "seville" },
   { label: "Shaftesbury", aliases: ["Sceaftesburh"], type: "location", slug: "shaftesbury" },
@@ -775,6 +754,7 @@ export const entityLinks = [
   { label: "Breastplate", aliases: ["cuirass","Kastenbrust","plackart"], type: "weaponArmor", slug: "breastplate" },
   { label: "Brigandine", aliases: ["Brigandine armor"], type: "weaponArmor", slug: "brigandine" },
   { label: "Buckler", aliases: ["Small hand shield"], type: "weaponArmor", slug: "buckler" },
+  { label: "Byzantines", aliases: ["Rhomaioi","Eastern Romans","Byzantine Greeks","Graikoi"], type: "civilization", slug: "byzantines" },
   { label: "Churburg Armoury", aliases: ["Churburg","Castel Coira armoury","Churburg harnesses","Churburg 13"], type: "weaponArmor", slug: "churburg-armour" },
   { label: "Coat of Plates", aliases: ["Pair of plates"], type: "weaponArmor", slug: "coat-of-plates" },
   { label: "Coppergate Helmet", aliases: ["York Helmet","Coppergate helm"], type: "weaponArmor", slug: "coppergate-helmet" },
@@ -790,6 +770,7 @@ export const entityLinks = [
   { label: "Gjermundbu Helmet", aliases: ["Gjermundbu helm","the Viking helmet"], type: "weaponArmor", slug: "gjermundbu-helmet" },
   { label: "Gorget", aliases: ["neck defence","mail standard","pisane","gorgerin"], type: "weaponArmor", slug: "gorget" },
   { label: "Gothic Plate Armor", aliases: ["Gothic armor"], type: "weaponArmor", slug: "gothic-plate-armor" },
+  { label: "Goths", aliases: ["Gothi","Gotthi","Gutans","Gutthiuda","Gutþiuda","Gotones","Gutones","Gythones"], type: "civilization", slug: "goths" },
   { label: "Great Helm", aliases: ["Great helmet","Pot helm"], type: "weaponArmor", slug: "great-helm" },
   { label: "Great Helm of Albert von Prankh", aliases: ["Prankh helm","Pranckh helm"], type: "weaponArmor", slug: "prankh-great-helm" },
   { label: "Halberd", aliases: ["Halbert"], type: "weaponArmor", slug: "halberd" },
@@ -814,24 +795,15 @@ export const entityLinks = [
   { label: "Messer", aliases: ["langes Messer","grosses Messer","Kriegsmesser","long knife"], type: "weaponArmor", slug: "messer" },
   { label: "Military Flail", aliases: ["war flail","Kriegsflegel","threshing flail"], type: "weaponArmor", slug: "military-flail" },
   { label: "Nasal Helmet", aliases: ["Nasal helm"], type: "weaponArmor", slug: "nasal-helmet" },
+  { label: "Norse", aliases: ["North Germanic peoples","Norsemen","Nordmenn","Northmen","Scandinavians of the Viking Age"], type: "civilization", slug: "norse" },
+  { label: "Ostrogoths", aliases: ["Ostrogothi","Austrogothi","Ostrogotae","Greuthungi","Greutungi","Goths of Italy","Amals","Amali"], type: "civilization", slug: "ostrogoths" },
   { label: "Pavise", aliases: ["Pavise shield"], type: "weaponArmor", slug: "pavise" },
+  { label: "Pechenegs", aliases: ["Patzinaks","Pecheneg confederation","Bisseni"], type: "civilization", slug: "pechenegs" },
   { label: "Pembridge Helm", aliases: ["Pembridge helmet","Pembrugge helm"], type: "weaponArmor", slug: "pembridge-helm" },
   { label: "Pike", aliases: ["long pike","Langspiess"], type: "weaponArmor", slug: "pike" },
   { label: "Plate Armor", aliases: ["Plate harness","Full plate armor"], type: "weaponArmor", slug: "plate-armor" },
   { label: "Poleaxe", aliases: ["Pollaxe","pollaxe","hache"], type: "weaponArmor", slug: "poleaxe" },
-  { label: "Round Shield", aliases: ["Viking shield","Viking round shield","lime-wood shield"], type: "weaponArmor", slug: "round-shield" },
-  { label: "Sallet", aliases: ["Salade"], type: "weaponArmor", slug: "sallet" },
-  { label: "Seax", aliases: ["Scramasax"], type: "weaponArmor", slug: "seax" },
-  { label: "Shield", aliases: ["Medieval shield"], type: "weaponArmor", slug: "shield" },
-  { label: "Spangenhelm", aliases: ["banded helmet","segmented helmet","Baldenheim helmet"], type: "weaponArmor", slug: "spangenhelm" },
-  { label: "Spear", aliases: ["Thrusting spear"], type: "weaponArmor", slug: "spear" },
-  { label: "Surcoat", aliases: ["Coat over armor"], type: "weaponArmor", slug: "surcoat" },
-  { label: "Sutton Hoo Helmet", aliases: ["Sutton Hoo helm"], type: "weaponArmor", slug: "sutton-hoo-helmet" },
   { label: "Szczerbiec", aliases: ["Polish coronation sword","the notched sword"], type: "weaponArmor", slug: "szczerbiec" },
-  { label: "Trebuchet", aliases: ["counterweight trebuchet","traction trebuchet","blide"], type: "weaponArmor", slug: "trebuchet" },
-  { label: "Ulfberht Swords", aliases: ["+VLFBERHT+ swords","Vlfberht swords"], type: "weaponArmor", slug: "ulfberht-swords" },
-  { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
-  { label: "War Hammer", aliases: ["Horseman’s hammer","horseman's pick","martel-de-fer"], type: "weaponArmor", slug: "war-hammer" },
   { label: "William Wallace's Sword", aliases: ["Wallace Sword","the Wallace sword"], type: "weaponArmor", slug: "wallace-sword" },
   { label: "Knights Hospitaller", aliases: ["The Knights Hospitaller","Hospitallers","The Hospitallers","Order of St John","Order of Saint John","Order of the Hospital","Knights of St John","Knights of Saint John","Order of St John of Jerusalem","Order of Malta","Knights of Malta"], type: "order", slug: "knights-hospitaller" },
   { label: "Knights Templar", aliases: ["The Knights Templar","Templars","The Templars","Order of the Temple","Poor Fellow-Soldiers of Christ","Poor Fellow-Soldiers of Christ and of the Temple of Solomon","Order of the Poor Knights of the Temple","Knights of the Temple"], type: "order", slug: "knights-templar" },
@@ -848,9 +820,44 @@ export const entityLinks = [
   { label: "Order of San Jorge de Alfama", aliases: ["The Order of San Jorge de Alfama","Order of Saint George of Alfama","Order of Sant Jordi d’Alfama","Orde de Sant Jordi d’Alfama","Knights of St George of Alfama"], type: "order", slug: "order-of-san-jorge-de-alfama" },
   { label: "Order of Santiago", aliases: ["The Order of Santiago","Order of St James","Order of Saint James of the Sword","Order of Santiago de Compostela","Knights of Santiago","Orden de Santiago"], type: "order", slug: "order-of-santiago" },
   { label: "Order of St Thomas of Acre", aliases: ["The Order of St Thomas of Acre","Order of Saint Thomas of Acre","Order of St Thomas of Canterbury","Knights of St Thomas","Order of St Thomas the Martyr"], type: "order", slug: "order-of-st-thomas-of-acre" },
-  { label: "Pechenegs", aliases: ["Patzinaks","Pecheneg confederation","Bisseni"], type: "civilization", slug: "pechenegs" },
-  { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
+  { label: "Romans", aliases: ["Romani","Italo-Romans","Gallo-Romans","Hispano-Romans","Roman provincials"], type: "civilization", slug: "romans" },
+  { label: "Sack of Aleppo", aliases: ["Sack of Aleppo (962)","Byzantine capture of Aleppo"], type: "event", slug: "siege-of-aleppo-962" },
+  { label: "Siege and Sack of Constantinople", aliases: ["Sack of Constantinople","Sack of Constantinople (1204)","The sack of 1204"], type: "event", slug: "siege-of-constantinople-1204" },
+  { label: "Siege of Acre", aliases: ["Siege of Acre (1189–1191)","Siege of Saint-Jean-d’Acre"], type: "event", slug: "siege-of-acre" },
+  { label: "Siege of Antioch (969)", aliases: ["Byzantine recovery of Antioch","Fall of Antioch (969)"], type: "event", slug: "siege-of-antioch-969" },
+  { label: "Siege of Chandax", aliases: ["Byzantine reconquest of Crete","Siege of Candia (961)","Fall of Chandax"], type: "event", slug: "siege-of-chandax" },
+  { label: "Siege of Constantinople (626)", aliases: ["Avar siege of Constantinople","Avar–Persian siege of Constantinople"], type: "event", slug: "siege-of-constantinople-626" },
+  { label: "Siege of Constantinople (717–718)", aliases: ["Umayyad siege of Constantinople","Arab siege of Constantinople"], type: "event", slug: "siege-of-constantinople-717" },
+  { label: "Siege of Kyiv", aliases: ["Siege of Kiev","Sack of Kyiv","Fall of Kyiv (1240)"], type: "event", slug: "siege-of-kyiv" },
+  { label: "Siege of Lisbon", type: "event", slug: "siege-of-lisbon" },
+  { label: "Siege of Orléans", type: "event", slug: "siege-of-orleans" },
+  { label: "Siege of Rome", type: "event", slug: "siege-of-rome-537" },
+  { label: "Siege of Rouen", type: "event", slug: "siege-of-rouen" },
+  { label: "Siege of Ryazan", aliases: ["Sack of Ryazan","Fall of Ryazan"], type: "event", slug: "siege-of-ryazan" },
+  { label: "Siege of Sidon (1110)", aliases: ["Siege of Sidon","Capture of Sidon (1110)","Fall of Sidon (1110)"], type: "event", slug: "siege-of-sidon-1110" },
+  { label: "Siege of Vladimir", aliases: ["Sack of Vladimir","Fall of Vladimir"], type: "event", slug: "siege-of-vladimir" },
+  { label: "Third Crusade", type: "event", slug: "third-crusade" },
+  { label: "Treaty of Edinburgh-Northampton", aliases: ["Treaty of Edinburgh Northampton"], type: "event", slug: "treaty-of-edinburgh-northampton" },
+  { label: "Treaty of Verdun", type: "event", slug: "treaty-of-verdun" },
+  { label: "Treaty of Zamora", type: "event", slug: "treaty-of-zamora" },
+  { label: "Vandalic War", type: "event", slug: "vandalic-war" },
+  { label: "Round Shield", aliases: ["Viking shield","Viking round shield","lime-wood shield"], type: "weaponArmor", slug: "round-shield" },
+  { label: "Sallet", aliases: ["Salade"], type: "weaponArmor", slug: "sallet" },
+  { label: "Seax", aliases: ["Scramasax"], type: "weaponArmor", slug: "seax" },
+  { label: "Shield", aliases: ["Medieval shield"], type: "weaponArmor", slug: "shield" },
+  { label: "Spangenhelm", aliases: ["banded helmet","segmented helmet","Baldenheim helmet"], type: "weaponArmor", slug: "spangenhelm" },
+  { label: "Spear", aliases: ["Thrusting spear"], type: "weaponArmor", slug: "spear" },
+  { label: "Surcoat", aliases: ["Coat over armor"], type: "weaponArmor", slug: "surcoat" },
+  { label: "Sutton Hoo Helmet", aliases: ["Sutton Hoo helm"], type: "weaponArmor", slug: "sutton-hoo-helmet" },
+  { label: "Trebuchet", aliases: ["counterweight trebuchet","traction trebuchet","blide"], type: "weaponArmor", slug: "trebuchet" },
+  { label: "Ulfberht Swords", aliases: ["+VLFBERHT+ swords","Vlfberht swords"], type: "weaponArmor", slug: "ulfberht-swords" },
+  { label: "Viking Sword", aliases: ["Carolingian sword"], type: "weaponArmor", slug: "viking-sword" },
   { label: "Teutonic Order", aliases: ["Teutonic Knights","The Teutonic Order","The Teutonic Knights","Order of the Teutonic Knights","Order of the German House of Saint Mary in Jerusalem","German Order","Deutscher Orden"], type: "order", slug: "teutonic-order" },
+  { label: "Vikings", aliases: ["Viking Age","víkingr","Norse raiders"], type: "civilization", slug: "vikings" },
+  { label: "Visigoths", aliases: ["Visigothi","Wisigothi","Vesi","Visi","Tervingi","Thervingi","visigodos","Goths of Toulouse","Goths of Toledo"], type: "civilization", slug: "visigoths" },
+  { label: "Wars of Scottish Independence", aliases: ["First War of Scottish Independence"], type: "event", slug: "wars-of-scottish-independence" },
+  { label: "War Bow", aliases: ["Medieval war bow"], type: "weaponArmor", slug: "war-bow" },
+  { label: "War Hammer", aliases: ["Horseman’s hammer","horseman's pick","martel-de-fer"], type: "weaponArmor", slug: "war-hammer" },
 ]
 
 export const ambiguousEntityAliases = [
@@ -1721,6 +1728,52 @@ export const ambiguousEntityAliases = [
         slug: "battle-of-soissons",
         date: "486",
         contextHints: ["486", "Clovis", "Syagrius", "Aegidius", "Ragnachar", "Salian", "Roman rule", "last Roman", "Gaul", "Frankish victory"]
+      }
+    ]
+  },
+  {
+    // "Romans" is the largest wrong-link surface this archive has ever had, and
+    // it exists only because we created the article. 65 articles contain the
+    // bare word. TWENTY of them are civilizations/byzantines, where it means the
+    // Byzantines themselves — they called themselves Rhomaioi and never stopped
+    // — and six each are pope-leo-iii and sigismund-of-luxembourg, where it is
+    // the imperial title: King of the Romans, Holy Roman Emperor.
+    //
+    // So the word denotes two different peoples plus an office, and which one it
+    // means is decided entirely by what surrounds it. Unguarded, every instance
+    // would link to the Latin-west Romans page, including inside the Byzantines
+    // article arguing that the Byzantines WERE Romans — which would be both a
+    // wrong link and a small joke at the archive's expense.
+    //
+    // Scoring ties return null, so a passage mentioning both worlds links to
+    // neither. That is the correct outcome: a missing link beats a wrong one,
+    // and this is exactly the case where being confidently wrong misleads a
+    // reader about who someone was.
+    terms: ["Romans"],
+    possibleTargets: [
+      {
+        title: "Byzantines",
+        label: "Byzantines",
+        type: "civilization",
+        slug: "byzantines",
+        date: "476–1453",
+        contextHints: [
+          "Rhomaioi", "Constantinople", "Byzantine", "Byzantium", "Eastern Roman",
+          "emperor in Constantinople", "Greek", "Orthodox", "basileus", "Komnenos",
+          "Palaiologos", "Anatolia", "Hagia Sophia", "theme", "Nicaea"
+        ]
+      },
+      {
+        title: "Romans",
+        label: "Romans",
+        type: "civilization",
+        slug: "romans",
+        date: "476 – c. 1100",
+        contextHints: [
+          "Senate", "senatorial", "Theoderic", "Cassiodorus", "Boethius", "Symmachus",
+          "Ostrogothic", "Gallo-Roman", "Hispano-Roman", "Italo-Roman", "Ravenna",
+          "praetorian prefect", "Roman law", "consul", "Odoacer", "papacy"
+        ]
       }
     ]
   }

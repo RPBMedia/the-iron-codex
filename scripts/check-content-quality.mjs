@@ -358,7 +358,12 @@ const relTypeToCollection = {
   artifact: 'artifacts', document: 'artifacts', weaponArmor: 'weaponsArmor', weapon: 'weaponsArmor',
   armor: 'weaponsArmor', shield: 'weaponsArmor', helmet: 'weaponsArmor', famousWeapon: 'weaponsArmor', famousArmor: 'weaponsArmor',
   house: 'houses', dynasty: 'houses', order: 'orders',
-  civilization: 'civilizations', people: 'civilizations', culture: 'civilizations'
+  // NOT `people` — that key is already taken above and means a PERSON. Adding it
+  // here shadowed the earlier entry, so every related entry typed "people"
+  // silently resolved against civilizations instead of characters. "A
+  // civilization is a people" was the wrong instinct: in this vocabulary the
+  // word already had an owner.
+  civilization: 'civilizations', culture: 'civilizations'
 }
 const idsByCollection = {}
 for (const [col, arr] of Object.entries(data)) {
@@ -1456,6 +1461,41 @@ const CIVILIZATION_MINIMUMS = {
   3: { sections: 5, timeline: 4 }
 }
 
+/**
+ * The three filter axes are CLOSED SETS, and that is the whole point of them.
+ *
+ * `getFilterConfigs` builds each dropdown from the distinct values it finds, so
+ * a free-text field does not fail — it fragments. "Scandinavia", "Northern
+ * Europe" and "Nordic countries" become three options meaning one thing, and
+ * the filter stops being a way to find anything. Three independent agents
+ * writing the first seven articles produced "Northern Europe" and "Early to
+ * Late Middle Ages" within an hour of each other, which is how fast this drifts
+ * when nothing is watching.
+ *
+ * A civilization spanning the whole window takes the period in which it is
+ * already a distinct identity, not a range: the full span belongs in
+ * `chronology`, which the hero and the archive card both print. The filter is a
+ * navigation aid, not a claim about dates.
+ *
+ * `culturalFamily` keeps "mixed / developing identity" as a real value, so a
+ * contested population is never forced into a tidy linguistic box — that escape
+ * hatch is required by the spec and is the reason this set can be closed at all.
+ */
+const CIVILIZATION_PERIODS = new Set([
+  'Late Antiquity', 'Migration Period', 'Early Middle Ages', 'High Middle Ages', 'Late Middle Ages'
+])
+
+const CIVILIZATION_REGIONS = new Set([
+  'Scandinavia', 'British Isles', 'Iberia', 'France/Low Countries', 'Italy', 'Central Europe',
+  'Balkans', 'Eastern Europe', 'Baltic', 'Steppe', 'Mediterranean', 'Caucasus', 'Near East',
+  'North Africa'
+])
+
+const CIVILIZATION_FAMILIES = new Set([
+  'Germanic', 'Romance', 'Slavic', 'Baltic', 'Finnic', 'Turkic', 'Iranian', 'Semitic', 'Uralic',
+  'Hellenic', 'Celtic', 'mixed / developing identity'
+])
+
 let locationNamesLower = null
 
 function validateCivilizationStandards(entry, label) {
@@ -1472,14 +1512,22 @@ function validateCivilizationStandards(entry, label) {
   // quietly drops the article out of every filtered view, which is worse.
   if (!entry.period) {
     findings.push({ collection: where, article: label, path: 'period', pattern: 'missing — the Civilizations index filters on it', snippet: '' })
+  } else if (!CIVILIZATION_PERIODS.has(entry.period)) {
+    findings.push({ collection: where, article: label, path: 'period', pattern: `not one of the filter values (${[...CIVILIZATION_PERIODS].join(' | ')}). A span belongs in chronology, not here`, snippet: String(entry.period) })
   }
+
   if (!entry.region) {
     findings.push({ collection: where, article: label, path: 'region', pattern: 'missing — the Civilizations index filters on it', snippet: '' })
+  } else if (!CIVILIZATION_REGIONS.has(entry.region)) {
+    findings.push({ collection: where, article: label, path: 'region', pattern: `not one of the filter values (${[...CIVILIZATION_REGIONS].join(' | ')})`, snippet: String(entry.region) })
   }
+
   // A phenomenon has no cultural family, and forcing one would be exactly the
   // rigid-category error the spec warns against. Every actual people needs one.
   if (!entry.culturalFamily && entry.civilizationType !== 'phenomenon') {
     findings.push({ collection: where, article: label, path: 'culturalFamily', pattern: 'missing — required for every civilization except a phenomenon', snippet: '' })
+  } else if (entry.culturalFamily && !CIVILIZATION_FAMILIES.has(entry.culturalFamily)) {
+    findings.push({ collection: where, article: label, path: 'culturalFamily', pattern: `not one of the filter values (${[...CIVILIZATION_FAMILIES].join(' | ')})`, snippet: String(entry.culturalFamily) })
   }
   if (!entry.chronology) {
     findings.push({ collection: where, article: label, path: 'chronology', pattern: 'missing — the hero and the archive card both print it', snippet: '' })

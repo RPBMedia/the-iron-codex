@@ -1,0 +1,437 @@
+{
+  "id": "ostrogoths",
+  "type": "civilization",
+  "civilizationType": "people",
+  "priorityLevel": 1,
+  "name": "Ostrogoths",
+  "endonym": "Gut-þiuda",
+  "aliases": [
+    "Ostrogothi",
+    "Austrogothi",
+    "Ostrogotae",
+    "Greuthungi",
+    "Greutungi",
+    "Goths of Italy",
+    "Amals",
+    "Amali"
+  ],
+  "culturalFamily": "Germanic",
+  "period": "Late Antiquity",
+  "region": "Italy",
+  "chronology": "c. 454 – 554",
+  "languages": [
+    "Gothic, used by the army, the Arian liturgy and some legal signatures",
+    "Latin, used for all administration"
+  ],
+  "religions": [
+    "Homoian (\"Arian\") Christianity throughout",
+    "The Catholic church of Italy continued alongside it"
+  ],
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum%20of%20Theoderic.JPG?width=1400",
+  "imageInfo": {
+    "caption": "The mausoleum Theoderic built for himself at Ravenna in about 520, roofed with a single slab of Istrian limestone, photographed in 2013.",
+    "creator": "Photographed by Σπάρτακος (Wikimedia Commons)",
+    "date": "the building about 520; photographed 2013",
+    "source": "Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Theoderic.JPG",
+    "note": "A building with no real parallel anywhere: two storeys of Istrian limestone, decagonal below, roofed with one monolithic slab about ten metres across and weighing roughly 230 tonnes, quarried across the Adriatic and brought to Ravenna. It combines ordinary Roman construction with an ambition that answers to nothing else in Italy, which makes it the single most useful object for understanding what a Gothic king in Italy thought he was. CC BY-SA 3.0."
+  },
+  "summary": "The Ostrogoths were assembled under the Amal dynasty in the Balkans in the later fifth century, took Italy in 489, and ran it for sixty years as a Gothic army above an intact Roman administration until Justinian's reconquest destroyed them.",
+  "overview": "Two peoples, one country, and a division of labour that worked until the man holding it together died.",
+  "knownFor": [
+    "Were welded together in the Balkans in the 470s and 480s out of rival Gothic followings, Rugi and others.",
+    "Governed Italy as an army above a functioning Roman civil administration, Senate and consulship included.",
+    "Produced the comes Gothorum sitting with a Roman prudens to judge cases between the two peoples.",
+    "Are the likeliest makers of the Codex Argenteus, the finest surviving Gothic manuscript.",
+    "Ceased to exist as a people after the Gothic War, leaving no successor identity at all."
+  ],
+  "contentSections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "The Ostrogoths were the Gothic people assembled under the Amal dynasty in the Balkans in the later fifth century, who conquered Italy between 489 and 493 and ruled it for sixty years. What they built there was the most successful experiment in post-Roman government anywhere in the west: a Gothic army and a Gothic king above a fully functioning Roman civil administration, with the Senate, the consulship, the praetorian prefecture and Roman law all continuing to operate.",
+        "This article covers the people — how the identity was assembled, how the two-population arrangement worked as a social fact, the language, the church, the objects and the erasure. The politics of the realm, its kings, its campaigns, the succession crisis and the war that ended it belong to the Ostrogothic Kingdom, which this page links to rather than repeats.",
+        "The destruction was carried out by the Roman empire itself. Justinian's Gothic War reconquered Italy and wrecked it in the process, and the Ostrogothic people ceased to exist as a political community. What remains is at Ravenna — the mausoleum, the mosaics — and on the page, in Cassiodorus' Variae and in Boethius' Consolation of Philosophy, written in prison awaiting execution on Theoderic's orders."
+      ]
+    },
+    {
+      "title": "Names and Identity",
+      "paragraphs": [
+        "There is no separate endonym here either: they were Goths, and said so. Ostrogothi appears in fourth-century Latin sources, and Jordanes glosses it as \"eastern Goths\" to match his Visigothi, \"western Goths\". The likelier older sense of the name is \"Goths of the rising sun\", a poetic epithet rather than a statement about where anyone lived.",
+        "Greuthungi is Ammianus' name for the Gothic group north of the Black Sea in the fourth century, and the conventional equation of Greuthungi with Ostrogoths is shorthand that conceals the actual process. Heather's account is the important one: Theoderic's Ostrogoths were assembled in the Balkans in the 470s and 480s, welded together out of at least two large and previously rival Gothic followings — that of Theoderic the Amal and that of Theoderic Strabo — together with Rugi and others. The people who entered Italy in 489 had existed in that form for barely a generation.",
+        "The Amal dynasty requires the same caution. Cassiodorus constructed a seventeen-generation genealogy making Theoderic the heir of a royal line of immense antiquity. Parts of it are probably genuine dynastic memory and parts are constructed, but its purpose is not in doubt: it was written to make a Gothic king the equal of an emperor in pedigree, at a court that was negotiating with emperors. It is court literature and should be read as such.",
+        "Four similar names cause persistent confusion and are worth separating here. Theoderic the Great is not Theoderic Strabo, his rival who died in 481; neither is Theodoric I or Theodoric II, who were Visigothic kings; and none of them is Theodahad, the Amal who took the throne in 534. Popular accounts routinely conflate at least two of the four."
+      ]
+    },
+    {
+      "title": "Assembled, not descended",
+      "paragraphs": [
+        "The single most important fact about Ostrogothic identity is that it was made recently and deliberately, out of groups that had been fighting each other. Two large Gothic followings in the Balkans, led by two men both called Theoderic, spent the 470s as rivals for imperial subsidy and for each other's followers; when Strabo died in 481 and his son was killed soon after, the surviving following was absorbed by the Amal.",
+        "That absorption is what produced the Ostrogoths as a people with a single leader. Rugi joined, and so did smaller groups picked up across two decades of movement between Pannonia, Moesia and Thrace. The army that crossed into Italy was a coalition held together by success, subsidy and the prospect of land, and its Gothic identity was the shared language and the royal tradition it was invited to accept.",
+        "This has a consequence that runs through the whole article. When the Gothic War destroyed the army, it destroyed the only structure in which that identity existed. A people assembled within living memory around a dynasty and a military role had nothing else to fall back on once the dynasty and the role were gone."
+      ]
+    },
+    {
+      "title": "Eighty years under the Huns",
+      "paragraphs": [
+        "The Greuthungi under Ermanaric were broken by the Huns in about 375, and what followed is the part usually skipped: roughly eighty years of Hunnic domination, during which Gothic groups lived under Hunnic overlordship and fought in Hunnic armies. This is not a gap in Gothic history but a formative period of it, and it is where the eastern Goths acquired the habits of a subordinate military people serving a larger power.",
+        "Gothic contingents were in Attila's army at the Catalaunian Plains in 451, where other Goths fought on the Roman side. Goths on both sides of the same battlefield is the clearest single demonstration that \"Goth\" was a language and an allegiance rather than a unified political community.",
+        "After Attila's death in 453 and the defeat of his sons at Nedao in 454, the Pannonian Goths under the Amal brothers Valamir, Thiudimir and Vidimir emerged as an independent federate people. For the next thirty years they were the eastern empire's most awkward neighbours — alternately paid, employed and fought — drifting through the Balkans in search of a settlement that would hold."
+      ]
+    },
+    {
+      "title": "The army and the state: a division of labour",
+      "paragraphs": [
+        "This is the heart of what the Ostrogoths were, and it worked for a generation. The Goths were the army. The exercitus Gothorum provided military service and received sortes — land, or on Goffart's model assignments of tax revenue — allocated under the Roman official Liberius. Military office and military law were Gothic, and Gothic men were not expected to do anything else.",
+        "The Romans ran the state. The praetorian prefecture, the urban prefecture of Rome, the Senate, the courts, the tax system and the consulship all continued, staffed by Roman aristocrats who had held the same posts under the previous regime. Consuls were still appointed, and Roman law still applied to Romans. The great senatorial families — Symmachus, Boethius, Cassiodorus — held the high civil offices and vast estates, and served willingly for as long as the arrangement held.",
+        "Stated as an identity arrangement rather than a constitutional one, it comes to this: being a Goth in Italy meant belonging to the army and to a separate church, and being a Roman meant belonging to the administration and to the Catholic church. The two populations lived largely parallel lives, with Gothic settlement concentrated in the north — the Po valley, Picenum, and around Ravenna, Verona and Pavia — rather than spread evenly through a peninsula of several million people.",
+        "Whether the settlement transferred estates or tax assignments is unresolved here exactly as it is for the Visigothic case, and it matters for the same reason: the two models imply very different relationships between the incoming army and the landowners it lived among."
+      ]
+    },
+    {
+      "title": "The comes Gothorum and the saio",
+      "paragraphs": [
+        "The joint machinery is the interesting part, and it was real rather than decorative. The comes Gothorum in each city heard cases between Goths. Cases between a Goth and a Roman went before the comes sitting together with a Roman legal expert, a prudens, so that neither party was judged wholly by the other's people. It is a small institutional detail and it is the clearest surviving statement of what the kingdom was trying to be.",
+        "The saio was the other half of it: a Gothic royal agent who carried the king's orders into the Roman administration, enforcing judgments, escorting officials, supervising requisitions and compelling compliance. The Variae are full of saiones being dispatched to make Roman institutions do what the Gothic king required. A Gothic officer operating inside a Roman bureaucracy, with authority derived from the king rather than from any Roman office, is the single clearest institutional expression of the arrangement.",
+        "Cassiodorus' Variae, published about 538, collects 468 letters and formulae written in the king's name and is the best surviving window into any post-Roman administration. It is also a work of self-presentation assembled by a man justifying a career under a regime that had just been destroyed, and it must be read with that in mind. Its recurring slogan is civilitas, the rule of law binding both peoples: \"we gladly live by Roman law, which we protect by arms.\""
+      ]
+    },
+    {
+      "title": "Law: why there was never a territorial code",
+      "paragraphs": [
+        "The Ostrogothic kings issued no territorial law code of the Visigothic kind, and the absence is one of the most revealing facts about the kingdom. Roman law simply continued for Romans, Gothic military law governed Goths, and there was never a Liber Iudiciorum fusing the two populations under a single body of rules.",
+        "That was a coherent choice rather than an oversight. The arrangement's whole logic was that the two peoples had distinct functions, and distinct law followed from distinct function. But it meant that nothing was quietly working to erode the boundary between them, which is precisely what happened in Hispania once one code applied to everybody.",
+        "The Edictum Theoderici, 154 clauses of practical law, is traditionally attributed to Theoderic the Great, but Giulio Vismara argued that it belongs instead to the Visigothic Theoderic II. The attribution is genuinely disputed, and assigning the text confidently to either king overstates what the manuscript evidence supports."
+      ]
+    },
+    {
+      "title": "Gothic and Latin: who used which",
+      "paragraphs": [
+        "The linguistic division followed the functional one. Gothic served the army, the Arian liturgy and some legal purposes; Latin did everything administrative, which in a country with a working tax system and a functioning senate meant Latin did almost everything written.",
+        "The evidence that Gothic was more than a liturgical language is documentary. The Gothic deeds of Naples and Arezzo carry Gothic signatures of Arian clergy on Italian legal documents — ordinary transactions, signed in Gothic, filed in a Roman legal system. That is a language in genuine working use, not a ceremonial survival kept alive in church.",
+        "Ostrogothic Italy is also the likeliest home of the Codex Argenteus. The finest surviving Gothic manuscript, written in silver and gold on purple-stained parchment, was probably made at Ravenna or elsewhere in northern Italy around 500, under the patronage of the king or of his church. When the kingdom ended, Gothic ceased to be written or spoken in Italy, and the book survived only because it had travelled."
+      ]
+    },
+    {
+      "title": "An Arian people in a Nicene country",
+      "paragraphs": [
+        "The Goths were Homoian Christians with their own hierarchy, and in Ravenna they built for it. The Arian Baptistery carries a mosaic of the baptism of Christ in its dome, and the palace church now called Sant'Apollinare Nuovo was originally the Arian cathedral attached to the royal palace. These are not modest buildings: they are the church of a ruling minority asserting itself in the capital.",
+        "Theoderic's religious policy was, for most of the reign, deliberate toleration, and he articulated it in terms unusual for the period. The Variae record his ruling on the Jews of the kingdom, whom he protected at Genoa, Milan and Rome: \"we cannot command religion, since no one is forced to believe against his will.\" He intervened in the disputed papal election of the Laurentian schism as an arbiter rather than as a partisan.",
+        "The end of the reign broke that record badly. Suspicion of senatorial correspondence with Constantinople — at a moment when the eastern empire was persecuting Arians — led to the execution of Boethius about 524 and of his father-in-law Symmachus, and to the arrest of Pope John I, who died in custody at Ravenna in 526. The Anonymus Valesianus shapes this into a morality tale of a tyrant's descent and divine punishment, and its hostility should be discounted, but the executions themselves are not in doubt. Neither the tolerant ruling nor the killings should be allowed to erase the other.",
+        "There was no Ostrogothic conversion, and that is part of why the kingdom ended as it did. It remained Arian to the last, which let Justinian present his war as the liberation of Catholic Italy from heretics."
+      ]
+    },
+    {
+      "title": "Kings, and where to read about them",
+      "paragraphs": [
+        "The reigns themselves — Theoderic's thirty-three years, the campaigns, the succession crisis after 526, the Gothic War and the last kings — are the subject of the Ostrogothic Kingdom article, and there is no purpose in restating them here. What belongs to the people is the single episode in which the two halves of the kingdom's identity collided openly, and it was fought over a child's education.",
+        "Amalasuintha, Theoderic's daughter, governed as regent for her son Athalaric from 526. Procopius records that she gave the boy a Roman literary education, and that Gothic nobles objected on the grounds that it would unfit him for war and that a king who had been taught to fear his teacher would not face an enemy. She was compelled to give way, and the boy was handed over to companions of his own age.",
+        "That quarrel is the whole arrangement in miniature. A kingdom in which the Goths were the army and the Romans were the administration could not decide which of the two things its own king was supposed to be, and the question became unavoidable the moment a child inherited. The division of labour that made the kingdom work had no answer to the person at the top who was required to embody both halves of it."
+      ]
+    },
+    {
+      "title": "Important women",
+      "paragraphs": [
+        "Amalasuintha is the outstanding figure of the dynasty. Fluent in Latin, Greek and Gothic, she governed with conspicuous ability, corresponded with Justinian, and after Athalaric died in 534 took her cousin Theodahad as co-ruler. He had her imprisoned on an island in Lake Bolsena and strangled in her bath in 535. Her murder handed Justinian the justification for war he had been waiting for, which makes her death one of the most consequential political killings of the century.",
+        "Amalafrida, Theoderic's sister, was married to the Vandal king Thrasamund as part of the most ambitious marriage diplomacy of the post-Roman west — a system that also tied the Amals to the Franks, the Visigoths, the Burgundians and the Thuringians. She was killed in Africa after Thrasamund's death, and the African alliance died with her. The failure of that network left Italy diplomatically isolated by 535.",
+        "Matasuntha, Amalasuintha's daughter, was married to Vitiges and afterwards to Germanus, Justinian's cousin — a deliberate attempt to fuse the Amal line with the imperial house. It produced a posthumous son and no restoration. Between them the three women carried the dynasty's diplomacy, its regency and its extinction, and two of the three were killed or married off by men managing the consequences."
+      ]
+    },
+    {
+      "title": "Ravenna: what a Gothic king built",
+      "paragraphs": [
+        "Ravenna is the article's answer to the question of what the Ostrogoths left, and it survives in quantity. The city had been chosen as a capital for its marshes and its port rather than its grandeur, and it received the buildings that grandeur would have required elsewhere.",
+        "The Mausoleum of Theoderic, built about 520, has no real parallel: two storeys of Istrian limestone, decagonal below, roofed with a single monolithic slab about ten metres across and weighing roughly 230 tonnes, quarried in Istria and brought across the Adriatic. Sant'Apollinare Nuovo holds the Palatium mosaic and the processions of saints; the Arian Baptistery holds its dome mosaic. Theoderic's monogram appears on bricks and capitals across the city, and one capital carrying it stands in the Piazza del Popolo.",
+        "The finest portable Ostrogothic material is goldsmithing rather than weaponry: silver-gilt bow brooches, the fibulae a staffa, together with eagle brooches and polychrome cloisonné work. The Domagnano treasure from San Marino of about 500 and the Desana hoard are the principal finds. Military equipment was much as elsewhere in the Gothic world — the spatha, the spear and the round shield — and Procopius contrasts Roman mounted archers with Gothic horsemen lacking effective archery, an observation written to flatter Belisarius' methods that the fighting at Taginae nonetheless bore out.",
+        "Two cautions. The Senigallia medallion, a unique gold triple solidus inscribed REX THEODERICUS PIUS PRINCIS, is the only certain contemporary portrait of Theoderic; it was stolen from Rome in 1795. And the façade on the via di Roma known as the \"Palace of Theoderic\" is probably not his palace but a later structure, and should not be captioned as though the identification were settled."
+      ]
+    },
+    {
+      "title": "The erasure in Sant'Apollinare Nuovo",
+      "paragraphs": [
+        "The religious change in Italy came after the conquest and was imposed. The Arian church was dissolved and its buildings reconciled to Catholic use, and in one case the erasure is physically visible on the wall.",
+        "In Sant'Apollinare Nuovo, the mosaic panel showing the Palatium — Theoderic's palace — once had members of his court standing between the columns of its arcade. They were removed after the reconquest and replaced with hanging curtains. The job was done imperfectly, and hands still remain on some of the columns, left behind by the figures that were cut out around them.",
+        "It is the single most eloquent surviving image of what happened to the Ostrogoths: not a defeat commemorated, but a people removed from the picture, with the fingers of the removed still touching the architecture. Nothing else in the archive states the difference between conquest and annihilation quite so economically."
+      ]
+    },
+    {
+      "title": "Why no Ostrogothic identity survived",
+      "paragraphs": [
+        "The kingdom's trajectory was not assimilation but polarisation, and that is the explanation. For thirty years Theoderic held two peoples in a working arrangement without merging them: no intermarriage policy, no common law code, no shared church. The arrangement depended almost entirely on one man's authority and on the Roman elite's belief that the alternative was worse. When that belief failed, after Boethius and the death of Pope John I, there was no fused population underneath to hold the kingdom together.",
+        "The comparison with the other Gothic kingdom is exact and instructive. Toledo fused its two populations by removing the religious barrier in 589 and the legal one in 654, and the resulting Hispano-Gothic identity outlived the kingdom's destruction by centuries. Ravenna never fused them, and did not survive at all.",
+        "The Gothic War destroyed the Gothic army, the Gothic name and much of Italy with them, and isolated garrisons held out at Verona and Brescia only until about 562. There is no Ostrogothic successor identity anywhere: survivors were absorbed into Italy's population or joined Lombard and Frankish followings. Justinian's Pragmatic Sanction of 554 reorganised Italy as imperial territory, and fourteen years later the Lombards took much of a country too exhausted to resist. The reconquest achieved its objective and destroyed the thing it was fought for."
+      ]
+    },
+    {
+      "title": "Dietrich von Bern, and what to keep separate",
+      "paragraphs": [
+        "Theoderic became legend, and the legend is not biography. In German heroic tradition he is Dietrich von Bern — Bern being Verona — a hero of the Nibelungenlied world and of the Thidrekssaga, displaced in time to become Attila's contemporary, which he was not by some seventy years. The legendary Dietrich is an exile who serves a Hunnic king; the historical Theoderic was a hostage at Constantinople who conquered Italy. They should not be read through each other.",
+        "The intellectual legacy of the regime is more substantial than its political one and came about partly by accident. Boethius' Consolation of Philosophy, written in prison awaiting execution on Theoderic's orders, became one of the most read and most translated books of the Middle Ages — an extraordinary legacy for a government to produce by killing a man. Cassiodorus' Variae preserved the administration's own voice, and his later monastery at Vivarium, with its programme of copying manuscripts, fed the transmission of classical learning westward.",
+        "One modern appropriation should be named and rejected. The nineteenth- and twentieth-century use of Theoderic as a Germanic founder-hero belongs to modern nationalism rather than to sixth-century Italy, and it sits particularly badly on a king whose government depended on Roman senators, Roman law and a Roman civil service, and whose own slogan was civilitas."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "c. 375",
+      "title": "The Huns break the Greuthungi",
+      "description": "Hunnic attacks end the independence of the Gothic groups north of the Black Sea and begin roughly eighty years of Gothic subordination to Hunnic power."
+    },
+    {
+      "date": "451",
+      "title": "Goths on both sides at the Catalaunian Plains",
+      "description": "Gothic contingents fight in Attila's army while other Goths fight for Aetius — the clearest demonstration that \"Goth\" was not a single political allegiance."
+    },
+    {
+      "date": "454",
+      "title": "Nedao",
+      "description": "The defeat of Attila's sons collapses Hunnic power, and the Pannonian Goths under the Amal brothers Valamir, Thiudimir and Vidimir emerge as an independent federate people."
+    },
+    {
+      "date": "c. 461–471",
+      "title": "Theoderic a hostage at Constantinople",
+      "description": "Sent to the imperial court at about eight years old, he spent a decade being educated there. Nothing about his later rule makes sense without that decade."
+    },
+    {
+      "date": "471",
+      "title": "Theoderic becomes king",
+      "description": "He takes the kingship of the Pannonian Goths and spends the next seventeen years alternately serving and threatening Constantinople."
+    },
+    {
+      "date": "481",
+      "title": "The rival following absorbed",
+      "description": "The death of Theoderic Strabo, and soon after of his son, lets the Amal absorb the rival Gothic following — the act that assembles the Ostrogoths as one people."
+    },
+    {
+      "date": "484",
+      "title": "Theoderic consul",
+      "description": "He holds the consulship, the most Roman of honours, while leading a Gothic army the empire could neither absorb nor defeat."
+    },
+    {
+      "date": "489–493",
+      "title": "The conquest of Italy",
+      "description": "Directed at Italy by the emperor Zeno, the Goths defeat Odoacer and take the peninsula. Theoderic killed Odoacer with his own hands at a banquet in March 493."
+    },
+    {
+      "date": "c. 500",
+      "title": "The Codex Argenteus",
+      "description": "The finest surviving Gothic manuscript, in silver and gold on purple-stained parchment, is probably produced at Ravenna or elsewhere in northern Italy around this date."
+    },
+    {
+      "date": "c. 520",
+      "title": "The Mausoleum of Theoderic",
+      "description": "Built at Ravenna in Istrian limestone and roofed with a single monolithic slab weighing roughly 230 tonnes, brought across the Adriatic."
+    },
+    {
+      "date": "c. 524–526",
+      "title": "Boethius, Symmachus and Pope John I",
+      "description": "Boethius is executed and his father-in-law Symmachus with him; Pope John I dies in custody at Ravenna. The regime loses the confidence of the Roman elite."
+    },
+    {
+      "date": "526",
+      "title": "Athalaric's education disputed",
+      "description": "Amalasuintha gives her son a Roman literary education; Gothic nobles object that it will unfit him for war, and she is compelled to give way."
+    },
+    {
+      "date": "535",
+      "title": "Amalasuintha murdered",
+      "description": "Imprisoned on an island in Lake Bolsena by Theodahad and strangled in her bath. Her death gave Justinian his justification for war."
+    },
+    {
+      "date": "535–554",
+      "title": "The Gothic War",
+      "description": "Justinian's reconquest destroys the Gothic army, the Gothic name in Italy and much of the country, over nineteen years of campaigning."
+    },
+    {
+      "date": "552",
+      "title": "Taginae",
+      "description": "Narses anchors his line with dismounted infantry and massed archers on both flanks; Totila is killed and the Gothic field army is destroyed."
+    },
+    {
+      "date": "553",
+      "title": "Mons Lactarius",
+      "description": "Teias, the last king, is killed, and the surviving Goths are permitted to leave Italy on terms."
+    },
+    {
+      "date": "554",
+      "title": "The Pragmatic Sanction",
+      "description": "Justinian reorganises Italy as imperial territory. Isolated Gothic garrisons held out at Verona and Brescia until about 562."
+    },
+    {
+      "date": "568",
+      "title": "The Lombards enter Italy",
+      "description": "Fourteen years after the reconquest, the Lombards take much of a country too exhausted by the war to resist them."
+    }
+  ],
+  "relatedEntries": {
+    "civilizations": [
+      {
+        "title": "Goths",
+        "type": "civilization",
+        "slug": "goths",
+        "label": "The parent people, its language and its shared origin problem"
+      },
+      {
+        "title": "Visigoths",
+        "type": "civilization",
+        "slug": "visigoths",
+        "label": "The other Gothic people, whose kingdom fused its populations and outlived its fall"
+      }
+    ],
+    "locations": [
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm itself: its kings, campaigns and succession crisis"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Employer, overlord and finally destroyer"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Senate and ceremonial capital, visited by Theoderic in 500"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Where Theoderic spent a decade as a hostage"
+      }
+    ],
+    "events": [
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The reconquest that ended them as a people"
+      },
+      {
+        "title": "Battle of Taginae",
+        "type": "event",
+        "slug": "battle-of-taginae",
+        "label": "Where the Gothic field army was destroyed and Totila killed"
+      },
+      {
+        "title": "Battle of Mons Lactarius",
+        "type": "event",
+        "slug": "battle-of-mons-lactarius",
+        "label": "Where the last king fell and the survivors left on terms"
+      },
+      {
+        "title": "Fall of the Western Roman Empire",
+        "type": "event",
+        "slug": "fall-of-western-rome",
+        "label": "The deposition of 476 that left Italy to be ruled by its generals"
+      }
+    ],
+    "people": [
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "Fought the only intelligent Gothic campaign of the war"
+      },
+      {
+        "title": "Teias",
+        "type": "person",
+        "slug": "teias",
+        "label": "The last Gothic king in Italy"
+      },
+      {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "Took Naples, Rome and Ravenna from them"
+      },
+      {
+        "title": "Narses",
+        "type": "person",
+        "slug": "narses",
+        "label": "Destroyed the Gothic army at Taginae"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Whose reconquest destroyed the people it was fought over"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "title": "Peter Heather, The Goths (Blackwell, 1996) and Goths and Romans 332–489 (Oxford, 1991)",
+      "url": "https://en.wikipedia.org/wiki/Peter_Heather",
+      "type": "book"
+    },
+    {
+      "title": "John Moorhead, Theoderic in Italy (Oxford, 1992)",
+      "url": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+      "type": "book"
+    },
+    {
+      "title": "Patrick Amory, People and Identity in Ostrogothic Italy, 489–554 (Cambridge, 1997)",
+      "url": "https://en.wikipedia.org/wiki/Ostrogothic_Kingdom",
+      "type": "book"
+    },
+    {
+      "title": "Jonathan J. Arnold, Theoderic and the Roman Imperial Restoration (Cambridge, 2014)",
+      "url": "https://en.wikipedia.org/wiki/Theodoric_the_Great",
+      "type": "book"
+    },
+    {
+      "title": "Procopius, History of the Wars, books V–VIII — partisan for Belisarius",
+      "url": "https://en.wikipedia.org/wiki/Procopius",
+      "type": "primary source"
+    },
+    {
+      "title": "Cassiodorus, Variae — the administration in its own words, and self-serving",
+      "url": "https://en.wikipedia.org/wiki/Cassiodorus",
+      "type": "primary source"
+    },
+    {
+      "title": "Boethius, Consolation of Philosophy",
+      "url": "https://en.wikipedia.org/wiki/The_Consolation_of_Philosophy",
+      "type": "primary source"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Theoderic.JPG"
+    },
+    {
+      "title": "Wikimedia Commons image record",
+      "author": "Wikimedia Commons",
+      "type": "image metadata",
+      "url": "https://commons.wikimedia.org/wiki/File:Ravenna,_sant%27apollinare_nuovo,_int.,_palatium_di_teodorico,_epoca_di_teodorico_01.JPG"
+    }
+  ],
+  "sectionImages": [
+    {
+      "section": "The erasure in Sant'Apollinare Nuovo",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ravenna%2C%20sant%27apollinare%20nuovo%2C%20int.%2C%20palatium%20di%20teodorico%2C%20epoca%20di%20teodorico%2001.JPG?width=1400",
+      "caption": "The Palatium mosaic in Sant'Apollinare Nuovo at Ravenna, made in the early sixth century for Theoderic's palace church.",
+      "creator": "Photographed by Sailko (Wikimedia Commons)",
+      "date": "the mosaic early sixth century; photographed 2013",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ravenna,_sant%27apollinare_nuovo,_int.,_palatium_di_teodorico,_epoca_di_teodorico_01.JPG",
+      "note": "Direct evidence for the erasure described in this section. Figures of Theoderic's court once stood between the columns of the arcade; they were cut out after the reconquest and replaced with hanging curtains, and the work was imperfect enough that hands remain on some of the columns. CC BY-SA 3.0."
+    },
+    {
+      "section": "Ravenna: what a Gothic king built",
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Oreficeria%20ostrogota%20italica%2C%20fibula%20a%20staffa%2C%20500-530%20ca.%2001.JPG?width=1400",
+      "caption": "An Ostrogothic silver-gilt buckle plate made in Italy between about 500 and 530.",
+      "creator": "Unknown Ostrogothic goldsmith; photographed by Sailko (Wikimedia Commons)",
+      "date": "the object about 500–530; photographed 2010",
+      "source": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oreficeria_ostrogota_italica,_fibula_a_staffa,_500-530_ca._01.JPG",
+      "note": "Ostrogothic elite metalwork of the kind produced in Italy during the kingdom's generation of stability, with inlaid cicada motifs. Complete and large in the frame, though the object's silver surface carries little colour. CC BY-SA 3.0."
+    }
+  ]
+}

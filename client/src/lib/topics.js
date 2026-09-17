@@ -631,6 +631,12 @@ export const TOPICS = [
           "summary": "A major eastern European polity allied with Poland at Grunwald."
         },
         {
+          "id": "seljuk-turks",
+          "name": "Great Seljuk Empire",
+          "depth": 1,
+          "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
+        },
+        {
           "id": "kerak",
           "name": "Kerak",
           "depth": 1,
@@ -683,12 +689,6 @@ export const TOPICS = [
           "name": "Principality of Achaea",
           "depth": 1,
           "summary": "The Principality of Achaea was the crusader state in the Peloponnese, the most successful of the Latin conquests in Greece, and the one that lost Mystras to Byzantium as a prince's ransom."
-        },
-        {
-          "id": "seljuk-turks",
-          "name": "Seljuk Turks",
-          "depth": 1,
-          "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
         },
         {
           "id": "sidon",
@@ -980,6 +980,12 @@ export const TOPICS = [
           "summary": "The First Bulgarian Empire ruled the eastern Balkans from 681 to 1018, converted to Christianity, gave the Slavs their alphabet, and was annexed by Basil II after a war of thirty years."
         },
         {
+          "id": "seljuk-turks",
+          "name": "Great Seljuk Empire",
+          "depth": 1,
+          "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
+        },
+        {
           "id": "hamdanid-emirate-of-aleppo",
           "name": "Hamdanid Emirate of Aleppo",
           "depth": 1,
@@ -1032,12 +1038,6 @@ export const TOPICS = [
           "name": "Sasanian Empire",
           "depth": 1,
           "summary": "The Sasanian Empire ruled Iran and Mesopotamia from 224 to 651, and was the eastern Roman empire's equal and rival for four centuries."
-        },
-        {
-          "id": "seljuk-turks",
-          "name": "Seljuk Turks",
-          "depth": 1,
-          "summary": "The Seljuk Turks were central to the eleventh-century military and political pressure on Byzantium, especially through Alp Arslan’s victory at Manzikert and the wider movement of Turkic power into Anatolia."
         },
         {
           "id": "umayyad-caliphate",
@@ -2982,6 +2982,16 @@ export const TOPICS_BY_ARTICLE = {
       "title": "The Crusades"
     }
   ],
+  "seljuk-turks": [
+    {
+      "slug": "crusades",
+      "title": "The Crusades"
+    },
+    {
+      "slug": "byzantine-warfare",
+      "title": "The Byzantine Empire at War"
+    }
+  ],
   "kerak": [
     {
       "slug": "crusades",
@@ -3045,16 +3055,6 @@ export const TOPICS_BY_ARTICLE = {
     }
   ],
   "principality-of-achaea": [
-    {
-      "slug": "crusades",
-      "title": "The Crusades"
-    },
-    {
-      "slug": "byzantine-warfare",
-      "title": "The Byzantine Empire at War"
-    }
-  ],
-  "seljuk-turks": [
     {
       "slug": "crusades",
       "title": "The Crusades"

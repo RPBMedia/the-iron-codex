@@ -146,19 +146,29 @@ const CASES = [
     // whether or not a single component ran.
     //
     // The assertions are chosen for what is specific to a people rather than
-    // what any article has. The arms panel is the sharpest: these two carry an
-    // emblem (a grave axe, a kurgan stele) captioned to say the people bore no
-    // heraldry, and ArmsImage was gated on house/location, so a civilization
-    // would have dropped it silently.
+    // what any article has.
+    //
+    // An arms-panel assertion USED to sit here and was wrong. It was written
+    // when the only two civilizations were Pechenegs and Cumans, both of which
+    // carry an object standing in for heraldry — a grave axe, a kurgan stele —
+    // and it over-generalised from that sample. The Ostrogoths have no such
+    // emblem, and inventing one to satisfy a test would breach the rule against
+    // fabricating arms. A civilization MAY carry an emblem; it must not be
+    // required to. ArmsImage is still wired for the type (see DetailPage), which
+    // is what actually mattered.
     label: 'civilization',
     collection: 'civilizations',
-    pick: () => findIn('civilizations', (c) => c.id === 'pechenegs') ?? (data.civilizations ?? [])[0],
+    // Ostrogoths, not Pechenegs: it is the article carrying the boundary rule
+    // against a realm article that already exists, so it is where the people /
+    // state split would visibly fail if it failed anywhere.
+    pick: () => findIn('civilizations', (c) => c.id === 'ostrogoths')
+      ?? findIn('civilizations', (c) => c.id === 'pechenegs')
+      ?? (data.civilizations ?? [])[0],
     expect: [
       ['hero image figure', (h) => has(h, 'detail-media')],
       ['civilization hero renders', (h) => has(h, 'civilization-profile')],
       ['hero fact strip', (h) => has(h, 'fact-strip')],
       ['endonym subtitle, where one is recorded', (h) => has(h, 'article-subtitle')],
-      ['arms panel survives the type change', (h) => has(h, 'detail-media-arms')],
       ['body sections', (h) => has(h, 'bio-section')],
       ['NO polity-only markup leaked in', (h) => !has(h, 'locator-figure')]
     ]
