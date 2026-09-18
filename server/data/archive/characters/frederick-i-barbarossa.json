@@ -156,6 +156,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Occupied it in 1189"
+      },
+      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
@@ -166,25 +172,19 @@
         "type": "location",
         "slug": "saleph-river",
         "label": "Place of death"
-      },
-      {
-        "title": "Edirne",
-        "type": "location",
-        "slug": "edirne",
-        "label": "Occupied it in 1189"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade",
-        "label": "Fought in this engagement"
-      },
-      {
         "title": "Battle of Legnano",
         "type": "event",
         "slug": "battle-of-legnano",
+        "label": "Fought in this engagement"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
         "label": "Fought in this engagement"
       }
     ],

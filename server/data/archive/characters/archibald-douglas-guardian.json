@@ -218,16 +218,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Halidon Hill",
-        "type": "event",
-        "slug": "battle-of-halidon-hill",
-        "label": "Commanded the Scottish army and was killed here"
-      },
-      {
         "title": "Battle of Dupplin Moor",
         "type": "event",
         "slug": "battle-of-dupplin-moor",
         "label": "The defeat that made him Guardian"
+      },
+      {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "Commanded the Scottish army and was killed here"
       },
       {
         "title": "Battle of Stanhope Park",
@@ -244,6 +244,12 @@
     ],
     "people": [
       {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "The child king he governed for"
+      },
+      {
         "title": "Edward Balliol",
         "type": "person",
         "slug": "edward-balliol",
@@ -256,12 +262,6 @@
         "label": "Besieged Berwick and destroyed his army"
       },
       {
-        "title": "David II of Scotland",
-        "type": "person",
-        "slug": "david-ii-of-scotland",
-        "label": "The child king he governed for"
-      },
-      {
         "title": "Robert the Bruce",
         "type": "person",
         "slug": "robert-the-bruce",
@@ -270,16 +270,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "The realm he governed as Guardian"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Whose king took Berwick and the battle"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The realm he governed as Guardian"
       }
     ]
   },

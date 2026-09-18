@@ -139,10 +139,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
+        "title": "Gauntlet",
         "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The harness it forms part of"
+        "slug": "gauntlet",
+        "label": "What the vambrace runs into"
       },
       {
         "title": "Leg Harness",
@@ -151,10 +151,10 @@
         "label": "The same problem solved for the legs"
       },
       {
-        "title": "Gauntlet",
+        "title": "Longsword",
         "type": "weaponArmor",
-        "slug": "gauntlet",
-        "label": "What the vambrace runs into"
+        "slug": "longsword",
+        "label": "Half-swording depends on the arms articulating"
       },
       {
         "title": "Mail Armor",
@@ -163,16 +163,16 @@
         "label": "Fills the armpit where plate cannot reach"
       },
       {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The harness it forms part of"
+      },
+      {
         "title": "Rondel Dagger",
         "type": "weaponArmor",
         "slug": "rondel-dagger",
         "label": "Aimed at the armpit it cannot fully close"
-      },
-      {
-        "title": "Longsword",
-        "type": "weaponArmor",
-        "slug": "longsword",
-        "label": "Half-swording depends on the arms articulating"
       }
     ]
   },

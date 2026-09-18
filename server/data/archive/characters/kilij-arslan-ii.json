@@ -159,30 +159,30 @@
     ],
     "people": [
       {
-        "title": "Manuel I Komnenos",
-        "type": "person",
-        "slug": "manuel-i-komnenos",
-        "label": "The emperor he beat, and had once been entertained by"
-      },
-      {
         "title": "Kilij Arslan I",
         "type": "person",
         "slug": "kilij-arslan-i",
         "label": "His great-grandfather, who moved the capital to Konya"
+      },
+      {
+        "title": "Manuel I Komnenos",
+        "type": "person",
+        "slug": "manuel-i-komnenos",
+        "label": "The emperor he beat, and had once been entertained by"
       }
     ],
     "locations": [
-      {
-        "title": "Sultanate of Rum",
-        "type": "location",
-        "slug": "sultanate-of-rum",
-        "label": "The state he ruled for thirty-six years"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Whose Anatolian ambitions he ended"
+      },
+      {
+        "title": "Sultanate of Rum",
+        "type": "location",
+        "slug": "sultanate-of-rum",
+        "label": "The state he ruled for thirty-six years"
       }
     ]
   },

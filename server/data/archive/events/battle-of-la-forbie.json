@@ -210,12 +210,6 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Lost its field army here"
-      },
-      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
@@ -226,6 +220,12 @@
         "type": "location",
         "slug": "crusader-states",
         "label": "The wider Outremer after 1244"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Lost its field army here"
       }
     ],
     "events": [
@@ -244,16 +244,16 @@
     ],
     "orders": [
       {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "Thirty-three brothers survived"
-      },
-      {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "Twenty-seven survived; the Grand Master was captured"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Thirty-three brothers survived"
       }
     ]
   },

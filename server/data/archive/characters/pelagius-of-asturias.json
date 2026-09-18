@@ -150,16 +150,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Asturias",
-        "type": "location",
-        "slug": "kingdom-of-asturias",
-        "label": "The realm he founded"
-      },
-      {
         "title": "Covadonga",
         "type": "location",
         "slug": "covadonga",
         "label": "Site of his victory and his tomb"
+      },
+      {
+        "title": "Kingdom of Asturias",
+        "type": "location",
+        "slug": "kingdom-of-asturias",
+        "label": "The realm he founded"
       }
     ]
   }

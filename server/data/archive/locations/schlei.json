@@ -78,12 +78,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Eric IV of Denmark",
-        "type": "person",
-        "slug": "eric-iv-of-denmark",
-        "label": "Killed on the water here in 1250"
-      },
-      {
         "title": "Abel of Denmark",
         "type": "person",
         "slug": "abel-of-denmark",
@@ -96,30 +90,36 @@
         "label": "Took the throne after Abel’s death"
       },
       {
-        "title": "Valdemar II of Denmark",
+        "title": "Eric IV of Denmark",
         "type": "person",
-        "slug": "valdemar-ii-of-denmark",
-        "label": "Father of both, whose partition set the quarrel going"
+        "slug": "eric-iv-of-denmark",
+        "label": "Killed on the water here in 1250"
       },
       {
         "title": "Margaret I",
         "type": "person",
         "slug": "margaret-i",
         "label": "Fought to stabilise the Schleswig frontier in the 1380s and 1390s"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Father of both, whose partition set the quarrel going"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
       {
         "title": "Flensburg Fjord",
         "type": "location",
         "slug": "flensburg-fjord",
         "label": "The next inlet north, in the same contested borderland"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       }
     ]
   },

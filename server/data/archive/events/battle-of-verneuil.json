@@ -158,12 +158,6 @@
     ],
     "events": [
       {
-        "title": "Siege of Rouen",
-        "type": "event",
-        "slug": "siege-of-rouen",
-        "label": "The conquest of Normandy, 1418–19"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt",
@@ -174,6 +168,12 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The wider conflict"
+      },
+      {
+        "title": "Siege of Rouen",
+        "type": "event",
+        "slug": "siege-of-rouen",
+        "label": "The conquest of Normandy, 1418–19"
       }
     ],
     "locations": [

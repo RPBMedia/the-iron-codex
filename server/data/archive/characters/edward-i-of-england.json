@@ -203,6 +203,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "His duchy from 1254"
+      },
+      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
@@ -213,24 +219,20 @@
         "type": "location",
         "slug": "london",
         "label": "Birthplace"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "His duchy from 1254"
       }
     ],
     "events": [
       {
-        "title": "Wars of Scottish Independence",
+        "title": "Battle of Dunbar",
         "type": "event",
-        "slug": "wars-of-scottish-independence"
+        "slug": "battle-of-dunbar",
+        "label": "The victory that opened his conquest of Scotland"
       },
       {
-        "title": "Treaty of Edinburgh-Northampton",
+        "title": "Battle of Evesham (1265)",
         "type": "event",
-        "slug": "treaty-of-edinburgh-northampton"
+        "slug": "battle-of-evesham",
+        "label": "Won the battle as the Lord Edward"
       },
       {
         "title": "Battle of Falkirk",
@@ -239,22 +241,20 @@
         "label": "His victory over Wallace in 1298"
       },
       {
-        "title": "Battle of Dunbar",
-        "type": "event",
-        "slug": "battle-of-dunbar",
-        "label": "The victory that opened his conquest of Scotland"
-      },
-      {
         "title": "Battle of Lewes",
         "type": "event",
         "slug": "battle-of-lewes",
         "label": "Commanded the royal right, and was handed over as a hostage"
       },
       {
-        "title": "Battle of Evesham (1265)",
+        "title": "Treaty of Edinburgh-Northampton",
         "type": "event",
-        "slug": "battle-of-evesham",
-        "label": "Won the battle as the Lord Edward"
+        "slug": "treaty-of-edinburgh-northampton"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
       }
     ],
     "people": [
@@ -264,15 +264,15 @@
         "slug": "edward-ii-of-england"
       },
       {
-        "title": "John Comyn",
-        "type": "person",
-        "slug": "john-comyn"
-      },
-      {
         "title": "Eleanor of Castile",
         "type": "person",
         "slug": "eleanor-of-castile",
         "label": "Queen"
+      },
+      {
+        "title": "John Comyn",
+        "type": "person",
+        "slug": "john-comyn"
       }
     ],
     "weaponsArmor": [

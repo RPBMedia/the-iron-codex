@@ -179,16 +179,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John of England",
-        "type": "person",
-        "slug": "john-of-england",
-        "label": "First husband"
-      },
-      {
         "title": "Henry III of England",
         "type": "person",
         "slug": "henry-iii-of-england",
         "label": "Son"
+      },
+      {
+        "title": "John of England",
+        "type": "person",
+        "slug": "john-of-england",
+        "label": "First husband"
       }
     ],
     "locations": [
@@ -201,16 +201,16 @@
     ],
     "houses": [
       {
-        "title": "House of Plantagenet",
-        "type": "house",
-        "slug": "house-of-plantagenet",
-        "label": "Royal house by marriage"
-      },
-      {
         "title": "House of Lusignan",
         "type": "house",
         "slug": "house-of-lusignan",
         "label": "Family of her second husband"
+      },
+      {
+        "title": "House of Plantagenet",
+        "type": "house",
+        "slug": "house-of-plantagenet",
+        "label": "Royal house by marriage"
       }
     ]
   }

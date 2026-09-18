@@ -158,30 +158,30 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "His kingdom"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "His mother Philippa of Lancaster's homeland and Portugal's ally"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "His kingdom"
       }
     ],
     "people": [
-      {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "His father and predecessor"
-      },
       {
         "title": "Afonso V of Portugal",
         "type": "person",
         "slug": "afonso-v-of-portugal",
         "label": "His son and successor"
+      },
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "His father and predecessor"
       },
       {
         "title": "Philippa of Lancaster",

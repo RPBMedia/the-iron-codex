@@ -97,41 +97,41 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great"
+      },
+      {
         "title": "Charlemagne",
         "type": "person",
         "slug": "charlemagne",
         "label": "Birthplace of Charlemagne"
       },
       {
-        "title": "Alfred the Great",
+        "title": "Frederick I Barbarossa",
         "type": "person",
-        "slug": "alfred-the-great"
+        "slug": "frederick-i-barbarossa",
+        "label": "Had Charlemagne canonised"
       },
       {
         "title": "Louis the Pious",
         "type": "person",
         "slug": "louis-the-pious",
         "label": "Crowned co-emperor here in 813"
-      },
-      {
-        "title": "Frederick I Barbarossa",
-        "type": "person",
-        "slug": "frederick-i-barbarossa",
-        "label": "Had Charlemagne canonised"
       }
     ],
     "locations": [
-      {
-        "title": "Frankish Kingdom",
-        "type": "location",
-        "slug": "frankish-kingdom",
-        "label": "Containing realm"
-      },
       {
         "title": "Carolingian Empire",
         "type": "location",
         "slug": "carolingian-empire",
         "label": "Its political centre"
+      },
+      {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "Containing realm"
       },
       {
         "title": "Holy Roman Empire",

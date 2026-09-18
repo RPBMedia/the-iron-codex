@@ -97,16 +97,6 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "War Hammer",
-        "type": "weaponArmor",
-        "slug": "war-hammer"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
         "title": "Bascinet",
         "type": "weaponArmor",
         "slug": "bascinet"
@@ -116,6 +106,16 @@
         "type": "weaponArmor",
         "slug": "military-flail",
         "label": "The flexible-headed weapon it is contrasted with"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
+      },
+      {
+        "title": "War Hammer",
+        "type": "weaponArmor",
+        "slug": "war-hammer"
       }
     ],
     "events": [

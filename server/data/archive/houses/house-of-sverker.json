@@ -143,6 +143,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "John I",
+        "type": "person",
+        "slug": "john-i-sverkersson",
+        "label": "Last of the line"
+      },
+      {
         "title": "Sverker I",
         "type": "person",
         "slug": "sverker-i-of-sweden",
@@ -153,12 +159,6 @@
         "type": "person",
         "slug": "sverker-ii-of-sweden",
         "label": "Fought the Erik dynasty"
-      },
-      {
-        "title": "John I",
-        "type": "person",
-        "slug": "john-i-sverkersson",
-        "label": "Last of the line"
       }
     ],
     "locations": [

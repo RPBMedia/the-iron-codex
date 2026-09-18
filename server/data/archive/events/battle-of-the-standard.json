@@ -179,29 +179,29 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Stephen of England",
-        "type": "person",
-        "slug": "stephen-of-england",
-        "label": "The king in whose name the army fought, absent in the south"
-      },
-      {
         "title": "Matilda of Boulogne",
         "type": "person",
         "slug": "matilda-of-boulogne",
         "label": "Negotiated the Treaty of Durham that settled the war in 1139"
+      },
+      {
+        "title": "Stephen of England",
+        "type": "person",
+        "slug": "stephen-of-england",
+        "label": "The king in whose name the army fought, absent in the south"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant realm"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
         "label": "Combatant realm"
       }
     ],

@@ -148,16 +148,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Realm"
-      },
-      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
         "label": "Birthplace"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Realm"
       },
       {
         "title": "Sidon",
@@ -168,14 +168,14 @@
     ],
     "people": [
       {
-        "title": "Godfrey of Bouillon",
-        "type": "person",
-        "slug": "godfrey-of-bouillon"
-      },
-      {
         "title": "Baldwin II of Jerusalem",
         "type": "person",
         "slug": "baldwin-ii-of-jerusalem"
+      },
+      {
+        "title": "Godfrey of Bouillon",
+        "type": "person",
+        "slug": "godfrey-of-bouillon"
       },
       {
         "title": "Sigurd the Crusader",

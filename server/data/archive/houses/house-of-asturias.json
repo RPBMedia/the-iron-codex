@@ -131,16 +131,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Asturias",
-        "type": "location",
-        "slug": "kingdom-of-asturias",
-        "label": "The realm the house ruled"
-      },
-      {
         "title": "Covadonga",
         "type": "location",
         "slug": "covadonga",
         "label": "Where the dynasty's founding victory was won"
+      },
+      {
+        "title": "Kingdom of Asturias",
+        "type": "location",
+        "slug": "kingdom-of-asturias",
+        "label": "The realm the house ruled"
       }
     ]
   }

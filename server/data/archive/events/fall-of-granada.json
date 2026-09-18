@@ -85,16 +85,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand II of Aragon",
-        "type": "person",
-        "slug": "ferdinand-ii-of-aragon",
-        "label": "Co-conqueror of Granada"
-      },
-      {
         "title": "Boabdil",
         "type": "person",
         "slug": "muhammad-xii-of-granada",
         "label": "The last emir, who surrendered the city"
+      },
+      {
+        "title": "Ferdinand II of Aragon",
+        "type": "person",
+        "slug": "ferdinand-ii-of-aragon",
+        "label": "Co-conqueror of Granada"
       },
       {
         "title": "Isabella I of Castile",
@@ -105,16 +105,16 @@
     ],
     "locations": [
       {
-        "title": "Granada",
-        "type": "location",
-        "slug": "granada",
-        "label": "The city that fell"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it ended"
+      },
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "The city that fell"
       }
     ],
     "houses": [

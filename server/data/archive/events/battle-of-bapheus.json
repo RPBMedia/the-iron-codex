@@ -189,10 +189,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Osman I",
+        "title": "Michael VIII Palaiologos",
         "type": "person",
-        "slug": "osman-i",
-        "label": "Whose first victory over an imperial army this was"
+        "slug": "michael-viii-palaiologos",
+        "label": "Whose western wars left this frontier undefended"
       },
       {
         "title": "Orhan",
@@ -201,10 +201,10 @@
         "label": "Credited with the battle by later Ottoman tradition, wrongly"
       },
       {
-        "title": "Michael VIII Palaiologos",
+        "title": "Osman I",
         "type": "person",
-        "slug": "michael-viii-palaiologos",
-        "label": "Whose western wars left this frontier undefended"
+        "slug": "osman-i",
+        "label": "Whose first victory over an imperial army this was"
       }
     ],
     "events": [
@@ -223,10 +223,10 @@
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
+        "title": "Bursa",
         "type": "location",
-        "slug": "ottoman-empire",
-        "label": "A beylik of a few thousand men in 1302"
+        "slug": "bursa",
+        "label": "The city Osman blockaded"
       },
       {
         "title": "Byzantine Empire",
@@ -235,16 +235,16 @@
         "label": "Which lost the Bithynian countryside as a result"
       },
       {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "A beylik of a few thousand men in 1302"
+      },
+      {
         "title": "Sultanate of Rum",
         "type": "location",
         "slug": "sultanate-of-rum",
         "label": "The collapsed sultanate whose beyliks the Ottomans came from"
-      },
-      {
-        "title": "Bursa",
-        "type": "location",
-        "slug": "bursa",
-        "label": "The city Osman blockaded"
       }
     ]
   },

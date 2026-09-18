@@ -194,12 +194,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Lion",
-        "type": "person",
-        "slug": "william-the-lion",
-        "label": "The king taken prisoner here"
-      },
-      {
         "title": "Henry II of England",
         "type": "person",
         "slug": "henry-ii-of-england",
@@ -210,20 +204,26 @@
         "type": "person",
         "slug": "richard-the-lionheart",
         "label": "Sold the homage back in 1189"
+      },
+      {
+        "title": "William the Lion",
+        "type": "person",
+        "slug": "william-the-lion",
+        "label": "The king taken prisoner here"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Subjected to English overlordship by the ransom"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Realm of the captors"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Subjected to English overlordship by the ransom"
       }
     ],
     "events": [

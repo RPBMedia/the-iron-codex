@@ -304,16 +304,10 @@
     ],
     "locations": [
       {
-        "title": "Toledo",
+        "title": "al-Andalus",
         "type": "location",
-        "slug": "toledo",
-        "label": "Royal capital from the sixth century and seat of the councils"
-      },
-      {
-        "title": "Seville",
-        "type": "location",
-        "slug": "seville",
-        "label": "Isidore's see, and the intellectual centre of the late kingdom"
+        "slug": "al-andalus",
+        "label": "What replaced the kingdom, often by treaty rather than conquest"
       },
       {
         "title": "Aquitaine",
@@ -328,10 +322,16 @@
         "label": "Claimed the Gothic succession outright after 711"
       },
       {
-        "title": "al-Andalus",
+        "title": "Seville",
         "type": "location",
-        "slug": "al-andalus",
-        "label": "What replaced the kingdom, often by treaty rather than conquest"
+        "slug": "seville",
+        "label": "Isidore's see, and the intellectual centre of the late kingdom"
+      },
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "Royal capital from the sixth century and seat of the councils"
       },
       {
         "title": "Umayyad Caliphate",

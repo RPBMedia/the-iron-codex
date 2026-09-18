@@ -150,16 +150,9 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Prince Lazar",
         "type": "person",
-        "slug": "prince-lazar",
-        "label": "Death of Prince Lazar"
-      },
-      {
-        "title": "Murad I",
-        "type": "person",
-        "slug": "murad-i",
-        "label": "Death of Murad I"
+        "slug": "murad-ii",
+        "label": "Victor of 1448"
       },
       {
         "title": "Bayezid I",
@@ -168,10 +161,28 @@
         "label": "Proclaimed sultan on the field, 1389"
       },
       {
-        "title": "Stefan Lazarević",
+        "title": "John Hunyadi",
         "type": "person",
-        "slug": "stefan-lazarevic",
-        "label": "Raised a marble column on the field, 1404"
+        "slug": "john-hunyadi",
+        "label": "Defeated on the field, October 1448"
+      },
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Fought on the field at sixteen, 1448"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i",
+        "label": "Death of Murad I"
+      },
+      {
+        "title": "Prince Lazar",
+        "type": "person",
+        "slug": "prince-lazar",
+        "label": "Death of Prince Lazar"
       },
       {
         "title": "Princess Milica of Serbia",
@@ -180,21 +191,10 @@
         "label": "Lazar's widow, who accepted Ottoman overlordship"
       },
       {
-        "title": "John Hunyadi",
+        "title": "Stefan Lazarević",
         "type": "person",
-        "slug": "john-hunyadi",
-        "label": "Defeated on the field, October 1448"
-      },
-      {
-        "type": "person",
-        "slug": "murad-ii",
-        "label": "Victor of 1448"
-      },
-      {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Fought on the field at sixteen, 1448"
+        "slug": "stefan-lazarevic",
+        "label": "Raised a marble column on the field, 1404"
       }
     ],
     "events": [
@@ -213,16 +213,10 @@
     ],
     "locations": [
       {
-        "title": "Principality of Serbia",
+        "title": "Bursa",
         "type": "location",
-        "slug": "principality-of-serbia",
-        "label": "Realm of Prince Lazar"
-      },
-      {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Realm of Murad I"
+        "slug": "bursa",
+        "label": "Where Murad I's body was buried"
       },
       {
         "title": "Kingdom of Hungary",
@@ -231,10 +225,16 @@
         "label": "Its army was destroyed here in 1448"
       },
       {
-        "title": "Bursa",
+        "title": "Ottoman Empire",
         "type": "location",
-        "slug": "bursa",
-        "label": "Where Murad I's body was buried"
+        "slug": "ottoman-empire",
+        "label": "Realm of Murad I"
+      },
+      {
+        "title": "Principality of Serbia",
+        "type": "location",
+        "slug": "principality-of-serbia",
+        "label": "Realm of Prince Lazar"
       }
     ],
     "houses": [

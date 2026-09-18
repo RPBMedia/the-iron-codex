@@ -107,14 +107,14 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Viking Sword",
-        "type": "weaponArmor",
-        "slug": "viking-sword"
-      },
-      {
         "title": "Arming Sword",
         "type": "weaponArmor",
         "slug": "arming-sword"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword"
       }
     ]
   },

@@ -142,16 +142,22 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Falchion",
-        "type": "weaponArmor",
-        "slug": "falchion",
-        "label": "The western parallel, differently hilted"
-      },
-      {
         "title": "Arming Sword",
         "type": "weaponArmor",
         "slug": "arming-sword",
         "label": "The sword it was an alternative to"
+      },
+      {
+        "title": "Buckler",
+        "type": "weaponArmor",
+        "slug": "buckler",
+        "label": "Carried with it in civilian fencing"
+      },
+      {
+        "title": "Falchion",
+        "type": "weaponArmor",
+        "slug": "falchion",
+        "label": "The western parallel, differently hilted"
       },
       {
         "title": "Longsword",
@@ -164,12 +170,6 @@
         "type": "weaponArmor",
         "slug": "seax",
         "label": "The older single-edged tradition"
-      },
-      {
-        "title": "Buckler",
-        "type": "weaponArmor",
-        "slug": "buckler",
-        "label": "Carried with it in civilian fencing"
       }
     ]
   },

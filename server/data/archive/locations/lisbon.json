@@ -91,34 +91,10 @@
         "label": "Conqueror of 1147"
       },
       {
-        "title": "Denis of Portugal",
-        "type": "person",
-        "slug": "denis-of-portugal",
-        "label": "University, forests, and admiralty"
-      },
-      {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "The king Lisbon's revolution made"
-      },
-      {
         "title": "Afonso III of Portugal",
         "type": "person",
         "slug": "afonso-iii-of-portugal",
         "label": "Made it the seat of his court"
-      },
-      {
-        "title": "Ferdinand I of Portugal",
-        "type": "person",
-        "slug": "ferdinand-i-of-portugal",
-        "label": "Built the Fernandine wall"
-      },
-      {
-        "title": "John I of Castile",
-        "type": "person",
-        "slug": "john-i-of-castile",
-        "label": "Blockaded the city in 1384"
       },
       {
         "title": "Alfonso VI of León and Castile",
@@ -127,10 +103,34 @@
         "label": "Held the city briefly in 1093"
       },
       {
+        "title": "Denis of Portugal",
+        "type": "person",
+        "slug": "denis-of-portugal",
+        "label": "University, forests, and admiralty"
+      },
+      {
+        "title": "Ferdinand I of Portugal",
+        "type": "person",
+        "slug": "ferdinand-i-of-portugal",
+        "label": "Built the Fernandine wall"
+      },
+      {
         "title": "Henry II of Castile",
         "type": "person",
         "slug": "henry-ii-of-castile",
         "label": "Burned the lower town in 1373"
+      },
+      {
+        "title": "John I of Castile",
+        "type": "person",
+        "slug": "john-i-of-castile",
+        "label": "Blockaded the city in 1384"
+      },
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "The king Lisbon's revolution made"
       }
     ],
     "locations": [
@@ -142,16 +142,16 @@
     ],
     "events": [
       {
-        "title": "Siege of Lisbon",
-        "type": "event",
-        "slug": "siege-of-lisbon",
-        "label": "The conquest of 1147"
-      },
-      {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "The victory Lisbon's revolution required"
+      },
+      {
+        "title": "Siege of Lisbon",
+        "type": "event",
+        "slug": "siege-of-lisbon",
+        "label": "The conquest of 1147"
       }
     ],
     "houses": [

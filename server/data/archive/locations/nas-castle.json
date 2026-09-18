@@ -78,16 +78,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Erik Knutsson",
-        "type": "person",
-        "slug": "erik-knutsson",
-        "label": "Died here in 1216"
-      },
-      {
         "title": "Charles VII Sverkersson",
         "type": "person",
         "slug": "charles-vii-sverkersson",
         "label": "Made Näs his residence and was killed on the island in 1167"
+      },
+      {
+        "title": "Erik Knutsson",
+        "type": "person",
+        "slug": "erik-knutsson",
+        "label": "Died here in 1216"
       },
       {
         "title": "John I Sverkersson",
@@ -110,16 +110,16 @@
     ],
     "locations": [
       {
-        "title": "Visingsö",
-        "type": "location",
-        "slug": "visingso",
-        "label": "The island the castle stood on"
-      },
-      {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
+      },
+      {
+        "title": "Visingsö",
+        "type": "location",
+        "slug": "visingso",
+        "label": "The island the castle stood on"
       }
     ],
     "events": [

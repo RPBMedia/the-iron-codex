@@ -155,6 +155,12 @@
     ],
     "locations": [
       {
+        "title": "Kosovo Field",
+        "type": "location",
+        "slug": "kosovo-field",
+        "label": "Place of death"
+      },
+      {
         "title": "Prilepac",
         "type": "location",
         "slug": "prilepac",
@@ -165,12 +171,6 @@
         "type": "location",
         "slug": "principality-of-serbia",
         "label": "Realm"
-      },
-      {
-        "title": "Kosovo Field",
-        "type": "location",
-        "slug": "kosovo-field",
-        "label": "Place of death"
       }
     ],
     "people": [

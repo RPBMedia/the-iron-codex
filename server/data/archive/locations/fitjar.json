@@ -86,16 +86,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Haakon the Good",
-        "type": "person",
-        "slug": "haakon-the-good",
-        "label": "Mortally wounded here about 961"
-      },
-      {
         "title": "Eric Bloodaxe",
         "type": "person",
         "slug": "eric-bloodaxe",
         "label": "Whose sons attacked the king here"
+      },
+      {
+        "title": "Haakon the Good",
+        "type": "person",
+        "slug": "haakon-the-good",
+        "label": "Mortally wounded here about 961"
       },
       {
         "title": "Harald Fairhair",
@@ -112,28 +112,28 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Containing realm"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Near Håkonshella, the saga’s death place"
       },
       {
-        "title": "Stainmore",
-        "type": "location",
-        "slug": "stainmore",
-        "label": "Where Eric Bloodaxe was killed a few years earlier"
-      },
-      {
         "title": "Bømlo",
         "type": "location",
         "slug": "bomlo",
         "label": "Neighbouring island waters on the same coastal route"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Stainmore",
+        "type": "location",
+        "slug": "stainmore",
+        "label": "Where Eric Bloodaxe was killed a few years earlier"
       }
     ]
   },

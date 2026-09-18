@@ -89,6 +89,12 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Achievements of the Black Prince",
+        "slug": "black-prince-achievements",
+        "label": "Surviving example — the jupon at Canterbury",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm"
@@ -102,12 +108,6 @@
         "title": "Heater Shield",
         "type": "weaponArmor",
         "slug": "heater-shield"
-      },
-      {
-        "title": "Achievements of the Black Prince",
-        "slug": "black-prince-achievements",
-        "label": "Surviving example — the jupon at Canterbury",
-        "type": "weaponArmor"
       }
     ],
     "events": [

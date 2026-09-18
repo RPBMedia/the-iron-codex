@@ -193,16 +193,16 @@
     ],
     "locations": [
       {
-        "title": "Sasanian Empire",
-        "type": "location",
-        "slug": "sasanian-empire",
-        "label": "The realm he ruled and ruined"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire he nearly destroyed"
+      },
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "The realm he ruled and ruined"
       }
     ]
   },

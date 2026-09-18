@@ -111,16 +111,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Manzikert",
-        "type": "location",
-        "slug": "manzikert",
-        "label": "Battlefield"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Manzikert",
+        "type": "location",
+        "slug": "manzikert",
+        "label": "Battlefield"
       },
       {
         "title": "Seljuk Turks",
@@ -131,15 +131,15 @@
     ],
     "people": [
       {
-        "title": "Romanos IV Diogenes",
-        "type": "person",
-        "slug": "romanos-iv-diogenes",
-        "label": "Commander"
-      },
-      {
         "title": "Alp Arslan",
         "type": "person",
         "slug": "alp-arslan",
+        "label": "Commander"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
         "label": "Commander"
       }
     ],

@@ -175,16 +175,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Petronas",
-        "type": "person",
-        "slug": "petronas",
-        "label": "Commanded the encirclement"
-      },
-      {
         "title": "Michael III",
         "type": "person",
         "slug": "michael-iii",
         "label": "The emperor whose reign it belongs to"
+      },
+      {
+        "title": "Petronas",
+        "type": "person",
+        "slug": "petronas",
+        "label": "Commanded the encirclement"
       }
     ],
     "events": [
@@ -203,12 +203,6 @@
     ],
     "locations": [
       {
-        "title": "Emirate of Melitene",
-        "type": "location",
-        "slug": "emirate-of-melitene",
-        "label": "Whose army was destroyed and whose emir was killed"
-      },
-      {
         "title": "Abbasid Caliphate",
         "type": "location",
         "slug": "abbasid-caliphate",
@@ -219,6 +213,12 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Which took the initiative in the east from here on"
+      },
+      {
+        "title": "Emirate of Melitene",
+        "type": "location",
+        "slug": "emirate-of-melitene",
+        "label": "Whose army was destroyed and whose emir was killed"
       }
     ]
   },

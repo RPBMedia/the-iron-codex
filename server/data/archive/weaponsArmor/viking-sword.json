@@ -97,6 +97,12 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Round Shield",
+        "type": "weaponArmor",
+        "slug": "round-shield",
+        "label": "Its constant partner in Norse fighting"
+      },
+      {
         "title": "Seax",
         "type": "weaponArmor",
         "slug": "seax"
@@ -105,24 +111,18 @@
         "title": "Ulfberht Swords",
         "type": "weaponArmor",
         "slug": "ulfberht-swords"
-      },
-      {
-        "title": "Round Shield",
-        "type": "weaponArmor",
-        "slug": "round-shield",
-        "label": "Its constant partner in Norse fighting"
       }
     ],
     "people": [
       {
-        "title": "Harald Hardrada",
-        "type": "person",
-        "slug": "harald-hardrada"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
       }
     ],
     "locations": [

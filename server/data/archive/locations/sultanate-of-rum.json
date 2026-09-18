@@ -116,10 +116,10 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Myriokephalon",
+        "title": "Battle of Bapheus",
         "type": "event",
-        "slug": "battle-of-myriokephalon",
-        "label": "Its greatest victory"
+        "slug": "battle-of-bapheus",
+        "label": "Fought by one of the beyliks that replaced it"
       },
       {
         "title": "Battle of Manzikert",
@@ -128,24 +128,24 @@
         "label": "The defeat that opened Anatolia to it"
       },
       {
-        "title": "Battle of Bapheus",
+        "title": "Battle of Myriokephalon",
         "type": "event",
-        "slug": "battle-of-bapheus",
-        "label": "Fought by one of the beyliks that replaced it"
+        "slug": "battle-of-myriokephalon",
+        "label": "Its greatest victory"
       }
     ],
     "people": [
-      {
-        "title": "Kilij Arslan II",
-        "type": "person",
-        "slug": "kilij-arslan-ii",
-        "label": "Who won Myriokephalon and then divided the sultanate"
-      },
       {
         "title": "Kilij Arslan I",
         "type": "person",
         "slug": "kilij-arslan-i",
         "label": "Who lost Nicaea and moved the capital to Konya"
+      },
+      {
+        "title": "Kilij Arslan II",
+        "type": "person",
+        "slug": "kilij-arslan-ii",
+        "label": "Who won Myriokephalon and then divided the sultanate"
       },
       {
         "title": "Manuel I Komnenos",
@@ -155,12 +155,6 @@
       }
     ],
     "locations": [
-      {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks",
-        "label": "The wider dynasty it branched from"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -172,6 +166,12 @@
         "type": "location",
         "slug": "ottoman-empire",
         "label": "Which grew out of the beyliks that succeeded it"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "The wider dynasty it branched from"
       }
     ]
   },

@@ -98,37 +98,37 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Longbow",
-        "type": "weaponArmor",
-        "slug": "longbow"
-      },
-      {
         "title": "Crossbow",
         "type": "weaponArmor",
         "slug": "crossbow"
-      },
-      {
-        "title": "Pavise",
-        "type": "weaponArmor",
-        "slug": "pavise"
       },
       {
         "title": "Hand Cannon",
         "type": "weaponArmor",
         "slug": "hand-cannon",
         "label": "What ended every war-bow tradition"
+      },
+      {
+        "title": "Longbow",
+        "type": "weaponArmor",
+        "slug": "longbow"
+      },
+      {
+        "title": "Pavise",
+        "type": "weaponArmor",
+        "slug": "pavise"
       }
     ],
     "events": [
       {
-        "title": "Battle of Crécy",
-        "type": "event",
-        "slug": "battle-of-crecy"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
       },
       {
         "title": "Battle of Poitiers",

@@ -234,16 +234,16 @@
     ],
     "events": [
       {
-        "title": "Siege of Constantinople (626)",
-        "type": "event",
-        "slug": "siege-of-constantinople-626",
-        "label": "The capital held in the founder's absence"
-      },
-      {
         "title": "Battle of Nineveh",
         "type": "event",
         "slug": "battle-of-nineveh",
         "label": "The dynasty's greatest victory"
+      },
+      {
+        "title": "Siege of Constantinople (626)",
+        "type": "event",
+        "slug": "siege-of-constantinople-626",
+        "label": "The capital held in the founder's absence"
       }
     ],
     "locations": [

@@ -127,6 +127,18 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet",
+        "label": "The helmet displacing it in war by this date"
+      },
+      {
+        "title": "Funeral Achievements of Henry V",
+        "slug": "henry-v-achievements",
+        "label": "Another English funerary helm",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm",
@@ -139,12 +151,6 @@
         "label": "The continental counterpart, with its crest"
       },
       {
-        "title": "Bascinet",
-        "type": "weaponArmor",
-        "slug": "bascinet",
-        "label": "The helmet displacing it in war by this date"
-      },
-      {
         "title": "Heater Shield",
         "type": "weaponArmor",
         "slug": "heater-shield",
@@ -155,12 +161,6 @@
         "type": "weaponArmor",
         "slug": "mail-coif",
         "label": "Worn beneath a great helm"
-      },
-      {
-        "title": "Funeral Achievements of Henry V",
-        "slug": "henry-v-achievements",
-        "label": "Another English funerary helm",
-        "type": "weaponArmor"
       }
     ]
   },

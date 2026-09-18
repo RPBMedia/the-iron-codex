@@ -142,24 +142,24 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Conquest of Toledo",
-        "type": "event",
-        "slug": "conquest-of-toledo",
-        "label": "His greatest conquest"
-      },
-      {
         "title": "Battle of Sagrajas",
         "type": "event",
         "slug": "battle-of-sagrajas",
         "label": "His great defeat"
+      },
+      {
+        "title": "Conquest of Toledo",
+        "type": "event",
+        "slug": "conquest-of-toledo",
+        "label": "His greatest conquest"
       }
     ],
     "locations": [
       {
-        "title": "Toledo",
+        "title": "Kingdom of Castile",
         "type": "location",
-        "slug": "toledo",
-        "label": "The city he conquered"
+        "slug": "kingdom-of-castile",
+        "label": "His realm"
       },
       {
         "title": "Kingdom of León",
@@ -168,10 +168,10 @@
         "label": "His realm"
       },
       {
-        "title": "Kingdom of Castile",
+        "title": "Toledo",
         "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "His realm"
+        "slug": "toledo",
+        "label": "The city he conquered"
       },
       {
         "title": "Valencia",

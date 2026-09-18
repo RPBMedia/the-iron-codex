@@ -147,15 +147,15 @@
     ],
     "orders": [
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order"
-      },
-      {
         "title": "Knights Templar",
         "type": "order",
         "slug": "knights-templar",
         "label": "Founder and first Grand Master"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
       }
     ]
   },

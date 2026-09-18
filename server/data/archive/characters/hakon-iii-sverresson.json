@@ -172,25 +172,19 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "His kingdom"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Died there, 1204"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "His kingdom"
       }
     ],
     "people": [
-      {
-        "title": "Sverre Sigurdsson",
-        "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "His father and predecessor"
-      },
       {
         "title": "Haakon IV Haakonsson",
         "type": "person",
@@ -202,6 +196,12 @@
         "type": "person",
         "slug": "inge-ii-bardsson",
         "label": "Who took the throne after him"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
+        "label": "His father and predecessor"
       }
     ],
     "events": []

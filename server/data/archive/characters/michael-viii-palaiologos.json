@@ -186,19 +186,24 @@
     ],
     "events": [
       {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "The achievement his reign is defined by"
-      },
-      {
         "title": "Battle of Pelagonia",
         "type": "event",
         "slug": "battle-of-pelagonia",
         "label": "Which cleared the way to it"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "The achievement his reign is defined by"
       }
     ],
     "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
       {
         "title": "Empire of Nicaea",
         "type": "location",
@@ -210,11 +215,6 @@
         "type": "location",
         "slug": "latin-empire",
         "label": "Which he extinguished"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
       }
     ]
   },

@@ -147,25 +147,19 @@
     ],
     "people": [
       {
-        "title": "Khalid ibn al-Walid",
-        "type": "person",
-        "slug": "khalid-ibn-al-walid",
-        "label": "Its most effective commander, dismissed at the height of his success"
-      },
-      {
         "title": "Heraclius",
         "type": "person",
         "slug": "heraclius",
         "label": "The emperor who lost Syria to it"
+      },
+      {
+        "title": "Khalid ibn al-Walid",
+        "type": "person",
+        "slug": "khalid-ibn-al-walid",
+        "label": "Its most effective commander, dismissed at the height of his success"
       }
     ],
     "locations": [
-      {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "What it became in 661"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -177,6 +171,12 @@
         "type": "location",
         "slug": "sasanian-empire",
         "label": "Which it destroyed outright"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "What it became in 661"
       }
     ]
   },

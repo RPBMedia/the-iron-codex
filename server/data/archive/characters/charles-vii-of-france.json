@@ -188,6 +188,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Conquered it in 1451–1453"
+      },
+      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
@@ -198,12 +204,6 @@
         "type": "location",
         "slug": "poitiers",
         "label": "Seat of his Parlement, 1418–1436"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "Conquered it in 1451–1453"
       }
     ],
     "people": [
@@ -222,16 +222,16 @@
     ],
     "events": [
       {
-        "title": "Siege of Orléans",
-        "type": "event",
-        "slug": "siege-of-orleans",
-        "label": "The 1429 turning point of his reign"
-      },
-      {
         "title": "Hundred Years' War",
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The war he brought to a victorious close"
+      },
+      {
+        "title": "Siege of Orléans",
+        "type": "event",
+        "slug": "siege-of-orleans",
+        "label": "The 1429 turning point of his reign"
       }
     ]
   },

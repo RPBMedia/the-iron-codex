@@ -173,12 +173,6 @@
         "label": "Battle named after the town"
       },
       {
-        "title": "Norman Conquest of England",
-        "type": "event",
-        "slug": "norman-conquest",
-        "label": "Began with the landing and the castle here"
-      },
-      {
         "title": "Battle of Stamford Bridge",
         "type": "event",
         "slug": "battle-of-stamford-bridge",
@@ -189,45 +183,51 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "French raids burned the town in 1339 and 1377"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Began with the landing and the castle here"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Containing realm"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
         "slug": "duchy-of-normandy",
         "label": "Homeland of the invaders and the Counts of Eu"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Containing realm"
       }
     ],
     "people": [
-      {
-        "title": "Harold Godwinson",
-        "type": "person",
-        "slug": "harold-godwinson",
-        "label": "Killed at the battle named after the town"
-      },
-      {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Built his first castle here, 1066"
-      },
       {
         "type": "person",
         "slug": "aethelstan",
         "label": "Allowed the town a mint under his laws"
       },
       {
-        "title": "William II of England",
+        "title": "Edward I of England",
         "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "King when Battle Abbey's church was finished"
+        "slug": "edward-i-of-england",
+        "label": "Held the castle and rebuilt Winchelsea"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Probable source of the Cinque Ports privileges"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
+        "label": "Killed at the battle named after the town"
       },
       {
         "title": "Henry II of England",
@@ -236,10 +236,10 @@
         "label": "Upheld Battle Abbey's freedom, 1157"
       },
       {
-        "title": "Edward the Confessor",
+        "title": "Henry III of England",
         "type": "person",
-        "slug": "edward-the-confessor",
-        "label": "Probable source of the Cinque Ports privileges"
+        "slug": "henry-iii-of-england",
+        "label": "Refortified the castle, 1220"
       },
       {
         "title": "John of England",
@@ -254,16 +254,16 @@
         "label": "His invasion led to the slighting of the castle"
       },
       {
-        "title": "Henry III of England",
+        "title": "William II of England",
         "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "Refortified the castle, 1220"
+        "slug": "william-ii-of-england",
+        "label": "King when Battle Abbey's church was finished"
       },
       {
-        "title": "Edward I of England",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Held the castle and rebuilt Winchelsea"
+        "slug": "william-the-conqueror",
+        "label": "Built his first castle here, 1066"
       }
     ],
     "artifacts": [

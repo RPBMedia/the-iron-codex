@@ -198,6 +198,12 @@
     ],
     "events": [
       {
+        "title": "Battle of Agincourt",
+        "type": "event",
+        "slug": "battle-of-agincourt",
+        "label": "The wounded prince’s own victory, 1415"
+      },
+      {
         "title": "Battle of Homildon Hill",
         "type": "event",
         "slug": "battle-of-homildon-hill",
@@ -208,12 +214,6 @@
         "type": "event",
         "slug": "battle-of-otterburn",
         "label": "Where Hotspur had himself been taken, 1388"
-      },
-      {
-        "title": "Battle of Agincourt",
-        "type": "event",
-        "slug": "battle-of-agincourt",
-        "label": "The wounded prince’s own victory, 1415"
       }
     ],
     "locations": [

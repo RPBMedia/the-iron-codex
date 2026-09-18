@@ -175,6 +175,12 @@
     ],
     "people": [
       {
+        "title": "Eadgifu of Kent",
+        "type": "person",
+        "slug": "eadgifu-of-kent",
+        "label": "Grandmother"
+      },
+      {
         "title": "Eadwig of England",
         "type": "person",
         "slug": "eadwig-of-england",
@@ -185,12 +191,6 @@
         "type": "person",
         "slug": "edward-the-martyr",
         "label": "His son and successor"
-      },
-      {
-        "title": "Eadgifu of Kent",
-        "type": "person",
-        "slug": "eadgifu-of-kent",
-        "label": "Grandmother"
       }
     ],
     "events": []

@@ -180,24 +180,24 @@
     ],
     "people": [
       {
-        "title": "Henry II of Castile",
-        "type": "person",
-        "slug": "henry-ii-of-castile",
-        "label": "His half-brother, rival, and successor"
-      },
-      {
         "title": "Edward, the Black Prince",
         "type": "person",
         "slug": "edward-the-black-prince",
         "label": "His ally, victor at Nájera"
+      },
+      {
+        "title": "Henry II of Castile",
+        "type": "person",
+        "slug": "henry-ii-of-castile",
+        "label": "His half-brother, rival, and successor"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
+        "title": "Battle of Montiel",
         "type": "event",
-        "slug": "hundred-years-war",
-        "label": "His civil war became a front of it"
+        "slug": "battle-of-montiel",
+        "label": "Defeated here and murdered nine days later"
       },
       {
         "title": "Battle of Nájera",
@@ -206,10 +206,10 @@
         "label": "Restored to the Castilian throne by this victory, 1367"
       },
       {
-        "title": "Battle of Montiel",
+        "title": "Hundred Years' War",
         "type": "event",
-        "slug": "battle-of-montiel",
-        "label": "Defeated here and murdered nine days later"
+        "slug": "hundred-years-war",
+        "label": "His civil war became a front of it"
       }
     ]
   },

@@ -213,38 +213,38 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand III of Castile",
-        "type": "person",
-        "slug": "ferdinand-iii-of-castile",
-        "label": "His son, who united León with Castile in 1230"
-      },
-      {
         "title": "Alfonso VIII of Castile",
         "type": "person",
         "slug": "alfonso-viii-of-castile",
         "label": "His cousin, rival and father-in-law"
+      },
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "His son, who united León with Castile in 1230"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "The great peninsular victory he refused to join"
-      },
       {
         "title": "Battle of Alarcos",
         "type": "event",
         "slug": "battle-of-alarcos",
         "label": "The Castilian defeat he exploited against his cousin"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The great peninsular victory he refused to join"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of León",
+        "title": "Almohad Caliphate",
         "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "The last separate reign of the senior Iberian crown"
+        "slug": "almohad-caliphate",
+        "label": "Truce partner against Castile, then the enemy he drove from Extremadura"
       },
       {
         "title": "Kingdom of Castile",
@@ -253,10 +253,10 @@
         "label": "The cousin-kingdom he fought and his son inherited"
       },
       {
-        "title": "Almohad Caliphate",
+        "title": "Kingdom of León",
         "type": "location",
-        "slug": "almohad-caliphate",
-        "label": "Truce partner against Castile, then the enemy he drove from Extremadura"
+        "slug": "kingdom-of-leon",
+        "label": "The last separate reign of the senior Iberian crown"
       }
     ],
     "houses": [

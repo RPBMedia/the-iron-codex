@@ -149,10 +149,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Philip II of France",
+        "title": "John of England",
         "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Father and predecessor"
+        "slug": "john-of-england",
+        "label": "The enemy whose crown he nearly took"
       },
       {
         "title": "Louis IX of France",
@@ -161,23 +161,23 @@
         "label": "Son and successor"
       },
       {
-        "title": "John of England",
+        "title": "Philip II of France",
         "type": "person",
-        "slug": "john-of-england",
-        "label": "The enemy whose crown he nearly took"
+        "slug": "philip-ii-of-france",
+        "label": "Father and predecessor"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Ruled half of it, briefly, in 1216–17"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
       }
     ],
     "events": [

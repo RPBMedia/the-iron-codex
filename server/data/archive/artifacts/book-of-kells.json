@@ -69,6 +69,12 @@
   "relatedEntries": {
     "artifacts": [
       {
+        "title": "Codex Gigas",
+        "type": "artifact",
+        "slug": "codex-gigas",
+        "label": "Comparable major medieval manuscript"
+      },
+      {
         "title": "Lindisfarne Gospels",
         "type": "artifact",
         "slug": "lindisfarne-gospels",
@@ -79,12 +85,6 @@
         "type": "artifact",
         "slug": "royal-frankish-annals",
         "label": "Comparable major early-medieval manuscript"
-      },
-      {
-        "title": "Codex Gigas",
-        "type": "artifact",
-        "slug": "codex-gigas",
-        "label": "Comparable major medieval manuscript"
       }
     ],
     "locations": [

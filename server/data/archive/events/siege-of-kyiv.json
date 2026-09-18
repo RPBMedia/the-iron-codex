@@ -148,22 +148,17 @@
         "slug": "batu-khan"
       },
       {
-        "title": "Subutai",
-        "type": "person",
-        "slug": "subutai"
-      },
-      {
         "title": "Mstislav the Bold",
         "type": "person",
         "slug": "mstislav-the-bold"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai"
       }
     ],
     "events": [
-      {
-        "title": "Battle of the Sit River",
-        "type": "event",
-        "slug": "battle-of-the-sit-river"
-      },
       {
         "title": "Battle of Mohi",
         "type": "event",
@@ -173,6 +168,11 @@
         "title": "Battle of the Kalka River",
         "type": "event",
         "slug": "battle-of-the-kalka-river"
+      },
+      {
+        "title": "Battle of the Sit River",
+        "type": "event",
+        "slug": "battle-of-the-sit-river"
       }
     ],
     "locations": [

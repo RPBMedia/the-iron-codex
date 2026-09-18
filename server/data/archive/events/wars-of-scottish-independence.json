@@ -143,9 +143,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "Andrew Moray",
         "type": "person",
-        "slug": "robert-the-bruce"
+        "slug": "andrew-moray",
+        "label": "Victor of Stirling Bridge"
+      },
+      {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "King captured at Neville's Cross"
       },
       {
         "title": "Edward I of England",
@@ -158,66 +165,29 @@
         "slug": "edward-ii-of-england"
       },
       {
-        "title": "John Comyn",
-        "type": "person",
-        "slug": "john-comyn"
-      },
-      {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "Victor of Stirling Bridge and Guardian of Scotland"
-      },
-      {
-        "title": "Andrew Moray",
-        "type": "person",
-        "slug": "andrew-moray",
-        "label": "Victor of Stirling Bridge"
-      },
-      {
         "title": "John Balliol",
         "type": "person",
         "slug": "john-balliol",
         "label": "The king Edward I deposed"
       },
       {
-        "title": "David II of Scotland",
+        "title": "John Comyn",
         "type": "person",
-        "slug": "david-ii-of-scotland",
-        "label": "King captured at Neville's Cross"
+        "slug": "john-comyn"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Victor of Stirling Bridge and Guardian of Scotland"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Dunbar",
-        "type": "event",
-        "slug": "battle-of-dunbar",
-        "label": "Edward I destroys the Scottish host, 1296"
-      },
-      {
-        "title": "Battle of Stirling Bridge",
-        "type": "event",
-        "slug": "battle-of-stirling-bridge",
-        "label": "First great Scottish victory, 1297"
-      },
-      {
-        "title": "Battle of Falkirk",
-        "type": "event",
-        "slug": "battle-of-falkirk",
-        "label": "Edward I's archers break the schiltrons, 1298"
-      },
-      {
-        "title": "Battle of Methven",
-        "type": "event",
-        "slug": "battle-of-methven",
-        "label": "Bruce routed weeks after his coronation, 1306"
-      },
-      {
-        "title": "Battle of Loudoun Hill",
-        "type": "event",
-        "slug": "battle-of-loudoun-hill",
-        "label": "Bruce’s first victory after exile, 1307"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
@@ -225,16 +195,10 @@
         "label": "Bruce breaks the English army, 1314"
       },
       {
-        "title": "Battle of Stanhope Park",
+        "title": "Battle of Dunbar",
         "type": "event",
-        "slug": "battle-of-stanhope-park",
-        "label": "Douglas raids Edward III's camp, 1327"
-      },
-      {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton",
-        "label": "England renounces its claim, 1328"
+        "slug": "battle-of-dunbar",
+        "label": "Edward I destroys the Scottish host, 1296"
       },
       {
         "title": "Battle of Dupplin Moor",
@@ -243,16 +207,52 @@
         "label": "The disinherited reopen the war, 1332"
       },
       {
+        "title": "Battle of Falkirk",
+        "type": "event",
+        "slug": "battle-of-falkirk",
+        "label": "Edward I's archers break the schiltrons, 1298"
+      },
+      {
         "title": "Battle of Halidon Hill",
         "type": "event",
         "slug": "battle-of-halidon-hill",
         "label": "Archery repeats Dupplin Moor, 1333"
       },
       {
+        "title": "Battle of Loudoun Hill",
+        "type": "event",
+        "slug": "battle-of-loudoun-hill",
+        "label": "Bruce’s first victory after exile, 1307"
+      },
+      {
+        "title": "Battle of Methven",
+        "type": "event",
+        "slug": "battle-of-methven",
+        "label": "Bruce routed weeks after his coronation, 1306"
+      },
+      {
         "title": "Battle of Neville's Cross",
         "type": "event",
         "slug": "battle-of-nevilles-cross",
         "label": "David II captured for eleven years, 1346"
+      },
+      {
+        "title": "Battle of Stanhope Park",
+        "type": "event",
+        "slug": "battle-of-stanhope-park",
+        "label": "Douglas raids Edward III's camp, 1327"
+      },
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "First great Scottish victory, 1297"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "England renounces its claim, 1328"
       }
     ],
     "artifacts": [

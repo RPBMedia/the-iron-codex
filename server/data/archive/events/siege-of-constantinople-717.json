@@ -261,10 +261,10 @@
     ],
     "events": [
       {
-        "title": "Siege of Constantinople (626)",
+        "title": "Battle of Akroinon",
         "type": "event",
-        "slug": "siege-of-constantinople-626",
-        "label": "The earlier attempt on the same walls, and the same answer"
+        "slug": "battle-of-akroinon",
+        "label": "Where the raids that followed the siege were finally broken"
       },
       {
         "title": "Battle of Tours",
@@ -279,13 +279,19 @@
         "label": "What finally solved the walls, seven centuries later"
       },
       {
-        "title": "Battle of Akroinon",
+        "title": "Siege of Constantinople (626)",
         "type": "event",
-        "slug": "battle-of-akroinon",
-        "label": "Where the raids that followed the siege were finally broken"
+        "slug": "siege-of-constantinople-626",
+        "label": "The earlier attempt on the same walls, and the same answer"
       }
     ],
     "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The empire whose recovery begins here"
+      },
       {
         "title": "Constantinople",
         "type": "location",
@@ -297,12 +303,6 @@
         "type": "location",
         "slug": "umayyad-caliphate",
         "label": "Whose army and fleet were destroyed here"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "The empire whose recovery begins here"
       }
     ]
   },

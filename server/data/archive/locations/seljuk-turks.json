@@ -118,14 +118,14 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Tughril Beg",
-        "type": "person",
-        "slug": "tughril-beg"
-      },
-      {
         "title": "Alp Arslan",
         "type": "person",
         "slug": "alp-arslan"
+      },
+      {
+        "title": "Kilij Arslan I",
+        "type": "person",
+        "slug": "kilij-arslan-i"
       },
       {
         "title": "Malik-Shah I",
@@ -133,9 +133,9 @@
         "slug": "malik-shah-i"
       },
       {
-        "title": "Kilij Arslan I",
+        "title": "Tughril Beg",
         "type": "person",
-        "slug": "kilij-arslan-i"
+        "slug": "tughril-beg"
       }
     ],
     "locations": [
@@ -154,15 +154,15 @@
     ],
     "events": [
       {
-        "title": "Battle of Manzikert",
-        "type": "event",
-        "slug": "battle-of-manzikert"
-      },
-      {
         "title": "Battle of Dandanaqan",
         "type": "event",
         "slug": "battle-of-dandanaqan",
         "label": "The battle the empire dates from"
+      },
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert"
       }
     ]
   },

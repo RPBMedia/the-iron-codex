@@ -206,6 +206,12 @@
         "label": "Birthplace"
       },
       {
+        "title": "Hastings",
+        "type": "location",
+        "slug": "hastings",
+        "label": "Built his first castle in England there"
+      },
+      {
         "title": "Rouen",
         "type": "location",
         "slug": "rouen",
@@ -216,12 +222,6 @@
         "type": "location",
         "slug": "westminster",
         "label": "Crowned here, 1066"
-      },
-      {
-        "title": "Hastings",
-        "type": "location",
-        "slug": "hastings",
-        "label": "Built his first castle in England there"
       }
     ],
     "events": [
@@ -232,29 +232,29 @@
         "label": "Fought in this engagement"
       },
       {
-        "title": "Norman Conquest of England",
-        "type": "event",
-        "slug": "norman-conquest",
-        "label": "Fought in this engagement"
-      },
-      {
         "title": "Battle of Val-ès-Dunes",
         "type": "event",
         "slug": "battle-of-val-es-dunes",
         "label": "His first battle, and the making of his duchy"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [
-      {
-        "title": "Edward the Confessor",
-        "type": "person",
-        "slug": "edward-the-confessor"
-      },
       {
         "title": "Adela of Normandy",
         "type": "person",
         "slug": "adela-of-normandy",
         "label": "Daughter"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor"
       },
       {
         "title": "Matilda of Flanders",

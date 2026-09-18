@@ -148,10 +148,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John II of France",
+        "title": "Edward III of England",
         "type": "person",
-        "slug": "john-ii-of-france",
-        "label": "Father, whose captivity made him regent"
+        "slug": "edward-iii-of-england",
+        "label": "The old enemy outlasted and out-governed"
       },
       {
         "title": "Edward, the Black Prince",
@@ -160,13 +160,19 @@
         "label": "The adversary whose principality he dismantled"
       },
       {
-        "title": "Edward III of England",
+        "title": "John II of France",
         "type": "person",
-        "slug": "edward-iii-of-england",
-        "label": "The old enemy outlasted and out-governed"
+        "slug": "john-ii-of-france",
+        "label": "Father, whose captivity made him regent"
       }
     ],
     "locations": [
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Birthplace and fortress residence"
+      },
       {
         "title": "Kingdom of France",
         "type": "location",
@@ -177,12 +183,6 @@
         "type": "location",
         "slug": "paris",
         "label": "Rewalled under his regency and reign"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Birthplace and fortress residence"
       }
     ],
     "events": [

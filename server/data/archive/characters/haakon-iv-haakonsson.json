@@ -144,6 +144,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "His capital and coronation town"
+      },
+      {
         "title": "Kingdom of Norway",
         "type": "location",
         "slug": "kingdom-of-norway",
@@ -154,25 +160,19 @@
         "type": "location",
         "slug": "kirkwall",
         "label": "Place of death"
-      },
-      {
-        "title": "Bergen",
-        "type": "location",
-        "slug": "bergen",
-        "label": "His capital and coronation town"
       }
     ],
     "people": [
       {
-        "title": "Sverre Sigurdsson",
-        "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "Ruler of Kingdom of Norway"
-      },
-      {
         "title": "Magnus VI Lawmender",
         "type": "person",
         "slug": "magnus-vi-lawmender",
+        "label": "Ruler of Kingdom of Norway"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
         "label": "Ruler of Kingdom of Norway"
       }
     ],

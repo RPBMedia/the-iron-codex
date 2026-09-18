@@ -135,21 +135,15 @@
   "relatedEntries": {
     "people": [
       {
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Built the New Minster"
+      },
+      {
         "title": "Alfred the Great",
         "type": "person",
         "slug": "alfred-the-great",
         "label": "Death of Alfred the Great"
-      },
-      {
-        "title": "Ealhswith",
-        "type": "person",
-        "slug": "ealhswith",
-        "label": "Founder of the Nunnaminster"
-      },
-      {
-        "type": "person",
-        "slug": "edward-the-elder",
-        "label": "Built the New Minster"
       },
       {
         "title": "Cnut the Great",
@@ -158,28 +152,16 @@
         "label": "Buried in the Old Minster, 1035"
       },
       {
+        "title": "Ealhswith",
+        "type": "person",
+        "slug": "ealhswith",
+        "label": "Founder of the Nunnaminster"
+      },
+      {
         "title": "Emma of Normandy",
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "Lived and was buried here"
-      },
-      {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Built the castle in 1067"
-      },
-      {
-        "title": "William II of England",
-        "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "Buried in the cathedral, 1100"
-      },
-      {
-        "title": "Stephen of England",
-        "type": "person",
-        "slug": "stephen-of-england",
-        "label": "His brother was bishop here"
       },
       {
         "title": "Empress Matilda",
@@ -188,16 +170,34 @@
         "label": "Routed here in 1141"
       },
       {
+        "title": "Henry III of England",
+        "type": "person",
+        "slug": "henry-iii-of-england",
+        "label": "Born in the castle; built the Great Hall"
+      },
+      {
         "title": "Richard the Lionheart",
         "type": "person",
         "slug": "richard-the-lionheart",
         "label": "Wore his crown here in 1194"
       },
       {
-        "title": "Henry III of England",
+        "title": "Stephen of England",
         "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "Born in the castle; built the Great Hall"
+        "slug": "stephen-of-england",
+        "label": "His brother was bishop here"
+      },
+      {
+        "title": "William II of England",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "Buried in the cathedral, 1100"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Built the castle in 1067"
       }
     ],
     "locations": [

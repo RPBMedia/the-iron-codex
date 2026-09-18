@@ -212,16 +212,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Khalid ibn al-Walid",
-        "type": "person",
-        "slug": "khalid-ibn-al-walid",
-        "label": "Who commanded the winning side"
-      },
-      {
         "title": "Heraclius",
         "type": "person",
         "slug": "heraclius",
         "label": "Who lost in nine years what he had spent twenty-six winning"
+      },
+      {
+        "title": "Khalid ibn al-Walid",
+        "type": "person",
+        "slug": "khalid-ibn-al-walid",
+        "label": "Who commanded the winning side"
       }
     ],
     "events": [
@@ -240,16 +240,16 @@
     ],
     "locations": [
       {
-        "title": "Rashidun Caliphate",
-        "type": "location",
-        "slug": "rashidun-caliphate",
-        "label": "The victor"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Which lost Syria, Palestine and Egypt as a result"
+      },
+      {
+        "title": "Rashidun Caliphate",
+        "type": "location",
+        "slug": "rashidun-caliphate",
+        "label": "The victor"
       }
     ]
   },

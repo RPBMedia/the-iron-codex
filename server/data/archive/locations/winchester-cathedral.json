@@ -163,19 +163,30 @@
         "label": "Containing realm"
       },
       {
-        "title": "Winchester",
-        "type": "location",
-        "slug": "winchester",
-        "label": "The city it stands in"
-      },
-      {
         "title": "Kingdom of Wessex",
         "type": "location",
         "slug": "kingdom-of-wessex",
         "label": "Royal centre of the West Saxon kings"
+      },
+      {
+        "title": "Winchester",
+        "type": "location",
+        "slug": "winchester",
+        "label": "The city it stands in"
       }
     ],
     "people": [
+      {
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Founded the New Minster, 901"
+      },
+      {
+        "title": "Æthelwulf of Wessex",
+        "type": "person",
+        "slug": "aethelwulf-of-wessex",
+        "label": "Named on a mortuary chest"
+      },
       {
         "title": "Alfred the Great",
         "type": "person",
@@ -189,15 +200,10 @@
         "label": "Buried at Winchester"
       },
       {
-        "title": "Emma of Normandy",
+        "title": "Eadred of England",
         "type": "person",
-        "slug": "emma-of-normandy",
-        "label": "Queen buried here"
-      },
-      {
-        "type": "person",
-        "slug": "edward-the-elder",
-        "label": "Founded the New Minster, 901"
+        "slug": "eadred-of-england",
+        "label": "Buried in the Old Minster, 955"
       },
       {
         "title": "Edgar the Peaceful",
@@ -206,22 +212,22 @@
         "label": "Brought monks into both minsters, 964"
       },
       {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Crowned in the Old Minster, 1043"
+      },
+      {
         "title": "Egbert of Wessex",
         "type": "person",
         "slug": "egbert-of-wessex",
         "label": "Named on a mortuary chest"
       },
       {
-        "title": "Æthelwulf of Wessex",
+        "title": "Emma of Normandy",
         "type": "person",
-        "slug": "aethelwulf-of-wessex",
-        "label": "Named on a mortuary chest"
-      },
-      {
-        "title": "Eadred of England",
-        "type": "person",
-        "slug": "eadred-of-england",
-        "label": "Buried in the Old Minster, 955"
+        "slug": "emma-of-normandy",
+        "label": "Queen buried here"
       },
       {
         "title": "Harthacnut",
@@ -230,22 +236,10 @@
         "label": "Buried in the Old Minster, 1042"
       },
       {
-        "title": "Edward the Confessor",
+        "title": "Henry IV of England",
         "type": "person",
-        "slug": "edward-the-confessor",
-        "label": "Crowned in the Old Minster, 1043"
-      },
-      {
-        "title": "William II of England",
-        "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "Buried beneath the tower, 1100"
-      },
-      {
-        "title": "Stephen of England",
-        "type": "person",
-        "slug": "stephen-of-england",
-        "label": "His brother Henry of Blois was bishop"
+        "slug": "henry-iv-of-england",
+        "label": "Married Joan of Navarre here, 1403"
       },
       {
         "title": "Richard the Lionheart",
@@ -254,10 +248,16 @@
         "label": "Wore his crown here, 1194"
       },
       {
-        "title": "Henry IV of England",
+        "title": "Stephen of England",
         "type": "person",
-        "slug": "henry-iv-of-england",
-        "label": "Married Joan of Navarre here, 1403"
+        "slug": "stephen-of-england",
+        "label": "His brother Henry of Blois was bishop"
+      },
+      {
+        "title": "William II of England",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "Buried beneath the tower, 1100"
       }
     ]
   },

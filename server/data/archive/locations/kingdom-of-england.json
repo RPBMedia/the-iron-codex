@@ -29,18 +29,6 @@
         "label": "The survivor-founder"
       },
       {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "1066"
-      },
-      {
-        "title": "Henry II of England",
-        "type": "person",
-        "slug": "henry-ii-of-england",
-        "label": "The common law's maker"
-      },
-      {
         "title": "Edward III of England",
         "type": "person",
         "slug": "edward-iii-of-england",
@@ -57,15 +45,21 @@
         "title": "Henry I of England",
         "slug": "henry-i-of-england",
         "label": "Exchequer and royal justice"
+      },
+      {
+        "title": "Henry II of England",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "The common law's maker"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "1066"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Wessex",
-        "type": "location",
-        "slug": "kingdom-of-wessex",
-        "label": "The nucleus"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
@@ -83,20 +77,15 @@
         "type": "location",
         "slug": "kingdom-of-scotland",
         "label": "The northern neighbour"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "The nucleus"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Hastings",
-        "type": "event",
-        "slug": "battle-of-hastings",
-        "label": "The kingdom remade, 1066"
-      },
-      {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war"
-      },
       {
         "title": "Battle of Agincourt",
         "type": "event",
@@ -107,6 +96,17 @@
         "type": "event",
         "slug": "battle-of-halidon-hill",
         "label": "Where England took Berwick for good, 1333"
+      },
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings",
+        "label": "The kingdom remade, 1066"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
       }
     ]
   },

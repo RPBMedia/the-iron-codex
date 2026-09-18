@@ -85,16 +85,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Romanos IV Diogenes",
+        "title": "Alp Arslan",
         "type": "person",
-        "slug": "romanos-iv-diogenes",
-        "label": "Died here in 1072"
-      },
-      {
-        "title": "Michael VII Doukas",
-        "type": "person",
-        "slug": "michael-vii-doukas",
-        "label": "The court that deposed and blinded him"
+        "slug": "alp-arslan",
+        "label": "Captured him at Manzikert and released him"
       },
       {
         "title": "Eudokia Makrembolitissa",
@@ -103,19 +97,19 @@
         "label": "His wife, herself removed to a convent"
       },
       {
-        "title": "Alp Arslan",
+        "title": "Michael VII Doukas",
         "type": "person",
-        "slug": "alp-arslan",
-        "label": "Captured him at Manzikert and released him"
+        "slug": "michael-vii-doukas",
+        "label": "The court that deposed and blinded him"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Died here in 1072"
       }
     ],
     "locations": [
-      {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople",
-        "label": "The capital the island served"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -123,16 +117,22 @@
         "label": "Realm of the exiles sent here"
       },
       {
-        "title": "Manzikert",
-        "type": "location",
-        "slug": "manzikert",
-        "label": "Where his defeat began the sequence"
-      },
-      {
         "title": "Cappadocia",
         "type": "location",
         "slug": "cappadocia",
         "label": "His family’s home region"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "The capital the island served"
+      },
+      {
+        "title": "Manzikert",
+        "type": "location",
+        "slug": "manzikert",
+        "label": "Where his defeat began the sequence"
       }
     ],
     "events": [

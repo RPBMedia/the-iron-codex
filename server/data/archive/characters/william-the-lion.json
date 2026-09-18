@@ -295,19 +295,25 @@
         "label": "Took his homage for Scotland at Falaise"
       },
       {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Sold the overlordship back for 10,000 merks in 1189"
-      },
-      {
         "title": "John of England",
         "type": "person",
         "slug": "john-of-england",
         "label": "Bought off by the Treaty of Norham in 1209"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Sold the overlordship back for 10,000 merks in 1189"
       }
     ],
     "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Held him prisoner in 1174 and claimed his homage until 1189"
+      },
       {
         "title": "Kingdom of Scotland",
         "type": "location",
@@ -319,12 +325,6 @@
         "type": "location",
         "slug": "northumbria",
         "label": "The earldom he lost in 1157 and invaded to recover"
-      },
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Held him prisoner in 1174 and claimed his homage until 1189"
       }
     ],
     "houses": [

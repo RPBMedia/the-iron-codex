@@ -206,16 +206,16 @@
     ],
     "locations": [
       {
-        "title": "Emirate of Crete",
-        "type": "location",
-        "slug": "emirate-of-crete",
-        "label": "The state this siege extinguished"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Whose reconquest begins here"
+      },
+      {
+        "title": "Emirate of Crete",
+        "type": "location",
+        "slug": "emirate-of-crete",
+        "label": "The state this siege extinguished"
       }
     ]
   },

@@ -201,28 +201,28 @@
     ],
     "people": [
       {
-        "title": "Kęstutis",
-        "type": "person",
-        "slug": "kestutis",
-        "label": "His brother and co-ruler for 32 years"
-      },
-      {
         "title": "Gediminas",
         "type": "person",
         "slug": "gediminas",
         "label": "His father"
       },
       {
-        "title": "Wladyslaw II Jagiello",
+        "title": "Kęstutis",
         "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
-        "label": "His son, named to succeed him in 1377"
+        "slug": "kestutis",
+        "label": "His brother and co-ruler for 32 years"
       },
       {
         "title": "Skirgaila",
         "type": "person",
         "slug": "skirgaila",
         "label": "His son, later regent of Lithuania"
+      },
+      {
+        "title": "Wladyslaw II Jagiello",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "His son, named to succeed him in 1377"
       }
     ],
     "houses": [

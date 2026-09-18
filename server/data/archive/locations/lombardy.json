@@ -107,30 +107,30 @@
     ],
     "locations": [
       {
-        "title": "Lombard League",
-        "type": "location",
-        "slug": "lombard-league",
-        "label": "The alliance of its cities"
-      },
-      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
         "label": "The overlordship the cities acknowledged at Constance"
+      },
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "The alliance of its cities"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Legnano",
-        "type": "event",
-        "slug": "battle-of-legnano",
-        "label": "The league's victory in 1176"
-      },
       {
         "title": "Battle of Cortenuova",
         "type": "event",
         "slug": "battle-of-cortenuova",
         "label": "Frederick II's defeat of the revived league in 1237"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "The league's victory in 1176"
       }
     ]
   },

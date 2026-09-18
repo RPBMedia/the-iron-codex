@@ -98,10 +98,10 @@
     ],
     "people": [
       {
-        "title": "Wladyslaw II Jagiello",
+        "title": "Ulrich von Jungingen",
         "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
-        "label": "Commanded the victorious army"
+        "slug": "ulrich-von-jungingen",
+        "label": "Grand Master killed here"
       },
       {
         "title": "Vytautas",
@@ -110,23 +110,23 @@
         "label": "Led the Lithuanian forces"
       },
       {
-        "title": "Ulrich von Jungingen",
+        "title": "Wladyslaw II Jagiello",
         "type": "person",
-        "slug": "ulrich-von-jungingen",
-        "label": "Grand Master killed here"
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Commanded the victorious army"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Poland",
-        "type": "location",
-        "slug": "kingdom-of-poland",
-        "label": "Combatant realm"
-      },
-      {
         "title": "Grand Duchy of Lithuania",
         "type": "location",
         "slug": "grand-duchy-of-lithuania",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
         "label": "Combatant realm"
       }
     ],

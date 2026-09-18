@@ -84,16 +84,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The kingdom legalised"
-      },
-      {
         "title": "Kingdom of León",
         "type": "location",
         "slug": "kingdom-of-leon",
         "label": "The overlord that let go"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom legalised"
       }
     ],
     "events": [

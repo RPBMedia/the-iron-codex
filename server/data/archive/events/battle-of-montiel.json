@@ -176,6 +176,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "The ally whose withdrawal made this possible"
+      },
+      {
         "title": "Henry II of Castile",
         "type": "person",
         "slug": "henry-ii-of-castile",
@@ -186,26 +192,20 @@
         "type": "person",
         "slug": "peter-of-castile",
         "label": "Defeated, besieged and murdered, 1369"
-      },
-      {
-        "title": "Edward, the Black Prince",
-        "type": "person",
-        "slug": "edward-the-black-prince",
-        "label": "The ally whose withdrawal made this possible"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Nájera",
-        "type": "event",
-        "slug": "battle-of-najera",
-        "label": "The victory two years earlier that settled nothing"
-      },
       {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "Where the Trastámara claim met its limit, 1385"
+      },
+      {
+        "title": "Battle of Nájera",
+        "type": "event",
+        "slug": "battle-of-najera",
+        "label": "The victory two years earlier that settled nothing"
       },
       {
         "title": "Hundred Years’ War",
@@ -216,16 +216,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "The crown that changed houses here"
-      },
-      {
         "title": "Granada",
         "type": "location",
         "slug": "granada",
         "label": "Sent the contingent that fought for Peter"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The crown that changed houses here"
       }
     ]
   },

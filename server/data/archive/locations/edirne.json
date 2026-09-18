@@ -173,22 +173,9 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Mehmed II",
         "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Birthplace of Mehmed II"
-      },
-      {
-        "title": "Frederick I Barbarossa",
-        "type": "person",
-        "slug": "frederick-i-barbarossa",
-        "label": "Occupied the city in 1189"
-      },
-      {
-        "title": "Samuel of Bulgaria",
-        "type": "person",
-        "slug": "samuel-of-bulgaria",
-        "label": "Plundered it in 1003"
+        "slug": "murad-ii",
+        "label": "Built the Üç Şerefeli Mosque and died here in 1451"
       },
       {
         "title": "Baldwin I, Latin Emperor",
@@ -197,10 +184,28 @@
         "label": "Captured outside the city in 1205"
       },
       {
+        "title": "Bayezid I",
+        "type": "person",
+        "slug": "bayezid-i",
+        "label": "Ruled his Balkan conquests from its palace"
+      },
+      {
+        "title": "Bayezid II",
+        "type": "person",
+        "slug": "bayezid-ii",
+        "label": "Built the hospital complex across the Tunca"
+      },
+      {
         "title": "Enrico Dandolo",
         "type": "person",
         "slug": "enrico-dandolo",
         "label": "Besieged the city with Baldwin in 1205"
+      },
+      {
+        "title": "Frederick I Barbarossa",
+        "type": "person",
+        "slug": "frederick-i-barbarossa",
+        "label": "Occupied the city in 1189"
       },
       {
         "title": "Henry of Flanders",
@@ -209,58 +214,31 @@
         "label": "Took over the Latin Empire after the defeat of 1205"
       },
       {
-        "title": "Murad I",
-        "type": "person",
-        "slug": "murad-i",
-        "label": "Took the city, probably about 1369, and ruled from it"
-      },
-      {
-        "title": "Bayezid I",
-        "type": "person",
-        "slug": "bayezid-i",
-        "label": "Ruled his Balkan conquests from its palace"
-      },
-      {
         "title": "Mehmed I",
         "type": "person",
         "slug": "mehmed-i",
         "label": "Completed the Old Mosque and died here in 1421"
       },
       {
+        "title": "Mehmed II",
         "type": "person",
-        "slug": "murad-ii",
-        "label": "Built the Üç Şerefeli Mosque and died here in 1451"
+        "slug": "mehmed-ii",
+        "label": "Birthplace of Mehmed II"
       },
       {
-        "title": "Bayezid II",
+        "title": "Murad I",
         "type": "person",
-        "slug": "bayezid-ii",
-        "label": "Built the hospital complex across the Tunca"
+        "slug": "murad-i",
+        "label": "Took the city, probably about 1369, and ruled from it"
+      },
+      {
+        "title": "Samuel of Bulgaria",
+        "type": "person",
+        "slug": "samuel-of-bulgaria",
+        "label": "Plundered it in 1003"
       }
     ],
     "locations": [
-      {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Gebze",
-        "type": "location",
-        "slug": "gebze"
-      },
-      {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople"
-      },
-      {
-        "title": "Latin Empire",
-        "type": "location",
-        "slug": "latin-empire",
-        "label": "Lost the city and its emperor in 1205"
-      },
       {
         "title": "Bursa",
         "type": "location",
@@ -272,14 +250,42 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Held Adrianople until the 1360s"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople"
+      },
+      {
+        "title": "Gebze",
+        "type": "location",
+        "slug": "gebze"
+      },
+      {
+        "title": "Latin Empire",
+        "type": "location",
+        "slug": "latin-empire",
+        "label": "Lost the city and its emperor in 1205"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Containing realm"
       }
     ],
     "events": [
       {
-        "title": "Fourth Crusade",
+        "title": "Battle of Adrianople",
         "type": "event",
-        "slug": "fourth-crusade",
-        "label": "Brought the city under Latin rule"
+        "slug": "battle-of-adrianople",
+        "label": "Kaloyan's victory outside the walls, 1205"
+      },
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "After it, the capital of the divided state"
       },
       {
         "title": "Battle of Kosovo",
@@ -300,16 +306,10 @@
         "label": "Prepared from Edirne in 1451–1453"
       },
       {
-        "title": "Battle of Ankara",
+        "title": "Fourth Crusade",
         "type": "event",
-        "slug": "battle-of-ankara",
-        "label": "After it, the capital of the divided state"
-      },
-      {
-        "title": "Battle of Adrianople",
-        "type": "event",
-        "slug": "battle-of-adrianople",
-        "label": "Kaloyan's victory outside the walls, 1205"
+        "slug": "fourth-crusade",
+        "label": "Brought the city under Latin rule"
       }
     ],
     "houses": [

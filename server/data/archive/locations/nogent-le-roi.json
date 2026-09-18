@@ -86,12 +86,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Died here in 1350"
-      },
-      {
         "title": "John II of France",
         "type": "person",
         "slug": "john-ii-of-france",
@@ -102,20 +96,26 @@
         "type": "person",
         "slug": "philip-ii-of-france",
         "label": "Took the castle for the crown about 1203"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Died here in 1350"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Realm of Philip VI"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
         "slug": "duchy-of-normandy",
         "label": "The frontier this town faced"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Realm of Philip VI"
       },
       {
         "title": "Rouen",
@@ -125,12 +125,6 @@
       }
     ],
     "events": [
-      {
-        "title": "Hundred Years’ War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The war his succession began"
-      },
       {
         "title": "Battle of Crécy",
         "type": "event",
@@ -142,6 +136,12 @@
         "type": "event",
         "slug": "black-death-europe",
         "label": "Which struck France in his last years"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war his succession began"
       }
     ]
   },

@@ -257,16 +257,16 @@
         "label": "The king he crowned emperor in 800"
       },
       {
-        "title": "Louis the Pious",
-        "type": "person",
-        "slug": "louis-the-pious",
-        "label": "Emperor when Leo executed the conspirators of 815"
-      },
-      {
         "title": "Irene of Athens",
         "type": "person",
         "slug": "irene-of-athens",
         "label": "Her rule let the West call the imperial throne vacant"
+      },
+      {
+        "title": "Louis the Pious",
+        "type": "person",
+        "slug": "louis-the-pious",
+        "label": "Emperor when Leo executed the conspirators of 815"
       }
     ],
     "events": [
@@ -279,10 +279,10 @@
     ],
     "locations": [
       {
-        "title": "Rome",
+        "title": "Carolingian Empire",
         "type": "location",
-        "slug": "rome",
-        "label": "Birthplace, see and burial place"
+        "slug": "carolingian-empire",
+        "label": "The empire his coronation proclaimed"
       },
       {
         "title": "Papacy",
@@ -291,10 +291,10 @@
         "label": "Pope from 795 to 816"
       },
       {
-        "title": "Carolingian Empire",
+        "title": "Rome",
         "type": "location",
-        "slug": "carolingian-empire",
-        "label": "The empire his coronation proclaimed"
+        "slug": "rome",
+        "label": "Birthplace, see and burial place"
       }
     ],
     "artifacts": [

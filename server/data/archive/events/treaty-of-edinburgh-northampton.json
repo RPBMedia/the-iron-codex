@@ -117,12 +117,6 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The conflict this treaty was meant to end"
-      },
-      {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
@@ -139,21 +133,15 @@
         "type": "event",
         "slug": "battle-of-halidon-hill",
         "label": "Edward III overturns the settlement in 1333"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The conflict this treaty was meant to end"
       }
     ],
     "people": [
-      {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Sealed the treaty at Holyrood in March 1328"
-      },
-      {
-        "title": "Edward III of England",
-        "type": "person",
-        "slug": "edward-iii-of-england",
-        "label": "Bound by it as a minor; repudiated it by 1333"
-      },
       {
         "title": "David II of Scotland",
         "type": "person",
@@ -165,20 +153,32 @@
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Whose claim to overlordship the treaty renounced"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Bound by it as a minor; repudiated it by 1333"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Sealed the treaty at Holyrood in March 1328"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Recognised as independent in perpetuity"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Renounced its claim to overlordship"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Recognised as independent in perpetuity"
       }
     ]
   }

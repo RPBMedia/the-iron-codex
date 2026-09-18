@@ -111,6 +111,18 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Æthelred the Unready",
+        "type": "person",
+        "slug": "aethelred-the-unready",
+        "label": "Issued the Wantage Code here about 997"
+      },
+      {
+        "title": "Æthelwulf of Wessex",
+        "type": "person",
+        "slug": "aethelwulf-of-wessex",
+        "label": "Alfred’s father, who held the royal vill"
+      },
+      {
         "title": "Alfred the Great",
         "type": "person",
         "slug": "alfred-the-great",
@@ -121,32 +133,20 @@
         "type": "person",
         "slug": "ealhswith",
         "label": "Left the estate by Alfred’s will"
-      },
-      {
-        "title": "Æthelwulf of Wessex",
-        "type": "person",
-        "slug": "aethelwulf-of-wessex",
-        "label": "Alfred’s father, who held the royal vill"
-      },
-      {
-        "title": "Æthelred the Unready",
-        "type": "person",
-        "slug": "aethelred-the-unready",
-        "label": "Issued the Wantage Code here about 997"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Wessex",
-        "type": "location",
-        "slug": "kingdom-of-wessex",
-        "label": "Containing realm"
-      },
       {
         "title": "Danelaw",
         "type": "location",
         "slug": "danelaw",
         "label": "The country the Wantage Code was written for"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Containing realm"
       },
       {
         "title": "Winchester",

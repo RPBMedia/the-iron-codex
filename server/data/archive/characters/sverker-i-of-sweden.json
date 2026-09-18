@@ -137,29 +137,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "Realm"
-      },
-      {
         "title": "Alvastra",
         "type": "location",
         "slug": "alvastra",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "Inge the Elder",
-        "type": "person",
-        "slug": "inge-the-elder",
-        "label": "Ruler of Kingdom of Sweden"
-      },
-      {
         "title": "Eric IX of Sweden",
         "type": "person",
         "slug": "eric-ix-of-sweden",
+        "label": "Ruler of Kingdom of Sweden"
+      },
+      {
+        "title": "Inge the Elder",
+        "type": "person",
+        "slug": "inge-the-elder",
         "label": "Ruler of Kingdom of Sweden"
       }
     ]

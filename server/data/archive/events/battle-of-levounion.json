@@ -212,16 +212,16 @@
     ],
     "civilizations": [
       {
-        "title": "Pechenegs",
-        "type": "civilization",
-        "slug": "pechenegs",
-        "label": "Destroyed as a people here"
-      },
-      {
         "title": "Cumans",
         "type": "civilization",
         "slug": "cumans",
         "label": "Whose forty thousand horsemen decided it"
+      },
+      {
+        "title": "Pechenegs",
+        "type": "civilization",
+        "slug": "pechenegs",
+        "label": "Destroyed as a people here"
       }
     ]
   },

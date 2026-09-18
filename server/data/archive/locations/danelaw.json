@@ -183,12 +183,6 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Great Heathen Army",
-        "type": "event",
-        "slug": "great-heathen-army",
-        "label": "The army whose settlement created it"
-      },
-      {
         "title": "Battle of Edington",
         "type": "event",
         "slug": "battle-of-edington",
@@ -199,29 +193,29 @@
         "type": "event",
         "slug": "battle-of-tettenhall",
         "label": "The defeat that opened the Danelaw to reconquest, 910"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The army whose settlement created it"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of York",
-        "type": "location",
-        "slug": "kingdom-of-york",
-        "label": "Its northern kingdom"
-      },
       {
         "title": "Kingdom of East Anglia",
         "type": "location",
         "slug": "kingdom-of-east-anglia",
         "label": "Its eastern kingdom"
+      },
+      {
+        "title": "Kingdom of York",
+        "type": "location",
+        "slug": "kingdom-of-york",
+        "label": "Its northern kingdom"
       }
     ],
     "people": [
-      {
-        "title": "Guthrum",
-        "type": "person",
-        "slug": "guthrum",
-        "label": "Agreed its boundary with Alfred"
-      },
       {
         "type": "person",
         "slug": "alfred-the-great",
@@ -236,6 +230,12 @@
         "type": "person",
         "slug": "eric-bloodaxe",
         "label": "Last king of York"
+      },
+      {
+        "title": "Guthrum",
+        "type": "person",
+        "slug": "guthrum",
+        "label": "Agreed its boundary with Alfred"
       }
     ]
   }

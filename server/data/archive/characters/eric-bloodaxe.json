@@ -170,29 +170,29 @@
         "label": "Realm"
       },
       {
-        "title": "Stainmore",
-        "type": "location",
-        "slug": "stainmore",
-        "label": "Place of death"
-      },
-      {
         "title": "Kingdom of York",
         "type": "location",
         "slug": "kingdom-of-york",
         "label": "His kingdom"
+      },
+      {
+        "title": "Stainmore",
+        "type": "location",
+        "slug": "stainmore",
+        "label": "Place of death"
       }
     ],
     "people": [
       {
-        "title": "Harald Fairhair",
-        "type": "person",
-        "slug": "harald-fairhair",
-        "label": "Ruler of Kingdom of Norway"
-      },
-      {
         "title": "Haakon the Good",
         "type": "person",
         "slug": "haakon-the-good",
+        "label": "Ruler of Kingdom of Norway"
+      },
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
         "label": "Ruler of Kingdom of Norway"
       }
     ]

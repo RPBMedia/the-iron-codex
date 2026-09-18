@@ -169,6 +169,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Entered it in state in 1159"
+      },
+      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
@@ -179,40 +185,34 @@
         "type": "location",
         "slug": "constantinople",
         "label": "His capital"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Entered it in state in 1159"
       }
     ],
     "people": [
-      {
-        "title": "John II Komnenos",
-        "type": "person",
-        "slug": "john-ii-komnenos",
-        "label": "His father and predecessor"
-      },
       {
         "title": "Alexios I Komnenos",
         "type": "person",
         "slug": "alexios-i-komnenos",
         "label": "His grandfather, founder of the Komnenian dynasty"
+      },
+      {
+        "title": "John II Komnenos",
+        "type": "person",
+        "slug": "john-ii-komnenos",
+        "label": "His father and predecessor"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Sirmium",
-        "type": "event",
-        "slug": "battle-of-sirmium",
-        "label": "Won in his name by Andronikos Kontostephanos, in his absence"
-      },
       {
         "title": "Battle of Myriokephalon",
         "type": "event",
         "slug": "battle-of-myriokephalon",
         "label": "His defeat in the pass, which he compared to Manzikert"
+      },
+      {
+        "title": "Battle of Sirmium",
+        "type": "event",
+        "slug": "battle-of-sirmium",
+        "label": "Won in his name by Andronikos Kontostephanos, in his absence"
       }
     ]
   },

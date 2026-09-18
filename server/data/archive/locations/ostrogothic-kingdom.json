@@ -178,10 +178,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Totila",
+        "title": "Belisarius",
         "type": "person",
-        "slug": "totila",
-        "label": "The king who nearly saved it"
+        "slug": "belisarius",
+        "label": "Who took Rome and Ravenna from it"
       },
       {
         "title": "Teias",
@@ -190,19 +190,13 @@
         "label": "Its last king"
       },
       {
-        "title": "Belisarius",
+        "title": "Totila",
         "type": "person",
-        "slug": "belisarius",
-        "label": "Who took Rome and Ravenna from it"
+        "slug": "totila",
+        "label": "The king who nearly saved it"
       }
     ],
     "events": [
-      {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "The war that destroyed it"
-      },
       {
         "title": "Battle of Taginae",
         "type": "event",
@@ -214,6 +208,12 @@
         "type": "event",
         "slug": "fall-of-western-rome",
         "label": "The deposition of 476 that left Italy to be ruled by its generals"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war that destroyed it"
       }
     ],
     "locations": [

@@ -119,6 +119,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne",
+        "label": "The kingdom become empire"
+      },
+      {
         "title": "Charles Martel",
         "type": "person",
         "slug": "charles-martel",
@@ -129,12 +135,6 @@
         "type": "person",
         "slug": "pepin-the-short",
         "label": "The anointed founder-king"
-      },
-      {
-        "title": "Charlemagne",
-        "type": "person",
-        "slug": "charlemagne",
-        "label": "The kingdom become empire"
       }
     ],
     "locations": [

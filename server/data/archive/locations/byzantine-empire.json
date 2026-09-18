@@ -29,20 +29,15 @@
         "slug": "alexios-i-komnenos"
       },
       {
-        "title": "Romanos IV Diogenes",
+        "title": "Basil II",
         "type": "person",
-        "slug": "romanos-iv-diogenes"
+        "slug": "basil-ii",
+        "label": "Emperor 976–1025; the longest reign in Byzantine history"
       },
       {
         "title": "Constantine XI Palaiologos",
         "type": "person",
         "slug": "constantine-xi-palaiologos"
-      },
-      {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "The conqueror"
       },
       {
         "title": "Heraclius",
@@ -57,25 +52,72 @@
         "label": "Emperor 717–741; held the city and began iconoclasm"
       },
       {
-        "title": "Nikephoros II Phokas",
+        "title": "Mehmed II",
         "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "Emperor 963–969; took Crete, Cilicia, Cyprus and Antioch"
-      },
-      {
-        "title": "Basil II",
-        "type": "person",
-        "slug": "basil-ii",
-        "label": "Emperor 976–1025; the longest reign in Byzantine history"
+        "slug": "mehmed-ii",
+        "label": "The conqueror"
       },
       {
         "title": "Michael VIII Palaiologos",
         "type": "person",
         "slug": "michael-viii-palaiologos",
         "label": "Recovered Constantinople and founded the last dynasty"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Emperor 963–969; took Crete, Cilicia, Cyprus and Antioch"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes"
       }
     ],
     "locations": [
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Its eastern adversary from 750 to the eleventh century"
+      },
+      {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Its eastern capital from 969 to 1084"
+      },
+      {
+        "title": "Avar Khaganate",
+        "type": "location",
+        "slug": "avar-khaganate",
+        "label": "The steppe power it paid tribute to for fifty years"
+      },
+      {
+        "title": "Emirate of Crete",
+        "type": "location",
+        "slug": "emirate-of-crete",
+        "label": "The corsair state that held its Aegean for 135 years"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Its European rival for three and a half centuries"
+      },
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "Its last organised opponent in northern Syria"
+      },
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "The commonwealth's northern convert"
+      },
       {
         "title": "Ottoman Empire",
         "type": "location",
@@ -87,55 +129,49 @@
         "type": "location",
         "slug": "seljuk-turks",
         "label": "Manzikert's victors"
-      },
-      {
-        "title": "Kievan Rus'",
-        "type": "location",
-        "slug": "kievan-rus",
-        "label": "The commonwealth's northern convert"
-      },
-      {
-        "title": "Avar Khaganate",
-        "type": "location",
-        "slug": "avar-khaganate",
-        "label": "The steppe power it paid tribute to for fifty years"
-      },
-      {
-        "title": "Abbasid Caliphate",
-        "type": "location",
-        "slug": "abbasid-caliphate",
-        "label": "Its eastern adversary from 750 to the eleventh century"
-      },
-      {
-        "title": "Emirate of Crete",
-        "type": "location",
-        "slug": "emirate-of-crete",
-        "label": "The corsair state that held its Aegean for 135 years"
-      },
-      {
-        "title": "Hamdanid Emirate of Aleppo",
-        "type": "location",
-        "slug": "hamdanid-emirate-of-aleppo",
-        "label": "Its last organised opponent in northern Syria"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Its eastern capital from 969 to 1084"
-      },
-      {
-        "title": "First Bulgarian Empire",
-        "type": "location",
-        "slug": "first-bulgarian-empire",
-        "label": "Its European rival for three and a half centuries"
       }
     ],
     "events": [
       {
+        "title": "Battle of Akroinon",
+        "type": "event",
+        "slug": "battle-of-akroinon",
+        "label": "The last great Umayyad invasion of Anatolia, destroyed in 740"
+      },
+      {
+        "title": "Battle of Kleidion",
+        "type": "event",
+        "slug": "battle-of-kleidion",
+        "label": "Where the Bulgarian war was decided, in 1014"
+      },
+      {
+        "title": "Battle of Lalakaon",
+        "type": "event",
+        "slug": "battle-of-lalakaon",
+        "label": "Where the eastern frontier turned in its favour, in 863"
+      },
+      {
+        "title": "Battle of Levounion",
+        "type": "event",
+        "slug": "battle-of-levounion",
+        "label": "Where the Pechenegs were destroyed in 1091"
+      },
+      {
         "title": "Battle of Manzikert",
         "type": "event",
         "slug": "battle-of-manzikert"
+      },
+      {
+        "title": "Battle of Nineveh",
+        "type": "event",
+        "slug": "battle-of-nineveh",
+        "label": "The victory that saved the empire from Persia in 627"
+      },
+      {
+        "title": "Battle of Sirmium",
+        "type": "event",
+        "slug": "battle-of-sirmium",
+        "label": "Its greatest European extent since the eleventh century"
       },
       {
         "title": "Fall of Constantinople",
@@ -143,10 +179,28 @@
         "slug": "fall-of-constantinople"
       },
       {
-        "title": "Battle of Nineveh",
+        "title": "Fall of the Western Roman Empire",
         "type": "event",
-        "slug": "battle-of-nineveh",
-        "label": "The victory that saved the empire from Persia in 627"
+        "slug": "fall-of-western-rome",
+        "label": "The western half ends in 476; this archive follows the half that did not"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "Where the empire was restored in 1261 after fifty-seven years"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "The high-water mark of the eastern reconquest, in 969"
+      },
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "Where the reconquest of the tenth century began, in 961"
       },
       {
         "title": "Siege of Constantinople (626)",
@@ -159,60 +213,6 @@
         "type": "event",
         "slug": "siege-of-constantinople-717",
         "label": "The twelve-month Umayyad siege it survived in 717–718"
-      },
-      {
-        "title": "Battle of Akroinon",
-        "type": "event",
-        "slug": "battle-of-akroinon",
-        "label": "The last great Umayyad invasion of Anatolia, destroyed in 740"
-      },
-      {
-        "title": "Battle of Lalakaon",
-        "type": "event",
-        "slug": "battle-of-lalakaon",
-        "label": "Where the eastern frontier turned in its favour, in 863"
-      },
-      {
-        "title": "Siege of Chandax",
-        "type": "event",
-        "slug": "siege-of-chandax",
-        "label": "Where the reconquest of the tenth century began, in 961"
-      },
-      {
-        "title": "Siege of Antioch (969)",
-        "type": "event",
-        "slug": "siege-of-antioch-969",
-        "label": "The high-water mark of the eastern reconquest, in 969"
-      },
-      {
-        "title": "Battle of Kleidion",
-        "type": "event",
-        "slug": "battle-of-kleidion",
-        "label": "Where the Bulgarian war was decided, in 1014"
-      },
-      {
-        "title": "Battle of Levounion",
-        "type": "event",
-        "slug": "battle-of-levounion",
-        "label": "Where the Pechenegs were destroyed in 1091"
-      },
-      {
-        "title": "Battle of Sirmium",
-        "type": "event",
-        "slug": "battle-of-sirmium",
-        "label": "Its greatest European extent since the eleventh century"
-      },
-      {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "Where the empire was restored in 1261 after fifty-seven years"
-      },
-      {
-        "title": "Fall of the Western Roman Empire",
-        "type": "event",
-        "slug": "fall-of-western-rome",
-        "label": "The western half ends in 476; this archive follows the half that did not"
       }
     ]
   },

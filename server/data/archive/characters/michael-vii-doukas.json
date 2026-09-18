@@ -145,16 +145,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Romanos IV Diogenes",
-        "type": "person",
-        "slug": "romanos-iv-diogenes",
-        "label": "Stepfather, destroyed by Michael's faction"
-      },
-      {
         "title": "Constantine X Doukas",
         "type": "person",
         "slug": "constantine-x-doukas",
         "label": "Father"
+      },
+      {
+        "title": "Eudokia Makrembolitissa",
+        "type": "person",
+        "slug": "eudokia-makrembolitissa",
+        "label": "Mother"
       },
       {
         "title": "Nikephoros III Botaneiates",
@@ -163,10 +163,10 @@
         "label": "Successor by revolt"
       },
       {
-        "title": "Eudokia Makrembolitissa",
+        "title": "Romanos IV Diogenes",
         "type": "person",
-        "slug": "eudokia-makrembolitissa",
-        "label": "Mother"
+        "slug": "romanos-iv-diogenes",
+        "label": "Stepfather, destroyed by Michael's faction"
       }
     ],
     "locations": [

@@ -103,12 +103,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Mortally wounded here in March 1199"
-      },
-      {
         "title": "Eleanor of Aquitaine",
         "type": "person",
         "slug": "eleanor-of-aquitaine",
@@ -125,6 +119,12 @@
         "type": "person",
         "slug": "philip-ii-of-france",
         "label": "Took Normandy and Anjou within five years of it"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Mortally wounded here in March 1199"
       }
     ],
     "locations": [

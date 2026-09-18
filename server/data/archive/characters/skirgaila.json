@@ -172,16 +172,16 @@
     ],
     "people": [
       {
-        "title": "Władysław II Jagiełło",
-        "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
-        "label": "His brother, for whom he ruled Lithuania"
-      },
-      {
         "title": "Vytautas",
         "type": "person",
         "slug": "vytautas",
         "label": "His rival and successor"
+      },
+      {
+        "title": "Władysław II Jagiełło",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "His brother, for whom he ruled Lithuania"
       }
     ],
     "events": []

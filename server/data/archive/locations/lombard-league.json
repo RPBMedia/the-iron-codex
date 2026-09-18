@@ -126,30 +126,30 @@
         "label": "The claim resisted"
       },
       {
-        "title": "Papacy",
-        "type": "location",
-        "slug": "papacy",
-        "label": "Alexander III's alliance"
-      },
-      {
         "title": "Legnano",
         "type": "location",
         "slug": "legnano",
         "label": "The battlefield"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Alexander III's alliance"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Legnano",
-        "type": "event",
-        "slug": "battle-of-legnano",
-        "label": "1176"
-      },
       {
         "title": "Battle of Cortenuova",
         "type": "event",
         "slug": "battle-of-cortenuova",
         "label": "1237 — the League army broken and the carroccio taken"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano",
+        "label": "1176"
       }
     ]
   },

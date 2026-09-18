@@ -169,29 +169,29 @@
         "label": "Place of death"
       },
       {
-        "title": "Winchester Cathedral",
-        "type": "location",
-        "slug": "winchester-cathedral",
-        "label": "Where he was buried, among the kings of Wessex he had displaced"
-      },
-      {
         "title": "Winchester",
         "type": "location",
         "slug": "winchester",
         "label": "Buried here in 1035"
+      },
+      {
+        "title": "Winchester Cathedral",
+        "type": "location",
+        "slug": "winchester-cathedral",
+        "label": "Where he was buried, among the kings of Wessex he had displaced"
       }
     ],
     "people": [
-      {
-        "title": "Sweyn Forkbeard",
-        "type": "person",
-        "slug": "sweyn-forkbeard"
-      },
       {
         "title": "Emma of Normandy",
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "Wife"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard"
       }
     ],
     "weaponsArmor": [

@@ -134,9 +134,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
+        "title": "Antioch",
         "type": "location",
-        "slug": "kingdom-of-jerusalem"
+        "slug": "antioch",
+        "label": "His principality"
       },
       {
         "title": "Byzantine Empire",
@@ -144,15 +145,14 @@
         "slug": "byzantine-empire"
       },
       {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
+      },
+      {
         "title": "Seljuk Turks",
         "type": "location",
         "slug": "seljuk-turks"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "His principality"
       }
     ]
   },

@@ -91,16 +91,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Magna Carta Sealed",
-        "type": "event",
-        "slug": "magna-carta",
-        "label": "The 1215 sealing this document records"
-      },
-      {
         "title": "Battle of Bouvines",
         "type": "event",
         "slug": "battle-of-bouvines",
         "label": "John's defeat that forced the charter"
+      },
+      {
+        "title": "Magna Carta Sealed",
+        "type": "event",
+        "slug": "magna-carta",
+        "label": "The 1215 sealing this document records"
       }
     ],
     "locations": [

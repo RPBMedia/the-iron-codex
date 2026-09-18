@@ -192,10 +192,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The harness it completes"
+        "title": "Arm Harness",
+        "slug": "arm-harness",
+        "label": "What the gauntlet cuff runs into",
+        "type": "weaponArmor"
       },
       {
         "title": "Gothic Plate Armor",
@@ -204,16 +204,22 @@
         "label": "German gauntlets follow its fluted, pointed style"
       },
       {
+        "title": "Longsword",
+        "type": "weaponArmor",
+        "slug": "longsword",
+        "label": "Half-swording is only possible in gauntlets"
+      },
+      {
         "title": "Mail Armor",
         "type": "weaponArmor",
         "slug": "mail-armor",
         "label": "Mail mittens were the earlier solution"
       },
       {
-        "title": "Longsword",
+        "title": "Plate Armor",
         "type": "weaponArmor",
-        "slug": "longsword",
-        "label": "Half-swording is only possible in gauntlets"
+        "slug": "plate-armor",
+        "label": "The harness it completes"
       },
       {
         "title": "Poleaxe",
@@ -226,12 +232,6 @@
         "type": "weaponArmor",
         "slug": "rondel-dagger",
         "label": "Drawn and used with gauntlets on"
-      },
-      {
-        "title": "Arm Harness",
-        "slug": "arm-harness",
-        "label": "What the gauntlet cuff runs into",
-        "type": "weaponArmor"
       }
     ]
   },

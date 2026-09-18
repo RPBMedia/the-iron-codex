@@ -137,16 +137,16 @@
     ],
     "events": [
       {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "The war it decided"
-      },
-      {
         "title": "Battle of Mons Lactarius",
         "type": "event",
         "slug": "battle-of-mons-lactarius",
         "label": "The battle that followed"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it decided"
       }
     ],
     "locations": [

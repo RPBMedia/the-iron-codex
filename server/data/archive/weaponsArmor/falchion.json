@@ -102,9 +102,9 @@
         "slug": "arming-sword"
       },
       {
-        "title": "Seax",
+        "title": "Buckler",
         "type": "weaponArmor",
-        "slug": "seax"
+        "slug": "buckler"
       },
       {
         "title": "Dagger / Rondel Dagger",
@@ -112,15 +112,15 @@
         "slug": "rondel-dagger"
       },
       {
-        "title": "Buckler",
-        "type": "weaponArmor",
-        "slug": "buckler"
-      },
-      {
         "title": "Messer",
         "slug": "messer",
         "label": "The German parallel, built like a knife",
         "type": "weaponArmor"
+      },
+      {
+        "title": "Seax",
+        "type": "weaponArmor",
+        "slug": "seax"
       }
     ],
     "events": [

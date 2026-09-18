@@ -154,25 +154,19 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Commander"
-      },
-      {
         "title": "Constantine XI Palaiologos",
         "type": "person",
         "slug": "constantine-xi-palaiologos",
         "label": "Commander"
+      },
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Commander"
       }
     ],
     "locations": [
-      {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Combatant faction"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -190,6 +184,12 @@
         "type": "location",
         "slug": "edirne",
         "label": "Where the siege was prepared"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Combatant faction"
       }
     ],
     "events": [

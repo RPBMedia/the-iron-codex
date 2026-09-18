@@ -164,6 +164,24 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Gutierre-Munoz",
+        "type": "location",
+        "slug": "gutierre-munoz",
+        "label": "Where she was proclaimed queen in 1474"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "United with Castile through her marriage"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Queen of Castile in her own right"
+      },
+      {
         "title": "Madrigal de las Altas Torres",
         "type": "location",
         "slug": "madrigal-de-las-altas-torres",
@@ -174,24 +192,6 @@
         "type": "location",
         "slug": "medina-del-campo",
         "label": "Place of death"
-      },
-      {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "Queen of Castile in her own right"
-      },
-      {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "United with Castile through her marriage"
-      },
-      {
-        "title": "Gutierre-Munoz",
-        "type": "location",
-        "slug": "gutierre-munoz",
-        "label": "Where she was proclaimed queen in 1474"
       }
     ],
     "events": [

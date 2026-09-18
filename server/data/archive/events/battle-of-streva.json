@@ -180,16 +180,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Rudau",
-        "type": "event",
-        "slug": "battle-of-rudau",
-        "label": "The war’s other pitched battle, 1370"
-      },
-      {
         "title": "Battle of Durbe",
         "type": "event",
         "slug": "battle-of-durbe",
         "label": "The earlier disaster in the same Samogitian war"
+      },
+      {
+        "title": "Battle of Rudau",
+        "type": "event",
+        "slug": "battle-of-rudau",
+        "label": "The war’s other pitched battle, 1370"
       }
     ],
     "orders": [

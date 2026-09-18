@@ -110,6 +110,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Combatant faction"
+      },
+      {
         "title": "Legnano",
         "type": "location",
         "slug": "legnano",
@@ -120,25 +126,19 @@
         "type": "location",
         "slug": "lombard-league",
         "label": "Combatant faction"
-      },
-      {
-        "title": "Holy Roman Empire",
-        "type": "location",
-        "slug": "holy-roman-empire",
-        "label": "Combatant faction"
       }
     ],
     "people": [
       {
-        "title": "Guido da Landriano",
-        "type": "person",
-        "slug": "guido-da-landriano",
-        "label": "Commander"
-      },
-      {
         "title": "Frederick I Barbarossa",
         "type": "person",
         "slug": "frederick-i-barbarossa",
+        "label": "Commander"
+      },
+      {
+        "title": "Guido da Landriano",
+        "type": "person",
+        "slug": "guido-da-landriano",
         "label": "Commander"
       }
     ],

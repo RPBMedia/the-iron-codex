@@ -161,16 +161,16 @@
     ],
     "locations": [
       {
-        "title": "Lombard League",
-        "type": "location",
-        "slug": "lombard-league",
-        "label": "The defeated alliance"
-      },
-      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
         "label": "The imperial claim being enforced"
+      },
+      {
+        "title": "Lombard League",
+        "type": "location",
+        "slug": "lombard-league",
+        "label": "The defeated alliance"
       },
       {
         "title": "Papacy",

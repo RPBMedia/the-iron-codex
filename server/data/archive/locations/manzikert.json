@@ -92,12 +92,6 @@
     ],
     "people": [
       {
-        "title": "Romanos IV Diogenes",
-        "type": "person",
-        "slug": "romanos-iv-diogenes",
-        "label": "Captured here in 1071"
-      },
-      {
         "title": "Alp Arslan",
         "type": "person",
         "slug": "alp-arslan",
@@ -108,6 +102,12 @@
         "type": "person",
         "slug": "basil-ii",
         "label": "Ruled during the eastward expansion that absorbed the town"
+      },
+      {
+        "title": "Romanos IV Diogenes",
+        "type": "person",
+        "slug": "romanos-iv-diogenes",
+        "label": "Captured here in 1071"
       }
     ],
     "locations": [
@@ -118,16 +118,16 @@
         "label": "Held the town from 1001"
       },
       {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks",
-        "label": "Took the town in 1071"
-      },
-      {
         "title": "Proti",
         "type": "location",
         "slug": "proti",
         "label": "Where the defeated emperor died in exile"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Took the town in 1071"
       }
     ]
   },

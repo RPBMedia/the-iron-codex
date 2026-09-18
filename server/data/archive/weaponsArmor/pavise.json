@@ -89,24 +89,15 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Arquebus",
+        "type": "weaponArmor",
+        "slug": "arquebus",
+        "label": "Handgunners loaded behind it and fired across it"
+      },
+      {
         "title": "Crossbow",
         "type": "weaponArmor",
         "slug": "crossbow"
-      },
-      {
-        "title": "Kettle Hat / Kettle Helm",
-        "type": "weaponArmor",
-        "slug": "kettle-hat"
-      },
-      {
-        "title": "Shield",
-        "type": "weaponArmor",
-        "slug": "shield"
-      },
-      {
-        "title": "Longbow",
-        "type": "weaponArmor",
-        "slug": "longbow"
       },
       {
         "title": "Hand Cannon",
@@ -115,22 +106,31 @@
         "label": "Handgunners sheltered behind it too"
       },
       {
-        "title": "Arquebus",
+        "title": "Kettle Hat / Kettle Helm",
         "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "Handgunners loaded behind it and fired across it"
+        "slug": "kettle-hat"
+      },
+      {
+        "title": "Longbow",
+        "type": "weaponArmor",
+        "slug": "longbow"
+      },
+      {
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield"
       }
     ],
     "events": [
       {
-        "title": "Battle of Crécy",
-        "type": "event",
-        "slug": "battle-of-crecy"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
       }
     ]
   },

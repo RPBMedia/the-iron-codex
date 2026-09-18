@@ -191,16 +191,16 @@
         "label": "The realm he defended"
       },
       {
-        "title": "Trakai",
-        "type": "location",
-        "slug": "trakai",
-        "label": "His seat and duchy"
-      },
-      {
         "title": "Senieji Trakai",
         "type": "location",
         "slug": "senieji-trakai",
         "label": "The older seat of his duchy"
+      },
+      {
+        "title": "Trakai",
+        "type": "location",
+        "slug": "trakai",
+        "label": "His seat and duchy"
       }
     ],
     "people": [
@@ -247,16 +247,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Strėva",
-        "type": "event",
-        "slug": "battle-of-streva",
-        "label": "The 1348 defeat in which his brother Narimantas was killed"
-      },
-      {
         "title": "Battle of Rudau",
         "type": "event",
         "slug": "battle-of-rudau",
         "label": "The Order’s costliest victory over him, 1370"
+      },
+      {
+        "title": "Battle of Strėva",
+        "type": "event",
+        "slug": "battle-of-streva",
+        "label": "The 1348 defeat in which his brother Narimantas was killed"
       }
     ]
   },

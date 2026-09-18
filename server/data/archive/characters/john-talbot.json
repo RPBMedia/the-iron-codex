@@ -183,16 +183,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Patay",
-        "type": "event",
-        "slug": "battle-of-patay",
-        "label": "Captured here, 1429"
-      },
-      {
         "title": "Battle of Castillon",
         "type": "event",
         "slug": "battle-of-castillon",
         "label": "Killed here, 1453"
+      },
+      {
+        "title": "Battle of Patay",
+        "type": "event",
+        "slug": "battle-of-patay",
+        "label": "Captured here, 1429"
       },
       {
         "title": "Hundred Years' War",
@@ -203,16 +203,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "The realm he fought across for thirty years"
-      },
-      {
         "title": "Gascony",
         "type": "location",
         "slug": "gascony",
         "label": "Died trying to hold it, 1453"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The realm he fought across for thirty years"
       }
     ]
   },

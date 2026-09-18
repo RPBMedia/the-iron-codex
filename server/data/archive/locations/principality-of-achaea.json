@@ -138,10 +138,10 @@
     ],
     "locations": [
       {
-        "title": "Latin Empire",
+        "title": "Crusader States",
         "type": "location",
-        "slug": "latin-empire",
-        "label": "Its nominal overlord, which it outlived"
+        "slug": "crusader-states",
+        "label": "The wider world of Latin conquest it belonged to"
       },
       {
         "title": "Empire of Nicaea",
@@ -150,10 +150,10 @@
         "label": "Whose victory cost it Mystras"
       },
       {
-        "title": "Crusader States",
+        "title": "Latin Empire",
         "type": "location",
-        "slug": "crusader-states",
-        "label": "The wider world of Latin conquest it belonged to"
+        "slug": "latin-empire",
+        "label": "Its nominal overlord, which it outlived"
       }
     ]
   },

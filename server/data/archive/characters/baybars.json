@@ -134,14 +134,21 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Destroyed it in 1268"
+      },
+      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate"
       },
       {
-        "title": "Seljuk Turks",
+        "title": "Kerak",
         "type": "location",
-        "slug": "seljuk-turks"
+        "slug": "kerak",
+        "label": "Fortress he took from the last Ayyubid prince in 1263"
       },
       {
         "title": "Kingdom of Jerusalem",
@@ -149,23 +156,17 @@
         "slug": "kingdom-of-jerusalem"
       },
       {
-        "title": "Antioch",
+        "title": "Seljuk Turks",
         "type": "location",
-        "slug": "antioch",
-        "label": "Destroyed it in 1268"
-      },
-      {
-        "title": "Kerak",
-        "type": "location",
-        "slug": "kerak",
-        "label": "Fortress he took from the last Ayyubid prince in 1263"
+        "slug": "seljuk-turks"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
+        "title": "Battle of Ain Jalut",
         "type": "event",
-        "slug": "third-crusade"
+        "slug": "battle-of-ain-jalut",
+        "label": "Commanded the vanguard that drew in Kitbuqa"
       },
       {
         "title": "Battle of La Forbie",
@@ -180,10 +181,9 @@
         "label": "Led the mamluks who destroyed the crusader vanguard"
       },
       {
-        "title": "Battle of Ain Jalut",
+        "title": "Third Crusade",
         "type": "event",
-        "slug": "battle-of-ain-jalut",
-        "label": "Commanded the vanguard that drew in Kitbuqa"
+        "slug": "third-crusade"
       }
     ]
   },

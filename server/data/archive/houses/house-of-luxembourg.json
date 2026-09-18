@@ -150,16 +150,16 @@
     ],
     "houses": [
       {
-        "title": "House of Wittelsbach",
-        "type": "house",
-        "slug": "house-of-wittelsbach",
-        "label": "The imperial house it displaced under Charles IV"
-      },
-      {
         "title": "House of Valois",
         "type": "house",
         "slug": "house-of-valois",
         "label": "The French royal house John the Blind died serving at Crécy"
+      },
+      {
+        "title": "House of Wittelsbach",
+        "type": "house",
+        "slug": "house-of-wittelsbach",
+        "label": "The imperial house it displaced under Charles IV"
       }
     ]
   },

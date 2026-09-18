@@ -127,24 +127,24 @@
         "label": "Fought on this ground, 23–24 June 1314"
       },
       {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war the battle turned"
-      },
-      {
         "title": "Battle of Stirling Bridge",
         "type": "event",
         "slug": "battle-of-stirling-bridge",
         "label": "Fought for the same Forth crossing in 1297"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war the battle turned"
       }
     ],
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "Aymer de Valence",
         "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Chose the ground and commanded here"
+        "slug": "aymer-de-valence",
+        "label": "Led Edward II from the field"
       },
       {
         "title": "Edward II of England",
@@ -153,24 +153,24 @@
         "label": "Lost his army here and fled the field"
       },
       {
-        "title": "Aymer de Valence",
+        "title": "Robert the Bruce",
         "type": "person",
-        "slug": "aymer-de-valence",
-        "label": "Led Edward II from the field"
+        "slug": "robert-the-bruce",
+        "label": "Chose the ground and commanded here"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Containing realm"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Combatant here"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Containing realm"
       }
     ]
   },

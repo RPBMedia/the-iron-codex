@@ -156,16 +156,16 @@
     ],
     "people": [
       {
-        "title": "Hugh Capet",
-        "type": "person",
-        "slug": "hugh-capet",
-        "label": "Elected king on his death, founding the Capetians"
-      },
-      {
         "title": "Charlemagne",
         "type": "person",
         "slug": "charlemagne",
         "label": "His ancestor, founder of the Carolingian line"
+      },
+      {
+        "title": "Hugh Capet",
+        "type": "person",
+        "slug": "hugh-capet",
+        "label": "Elected king on his death, founding the Capetians"
       }
     ],
     "events": []

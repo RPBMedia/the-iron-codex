@@ -194,30 +194,30 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "The crown the order served"
-      },
-      {
         "title": "Al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim frontier it guarded"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "The crown the order served"
       }
     ],
     "orders": [
-      {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "Whose Valencian lands it inherited"
-      },
       {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "The rival heir the crown wished to avoid"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Whose Valencian lands it inherited"
       },
       {
         "title": "Order of Calatrava",

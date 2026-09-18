@@ -72,10 +72,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Magnus III of Sweden",
+        "title": "Charles VII Sverkersson",
         "type": "person",
-        "slug": "magnus-iii-of-sweden",
-        "label": "Died on the island in 1290"
+        "slug": "charles-vii-sverkersson",
+        "label": "Killed on the island in 1167"
       },
       {
         "title": "Erik Knutsson",
@@ -90,30 +90,30 @@
         "label": "Died at Näs in 1222"
       },
       {
-        "title": "Charles VII Sverkersson",
-        "type": "person",
-        "slug": "charles-vii-sverkersson",
-        "label": "Killed on the island in 1167"
-      },
-      {
         "title": "Knut Eriksson",
         "type": "person",
         "slug": "knut-eriksson",
         "label": "Took the throne after the killing of 1167"
+      },
+      {
+        "title": "Magnus III of Sweden",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden",
+        "label": "Died on the island in 1290"
       }
     ],
     "locations": [
-      {
-        "title": "Nas Castle",
-        "type": "location",
-        "slug": "nas-castle",
-        "label": "The royal castle on this island"
-      },
       {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Containing realm"
+      },
+      {
+        "title": "Nas Castle",
+        "type": "location",
+        "slug": "nas-castle",
+        "label": "The royal castle on this island"
       },
       {
         "title": "Stockholm",

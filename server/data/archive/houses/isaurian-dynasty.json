@@ -215,30 +215,30 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Leo III",
-        "type": "person",
-        "slug": "leo-iii-the-isaurian",
-        "label": "Founder of the dynasty"
-      },
-      {
         "title": "Constantine V",
         "type": "person",
         "slug": "constantine-v",
         "label": "Its best soldier and most committed iconoclast"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Founder of the dynasty"
       }
     ],
     "events": [
-      {
-        "title": "Siege of Constantinople (717–718)",
-        "type": "event",
-        "slug": "siege-of-constantinople-717",
-        "label": "The siege it was founded on surviving"
-      },
       {
         "title": "Battle of Akroinon",
         "type": "event",
         "slug": "battle-of-akroinon",
         "label": "Father and son fighting together in 740"
+      },
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The siege it was founded on surviving"
       }
     ],
     "locations": [

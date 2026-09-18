@@ -199,6 +199,12 @@
   "relatedEntries": {
     "events": [
       {
+        "title": "Battle of Legnica",
+        "type": "event",
+        "slug": "battle-of-legnica",
+        "label": "The same encounter in Poland, weeks earlier"
+      },
+      {
         "title": "Battle of Manzikert",
         "type": "event",
         "slug": "battle-of-manzikert",
@@ -209,12 +215,6 @@
         "type": "event",
         "slug": "battle-of-mohi",
         "label": "Steppe lamellar met European mail"
-      },
-      {
-        "title": "Battle of Legnica",
-        "type": "event",
-        "slug": "battle-of-legnica",
-        "label": "The same encounter in Poland, weeks earlier"
       }
     ],
     "locations": [
@@ -233,10 +233,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Mail Armor",
+        "title": "Brigandine",
         "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "The Western answer to the same problem"
+        "slug": "brigandine",
+        "label": "Many small plates in a flexible assembly"
       },
       {
         "title": "Coat of Plates",
@@ -245,10 +245,10 @@
         "label": "Western armour reaching a similar answer"
       },
       {
-        "title": "Brigandine",
+        "title": "Mail Armor",
         "type": "weaponArmor",
-        "slug": "brigandine",
-        "label": "Many small plates in a flexible assembly"
+        "slug": "mail-armor",
+        "label": "The Western answer to the same problem"
       },
       {
         "title": "War Bow",

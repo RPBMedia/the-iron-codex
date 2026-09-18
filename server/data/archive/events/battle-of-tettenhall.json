@@ -206,16 +206,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Edward the Elder",
-        "type": "person",
-        "slug": "edward-the-elder",
-        "label": "Ordered the campaign; the Chronicle places him in Kent"
-      },
-      {
         "title": "Æthelstan",
         "type": "person",
         "slug": "aethelstan",
         "label": "His grandson, who took York in 927"
+      },
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Ordered the campaign; the Chronicle places him in Kent"
       }
     ],
     "locations": [
@@ -234,16 +234,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Edington",
-        "type": "event",
-        "slug": "battle-of-edington",
-        "label": "The victory of Edward's father that saved Wessex, 878"
-      },
-      {
         "title": "Battle of Brunanburh",
         "type": "event",
         "slug": "battle-of-brunanburh",
         "label": "The defence of the united kingdom, 937"
+      },
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "The victory of Edward's father that saved Wessex, 878"
       },
       {
         "title": "Battle of Heavenfield",

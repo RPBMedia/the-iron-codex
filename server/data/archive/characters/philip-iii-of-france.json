@@ -142,16 +142,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Father and predecessor"
-      },
-      {
         "title": "Charles of Anjou",
         "type": "person",
         "slug": "charles-of-anjou",
         "label": "Uncle, whose Sicilian empire dragged France into the Aragonese war"
+      },
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Father and predecessor"
       },
       {
         "title": "Philip II of France",
@@ -162,15 +162,15 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france"
-      },
-      {
         "title": "Chateau de Vincennes",
         "type": "location",
         "slug": "chateau-de-vincennes",
         "label": "Where he married in 1274"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
       }
     ],
     "events": []

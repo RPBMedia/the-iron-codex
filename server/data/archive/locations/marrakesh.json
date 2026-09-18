@@ -132,16 +132,16 @@
         "label": "Death of Muhammad al-Nasir"
       },
       {
-        "title": "Yusuf ibn Tashfin",
-        "type": "person",
-        "slug": "yusuf-ibn-tashfin",
-        "label": "Made it his capital"
-      },
-      {
         "title": "Yaqub al-Mansur",
         "type": "person",
         "slug": "yaqub-al-mansur",
         "label": "Built its kasbah"
+      },
+      {
+        "title": "Yusuf ibn Tashfin",
+        "type": "person",
+        "slug": "yusuf-ibn-tashfin",
+        "label": "Made it his capital"
       }
     ],
     "locations": [
@@ -173,16 +173,16 @@
     ],
     "houses": [
       {
-        "title": "Almoravid dynasty",
-        "type": "house",
-        "slug": "almoravid-dynasty",
-        "label": "Founded the city about 1070"
-      },
-      {
         "title": "Almohad dynasty",
         "type": "house",
         "slug": "almohad-dynasty",
         "label": "Ruled from the city, 1147–1269"
+      },
+      {
+        "title": "Almoravid dynasty",
+        "type": "house",
+        "slug": "almoravid-dynasty",
+        "label": "Founded the city about 1070"
       }
     ]
   },

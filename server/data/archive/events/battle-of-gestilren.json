@@ -178,10 +178,10 @@
         "label": "Commander"
       },
       {
-        "title": "Sverker II of Sweden",
+        "title": "John I Sverkersson",
         "type": "person",
-        "slug": "sverker-ii-of-sweden",
-        "label": "Killed in this battle"
+        "slug": "john-i-sverkersson",
+        "label": "Sverker’s son, king from 1216"
       },
       {
         "title": "Knut Eriksson",
@@ -190,10 +190,10 @@
         "label": "Erik’s father, king 1167–1196"
       },
       {
-        "title": "John I Sverkersson",
+        "title": "Sverker II of Sweden",
         "type": "person",
-        "slug": "john-i-sverkersson",
-        "label": "Sverker’s son, king from 1216"
+        "slug": "sverker-ii-of-sweden",
+        "label": "Killed in this battle"
       }
     ],
     "locations": [
@@ -204,24 +204,24 @@
         "label": "Battlefield, location disputed"
       },
       {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "The contested crown"
-      },
-      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Sverker’s refuge and backer"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "The contested crown"
       }
     ],
     "houses": [
       {
-        "title": "House of Sverker",
+        "title": "House of Bjälbo",
         "type": "house",
-        "slug": "house-of-sverker",
-        "label": "The defeated dynasty"
+        "slug": "house-of-bjalbo",
+        "label": "Folke jarl’s family, the Folkungs"
       },
       {
         "title": "House of Erik",
@@ -230,10 +230,10 @@
         "label": "The victorious dynasty"
       },
       {
-        "title": "House of Bjälbo",
+        "title": "House of Sverker",
         "type": "house",
-        "slug": "house-of-bjalbo",
-        "label": "Folke jarl’s family, the Folkungs"
+        "slug": "house-of-sverker",
+        "label": "The defeated dynasty"
       }
     ]
   },

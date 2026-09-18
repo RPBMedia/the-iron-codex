@@ -79,10 +79,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Christopher of Bavaria",
+        "title": "Charles VIII of Sweden",
         "type": "person",
-        "slug": "christopher-of-bavaria",
-        "label": "Died here in 1448"
+        "slug": "charles-viii-of-sweden",
+        "label": "Elected in Sweden after his death"
       },
       {
         "title": "Christian I of Denmark",
@@ -91,10 +91,10 @@
         "label": "Elected in Denmark after his death"
       },
       {
-        "title": "Charles VIII of Sweden",
+        "title": "Christopher of Bavaria",
         "type": "person",
-        "slug": "charles-viii-of-sweden",
-        "label": "Elected in Sweden after his death"
+        "slug": "christopher-of-bavaria",
+        "label": "Died here in 1448"
       },
       {
         "title": "Eric of Pomerania",
@@ -105,10 +105,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Denmark",
+        "title": "Falsterbo",
         "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm in the Middle Ages"
+        "slug": "falsterbo",
+        "label": "Another Scanian herring-market town pledged to the Hansa"
       },
       {
         "title": "Kalmar Union",
@@ -117,16 +117,16 @@
         "label": "The union broken by the death of 1448"
       },
       {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm in the Middle Ages"
+      },
+      {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Which took Scania in 1658"
-      },
-      {
-        "title": "Falsterbo",
-        "type": "location",
-        "slug": "falsterbo",
-        "label": "Another Scanian herring-market town pledged to the Hansa"
       }
     ]
   },

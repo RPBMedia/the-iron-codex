@@ -218,16 +218,16 @@
     ],
     "houses": [
       {
-        "title": "Merovingian dynasty",
-        "type": "house",
-        "slug": "merovingian-dynasty",
-        "label": "The kings left reigning without ruling"
-      },
-      {
         "title": "Carolingian dynasty",
         "type": "house",
         "slug": "house-of-carolingian",
         "label": "The family whose power begins here"
+      },
+      {
+        "title": "Merovingian dynasty",
+        "type": "house",
+        "slug": "merovingian-dynasty",
+        "label": "The kings left reigning without ruling"
       }
     ]
   },

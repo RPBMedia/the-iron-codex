@@ -150,29 +150,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Northumbria",
-        "type": "location",
-        "slug": "northumbria",
-        "label": "Place of death"
-      },
-      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Linked to Danish royal legend"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Place of death"
       }
     ],
     "weaponsArmor": [
       {
-        "title": "Viking Sword",
-        "type": "weaponArmor",
-        "slug": "viking-sword",
-        "label": "Weapon of his Viking-age world"
-      },
-      {
         "title": "Dane Axe",
         "type": "weaponArmor",
         "slug": "dane-axe",
+        "label": "Weapon of his Viking-age world"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword",
         "label": "Weapon of his Viking-age world"
       }
     ],

@@ -200,10 +200,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "Aymer de Valence, Earl of Pembroke",
         "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Commander, and his first victory in the open"
+        "slug": "aymer-de-valence",
+        "label": "His defeat by the same man eleven months later"
       },
       {
         "title": "Edward I of England",
@@ -212,38 +212,38 @@
         "label": "Died eight weeks later on his way north"
       },
       {
-        "title": "Aymer de Valence, Earl of Pembroke",
+        "title": "Robert the Bruce",
         "type": "person",
-        "slug": "aymer-de-valence",
-        "label": "His defeat by the same man eleven months later"
+        "slug": "robert-the-bruce",
+        "label": "Commander, and his first victory in the open"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant faction"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Methven",
-        "type": "event",
-        "slug": "battle-of-methven",
-        "label": "The defeat whose lesson was applied here"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
         "label": "The same method at full scale, seven years later"
+      },
+      {
+        "title": "Battle of Methven",
+        "type": "event",
+        "slug": "battle-of-methven",
+        "label": "The defeat whose lesson was applied here"
       },
       {
         "title": "Wars of Scottish Independence",

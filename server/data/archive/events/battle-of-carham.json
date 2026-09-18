@@ -207,16 +207,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Malcolm II of Scotland",
-        "type": "person",
-        "slug": "malcolm-ii-of-scotland",
-        "label": "King of Alba, who commanded the victorious army"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great",
         "label": "King of England in 1018, who did not intervene in the north"
+      },
+      {
+        "title": "Malcolm II of Scotland",
+        "type": "person",
+        "slug": "malcolm-ii-of-scotland",
+        "label": "King of Alba, who commanded the victorious army"
       },
       {
         "title": "Owain the Bald",
@@ -241,10 +241,10 @@
     ],
     "locations": [
       {
-        "title": "Northumbria",
+        "title": "Kingdom of England",
         "type": "location",
-        "slug": "northumbria",
-        "label": "The earldom that lost the battle"
+        "slug": "kingdom-of-england",
+        "label": "The realm whose northern earldom was beaten"
       },
       {
         "title": "Kingdom of Scotland",
@@ -253,16 +253,16 @@
         "label": "The kingdom of Alba, whose king led the attack"
       },
       {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "The realm whose northern earldom was beaten"
-      },
-      {
         "title": "Kingdom of Strathclyde",
         "type": "location",
         "slug": "kingdom-of-strathclyde",
         "label": "Owain the Bald's realm, one of the two victorious powers"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The earldom that lost the battle"
       }
     ]
   },

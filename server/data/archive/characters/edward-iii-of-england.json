@@ -156,12 +156,6 @@
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Fought in this engagement"
-      },
-      {
         "title": "Battle of Crécy",
         "type": "event",
         "slug": "battle-of-crecy",
@@ -178,6 +172,12 @@
         "type": "event",
         "slug": "battle-of-stanhope-park",
         "label": "Raided in his own camp in 1327, aged fourteen"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [
@@ -194,16 +194,16 @@
         "label": "Ruler of Kingdom of England"
       },
       {
-        "title": "Philippa of Hainault",
-        "type": "person",
-        "slug": "philippa-of-hainault",
-        "label": "Queen"
-      },
-      {
         "title": "Isabella of France",
         "type": "person",
         "slug": "isabella-of-france",
         "label": "Mother"
+      },
+      {
+        "title": "Philippa of Hainault",
+        "type": "person",
+        "slug": "philippa-of-hainault",
+        "label": "Queen"
       }
     ]
   },

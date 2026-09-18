@@ -150,10 +150,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Spear",
+        "title": "Arquebus",
         "type": "weaponArmor",
-        "slug": "spear",
-        "label": "The weapon it grew out of"
+        "slug": "arquebus",
+        "label": "Paired with it into pike-and-shot"
       },
       {
         "title": "Halberd",
@@ -162,16 +162,16 @@
         "label": "Fought alongside it in the same blocks"
       },
       {
-        "title": "Lance",
-        "type": "weaponArmor",
-        "slug": "lance",
-        "label": "The cavalry charge it was built to stop"
-      },
-      {
         "title": "Hand Cannon",
         "type": "weaponArmor",
         "slug": "hand-cannon",
         "label": "Paired with it into pike-and-shot"
+      },
+      {
+        "title": "Lance",
+        "type": "weaponArmor",
+        "slug": "lance",
+        "label": "The cavalry charge it was built to stop"
       },
       {
         "title": "Plate Armor",
@@ -180,10 +180,10 @@
         "label": "Worn by the men-at-arms it faced"
       },
       {
-        "title": "Arquebus",
+        "title": "Spear",
         "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "Paired with it into pike-and-shot"
+        "slug": "spear",
+        "label": "The weapon it grew out of"
       }
     ]
   },

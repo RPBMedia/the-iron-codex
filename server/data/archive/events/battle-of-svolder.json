@@ -164,30 +164,30 @@
         "label": "Commander"
       },
       {
-        "title": "Sweyn Forkbeard",
-        "type": "person",
-        "slug": "sweyn-forkbeard",
-        "label": "Allied commander"
-      },
-      {
         "title": "Olof Skötkonung",
         "type": "person",
         "slug": "olof-skotkonung",
+        "label": "Allied commander"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
         "label": "Allied commander"
       }
     ],
     "locations": [
       {
-        "title": "Svolder",
-        "type": "location",
-        "slug": "svolder",
-        "label": "Battlefield"
-      },
-      {
         "title": "Kingdom of Norway",
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Svolder",
+        "type": "location",
+        "slug": "svolder",
+        "label": "Battlefield"
       }
     ]
   },

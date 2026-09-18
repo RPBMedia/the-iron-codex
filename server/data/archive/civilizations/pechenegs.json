@@ -167,10 +167,10 @@
     ],
     "people": [
       {
-        "title": "Sviatoslav I of Kiev",
+        "title": "Alexios I Komnenos",
         "type": "person",
-        "slug": "sviatoslav-i-of-kiev",
-        "label": "Killed by them at the Dnieper cataracts in 972"
+        "slug": "alexios-i-komnenos",
+        "label": "Destroyed them at Levounion"
       },
       {
         "title": "Constantine VII",
@@ -179,24 +179,24 @@
         "label": "Whose handbook makes them the hinge of imperial diplomacy"
       },
       {
-        "title": "Alexios I Komnenos",
+        "title": "Sviatoslav I of Kiev",
         "type": "person",
-        "slug": "alexios-i-komnenos",
-        "label": "Destroyed them at Levounion"
+        "slug": "sviatoslav-i-of-kiev",
+        "label": "Killed by them at the Dnieper cataracts in 972"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Levounion",
-        "type": "event",
-        "slug": "battle-of-levounion",
-        "label": "Where they were destroyed as a people"
-      },
       {
         "title": "Battle of Beroia",
         "type": "event",
         "slug": "battle-of-beroia",
         "label": "Where the remnant ended"
+      },
+      {
+        "title": "Battle of Levounion",
+        "type": "event",
+        "slug": "battle-of-levounion",
+        "label": "Where they were destroyed as a people"
       }
     ],
     "locations": [

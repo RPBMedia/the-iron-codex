@@ -129,10 +129,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Edward, the Black Prince",
+        "title": "Edward I of England",
         "type": "person",
-        "slug": "edward-the-black-prince",
-        "label": "Death of Edward, the Black Prince"
+        "slug": "edward-i-of-england",
+        "label": "Brought the Stone of Scone here"
       },
       {
         "title": "Edward the Confessor",
@@ -141,34 +141,10 @@
         "label": "Death of Edward the Confessor"
       },
       {
-        "title": "Harold Godwinson",
+        "title": "Edward, the Black Prince",
         "type": "person",
-        "slug": "harold-godwinson",
-        "label": "Probably crowned here, 1066"
-      },
-      {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Crowned in the abbey, 1066"
-      },
-      {
-        "title": "William II of England",
-        "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "Built Westminster Hall"
-      },
-      {
-        "title": "Henry III of England",
-        "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "Rebuilt the abbey; buried here"
-      },
-      {
-        "title": "Edward I of England",
-        "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Brought the Stone of Scone here"
+        "slug": "edward-the-black-prince",
+        "label": "Death of Edward, the Black Prince"
       },
       {
         "title": "Eleanor of Castile",
@@ -177,16 +153,16 @@
         "label": "Buried in the abbey, 1290"
       },
       {
-        "title": "William Wallace",
+        "title": "Harold Godwinson",
         "type": "person",
-        "slug": "william-wallace",
-        "label": "Tried in Westminster Hall, 1305"
+        "slug": "harold-godwinson",
+        "label": "Probably crowned here, 1066"
       },
       {
-        "title": "Richard II of England",
+        "title": "Henry III of England",
         "type": "person",
-        "slug": "richard-ii-of-england",
-        "label": "Remodelled Westminster Hall; deposed here"
+        "slug": "henry-iii-of-england",
+        "label": "Rebuilt the abbey; buried here"
       },
       {
         "title": "Henry IV of England",
@@ -199,6 +175,30 @@
         "type": "person",
         "slug": "henry-v-of-england",
         "label": "Buried in the abbey, 1422"
+      },
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "Remodelled Westminster Hall; deposed here"
+      },
+      {
+        "title": "William II of England",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "Built Westminster Hall"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Crowned in the abbey, 1066"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Tried in Westminster Hall, 1305"
       }
     ],
     "locations": [
@@ -217,16 +217,16 @@
     ],
     "events": [
       {
-        "title": "Norman Conquest of England",
-        "type": "event",
-        "slug": "norman-conquest",
-        "label": "Connected to Edward the Confessor"
-      },
-      {
         "title": "Magna Carta Sealed",
         "type": "event",
         "slug": "magna-carta",
         "label": "Fixed the common pleas here"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "Connected to Edward the Confessor"
       }
     ]
   },

@@ -93,12 +93,6 @@
     ],
     "people": [
       {
-        "title": "Olaf II Haraldsson",
-        "type": "person",
-        "slug": "olaf-ii-haraldsson",
-        "label": "Killed here, and buried at Nidaros"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great",
@@ -115,6 +109,12 @@
         "type": "person",
         "slug": "magnus-the-good",
         "label": "Olaf’s son, restored to Norway five years later"
+      },
+      {
+        "title": "Olaf II Haraldsson",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Killed here, and buried at Nidaros"
       }
     ],
     "locations": [

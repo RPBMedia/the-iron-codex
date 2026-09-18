@@ -242,10 +242,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Saladin",
+        "title": "Alfonso VIII of Castile",
         "type": "person",
-        "slug": "saladin",
-        "label": "Whose victory at Hattin killed the order’s eastern knights"
+        "slug": "alfonso-viii-of-castile",
+        "label": "Granted Monfragüe to the breakaway knights in 1196"
       },
       {
         "title": "Baldwin IV of Jerusalem",
@@ -254,16 +254,16 @@
         "label": "Confirmed the order’s land in the Kingdom of Jerusalem"
       },
       {
-        "title": "Alfonso VIII of Castile",
-        "type": "person",
-        "slug": "alfonso-viii-of-castile",
-        "label": "Granted Monfragüe to the breakaway knights in 1196"
-      },
-      {
         "title": "Ferdinand III of Castile",
         "type": "person",
         "slug": "ferdinand-iii-of-castile",
         "label": "Joined the Order of Monfragüe to Calatrava in 1221"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Whose victory at Hattin killed the order’s eastern knights"
       }
     ],
     "events": [
@@ -282,25 +282,19 @@
         "label": "Where the order was founded, at Alfambra"
       },
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Where it held Montjoie, the hill that named it"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "Where the Monfragüe breakaway held out, 1196–1221"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Where it held Montjoie, the hill that named it"
       }
     ],
     "orders": [
-      {
-        "title": "Order of Santiago",
-        "type": "order",
-        "slug": "order-of-santiago",
-        "label": "The order its founder left for a stricter rule"
-      },
       {
         "title": "Knights Templar",
         "type": "order",
@@ -312,6 +306,12 @@
         "type": "order",
         "slug": "order-of-calatrava",
         "label": "Absorbed the Order of Monfragüe in 1221"
+      },
+      {
+        "title": "Order of Santiago",
+        "type": "order",
+        "slug": "order-of-santiago",
+        "label": "The order its founder left for a stricter rule"
       }
     ]
   }

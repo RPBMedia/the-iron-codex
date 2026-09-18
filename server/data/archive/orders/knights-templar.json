@@ -452,40 +452,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Hugh de Payns",
-        "type": "person",
-        "slug": "hugh-de-payns",
-        "label": "Founder and first Grand Master"
-      },
-      {
-        "title": "Jacques de Molay",
-        "type": "person",
-        "slug": "jacques-de-molay",
-        "label": "Last Grand Master, burned 1314"
-      },
-      {
         "title": "Bernard of Clairvaux",
         "type": "person",
         "slug": "bernard-of-clairvaux",
         "label": "Wrote the order’s charter of holy war"
-      },
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "The order’s great adversary in the East"
-      },
-      {
-        "title": "Guy of Lusignan",
-        "type": "person",
-        "slug": "guy-of-lusignan",
-        "label": "King of Jerusalem at Hattin"
-      },
-      {
-        "title": "Pope Clement V",
-        "type": "person",
-        "slug": "pope-clement-v",
-        "label": "Who suppressed the order at the Council of Vienne in 1312"
       },
       {
         "title": "Gérard de Ridefort",
@@ -500,25 +470,49 @@
         "label": "Grand Master, killed at Acre in 1291"
       },
       {
-        "title": "Robert de Craon",
+        "title": "Guy of Lusignan",
         "type": "person",
-        "slug": "robert-de-craon",
-        "label": "Second Grand Master, 1136–1149"
+        "slug": "guy-of-lusignan",
+        "label": "King of Jerusalem at Hattin"
+      },
+      {
+        "title": "Hugh de Payns",
+        "type": "person",
+        "slug": "hugh-de-payns",
+        "label": "Founder and first Grand Master"
+      },
+      {
+        "title": "Jacques de Molay",
+        "type": "person",
+        "slug": "jacques-de-molay",
+        "label": "Last Grand Master, burned 1314"
+      },
+      {
+        "title": "Pope Clement V",
+        "type": "person",
+        "slug": "pope-clement-v",
+        "label": "Who suppressed the order at the Council of Vienne in 1312"
       },
       {
         "title": "Pope Eugenius III",
         "type": "person",
         "slug": "pope-eugenius-iii",
         "label": "Granted the Templars the red cross"
+      },
+      {
+        "title": "Robert de Craon",
+        "type": "person",
+        "slug": "robert-de-craon",
+        "label": "Second Grand Master, 1136–1149"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "The order’s great adversary in the East"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Hattin",
-        "type": "event",
-        "slug": "battle-of-hattin",
-        "label": "1187 — the order’s worst defeat"
-      },
       {
         "title": "Battle of Arsuf",
         "type": "event",
@@ -526,16 +520,22 @@
         "label": "1191 — Templars in the vanguard"
       },
       {
-        "title": "Battle of Las Navas de Tolosa",
+        "title": "Battle of Hattin",
         "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "1212 — crusading in Iberia"
+        "slug": "battle-of-hattin",
+        "label": "1187 — the order’s worst defeat"
       },
       {
         "title": "Battle of La Forbie",
         "type": "event",
         "slug": "battle-of-la-forbie",
         "label": "1244 — thirty-three brothers survived"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "1212 — crusading in Iberia"
       },
       {
         "title": "Battle of Mansurah",
@@ -566,12 +566,6 @@
         "label": "Sister order and rival, which inherited Templar estates"
       },
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order",
-        "label": "The German order of the Baltic crusades"
-      },
-      {
         "title": "Order of Christ",
         "type": "order",
         "slug": "order-of-christ",
@@ -588,6 +582,12 @@
         "type": "order",
         "slug": "order-of-montjoy",
         "label": "A small order absorbed into the Temple in 1188"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "The German order of the Baltic crusades"
       }
     ]
   }

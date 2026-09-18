@@ -112,16 +112,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
-      {
         "title": "Gurre Castle",
         "type": "location",
         "slug": "gurre-castle",
         "label": "The other favoured castle of Valdemar IV, where he died in 1375"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       }
     ],
     "houses": [

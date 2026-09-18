@@ -138,22 +138,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
+        "title": "Armet",
         "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The harness whose seam it closes"
-      },
-      {
-        "title": "Mail Coif",
-        "type": "weaponArmor",
-        "slug": "mail-coif",
-        "label": "The medieval throat defence for most of the period"
-      },
-      {
-        "title": "Sallet",
-        "type": "weaponArmor",
-        "slug": "sallet",
-        "label": "Worn with a bevor doing the same job"
+        "slug": "armet",
+        "label": "Closed at the throat where a gorget met it"
       },
       {
         "title": "Bascinet",
@@ -162,16 +150,28 @@
         "label": "Its aventail covered the throat and shoulders"
       },
       {
-        "title": "Armet",
+        "title": "Mail Coif",
         "type": "weaponArmor",
-        "slug": "armet",
-        "label": "Closed at the throat where a gorget met it"
+        "slug": "mail-coif",
+        "label": "The medieval throat defence for most of the period"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The harness whose seam it closes"
       },
       {
         "title": "Rondel Dagger",
         "type": "weaponArmor",
         "slug": "rondel-dagger",
         "label": "The weapon aimed at the gap it closes"
+      },
+      {
+        "title": "Sallet",
+        "type": "weaponArmor",
+        "slug": "sallet",
+        "label": "Worn with a bevor doing the same job"
       }
     ]
   },

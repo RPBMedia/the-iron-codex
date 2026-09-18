@@ -249,6 +249,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky",
+        "label": "Defeated the order on Lake Peipus in 1242"
+      },
+      {
         "title": "Vytautas",
         "type": "person",
         "slug": "vytautas",
@@ -259,26 +265,20 @@
         "type": "person",
         "slug": "wolter-von-plettenberg",
         "label": "Master of the order, 1494–1535"
-      },
-      {
-        "title": "Alexander Nevsky",
-        "type": "person",
-        "slug": "alexander-nevsky",
-        "label": "Defeated the order on Lake Peipus in 1242"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Grunwald",
-        "type": "event",
-        "slug": "battle-of-grunwald",
-        "label": "1410 — a Livonian contingent fought"
-      },
       {
         "title": "Battle of Durbe",
         "type": "event",
         "slug": "battle-of-durbe",
         "label": "Where the Livonian master and his army were destroyed"
+      },
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald",
+        "label": "1410 — a Livonian contingent fought"
       },
       {
         "title": "Battle of Saule",

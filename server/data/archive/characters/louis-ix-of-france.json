@@ -135,6 +135,17 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Favourite manor; the oak of justice"
+      },
+      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
@@ -151,48 +162,37 @@
         "slug": "papacy"
       },
       {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
-      },
-      {
         "title": "Sidon",
         "type": "location",
         "slug": "sidon",
         "label": "Town he refortified in 1253"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Favourite manor; the oak of justice"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Mansurah",
         "type": "event",
         "slug": "battle-of-mansurah",
         "label": "The battle that wrecked his Egyptian crusade"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Ruler of Kingdom of France"
-      },
       {
         "title": "Jean de Joinville",
         "type": "person",
         "slug": "jean-de-joinville",
         "label": "His companion on crusade, and the author of the Life that shaped his memory"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Ruler of Kingdom of France"
       }
     ]
   },

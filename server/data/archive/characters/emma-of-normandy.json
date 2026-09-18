@@ -224,16 +224,16 @@
         "label": "Son"
       },
       {
-        "title": "Harthacnut",
-        "type": "person",
-        "slug": "harthacnut",
-        "label": "Son"
-      },
-      {
         "title": "Harold Harefoot",
         "type": "person",
         "slug": "harold-harefoot",
         "label": "Rival for the throne after 1035"
+      },
+      {
+        "title": "Harthacnut",
+        "type": "person",
+        "slug": "harthacnut",
+        "label": "Son"
       }
     ],
     "locations": [
@@ -244,16 +244,16 @@
         "label": "Land of her birth"
       },
       {
-        "title": "Winchester Cathedral",
-        "type": "location",
-        "slug": "winchester-cathedral",
-        "label": "Burial place"
-      },
-      {
         "title": "Winchester",
         "type": "location",
         "slug": "winchester",
         "label": "Lived and was buried here"
+      },
+      {
+        "title": "Winchester Cathedral",
+        "type": "location",
+        "slug": "winchester-cathedral",
+        "label": "Burial place"
       }
     ]
   }

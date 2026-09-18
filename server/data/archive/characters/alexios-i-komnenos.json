@@ -128,9 +128,10 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "First Crusade Proclaimed",
+        "title": "Battle of Levounion",
         "type": "event",
-        "slug": "first-crusade-called"
+        "slug": "battle-of-levounion",
+        "label": "His victory over the Pechenegs in 1091"
       },
       {
         "title": "Battle of Manzikert",
@@ -138,22 +139,21 @@
         "slug": "battle-of-manzikert"
       },
       {
-        "title": "Battle of Levounion",
+        "title": "First Crusade Proclaimed",
         "type": "event",
-        "slug": "battle-of-levounion",
-        "label": "His victory over the Pechenegs in 1091"
+        "slug": "first-crusade-called"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem"
       },
       {
         "title": "Seljuk Turks",
@@ -169,16 +169,16 @@
         "label": "Wife"
       },
       {
-        "title": "Stephen-Henry, Count of Blois",
-        "type": "person",
-        "slug": "stephen-henry-count-of-blois",
-        "label": "Crusader who persuaded him to turn back"
-      },
-      {
         "title": "Sigurd the Crusader",
         "type": "person",
         "slug": "sigurd-of-norway",
         "label": "Norwegian crusader king he received in 1111"
+      },
+      {
+        "title": "Stephen-Henry, Count of Blois",
+        "type": "person",
+        "slug": "stephen-henry-count-of-blois",
+        "label": "Crusader who persuaded him to turn back"
       }
     ]
   },

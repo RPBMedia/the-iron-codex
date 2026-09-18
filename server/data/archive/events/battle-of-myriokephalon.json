@@ -200,16 +200,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Manuel I Komnenos",
-        "type": "person",
-        "slug": "manuel-i-komnenos",
-        "label": "Who called it a second Manzikert"
-      },
-      {
         "title": "Kilij Arslan II",
         "type": "person",
         "slug": "kilij-arslan-ii",
         "label": "Who chose the ground and then let the emperor go"
+      },
+      {
+        "title": "Manuel I Komnenos",
+        "type": "person",
+        "slug": "manuel-i-komnenos",
+        "label": "Who called it a second Manzikert"
       }
     ],
     "events": [
@@ -228,16 +228,16 @@
     ],
     "locations": [
       {
-        "title": "Sultanate of Rum",
-        "type": "location",
-        "slug": "sultanate-of-rum",
-        "label": "The victor, and the permanent owner of the plateau"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Which never campaigned in the Anatolian interior again"
+      },
+      {
+        "title": "Sultanate of Rum",
+        "type": "location",
+        "slug": "sultanate-of-rum",
+        "label": "The victor, and the permanent owner of the plateau"
       }
     ]
   },

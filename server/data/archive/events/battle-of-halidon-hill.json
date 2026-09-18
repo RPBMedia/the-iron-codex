@@ -221,6 +221,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "The child king sent to France after the defeat"
+      },
+      {
         "title": "Edward Balliol",
         "type": "person",
         "slug": "edward-balliol",
@@ -233,12 +239,6 @@
         "label": "Commanded the English army, in his first pitched battle"
       },
       {
-        "title": "David II of Scotland",
-        "type": "person",
-        "slug": "david-ii-of-scotland",
-        "label": "The child king sent to France after the defeat"
-      },
-      {
         "title": "Sir Archibald Douglas, Guardian of Scotland",
         "type": "person",
         "slug": "archibald-douglas-guardian",
@@ -247,16 +247,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Dupplin Moor",
-        "type": "event",
-        "slug": "battle-of-dupplin-moor",
-        "label": "Where the deployment was first used, in 1332"
-      },
-      {
         "title": "Battle of Crécy",
         "type": "event",
         "slug": "battle-of-crecy",
         "label": "The same formation against a French army, 1346"
+      },
+      {
+        "title": "Battle of Dupplin Moor",
+        "type": "event",
+        "slug": "battle-of-dupplin-moor",
+        "label": "Where the deployment was first used, in 1332"
       },
       {
         "title": "Wars of Scottish Independence",

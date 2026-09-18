@@ -125,29 +125,29 @@
         "label": "Battlefield"
       },
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
         "label": "Combatant faction"
       }
     ],
     "people": [
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Commander"
-      },
-      {
         "title": "Edward II of England",
         "type": "person",
         "slug": "edward-ii-of-england",
+        "label": "Commander"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
         "label": "Commander"
       },
       {
@@ -159,16 +159,16 @@
     ],
     "events": [
       {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The wider war"
-      },
-      {
         "title": "Battle of Stirling Bridge",
         "type": "event",
         "slug": "battle-of-stirling-bridge",
         "label": "The first Scottish victory at Stirling"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wider war"
       }
     ]
   },

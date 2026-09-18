@@ -123,30 +123,30 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Teias",
-        "type": "person",
-        "slug": "teias",
-        "label": "Killed here; the last Gothic king"
-      },
-      {
         "title": "Narses",
         "type": "person",
         "slug": "narses",
         "label": "Commanded the Byzantine army"
+      },
+      {
+        "title": "Teias",
+        "type": "person",
+        "slug": "teias",
+        "label": "Killed here; the last Gothic king"
       }
     ],
     "events": [
-      {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "The war it ended"
-      },
       {
         "title": "Battle of Taginae",
         "type": "event",
         "slug": "battle-of-taginae",
         "label": "The battle that preceded it"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it ended"
       }
     ],
     "locations": [

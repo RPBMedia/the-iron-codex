@@ -150,40 +150,22 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Charles VIII of Sweden",
-        "type": "person",
-        "slug": "charles-viii-of-sweden",
-        "label": "Died in the town, 1470"
-      },
-      {
-        "title": "Magnus III of Sweden",
-        "type": "person",
-        "slug": "magnus-iii-of-sweden",
-        "label": "Buried in its Greyfriars church, 1290"
-      },
-      {
-        "title": "Magnus Eriksson",
-        "type": "person",
-        "slug": "magnus-eriksson",
-        "label": "Endowed its church and gave the Dominicans their site"
-      },
-      {
-        "title": "Haakon VI of Norway",
-        "type": "person",
-        "slug": "haakon-vi-of-norway",
-        "label": "Besieged the town in 1371"
-      },
-      {
         "title": "Albert of Mecklenburg",
         "type": "person",
         "slug": "albert-of-mecklenburg",
         "label": "His German supporters held the town after 1389"
       },
       {
-        "title": "Margaret I of Denmark",
+        "title": "Charles VIII of Sweden",
         "type": "person",
-        "slug": "margaret-i",
-        "label": "Received the town in 1398"
+        "slug": "charles-viii-of-sweden",
+        "label": "Died in the town, 1470"
+      },
+      {
+        "title": "Christian I of Denmark",
+        "type": "person",
+        "slug": "christian-i-of-denmark",
+        "label": "Defeated at Brunkeberg outside the town, 1471"
       },
       {
         "title": "Eric of Pomerania",
@@ -192,24 +174,42 @@
         "label": "Union king against whom Engelbrekt rose"
       },
       {
-        "title": "Christian I of Denmark",
+        "title": "Haakon VI of Norway",
         "type": "person",
-        "slug": "christian-i-of-denmark",
-        "label": "Defeated at Brunkeberg outside the town, 1471"
+        "slug": "haakon-vi-of-norway",
+        "label": "Besieged the town in 1371"
+      },
+      {
+        "title": "Magnus Eriksson",
+        "type": "person",
+        "slug": "magnus-eriksson",
+        "label": "Endowed its church and gave the Dominicans their site"
+      },
+      {
+        "title": "Magnus III of Sweden",
+        "type": "person",
+        "slug": "magnus-iii-of-sweden",
+        "label": "Buried in its Greyfriars church, 1290"
+      },
+      {
+        "title": "Margaret I of Denmark",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "Received the town in 1398"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "Containing realm"
-      },
       {
         "title": "Kalmar Union",
         "type": "location",
         "slug": "kalmar-union",
         "label": "The town every union ruler had to hold"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
       },
       {
         "title": "Mecklenburg",

@@ -189,6 +189,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Carolingian Empire",
+        "type": "location",
+        "slug": "carolingian-empire",
+        "label": "The imperial title Otto revived"
+      },
+      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
@@ -199,26 +205,20 @@
         "type": "location",
         "slug": "kingdom-of-hungary",
         "label": "The defeated, who turned west after 955"
-      },
-      {
-        "title": "Carolingian Empire",
-        "type": "location",
-        "slug": "carolingian-empire",
-        "label": "The imperial title Otto revived"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Mohi",
-        "type": "event",
-        "slug": "battle-of-mohi",
-        "label": "Hungary on the receiving end, 1241"
-      },
       {
         "title": "Battle of Legnano",
         "type": "event",
         "slug": "battle-of-legnano",
         "label": "The empire’s Italian limits, two centuries on"
+      },
+      {
+        "title": "Battle of Mohi",
+        "type": "event",
+        "slug": "battle-of-mohi",
+        "label": "Hungary on the receiving end, 1241"
       }
     ]
   },

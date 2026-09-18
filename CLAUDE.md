@@ -484,6 +484,23 @@ A civilization article is a survey and will be long, but **length must come from
 substance, not from saying a thing twice**. Reported alongside the image rule,
 on articles running to 40–58k characters of prose.
 
+**Never cut to hit a number, and never accept a percentage target (owner
+restated 2026-09-18).** Reduce text only where no vital historical fact is
+affected — that is, only where it is filler. Otherwise keep the text.
+
+This was tested. Asked for roughly a fifth, two agents independently delivered
+5.7% and 7%, stopped, and said plainly that going further meant cutting facts or
+the analytical voice. Both were right and the target was wrong. An agent that
+reports falling short with its reasoning has done the job correctly; one that
+quietly hits 20% has not.
+
+Protected by name, as the worked example: the Birka Bj 581 handling — that the
+burial shows a biologically female individual received a mounted commander's
+full equipment and that the buriers intended that reading, that it does not show
+she fought, and that the shieldmaiden literary tradition stays a separate
+paragraph. That is exactly the kind of careful distinction a length target
+destroys first, because it costs three sentences to say properly.
+
 When revising, take every chance to tighten while keeping the history intact:
 cut the sentence that restates the previous one, replace a clause hedging a
 point already hedged, and prefer the concrete detail over the general
@@ -1024,6 +1041,16 @@ Every article of every type must have a **Related entries** section (`relatedEnt
 - Each must be **historically explainable**. No self-links, no duplicates, no broken links, no random category neighbours ("both are medieval"), no generic filler.
 - **Data shape:** `relatedEntries` is an object grouped by type (`people`, `events`, `locations`, `artifacts`, `weaponsArmor`); each item is `{ title, type, slug, label? }`. The optional `label` is a short relationship reason and renders under the link. Keep labels short and specific (e.g. "Died in this engagement", "Birthplace", "Realm"); omit the label rather than write generic filler.
 - **Bad related entries are worse than missing ones.**
+
+**Within each group, entries are in alphabetical order by title** (owner rule,
+2026-09-17). People, events, locations, civilizations, houses, orders, artifacts
+and weaponsArmor each sort independently. Enforced by
+`npm run check:content-quality`.
+
+The reason is the reader, not tidiness: a related-entries list is scanned for a
+specific name rather than read top to bottom, and an unordered list of six makes
+that a search. Insertion order also encodes nothing — it records when an editor
+happened to add each link, which is meaningless to anyone looking at the page.
 
 Relationship logic by type:
 - **People** → kingdoms/realms they ruled or served, battles/events they fought in, institutions/orders, birth/death/burial locations, rivals, allies, family, predecessors, successors; weapons/artifacts only if strongly relevant.

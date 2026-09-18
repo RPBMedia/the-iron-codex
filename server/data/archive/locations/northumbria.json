@@ -153,18 +153,6 @@
     ],
     "events": [
       {
-        "title": "Battle of Stamford Bridge",
-        "type": "event",
-        "slug": "battle-of-stamford-bridge",
-        "label": "Fought in old Deira, 1066"
-      },
-      {
-        "title": "Great Heathen Army",
-        "type": "event",
-        "slug": "great-heathen-army",
-        "label": "Conquered it in 866–867"
-      },
-      {
         "title": "Battle of Carham",
         "type": "event",
         "slug": "battle-of-carham",
@@ -175,6 +163,18 @@
         "type": "event",
         "slug": "battle-of-heavenfield",
         "label": "The victory that restored the kingdom, 633 or 634"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Fought in old Deira, 1066"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "Conquered it in 866–867"
       }
     ]
   },

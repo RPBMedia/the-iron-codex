@@ -144,30 +144,30 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "Birthplace"
-      },
-      {
         "title": "Gutierre-Munoz",
         "type": "location",
         "slug": "gutierre-munoz",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Birthplace"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "Fought in this engagement"
-      },
       {
         "title": "Battle of Alarcos",
         "type": "event",
         "slug": "battle-of-alarcos",
         "label": "His great defeat, avenged at Las Navas"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "Fought in this engagement"
       }
     ]
   },

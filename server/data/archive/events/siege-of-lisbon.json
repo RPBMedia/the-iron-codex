@@ -157,29 +157,29 @@
     ],
     "locations": [
       {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal"
+      },
+      {
         "title": "Lisbon",
         "type": "location",
         "slug": "lisbon",
         "label": "The city taken"
-      },
-      {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Ourique",
-        "type": "event",
-        "slug": "battle-of-ourique",
-        "label": "The crown-making victory eight years earlier"
-      },
       {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "The kingdom's later fight for survival"
+      },
+      {
+        "title": "Battle of Ourique",
+        "type": "event",
+        "slug": "battle-of-ourique",
+        "label": "The crown-making victory eight years earlier"
       }
     ]
   },

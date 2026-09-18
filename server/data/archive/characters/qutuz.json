@@ -139,27 +139,27 @@
         "slug": "ayyubid-sultanate"
       },
       {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks"
-      },
-      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Ain Jalut",
         "type": "event",
         "slug": "battle-of-ain-jalut",
         "label": "The victory that defined his short reign"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ]
   },

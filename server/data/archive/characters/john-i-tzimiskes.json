@@ -175,10 +175,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Nikephoros II Phokas",
+        "title": "Basil II",
         "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "His commander, and the man he murdered to take the throne"
+        "slug": "basil-ii",
+        "label": "His ward and successor"
       },
       {
         "title": "Michael Bourtzes",
@@ -187,16 +187,16 @@
         "label": "His fellow conspirator, dismissed by Nikephoros for taking Antioch"
       },
       {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "His commander, and the man he murdered to take the throne"
+      },
+      {
         "title": "Sviatoslav I of Kiev",
         "type": "person",
         "slug": "sviatoslav-i-of-kiev",
         "label": "Driven out of Bulgaria at Dorostolon in 971"
-      },
-      {
-        "title": "Basil II",
-        "type": "person",
-        "slug": "basil-ii",
-        "label": "His ward and successor"
       },
       {
         "title": "Theophano (wife of Romanos II)",
@@ -221,16 +221,16 @@
         "label": "The realm he ruled from 969 to 976"
       },
       {
-        "title": "Kievan Rus",
-        "type": "location",
-        "slug": "kievan-rus",
-        "label": "Whose army he expelled from Bulgaria"
-      },
-      {
         "title": "First Bulgarian Empire",
         "type": "location",
         "slug": "first-bulgarian-empire",
         "label": "Whose eastern half he annexed in 971"
+      },
+      {
+        "title": "Kievan Rus",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Whose army he expelled from Bulgaria"
       }
     ]
   },

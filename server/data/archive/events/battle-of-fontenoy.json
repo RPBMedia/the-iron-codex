@@ -215,16 +215,16 @@
     ],
     "events": [
       {
-        "title": "Treaty of Verdun",
-        "type": "event",
-        "slug": "treaty-of-verdun",
-        "label": "The settlement Fontenoy forced, 843"
-      },
-      {
         "title": "Battle of Lechfeld",
         "type": "event",
         "slug": "battle-of-lechfeld",
         "label": "The eastern kingdom defending itself a century later"
+      },
+      {
+        "title": "Treaty of Verdun",
+        "type": "event",
+        "slug": "treaty-of-verdun",
+        "label": "The settlement Fontenoy forced, 843"
       }
     ],
     "houses": [

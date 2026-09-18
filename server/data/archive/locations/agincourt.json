@@ -119,16 +119,16 @@
     ],
     "people": [
       {
-        "title": "Henry V of England",
-        "type": "person",
-        "slug": "henry-v-of-england",
-        "label": "Commanded the English army here"
-      },
-      {
         "title": "Charles d’Albret",
         "type": "person",
         "slug": "charles-d-albret",
         "label": "Constable of France, killed on this field"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Commanded the English army here"
       },
       {
         "title": "John the Fearless",
@@ -139,10 +139,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Crecy",
         "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Containing realm"
+        "slug": "crecy",
+        "label": "The earlier Picard field of the same war"
       },
       {
         "title": "Kingdom of England",
@@ -151,10 +151,10 @@
         "label": "Realm of the invading army"
       },
       {
-        "title": "Crecy",
+        "title": "Kingdom of France",
         "type": "location",
-        "slug": "crecy",
-        "label": "The earlier Picard field of the same war"
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
       }
     ]
   },

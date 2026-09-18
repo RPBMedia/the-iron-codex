@@ -98,14 +98,20 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Kite Shield",
-        "type": "weaponArmor",
-        "slug": "kite-shield"
+        "title": "Barding",
+        "slug": "barding",
+        "label": "Armour for the horse that carried it",
+        "type": "weaponArmor"
       },
       {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm"
+      },
+      {
+        "title": "Kite Shield",
+        "type": "weaponArmor",
+        "slug": "kite-shield"
       },
       {
         "title": "Mail Armor",
@@ -117,24 +123,18 @@
         "type": "weaponArmor",
         "slug": "pike",
         "label": "The infantry answer that ended the couched charge"
-      },
-      {
-        "title": "Barding",
-        "slug": "barding",
-        "label": "Armour for the horse that carried it",
-        "type": "weaponArmor"
       }
     ],
     "events": [
       {
-        "title": "Battle of Hastings",
-        "type": "event",
-        "slug": "battle-of-hastings"
-      },
-      {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
       }
     ],
     "people": [

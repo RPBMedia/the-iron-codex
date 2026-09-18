@@ -180,19 +180,25 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant realm"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant realm"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Falkirk",
+        "type": "event",
+        "slug": "battle-of-falkirk",
+        "label": "The first demonstration of archery against standing Scottish spearmen, 1298"
+      },
       {
         "title": "Battle of Otterburn",
         "type": "event",
@@ -204,12 +210,6 @@
         "type": "event",
         "slug": "battle-of-verneuil",
         "label": "Where Douglas met English archery again, and died, 1424"
-      },
-      {
-        "title": "Battle of Falkirk",
-        "type": "event",
-        "slug": "battle-of-falkirk",
-        "label": "The first demonstration of archery against standing Scottish spearmen, 1298"
       }
     ]
   },

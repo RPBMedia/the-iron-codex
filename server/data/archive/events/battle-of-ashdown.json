@@ -218,12 +218,6 @@
     ],
     "events": [
       {
-        "title": "Great Heathen Army",
-        "type": "event",
-        "slug": "great-heathen-army",
-        "label": "The invasion force beaten here"
-      },
-      {
         "title": "Battle of Aclea",
         "type": "event",
         "slug": "battle-of-aclea",
@@ -234,6 +228,12 @@
         "type": "event",
         "slug": "battle-of-edington",
         "label": "The victory that settled the war, 878"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "The invasion force beaten here"
       }
     ]
   },

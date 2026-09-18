@@ -83,10 +83,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Rome",
+        "title": "Aachen",
         "type": "location",
-        "slug": "rome",
-        "label": "Location"
+        "slug": "aachen",
+        "label": "Charlemagne's imperial capital"
       },
       {
         "title": "Carolingian Empire",
@@ -95,16 +95,16 @@
         "label": "The empire the coronation crowned"
       },
       {
-        "title": "Aachen",
-        "type": "location",
-        "slug": "aachen",
-        "label": "Charlemagne's imperial capital"
-      },
-      {
         "title": "Papacy",
         "type": "location",
         "slug": "papacy",
         "label": "Pope Leo III performed the coronation"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Location"
       }
     ],
     "people": [

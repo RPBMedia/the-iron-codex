@@ -271,12 +271,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sigurd the Crusader",
-        "type": "person",
-        "slug": "sigurd-of-norway",
-        "label": "Norwegian king whose fleet blockaded the port"
-      },
-      {
         "title": "Baldwin I of Jerusalem",
         "type": "person",
         "slug": "baldwin-i-of-jerusalem",
@@ -287,9 +281,21 @@
         "type": "person",
         "slug": "fulcher-of-chartres",
         "label": "Baldwin's chaplain, writing his history of the reign in these years"
+      },
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway",
+        "label": "Norwegian king whose fleet blockaded the port"
       }
     ],
     "locations": [
+      {
+        "title": "Damascus",
+        "type": "location",
+        "slug": "damascus",
+        "label": "Its horsemen relieved Sidon in 1108; refugees went there in 1110"
+      },
       {
         "title": "Kingdom of Jerusalem",
         "type": "location",
@@ -301,12 +307,6 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Home of Sigurd's crusading fleet"
-      },
-      {
-        "title": "Damascus",
-        "type": "location",
-        "slug": "damascus",
-        "label": "Its horsemen relieved Sidon in 1108; refugees went there in 1110"
       }
     ],
     "events": [

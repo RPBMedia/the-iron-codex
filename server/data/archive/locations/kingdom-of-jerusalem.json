@@ -129,15 +129,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Godfrey of Bouillon",
         "type": "person",
-        "slug": "godfrey-of-bouillon",
-        "label": "The founder"
-      },
-      {
-        "title": "Melisende of Jerusalem",
-        "type": "person",
-        "slug": "melisende-of-jerusalem"
+        "title": "Baldwin I of Jerusalem",
+        "slug": "baldwin-i-of-jerusalem",
+        "label": "The coast conquered and the crown created"
       },
       {
         "title": "Baldwin IV of Jerusalem",
@@ -146,36 +141,41 @@
         "label": "The leper-king"
       },
       {
-        "title": "Saladin",
+        "title": "Godfrey of Bouillon",
         "type": "person",
-        "slug": "saladin",
-        "label": "Hattin's victor"
-      },
-      {
-        "type": "person",
-        "title": "Baldwin I of Jerusalem",
-        "slug": "baldwin-i-of-jerusalem",
-        "label": "The coast conquered and the crown created"
+        "slug": "godfrey-of-bouillon",
+        "label": "The founder"
       },
       {
         "type": "person",
         "title": "Isabella I of Jerusalem",
         "slug": "isabella-i-of-jerusalem",
         "label": "The succession after Hattin"
+      },
+      {
+        "title": "Melisende of Jerusalem",
+        "type": "person",
+        "slug": "melisende-of-jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Hattin's victor"
       }
     ],
     "locations": [
-      {
-        "title": "Crusader States",
-        "type": "location",
-        "slug": "crusader-states",
-        "label": "The wider Outremer"
-      },
       {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
         "label": "The counter-crusade's state"
+      },
+      {
+        "title": "Crusader States",
+        "type": "location",
+        "slug": "crusader-states",
+        "label": "The wider Outremer"
       },
       {
         "title": "Sidon",
@@ -185,18 +185,6 @@
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade",
-        "label": "The kingdom's rebuilding"
-      },
-      {
-        "title": "Siege of Sidon (1110)",
-        "type": "event",
-        "slug": "siege-of-sidon-1110",
-        "label": "Conquest that created the Lordship of Sidon, 1110"
-      },
       {
         "title": "Battle of La Forbie",
         "type": "event",
@@ -208,6 +196,18 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "Won the capital of the rump kingdom, 1191"
+      },
+      {
+        "title": "Siege of Sidon (1110)",
+        "type": "event",
+        "slug": "siege-of-sidon-1110",
+        "label": "Conquest that created the Lordship of Sidon, 1110"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "The kingdom's rebuilding"
       }
     ],
     "orders": [

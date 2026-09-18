@@ -194,10 +194,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Louis IX of France",
+        "title": "Baybars",
         "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Commander"
+        "slug": "baybars",
+        "label": "Commander of the mamluks in the town"
       },
       {
         "title": "Charles of Anjou",
@@ -206,10 +206,10 @@
         "label": "Commander; the king’s brother"
       },
       {
-        "title": "Baybars",
+        "title": "Louis IX of France",
         "type": "person",
-        "slug": "baybars",
-        "label": "Commander of the mamluks in the town"
+        "slug": "louis-ix-of-france",
+        "label": "Commander"
       }
     ],
     "locations": [
@@ -228,16 +228,16 @@
     ],
     "events": [
       {
-        "title": "Battle of La Forbie",
-        "type": "event",
-        "slug": "battle-of-la-forbie",
-        "label": "The 1244 disaster that brought Louis IX east"
-      },
-      {
         "title": "Battle of Ain Jalut",
         "type": "event",
         "slug": "battle-of-ain-jalut",
         "label": "What the victors did next"
+      },
+      {
+        "title": "Battle of La Forbie",
+        "type": "event",
+        "slug": "battle-of-la-forbie",
+        "label": "The 1244 disaster that brought Louis IX east"
       }
     ],
     "orders": [

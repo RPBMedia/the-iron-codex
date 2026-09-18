@@ -115,6 +115,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Grand Duchy of Lithuania",
+        "type": "location",
+        "slug": "grand-duchy-of-lithuania",
+        "label": "Combatant faction"
+      },
+      {
         "title": "Grunwald",
         "type": "location",
         "slug": "grunwald",
@@ -125,19 +131,13 @@
         "type": "location",
         "slug": "kingdom-of-poland",
         "label": "Combatant faction"
-      },
-      {
-        "title": "Grand Duchy of Lithuania",
-        "type": "location",
-        "slug": "grand-duchy-of-lithuania",
-        "label": "Combatant faction"
       }
     ],
     "people": [
       {
-        "title": "Wladyslaw II Jagiello",
+        "title": "Ulrich von Jungingen",
         "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
+        "slug": "ulrich-von-jungingen",
         "label": "Commander"
       },
       {
@@ -147,9 +147,9 @@
         "label": "Commander"
       },
       {
-        "title": "Ulrich von Jungingen",
+        "title": "Wladyslaw II Jagiello",
         "type": "person",
-        "slug": "ulrich-von-jungingen",
+        "slug": "wladyslaw-ii-jagiello",
         "label": "Commander"
       }
     ],

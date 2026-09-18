@@ -149,16 +149,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Realm"
-      },
-      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
         "label": "Birthplace"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Realm"
       }
     ],
     "people": [
@@ -168,15 +168,15 @@
         "slug": "baldwin-i-of-jerusalem"
       },
       {
-        "title": "Melisende of Jerusalem",
-        "type": "person",
-        "slug": "melisende-of-jerusalem"
-      },
-      {
         "title": "Baldwin IV of Jerusalem",
         "type": "person",
         "slug": "baldwin-iv-of-jerusalem",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Melisende of Jerusalem",
+        "type": "person",
+        "slug": "melisende-of-jerusalem"
       }
     ],
     "events": [

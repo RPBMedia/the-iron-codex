@@ -197,16 +197,16 @@
     ],
     "events": [
       {
-        "title": "Fall of Western Rome",
-        "type": "event",
-        "slug": "fall-of-western-rome",
-        "label": "The deposition of 476, ten years earlier"
-      },
-      {
         "title": "Battle of Tertry",
         "type": "event",
         "slug": "battle-of-tertry",
         "label": "Where the dynasty founded here lost real power, 687"
+      },
+      {
+        "title": "Fall of Western Rome",
+        "type": "event",
+        "slug": "fall-of-western-rome",
+        "label": "The deposition of 476, ten years earlier"
       }
     ],
     "houses": [

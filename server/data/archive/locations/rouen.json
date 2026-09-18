@@ -88,16 +88,22 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Empress Matilda",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Death of William the Conqueror"
+        "slug": "empress-matilda",
+        "label": "Died near the city in 1167"
       },
       {
         "title": "Joan of Arc",
         "type": "person",
         "slug": "joan-of-arc",
         "label": "Death of Joan of Arc"
+      },
+      {
+        "title": "John, Duke of Bedford",
+        "type": "person",
+        "slug": "john-duke-of-bedford",
+        "label": "Governed English France from Rouen; buried here"
       },
       {
         "title": "Philip II of France",
@@ -112,16 +118,10 @@
         "label": "Heart buried in the cathedral"
       },
       {
-        "title": "John, Duke of Bedford",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "john-duke-of-bedford",
-        "label": "Governed English France from Rouen; buried here"
-      },
-      {
-        "title": "Empress Matilda",
-        "type": "person",
-        "slug": "empress-matilda",
-        "label": "Died near the city in 1167"
+        "slug": "william-the-conqueror",
+        "label": "Death of William the Conqueror"
       }
     ],
     "locations": [

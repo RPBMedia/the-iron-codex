@@ -108,27 +108,27 @@
         "slug": "lance"
       },
       {
-        "title": "Shield",
-        "type": "weaponArmor",
-        "slug": "shield"
-      },
-      {
         "title": "Pike",
         "type": "weaponArmor",
         "slug": "pike",
         "label": "The four-to-six-metre descendant that beat cavalry"
+      },
+      {
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield"
       }
     ],
     "events": [
       {
-        "title": "Battle of Hastings",
-        "type": "event",
-        "slug": "battle-of-hastings"
-      },
-      {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn"
+      },
+      {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
       },
       {
         "title": "Battle of Legnano",

@@ -151,16 +151,16 @@
     ],
     "locations": [
       {
-        "name": "Kingdom of Wessex",
-        "title": "Kingdom of Wessex",
-        "type": "location",
-        "slug": "kingdom-of-wessex"
-      },
-      {
         "name": "Kingdom of England",
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england"
+      },
+      {
+        "name": "Kingdom of Wessex",
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex"
       }
     ],
     "events": [

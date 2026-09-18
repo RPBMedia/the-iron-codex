@@ -121,12 +121,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Stamford Bridge",
-        "type": "location",
-        "slug": "stamford-bridge",
-        "label": "Battlefield"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
@@ -137,19 +131,25 @@
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Stamford Bridge",
+        "type": "location",
+        "slug": "stamford-bridge",
+        "label": "Battlefield"
       }
     ],
     "people": [
       {
-        "title": "Harold Godwinson",
-        "type": "person",
-        "slug": "harold-godwinson",
-        "label": "Commander"
-      },
-      {
         "title": "Harald Hardrada",
         "type": "person",
         "slug": "harald-hardrada",
+        "label": "Commander"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson",
         "label": "Commander"
       },
       {

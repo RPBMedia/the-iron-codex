@@ -135,10 +135,16 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Surcoat",
+        "title": "Funeral Achievements of Henry V",
+        "slug": "henry-v-achievements",
+        "label": "The other great English funerary group",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Gauntlet",
         "type": "weaponArmor",
-        "slug": "surcoat",
-        "label": "The jupon is the outstanding surviving example"
+        "slug": "gauntlet",
+        "label": "The gilt gauntlets of the group"
       },
       {
         "title": "Great Helm",
@@ -159,22 +165,16 @@
         "label": "The shield of the group"
       },
       {
-        "title": "Gauntlet",
-        "type": "weaponArmor",
-        "slug": "gauntlet",
-        "label": "The gilt gauntlets of the group"
-      },
-      {
         "title": "Pembridge Helm",
         "type": "weaponArmor",
         "slug": "pembridge-helm",
         "label": "Another English funerary helm"
       },
       {
-        "title": "Funeral Achievements of Henry V",
-        "slug": "henry-v-achievements",
-        "label": "The other great English funerary group",
-        "type": "weaponArmor"
+        "title": "Surcoat",
+        "type": "weaponArmor",
+        "slug": "surcoat",
+        "label": "The jupon is the outstanding surviving example"
       }
     ]
   },

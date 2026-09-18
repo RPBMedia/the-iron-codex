@@ -109,24 +109,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Pavise",
+        "title": "Arquebus",
         "type": "weaponArmor",
-        "slug": "pavise"
-      },
-      {
-        "title": "Longbow",
-        "type": "weaponArmor",
-        "slug": "longbow"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
-        "title": "Kettle Hat / Kettle Helm",
-        "type": "weaponArmor",
-        "slug": "kettle-hat"
+        "slug": "arquebus",
+        "label": "The firearm that finally displaced it"
       },
       {
         "title": "Hand Cannon",
@@ -135,10 +121,24 @@
         "label": "The weapon that displaced it"
       },
       {
-        "title": "Arquebus",
+        "title": "Kettle Hat / Kettle Helm",
         "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "The firearm that finally displaced it"
+        "slug": "kettle-hat"
+      },
+      {
+        "title": "Longbow",
+        "type": "weaponArmor",
+        "slug": "longbow"
+      },
+      {
+        "title": "Pavise",
+        "type": "weaponArmor",
+        "slug": "pavise"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
       }
     ]
   },

@@ -224,22 +224,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Shield",
+        "title": "Buckler",
         "type": "weaponArmor",
-        "slug": "shield",
-        "label": "The wider history of the object"
-      },
-      {
-        "title": "Kite Shield",
-        "type": "weaponArmor",
-        "slug": "kite-shield",
-        "label": "The mounted form that displaced it"
-      },
-      {
-        "title": "Viking Sword",
-        "type": "weaponArmor",
-        "slug": "viking-sword",
-        "label": "Its constant partner in the sources"
+        "slug": "buckler",
+        "label": "The centre-grip descendant"
       },
       {
         "title": "Dane Axe",
@@ -248,16 +236,28 @@
         "label": "The weapon that required giving it up"
       },
       {
-        "title": "Buckler",
+        "title": "Kite Shield",
         "type": "weaponArmor",
-        "slug": "buckler",
-        "label": "The centre-grip descendant"
+        "slug": "kite-shield",
+        "label": "The mounted form that displaced it"
+      },
+      {
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield",
+        "label": "The wider history of the object"
       },
       {
         "title": "Spear",
         "type": "weaponArmor",
         "slug": "spear",
         "label": "The weapon most shield-wall fighters actually carried"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword",
+        "label": "Its constant partner in the sources"
       }
     ]
   },

@@ -157,40 +157,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Charles d'Albret",
-        "type": "person",
-        "slug": "charles-d-albret",
-        "label": "Son of a Gascon lord of Albret"
-      },
-      {
         "title": "Abd al-Rahman al-Ghafiqi",
         "type": "person",
         "slug": "abd-al-rahman-al-ghafiqi",
         "label": "Stormed Bordeaux in 732"
-      },
-      {
-        "title": "Pepin the Short",
-        "type": "person",
-        "slug": "pepin-the-short",
-        "label": "Crushed Duke Waifer, 760–768"
-      },
-      {
-        "title": "Louis the Pious",
-        "type": "person",
-        "slug": "louis-the-pious",
-        "label": "Deposed the Basque duke Seguin, 816"
-      },
-      {
-        "title": "Eleanor of Aquitaine",
-        "type": "person",
-        "slug": "eleanor-of-aquitaine",
-        "label": "Brought the duchy to the Plantagenets, 1152"
-      },
-      {
-        "title": "Henry II of England",
-        "type": "person",
-        "slug": "henry-ii-of-england",
-        "label": "First Plantagenet king-duke"
       },
       {
         "title": "Alfonso VIII of Castile",
@@ -199,28 +169,10 @@
         "label": "Invaded it as a dowry claim, 1205"
       },
       {
-        "title": "Henry III of England",
+        "title": "Charles d'Albret",
         "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "Campaigned there in 1253–1254"
-      },
-      {
-        "title": "Eleanor of Castile",
-        "type": "person",
-        "slug": "eleanor-of-castile",
-        "label": "Her marriage ended the Castilian claim, 1254"
-      },
-      {
-        "title": "Edward I of England",
-        "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Duke from 1254; founded Monpazier"
-      },
-      {
-        "title": "Philip IV of France",
-        "type": "person",
-        "slug": "philip-iv-of-france",
-        "label": "Confiscated the duchy in 1294"
+        "slug": "charles-d-albret",
+        "label": "Son of a Gascon lord of Albret"
       },
       {
         "title": "Charles IV of France",
@@ -229,40 +181,10 @@
         "label": "Overran it in the War of Saint-Sardos, 1324"
       },
       {
-        "title": "Edward III of England",
-        "type": "person",
-        "slug": "edward-iii-of-england",
-        "label": "Lost it by confiscation in 1337"
-      },
-      {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Declared it confiscated, 1337"
-      },
-      {
-        "title": "Edward, the Black Prince",
-        "type": "person",
-        "slug": "edward-the-black-prince",
-        "label": "Ruled Aquitaine from Bordeaux"
-      },
-      {
-        "title": "Richard II of England",
-        "type": "person",
-        "slug": "richard-ii-of-england",
-        "label": "Born at Bordeaux, 1367"
-      },
-      {
         "title": "Charles V of France",
         "type": "person",
         "slug": "charles-v-of-france",
         "label": "Heard the Gascon appeals of 1368"
-      },
-      {
-        "title": "Pope Clement V",
-        "type": "person",
-        "slug": "pope-clement-v",
-        "label": "Gascon archbishop of Bordeaux elected pope"
       },
       {
         "title": "Charles VII of France",
@@ -271,24 +193,102 @@
         "label": "Conquered it in 1451–1453"
       },
       {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Duke from 1254; founded Monpazier"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Lost it by confiscation in 1337"
+      },
+      {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Ruled Aquitaine from Bordeaux"
+      },
+      {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "Brought the duchy to the Plantagenets, 1152"
+      },
+      {
+        "title": "Eleanor of Castile",
+        "type": "person",
+        "slug": "eleanor-of-castile",
+        "label": "Her marriage ended the Castilian claim, 1254"
+      },
+      {
+        "title": "Henry II of England",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "First Plantagenet king-duke"
+      },
+      {
+        "title": "Henry III of England",
+        "type": "person",
+        "slug": "henry-iii-of-england",
+        "label": "Campaigned there in 1253–1254"
+      },
+      {
         "title": "John Talbot, Earl of Shrewsbury",
         "type": "person",
         "slug": "john-talbot",
         "label": "Recovered Bordeaux in 1452"
+      },
+      {
+        "title": "Louis the Pious",
+        "type": "person",
+        "slug": "louis-the-pious",
+        "label": "Deposed the Basque duke Seguin, 816"
+      },
+      {
+        "title": "Pepin the Short",
+        "type": "person",
+        "slug": "pepin-the-short",
+        "label": "Crushed Duke Waifer, 760–768"
+      },
+      {
+        "title": "Philip IV of France",
+        "type": "person",
+        "slug": "philip-iv-of-france",
+        "label": "Confiscated the duchy in 1294"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Declared it confiscated, 1337"
+      },
+      {
+        "title": "Pope Clement V",
+        "type": "person",
+        "slug": "pope-clement-v",
+        "label": "Gascon archbishop of Bordeaux elected pope"
+      },
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "Born at Bordeaux, 1367"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Overlord of the dukes of Gascony"
-      },
       {
         "title": "Aquitaine",
         "type": "location",
         "slug": "aquitaine",
         "label": "The duchy it was joined to in the eleventh century"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Overlord of the dukes of Gascony"
       }
     ],
     "events": [
@@ -299,16 +299,16 @@
         "label": "Where the Gascon Charles d'Albret was killed, 1415"
       },
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Began with its confiscation in 1337"
-      },
-      {
         "title": "Battle of Castillon",
         "type": "event",
         "slug": "battle-of-castillon",
         "label": "Ended English rule, 1453"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Began with its confiscation in 1337"
       }
     ],
     "houses": [

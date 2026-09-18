@@ -134,10 +134,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
+        "title": "Antioch",
         "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Realm"
+        "slug": "antioch",
+        "label": "Ruled it by marriage"
       },
       {
         "title": "Ayyubid Sultanate",
@@ -145,41 +145,41 @@
         "slug": "ayyubid-sultanate"
       },
       {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Ruled it by marriage"
-      },
-      {
         "title": "Kerak",
         "type": "location",
         "slug": "kerak",
         "label": "His castle and seat as lord of Oultrejordain"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Realm"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
-      {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin"
-      },
       {
         "title": "Raymond III of Tripoli",
         "type": "person",
         "slug": "raymond-iii-of-tripoli",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
       },
       {
         "title": "Sibylla of Jerusalem",

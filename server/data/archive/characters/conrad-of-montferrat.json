@@ -134,23 +134,18 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "Realm"
-      },
-      {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Hattin",
         "type": "event",
@@ -161,9 +156,20 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "Negotiated the surrender of 12 July 1191"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
+      {
+        "title": "Balian of Ibelin",
+        "type": "person",
+        "slug": "balian-of-ibelin",
+        "label": "Ruler of Kingdom of Jerusalem"
+      },
       {
         "title": "Saladin",
         "type": "person",
@@ -173,12 +179,6 @@
         "title": "Sibylla of Jerusalem",
         "type": "person",
         "slug": "sibylla-of-jerusalem",
-        "label": "Ruler of Kingdom of Jerusalem"
-      },
-      {
-        "title": "Balian of Ibelin",
-        "type": "person",
-        "slug": "balian-of-ibelin",
         "label": "Ruler of Kingdom of Jerusalem"
       }
     ]

@@ -209,24 +209,24 @@
         "label": "Her father and predecessor"
       },
       {
-        "title": "Teresa of León",
-        "type": "person",
-        "slug": "teresa-of-leon",
-        "label": "Her half-sister, who ruled Portugal against her"
-      },
-      {
         "title": "Henry, Count of Portugal",
         "type": "person",
         "slug": "henry-count-of-portugal",
         "label": "Her brother-in-law, who bargained with every side in her wars"
+      },
+      {
+        "title": "Teresa of León",
+        "type": "person",
+        "slug": "teresa-of-leon",
+        "label": "Her half-sister, who ruled Portugal against her"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of León",
+        "title": "Kingdom of Aragon",
         "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "The senior crown she inherited and held"
+        "slug": "kingdom-of-aragon",
+        "label": "Her second husband’s realm and her chief enemy"
       },
       {
         "title": "Kingdom of Castile",
@@ -235,10 +235,10 @@
         "label": "Held with León, and garrisoned against her by her own husband"
       },
       {
-        "title": "Kingdom of Aragon",
+        "title": "Kingdom of León",
         "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "Her second husband’s realm and her chief enemy"
+        "slug": "kingdom-of-leon",
+        "label": "The senior crown she inherited and held"
       },
       {
         "title": "Kingdom of Portugal",

@@ -150,10 +150,16 @@
     ],
     "people": [
       {
-        "title": "Eleanor of Aquitaine",
+        "title": "Charles Martel",
         "type": "person",
-        "slug": "eleanor-of-aquitaine",
-        "label": "Birthplace of Eleanor of Aquitaine"
+        "slug": "charles-martel",
+        "label": "Defeated the Umayyad army nearby, 732"
+      },
+      {
+        "title": "Charles VII of France",
+        "type": "person",
+        "slug": "charles-vii-of-france",
+        "label": "Kept his Parlement here, 1418–1436"
       },
       {
         "title": "Edward, the Black Prince",
@@ -162,16 +168,28 @@
         "label": "Fought here"
       },
       {
+        "title": "Eleanor of Aquitaine",
+        "type": "person",
+        "slug": "eleanor-of-aquitaine",
+        "label": "Birthplace of Eleanor of Aquitaine"
+      },
+      {
+        "title": "Henry II of England",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "Began the cathedral, 1162"
+      },
+      {
+        "title": "Joan of Arc",
+        "type": "person",
+        "slug": "joan-of-arc",
+        "label": "Examined here, 1429"
+      },
+      {
         "title": "John II of France",
         "type": "person",
         "slug": "john-ii-of-france",
         "label": "Fought here"
-      },
-      {
-        "title": "Charles Martel",
-        "type": "person",
-        "slug": "charles-martel",
-        "label": "Defeated the Umayyad army nearby, 732"
       },
       {
         "title": "Louis the Pious",
@@ -186,47 +204,29 @@
         "label": "Enthroned as duke here, 1137"
       },
       {
-        "title": "Henry II of England",
-        "type": "person",
-        "slug": "henry-ii-of-england",
-        "label": "Began the cathedral, 1162"
-      },
-      {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Installed as duke here, 1172"
-      },
-      {
         "title": "Philip II of France",
         "type": "person",
         "slug": "philip-ii-of-france",
         "label": "Took the city, 1204"
       },
       {
-        "title": "Charles VII of France",
+        "title": "Richard the Lionheart",
         "type": "person",
-        "slug": "charles-vii-of-france",
-        "label": "Kept his Parlement here, 1418–1436"
-      },
-      {
-        "title": "Joan of Arc",
-        "type": "person",
-        "slug": "joan-of-arc",
-        "label": "Examined here, 1429"
+        "slug": "richard-the-lionheart",
+        "label": "Installed as duke here, 1172"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Combatant here"
-      },
-      {
         "title": "Aquitaine",
         "type": "location",
         "slug": "aquitaine",
+        "label": "Combatant here"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
         "label": "Combatant here"
       },
       {

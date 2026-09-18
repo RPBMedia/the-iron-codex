@@ -180,18 +180,6 @@
     ],
     "people": [
       {
-        "title": "Edward the Elder",
-        "type": "person",
-        "slug": "edward-the-elder",
-        "label": "His father and predecessor"
-      },
-      {
-        "title": "Edmund I of England",
-        "type": "person",
-        "slug": "edmund-i-of-england",
-        "label": "His half-brother and successor"
-      },
-      {
         "title": "Alfred the Great",
         "type": "person",
         "slug": "alfred-the-great",
@@ -202,6 +190,18 @@
         "type": "person",
         "slug": "ealhswith",
         "label": "Grandmother"
+      },
+      {
+        "title": "Edmund I of England",
+        "type": "person",
+        "slug": "edmund-i-of-england",
+        "label": "His half-brother and successor"
+      },
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "His father and predecessor"
       }
     ],
     "events": [

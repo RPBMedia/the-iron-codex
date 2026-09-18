@@ -136,10 +136,9 @@
     ],
     "locations": [
       {
-        "title": "Latin Empire",
+        "title": "Constantinople",
         "type": "location",
-        "slug": "latin-empire",
-        "label": "Extinguished by it"
+        "slug": "constantinople"
       },
       {
         "title": "Empire of Nicaea",
@@ -148,9 +147,10 @@
         "label": "Which became the restored empire"
       },
       {
-        "title": "Constantinople",
+        "title": "Latin Empire",
         "type": "location",
-        "slug": "constantinople"
+        "slug": "latin-empire",
+        "label": "Extinguished by it"
       }
     ]
   },

@@ -152,12 +152,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Stenkil",
-        "type": "person",
-        "slug": "stenkil",
-        "label": "Founder"
-      },
-      {
         "title": "Inge the Elder",
         "type": "person",
         "slug": "inge-the-elder",
@@ -168,6 +162,12 @@
         "type": "person",
         "slug": "inge-the-younger",
         "label": "Last of the line"
+      },
+      {
+        "title": "Stenkil",
+        "type": "person",
+        "slug": "stenkil",
+        "label": "Founder"
       }
     ],
     "locations": [

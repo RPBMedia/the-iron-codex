@@ -172,6 +172,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "John I Tzimiskes",
+        "type": "person",
+        "slug": "john-i-tzimiskes",
+        "label": "Served under Nikephoros in the campaign"
+      },
+      {
         "title": "Nikephoros II Phokas",
         "type": "person",
         "slug": "nikephoros-ii-phokas",
@@ -182,40 +188,34 @@
         "type": "person",
         "slug": "sayf-al-dawla",
         "label": "Lost his capital here"
-      },
-      {
-        "title": "John I Tzimiskes",
-        "type": "person",
-        "slug": "john-i-tzimiskes",
-        "label": "Served under Nikephoros in the campaign"
       }
     ],
     "events": [
-      {
-        "title": "Siege of Chandax",
-        "type": "event",
-        "slug": "siege-of-chandax",
-        "label": "The victory that freed the resources for this"
-      },
       {
         "title": "Siege of Antioch (969)",
         "type": "event",
         "slug": "siege-of-antioch-969",
         "label": "Where the empire took and kept a Syrian city"
+      },
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "The victory that freed the resources for this"
       }
     ],
     "locations": [
-      {
-        "title": "Hamdanid Emirate of Aleppo",
-        "type": "location",
-        "slug": "hamdanid-emirate-of-aleppo",
-        "label": "Whose capital this was"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Whose eastern offensive begins in earnest here"
+      },
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "Whose capital this was"
       }
     ]
   },

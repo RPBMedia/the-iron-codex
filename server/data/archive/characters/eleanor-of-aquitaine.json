@@ -164,22 +164,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Poitiers",
+        "title": "Aquitaine",
         "type": "location",
-        "slug": "poitiers",
-        "label": "Birthplace"
+        "slug": "aquitaine",
+        "label": "Her duchy, held in her own right"
       },
       {
         "title": "Fontevraud Abbey",
         "type": "location",
         "slug": "fontevraud-abbey",
         "label": "Place of death"
-      },
-      {
-        "title": "Aquitaine",
-        "type": "location",
-        "slug": "aquitaine",
-        "label": "Her duchy, held in her own right"
       },
       {
         "title": "Kingdom of England",
@@ -192,20 +186,26 @@
         "type": "location",
         "slug": "kingdom-of-france",
         "label": "Queen of France by her first marriage"
+      },
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "Birthplace"
       }
     ],
     "people": [
-      {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Her son, whom she supported as king"
-      },
       {
         "title": "Louis VII of France",
         "type": "person",
         "slug": "louis-vii-of-france",
         "label": "Her first husband"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Her son, whom she supported as king"
       }
     ]
   },

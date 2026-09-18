@@ -221,12 +221,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Simon de Montfort, 6th Earl of Leicester",
-        "type": "person",
-        "slug": "simon-de-montfort",
-        "label": "Killed and dismembered here"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
@@ -237,6 +231,12 @@
         "type": "person",
         "slug": "henry-iii-of-england",
         "label": "Restored to power by the victory"
+      },
+      {
+        "title": "Simon de Montfort, 6th Earl of Leicester",
+        "type": "person",
+        "slug": "simon-de-montfort",
+        "label": "Killed and dismembered here"
       }
     ],
     "locations": [

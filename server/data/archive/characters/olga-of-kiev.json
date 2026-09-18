@@ -217,10 +217,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kievan Rus’",
+        "title": "Byzantine Empire",
         "type": "location",
-        "slug": "kievan-rus",
-        "label": "Place of death"
+        "slug": "byzantine-empire",
+        "label": "Diplomatic and religious connection"
       },
       {
         "title": "Constantinople",
@@ -229,24 +229,24 @@
         "label": "Site of her baptism, documented by Constantine VII"
       },
       {
-        "title": "Byzantine Empire",
+        "title": "Kievan Rus’",
         "type": "location",
-        "slug": "byzantine-empire",
-        "label": "Diplomatic and religious connection"
+        "slug": "kievan-rus",
+        "label": "Place of death"
       }
     ],
     "people": [
-      {
-        "title": "Oleg of Novgorod",
-        "type": "person",
-        "slug": "oleg-of-novgorod",
-        "label": "Predecessor; established the Kyiv power base"
-      },
       {
         "title": "Igor of Kiev",
         "type": "person",
         "slug": "igor-of-kiev",
         "label": "Husband; his murder precipitated her regency"
+      },
+      {
+        "title": "Oleg of Novgorod",
+        "type": "person",
+        "slug": "oleg-of-novgorod",
+        "label": "Predecessor; established the Kyiv power base"
       },
       {
         "title": "Rurik",

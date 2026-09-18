@@ -99,6 +99,12 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Bec de Corbin",
+        "type": "weaponArmor",
+        "slug": "bec-de-corbin",
+        "label": "The long-hafted form of the same idea"
+      },
+      {
         "title": "Mace",
         "type": "weaponArmor",
         "slug": "mace"
@@ -112,12 +118,6 @@
         "title": "Poleaxe",
         "type": "weaponArmor",
         "slug": "poleaxe"
-      },
-      {
-        "title": "Bec de Corbin",
-        "type": "weaponArmor",
-        "slug": "bec-de-corbin",
-        "label": "The long-hafted form of the same idea"
       }
     ],
     "events": [

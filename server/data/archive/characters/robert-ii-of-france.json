@@ -178,16 +178,16 @@
     ],
     "people": [
       {
-        "title": "Hugh Capet",
-        "type": "person",
-        "slug": "hugh-capet",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Henry I of France",
         "type": "person",
         "slug": "henry-i-of-france",
         "label": "His son and successor"
+      },
+      {
+        "title": "Hugh Capet",
+        "type": "person",
+        "slug": "hugh-capet",
+        "label": "His father and predecessor"
       }
     ],
     "events": []

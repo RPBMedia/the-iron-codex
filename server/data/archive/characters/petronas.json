@@ -176,16 +176,16 @@
     ],
     "locations": [
       {
-        "title": "Emirate of Melitene",
-        "type": "location",
-        "slug": "emirate-of-melitene",
-        "label": "Whose army he destroyed and whose emir he killed"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire whose eastern frontier he reversed"
+      },
+      {
+        "title": "Emirate of Melitene",
+        "type": "location",
+        "slug": "emirate-of-melitene",
+        "label": "Whose army he destroyed and whose emir he killed"
       }
     ]
   },

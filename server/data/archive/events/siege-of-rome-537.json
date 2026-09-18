@@ -135,30 +135,30 @@
     ],
     "events": [
       {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "The war it belongs to"
-      },
-      {
         "title": "Battle of Taginae",
         "type": "event",
         "slug": "battle-of-taginae",
         "label": "Where the war was finally decided"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war it belongs to"
       }
     ],
     "locations": [
-      {
-        "title": "Rome",
-        "type": "location",
-        "slug": "rome",
-        "label": "The city besieged"
-      },
       {
         "title": "Ostrogothic Kingdom",
         "type": "location",
         "slug": "ostrogothic-kingdom",
         "label": "The besieging power"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "The city besieged"
       }
     ]
   },

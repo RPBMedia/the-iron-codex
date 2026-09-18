@@ -192,12 +192,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "Master of Aviz who became king"
-      },
-      {
         "title": "Afonso I of Portugal",
         "type": "person",
         "slug": "afonso-i-of-portugal",
@@ -208,6 +202,12 @@
         "type": "person",
         "slug": "henry-the-navigator",
         "label": "Son of John I, the former master of the order"
+      },
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Master of Aviz who became king"
       }
     ],
     "events": [

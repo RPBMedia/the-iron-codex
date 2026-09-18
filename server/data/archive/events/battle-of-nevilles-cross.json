@@ -200,29 +200,29 @@
         "label": "Commanded, was wounded and captured here"
       },
       {
-        "title": "Robert II of Scotland",
-        "type": "person",
-        "slug": "robert-ii-of-scotland",
-        "label": "Led the division that left the field, and became king in 1371"
-      },
-      {
         "title": "Edward III of England",
         "type": "person",
         "slug": "edward-iii-of-england",
         "label": "Besieging Calais while his northern counties won the battle"
+      },
+      {
+        "title": "Robert II of Scotland",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "Led the division that left the field, and became king in 1371"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant realm"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
+        "label": "Combatant realm"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
         "label": "Combatant realm"
       }
     ],

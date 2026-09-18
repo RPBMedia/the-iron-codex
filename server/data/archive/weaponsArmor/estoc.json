@@ -137,34 +137,16 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The defence it was built to defeat"
-      },
-      {
-        "title": "Longsword",
-        "type": "weaponArmor",
-        "slug": "longsword",
-        "label": "Shares the half-sword technique"
-      },
-      {
-        "title": "Rondel Dagger",
-        "type": "weaponArmor",
-        "slug": "rondel-dagger",
-        "label": "The same idea at close quarters"
-      },
-      {
-        "title": "Poleaxe",
-        "type": "weaponArmor",
-        "slug": "poleaxe",
-        "label": "The other answer to a good harness"
-      },
-      {
         "title": "Arming Sword",
         "type": "weaponArmor",
         "slug": "arming-sword",
         "label": "The cutting sword it deliberately abandons"
+      },
+      {
+        "title": "Bec de Corbin",
+        "type": "weaponArmor",
+        "slug": "bec-de-corbin",
+        "label": "The staff weapon built for the same problem"
       },
       {
         "title": "Lance",
@@ -173,10 +155,28 @@
         "label": "Carried at the saddle as its successor in the charge"
       },
       {
-        "title": "Bec de Corbin",
+        "title": "Longsword",
         "type": "weaponArmor",
-        "slug": "bec-de-corbin",
-        "label": "The staff weapon built for the same problem"
+        "slug": "longsword",
+        "label": "Shares the half-sword technique"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The defence it was built to defeat"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "The other answer to a good harness"
+      },
+      {
+        "title": "Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger",
+        "label": "The same idea at close quarters"
       }
     ]
   },

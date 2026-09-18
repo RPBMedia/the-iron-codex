@@ -179,16 +179,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of León",
-        "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "Mother-crown and first rival"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The neighbour of treaties and wars"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "Mother-crown and first rival"
       },
       {
         "title": "Lisbon",
@@ -198,6 +198,12 @@
       }
     ],
     "events": [
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "Independence defended, 1385"
+      },
       {
         "title": "Battle of São Mamede",
         "type": "event",
@@ -209,12 +215,6 @@
         "type": "event",
         "slug": "siege-of-lisbon",
         "label": "The great conquest, 1147"
-      },
-      {
-        "title": "Battle of Aljubarrota",
-        "type": "event",
-        "slug": "battle-of-aljubarrota",
-        "label": "Independence defended, 1385"
       }
     ]
   },

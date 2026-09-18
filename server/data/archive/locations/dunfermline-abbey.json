@@ -98,10 +98,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "David II of Scotland",
         "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Buried in the choir in 1329"
+        "slug": "david-ii-of-scotland",
+        "label": "Born at Dunfermline in 1324"
+      },
+      {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Wintered here in 1303 and burned the monastic buildings"
       },
       {
         "title": "Malcolm III of Scotland",
@@ -116,16 +122,10 @@
         "label": "Daughter of Malcolm and Margaret, born at Dunfermline"
       },
       {
-        "title": "Edward I of England",
+        "title": "Robert the Bruce",
         "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Wintered here in 1303 and burned the monastic buildings"
-      },
-      {
-        "title": "David II of Scotland",
-        "type": "person",
-        "slug": "david-ii-of-scotland",
-        "label": "Born at Dunfermline in 1324"
+        "slug": "robert-the-bruce",
+        "label": "Buried in the choir in 1329"
       }
     ],
     "locations": [
@@ -136,30 +136,30 @@
         "label": "The realm whose kings were buried here"
       },
       {
-        "title": "Melrose Abbey",
-        "type": "location",
-        "slug": "melrose-abbey",
-        "label": "Where Bruce’s heart was buried"
-      },
-      {
         "title": "Manor of Cardross",
         "type": "location",
         "slug": "manor-of-cardross",
         "label": "Where Bruce died, and from which his body was brought"
+      },
+      {
+        "title": "Melrose Abbey",
+        "type": "location",
+        "slug": "melrose-abbey",
+        "label": "Where Bruce’s heart was buried"
       }
     ],
     "events": [
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war that brought Edward I to the abbey"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
         "label": "The victory of the king buried here"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war that brought Edward I to the abbey"
       }
     ]
   },

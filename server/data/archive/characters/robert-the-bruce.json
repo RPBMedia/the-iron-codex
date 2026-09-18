@@ -312,14 +312,10 @@
         "label": "Fought in this engagement"
       },
       {
-        "title": "Wars of Scottish Independence",
+        "title": "Battle of Loudoun Hill",
         "type": "event",
-        "slug": "wars-of-scottish-independence"
-      },
-      {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton"
+        "slug": "battle-of-loudoun-hill",
+        "label": "His first victory in the open, 1307"
       },
       {
         "title": "Battle of Methven",
@@ -328,10 +324,14 @@
         "label": "The defeat that made him a fugitive"
       },
       {
-        "title": "Battle of Loudoun Hill",
+        "title": "Treaty of Edinburgh-Northampton",
         "type": "event",
-        "slug": "battle-of-loudoun-hill",
-        "label": "His first victory in the open, 1307"
+        "slug": "treaty-of-edinburgh-northampton"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
       }
     ],
     "people": [

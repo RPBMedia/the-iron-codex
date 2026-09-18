@@ -143,16 +143,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Holy Roman Empire",
-        "type": "location",
-        "slug": "holy-roman-empire",
-        "label": "Birthplace"
-      },
-      {
         "title": "Harzburg",
         "type": "location",
         "slug": "harzburg",
         "label": "Place of death"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Birthplace"
       }
     ],
     "events": [

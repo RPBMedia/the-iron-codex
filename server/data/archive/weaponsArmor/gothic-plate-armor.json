@@ -89,14 +89,15 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Gauntlet",
+        "type": "weaponArmor",
+        "slug": "gauntlet",
+        "label": "German gauntlets follow the same fluted, pointed style"
+      },
+      {
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor"
-      },
-      {
-        "title": "Sallet",
-        "type": "weaponArmor",
-        "slug": "sallet"
       },
       {
         "title": "Poleaxe",
@@ -104,22 +105,21 @@
         "slug": "poleaxe"
       },
       {
-        "title": "Gauntlet",
+        "title": "Sallet",
         "type": "weaponArmor",
-        "slug": "gauntlet",
-        "label": "German gauntlets follow the same fluted, pointed style"
+        "slug": "sallet"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
       }
     ]
   },

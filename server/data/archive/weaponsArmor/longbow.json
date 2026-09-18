@@ -97,14 +97,14 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Crécy",
-        "type": "event",
-        "slug": "battle-of-crecy"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy"
       },
       {
         "title": "Hundred Years' War",
@@ -126,9 +126,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "War Bow",
+        "title": "Arquebus",
         "type": "weaponArmor",
-        "slug": "war-bow"
+        "slug": "arquebus",
+        "label": "The firearm that made trained archery unaffordable"
       },
       {
         "title": "Hand Cannon",
@@ -137,10 +138,9 @@
         "label": "The weapon that replaced the trained archer"
       },
       {
-        "title": "Arquebus",
+        "title": "War Bow",
         "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "The firearm that made trained archery unaffordable"
+        "slug": "war-bow"
       }
     ]
   },

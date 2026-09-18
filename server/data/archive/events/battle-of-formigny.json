@@ -155,16 +155,16 @@
         "label": "The war's final battle, three years later"
       },
       {
-        "title": "Siege of Rouen",
-        "type": "event",
-        "slug": "siege-of-rouen",
-        "label": "The conquest this battle undid"
-      },
-      {
         "title": "Hundred Years' War",
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The wider conflict"
+      },
+      {
+        "title": "Siege of Rouen",
+        "type": "event",
+        "slug": "siege-of-rouen",
+        "label": "The conquest this battle undid"
       }
     ],
     "locations": [
@@ -175,10 +175,9 @@
         "label": "The province regained"
       },
       {
-        "title": "Rouen",
+        "title": "Kingdom of England",
         "type": "location",
-        "slug": "rouen",
-        "label": "Recovered by France months earlier"
+        "slug": "kingdom-of-england"
       },
       {
         "title": "Kingdom of France",
@@ -186,9 +185,10 @@
         "slug": "kingdom-of-france"
       },
       {
-        "title": "Kingdom of England",
+        "title": "Rouen",
         "type": "location",
-        "slug": "kingdom-of-england"
+        "slug": "rouen",
+        "label": "Recovered by France months earlier"
       }
     ]
   },

@@ -146,16 +146,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Stamford Bridge",
-        "type": "event",
-        "slug": "battle-of-stamford-bridge",
-        "label": "Died in this engagement"
-      },
-      {
         "title": "Battle of Fulford",
         "type": "event",
         "slug": "battle-of-fulford",
         "label": "Commander"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Died in this engagement"
       }
     ],
     "locations": [
@@ -174,6 +174,18 @@
     ],
     "people": [
       {
+        "title": "Edith of Wessex",
+        "type": "person",
+        "slug": "edith-of-wessex",
+        "label": "Sister"
+      },
+      {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Ruler of Kingdom of England"
+      },
+      {
         "title": "Harald Hardrada",
         "type": "person",
         "slug": "harald-hardrada"
@@ -183,18 +195,6 @@
         "type": "person",
         "slug": "harold-godwinson",
         "label": "Ruler of Kingdom of England"
-      },
-      {
-        "title": "Edward the Confessor",
-        "type": "person",
-        "slug": "edward-the-confessor",
-        "label": "Ruler of Kingdom of England"
-      },
-      {
-        "title": "Edith of Wessex",
-        "type": "person",
-        "slug": "edith-of-wessex",
-        "label": "Sister"
       }
     ]
   },

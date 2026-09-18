@@ -162,18 +162,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Brother and predecessor"
-      },
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "The rival who took Normandy and won Bouvines"
-      },
-      {
         "title": "Eleanor of Aquitaine",
         "type": "person",
         "slug": "eleanor-of-aquitaine",
@@ -184,14 +172,21 @@
         "type": "person",
         "slug": "isabella-of-angouleme",
         "label": "Queen"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "The rival who took Normandy and won Bouvines"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Brother and predecessor"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
@@ -203,6 +198,11 @@
         "type": "location",
         "slug": "hastings",
         "label": "Castle he ordered slighted, 1216"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
       }
     ],
     "events": [

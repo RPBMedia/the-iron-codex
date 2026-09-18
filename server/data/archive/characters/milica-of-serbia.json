@@ -204,28 +204,28 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Prince Lazar",
-        "type": "person",
-        "slug": "prince-lazar",
-        "label": "Husband"
-      },
-      {
-        "title": "Stefan Lazarević",
-        "type": "person",
-        "slug": "stefan-lazarevic",
-        "label": "Son; she was his regent"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i",
         "label": "Ottoman sultan she accepted as overlord"
       },
       {
+        "title": "Prince Lazar",
+        "type": "person",
+        "slug": "prince-lazar",
+        "label": "Husband"
+      },
+      {
         "title": "Sigismund of Luxembourg",
         "type": "person",
         "slug": "sigismund-of-luxembourg",
         "label": "Hungarian king who invaded in 1389"
+      },
+      {
+        "title": "Stefan Lazarević",
+        "type": "person",
+        "slug": "stefan-lazarevic",
+        "label": "Son; she was his regent"
       }
     ],
     "events": [
@@ -238,16 +238,16 @@
     ],
     "locations": [
       {
-        "title": "Principality of Serbia",
-        "type": "location",
-        "slug": "principality-of-serbia",
-        "label": "Realm she governed"
-      },
-      {
         "title": "Kosovo Field",
         "type": "location",
         "slug": "kosovo-field",
         "label": "Where her husband died in 1389"
+      },
+      {
+        "title": "Principality of Serbia",
+        "type": "location",
+        "slug": "principality-of-serbia",
+        "label": "Realm she governed"
       }
     ],
     "houses": [

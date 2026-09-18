@@ -107,14 +107,14 @@
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
       }
     ]
   },

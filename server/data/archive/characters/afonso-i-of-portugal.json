@@ -179,12 +179,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The kingdom he founded"
-      },
-      {
         "title": "Al-Andalus",
         "type": "location",
         "slug": "al-andalus",
@@ -195,6 +189,12 @@
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The overlord kingdom he broke free from"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom he founded"
       },
       {
         "title": "Lisbon",
@@ -219,16 +219,16 @@
     ],
     "events": [
       {
-        "title": "Battle of São Mamede",
-        "type": "event",
-        "slug": "battle-of-sao-mamede",
-        "label": "Took the county from his mother's party, 1128"
-      },
-      {
         "title": "Battle of Ourique",
         "type": "event",
         "slug": "battle-of-ourique",
         "label": "The victory after which he was styled king, 1139"
+      },
+      {
+        "title": "Battle of São Mamede",
+        "type": "event",
+        "slug": "battle-of-sao-mamede",
+        "label": "Took the county from his mother's party, 1128"
       },
       {
         "title": "Siege of Lisbon",

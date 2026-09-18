@@ -157,16 +157,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Svolder",
-        "type": "event",
-        "slug": "battle-of-svolder",
-        "label": "The next great fight for the Norwegian crown, 1000"
-      },
-      {
         "title": "Battle of Stiklestad",
         "type": "event",
         "slug": "battle-of-stiklestad",
         "label": "The martyr-king's field, 1030"
+      },
+      {
+        "title": "Battle of Svolder",
+        "type": "event",
+        "slug": "battle-of-svolder",
+        "label": "The next great fight for the Norwegian crown, 1000"
       }
     ]
   },

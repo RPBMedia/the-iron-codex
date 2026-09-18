@@ -153,16 +153,16 @@
         "label": "Where Talbot swore his fatal oath"
       },
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The war this battle ended"
-      },
-      {
         "title": "Fall of Constantinople",
         "type": "event",
         "slug": "fall-of-constantinople",
         "label": "Artillery's other great victory of 1453"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war this battle ended"
       }
     ],
     "locations": [
@@ -173,14 +173,14 @@
         "label": "The duchy lost"
       },
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
       }
     ]
   },

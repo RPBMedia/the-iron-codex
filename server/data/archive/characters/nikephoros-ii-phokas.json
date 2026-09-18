@@ -190,16 +190,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Romanos II",
-        "type": "person",
-        "slug": "romanos-ii",
-        "label": "The emperor who sent him to Crete, and whose widow he married"
-      },
-      {
         "title": "John I Tzimiskes",
         "type": "person",
         "slug": "john-i-tzimiskes",
         "label": "His subordinate at Aleppo, and his murderer"
+      },
+      {
+        "title": "Romanos II",
+        "type": "person",
+        "slug": "romanos-ii",
+        "label": "The emperor who sent him to Crete, and whose widow he married"
       },
       {
         "title": "Sayf al-Dawla",
@@ -216,12 +216,6 @@
     ],
     "events": [
       {
-        "title": "Siege of Chandax",
-        "type": "event",
-        "slug": "siege-of-chandax",
-        "label": "The campaign that carried him to the throne"
-      },
-      {
         "title": "Sack of Aleppo",
         "type": "event",
         "slug": "siege-of-aleppo-962",
@@ -232,14 +226,20 @@
         "type": "event",
         "slug": "siege-of-antioch-969",
         "label": "Taken against his orders, nine weeks before his murder"
+      },
+      {
+        "title": "Siege of Chandax",
+        "type": "event",
+        "slug": "siege-of-chandax",
+        "label": "The campaign that carried him to the throne"
       }
     ],
     "locations": [
       {
-        "title": "Emirate of Crete",
+        "title": "Antioch",
         "type": "location",
-        "slug": "emirate-of-crete",
-        "label": "The state he destroyed"
+        "slug": "antioch",
+        "label": "His great eastern prize"
       },
       {
         "title": "Byzantine Empire",
@@ -254,10 +254,10 @@
         "label": "Where he was murdered in his own palace"
       },
       {
-        "title": "Antioch",
+        "title": "Emirate of Crete",
         "type": "location",
-        "slug": "antioch",
-        "label": "His great eastern prize"
+        "slug": "emirate-of-crete",
+        "label": "The state he destroyed"
       }
     ]
   },

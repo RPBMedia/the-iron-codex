@@ -125,30 +125,30 @@
     ],
     "locations": [
       {
-        "title": "Crusader States",
-        "type": "location",
-        "slug": "crusader-states",
-        "label": "The Latin territories the crusade fought to restore"
-      },
-      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
         "label": "Saladin's realm"
+      },
+      {
+        "title": "Crusader States",
+        "type": "location",
+        "slug": "crusader-states",
+        "label": "The Latin territories the crusade fought to restore"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade",
-        "label": "The campaign this victory belonged to"
-      },
       {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin",
         "label": "The 1187 disaster that had summoned the crusade"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "The campaign this victory belonged to"
       }
     ]
   },

@@ -116,12 +116,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "The founder"
-      },
-      {
         "title": "Al-Adil I",
         "type": "person",
         "slug": "al-adil-i"
@@ -136,6 +130,12 @@
         "type": "person",
         "slug": "baybars",
         "label": "The Mamluk successor-power"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "The founder"
       }
     ],
     "locations": [
@@ -154,9 +154,10 @@
     ],
     "events": [
       {
-        "title": "Third Crusade",
+        "title": "Battle of Ain Jalut",
         "type": "event",
-        "slug": "third-crusade"
+        "slug": "battle-of-ain-jalut",
+        "label": "1260 — the Mamluk successors take Syria"
       },
       {
         "title": "Battle of La Forbie",
@@ -171,10 +172,9 @@
         "label": "1250 — the victory that handed Egypt to the mamluks"
       },
       {
-        "title": "Battle of Ain Jalut",
+        "title": "Third Crusade",
         "type": "event",
-        "slug": "battle-of-ain-jalut",
-        "label": "1260 — the Mamluk successors take Syria"
+        "slug": "third-crusade"
       }
     ]
   },

@@ -164,10 +164,9 @@
     ],
     "locations": [
       {
-        "title": "Latin Empire",
+        "title": "Byzantine Empire",
         "type": "location",
-        "slug": "latin-empire",
-        "label": "Its rival in the capital"
+        "slug": "byzantine-empire"
       },
       {
         "title": "Despotate of Epirus",
@@ -176,9 +175,10 @@
         "label": "Its rival for the Greek imperial claim"
       },
       {
-        "title": "Byzantine Empire",
+        "title": "Latin Empire",
         "type": "location",
-        "slug": "byzantine-empire"
+        "slug": "latin-empire",
+        "label": "Its rival in the capital"
       }
     ]
   },

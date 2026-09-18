@@ -85,24 +85,9 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Pope Urban II",
-        "type": "person",
-        "slug": "pope-urban-ii"
-      },
-      {
-        "title": "Peter the Hermit",
-        "type": "person",
-        "slug": "peter-the-hermit"
-      },
-      {
         "title": "Adhemar of Le Puy",
         "type": "person",
         "slug": "adhemar-of-le-puy"
-      },
-      {
-        "title": "Godfrey of Bouillon",
-        "type": "person",
-        "slug": "godfrey-of-bouillon"
       },
       {
         "title": "Baldwin I of Jerusalem",
@@ -121,10 +106,25 @@
         "label": "Who went on the crusade and wrote one of the fullest accounts of it"
       },
       {
+        "title": "Godfrey of Bouillon",
+        "type": "person",
+        "slug": "godfrey-of-bouillon"
+      },
+      {
         "title": "Kerbogha",
         "type": "person",
         "slug": "kerbogha",
         "label": "Atabeg of Mosul, whose relief army was beaten outside Antioch in 1098"
+      },
+      {
+        "title": "Peter the Hermit",
+        "type": "person",
+        "slug": "peter-the-hermit"
+      },
+      {
+        "title": "Pope Urban II",
+        "type": "person",
+        "slug": "pope-urban-ii"
       }
     ]
   },

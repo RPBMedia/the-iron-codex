@@ -134,15 +134,15 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Håkon IV Håkonsson",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
+        "label": "The great age's king"
+      },
+      {
         "title": "Harald Fairhair",
         "type": "person",
         "slug": "harald-fairhair"
-      },
-      {
-        "title": "Olaf II Haraldsson",
-        "type": "person",
-        "slug": "olaf-ii-haraldsson",
-        "label": "Saint Olaf"
       },
       {
         "title": "Harald Hardrada",
@@ -150,10 +150,10 @@
         "slug": "harald-hardrada"
       },
       {
-        "title": "Håkon IV Håkonsson",
         "type": "person",
-        "slug": "haakon-iv-haakonsson",
-        "label": "The great age's king"
+        "title": "Magnus VI Lawmender",
+        "slug": "magnus-vi-lawmender",
+        "label": "The Landslov of 1274"
       },
       {
         "title": "Margaret I",
@@ -162,19 +162,31 @@
         "label": "The union-maker"
       },
       {
+        "title": "Olaf II Haraldsson",
+        "type": "person",
+        "slug": "olaf-ii-haraldsson",
+        "label": "Saint Olaf"
+      },
+      {
         "type": "person",
         "title": "Sigurd the Crusader",
         "slug": "sigurd-of-norway",
         "label": "The Norwegian Crusade to Jerusalem"
-      },
-      {
-        "type": "person",
-        "title": "Magnus VI Lawmender",
-        "slug": "magnus-vi-lawmender",
-        "label": "The Landslov of 1274"
       }
     ],
     "locations": [
+      {
+        "title": "Bergen",
+        "type": "location",
+        "slug": "bergen",
+        "label": "Royal capital in the thirteenth century"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "The 1397 absorption"
+      },
       {
         "title": "Kingdom of Denmark",
         "type": "location",
@@ -185,21 +197,15 @@
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden"
-      },
-      {
-        "title": "Kalmar Union",
-        "type": "location",
-        "slug": "kalmar-union",
-        "label": "The 1397 absorption"
-      },
-      {
-        "title": "Bergen",
-        "type": "location",
-        "slug": "bergen",
-        "label": "Royal capital in the thirteenth century"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "1066"
+      },
       {
         "title": "Battle of Stiklestad",
         "type": "event",
@@ -211,12 +217,6 @@
         "type": "event",
         "slug": "battle-of-svolder",
         "label": "1000"
-      },
-      {
-        "title": "Battle of Stamford Bridge",
-        "type": "event",
-        "slug": "battle-of-stamford-bridge",
-        "label": "1066"
       }
     ]
   },

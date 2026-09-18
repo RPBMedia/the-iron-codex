@@ -151,16 +151,16 @@
         "label": "Father, whose fall taught him the price of war"
       },
       {
-        "title": "Magnus II of Norway",
-        "type": "person",
-        "slug": "magnus-ii-of-norway",
-        "label": "Brother and co-king"
-      },
-      {
         "title": "Magnus Barefoot",
         "type": "person",
         "slug": "magnus-barefoot",
         "label": "Son and successor, who spent the peace"
+      },
+      {
+        "title": "Magnus II of Norway",
+        "type": "person",
+        "slug": "magnus-ii-of-norway",
+        "label": "Brother and co-king"
       },
       {
         "title": "Sweyn II Estridsson",
@@ -185,15 +185,15 @@
     ],
     "events": [
       {
+        "title": "Battle of Hastings",
+        "type": "event",
+        "slug": "battle-of-hastings"
+      },
+      {
         "title": "Battle of Stamford Bridge",
         "type": "event",
         "slug": "battle-of-stamford-bridge",
         "label": "The catastrophe he survived at sixteen"
-      },
-      {
-        "title": "Battle of Hastings",
-        "type": "event",
-        "slug": "battle-of-hastings"
       }
     ]
   },

@@ -180,16 +180,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Æthelwulf of Wessex",
-        "type": "person",
-        "slug": "aethelwulf-of-wessex",
-        "label": "Commanded the West Saxons here"
-      },
-      {
         "title": "Æthelbald of Wessex",
         "type": "person",
         "slug": "aethelbald-of-wessex",
         "label": "Fought beside his father in this battle"
+      },
+      {
+        "title": "Æthelwulf of Wessex",
+        "type": "person",
+        "slug": "aethelwulf-of-wessex",
+        "label": "Commanded the West Saxons here"
       }
     ],
     "locations": [
@@ -202,16 +202,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Ellandun",
-        "type": "event",
-        "slug": "battle-of-ellandun",
-        "label": "The victory that made Wessex supreme, 825"
-      },
-      {
         "title": "Battle of Ashdown",
         "type": "event",
         "slug": "battle-of-ashdown",
         "label": "The next great engagement of the Viking wars, 871"
+      },
+      {
+        "title": "Battle of Ellandun",
+        "type": "event",
+        "slug": "battle-of-ellandun",
+        "label": "The victory that made Wessex supreme, 825"
       },
       {
         "title": "Great Heathen Army",

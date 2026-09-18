@@ -204,28 +204,28 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Fourth Crusade",
-        "type": "event",
-        "slug": "fourth-crusade",
-        "label": "The campaign that ended here"
-      },
-      {
         "title": "Battle of Pelagonia",
         "type": "event",
         "slug": "battle-of-pelagonia",
         "label": "The successor states fighting over what was left"
       },
       {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "The city taken back in 1261"
-      },
-      {
         "title": "Fall of Constantinople",
         "type": "event",
         "slug": "fall-of-constantinople",
         "label": "The second and final fall, in 1453"
+      },
+      {
+        "title": "Fourth Crusade",
+        "type": "event",
+        "slug": "fourth-crusade",
+        "label": "The campaign that ended here"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "The city taken back in 1261"
       }
     ],
     "people": [

@@ -118,11 +118,6 @@
         "slug": "halberd"
       },
       {
-        "title": "Spear",
-        "type": "weaponArmor",
-        "slug": "spear"
-      },
-      {
         "title": "Longbow",
         "type": "weaponArmor",
         "slug": "longbow"
@@ -132,6 +127,11 @@
         "type": "weaponArmor",
         "slug": "military-flail",
         "label": "The other farm tool that became a military weapon"
+      },
+      {
+        "title": "Spear",
+        "type": "weaponArmor",
+        "slug": "spear"
       }
     ]
   },

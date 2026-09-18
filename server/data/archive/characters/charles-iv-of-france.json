@@ -143,10 +143,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Philip VI of France",
+        "title": "Edward II of England",
         "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Valois cousin and successor"
+        "slug": "edward-ii-of-england",
+        "label": "Brother-in-law, humbled at Saint-Sardos and deposed from Paris"
       },
       {
         "title": "Edward III of England",
@@ -155,17 +155,18 @@
         "label": "Nephew whose excluded claim ignited the war"
       },
       {
-        "title": "Edward II of England",
+        "title": "Philip VI of France",
         "type": "person",
-        "slug": "edward-ii-of-england",
-        "label": "Brother-in-law, humbled at Saint-Sardos and deposed from Paris"
+        "slug": "philip-vi-of-france",
+        "label": "Valois cousin and successor"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Chateau de Vincennes",
         "type": "location",
-        "slug": "kingdom-of-france"
+        "slug": "chateau-de-vincennes",
+        "label": "Where he died, 1328"
       },
       {
         "title": "Gascony",
@@ -174,10 +175,9 @@
         "label": "Overrun in 1324"
       },
       {
-        "title": "Chateau de Vincennes",
+        "title": "Kingdom of France",
         "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Where he died, 1328"
+        "slug": "kingdom-of-france"
       }
     ],
     "events": [

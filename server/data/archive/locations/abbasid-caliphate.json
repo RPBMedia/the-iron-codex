@@ -188,28 +188,10 @@
     ],
     "locations": [
       {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "The dynasty it overthrew in 750"
-      },
-      {
-        "title": "Emirate of Melitene",
-        "type": "location",
-        "slug": "emirate-of-melitene",
-        "label": "Its frontier emirate facing Byzantine Anatolia"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Its permanent adversary across the Taurus"
-      },
-      {
-        "title": "Mongol Empire",
-        "type": "location",
-        "slug": "mongol-empire",
-        "label": "Which ended it at Baghdad in 1258"
       },
       {
         "title": "Damascus",
@@ -218,10 +200,28 @@
         "label": "The Umayyad capital it displaced in favour of Iraq"
       },
       {
+        "title": "Emirate of Melitene",
+        "type": "location",
+        "slug": "emirate-of-melitene",
+        "label": "Its frontier emirate facing Byzantine Anatolia"
+      },
+      {
         "title": "Hamdanid Emirate of Aleppo",
         "type": "location",
         "slug": "hamdanid-emirate-of-aleppo",
         "label": "A frontier emirate that governed for itself as caliphal authority failed"
+      },
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire",
+        "label": "Which ended it at Baghdad in 1258"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "The dynasty it overthrew in 750"
       }
     ]
   },

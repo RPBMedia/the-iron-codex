@@ -155,30 +155,30 @@
     ],
     "locations": [
       {
-        "name": "Ottoman Empire",
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire"
-      },
-      {
         "title": "Kingdom of Poland",
         "type": "location",
         "slug": "kingdom-of-poland",
         "label": "Hungary's later partner at Varna"
+      },
+      {
+        "name": "Ottoman Empire",
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Varna",
-        "type": "event",
-        "slug": "battle-of-varna",
-        "label": "The last such crusade, 1444"
-      },
       {
         "title": "Battle of Kosovo",
         "type": "event",
         "slug": "battle-of-kosovo",
         "label": "The Ottoman Balkan conquest's founding field, 1389"
+      },
+      {
+        "title": "Battle of Varna",
+        "type": "event",
+        "slug": "battle-of-varna",
+        "label": "The last such crusade, 1444"
       }
     ]
   },

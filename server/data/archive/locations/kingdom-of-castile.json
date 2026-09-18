@@ -138,10 +138,16 @@
         "label": "Victor of Las Navas"
       },
       {
-        "title": "Peter of Castile",
         "type": "person",
-        "slug": "peter-of-castile",
-        "label": "The civil war's doomed king"
+        "title": "Alfonso X of Castile",
+        "slug": "alfonso-x-of-castile",
+        "label": "The Learned: law, astronomy and the imperial debt"
+      },
+      {
+        "type": "person",
+        "title": "Fernán González",
+        "slug": "fernan-gonzalez",
+        "label": "The count who made Castile hereditary"
       },
       {
         "title": "Henry II of Castile",
@@ -156,19 +162,19 @@
         "label": "The union with Aragon"
       },
       {
+        "title": "Peter of Castile",
         "type": "person",
-        "title": "Alfonso X of Castile",
-        "slug": "alfonso-x-of-castile",
-        "label": "The Learned: law, astronomy and the imperial debt"
-      },
-      {
-        "type": "person",
-        "title": "Fernán González",
-        "slug": "fernan-gonzalez",
-        "label": "The count who made Castile hereditary"
+        "slug": "peter-of-castile",
+        "label": "The civil war's doomed king"
       }
     ],
     "locations": [
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "Rival, ally, and final dynastic partner"
+      },
       {
         "title": "Kingdom of León",
         "type": "location",
@@ -180,26 +186,20 @@
         "type": "location",
         "slug": "kingdom-of-portugal",
         "label": "The western rival"
-      },
-      {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "Rival, ally, and final dynastic partner"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "The peninsular turning point, 1212"
-      },
       {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "The Portuguese frontier sealed, 1385"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The peninsular turning point, 1212"
       }
     ]
   },

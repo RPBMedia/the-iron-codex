@@ -220,10 +220,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Władysław II Jagiełło",
+        "title": "Gediminas",
         "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
-        "label": "Founder of the royal line"
+        "slug": "gediminas",
+        "label": "The founder the house is named for"
       },
       {
         "title": "Vytautas the Great",
@@ -232,16 +232,16 @@
         "label": "Lithuania at its height"
       },
       {
+        "title": "Władysław II Jagiełło",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Founder of the royal line"
+      },
+      {
         "title": "Władysław III",
         "type": "person",
         "slug": "wladyslaw-iii-of-poland",
         "label": "Died at Varna"
-      },
-      {
-        "title": "Gediminas",
-        "type": "person",
-        "slug": "gediminas",
-        "label": "The founder the house is named for"
       }
     ],
     "events": [

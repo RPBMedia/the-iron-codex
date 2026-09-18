@@ -100,10 +100,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Margaret I of Denmark",
+        "title": "Christian I of Denmark",
         "type": "person",
-        "slug": "margaret-i",
-        "label": "Died aboard ship here on 28 October 1412"
+        "slug": "christian-i-of-denmark",
+        "label": "Settled the Schleswig question on other terms in 1460"
       },
       {
         "title": "Eric of Pomerania",
@@ -112,10 +112,10 @@
         "label": "Her heir, fighting the Schleswig war beside her"
       },
       {
-        "title": "Christian I of Denmark",
+        "title": "Margaret I of Denmark",
         "type": "person",
-        "slug": "christian-i-of-denmark",
-        "label": "Settled the Schleswig question on other terms in 1460"
+        "slug": "margaret-i",
+        "label": "Died aboard ship here on 28 October 1412"
       }
     ],
     "locations": [
@@ -132,16 +132,16 @@
         "label": "The crown that claimed Schleswig as its fief"
       },
       {
-        "title": "Soborg Castle",
-        "type": "location",
-        "slug": "soborg-castle",
-        "label": "Where Margaret I was born in 1353"
-      },
-      {
         "title": "Roskilde",
         "type": "location",
         "slug": "roskilde",
         "label": "Where her body was entombed in 1413"
+      },
+      {
+        "title": "Soborg Castle",
+        "type": "location",
+        "slug": "soborg-castle",
+        "label": "Where Margaret I was born in 1353"
       }
     ]
   },

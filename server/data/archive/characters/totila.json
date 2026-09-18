@@ -161,6 +161,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Belisarius",
+        "type": "person",
+        "slug": "belisarius",
+        "label": "His opponent in the middle years of the war"
+      },
+      {
         "title": "Narses",
         "type": "person",
         "slug": "narses",
@@ -171,26 +177,20 @@
         "type": "person",
         "slug": "teias",
         "label": "His successor, and the last Gothic king"
-      },
-      {
-        "title": "Belisarius",
-        "type": "person",
-        "slug": "belisarius",
-        "label": "His opponent in the middle years of the war"
       }
     ],
     "events": [
-      {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "The war he nearly won"
-      },
       {
         "title": "Battle of Taginae",
         "type": "event",
         "slug": "battle-of-taginae",
         "label": "Where he was killed"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The war he nearly won"
       }
     ],
     "locations": [

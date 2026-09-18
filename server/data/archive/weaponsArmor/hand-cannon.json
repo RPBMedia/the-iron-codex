@@ -115,6 +115,18 @@
     ],
     "weaponsArmor": [
       {
+        "title": "Arquebus",
+        "type": "weaponArmor",
+        "slug": "arquebus",
+        "label": "What it developed into once ignition became mechanical"
+      },
+      {
+        "title": "Bombard",
+        "type": "weaponArmor",
+        "slug": "bombard",
+        "label": "The same technology at siege scale"
+      },
+      {
         "title": "Crossbow",
         "type": "weaponArmor",
         "slug": "crossbow",
@@ -127,28 +139,16 @@
         "label": "The tradition it made unaffordable"
       },
       {
-        "title": "Bombard",
+        "title": "Military Flail",
         "type": "weaponArmor",
-        "slug": "bombard",
-        "label": "The same technology at siege scale"
+        "slug": "military-flail",
+        "label": "Its partner behind the Hussite war wagons"
       },
       {
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor",
         "label": "The defence it was eventually proofed against"
-      },
-      {
-        "title": "Arquebus",
-        "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "What it developed into once ignition became mechanical"
-      },
-      {
-        "title": "Military Flail",
-        "type": "weaponArmor",
-        "slug": "military-flail",
-        "label": "Its partner behind the Hussite war wagons"
       }
     ]
   },

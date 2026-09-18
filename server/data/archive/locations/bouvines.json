@@ -84,10 +84,10 @@
     ],
     "people": [
       {
-        "title": "Philip II of France",
+        "title": "Ferdinand of Flanders",
         "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Chose to fight here"
+        "slug": "ferdinand-of-flanders",
+        "label": "Captured here"
       },
       {
         "title": "Otto IV",
@@ -96,19 +96,13 @@
         "label": "Defeated here"
       },
       {
-        "title": "Ferdinand of Flanders",
+        "title": "Philip II of France",
         "type": "person",
-        "slug": "ferdinand-of-flanders",
-        "label": "Captured here"
+        "slug": "philip-ii-of-france",
+        "label": "Chose to fight here"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Containing realm"
-      },
       {
         "title": "County of Flanders",
         "type": "location",
@@ -120,6 +114,12 @@
         "type": "location",
         "slug": "holy-roman-empire",
         "label": "Otto IV’s empire"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
       }
     ]
   },

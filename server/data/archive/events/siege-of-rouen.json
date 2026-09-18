@@ -166,25 +166,19 @@
         "label": "His famous victory three years earlier"
       },
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The wider conflict"
-      },
-      {
         "title": "Battle of Verneuil",
         "type": "event",
         "slug": "battle-of-verneuil",
         "label": "Defence of the conquest, 1424"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wider conflict"
       }
     ],
     "locations": [
-      {
-        "title": "Rouen",
-        "type": "location",
-        "slug": "rouen",
-        "label": "The besieged city"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
@@ -200,6 +194,12 @@
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen",
+        "label": "The besieged city"
       }
     ]
   },

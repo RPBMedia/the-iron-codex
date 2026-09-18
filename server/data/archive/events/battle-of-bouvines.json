@@ -128,31 +128,19 @@
         "label": "Battlefield"
       },
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Combatant faction"
       }
     ],
     "people": [
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Commander"
-      },
-      {
-        "title": "Otto IV",
-        "type": "person",
-        "slug": "otto-iv",
-        "label": "Commander"
-      },
       {
         "title": "Ferdinand of Flanders",
         "type": "person",
@@ -164,6 +152,18 @@
         "type": "person",
         "slug": "john-of-england",
         "label": "Paid for the coalition; his defeat led to Magna Carta"
+      },
+      {
+        "title": "Otto IV",
+        "type": "person",
+        "slug": "otto-iv",
+        "label": "Commander"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Commander"
       }
     ],
     "events": [

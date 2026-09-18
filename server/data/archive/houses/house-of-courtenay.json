@@ -127,16 +127,16 @@
     ],
     "houses": [
       {
-        "title": "House of Flanders-Hainaut",
-        "type": "house",
-        "slug": "house-of-flanders-hainaut",
-        "label": "The Latin emperors before them"
-      },
-      {
         "title": "House of Capet",
         "type": "house",
         "slug": "house-of-capet",
         "label": "The royal house they branched from"
+      },
+      {
+        "title": "House of Flanders-Hainaut",
+        "type": "house",
+        "slug": "house-of-flanders-hainaut",
+        "label": "The Latin emperors before them"
       }
     ]
   },

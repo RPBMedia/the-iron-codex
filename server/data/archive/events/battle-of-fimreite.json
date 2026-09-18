@@ -155,16 +155,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sverre Sigurdsson",
+        "title": "Haakon IV Haakonsson",
         "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "Commander of the Birkebeiner"
-      },
-      {
-        "title": "Magnus V Erlingsson",
-        "type": "person",
-        "slug": "magnus-v-erlingsson",
-        "label": "Killed in this battle"
+        "slug": "haakon-iv-haakonsson",
+        "label": "Sverre’s grandson, king from 1217"
       },
       {
         "title": "Håkon III Sverresson",
@@ -173,24 +167,30 @@
         "label": "Sverre’s son, who made peace with the Church in 1202"
       },
       {
-        "title": "Haakon IV Haakonsson",
+        "title": "Magnus V Erlingsson",
         "type": "person",
-        "slug": "haakon-iv-haakonsson",
-        "label": "Sverre’s grandson, king from 1217"
+        "slug": "magnus-v-erlingsson",
+        "label": "Killed in this battle"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
+        "label": "Commander of the Birkebeiner"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "The contested crown"
-      },
       {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Magnus was crowned here and buried here"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The contested crown"
       }
     ],
     "houses": [

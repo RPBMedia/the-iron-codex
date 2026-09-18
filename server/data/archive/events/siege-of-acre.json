@@ -241,22 +241,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Richard the Lionheart",
+        "title": "Conrad of Montferrat",
         "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Forced the surrender and ordered the massacre"
-      },
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Directed the siege works from April 1191"
-      },
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "Besieged the besiegers for two years"
+        "slug": "conrad-of-montferrat",
+        "label": "Negotiated the surrender terms"
       },
       {
         "title": "Guy of Lusignan",
@@ -265,18 +253,30 @@
         "label": "Began the siege in August 1189"
       },
       {
-        "title": "Conrad of Montferrat",
+        "title": "Philip II of France",
         "type": "person",
-        "slug": "conrad-of-montferrat",
-        "label": "Negotiated the surrender terms"
+        "slug": "philip-ii-of-france",
+        "label": "Directed the siege works from April 1191"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Forced the surrender and ordered the massacre"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Besieged the besiegers for two years"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
+        "title": "Battle of Arsuf",
         "type": "event",
-        "slug": "third-crusade",
-        "label": "The campaign the siege consumed"
+        "slug": "battle-of-arsuf",
+        "label": "The march south that followed the surrender"
       },
       {
         "title": "Battle of Hattin",
@@ -285,38 +285,38 @@
         "label": "The defeat that lost Acre in 1187"
       },
       {
-        "title": "Battle of Arsuf",
+        "title": "Third Crusade",
         "type": "event",
-        "slug": "battle-of-arsuf",
-        "label": "The march south that followed the surrender"
+        "slug": "third-crusade",
+        "label": "The campaign the siege consumed"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Ruled from Acre for the next century"
-      },
       {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
         "label": "Saladin’s realm, which lost the port"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Ruled from Acre for the next century"
       }
     ],
     "orders": [
-      {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order",
-        "label": "Founded as a field hospital in these siege lines"
-      },
       {
         "title": "Order of St Thomas of Acre",
         "type": "order",
         "slug": "order-of-st-thomas-of-acre",
         "label": "Founded here to bury the English dead"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "Founded as a field hospital in these siege lines"
       }
     ]
   },

@@ -100,6 +100,18 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Bec de Corbin",
+        "type": "weaponArmor",
+        "slug": "bec-de-corbin",
+        "label": "The hammer-headed member of the same family"
+      },
+      {
+        "title": "Estoc",
+        "slug": "estoc",
+        "label": "The other answer to a good harness",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Gothic Plate Armor",
         "type": "weaponArmor",
         "slug": "gothic-plate-armor"
@@ -110,6 +122,11 @@
         "slug": "halberd"
       },
       {
+        "title": "Hounskull Bascinet",
+        "type": "weaponArmor",
+        "slug": "hounskull-bascinet"
+      },
+      {
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor"
@@ -118,23 +135,6 @@
         "title": "War Hammer",
         "type": "weaponArmor",
         "slug": "war-hammer"
-      },
-      {
-        "title": "Hounskull Bascinet",
-        "type": "weaponArmor",
-        "slug": "hounskull-bascinet"
-      },
-      {
-        "title": "Estoc",
-        "slug": "estoc",
-        "label": "The other answer to a good harness",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Bec de Corbin",
-        "type": "weaponArmor",
-        "slug": "bec-de-corbin",
-        "label": "The hammer-headed member of the same family"
       }
     ]
   },

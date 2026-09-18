@@ -203,9 +203,10 @@
         "slug": "battle-of-bannockburn"
       },
       {
-        "title": "Wars of Scottish Independence",
+        "title": "Battle of Falkirk",
         "type": "event",
-        "slug": "wars-of-scottish-independence"
+        "slug": "battle-of-falkirk",
+        "label": "Defeated here in 1298"
       },
       {
         "title": "Battle of Stirling Bridge",
@@ -214,10 +215,9 @@
         "label": "His great victory, 1297"
       },
       {
-        "title": "Battle of Falkirk",
+        "title": "Wars of Scottish Independence",
         "type": "event",
-        "slug": "battle-of-falkirk",
-        "label": "Defeated here in 1298"
+        "slug": "wars-of-scottish-independence"
       }
     ],
     "weaponsArmor": [

@@ -126,16 +126,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand of Flanders",
-        "type": "person",
-        "slug": "ferdinand-of-flanders",
-        "label": "The count captured at Bouvines"
-      },
-      {
         "title": "Baldwin I, Latin Emperor",
         "type": "person",
         "slug": "baldwin-i-latin-emperor",
         "label": "Count Baldwin IX, emperor at Constantinople"
+      },
+      {
+        "title": "Ferdinand of Flanders",
+        "type": "person",
+        "slug": "ferdinand-of-flanders",
+        "label": "The count captured at Bouvines"
       },
       {
         "title": "Philip II of France",
@@ -146,16 +146,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Suzerain and adversary"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "The wool lifeline"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Suzerain and adversary"
       }
     ],
     "events": [
@@ -166,16 +166,16 @@
         "label": "1214: the county's count in the coalition's wreck"
       },
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The wool war's great frame"
-      },
-      {
         "title": "Battle of Courtrai",
         "type": "event",
         "slug": "battle-of-courtrai",
         "label": "1302: the militias destroy the French cavalry"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The wool war's great frame"
       }
     ]
   },

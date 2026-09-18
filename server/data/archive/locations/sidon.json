@@ -194,16 +194,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Siege of Sidon (1110)",
-        "type": "event",
-        "slug": "siege-of-sidon-1110",
-        "label": "Taken by Baldwin I and Sigurd I, 1110"
-      },
-      {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin",
         "label": "Reginald of Sidon escaped the defeat; the town fell weeks later"
+      },
+      {
+        "title": "Siege of Sidon (1110)",
+        "type": "event",
+        "slug": "siege-of-sidon-1110",
+        "label": "Taken by Baldwin I and Sigurd I, 1110"
       },
       {
         "title": "Third Crusade",
@@ -214,10 +214,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
+        "title": "Ayyubid Sultanate",
         "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "One of the four great baronies of the kingdom"
+        "slug": "ayyubid-sultanate",
+        "label": "Held the town from 1187 and shared it with the Franks after 1198"
       },
       {
         "title": "Crusader States",
@@ -226,36 +226,36 @@
         "label": "A crusader lordship from 1110 to 1291"
       },
       {
-        "title": "Ayyubid Sultanate",
+        "title": "Damascus",
         "type": "location",
-        "slug": "ayyubid-sultanate",
-        "label": "Held the town from 1187 and shared it with the Franks after 1198"
+        "slug": "damascus",
+        "label": "Seat of the rulers who contested Sidon and its lands"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "One of the four great baronies of the kingdom"
       },
       {
         "title": "Mongol Empire",
         "type": "location",
         "slug": "mongol-empire",
         "label": "Kitbuqa's troops sacked the town in 1260"
-      },
-      {
-        "title": "Damascus",
-        "type": "location",
-        "slug": "damascus",
-        "label": "Seat of the rulers who contested Sidon and its lands"
       }
     ],
     "people": [
+      {
+        "title": "Al-Adil I",
+        "type": "person",
+        "slug": "al-adil-i",
+        "label": "His truce of 1198 divided Sidon with the Franks"
+      },
       {
         "title": "Baldwin I of Jerusalem",
         "type": "person",
         "slug": "baldwin-i-of-jerusalem",
         "label": "Took the town in 1110"
-      },
-      {
-        "title": "Sigurd the Crusader",
-        "type": "person",
-        "slug": "sigurd-of-norway",
-        "label": "His fleet blockaded the harbour in 1110"
       },
       {
         "title": "Baldwin II of Jerusalem",
@@ -264,22 +264,10 @@
         "label": "Eustace Grenier was regent during his captivity in 1123"
       },
       {
-        "title": "Saladin",
+        "title": "Baybars",
         "type": "person",
-        "slug": "saladin",
-        "label": "Took the town in 1187 and Beaufort in 1190"
-      },
-      {
-        "title": "Henry VI, Holy Roman Emperor",
-        "type": "person",
-        "slug": "henry-vi-holy-roman-emperor",
-        "label": "Sent the crusade that recovered the town in 1197"
-      },
-      {
-        "title": "Al-Adil I",
-        "type": "person",
-        "slug": "al-adil-i",
-        "label": "His truce of 1198 divided Sidon with the Franks"
+        "slug": "baybars",
+        "label": "Took Beaufort from the Templars in 1268"
       },
       {
         "title": "Frederick II, Holy Roman Emperor",
@@ -288,10 +276,10 @@
         "label": "Balian of Sidon was his chief ally among the barons"
       },
       {
-        "title": "Louis IX of France",
+        "title": "Henry VI, Holy Roman Emperor",
         "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Rebuilt the walls and land castle in 1253"
+        "slug": "henry-vi-holy-roman-emperor",
+        "label": "Sent the crusade that recovered the town in 1197"
       },
       {
         "title": "Jean de Joinville",
@@ -300,24 +288,36 @@
         "label": "Described the raid of 1253 and its aftermath"
       },
       {
-        "title": "Baybars",
+        "title": "Louis IX of France",
         "type": "person",
-        "slug": "baybars",
-        "label": "Took Beaufort from the Templars in 1268"
+        "slug": "louis-ix-of-france",
+        "label": "Rebuilt the walls and land castle in 1253"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Took the town in 1187 and Beaufort in 1190"
+      },
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway",
+        "label": "His fleet blockaded the harbour in 1110"
       }
     ],
     "orders": [
-      {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "Bought the lordship in 1260 or 1261 and held it until 1291"
-      },
       {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "Their fortified hall became the Great Omari Mosque"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Bought the lordship in 1260 or 1261 and held it until 1291"
       }
     ]
   },

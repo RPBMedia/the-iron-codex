@@ -180,6 +180,12 @@
     ],
     "events": [
       {
+        "title": "Battle of Brunanburh",
+        "type": "event",
+        "slug": "battle-of-brunanburh",
+        "label": "The later fight for mastery north of the Humber, 937"
+      },
+      {
         "title": "Battle of Ellandun",
         "type": "event",
         "slug": "battle-of-ellandun",
@@ -190,12 +196,6 @@
         "type": "event",
         "slug": "battle-of-tettenhall",
         "label": "Fought after Oswald's relics were moved to Gloucester, 910"
-      },
-      {
-        "title": "Battle of Brunanburh",
-        "type": "event",
-        "slug": "battle-of-brunanburh",
-        "label": "The later fight for mastery north of the Humber, 937"
       }
     ]
   },

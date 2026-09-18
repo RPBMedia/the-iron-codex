@@ -166,22 +166,9 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Murad I",
         "type": "person",
-        "slug": "murad-i",
-        "label": "Birthplace of Murad I"
-      },
-      {
-        "title": "Osman I",
-        "type": "person",
-        "slug": "osman-i",
-        "label": "Blockaded the city and was buried in its citadel"
-      },
-      {
-        "title": "Orhan",
-        "type": "person",
-        "slug": "orhan",
-        "label": "Took the city in 1326 and made it his capital"
+        "slug": "murad-ii",
+        "label": "Buried in the Muradiye"
       },
       {
         "title": "Bayezid I",
@@ -190,36 +177,37 @@
         "label": "Built the Great Mosque"
       },
       {
+        "title": "Bayezid II",
+        "type": "person",
+        "slug": "bayezid-ii",
+        "label": "His brother Cem was proclaimed sultan here in 1481"
+      },
+      {
         "title": "Mehmed I",
         "type": "person",
         "slug": "mehmed-i",
         "label": "Built the Green Mosque and lies in the Green Tomb"
       },
       {
+        "title": "Murad I",
         "type": "person",
-        "slug": "murad-ii",
-        "label": "Buried in the Muradiye"
+        "slug": "murad-i",
+        "label": "Birthplace of Murad I"
       },
       {
-        "title": "Bayezid II",
+        "title": "Orhan",
         "type": "person",
-        "slug": "bayezid-ii",
-        "label": "His brother Cem was proclaimed sultan here in 1481"
+        "slug": "orhan",
+        "label": "Took the city in 1326 and made it his capital"
+      },
+      {
+        "title": "Osman I",
+        "type": "person",
+        "slug": "osman-i",
+        "label": "Blockaded the city and was buried in its citadel"
       }
     ],
     "locations": [
-      {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Empire of Nicaea",
-        "type": "location",
-        "slug": "empire-of-nicaea",
-        "label": "Held Prusa after 1204"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -231,14 +219,26 @@
         "type": "location",
         "slug": "edirne",
         "label": "Replaced it as the main Ottoman capital"
+      },
+      {
+        "title": "Empire of Nicaea",
+        "type": "location",
+        "slug": "empire-of-nicaea",
+        "label": "Held Prusa after 1204"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Containing realm"
       }
     ],
     "events": [
       {
-        "title": "Battle of Kosovo",
+        "title": "Battle of Ankara",
         "type": "event",
-        "slug": "battle-of-kosovo",
-        "label": "Connected to Murad I"
+        "slug": "battle-of-ankara",
+        "label": "The defeat that opened the city to Timur"
       },
       {
         "title": "Battle of Bapheus",
@@ -247,16 +247,16 @@
         "label": "Osman's victory before the blockade of Prusa"
       },
       {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Connected to Murad I"
+      },
+      {
         "title": "Battle of Nicopolis",
         "type": "event",
         "slug": "battle-of-nicopolis",
         "label": "By tradition paid for the Great Mosque"
-      },
-      {
-        "title": "Battle of Ankara",
-        "type": "event",
-        "slug": "battle-of-ankara",
-        "label": "The defeat that opened the city to Timur"
       }
     ],
     "houses": [

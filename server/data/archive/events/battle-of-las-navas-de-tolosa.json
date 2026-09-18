@@ -117,18 +117,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Las Navas de Tolosa",
-        "type": "location",
-        "slug": "las-navas-de-tolosa",
-        "label": "Battlefield"
-      },
-      {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Almohad Caliphate",
         "type": "location",
         "slug": "almohad-caliphate",
@@ -139,6 +127,18 @@
         "type": "location",
         "slug": "kingdom-of-aragon",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Las Navas de Tolosa",
+        "type": "location",
+        "slug": "las-navas-de-tolosa",
+        "label": "Battlefield"
       }
     ],
     "people": [
@@ -157,6 +157,12 @@
     ],
     "events": [
       {
+        "title": "Battle of Alarcos",
+        "type": "event",
+        "slug": "battle-of-alarcos",
+        "label": "The defeat Las Navas avenged"
+      },
+      {
         "title": "Conquest of Córdoba",
         "type": "event",
         "slug": "conquest-of-cordoba",
@@ -167,12 +173,6 @@
         "type": "event",
         "slug": "conquest-of-seville",
         "label": "The advance it opened (1248)"
-      },
-      {
-        "title": "Battle of Alarcos",
-        "type": "event",
-        "slug": "battle-of-alarcos",
-        "label": "The defeat Las Navas avenged"
       }
     ]
   },

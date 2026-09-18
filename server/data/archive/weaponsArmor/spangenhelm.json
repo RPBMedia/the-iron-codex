@@ -136,40 +136,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Nasal Helmet",
-        "type": "weaponArmor",
-        "slug": "nasal-helmet",
-        "label": "The one-piece form that succeeded it"
-      },
-      {
-        "title": "Sutton Hoo Helmet",
-        "type": "weaponArmor",
-        "slug": "sutton-hoo-helmet",
-        "label": "A different early medieval tradition, often confused with it"
-      },
-      {
-        "title": "Mail Armor",
-        "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "The neck curtain hung from its rim"
-      },
-      {
-        "title": "Round Shield",
-        "type": "weaponArmor",
-        "slug": "round-shield",
-        "label": "Carried by the same men"
-      },
-      {
-        "title": "Viking Sword",
-        "type": "weaponArmor",
-        "slug": "viking-sword",
-        "label": "The weapon of its later centuries"
-      },
-      {
-        "title": "Great Helm",
-        "type": "weaponArmor",
-        "slug": "great-helm",
-        "label": "Where enclosed head protection went next"
+        "title": "Coppergate Helmet",
+        "slug": "coppergate-helmet",
+        "label": "Surviving example — the best-preserved Anglo-Saxon helmet",
+        "type": "weaponArmor"
       },
       {
         "title": "Gjermundbu Helmet",
@@ -178,10 +148,40 @@
         "type": "weaponArmor"
       },
       {
-        "title": "Coppergate Helmet",
-        "slug": "coppergate-helmet",
-        "label": "Surviving example — the best-preserved Anglo-Saxon helmet",
-        "type": "weaponArmor"
+        "title": "Great Helm",
+        "type": "weaponArmor",
+        "slug": "great-helm",
+        "label": "Where enclosed head protection went next"
+      },
+      {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor",
+        "label": "The neck curtain hung from its rim"
+      },
+      {
+        "title": "Nasal Helmet",
+        "type": "weaponArmor",
+        "slug": "nasal-helmet",
+        "label": "The one-piece form that succeeded it"
+      },
+      {
+        "title": "Round Shield",
+        "type": "weaponArmor",
+        "slug": "round-shield",
+        "label": "Carried by the same men"
+      },
+      {
+        "title": "Sutton Hoo Helmet",
+        "type": "weaponArmor",
+        "slug": "sutton-hoo-helmet",
+        "label": "A different early medieval tradition, often confused with it"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword",
+        "label": "The weapon of its later centuries"
       }
     ]
   },

@@ -169,6 +169,12 @@
     ],
     "locations": [
       {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Which sacked his dynasty's home city in 838"
+      },
+      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
@@ -179,12 +185,6 @@
         "type": "location",
         "slug": "constantinople",
         "label": "His capital"
-      },
-      {
-        "title": "Abbasid Caliphate",
-        "type": "location",
-        "slug": "abbasid-caliphate",
-        "label": "Which sacked his dynasty's home city in 838"
       }
     ]
   },

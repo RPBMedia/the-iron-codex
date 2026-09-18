@@ -137,6 +137,11 @@
     ],
     "locations": [
       {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
         "title": "Empire of Nicaea",
         "type": "location",
         "slug": "empire-of-nicaea",
@@ -147,11 +152,6 @@
         "type": "location",
         "slug": "first-bulgarian-empire",
         "label": "Whose successor state destroyed it at Klokotnitsa"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
       }
     ]
   },

@@ -98,19 +98,15 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Bec de Corbin",
+        "type": "weaponArmor",
+        "slug": "bec-de-corbin",
+        "label": "The hammer-and-beak relative used by men-at-arms"
+      },
+      {
         "title": "Bill / Billhook",
         "type": "weaponArmor",
         "slug": "bill-billhook"
-      },
-      {
-        "title": "Poleaxe",
-        "type": "weaponArmor",
-        "slug": "poleaxe"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
       },
       {
         "title": "Pike",
@@ -119,22 +115,26 @@
         "label": "Fought in the same blocks, doing the close killing"
       },
       {
-        "title": "Bec de Corbin",
+        "title": "Plate Armor",
         "type": "weaponArmor",
-        "slug": "bec-de-corbin",
-        "label": "The hammer-and-beak relative used by men-at-arms"
+        "slug": "plate-armor"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe"
       }
     ],
     "events": [
       {
-        "title": "Battle of Legnano",
-        "type": "event",
-        "slug": "battle-of-legnano"
-      },
-      {
         "title": "Battle of Grunwald",
         "type": "event",
         "slug": "battle-of-grunwald"
+      },
+      {
+        "title": "Battle of Legnano",
+        "type": "event",
+        "slug": "battle-of-legnano"
       }
     ]
   },

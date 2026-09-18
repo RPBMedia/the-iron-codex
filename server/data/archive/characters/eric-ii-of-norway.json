@@ -137,29 +137,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Realm"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "Magnus VI Lawmender",
-        "type": "person",
-        "slug": "magnus-vi-lawmender",
-        "label": "Ruler of Kingdom of Norway"
-      },
-      {
         "title": "Haakon V Magnusson",
         "type": "person",
         "slug": "haakon-v-magnusson",
+        "label": "Ruler of Kingdom of Norway"
+      },
+      {
+        "title": "Magnus VI Lawmender",
+        "type": "person",
+        "slug": "magnus-vi-lawmender",
         "label": "Ruler of Kingdom of Norway"
       }
     ]

@@ -110,12 +110,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "Traditionally born here"
-      },
-      {
         "title": "Andrew Moray",
         "type": "person",
         "slug": "andrew-moray",
@@ -126,14 +120,20 @@
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "The king Wallace rose against"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Traditionally born here"
       }
     ],
     "events": [
       {
-        "title": "Wars of Scottish Independence",
+        "title": "Battle of Falkirk",
         "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war Wallace began"
+        "slug": "battle-of-falkirk",
+        "label": "The defeat that ended his command"
       },
       {
         "title": "Battle of Stirling Bridge",
@@ -142,10 +142,10 @@
         "label": "Wallace’s victory of 1297"
       },
       {
-        "title": "Battle of Falkirk",
+        "title": "Wars of Scottish Independence",
         "type": "event",
-        "slug": "battle-of-falkirk",
-        "label": "The defeat that ended his command"
+        "slug": "wars-of-scottish-independence",
+        "label": "The war Wallace began"
       }
     ],
     "locations": [

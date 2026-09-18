@@ -123,6 +123,36 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Algirdas",
+        "type": "person",
+        "slug": "algirdas",
+        "label": "Grand duke 1345–1377; Blue Waters and Kiev"
+      },
+      {
+        "title": "Gediminas",
+        "type": "person",
+        "slug": "gediminas",
+        "label": "Founder of the dynasty, r. c. 1316–1341"
+      },
+      {
+        "title": "Jadwiga of Poland",
+        "type": "person",
+        "slug": "jadwiga-of-poland",
+        "label": "The union's other half"
+      },
+      {
+        "title": "Kęstutis",
+        "type": "person",
+        "slug": "kestutis",
+        "label": "Co-ruler who held the Teutonic front"
+      },
+      {
+        "title": "Mindaugas",
+        "type": "person",
+        "slug": "mindaugas",
+        "label": "The only crowned king, 1253"
+      },
+      {
         "title": "Vytautas",
         "type": "person",
         "slug": "vytautas",
@@ -133,63 +163,33 @@
         "type": "person",
         "slug": "wladyslaw-ii-jagiello",
         "label": "Duke become king"
-      },
-      {
-        "title": "Jadwiga of Poland",
-        "type": "person",
-        "slug": "jadwiga-of-poland",
-        "label": "The union's other half"
-      },
-      {
-        "title": "Mindaugas",
-        "type": "person",
-        "slug": "mindaugas",
-        "label": "The only crowned king, 1253"
-      },
-      {
-        "title": "Gediminas",
-        "type": "person",
-        "slug": "gediminas",
-        "label": "Founder of the dynasty, r. c. 1316–1341"
-      },
-      {
-        "title": "Algirdas",
-        "type": "person",
-        "slug": "algirdas",
-        "label": "Grand duke 1345–1377; Blue Waters and Kiev"
-      },
-      {
-        "title": "Kęstutis",
-        "type": "person",
-        "slug": "kestutis",
-        "label": "Co-ruler who held the Teutonic front"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Poland",
-        "type": "location",
-        "slug": "kingdom-of-poland",
-        "label": "The union partner"
-      },
       {
         "title": "Kievan Rus'",
         "type": "location",
         "slug": "kievan-rus",
         "label": "The inheritance absorbed"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "The union partner"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Grunwald",
-        "type": "event",
-        "slug": "battle-of-grunwald"
-      },
       {
         "title": "Battle of Durbe",
         "type": "event",
         "slug": "battle-of-durbe",
         "label": "The 1260 victory that freed Mindaugas from his treaty"
+      },
+      {
+        "title": "Battle of Grunwald",
+        "type": "event",
+        "slug": "battle-of-grunwald"
       }
     ],
     "orders": [

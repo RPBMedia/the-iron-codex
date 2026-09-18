@@ -137,12 +137,6 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Stamford Bridge",
-        "type": "event",
-        "slug": "battle-of-stamford-bridge",
-        "label": "Battle fought here"
-      },
-      {
         "title": "Battle of Fulford",
         "type": "event",
         "slug": "battle-of-fulford",
@@ -153,6 +147,12 @@
         "type": "event",
         "slug": "battle-of-hastings",
         "label": "Where Harold's army fought nineteen days later"
+      },
+      {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Battle fought here"
       },
       {
         "title": "Norman Conquest of England",
@@ -189,12 +189,6 @@
         "label": "Killed here, 1066"
       },
       {
-        "title": "Tostig Godwinson",
-        "type": "person",
-        "slug": "tostig-godwinson",
-        "label": "Killed here, 1066"
-      },
-      {
         "title": "Harold Godwinson",
         "type": "person",
         "slug": "harold-godwinson",
@@ -205,6 +199,12 @@
         "type": "person",
         "slug": "olaf-iii-of-norway",
         "label": "Guarded the ships and survived, 1066"
+      },
+      {
+        "title": "Tostig Godwinson",
+        "type": "person",
+        "slug": "tostig-godwinson",
+        "label": "Killed here, 1066"
       }
     ]
   },

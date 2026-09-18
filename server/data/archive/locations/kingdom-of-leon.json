@@ -146,28 +146,28 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Alfonso VIII of Castile",
-        "type": "person",
-        "slug": "alfonso-viii-of-castile",
-        "label": "The Castilian cousin-rival generation"
-      },
-      {
         "title": "Afonso I of Portugal",
         "type": "person",
         "slug": "afonso-i-of-portugal",
         "label": "The vassal-count's son who became a rival king"
       },
       {
-        "title": "Teresa of León",
         "type": "person",
-        "slug": "teresa-of-leon",
-        "label": "Daughter of the dynasty, countess of Portugal"
+        "title": "Alfonso IX of León",
+        "slug": "alfonso-ix-of-leon",
+        "label": "The cortes of 1188 and the last separate reign"
       },
       {
         "type": "person",
-        "title": "Ramiro II of León",
-        "slug": "ramiro-ii-of-leon",
-        "label": "Simancas and the kingdom at its height"
+        "title": "Alfonso V of León",
+        "slug": "alfonso-v-of-leon",
+        "label": "The Fuero de León and the rebuilding of the capital"
+      },
+      {
+        "title": "Alfonso VIII of Castile",
+        "type": "person",
+        "slug": "alfonso-viii-of-castile",
+        "label": "The Castilian cousin-rival generation"
       },
       {
         "type": "person",
@@ -183,24 +183,30 @@
       },
       {
         "type": "person",
-        "title": "Alfonso V of León",
-        "slug": "alfonso-v-of-leon",
-        "label": "The Fuero de León and the rebuilding of the capital"
+        "title": "Ramiro II of León",
+        "slug": "ramiro-ii-of-leon",
+        "label": "Simancas and the kingdom at its height"
+      },
+      {
+        "title": "Teresa of León",
+        "type": "person",
+        "slug": "teresa-of-leon",
+        "label": "Daughter of the dynasty, countess of Portugal"
       },
       {
         "type": "person",
         "title": "Urraca of León and Castile",
         "slug": "urraca-of-leon",
         "label": "The queen regnant who held the realm together"
-      },
-      {
-        "type": "person",
-        "title": "Alfonso IX of León",
-        "slug": "alfonso-ix-of-leon",
-        "label": "The cortes of 1188 and the last separate reign"
       }
     ],
     "locations": [
+      {
+        "title": "Covadonga",
+        "type": "location",
+        "slug": "covadonga",
+        "label": "Shrine of the Asturian founding legend"
+      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -212,26 +218,20 @@
         "type": "location",
         "slug": "kingdom-of-portugal",
         "label": "The county that became a kingdom"
-      },
-      {
-        "title": "Covadonga",
-        "type": "location",
-        "slug": "covadonga",
-        "label": "Shrine of the Asturian founding legend"
       }
     ],
     "events": [
-      {
-        "title": "Treaty of Zamora",
-        "type": "event",
-        "slug": "treaty-of-zamora",
-        "label": "Letting Portugal go"
-      },
       {
         "title": "Battle of Las Navas de Tolosa",
         "type": "event",
         "slug": "battle-of-las-navas-de-tolosa",
         "label": "The great peninsular victory León famously missed"
+      },
+      {
+        "title": "Treaty of Zamora",
+        "type": "event",
+        "slug": "treaty-of-zamora",
+        "label": "Letting Portugal go"
       }
     ]
   },

@@ -213,6 +213,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland",
+        "label": "The eight-year-old king whose Guardian died here"
+      },
+      {
         "title": "Edward Balliol",
         "type": "person",
         "slug": "edward-balliol",
@@ -223,27 +229,9 @@
         "type": "person",
         "slug": "john-balliol",
         "label": "Father of Edward Balliol, whose claim the Disinherited revived"
-      },
-      {
-        "title": "David II of Scotland",
-        "type": "person",
-        "slug": "david-ii-of-scotland",
-        "label": "The eight-year-old king whose Guardian died here"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Halidon Hill",
-        "type": "event",
-        "slug": "battle-of-halidon-hill",
-        "label": "The same deployment under Edward III, 1333"
-      },
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war this battle reopened"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
@@ -251,10 +239,22 @@
         "label": "The victory whose forfeitures created the Disinherited"
       },
       {
+        "title": "Battle of Halidon Hill",
+        "type": "event",
+        "slug": "battle-of-halidon-hill",
+        "label": "The same deployment under Edward III, 1333"
+      },
+      {
         "title": "Treaty of Edinburgh-Northampton",
         "type": "event",
         "slug": "treaty-of-edinburgh-northampton",
         "label": "The 1328 peace that left the Disinherited unrestored"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war this battle reopened"
       }
     ],
     "locations": [

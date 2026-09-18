@@ -146,10 +146,40 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sverre Sigurdsson",
+        "title": "Eric II of Norway",
         "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "Crowned, died and buried there"
+        "slug": "eric-ii-of-norway",
+        "label": "Crowned there, 1280; died there, 1299"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Union king whose war closed the kontor, 1427"
+      },
+      {
+        "title": "Haakon IV Haakonsson",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
+        "label": "Made it his capital and built Haakon's Hall"
+      },
+      {
+        "title": "Haakon V Magnusson",
+        "type": "person",
+        "slug": "haakon-v-magnusson",
+        "label": "Moved the seat of government to Oslo"
+      },
+      {
+        "title": "Håkon III Sverresson",
+        "type": "person",
+        "slug": "hakon-iii-sverresson",
+        "label": "Died in the town, 1204"
+      },
+      {
+        "title": "Magnus V Erlingsson",
+        "type": "person",
+        "slug": "magnus-v-erlingsson",
+        "label": "Crowned there in 1163 or 1164"
       },
       {
         "title": "Magnus VI Lawmender",
@@ -158,10 +188,10 @@
         "label": "Gave the town its law; died there, 1280"
       },
       {
-        "title": "Eric II of Norway",
+        "title": "Margaret, Maid of Norway",
         "type": "person",
-        "slug": "eric-ii-of-norway",
-        "label": "Crowned there, 1280; died there, 1299"
+        "slug": "margaret-maid-of-norway",
+        "label": "Buried in Christ Church, 1290"
       },
       {
         "title": "Olaf III Kyrre",
@@ -176,40 +206,10 @@
         "label": "Moved the royal seat to Holmen and founded Munkeliv"
       },
       {
-        "title": "Magnus V Erlingsson",
+        "title": "Sverre Sigurdsson",
         "type": "person",
-        "slug": "magnus-v-erlingsson",
-        "label": "Crowned there in 1163 or 1164"
-      },
-      {
-        "title": "Håkon III Sverresson",
-        "type": "person",
-        "slug": "hakon-iii-sverresson",
-        "label": "Died in the town, 1204"
-      },
-      {
-        "title": "Haakon IV Haakonsson",
-        "type": "person",
-        "slug": "haakon-iv-haakonsson",
-        "label": "Made it his capital and built Haakon's Hall"
-      },
-      {
-        "title": "Margaret, Maid of Norway",
-        "type": "person",
-        "slug": "margaret-maid-of-norway",
-        "label": "Buried in Christ Church, 1290"
-      },
-      {
-        "title": "Haakon V Magnusson",
-        "type": "person",
-        "slug": "haakon-v-magnusson",
-        "label": "Moved the seat of government to Oslo"
-      },
-      {
-        "title": "Eric of Pomerania",
-        "type": "person",
-        "slug": "eric-of-pomerania",
-        "label": "Union king whose war closed the kontor, 1427"
+        "slug": "sverre-sigurdsson",
+        "label": "Crowned, died and buried there"
       }
     ],
     "locations": [
@@ -226,16 +226,16 @@
         "label": "Haakon IV died there; his body was brought to Bergen"
       },
       {
-        "title": "Oslo",
-        "type": "location",
-        "slug": "oslo",
-        "label": "Took over as seat of government in 1314"
-      },
-      {
         "title": "Mecklenburg",
         "type": "location",
         "slug": "mecklenburg",
         "label": "Its Victual Brothers sacked the town"
+      },
+      {
+        "title": "Oslo",
+        "type": "location",
+        "slug": "oslo",
+        "label": "Took over as seat of government in 1314"
       }
     ],
     "houses": [

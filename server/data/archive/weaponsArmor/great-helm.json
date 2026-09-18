@@ -104,14 +104,22 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Mail Coif",
-        "type": "weaponArmor",
-        "slug": "mail-coif"
+        "title": "Armet",
+        "slug": "armet",
+        "label": "The close-fitting helmet that replaced it",
+        "type": "weaponArmor"
       },
       {
-        "title": "Surcoat",
-        "type": "weaponArmor",
-        "slug": "surcoat"
+        "title": "Funeral Achievements of Henry V",
+        "slug": "henry-v-achievements",
+        "label": "Surviving example — the helm at Westminster",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Great Helm of Albert von Prankh",
+        "slug": "prankh-great-helm",
+        "label": "Surviving example — the rare helm that kept its crest",
+        "type": "weaponArmor"
       },
       {
         "title": "Heater Shield",
@@ -124,16 +132,9 @@
         "slug": "kettle-hat"
       },
       {
-        "title": "Armet",
-        "slug": "armet",
-        "label": "The close-fitting helmet that replaced it",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Great Helm of Albert von Prankh",
-        "slug": "prankh-great-helm",
-        "label": "Surviving example — the rare helm that kept its crest",
-        "type": "weaponArmor"
+        "title": "Mail Coif",
+        "type": "weaponArmor",
+        "slug": "mail-coif"
       },
       {
         "title": "Pembridge Helm",
@@ -142,10 +143,9 @@
         "type": "weaponArmor"
       },
       {
-        "title": "Funeral Achievements of Henry V",
-        "slug": "henry-v-achievements",
-        "label": "Surviving example — the helm at Westminster",
-        "type": "weaponArmor"
+        "title": "Surcoat",
+        "type": "weaponArmor",
+        "slug": "surcoat"
       }
     ]
   },

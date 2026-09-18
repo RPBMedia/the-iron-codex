@@ -191,10 +191,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry VI",
+        "title": "Catherine of Valois",
         "type": "person",
-        "slug": "henry-vi-of-england",
-        "label": "Husband"
+        "slug": "catherine-of-valois",
+        "label": "Mother-in-law"
       },
       {
         "title": "Charles VII of France",
@@ -203,10 +203,10 @@
         "label": "Uncle by marriage"
       },
       {
-        "title": "Catherine of Valois",
+        "title": "Henry VI",
         "type": "person",
-        "slug": "catherine-of-valois",
-        "label": "Mother-in-law"
+        "slug": "henry-vi-of-england",
+        "label": "Husband"
       }
     ],
     "events": [
@@ -219,16 +219,16 @@
     ],
     "houses": [
       {
-        "title": "House of Valois",
-        "type": "house",
-        "slug": "house-of-valois",
-        "label": "Royal house of her mother's side"
-      },
-      {
         "title": "House of Lancaster",
         "type": "house",
         "slug": "house-of-lancaster",
         "label": "The cause she led"
+      },
+      {
+        "title": "House of Valois",
+        "type": "house",
+        "slug": "house-of-valois",
+        "label": "Royal house of her mother's side"
       }
     ],
     "locations": [

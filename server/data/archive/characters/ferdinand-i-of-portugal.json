@@ -165,12 +165,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "His kingdom"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
@@ -183,6 +177,12 @@
         "label": "Ally in his last war with Castile"
       },
       {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "His kingdom"
+      },
+      {
         "title": "Lisbon",
         "type": "location",
         "slug": "lisbon",
@@ -191,16 +191,16 @@
     ],
     "people": [
       {
-        "title": "Peter I of Portugal",
-        "type": "person",
-        "slug": "peter-i-of-portugal",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "John I of Portugal",
         "type": "person",
         "slug": "john-i-of-portugal",
         "label": "Successor after the 1383–1385 Interregnum"
+      },
+      {
+        "title": "Peter I of Portugal",
+        "type": "person",
+        "slug": "peter-i-of-portugal",
+        "label": "His father and predecessor"
       }
     ],
     "events": []

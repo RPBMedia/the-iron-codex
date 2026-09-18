@@ -121,27 +121,27 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Alfred the Great",
-        "type": "person",
-        "slug": "alfred-the-great"
-      },
-      {
         "title": "Æthelred I of Wessex",
         "type": "person",
         "slug": "aethelred-i-of-wessex",
         "label": "The year of battles' king"
       },
       {
-        "title": "Edward the Elder",
-        "type": "person",
-        "slug": "edward-the-elder",
-        "label": "The reconqueror"
-      },
-      {
         "title": "Æthelstan",
         "type": "person",
         "slug": "aethelstan",
         "label": "First king of England"
+      },
+      {
+        "title": "Alfred the Great",
+        "type": "person",
+        "slug": "alfred-the-great"
+      },
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "The reconqueror"
       },
       {
         "type": "person",
@@ -151,6 +151,12 @@
       }
     ],
     "locations": [
+      {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "The Scandinavian region it reconquered"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
@@ -162,12 +168,6 @@
         "type": "location",
         "slug": "northumbria",
         "label": "The northern kingdom absorbed in 927"
-      },
-      {
-        "title": "Danelaw",
-        "type": "location",
-        "slug": "danelaw",
-        "label": "The Scandinavian region it reconquered"
       },
       {
         "title": "Winchester Cathedral",

@@ -97,6 +97,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "The methodical destroyer"
+      },
+      {
         "title": "Bohemond I of Antioch",
         "type": "person",
         "slug": "bohemond-i-of-antioch",
@@ -111,20 +117,13 @@
         "title": "Saladin",
         "type": "person",
         "slug": "saladin"
-      },
-      {
-        "title": "Baybars",
-        "type": "person",
-        "slug": "baybars",
-        "label": "The methodical destroyer"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
+        "title": "Ayyubid Sultanate",
         "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "The crown of Outremer"
+        "slug": "ayyubid-sultanate"
       },
       {
         "title": "Byzantine Empire",
@@ -133,9 +132,10 @@
         "label": "Antioch's claimant-suzerain"
       },
       {
-        "title": "Ayyubid Sultanate",
+        "title": "Kingdom of Jerusalem",
         "type": "location",
-        "slug": "ayyubid-sultanate"
+        "slug": "kingdom-of-jerusalem",
+        "label": "The crown of Outremer"
       },
       {
         "title": "Latin Empire",
@@ -158,15 +158,15 @@
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
-      {
         "title": "Battle of Ain Jalut",
         "type": "event",
         "slug": "battle-of-ain-jalut",
         "label": "1260 — fought past Acre, with Frankish consent"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ]
   },

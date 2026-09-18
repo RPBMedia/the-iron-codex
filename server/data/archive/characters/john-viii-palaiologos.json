@@ -164,16 +164,16 @@
     ],
     "events": [
       {
-        "title": "Fall of Constantinople",
-        "type": "event",
-        "slug": "fall-of-constantinople",
-        "label": "The end his diplomacy tried to forestall"
-      },
-      {
         "title": "Battle of Kosovo",
         "type": "event",
         "slug": "battle-of-kosovo",
         "label": "The 1389 battle whose 1448 sequel closed his reign in defeat"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The end his diplomacy tried to forestall"
       }
     ]
   },

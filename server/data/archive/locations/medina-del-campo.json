@@ -108,16 +108,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Isabella I of Castile",
-        "type": "person",
-        "slug": "isabella-of-castile",
-        "label": "Signed her will and died here in 1504"
-      },
-      {
         "title": "Ferdinand II of Aragon",
         "type": "person",
         "slug": "ferdinand-ii-of-aragon",
         "label": "Sealed the treaty of 1489 here with her"
+      },
+      {
+        "title": "Isabella I of Castile",
+        "type": "person",
+        "slug": "isabella-of-castile",
+        "label": "Signed her will and died here in 1504"
       },
       {
         "title": "John II of Castile",
@@ -127,6 +127,18 @@
       }
     ],
     "locations": [
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "Where Isabella chose to be buried"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "Ferdinand’s realm, joined to Castile by their marriage"
+      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -138,18 +150,6 @@
         "type": "location",
         "slug": "madrigal-de-las-altas-torres",
         "label": "Where Isabella I was born, forty miles away"
-      },
-      {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "Ferdinand’s realm, joined to Castile by their marriage"
-      },
-      {
-        "title": "Granada",
-        "type": "location",
-        "slug": "granada",
-        "label": "Where Isabella chose to be buried"
       }
     ],
     "events": [

@@ -86,16 +86,16 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Father of the imprisoned king"
+      },
+      {
         "title": "Edward II of England",
         "type": "person",
         "slug": "edward-ii-of-england",
         "label": "Imprisoned and died here in 1327"
-      },
-      {
-        "title": "Isabella of France",
-        "type": "person",
-        "slug": "isabella-of-france",
-        "label": "Led the regime that deposed him"
       },
       {
         "title": "Edward III of England",
@@ -104,10 +104,10 @@
         "label": "Succeeded on his father’s deposition"
       },
       {
-        "title": "Edward I of England",
+        "title": "Isabella of France",
         "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Father of the imprisoned king"
+        "slug": "isabella-of-france",
+        "label": "Led the regime that deposed him"
       }
     ],
     "locations": [

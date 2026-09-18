@@ -112,30 +112,30 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Tours",
-        "type": "event",
-        "slug": "battle-of-tours",
-        "label": "Took part in this engagement"
-      },
-      {
         "title": "Battle of Covadonga",
         "type": "event",
         "slug": "battle-of-covadonga",
         "label": "Early Christian resistance in the north"
+      },
+      {
+        "title": "Battle of Tours",
+        "type": "event",
+        "slug": "battle-of-tours",
+        "label": "Took part in this engagement"
       }
     ],
     "locations": [
-      {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "Containing realm"
-      },
       {
         "title": "Almohad Caliphate",
         "type": "location",
         "slug": "almohad-caliphate",
         "label": "Later ruling power in the peninsula"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Containing realm"
       }
     ],
     "people": [

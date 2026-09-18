@@ -177,30 +177,30 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "His kingdom"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Crowned there, 1163 or 1164"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "His kingdom"
       }
     ],
     "people": [
-      {
-        "title": "Sverre Sigurdsson",
-        "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "His Birkebeiner rival, victor, and successor"
-      },
       {
         "title": "Sigurd the Crusader",
         "type": "person",
         "slug": "sigurd-of-norway",
         "label": "His maternal grandfather, through whom he claimed the throne"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
+        "label": "His Birkebeiner rival, victor, and successor"
       }
     ],
     "events": [

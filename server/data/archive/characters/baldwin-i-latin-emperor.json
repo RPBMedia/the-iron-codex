@@ -145,9 +145,10 @@
         "slug": "constantinople"
       },
       {
-        "title": "Papacy",
+        "title": "Edirne",
         "type": "location",
-        "slug": "papacy"
+        "slug": "edirne",
+        "label": "Where he was defeated and captured"
       },
       {
         "title": "Latin Empire",
@@ -156,23 +157,22 @@
         "label": "The empire he was elected to rule"
       },
       {
-        "title": "Edirne",
+        "title": "Papacy",
         "type": "location",
-        "slug": "edirne",
-        "label": "Where he was defeated and captured"
+        "slug": "papacy"
       }
     ],
     "events": [
-      {
-        "title": "First Crusade Proclaimed",
-        "type": "event",
-        "slug": "first-crusade-called"
-      },
       {
         "title": "Battle of Adrianople",
         "type": "event",
         "slug": "battle-of-adrianople",
         "label": "Captured here in 1205"
+      },
+      {
+        "title": "First Crusade Proclaimed",
+        "type": "event",
+        "slug": "first-crusade-called"
       },
       {
         "title": "Fourth Crusade",

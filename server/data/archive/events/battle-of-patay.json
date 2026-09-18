@@ -167,12 +167,6 @@
     ],
     "events": [
       {
-        "title": "Siege of Orléans",
-        "type": "event",
-        "slug": "siege-of-orleans",
-        "label": "The siege whose relief began the campaign"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt",
@@ -183,18 +177,24 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The wider conflict"
+      },
+      {
+        "title": "Siege of Orléans",
+        "type": "event",
+        "slug": "siege-of-orleans",
+        "label": "The siege whose relief began the campaign"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
       }
     ]
   },

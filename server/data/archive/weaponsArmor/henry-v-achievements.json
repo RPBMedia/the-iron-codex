@@ -149,6 +149,12 @@
         "label": "The other great English funerary group"
       },
       {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet",
+        "label": "What was actually worn in war by 1415"
+      },
+      {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm",
@@ -159,12 +165,6 @@
         "type": "weaponArmor",
         "slug": "pembridge-helm",
         "label": "Another English funerary helm"
-      },
-      {
-        "title": "Bascinet",
-        "type": "weaponArmor",
-        "slug": "bascinet",
-        "label": "What was actually worn in war by 1415"
       }
     ]
   },

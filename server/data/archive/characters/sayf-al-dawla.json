@@ -175,16 +175,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Nikephoros II Phokas",
-        "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "Sacked his capital in 962"
-      },
-      {
         "title": "John I Tzimiskes",
         "type": "person",
         "slug": "john-i-tzimiskes",
         "label": "Commanded alongside Nikephoros at the sack of Aleppo"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Sacked his capital in 962"
       }
     ],
     "events": [
@@ -197,12 +197,6 @@
     ],
     "locations": [
       {
-        "title": "Hamdanid Emirate of Aleppo",
-        "type": "location",
-        "slug": "hamdanid-emirate-of-aleppo",
-        "label": "The emirate he founded and ruled"
-      },
-      {
         "title": "Abbasid Caliphate",
         "type": "location",
         "slug": "abbasid-caliphate",
@@ -213,6 +207,12 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire he fought for twenty years"
+      },
+      {
+        "title": "Hamdanid Emirate of Aleppo",
+        "type": "location",
+        "slug": "hamdanid-emirate-of-aleppo",
+        "label": "The emirate he founded and ruled"
       }
     ]
   },

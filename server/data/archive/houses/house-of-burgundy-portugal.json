@@ -306,19 +306,25 @@
         "label": "The Farmer King"
       },
       {
-        "title": "Pedro I the Just",
-        "type": "person",
-        "slug": "peter-i-of-portugal",
-        "label": "The Inês de Castro legend"
-      },
-      {
         "title": "Ferdinand I",
         "type": "person",
         "slug": "ferdinand-i-of-portugal",
         "label": "Last king of the line"
+      },
+      {
+        "title": "Pedro I the Just",
+        "type": "person",
+        "slug": "peter-i-of-portugal",
+        "label": "The Inês de Castro legend"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Aljubarrota",
+        "type": "event",
+        "slug": "battle-of-aljubarrota",
+        "label": "Ended the crisis of 1383–85"
+      },
       {
         "title": "Battle of São Mamede",
         "type": "event",
@@ -330,12 +336,6 @@
         "type": "event",
         "slug": "siege-of-lisbon",
         "label": "Key Reconquista conquest, 1147"
-      },
-      {
-        "title": "Battle of Aljubarrota",
-        "type": "event",
-        "slug": "battle-of-aljubarrota",
-        "label": "Ended the crisis of 1383–85"
       }
     ],
     "locations": [

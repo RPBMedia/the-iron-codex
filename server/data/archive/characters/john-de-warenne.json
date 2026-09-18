@@ -236,12 +236,6 @@
         "label": "His victory, and the ruin of his son-in-law's kingdom"
       },
       {
-        "title": "Battle of Stirling Bridge",
-        "type": "event",
-        "slug": "battle-of-stirling-bridge",
-        "label": "His defeat, and his flight to Berwick"
-      },
-      {
         "title": "Battle of Falkirk",
         "type": "event",
         "slug": "battle-of-falkirk",
@@ -254,6 +248,12 @@
         "label": "Fought for Henry III, then fled abroad"
       },
       {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "His defeat, and his flight to Berwick"
+      },
+      {
         "title": "Wars of Scottish Independence",
         "type": "event",
         "slug": "wars-of-scottish-independence",
@@ -261,6 +261,12 @@
       }
     ],
     "people": [
+      {
+        "title": "Andrew Moray",
+        "type": "person",
+        "slug": "andrew-moray",
+        "label": "His prisoner at Dunbar, and his conqueror at Stirling Bridge"
+      },
       {
         "title": "Edward I of England",
         "type": "person",
@@ -278,12 +284,6 @@
         "type": "person",
         "slug": "william-wallace",
         "label": "Destroyed his army at Stirling Bridge"
-      },
-      {
-        "title": "Andrew Moray",
-        "type": "person",
-        "slug": "andrew-moray",
-        "label": "His prisoner at Dunbar, and his conqueror at Stirling Bridge"
       }
     ],
     "locations": [

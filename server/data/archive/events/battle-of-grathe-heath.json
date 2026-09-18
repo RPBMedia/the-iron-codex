@@ -149,16 +149,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Valdemar I of Denmark",
+        "title": "Cnut VI of Denmark",
         "type": "person",
-        "slug": "valdemar-i-of-denmark",
-        "label": "Commander of the victorious army"
-      },
-      {
-        "title": "Sweyn III of Denmark",
-        "type": "person",
-        "slug": "sweyn-iii-of-denmark",
-        "label": "Killed in this battle"
+        "slug": "cnut-vi-of-denmark",
+        "label": "Valdemar’s son, crowned co-king in 1170"
       },
       {
         "title": "Eric III of Denmark",
@@ -167,10 +161,16 @@
         "label": "His abdication in 1146 opened the disputed throne"
       },
       {
-        "title": "Cnut VI of Denmark",
+        "title": "Sweyn III of Denmark",
         "type": "person",
-        "slug": "cnut-vi-of-denmark",
-        "label": "Valdemar’s son, crowned co-king in 1170"
+        "slug": "sweyn-iii-of-denmark",
+        "label": "Killed in this battle"
+      },
+      {
+        "title": "Valdemar I of Denmark",
+        "type": "person",
+        "slug": "valdemar-i-of-denmark",
+        "label": "Commander of the victorious army"
       }
     ],
     "events": [
@@ -183,16 +183,16 @@
     ],
     "locations": [
       {
-        "title": "Roskilde",
-        "type": "location",
-        "slug": "roskilde",
-        "label": "Where Sweyn sprang the Bloodfeast eleven weeks earlier"
-      },
-      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "The reunited realm"
+      },
+      {
+        "title": "Roskilde",
+        "type": "location",
+        "slug": "roskilde",
+        "label": "Where Sweyn sprang the Bloodfeast eleven weeks earlier"
       }
     ],
     "houses": [

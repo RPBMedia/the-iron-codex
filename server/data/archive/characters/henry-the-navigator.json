@@ -145,14 +145,14 @@
     ],
     "orders": [
       {
-        "title": "Order of Christ",
-        "type": "order",
-        "slug": "order-of-christ"
-      },
-      {
         "title": "Order of Aviz",
         "type": "order",
         "slug": "order-of-aviz"
+      },
+      {
+        "title": "Order of Christ",
+        "type": "order",
+        "slug": "order-of-christ"
       }
     ]
   },

@@ -90,9 +90,68 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Arm Harness",
+        "slug": "arm-harness",
+        "label": "Shoulder, upper arm, elbow and forearm",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Avant Armour",
+        "slug": "avant-armour",
+        "label": "Surviving example — among the earliest complete harnesses",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet"
+      },
+      {
+        "title": "Breastplate",
+        "slug": "breastplate",
+        "label": "The plate the whole harness is built around",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Churburg Armoury",
+        "slug": "churburg-armour",
+        "label": "Surviving example — whole harnesses kept together",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Estoc",
+        "slug": "estoc",
+        "label": "The edgeless sword built to defeat it",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Gauntlet",
+        "type": "weaponArmor",
+        "slug": "gauntlet",
+        "label": "Hand protection, the hardest piece of the harness to design"
+      },
+      {
+        "title": "Gorget",
+        "slug": "gorget",
+        "label": "Closes the seam between helmet and cuirass",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Gothic Plate Armor",
         "type": "weaponArmor",
         "slug": "gothic-plate-armor"
+      },
+      {
+        "title": "Hand Cannon",
+        "type": "weaponArmor",
+        "slug": "hand-cannon",
+        "label": "The threat breastplates were later proofed against"
+      },
+      {
+        "title": "Leg Harness",
+        "slug": "leg-harness",
+        "label": "Thigh, knee, shin and foot",
+        "type": "weaponArmor"
       },
       {
         "title": "Longsword",
@@ -108,65 +167,6 @@
         "title": "War Hammer",
         "type": "weaponArmor",
         "slug": "war-hammer"
-      },
-      {
-        "title": "Bascinet",
-        "type": "weaponArmor",
-        "slug": "bascinet"
-      },
-      {
-        "title": "Hand Cannon",
-        "type": "weaponArmor",
-        "slug": "hand-cannon",
-        "label": "The threat breastplates were later proofed against"
-      },
-      {
-        "title": "Gauntlet",
-        "type": "weaponArmor",
-        "slug": "gauntlet",
-        "label": "Hand protection, the hardest piece of the harness to design"
-      },
-      {
-        "title": "Estoc",
-        "slug": "estoc",
-        "label": "The edgeless sword built to defeat it",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Breastplate",
-        "slug": "breastplate",
-        "label": "The plate the whole harness is built around",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Arm Harness",
-        "slug": "arm-harness",
-        "label": "Shoulder, upper arm, elbow and forearm",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Leg Harness",
-        "slug": "leg-harness",
-        "label": "Thigh, knee, shin and foot",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Gorget",
-        "slug": "gorget",
-        "label": "Closes the seam between helmet and cuirass",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Avant Armour",
-        "slug": "avant-armour",
-        "label": "Surviving example — among the earliest complete harnesses",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Churburg Armoury",
-        "slug": "churburg-armour",
-        "label": "Surviving example — whole harnesses kept together",
-        "type": "weaponArmor"
       }
     ],
     "events": [

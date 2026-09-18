@@ -235,16 +235,16 @@
         "label": "Nominal commander, and nearly taken in his own tent"
       },
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Sent the raiding army that forced the peace"
-      },
-      {
         "title": "Isabella of France",
         "type": "person",
         "slug": "isabella-of-france",
         "label": "With Mortimer, the government that paid for the campaign"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Sent the raiding army that forced the peace"
       }
     ],
     "locations": [
@@ -263,12 +263,6 @@
     ],
     "events": [
       {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton",
-        "label": "The peace this campaign produced, in 1328"
-      },
-      {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
@@ -279,6 +273,12 @@
         "type": "event",
         "slug": "battle-of-dupplin-moor",
         "label": "The war reopened four years later"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "The peace this campaign produced, in 1328"
       },
       {
         "title": "Wars of Scottish Independence",

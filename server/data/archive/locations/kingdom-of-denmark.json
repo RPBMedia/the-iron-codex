@@ -139,20 +139,14 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Harald Bluetooth",
-        "type": "person",
-        "slug": "harald-bluetooth"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great"
       },
       {
-        "title": "Valdemar IV Atterdag",
+        "title": "Harald Bluetooth",
         "type": "person",
-        "slug": "valdemar-iv-atterdag",
-        "label": "The redeemer of the pawned realm"
+        "slug": "harald-bluetooth"
       },
       {
         "title": "Margaret I",
@@ -177,9 +171,20 @@
         "title": "Valdemar II of Denmark",
         "slug": "valdemar-ii-of-denmark",
         "label": "Baltic empire and the Code of Jutland"
+      },
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag",
+        "label": "The redeemer of the pawned realm"
       }
     ],
     "locations": [
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union"
+      },
       {
         "title": "Kingdom of Norway",
         "type": "location",
@@ -191,11 +196,6 @@
         "slug": "kingdom-of-sweden"
       },
       {
-        "title": "Kalmar Union",
-        "type": "location",
-        "slug": "kalmar-union"
-      },
-      {
         "title": "North Sea Empire",
         "type": "location",
         "slug": "north-sea-empire",
@@ -204,16 +204,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Svolder",
-        "type": "event",
-        "slug": "battle-of-svolder",
-        "label": "The coalition's victory, 1000"
-      },
-      {
         "title": "Battle of Bornhöved",
         "type": "event",
         "slug": "battle-of-bornhoved",
         "label": "The 1227 defeat that fixed the frontier at the Eider"
+      },
+      {
+        "title": "Battle of Svolder",
+        "type": "event",
+        "slug": "battle-of-svolder",
+        "label": "The coalition's victory, 1000"
       }
     ]
   },

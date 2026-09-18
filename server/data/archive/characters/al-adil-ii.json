@@ -162,16 +162,16 @@
     ],
     "people": [
       {
-        "title": "Al-Kamil",
-        "type": "person",
-        "slug": "al-kamil",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Al-Adil I",
         "type": "person",
         "slug": "al-adil-i",
         "label": "His great-grandfather and namesake, brother of Saladin"
+      },
+      {
+        "title": "Al-Kamil",
+        "type": "person",
+        "slug": "al-kamil",
+        "label": "His father and predecessor"
       }
     ],
     "events": []

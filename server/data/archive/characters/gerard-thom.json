@@ -147,15 +147,15 @@
     ],
     "orders": [
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order"
-      },
-      {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "Founder of the order"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
       }
     ]
   },

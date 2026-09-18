@@ -135,6 +135,12 @@
     ],
     "weaponsArmor": [
       {
+        "title": "Arming Sword",
+        "type": "weaponArmor",
+        "slug": "arming-sword",
+        "label": "The type its blade belongs to"
+      },
+      {
         "title": "Imperial Sword (Reichsschwert)",
         "type": "weaponArmor",
         "slug": "reichsschwert",
@@ -145,12 +151,6 @@
         "type": "weaponArmor",
         "slug": "joyeuse",
         "label": "The French coronation sword"
-      },
-      {
-        "title": "Arming Sword",
-        "type": "weaponArmor",
-        "slug": "arming-sword",
-        "label": "The type its blade belongs to"
       },
       {
         "title": "William Wallace's Sword",

@@ -203,10 +203,10 @@
     ],
     "events": [
       {
-        "title": "Siege of Constantinople (1204)",
+        "title": "Battle of Pelagonia",
         "type": "event",
-        "slug": "siege-of-constantinople-1204",
-        "label": "The conquest this defeat undermined"
+        "slug": "battle-of-pelagonia",
+        "label": "The next collapse of Latin power in Greece"
       },
       {
         "title": "Fourth Crusade",
@@ -215,24 +215,24 @@
         "label": "The campaign that created the Latin Empire"
       },
       {
-        "title": "Battle of Pelagonia",
+        "title": "Siege of Constantinople (1204)",
         "type": "event",
-        "slug": "battle-of-pelagonia",
-        "label": "The next collapse of Latin power in Greece"
+        "slug": "siege-of-constantinople-1204",
+        "label": "The conquest this defeat undermined"
       }
     ],
     "locations": [
-      {
-        "title": "Latin Empire",
-        "type": "location",
-        "slug": "latin-empire",
-        "label": "Lost its field army here"
-      },
       {
         "title": "Edirne",
         "type": "location",
         "slug": "edirne",
         "label": "Medieval Adrianople, the city under siege"
+      },
+      {
+        "title": "Latin Empire",
+        "type": "location",
+        "slug": "latin-empire",
+        "label": "Lost its field army here"
       }
     ],
     "houses": [

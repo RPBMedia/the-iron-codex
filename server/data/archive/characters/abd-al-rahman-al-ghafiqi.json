@@ -144,16 +144,16 @@
     ],
     "locations": [
       {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "Realm"
-      },
-      {
         "title": "Tours",
         "type": "location",
         "slug": "tours",
         "label": "Place of death"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Realm"
       }
     ]
   },

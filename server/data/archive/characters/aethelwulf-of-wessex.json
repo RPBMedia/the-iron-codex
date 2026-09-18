@@ -190,12 +190,6 @@
     ],
     "people": [
       {
-        "title": "Egbert of Wessex",
-        "type": "person",
-        "slug": "egbert-of-wessex",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Æthelbald of Wessex",
         "type": "person",
         "slug": "aethelbald-of-wessex",
@@ -206,20 +200,26 @@
         "type": "person",
         "slug": "alfred-the-great",
         "label": "His youngest son"
+      },
+      {
+        "title": "Egbert of Wessex",
+        "type": "person",
+        "slug": "egbert-of-wessex",
+        "label": "His father and predecessor"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Ellandun",
-        "type": "event",
-        "slug": "battle-of-ellandun",
-        "label": "His father's victory, after which he took Kent"
-      },
       {
         "title": "Battle of Aclea",
         "type": "event",
         "slug": "battle-of-aclea",
         "label": "His victory over the Danish army, 851"
+      },
+      {
+        "title": "Battle of Ellandun",
+        "type": "event",
+        "slug": "battle-of-ellandun",
+        "label": "His father's victory, after which he took Kent"
       }
     ]
   },

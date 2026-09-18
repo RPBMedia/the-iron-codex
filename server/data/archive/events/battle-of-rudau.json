@@ -198,16 +198,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Strėva",
-        "type": "event",
-        "slug": "battle-of-streva",
-        "label": "The war’s earlier pitched battle, 1348"
-      },
-      {
         "title": "Battle of Grunwald",
         "type": "event",
         "slug": "battle-of-grunwald",
         "label": "The Order’s ruin, forty years later"
+      },
+      {
+        "title": "Battle of Strėva",
+        "type": "event",
+        "slug": "battle-of-streva",
+        "label": "The war’s earlier pitched battle, 1348"
       }
     ],
     "orders": [

@@ -84,12 +84,6 @@
         "label": "Died here in 1332"
       },
       {
-        "title": "Valdemar IV Atterdag",
-        "type": "person",
-        "slug": "valdemar-iv-atterdag",
-        "label": "His son, who recovered the pawned kingdom"
-      },
-      {
         "title": "Eric of Pomerania",
         "type": "person",
         "slug": "eric-of-pomerania",
@@ -100,20 +94,26 @@
         "type": "person",
         "slug": "eric-v-of-denmark",
         "label": "Whose charter began the constraints on Danish kingship"
+      },
+      {
+        "title": "Valdemar IV Atterdag",
+        "type": "person",
+        "slug": "valdemar-iv-atterdag",
+        "label": "His son, who recovered the pawned kingdom"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
       {
         "title": "Gurre Castle",
         "type": "location",
         "slug": "gurre-castle",
         "label": "Where his son Valdemar IV died in 1375"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       }
     ]
   },

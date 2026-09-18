@@ -187,44 +187,44 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Atoleiros",
-        "type": "event",
-        "slug": "battle-of-atoleiros",
-        "label": "His first major victory, in 1384"
-      },
-      {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "The battle he won as constable"
+      },
+      {
+        "title": "Battle of Atoleiros",
+        "type": "event",
+        "slug": "battle-of-atoleiros",
+        "label": "His first major victory, in 1384"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The kingdom whose independence he secured"
-      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The invader he defeated"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom whose independence he secured"
       }
     ],
     "people": [
-      {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "The king he served and fought for"
-      },
       {
         "title": "Ferdinand I of Portugal",
         "type": "person",
         "slug": "ferdinand-i-of-portugal",
         "label": "Whose death began the crisis"
+      },
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "The king he served and fought for"
       }
     ]
   },

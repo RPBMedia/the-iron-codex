@@ -96,6 +96,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "His cousin and co-ruler in Lithuania"
+      },
+      {
         "title": "Wladyslaw II Jagiello",
         "type": "person",
         "slug": "wladyslaw-ii-jagiello",
@@ -106,26 +112,20 @@
         "type": "person",
         "slug": "wladyslaw-iii-of-poland",
         "label": "Elected king on his father’s death"
-      },
-      {
-        "title": "Vytautas",
-        "type": "person",
-        "slug": "vytautas",
-        "label": "His cousin and co-ruler in Lithuania"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Poland",
-        "type": "location",
-        "slug": "kingdom-of-poland",
-        "label": "Realm the town belonged to from 1349"
-      },
       {
         "title": "Grand Duchy of Lithuania",
         "type": "location",
         "slug": "grand-duchy-of-lithuania",
         "label": "Jagiełło’s other realm"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Realm the town belonged to from 1349"
       }
     ],
     "events": [

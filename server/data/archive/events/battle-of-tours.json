@@ -111,10 +111,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Tours",
+        "title": "al-Andalus",
         "type": "location",
-        "slug": "tours",
-        "label": "Battlefield"
+        "slug": "al-andalus",
+        "label": "Combatant faction"
       },
       {
         "title": "Frankish Kingdom",
@@ -123,35 +123,35 @@
         "label": "Combatant faction"
       },
       {
-        "title": "al-Andalus",
+        "title": "Poitiers",
         "type": "location",
-        "slug": "al-andalus",
-        "label": "Combatant faction"
+        "slug": "poitiers",
+        "label": "City near the battlefield"
+      },
+      {
+        "title": "Tours",
+        "type": "location",
+        "slug": "tours",
+        "label": "Battlefield"
       },
       {
         "title": "Umayyad Caliphate",
         "type": "location",
         "slug": "umayyad-caliphate",
         "label": "Combatant faction"
-      },
-      {
-        "title": "Poitiers",
-        "type": "location",
-        "slug": "poitiers",
-        "label": "City near the battlefield"
       }
     ],
     "people": [
       {
-        "title": "Charles Martel",
-        "type": "person",
-        "slug": "charles-martel",
-        "label": "Commander"
-      },
-      {
         "title": "Abd al-Rahman al-Ghafiqi",
         "type": "person",
         "slug": "abd-al-rahman-al-ghafiqi",
+        "label": "Commander"
+      },
+      {
+        "title": "Charles Martel",
+        "type": "person",
+        "slug": "charles-martel",
         "label": "Commander"
       }
     ],

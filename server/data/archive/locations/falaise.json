@@ -86,16 +86,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Born here about 1027"
-      },
-      {
         "title": "Philip II of France",
         "type": "person",
         "slug": "philip-ii-of-france",
         "label": "Took the castle in 1204"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Born here about 1027"
       }
     ],
     "locations": [
@@ -106,16 +106,16 @@
         "label": "Containing realm"
       },
       {
-        "title": "Rouen",
-        "type": "location",
-        "slug": "rouen",
-        "label": "The ducal capital"
-      },
-      {
         "title": "Kingdom of Scotland",
         "type": "location",
         "slug": "kingdom-of-scotland",
         "label": "Bound by the Treaty of Falaise in 1174"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen",
+        "label": "The ducal capital"
       }
     ],
     "events": [

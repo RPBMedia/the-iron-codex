@@ -206,24 +206,24 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Heraclius",
-        "type": "person",
-        "slug": "heraclius",
-        "label": "Beat Persia and lost the east to the Arabs; Leo stopped the same expansion at the walls"
-      },
-      {
         "title": "Constantine V",
         "type": "person",
         "slug": "constantine-v",
         "label": "His son and successor, who fought beside him at Akroinon"
+      },
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Beat Persia and lost the east to the Arabs; Leo stopped the same expansion at the walls"
       }
     ],
     "events": [
       {
-        "title": "Siege of Constantinople (717–718)",
+        "title": "Battle of Akroinon",
         "type": "event",
-        "slug": "siege-of-constantinople-717",
-        "label": "His first year as emperor"
+        "slug": "battle-of-akroinon",
+        "label": "His last victory, fought beside his son"
       },
       {
         "title": "Siege of Constantinople (626)",
@@ -232,10 +232,10 @@
         "label": "The earlier siege whose defence his repeated"
       },
       {
-        "title": "Battle of Akroinon",
+        "title": "Siege of Constantinople (717–718)",
         "type": "event",
-        "slug": "battle-of-akroinon",
-        "label": "His last victory, fought beside his son"
+        "slug": "siege-of-constantinople-717",
+        "label": "His first year as emperor"
       }
     ],
     "locations": [

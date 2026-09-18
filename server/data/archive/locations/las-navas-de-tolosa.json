@@ -112,10 +112,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Castile",
+        "title": "Almohad Caliphate",
         "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "Combatant realm"
+        "slug": "almohad-caliphate",
+        "label": "Power broken here"
       },
       {
         "title": "Kingdom of Aragon",
@@ -124,16 +124,16 @@
         "label": "Combatant realm"
       },
       {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "Combatant realm"
+      },
+      {
         "title": "Kingdom of Navarre",
         "type": "location",
         "slug": "kingdom-of-navarre",
         "label": "Combatant realm"
-      },
-      {
-        "title": "Almohad Caliphate",
-        "type": "location",
-        "slug": "almohad-caliphate",
-        "label": "Power broken here"
       },
       {
         "title": "Marrakesh",

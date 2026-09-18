@@ -153,6 +153,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Anne of Bohemia",
+        "type": "person",
+        "slug": "anne-of-bohemia",
+        "label": "First queen"
+      },
+      {
         "title": "Edward III of England",
         "type": "person",
         "slug": "edward-iii-of-england",
@@ -171,12 +177,6 @@
         "label": "Cousin, supplanter, and successor"
       },
       {
-        "title": "Anne of Bohemia",
-        "type": "person",
-        "slug": "anne-of-bohemia",
-        "label": "First queen"
-      },
-      {
         "title": "Joan of Kent",
         "type": "person",
         "slug": "joan-of-kent",
@@ -184,6 +184,12 @@
       }
     ],
     "locations": [
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Born at Bordeaux, 1367"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
@@ -194,12 +200,6 @@
         "type": "location",
         "slug": "westminster",
         "label": "Remodelled Westminster Hall"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "Born at Bordeaux, 1367"
       }
     ],
     "events": [

@@ -186,16 +186,16 @@
     ],
     "people": [
       {
-        "title": "Louis the Pious",
-        "type": "person",
-        "slug": "louis-the-pious",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Charlemagne",
         "type": "person",
         "slug": "charlemagne",
         "label": "His grandfather, whose empire was partitioned"
+      },
+      {
+        "title": "Louis the Pious",
+        "type": "person",
+        "slug": "louis-the-pious",
+        "label": "His father and predecessor"
       }
     ],
     "events": [

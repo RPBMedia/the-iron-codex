@@ -127,16 +127,28 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Spangenhelm",
+        "title": "Mail Armor",
         "type": "weaponArmor",
-        "slug": "spangenhelm",
-        "label": "The construction tradition it belongs to"
+        "slug": "mail-armor",
+        "label": "Found in the same burial"
       },
       {
         "title": "Nasal Helmet",
         "type": "weaponArmor",
         "slug": "nasal-helmet",
         "label": "The one-piece form that followed"
+      },
+      {
+        "title": "Round Shield",
+        "type": "weaponArmor",
+        "slug": "round-shield",
+        "label": "What most Norse fighters had instead of a helmet"
+      },
+      {
+        "title": "Spangenhelm",
+        "type": "weaponArmor",
+        "slug": "spangenhelm",
+        "label": "The construction tradition it belongs to"
       },
       {
         "title": "Sutton Hoo Helmet",
@@ -149,18 +161,6 @@
         "type": "weaponArmor",
         "slug": "viking-sword",
         "label": "The weapon of the same graves"
-      },
-      {
-        "title": "Round Shield",
-        "type": "weaponArmor",
-        "slug": "round-shield",
-        "label": "What most Norse fighters had instead of a helmet"
-      },
-      {
-        "title": "Mail Armor",
-        "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "Found in the same burial"
       }
     ]
   },

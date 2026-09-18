@@ -277,19 +277,31 @@
   "relatedEntries": {
     "civilizations": [
       {
-        "title": "Visigoths",
-        "type": "civilization",
-        "slug": "visigoths",
-        "label": "The Gothic people who formed inside the empire and ended at Toledo"
-      },
-      {
         "title": "Ostrogoths",
         "type": "civilization",
         "slug": "ostrogoths",
         "label": "The Gothic people assembled in the Balkans who took Italy"
+      },
+      {
+        "title": "Visigoths",
+        "type": "civilization",
+        "slug": "visigoths",
+        "label": "The Gothic people who formed inside the empire and ended at Toledo"
       }
     ],
     "locations": [
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Employer, enemy and model across three centuries"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "Where Jordanes wrote the Getica, and where Busbecq heard Gothic in 1562"
+      },
       {
         "title": "Ostrogothic Kingdom",
         "type": "location",
@@ -301,46 +313,34 @@
         "type": "location",
         "slug": "rome",
         "label": "Sacked by Alaric's Goths in 410"
-      },
-      {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople",
-        "label": "Where Jordanes wrote the Getica, and where Busbecq heard Gothic in 1562"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "Employer, enemy and model across three centuries"
       }
     ],
     "events": [
-      {
-        "title": "Gothic War",
-        "type": "event",
-        "slug": "gothic-war",
-        "label": "Justinian's reconquest, which ended the Gothic name in Italy"
-      },
       {
         "title": "Fall of the Western Roman Empire",
         "type": "event",
         "slug": "fall-of-western-rome",
         "label": "The collapse in which the Gothic kingdoms became successor states"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "Justinian's reconquest, which ended the Gothic name in Italy"
       }
     ],
     "people": [
-      {
-        "title": "Totila",
-        "type": "person",
-        "slug": "totila",
-        "label": "The Gothic king who nearly reversed the reconquest"
-      },
       {
         "title": "Justinian I",
         "type": "person",
         "slug": "justinian-i",
         "label": "Whose war destroyed the Gothic army in Italy"
+      },
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "The Gothic king who nearly reversed the reconquest"
       }
     ]
   },

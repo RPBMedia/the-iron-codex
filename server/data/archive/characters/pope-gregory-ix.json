@@ -141,14 +141,14 @@
     ],
     "orders": [
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order"
-      },
-      {
         "title": "Livonian Brothers of the Sword",
         "type": "order",
         "slug": "livonian-brothers-of-the-sword"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
       }
     ]
   },

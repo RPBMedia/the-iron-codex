@@ -154,10 +154,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Antioch",
         "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Birthplace"
+        "slug": "antioch",
+        "label": "Where he died in 1098"
       },
       {
         "title": "Byzantine Empire",
@@ -166,15 +166,15 @@
         "label": "Place of death"
       },
       {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "Birthplace"
+      },
+      {
         "title": "Papacy",
         "type": "location",
         "slug": "papacy"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Where he died in 1098"
       }
     ],
     "events": [

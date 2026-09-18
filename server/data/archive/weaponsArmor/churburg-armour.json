@@ -129,10 +129,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
+        "title": "Arm Harness",
         "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The system its harnesses preserve intact"
+        "slug": "arm-harness",
+        "label": "Complete arms survive on its harnesses"
       },
       {
         "title": "Avant Armour",
@@ -141,16 +141,16 @@
         "label": "The comparable Milanese harness in Glasgow"
       },
       {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet",
+        "label": "Helmets of the same harnesses"
+      },
+      {
         "title": "Breastplate",
         "type": "weaponArmor",
         "slug": "breastplate",
         "label": "Italian globose forms in the collection"
-      },
-      {
-        "title": "Arm Harness",
-        "type": "weaponArmor",
-        "slug": "arm-harness",
-        "label": "Complete arms survive on its harnesses"
       },
       {
         "title": "Leg Harness",
@@ -159,10 +159,10 @@
         "label": "Complete legs survive likewise"
       },
       {
-        "title": "Bascinet",
+        "title": "Plate Armor",
         "type": "weaponArmor",
-        "slug": "bascinet",
-        "label": "Helmets of the same harnesses"
+        "slug": "plate-armor",
+        "label": "The system its harnesses preserve intact"
       }
     ]
   },

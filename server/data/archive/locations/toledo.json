@@ -158,25 +158,19 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Conquest of Toledo",
-        "type": "event",
-        "slug": "conquest-of-toledo",
-        "label": "Taken by Alfonso VI in 1085"
-      },
-      {
         "title": "Battle of Sagrajas",
         "type": "event",
         "slug": "battle-of-sagrajas",
         "label": "The Almoravid response its fall provoked"
+      },
+      {
+        "title": "Conquest of Toledo",
+        "type": "event",
+        "slug": "conquest-of-toledo",
+        "label": "Taken by Alfonso VI in 1085"
       }
     ],
     "people": [
-      {
-        "title": "Alfonso VI of León and Castile",
-        "type": "person",
-        "slug": "alfonso-vi-of-leon-and-castile",
-        "label": "Conquered the city"
-      },
       {
         "title": "Abd al-Rahman III",
         "type": "person",
@@ -184,16 +178,22 @@
         "label": "Forced the city to submit in 932"
       },
       {
-        "title": "Yusuf ibn Tashfin",
+        "title": "Alfonso VI of León and Castile",
         "type": "person",
-        "slug": "yusuf-ibn-tashfin",
-        "label": "Besieged Toledo in 1090"
+        "slug": "alfonso-vi-of-leon-and-castile",
+        "label": "Conquered the city"
       },
       {
         "title": "Peter of Castile",
         "type": "person",
         "slug": "peter-of-castile",
         "label": "His treasurer built El Tránsito"
+      },
+      {
+        "title": "Yusuf ibn Tashfin",
+        "type": "person",
+        "slug": "yusuf-ibn-tashfin",
+        "label": "Besieged Toledo in 1090"
       }
     ],
     "locations": [

@@ -89,6 +89,17 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet"
+      },
+      {
+        "title": "Gorget",
+        "slug": "gorget",
+        "label": "The later plate answer at the throat",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm"
@@ -107,17 +118,6 @@
         "title": "Nasal Helmet",
         "type": "weaponArmor",
         "slug": "nasal-helmet"
-      },
-      {
-        "title": "Bascinet",
-        "type": "weaponArmor",
-        "slug": "bascinet"
-      },
-      {
-        "title": "Gorget",
-        "slug": "gorget",
-        "label": "The later plate answer at the throat",
-        "type": "weaponArmor"
       }
     ]
   },

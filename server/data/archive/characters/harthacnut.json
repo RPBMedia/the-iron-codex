@@ -165,6 +165,12 @@
     ],
     "people": [
       {
+        "title": "Emma of Normandy",
+        "type": "person",
+        "slug": "emma-of-normandy",
+        "label": "Mother"
+      },
+      {
         "title": "Harald Bluetooth",
         "type": "person",
         "slug": "harald-bluetooth",
@@ -175,12 +181,6 @@
         "type": "person",
         "slug": "magnus-the-good",
         "label": "Ruler of Kingdom of Denmark"
-      },
-      {
-        "title": "Emma of Normandy",
-        "type": "person",
-        "slug": "emma-of-normandy",
-        "label": "Mother"
       }
     ]
   },

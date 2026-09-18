@@ -156,16 +156,16 @@
     ],
     "locations": [
       {
-        "name": "Ottoman Empire",
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire"
-      },
-      {
         "name": "Kingdom of Poland",
         "title": "Kingdom of Poland",
         "type": "location",
         "slug": "kingdom-of-poland"
+      },
+      {
+        "name": "Ottoman Empire",
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire"
       }
     ],
     "events": [

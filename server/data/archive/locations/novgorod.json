@@ -132,14 +132,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Rurik",
+        "title": "Alexander Nevsky",
         "type": "person",
-        "slug": "rurik"
-      },
-      {
-        "title": "Oleg of Novgorod",
-        "type": "person",
-        "slug": "oleg-of-novgorod"
+        "slug": "alexander-nevsky",
+        "label": "Prince of Novgorod"
       },
       {
         "title": "Igor of Kiev",
@@ -147,24 +143,28 @@
         "slug": "igor-of-kiev"
       },
       {
-        "title": "Alexander Nevsky",
+        "title": "Oleg of Novgorod",
         "type": "person",
-        "slug": "alexander-nevsky",
-        "label": "Prince of Novgorod"
+        "slug": "oleg-of-novgorod"
+      },
+      {
+        "title": "Rurik",
+        "type": "person",
+        "slug": "rurik"
       }
     ],
     "locations": [
-      {
-        "title": "Kievan Rus'",
-        "type": "location",
-        "slug": "kievan-rus",
-        "label": "Its second city"
-      },
       {
         "title": "Grand Duchy of Lithuania",
         "type": "location",
         "slug": "grand-duchy-of-lithuania",
         "label": "Courted against Moscow in 1471"
+      },
+      {
+        "title": "Kievan Rus'",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Its second city"
       }
     ]
   },

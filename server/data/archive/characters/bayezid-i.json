@@ -156,6 +156,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Great-grandson, who completed what the blockade began"
+      },
+      {
         "title": "Murad I",
         "type": "person",
         "slug": "murad-i",
@@ -168,12 +174,6 @@
         "label": "The Serbian prince who fell opposite his father"
       },
       {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Great-grandson, who completed what the blockade began"
-      },
-      {
         "title": "Princess Milica of Serbia",
         "type": "person",
         "slug": "milica-of-serbia",
@@ -182,16 +182,16 @@
     ],
     "locations": [
       {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "Blockaded six years; reprieved by Ankara"
-      },
-      {
         "title": "Bursa",
         "type": "location",
         "slug": "bursa",
         "label": "Site of his Great Mosque"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "Blockaded six years; reprieved by Ankara"
       },
       {
         "title": "Kosovo Field",
@@ -201,6 +201,12 @@
       }
     ],
     "events": [
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "Captured here by Timur, 1402"
+      },
       {
         "title": "Battle of Kosovo",
         "type": "event",
@@ -212,12 +218,6 @@
         "type": "event",
         "slug": "battle-of-nicopolis",
         "label": "His victory over the great crusade, 1396"
-      },
-      {
-        "title": "Battle of Ankara",
-        "type": "event",
-        "slug": "battle-of-ankara",
-        "label": "Captured here by Timur, 1402"
       }
     ]
   },

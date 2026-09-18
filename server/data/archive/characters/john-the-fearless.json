@@ -161,12 +161,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sigismund of Luxembourg",
-        "type": "person",
-        "slug": "sigismund-of-luxembourg",
-        "label": "Commanded the crusade he joined in 1396"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i",
@@ -183,20 +177,26 @@
         "type": "person",
         "slug": "henry-v-of-england",
         "label": "His murder drove Burgundy into this king's alliance"
+      },
+      {
+        "title": "Sigismund of Luxembourg",
+        "type": "person",
+        "slug": "sigismund-of-luxembourg",
+        "label": "Commanded the crusade he joined in 1396"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Nicopolis",
-        "type": "event",
-        "slug": "battle-of-nicopolis",
-        "label": "Commanded the western crusaders, 1396"
-      },
       {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt",
         "label": "Stayed away, but his brothers died there"
+      },
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Commanded the western crusaders, 1396"
       }
     ],
     "locations": [

@@ -215,22 +215,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "Husband"
-      },
-      {
         "title": "Blanche of Lancaster",
         "type": "person",
         "slug": "blanche-of-lancaster",
         "label": "Mother"
-      },
-      {
-        "title": "Henry IV of England",
-        "type": "person",
-        "slug": "henry-iv-of-england",
-        "label": "Brother"
       },
       {
         "title": "Edward of Portugal",
@@ -239,10 +227,22 @@
         "label": "Son"
       },
       {
+        "title": "Henry IV of England",
+        "type": "person",
+        "slug": "henry-iv-of-england",
+        "label": "Brother"
+      },
+      {
         "title": "Henry the Navigator",
         "type": "person",
         "slug": "henry-the-navigator",
         "label": "Son"
+      },
+      {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Husband"
       }
     ],
     "houses": [

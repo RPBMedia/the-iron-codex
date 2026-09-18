@@ -208,16 +208,16 @@
         "label": "Commanded the victorious army"
       },
       {
-        "title": "Peter of Castile",
-        "type": "person",
-        "slug": "peter-of-castile",
-        "label": "Restored to his throne by the victory"
-      },
-      {
         "title": "Henry II of Castile",
         "type": "person",
         "slug": "henry-ii-of-castile",
         "label": "Beaten here, and king within two years"
+      },
+      {
+        "title": "Peter of Castile",
+        "type": "person",
+        "slug": "peter-of-castile",
+        "label": "Restored to his throne by the victory"
       }
     ],
     "events": [
@@ -242,16 +242,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "The throne being fought over"
-      },
-      {
         "title": "Aquitaine",
         "type": "location",
         "slug": "aquitaine",
         "label": "The principality the campaign bankrupted"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The throne being fought over"
       }
     ]
   },

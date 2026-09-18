@@ -98,14 +98,14 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror"
-      },
-      {
         "title": "Richard the Lionheart",
         "type": "person",
         "slug": "richard-the-lionheart"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror"
       }
     ],
     "events": [
@@ -122,9 +122,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Shield",
-        "type": "weaponArmor",
-        "slug": "shield"
+        "title": "Imperial Sword (Reichsschwert)",
+        "slug": "reichsschwert",
+        "label": "Surviving example — the imperial coronation sword",
+        "type": "weaponArmor"
       },
       {
         "title": "Mail Armor",
@@ -132,10 +133,9 @@
         "slug": "mail-armor"
       },
       {
-        "title": "Imperial Sword (Reichsschwert)",
-        "slug": "reichsschwert",
-        "label": "Surviving example — the imperial coronation sword",
-        "type": "weaponArmor"
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield"
       },
       {
         "title": "Szczerbiec",

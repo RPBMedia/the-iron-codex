@@ -171,16 +171,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Manzikert",
-        "type": "event",
-        "slug": "battle-of-manzikert",
-        "label": "Fought by his nephew with the empire he built"
-      },
-      {
         "title": "Battle of Dandanaqan",
         "type": "event",
         "slug": "battle-of-dandanaqan",
         "label": "The victory that made him sultan, 1040"
+      },
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "Fought by his nephew with the empire he built"
       }
     ]
   },

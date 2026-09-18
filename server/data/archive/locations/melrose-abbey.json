@@ -100,16 +100,16 @@
     ],
     "events": [
       {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The wars that repeatedly wrecked the abbey"
-      },
-      {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
         "label": "Bruce's victory eight years before the 1322 sack"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The wars that repeatedly wrecked the abbey"
       }
     ],
     "locations": [

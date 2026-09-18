@@ -140,6 +140,11 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky"
+      },
+      {
         "title": "Batu Khan",
         "type": "person",
         "slug": "batu-khan"
@@ -148,23 +153,18 @@
         "title": "Subutai",
         "type": "person",
         "slug": "subutai"
-      },
-      {
-        "title": "Alexander Nevsky",
-        "type": "person",
-        "slug": "alexander-nevsky"
       }
     ],
     "events": [
       {
-        "title": "Siege of Vladimir",
-        "type": "event",
-        "slug": "siege-of-vladimir"
-      },
-      {
         "title": "Siege of Kyiv",
         "type": "event",
         "slug": "siege-of-kyiv"
+      },
+      {
+        "title": "Siege of Vladimir",
+        "type": "event",
+        "slug": "siege-of-vladimir"
       }
     ],
     "locations": [

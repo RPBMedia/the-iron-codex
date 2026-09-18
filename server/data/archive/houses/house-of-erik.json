@@ -151,16 +151,16 @@
         "label": "Founder; patron saint"
       },
       {
-        "title": "Knut Eriksson",
-        "type": "person",
-        "slug": "knut-eriksson",
-        "label": "Secured the throne"
-      },
-      {
         "title": "Eric XI",
         "type": "person",
         "slug": "eric-xi-eriksson",
         "label": "Last of the line"
+      },
+      {
+        "title": "Knut Eriksson",
+        "type": "person",
+        "slug": "knut-eriksson",
+        "label": "Secured the throne"
       }
     ],
     "locations": [
@@ -172,16 +172,16 @@
     ],
     "houses": [
       {
-        "title": "House of Sverker",
-        "type": "house",
-        "slug": "house-of-sverker",
-        "label": "The rival dynasty"
-      },
-      {
         "title": "House of Bjälbo",
         "type": "house",
         "slug": "house-of-bjalbo",
         "label": "The dynasty that succeeded them"
+      },
+      {
+        "title": "House of Sverker",
+        "type": "house",
+        "slug": "house-of-sverker",
+        "label": "The rival dynasty"
       }
     ]
   },

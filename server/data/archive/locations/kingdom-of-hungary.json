@@ -160,15 +160,15 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Béla IV of Hungary",
-        "type": "person",
-        "slug": "bela-iv-of-hungary"
-      },
-      {
         "type": "person",
         "title": "Andrew II of Hungary",
         "slug": "andrew-ii-of-hungary",
         "label": "The Golden Bull of 1222"
+      },
+      {
+        "title": "Béla IV of Hungary",
+        "type": "person",
+        "slug": "bela-iv-of-hungary"
       },
       {
         "type": "person",
@@ -191,6 +191,12 @@
     ],
     "events": [
       {
+        "title": "Battle of Lechfeld",
+        "type": "event",
+        "slug": "battle-of-lechfeld",
+        "label": "The 955 defeat that ended the western raids"
+      },
+      {
         "title": "Battle of Mohi",
         "type": "event",
         "slug": "battle-of-mohi"
@@ -201,21 +207,15 @@
         "slug": "battle-of-nicopolis"
       },
       {
-        "title": "Battle of Varna",
-        "type": "event",
-        "slug": "battle-of-varna"
-      },
-      {
         "title": "Battle of Sirmium",
         "type": "event",
         "slug": "battle-of-sirmium",
         "label": "Where its army was destroyed and it accepted Byzantine overlordship in 1167"
       },
       {
-        "title": "Battle of Lechfeld",
+        "title": "Battle of Varna",
         "type": "event",
-        "slug": "battle-of-lechfeld",
-        "label": "The 955 defeat that ended the western raids"
+        "slug": "battle-of-varna"
       }
     ],
     "locations": [
@@ -225,15 +225,15 @@
         "slug": "byzantine-empire"
       },
       {
-        "title": "Mongol Empire",
-        "type": "location",
-        "slug": "mongol-empire"
-      },
-      {
         "title": "Kosovo Field",
         "type": "location",
         "slug": "kosovo-field",
         "label": "Hunyadi's defeat of 1448"
+      },
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire"
       }
     ]
   },

@@ -146,25 +146,19 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Poland",
-        "type": "location",
-        "slug": "kingdom-of-poland",
-        "label": "Its Legnica campaign struck the same week"
-      },
-      {
         "title": "Kievan Rus'",
         "type": "location",
         "slug": "kievan-rus",
         "label": "Destroyed by the same campaign"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "Its Legnica campaign struck the same week"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Nicopolis",
-        "type": "event",
-        "slug": "battle-of-nicopolis",
-        "label": "Hungary's later catastrophe, 1396"
-      },
       {
         "title": "Battle of Legnano",
         "type": "event",
@@ -176,6 +170,12 @@
         "type": "event",
         "slug": "battle-of-legnica",
         "label": "The twin Mongol victory, two days earlier"
+      },
+      {
+        "title": "Battle of Nicopolis",
+        "type": "event",
+        "slug": "battle-of-nicopolis",
+        "label": "Hungary's later catastrophe, 1396"
       },
       {
         "title": "Siege of Kyiv",

@@ -96,9 +96,10 @@
         "slug": "brigandine"
       },
       {
-        "title": "Mail Armor",
+        "title": "Coat of Plates",
         "type": "weaponArmor",
-        "slug": "mail-armor"
+        "slug": "coat-of-plates",
+        "label": "Worn over the padded garment"
       },
       {
         "title": "Hauberk",
@@ -106,15 +107,14 @@
         "slug": "hauberk"
       },
       {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor"
+      },
+      {
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor"
-      },
-      {
-        "title": "Coat of Plates",
-        "type": "weaponArmor",
-        "slug": "coat-of-plates",
-        "label": "Worn over the padded garment"
       }
     ]
   },

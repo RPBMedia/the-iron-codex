@@ -359,42 +359,42 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Alfred the Great",
-        "type": "person",
-        "slug": "alfred-the-great",
-        "label": "Defender of Wessex"
-      },
-      {
         "title": "Æthelstan",
         "type": "person",
         "slug": "aethelstan",
         "label": "First king of all England"
       },
       {
-        "title": "Edward the Elder",
+        "title": "Alfred the Great",
         "type": "person",
-        "slug": "edward-the-elder",
-        "label": "Reconquered the Danelaw"
+        "slug": "alfred-the-great",
+        "label": "Defender of Wessex"
       },
       {
         "title": "Edward the Confessor",
         "type": "person",
         "slug": "edward-the-confessor",
         "label": "Last king of the old line"
+      },
+      {
+        "title": "Edward the Elder",
+        "type": "person",
+        "slug": "edward-the-elder",
+        "label": "Reconquered the Danelaw"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Edington",
-        "type": "event",
-        "slug": "battle-of-edington",
-        "label": "Alfred’s decisive victory, 878"
-      },
       {
         "title": "Battle of Brunanburh",
         "type": "event",
         "slug": "battle-of-brunanburh",
         "label": "Æthelstan secures England, 937"
+      },
+      {
+        "title": "Battle of Edington",
+        "type": "event",
+        "slug": "battle-of-edington",
+        "label": "Alfred’s decisive victory, 878"
       },
       {
         "title": "Norman Conquest",
@@ -405,16 +405,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Wessex",
-        "type": "location",
-        "slug": "kingdom-of-wessex",
-        "label": "Ancestral realm"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "The realm the house created"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "Ancestral realm"
       },
       {
         "title": "Winchester Cathedral",

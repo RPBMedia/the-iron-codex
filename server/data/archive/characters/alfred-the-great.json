@@ -186,10 +186,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Wantage",
+        "title": "Danelaw",
         "type": "location",
-        "slug": "wantage",
-        "label": "Birthplace"
+        "slug": "danelaw",
+        "label": "The partition he agreed"
       },
       {
         "title": "Kingdom of Wessex",
@@ -198,16 +198,16 @@
         "label": "Realm"
       },
       {
+        "title": "Wantage",
+        "type": "location",
+        "slug": "wantage",
+        "label": "Birthplace"
+      },
+      {
         "title": "Winchester",
         "type": "location",
         "slug": "winchester",
         "label": "Place of death"
-      },
-      {
-        "title": "Danelaw",
-        "type": "location",
-        "slug": "danelaw",
-        "label": "The partition he agreed"
       }
     ],
     "people": [
@@ -217,19 +217,25 @@
         "slug": "charlemagne"
       },
       {
-        "title": "Ragnar Lothbrok",
-        "type": "person",
-        "slug": "ragnar-lothbrok",
-        "label": "The saga figure to whom tradition attributes the leaders of the Great Heathen Army"
-      },
-      {
         "title": "Ealhswith",
         "type": "person",
         "slug": "ealhswith",
         "label": "Wife"
+      },
+      {
+        "title": "Ragnar Lothbrok",
+        "type": "person",
+        "slug": "ragnar-lothbrok",
+        "label": "The saga figure to whom tradition attributes the leaders of the Great Heathen Army"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Ashdown",
+        "type": "event",
+        "slug": "battle-of-ashdown",
+        "label": "Fought here in his brother's reign, 871"
+      },
       {
         "title": "Battle of Edington",
         "type": "event",
@@ -241,12 +247,6 @@
         "type": "event",
         "slug": "great-heathen-army",
         "label": "The army he defeated"
-      },
-      {
-        "title": "Battle of Ashdown",
-        "type": "event",
-        "slug": "battle-of-ashdown",
-        "label": "Fought here in his brother's reign, 871"
       }
     ]
   },

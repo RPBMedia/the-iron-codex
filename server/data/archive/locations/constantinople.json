@@ -156,34 +156,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Justinian I",
-        "type": "person",
-        "slug": "justinian-i",
-        "label": "Built Hagia Sophia and the cisterns after the Nika riots"
-      },
-      {
-        "title": "Heraclius",
-        "type": "person",
-        "slug": "heraclius",
-        "label": "Whose capital held the Avar and Persian siege of 626 in his absence"
-      },
-      {
-        "title": "Leo III",
-        "type": "person",
-        "slug": "leo-iii-the-isaurian",
-        "label": "Held the city through the Umayyad siege of 717–718"
-      },
-      {
         "title": "Constantine VII",
         "type": "person",
         "slug": "constantine-vii",
         "label": "Recorded the court ceremonial of the Great Palace in the Book of Ceremonies"
-      },
-      {
-        "title": "Michael VIII Palaiologos",
-        "type": "person",
-        "slug": "michael-viii-palaiologos",
-        "label": "Recovered the city from the Latins in 1261"
       },
       {
         "title": "Constantine XI Palaiologos",
@@ -192,13 +168,49 @@
         "label": "The last emperor, killed on the walls in 1453"
       },
       {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Whose capital held the Avar and Persian siege of 626 in his absence"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Built Hagia Sophia and the cisterns after the Nika riots"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Held the city through the Umayyad siege of 717–718"
+      },
+      {
         "title": "Mehmed II",
         "type": "person",
         "slug": "mehmed-ii",
         "label": "Took the city in 1453 and made it his capital"
+      },
+      {
+        "title": "Michael VIII Palaiologos",
+        "type": "person",
+        "slug": "michael-viii-palaiologos",
+        "label": "Recovered the city from the Latins in 1261"
       }
     ],
     "events": [
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "The end, on 29 May 1453"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "Retaken from the Latin Empire in 1261"
+      },
       {
         "title": "Siege of Constantinople (626)",
         "type": "event",
@@ -210,32 +222,20 @@
         "type": "event",
         "slug": "siege-of-constantinople-717",
         "label": "Twelve months of blockade by land and sea"
-      },
-      {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "Retaken from the Latin Empire in 1261"
-      },
-      {
-        "title": "Fall of Constantinople",
-        "type": "event",
-        "slug": "fall-of-constantinople",
-        "label": "The end, on 29 May 1453"
       }
     ],
     "locations": [
+      {
+        "title": "Avar Khaganate",
+        "type": "location",
+        "slug": "avar-khaganate",
+        "label": "Whose failure at the walls in 626 broke its power"
+      },
       {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The realm it was the capital of for eleven centuries"
-      },
-      {
-        "title": "Latin Empire",
-        "type": "location",
-        "slug": "latin-empire",
-        "label": "Which held the city from 1204 to 1261"
       },
       {
         "title": "Empire of Nicaea",
@@ -244,10 +244,10 @@
         "label": "The government in exile that took it back"
       },
       {
-        "title": "Avar Khaganate",
+        "title": "Latin Empire",
         "type": "location",
-        "slug": "avar-khaganate",
-        "label": "Whose failure at the walls in 626 broke its power"
+        "slug": "latin-empire",
+        "label": "Which held the city from 1204 to 1261"
       }
     ]
   },

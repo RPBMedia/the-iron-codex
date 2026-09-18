@@ -272,10 +272,10 @@
   "relatedEntries": {
     "civilizations": [
       {
-        "title": "Romans",
+        "title": "Cumans",
         "type": "civilization",
-        "slug": "romans",
-        "label": "The western half of the name they never stopped claiming"
+        "slug": "cumans",
+        "label": "Hired in tens of thousands and never trusted"
       },
       {
         "title": "Pechenegs",
@@ -284,31 +284,13 @@
         "label": "The steppe neighbours their diplomacy was built around"
       },
       {
-        "title": "Cumans",
+        "title": "Romans",
         "type": "civilization",
-        "slug": "cumans",
-        "label": "Hired in tens of thousands and never trusted"
+        "slug": "romans",
+        "label": "The western half of the name they never stopped claiming"
       }
     ],
     "people": [
-      {
-        "title": "Justinian I",
-        "type": "person",
-        "slug": "justinian-i",
-        "label": "Whose commissions fixed Roman law for the Greek east"
-      },
-      {
-        "title": "Heraclius",
-        "type": "person",
-        "slug": "heraclius",
-        "label": "Took the Greek title basileus in 629"
-      },
-      {
-        "title": "Constantine VII",
-        "type": "person",
-        "slug": "constantine-vii",
-        "label": "Wrote down the ceremonies and the diplomacy"
-      },
       {
         "title": "Anna Komnene",
         "type": "person",
@@ -322,24 +304,42 @@
         "label": "Legislated against the magnates absorbing the peasant smallholdings"
       },
       {
+        "title": "Constantine VII",
+        "type": "person",
+        "slug": "constantine-vii",
+        "label": "Wrote down the ceremonies and the diplomacy"
+      },
+      {
         "title": "Constantine XI Palaiologos",
         "type": "person",
         "slug": "constantine-xi-palaiologos",
         "label": "The last emperor of the Romans"
+      },
+      {
+        "title": "Heraclius",
+        "type": "person",
+        "slug": "heraclius",
+        "label": "Took the Greek title basileus in 629"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Whose commissions fixed Roman law for the Greek east"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "After which Anatolia, the recruiting heartland, was lost"
+      },
       {
         "title": "Fall of Constantinople",
         "type": "event",
         "slug": "fall-of-constantinople",
         "label": "Where the Roman state ended and the Rum community began"
-      },
-      {
-        "title": "Siege of Constantinople (1204)",
-        "type": "event",
-        "slug": "siege-of-constantinople-1204",
-        "label": "The Latin sack that made reunion with Rome unthinkable"
       },
       {
         "title": "Recovery of Constantinople",
@@ -348,10 +348,10 @@
         "label": "The restoration of 1261, and the date of the Deesis mosaic"
       },
       {
-        "title": "Battle of Manzikert",
+        "title": "Siege of Constantinople (1204)",
         "type": "event",
-        "slug": "battle-of-manzikert",
-        "label": "After which Anatolia, the recruiting heartland, was lost"
+        "slug": "siege-of-constantinople-1204",
+        "label": "The Latin sack that made reunion with Rome unthinkable"
       }
     ],
     "locations": [
@@ -376,12 +376,6 @@
     ],
     "houses": [
       {
-        "title": "Macedonian dynasty",
-        "type": "house",
-        "slug": "macedonian-dynasty",
-        "label": "Of Armenian origin, and the clearest case of a joinable identity"
-      },
-      {
         "title": "House of Komnenos",
         "type": "house",
         "slug": "house-of-komnenos",
@@ -392,6 +386,12 @@
         "type": "house",
         "slug": "house-of-palaiologos",
         "label": "Who recovered the city in 1261 and held it to the end"
+      },
+      {
+        "title": "Macedonian dynasty",
+        "type": "house",
+        "slug": "macedonian-dynasty",
+        "label": "Of Armenian origin, and the clearest case of a joinable identity"
       }
     ]
   },

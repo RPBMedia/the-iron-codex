@@ -151,19 +151,30 @@
     ],
     "events": [
       {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "Where it ended, without a battle"
-      },
-      {
         "title": "Battle of Adrianople",
         "type": "event",
         "slug": "battle-of-adrianople",
         "label": "Where the empire lost its field army"
+      },
+      {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "Where it ended, without a battle"
       }
     ],
     "locations": [
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "Where its army was destroyed in 1205"
+      },
       {
         "title": "Empire of Nicaea",
         "type": "location",
@@ -175,17 +186,6 @@
         "type": "location",
         "slug": "principality-of-achaea",
         "label": "Its most successful vassal, which outlived it"
-      },
-      {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople"
-      },
-      {
-        "title": "Edirne",
-        "type": "location",
-        "slug": "edirne",
-        "label": "Where its army was destroyed in 1205"
       }
     ]
   },

@@ -147,46 +147,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry V of England",
+        "title": "Catherine of Valois",
         "type": "person",
-        "slug": "henry-v-of-england",
-        "label": "Died here, 31 August 1422"
-      },
-      {
-        "title": "Louis VII of France",
-        "type": "person",
-        "slug": "louis-vii-of-france",
-        "label": "Built the first royal lodge, before 1178"
-      },
-      {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Walled the hunting forest in 1183"
-      },
-      {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Gave justice under an oak here"
-      },
-      {
-        "title": "Jean de Joinville",
-        "type": "person",
-        "slug": "jean-de-joinville",
-        "label": "Described the king under the oak"
-      },
-      {
-        "title": "Philip III of France",
-        "type": "person",
-        "slug": "philip-iii-of-france",
-        "label": "Married Marie of Brabant here, 1274"
-      },
-      {
-        "title": "Louis X of France",
-        "type": "person",
-        "slug": "louis-x-of-france",
-        "label": "Died here, 1316"
+        "slug": "catherine-of-valois",
+        "label": "Followed Henry V's body home from here"
       },
       {
         "title": "Charles IV of France",
@@ -195,28 +159,10 @@
         "label": "Died here, 1328"
       },
       {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Began the keep, about 1337"
-      },
-      {
-        "title": "John II of France",
-        "type": "person",
-        "slug": "john-ii-of-france",
-        "label": "Resumed work on the keep"
-      },
-      {
         "title": "Charles V of France",
         "type": "person",
         "slug": "charles-v-of-france",
         "label": "Born here; finished the keep and enclosure"
-      },
-      {
-        "title": "Christine de Pizan",
-        "type": "person",
-        "slug": "christine-de-pizan",
-        "label": "Described Charles V's plans for the castle"
       },
       {
         "title": "Charles VI of France",
@@ -225,22 +171,76 @@
         "label": "Continued the Sainte-Chapelle"
       },
       {
+        "title": "Charles VII of France",
+        "type": "person",
+        "slug": "charles-vii-of-france",
+        "label": "Recovered the Île-de-France from the English"
+      },
+      {
+        "title": "Christine de Pizan",
+        "type": "person",
+        "slug": "christine-de-pizan",
+        "label": "Described Charles V's plans for the castle"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Died here, 31 August 1422"
+      },
+      {
+        "title": "Jean de Joinville",
+        "type": "person",
+        "slug": "jean-de-joinville",
+        "label": "Described the king under the oak"
+      },
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
+        "label": "Resumed work on the keep"
+      },
+      {
         "title": "John, Duke of Bedford",
         "type": "person",
         "slug": "john-duke-of-bedford",
         "label": "Regent of France after Henry V's death"
       },
       {
-        "title": "Catherine of Valois",
+        "title": "Louis IX of France",
         "type": "person",
-        "slug": "catherine-of-valois",
-        "label": "Followed Henry V's body home from here"
+        "slug": "louis-ix-of-france",
+        "label": "Gave justice under an oak here"
       },
       {
-        "title": "Charles VII of France",
+        "title": "Louis VII of France",
         "type": "person",
-        "slug": "charles-vii-of-france",
-        "label": "Recovered the Île-de-France from the English"
+        "slug": "louis-vii-of-france",
+        "label": "Built the first royal lodge, before 1178"
+      },
+      {
+        "title": "Louis X of France",
+        "type": "person",
+        "slug": "louis-x-of-france",
+        "label": "Died here, 1316"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Walled the hunting forest in 1183"
+      },
+      {
+        "title": "Philip III of France",
+        "type": "person",
+        "slug": "philip-iii-of-france",
+        "label": "Married Marie of Brabant here, 1274"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Began the keep, about 1337"
       }
     ],
     "locations": [

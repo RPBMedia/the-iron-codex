@@ -195,16 +195,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Hungary",
-        "type": "location",
-        "slug": "kingdom-of-hungary",
-        "label": "Which accepted Byzantine overlordship after it"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "At its greatest European extent since the eleventh century"
+      },
+      {
+        "title": "Kingdom of Hungary",
+        "type": "location",
+        "slug": "kingdom-of-hungary",
+        "label": "Which accepted Byzantine overlordship after it"
       }
     ]
   },

@@ -143,10 +143,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Oslo",
+        "title": "Kingdom of Norway",
         "type": "location",
-        "slug": "oslo",
-        "label": "Place of death"
+        "slug": "kingdom-of-norway",
+        "label": "Last king of an independent Norway"
       },
       {
         "title": "Kingdom of Sweden",
@@ -155,24 +155,24 @@
         "label": "Kingdom of Sweden / Kingdom of Norway"
       },
       {
-        "title": "Kingdom of Norway",
+        "title": "Oslo",
         "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Last king of an independent Norway"
+        "slug": "oslo",
+        "label": "Place of death"
       }
     ],
     "people": [
-      {
-        "title": "Margaret I of Denmark",
-        "type": "person",
-        "slug": "margaret-i",
-        "label": "His wife, architect of the Kalmar Union"
-      },
       {
         "title": "Magnus Eriksson",
         "type": "person",
         "slug": "magnus-eriksson",
         "label": "His father"
+      },
+      {
+        "title": "Margaret I of Denmark",
+        "type": "person",
+        "slug": "margaret-i",
+        "label": "His wife, architect of the Kalmar Union"
       }
     ]
   },

@@ -185,44 +185,44 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand III of Castile",
-        "type": "person",
-        "slug": "ferdinand-iii-of-castile",
-        "label": "The conqueror the order served"
-      },
-      {
         "title": "Alfonso VIII of Castile",
         "type": "person",
         "slug": "alfonso-viii-of-castile",
         "label": "King at Las Navas de Tolosa"
+      },
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "The conqueror the order served"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "1212 — the Leonese order in the victory"
-      },
       {
         "title": "Battle of Alarcos",
         "type": "event",
         "slug": "battle-of-alarcos",
         "label": "1195 — the Almohad high tide it fought against"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "1212 — the Leonese order in the victory"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of León",
-        "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "Where the order was founded"
-      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The united realm it served"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "Where the order was founded"
       }
     ],
     "orders": [

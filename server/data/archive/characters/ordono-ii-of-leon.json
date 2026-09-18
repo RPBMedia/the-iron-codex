@@ -190,12 +190,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ramiro II of León",
-        "type": "person",
-        "slug": "ramiro-ii-of-leon",
-        "label": "His son, who avenged Valdejunquera at Simancas"
-      },
-      {
         "title": "Abd al-Rahman III",
         "type": "person",
         "slug": "abd-al-rahman-iii",
@@ -206,14 +200,20 @@
         "type": "person",
         "slug": "alfonso-v-of-leon",
         "label": "The descendant who rebuilt the capital he had settled on"
+      },
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "His son, who avenged Valdejunquera at Simancas"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of León",
+        "title": "Caliphate of Córdoba",
         "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "The realm he gave its capital"
+        "slug": "caliphate-of-cordoba",
+        "label": "The power across his southern frontier"
       },
       {
         "title": "Kingdom of Asturias",
@@ -222,10 +222,10 @@
         "label": "The mountain monarchy he was born into and left behind"
       },
       {
-        "title": "Caliphate of Córdoba",
+        "title": "Kingdom of León",
         "type": "location",
-        "slug": "caliphate-of-cordoba",
-        "label": "The power across his southern frontier"
+        "slug": "kingdom-of-leon",
+        "label": "The realm he gave its capital"
       }
     ],
     "houses": [

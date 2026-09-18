@@ -149,12 +149,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Father and predecessor"
-      },
-      {
         "title": "Harold Godwinson",
         "type": "person",
         "slug": "harold-godwinson",
@@ -165,14 +159,15 @@
         "type": "person",
         "slug": "matilda-of-flanders",
         "label": "Mother"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Father and predecessor"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england"
-      },
       {
         "title": "Duchy of Normandy",
         "type": "location",
@@ -180,10 +175,15 @@
         "label": "Held in pawn from 1096"
       },
       {
-        "title": "Winchester",
+        "title": "Hastings",
         "type": "location",
-        "slug": "winchester",
-        "label": "Buried here in 1100"
+        "slug": "hastings",
+        "label": "Battle Abbey's church finished in his reign"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
       },
       {
         "title": "Westminster",
@@ -192,16 +192,16 @@
         "label": "Built Westminster Hall"
       },
       {
+        "title": "Winchester",
+        "type": "location",
+        "slug": "winchester",
+        "label": "Buried here in 1100"
+      },
+      {
         "title": "Winchester Cathedral",
         "type": "location",
         "slug": "winchester-cathedral",
         "label": "Burial place, 1100"
-      },
-      {
-        "title": "Hastings",
-        "type": "location",
-        "slug": "hastings",
-        "label": "Battle Abbey's church finished in his reign"
       }
     ],
     "events": [

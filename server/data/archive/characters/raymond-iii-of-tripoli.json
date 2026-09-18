@@ -134,36 +134,31 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "Realm"
-      },
-      {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin",
         "label": "Commander"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin"
-      },
       {
         "title": "Baldwin IV of Jerusalem",
         "type": "person",
@@ -175,6 +170,11 @@
         "type": "person",
         "slug": "reynald-of-chatillon",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
       }
     ]
   },

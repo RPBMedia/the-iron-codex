@@ -151,12 +151,6 @@
         "label": "Father"
       },
       {
-        "title": "Harthacnut",
-        "type": "person",
-        "slug": "harthacnut",
-        "label": "Half-brother, rival, and successor"
-      },
-      {
         "title": "Edward the Confessor",
         "type": "person",
         "slug": "edward-the-confessor",
@@ -167,6 +161,12 @@
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "Stepmother and rival"
+      },
+      {
+        "title": "Harthacnut",
+        "type": "person",
+        "slug": "harthacnut",
+        "label": "Half-brother, rival, and successor"
       }
     ],
     "locations": [

@@ -257,24 +257,24 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "The order’s realm"
-      },
-      {
         "title": "Al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim frontier it faced"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The order’s realm"
       }
     ],
     "orders": [
       {
-        "title": "Order of Santiago",
+        "title": "Knights Templar",
         "type": "order",
-        "slug": "order-of-santiago",
-        "label": "The largest Castilian order"
+        "slug": "knights-templar",
+        "label": "Held Calatrava before the order"
       },
       {
         "title": "Order of Alcántara",
@@ -295,16 +295,16 @@
         "label": "Daughter-order in Valencia"
       },
       {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "Held Calatrava before the order"
-      },
-      {
         "title": "Order of Montjoy",
         "type": "order",
         "slug": "order-of-montjoy",
         "label": "Whose Iberian remnant Calatrava absorbed"
+      },
+      {
+        "title": "Order of Santiago",
+        "type": "order",
+        "slug": "order-of-santiago",
+        "label": "The largest Castilian order"
       }
     ]
   }

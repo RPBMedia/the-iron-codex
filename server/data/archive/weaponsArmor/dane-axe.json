@@ -108,27 +108,27 @@
         "slug": "mail-armor"
       },
       {
-        "title": "Shield",
-        "type": "weaponArmor",
-        "slug": "shield"
-      },
-      {
         "title": "Round Shield",
         "type": "weaponArmor",
         "slug": "round-shield",
         "label": "The two-handed axe meant giving this up"
+      },
+      {
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield"
       }
     ],
     "people": [
       {
-        "title": "Harold Godwinson",
-        "type": "person",
-        "slug": "harold-godwinson"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great"
+      },
+      {
+        "title": "Harold Godwinson",
+        "type": "person",
+        "slug": "harold-godwinson"
       }
     ],
     "events": [

@@ -143,10 +143,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Edward the Confessor",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Commander"
+        "slug": "edward-the-confessor",
+        "label": "Edward the Confessor was killed here"
       },
       {
         "title": "Harold Godwinson",
@@ -155,10 +155,10 @@
         "label": "Commander"
       },
       {
-        "title": "Edward the Confessor",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "edward-the-confessor",
-        "label": "Edward the Confessor was killed here"
+        "slug": "william-the-conqueror",
+        "label": "Commander"
       }
     ],
     "locations": [
@@ -169,16 +169,16 @@
         "label": "Combatant faction"
       },
       {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Hastings",
         "type": "location",
         "slug": "hastings",
         "label": "William's base in 1066"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Combatant faction"
       }
     ],
     "events": [

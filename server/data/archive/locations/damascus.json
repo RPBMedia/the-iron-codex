@@ -107,10 +107,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Saladin",
+        "title": "Al-Adil I",
         "type": "person",
-        "slug": "saladin",
-        "label": "Death of Saladin"
+        "slug": "al-adil-i",
+        "label": "Rebuilt the citadel"
       },
       {
         "title": "Nur ad-Din",
@@ -119,10 +119,10 @@
         "label": "Made it his capital in 1154"
       },
       {
-        "title": "Al-Adil I",
+        "title": "Saladin",
         "type": "person",
-        "slug": "al-adil-i",
-        "label": "Rebuilt the citadel"
+        "slug": "saladin",
+        "label": "Death of Saladin"
       }
     ],
     "locations": [
@@ -131,6 +131,12 @@
         "type": "location",
         "slug": "ayyubid-sultanate",
         "label": "Realm of Saladin"
+      },
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire",
+        "label": "Took the city in 1260"
       },
       {
         "title": "Tikrit",
@@ -142,19 +148,14 @@
         "type": "location",
         "slug": "umayyad-caliphate",
         "label": "Capital, 661–750"
-      },
-      {
-        "title": "Mongol Empire",
-        "type": "location",
-        "slug": "mongol-empire",
-        "label": "Took the city in 1260"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
+        "title": "Battle of Ain Jalut",
         "type": "event",
-        "slug": "third-crusade"
+        "slug": "battle-of-ain-jalut",
+        "label": "Returned the city to Cairo in 1260"
       },
       {
         "title": "Battle of Yarmouk",
@@ -163,10 +164,9 @@
         "label": "Secured the Arab conquest"
       },
       {
-        "title": "Battle of Ain Jalut",
+        "title": "Third Crusade",
         "type": "event",
-        "slug": "battle-of-ain-jalut",
-        "label": "Returned the city to Cairo in 1260"
+        "slug": "third-crusade"
       }
     ]
   },

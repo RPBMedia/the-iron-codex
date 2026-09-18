@@ -86,16 +86,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand of Flanders",
-        "type": "person",
-        "slug": "ferdinand-of-flanders",
-        "label": "Died here in 1233"
-      },
-      {
         "title": "Charlemagne",
         "type": "person",
         "slug": "charlemagne",
         "label": "Crowned king of the Franks here in 768"
+      },
+      {
+        "title": "Ferdinand of Flanders",
+        "type": "person",
+        "slug": "ferdinand-of-flanders",
+        "label": "Died here in 1233"
       },
       {
         "title": "Hugh Capet",
@@ -106,16 +106,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "The realm whose first Capetian king was crowned here"
-      },
-      {
         "title": "County of Flanders",
         "type": "location",
         "slug": "county-of-flanders",
         "label": "Ferrand's county"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france",
+        "label": "The realm whose first Capetian king was crowned here"
       }
     ],
     "events": [

@@ -151,15 +151,15 @@
     ],
     "locations": [
       {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon"
+      },
+      {
         "title": "Kingdom of Portugal",
         "type": "location",
         "slug": "kingdom-of-portugal",
         "label": "The polity the battle founded"
-      },
-      {
-        "title": "Kingdom of León",
-        "type": "location",
-        "slug": "kingdom-of-leon"
       }
     ],
     "events": [

@@ -92,10 +92,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sweyn Forkbeard",
+        "title": "Aethelred the Unready",
         "type": "person",
-        "slug": "sweyn-forkbeard",
-        "label": "Based here and died here in 1014"
+        "slug": "aethelred-the-unready",
+        "label": "Driven out by the campaign run from here"
       },
       {
         "title": "Cnut the Great",
@@ -104,25 +104,19 @@
         "label": "Chosen king by the fleet here"
       },
       {
-        "title": "Aethelred the Unready",
-        "type": "person",
-        "slug": "aethelred-the-unready",
-        "label": "Driven out by the campaign run from here"
-      },
-      {
         "title": "Ealhswith",
         "type": "person",
         "slug": "ealhswith",
         "label": "Of the Gaini, married to Alfred in 868"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "Based here and died here in 1014"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Containing realm"
-      },
       {
         "title": "Danelaw",
         "type": "location",
@@ -134,6 +128,12 @@
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Sweyn’s realm"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Containing realm"
       },
       {
         "title": "North Sea Empire",

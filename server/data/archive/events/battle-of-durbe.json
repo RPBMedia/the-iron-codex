@@ -182,16 +182,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Mindaugas",
-        "type": "person",
-        "slug": "mindaugas",
-        "label": "Broke with the Order after the victory"
-      },
-      {
         "title": "Kęstutis",
         "type": "person",
         "slug": "kestutis",
         "label": "His forty-year war with the Order turned on the same Samogitian corridor"
+      },
+      {
+        "title": "Mindaugas",
+        "type": "person",
+        "slug": "mindaugas",
+        "label": "Broke with the Order after the victory"
       }
     ],
     "events": [
@@ -204,6 +204,12 @@
     ],
     "orders": [
       {
+        "title": "Livonian Brothers of the Sword",
+        "type": "order",
+        "slug": "livonian-brothers-of-the-sword",
+        "label": "Destroyed by the same Samogitians at Saule in 1236"
+      },
+      {
         "title": "Livonian Order",
         "type": "order",
         "slug": "livonian-order",
@@ -214,12 +220,6 @@
         "type": "order",
         "slug": "teutonic-order",
         "label": "Lost the marshal of Prussia and fourteen years to the rising"
-      },
-      {
-        "title": "Livonian Brothers of the Sword",
-        "type": "order",
-        "slug": "livonian-brothers-of-the-sword",
-        "label": "Destroyed by the same Samogitians at Saule in 1236"
       }
     ],
     "locations": [

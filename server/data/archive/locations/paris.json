@@ -90,18 +90,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Philip II of France",
-        "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Birthplace of Philip II of France"
-      },
-      {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Built the Sainte-Chapelle"
-      },
-      {
         "title": "Hugh Capet",
         "type": "person",
         "slug": "hugh-capet",
@@ -112,6 +100,18 @@
         "type": "person",
         "slug": "joan-of-arc",
         "label": "Attacked the city in 1429"
+      },
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Built the Sainte-Chapelle"
+      },
+      {
+        "title": "Philip II of France",
+        "type": "person",
+        "slug": "philip-ii-of-france",
+        "label": "Birthplace of Philip II of France"
       }
     ],
     "locations": [
@@ -129,11 +129,6 @@
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
-      {
         "title": "Battle of Bouvines",
         "type": "event",
         "slug": "battle-of-bouvines",
@@ -144,6 +139,11 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "English rule, 1420–1436"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ]
   },

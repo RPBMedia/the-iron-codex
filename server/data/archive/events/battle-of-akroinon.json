@@ -176,44 +176,44 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Leo III",
-        "type": "person",
-        "slug": "leo-iii-the-isaurian",
-        "label": "Commanded in person"
-      },
-      {
         "title": "Constantine V",
         "type": "person",
         "slug": "constantine-v",
         "label": "Fought here before his own reign"
+      },
+      {
+        "title": "Leo III",
+        "type": "person",
+        "slug": "leo-iii-the-isaurian",
+        "label": "Commanded in person"
       }
     ],
     "events": [
-      {
-        "title": "Siege of Constantinople (717–718)",
-        "type": "event",
-        "slug": "siege-of-constantinople-717",
-        "label": "The failed siege that these raids followed"
-      },
       {
         "title": "Battle of Lalakaon",
         "type": "event",
         "slug": "battle-of-lalakaon",
         "label": "Where the eastern balance finally turned"
+      },
+      {
+        "title": "Siege of Constantinople (717–718)",
+        "type": "event",
+        "slug": "siege-of-constantinople-717",
+        "label": "The failed siege that these raids followed"
       }
     ],
     "locations": [
-      {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "Whose last great invasion of Anatolia this was"
-      },
       {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Whose theme armies fought it"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Whose last great invasion of Anatolia this was"
       }
     ]
   },

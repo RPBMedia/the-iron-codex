@@ -131,6 +131,11 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky"
+      },
+      {
         "title": "Batu Khan",
         "type": "person",
         "slug": "batu-khan"
@@ -139,23 +144,18 @@
         "title": "Subutai",
         "type": "person",
         "slug": "subutai"
-      },
-      {
-        "title": "Alexander Nevsky",
-        "type": "person",
-        "slug": "alexander-nevsky"
       }
     ],
     "events": [
       {
-        "title": "Siege of Ryazan",
-        "type": "event",
-        "slug": "siege-of-ryazan"
-      },
-      {
         "title": "Battle of the Sit River",
         "type": "event",
         "slug": "battle-of-the-sit-river"
+      },
+      {
+        "title": "Siege of Ryazan",
+        "type": "event",
+        "slug": "siege-of-ryazan"
       }
     ],
     "locations": [

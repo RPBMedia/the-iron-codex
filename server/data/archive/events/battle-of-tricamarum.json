@@ -139,16 +139,16 @@
     ],
     "events": [
       {
-        "title": "Vandalic War",
-        "type": "event",
-        "slug": "vandalic-war",
-        "label": "The campaign it ended"
-      },
-      {
         "title": "Battle of Ad Decimum",
         "type": "event",
         "slug": "battle-of-ad-decimum",
         "label": "The battle that preceded it"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign it ended"
       }
     ],
     "locations": [

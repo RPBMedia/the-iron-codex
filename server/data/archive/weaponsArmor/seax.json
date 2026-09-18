@@ -110,11 +110,6 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Viking Sword",
-        "type": "weaponArmor",
-        "slug": "viking-sword"
-      },
-      {
         "title": "Dagger / Rondel Dagger",
         "type": "weaponArmor",
         "slug": "rondel-dagger"
@@ -129,6 +124,11 @@
         "slug": "messer",
         "label": "The later single-edged German tradition",
         "type": "weaponArmor"
+      },
+      {
+        "title": "Viking Sword",
+        "type": "weaponArmor",
+        "slug": "viking-sword"
       }
     ]
   },

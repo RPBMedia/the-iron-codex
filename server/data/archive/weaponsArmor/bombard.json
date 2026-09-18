@@ -99,16 +99,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Fall of Constantinople",
-        "type": "event",
-        "slug": "fall-of-constantinople",
-        "label": "Ottoman bombards broke the Theodosian Walls"
-      },
-      {
         "title": "Battle of Castillon",
         "type": "event",
         "slug": "battle-of-castillon",
         "label": "French guns destroyed the English attack"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "Ottoman bombards broke the Theodosian Walls"
       },
       {
         "title": "Siege of Orléans",
@@ -133,16 +133,16 @@
         "label": "The same technology at personal scale"
       },
       {
-        "title": "Trebuchet",
-        "type": "weaponArmor",
-        "slug": "trebuchet",
-        "label": "The siege engine it replaced"
-      },
-      {
         "title": "Pavise",
         "type": "weaponArmor",
         "slug": "pavise",
         "label": "Cover for the missile troops of a siege line"
+      },
+      {
+        "title": "Trebuchet",
+        "type": "weaponArmor",
+        "slug": "trebuchet",
+        "label": "The siege engine it replaced"
       }
     ]
   },

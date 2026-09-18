@@ -151,10 +151,10 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Longsword",
+        "title": "Arming Sword",
         "type": "weaponArmor",
-        "slug": "longsword",
-        "label": "The two-handed type it belongs to"
+        "slug": "arming-sword",
+        "label": "What a Scot of Wallace's day more probably carried"
       },
       {
         "title": "Joyeuse",
@@ -163,10 +163,10 @@
         "label": "Another sword whose attribution outran its evidence"
       },
       {
-        "title": "Arming Sword",
+        "title": "Longsword",
         "type": "weaponArmor",
-        "slug": "arming-sword",
-        "label": "What a Scot of Wallace's day more probably carried"
+        "slug": "longsword",
+        "label": "The two-handed type it belongs to"
       }
     ]
   },

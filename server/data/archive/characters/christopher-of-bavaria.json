@@ -150,30 +150,30 @@
         "label": "Place of death"
       },
       {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "Kingdom of Sweden / Kingdom of Norway"
-      },
-      {
         "title": "Kalmar Union",
         "type": "location",
         "slug": "kalmar-union",
         "label": "Ruled the union of the three kingdoms"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Kingdom of Sweden / Kingdom of Norway"
       }
     ],
     "people": [
-      {
-        "title": "Eric of Pomerania",
-        "type": "person",
-        "slug": "eric-of-pomerania",
-        "label": "His deposed predecessor"
-      },
       {
         "title": "Christian I of Denmark",
         "type": "person",
         "slug": "christian-i-of-denmark",
         "label": "His successor"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "His deposed predecessor"
       }
     ]
   },

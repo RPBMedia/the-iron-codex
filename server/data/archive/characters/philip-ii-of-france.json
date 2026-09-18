@@ -169,25 +169,19 @@
         "label": "Realm"
       },
       {
-        "title": "Paris",
-        "type": "location",
-        "slug": "paris",
-        "label": "Birthplace"
-      },
-      {
         "title": "Mantes",
         "type": "location",
         "slug": "mantes",
         "label": "Place of death"
+      },
+      {
+        "title": "Paris",
+        "type": "location",
+        "slug": "paris",
+        "label": "Birthplace"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade",
-        "label": "Fought in this engagement"
-      },
       {
         "title": "Battle of Bouvines",
         "type": "event",
@@ -199,6 +193,12 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "His only campaign of the Third Crusade"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [

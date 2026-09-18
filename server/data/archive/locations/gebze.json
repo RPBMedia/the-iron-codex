@@ -104,24 +104,24 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Died in camp near here on 3 May 1481"
-      },
-      {
         "title": "Bayezid II",
         "type": "person",
         "slug": "bayezid-ii",
         "label": "Succeeded his father after the death here"
+      },
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Died in camp near here on 3 May 1481"
       }
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
+        "title": "Bursa",
         "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Realm of Mehmed II"
+        "slug": "bursa",
+        "label": "The first Ottoman capital in the same Bithynian country"
       },
       {
         "title": "Constantinople",
@@ -136,10 +136,10 @@
         "label": "The earlier Ottoman capital, where Mehmed was born"
       },
       {
-        "title": "Bursa",
+        "title": "Ottoman Empire",
         "type": "location",
-        "slug": "bursa",
-        "label": "The first Ottoman capital in the same Bithynian country"
+        "slug": "ottoman-empire",
+        "label": "Realm of Mehmed II"
       }
     ],
     "events": [

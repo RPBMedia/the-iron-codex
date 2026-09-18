@@ -135,16 +135,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert II",
-        "type": "person",
-        "slug": "robert-ii-of-scotland",
-        "label": "Founder; first Stewart king"
-      },
-      {
         "title": "Marjorie Bruce",
         "type": "person",
         "slug": "marjorie-bruce",
         "label": "Mother of the first Stewart king"
+      },
+      {
+        "title": "Robert II",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "Founder; first Stewart king"
       }
     ],
     "locations": [
@@ -156,16 +156,16 @@
     ],
     "houses": [
       {
-        "title": "House of Bruce",
-        "type": "house",
-        "slug": "house-of-bruce",
-        "label": "Robert II’s grandfather’s house, from which the crown passed"
-      },
-      {
         "title": "House of Balliol",
         "type": "house",
         "slug": "house-of-balliol",
         "label": "The rival claimant house of the succession wars"
+      },
+      {
+        "title": "House of Bruce",
+        "type": "house",
+        "slug": "house-of-bruce",
+        "label": "Robert II’s grandfather’s house, from which the crown passed"
       }
     ]
   },

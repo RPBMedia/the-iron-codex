@@ -159,12 +159,6 @@
     ],
     "locations": [
       {
-        "title": "Seville",
-        "type": "location",
-        "slug": "seville",
-        "label": "His conquest and burial place"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
@@ -175,6 +169,12 @@
         "type": "location",
         "slug": "kingdom-of-leon",
         "label": "His realm"
+      },
+      {
+        "title": "Seville",
+        "type": "location",
+        "slug": "seville",
+        "label": "His conquest and burial place"
       }
     ],
     "people": [

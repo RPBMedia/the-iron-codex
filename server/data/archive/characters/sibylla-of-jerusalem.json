@@ -134,23 +134,18 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "Realm"
-      },
-      {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Hattin",
         "type": "event",
@@ -161,13 +156,19 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "Died of disease in the siege camp, 1190"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
       {
-        "title": "Saladin",
+        "title": "Conrad of Montferrat",
         "type": "person",
-        "slug": "saladin"
+        "slug": "conrad-of-montferrat",
+        "label": "Ruler of Kingdom of Jerusalem"
       },
       {
         "title": "Reynald of Châtillon",
@@ -176,10 +177,9 @@
         "label": "Ruler of Kingdom of Jerusalem"
       },
       {
-        "title": "Conrad of Montferrat",
+        "title": "Saladin",
         "type": "person",
-        "slug": "conrad-of-montferrat",
-        "label": "Ruler of Kingdom of Jerusalem"
+        "slug": "saladin"
       }
     ]
   },

@@ -186,24 +186,6 @@
     ],
     "people": [
       {
-        "title": "William II of England",
-        "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "His brother and predecessor"
-      },
-      {
-        "title": "Stephen of England",
-        "type": "person",
-        "slug": "stephen-of-england",
-        "label": "His nephew and successor"
-      },
-      {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "His father"
-      },
-      {
         "title": "Matilda of Flanders",
         "type": "person",
         "slug": "matilda-of-flanders",
@@ -214,6 +196,24 @@
         "type": "person",
         "slug": "matilda-of-scotland",
         "label": "First queen"
+      },
+      {
+        "title": "Stephen of England",
+        "type": "person",
+        "slug": "stephen-of-england",
+        "label": "His nephew and successor"
+      },
+      {
+        "title": "William II of England",
+        "type": "person",
+        "slug": "william-ii-of-england",
+        "label": "His brother and predecessor"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "His father"
       }
     ],
     "events": [

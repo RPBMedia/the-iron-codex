@@ -75,16 +75,16 @@
     ],
     "locations": [
       {
-        "title": "Caliphate of Córdoba",
-        "type": "location",
-        "slug": "caliphate-of-cordoba",
-        "label": "The caliphate whose old capital this was"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it was taken from"
+      },
+      {
+        "title": "Caliphate of Córdoba",
+        "type": "location",
+        "slug": "caliphate-of-cordoba",
+        "label": "The caliphate whose old capital this was"
       }
     ],
     "events": [

@@ -120,16 +120,16 @@
         "label": "Fought outside the town, 26 August 1346"
       },
       {
-        "title": "Hundred Years’ War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The war that brought both armies into Ponthieu"
-      },
-      {
         "title": "Battle of Poitiers",
         "type": "event",
         "slug": "battle-of-poitiers",
         "label": "The next great English field victory, ten years later"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war that brought both armies into Ponthieu"
       }
     ],
     "people": [
@@ -140,24 +140,24 @@
         "label": "Commanded here; his family had held Ponthieu"
       },
       {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Lost his army here"
-      },
-      {
         "title": "Edward the Black Prince",
         "type": "person",
         "slug": "edward-the-black-prince",
         "label": "Commanded the English right as a boy of sixteen"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Lost his army here"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Agincourt",
         "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Containing realm"
+        "slug": "agincourt",
+        "label": "Another Picard field of the same war"
       },
       {
         "title": "Kingdom of England",
@@ -166,10 +166,10 @@
         "label": "Held Ponthieu from 1279 to 1337"
       },
       {
-        "title": "Agincourt",
+        "title": "Kingdom of France",
         "type": "location",
-        "slug": "agincourt",
-        "label": "Another Picard field of the same war"
+        "slug": "kingdom-of-france",
+        "label": "Containing realm"
       }
     ]
   },

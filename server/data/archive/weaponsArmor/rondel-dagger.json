@@ -98,16 +98,6 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Longsword",
-        "type": "weaponArmor",
-        "slug": "longsword"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
         "title": "Bascinet",
         "type": "weaponArmor",
         "slug": "bascinet"
@@ -118,28 +108,38 @@
         "slug": "buckler"
       },
       {
+        "title": "Estoc",
+        "slug": "estoc",
+        "label": "The same idea at sword length",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Gauntlet",
         "type": "weaponArmor",
         "slug": "gauntlet",
         "label": "Drawn and driven home with gauntlets on"
       },
       {
-        "title": "Estoc",
-        "slug": "estoc",
-        "label": "The same idea at sword length",
-        "type": "weaponArmor"
+        "title": "Longsword",
+        "type": "weaponArmor",
+        "slug": "longsword"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
       }
     ]
   },

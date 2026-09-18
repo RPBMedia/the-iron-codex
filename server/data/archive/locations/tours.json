@@ -153,28 +153,28 @@
     ],
     "locations": [
       {
-        "title": "Frankish Kingdom",
-        "type": "location",
-        "slug": "frankish-kingdom",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Umayyad Caliphate",
-        "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "Combatant here"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "Combatant here"
       },
       {
+        "title": "Frankish Kingdom",
+        "type": "location",
+        "slug": "frankish-kingdom",
+        "label": "Containing realm"
+      },
+      {
         "title": "Poitiers",
         "type": "location",
         "slug": "poitiers",
         "label": "Linked by the Roman road"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Combatant here"
       }
     ],
     "people": [
@@ -185,22 +185,16 @@
         "label": "Death of Abd al-Rahman al-Ghafiqi"
       },
       {
-        "title": "Charles Martel",
-        "type": "person",
-        "slug": "charles-martel",
-        "label": "Fought here"
-      },
-      {
         "title": "Charlemagne",
         "type": "person",
         "slug": "charlemagne",
         "label": "Gave Saint-Martin to Alcuin"
       },
       {
-        "title": "Hugh Capet",
+        "title": "Charles Martel",
         "type": "person",
-        "slug": "hugh-capet",
-        "label": "Lay abbot of Saint-Martin"
+        "slug": "charles-martel",
+        "label": "Fought here"
       },
       {
         "title": "Henry II of England",
@@ -209,22 +203,16 @@
         "label": "Lost Tours in 1189"
       },
       {
-        "title": "Richard the Lionheart",
+        "title": "Henry VI",
         "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Took the city, 1189"
+        "slug": "henry-vi-of-england",
+        "label": "Party to the Treaty of Tours, 1444"
       },
       {
-        "title": "Philip II of France",
+        "title": "Hugh Capet",
         "type": "person",
-        "slug": "philip-ii-of-france",
-        "label": "Annexed Touraine by 1205"
-      },
-      {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Issued the gros tournois, 1266"
+        "slug": "hugh-capet",
+        "label": "Lay abbot of Saint-Martin"
       },
       {
         "title": "Joan of Arc",
@@ -233,16 +221,28 @@
         "label": "Armour made here, 1429"
       },
       {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Issued the gros tournois, 1266"
+      },
+      {
         "title": "Margaret of Anjou",
         "type": "person",
         "slug": "margaret-of-anjou",
         "label": "Betrothed here, 1444"
       },
       {
-        "title": "Henry VI",
+        "title": "Philip II of France",
         "type": "person",
-        "slug": "henry-vi-of-england",
-        "label": "Party to the Treaty of Tours, 1444"
+        "slug": "philip-ii-of-france",
+        "label": "Annexed Touraine by 1205"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Took the city, 1189"
       }
     ]
   },

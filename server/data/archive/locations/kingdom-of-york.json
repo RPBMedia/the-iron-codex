@@ -186,16 +186,16 @@
     ],
     "events": [
       {
-        "title": "Great Heathen Army",
-        "type": "event",
-        "slug": "great-heathen-army",
-        "label": "Took York in 866"
-      },
-      {
         "title": "Battle of Brunanburh",
         "type": "event",
         "slug": "battle-of-brunanburh",
         "label": "Norse bid to recover York"
+      },
+      {
+        "title": "Great Heathen Army",
+        "type": "event",
+        "slug": "great-heathen-army",
+        "label": "Took York in 866"
       }
     ],
     "people": [
@@ -205,16 +205,16 @@
         "label": "Last king, killed 954"
       },
       {
-        "title": "Olaf Guthfrithson",
-        "type": "person",
-        "slug": "olaf-guthfrithson",
-        "label": "Restored the kingdom in 939"
-      },
-      {
         "title": "Eadred of England",
         "type": "person",
         "slug": "eadred-of-england",
         "label": "Ended the kingdom in 954"
+      },
+      {
+        "title": "Olaf Guthfrithson",
+        "type": "person",
+        "slug": "olaf-guthfrithson",
+        "label": "Restored the kingdom in 939"
       }
     ]
   },

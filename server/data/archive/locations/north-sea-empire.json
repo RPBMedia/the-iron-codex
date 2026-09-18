@@ -99,10 +99,10 @@
         "label": "The empire in one man"
       },
       {
-        "title": "Sweyn Forkbeard",
+        "title": "Edmund Ironside",
         "type": "person",
-        "slug": "sweyn-forkbeard",
-        "label": "The prototype conqueror"
+        "slug": "edmund-ironside",
+        "label": "The English resistance"
       },
       {
         "title": "Harthacnut",
@@ -111,24 +111,24 @@
         "label": "The last emperor-heir"
       },
       {
-        "title": "Edmund Ironside",
+        "title": "Sweyn Forkbeard",
         "type": "person",
-        "slug": "edmund-ironside",
-        "label": "The English resistance"
+        "slug": "sweyn-forkbeard",
+        "label": "The prototype conqueror"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "The empire's treasury"
-      },
       {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "The dynastic base"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The empire's treasury"
       },
       {
         "title": "Kingdom of Norway",
@@ -139,16 +139,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Stiklestad",
-        "type": "event",
-        "slug": "battle-of-stiklestad",
-        "label": "Norway secured, sainthood created, 1030"
-      },
-      {
         "title": "Battle of Stamford Bridge",
         "type": "event",
         "slug": "battle-of-stamford-bridge",
         "label": "The claim's last echo, 1066"
+      },
+      {
+        "title": "Battle of Stiklestad",
+        "type": "event",
+        "slug": "battle-of-stiklestad",
+        "label": "Norway secured, sainthood created, 1030"
       }
     ]
   },

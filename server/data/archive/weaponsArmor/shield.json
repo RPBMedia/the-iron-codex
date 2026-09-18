@@ -89,6 +89,16 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Arming Sword",
+        "type": "weaponArmor",
+        "slug": "arming-sword"
+      },
+      {
+        "title": "Battle Axe",
+        "type": "weaponArmor",
+        "slug": "battle-axe"
+      },
+      {
         "title": "Buckler",
         "type": "weaponArmor",
         "slug": "buckler"
@@ -99,24 +109,14 @@
         "slug": "heater-shield"
       },
       {
-        "title": "Pavise",
-        "type": "weaponArmor",
-        "slug": "pavise"
-      },
-      {
         "title": "Kite Shield",
         "type": "weaponArmor",
         "slug": "kite-shield"
       },
       {
-        "title": "Arming Sword",
+        "title": "Pavise",
         "type": "weaponArmor",
-        "slug": "arming-sword"
-      },
-      {
-        "title": "Battle Axe",
-        "type": "weaponArmor",
-        "slug": "battle-axe"
+        "slug": "pavise"
       },
       {
         "title": "Round Shield",

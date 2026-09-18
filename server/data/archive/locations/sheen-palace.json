@@ -91,28 +91,28 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Edward III of England",
-        "type": "person",
-        "slug": "edward-iii-of-england",
-        "label": "Rebuilt the palace and died here in 1377"
-      },
-      {
-        "title": "Richard II of England",
-        "type": "person",
-        "slug": "richard-ii-of-england",
-        "label": "Made it his favourite house, then had it destroyed"
-      },
-      {
         "title": "Anne of Bohemia",
         "type": "person",
         "slug": "anne-of-bohemia",
         "label": "Died here of plague in 1394"
       },
       {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Rebuilt the palace and died here in 1377"
+      },
+      {
         "title": "Henry V of England",
         "type": "person",
         "slug": "henry-v-of-england",
         "label": "Rebuilt the palace from 1414 with a charterhouse beside it"
+      },
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "Made it his favourite house, then had it destroyed"
       }
     ],
     "locations": [
@@ -131,16 +131,16 @@
     ],
     "events": [
       {
-        "title": "Hundred Years’ War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "The war that dominated the reigns of its occupants"
-      },
-      {
         "title": "Battle of Crécy",
         "type": "event",
         "slug": "battle-of-crecy",
         "label": "Edward III’s victory, three decades before he died here"
+      },
+      {
+        "title": "Hundred Years’ War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "The war that dominated the reigns of its occupants"
       }
     ]
   },

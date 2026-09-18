@@ -182,16 +182,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "The empire he served and resisted"
-      },
-      {
         "title": "Kosovo Field",
         "type": "location",
         "slug": "kosovo-field",
         "label": "Where he raised his father's memorial column"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The empire he served and resisted"
       }
     ],
     "people": [
@@ -210,16 +210,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Kosovo",
-        "type": "event",
-        "slug": "battle-of-kosovo",
-        "label": "Where his father fell, shaping his reign"
-      },
-      {
         "title": "Battle of Ankara",
         "type": "event",
         "slug": "battle-of-ankara",
         "label": "Commanded the Serbian cavalry, 1402"
+      },
+      {
+        "title": "Battle of Kosovo",
+        "type": "event",
+        "slug": "battle-of-kosovo",
+        "label": "Where his father fell, shaping his reign"
       }
     ]
   },

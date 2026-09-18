@@ -164,16 +164,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Subutai",
-        "type": "person",
-        "slug": "subutai",
-        "label": "The strategist of his western campaign"
-      },
-      {
         "title": "Béla IV of Hungary",
         "type": "person",
         "slug": "bela-iv-of-hungary",
         "label": "The king he defeated at Mohi"
+      },
+      {
+        "title": "Subutai",
+        "type": "person",
+        "slug": "subutai",
+        "label": "The strategist of his western campaign"
       }
     ],
     "events": [
@@ -182,18 +182,6 @@
         "type": "event",
         "slug": "battle-of-mohi",
         "label": "Commanded the Mongol army, 1241"
-      },
-      {
-        "title": "Siege of Ryazan",
-        "type": "event",
-        "slug": "siege-of-ryazan",
-        "label": "Opened the conquest of the Rus’, 1237"
-      },
-      {
-        "title": "Siege of Vladimir",
-        "type": "event",
-        "slug": "siege-of-vladimir",
-        "label": "Took the northern capital, 1238"
       },
       {
         "title": "Battle of the Sit River",
@@ -206,6 +194,18 @@
         "type": "event",
         "slug": "siege-of-kyiv",
         "label": "Stormed the mother of Rus’ cities, 1240"
+      },
+      {
+        "title": "Siege of Ryazan",
+        "type": "event",
+        "slug": "siege-of-ryazan",
+        "label": "Opened the conquest of the Rus’, 1237"
+      },
+      {
+        "title": "Siege of Vladimir",
+        "type": "event",
+        "slug": "siege-of-vladimir",
+        "label": "Took the northern capital, 1238"
       }
     ],
     "locations": [

@@ -201,10 +201,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Henry I of England",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Father"
+        "slug": "henry-i-of-england",
+        "label": "Brother"
       },
       {
         "title": "Stephen of England",
@@ -213,24 +213,24 @@
         "label": "Son"
       },
       {
-        "title": "Henry I of England",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "henry-i-of-england",
-        "label": "Brother"
+        "slug": "william-the-conqueror",
+        "label": "Father"
       }
     ],
     "houses": [
-      {
-        "title": "House of Normandy",
-        "type": "house",
-        "slug": "house-of-normandy",
-        "label": "House of her birth"
-      },
       {
         "title": "House of Blois",
         "type": "house",
         "slug": "house-of-blois",
         "label": "House of her marriage"
+      },
+      {
+        "title": "House of Normandy",
+        "type": "house",
+        "slug": "house-of-normandy",
+        "label": "House of her birth"
       }
     ],
     "events": [

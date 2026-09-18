@@ -116,12 +116,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "Victorious Ayyubid sultan"
-      },
-      {
         "title": "Guy of Lusignan",
         "type": "person",
         "slug": "guy-of-lusignan",
@@ -138,20 +132,26 @@
         "type": "person",
         "slug": "reynald-of-chatillon",
         "label": "Executed by Saladin after the battle"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Victorious Ayyubid sultan"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "The realm whose army was destroyed"
-      },
       {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
         "label": "Saladin's realm"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "The realm whose army was destroyed"
       }
     ],
     "events": [

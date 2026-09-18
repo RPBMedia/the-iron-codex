@@ -136,6 +136,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Ruled from Bordeaux"
+      },
+      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
@@ -146,21 +152,9 @@
         "type": "location",
         "slug": "westminster",
         "label": "Place of death"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "Ruled from Bordeaux"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Poitiers",
-        "type": "event",
-        "slug": "battle-of-poitiers",
-        "label": "Fought in this engagement"
-      },
       {
         "title": "Battle of Crécy",
         "type": "event",
@@ -172,6 +166,12 @@
         "type": "event",
         "slug": "battle-of-najera",
         "label": "Commanded here, and was ruined by the campaign, 1367"
+      },
+      {
+        "title": "Battle of Poitiers",
+        "type": "event",
+        "slug": "battle-of-poitiers",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [

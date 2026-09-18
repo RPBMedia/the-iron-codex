@@ -171,16 +171,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Gelimer",
-        "type": "person",
-        "slug": "gelimer",
-        "label": "Its last king"
-      },
-      {
         "title": "Belisarius",
         "type": "person",
         "slug": "belisarius",
         "label": "The general who destroyed it"
+      },
+      {
+        "title": "Gelimer",
+        "type": "person",
+        "slug": "gelimer",
+        "label": "Its last king"
       },
       {
         "title": "Justinian I",
@@ -191,16 +191,16 @@
     ],
     "events": [
       {
-        "title": "Vandalic War",
-        "type": "event",
-        "slug": "vandalic-war",
-        "label": "The war that ended it"
-      },
-      {
         "title": "Battle of Tricamarum",
         "type": "event",
         "slug": "battle-of-tricamarum",
         "label": "Where its last army was broken"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The war that ended it"
       }
     ],
     "locations": [

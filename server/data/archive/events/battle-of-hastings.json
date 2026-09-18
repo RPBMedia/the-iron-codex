@@ -110,19 +110,25 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Commander"
-      },
-      {
         "title": "Harold Godwinson",
         "type": "person",
         "slug": "harold-godwinson",
         "label": "Commander"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Commander"
       }
     ],
     "locations": [
+      {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Combatant faction"
+      },
       {
         "title": "Hastings",
         "type": "location",
@@ -133,12 +139,6 @@
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
-        "label": "Combatant faction"
-      },
-      {
-        "title": "Duchy of Normandy",
-        "type": "location",
-        "slug": "duchy-of-normandy",
         "label": "Combatant faction"
       }
     ],

@@ -120,10 +120,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Geoffrey of Anjou",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Duke and king"
+        "slug": "geoffrey-of-anjou",
+        "label": "Duke from 1144 to 1150"
       },
       {
         "title": "Henry V of England",
@@ -138,10 +138,10 @@
         "label": "The annexer of 1204"
       },
       {
-        "title": "Geoffrey of Anjou",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "geoffrey-of-anjou",
-        "label": "Duke from 1144 to 1150"
+        "slug": "william-the-conqueror",
+        "label": "Duke and king"
       }
     ],
     "locations": [
@@ -166,6 +166,12 @@
     ],
     "events": [
       {
+        "title": "Battle of Formigny",
+        "type": "event",
+        "slug": "battle-of-formigny",
+        "label": "English Normandy's end, 1450"
+      },
+      {
         "title": "Battle of Hastings",
         "type": "event",
         "slug": "battle-of-hastings",
@@ -176,12 +182,6 @@
         "type": "event",
         "slug": "siege-of-rouen",
         "label": "Henry V's conquest completed, 1419"
-      },
-      {
-        "title": "Battle of Formigny",
-        "type": "event",
-        "slug": "battle-of-formigny",
-        "label": "English Normandy's end, 1450"
       }
     ]
   },

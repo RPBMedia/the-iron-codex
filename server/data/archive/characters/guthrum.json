@@ -199,18 +199,6 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Wessex",
-        "type": "location",
-        "slug": "kingdom-of-wessex",
-        "label": "The kingdom he nearly destroyed"
-      },
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "The Danelaw boundary he agreed helped define its shape"
-      },
-      {
         "title": "Danelaw",
         "type": "location",
         "slug": "danelaw",
@@ -221,6 +209,18 @@
         "type": "location",
         "slug": "kingdom-of-east-anglia",
         "label": "His kingdom, 880–890"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The Danelaw boundary he agreed helped define its shape"
+      },
+      {
+        "title": "Kingdom of Wessex",
+        "type": "location",
+        "slug": "kingdom-of-wessex",
+        "label": "The kingdom he nearly destroyed"
       }
     ]
   },

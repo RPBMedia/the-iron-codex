@@ -156,12 +156,6 @@
     ],
     "locations": [
       {
-        "title": "Swabia",
-        "type": "location",
-        "slug": "swabia",
-        "label": "Birthplace"
-      },
-      {
         "title": "Grunwald",
         "type": "location",
         "slug": "grunwald",
@@ -171,6 +165,12 @@
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire"
+      },
+      {
+        "title": "Swabia",
+        "type": "location",
+        "slug": "swabia",
+        "label": "Birthplace"
       }
     ],
     "orders": [

@@ -140,16 +140,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Crécy",
-        "type": "event",
-        "slug": "battle-of-crecy",
-        "label": "English archery worked largely on horses"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt",
         "label": "The French dismounted rather than risk the horses"
+      },
+      {
+        "title": "Battle of Crécy",
+        "type": "event",
+        "slug": "battle-of-crecy",
+        "label": "English archery worked largely on horses"
       }
     ],
     "weaponsArmor": [
@@ -160,16 +160,16 @@
         "label": "The weapon the barded horse existed to deliver"
       },
       {
-        "title": "Mail Armor",
-        "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "The trapper is made exactly like a hauberk"
-      },
-      {
         "title": "Longbow",
         "type": "weaponArmor",
         "slug": "longbow",
         "label": "The threat it answered"
+      },
+      {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor",
+        "label": "The trapper is made exactly like a hauberk"
       },
       {
         "title": "Plate Armor",

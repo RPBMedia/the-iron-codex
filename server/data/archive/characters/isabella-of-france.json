@@ -203,16 +203,16 @@
     ],
     "events": [
       {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton",
-        "label": "Peace made under her regency"
-      },
-      {
         "title": "Hundred Years' War",
         "type": "event",
         "slug": "hundred-years-war",
         "label": "Fought over the claim she transmitted"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "Peace made under her regency"
       }
     ],
     "locations": [

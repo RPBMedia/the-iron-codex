@@ -156,41 +156,41 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John of England",
-        "type": "person",
-        "slug": "john-of-england",
-        "label": "Father"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Son and successor"
       },
       {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Brother-in-law, treaty partner, and failed arbitrator of 1264"
-      },
-      {
         "title": "Eleanor of Provence",
         "type": "person",
         "slug": "eleanor-of-provence",
         "label": "Queen"
+      },
+      {
+        "title": "John of England",
+        "type": "person",
+        "slug": "john-of-england",
+        "label": "Father"
+      },
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
+        "label": "Brother-in-law, treaty partner, and failed arbitrator of 1264"
       }
     ],
     "locations": [
       {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Campaigned there, 1253–1254"
+      },
+      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england"
-      },
-      {
-        "title": "Winchester",
-        "type": "location",
-        "slug": "winchester",
-        "label": "Birthplace, 1207"
       },
       {
         "title": "Westminster",
@@ -199,24 +199,24 @@
         "label": "Rebuilt the abbey"
       },
       {
-        "title": "Gascony",
+        "title": "Winchester",
         "type": "location",
-        "slug": "gascony",
-        "label": "Campaigned there, 1253–1254"
+        "slug": "winchester",
+        "label": "Birthplace, 1207"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Lewes",
-        "type": "event",
-        "slug": "battle-of-lewes",
-        "label": "Captured in the battle and made a figurehead king"
-      },
       {
         "title": "Battle of Evesham (1265)",
         "type": "event",
         "slug": "battle-of-evesham",
         "label": "Held captive in Montfort’s line, and restored by the victory"
+      },
+      {
+        "title": "Battle of Lewes",
+        "type": "event",
+        "slug": "battle-of-lewes",
+        "label": "Captured in the battle and made a figurehead king"
       }
     ]
   },

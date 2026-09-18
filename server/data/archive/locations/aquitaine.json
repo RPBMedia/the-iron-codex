@@ -115,6 +115,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Edward, the Black Prince",
+        "type": "person",
+        "slug": "edward-the-black-prince",
+        "label": "Prince of Aquitaine"
+      },
+      {
         "title": "Eleanor of Aquitaine",
         "type": "person",
         "slug": "eleanor-of-aquitaine",
@@ -125,20 +131,14 @@
         "type": "person",
         "slug": "richard-the-lionheart",
         "label": "Its ducal schoolmaster"
-      },
-      {
-        "title": "Edward, the Black Prince",
-        "type": "person",
-        "slug": "edward-the-black-prince",
-        "label": "Prince of Aquitaine"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Gascony",
         "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Suzerain and final conqueror"
+        "slug": "gascony",
+        "label": "The duchy's enduring core"
       },
       {
         "title": "Kingdom of England",
@@ -147,10 +147,10 @@
         "label": "The king-dukes' crown"
       },
       {
-        "title": "Gascony",
+        "title": "Kingdom of France",
         "type": "location",
-        "slug": "gascony",
-        "label": "The duchy's enduring core"
+        "slug": "kingdom-of-france",
+        "label": "Suzerain and final conqueror"
       },
       {
         "title": "Poitiers",
@@ -160,12 +160,6 @@
       }
     ],
     "events": [
-      {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Fought over its homage"
-      },
       {
         "title": "Battle of Castillon",
         "type": "event",
@@ -177,6 +171,12 @@
         "type": "event",
         "slug": "battle-of-tours",
         "label": "Duke Eudes beside Charles Martel, 732"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought over its homage"
       }
     ]
   },

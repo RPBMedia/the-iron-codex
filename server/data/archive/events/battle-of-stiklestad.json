@@ -119,29 +119,29 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
+      },
+      {
         "title": "Olaf II Haraldsson",
         "type": "person",
         "slug": "olaf-ii-haraldsson",
         "label": "Commander"
-      },
-      {
-        "title": "Harald Hardrada",
-        "type": "person",
-        "slug": "harald-hardrada"
       }
     ],
     "locations": [
-      {
-        "title": "Stiklestad",
-        "type": "location",
-        "slug": "stiklestad",
-        "label": "Battlefield"
-      },
       {
         "title": "Kingdom of Norway",
         "type": "location",
         "slug": "kingdom-of-norway",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Stiklestad",
+        "type": "location",
+        "slug": "stiklestad",
+        "label": "Battlefield"
       }
     ]
   },

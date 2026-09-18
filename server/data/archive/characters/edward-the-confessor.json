@@ -165,10 +165,9 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Norman Conquest of England",
+        "title": "Battle of Hastings",
         "type": "event",
-        "slug": "norman-conquest",
-        "label": "Died in this engagement"
+        "slug": "battle-of-hastings"
       },
       {
         "title": "Battle of Stamford Bridge",
@@ -176,9 +175,10 @@
         "slug": "battle-of-stamford-bridge"
       },
       {
-        "title": "Battle of Hastings",
+        "title": "Norman Conquest of England",
         "type": "event",
-        "slug": "battle-of-hastings"
+        "slug": "norman-conquest",
+        "label": "Died in this engagement"
       }
     ],
     "locations": [
@@ -209,11 +209,6 @@
     ],
     "people": [
       {
-        "title": "Harald Hardrada",
-        "type": "person",
-        "slug": "harald-hardrada"
-      },
-      {
         "title": "Edith of Wessex",
         "type": "person",
         "slug": "edith-of-wessex",
@@ -224,6 +219,11 @@
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "Mother"
+      },
+      {
+        "title": "Harald Hardrada",
+        "type": "person",
+        "slug": "harald-hardrada"
       }
     ]
   },

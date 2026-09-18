@@ -138,34 +138,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry V of England",
-        "type": "person",
-        "slug": "henry-v-of-england",
-        "label": "Birthplace of Henry V of England"
-      },
-      {
-        "title": "Mary de Bohun",
-        "type": "person",
-        "slug": "mary-de-bohun",
-        "label": "Gave birth to Henry V here"
-      },
-      {
-        "title": "Henry IV of England",
-        "type": "person",
-        "slug": "henry-iv-of-england",
-        "label": "Lord of Monmouth before 1399"
-      },
-      {
         "title": "Blanche of Lancaster",
         "type": "person",
         "slug": "blanche-of-lancaster",
         "label": "Brought Monmouth to John of Gaunt"
-      },
-      {
-        "title": "Henry III of England",
-        "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "His garrison was routed outside the town, 1233"
       },
       {
         "title": "Edward I of England",
@@ -180,23 +156,47 @@
         "label": "Gave up the Great Seal here, 1326"
       },
       {
+        "title": "Henry III of England",
+        "type": "person",
+        "slug": "henry-iii-of-england",
+        "label": "His garrison was routed outside the town, 1233"
+      },
+      {
+        "title": "Henry IV of England",
+        "type": "person",
+        "slug": "henry-iv-of-england",
+        "label": "Lord of Monmouth before 1399"
+      },
+      {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Birthplace of Henry V of England"
+      },
+      {
         "title": "Henry VI",
         "type": "person",
         "slug": "henry-vi-of-england",
         "label": "Granted the borough charter, 1447"
+      },
+      {
+        "title": "Mary de Bohun",
+        "type": "person",
+        "slug": "mary-de-bohun",
+        "label": "Gave birth to Henry V here"
       }
     ],
     "locations": [
+      {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Realm of Henry V of England"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes"
       }
     ],
     "events": [

@@ -96,31 +96,6 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Hounskull Bascinet",
-        "type": "weaponArmor",
-        "slug": "hounskull-bascinet"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
-        "title": "Mail Coif",
-        "type": "weaponArmor",
-        "slug": "mail-coif"
-      },
-      {
-        "title": "Dagger / Rondel Dagger",
-        "type": "weaponArmor",
-        "slug": "rondel-dagger"
-      },
-      {
-        "title": "Longsword",
-        "type": "weaponArmor",
-        "slug": "longsword"
-      },
-      {
         "title": "Armet",
         "slug": "armet",
         "label": "The enclosed helmet it developed into",
@@ -131,6 +106,31 @@
         "slug": "churburg-armour",
         "label": "Surviving helmets on complete harnesses",
         "type": "weaponArmor"
+      },
+      {
+        "title": "Dagger / Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger"
+      },
+      {
+        "title": "Hounskull Bascinet",
+        "type": "weaponArmor",
+        "slug": "hounskull-bascinet"
+      },
+      {
+        "title": "Longsword",
+        "type": "weaponArmor",
+        "slug": "longsword"
+      },
+      {
+        "title": "Mail Coif",
+        "type": "weaponArmor",
+        "slug": "mail-coif"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
       }
     ]
   },

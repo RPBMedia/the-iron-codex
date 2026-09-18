@@ -177,19 +177,25 @@
         "label": "Commander"
       },
       {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Commander"
-      },
-      {
         "title": "John II of France",
         "type": "person",
         "slug": "john-ii-of-france",
         "label": "Commander"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
+        "label": "Commander"
       }
     ],
     "locations": [
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Confiscated in 1337, lost in 1453"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
@@ -201,12 +207,6 @@
         "type": "location",
         "slug": "kingdom-of-france",
         "label": "Combatant faction"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "Confiscated in 1337, lost in 1453"
       }
     ]
   }

@@ -184,28 +184,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Poleaxe",
+        "title": "Estoc",
         "type": "weaponArmor",
-        "slug": "poleaxe",
-        "label": "The axe-headed member of the same family"
-      },
-      {
-        "title": "War Hammer",
-        "type": "weaponArmor",
-        "slug": "war-hammer",
-        "label": "The shorter one-handed relative"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The defence it exists to defeat"
-      },
-      {
-        "title": "Rondel Dagger",
-        "type": "weaponArmor",
-        "slug": "rondel-dagger",
-        "label": "What finished the man it brought down"
+        "slug": "estoc",
+        "label": "The sword built for the same problem"
       },
       {
         "title": "Halberd",
@@ -214,10 +196,28 @@
         "label": "The infantry-formation cousin"
       },
       {
-        "title": "Estoc",
+        "title": "Plate Armor",
         "type": "weaponArmor",
-        "slug": "estoc",
-        "label": "The sword built for the same problem"
+        "slug": "plate-armor",
+        "label": "The defence it exists to defeat"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "The axe-headed member of the same family"
+      },
+      {
+        "title": "Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger",
+        "label": "What finished the man it brought down"
+      },
+      {
+        "title": "War Hammer",
+        "type": "weaponArmor",
+        "slug": "war-hammer",
+        "label": "The shorter one-handed relative"
       }
     ]
   },

@@ -165,16 +165,16 @@
     ],
     "people": [
       {
-        "title": "Edgar the Peaceful",
-        "type": "person",
-        "slug": "edgar-the-peaceful",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Æthelred the Unready",
         "type": "person",
         "slug": "aethelred-the-unready",
         "label": "His half-brother and successor"
+      },
+      {
+        "title": "Edgar the Peaceful",
+        "type": "person",
+        "slug": "edgar-the-peaceful",
+        "label": "His father and predecessor"
       }
     ],
     "events": []

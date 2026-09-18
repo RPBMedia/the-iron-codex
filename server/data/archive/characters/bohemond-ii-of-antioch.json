@@ -165,6 +165,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "His principality"
+      },
+      {
         "title": "Crusader States",
         "type": "location",
         "slug": "crusader-states",
@@ -175,12 +181,6 @@
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "The kingdom he married into"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "His principality"
       }
     ],
     "people": [

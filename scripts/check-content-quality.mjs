@@ -418,6 +418,25 @@ function validateRelatedEntries(collection, entry, label) {
     if (!RELATED_GROUPS.has(group)) {
       findings.push({ collection, article: label, path: `relatedEntries.${group}`, pattern: `related entries filed under unknown group "${group}"`, snippet: '' })
     }
+
+    // Alphabetical within each group (owner rule, 2026-09-17). A related-entries
+    // list is scanned for a name, not read top to bottom, so insertion order
+    // makes the reader search. It also encodes nothing but the order an editor
+    // happened to add the links.
+    const items = entry.relatedEntries[group]
+    if (Array.isArray(items) && items.length > 1) {
+      const titles = items.map((item) => String(item?.title ?? ''))
+      const sorted = [...titles].sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base' }))
+      if (titles.join(' ') !== sorted.join(' ')) {
+        findings.push({
+          collection,
+          article: label,
+          path: `relatedEntries.${group}`,
+          pattern: 'related entries are not in alphabetical order by title',
+          snippet: `${titles.join(', ')} -> ${sorted.join(', ')}`
+        })
+      }
+    }
   }
   const items = Object.values(entry.relatedEntries || {}).flatMap(v => Array.isArray(v) ? v : [])
   const seen = new Set()

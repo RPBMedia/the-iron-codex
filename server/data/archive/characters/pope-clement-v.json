@@ -117,14 +117,14 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Philip IV of France",
-        "type": "person",
-        "slug": "philip-iv-of-france"
-      },
-      {
         "title": "Jacques de Molay",
         "type": "person",
         "slug": "jacques-de-molay"
+      },
+      {
+        "title": "Philip IV of France",
+        "type": "person",
+        "slug": "philip-iv-of-france"
       },
       {
         "title": "Pope John XXII",
@@ -135,15 +135,15 @@
     ],
     "locations": [
       {
-        "title": "Papacy",
-        "type": "location",
-        "slug": "papacy"
-      },
-      {
         "title": "Gascony",
         "type": "location",
         "slug": "gascony",
         "label": "His homeland"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy"
       }
     ],
     "orders": [

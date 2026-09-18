@@ -142,6 +142,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Began its keep"
+      },
+      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
@@ -152,39 +158,33 @@
         "type": "location",
         "slug": "nogent-le-roi",
         "label": "Place of death"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Began its keep"
       }
     ],
     "events": [
-      {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Fought in this engagement"
-      },
       {
         "title": "Battle of Crécy",
         "type": "event",
         "slug": "battle-of-crecy",
         "label": "Fought in this engagement"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [
       {
-        "title": "Louis IX of France",
-        "type": "person",
-        "slug": "louis-ix-of-france",
-        "label": "Ruler of Kingdom of France"
-      },
-      {
         "title": "John II of France",
         "type": "person",
         "slug": "john-ii-of-france",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "Louis IX of France",
+        "type": "person",
+        "slug": "louis-ix-of-france",
         "label": "Ruler of Kingdom of France"
       }
     ]

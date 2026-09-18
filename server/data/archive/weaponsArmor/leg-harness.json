@@ -139,28 +139,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The harness it forms part of"
-      },
-      {
         "title": "Arm Harness",
         "type": "weaponArmor",
         "slug": "arm-harness",
         "label": "The same problem solved for the arms"
-      },
-      {
-        "title": "Mail Armor",
-        "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "Chausses were the earlier solution"
-      },
-      {
-        "title": "Poleaxe",
-        "type": "weaponArmor",
-        "slug": "poleaxe",
-        "label": "Its beak was used to hook the knee and ankle"
       },
       {
         "title": "Barding",
@@ -173,6 +155,24 @@
         "type": "weaponArmor",
         "slug": "gothic-plate-armor",
         "label": "The long pointed sabaton at its most extreme"
+      },
+      {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor",
+        "label": "Chausses were the earlier solution"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The harness it forms part of"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "Its beak was used to hook the knee and ankle"
       }
     ]
   },

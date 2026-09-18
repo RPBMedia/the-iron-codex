@@ -135,12 +135,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
-        "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Realm"
-      },
-      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate"
@@ -150,26 +144,27 @@
         "type": "location",
         "slug": "kerak",
         "label": "Castle he relieved in 1183 and 1184"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Realm"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
-      {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin"
-      },
       {
         "title": "Baldwin II of Jerusalem",
         "type": "person",
@@ -181,6 +176,11 @@
         "type": "person",
         "slug": "raymond-iii-of-tripoli",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
       }
     ]
   },

@@ -97,14 +97,14 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
-        "type": "location",
-        "slug": "kingdom-of-france"
-      },
-      {
         "title": "Frankish Kingdom",
         "type": "location",
         "slug": "frankish-kingdom"
+      },
+      {
+        "title": "Kingdom of France",
+        "type": "location",
+        "slug": "kingdom-of-france"
       }
     ],
     "weaponsArmor": [
@@ -112,6 +112,18 @@
         "title": "Arming Sword",
         "type": "weaponArmor",
         "slug": "arming-sword"
+      },
+      {
+        "title": "Imperial Sword (Reichsschwert)",
+        "slug": "reichsschwert",
+        "label": "The imperial counterpart",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Szczerbiec",
+        "slug": "szczerbiec",
+        "label": "The Polish counterpart",
+        "type": "weaponArmor"
       },
       {
         "title": "Ulfberht Swords",
@@ -129,18 +141,6 @@
         "title": "William Wallace's Sword",
         "slug": "wallace-sword",
         "label": "Another sword whose attribution outran its evidence",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Imperial Sword (Reichsschwert)",
-        "slug": "reichsschwert",
-        "label": "The imperial counterpart",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Szczerbiec",
-        "slug": "szczerbiec",
-        "label": "The Polish counterpart",
         "type": "weaponArmor"
       }
     ]

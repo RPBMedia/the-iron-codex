@@ -117,10 +117,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Prince Lazar",
+        "title": "Bayezid I",
         "type": "person",
-        "slug": "prince-lazar",
-        "label": "Commander"
+        "slug": "bayezid-i",
+        "label": "Took command of the Ottoman army when Murad I was killed"
       },
       {
         "title": "Murad I",
@@ -129,10 +129,10 @@
         "label": "Commander"
       },
       {
-        "title": "Bayezid I",
+        "title": "Prince Lazar",
         "type": "person",
-        "slug": "bayezid-i",
-        "label": "Took command of the Ottoman army when Murad I was killed"
+        "slug": "prince-lazar",
+        "label": "Commander"
       },
       {
         "title": "Stefan Lazarević",
@@ -142,6 +142,12 @@
       }
     ],
     "locations": [
+      {
+        "title": "Kosovo Field",
+        "type": "location",
+        "slug": "kosovo-field",
+        "label": "Location"
+      },
       {
         "title": "Ottoman Empire",
         "type": "location",
@@ -153,12 +159,6 @@
         "type": "location",
         "slug": "principality-of-serbia",
         "label": "Combatant faction"
-      },
-      {
-        "title": "Kosovo Field",
-        "type": "location",
-        "slug": "kosovo-field",
-        "label": "Location"
       }
     ],
     "events": [

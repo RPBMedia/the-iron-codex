@@ -160,16 +160,16 @@
     ],
     "orders": [
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order",
-        "label": "The order that absorbed it"
-      },
-      {
         "title": "Livonian Brothers of the Sword",
         "type": "order",
         "slug": "livonian-brothers-of-the-sword",
         "label": "The order it was modelled on"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order",
+        "label": "The order that absorbed it"
       }
     ]
   }

@@ -215,12 +215,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sverre Sigurdsson",
-        "type": "person",
-        "slug": "sverre-sigurdsson",
-        "label": "Founder"
-      },
-      {
         "title": "Haakon IV",
         "type": "person",
         "slug": "haakon-iv-haakonsson",
@@ -231,20 +225,26 @@
         "type": "person",
         "slug": "magnus-vi-lawmender",
         "label": "National law-giver"
+      },
+      {
+        "title": "Sverre Sigurdsson",
+        "type": "person",
+        "slug": "sverre-sigurdsson",
+        "label": "Founder"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "The realm they ruled"
-      },
       {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Capital and burial place of its kings"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "The realm they ruled"
       }
     ]
   },

@@ -197,18 +197,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Realm"
-      },
-      {
-        "title": "Oslo",
-        "type": "location",
-        "slug": "oslo",
-        "label": "Place of death"
-      },
-      {
         "title": "Constantinople",
         "type": "location",
         "slug": "constantinople"
@@ -220,10 +208,22 @@
         "label": "Crusader kingdom he fought for"
       },
       {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm"
+      },
+      {
         "title": "Lisbon",
         "type": "location",
         "slug": "lisbon",
         "label": "Fought there in 1109"
+      },
+      {
+        "title": "Oslo",
+        "type": "location",
+        "slug": "oslo",
+        "label": "Place of death"
       },
       {
         "title": "Sidon",
@@ -233,6 +233,30 @@
       }
     ],
     "people": [
+      {
+        "title": "Alexios I Komnenos",
+        "type": "person",
+        "slug": "alexios-i-komnenos",
+        "label": "Received him at Constantinople in 1111"
+      },
+      {
+        "title": "Baldwin I of Jerusalem",
+        "type": "person",
+        "slug": "baldwin-i-of-jerusalem",
+        "label": "Took Sidon with him in 1110"
+      },
+      {
+        "title": "Henry I of England",
+        "type": "person",
+        "slug": "henry-i-of-england",
+        "label": "Hosted his fleet over the winter of 1107–1108"
+      },
+      {
+        "title": "Magnus Barefoot",
+        "type": "person",
+        "slug": "magnus-barefoot",
+        "label": "Father"
+      },
       {
         "title": "Øystein I of Norway",
         "type": "person",
@@ -244,30 +268,6 @@
         "type": "person",
         "slug": "sverre-sigurdsson",
         "label": "Ruler of Kingdom of Norway"
-      },
-      {
-        "title": "Magnus Barefoot",
-        "type": "person",
-        "slug": "magnus-barefoot",
-        "label": "Father"
-      },
-      {
-        "title": "Baldwin I of Jerusalem",
-        "type": "person",
-        "slug": "baldwin-i-of-jerusalem",
-        "label": "Took Sidon with him in 1110"
-      },
-      {
-        "title": "Alexios I Komnenos",
-        "type": "person",
-        "slug": "alexios-i-komnenos",
-        "label": "Received him at Constantinople in 1111"
-      },
-      {
-        "title": "Henry I of England",
-        "type": "person",
-        "slug": "henry-i-of-england",
-        "label": "Hosted his fleet over the winter of 1107–1108"
       }
     ],
     "events": [

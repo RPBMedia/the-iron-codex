@@ -116,12 +116,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John I of Portugal",
-        "type": "person",
-        "slug": "john-i-of-portugal",
-        "label": "Victor; founder of the House of Aviz"
-      },
-      {
         "title": "Ferdinand I of Portugal",
         "type": "person",
         "slug": "ferdinand-i-of-portugal",
@@ -134,6 +128,12 @@
         "label": "The defeated Castilian king"
       },
       {
+        "title": "John I of Portugal",
+        "type": "person",
+        "slug": "john-i-of-portugal",
+        "label": "Victor; founder of the House of Aviz"
+      },
+      {
         "title": "Nuno Álvares Pereira",
         "type": "person",
         "slug": "nuno-alvares-pereira",
@@ -141,12 +141,6 @@
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The realm whose independence was secured"
-      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -158,6 +152,12 @@
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Ally whose longbowmen fought here"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm whose independence was secured"
       }
     ],
     "events": []

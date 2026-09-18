@@ -157,6 +157,11 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Alexander Nevsky",
+        "type": "person",
+        "slug": "alexander-nevsky"
+      },
+      {
         "title": "Batu Khan",
         "type": "person",
         "slug": "batu-khan"
@@ -165,23 +170,14 @@
         "title": "Subutai",
         "type": "person",
         "slug": "subutai"
-      },
-      {
-        "title": "Alexander Nevsky",
-        "type": "person",
-        "slug": "alexander-nevsky"
       }
     ],
     "events": [
       {
-        "title": "Battle of the Kalka River",
+        "title": "Battle of Ain Jalut",
         "type": "event",
-        "slug": "battle-of-the-kalka-river"
-      },
-      {
-        "title": "Siege of Kyiv",
-        "type": "event",
-        "slug": "siege-of-kyiv"
+        "slug": "battle-of-ain-jalut",
+        "label": "1260 — the end of the advance into Syria"
       },
       {
         "title": "Battle of Legnica",
@@ -194,13 +190,23 @@
         "slug": "battle-of-mohi"
       },
       {
-        "title": "Battle of Ain Jalut",
+        "title": "Battle of the Kalka River",
         "type": "event",
-        "slug": "battle-of-ain-jalut",
-        "label": "1260 — the end of the advance into Syria"
+        "slug": "battle-of-the-kalka-river"
+      },
+      {
+        "title": "Siege of Kyiv",
+        "type": "event",
+        "slug": "siege-of-kyiv"
       }
     ],
     "locations": [
+      {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Ended by Hulagu at Baghdad in 1258"
+      },
       {
         "title": "Kievan Rus’",
         "type": "location",
@@ -210,12 +216,6 @@
         "title": "Kingdom of Poland",
         "type": "location",
         "slug": "kingdom-of-poland"
-      },
-      {
-        "title": "Abbasid Caliphate",
-        "type": "location",
-        "slug": "abbasid-caliphate",
-        "label": "Ended by Hulagu at Baghdad in 1258"
       }
     ],
     "houses": [

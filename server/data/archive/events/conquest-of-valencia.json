@@ -82,16 +82,16 @@
     ],
     "locations": [
       {
-        "title": "Valencia",
-        "type": "location",
-        "slug": "valencia",
-        "label": "The city taken"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it was taken from"
+      },
+      {
+        "title": "Valencia",
+        "type": "location",
+        "slug": "valencia",
+        "label": "The city taken"
       }
     ],
     "houses": [

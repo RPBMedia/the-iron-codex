@@ -89,6 +89,23 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Gjermundbu Helmet",
+        "slug": "gjermundbu-helmet",
+        "label": "Surviving example of the segmented tradition",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Great Helm",
+        "type": "weaponArmor",
+        "slug": "great-helm"
+      },
+      {
+        "title": "Helmet of St Wenceslas",
+        "slug": "st-wenceslas-helmet",
+        "label": "Surviving example — a 10th-century helmet with a Crucifixion nasal",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Kite Shield",
         "type": "weaponArmor",
         "slug": "kite-shield"
@@ -99,32 +116,15 @@
         "slug": "mail-coif"
       },
       {
-        "title": "Great Helm",
-        "type": "weaponArmor",
-        "slug": "great-helm"
-      },
-      {
-        "title": "Sutton Hoo Helmet",
-        "type": "weaponArmor",
-        "slug": "sutton-hoo-helmet"
-      },
-      {
         "title": "Spangenhelm",
         "slug": "spangenhelm",
         "label": "The segmented construction it superseded",
         "type": "weaponArmor"
       },
       {
-        "title": "Gjermundbu Helmet",
-        "slug": "gjermundbu-helmet",
-        "label": "Surviving example of the segmented tradition",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Helmet of St Wenceslas",
-        "slug": "st-wenceslas-helmet",
-        "label": "Surviving example — a 10th-century helmet with a Crucifixion nasal",
-        "type": "weaponArmor"
+        "title": "Sutton Hoo Helmet",
+        "type": "weaponArmor",
+        "slug": "sutton-hoo-helmet"
       }
     ],
     "events": [

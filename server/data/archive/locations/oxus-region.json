@@ -116,16 +116,16 @@
     ],
     "locations": [
       {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks",
-        "label": "Alp Arslan’s empire"
-      },
-      {
         "title": "Manzikert",
         "type": "location",
         "slug": "manzikert",
         "label": "His victory of the previous year"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "Alp Arslan’s empire"
       }
     ],
     "events": [

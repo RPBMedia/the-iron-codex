@@ -194,12 +194,6 @@
     ],
     "events": [
       {
-        "title": "Vandalic War",
-        "type": "event",
-        "slug": "vandalic-war",
-        "label": "The war that ended his reign"
-      },
-      {
         "title": "Battle of Ad Decimum",
         "type": "event",
         "slug": "battle-of-ad-decimum",
@@ -210,6 +204,12 @@
         "type": "event",
         "slug": "battle-of-tricamarum",
         "label": "His final defeat"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The war that ended his reign"
       }
     ],
     "locations": [

@@ -127,30 +127,30 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "The crown the order defended"
-      },
-      {
         "title": "Al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim power whose raiders it watched for"
+      },
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "The crown the order defended"
       }
     ],
     "orders": [
-      {
-        "title": "Order of Montesa",
-        "type": "order",
-        "slug": "order-of-montesa",
-        "label": "The order it merged into in 1400"
-      },
       {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "A great order active in the Crown of Aragon"
+      },
+      {
+        "title": "Order of Montesa",
+        "type": "order",
+        "slug": "order-of-montesa",
+        "label": "The order it merged into in 1400"
       }
     ]
   }

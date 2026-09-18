@@ -133,16 +133,16 @@
         "label": "Commanded the expedition"
       },
       {
-        "title": "Justinian I",
-        "type": "person",
-        "slug": "justinian-i",
-        "label": "Ordered the war"
-      },
-      {
         "title": "Gelimer",
         "type": "person",
         "slug": "gelimer",
         "label": "The king who lost the kingdom"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Ordered the war"
       }
     ],
     "events": [
@@ -161,16 +161,16 @@
     ],
     "locations": [
       {
-        "title": "Vandal Kingdom",
-        "type": "location",
-        "slug": "vandal-kingdom",
-        "label": "The realm destroyed"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire that annexed it"
+      },
+      {
+        "title": "Vandal Kingdom",
+        "type": "location",
+        "slug": "vandal-kingdom",
+        "label": "The realm destroyed"
       }
     ]
   },

@@ -157,16 +157,16 @@
     ],
     "locations": [
       {
-        "title": "Sasanian Empire",
-        "type": "location",
-        "slug": "sasanian-empire",
-        "label": "The realm whose field army was destroyed"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire it saved"
+      },
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "The realm whose field army was destroyed"
       }
     ]
   },

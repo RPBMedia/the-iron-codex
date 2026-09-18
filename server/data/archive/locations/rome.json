@@ -101,10 +101,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Pope Urban II",
+        "title": "Belisarius",
         "type": "person",
-        "slug": "pope-urban-ii",
-        "label": "Death of Pope Urban II"
+        "slug": "belisarius",
+        "label": "Held Rome for Justinian"
       },
       {
         "title": "Charlemagne",
@@ -113,10 +113,10 @@
         "label": "Crowned emperor here in 800"
       },
       {
-        "title": "Belisarius",
+        "title": "Frederick I Barbarossa",
         "type": "person",
-        "slug": "belisarius",
-        "label": "Held Rome for Justinian"
+        "slug": "frederick-i-barbarossa",
+        "label": "Crowned in 1155"
       },
       {
         "title": "Pope Innocent III",
@@ -125,16 +125,16 @@
         "label": "Mastered city and Church"
       },
       {
-        "title": "Frederick I Barbarossa",
-        "type": "person",
-        "slug": "frederick-i-barbarossa",
-        "label": "Crowned in 1155"
-      },
-      {
         "title": "Pope Leo III",
         "type": "person",
         "slug": "pope-leo-iii",
         "label": "Attacked in its streets in 799; buried at Saint Peter's"
+      },
+      {
+        "title": "Pope Urban II",
+        "type": "person",
+        "slug": "pope-urban-ii",
+        "label": "Death of Pope Urban II"
       }
     ],
     "locations": [
@@ -153,16 +153,16 @@
         "label": "Event connected to this place"
       },
       {
-        "title": "Siege of Rome",
-        "type": "event",
-        "slug": "siege-of-rome-537",
-        "label": "Besieged for a year in 537–538; the aqueducts were cut"
-      },
-      {
         "title": "Gothic War",
         "type": "event",
         "slug": "gothic-war",
         "label": "Ruined the ancient city"
+      },
+      {
+        "title": "Siege of Rome",
+        "type": "event",
+        "slug": "siege-of-rome-537",
+        "label": "Besieged for a year in 537–538; the aqueducts were cut"
       }
     ]
   },

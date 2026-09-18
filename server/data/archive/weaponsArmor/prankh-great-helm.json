@@ -127,22 +127,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Great Helm",
-        "type": "weaponArmor",
-        "slug": "great-helm",
-        "label": "The type it is the outstanding survival of"
-      },
-      {
-        "title": "Surcoat",
-        "type": "weaponArmor",
-        "slug": "surcoat",
-        "label": "Carried the same arms as the crest"
-      },
-      {
-        "title": "Heater Shield",
-        "type": "weaponArmor",
-        "slug": "heater-shield",
-        "label": "The third surface of the heraldic system"
+        "title": "Achievements of the Black Prince",
+        "slug": "black-prince-achievements",
+        "label": "The other surviving crest",
+        "type": "weaponArmor"
       },
       {
         "title": "Bascinet",
@@ -151,16 +139,22 @@
         "label": "The helmet displacing it in war by this date"
       },
       {
+        "title": "Great Helm",
+        "type": "weaponArmor",
+        "slug": "great-helm",
+        "label": "The type it is the outstanding survival of"
+      },
+      {
+        "title": "Heater Shield",
+        "type": "weaponArmor",
+        "slug": "heater-shield",
+        "label": "The third surface of the heraldic system"
+      },
+      {
         "title": "Mail Coif",
         "type": "weaponArmor",
         "slug": "mail-coif",
         "label": "Worn beneath a great helm"
-      },
-      {
-        "title": "Sutton Hoo Helmet",
-        "type": "weaponArmor",
-        "slug": "sutton-hoo-helmet",
-        "label": "Another helmet preserved by being taken out of use"
       },
       {
         "title": "Pembridge Helm",
@@ -169,10 +163,16 @@
         "type": "weaponArmor"
       },
       {
-        "title": "Achievements of the Black Prince",
-        "slug": "black-prince-achievements",
-        "label": "The other surviving crest",
-        "type": "weaponArmor"
+        "title": "Surcoat",
+        "type": "weaponArmor",
+        "slug": "surcoat",
+        "label": "Carried the same arms as the crest"
+      },
+      {
+        "title": "Sutton Hoo Helmet",
+        "type": "weaponArmor",
+        "slug": "sutton-hoo-helmet",
+        "label": "Another helmet preserved by being taken out of use"
       }
     ]
   },

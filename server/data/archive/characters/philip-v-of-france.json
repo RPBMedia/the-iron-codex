@@ -179,16 +179,16 @@
     ],
     "people": [
       {
-        "title": "Louis X of France",
-        "type": "person",
-        "slug": "louis-x-of-france",
-        "label": "His brother and predecessor"
-      },
-      {
         "title": "Charles IV of France",
         "type": "person",
         "slug": "charles-iv-of-france",
         "label": "His brother and successor"
+      },
+      {
+        "title": "Louis X of France",
+        "type": "person",
+        "slug": "louis-x-of-france",
+        "label": "His brother and predecessor"
       }
     ],
     "events": []

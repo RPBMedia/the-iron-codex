@@ -84,12 +84,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Harthacnut",
-        "type": "person",
-        "slug": "harthacnut",
-        "label": "Died here in 1042"
-      },
-      {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great",
@@ -106,9 +100,21 @@
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "His mother"
+      },
+      {
+        "title": "Harthacnut",
+        "type": "person",
+        "slug": "harthacnut",
+        "label": "Died here in 1042"
       }
     ],
     "locations": [
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "His other realm"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
@@ -126,12 +132,6 @@
         "type": "location",
         "slug": "winchester-cathedral",
         "label": "Where he was buried"
-      },
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "His other realm"
       }
     ]
   },

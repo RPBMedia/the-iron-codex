@@ -92,6 +92,12 @@
     ],
     "people": [
       {
+        "title": "Edward I of England",
+        "type": "person",
+        "slug": "edward-i-of-england",
+        "label": "Lodged at the castle in 1273"
+      },
+      {
         "title": "Frederick I Barbarossa",
         "type": "person",
         "slug": "frederick-i-barbarossa",
@@ -102,15 +108,15 @@
         "type": "person",
         "slug": "guido-da-landriano",
         "label": "Led the League forces"
-      },
-      {
-        "title": "Edward I of England",
-        "type": "person",
-        "slug": "edward-i-of-england",
-        "label": "Lodged at the castle in 1273"
       }
     ],
     "locations": [
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Barbarossa’s empire"
+      },
       {
         "title": "Lombard League",
         "type": "location",
@@ -122,12 +128,6 @@
         "type": "location",
         "slug": "lombardy",
         "label": "Region"
-      },
-      {
-        "title": "Holy Roman Empire",
-        "type": "location",
-        "slug": "holy-roman-empire",
-        "label": "Barbarossa’s empire"
       }
     ]
   },

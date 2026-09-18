@@ -94,16 +94,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "His victory two years before his death"
-      },
-      {
         "title": "Battle of Alarcos",
         "type": "event",
         "slug": "battle-of-alarcos",
         "label": "The defeat of 1195 that Las Navas reversed"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "His victory two years before his death"
       }
     ]
   },

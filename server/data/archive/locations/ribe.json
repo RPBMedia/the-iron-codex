@@ -91,12 +91,6 @@
         "label": "Died here in 1259 and was buried in the cathedral"
       },
       {
-        "title": "Valdemar II of Denmark",
-        "type": "person",
-        "slug": "valdemar-ii-of-denmark",
-        "label": "Resided at Riberhus with Queen Dagmar from 1205"
-      },
-      {
         "title": "Eric IV of Denmark",
         "type": "person",
         "slug": "eric-iv-of-denmark",
@@ -107,20 +101,26 @@
         "type": "person",
         "slug": "eric-v-of-denmark",
         "label": "Christopher’s son, who inherited the war with the church"
+      },
+      {
+        "title": "Valdemar II of Denmark",
+        "type": "person",
+        "slug": "valdemar-ii-of-denmark",
+        "label": "Resided at Riberhus with Queen Dagmar from 1205"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
       {
         "title": "Jelling",
         "type": "location",
         "slug": "jelling",
         "label": "The dynastic centre of the kings who converted the country"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       },
       {
         "title": "Roskilde",

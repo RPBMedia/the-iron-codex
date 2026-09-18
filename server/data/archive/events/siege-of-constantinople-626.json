@@ -273,12 +273,6 @@
     ],
     "locations": [
       {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople",
-        "label": "The city besieged"
-      },
-      {
         "title": "Avar Khaganate",
         "type": "location",
         "slug": "avar-khaganate",
@@ -289,6 +283,12 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "The empire that survived it"
+      },
+      {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople",
+        "label": "The city besieged"
       },
       {
         "title": "Sasanian Empire",

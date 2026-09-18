@@ -280,36 +280,36 @@
     ],
     "locations": [
       {
-        "title": "Ostrogothic Kingdom",
-        "type": "location",
-        "slug": "ostrogothic-kingdom",
-        "label": "The realm itself: its kings, campaigns and succession crisis"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Employer, overlord and finally destroyer"
       },
       {
-        "title": "Rome",
-        "type": "location",
-        "slug": "rome",
-        "label": "Senate and ceremonial capital, visited by Theoderic in 500"
-      },
-      {
         "title": "Constantinople",
         "type": "location",
         "slug": "constantinople",
         "label": "Where Theoderic spent a decade as a hostage"
+      },
+      {
+        "title": "Ostrogothic Kingdom",
+        "type": "location",
+        "slug": "ostrogothic-kingdom",
+        "label": "The realm itself: its kings, campaigns and succession crisis"
+      },
+      {
+        "title": "Rome",
+        "type": "location",
+        "slug": "rome",
+        "label": "Senate and ceremonial capital, visited by Theoderic in 500"
       }
     ],
     "events": [
       {
-        "title": "Gothic War",
+        "title": "Battle of Mons Lactarius",
         "type": "event",
-        "slug": "gothic-war",
-        "label": "The reconquest that ended them as a people"
+        "slug": "battle-of-mons-lactarius",
+        "label": "Where the last king fell and the survivors left on terms"
       },
       {
         "title": "Battle of Taginae",
@@ -318,36 +318,30 @@
         "label": "Where the Gothic field army was destroyed and Totila killed"
       },
       {
-        "title": "Battle of Mons Lactarius",
-        "type": "event",
-        "slug": "battle-of-mons-lactarius",
-        "label": "Where the last king fell and the survivors left on terms"
-      },
-      {
         "title": "Fall of the Western Roman Empire",
         "type": "event",
         "slug": "fall-of-western-rome",
         "label": "The deposition of 476 that left Italy to be ruled by its generals"
+      },
+      {
+        "title": "Gothic War",
+        "type": "event",
+        "slug": "gothic-war",
+        "label": "The reconquest that ended them as a people"
       }
     ],
     "people": [
-      {
-        "title": "Totila",
-        "type": "person",
-        "slug": "totila",
-        "label": "Fought the only intelligent Gothic campaign of the war"
-      },
-      {
-        "title": "Teias",
-        "type": "person",
-        "slug": "teias",
-        "label": "The last Gothic king in Italy"
-      },
       {
         "title": "Belisarius",
         "type": "person",
         "slug": "belisarius",
         "label": "Took Naples, Rome and Ravenna from them"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Whose reconquest destroyed the people it was fought over"
       },
       {
         "title": "Narses",
@@ -356,10 +350,16 @@
         "label": "Destroyed the Gothic army at Taginae"
       },
       {
-        "title": "Justinian I",
+        "title": "Teias",
         "type": "person",
-        "slug": "justinian-i",
-        "label": "Whose reconquest destroyed the people it was fought over"
+        "slug": "teias",
+        "label": "The last Gothic king in Italy"
+      },
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "Fought the only intelligent Gothic campaign of the war"
       }
     ]
   },

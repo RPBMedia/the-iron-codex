@@ -127,34 +127,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The type it is the outstanding early survival of"
-      },
-      {
-        "title": "Gothic Plate Armor",
-        "type": "weaponArmor",
-        "slug": "gothic-plate-armor",
-        "label": "The German tradition to read it against"
-      },
-      {
-        "title": "Breastplate",
-        "type": "weaponArmor",
-        "slug": "breastplate",
-        "label": "The Italian globose form it carries"
-      },
-      {
         "title": "Arm Harness",
         "type": "weaponArmor",
         "slug": "arm-harness",
         "label": "Its articulated arms, complete and in place"
-      },
-      {
-        "title": "Leg Harness",
-        "type": "weaponArmor",
-        "slug": "leg-harness",
-        "label": "Its leg defences, likewise"
       },
       {
         "title": "Armet",
@@ -163,10 +139,34 @@
         "label": "The Italian helmet of the same decades"
       },
       {
+        "title": "Breastplate",
+        "type": "weaponArmor",
+        "slug": "breastplate",
+        "label": "The Italian globose form it carries"
+      },
+      {
         "title": "Churburg Armoury",
         "slug": "churburg-armour",
         "label": "The comparable Italian group in South Tyrol",
         "type": "weaponArmor"
+      },
+      {
+        "title": "Gothic Plate Armor",
+        "type": "weaponArmor",
+        "slug": "gothic-plate-armor",
+        "label": "The German tradition to read it against"
+      },
+      {
+        "title": "Leg Harness",
+        "type": "weaponArmor",
+        "slug": "leg-harness",
+        "label": "Its leg defences, likewise"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The type it is the outstanding early survival of"
       }
     ]
   },

@@ -207,12 +207,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Rurik",
-        "type": "person",
-        "slug": "rurik",
-        "label": "Predecessor; Oleg governed as his successor"
-      },
-      {
         "title": "Igor of Kiev",
         "type": "person",
         "slug": "igor-of-kiev",
@@ -223,14 +217,20 @@
         "type": "person",
         "slug": "olga-of-kiev",
         "label": "Igor's wife; regent after Igor's death"
+      },
+      {
+        "title": "Rurik",
+        "type": "person",
+        "slug": "rurik",
+        "label": "Predecessor; Oleg governed as his successor"
       }
     ],
     "locations": [
       {
-        "title": "Novgorod",
+        "title": "Constantinople",
         "type": "location",
-        "slug": "novgorod",
-        "label": "Northern Rus' power base"
+        "slug": "constantinople",
+        "label": "Target of his 907 campaign and 911 treaty"
       },
       {
         "title": "Kievan Rus’",
@@ -239,10 +239,10 @@
         "label": "The polity he helped create"
       },
       {
-        "title": "Constantinople",
+        "title": "Novgorod",
         "type": "location",
-        "slug": "constantinople",
-        "label": "Target of his 907 campaign and 911 treaty"
+        "slug": "novgorod",
+        "label": "Northern Rus' power base"
       }
     ]
   },

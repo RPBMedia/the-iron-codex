@@ -174,24 +174,24 @@
     ],
     "people": [
       {
-        "title": "Peter of Castile",
-        "type": "person",
-        "slug": "peter-of-castile",
-        "label": "His half-brother, whom he killed to take the throne"
-      },
-      {
         "title": "John I of Castile",
         "type": "person",
         "slug": "john-i-of-castile",
         "label": "His son and successor"
+      },
+      {
+        "title": "Peter of Castile",
+        "type": "person",
+        "slug": "peter-of-castile",
+        "label": "His half-brother, whom he killed to take the throne"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
+        "title": "Battle of Montiel",
         "type": "event",
-        "slug": "hundred-years-war",
-        "label": "His French alliance tied Castile to it"
+        "slug": "battle-of-montiel",
+        "label": "Won here, and killed Peter in person, 1369"
       },
       {
         "title": "Battle of Nájera",
@@ -200,10 +200,10 @@
         "label": "His defeat, survived and reversed within two years"
       },
       {
-        "title": "Battle of Montiel",
+        "title": "Hundred Years' War",
         "type": "event",
-        "slug": "battle-of-montiel",
-        "label": "Won here, and killed Peter in person, 1369"
+        "slug": "hundred-years-war",
+        "label": "His French alliance tied Castile to it"
       }
     ]
   },

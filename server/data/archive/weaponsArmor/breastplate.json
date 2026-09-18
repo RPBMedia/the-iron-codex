@@ -136,10 +136,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Plate Armor",
+        "title": "Arquebus",
         "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The harness it is the centre of"
+        "slug": "arquebus",
+        "label": "The threat it was later proofed against"
       },
       {
         "title": "Coat of Plates",
@@ -148,16 +148,16 @@
         "label": "The many-plate defence it replaced"
       },
       {
-        "title": "Gothic Plate Armor",
-        "type": "weaponArmor",
-        "slug": "gothic-plate-armor",
-        "label": "The fluted German development"
-      },
-      {
         "title": "Gorget",
         "type": "weaponArmor",
         "slug": "gorget",
         "label": "Covers the seam above it"
+      },
+      {
+        "title": "Gothic Plate Armor",
+        "type": "weaponArmor",
+        "slug": "gothic-plate-armor",
+        "label": "The fluted German development"
       },
       {
         "title": "Lance",
@@ -166,10 +166,10 @@
         "label": "The lance rest is bolted to it"
       },
       {
-        "title": "Arquebus",
+        "title": "Plate Armor",
         "type": "weaponArmor",
-        "slug": "arquebus",
-        "label": "The threat it was later proofed against"
+        "slug": "plate-armor",
+        "label": "The harness it is the centre of"
       }
     ]
   },

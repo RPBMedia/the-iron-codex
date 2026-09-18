@@ -159,12 +159,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Totila",
-        "type": "person",
-        "slug": "totila",
-        "label": "The king he defeated and killed"
-      },
-      {
         "title": "Belisarius",
         "type": "person",
         "slug": "belisarius",
@@ -175,14 +169,20 @@
         "type": "person",
         "slug": "justinian-i",
         "label": "The emperor he served"
+      },
+      {
+        "title": "Totila",
+        "type": "person",
+        "slug": "totila",
+        "label": "The king he defeated and killed"
       }
     ],
     "events": [
       {
-        "title": "Gothic War",
+        "title": "Battle of Mons Lactarius",
         "type": "event",
-        "slug": "gothic-war",
-        "label": "The war he ended"
+        "slug": "battle-of-mons-lactarius",
+        "label": "Where the kingdom ended"
       },
       {
         "title": "Battle of Taginae",
@@ -191,10 +191,10 @@
         "label": "His decisive victory"
       },
       {
-        "title": "Battle of Mons Lactarius",
+        "title": "Gothic War",
         "type": "event",
-        "slug": "battle-of-mons-lactarius",
-        "label": "Where the kingdom ended"
+        "slug": "gothic-war",
+        "label": "The war he ended"
       }
     ],
     "locations": [

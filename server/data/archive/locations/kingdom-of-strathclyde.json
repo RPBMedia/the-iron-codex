@@ -183,30 +183,30 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Owain the Bald",
-        "type": "person",
-        "slug": "owain-of-strathclyde",
-        "label": "Its last recorded king"
-      },
-      {
         "title": "Malcolm II of Scotland",
         "type": "person",
         "slug": "malcolm-ii-of-scotland",
         "label": "Fought beside its king at Carham"
+      },
+      {
+        "title": "Owain the Bald",
+        "type": "person",
+        "slug": "owain-of-strathclyde",
+        "label": "Its last recorded king"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Carham",
-        "type": "event",
-        "slug": "battle-of-carham",
-        "label": "Its last king fought here in 1018"
-      },
       {
         "title": "Battle of Brunanburh",
         "type": "event",
         "slug": "battle-of-brunanburh",
         "label": "Its king was beaten here in 937"
+      },
+      {
+        "title": "Battle of Carham",
+        "type": "event",
+        "slug": "battle-of-carham",
+        "label": "Its last king fought here in 1018"
       }
     ],
     "locations": [
@@ -217,16 +217,16 @@
         "label": "The kingdom of Alba that absorbed it"
       },
       {
-        "title": "Northumbria",
-        "type": "location",
-        "slug": "northumbria",
-        "label": "Its neighbour and rival to the south-east"
-      },
-      {
         "title": "Kingdom of York",
         "type": "location",
         "slug": "kingdom-of-york",
         "label": "The Norse kingdom it allied with against Æthelstan"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Its neighbour and rival to the south-east"
       }
     ]
   },

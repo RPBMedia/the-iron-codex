@@ -24,16 +24,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Orhan",
-        "type": "person",
-        "slug": "orhan"
-      },
-      {
-        "title": "Murad I",
-        "type": "person",
-        "slug": "murad-i"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i"
@@ -43,6 +33,16 @@
         "type": "person",
         "slug": "mehmed-ii",
         "label": "The Conqueror"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i"
+      },
+      {
+        "title": "Orhan",
+        "type": "person",
+        "slug": "orhan"
       }
     ],
     "locations": [
@@ -53,19 +53,25 @@
         "label": "The inheritance taken at the walls"
       },
       {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks",
-        "label": "The Anatolian predecessor"
-      },
-      {
         "title": "Principality of Serbia",
         "type": "location",
         "slug": "principality-of-serbia",
         "label": "Kosovo's adversary and vassal"
+      },
+      {
+        "title": "Seljuk Turks",
+        "type": "location",
+        "slug": "seljuk-turks",
+        "label": "The Anatolian predecessor"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Ankara",
+        "type": "event",
+        "slug": "battle-of-ankara",
+        "label": "The 1402 collapse the empire survived"
+      },
       {
         "title": "Battle of Kosovo",
         "type": "event",
@@ -75,12 +81,6 @@
         "title": "Fall of Constantinople",
         "type": "event",
         "slug": "fall-of-constantinople"
-      },
-      {
-        "title": "Battle of Ankara",
-        "type": "event",
-        "slug": "battle-of-ankara",
-        "label": "The 1402 collapse the empire survived"
       }
     ]
   },

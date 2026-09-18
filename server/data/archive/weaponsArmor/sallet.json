@@ -90,26 +90,6 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Gothic Plate Armor",
-        "type": "weaponArmor",
-        "slug": "gothic-plate-armor"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
-        "title": "Bascinet",
-        "type": "weaponArmor",
-        "slug": "bascinet"
-      },
-      {
-        "title": "Kettle Hat / Kettle Helm",
-        "type": "weaponArmor",
-        "slug": "kettle-hat"
-      },
-      {
         "title": "Armet",
         "slug": "armet",
         "label": "The Italian answer to the same problem",
@@ -120,18 +100,38 @@
         "type": "weaponArmor",
         "slug": "barbute",
         "label": "The Italian open helmet it shades into"
+      },
+      {
+        "title": "Bascinet",
+        "type": "weaponArmor",
+        "slug": "bascinet"
+      },
+      {
+        "title": "Gothic Plate Armor",
+        "type": "weaponArmor",
+        "slug": "gothic-plate-armor"
+      },
+      {
+        "title": "Kettle Hat / Kettle Helm",
+        "type": "weaponArmor",
+        "slug": "kettle-hat"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
       }
     ],
     "events": [
       {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war"
-      },
-      {
         "title": "Battle of Agincourt",
         "type": "event",
         "slug": "battle-of-agincourt"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war"
       }
     ]
   },

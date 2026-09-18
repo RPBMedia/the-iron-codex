@@ -181,70 +181,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Michael Bourtzes",
-        "type": "person",
-        "slug": "michael-bourtzes",
-        "label": "Took its walls in 969"
-      },
-      {
-        "title": "Nikephoros II Phokas",
-        "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "Spent years working towards it, and forbade the assault that won it"
-      },
-      {
-        "title": "John I Tzimiskes",
-        "type": "person",
-        "slug": "john-i-tzimiskes",
-        "label": "Made Bourtzes its first doux"
-      },
-      {
-        "title": "Sayf al-Dawla",
-        "type": "person",
-        "slug": "sayf-al-dawla",
-        "label": "Held northern Syria before the Byzantine recovery"
-      },
-      {
-        "title": "Malik-Shah I",
-        "type": "person",
-        "slug": "malik-shah-i",
-        "label": "His governor Yaghi-Siyan held the city"
-      },
-      {
-        "title": "Bohemond I of Antioch",
-        "type": "person",
-        "slug": "bohemond-i-of-antioch",
-        "label": "Took the city in 1098 and founded the principality"
-      },
-      {
-        "title": "Tancred",
-        "type": "person",
-        "slug": "tancred-prince-of-galilee",
-        "label": "Governed it during Bohemond's captivity and absence"
-      },
-      {
-        "title": "Kerbogha",
-        "type": "person",
-        "slug": "kerbogha",
-        "label": "Besieged the crusaders inside it in 1098"
-      },
-      {
-        "title": "Stephen-Henry, Count of Blois",
-        "type": "person",
-        "slug": "stephen-henry-count-of-blois",
-        "label": "Deserted the siege on 2 June 1098"
-      },
-      {
         "title": "Adhemar of Le Puy",
         "type": "person",
         "slug": "adhemar-of-le-puy",
         "label": "Died in the city in 1098"
-      },
-      {
-        "title": "Raymond IV",
-        "type": "person",
-        "slug": "raymond-iv-of-toulouse",
-        "label": "Contested the city with Bohemond"
       },
       {
         "title": "Alexios I Komnenos",
@@ -259,34 +199,22 @@
         "label": "Regent after the Field of Blood"
       },
       {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "Stormed and destroyed it in 1268"
+      },
+      {
+        "title": "Bohemond I of Antioch",
+        "type": "person",
+        "slug": "bohemond-i-of-antioch",
+        "label": "Took the city in 1098 and founded the principality"
+      },
+      {
         "title": "Bohemond II",
         "type": "person",
         "slug": "bohemond-ii-of-antioch",
         "label": "Prince, 1126–1130"
-      },
-      {
-        "title": "John II Komnenos",
-        "type": "person",
-        "slug": "john-ii-komnenos",
-        "label": "Received homage before its walls in 1137"
-      },
-      {
-        "title": "Nur ad-Din",
-        "type": "person",
-        "slug": "nur-ad-din",
-        "label": "Killed one prince and captured another"
-      },
-      {
-        "title": "Reynald of Châtillon",
-        "type": "person",
-        "slug": "reynald-of-chatillon",
-        "label": "Prince by marriage, 1153–1160"
-      },
-      {
-        "title": "Manuel I Komnenos",
-        "type": "person",
-        "slug": "manuel-i-komnenos",
-        "label": "Entered the city in state in 1159"
       },
       {
         "title": "Frederick I Barbarossa",
@@ -295,24 +223,96 @@
         "label": "Part of his remains buried in its cathedral in 1190"
       },
       {
-        "title": "Baybars",
+        "title": "John I Tzimiskes",
         "type": "person",
-        "slug": "baybars",
-        "label": "Stormed and destroyed it in 1268"
+        "slug": "john-i-tzimiskes",
+        "label": "Made Bourtzes its first doux"
+      },
+      {
+        "title": "John II Komnenos",
+        "type": "person",
+        "slug": "john-ii-komnenos",
+        "label": "Received homage before its walls in 1137"
+      },
+      {
+        "title": "Kerbogha",
+        "type": "person",
+        "slug": "kerbogha",
+        "label": "Besieged the crusaders inside it in 1098"
+      },
+      {
+        "title": "Malik-Shah I",
+        "type": "person",
+        "slug": "malik-shah-i",
+        "label": "His governor Yaghi-Siyan held the city"
+      },
+      {
+        "title": "Manuel I Komnenos",
+        "type": "person",
+        "slug": "manuel-i-komnenos",
+        "label": "Entered the city in state in 1159"
+      },
+      {
+        "title": "Michael Bourtzes",
+        "type": "person",
+        "slug": "michael-bourtzes",
+        "label": "Took its walls in 969"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Spent years working towards it, and forbade the assault that won it"
+      },
+      {
+        "title": "Nur ad-Din",
+        "type": "person",
+        "slug": "nur-ad-din",
+        "label": "Killed one prince and captured another"
+      },
+      {
+        "title": "Raymond IV",
+        "type": "person",
+        "slug": "raymond-iv-of-toulouse",
+        "label": "Contested the city with Bohemond"
+      },
+      {
+        "title": "Reynald of Châtillon",
+        "type": "person",
+        "slug": "reynald-of-chatillon",
+        "label": "Prince by marriage, 1153–1160"
+      },
+      {
+        "title": "Sayf al-Dawla",
+        "type": "person",
+        "slug": "sayf-al-dawla",
+        "label": "Held northern Syria before the Byzantine recovery"
+      },
+      {
+        "title": "Stephen-Henry, Count of Blois",
+        "type": "person",
+        "slug": "stephen-henry-count-of-blois",
+        "label": "Deserted the siege on 2 June 1098"
+      },
+      {
+        "title": "Tancred",
+        "type": "person",
+        "slug": "tancred-prince-of-galilee",
+        "label": "Governed it during Bohemond's captivity and absence"
       }
     ],
     "events": [
-      {
-        "title": "Siege of Antioch (969)",
-        "type": "event",
-        "slug": "siege-of-antioch-969",
-        "label": "Its recovery after 331 years"
-      },
       {
         "title": "Byzantine conquest of Cilicia",
         "type": "event",
         "slug": "byzantine-conquest-of-cilicia",
         "label": "The campaign that opened the road to it"
+      },
+      {
+        "title": "Siege of Antioch (969)",
+        "type": "event",
+        "slug": "siege-of-antioch-969",
+        "label": "Its recovery after 331 years"
       }
     ],
     "locations": [
@@ -321,12 +321,6 @@
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Which held it from 969 to 1084"
-      },
-      {
-        "title": "Sasanian Empire",
-        "type": "location",
-        "slug": "sasanian-empire",
-        "label": "Whose king sacked it in 540"
       },
       {
         "title": "Crusader States",
@@ -341,10 +335,16 @@
         "label": "Ruled the region before 969"
       },
       {
-        "title": "Sultanate of Rum",
+        "title": "Mongol Empire",
         "type": "location",
-        "slug": "sultanate-of-rum",
-        "label": "Its ruler Suleiman took the city in 1084"
+        "slug": "mongol-empire",
+        "label": "Bohemond VI submitted to it in 1260"
+      },
+      {
+        "title": "Sasanian Empire",
+        "type": "location",
+        "slug": "sasanian-empire",
+        "label": "Whose king sacked it in 540"
       },
       {
         "title": "Seljuk Turks",
@@ -353,10 +353,10 @@
         "label": "Held it from 1086 to 1098"
       },
       {
-        "title": "Mongol Empire",
+        "title": "Sultanate of Rum",
         "type": "location",
-        "slug": "mongol-empire",
-        "label": "Bohemond VI submitted to it in 1260"
+        "slug": "sultanate-of-rum",
+        "label": "Its ruler Suleiman took the city in 1084"
       }
     ]
   },

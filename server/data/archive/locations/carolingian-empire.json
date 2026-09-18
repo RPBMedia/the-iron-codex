@@ -138,6 +138,12 @@
     ],
     "locations": [
       {
+        "title": "Avar Khaganate",
+        "type": "location",
+        "slug": "avar-khaganate",
+        "label": "Destroyed by Charlemagne's campaigns of 791–796"
+      },
+      {
         "title": "Frankish Kingdom",
         "type": "location",
         "slug": "frankish-kingdom",
@@ -154,12 +160,6 @@
         "type": "location",
         "slug": "kingdom-of-france",
         "label": "Verdun's western share"
-      },
-      {
-        "title": "Avar Khaganate",
-        "type": "location",
-        "slug": "avar-khaganate",
-        "label": "Destroyed by Charlemagne's campaigns of 791–796"
       }
     ],
     "events": [

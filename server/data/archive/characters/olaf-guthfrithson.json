@@ -177,12 +177,6 @@
     ],
     "locations": [
       {
-        "title": "Northumbria",
-        "type": "location",
-        "slug": "northumbria",
-        "label": "The kingdom he took at York in 939"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
@@ -193,6 +187,12 @@
         "type": "location",
         "slug": "kingdom-of-york",
         "label": "Restored it in 939"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The kingdom he took at York in 939"
       }
     ]
   },

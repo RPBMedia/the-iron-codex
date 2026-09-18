@@ -282,12 +282,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ferdinand III of Castile",
-        "type": "person",
-        "slug": "ferdinand-iii-of-castile",
-        "label": "His father and predecessor"
-      },
-      {
         "title": "Alfonso XI of Castile",
         "type": "person",
         "slug": "alfonso-xi-of-castile",
@@ -298,6 +292,12 @@
         "type": "person",
         "slug": "eleanor-of-castile",
         "label": "His half-sister, married to the future Edward I in 1254"
+      },
+      {
+        "title": "Ferdinand III of Castile",
+        "type": "person",
+        "slug": "ferdinand-iii-of-castile",
+        "label": "His father and predecessor"
       }
     ],
     "locations": [
@@ -314,16 +314,16 @@
         "label": "The joined crown he also ruled"
       },
       {
-        "title": "Toledo",
-        "type": "location",
-        "slug": "toledo",
-        "label": "Birthplace and home of his translators"
-      },
-      {
         "title": "Seville",
         "type": "location",
         "slug": "seville",
         "label": "His capital in the last years, and his burial place"
+      },
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "Birthplace and home of his translators"
       }
     ],
     "events": [

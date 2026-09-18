@@ -172,16 +172,16 @@
     ],
     "orders": [
       {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "The great order alongside it at Acre"
-      },
-      {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "The other Acre-based order"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "The great order alongside it at Acre"
       }
     ],
     "events": [

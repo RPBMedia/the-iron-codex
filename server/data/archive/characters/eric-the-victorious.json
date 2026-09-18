@@ -136,6 +136,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Rival realm of his Danish opponents"
+      },
+      {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
@@ -146,26 +152,20 @@
         "type": "location",
         "slug": "uppsala",
         "label": "Cult and assembly centre of his realm"
-      },
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Rival realm of his Danish opponents"
       }
     ],
     "people": [
-      {
-        "title": "Olof Skötkonung",
-        "type": "person",
-        "slug": "olof-skotkonung",
-        "label": "Ruler of Kingdom of Sweden"
-      },
       {
         "title": "Eric IX of Sweden",
         "type": "person",
         "slug": "eric-ix-of-sweden",
         "label": "Later Swedish royal saint"
+      },
+      {
+        "title": "Olof Skötkonung",
+        "type": "person",
+        "slug": "olof-skotkonung",
+        "label": "Ruler of Kingdom of Sweden"
       }
     ],
     "events": [

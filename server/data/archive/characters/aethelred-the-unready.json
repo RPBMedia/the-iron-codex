@@ -178,28 +178,28 @@
     ],
     "people": [
       {
-        "title": "Edward the Martyr",
-        "type": "person",
-        "slug": "edward-the-martyr",
-        "label": "His murdered half-brother and predecessor"
-      },
-      {
         "title": "Edmund Ironside",
         "type": "person",
         "slug": "edmund-ironside",
         "label": "His son and successor"
       },
       {
-        "title": "Sweyn Forkbeard",
+        "title": "Edward the Martyr",
         "type": "person",
-        "slug": "sweyn-forkbeard",
-        "label": "The Danish king who conquered England"
+        "slug": "edward-the-martyr",
+        "label": "His murdered half-brother and predecessor"
       },
       {
         "title": "Emma of Normandy",
         "type": "person",
         "slug": "emma-of-normandy",
         "label": "Second wife"
+      },
+      {
+        "title": "Sweyn Forkbeard",
+        "type": "person",
+        "slug": "sweyn-forkbeard",
+        "label": "The Danish king who conquered England"
       }
     ],
     "events": []

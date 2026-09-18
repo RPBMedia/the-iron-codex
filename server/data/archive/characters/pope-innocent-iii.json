@@ -128,12 +128,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Papacy",
-        "type": "location",
-        "slug": "papacy",
-        "label": "Realm"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire"
@@ -142,6 +136,12 @@
         "title": "Constantinople",
         "type": "location",
         "slug": "constantinople"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Realm"
       }
     ],
     "events": [

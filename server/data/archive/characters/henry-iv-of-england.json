@@ -155,16 +155,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Richard II of England",
+        "title": "Blanche of Lancaster",
         "type": "person",
-        "slug": "richard-ii-of-england",
-        "label": "Cousin, victim, and predecessor"
-      },
-      {
-        "title": "Henry V of England",
-        "type": "person",
-        "slug": "henry-v-of-england",
-        "label": "Son and successor"
+        "slug": "blanche-of-lancaster",
+        "label": "Mother"
       },
       {
         "title": "Edward III of England",
@@ -173,22 +167,28 @@
         "label": "Grandfather, source of the Lancastrian claim"
       },
       {
+        "title": "Henry V of England",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Son and successor"
+      },
+      {
         "title": "Mary de Bohun",
         "type": "person",
         "slug": "mary-de-bohun",
         "label": "First wife"
       },
       {
-        "title": "Blanche of Lancaster",
-        "type": "person",
-        "slug": "blanche-of-lancaster",
-        "label": "Mother"
-      },
-      {
         "title": "Philippa of Lancaster",
         "type": "person",
         "slug": "philippa-of-lancaster",
         "label": "Sister"
+      },
+      {
+        "title": "Richard II of England",
+        "type": "person",
+        "slug": "richard-ii-of-england",
+        "label": "Cousin, victim, and predecessor"
       }
     ],
     "locations": [
@@ -198,25 +198,19 @@
         "slug": "kingdom-of-england"
       },
       {
-        "title": "Westminster",
-        "type": "location",
-        "slug": "westminster",
-        "label": "Died here in 1413"
-      },
-      {
         "title": "Monmouth",
         "type": "location",
         "slug": "monmouth",
         "label": "Lancastrian castle where his eldest son was born"
+      },
+      {
+        "title": "Westminster",
+        "type": "location",
+        "slug": "westminster",
+        "label": "Died here in 1413"
       }
     ],
     "events": [
-      {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Dormant in his reign, renewed by his son"
-      },
       {
         "title": "Battle of Homildon Hill",
         "type": "event",
@@ -228,6 +222,12 @@
         "type": "event",
         "slug": "battle-of-shrewsbury",
         "label": "Killed Hotspur and saved his throne, 1403"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Dormant in his reign, renewed by his son"
       }
     ]
   },

@@ -160,22 +160,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Mace",
+        "title": "Bill / Billhook",
         "type": "weaponArmor",
-        "slug": "mace",
-        "label": "The rigid impact weapon it is contrasted with"
-      },
-      {
-        "title": "War Hammer",
-        "type": "weaponArmor",
-        "slug": "war-hammer",
-        "label": "What men-at-arms carried instead"
-      },
-      {
-        "title": "Hand Cannon",
-        "type": "weaponArmor",
-        "slug": "hand-cannon",
-        "label": "Its partner in the Hussite wagon forts"
+        "slug": "bill-billhook",
+        "label": "The other farm tool turned military weapon"
       },
       {
         "title": "Halberd",
@@ -184,16 +172,28 @@
         "label": "The other infantry polearm of the same armies"
       },
       {
+        "title": "Hand Cannon",
+        "type": "weaponArmor",
+        "slug": "hand-cannon",
+        "label": "Its partner in the Hussite wagon forts"
+      },
+      {
+        "title": "Mace",
+        "type": "weaponArmor",
+        "slug": "mace",
+        "label": "The rigid impact weapon it is contrasted with"
+      },
+      {
         "title": "Pike",
         "type": "weaponArmor",
         "slug": "pike",
         "label": "The infantry weapon that displaced it"
       },
       {
-        "title": "Bill / Billhook",
+        "title": "War Hammer",
         "type": "weaponArmor",
-        "slug": "bill-billhook",
-        "label": "The other farm tool turned military weapon"
+        "slug": "war-hammer",
+        "label": "What men-at-arms carried instead"
       }
     ]
   },

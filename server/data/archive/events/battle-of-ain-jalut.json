@@ -164,24 +164,24 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Qutuz",
-        "type": "person",
-        "slug": "qutuz",
-        "label": "Commander; murdered weeks after the victory"
-      },
-      {
         "title": "Baybars",
         "type": "person",
         "slug": "baybars",
         "label": "Commanded the vanguard, then took the throne"
+      },
+      {
+        "title": "Qutuz",
+        "type": "person",
+        "slug": "qutuz",
+        "label": "Commander; murdered weeks after the victory"
       }
     ],
     "locations": [
       {
-        "title": "Mongol Empire",
+        "title": "Crusader States",
         "type": "location",
-        "slug": "mongol-empire",
-        "label": "The defeated"
+        "slug": "crusader-states",
+        "label": "The Franks of Acre, who let the Mamluks pass"
       },
       {
         "title": "Damascus",
@@ -190,10 +190,10 @@
         "label": "Mongol in March 1260, Mamluk by September"
       },
       {
-        "title": "Crusader States",
+        "title": "Mongol Empire",
         "type": "location",
-        "slug": "crusader-states",
-        "label": "The Franks of Acre, who let the Mamluks pass"
+        "slug": "mongol-empire",
+        "label": "The defeated"
       }
     ],
     "events": [

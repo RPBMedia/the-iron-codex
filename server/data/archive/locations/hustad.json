@@ -78,6 +78,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Magnus Barefoot",
+        "type": "person",
+        "slug": "magnus-barefoot",
+        "label": "Their father, whose death in Ulster gave them the kingdom"
+      },
+      {
         "title": "Øystein I of Norway",
         "type": "person",
         "slug": "oystein-i-of-norway",
@@ -88,26 +94,20 @@
         "type": "person",
         "slug": "sigurd-of-norway",
         "label": "Co-king, left as sole ruler by the death here"
-      },
-      {
-        "title": "Magnus Barefoot",
-        "type": "person",
-        "slug": "magnus-barefoot",
-        "label": "Their father, whose death in Ulster gave them the kingdom"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Containing realm"
-      },
       {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Where Øystein built the royal hall and Munkeliv abbey"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
       },
       {
         "title": "Ulster",

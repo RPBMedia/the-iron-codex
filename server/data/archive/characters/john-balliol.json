@@ -149,38 +149,32 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "The eventual successor whose grandfather was his rival in the Great Cause"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Arbiter, overlord, and destroyer"
       },
       {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "Guardian who fought in King John's name"
-      },
-      {
         "title": "John Comyn",
         "type": "person",
         "slug": "john-comyn",
         "label": "Nephew and leader of his party after 1296"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "The eventual successor whose grandfather was his rival in the Great Cause"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Guardian who fought in King John's name"
       }
     ],
     "locations": [],
     "events": [
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "Ignited by his fall"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
@@ -198,6 +192,12 @@
         "type": "event",
         "slug": "battle-of-dupplin-moor",
         "label": "Where his son's claim was won back, in 1332"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "Ignited by his fall"
       }
     ]
   },

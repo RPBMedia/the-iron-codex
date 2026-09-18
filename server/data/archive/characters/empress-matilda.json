@@ -220,18 +220,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry I of England",
-        "type": "person",
-        "slug": "henry-i-of-england",
-        "label": "Her father, who named her heir"
-      },
-      {
-        "title": "Henry II of England",
-        "type": "person",
-        "slug": "henry-ii-of-england",
-        "label": "Her son, first Plantagenet king"
-      },
-      {
         "title": "Eleanor of Aquitaine",
         "type": "person",
         "slug": "eleanor-of-aquitaine",
@@ -242,6 +230,18 @@
         "type": "person",
         "slug": "geoffrey-of-anjou",
         "label": "Husband"
+      },
+      {
+        "title": "Henry I of England",
+        "type": "person",
+        "slug": "henry-i-of-england",
+        "label": "Her father, who named her heir"
+      },
+      {
+        "title": "Henry II of England",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "Her son, first Plantagenet king"
       },
       {
         "title": "Matilda of Boulogne",
@@ -258,6 +258,12 @@
     ],
     "locations": [
       {
+        "title": "Duchy of Normandy",
+        "type": "location",
+        "slug": "duchy-of-normandy",
+        "label": "Where she governed in later life"
+      },
+      {
         "title": "Holy Roman Empire",
         "type": "location",
         "slug": "holy-roman-empire",
@@ -268,12 +274,6 @@
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "The crown she claimed"
-      },
-      {
-        "title": "Duchy of Normandy",
-        "type": "location",
-        "slug": "duchy-of-normandy",
-        "label": "Where she governed in later life"
       },
       {
         "title": "Winchester",

@@ -127,6 +127,11 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem"
@@ -135,11 +140,6 @@
         "title": "Papacy",
         "type": "location",
         "slug": "papacy"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
       }
     ],
     "events": [

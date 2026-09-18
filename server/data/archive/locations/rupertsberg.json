@@ -102,10 +102,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Hildegard of Bingen",
+        "title": "Bernard of Clairvaux",
         "type": "person",
-        "slug": "hildegard-of-bingen",
-        "label": "Founded the convent and died here in 1179"
+        "slug": "bernard-of-clairvaux",
+        "label": "Endorsed her visions, which made the foundation possible"
       },
       {
         "title": "Frederick I Barbarossa",
@@ -114,24 +114,24 @@
         "label": "Granted the house imperial protection; she wrote to him bluntly"
       },
       {
-        "title": "Bernard of Clairvaux",
+        "title": "Hildegard of Bingen",
         "type": "person",
-        "slug": "bernard-of-clairvaux",
-        "label": "Endorsed her visions, which made the foundation possible"
+        "slug": "hildegard-of-bingen",
+        "label": "Founded the convent and died here in 1179"
       }
     ],
     "locations": [
-      {
-        "title": "Holy Roman Empire",
-        "type": "location",
-        "slug": "holy-roman-empire",
-        "label": "Containing realm"
-      },
       {
         "title": "Bermersheim vor der Hoehe",
         "type": "location",
         "slug": "bermersheim-vor-der-hoehe",
         "label": "Hildegard’s birthplace"
+      },
+      {
+        "title": "Holy Roman Empire",
+        "type": "location",
+        "slug": "holy-roman-empire",
+        "label": "Containing realm"
       }
     ]
   },

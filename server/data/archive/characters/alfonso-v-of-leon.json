@@ -204,16 +204,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of León",
-        "type": "location",
-        "slug": "kingdom-of-leon",
-        "label": "The realm he rebuilt and gave its first written law"
-      },
-      {
         "title": "Caliphate of Córdoba",
         "type": "location",
         "slug": "caliphate-of-cordoba",
         "label": "The power whose raids destroyed his capital and whose collapse freed his reign"
+      },
+      {
+        "title": "Kingdom of León",
+        "type": "location",
+        "slug": "kingdom-of-leon",
+        "label": "The realm he rebuilt and gave its first written law"
       },
       {
         "title": "Kingdom of Navarre",

@@ -269,16 +269,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "1212 — the order in the great victory"
-      },
-      {
         "title": "Battle of Alarcos",
         "type": "event",
         "slug": "battle-of-alarcos",
         "label": "1195 — the order in the great defeat"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "1212 — the order in the great victory"
       }
     ],
     "locations": [
@@ -297,16 +297,16 @@
     ],
     "orders": [
       {
-        "title": "Order of Calatrava",
-        "type": "order",
-        "slug": "order-of-calatrava",
-        "label": "The first Castilian order"
-      },
-      {
         "title": "Order of Alcántara",
         "type": "order",
         "slug": "order-of-alcantara",
         "label": "The Leonese frontier order"
+      },
+      {
+        "title": "Order of Calatrava",
+        "type": "order",
+        "slug": "order-of-calatrava",
+        "label": "The first Castilian order"
       }
     ]
   }

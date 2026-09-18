@@ -88,24 +88,6 @@
         "label": "The one-handed sword it grew from"
       },
       {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor",
-        "label": "The armour that shaped its late form"
-      },
-      {
-        "title": "Rondel Dagger",
-        "type": "weaponArmor",
-        "slug": "rondel-dagger",
-        "label": "The armoured-combat sidearm it paired with"
-      },
-      {
-        "title": "Poleaxe",
-        "type": "weaponArmor",
-        "slug": "poleaxe",
-        "label": "The knight's other foot weapon against plate"
-      },
-      {
         "title": "Bascinet",
         "type": "weaponArmor",
         "slug": "bascinet",
@@ -116,6 +98,24 @@
         "type": "weaponArmor",
         "slug": "gauntlet",
         "label": "Half-swording depends on wearing them"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor",
+        "label": "The armour that shaped its late form"
+      },
+      {
+        "title": "Poleaxe",
+        "type": "weaponArmor",
+        "slug": "poleaxe",
+        "label": "The knight's other foot weapon against plate"
+      },
+      {
+        "title": "Rondel Dagger",
+        "type": "weaponArmor",
+        "slug": "rondel-dagger",
+        "label": "The armoured-combat sidearm it paired with"
       },
       {
         "title": "William Wallace's Sword",
@@ -134,16 +134,16 @@
     ],
     "people": [
       {
-        "title": "Johannes Liechtenauer",
-        "type": "person",
-        "slug": "johannes-liechtenauer",
-        "label": "Founder of the German fencing tradition"
-      },
-      {
         "title": "Fiore dei Liberi",
         "type": "person",
         "slug": "fiore-dei-liberi",
         "label": "Author of the Italian Fior di Battaglia"
+      },
+      {
+        "title": "Johannes Liechtenauer",
+        "type": "person",
+        "slug": "johannes-liechtenauer",
+        "label": "Founder of the German fencing tradition"
       }
     ]
   },

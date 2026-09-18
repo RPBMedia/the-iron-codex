@@ -198,24 +198,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Romanos II",
-        "type": "person",
-        "slug": "romanos-ii",
-        "label": "First husband"
-      },
-      {
-        "title": "Nikephoros II Phokas",
-        "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "Second husband"
-      },
-      {
-        "title": "John I Tzimiskes",
-        "type": "person",
-        "slug": "john-i-tzimiskes",
-        "label": "Murdered her second husband with her help"
-      },
-      {
         "title": "Basil II",
         "type": "person",
         "slug": "basil-ii",
@@ -228,10 +210,28 @@
         "label": "Father-in-law"
       },
       {
+        "title": "John I Tzimiskes",
+        "type": "person",
+        "slug": "john-i-tzimiskes",
+        "label": "Murdered her second husband with her help"
+      },
+      {
         "title": "Michael Bourtzes",
         "type": "person",
         "slug": "michael-bourtzes",
         "label": "Fellow conspirator in 969"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Second husband"
+      },
+      {
+        "title": "Romanos II",
+        "type": "person",
+        "slug": "romanos-ii",
+        "label": "First husband"
       }
     ],
     "houses": [

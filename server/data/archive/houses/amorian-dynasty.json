@@ -238,16 +238,16 @@
     ],
     "locations": [
       {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "The realm it ruled for forty-seven years"
-      },
-      {
         "title": "Abbasid Caliphate",
         "type": "location",
         "slug": "abbasid-caliphate",
         "label": "Which sacked its home city in 838, and collapsed during its last reign"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The realm it ruled for forty-seven years"
       },
       {
         "title": "Emirate of Melitene",

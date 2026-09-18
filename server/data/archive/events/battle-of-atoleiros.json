@@ -114,10 +114,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Nuno Álvares Pereira",
+        "title": "John I of Castile",
         "type": "person",
-        "slug": "nuno-alvares-pereira",
-        "label": "The victor, in his first major battle"
+        "slug": "john-i-of-castile",
+        "label": "Whose expedition and claim were defeated"
       },
       {
         "title": "John I of Portugal",
@@ -126,24 +126,24 @@
         "label": "The Master of Aviz, whose cause the victory advanced"
       },
       {
-        "title": "John I of Castile",
+        "title": "Nuno Álvares Pereira",
         "type": "person",
-        "slug": "john-i-of-castile",
-        "label": "Whose expedition and claim were defeated"
+        "slug": "nuno-alvares-pereira",
+        "label": "The victor, in his first major battle"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The realm the Aviz party defended"
-      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The invading power"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "The realm the Aviz party defended"
       }
     ],
     "events": [

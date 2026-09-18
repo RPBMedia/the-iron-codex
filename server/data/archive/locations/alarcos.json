@@ -145,16 +145,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Castile",
-        "type": "location",
-        "slug": "kingdom-of-castile",
-        "label": "The frontier it guarded"
-      },
-      {
         "title": "Almohad Caliphate",
         "type": "location",
         "slug": "almohad-caliphate",
         "label": "Took the castle and the frontier towns after the battle"
+      },
+      {
+        "title": "Kingdom of Castile",
+        "type": "location",
+        "slug": "kingdom-of-castile",
+        "label": "The frontier it guarded"
       }
     ]
   },

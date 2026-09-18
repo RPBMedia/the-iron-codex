@@ -146,15 +146,15 @@
     ],
     "orders": [
       {
-        "title": "Teutonic Order",
-        "type": "order",
-        "slug": "teutonic-order"
-      },
-      {
         "title": "Knights Templar",
         "type": "order",
         "slug": "knights-templar",
         "label": "Last Grand Master"
+      },
+      {
+        "title": "Teutonic Order",
+        "type": "order",
+        "slug": "teutonic-order"
       }
     ]
   },

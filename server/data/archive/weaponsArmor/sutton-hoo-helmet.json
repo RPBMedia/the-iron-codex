@@ -101,14 +101,26 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Nasal Helmet",
-        "type": "weaponArmor",
-        "slug": "nasal-helmet"
+        "title": "Coppergate Helmet",
+        "slug": "coppergate-helmet",
+        "label": "The other great Anglo-Saxon helmet",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Gjermundbu Helmet",
+        "slug": "gjermundbu-helmet",
+        "label": "The Norse counterpart",
+        "type": "weaponArmor"
       },
       {
         "title": "Mail Armor",
         "type": "weaponArmor",
         "slug": "mail-armor"
+      },
+      {
+        "title": "Nasal Helmet",
+        "type": "weaponArmor",
+        "slug": "nasal-helmet"
       },
       {
         "title": "Shield",
@@ -119,18 +131,6 @@
         "title": "Spangenhelm",
         "slug": "spangenhelm",
         "label": "The segmented tradition it is often confused with",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Coppergate Helmet",
-        "slug": "coppergate-helmet",
-        "label": "The other great Anglo-Saxon helmet",
-        "type": "weaponArmor"
-      },
-      {
-        "title": "Gjermundbu Helmet",
-        "slug": "gjermundbu-helmet",
-        "label": "The Norse counterpart",
         "type": "weaponArmor"
       }
     ]

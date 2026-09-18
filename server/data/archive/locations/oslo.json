@@ -106,12 +106,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Sigurd the Crusader",
-        "type": "person",
-        "slug": "sigurd-of-norway",
-        "label": "Died here in 1130"
-      },
-      {
         "title": "Haakon V Magnusson",
         "type": "person",
         "slug": "haakon-v-magnusson",
@@ -124,10 +118,10 @@
         "label": "Died here in 1380"
       },
       {
-        "title": "Olaf IV of Norway",
+        "title": "Harald Hardrada",
         "type": "person",
-        "slug": "olaf-iv-of-norway",
-        "label": "Born at Akershus in 1370"
+        "slug": "harald-hardrada",
+        "label": "Credited by saga tradition with founding the town"
       },
       {
         "title": "Margaret I of Denmark",
@@ -136,19 +130,19 @@
         "label": "Governed Norway from the union after 1380"
       },
       {
-        "title": "Harald Hardrada",
+        "title": "Olaf IV of Norway",
         "type": "person",
-        "slug": "harald-hardrada",
-        "label": "Credited by saga tradition with founding the town"
+        "slug": "olaf-iv-of-norway",
+        "label": "Born at Akershus in 1370"
+      },
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway",
+        "label": "Died here in 1130"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Containing realm"
-      },
       {
         "title": "Bergen",
         "type": "location",
@@ -156,16 +150,22 @@
         "label": "The royal seat Oslo displaced"
       },
       {
-        "title": "Tonsberg",
-        "type": "location",
-        "slug": "tonsberg",
-        "label": "Where Haakon V died, though he was buried at Oslo"
-      },
-      {
         "title": "Kalmar Union",
         "type": "location",
         "slug": "kalmar-union",
         "label": "The union that moved the court away"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Tonsberg",
+        "type": "location",
+        "slug": "tonsberg",
+        "label": "Where Haakon V died, though he was buried at Oslo"
       }
     ]
   },

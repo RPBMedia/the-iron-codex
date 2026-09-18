@@ -142,12 +142,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Father"
-      },
-      {
         "title": "Edward III of England",
         "type": "person",
         "slug": "edward-iii-of-england",
@@ -164,22 +158,16 @@
         "type": "person",
         "slug": "marjorie-bruce",
         "label": "Half-sister"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Father"
       }
     ],
     "locations": [],
     "events": [
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war he inherited as a child"
-      },
-      {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton",
-        "label": "Sealed by his infant marriage"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
@@ -203,6 +191,18 @@
         "type": "event",
         "slug": "battle-of-nevilles-cross",
         "label": "Wounded and captured here, 1346"
+      },
+      {
+        "title": "Treaty of Edinburgh-Northampton",
+        "type": "event",
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "Sealed by his infant marriage"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war he inherited as a child"
       }
     ]
   },

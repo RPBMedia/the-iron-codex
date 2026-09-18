@@ -137,10 +137,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "Aymer de Valence, Earl of Pembroke",
         "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Commander"
+        "slug": "aymer-de-valence",
+        "label": "His victory: the camp attack that scattered Bruce's first army"
       },
       {
         "title": "Marjorie Bruce",
@@ -149,23 +149,23 @@
         "label": "Seized with the royal women after the defeat"
       },
       {
-        "title": "Aymer de Valence, Earl of Pembroke",
+        "title": "Robert the Bruce",
         "type": "person",
-        "slug": "aymer-de-valence",
-        "label": "His victory: the camp attack that scattered Bruce's first army"
+        "slug": "robert-the-bruce",
+        "label": "Commander"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
         "label": "Combatant faction"
       },
       {

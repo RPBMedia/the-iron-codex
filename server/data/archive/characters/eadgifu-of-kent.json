@@ -203,21 +203,15 @@
         "label": "Husband"
       },
       {
-        "title": "Edmund I of England",
         "type": "person",
-        "slug": "edmund-i-of-england",
-        "label": "Son"
+        "slug": "aethelstan",
+        "label": "Stepson"
       },
       {
         "title": "Eadred of England",
         "type": "person",
         "slug": "eadred-of-england",
         "label": "Son"
-      },
-      {
-        "type": "person",
-        "slug": "aethelstan",
-        "label": "Stepson"
       },
       {
         "title": "Eadwig of England",
@@ -230,6 +224,12 @@
         "type": "person",
         "slug": "edgar-the-peaceful",
         "label": "Grandson who restored some of her lands"
+      },
+      {
+        "title": "Edmund I of England",
+        "type": "person",
+        "slug": "edmund-i-of-england",
+        "label": "Son"
       }
     ],
     "houses": [

@@ -112,16 +112,16 @@
     ],
     "locations": [
       {
-        "title": "Granada",
-        "type": "location",
-        "slug": "granada",
-        "label": "Its capital"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it was the last of"
+      },
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "Its capital"
       }
     ]
   }

@@ -101,16 +101,15 @@
   "relatedEntries": {
     "people": [
       {
+        "type": "person",
+        "slug": "alfred-the-great",
+        "label": "Refounded the city in 886"
+      },
+      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Birthplace of Edward I of England"
-      },
-      {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "Death of William Wallace"
       },
       {
         "title": "John II of France",
@@ -119,9 +118,10 @@
         "label": "Death of John II of France"
       },
       {
+        "title": "Richard II of England",
         "type": "person",
-        "slug": "alfred-the-great",
-        "label": "Refounded the city in 886"
+        "slug": "richard-ii-of-england",
+        "label": "Faced the rebels of 1381"
       },
       {
         "title": "William the Conqueror",
@@ -130,10 +130,10 @@
         "label": "Crowned nearby; built the Tower"
       },
       {
-        "title": "Richard II of England",
+        "title": "William Wallace",
         "type": "person",
-        "slug": "richard-ii-of-england",
-        "label": "Faced the rebels of 1381"
+        "slug": "william-wallace",
+        "label": "Death of William Wallace"
       }
     ],
     "locations": [
@@ -144,16 +144,16 @@
         "label": "Containing realm"
       },
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Realm of William Wallace"
-      },
-      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
         "label": "Realm of John II of France"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Realm of William Wallace"
       },
       {
         "title": "Westminster",

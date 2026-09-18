@@ -428,6 +428,12 @@
     ],
     "people": [
       {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Ruled England, Denmark and Norway as a Christian king, not a raider"
+      },
+      {
         "title": "Harald Bluetooth",
         "type": "person",
         "slug": "harald-bluetooth",
@@ -440,28 +446,16 @@
         "label": "The unification of Norway credited to him by later tradition"
       },
       {
-        "title": "Olaf II Haraldsson",
-        "type": "person",
-        "slug": "olaf-ii-haraldsson",
-        "label": "Imposed Christianity, lost, and became Norway's patron saint within a year"
-      },
-      {
-        "title": "Cnut the Great",
-        "type": "person",
-        "slug": "cnut-the-great",
-        "label": "Ruled England, Denmark and Norway as a Christian king, not a raider"
-      },
-      {
         "title": "Harald Hardrada",
         "type": "person",
         "slug": "harald-hardrada",
         "label": "Varangian service in Byzantium, then the Norwegian throne"
       },
       {
-        "title": "Thyra",
+        "title": "Olaf II Haraldsson",
         "type": "person",
-        "slug": "thyra",
-        "label": "Named on both Jelling stones, and called Denmark's adornment"
+        "slug": "olaf-ii-haraldsson",
+        "label": "Imposed Christianity, lost, and became Norway's patron saint within a year"
       },
       {
         "title": "Olof Skötkonung",
@@ -474,6 +468,12 @@
         "type": "person",
         "slug": "ragnar-lothbrok",
         "label": "A figure of the later literary tradition rather than a documented ruler"
+      },
+      {
+        "title": "Thyra",
+        "type": "person",
+        "slug": "thyra",
+        "label": "Named on both Jelling stones, and called Denmark's adornment"
       }
     ],
     "events": [
@@ -504,6 +504,24 @@
     ],
     "locations": [
       {
+        "title": "Danelaw",
+        "type": "location",
+        "slug": "danelaw",
+        "label": "Dense Scandinavian rural settlement, readable in the place-names"
+      },
+      {
+        "title": "Jelling",
+        "type": "location",
+        "slug": "jelling",
+        "label": "The Danish royal monument complex of the tenth century"
+      },
+      {
+        "title": "Kievan Rus",
+        "type": "location",
+        "slug": "kievan-rus",
+        "label": "Where a Scandinavian elite was absorbed within three generations"
+      },
+      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
@@ -522,24 +540,6 @@
         "label": "Svear and Götar were ruled separately well into the eleventh century"
       },
       {
-        "title": "Danelaw",
-        "type": "location",
-        "slug": "danelaw",
-        "label": "Dense Scandinavian rural settlement, readable in the place-names"
-      },
-      {
-        "title": "Kievan Rus",
-        "type": "location",
-        "slug": "kievan-rus",
-        "label": "Where a Scandinavian elite was absorbed within three generations"
-      },
-      {
-        "title": "Jelling",
-        "type": "location",
-        "slug": "jelling",
-        "label": "The Danish royal monument complex of the tenth century"
-      },
-      {
         "title": "Ribe",
         "type": "location",
         "slug": "ribe",
@@ -548,16 +548,16 @@
     ],
     "houses": [
       {
-        "title": "Jarls of Lade",
-        "type": "house",
-        "slug": "jarls-of-lade",
-        "label": "Trøndelag's rulers, effectively independent of the Norwegian kings for generations"
-      },
-      {
         "title": "House of Uí Ímair",
         "type": "house",
         "slug": "house-of-ui-imair",
         "label": "The Norse-Gaelic dynasty ruling in Dublin, the Isles and York"
+      },
+      {
+        "title": "Jarls of Lade",
+        "type": "house",
+        "slug": "jarls-of-lade",
+        "label": "Trøndelag's rulers, effectively independent of the Norwegian kings for generations"
       }
     ],
     "artifacts": [
@@ -570,6 +570,12 @@
     ],
     "weaponsArmor": [
       {
+        "title": "Dane Axe",
+        "type": "weaponArmor",
+        "slug": "dane-axe",
+        "label": "The two-handed axe of eleventh-century housecarls"
+      },
+      {
         "title": "Gjermundbu Helmet",
         "type": "weaponArmor",
         "slug": "gjermundbu-helmet",
@@ -580,12 +586,6 @@
         "type": "weaponArmor",
         "slug": "viking-sword",
         "label": "Expensive, prestigious, and often a Frankish import"
-      },
-      {
-        "title": "Dane Axe",
-        "type": "weaponArmor",
-        "slug": "dane-axe",
-        "label": "The two-handed axe of eleventh-century housecarls"
       }
     ]
   },

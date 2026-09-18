@@ -139,16 +139,16 @@
     ],
     "events": [
       {
-        "title": "Vandalic War",
-        "type": "event",
-        "slug": "vandalic-war",
-        "label": "The campaign it belongs to"
-      },
-      {
         "title": "Battle of Tricamarum",
         "type": "event",
         "slug": "battle-of-tricamarum",
         "label": "The battle that followed"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign it belongs to"
       }
     ],
     "locations": [

@@ -194,6 +194,12 @@
     ],
     "locations": [
       {
+        "title": "Despotate of Epirus",
+        "type": "location",
+        "slug": "despotate-of-epirus",
+        "label": "Which withdrew before the fighting"
+      },
+      {
         "title": "Empire of Nicaea",
         "type": "location",
         "slug": "empire-of-nicaea",
@@ -204,12 +210,6 @@
         "type": "location",
         "slug": "principality-of-achaea",
         "label": "Whose prince was captured here"
-      },
-      {
-        "title": "Despotate of Epirus",
-        "type": "location",
-        "slug": "despotate-of-epirus",
-        "label": "Which withdrew before the fighting"
       }
     ]
   },

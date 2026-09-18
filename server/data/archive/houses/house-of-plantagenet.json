@@ -421,34 +421,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry II",
-        "type": "person",
-        "slug": "henry-ii-of-england",
-        "label": "Founder of the dynasty"
-      },
-      {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Crusader king"
-      },
-      {
-        "title": "John",
-        "type": "person",
-        "slug": "john-of-england",
-        "label": "Lost Normandy; sealed Magna Carta"
-      },
-      {
         "title": "Edward III",
         "type": "person",
         "slug": "edward-iii-of-england",
         "label": "Opened the Hundred Years’ War"
-      },
-      {
-        "title": "Henry V",
-        "type": "person",
-        "slug": "henry-v-of-england",
-        "label": "Victor of Agincourt"
       },
       {
         "title": "Eleanor of Aquitaine",
@@ -461,14 +437,38 @@
         "type": "person",
         "slug": "geoffrey-of-anjou",
         "label": "Father of Henry II; his nickname named the house"
+      },
+      {
+        "title": "Henry II",
+        "type": "person",
+        "slug": "henry-ii-of-england",
+        "label": "Founder of the dynasty"
+      },
+      {
+        "title": "Henry V",
+        "type": "person",
+        "slug": "henry-v-of-england",
+        "label": "Victor of Agincourt"
+      },
+      {
+        "title": "John",
+        "type": "person",
+        "slug": "john-of-england",
+        "label": "Lost Normandy; sealed Magna Carta"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Crusader king"
       }
     ],
     "events": [
       {
-        "title": "Magna Carta",
+        "title": "Battle of Agincourt",
         "type": "event",
-        "slug": "magna-carta",
-        "label": "Sealed under King John, 1215"
+        "slug": "battle-of-agincourt",
+        "label": "Henry V’s victory"
       },
       {
         "title": "Battle of Bouvines",
@@ -483,25 +483,19 @@
         "label": "Edward III’s great victory"
       },
       {
-        "title": "Battle of Agincourt",
-        "type": "event",
-        "slug": "battle-of-agincourt",
-        "label": "Henry V’s victory"
-      },
-      {
         "title": "Hundred Years' War",
         "type": "event",
         "slug": "hundred-years-war",
         "label": "Defining Plantagenet conflict"
+      },
+      {
+        "title": "Magna Carta",
+        "type": "event",
+        "slug": "magna-carta",
+        "label": "Sealed under King John, 1215"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Primary realm"
-      },
       {
         "title": "Aquitaine",
         "type": "location",
@@ -513,6 +507,12 @@
         "type": "location",
         "slug": "duchy-of-normandy",
         "label": "Continental heartland, lost in 1204"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Primary realm"
       }
     ]
   },

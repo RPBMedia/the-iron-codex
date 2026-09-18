@@ -86,30 +86,30 @@
     ],
     "people": [
       {
-        "title": "Sverker II of Sweden",
-        "type": "person",
-        "slug": "sverker-ii-of-sweden",
-        "label": "Killed here in 1210"
-      },
-      {
         "title": "Erik Knutsson",
         "type": "person",
         "slug": "erik-knutsson",
         "label": "Won here and was crowned four months later"
+      },
+      {
+        "title": "Sverker II of Sweden",
+        "type": "person",
+        "slug": "sverker-ii-of-sweden",
+        "label": "Killed here in 1210"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "Containing realm"
-      },
       {
         "title": "Alvastra",
         "type": "location",
         "slug": "alvastra",
         "label": "The abbey where Sverker II was buried"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Containing realm"
       },
       {
         "title": "Uppsala",
@@ -120,16 +120,16 @@
     ],
     "houses": [
       {
-        "title": "House of Sverker",
-        "type": "house",
-        "slug": "house-of-sverker",
-        "label": "The dynasty whose claim ended here"
-      },
-      {
         "title": "House of Erik",
         "type": "house",
         "slug": "house-of-erik",
         "label": "The rival line that won the day"
+      },
+      {
+        "title": "House of Sverker",
+        "type": "house",
+        "slug": "house-of-sverker",
+        "label": "The dynasty whose claim ended here"
       }
     ]
   },

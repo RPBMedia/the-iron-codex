@@ -136,29 +136,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Realm"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "Sigurd the Crusader",
-        "type": "person",
-        "slug": "sigurd-of-norway",
-        "label": "Ruler of Kingdom of Norway"
-      },
-      {
         "title": "Haakon IV Haakonsson",
         "type": "person",
         "slug": "haakon-iv-haakonsson",
+        "label": "Ruler of Kingdom of Norway"
+      },
+      {
+        "title": "Sigurd the Crusader",
+        "type": "person",
+        "slug": "sigurd-of-norway",
         "label": "Ruler of Kingdom of Norway"
       }
     ],

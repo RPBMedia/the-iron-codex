@@ -268,18 +268,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Osman I",
-        "type": "person",
-        "slug": "osman-i",
-        "label": "Founder"
-      },
-      {
-        "title": "Murad I",
-        "type": "person",
-        "slug": "murad-i",
-        "label": "Conqueror of the Balkans"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i",
@@ -290,14 +278,26 @@
         "type": "person",
         "slug": "mehmed-ii",
         "label": "Took Constantinople"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i",
+        "label": "Conqueror of the Balkans"
+      },
+      {
+        "title": "Osman I",
+        "type": "person",
+        "slug": "osman-i",
+        "label": "Founder"
       }
     ],
     "events": [
       {
-        "title": "Fall of Constantinople",
+        "title": "Battle of Ankara",
         "type": "event",
-        "slug": "fall-of-constantinople",
-        "label": "The dynasty’s defining conquest, 1453"
+        "slug": "battle-of-ankara",
+        "label": "Where the dynasty lost its sultan and its army"
       },
       {
         "title": "Battle of Kosovo",
@@ -312,18 +312,18 @@
         "label": "Secured Ottoman Europe, 1444"
       },
       {
-        "title": "Battle of Ankara",
+        "title": "Fall of Constantinople",
         "type": "event",
-        "slug": "battle-of-ankara",
-        "label": "Where the dynasty lost its sultan and its army"
+        "slug": "fall-of-constantinople",
+        "label": "The dynasty’s defining conquest, 1453"
       }
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
+        "title": "Bursa",
         "type": "location",
-        "slug": "ottoman-empire",
-        "label": "The state they built"
+        "slug": "bursa",
+        "label": "First capital and dynastic burial city"
       },
       {
         "title": "Edirne",
@@ -332,10 +332,10 @@
         "label": "Capital before 1453"
       },
       {
-        "title": "Bursa",
+        "title": "Ottoman Empire",
         "type": "location",
-        "slug": "bursa",
-        "label": "First capital and dynastic burial city"
+        "slug": "ottoman-empire",
+        "label": "The state they built"
       }
     ]
   },

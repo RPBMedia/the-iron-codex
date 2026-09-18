@@ -182,16 +182,16 @@
     ],
     "houses": [
       {
-        "title": "House of Valois",
-        "type": "house",
-        "slug": "house-of-valois",
-        "label": "Royal house of her birth"
-      },
-      {
         "title": "House of Lancaster",
         "type": "house",
         "slug": "house-of-lancaster",
         "label": "Royal house by marriage"
+      },
+      {
+        "title": "House of Valois",
+        "type": "house",
+        "slug": "house-of-valois",
+        "label": "Royal house of her birth"
       }
     ],
     "events": [

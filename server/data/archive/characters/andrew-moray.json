@@ -160,19 +160,25 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "His fellow commander at Stirling Bridge"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "The king whose occupation he broke in the north"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "His fellow commander at Stirling Bridge"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Dunbar",
+        "type": "event",
+        "slug": "battle-of-dunbar",
+        "label": "Captured here in 1296"
+      },
       {
         "title": "Battle of Stirling Bridge",
         "type": "event",
@@ -184,12 +190,6 @@
         "type": "event",
         "slug": "wars-of-scottish-independence",
         "label": "The war his rising opened in the north"
-      },
-      {
-        "title": "Battle of Dunbar",
-        "type": "event",
-        "slug": "battle-of-dunbar",
-        "label": "Captured here in 1296"
       }
     ],
     "locations": [

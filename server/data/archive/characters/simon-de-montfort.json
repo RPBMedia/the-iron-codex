@@ -296,12 +296,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Henry III of England",
-        "type": "person",
-        "slug": "henry-iii-of-england",
-        "label": "The king he constrained, defeated and held"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
@@ -314,6 +308,12 @@
         "label": "Raised ships and mercenaries in France against him"
       },
       {
+        "title": "Henry III of England",
+        "type": "person",
+        "slug": "henry-iii-of-england",
+        "label": "The king he constrained, defeated and held"
+      },
+      {
         "title": "Louis IX of France",
         "type": "person",
         "slug": "louis-ix-of-france",
@@ -322,16 +322,16 @@
     ],
     "events": [
       {
-        "title": "Battle of Lewes",
-        "type": "event",
-        "slug": "battle-of-lewes",
-        "label": "His victory, and the capture of the king"
-      },
-      {
         "title": "Battle of Evesham (1265)",
         "type": "event",
         "slug": "battle-of-evesham",
         "label": "Killed and dismembered here"
+      },
+      {
+        "title": "Battle of Lewes",
+        "type": "event",
+        "slug": "battle-of-lewes",
+        "label": "His victory, and the capture of the king"
       },
       {
         "title": "Magna Carta",
@@ -341,6 +341,12 @@
       }
     ],
     "locations": [
+      {
+        "title": "Gascony",
+        "type": "location",
+        "slug": "gascony",
+        "label": "Governed as the king's lieutenant, 1248-1252"
+      },
       {
         "title": "Kingdom of England",
         "type": "location",
@@ -358,12 +364,6 @@
         "type": "location",
         "slug": "westminster",
         "label": "Where his parliament sat in 1265"
-      },
-      {
-        "title": "Gascony",
-        "type": "location",
-        "slug": "gascony",
-        "label": "Governed as the king's lieutenant, 1248-1252"
       }
     ]
   },

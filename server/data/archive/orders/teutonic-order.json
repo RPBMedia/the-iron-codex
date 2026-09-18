@@ -475,28 +475,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Hermann von Salza",
+        "title": "Alexander Nevsky",
         "type": "person",
-        "slug": "hermann-von-salza",
-        "label": "Diplomat-founder of the Baltic order"
-      },
-      {
-        "title": "Ulrich von Jungingen",
-        "type": "person",
-        "slug": "ulrich-von-jungingen",
-        "label": "Grand Master killed at Grunwald"
-      },
-      {
-        "title": "Władysław II Jagiełło",
-        "type": "person",
-        "slug": "wladyslaw-ii-jagiello",
-        "label": "Grunwald’s victor"
-      },
-      {
-        "title": "Vytautas",
-        "type": "person",
-        "slug": "vytautas",
-        "label": "The co-commander at Grunwald"
+        "slug": "alexander-nevsky",
+        "label": "Defeated its Livonian branch on Lake Peipus in 1242"
       },
       {
         "title": "Frederick II",
@@ -505,33 +487,57 @@
         "label": "Imperial patron of the Golden Bull of Rimini"
       },
       {
+        "title": "Hermann von Salza",
+        "type": "person",
+        "slug": "hermann-von-salza",
+        "label": "Diplomat-founder of the Baltic order"
+      },
+      {
         "title": "Pope Gregory IX",
         "type": "person",
         "slug": "pope-gregory-ix",
         "label": "Who authorised the order's crusade in Prussia"
       },
       {
-        "title": "Alexander Nevsky",
+        "title": "Ulrich von Jungingen",
         "type": "person",
-        "slug": "alexander-nevsky",
-        "label": "Defeated its Livonian branch on Lake Peipus in 1242"
+        "slug": "ulrich-von-jungingen",
+        "label": "Grand Master killed at Grunwald"
+      },
+      {
+        "title": "Vytautas",
+        "type": "person",
+        "slug": "vytautas",
+        "label": "The co-commander at Grunwald"
+      },
+      {
+        "title": "Władysław II Jagiełło",
+        "type": "person",
+        "slug": "wladyslaw-ii-jagiello",
+        "label": "Grunwald’s victor"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Poland",
-        "type": "location",
-        "slug": "kingdom-of-poland",
-        "label": "The adversary and final overlord"
-      },
       {
         "title": "Grand Duchy of Lithuania",
         "type": "location",
         "slug": "grand-duchy-of-lithuania",
         "label": "The object of the crusade"
+      },
+      {
+        "title": "Kingdom of Poland",
+        "type": "location",
+        "slug": "kingdom-of-poland",
+        "label": "The adversary and final overlord"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Durbe",
+        "type": "event",
+        "slug": "battle-of-durbe",
+        "label": "The defeat that touched off the Prussian rising"
+      },
       {
         "title": "Battle of Grunwald",
         "type": "event",
@@ -549,21 +555,9 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "Founded here as a field hospital in 1190"
-      },
-      {
-        "title": "Battle of Durbe",
-        "type": "event",
-        "slug": "battle-of-durbe",
-        "label": "The defeat that touched off the Prussian rising"
       }
     ],
     "orders": [
-      {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "The senior international order"
-      },
       {
         "title": "Knights Hospitaller",
         "type": "order",
@@ -571,16 +565,22 @@
         "label": "Sister order of St John"
       },
       {
-        "title": "Livonian Order",
+        "title": "Knights Templar",
         "type": "order",
-        "slug": "livonian-order",
-        "label": "Its autonomous Livonian branch"
+        "slug": "knights-templar",
+        "label": "The senior international order"
       },
       {
         "title": "Livonian Brothers of the Sword",
         "type": "order",
         "slug": "livonian-brothers-of-the-sword",
         "label": "Merged into it in 1237"
+      },
+      {
+        "title": "Livonian Order",
+        "type": "order",
+        "slug": "livonian-order",
+        "label": "Its autonomous Livonian branch"
       },
       {
         "title": "Order of Dobrzyń",

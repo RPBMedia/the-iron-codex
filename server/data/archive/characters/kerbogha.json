@@ -127,14 +127,15 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Failed to recover it in 1098"
+      },
+      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate"
-      },
-      {
-        "title": "Seljuk Turks",
-        "type": "location",
-        "slug": "seljuk-turks"
       },
       {
         "title": "Kingdom of Jerusalem",
@@ -142,10 +143,9 @@
         "slug": "kingdom-of-jerusalem"
       },
       {
-        "title": "Antioch",
+        "title": "Seljuk Turks",
         "type": "location",
-        "slug": "antioch",
-        "label": "Failed to recover it in 1098"
+        "slug": "seljuk-turks"
       }
     ],
     "events": [

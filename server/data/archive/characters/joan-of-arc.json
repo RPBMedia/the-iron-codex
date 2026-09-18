@@ -219,16 +219,16 @@
         "label": "Realm"
       },
       {
-        "title": "Rouen",
-        "type": "location",
-        "slug": "rouen",
-        "label": "Place of death"
-      },
-      {
         "title": "Poitiers",
         "type": "location",
         "slug": "poitiers",
         "label": "Examined here, 1429"
+      },
+      {
+        "title": "Rouen",
+        "type": "location",
+        "slug": "rouen",
+        "label": "Place of death"
       },
       {
         "title": "Tours",
@@ -253,12 +253,6 @@
     ],
     "events": [
       {
-        "title": "Siege of Orléans",
-        "type": "event",
-        "slug": "siege-of-orleans",
-        "label": "Commander at the siege"
-      },
-      {
         "title": "Battle of Patay",
         "type": "event",
         "slug": "battle-of-patay",
@@ -269,6 +263,12 @@
         "type": "event",
         "slug": "hundred-years-war",
         "label": "The war her campaign turned"
+      },
+      {
+        "title": "Siege of Orléans",
+        "type": "event",
+        "slug": "siege-of-orleans",
+        "label": "Commander at the siege"
       }
     ]
   }

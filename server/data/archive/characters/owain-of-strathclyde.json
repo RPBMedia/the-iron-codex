@@ -198,39 +198,33 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Carham",
-        "type": "event",
-        "slug": "battle-of-carham",
-        "label": "The one event of his life that is recorded"
-      },
-      {
         "title": "Battle of Brunanburh",
         "type": "event",
         "slug": "battle-of-brunanburh",
         "label": "An earlier king of Strathclyde, not this one, fought here in 937"
+      },
+      {
+        "title": "Battle of Carham",
+        "type": "event",
+        "slug": "battle-of-carham",
+        "label": "The one event of his life that is recorded"
       }
     ],
     "people": [
-      {
-        "title": "Malcolm II of Scotland",
-        "type": "person",
-        "slug": "malcolm-ii-of-scotland",
-        "label": "Fought beside him at Carham, and probably absorbed his kingdom"
-      },
       {
         "title": "Cnut the Great",
         "type": "person",
         "slug": "cnut-the-great",
         "label": "King of England in 1018, who did not intervene in the north"
+      },
+      {
+        "title": "Malcolm II of Scotland",
+        "type": "person",
+        "slug": "malcolm-ii-of-scotland",
+        "label": "Fought beside him at Carham, and probably absorbed his kingdom"
       }
     ],
     "locations": [
-      {
-        "title": "Northumbria",
-        "type": "location",
-        "slug": "northumbria",
-        "label": "The earldom whose levy he helped destroy"
-      },
       {
         "title": "Kingdom of Scotland",
         "type": "location",
@@ -242,6 +236,12 @@
         "type": "location",
         "slug": "kingdom-of-strathclyde",
         "label": "His realm, the kingdom of the Clyde Britons"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "The earldom whose levy he helped destroy"
       }
     ]
   },

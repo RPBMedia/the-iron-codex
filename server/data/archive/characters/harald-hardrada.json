@@ -279,12 +279,6 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Stamford Bridge",
-        "type": "event",
-        "slug": "battle-of-stamford-bridge",
-        "label": "Died in this engagement"
-      },
-      {
         "title": "Battle of Fulford",
         "type": "event",
         "slug": "battle-of-fulford",
@@ -296,12 +290,23 @@
         "slug": "battle-of-hastings"
       },
       {
+        "title": "Battle of Stamford Bridge",
+        "type": "event",
+        "slug": "battle-of-stamford-bridge",
+        "label": "Died in this engagement"
+      },
+      {
         "title": "Battle of Stiklestad",
         "type": "event",
         "slug": "battle-of-stiklestad"
       }
     ],
     "locations": [
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england"
+      },
       {
         "title": "Kingdom of Norway",
         "type": "location",
@@ -313,11 +318,6 @@
         "type": "location",
         "slug": "stamford-bridge",
         "label": "Place of death"
-      },
-      {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england"
       }
     ],
     "people": [

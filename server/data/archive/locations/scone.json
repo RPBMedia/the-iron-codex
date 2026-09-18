@@ -98,16 +98,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
+        "title": "Edward Balliol",
         "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Crowned here on 25 March 1306"
-      },
-      {
-        "title": "John Balliol",
-        "type": "person",
-        "slug": "john-balliol",
-        "label": "Made king here in 1292"
+        "slug": "edward-balliol",
+        "label": "Crowned here in September 1332"
       },
       {
         "title": "Edward I of England",
@@ -116,19 +110,19 @@
         "label": "Removed the Stone of Scone in 1296"
       },
       {
-        "title": "Edward Balliol",
+        "title": "John Balliol",
         "type": "person",
-        "slug": "edward-balliol",
-        "label": "Crowned here in September 1332"
+        "slug": "john-balliol",
+        "label": "Made king here in 1292"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Crowned here on 25 March 1306"
       }
     ],
     "events": [
-      {
-        "title": "Wars of Scottish Independence",
-        "type": "event",
-        "slug": "wars-of-scottish-independence",
-        "label": "The war in which the site became a prize"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
@@ -140,6 +134,12 @@
         "type": "event",
         "slug": "battle-of-dupplin-moor",
         "label": "The victory that brought Edward Balliol here to be crowned"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence",
+        "label": "The war in which the site became a prize"
       }
     ],
     "locations": [

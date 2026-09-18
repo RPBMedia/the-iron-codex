@@ -227,16 +227,16 @@
     ],
     "people": [
       {
-        "title": "El Cid",
-        "type": "person",
-        "slug": "el-cid",
-        "label": "Conquered and ruled the city"
-      },
-      {
         "title": "Alfonso VI of León and Castile",
         "type": "person",
         "slug": "alfonso-vi-of-leon-and-castile",
         "label": "Evacuated and burned the city in 1102"
+      },
+      {
+        "title": "El Cid",
+        "type": "person",
+        "slug": "el-cid",
+        "label": "Conquered and ruled the city"
       },
       {
         "title": "Yusuf ibn Tashfin",
@@ -267,16 +267,16 @@
     ],
     "houses": [
       {
-        "title": "Almoravid dynasty",
-        "type": "house",
-        "slug": "almoravid-dynasty",
-        "label": "Ruled the city, 1102–1145"
-      },
-      {
         "title": "Almohad dynasty",
         "type": "house",
         "slug": "almohad-dynasty",
         "label": "Ruled the city, 1172–1229"
+      },
+      {
+        "title": "Almoravid dynasty",
+        "type": "house",
+        "slug": "almoravid-dynasty",
+        "label": "Ruled the city, 1102–1145"
       }
     ]
   },

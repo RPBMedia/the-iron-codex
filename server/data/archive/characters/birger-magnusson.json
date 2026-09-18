@@ -137,29 +137,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "Realm"
-      },
-      {
         "title": "Kingdom of Denmark",
         "type": "location",
         "slug": "kingdom-of-denmark",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "Valdemar of Sweden",
-        "type": "person",
-        "slug": "valdemar-of-sweden",
-        "label": "Ruler of Kingdom of Sweden"
-      },
-      {
         "title": "Albert of Mecklenburg",
         "type": "person",
         "slug": "albert-of-mecklenburg",
+        "label": "Ruler of Kingdom of Sweden"
+      },
+      {
+        "title": "Valdemar of Sweden",
+        "type": "person",
+        "slug": "valdemar-of-sweden",
         "label": "Ruler of Kingdom of Sweden"
       }
     ]

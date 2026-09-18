@@ -99,9 +99,9 @@
         "slug": "rondel-dagger"
       },
       {
-        "title": "Shield",
+        "title": "Falchion",
         "type": "weaponArmor",
-        "slug": "shield"
+        "slug": "falchion"
       },
       {
         "title": "Longsword",
@@ -109,15 +109,15 @@
         "slug": "longsword"
       },
       {
-        "title": "Falchion",
-        "type": "weaponArmor",
-        "slug": "falchion"
-      },
-      {
         "title": "Round Shield",
         "type": "weaponArmor",
         "slug": "round-shield",
         "label": "The small centre-grip shield descended from it"
+      },
+      {
+        "title": "Shield",
+        "type": "weaponArmor",
+        "slug": "shield"
       }
     ]
   },

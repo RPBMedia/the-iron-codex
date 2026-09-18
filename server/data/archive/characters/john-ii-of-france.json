@@ -136,6 +136,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Resumed its keep"
+      },
+      {
         "title": "Kingdom of France",
         "type": "location",
         "slug": "kingdom-of-france",
@@ -152,39 +158,33 @@
         "type": "location",
         "slug": "poitiers",
         "label": "Captured near the city, 1356"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Resumed its keep"
       }
     ],
     "events": [
-      {
-        "title": "Hundred Years' War",
-        "type": "event",
-        "slug": "hundred-years-war",
-        "label": "Fought in this engagement"
-      },
       {
         "title": "Battle of Poitiers",
         "type": "event",
         "slug": "battle-of-poitiers",
         "label": "Fought in this engagement"
+      },
+      {
+        "title": "Hundred Years' War",
+        "type": "event",
+        "slug": "hundred-years-war",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [
       {
-        "title": "Philip VI of France",
-        "type": "person",
-        "slug": "philip-vi-of-france",
-        "label": "Ruler of Kingdom of France"
-      },
-      {
         "title": "Charles d'Albret",
         "type": "person",
         "slug": "charles-d-albret",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "Philip VI of France",
+        "type": "person",
+        "slug": "philip-vi-of-france",
         "label": "Ruler of Kingdom of France"
       }
     ]

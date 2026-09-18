@@ -202,6 +202,12 @@
         "label": "Captured here; died in captivity in 1403"
       },
       {
+        "title": "Manuel II Palaiologos",
+        "type": "person",
+        "slug": "manuel-ii-palaiologos",
+        "label": "The blockade of his capital was lifted by the defeat"
+      },
+      {
         "title": "Mehmed I",
         "type": "person",
         "slug": "mehmed-i",
@@ -212,12 +218,6 @@
         "type": "person",
         "slug": "stefan-lazarevic",
         "label": "Commanded the Serbian contingent"
-      },
-      {
-        "title": "Manuel II Palaiologos",
-        "type": "person",
-        "slug": "manuel-ii-palaiologos",
-        "label": "The blockade of his capital was lifted by the defeat"
       }
     ],
     "events": [
@@ -236,12 +236,6 @@
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "The state that fractured and re-formed"
-      },
-      {
         "title": "Bursa",
         "type": "location",
         "slug": "bursa",
@@ -252,6 +246,12 @@
         "type": "location",
         "slug": "edirne",
         "label": "Süleyman's capital during the Interregnum"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The state that fractured and re-formed"
       }
     ],
     "houses": [

@@ -195,19 +195,25 @@
     ],
     "events": [
       {
-        "title": "Sack of Aleppo",
-        "type": "event",
-        "slug": "siege-of-aleppo-962",
-        "label": "The campaign that removed Syria's defender"
-      },
-      {
         "title": "Byzantine conquest of Cilicia",
         "type": "event",
         "slug": "byzantine-conquest-of-cilicia",
         "label": "Which gave the army its base and its road"
+      },
+      {
+        "title": "Sack of Aleppo",
+        "type": "event",
+        "slug": "siege-of-aleppo-962",
+        "label": "The campaign that removed Syria's defender"
       }
     ],
     "locations": [
+      {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "The city itself"
+      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -219,12 +225,6 @@
         "type": "location",
         "slug": "hamdanid-emirate-of-aleppo",
         "label": "Reduced to a tributary the following year"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "The city itself"
       }
     ]
   },

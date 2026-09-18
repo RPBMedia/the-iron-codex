@@ -188,16 +188,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Oleg of Novgorod",
-        "type": "person",
-        "slug": "oleg-of-novgorod",
-        "label": "Successor and regent for Igor"
-      },
-      {
         "title": "Igor of Kiev",
         "type": "person",
         "slug": "igor-of-kiev",
         "label": "Traditional son and dynastic successor"
+      },
+      {
+        "title": "Oleg of Novgorod",
+        "type": "person",
+        "slug": "oleg-of-novgorod",
+        "label": "Successor and regent for Igor"
       },
       {
         "title": "Olga of Kiev",
@@ -207,16 +207,16 @@
     ],
     "locations": [
       {
-        "title": "Novgorod",
-        "type": "location",
-        "slug": "novgorod",
-        "label": "Traditional seat of Rurikid power"
-      },
-      {
         "title": "Kievan Rus’",
         "type": "location",
         "slug": "kievan-rus",
         "label": "The polity Rurikid successors built"
+      },
+      {
+        "title": "Novgorod",
+        "type": "location",
+        "slug": "novgorod",
+        "label": "Traditional seat of Rurikid power"
       }
     ]
   },

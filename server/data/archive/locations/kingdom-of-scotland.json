@@ -134,6 +134,17 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "David II of Scotland",
+        "type": "person",
+        "slug": "david-ii-of-scotland"
+      },
+      {
+        "title": "John Balliol",
+        "type": "person",
+        "slug": "john-balliol",
+        "label": "The Great Cause's king"
+      },
+      {
         "title": "Robert the Bruce",
         "type": "person",
         "slug": "robert-the-bruce",
@@ -144,17 +155,6 @@
         "type": "person",
         "slug": "william-wallace",
         "label": "The Guardian"
-      },
-      {
-        "title": "John Balliol",
-        "type": "person",
-        "slug": "john-balliol",
-        "label": "The Great Cause's king"
-      },
-      {
-        "title": "David II of Scotland",
-        "type": "person",
-        "slug": "david-ii-of-scotland"
       }
     ],
     "locations": [
@@ -179,15 +179,10 @@
         "label": "1314"
       },
       {
-        "title": "Wars of Scottish Independence",
+        "title": "Battle of Carham",
         "type": "event",
-        "slug": "wars-of-scottish-independence"
-      },
-      {
-        "title": "Treaty of Edinburgh-Northampton",
-        "type": "event",
-        "slug": "treaty-of-edinburgh-northampton",
-        "label": "Recognition, 1328"
+        "slug": "battle-of-carham",
+        "label": "1018"
       },
       {
         "title": "Battle of Dupplin Moor",
@@ -202,10 +197,15 @@
         "label": "1333"
       },
       {
-        "title": "Battle of Carham",
+        "title": "Treaty of Edinburgh-Northampton",
         "type": "event",
-        "slug": "battle-of-carham",
-        "label": "1018"
+        "slug": "treaty-of-edinburgh-northampton",
+        "label": "Recognition, 1328"
+      },
+      {
+        "title": "Wars of Scottish Independence",
+        "type": "event",
+        "slug": "wars-of-scottish-independence"
       }
     ]
   },

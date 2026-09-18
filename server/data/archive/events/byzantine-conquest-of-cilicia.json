@@ -114,6 +114,12 @@
     ],
     "events": [
       {
+        "title": "Byzantine conquest of Cyprus",
+        "type": "event",
+        "slug": "byzantine-conquest-of-cyprus",
+        "label": "Taken in the same year, from the same coast"
+      },
+      {
         "title": "Sack of Aleppo",
         "type": "event",
         "slug": "siege-of-aleppo-962",
@@ -124,15 +130,15 @@
         "type": "event",
         "slug": "siege-of-antioch-969",
         "label": "What the Cilician base made possible"
-      },
-      {
-        "title": "Byzantine conquest of Cyprus",
-        "type": "event",
-        "slug": "byzantine-conquest-of-cyprus",
-        "label": "Taken in the same year, from the same coast"
       }
     ],
     "locations": [
+      {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Opened the road to it"
+      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -144,12 +150,6 @@
         "type": "location",
         "slug": "hamdanid-emirate-of-aleppo",
         "label": "Too weakened to intervene"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Opened the road to it"
       }
     ]
   },

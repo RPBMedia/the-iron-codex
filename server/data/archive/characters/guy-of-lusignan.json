@@ -134,23 +134,18 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "Realm"
-      },
-      {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Hattin",
         "type": "event",
@@ -162,14 +157,14 @@
         "type": "event",
         "slug": "siege-of-acre",
         "label": "The gamble that began the siege in 1189"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin"
-      },
       {
         "title": "Balian of Ibelin",
         "type": "person",
@@ -181,6 +176,11 @@
         "type": "person",
         "slug": "henry-ii-of-champagne",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
       }
     ]
   },

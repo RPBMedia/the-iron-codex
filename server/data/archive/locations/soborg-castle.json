@@ -101,6 +101,18 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Cnut VI of Denmark",
+        "type": "person",
+        "slug": "cnut-vi-of-denmark",
+        "label": "Imprisoned Bishop Valdemar here from 1198"
+      },
+      {
+        "title": "Eric VI of Denmark",
+        "type": "person",
+        "slug": "eric-vi-of-denmark",
+        "label": "Held Archbishop Jens Grand in irons here in 1294"
+      },
+      {
         "title": "Margaret I of Denmark",
         "type": "person",
         "slug": "margaret-i",
@@ -111,33 +123,9 @@
         "type": "person",
         "slug": "valdemar-iv-atterdag",
         "label": "Imprisoned his wife here; Margaret’s father"
-      },
-      {
-        "title": "Eric VI of Denmark",
-        "type": "person",
-        "slug": "eric-vi-of-denmark",
-        "label": "Held Archbishop Jens Grand in irons here in 1294"
-      },
-      {
-        "title": "Cnut VI of Denmark",
-        "type": "person",
-        "slug": "cnut-vi-of-denmark",
-        "label": "Imprisoned Bishop Valdemar here from 1198"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Kalmar Union",
-        "type": "location",
-        "slug": "kalmar-union",
-        "label": "The union Margaret I built"
-      },
       {
         "title": "Flensburg Fjord",
         "type": "location",
@@ -149,6 +137,18 @@
         "type": "location",
         "slug": "gurre-castle",
         "label": "Her father’s favourite castle, where he died"
+      },
+      {
+        "title": "Kalmar Union",
+        "type": "location",
+        "slug": "kalmar-union",
+        "label": "The union Margaret I built"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       }
     ]
   },

@@ -139,16 +139,16 @@
     ],
     "houses": [
       {
-        "title": "House of Plantagenet",
-        "type": "house",
-        "slug": "house-of-plantagenet",
-        "label": "The Angevin house Eleanor married into"
-      },
-      {
         "title": "House of Capet",
         "type": "house",
         "slug": "house-of-capet",
         "label": "The French royal house of her first marriage"
+      },
+      {
+        "title": "House of Plantagenet",
+        "type": "house",
+        "slug": "house-of-plantagenet",
+        "label": "The Angevin house Eleanor married into"
       }
     ]
   },

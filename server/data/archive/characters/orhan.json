@@ -143,30 +143,30 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Murad I",
-        "type": "person",
-        "slug": "murad-i",
-        "label": "Son and successor"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i",
         "label": "Grandson, the Thunderbolt"
+      },
+      {
+        "title": "Murad I",
+        "type": "person",
+        "slug": "murad-i",
+        "label": "Son and successor"
       }
     ],
     "locations": [
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire",
-        "label": "The neighbour whose Asian provinces he absorbed"
-      },
       {
         "title": "Bursa",
         "type": "location",
         "slug": "bursa",
         "label": "His conquest and capital"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The neighbour whose Asian provinces he absorbed"
       }
     ],
     "events": []

@@ -127,6 +127,30 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Coppergate Helmet",
+        "type": "weaponArmor",
+        "slug": "coppergate-helmet",
+        "label": "Another helmet carrying Christian invocation"
+      },
+      {
+        "title": "Gjermundbu Helmet",
+        "type": "weaponArmor",
+        "slug": "gjermundbu-helmet",
+        "label": "The other great 10th-century helmet survival"
+      },
+      {
+        "title": "Joyeuse",
+        "type": "weaponArmor",
+        "slug": "joyeuse",
+        "label": "A relic whose dating does NOT support its tradition"
+      },
+      {
+        "title": "Mail Armor",
+        "type": "weaponArmor",
+        "slug": "mail-armor",
+        "label": "A mail shirt is kept with it"
+      },
+      {
         "title": "Nasal Helmet",
         "type": "weaponArmor",
         "slug": "nasal-helmet",
@@ -137,30 +161,6 @@
         "type": "weaponArmor",
         "slug": "spangenhelm",
         "label": "The wider early medieval construction tradition"
-      },
-      {
-        "title": "Gjermundbu Helmet",
-        "type": "weaponArmor",
-        "slug": "gjermundbu-helmet",
-        "label": "The other great 10th-century helmet survival"
-      },
-      {
-        "title": "Mail Armor",
-        "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "A mail shirt is kept with it"
-      },
-      {
-        "title": "Joyeuse",
-        "type": "weaponArmor",
-        "slug": "joyeuse",
-        "label": "A relic whose dating does NOT support its tradition"
-      },
-      {
-        "title": "Coppergate Helmet",
-        "type": "weaponArmor",
-        "slug": "coppergate-helmet",
-        "label": "Another helmet carrying Christian invocation"
       }
     ]
   },

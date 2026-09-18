@@ -132,14 +132,14 @@
         "slug": "frederick-i-barbarossa"
       },
       {
-        "title": "Henry VI",
-        "type": "person",
-        "slug": "henry-vi-holy-roman-emperor"
-      },
-      {
         "title": "Frederick II",
         "type": "person",
         "slug": "frederick-ii-holy-roman-emperor"
+      },
+      {
+        "title": "Henry VI",
+        "type": "person",
+        "slug": "henry-vi-holy-roman-emperor"
       },
       {
         "title": "Otto IV",
@@ -155,28 +155,29 @@
         "label": "The inheritance claimed"
       },
       {
-        "title": "Papacy",
-        "type": "location",
-        "slug": "papacy",
-        "label": "Partner and adversary"
-      },
-      {
         "title": "Lombard League",
         "type": "location",
         "slug": "lombard-league",
         "label": "The communes that fought the Staufer"
+      },
+      {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Partner and adversary"
       }
     ],
     "events": [
       {
-        "title": "Battle of Legnano",
-        "type": "event",
-        "slug": "battle-of-legnano"
-      },
-      {
         "title": "Battle of Bouvines",
         "type": "event",
         "slug": "battle-of-bouvines"
+      },
+      {
+        "title": "Battle of Cortenuova",
+        "type": "event",
+        "slug": "battle-of-cortenuova",
+        "label": "Frederick II’s Lombard triumph, 1237"
       },
       {
         "title": "Battle of Lechfeld",
@@ -185,10 +186,9 @@
         "label": "The empire’s formative victory, 955"
       },
       {
-        "title": "Battle of Cortenuova",
+        "title": "Battle of Legnano",
         "type": "event",
-        "slug": "battle-of-cortenuova",
-        "label": "Frederick II’s Lombard triumph, 1237"
+        "slug": "battle-of-legnano"
       }
     ]
   },

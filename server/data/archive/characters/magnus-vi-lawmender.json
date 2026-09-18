@@ -138,29 +138,29 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Realm"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "Haakon IV Haakonsson",
-        "type": "person",
-        "slug": "haakon-iv-haakonsson",
-        "label": "Ruler of Kingdom of Norway"
-      },
-      {
         "title": "Eric II of Norway",
         "type": "person",
         "slug": "eric-ii-of-norway",
+        "label": "Ruler of Kingdom of Norway"
+      },
+      {
+        "title": "Haakon IV Haakonsson",
+        "type": "person",
+        "slug": "haakon-iv-haakonsson",
         "label": "Ruler of Kingdom of Norway"
       }
     ]

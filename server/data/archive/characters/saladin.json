@@ -205,12 +205,6 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Tikrit",
-        "type": "location",
-        "slug": "tikrit",
-        "label": "Birthplace"
-      },
-      {
         "title": "Ayyubid Sultanate",
         "type": "location",
         "slug": "ayyubid-sultanate",
@@ -223,24 +217,30 @@
         "label": "Place of death"
       },
       {
+        "title": "Kerak",
+        "type": "location",
+        "slug": "kerak",
+        "label": "Crusader castle he besieged in 1183 and 1184 and won in 1188"
+      },
+      {
         "title": "Sidon",
         "type": "location",
         "slug": "sidon",
         "label": "Taken by him in 1187"
       },
       {
-        "title": "Kerak",
+        "title": "Tikrit",
         "type": "location",
-        "slug": "kerak",
-        "label": "Crusader castle he besieged in 1183 and 1184 and won in 1188"
+        "slug": "tikrit",
+        "label": "Birthplace"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
+        "title": "Battle of Arsuf",
         "type": "event",
-        "slug": "third-crusade",
-        "label": "Fought in this engagement"
+        "slug": "battle-of-arsuf",
+        "label": "Commander"
       },
       {
         "title": "Battle of Hattin",
@@ -249,16 +249,16 @@
         "label": "Commander"
       },
       {
-        "title": "Battle of Arsuf",
-        "type": "event",
-        "slug": "battle-of-arsuf",
-        "label": "Commander"
-      },
-      {
         "title": "Siege of Acre",
         "type": "event",
         "slug": "siege-of-acre",
         "label": "Besieged the besiegers for two years and lost the port"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade",
+        "label": "Fought in this engagement"
       }
     ],
     "people": [

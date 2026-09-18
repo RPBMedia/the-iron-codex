@@ -331,16 +331,16 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Fall of Constantinople",
-        "type": "event",
-        "slug": "fall-of-constantinople",
-        "label": "Portable firearms present, but not the mature arquebus"
-      },
-      {
         "title": "Battle of Castillon",
         "type": "event",
         "slug": "battle-of-castillon",
         "label": "Gunpowder decided the battle that closed the Hundred Years' War"
+      },
+      {
+        "title": "Fall of Constantinople",
+        "type": "event",
+        "slug": "fall-of-constantinople",
+        "label": "Portable firearms present, but not the mature arquebus"
       }
     ],
     "people": [
@@ -353,22 +353,28 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Hand Cannon",
-        "type": "weaponArmor",
-        "slug": "hand-cannon",
-        "label": "The weapon it developed out of"
-      },
-      {
         "title": "Crossbow",
         "type": "weaponArmor",
         "slug": "crossbow",
         "label": "Served alongside it for decades before giving way"
       },
       {
+        "title": "Hand Cannon",
+        "type": "weaponArmor",
+        "slug": "hand-cannon",
+        "label": "The weapon it developed out of"
+      },
+      {
         "title": "Longbow",
         "type": "weaponArmor",
         "slug": "longbow",
         "label": "The trained-specialist tradition it made unaffordable"
+      },
+      {
+        "title": "Pavise",
+        "type": "weaponArmor",
+        "slug": "pavise",
+        "label": "Cover to load behind, and a rest to fire from"
       },
       {
         "title": "Pike",
@@ -381,12 +387,6 @@
         "type": "weaponArmor",
         "slug": "plate-armor",
         "label": "Thickened and proofed in answer to it"
-      },
-      {
-        "title": "Pavise",
-        "type": "weaponArmor",
-        "slug": "pavise",
-        "label": "Cover to load behind, and a rest to fire from"
       }
     ]
   },

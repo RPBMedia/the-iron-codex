@@ -204,18 +204,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Father"
-      },
-      {
-        "title": "Robert II",
-        "type": "person",
-        "slug": "robert-ii-of-scotland",
-        "label": "Son"
-      },
-      {
         "title": "David II of Scotland",
         "type": "person",
         "slug": "david-ii-of-scotland",
@@ -226,6 +214,18 @@
         "type": "person",
         "slug": "edward-i-of-england",
         "label": "Held her captive from 1306"
+      },
+      {
+        "title": "Robert II",
+        "type": "person",
+        "slug": "robert-ii-of-scotland",
+        "label": "Son"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Father"
       }
     ],
     "events": [
@@ -244,16 +244,16 @@
     ],
     "houses": [
       {
-        "title": "House of Stewart",
-        "type": "house",
-        "slug": "house-of-stewart",
-        "label": "Royal house descended from her"
-      },
-      {
         "title": "House of Bruce",
         "type": "house",
         "slug": "house-of-bruce",
         "label": "House of her birth"
+      },
+      {
+        "title": "House of Stewart",
+        "type": "house",
+        "slug": "house-of-stewart",
+        "label": "Royal house descended from her"
       }
     ]
   }

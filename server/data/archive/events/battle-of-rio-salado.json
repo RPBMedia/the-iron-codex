@@ -194,30 +194,30 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Alfonso XI of Castile",
-        "type": "person",
-        "slug": "alfonso-xi-of-castile",
-        "label": "Commanded the Castilian army"
-      },
-      {
         "title": "Afonso IV of Portugal",
         "type": "person",
         "slug": "afonso-iv-of-portugal",
         "label": "Commanded the Portuguese wing against Granada"
+      },
+      {
+        "title": "Alfonso XI of Castile",
+        "type": "person",
+        "slug": "alfonso-xi-of-castile",
+        "label": "Commanded the Castilian army"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Las Navas de Tolosa",
-        "type": "event",
-        "slug": "battle-of-las-navas-de-tolosa",
-        "label": "The earlier African invasion broken, 1212"
-      },
       {
         "title": "Battle of Aljubarrota",
         "type": "event",
         "slug": "battle-of-aljubarrota",
         "label": "The two Salado allies at war with each other, 1385"
+      },
+      {
+        "title": "Battle of Las Navas de Tolosa",
+        "type": "event",
+        "slug": "battle-of-las-navas-de-tolosa",
+        "label": "The earlier African invasion broken, 1212"
       },
       {
         "title": "Fall of Granada",
@@ -227,6 +227,12 @@
       }
     ],
     "locations": [
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "The Marinids’ ally, left without African support"
+      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -238,12 +244,6 @@
         "type": "location",
         "slug": "kingdom-of-portugal",
         "label": "Sent the fleet and the knights that faced Granada"
-      },
-      {
-        "title": "Granada",
-        "type": "location",
-        "slug": "granada",
-        "label": "The Marinids’ ally, left without African support"
       }
     ]
   },

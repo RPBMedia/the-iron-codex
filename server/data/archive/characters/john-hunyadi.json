@@ -169,12 +169,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Władysław III of Poland",
-        "type": "person",
-        "slug": "wladyslaw-iii-of-poland",
-        "label": "The king he served and lost at Varna"
-      },
-      {
         "title": "Murad II",
         "type": "person",
         "slug": "murad-ii",
@@ -185,6 +179,12 @@
         "type": "person",
         "slug": "sigismund-of-luxembourg",
         "label": "The king whose service raised his family"
+      },
+      {
+        "title": "Władysław III of Poland",
+        "type": "person",
+        "slug": "wladyslaw-iii-of-poland",
+        "label": "The king he served and lost at Varna"
       }
     ],
     "events": [
@@ -197,16 +197,16 @@
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "The power he fought for twenty years"
-      },
-      {
         "title": "Kosovo Field",
         "type": "location",
         "slug": "kosovo-field",
         "label": "Where he was defeated in 1448"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "The power he fought for twenty years"
       }
     ]
   },

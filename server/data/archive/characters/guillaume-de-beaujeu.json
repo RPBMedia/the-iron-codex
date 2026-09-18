@@ -123,14 +123,14 @@
     ],
     "orders": [
       {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar"
-      },
-      {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar"
       }
     ]
   },

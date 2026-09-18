@@ -186,12 +186,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ramiro II of León",
-        "type": "person",
-        "slug": "ramiro-ii-of-leon",
-        "label": "Led the victorious coalition"
-      },
-      {
         "title": "Abd al-Rahman III",
         "type": "person",
         "slug": "abd-al-rahman-iii",
@@ -202,15 +196,15 @@
         "title": "Fernán González",
         "slug": "fernan-gonzalez",
         "label": "Castilian commander in the coalition"
+      },
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "Led the victorious coalition"
       }
     ],
     "locations": [
-      {
-        "title": "Simancas",
-        "type": "location",
-        "slug": "simancas",
-        "label": "Site of the battle"
-      },
       {
         "title": "Caliphate of Córdoba",
         "type": "location",
@@ -222,6 +216,12 @@
         "type": "location",
         "slug": "kingdom-of-leon",
         "label": "The victorious realm"
+      },
+      {
+        "title": "Simancas",
+        "type": "location",
+        "slug": "simancas",
+        "label": "Site of the battle"
       }
     ],
     "events": [

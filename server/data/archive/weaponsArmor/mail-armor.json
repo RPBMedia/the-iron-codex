@@ -90,6 +90,22 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Arming Sword",
+        "type": "weaponArmor",
+        "slug": "arming-sword"
+      },
+      {
+        "title": "Barding",
+        "slug": "barding",
+        "label": "Mail trappers were made the same way",
+        "type": "weaponArmor"
+      },
+      {
+        "title": "Battle Axe",
+        "type": "weaponArmor",
+        "slug": "battle-axe"
+      },
+      {
         "title": "Gambeson",
         "type": "weaponArmor",
         "slug": "gambeson"
@@ -98,32 +114,6 @@
         "title": "Hauberk",
         "type": "weaponArmor",
         "slug": "hauberk"
-      },
-      {
-        "title": "Mail Coif",
-        "type": "weaponArmor",
-        "slug": "mail-coif"
-      },
-      {
-        "title": "Plate Armor",
-        "type": "weaponArmor",
-        "slug": "plate-armor"
-      },
-      {
-        "title": "Arming Sword",
-        "type": "weaponArmor",
-        "slug": "arming-sword"
-      },
-      {
-        "title": "Battle Axe",
-        "type": "weaponArmor",
-        "slug": "battle-axe"
-      },
-      {
-        "title": "Barding",
-        "slug": "barding",
-        "label": "Mail trappers were made the same way",
-        "type": "weaponArmor"
       },
       {
         "title": "Lamellar and Scale Armor",
@@ -136,6 +126,16 @@
         "slug": "leg-harness",
         "label": "Chausses were the mail solution for the legs",
         "type": "weaponArmor"
+      },
+      {
+        "title": "Mail Coif",
+        "type": "weaponArmor",
+        "slug": "mail-coif"
+      },
+      {
+        "title": "Plate Armor",
+        "type": "weaponArmor",
+        "slug": "plate-armor"
       }
     ]
   },

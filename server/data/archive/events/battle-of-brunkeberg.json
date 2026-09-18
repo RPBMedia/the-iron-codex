@@ -181,16 +181,16 @@
     ],
     "locations": [
       {
-        "title": "Stockholm",
-        "type": "location",
-        "slug": "stockholm",
-        "label": "The town the ridge overlooked, and the prize"
-      },
-      {
         "title": "Kalmar Union",
         "type": "location",
         "slug": "kalmar-union",
         "label": "The union left a name rather than a government"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Christian I’s realm and the union’s centre"
       },
       {
         "title": "Kingdom of Sweden",
@@ -199,10 +199,10 @@
         "label": "Governed by regents for thirty years after this"
       },
       {
-        "title": "Kingdom of Denmark",
+        "title": "Stockholm",
         "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Christian I’s realm and the union’s centre"
+        "slug": "stockholm",
+        "label": "The town the ridge overlooked, and the prize"
       }
     ]
   },

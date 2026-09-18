@@ -168,16 +168,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "The kingdom his conquests made possible"
-      },
-      {
         "title": "Danelaw",
         "type": "location",
         "slug": "danelaw",
         "label": "Reconquered the southern Danelaw"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "The kingdom his conquests made possible"
       },
       {
         "title": "Winchester",

@@ -90,9 +90,21 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Breastplate",
+        "slug": "breastplate",
+        "label": "The single plate that replaced it",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Brigandine",
         "type": "weaponArmor",
         "slug": "brigandine"
+      },
+      {
+        "title": "Lamellar and Scale Armor",
+        "type": "weaponArmor",
+        "slug": "lamellar-armor",
+        "label": "The same many-plates logic reached from the Western side"
       },
       {
         "title": "Mail Armor",
@@ -103,18 +115,6 @@
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor"
-      },
-      {
-        "title": "Lamellar and Scale Armor",
-        "type": "weaponArmor",
-        "slug": "lamellar-armor",
-        "label": "The same many-plates logic reached from the Western side"
-      },
-      {
-        "title": "Breastplate",
-        "slug": "breastplate",
-        "label": "The single plate that replaced it",
-        "type": "weaponArmor"
       }
     ],
     "events": [

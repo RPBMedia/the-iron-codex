@@ -206,16 +206,16 @@
     ],
     "locations": [
       {
-        "title": "First Bulgarian Empire",
-        "type": "location",
-        "slug": "first-bulgarian-empire",
-        "label": "Annexed four years after this battle"
-      },
-      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
         "label": "Restored to the Danube for the first time since the 600s"
+      },
+      {
+        "title": "First Bulgarian Empire",
+        "type": "location",
+        "slug": "first-bulgarian-empire",
+        "label": "Annexed four years after this battle"
       }
     ]
   },

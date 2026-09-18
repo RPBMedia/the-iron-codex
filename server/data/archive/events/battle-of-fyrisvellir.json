@@ -150,16 +150,16 @@
         "label": "Commander, and the victory that named him"
       },
       {
-        "title": "Olof Skötkonung",
-        "type": "person",
-        "slug": "olof-skotkonung",
-        "label": "Eric’s son and successor"
-      },
-      {
         "title": "Harald Bluetooth",
         "type": "person",
         "slug": "harald-bluetooth",
         "label": "Gave Styrbjörn his fleet, by the saga account"
+      },
+      {
+        "title": "Olof Skötkonung",
+        "type": "person",
+        "slug": "olof-skotkonung",
+        "label": "Eric’s son and successor"
       }
     ],
     "events": [
@@ -172,16 +172,16 @@
     ],
     "locations": [
       {
-        "title": "Uppsala",
-        "type": "location",
-        "slug": "uppsala",
-        "label": "The cult and assembly centre the invaders marched on"
-      },
-      {
         "title": "Kingdom of Sweden",
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "The kingdom of the Svear"
+      },
+      {
+        "title": "Uppsala",
+        "type": "location",
+        "slug": "uppsala",
+        "label": "The cult and assembly centre the invaders marched on"
       }
     ],
     "houses": [

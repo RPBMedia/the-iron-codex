@@ -186,16 +186,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Khosrow II",
-        "type": "person",
-        "slug": "khosrow-ii",
-        "label": "His opponent for eighteen years"
-      },
-      {
         "title": "Justinian I",
         "type": "person",
         "slug": "justinian-i",
         "label": "The emperor whose reconquest he inherited the cost of"
+      },
+      {
+        "title": "Khosrow II",
+        "type": "person",
+        "slug": "khosrow-ii",
+        "label": "His opponent for eighteen years"
       },
       {
         "title": "Leo III",
@@ -212,19 +212,25 @@
         "label": "His decisive victory"
       },
       {
-        "title": "Siege of Constantinople (626)",
-        "type": "event",
-        "slug": "siege-of-constantinople-626",
-        "label": "His capital held in his absence"
-      },
-      {
         "title": "Battle of Yarmouk",
         "type": "event",
         "slug": "battle-of-yarmouk",
         "label": "The defeat that undid everything Nineveh won"
+      },
+      {
+        "title": "Siege of Constantinople (626)",
+        "type": "event",
+        "slug": "siege-of-constantinople-626",
+        "label": "His capital held in his absence"
       }
     ],
     "locations": [
+      {
+        "title": "Avar Khaganate",
+        "type": "location",
+        "slug": "avar-khaganate",
+        "label": "The power whose khagan tried to capture him at a parley"
+      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -242,12 +248,6 @@
         "type": "location",
         "slug": "sasanian-empire",
         "label": "The realm he defeated"
-      },
-      {
-        "title": "Avar Khaganate",
-        "type": "location",
-        "slug": "avar-khaganate",
-        "label": "The power whose khagan tried to capture him at a parley"
       }
     ]
   },

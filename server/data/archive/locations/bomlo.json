@@ -77,10 +77,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Magnus Eriksson",
+        "title": "Albert of Mecklenburg",
         "type": "person",
-        "slug": "magnus-eriksson",
-        "label": "Drowned here in 1374"
+        "slug": "albert-of-mecklenburg",
+        "label": "Took the Swedish throne from him in 1364"
       },
       {
         "title": "Haakon VI of Norway",
@@ -89,25 +89,13 @@
         "label": "His son, who ransomed him in 1371"
       },
       {
-        "title": "Albert of Mecklenburg",
+        "title": "Magnus Eriksson",
         "type": "person",
-        "slug": "albert-of-mecklenburg",
-        "label": "Took the Swedish throne from him in 1364"
+        "slug": "magnus-eriksson",
+        "label": "Drowned here in 1374"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Containing realm"
-      },
-      {
-        "title": "Kingdom of Sweden",
-        "type": "location",
-        "slug": "kingdom-of-sweden",
-        "label": "The other crown he lost"
-      },
       {
         "title": "Bergen",
         "type": "location",
@@ -119,6 +107,18 @@
         "type": "location",
         "slug": "fitjar",
         "label": "Neighbouring island ground where Haakon the Good was mortally wounded"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
+      },
+      {
+        "title": "Kingdom of Sweden",
+        "type": "location",
+        "slug": "kingdom-of-sweden",
+        "label": "The other crown he lost"
       }
     ]
   },

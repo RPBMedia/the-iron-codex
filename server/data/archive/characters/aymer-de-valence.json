@@ -242,10 +242,10 @@
   "relatedEntries": {
     "events": [
       {
-        "title": "Battle of Methven",
+        "title": "Battle of Bannockburn",
         "type": "event",
-        "slug": "battle-of-methven",
-        "label": "His victory: the camp attack that scattered Bruce's first army"
+        "slug": "battle-of-bannockburn",
+        "label": "Brought Edward II off the field"
       },
       {
         "title": "Battle of Loudoun Hill",
@@ -254,10 +254,10 @@
         "label": "His defeat by the same man eleven months later"
       },
       {
-        "title": "Battle of Bannockburn",
+        "title": "Battle of Methven",
         "type": "event",
-        "slug": "battle-of-bannockburn",
-        "label": "Brought Edward II off the field"
+        "slug": "battle-of-methven",
+        "label": "His victory: the camp attack that scattered Bruce's first army"
       },
       {
         "title": "Wars of Scottish Independence",
@@ -267,12 +267,6 @@
       }
     ],
     "people": [
-      {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce",
-        "label": "Beat him at Methven, lost to him at Loudoun Hill"
-      },
       {
         "title": "Edward I of England",
         "type": "person",
@@ -290,6 +284,12 @@
         "type": "person",
         "slug": "john-comyn",
         "label": "Kinsman by marriage, whose killing sent Valence north"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce",
+        "label": "Beat him at Methven, lost to him at Loudoun Hill"
       }
     ],
     "locations": [

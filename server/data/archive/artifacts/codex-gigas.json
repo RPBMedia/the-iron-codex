@@ -76,12 +76,6 @@
   "relatedEntries": {
     "artifacts": [
       {
-        "title": "Royal Frankish Annals",
-        "type": "artifact",
-        "slug": "royal-frankish-annals",
-        "label": "Comparable major medieval manuscript"
-      },
-      {
         "title": "Book of Kells",
         "type": "artifact",
         "slug": "book-of-kells",
@@ -91,6 +85,12 @@
         "title": "Lindisfarne Gospels",
         "type": "artifact",
         "slug": "lindisfarne-gospels",
+        "label": "Comparable major medieval manuscript"
+      },
+      {
+        "title": "Royal Frankish Annals",
+        "type": "artifact",
+        "slug": "royal-frankish-annals",
         "label": "Comparable major medieval manuscript"
       }
     ]

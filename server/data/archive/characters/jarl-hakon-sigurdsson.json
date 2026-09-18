@@ -175,6 +175,12 @@
     ],
     "people": [
       {
+        "title": "Harald Bluetooth",
+        "type": "person",
+        "slug": "harald-bluetooth",
+        "label": "His onetime Danish overlord"
+      },
+      {
         "title": "Harald Greycloak",
         "type": "person",
         "slug": "harald-greycloak",
@@ -185,12 +191,6 @@
         "type": "person",
         "slug": "olaf-tryggvason",
         "label": "Who supplanted him as king of Norway"
-      },
-      {
-        "title": "Harald Bluetooth",
-        "type": "person",
-        "slug": "harald-bluetooth",
-        "label": "His onetime Danish overlord"
       }
     ],
     "events": []

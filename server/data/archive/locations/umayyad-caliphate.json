@@ -130,10 +130,10 @@
     ],
     "locations": [
       {
-        "title": "Byzantine Empire",
+        "title": "Abbasid Caliphate",
         "type": "location",
-        "slug": "byzantine-empire",
-        "label": "The sieged survivor"
+        "slug": "abbasid-caliphate",
+        "label": "The dynasty that overthrew it in 750"
       },
       {
         "title": "Almohad Caliphate",
@@ -142,19 +142,25 @@
         "label": "Al-Andalus's later masters"
       },
       {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire",
+        "label": "The sieged survivor"
+      },
+      {
         "title": "Frankish Kingdom",
         "type": "location",
         "slug": "frankish-kingdom",
         "label": "The north-western limit"
-      },
-      {
-        "title": "Abbasid Caliphate",
-        "type": "location",
-        "slug": "abbasid-caliphate",
-        "label": "The dynasty that overthrew it in 750"
       }
     ],
     "events": [
+      {
+        "title": "Battle of Akroinon",
+        "type": "event",
+        "slug": "battle-of-akroinon",
+        "label": "Its last great invasion of Anatolia, destroyed in 740"
+      },
       {
         "title": "Battle of Tours",
         "type": "event",
@@ -166,12 +172,6 @@
         "type": "event",
         "slug": "siege-of-constantinople-717",
         "label": "Where its army and fleet were destroyed in 717–718"
-      },
-      {
-        "title": "Battle of Akroinon",
-        "type": "event",
-        "slug": "battle-of-akroinon",
-        "label": "Its last great invasion of Anatolia, destroyed in 740"
       }
     ]
   },

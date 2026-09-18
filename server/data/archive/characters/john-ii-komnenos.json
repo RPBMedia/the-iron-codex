@@ -163,29 +163,29 @@
     ],
     "locations": [
       {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
-      },
-      {
         "title": "Antioch",
         "type": "location",
         "slug": "antioch",
         "label": "Forced its prince to do homage"
+      },
+      {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Manzikert",
-        "type": "event",
-        "slug": "battle-of-manzikert",
-        "label": "The loss his dynasty spent three generations repairing"
-      },
       {
         "title": "Battle of Beroia",
         "type": "event",
         "slug": "battle-of-beroia",
         "label": "Where he destroyed the last Pecheneg host"
+      },
+      {
+        "title": "Battle of Manzikert",
+        "type": "event",
+        "slug": "battle-of-manzikert",
+        "label": "The loss his dynasty spent three generations repairing"
       }
     ]
   },

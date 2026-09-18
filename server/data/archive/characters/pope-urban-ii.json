@@ -174,10 +174,9 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Papacy",
+        "title": "Byzantine Empire",
         "type": "location",
-        "slug": "papacy",
-        "label": "Realm"
+        "slug": "byzantine-empire"
       },
       {
         "title": "Kingdom of France",
@@ -186,15 +185,16 @@
         "label": "Birthplace"
       },
       {
+        "title": "Papacy",
+        "type": "location",
+        "slug": "papacy",
+        "label": "Realm"
+      },
+      {
         "title": "Rome",
         "type": "location",
         "slug": "rome",
         "label": "Place of death"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
       },
       {
         "title": "Seljuk Turks",

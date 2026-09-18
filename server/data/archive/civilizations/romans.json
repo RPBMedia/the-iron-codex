@@ -286,6 +286,12 @@
         "label": "Held Rome through the siege of 537–538"
       },
       {
+        "title": "Charlemagne",
+        "type": "person",
+        "slug": "charlemagne",
+        "label": "Crowned emperor of the Romans in 800"
+      },
+      {
         "title": "Justinian I",
         "type": "person",
         "slug": "justinian-i",
@@ -296,15 +302,15 @@
         "type": "person",
         "slug": "totila",
         "label": "Took Rome in 546 during the war that broke the senatorial class"
-      },
-      {
-        "title": "Charlemagne",
-        "type": "person",
-        "slug": "charlemagne",
-        "label": "Crowned emperor of the Romans in 800"
       }
     ],
     "events": [
+      {
+        "title": "Charlemagne Crowned Emperor",
+        "type": "event",
+        "slug": "charlemagne-crowned",
+        "label": "The western claim on the Roman name, revived in 800"
+      },
       {
         "title": "Fall of the Western Roman Empire",
         "type": "event",
@@ -322,20 +328,14 @@
         "type": "event",
         "slug": "siege-of-rome-537",
         "label": "Where the aqueducts were cut and the ancient city began to empty"
-      },
-      {
-        "title": "Charlemagne Crowned Emperor",
-        "type": "event",
-        "slug": "charlemagne-crowned",
-        "label": "The western claim on the Roman name, revived in 800"
       }
     ],
     "locations": [
       {
-        "title": "Rome",
+        "title": "Byzantine Empire",
         "type": "location",
-        "slug": "rome",
-        "label": "Their city, and a separate subject from the people"
+        "slug": "byzantine-empire",
+        "label": "The surviving Roman state, which reconquered and then lost them"
       },
       {
         "title": "Ostrogothic Kingdom",
@@ -350,10 +350,10 @@
         "label": "The institution that inherited their civic offices"
       },
       {
-        "title": "Byzantine Empire",
+        "title": "Rome",
         "type": "location",
-        "slug": "byzantine-empire",
-        "label": "The surviving Roman state, which reconquered and then lost them"
+        "slug": "rome",
+        "label": "Their city, and a separate subject from the people"
       }
     ]
   },

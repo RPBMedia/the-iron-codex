@@ -97,6 +97,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Ferdinand II of Aragon",
+        "type": "person",
+        "slug": "ferdinand-ii-of-aragon",
+        "label": "Co-ruler at the Cortes of 1476"
+      },
+      {
         "title": "Isabella I of Castile",
         "type": "person",
         "slug": "isabella-of-castile",
@@ -107,15 +113,15 @@
         "type": "person",
         "slug": "john-ii-of-castile",
         "label": "Her father, whose palace this was"
-      },
-      {
-        "title": "Ferdinand II of Aragon",
-        "type": "person",
-        "slug": "ferdinand-ii-of-aragon",
-        "label": "Co-ruler at the Cortes of 1476"
       }
     ],
     "locations": [
+      {
+        "title": "Kingdom of Aragon",
+        "type": "location",
+        "slug": "kingdom-of-aragon",
+        "label": "Ferdinand’s realm"
+      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -127,12 +133,6 @@
         "type": "location",
         "slug": "medina-del-campo",
         "label": "Where Isabella died in 1504"
-      },
-      {
-        "title": "Kingdom of Aragon",
-        "type": "location",
-        "slug": "kingdom-of-aragon",
-        "label": "Ferdinand’s realm"
       }
     ]
   },

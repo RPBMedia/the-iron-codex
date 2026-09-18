@@ -89,9 +89,20 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
+        "title": "Achievements of the Black Prince",
+        "slug": "black-prince-achievements",
+        "label": "Surviving example — the shield at Canterbury",
+        "type": "weaponArmor"
+      },
+      {
         "title": "Great Helm",
         "type": "weaponArmor",
         "slug": "great-helm"
+      },
+      {
+        "title": "Kite Shield",
+        "type": "weaponArmor",
+        "slug": "kite-shield"
       },
       {
         "title": "Shield",
@@ -102,29 +113,18 @@
         "title": "Surcoat",
         "type": "weaponArmor",
         "slug": "surcoat"
-      },
-      {
-        "title": "Kite Shield",
-        "type": "weaponArmor",
-        "slug": "kite-shield"
-      },
-      {
-        "title": "Achievements of the Black Prince",
-        "slug": "black-prince-achievements",
-        "label": "Surviving example — the shield at Canterbury",
-        "type": "weaponArmor"
       }
     ],
     "events": [
       {
-        "title": "Norman Conquest of England",
-        "type": "event",
-        "slug": "norman-conquest"
-      },
-      {
         "title": "Battle of Crécy",
         "type": "event",
         "slug": "battle-of-crecy"
+      },
+      {
+        "title": "Norman Conquest of England",
+        "type": "event",
+        "slug": "norman-conquest"
       }
     ]
   },

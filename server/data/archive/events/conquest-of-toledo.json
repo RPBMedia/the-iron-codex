@@ -81,16 +81,16 @@
     ],
     "locations": [
       {
-        "title": "Toledo",
-        "type": "location",
-        "slug": "toledo",
-        "label": "The city that fell"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it was taken from"
+      },
+      {
+        "title": "Toledo",
+        "type": "location",
+        "slug": "toledo",
+        "label": "The city that fell"
       }
     ],
     "events": [

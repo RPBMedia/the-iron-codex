@@ -500,28 +500,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Raymond du Puy",
-        "type": "person",
-        "slug": "raymond-du-puy",
-        "label": "The master who made it a military order"
-      },
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "The great adversary in the East"
-      },
-      {
         "title": "Baybars",
         "type": "person",
         "slug": "baybars",
         "label": "Mamluk sultan who took Krak des Chevaliers and Acre"
       },
       {
-        "title": "Richard the Lionheart",
+        "title": "Gerard Thom",
         "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Won Arsuf with the Hospitaller charge"
+        "slug": "gerard-thom",
+        "label": "The founder, who ran the Jerusalem hospital before the order was a military one"
       },
       {
         "title": "Guy of Lusignan",
@@ -530,24 +518,36 @@
         "label": "King of Jerusalem at Hattin"
       },
       {
-        "title": "Gerard Thom",
+        "title": "Raymond du Puy",
         "type": "person",
-        "slug": "gerard-thom",
-        "label": "The founder, who ran the Jerusalem hospital before the order was a military one"
+        "slug": "raymond-du-puy",
+        "label": "The master who made it a military order"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Won Arsuf with the Hospitaller charge"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "The great adversary in the East"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Hattin",
-        "type": "event",
-        "slug": "battle-of-hattin",
-        "label": "1187 — the order destroyed"
-      },
       {
         "title": "Battle of Arsuf",
         "type": "event",
         "slug": "battle-of-arsuf",
         "label": "1191 — the Hospitaller charge"
+      },
+      {
+        "title": "Battle of Hattin",
+        "type": "event",
+        "slug": "battle-of-hattin",
+        "label": "1187 — the order destroyed"
       },
       {
         "title": "Battle of La Forbie",

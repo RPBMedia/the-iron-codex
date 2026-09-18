@@ -151,6 +151,12 @@
         "label": "Commanded the first phase"
       },
       {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "Ordered and prolonged the war"
+      },
+      {
         "title": "Narses",
         "type": "person",
         "slug": "narses",
@@ -161,26 +167,20 @@
         "type": "person",
         "slug": "totila",
         "label": "Nearly reversed the conquest"
-      },
-      {
-        "title": "Justinian I",
-        "type": "person",
-        "slug": "justinian-i",
-        "label": "Ordered and prolonged the war"
       }
     ],
     "events": [
-      {
-        "title": "Siege of Rome",
-        "type": "event",
-        "slug": "siege-of-rome-537",
-        "label": "Its most famous defensive action"
-      },
       {
         "title": "Battle of Taginae",
         "type": "event",
         "slug": "battle-of-taginae",
         "label": "The battle that decided it"
+      },
+      {
+        "title": "Siege of Rome",
+        "type": "event",
+        "slug": "siege-of-rome-537",
+        "label": "Its most famous defensive action"
       },
       {
         "title": "Vandalic War",

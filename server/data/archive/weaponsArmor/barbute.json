@@ -135,28 +135,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Sallet",
-        "type": "weaponArmor",
-        "slug": "sallet",
-        "label": "The type it shades into, and is confused with"
-      },
-      {
         "title": "Armet",
         "type": "weaponArmor",
         "slug": "armet",
         "label": "The closed Italian helmet made alongside it"
-      },
-      {
-        "title": "Kettle Hat",
-        "type": "weaponArmor",
-        "slug": "kettle-hat",
-        "label": "The other great open infantry helmet"
-      },
-      {
-        "title": "Great Helm",
-        "type": "weaponArmor",
-        "slug": "great-helm",
-        "label": "The enclosure it deliberately refuses"
       },
       {
         "title": "Brigandine",
@@ -165,10 +147,28 @@
         "label": "Worn by the same Italian infantry"
       },
       {
+        "title": "Great Helm",
+        "type": "weaponArmor",
+        "slug": "great-helm",
+        "label": "The enclosure it deliberately refuses"
+      },
+      {
+        "title": "Kettle Hat",
+        "type": "weaponArmor",
+        "slug": "kettle-hat",
+        "label": "The other great open infantry helmet"
+      },
+      {
         "title": "Plate Armor",
         "type": "weaponArmor",
         "slug": "plate-armor",
         "label": "The harness it completed for men fighting on foot"
+      },
+      {
+        "title": "Sallet",
+        "type": "weaponArmor",
+        "slug": "sallet",
+        "label": "The type it shades into, and is confused with"
       }
     ]
   },

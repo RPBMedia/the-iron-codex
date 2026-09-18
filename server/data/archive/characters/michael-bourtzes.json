@@ -153,16 +153,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Nikephoros II Phokas",
-        "type": "person",
-        "slug": "nikephoros-ii-phokas",
-        "label": "Dismissed him for taking Antioch, and was murdered by him"
-      },
-      {
         "title": "John I Tzimiskes",
         "type": "person",
         "slug": "john-i-tzimiskes",
         "label": "Led the conspiracy he joined"
+      },
+      {
+        "title": "Nikephoros II Phokas",
+        "type": "person",
+        "slug": "nikephoros-ii-phokas",
+        "label": "Dismissed him for taking Antioch, and was murdered by him"
       }
     ],
     "events": [
@@ -175,6 +175,12 @@
     ],
     "locations": [
       {
+        "title": "Antioch",
+        "type": "location",
+        "slug": "antioch",
+        "label": "Took its walls in 969"
+      },
+      {
         "title": "Byzantine Empire",
         "type": "location",
         "slug": "byzantine-empire",
@@ -185,12 +191,6 @@
         "type": "location",
         "slug": "hamdanid-emirate-of-aleppo",
         "label": "The power whose northern Syria he helped end"
-      },
-      {
-        "title": "Antioch",
-        "type": "location",
-        "slug": "antioch",
-        "label": "Took its walls in 969"
       }
     ]
   },

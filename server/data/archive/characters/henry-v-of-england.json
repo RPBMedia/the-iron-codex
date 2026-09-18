@@ -161,6 +161,12 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Chateau de Vincennes",
+        "type": "location",
+        "slug": "chateau-de-vincennes",
+        "label": "Place of death"
+      },
+      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
@@ -171,12 +177,6 @@
         "type": "location",
         "slug": "monmouth",
         "label": "Birthplace"
-      },
-      {
-        "title": "Chateau de Vincennes",
-        "type": "location",
-        "slug": "chateau-de-vincennes",
-        "label": "Place of death"
       },
       {
         "title": "Westminster",
@@ -193,6 +193,12 @@
         "label": "Fought in this engagement"
       },
       {
+        "title": "Battle of Shrewsbury",
+        "type": "event",
+        "slug": "battle-of-shrewsbury",
+        "label": "Took an arrow in the face here as Prince of Wales, 1403"
+      },
+      {
         "title": "Hundred Years' War",
         "type": "event",
         "slug": "hundred-years-war",
@@ -203,26 +209,20 @@
         "type": "event",
         "slug": "siege-of-rouen",
         "label": "Commander at the siege"
-      },
-      {
-        "title": "Battle of Shrewsbury",
-        "type": "event",
-        "slug": "battle-of-shrewsbury",
-        "label": "Took an arrow in the face here as Prince of Wales, 1403"
       }
     ],
     "people": [
-      {
-        "title": "Edward III of England",
-        "type": "person",
-        "slug": "edward-iii-of-england",
-        "label": "Ruler of Kingdom of England"
-      },
       {
         "title": "Catherine of Valois",
         "type": "person",
         "slug": "catherine-of-valois",
         "label": "Queen"
+      },
+      {
+        "title": "Edward III of England",
+        "type": "person",
+        "slug": "edward-iii-of-england",
+        "label": "Ruler of Kingdom of England"
       },
       {
         "title": "Mary de Bohun",

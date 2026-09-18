@@ -173,16 +173,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Justinian I",
-        "type": "person",
-        "slug": "justinian-i",
-        "label": "The emperor he served"
-      },
-      {
         "title": "Gelimer",
         "type": "person",
         "slug": "gelimer",
         "label": "The king he defeated and captured"
+      },
+      {
+        "title": "Justinian I",
+        "type": "person",
+        "slug": "justinian-i",
+        "label": "The emperor he served"
       },
       {
         "title": "Theodora (wife of Justinian I)",
@@ -192,12 +192,6 @@
       }
     ],
     "events": [
-      {
-        "title": "Vandalic War",
-        "type": "event",
-        "slug": "vandalic-war",
-        "label": "The campaign he commanded"
-      },
       {
         "title": "Battle of Ad Decimum",
         "type": "event",
@@ -221,6 +215,12 @@
         "type": "event",
         "slug": "siege-of-rome-537",
         "label": "He held the city for a year and nine days"
+      },
+      {
+        "title": "Vandalic War",
+        "type": "event",
+        "slug": "vandalic-war",
+        "label": "The campaign he commanded"
       }
     ],
     "locations": [

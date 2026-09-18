@@ -156,16 +156,16 @@
     ],
     "locations": [
       {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Realm"
-      },
-      {
         "title": "Bursa",
         "type": "location",
         "slug": "bursa",
         "label": "Birthplace"
+      },
+      {
+        "title": "Edirne",
+        "type": "location",
+        "slug": "edirne",
+        "label": "His European capital"
       },
       {
         "title": "Kosovo Field",
@@ -174,10 +174,10 @@
         "label": "Place of death"
       },
       {
-        "title": "Edirne",
+        "title": "Ottoman Empire",
         "type": "location",
-        "slug": "edirne",
-        "label": "His European capital"
+        "slug": "ottoman-empire",
+        "label": "Realm"
       }
     ],
     "people": [

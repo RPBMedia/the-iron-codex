@@ -75,16 +75,16 @@
     ],
     "locations": [
       {
-        "title": "Seville",
-        "type": "location",
-        "slug": "seville",
-        "label": "The city taken in 1248"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia it was taken from"
+      },
+      {
+        "title": "Seville",
+        "type": "location",
+        "slug": "seville",
+        "label": "The city taken in 1248"
       }
     ],
     "events": [

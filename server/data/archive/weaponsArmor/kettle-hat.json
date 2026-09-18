@@ -90,14 +90,25 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Longbow",
+        "title": "Barbute",
         "type": "weaponArmor",
-        "slug": "longbow"
+        "slug": "barbute",
+        "label": "The other great open infantry helmet"
       },
       {
         "title": "Crossbow",
         "type": "weaponArmor",
         "slug": "crossbow"
+      },
+      {
+        "title": "Great Helm",
+        "type": "weaponArmor",
+        "slug": "great-helm"
+      },
+      {
+        "title": "Longbow",
+        "type": "weaponArmor",
+        "slug": "longbow"
       },
       {
         "title": "Pavise",
@@ -108,17 +119,6 @@
         "title": "Sallet",
         "type": "weaponArmor",
         "slug": "sallet"
-      },
-      {
-        "title": "Great Helm",
-        "type": "weaponArmor",
-        "slug": "great-helm"
-      },
-      {
-        "title": "Barbute",
-        "type": "weaponArmor",
-        "slug": "barbute",
-        "label": "The other great open infantry helmet"
       }
     ]
   },

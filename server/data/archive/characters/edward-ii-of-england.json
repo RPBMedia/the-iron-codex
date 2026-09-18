@@ -141,16 +141,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of England",
-        "type": "location",
-        "slug": "kingdom-of-england",
-        "label": "Birthplace"
-      },
-      {
         "title": "Berkeley Castle",
         "type": "location",
         "slug": "berkeley-castle",
         "label": "Place of death"
+      },
+      {
+        "title": "Kingdom of England",
+        "type": "location",
+        "slug": "kingdom-of-england",
+        "label": "Birthplace"
       },
       {
         "title": "Monmouth",
@@ -187,15 +187,15 @@
         "label": "Ruler of Kingdom of England"
       },
       {
-        "title": "Robert the Bruce",
-        "type": "person",
-        "slug": "robert-the-bruce"
-      },
-      {
         "title": "Isabella of France",
         "type": "person",
         "slug": "isabella-of-france",
         "label": "Queen, who deposed him"
+      },
+      {
+        "title": "Robert the Bruce",
+        "type": "person",
+        "slug": "robert-the-bruce"
       }
     ]
   },

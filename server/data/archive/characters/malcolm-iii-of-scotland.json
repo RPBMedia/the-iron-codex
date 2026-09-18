@@ -216,16 +216,16 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Edward the Confessor",
+        "type": "person",
+        "slug": "edward-the-confessor",
+        "label": "Backed his return from exile against Macbeth"
+      },
+      {
         "title": "Matilda of Scotland",
         "type": "person",
         "slug": "matilda-of-scotland",
         "label": "Daughter, who married Henry I of England"
-      },
-      {
-        "title": "William the Conqueror",
-        "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Received his submission at Abernethy in 1072"
       },
       {
         "title": "William II of England",
@@ -234,24 +234,24 @@
         "label": "The king whose earl's men killed him in 1093"
       },
       {
-        "title": "Edward the Confessor",
+        "title": "William the Conqueror",
         "type": "person",
-        "slug": "edward-the-confessor",
-        "label": "Backed his return from exile against Macbeth"
+        "slug": "william-the-conqueror",
+        "label": "Received his submission at Abernethy in 1072"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "The realm he ruled for thirty-five years"
-      },
       {
         "title": "Dunfermline Abbey",
         "type": "location",
         "slug": "dunfermline-abbey",
         "label": "Founded by his queen, and his final burial place"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "The realm he ruled for thirty-five years"
       },
       {
         "title": "Northumbria",

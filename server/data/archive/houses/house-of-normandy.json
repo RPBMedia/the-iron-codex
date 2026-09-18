@@ -253,10 +253,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Empress Matilda",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Founder of the dynasty"
+        "slug": "empress-matilda",
+        "label": "Heir whose son founded the Plantagenets"
       },
       {
         "title": "Henry I",
@@ -265,22 +265,22 @@
         "label": "Reunited England and Normandy"
       },
       {
-        "title": "William II Rufus",
-        "type": "person",
-        "slug": "william-ii-of-england",
-        "label": "Second Norman king"
-      },
-      {
         "title": "Stephen",
         "type": "person",
         "slug": "stephen-of-england",
         "label": "Last of the line; the Anarchy"
       },
       {
-        "title": "Empress Matilda",
+        "title": "William II Rufus",
         "type": "person",
-        "slug": "empress-matilda",
-        "label": "Heir whose son founded the Plantagenets"
+        "slug": "william-ii-of-england",
+        "label": "Second Norman king"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Founder of the dynasty"
       }
     ],
     "events": [
@@ -291,16 +291,16 @@
         "label": "Won the English crown, 1066"
       },
       {
-        "title": "Norman Conquest",
-        "type": "event",
-        "slug": "norman-conquest",
-        "label": "The dynasty’s defining achievement"
-      },
-      {
         "title": "Battle of Stamford Bridge",
         "type": "event",
         "slug": "battle-of-stamford-bridge",
         "label": "Cleared the way weeks before Hastings"
+      },
+      {
+        "title": "Norman Conquest",
+        "type": "event",
+        "slug": "norman-conquest",
+        "label": "The dynasty’s defining achievement"
       }
     ],
     "locations": [

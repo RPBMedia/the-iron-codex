@@ -170,16 +170,16 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Portugal",
-        "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "His kingdom"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "The throne he claimed and lost at Toro"
+      },
+      {
+        "title": "Kingdom of Portugal",
+        "type": "location",
+        "slug": "kingdom-of-portugal",
+        "label": "His kingdom"
       }
     ],
     "people": [
@@ -190,16 +190,16 @@
         "label": "His father and predecessor"
       },
       {
-        "title": "John II of Portugal",
-        "type": "person",
-        "slug": "john-ii-of-portugal",
-        "label": "His son and successor"
-      },
-      {
         "title": "Isabella I of Castile",
         "type": "person",
         "slug": "isabella-of-castile",
         "label": "Rival for Castile, victorious at Toro"
+      },
+      {
+        "title": "John II of Portugal",
+        "type": "person",
+        "slug": "john-ii-of-portugal",
+        "label": "His son and successor"
       }
     ],
     "events": []

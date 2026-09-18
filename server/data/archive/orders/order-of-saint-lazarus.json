@@ -299,16 +299,16 @@
     ],
     "orders": [
       {
-        "title": "Knights Templar",
-        "type": "order",
-        "slug": "knights-templar",
-        "label": "Sent it their leprous knights"
-      },
-      {
         "title": "Knights Hospitaller",
         "type": "order",
         "slug": "knights-hospitaller",
         "label": "The great hospitaller order alongside it"
+      },
+      {
+        "title": "Knights Templar",
+        "type": "order",
+        "slug": "knights-templar",
+        "label": "Sent it their leprous knights"
       }
     ],
     "events": [

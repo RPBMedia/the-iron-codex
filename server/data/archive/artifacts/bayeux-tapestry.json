@@ -87,10 +87,10 @@
     ],
     "people": [
       {
-        "title": "William the Conqueror",
+        "title": "Edith of Wessex",
         "type": "person",
-        "slug": "william-the-conqueror",
-        "label": "Depicts his conquest of England"
+        "slug": "edith-of-wessex",
+        "label": "Queen probably shown at Edward's deathbed"
       },
       {
         "title": "Harold Godwinson",
@@ -99,16 +99,16 @@
         "label": "His defeat and death are central to the work"
       },
       {
-        "title": "Edith of Wessex",
-        "type": "person",
-        "slug": "edith-of-wessex",
-        "label": "Queen probably shown at Edward's deathbed"
-      },
-      {
         "title": "Matilda of Flanders",
         "type": "person",
         "slug": "matilda-of-flanders",
         "label": "Queen wrongly credited with making it"
+      },
+      {
+        "title": "William the Conqueror",
+        "type": "person",
+        "slug": "william-the-conqueror",
+        "label": "Depicts his conquest of England"
       }
     ],
     "locations": [

@@ -237,28 +237,28 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Asturias",
-        "type": "location",
-        "slug": "kingdom-of-asturias",
-        "label": "Its founding legend begins here"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim state whose army was turned back"
       },
       {
-        "title": "Umayyad Caliphate",
+        "title": "Kingdom of Asturias",
         "type": "location",
-        "slug": "umayyad-caliphate",
-        "label": "Ruled al-Andalus in the 720s"
+        "slug": "kingdom-of-asturias",
+        "label": "Its founding legend begins here"
       },
       {
         "title": "Kingdom of León",
         "type": "location",
         "slug": "kingdom-of-leon",
         "label": "Successor kingdom of the Asturian kings"
+      },
+      {
+        "title": "Umayyad Caliphate",
+        "type": "location",
+        "slug": "umayyad-caliphate",
+        "label": "Ruled al-Andalus in the 720s"
       }
     ],
     "houses": [

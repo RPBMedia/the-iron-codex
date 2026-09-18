@@ -90,12 +90,6 @@
         "label": "Retired here and is buried here"
       },
       {
-        "title": "Richard the Lionheart",
-        "type": "person",
-        "slug": "richard-the-lionheart",
-        "label": "Buried here in 1199"
-      },
-      {
         "title": "Henry II of England",
         "type": "person",
         "slug": "henry-ii-of-england",
@@ -106,6 +100,12 @@
         "type": "person",
         "slug": "isabella-of-angouleme",
         "label": "Buried here"
+      },
+      {
+        "title": "Richard the Lionheart",
+        "type": "person",
+        "slug": "richard-the-lionheart",
+        "label": "Buried here in 1199"
       }
     ],
     "locations": [
@@ -114,12 +114,6 @@
         "type": "location",
         "slug": "aquitaine",
         "label": "Eleanor’s duchy"
-      },
-      {
-        "title": "Poitiers",
-        "type": "location",
-        "slug": "poitiers",
-        "label": "Eleanor’s comital capital"
       },
       {
         "title": "Chalus",
@@ -132,6 +126,12 @@
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Realm of the kings buried here"
+      },
+      {
+        "title": "Poitiers",
+        "type": "location",
+        "slug": "poitiers",
+        "label": "Eleanor’s comital capital"
       }
     ]
   },

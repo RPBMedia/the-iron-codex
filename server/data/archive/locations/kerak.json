@@ -227,10 +227,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Jerusalem",
+        "title": "Ayyubid Sultanate",
         "type": "location",
-        "slug": "kingdom-of-jerusalem",
-        "label": "Seat of Oultrejordain, one of its four great baronies"
+        "slug": "ayyubid-sultanate",
+        "label": "Held Kerak from 1188 to 1263"
       },
       {
         "title": "Crusader States",
@@ -239,19 +239,31 @@
         "label": "A Frankish castle from about 1142 to 1188"
       },
       {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate",
-        "label": "Held Kerak from 1188 to 1263"
-      },
-      {
         "title": "Damascus",
         "type": "location",
         "slug": "damascus",
         "label": "Where Baraka Khan was buried, in his father's mausoleum"
+      },
+      {
+        "title": "Kingdom of Jerusalem",
+        "type": "location",
+        "slug": "kingdom-of-jerusalem",
+        "label": "Seat of Oultrejordain, one of its four great baronies"
       }
     ],
     "people": [
+      {
+        "title": "Al-Adil I",
+        "type": "person",
+        "slug": "al-adil-i",
+        "label": "Brought the Egyptian army to the siege of 1183 and later held Kerak"
+      },
+      {
+        "title": "Al-Kamil",
+        "type": "person",
+        "slug": "al-kamil",
+        "label": "Left his nephew al-Nasir Dawud with Kerak in 1229"
+      },
       {
         "title": "Baldwin III of Jerusalem",
         "type": "person",
@@ -259,16 +271,22 @@
         "label": "Granted Oultrejordain to Philip of Milly in 1161"
       },
       {
-        "title": "Reynald of Châtillon",
-        "type": "person",
-        "slug": "reynald-of-chatillon",
-        "label": "Lord of Kerak from 1177; raided the caravans and the Red Sea"
-      },
-      {
         "title": "Baldwin IV of Jerusalem",
         "type": "person",
         "slug": "baldwin-iv-of-jerusalem",
         "label": "Relieved the castle in 1183 and 1184"
+      },
+      {
+        "title": "Baraka Khan",
+        "type": "person",
+        "slug": "baraka-khan",
+        "label": "Exiled here after his deposition; died here in 1280"
+      },
+      {
+        "title": "Baybars",
+        "type": "person",
+        "slug": "baybars",
+        "label": "Took Kerak from al-Mughith Umar in 1263"
       },
       {
         "title": "Isabella I of Jerusalem",
@@ -283,34 +301,16 @@
         "label": "Commanded the army that relieved Kerak in December 1183"
       },
       {
+        "title": "Reynald of Châtillon",
+        "type": "person",
+        "slug": "reynald-of-chatillon",
+        "label": "Lord of Kerak from 1177; raided the caravans and the Red Sea"
+      },
+      {
         "title": "Saladin",
         "type": "person",
         "slug": "saladin",
         "label": "Besieged Kerak in 1183 and 1184; his troops took it in 1188"
-      },
-      {
-        "title": "Al-Adil I",
-        "type": "person",
-        "slug": "al-adil-i",
-        "label": "Brought the Egyptian army to the siege of 1183 and later held Kerak"
-      },
-      {
-        "title": "Al-Kamil",
-        "type": "person",
-        "slug": "al-kamil",
-        "label": "Left his nephew al-Nasir Dawud with Kerak in 1229"
-      },
-      {
-        "title": "Baybars",
-        "type": "person",
-        "slug": "baybars",
-        "label": "Took Kerak from al-Mughith Umar in 1263"
-      },
-      {
-        "title": "Baraka Khan",
-        "type": "person",
-        "slug": "baraka-khan",
-        "label": "Exiled here after his deposition; died here in 1280"
       }
     ],
     "orders": [

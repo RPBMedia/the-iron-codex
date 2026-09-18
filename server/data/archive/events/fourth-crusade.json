@@ -186,6 +186,12 @@
   "relatedEntries": {
     "events": [
       {
+        "title": "Recovery of Constantinople",
+        "type": "event",
+        "slug": "recovery-of-constantinople",
+        "label": "The undoing, fifty-seven years later"
+      },
+      {
         "title": "Siege and Sack of Constantinople (1204)",
         "type": "event",
         "slug": "siege-of-constantinople-1204",
@@ -196,12 +202,6 @@
         "type": "event",
         "slug": "third-crusade",
         "label": "The crusade before it"
-      },
-      {
-        "title": "Recovery of Constantinople",
-        "type": "event",
-        "slug": "recovery-of-constantinople",
-        "label": "The undoing, fifty-seven years later"
       }
     ],
     "people": [
@@ -220,16 +220,16 @@
         "label": "The city it took"
       },
       {
-        "title": "Latin Empire",
-        "type": "location",
-        "slug": "latin-empire",
-        "label": "What it founded"
-      },
-      {
         "title": "Empire of Nicaea",
         "type": "location",
         "slug": "empire-of-nicaea",
         "label": "The successor state that eventually won"
+      },
+      {
+        "title": "Latin Empire",
+        "type": "location",
+        "slug": "latin-empire",
+        "label": "What it founded"
       }
     ]
   },

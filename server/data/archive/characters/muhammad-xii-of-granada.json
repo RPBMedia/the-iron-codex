@@ -154,16 +154,16 @@
     ],
     "locations": [
       {
-        "title": "Granada",
-        "type": "location",
-        "slug": "granada",
-        "label": "His capital, lost in 1492"
-      },
-      {
         "title": "al-Andalus",
         "type": "location",
         "slug": "al-andalus",
         "label": "The Muslim Iberia that ended with him"
+      },
+      {
+        "title": "Granada",
+        "type": "location",
+        "slug": "granada",
+        "label": "His capital, lost in 1492"
       }
     ]
   }

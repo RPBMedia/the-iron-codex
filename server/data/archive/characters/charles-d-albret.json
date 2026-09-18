@@ -155,10 +155,10 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of France",
+        "title": "Agincourt",
         "type": "location",
-        "slug": "kingdom-of-france",
-        "label": "Realm"
+        "slug": "agincourt",
+        "label": "Place of death"
       },
       {
         "title": "Gascony",
@@ -167,23 +167,23 @@
         "label": "Birthplace"
       },
       {
-        "title": "Agincourt",
+        "title": "Kingdom of France",
         "type": "location",
-        "slug": "agincourt",
-        "label": "Place of death"
+        "slug": "kingdom-of-france",
+        "label": "Realm"
       }
     ],
     "people": [
       {
-        "title": "John II of France",
-        "type": "person",
-        "slug": "john-ii-of-france",
-        "label": "Ruler of Kingdom of France"
-      },
-      {
         "title": "Joan of Arc",
         "type": "person",
         "slug": "joan-of-arc",
+        "label": "Ruler of Kingdom of France"
+      },
+      {
+        "title": "John II of France",
+        "type": "person",
+        "slug": "john-ii-of-france",
         "label": "Ruler of Kingdom of France"
       }
     ]

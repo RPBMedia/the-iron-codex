@@ -155,16 +155,16 @@
     ],
     "locations": [
       {
-        "title": "Valencia",
-        "type": "location",
-        "slug": "valencia",
-        "label": "The city he conquered and ruled"
-      },
-      {
         "title": "Kingdom of Castile",
         "type": "location",
         "slug": "kingdom-of-castile",
         "label": "His homeland"
+      },
+      {
+        "title": "Valencia",
+        "type": "location",
+        "slug": "valencia",
+        "label": "The city he conquered and ruled"
       }
     ],
     "houses": [

@@ -235,19 +235,25 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Ramiro II of León",
-        "type": "person",
-        "slug": "ramiro-ii-of-leon",
-        "label": "His king, ally at Simancas and gaoler in 944"
-      },
-      {
         "title": "Abd al-Rahman III",
         "type": "person",
         "slug": "abd-al-rahman-iii",
         "label": "The caliph he fought on the Duero frontier"
+      },
+      {
+        "title": "Ramiro II of León",
+        "type": "person",
+        "slug": "ramiro-ii-of-leon",
+        "label": "His king, ally at Simancas and gaoler in 944"
       }
     ],
     "locations": [
+      {
+        "title": "Caliphate of Córdoba",
+        "type": "location",
+        "slug": "caliphate-of-cordoba",
+        "label": "The power across his frontier"
+      },
       {
         "title": "Kingdom of Castile",
         "type": "location",
@@ -259,12 +265,6 @@
         "type": "location",
         "slug": "kingdom-of-leon",
         "label": "The crown he served and rebelled against"
-      },
-      {
-        "title": "Caliphate of Córdoba",
-        "type": "location",
-        "slug": "caliphate-of-cordoba",
-        "label": "The power across his frontier"
       },
       {
         "title": "Simancas",

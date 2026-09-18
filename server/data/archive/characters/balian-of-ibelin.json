@@ -134,35 +134,30 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Ayyubid Sultanate",
+        "type": "location",
+        "slug": "ayyubid-sultanate"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem",
         "label": "Realm"
-      },
-      {
-        "title": "Ayyubid Sultanate",
-        "type": "location",
-        "slug": "ayyubid-sultanate"
       }
     ],
     "events": [
       {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
-      {
         "title": "Battle of Hattin",
         "type": "event",
         "slug": "battle-of-hattin"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ],
     "people": [
-      {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin"
-      },
       {
         "title": "Conrad of Montferrat",
         "type": "person",
@@ -174,6 +169,11 @@
         "type": "person",
         "slug": "guy-of-lusignan",
         "label": "Ruler of Kingdom of Jerusalem"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin"
       }
     ]
   },

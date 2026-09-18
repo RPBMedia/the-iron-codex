@@ -137,10 +137,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "John Balliol",
+        "title": "Andrew Moray",
         "type": "person",
-        "slug": "john-balliol",
-        "label": "The king whose army was destroyed"
+        "slug": "andrew-moray",
+        "label": "Taken prisoner here, and escaped"
       },
       {
         "title": "Edward I of England",
@@ -149,10 +149,10 @@
         "label": "Directed the invasion of 1296"
       },
       {
-        "title": "Andrew Moray",
+        "title": "John Balliol",
         "type": "person",
-        "slug": "andrew-moray",
-        "label": "Taken prisoner here, and escaped"
+        "slug": "john-balliol",
+        "label": "The king whose army was destroyed"
       },
       {
         "title": "John de Warenne, 6th Earl of Surrey",
@@ -163,15 +163,15 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant faction"
-      },
-      {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
+        "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
         "label": "Combatant faction"
       },
       {

@@ -78,12 +78,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Harald Fairhair",
-        "type": "person",
-        "slug": "harald-fairhair",
-        "label": "Held Avaldsnes, and by tradition died in Rogaland"
-      },
-      {
         "title": "Eric Bloodaxe",
         "type": "person",
         "slug": "eric-bloodaxe",
@@ -94,6 +88,12 @@
         "type": "person",
         "slug": "haakon-the-good",
         "label": "Ruled the west from the same coastal seats"
+      },
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
+        "label": "Held Avaldsnes, and by tradition died in Rogaland"
       }
     ],
     "events": [
@@ -106,16 +106,16 @@
     ],
     "locations": [
       {
-        "title": "Kingdom of Norway",
-        "type": "location",
-        "slug": "kingdom-of-norway",
-        "label": "Containing realm"
-      },
-      {
         "title": "Bergen",
         "type": "location",
         "slug": "bergen",
         "label": "The western capital that later drew the coast’s trade"
+      },
+      {
+        "title": "Kingdom of Norway",
+        "type": "location",
+        "slug": "kingdom-of-norway",
+        "label": "Containing realm"
       }
     ],
     "houses": [

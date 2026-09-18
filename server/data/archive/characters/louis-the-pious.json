@@ -170,16 +170,16 @@
     "locations": [],
     "events": [
       {
-        "title": "Treaty of Verdun",
-        "type": "event",
-        "slug": "treaty-of-verdun",
-        "label": "The partition of his empire among his sons"
-      },
-      {
         "title": "Charlemagne Crowned Emperor",
         "type": "event",
         "slug": "charlemagne-crowned",
         "label": "The imperial office he inherited"
+      },
+      {
+        "title": "Treaty of Verdun",
+        "type": "event",
+        "slug": "treaty-of-verdun",
+        "label": "The partition of his empire among his sons"
       }
     ]
   },

@@ -203,12 +203,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Saladin",
-        "type": "person",
-        "slug": "saladin",
-        "label": "Founder"
-      },
-      {
         "title": "al-Adil I",
         "type": "person",
         "slug": "al-adil-i",
@@ -219,6 +213,12 @@
         "type": "person",
         "slug": "al-kamil",
         "label": "Ceded Jerusalem by treaty"
+      },
+      {
+        "title": "Saladin",
+        "type": "person",
+        "slug": "saladin",
+        "label": "Founder"
       }
     ],
     "events": [

@@ -127,16 +127,10 @@
   "relatedEntries": {
     "weaponsArmor": [
       {
-        "title": "Sutton Hoo Helmet",
+        "title": "Mail Armor",
         "type": "weaponArmor",
-        "slug": "sutton-hoo-helmet",
-        "label": "The other great Anglo-Saxon helmet, to be read against it"
-      },
-      {
-        "title": "Spangenhelm",
-        "type": "weaponArmor",
-        "slug": "spangenhelm",
-        "label": "The construction tradition it relates to"
+        "slug": "mail-armor",
+        "label": "Its neck curtain survives attached"
       },
       {
         "title": "Nasal Helmet",
@@ -145,10 +139,10 @@
         "label": "The later one-piece form"
       },
       {
-        "title": "Mail Armor",
+        "title": "Round Shield",
         "type": "weaponArmor",
-        "slug": "mail-armor",
-        "label": "Its neck curtain survives attached"
+        "slug": "round-shield",
+        "label": "What most Anglo-Saxon fighters carried"
       },
       {
         "title": "Seax",
@@ -157,10 +151,16 @@
         "label": "The characteristic Anglo-Saxon blade"
       },
       {
-        "title": "Round Shield",
+        "title": "Spangenhelm",
         "type": "weaponArmor",
-        "slug": "round-shield",
-        "label": "What most Anglo-Saxon fighters carried"
+        "slug": "spangenhelm",
+        "label": "The construction tradition it relates to"
+      },
+      {
+        "title": "Sutton Hoo Helmet",
+        "type": "weaponArmor",
+        "slug": "sutton-hoo-helmet",
+        "label": "The other great Anglo-Saxon helmet, to be read against it"
       }
     ]
   },

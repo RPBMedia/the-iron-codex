@@ -109,16 +109,28 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Cnut the Great",
+        "type": "person",
+        "slug": "cnut-the-great",
+        "label": "Made Roskilde a bishopric in 1020"
+      },
+      {
+        "title": "Eric VI of Denmark",
+        "type": "person",
+        "slug": "eric-vi-of-denmark",
+        "label": "Died in the town in 1319"
+      },
+      {
         "title": "Harald Bluetooth",
         "type": "person",
         "slug": "harald-bluetooth",
         "label": "Built the first church here and was buried in it"
       },
       {
-        "title": "Cnut the Great",
+        "title": "Margaret I of Denmark",
         "type": "person",
-        "slug": "cnut-the-great",
-        "label": "Made Roskilde a bishopric in 1020"
+        "slug": "margaret-i",
+        "label": "Entombed in the cathedral in 1413"
       },
       {
         "title": "Sweyn II Estridsson",
@@ -137,27 +149,9 @@
         "type": "person",
         "slug": "valdemar-i-of-denmark",
         "label": "Escaped wounded from the Bloodfeast"
-      },
-      {
-        "title": "Margaret I of Denmark",
-        "type": "person",
-        "slug": "margaret-i",
-        "label": "Entombed in the cathedral in 1413"
-      },
-      {
-        "title": "Eric VI of Denmark",
-        "type": "person",
-        "slug": "eric-vi-of-denmark",
-        "label": "Died in the town in 1319"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Denmark",
-        "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "Containing realm"
-      },
       {
         "title": "Copenhagen",
         "type": "location",
@@ -169,6 +163,12 @@
         "type": "location",
         "slug": "jelling",
         "label": "Harald Bluetooth’s dynastic monument"
+      },
+      {
+        "title": "Kingdom of Denmark",
+        "type": "location",
+        "slug": "kingdom-of-denmark",
+        "label": "Containing realm"
       }
     ],
     "events": [

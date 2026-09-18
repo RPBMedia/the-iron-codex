@@ -186,10 +186,10 @@
   "relatedEntries": {
     "locations": [
       {
-        "title": "Kingdom of Portugal",
+        "title": "Al-Andalus",
         "type": "location",
-        "slug": "kingdom-of-portugal",
-        "label": "The kingdom whose borders he completed"
+        "slug": "al-andalus",
+        "label": "The Muslim south he finished conquering"
       },
       {
         "title": "Kingdom of Castile",
@@ -198,10 +198,10 @@
         "label": "Rival over the Algarve, settled in 1267"
       },
       {
-        "title": "Al-Andalus",
+        "title": "Kingdom of Portugal",
         "type": "location",
-        "slug": "al-andalus",
-        "label": "The Muslim south he finished conquering"
+        "slug": "kingdom-of-portugal",
+        "label": "The kingdom whose borders he completed"
       },
       {
         "title": "Lisbon",
@@ -212,16 +212,16 @@
     ],
     "people": [
       {
-        "title": "Sancho II of Portugal",
-        "type": "person",
-        "slug": "sancho-ii-of-portugal",
-        "label": "His brother and predecessor"
-      },
-      {
         "title": "Denis of Portugal",
         "type": "person",
         "slug": "denis-of-portugal",
         "label": "His son and successor"
+      },
+      {
+        "title": "Sancho II of Portugal",
+        "type": "person",
+        "slug": "sancho-ii-of-portugal",
+        "label": "His brother and predecessor"
       }
     ],
     "events": []

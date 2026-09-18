@@ -170,12 +170,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "William Wallace",
-        "type": "person",
-        "slug": "william-wallace",
-        "label": "Commander"
-      },
-      {
         "title": "Edward I of England",
         "type": "person",
         "slug": "edward-i-of-england",
@@ -186,34 +180,40 @@
         "type": "person",
         "slug": "john-de-warenne",
         "label": "Commanded the second division under Edward I"
+      },
+      {
+        "title": "William Wallace",
+        "type": "person",
+        "slug": "william-wallace",
+        "label": "Commander"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of Scotland",
-        "type": "location",
-        "slug": "kingdom-of-scotland",
-        "label": "Combatant faction"
-      },
       {
         "title": "Kingdom of England",
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Combatant faction"
+      },
+      {
+        "title": "Kingdom of Scotland",
+        "type": "location",
+        "slug": "kingdom-of-scotland",
+        "label": "Combatant faction"
       }
     ],
     "events": [
-      {
-        "title": "Battle of Stirling Bridge",
-        "type": "event",
-        "slug": "battle-of-stirling-bridge",
-        "label": "Wallace's victory ten months earlier"
-      },
       {
         "title": "Battle of Bannockburn",
         "type": "event",
         "slug": "battle-of-bannockburn",
         "label": "Where the schiltron was made to move"
+      },
+      {
+        "title": "Battle of Stirling Bridge",
+        "type": "event",
+        "slug": "battle-of-stirling-bridge",
+        "label": "Wallace's victory ten months earlier"
       },
       {
         "title": "Wars of Scottish Independence",

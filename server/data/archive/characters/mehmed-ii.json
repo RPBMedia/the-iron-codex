@@ -203,16 +203,15 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Constantinople",
+        "type": "location",
+        "slug": "constantinople"
+      },
+      {
         "title": "Edirne",
         "type": "location",
         "slug": "edirne",
         "label": "Birthplace"
-      },
-      {
-        "title": "Ottoman Empire",
-        "type": "location",
-        "slug": "ottoman-empire",
-        "label": "Realm"
       },
       {
         "title": "Gebze",
@@ -221,15 +220,16 @@
         "label": "Place of death"
       },
       {
-        "title": "Constantinople",
-        "type": "location",
-        "slug": "constantinople"
-      },
-      {
         "title": "Kosovo Field",
         "type": "location",
         "slug": "kosovo-field",
         "label": "His first battle, 1448"
+      },
+      {
+        "title": "Ottoman Empire",
+        "type": "location",
+        "slug": "ottoman-empire",
+        "label": "Realm"
       }
     ],
     "events": [
@@ -250,16 +250,16 @@
     ],
     "weaponsArmor": [
       {
-        "title": "Bombard",
-        "type": "weaponArmor",
-        "slug": "bombard",
-        "label": "Commissioned the great guns that broke the Theodosian Walls"
-      },
-      {
         "title": "Arquebus",
         "type": "weaponArmor",
         "slug": "arquebus",
         "label": "Gunpowder small arms in his army at the siege of 1453"
+      },
+      {
+        "title": "Bombard",
+        "type": "weaponArmor",
+        "slug": "bombard",
+        "label": "Commissioned the great guns that broke the Theodosian Walls"
       }
     ]
   },

@@ -79,10 +79,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Valdemar IV Atterdag",
+        "title": "Christopher II of Denmark",
         "type": "person",
-        "slug": "valdemar-iv-atterdag",
-        "label": "Rebuilt the castle and died here in 1375"
+        "slug": "christopher-ii-of-denmark",
+        "label": "Valdemar’s father, who left the kingdom pawned"
+      },
+      {
+        "title": "Eric of Pomerania",
+        "type": "person",
+        "slug": "eric-of-pomerania",
+        "label": "Struck coin at Gurre in the 1430s"
       },
       {
         "title": "Margaret I",
@@ -97,19 +103,19 @@
         "label": "His grandson and heir"
       },
       {
-        "title": "Eric of Pomerania",
+        "title": "Valdemar IV Atterdag",
         "type": "person",
-        "slug": "eric-of-pomerania",
-        "label": "Struck coin at Gurre in the 1430s"
-      },
-      {
-        "title": "Christopher II of Denmark",
-        "type": "person",
-        "slug": "christopher-ii-of-denmark",
-        "label": "Valdemar’s father, who left the kingdom pawned"
+        "slug": "valdemar-iv-atterdag",
+        "label": "Rebuilt the castle and died here in 1375"
       }
     ],
     "locations": [
+      {
+        "title": "Helsingborg",
+        "type": "location",
+        "slug": "helsingborg",
+        "label": "Pledged to the Hansa under the Treaty of Stralsund"
+      },
       {
         "title": "Kingdom of Denmark",
         "type": "location",
@@ -121,12 +127,6 @@
         "type": "location",
         "slug": "vordingborg",
         "label": "His first burial place"
-      },
-      {
-        "title": "Helsingborg",
-        "type": "location",
-        "slug": "helsingborg",
-        "label": "Pledged to the Hansa under the Treaty of Stralsund"
       }
     ]
   },

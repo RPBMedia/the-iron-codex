@@ -135,6 +135,11 @@
   "relatedEntries": {
     "locations": [
       {
+        "title": "Byzantine Empire",
+        "type": "location",
+        "slug": "byzantine-empire"
+      },
+      {
         "title": "Kingdom of Jerusalem",
         "type": "location",
         "slug": "kingdom-of-jerusalem"
@@ -143,24 +148,19 @@
         "title": "Papacy",
         "type": "location",
         "slug": "papacy"
-      },
-      {
-        "title": "Byzantine Empire",
-        "type": "location",
-        "slug": "byzantine-empire"
       }
     ],
     "events": [
-      {
-        "title": "Third Crusade",
-        "type": "event",
-        "slug": "third-crusade"
-      },
       {
         "title": "Battle of Mansurah",
         "type": "event",
         "slug": "battle-of-mansurah",
         "label": "Fought there with his brothers in 1250"
+      },
+      {
+        "title": "Third Crusade",
+        "type": "event",
+        "slug": "third-crusade"
       }
     ]
   },

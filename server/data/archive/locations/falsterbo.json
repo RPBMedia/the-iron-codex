@@ -85,10 +85,10 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Olaf IV of Norway",
+        "title": "Eric VI of Denmark",
         "type": "person",
-        "slug": "olaf-iv-of-norway",
-        "label": "Died here on 3 August 1387"
+        "slug": "eric-vi-of-denmark",
+        "label": "Lost the first castle to the Hanseatic towns in 1311"
       },
       {
         "title": "Margaret I",
@@ -97,24 +97,24 @@
         "label": "His mother, who took power after his death here"
       },
       {
+        "title": "Olaf IV of Norway",
+        "type": "person",
+        "slug": "olaf-iv-of-norway",
+        "label": "Died here on 3 August 1387"
+      },
+      {
         "title": "Valdemar IV Atterdag",
         "type": "person",
         "slug": "valdemar-iv-atterdag",
         "label": "Fought the Hanseatic towns over the Scania market"
-      },
-      {
-        "title": "Eric VI of Denmark",
-        "type": "person",
-        "slug": "eric-vi-of-denmark",
-        "label": "Lost the first castle to the Hanseatic towns in 1311"
       }
     ],
     "locations": [
       {
-        "title": "Kingdom of Denmark",
+        "title": "Helsingborg",
         "type": "location",
-        "slug": "kingdom-of-denmark",
-        "label": "The realm that held Scania and taxed the market"
+        "slug": "helsingborg",
+        "label": "One of the Sound castles pledged to the Hanse in 1370"
       },
       {
         "title": "Kalmar Union",
@@ -123,10 +123,10 @@
         "label": "The union that followed from Olaf’s death here"
       },
       {
-        "title": "Helsingborg",
+        "title": "Kingdom of Denmark",
         "type": "location",
-        "slug": "helsingborg",
-        "label": "One of the Sound castles pledged to the Hanse in 1370"
+        "slug": "kingdom-of-denmark",
+        "label": "The realm that held Scania and taxed the market"
       }
     ]
   },

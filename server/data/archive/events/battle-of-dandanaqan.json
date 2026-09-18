@@ -171,16 +171,16 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Tughril Beg",
-        "type": "person",
-        "slug": "tughril-beg",
-        "label": "Proclaimed sultan after the victory"
-      },
-      {
         "title": "Alp Arslan",
         "type": "person",
         "slug": "alp-arslan",
         "label": "Son of Chaghri Beg, and the victor of Manzikert thirty-one years later"
+      },
+      {
+        "title": "Tughril Beg",
+        "type": "person",
+        "slug": "tughril-beg",
+        "label": "Proclaimed sultan after the victory"
       }
     ],
     "events": [
@@ -193,6 +193,12 @@
     ],
     "locations": [
       {
+        "title": "Abbasid Caliphate",
+        "type": "location",
+        "slug": "abbasid-caliphate",
+        "label": "Taken under Seljuk protection fifteen years later"
+      },
+      {
         "title": "Seljuk Turks",
         "type": "location",
         "slug": "seljuk-turks",
@@ -203,12 +209,6 @@
         "type": "location",
         "slug": "sultanate-of-rum",
         "label": "The Anatolian branch of the Seljuk house"
-      },
-      {
-        "title": "Abbasid Caliphate",
-        "type": "location",
-        "slug": "abbasid-caliphate",
-        "label": "Taken under Seljuk protection fifteen years later"
       }
     ],
     "houses": [

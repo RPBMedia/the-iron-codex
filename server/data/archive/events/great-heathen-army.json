@@ -221,12 +221,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Guthrum",
-        "type": "person",
-        "slug": "guthrum",
-        "label": "Its king in the war with Wessex"
-      },
-      {
         "type": "person",
         "slug": "alfred-the-great",
         "label": "Defeated it at Edington"
@@ -236,6 +230,12 @@
         "type": "person",
         "slug": "aethelred-i-of-wessex",
         "label": "Fought it in 871"
+      },
+      {
+        "title": "Guthrum",
+        "type": "person",
+        "slug": "guthrum",
+        "label": "Its king in the war with Wessex"
       },
       {
         "title": "Ragnar Lothbrok",
@@ -260,16 +260,16 @@
         "label": "The region it settled"
       },
       {
-        "title": "Kingdom of York",
-        "type": "location",
-        "slug": "kingdom-of-york",
-        "label": "The kingdom its settlers founded"
-      },
-      {
         "title": "Kingdom of East Anglia",
         "type": "location",
         "slug": "kingdom-of-east-anglia",
         "label": "Conquered in 869"
+      },
+      {
+        "title": "Kingdom of York",
+        "type": "location",
+        "slug": "kingdom-of-york",
+        "label": "The kingdom its settlers founded"
       }
     ]
   }

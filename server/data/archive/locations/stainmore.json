@@ -90,43 +90,31 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Eric Bloodaxe",
-        "type": "person",
-        "slug": "eric-bloodaxe",
-        "label": "Killed here in 954 by the traditional account"
-      },
-      {
         "title": "Eadred of England",
         "type": "person",
         "slug": "eadred-of-england",
         "label": "English king who gained Northumbria by Eric’s fall"
       },
       {
-        "title": "Harald Fairhair",
+        "title": "Eric Bloodaxe",
         "type": "person",
-        "slug": "harald-fairhair",
-        "label": "His father, if the identification is right"
+        "slug": "eric-bloodaxe",
+        "label": "Killed here in 954 by the traditional account"
       },
       {
         "title": "Haakon the Good",
         "type": "person",
         "slug": "haakon-the-good",
         "label": "His brother, who held Norway in his absence"
+      },
+      {
+        "title": "Harald Fairhair",
+        "type": "person",
+        "slug": "harald-fairhair",
+        "label": "His father, if the identification is right"
       }
     ],
     "locations": [
-      {
-        "title": "Kingdom of York",
-        "type": "location",
-        "slug": "kingdom-of-york",
-        "label": "The realm he lost in 954"
-      },
-      {
-        "title": "Northumbria",
-        "type": "location",
-        "slug": "northumbria",
-        "label": "Absorbed into England after his death"
-      },
       {
         "title": "Danelaw",
         "type": "location",
@@ -138,6 +126,18 @@
         "type": "location",
         "slug": "kingdom-of-england",
         "label": "Which took Northumbria for good"
+      },
+      {
+        "title": "Kingdom of York",
+        "type": "location",
+        "slug": "kingdom-of-york",
+        "label": "The realm he lost in 954"
+      },
+      {
+        "title": "Northumbria",
+        "type": "location",
+        "slug": "northumbria",
+        "label": "Absorbed into England after his death"
       }
     ]
   },

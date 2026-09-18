@@ -72,6 +72,12 @@
   "relatedEntries": {
     "people": [
       {
+        "title": "Christopher of Bavaria",
+        "type": "person",
+        "slug": "christopher-of-bavaria",
+        "label": "His nephew, elected in his place"
+      },
+      {
         "title": "Eric of Pomerania",
         "type": "person",
         "slug": "eric-of-pomerania",
@@ -82,15 +88,15 @@
         "type": "person",
         "slug": "margaret-i",
         "label": "Adopted him as heir to the union"
-      },
-      {
-        "title": "Christopher of Bavaria",
-        "type": "person",
-        "slug": "christopher-of-bavaria",
-        "label": "His nephew, elected in his place"
       }
     ],
     "locations": [
+      {
+        "title": "Helsingborg",
+        "type": "location",
+        "slug": "helsingborg",
+        "label": "Where he levied the Sound Dues from 1429"
+      },
       {
         "title": "Kalmar Union",
         "type": "location",
@@ -108,12 +114,6 @@
         "type": "location",
         "slug": "kingdom-of-sweden",
         "label": "Realm he was deposed from"
-      },
-      {
-        "title": "Helsingborg",
-        "type": "location",
-        "slug": "helsingborg",
-        "label": "Where he levied the Sound Dues from 1429"
       }
     ]
   },

@@ -142,12 +142,6 @@
   "relatedEntries": {
     "people": [
       {
-        "title": "Mehmed II",
-        "type": "person",
-        "slug": "mehmed-ii",
-        "label": "Son, twice enthroned by his father's renunciations"
-      },
-      {
         "title": "Bayezid I",
         "type": "person",
         "slug": "bayezid-i",
@@ -158,9 +152,21 @@
         "type": "person",
         "slug": "john-viii-palaiologos",
         "label": "The emperor whose union-crusade he destroyed at Varna"
+      },
+      {
+        "title": "Mehmed II",
+        "type": "person",
+        "slug": "mehmed-ii",
+        "label": "Son, twice enthroned by his father's renunciations"
       }
     ],
     "locations": [
+      {
+        "title": "Bursa",
+        "type": "location",
+        "slug": "bursa",
+        "label": "His burial place"
+      },
       {
         "title": "Byzantine Empire",
         "type": "location",
@@ -171,12 +177,6 @@
         "type": "location",
         "slug": "edirne",
         "label": "His capital, where he died in 1451"
-      },
-      {
-        "title": "Bursa",
-        "type": "location",
-        "slug": "bursa",
-        "label": "His burial place"
       },
       {
         "title": "Kosovo Field",

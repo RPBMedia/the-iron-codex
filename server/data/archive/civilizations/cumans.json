@@ -206,16 +206,16 @@
     ],
     "locations": [
       {
-        "title": "Mongol Empire",
-        "type": "location",
-        "slug": "mongol-empire",
-        "label": "Which ended Cumania in the 1230s"
-      },
-      {
         "title": "Kievan Rus",
         "type": "location",
         "slug": "kievan-rus",
         "label": "Their opponents, trading partners and in-laws for a century and a half"
+      },
+      {
+        "title": "Mongol Empire",
+        "type": "location",
+        "slug": "mongol-empire",
+        "label": "Which ended Cumania in the 1230s"
       }
     ]
   },
