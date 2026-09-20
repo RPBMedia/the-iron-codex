@@ -20,6 +20,7 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import DetailPage from './pages/DetailPage.jsx'
+import MapPage from './pages/MapPage.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 
 /**
@@ -38,6 +39,32 @@ export function renderArticle(article, collection) {
             path="/:collection/:id"
             element={<DetailPage article={{ ...article, collection }} />}
           />
+        </Routes>
+      </AuthProvider>
+    </MemoryRouter>
+  )
+}
+
+/**
+ * The map page, rendered server-side (QUEUE 0v).
+ *
+ * This is the reason the map is inline SVG and not MapLibre. A WebGL renderer
+ * touches `window` on import, so the choice would have been to lazy-load it and
+ * keep the map OUT of this gate — leaving the one page on the site that makes
+ * historical claims as the one page nothing structurally verifies. Plain SVG
+ * renders in Node unchanged, so the map is gated like everything else.
+ *
+ * It renders in its loading state here, which is correct and is the point: the
+ * geometry arrives by fetch at runtime, and what this asserts is that the shell
+ * around it — the year control, the evidence strip, the attribution — exists and
+ * survives before any data does.
+ */
+export function renderMapPage() {
+  return renderToStaticMarkup(
+    <MemoryRouter initialEntries={['/map?year=1147']}>
+      <AuthProvider>
+        <Routes>
+          <Route path="/map" element={<MapPage />} />
         </Routes>
       </AuthProvider>
     </MemoryRouter>

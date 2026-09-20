@@ -49,7 +49,7 @@ const SNAPSHOT_YEARS = [800, 1100, 1400]
 /** Well clear of anything the map needs; a snapshot over this is un-simplified. */
 const MAX_SNAPSHOT_BYTES = 200 * 1024
 
-const raw = (year) => readFileSync(join(root, 'client', 'public', 'map', `snapshot-${year}.json`), 'utf8')
+const raw = (year) => readFileSync(join(root, 'client', 'public', 'map-data', `snapshot-${year}.json`), 'utf8')
 const snapshot = (year) => JSON.parse(raw(year))
 
 const polygonsOf = (geometry) =>

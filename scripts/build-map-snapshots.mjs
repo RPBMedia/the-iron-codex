@@ -6,7 +6,7 @@
  * Reads the immutable upstream originals in `server/data/map/source/`, clips them
  * to the canvas the brief defines, resolves each polity to a Codex article through
  * `server/data/map/polity-slugs.json`, simplifies, and writes
- * `client/public/map/snapshot-<year>.json`.
+ * `client/public/map-data/snapshot-<year>.json`.
  *
  * Run by hand and commit the output, the way `update-content-dates.mjs` is run.
  * It is deliberately NOT in `vercel-build`: the build must not depend on geometry
@@ -19,7 +19,7 @@
  * static file is the cautious reading. The two constraints happen to agree.
  *
  * Note `client/public/assets/` is forbidden (it collides with Vite's `dist/assets/`),
- * which is why the directory is `client/public/map/`.
+ * which is why the directory is `client/public/map-data/`.
  */
 
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'node:fs'
@@ -29,7 +29,7 @@ import { dirname, join } from 'node:path'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = join(root, 'server', 'data', 'map', 'source')
-const outDir = join(root, 'client', 'public', 'map')
+const outDir = join(root, 'client', 'public', 'map-data')
 
 export const SNAPSHOT_YEARS = [800, 1100, 1400]
 
@@ -265,4 +265,4 @@ for (const year of SNAPSHOT_YEARS) {
 }
 
 console.table(summary)
-console.log(`\nWrote ${SNAPSHOT_YEARS.length} snapshots to client/public/map/`)
+console.log(`\nWrote ${SNAPSHOT_YEARS.length} snapshots to client/public/map-data/`)

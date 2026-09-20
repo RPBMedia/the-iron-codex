@@ -28,7 +28,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SNAPSHOT_YEARS = [800, 1100, 1400]
 
 const snapshot = (year) =>
-  JSON.parse(readFileSync(join(root, 'client', 'public', 'map', `snapshot-${year}.json`), 'utf8'))
+  JSON.parse(readFileSync(join(root, 'client', 'public', 'map-data', `snapshot-${year}.json`), 'utf8'))
 
 const mapping = JSON.parse(readFileSync(join(root, 'server', 'data', 'map', 'polity-slugs.json'), 'utf8'))
 

@@ -50,7 +50,8 @@ export const UTILITY_PAGES = [
   ['signup', 'Create an account', 'Create an Iron Codex account.'],
   ['favorites', 'Favourites', 'Your saved articles.'],
   ['auth/callback', 'Signing in…', 'Completing sign-in.'],
-  ['insights', 'Insights', 'Private analytics.']
+  ['insights', 'Insights', 'Private analytics.'],
+  ['map', 'Historical map', 'Medieval political geography, from dated and cited sources.']
 ]
 
 export const utilityLabel = (route) => UTILITY_PAGES.find(([r]) => r === route)?.[1]

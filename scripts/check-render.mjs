@@ -38,7 +38,7 @@ if (!existsSync(bundle)) {
   process.exit(1)
 }
 
-const { renderArticle } = await import(pathToFileURL(bundle).href)
+const { renderArticle, renderMapPage } = await import(pathToFileURL(bundle).href)
 const data = loadArchive()
 
 const collectionFor = {
@@ -257,6 +257,42 @@ for (const [collection, arr] of Object.entries(data)) {
       failures.push(`${collection}/${article.id}: expected exactly one <h1>, found ${countOf(html, '<h1')}`)
     }
   }
+}
+
+/**
+ * The map page (QUEUE 0v).
+ *
+ * Gated here because it can be, and it can be because it is inline SVG rather
+ * than WebGL. A mapping library would have had to be lazy-loaded out of this
+ * check, which would leave the one page on the site that states historical
+ * claims as the one page nothing structurally verifies.
+ *
+ * The year 1147 is chosen deliberately: it is not a source date, so the page has
+ * to render the *gap* wording. A map that quietly rendered "1147" as though the
+ * borders were reconstructed for 1147 would be the single worst failure this
+ * feature can have, and it would be invisible to every other gate.
+ */
+{
+  const html = renderMapPage()
+  // The shell only. Server-side the page is in its loading state, because the
+  // geometry arrives by fetch — so `.map-figure` is legitimately absent here and
+  // asserting it would be asserting that the map fetches during SSR, which it
+  // must not. What has to survive without data is the honesty furniture.
+  for (const marker of ['map-evidence', 'map-year', 'map-attribution', 'loading-state']) {
+    if (!has(html, marker)) failures.push(`map page: did not render .${marker}`)
+  }
+  if (!has(html, '1147')) failures.push('map page: the selected year from the URL did not reach the page')
+  if (!has(html, 'Map evidence: 1100')) {
+    failures.push('map page: 1147 did not resolve to the 1100 snapshot — the evidence date is wrong or missing')
+  }
+  if (!has(html, 'Nothing here is a reconstruction of 1147')) {
+    failures.push('map page: the gap between the chosen year and the evidence year is not stated')
+  }
+  if (!has(html, 'GPL-3.0')) failures.push('map page: the geometry licence is not attributed')
+  if (countOf(html, '<h1') !== 1) {
+    failures.push(`map page: expected exactly one <h1>, found ${countOf(html, '<h1')}`)
+  }
+  notes.push('  map page (/map?year=1147 → 1100 snapshot, gap stated)')
 }
 
 console.log('Rendered:')

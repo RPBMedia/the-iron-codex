@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import CollectionPage from './pages/CollectionPage.jsx'
 import DetailPage from './pages/DetailPage.jsx'
 import SearchPage from './pages/SearchPage.jsx'
+import MapPage from './pages/MapPage.jsx'
 import AuthCallback from './pages/AuthCallback.jsx'
 import AuthPage from './pages/AuthPage.jsx'
 import FavoritesPage from './pages/FavoritesPage.jsx'
@@ -58,6 +59,8 @@ export default function App() {
                 301s it to /archive in production; this keeps local dev honest. */}
             <Route path="/index" element={<Navigate to="/archive" replace />} />
             <Route path="/search" element={<SearchPage />} />
+            {/* Above the /:collection/:id catch-all, or "map" is read as a collection. */}
+            <Route path="/map" element={<MapPage />} />
             <Route path="/login" element={<AuthPage mode="login" />} />
             <Route path="/signup" element={<AuthPage mode="signup" />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

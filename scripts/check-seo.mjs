@@ -135,11 +135,36 @@ for (const rel of ['index.html', 'archive.html', '404.html']) {
 }
 if (read('404.html') && !read('404.html').includes('noindex')) fail('404.html', 'not marked noindex')
 
-for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html', 'auth/callback.html', 'insights.html']) {
+for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html', 'auth/callback.html', 'insights.html', 'map.html']) {
   const html = read(rel)
   if (!html) { fail(rel, 'utility page missing — its route would 404 on direct load'); continue }
   if (!html.includes('content="noindex, follow"')) fail(rel, 'utility page is indexable — it must be noindex')
   if (sitemapUrls.has(`${SITE}/${rel.replace(/\.html$/, '')}`)) fail(rel, 'noindex page is listed in the sitemap')
+}
+
+// --- the map's licence attribution (QUEUE 0v) ------------------------------
+// The owner accepted a GPL-3.0 dataset on 2026-09-20 *on condition* that it is
+// attributed prominently. A condition that lives only in a component is one
+// refactor away from being dropped silently, so the build asserts it. If this
+// fails, the map is shipping someone else's geometry without saying whose.
+//
+// The polity links are checked for the same reason the collection hubs are: the
+// prerendered list is the map's no-JS content AND its non-pointer selection
+// path, so an empty list is a broken feature, not a cosmetic miss.
+{
+  const html = read('map.html')
+  if (html) {
+    for (const required of ['historical-basemaps', 'GPL-3.0', 'Ourednik']) {
+      if (!html.includes(required)) fail('map.html', `map attribution is missing "${required}"`)
+    }
+    if (!/one reconstruction/i.test(html)) {
+      fail('map.html', 'map page does not say it shows one reconstruction rather than settled fact')
+    }
+    const polityLinks = [...html.matchAll(/href="\/(locations|houses|orders)\/[a-z0-9-]+"/g)]
+    if (polityLinks.length < 10) {
+      fail('map.html', `only ${polityLinks.length} polity links prerendered — the no-JS map is empty`)
+    }
+  }
 }
 
 // --- topic landing pages ---------------------------------------------------

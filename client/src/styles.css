@@ -3934,3 +3934,348 @@ a.tree-person:hover .tree-person-name {
     gap: 18px;
   }
 }
+
+/* ==========================================================================
+   Interactive historical map — /map (QUEUE 0v)
+   ==========================================================================
+
+   Inline SVG, no mapping library. The reasons are in QUEUE.md 0v; the one that
+   shows up here is that every polygon is a real DOM node, so it picks up the
+   site's existing :focus-visible gold ring instead of needing a parallel
+   keyboard affordance invented for a canvas.
+
+   Colour carries NO meaning on this map. Fills only separate neighbours. The
+   brief forbids expressing authority or confidence in colour alone, and since
+   every frontier in this source is rated "approximate" there is nothing to
+   grade anyway — so the dashed stroke below is a uniform reminder, not a
+   distinction between one border and another. */
+
+.map-page .content-section {
+  padding-bottom: 32px;
+}
+
+.map-intro {
+  margin-bottom: 28px;
+}
+
+.map-lead {
+  max-width: 72ch;
+  margin: 16px 0 0;
+  color: var(--silver);
+  font-size: 1.05rem;
+}
+
+/* --- Controls ----------------------------------------------------------- */
+
+.map-controls {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 24px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+}
+
+.map-year,
+.map-evidence {
+  padding: 18px 20px;
+  border: 1px solid rgba(215, 217, 221, 0.18);
+  border-radius: 6px;
+  background: rgba(20, 20, 24, 0.55);
+}
+
+.map-year label {
+  display: block;
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+/* The year is deliberately the largest thing in the control block, and the
+   evidence date beside it is a different size, weight and colour. They are
+   never allowed to look like one readout: the whole honesty problem of this
+   feature is a reader fusing "1147" and "1100" into "the map of 1147". */
+.map-year-value {
+  display: block;
+  margin: 4px 0 10px;
+  color: var(--paper);
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.map-year input[type='range'] {
+  width: 100%;
+  accent-color: var(--gold);
+}
+
+.map-year input[type='range']:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.35);
+  outline-offset: 4px;
+}
+
+.map-year-scale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  color: var(--silver-dim);
+  font-size: 0.76rem;
+  font-weight: 780;
+}
+
+.map-evidence-head {
+  margin: 0 0 8px;
+  color: var(--red-bright);
+  font-size: 0.92rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.map-evidence-note {
+  margin: 0 0 14px;
+  max-width: 62ch;
+  color: var(--silver);
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.map-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.map-jumps .button {
+  min-height: 40px;
+  padding: 8px 14px;
+  font-size: 0.86rem;
+}
+
+/* --- Map and side column ------------------------------------------------ */
+
+.map-layout {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 340px);
+}
+
+.map-figure {
+  margin: 0;
+}
+
+/* aspect-ratio rather than a viewport-height calculation. The sticky header has
+   no fixed height — it wraps to two rows on mobile — and the codebase already
+   carries three different guesses at it (88, 96, 98). A fourth guess here would
+   be wrong at some width; the intrinsic ratio never is. */
+.map-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(215, 217, 221, 0.2);
+  border-radius: 6px;
+  background: #0d1016;
+}
+
+.map-sea {
+  fill: #0d1016;
+}
+
+.map-polity {
+  fill-rule: evenodd;
+  stroke: rgba(11, 11, 13, 0.85);
+  stroke-dasharray: 3 2;
+  stroke-width: 0.8;
+  cursor: pointer;
+  transition: opacity 160ms ease;
+  opacity: 0.86;
+}
+
+.map-polity:hover {
+  opacity: 1;
+}
+
+.map-polity.is-selected {
+  stroke: var(--gold);
+  stroke-dasharray: none;
+  stroke-width: 2;
+  opacity: 1;
+}
+
+.map-polity:focus-visible {
+  outline: none;
+  stroke: var(--gold-soft);
+  stroke-dasharray: none;
+  stroke-width: 2.5;
+  opacity: 1;
+}
+
+.map-caption {
+  margin-top: 12px;
+  max-width: 78ch;
+  color: var(--silver-dim);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.map-side {
+  display: grid;
+  gap: 16px;
+  position: sticky;
+  top: 98px;
+}
+
+.map-panel h2 {
+  margin: 4px 0 10px;
+  font-size: 1.25rem;
+}
+
+.map-panel-meta,
+.map-panel-note,
+.map-panel-gap,
+.map-panel-empty {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.map-panel-meta {
+  color: var(--silver-dim);
+}
+
+/* The uncertainty line is not styled as an error or a warning. It is the normal
+   condition of everything on this map, and dressing it up as an exception would
+   imply the unmarked polygons are somehow firmer. */
+.map-panel-precision {
+  margin: 0 0 10px;
+  padding: 8px 10px;
+  border-left: 2px solid rgba(242, 193, 78, 0.5);
+  color: var(--silver);
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.map-panel-note {
+  color: var(--gold-soft);
+}
+
+.map-panel-gap {
+  color: var(--silver-dim);
+  font-style: italic;
+}
+
+.map-panel .button {
+  margin-top: 12px;
+  min-height: 40px;
+  font-size: 0.86rem;
+}
+
+/* --- The list ------------------------------------------------------------
+   Not an accessibility afterthought. On a phone half these polygons are smaller
+   than a fingertip, and reaching one by keyboard otherwise means tabbing
+   through the entire map. The list is the primary selection path; the polygons
+   are the enhancement. */
+
+.map-list ul {
+  margin: 8px 0 0;
+  padding: 0;
+  max-height: 420px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  list-style: none;
+}
+
+.map-list li + li {
+  border-top: 1px solid rgba(141, 147, 159, 0.16);
+}
+
+.map-list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 40px;
+  padding: 9px 8px;
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  color: var(--paper);
+  font-size: 0.88rem;
+  font-weight: 740;
+  text-align: left;
+  cursor: pointer;
+}
+
+.map-list-item:hover {
+  background: rgba(242, 193, 78, 0.1);
+}
+
+.map-list-item:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.35);
+  outline-offset: -2px;
+}
+
+.map-list-item.is-selected {
+  background: rgba(242, 193, 78, 0.16);
+  color: var(--gold-soft);
+}
+
+.map-list-gap {
+  flex: none;
+  color: var(--silver-dim);
+  font-size: 0.74rem;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
+/* --- Attribution ---------------------------------------------------------
+   Load-bearing, not decoration. The owner accepted a GPL-3.0 dataset on the
+   condition that it is named prominently, and check-seo.mjs asserts this text
+   reaches the built page so the condition cannot lapse by accident. */
+
+.map-attribution {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(141, 147, 159, 0.22);
+  max-width: 82ch;
+  color: var(--silver-dim);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.map-attribution a {
+  color: var(--gold-soft);
+}
+
+.map-attribution-scope {
+  margin-bottom: 0;
+  color: rgba(141, 147, 159, 0.8);
+}
+
+@media (max-width: 860px) {
+  .map-controls,
+  .map-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* The rail stops being a rail once it is under the map rather than beside it;
+     leaving it sticky would pin it over the map while the reader scrolls. */
+  .map-side {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .map-year-value {
+    font-size: 2rem;
+  }
+
+  .map-jumps .button {
+    width: 100%;
+  }
+
+  .map-list ul {
+    max-height: 320px;
+  }
+}

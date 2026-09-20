@@ -184,6 +184,72 @@ function buildBody({ heading, lead, sections = [], links = [] }) {
   return out.join('\n      ')
 }
 
+/**
+ * The map's prerendered body (QUEUE 0v).
+ *
+ * The honest no-JS version of an interactive map is a list, and the same markup
+ * does three jobs at once: it is what a crawler reads, what a reader without
+ * JavaScript gets, and the non-map selection path the brief requires for anyone
+ * who cannot use a pointer.
+ *
+ * It says which years the map actually holds evidence for, names every polity
+ * that has an article and links it, and states plainly that the rest of the
+ * timeline is not mapped. That last part is the point: a page that listed only
+ * its strengths would be the "UI complete means coverage complete" mistake the
+ * brief warns about.
+ *
+ * Still `noindex` for v1, like the other utility routes. Three source years of
+ * one dataset is a thin page, and prerender's own history here is that an
+ * under-populated hub advertised to Google reads as a soft 404. It becomes
+ * indexable — its own writePage block, real JSON-LD, a sitemap entry — when the
+ * coverage justifies the crawl budget.
+ */
+function buildMapBody(label, blurb) {
+  const years = [800, 1100, 1400]
+  const linked = new Map()
+  const gaps = new Set()
+
+  for (const year of years) {
+    const file = path.join(root, 'client', 'public', 'map-data', `snapshot-${year}.json`)
+    if (!existsSync(file)) continue
+    const snapshot = JSON.parse(readFileSync(file, 'utf8'))
+    for (const { properties } of snapshot.features) {
+      const collection = { location: 'locations', house: 'houses', order: 'orders' }[properties.linkType]
+      if (properties.slug && collection) {
+        linked.set(properties.name, `/${collection}/${properties.slug}`)
+      } else {
+        gaps.add(properties.name)
+      }
+    }
+  }
+
+  const sections = [
+    {
+      title: 'What this map shows',
+      paragraphs: [
+        `Political geography reconstructed for ${years.join(', ')}. Choosing any other year between 476 and 1453 shows the nearest of those dates at or before it — never a later one, which would put states on the map before they existed.`,
+        'Geometry comes from the historical-basemaps project by André Ourednik, licensed GPL-3.0. Its author cautions that it is a work in progress and that premodern borders are disputed and overlapping. Every frontier here carries the source’s lowest precision rating: approximate. This is one reconstruction, not settled fact.'
+      ]
+    },
+    {
+      title: 'Not mapped',
+      paragraphs: [
+        `There is no source date before ${years[0]}, so the years 476 to ${years[0] - 1} show nothing at all. Blank ground on this map means no snapshot covers it — never that the land was empty or unruled.`,
+        `${gaps.size} territories on these maps have no Codex article yet, among them ${[...gaps].slice(0, 6).join(', ')}. They are still drawn and still selectable; the map says plainly that the article is missing rather than hiding the territory.`
+      ]
+    }
+  ]
+
+  return buildBody({
+    heading: label,
+    lead: blurb,
+    sections,
+    links: [...linked.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0], undefined, { sensitivity: 'base' }))
+      .map(([name, href]) => ({ label: name, href }))
+  })
+}
+
 function writePage(relPath, { head, body, inlineArticle }) {
   // Inlining the article's data is what stops React from replacing the
   // prerendered prose with a loading spinner.
@@ -499,7 +565,7 @@ for (const [route, label, blurb] of UTILITY_PAGES) {
       canonical: `${SITE}/${route}`,
       noindex: true
     }),
-    body: buildBody({ heading: label, lead: blurb })
+    body: route === 'map' ? buildMapBody(label, blurb) : buildBody({ heading: label, lead: blurb })
   })
   pages++
 }
