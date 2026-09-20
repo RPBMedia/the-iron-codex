@@ -4543,3 +4543,37 @@ a.tree-person:hover .tree-person-name {
 /* Under reduced motion the site-wide block already clamps transitions; the
    tooltip has none to clamp, which is deliberate — a name that fades in is a
    name you cannot read yet. */
+
+/* --- Cross-fade between snapshots (QUEUE 0v item 4) -----------------------
+
+   Whole layers only. Appendix F forbids interpolating vertices and that is not
+   squeamishness: a border sliding from one shape to another draws a conquest
+   that did not happen that way, on a map whose whole argument is that it shows
+   only what a source dated. Two stacked groups changing opacity make no claim
+   about what happened in between.
+
+   An animation rather than a transition, because the incoming group is a fresh
+   node every time — there is no previous value for a transition to run from. */
+
+@keyframes map-layer-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes map-layer-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.map-layer {
+  animation: map-layer-in 260ms ease-out;
+}
+
+/* `forwards` matters: without it the group snaps back to full opacity when the
+   animation ends and flashes before React removes it. It also keeps reduced
+   motion honest — the site-wide block clamps the duration to 0.01ms, and the
+   fill is what makes it land on 0 rather than 1. */
+.map-layer.is-leaving {
+  animation: map-layer-out 260ms ease-out forwards;
+  pointer-events: none;
+}

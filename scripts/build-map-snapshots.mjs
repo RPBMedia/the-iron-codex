@@ -57,11 +57,35 @@ export const CANVAS = { west: -25, east: 65, south: 10, north: 72 }
 const COORD_DECIMALS = 3
 
 /**
- * Douglas–Peucker tolerance in degrees. 0.02° is roughly 2 km, which is well under
- * the width of the uncertainty these borders carry anyway — every feature in the
- * source is BORDERPRECISION 1, "approximate".
+ * Douglas–Peucker tolerance in degrees.
+ *
+ * Was 0.02° (about 2 km), chosen when the map was a small static figure. Pan and
+ * zoom made that visible — at the tightest camera the viewport is about 5.4° wide,
+ * so a 2 km chord is a straight line several pixels long where a coastline should
+ * be, and Greece and Dalmatia looked faceted.
+ *
+ * 0.005° measured on 2026-09-20 across all eleven snapshots:
+ *
+ *     tolerance   worst snapshot   all eleven
+ *     0.02°       121 KB           1188 KB
+ *     0.01°       141 KB           1328 KB
+ *     0.005°      156 KB           1414 KB
+ *     0.002°      171 KB           1500 KB
+ *
+ * Four times the detail for 29% more bytes, because the upstream geometry is itself
+ * coarse enough that there is not much left to throw away — which is also why 0.002°
+ * buys so little over 0.005° and was not taken.
  */
-const SIMPLIFY_TOLERANCE = 0.02
+const SIMPLIFY_TOLERANCE = 0.005
+
+/**
+ * The coastline is simplified harder than the politics. It is background: nobody
+ * reads a conclusion off the shape of the Adriatic, and at 50m resolution it is the
+ * single largest file the map fetches. 0.02° on ne_50m is 183 KB against 240 KB at
+ * 0.01°, and still far more detailed than ne_110m, which was 26 KB and visibly
+ * polygonal once zoom existed.
+ */
+const LAND_SIMPLIFY_TOLERANCE = 0.02
 
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
 
@@ -134,11 +158,11 @@ function closeRing(ring) {
  * honest ones — is the kind of thing this feature has to be careful about. Rings
  * that merely overhang the edge are left whole and the viewport hides the rest.
  */
-function processPolygon(rings) {
+function processPolygon(rings, tolerance) {
   const out = []
   for (const ring of rings) {
     if (!ringTouchesCanvas(ring)) continue
-    const simplified = simplifyRing(ring, SIMPLIFY_TOLERANCE)
+    const simplified = simplifyRing(ring, tolerance)
     if (!simplified) continue
     out.push(closeRing(simplified.map(([x, y]) => [round(x), round(y)])))
   }
@@ -146,13 +170,13 @@ function processPolygon(rings) {
   return out.length ? out : null
 }
 
-function processGeometry(geometry) {
+function processGeometry(geometry, tolerance = SIMPLIFY_TOLERANCE) {
   if (geometry?.type === 'Polygon') {
-    const rings = processPolygon(geometry.coordinates)
+    const rings = processPolygon(geometry.coordinates, tolerance)
     return rings ? { type: 'Polygon', coordinates: rings } : null
   }
   if (geometry?.type === 'MultiPolygon') {
-    const polygons = geometry.coordinates.map(processPolygon).filter(Boolean)
+    const polygons = geometry.coordinates.map((rings) => processPolygon(rings, tolerance)).filter(Boolean)
     return polygons.length ? { type: 'MultiPolygon', coordinates: polygons } : null
   }
   return null
@@ -277,25 +301,26 @@ function buildSnapshot(year) {
  * bytes.
  */
 function buildLand() {
-  const file = 'ne_110m_land.geojson'
+  const file = 'ne_50m_land.geojson'
   const raw = readFileSync(join(sourceDir, file), 'utf8')
   const source = JSON.parse(raw)
 
   const features = []
   for (const feature of source.features) {
-    const geometry = processGeometry(feature.geometry)
+    const geometry = processGeometry(feature.geometry, LAND_SIMPLIFY_TOLERANCE)
     if (geometry) features.push({ type: 'Feature', properties: {}, geometry })
   }
 
   return {
     type: 'FeatureCollection',
     properties: {
-      source: 'Natural Earth (ne_110m_land)',
+      source: 'Natural Earth (ne_50m_land)',
       sourceUrl: 'https://www.naturalearthdata.com/',
       sourceFile: file,
       sourceSha256: createHash('sha256').update(raw).digest('hex'),
       retrieved: '2026-09-20',
       license: 'Public domain',
+      simplifyTolerance: LAND_SIMPLIFY_TOLERANCE,
       note: 'Physical coastline only. It carries no political information and is not evidence of anything: it is there so that water reads as water and unmapped land reads as land.'
     },
     features

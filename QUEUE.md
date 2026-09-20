@@ -1588,29 +1588,33 @@ judgement call before it is code.
    mouse-only (a touch "hover" is the moment before a tap), and hidden while panning.
    `aria-hidden`, because each path's own `aria-label` already carries the name.
 
-3. **Sharper borders, more coastline detail.** Currently Douglas-Peucker at 0.02
-   degrees (about 2 km), which takes 71-81% of the vertices out and lands each
-   snapshot at 54-114 KB; the land layer is Natural Earth 110m. Both were chosen when
-   the map was a small figure on a dark page and neither has been revisited since pan
-   and zoom shipped — zoomed in, the simplification is now visible. The work is:
-   measure at 0.01 and 0.005 degrees, try ne_50m for the coastline (1.6 MB raw, needs
-   its own clip), and raise `MAX_SNAPSHOT_BYTES` in the geometry test deliberately
-   rather than by accident. The trade is bytes on the wire against fidelity at zoom,
-   and it should be decided with real numbers rather than by eye.
+3. ~~**Sharper borders, more coastline detail.**~~ **SHIPPED 2026-09-20**, decided
+   with measurements rather than by eye. Political geometry moved from 0.02 degrees
+   to **0.005** — four times the detail for 29% more bytes, because the upstream
+   geometry is coarse enough that there was little left to throw away, which is also
+   why 0.002 bought almost nothing over 0.005 and was not taken. Worst snapshot 121
+   KB to 134 KB, still inside the 200 KB test budget, so the budget did not have to
+   move. The coastline moved from **ne_110m to ne_50m** at its own, harder tolerance
+   of 0.02: 26 KB to 181 KB, fetched once and cached immutably. Background geometry
+   is the right place to spend bytes on a layer the reader looks at all session, and
+   110m was visibly polygonal once zoom existed.
 
-4. **Cross-fade the map when the year crosses a keyframe** (owner decision,
-   2026-09-20: this reading, not confidence decay). The map should dissolve from one
-   snapshot into the next rather than snapping. Appendix F's Milestone 3 sets the
-   constraints: fade COMPLETE LAYERS only, never vertex-interpolate a border — a
-   border that slides from one shape to another is a claim about a conquest that did
-   not happen that way — and disable it entirely under `prefers-reduced-motion`,
-   where the existing block at the end of styles.css already zeroes transition
-   durations. It also has to survive fast scrubbing: a fade still running when the
-   next keyframe arrives must be replaced, not queued.
+       tolerance   worst snapshot   all eleven
+       0.02        121 KB           1188 KB
+       0.01        141 KB           1328 KB
+       0.005       156 KB (raw)     1414 KB
+       0.002       171 KB           1500 KB
 
-   *(Confidence decay — softening borders in proportion to how stale the snapshot is
-   for the chosen year — was considered and NOT chosen. Recorded here in case it
-   comes back.)*
+4. ~~**Cross-fade the map when the year crosses a keyframe.**~~ **SHIPPED
+   2026-09-20.** Whole layers only — two stacked groups changing opacity, never
+   interpolated vertices, because a border sliding from one shape to another draws a
+   conquest that did not happen that way. 260ms, short on purpose: scrubbing crosses
+   keyframes in quick succession and anything slower reads as the map lagging behind
+   the slider. The fade timer is cleared on every change, so dragging from 500 to
+   1400 does not stack ten half-opaque layers into mud. The outgoing layer is inert
+   and aria-hidden — half-transparent Byzantium from the year you just left should
+   not be clickable or announced. Reduced motion is free: the site-wide block clamps
+   the animation to 0.01ms and `animation-fill-mode: forwards` makes it land on 0.
 
 **Still open from before:** a reverse link from an article to its territory on the
 map; making the page indexable once coverage justifies the crawl budget; on-map place

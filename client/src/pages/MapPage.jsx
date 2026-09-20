@@ -63,6 +63,16 @@ const FILLS = [
   '#8a8178', '#9c7f90', '#6b9078', '#b08a3e', '#8089a3'
 ]
 
+/**
+ * How long a snapshot takes to cross-fade into the next, in milliseconds.
+ *
+ * Short on purpose. Scrubbing crosses keyframes in quick succession, and anything
+ * slower reads as the map lagging behind the slider rather than as a transition.
+ * Under `prefers-reduced-motion` the site-wide block at the end of styles.css
+ * clamps the animation to 0.01ms, so this becomes an instant swap for free.
+ */
+const FADE_MS = 260
+
 /** Stable per-name colour, so a polity keeps its fill across snapshots. */
 function fillFor(name) {
   let hash = 0
@@ -113,7 +123,21 @@ export function MapPageContent() {
   const year = yearFromParam(searchParams.get('year'))
   const selectedName = searchParams.get('polity')
 
-  const [snapshot, setSnapshot] = useState(null)
+  /*
+   * Layers, not a single snapshot, so the map can cross-fade when the year crosses
+   * a keyframe (owner choice, 2026-09-20). Newest last; usually one entry, briefly
+   * two while the old one fades out.
+   *
+   * WHOLE LAYERS ONLY. Appendix F forbids vertex interpolation and it is not
+   * squeamishness: a border that slides from one shape to another draws a conquest
+   * that did not happen that way, on a map whose entire argument is that it shows
+   * only what a source dated. Two stacked groups changing opacity make no claim
+   * about what happened in between.
+   */
+  const [layers, setLayers] = useState([])
+  const fadeTimer = useRef(null)
+  const snapshot = layers.length ? layers[layers.length - 1].data : null
+
   const [land, setLand] = useState(null)
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
@@ -174,15 +198,38 @@ export function MapPageContent() {
     return () => controller.abort()
   }, [])
 
+  /**
+   * Put a snapshot on screen, fading out whatever was there.
+   *
+   * The timer is cleared on every call, so scrubbing fast through several keyframes
+   * does not queue a stack of fades — each change replaces the one in flight and
+   * only the newest pair is ever on screen. Without that, dragging from 500 to 1400
+   * leaves ten layers stacked at partial opacity and the map turns to mud.
+   */
+  const showLayer = useCallback((key, data) => {
+    setLayers((prev) => {
+      const current = prev[prev.length - 1]
+      if (current && current.key === key) return prev
+      return current ? [current, { key, data }] : [{ key, data }]
+    })
+    window.clearTimeout(fadeTimer.current)
+    fadeTimer.current = window.setTimeout(() => setLayers((prev) => prev.slice(-1)), FADE_MS)
+  }, [])
+
+  useEffect(() => () => window.clearTimeout(fadeTimer.current), [])
+
   useEffect(() => {
     if (evidenceYear === null) {
-      setSnapshot(null)
+      // Before the first source date. Fade the politics away rather than blanking
+      // them, so moving off the edge of the evidence reads as the same gesture as
+      // moving between two snapshots.
+      showLayer('none', null)
       setStatus('ready')
       return undefined
     }
     const cached = cache.current.get(evidenceYear)
     if (cached) {
-      setSnapshot(cached)
+      showLayer(evidenceYear, cached)
       setStatus('ready')
       return undefined
     }
@@ -199,14 +246,14 @@ export function MapPageContent() {
       })
       .then((data) => {
         cache.current.set(evidenceYear, data)
-        setSnapshot(data)
+        showLayer(evidenceYear, data)
         setStatus('ready')
       })
       .catch((error) => {
         if (error.name !== 'AbortError') setStatus('error')
       })
     return () => controller.abort()
-  }, [evidenceYear])
+  }, [evidenceYear, showLayer])
 
   const polities = useMemo(() => {
     if (!snapshot) return []
@@ -524,34 +571,57 @@ export function MapPageContent() {
                     <path key={`land-${index}-${part}`} d={d} className="map-land" aria-hidden="true" />
                   ))
                 )}
-                {snapshot?.features.map((feature, index) => {
-                  const { name } = feature.properties
-                  const isSelected = name === selectedName
-                  // One path per polygon, never one per feature — see pathsForFeature.
-                  // Only the first is a tab stop: a polity with nine islands should
-                  // be one stop on the way through the map, not nine.
-                  return pathsForFeature(feature).map((d, part) => (
-                    <path
-                      key={`${name}-${index}-${part}`}
-                      d={d}
-                      data-polity={name}
-                      className={`map-polity${isSelected ? ' is-selected' : ''}`}
-                      style={{ fill: fillFor(name) }}
-                      tabIndex={part === 0 ? 0 : -1}
-                      role={part === 0 ? 'button' : 'presentation'}
-                      aria-pressed={part === 0 ? isSelected : undefined}
-                      aria-label={part === 0 ? name : undefined}
-                      aria-hidden={part === 0 ? undefined : 'true'}
-                      onClick={() => select(name)}
-                      onKeyDown={(event) => {
-                        if (event.key === 'Enter' || event.key === ' ') {
-                          event.preventDefault()
-                          select(name)
-                        }
-                        if (event.key === 'Escape') clearSelection()
-                      }}
-                    />
-                  ))
+                {/*
+                  One group per layer. `key` is the evidence year, so React mounts a
+                  fresh group when the year changes and the CSS animation actually
+                  runs — reusing the node would leave it at its finished opacity and
+                  nothing would fade.
+
+                  Only the newest layer is interactive. The one fading out is inert
+                  and aria-hidden: half-transparent Byzantium from the year you just
+                  left should not be clickable, focusable, or announced.
+                */}
+                {layers.map((layer, layerIndex) => {
+                  const isCurrent = layerIndex === layers.length - 1
+                  return (
+                    <g
+                      key={layer.key}
+                      className={`map-layer${isCurrent ? '' : ' is-leaving'}`}
+                      aria-hidden={isCurrent ? undefined : 'true'}
+                    >
+                      {layer.data?.features.map((feature, index) => {
+                        const { name } = feature.properties
+                        const isSelected = isCurrent && name === selectedName
+                        // One path per polygon, never one per feature — see
+                        // pathsForFeature. Only the first is a tab stop: a polity
+                        // with nine islands should be one stop through the map,
+                        // not nine.
+                        return pathsForFeature(feature).map((d, part) => (
+                          <path
+                            key={`${name}-${index}-${part}`}
+                            d={d}
+                            data-polity={isCurrent ? name : undefined}
+                            className={`map-polity${isSelected ? ' is-selected' : ''}`}
+                            style={{ fill: fillFor(name) }}
+                            tabIndex={isCurrent && part === 0 ? 0 : -1}
+                            role={isCurrent && part === 0 ? 'button' : 'presentation'}
+                            aria-pressed={isCurrent && part === 0 ? isSelected : undefined}
+                            aria-label={isCurrent && part === 0 ? name : undefined}
+                            aria-hidden={isCurrent && part === 0 ? undefined : 'true'}
+                            onClick={isCurrent ? () => select(name) : undefined}
+                            onKeyDown={(event) => {
+                              if (!isCurrent) return
+                              if (event.key === 'Enter' || event.key === ' ') {
+                                event.preventDefault()
+                                select(name)
+                              }
+                              if (event.key === 'Escape') clearSelection()
+                            }}
+                          />
+                        ))
+                      })}
+                    </g>
+                  )
                 })}
               </svg>
 
