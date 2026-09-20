@@ -4934,3 +4934,135 @@ a.tree-person:hover .tree-person-name {
   font-style: italic;
   font-weight: 620;
 }
+
+/* --- Fitting the map and the year control on one screen (owner report 2026-09-20)
+
+   The whole canvas never fitted beside its own controls: the chrome above the map
+   ran to roughly 440px and the map itself is nearly square, so reaching the year
+   slider meant scrolling the map off the screen and back. Two changes, neither of
+   them a redesign.
+
+   FIRST, the chrome is compacted — smaller card padding, a smaller year, a tighter
+   preset row, shorter copy. Nothing is removed.
+
+   SECOND, the map is capped by viewport height rather than only by column width.
+   The SVG is 1000 x 1040 units, so a height cap becomes a width cap at that ratio
+   (0.9615), and the canvas centres in whatever column width is left. `dvh` rather
+   than `vh` because mobile browser chrome moves and `vh` does not notice. */
+
+.map-hero {
+  margin-bottom: 16px;
+}
+
+.map-intro {
+  margin-bottom: 14px;
+}
+
+.map-lead {
+  margin-top: 10px;
+  font-size: 0.94rem;
+}
+
+.map-year,
+.map-evidence {
+  padding: 12px 14px;
+}
+
+.map-year-value {
+  margin: 2px 0 8px;
+  font-size: 1.9rem;
+}
+
+.map-year-scale {
+  margin-top: 4px;
+  font-size: 0.72rem;
+}
+
+/* Two lines, not three: the sentences were shortened to match. Still RESERVED, so
+   the box cannot change height as the year changes and shove the map about. */
+.map-evidence-note {
+  min-height: calc(2 * 1.45em);
+  margin-bottom: 8px;
+  font-size: 0.88rem;
+}
+
+/* Quiet on a source year, loud when the map is NOT showing the year asked for.
+   A red heading over "1000 is a date the source reconstructs" trained the reader
+   to ignore the one line that matters when the dates diverge. */
+.map-evidence-head {
+  margin-bottom: 4px;
+  color: var(--silver-dim);
+  font-size: 0.76rem;
+}
+
+.map-evidence.is-stale .map-evidence-head {
+  color: var(--red-bright);
+  font-size: 0.84rem;
+}
+
+.map-evidence-fetching {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+}
+
+.map-jumps {
+  min-height: 34px;
+}
+
+.map-jumps .button {
+  min-height: 34px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+}
+
+/* --- Camera row, tightened so the presets stay on one line longer ---------- */
+
+.map-camera {
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.map-presets {
+  gap: 5px;
+}
+
+.map-preset {
+  min-height: 30px;
+  padding: 4px 11px;
+  font-size: 0.78rem;
+}
+
+.map-zoom button {
+  min-width: 30px;
+  min-height: 30px;
+  padding: 4px 10px;
+  font-size: 0.82rem;
+}
+
+.map-keyhint {
+  font-size: 0.75rem;
+}
+
+/* --- The map itself -------------------------------------------------------
+
+   A floor of 420px so a short window does not reduce the map to a stamp; below
+   that height nothing on this page fits anyway and scrolling is the honest
+   answer. */
+
+.map-canvas {
+  max-width: min(100%, calc(max(420px, 62dvh) * 0.9615));
+  margin-inline: auto;
+}
+
+.map-caption {
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
+
+/* On a phone the map is already the whole column and the controls stack above it,
+   so the cap only makes it smaller for no gain. */
+@media (max-width: 860px) {
+  .map-canvas {
+    max-width: 100%;
+  }
+}

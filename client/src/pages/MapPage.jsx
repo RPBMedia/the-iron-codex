@@ -16,6 +16,7 @@ import {
   VIEW_HEIGHT,
   VIEW_WIDTH,
   articleHref,
+  evidenceIsStale,
   evidenceSentence,
   nextSnapshot,
   parseTypedYear,
@@ -569,9 +570,8 @@ export function MapPageContent() {
           <p className="eyebrow">Historical map</p>
           <h1>The medieval world</h1>
           <p className="map-lead">
-            Choose any year between {FIRST_YEAR} and {LAST_YEAR}. The map shows the nearest dated
-            reconstruction at or before that year — never a later one, which would put states on the
-            map before they existed. Every frontier here is approximate, and the map says so.
+            Any year between {FIRST_YEAR} and {LAST_YEAR}. The map shows the nearest dated
+            reconstruction at or before it — never a later one. Every frontier here is approximate.
           </p>
         </header>
 
@@ -631,27 +631,27 @@ export function MapPageContent() {
           </div>
 
           {/*
-            The evidence strip. `aria-live` is polite and the text only changes when
-            the KEYFRAME changes, not on every one of 977 year values — otherwise a
-            screen reader announces the whole scrub.
+            The evidence notice. `aria-live` is polite and the text changes only
+            when the KEYFRAME changes, not on every one of 977 year values —
+            otherwise a screen reader announces the whole scrub.
+
+            It is loud only when the map is NOT showing the year asked for. On a
+            source year the notice is nearly content-free, and giving that a red
+            heading and three reserved lines turned the most important warning on
+            the page into furniture readers learn to skip. Proportionate, not
+            removed: the year and the evidence date must never read as one number,
+            and that is this feature's central promise.
           */}
-          <div className="map-evidence" aria-live="polite">
+          <div
+            className={`map-evidence${evidenceIsStale(resolution) ? ' is-stale' : ''}`}
+            aria-live="polite"
+          >
             <p className="map-evidence-head">
               {evidenceYear === null ? 'No map evidence' : `Map evidence: ${evidenceYear}`}
             </p>
             <p className="map-evidence-note">{evidenceSentence(year, resolution)}</p>
-            {/*
-              A background fetch is quiet but not silent. The map stays on screen
-              while it runs, so without this line a slow connection looks like the
-              map ignoring the year you chose.
-
-              Always rendered, hidden with `visibility` rather than mounted and
-              unmounted: appearing and disappearing changed the height of this box
-              and shoved the map down and back up while scrubbing. Nothing above
-              the map may change height as the year changes.
-            */}
             <p className="map-evidence-fetching" aria-hidden={!isFetching}>
-              {isFetching && status === 'ready' ? `Fetching the ${evidenceYear} reconstruction…` : ' '}
+              {isFetching && status === 'ready' ? `Fetching ${evidenceYear}…` : ' '}
             </p>
             <div className="map-jumps">
               <button
@@ -660,7 +660,7 @@ export function MapPageContent() {
                 disabled={previous === null}
                 onClick={() => updateQuery({ year: previous })}
               >
-                ◀ {previous ?? 'No earlier source'}
+                ◀ {previous ?? 'No earlier'}
               </button>
               <button
                 type="button"
@@ -668,7 +668,7 @@ export function MapPageContent() {
                 disabled={next === null}
                 onClick={() => updateQuery({ year: next })}
               >
-                {next ?? 'No later source'} ▶
+                {next ?? 'No later'} ▶
               </button>
             </div>
           </div>
@@ -713,9 +713,8 @@ export function MapPageContent() {
                   to know it as much as a screen-reader one does.
                 */}
                 <p className="map-keyhint">
-                  Click a territory to open its article. Tab to the map, then{' '}
-                  <kbd>←</kbd> <kbd>→</kbd> to move between territories and{' '}
-                  <kbd>Enter</kbd> to open one.
+                  Click a territory to open its article. <kbd>Tab</kbd> to the map,
+                  then <kbd>←</kbd> <kbd>→</kbd> and <kbd>Enter</kbd>.
                 </p>
                 <div className="map-zoom" role="group" aria-label="Zoom">
                   <button type="button" onClick={() => zoomBy(1 / 1.4)} aria-label="Zoom in">+</button>

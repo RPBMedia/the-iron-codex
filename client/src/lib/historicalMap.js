@@ -206,14 +206,24 @@ export const snapshotUrl = (evidenceYear) => `/map-data/snapshot-${evidenceYear}
  */
 export function evidenceSentence(year, resolution) {
   if (resolution.reason === 'before-evidence') {
-    return `No mapped evidence for ${year}. This map's earliest source date is ${resolution.nextYear}. Blank ground means no snapshot covers it — not that the land was empty or unruled.`
+    return `No evidence this early — the first source date is ${resolution.nextYear}. Blank ground means no snapshot covers it, not that the land was empty.`
   }
   if (resolution.reason === 'exact') {
-    return `These borders are the source's own dated reconstruction for ${resolution.evidenceYear}.`
+    return `${resolution.evidenceYear} is a date the source reconstructs directly.`
   }
   const years = resolution.gap === 1 ? '1 year' : `${resolution.gap} years`
-  return `These borders are the source's reconstruction for ${resolution.evidenceYear}, ${years} before the year you selected. Nothing here is a reconstruction of ${year}.`
+  return `Borders reconstructed for ${resolution.evidenceYear}, ${years} earlier. Nothing here is a reconstruction of ${year}.`
 }
+
+/**
+ * Whether the evidence deserves emphasis.
+ *
+ * On a source year the notice is nearly content-free — "1000 is a date the source
+ * reconstructs" — and giving it a red heading and three reserved lines made the
+ * most important warning on the page into furniture the reader learns to skip.
+ * It is loud exactly when the map is NOT showing the year asked for.
+ */
+export const evidenceIsStale = (resolution) => resolution.reason !== 'exact'
 
 // ---------------------------------------------------------------------------
 // Camera
