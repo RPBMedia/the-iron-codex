@@ -23,6 +23,7 @@
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 | **Interactive historical map** | **0v** | **Appendix F** | **Shipped 2026-09-20, admin-only.** `/map` — 11 dated snapshots, camera presets, pan/zoom, cross-fade, coverage inventory. Last step before public: remove `MAP_IS_ADMIN_ONLY` |
+| **Map granularity: source search** | **0x** | — | **PARAMOUNT, not started.** Decade steps or better. Needs a source; OHM tried and rejected. Screening question and candidate list in the item |
 | **Map article coverage** | **0w** | — | **NOT STARTED.** 212 territories the map draws have no article; ~150 are polities, ~62 are peoples and cannot be locations. Blocked on the source question |
 
 
@@ -1646,6 +1647,78 @@ frontier errors and the two dropped anachronisms, and a per-year table of how ma
 polities each snapshot holds against how many have an article. **212 of the
 territories drawn have no Codex article.**
 
+### 0x — FINER THAN CENTURY STEPS: THE SOURCE SEARCH (owner: paramount, 2026-09-20)
+
+**The goal.** A single, complete map of the brief's canvas at **decade steps or
+better**. Today it changes about once a century, because the one source that
+covers the whole canvas — `historical-basemaps` — publishes eleven dated files
+inside 476–1453 and no more. This is the single largest improvement available to
+the map, and it cannot be coded around: the brief forbids interpolating between
+dated reconstructions or drawing borders by hand, and both prohibitions are right.
+
+**THE SCREENING QUESTION. Ask this first, of every candidate, before spending a day
+on it:**
+
+> Does it have **France** and the **Holy Roman Empire**, with real geometry — not a
+> named relation, not a label point, actual boundary coordinates — across the whole
+> of 476 to 1453?
+
+That question would have ended the OpenHistoricalMap attempt in ten minutes instead
+of a day. Ask the same of the Levant and North Africa, which section 2 of the brief
+requires and which most European-focused sources thin out or omit.
+
+**THE WORKED EXAMPLE: OpenHistoricalMap, tried and rejected 2026-09-20.** Verified
+properly, not read about. It is the most promising thing found so far and it still
+failed:
+
+- **What was right about it.** No keyframes at all — every feature carries
+  `start_date` and `end_date`, so any year is queryable. CC0. Real citations and
+  wikidata ids. 96 of 98 decade steps had a distinct membership set. Genuinely
+  superb for the EARLY period: `Regnum Francorum` is drawn per reign from 481 to
+  800, finer than anything currently shipped.
+- **What killed it.** Its two largest western polities are empty shells for most of
+  the period — the relation exists, carries a name and dates, and contains a single
+  label node with no boundary ways:
+
+      Sacrum Imperium Romanum  1167→1201   227 boundary ways
+      Sacrum Imperium Romanum  1201→1512     0 ways
+      Reaume de France          987→1050   176 ways
+      Reaume de France         1050→1212     0 ways
+      Reaume de France         1212→1301     0 ways
+
+  No France from 1050, no Empire from 1201. A map of 1231 drawn from it is missing
+  both, which is not a finer map but a wrong one.
+- **Worth re-checking periodically**, since it is community-edited and improving.
+  `server/data/map/source/ohm/manifest.json` lists all 505 relations by id, so a
+  re-fetch diffs cleanly. `scripts/fetch-ohm-source.mjs` and
+  `scripts/build-ohm-snapshots.mjs` still work. **Fix the known bug first:**
+  Overpass's `out geom` does not recurse into sub-relations, so 21 of them were
+  never fetched.
+
+**CANDIDATES NOT YET EXAMINED.** Be clear about the status of each: only OHM was
+verified. Everything below is a lead, not a finding.
+
+| Candidate | What is claimed | What to check first |
+|---|---|---|
+| **Euratlas** | Political maps of Europe every 100 years, 1–2000 AD | Commercial, and 100-year steps are no better than today. Probably a dead end — confirm and cross it off |
+| **Centennia Historical Atlas** | **Year-by-year** borders, 1000 AD onward | Proprietary and paid. Is there any licensable data export, or is it a closed application? Covers only from 1000, so 476–1000 needs a second source anyway |
+| **Chronas** | Interactive historical atlas; the brief already lists it as a UX reference | Where does its geography actually come from? If it is derived from Euratlas the licence question is Euratlas's |
+| **DARMC** (Harvard) | Digital Atlas of Roman and Medieval Civilizations | Strong on Roman; how far into the medieval period does the polygon coverage actually run? |
+| **Running Reality** | Claims a day-by-day historical world model | Licence and export are the whole question |
+| **Seshat / academic GIS** | Polity-level historical datasets | Usually attribute-rich and geometry-poor — check there are real polygons before anything else |
+| **Wikidata + a boundary set** | Polities with start/end dates, joined to geometry | The join is the problem: Wikidata has the dates, not the borders |
+
+**Do not repeat the mistake that cost a day.** The OHM attempt went: read the
+documentation, believe the coverage claim, build the whole pipeline, then look at a
+map and find France missing. **Look at a map of 1231 first.** Pull one year, draw
+it, and check France, the Empire, Poland, the Levant and Egypt are all there. If
+they are, then build the pipeline.
+
+**If nothing is found**, that is a legitimate outcome and should be recorded as one
+rather than left as an open question — the map already states its own coverage
+honestly, and eleven dated reconstructions of a complete canvas beat a hundred of a
+broken one.
+
 ### 0w — EVERY TERRITORY ON THE MAP NEEDS A LOCATION ARTICLE (owner rule, 2026-09-20)
 
 **The rule.** Any territory the map draws, at any year, must have a corresponding
@@ -1884,16 +1957,8 @@ the admin gate. Every point the owner raised across a day of review is closed. A
 gates green: 88 tests, content quality, images, render gate, build, SEO.
 
 **Granularity is the open question, and it is a SOURCING question rather than a
-coding one.** Century steps are what the one complete source supports.
-OpenHistoricalMap was built end to end and removed the same day — no France after
-1050, no Empire after 1201. The owner wants a more exhaustive search of
-alternatives later. Candidates not yet examined: Euratlas (commercial, and 100-year
-steps anyway), Centennia (commercial, claims year-by-year), Chronas' own dataset,
-DARMC and university historical-GIS projects.
-
-**Ask one question of any candidate before spending a day on it: does it have
-France and the Holy Roman Empire, with real geometry, across the whole of
-476–1453?** That question would have ended the OHM attempt in ten minutes.
+coding one.** It now has its own queue item — **0x**, below — because the owner
+called it paramount and it was buried in this paragraph.
 
 **Still open, smallest first:**
 
