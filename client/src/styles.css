@@ -4772,3 +4772,14 @@ a.tree-person:hover .tree-person-name {
   stroke-dasharray: none;
   stroke-width: 3.5;
 }
+
+/* The browser's own focus ring on an SVG path is a RECTANGLE around its bounding
+   box — a box around Italy, not an outline of Italy. `outline: none` was only on
+   :focus-visible, which a mouse click does not match, so clicking a territory
+   drew a square over the map (owner report, 2026-09-20).
+
+   Killed on :focus so the box never appears; the keyboard treatment stays on
+   :focus-visible, drawn with `stroke` instead, which does follow the border. */
+.map-polity:focus {
+  outline: none;
+}

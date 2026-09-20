@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
@@ -121,6 +121,7 @@ export function MapPageContent() {
   useDocumentTitle(pageTitle(utilityLabel('map')))
 
   const [searchParams, setSearchParams] = useSearchParams()
+  const navigate = useNavigate()
   const year = yearFromParam(searchParams.get('year'))
   const selectedName = searchParams.get('polity')
 
@@ -487,6 +488,28 @@ export function MapPageContent() {
   }
   const clearSelection = () => updateQuery({ polity: null })
 
+  /**
+   * Clicking a territory on the MAP goes straight to its article (owner
+   * instruction, 2026-09-20). Clicking it in the LIST still selects it and opens
+   * the panel.
+   *
+   * The split is deliberate rather than an inconsistency: the map is for going
+   * somewhere, the list is for looking before you go. Little is lost by jumping —
+   * the panel's precision line is identical for every polity on this map, since
+   * every frontier in the source is rated "approximate", and the evidence year is
+   * already under the map in the caption.
+   *
+   * A territory with no article cannot be navigated to, so it selects instead and
+   * the panel says why. That is the one case where a click on the map has to stop
+   * and explain itself.
+   */
+  const openOrSelect = (properties) => {
+    if (dragEnded.current) return
+    const href = articleHref(properties)
+    if (href) navigate(href)
+    else select(properties.name)
+  }
+
   const previous = previousSnapshot(year)
   const next = nextSnapshot(year)
 
@@ -652,8 +675,9 @@ export function MapPageContent() {
                   to know it as much as a screen-reader one does.
                 */}
                 <p className="map-keyhint">
-                  Tab to the map, then <kbd>←</kbd> <kbd>→</kbd> to move between
-                  territories and <kbd>Enter</kbd> to open one.
+                  Click a territory to open its article. Tab to the map, then{' '}
+                  <kbd>←</kbd> <kbd>→</kbd> to move between territories and{' '}
+                  <kbd>Enter</kbd> to open one.
                 </p>
                 <div className="map-zoom" role="group" aria-label="Zoom">
                   <button type="button" onClick={() => zoomBy(1 / 1.4)} aria-label="Zoom in">+</button>
@@ -752,12 +776,12 @@ export function MapPageContent() {
                             aria-label={isCurrent && part === 0 ? name : undefined}
                             aria-hidden={isCurrent && part === 0 ? undefined : 'true'}
                             onFocus={isCurrent && part === 0 ? () => setFocusName(name) : undefined}
-                            onClick={isCurrent ? () => select(name) : undefined}
+                            onClick={isCurrent ? () => openOrSelect(feature.properties) : undefined}
                             onKeyDown={(event) => {
                               if (!isCurrent) return
                               if (event.key === 'Enter' || event.key === ' ') {
                                 event.preventDefault()
-                                select(name)
+                                openOrSelect(feature.properties)
                                 return
                               }
                               if (event.key === 'Escape') {

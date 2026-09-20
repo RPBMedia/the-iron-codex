@@ -4,22 +4,36 @@ import GlobalSearch from './GlobalSearch.jsx'
 import { useAuth } from '../lib/auth.jsx'
 import { MAP_IS_ADMIN_ONLY } from '../lib/historicalMap.js'
 
-const primaryNavigation = [
-  { label: 'Home', to: '/', end: true },
-  { label: 'Events', to: '/events' },
-  { label: 'Locations', to: '/locations' },
-  { label: 'People', to: '/people' },
-  { label: 'Civilizations', to: '/civilizations' },
-  { label: 'Houses', to: '/houses' },
+/**
+ * Alphabetical, by owner instruction 2026-09-20 — the menu had grown past the
+ * point where a curated order was findable.
+ *
+ * Home is pinned first and deliberately not sorted. It is the site's root rather
+ * than one of its collections, and alphabetically it would land between Events
+ * and Houses, which reads as an oversight rather than a decision.
+ *
+ * Sorted at module load rather than written in order, so adding an item cannot
+ * quietly put the list back out of sequence.
+ */
+const HOME = { label: 'Home', to: '/', end: true }
+
+const COLLECTIONS = [
   { label: 'Artifacts', to: '/artifacts' },
-  { label: 'Weapons & Armor', to: '/weapons-armor' },
-  { label: 'Military Orders', to: '/orders' },
-  { label: 'Topics', to: '/topics' },
+  { label: 'Civilizations', to: '/civilizations' },
+  { label: 'Events', to: '/events' },
+  { label: 'Houses', to: '/houses' },
+  { label: 'Index', to: '/archive' },
+  { label: 'Locations', to: '/locations' },
   // TEMPORARY: admin-only while the map is built. See MAP_IS_ADMIN_ONLY in
   // client/src/lib/historicalMap.js, which is where the removal is described.
   { label: 'Map', to: '/map', adminOnly: MAP_IS_ADMIN_ONLY },
-  { label: 'Index', to: '/archive' }
-]
+  { label: 'Military Orders', to: '/orders' },
+  { label: 'People', to: '/people' },
+  { label: 'Topics', to: '/topics' },
+  { label: 'Weapons & Armor', to: '/weapons-armor' }
+].sort((a, b) => a.label.localeCompare(b.label, undefined, { sensitivity: 'base' }))
+
+const primaryNavigation = [HOME, ...COLLECTIONS]
 
 export default function Header() {
   const { isAuthenticated, isAdmin, isLoading, signOut, user } = useAuth()

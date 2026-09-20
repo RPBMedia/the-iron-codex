@@ -50,3 +50,26 @@ test('prerender.mjs builds no title by hand — it must import them', () => {
   }
   assert.equal(SITE_NAME, 'The Iron Codex')
 })
+
+test('the main menu is alphabetical, with Home pinned first', () => {
+  // Owner rule, 2026-09-20: the menu had grown past the point where a curated
+  // order was findable. Asserted rather than trusted, because the failure mode is
+  // someone appending a new collection to the end of the array and nobody
+  // noticing that the list is no longer sorted.
+  //
+  // Home is exempt on purpose: it is the site root rather than a collection, and
+  // sorted it would land between Events and Houses, which reads as a mistake.
+  const source = readFileSync(new URL('../client/src/components/Header.jsx', import.meta.url), 'utf8')
+
+  const block = source.match(/const COLLECTIONS = \[([\s\S]*?)\]\.sort\(/)?.[1]
+  assert.ok(block, 'could not find the COLLECTIONS array — was the menu restructured?')
+
+  const labels = [...block.matchAll(/label:\s*'([^']+)'/g)].map((m) => m[1])
+  assert.ok(labels.length >= 8, `expected the full menu, found ${labels.length} items`)
+
+  const sorted = [...labels].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+  assert.deepEqual(labels, sorted, 'the menu items are not in alphabetical order in the source')
+
+  assert.ok(!labels.includes('Home'), 'Home belongs outside COLLECTIONS, pinned first')
+  assert.match(source, /const primaryNavigation = \[HOME, \.\.\.COLLECTIONS\]/)
+})
