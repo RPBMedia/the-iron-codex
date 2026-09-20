@@ -31,7 +31,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = join(root, 'server', 'data', 'map', 'source')
 const outDir = join(root, 'client', 'public', 'map-data')
 
-export const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
+export const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
 
 /**
  * The canvas, as section 2 of the brief defines it: the British Isles and Atlantic
@@ -197,7 +197,19 @@ function buildSnapshot(year) {
     if (!geometry) continue
     keptPositions += countPositions(geometry.coordinates)
 
-    const link = mapping.polities[name] ?? null
+    /*
+     * A mapping may carry `years`, and when it does the link applies ONLY in those
+     * snapshots. This exists because a name is not a polity across time: the
+     * source's "Seljuk Caliphate" is the Sultanate of Rum in 1279 and 1300 and a
+     * state two centuries dead in 1400, and "Serbia" in 1100 is not the polity the
+     * Codex's Serbia article covers (1371-1459).
+     *
+     * Out of range the polygon is drawn and named like any other unlinked one. It
+     * is never linked to "the closest article", because a wrong link is worse than
+     * a missing one.
+     */
+    const candidate = mapping.polities[name] ?? null
+    const link = candidate && (!candidate.years || candidate.years.includes(year)) ? candidate : null
     features.push({
       type: 'Feature',
       properties: {
@@ -211,7 +223,9 @@ function buildSnapshot(year) {
         slug: link?.slug ?? null,
         linkType: link?.type ?? null,
         linkNote: link?.note ?? null,
-        gapNote: link ? null : (mapping.knownGaps[name] ?? null)
+        gapNote: link
+          ? null
+          : (candidate?.outOfRangeNote ?? mapping.knownGaps[name] ?? null)
       },
       geometry
     })

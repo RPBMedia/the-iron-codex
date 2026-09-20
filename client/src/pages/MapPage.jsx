@@ -4,6 +4,7 @@ import LoadingState from '../components/LoadingState.jsx'
 import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
 import {
+  CAMERA_PRESETS,
   CANVAS,
   FIRST_YEAR,
   LAND_URL,
@@ -14,11 +15,16 @@ import {
   articleHref,
   evidenceSentence,
   nextSnapshot,
+  panView,
   pathsForFeature,
+  presetById,
   previousSnapshot,
   resolveSnapshot,
   snapshotUrl,
-  yearFromParam
+  viewBoxString,
+  viewFromBounds,
+  yearFromParam,
+  zoomView
 } from '../lib/historicalMap.js'
 
 /**
@@ -71,6 +77,20 @@ export default function MapPage() {
   const [snapshot, setSnapshot] = useState(null)
   const [land, setLand] = useState(null)
   const [status, setStatus] = useState('loading')
+  const [query, setQuery] = useState('')
+
+  // The camera. The preset lives in the URL so a view is shareable — "look at the
+  // Holy Land in 1200" is a link — while free panning and zooming stay transient,
+  // because a query string that changes on every drag makes the back button useless.
+  const presetId = searchParams.get('view') ?? 'canvas'
+  const [view, setView] = useState(() => viewFromBounds(presetById(presetId).bounds))
+  const svgRef = useRef(null)
+  const drag = useRef(null)
+  const dragEnded = useRef(false)
+
+  useEffect(() => {
+    setView(viewFromBounds(presetById(presetId).bounds))
+  }, [presetId])
 
   const resolution = useMemo(() => resolveSnapshot(year), [year])
   const evidenceYear = resolution.evidenceYear
@@ -150,7 +170,78 @@ export default function MapPage() {
 
   const selected = polities.find((p) => p.name === selectedName) ?? null
 
-  const select = (name) => updateQuery({ polity: name })
+  // Search over the list, not over the map. With 70 polities at 1100 the list is a
+  // scroll box, and a reader who knows the name should not have to hunt for it.
+  const visiblePolities = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    return q ? polities.filter((p) => p.name.toLowerCase().includes(q)) : polities
+  }, [polities, query])
+
+  /* --- Camera gestures ---------------------------------------------------
+     Hand-rolled because the renderer is plain SVG. It is about sixty lines,
+     which was the trade recorded when MapLibre was turned down, and it buys
+     back the ~230 KB gzip that would otherwise land on all 923 article pages.
+
+     Pointer events rather than mouse events, so a touch drag works with the
+     same code path; pointer capture so a drag that leaves the SVG still
+     tracks. */
+  const clientToView = (event) => {
+    const rect = svgRef.current?.getBoundingClientRect()
+    if (!rect) return null
+    return {
+      x: view.x + ((event.clientX - rect.left) / rect.width) * view.w,
+      y: view.y + ((event.clientY - rect.top) / rect.height) * view.h
+    }
+  }
+
+  const onPointerDown = (event) => {
+    // Only a plain primary-button drag pans. A click on a polygon has to keep
+    // selecting it, so the drag is only treated as a pan once it actually moves.
+    if (event.button !== 0) return
+    drag.current = { startX: event.clientX, startY: event.clientY, view, moved: false }
+    svgRef.current?.setPointerCapture?.(event.pointerId)
+  }
+
+  const onPointerMove = (event) => {
+    const d = drag.current
+    if (!d) return
+    const rect = svgRef.current?.getBoundingClientRect()
+    if (!rect) return
+    const dx = ((event.clientX - d.startX) / rect.width) * d.view.w
+    const dy = ((event.clientY - d.startY) / rect.height) * d.view.h
+    if (!d.moved && Math.hypot(dx, dy) < 2) return
+    d.moved = true
+    setView(panView(d.view, -dx, -dy))
+  }
+
+  const onPointerUp = (event) => {
+    svgRef.current?.releasePointerCapture?.(event.pointerId)
+    // Leave `moved` readable for one click cycle: the polygon's onClick fires
+    // after this, and a pan that ended over a territory must not select it.
+    const d = drag.current
+    drag.current = null
+    if (d?.moved) {
+      dragEnded.current = true
+      window.setTimeout(() => {
+        dragEnded.current = false
+      }, 0)
+    }
+  }
+
+  const onWheel = (event) => {
+    event.preventDefault()
+    setView(zoomView(view, event.deltaY > 0 ? 1.15 : 1 / 1.15, clientToView(event)))
+  }
+
+  const zoomBy = (factor) => setView(zoomView(view, factor))
+  const resetCamera = () => setView(viewFromBounds(presetById(presetId).bounds))
+  const isZoomed = Math.abs(view.w - viewFromBounds(presetById(presetId).bounds).w) > 1
+
+  // A pan that happens to end over a territory must not select it.
+  const select = (name) => {
+    if (dragEnded.current) return
+    updateQuery({ polity: name })
+  }
   const clearSelection = () => updateQuery({ polity: null })
 
   const previous = previousSnapshot(year)
@@ -256,8 +347,36 @@ export default function MapPage() {
         {status === 'ready' && (
           <div className="map-layout">
             <figure className="map-figure">
+              {/*
+                Camera controls. The presets are the brief's, and they are buttons
+                rather than a select so that reaching the Holy Land is one tap on a
+                phone. Zoom and reset are buttons too: wheel and drag are the
+                enhancement, and neither is reachable from a keyboard.
+              */}
+              <div className="map-camera">
+                <div className="map-presets" role="group" aria-label="Camera presets">
+                  {CAMERA_PRESETS.map((preset) => (
+                    <button
+                      key={preset.id}
+                      type="button"
+                      className={`map-preset${preset.id === presetId ? ' is-active' : ''}`}
+                      aria-pressed={preset.id === presetId}
+                      onClick={() => updateQuery({ view: preset.id === 'canvas' ? null : preset.id })}
+                    >
+                      {preset.label}
+                    </button>
+                  ))}
+                </div>
+                <div className="map-zoom" role="group" aria-label="Zoom">
+                  <button type="button" onClick={() => zoomBy(1 / 1.4)} aria-label="Zoom in">+</button>
+                  <button type="button" onClick={() => zoomBy(1.4)} aria-label="Zoom out">&minus;</button>
+                  <button type="button" onClick={resetCamera} disabled={!isZoomed}>Reset</button>
+                </div>
+              </div>
+
               <svg
-                viewBox={`0 0 ${VIEW_WIDTH} ${VIEW_HEIGHT}`}
+                ref={svgRef}
+                viewBox={viewBoxString(view)}
                 className="map-svg"
                 role="group"
                 aria-label={
@@ -265,7 +384,14 @@ export default function MapPage() {
                     ? `No mapped political geography for ${year}`
                     : `Political geography reconstructed for ${evidenceYear}`
                 }
+                onPointerDown={onPointerDown}
+                onPointerMove={onPointerMove}
+                onPointerUp={onPointerUp}
+                onPointerCancel={onPointerUp}
+                onWheel={onWheel}
               >
+                {/* Sized to the whole canvas, not the camera, so panning never
+                    reveals an unpainted edge beyond the sea. */}
                 <rect x="0" y="0" width={VIEW_WIDTH} height={VIEW_HEIGHT} className="map-sea" />
                 {/*
                   Physical coastline, under everything. Without it the sea and the
@@ -367,8 +493,22 @@ export default function MapPage() {
               */}
               <section className="rail-card map-list" aria-label="Polities on this map">
                 <p className="eyebrow">On this map</p>
+                <label className="map-list-search">
+                  <span>Find a polity</span>
+                  <input
+                    type="search"
+                    value={query}
+                    placeholder={`Find among ${polities.length}`}
+                    onChange={(event) => setQuery(event.target.value)}
+                  />
+                </label>
+                <p className="map-list-count" aria-live="polite">
+                  {query.trim()
+                    ? `${visiblePolities.length} of ${polities.length} match`
+                    : `${polities.length} polities`}
+                </p>
                 <ul>
-                  {polities.map((polity) => (
+                  {visiblePolities.map((polity) => (
                     <li key={polity.name}>
                       <button
                         type="button"

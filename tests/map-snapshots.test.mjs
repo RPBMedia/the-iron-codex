@@ -25,7 +25,7 @@ import { dirname, join } from 'node:path'
 import { loadArchive } from '../server/data/archive.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
+const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
 
 const snapshot = (year) =>
   JSON.parse(readFileSync(join(root, 'client', 'public', 'map-data', `snapshot-${year}.json`), 'utf8'))

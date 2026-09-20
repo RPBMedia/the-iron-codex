@@ -22,7 +22,7 @@ import { mercY } from './locatorMaps.js'
  * but a map of 500 with four linkable states is still a map of 500, and the
  * alternative was five centuries of nothing.
  */
-export const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
+export const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
 
 /** Physical coastline under the politics, so water reads as water. Public domain. */
 export const LAND_URL = '/map-data/land.json'
@@ -43,6 +43,25 @@ export const VIEW_WIDTH = 1000
 export const VIEW_HEIGHT = Math.round(
   (VIEW_WIDTH * (mercY(CANVAS.north) - mercY(CANVAS.south))) / ((CANVAS.east - CANVAS.west) * (Math.PI / 180))
 )
+
+/**
+ * Camera presets, as section 2 of the brief asks for.
+ *
+ * Bounds are in degrees, and each is deliberately a little generous: the brief is
+ * emphatic that Cyprus, Jerusalem, Egypt, Constantinople and Iceland must never be
+ * clipped, and a preset that cuts the edge off its own subject is worse than no
+ * preset. `tests/map-geometry.test.mjs` asserts the landmarks each one claims.
+ */
+export const CAMERA_PRESETS = [
+  { id: 'canvas', label: 'Whole canvas', bounds: CANVAS },
+  { id: 'europe', label: 'Europe', bounds: { west: -12, east: 32, south: 35, north: 62 } },
+  { id: 'britain', label: 'British Isles', bounds: { west: -11, east: 3, south: 49, north: 61 } },
+  { id: 'scandinavia', label: 'Scandinavia', bounds: { west: -25, east: 33, south: 53, north: 72 } },
+  { id: 'iberia', label: 'Iberia', bounds: { west: -10.5, east: 5, south: 35.5, north: 44.5 } },
+  { id: 'byzantium', label: 'Byzantium', bounds: { west: 14, east: 45, south: 30, north: 48 } },
+  { id: 'holy-land', label: 'Holy Land & Crusades', bounds: { west: 25, east: 48, south: 27, north: 42 } },
+  { id: 'mediterranean', label: 'Mediterranean', bounds: { west: -7, east: 40, south: 27, north: 47 } }
+]
 
 /** lon/lat → viewBox units. */
 export function projectPoint(lon, lat) {
@@ -139,6 +158,68 @@ export function evidenceSentence(year, resolution) {
   }
   const years = resolution.gap === 1 ? '1 year' : `${resolution.gap} years`
   return `These borders are the source's reconstruction for ${resolution.evidenceYear}, ${years} before the year you selected. Nothing here is a reconstruction of ${year}.`
+}
+
+// ---------------------------------------------------------------------------
+// Camera
+// ---------------------------------------------------------------------------
+
+/** A degree box → a viewBox rectangle in projected units. */
+export function viewFromBounds(bounds) {
+  const [left, top] = projectPoint(bounds.west, bounds.north)
+  const [right, bottom] = projectPoint(bounds.east, bounds.south)
+  return { x: left, y: top, w: right - left, h: bottom - top }
+}
+
+export const presetById = (id) => CAMERA_PRESETS.find((p) => p.id === id) ?? CAMERA_PRESETS[0]
+
+export const viewBoxString = (view) =>
+  `${view.x.toFixed(1)} ${view.y.toFixed(1)} ${view.w.toFixed(1)} ${view.h.toFixed(1)}`
+
+/** The tightest and widest the camera may go, as a fraction of the whole canvas. */
+const MIN_SPAN = 0.06
+const MAX_SPAN = 1
+
+/**
+ * Zoom about a fixed point, clamped, and kept inside the canvas.
+ *
+ * Clamping matters more than it looks: without it a few scroll gestures put the
+ * camera somewhere in the Atlantic with nothing on screen and no obvious way back,
+ * which reads as the map having broken rather than as the reader having zoomed.
+ */
+export function zoomView(view, factor, focus = null) {
+  const cx = focus ? focus.x : view.x + view.w / 2
+  const cy = focus ? focus.y : view.y + view.h / 2
+
+  const minW = VIEW_WIDTH * MIN_SPAN
+  const maxW = VIEW_WIDTH * MAX_SPAN
+  const w = Math.min(maxW, Math.max(minW, view.w * factor))
+  const h = w * (VIEW_HEIGHT / VIEW_WIDTH)
+
+  // Keep the focus under the cursor: the point it was at stays where it was.
+  const ratio = w / view.w
+  return clampView({
+    x: cx - (cx - view.x) * ratio,
+    y: cy - (cy - view.y) * ratio,
+    w,
+    h
+  })
+}
+
+export function panView(view, dx, dy) {
+  return clampView({ ...view, x: view.x + dx, y: view.y + dy })
+}
+
+/** Never let the camera leave the canvas entirely. */
+export function clampView(view) {
+  const w = Math.min(view.w, VIEW_WIDTH)
+  const h = Math.min(view.h, VIEW_HEIGHT)
+  return {
+    w,
+    h,
+    x: Math.min(Math.max(view.x, 0), VIEW_WIDTH - w),
+    y: Math.min(Math.max(view.y, 0), VIEW_HEIGHT - h)
+  }
 }
 
 /** Where a polygon's article lives, in the archive's own route vocabulary. */

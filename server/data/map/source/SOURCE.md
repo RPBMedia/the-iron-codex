@@ -103,7 +103,19 @@ Verified against the real geometry on 2026-09-20, not against the repository's
 
 - **`Seljuk Caliphate` at 1400 — dropped.** The Great Seljuk Empire ended in 1194 and
   the Sultanate of Rum in 1308. By 1400 that ground was Ottoman and the Anatolian
-  beyliks. Recorded in `polity-slugs.json` under `dropFrom`.
+  beyliks. Recorded in `polity-slugs.json` under `dropFrom`. At **1279 and 1300 the
+  same label is kept and linked**: the name is wrong (Rum was a sultanate, not a
+  caliphate) but the polity is real for those years.
+- **`Fatimid Caliphate` at 1200 — dropped.** Saladin ended the Fatimids in 1171; in
+  1200 Egypt and the Levant were Ayyubid, and the source has no Ayyubid polygon at
+  all. Egypt therefore shows as unmapped at 1200. With the land layer that now reads
+  as ground nobody has mapped rather than as sea, which is the truthful outcome —
+  naming a state 29 years dead would not be.
+
+  *(A subagent reading the repository's `index.json` claimed this error was a
+  "Mamluke Sultanate" label at 1200. Checked against the real geometry: there is no
+  Mamluk polygon at 1200 at all, and the label is correct where it does appear, at
+  1279, 1300 and 1400. The error was real but it was the Fatimids.)*
 - **No crusader states at 1100.** The file contains no Kingdom of Jerusalem, Antioch,
   Edessa or Tripoli; the Levant is Fatimid and Seljuk. Jerusalem fell in July 1099,
   so at 1100 the states were weeks old — defensible, but a real coverage gap, and the
@@ -125,6 +137,20 @@ forbids. They are the concrete reason the map calls itself one reconstruction.
 | 1100 | Prague is Polish | Bohemia was within the Empire |
 | 1100 | Damascus is Fatimid | Burid/Seljuk by then |
 | 1400 | Athens is Byzantine | The Latin Duchy of Athens held it |
+
+### A name is not a polity across time
+
+`polity-slugs.json` mappings may carry `years`, and the link then applies only in
+those snapshots. Two cases forced it, and both would have shipped as silent errors:
+
+- **"Serbia"** was mapped globally and so linked at 1100. The Codex's
+  `principality-of-serbia` article covers **1371–1459** — the Despotate — which is
+  not the polity on an 1100 map. Now unlinked at every year, with the reason stated.
+- **"Seljuk Caliphate"** is the Sultanate of Rum at 1279 and 1300 and a state two
+  centuries dead at 1400. Scoped to the first two, dropped from the last.
+
+Out of range a polygon is drawn and named like any other unlinked one. It is never
+linked to "the closest article".
 
 ### Coastal cities cannot be located in this data
 

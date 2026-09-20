@@ -60,8 +60,25 @@
     "Aragón": { "slug": "kingdom-of-aragon", "type": "location" },
     "Navarre": { "slug": "kingdom-of-navarre", "type": "location" },
     "Portugal": { "slug": "kingdom-of-portugal", "type": "location" },
-    "Serbia": { "slug": "principality-of-serbia", "type": "location" },
     "Sicily": { "slug": "kingdom-of-sicily", "type": "location" },
+    "Kyivan Rus": { "slug": "kievan-rus", "type": "location" },
+    "Lithuania": { "slug": "grand-duchy-of-lithuania", "type": "location" },
+    "Caliphate of Córdoba": { "slug": "caliphate-of-cordoba", "type": "location" },
+    "Northumbria": { "slug": "northumbria", "type": "location" },
+
+    "Seljuk Caliphate": {
+      "slug": "sultanate-of-rum",
+      "type": "location",
+      "years": [1279, 1300],
+      "note": "The source's name is wrong — Rum was a sultanate, not a caliphate — but the polity is right for these years. The Sultanate of Rum ran 1077 to 1308.",
+      "outOfRangeNote": "Deliberately unlinked. The Sultanate of Rum ended in 1308, so this label on a later map names a state that no longer existed."
+    },
+
+    "Angevin Empire": {
+      "slug": "house-of-plantagenet",
+      "type": "house",
+      "note": "Not a state with institutions of its own but the lands the Plantagenets held on both sides of the Channel at once. The link is to the house, because that is what actually held them together."
+    },
     "Ottoman Empire": { "slug": "ottoman-empire", "type": "location" },
     "Kalmar Union": { "slug": "kalmar-union", "type": "location" },
 
@@ -131,13 +148,34 @@
     "Visigothic Kingdom": "No article for the Visigothic Kingdom, only for the Visigoths as a people.",
     "Bulgars": "Old Great Bulgaria, which is not the First Bulgarian Empire the Codex covers. Deliberately unlinked.",
     "Khazars": "No article for the Khazar Khaganate.",
-    "Anglo-Saxons": "A people, not a polity — and at this date not one state. The Codex covers the individual kingdoms."
+    "Anglo-Saxons": "A people, not a polity — and at this date not one state. The Codex covers the individual kingdoms.",
+    "Serbia": "Deliberately unlinked. The Codex's Serbia article is the polity of 1371–1459; the Serbia on these maps is the earlier principality, which is a different state and has no article.",
+    "Raška": "The medieval Serbian realm. No article.",
+    "Ilkhanate": "No article. The Codex covers the Mongol Empire it broke from, which is not the same polity.",
+    "Khanate of the Golden Horde": "No article. As with the Ilkhanate, a successor khanate rather than the Mongol Empire itself.",
+    "Chagatai Khanate": "No article.",
+    "Grand Duchy of Moscow": "No article.",
+    "East Francia": "No article. The Codex covers the Carolingian Empire it was partitioned from, and the Holy Roman Empire it became.",
+    "West Francia": "No article. The Codex covers the Carolingian Empire it was partitioned from, and the Kingdom of France it became.",
+    "Emirate of Sicily": "No article for Muslim Sicily. The Codex's Kingdom of Sicily is the later Norman state, from 1130, and is deliberately not linked here.",
+    "Great Moravia": "No article.",
+    "Principality of Kyiv": "No article for the principality as distinct from Kievan Rus.",
+    "Principality of Novgorod": "No article for the Novgorod polity; the Codex's Novgorod is the city.",
+    "Principality of Vladimir-Suzdal": "No article.",
+    "Principality of Galicia-Volhynia": "No article.",
+    "Samanid Empire": "No article.",
+    "Merinides": "No article for the Marinid sultanate.",
+    "Abdelouadides": "No article for the Zayyanid kingdom of Tlemcen."
   },
 
   "dropFrom": {
     "Seljuk Caliphate": {
       "years": [1400],
-      "reason": "Anachronism in the source. The Great Seljuk Empire ended in 1194 and the Sultanate of Rum in 1308; by 1400 this ground was Ottoman territory and the Anatolian beyliks. Publishing the label would put a state on the map 200 years after it fell."
+      "reason": "Anachronism in the source. The Great Seljuk Empire ended in 1194 and the Sultanate of Rum in 1308; by 1400 this ground was Ottoman territory and the Anatolian beyliks. Publishing the label would put a state on the map 200 years after it fell. At 1279 and 1300 the same label IS the Sultanate of Rum and is kept, and linked."
+    },
+    "Fatimid Caliphate": {
+      "years": [1200],
+      "reason": "Anachronism in the source. Saladin ended the Fatimid Caliphate in 1171; in 1200 Egypt and the Levant were Ayyubid, and the source has no Ayyubid polygon at all. Egypt therefore shows as unmapped at 1200, which the land layer now renders honestly as ground nobody has mapped rather than as sea. That is the truthful outcome: naming a state 29 years dead would not be."
     }
   }
 }

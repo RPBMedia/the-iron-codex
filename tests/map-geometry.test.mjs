@@ -42,10 +42,23 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
-import { pathsForFeature } from '../client/src/lib/historicalMap.js'
+import {
+  CAMERA_PRESETS,
+  CANVAS,
+  VIEW_HEIGHT,
+  VIEW_WIDTH,
+  panView,
+  pathsForFeature,
+  presetById,
+  viewFromBounds,
+  zoomView
+} from '../client/src/lib/historicalMap.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
+const { dropFrom } = JSON.parse(
+  readFileSync(join(root, 'server', 'data', 'map', 'polity-slugs.json'), 'utf8')
+)
+const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
 
 /** Well clear of anything the map needs; a snapshot over this is un-simplified. */
 const MAX_SNAPSHOT_BYTES = 200 * 1024
@@ -186,7 +199,10 @@ test('no polity inside the canvas is lost between the source and the snapshot', 
     const got = new Set(snapshot(year).features.map((f) => f.properties.name))
     for (const name of expected) {
       // A deliberate drop is not a loss; `dropFrom` in polity-slugs.json records why.
-      if (name === 'Seljuk Caliphate') continue
+      // Read rather than hardcoded, so adding a drop does not mean editing this test
+      // — and so a drop that is NOT declared there still fails, which is the point.
+      const drop = dropFrom[name]
+      if (drop && drop.years.includes(year)) continue
       if (!got.has(name)) lost.push(`${year}/${name}`)
     }
   }
@@ -261,4 +277,63 @@ test('a polity with overlapping parts is never drawn as one evenodd path', () =>
       assert.ok(d.startsWith('M'), `${feature.properties.name}: a path does not begin with a move`)
     }
   }
+})
+
+test('every camera preset frames the region it is named after', () => {
+  // A preset that clips its own subject is worse than no preset, and the brief
+  // names Cyprus, Jerusalem, Egypt, Constantinople and Iceland as things that must
+  // never be cut off. These are the landmarks each preset claims to show.
+  const claims = {
+    canvas: [['Jerusalem', 35.22, 31.78], ['Reykjavík', -21.94, 64.15], ['Cairo', 31.24, 30.04]],
+    europe: [['Rome', 12.5, 41.9], ['Kyiv', 30.52, 50.45], ['Toledo', -4.03, 39.87]],
+    britain: [['London', -0.13, 51.51], ['Dublin', -6.26, 53.35], ['Orkney', -2.96, 58.98]],
+    scandinavia: [['Reykjavík', -21.94, 64.15], ['Uppsala', 17.64, 59.86], ['Trondheim', 10.4, 63.43]],
+    iberia: [['Toledo', -4.03, 39.87], ['Lisbon', -9.14, 38.71], ['Barcelona', 2.17, 41.39]],
+    byzantium: [['Constantinople', 28.98, 41.01], ['Athens', 23.73, 37.98], ['Antioch', 36.16, 36.2]],
+    'holy-land': [['Jerusalem', 35.22, 31.78], ['Nicosia', 33.36, 35.17], ['Cairo', 31.24, 30.04], ['Antioch', 36.16, 36.2]],
+    mediterranean: [['Rome', 12.5, 41.9], ['Carthage', 10.32, 36.85], ['Nicosia', 33.36, 35.17]]
+  }
+
+  const outside = []
+  for (const preset of CAMERA_PRESETS) {
+    const b = preset.bounds
+    for (const [place, lon, lat] of claims[preset.id] ?? []) {
+      if (lon < b.west || lon > b.east || lat < b.south || lat > b.north) {
+        outside.push(`${preset.id} clips ${place}`)
+      }
+    }
+    // And every preset must itself sit inside the canvas, or it frames blank space.
+    assert.ok(
+      b.west >= CANVAS.west && b.east <= CANVAS.east && b.south >= CANVAS.south && b.north <= CANVAS.north,
+      `${preset.id} reaches outside the canvas`
+    )
+    assert.ok(b.east > b.west && b.north > b.south, `${preset.id} has inverted bounds`)
+  }
+  assert.deepEqual(outside, [], `camera presets clipping their own subject: ${outside.join(', ')}`)
+})
+
+test('the camera cannot be zoomed or panned out of the world', () => {
+  // Without clamping, a few scroll gestures put the camera somewhere in the
+  // Atlantic with nothing on screen and no obvious way back — which reads as the
+  // map having broken rather than as the reader having zoomed.
+  let view = viewFromBounds(CANVAS)
+  for (let i = 0; i < 40; i++) view = zoomView(view, 0.7)
+  assert.ok(view.w > 0 && view.h > 0, 'zooming in collapsed the camera')
+  assert.ok(view.x >= 0 && view.y >= 0, 'zooming in left the canvas')
+
+  for (let i = 0; i < 40; i++) view = zoomView(view, 1.6)
+  assert.ok(view.w <= VIEW_WIDTH + 0.5, 'zooming out went wider than the canvas')
+
+  for (let i = 0; i < 40; i++) view = panView(view, 500, 500)
+  assert.ok(view.x + view.w <= VIEW_WIDTH + 0.5, 'panning east left the canvas')
+  assert.ok(view.y + view.h <= VIEW_HEIGHT + 0.5, 'panning south left the canvas')
+
+  for (let i = 0; i < 40; i++) view = panView(view, -500, -500)
+  assert.ok(view.x >= -0.5 && view.y >= -0.5, 'panning north-west left the canvas')
+})
+
+test('a preset id that does not exist falls back to the whole canvas', () => {
+  // The preset comes from the query string, so it is reader-supplied input.
+  assert.equal(presetById('nonsense').id, 'canvas')
+  assert.equal(presetById(undefined).id, 'canvas')
 })

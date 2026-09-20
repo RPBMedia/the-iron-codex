@@ -1496,25 +1496,35 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### 0v — INTERACTIVE HISTORICAL MAP. **MVP SHIPPED 2026-09-20 — owner test case below.**
 
-**Shipped:** `/map` with **six** snapshots (500, 600, 700, 800, 1100, 1400), a
-476–1453 year slider, polity selection by map or by list, and article links. All
-gates green: 77 tests, content quality, images, render gate, build, SEO.
+**Shipped:** `/map` with **eleven** snapshots (500, 600, 700, 800, 900, 1000, 1100,
+1200, 1279, 1300, 1400) — every file the source publishes inside 476-1453 — a
+476-1453 year slider, the brief's eight camera presets, pan and zoom, polity
+selection by map or by searchable list, and article links. All gates green: 80
+tests, content quality, images, render gate, build, SEO.
 
 **Design: "Option D"**, chosen by the owner on 2026-09-20 from four mockups. Dark
 hero band carries the title and controls; the map and its panel sit below on the
-normal light ground. The first version was dark to the bottom, which was too heavy,
-and a dark page let the map read as a black void rather than as a map.
+normal light ground.
 
-**The land layer is the fix for "black areas that don't link to anything".** Not a
+**The land layer** is the fix for "black areas that don't link to anything". Not a
 rendering fault — sea and unmapped land were both near-black, so the Mediterranean,
 the Atlantic and the Sahara were indistinguishable and read as holes in the world.
-Natural Earth 110m underneath, public domain, 26 KB. Water is now water and
-unmapped ground is visibly land nobody has mapped, which is what the brief wants
-blank ground to say.
+Natural Earth 110m underneath, public domain, 26 KB.
 
-**Linked polity counts per year:** 500→5, 600→5, 700→6, 800→9, 1100→19, 1400→14.
-The early years are thin because the Codex has few post-Roman polity articles, not
-because the geometry is missing. Writing those articles would raise it.
+**Linked polity counts per year:** 500 to 1400 — 5, 5, 6, 9, 9, 13, 18, 16, 18, 18,
+14. The early years are thin because the Codex has few post-Roman polity articles,
+not because geometry is missing.
+
+**Year-scoped links.** A mapping may carry `years`, because a name is not a polity
+across time. Two cases forced it and both would otherwise have shipped as silent
+errors: "Serbia" linked at 1100 to an article covering 1371-1459, and "Seljuk
+Caliphate" is the Sultanate of Rum at 1279 and 1300 but a state two centuries dead
+at 1400.
+
+**Two anachronisms dropped, each with its reason recorded:** `Seljuk Caliphate` at
+1400, and `Fatimid Caliphate` at 1200 (Saladin ended them in 1171; the source has no
+Ayyubid polygon, so Egypt shows unmapped at 1200, which the land layer now renders
+honestly).
 
 **Owner test case — `/map?year=1147`:**
 1. The year reads **1147**; the strip beneath reads **Map evidence: 1100** and says

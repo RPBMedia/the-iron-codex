@@ -4304,3 +4304,157 @@ a.tree-person:hover .tree-person-name {
     max-height: 320px;
   }
 }
+
+/* --- Camera: presets, zoom, pan (QUEUE 0v, milestone 5) -------------------
+   The presets are the brief's own list. They are buttons rather than a select
+   so that reaching the Holy Land is one tap on a phone, and because a select
+   hides the options that make the feature discoverable at all.
+
+   Wheel and drag are the enhancement. Neither is reachable from a keyboard, so
+   the zoom and reset buttons are the real controls and are never hidden. */
+
+.map-camera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.map-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.map-preset {
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid rgba(141, 147, 159, 0.4);
+  border-radius: 999px;
+  background: #fffaf0;
+  color: #3f4249;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 780;
+  cursor: pointer;
+}
+
+.map-preset:hover {
+  border-color: #8f6b1d;
+  color: #6d5214;
+}
+
+.map-preset:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.55);
+  outline-offset: 2px;
+}
+
+.map-preset.is-active {
+  border-color: #8f6b1d;
+  background: #8f6b1d;
+  color: #fffaf0;
+}
+
+.map-zoom {
+  display: flex;
+  gap: 6px;
+}
+
+.map-zoom button {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 6px 12px;
+  border: 1px solid rgba(141, 147, 159, 0.4);
+  border-radius: 6px;
+  background: #fffaf0;
+  color: #292a30;
+  font-family: inherit;
+  font-size: 0.86rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.map-zoom button:hover:not(:disabled) {
+  border-color: #8f6b1d;
+  color: #6d5214;
+}
+
+.map-zoom button:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.55);
+  outline-offset: 2px;
+}
+
+.map-zoom button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* `grab` rather than `default`: the map is draggable and nothing else says so.
+   `touch-action: none` stops the browser claiming a one-finger drag for page
+   scrolling, which would make panning on a phone impossible. */
+.map-svg {
+  cursor: grab;
+  touch-action: none;
+}
+
+.map-svg:active {
+  cursor: grabbing;
+}
+
+/* --- List search ----------------------------------------------------------
+   Eleven snapshots in, the list runs to seventy names at 1100. Scrolling to
+   find one you can already name is the kind of small friction that makes a
+   feature feel unfinished. */
+
+.map-list-search {
+  display: block;
+  margin-top: 10px;
+}
+
+/* The same clip idiom `.global-search label` uses. A hidden label must stay in
+   the accessibility tree, so it is clipped rather than display:none. */
+.map-list-search span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.map-list-search input {
+  width: 100%;
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 1px solid rgba(141, 147, 159, 0.4);
+  border-radius: 6px;
+  background: #f5f1e8;
+  color: #292a30;
+  font-family: inherit;
+  font-size: 0.86rem;
+}
+
+.map-list-search input:focus {
+  outline: 2px solid rgba(242, 193, 78, 0.72);
+  outline-offset: 2px;
+}
+
+.map-list-count {
+  margin: 8px 0 0;
+  color: #6d717a;
+  font-size: 0.76rem;
+  font-weight: 780;
+}
+
+@media (max-width: 640px) {
+  .map-camera {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .map-zoom button {
+    flex-grow: 1;
+  }
+}
