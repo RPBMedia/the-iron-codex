@@ -9,7 +9,6 @@ import {
   MAP_IS_ADMIN_ONLY,
   CANVAS,
   FIRST_YEAR,
-  MAP_SOURCES,
   coverageUrl,
   LAND_URL,
   LAST_YEAR,
@@ -177,12 +176,8 @@ export function MapPageContent() {
   // The camera. The preset lives in the URL so a view is shareable — "look at the
   // Holy Land in 1200" is a link — while free panning and zooming stay transient,
   // because a query string that changes on every drag makes the back button useless.
-  /*
-   * Which reconstruction. In the URL, so a view is shareable as a whole — "the
-   * Holy Land in 1200, as OHM has it" is a link — and so switching source is a
-   * real navigation the back button can undo.
-   */
-  const sourceId = searchParams.get('src') ?? 'hb'
+  // One reconstruction. A second was built and removed — see MAP_SOURCES.
+  const sourceId = 'hb'
   const source = sourceById(sourceId)
 
   const presetId = searchParams.get('view') ?? 'canvas'
@@ -212,16 +207,6 @@ export function MapPageContent() {
     setView(viewFromBounds(presetById(presetId).bounds))
   }, [presetId])
 
-  // Changing reconstruction empties the cache and the layers. They are keyed by
-  // year alone, so without this the map would cross-fade one source's 1200 into
-  // the other's — which is the composite this whole design exists to avoid, and
-  // it would look like a bug rather than a claim.
-  useEffect(() => {
-    cache.current = new Map()
-    hasShownMap.current = false
-    setLayers([])
-    setStatus('loading')
-  }, [sourceId])
 
   const resolution = useMemo(() => resolveSnapshot(year, sourceId), [year, sourceId])
   const evidenceYear = resolution.evidenceYear
@@ -621,27 +606,6 @@ export function MapPageContent() {
             reconstruction at or before it — never a later one. Every frontier here is approximate.
           </p>
         </header>
-
-        {/*
-          Which reconstruction. Two, offered as a choice rather than merged,
-          because they disagree: OHM's Holy Roman Empire at 1200 reaches over
-          Brandenburg where the other's stops short of Berlin. Splicing them
-          would give one polity two extents in one year.
-        */}
-        <div className="map-sources" role="group" aria-label="Reconstruction">
-          {Object.values(MAP_SOURCES).map((option) => (
-            <button
-              key={option.id}
-              type="button"
-              className={`map-source${option.id === sourceId ? ' is-active' : ''}`}
-              aria-pressed={option.id === sourceId}
-              onClick={() => updateQuery({ src: option.id === 'hb' ? null : option.id, polity: null })}
-            >
-              <span className="map-source-label">{option.label}</span>
-              <span className="map-source-hint">{option.hint}</span>
-            </button>
-          ))}
-        </div>
 
         <div className="map-controls">
           <div className="map-year">

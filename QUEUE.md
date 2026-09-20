@@ -1822,39 +1822,45 @@ side of it — "Not mapped in 1200 · Prussians here in 1100 · Teutonic Knights
 1279". It reports what other snapshots say and never implies either is true of the
 year on screen. It does not fill the hole; it stops the hole reading as a fault.
 
-**SHIPPED 2026-09-20 — the alternative-reconstruction selector.** The reader now
-chooses between two reconstructions, shown whole and never spliced:
+**TRIED AND REMOVED 2026-09-20 — the OpenHistoricalMap reconstruction.** Built in
+full, looked at, and taken out the same day. The finding is the valuable part and
+is recorded so nobody spends the day again.
 
-| | historical-basemaps | OpenHistoricalMap |
-|---|---|---|
-| Coverage | whole canvas | Europe; thin beyond it |
-| Steps | 11 dated files | **100, every 10 years** |
-| Year drawn | nearest at or before | **exactly the year asked for** |
-| Licence | GPL-3.0 | CC0 |
+The owner wanted decade steps; `historical-basemaps` has eleven dated files and no
+more. OHM has no keyframes at all — every feature carries its own start and end
+date — so a pipeline was built (`scripts/fetch-ohm-source.mjs`,
+`scripts/build-ohm-snapshots.mjs`, both kept and both still working), 505
+relations and 220 MB were pulled, and 100 decade snapshots came out the other end.
 
-OHM dates every feature individually, so the years are ours to choose rather than
-a publisher's — which is what finally answers the owner's "why every 100 years".
-96 of 98 decade steps have a distinct membership set, so the resolution is real
-rather than nominal, and a test asserts consecutive decades actually differ.
+**Then the map was looked at, and 1231 was missing France, the Empire and Poland.**
+That was not a pipeline bug. OHM's coverage of the two largest western polities
+collapses partway through the period, and not as a gap but as a shell:
 
-**Pipeline.** `fetch-ohm-source.mjs` pulls each relation's geometry ONCE (they
-persist across decades, so per-year fetching would ask a volunteer-run API for the
-same bytes dozens of times) — 505 relations, 220 MB, resumable, gitignored.
-`build-ohm-snapshots.mjs` stitches relation members into closed rings, slices by
-year and writes 100 snapshots, 13 MB. `manifest.json` records every relation id,
-name, lifetime and wikidata id, so the input is identified without vendoring it.
+    Sacrum Imperium Romanum  1167→1201   227 boundary ways
+    Sacrum Imperium Romanum  1201→1512     0 ways, a label node only
+    Reaume de France          987→1050   176 boundary ways
+    Reaume de France         1050→1212     0 ways
+    Reaume de France         1212→1301     0 ways
 
-**admin_level 2 and 3 only.** Level 4 is counties, bishoprics and free cities: 400
-more relations, a map too busy to read at this scale, and 400 more articles owed
-under 0w. It is also what would fill the Brandenburg hole, so that trade is worth
-revisiting deliberately.
+**No France from 1050, no Empire from 1201.** A decade-resolution map that omits
+both is not a finer map, it is a wrong one — so it was removed rather than shipped
+behind a selector, and the owner's dislike of two maps settled the rest.
 
-**What it does NOT buy, stated plainly.** It does not fix the 1200 hole the owner
-found — see the correction above. And it brings holes of its own: **OHM ships the
-Kingdom of France at 1200 as a relation with no geometry at all**, a name with no
-borders, so Paris is blank there. Two other relations were in the same state.
-Both facts are asserted by tests rather than left as prose, so a later improvement
-upstream will fail the suite and force the notes to be updated.
+**One real pipeline bug was found and is NOT fixed**, because it stopped mattering:
+17 relations carry sub-relations as members and Overpass's `out geom` does not
+recurse into them, so 21 sub-relations were never fetched. The HRE's main geometry
+assembled anyway from its 200-odd direct ways; the sub-relations are enclaves. If
+this is ever picked up again, fix that first.
+
+**Worth revisiting if OHM's later coverage fills in.** It is genuinely excellent
+EARLIER than this map's problem years — `Regnum Francorum` is drawn per reign from
+481 to 800, finer than anything currently shipped. `server/data/map/source/ohm/
+manifest.json` is kept, so a re-fetch can be diffed against what was there.
+
+**So the honest position on granularity:** one complete map at eleven dates, or a
+finer map that is missing France for four centuries. No open source found supports
+a single complete map of this canvas at decade steps. That is the state of the
+available evidence, not a limitation of the implementation.
 
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that

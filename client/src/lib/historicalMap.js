@@ -46,56 +46,45 @@ import { mercY } from './locatorMaps.js'
 export const MAP_IS_ADMIN_ONLY = true
 
 /**
- * The two reconstructions the map can draw, and why there are two.
+ * The reconstructions the map can draw. There is one, and the reason the second
+ * was removed is worth keeping, because it looks like an obvious thing to try.
  *
  * `historical-basemaps` publishes eleven dated files inside 476–1453 and no more,
- * so on its own the map could not change more often than about once a century —
- * and it has holes, most visibly northern Germany and the Baltic at 1200, blank
- * there while mapped either side of it.
+ * so the map cannot change more often than about once a century. The owner
+ * reasonably wanted ten-year steps, and OpenHistoricalMap looked like the answer:
+ * it has no keyframes at all, every feature carrying its own start and end date,
+ * so any year can be asked for. A full pipeline was built for it —
+ * `scripts/fetch-ohm-source.mjs` and `scripts/build-ohm-snapshots.mjs` are still
+ * here and still work — and it produced 100 snapshots at decade steps.
  *
- * OpenHistoricalMap has no keyframes at all: every feature carries its own
- * start and end date, so any year can be asked for and every snapshot is an
- * EXACT reconstruction of its year rather than the nearest one before it.
+ * Then the map was looked at. OHM's coverage of the two largest western polities
+ * collapses partway through the period, and not as a gap but as a shell:
  *
- * They are offered as a choice rather than merged, and that is the brief's own
- * rule. Each has holes the other does not: historical-basemaps is blank over
- * northern Germany at 1200, and OHM ships the Kingdom of France at 1200 as a
- * relation with no geometry at all — a name with no borders. Splicing them would
- * mean deciding, per hole, which source to believe, and publishing a map neither
- * one supports. Each is shown whole, named, and with its own licence.
+ *     Sacrum Imperium Romanum  1167→1201   227 boundary ways
+ *     Sacrum Imperium Romanum  1201→1512     0 ways, a label node only
+ *     Reaume de France          987→1050   176 boundary ways
+ *     Reaume de France         1050→1212     0 ways
+ *     Reaume de France         1212→1301     0 ways
  *
- * (An earlier note here claimed OHM's Holy Roman Empire at 1200 reaches over
- * Brandenburg where the other's stops short. That was inferred from a tag listing
- * and is false — both exclude Berlin. `tests/map-ohm.test.mjs` now asserts it, so
- * the correction cannot quietly rot back.)
+ * So OHM has no France from 1050 and no Empire from 1201. A map of 1231 drawn
+ * from it is missing both, which is not a sparse map but a wrong one.
+ *
+ * It is genuinely excellent EARLIER — Regnum Francorum is drawn per reign from
+ * 481 to 800, finer than anything here — so this is worth revisiting if its later
+ * coverage fills in. The pipeline and `server/data/map/source/ohm/manifest.json`
+ * are kept for that. Nothing else changes: re-run the two scripts and re-add an
+ * entry below.
  */
 export const MAP_SOURCES = {
   hb: {
     id: 'hb',
     label: 'Whole canvas',
-    hint: 'Europe, North Africa and the Levant · 11 dated reconstructions',
     attribution: 'historical-basemaps by André Ourednik',
     attributionUrl: 'https://github.com/aourednik/historical-basemaps',
     license: 'GPL-3.0',
     exact: false,
     path: '/map-data',
     years: [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
-  },
-  ohm: {
-    id: 'ohm',
-    label: 'Europe, by decade',
-    hint: 'Denser in Europe, thin beyond it · every 10 years, dated exactly',
-    attribution: 'OpenHistoricalMap contributors',
-    attributionUrl: 'https://www.openhistoricalmap.org/',
-    license: 'CC0',
-    exact: true,
-    path: '/map-data/ohm',
-    years: (() => {
-      const years = [476]
-      for (let y = 480; y <= 1450; y += 10) years.push(y)
-      years.push(1453)
-      return years
-    })()
   }
 }
 
