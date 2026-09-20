@@ -2,6 +2,7 @@ import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useRef, useState } from 'react'
 import GlobalSearch from './GlobalSearch.jsx'
 import { useAuth } from '../lib/auth.jsx'
+import { MAP_IS_ADMIN_ONLY } from '../lib/historicalMap.js'
 
 const primaryNavigation = [
   { label: 'Home', to: '/', end: true },
@@ -14,7 +15,9 @@ const primaryNavigation = [
   { label: 'Weapons & Armor', to: '/weapons-armor' },
   { label: 'Military Orders', to: '/orders' },
   { label: 'Topics', to: '/topics' },
-  { label: 'Map', to: '/map' },
+  // TEMPORARY: admin-only while the map is built. See MAP_IS_ADMIN_ONLY in
+  // client/src/lib/historicalMap.js, which is where the removal is described.
+  { label: 'Map', to: '/map', adminOnly: MAP_IS_ADMIN_ONLY },
   { label: 'Index', to: '/archive' }
 ]
 
@@ -146,11 +149,16 @@ export default function Header() {
           aria-label="Primary navigation"
         >
           <MenuGroup title="Main">
-            {primaryNavigation.map((item) => (
-              <NavLink key={item.to} to={item.to} end={item.end}>
-                {item.label}
-              </NavLink>
-            ))}
+            {primaryNavigation
+              // `isLoading` matters: without it the Map link flashes in for the
+              // admin's own first paint and, worse, flashes OUT for everyone
+              // else, which advertises the thing it is meant to hide.
+              .filter((item) => !item.adminOnly || (!isLoading && isAdmin))
+              .map((item) => (
+                <NavLink key={item.to} to={item.to} end={item.end}>
+                  {item.label}
+                </NavLink>
+              ))}
           </MenuGroup>
 
           {isAuthenticated && (

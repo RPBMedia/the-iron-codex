@@ -3,8 +3,10 @@ import { Link, useSearchParams } from 'react-router-dom'
 import LoadingState from '../components/LoadingState.jsx'
 import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
+import { useAuth } from '../lib/auth.jsx'
 import {
   CAMERA_PRESETS,
+  MAP_IS_ADMIN_ONLY,
   CANVAS,
   FIRST_YEAR,
   LAND_URL,
@@ -69,6 +71,42 @@ function fillFor(name) {
 }
 
 export default function MapPage() {
+  const { isAdmin, isLoading: authLoading } = useAuth()
+
+  // TEMPORARY, owner instruction 2026-09-20: the map is under construction and
+  // readers should not meet a half-built feature. Removal is described at
+  // MAP_IS_ADMIN_ONLY in ../lib/historicalMap.js.
+  //
+  // This returns the same "not found" wording the 404 route uses rather than
+  // "you are not allowed", because a refusal tells a stranger there is something
+  // here — and the point is tidiness, not a locked door. The real guard for
+  // /api/insights does the same thing for the same reason.
+  //
+  // The map is a separate component rather than an early return inside one, so
+  // that its dozen hooks are never conditionally skipped. Returning early above
+  // `useState` in a single component would change the hook order between the
+  // admin's render and everyone else's, which React rejects outright.
+  if (MAP_IS_ADMIN_ONLY && authLoading) return <LoadingState label="Loading" />
+  if (MAP_IS_ADMIN_ONLY && !isAdmin) return <MapNotFound />
+
+  return <MapPageContent />
+}
+
+/** Byte-for-byte the wording of the catch-all route in App.jsx. */
+function MapNotFound() {
+  useDocumentTitle(pageTitle('Page not found'))
+  return (
+    <section className="content-section page-section">
+      <div className="empty-state">
+        <p className="eyebrow">Lost manuscript</p>
+        <h1>Page not found</h1>
+        <p>That page does not exist in the archive.</p>
+      </div>
+    </section>
+  )
+}
+
+export function MapPageContent() {
   useDocumentTitle(pageTitle(utilityLabel('map')))
 
   const [searchParams, setSearchParams] = useSearchParams()
@@ -444,6 +482,15 @@ export default function MapPage() {
                 </div>
               </div>
 
+              {/*
+                The tooltip is positioned against THIS wrapper, not against the
+                figure. The camera controls live in the figure above the map, so
+                measuring from the figure put every tooltip a preset-row's height
+                too high — and the presets wrap to two rows at some widths, so the
+                error changed with the window. The wrapper hugs the SVG, so the
+                coordinates from its bounding rect and the tooltip's origin agree.
+              */}
+              <div className="map-canvas">
               <svg
                 ref={svgRef}
                 viewBox={viewBoxString(view)}
@@ -523,6 +570,7 @@ export default function MapPage() {
                   {hover.name}
                 </div>
               )}
+              </div>
               <figcaption className="map-caption">
                 {evidenceYear === null ? (
                   <>Nothing is mapped for {year}. Blank ground means no snapshot covers it.</>

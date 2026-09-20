@@ -20,7 +20,7 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import DetailPage from './pages/DetailPage.jsx'
-import MapPage from './pages/MapPage.jsx'
+import MapPage, { MapPageContent } from './pages/MapPage.jsx'
 import { AuthProvider } from './lib/auth.jsx'
 
 /**
@@ -64,7 +64,14 @@ export function renderMapPage() {
     <MemoryRouter initialEntries={['/map?year=1147']}>
       <AuthProvider>
         <Routes>
-          <Route path="/map" element={<MapPage />} />
+          {/*
+            MapPageContent, not MapPage. MapPage is the temporary admin-only
+            guard, and server-side there is no session, so rendering it here
+            would only ever assert the "page not found" branch — the map itself
+            would stop being checked for as long as the gate exists. The gate is
+            temporary; the reason this check exists is not.
+          */}
+          <Route path="/map" element={<MapPageContent />} />
         </Routes>
       </AuthProvider>
     </MemoryRouter>

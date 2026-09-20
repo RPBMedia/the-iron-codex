@@ -4510,10 +4510,14 @@ a.tree-person:hover .tree-person-name {
   appearance: textfield;
 }
 
-/* The tooltip is positioned against the figure, so the figure is the containing
-   block. Nothing else here is absolutely positioned, so this is safe. */
-.map-figure {
+/* The tooltip is positioned against the MAP, not the figure. The camera controls
+   sit inside the figure above the map, so a figure-relative tooltip landed a
+   preset-row too high — and the presets wrap to two rows at some widths, so the
+   error moved with the window. This wrapper hugs the SVG, which is the box the
+   pointer coordinates are measured against. */
+.map-canvas {
   position: relative;
+  line-height: 0;
 }
 
 .map-tooltip {

@@ -12,6 +12,8 @@ import { readFileSync, existsSync, statSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadArchive } from '../server/data/archive.mjs'
+// TEMPORARY: see MAP_IS_ADMIN_ONLY in client/src/lib/historicalMap.js.
+import { MAP_IS_ADMIN_ONLY } from '../client/src/lib/historicalMap.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
@@ -154,15 +156,28 @@ for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html',
 {
   const html = read('map.html')
   if (html) {
-    for (const required of ['historical-basemaps', 'GPL-3.0', 'Ourednik']) {
-      if (!html.includes(required)) fail('map.html', `map attribution is missing "${required}"`)
-    }
-    if (!/one reconstruction/i.test(html)) {
-      fail('map.html', 'map page does not say it shows one reconstruction rather than settled fact')
-    }
-    const polityLinks = [...html.matchAll(/href="\/(locations|houses|orders)\/[a-z0-9-]+"/g)]
-    if (polityLinks.length < 10) {
-      fail('map.html', `only ${polityLinks.length} polity links prerendered — the no-JS map is empty`)
+    if (MAP_IS_ADMIN_ONLY) {
+      // TEMPORARY. While the map is admin-only its page must not advertise it:
+      // the prerendered polity list IS the feature's content, so shipping it
+      // while the route answers "not found" would defeat the gate entirely.
+      // See MAP_IS_ADMIN_ONLY in client/src/lib/historicalMap.js.
+      if (/historical-basemaps|GPL-3\.0/.test(html)) {
+        fail('map.html', 'the map is admin-only but its page still describes the map')
+      }
+      if (/href="\/(locations|houses|orders)\/[a-z0-9-]+"/.test(html)) {
+        fail('map.html', 'the map is admin-only but its page still lists polities')
+      }
+    } else {
+      for (const required of ['historical-basemaps', 'GPL-3.0', 'Ourednik']) {
+        if (!html.includes(required)) fail('map.html', `map attribution is missing "${required}"`)
+      }
+      if (!/one reconstruction/i.test(html)) {
+        fail('map.html', 'map page does not say it shows one reconstruction rather than settled fact')
+      }
+      const polityLinks = [...html.matchAll(/href="\/(locations|houses|orders)\/[a-z0-9-]+"/g)]
+      if (polityLinks.length < 10) {
+        fail('map.html', `only ${polityLinks.length} polity links prerendered — the no-JS map is empty`)
+      }
     }
   }
 }

@@ -13,6 +13,39 @@
 import { mercY } from './locatorMaps.js'
 
 /**
+ * ===========================================================================
+ * TEMPORARY — the map is visible to the admin account only (owner instruction,
+ * 2026-09-20). REMOVE THIS WHEN THE FEATURE IS FINISHED.
+ * ===========================================================================
+ *
+ * The reason is not secrecy, it is that readers should not meet a half-built
+ * feature. So this is a visibility gate, not a security boundary, and it is
+ * worth being exact about what it does and does not do:
+ *
+ *   IT DOES hide the Map link from the header, and render "page not found" for
+ *   anyone who reaches /map without being the admin.
+ *
+ *   IT DOES NOT make the map data private. The snapshots under
+ *   `/map-data/*.json` are static CDN files and stay publicly fetchable by
+ *   anyone who knows or guesses the URL, and MapPage's code is still in the
+ *   single JS bundle. Putting the geometry behind the API would cost the CDN
+ *   cache, push about a megabyte of JSON through the serverless function and
+ *   need an `includeFiles` change — a large permanent cost for a temporary
+ *   measure. If the requirement ever becomes genuine secrecy rather than
+ *   tidiness, that is the work, and this comment is where to start.
+ *
+ * Admin is decided SERVER-SIDE from ADMIN_EMAIL (see `server/admin.js`) and a
+ * verified Google sign-in. The address is never in this bundle; the client
+ * learns only a boolean about itself. Setting it to a particular address here
+ * would have undone that, which is why this reuses the existing mechanism.
+ *
+ * To remove: set this to false, then delete it and its three call sites —
+ * `Header.jsx` (the nav item), `MapPage.jsx` (the guard) and `prerender.mjs`
+ * (the stripped body). `tests/map-snapshots.test.mjs` names them too.
+ */
+export const MAP_IS_ADMIN_ONLY = true
+
+/**
  * The years we hold evidence for. Not a choice of "interesting dates": these are the
  * files the source actually publishes inside 476–1453 that we audited and kept.
  * See `server/data/map/source/SOURCE.md`.

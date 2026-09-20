@@ -1550,6 +1550,26 @@ shows Byzantine at 1400 though the Latin Duchy held it. Those are the source's
 frontiers, recorded in `server/data/map/source/SOURCE.md`, and correcting them by hand
 is the one thing the brief forbids.
 
+**ADMIN-ONLY WHILE UNDER CONSTRUCTION (owner instruction, 2026-09-20). REMOVE
+BEFORE CALLING THE FEATURE DONE.** The switch is `MAP_IS_ADMIN_ONLY` in
+`client/src/lib/historicalMap.js`, and that comment is the authority on removing
+it. Four call sites: the nav item in `Header.jsx`, the guard in `MapPage.jsx`, the
+stripped body in `prerender.mjs` and the inverted assertions in `check-seo.mjs`.
+
+It reuses the existing `ADMIN_EMAIL` mechanism rather than hardcoding an address,
+so the admin's email stays out of the client bundle exactly as it does for
+Insights. **`isAdminUser` also requires a verified Google sign-in** — an account
+registered with the same address through the password flow is not admin.
+
+**It is a visibility gate, not a security boundary, and the difference is worth
+stating.** It hides the link and answers "page not found" on the route. It does
+NOT make the data private: `/map-data/*.json` are static CDN files, still
+fetchable by anyone who guesses the URL, and MapPage's code is still in the single
+bundle. Putting the geometry behind the API would cost the CDN cache, push about a
+megabyte of JSON through the serverless function and need an `includeFiles`
+change — a large permanent cost for a temporary measure. If the requirement ever
+becomes real secrecy rather than tidiness, that is the work.
+
 **Next — owner requests, 2026-09-20.** Recorded in priority order as asked; none
 started. The first two are small, the third is a real piece of work, the fourth is a
 judgement call before it is code.

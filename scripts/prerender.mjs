@@ -52,6 +52,8 @@ import {
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadArchive } from '../server/data/archive.mjs'
+// TEMPORARY: see MAP_IS_ADMIN_ONLY in client/src/lib/historicalMap.js.
+import { MAP_IS_ADMIN_ONLY } from '../client/src/lib/historicalMap.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const root = path.join(__dirname, '..')
@@ -205,6 +207,22 @@ function buildBody({ heading, lead, sections = [], links = [] }) {
  * coverage justifies the crawl budget.
  */
 function buildMapBody(label, blurb) {
+  /*
+   * TEMPORARY, owner instruction 2026-09-20: while the map is admin-only, its
+   * prerendered page must not advertise it. The polity list below is the map's
+   * real content — it is what a crawler reads and what a reader without
+   * JavaScript gets — so shipping it while the route itself answers "page not
+   * found" to everyone would defeat the whole point of the gate.
+   *
+   * Removal is described at MAP_IS_ADMIN_ONLY in client/src/lib/historicalMap.js.
+   * The page stays prerendered rather than being dropped, because a route with
+   * no file 404s at the edge and the admin would get a 404 status on a page that
+   * then works, which is worse than a quiet placeholder.
+   */
+  if (MAP_IS_ADMIN_ONLY) {
+    return buildBody({ heading: 'Page not found', lead: 'That page does not exist in the archive.' })
+  }
+
   const years = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
   const linked = new Map()
   const gaps = new Set()
