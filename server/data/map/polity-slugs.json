@@ -65,6 +65,37 @@
     "Ottoman Empire": { "slug": "ottoman-empire", "type": "location" },
     "Kalmar Union": { "slug": "kalmar-union", "type": "location" },
 
+    "Sasanian Empire": { "slug": "sasanian-empire", "type": "location" },
+    "Frankish Kingdom": { "slug": "frankish-kingdom", "type": "location" },
+    "Umayyad Caliphate": { "slug": "umayyad-caliphate", "type": "location" },
+
+    "Eastern Roman Empire": {
+      "slug": "byzantine-empire",
+      "type": "location",
+      "note": "The source's name for the state the Codex covers as the Byzantine Empire. Contemporaries called it Roman; 'Byzantine' is a later historians' label for the same polity."
+    },
+
+    "Franks": {
+      "slug": "frankish-kingdom",
+      "type": "location",
+      "note": "The source labels this territory by the people. The link is to the kingdom, which is what a border on a map can actually show."
+    },
+    "Ostrogoths": {
+      "slug": "ostrogothic-kingdom",
+      "type": "location",
+      "note": "The source labels this territory by the people. The Ostrogoths are not the Ostrogothic Kingdom — the Codex keeps them apart — so the link is to the kingdom, whose borders these are."
+    },
+    "Vandals": {
+      "slug": "vandal-kingdom",
+      "type": "location",
+      "note": "The source labels this territory by the people. The link is to the kingdom, not to the Vandals as a people."
+    },
+    "Danube Bulgars": {
+      "slug": "first-bulgarian-empire",
+      "type": "location",
+      "note": "The state founded on the Danube in 681, which the Codex covers as the First Bulgarian Empire. The separate 'Bulgars' polygon at 600 is Old Great Bulgaria, a different polity, and is deliberately not linked here."
+    },
+
     "Seljuk Empire": {
       "slug": "seljuk-turks",
       "type": "location",
@@ -94,7 +125,13 @@
     "Icelandic Commonwealth": "No article.",
     "Bulgar Khanate": "No article. The Codex's First Bulgarian Empire is a different, later state.",
     "Croatia": "No article.",
-    "Cyprus": "No article for medieval Cyprus."
+    "Cyprus": "No article for medieval Cyprus.",
+    "Western Roman Empire": "No article for the Western Empire as a state. The Codex covers its end as an event, and the Romans as a people.",
+    "Visigoths": "No article for the Visigothic Kingdom. The Codex has the Visigoths as a people, which is not the same thing and is not linked here.",
+    "Visigothic Kingdom": "No article for the Visigothic Kingdom, only for the Visigoths as a people.",
+    "Bulgars": "Old Great Bulgaria, which is not the First Bulgarian Empire the Codex covers. Deliberately unlinked.",
+    "Khazars": "No article for the Khazar Khaganate.",
+    "Anglo-Saxons": "A people, not a polity — and at this date not one state. The Codex covers the individual kingdoms."
   },
 
   "dropFrom": {

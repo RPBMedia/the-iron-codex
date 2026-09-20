@@ -19,11 +19,38 @@ comparison a diff rather than a re-download.
 
 ### Files and hashes
 
-| File | SHA-256 | Bytes |
+| File | SHA-256 (first 16) | Bytes |
 |---|---|---|
-| `world_800.geojson` | `9d046cdc4662109c3f803ae46e2c8cba941aa092ec86eccc7823e6cf1554920c` | 977,296 |
-| `world_1100.geojson` | `8b038ee5ec8f032d01a67293e7cf08b7bd3ed58e00defc06af9144e67e708a86` | 1,065,110 |
-| `world_1400.geojson` | `c6b0efcb42d9520a1a724f981373296e84ea2c0a0527de7a06f8f9e2465eb6ec` | 1,053,803 |
+| `world_500.geojson` | `06f7512efec9151b` | 968,264 |
+| `world_600.geojson` | `e8d285de5d4257c5` | 1,025,118 |
+| `world_700.geojson` | `bb66ebee15e57f5d` | 966,976 |
+| `world_800.geojson` | `9d046cdc4662109c` | 977,296 |
+| `world_1100.geojson` | `8b038ee5ec8f032d` | 1,065,110 |
+| `world_1400.geojson` | `c6b0efcb42d9520a` | 1,053,803 |
+
+Full hashes are recorded per snapshot in `client/public/map-data/snapshot-*.json`.
+
+500, 600 and 700 were added on 2026-09-20 after the owner pointed out the map was
+blank before 800. They link far less than the later years — the Codex has few
+articles for post-Roman polities — but five centuries of nothing was the worse
+option.
+
+## The land layer
+
+`ne_110m_land.geojson` — **Natural Earth**, https://www.naturalearthdata.com/.
+
+Terms, verbatim from the project: *"No permission is needed to use Natural Earth.
+Crediting the authors is unnecessary."* Public domain, so unlike the political
+geometry there is no licence question to carry.
+
+It is there because without it sea and unmapped land were painted the same
+near-black, so the Mediterranean, the Atlantic and the Sahara were
+indistinguishable and all three read as holes punched in the world — which says the
+land was not there, rather than that nobody has mapped who held it. It carries no
+political information and is not evidence of anything.
+
+110m rather than 50m: at this canvas the extra coastline detail is invisible and
+110m is a twelfth of the bytes (26 KB built).
 
 Re-download and compare the hash before trusting a rebuild: the upstream project is
 a work in progress and its geometry changes.

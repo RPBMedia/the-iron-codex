@@ -6,6 +6,7 @@ import { pageTitle, utilityLabel } from '../lib/pageTitles.js'
 import {
   CANVAS,
   FIRST_YEAR,
+  LAND_URL,
   LAST_YEAR,
   SNAPSHOT_YEARS,
   VIEW_HEIGHT,
@@ -35,9 +36,12 @@ import {
  */
 
 /**
- * Polity fills. Deliberately a small, flat, restrained set drawn from the site's own
- * near-black/brass/ivory range rather than a rainbow: these are territories, not
- * categories, and the map should look like the rest of the Codex.
+ * Polity fills. A small, flat, earthy set — these are territories, not categories,
+ * and the map should look like the rest of the Codex rather than like a pie chart.
+ *
+ * Mid-toned rather than dark: since Option D the map sits on a pale sea over a
+ * paper-toned land layer, so these have to carry against a light ground, and the
+ * dark ink stroke between them does the separating that darkness used to.
  *
  * Colour never carries meaning here. It separates neighbours and nothing else —
  * every frontier in this data is "approximate" and says so in the legend, and every
@@ -46,8 +50,8 @@ import {
  * at all.
  */
 const FILLS = [
-  '#7c5c2a', '#5d6b52', '#6b4a45', '#4f5a6b', '#7a6a3f',
-  '#56504a', '#6d5560', '#46604f', '#7b5340', '#5a5f72'
+  '#b5795e', '#7f9270', '#9c6a64', '#6f83a0', '#b39a52',
+  '#8a8178', '#9c7f90', '#6b9078', '#b08a3e', '#8089a3'
 ]
 
 /** Stable per-name colour, so a polity keeps its fill across snapshots. */
@@ -65,6 +69,7 @@ export default function MapPage() {
   const selectedName = searchParams.get('polity')
 
   const [snapshot, setSnapshot] = useState(null)
+  const [land, setLand] = useState(null)
   const [status, setStatus] = useState('loading')
 
   const resolution = useMemo(() => resolveSnapshot(year), [year])
@@ -85,6 +90,19 @@ export default function MapPage() {
     },
     [searchParams, setSearchParams]
   )
+
+  // The coastline never changes, so it is fetched once and is not part of the
+  // year's loading state: a slow land layer must not hold up the politics, and a
+  // failed one must not blank the map. Worst case the map looks as it did before
+  // the layer existed.
+  useEffect(() => {
+    const controller = new AbortController()
+    fetch(LAND_URL, { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data) => data && setLand(data))
+      .catch(() => {})
+    return () => controller.abort()
+  }, [])
 
   useEffect(() => {
     if (evidenceYear === null) {
@@ -144,7 +162,15 @@ export default function MapPage() {
     // so nesting them leaves the page flush left and drags the full-bleed dark band
     // off centre with it.
     <section className="content-section page-section map-page">
-      <header className="section-heading map-intro">
+      {/*
+        Option D, chosen by the owner 2026-09-20. The title and the controls sit on
+        the dark band the rest of the site already uses as a hero; the map and its
+        panel sit below on the normal light ground. The page was previously dark all
+        the way down, which the owner found too heavy — and a dark page made the map
+        itself read as a black void rather than as a map.
+      */}
+      <div className="map-hero">
+        <header className="section-heading map-intro">
           <p className="eyebrow">Historical map</p>
           <h1>The medieval world, as one source reconstructs it</h1>
           <p className="map-lead">
@@ -216,6 +242,7 @@ export default function MapPage() {
             </div>
           </div>
         </div>
+      </div>
 
         {status === 'loading' && <LoadingState label="Loading the map" />}
 
@@ -240,6 +267,19 @@ export default function MapPage() {
                 }
               >
                 <rect x="0" y="0" width={VIEW_WIDTH} height={VIEW_HEIGHT} className="map-sea" />
+                {/*
+                  Physical coastline, under everything. Without it the sea and the
+                  ground nobody has mapped are the same colour, so the Mediterranean,
+                  the Atlantic and the Sahara all read as holes in the world — which
+                  says the land was not there, rather than that we do not know who
+                  held it. It carries no political information and is never
+                  selectable.
+                */}
+                {land?.features.map((feature, index) =>
+                  pathsForFeature(feature).map((d, part) => (
+                    <path key={`land-${index}-${part}`} d={d} className="map-land" aria-hidden="true" />
+                  ))
+                )}
                 {snapshot?.features.map((feature, index) => {
                   const { name } = feature.properties
                   const isSelected = name === selectedName

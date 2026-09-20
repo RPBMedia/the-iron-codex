@@ -205,7 +205,7 @@ function buildBody({ heading, lead, sections = [], links = [] }) {
  * coverage justifies the crawl budget.
  */
 function buildMapBody(label, blurb) {
-  const years = [800, 1100, 1400]
+  const years = [500, 600, 700, 800, 1100, 1400]
   const linked = new Map()
   const gaps = new Set()
 

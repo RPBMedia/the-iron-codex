@@ -14,10 +14,18 @@ import { mercY } from './locatorMaps.js'
 
 /**
  * The years we hold evidence for. Not a choice of "interesting dates": these are the
- * three files the source actually publishes inside 476–1453 that we audited and kept.
+ * files the source actually publishes inside 476–1453 that we audited and kept.
  * See `server/data/map/source/SOURCE.md`.
+ *
+ * 500, 600 and 700 were added after the owner pointed out the map was blank before
+ * 800. They link very little — the Codex has few articles for post-Roman polities —
+ * but a map of 500 with four linkable states is still a map of 500, and the
+ * alternative was five centuries of nothing.
  */
-export const SNAPSHOT_YEARS = [800, 1100, 1400]
+export const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
+
+/** Physical coastline under the politics, so water reads as water. Public domain. */
+export const LAND_URL = '/map-data/land.json'
 
 /** The Codex's period. The slider spans all of it; the evidence does not. */
 export const FIRST_YEAR = 476

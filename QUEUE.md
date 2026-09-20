@@ -1496,10 +1496,25 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ### 0v — INTERACTIVE HISTORICAL MAP. **MVP SHIPPED 2026-09-20 — owner test case below.**
 
-**Shipped:** `/map` with three snapshots (800, 1100, 1400), a 476–1453 year slider,
-polity selection by map or by list, and article links. All gates green: 76 tests,
-content quality, images, render gate, build, SEO. Commits `b7ed9bc`, `3cb237e`,
-`1e76b09`.
+**Shipped:** `/map` with **six** snapshots (500, 600, 700, 800, 1100, 1400), a
+476–1453 year slider, polity selection by map or by list, and article links. All
+gates green: 77 tests, content quality, images, render gate, build, SEO.
+
+**Design: "Option D"**, chosen by the owner on 2026-09-20 from four mockups. Dark
+hero band carries the title and controls; the map and its panel sit below on the
+normal light ground. The first version was dark to the bottom, which was too heavy,
+and a dark page let the map read as a black void rather than as a map.
+
+**The land layer is the fix for "black areas that don't link to anything".** Not a
+rendering fault — sea and unmapped land were both near-black, so the Mediterranean,
+the Atlantic and the Sahara were indistinguishable and read as holes in the world.
+Natural Earth 110m underneath, public domain, 26 KB. Water is now water and
+unmapped ground is visibly land nobody has mapped, which is what the brief wants
+blank ground to say.
+
+**Linked polity counts per year:** 500→5, 600→5, 700→6, 800→9, 1100→19, 1400→14.
+The early years are thin because the Codex has few post-Roman polity articles, not
+because the geometry is missing. Writing those articles would raise it.
 
 **Owner test case — `/map?year=1147`:**
 1. The year reads **1147**; the strip beneath reads **Map evidence: 1100** and says
@@ -1525,10 +1540,17 @@ shows Byzantine at 1400 though the Latin Duchy held it. Those are the source's
 frontiers, recorded in `server/data/map/source/SOURCE.md`, and correcting them by hand
 is the one thing the brief forbids.
 
-**Next, when the owner wants it:** more snapshot years (500, 600, 700, 900, 1000, 1200,
-1279, 1300 are all available and audited-pending); pan and zoom; a reverse link from an
+**Next, when the owner wants it:** the four remaining snapshot years (900, 1000, 1200,
+1279, 1300 are available and audited-pending); pan and zoom, which the Balkans and the
+Levant need badly at this scale; search over the polity list; a reverse link from an
 article to its territory on the map; making the page indexable once coverage justifies
 the crawl budget.
+
+**Articles that would most improve the map, if the content programme wants a target:**
+Fatimid Caliphate (the largest unlinked territory at 1100), Visigothic Kingdom, Western
+Roman Empire as a state, Republic of Venice, Emirate of Granada, Novgorod Republic,
+Mamluk Sultanate, Khazar Khaganate. Each is currently a named, selectable, unlinked
+polygon.
 
 ---
 

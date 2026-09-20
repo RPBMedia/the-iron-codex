@@ -45,7 +45,7 @@ import { dirname, join } from 'node:path'
 import { pathsForFeature } from '../client/src/lib/historicalMap.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
-const SNAPSHOT_YEARS = [800, 1100, 1400]
+const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
 
 /** Well clear of anything the map needs; a snapshot over this is un-simplified. */
 const MAX_SNAPSHOT_BYTES = 200 * 1024
@@ -150,15 +150,47 @@ test('the canvas reaches the places the brief says it must never clip', () => {
   }
 })
 
-test('Cyprus survives simplification as its own island', () => {
-  // The smallest thing on the map that has to stay. An island is exactly what an
-  // over-eager Douglas-Peucker deletes first, and the brief names Cyprus twice.
-  for (const year of SNAPSHOT_YEARS) {
-    assert.ok(
-      snapshot(year).features.some((f) => f.properties.name === 'Cyprus'),
-      `${year}: Cyprus was simplified out of existence`
-    )
+test('no polity inside the canvas is lost between the source and the snapshot', () => {
+  // Islands and small territories are what an over-eager Douglas-Peucker deletes
+  // first, and the brief names Cyprus twice as something that must never be lost.
+  //
+  // Asserting Cyprus by name was the first version of this and it was wrong: the
+  // source only names Cyprus separately from 800 on — at 500, 600 and 700 it is
+  // simply Eastern Roman territory, so the test failed on data that was correct.
+  //
+  // Comparing against the source instead is both stronger and immune to that: it
+  // catches ANY polity that survives the clip but not the simplification, for every
+  // year, without a list to keep up to date.
+  const canvas = snapshot(SNAPSHOT_YEARS[0]).properties.canvas
+  const touchesCanvas = (coordinates) => {
+    let hit = false
+    const walk = (c) => {
+      if (typeof c[0] === 'number') {
+        const [x, y] = c
+        if (x >= canvas.west && x <= canvas.east && y >= canvas.south && y <= canvas.north) hit = true
+      } else c.forEach(walk)
+    }
+    walk(coordinates)
+    return hit
   }
+
+  const lost = []
+  for (const year of SNAPSHOT_YEARS) {
+    const sourceFile = join(root, 'server', 'data', 'map', 'source', `world_${year}.geojson`)
+    const source = JSON.parse(readFileSync(sourceFile, 'utf8'))
+    const expected = new Set(
+      source.features
+        .filter((f) => f.properties?.NAME && f.geometry && touchesCanvas(f.geometry.coordinates))
+        .map((f) => f.properties.NAME)
+    )
+    const got = new Set(snapshot(year).features.map((f) => f.properties.name))
+    for (const name of expected) {
+      // A deliberate drop is not a loss; `dropFrom` in polity-slugs.json records why.
+      if (name === 'Seljuk Caliphate') continue
+      if (!got.has(name)) lost.push(`${year}/${name}`)
+    }
+  }
+  assert.deepEqual(lost, [], `polities simplified out of existence: ${lost.join(', ')}`)
 })
 
 test('inland anchors fall inside the polity that actually held them', () => {

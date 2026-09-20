@@ -31,7 +31,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = join(root, 'server', 'data', 'map', 'source')
 const outDir = join(root, 'client', 'public', 'map-data')
 
-export const SNAPSHOT_YEARS = [800, 1100, 1400]
+export const SNAPSHOT_YEARS = [500, 600, 700, 800, 1100, 1400]
 
 /**
  * The canvas, as section 2 of the brief defines it: the British Isles and Atlantic
@@ -244,7 +244,55 @@ function buildSnapshot(year) {
   }
 }
 
+/**
+ * The land layer (QUEUE 0v, owner report 2026-09-20).
+ *
+ * Without it, sea and unmapped land are painted the same near-black, so the
+ * Mediterranean, the Atlantic and the Sahara are indistinguishable and all three
+ * read as holes punched in the world. On a map whose central claim is that blank
+ * ground means "no evidence here", that is the exact wrong reading: it says the
+ * land was not there, rather than that we do not know who held it.
+ *
+ * With land underneath, water is water and unmapped ground is visibly land with no
+ * snapshot over it.
+ *
+ * Natural Earth, and its terms are unusually plain: "No permission is needed to use
+ * Natural Earth. Crediting the authors is unnecessary." Public domain, so unlike the
+ * political geometry there is no licence question to carry. 110m rather than 50m —
+ * at this canvas the coastline detail is invisible and 110m is a twelfth of the
+ * bytes.
+ */
+function buildLand() {
+  const file = 'ne_110m_land.geojson'
+  const raw = readFileSync(join(sourceDir, file), 'utf8')
+  const source = JSON.parse(raw)
+
+  const features = []
+  for (const feature of source.features) {
+    const geometry = processGeometry(feature.geometry)
+    if (geometry) features.push({ type: 'Feature', properties: {}, geometry })
+  }
+
+  return {
+    type: 'FeatureCollection',
+    properties: {
+      source: 'Natural Earth (ne_110m_land)',
+      sourceUrl: 'https://www.naturalearthdata.com/',
+      sourceFile: file,
+      sourceSha256: createHash('sha256').update(raw).digest('hex'),
+      retrieved: '2026-09-20',
+      license: 'Public domain',
+      note: 'Physical coastline only. It carries no political information and is not evidence of anything: it is there so that water reads as water and unmapped land reads as land.'
+    },
+    features
+  }
+}
+
 mkdirSync(outDir, { recursive: true })
+
+const land = buildLand()
+writeFileSync(join(outDir, 'land.json'), JSON.stringify(land))
+console.log(`land.json: ${land.features.length} features, ${Math.round(Buffer.byteLength(JSON.stringify(land)) / 1024)} KB\n`)
 
 const summary = []
 for (const year of SNAPSHOT_YEARS) {
