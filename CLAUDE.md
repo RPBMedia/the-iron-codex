@@ -150,6 +150,36 @@ unnecessary sentence is paid for. When a one-line answer is correct, send the on
 line and stop. Prefer a table or a list over prose. Do not narrate what is about
 to be done, and do not summarise what was just done if the diff already says it.
 
+## The map: no invented borders (permanent, 2026-09-20)
+
+`/map` draws political geography, which means it can state a historical claim the
+Codex never wrote and nobody proofread. These rules are not style; each exists
+because breaking it publishes a falsehood.
+
+- **Never draw or adjust a border by hand, and never interpolate between dated
+  reconstructions.** "The Prussians held this at 1100 and 1279, so draw them at
+  1200" is an invented claim. Where the source is silent the ground stays unmapped
+  and the map says so — hovering it names what other years hold.
+- **Never merge two sources into one map.** They disagree, and a seam between them
+  is a composite neither supports. A second reconstruction is a separate, complete,
+  named choice or it is nothing.
+- **A wrong link is worse than a missing one.** Polygon names resolve to articles
+  through `server/data/map/polity-slugs.json` and nowhere else — exact names, no
+  fuzzy matching. Mappings may be scoped with `years`, because a name is not a
+  polity across time: "Serbia" in 1100 is not the polity the Codex's Serbia article
+  covers.
+- **The people/polity rule holds on the map too.** A territory labelled by its
+  inhabitants links to a civilization, not a location, and the panel says which.
+- **The year chosen and the year drawn are never the same statement.** The caption
+  under the map carries the reconstruction's date, and says so plainly when it
+  differs from the year selected.
+- **Every published polygon carries its licence.** `scripts/check-seo.mjs` asserts
+  the attribution reaches the built page, so it cannot lapse in a refactor.
+- **Rebuilding geometry is `node scripts/build-map-snapshots.mjs`**, run by hand and
+  committed, never in the Vercel build. The upstream originals in
+  `server/data/map/source/` are immutable; every derivation is recorded in the
+  snapshot it produces.
+
 ## One work list: QUEUE.md (owner rule, 2026-09-16)
 
 The repo had eight planning files and the owner could not tell which one was

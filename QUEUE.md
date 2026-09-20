@@ -22,7 +22,7 @@
 | Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles, 132/132 sections imaged.** Next: Phase 4 regional expansion, one region per batch |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
-| **Interactive historical map** | **0v** | **Appendix F** | **MVP shipped 2026-09-20** — `/map`, whole canvas, 3 snapshots (800/1100/1400), year selector, polity → article. Awaiting owner test. Next: more snapshot years, pan/zoom |
+| **Interactive historical map** | **0v** | **Appendix F** | **Shipped 2026-09-20, admin-only.** `/map` — 11 dated snapshots, camera presets, pan/zoom, cross-fade, coverage inventory. Last step before public: remove `MAP_IS_ADMIN_ONLY` |
 | **Map article coverage** | **0w** | — | **NOT STARTED.** 212 territories the map draws have no article; ~150 are polities, ~62 are peoples and cannot be locations. Blocked on the source question |
 
 
@@ -38,7 +38,24 @@ immediately, so a session on any machine can resume from `main` alone.
 (plus `node scripts/check-images.mjs --remote` when images change), then push and
 let the user test live.
 
-_Last updated: 2026-09-17, during an owner-away run. **Forward-looking only — the history is in `git log`.**_
+_Last updated: 2026-09-20. **Forward-looking only — the history is in `git log`.**_
+
+**Shipped 2026-09-20 — the interactive historical map (0v), a full day's work.**
+`/map` is live behind the admin gate: eleven dated reconstructions across 476–1453,
+a year slider that can also be typed, eight camera presets, pan and zoom, a
+cross-fade between snapshots, hover tooltips, a searchable polity list, keyboard
+navigation through one tab stop, and a published coverage inventory naming the 204
+territories that have no article yet. Geometry is GPL-3.0 from historical-basemaps,
+attributed in the UI and gated by the build; the coastline is Natural Earth, public
+domain. **Remove `MAP_IS_ADMIN_ONLY` to make it public** — that is the only step
+left. Full state and the remaining backlog are under queue item 0v.
+
+**Also 2026-09-20:** the archive filter controls were found rendering unstyled —
+two rules had been truncated to dangling selector lists, present since before this
+session and invisible to every existing gate. Repaired, and `tests/
+stylesheet-structure.test.mjs` now guards the class of breakage. A standing owner
+rule was added to `CLAUDE.md`: every shipped change hands over a specific,
+executable test case, always.
 
 **Shipped 2026-09-17.** **45 battles written**, taking the backlog from about 38 distinct to 16. Five rulers, including Sten Sture the Elder by owner override of the 1453 rule. **0k closed at 100 locators** and rebuilt to show whole countries rather than crops. Queue items **0d, 0g, 0k, 0s, 0t and 0u closed**. Three separate classes of silent drift now gated: stale house members, stale battle leaders, and wrong links from colliding names.
 Leonese rulers and Engelbrekt Engelbrektsson; locator maps for eleven regions,
@@ -1862,13 +1879,39 @@ finer map that is missing France for four centuries. No open source found suppor
 a single complete map of this canvas at decade steps. That is the state of the
 available evidence, not a limitation of the implementation.
 
-**Still open:** a reverse link from an article to its territory on the map (note it
-must be gated too while the map is admin-only, or readers get a link to a page that
-answers "not found"); making the page indexable once coverage justifies the crawl
-budget; on-map place labels with attested period names, which needs its own
-sourcing; and the accessibility and performance pass of Appendix F's Milestone 7 —
-keyboard, screen reader and mid-range mobile have not been measured, only designed
-for.
+**WHERE 0v STANDS, 2026-09-20 — HANDOVER.** The map is built, shipped, and behind
+the admin gate. Every point the owner raised across a day of review is closed. All
+gates green: 88 tests, content quality, images, render gate, build, SEO.
+
+**Granularity is the open question, and it is a SOURCING question rather than a
+coding one.** Century steps are what the one complete source supports.
+OpenHistoricalMap was built end to end and removed the same day — no France after
+1050, no Empire after 1201. The owner wants a more exhaustive search of
+alternatives later. Candidates not yet examined: Euratlas (commercial, and 100-year
+steps anyway), Centennia (commercial, claims year-by-year), Chronas' own dataset,
+DARMC and university historical-GIS projects.
+
+**Ask one question of any candidate before spending a day on it: does it have
+France and the Holy Roman Empire, with real geometry, across the whole of
+476–1453?** That question would have ended the OHM attempt in ten minutes.
+
+**Still open, smallest first:**
+
+1. **Remove the admin gate.** `MAP_IS_ADMIN_ONLY` in
+   `client/src/lib/historicalMap.js`; that comment is the authority on how, and
+   names all four call sites. This is the last thing before the map is public.
+2. **A reverse link from an article to its territory on the map.** It must be
+   gated too while the map is admin-only, or readers get a link that answers
+   "not found".
+3. **Make the page indexable** once coverage justifies the crawl budget. It is
+   `noindex` today, and `prerender.mjs` records the soft-404 precedent behind that.
+4. **On-map place labels** (Constantinople, Jerusalem) with attested period names.
+   The brief asks for them; they need their own sourcing.
+5. **Milestone 7's unmeasured half:** real screen-reader behaviour, frame rate
+   while panning on a mid-range phone, memory. These need a device and a person,
+   not a build script.
+6. **Queue item 0w**, the 204 territories with no article. Deferred by the owner
+   until the map is finished; several are already on the civilizations roadmap.
 
 **Articles that would most improve the map, if the content programme wants a target:**
 Fatimid Caliphate (the largest unlinked territory at 1100), Visigothic Kingdom, Western
@@ -2640,7 +2683,20 @@ it is a slow liquidation.
 ## Per-machine local setup
 
 Nothing secret is required for this repo; content lives in
-`server/data/history.json`. Node + npm only.
+`server/data/archive/`. Node + npm only.
+
+**The map needs nothing extra to run or build.** Its geometry is committed:
+`server/data/map/source/world_*.geojson` (the eleven upstream originals, vendored
+unmodified) and `client/public/map-data/` (the built snapshots, the coastline and
+the coverage inventory). Clone, `npm install`, and the map works.
+
+**One thing is deliberately NOT committed**, and only matters if the
+OpenHistoricalMap experiment is ever resumed: `server/data/map/source/ohm/raw/` is
+220 MB of Overpass responses and is gitignored. `server/data/map/source/ohm/
+manifest.json` IS committed and lists all 505 relations by id, name, lifetime and
+wikidata id, so a re-fetch can be diffed against what was there. To rebuild it:
+`node scripts/fetch-ohm-source.mjs` (resumable, about ten minutes, please do not
+run it casually — Overpass is volunteer-run).
 
 ## Parked / backlog
 
