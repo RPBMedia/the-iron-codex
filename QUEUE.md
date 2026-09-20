@@ -23,6 +23,7 @@
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
 | **Interactive historical map** | **0v** | **Appendix F** | **MVP shipped 2026-09-20** — `/map`, whole canvas, 3 snapshots (800/1100/1400), year selector, polity → article. Awaiting owner test. Next: more snapshot years, pan/zoom |
+| **Map article coverage** | **0w** | — | **NOT STARTED.** 212 territories the map draws have no article; ~150 are polities, ~62 are peoples and cannot be locations. Blocked on the source question |
 
 
 **Live state of what's next.** Forward-looking only — history lives in `git log`,
@@ -1627,6 +1628,95 @@ frontier is approximate, blank ground is not empty land, the source's known
 frontier errors and the two dropped anachronisms, and a per-year table of how many
 polities each snapshot holds against how many have an article. **212 of the
 territories drawn have no Codex article.**
+
+### 0w — EVERY TERRITORY ON THE MAP NEEDS A LOCATION ARTICLE (owner rule, 2026-09-20)
+
+**The rule.** Any territory the map draws, at any year, must have a corresponding
+article in `locations`, written to the existing conventions for a location article.
+A polygon the reader can select and name but cannot read about is a dead end.
+
+**Where it stands: 212 drawn territories have no article.** The exact list, with the
+years each appears in, is generated into `client/public/map-data/coverage.json` and
+surfaced in the map's own "How to read this map" panel, so the backlog is always
+current and never has to be recounted by hand.
+
+**Of those 212, about 150 are polities and about 62 are not**, and the difference is
+the thing to settle before any writing starts. `CLAUDE.md` is explicit and mechanical
+about it: *"The Ostrogoths are not the Ostrogothic Kingdom. The Franks are not
+Francia."* A location article describes political institutions and territory; a
+civilization article describes a people. `validateCivilizationStandards` hard-fails a
+civilization that carries `locationType`, and hard-fails one whose name matches a
+location.
+
+The source labels plenty of ground by its inhabitants rather than by a state:
+*Paleo-Siberian hunter-gatherers*, *West African cereal farmers*, *Slavic tribes*,
+*Baltic tribes*, *Bedouins*, *Berbers*, *Celtic kingdoms*, *Anglo-Saxons*. **These
+cannot become location articles without breaking the rule the content gates
+enforce.** Three ways out, and it is the owner's call:
+
+  (a) Write them as **civilizations** where the Codex does not already have one, and
+      let the map link a `type: "civilization"` polygon — the vocabulary already
+      allows it and the panel already says which kind of thing it linked to.
+  (b) **Leave them unlinked**, and narrow the rule to "every territory that is a
+      polity".
+  (c) **Drop them from the canvas** — honest only if the ground is then marked
+      unmapped, which it would be, since removing a polygon is not the same as
+      saying nobody lived there.
+
+  (a) is the one that loses nothing.
+
+**Where to start, by how much of the map it fixes** — each of these is a real
+territory a reader can click today and get nothing from, ordered by how many of the
+eleven snapshots it appears in: Makkura (11), Alwa (10), Britany (8), Cyprus (8),
+Bulgar Khanate (6), Corsica (6), Hadramaut (6), Mali (6), Muscat (6), Sardinia (6),
+Venice (6), Yemen (6), Axum (5), Georgia (5), Ghana (5), Kanem (5).
+
+The largest single gap by area rather than frequency is the **Fatimid Caliphate**,
+which is most of Egypt and the Levant at 1000 and 1100.
+
+**A warning about sequencing.** This backlog is a function of the map's source. If the
+map ever moves to OpenHistoricalMap (see the note below), the number of distinct
+territories rises by roughly an order of magnitude, and articles written against the
+current source's names may not match OHM's. **Settle the source question first**, or a
+large amount of writing will be aimed at names that stop appearing.
+
+### A finer-grained source: OpenHistoricalMap (investigated 2026-09-20, NOT started)
+
+The owner asked whether eleven dated reconstructions is permanent, and wanted
+borders changing at least every decade. It is not permanent, but it cannot be fixed
+with the current source: **eleven is every file `historical-basemaps` publishes
+inside 476–1453.** There is no twelfth to add, and the brief forbids the two ways of
+inventing one — interpolating between snapshots, or drawing borders by hand.
+
+**OpenHistoricalMap is the real candidate, and it is better than a decade.** Measured
+against its Overpass API on 2026-09-20:
+
+- Every feature carries `start_date` and `end_date`, so **any year is queryable**
+  rather than snapped to a keyframe. There are no keyframes at all.
+- Border changes are modelled as versioned features with exact dates, often to the
+  day. Around 1200: Aragon appears as three separate versions (1164-07-18→1200,
+  1200→1204, 1204→1229-12-31), the Holy Roman Empire splits at 1201, Sicily at 1204,
+  Normandy at 1204. That is **event resolution, finer than the decade asked for.**
+- Coverage at `admin_level=2` in our canvas: 20 polities around 600, 27 around 800,
+  44 around 1000, 43 around 1200, 41 around 1400. Including counties, bishoprics and
+  city republics (`admin_level` 3 and 4) it is **143 around 1200**, against 59 in the
+  current 1200 snapshot.
+- Features carry real citations, `wikidata` ids and `fixme` notes admitting their own
+  weak points — better provenance than the current source, whose README admits it was
+  assembled partly from the Wayback Machine.
+- The Overpass response states the data is **CC0**, which would be cleaner than the
+  GPL-3.0 the map currently carries. The project wiki says CC-BY-SA 2.0. **The
+  discrepancy must be resolved before adoption** — this is exactly the sort of thing
+  the brief's licence audit exists for.
+
+**What it would cost.** A different architecture: geometry assembled from
+relations, ways and nodes rather than read from a GeoJSON; a build step that queries
+Overpass per year, or a planet extract processed offline; and a decision about
+whether to keep pre-baking snapshots (now at arbitrary years of our choosing) or
+query live. It also multiplies queue item 0w above by roughly ten.
+
+**Not recommended as the next thing.** Recommended as the thing to decide before
+writing 150 articles against the current source's names.
 
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that
