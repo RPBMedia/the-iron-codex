@@ -536,10 +536,15 @@ export function MapPageContent() {
               A background fetch is quiet but not silent. The map stays on screen
               while it runs, so without this line a slow connection looks like the
               map ignoring the year you chose.
+
+              Always rendered, hidden with `visibility` rather than mounted and
+              unmounted: appearing and disappearing changed the height of this box
+              and shoved the map down and back up while scrubbing. Nothing above
+              the map may change height as the year changes.
             */}
-            {isFetching && status === 'ready' && (
-              <p className="map-evidence-fetching">Fetching the {evidenceYear} reconstruction…</p>
-            )}
+            <p className="map-evidence-fetching" aria-hidden={!isFetching}>
+              {isFetching && status === 'ready' ? `Fetching the ${evidenceYear} reconstruction…` : ' '}
+            </p>
             <div className="map-jumps">
               <button
                 type="button"

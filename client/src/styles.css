@@ -4047,18 +4047,29 @@ a.tree-person:hover .tree-person-name {
   text-transform: uppercase;
 }
 
+/* THREE LINES RESERVED, ALWAYS.
+   The sentence here changes with the year — "the source's own dated
+   reconstruction for 1100" is one line, the 47-years-before version is three —
+   and the box growing and shrinking shoved the map down and back up while
+   scrubbing. Nothing above the map is allowed to change height as the year
+   changes. `em` so it tracks the font size rather than a magic pixel count. */
 .map-evidence-note {
   margin: 0 0 14px;
+  min-height: calc(3 * 1.45em);
   max-width: 62ch;
   color: var(--silver);
   font-size: 0.92rem;
   line-height: 1.45;
 }
 
+/* Reserved for one row. At the ends of the period the labels become "No earlier
+   source" and "No later source", which are wide enough to wrap to a second row —
+   another way for this box to change height as the year changes. */
 .map-jumps {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  min-height: 38px;
 }
 
 .map-jumps .button {
@@ -4292,6 +4303,13 @@ a.tree-person:hover .tree-person-name {
 }
 
 @media (max-width: 640px) {
+  /* The sentence wraps further in a phone-width column, so the reservation has
+     to grow with it — the point is that the height is FIXED for a given width,
+     not that three lines is a universal number. */
+  .map-evidence-note {
+    min-height: calc(5 * 1.45em);
+  }
+
   .map-year-value {
     font-size: 2rem;
   }
@@ -4586,9 +4604,17 @@ a.tree-person:hover .tree-person-name {
    it was the flicker the owner found crossing 800 to 790 — so this line is the
    only sign anything is happening. Deliberately quiet: it is not an error, and
    on a fast connection it is gone before it is read. */
+/* Always occupies its line, even when there is nothing to say — it renders a
+   non-breaking space and hides the text with `visibility`. Mounting and
+   unmounting it moved the map, which is the one thing this column must not do. */
 .map-evidence-fetching {
   margin: -8px 0 12px;
+  min-height: 1.3em;
   color: var(--silver-dim);
   font-size: 0.82rem;
   font-style: italic;
+}
+
+.map-evidence-fetching[aria-hidden="true"] {
+  visibility: hidden;
 }
