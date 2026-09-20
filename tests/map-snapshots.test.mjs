@@ -23,6 +23,7 @@ import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { loadArchive } from '../server/data/archive.mjs'
+import { parseTypedYear } from '../client/src/lib/historicalMap.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
@@ -169,5 +170,26 @@ test('the legend may still say every frontier is approximate', () => {
   for (const year of SNAPSHOT_YEARS) {
     const values = new Set(snapshot(year).features.map((f) => f.properties.borderPrecision))
     assert.deepEqual([...values], [1], `${year}: border precision is no longer uniformly approximate`)
+  }
+})
+
+test('a typed year is clamped to the period, and nonsense is refused rather than guessed', () => {
+  // The year can be typed as well as dragged. Reader-supplied input, so it gets the
+  // same treatment as the query string: clamp what is usable, refuse what is not.
+  //
+  // Refusing matters more than clamping. Returning a default for "abc" would send a
+  // reader who mistyped over 1147 to some other year entirely, and on this page a
+  // silently wrong year is the one failure that undermines everything else.
+  assert.equal(parseTypedYear('1147'), 1147)
+  assert.equal(parseTypedYear('  1147  '), 1147)
+  assert.equal(parseTypedYear('476'), 476)
+  assert.equal(parseTypedYear('1453'), 1453)
+
+  assert.equal(parseTypedYear('100'), 476, 'a year before the period should clamp to its start')
+  assert.equal(parseTypedYear('2026'), 1453, 'a year after the period should clamp to its end')
+  assert.equal(parseTypedYear('-50'), 476)
+
+  for (const bad of ['', '   ', 'abc', null, undefined, 'MCXLVII']) {
+    assert.equal(parseTypedYear(bad), null, `${JSON.stringify(bad)} should be refused, not guessed`)
   }
 })

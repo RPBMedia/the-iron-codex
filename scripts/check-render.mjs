@@ -289,6 +289,11 @@ for (const [collection, arr] of Object.entries(data)) {
     failures.push('map page: the gap between the chosen year and the evidence year is not stated')
   }
   if (!has(html, 'GPL-3.0')) failures.push('map page: the geometry licence is not attributed')
+  // The year is typed as well as dragged. Both controls must be present: losing the
+  // input leaves 977 years reachable only by a two-year-per-pixel drag, and losing
+  // the slider leaves no way to explore without already knowing the year you want.
+  if (!has(html, 'type="number"')) failures.push('map page: the year cannot be typed')
+  if (!has(html, 'type="range"')) failures.push('map page: the year slider is gone')
   // `.page-section` carries a width but no auto margin: the centring lives in
   // `.content-section`, so the two must sit on the SAME element. Nested, the page
   // renders flush left and drags the full-bleed dark band off centre with it —

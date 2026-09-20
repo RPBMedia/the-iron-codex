@@ -15,6 +15,7 @@ import {
   articleHref,
   evidenceSentence,
   nextSnapshot,
+  parseTypedYear,
   panView,
   pathsForFeature,
   presetById,
@@ -78,6 +79,17 @@ export default function MapPage() {
   const [land, setLand] = useState(null)
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
+  const [hover, setHover] = useState(null)
+
+  /*
+   * The typed year is a draft until it is committed, and that is the whole trick.
+   * Bound straight to the year, typing "1147" would pass through 1, 11 and 114 —
+   * each one clamped to 476 and each one fetching a snapshot — so the map would
+   * lurch to the start of the period between keystrokes. The draft commits on Enter
+   * and on blur instead.
+   */
+  const [yearDraft, setYearDraft] = useState(String(year))
+  useEffect(() => setYearDraft(String(year)), [year])
 
   // The camera. The preset lives in the URL so a view is shareable — "look at the
   // Holy Land in 1200" is a link — while free panning and zooming stay transient,
@@ -203,15 +215,35 @@ export default function MapPage() {
   }
 
   const onPointerMove = (event) => {
-    const d = drag.current
-    if (!d) return
     const rect = svgRef.current?.getBoundingClientRect()
-    if (!rect) return
-    const dx = ((event.clientX - d.startX) / rect.width) * d.view.w
-    const dy = ((event.clientY - d.startY) / rect.height) * d.view.h
-    if (!d.moved && Math.hypot(dx, dy) < 2) return
-    d.moved = true
-    setView(panView(d.view, -dx, -dy))
+    const d = drag.current
+
+    if (d && rect) {
+      const dx = ((event.clientX - d.startX) / rect.width) * d.view.w
+      const dy = ((event.clientY - d.startY) / rect.height) * d.view.h
+      if (d.moved || Math.hypot(dx, dy) >= 2) {
+        d.moved = true
+        setHover(null)
+        setView(panView(d.view, -dx, -dy))
+        return
+      }
+    }
+
+    /*
+     * The hover tooltip. Mouse only: a touch "hover" is just the moment before a
+     * tap, and a tooltip that appears under a finger and then vanishes is noise.
+     *
+     * This is an enhancement and never the only way to identify a territory — the
+     * list, the panel and each path's own aria-label all carry the name, which is
+     * what a keyboard or screen-reader user actually uses.
+     */
+    if (event.pointerType !== 'mouse' || !rect) return
+    const name = event.target?.getAttribute?.('data-polity')
+    if (!name) {
+      setHover(null)
+      return
+    }
+    setHover({ name, x: event.clientX - rect.left, y: event.clientY - rect.top })
   }
 
   const onPointerUp = (event) => {
@@ -236,6 +268,21 @@ export default function MapPage() {
   const zoomBy = (factor) => setView(zoomView(view, factor))
   const resetCamera = () => setView(viewFromBounds(presetById(presetId).bounds))
   const isZoomed = Math.abs(view.w - viewFromBounds(presetById(presetId).bounds).w) > 1
+
+  /**
+   * Commit a typed year. Anything unusable snaps back to the year in the URL rather
+   * than to a default: a reader who typed "abc" over 1147 meant to change it, not to
+   * be sent to 1100.
+   */
+  const commitYear = (raw) => {
+    const parsed = parseTypedYear(raw)
+    if (parsed === null) {
+      setYearDraft(String(year))
+      return
+    }
+    setYearDraft(String(parsed))
+    if (parsed !== year) updateQuery({ year: parsed })
+  }
 
   // A pan that happens to end over a territory must not select it.
   const select = (name) => {
@@ -274,9 +321,32 @@ export default function MapPage() {
         <div className="map-controls">
           <div className="map-year">
             <label htmlFor="map-year-input">Year</label>
-            <output className="map-year-value" htmlFor="map-year-input">
-              {year}
-            </output>
+            {/*
+              The year is typed as well as dragged. 977 years on a slider is about
+              two years per pixel on a laptop, so landing on 1187 exactly is a
+              pixel-hunt; this makes every year in the period reachable directly.
+              The two controls share one value and the slider stays primary.
+            */}
+            <input
+              className="map-year-value"
+              type="number"
+              inputMode="numeric"
+              min={FIRST_YEAR}
+              max={LAST_YEAR}
+              step={1}
+              value={yearDraft}
+              aria-label="Year, type to jump"
+              onChange={(event) => setYearDraft(event.target.value)}
+              onBlur={() => commitYear(yearDraft)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter') {
+                  event.preventDefault()
+                  commitYear(yearDraft)
+                  event.currentTarget.blur()
+                }
+                if (event.key === 'Escape') setYearDraft(String(year))
+              }}
+            />
             <input
               id="map-year-input"
               type="range"
@@ -388,6 +458,7 @@ export default function MapPage() {
                 onPointerMove={onPointerMove}
                 onPointerUp={onPointerUp}
                 onPointerCancel={onPointerUp}
+                onPointerLeave={() => setHover(null)}
                 onWheel={onWheel}
               >
                 {/* Sized to the whole canvas, not the camera, so panning never
@@ -416,6 +487,7 @@ export default function MapPage() {
                     <path
                       key={`${name}-${index}-${part}`}
                       d={d}
+                      data-polity={name}
                       className={`map-polity${isSelected ? ' is-selected' : ''}`}
                       style={{ fill: fillFor(name) }}
                       tabIndex={part === 0 ? 0 : -1}
@@ -435,6 +507,22 @@ export default function MapPage() {
                   ))
                 })}
               </svg>
+
+              {/*
+                Offset from the pointer rather than centred on it, so it never covers
+                the territory it is naming, and flipped near the right edge so it
+                never leaves the figure. `aria-hidden` because it duplicates the
+                path's own aria-label — announcing it twice helps nobody.
+              */}
+              {hover && (
+                <div
+                  className={`map-tooltip${hover.x > 0.72 * (svgRef.current?.clientWidth ?? 0) ? ' flip' : ''}`}
+                  style={{ left: `${hover.x}px`, top: `${hover.y}px` }}
+                  aria-hidden="true"
+                >
+                  {hover.name}
+                </div>
+              )}
               <figcaption className="map-caption">
                 {evidenceYear === null ? (
                   <>Nothing is mapped for {year}. Blank ground means no snapshot covers it.</>

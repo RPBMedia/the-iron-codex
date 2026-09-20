@@ -1554,18 +1554,19 @@ is the one thing the brief forbids.
 started. The first two are small, the third is a real piece of work, the fourth is a
 judgement call before it is code.
 
-1. **Type a year, not only drag it.** A number input beside the slider, both bound to
-   the same value. Clamp to 476-1453, accept the year on blur and on Enter rather than
-   per keystroke (otherwise typing "1" in "1147" fetches the 500 snapshot), and leave
-   the slider as the primary control. Half an hour, and it makes the whole 977-year
-   range reachable without a pixel-perfect drag.
+1. ~~**Type a year, not only drag it.**~~ **SHIPPED 2026-09-20.** The year readout
+   IS the input rather than a second control beside it — two places showing the same
+   year would invite exactly the confusion this page spends its effort avoiding. The
+   typed value is a draft committed on Enter and on blur, because bound directly it
+   would pass through 1, 11 and 114 on the way to 1147, each one clamped and each one
+   fetching a snapshot. Nonsense is refused rather than defaulted: someone who
+   mistypes over 1147 meant to change it, not to be sent elsewhere.
 
-2. **Hover tooltip naming the territory.** Follow the border, not the pointer, so it
-   does not cover what it describes. Must not be the only way to identify a polity:
-   hover is an enhancement, the list and the panel stay the access path, and the
-   `aria-label` on each path already carries the name for screen readers. Watch the
-   z-index ladder (header 10, suggestions 20, nav 30, lightbox 1000) and remember the
-   tooltip has to work while panning.
+2. ~~**Hover tooltip naming the territory.**~~ **SHIPPED 2026-09-20.** Offset from the
+   pointer so it never covers what it names, flipped near the right edge,
+   `pointer-events: none` so it cannot eat a click or trigger its own pointerleave,
+   mouse-only (a touch "hover" is the moment before a tap), and hidden while panning.
+   `aria-hidden`, because each path's own `aria-label` already carries the name.
 
 3. **Sharper borders, more coastline detail.** Currently Douglas-Peucker at 0.02
    degrees (about 2 km), which takes 71-81% of the vertices out and lands each
@@ -1577,19 +1578,19 @@ judgement call before it is code.
    rather than by accident. The trade is bytes on the wire against fidelity at zoom,
    and it should be decided with real numbers rather than by eye.
 
-4. **Fade the borders as time progresses.** Two readings, and they are different
-   features — ASK THE OWNER WHICH BEFORE BUILDING:
-   - *(a) A transition.* Cross-fade whole layers when the year crosses a keyframe, so
-     the map dissolves rather than snaps. This is what Appendix F's Milestone 3 asks
-     for. Must fade complete layers only, never vertex-interpolate a border, and must
-     be disabled under `prefers-reduced-motion`.
-   - *(b) Confidence decay.* Fade the borders in proportion to how far the chosen year
-     is from the evidence year — crisp at 1100, visibly softer at 1147, softest just
-     before the next keyframe. This is the more interesting one and it fits the
-     brief's whole argument: it makes staleness *visible* rather than only stated in
-     the evidence strip. It would need care not to imply the borders are more precise
-     at a keyframe than they are, since every frontier here is "approximate" at every
-     year.
+4. **Cross-fade the map when the year crosses a keyframe** (owner decision,
+   2026-09-20: this reading, not confidence decay). The map should dissolve from one
+   snapshot into the next rather than snapping. Appendix F's Milestone 3 sets the
+   constraints: fade COMPLETE LAYERS only, never vertex-interpolate a border — a
+   border that slides from one shape to another is a claim about a conquest that did
+   not happen that way — and disable it entirely under `prefers-reduced-motion`,
+   where the existing block at the end of styles.css already zeroes transition
+   durations. It also has to survive fast scrubbing: a fade still running when the
+   next keyframe arrives must be replaced, not queued.
+
+   *(Confidence decay — softening borders in proportion to how stale the snapshot is
+   for the chosen year — was considered and NOT chosen. Recorded here in case it
+   comes back.)*
 
 **Still open from before:** a reverse link from an article to its territory on the
 map; making the page indexable once coverage justifies the crawl budget; on-map place

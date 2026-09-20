@@ -4458,3 +4458,84 @@ a.tree-person:hover .tree-person-name {
     flex-grow: 1;
   }
 }
+
+/* --- Typed year and hover tooltip (QUEUE 0v, owner requests 2026-09-20) ----
+
+   The year is typed as well as dragged: 977 years across a slider is roughly two
+   years per pixel on a laptop, so landing on 1187 exactly was a pixel-hunt. The
+   input IS the big readout rather than a second control beside it — two places
+   showing the same year would invite exactly the confusion this page spends all
+   its effort avoiding. */
+
+.map-year-value {
+  display: block;
+  width: 100%;
+  margin: 4px 0 10px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px dashed rgba(215, 217, 221, 0.3);
+  border-radius: 0;
+  background: none;
+  color: var(--paper);
+  font-family: inherit;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.map-year-value:hover {
+  border-bottom-color: rgba(242, 193, 78, 0.6);
+}
+
+.map-year-value:focus {
+  outline: none;
+  border-bottom-color: var(--gold);
+}
+
+.map-year-value:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.35);
+  outline-offset: 4px;
+}
+
+/* The spinners are noise at this size, and the arrow keys still step the value. */
+.map-year-value::-webkit-outer-spin-button,
+.map-year-value::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.map-year-value {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* The tooltip is positioned against the figure, so the figure is the containing
+   block. Nothing else here is absolutely positioned, so this is safe. */
+.map-figure {
+  position: relative;
+}
+
+.map-tooltip {
+  position: absolute;
+  z-index: 5;
+  transform: translate(14px, -130%);
+  padding: 5px 9px;
+  border-radius: 4px;
+  background: rgba(11, 11, 13, 0.92);
+  color: var(--paper);
+  font-size: 0.78rem;
+  font-weight: 780;
+  white-space: nowrap;
+  /* It must never eat a click meant for the territory underneath it, and it must
+     never trigger its own pointerleave by sitting under the cursor. */
+  pointer-events: none;
+}
+
+.map-tooltip.flip {
+  transform: translate(calc(-100% - 14px), -130%);
+}
+
+/* Under reduced motion the site-wide block already clamps transitions; the
+   tooltip has none to clamp, which is deliberate — a name that fades in is a
+   name you cannot read yet. */

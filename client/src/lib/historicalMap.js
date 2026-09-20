@@ -134,7 +134,17 @@ export function resolveSnapshot(year) {
 export const previousSnapshot = (year) => [...SNAPSHOT_YEARS].reverse().find((y) => y < year) ?? null
 export const nextSnapshot = (year) => SNAPSHOT_YEARS.find((y) => y > year) ?? null
 
-const clampYear = (value) => Math.min(LAST_YEAR, Math.max(FIRST_YEAR, value))
+export const clampYear = (value) => Math.min(LAST_YEAR, Math.max(FIRST_YEAR, value))
+
+/**
+ * Parse a typed year. Returns null when there is no usable number, so the caller
+ * can put back what was there rather than guessing — someone who types nonsense
+ * over 1147 meant to change it, not to be sent to the default.
+ */
+export function parseTypedYear(raw) {
+  const parsed = Number.parseInt(String(raw ?? '').trim(), 10)
+  return Number.isFinite(parsed) ? clampYear(parsed) : null
+}
 
 /** Parse the `year` query parameter. Anything unusable falls back to 1100. */
 export function yearFromParam(value) {
