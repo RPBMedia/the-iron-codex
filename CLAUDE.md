@@ -58,6 +58,25 @@ needed correcting. If a batch has a weak point, that is the one to hand over.
 Reviewing green validator output proves the rules ran, not that the writing is any
 good.
 
+**Every shipped change hands over a test case (owner rule, 2026-09-20). Always —
+no exceptions, and without being asked.** The article spot-check above is the
+content case of this rule; it applies to features, fixes and refactors too.
+
+A test case is **specific and executable**, not an invitation to go and look:
+
+- A **URL with its parameters**, not "try the map" — `/map?year=1147&view=holy-land`.
+- **What should happen**, in a sentence, precise enough to be wrong. "The year
+  reads 1147 and the strip beneath reads Map evidence: 1100" can fail. "The year
+  selector works" cannot.
+- The case that **tests the weak point**, not the one that demos well. Ship a
+  cross-fade, hand over fast scrubbing. Ship a gate, hand over the account that
+  should NOT see it.
+- **What is deliberately wrong**, so known limitations are not reported as bugs
+  and real bugs stand out against them.
+
+Green gates are not a test case. They prove the rules ran, not that the thing
+does what the owner wanted — and on a feature they mostly prove that it renders.
+
 **Away mode (owner rule, 2026-09-16).** When the owner says **"I will be away for
 &lt;x amount of time&gt;"** — or any equivalent ("leaving for the afternoon", "back
 tomorrow") — that is an instruction to **build continuously for that whole period
