@@ -567,7 +567,7 @@ export function MapPageContent() {
       <div className="map-hero">
         <header className="section-heading map-intro">
           <p className="eyebrow">Historical map</p>
-          <h1>The medieval world, as one source reconstructs it</h1>
+          <h1>The medieval world</h1>
           <p className="map-lead">
             Choose any year between {FIRST_YEAR} and {LAST_YEAR}. The map shows the nearest dated
             reconstruction at or before that year — never a later one, which would put states on the
