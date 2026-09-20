@@ -139,9 +139,12 @@ export default function MapPage() {
   const next = nextSnapshot(year)
 
   return (
-    <div className="map-page page-section">
-      <div className="content-section">
-        <header className="section-heading map-intro">
+    // Both classes on ONE element, as every other page does it. `.page-section`
+    // sets a width but no auto margin — the centring comes from `.content-section`,
+    // so nesting them leaves the page flush left and drags the full-bleed dark band
+    // off centre with it.
+    <section className="content-section page-section map-page">
+      <header className="section-heading map-intro">
           <p className="eyebrow">Historical map</p>
           <h1>The medieval world, as one source reconstructs it</h1>
           <p className="map-lead">
@@ -364,7 +367,6 @@ export default function MapPage() {
             reconstruction before it.
           </p>
         </footer>
-      </div>
-    </div>
+    </section>
   )
 }

@@ -289,6 +289,13 @@ for (const [collection, arr] of Object.entries(data)) {
     failures.push('map page: the gap between the chosen year and the evidence year is not stated')
   }
   if (!has(html, 'GPL-3.0')) failures.push('map page: the geometry licence is not attributed')
+  // `.page-section` carries a width but no auto margin: the centring lives in
+  // `.content-section`, so the two must sit on the SAME element. Nested, the page
+  // renders flush left and drags the full-bleed dark band off centre with it —
+  // which is exactly how this shipped, and it is invisible to every other gate.
+  if (!has(html, 'class="content-section page-section map-page"')) {
+    failures.push('map page: content-section and page-section are not on one element — the page will sit flush left')
+  }
   if (countOf(html, '<h1') !== 1) {
     failures.push(`map page: expected exactly one <h1>, found ${countOf(html, '<h1')}`)
   }

@@ -3961,8 +3961,8 @@ a.tree-person:hover .tree-person-name {
   min-height: 0;
 }
 
-.map-page .content-section {
-  padding-bottom: 32px;
+.map-page {
+  padding-bottom: 48px;
 }
 
 .map-intro {
