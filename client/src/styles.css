@@ -602,33 +602,96 @@ h2 {
   box-shadow: 0 18px 54px rgba(8, 8, 10, 0.14);
 }
 
-.archive-search,
-.archive-select,
+/* REBUILT 2026-09-20. Two rules in this block had been truncated to dangling
+   selector lists — `.archive-search, .archive-select,` followed by nothing, and
+   the same for their input and select — which a CSS parser resolves by swallowing
+   the rule that follows. The result was that `display: flex` was lost (so the
+   label sat beside its control), the label text kept the panel's own dark colour
+   on the panel's dark ground (so it was invisible), and the inputs fell back to
+   raw native chrome: white boxes and a blue clear button on a near-black card.
 
-.archive-search {
+   Confirmed present in 164a9d7, before any map work, so it arrived with a pull
+   rather than from this feature. */
+
+.archive-search,
+.archive-select {
+  display: flex;
   flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+/* The same eyebrow the rest of the site uses for a small label above content. */
+.archive-search > span,
+.archive-select > span {
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .archive-filter-row {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
-.archive-select {
-  flex-direction: column;
-}
-
+/* `color-scheme: dark` is doing real work here: without it the native dropdown a
+   <select> opens is a white list, however the closed control is painted. */
 .archive-search input,
-.archive-select select,
-
-.archive-search input {
-  width: 100%;
-}
-
 .archive-select select {
   width: 100%;
   min-width: 0;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(215, 217, 221, 0.26);
+  border-radius: 6px;
+  background: rgba(20, 20, 24, 0.85);
+  color: var(--paper);
+  color-scheme: dark;
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 620;
+}
+
+.archive-search input::placeholder {
+  color: var(--silver-dim);
+}
+
+.archive-search input:hover,
+.archive-select select:hover {
+  border-color: rgba(242, 193, 78, 0.4);
+}
+
+.archive-search input:focus-visible,
+.archive-select select:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.35);
+  outline-offset: 2px;
+  border-color: rgba(242, 193, 78, 0.6);
+}
+
+/* The native arrow is drawn in the platform's own colour and disappears on a dark
+   control, so it is replaced with one that matches the palette. `padding-right`
+   keeps the longest option from running underneath it. */
+.archive-select select {
+  padding-right: 34px;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--silver-dim) 50%),
+    linear-gradient(135deg, var(--silver-dim) 50%, transparent 50%);
+  background-position: calc(100% - 18px) calc(50% + 2px), calc(100% - 13px) calc(50% + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+/* Safari paints the search field's own clear button in its default blue, which
+   is the one colour on this page that belongs to no palette. */
+.archive-search input::-webkit-search-cancel-button {
+  filter: grayscale(1) brightness(1.8);
+  cursor: pointer;
 }
 
 .archive-count {
