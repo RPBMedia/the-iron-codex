@@ -4783,3 +4783,67 @@ a.tree-person:hover .tree-person-name {
 .map-polity:focus {
   outline: none;
 }
+
+/* --- Menu typography and the selected-polity panel (owner report 2026-09-20) --
+
+   The menu was set at 820 weight, which on a fallback face rounds to bold and
+   read as cartoonish rather than archival. 620 with a little tracking is the
+   formal register the rest of the site's prose uses; the eyebrows and headings
+   keep the heavy weights, so the contrast between label and navigation survives. */
+.nav-menu a,
+.nav-menu button,
+.menu-status,
+.menu-account {
+  font-size: 0.92rem;
+  font-weight: 620;
+  letter-spacing: 0.01em;
+}
+
+/* The panel's actions were a link and a filled grey button side by side, which
+   made the secondary action the loudest thing in the card and crowded the link
+   that is the whole point of the panel. The link now stands alone; clearing is a
+   quiet text action underneath it. */
+.map-panel-read {
+  display: inline-block;
+  margin-top: 4px;
+  color: #8f6b1d;
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.map-panel-read:hover {
+  color: #6d5214;
+  text-decoration: underline;
+}
+
+.map-panel-read:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.55);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.map-panel-clear {
+  display: block;
+  margin-top: 14px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #6d717a;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 740;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.map-panel-clear:hover {
+  color: #292a30;
+}
+
+.map-panel-clear:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.55);
+  outline-offset: 3px;
+  border-radius: 3px;
+}

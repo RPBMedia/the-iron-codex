@@ -385,8 +385,12 @@ export function MapPageContent() {
     // Only a plain primary-button drag pans. A click on a polygon has to keep
     // selecting it, so the drag is only treated as a pan once it actually moves.
     if (event.button !== 0) return
-    drag.current = { startX: event.clientX, startY: event.clientY, view, moved: false }
-    svgRef.current?.setPointerCapture?.(event.pointerId)
+    drag.current = { startX: event.clientX, startY: event.clientY, view, moved: false, id: event.pointerId }
+    // NOTE: pointer capture is NOT taken here. Capturing on pointerdown retargets
+    // the whole gesture to the SVG, so the click that follows lands on the <svg>
+    // and the <path>'s onClick never fires — clicking a territory did nothing,
+    // while Enter worked, because the keyboard never touches the pointer.
+    // Capture is taken in onPointerMove, once a drag has actually begun.
   }
 
   const onPointerMove = (event) => {
@@ -396,7 +400,11 @@ export function MapPageContent() {
     if (d && rect) {
       const dx = ((event.clientX - d.startX) / rect.width) * d.view.w
       const dy = ((event.clientY - d.startY) / rect.height) * d.view.h
-      if (d.moved || Math.hypot(dx, dy) >= 2) {
+      if (d.moved || Math.hypot(dx, dy) >= 3) {
+        // Capture here, not on pointerdown: a drag that leaves the SVG still
+        // needs to track, but a plain click must never be retargeted away from
+        // the territory it landed on.
+        if (!d.moved) svgRef.current?.setPointerCapture?.(d.id)
         d.moved = true
         setHover(null)
         setView(panView(d.view, -dx, -dy))
@@ -422,7 +430,9 @@ export function MapPageContent() {
   }
 
   const onPointerUp = (event) => {
-    svgRef.current?.releasePointerCapture?.(event.pointerId)
+    if (svgRef.current?.hasPointerCapture?.(event.pointerId)) {
+      svgRef.current.releasePointerCapture(event.pointerId)
+    }
     // Leave `moved` readable for one click cycle: the polygon's onClick fires
     // after this, and a pan that ended over a territory must not select it.
     const d = drag.current
@@ -849,8 +859,18 @@ export function MapPageContent() {
                   <>
                     <p className="eyebrow">Selected</p>
                     <h2>{selected.name}</h2>
-                    {selected.subjectTo && <p className="map-panel-meta">Subject to {selected.subjectTo}</p>}
-                    {selected.partOf && <p className="map-panel-meta">Part of {selected.partOf}</p>}
+                    {/*
+                      The source sets SUBJECTO and PARTOF on a polity's own
+                      features as well as on its dependencies, so an independent
+                      kingdom came out reading "Denmark. Subject to Denmark. Part
+                      of Denmark." Only shown when it names something else.
+                    */}
+                    {selected.subjectTo && selected.subjectTo !== selected.name && (
+                      <p className="map-panel-meta">Subject to {selected.subjectTo}</p>
+                    )}
+                    {selected.partOf && selected.partOf !== selected.name && (
+                      <p className="map-panel-meta">Part of {selected.partOf}</p>
+                    )}
                     <p className="map-panel-meta">Shown as it stood in the {evidenceYear} reconstruction.</p>
                     <p className="map-panel-precision">
                       Border precision: approximate. This outline is one reconstruction, not a
@@ -858,7 +878,7 @@ export function MapPageContent() {
                     </p>
                     {selected.linkNote && <p className="map-panel-note">{selected.linkNote}</p>}
                     {articleHref(selected) ? (
-                      <Link className="read-link" to={articleHref(selected)}>
+                      <Link className="map-panel-read" to={articleHref(selected)}>
                         Read the article →
                       </Link>
                     ) : (
@@ -866,7 +886,9 @@ export function MapPageContent() {
                         {selected.gapNote ?? 'No Codex article yet for this polity.'}
                       </p>
                     )}
-                    <button type="button" className="button secondary" onClick={clearSelection}>
+                    {/* A quiet text action, not a second primary button competing
+                        with the link that is the point of the panel. */}
+                    <button type="button" className="map-panel-clear" onClick={clearSelection}>
                       Clear selection
                     </button>
                   </>
