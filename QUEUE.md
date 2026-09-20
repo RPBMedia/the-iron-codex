@@ -1550,11 +1550,51 @@ shows Byzantine at 1400 though the Latin Duchy held it. Those are the source's
 frontiers, recorded in `server/data/map/source/SOURCE.md`, and correcting them by hand
 is the one thing the brief forbids.
 
-**Next, when the owner wants it:** the four remaining snapshot years (900, 1000, 1200,
-1279, 1300 are available and audited-pending); pan and zoom, which the Balkans and the
-Levant need badly at this scale; search over the polity list; a reverse link from an
-article to its territory on the map; making the page indexable once coverage justifies
-the crawl budget.
+**Next — owner requests, 2026-09-20.** Recorded in priority order as asked; none
+started. The first two are small, the third is a real piece of work, the fourth is a
+judgement call before it is code.
+
+1. **Type a year, not only drag it.** A number input beside the slider, both bound to
+   the same value. Clamp to 476-1453, accept the year on blur and on Enter rather than
+   per keystroke (otherwise typing "1" in "1147" fetches the 500 snapshot), and leave
+   the slider as the primary control. Half an hour, and it makes the whole 977-year
+   range reachable without a pixel-perfect drag.
+
+2. **Hover tooltip naming the territory.** Follow the border, not the pointer, so it
+   does not cover what it describes. Must not be the only way to identify a polity:
+   hover is an enhancement, the list and the panel stay the access path, and the
+   `aria-label` on each path already carries the name for screen readers. Watch the
+   z-index ladder (header 10, suggestions 20, nav 30, lightbox 1000) and remember the
+   tooltip has to work while panning.
+
+3. **Sharper borders, more coastline detail.** Currently Douglas-Peucker at 0.02
+   degrees (about 2 km), which takes 71-81% of the vertices out and lands each
+   snapshot at 54-114 KB; the land layer is Natural Earth 110m. Both were chosen when
+   the map was a small figure on a dark page and neither has been revisited since pan
+   and zoom shipped — zoomed in, the simplification is now visible. The work is:
+   measure at 0.01 and 0.005 degrees, try ne_50m for the coastline (1.6 MB raw, needs
+   its own clip), and raise `MAX_SNAPSHOT_BYTES` in the geometry test deliberately
+   rather than by accident. The trade is bytes on the wire against fidelity at zoom,
+   and it should be decided with real numbers rather than by eye.
+
+4. **Fade the borders as time progresses.** Two readings, and they are different
+   features — ASK THE OWNER WHICH BEFORE BUILDING:
+   - *(a) A transition.* Cross-fade whole layers when the year crosses a keyframe, so
+     the map dissolves rather than snaps. This is what Appendix F's Milestone 3 asks
+     for. Must fade complete layers only, never vertex-interpolate a border, and must
+     be disabled under `prefers-reduced-motion`.
+   - *(b) Confidence decay.* Fade the borders in proportion to how far the chosen year
+     is from the evidence year — crisp at 1100, visibly softer at 1147, softest just
+     before the next keyframe. This is the more interesting one and it fits the
+     brief's whole argument: it makes staleness *visible* rather than only stated in
+     the evidence strip. It would need care not to imply the borders are more precise
+     at a keyframe than they are, since every frontier here is "approximate" at every
+     year.
+
+**Still open from before:** a reverse link from an article to its territory on the
+map; making the page indexable once coverage justifies the crawl budget; on-map place
+labels (Constantinople, Jerusalem) with attested period names, which the brief asks
+for and which needs its own sourcing.
 
 **Articles that would most improve the map, if the content programme wants a target:**
 Fatimid Caliphate (the largest unlinked territory at 1100), Visigothic Kingdom, Western
