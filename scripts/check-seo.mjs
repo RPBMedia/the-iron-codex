@@ -164,7 +164,7 @@ for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html',
       if (/historical-basemaps|GPL-3\.0/.test(html)) {
         fail('map.html', 'the map is admin-only but its page still describes the map')
       }
-      if (/href="\/(locations|houses|orders)\/[a-z0-9-]+"/.test(html)) {
+      if (/href="\/(locations|houses|orders|civilizations)\/[a-z0-9-]+"/.test(html)) {
         fail('map.html', 'the map is admin-only but its page still lists polities')
       }
     } else {
@@ -174,7 +174,7 @@ for (const rel of ['search.html', 'login.html', 'signup.html', 'favorites.html',
       if (!/one reconstruction/i.test(html)) {
         fail('map.html', 'map page does not say it shows one reconstruction rather than settled fact')
       }
-      const polityLinks = [...html.matchAll(/href="\/(locations|houses|orders)\/[a-z0-9-]+"/g)]
+      const polityLinks = [...html.matchAll(/href="\/(locations|houses|orders|civilizations)\/[a-z0-9-]+"/g)]
       if (polityLinks.length < 10) {
         fail('map.html', `only ${polityLinks.length} polity links prerendered — the no-JS map is empty`)
       }

@@ -34,7 +34,7 @@ const snapshot = (year) =>
 const mapping = JSON.parse(readFileSync(join(root, 'server', 'data', 'map', 'polity-slugs.json'), 'utf8'))
 
 /** The map's link types, in the vocabulary the rest of the archive already uses. */
-const LINK_TYPE_TO_COLLECTION = { location: 'locations', house: 'houses', order: 'orders' }
+const LINK_TYPE_TO_COLLECTION = { location: 'locations', house: 'houses', order: 'orders', civilization: 'civilizations' }
 
 test('every snapshot year is inside the Codex scope of 476-1453', () => {
   for (const year of SNAPSHOT_YEARS) {

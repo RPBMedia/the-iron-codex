@@ -113,6 +113,47 @@
       "note": "The state founded on the Danube in 681, which the Codex covers as the First Bulgarian Empire. The separate 'Bulgars' polygon at 600 is Old Great Bulgaria, a different polity, and is deliberately not linked here."
     },
 
+    "Pechenegs": {
+      "slug": "pechenegs",
+      "type": "civilization",
+      "note": "A people, not a state. The Codex covers the Pechenegs as a civilization; the ground they held had no single polity to name."
+    },
+    "Cuman-Kipchak confederation": {
+      "slug": "cumans",
+      "type": "civilization",
+      "note": "A people and a confederation rather than a state with institutions. The Codex covers the Cumans as a civilization."
+    },
+    "Cuman Khanates": {
+      "slug": "cumans",
+      "type": "civilization",
+      "note": "A people and a confederation rather than a state with institutions. The Codex covers the Cumans as a civilization."
+    },
+    "Goths": {
+      "slug": "goths",
+      "type": "civilization",
+      "note": "A people, not a state. By 700 the Gothic kingdoms had their own names and their own articles; this polygon is labelled by the people."
+    },
+    "Northmen": {
+      "slug": "norse",
+      "type": "civilization",
+      "note": "A people, not a state. The Codex covers the Norse as a civilization; Denmark, Norway and Sweden have their own articles where the source names them."
+    },
+    "Visigoths": {
+      "slug": "visigoths",
+      "type": "civilization",
+      "note": "The source labels this territory by the people. The Codex has the Visigoths as a civilization but no article for the Visigothic Kingdom, so this links to the people and says so rather than implying the state."
+    },
+    "Visigothic Kingdom": {
+      "slug": "visigoths",
+      "type": "civilization",
+      "note": "The Codex has no article for the Visigothic Kingdom itself, only for the Visigoths as a people. This links to the people; it is not the same thing as the state, and the state is still a gap."
+    },
+    "Western Roman Empire": {
+      "slug": "romans",
+      "type": "civilization",
+      "note": "The Codex has no article for the Western Empire as a state — its end is covered as an event. This links to the Romans as a people, which is not the same thing."
+    },
+
     "Seljuk Empire": {
       "slug": "seljuk-turks",
       "type": "location",

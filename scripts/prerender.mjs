@@ -232,7 +232,7 @@ function buildMapBody(label, blurb) {
     if (!existsSync(file)) continue
     const snapshot = JSON.parse(readFileSync(file, 'utf8'))
     for (const { properties } of snapshot.features) {
-      const collection = { location: 'locations', house: 'houses', order: 'orders' }[properties.linkType]
+      const collection = { location: 'locations', house: 'houses', order: 'orders', civilization: 'civilizations' }[properties.linkType]
       if (properties.slug && collection) {
         linked.set(properties.name, `/${collection}/${properties.slug}`)
       } else {

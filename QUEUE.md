@@ -1654,16 +1654,14 @@ The source labels plenty of ground by its inhabitants rather than by a state:
 cannot become location articles without breaking the rule the content gates
 enforce.** Three ways out, and it is the owner's call:
 
-  (a) Write them as **civilizations** where the Codex does not already have one, and
-      let the map link a `type: "civilization"` polygon — the vocabulary already
-      allows it and the panel already says which kind of thing it linked to.
-  (b) **Leave them unlinked**, and narrow the rule to "every territory that is a
-      polity".
-  (c) **Drop them from the canvas** — honest only if the ground is then marked
-      unmapped, which it would be, since removing a polygon is not the same as
-      saying nobody lived there.
-
-  (a) is the one that loses nothing.
+**OWNER DECISION, 2026-09-20: (a).** Peoples are mapped to **civilizations**, not
+locations. Only create the ones that do not exist; link the rest. The Codex already
+has nine — byzantines, cumans, goths, norse, ostrogoths, pechenegs, romans, vikings,
+visigoths — so several of the 62 are a mapping entry away from being linked, with no
+writing at all. `relTypeToCollection` already accepts `civilization` and `culture`,
+and the map panel already states which kind of thing it linked to, so the polygon
+says "a people, not the state they lived under" rather than quietly implying a
+polity.
 
 **Where to start, by how much of the map it fixes** — each of these is a real
 territory a reader can click today and get nothing from, ordered by how many of the
@@ -1715,8 +1713,47 @@ Overpass per year, or a planet extract processed offline; and a decision about
 whether to keep pre-baking snapshots (now at arbitrary years of our choosing) or
 query live. It also multiplies queue item 0w above by roughly ten.
 
-**Not recommended as the next thing.** Recommended as the thing to decide before
-writing 150 articles against the current source's names.
+**MEASURED AGAINST THE BRIEF, AND THE ANSWER IS NO — NOT AS A REPLACEMENT.**
+Investigated 2026-09-20 by pulling the full 1200 geometry (22 MB, 132 relations,
+452,482 coordinate points) rather than reading about it.
+
+Licence is settled and it is good news: the database is **CC0**, with a caveat that
+individual features may be CC-BY or CC-BY-SA. Cleaner than the GPL-3.0 the map
+carries now, and attribution stays good practice regardless.
+
+The problem is coverage, and it is decisive. Section 2 of the brief is emphatic that
+**"The map is NOT Europe-only"** and names the Levant, the whole crusading theatre,
+Egypt and North Africa as required. OHM at 1200, across our canvas:
+
+    Core Europe          102
+    Scandinavia/North     12
+    Anatolia/Caucasus      6
+    North Africa           3
+    Egypt/Levant           2
+
+The current source covers all of it. Migrating would buy event resolution in Europe
+and blank most of the crusading theatre — trading the brief's explicit requirement
+for the owner's explicit one. Three relations also carry no geometry at all,
+including **Reaume de France**: the Kingdom of France at 1200 is a name with no
+borders.
+
+**Recommendation — a second view, not a migration, and not next.**
+
+  1. **Keep the current source as the whole-canvas map.** It is the only one that
+     covers the canvas the brief requires, at every date.
+  2. **Later, add an OHM-backed "Europe in detail" view** with its own provenance
+     line, its own licence note and no shared geometry. Event resolution where OHM
+     is strong, and honest about being a different reconstruction. The brief allows
+     exactly this and forbids the alternative: *"never silently merge them into a
+     composite that no source supports"* — which a seam between two sources at the
+     same year would be, with overlaps and gaps where their conventions differ.
+  3. **Revisit replacement when OHM's `admin_level=2` coverage outside Europe is
+     comparable to its European coverage.** The query that measures it is in this
+     entry's history; it takes a minute to re-run.
+
+So the owner's wish for borders changing every decade is **achievable, but only for
+Europe, and only as a clearly separate view.** For the whole canvas, eleven dated
+reconstructions is what the evidence supports today, and the map already says so.
 
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that

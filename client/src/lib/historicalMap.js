@@ -280,6 +280,6 @@ export function clampView(view) {
 /** Where a polygon's article lives, in the archive's own route vocabulary. */
 export function articleHref(properties) {
   if (!properties.slug) return null
-  const collection = { location: 'locations', house: 'houses', order: 'orders' }[properties.linkType]
+  const collection = { location: 'locations', house: 'houses', order: 'orders', civilization: 'civilizations' }[properties.linkType]
   return collection ? `/${collection}/${properties.slug}` : null
 }
