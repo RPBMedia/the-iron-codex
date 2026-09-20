@@ -1787,6 +1787,39 @@ undiscoverable by definition and a sighted keyboard user needs telling too.
 interaction frame rate while panning a seventy-polygon layer on a mid-range phone,
 and memory. These need a device and a person, not a build script.
 
+**The gaps cannot be filled from this source, and that is now a decision rather
+than an oversight (owner report, 2026-09-20).** Asked to fix the hole over northern
+Germany and the Baltic at 1200:
+
+- **Upstream has not fixed it.** `world_1200.geojson` on `master` is byte-identical
+  to the pinned copy (`2d6913ecedb38e26`); the commits since are name corrections.
+- **Drawing it, or carrying the 1100 polygon forward, is what the brief forbids.**
+  "Prussians at 1100, therefore Prussians at 1200" is an invented claim.
+- **OpenHistoricalMap covers it — and contradicts us.** Its 1200 features there
+  include the Holy Roman Empire (1167–1201) reaching over Brandenburg, plus the
+  archbishopric of Riga and a dozen bishoprics and counties. But **our source's own
+  Holy Roman Empire at 1200 stops short of Berlin.** Dropping OHM's polygons into
+  our gap would give the same polity two different extents in the same year — a
+  composite neither source supports, which is the one merge the brief names and
+  forbids.
+
+**So the sanctioned fix is the brief's own: an explicit alternative-reconstruction
+selector.** Let the reader choose *historical-basemaps* (whole canvas, eleven dates)
+or *OpenHistoricalMap* (Europe, event resolution, CC0), each complete and
+self-consistent, neither spliced into the other. That is the same "Europe in detail"
+view recommended above, and it would answer this complaint and the decade-resolution
+one together.
+
+**Cost, honestly:** an Overpass ingestion pipeline assembling polygons from
+relations, ways and nodes; a source dimension through the data model, the UI and the
+attribution; and a new name-to-slug mapping, because OHM names polities in Latin and
+period forms — *Sacrum Imperium Romanum*, *Regnum Hierosolymitanum*, *Noregsveldi*.
+
+**Done in the meantime:** hovering a gap now names what the source has on either
+side of it — "Not mapped in 1200 · Prussians here in 1100 · Teutonic Knights here in
+1279". It reports what other snapshots say and never implies either is true of the
+year on screen. It does not fill the hole; it stops the hole reading as a fault.
+
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that
 answers "not found"); making the page indexable once coverage justifies the crawl

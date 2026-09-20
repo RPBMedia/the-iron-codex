@@ -18,6 +18,7 @@ import {
   articleHref,
   evidenceIsStale,
   evidenceSentence,
+  holderAt,
   nextSnapshot,
   parseTypedYear,
   panView,
@@ -26,6 +27,7 @@ import {
   previousSnapshot,
   resolveSnapshot,
   snapshotUrl,
+  unprojectPoint,
   viewBoxString,
   viewFromBounds,
   yearFromParam,
@@ -444,7 +446,32 @@ export function MapPageContent() {
      * belongs here.
      */
     if (event.target?.getAttribute?.('data-unmapped')) {
-      setHover({ unmapped: true, x, y })
+      /*
+       * A gap is more useful when it says what the source DOES have. The owner
+       * found the 1200 hole over northern Germany and the Baltic and read it as
+       * the map being broken; it is not, but "Not mapped in 1200" alone does not
+       * distinguish "the source is silent here" from "this feature is failing".
+       *
+       * So the tooltip names the nearest year on each side that does cover this
+       * exact point — Prussians at 1100, Teutonic Knights at 1279. It reports
+       * what other snapshots say; it never suggests either is true of 1200,
+       * because that is the inference the whole map exists to refuse.
+       *
+       * Only cached snapshots are consulted, so this costs a point-in-polygon
+       * sweep over at most two already-loaded layers and never a fetch. The
+       * neighbours are usually cached anyway — they are preloaded on idle.
+       */
+      const point = unprojectPoint(
+        view.x + (x / rect.width) * view.w,
+        view.y + (y / rect.height) * view.h
+      )
+      const nearby = []
+      for (const y2 of [previousSnapshot(evidenceYear ?? FIRST_YEAR), nextSnapshot(evidenceYear ?? FIRST_YEAR)]) {
+        if (y2 === null) continue
+        const held = holderAt(cache.current.get(y2), point)
+        if (held) nearby.push({ year: y2, name: held })
+      }
+      setHover({ unmapped: true, nearby, x, y })
       return
     }
 
@@ -877,7 +904,18 @@ export function MapPageContent() {
                   style={{ left: `${hover.x}px`, top: `${hover.y}px` }}
                   aria-hidden="true"
                 >
-                  {hover.unmapped ? `Not mapped in ${evidenceYear}` : hover.name}
+                  {hover.unmapped ? (
+                    <>
+                      Not mapped in {evidenceYear}
+                      {hover.nearby?.length > 0 && (
+                        <span className="map-tooltip-nearby">
+                          {hover.nearby.map((n) => `${n.name} here in ${n.year}`).join(' · ')}
+                        </span>
+                      )}
+                    </>
+                  ) : (
+                    hover.name
+                  )}
                 </div>
               )}
               </div>

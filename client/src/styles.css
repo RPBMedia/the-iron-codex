@@ -5066,3 +5066,23 @@ a.tree-person:hover .tree-person-name {
     max-width: 100%;
   }
 }
+
+/* The second line of the unmapped tooltip: what the source has either side of a
+   gap. Quieter than the "Not mapped" line above it, because it is context rather
+   than an answer — it reports what OTHER years say and never implies either is
+   true of the year on screen. */
+.map-tooltip-nearby {
+  display: block;
+  margin-top: 3px;
+  color: var(--silver-dim);
+  font-size: 0.76rem;
+  font-style: normal;
+  font-weight: 620;
+}
+
+/* The unmapped tooltip can now run to two lines, so it stops being a single-line
+   pill. */
+.map-tooltip.is-unmapped {
+  white-space: normal;
+  max-width: 260px;
+}

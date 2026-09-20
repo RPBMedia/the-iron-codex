@@ -116,6 +116,46 @@ export function projectPoint(lon, lat) {
   return [x, y]
 }
 
+/**
+ * viewBox units → lon/lat. The inverse of `projectPoint`.
+ *
+ * Needed so the map can answer a question about a point the reader is hovering:
+ * the pointer arrives in screen space, and everything that knows about history is
+ * indexed by longitude and latitude.
+ */
+export function unprojectPoint(x, y) {
+  const lon = CANVAS.west + (x / VIEW_WIDTH) * (CANVAS.east - CANVAS.west)
+  const top = mercY(CANVAS.north)
+  const m = top - (y / VIEW_HEIGHT) * (top - mercY(CANVAS.south))
+  const lat = (2 * Math.atan(Math.exp(m)) - Math.PI / 2) * (180 / Math.PI)
+  return [lon, lat]
+}
+
+const pointInRing = ([x, y], ring) => {
+  let inside = false
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i]
+    const [xj, yj] = ring[j]
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside
+  }
+  return inside
+}
+
+/** The polity holding a lon/lat in a snapshot, or null. */
+export function holderAt(snapshot, point) {
+  if (!snapshot) return null
+  for (const feature of snapshot.features) {
+    const polygons =
+      feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates] : feature.geometry.coordinates
+    for (const rings of polygons) {
+      if (pointInRing(point, rings[0]) && !rings.slice(1).some((hole) => pointInRing(point, hole))) {
+        return feature.properties.name
+      }
+    }
+  }
+  return null
+}
+
 const ringToPath = (ring) => {
   let d = ''
   for (let i = 0; i < ring.length; i++) {

@@ -47,8 +47,11 @@ import {
   CANVAS,
   VIEW_HEIGHT,
   VIEW_WIDTH,
+  holderAt,
   panView,
   pathsForFeature,
+  projectPoint,
+  unprojectPoint,
   presetById,
   viewFromBounds,
   zoomView
@@ -336,4 +339,36 @@ test('a preset id that does not exist falls back to the whole canvas', () => {
   // The preset comes from the query string, so it is reader-supplied input.
   assert.equal(presetById('nonsense').id, 'canvas')
   assert.equal(presetById(undefined).id, 'canvas')
+})
+
+test('unprojecting a point returns the coordinates it was projected from', () => {
+  // The unmapped-ground tooltip names what the source has either side of a gap,
+  // and to do that it turns a pointer position back into a longitude and
+  // latitude. A bug here would not throw — it would quietly report the wrong
+  // neighbouring polity, which is worse than reporting nothing at all.
+  const places = [
+    ['Berlin', 13.4, 52.52],
+    ['Jerusalem', 35.22, 31.78],
+    ['Reykjavík', -21.94, 64.15],
+    ['Cairo', 31.24, 30.04],
+    ['Lisbon', -9.14, 38.71]
+  ]
+  for (const [place, lon, lat] of places) {
+    const [x, y] = projectPoint(lon, lat)
+    const [backLon, backLat] = unprojectPoint(x, y)
+    assert.ok(Math.abs(backLon - lon) < 1e-6, `${place}: longitude round-trip drifted to ${backLon}`)
+    assert.ok(Math.abs(backLat - lat) < 1e-6, `${place}: latitude round-trip drifted to ${backLat}`)
+  }
+})
+
+test('holderAt agrees with the anchors the history test uses', () => {
+  // Same question the anchor test asks, through the function the tooltip calls,
+  // so the two cannot drift apart.
+  assert.equal(holderAt(snapshot(800), [6.08, 50.78]), 'Carolingian Empire')
+  assert.equal(holderAt(snapshot(1400), [32.85, 39.93]), 'Ottoman Empire')
+
+  // And the gap the owner found: nothing at 1200, something either side of it.
+  assert.equal(holderAt(snapshot(1200), [13.4, 52.52]), null, 'Berlin is mapped at 1200 after all')
+  assert.ok(holderAt(snapshot(1100), [13.4, 52.52]), 'Berlin should be mapped at 1100')
+  assert.ok(holderAt(snapshot(1279), [13.4, 52.52]), 'Berlin should be mapped at 1279')
 })
