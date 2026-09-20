@@ -3950,6 +3950,17 @@ a.tree-person:hover .tree-person-name {
    grade anyway — so the dashed stroke below is a uniform reminder, not a
    distinction between one border and another. */
 
+/* The same bug Insights hit (0n.2), for the same reason. `.page-section::before`
+   sets an AUTO bottom and sizes its dark ground with
+   `min-height: clamp(660px, 62vw, 760px)`, so any page taller than about 760px
+   runs off the band onto the light body — here that put the map's whole side
+   column, ivory text and all, on cream. Clearing the min-height is the half that
+   matters; `bottom: 0` alone cannot work while the floor is still forced. */
+.map-page::before {
+  bottom: 0;
+  min-height: 0;
+}
+
 .map-page .content-section {
   padding-bottom: 32px;
 }
@@ -4124,6 +4135,19 @@ a.tree-person:hover .tree-person-name {
   gap: 16px;
   position: sticky;
   top: 98px;
+}
+
+/* `.rail-card` is built for the light article body — ivory surface, dark text.
+   On this page it sits on the dark band, so it is restated here rather than
+   reused as-is. Changing `.rail-card` itself would reach every article page. */
+.map-side .rail-card {
+  border: 1px solid rgba(215, 217, 221, 0.18);
+  background: rgba(20, 20, 24, 0.55);
+  color: var(--paper);
+}
+
+.map-side .rail-card h2 {
+  color: var(--paper);
 }
 
 .map-panel h2 {

@@ -13,7 +13,7 @@ import {
   articleHref,
   evidenceSentence,
   nextSnapshot,
-  pathForFeature,
+  pathsForFeature,
   previousSnapshot,
   resolveSnapshot,
   snapshotUrl,
@@ -240,16 +240,20 @@ export default function MapPage() {
                 {snapshot?.features.map((feature, index) => {
                   const { name } = feature.properties
                   const isSelected = name === selectedName
-                  return (
+                  // One path per polygon, never one per feature — see pathsForFeature.
+                  // Only the first is a tab stop: a polity with nine islands should
+                  // be one stop on the way through the map, not nine.
+                  return pathsForFeature(feature).map((d, part) => (
                     <path
-                      key={`${name}-${index}`}
-                      d={pathForFeature(feature)}
+                      key={`${name}-${index}-${part}`}
+                      d={d}
                       className={`map-polity${isSelected ? ' is-selected' : ''}`}
                       style={{ fill: fillFor(name) }}
-                      tabIndex={0}
-                      role="button"
-                      aria-pressed={isSelected}
-                      aria-label={name}
+                      tabIndex={part === 0 ? 0 : -1}
+                      role={part === 0 ? 'button' : 'presentation'}
+                      aria-pressed={part === 0 ? isSelected : undefined}
+                      aria-label={part === 0 ? name : undefined}
+                      aria-hidden={part === 0 ? undefined : 'true'}
                       onClick={() => select(name)}
                       onKeyDown={(event) => {
                         if (event.key === 'Enter' || event.key === ' ') {
@@ -259,7 +263,7 @@ export default function MapPage() {
                         if (event.key === 'Escape') clearSelection()
                       }}
                     />
-                  )
+                  ))
                 })}
               </svg>
               <figcaption className="map-caption">

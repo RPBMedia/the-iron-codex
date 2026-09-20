@@ -54,14 +54,26 @@ const ringToPath = (ring) => {
 }
 
 /**
- * One `d` string per feature. Holes are appended as further subpaths and rely on
- * `fill-rule: evenodd`, which is what the CSS sets — an enclave has to read as a
- * hole rather than as more of the same territory.
+ * One `d` string **per polygon**, not one per feature.
+ *
+ * This looked like a needless split until the map was on screen: joining a
+ * MultiPolygon's parts into a single path and filling it `evenodd` means any two
+ * parts that overlap cancel each other and punch a hole straight through to the
+ * sea. The source has plenty of those — a polity's territories are drawn
+ * independently and are not guaranteed to be disjoint — so the 1400 map came out
+ * with black gaps across Italy, the Balkans, Anatolia and the Nile, and they moved
+ * as you scrubbed because each snapshot overlaps differently. They read as holes in
+ * the world, which on a map whose whole point is that blank ground means "no
+ * evidence" is the worst possible artefact.
+ *
+ * `evenodd` still applies *within* a polygon, which is what makes an enclave a real
+ * hole rather than more of the same territory. Keeping each polygon separate means
+ * the rule only ever sees rings that belong together.
  */
-export function pathForFeature(feature) {
+export function pathsForFeature(feature) {
   const polygons =
     feature.geometry.type === 'Polygon' ? [feature.geometry.coordinates] : feature.geometry.coordinates
-  return polygons.map((rings) => rings.map(ringToPath).join('')).join('')
+  return polygons.map((rings) => rings.map(ringToPath).join(''))
 }
 
 /**

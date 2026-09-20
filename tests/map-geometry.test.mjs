@@ -42,6 +42,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+import { pathsForFeature } from '../client/src/lib/historicalMap.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const SNAPSHOT_YEARS = [800, 1100, 1400]
@@ -197,5 +198,35 @@ test('the map changes between snapshots, so the slider has something to show', (
   const names = SNAPSHOT_YEARS.map((y) => new Set(snapshot(y).features.map((f) => f.properties.name)))
   for (let i = 1; i < names.length; i++) {
     assert.notDeepEqual([...names[i]].sort(), [...names[i - 1]].sort(), `snapshots ${SNAPSHOT_YEARS[i - 1]} and ${SNAPSHOT_YEARS[i]} list the same polities`)
+  }
+})
+
+test('a polity with overlapping parts is never drawn as one evenodd path', () => {
+  // The owner saw black gaps across Italy, the Balkans, Anatolia and the Nile that
+  // moved as the year was scrubbed. Cause: a MultiPolygon's parts were joined into
+  // one path and filled `evenodd`, so any two parts that overlap cancelled and
+  // punched a hole through to the sea. On a map whose entire premise is that blank
+  // ground means "no evidence here", holes in the world are the worst artefact
+  // available.
+  //
+  // The fix is one path per polygon, so `evenodd` only ever sees rings that belong
+  // to each other and a genuine enclave still reads as a hole. This asserts the
+  // splitter itself, since the overlap that triggered it is real data: if
+  // pathsForFeature ever goes back to returning one string per feature, this fails.
+  const multiparts = SNAPSHOT_YEARS.flatMap((year) =>
+    snapshot(year).features.filter((f) => f.geometry.type === 'MultiPolygon')
+  )
+  assert.ok(multiparts.length > 0, 'no MultiPolygon in any snapshot - this test is no longer testing anything')
+
+  for (const feature of multiparts) {
+    const paths = pathsForFeature(feature)
+    assert.equal(
+      paths.length,
+      feature.geometry.coordinates.length,
+      `${feature.properties.name}: ${paths.length} paths for ${feature.geometry.coordinates.length} polygons - parts were merged`
+    )
+    for (const d of paths) {
+      assert.ok(d.startsWith('M'), `${feature.properties.name}: a path does not begin with a move`)
+    }
   }
 })
