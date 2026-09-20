@@ -22,7 +22,7 @@
 | Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles, 132/132 sections imaged.** Next: Phase 4 regional expansion, one region per batch |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
-| **Interactive historical map** | **0v** | **Appendix F** | **HIGHEST PRIORITY — starting 2026-09-20 by owner instruction.** MVP: `/map`, whole canvas, 3 dated snapshots, year selector, polity → article |
+| **Interactive historical map** | **0v** | **Appendix F** | **MVP shipped 2026-09-20** — `/map`, whole canvas, 3 snapshots (800/1100/1400), year selector, polity → article. Awaiting owner test. Next: more snapshot years, pan/zoom |
 
 
 **Live state of what's next.** Forward-looking only — history lives in `git log`,
@@ -1494,7 +1494,45 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
 
 ## Open — small, ready to run
 
-### 0v — INTERACTIVE HISTORICAL MAP. **HIGHEST PRIORITY, started 2026-09-20 (owner instruction).**
+### 0v — INTERACTIVE HISTORICAL MAP. **MVP SHIPPED 2026-09-20 — owner test case below.**
+
+**Shipped:** `/map` with three snapshots (800, 1100, 1400), a 476–1453 year slider,
+polity selection by map or by list, and article links. All gates green: 76 tests,
+content quality, images, render gate, build, SEO. Commits `b7ed9bc`, `3cb237e`,
+`1e76b09`.
+
+**Owner test case — `/map?year=1147`:**
+1. The year reads **1147**; the strip beneath reads **Map evidence: 1100** and says
+   *47 years before the year you selected*. Those two numbers must never look like
+   one readout.
+2. Drag to **600**. The map empties and says blank ground means no snapshot covers
+   it, not that the land was empty or unruled. It must **not** jump forward to 800.
+3. Click the large territory over Anatolia at 1100 → **Byzantine Empire**, links to
+   `/locations/byzantine-empire`. Drag to 1400 → the same ground is **Ottoman Empire**.
+4. Click **Almoravid dynasty** at 1100. The panel must say it is the dynasty, not the
+   state it ruled — the Codex has no article for the Almoravid realm.
+5. Click **Fatimid Caliphate** at 1100 (the big one over Egypt). It must be selectable
+   and honest that no article exists, not silently unclickable.
+6. Tab into the map: a polygon takes a gold focus ring and Enter selects it.
+7. Phone portrait: the list under the map is the workable way to select; polygons are
+   the enhancement.
+
+**Known and deliberate, so they are not bugs to report:** Constantinople is not inside
+any polygon — the upstream coastline is too coarse to resolve a city on a strait, and
+this is true in the raw source before anything we did. Toledo shows Almoravid at 1100
+though Castile took it in 1085; Prague shows Polish though Bohemia was Imperial; Athens
+shows Byzantine at 1400 though the Latin Duchy held it. Those are the source's
+frontiers, recorded in `server/data/map/source/SOURCE.md`, and correcting them by hand
+is the one thing the brief forbids.
+
+**Next, when the owner wants it:** more snapshot years (500, 600, 700, 900, 1000, 1200,
+1279, 1300 are all available and audited-pending); pan and zoom; a reverse link from an
+article to its territory on the map; making the page indexable once coverage justifies
+the crawl budget.
+
+---
+
+**Original scope note, kept for the record:**
 
 Full spec is **Appendix F** at the end of this file — the owner's brief, folded in
 from `INTERACTIVE_HISTORICAL_MAP_ROADMAP.md`, which was deleted in the same commit
