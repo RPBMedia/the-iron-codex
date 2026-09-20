@@ -136,6 +136,8 @@ forbids. They are the concrete reason the map calls itself one reconstruction.
 | 1100 | Toledo is Almoravid | Castile took Toledo in 1085 |
 | 1100 | Prague is Polish | Bohemia was within the Empire |
 | 1100 | Damascus is Fatimid | Burid/Seljuk by then |
+| 1200 | Ankara is Byzantine | Central Anatolia was Seljuk Rum by then |
+| 1200 | Toledo is Almohad | Castile took Toledo in 1085 |
 | 1400 | Athens is Byzantine | The Latin Duchy of Athens held it |
 
 ### A name is not a polity across time
