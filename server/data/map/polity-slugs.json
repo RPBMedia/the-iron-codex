@@ -1,0 +1,106 @@
+{
+  "_comment": [
+    "Source NAME -> Iron Codex article, for the interactive map (QUEUE 0v).",
+    "",
+    "Hand-maintained. The map's build script resolves a polygon's NAME through this",
+    "table and NOWHERE else: there is no fuzzy matching, because a wrong link is",
+    "worse than a missing one (the rule tests/order-links.test.mjs already enforces",
+    "for dynasty and realm links).",
+    "",
+    "A name absent from this table still RENDERS on the map. It is drawn, named and",
+    "selectable, and its panel says no Codex article exists yet. Never drop a polygon",
+    "for lacking an article: blank ground would read as empty or unruled land, which",
+    "is the one thing the brief forbids.",
+    "",
+    "'note' is shown in the polity panel. It exists for the cases where the polygon",
+    "and the article are not the same kind of thing - a dynasty rather than its realm,",
+    "an institution rather than its territory - because CLAUDE.md does not let a",
+    "people, a dynasty and a state be silently equated.",
+    "",
+    "'dropFrom' removes a feature from named snapshot years only. It is for source",
+    "errors, and every entry has to say what the error is. Dropping is a last resort:",
+    "the ground then shows as unmapped, which is honest, where a stale label is not."
+  ],
+
+  "polities": {
+    "Byzantine Empire": { "slug": "byzantine-empire", "type": "location" },
+    "Abbasid Caliphate": { "slug": "abbasid-caliphate", "type": "location" },
+    "Carolingian Empire": { "slug": "carolingian-empire", "type": "location" },
+    "Northumbria": { "slug": "northumbria", "type": "location" },
+    "Wessex": { "slug": "kingdom-of-wessex", "type": "location" },
+    "Asturias": { "slug": "kingdom-of-asturias", "type": "location" },
+    "Avars": { "slug": "avar-khaganate", "type": "location" },
+
+    "Emirate of Córdoba": {
+      "slug": "al-andalus",
+      "type": "location",
+      "note": "The Codex has no article for the Emirate of Córdoba (756–929). This links to al-Andalus, the region. The Caliphate of Córdoba is a later state (929–1031) and is deliberately NOT linked here."
+    },
+    "Papal States": {
+      "slug": "papacy",
+      "type": "location",
+      "note": "The Papacy is an institution in the Codex, not a territory. The polygon is the temporal state it governed."
+    },
+
+    "England": { "slug": "kingdom-of-england", "type": "location" },
+    "Scotland": { "slug": "kingdom-of-scotland", "type": "location" },
+    "Kingdom of France": { "slug": "kingdom-of-france", "type": "location" },
+    "France": { "slug": "kingdom-of-france", "type": "location" },
+    "Holy Roman Empire": { "slug": "holy-roman-empire", "type": "location" },
+    "Denmark": { "slug": "kingdom-of-denmark", "type": "location" },
+    "Norway": { "slug": "kingdom-of-norway", "type": "location" },
+    "Sweden": { "slug": "kingdom-of-sweden", "type": "location" },
+    "Poland": { "slug": "kingdom-of-poland", "type": "location" },
+    "Hungary": { "slug": "kingdom-of-hungary", "type": "location" },
+    "Kingdom of Hungary": { "slug": "kingdom-of-hungary", "type": "location" },
+    "Kievan Rus": { "slug": "kievan-rus", "type": "location" },
+    "León": { "slug": "kingdom-of-leon", "type": "location" },
+    "Castilla": { "slug": "kingdom-of-castile", "type": "location" },
+    "Castile": { "slug": "kingdom-of-castile", "type": "location" },
+    "Aragón": { "slug": "kingdom-of-aragon", "type": "location" },
+    "Navarre": { "slug": "kingdom-of-navarre", "type": "location" },
+    "Portugal": { "slug": "kingdom-of-portugal", "type": "location" },
+    "Serbia": { "slug": "principality-of-serbia", "type": "location" },
+    "Sicily": { "slug": "kingdom-of-sicily", "type": "location" },
+    "Ottoman Empire": { "slug": "ottoman-empire", "type": "location" },
+    "Kalmar Union": { "slug": "kalmar-union", "type": "location" },
+
+    "Seljuk Empire": {
+      "slug": "seljuk-turks",
+      "type": "location",
+      "note": "The Codex article is the Great Seljuk Empire (1037–1194)."
+    },
+    "Almoravid dynasty": {
+      "slug": "almoravid-dynasty",
+      "type": "house",
+      "note": "This is the dynasty, not the state it ruled. The Codex has no article for the Almoravid realm itself."
+    },
+    "Teutonic Knights": {
+      "slug": "teutonic-order",
+      "type": "order",
+      "note": "The order's monastic state in Prussia. The Codex article is the order."
+    }
+  },
+
+  "knownGaps": {
+    "Fatimid Caliphate": "No Codex article yet. In 1100 this is the largest unlinked territory on the map.",
+    "Granada": "No article for the Emirate of Granada. The Codex's 'Granada' is the CITY, and linking a realm polygon to a city article would be wrong. The Nasrid dynasty has an article; the emirate does not.",
+    "Novgorod": "No article for the Novgorod Republic. The Codex's 'Novgorod' is the CITY.",
+    "Mamluke Sultanate": "No article. The Codex covers the preceding Ayyubid Sultanate only.",
+    "Venice": "No article for the Republic of Venice.",
+    "Hafsid Caliphate": "No article.",
+    "Trebizond": "No article for the Empire of Trebizond.",
+    "Poland-Lithuania": "Deliberately unlinked. In 1400 this is the post-Krewo union; the Codex has separate Kingdom of Poland and Grand Duchy of Lithuania articles and picking one would misrepresent the other.",
+    "Icelandic Commonwealth": "No article.",
+    "Bulgar Khanate": "No article. The Codex's First Bulgarian Empire is a different, later state.",
+    "Croatia": "No article.",
+    "Cyprus": "No article for medieval Cyprus."
+  },
+
+  "dropFrom": {
+    "Seljuk Caliphate": {
+      "years": [1400],
+      "reason": "Anachronism in the source. The Great Seljuk Empire ended in 1194 and the Sultanate of Rum in 1308; by 1400 this ground was Ottoman territory and the Anatolian beyliks. Publishing the label would put a state on the map 200 years after it fell."
+    }
+  }
+}
