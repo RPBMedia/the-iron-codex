@@ -5131,3 +5131,72 @@ a.tree-person:hover .tree-person-name {
   color: #b1192a;
   font-weight: 780;
 }
+
+/* --- The reconstruction selector (QUEUE 0v) -------------------------------
+
+   Two sources, offered as a choice rather than merged. The brief permits an
+   "explicit alternative reconstruction selector" and forbids the alternative —
+   splicing two sources at one year is a composite neither supports.
+
+   Each option states what it is FOR rather than just naming itself: one covers
+   the whole canvas at eleven dates, the other covers Europe every decade. A
+   reader choosing between two datasets needs to know the trade, not the
+   provenance. */
+
+.map-sources {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.map-source {
+  display: block;
+  padding: 10px 14px;
+  border: 1px solid rgba(215, 217, 221, 0.22);
+  border-radius: 6px;
+  background: rgba(20, 20, 24, 0.55);
+  color: var(--silver);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.map-source:hover {
+  border-color: rgba(242, 193, 78, 0.45);
+}
+
+.map-source:focus-visible {
+  outline: 3px solid rgba(242, 193, 78, 0.35);
+  outline-offset: 2px;
+}
+
+.map-source.is-active {
+  border-color: var(--gold);
+  background: rgba(242, 193, 78, 0.12);
+}
+
+.map-source-label {
+  display: block;
+  color: var(--paper);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.map-source.is-active .map-source-label {
+  color: var(--gold-soft);
+}
+
+.map-source-hint {
+  display: block;
+  margin-top: 2px;
+  color: var(--silver-dim);
+  font-size: 0.76rem;
+  font-weight: 620;
+}
+
+@media (max-width: 640px) {
+  .map-sources {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

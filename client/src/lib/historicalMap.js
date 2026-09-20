@@ -46,31 +46,70 @@ import { mercY } from './locatorMaps.js'
 export const MAP_IS_ADMIN_ONLY = true
 
 /**
- * The years we hold evidence for. Not a choice of "interesting dates": these are the
- * files the source actually publishes inside 476–1453 that we audited and kept.
- * See `server/data/map/source/SOURCE.md`.
+ * The two reconstructions the map can draw, and why there are two.
  *
- * 500, 600 and 700 were added after the owner pointed out the map was blank before
- * 800. They link very little — the Codex has few articles for post-Roman polities —
- * but a map of 500 with four linkable states is still a map of 500, and the
- * alternative was five centuries of nothing.
+ * `historical-basemaps` publishes eleven dated files inside 476–1453 and no more,
+ * so on its own the map could not change more often than about once a century —
+ * and it has holes, most visibly northern Germany and the Baltic at 1200, blank
+ * there while mapped either side of it.
+ *
+ * OpenHistoricalMap has no keyframes at all: every feature carries its own
+ * start and end date, so any year can be asked for and every snapshot is an
+ * EXACT reconstruction of its year rather than the nearest one before it.
+ *
+ * They are offered as a choice rather than merged, and that is the brief's own
+ * rule. Each has holes the other does not: historical-basemaps is blank over
+ * northern Germany at 1200, and OHM ships the Kingdom of France at 1200 as a
+ * relation with no geometry at all — a name with no borders. Splicing them would
+ * mean deciding, per hole, which source to believe, and publishing a map neither
+ * one supports. Each is shown whole, named, and with its own licence.
+ *
+ * (An earlier note here claimed OHM's Holy Roman Empire at 1200 reaches over
+ * Brandenburg where the other's stops short. That was inferred from a tag listing
+ * and is false — both exclude Berlin. `tests/map-ohm.test.mjs` now asserts it, so
+ * the correction cannot quietly rot back.)
  */
-export const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
+export const MAP_SOURCES = {
+  hb: {
+    id: 'hb',
+    label: 'Whole canvas',
+    hint: 'Europe, North Africa and the Levant · 11 dated reconstructions',
+    attribution: 'historical-basemaps by André Ourednik',
+    attributionUrl: 'https://github.com/aourednik/historical-basemaps',
+    license: 'GPL-3.0',
+    exact: false,
+    path: '/map-data',
+    years: [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400]
+  },
+  ohm: {
+    id: 'ohm',
+    label: 'Europe, by decade',
+    hint: 'Denser in Europe, thin beyond it · every 10 years, dated exactly',
+    attribution: 'OpenHistoricalMap contributors',
+    attributionUrl: 'https://www.openhistoricalmap.org/',
+    license: 'CC0',
+    exact: true,
+    path: '/map-data/ohm',
+    years: (() => {
+      const years = [476]
+      for (let y = 480; y <= 1450; y += 10) years.push(y)
+      years.push(1453)
+      return years
+    })()
+  }
+}
+
+export const DEFAULT_SOURCE = 'hb'
+
+export const sourceById = (id) => MAP_SOURCES[id] ?? MAP_SOURCES[DEFAULT_SOURCE]
+
+/** Kept for the tests and callers that predate the second source. */
+export const SNAPSHOT_YEARS = MAP_SOURCES.hb.years
 
 /** Physical coastline under the politics, so water reads as water. Public domain. */
 export const LAND_URL = '/map-data/land.json'
 
-/**
- * The coverage inventory: which years are sourced, how many polities each holds,
- * and which of them the Codex has no article for. Stats only, no geometry.
- *
- * The brief's definition of done asks for "a published inventory of which periods
- * and regions remain insufficiently mapped", and it is the one deliverable a
- * finished-looking interface cannot fake. A slider spanning 476-1453 is complete
- * as an INTERFACE while the evidence behind it is eleven dated files; this is what
- * stops the first being read as the second.
- */
-export const COVERAGE_URL = '/map-data/coverage.json'
+export const coverageUrl = (source) => `${sourceById(source).path}/coverage.json`
 
 /** The Codex's period. The slider spans all of it; the evidence does not. */
 export const FIRST_YEAR = 476
@@ -201,23 +240,26 @@ export function pathsForFeature(feature) {
  * empty. `reason: 'before-evidence'` is not an error state: blank ground here means
  * no snapshot covers it, never that the land was empty or unruled.
  */
-export function resolveSnapshot(year) {
-  const candidates = SNAPSHOT_YEARS.filter((y) => y <= year)
+export function resolveSnapshot(year, source = DEFAULT_SOURCE) {
+  const years = sourceById(source).years
+  const candidates = years.filter((y) => y <= year)
   if (!candidates.length) {
-    return { evidenceYear: null, gap: null, reason: 'before-evidence', nextYear: SNAPSHOT_YEARS[0] }
+    return { evidenceYear: null, gap: null, reason: 'before-evidence', nextYear: years[0] }
   }
   const evidenceYear = candidates[candidates.length - 1]
   return {
     evidenceYear,
     gap: year - evidenceYear,
     reason: year === evidenceYear ? 'exact' : 'nearest-before',
-    nextYear: SNAPSHOT_YEARS.find((y) => y > year) ?? null
+    nextYear: years.find((y) => y > year) ?? null
   }
 }
 
 /** The previous/next source date relative to a year, for the jump buttons. */
-export const previousSnapshot = (year) => [...SNAPSHOT_YEARS].reverse().find((y) => y < year) ?? null
-export const nextSnapshot = (year) => SNAPSHOT_YEARS.find((y) => y > year) ?? null
+export const previousSnapshot = (year, source = DEFAULT_SOURCE) =>
+  [...sourceById(source).years].reverse().find((y) => y < year) ?? null
+export const nextSnapshot = (year, source = DEFAULT_SOURCE) =>
+  sourceById(source).years.find((y) => y > year) ?? null
 
 export const clampYear = (value) => Math.min(LAST_YEAR, Math.max(FIRST_YEAR, value))
 
@@ -237,7 +279,8 @@ export function yearFromParam(value) {
   return Number.isFinite(parsed) ? clampYear(parsed) : 1100
 }
 
-export const snapshotUrl = (evidenceYear) => `/map-data/snapshot-${evidenceYear}.json`
+export const snapshotUrl = (evidenceYear, source = DEFAULT_SOURCE) =>
+  `${sourceById(source).path}/snapshot-${evidenceYear}.json`
 
 /**
  * The sentence under the year. This is the feature's whole honesty budget in one

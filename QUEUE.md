@@ -1795,13 +1795,15 @@ Germany and the Baltic at 1200:
   to the pinned copy (`2d6913ecedb38e26`); the commits since are name corrections.
 - **Drawing it, or carrying the 1100 polygon forward, is what the brief forbids.**
   "Prussians at 1100, therefore Prussians at 1200" is an invented claim.
-- **OpenHistoricalMap covers it — and contradicts us.** Its 1200 features there
-  include the Holy Roman Empire (1167–1201) reaching over Brandenburg, plus the
-  archbishopric of Riga and a dozen bishoprics and counties. But **our source's own
-  Holy Roman Empire at 1200 stops short of Berlin.** Dropping OHM's polygons into
-  our gap would give the same polity two different extents in the same year — a
-  composite neither source supports, which is the one merge the brief names and
-  forbids.
+- **OpenHistoricalMap does NOT cover it either — corrected 2026-09-20.** The
+  earlier note here claimed OHM's Holy Roman Empire at 1200 reaches over
+  Brandenburg. That was inferred from a tag listing and never checked against
+  geometry, and it is **false**: OHM's HRE assembles correctly at 632 points and
+  also excludes Berlin. The relations that do cover northern Germany there —
+  Magdeburg, Bremen, Lübeck, Ratzeburg — are all `admin_level` 4, which the OHM
+  ingestion deliberately excludes (see below). Including level 4 would fill much
+  of this hole, at the cost of roughly 400 more relations, a far busier map, and
+  400 more territories owing an article under 0w.
 
 **So the sanctioned fix is the brief's own: an explicit alternative-reconstruction
 selector.** Let the reader choose *historical-basemaps* (whole canvas, eleven dates)
@@ -1819,6 +1821,40 @@ period forms — *Sacrum Imperium Romanum*, *Regnum Hierosolymitanum*, *Noregsve
 side of it — "Not mapped in 1200 · Prussians here in 1100 · Teutonic Knights here in
 1279". It reports what other snapshots say and never implies either is true of the
 year on screen. It does not fill the hole; it stops the hole reading as a fault.
+
+**SHIPPED 2026-09-20 — the alternative-reconstruction selector.** The reader now
+chooses between two reconstructions, shown whole and never spliced:
+
+| | historical-basemaps | OpenHistoricalMap |
+|---|---|---|
+| Coverage | whole canvas | Europe; thin beyond it |
+| Steps | 11 dated files | **100, every 10 years** |
+| Year drawn | nearest at or before | **exactly the year asked for** |
+| Licence | GPL-3.0 | CC0 |
+
+OHM dates every feature individually, so the years are ours to choose rather than
+a publisher's — which is what finally answers the owner's "why every 100 years".
+96 of 98 decade steps have a distinct membership set, so the resolution is real
+rather than nominal, and a test asserts consecutive decades actually differ.
+
+**Pipeline.** `fetch-ohm-source.mjs` pulls each relation's geometry ONCE (they
+persist across decades, so per-year fetching would ask a volunteer-run API for the
+same bytes dozens of times) — 505 relations, 220 MB, resumable, gitignored.
+`build-ohm-snapshots.mjs` stitches relation members into closed rings, slices by
+year and writes 100 snapshots, 13 MB. `manifest.json` records every relation id,
+name, lifetime and wikidata id, so the input is identified without vendoring it.
+
+**admin_level 2 and 3 only.** Level 4 is counties, bishoprics and free cities: 400
+more relations, a map too busy to read at this scale, and 400 more articles owed
+under 0w. It is also what would fill the Brandenburg hole, so that trade is worth
+revisiting deliberately.
+
+**What it does NOT buy, stated plainly.** It does not fix the 1200 hole the owner
+found — see the correction above. And it brings holes of its own: **OHM ships the
+Kingdom of France at 1200 as a relation with no geometry at all**, a name with no
+borders, so Paris is blank there. Two other relations were in the same state.
+Both facts are asserted by tests rather than left as prose, so a later improvement
+upstream will fail the suite and force the notes to be updated.
 
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that

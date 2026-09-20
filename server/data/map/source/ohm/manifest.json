@@ -1,0 +1,4059 @@
+{
+ "fetched": "2026-09-20",
+ "endpoint": "https://overpass-api.openhistoricalmap.org/api/interpreter",
+ "source": "OpenHistoricalMap",
+ "sourceUrl": "https://www.openhistoricalmap.org/",
+ "license": "CC0 (some individual features CC-BY or CC-BY-SA)",
+ "canvas": {
+  "west": -25,
+  "east": 65,
+  "south": 10,
+  "north": 72
+ },
+ "adminLevels": [
+  "2",
+  "3"
+ ],
+ "relations": [
+  {
+   "id": 2692730,
+   "name": "Respublica Sancti Marini",
+   "adminLevel": "2",
+   "start": "1291",
+   "end": "1320",
+   "wikidata": "Q238"
+  },
+  {
+   "id": 2692734,
+   "name": "Respublica Sancti Marini",
+   "adminLevel": "2",
+   "start": "1320",
+   "end": "1463-06-27",
+   "wikidata": "Q238"
+  },
+  {
+   "id": 2692924,
+   "name": "Reino de Portugal",
+   "adminLevel": "2",
+   "start": "1297",
+   "end": "1415",
+   "wikidata": "Q45670"
+  },
+  {
+   "id": 2693293,
+   "name": "Isle of Man",
+   "adminLevel": "2",
+   "start": "1333-08-09",
+   "end": "1987-05-15",
+   "wikidata": "Q9676"
+  },
+  {
+   "id": 2693549,
+   "name": "Новгородская республика",
+   "adminLevel": "2",
+   "start": "1136",
+   "end": "1478",
+   "wikidata": "Q151536"
+  },
+  {
+   "id": 2694164,
+   "name": "Wallachia",
+   "adminLevel": "3",
+   "start": "1417",
+   "end": "1420",
+   "wikidata": "Q389004"
+  },
+  {
+   "id": 2695277,
+   "name": "Země Koruny české",
+   "adminLevel": "3",
+   "start": "1419",
+   "end": "1434",
+   "wikidata": "Q686971"
+  },
+  {
+   "id": 2695517,
+   "name": "Brandenburg",
+   "adminLevel": "3",
+   "start": "1442-04-12",
+   "end": "1455",
+   "wikidata": "Q148499"
+  },
+  {
+   "id": 2696306,
+   "name": "Ecclesia Osiliensis",
+   "adminLevel": "2",
+   "start": "1228-10-01",
+   "end": "1560",
+   "wikidata": "Q669032"
+  },
+  {
+   "id": 2696307,
+   "name": "Episcopatus Curoniensis",
+   "adminLevel": "2",
+   "start": "1234",
+   "end": "1583-03-28",
+   "wikidata": "Q870877"
+  },
+  {
+   "id": 2696927,
+   "name": "Principality of Benevento (Papal)",
+   "adminLevel": "3",
+   "start": "1053",
+   "end": "1806",
+   "wikidata": "Q13437"
+  },
+  {
+   "id": 2697816,
+   "name": "إمارة قرطبة",
+   "adminLevel": "2",
+   "start": "0756-05-15",
+   "end": "0902",
+   "wikidata": "Q1337854"
+  },
+  {
+   "id": 2739789,
+   "name": "مملكة غرناطة",
+   "adminLevel": "2",
+   "start": "1300",
+   "end": "1350",
+   "wikidata": "Q238445"
+  },
+  {
+   "id": 2739790,
+   "name": "مملكة غرناطة",
+   "adminLevel": "2",
+   "start": "1350",
+   "end": "1450",
+   "wikidata": "Q238445"
+  },
+  {
+   "id": 2739791,
+   "name": "مملكة غرناطة",
+   "adminLevel": "2",
+   "start": "1450",
+   "end": "1462",
+   "wikidata": "Q238445"
+  },
+  {
+   "id": 2739874,
+   "name": "Andorra",
+   "adminLevel": "2",
+   "start": "1278",
+   "end": null,
+   "wikidata": "Q228"
+  },
+  {
+   "id": 2739931,
+   "name": "Reino d'Aragón",
+   "adminLevel": "2",
+   "start": "1080",
+   "end": "1090",
+   "wikidata": "Q199442"
+  },
+  {
+   "id": 2739933,
+   "name": "Reino d'Aragón",
+   "adminLevel": "2",
+   "start": "1045",
+   "end": "1080",
+   "wikidata": "Q199442"
+  },
+  {
+   "id": 2739939,
+   "name": "Reino d'Aragón",
+   "adminLevel": "2",
+   "start": "1090",
+   "end": "1100",
+   "wikidata": "Q199442"
+  },
+  {
+   "id": 2739940,
+   "name": "Reino d'Aragón",
+   "adminLevel": "2",
+   "start": "1100",
+   "end": "1110",
+   "wikidata": "Q199442"
+  },
+  {
+   "id": 2739941,
+   "name": "Reino d'Aragón",
+   "adminLevel": "2",
+   "start": "1110",
+   "end": "1164-07-18",
+   "wikidata": "Q199442"
+  },
+  {
+   "id": 2739942,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1164-07-18",
+   "end": "1200",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739966,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1200",
+   "end": "1204",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739967,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1258",
+   "end": "1276",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739972,
+   "name": "Aragonum et Catalonie 1296-1300",
+   "adminLevel": "2",
+   "start": "1296",
+   "end": "1300",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739973,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1281",
+   "end": "1295",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739974,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1245",
+   "end": "1258",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739975,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1238",
+   "end": "1244",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739976,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1236",
+   "end": "1237",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739977,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1232",
+   "end": "1235",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2739978,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1229-12-31",
+   "end": "1232",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2740036,
+   "name": "Księstwo Polskie",
+   "adminLevel": "2",
+   "start": "0960",
+   "end": "0973",
+   "wikidata": "Q104863335"
+  },
+  {
+   "id": 2740059,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1194",
+   "end": "1234",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740060,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1150",
+   "end": "1193",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740061,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1136",
+   "end": "1149",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740062,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1109",
+   "end": "1135",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740063,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1075",
+   "end": "1108",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740064,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1045",
+   "end": "1074",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740065,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "1015",
+   "end": "1044",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740066,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "0970",
+   "end": "1014",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740067,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "0905",
+   "end": "0969",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740068,
+   "name": "Iruñeko Erresuma",
+   "adminLevel": "2",
+   "start": "0824",
+   "end": "0904",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2740129,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0860",
+   "end": "0909",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2740130,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0814",
+   "end": "0859",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2740131,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0780",
+   "end": "0813",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2740132,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0750",
+   "end": "0779",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2740133,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0722",
+   "end": "0749",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2740146,
+   "name": "Reino de Castilla",
+   "adminLevel": "2",
+   "start": "1065",
+   "end": "1074",
+   "wikidata": "Q179293"
+  },
+  {
+   "id": 2740148,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1045",
+   "end": "1064",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740149,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1015",
+   "end": "1044",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740152,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "0910",
+   "end": "0977",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740159,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1075",
+   "end": "1089",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740160,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1072",
+   "end": "1074",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740161,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1064",
+   "end": "1071",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740165,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "0978",
+   "end": "1014",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740168,
+   "name": "Reino de Castilla",
+   "adminLevel": "2",
+   "start": "1194",
+   "end": "1212",
+   "wikidata": "Q179293"
+  },
+  {
+   "id": 2740169,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1150",
+   "end": "1156",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740170,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1139",
+   "end": "1149",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740171,
+   "name": "Reino de Portugal",
+   "adminLevel": "2",
+   "start": "1150",
+   "end": "1199",
+   "wikidata": "Q45670"
+  },
+  {
+   "id": 2740172,
+   "name": "Reino de Portugal",
+   "adminLevel": "2",
+   "start": "1139-07-25",
+   "end": "1149",
+   "wikidata": "Q45670"
+  },
+  {
+   "id": 2740173,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1136",
+   "end": "1138",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740174,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1109",
+   "end": "1135",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740175,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1090",
+   "end": "1108",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740176,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1266-01-31",
+   "end": "1300",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2740177,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1261",
+   "end": "1266-01-31",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2740178,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1245",
+   "end": "1260",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2740179,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1237",
+   "end": "1244",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2740180,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1230-09-23",
+   "end": "1236",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2740181,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1221",
+   "end": "1229",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740182,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1157",
+   "end": "1220",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2740183,
+   "name": "Reino de Castilla",
+   "adminLevel": "2",
+   "start": "1213",
+   "end": "1229",
+   "wikidata": "Q179293"
+  },
+  {
+   "id": 2740184,
+   "name": "Reino de Castilla",
+   "adminLevel": "2",
+   "start": "1157",
+   "end": "1193",
+   "wikidata": "Q179293"
+  },
+  {
+   "id": 2740185,
+   "name": "Reino de León",
+   "adminLevel": "2",
+   "start": "1045",
+   "end": "1063",
+   "wikidata": "Q175276"
+  },
+  {
+   "id": 2742871,
+   "name": "Tartu piiskopkond",
+   "adminLevel": "2",
+   "start": "1224",
+   "end": "1558",
+   "wikidata": "Q389360"
+  },
+  {
+   "id": 2744157,
+   "name": "Księstwo Polskie",
+   "adminLevel": "2",
+   "start": "0973-01-01",
+   "end": "0981-01-01",
+   "wikidata": "Q104863335"
+  },
+  {
+   "id": 2748596,
+   "name": "Deutschordensstaat",
+   "adminLevel": "2",
+   "start": "1435-12-04",
+   "end": "1455",
+   "wikidata": "Q156020"
+  },
+  {
+   "id": 2748597,
+   "name": "Brandenburg",
+   "adminLevel": "3",
+   "start": "1400",
+   "end": "1402",
+   "wikidata": "Q148499"
+  },
+  {
+   "id": 2748602,
+   "name": "Eestimaa hertsogkond",
+   "adminLevel": "3",
+   "start": "1219",
+   "end": "1346",
+   "wikidata": "Q9876461"
+  },
+  {
+   "id": 2749429,
+   "name": "Księstwo Polskie",
+   "adminLevel": "2",
+   "start": "0981",
+   "end": "0990",
+   "wikidata": "Q104863335"
+  },
+  {
+   "id": 2750042,
+   "name": "Regnum Neapolitanum",
+   "adminLevel": "2",
+   "start": "1302-08-31",
+   "end": "1442-06-02",
+   "wikidata": "Q173065"
+  },
+  {
+   "id": 2750043,
+   "name": "Regnum Neapolitanum",
+   "adminLevel": "3",
+   "start": "1442-06-02",
+   "end": "1458-06-27",
+   "wikidata": "Q173065"
+  },
+  {
+   "id": 2750053,
+   "name": "Magyar Nagyfejedelemség",
+   "adminLevel": "2",
+   "start": "0895",
+   "end": "1000-12-25",
+   "wikidata": "Q2899771"
+  },
+  {
+   "id": 2750107,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0843-08-10",
+   "end": "0867-08",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2750108,
+   "name": "Reaume de France",
+   "adminLevel": "2",
+   "start": "0987-06-01",
+   "end": "1050",
+   "wikidata": "Q237131"
+  },
+  {
+   "id": 2750109,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1302-08-31",
+   "end": "1319",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2750110,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1412",
+   "end": "1516",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2750623,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1043",
+   "end": "1167",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2750706,
+   "name": "Iudicatus Gallurae",
+   "adminLevel": "2",
+   "start": "0900",
+   "end": "1207",
+   "wikidata": "Q2723760"
+  },
+  {
+   "id": 2750707,
+   "name": "Iudicatus Karalitanus",
+   "adminLevel": "2",
+   "start": "1000",
+   "end": "1215",
+   "wikidata": "Q2297073"
+  },
+  {
+   "id": 2750708,
+   "name": "Judicate of Logudoro",
+   "adminLevel": "2",
+   "start": "0900",
+   "end": "1259",
+   "wikidata": "Q1761381"
+  },
+  {
+   "id": 2750709,
+   "name": "Judicate of Arborea",
+   "adminLevel": "2",
+   "start": "1000",
+   "end": "1420",
+   "wikidata": "Q1241847"
+  },
+  {
+   "id": 2750737,
+   "name": "Republica de' Cošpäja",
+   "adminLevel": "2",
+   "start": "1440",
+   "end": "1826-05-25",
+   "wikidata": null
+  },
+  {
+   "id": 2750742,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1156",
+   "end": "1185",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2750772,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1323",
+   "end": "1344",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2750773,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1300",
+   "end": "1312",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2750991,
+   "name": "Dominium Venetiarum",
+   "adminLevel": "2",
+   "start": "0975",
+   "end": "1203",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2751179,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1442",
+   "end": "1460",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2751411,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1421",
+   "end": "1431",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2751412,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1412",
+   "end": "1421",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2751413,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1390",
+   "end": "1405",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2751424,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1300",
+   "end": "1306",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2751479,
+   "name": "Republica de Venezia",
+   "adminLevel": "2",
+   "start": "1431",
+   "end": "1441",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2753847,
+   "name": "Mongol Empire",
+   "adminLevel": "2",
+   "start": "1231",
+   "end": "1239",
+   "wikidata": "Q12557"
+  },
+  {
+   "id": 2790240,
+   "name": "Qara Khitai",
+   "adminLevel": "2",
+   "start": "1124",
+   "end": "1204",
+   "wikidata": "Q862304"
+  },
+  {
+   "id": 2790246,
+   "name": "Qara Khitai",
+   "adminLevel": "2",
+   "start": "1208",
+   "end": "1209",
+   "wikidata": "Q862304"
+  },
+  {
+   "id": 2790250,
+   "name": "Qara Khitai",
+   "adminLevel": "2",
+   "start": "1205",
+   "end": "1207",
+   "wikidata": "Q862304"
+  },
+  {
+   "id": 2790255,
+   "name": "Qara Khitai",
+   "adminLevel": "2",
+   "start": "1219",
+   "end": "1219",
+   "wikidata": "Q862304"
+  },
+  {
+   "id": 2790256,
+   "name": "خوارزمشاهیان",
+   "adminLevel": "2",
+   "start": "1190",
+   "end": "1220",
+   "wikidata": "Q63134381"
+  },
+  {
+   "id": 2795688,
+   "name": "Republic of Ancona",
+   "adminLevel": "3",
+   "start": "1100",
+   "end": "1532",
+   "wikidata": "Q1627613"
+  },
+  {
+   "id": 2798863,
+   "name": "Powys Wenwynwyn",
+   "adminLevel": "2",
+   "start": "1160",
+   "end": "1283",
+   "wikidata": "Q2670639"
+  },
+  {
+   "id": 2800203,
+   "name": "Teyrnas Gwynedd",
+   "adminLevel": "2",
+   "start": "1165",
+   "end": "1282-12-11",
+   "wikidata": "Q816814"
+  },
+  {
+   "id": 2800548,
+   "name": "Teyrnas Ceredigion",
+   "adminLevel": "2",
+   "start": "0400",
+   "end": "0872",
+   "wikidata": "Q2578706"
+  },
+  {
+   "id": 2800621,
+   "name": "Ostrogothic Kingdom",
+   "adminLevel": "2",
+   "start": "0493",
+   "end": "0508",
+   "wikidata": "Q583038"
+  },
+  {
+   "id": 2800622,
+   "name": "Regnum Burgundionum",
+   "adminLevel": "2",
+   "start": "0476",
+   "end": "0507",
+   "wikidata": "Q13590051"
+  },
+  {
+   "id": 2800700,
+   "name": "Republica de Venezia",
+   "adminLevel": "2",
+   "start": "1449",
+   "end": "1482",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2800701,
+   "name": "Republica de Venezia",
+   "adminLevel": "2",
+   "start": "1441",
+   "end": "1449",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2800702,
+   "name": "Lordship of Rimini",
+   "adminLevel": "3",
+   "start": "1295",
+   "end": "1500",
+   "wikidata": "Q24933196"
+  },
+  {
+   "id": 2800988,
+   "name": "Kingdom of Cyprus",
+   "adminLevel": "2",
+   "start": "1192",
+   "end": "1489",
+   "wikidata": "Q213638"
+  },
+  {
+   "id": 2802023,
+   "name": "Kingdom of England",
+   "adminLevel": "2",
+   "start": "1283",
+   "end": "1513-08-16",
+   "wikidata": "Q179876"
+  },
+  {
+   "id": 2802024,
+   "name": "Kingdom of England",
+   "adminLevel": "2",
+   "start": "1066-10-14",
+   "end": "1283",
+   "wikidata": "Q179876"
+  },
+  {
+   "id": 2803158,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "1201",
+   "end": "1274",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2803450,
+   "name": "Asturum Regnum",
+   "adminLevel": "2",
+   "start": "0910",
+   "end": "0923",
+   "wikidata": "Q231392"
+  },
+  {
+   "id": 2803480,
+   "name": "خلافة قرطبة",
+   "adminLevel": "2",
+   "start": "0929",
+   "end": "1031",
+   "wikidata": "Q171740"
+  },
+  {
+   "id": 2803536,
+   "name": "Brycheiniog",
+   "adminLevel": "2",
+   "start": "0450",
+   "end": "1045",
+   "wikidata": "Q954585"
+  },
+  {
+   "id": 2803537,
+   "name": "Deheubarth",
+   "adminLevel": "2",
+   "start": "0920",
+   "end": "1197",
+   "wikidata": "Q837136"
+  },
+  {
+   "id": 2803894,
+   "name": "Nafarroako Erresuma",
+   "adminLevel": "2",
+   "start": "1194",
+   "end": "1512-07-10",
+   "wikidata": "Q3446210"
+  },
+  {
+   "id": 2803895,
+   "name": "مملكة غرناطة",
+   "adminLevel": "2",
+   "start": "1232",
+   "end": "1299",
+   "wikidata": "Q238445"
+  },
+  {
+   "id": 2803896,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1301",
+   "end": "1402",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2803912,
+   "name": "الأندلس",
+   "adminLevel": "2",
+   "start": "0711",
+   "end": "0756",
+   "wikidata": "Q123559"
+  },
+  {
+   "id": 2804440,
+   "name": "Rhwng Gwy a Hafren",
+   "adminLevel": "2",
+   "start": "0900",
+   "end": "1100",
+   "wikidata": "Q2594680"
+  },
+  {
+   "id": 2805059,
+   "name": "Teyrnas Dyfed",
+   "adminLevel": "2",
+   "start": "0410",
+   "end": "0920",
+   "wikidata": "Q956451"
+  },
+  {
+   "id": 2805290,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0570",
+   "end": "0575",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2805385,
+   "name": "Islas de Señorío",
+   "adminLevel": "2",
+   "start": "1404",
+   "end": "1448",
+   "wikidata": null
+  },
+  {
+   "id": 2805398,
+   "name": "Dugelezh Breizh",
+   "adminLevel": "3",
+   "start": "0939-08-01",
+   "end": "1547-08-12",
+   "wikidata": "Q71747"
+  },
+  {
+   "id": 2805399,
+   "name": "Duchie de Normaundie",
+   "adminLevel": "3",
+   "start": "0911",
+   "end": "0933",
+   "wikidata": "Q842091"
+  },
+  {
+   "id": 2805402,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "2",
+   "start": "0933",
+   "end": "1032-09-06",
+   "wikidata": "Q530670"
+  },
+  {
+   "id": 2805403,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1032-09-06",
+   "end": "1167",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2805406,
+   "name": "Ystrad Tywi",
+   "adminLevel": "2",
+   "start": "0680",
+   "end": "0730",
+   "wikidata": "Q2316301"
+  },
+  {
+   "id": 2805407,
+   "name": "Seisyllwg",
+   "adminLevel": "2",
+   "start": "0730",
+   "end": "0920",
+   "wikidata": "Q2456191"
+  },
+  {
+   "id": 2805408,
+   "name": "Teyrnas Glywysing/Morgannwg",
+   "adminLevel": "2",
+   "start": "0974",
+   "end": "1055",
+   "wikidata": "Q2253783"
+  },
+  {
+   "id": 2805415,
+   "name": "Rouantelezh Breizh",
+   "adminLevel": "2",
+   "start": "0851-09",
+   "end": "0867-08",
+   "wikidata": "Q771193"
+  },
+  {
+   "id": 2805418,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0942",
+   "end": "0987-06-01",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2805421,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "1020",
+   "end": "1201",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2805484,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "0983",
+   "end": "1002",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2805485,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1003",
+   "end": "1017",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2805938,
+   "name": "Teyrnas Powys",
+   "adminLevel": "2",
+   "start": "0430",
+   "end": "1160",
+   "wikidata": "Q769782"
+  },
+  {
+   "id": 2806329,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1130-12-25",
+   "end": "1156",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2806633,
+   "name": "Counté de Cesile",
+   "adminLevel": "2",
+   "start": "1071",
+   "end": "1130",
+   "wikidata": "Q1917014"
+  },
+  {
+   "id": 2806634,
+   "name": "إِمَارَة صِقِلِّيَة",
+   "adminLevel": "2",
+   "start": "0948",
+   "end": "1071",
+   "wikidata": "Q1250763"
+  },
+  {
+   "id": 2806639,
+   "name": "Francia media",
+   "adminLevel": "2",
+   "start": "0843-08-10",
+   "end": "0855-09-19",
+   "wikidata": "Q468902"
+  },
+  {
+   "id": 2806708,
+   "name": "Royaume de Bourgogne transjurane",
+   "adminLevel": "2",
+   "start": "0888",
+   "end": "0922",
+   "wikidata": "Q33235"
+  },
+  {
+   "id": 2806709,
+   "name": "Royaume de Provence",
+   "adminLevel": "2",
+   "start": "0879-10-15",
+   "end": "0933",
+   "wikidata": "Q33242"
+  },
+  {
+   "id": 2806711,
+   "name": "Regnum Lotharii",
+   "adminLevel": "2",
+   "start": "0855-09-19",
+   "end": "0870-08-08",
+   "wikidata": "Q6673921"
+  },
+  {
+   "id": 2806744,
+   "name": "Romanorum sive Francorum imperium",
+   "adminLevel": "2",
+   "start": "0800-12-25",
+   "end": "0822",
+   "wikidata": "Q31929"
+  },
+  {
+   "id": 2808065,
+   "name": "Brandenburg",
+   "adminLevel": "3",
+   "start": "1402",
+   "end": "1418",
+   "wikidata": "Q148499"
+  },
+  {
+   "id": 2808066,
+   "name": "Brandenburg",
+   "adminLevel": "3",
+   "start": "1418",
+   "end": "1442-04-12",
+   "wikidata": "Q148499"
+  },
+  {
+   "id": 2809431,
+   "name": "Kanem–Bornu Empire",
+   "adminLevel": "2",
+   "start": "0700",
+   "end": "1380",
+   "wikidata": "Q1139762"
+  },
+  {
+   "id": 2809441,
+   "name": "Πριγκιπάτο της Αχαΐας",
+   "adminLevel": "2",
+   "start": "1205",
+   "end": "1432",
+   "wikidata": "Q332005"
+  },
+  {
+   "id": 2810170,
+   "name": "Reaume de France",
+   "adminLevel": "2",
+   "start": "1050",
+   "end": "1212-02-25",
+   "wikidata": null
+  },
+  {
+   "id": 2814992,
+   "name": "Regnum Lotharii",
+   "adminLevel": "3",
+   "start": "0880-02",
+   "end": "0900-08-13",
+   "wikidata": "Q6673921"
+  },
+  {
+   "id": 2814993,
+   "name": "Regnum Lotharii",
+   "adminLevel": "3",
+   "start": "0880-02",
+   "end": "0888",
+   "wikidata": "Q6673921"
+  },
+  {
+   "id": 2814994,
+   "name": "Regnum Lotharii",
+   "adminLevel": "3",
+   "start": "0870-08-08",
+   "end": "0880-02",
+   "wikidata": "Q6673921"
+  },
+  {
+   "id": 2820426,
+   "name": "الحكم الإسلامي للمدينة",
+   "adminLevel": "2",
+   "start": "0622",
+   "end": "0631",
+   "wikidata": null
+  },
+  {
+   "id": 2820427,
+   "name": "ٱلْخِلَافَةُ ٱلرَّاشِدَةُ",
+   "adminLevel": "2",
+   "start": "0632",
+   "end": "0661",
+   "wikidata": "Q12490507"
+  },
+  {
+   "id": 2820428,
+   "name": "ٱلْخِلَافَة ٱلْأُمَوِيَّة",
+   "adminLevel": "2",
+   "start": "0712",
+   "end": "0750",
+   "wikidata": "Q8575586"
+  },
+  {
+   "id": 2822617,
+   "name": "Wagadou",
+   "adminLevel": "2",
+   "start": "0200",
+   "end": "1250",
+   "wikidata": "Q206789"
+  },
+  {
+   "id": 2822621,
+   "name": "Songhai Empire",
+   "adminLevel": "2",
+   "start": "1430",
+   "end": "1591",
+   "wikidata": "Q202687"
+  },
+  {
+   "id": 2826609,
+   "name": "Deutschordensstaat",
+   "adminLevel": "2",
+   "start": "1237",
+   "end": "1558",
+   "wikidata": "Q156020"
+  },
+  {
+   "id": 2827010,
+   "name": "Archiepiscopatus Rigensis",
+   "adminLevel": "2",
+   "start": "1186",
+   "end": "1563",
+   "wikidata": "Q15471939"
+  },
+  {
+   "id": 2828270,
+   "name": "Guernsey",
+   "adminLevel": "2",
+   "start": "1290",
+   "end": "1987-05-14",
+   "wikidata": "Q25230"
+  },
+  {
+   "id": 2828299,
+   "name": "Jersey",
+   "adminLevel": "2",
+   "start": "1290",
+   "end": "1987-05-14",
+   "wikidata": "Q785"
+  },
+  {
+   "id": 2829404,
+   "name": "Regnum Hungariae",
+   "adminLevel": "2",
+   "start": "1401",
+   "end": "1526-08-29",
+   "wikidata": null
+  },
+  {
+   "id": 2830034,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1405",
+   "end": "1412",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2830855,
+   "name": "Ostrogothic Kingdom",
+   "adminLevel": "2",
+   "start": "0508",
+   "end": "0553",
+   "wikidata": "Q583038"
+  },
+  {
+   "id": 2831338,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0395",
+   "end": "0476-10-04",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2831340,
+   "name": "Gepidae",
+   "adminLevel": "2",
+   "start": "0454",
+   "end": "0567",
+   "wikidata": "Q201706"
+  },
+  {
+   "id": 2831478,
+   "name": "Regnum Suevorum",
+   "adminLevel": "2",
+   "start": "0409",
+   "end": "0585",
+   "wikidata": "Q1048918"
+  },
+  {
+   "id": 2831479,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0585",
+   "end": "0624",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2831557,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0471",
+   "end": "0507",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2831599,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0481",
+   "end": "0486",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2831602,
+   "name": "Regnum Vandalum",
+   "adminLevel": "2",
+   "start": "0456",
+   "end": "0534",
+   "wikidata": "Q10416611"
+  },
+  {
+   "id": 2831688,
+   "name": "Magna Frisia",
+   "adminLevel": "2",
+   "start": "0734",
+   "end": "0772",
+   "wikidata": "Q87791"
+  },
+  {
+   "id": 2831689,
+   "name": "Magna Frisia",
+   "adminLevel": "2",
+   "start": "0719",
+   "end": "0734",
+   "wikidata": "Q87791"
+  },
+  {
+   "id": 2831690,
+   "name": "Magna Frisia",
+   "adminLevel": "2",
+   "start": "0600",
+   "end": "0695",
+   "wikidata": "Q87791"
+  },
+  {
+   "id": 2835456,
+   "name": "Principatus Antiochenus",
+   "adminLevel": "2",
+   "start": "1098-06",
+   "end": "1268-05-18",
+   "wikidata": "Q235030"
+  },
+  {
+   "id": 2835499,
+   "name": "Comitatus Edessanus",
+   "adminLevel": "2",
+   "start": "1098-03",
+   "end": "1144-12-24",
+   "wikidata": null
+  },
+  {
+   "id": 2835764,
+   "name": "Couto Misto",
+   "adminLevel": "2",
+   "start": "1000",
+   "end": "1868",
+   "wikidata": "Q953432"
+  },
+  {
+   "id": 2835818,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1300",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2835819,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1363",
+   "end": "1390",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2836111,
+   "name": "Regnum Croatiæ",
+   "adminLevel": "2",
+   "start": "0925",
+   "end": "1102",
+   "wikidata": "Q858841"
+  },
+  {
+   "id": 2836112,
+   "name": "Regnum Hungariae",
+   "adminLevel": "2",
+   "start": "1043",
+   "end": "1102",
+   "wikidata": "Q1470101"
+  },
+  {
+   "id": 2836145,
+   "name": "Królestwo Polskie",
+   "adminLevel": "2",
+   "start": "1025",
+   "end": "1100",
+   "wikidata": "Q577867"
+  },
+  {
+   "id": 2836150,
+   "name": "Великожупанска Србија",
+   "adminLevel": "2",
+   "start": "1000",
+   "end": "1216",
+   "wikidata": "Q1311990"
+  },
+  {
+   "id": 2836151,
+   "name": "Regnum Hungariae",
+   "adminLevel": "2",
+   "start": "1102",
+   "end": "1400",
+   "wikidata": "Q1470101"
+  },
+  {
+   "id": 2839439,
+   "name": "Principatus Beneventi",
+   "adminLevel": "2",
+   "start": "899",
+   "end": "1053",
+   "wikidata": "Q131573029"
+  },
+  {
+   "id": 2839584,
+   "name": "Ducatum Venetiae",
+   "adminLevel": "2",
+   "start": "0697",
+   "end": "0974",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2839591,
+   "name": "Ducatus Bohemiæ",
+   "adminLevel": "2",
+   "start": "0999",
+   "end": "1002",
+   "wikidata": "Q2162698"
+  },
+  {
+   "id": 2839731,
+   "name": "Comitatus Tripolitanus",
+   "adminLevel": "2",
+   "start": "1102",
+   "end": "1109-07-12",
+   "wikidata": "Q272033"
+  },
+  {
+   "id": 2839732,
+   "name": "Comitatus Tripolitanus",
+   "adminLevel": "2",
+   "start": "1109-07-12",
+   "end": "1289-04-27",
+   "wikidata": "Q272033"
+  },
+  {
+   "id": 2839736,
+   "name": "Regnum Hierosolymitanum",
+   "adminLevel": "2",
+   "start": "1099",
+   "end": "1187-10-02",
+   "wikidata": "Q55502"
+  },
+  {
+   "id": 2839737,
+   "name": "Regnum Hierosolymitanum",
+   "adminLevel": "2",
+   "start": "1191-07-12",
+   "end": "1291-05-18",
+   "wikidata": "Q55502"
+  },
+  {
+   "id": 2840632,
+   "name": "Pale of Cales",
+   "adminLevel": "3",
+   "start": "1360-05-08",
+   "end": "1559-04-02",
+   "wikidata": "Q509677"
+  },
+  {
+   "id": 2840931,
+   "name": "Sūþseaxna rīċe",
+   "adminLevel": "2",
+   "start": "0477",
+   "end": "0860",
+   "wikidata": "Q676184"
+  },
+  {
+   "id": 2840932,
+   "name": "Cantwara rīċe",
+   "adminLevel": "2",
+   "start": "0455",
+   "end": "0871",
+   "wikidata": "Q328818"
+  },
+  {
+   "id": 2840933,
+   "name": "Ēastseaxna rīċe",
+   "adminLevel": "2",
+   "start": "0600",
+   "end": "0825",
+   "wikidata": "Q110888"
+  },
+  {
+   "id": 2840934,
+   "name": "Ēastengla rīċe",
+   "adminLevel": "2",
+   "start": "0704",
+   "end": "0917",
+   "wikidata": "Q837998"
+  },
+  {
+   "id": 2840935,
+   "name": "Ēastseaxna rīċe",
+   "adminLevel": "2",
+   "start": "0527",
+   "end": "0600",
+   "wikidata": "Q110888"
+  },
+  {
+   "id": 2840936,
+   "name": "Norþanhymbra rīċe",
+   "adminLevel": "2",
+   "start": "0654",
+   "end": "0730",
+   "wikidata": "Q107299"
+  },
+  {
+   "id": 2841029,
+   "name": "Norþanhymbra rīċe",
+   "adminLevel": "2",
+   "start": "0730",
+   "end": "0867",
+   "wikidata": "Q107299"
+  },
+  {
+   "id": 2848626,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1349",
+   "end": "1388",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2848627,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1229-12-31",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2848960,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "1274",
+   "end": "1309",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2849121,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1405",
+   "end": "1450",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2849131,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1450",
+   "end": "1462",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2849134,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0647",
+   "end": "0680",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849135,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0476-10-04",
+   "end": "0534",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849151,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0698",
+   "end": "0752",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849154,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1185",
+   "end": "1204",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849184,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1261",
+   "end": "1304",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849185,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0961-03-06",
+   "end": "1185",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849186,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0824",
+   "end": "0831",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849190,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0534",
+   "end": "0535",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849194,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0643",
+   "end": "0647",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849209,
+   "name": "Αὐθεντία πόλεως Θεοδωροῦς καὶ παραθαλασσίας",
+   "adminLevel": "2",
+   "start": "1300",
+   "end": "1475",
+   "wikidata": "Q874954"
+  },
+  {
+   "id": 2849327,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0680",
+   "end": "0698",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849466,
+   "name": "إمارة قرطبة",
+   "adminLevel": "2",
+   "start": "0902",
+   "end": "0929-01-16",
+   "wikidata": "Q1337854"
+  },
+  {
+   "id": 2849467,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0902",
+   "end": "0961-03-06",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849481,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0486",
+   "end": "0496",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2849482,
+   "name": "Regnum Soissons",
+   "adminLevel": "2",
+   "start": "0461",
+   "end": "0486",
+   "wikidata": "Q1247508"
+  },
+  {
+   "id": 2849493,
+   "name": "Nogai Horde",
+   "adminLevel": "2",
+   "start": "1440",
+   "end": "1520",
+   "wikidata": null
+  },
+  {
+   "id": 2849494,
+   "name": "اولوغ اوردا",
+   "adminLevel": "2",
+   "start": "1450",
+   "end": "1502",
+   "wikidata": "Q2341105"
+  },
+  {
+   "id": 2849497,
+   "name": "Qasim Khanate",
+   "adminLevel": "3",
+   "start": "1452",
+   "end": "1681",
+   "wikidata": "Q836169"
+  },
+  {
+   "id": 2849500,
+   "name": "Taht-i Qırım ve Deşt-i Qıpçaq / تخت قريم و دشت قپچاق",
+   "adminLevel": "2",
+   "start": "1441",
+   "end": "1475",
+   "wikidata": "Q160440"
+  },
+  {
+   "id": 2849502,
+   "name": "Великое княжество Московское",
+   "adminLevel": "2",
+   "start": "1389",
+   "end": "1392",
+   "wikidata": "Q170770"
+  },
+  {
+   "id": 2849503,
+   "name": "Московское княжество",
+   "adminLevel": "2",
+   "start": "1263",
+   "end": "1389",
+   "wikidata": "Q170770"
+  },
+  {
+   "id": 2849541,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0637",
+   "end": "0641-04",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849542,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0635",
+   "end": "0637",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2849656,
+   "name": "Føroyar",
+   "adminLevel": "2",
+   "start": "0800",
+   "end": "1035",
+   "wikidata": null
+  },
+  {
+   "id": 2850076,
+   "name": "Imperium Romanum Occidentale",
+   "adminLevel": "2",
+   "start": "0471",
+   "end": "0476-10-04",
+   "wikidata": "Q42834"
+  },
+  {
+   "id": 2850077,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0711",
+   "end": "0721",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2850079,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0585",
+   "end": "0711",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2850080,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0552",
+   "end": "0585",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2850081,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0624",
+   "end": "0635",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2850082,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0552",
+   "end": "0553",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2850083,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0531",
+   "end": "0552",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2850421,
+   "name": "Empire of Thessalonica",
+   "adminLevel": "2",
+   "start": "1230",
+   "end": "1337",
+   "wikidata": "Q187684"
+  },
+  {
+   "id": 2850422,
+   "name": "Empire of Thessalonica",
+   "adminLevel": "2",
+   "start": "1224",
+   "end": "1230",
+   "wikidata": "Q187684"
+  },
+  {
+   "id": 2850423,
+   "name": "Empire of Thessalonica",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1224",
+   "wikidata": "Q187684"
+  },
+  {
+   "id": 2850426,
+   "name": "Αυτοκρατορία της Τραπεζούντας",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1461-08-15",
+   "wikidata": "Q178913"
+  },
+  {
+   "id": 2850427,
+   "name": "دولتْ علیّه عثمانیّه",
+   "adminLevel": "2",
+   "start": "1354",
+   "end": "1456",
+   "wikidata": "Q12560"
+  },
+  {
+   "id": 2850428,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1354",
+   "end": "1453",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2850429,
+   "name": "دولتْ علیّه عثمانیّه",
+   "adminLevel": "2",
+   "start": "1337",
+   "end": "1354",
+   "wikidata": "Q12560"
+  },
+  {
+   "id": 2850430,
+   "name": "دولتْ علیّه عثمانیّه",
+   "adminLevel": "2",
+   "start": "1299",
+   "end": "1337",
+   "wikidata": "Q12560"
+  },
+  {
+   "id": 2850431,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1329",
+   "end": "1337",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2850432,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1337",
+   "end": "1354",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2850433,
+   "name": "Imperium Constantinopolitanum",
+   "adminLevel": "2",
+   "start": "1224",
+   "end": "1261",
+   "wikidata": "Q178897"
+  },
+  {
+   "id": 2850434,
+   "name": "Imperium Constantinopolitanum",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1224",
+   "wikidata": "Q178897"
+  },
+  {
+   "id": 2850435,
+   "name": "Βασιλεία Ῥωμαίων Ελλάς",
+   "adminLevel": "2",
+   "start": "1224",
+   "end": "1261-07-25",
+   "wikidata": "Q181254"
+  },
+  {
+   "id": 2850436,
+   "name": "Βασιλεία Ῥωμαίων Ελλάς",
+   "adminLevel": "2",
+   "start": "1204-03",
+   "end": "1224",
+   "wikidata": "Q181254"
+  },
+  {
+   "id": 2850539,
+   "name": "Kalmarunionen",
+   "adminLevel": "2",
+   "start": "1397-06-17",
+   "end": "1450",
+   "wikidata": "Q62623"
+  },
+  {
+   "id": 2851593,
+   "name": "Новгородская республика",
+   "adminLevel": "2",
+   "start": "1136",
+   "end": "1323-08-12",
+   "wikidata": "Q151536"
+  },
+  {
+   "id": 2851756,
+   "name": "Suðreyjar",
+   "adminLevel": "2",
+   "start": "0877",
+   "end": "1265",
+   "wikidata": "Q459188"
+  },
+  {
+   "id": 2851757,
+   "name": "Suðreyjar",
+   "adminLevel": "2",
+   "start": "0849",
+   "end": "0877",
+   "wikidata": "Q459188"
+  },
+  {
+   "id": 2851758,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "1170",
+   "end": "1262",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2851759,
+   "name": "Dyflin",
+   "adminLevel": "2",
+   "start": "0853",
+   "end": "1170",
+   "wikidata": null
+  },
+  {
+   "id": 2851760,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "1262",
+   "end": "1397-06-17",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2851761,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "0872",
+   "end": "0875",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2851762,
+   "name": "Þjóðveldið Ísland",
+   "adminLevel": "2",
+   "start": "0930",
+   "end": "1261",
+   "wikidata": "Q62389"
+  },
+  {
+   "id": 2851763,
+   "name": "Icelandic Settlement",
+   "adminLevel": "2",
+   "start": "0870",
+   "end": "0929",
+   "wikidata": "Q2725768"
+  },
+  {
+   "id": 2851794,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "1035",
+   "end": "1098",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2851795,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "0875",
+   "end": "1035",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2851866,
+   "name": "Konungariket Sverige",
+   "adminLevel": "2",
+   "start": "1319",
+   "end": "1323-08-12",
+   "wikidata": "Q2460755"
+  },
+  {
+   "id": 2851867,
+   "name": "Konungariket Sverige",
+   "adminLevel": "2",
+   "start": "1100",
+   "end": "1319",
+   "wikidata": "Q2460755"
+  },
+  {
+   "id": 2851868,
+   "name": "Konungariket Sverige",
+   "adminLevel": "2",
+   "start": "1000",
+   "end": "1100",
+   "wikidata": "Q2460755"
+  },
+  {
+   "id": 2851881,
+   "name": "Новгородская республика",
+   "adminLevel": "2",
+   "start": "1323-08-12",
+   "end": "1478",
+   "wikidata": "Q151536"
+  },
+  {
+   "id": 2851882,
+   "name": "Konungariket Sverige",
+   "adminLevel": "2",
+   "start": "1323-08-12",
+   "end": "1397-06-17",
+   "wikidata": "Q2460755"
+  },
+  {
+   "id": 2852460,
+   "name": "መንግሥተ አክሱም",
+   "adminLevel": "2",
+   "start": "0050",
+   "end": "0632",
+   "wikidata": "Q139377"
+  },
+  {
+   "id": 2854350,
+   "name": "Mongol Empire",
+   "adminLevel": "2",
+   "start": "1239",
+   "end": "1259",
+   "wikidata": "Q12557"
+  },
+  {
+   "id": 2854762,
+   "name": "Signoria cittadina di Oneglia",
+   "adminLevel": "3",
+   "start": "1298",
+   "end": "1487",
+   "wikidata": "Q19985067"
+  },
+  {
+   "id": 2855619,
+   "name": "Српско царство",
+   "adminLevel": "2",
+   "start": "1346-04-16",
+   "end": "1371-12-04",
+   "wikidata": "Q1406298"
+  },
+  {
+   "id": 2855620,
+   "name": "Краљевина Србија",
+   "adminLevel": "2",
+   "start": "1217",
+   "end": "1346-04-15",
+   "wikidata": "Q2415003"
+  },
+  {
+   "id": 2856980,
+   "name": "Llŷn",
+   "adminLevel": "3",
+   "start": "0401",
+   "end": "1284",
+   "wikidata": null
+  },
+  {
+   "id": 2856981,
+   "name": "Arfon",
+   "adminLevel": "3",
+   "start": "0401",
+   "end": "1284",
+   "wikidata": null
+  },
+  {
+   "id": 2856982,
+   "name": "Meirionydd",
+   "adminLevel": "3",
+   "start": "0400",
+   "end": "1284",
+   "wikidata": null
+  },
+  {
+   "id": 2856999,
+   "name": "Dunoding",
+   "adminLevel": "3",
+   "start": "0460",
+   "end": "0925",
+   "wikidata": null
+  },
+  {
+   "id": 2857000,
+   "name": "Rhufoniog",
+   "adminLevel": "3",
+   "start": "0445",
+   "end": "0540",
+   "wikidata": null
+  },
+  {
+   "id": 2857001,
+   "name": "Rhos",
+   "adminLevel": "3",
+   "start": "0401",
+   "end": "1283",
+   "wikidata": null
+  },
+  {
+   "id": 2857597,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1201",
+   "end": "1512",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2860067,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0750",
+   "end": "0789",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860161,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0861",
+   "end": "0872",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860163,
+   "name": "ٱلْخِلَافَة ٱلْأُمَوِيَّة",
+   "adminLevel": "2",
+   "start": "0661",
+   "end": "0712",
+   "wikidata": "Q8575586"
+  },
+  {
+   "id": 2860168,
+   "name": "الإِمَارَةُ الطُّولُونِيَّة",
+   "adminLevel": "2",
+   "start": "0868",
+   "end": "0905",
+   "wikidata": "Q726798"
+  },
+  {
+   "id": 2860169,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0905",
+   "end": "0969",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860170,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0872",
+   "end": "0905",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860176,
+   "name": "إمارة باري",
+   "adminLevel": "2",
+   "start": "0847",
+   "end": "0871",
+   "wikidata": "Q1878022"
+  },
+  {
+   "id": 2860177,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0902",
+   "end": "0909-02-25",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860178,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0878",
+   "end": "0880",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860179,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0831",
+   "end": "0840",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860180,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0800",
+   "end": "0831",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860181,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0800",
+   "end": "0861",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860225,
+   "name": "መንግሥተ አክሱም",
+   "adminLevel": "2",
+   "start": "0632",
+   "end": "0960",
+   "wikidata": "Q139377"
+  },
+  {
+   "id": 2860226,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0870",
+   "end": "0878",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860227,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0880",
+   "end": "0886",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860228,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0840",
+   "end": "0846",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860229,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0886",
+   "end": "0902",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860230,
+   "name": "الأغالبة",
+   "adminLevel": "2",
+   "start": "0846",
+   "end": "0870",
+   "wikidata": "Q207600"
+  },
+  {
+   "id": 2860235,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0536",
+   "end": "0552",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860236,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0878",
+   "end": "0880",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860237,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0831",
+   "end": "0847",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860238,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0535",
+   "end": "0536",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860239,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0553",
+   "end": "0568",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860240,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0886",
+   "end": "0902",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860241,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0880",
+   "end": "0886",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860242,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0871",
+   "end": "0878",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860243,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0847",
+   "end": "0871",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860244,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0798",
+   "end": "0824",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2860245,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0789",
+   "end": "0800",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860246,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "0969",
+   "end": "0983",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860247,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "0932",
+   "end": "0969",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860248,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "0921",
+   "end": "0932",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860249,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "0909-02-25",
+   "end": "0921",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860256,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "1048",
+   "end": "1060",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860257,
+   "name": "الزيريون",
+   "adminLevel": "2",
+   "start": "1044",
+   "end": "1148",
+   "wikidata": "Q205718"
+  },
+  {
+   "id": 2860258,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "1044",
+   "end": "1048",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860259,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "1060",
+   "end": "1171",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860260,
+   "name": "الخلافة الفاطمیّة",
+   "adminLevel": "2",
+   "start": "0983",
+   "end": "1044",
+   "wikidata": "Q160307"
+  },
+  {
+   "id": 2860261,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0983",
+   "end": "1048",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860262,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "0969",
+   "end": "0983",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860325,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "1060",
+   "end": "1258",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860326,
+   "name": "الْخِلَافَة الْعَبَّاسِيَّة",
+   "adminLevel": "2",
+   "start": "1048",
+   "end": "1060",
+   "wikidata": "Q12536"
+  },
+  {
+   "id": 2860517,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1319",
+   "end": "1323",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860518,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1390",
+   "end": "1409",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860519,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1319",
+   "end": "1377",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2860520,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1377",
+   "end": "1381",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2860521,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1388",
+   "end": "1412",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2860522,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1381",
+   "end": "1388",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2860524,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1388",
+   "end": "1390",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860525,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1312",
+   "end": "1313-04-23",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860554,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1409",
+   "end": "1412-06-25",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860646,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1344",
+   "end": "1349",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860647,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1276",
+   "end": "1280",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860648,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1235",
+   "end": "1236",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860649,
+   "name": "Corona Castellae",
+   "adminLevel": "2",
+   "start": "1402",
+   "end": "1405",
+   "wikidata": "Q217196"
+  },
+  {
+   "id": 2860660,
+   "name": "Regne de Mallorca",
+   "adminLevel": "2",
+   "start": "1276",
+   "end": "1344",
+   "wikidata": "Q836676"
+  },
+  {
+   "id": 2860661,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1313-04-23",
+   "end": "1319",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860662,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1413-11-05",
+   "end": "1420",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860663,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1420",
+   "end": "1442",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860669,
+   "name": "Aragonum et Catalonie",
+   "adminLevel": "2",
+   "start": "1412-06-25",
+   "end": "1413-11-05",
+   "wikidata": "Q204920"
+  },
+  {
+   "id": 2860980,
+   "name": "Ceuta Português",
+   "adminLevel": "2",
+   "start": "1415",
+   "end": "1668",
+   "wikidata": "Q5823"
+  },
+  {
+   "id": 2861791,
+   "name": "Ordo Hospitalis",
+   "adminLevel": "2",
+   "start": "1310-08-15",
+   "end": "1522",
+   "wikidata": "Q187549"
+  },
+  {
+   "id": 2865630,
+   "name": "امپراتوری سلجوقی",
+   "adminLevel": "2",
+   "start": "1037",
+   "end": "1194",
+   "wikidata": "Q3708094"
+  },
+  {
+   "id": 2865634,
+   "name": "Mongol Empire",
+   "adminLevel": "2",
+   "start": "1259",
+   "end": "1271",
+   "wikidata": "Q12557"
+  },
+  {
+   "id": 2865635,
+   "name": "Hülegü Ulus",
+   "adminLevel": "2",
+   "start": "1259",
+   "end": "1357",
+   "wikidata": "Q178084"
+  },
+  {
+   "id": 2869800,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "1237-09-25",
+   "end": "1265",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869801,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "1030",
+   "end": "1098",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869802,
+   "name": "Kingdom of Strathclyde",
+   "adminLevel": "2",
+   "start": "0870",
+   "end": "1030",
+   "wikidata": "Q225890"
+  },
+  {
+   "id": 2869803,
+   "name": "Teyrnas Ystrad Clud",
+   "adminLevel": "2",
+   "start": "0450",
+   "end": "0870",
+   "wikidata": "Q225890"
+  },
+  {
+   "id": 2869804,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "0843",
+   "end": "1237-09-25",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869805,
+   "name": "Gall-ghàidhil",
+   "adminLevel": "2",
+   "start": "1034",
+   "end": "1235",
+   "wikidata": "Q6680084"
+  },
+  {
+   "id": 2869806,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "1265",
+   "end": "1472",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869807,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "0843",
+   "end": "0875",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869821,
+   "name": "Noregsveldi",
+   "adminLevel": "2",
+   "start": "1098",
+   "end": "1170",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2869822,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "0875",
+   "end": "1030",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869823,
+   "name": "Rìoghachd na h-Alba",
+   "adminLevel": "2",
+   "start": "1098",
+   "end": "1235",
+   "wikidata": "Q230791"
+  },
+  {
+   "id": 2869900,
+   "name": "Duchie de Normaundie",
+   "adminLevel": "3",
+   "start": "0933",
+   "end": "1195",
+   "wikidata": "Q842091"
+  },
+  {
+   "id": 2869903,
+   "name": "Duchie de Normaundie",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1290",
+   "wikidata": "Q842091"
+  },
+  {
+   "id": 2870658,
+   "name": "Kalmarunionen",
+   "adminLevel": "2",
+   "start": "1450",
+   "end": "1472",
+   "wikidata": "Q62623"
+  },
+  {
+   "id": 2873689,
+   "name": "Miercna rīċe",
+   "adminLevel": "2",
+   "start": "0877",
+   "end": "0918",
+   "wikidata": "Q105092"
+  },
+  {
+   "id": 2873690,
+   "name": "Miercna rīċe",
+   "adminLevel": "2",
+   "start": "0784",
+   "end": "0877",
+   "wikidata": "Q105092"
+  },
+  {
+   "id": 2873707,
+   "name": "Teyrnas Glywysing",
+   "adminLevel": "2",
+   "start": "0430",
+   "end": "0942",
+   "wikidata": "Q2253783"
+  },
+  {
+   "id": 2874010,
+   "name": "Teyrnas Gwynedd",
+   "adminLevel": "2",
+   "start": "0401",
+   "end": "0784",
+   "wikidata": "Q816814"
+  },
+  {
+   "id": 2874011,
+   "name": "Teyrnas Gwynedd",
+   "adminLevel": "2",
+   "start": "0785",
+   "end": "1165",
+   "wikidata": "Q816814"
+  },
+  {
+   "id": 2875840,
+   "name": "Ríocht Laighean",
+   "adminLevel": "2",
+   "start": "0800",
+   "end": "1603",
+   "wikidata": "Q4671762"
+  },
+  {
+   "id": 2875841,
+   "name": "Ríocht Laighean",
+   "adminLevel": "2",
+   "start": "-0600",
+   "end": "0800",
+   "wikidata": "Q4671762"
+  },
+  {
+   "id": 2875842,
+   "name": "Lordship of Meath",
+   "adminLevel": "2",
+   "start": "1328",
+   "end": "1330-10",
+   "wikidata": "Q16257815"
+  },
+  {
+   "id": 2875843,
+   "name": "Lordship of Eastern Meath",
+   "adminLevel": "2",
+   "start": "1244",
+   "end": "1328",
+   "wikidata": "Q16257815"
+  },
+  {
+   "id": 2875844,
+   "name": "Lordship of Western Meath",
+   "adminLevel": "2",
+   "start": "1244",
+   "end": "1328",
+   "wikidata": "Q16257815"
+  },
+  {
+   "id": 2875845,
+   "name": "Lordship of Meath",
+   "adminLevel": "2",
+   "start": "1172-03",
+   "end": "1244",
+   "wikidata": "Q16257815"
+  },
+  {
+   "id": 2875846,
+   "name": "Mide",
+   "adminLevel": "2",
+   "start": "0100",
+   "end": "1172-03",
+   "wikidata": "Q2089487"
+  },
+  {
+   "id": 2878364,
+   "name": "Reino de Portugal",
+   "adminLevel": "2",
+   "start": "1415",
+   "end": "1801-06-06",
+   "wikidata": "Q45670"
+  },
+  {
+   "id": 2879273,
+   "name": "امبراطورية جولوف",
+   "adminLevel": "2",
+   "start": "1360",
+   "end": "1520",
+   "wikidata": "Q760893"
+  },
+  {
+   "id": 2879277,
+   "name": "Siin",
+   "adminLevel": "2",
+   "start": "1335",
+   "end": "1360",
+   "wikidata": "Q862467"
+  },
+  {
+   "id": 2879811,
+   "name": "امبراطورية جولوف",
+   "adminLevel": "2",
+   "start": "1360",
+   "end": "1520",
+   "wikidata": "Q760893"
+  },
+  {
+   "id": 2882341,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0575",
+   "end": "0576",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2882342,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0752",
+   "end": "0798",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2883426,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0575",
+   "end": "0576",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2883428,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0641-04",
+   "end": "0643",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2888109,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0576",
+   "end": "0603",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2888110,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0603",
+   "end": "0643",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888117,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0643",
+   "end": "0725",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888119,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0576",
+   "end": "0603",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888120,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0568",
+   "end": "0570",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888123,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0568",
+   "end": "0575",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2888124,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "0603",
+   "end": "0624",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2888146,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0756",
+   "end": "0757",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888147,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0752",
+   "end": "0756",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888199,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "1309",
+   "end": "1376",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888200,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "1376",
+   "end": "1512",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888201,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0756",
+   "end": "0757",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888202,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0787",
+   "end": "0800",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888203,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0800",
+   "end": "0988",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888204,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0774-06",
+   "end": "0787",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888205,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0759",
+   "end": "0774-06",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888206,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0757",
+   "end": "0759",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888207,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0754",
+   "end": "0756",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2888208,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0757",
+   "end": "0759",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888209,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0759",
+   "end": "0774-06-05",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2888256,
+   "name": "Langobardia Minor",
+   "adminLevel": "3",
+   "start": "0577",
+   "end": "0774-06",
+   "wikidata": "Q2629006"
+  },
+  {
+   "id": 2888433,
+   "name": "Ducatus Neapolitanus",
+   "adminLevel": "2",
+   "start": "0763",
+   "end": "1139",
+   "wikidata": "Q1051600"
+  },
+  {
+   "id": 2888516,
+   "name": "Ducatus Sorrento",
+   "adminLevel": "2",
+   "start": "0840",
+   "end": "1137",
+   "wikidata": "Q2573715"
+  },
+  {
+   "id": 2888517,
+   "name": "Ducatus Amalphitanus",
+   "adminLevel": "2",
+   "start": "0954",
+   "end": "1131",
+   "wikidata": "Q686312"
+  },
+  {
+   "id": 2888701,
+   "name": "Ducatus Caietae",
+   "adminLevel": "2",
+   "start": "0867",
+   "end": "1140",
+   "wikidata": "Q2457072"
+  },
+  {
+   "id": 2888914,
+   "name": "Principatus Beneventi",
+   "adminLevel": "2",
+   "start": "0851",
+   "end": "0899",
+   "wikidata": "Q131573029"
+  },
+  {
+   "id": 2888915,
+   "name": "Principatus Capuae",
+   "adminLevel": "2",
+   "start": "0861",
+   "end": "0899",
+   "wikidata": "Q1280122"
+  },
+  {
+   "id": 2889224,
+   "name": "Neustria",
+   "adminLevel": "3",
+   "start": "0643",
+   "end": "0774-06-05",
+   "wikidata": "Q1452210"
+  },
+  {
+   "id": 2889225,
+   "name": "Neustria",
+   "adminLevel": "3",
+   "start": "0603",
+   "end": "0643",
+   "wikidata": "Q1452210"
+  },
+  {
+   "id": 2889226,
+   "name": "Neustria",
+   "adminLevel": "3",
+   "start": "0575",
+   "end": "0603",
+   "wikidata": "Q1452210"
+  },
+  {
+   "id": 2889227,
+   "name": "Neustria",
+   "adminLevel": "3",
+   "start": "0568",
+   "end": "0575",
+   "wikidata": "Q1452210"
+  },
+  {
+   "id": 2889228,
+   "name": "Austria",
+   "adminLevel": "3",
+   "start": "0568",
+   "end": "0603",
+   "wikidata": "Q2325193"
+  },
+  {
+   "id": 2889229,
+   "name": "Austria",
+   "adminLevel": "3",
+   "start": "0603",
+   "end": "0774-06-05",
+   "wikidata": "Q2325193"
+  },
+  {
+   "id": 2889237,
+   "name": "Status Ecclesiasticus",
+   "adminLevel": "2",
+   "start": "0988",
+   "end": "1020",
+   "wikidata": "Q170174"
+  },
+  {
+   "id": 2890097,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "0962-02-02",
+   "end": "0983",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2890535,
+   "name": "Romanorum sive Francorum imperium",
+   "adminLevel": "2",
+   "start": "0825-05",
+   "end": "0843-08-09",
+   "wikidata": "Q31929"
+  },
+  {
+   "id": 2890536,
+   "name": "Romanorum sive Francorum imperium",
+   "adminLevel": "2",
+   "start": "0822",
+   "end": "0825-05",
+   "wikidata": "Q31929"
+  },
+  {
+   "id": 2890537,
+   "name": "Breizh",
+   "adminLevel": "2",
+   "start": "0822",
+   "end": "0825-05",
+   "wikidata": "Q771193"
+  },
+  {
+   "id": 2890538,
+   "name": "Domnonia",
+   "adminLevel": "2",
+   "start": "0486",
+   "end": "0590",
+   "wikidata": "Q16829979"
+  },
+  {
+   "id": 2890539,
+   "name": "Bro Gwened",
+   "adminLevel": "2",
+   "start": "0486",
+   "end": "0590",
+   "wikidata": "Q16829979"
+  },
+  {
+   "id": 2890540,
+   "name": "Rouantelezh Breizh",
+   "adminLevel": "2",
+   "start": "0867-08",
+   "end": "0933",
+   "wikidata": "Q771193"
+  },
+  {
+   "id": 2890541,
+   "name": "Dugelezh Breizh",
+   "adminLevel": "2",
+   "start": "0938",
+   "end": "0942",
+   "wikidata": "Q71747"
+  },
+  {
+   "id": 2890542,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0867-08",
+   "end": "0870-08-08",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2890543,
+   "name": "Rouantelezh Breizh",
+   "adminLevel": "2",
+   "start": "0933",
+   "end": "0938",
+   "wikidata": "Q771193"
+  },
+  {
+   "id": 2890618,
+   "name": "قزان خانلغی",
+   "adminLevel": "2",
+   "start": "1438",
+   "end": "1552-10-03",
+   "wikidata": "Q186537"
+  },
+  {
+   "id": 2890620,
+   "name": "Великое княжество Тверское",
+   "adminLevel": "2",
+   "start": "1246",
+   "end": "1485",
+   "wikidata": "Q163268"
+  },
+  {
+   "id": 2890623,
+   "name": "Великое княжество Московское",
+   "adminLevel": "2",
+   "start": "1392",
+   "end": "1478",
+   "wikidata": "Q170770"
+  },
+  {
+   "id": 2890624,
+   "name": "Великое княжество Рязанское",
+   "adminLevel": "2",
+   "start": "1392",
+   "end": "1521",
+   "wikidata": "Q269109"
+  },
+  {
+   "id": 2890625,
+   "name": "Principality of Murom-Ryazan",
+   "adminLevel": "2",
+   "start": "1129",
+   "end": "1392",
+   "wikidata": "Q269109"
+  },
+  {
+   "id": 2890642,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0870-08-08",
+   "end": "0880-02",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2890643,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0880-02",
+   "end": "0902",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2890645,
+   "name": "Francia occidentalis",
+   "adminLevel": "2",
+   "start": "0902",
+   "end": "0942",
+   "wikidata": "Q46370"
+  },
+  {
+   "id": 2890646,
+   "name": "Reiaume d'Aquitània",
+   "adminLevel": "3",
+   "start": "0845",
+   "end": "0877-10-08",
+   "wikidata": "Q2990516"
+  },
+  {
+   "id": 2890647,
+   "name": "Reiaume d'Aquitània",
+   "adminLevel": "3",
+   "start": "0781",
+   "end": "0845",
+   "wikidata": "Q2990516"
+  },
+  {
+   "id": 2890855,
+   "name": "Regnum Burgundionum",
+   "adminLevel": "2",
+   "start": "0507",
+   "end": "0508",
+   "wikidata": "Q13590051"
+  },
+  {
+   "id": 2890856,
+   "name": "Regnum Burgundionum",
+   "adminLevel": "2",
+   "start": "0510",
+   "end": "0534",
+   "wikidata": "Q13590051"
+  },
+  {
+   "id": 2890857,
+   "name": "Regnum Langobardorum",
+   "adminLevel": "2",
+   "start": "0725",
+   "end": "0752",
+   "wikidata": "Q854415"
+  },
+  {
+   "id": 2890858,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0795",
+   "end": "0800-12-25",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890859,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0788",
+   "end": "0795",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890860,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0780",
+   "end": "0788",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890861,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0774-06-05",
+   "end": "0780",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890862,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0772",
+   "end": "0774-06-05",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890863,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0768-10-09",
+   "end": "0772",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2890864,
+   "name": "Carantania",
+   "adminLevel": "2",
+   "start": "0658",
+   "end": "0745",
+   "wikidata": "Q501754"
+  },
+  {
+   "id": 2890865,
+   "name": "Carantania",
+   "adminLevel": "3",
+   "start": "0745",
+   "end": "0828",
+   "wikidata": "Q501754"
+  },
+  {
+   "id": 2891496,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0496",
+   "end": "0507",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891550,
+   "name": "Regnum Gothorum",
+   "adminLevel": "2",
+   "start": "0507",
+   "end": "0531",
+   "wikidata": "Q126936"
+  },
+  {
+   "id": 2891557,
+   "name": "Kingdom of the Thuringi",
+   "adminLevel": "2",
+   "start": "0500",
+   "end": "0532",
+   "wikidata": "Q160892"
+  },
+  {
+   "id": 2891579,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0507",
+   "end": "0531",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891592,
+   "name": "Regnum Alamanniae",
+   "adminLevel": "2",
+   "start": "0496",
+   "end": "0746",
+   "wikidata": "Q2208978"
+  },
+  {
+   "id": 2891593,
+   "name": "Regnum Alamanniae",
+   "adminLevel": "2",
+   "start": "0475",
+   "end": "0496",
+   "wikidata": "Q2208978"
+  },
+  {
+   "id": 2891714,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0536",
+   "end": "0567",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891715,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0567",
+   "end": "0575",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891716,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0575",
+   "end": "0695",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891717,
+   "name": "Regnum Francorum",
+   "adminLevel": "2",
+   "start": "0532",
+   "end": "0536",
+   "wikidata": "Q146246"
+  },
+  {
+   "id": 2891718,
+   "name": "Ducatus Bavariae",
+   "adminLevel": "2",
+   "start": "0555",
+   "end": "0788",
+   "wikidata": "Q90886999"
+  },
+  {
+   "id": 2891719,
+   "name": "Ducatus Bavariae",
+   "adminLevel": "2",
+   "start": "0745",
+   "end": "0788",
+   "wikidata": "Q90886999"
+  },
+  {
+   "id": 2891972,
+   "name": "Regnum Hungariae",
+   "adminLevel": "2",
+   "start": "1000-12-25",
+   "end": "1017",
+   "wikidata": "Q1470101"
+  },
+  {
+   "id": 2891973,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1017",
+   "end": "1032-09-06",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2891977,
+   "name": "Ducatus Bohemiæ",
+   "adminLevel": "2",
+   "start": "0973",
+   "end": "0999",
+   "wikidata": "Q2162698"
+  },
+  {
+   "id": 2891978,
+   "name": "Regnum Hungariae",
+   "adminLevel": "2",
+   "start": "1017",
+   "end": "1043",
+   "wikidata": "Q1470101"
+  },
+  {
+   "id": 2891979,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1032-09-06",
+   "end": "1043",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2892299,
+   "name": "Sacrum Imperium Romanum",
+   "adminLevel": "2",
+   "start": "1167",
+   "end": "1201",
+   "wikidata": "Q12548"
+  },
+  {
+   "id": 2892572,
+   "name": "Ducatus Vasconiae",
+   "adminLevel": "3",
+   "start": "1137-04-09",
+   "end": "1214-09-28",
+   "wikidata": "Q2295939"
+  },
+  {
+   "id": 2892573,
+   "name": "Ducat d'Aquitània",
+   "adminLevel": "3",
+   "start": "1137-04-09",
+   "end": "1214-09-28",
+   "wikidata": "Q7703611"
+  },
+  {
+   "id": 2892594,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1349-07-16",
+   "end": "1378",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2892595,
+   "name": "Royaume de Bourgogne transjurane",
+   "adminLevel": "2",
+   "start": "0922",
+   "end": "0933",
+   "wikidata": "Q33235"
+  },
+  {
+   "id": 2892596,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1190",
+   "end": "1271-08-25",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2892600,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1307",
+   "end": "1349-07-16",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2892601,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1271-08-25",
+   "end": "1307",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2892605,
+   "name": "Regnum Burgundiae",
+   "adminLevel": "3",
+   "start": "1167",
+   "end": "1190",
+   "wikidata": "Q3271735"
+  },
+  {
+   "id": 2892851,
+   "name": "Duchie de Normaundie",
+   "adminLevel": "3",
+   "start": "1195",
+   "end": "1204",
+   "wikidata": "Q842091"
+  },
+  {
+   "id": 2893761,
+   "name": "État bourguignon",
+   "adminLevel": "3",
+   "start": "1435-09-21",
+   "end": "1443",
+   "wikidata": "Q7882199"
+  },
+  {
+   "id": 2893764,
+   "name": "Ducatus Burgundiae",
+   "adminLevel": "3",
+   "start": "0918",
+   "end": "1361-11-21",
+   "wikidata": "Q4712"
+  },
+  {
+   "id": 2893917,
+   "name": "Sabaudia",
+   "adminLevel": "3",
+   "start": "1416",
+   "end": "1427",
+   "wikidata": "Q426025"
+  },
+  {
+   "id": 2893918,
+   "name": "Sabaudia",
+   "adminLevel": "3",
+   "start": "1388",
+   "end": "1401",
+   "wikidata": "Q426025"
+  },
+  {
+   "id": 2893919,
+   "name": "Sabaudia",
+   "adminLevel": "3",
+   "start": "1401",
+   "end": "1416",
+   "wikidata": "Q426025"
+  },
+  {
+   "id": 2893921,
+   "name": "Sabaudia",
+   "adminLevel": "3",
+   "start": "1427",
+   "end": "1536",
+   "wikidata": "Q426025"
+  },
+  {
+   "id": 2894054,
+   "name": "État bourguignon",
+   "adminLevel": "3",
+   "start": "1443",
+   "end": "1482-12-23",
+   "wikidata": "Q7882199"
+  },
+  {
+   "id": 2920984,
+   "name": "Sultanate of Shihr",
+   "adminLevel": "2",
+   "start": "1432",
+   "end": "1456",
+   "wikidata": "Q1885093"
+  },
+  {
+   "id": 2923110,
+   "name": "𐒈𐒚𐒐𐒆𐒖𐒒𐒖𐒆𐒆𐒖 𐒑𐒖𐒃𐒜𐒇𐒂𐒜𐒒",
+   "adminLevel": "2",
+   "start": "1420",
+   "end": "1894-05-05",
+   "wikidata": "Q2257830"
+  },
+  {
+   "id": 2923228,
+   "name": "Repubblica di Venezia",
+   "adminLevel": "2",
+   "start": "1306",
+   "end": "1363",
+   "wikidata": "Q4948"
+  },
+  {
+   "id": 2923231,
+   "name": "Imperium Romanum Orientale",
+   "adminLevel": "2",
+   "start": "1304",
+   "end": "1329",
+   "wikidata": "Q12544"
+  },
+  {
+   "id": 2923332,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1204",
+   "end": "1302-08-30",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2923333,
+   "name": "Regnum Siciliae",
+   "adminLevel": "2",
+   "start": "1185",
+   "end": "1204",
+   "wikidata": "Q188586"
+  },
+  {
+   "id": 2929115,
+   "name": "Wallachia",
+   "adminLevel": "3",
+   "start": "1420",
+   "end": "1538",
+   "wikidata": "Q389004"
+  },
+  {
+   "id": 2930580,
+   "name": "Comté de Champagne",
+   "adminLevel": "3",
+   "start": "1102",
+   "end": "1314",
+   "wikidata": "Q546266"
+  },
+  {
+   "id": 2941261,
+   "name": "Tuamhain",
+   "adminLevel": "2",
+   "start": "1118",
+   "end": "1543",
+   "wikidata": "Q1688151"
+  },
+  {
+   "id": 2941295,
+   "name": "Deasmhumhain",
+   "adminLevel": "2",
+   "start": "1118",
+   "end": "1596",
+   "wikidata": "Q904346"
+  },
+  {
+   "id": 2956030,
+   "name": "Reaume de France",
+   "adminLevel": "2",
+   "start": "1301",
+   "end": "1384",
+   "wikidata": null
+  },
+  {
+   "id": 2956394,
+   "name": "Reaume de France",
+   "adminLevel": "2",
+   "start": "1384",
+   "end": "1513-08-16",
+   "wikidata": null
+  },
+  {
+   "id": 2956395,
+   "name": "Reaume de France",
+   "adminLevel": "2",
+   "start": "1212-02-25",
+   "end": "1301",
+   "wikidata": null
+  },
+  {
+   "id": 2956673,
+   "name": "Danmark",
+   "adminLevel": "3",
+   "start": "1397-06-17",
+   "end": "1559",
+   "wikidata": "Q878461"
+  },
+  {
+   "id": 2956676,
+   "name": "Noregsveldi",
+   "adminLevel": "3",
+   "start": "1397-06-17",
+   "end": "1472",
+   "wikidata": "Q2196956"
+  },
+  {
+   "id": 2957108,
+   "name": "Konungariket Sverige",
+   "adminLevel": "3",
+   "start": "1397-06-17",
+   "end": "1523-06-06",
+   "wikidata": "Q2460755"
+  },
+  {
+   "id": 2959468,
+   "name": "Capitania do Funchal",
+   "adminLevel": "2",
+   "start": "1450",
+   "end": "1834-05-26",
+   "wikidata": null
+  },
+  {
+   "id": 2959469,
+   "name": "Capitania de Porto Santo",
+   "adminLevel": "2",
+   "start": "1446",
+   "end": "1834-05-26",
+   "wikidata": null
+  },
+  {
+   "id": 2959470,
+   "name": "Capitania de Machico",
+   "adminLevel": "2",
+   "start": "1440",
+   "end": "1834-05-26",
+   "wikidata": null
+  }
+ ]
+}

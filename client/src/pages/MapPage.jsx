@@ -9,7 +9,8 @@ import {
   MAP_IS_ADMIN_ONLY,
   CANVAS,
   FIRST_YEAR,
-  COVERAGE_URL,
+  MAP_SOURCES,
+  coverageUrl,
   LAND_URL,
   LAST_YEAR,
   SNAPSHOT_YEARS,
@@ -26,6 +27,7 @@ import {
   previousSnapshot,
   resolveSnapshot,
   snapshotUrl,
+  sourceById,
   unprojectPoint,
   viewBoxString,
   viewFromBounds,
@@ -175,6 +177,14 @@ export function MapPageContent() {
   // The camera. The preset lives in the URL so a view is shareable — "look at the
   // Holy Land in 1200" is a link — while free panning and zooming stay transient,
   // because a query string that changes on every drag makes the back button useless.
+  /*
+   * Which reconstruction. In the URL, so a view is shareable as a whole — "the
+   * Holy Land in 1200, as OHM has it" is a link — and so switching source is a
+   * real navigation the back button can undo.
+   */
+  const sourceId = searchParams.get('src') ?? 'hb'
+  const source = sourceById(sourceId)
+
   const presetId = searchParams.get('view') ?? 'canvas'
   const [view, setView] = useState(() => viewFromBounds(presetById(presetId).bounds))
   const svgRef = useRef(null)
@@ -202,7 +212,18 @@ export function MapPageContent() {
     setView(viewFromBounds(presetById(presetId).bounds))
   }, [presetId])
 
-  const resolution = useMemo(() => resolveSnapshot(year), [year])
+  // Changing reconstruction empties the cache and the layers. They are keyed by
+  // year alone, so without this the map would cross-fade one source's 1200 into
+  // the other's — which is the composite this whole design exists to avoid, and
+  // it would look like a bug rather than a claim.
+  useEffect(() => {
+    cache.current = new Map()
+    hasShownMap.current = false
+    setLayers([])
+    setStatus('loading')
+  }, [sourceId])
+
+  const resolution = useMemo(() => resolveSnapshot(year, sourceId), [year, sourceId])
   const evidenceYear = resolution.evidenceYear
 
   // Snapshots are immutable once built, so a plain in-memory cache is enough and
@@ -233,12 +254,12 @@ export function MapPageContent() {
       .catch(() => {})
     // The coverage inventory. Stats only, no geometry, so it rides along with the
     // coastline and is never worth a loading state of its own.
-    fetch(COVERAGE_URL, { signal: controller.signal })
+    fetch(coverageUrl(sourceId), { signal: controller.signal })
       .then((response) => (response.ok ? response.json() : null))
       .then((data) => data && setCoverage(data))
       .catch(() => {})
     return () => controller.abort()
-  }, [])
+  }, [sourceId])
 
   /**
    * Put a snapshot on screen, fading out whatever was there.
@@ -285,7 +306,7 @@ export function MapPageContent() {
     // the old one stays put and the new one cross-fades in on arrival.
     if (!hasShownMap.current) setStatus('loading')
     setIsFetching(true)
-    fetch(snapshotUrl(evidenceYear), { signal: controller.signal })
+    fetch(snapshotUrl(evidenceYear, sourceId), { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`snapshot ${evidenceYear}: ${response.status}`)
         return response.json()
@@ -305,7 +326,7 @@ export function MapPageContent() {
         if (!hasShownMap.current) setStatus('error')
       })
     return () => controller.abort()
-  }, [evidenceYear, showLayer])
+  }, [evidenceYear, sourceId, showLayer])
 
   /*
    * Preload the neighbouring source dates once the page is idle.
@@ -330,7 +351,7 @@ export function MapPageContent() {
     const run = () => {
       for (const y of neighbours) {
         if (cancelled) return
-        fetch(snapshotUrl(y), { signal: controller.signal })
+        fetch(snapshotUrl(y, sourceId), { signal: controller.signal })
           .then((response) => (response.ok ? response.json() : null))
           .then((data) => data && cache.current.set(y, data))
           .catch(() => {})
@@ -345,7 +366,7 @@ export function MapPageContent() {
       if (idle) window.cancelIdleCallback?.(handle)
       else window.clearTimeout(handle)
     }
-  }, [evidenceYear])
+  }, [evidenceYear, sourceId])
 
   const polities = useMemo(() => {
     if (!snapshot) return []
@@ -575,8 +596,8 @@ export function MapPageContent() {
     navigate(href, { state: { from: `/map?${searchParams.toString()}` } })
   }
 
-  const previous = previousSnapshot(year)
-  const next = nextSnapshot(year)
+  const previous = previousSnapshot(year, sourceId)
+  const next = nextSnapshot(year, sourceId)
 
   return (
     // Both classes on ONE element, as every other page does it. `.page-section`
@@ -600,6 +621,27 @@ export function MapPageContent() {
             reconstruction at or before it — never a later one. Every frontier here is approximate.
           </p>
         </header>
+
+        {/*
+          Which reconstruction. Two, offered as a choice rather than merged,
+          because they disagree: OHM's Holy Roman Empire at 1200 reaches over
+          Brandenburg where the other's stops short of Berlin. Splicing them
+          would give one polity two extents in one year.
+        */}
+        <div className="map-sources" role="group" aria-label="Reconstruction">
+          {Object.values(MAP_SOURCES).map((option) => (
+            <button
+              key={option.id}
+              type="button"
+              className={`map-source${option.id === sourceId ? ' is-active' : ''}`}
+              aria-pressed={option.id === sourceId}
+              onClick={() => updateQuery({ src: option.id === 'hb' ? null : option.id, polity: null })}
+            >
+              <span className="map-source-label">{option.label}</span>
+              <span className="map-source-hint">{option.hint}</span>
+            </button>
+          ))}
+        </div>
 
         <div className="map-controls">
           <div className="map-year">
@@ -1134,17 +1176,17 @@ export function MapPageContent() {
         <footer className="map-attribution">
           <p>
             Geometry from{' '}
-            <a href="https://github.com/aourednik/historical-basemaps" rel="noreferrer noopener">
-              historical-basemaps
-            </a>{' '}
-            by André Ourednik, licensed <strong>GPL-3.0</strong>. It is a work in progress whose
-            author cautions that premodern borders are disputed and overlapping. This map presents
-            one reconstruction, not settled fact.
+            <a href={source.attributionUrl} rel="noreferrer noopener">
+              {source.attribution}
+            </a>
+            , licensed <strong>{source.license}</strong>. This map presents one
+            reconstruction, not settled fact.
           </p>
           <p className="map-attribution-scope">
             Canvas: {Math.abs(CANVAS.west)}°W to {CANVAS.east}°E, {CANVAS.south}°N to {CANVAS.north}°N.
-            Source dates held: {SNAPSHOT_YEARS.join(', ')}. Every other year shows the nearest
-            reconstruction before it.
+            {source.exact
+              ? ` Every feature is dated individually, so each year is reconstructed exactly. ${source.years.length} steps.`
+              : ` Source dates held: ${source.years.join(', ')}. Every other year shows the nearest reconstruction before it.`}
           </p>
         </footer>
     </section>

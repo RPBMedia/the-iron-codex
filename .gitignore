@@ -14,3 +14,11 @@ client/.render-gate/
 
 # Agent draft output (working files, not archive content)
 drafts/
+
+# The raw OpenHistoricalMap download (QUEUE 0v): 220 MB of Overpass responses,
+# rebuilt by `node scripts/fetch-ohm-source.mjs`. The built snapshots under
+# client/public/map-data/ohm/ ARE committed, and manifest.json records every
+# relation id, name, lifetime and wikidata id that went into them — so the input
+# is identified and reproducible without vendoring it. OHM is versioned, so a
+# re-fetch can be compared against that manifest.
+server/data/map/source/ohm/raw/

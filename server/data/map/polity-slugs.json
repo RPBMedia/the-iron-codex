@@ -64,7 +64,6 @@
     "Kyivan Rus": { "slug": "kievan-rus", "type": "location" },
     "Lithuania": { "slug": "grand-duchy-of-lithuania", "type": "location" },
     "Caliphate of Córdoba": { "slug": "caliphate-of-cordoba", "type": "location" },
-    "Northumbria": { "slug": "northumbria", "type": "location" },
 
     "Seljuk Caliphate": {
       "slug": "sultanate-of-rum",
@@ -169,6 +168,73 @@
       "type": "order",
       "note": "The order's monastic state in Prussia. The Codex article is the order."
     }
+  },
+
+  "_ohmComment": [
+    "OpenHistoricalMap names a polity in its own language and period: Sacrum",
+    "Imperium Romanum, Noregsveldi, Rìoghachd na h-Alba, الْخِلَافَة الْعَبَّاسِيَّة.",
+    "That is better data than an anglicised label, and it means the other source's",
+    "mapping is useless here — hence a second table rather than more aliases in the",
+    "first. Same rules: exact names only, no fuzzy matching, and a polygon with no",
+    "entry still renders and says it has no article."
+  ],
+
+  "ohmPolities": {
+    "Sacrum Imperium Romanum": { "slug": "holy-roman-empire", "type": "location" },
+    "Imperium Romanum Orientale": {
+      "slug": "byzantine-empire",
+      "type": "location",
+      "note": "The source names it as contemporaries did — the Eastern Roman Empire. 'Byzantine' is a later historians' label for the same state."
+    },
+    "Regnum Hierosolymitanum": { "slug": "kingdom-of-jerusalem", "type": "location" },
+    "Principatus Antiochenus": { "slug": "antioch", "type": "location" },
+    "Kingdom of England": { "slug": "kingdom-of-england", "type": "location" },
+    "Reaume de France": { "slug": "kingdom-of-france", "type": "location" },
+    "Royaume de France": { "slug": "kingdom-of-france", "type": "location" },
+    "Reino de Castilla": { "slug": "kingdom-of-castile", "type": "location" },
+    "Reino de León": { "slug": "kingdom-of-leon", "type": "location" },
+    "Reino de Portugal": { "slug": "kingdom-of-portugal", "type": "location" },
+    "Regnum Hungariae": { "slug": "kingdom-of-hungary", "type": "location" },
+    "Regnum Siciliae": { "slug": "kingdom-of-sicily", "type": "location" },
+    "Konungariket Sverige": { "slug": "kingdom-of-sweden", "type": "location" },
+    "Noregsveldi": { "slug": "kingdom-of-norway", "type": "location" },
+    "Rìoghachd na h-Alba": { "slug": "kingdom-of-scotland", "type": "location" },
+    "Iruñeko Erresuma": { "slug": "kingdom-of-navarre", "type": "location" },
+    "Nafarroako Erresuma": { "slug": "kingdom-of-navarre", "type": "location" },
+    "Aragonum et Catalonie": { "slug": "kingdom-of-aragon", "type": "location" },
+    "Duchie de Normaundie": { "slug": "duchy-of-normandy", "type": "location" },
+    "Status Ecclesiasticus": {
+      "slug": "papacy",
+      "type": "location",
+      "note": "The Papacy is an institution in the Codex, not a territory. The polygon is the temporal state it governed."
+    },
+    "الْخِلَافَة الْعَبَّاسِيَّة": { "slug": "abbasid-caliphate", "type": "location" },
+    "امپراتوری سلجوقی": {
+      "slug": "seljuk-turks",
+      "type": "location",
+      "note": "The Codex article is the Great Seljuk Empire (1037–1194)."
+    },
+    "Regnum Gothorum": {
+      "slug": "visigoths",
+      "type": "civilization",
+      "note": "The Codex has no article for the Visigothic Kingdom itself, only for the Visigoths as a people. This links to the people; the state remains a gap."
+    },
+    "Ostrogothic Kingdom": { "slug": "ostrogothic-kingdom", "type": "location" },
+    "Vandal Kingdom": { "slug": "vandal-kingdom", "type": "location" },
+    "Imperium Francorum": { "slug": "carolingian-empire", "type": "location" },
+    "Romanorum sive Francorum imperium": { "slug": "carolingian-empire", "type": "location" },
+    "Regnum Francorum": { "slug": "frankish-kingdom", "type": "location" },
+    "Imperium Ottomanicum": { "slug": "ottoman-empire", "type": "location" },
+    "عثمانيه": { "slug": "ottoman-empire", "type": "location" },
+    "Kyivan Rus": { "slug": "kievan-rus", "type": "location" },
+    "Київська Русь": { "slug": "kievan-rus", "type": "location" },
+    "Asturum Regnum": { "slug": "kingdom-of-asturias", "type": "location" },
+    "إمارة قرطبة": {
+      "slug": "al-andalus",
+      "type": "location",
+      "note": "The Codex has no article for the Emirate of Córdoba. This links to al-Andalus, the region; the Caliphate of Córdoba is a later state and is not linked here."
+    },
+    "خلافة قرطبة": { "slug": "caliphate-of-cordoba", "type": "location" }
   },
 
   "knownGaps": {
