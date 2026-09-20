@@ -123,6 +123,14 @@ The personality rules above still apply — brevity is not coldness, and a good
 line still lands. But wit is compression, not addition: if a joke costs a
 paragraph, drop the joke.
 
+**Owner rule, 2026-09-20 — this applies to every message, not just status
+updates, and to every project, not just this one.** Keep text output as short as
+it can be while still being useful. No filler, no preamble, no restating the
+question, nothing that is not strictly necessary. The reason is token cost: every
+unnecessary sentence is paid for. When a one-line answer is correct, send the one
+line and stop. Prefer a table or a list over prose. Do not narrate what is about
+to be done, and do not summarise what was just done if the diff already says it.
+
 ## One work list: QUEUE.md (owner rule, 2026-09-16)
 
 The repo had eight planning files and the owner could not tell which one was

@@ -22,6 +22,7 @@
 | Civilizations | 0e | Appendix C | **Phase 0 + Phase 1 shipped — 9 articles, 132/132 sections imaged.** Next: Phase 4 regional expansion, one region per batch |
 | Growth / paid acquisition | — | Appendix D | Proposal only. Nothing activated |
 | SEO verification | — | Appendix E | Reference how-to, not work |
+| **Interactive historical map** | **0v** | **Appendix F** | **HIGHEST PRIORITY — starting 2026-09-20 by owner instruction.** MVP: `/map`, whole canvas, 3 dated snapshots, year selector, polity → article |
 
 
 **Live state of what's next.** Forward-looking only — history lives in `git log`,
@@ -1492,6 +1493,57 @@ own "gates in the deploy build" rule. Step 3 of the 2026-09-14 plan.
    an approval gate). Never started. B M5 remains parked by the owner.
 
 ## Open — small, ready to run
+
+### 0v — INTERACTIVE HISTORICAL MAP. **HIGHEST PRIORITY, started 2026-09-20 (owner instruction).**
+
+Full spec is **Appendix F** at the end of this file — the owner's brief, folded in
+from `INTERACTIVE_HISTORICAL_MAP_ROADMAP.md`, which was deleted in the same commit
+per the one-work-list rule. Read all of it before any milestone.
+
+**The MVP, as scoped with the owner on 2026-09-20** (Appendix F's Milestones 0–4,
+compressed into one shippable slice):
+
+- **Scope:** the whole geographic canvas, not a single-region pilot. **Three dated
+  snapshots.** Thin feature set — year selector, click a polity, land on its article.
+- **Engine: inline SVG, no mapping library.** Reasons, in order: `check-render.mjs`
+  renders through the real component tree in Node and MapLibre's WebGL would break
+  that gate; the app has **zero code splitting**, so MapLibre's ~230 KB gzip lands on
+  all 923 article pages; an SVG `<path>` is a real focusable DOM node, which is what
+  the spec's keyboard requirement needs and a canvas cannot give. Reuse `mercY` from
+  `client/src/lib/locatorMaps.js` — do not write a second Mercator.
+  **Revisit trigger:** >~2,000 simultaneous features, raster terrain, or a conic
+  projection for Scandinavia. The next step then is `d3-geo` (ISC, ~30 KB, still
+  SSRs), *not* MapLibre.
+- **Source: `aourednik/historical-basemaps`.** Verified 2026-09-20 — in-scope
+  keyframes are exactly **500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300,
+  1400**. There is no 476 and no 1453 file, so both slider endpoints have no exact
+  source and the UI must say so. Feature properties: `NAME`, `SUBJECTO`, `PARTOF`,
+  `BORDERPRECISION` (1–3).
+- **Licence: GPL-3.0, owner accepted 2026-09-20 on condition of prominent
+  attribution.** README is silent on the data as distinct from the code, and upstream
+  provenance is thin ("collected, adapted and converted from diverse sources,
+  sometimes only available through the wayback machine"). So the map is labelled as
+  **one named reconstruction**, never settled fact, and `BORDERPRECISION` is surfaced
+  per polygon. Geometry ships as separate static files, never imported into the JS
+  bundle — which the bundle budget wanted anyway.
+- **Base layer: Natural Earth**, explicit public domain, no tile provider, no terms
+  to audit.
+- **Resolution policy: nearest source date *at or before* the selected year.** Never
+  a later one — that would show polities that did not yet exist. Outside coverage the
+  map is deliberately empty and says "not mapped ≠ empty or unruled land".
+- **An unmatched polygon still renders** — drawn, named, selectable, "No Codex
+  article yet". Never drop a polygon for lacking an article, never invent a link.
+
+**Verify before trusting (a subagent claimed these from `index.json`, not geometry):**
+`world_1200` may label the Levant "Mamluke Sultanate", which would be a 50-year
+anachronism (Mamluks begin 1250; in 1200 that ground was Ayyubid), and `world_1100`
+may contain no crusader states at all. Enumerate `NAME` and `BORDERPRECISION` from
+the real downloaded files before selecting the three dates. A feature that cannot be
+checked is dropped, not published.
+
+**Not in v1:** autoplay, raster basemap, on-map labels, event overlays, more than 3
+snapshots, overlapping-authority layering, coverage dashboard, alternative
+reconstructions, reverse links from article pages.
 
 ### INSIGHTS — three additions (queued 2026-09-11). **#1 SHIPPED 2026-09-15; #2 and #3 wait on the owner**
 
@@ -10108,3 +10160,301 @@ confirm the title is that article's title and not "The Iron Codex".
 
 **Once a week:** open Search Console and see whether the indexed page count is
 going up. That is the only number that really matters.
+
+
+---
+
+# APPENDIX F — Interactive Historical Map (queue item 0v)
+
+> Folded in from `INTERACTIVE_HISTORICAL_MAP_ROADMAP.md` on 2026-09-20 and that
+> file deleted, per the one-work-list rule in `CLAUDE.md`. This is the owner's
+> brief, unedited below this line. The MVP scope actually agreed with the owner,
+> and the decisions taken since, are in queue item **0v** above — where they
+> differ, 0v wins, because it records verified facts the brief could only guess at.
+
+# The Iron Codex — Interactive Historical Map
+
+**Feature roadmap and implementation brief for Claude**  
+**Project:** `the-iron-codex`  
+**Status:** Planning; do not treat a proposed data source or technical choice as already approved.  
+**Period:** 476–1453 CE, inclusive  
+**Primary experience:** A historically grounded, animated, explorable map of political geography across medieval Europe and its connected Mediterranean and Near Eastern worlds.
+
+> **Implementation instruction:** Read the current `CLAUDE.md`, content guidelines, repository structure and relevant map/article components before changing code. Follow existing project architecture, accessibility patterns, visual identity, naming conventions, testing and content-linking rules. This document sets feature outcomes and stage gates; investigate the repository's current state before committing to implementation details. Work milestone by milestone, report findings and verification results, and do not silently declare the entire timeline complete when only selected historical snapshots are available.
+
+---
+
+## 1. Vision and non-negotiable principles
+
+A visitor should be able to choose a year between 476 and 1453, see the political geography **supported by historical evidence for that date**, zoom from Europe to a regional theatre, select a polity, and reach its Iron Codex article. Moving through time should feel fluid without fabricating continuous territorial change.
+
+**Crucial distinction:** The *year selector* has annual precision; the *historical geographical evidence* may only support scattered dated snapshots or time intervals. A continuously moving slider must never be presented as proof that annual borders have been reconstructed. Display the selected year and the map's **actual effective source date / evidence interval** whenever they differ. Avoid calling undated extrapolation an annual map.
+
+- No invented AI-generated border geometry. AI can help find sources, detect inconsistencies and draft metadata, but a responsible human-verifiable source must ground any published geography.
+- Do not turn Medieval polities into modern nation-states with deceptively exact frontiers. The legend and information panels must distinguish direct control, tributary arrangements, vassalage, contested territory, overlapping authority, approximate frontiers and unmapped/unknown areas as evidence permits.
+- Smoothness means preloading, fading, label transitions, camera movement and non-flickering frame swaps; **do not morph one geopolitical polygon into another** unless a particular transition is genuinely justified and its meaning clear.
+- Absence of mapped territory must not be interpreted as uninhabited land or political vacuum. Use an explicit “insufficient data / not yet mapped” convention.
+- Maintain stable polity identities across renaming, dynastic change and successive state forms; do not automatically equate a dynasty, people, kingdom, empire and modern country.
+- All externally supplied data, code, map tiles, imagery and attribution must pass a license/usage review before inclusion or deployment.
+- Ship an honest, usable prototype early, then expand geographical and chronological coverage through audited increments.
+
+---
+
+## 2. Geographic scope: the full relevant medieval world
+
+**The map is NOT Europe-only.** The required map canvas and data architecture must encompass:
+
+| Region | Coverage requirement |
+|---|---|
+| British Isles and Atlantic Europe | Ireland, Britain, Atlantic islands where relevant, Iberia, France, Low Countries and adjacent waters. |
+| Northern Europe | All of Scandinavia, Denmark, Iceland where data is available, the Baltic region, northern and eastern European polities. |
+| Central, southern and eastern Europe | German-speaking lands, Italian peninsula, Balkans, Hungary, Poland, Bohemia, Rus' and steppe borderlands. |
+| Byzantine and former Byzantine regions | Balkans, Greece, Anatolia and relevant former/at-times Byzantine territories in Italy, the Caucasus, the eastern Mediterranean and North Africa. Historical maximum extent **within the 476–1453 study window**, not an anachronistic single outline applied to every year. |
+| Crusading theatres and connected regions | Entire eastern Mediterranean; Asia Minor, Levant and Holy Land (including Jerusalem, Antioch, Tripoli, Acre and Egypt/Sinai), Cyprus and other relevant islands; include Mesopotamia and adjacent inland regions insofar as necessary to contextualize crusading states, Muslim powers, Byzantium and the Mongols. |
+| North Africa | At minimum the Mediterranean coast from the Atlantic/Maghreb across Egypt, plus inland territory necessary to display historically evidenced control and campaigns. |
+| Optional broader context | Caucasus, Black Sea hinterland and deeper eastward extent where needed to avoid clipping significant medieval entities and events. |
+
+**Viewport principle:** Choose a world-coordinate spatial model and an initial *fit-to-relevant-region* camera, rather than clipping the underlying data to modern European borders. Provide presets such as `Europe`, `Scandinavia`, `British Isles`, `Iberia`, `Byzantium`, `Holy Land & Crusades`, and `Mediterranean`. A full-region preset should include all core territories even when the user must pan or zoom to read smaller entities. Do not impose a fixed extent that cuts off Cyprus, Jerusalem, Egypt, Constantinople, Iceland or medieval territories around the Black Sea. Test actual mobile map legibility rather than expecting every label to fit simultaneously.
+
+The underlying coverage inventory must evaluate both **space and time**: a dataset covering the Holy Land in 1200 does not establish Holy Land coverage in 600 or 1400.
+
+---
+
+## 3. References: examine before adopting
+
+1. **GeaCron:** https://geacron.com/ — study large-area navigation, timeline and broad historical coverage. Verify access terms; do not scrape or reuse proprietary geography without permission.
+2. **Chronas:** https://www.chronas.org/ — study interaction patterns, temporal exploration, polity details and linking history to geography. Verify current access and license before reuse.
+3. **ChronoAtlas:** https://github.com/Leto-cmd/chronoatlas — examine the timeline, keyframe markers, GeoJSON loading, cross-fade transitions, event pins and selection patterns. Its published README describes **43 keyframe years** rather than verified annual polygons and a Next.js/MapLibre implementation: use it as a UX/technical reference, not as proof of complete data or as a reason to migrate Iron Codex to Next.js. Independently check the exact code/data licenses and provenance.
+4. **Historical Basemaps:** https://github.com/aourednik/historical-basemaps — evaluate specific available GeoJSON dates, areas, feature properties, `index.json`, source provenance and polygon uncertainty indicators. Its README describes a *work-in-progress* dataset and cautions that premodern territorial outlines can be disputed and overlapping. **Audit the applicable license of every asset and upstream input**, not merely whether the repository is public.
+
+Research at least one independent scholarly/historical atlas or domain specialist for *each* pilot region/date. Record bibliographic data and access/derivative-work permissions. Acknowledging uncertainty is preferable to filling gaps with plausible-looking shapes.
+
+**Discovery deliverable:** `historical-map-source-audit.md` with candidate source, owner/URL, license, permitted transformations, attribution, dates, geographical extent, granularity, authority model, accuracy concerns, file format, update status, and adoption decision. If no source supports a proposed pilot, revise the pilot rather than invent borders.
+
+---
+
+## 4. Architecture: investigate first, then make an explicit decision
+
+The inspected repository currently includes a React/Vite client, React Router and an Express server. Verify current versions and read the actual routes, assets, deployment configuration and existing metadata before starting. Build a *native Iron Codex feature*, not an embedded copy of a reference application.
+
+### Proposed technical direction (subject to Milestone 1 evaluation)
+
+- Compare **MapLibre GL JS**, **Leaflet** and potentially **OpenLayers** for WebGL/vector styling, large multipolygons, layer transitions, mobile input, keyboard use, bundling and accessibility. Prefer the best fit for the *existing* React/Vite application and the agreed data volume; provide a short decision record. MapLibre is a strong candidate, not a predetermined dependency.
+- Evaluate vector GeoJSON/TopoJSON at pilot scale, then indexed historical feature files or vector tiles if real performance measurements justify them. Use spatial simplification that preserves meaningful borders and islands and documents geometry changes.
+- Separate immutable source geometries from temporal metadata, stable polity IDs, status/relationship types, citations and Codex article relationships. Avoid hard-coding data in React components.
+- Start with vetted static, versioned map bundles hosted through existing deployment/CDN where sufficient. Consider server-side spatial storage (e.g., PostGIS) **only if** measured dataset size, filtering, editing/review workflows or query complexity justify it. Do not introduce an operational database simply because maps are involved.
+- Audit base-map tile provider terms, attribution, rate limits, historical suitability and current-border labels. Prefer a terrain/physical base without modern political boundaries. Ensure text labels for modern countries are not accidentally shown under medieval polygons.
+- Preserve current content routes and SEO behavior; the map can be client-rendered, but existing article URLs must remain directly accessible. Do not leak secrets or license-restricted assets into publicly served bundles.
+
+### Proposed entity/snapshot contract (adapt to current code conventions)
+
+```ts
+interface HistoricalPolity {
+  id: string;                // persistent historical entity identifier
+  displayName: string;
+  aliases?: string[];
+  codexArticlePath?: string; // only a verified existing route
+  entityKind: 'empire' | 'kingdom' | 'principality' | 'republic' | 'caliphate' | 'other';
+}
+
+interface TerritorialRepresentation {
+  polityId: string;
+  sourceGeometryId: string;  // references a vetted versioned feature, not AI-drawn geometry
+  validFrom: number;         // inclusive, when defensible
+  validTo: number;           // inclusive, when defensible
+  evidenceYear?: number;     // dated source/keyframe, if not a proven interval
+  authority: 'direct' | 'vassal' | 'tributary' | 'contested' | 'overlapping' | 'unknown';
+  confidence: 'high' | 'moderate' | 'low' | 'unassessed';
+  sourceIds: string[];
+  notes?: string;
+}
+```
+
+**Important:** This is a conceptual example, not a command to assign every polygon a precise validity interval. Store null/unknown bounds or a separate snapshot model when an interval cannot be established; a source's `evidenceYear` must not silently become `validFrom` and `validTo`. Model multiple geometries per polity, overlapping claims, sub-polities, political succession and mixed authority without requiring mutually exclusive polygons. Source references must resolve to a usable citation/attribution record.
+
+### Timeline-state behavior
+
+- On a requested year, use a *documented time-resolution policy*: select documented interval features where defensible; otherwise show a dated keyframe with “Map evidence: YYYY” and the gap from the requested year; optionally display an “approximate period / unknown change date” notice. Never label the keyframe as an exact reconstructed map of the requested year.
+- Display available keyframe ticks; provide a jump-to-next/previous **source date** control and clear behavior for years with no reliable boundary coverage.
+- If incompatible source geometries exist for the same year, keep their provenance/interpretation distinct and use a documented editorial rule or explicit alternative reconstruction selector. Never silently merge them into a composite that no source supports.
+- Handle the start/end years, year changes in fast succession, zero-length intervals, overlapping bounds, islands/multipolygons, label collisions, empty data, requests aborted mid-load and browser back/forward state.
+
+---
+
+## 5. Milestone roadmap
+
+**Execution rule:** Finish each milestone's acceptance gate, commit its outcomes and update the roadmap before starting the next. Do not equate “UI complete” with “historical coverage complete.” Each milestone should produce visible evidence: screenshots/recordings, test results, source records, coverage metrics or a reviewed data sample.
+
+### Milestone 0 — Repository and reference reconnaissance
+
+**Goal:** Understand the Iron Codex foundation and define integration seams before implementation.
+
+**Tasks**
+- Read `CLAUDE.md`, content guidelines, existing client routes/layout/theme, server interfaces, asset delivery, build/test scripts and article schema. Check whether location/realm/civilization pages already expose stable IDs or useful geographic metadata.
+- Study all four references and note which UX approaches are feasible to reproduce independently. Check licenses, data reuse and attribution requirements.
+- Record the current browser support, responsive breakpoints, accessibility patterns, performance budget and existing hosting limits.
+- Write an architecture note with candidate libraries and a preliminary map route/navigation design; identify potential conflicts with existing styles and bundle size.
+
+**Deliverables:** architecture inventory; reference/licensing audit checklist; scope diagram; integration plan.
+
+**Gate:** No implementation based on guessed repository conventions; dependencies and data rights remain explicitly unapproved until investigated.
+
+### Milestone 1 — Historical source audit and coverage matrix
+
+**Goal:** Establish whether the requested experience can be built responsibly and decide how to represent missing evidence.
+
+**Tasks**
+- Inventory all historical-basemaps files inside 476–1453 and determine actual keyframe years, geometry attributes, license, origin and coverage across Europe, Scandinavia, Britain, Byzantium, North Africa and the Holy Land. Investigate alternatives for gaps.
+- Create a **region × time-period** matrix, e.g. 476–700, 701–900, 901–1050, 1051–1200, 1201–1300, 1301–1453; record whether each cell is sourced, partial, approximate or absent. These bins are for auditing, not an assumption that borders stay unchanged within them.
+- Select a **small, genuinely sourced** pilot area and at least two meaningfully different dated states; preferred candidate: eastern Mediterranean / Byzantium and Levant around the First Crusade and early crusader states, *only if* vetted usable geography exists. Otherwise choose a better-supported region and date pair. Record why.
+- Define visual and textual conventions for uncertain territory, contested rule, vassals, blank/missing coverage, reconstruction versus source snapshot, and geographic boundary disputes.
+- Draft source-to-polity mappings for the pilot, including distinctions among historical names, states and dynasties.
+
+**Deliverables:** `historical-map-source-audit.md`; coverage matrix; pilot dataset manifest; uncertainty legend spec; go/no-go recommendation for pilot.
+
+**Gate:** At least two licensed, geographically relevant, independently checked pilot snapshots exist with traceable provenance and no invented polygons. If not, pause geometry implementation and revise the scope.
+
+### Milestone 2 — Map shell and pilot geometry
+
+**Goal:** Render real historical geographic data inside the production app's design system.
+
+**Tasks**
+- Add a responsive `/map` route (or a route consistent with the current site), accessible from the existing navigation without breaking existing pages.
+- Implement the chosen mapping engine with pan, zoom, camera reset, accessible fallback controls, keyboard focus and reduced-motion behavior.
+- Use a period-neutral physical map background and render one vetted pilot snapshot with meaningful territorial fills, readable edges and a minimal legend.
+- Keep geographic coordinates and projection consistent; avoid antimeridian/wrapping artifacts and disappearing islands. Test map extents and camera presets reaching the Holy Land, Iceland and Byzantine regions even if pilot polygon data is localized.
+- Add proper data-source and map-tile attribution in the UI and documentation.
+
+**Deliverables:** working pilot map route, initial design screenshots desktop/mobile, map renderer tests.
+
+**Gate:** The published prototype can display genuine sourced geometry, navigate across the full intended geographic canvas and operate on desktop/mobile without incorrect contemporary political labels.
+
+### Milestone 3 — Year selector, map state engine and transitions
+
+**Goal:** Make the time dimension usable without misleading polygon interpolation.
+
+**Tasks**
+- Implement timeline slider from **476 to 1453 inclusive**, exact selected-year display, keyboard +/- / arrow accessibility where suitable, explicit source-date ticks, and jump-to-source controls.
+- Load at least two vetted pilot states through a deterministic selection policy; show selected year, effective geometry date/interval and provenance in the UI.
+- Preload the next state and cross-fade complete layers or use opacity transitions; update labels without flashing; cancel stale requests during rapid scrubbing. Do **not** vertex-interpolate geopolitical borders or invent territorial growth frames between events.
+- Implement play/pause and a configurable playback speed **only if** effective-source-date and sparse-coverage messaging remain legible during playback; otherwise defer autoplay while retaining year scrubbing.
+- Keep map camera reasonably stable during year changes; reflect year and selected polity in URL/query state if compatible with existing route patterns.
+
+**Deliverables:** interactive multi-snapshot demo, documented date-resolution algorithm, edge-case tests, motion/interaction recording.
+
+**Gate:** Slider works at all endpoints and rapid scrubbing, no map flicker or stale-state race; no misleading annual data claim; reduced-motion mode remains usable.
+
+### Milestone 4 — Polity selection and Iron Codex integration
+
+**Goal:** Convert map exploration into meaningful historical reading.
+
+**Tasks**
+- Selecting a territory opens an information panel with historical name(s), polity type, selected/evidence date, status of control, source citation and uncertainty note where relevant.
+- Link to the polity's **verified existing** Codex article; distinguish a missing article from a broken URL. Link adjacent relevant content (rulers, houses, civilizations, historical events) only when the current content model supports reliable mappings.
+- Build stable IDs and temporal display names so a renamed entity does not lose its selection unexpectedly; clarify when the selected polity ceased to exist in a later year.
+- Include search or a browsable list for small territories that are difficult to select on mobile; use hover only as enhancement, never as sole access path.
+- Ensure overlapping territories are explorable with an unambiguous selection chooser or layered detail; do not hide dependencies under one opaque fill.
+
+**Deliverables:** entity detail panel, verified article link mapping, selection accessibility tests.
+
+**Gate:** User can select at least three sourced pilot entities (where data supports them), read their evidence date and follow a valid corresponding article link; entities with missing Codex articles are handled gracefully.
+
+### Milestone 5 — Expand regional geography and the Byzantine–Crusader corridor
+
+**Goal:** Confirm the map architecture handles the full geographical promise, not merely a western-Europe demo.
+
+**Tasks**
+- Add vetted datasets for the Byzantine sphere, Anatolia, Black Sea, eastern Mediterranean, Levant/Holy Land, Egypt and connected North African territories for well-sourced representative dates. Include crusader states and their contemporaries without suggesting exclusive control where sources disagree.
+- Add regional camera presets and contextual historical place labels (e.g. Constantinople and Jerusalem) with time-appropriate naming when attested; labels require provenance and temporal validity, not modern geocoder names by default.
+- Test disconnected territories, islands, coastal enclaves, multiple overlays and large entities extending beyond the initial camera.
+- Validate the same features for Scandinavia, Britain and Iceland, Iberia and the eastern European edge to reveal systematic clipping or label-density problems.
+- Document areas with coverage gaps, especially where different sources use different definitions of Byzantine rule or crusader suzerainty.
+
+**Deliverables:** regional demonstration covering the major theatre presets; improved coverage matrix and geographical QA report.
+
+**Gate:** All required geographic regions are reachable in the renderer, and vetted political layers are demonstrated across representative western, northern, Byzantine and Holy Land test locations. Missing eras remain openly marked.
+
+### Milestone 6 — Expand the 476–1453 chronology in audited releases
+
+**Goal:** Increase evidential coverage without bulk-producing unreliable geometry.
+
+**Tasks**
+- Create a prioritized, dated source-ingestion queue ordered by data quality and historical significance. Suggested candidate change points for evaluation—not automatic polygons—include the post-Roman transition, Carolingian expansion and partition, Viking-era polities, 1066, the First Crusade, 1204, Mongol expansion, late Byzantine contraction and 1453. Choose exact map dates from **available evidence**.
+- Ingest vetted snapshots in batches; normalize names and stable polity IDs; preserve per-feature attribution and the original source files/hashes. Keep original geometry immutable and document all derived simplification steps.
+- Add spatial and temporal coverage metrics to the UI/docs: published snapshot dates, audited area-by-period, polity count, sourced-versus-unmapped regions and known contradictions.
+- Build editorial workflows for disputed borders, source changes, duplicate entities, temporal contradictions, corrections and review. If years between snapshots cannot be supported, continue to display a keyframe with its evidence date.
+- Avoid a fake “977 fully reconstructed yearly maps” completion target. A year-resolution interface is complete only as an **interface** until evidence justifies more precise geographical claims.
+
+**Deliverables:** published incremental snapshot batches, source ledger, coverage dashboard/report, regression test cases and explicit outstanding gaps.
+
+**Gate:** Each release meets provenance, licensing, map semantics, responsive rendering and link-integrity checks. Full timeline coverage may remain partial and must be reported accurately.
+
+### Milestone 7 — UX polish, reliability, accessibility and performance
+
+**Goal:** Make the atlas fast, elegant and reliable at practical dataset size.
+
+**Tasks**
+- Polish Codex-consistent dark/metal/archival styling, legible political colors, borders, hover/selected styles, typography and label collision handling; do not rely on color alone to express authority or uncertainty.
+- Introduce loading skeletons, source-date notices, cache/version management, tile/GeoJSON error handling and meaningful fallbacks if data does not load.
+- Measure time to first usable map, memory use, timeline response latency and interaction frame rate on mid-range mobile and desktop; define target thresholds **after baseline measurement**, then optimize through level-of-detail, feature loading, bundling and caching.
+- Test zoom/selection/slider via mouse, touch, keyboard and screen reader; provide a list-based alternative to exclusively visual polygon selection. Respect `prefers-reduced-motion`.
+- Test SSR/prerender and build pipelines so map-only browser APIs are never executed in unsupported server-render contexts; preserve article SEO and site-wide navigation.
+
+**Deliverables:** accessibility/performance test report, visual QA screenshots, load/error test cases, optimized map bundles.
+
+**Gate:** No critical a11y defects; mobile and desktop interactions remain usable; normal CI, build and existing routes pass; map data/network failures degrade gracefully.
+
+### Milestone 8 — Release documentation and editorial maintenance
+
+**Goal:** Enable trustworthy, maintainable operation after launch.
+
+**Tasks**
+- Document adding a new polity, source, snapshot, temporal name, disputed border and Codex article link; add validation scripts checking source IDs, geometry validity, duplicate identifiers, invalid year intervals and broken links.
+- Write public-facing “How to read this map,” source/attribution, uncertainty, timeline coverage and correction policy pages; make an accessible reporting path for historical errors.
+- Add a lightweight pre-publication review checklist for new geometry and an auditable changelog of historical corrections.
+- Update `CLAUDE.md` with permanent conventions **only after** prototype decisions are validated, including prohibition on AI-fabricated borders and requirement to keep map/article IDs synchronized.
+- Track later enhancements separately: campaign/event overlays, historical cities, battle markers linked to Codex articles, named trade/pilgrimage routes, side-by-side date comparison and historical route playback. Do not let these delay the core evidence-based map.
+
+**Deliverables:** contributor guide, public caveat/attribution text, review checklist, updated project instructions and maintenance backlog.
+
+**Gate:** A future contributor can safely add one vetted historical snapshot and link its polities without changing map engine code or silently misrepresenting its date.
+
+---
+
+## 6. QA scenarios Claude must explicitly demonstrate
+
+1. Choose **476**, **1453** and an intermediate year with no exact source: selected year is correct and the displayed effective evidence date/coverage is unambiguous.
+2. Scrub quickly between two heavily different pilot snapshots: old geometry is not left behind, labels do not flash, and no interpolation suggests a nonexistent gradual conquest.
+3. Set the camera to `Holy Land & Crusades`, then to `Scandinavia` and `Byzantium`; verify the full map canvas, relevant islands and region boundaries are not clipped.
+4. Select one polity with an existing article and one without: valid navigation works; missing content is honestly indicated without a broken route.
+5. Verify a polity with islands/disconnected territories, overlapping authority and disputed boundaries: components and legend do not falsely simplify status.
+6. Try a year with incomplete or missing data for the Holy Land while western Europe has a snapshot: the viewer does not mistake the empty Holy Land for empty/unruled territory.
+7. Test mobile portrait, desktop, keyboard-only, screen reader and reduced-motion use; expose a non-map selection alternative.
+8. Compare raw and simplified geometries for the pilot, ensure valid polygon rings/projection and preserve identifiable territorial features at intended zoom levels.
+9. Check citations, license notices, attribution and source manifests for each published pilot polygon; no uncited/AI-created borders.
+10. Run the repository's established tests, production build, render/SEO checks and any new map-specific tests; document failures and the fixes rather than bypassing existing gates.
+
+---
+
+## 7. Milestone reporting format
+
+After each milestone, reply with:
+
+```md
+### Milestone N — [name]
+- Status: COMPLETE / PARTIAL / BLOCKED
+- What changed: [implementation and files]
+- Historical evidence: [source URLs, dates, license and limits]
+- Coverage: [regions and source years truly represented]
+- Verification: [tests, builds, desktop/mobile screenshots or recordings]
+- Open risks or caveats: [gaps, conflicting sources, accessibility/performance]
+- Proposed next milestone: [specific activities; do not skip gates]
+```
+
+**Definition of done for the feature's first release:** A polished, navigable map spanning the required geographic canvas; an inclusive 476–1453 annual selector that transparently handles sparse source dates; real, licensed, cited pilot and expanded-region geometry; non-flickering transitions; polity selection with verified Codex navigation; mobile/keyboard accessibility; passing existing build checks; and a published inventory of which periods/regions remain insufficiently mapped. The historical dataset's eventual completion is a separately tracked, ongoing editorial program.
+
+---
+
+## 8. Immediate first instruction to Claude
+
+**Begin with Milestone 0 and Milestone 1 only.** Inspect the current `the-iron-codex` codebase and the four references; present the architecture and source-license/coverage audit before selecting a pilot or writing production map code. Do not bulk-generate medieval borders or promise yearly geographical precision. Once a defensible pilot is identified, implement Milestones 2–4 as a vertically complete slice and use its measured results to plan expansion. Preserve all existing articles, their links and Iron Codex design conventions throughout.
