@@ -216,6 +216,21 @@ export default function DetailPage({ article: providedArticle = null }) {
 function BackToArchiveLink({ collection, routerLocation, navigate }) {
   const label = collectionLabels[collection] ?? 'archive'
   const from = routerLocation.state?.from
+
+  /*
+   * Arriving from the map, "Back to Locations" is simply untrue — and worse, it
+   * throws away the year and the camera the reader had set. History back returns
+   * to the exact URL, so the map comes back on the same year, the same preset and
+   * the same scroll position.
+   */
+  if (typeof from === 'string' && from.startsWith('/map')) {
+    return (
+      <button type="button" className="back-link back-link-button" onClick={() => navigate(-1)}>
+        Back to the map
+      </button>
+    )
+  }
+
   // If we arrived here from this collection's archive list, go back through
   // history so the list restores its scroll position and loaded item count.
   const cameFromArchive = typeof from === 'string' && from.startsWith(`/${collection}`)

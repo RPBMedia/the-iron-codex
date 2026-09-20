@@ -516,8 +516,15 @@ export function MapPageContent() {
   const openOrSelect = (properties) => {
     if (dragEnded.current) return
     const href = articleHref(properties)
-    if (href) navigate(href)
-    else select(properties.name)
+    if (!href) {
+      select(properties.name)
+      return
+    }
+    // Carry where we came from, INCLUDING the query, so the article's back link
+    // says "Back to the map" and history returns to this year and this camera
+    // rather than to a default map. Same `state.from` convention the archive
+    // cards already use (ArticleCard.jsx).
+    navigate(href, { state: { from: `/map?${searchParams.toString()}` } })
   }
 
   const previous = previousSnapshot(year)
@@ -878,7 +885,11 @@ export function MapPageContent() {
                     </p>
                     {selected.linkNote && <p className="map-panel-note">{selected.linkNote}</p>}
                     {articleHref(selected) ? (
-                      <Link className="map-panel-read" to={articleHref(selected)}>
+                      <Link
+                        className="map-panel-read"
+                        to={articleHref(selected)}
+                        state={{ from: `/map?${searchParams.toString()}` }}
+                      >
                         Read the article →
                       </Link>
                     ) : (

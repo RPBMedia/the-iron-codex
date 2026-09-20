@@ -4847,3 +4847,12 @@ a.tree-person:hover .tree-person-name {
   outline-offset: 3px;
   border-radius: 3px;
 }
+
+/* `.rail-card` is 94% opaque, which is fine inside an article where it sits on
+   one flat surface. The map's panel straddles the edge of the dark hero band, so
+   that 6% let the boundary show straight through the card as a hard horizontal
+   line across it (owner report, 2026-09-20). Opaque here only — article rails
+   keep the translucency they were designed with. */
+.map-side .rail-card {
+  background: #fffaf0;
+}
