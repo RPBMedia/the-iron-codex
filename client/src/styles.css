@@ -4176,9 +4176,14 @@ a.tree-person:hover .tree-person-name {
   fill: #cfd8dd;
 }
 
+/* Hoverable since 2026-09-20. It carries no political information and is never
+   selectable, but ground with no polity over it is the one thing on this map a
+   reader cannot interrogate, and the owner had to ask why northern Germany was
+   blank at 1200. Now it answers where the question is asked. Where a polity
+   covers the land, that polity's path is on top and takes the pointer first. */
 .map-land {
   fill: #e6e0d2;
-  pointer-events: none;
+  cursor: help;
 }
 
 .map-polity {
@@ -4918,4 +4923,14 @@ a.tree-person:hover .tree-person-name {
    keep the translucency they were designed with. */
 .map-side .rail-card {
   background: #fffaf0;
+}
+
+/* The unmapped-ground tooltip. Deliberately not styled as a warning — unmapped
+   is the normal condition of a great deal of this map, and dressing it in red
+   would imply the mapped parts are correspondingly certain. They are not; every
+   frontier here is approximate. */
+.map-tooltip.is-unmapped {
+  background: rgba(45, 42, 36, 0.94);
+  font-style: italic;
+  font-weight: 620;
 }

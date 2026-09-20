@@ -421,12 +421,33 @@ export function MapPageContent() {
      * what a keyboard or screen-reader user actually uses.
      */
     if (event.pointerType !== 'mouse' || !rect) return
+    const x = event.clientX - rect.left
+    const y = event.clientY - rect.top
+
     const name = event.target?.getAttribute?.('data-polity')
-    if (!name) {
-      setHover(null)
+    if (name) {
+      setHover({ name, x, y })
       return
     }
-    setHover({ name, x: event.clientX - rect.left, y: event.clientY - rect.top })
+
+    /*
+     * Ground with no polity over it answers for itself.
+     *
+     * The owner asked why northern Germany and the Baltic are blank around 1200
+     * and what the criterion was. There is no criterion — the source simply has
+     * no feature there, inconsistently: Berlin is mapped at 700 through 1100 and
+     * again from 1279, and blank only at 1200; Gdansk is blank in all eleven
+     * years. The map already drew that ground as land rather than sea, which says
+     * "nobody mapped this" if you know to read it, and the guide says it in
+     * words — but the reader was looking at the map, not the guide, so the answer
+     * belongs here.
+     */
+    if (event.target?.getAttribute?.('data-unmapped')) {
+      setHover({ unmapped: true, x, y })
+      return
+    }
+
+    setHover(null)
   }
 
   const onPointerUp = (event) => {
@@ -742,7 +763,17 @@ export function MapPageContent() {
                 */}
                 {land?.features.map((feature, index) =>
                   pathsForFeature(feature).map((d, part) => (
-                    <path key={`land-${index}-${part}`} d={d} className="map-land" aria-hidden="true" />
+                    <path
+                      key={`land-${index}-${part}`}
+                      d={d}
+                      className="map-land"
+                      // Hoverable, so ground with no polity over it can say so.
+                      // Where a polity covers the land its own path is on top and
+                      // takes the pointer, so this only ever answers for ground
+                      // that really is unmapped.
+                      data-unmapped="1"
+                      aria-hidden="true"
+                    />
                   ))
                 )}
                 {/*
@@ -839,11 +870,15 @@ export function MapPageContent() {
               */}
               {hover && (
                 <div
-                  className={`map-tooltip${hover.x > 0.72 * (svgRef.current?.clientWidth ?? 0) ? ' flip' : ''}`}
+                  className={
+                    `map-tooltip` +
+                    (hover.x > 0.72 * (svgRef.current?.clientWidth ?? 0) ? ' flip' : '') +
+                    (hover.unmapped ? ' is-unmapped' : '')
+                  }
                   style={{ left: `${hover.x}px`, top: `${hover.y}px` }}
                   aria-hidden="true"
                 >
-                  {hover.name}
+                  {hover.unmapped ? `Not mapped in ${evidenceYear}` : hover.name}
                 </div>
               )}
               </div>

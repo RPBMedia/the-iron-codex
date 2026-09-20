@@ -1,9 +1,9 @@
 # Map geometry — source record
 
-These three files are the **unmodified upstream originals**. Nothing in this
-directory is ever edited by hand or by script. Derived, simplified output goes to
-`client/public/map/`, and `scripts/build-map-snapshots.mjs` is the only thing that
-writes it. Keeping the original immutable is what makes the "raw versus simplified"
+These eleven files are the **unmodified upstream originals** — every year the
+source publishes inside 476–1453. Nothing in this directory is ever edited by hand
+or by script. Derived, simplified output goes to `client/public/map-data/`, and
+`scripts/build-map-snapshots.mjs` is the only thing that writes it. Keeping the original immutable is what makes the "raw versus simplified"
 comparison a diff rather than a re-download.
 
 ## Provenance
@@ -25,7 +25,12 @@ comparison a diff rather than a re-download.
 | `world_600.geojson` | `e8d285de5d4257c5` | 1,025,118 |
 | `world_700.geojson` | `bb66ebee15e57f5d` | 966,976 |
 | `world_800.geojson` | `9d046cdc4662109c` | 977,296 |
+| `world_900.geojson` | `f483b93e799d6518` | 1,056,118 |
+| `world_1000.geojson` | `2140776fd7888c1d` | 1,040,461 |
 | `world_1100.geojson` | `8b038ee5ec8f032d` | 1,065,110 |
+| `world_1200.geojson` | `2d6913ecedb38e26` | 1,050,917 |
+| `world_1279.geojson` | `839f48f61d984dd5` | 1,028,721 |
+| `world_1300.geojson` | `a27985e60d936611` | 1,021,630 |
 | `world_1400.geojson` | `c6b0efcb42d9520a` | 1,053,803 |
 
 Full hashes are recorded per snapshot in `client/public/map-data/snapshot-*.json`.
@@ -37,7 +42,7 @@ option.
 
 ## The land layer
 
-`ne_110m_land.geojson` — **Natural Earth**, https://www.naturalearthdata.com/.
+`ne_50m_land.geojson` — **Natural Earth**, https://www.naturalearthdata.com/.
 
 Terms, verbatim from the project: *"No permission is needed to use Natural Earth.
 Crediting the authors is unnecessary."* Public domain, so unlike the political
@@ -49,8 +54,11 @@ indistinguishable and all three read as holes punched in the world — which say
 land was not there, rather than that nobody has mapped who held it. It carries no
 political information and is not evidence of anything.
 
-110m rather than 50m: at this canvas the extra coastline detail is invisible and
-110m is a twelfth of the bytes (26 KB built).
+**50m since 2026-09-20.** 110m was 26 KB and perfectly adequate while the map was a
+small static figure, but pan and zoom made it visibly polygonal. 50m at its own
+harder tolerance of 0.02° is 181 KB built, fetched once and cached immutably —
+which is the right place to spend bytes on a layer the reader looks at for a whole
+session.
 
 Re-download and compare the hash before trusting a rebuild: the upstream project is
 a work in progress and its geometry changes.
@@ -66,7 +74,7 @@ unsettled, and the owner's call was to proceed with clear attribution rather tha
 wait on a clarification that may never come. The conditions that decision carries:
 
 - GPL-3.0 and the upstream URL appear **in the map UI itself**, not only here.
-- Derived geometry ships as **separate static files under `client/public/map/`** and
+- Derived geometry ships as **separate static files under `client/public/map-data/`** and
   is never `import`ed into a JavaScript module. It is fetched at runtime. This keeps
   the data out of the application bundle, which the bundle budget wanted anyway —
   the licence constraint and the performance constraint happen to point the same way.
@@ -90,8 +98,9 @@ Independent cross-checking is ongoing editorial work, tracked in `QUEUE.md` item
 
 `NAME`, `SUBJECTO` (overlord), `PARTOF` (larger cultural area), `BORDERPRECISION`.
 
-**`BORDERPRECISION` is `1` on every single feature in all three files** — 225/225 at
-800, 235/235 at 1100, 233/233 at 1400. The scale runs 1–3 (approximate → determined
+**`BORDERPRECISION` is `1` on every single feature of every in-scope file** —
+225/225 at 800, 235/235 at 1100, 233/233 at 1400, and the same everywhere else.
+The scale runs 1–3 (approximate → determined
 by international law), and for medieval years nothing is above 1. The legend
 therefore states flatly that *every* frontier on this map is approximate. It must not
 imply a gradient, because there is no gradient in the data.
@@ -153,6 +162,30 @@ those snapshots. Two cases forced it, and both would have shipped as silent erro
 
 Out of range a polygon is drawn and named like any other unlinked one. It is never
 linked to "the closest article".
+
+### Gaps are inconsistent from year to year
+
+The source does not cover the same ground at every date, and the holes do not
+follow any rule we could find. Traced on 2026-09-20 after the owner asked why
+northern Germany and the Baltic are blank around 1200:
+
+| | 700 | 1000 | 1100 | 1200 | 1279 |
+|---|---|---|---|---|---|
+| Berlin | Proto-Slavs | Pomerania | Prussians | **—** | Holy Roman Empire |
+| Riga | Balts | Baltic tribes | **—** | **—** | Teutonic Knights |
+| Gdansk | — | — | — | — | — |
+
+Berlin is mapped either side of 1200 and blank at it. Riga is mapped at 700–1000,
+blank at 1100–1200, and mapped again from 1279. **Gdansk is blank in all eleven
+years.** Something was plainly there each time — Pomerania, Brandenburg, the
+Prussians, the Livonian orders — so these are gaps in the reconstruction, not
+claims about the ground.
+
+Nothing is done to fill them. Inventing a polygon is the one thing this map must
+never do, and interpolating "Prussians at 1100, therefore Prussians at 1200" would
+be exactly that. What changed instead is that the map now answers for itself:
+hovering unmapped ground says *"Not mapped in 1200"* rather than leaving the reader
+to work out whether the blankness means anything.
 
 ### Coastal cities cannot be located in this data
 
