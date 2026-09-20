@@ -334,6 +334,9 @@ writeFileSync(join(outDir, 'land.json'), JSON.stringify(land))
 console.log(`land.json: ${land.features.length} features, ${Math.round(Buffer.byteLength(JSON.stringify(land)) / 1024)} KB\n`)
 
 const summary = []
+const coverage = []
+const unlinkedEverywhere = new Map()
+
 for (const year of SNAPSHOT_YEARS) {
   const snapshot = buildSnapshot(year)
   const target = join(outDir, `snapshot-${year}.json`)
@@ -349,7 +352,53 @@ for (const year of SNAPSHOT_YEARS) {
     reduction: `${Math.round((1 - p.positionsAfter / p.positionsBefore) * 100)}%`,
     dropped: p.droppedFeatures.join(', ') || '—'
   })
+
+  coverage.push({
+    year,
+    polities: p.polityCount,
+    linked: p.linkedCount,
+    dropped: p.droppedFeatures
+  })
+
+  for (const { properties } of snapshot.features) {
+    if (properties.slug) continue
+    const seen = unlinkedEverywhere.get(properties.name) ?? { name: properties.name, years: [], note: properties.gapNote }
+    if (!seen.years.includes(year)) seen.years.push(year)
+    unlinkedEverywhere.set(properties.name, seen)
+  }
 }
+
+/*
+ * The coverage inventory.
+ *
+ * The brief's definition of done asks for "a published inventory of which periods
+ * and regions remain insufficiently mapped", and it is the one deliverable that
+ * cannot be faked by the interface looking finished. A year selector spanning
+ * 476–1453 is complete as an INTERFACE while the evidence behind it is eleven
+ * dated files, and this file is what stops the first being mistaken for the second.
+ *
+ * Stats only, no geometry, so it is small enough for the page to fetch alongside a
+ * snapshot without being noticed.
+ */
+const inventory = {
+  generated: new Date().toISOString().slice(0, 10),
+  period: { first: 476, last: 1453 },
+  sourceYears: SNAPSHOT_YEARS,
+  // The years the slider covers with no source at or before them. Blank map.
+  unmappedBefore: SNAPSHOT_YEARS[0],
+  canvas: CANVAS,
+  years: coverage,
+  totals: {
+    snapshots: SNAPSHOT_YEARS.length,
+    distinctPolities: new Set(coverage.flatMap((c) => c.polities)).size,
+    unlinkedPolities: unlinkedEverywhere.size
+  },
+  unlinked: [...unlinkedEverywhere.values()].sort((a, b) => a.name.localeCompare(b.name))
+}
+writeFileSync(join(outDir, 'coverage.json'), JSON.stringify(inventory))
+console.log(
+  `coverage.json: ${inventory.years.length} years, ${inventory.unlinked.length} polities with no article\n`
+)
 
 console.table(summary)
 console.log(`\nWrote ${SNAPSHOT_YEARS.length} snapshots to client/public/map-data/`)

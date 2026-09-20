@@ -193,3 +193,43 @@ test('a typed year is clamped to the period, and nonsense is refused rather than
     assert.equal(parseTypedYear(bad), null, `${JSON.stringify(bad)} should be refused, not guessed`)
   }
 })
+
+test('the coverage inventory matches what was actually published', () => {
+  // The brief's definition of done asks for a published inventory of which
+  // periods and regions remain insufficiently mapped. It is the one deliverable a
+  // finished-looking interface cannot fake — a slider spanning 476-1453 is
+  // complete as an INTERFACE long before the evidence behind it is.
+  //
+  // So the numbers have to be real. An inventory that drifts from the snapshots
+  // is worse than none: it would report coverage the map does not have, which is
+  // exactly the claim this whole feature is built to avoid making.
+  const coverage = JSON.parse(
+    readFileSync(join(root, 'client', 'public', 'map-data', 'coverage.json'), 'utf8')
+  )
+
+  assert.deepEqual(coverage.sourceYears, SNAPSHOT_YEARS, 'the inventory lists different years than are built')
+  assert.equal(coverage.unmappedBefore, SNAPSHOT_YEARS[0])
+  assert.equal(coverage.period.first, 476)
+  assert.equal(coverage.period.last, 1453)
+
+  for (const row of coverage.years) {
+    const features = snapshot(row.year).features
+    const names = new Set(features.map((f) => f.properties.name))
+    const linked = new Set(features.filter((f) => f.properties.slug).map((f) => f.properties.name))
+    assert.equal(row.polities, names.size, `${row.year}: inventory claims ${row.polities} polities, snapshot has ${names.size}`)
+    assert.equal(row.linked, linked.size, `${row.year}: inventory claims ${row.linked} linked, snapshot has ${linked.size}`)
+    assert.ok(row.linked <= row.polities, `${row.year}: more linked than exist`)
+  }
+
+  // Every unlinked polity it names must really be unlinked, in the years it names.
+  for (const entry of coverage.unlinked) {
+    for (const year of entry.years) {
+      const feature = snapshot(year).features.find((f) => f.properties.name === entry.name)
+      assert.ok(feature, `${year}: inventory names ${entry.name}, which is not in the snapshot`)
+      assert.equal(feature.properties.slug, null, `${year}: ${entry.name} is listed as unlinked but has an article`)
+    }
+  }
+
+  assert.equal(coverage.totals.unlinkedPolities, coverage.unlinked.length)
+  assert.ok(coverage.unlinked.length > 0, 'nothing is unlinked — either a triumph or a bug, and it is a bug')
+})

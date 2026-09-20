@@ -60,6 +60,18 @@ export const SNAPSHOT_YEARS = [500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 
 /** Physical coastline under the politics, so water reads as water. Public domain. */
 export const LAND_URL = '/map-data/land.json'
 
+/**
+ * The coverage inventory: which years are sourced, how many polities each holds,
+ * and which of them the Codex has no article for. Stats only, no geometry.
+ *
+ * The brief's definition of done asks for "a published inventory of which periods
+ * and regions remain insufficiently mapped", and it is the one deliverable a
+ * finished-looking interface cannot fake. A slider spanning 476-1453 is complete
+ * as an INTERFACE while the evidence behind it is eleven dated files; this is what
+ * stops the first being read as the second.
+ */
+export const COVERAGE_URL = '/map-data/coverage.json'
+
 /** The Codex's period. The slider spans all of it; the evidence does not. */
 export const FIRST_YEAR = 476
 export const LAST_YEAR = 1453
