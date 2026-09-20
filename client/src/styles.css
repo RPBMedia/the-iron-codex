@@ -4740,3 +4740,35 @@ a.tree-person:hover .tree-person-name {
 .map-coverage td {
   font-variant-numeric: tabular-nums;
 }
+
+/* The keyboard hint for the map (QUEUE 0v, milestone 7).
+   Visible rather than screen-reader-only: arrow-key navigation is
+   undiscoverable by definition, and a sighted keyboard user needs to be told
+   as much as anyone. It sits with the camera controls because that is where a
+   reader looks before touching the map. */
+.map-keyhint {
+  flex-basis: 100%;
+  order: 3;
+  margin: 0;
+  color: #6d717a;
+  font-size: 0.78rem;
+}
+
+.map-keyhint kbd {
+  padding: 1px 5px;
+  border: 1px solid rgba(141, 147, 159, 0.5);
+  border-radius: 3px;
+  background: #fffaf0;
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+
+/* The map is ONE tab stop, so its focus ring has to be unmistakable — it is the
+   only thing telling a keyboard user where they are on a map of seventy
+   territories. Heavier than the site's usual ring for that reason. */
+.map-polity:focus-visible {
+  stroke: #0b0b0d;
+  stroke-dasharray: none;
+  stroke-width: 3.5;
+}

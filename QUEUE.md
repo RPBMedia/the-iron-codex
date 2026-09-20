@@ -1755,6 +1755,38 @@ So the owner's wish for borders changing every decade is **achievable, but only 
 Europe, and only as a clearly separate view.** For the whole canvas, eleven dated
 reconstructions is what the evidence supports today, and the map already says so.
 
+**Milestone 7 — measured baseline, 2026-09-20.** The brief says to define targets
+*after* measuring, not before, so these are the numbers as built rather than
+aspirations.
+
+    JS bundle          591 KB raw / 171 KB gzip   (the map page added ~11 KB raw, ~4 KB gzip)
+    CSS                 60 KB raw /  13 KB gzip
+    First map view     103 KB gzip   land 60 + snapshot 39 + coverage 2
+    Each further year   ~40 KB gzip, cached immutably, fetched once ever
+    All eleven years  1356 KB raw total, only if a reader visits every one
+
+The SVG decision pays for itself here and it is worth stating as a number: MapLibre
+would have added about **230 KB gzip of library alone**, before a byte of geometry —
+more than twice what the entire first view costs now, on all 923 article pages,
+since the app has no code splitting.
+
+**Targets, set now that there is a baseline:** first map view under 150 KB gzip;
+any single snapshot under 60 KB gzip; the bundle's map contribution under 20 KB raw.
+`tests/map-geometry.test.mjs` already enforces a 200 KB raw ceiling per snapshot,
+which is the same constraint from the other end.
+
+**Keyboard: the map is one tab stop.** It was seventy — one per polity — so reaching
+the list below it meant seventy presses and reaching the footer meant seventy more.
+Now a roving tabindex: Tab reaches the map, arrows move between territories in the
+list's order (not the file's, so the two halves of the page agree on what comes
+next), Home and End jump to the ends, Enter selects, Escape clears. The hint is
+visible rather than screen-reader-only, because arrow-key navigation is
+undiscoverable by definition and a sighted keyboard user needs telling too.
+
+**Still unmeasured, and honestly so:** real screen-reader behaviour (NVDA, VoiceOver),
+interaction frame rate while panning a seventy-polygon layer on a mid-range phone,
+and memory. These need a device and a person, not a build script.
+
 **Still open:** a reverse link from an article to its territory on the map (note it
 must be gated too while the map is admin-only, or readers get a link to a page that
 answers "not found"); making the page indexable once coverage justifies the crawl

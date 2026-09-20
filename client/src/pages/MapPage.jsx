@@ -178,6 +178,23 @@ export function MapPageContent() {
   const drag = useRef(null)
   const dragEnded = useRef(false)
 
+  /*
+   * Roving tabindex over the territories.
+   *
+   * Before this the map was seventy-odd tab stops — one per polity — so reaching
+   * the list below it meant pressing Tab seventy times, and reaching the footer
+   * meant doing it again. That is the standard failure of drawing interactive
+   * things as sibling elements, and the standard fix is this: the whole map is ONE
+   * tab stop, and the arrow keys move between territories inside it.
+   *
+   * Navigation order is the LIST's order, not the file's. The source emits
+   * features in whatever order it pleases; a reader arrowing through the map and
+   * a reader reading the list should traverse the same sequence, or the two
+   * halves of this page disagree about what is next.
+   */
+  const pathRefs = useRef(new Map())
+  const [focusName, setFocusName] = useState(null)
+
   useEffect(() => {
     setView(viewFromBounds(presetById(presetId).bounds))
   }, [presetId])
@@ -441,6 +458,28 @@ export function MapPageContent() {
     if (parsed !== year) updateQuery({ year: parsed })
   }
 
+  const orderedNames = useMemo(() => polities.map((p) => p.name), [polities])
+
+  // The territory that currently owns the map's single tab stop. Falls back to
+  // the first, so the map is always reachable even before anything is focused —
+  // and re-anchors when the year changes and that name is no longer on the map.
+  const rovingName = orderedNames.includes(focusName) ? focusName : orderedNames[0] ?? null
+
+  const moveRoving = (delta) => {
+    if (!orderedNames.length) return
+    const from = orderedNames.indexOf(rovingName)
+    const next = orderedNames[(from + delta + orderedNames.length) % orderedNames.length]
+    setFocusName(next)
+    pathRefs.current.get(next)?.focus()
+  }
+
+  const jumpRoving = (index) => {
+    const name = orderedNames.at(index)
+    if (!name) return
+    setFocusName(name)
+    pathRefs.current.get(name)?.focus()
+  }
+
   // A pan that happens to end over a territory must not select it.
   const select = (name) => {
     if (dragEnded.current) return
@@ -607,6 +646,15 @@ export function MapPageContent() {
                     </button>
                   ))}
                 </div>
+                {/*
+                  Visible, not a screen-reader-only hint. Arrow-key navigation is
+                  undiscoverable by definition, and a sighted keyboard user needs
+                  to know it as much as a screen-reader one does.
+                */}
+                <p className="map-keyhint">
+                  Tab to the map, then <kbd>←</kbd> <kbd>→</kbd> to move between
+                  territories and <kbd>Enter</kbd> to open one.
+                </p>
                 <div className="map-zoom" role="group" aria-label="Zoom">
                   <button type="button" onClick={() => zoomBy(1 / 1.4)} aria-label="Zoom in">+</button>
                   <button type="button" onClick={() => zoomBy(1.4)} aria-label="Zoom out">&minus;</button>
@@ -684,23 +732,55 @@ export function MapPageContent() {
                         return pathsForFeature(feature).map((d, part) => (
                           <path
                             key={`${name}-${index}-${part}`}
+                            ref={
+                              isCurrent && part === 0
+                                ? (node) => {
+                                    if (node) pathRefs.current.set(name, node)
+                                    else pathRefs.current.delete(name)
+                                  }
+                                : undefined
+                            }
                             d={d}
                             data-polity={isCurrent ? name : undefined}
                             className={`map-polity${isSelected ? ' is-selected' : ''}`}
                             style={{ fill: fillFor(name) }}
-                            tabIndex={isCurrent && part === 0 ? 0 : -1}
+                            // ONE tab stop for the whole map: only the roving
+                            // territory is reachable by Tab, the rest by arrows.
+                            tabIndex={isCurrent && part === 0 && name === rovingName ? 0 : -1}
                             role={isCurrent && part === 0 ? 'button' : 'presentation'}
                             aria-pressed={isCurrent && part === 0 ? isSelected : undefined}
                             aria-label={isCurrent && part === 0 ? name : undefined}
                             aria-hidden={isCurrent && part === 0 ? undefined : 'true'}
+                            onFocus={isCurrent && part === 0 ? () => setFocusName(name) : undefined}
                             onClick={isCurrent ? () => select(name) : undefined}
                             onKeyDown={(event) => {
                               if (!isCurrent) return
                               if (event.key === 'Enter' || event.key === ' ') {
                                 event.preventDefault()
                                 select(name)
+                                return
                               }
-                              if (event.key === 'Escape') clearSelection()
+                              if (event.key === 'Escape') {
+                                clearSelection()
+                                return
+                              }
+                              // Both axes move by one in the list order. A map has
+                              // no rows, so pretending up and down mean something
+                              // spatial would be a lie the geometry cannot keep.
+                              const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[event.key]
+                              if (step) {
+                                event.preventDefault()
+                                moveRoving(step)
+                                return
+                              }
+                              if (event.key === 'Home') {
+                                event.preventDefault()
+                                jumpRoving(0)
+                              }
+                              if (event.key === 'End') {
+                                event.preventDefault()
+                                jumpRoving(-1)
+                              }
                             }}
                           />
                         ))
