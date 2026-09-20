@@ -4524,12 +4524,16 @@ a.tree-person:hover .tree-person-name {
   position: absolute;
   z-index: 5;
   transform: translate(14px, -130%);
-  padding: 5px 9px;
-  border-radius: 4px;
+  /* Was 5px 9px at 0.78rem, which left the text almost touching the edge and
+     read as unfinished. The vertical padding is the half that was really wrong:
+     a label needs more room above and below its x-height than beside it. */
+  padding: 8px 12px;
+  border-radius: 5px;
   background: rgba(11, 11, 13, 0.92);
   color: var(--paper);
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   font-weight: 780;
+  line-height: 1.2;
   white-space: nowrap;
   /* It must never eat a click meant for the territory underneath it, and it must
      never trigger its own pointerleave by sitting under the cursor. */
@@ -4576,4 +4580,15 @@ a.tree-person:hover .tree-person-name {
 .map-layer.is-leaving {
   animation: map-layer-out 260ms ease-out forwards;
   pointer-events: none;
+}
+
+/* A background snapshot fetch. The map stays on screen while it runs — blanking
+   it was the flicker the owner found crossing 800 to 790 — so this line is the
+   only sign anything is happening. Deliberately quiet: it is not an error, and
+   on a fast connection it is gone before it is read. */
+.map-evidence-fetching {
+  margin: -8px 0 12px;
+  color: var(--silver-dim);
+  font-size: 0.82rem;
+  font-style: italic;
 }

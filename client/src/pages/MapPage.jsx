@@ -138,6 +138,20 @@ export function MapPageContent() {
   const fadeTimer = useRef(null)
   const snapshot = layers.length ? layers[layers.length - 1].data : null
 
+  /*
+   * Whether a map has ever been on screen. This is what stops the flicker the
+   * owner found crossing 800 to 790: the first visit to an uncached year used to
+   * set status to 'loading', which unmounts the whole map block — so the map
+   * vanished, the spinner appeared, and then a fresh map faded in from nothing.
+   * The fade was working; it was fading in over a hole.
+   *
+   * With a map already up, a later fetch leaves it alone and the new layer simply
+   * cross-fades in when it lands. The spinner is only ever for the first load,
+   * when there is genuinely nothing to look at.
+   */
+  const hasShownMap = useRef(false)
+  const [isFetching, setIsFetching] = useState(false)
+
   const [land, setLand] = useState(null)
   const [status, setStatus] = useState('loading')
   const [query, setQuery] = useState('')
@@ -207,6 +221,7 @@ export function MapPageContent() {
    * leaves ten layers stacked at partial opacity and the map turns to mud.
    */
   const showLayer = useCallback((key, data) => {
+    if (data) hasShownMap.current = true
     setLayers((prev) => {
       const current = prev[prev.length - 1]
       if (current && current.key === key) return prev
@@ -238,7 +253,10 @@ export function MapPageContent() {
     // slowest response wins rather than the newest, and the map settles on a year
     // the reader has already left.
     const controller = new AbortController()
-    setStatus('loading')
+    // Only blank the page when there is nothing to blank. With a map already up,
+    // the old one stays put and the new one cross-fades in on arrival.
+    if (!hasShownMap.current) setStatus('loading')
+    setIsFetching(true)
     fetch(snapshotUrl(evidenceYear), { signal: controller.signal })
       .then((response) => {
         if (!response.ok) throw new Error(`snapshot ${evidenceYear}: ${response.status}`)
@@ -248,12 +266,58 @@ export function MapPageContent() {
         cache.current.set(evidenceYear, data)
         showLayer(evidenceYear, data)
         setStatus('ready')
+        setIsFetching(false)
       })
       .catch((error) => {
-        if (error.name !== 'AbortError') setStatus('error')
+        if (error.name === 'AbortError') return
+        setIsFetching(false)
+        // A failed refetch keeps the map that is already on screen. Replacing a
+        // working 800 with an error panel because 700 timed out would lose more
+        // than it reports.
+        if (!hasShownMap.current) setStatus('error')
       })
     return () => controller.abort()
   }, [evidenceYear, showLayer])
+
+  /*
+   * Preload the neighbouring source dates once the page is idle.
+   *
+   * The cross-fade only looks like a transition when the geometry is already in
+   * hand; otherwise there is a network round trip in the middle of it and the
+   * fade starts late. Scrubbing almost always goes to an adjacent keyframe, so
+   * fetching those two ahead removes the wait in the common case.
+   *
+   * `requestIdleCallback` so this never competes with the snapshot actually being
+   * looked at, with a timeout fallback for Safari, which still lacks it.
+   */
+  useEffect(() => {
+    if (evidenceYear === null) return undefined
+    const neighbours = [previousSnapshot(evidenceYear), nextSnapshot(evidenceYear)].filter(
+      (y) => y !== null && !cache.current.has(y)
+    )
+    if (!neighbours.length) return undefined
+
+    let cancelled = false
+    const controller = new AbortController()
+    const run = () => {
+      for (const y of neighbours) {
+        if (cancelled) return
+        fetch(snapshotUrl(y), { signal: controller.signal })
+          .then((response) => (response.ok ? response.json() : null))
+          .then((data) => data && cache.current.set(y, data))
+          .catch(() => {})
+      }
+    }
+
+    const idle = window.requestIdleCallback
+    const handle = idle ? idle(run, { timeout: 2000 }) : window.setTimeout(run, 400)
+    return () => {
+      cancelled = true
+      controller.abort()
+      if (idle) window.cancelIdleCallback?.(handle)
+      else window.clearTimeout(handle)
+    }
+  }, [evidenceYear])
 
   const polities = useMemo(() => {
     if (!snapshot) return []
@@ -468,6 +532,14 @@ export function MapPageContent() {
               {evidenceYear === null ? 'No map evidence' : `Map evidence: ${evidenceYear}`}
             </p>
             <p className="map-evidence-note">{evidenceSentence(year, resolution)}</p>
+            {/*
+              A background fetch is quiet but not silent. The map stays on screen
+              while it runs, so without this line a slow connection looks like the
+              map ignoring the year you chose.
+            */}
+            {isFetching && status === 'ready' && (
+              <p className="map-evidence-fetching">Fetching the {evidenceYear} reconstruction…</p>
+            )}
             <div className="map-jumps">
               <button
                 type="button"
