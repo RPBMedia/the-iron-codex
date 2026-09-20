@@ -278,15 +278,18 @@ for (const [collection, arr] of Object.entries(data)) {
   // geometry arrives by fetch — so `.map-figure` is legitimately absent here and
   // asserting it would be asserting that the map fetches during SSR, which it
   // must not. What has to survive without data is the honesty furniture.
-  for (const marker of ['map-evidence', 'map-year', 'map-attribution', 'loading-state']) {
+  for (const marker of ['map-year', 'map-attribution', 'loading-state']) {
     if (!has(html, marker)) failures.push(`map page: did not render .${marker}`)
   }
   if (!has(html, '1147')) failures.push('map page: the selected year from the URL did not reach the page')
-  if (!has(html, 'Map evidence: 1100')) {
-    failures.push('map page: 1147 did not resolve to the 1100 snapshot — the evidence date is wrong or missing')
-  }
-  if (!has(html, 'Nothing here is a reconstruction of 1147')) {
-    failures.push('map page: the gap between the chosen year and the evidence year is not stated')
+  // The evidence date moved from its own card into the caption below the map when
+  // the owner removed that card. It still has to be SOMEWHERE: a map headed 1147
+  // while drawing 1100 is a claim nobody checked, and saying which year the
+  // borders belong to is this feature's one non-negotiable. Server-side the
+  // caption is not rendered — the geometry arrives by fetch — so what is asserted
+  // here is that the jump control resolved 1147 to the right neighbouring dates.
+  if (!has(html, '◀ 1100') || !has(html, '1200 ▶')) {
+    failures.push('map page: 1147 did not resolve to the 1100/1200 source dates')
   }
   if (!has(html, 'GPL-3.0')) failures.push('map page: the geometry licence is not attributed')
   // The year is typed as well as dragged. Both controls must be present: losing the

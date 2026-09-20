@@ -17,7 +17,6 @@ import {
   VIEW_WIDTH,
   articleHref,
   evidenceIsStale,
-  evidenceSentence,
   holderAt,
   nextSnapshot,
   parseTypedYear,
@@ -655,28 +654,18 @@ export function MapPageContent() {
               <span>{FIRST_YEAR}</span>
               <span>{LAST_YEAR}</span>
             </div>
-          </div>
-
-          {/*
-            The evidence notice. `aria-live` is polite and the text changes only
-            when the KEYFRAME changes, not on every one of 977 year values —
-            otherwise a screen reader announces the whole scrub.
-
-            It is loud only when the map is NOT showing the year asked for. On a
-            source year the notice is nearly content-free, and giving that a red
-            heading and three reserved lines turned the most important warning on
-            the page into furniture readers learn to skip. Proportionate, not
-            removed: the year and the evidence date must never read as one number,
-            and that is this feature's central promise.
-          */}
-          <div
-            className={`map-evidence${evidenceIsStale(resolution) ? ' is-stale' : ''}`}
-            aria-live="polite"
-          >
-            <p className="map-evidence-head">
-              {evidenceYear === null ? 'No map evidence' : `Map evidence: ${evidenceYear}`}
-            </p>
-            <p className="map-evidence-note">{evidenceSentence(year, resolution)}</p>
+            {/*
+              Jump to the source dates either side. These moved here when the
+              separate evidence card was removed: they are navigation, and
+              navigation belongs with the control it navigates.
+            */}
+            {/*
+              A background fetch is quiet but not silent — the map stays on screen
+              while it runs, so without this a slow connection looks like the map
+              ignoring the year you chose. Always occupies its line, hidden with
+              `visibility`, because appearing and disappearing is precisely what
+              moved the map before.
+            */}
             <p className="map-evidence-fetching" aria-hidden={!isFetching}>
               {isFetching && status === 'ready' ? `Fetching ${evidenceYear}…` : ' '}
             </p>
@@ -699,6 +688,7 @@ export function MapPageContent() {
               </button>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -919,14 +909,35 @@ export function MapPageContent() {
                 </div>
               )}
               </div>
-              <figcaption className="map-caption">
+              {/*
+                The caption carries the evidence date now that the separate card
+                is gone (owner instruction, 2026-09-20).
+
+                It had to move rather than disappear: the gaps here run to a
+                century, so a map headed 611 while showing 600 is making a claim
+                nobody checked, and saying which year the borders belong to is
+                this feature's one non-negotiable. Below the map is the right
+                place for it — the reader reads it having already looked at what
+                it describes, and nothing down here can push the map around when
+                its length changes, which is exactly what the old card did.
+
+                If the source ever reaches ten-year steps the gap becomes trivial
+                and this sentence can go quiet, which is the owner's point and a
+                reasonable place to end up.
+              */}
+              <figcaption className="map-caption" aria-live="polite">
                 {evidenceYear === null ? (
                   <>Nothing is mapped for {year}. Blank ground means no snapshot covers it.</>
                 ) : (
                   <>
-                    {polities.length} polities, reconstructed for {evidenceYear}. Every frontier shown
-                    is approximate — the source rates all of them at its lowest precision. Dashed
-                    edges are a reminder, not a distinction.
+                    <strong>{polities.length} polities, reconstructed for {evidenceYear}.</strong>{' '}
+                    {evidenceIsStale(resolution) && (
+                      <span className="map-caption-stale">
+                        Nothing here is a reconstruction of {year}.{' '}
+                      </span>
+                    )}
+                    Every frontier shown is approximate — the source rates all of them at its
+                    lowest precision. Dashed edges are a reminder, not a distinction.
                   </>
                 )}
               </figcaption>

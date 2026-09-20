@@ -5086,3 +5086,48 @@ a.tree-person:hover .tree-person-name {
   white-space: normal;
   max-width: 260px;
 }
+
+/* --- The evidence card is gone (owner instruction, 2026-09-20) ------------
+
+   It was a separate box beside the year, and it jittered: the heading changed
+   font-size when the dates diverged, so the whole card grew and shoved the map
+   down. Colour alone would have carried that; the size change was my error.
+
+   Rather than fix the jitter, the card is removed. The evidence date moved into
+   the caption BELOW the map, where the reader meets it having already looked at
+   what it describes, and where nothing it does can move the map. Its jump
+   buttons moved in with the year, since they are navigation and belong with the
+   control they navigate. */
+
+.map-controls {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.map-year {
+  display: grid;
+  gap: 0;
+}
+
+.map-jumps {
+  margin-top: 4px;
+}
+
+/* Two lines reserved, so the caption cannot change height either when the
+   stale sentence appears — the same discipline the old card failed at, applied
+   somewhere it costs nothing. */
+.map-caption {
+  min-height: calc(2 * 1.45em);
+}
+
+.map-caption strong {
+  color: #292a30;
+  font-weight: 800;
+}
+
+/* The one line that says the map is not of the year you chose. Red, because it
+   is the only warning left on the page — but it never changes the size of
+   anything, only its colour. */
+.map-caption-stale {
+  color: #b1192a;
+  font-weight: 780;
+}
