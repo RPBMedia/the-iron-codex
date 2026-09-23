@@ -1333,6 +1333,9 @@ figure.detail-media {
   left: 50%;
   width: 100cqh;
   height: 100cqw;
+  /* The box is wider than the frame until it is turned, so the global
+     img { max-width: 100% } would shrink it to three quarters. */
+  max-width: none;
   max-height: none;
   object-fit: contain;
   background: transparent;
