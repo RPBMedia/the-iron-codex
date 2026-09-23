@@ -274,6 +274,15 @@ These three standards are absolute and apply to **every** article of every type 
   Weapons & Armor only. The check is two-way: it also hard-fails an image whose
   caption or `creator` says "AI-generated" while the flag is unset, so the
   disclosure cannot be quietly dropped by clearing a boolean.
+- **Long objects stand upright on their detail page (owner request, 2026-09-23).**
+  A spear, lance, sword or gun shot lying down left a thin strip above a tall
+  empty gap. `imageInfo.rotateOnDetail: "cw" | "ccw"` turns the detail-page
+  image (only — cards and the full-screen view keep the file's orientation) so
+  the point or head is UP, in a 3:4 frame; `imageInfo.whiteGround: true` gives
+  an object on plain white a white frame. Set on 16 Weapons & Armor articles.
+  Not for scene photographs (a gallery, a display case, a museum label), which
+  would turn sideways with the object. A new long weapon on a plain ground gets
+  the same treatment.
 - **Locally hosted images are served as WebP (2026-09-23).** A new local image
   goes in as PNG/JPEG, then `npm i --no-save sharp && node
   scripts/optimize-images.mjs` converts it (≤1600 px, quality 82, never

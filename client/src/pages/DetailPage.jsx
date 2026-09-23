@@ -280,6 +280,37 @@ function ImageCredit({ info, children }) {
   )
 }
 
+/**
+ * A long object — a spear, a lance, a sword — photographed lying down reads as
+ * a thin strip on the detail page, with a tall empty gap beside the facts
+ * (owner report, 2026-09-23). `imageInfo.rotateOnDetail` ('cw' or 'ccw') stands
+ * it upright on the detail page ONLY, point or head up, in a portrait frame:
+ * cards keep the file's own orientation, which suits their wide frames, and so
+ * does the full-screen view, which suits a wide screen. `whiteGround` marks an
+ * object shot on plain white, whose frame is then white too — the object stands
+ * on its own ground rather than on a white strip between dark bars.
+ */
+function ArticleMainImage({ article, onError }) {
+  const info = article.imageInfo ?? {}
+  const image = (
+    <ZoomableImage src={article.image} alt={info.caption || article.name} onError={onError} />
+  )
+
+  if (info.rotateOnDetail !== 'cw' && info.rotateOnDetail !== 'ccw') return image
+
+  return (
+    <div
+      className={[
+        'detail-media-upright',
+        `upright-${info.rotateOnDetail}`,
+        info.whiteGround ? 'upright-white' : ''
+      ].filter(Boolean).join(' ')}
+    >
+      {image}
+    </div>
+  )
+}
+
 function ImageWithCaption({ article }) {
   const [failed, setFailed] = useState(false)
 
@@ -290,9 +321,8 @@ function ImageWithCaption({ article }) {
           <span>Image unavailable</span>
         </div>
       ) : (
-        <ZoomableImage
-          src={article.image}
-          alt={article.imageInfo?.caption || article.name}
+        <ArticleMainImage
+          article={article}
           onError={(event) => {
             reportArticleImageFailure(article, 'image', event.currentTarget.currentSrc || event.currentTarget.src)
             setFailed(true)

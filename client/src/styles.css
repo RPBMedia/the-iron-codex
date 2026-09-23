@@ -1302,6 +1302,47 @@ figure.detail-media {
   padding: 0;
 }
 
+/*
+ * Long objects stood upright on the detail page (imageInfo.rotateOnDetail;
+ * see ArticleMainImage in DetailPage.jsx). The frame is portrait, 3:4, so a
+ * spear or sword fills the column beside the facts instead of lying in a thin
+ * strip above an empty gap, and runs a third longer than it did lying down.
+ *
+ * The image is turned with a transform, which does not change its layout box,
+ * so its box is sized with the axes swapped: container query units make the
+ * image's width the frame's height and its height the frame's width. It is
+ * still `contain`, so the whole object always shows.
+ */
+.detail-media-upright {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  max-height: 82vh;
+  container-type: size;
+  overflow: hidden;
+  background: #111116;
+}
+
+.detail-media-upright.upright-white {
+  background: #ffffff;
+}
+
+.detail-media .detail-media-upright img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100cqh;
+  height: 100cqw;
+  max-height: none;
+  object-fit: contain;
+  background: transparent;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.detail-media .detail-media-upright.upright-ccw img {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
 .detail-media figcaption {
   display: grid;
   gap: 4px;

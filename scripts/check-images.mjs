@@ -491,6 +491,13 @@ function validateWeaponsArmorImageUnique(article, entry, primaryImageField) {
 function validateWeaponsArmorImageMetadata(article, entry) {
   const info = entry.imageInfo
   if (!info) return
+  // Detail-page orientation for long objects (DetailPage.jsx, ArticleMainImage).
+  if (info.rotateOnDetail !== undefined && !['cw', 'ccw'].includes(info.rotateOnDetail)) {
+    addFinding('weaponsArmor', article, 'imageInfo.rotateOnDetail', 'rotateOnDetail must be "cw" or "ccw"')
+  }
+  if (info.whiteGround !== undefined && typeof info.whiteGround !== 'boolean') {
+    addFinding('weaponsArmor', article, 'imageInfo.whiteGround', 'whiteGround must be true or false')
+  }
   for (const key of ['creator', 'date', 'note']) {
     if (!stringValue(info[key])) {
       addFinding('weaponsArmor', article, `imageInfo.${key}`, `weapons & armor imageInfo is missing "${key}"`)
