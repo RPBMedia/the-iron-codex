@@ -1,11 +1,22 @@
-import { getSearchCollections } from './api.js'
+import { getFullCollections, getStaticSearchIndex } from './api.js'
 import { clampText, leadText } from './pageMeta.js'
 
 let cachedIndexPromise
 
+/**
+ * The header search index, fetched once per visit and only when someone
+ * reaches for the search box (see GlobalSearch). The build writes it prebuilt
+ * to /data/search-index.json; without a build (`npm run dev`) it is built here
+ * from the API, exactly as before.
+ */
 export function getGlobalSearchIndex() {
   if (!cachedIndexPromise) {
-    cachedIndexPromise = getSearchCollections().then(buildSearchIndex)
+    cachedIndexPromise = getStaticSearchIndex()
+      .catch(() => getFullCollections().then(buildSearchIndex))
+      .catch((error) => {
+        cachedIndexPromise = undefined // let the next attempt retry
+        throw error
+      })
   }
 
   return cachedIndexPromise

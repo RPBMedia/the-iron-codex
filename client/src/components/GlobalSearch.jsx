@@ -5,15 +5,36 @@ import { getGlobalSearchIndex, searchArchive, shouldNavigateDirectly } from '../
 export default function GlobalSearch() {
   const [query, setQuery] = useState('')
   const [index, setIndex] = useState([])
+  const [indexStatus, setIndexStatus] = useState('idle')
   const [isOpen, setIsOpen] = useState(false)
   const [activeIndex, setActiveIndex] = useState(-1)
   const navigate = useNavigate()
   const searchRef = useRef(null)
   const suggestions = useMemo(() => searchArchive(index, query, 6), [index, query])
 
-  useEffect(() => {
-    getGlobalSearchIndex().then(setIndex).catch(() => setIndex([]))
-  }, [])
+  /**
+   * ⚠️ THE INDEX LOADS WHEN SOMEONE REACHES FOR THE BOX, NOT WITH THE PAGE.
+   * This component sits in the header of every page and used to fetch the
+   * whole archive on mount — 9.5 MB through the server function per visit,
+   * for a box most visitors never touch and no crawler ever types in. That
+   * alone took the site past Vercel's free 10 GB of origin transfer
+   * (2026-09-23). Focusing or typing starts the fetch — not hovering, which
+   * would download it for every mouse that crosses the header. The index is a
+   * static file now, and cached for the rest of the visit.
+   */
+  function loadIndex() {
+    if (indexStatus !== 'idle') return
+    setIndexStatus('loading')
+    getGlobalSearchIndex()
+      .then((loaded) => {
+        setIndex(loaded)
+        setIndexStatus('ready')
+      })
+      .catch(() => {
+        setIndex([])
+        setIndexStatus('idle') // try again on the next focus
+      })
+  }
 
   useEffect(() => {
     function handlePointerDown(event) {
@@ -27,7 +48,7 @@ export default function GlobalSearch() {
     return () => document.removeEventListener('pointerdown', handlePointerDown)
   }, [])
 
-  function submitSearch(event) {
+  async function submitSearch(event) {
     event.preventDefault()
     const trimmedQuery = query.trim()
 
@@ -35,7 +56,12 @@ export default function GlobalSearch() {
       return
     }
 
-    const results = searchArchive(index, trimmedQuery, 20)
+    // Enter can beat the index: wait for it rather than search nothing.
+    let searchIndex = index
+    if (indexStatus !== 'ready') {
+      searchIndex = await getGlobalSearchIndex().catch(() => [])
+    }
+    const results = searchArchive(searchIndex, trimmedQuery, 20)
 
     setIsOpen(false)
     setActiveIndex(-1)
@@ -88,14 +114,29 @@ export default function GlobalSearch() {
         aria-controls="global-search-suggestions"
         aria-expanded={isOpen && suggestions.length > 0}
         onChange={(event) => {
+          loadIndex()
           setQuery(event.target.value)
           setIsOpen(event.target.value.trim().length > 0)
           setActiveIndex(-1)
         }}
-        onFocus={() => setIsOpen(query.trim().length > 0)}
+        onFocus={() => {
+          loadIndex()
+          setIsOpen(query.trim().length > 0)
+        }}
         onKeyDown={handleKeyDown}
       />
       <button type="submit" aria-label="Search IronCodex">Search</button>
+
+      {isOpen && indexStatus === 'loading' && (
+        <div className="global-search-suggestions" aria-busy="true" aria-label="Loading search">
+          {[0, 1, 2].map((row) => (
+            <div className="search-skeleton-row" key={row}>
+              <span className="search-skeleton-line" />
+              <span className="search-skeleton-line short" />
+            </div>
+          ))}
+        </div>
+      )}
 
       {isOpen && suggestions.length > 0 && (
         <div className="global-search-suggestions" id="global-search-suggestions">

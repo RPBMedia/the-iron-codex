@@ -508,6 +508,20 @@ function validateLocalPath(collection, article, field, src) {
   if (!candidates.some((candidate) => fs.existsSync(candidate))) {
     addFinding(collection, article, field, 'local image file does not exist', src)
   }
+
+  // ⚠️ LOCALLY HOSTED IMAGES ARE SERVED AS WebP (2026-09-23). The originals
+  // were PNG/JPEG files of up to 3 MB each, and bandwidth on the free plan is
+  // metered. scripts/optimize-images.mjs converts them, keeps the originals in
+  // client/assets/originals/, writes the social card and rewrites the path.
+  if (/\.(png|jpe?g)$/i.test(src)) {
+    addFinding(
+      collection,
+      article,
+      field,
+      'locally hosted image is PNG/JPEG; run: npm i --no-save sharp && node scripts/optimize-images.mjs',
+      src
+    )
+  }
 }
 
 function validateUrlShape(collection, article, field, src) {

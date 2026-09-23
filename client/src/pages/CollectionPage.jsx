@@ -3,9 +3,9 @@ import { byRelevanceThen, matchesSearch, normalizeSearch } from '../lib/collecti
 import { useLocation, useNavigationType, useSearchParams } from 'react-router-dom'
 import ArticleCard from '../components/ArticleCard.jsx'
 import LoadingState from '../components/LoadingState.jsx'
-import { getCollection } from '../lib/api.js'
+import { getCollection, getCollectionText } from '../lib/api.js'
+import { centuryValue, dateValue, searchableText, typeLabel } from '../lib/archiveText.js'
 import { ARCHIVE_PAGE_SIZE, getRestorableSnapshot, useArchiveStateRestoration } from '../lib/archive.js'
-import { leadText } from '../lib/pageMeta.js'
 import { COLLECTION_LABEL, pageTitle } from '../lib/pageTitles.js'
 import { useDocumentTitle } from '../lib/useDocumentTitle.js'
 
@@ -59,6 +59,9 @@ export default function CollectionPage({ collection }) {
   const navigationType = useNavigationType()
   const [items, setItems] = useState([])
   const [status, setStatus] = useState('loading')
+  // Full article text for the search box, fetched on the first search rather
+  // than with the page: the cards alone are a tenth of the size.
+  const [textMap, setTextMap] = useState(null)
   // When returning to this archive (browser back/forward), restore the previously
   // loaded item count so the DOM is tall enough before scroll is restored.
   const [visibleCount, setVisibleCount] = useState(
@@ -80,9 +83,11 @@ export default function CollectionPage({ collection }) {
   const archiveState = useMemo(() => readArchiveState(searchParams, collection), [collection, searchParams])
   const filterConfigs = useMemo(() => getFilterConfigs(items, collection), [collection, items])
   const sortOptions = useMemo(() => getSortOptions(collection), [collection])
+  const searching = archiveState.search.trim().length > 0
+  const textPending = searching && textMap === null
   const filteredItems = useMemo(
-    () => filterItems(items, collection, archiveState, filterConfigs),
-    [archiveState, collection, filterConfigs, items]
+    () => filterItems(items, collection, archiveState, filterConfigs, textMap),
+    [archiveState, collection, filterConfigs, items, textMap]
   )
   const sortedItems = useMemo(
     () => sortItems(filteredItems, collection, archiveState.sort, archiveState.search),
@@ -97,6 +102,7 @@ export default function CollectionPage({ collection }) {
 
   useEffect(() => {
     setStatus('loading')
+    setTextMap(null)
     getCollection(collection)
       .then((data) => {
         setItems(data)
@@ -104,6 +110,16 @@ export default function CollectionPage({ collection }) {
       })
       .catch(() => setStatus('error'))
   }, [collection])
+
+  useEffect(() => {
+    if (!searching || textMap !== null) return
+    let cancelled = false
+    getCollectionText(collection)
+      .then((map) => { if (!cancelled) setTextMap(map) })
+      // Without the text the box still matches names, lead text and aliases.
+      .catch(() => { if (!cancelled) setTextMap({}) })
+    return () => { cancelled = true }
+  }, [collection, searching, textMap])
 
   useEffect(() => {
     if (previousSignature.current === filterSignature) return
@@ -188,11 +204,15 @@ export default function CollectionPage({ collection }) {
             </div>
           </div>
 
-          <div className="archive-count" aria-live="polite">
-            Showing {visibleItems.length} of {sortedItems.length} {copy.title.toLowerCase()}
-          </div>
+          {!textPending && (
+            <div className="archive-count" aria-live="polite">
+              Showing {visibleItems.length} of {sortedItems.length} {copy.title.toLowerCase()}
+            </div>
+          )}
 
-          {sortedItems.length > 0 ? (
+          {textPending ? (
+            <LoadingState label={`Searching ${copy.title.toLowerCase()}`} />
+          ) : sortedItems.length > 0 ? (
             <>
               <div className="list-grid">
                 {visibleItems.map((item) => (
@@ -239,19 +259,23 @@ function defaultSort(collection) {
   return collection === 'events' ? 'date-asc' : 'alpha'
 }
 
-// Folded searchable text per article, computed once rather than on every keystroke.
+// Folded searchable text per article. The build pre-folds the full text into
+// `textMap`; a card-only fold (names, lead text, aliases) covers a failed fetch.
+// Cached so it is not refolded on every keystroke.
 const foldedTextCache = new WeakMap()
 
-function foldedSearchableText(item, collection) {
+function foldedSearchableText(item, collection, textMap) {
+  const folded = textMap?.[item.id]
+  if (folded !== undefined) return folded
   if (!foldedTextCache.has(item)) foldedTextCache.set(item, normalizeSearch(searchableText(item, collection)))
   return foldedTextCache.get(item)
 }
 
-function filterItems(items, collection, archiveState, filterConfigs) {
+function filterItems(items, collection, archiveState, filterConfigs, textMap) {
   const search = archiveState.search.trim()
 
   return items.filter((item) => {
-    if (search && !matchesSearch(foldedSearchableText(item, collection), search)) {
+    if (search && !matchesSearch(foldedSearchableText(item, collection, textMap), search)) {
       return false
     }
 
@@ -420,63 +444,6 @@ function getFilterConfigs(items, collection) {
   }
 
   return configs.filter((config) => config.options.length > 0)
-}
-
-function searchableText(item, collection) {
-  const values = [
-    item.name,
-    leadText(item),
-    item.details,
-    item.eventType,
-    item.conflict,
-    item.locationType,
-    item.location,
-    item.kingdom,
-    item.weaponArmorType,
-    item.period,
-    item.region,
-    item.material,
-    item.battlefieldRole,
-    item.quickFacts?.realm,
-    item.quickFacts?.culture,
-    item.quickFacts?.knownFor,
-    // Civilizations: the endonym is often what a reader actually types
-    // (Gutthiuda, Rhomaioi), and it is not an alias of the modern name.
-    item.endonym,
-    item.civilizationType,
-    item.culturalFamily,
-    ...(item.aliases ?? []),
-    ...(item.roles ?? []),
-    ...(item.knownFor ?? []),
-    ...(item.contentSections ?? []).flatMap((section) => [section.title, ...(section.paragraphs ?? [])]),
-    typeLabel(item, collection),
-    centuryValue(dateValue(item))
-  ]
-
-  return values.filter(Boolean).join(' ').toLowerCase()
-}
-
-function dateValue(item, descending = false) {
-  const value = Number(item.year ?? item.originYear ?? item.born ?? item.birth?.date?.match(/\d+/)?.[0])
-
-  if (Number.isFinite(value)) {
-    return value
-  }
-
-  return descending ? Number.NEGATIVE_INFINITY : Number.POSITIVE_INFINITY
-}
-
-function centuryValue(year) {
-  if (!Number.isFinite(year)) {
-    return ''
-  }
-
-  const century = Math.ceil(year / 100)
-  return `${century}`
-}
-
-function typeLabel(item, collection) {
-  return item.eventType ?? item.locationType ?? item.weaponArmorType ?? item.title ?? collection
 }
 
 function uniqueOptions(values) {

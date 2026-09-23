@@ -405,6 +405,39 @@ nav {
   font-size: 0.94rem;
 }
 
+/* Result-shaped placeholders while the search index arrives (it loads on first
+   use, not with the page). */
+.search-skeleton-row {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-bottom: 1px solid rgba(141, 147, 159, 0.18);
+}
+
+.search-skeleton-line {
+  display: block;
+  height: 12px;
+  width: 62%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(141, 147, 159, 0.16) 0%, rgba(141, 147, 159, 0.32) 50%, rgba(141, 147, 159, 0.16) 100%);
+  background-size: 200% 100%;
+  animation: search-skeleton-shimmer 1.2s ease-in-out infinite;
+}
+
+.search-skeleton-line.short {
+  width: 24%;
+  height: 9px;
+}
+
+@keyframes search-skeleton-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -100% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-skeleton-line { animation: none; }
+}
+
 .global-search-suggestions span {
   color: #8f6b1d;
   font-size: 0.76rem;

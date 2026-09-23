@@ -7,6 +7,31 @@ not the original brief. Open items stay in `QUEUE.md`; standards live in
 
 ---
 
+## Bandwidth: off the server function — closed 2026-09-23
+
+The site went past Vercel's free **10 GB of Fast Origin Transfer** (11.2 GB in
+30 days, most of it in the last four). That meter only counts traffic through
+the server function, and the cause was not the images: the header search box
+fetched **all eight collections, 9.5 MB, through the function on every visit**,
+uncached, and the archive and article pages fetched theirs the same way.
+
+- **Static data.** `scripts/build-static-data.mjs` writes cards, per-collection
+  search text, every enriched article and the header search index to
+  `client/dist/data/` at build; the app reads those first (`lib/api.js`) and
+  keeps the API as the fallback. Cards for all eight collections: ~200 KB
+  gzipped (People 4 MB → 78 KB).
+- **Search loads on use.** The header index loads on focus or typing, not with
+  the page; an archive page's box fetches its full text on the first keystroke.
+- **API cached.** `/api/:collection(/:id)` carry `s-maxage=3600`; `/api/home`
+  stays uncached (personalised).
+- **Images as WebP.** 62 local images, 41.8 MB → 9.2 MB, ≤1600 px
+  (`scripts/optimize-images.mjs`); originals in `client/assets/originals/`;
+  JPEG social cards kept; `check-images` now fails on a local PNG/JPEG.
+
+Expected: origin transfer ~97–99% lower at the same traffic.
+
+---
+
 ## The fourteen approved rulers — queue item 0s — closed 2026-09-17
 
 All fourteen are written: Alfonso X of Castile, Stephen I of Hungary, Ine of

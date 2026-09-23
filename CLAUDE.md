@@ -4,6 +4,8 @@
 
 The archive lives in `server/data/archive/<collection>/<id>.json`, one file per article, with `server/data/archive/index.json` recording each collection's order. Read it with `loadArchive()` and write it with `saveArchive()` from `server/data/archive.mjs`. Saving rewrites only the articles that changed. `history.json` no longer exists: it was split on 2026-09-15 (QUEUE 0m, M1) so the archive can grow for the rulers program. Any mention of `history.json` below means the archive. The one-off content scripts that used it are kept in `scripts/archive/` as a record, and must not be run.
 
+**The app reads the archive from static files, not the API (2026-09-23).** The build writes cards, search text, articles and the search index to `client/dist/data/` (`scripts/build-static-data.mjs`); `client/src/lib/api.js` falls back to the API only when a file is missing (e.g. `npm run dev`). A field an archive card, filter or the index page reads must be listed in `client/src/lib/archiveCards.js`, or it is undefined on every card. Reason: fetching whole collections through the function took the site past Vercel's free origin-transfer allowance.
+
 These rules apply to all future work on IronCodex.
 
 ## Communication Style and Personality
@@ -272,6 +274,13 @@ These three standards are absolute and apply to **every** article of every type 
   Weapons & Armor only. The check is two-way: it also hard-fails an image whose
   caption or `creator` says "AI-generated" while the flag is unset, so the
   disclosure cannot be quietly dropped by clearing a boolean.
+- **Locally hosted images are served as WebP (2026-09-23).** A new local image
+  goes in as PNG/JPEG, then `npm i --no-save sharp && node
+  scripts/optimize-images.mjs` converts it (≤1600 px, quality 82, never
+  cropped), moves the original to `client/assets/originals/`, writes its JPEG
+  social card and rewrites the archive path. `check-images` fails on a local
+  PNG/JPEG. Reason: bandwidth is metered on the free plan, and the originals
+  were up to 3 MB each.
 - **Where owner-supplied images live (2026-09-07).** `client/assets/` is the
   originals folder and **is not served** — Vite serves `client/public/` only, and
   `check-images` resolves local `/…` paths against `client/public` and

@@ -24,6 +24,7 @@
 | SEO verification | — | Appendix E | Reference how-to, not work |
 | **Interactive historical map** | **0v** | **Appendix F** | **Shipped 2026-09-20, admin-only.** `/map` — 11 dated snapshots, camera presets, pan/zoom, cross-fade, coverage inventory. Last step before public: remove `MAP_IS_ADMIN_ONLY` |
 | **Map granularity: source search** | **0x** | — | **PARAMOUNT, not started.** Decade steps or better. Needs a source; OHM tried and rejected. Screening question and candidate list in the item |
+| Bandwidth (Vercel free tier) | — | COMPLETED_ROADMAP | **Shipped 2026-09-23.** Owner: check Usage → Fast Origin Transfer falls over the next days (the 11.2 GB already used rolls off over 30 days) |
 | **Map article coverage** | **0w** | — | **NOT STARTED.** 212 territories the map draws have no article; ~150 are polities, ~62 are peoples and cannot be locations. Blocked on the source question |
 
 

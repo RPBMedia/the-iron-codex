@@ -976,6 +976,19 @@ app.get('/api/home', async (req, res) => {
   })
 })
 
+/**
+ * The read-only archive endpoints may be cached by Vercel's CDN for an hour.
+ *
+ * They answer the same for every visitor (no cookie is read), and since
+ * 2026-09-23 the app reads static files built from the same data first
+ * (scripts/build-static-data.mjs), so these are a fallback. Cached, even the
+ * fallback mostly stays off the function — the traffic through which is what
+ * the free plan meters (Fast Origin Transfer). An hour, not a year: the site
+ * deploys many times a day, and a stale fallback should not outlive one.
+ * `/api/home` is NOT cached: it is personalised for signed-in readers.
+ */
+const ARCHIVE_CACHE = 'public, max-age=0, s-maxage=3600'
+
 app.get('/api/:collection', (req, res) => {
   const collectionName = apiCollectionName(req.params.collection)
   const items = collections()[collectionName]
@@ -984,6 +997,7 @@ app.get('/api/:collection', (req, res) => {
     return res.status(404).json({ message: 'Collection not found' })
   }
 
+  res.set('Cache-Control', ARCHIVE_CACHE)
   res.json(collectionName === 'events' ? sortChronologically(items) : items)
 })
 
@@ -1002,6 +1016,7 @@ app.get('/api/:collection/:id', (req, res) => {
     return res.status(404).json({ message: 'Article not found' })
   }
 
+  res.set('Cache-Control', ARCHIVE_CACHE)
   res.json(enrichArticle(article, collections()))
 })
 
